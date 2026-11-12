@@ -1,3 +1,4 @@
+import { companiesElicitMap } from "./companies-elicit-map";
 import { ucsfBreastTrials } from "./ucsf-breast-trials";
 import { trop2PreclinicalWatch } from "./trop2-preclinical-watch";
 import { trop2EmergingModalities } from "./trop2-emerging-modalities";
@@ -444,6 +445,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...companiesWave1,
   ...companiesYc,
   ...companiesStartups,
+  ...companiesElicitMap,
   ...companiesDealParties,
   ...investors,
   ...roadmapsWave2,

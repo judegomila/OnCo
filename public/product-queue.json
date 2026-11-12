@@ -18,15 +18,6 @@
     "state": "waiting"
   },
   {
-    "branch": "product/cross-links-2026-11",
-    "why": "drug availability by country, and trials recruiting here on country and institution pages",
-    "pr": "https://github.com/judegomila/OnCo/pull/397",
-    "preview": "",
-    "files": 42,
-    "proposed": "2026-11-12",
-    "state": "waiting"
-  },
-  {
     "branch": "product/glossary-case-sensitive-acronyms",
     "why": "glossary acronyms match only in capitals",
     "pr": "https://github.com/judegomila/OnCo/pull/400",

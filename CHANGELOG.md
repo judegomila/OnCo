@@ -7,13 +7,21 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 12 November 2026
+- Drug pages answer whether a medicine is available in your country, with approval, who pays and help with the cost, and country and institution pages list the trials recruiting there, counted only where that site's own registry status says recruiting
 - Glossary links no longer fire on ordinary words such as has, cure, prior and bleeding, and the care protocols now list the supportive medicines their steps name, so each medicine's page shows the protocols that use it
 - Forty-three everyday medicines the care protocols name now have records (blood thinners, anti-sickness drugs, pain relief, antibiotics and antivirals among them), with three line types and thirteen glossary terms; and three China approvals now rest on the makers' own exchange announcements, with two indications corrected
+- chore: refresh pulse, abstract and citation snapshots (#405)
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- chore: refresh institution research output from OpenAlex (#404)
+- chore: draft change proposals that need review (#403)
 
 ### 11 November 2026
+- Glossary links no longer fire on ordinary words such as has, cure, prior and bleeding, and the care protocols now list the supportive medicines their steps name, so each medicine's page shows the protocols that use it
 - The care protocols now list the everyday medicines their own steps name, so 40 of the 43 medicines added in the November supportive care fill show the protocols that use them: blood thinners on the clot and endoscopy protocols, anti-sickness drugs, opioids, antibiotics, antivirals and the immune-toxicity rescue drugs
 - Glossary links no longer fire on ordinary words: "has" stops linking to health technology assessment, and 57 other aliases that named something else leave the hover matcher or are qualified
 - Forty-three everyday medicines the care protocols name now have records (blood thinners, anti-sickness drugs, pain relief, antibiotics and antivirals among them), with three line types and thirteen glossary terms; and three China approvals now rest on the makers' own exchange announcements, with two indications corrected
+- The availability table says each payer once and keeps its rows short on a phone
+- Drug pages say where a drug is available and country and institution pages list the trials recruiting there
 - Three China approvals now rest on the makers' own exchange announcements, marked as reported by the company with the regulator notice not read
 - Care protocols arrive: 190 sourced protocols for every part of cancer care, each step with its reason, source, grade and quote, best practice set beside named variants, linked from cancer, drug, device, side-effect, red-card and first-60-days pages; and every country in GLOBOCAN now has a page, with France's overseas departments on the France page
 - Forty-three medicines used in cancer care, three vascular access devices and thirteen glossary terms join the corpus, each from its label or a guideline

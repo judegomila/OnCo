@@ -1,11 +1,36 @@
-# Change proposals 2026-11-11
+# Change proposals 2026-11-12
 
-Drafted by scripts/propose-updates.ts from: factcheck 2026-11-09, trialChanges 2026-11-09, fda 2026-11-04, regional 2026-11-04.
+Drafted by scripts/propose-updates.ts from: factcheck 2026-11-09, trialChanges 2026-11-09, fda 2026-11-11, regional 2026-11-11.
 
 Review each line against its source. Apply by editing the file named; nothing in this list is applied automatically. EMA rows carry the reason a person is needed; the rows that passed every check were written on the auto branch by scripts/apply-proposals.ts and are listed at the end.
 
-## High confidence (17)
+## High confidence (19)
 
+- [ ] **Pimicotinib** ([page](https://onco.cc/drugs/pimicotinib/)) · regulatory-event · `regulatoryEvents`
+  - current: 0 events; none dated 2026-11-10
+  - proposed: { date: "2026-11-10", type: "approval", region: "US", note: "approves pimicotinib for symptomatic tenosynovial giant cell tumor", source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-pimicotinib-symptomatic-tenosynovial-giant-cell-tumor" }
+  - evidence: On November 10, 2026, the Food and Drug Administration approved pimicotinib (Pimjetmi, EMD Serono, Inc.), a kinase inhibitor, for adults with symptomatic tenosynovial giant cell tumor (TGCT) for which surgical resection may cause worsening functional limitation or severe morbidity. ([source](https://www.fda.gov/drugs/cancer-approvals/fda-approves-pimicotinib-symptomatic-tenosynovial-giant-cell-tumor))
+  - file: `src/data/drugs-pipeline-wave7.ts:274`
+- [ ] **Amivantamab** ([page](https://onco.cc/drugs/amivantamab/)) · regulatory-event · `regulatoryEvents`
+  - current: 6 events; none dated 2026-11-05
+  - proposed: { date: "2026-11-05", type: "approval", region: "US", note: "grants accelerated approval to amivantamab and hyaluronidase-lpuj for recurrent or metastatic head and neck squamous cell carcinoma (accelerated)", source: "https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-amivantamab-and-hyaluronidase-lpuj-recurrent-or-metastatic-head-and" }
+  - evidence: On November 5, 2026, the Food and Drug Administration granted accelerated approval to amivantamab and hyaluronidase-lpuj (Rybrevant Faspro, Janssen Biotech, Inc.) for adults with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) whose disease has progressed on or after platinum-b ([source](https://www.fda.gov/drugs/cancer-approvals/fda-grants-accelerated-approval-amivantamab-and-hyaluronidase-lpuj-recurrent-or-metastatic-head-and))
+  - file: `src/data/drugs.ts:366`
+- [ ] **Enzalutamide** ([page](https://onco.cc/drugs/enzalutamide/)) · regulatory-event · `regulatoryEvents`
+  - current: 1 events; none dated 2026-10-26
+  - proposed: { date: "2026-10-26", type: "approval", region: "US", note: "approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations", source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive" }
+  - evidence: On October 26, 2026, the Food and Drug Administration (FDA) approved talazoparib (Talzenna, Pfizer Inc.) in combination with enzalutamide for the treatment of adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer with homologous recombination repair (HRR) g ([source](https://www.fda.gov/drugs/cancer-approvals/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive))
+  - file: `src/data/interactions.ts:112`
+- [ ] **Trastuzumab** ([page](https://onco.cc/drugs/trastuzumab/)) · regulatory-event · `regulatoryEvents`
+  - current: 7 events; none dated 2026-10-07
+  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
+  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/cancer-approvals/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
+  - file: `src/data/drugs.ts:706`
+- [ ] **Pertuzumab** ([page](https://onco.cc/drugs/pertuzumab/)) · regulatory-event · `regulatoryEvents`
+  - current: 6 events; none dated 2026-10-07
+  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/cancer-approvals/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
+  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/cancer-approvals/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
+  - file: `src/data/spikes/breast-her2-positive.ts:168`
 - [ ] **EPCORE DLBCL-1** ([page](https://onco.cc/trials/epcore-dlbcl-1/)) · trial-results · `result / outcomes`
   - current: PFS HR 0.74; OS HR 0.96 (NS).
   - proposed: add the posted primary outcome with the registry as source
@@ -16,11 +41,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add the posted primary outcome with the registry as source
   - evidence: ClinicalTrials.gov now has posted results for NCT04005339 (detected 2026-11-02). ([source](https://clinicaltrials.gov/study/NCT04005339?tab=results))
   - file: `src/data/spikes/gallbladder-registry-trials.ts:99`
-- [ ] **Enzalutamide** ([page](https://onco.cc/drugs/enzalutamide/)) · regulatory-event · `regulatoryEvents`
-  - current: 1 events; none dated 2026-10-26
-  - proposed: { date: "2026-10-26", type: "approval", region: "US", note: "approves talazoparib with enzalutamide for metastatic androgen pathway modulation-naïve or -sensitive prostate cancer with HRR gene mutations", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive" }
-  - evidence: On October 26, 2026, the Food and Drug Administration (FDA) approved talazoparib (Talzenna, Pfizer Inc.) in combination with enzalutamide for the treatment of adults with metastatic androgen pathway modulation-naïve or -sensitive (mAPMN/S) prostate cancer with homologous recombination repair (HRR) g ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-talazoparib-enzalutamide-metastatic-androgen-pathway-modulation-naive-or-sensitive))
-  - file: `src/data/interactions.ts:112`
 - [ ] **KEYNOTE-522** ([page](https://onco.cc/trials/keynote-522/)) · trial-results · `result / outcomes`
   - current: EFS HR 0.63; OS HR 0.66 (5-year); 7-year OS 85.1% vs 77.2%.
   - proposed: add the posted primary outcome with the registry as source
@@ -36,16 +56,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add the posted primary outcome with the registry as source
   - evidence: ClinicalTrials.gov now has posted results for NCT05210790 (detected 2026-10-26). ([source](https://clinicaltrials.gov/study/NCT05210790?tab=results))
   - file: `src/data/polycythaemia-vera.ts:114`
-- [ ] **Trastuzumab** ([page](https://onco.cc/drugs/trastuzumab/)) · regulatory-event · `regulatoryEvents`
-  - current: 7 events; none dated 2026-10-07
-  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
-  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
-  - file: `src/data/drugs.ts:706`
-- [ ] **Pertuzumab** ([page](https://onco.cc/drugs/pertuzumab/)) · regulatory-event · `regulatoryEvents`
-  - current: 6 events; none dated 2026-10-07
-  - proposed: { date: "2026-10-07", type: "approval", region: "US", note: "approves tucatinib with trastuzumab and pertuzumab for the maintenance treatment of HER2-positive breast cancer", source: "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer" }
-  - evidence: On October 7, 2026, the Food and Drug Administration approved tucatinib (Tukysa, Seagen Inc., a subsidiary of Pfizer) in combination with trastuzumab and pertuzumab for the maintenance treatment of adults with unresectable locally advanced or metastatic HER2-positive breast cancer following inductio ([source](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer))
-  - file: `src/data/spikes/breast-her2-positive.ts:168`
 - [ ] **Study Of Palbociclib Combined With Chemotherapy In Pediatric Patients With Recurrent/Refractory Solid Tumors** ([page](https://onco.cc/trials/nct03709680/)) · trial-results · `result / outcomes`
   - current: (none)
   - proposed: add the posted primary outcome with the registry as source
@@ -1511,7 +1521,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - evidence: Primary completion date moved from 2026-10-18 to 2027-05-18; check the readout calendar entry. ([source](https://clinicaltrials.gov/study/NCT07016230))
   - file: `src/data/spikes/lung-registry-trials.ts:1748`
 
-## Low confidence (51)
+## Low confidence (50)
 
 - [ ] **A Phase II Study of HS-20093 Injection Combined With Adebrelimab Versus HS-20093 Injection in Previously Treated Patients With Advanced or Metastatic Non-Squamo** ([page](https://onco.cc/trials/nct07824882/)) · trial-status · `status`
   - current: planned
@@ -1683,11 +1693,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add product autologous CD34+ enriched cell fraction that contains CD34+ cells transduced with retroviral vector that encodes for the human ADA cDNA sequence (Strimvelis) with the EU status the register page shows
   - evidence: EMA register: Strimvelis (autologous CD34+ enriched cell fraction that contains CD34+ cells transduced with retroviral vector that encodes for the human ADA cDNA sequence) Authorised, 2016-05-26. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2016-05-26. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/strimvelis))
   - why a person: no corpus product is named exactly autologous CD34+ enriched cell fraction that contains CD34+ cells transduced with retroviral vector that encodes for the human ADA cDNA sequence / autologous CD34+ enriched cell fraction that contains CD34+ cells transduced with retroviral vector that encodes for the human adenosine deaminase (ADA) cDNA sequence from human haematopoietic stem/progenitor (CD34+) cells / Strimvelis
-- [ ] **Entyvio** · new-product · `new drug record`
-  - current: (not in corpus)
-  - proposed: add product vedolizumab (Entyvio) with the EU status the register page shows
-  - evidence: EMA register: Entyvio (vedolizumab) Authorised, 2014-05-22. Register page: "Authorised: This medicine is authorised for use in the European Union", authorised 2014-05-22. ([source](https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio))
-  - why a person: no corpus product is named exactly vedolizumab / vedolizumab / Entyvio
 - [ ] **Procysbi** · new-product · `new drug record`
   - current: (not in corpus)
   - proposed: add product mercaptamine (Procysbi) with the EU status the register page shows
@@ -1757,6 +1762,7 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add phase 3 trial NCT04543617 for Tiragolumab with status completed
   - evidence: A phase 3 study of Tiragolumab moved from ACTIVE_NOT_RECRUITING to COMPLETED (detected 2026-09-17). ([source](https://clinicaltrials.gov/study/NCT04543617))
 
-## EMA rows decided without a person (0 written, 4 already on main)
+## EMA rows decided without a person (2 written, 0 already on main)
 
-None this run.
+- vedolizumab: EU approved 2014 ("Authorised: This medicine is authorised for use in the European Union", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio))
+- mangafodipir: EU withdrawn 2012 ("Withdrawn: This medicine's authorisation has been withdrawn", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/teslascan))

@@ -34,6 +34,15 @@ describe("entity matcher", () => {
     expect(hits.map((h) => h.ref.id)).toEqual(["trop2"]);
   });
 
+  it("matches an entry marked exact only in its own case: HAS, not has", () => {
+    const m2 = buildMatcher<Ref>([{ pattern: "HAS", ref: { id: "has-france" }, exact: true }, { pattern: "trastuzumab", ref: { id: "trastuzumab" } }]);
+    const found = (text: string) => findMatches(m2, text, { key: (r) => r.id }).map((h) => text.slice(h.start, h.end));
+    expect(found("The trial has reported.")).toEqual([]);
+    expect(found("Has it reported? It has.")).toEqual([]);
+    expect(found("HAS appraised it in 2024.")).toEqual(["HAS"]);
+    expect(found("Trastuzumab, then trastuzumab.")).toEqual(["Trastuzumab"]); // other entries stay case-insensitive
+  });
+
   it("scan reports every boundary-valid occurrence including overlaps", () => {
     expect(scan(m, "HER2-low").map((h) => h.ref.id).sort()).toEqual(["her2-low"]);
     expect(scan(m, "HER2 low").map((h) => h.ref.id)).toEqual(["her2"]);
@@ -81,5 +90,17 @@ describe("corpus auto-linking", () => {
     // A real pair still links from each half.
     expect(byPattern.get("her2-ultralow")?.route).toBe("/terms/her2-low/");
     expect(byPattern.get("eqd2")?.kind).toBe("term");
+  });
+
+  it("links an acronym of two to five capitals only where it is written in capitals", () => {
+    // "HAS" linked every "has" on the site, and MUST, FIT and LET did the same for "must", "fit" and "let".
+    const labels = (text: string) => termMarks(text, 12).map((mk) => text.slice(mk.s, mk.e));
+    expect(labels("The test has a result you must act on if it is fit to let you go home.")).toEqual([]);
+    expect(labels("Screening used the MUST tool, a FIT, and protons with a high LET.")).toEqual(expect.arrayContaining(["MUST", "FIT", "LET"]));
+    const exact = entityPatterns().filter((p) => p.exact).map((p) => p.pattern);
+    expect(exact).toContain("FIT");
+    expect(exact.every((s) => /^[A-Z]{2,5}$/.test(s))).toBe(true);
+    // A mixed-case or longer name keeps matching in any case.
+    expect(entityPatterns().find((p) => p.pattern === "HER2-low")?.exact).toBeUndefined();
   });
 });

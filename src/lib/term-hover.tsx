@@ -14,13 +14,20 @@ const STOP = new Set(["cancer", "cell", "cells", "blood", "brain", "skin", "bone
 /** Two-letter glossary aliases worth linking despite the length floor: overall survival and lines of therapy. */
 const SHORT_OK = new Set(["os", "1l", "2l", "3l"]);
 
+/**
+ * An acronym of two to five capital letters links only where the text writes it in capitals. The matcher is otherwise
+ * case-insensitive, and these acronyms are also ordinary words: "HAS" (France's Haute Autorité de Santé) linked every
+ * "has" on the site, and MUST, FIT, LET, PIN, ETC, BEST, CARE and OPEN did the same for "must", "fit", "let" and the rest.
+ */
+const ACRONYM = /^[A-Z]{2,5}$/;
+
 /** Bracketed abbreviation in a record name: "Progression-free survival (PFS)" gives "PFS". */
 const abbrOf = (name: string) => name.match(/\(([A-Za-z0-9\-/ ]{2,12})\)/)?.[1];
 
 /** Name and alias patterns for every linkable record, deduplicated (glossary terms win on ties). */
-export function entityPatterns(): Array<{ pattern: string; ref: TermRef }> {
+export function entityPatterns(): Array<{ pattern: string; ref: TermRef; exact?: boolean }> {
   const g = graph();
-  const entries: Array<{ pattern: string; ref: TermRef }> = [];
+  const entries: Array<{ pattern: string; ref: TermRef; exact?: boolean }> = [];
   // Names, aliases and abbreviations owned by non-glossary records. A glossary term's bracketed qualifier
   // must not claim them: "Ulceration (melanoma)" is not the place "melanoma" should link.
   const owned = new Set<string>();
@@ -45,7 +52,7 @@ export function entityPatterns(): Array<{ pattern: string; ref: TermRef }> {
       if (!s || (s.length < min && !(k === "term" && SHORT_OK.has(s.toLowerCase()))) || /^\d+$/.test(s) || STOP.has(s.toLowerCase())) continue;
       // Short all-lower-case words from non-glossary kinds are usually ordinary words; skip them.
       if (k !== "term" && /^[a-z]+$/.test(s) && s.length < 6) continue;
-      entries.push({ pattern: s, ref });
+      entries.push(ACRONYM.test(s) ? { pattern: s, ref, exact: true } : { pattern: s, ref });
     }
   }
   const seen = new Set<string>();

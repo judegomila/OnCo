@@ -2,13 +2,14 @@
  * Aho-Corasick matcher for entity names in prose. Builds one automaton over every name and alias
  * (lower-cased) and scans a paragraph once, instead of running thousands of regular expressions.
  *
- * Match rules: case-insensitive; a hit must sit on word boundaries (no letter, digit or hyphen on either
+ * Match rules: case-insensitive unless an entry is marked `exact` (then the text must match the pattern's case, so the
+ * acronym "HAS" is not found in the word "has"); a hit must sit on word boundaries (no letter, digit or hyphen on either
  * side, so "HER2" does not fire inside "HER2-low", and "PD-1" does not fire inside "PD-L1"); when hits
  * overlap the leftmost one wins, and among hits starting at the same place the longest wins, so
  * "HER2-low" beats "HER2". Pure and browser-safe.
  */
 
-export type MatchEntry<T> = { pattern: string; ref: T };
+export type MatchEntry<T> = { pattern: string; ref: T; /** Match only in the pattern's own case. */ exact?: boolean };
 export type Match<T> = { start: number; end: number; ref: T; pattern: string };
 
 type Node = { next: Map<string, number>; fail: number; out: number[] };
@@ -60,6 +61,7 @@ export function scan<T>(m: Matcher<T>, text: string): Match<T>[] {
       const e = m.entries[ei];
       const start = i - e.pattern.length + 1, end = i + 1;
       if (isWordChar(src[start - 1]) || isWordChar(src[end])) continue;
+      if (e.exact && text.slice(start, end) !== e.pattern) continue;
       hits.push({ start, end, ref: e.ref, pattern: e.pattern });
     }
   }

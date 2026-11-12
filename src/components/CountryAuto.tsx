@@ -5,10 +5,8 @@ import { routeFor } from "@/lib/kinds";
 import { GLOBOCAN, type CountrySite } from "@/lib/globocan";
 import { QUEUE_URL, type AutoCountry, type MethodNote } from "@/lib/country-pages";
 import { REGION_META, REGIONS } from "@/lib/region-meta";
-import { pageRows } from "@/lib/static-tables";
-import { COUNTRY_TRIAL_COLUMNS, countryTrialRows, countryTrialsTableId } from "@/lib/tables/country-trials";
 import { ChipList, Container, EntityCard, GroupKicker, PageHeader } from "./ui";
-import { StaticTable } from "./filters/StaticTable";
+import { CountryTrialsBody, countryTrialsAside } from "./TrialsHere";
 import { GeoGlyphIcon, type GeoGlyphName } from "./GeoGlyph";
 
 /**
@@ -74,8 +72,6 @@ export function CountryAuto({ c }: { c: AutoCountry }) {
   const all = c.all;
   const topThree = c.byIncidence.slice(0, 3).map((s) => lowerSite(s.label));
   const neighbours = c.methodInc.neighbours || c.methodMort.neighbours;
-  const tables = pageRows(countryTrialsTableId(c.iso2), countryTrialRows(c.trials));
-  const fetched = c.trials.flatMap((t) => (t.participation ?? []).map((p) => p.fetchedAt.slice(0, 10))).sort();
   const regionsLabel = list(REGIONS.map((r) => REGION_META[r].label));
   const holds = [
     c.trials.length ? plural(c.trials.length, "trial") + " with a site there" : null,
@@ -136,15 +132,8 @@ export function CountryAuto({ c }: { c: AutoCountry }) {
         </section>
 
         <section className="mt-10" aria-labelledby="trials">
-          <H2 id="trials" glyph="list" title="Trials with a site here" aside={<span className="text-sm text-muted">{c.trials.length ? `${plural(c.trials.length, "trial")} in OnCo · ${c.recruiting.toLocaleString("en-GB")} recruiting overall` : null}</span>} />
-          {c.trials.length ? (
-            <>
-              <StaticTable rows={tables.rows} more={tables.more} columns={COUNTRY_TRIAL_COLUMNS} noun="trials" />
-              <p className="mt-3 text-xs text-muted">Trial records in OnCo whose ClinicalTrials.gov entry lists at least one site in {c.name}, captured {fetched[0]} to {fetched.at(-1)}. Recruiting first, then the most recently updated. The status is the study&apos;s overall status; whether a site in {c.name} is open is on the registry page, under Contacts and Locations.</p>
-            </>
-          ) : (
-            <p className="text-sm">No trial record in OnCo lists a site in {c.name}. OnCo reads sites from ClinicalTrials.gov; studies registered only elsewhere are searchable through the <a href="https://trialsearch.who.int/" className="underline" rel="noopener">WHO International Clinical Trials Registry Platform</a>.</p>
-          )}
+          <H2 id="trials" glyph="list" title="Trials recruiting here" aside={<span className="text-sm text-muted">{countryTrialsAside(c.iso2)}</span>} />
+          <CountryTrialsBody iso2={c.iso2} />
         </section>
 
         <section className="mt-10" aria-labelledby="who">

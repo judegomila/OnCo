@@ -7,7 +7,8 @@ import { autoCountry, countryIndex } from "@/lib/country-pages";
 import { GLOBOCAN } from "@/lib/globocan";
 import { pageRows } from "@/lib/static-tables";
 import { pagedTables } from "@/lib/tables";
-import { countryTrialRows, countryTrialsTableId } from "@/lib/tables/country-trials";
+import { COUNTRY_TRIALS_PAGE, countryTrialRows, countryTrials, countryTrialsTableId } from "@/lib/tables/country-trials";
+import { recruitingIn } from "@/lib/trials-here";
 
 /**
  * The automatic country pages render from data alone. Three shapes: a small Pacific island whose incidence IARC
@@ -50,13 +51,15 @@ describe("automatic country pages", () => {
     const c = autoCountry("pe")!;
     expect(c.trials.length).toBeGreaterThan(30);
     const html = await render("pe");
-    expect(html).toContain(`${c.trials.length} trials in OnCo`);
-    const rows = countryTrialRows(c.trials);
-    const paged = pageRows(countryTrialsTableId("PE"), rows);
+    expect(html).toContain(`${recruitingIn("PE").length} recruiting here · ${c.trials.length} with a site here`);
+    const list = countryTrials("PE");
+    expect(list.map((x) => x.trial.id).sort()).toEqual(c.trials.map((t) => t.id).sort());
+    const rows = countryTrialRows(list);
+    const paged = pageRows(countryTrialsTableId("PE"), rows, COUNTRY_TRIALS_PAGE);
     expect(paged.more?.src).toBe("/api/v1/tables/country-trials-pe.json");
     expect(pagedTables().map((t) => t.id)).toContain("country-trials-pe");
-    expect(html).toContain(`href="/trials/${c.trials[0].id}`);
-    expect(html).not.toContain(`href="/trials/${c.trials.at(-1)!.id}`);
+    expect(html).toContain(`href="/trials/${list[0].trial.id}`);
+    expect(html).not.toContain(`href="/trials/${list.at(-1)!.trial.id}`);
     for (const e of c.institutions) expect(html).toContain(e.name.replace(/&/g, "&amp;").replace(/'/g, "&#x27;"));
   });
 

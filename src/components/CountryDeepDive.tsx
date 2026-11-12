@@ -2,6 +2,7 @@ import Link from "next/link";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { regionalApprovals, REGION_META, type Region } from "@/data/regional-approvals";
 import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
@@ -104,7 +105,7 @@ export function CountryDeepDive({ dive }: { dive: CountryDive }) {
 
   const nav: Array<[string, string]> = [
     ...dive.sections.map((s) => [`#${s.id}`, s.nav] as [string, string]),
-    ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"],
+    ["#institutions", "Institutions"], ["#companies", "Companies"], ["#recruiting", "Recruiting here"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"],
   ];
 
   return (
@@ -152,6 +153,8 @@ export function CountryDeepDive({ dive }: { dive: CountryDive }) {
         <Section id="companies" title="Companies and trial groups" aside={<span className="text-sm text-muted">{allCompanies} companies in {dive.name} in the corpus · <Link href="/companies/" className="underline">all companies</Link></span>}>
           <Grid items={companies} />
         </Section>
+
+        <CountryTrialsSection iso2={dive.iso2} />
 
         <Section id="trials" title="Notable trials and key papers">
           <h3 className="font-semibold mb-2">Trials</h3>

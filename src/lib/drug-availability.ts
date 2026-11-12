@@ -123,7 +123,7 @@ export function availabilityFor(d: Drug): { rows: AvailabilityRow[]; notRecorded
   // Who pays.
   const uk = coverageUk[d.id];
   if (uk) {
-    row("UK").paid.push({ text: `NICE: ${NICE_STATUS_LABEL[uk.nice.status]}${uk.nice.ta ? ` (${uk.nice.ta}${uk.nice.year ? `, ${uk.nice.year}` : ""})` : ""}`, href: uk.nice.url });
+    row("UK").paid.push({ text: `NICE: ${NICE_STATUS_LABEL[uk.nice.status].replace(/^NICE /, "")}${uk.nice.ta ? ` (${uk.nice.ta}${uk.nice.year ? `, ${uk.nice.year}` : ""})` : ""}`, href: uk.nice.url });
     if (uk.smc) row("UK").paid.push({ text: `Scotland (SMC): ${uk.smc.status}`, href: uk.smc.url });
   } else {
     // NICE rows recorded on the drug itself, when the coverage table has no entry for it.
@@ -137,7 +137,14 @@ export function availabilityFor(d: Drug): { rows: AvailabilityRow[]; notRecorded
     // A row with only a list price is a cost, not availability; the Cost & access tab carries it.
     if (!key || !(a.reimbursement || a.assistance || a.generic)) continue;
     const r = row(key);
-    if (a.reimbursement) r.paid.push({ text: a.reimbursement, href: a.source });
+    // The same fact as a coverage table row ("Medicare Part D" twice) is said once.
+    // A record line that opens with it ("Medicare Part D; generic since 2016") replaces the shorter one.
+    if (a.reimbursement) {
+      const t = a.reimbursement.toLowerCase();
+      const i = r.paid.findIndex((p) => t.startsWith(p.text.toLowerCase()));
+      if (i >= 0) r.paid[i] = { text: a.reimbursement, href: a.source ?? r.paid[i].href };
+      else r.paid.push({ text: a.reimbursement, href: a.source });
+    }
     if (a.assistance && !r.help.some((h) => h.href === a.assistance)) r.help.push({ text: a.assistance.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""), href: a.assistance });
     if (a.generic) r.generic = true;
   }

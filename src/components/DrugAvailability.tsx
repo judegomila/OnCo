@@ -22,7 +22,7 @@ export function availabilityRows(rows: AvailabilityRow[]): StaticRow[] {
       : r.key === "WHO" ? undefined : { text: "Not recorded", v: "Not recorded", muted: true };
     return {
       id: r.key,
-      where: { text: `${r.flag ? `${r.flag} ` : ""}${r.where}`, href: r.route, strong: true, sub: r.named ? "This drug is discussed on the country page" : r.generic ? "Generic versions recorded" : undefined },
+      where: { text: `${r.flag ? `${r.flag} ` : ""}${r.where}`, href: r.route, strong: true, sub: [r.named ? "Discussed on its page" : "", r.generic ? "Generics recorded" : ""].filter(Boolean).join(" · ") || undefined },
       approved,
       paid: r.paid.map((p): CellObj => ({ text: p.text, href: p.href, ext: !!p.href })),
       help: r.help.map((p): CellObj => ({ text: p.text, href: p.href, ext: !!p.href })),

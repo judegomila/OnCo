@@ -39,6 +39,13 @@ describe("drug availability", () => {
     }
   });
 
+  it("says each payer fact once in a row", () => {
+    for (const d of drugs) for (const r of availabilityFor(d).rows) {
+      const texts = r.paid.map((p) => p.text.toLowerCase());
+      expect(new Set(texts).size, `${d.id} ${r.key}: ${texts.join(" | ")}`).toBe(texts.length);
+    }
+  });
+
   it("names the regions it holds no approval for, rather than implying a refusal", () => {
     for (const d of drugs.slice(0, 400)) {
       const { rows, notRecorded } = availabilityFor(d);

@@ -29,7 +29,7 @@ export const COUNTRY_TRIAL_COLUMNS: StaticColumn[] = [
   { key: "trial", label: "Trial" },
   { key: "here", label: "Here", filterable: true, className: "whitespace-nowrap", order: [HERE_RECRUITING, HERE_NOT], tip: "Whether a site in this country had the status Recruiting in the captured registry entry, and how many such sites." },
   { key: "cities", label: "Cities recruiting", filterable: true, hide: "hidden sm:table-cell", className: "text-muted max-w-xs", tip: "The cities with a recruiting site, most sites first; a row names three and counts the rest." },
-  { key: "phase", label: "Phase", filterable: true, className: "whitespace-nowrap" },
+  { key: "phase", label: "Phase", filterable: true },
   { key: "registry", label: "Registry status", filterable: true, hide: "hidden lg:table-cell", tip: "The study's overall status on ClinicalTrials.gov when it was captured; the Here column is what its sites in this country say." },
   { key: "sponsor", label: "Lead sponsor", hide: "hidden md:table-cell", className: "text-muted max-w-xs" },
 ];

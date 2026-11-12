@@ -304,6 +304,9 @@ import { institutionsGrantGaps2026, collectionsGrantGaps2026, trialsGrantGaps202
 import { termsLawGaps2026, lawBacklinks } from "./laws-gaps-2026-11";
 import { termsPayerGaps2026, institutionsPayerGaps2026, payerBacklinks } from "./payers-gaps-2026-11";
 // Institutions for the countries that held fewer than three (census of 11 November 2026, by region).
+import { NEWSWEEK_ONCOLOGY_2026, newsweekOncology2026Ranks } from "./institutions/newsweek-oncology-2026";
+import { institutionsNewsweek2026Europe } from "./institutions/newsweek-oncology-2026-records-europe";
+import { institutionsNewsweek2026World } from "./institutions/newsweek-oncology-2026-records-world";
 import { institutionsCountriesMena, countriesMenaBacklinks } from "./institutions/countries-2026-11-mena";
 import { institutionsCountriesAsiaPacific, countriesAsiaPacificBacklinks } from "./institutions/countries-2026-11-asia-pacific";
 import { institutionsCountriesAmericas, countriesAmericasBacklinks } from "./institutions/countries-2026-11-americas";
@@ -543,6 +546,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...institutionsPrizes202611,
   ...institutionsParticleTherapyGaps2026, ...institutionsDonorRegistryGaps2026, ...institutionsBiobankGaps2026, ...collectionsBiobankGaps2026, ...institutionsGrantGaps2026, ...collectionsGrantGaps2026, ...trialsGrantGaps2026, ...termsLawGaps2026, ...termsPayerGaps2026, ...institutionsPayerGaps2026,
   ...institutionsCountriesMena, ...institutionsCountriesAsiaPacific, ...institutionsCountriesAmericas, ...institutionsCountriesWestCentralAfrica, ...institutionsCountriesEastSouthernAfrica, ...institutionsCountriesEuropeOverseas,
+  ...institutionsNewsweek2026Europe, ...institutionsNewsweek2026World,
   ...targetsWaveSoc, ...targetsPipelineGap, ...targetsReaderEdits, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...drugsUniverseGaps, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...trop2DualPayload,
@@ -645,6 +649,38 @@ function withCensusFillBacklinks<T extends EntityInput>(e: T): T {
   if (missing.length) throw new Error(`Census fill backlinks name records that do not exist: ${missing.join(", ")}`);
 }
 
+/**
+ * Newsweek/Statista World's Best Specialized Hospitals 2026: Oncology, for records other files own
+ * (src/data/institutions/newsweek-oncology-2026.ts): the rank goes on the record with the list in its links, and the
+ * collection `newsweek-hospitals` lists every institution that carries a rank, in rank order. A rank given twice, or one
+ * that contradicts a rank the owning file already states, stops the build rather than picking one.
+ */
+const NEWSWEEK_RANKED: string[] = (() => {
+  const byRank = new Map<number, string>();
+  for (const e of RAW_INPUTS_DEDUPED) {
+    if (e.kind !== "institution") continue;
+    const own = e.newsweekOncology2026, overlay = newsweekOncology2026Ranks[e.id]?.rank;
+    if (own !== undefined && overlay !== undefined && own !== overlay) throw new Error(`Newsweek 2026 rank for ${e.id}: the record says ${own}, newsweek-oncology-2026.ts says ${overlay}`);
+    const rank = overlay ?? own;
+    if (rank === undefined) continue;
+    const prior = byRank.get(rank);
+    if (prior) throw new Error(`Newsweek 2026 oncology rank ${rank} is given to both ${prior} and ${e.id}`);
+    byRank.set(rank, e.id);
+  }
+  const ids = new Set(RAW_INPUTS_DEDUPED.map((e) => e.id));
+  const missing = Object.keys(newsweekOncology2026Ranks).filter((id) => !ids.has(id));
+  if (missing.length) throw new Error(`newsweek-oncology-2026.ts names records that do not exist: ${missing.join(", ")}`);
+  return [...byRank.entries()].sort((a, b) => a[0] - b[0]).map(([, id]) => id);
+})();
+function withNewsweekRank<T extends EntityInput>(e: T): T {
+  if (e.id === "newsweek-hospitals") return { ...e, institutions: [...(e.institutions ?? []), ...NEWSWEEK_RANKED.filter((id) => !(e.institutions ?? []).includes(id))] };
+  const r = newsweekOncology2026Ranks[e.id];
+  if (!r || e.kind !== "institution") return e;
+  const links = e.links ?? [];
+  const link = { label: `Newsweek World's Best Specialized Hospitals 2026: Oncology, rank ${r.rank} (${r.listed}, ${r.city})`, url: NEWSWEEK_ONCOLOGY_2026 };
+  return { ...e, newsweekOncology2026: r.rank, links: links.some((l) => l.url === link.url) ? links : [...links, link] };
+}
+
 const RECORDS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // Spike supplements (src/data/spikes/index.ts): partial records a cancer deep dive attaches to targets, readouts,
   // drugs and papers other files own; arrays append, scalars fill gaps. Applied before everything else.
@@ -653,7 +689,7 @@ const RECORDS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // drugs and papers other files own) come next; arrays append, scalars fill gaps.
   // Merge supplements (src/data/merged-records.ts): what a record retired as a duplicate carried and its survivor did
   // not. Applied on the same terms as a spike supplement, so retiring an id loses no relation.
-  const raw = withCensusFillBacklinks(applyMergeSupplements(applySpikeSupplements(base.kind === "cancer" ? mergeSpikeInto(base) : base)));
+  const raw = withNewsweekRank(withCensusFillBacklinks(applyMergeSupplements(applySpikeSupplements(base.kind === "cancer" ? mergeSpikeInto(base) : base))));
   // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];

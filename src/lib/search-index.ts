@@ -2,6 +2,7 @@ import { MECHANICS } from "@/data/mechanics-atlas";
 import { graph } from "./graph";
 import { portraitSrc } from "./portraits";
 import { NAV_GROUPS } from "./nav";
+import { COUNTRY_PAGES } from "./country-pages";
 import { routeFor, type Kind } from "./kinds";
 import { nonMedicineClass, type ProductClass } from "./product-class";
 import { engineRoute, FORMATS, modalityRoute } from "./modular-formats";
@@ -32,7 +33,10 @@ function pageDocs(): SearchDoc[] {
     ...DECISION_TOOLS.map((t) => ({ href: toolRoute(t.id), label: `${t.short}: ${t.title}`, blurb: t.lede })),
     ...COMPARE_SETS.map((s) => ({ href: compareRoute(s.anchorId), label: `${graph().must(s.anchorId).name} compared with its neighbours`, blurb: s.title })),
   ];
-  const pages: ReadonlyArray<{ href: string; label: string; blurb: string; aka?: string }> = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...enginePages, ...modalityPages, ...toolPages];
+  // Country deep dives are not in the menu (it is in every page; see src/lib/country-pages.ts), so they are listed
+  // here. Each page is titled "Cancer in <country>", which goes in as the alias.
+  const countryPages = COUNTRY_PAGES.map((c) => ({ ...c, aka: `Cancer in ${c.label.replace(/ deep dive$/, "")}` }));
+  const pages: ReadonlyArray<{ href: string; label: string; blurb: string; aka?: string }> = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...countryPages, ...enginePages, ...modalityPages, ...toolPages];
   for (const it of pages) {
     if (seen.has(it.href)) continue; seen.add(it.href);
     // `aka` carries the page's former name, so a reader searching "forest plot" still reaches the renamed page.

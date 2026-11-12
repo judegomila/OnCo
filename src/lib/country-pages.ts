@@ -1,12 +1,15 @@
-import type { NavItem } from "./nav";
-
 /**
- * The country deep dives listed under "Institutions & people" in src/lib/nav.ts, one line per country page. They
- * live in their own module because 117 of them made nav.ts larger than the 64 KB the root layout allows any single
- * module (src/app/layout-imports.test.ts); the layout still reaches them, and the total source budget still counts
- * them. Add a new country page's line at the end.
+ * One line per country deep dive (/countries/<code>/), so a search for a country's name reaches its page. The search
+ * index (src/lib/search-index.ts) reads this; the site menu does not. The menu used to list every deep dive with this
+ * line under it, and because the menu is in the root layout, about 37 KB of country descriptions shipped with every
+ * page on the site and grew with each country added. The menu now has one "Countries" entry; /countries/ lists every
+ * country with a name filter and a deep-dives-only switch. Keep this module out of the layout's imports.
+ *
+ * Add a new country page's line at the end; src/lib/country-pages.test.ts fails if a country page has no line here.
  */
-export const COUNTRY_DEEP_DIVES: NavItem[] = [
+export type CountryPage = { href: string; label: string; blurb: string };
+
+export const COUNTRY_PAGES: CountryPage[] = [
   { href: "/countries/us/", label: "United States deep dive", blurb: "What the United States is up to: who pays and what it costs a person, the FDA, why coverage is not approval, the NCI trial network, and the disparities." },
   { href: "/countries/in/", label: "India deep dive", blurb: "What India is up to: cancer profile, paying for care, CDSCO, institutions, companies, trials and people." },
   { href: "/countries/cn/", label: "China deep dive", blurb: "What China is up to: cancer profile, the NMPA, national insurance listing, institutions, companies, trials and people." },
@@ -123,5 +126,7 @@ export const COUNTRY_DEEP_DIVES: NavItem[] = [
   { href: "/countries/so/", label: "Somalia deep dive", blurb: "What Somalia has: no information on a cancer registry and no death registration coverage in WHO's 2020 profile, so IARC estimates its cancers from neighbouring countries' rates; no radiotherapy recorded; health spending of about USD 22 a person; and no HPV vaccination figures at WHO." },
   { href: "/countries/jo/", label: "Jordan deep dive", blurb: "What Jordan does: a population-based registry WHO rated high quality, the King Hussein Cancer Center with six linear accelerators, breast screening from age 40 but no cervical screening programme in WHO's 2020 profile, and 13 trials in OnCo's records with a site in Jordan." },
   { href: "/countries/sv/", label: "El Salvador deep dive", blurb: "What El Salvador has: an IARC estimate made without national incidence data, stomach cancer the commonest cause of cancer death, more cancer deaths among women than men, HPV vaccination of girls and boys, and one trial in OnCo's records with a site in the country." },
+  { href: "/countries/jp/", label: "Japan deep dive", blurb: "Japan deep dive, written from Japanese sources: the national cancer registry and the stomach and liver burden, the screening programme and what its evidence says, universal insurance and the high-cost medical expense ceiling, PMDA and the drug lag, carbon-ion therapy and endoscopic resection, JCOG, and where Japanese evidence diverges from Western practice." },
+  { href: "/countries/ru/", label: "Russia deep dive", blurb: "Russia deep dive read from Russian sources: the Herzen institute's national cancer statistics and what they do and do not count, compulsory medical insurance and the vital and essential medicines list, registration under federal law 61-FZ and the Eurasian Economic Union route, the collapse in new international trials since 2022, Biocad and domestic manufacture, and the Blokhin, Herzen, Petrov, Rogachev and Tomsk institutes." },
   { href: "/countries/pa/", label: "Panama deep dive", blurb: "What Panama does: a national cancer institute that saw 5,273 cancer patients in 2024, almost half of them referred by the social security fund, a hospital cancer registry since 2012, HPV vaccination of girls and boys, and 19 trials in OnCo's records with a site in Panama." },
 ];

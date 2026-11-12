@@ -1,4 +1,3 @@
-import { COUNTRY_DEEP_DIVES } from "./nav-countries";
 /** Site information architecture: six groups, each with a landing page and its pages. Used by the header, footer, landing pages, and home. */
 /** `regions`: show only when the reader has chosen one of these countries (Global view shows everything). */
 export type NavItem = { href: string; label: string; blurb: string; /** Names this page used to go by; search matches them so a rename never loses a page. */ aka?: string; regions?: Array<"US" | "EU" | "UK" | "JP" | "CN" | "AU" | "IN"> };
@@ -135,7 +134,6 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/sponsors/", label: "Trial sponsors", blurb: "Who runs the most phase 2 and 3 trials, by cancer, from the registry and the corpus." },
       { href: "/manufacturing/", label: "Manufacturing map", blurb: "Where ADCs are conjugated, cell therapies made and isotopes produced." },
       { href: "/countries/", label: "Countries", blurb: "Who is doing the most cancer research: output, growth, trials, burden, funders." },
-      ...COUNTRY_DEEP_DIVES,
       { href: "/cases/", label: "Cases by country", blurb: "New cancer cases per country and per cancer, with the data gaps made explicit." },
       { href: "/funding/", label: "Funding flows", blurb: "Where the money comes from." },
     ],

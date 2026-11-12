@@ -1,0 +1,3601 @@
+{
+  "pages": [
+    {
+      "slug": "analytical-validity-clinical-validity-and-utility",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+      "sourceSha256": "d4c73c370a30b7e17160d9278b71d6180b5ca844fa026553dbac6e0f7b779d64",
+      "gitBlob": "51b6bc9221c59bd6e4ace5f5120dc479bf2f9bfd",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "36a25f2dd743c06e846195b52dd79a5c80465c65276bc91037de6a2b0ca285c1",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::measure-meaning-use"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1909362fc53cac4acda00c5113260ce7de6ee6433fa38e9aff8484406b0f63d7",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6ffb6a32dede654f4e896e568ff775a137eb6fdffd5b7fbd62051869f6b175be",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2b48905f4b763c598afdf3d8b618c51d1358d3d6a736e62d03c0c4abdb75aa94",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::analytical-specificity",
+            "analytical-validity-clinical-validity-and-utility::association-vs-benefit",
+            "analytical-validity-clinical-validity-and-utility::strategy-vs-comparator",
+            "analytical-validity-clinical-validity-and-utility::figure-parallel-scenes"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "41687b1d2bbfbe14660ce0980123ad0f7601ad580006941437faa5a40906d014",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::table-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b92823a6055f0893fd1adcdf6f793a380c20ff26967c70abe9cffa468d706a22",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::lead-time-outcome-clock"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "da46d9afda5dc4ead0205eaf21e592a456ca440d6bb1d4d0571c839ce8961a34",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::accreditation-label-not-utility"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1353d73bb74578e6ede93cd5e5254cc8b63124fc6be39f54e9fc0eec14b4d6b6",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::worked-drug-a"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8383967ea791942c9a32349530b483934a75793848318400ede437a41c0d44a2",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ba994314ac3e8eb8a7ff000f08698c27858158000a7af90b4011a0e88b812045",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e643c51c88fc62a15df514fe14b27fa64e563e91b97e4b5a875b0854e3689647",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "analytical-validity-clinical-validity-and-utility",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+      "sourceSha256": "8d92787824086a1191cbc414db38ea0b5cbd46ba2ff1135a0a3a2cf3d016ed4c",
+      "gitBlob": "add352c3e5994895ab1e0c0994e93fcb306b7cb8",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "36a25f2dd743c06e846195b52dd79a5c80465c65276bc91037de6a2b0ca285c1",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::measure-meaning-use"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "1909362fc53cac4acda00c5113260ce7de6ee6433fa38e9aff8484406b0f63d7",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "6ffb6a32dede654f4e896e568ff775a137eb6fdffd5b7fbd62051869f6b175be",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "2b48905f4b763c598afdf3d8b618c51d1358d3d6a736e62d03c0c4abdb75aa94",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::analytical-specificity",
+            "analytical-validity-clinical-validity-and-utility::association-vs-benefit",
+            "analytical-validity-clinical-validity-and-utility::strategy-vs-comparator",
+            "analytical-validity-clinical-validity-and-utility::figure-parallel-scenes"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "41687b1d2bbfbe14660ce0980123ad0f7601ad580006941437faa5a40906d014",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::table-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b92823a6055f0893fd1adcdf6f793a380c20ff26967c70abe9cffa468d706a22",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::lead-time-outcome-clock"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ad4836b06d4f097d6d5228ed95b8c9528119303f52e3245ee698e98ac9d3d2bf",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::accreditation-label-not-utility"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "1353d73bb74578e6ede93cd5e5254cc8b63124fc6be39f54e9fc0eec14b4d6b6",
+          "requirementIds": [
+            "analytical-validity-clinical-validity-and-utility::worked-drug-a"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "8383967ea791942c9a32349530b483934a75793848318400ede437a41c0d44a2",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "ba994314ac3e8eb8a7ff000f08698c27858158000a7af90b4011a0e88b812045",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "e643c51c88fc62a15df514fe14b27fa64e563e91b97e4b5a875b0854e3689647",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "binding-prediction",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+      "sourceSha256": "b74f1983b4d6100eb4f7c3750b12681da41035b8d841b7cf187da729d5dc455c",
+      "gitBlob": "f06cd7781655a6f579953dd3c736662ad248d8e7",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7f16ac3a7e482ae694d396bceeb8a1008d34409d4f5f0e7f27b3842d8ce6d2fb",
+          "requirementIds": [
+            "binding-prediction::prediction-not-observation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "37f7aa5a9f76a6852497c37d83bc1c4e13cd0e73ca64be788c1d043ef33dee5c",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9a45004b193ee635f52bb3c6953a4459b9c5baeb1257ac5033214600bf650d90",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c3cce7f7e908ef743125f09a26f39a3791527a7d246bf0e5c22d97a735e1d64d",
+          "requirementIds": [
+            "binding-prediction::rank-meaning",
+            "binding-prediction::ba-vs-el-ic50",
+            "binding-prediction::record-model-context",
+            "binding-prediction::downstream-chain",
+            "binding-prediction::figure-toy-rank",
+            "binding-prediction::table-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "782a349ab563f7814853d57f0b94e5284f158486b44d27f22231d1a23ead8fed",
+          "requirementIds": [
+            "binding-prediction::thresholds-are-workflow-rules"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "7d39bfe105f788ceebbc980bb9684eee30801d06a25bf7e25e8c6c2df28f9576",
+          "requirementIds": [
+            "binding-prediction::worked-candidates"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "393429e07c3c2837df4361c043db04014ed713807fde7ea4ab4c6edcd51d3339",
+          "requirementIds": [
+            "binding-prediction::allele-and-task-match"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "e7cac88ebabf6114bb9f3e0affa76343d63da62d668f39349864c025c4ae3bb0",
+          "requirementIds": [
+            "binding-prediction::readout-inputs-validation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d7c2792059fc03fee7f134cb7ba7c2bececde8b65a859bb60228bbeb1fb88589",
+          "requirementIds": [
+            "binding-prediction::worked-candidates"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "3e3b4bf21dd77fb532c2ea439fdfc02ec71500928e2c793e53871071c435cea5",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "3db270b48b9ef2e3701f2c49e1644bc5d32c92fffdfe9951b885fcb84be41338",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "b4af5bf2b1cdf8ee5187d3a68f4de0791349cf50d00dc4847c7c5a0a70796e42",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "binding-prediction",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+      "sourceSha256": "89869fe3baa291bf145122bd94aeab3b5028ca2d42f7a12e59b95a5d45b44e83",
+      "gitBlob": "b46e58ad2bda34cc93122ba3994441bd02bb2753",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "7f16ac3a7e482ae694d396bceeb8a1008d34409d4f5f0e7f27b3842d8ce6d2fb",
+          "requirementIds": [
+            "binding-prediction::prediction-not-observation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "37f7aa5a9f76a6852497c37d83bc1c4e13cd0e73ca64be788c1d043ef33dee5c",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9a45004b193ee635f52bb3c6953a4459b9c5baeb1257ac5033214600bf650d90",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c3cce7f7e908ef743125f09a26f39a3791527a7d246bf0e5c22d97a735e1d64d",
+          "requirementIds": [
+            "binding-prediction::rank-meaning",
+            "binding-prediction::ba-vs-el-ic50",
+            "binding-prediction::record-model-context",
+            "binding-prediction::downstream-chain",
+            "binding-prediction::figure-toy-rank",
+            "binding-prediction::table-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "782a349ab563f7814853d57f0b94e5284f158486b44d27f22231d1a23ead8fed",
+          "requirementIds": [
+            "binding-prediction::thresholds-are-workflow-rules"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "7d39bfe105f788ceebbc980bb9684eee30801d06a25bf7e25e8c6c2df28f9576",
+          "requirementIds": [
+            "binding-prediction::worked-candidates"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "393429e07c3c2837df4361c043db04014ed713807fde7ea4ab4c6edcd51d3339",
+          "requirementIds": [
+            "binding-prediction::allele-and-task-match"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "additional-teaching",
+          "sha256": "e7cac88ebabf6114bb9f3e0affa76343d63da62d668f39349864c025c4ae3bb0",
+          "requirementIds": [
+            "binding-prediction::readout-inputs-validation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "d7c2792059fc03fee7f134cb7ba7c2bececde8b65a859bb60228bbeb1fb88589",
+          "requirementIds": [
+            "binding-prediction::worked-candidates"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "3e3b4bf21dd77fb532c2ea439fdfc02ec71500928e2c793e53871071c435cea5",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "3db270b48b9ef2e3701f2c49e1644bc5d32c92fffdfe9951b885fcb84be41338",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "b4af5bf2b1cdf8ee5187d3a68f4de0791349cf50d00dc4847c7c5a0a70796e42",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "foundation-models",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/foundation-models.md",
+      "sourceSha256": "537430c9c0ff1bff9c89f2cfc439e84a6c64b308d19efd7e3a3d8374db1beeb1",
+      "gitBlob": "692f61567bc79db03754635ae4110b810a6d3d06",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "be7aabd87403a0742a2b8016482ea413259cc04887505395c18d6d3f2de1ecfc",
+          "requirementIds": [
+            "foundation-models::definition-representation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e68d5b95a1550c24b97ce495a72cfd58813035baca8c0928628500422d64ee54",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "26f2ffecae715297950928961070699f07ed90dd10557938eef2dec244c610b7",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3be70afe2f20b0be21560ac4966f2bb9c911a21857095ee0e7667ba4f3512450",
+          "requirementIds": [
+            "foundation-models::transfer-finetune-zeroshot",
+            "foundation-models::pretraining-overlap",
+            "foundation-models::performance-scoped"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3da3dffce57120f702bcba9640dd998024a43a62802057a2838afccf102759d8",
+          "requirementIds": [
+            "foundation-models::labels-not-synonyms"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "05afc32ea736e2dac0579171ec7707faf707e99d6759813d6957d99969a4e4e1",
+          "requirementIds": [
+            "foundation-models::failure-modes",
+            "foundation-models::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1f050d0b0ff338c39e57f17c8e8c1719def90c42cf3b63286a71a03f2f83ff41",
+          "requirementIds": [
+            "foundation-models::definition-representation",
+            "foundation-models::transfer-finetune-zeroshot",
+            "foundation-models::performance-scoped"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "284498a047d3fca010de4994ab86bb17a4b4ad77a3896a8afb4e8116c7428fe1",
+          "requirementIds": [
+            "foundation-models::worked-masked-rna-breast"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "044f64ec702ef75142f5723320a4f89a02d06b60c0257fa57b21ac935bcf6464",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "48926319c3062a7469a8f43450d027dbea23332309fee18bb07859b18750c42b",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "3c5ed811cd880bedab9c6e560948b1649ef05261b1ba4d4d1caa6dc2d7942817",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "foundation-models",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/foundation-models.md",
+      "sourceSha256": "74cd339fdce74f6d48913403266de4b17eb6749a2af624c2f62938c095942607",
+      "gitBlob": "221278b578b9705266b2bbf5ee92bf927552433e",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "be7aabd87403a0742a2b8016482ea413259cc04887505395c18d6d3f2de1ecfc",
+          "requirementIds": [
+            "foundation-models::definition-representation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e68d5b95a1550c24b97ce495a72cfd58813035baca8c0928628500422d64ee54",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "26f2ffecae715297950928961070699f07ed90dd10557938eef2dec244c610b7",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3be70afe2f20b0be21560ac4966f2bb9c911a21857095ee0e7667ba4f3512450",
+          "requirementIds": [
+            "foundation-models::transfer-finetune-zeroshot",
+            "foundation-models::pretraining-overlap",
+            "foundation-models::performance-scoped"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3da3dffce57120f702bcba9640dd998024a43a62802057a2838afccf102759d8",
+          "requirementIds": [
+            "foundation-models::labels-not-synonyms"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "05afc32ea736e2dac0579171ec7707faf707e99d6759813d6957d99969a4e4e1",
+          "requirementIds": [
+            "foundation-models::failure-modes",
+            "foundation-models::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1f050d0b0ff338c39e57f17c8e8c1719def90c42cf3b63286a71a03f2f83ff41",
+          "requirementIds": [
+            "foundation-models::definition-representation",
+            "foundation-models::transfer-finetune-zeroshot",
+            "foundation-models::performance-scoped"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "284498a047d3fca010de4994ab86bb17a4b4ad77a3896a8afb4e8116c7428fe1",
+          "requirementIds": [
+            "foundation-models::worked-masked-rna-breast"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "044f64ec702ef75142f5723320a4f89a02d06b60c0257fa57b21ac935bcf6464",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "48926319c3062a7469a8f43450d027dbea23332309fee18bb07859b18750c42b",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "3c5ed811cd880bedab9c6e560948b1649ef05261b1ba4d4d1caa6dc2d7942817",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "model-validation-basics",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "sourceSha256": "bb92354b1903e5684a5a708324dabe2156f715b102096a056d6c3e8330e154cd",
+      "gitBlob": "0170f0ee458dd51bb5a8ad40c8046edd00155ae2",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d831ff9801416261096fb6eb375542464226477764c09ef1597f0172a6e09809",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0c9b47406c3238eb5b60a2a66236e48da75ac4e5039299c8e32fb794aac4a1cd",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9cde6171b0f9db0e606ae1b6ac76915e76b0761c4468cb41d430a08481c48997",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bb6bc895e8d27963e65f7205c041a1db772752e8a39b81d651b1b40ad0ba4fe9",
+          "requirementIds": [
+            "model-validation-basics::define-task",
+            "model-validation-basics::dataset-roles",
+            "model-validation-basics::leakage-independent-units",
+            "model-validation-basics::split-questions",
+            "model-validation-basics::baselines-calibration",
+            "model-validation-basics::external-evaluation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "64d0e4ff55eab5bd56437761b89e45d06b90009f93371d15a99e8472b8b80d91",
+          "requirementIds": [
+            "model-validation-basics::context-shift-no-universal-threshold"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "dda86a209537b4805e69c60fba2fd5943e799a4951f02aeb489fe3f3cdc430c8",
+          "requirementIds": [
+            "model-validation-basics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fc8ac4a1536fa40d81423f0fc4312406b880989cf671c3b41d1eb9e09ab8a5a9",
+          "requirementIds": [
+            "model-validation-basics::leakage-independent-units",
+            "model-validation-basics::baselines-calibration",
+            "model-validation-basics::external-evaluation",
+            "model-validation-basics::split-questions"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "298f202ea49f89fa3ecfe842b31a00dff29f49d703991fd959936a5d52e0e1f0",
+          "requirementIds": [
+            "model-validation-basics::worked-20-donors",
+            "model-validation-basics::figure-held-out",
+            "model-validation-basics::worked-intervention-split"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c115f50acaf773abdaaf39490aa7353b8f6c1ff2101f2bbecad0428c3578cb85",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "41ff2824685fbd05009265338b17b3cd858e34bcf2c607b198d4b7bca2ece13c",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "f6122d6b5c4505c5b479d078684dc3ac353923d83511f53df0bdca0f221acc42",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "model-validation-basics",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "sourceSha256": "b34bd53da20e2a8e1f747ab34333dbb20c60ca1374ff6b7f51eb26503ba284a1",
+      "gitBlob": "2383bd4106ed07a384da5e8622a04a38344c4567",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d831ff9801416261096fb6eb375542464226477764c09ef1597f0172a6e09809",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0c9b47406c3238eb5b60a2a66236e48da75ac4e5039299c8e32fb794aac4a1cd",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9cde6171b0f9db0e606ae1b6ac76915e76b0761c4468cb41d430a08481c48997",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bb6bc895e8d27963e65f7205c041a1db772752e8a39b81d651b1b40ad0ba4fe9",
+          "requirementIds": [
+            "model-validation-basics::define-task",
+            "model-validation-basics::dataset-roles",
+            "model-validation-basics::leakage-independent-units",
+            "model-validation-basics::split-questions",
+            "model-validation-basics::baselines-calibration",
+            "model-validation-basics::external-evaluation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "64d0e4ff55eab5bd56437761b89e45d06b90009f93371d15a99e8472b8b80d91",
+          "requirementIds": [
+            "model-validation-basics::context-shift-no-universal-threshold"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "dda86a209537b4805e69c60fba2fd5943e799a4951f02aeb489fe3f3cdc430c8",
+          "requirementIds": [
+            "model-validation-basics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fc8ac4a1536fa40d81423f0fc4312406b880989cf671c3b41d1eb9e09ab8a5a9",
+          "requirementIds": [
+            "model-validation-basics::leakage-independent-units",
+            "model-validation-basics::baselines-calibration",
+            "model-validation-basics::external-evaluation",
+            "model-validation-basics::split-questions"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "298f202ea49f89fa3ecfe842b31a00dff29f49d703991fd959936a5d52e0e1f0",
+          "requirementIds": [
+            "model-validation-basics::worked-20-donors",
+            "model-validation-basics::figure-held-out",
+            "model-validation-basics::worked-intervention-split"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "c115f50acaf773abdaaf39490aa7353b8f6c1ff2101f2bbecad0428c3578cb85",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "41ff2824685fbd05009265338b17b3cd858e34bcf2c607b198d4b7bca2ece13c",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "f6122d6b5c4505c5b479d078684dc3ac353923d83511f53df0bdca0f221acc42",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "multi-omic-integration",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+      "sourceSha256": "747c2650d4f3cf9f24259e63e5e751d5f148224d767197daeaf4596d9dd8a2af",
+      "gitBlob": "1f42f658b193077841ad86446133e7832a201b38",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "27f032707f2d52643be56cbffb40d2a291eadcab167a9e15aa23e9aa67fe1f9b",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "06f798ff13dc32400110a36e5cb82a63e693df5c29fe748c40ba5451eec0b151",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "316eae21774ca9ac81250a4a5741476bfbad932101b828d54c39062f78f459fd",
+          "requirementIds": [
+            "multi-omic-integration::figure-reports-raster"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "95b125bfdeb1d9598f52930950c4888781271b8ba62835e1323f629f14378367",
+          "requirementIds": [
+            "multi-omic-integration::layers-and-copies",
+            "multi-omic-integration::evidence-record-pairing",
+            "multi-omic-integration::measured-vs-imputed",
+            "multi-omic-integration::factor-models",
+            "multi-omic-integration::batch-confounding",
+            "multi-omic-integration::patient-level-splits"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "43e9f35a31d11502a8d42a6191c229bcfbc13d6603b98ce088c2db8cc3e7b31f",
+          "requirementIds": [
+            "multi-omic-integration::integration-outputs-benefit"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "82c6737096c363d29a24f2d33a4b4380f6c758e71a89a41c7269425dd3f39890",
+          "requirementIds": [
+            "multi-omic-integration::worked-target-q",
+            "multi-omic-integration::figure-specimen-context"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "618b5d81c12922f2d90b5daaaa6c6d5b91151234dc39beb48c682afdcbd658c4",
+          "requirementIds": [
+            "multi-omic-integration::correlation-not-dependency"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d009288193a2a329bc914ae44ec15326ff7a40cfffc042af69af1fa88be4cda8",
+          "requirementIds": [
+            "multi-omic-integration::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "cd83892100214d05bb92ecef231f34d423549316ac2a5f3d8c81422bb3b125be",
+          "requirementIds": [
+            "multi-omic-integration::try-it-method-ab"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f8c1384c0a55f6afe1a0e1d39cffda2fac4b7803a93d0f0ccc16e4feecb36d60",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "be885b23a2aa602b8258d31a10ba4d630c369cde0d2607f20e5a45d9fe536cff",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "dcb37c1ff3515674227bcf3634e667dc5674eecc39da4982b10854c68aece8c5",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "multi-omic-integration",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/multi-omic-integration.md",
+      "sourceSha256": "33f02bf2cab2fccadc1df9e5e35a416be865f03a4951442ba02f5e4dc30bb0a7",
+      "gitBlob": "7a5f7901336486e74d4dbfcf644197aa22050d51",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "27f032707f2d52643be56cbffb40d2a291eadcab167a9e15aa23e9aa67fe1f9b",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "06f798ff13dc32400110a36e5cb82a63e693df5c29fe748c40ba5451eec0b151",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "316eae21774ca9ac81250a4a5741476bfbad932101b828d54c39062f78f459fd",
+          "requirementIds": [
+            "multi-omic-integration::figure-reports-raster"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "95b125bfdeb1d9598f52930950c4888781271b8ba62835e1323f629f14378367",
+          "requirementIds": [
+            "multi-omic-integration::layers-and-copies",
+            "multi-omic-integration::evidence-record-pairing",
+            "multi-omic-integration::measured-vs-imputed",
+            "multi-omic-integration::factor-models",
+            "multi-omic-integration::batch-confounding",
+            "multi-omic-integration::patient-level-splits"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "43e9f35a31d11502a8d42a6191c229bcfbc13d6603b98ce088c2db8cc3e7b31f",
+          "requirementIds": [
+            "multi-omic-integration::integration-outputs-benefit"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "82c6737096c363d29a24f2d33a4b4380f6c758e71a89a41c7269425dd3f39890",
+          "requirementIds": [
+            "multi-omic-integration::worked-target-q",
+            "multi-omic-integration::figure-specimen-context"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "618b5d81c12922f2d90b5daaaa6c6d5b91151234dc39beb48c682afdcbd658c4",
+          "requirementIds": [
+            "multi-omic-integration::correlation-not-dependency"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "d009288193a2a329bc914ae44ec15326ff7a40cfffc042af69af1fa88be4cda8",
+          "requirementIds": [
+            "multi-omic-integration::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "cd83892100214d05bb92ecef231f34d423549316ac2a5f3d8c81422bb3b125be",
+          "requirementIds": [
+            "multi-omic-integration::try-it-method-ab"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "f8c1384c0a55f6afe1a0e1d39cffda2fac4b7803a93d0f0ccc16e4feecb36d60",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "be885b23a2aa602b8258d31a10ba4d630c369cde0d2607f20e5a45d9fe536cff",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "dcb37c1ff3515674227bcf3634e667dc5674eecc39da4982b10854c68aece8c5",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "overfitting",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/overfitting.md",
+      "sourceSha256": "5d35d14d4d4f79eb23cc5d2ea061973e68f2246d7cfff19bc689541dde596183",
+      "gitBlob": "0b1c75c2bec43a9e634d14e7bd8c181fb7d3d7ec",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e7f0c3ac6c4baf0b139d116059ff7217407cfd600b781414c4048ae895130205",
+          "requirementIds": [
+            "overfitting::definition"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a4e7cc999dd642357740f6dea0d6816f5a47ad816feeaeca4fa470ade31ce878",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "1081c1e16e3fcf54e1eb874c7f5a42bdbbfa0310c93193d358d5e9b92c832155",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5cce6345b80722bca6e653c86f58346f360310c2365be99fe0008467c298adbd",
+          "requirementIds": [
+            "overfitting::many-features-few-patients",
+            "overfitting::three-habits",
+            "overfitting::michiels-evidence",
+            "overfitting::venet-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "8472582be8c68cc1834cf13f3738e95dafe2ab16eea0cc1c7c3125c09f10be90",
+          "requirementIds": [
+            "overfitting::defence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "48f3cce69cb57e88cfb3496f456170b9c5810a51d686dbaddd050550d231496d",
+          "requirementIds": [
+            "overfitting::cv-vs-external",
+            "overfitting::bias-vs-overfitting",
+            "overfitting::significant-not-useful"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "3d6cc21aa552ae0e4542fb7724db4e8192b20d850bca2758a934e403b1e794f4",
+          "requirementIds": [
+            "overfitting::worked-50-gene"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e0fb7f03eb6857e057fd8f52c4258ee0912219db7fd085c48a680dbdcce8f868",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "31878b9f47e5e722b22b8b4e557eb485f6306064498ac48b104b5e7a363cacc4",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "9b46a3fdcc3e24085430fdc135c665dd79d190c0754db4177c1485fbb19df303",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "overfitting",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/overfitting.md",
+      "sourceSha256": "5d35d14d4d4f79eb23cc5d2ea061973e68f2246d7cfff19bc689541dde596183",
+      "gitBlob": "0b1c75c2bec43a9e634d14e7bd8c181fb7d3d7ec",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "e7f0c3ac6c4baf0b139d116059ff7217407cfd600b781414c4048ae895130205",
+          "requirementIds": [
+            "overfitting::definition"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a4e7cc999dd642357740f6dea0d6816f5a47ad816feeaeca4fa470ade31ce878",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "1081c1e16e3fcf54e1eb874c7f5a42bdbbfa0310c93193d358d5e9b92c832155",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5cce6345b80722bca6e653c86f58346f360310c2365be99fe0008467c298adbd",
+          "requirementIds": [
+            "overfitting::many-features-few-patients",
+            "overfitting::three-habits",
+            "overfitting::michiels-evidence",
+            "overfitting::venet-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "8472582be8c68cc1834cf13f3738e95dafe2ab16eea0cc1c7c3125c09f10be90",
+          "requirementIds": [
+            "overfitting::defence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "48f3cce69cb57e88cfb3496f456170b9c5810a51d686dbaddd050550d231496d",
+          "requirementIds": [
+            "overfitting::cv-vs-external",
+            "overfitting::bias-vs-overfitting",
+            "overfitting::significant-not-useful"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "3d6cc21aa552ae0e4542fb7724db4e8192b20d850bca2758a934e403b1e794f4",
+          "requirementIds": [
+            "overfitting::worked-50-gene"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "e0fb7f03eb6857e057fd8f52c4258ee0912219db7fd085c48a680dbdcce8f868",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "31878b9f47e5e722b22b8b4e557eb485f6306064498ac48b104b5e7a363cacc4",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "9b46a3fdcc3e24085430fdc135c665dd79d190c0754db4177c1485fbb19df303",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "variant-effect-prediction",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+      "sourceSha256": "1062d5e612e0b4a75e2a6ed982ae9675279136517747b6632fa6bcf02da8fa13",
+      "gitBlob": "5d4273b349273c42e5eff1609083d1cc8794d2c4",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5b8b787dbee888c4cb60d9466dae4fb1b176616222b36b88b19213d677e06e65",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c89a14c7ed131022a08ce3deb630a495d5a36881700e4a5c54c7d3d4ece6fd84",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bfc20c28643db3c514715762d94d930c97f70c00d53904f6e32a02f89900d408",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0141f721d294374de0e6d0d33e4edd6639469c2c3e79d6547a22a882ac4172a5",
+          "requirementIds": [
+            "variant-effect-prediction::exact-finding-transcript",
+            "variant-effect-prediction::annotation-not-effect",
+            "variant-effect-prediction::task-specific-scores",
+            "variant-effect-prediction::tool-non-independence",
+            "variant-effect-prediction::clingen-scope",
+            "variant-effect-prediction::somatic-interpretation",
+            "variant-effect-prediction::figure-two-transcripts"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3a3f7e166e3cf8d0eeb873b06bed67c8eef25f081255c27191c8753cf2aa976a",
+          "requirementIds": [
+            "variant-effect-prediction::evidence-gaps-differ"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "29dfdf8596216a7dfc02c63f452cbe2fea60ee5aa5f8a182e82b2264f2c22240",
+          "requirementIds": [
+            "variant-effect-prediction::worked-splice-score"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fc32759b675b53dd30295710b6e315bb838377d1bd9acab4057d3ef79b8883ee",
+          "requirementIds": [
+            "variant-effect-prediction::no-prediction-not-benign"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0a62ff5f7e039f7ec46754204a0abdb59a347c15fd23ff3537e524a648c3d1db",
+          "requirementIds": [
+            "variant-effect-prediction::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "741dd3314e05b9004384bd9e9f4b6961ea73e22d9e202b65fbcf449d3ad80a4b",
+          "requirementIds": [
+            "variant-effect-prediction::try-it-two-reports"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "63eb3eb071ffb7908eff0df47c639f6d0839951d810e9fadf6ba7abacdf8b922",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "951014e817e62d11dd5b4fe55158f86d6d835ce28f0208434a6c5e211d5713ff",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "362fc2db28e49499f450b733b38d1398d9476f4e810a4f7252436c73d59d6216",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "variant-effect-prediction",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/variant-effect-prediction.md",
+      "sourceSha256": "abf5a91bf515fce3b93d14e372cb9726525a6e3ae542934ba90aeb7317b060a4",
+      "gitBlob": "3086e275cb403e2286b2d89cde925f8611240aa3",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "5b8b787dbee888c4cb60d9466dae4fb1b176616222b36b88b19213d677e06e65",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "c89a14c7ed131022a08ce3deb630a495d5a36881700e4a5c54c7d3d4ece6fd84",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "bfc20c28643db3c514715762d94d930c97f70c00d53904f6e32a02f89900d408",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0141f721d294374de0e6d0d33e4edd6639469c2c3e79d6547a22a882ac4172a5",
+          "requirementIds": [
+            "variant-effect-prediction::exact-finding-transcript",
+            "variant-effect-prediction::annotation-not-effect",
+            "variant-effect-prediction::task-specific-scores",
+            "variant-effect-prediction::tool-non-independence",
+            "variant-effect-prediction::clingen-scope",
+            "variant-effect-prediction::somatic-interpretation",
+            "variant-effect-prediction::figure-two-transcripts"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "3a3f7e166e3cf8d0eeb873b06bed67c8eef25f081255c27191c8753cf2aa976a",
+          "requirementIds": [
+            "variant-effect-prediction::evidence-gaps-differ"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "29dfdf8596216a7dfc02c63f452cbe2fea60ee5aa5f8a182e82b2264f2c22240",
+          "requirementIds": [
+            "variant-effect-prediction::worked-splice-score"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "fc32759b675b53dd30295710b6e315bb838377d1bd9acab4057d3ef79b8883ee",
+          "requirementIds": [
+            "variant-effect-prediction::no-prediction-not-benign"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "0a62ff5f7e039f7ec46754204a0abdb59a347c15fd23ff3537e524a648c3d1db",
+          "requirementIds": [
+            "variant-effect-prediction::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "741dd3314e05b9004384bd9e9f4b6961ea73e22d9e202b65fbcf449d3ad80a4b",
+          "requirementIds": [
+            "variant-effect-prediction::try-it-two-reports"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "63eb3eb071ffb7908eff0df47c639f6d0839951d810e9fadf6ba7abacdf8b922",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "951014e817e62d11dd5b4fe55158f86d6d835ce28f0208434a6c5e211d5713ff",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "362fc2db28e49499f450b733b38d1398d9476f4e810a4f7252436c73d59d6216",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "virtual-cell-model",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+      "sourceSha256": "2fa5674f7a6c51fb0e55f4c3b0edfe002684202c66eb373258b9386ae4696659",
+      "gitBlob": "4132b883580736c62752ad013338c32fb3f8d727",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9a6baf5ff3946df680d19630b109a997e19414829fbcefc2347ea18255f979c6",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "84f7c5a3b01a950e2809d96fe292c08e4802c56a75f2b859b50f8ac383ec0776",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a115476e1d59e06d1497218959c17238558ff30e8e29ee42885511b9e066519b",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e5eb86b7285185ac76c878e247a5fb399592ded5d53c15ba06bdf5389f6f0e00",
+          "requirementIds": [
+            "virtual-cell-model::task-defines-output",
+            "virtual-cell-model::virtual-perturbation",
+            "virtual-cell-model::heldout-claims",
+            "virtual-cell-model::portability",
+            "virtual-cell-model::figure-missing-vs-unseen"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "51d63f7b7c6626905e871acd37c31b7578b98040dcf79161d64b51e045e43525",
+          "requirementIds": [
+            "virtual-cell-model::prioritisation-not-selection"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "016df8efeb9713bfd0906581b49633d93eb18ad2bf0696731b9a5db3095c0aaa",
+          "requirementIds": [
+            "virtual-cell-model::worked-new-tissue-intervention"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "42949c49c4dab1478af811d8e7534bcb06b365a15861e6fa1d7bd63a98bc8007",
+          "requirementIds": [
+            "virtual-cell-model::baseline-benchmark",
+            "virtual-cell-model::predicted-not-measured",
+            "virtual-cell-model::aggregate-agreement-hides",
+            "virtual-cell-model::untreated-association-not-causal",
+            "virtual-cell-model::test-set-reuse"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b3ec3c9f6721a58972b64ccf1d13310cfe51fd3725aea28750d6e9ed2a5d70c5",
+          "requirementIds": [
+            "virtual-cell-model::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "1a8f29f7b205712dc17fd5b8e6dd135f8feb60e4cf860b4b4e91c381643b73d4",
+          "requirementIds": [
+            "virtual-cell-model::try-it-fill-rna"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "bb131c971feceb05227f8e9dc25d8ddfcc26c5c23bcb77e26c2ec4f490b85b08",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "b4e195eb1f472ffe34795086fabcd3c6fac99ae41ffa3f8a93d4697911419e6e",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "cd64196e538a8d13616cad06069bd106a8ad41c8dc62c539409f385829c5a566",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "virtual-cell-model",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/computational-analysis/virtual-cell-model.md",
+      "sourceSha256": "bc1a33ff7a51b02763b7736d0ee48117317a5e45e90024d83eaae3c77dfc1db6",
+      "gitBlob": "9548a044b2e2d2028b7e6e08f5305d44ba320dd6",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "9a6baf5ff3946df680d19630b109a997e19414829fbcefc2347ea18255f979c6",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "84f7c5a3b01a950e2809d96fe292c08e4802c56a75f2b859b50f8ac383ec0776",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "a115476e1d59e06d1497218959c17238558ff30e8e29ee42885511b9e066519b",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e5eb86b7285185ac76c878e247a5fb399592ded5d53c15ba06bdf5389f6f0e00",
+          "requirementIds": [
+            "virtual-cell-model::task-defines-output",
+            "virtual-cell-model::virtual-perturbation",
+            "virtual-cell-model::heldout-claims",
+            "virtual-cell-model::portability",
+            "virtual-cell-model::figure-missing-vs-unseen"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "51d63f7b7c6626905e871acd37c31b7578b98040dcf79161d64b51e045e43525",
+          "requirementIds": [
+            "virtual-cell-model::prioritisation-not-selection"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "practice-or-worked-example",
+          "sha256": "016df8efeb9713bfd0906581b49633d93eb18ad2bf0696731b9a5db3095c0aaa",
+          "requirementIds": [
+            "virtual-cell-model::worked-new-tissue-intervention"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "42949c49c4dab1478af811d8e7534bcb06b365a15861e6fa1d7bd63a98bc8007",
+          "requirementIds": [
+            "virtual-cell-model::baseline-benchmark",
+            "virtual-cell-model::predicted-not-measured",
+            "virtual-cell-model::aggregate-agreement-hides",
+            "virtual-cell-model::untreated-association-not-causal",
+            "virtual-cell-model::test-set-reuse"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b3ec3c9f6721a58972b64ccf1d13310cfe51fd3725aea28750d6e9ed2a5d70c5",
+          "requirementIds": [
+            "virtual-cell-model::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "1a8f29f7b205712dc17fd5b8e6dd135f8feb60e4cf860b4b4e91c381643b73d4",
+          "requirementIds": [
+            "virtual-cell-model::try-it-fill-rna"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "bb131c971feceb05227f8e9dc25d8ddfcc26c5c23bcb77e26c2ec4f490b85b08",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "b4e195eb1f472ffe34795086fabcd3c6fac99ae41ffa3f8a93d4697911419e6e",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "cd64196e538a8d13616cad06069bd106a8ad41c8dc62c539409f385829c5a566",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "cell-segmentation",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+      "sourceSha256": "118a1310b12c76fe392c608918f1dcceb355db597ff91e247e54535f8dfc8462",
+      "gitBlob": "d267e6b6434c5c2afe504ed6c98cf13cb9eb4418",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "57775929893de76ba06ebce4164f4a55dde231dcefd8db1e30671eab74aabbaa",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a6529e311c94d38354a87f5471a1eebc8906284f359fab92f30a5544fb8149a8",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "852fd5f7302acdeaf287488e8c71c131610489a3774887ce74c96c7a98ae1b6f",
+          "requirementIds": [
+            "cell-segmentation::mask-is-estimate"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "487fb11486050af7b7682d2d9707d72d8bc8e6f05867ae3e0e1f4420fe86c50c",
+          "requirementIds": [
+            "cell-segmentation::detect-segment-phenotype",
+            "cell-segmentation::merge-split-missing",
+            "cell-segmentation::iou"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e14204c5f3c3a5e2a5d34dbcef7fdd8e602b9910ccef5fee37ecea3733c425f2",
+          "requirementIds": [
+            "cell-segmentation::tissue-specific-validation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f3c386f9e85dafd3852b63bfc76842a513ee97a99744a71702d2244597d8d2c7",
+          "requirementIds": [
+            "cell-segmentation::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "07c706b83c66b56aeb942e36260b290aa5082f9016ef2f59cb5636a1a96ceb88",
+          "requirementIds": [
+            "cell-segmentation::worked-merged-mask",
+            "cell-segmentation::figure-mask-errors"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e2bced03f4e28a50550be0e2e0d7fc95d8d19fabf753fa729fc06446baa8816f",
+          "requirementIds": [
+            "cell-segmentation::mask-not-measurement"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "d74eed7490c0a5dab3b37244befe6136606265a32abe41dd687b0258d8adecff",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 9
+    },
+    {
+      "slug": "cell-segmentation",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+      "sourceSha256": "624e9b18cd103a2b7c622a9eb38ce33c622c2219b6c0b3579052198d69bda5a3",
+      "gitBlob": "b6133731e0e0064bf4dd89be1cfde3f205a75acd",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "57775929893de76ba06ebce4164f4a55dde231dcefd8db1e30671eab74aabbaa",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "a6529e311c94d38354a87f5471a1eebc8906284f359fab92f30a5544fb8149a8",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "852fd5f7302acdeaf287488e8c71c131610489a3774887ce74c96c7a98ae1b6f",
+          "requirementIds": [
+            "cell-segmentation::mask-is-estimate"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "487fb11486050af7b7682d2d9707d72d8bc8e6f05867ae3e0e1f4420fe86c50c",
+          "requirementIds": [
+            "cell-segmentation::detect-segment-phenotype",
+            "cell-segmentation::merge-split-missing",
+            "cell-segmentation::iou"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "e14204c5f3c3a5e2a5d34dbcef7fdd8e602b9910ccef5fee37ecea3733c425f2",
+          "requirementIds": [
+            "cell-segmentation::tissue-specific-validation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f3c386f9e85dafd3852b63bfc76842a513ee97a99744a71702d2244597d8d2c7",
+          "requirementIds": [
+            "cell-segmentation::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "07c706b83c66b56aeb942e36260b290aa5082f9016ef2f59cb5636a1a96ceb88",
+          "requirementIds": [
+            "cell-segmentation::worked-merged-mask",
+            "cell-segmentation::figure-mask-errors"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e2bced03f4e28a50550be0e2e0d7fc95d8d19fabf753fa729fc06446baa8816f",
+          "requirementIds": [
+            "cell-segmentation::mask-not-measurement"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "d74eed7490c0a5dab3b37244befe6136606265a32abe41dd687b0258d8adecff",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 9
+    },
+    {
+      "slug": "imaging-mass-cytometry",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+      "sourceSha256": "193a9c8eef0f2e8de55df54a438fb5da334bc77e5f280e1acf8e82fb668c6935",
+      "gitBlob": "798d9b564aeed068d2b4e0dc11d64bc392a59375",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "88e887f2179f7293f98303dccd6b2bf13083058f805cff9da26480ef8ee54452",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0b0358d812359393b178ea1134093bce01f4aaa3f90d694b7b31db1ca28314f8",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0270e7cc3d6f7b78361f9d3e1aa9b0386ae5cc19825719b85ac922691c7887b7",
+          "requirementIds": [
+            "imaging-mass-cytometry::workflow-destructive"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a23bfab24deb6f2eec0bcdaf4759bb1196d79fe35fbf33b4af9f67adf91ad3b7",
+          "requirementIds": [
+            "imaging-mass-cytometry::imc-vs-suspension",
+            "imaging-mass-cytometry::interference-not-absent",
+            "imaging-mass-cytometry::panel-selects",
+            "imaging-mass-cytometry::figure-metal-tag"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7a2584aa29b50c096c16ec5af73b82e113b6c3a7a0d76aad4a350c0016a2326c",
+          "requirementIds": [
+            "imaging-mass-cytometry::proximity-not-interaction"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9cadd8fc1a27e3e00c0f4bbd14197baaf29ebae998c3c223482a513a8acc0bbe",
+          "requirementIds": [
+            "imaging-mass-cytometry::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "327822a600b21fc86827416677ab73b395b683382cef9ce00d2a2f4de0df25ed",
+          "requirementIds": [
+            "imaging-mass-cytometry::worked-double-positive"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3275e2e2d3a4f9686d3f3d47b1223bf7a6cd22101a79134d32cd8e2053fae0a0",
+          "requirementIds": [
+            "imaging-mass-cytometry::proximity-not-interaction"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "cea97949117d4fcc1757c42d95a5a76aaced597f8e45c756ffc66f44076d74ce",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 9
+    },
+    {
+      "slug": "imaging-mass-cytometry",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+      "sourceSha256": "02adde3165cbd05e139bfaf96ac5a155890ed69f46632f36fd625d1b896817f7",
+      "gitBlob": "34439a403c90973c76cef177fdd9ec0d0c7bd7e5",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "88e887f2179f7293f98303dccd6b2bf13083058f805cff9da26480ef8ee54452",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "0b0358d812359393b178ea1134093bce01f4aaa3f90d694b7b31db1ca28314f8",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "0270e7cc3d6f7b78361f9d3e1aa9b0386ae5cc19825719b85ac922691c7887b7",
+          "requirementIds": [
+            "imaging-mass-cytometry::workflow-destructive"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "a23bfab24deb6f2eec0bcdaf4759bb1196d79fe35fbf33b4af9f67adf91ad3b7",
+          "requirementIds": [
+            "imaging-mass-cytometry::imc-vs-suspension",
+            "imaging-mass-cytometry::interference-not-absent",
+            "imaging-mass-cytometry::panel-selects",
+            "imaging-mass-cytometry::figure-metal-tag"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "7a2584aa29b50c096c16ec5af73b82e113b6c3a7a0d76aad4a350c0016a2326c",
+          "requirementIds": [
+            "imaging-mass-cytometry::proximity-not-interaction"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9cadd8fc1a27e3e00c0f4bbd14197baaf29ebae998c3c223482a513a8acc0bbe",
+          "requirementIds": [
+            "imaging-mass-cytometry::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "327822a600b21fc86827416677ab73b395b683382cef9ce00d2a2f4de0df25ed",
+          "requirementIds": [
+            "imaging-mass-cytometry::worked-double-positive"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "3275e2e2d3a4f9686d3f3d47b1223bf7a6cd22101a79134d32cd8e2053fae0a0",
+          "requirementIds": [
+            "imaging-mass-cytometry::proximity-not-interaction"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "d8398471f9118e008981297a47cecb7ac3e10cf2a4093888062346a869224e4a",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "cea97949117d4fcc1757c42d95a5a76aaced597f8e45c756ffc66f44076d74ce",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "immunopeptidomics",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics.md",
+      "sourceSha256": "ada0888a1267c93440d3cbf3edbbad5f6560027672e568d7dd92455d1a3fa6da",
+      "gitBlob": "aa27995989249319a6ac2401b208a5c62dce1cb5",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d908dd916a713c9207277ade4ad1cacd2eddae3302bff34178377fcedb775705",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8a82cbd464802728c81951841bfe29125de2f3c6ae4e0b1a3b3bdfe2364502ca",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "c3c4228550aae15ca5023f9c8ea8bf544ee60a79ed54e87c138e9b77ea49010a",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "baf1a8b12a9c6fb1954d550a17c27c0254263a85d1335a0b8c76d8caea5eb144",
+          "requirementIds": [
+            "immunopeptidomics::repertoire-vs-list",
+            "immunopeptidomics::workflow",
+            "immunopeptidomics::database-and-fdr",
+            "immunopeptidomics::mixed-origin",
+            "immunopeptidomics::lysate-and-allele"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1eb2be8a593fb6f488c307f8694679ccfcbaf7acc3e49a73223d838540421170",
+          "requirementIds": [
+            "immunopeptidomics::adds-presentation-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f4001c3f5515793619afdf24634435d222997974a103dcb00b8b1cfb1db6c1ea",
+          "requirementIds": [
+            "immunopeptidomics::nondetection",
+            "immunopeptidomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "547697959686e88da6a4fa54c9ca94cbf183ef261c293c8d28d08e4272a6f431",
+          "requirementIds": [
+            "immunopeptidomics::ffpe-compatibility"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "17c5d23dc8ee7823d749f9608d9fc13c33260e61b5ad40bd13c5ac764a2baaa2",
+          "requirementIds": [
+            "immunopeptidomics::worked-a-b"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1a0742397986d36a22745d1975f577780ea2191e684f0568c9ba11dbb4a39a8e",
+          "requirementIds": [
+            "immunopeptidomics::binding-vs-identification"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "24ac1fe4830006779b47b26ed6a61588055b5830d03476eb79f0d9402d54592a",
+          "requirementIds": [
+            "immunopeptidomics::try-it-database-gap"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "42068f089215553ef097177d315f8e997fc1222c868552cd002b68cf0bdec17e",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "5ae7434e86ae6b916519705c89cec64ee55ab01fd3a047f6e90ff9b5ae17f351",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "5c14dbbb2cf365980685b30caa51c4736f5743465cafc91df1b29bc3eb5b6bbb",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 13
+    },
+    {
+      "slug": "immunopeptidomics",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics.md",
+      "sourceSha256": "1dba4746a363570af1500c2c8e5c105ae86352d6a87c4bbc72fc54a0a1046dd3",
+      "gitBlob": "cc2e273902ced3cb1379ae7c14320495083658ec",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "d908dd916a713c9207277ade4ad1cacd2eddae3302bff34178377fcedb775705",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "8a82cbd464802728c81951841bfe29125de2f3c6ae4e0b1a3b3bdfe2364502ca",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "c3c4228550aae15ca5023f9c8ea8bf544ee60a79ed54e87c138e9b77ea49010a",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "baf1a8b12a9c6fb1954d550a17c27c0254263a85d1335a0b8c76d8caea5eb144",
+          "requirementIds": [
+            "immunopeptidomics::repertoire-vs-list",
+            "immunopeptidomics::workflow",
+            "immunopeptidomics::database-and-fdr",
+            "immunopeptidomics::mixed-origin",
+            "immunopeptidomics::lysate-and-allele"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "1eb2be8a593fb6f488c307f8694679ccfcbaf7acc3e49a73223d838540421170",
+          "requirementIds": [
+            "immunopeptidomics::adds-presentation-evidence"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "f4001c3f5515793619afdf24634435d222997974a103dcb00b8b1cfb1db6c1ea",
+          "requirementIds": [
+            "immunopeptidomics::nondetection",
+            "immunopeptidomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "additional-teaching",
+          "sha256": "547697959686e88da6a4fa54c9ca94cbf183ef261c293c8d28d08e4272a6f431",
+          "requirementIds": [
+            "immunopeptidomics::ffpe-compatibility"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "17c5d23dc8ee7823d749f9608d9fc13c33260e61b5ad40bd13c5ac764a2baaa2",
+          "requirementIds": [
+            "immunopeptidomics::worked-a-b"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "1a0742397986d36a22745d1975f577780ea2191e684f0568c9ba11dbb4a39a8e",
+          "requirementIds": [
+            "immunopeptidomics::binding-vs-identification"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 9,
+          "kind": "practice-or-worked-example",
+          "sha256": "24ac1fe4830006779b47b26ed6a61588055b5830d03476eb79f0d9402d54592a",
+          "requirementIds": [
+            "immunopeptidomics::try-it-database-gap"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 10,
+          "kind": "practice-or-worked-example",
+          "sha256": "42068f089215553ef097177d315f8e997fc1222c868552cd002b68cf0bdec17e",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 11,
+          "kind": "additional-teaching",
+          "sha256": "5ae7434e86ae6b916519705c89cec64ee55ab01fd3a047f6e90ff9b5ae17f351",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 12,
+          "kind": "source-scope",
+          "sha256": "5c14dbbb2cf365980685b30caa51c4736f5743465cafc91df1b29bc3eb5b6bbb",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 13
+    },
+    {
+      "slug": "mass-spectrometry-proteomics",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md",
+      "sourceSha256": "cf81f6e99c39d0e0734e7224a1746cb3af43beb80c90595890d33957f1732bf3",
+      "gitBlob": "685899ba2d1ff8d2d4b93e9ca992cf026d60540e",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "41282e36aab36086749c01d84db6a30f9fa3ffa3a8d2255875dbf01f1b18cf68",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d76aeca183205fdf167f7fc5f51589bc0d5365fc5d4aa1d6351dd5cfd7b2ba3a",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9f70f8c5ef78f6bc46b61b2380d6e5f4576355c7c354cfbf61383cc38887b673",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "57f81ae81a7a16572b01733848806eee3fe4f1319d17973c82f827953b2b6e0b",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::bottom-up",
+            "mass-spectrometry-proteomics::protein-inference",
+            "mass-spectrometry-proteomics::fdr-set-level",
+            "mass-spectrometry-proteomics::figure-peptide-inference"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "acdc54b9db32e12a8147924da64ac44ab0a29a62ea57e2653773b8a23f023c9e",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::bulk-extract-limits",
+            "mass-spectrometry-proteomics::proteogenomic-claim"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f1063df734dc6c65dccec95ec562aac8296e88d1417278da34085d07b44ed091",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "738beee4e9fddd48b52b92f4c64ce98b355b2c302d89f75f72a21bec702a908c",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::relative-vs-absolute"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "3801d90e9a2301ffb81fdba6e92711e52ba4bccdf862f532bfa56e5d778534ba",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::try-it-receptor-peptide"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "3e3de947fa69fb44ca9119ec9a37d9fd0c90a09317ff78d9e38abef84d038c18",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "15e8b2750e03c00eac3337dd29d90d13aa936fc5c5ad719563b16841b3218e71",
+          "requirementIds": [],
+          "assessment": "Citation list; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "mass-spectrometry-proteomics",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/mass-spectrometry-proteomics.md",
+      "sourceSha256": "1da1dd4554f0780c52e990ff393ce5f3cf626e5aa29fecd43ffc770588b612b3",
+      "gitBlob": "d4219f5506f863af27b9f475c212d5157ce8f617",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "41282e36aab36086749c01d84db6a30f9fa3ffa3a8d2255875dbf01f1b18cf68",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "d76aeca183205fdf167f7fc5f51589bc0d5365fc5d4aa1d6351dd5cfd7b2ba3a",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "9f70f8c5ef78f6bc46b61b2380d6e5f4576355c7c354cfbf61383cc38887b673",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "57f81ae81a7a16572b01733848806eee3fe4f1319d17973c82f827953b2b6e0b",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::bottom-up",
+            "mass-spectrometry-proteomics::protein-inference",
+            "mass-spectrometry-proteomics::fdr-set-level",
+            "mass-spectrometry-proteomics::figure-peptide-inference"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "acdc54b9db32e12a8147924da64ac44ab0a29a62ea57e2653773b8a23f023c9e",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::bulk-extract-limits",
+            "mass-spectrometry-proteomics::proteogenomic-claim"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "f1063df734dc6c65dccec95ec562aac8296e88d1417278da34085d07b44ed091",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "738beee4e9fddd48b52b92f4c64ce98b355b2c302d89f75f72a21bec702a908c",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::relative-vs-absolute"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "3801d90e9a2301ffb81fdba6e92711e52ba4bccdf862f532bfa56e5d778534ba",
+          "requirementIds": [
+            "mass-spectrometry-proteomics::try-it-receptor-peptide"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "3e3de947fa69fb44ca9119ec9a37d9fd0c90a09317ff78d9e38abef84d038c18",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "15e8b2750e03c00eac3337dd29d90d13aa936fc5c5ad719563b16841b3218e71",
+          "requirementIds": [],
+          "assessment": "Citation list; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "multiplex-immunofluorescence",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+      "sourceSha256": "55c317c2435c29c5b2338d385c9ec1188f59e09a24b6b965023737d6e99f5cf6",
+      "gitBlob": "549b26ea6e9c2b6ac54c567ed9368d8341bc9fab",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "81321c0f72c8caaa98df0bdfb0f3c657fd455b61808a4fd205fa75392dac5be7",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7b60f75744e9dc8128c973dd319e741983b42e37edb10360c47465dcc48fbc4d",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "01399977c63acfbfb9fbce8ca884e5754318256cad789e83ac25d6b80525e4d7",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5c03bdd593673c0176191d8fa435d473c98e128b6bdb8c3afd80d8114dbb352b",
+          "requirementIds": [
+            "multiplex-immunofluorescence::cyclic-not-simultaneous",
+            "multiplex-immunofluorescence::phenotype-is-panel-based",
+            "multiplex-immunofluorescence::denominators-distances"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "542a7af9fc4eecfabcdea158d1d0fa0095beb591047bfa1b66f4ba3f3fc32d02",
+          "requirementIds": [
+            "multiplex-immunofluorescence::proximity-not-recognition"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b4705ae3ef6d3eb78ee51a4f26a00000015af1910c6e8e2e74e82277443b666f",
+          "requirementIds": [
+            "multiplex-immunofluorescence::validation-scope",
+            "multiplex-immunofluorescence::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d884f857037a9181ce4f8d8a2b5bd71fea0f49765d18747c0b35263bb3bd7fbb",
+          "requirementIds": [
+            "multiplex-immunofluorescence::worked-t-cell-neighbour",
+            "multiplex-immunofluorescence::figure-two-rulers"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ca4bc842de1f5a9cbd7a7d265c29dee9764907b2a0b85418dd82ef3d0ce59812",
+          "requirementIds": [
+            "multiplex-immunofluorescence::virtual-mif"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "source-scope",
+          "sha256": "d2cf3e3f9fef182caee519180f9877f69bef38e2de4f66733b0cef9e45be1bb6",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 9
+    },
+    {
+      "slug": "multiplex-immunofluorescence",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/multiplex-immunofluorescence.md",
+      "sourceSha256": "742c619b222b47e54d03cd990658ca364d59a95fe46dbda2b30d46e0e2edb522",
+      "gitBlob": "21a6ceba5e9e1673a2cbed12e1b3ad6ad767990c",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "81321c0f72c8caaa98df0bdfb0f3c657fd455b61808a4fd205fa75392dac5be7",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7b60f75744e9dc8128c973dd319e741983b42e37edb10360c47465dcc48fbc4d",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "01399977c63acfbfb9fbce8ca884e5754318256cad789e83ac25d6b80525e4d7",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "5c03bdd593673c0176191d8fa435d473c98e128b6bdb8c3afd80d8114dbb352b",
+          "requirementIds": [
+            "multiplex-immunofluorescence::cyclic-not-simultaneous",
+            "multiplex-immunofluorescence::phenotype-is-panel-based",
+            "multiplex-immunofluorescence::denominators-distances"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "542a7af9fc4eecfabcdea158d1d0fa0095beb591047bfa1b66f4ba3f3fc32d02",
+          "requirementIds": [
+            "multiplex-immunofluorescence::proximity-not-recognition"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "b4705ae3ef6d3eb78ee51a4f26a00000015af1910c6e8e2e74e82277443b666f",
+          "requirementIds": [
+            "multiplex-immunofluorescence::validation-scope",
+            "multiplex-immunofluorescence::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "practice-or-worked-example",
+          "sha256": "d884f857037a9181ce4f8d8a2b5bd71fea0f49765d18747c0b35263bb3bd7fbb",
+          "requirementIds": [
+            "multiplex-immunofluorescence::worked-t-cell-neighbour",
+            "multiplex-immunofluorescence::figure-two-rulers"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "ca4bc842de1f5a9cbd7a7d265c29dee9764907b2a0b85418dd82ef3d0ce59812",
+          "requirementIds": [
+            "multiplex-immunofluorescence::virtual-mif"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "9c28a6777a0af6eedea7935a6c53cc8145eb657fe05e405ec37998cc7b9b6bcd",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "d2cf3e3f9fef182caee519180f9877f69bef38e2de4f66733b0cef9e45be1bb6",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "phosphoproteomics",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+      "sourceSha256": "8afaeed97f6e1e34150a4f07ce1e4619d893ab2f67648d8a77cc164d0be5202d",
+      "gitBlob": "806e60b2963f13ffe301db4e22f7a8497dc0e940",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "417350a787d8a7eb9162f12252f02412b366b54cc1a23726f73c0c9247d82fa0",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6bba665ea7e7ae92e991fdb35b18ababab02615df772e84d07074bc9ad63db37",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4ba942be1584bbee2f8c1b2756caedfa2dee7ce9872a22bb57a889c681824efe",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bc1eeab1912f52fdd1c2acd7cebf9d89a4c3f93c509077c14e9194568212abd0",
+          "requirementIds": [
+            "phosphoproteomics::kinase-phosphatase",
+            "phosphoproteomics::enrichment-bias",
+            "phosphoproteomics::site-localization",
+            "phosphoproteomics::intensity-vs-occupancy"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ba24e0d54d9c8c3fb6a7d8ed3a3e2dfa94d625e828cebe26263a329fed4b382d",
+          "requirementIds": [
+            "phosphoproteomics::ischemia-handling",
+            "phosphoproteomics::pathway-limits"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "1d7c63dba1ecb8cb0afc3276e68517e673d2f1a5d15a6f6c11d7c65a29ac35ea",
+          "requirementIds": [
+            "phosphoproteomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4c43252fb774da7cbcf6d48cf8b1479ca6a77768f32d0c0ea3e2b8c64bed265d",
+          "requirementIds": [
+            "phosphoproteomics::kinase-inference-not-causality"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "bb489bc22756b4dd9811bf990e6c8fc75e353209fb59a744e133ec8fe3a5a832",
+          "requirementIds": [
+            "phosphoproteomics::figure-parent-protein"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "6a677507040031784c57a6426307aea12380ac13343a56ee4ae77ca3b1b03bfd",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "be400a400a44cd58b35ebeb3cb924e34b969353f1241492c249bc0162851810b",
+          "requirementIds": [],
+          "assessment": "Citation list; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "phosphoproteomics",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+      "sourceSha256": "8e0afbeb4596426e4d68fd57930cbefd7acbc51e66ed1853df36f413b7836b62",
+      "gitBlob": "4fc16ec1e9505bc44b338e37ace93f06f16a3ca9",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "417350a787d8a7eb9162f12252f02412b366b54cc1a23726f73c0c9247d82fa0",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "6bba665ea7e7ae92e991fdb35b18ababab02615df772e84d07074bc9ad63db37",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "4ba942be1584bbee2f8c1b2756caedfa2dee7ce9872a22bb57a889c681824efe",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "bc1eeab1912f52fdd1c2acd7cebf9d89a4c3f93c509077c14e9194568212abd0",
+          "requirementIds": [
+            "phosphoproteomics::kinase-phosphatase",
+            "phosphoproteomics::enrichment-bias",
+            "phosphoproteomics::site-localization",
+            "phosphoproteomics::intensity-vs-occupancy"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "ba24e0d54d9c8c3fb6a7d8ed3a3e2dfa94d625e828cebe26263a329fed4b382d",
+          "requirementIds": [
+            "phosphoproteomics::ischemia-handling",
+            "phosphoproteomics::pathway-limits"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "1d7c63dba1ecb8cb0afc3276e68517e673d2f1a5d15a6f6c11d7c65a29ac35ea",
+          "requirementIds": [
+            "phosphoproteomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "4c43252fb774da7cbcf6d48cf8b1479ca6a77768f32d0c0ea3e2b8c64bed265d",
+          "requirementIds": [
+            "phosphoproteomics::kinase-inference-not-causality"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "bb489bc22756b4dd9811bf990e6c8fc75e353209fb59a744e133ec8fe3a5a832",
+          "requirementIds": [
+            "phosphoproteomics::figure-parent-protein"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "additional-teaching",
+          "sha256": "6a677507040031784c57a6426307aea12380ac13343a56ee4ae77ca3b1b03bfd",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 9,
+          "kind": "source-scope",
+          "sha256": "be400a400a44cd58b35ebeb3cb924e34b969353f1241492c249bc0162851810b",
+          "requirementIds": [],
+          "assessment": "Citation list; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 10
+    },
+    {
+      "slug": "rppa",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "sourceSha256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+      "gitBlob": "053a0846a9bb1b7c6e9101ab2ef50e16f0c27f6c",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b57879b848baa2c105f8c97849db0e8c33cfece51a4154b16a82b6ef2e9745a1",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7373608801dba81022c027ee4e7ba77876770c526d4064623366d11fa3c11faa",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "748a8600d7a97375bd893312840aae5ae45a37f6526c9b25a9898948081cc616",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9c613d2c26c6226ecc1685a90c8f10d3bd90bdaa5674630a46e74b37a6e874a8",
+          "requirementIds": [
+            "rppa::reverse-arrangement",
+            "rppa::address-not-position",
+            "rppa::antibody-validation",
+            "rppa::dilution-normalisation",
+            "rppa::phosphosite-not-occupancy",
+            "rppa::figure-lysate-addresses"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d7078d5541e3b01271f73a60917348254c53e29b3180478b6058b8b5c757d02e",
+          "requirementIds": [
+            "rppa::ischemia-no-safe-delay"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9092d60a555a3be599cb60220f5c55dcfc87991d1b2f6ba69494aa43a0727822",
+          "requirementIds": [
+            "rppa::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c6740c5fd1abe82ee9af17bf068cb57be5502e2254480e0a9c00c0ac7f048f24",
+          "requirementIds": [
+            "rppa::address-not-position",
+            "rppa::phosphosite-not-occupancy"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c7fc3702f41ae07d08ac11a8476b31bdabf1229497134a11ae213058d35d51e9",
+          "requirementIds": [
+            "rppa::try-it-phospho-r"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "74077aa5e152a0a4fcde9da87ac5dd9f4c69430052fcab145f15048d6b40bb42",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "f6e51226af3dd7c020059512beb10232cee04584ac57fae1c90f6c594ee8db8f",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "47e5feb924d1f38cfb2ef32ba683ffbda4d6e551df5ff5f411d2cbbcd9091e19",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "rppa",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "sourceSha256": "53bca9b850d58c831a7a4d79b559f982d7e4a21a99f57cbc567db3c29633926a",
+      "gitBlob": "fa75f19717b23b4b958a21d05c9a2bda8c2d33e9",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "b57879b848baa2c105f8c97849db0e8c33cfece51a4154b16a82b6ef2e9745a1",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "7373608801dba81022c027ee4e7ba77876770c526d4064623366d11fa3c11faa",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "748a8600d7a97375bd893312840aae5ae45a37f6526c9b25a9898948081cc616",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "9c613d2c26c6226ecc1685a90c8f10d3bd90bdaa5674630a46e74b37a6e874a8",
+          "requirementIds": [
+            "rppa::reverse-arrangement",
+            "rppa::address-not-position",
+            "rppa::antibody-validation",
+            "rppa::dilution-normalisation",
+            "rppa::phosphosite-not-occupancy",
+            "rppa::figure-lysate-addresses"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "d7078d5541e3b01271f73a60917348254c53e29b3180478b6058b8b5c757d02e",
+          "requirementIds": [
+            "rppa::ischemia-no-safe-delay"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "9092d60a555a3be599cb60220f5c55dcfc87991d1b2f6ba69494aa43a0727822",
+          "requirementIds": [
+            "rppa::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "c6740c5fd1abe82ee9af17bf068cb57be5502e2254480e0a9c00c0ac7f048f24",
+          "requirementIds": [
+            "rppa::address-not-position",
+            "rppa::phosphosite-not-occupancy"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "c7fc3702f41ae07d08ac11a8476b31bdabf1229497134a11ae213058d35d51e9",
+          "requirementIds": [
+            "rppa::try-it-phospho-r"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "74077aa5e152a0a4fcde9da87ac5dd9f4c69430052fcab145f15048d6b40bb42",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "f6e51226af3dd7c020059512beb10232cee04584ac57fae1c90f6c594ee8db8f",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "source-scope",
+          "sha256": "47e5feb924d1f38cfb2ef32ba683ffbda4d6e551df5ff5f411d2cbbcd9091e19",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 11
+    },
+    {
+      "slug": "spatial-transcriptomics",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+      "sourceSha256": "0ba0ab5e191d5e90cdecb0b2825f631fd1a572dd3c9aae10ec315cd40830044f",
+      "gitBlob": "2f5f726b10b9e7a67cd90745d59efa7aeb67243d",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c2875359d6255076ded6fde5f98f1131693a628d4f0b7497727429c12ad7d5c7",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "4f71c03ce91ddc868d76e84104445f31780a28542e3e781f3a3da75cb61a2819",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5e2138251e921f4f76a5ddee98974c3c1b094451e39b4a3fcf3f749137b444cf",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b7f8bf48ba4bc4a5868af12d5509aa80eadaa2da1c205180a632c22d7f283757",
+          "requirementIds": [
+            "spatial-transcriptomics::three-strategies",
+            "spatial-transcriptomics::capture-unit-not-cell",
+            "spatial-transcriptomics::roi-numbers",
+            "spatial-transcriptomics::targeted-panel",
+            "spatial-transcriptomics::segmentation-assignment",
+            "spatial-transcriptomics::imputation",
+            "spatial-transcriptomics::figure-four-layers"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "592d6dfde1beb2ab31caf4e9baee564f58b62bff40ce014e1e87625d6d6c2556",
+          "requirementIds": [
+            "spatial-transcriptomics::adjacent-sections"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "930c012df65096a2c84a2d891f0a6cb819dae9e5482c35df577c53db539aaf1f",
+          "requirementIds": [
+            "spatial-transcriptomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "27c46584fda6e8e83fb3fed227e9c54254058df0b52de4b97fbadee65112ab98",
+          "requirementIds": [
+            "spatial-transcriptomics::capture-unit-not-cell",
+            "spatial-transcriptomics::segmentation-assignment",
+            "spatial-transcriptomics::imputation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "58e6824e1340c8ee80a6860e7f4ae2dcfb46d4e12ef7131ce9e22160b80443e8",
+          "requirementIds": [
+            "spatial-transcriptomics::try-it-imputed-r"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5177b805d7c9da426f38de715449d1b53bd615484ed8b15293aedd46588a66e1",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "29e4edbb4088b2547d27b918552ddd561093ded1ec0343f70b8dc37d5fd0a321",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "9292dc091a630ded15d00ef575379b652e91aa2425293f8550686f0b7e6c2b04",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8721b647dff68d15c5454f66bbebb913d385539a36532e9c8ac063259affbfde",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "spatial-transcriptomics",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/spatial-transcriptomics.md",
+      "sourceSha256": "6b35a129ea8f62bd6d482eaed0ea5beaaf3cac256fa7b5a64158860fe1231b73",
+      "gitBlob": "7d18e5b4d8fc98d96bf1aeb95424689323d5c741",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "c2875359d6255076ded6fde5f98f1131693a628d4f0b7497727429c12ad7d5c7",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "4f71c03ce91ddc868d76e84104445f31780a28542e3e781f3a3da75cb61a2819",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "5e2138251e921f4f76a5ddee98974c3c1b094451e39b4a3fcf3f749137b444cf",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "b7f8bf48ba4bc4a5868af12d5509aa80eadaa2da1c205180a632c22d7f283757",
+          "requirementIds": [
+            "spatial-transcriptomics::three-strategies",
+            "spatial-transcriptomics::capture-unit-not-cell",
+            "spatial-transcriptomics::roi-numbers",
+            "spatial-transcriptomics::targeted-panel",
+            "spatial-transcriptomics::segmentation-assignment",
+            "spatial-transcriptomics::imputation",
+            "spatial-transcriptomics::figure-four-layers"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "592d6dfde1beb2ab31caf4e9baee564f58b62bff40ce014e1e87625d6d6c2556",
+          "requirementIds": [
+            "spatial-transcriptomics::adjacent-sections"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "930c012df65096a2c84a2d891f0a6cb819dae9e5482c35df577c53db539aaf1f",
+          "requirementIds": [
+            "spatial-transcriptomics::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "27c46584fda6e8e83fb3fed227e9c54254058df0b52de4b97fbadee65112ab98",
+          "requirementIds": [
+            "spatial-transcriptomics::capture-unit-not-cell",
+            "spatial-transcriptomics::segmentation-assignment",
+            "spatial-transcriptomics::imputation"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "58e6824e1340c8ee80a6860e7f4ae2dcfb46d4e12ef7131ce9e22160b80443e8",
+          "requirementIds": [
+            "spatial-transcriptomics::try-it-imputed-r"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "5177b805d7c9da426f38de715449d1b53bd615484ed8b15293aedd46588a66e1",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "29e4edbb4088b2547d27b918552ddd561093ded1ec0343f70b8dc37d5fd0a321",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "413d77c1928d9ef20a781f768ce883def395edd1bb7c0055cd92e40a3e742454",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "8721b647dff68d15c5454f66bbebb913d385539a36532e9c8ac063259affbfde",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "targeted-proteomics-and-loq",
+      "version": "original",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "sourceSha256": "9055233d7675f407951401d3d8b33b32cd08ef79a78bdd1e76a21b1f17623036",
+      "gitBlob": "69edb6ca886c9eacbc96b3264567988971ef1e6d",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "84402a22773fcdf91f5eee97f101d593d9dd426a89f8630672fd2143cab7a06a",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e52b42037b2047e28405917a317dc7bcc1130b53e68c3d23395a473cde941e23",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "1bedb2711a110ab67fddd989e8f5a0874469ffcd9c6feae0d24af6032f1578aa",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "558a5f593c21b227944ea59283ae22ae32877db1c5f270f649c8c14894487df8",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::mrm",
+            "targeted-proteomics-and-loq::peptide-proxy",
+            "targeted-proteomics-and-loq::standards-and-matrix",
+            "targeted-proteomics-and-loq::lod-vs-loq",
+            "targeted-proteomics-and-loq::below-loq-not-zero",
+            "targeted-proteomics-and-loq::figure-reportable-range"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "bf59eb911ef5f2ea2f7668ab51c4a873f9ae06724c37780aa3316bf95399fc13",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::denominator"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c91bb29a550b3c97feb436b8b5d7364826df08ad93120ecadfe7f212bbae2b2a",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e8a10fb543b2545039440506a6703b648634f96d2aa0212ba1c67993e84cc630",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::precision-vs-accuracy"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "3f25fee26ffe6fc69dc61aea77910ff264f2e13410aea98d6f082af8eaf6f81f",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::worked-below-loq"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "ce8e167de1682334d66907762fcb0f8255f5c03ef3f9ce21db845d6eba0b65bb",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "a4cb4b9414570283e25682da0564d6b967633402023951f3df7a2e64b99e88e6",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "996a80910020e55bbcf5750eb67ccc9443ef0901b5edcd122e39baad1085a882",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "a4e25e4625066599d4d9adfa183eb33d5cc4d003fdb073e9e38fda04bf96b1e5",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    },
+    {
+      "slug": "targeted-proteomics-and-loq",
+      "version": "later",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "sourceSha256": "4c05a6ff0636fbf2db209834a60539611e797ae085db45a0187be433dee35bec",
+      "gitBlob": "a106f1508d40eb1a10b6e94269608eafcc5700f9",
+      "sections": [
+        {
+          "ordinal": 0,
+          "kind": "preamble",
+          "sha256": "84402a22773fcdf91f5eee97f101d593d9dd426a89f8630672fd2143cab7a06a",
+          "requirementIds": [],
+          "assessment": "Title heading only (H1) before the first section; no teaching text"
+        },
+        {
+          "ordinal": 1,
+          "kind": "additional-teaching",
+          "sha256": "e52b42037b2047e28405917a317dc7bcc1130b53e68c3d23395a473cde941e23",
+          "requirementIds": [],
+          "assessment": "One-sentence definition; read against the owner tldr and the definition requirement. No separate claim."
+        },
+        {
+          "ordinal": 2,
+          "kind": "additional-teaching",
+          "sha256": "1bedb2711a110ab67fddd989e8f5a0874469ffcd9c6feae0d24af6032f1578aa",
+          "requirementIds": [],
+          "assessment": "Analogy with its limits stated in the lesson; read for conflict with the owner wording and not adopted as canonical text. No separate claim."
+        },
+        {
+          "ordinal": 3,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "558a5f593c21b227944ea59283ae22ae32877db1c5f270f649c8c14894487df8",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::mrm",
+            "targeted-proteomics-and-loq::peptide-proxy",
+            "targeted-proteomics-and-loq::standards-and-matrix",
+            "targeted-proteomics-and-loq::lod-vs-loq",
+            "targeted-proteomics-and-loq::below-loq-not-zero",
+            "targeted-proteomics-and-loq::figure-reportable-range"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 4,
+          "kind": "additional-teaching",
+          "sha256": "bf59eb911ef5f2ea2f7668ab51c4a873f9ae06724c37780aa3316bf95399fc13",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::denominator"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 5,
+          "kind": "additional-teaching",
+          "sha256": "c91bb29a550b3c97feb436b8b5d7364826df08ad93120ecadfe7f212bbae2b2a",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::table-card"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 6,
+          "kind": "mechanism-measurement-interpretation",
+          "sha256": "e8a10fb543b2545039440506a6703b648634f96d2aa0212ba1c67993e84cc630",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::precision-vs-accuracy"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 7,
+          "kind": "practice-or-worked-example",
+          "sha256": "3f25fee26ffe6fc69dc61aea77910ff264f2e13410aea98d6f082af8eaf6f81f",
+          "requirementIds": [
+            "targeted-proteomics-and-loq::worked-below-loq"
+          ],
+          "assessment": "Teaching claims itemised as requirements; each carries a disposition."
+        },
+        {
+          "ordinal": 8,
+          "kind": "practice-or-worked-example",
+          "sha256": "ce8e167de1682334d66907762fcb0f8255f5c03ef3f9ce21db845d6eba0b65bb",
+          "requirementIds": [],
+          "assessment": "Reflective prompt that restates the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 9,
+          "kind": "additional-teaching",
+          "sha256": "a4cb4b9414570283e25682da0564d6b967633402023951f3df7a2e64b99e88e6",
+          "requirementIds": [],
+          "assessment": "Restated takeaway of the page requirements; no separate claim."
+        },
+        {
+          "ordinal": 10,
+          "kind": "additional-teaching",
+          "sha256": "996a80910020e55bbcf5750eb67ccc9443ef0901b5edcd122e39baad1085a882",
+          "requirementIds": [],
+          "assessment": "Navigation links (annotated in a few pages); no teaching claim beyond the page requirements."
+        },
+        {
+          "ordinal": 11,
+          "kind": "source-scope",
+          "sha256": "a4e25e4625066599d4d9adfa183eb33d5cc4d003fdb073e9e38fda04bf96b1e5",
+          "requirementIds": [],
+          "assessment": "Citation list and scope note; every cited source is resolved in primary-sources.json."
+        }
+      ],
+      "reuseJustification": "Later version differs only where listed above; for sections with identical SHA-256 the original assessment applies unchanged to the later version. For sections whose hash differs, the round-2 diff found metadata/link changes only; the requirement anchors were re-checked as present in both versions in this stage.",
+      "sectionCount": 12
+    }
+  ],
+  "sourceVersions": 34,
+  "sections": 374,
+  "sourceBodies": "Private cache only; no curriculum bodies or personal headings copied."
+}

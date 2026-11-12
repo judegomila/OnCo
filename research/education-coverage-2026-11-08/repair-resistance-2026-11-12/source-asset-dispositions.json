@@ -1,0 +1,139 @@
+{
+  "sourceImageFiles": 8,
+  "sourceVersionEntries": 16,
+  "changedDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "088536bdf1926ff41fe539b0f5fc0079d17a857e5d7374e2085343448311fa2c",
+      "requirementId": "R-014"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "95a7227841e21a3aa9af1f37fde0632a779717310e283b40429b49e4abdc2a63",
+      "requirementId": "R-014"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "1b06d98fb5857cdcff13ccf3bfe76faa3e74a9130423f918eb6bdb8e9bdb29ef",
+      "requirementId": "D-011"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "79ec6d3af288c3e49417fa3c1406d825ef1e457629f4eb9ab0254ae944434b74",
+      "requirementId": "D-011"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386",
+      "requirementId": "P-010"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "dbe7a1cccccf31175d04fcf857efdb062510e4dc299aa99e040fb1912cbc58c3",
+      "requirementId": "P-010"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250",
+      "requirementId": "P-011"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "e170bb9edd43ce132ce93b826c6f63de1590968de7bbd299d42fd39e4d300c80",
+      "requirementId": "P-011"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "088536bdf1926ff41fe539b0f5fc0079d17a857e5d7374e2085343448311fa2c",
+      "requirementId": "R-014"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/images/same-ten-smaller-total-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "95a7227841e21a3aa9af1f37fde0632a779717310e283b40429b49e4abdc2a63",
+      "requirementId": "R-014"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "1b06d98fb5857cdcff13ccf3bfe76faa3e74a9130423f918eb6bdb8e9bdb29ef",
+      "requirementId": "D-011"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/replication-stress-checkpoint-and-end-joining-jobs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "79ec6d3af288c3e49417fa3c1406d825ef1e457629f4eb9ab0254ae944434b74",
+      "requirementId": "D-011"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "52c8ca24732eb0524a176ad21676b8d359138aa1c0bae1d79a9ec20c63bbb386",
+      "requirementId": "P-010"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-catalytic-output-v1-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "dbe7a1cccccf31175d04fcf857efdb062510e4dc299aa99e040fb1912cbc58c3",
+      "requirementId": "P-010"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "287542d586d927bff790260074ece8ff699d29705eb7171ab48fde804a613250",
+      "requirementId": "P-011"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/images/parp-dna-occupancy-v1-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "e170bb9edd43ce132ce93b826c6f63de1590968de7bbd299d42fd39e4d300c80",
+      "requirementId": "P-011"
+    }
+  ],
+  "mermaidInstances": 6,
+  "uniqueMermaid": 3,
+  "mermaidThemeViews": 6,
+  "sourceArtworkImported": false,
+  "scope": "Coverage represents unique source-art teaching in named prose fields; not an artwork, expert or native-pixel approval."
+}

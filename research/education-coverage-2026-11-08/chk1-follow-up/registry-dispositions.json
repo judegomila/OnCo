@@ -1,0 +1,903 @@
+[
+  {
+    "nctId": "NCT01870596",
+    "title": "Cytarabine With or Without SCH 900776 in Treating Adult Patients With Relapsed Acute Myeloid Leukemia",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2016-09-01",
+      "type": "ESTIMATED"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 32,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2013-05"
+    },
+    "primaryCompletion": {
+      "date": "2014-12",
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "conditions": [
+      "Adult Acute Megakaryoblastic Leukemia",
+      "Adult Acute Monoblastic Leukemia",
+      "Adult Acute Monocytic Leukemia",
+      "Adult Acute Myeloid Leukemia With Inv(16)(p13.1q22); CBFB-MYH11",
+      "Adult Acute Myeloid Leukemia With Maturation",
+      "Adult Acute Myeloid Leukemia With Minimal Differentiation",
+      "Adult Acute Myeloid Leukemia With t(16;16)(p13.1;q22); CBFB-MYH11",
+      "Adult Acute Myeloid Leukemia With t(8;21)(q22;q22); RUNX1-RUNX1T1",
+      "Adult Acute Myeloid Leukemia With t(9;11)(p22;q23); MLLT3-MLL",
+      "Adult Acute Myeloid Leukemia Without Maturation",
+      "Adult Acute Myelomonocytic Leukemia",
+      "Adult Erythroleukemia",
+      "Adult Pure Erythroid Leukemia",
+      "Alkylating Agent-Related Acute Myeloid Leukemia",
+      "Recurrent Adult Acute Myeloid Leukemia"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "Cytarabine",
+        "otherNames": [
+          "CHX-3311",
+          "U-19920"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "CHK1 Inhibitor SCH 900776",
+        "otherNames": [
+          "SCH 900776"
+        ]
+      },
+      {
+        "type": "OTHER",
+        "name": "Laboratory Biomarker Analysis",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT02124148",
+    "title": "A Study of Prexasertib (LY2606368) With Chemotherapy or Targeted Agents in Participants With Advanced Cancer",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2020-04-01",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 167,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2014-06-18",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2020-02-13",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Neoplasm Metastasis",
+      "Colorectal Neoplasms",
+      "Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "Prexasertib",
+        "otherNames": [
+          "LY2606368"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Cisplatin",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Cetuximab",
+        "otherNames": [
+          "Erbitux"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "G-CSF",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Pemetrexed",
+        "otherNames": [
+          "Alimta"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Fluorouracil",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "LY3023414",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Leucovorin",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT02514603",
+    "title": "A Study of Prexasertib (LY2606368) in Japanese Participants With Advanced Cancers",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2017-05-22",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 12,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2015-10"
+    },
+    "primaryCompletion": {
+      "date": "2017-04-10",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Neoplasm"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "Prexasertib",
+        "otherNames": [
+          "LY2606368"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT02555644",
+    "title": "A Study of Prexasertib (LY2606368) With Chemotherapy and Radiation in Participants With Head and Neck Cancer",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2019-02-15",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 70,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2016-02-24",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2019-01-14",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Head and Neck Neoplasms"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "Prexasertib",
+        "otherNames": [
+          "LY2606368"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Cisplatin",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Cetuximab",
+        "otherNames": [
+          "Erbitux",
+          "LY2939777"
+        ]
+      },
+      {
+        "type": "RADIATION",
+        "name": "Intensity Modulated Radiation Therapy",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT02808650",
+    "title": "Prexasertib in Treating Pediatric Patients With Recurrent or Refractory Solid Tumors",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2023-12-20",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 30,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2017-02-27",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2019-12-31",
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "conditions": [
+      "Childhood Solid Neoplasm",
+      "Recurrent Malignant Solid Neoplasm",
+      "Recurrent Primary Central Nervous System Neoplasm",
+      "Refractory Malignant Solid Neoplasm",
+      "Refractory Primary Central Nervous System Neoplasm"
+    ],
+    "interventions": [
+      {
+        "type": "OTHER",
+        "name": "Laboratory Biomarker Analysis",
+        "otherNames": []
+      },
+      {
+        "type": "OTHER",
+        "name": "Pharmacokinetic (PK) study",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Prexasertib",
+        "otherNames": [
+          "LY2606368"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT02873975",
+    "title": "A Study of LY2606368 (Prexasertib) in Patients With Solid Tumors With Replicative Stress or Homologous Repair Deficiency",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2022-10-21",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 27,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2016-10-12",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2020-09-30",
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "conditions": [
+      "Advanced Cancers"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "LY2606368",
+        "otherNames": [
+          "Prexasertib"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT03057145",
+    "title": "Combination Study of Prexasertib and Olaparib in Patients With Advanced Solid Tumors",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2021-09-02",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 29,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2017-03-10",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2020-02-25",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Solid Tumor"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "Prexasertib",
+        "otherNames": [
+          "LY2606368"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Olaparib",
+        "otherNames": [
+          "Lynparza"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT03495323",
+    "title": "A Study of Prexasertib (LY2606368), CHK1 Inhibitor, and LY3300054, PD-L1 Inhibitor, in Patients With Advanced Solid Tumors",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2021-04-15",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 17,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2018-05-16",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2021-02-01",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Cancer"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "LY3300054",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Prexasertib",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT03678883",
+    "title": "9-ING-41 in Patients With Advanced Cancers",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "lastUpdate": {
+      "date": "2026-04-03",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 350,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2019-01-04",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Cancer",
+      "Pancreatic Cancer",
+      "Sarcoma",
+      "Renal Cancer",
+      "Refractory Cancer",
+      "Refractory Neoplasm",
+      "Refractory Non-Hodgkin Lymphoma",
+      "Pancreatic Adenocarcinoma",
+      "Resistant Cancer",
+      "Neoplasm Metastasis",
+      "Neoplasm of Bone",
+      "Neoplasm, Breast",
+      "Neoplasm of Lung",
+      "Neoplasms,Colorectal",
+      "Neoplasms Pancreatic",
+      "Malignant Glioma",
+      "Malignancies",
+      "Malignancies Multiple",
+      "Bone Metastases",
+      "Bone Neoplasm",
+      "Bone Cancer",
+      "Pancreas Cancer",
+      "Pancreatic Neoplasms",
+      "Breast Neoplasms",
+      "Acute T Cell Leukemia Lymphoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "9-ING-41",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Gemcitabine - 21 day cycle",
+        "otherNames": [
+          "Gemzar"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Doxorubicin.",
+        "otherNames": [
+          "Doxil",
+          "Adriamycin"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Lomustine",
+        "otherNames": [
+          "CCNU",
+          "Gleostine"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Carboplatin.",
+        "otherNames": [
+          "Paraplatin"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Nab paclitaxel.",
+        "otherNames": [
+          "Abraxane",
+          "Protein-bound paclitaxel",
+          "Nanoparticle albumin-bound paclitaxel"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Paclitaxel.",
+        "otherNames": [
+          "Taxol"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Gemcitabine - 28 day cycle",
+        "otherNames": [
+          "Gemzar"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Irinotecan",
+        "otherNames": [
+          "Camptosar"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "9-ING-41 is described as GSK-3 beta inhibition with separate agents, not a CHK1 conjugate.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT03735446",
+    "title": "Prexasertib in Combination With MEC in Relapsed/Refractory AML and High Risk MDS - a Phase I Trial",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2019-06-12",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 2,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2019-01-18",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2019-03-29",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Acute Myeloid Leukemia",
+      "Myelodysplastic Syndromes"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "Prexasertib",
+        "otherNames": [
+          "LY2606368"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Mitoxantrone",
+        "otherNames": [
+          "Novantrone"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Etoposide",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Cytarabine",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT04508803",
+    "title": "Combination of HX008 And Niraparib in GErm-line-mutAted Metastatic Breast Cancer",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2024-09-27",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 37,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2020-09-14",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2022-08-20",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Treatment Efficacy"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "HX008，Niraparib",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "HX008，Niraparib",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "HX008，Niraparib，Trastuzumab",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "HX008，Niraparib，Pyrrolitinib",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "CHEK1 appears in molecular eligibility; interventions are other separate drugs, not attached CHK1 cargo.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT05659732",
+    "title": "A Study of PEP07 (Checkpoint Kinase 1 Inhibitor) in Patients With Advanced Cancer",
+    "status": "RECRUITING",
+    "lastUpdate": {
+      "date": "2025-07-31",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 32,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2023-07-17",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2026-12-31",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Acute Myeloid Leukemia",
+      "Lymphoma, Mantle-Cell"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "PEP07",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT05827614",
+    "title": "Study of the CHK1 Inhibitor BBI-355, an ecDNA-directed Therapy (ecDTx), and the RNR Inhibitor BBI-825, in Subjects With Tumors With Oncogene Amplifications",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2026-08-19",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 85,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2023-03-24",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2026-03-17",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Triple Negative Breast Cancer (TNBC)",
+      "High Grade Serous Ovarian Carcinoma",
+      "High Grade Endometrial Carcinoma",
+      "Anogenital Cancer",
+      "Head and Neck (HNSCC)",
+      "Cutaneous Squamous Cell Carcinoma (CSCC)",
+      "Cervical Squamous Cell Carcinoma",
+      "ER+ Breast Cancer",
+      "Leiomyosarcoma (LMS)",
+      "Undifferentiated Pleomorphic Sarcoma (UPS)",
+      "Pancreatic Cancer Metastatic",
+      "Small Cell Lung Cancer"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "BBI-355",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Erlotinib",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Futibatinib",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "BBI-825",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  },
+  {
+    "nctId": "NCT05983523",
+    "title": "A Study of PEP07 (Checkpoint Kinase 1 Inhibitor) in Patients with Advanced or Metastatic Solid Tumors",
+    "status": "RECRUITING",
+    "lastUpdate": {
+      "date": "2024-11-07",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 54,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2024-03-27",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2027-02-25",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Advanced Solid Tumor",
+      "Metastatic Solid Tumor"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "PEP07",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-and-paper-identifiers"
+    ],
+    "sourcePages": [
+      "semantic-and-paper-identifiers/page-0001.json"
+    ],
+    "disposition": "excluded-as-attached-cargo-evidence",
+    "rationale": "Separate CHK1 inhibitor administration/combination; no attached CHK1 cargo described in the screened interventions/arms.",
+    "screeningDepth": "Direct title, design/status, brief summary, intervention and arm descriptions read; no eligibility or outcome certification."
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "checkedOn": "2026-11-11",
+  "items": [
+    {
+      "pmid": "32448801",
+      "doi": "10.1136/jitc-2019-000337corr1",
+      "bodyRead": true,
+      "correctionScope": "Author-name abbreviation, Aitziber Buqué Martinez. No biological definition or assay-result change is described in the correction.",
+      "capture": "PMC7252980-bioc.xml",
+      "captureSha256": "f1e2193ba76d2dd9f2253757618f124b7e596b189b371dd758727afca2eb7e53"
+    },
+    {
+      "pmid": "29542692",
+      "doi": "10.1038/nature25145",
+      "bodyRead": true,
+      "correctionScope": "Data-availability deposition and an expanded competing-interest statement/management plan. This correction does not describe a replacement of the reported vaccine response counts.",
+      "capture": "PMC6064631-bioc.xml",
+      "captureSha256": "a60dc65faefcbb4982b858647d734d977d2064ecd4cb74f5772ebc476ae1e070"
+    },
+    {
+      "pmid": "31825850",
+      "doi": "10.1016/j.celrep.2019.11.113",
+      "bodyRead": false,
+      "correctionScope": "Unknown. Crossref confirms identity and PII S2211124719316365. Elsevier API returned metadata-only XML; direct Cell and ScienceDirect pages returned 403. One source-qualification requirement remains partial.",
+      "capture": "garcia-correction-elsevier.xml",
+      "captureSha256": "94b01e9823e037031dcf25635c5a77e2248302fadabe5d413ffe86d2dced01ae"
+    }
+  ],
+  "unreadBodyNotCalledRead": true
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "file": "crossref-1714.json",
+    "url": "https://api.crossref.org/works/10.1158%2F1538-7445.AM2026-1714",
+    "retrievedAt": "2026-11-09T07:10:41.330106+00:00",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "file": "crossref-a067-search.json",
+    "url": "https://api.crossref.org/works?query.title=Combined+Top1+and+CHK+Inhibitor+Dual-Payload+Strategy+for+Synergistic+Reversal+of+Tumor+Drug+Resistance&rows=3",
+    "retrievedAt": "2026-11-09T07:10:41.330428+00:00",
+    "status": 200,
+    "bytes": 15538,
+    "sha256": "0635e39f1df65aa51d55b17a08f5c43540ba0e297eee25e72b5b3f79ed43f81d"
+  },
+  {
+    "file": "epmc-2020.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3APMC7285923+OR+PMCID%3APMC7285923&format=json&resultType=core",
+    "retrievedAt": "2026-11-09T07:10:41.330529+00:00",
+    "status": 200,
+    "bytes": 9905,
+    "sha256": "866dd54441c3942be77efdc06e66a4ccbbdd510564455409c2fdc5c685782792"
+  },
+  {
+    "file": "pmc-2020.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7285923/fullTextXML",
+    "retrievedAt": "2026-11-09T07:10:41.330594+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "crossref-1714-retry.json",
+    "url": "https://api.crossref.org/works/10.1158/1538-7445.am2026-1714",
+    "retrievedAt": "2026-11-09T07:11:14.547564+00:00",
+    "status": 200,
+    "bytes": 6810,
+    "sha256": "5667c3eabada98231b013fad2b98b1c7e13e61723dbc9587530d561cbc114f6e"
+  },
+  {
+    "file": "crossref-a067.json",
+    "url": "https://api.crossref.org/works/10.1158/1557-3265.d32026-a067",
+    "retrievedAt": "2026-11-09T07:11:14.808362+00:00",
+    "status": 200,
+    "bytes": 6620,
+    "sha256": "4be8ff182413920b3bedb24f1149123b3a7eb149a27697e439545295013786d9"
+  },
+  {
+    "file": "pmc-2020-retry.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7285923/fullTextXML?format=xml",
+    "retrievedAt": "2026-11-09T07:11:15.053455+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "2020-author-manuscript.pdf",
+    "url": "https://escholarship.org/content/qt2pb707b8/qt2pb707b8.pdf",
+    "retrievedAt": "2026-11-09T07:13:38.376252+00:00",
+    "status": 202,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

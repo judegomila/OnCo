@@ -1,0 +1,687 @@
+{
+  "canonicalPagesScreened": 20,
+  "GuideCoverageCredit": 0,
+  "reading": {
+    "scope": "Only TMB-related assertions and directly relevant MSI/dMMR patient-selection conditions. No new Guide page credit. No edits; exact candidate fields/proposals only. Root owns measurement22 plus tmb-high separately.",
+    "instructionsRead": [
+      "AGENTS.md",
+      "Private cached evidence; source identity and reading limit retained separately.",
+      "Private cached evidence; source identity and reading limit retained separately.",
+      "docs/HOUSE-STYLE.md (opening style rules)",
+      "src/data/spikes/index.ts (merge contracts)",
+      "src/data/biomarker-readouts.ts (factories and MSI owner)"
+    ],
+    "inputHashes": {
+      "beforeRecords": "eb22b3c5e187030f8d52bbd9e3a2215fb61fb4c0fe3e1f88ca92cc4f1807a4ef",
+      "referenceScan": "61dc8f4fed95f4c565ee44eb8e9de7b4ab2e0f38b01a9ffae28f30bc4a965cd8",
+      "captureLog": "19504923fc62010d053aef9d00a5f8aa8359c315df4cf8fb685ea1cacf08604c"
+    },
+    "rawEvidence": [
+      {
+        "file": "fda-tmb-oct2026.html",
+        "anchor": "On October 16, 2026",
+        "byteStart": 24300,
+        "byteEndExclusive": 26500,
+        "sha256": "57967f897fd8cd0dfe848a7e379c115daef7bfbc20d53dc19e8f8bcdc0e03fe2",
+        "rawHtml": "On October 16, 2026, the Food and Drug Administration granted traditional approval to pembrolizumab (Keytruda, Merck) or pembrolizumab and berahyaluronidase alfa-pmph (Keytruda Qlex, Merck) for adult and pediatric patients with unresectable or metastatic tumor mutational burden-high (TMB-H) [≥13 mutations/megabase (mut/Mb)] solid tumors, as determined by an FDA-authorized test, that have progressed following prior treatment and who have no satisfactory alternative treatment options.</p><p>Previously, pembrolizumab received accelerated approval for the treatment of adult and pediatric patients with unresectable or metastatic TMB-H, defined as ≥10 mutations/megabase (mut/Mb), solid tumors. This approval converts the accelerated approval to traditional approval and amends the TMB-H indication to define TMB-H as ≥13 mut/Mb, as efficacy to support traditional approval was not confirmed in patients with TMB of 10 to &lt;13 mut/Mb.</p><h2>Efficacy and Safety</h2><p>Efficacy was evaluated in two groups of patients in KEYNOTE-158 (NCT02628067): Cohort M prospectively enrolled patients with tumors that were TMB-H and not microsatellite instability-high (MSI-H) and Cohorts A through J consisted of a prospectively planned retrospective analysis of patients with TMB-H tumors identified within 10 cohorts (A through J) of patients with various previously treated unresectable or metastatic solid tumors. Patients in Cohorts A-J received pembrolizumab 200 mg every three weeks and patients in Cohort M received pembrolizumab 400 mg intravenously every six weeks until unacceptable toxicity or documented disease progression.</p><p>The major efficacy outcome measures were objective response rate (ORR) and duration of response (DOR) in 220 patients with tumors with TMB ≥13 mut/Mb (145 in Cohort M and 75 in Cohorts A to J) who received at least one dose of pembrolizumab as assessed by BICR according to RECIST v1.1, modified to follow a maximum of 10 target lesions and a maximum of five target lesions per organ. Across both groups, ORR was 36% (95% CI: 30, 43) and 58% of patients had a DOR of ≥12 months.</p><p>The safety profile of pembrolizumab monotherapy for the updated indi"
+      },
+      {
+        "file": "fda-tmb-oct2026.html",
+        "anchor": "Previously, pembrolizumab",
+        "byteStart": 24796,
+        "byteEndExclusive": 26996,
+        "sha256": "b1ee55377dc2a6c1807546df4734bfe12c3dfd5afb77bfe104d75c4d8531ec0a",
+        "rawHtml": "Previously, pembrolizumab received accelerated approval for the treatment of adult and pediatric patients with unresectable or metastatic TMB-H, defined as ≥10 mutations/megabase (mut/Mb), solid tumors. This approval converts the accelerated approval to traditional approval and amends the TMB-H indication to define TMB-H as ≥13 mut/Mb, as efficacy to support traditional approval was not confirmed in patients with TMB of 10 to &lt;13 mut/Mb.</p><h2>Efficacy and Safety</h2><p>Efficacy was evaluated in two groups of patients in KEYNOTE-158 (NCT02628067): Cohort M prospectively enrolled patients with tumors that were TMB-H and not microsatellite instability-high (MSI-H) and Cohorts A through J consisted of a prospectively planned retrospective analysis of patients with TMB-H tumors identified within 10 cohorts (A through J) of patients with various previously treated unresectable or metastatic solid tumors. Patients in Cohorts A-J received pembrolizumab 200 mg every three weeks and patients in Cohort M received pembrolizumab 400 mg intravenously every six weeks until unacceptable toxicity or documented disease progression.</p><p>The major efficacy outcome measures were objective response rate (ORR) and duration of response (DOR) in 220 patients with tumors with TMB ≥13 mut/Mb (145 in Cohort M and 75 in Cohorts A to J) who received at least one dose of pembrolizumab as assessed by BICR according to RECIST v1.1, modified to follow a maximum of 10 target lesions and a maximum of five target lesions per organ. Across both groups, ORR was 36% (95% CI: 30, 43) and 58% of patients had a DOR of ≥12 months.</p><p>The safety profile of pembrolizumab monotherapy for the updated indication was consistent with the known safety profile of pembrolizumab monotherapy.</p><p>The prescribing information includes warnings and precautions for immune-mediated adverse reactions, infusion-related reactions, complications of allogeneic hematopoietic stem cell transplantation, and embryo-fetal toxicity.</p><h2>Recommended Dosage</h2><p>The recommended dose of pembrolizumab monotherapy for the updated indication is 200 mg every three weeks or 400 mg every six weeks until disease progr"
+      },
+      {
+        "file": "fda-tmb-oct2026.html",
+        "anchor": "Content current",
+        "byteStart": 29427,
+        "byteEndExclusive": 31627,
+        "sha256": "5bd434d1ade4cd07e8555ef21ecdc901b2b5068d0e3c291d7c1669d95f36843a",
+        "rawHtml": "Content current as of:</h2>\n      <p class=\"lcds-description-list__item-text\"><time datetime=\"2026-10-22T00:00:00Z\">10/22/2026</time>\n</p>\n    </div>\n  </li>\n              \n              \n<li role=\"menuitem\" class=\"lcds-description-list__item\">  \n\t<div>\n\t\t\n\t\t <h2 class=\"lcds-description-list__item-heading\">Regulated Product(s)</h2>\n\t\t <ul role=\"menu\" class=\"lcds-metadata-list\">\n\t\t\t\t\t\t  <li role=\"menuitem\">Drugs</li>\n\t\t\t  \t\t\t     \t\t\t  \t\t\t\t\t\t              \n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t\t  <li role=\"menuitem\">Oncology</li>\n\t\t\t  \t\t\t     \t\t\t  \t\t\t  \n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t\t\t</ul>\n\t \n\t\t\t     \n\t\t\t\t\t\t       \n\n\t\t\t  \n\t\t\t\t\t\t  \n\n\t\t\t  \n\t\t\t\t\t\t \n\t</div>\n</li>   \n\n    </ul>\n\n  </aside>\n</div>\n\n\n  </section>\n\n\n              </aside>\n            \n                 </article>        \n      </main>\n\n    </div>  </div>\n<div id=\"fda-survey-comments\"></div>\n<script src=https://touchpoints.app.cloud.gov/touchpoints/0eb673d9.js async></script>\n<button class=\"btn btn-primary btn-vertical\" id=\"survey-btn\">Feedback</button>\n<script src=https://touchpoints.app.cloud.gov/touchpoints/d45bb814.js async=\"\"></script>\n                <div class=\"region region-subscribe\">\n    <section id=\"block-entityviewcontent-5\" data-block-plugin-id=\"entity_view:node\" class=\"block block-ctools block-entity-viewnode clearfix\">\n  \n    \n\n      \n\n  </section>\n\n\n  </div>\n\n  \n      <footer id=\"footer\" class=\"lcds-footer container-fluid\">\n        \n    <div class=\"row lcds-footer__primary\">\n    <nav class=\"text-center\">\n      <div class=\"col-sm-4\">\n        <ul class=\"nav\">\n          <li><a href=\"/about-fda/about-website/fdagov-archive\" >FDA Archive</a></li>\n          <li><a href=\"/about-fda\" >About FDA</a></li>\n          <li><a href=\"/about-fda/about-website/internet-accessibility\" >Accessibility</a></li>\n        </ul>\n      </div>\n      <div class=\"col-sm-4\">\n        <ul class=\"nav\">\n          <li><a href=\"/about-fda/visitor-information\" >Visitor Information</a> </li>\n          <li><a href=\"/about-fda/about-website/website-policies\" >Website Policies / Privacy</a></li>\n          <li><a href=\"/about-fda/jobs-and-training-fda/no-fear-act\" >No FEAR Act</a></li>\n          <li><a href=\"https://www.hhs.gov/vulnerability-disclosure-policy/inde"
+      },
+      {
+        "file": "dailymed-current.html",
+        "anchor": "Additional Patient Selection Information",
+        "byteStart": 102099,
+        "byteEndExclusive": 104299,
+        "sha256": "44080883794d79d41b81ccec2e93c8e12a8457229bb961b42df27db4a029bb01",
+        "rawHtml": "Additional Patient Selection Information for MSI-H or dMMR in Patients with non-CRC Solid Tumors</span>\n</p>\n<p style=\"border-left:1px solid;\">\n<span class=\"XmChange\">Due to discordance between local tests and FDA-authorized tests, confirmation of MSI-H or dMMR status is recommended by an FDA-authorized test in patients with MSI-H or dMMR solid tumors, if feasible. If unable to perform confirmatory MSI-H/dMMR testing, the presence of TMB ≥13 mut/Mb, as determined by an FDA-authorized test, may be used to select patients for treatment <span class=\"Italics\"> [see<a href=\"#S14.8\"> Clinical Studies (14.8)</a>]</span>.</span>\n</p>\n<p>\n<span class=\"Underline\">Patient Selection for Combination Therapy</span>\n</p>\n<p style=\"border-left:1px solid;\">\n<span class=\"XmChange\">For use of KEYTRUDA as a single agent as neoadjuvant treatment, then in combination with radiotherapy (RT) with or without chemotherapy then continued as a single agent as adjuvant treatment, select patients based on presence of positive PD-L1 expression (CPS ≥1) in resectable locally advanced HNSCC <span class=\"Italics\">[see <a href=\"#S14.4\"> Clinical Studies (14.4)</a>].</span></span>\n</p>\n<p style=\"border-left:1px solid;\">\n<span class=\"XmChange\">For use of KEYTRUDA in combination with chemotherapy, select patients based on the presence of positive PD-L1 expression (CPS ≥1) in locally advanced unresectable or metastatic gastric or gastroesophageal junction (GEJ) adenocarcinoma, and esophageal or gastroesophageal junction (GEJ) carcinoma <span class=\"Italics\">[see <a href=\"#S14.10\"> Clinical Studies (14.10)</a>, <a href=\"#S14.11\">(14.11)</a>].</span></span>\n</p>\n<p>For use of KEYTRUDA in combination with chemotherapy, with or without bevacizumab, select patients based on the presence of positive PD-L1 expression in persistent, recurrent, or metastatic cervical cancer <span class=\"Italics\"> [see<a href=\"#S14.12\"> Clinical Studies (14.12)</a>].</span>\n</p>\n<p>For the pMMR/not MSI-H advanced endometrial carcinoma indication, select patients for treatment with KEYTRUDA in combination with lenvatinib based on MMR or MSI status in tumor specimens <span class=\"Italics\">[see <a href=\"#S14.17\">Clinical St"
+      },
+      {
+        "file": "dailymed-current.html",
+        "anchor": "If unable to perform confirmatory",
+        "byteStart": 102467,
+        "byteEndExclusive": 104667,
+        "sha256": "139f044e707c04572d386f32f73d3312c3393aef573480590947da1e808547d6",
+        "rawHtml": "If unable to perform confirmatory MSI-H/dMMR testing, the presence of TMB ≥13 mut/Mb, as determined by an FDA-authorized test, may be used to select patients for treatment <span class=\"Italics\"> [see<a href=\"#S14.8\"> Clinical Studies (14.8)</a>]</span>.</span>\n</p>\n<p>\n<span class=\"Underline\">Patient Selection for Combination Therapy</span>\n</p>\n<p style=\"border-left:1px solid;\">\n<span class=\"XmChange\">For use of KEYTRUDA as a single agent as neoadjuvant treatment, then in combination with radiotherapy (RT) with or without chemotherapy then continued as a single agent as adjuvant treatment, select patients based on presence of positive PD-L1 expression (CPS ≥1) in resectable locally advanced HNSCC <span class=\"Italics\">[see <a href=\"#S14.4\"> Clinical Studies (14.4)</a>].</span></span>\n</p>\n<p style=\"border-left:1px solid;\">\n<span class=\"XmChange\">For use of KEYTRUDA in combination with chemotherapy, select patients based on the presence of positive PD-L1 expression (CPS ≥1) in locally advanced unresectable or metastatic gastric or gastroesophageal junction (GEJ) adenocarcinoma, and esophageal or gastroesophageal junction (GEJ) carcinoma <span class=\"Italics\">[see <a href=\"#S14.10\"> Clinical Studies (14.10)</a>, <a href=\"#S14.11\">(14.11)</a>].</span></span>\n</p>\n<p>For use of KEYTRUDA in combination with chemotherapy, with or without bevacizumab, select patients based on the presence of positive PD-L1 expression in persistent, recurrent, or metastatic cervical cancer <span class=\"Italics\"> [see<a href=\"#S14.12\"> Clinical Studies (14.12)</a>].</span>\n</p>\n<p>For the pMMR/not MSI-H advanced endometrial carcinoma indication, select patients for treatment with KEYTRUDA in combination with lenvatinib based on MMR or MSI status in tumor specimens <span class=\"Italics\">[see <a href=\"#S14.17\">Clinical Studies (14.17)</a>]</span>.</p>\n<p style=\"border-left:1px solid;\">\n<span class=\"XmChange\">For use of KEYTRUDA in combination with sacituzumab govitecan-hziy, select patients based on the presence of positive PD-L1 expression in unresectable locally advanced or metastatic TNBC <span class=\"Italics\">[see <a href=\"#S14.20\">Clinical Studies (14.20)</a>]</span>.</span>\n</"
+      }
+    ],
+    "sectionsRead": [
+      {
+        "file": "dailymed-current.html.txt",
+        "characterStart": 29125,
+        "characterEndExclusive": 29861,
+        "sha256Utf8": "22ecdf4f89982750744657b36e5589910dcb6a2d89e948566607faf05b6bed19",
+        "text": "1.8 Microsatellite Instability-High or Mismatch Repair Deficient Cancer\nKEYTRUDA is indicated for the treatment of adult and pediatric patients with unresectable or metastatic microsatellite instability-high (MSI-H) or mismatch repair deficient (dMMR) solid tumors, as determined by an FDA-authorized test, that have progressed following prior treatment and who have no satisfactory alternative treatment options [see Dosage and Administration (2.1)].\n1.9 Microsatellite Instability-High or Mismatch Repair Deficient Colorectal Cancer\nKEYTRUDA is indicated for the treatment of patients with unresectable or metastatic MSI-H or dMMR colorectal cancer (CRC) as determined by an FDA-authorized test [see Dosage and Administration (2.1)].\n"
+      },
+      {
+        "file": "dailymed-current.html.txt",
+        "characterStart": 34686,
+        "characterEndExclusive": 35102,
+        "sha256Utf8": "5ecd7763c827d91dd7c4e6f10c7935bc8c37bdc971121a61455fc05d27ca04d2",
+        "text": "1.18 Tumor Mutational Burden-High Cancer\nKEYTRUDA is indicated for the treatment of adult and pediatric patients with unresectable or metastatic tumor mutational burden-high (TMB-H) [≥13 mutations/megabase (mut/Mb)] solid tumors, as determined by an FDA-authorized test [see Dosage and Administration (2.1)], that have progressed following prior treatment and who have no satisfactory alternative treatment options.\n"
+      },
+      {
+        "file": "dailymed-current.html.txt",
+        "characterStart": 36606,
+        "characterEndExclusive": 40422,
+        "sha256Utf8": "07299ee4e2b5206f92be52564e5e131eb9d3fde026c40ba1247a07810496e125",
+        "text": "2.1 Patient Selection\nInformation on FDA-authorized tests for patient selection is available at:\nhttp://www.fda.gov/CompanionDiagnostics.\nPatient Selection for Single-Agent Treatment\nSelect patients for treatment with KEYTRUDA as a single agent based on the presence of positive PD-L1 expression in:\nStage III NSCLC who are not candidates for surgical resection or definitive chemoradiation [see Clinical Studies (14.2)].\nmetastatic NSCLC [see Clinical Studies (14.2)].\nfirst-line treatment of metastatic or unresectable, recurrent HNSCC [see Clinical Studies (14.4)].\npreviously treated recurrent locally advanced or metastatic esophageal cancer [see Clinical Studies (14.11)].\nrecurrent or metastatic cervical cancer with disease progression on or after chemotherapy [see Clinical Studies (14.12)].\nFor the MSI-H/dMMR indications, select patients for treatment with KEYTRUDA as a single agent based on MSI-H/dMMR status in tumor specimens [see Clinical Studies (14.8, 14.9)].\nFor the TMB-H indication, select patients for treatment with KEYTRUDA as a single agent based on TMB-H status in tumor specimens [see Clinical Studies (14.18)].\nBecause subclonal dMMR mutations and microsatellite instability may arise in high-grade gliomas during temozolomide therapy, it is recommended to test for TMB-H, MSI-H, and dMMR in the primary tumor specimens obtained prior to initiation of temozolomide chemotherapy in patients with high-grade gliomas.\nAdditional Patient Selection Information for MSI-H or dMMR in Patients with non-CRC Solid Tumors\nDue to discordance between local tests and FDA-authorized tests, confirmation of MSI-H or dMMR status is recommended by an FDA-authorized test in patients with MSI-H or dMMR solid tumors, if feasible. If unable to perform confirmatory MSI-H/dMMR testing, the presence of TMB ≥13 mut/Mb, as determined by an FDA-authorized test, may be used to select patients for treatment [see Clinical Studies (14.8)].\nPatient Selection for Combination Therapy\nFor use of KEYTRUDA as a single agent as neoadjuvant treatment, then in combination with radiotherapy (RT) with or without chemotherapy then continued as a single agent as adjuvant treatment, select patients based on presence of positive PD-L1 expression (CPS ≥1) in resectable locally advanced HNSCC [see Clinical Studies (14.4)].\nFor use of KEYTRUDA in combination with chemotherapy, select patients based on the presence of positive PD-L1 expression (CPS ≥1) in locally advanced unresectable or metastatic gastric or gastroesophageal junction (GEJ) adenocarcinoma, and esophageal or gastroesophageal junction (GEJ) carcinoma [see Clinical Studies (14.10), (14.11)].\nFor use of KEYTRUDA in combination with chemotherapy, with or without bevacizumab, select patients based on the presence of positive PD-L1 expression in persistent, recurrent, or metastatic cervical cancer [see Clinical Studies (14.12)].\nFor the pMMR/not MSI-H advanced endometrial carcinoma indication, select patients for treatment with KEYTRUDA in combination with lenvatinib based on MMR or MSI status in tumor specimens [see Clinical Studies (14.17)].\nFor use of KEYTRUDA in combination with sacituzumab govitecan-hziy, select patients based on the presence of positive PD-L1 expression in unresectable locally advanced or metastatic TNBC [see Clinical Studies (14.20)].\nFor use of KEYTRUDA in combination with chemotherapy, select patients based on the presence of positive PD-L1 expression in locally recurrent unresectable or metastatic TNBC [see Clinical Studies (14.20)].\nFor use of KEYTRUDA in combination with paclitaxel, with or without bevacizumab, select patients based on the presence of positive PD-L1 expression (CPS ≥1) in platinum-resistant epithelial ovarian, fallopian tube, or primary peritoneal carcinoma [see Clinical Studies (14.21)].\n"
+      }
+    ],
+    "readingLimits": "No study identifiers introduced or recalled. Unchanged cohort findings are preserved, not independently re-certified. Raw HTML was read alongside extracted text; failed accessdata responses were not read as PDFs.",
+    "liveVerification": "FDA and DailyMed URLs opened with web tool; current approval and update date agree with captures."
+  },
+  "candidateReview": {
+    "denominator": 20,
+    "auditedPages": 20,
+    "newGuideCoverage": 0,
+    "appliedCandidates": 0,
+    "graphIntegrationCredit": 0,
+    "proofs": [
+      {
+        "id": "tnbc",
+        "composedBeforeSha256CanonicalJson": "adad0ba6cea136425967931bf3519719c0dc022d917bef6ca73028f127aa6487",
+        "reviewedFieldPaths": [
+          "related[41]",
+          "technologies[38]",
+          "terms[72]",
+          "keyPapers[20]",
+          "keyPapers[21]",
+          "notes[11]",
+          "biomarkers[9]",
+          "biomarkers[28]",
+          "stateOfArt[4]",
+          "stateOfArt[10]"
+        ],
+        "referenceScanFields": [
+          "biomarkers[28]",
+          "stateOfArt[4]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "nsclc",
+        "composedBeforeSha256CanonicalJson": "8a966d4e0e215c56b677618d928660bb297361f2c4a58295eaf54f8ce41c4e7c",
+        "reviewedFieldPaths": [
+          "related[32]",
+          "technologies[27]",
+          "terms[52]",
+          "keyPapers[21]",
+          "keyPapers[22]",
+          "keyPapers[23]",
+          "keyPapers[24]",
+          "notes[17]",
+          "biomarkers[23]",
+          "stateOfArt[13]",
+          "history[11].title",
+          "history[23].title",
+          "history[23].note",
+          "history[23].refs[0]",
+          "history[23].refs[1]",
+          "openProblems[15]"
+        ],
+        "referenceScanFields": [
+          "notes[17]",
+          "stateOfArt[13]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "colorectal",
+        "composedBeforeSha256CanonicalJson": "0a09ecf94ea7ffc05d60e52c27bcdf9430f283b85c529e50ccdef0e2ce386413",
+        "reviewedFieldPaths": [
+          "related[9]",
+          "technologies[38]",
+          "terms[34]",
+          "notes[2]",
+          "notes[5]",
+          "biomarkers[30]"
+        ],
+        "referenceScanFields": [
+          "notes[2]",
+          "biomarkers[30]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "pancreatic",
+        "composedBeforeSha256CanonicalJson": "33aeadd3db0f8c342cc6f902e193b61f43d4c93ad13019051a41a333e2e23033",
+        "reviewedFieldPaths": [
+          "related[31]",
+          "technologies[46]",
+          "terms[81]",
+          "notes[12]",
+          "notes[21]",
+          "biomarkers[33]",
+          "history[29].note"
+        ],
+        "referenceScanFields": [
+          "notes[12]",
+          "biomarkers[33]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "gallbladder",
+        "composedBeforeSha256CanonicalJson": "027953fb5e6879eb2cae7c2f130652cf2c23ba411e8584f2345e9baa8e8f30e3",
+        "reviewedFieldPaths": [
+          "related[13]",
+          "terms[45]",
+          "biomarkers[28]",
+          "standardOfCare[12].approach",
+          "stateOfArt[9]",
+          "stateOfArt[10]",
+          "openProblems[8]"
+        ],
+        "referenceScanFields": [
+          "biomarkers[28]",
+          "standardOfCare[12].approach"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "never-smoker-lung-cancer",
+        "composedBeforeSha256CanonicalJson": "9cf8a11c3b439d880292f512f722da0b74031f59905b0df65177ae648bfe6f00",
+        "reviewedFieldPaths": [
+          "summary"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "uveal-melanoma",
+        "composedBeforeSha256CanonicalJson": "c0079a7d85477ce0857155931517c2ef1e9e656641e4c79304c98bf2ddd21ba2",
+        "reviewedFieldPaths": [
+          "summary"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "thymic-epithelial",
+        "composedBeforeSha256CanonicalJson": "cc56f542423bacf18a35e8b3e22b0813ccdedd9b9d448f7fa43339488d58cbba",
+        "reviewedFieldPaths": [
+          "summary",
+          "terms[1]"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "salivary-gland",
+        "composedBeforeSha256CanonicalJson": "9c19faa8e84dcb23c3ab8a5cb636303c88ca11520a4c79152adff3ff590085b6",
+        "reviewedFieldPaths": [
+          "summary",
+          "biomarkers[5]",
+          "standardOfCare[3].approach"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "endometrial-pole-ultramutated",
+        "composedBeforeSha256CanonicalJson": "02f2a8b21b3b9c0f6313c909dd0949820f72dcb21a2bb773101c850efdcc500a",
+        "reviewedFieldPaths": [
+          "biomarkers[1]"
+        ],
+        "referenceScanFields": [
+          "biomarkers[1]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "angiosarcoma",
+        "composedBeforeSha256CanonicalJson": "7a21ca8b574013ff932f826291080ec4168a5f15b2250b483689d7f8904f2e04",
+        "reviewedFieldPaths": [
+          "summary",
+          "subtypes[0]",
+          "biomarkers[1]"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "recurrent-metastatic-hnscc",
+        "composedBeforeSha256CanonicalJson": "7fe9af44fff44d39ae6fae8d3040735b18cd1ec68c66a6c39928af1c17f63627",
+        "reviewedFieldPaths": [
+          "biomarkers[5]"
+        ],
+        "referenceScanFields": [
+          "biomarkers[5]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "checkpoint-inhibitor",
+        "composedBeforeSha256CanonicalJson": "566b59366cd6bc6b5650a199b2bf62786e6a4d848c6382a091049a5cf1df0882",
+        "reviewedFieldPaths": [
+          "summary",
+          "terms[1]",
+          "notes[2]"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "mmr",
+        "composedBeforeSha256CanonicalJson": "7fe18aab3a1a373da44dcdc4765c92449b21339fb5b0ec447d11a22c7394470b",
+        "reviewedFieldPaths": [
+          "notes[1]",
+          "prevalence[1].note",
+          "prevalence[3].note"
+        ],
+        "referenceScanFields": [
+          "prevalence[1].note"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "mss-pmmr",
+        "composedBeforeSha256CanonicalJson": "40b686e3513d279149f51e5f1811532c4f0821554ed45581b5058846dcdc37bb",
+        "reviewedFieldPaths": [
+          "summary",
+          "related[1]",
+          "notes[0]"
+        ],
+        "referenceScanFields": [
+          "notes[0]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "pole-ultramutation",
+        "composedBeforeSha256CanonicalJson": "f764ffeeecdedbf96839d984fada8fa1e99e0695528a637b7d3e9fce6296c27b",
+        "reviewedFieldPaths": [
+          "related[2]",
+          "notes[0]"
+        ],
+        "referenceScanFields": [
+          "notes[0]"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "interferon-gamma-signature",
+        "composedBeforeSha256CanonicalJson": "b427fd4cc0795463fe0e3359c1049da2bf2bdba247dd1bdbe27bae2199c607ef",
+        "reviewedFieldPaths": [
+          "summary",
+          "related[1]"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "immune-desert-exclusion",
+        "composedBeforeSha256CanonicalJson": "90060c2237bb97eb374700daf5600be6778e3a82d9cc9041e989fd14a4119e40",
+        "reviewedFieldPaths": [
+          "summary",
+          "terms[3]",
+          "nodes[0].label"
+        ],
+        "referenceScanFields": [
+          "summary"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "kras",
+        "composedBeforeSha256CanonicalJson": "2b07e2f87428b33bdbd6f87130c53039a039ad2a0f541a31740ac8826ba50dd0",
+        "reviewedFieldPaths": [
+          "prevalence[11].note"
+        ],
+        "referenceScanFields": [
+          "prevalence[11].note"
+        ],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      },
+      {
+        "id": "msi-high",
+        "composedBeforeSha256CanonicalJson": "cc427da1c298bf4ece9686aeeb34e0b4dff4af8950ab81986f8b4714724c44d8",
+        "reviewedFieldPaths": [
+          "tldr",
+          "summary",
+          "related[1]",
+          "thresholds[0].value",
+          "thresholds[0].drugId",
+          "thresholds[0].cancerId",
+          "thresholds[0].regulator",
+          "thresholds[0].source",
+          "thresholds[0].quote",
+          "thresholds[0].status",
+          "thresholds[1].value",
+          "thresholds[1].drugId",
+          "thresholds[1].cancerId",
+          "thresholds[1].regulator",
+          "thresholds[1].source",
+          "thresholds[1].quote",
+          "thresholds[1].status",
+          "thresholds[2].value",
+          "thresholds[2].drugId",
+          "thresholds[2].cancerId",
+          "thresholds[2].regulator",
+          "thresholds[2].source",
+          "thresholds[2].quote",
+          "thresholds[2].status",
+          "thresholds[3].value",
+          "thresholds[3].drugId",
+          "thresholds[3].cancerId",
+          "thresholds[3].regulator",
+          "thresholds[3].source",
+          "thresholds[3].quote",
+          "thresholds[3].status",
+          "forPatient"
+        ],
+        "referenceScanFields": [],
+        "countedCanonicalPages": 1,
+        "applied": false,
+        "graphIntegrated": false,
+        "coverageCredit": 0
+      }
+    ]
+  },
+  "appliedSourceFields": [
+    {
+      "ownerId": "nsclc",
+      "field": "notes[17]",
+      "file": "src/data/spikes/lung-molecular.ts",
+      "before": "The science in detail, 5 of 8, in full; the one-sentence version is on the overview. Tumour mutational burden and why it failed. It is a real biological correlate: whole-exome sequencing first tied non-synonymous burden to pembrolizumab response in lung cancer, panel-based estimates track exome estimates at rho 0.86, burden and PD-L1 are independent, and across 1,552 patients burden tracked response, progression-free survival and overall survival within every PD-L1 stratum, with response ranging from 57% where both were high to 8.7% where neither was. It failed as a selector for three reasons. The unit is not standardised (per megabase on a panel, per exome on sequencing, a plasma score), the best data-derived threshold in the largest cohort was more than 19 per megabase rather than the licensed 10, and the effect is confined to single-agent immunotherapy: in KEYNOTE-189 and KEYNOTE-407 continuous burden showed no association with survival for pembrolizumab plus chemotherapy in either histology, and neither did STK11, KEAP1 or KRAS status. CheckMate 227 reported a progression-free survival benefit in the high-burden group and then found its survival benefit did not depend on burden at all.",
+      "after": "The science in detail, 5 of 8, in full; the one-sentence version is on the overview. Tumour mutational burden and why it failed. It is a real biological correlate: whole-exome sequencing first tied non-synonymous burden to pembrolizumab response in lung cancer, panel-based estimates track exome estimates at rho 0.86, burden and PD-L1 are independent, and across 1,552 patients burden tracked response, progression-free survival and overall survival within every PD-L1 stratum, with response ranging from 57% where both were high to 8.7% where neither was. It failed as a selector for three reasons. The unit is not standardised (per megabase on a panel, per exome on sequencing, a plasma score), the best data-derived threshold in the largest cohort was more than 19 per megabase rather than the historical U.S. tumour-agnostic threshold of 10, and the effect is confined to single-agent immunotherapy: in KEYNOTE-189 and KEYNOTE-407 continuous burden showed no association with survival for pembrolizumab plus chemotherapy in either histology, and neither did STK11, KEAP1 or KRAS status. CheckMate 227 reported a progression-free survival benefit in the high-burden group and then found its survival benefit did not depend on burden at all. For the U.S. tumour-agnostic pembrolizumab indication, TMB-H means at least 13 mutations per megabase, determined by an FDA-authorised test, in adult and paediatric patients with unresectable or metastatic solid tumours that have progressed following prior treatment and who have no satisfactory alternative treatment options.",
+      "addLinks": true,
+      "sourceRefs": [
+        "dailymed-current.html:1.8,1.9,1.18,2.1",
+        "fda-tmb-oct2026.html:approval paragraphs"
+      ],
+      "beforeSha256Utf8": "345ee3e2b32f93383dd5ff66f375a221a9e54843d8ebd1388acf834ef21cec60",
+      "afterSha256Utf8": "9f48cf46913e78060224566b3f187a8cff1a048a26cdf9ef26ba0f70db559b8f"
+    },
+    {
+      "ownerId": "nsclc",
+      "field": "stateOfArt[13]",
+      "file": "src/data/spikes/lung-molecular.ts",
+      "before": "Tumour mutational burden failed as a selector. It tracks benefit from single-agent checkpoint blockade within every PD-L1 stratum, but the best data-derived cut-off was more than 19 mutations per megabase rather than the licensed 10, and it predicted nothing for pembrolizumab with chemotherapy, the regimen most patients receive.",
+      "after": "Tumour mutational burden failed as a selector. It tracks benefit from single-agent checkpoint blockade within every PD-L1 stratum, but the best data-derived cut-off was more than 19 mutations per megabase rather than the historical U.S. tumour-agnostic threshold of 10, and it predicted nothing for pembrolizumab with chemotherapy, the regimen most patients receive. For the U.S. tumour-agnostic pembrolizumab indication, TMB-H means at least 13 mutations per megabase, determined by an FDA-authorised test, in adult and paediatric patients with unresectable or metastatic solid tumours that have progressed following prior treatment and who have no satisfactory alternative treatment options.",
+      "addLinks": true,
+      "sourceRefs": [
+        "dailymed-current.html:1.8,1.9,1.18,2.1",
+        "fda-tmb-oct2026.html:approval paragraphs"
+      ],
+      "beforeSha256Utf8": "7f0c8b6dea4048dc61a05906ecf051f3e67c4e7a1c234e998cc28f4bcbb5284c",
+      "afterSha256Utf8": "54da7ebc42184a4e7290ada4abcf3e3f6e8f247f0740ae26afe7a5109073c640"
+    },
+    {
+      "ownerId": "tmb-high",
+      "field": "notes (graph supplement)",
+      "file": "src/data/spikes/lung-molecular.ts",
+      "before": "Lung cancer: this is where mutational burden was discovered as a predictor and where it failed as a selector. It is a real correlate: burden tracks response, progression-free survival and overall survival for single-agent PD-(L)1 blockade within every PD-L1 stratum in 1,552 patients, with response 57% where burden and PD-L1 are both high and 8.7% where neither is (Ricciuti 2022), and tissue burden of 175 or more mutations per exome selected benefit from pembrolizumab monotherapy in KEYNOTE-042 (overall survival hazard ratio 0.62 against 1.09 below the cut) (Mok 2023). But the threshold moves with the assay and the unit, the data-derived cut in the largest cohort was more than 19 mutations per megabase rather than 10, and in the trials of pembrolizumab with chemotherapy, the regimen most patients receive, continuous burden predicted nothing in either histology (Garassino 2023). The tumour-agnostic approval at 10 or more mutations per megabase rests on a basket trial with no lung cohort.",
+      "after": "Lung cancer: this is where mutational burden was discovered as a predictor and where it failed as a selector. It is a real correlate: burden tracks response, progression-free survival and overall survival for single-agent PD-(L)1 blockade within every PD-L1 stratum in 1,552 patients, with response 57% where burden and PD-L1 are both high and 8.7% where neither is (Ricciuti 2022), and tissue burden of 175 or more mutations per exome selected benefit from pembrolizumab monotherapy in KEYNOTE-042 (overall survival hazard ratio 0.62 against 1.09 below the cut) (Mok 2023). But the threshold moves with the assay and the unit, the data-derived cut in the largest cohort was more than 19 mutations per megabase rather than 10, and in the trials of pembrolizumab with chemotherapy, the regimen most patients receive, continuous burden predicted nothing in either histology (Garassino 2023). FDA’s October 2026 conversion added prospective Cohort M to the earlier retrospectively analysed cohorts. The current U.S. tumour-agnostic indication requires at least 13 mutations per megabase by an FDA-authorised test, an unresectable or metastatic solid tumour that progressed after prior treatment and no satisfactory alternatives; lung-cancer-specific indications have separate criteria.",
+      "addLinks": false,
+      "sourceRefs": [
+        "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+      ],
+      "beforeSha256Utf8": "eeb44c9ab2932cd862ca20d1804eabdb2bfb71206a99cc73fde652228b4a3d1a",
+      "afterSha256Utf8": "c5ddcae07a9878227169748e5b0773af9ec50c705ec9ecfc0e4e7f83524d2f5a"
+    },
+    {
+      "ownerId": "gallbladder",
+      "field": "standardOfCare[12].approach",
+      "file": "src/data/spikes/gallbladder-treatment.ts",
+      "before": "BRAF V600E: dabrafenib with trametinib (ROAR biliary cohort 51 percent response; FDA tumour-agnostic 2022). Mismatch-repair deficiency or high tumour mutational burden: pembrolizumab (KEYNOTE-158). NTRK fusion: larotrectinib or entrectinib. KRAS G12C: sotorasib or adagrasib off-label or in trials. FGFR2 fusions (pemigatinib, futibatinib) and IDH1 mutations (ivosidenib) are intrahepatic features; the licences and NICE appraisals (TA722, TA1005, TA948) cover cholangiocarcinoma and the trials enrolled almost no gallbladder cancer.",
+      "after": "BRAF V600E: dabrafenib with trametinib (ROAR biliary cohort 51 percent response; FDA tumour-agnostic 2022). The U.S. tumour-agnostic pembrolizumab indication covers adult and paediatric patients with unresectable or metastatic MSI-H or dMMR solid tumours, determined by an FDA-authorised test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. The separate colorectal indication covers unresectable or metastatic MSI-H or dMMR colorectal cancer determined by an FDA-authorised test, without that prior-treatment restriction. For the U.S. tumour-agnostic pembrolizumab indication, TMB-H means at least 13 mutations per megabase, determined by an FDA-authorised test, in adult and paediatric patients with unresectable or metastatic solid tumours that have progressed following prior treatment and who have no satisfactory alternative treatment options. NTRK fusion: larotrectinib or entrectinib. KRAS G12C: sotorasib or adagrasib off-label or in trials. FGFR2 fusions (pemigatinib, futibatinib) and IDH1 mutations (ivosidenib) are intrahepatic features; the licences and NICE appraisals (TA722, TA1005, TA948) cover cholangiocarcinoma and the trials enrolled almost no gallbladder cancer.",
+      "addLinks": true,
+      "sourceRefs": [
+        "dailymed-current.html:1.8,1.9,1.18,2.1",
+        "fda-tmb-oct2026.html:approval paragraphs"
+      ],
+      "beforeSha256Utf8": "407660f4a4b3e6e0a7561bba7d616c5e92b384ace15252805329cda19cb404b3",
+      "afterSha256Utf8": "7674f2f9e443516d062eb27d5aea4355b88fadcef2a5072c08a6ce3a206f91bd"
+    },
+    {
+      "ownerId": "recurrent-metastatic-hnscc",
+      "field": "biomarkers[5]",
+      "file": "src/data/head-neck-hpv-subtypes.ts",
+      "before": "Tumour mutational burden (pembrolizumab for 10 or more mutations per megabase)",
+      "after": "For the U.S. tumour-agnostic pembrolizumab indication, TMB-H means at least 13 mutations per megabase, determined by an FDA-authorised test, in adult and paediatric patients with unresectable or metastatic solid tumours that have progressed following prior treatment and who have no satisfactory alternative treatment options.",
+      "addLinks": true,
+      "sourceRefs": [
+        "dailymed-current.html:1.8,1.9,1.18,2.1",
+        "fda-tmb-oct2026.html:approval paragraphs"
+      ],
+      "beforeSha256Utf8": "802f93b0c017e96929f7b4e8e6414d16db8f6bb99e6000cb42a3e37b2f8bfdd1",
+      "afterSha256Utf8": "a3fe6461d959e5ffe61738ed58ebf603de77a76d620b595b4707281045146fc9"
+    },
+    {
+      "ownerId": "checkpoint-inhibitor",
+      "field": "summary",
+      "file": "src/data/technologies.ts",
+      "before": "Anti-CTLA-4 (ipilimumab), anti-PD-1 (pembrolizumab, nivolumab, cemiplimab, dostarlimab, toripalimab, tislelizumab), anti-PD-L1 (atezolizumab, durvalumab, avelumab), anti-LAG-3 (relatlimab). Approved across >20 tumour types and tumour-agnostically for MSI-H/dMMR and TMB-high. Moving earlier: neoadjuvant/perioperative in melanoma, NSCLC, TNBC (KEYNOTE-522), bladder, and MSI-H colorectal (where dostarlimab produced 100% complete responses in rectal cancer without surgery). Immune-related adverse events are the cost.",
+      "after": "Anti-CTLA-4 (ipilimumab), anti-PD-1 (pembrolizumab, nivolumab, cemiplimab, dostarlimab, toripalimab, tislelizumab), anti-PD-L1 (atezolizumab, durvalumab, avelumab), anti-LAG-3 (relatlimab). Approved across >20 tumour types. The U.S. tumour-agnostic pembrolizumab indication covers adult and paediatric patients with unresectable or metastatic MSI-H or dMMR solid tumours, determined by an FDA-authorised test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. The separate colorectal indication covers unresectable or metastatic MSI-H or dMMR colorectal cancer determined by an FDA-authorised test, without that prior-treatment restriction. For the U.S. tumour-agnostic pembrolizumab indication, TMB-H means at least 13 mutations per megabase, determined by an FDA-authorised test, in adult and paediatric patients with unresectable or metastatic solid tumours that have progressed following prior treatment and who have no satisfactory alternative treatment options. Moving earlier: neoadjuvant/perioperative in melanoma, NSCLC, TNBC (KEYNOTE-522), bladder, and MSI-H colorectal (where dostarlimab produced 100% complete responses in rectal cancer without surgery). Immune-related adverse events are the cost.",
+      "addLinks": true,
+      "sourceRefs": [
+        "dailymed-current.html:1.8,1.9,1.18,2.1",
+        "fda-tmb-oct2026.html:approval paragraphs"
+      ],
+      "beforeSha256Utf8": "b03a0d0b30bc4244ac33879251bbd55bc9dc72efc56694a78b315f3d5a446bcb",
+      "afterSha256Utf8": "faa7d8026c80376eebe4826f33bc1cb49aeb71f77107771808a4bbafbed7b93c"
+    },
+    {
+      "ownerId": "msi-high",
+      "field": "summary",
+      "file": "src/data/biomarker-readouts.ts",
+      "before": "Microsatellite instability is scored by PCR across a panel of mononucleotide repeats (MSI-H when a set fraction of markers is unstable, typically 2 of 5 Bethesda or Promega markers, or 30 percent or more of a larger panel) or by next-generation sequencing algorithms that count unstable loci across hundreds of sites; MSS is stable and MSI-L is intermediate and grouped with MSS. Labels write 'MSI-H or dMMR' and accept either route; FoundationOne CDx and Caris MI Cancer Seek carry MSI-H companion claims for pembrolizumab and dostarlimab, the Biocartis Idylla MSI test for nivolumab in colorectal cancer, and, in the other direction, the Promega OncoMate MSI and Caris assays report 'not MSI-H' to select pembrolizumab with lenvatinib in endometrial cancer.",
+      "after": "Microsatellite instability is scored by PCR across a panel of mononucleotide repeats (MSI-H when a set fraction of markers is unstable, typically 2 of 5 Bethesda or Promega markers, or 30 percent or more of a larger panel) or by next-generation sequencing algorithms that count unstable loci across hundreds of sites; MSS is stable and MSI-L is intermediate and grouped with MSS. Labels write 'MSI-H or dMMR' and accept either route; FoundationOne CDx and Caris MI Cancer Seek carry MSI-H companion claims for pembrolizumab and dostarlimab, the Biocartis Idylla MSI test for nivolumab in colorectal cancer, and, in the other direction, the Promega OncoMate MSI and Caris assays report 'not MSI-H' to select pembrolizumab with lenvatinib in endometrial cancer.\n\nThe U.S. tumour-agnostic pembrolizumab indication covers adult and paediatric patients with unresectable or metastatic MSI-H or dMMR solid tumours, determined by an FDA-authorised test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. The separate colorectal indication covers unresectable or metastatic MSI-H or dMMR colorectal cancer determined by an FDA-authorised test, without that prior-treatment restriction. For non-colorectal solid tumours, the KEYTRUDA label recommends confirmation of MSI-H or dMMR by an FDA-authorised test if feasible because local and FDA-authorised tests can disagree. If confirmatory MSI-H/dMMR testing cannot be performed, TMB of at least 13 mutations per megabase determined by an FDA-authorised test may be used to select treatment. This is a treatment-selection alternative, not laboratory evidence that the tumour is MSI-H or dMMR.",
+      "addLinks": true,
+      "sourceRefs": [
+        "dailymed-current.html:1.8,1.9,1.18,2.1",
+        "fda-tmb-oct2026.html:approval paragraphs"
+      ],
+      "beforeSha256Utf8": "3d108f91b72b337ab476c5c35117ae293ff0d45bc9f791166fc0fdeae2bbdc26",
+      "afterSha256Utf8": "6938dcc640a08d1eb35a06fe0f65b3c4df13d4994de7a66c2e4d214bc340d92f"
+    },
+    {
+      "ownerId": "msi-high",
+      "field": "forPatient",
+      "file": "src/data/biomarker-readouts.ts",
+      "before": "MSI-high on a PCR or sequencing report means the same for treatment as dMMR on a stain: checkpoint immunotherapy is on label across many cancers once other treatment has been tried, and first line in bowel cancer. A stable (MSS) result in endometrial cancer selects a different combination, pembrolizumab with lenvatinib. Either result should prompt a conversation about inherited risk.",
+      "after": "An MSI-high or dMMR result can support pembrolizumab treatment when the cancer, test and treatment-setting conditions in the label are met. The U.S. tumour-agnostic pembrolizumab indication covers adult and paediatric patients with unresectable or metastatic MSI-H or dMMR solid tumours, determined by an FDA-authorised test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. The separate colorectal indication covers unresectable or metastatic MSI-H or dMMR colorectal cancer determined by an FDA-authorised test, without that prior-treatment restriction. For non-colorectal solid tumours, the KEYTRUDA label recommends confirmation of MSI-H or dMMR by an FDA-authorised test if feasible because local and FDA-authorised tests can disagree. If confirmatory MSI-H/dMMR testing cannot be performed, TMB of at least 13 mutations per megabase determined by an FDA-authorised test may be used to select treatment. This is a treatment-selection alternative, not laboratory evidence that the tumour is MSI-H or dMMR. A stable (MSS) result in endometrial cancer may support pembrolizumab with lenvatinib for adults with advanced disease after progression following prior systemic therapy who are not candidates for curative surgery or radiation, with status determined by an FDA-authorised test. Discuss the result and any inherited-risk assessment with your care team.",
+      "addLinks": true,
+      "sourceRefs": [
+        "dailymed-current.html:1.8,1.9,1.18,2.1",
+        "fda-tmb-oct2026.html:approval paragraphs"
+      ],
+      "beforeSha256Utf8": "316d01c61f1f448dc5145cc102f1dc5f82e10b0fcfa8de7476317dda5d28c776",
+      "afterSha256Utf8": "07770fdda885a190d29236db2639d11b4a3cacc5a2f16a40c9271a2003cbe5b0"
+    },
+    {
+      "ownerId": "tmb-high",
+      "field": "notes (graph supplement)",
+      "file": "src/data/spikes/tnbc-molecular.ts",
+      "before": "Triple-negative breast cancer: 10 or more mutations per megabase in about 5% of breast cancers, more often HR-negative/HER2-negative and metastatic (8.4% versus 2.9%; Barroso-Sousa 2020), 4.1% of 123 TCGA triple-negative exomes (cBioPortal) and 18% of 62 pretreated metastatic TNBC patients on immunotherapy trials, where it went with progression-free survival of 12.5 versus 3.7 months (Barroso-Sousa 2020, Clin Cancer Res). The tumour-agnostic pembrolizumab indication applies on a FoundationOne CDx value; APOBEC rather than mismatch repair drives most hypermutated TNBC.",
+      "after": "Triple-negative breast cancer: 10 or more mutations per megabase in about 5% of breast cancers, more often HR-negative/HER2-negative and metastatic (8.4% versus 2.9%; Barroso-Sousa 2020), 4.1% of 123 TCGA triple-negative exomes (cBioPortal) and 18% of 62 pretreated metastatic TNBC patients on immunotherapy trials, where it went with progression-free survival of 12.5 versus 3.7 months (Barroso-Sousa 2020, Clin Cancer Res). These study cutoffs do not establish the current U.S. tumour-agnostic indication, which requires at least 13 mutations per megabase by an FDA-authorised test, progression after prior treatment and no satisfactory alternatives in unresectable or metastatic solid tumours; APOBEC rather than mismatch repair drives most hypermutated TNBC.",
+      "addLinks": false,
+      "sourceRefs": [
+        "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+      ],
+      "beforeSha256Utf8": "bc171f8084c59f59a4a85d2cb49ad5ebf7ca6899c25866258656c49b47d1ccb4",
+      "afterSha256Utf8": "c2668ee2586ebabbab2136737ef428f1d94f0bc5fb4fed56886205243a1d8546"
+    },
+    {
+      "ownerId": "tmb-high",
+      "field": "notes (graph supplement)",
+      "file": "src/data/spikes/gallbladder-molecular.ts",
+      "before": "Gallbladder cancer: median 4.1 non-synonymous mutations per megabase on the 505-gene MSK-IMPACT panel with 28 of 244 samples (11.5%) at 10 or more (cBioPortal gbc_mskcc_2022), against a median of 0.82 per megabase by whole-exome sequencing (Nepal 2021) and TMB-high in 1.3% (1 of 79) of Indian patients on mixed panels (Suryavanshi 2025). The pembrolizumab threshold applies only to the FoundationOne CDx value.",
+      "after": "Gallbladder cancer: median 4.1 non-synonymous mutations per megabase on the 505-gene MSK-IMPACT panel with 28 of 244 samples (11.5%) at 10 or more (cBioPortal gbc_mskcc_2022), against a median of 0.82 per megabase by whole-exome sequencing (Nepal 2021) and TMB-high in 1.3% (1 of 79) of Indian patients on mixed panels (Suryavanshi 2025). These study cutoffs do not establish eligibility for the current U.S. tumour-agnostic pembrolizumab indication: at least 13 mutations per megabase by an FDA-authorised test, unresectable or metastatic solid tumour, progression after prior treatment and no satisfactory alternative treatment options.",
+      "addLinks": false,
+      "sourceRefs": [
+        "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+      ],
+      "beforeSha256Utf8": "8afc7e98852afad338b52deedd5f993a294e1c25ea66847e9159ac7bdee3ae89",
+      "afterSha256Utf8": "441eeee9c2efa527779baaa90ac058a32bb687bbf818c87043a55299a0dbd24f"
+    },
+    {
+      "ownerId": "tmb-high",
+      "field": "notes (graph supplement)",
+      "file": "src/data/spikes/colorectal-molecular.ts",
+      "before": "Colorectal cancer: 10 or more mutations per megabase in 15 to 19% of panel-tested tumours (1,340 of 7,237 in crc_msk_2026, median 6.05; cBioPortal), but almost all of that group is the MSI-high group (median 56.9) plus the POLE-hotspot group (median 172.1), against 5.7 in microsatellite-stable disease. A TMB-high result in a microsatellite-stable tumour with no POLE exonuclease mutation therefore deserves scrutiny before it is used to justify a checkpoint inhibitor under the tumour-agnostic approval, for which there is no colorectal-specific evidence.",
+      "after": "Colorectal cancer: 10 or more mutations per megabase in 15 to 19% of panel-tested tumours (1,340 of 7,237 in crc_msk_2026, median 6.05; cBioPortal), but almost all of that group is the MSI-high group (median 56.9) plus the POLE-hotspot group (median 172.1), against 5.7 in microsatellite-stable disease. These assay-defined cohort frequencies do not by themselves establish eligibility or benefit. The October 2026 U.S. tumour-agnostic pembrolizumab indication requires at least 13 mutations per megabase by an FDA-authorised test, an unresectable or metastatic solid tumour that progressed after prior treatment, and no satisfactory alternatives; the separate MSI-H or dMMR colorectal indication has its own criteria.",
+      "addLinks": false,
+      "sourceRefs": [
+        "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph",
+        "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+      ],
+      "beforeSha256Utf8": "bd1f81d8f7ad40cc18d730f6873fdda843fd4cb2f74751f158da490466f6539e",
+      "afterSha256Utf8": "e832d0820498dde222d0f3d639272fdc8edcc4987d2961e348ce740f1fa2126f"
+    }
+  ],
+  "additionalHistoricalContextCorrections": [
+    {
+      "file": "src/data/precision-matrix/molecular.ts",
+      "before": "A single cut-off of 10 mutations per megabase is used across solid tumours, while high-TMB breast, prostate and brain tumours responded 15.3 per cent of the time in a pooled analysis, and in MyPathway tumours between 10 and 16 responded in 1 of 48.",
+      "after": "The earlier accelerated U.S. tumour-agnostic approval used a cut-off of 10 mutations per megabase. That historical rule does not make assays or populations interchangeable: high-TMB breast, prostate and brain tumours responded 15.3 per cent of the time in one pooled analysis, and in MyPathway tumours between 10 and 16 responded in 1 of 48. Those study-specific figures retain their original cutoffs.",
+      "beforeSha256Utf8": "f84652de14e2dd96fd3882c4f387d250a384874109cbbd97917d2782b8cea7bb",
+      "afterSha256Utf8": "3513a4c8854a2f14b786109c661ad1b498de3f5f9cd8f8245769f7430eda91bb"
+    },
+    {
+      "file": "src/data/spikes/lung-molecular.ts",
+      "before": "the data-derived cut in the largest cohort was more than 19 mutations per megabase rather than 10,",
+      "after": "the data-derived cut in the largest cohort was more than 19 mutations per megabase rather than the historical U.S. tumour-agnostic threshold of 10,",
+      "beforeSha256Utf8": "2a9d8ffdc4dd5446e244eb081a526b268c89ccb57a11b73e2ca61f6cc8c0a435",
+      "afterSha256Utf8": "d70cbb9b5c0f46cd387d5709c072645411d8e4c94a890d796e1418d096ef6fab"
+    }
+  ],
+  "remainingSourceQuestions": {
+    "gaps": [
+      {
+        "id": "salivary-gland",
+        "field": "standardOfCare[3].approach",
+        "issue": "TMB-H/MSI-H eligibility needs the current label conditions. The PD-L1-positive salivary treatment branch needs its own accessible primary/guideline source before a complete replacement can preserve or correct that claim.",
+        "supportedCandidateClause": "For the U.S. tumour-agnostic pembrolizumab indication, TMB-H means at least 13 mutations per megabase, determined by an FDA-authorized test, in adult and pediatric patients with unresectable or metastatic solid tumours that have progressed following prior treatment and who have no satisfactory alternative treatment options. The U.S. tumour-agnostic pembrolizumab indication covers adult and pediatric patients with unresectable or metastatic MSI-H or dMMR solid tumours, determined by an FDA-authorized test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. The separate colorectal indication covers unresectable or metastatic MSI-H or dMMR colorectal cancer determined by an FDA-authorized test, without that prior-treatment restriction.",
+        "blocking": "Complete after-field withheld pending PD-L1 branch verification."
+      },
+      {
+        "id": "mmr",
+        "field": "prevalence[1].note",
+        "issue": "MSI-high and/or TMB-high aggregate cannot be interpreted as measured MMR deficiency. Original Singhi denominators and assay definitions need independent review; no numeric replacement proposed.",
+        "blocking": "Preserved source-specific statement, not recertified as MMR prevalence."
+      }
+    ],
+    "accessFailures": [
+      {
+        "file": "pembrolizumab-oct2026.pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s191lbl.pdf",
+        "exit": 0,
+        "httpStatus": "404",
+        "bytes": 420,
+        "sha256": "8f42b23e229c34a09b74e856a278cf4a79f5e8d3896a6bc3a5863f53dd0cb2de",
+        "hashVerified": true,
+        "readAs": "404 response bytes, not a PDF",
+        "role": "failed access",
+        "limits": "No dosing candidate; no low-TMB universal contraindication inference"
+      },
+      {
+        "file": "pembrolizumab-july2026.pdf",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf",
+        "exit": 0,
+        "httpStatus": "404",
+        "bytes": 420,
+        "sha256": "575100432a41b54733fdc9e90e65f4d9b07b7209dac8445da62057e4af94a835",
+        "hashVerified": true,
+        "readAs": "404 response bytes, not a PDF",
+        "role": "failed access",
+        "limits": "No dosing candidate; no low-TMB universal contraindication inference"
+      }
+    ],
+    "coordinatorProposals": [
+      "Refresh generated approval datasets through their generation workflow if they encode the former TMB threshold; do not hand edit generated data.",
+      "Reconcile candidate fields against pending draft owners and current composed graph before integration."
+    ],
+    "limits": "Existing unrelated clinical content and unchanged study figures have not been re-certified."
+  },
+  "scope": "Only the stated policy, dated-history and measurement distinctions are checked. Unchanged study figures and unrelated clinical assertions are not recertified."
+}

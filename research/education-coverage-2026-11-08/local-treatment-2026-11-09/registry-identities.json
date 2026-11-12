@@ -1,0 +1,170 @@
+[
+  {
+    "nctId": "NCT03808662",
+    "briefTitle": "Randomized Study of Stereotactic Body Radiation Therapy (SBRT) in Patients With Oligoprogressive Metastatic Cancers of the Breast and Lung",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": {
+      "count": 107,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Progression Free Survival",
+        "description": "To study if the addition of early SBRT to extra-cranial oligo-progressive metastatic disease could prolong PFS compared to no SBRT. PFS is defined as the time from randomization to disease progression or death.",
+        "timeFrame": "Up to 52 weeks after final participant is enrolled"
+      }
+    ],
+    "hasResults": false,
+    "rawResponseFile": "registry/local-treatment-linked-studies/page-0001.json",
+    "rawResponseSha256": "c7944577b7423e66b8a000a8b2daed6b3764b1148931b231d47d6240c14a62fc",
+    "scope": "Identity, design, arms, eligibility and primary-outcome context read. Registry counts/status/timeframes retain their version; current site/cohort access is not inferred."
+  },
+  {
+    "nctId": "NCT02364557",
+    "briefTitle": "Testing Whether Treating Breast Cancer Metastases With Surgery or High-Dose Radiation Improves Survival",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "status": "COMPLETED",
+    "enrollment": {
+      "count": 129,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Progression-free Survival (Phase II)",
+        "description": "Progression (failure) is defined as any of the following: progression of metastases, new metastases, or death. Progression-free survival (PFS) time is defined as time from randomization to the date of first progression, death, or last contact when participant had a documented clinical assessment (censored). PFS rates are estimated using the Kaplan-Meier method. The protocol specifies that the distributions of failure times be compared between the arms, which is reported in the statistical analysis results. Median PFS is provided.",
+        "timeFrame": "From randomization to last follow-up. Follow-up schedule: 3 mos after randomization and every 3 months to 24 months, then every six months to five years, then annually. Maximum follow-up at time of analysis was 63 months."
+      },
+      {
+        "measure": "Overall Survival (Phase III)",
+        "description": "Overall survival time is defined as time from randomization to the date of death from any cause or last known follow-up (censored).",
+        "timeFrame": "From randomization to last follow-up. Follow-up schedule: 3 mos after randomization and every 3 months to 24 months and then annually. Maximum follow-up at time of analysis was 63 months."
+      }
+    ],
+    "hasResults": true,
+    "rawResponseFile": "registry/local-treatment-linked-studies/page-0001.json",
+    "rawResponseSha256": "c7944577b7423e66b8a000a8b2daed6b3764b1148931b231d47d6240c14a62fc",
+    "scope": "Identity, design, arms, eligibility and primary-outcome context read. Registry counts/status/timeframes retain their version; current site/cohort access is not inferred."
+  },
+  {
+    "nctId": "NCT01872975",
+    "briefTitle": "Standard or Comprehensive Radiation Therapy in Treating Patients With Early-Stage Breast Cancer Previously Treated With Chemotherapy and Surgery",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": {
+      "count": 1636,
+      "type": "ESTIMATED"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "IBC-RFI",
+        "timeFrame": "Time from randomization until invasive local, regional, or distant recurrence, or death from breast cancer, assessed up to 10 years"
+      }
+    ],
+    "hasResults": false,
+    "rawResponseFile": "registry/local-treatment-linked-studies/page-0001.json",
+    "rawResponseSha256": "c7944577b7423e66b8a000a8b2daed6b3764b1148931b231d47d6240c14a62fc",
+    "scope": "Identity, design, arms, eligibility and primary-outcome context read. Registry counts/status/timeframes retain their version; current site/cohort access is not inferred."
+  },
+  {
+    "nctId": "NCT01901094",
+    "briefTitle": "Comparison of Axillary Lymph Node Dissection With Axillary Radiation for Patients With Node-Positive Breast Cancer Treated With Chemotherapy",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "enrollment": {
+      "count": 2012,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Invasive breast cancer recurrence-free interval (IBC-RFI)",
+        "timeFrame": "Up to 8 years after completion of radiation therapy"
+      }
+    ],
+    "hasResults": false,
+    "rawResponseFile": "registry/local-treatment-linked-studies/page-0001.json",
+    "rawResponseSha256": "c7944577b7423e66b8a000a8b2daed6b3764b1148931b231d47d6240c14a62fc",
+    "scope": "Identity, design, arms, eligibility and primary-outcome context read. Registry counts/status/timeframes retain their version; current site/cohort access is not inferred."
+  },
+  {
+    "nctId": "NCT00003855",
+    "briefTitle": "Lymph Node Removal in Treating Women Who Have Stage I or Stage IIA Breast Cancer",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "status": "COMPLETED",
+    "enrollment": {
+      "count": 605,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Overall survival",
+        "timeFrame": "Up to 10 years"
+      },
+      {
+        "measure": "Morbidity",
+        "timeFrame": "Up to 10 years"
+      },
+      {
+        "measure": "Disease-free survival",
+        "timeFrame": "Up to 10 years"
+      }
+    ],
+    "hasResults": false,
+    "rawResponseFile": "registry-surgery/surgery-and-consolidation/page-0001.json",
+    "rawResponseSha256": "10e1cbd48953dc92d059ad7477dd26326b0f7bcb0a041891379a6a1f7b0e450c",
+    "scope": "Identity, design, arms, eligibility and primary-outcome context read. Registry counts/status/timeframes retain their version; current site/cohort access is not inferred."
+  },
+  {
+    "nctId": "NCT02125461",
+    "briefTitle": "A Global Study to Assess the Effects of MEDI4736 Following Concurrent Chemoradiation in Patients With Stage III Unresectable Non-Small Cell Lung Cancer",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "status": "COMPLETED",
+    "enrollment": {
+      "count": 713,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Progression Free Survival Based on Blinded Independent Central Review (BICR) According to Response Evaluation Criteria in Solid Tumors (RECIST 1.1)",
+        "description": "PFS was defined as the time from randomization until the date of objective disease progression (RECIST 1.1) or death (by any cause in the absence of progression). Progression was defined using RECIST 1.1 as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions. PFS was calculated using the Kaplan-Meier technique.",
+        "timeFrame": "Tumor scans performed at baseline then every ~8 weeks up to 48 weeks, then every ~12 weeks thereafter until confirmed disease progression. Assessed until 13 Feb 2017 DCO; up to a maximum of approximately 3 years."
+      },
+      {
+        "measure": "Overall Survival",
+        "description": "OS was defined as the time from the date of randomization until death due to any cause. OS was calculated using the Kaplan-Meier technique.",
+        "timeFrame": "From baseline until death due to any cause. Assessed until 22 Mar 2018 DCO; up to a maximum of approximately 4 years."
+      }
+    ],
+    "hasResults": true,
+    "rawResponseFile": "registry-surgery/surgery-and-consolidation/page-0001.json",
+    "rawResponseSha256": "10e1cbd48953dc92d059ad7477dd26326b0f7bcb0a041891379a6a1f7b0e450c",
+    "scope": "Identity, design, arms, eligibility and primary-outcome context read. Registry counts/status/timeframes retain their version; current site/cohort access is not inferred."
+  },
+  {
+    "nctId": "NCT00014612",
+    "briefTitle": "Comparison of Complete Axillary Lymph Node Dissection With Axillary Radiation Therapy in Treating Women With Invasive Breast Cancer",
+    "studyType": "INTERVENTIONAL",
+    "allocation": "RANDOMIZED",
+    "status": "COMPLETED",
+    "enrollment": {
+      "count": 4813,
+      "type": "ACTUAL"
+    },
+    "primaryOutcomes": [
+      {
+        "measure": "Axillary recurrence rate",
+        "timeFrame": "from randomization"
+      }
+    ],
+    "hasResults": false,
+    "rawResponseFile": "registry-surgery/surgery-and-consolidation/page-0001.json",
+    "rawResponseSha256": "10e1cbd48953dc92d059ad7477dd26326b0f7bcb0a041891379a6a1f7b0e450c",
+    "scope": "Identity, design, arms, eligibility and primary-outcome context read. Registry counts/status/timeframes retain their version; current site/cohort access is not inferred."
+  }
+]

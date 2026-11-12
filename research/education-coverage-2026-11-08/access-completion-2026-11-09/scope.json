@@ -1,0 +1,23 @@
+{
+  "checkedOn": "2026-11-09",
+  "requirementsClosed": 5,
+  "newCurriculumReading": 0,
+  "newRecords": 0,
+  "existingOwnersUpdated": 4,
+  "intent": "Complete the already-read access requirements without deriving personal access/benefit probabilities or converting planned totals into vacancies.",
+  "validation": {
+    "validate": "pass, 22707 entities",
+    "typecheck": "pass after restoring the exact locked dependencies in one external directory and symlinking only owned checkouts",
+    "lint": "four changed data files pass",
+    "focusedTests": 56,
+    "fullFilesPassed": 282,
+    "fullTestsPassed": 2821,
+    "existingSkips": 2,
+    "renderedOwners": 93,
+    "authoredChangedOwnerNotesRead": 11,
+    "build": "Pinned baseline extra GRAPH_JSON export still blocks the independent data build; separate unmerged product draft fixes it. Combined drafts not built or deployed.",
+    "runtime": "Node 25.9.0; npm reported the Vitest engine-range warning. The actual full suite passed on this runtime.",
+    "dependencyLockSha256": "b6bc68e3f5cde915e54bc993e381c3c3a3ebf6d482c6cc6c79d6f6c95c4e84f0",
+    "stagedSecretScan": "Gitleaks 8.30.1, no leaks; binary retrieved from official release and checksum verified after earlier tool was unavailable."
+  }
+}

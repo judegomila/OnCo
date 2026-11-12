@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "topic": "Independent source and semantic re-audit",
+      "scope": "Retain actual source reading depths and the 173-to-307 inventory crosswalk for the final whole-corpus review."
+    },
+    {
+      "topic": "Unavailable reporting-guidance corrections",
+      "scope": "Read indexed CENT and TRIPOD+AI corrections before any future source-specific assertion relies on them."
+    }
+  ],
+  "mainCredit": 0
+}

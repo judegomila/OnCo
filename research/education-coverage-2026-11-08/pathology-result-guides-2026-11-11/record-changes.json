@@ -1,0 +1,1387 @@
+{
+  "dataCommit": "87c207368f99c9a2538a76daad9d713b0cf68eae",
+  "newCanonicalIds": [],
+  "changedOwners": 5,
+  "connectedNotesAdded": 12,
+  "plannedBeforeAfterFields": [
+    {
+      "id": "biopsy",
+      "expectedRuntimeRecordSha256": "1d54750d04201a9930eabe53afa163642f66a42a2890ebe6a0d9b230fb793033",
+      "before": {
+        "tldr": "Taking a small piece of the suspicious tissue so a pathologist can examine it under the microscope. It is the only way to confirm a cancer diagnosis and to learn its type and markers.",
+        "notes": [
+          "Read a pathology report as an interpretation of a particular specimen. Keep the sampled site, collection date, preparation and method with the finding, and distinguish collection from the date the report became available. An addendum testing old material still describes that old specimen. The final diagnosis integrates the findings; an isolated descriptive word should not replace that interpretation. Pending, qualified or uninterpretable results retain those limits rather than becoming negative findings.",
+          "In a fictional pretreatment breast core, high-grade invasive carcinoma and completed triple-negative receptor tests answer different questions. Neither establishes a particular RNA-expression subtype or distant spread. A suspicious regional node that was not sampled is not a signed positive-node pathology finding. If later surgery finds sparse residual invasive carcinoma after treatment, preserve both the original biopsy and the later specimen, with their separate dates and settings; do not turn the first into a post-treatment measurement.",
+          "A useful report card keeps microscopic appearance and grade, individual receptor tests, anatomical extent and specimen timing in separate fields. Blank boxes in a teaching illustration contain no patient findings and calculate no stage or forecast. Ask which specimen, date, method and question each label belongs to before combining it with another observation. A small region cannot survey every part of a heterogeneous tumour, and cancer cells, immune cells, supporting tissue and treatment-related changes can coexist in the sample."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Biopsy"
+          },
+          {
+            "label": "NCI: pathology reports, specimen details and final interpretation",
+            "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"
+          },
+          {
+            "label": "NCI: what cancer is, altered cells and the tumour microenvironment",
+            "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+          },
+          {
+            "label": "NCI: breast stages, clinical and pathological assessment, and grading",
+            "url": "https://www.cancer.gov/types/breast/stages"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "tldr": "A biopsy removes cells or tissue for examination. The sampled site, method and collection date set the limits of what its findings can show.",
+        "notes": [
+          "Read a pathology report as an interpretation of a particular specimen. Keep the sampled site, collection date, preparation and method with the finding, and distinguish collection from the date the report became available. An addendum testing old material still describes that old specimen. The final diagnosis integrates the findings; an isolated descriptive word should not replace that interpretation. Pending, qualified or uninterpretable results retain those limits rather than becoming negative findings.",
+          "In a fictional pretreatment breast core, high-grade invasive carcinoma and completed triple-negative receptor tests answer different questions. Neither establishes a particular RNA-expression subtype or distant spread. A suspicious regional node that was not sampled is not a signed positive-node pathology finding. If later surgery finds sparse residual invasive carcinoma after treatment, preserve both the original biopsy and the later specimen, with their separate dates and settings; do not turn the first into a post-treatment measurement.",
+          "A useful report card keeps microscopic appearance and grade, individual receptor tests, anatomical extent and specimen timing in separate fields. Blank boxes in a teaching illustration contain no patient findings and calculate no stage or forecast. Ask which specimen, date, method and question each label belongs to before combining it with another observation. A small region cannot survey every part of a heterogeneous tumour, and cancer cells, immune cells, supporting tissue and treatment-related changes can coexist in the sample.",
+          "A breast report can describe a pretreatment core, a post-treatment needle sample, or tissue removed at surgery. A core collects tissue cylinders, fine-needle aspiration collects cells or fluid, and vacuum-assisted biopsy collects tissue using a vacuum-powered device. Keep the named specimen and each separately submitted part. The gross description records visible features, microscopy records examined sections, and the final diagnosis integrates those findings. A pending test, an unassessable result, a request for more sections and a final negative finding are different states.",
+          "Collection, treatment and reporting have separate clocks. In a fictional example, biopsy A is collected on day 0 and surgery specimen B on day 100. An addendum issued on day 120 tests stored material from A: it remains a result from the pretreatment specimen, with no new sampling on day 120. Treatment was planned on days 10, 30, 50 and 80, but administrations were documented on days 10, 50 and 80; day 30 was held. Four planned events therefore mean three documented administrations and one hold. These invented days supply no clinical schedule, hold explanation or response estimate.",
+          "Before combining reports, record the site and specimen, collection date, treatment actually delivered before collection, method, final interpretation and pending qualifications. The latest issue date is not necessarily the latest sampled biology. A negative result in one sampled region does not cancel a positive finding elsewhere. A suspicious imaged node and a pathologically positive sampled node are different evidence; neither a core nor a negative sampled node examines every node or organ.",
+          "Turn a signed finding into a specific question. A final involved edge raises a local-completion question about the operation, disease at the edge, separately submitted margins and radiation context. Residual invasive disease raises risk and systemic-benefit questions requiring prior treatment, subtype and a matched comparison. For cellularity, name the region and denominator; for differing receptor results, retain both specimens, methods and controls. A treatment interruption needs its cause, severity, recovery and clinical assessment. These questions inform a conversation with the relevant teams rather than forming a mandatory treatment tree.",
+          "For a proposed extra assay, name what each possible result would establish and which decision has evidence behind it. A receptor or immune-marker conclusion retains its scoring rule and validated setting; a number alone is not a treatment recommendation. In a fictional residual-TNBC report after chemotherapy and pembrolizumab, residual disease is prognostic information, not a test choosing the next drug. Local completion, future risk, added systemic benefit and whether treatment can be delivered safely remain connected but separate questions.",
+          "Read a numerical risk estimate with its cohort, treatment era, endpoint, follow-up and uncertainty. An association is not a personal countdown or an estimate of added-treatment benefit. In a fictional subgroup, a hazard ratio of 0.70 with a confidence interval from 0.35 to 1.40 includes 1, the no-difference value, and remains compatible with substantial benefit or harm. An overall trial result or subgroup point estimate alone does not establish precise benefit for every person. RCB class is not a universal personal percentage, and pCR does not promise cure."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Biopsy"
+          },
+          {
+            "label": "NCI: pathology reports, specimen details and final interpretation",
+            "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"
+          },
+          {
+            "label": "NCI: what cancer is, altered cells and the tumour microenvironment",
+            "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer"
+          },
+          {
+            "label": "NCI: breast stages, clinical and pathological assessment, and grading",
+            "url": "https://www.cancer.gov/types/breast/stages"
+          },
+          {
+            "label": "ACR and RSNA: ultrasound-guided breast biopsy methods",
+            "url": "https://www.radiologyinfo.org/en/info/breastbius"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "tldr": "8247b15fe979967a6d609da14696aa4a67b71cf7207ba731668dfb5d7f87a3fd",
+        "notes": "bfff16f975bec9f33a5a3e875826446ca50ada3fc7d1887fdf1402c1afef0a9a",
+        "links": "18b95af0635105a365e7eb6ee615217473429760237526d73d025baa86f5969d",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterFieldHashes": {
+        "tldr": "4662fee36f176e124bf09f8753f96270799a68ec8768503f472e452f4e5d3e53",
+        "notes": "f443b461a49494bca61c1635e12de2669b8efba06fe1a23b07a055c19b2640aa",
+        "links": "6092e6730e8006be9a5fff4122132dfefdbdcbe717fce114200b9855c7903e81",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Carry the source-first report and clock exercises on the existing specimen-reading owner. Remove its over-absolute only-way diagnostic lead; preserve the previous summary and all notes and links.",
+      "sourceSupport": [
+        "12:full main article",
+        "14:clinical/pathological staging",
+        "36:targeted biopsy methods",
+        "fictional premises and explicit reading inferences"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "grade-stage-receptor-breast",
+      "expectedRuntimeRecordSha256": "b7b89a8684fbfddfabeb1fcd09ad0ad0f10531dc9019eaa06a28237e9914a019",
+      "before": {
+        "tldr": "A breast report gives three answers to three different questions: the grade says how the cells behave, the stage says how far the cancer has gone, and the receptors say which drugs it will respond to. None of the three can be worked out from the others, and mixing them up is the commonest confusion there is.",
+        "notes": [],
+        "links": [
+          {
+            "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+            "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+          },
+          {
+            "label": "NICE NG101: early and locally advanced breast cancer, diagnosis and management (published 18 July 2018, last updated 14 April 2025)",
+            "url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations"
+          },
+          {
+            "label": "Allison et al., Journal of Clinical Oncology 2020;38:1346 to 1366: oestrogen and progesterone receptor testing in breast cancer, ASCO/CAP guideline update",
+            "url": "https://doi.org/10.1200/jco.19.02309"
+          }
+        ],
+        "asOf": "2026-09-25"
+      },
+      "after": {
+        "tldr": "Grade describes microscopic features, stage describes extent under a defined system, and receptor tests describe measured markers. Together with other evidence, these findings inform treatment without guaranteeing a drug response.",
+        "summary": "Histological type, grade, receptor results and anatomical stage answer different questions. Nottingham grade combines tubule formation, nuclear pleomorphism and mitotic activity, each scored from 1 to 3. Totals 3 to 5 give grade 1, 6 to 7 grade 2, and 8 to 9 grade 3. Grade 3 is not stage III, and a Ki-67 index is a stained-nucleus fraction rather than an exact growth rate.\n\nClinical breast staging can use history, examination, imaging and biopsy evidence before surgery. Surgery-first pathological prognostic staging adds findings from removed breast tissue and nodes; it is not the same framework as post-neoadjuvant ypTNM. Some prognostic systems include grade and receptors alongside anatomical extent. Retain the system, edition and treatment setting rather than deriving a missing stage from grade alone or requiring surgery in every clinical setting.\n\nER, PR and HER2 results help define treatment questions within their tested disease setting. A positive receptor does not promise response, and neither grade nor stage alone determines treatment intensity or benefit. Retain the individual assays, controls and final integrated interpretation. A stromal TIL percentage and a Ki-67 percentage use different denominators and cannot stand in for receptor status, stage or a personal outcome probability.",
+        "notes": [
+          "Consider a fictional pretreatment core with invasive carcinoma of no special type, Nottingham components 3 + 3 + 3 = 9, ER 0%, PR 0%, HER2 IHC 2+ with a completed integrated ISH-negative interpretation, Ki-67 about 80%, stromal TILs 50%, and no DCIS seen. The assigned grade is 3. The specified final receptor results fit the ordinary triple-negative and HER2-low categories; IHC 2+ alone would still need workup. This is an invented interpretation exercise, not a real specimen or evidence of eligibility for a medicine.",
+          "In that example, Ki-67 about 80% refers to eligible stained tumour-cell nuclei, while sTILs 50% estimates the defined infiltrate within eligible stromal area. Neither is an absolute immune-cell count, a daily growth rate or a forecast. No DCIS seen concerns the sampled core. The findings do not complete stage or show absence elsewhere. In a second fictional adequately controlled report, ER 5%, PR 0% and HER2 IHC 0 mean ER-low-positive disease, not TNBC. ASCO/CAP acknowledges limited endocrine-benefit evidence in the 1% to 10% group; that uncertainty does not make the ER result negative."
+        ],
+        "links": [
+          {
+            "label": "Royal College of Pathologists G148: dataset for histopathological reporting of breast disease in surgical excision specimens of breast cancer, version 3, November 2024 (full review due November 2026)",
+            "url": "https://www.rcpath.org/resourceLibrary/g148-dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.html"
+          },
+          {
+            "label": "NICE NG101: early and locally advanced breast cancer, diagnosis and management (published 18 July 2018, last updated 14 April 2025)",
+            "url": "https://www.nice.org.uk/guidance/ng101/chapter/recommendations"
+          },
+          {
+            "label": "Allison et al., Journal of Clinical Oncology 2020;38:1346 to 1366: oestrogen and progesterone receptor testing in breast cancer, ASCO/CAP guideline update",
+            "url": "https://doi.org/10.1200/jco.19.02309"
+          },
+          {
+            "label": "NCI: pathology report sections, final diagnosis and pending tests",
+            "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet"
+          },
+          {
+            "label": "NCI: clinical and surgery-first pathological breast staging",
+            "url": "https://www.cancer.gov/types/breast/stages"
+          },
+          {
+            "label": "CAP: breast biomarker template, September 2026",
+            "url": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true"
+          },
+          {
+            "label": "Elston and Ellis: Nottingham grading study (1991)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/1757079/"
+          },
+          {
+            "label": "Wolff et al.: combined HER2 IHC and ISH interpretation (2018)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29846122/"
+          },
+          {
+            "label": "Salgado et al.: stromal TIL area denominator (2015)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25214542/"
+          },
+          {
+            "label": "Nielsen et al.: Ki67 assessment recommendations (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33369635/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "tldr": "a7e61cd0b54ac7925b9d31545163750e6362167700a1b7fc84a9a363b8a0ff67",
+        "summary": "f212340181d374a4dabdd0b50bd429a8ca73d57b179604aaed95c47c737561ce",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "ab32deb36d4d129cec9fa1bff8c1213add2ad0d9b5970f594d383d7c52e0bbad",
+        "asOf": "a9b0a25ae5ed68d53f6571c0cb4e497bbf15ffb85b6d8fe3cd9950d7cf06f1bc"
+      },
+      "afterFieldHashes": {
+        "tldr": "13a4a1ee126998b7605633c006d3f56089d5a1f5bfdd6beb3b5091b28635b554",
+        "summary": "96ca1bcd3be05d4934c13c043770a5dd440dc456cb1f37be96db19e66131f0ae",
+        "notes": "bc4f3e424a5ad2d12d51d80ff370e28fa2574cfbfbc653b313d1e5cd82011632",
+        "links": "8d2e1b9d627f0ee15ba4e535adf99cd5ac7360398086091222c518dbc1d93709",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Correct the reader-facing promises of receptor response, treatment intensity, fixed reporting order and compulsory surgical completion of stage. Replace the old summary, including its unreviewed RCPath quotation, without altering the quotation; keep its source link and freeze the original full field. Add connected fictional teaching.",
+      "sourceSupport": [
+        "03:abstract",
+        "08:abstract",
+        "09:abstract",
+        "12:main text",
+        "14:main text",
+        "19:targeted protocol pages",
+        "21/22:abstracts",
+        "32:targeted Ki67 methods",
+        "35:targeted TIL denominator"
+      ],
+      "integrationCredit": 0,
+      "beforeSummaryCustody": "Full old field is preserved in the prior public Git commit and private frozen capture; the existing long third-party quotation is not republished in this packet. Before-field hash is retained."
+    },
+    {
+      "id": "breast-margins-and-re-excision",
+      "expectedRuntimeRecordSha256": "b79406cc49be5e9ed4c1b2ea4a97f4e5100e36430fbd7d4791ae6c27ac63ad07",
+      "before": {
+        "notes": [
+          "Margin standards and further-operation choices retain disease and jurisdiction. A local boundary is not a whole-body test, and a finding does not by itself select re-excision versus completion mastectomy. Read separately submitted margins and the final laboratory interpretation alongside the operative record."
+        ],
+        "links": [
+          {
+            "label": "NICE NG101: early and locally advanced breast cancer, recommendations (updated 2025)",
+            "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations"
+          },
+          {
+            "label": "Macmillan: breast-conserving surgery",
+            "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/breast-conserving-surgery-for-breast-cancer"
+          },
+          {
+            "label": "Breast Cancer Now: surgery for primary breast cancer",
+            "url": "https://breastcancernow.org/about-breast-cancer/treatment/surgery-for-primary-breast-cancer"
+          },
+          {
+            "label": "NCI: lumpectomy and the surrounding treatment plan",
+            "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+          }
+        ],
+        "asOf": "2026-11-09"
+      },
+      "after": {
+        "notes": [
+          "Margin standards and further-operation choices retain disease and jurisdiction. A local boundary is not a whole-body test, and a finding does not by itself select re-excision versus completion mastectomy. Read separately submitted margins and the final laboratory interpretation alongside the operative record.",
+          "US consensus recommendations also retain their treatment setting. Moran 2014 addresses stage I or II invasive breast cancer treated with breast-conserving surgery and whole-breast irradiation: no ink on tumour is the adequate negative-margin standard, without evidence that routinely wider clear margins improve local control. Morrow 2016 addresses DCIS treated with breast-conserving surgery and whole-breast irradiation, using 2 mm; a smaller negative margin alone is not an indication for mastectomy. These are distinct from a universal distance rule for every operation, jurisdiction or post-treatment specimen. Read the final integrated margin with separately submitted parts."
+        ],
+        "links": [
+          {
+            "label": "NICE NG101: early and locally advanced breast cancer, recommendations (updated 2025)",
+            "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations"
+          },
+          {
+            "label": "Macmillan: breast-conserving surgery",
+            "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/breast-conserving-surgery-for-breast-cancer"
+          },
+          {
+            "label": "Breast Cancer Now: surgery for primary breast cancer",
+            "url": "https://breastcancernow.org/about-breast-cancer/treatment/surgery-for-primary-breast-cancer"
+          },
+          {
+            "label": "NCI: lumpectomy and the surrounding treatment plan",
+            "url": "https://www.cancer.gov/types/breast/treatment/surgery/lumpectomy"
+          },
+          {
+            "label": "Moran et al.: invasive breast margins with whole-breast irradiation (2014)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24516019/"
+          },
+          {
+            "label": "Morrow et al.: DCIS margins with whole-breast irradiation (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27528719/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "29c4620c435c407f682ec390e52c1148ed80675b542801a2f420f21abc9dfe5f",
+        "links": "38c54a63f91924ec9f4b57ee00ae50d45f9f030c2c1301834914f2a0f083554c",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterFieldHashes": {
+        "notes": "6c2e9a6e4a813e4b202202c6f6e9a0cfa27edd8f22ca5254677f076bf8febe87",
+        "links": "5349d2502d884d5362ba627c658bc6b8955fc430fd9956c7b7ff11c0ef9a923e",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Add the guide-cited US recommendations at their actual population and local-treatment scope while retaining the existing UK summary unchanged and unrecertified.",
+      "sourceSupport": [
+        "04:abstract",
+        "06:abstract"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "olaparib",
+      "expectedRuntimeRecordSha256": "464bfcfe133ac952aec739e9cf31d961258eebe286410e0d2c7f515c20f6b34c",
+      "before": {
+        "notes": [
+          "Triple-negative breast cancer: eligibility is germline BRCA1/2 by blood test, present in about 11 to 17% of TNBC (Couch 2015, Hahnen 2017); somatic-only or HRD-positive results do not qualify under the breast labels.",
+          "Triple-negative breast cancer: 82 percent of OlympiA patients had triple-negative disease (Lynparza label), so the adjuvant indication is in practice a triple-negative one; about half of OlympiAD patients were triple-negative, and in the OlympiAD final overall survival analysis the triple-negative subgroup hazard ratio was 0.93 (0.62 to 1.43). OlympiA recruited at 22 UK sites. The UK-led PARTNER trial (30 NHS hospitals) tests olaparib added to neoadjuvant carboplatin and paclitaxel in triple-negative or germline BRCA breast cancer.",
+          "Pancreatic cancer, UK status: NICE's appraisal of olaparib for pancreatic cancer (TA750) was terminated on 8 December 2021 because AstraZeneca made no evidence submission (its published olaparib appraisals cover ovarian, breast, prostate and endometrial cancer), so maintenance olaparib for germline BRCA carriers is not routinely commissioned in England although the drug is licensed for the use in the EU and UK. POLO label figures: progression-free survival 7.4 against 3.8 months (hazard ratio 0.53; p 0.0035), overall survival 19.0 against 19.2 months (hazard ratio 0.83; p 0.3487), response 23 against 12 percent with a median duration of 25 against 4 months; 75 percent of patients had received FOLFIRINOX; nine UK sites (Edinburgh, Glasgow, Liverpool, London, Manchester, Northwood, Nottingham, Surrey).",
+          "Pancreatic ductal adenocarcinoma biomarkers: eligibility is a germline BRCA1 or BRCA2 variant, present in about 2 to 3% of patients, plus at least 16 weeks of first-line platinum without progression (POLO). Somatic BRCA, PALB2 and genomic instability scores do not qualify under the label, although rucaparib showed activity in germline PALB2 and somatic BRCA2 (Reiss 2021).",
+          "Two NICE appraisals cover olaparib in prostate cancer in England. TA887 recommends it as monotherapy for hormone-relapsed metastatic prostate cancer with BRCA1 or BRCA2 mutations that has progressed after a newer hormonal treatment; the recommendation is for BRCA specifically, not the wider homologous recombination repair panel. TA951 recommends it with abiraterone and prednisone or prednisolone for untreated hormone-relapsed metastatic prostate cancer in adults who cannot have or do not want chemotherapy, which is an unselected indication."
+        ],
+        "links": [
+          {
+            "label": "FDA label (DailyMed)",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Olaparib"
+          },
+          {
+            "label": "NICE TA886: olaparib for adjuvant treatment of BRCA mutation-positive HER2-negative high-risk early breast cancer (10 May 2023)",
+            "url": "https://www.nice.org.uk/guidance/ta886"
+          },
+          {
+            "label": "NICE TA1040: olaparib for BRCA mutation-positive HER2-negative advanced breast cancer after chemotherapy (12 February 2025)",
+            "url": "https://www.nice.org.uk/guidance/ta1040"
+          },
+          {
+            "label": "Lynparza label (openFDA): OlympiA and OlympiAD study sections",
+            "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"
+          },
+          {
+            "label": "Kindler et al., POLO overall survival (JCO 2022)",
+            "url": "https://doi.org/10.1200/JCO.21.01604"
+          },
+          {
+            "label": "NICE TA887: olaparib for previously treated BRCA mutation-positive hormone-relapsed metastatic prostate cancer",
+            "url": "https://www.nice.org.uk/guidance/ta887"
+          },
+          {
+            "label": "NICE TA951: olaparib with abiraterone for untreated hormone-relapsed metastatic prostate cancer",
+            "url": "https://www.nice.org.uk/guidance/ta951"
+          },
+          {
+            "label": "Current FDA Lynparza label data",
+            "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22&limit=1"
+          },
+          {
+            "label": "FDA ovarian treatment withdrawal notice",
+            "url": "https://www.govinfo.gov/content/pkg/FR-2024-03-26/pdf/2024-06299.pdf"
+          },
+          {
+            "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Olaparib",
+            "url": "https://ncoda.org/pes/olaparib/"
+          }
+        ],
+        "asOf": "2026-10-10"
+      },
+      "after": {
+        "notes": [
+          "The US early-breast-cancer indication requires a deleterious or suspected deleterious germline BRCA variant, HER2-negative high-risk early disease, prior neoadjuvant or adjuvant chemotherapy, and selection using an FDA-approved companion diagnostic. A germline BRCA finding alone does not establish all criteria. A VUS alone is not the pathogenic or likely pathogenic variant required by OlympiA; tumour-only BRCA and HRD-positive results do not replace its qualifying germline finding.",
+          "Triple-negative breast cancer: 82 percent of OlympiA participants had triple-negative disease and 18 percent had hormone receptor-positive disease (Lynparza label). Both groups were included under their specified high-risk criteria; the adjuvant indication is not restricted to TNBC; about half of OlympiAD patients were triple-negative, and in the OlympiAD final overall survival analysis the triple-negative subgroup hazard ratio was 0.93 (0.62 to 1.43). OlympiA recruited at 22 UK sites. The UK-led PARTNER trial (30 NHS hospitals) tests olaparib added to neoadjuvant carboplatin and paclitaxel in triple-negative or germline BRCA breast cancer.",
+          "OlympiA compared one year of olaparib with placebo after local treatment and chemotherapy in 1,836 people with qualifying germline BRCA1/BRCA2 variants and high-risk HER2-negative early breast cancer. After neoadjuvant chemotherapy, TNBC required residual invasive disease in breast or resected nodes; hormone receptor-positive disease also required CPS+EG at least 3. In the adjuvant-chemotherapy pathway, TNBC required positive axillary nodes or an invasive primary at least 2 cm, while hormone receptor-positive disease required at least four positive nodes. These trial criteria are distinct from the label indication and from an individual assessment of treatment suitability.",
+          "The first OlympiA report established an invasive disease-free survival comparison; overall survival was not significant at that report's prespecified interim boundary. The later report demonstrated an overall-survival benefit at its own planned analysis. Post-neoadjuvant capecitabine was not permitted in OlympiA, so it cannot compare olaparib with capecitabine in that setting. CREATE-X studied additional capecitabine after specified chemotherapy. Do not assume either estimate answers a different prior-treatment, comparator or pembrolizumab-combination question. Eligibility, comparative benefit and tolerability are separate checks.",
+          "Pancreatic cancer, UK status: NICE's appraisal of olaparib for pancreatic cancer (TA750) was terminated on 8 December 2021 because AstraZeneca made no evidence submission (its published olaparib appraisals cover ovarian, breast, prostate and endometrial cancer), so maintenance olaparib for germline BRCA carriers is not routinely commissioned in England although the drug is licensed for the use in the EU and UK. POLO label figures: progression-free survival 7.4 against 3.8 months (hazard ratio 0.53; p 0.0035), overall survival 19.0 against 19.2 months (hazard ratio 0.83; p 0.3487), response 23 against 12 percent with a median duration of 25 against 4 months; 75 percent of patients had received FOLFIRINOX; nine UK sites (Edinburgh, Glasgow, Liverpool, London, Manchester, Northwood, Nottingham, Surrey).",
+          "Pancreatic ductal adenocarcinoma biomarkers: eligibility is a germline BRCA1 or BRCA2 variant, present in about 2 to 3% of patients, plus at least 16 weeks of first-line platinum without progression (POLO). Somatic BRCA, PALB2 and genomic instability scores do not qualify under the label, although rucaparib showed activity in germline PALB2 and somatic BRCA2 (Reiss 2021).",
+          "Two NICE appraisals cover olaparib in prostate cancer in England. TA887 recommends it as monotherapy for hormone-relapsed metastatic prostate cancer with BRCA1 or BRCA2 mutations that has progressed after a newer hormonal treatment; the recommendation is for BRCA specifically, not the wider homologous recombination repair panel. TA951 recommends it with abiraterone and prednisone or prednisolone for untreated hormone-relapsed metastatic prostate cancer in adults who cannot have or do not want chemotherapy, which is an unselected indication."
+        ],
+        "links": [
+          {
+            "label": "FDA label (DailyMed)",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Olaparib"
+          },
+          {
+            "label": "NICE TA886: olaparib for adjuvant treatment of BRCA mutation-positive HER2-negative high-risk early breast cancer (10 May 2023)",
+            "url": "https://www.nice.org.uk/guidance/ta886"
+          },
+          {
+            "label": "NICE TA1040: olaparib for BRCA mutation-positive HER2-negative advanced breast cancer after chemotherapy (12 February 2025)",
+            "url": "https://www.nice.org.uk/guidance/ta1040"
+          },
+          {
+            "label": "Lynparza label (openFDA): OlympiA and OlympiAD study sections",
+            "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22"
+          },
+          {
+            "label": "Kindler et al., POLO overall survival (JCO 2022)",
+            "url": "https://doi.org/10.1200/JCO.21.01604"
+          },
+          {
+            "label": "NICE TA887: olaparib for previously treated BRCA mutation-positive hormone-relapsed metastatic prostate cancer",
+            "url": "https://www.nice.org.uk/guidance/ta887"
+          },
+          {
+            "label": "NICE TA951: olaparib with abiraterone for untreated hormone-relapsed metastatic prostate cancer",
+            "url": "https://www.nice.org.uk/guidance/ta951"
+          },
+          {
+            "label": "Current FDA Lynparza label data",
+            "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22LYNPARZA%22&limit=1"
+          },
+          {
+            "label": "FDA ovarian treatment withdrawal notice",
+            "url": "https://www.govinfo.gov/content/pkg/FR-2024-03-26/pdf/2024-06299.pdf"
+          },
+          {
+            "label": "Lynparza US prescribing information: sections 1.4 and 14.4",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+          },
+          {
+            "label": "Tutt et al.: OlympiA initial report (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34081848/"
+          },
+          {
+            "label": "Geyer et al.: OlympiA overall-survival analysis (2022)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36228963/"
+          },
+          {
+            "label": "Masuda et al.: CREATE-X population and comparison (2017)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28564564/"
+          },
+          {
+            "label": "Patient education sheet (ONS, NCODA, HOPA and ACCC): Olaparib",
+            "url": "https://ncoda.org/pes/olaparib/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "490efbed437e06990e6a3c529a8616c6da4ef9715d04a94c22e2407fa74d0f68",
+        "links": "028566a933f2c7f7de9a0378f34e4bc6eb2bd00989fa8eb99fa107b6287225e2",
+        "asOf": "3828b4cd2d8b7bf8a432fac56321886aeadd12a910338cf8de31b13908f0be54"
+      },
+      "afterFieldHashes": {
+        "notes": "8e0a0239d10c2c5f7183a2095485e0d335e6ae93a84e6fc23f859ae6289d954d",
+        "links": "47f58daab344326ac2d73c3f291e8c11d3166f84be47dd24d23c51a7aa858cd9",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Qualify germline eligibility and remove the unsupported implication that an 82% TNBC trial makes the indication TNBC-only. Preserve other-country and other-setting notes at their previous scope; add trial eligibility, separate endpoint reports and the capecitabine comparison limit.",
+      "sourceSupport": [
+        "07:abstract",
+        "10/11:abstracts, read complete in PMC29/30",
+        "29:targeted eligibility and discussion",
+        "28:label 1.4 and 14.4"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "tumor-bed-cellularity",
+      "expectedRuntimeRecordSha256": "b963099517cf70a0ab7a4bf40ed5961b488bb3b299be062fda8f99d18433f32f",
+      "before": {
+        "notes": [
+          "For RCB, overall cancer cellularity estimates the area occupied by invasive plus in situ cancer within a defined residual breast bed. The in situ percentage instead uses the cancer component as denominator. Microscopic review can revise bed boundaries and should represent sparse as well as dense regions; selecting only a dense focus changes the measurement.",
+          "Invasive bed fraction equals overall cancer fraction multiplied by one minus the in situ fraction of cancer. In a fictional 100-unit bed with 20 units of cancer, 25% in situ means 5 bed units in situ and 15 invasive. The invasive share is 75% of cancer but only 15% of the whole bed. These idealised area units teach denominators, not counting instructions or the precision of a clinical estimate.",
+          "Area occupied by cancer, the proportion of counted cells that are malignant and the fraction of sequenced DNA contributed by cancer have different denominators. A selected assay block may also differ from the whole residual bed. Do not enter an area-cellularity estimate as sequencing purity or describe 25% of cancer as 25% of the bed.",
+          "Retain the named bed, specimen, treatment setting, mapping and representative sections, overall area percentage and in situ share separately. Incomplete sampling, a misdefined bed and heterogeneous distribution can bias the estimate; staining or sampling consumes finite tissue. There is no universal low/high cellularity cutoff that alone selects treatment.",
+          "Cellularity alone supplies neither nodal burden, final margins, distant status, pCR nor an RCB score. CAP's residual-invasive RCB span excludes DCIS, while the MD Anderson protocol estimates invasive plus in situ area in a microscopically revised cancer bed. Neither is interchangeable with the largest contiguous ypT focus. CAP advises against RCB score/class after neoadjuvant endocrine therapy, although individual residual measurements may still be useful.",
+          "The MD Anderson protocol estimates overall cellularity and in situ percentage to the nearest 10%, with additional 1% and 5% choices for low values. The 25% in situ example above is fictional denominator arithmetic outside those listed estimation increments. Its arithmetic remains 20 × 0.25 = 5 in situ and 20 - 5 = 15 invasive bed units. A separate protocol-aligned 20% in situ illustration would give 4 in situ and 16 invasive units. Neither should be confused with the RCB example using 50% in situ."
+        ],
+        "links": [
+          {
+            "label": "MD Anderson detailed RCB pathology methods",
+            "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf"
+          },
+          {
+            "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+            "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+          },
+          {
+            "label": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "after": {
+        "notes": [
+          "For RCB, overall cancer cellularity estimates the area occupied by invasive plus in situ cancer within a defined residual breast bed. The in situ percentage instead uses the cancer component as denominator. Microscopic review can revise bed boundaries and should represent sparse as well as dense regions; selecting only a dense focus changes the measurement.",
+          "Invasive bed fraction equals overall cancer fraction multiplied by one minus the in situ fraction of cancer. In a fictional 100-unit bed with 20 units of cancer, 25% in situ means 5 bed units in situ and 15 invasive. The invasive share is 75% of cancer but only 15% of the whole bed. These idealised area units teach denominators, not counting instructions or the precision of a clinical estimate.",
+          "Area occupied by cancer, the proportion of counted cells that are malignant and the fraction of sequenced DNA contributed by cancer have different denominators. A selected assay block may also differ from the whole residual bed. Do not enter an area-cellularity estimate as sequencing purity or describe 25% of cancer as 25% of the bed.",
+          "Retain the named bed, specimen, treatment setting, mapping and representative sections, overall area percentage and in situ share separately. Incomplete sampling, a misdefined bed and heterogeneous distribution can bias the estimate; staining or sampling consumes finite tissue. There is no universal low/high cellularity cutoff that alone selects treatment.",
+          "Cellularity alone supplies neither nodal burden, final margins, distant status, pCR nor an RCB score. CAP's residual-invasive RCB span excludes DCIS, while the MD Anderson protocol estimates invasive plus in situ area in a microscopically revised cancer bed. Neither is interchangeable with the largest contiguous ypT focus. CAP advises against RCB score/class after neoadjuvant endocrine therapy, although individual residual measurements may still be useful.",
+          "The MD Anderson protocol estimates overall cellularity and in situ percentage to the nearest 10%, with additional 1% and 5% choices for low values. The 25% in situ example above is fictional denominator arithmetic outside those listed estimation increments. Its arithmetic remains 20 × 0.25 = 5 in situ and 20 - 5 = 15 invasive bed units. A separate protocol-aligned 20% in situ illustration would give 4 in situ and 16 invasive units. Neither should be confused with the RCB example using 50% in situ.",
+          "Two fictional treated breast beds can have the same dimensions while one contains sparse residual carcinoma and the other dense residual carcinoma. The footprint alone cannot distinguish their viable cancer area. Read overall cancer area and the in situ share of that cancer with their different denominators, then keep regional nodes and final margins separate. A DCIS-permitting breast-and-node pCR definition can be met when DCIS remains at an involved final edge but no residual invasive breast or nodal cancer is found. Add an involved regional node and that combined endpoint is no longer met, even with a negative blood assay; this does not by itself establish distant spread."
+        ],
+        "links": [
+          {
+            "label": "MD Anderson detailed RCB pathology methods",
+            "url": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf"
+          },
+          {
+            "label": "CAP invasive breast resection protocol 4.11.0.0, June 2026",
+            "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf?download=true"
+          },
+          {
+            "label": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17785706/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "15c468db56397351727d8e2f18308ff277b935426cce9894b7037d98b1bd2653",
+        "links": "48418bc4f1b3fe23fafd3e1747d6e811ef60d06a89b046ca0d28bb6ccb96e0d4",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterFieldHashes": {
+        "notes": "c4e3894b33269913035a84143758e35913a7819f31a1a33be2dbb29538a7ba31",
+        "links": "48418bc4f1b3fe23fafd3e1747d6e811ef60d06a89b046ca0d28bb6ccb96e0d4",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Carry the equal-footprint residual-bed and response-versus-margin example on its existing measurement owner.",
+      "sourceSupport": [
+        "15/17:MD Anderson methods",
+        "05:combined pCR definitions",
+        "fictional supplied premises and inference"
+      ],
+      "integrationCredit": 0
+    }
+  ],
+  "exactRuntimeReadback": {
+    "graphCount": 23023,
+    "exactChangedIds": [
+      "biopsy",
+      "breast-margins-and-re-excision",
+      "grade-stage-receptor-breast",
+      "olaparib",
+      "tumor-bed-cellularity"
+    ],
+    "checks": [
+      {
+        "requirementId": "PG0-001",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "summary",
+        "excerptSha256": "6ad2f6a16c20542d4359f1a34adbc526a78ebed25d5de6c0d1c8a05dc92ad9d4"
+      },
+      {
+        "requirementId": "PG0-001",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "83cfd045549a467a37541bb497ed4617060f3c6ac467441e55a483c079372095"
+      },
+      {
+        "requirementId": "PG0-002",
+        "recordId": "dcis",
+        "field": "notes",
+        "excerptSha256": "6640bac330d7552e254d1690bed3fcaf602387e113c2258d971fb0ea3cff42aa"
+      },
+      {
+        "requirementId": "PG0-002",
+        "recordId": "dcis",
+        "field": "notes",
+        "excerptSha256": "07e01fa79508d43b942c13b94eb288c52fc938400d07a95ce9789f2a13f9786c"
+      },
+      {
+        "requirementId": "PG0-002",
+        "recordId": "invasive-breast-carcinoma-no-special-type",
+        "field": "notes",
+        "excerptSha256": "74a91038ec720070f4d51206995337595d0f34d1d7fa3f11d3cfcc05dadb2d74"
+      },
+      {
+        "requirementId": "PG0-003",
+        "recordId": "nottingham-grade",
+        "field": "summary",
+        "excerptSha256": "057c34e7d4f92c1d8fcd36e0698ff87a3ae0d65398af38a677203d2ddf203e7a"
+      },
+      {
+        "requirementId": "PG0-003",
+        "recordId": "nottingham-grade",
+        "field": "notes",
+        "excerptSha256": "25680769cc84fe3c8f7454d2dd5ccad4780b06a2e485568e22ba318595db9b2f"
+      },
+      {
+        "requirementId": "PG0-004",
+        "recordId": "er-status",
+        "field": "summary",
+        "excerptSha256": "467d20d2109500d4574241aeb6b2b704eed291134fe569e8042995c1798ec1cb"
+      },
+      {
+        "requirementId": "PG0-005",
+        "recordId": "her2-positive",
+        "field": "summary",
+        "excerptSha256": "3ea16c51bc148f7c3ebf317a94430e6800097c0cd0763787c5fae7efadd6c1fe"
+      },
+      {
+        "requirementId": "PG0-005",
+        "recordId": "her2-positive",
+        "field": "notes",
+        "excerptSha256": "7f6adc07e4c8f067b7d124bdb014cd166214ee1dfdca737c9d8d5624063605d0"
+      },
+      {
+        "requirementId": "PG0-006",
+        "recordId": "her2-positive",
+        "field": "notes",
+        "excerptSha256": "7618ede99b9e441b1855520b7a38718cc5008256a974206e5f5ae3141e8d54e6"
+      },
+      {
+        "requirementId": "PG0-006",
+        "recordId": "her2-positive",
+        "field": "notes",
+        "excerptSha256": "ded5242b5e37464597366f6757bd07a0fdafe4e03519f1767fea081abf1c41dd"
+      },
+      {
+        "requirementId": "PG0-007",
+        "recordId": "ki-67-index",
+        "field": "summary",
+        "excerptSha256": "ca4b6e4268c9922ff23aed3190dcca54c63dcbc43d9cc0fe1d5917163b2613c3"
+      },
+      {
+        "requirementId": "PG0-007",
+        "recordId": "ki-67-index",
+        "field": "notes",
+        "excerptSha256": "2e47437374557079fbb348cb3ad51f22179c121fb54152a851c0f731bc2e5d87"
+      },
+      {
+        "requirementId": "PG0-008",
+        "recordId": "tils",
+        "field": "notes",
+        "excerptSha256": "276c99649560fb3f8990fadd8fcf461f2d7dfe27578cd0bc156157a70341764b"
+      },
+      {
+        "requirementId": "PG0-009",
+        "recordId": "her2-positive",
+        "field": "notes",
+        "excerptSha256": "42232c3d85dbde6d61b9f46ab5d0ae77c5ad8e7520a9b66b957c0095cd2ff2ff"
+      },
+      {
+        "requirementId": "PG0-009",
+        "recordId": "her2-low",
+        "field": "notes",
+        "excerptSha256": "9f0255416fba7bb7739a9b4b061210e1821df9aa367bc4440fa90dfaf0af8cd6"
+      },
+      {
+        "requirementId": "PG0-010",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "notes",
+        "excerptSha256": "fd7e30961356ca0f1ccc841ddbccdd698207a1ca0dae1e4efdb72b0bdf715c26"
+      },
+      {
+        "requirementId": "PG0-011",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "notes",
+        "excerptSha256": "fd7e30961356ca0f1ccc841ddbccdd698207a1ca0dae1e4efdb72b0bdf715c26"
+      },
+      {
+        "requirementId": "PG0-012",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "notes",
+        "excerptSha256": "76e4cb7c613a546c4a7e31cb67277f7fcefcc24410b6cd76fe7cfc4c6829e0d1"
+      },
+      {
+        "requirementId": "PG0-012",
+        "recordId": "invasive-breast-carcinoma-no-special-type",
+        "field": "notes",
+        "excerptSha256": "ac7610c4879ee8bf2288b9ced53ae5d886f4a26b27c1110c6dda8c41ee34e71d"
+      },
+      {
+        "requirementId": "PG0-013",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "notes",
+        "excerptSha256": "76e4cb7c613a546c4a7e31cb67277f7fcefcc24410b6cd76fe7cfc4c6829e0d1"
+      },
+      {
+        "requirementId": "PG0-014",
+        "recordId": "tils",
+        "field": "summary",
+        "excerptSha256": "d1884d4167a698001dcdcf686a4063481daa576466a674d059db063baefac4e3"
+      },
+      {
+        "requirementId": "PG0-014",
+        "recordId": "tils",
+        "field": "notes",
+        "excerptSha256": "a5bf77197f859a8e3e8452883ef820f18d12c21843ffe33e1fe592e61b22f7fd"
+      },
+      {
+        "requirementId": "PG0-015",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "summary",
+        "excerptSha256": "6ad2f6a16c20542d4359f1a34adbc526a78ebed25d5de6c0d1c8a05dc92ad9d4"
+      },
+      {
+        "requirementId": "PG0-015",
+        "recordId": "tnm-staging",
+        "field": "notes",
+        "excerptSha256": "ef9304ecdeb09376406419ddacb8320836f404264c3b9d0eb05afe576e6a8c31"
+      },
+      {
+        "requirementId": "PG0-016",
+        "recordId": "nottingham-grade",
+        "field": "notes",
+        "excerptSha256": "9d137b12379923b4e41ecb3716d726c556f6f6edacc0469cbd193e794540bc19"
+      },
+      {
+        "requirementId": "PG0-016",
+        "recordId": "her2-positive",
+        "field": "notes",
+        "excerptSha256": "7f6adc07e4c8f067b7d124bdb014cd166214ee1dfdca737c9d8d5624063605d0"
+      },
+      {
+        "requirementId": "PG0-016",
+        "recordId": "ki-67-index",
+        "field": "notes",
+        "excerptSha256": "3c11a9115e8fad7afb9ef65742068a8f5f8936d645e8f5d5e173b5cd84766d07"
+      },
+      {
+        "requirementId": "PG0-017",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "notes",
+        "excerptSha256": "76e4cb7c613a546c4a7e31cb67277f7fcefcc24410b6cd76fe7cfc4c6829e0d1"
+      },
+      {
+        "requirementId": "PG0-017",
+        "recordId": "er-status",
+        "field": "summary",
+        "excerptSha256": "467d20d2109500d4574241aeb6b2b704eed291134fe569e8042995c1798ec1cb"
+      },
+      {
+        "requirementId": "PG1-001",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "b46822f5b4a4678f1effe3d7b48dfdc415aefe7e4d286dc89aaad4f4a2e92a7e"
+      },
+      {
+        "requirementId": "PG1-001",
+        "recordId": "core-needle-biopsy",
+        "field": "summary",
+        "excerptSha256": "9b5e621ed03f49f7a316466269ff3272fa24e7ece2d3b07a07cd4e2348e25c77"
+      },
+      {
+        "requirementId": "PG1-002",
+        "recordId": "surgical-resection-specimen",
+        "field": "summary",
+        "excerptSha256": "09067efda42c0d63169c6aba0cb5d56404e81903468e9fcce868e593987cffd2"
+      },
+      {
+        "requirementId": "PG1-002",
+        "recordId": "surgical-resection-specimen",
+        "field": "notes",
+        "excerptSha256": "3bf1d66509bb78b340a47dfe5d63587bbbd502dff771ebaa5d42117451783389"
+      },
+      {
+        "requirementId": "PG1-003",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "b46822f5b4a4678f1effe3d7b48dfdc415aefe7e4d286dc89aaad4f4a2e92a7e"
+      },
+      {
+        "requirementId": "PG1-003",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "83cfd045549a467a37541bb497ed4617060f3c6ac467441e55a483c079372095"
+      },
+      {
+        "requirementId": "PG1-004",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "b46822f5b4a4678f1effe3d7b48dfdc415aefe7e4d286dc89aaad4f4a2e92a7e"
+      },
+      {
+        "requirementId": "PG1-005",
+        "recordId": "biopsy-after-neoadjuvant-therapy",
+        "field": "summary",
+        "excerptSha256": "6abba6d1cd081a274f7658267fbd53bba1be8abe6592694fdaa0919912a08d05"
+      },
+      {
+        "requirementId": "PG1-005",
+        "recordId": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "excerptSha256": "5fdceadbc7c373d07febc03ab17eed01b4bded796108ee551be5a0170388ccd3"
+      },
+      {
+        "requirementId": "PG1-005",
+        "recordId": "biopsy-after-neoadjuvant-therapy",
+        "field": "notes",
+        "excerptSha256": "488e4bd104686ff5a1ab4a8d1e4ee1660972dfe3ad2093dc76111b59955af946"
+      },
+      {
+        "requirementId": "PG1-006",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG1-006",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "165d90bcd2d0322c7e830464db8c702a7ad2e4afb278e6aeea2dbf50d027d6fb"
+      },
+      {
+        "requirementId": "PG1-007",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG1-008",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG1-008",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "f020b29cc990038d7f30e06b30c34b979f5c094ac0433cb5122ee2c88e75b69e"
+      },
+      {
+        "requirementId": "PG1-009",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG1-009",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "165d90bcd2d0322c7e830464db8c702a7ad2e4afb278e6aeea2dbf50d027d6fb"
+      },
+      {
+        "requirementId": "PG1-010",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG1-011",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG1-012",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG1-013",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "165d90bcd2d0322c7e830464db8c702a7ad2e4afb278e6aeea2dbf50d027d6fb"
+      },
+      {
+        "requirementId": "PG1-013",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "83cfd045549a467a37541bb497ed4617060f3c6ac467441e55a483c079372095"
+      },
+      {
+        "requirementId": "PG1-014",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "165d90bcd2d0322c7e830464db8c702a7ad2e4afb278e6aeea2dbf50d027d6fb"
+      },
+      {
+        "requirementId": "PG1-015",
+        "recordId": "tnm-staging",
+        "field": "notes",
+        "excerptSha256": "ef9304ecdeb09376406419ddacb8320836f404264c3b9d0eb05afe576e6a8c31"
+      },
+      {
+        "requirementId": "PG1-015",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "summary",
+        "excerptSha256": "6ad2f6a16c20542d4359f1a34adbc526a78ebed25d5de6c0d1c8a05dc92ad9d4"
+      },
+      {
+        "requirementId": "PG1-016",
+        "recordId": "tnm-staging",
+        "field": "notes",
+        "excerptSha256": "d2e275773356f47713a3cc337e65288d7b083624e1f3894febe979d485593556"
+      },
+      {
+        "requirementId": "PG1-016",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "summary",
+        "excerptSha256": "6ad2f6a16c20542d4359f1a34adbc526a78ebed25d5de6c0d1c8a05dc92ad9d4"
+      },
+      {
+        "requirementId": "PG1-017",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "165d90bcd2d0322c7e830464db8c702a7ad2e4afb278e6aeea2dbf50d027d6fb"
+      },
+      {
+        "requirementId": "PG1-018",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "165d90bcd2d0322c7e830464db8c702a7ad2e4afb278e6aeea2dbf50d027d6fb"
+      },
+      {
+        "requirementId": "PG1-018",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "summary",
+        "excerptSha256": "6ad2f6a16c20542d4359f1a34adbc526a78ebed25d5de6c0d1c8a05dc92ad9d4"
+      },
+      {
+        "requirementId": "PG1-018",
+        "recordId": "ki-67-index",
+        "field": "notes",
+        "excerptSha256": "2e47437374557079fbb348cb3ad51f22179c121fb54152a851c0f731bc2e5d87"
+      },
+      {
+        "requirementId": "PG1-019",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PG2-001",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "94cb8741c53af44c660d5171ef42b0ea6fe65d5406f9935dacb74149a4cfc92a"
+      },
+      {
+        "requirementId": "PG2-001",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "2b637c26e921129e5b54683a8eeba8ed9b73971d1336221a068055a3a4a31ef4"
+      },
+      {
+        "requirementId": "PG2-001",
+        "recordId": "rcb",
+        "field": "summary",
+        "excerptSha256": "4e0d4368dd5c00e63afdc318548ceeb4defc6d8615ed6ada6c83390bb2b55998"
+      },
+      {
+        "requirementId": "PG2-002",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "94cb8741c53af44c660d5171ef42b0ea6fe65d5406f9935dacb74149a4cfc92a"
+      },
+      {
+        "requirementId": "PG2-002",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "51c543fbadc59b2c66e03274b278168807e159a08412dbd4f4872cd1b1bf578a"
+      },
+      {
+        "requirementId": "PG2-003",
+        "recordId": "rcb",
+        "field": "summary",
+        "excerptSha256": "4e0d4368dd5c00e63afdc318548ceeb4defc6d8615ed6ada6c83390bb2b55998"
+      },
+      {
+        "requirementId": "PG2-003",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "d5c9634190ee35eb41794a791e2ef94fa6c2d1f49229d3f6a3732bfc5201cee6"
+      },
+      {
+        "requirementId": "PG2-004",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "2b637c26e921129e5b54683a8eeba8ed9b73971d1336221a068055a3a4a31ef4"
+      },
+      {
+        "requirementId": "PG2-005",
+        "recordId": "pcr",
+        "field": "notes",
+        "excerptSha256": "ee2f119c89ac02335a59788073da79fb1dcc2dcb34c8c97192d8a96fb75f222b"
+      },
+      {
+        "requirementId": "PG2-006",
+        "recordId": "pcr",
+        "field": "notes",
+        "excerptSha256": "2777518e4871020da203380c82ecf8f352c376c9eff6aa8846c8b23d93ab8fa7"
+      },
+      {
+        "requirementId": "PG2-007",
+        "recordId": "rcb",
+        "field": "notes",
+        "excerptSha256": "9187990b840a6c478ccc5127c2751bca792a2dda844025f7426c9a1c07a05d03"
+      },
+      {
+        "requirementId": "PG2-007",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "398ab71cede78b823c78e855129d3b45a600993372e86861c7e936db34b23f31"
+      },
+      {
+        "requirementId": "PG2-007",
+        "recordId": "breast-margins-and-re-excision",
+        "field": "notes",
+        "excerptSha256": "47db67ffaa8e7438f60383dd53d0a94edf4877800aebf107b4be11156045b25d"
+      },
+      {
+        "requirementId": "PG2-008",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "2b637c26e921129e5b54683a8eeba8ed9b73971d1336221a068055a3a4a31ef4"
+      },
+      {
+        "requirementId": "PG2-008",
+        "recordId": "pcr",
+        "field": "notes",
+        "excerptSha256": "f85a37cb33970e748723fb9642df2efeec8e1470d7bae10f34d94476d95d9179"
+      },
+      {
+        "requirementId": "PG2-009",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "2b637c26e921129e5b54683a8eeba8ed9b73971d1336221a068055a3a4a31ef4"
+      },
+      {
+        "requirementId": "PG2-009",
+        "recordId": "extranodal-extension",
+        "field": "notes",
+        "excerptSha256": "571d236e4629d06b9dfdaa803f22d912c86f9100037567277069aa9cab4df3bb"
+      },
+      {
+        "requirementId": "PG2-010",
+        "recordId": "breast-margins-and-re-excision",
+        "field": "notes",
+        "excerptSha256": "47db67ffaa8e7438f60383dd53d0a94edf4877800aebf107b4be11156045b25d"
+      },
+      {
+        "requirementId": "PG2-010",
+        "recordId": "surgical-resection-specimen",
+        "field": "notes",
+        "excerptSha256": "3bf1d66509bb78b340a47dfe5d63587bbbd502dff771ebaa5d42117451783389"
+      },
+      {
+        "requirementId": "PG2-011",
+        "recordId": "breast-margins-and-re-excision",
+        "field": "notes",
+        "excerptSha256": "499734fc1963050f36d3fce04497724b2ea3207006567c5602c80d2d0b12158e"
+      },
+      {
+        "requirementId": "PG2-012",
+        "recordId": "extranodal-extension",
+        "field": "notes",
+        "excerptSha256": "657b43282e02c6465dc497f963c0eced2140d7b5ac17c325db22335f9abcac69"
+      },
+      {
+        "requirementId": "PG2-012",
+        "recordId": "extranodal-extension",
+        "field": "notes",
+        "excerptSha256": "571d236e4629d06b9dfdaa803f22d912c86f9100037567277069aa9cab4df3bb"
+      },
+      {
+        "requirementId": "PG2-013",
+        "recordId": "rcb",
+        "field": "notes",
+        "excerptSha256": "9187990b840a6c478ccc5127c2751bca792a2dda844025f7426c9a1c07a05d03"
+      },
+      {
+        "requirementId": "PG2-013",
+        "recordId": "rcb",
+        "field": "notes",
+        "excerptSha256": "49ff1fe3eff23aa6a885b2e93a2e11f52aa675b5d04a1e135bcb716cc8db1f92"
+      },
+      {
+        "requirementId": "PG2-014",
+        "recordId": "pcr",
+        "field": "notes",
+        "excerptSha256": "2777518e4871020da203380c82ecf8f352c376c9eff6aa8846c8b23d93ab8fa7"
+      },
+      {
+        "requirementId": "PG2-014",
+        "recordId": "pcr",
+        "field": "summary",
+        "excerptSha256": "a75b64b1571b08f94f2d3ec308d1aea1664cc069f6d39f081bb9b9bc6afd43f5"
+      },
+      {
+        "requirementId": "PG2-015",
+        "recordId": "pcr",
+        "field": "notes",
+        "excerptSha256": "2777518e4871020da203380c82ecf8f352c376c9eff6aa8846c8b23d93ab8fa7"
+      },
+      {
+        "requirementId": "PG2-015",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "2b637c26e921129e5b54683a8eeba8ed9b73971d1336221a068055a3a4a31ef4"
+      },
+      {
+        "requirementId": "PG3-001",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "83cfd045549a467a37541bb497ed4617060f3c6ac467441e55a483c079372095"
+      },
+      {
+        "requirementId": "PG3-001",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-002",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-002",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "54033307d43c17d534087e723b938cff355ba50833bd878ef2632f7b8e063933"
+      },
+      {
+        "requirementId": "PG3-003",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-003",
+        "recordId": "breast-margins-and-re-excision",
+        "field": "notes",
+        "excerptSha256": "47db67ffaa8e7438f60383dd53d0a94edf4877800aebf107b4be11156045b25d"
+      },
+      {
+        "requirementId": "PG3-004",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-005",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "53c971b778a9ccf09951863aba560a82a0ddf1fe04613a1fc3c5eb8b70ef33b7"
+      },
+      {
+        "requirementId": "PG3-005",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-006",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-006",
+        "recordId": "er-status",
+        "field": "notes",
+        "excerptSha256": "fb7ddf36729bfb67e4ee618288c67ae2eed7fe3b856ebe6a4c1e2aed1165bfaf"
+      },
+      {
+        "requirementId": "PG3-007",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-008",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-009",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "54033307d43c17d534087e723b938cff355ba50833bd878ef2632f7b8e063933"
+      },
+      {
+        "requirementId": "PG3-009",
+        "recordId": "pd-l1-cps",
+        "field": "notes",
+        "excerptSha256": "e0cbaeb263bc478daf459e98c579d03e65544378d398db597e8c090722a0e6c2"
+      },
+      {
+        "requirementId": "PG3-010",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "54033307d43c17d534087e723b938cff355ba50833bd878ef2632f7b8e063933"
+      },
+      {
+        "requirementId": "PG3-011",
+        "recordId": "capecitabine",
+        "field": "notes",
+        "excerptSha256": "1105b23e7df8915028c80a607bf8ef53abd3ab2ec7f56a7f7318af1665374eeb"
+      },
+      {
+        "requirementId": "PG3-012",
+        "recordId": "capecitabine",
+        "field": "notes",
+        "excerptSha256": "c334a59d335752d6d2a023a425c07f009de81c40cf2b85d99f1b0606acf78cb2"
+      },
+      {
+        "requirementId": "PG3-012",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "d9a00e3621213de644d32614646524a5115c96cf901da0b01b46e6f40c11fbd7"
+      },
+      {
+        "requirementId": "PG3-012",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "54033307d43c17d534087e723b938cff355ba50833bd878ef2632f7b8e063933"
+      },
+      {
+        "requirementId": "PG3-013",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "1bf6c3c7f8108e6978e073558a6982c9e5051e13e7e0803eb8b62677bae3e936"
+      },
+      {
+        "requirementId": "PG3-013",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "d9a00e3621213de644d32614646524a5115c96cf901da0b01b46e6f40c11fbd7"
+      },
+      {
+        "requirementId": "PG3-014",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-014",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "d9a00e3621213de644d32614646524a5115c96cf901da0b01b46e6f40c11fbd7"
+      },
+      {
+        "requirementId": "PG3-015",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "1719631875cba29f6cb214e88a3e4271a7b0613a3bedbcc2868eb90de93980a7"
+      },
+      {
+        "requirementId": "PG3-016",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "1719631875cba29f6cb214e88a3e4271a7b0613a3bedbcc2868eb90de93980a7"
+      },
+      {
+        "requirementId": "PG3-017",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "fc59648e3f1f732f7208dd08f39c60cc21f18c952fb3882a9c768c69f6370966"
+      },
+      {
+        "requirementId": "PG3-017",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "1bf6c3c7f8108e6978e073558a6982c9e5051e13e7e0803eb8b62677bae3e936"
+      },
+      {
+        "requirementId": "PG3-018",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "fc59648e3f1f732f7208dd08f39c60cc21f18c952fb3882a9c768c69f6370966"
+      },
+      {
+        "requirementId": "PG3-019",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "54033307d43c17d534087e723b938cff355ba50833bd878ef2632f7b8e063933"
+      },
+      {
+        "requirementId": "PG3-020",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-020",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "54033307d43c17d534087e723b938cff355ba50833bd878ef2632f7b8e063933"
+      },
+      {
+        "requirementId": "PG3-021",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "a40951c38049ea9b24ef249dbaf41dc59f1c6c6e38bc77865d2e1bd2794c8247"
+      },
+      {
+        "requirementId": "PG3-022",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "1719631875cba29f6cb214e88a3e4271a7b0613a3bedbcc2868eb90de93980a7"
+      },
+      {
+        "requirementId": "PGI-001",
+        "recordId": "surgical-resection-specimen",
+        "field": "notes",
+        "excerptSha256": "3bf1d66509bb78b340a47dfe5d63587bbbd502dff771ebaa5d42117451783389"
+      },
+      {
+        "requirementId": "PGI-001",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "54033307d43c17d534087e723b938cff355ba50833bd878ef2632f7b8e063933"
+      },
+      {
+        "requirementId": "PGI-002",
+        "recordId": "grade-stage-receptor-breast",
+        "field": "summary",
+        "excerptSha256": "6ad2f6a16c20542d4359f1a34adbc526a78ebed25d5de6c0d1c8a05dc92ad9d4"
+      },
+      {
+        "requirementId": "PGI-002",
+        "recordId": "biopsy",
+        "field": "notes",
+        "excerptSha256": "cd383b8fb97c6a48cc61efd72bebcc8ccb0c1e9cfa5368fa9aecb593af740123"
+      },
+      {
+        "requirementId": "PGI-002",
+        "recordId": "tumor-bed-cellularity",
+        "field": "notes",
+        "excerptSha256": "2b637c26e921129e5b54683a8eeba8ed9b73971d1336221a068055a3a4a31ef4"
+      },
+      {
+        "requirementId": "PGI-003",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "fc59648e3f1f732f7208dd08f39c60cc21f18c952fb3882a9c768c69f6370966"
+      },
+      {
+        "requirementId": "PGI-003",
+        "recordId": "olaparib",
+        "field": "notes",
+        "excerptSha256": "d9a00e3621213de644d32614646524a5115c96cf901da0b01b46e6f40c11fbd7"
+      },
+      {
+        "requirementId": "PGI-003",
+        "recordId": "capecitabine",
+        "field": "notes",
+        "excerptSha256": "c334a59d335752d6d2a023a425c07f009de81c40cf2b85d99f1b0606acf78cb2"
+      }
+    ]
+  },
+  "sourceChanges": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "allRows": 19,
+      "substantive": 17,
+      "representedAtStatedScope": 17
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "allRows": 20,
+      "substantive": 18,
+      "representedAtStatedScope": 18
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "allRows": 17,
+      "substantive": 15,
+      "representedAtStatedScope": 15
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "allRows": 24,
+      "substantive": 22,
+      "representedAtStatedScope": 22
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "allRows": 5,
+      "substantive": 3,
+      "representedAtStatedScope": 3
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/00-read-the-diagnostic-biopsy.md",
+      "allRows": 19,
+      "substantive": 17,
+      "representedAtStatedScope": 17
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/01-place-the-specimen-in-time.md",
+      "allRows": 21,
+      "substantive": 19,
+      "representedAtStatedScope": 19
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/02-read-residual-disease-and-margins.md",
+      "allRows": 17,
+      "substantive": 15,
+      "representedAtStatedScope": 15
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/03-build-the-next-question.md",
+      "allRows": 24,
+      "substantive": 22,
+      "representedAtStatedScope": 22
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/index.md",
+      "allRows": 5,
+      "substantive": 3,
+      "representedAtStatedScope": 3
+    }
+  ],
+  "priorProofRebases": 76,
+  "shortReaders": {
+    "withdrawnStaleUnreviewedTranslations": 8,
+    "correctedSimpleEntries": 1,
+    "actualSelectors": {
+      "entries": 198,
+      "available": 26,
+      "EnglishFallback": 172
+    },
+    "acceptedLongCaches": 2,
+    "newNamedLanguageReviews": 0
+  },
+  "changeClass": "product 0  data 16  neither 0   (--cached)",
+  "productChange": false
+}

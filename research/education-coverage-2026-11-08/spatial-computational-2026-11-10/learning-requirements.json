@@ -1,0 +1,2585 @@
+[
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::measure-meaning-use",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "Distinguish analytical validity (does it measure correctly), clinical validity (does the result relate to a defined condition or outcome) and clinical utility (does using it help patients) as three separate evidence questions.",
+    "sourceAnchorSha256": "f8b1b2394e71bf25108932080267f54d9521fd0787de9366bc1cbaad7d5cfea7",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::analytical-specificity",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "Analytical performance is specific to specimen, analyte, input, workflow and software version and may not transfer from prepared material to damaged clinical specimens.",
+    "sourceAnchorSha256": "355341b924d42cfade2ad25d64426261d91edff7d67f64c673bb02c6ce18d2e6",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-fda-analytical",
+      "C-fda-ctdna"
+    ]
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::association-vs-benefit",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "An outcome association does not identify who benefits from a treatment; discrimination between risk groups does not guarantee accurate individual probabilities.",
+    "sourceAnchorSha256": "c8dd15da0c138cb4f1c84ed06397c84e1a023c0a9da00dd4bd0cc79b14cb2f53",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-riley-performance"
+    ]
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::strategy-vs-comparator",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "Clinical utility compares a defined test-guided strategy (test, result rule, action, care setting) with a meaningful alternative, counting harms.",
+    "sourceAnchorSha256": "971e35dbb1ae580124c85c2deb8852adae1aaf36839ae056926716b93e7d6f48",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-fda-analytical",
+      "C-fda-ctdna",
+      "C-medline-defs"
+    ]
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::worked-drug-a",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "Worked example: reproducible spiked-target measurement plus a recurrence association leaves the utility of starting Drug A after positivity unsupported.",
+    "sourceAnchorSha256": "72a3ac3dda078169bacc776adfd76012fb28e02635ed2ff5ca543555bd757ae5",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::figure-parallel-scenes",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "Figure parallel-measurement-meaning-and-use: three parallel questions; the unanswered outcome boxes show the missing comparison, not a validation ladder.",
+    "sourceAnchorSha256": "70a8afecf4e757893ff1c63f493c93ec00ff35c6f7d6b1844864e17776204262",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "binding-prediction::prediction-not-observation",
+    "page": "binding-prediction",
+    "requirement": "A binding score is a model estimate and does not measure peptide display, immune recognition or treatment benefit.",
+    "sourceAnchorSha256": "cab97a7875457dfd64186c61212032897de31baaf5b65ca658f978107efe6cbd",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "binding-prediction::rank-meaning",
+    "page": "binding-prediction",
+    "requirement": "A percentile rank (e.g. 0.4%) locates a score within the model reference distribution; it is not a 99.6% probability of presentation or benefit.",
+    "sourceAnchorSha256": "e4eff88111311cd9040c6ba82833879ff4417271e057f43b1832e4b47071f940",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-netmhc-doc",
+      "C-netmhc-rank",
+      "C-reynisson"
+    ]
+  },
+  {
+    "id": "binding-prediction::ba-vs-el-ic50",
+    "page": "binding-prediction",
+    "requirement": "Binding-affinity and eluted-ligand outputs have different labels and training data; predicted competitive-binding IC50 is not equilibrium Kd or a cell-growth IC50.",
+    "sourceAnchorSha256": "4fede352d2daf162eb7b3ff3dd29d1dfafef7020641051beb8295956c9252055",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-netmhc-doc",
+      "C-netmhc-rank",
+      "C-reynisson",
+      "C-cer-ic50-assumptions"
+    ]
+  },
+  {
+    "id": "binding-prediction::record-model-context",
+    "page": "binding-prediction",
+    "requirement": "Record model and version, allele, peptide length, task, units, reference ranking and threshold with every score.",
+    "sourceAnchorSha256": "54235496fd42103d8cccc0f9f04bb94bfeb5c4279f2d876109e3bb64cd9b6685",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-cheng-title",
+      "C-netmhc-doc"
+    ]
+  },
+  {
+    "id": "binding-prediction::downstream-chain",
+    "page": "binding-prediction",
+    "requirement": "Expression, processing, display, TCR recognition and sparing of healthy targets remain untested after a favourable prediction.",
+    "sourceAnchorSha256": "c82ef964337221c71c40bf362fe504fcc52eebd2734819ebd085905142ade42a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-sarkizova",
+      "C-wells"
+    ]
+  },
+  {
+    "id": "binding-prediction::figure-toy-rank",
+    "page": "binding-prediction",
+    "requirement": "Figure score-distribution-rank: invented 1,000-score reference with four stronger peptides gives 4/1,000 = 0.4%; separate BA output of 40 nM.",
+    "sourceAnchorSha256": "86dea24703bd313e0f086a32694bb04df3c7450073fc841895b25543c6defb26",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "foundation-models::definition-representation",
+    "page": "foundation-models",
+    "requirement": "A foundation model is pretrained on broad data and learns reusable representations (embeddings); representations are computed features, not measured functions.",
+    "sourceAnchorSha256": "75bb64c198c2e6287816c64f4f061c3b2e5ae7823f0883175575823813d25dea",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "foundation-models::transfer-finetune-zeroshot",
+    "page": "foundation-models",
+    "requirement": "Transfer learning, fine-tuning and zero-shot use are different evaluation settings and are not interchangeable comparisons.",
+    "sourceAnchorSha256": "5d8636e2071e7a926af5ea10e5f05a16dccfaab0c332eeac39ee637db4b63b51",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "foundation-models::pretraining-overlap",
+    "page": "foundation-models",
+    "requirement": "Pretraining corpora can overlap later test data; check overlap at patient/donor level, not only identical records.",
+    "sourceAnchorSha256": "ec3bb75cbf5f100e452828fc3228f34a6e590fd22f8f3547fd5a49a9f0359444",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "foundation-models::performance-scoped",
+    "page": "foundation-models",
+    "requirement": "Published performance belongs to its evaluated model version, task, datasets and adaptation method.",
+    "sourceAnchorSha256": "6e9316dd90fbf2eaba2d44a5c6f96c54083a919391a8c12e936b1188b4e12a9d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "foundation-models::labels-not-synonyms",
+    "page": "foundation-models",
+    "requirement": "Foundation, generative and virtual-cell are overlapping but different ideas; none establishes simulated-intervention accuracy or clinical benefit.",
+    "sourceAnchorSha256": "1d4d1037ca2537793d2bffb49beef9d528cf88d96d128183e6c2bf36cae186e4",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "foundation-models::failure-modes",
+    "page": "foundation-models",
+    "requirement": "Model-card failure modes: population or assay mismatch, leakage, technical shortcuts, unavailable features, poor calibration.",
+    "sourceAnchorSha256": "24b2dd59f35c4d86010d9327705d8cc277bc305d4bf1ed5c42c3013acda40eb8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "model-validation-basics::define-task",
+    "page": "model-validation-basics",
+    "requirement": "Define input available at prediction time, population, model version, outcome, time origin and horizon before evaluating.",
+    "sourceAnchorSha256": "36567deabc85b942b8bcd2c444eab690ad79e3650d9daf05de992587f148395a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-tripod-8a",
+      "C-tripod-eval-data"
+    ]
+  },
+  {
+    "id": "model-validation-basics::dataset-roles",
+    "page": "model-validation-basics",
+    "requirement": "Training fits, validation selects settings/thresholds, test evaluates locked choices; cross-validation that also selects settings cannot be reported as an independent test.",
+    "sourceAnchorSha256": "306210e654892406c6923f91bea03c4b7755597bf7a754d61be626f6b40dd22a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-tripod-8a",
+      "C-tripod-eval-data"
+    ]
+  },
+  {
+    "id": "model-validation-basics::leakage-independent-units",
+    "page": "model-validation-basics",
+    "requirement": "Leakage routes (post-hoc gene choice, preprocessing fitted on the test cohort, same donor on both sides); many cells or wells from one person are not many independent people.",
+    "sourceAnchorSha256": "812392028667cd0d67f37943e317d6bacb8692147507cc7315feea4b0b11ad15",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "model-validation-basics::split-questions",
+    "page": "model-validation-basics",
+    "requirement": "New-cell, new-donor and unseen-perturbation tests ask different generalisation questions.",
+    "sourceAnchorSha256": "c97e7728d4035932c397fbb9cf6d56b67fadebe246e9e1f785aaf32970842b60",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-ahlmann-splits",
+      "C-tripod-8a",
+      "C-tripod-eval-data"
+    ]
+  },
+  {
+    "id": "model-validation-basics::baselines-calibration",
+    "page": "model-validation-basics",
+    "requirement": "Compare against simple baselines; discrimination is not calibration; inspect subgroups with their uncertainty.",
+    "sourceAnchorSha256": "0f103c531689ccb4fc2f05c5971b7ec43d41e9b49b04c73623ec06b9a0872518",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-ahlmann-splits",
+      "C-riley-ext-val",
+      "C-riley-performance",
+      "C-riley-repro"
+    ]
+  },
+  {
+    "id": "model-validation-basics::external-evaluation",
+    "page": "model-validation-basics",
+    "requirement": "External evaluation uses data outside development with documented differences; overlapping development patients do not make an independent population test; a revised model is a new version.",
+    "sourceAnchorSha256": "6ba48b5509c1ab1247ff9de390b190fe9bfb70443a978d54d5c7f71e8fca5b43",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-riley-ext-val",
+      "C-riley-performance",
+      "C-riley-repro"
+    ]
+  },
+  {
+    "id": "model-validation-basics::worked-20-donors",
+    "page": "model-validation-basics",
+    "requirement": "Worked example: cells from 20 donors split within donor cannot establish performance on new donors.",
+    "sourceAnchorSha256": "64dd8fbab0bcad0b695160c029c109d98f5bc411670cfaf7d364aa1d96378126",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "model-validation-basics::figure-held-out",
+    "page": "model-validation-basics",
+    "requirement": "Figure donors-cells-and-held-out-interventions: shared donors, reserved donors and reserved intervention Y are different holdouts; no performance claim.",
+    "sourceAnchorSha256": "4746ae5a5320e746521ed02449ed249a3a5bd5bca5d4324470aaacac8b81e591",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::layers-and-copies",
+    "page": "multi-omic-integration",
+    "requirement": "DNA, RNA and protein are different measurement layers; three reports copying one DNA call add no new layer.",
+    "sourceAnchorSha256": "812e5241671b83db151078ba211ec3398809cadc23207046b1336aeedc46492e",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::evidence-record-pairing",
+    "page": "multi-omic-integration",
+    "requirement": "Keep an evidence record per measurement (unit, sample, time, region, method, units, quality); same-specimen measurements are paired, separate cohorts are not.",
+    "sourceAnchorSha256": "a4bffef086f5176a4d24a6971c90c10f16c44402e5e1a82fa43d61b69600034f",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::measured-vs-imputed",
+    "page": "multi-omic-integration",
+    "requirement": "Imputation is a model estimate and must stay labelled even beside measured values.",
+    "sourceAnchorSha256": "aba4184c048e2946d5f71b5b5101d1ce32ced27b0fd59e560ded209543f399be",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::factor-models",
+    "page": "multi-omic-integration",
+    "requirement": "Factor models such as MOFA find shared or layer-specific patterns that can be biological or technical and are not mechanisms or validated tests.",
+    "sourceAnchorSha256": "7475fff0a7d5ecc916e303b2f87dc9d7ca115c761bef696fdf3e4f50fa3b8969",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::batch-confounding",
+    "page": "multi-omic-integration",
+    "requirement": "Batch effects and confounding (treatment time with method) cannot be separated by software alone.",
+    "sourceAnchorSha256": "da6d4a6fbee309cefda99e5875ee416de5a7df83823a31d8ecd81b74a5494429",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::patient-level-splits",
+    "page": "multi-omic-integration",
+    "requirement": "A patient present in several layers must not appear on both sides of a patient-level split.",
+    "sourceAnchorSha256": "d4de92688e3080ffe2ebc8beca767c5446f98909acdf2e204317714325d98b04",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::worked-target-q",
+    "page": "multi-omic-integration",
+    "requirement": "Worked example: abundant bulk RNA and vessel-cell protein can both be right; averaging into one confidence score hides the unresolved malignant-cell question.",
+    "sourceAnchorSha256": "8b4c51685df078bfe9455cc8af23866c7c3eba4e6dc9584db149a0d33aefdea8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::figure-reports-raster",
+    "page": "multi-omic-integration",
+    "requirement": "Figure reports-and-observations (raster): report copies repeat one observation; a new assay addresses a new question.",
+    "sourceAnchorSha256": "7dadf51d8c5c3782171773de0b0889fd0284614c95952359019b851289182f75",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::figure-specimen-context",
+    "page": "multi-omic-integration",
+    "requirement": "Figure multiomic-specimen-and-cell-context: paired layers need not describe identical cells; imputed Q stays a model estimate.",
+    "sourceAnchorSha256": "6c33526cc7b760fd039a8284547de44da3c3e7466b800a09c234d89625c40734",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::definition",
+    "page": "overfitting",
+    "requirement": "Overfitting is learning noise and quirks of development data so accuracy looks good there and is worse in new patients.",
+    "sourceAnchorSha256": "f38d55636bb03389f6a1fc16a27cc931e560dd3f6e81fcbfd5014300a114c00a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::many-features-few-patients",
+    "page": "overfitting",
+    "requirement": "With many candidate measurements and few patients, chance alone separates outcomes in some features.",
+    "sourceAnchorSha256": "fc8513acdcf033f2dd2c798c450215f3f56bdc7b7dd9f9d4c0477b512703230c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::three-habits",
+    "page": "overfitting",
+    "requirement": "Habits that hide it: testing on training patients, tuning after looking, one lucky split.",
+    "sourceAnchorSha256": "48e53eae043e5038a551ef804f0939950b0c1ac984628f9fd33787a5e6826fd6",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::michiels-evidence",
+    "page": "overfitting",
+    "requirement": "Evidence claim (to verify at source): reanalysis of seven microarray prognosis studies found five did no better than chance.",
+    "sourceAnchorSha256": "d859c6b49f941b2db206d6bc4b01a3fcc83502e663abdfdfc39b8e6a83c46c9c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::venet-evidence",
+    "page": "overfitting",
+    "requirement": "Evidence claim (to verify at source): >90% of random gene sets >100 genes associated with breast-cancer outcome; 28 of 47 published signatures (60%) no better than random.",
+    "sourceAnchorSha256": "aaa3db18aba08fcc7f57198ccd808e947a7c3a4964ca58ff6e40d9840c0b7d2a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::defence",
+    "page": "overfitting",
+    "requirement": "Defence: model locked before testing, independent patients, comparison with a simple baseline.",
+    "sourceAnchorSha256": "dfe19747c0c7fc86f7774ab3815b90e6b9b764871c1334ad46b53d161a2e107d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::cv-vs-external",
+    "page": "overfitting",
+    "requirement": "Cross-validation reduces optimism but does not test a new hospital, batch or population.",
+    "sourceAnchorSha256": "aeedf31c412b6f09a94220d8fa4c2aec787aa05945855fc563352fef36d8dad0",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::exact-finding-transcript",
+    "page": "variant-effect-prediction",
+    "requirement": "Specify reference genome, position, alleles and transcript version; the same genomic change can differ by transcript.",
+    "sourceAnchorSha256": "5690532092752af22d7347710c6f771c42a44bfb2ab03fda098cd2f5f108b4bf",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::annotation-not-effect",
+    "page": "variant-effect-prediction",
+    "requirement": "Consequence annotation (e.g. missense, HIGH impact) is a category, not measured loss of function or treatment benefit.",
+    "sourceAnchorSha256": "7967ce8ce2a1987816f07e977b6ea0a0329df307176a4f1ee0c0903e12bfbd0a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::task-specific-scores",
+    "page": "variant-effect-prediction",
+    "requirement": "A score from one prediction task cannot answer another (missense vs splice vs regulatory).",
+    "sourceAnchorSha256": "c584e7eacb8b565702141d5b09f9f60f57f3481bfb302da99a4b3073bc75ad0e",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::tool-non-independence",
+    "page": "variant-effect-prediction",
+    "requirement": "Agreement between tools sharing training data or inputs is not independent confirmation; interpretation depends on calibration.",
+    "sourceAnchorSha256": "5013c2512965a33d50fbc57085a1cc255a96a2bd31ef71e128ef46e8380149b1",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": [
+      "C-pejaver-overlap"
+    ]
+  },
+  {
+    "id": "variant-effect-prediction::clingen-scope",
+    "page": "variant-effect-prediction",
+    "requirement": "ClinGen calibration covers specific missense tools in a germline framework, not universal probabilities or tumour drug response.",
+    "sourceAnchorSha256": "dd6506c1ec5a443ad2a468ca17eb74897591d5674b8c868619e9e78393c18914",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": [
+      "C-pejaver",
+      "C-pejaver-scope"
+    ]
+  },
+  {
+    "id": "variant-effect-prediction::somatic-interpretation",
+    "page": "variant-effect-prediction",
+    "requirement": "Somatic guidance treats computational results as one evidence line, not a sufficient basis for a clinical decision.",
+    "sourceAnchorSha256": "5418e82417fe16c9ea7cd0700e8bd22f38b0930473fe77d051f1e70490b2c70a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::worked-splice-score",
+    "page": "variant-effect-prediction",
+    "requirement": "Worked example: a splice score of 0.92 with unspecified scale is not a 92% chance of lost repair function.",
+    "sourceAnchorSha256": "2034cee79ef140d22a070d438d94574f687d39e36a859ca7c805107a584c97cd",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::figure-two-transcripts",
+    "page": "variant-effect-prediction",
+    "requirement": "Figure variant-transcript-context: same position P lies in an exon of T1 and an intron of T2; annotation, prediction and RNA assay are separate questions.",
+    "sourceAnchorSha256": "883c174cca58e754825c919468d5e58855f41ff398aeed7c5474290e2292df84",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "virtual-cell-model::task-defines-output",
+    "page": "virtual-cell-model",
+    "requirement": "The task defines what output means; filling a missing measurement does not validate intervention prediction.",
+    "sourceAnchorSha256": "7ff2c164e337a791956f94a8e8359eb5075f76b7eb6b5d45879fcd04d03e8dae",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-ahlmann-var",
+      "C-bunne"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::virtual-perturbation",
+    "page": "virtual-cell-model",
+    "requirement": "A virtual perturbation changes a model input; it is not a performed experiment and masking a gene is not removing its function.",
+    "sourceAnchorSha256": "29fb0b68ab5e1add63ab87860eb1690cacc04fb888aead1ca26233bb00ee3c3e",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-ahlmann-var",
+      "C-bunne"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::heldout-claims",
+    "page": "virtual-cell-model",
+    "requirement": "Holding out cells, donors, interventions or cell types tests different claims; avoid shared patients/batches/labels leaking across the split.",
+    "sourceAnchorSha256": "be87f68112a36982250dad64439f8636baf6ebcec60cf8f3cae6ba5123713130",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-ahlmann",
+      "C-ahlmann-var",
+      "C-bunne",
+      "C-scgen"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::portability",
+    "page": "virtual-cell-model",
+    "requirement": "Portability needs fresh evaluation across cancer type, preparation, dose or laboratory.",
+    "sourceAnchorSha256": "2f4880422ca98d68104375fb3d053f8dd0c6f940f60529d40d5f6f8562c1a2d3",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-ahlmann",
+      "C-ahlmann-var",
+      "C-bunne",
+      "C-scgen"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::baseline-benchmark",
+    "page": "virtual-cell-model",
+    "requirement": "Complex models must beat meaningful baselines; claim to verify at source: a 2025 benchmark found none of five single-cell foundation models and two other deep-learning models beat simple baselines for single/double gene perturbation prediction.",
+    "sourceAnchorSha256": "a7d5f0d4fc304d36dec60c184540b896935f79d65866722057bbb0fe2efd6be5",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-ahlmann",
+      "C-ahlmann-var",
+      "C-bunne",
+      "C-scgen"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::predicted-not-measured",
+    "page": "virtual-cell-model",
+    "requirement": "Predicted RNA is not measured RNA, protein activity or patient benefit.",
+    "sourceAnchorSha256": "77758feb4a8670025d20ed6ca85dd53bd949b72399d3b3bbff81cb1d2d265e3b",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-ahlmann-var",
+      "C-bunne"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::figure-missing-vs-unseen",
+    "page": "virtual-cell-model",
+    "requirement": "Figure missing-observation-versus-unseen-intervention: filling a missing observation and forecasting an unseen intervention are different tasks with different reserved tests.",
+    "sourceAnchorSha256": "60097f606e3a6eea66bcd31dd54fd5f41d183e87bc498072a0384de7e6a97405",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "cell-segmentation::mask-is-estimate",
+    "page": "cell-segmentation",
+    "requirement": "A segmentation boundary is an estimate; a 2-D section may hold only part of a cell.",
+    "sourceAnchorSha256": "8841addfb8dd108f67c71cedcb2ed018e0fdd3ba89cadbe330cb220347c14c2b",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cellpose",
+      "C-greenwald",
+      "C-greenwald-iou",
+      "C-petukhov"
+    ]
+  },
+  {
+    "id": "cell-segmentation::detect-segment-phenotype",
+    "page": "cell-segmentation",
+    "requirement": "Detection, segmentation and phenotyping are distinct steps; finding a nucleus does not give a whole-cell boundary.",
+    "sourceAnchorSha256": "9e461a8ee4ef15e3478503b17098e77a4776867e63db2cfca6e7e889f561cc9d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cellpose",
+      "C-greenwald",
+      "C-greenwald-iou",
+      "C-petukhov"
+    ]
+  },
+  {
+    "id": "cell-segmentation::merge-split-missing",
+    "page": "cell-segmentation",
+    "requirement": "Merging, splitting and missing cells distort counts, marker combinations and spatial relations; check overlays on original channels.",
+    "sourceAnchorSha256": "d805e24dc8e14dcb3854faeb1d69e8241918ec70ad7745cdfb8708b1fdf53cab",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cellpose",
+      "C-greenwald",
+      "C-greenwald-iou",
+      "C-petukhov"
+    ]
+  },
+  {
+    "id": "cell-segmentation::iou",
+    "page": "cell-segmentation",
+    "requirement": "Intersection over union is shared area over union area (0-1) and can hide missed objects or mergers; also check counts and characteristic errors.",
+    "sourceAnchorSha256": "283f1e108158fb654722ed80bf6c46da8dbab62ccf88938bd33c507f93216ff0",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cellpose",
+      "C-greenwald",
+      "C-greenwald-iou",
+      "C-petukhov"
+    ]
+  },
+  {
+    "id": "cell-segmentation::tissue-specific-validation",
+    "page": "cell-segmentation",
+    "requirement": "Validation is specific to tissue, stain, acquisition and task; benchmark accuracy is not guaranteed on a new specimen.",
+    "sourceAnchorSha256": "47b548dd0131ed3526c678f1719c212f351d4f180ac977fec20b9499b03aa581",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "cell-segmentation::worked-merged-mask",
+    "page": "cell-segmentation",
+    "requirement": "Worked example: a merged mask can create false marker coexpression; correcting it does not prove immune recognition.",
+    "sourceAnchorSha256": "4080c30b9bc94296ce582c2e27e71338cbda3883abd6790c0eebfb05a43fb011",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "cell-segmentation::figure-mask-errors",
+    "page": "cell-segmentation",
+    "requirement": "Figure raw-channels-and-mask-errors: fixed channels and two stipulated cells; merged, split (3 objects) and shifted masks change the table, not the image.",
+    "sourceAnchorSha256": "e6460e7d281adbf56a6394d6b4a1fc2ef700506ec9cb64294f00abcb9d55d500",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "imaging-mass-cytometry::workflow-destructive",
+    "page": "imaging-mass-cytometry",
+    "requirement": "IMC laser-samples a metal-tagged section at recorded coordinates; ablation removes material.",
+    "sourceAnchorSha256": "334884f1b62f59cd835d5fcf638bcce0595074fea084e31c17c8b60181fd0199",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chevrier",
+      "C-giesen"
+    ]
+  },
+  {
+    "id": "imaging-mass-cytometry::imc-vs-suspension",
+    "page": "imaging-mass-cytometry",
+    "requirement": "Mass cytometry is not always spatial; suspension measurements lose arrangement.",
+    "sourceAnchorSha256": "138ec88226c7d787b1dad45884b81077387319ce1f385f143b180f1160454430",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chevrier",
+      "C-giesen"
+    ]
+  },
+  {
+    "id": "imaging-mass-cytometry::interference-not-absent",
+    "page": "imaging-mass-cytometry",
+    "requirement": "Channel interference is reduced relative to many fluorescence panels but not absent (isotope impurity, oxides, instrument effects).",
+    "sourceAnchorSha256": "b3ac1587cab911055aef75bc2bf237a4531757715b163a8e3c1f38db4ca3c872",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chevrier",
+      "C-giesen"
+    ]
+  },
+  {
+    "id": "imaging-mass-cytometry::panel-selects",
+    "page": "imaging-mass-cytometry",
+    "requirement": "The antibody panel selects what can be measured; IMC is not untargeted proteomics.",
+    "sourceAnchorSha256": "5cc16a9ba0f072bbf06287ff34796db6ae07f854a1c1d5b1467f1f03271b531d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chevrier",
+      "C-giesen"
+    ]
+  },
+  {
+    "id": "imaging-mass-cytometry::proximity-not-interaction",
+    "page": "imaging-mass-cytometry",
+    "requirement": "Spatial proximity is not functional interaction, killing or patient benefit.",
+    "sourceAnchorSha256": "68bef8e66c7f94011387e94e85aefcfe9a89dad0146defd32221c1f8ece235b8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-giesen"
+    ]
+  },
+  {
+    "id": "imaging-mass-cytometry::worked-double-positive",
+    "page": "imaging-mass-cytometry",
+    "requirement": "Worked example: a rare double-positive population needs interference, staining-control and boundary checks before a new-cell-state claim.",
+    "sourceAnchorSha256": "44d80800cb765831a06f3f028562c68a39f4a98e15c43896c57fafbe0f17b531",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chevrier",
+      "C-giesen"
+    ]
+  },
+  {
+    "id": "imaging-mass-cytometry::figure-metal-tag",
+    "page": "imaging-mass-cytometry",
+    "requirement": "Figure metal-tag-channels-and-spatial-sampling: recorded x,y address links each metal-tag channel; estimated borders need checking; suspension cells lose arrangement.",
+    "sourceAnchorSha256": "4344f5f0c3431ea86f00a9ce4a4beb4f51262f561e96ecffa43f4e5778d66389",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "immunopeptidomics::repertoire-vs-list",
+    "page": "immunopeptidomics",
+    "requirement": "The reported peptide list is a recovered and identified subset of the biological immunopeptidome.",
+    "sourceAnchorSha256": "94f44ef81a69af4f77ad3b3d5fd058fe8265ddaa3a99243a8ec8344443033166",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "immunopeptidomics::workflow",
+    "page": "immunopeptidomics",
+    "requirement": "HLA-peptide complexes are isolated, peptides released, separated by LC and fragmented by MS/MS, then matched to candidate sequences.",
+    "sourceAnchorSha256": "f3fe04009a1b5288d34f324ba108ef4ffaa5ae44e3715704ca7cde1fe08d1267",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chong",
+      "C-chong-lysate",
+      "C-purcell",
+      "C-sarkizova-lysate",
+      "C-stm2022-frozen",
+      "C-wilhelm"
+    ]
+  },
+  {
+    "id": "immunopeptidomics::database-and-fdr",
+    "page": "immunopeptidomics",
+    "requirement": "Search database content and false-discovery rules matter; adding sequences can raise incorrect matches; synthetic references strengthen single identifications only.",
+    "sourceAnchorSha256": "0ad10821c56f0b7d079fb7128e111b1a720d625888006abdda36436c147d4076",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chong",
+      "C-chong-lysate",
+      "C-purcell",
+      "C-sarkizova-lysate",
+      "C-stm2022-frozen",
+      "C-wilhelm"
+    ]
+  },
+  {
+    "id": "immunopeptidomics::mixed-origin",
+    "page": "immunopeptidomics",
+    "requirement": "In a mixed specimen, an HLA-associated peptide does not reveal its cell of origin or surface abundance.",
+    "sourceAnchorSha256": "e19fcc41ef5101ea7cb502c78e719e13d2d522564486661e725d09dbdc4785b8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-stm2022-frozen",
+      "C-wilhelm"
+    ]
+  },
+  {
+    "id": "immunopeptidomics::lysate-and-allele",
+    "page": "immunopeptidomics",
+    "requirement": "Whole-cell lysate is not surface-only; allele assignment in multi-allele preparations may be inferred.",
+    "sourceAnchorSha256": "a2a4f12dde662b589d4d0a1b0e0aa113b10f06fa6e46d1a44376320b0cd1dfc3",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chong",
+      "C-chong-lysate",
+      "C-purcell",
+      "C-sarkizova-lysate",
+      "C-stm2022-frozen",
+      "C-wilhelm"
+    ]
+  },
+  {
+    "id": "immunopeptidomics::ffpe-compatibility",
+    "page": "immunopeptidomics",
+    "requirement": "FFPE tissue cannot be assumed usable for an assay validated on cells or frozen tissue.",
+    "sourceAnchorSha256": "3e61b2ba8bbcb8fe18673ec215ae9105d10e4dfbd41ac3eabffee520be0f4cef",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chong",
+      "C-chong-lysate",
+      "C-purcell",
+      "C-sarkizova-lysate",
+      "C-stm2022-frozen",
+      "C-wilhelm"
+    ]
+  },
+  {
+    "id": "immunopeptidomics::nondetection",
+    "page": "immunopeptidomics",
+    "requirement": "Non-detection does not prove biological absence; detection does not prove safe tumour recognition.",
+    "sourceAnchorSha256": "a7185bffab6a2213ce74d868164daea10a9714f3884a59831ea6d40b605fab36",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-chong",
+      "C-chong-lysate",
+      "C-purcell",
+      "C-sarkizova-lysate",
+      "C-stm2022-frozen",
+      "C-wilhelm"
+    ]
+  },
+  {
+    "id": "mass-spectrometry-proteomics::bottom-up",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Bottom-up proteomics: digest to peptides, LC separation, MS and MS/MS, software identification.",
+    "sourceAnchorSha256": "cfb2b73ccb2b237bdaa8af36e0b53d76e4a58bfd9cade8513d43f85612c69e09",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-aebersold",
+      "C-beausoleil",
+      "C-carr",
+      "C-elias",
+      "C-lukasse",
+      "C-mertins2016"
+    ]
+  },
+  {
+    "id": "mass-spectrometry-proteomics::protein-inference",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "A shared peptide cannot choose between candidate proteins; inference uses other peptides and reports ambiguity.",
+    "sourceAnchorSha256": "b8937748ee5485b17234a0c383551c0b3f9d29bbe3c9e2c141cddbaa5fb4c06c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-aebersold",
+      "C-beausoleil",
+      "C-carr",
+      "C-elias",
+      "C-lukasse",
+      "C-mertins2016"
+    ]
+  },
+  {
+    "id": "mass-spectrometry-proteomics::fdr-set-level",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Estimated FDR is a set-level expectation under assumptions; peptide, spectrum and protein levels are reported separately; it does not certify each identification.",
+    "sourceAnchorSha256": "85f7c408efe1e7226c03f336acdbae85fa4ae96aae4304e200c29249e8a7dca5",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-aebersold",
+      "C-beausoleil",
+      "C-elias",
+      "C-lukasse",
+      "C-mertins2016"
+    ]
+  },
+  {
+    "id": "mass-spectrometry-proteomics::relative-vs-absolute",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Ratios need a denominator; absolute amounts need calibration; standards do not guarantee recovery of original protein.",
+    "sourceAnchorSha256": "ca7f56588cf77962d84e74dc5513a9ed3cec50c64bd05dc186dabd5b90eaa0f8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-carr",
+      "C-lukasse"
+    ]
+  },
+  {
+    "id": "mass-spectrometry-proteomics::bulk-extract-limits",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Bulk extract mixes cells and loses location; per-extract abundance is not receptors per cancer cell.",
+    "sourceAnchorSha256": "27ed26307e3b37b2ee62f56f6bcac92cfbb3e0b0454b8f130a22319b440e64cb",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-carr",
+      "C-lukasse"
+    ]
+  },
+  {
+    "id": "mass-spectrometry-proteomics::proteogenomic-claim",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Claim to verify at source: integrated breast-cancer proteogenomic work shows transcript, protein and phosphorylation add different information.",
+    "sourceAnchorSha256": "8228a70a1cdd2f7272c65c3aa28c21d4fc4b06c4e43700f6db62b71020af9629",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-aebersold",
+      "C-beausoleil",
+      "C-elias",
+      "C-lukasse",
+      "C-mertins2016"
+    ]
+  },
+  {
+    "id": "mass-spectrometry-proteomics::figure-peptide-inference",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Figure peptide-observation-and-protein-inference: proteins cut into peptides, a shared 4-residue peptide fits two candidates, intact form/cell source/surface access unresolved.",
+    "sourceAnchorSha256": "e662cded44c71d02f894f7a5b3c362d37065afd2d6a704622d8de974825a54a8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::cyclic-not-simultaneous",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "Multiplex does not require simultaneous imaging; cyclic methods need validated registration and tissue retention.",
+    "sourceAnchorSha256": "a93ca6acfe499a3afa6ac683dfeca8a0cc50a73de09022dec5f88b2ffe31f46d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::phenotype-is-panel-based",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "A cell phenotype is a rule-based classification from the measured panel, not a full account of the cell.",
+    "sourceAnchorSha256": "7e6839b3b2a1939e44ea27ed83d15ff60b53c02214043e0801583e2dafe5c231",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::denominators-distances",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "Densities and fractions need denominators; distances must state centre-to-centre vs boundary rules.",
+    "sourceAnchorSha256": "fd7c99184bd3121be0e94e8a15f38e7ea8f88c89b1ff9d6c79bb18000b40e76f",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::proximity-not-recognition",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "A close immune-cancer pair does not show receptor engagement or killing.",
+    "sourceAnchorSha256": "0f89e6dfbb81a42976ac83f1166c7aaa9699a642c0b2ca618691e389a6dd4b12",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::validation-scope",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "Validation is specific to panel, staining, imaging, analysis and intended use.",
+    "sourceAnchorSha256": "8a020d5ff9bb840b1c95af15dbcf1beb54cc0e3538e061471d97b6b410e0dcb8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::virtual-mif",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "Virtual mIF is a computational prediction, different evidence from performed staining.",
+    "sourceAnchorSha256": "2ca40f3a1d6a257a6385dc60d18faeff66c97a15eb55928b17584e1a07f5eaee",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::worked-t-cell-neighbour",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "Worked example: close centres without touching boundaries show proximity under a rule, not recognition.",
+    "sourceAnchorSha256": "1244148a168eca0ea50293a9eae3858139967dccc6c0ce7b7c295df4af6bf474",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::figure-two-rulers",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "Figure channels-masks-and-two-distance-rulers: channels measured, masks estimated, distance calculated; two rulers give different distances.",
+    "sourceAnchorSha256": "befa0be8d79e8175e067bdb9fa6ec7521105c1d6f37f6c36c0fa859d698702db",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "phosphoproteomics::kinase-phosphatase",
+    "page": "phosphoproteomics",
+    "requirement": "Kinases add and phosphatases remove phosphate; a larger signal is not universally greater activity.",
+    "sourceAnchorSha256": "5215ed46d00f1dfaf21dd442c70094bde23b02e99741f19326fe6542bb16bbf5",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-mertins2014-imac",
+      "C-mertins2016",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "phosphoproteomics::enrichment-bias",
+    "page": "phosphoproteomics",
+    "requirement": "Phosphopeptide enrichment changes what is recovered; the sample is not an unbiased count of proteins.",
+    "sourceAnchorSha256": "cf835c03250f9be76240c9fd4b0707f5774cbb6b61a8d00b0b658a4a8bc49dfe",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-beausoleil",
+      "C-mertins2014",
+      "C-mertins2014-imac",
+      "C-mertins2016",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "phosphoproteomics::site-localization",
+    "page": "phosphoproteomics",
+    "requirement": "Site localisation is separate from peptide identification and reported with its own confidence.",
+    "sourceAnchorSha256": "47c762c8b30a9cfb7c0eed7b9756300f1e965fa28386b33ec242832fdc9d1fe6",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-beausoleil",
+      "C-mertins2014",
+      "C-mertins2014-imac",
+      "C-mertins2016",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "phosphoproteomics::intensity-vs-occupancy",
+    "page": "phosphoproteomics",
+    "requirement": "Phosphopeptide intensity reflects protein amount, modified fraction and recovery; intensity or fold change is not occupancy.",
+    "sourceAnchorSha256": "5b9b54214dd311d54be557d8498d00f2bf0cf5b56bb8f8192eb4392941daf590",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-beausoleil",
+      "C-mertins2014",
+      "C-mertins2014-imac",
+      "C-mertins2016",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "phosphoproteomics::ischemia-handling",
+    "page": "phosphoproteomics",
+    "requirement": "Post-removal ischemia can change signalling; record collection and preservation conditions.",
+    "sourceAnchorSha256": "27d3f5a372c6c4105c718b2afa89a635415dd620fff8078598ae2f6e27f6f4f0",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-beausoleil",
+      "C-mertins2014",
+      "C-mertins2014-imac",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "phosphoproteomics::pathway-limits",
+    "page": "phosphoproteomics",
+    "requirement": "Supported sites inform a pathway hypothesis; they do not measure pathway rate, dependence or drug benefit.",
+    "sourceAnchorSha256": "e91f06204401e07d79735313bd0f14c7b849009a01bd54774aa85f19d1cd69f3",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-mertins2014-imac",
+      "C-mertins2016",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "phosphoproteomics::figure-parent-protein",
+    "page": "phosphoproteomics",
+    "requirement": "Figure parent-protein-and-phosphosignal: 100->200 and 20->40 are each 2-fold; 2 / 2 = 1; raw 20/100 is not a molecule fraction.",
+    "sourceAnchorSha256": "3eedf765ea397aca55b274fd0b6b9d62afc0addc5adb0c00149e00103273e0e6",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-wu"
+    ]
+  },
+  {
+    "id": "rppa::reverse-arrangement",
+    "page": "rppa",
+    "requirement": "RPPA immobilises the sample lysate and probes with antibody, the reverse of capture-probe arrays.",
+    "sourceAnchorSha256": "f12383900d7e2ad8a6455abf094d39643339a5adcda84965f0243ce296b92105",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-mannsperger",
+      "C-mertins2014",
+      "C-paweletz",
+      "C-paweletz-dilution"
+    ]
+  },
+  {
+    "id": "rppa::address-not-position",
+    "page": "rppa",
+    "requirement": "A spot address names sample and dilution, not a cell position in tissue; each spot is a mixture.",
+    "sourceAnchorSha256": "b37483acc567ab6c153d741dfa615fcab04a2c35018b228cfb3042d5c815dba3",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-mannsperger",
+      "C-mertins2014",
+      "C-paweletz",
+      "C-paweletz-dilution",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "rppa::antibody-validation",
+    "page": "rppa",
+    "requirement": "Antibody specificity is central: RNAi knock-down and size-resolving comparison; same-target antibodies differ.",
+    "sourceAnchorSha256": "8e796721d1532c7310c9a99c861901e58ef19b59c6bae31ad8dbee5f979da925",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-mannsperger",
+      "C-mertins2014",
+      "C-paweletz",
+      "C-paweletz-dilution"
+    ]
+  },
+  {
+    "id": "rppa::dilution-normalisation",
+    "page": "rppa",
+    "requirement": "Dilution curves, background, references and loading normalisation define the usable range; antibody scales are not comparable.",
+    "sourceAnchorSha256": "8852dcd99e29000cad6ae944a4cc42b11937acbbbe85039d5fef624cca1ba5e5",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-mannsperger",
+      "C-mertins2014",
+      "C-paweletz",
+      "C-paweletz-dilution",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "rppa::phosphosite-not-occupancy",
+    "page": "rppa",
+    "requirement": "A phosphosite signal is not occupancy or enzymatic activity.",
+    "sourceAnchorSha256": "67998fe1cfeeba5848f6b9bd2a22dca2ee5e01f013468b64b9809110d7d01778",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-paweletz-dilution",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "rppa::ischemia-no-safe-delay",
+    "page": "rppa",
+    "requirement": "Ischemia study supports recording preservation, not a universal safe delay.",
+    "sourceAnchorSha256": "a8cfeba4427e694a8426a44367a20af365ecb20afd16b78aef1a36197726eacb",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-mannsperger",
+      "C-mertins2014",
+      "C-paweletz",
+      "C-paweletz-dilution"
+    ]
+  },
+  {
+    "id": "rppa::figure-lysate-addresses",
+    "page": "rppa",
+    "requirement": "Figure rppa-mixed-lysate-addresses-and-dilutions: sample x dilution print addresses, replicate arrays R and phospho-R, spots remain mixed.",
+    "sourceAnchorSha256": "12e2d77b0d8e3818d04a86d011df5fbe2d394ec00287365996caa441c7aed061",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::three-strategies",
+    "page": "spatial-transcriptomics",
+    "requirement": "Sequencing capture, imaging-based detection and region-of-interest profiling recover different evidence.",
+    "sourceAnchorSha256": "2a17a29163ded61e3e7a9b1cafe331a44f7286d3492e552c1b0dafa458fbd16f",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::capture-unit-not-cell",
+    "page": "spatial-transcriptomics",
+    "requirement": "A capture spot/bin is not automatically one cell.",
+    "sourceAnchorSha256": "b66b0b8a0927f5d8e60ad0c7da2fdb57e639d4fde3535455247d7553f4e532bc",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::roi-numbers",
+    "page": "spatial-transcriptomics",
+    "requirement": "Claim to verify at source: DSP region 1 to ~5,000 cells; 44 proteins or 1,412 genes (sequencing readout) on FFPE.",
+    "sourceAnchorSha256": "4b91ebb68b074ab18f3e084893a17774a13780c5cd55fb1ef23924b9c6efb4d4",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::targeted-panel",
+    "page": "spatial-transcriptomics",
+    "requirement": "Imaging methods such as MERFISH measure a probe-defined gene set, not every transcript.",
+    "sourceAnchorSha256": "dc892249b581a4d533a3bc43b26bd08ffda51fe7458e71cba6532f1ad2ef644d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::segmentation-assignment",
+    "page": "spatial-transcriptomics",
+    "requirement": "Nuclear outlines may not define whole cells; overlap, crowding and boundary error misassign molecules.",
+    "sourceAnchorSha256": "d7e972403547b28d6f19401fcf36cb56aefe9f99f7733c8d6035f82c2567c74d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::imputation",
+    "page": "spatial-transcriptomics",
+    "requirement": "Imputed values (e.g. Tangram) are model outputs, not new observed RNA molecules.",
+    "sourceAnchorSha256": "0f48f533ce9173578c5b08f907f5aedafa1bdce1530e4b40b069ff1d9e20c0ef",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::adjacent-sections",
+    "page": "spatial-transcriptomics",
+    "requirement": "Adjacent sections share regional context but not identical cells; a section is not the whole tumour.",
+    "sourceAnchorSha256": "768040a2dc250d39b59517eaae315322b0c4480ca4d8017273128e984cb24578",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::figure-four-layers",
+    "page": "spatial-transcriptomics",
+    "requirement": "Figure spatial-observation-assignment-imputation: capture spot = one barcode, six decoded G/H coordinates, alternative masks, hatched inferred R.",
+    "sourceAnchorSha256": "682892adafbd324f03825357e516e9931b16d1a86367efd4e5efb1886e81b119",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "targeted-proteomics-and-loq::mrm",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "MRM follows predefined precursor-to-fragment transitions; identity, interference and performance are checked per peptide.",
+    "sourceAnchorSha256": "818d3bbf7efec8b7615e7b2179ef88bb2ac62a425bdb6c49ba6b65fa9cdd7fd8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-addona",
+      "C-carr",
+      "C-carr-transition",
+      "C-hoofnagle"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::peptide-proxy",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "A selected peptide is a proxy for its source protein; it cannot count intact receptors or surface copies.",
+    "sourceAnchorSha256": "27f089980806ee72ce3c730d3f8bd86b449c82a7da9aa74a0c70a43afca7f9b8",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-addona",
+      "C-carr",
+      "C-carr-transition",
+      "C-hoofnagle",
+      "C-ich"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::standards-and-matrix",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "Internal standard timing matters: a peptide added after digestion cannot correct failed extraction or digestion; matrix affects recovery.",
+    "sourceAnchorSha256": "a8ef328d1056670068c00e2840329121a11a7fe6908c764face758680a644876",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-addona",
+      "C-carr",
+      "C-carr-transition",
+      "C-hoofnagle",
+      "C-ich"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::lod-vs-loq",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "LoD distinguishes signal from background; LLOQ is where quantitative performance meets defined precision/bias criteria; an upper limit also bounds the range.",
+    "sourceAnchorSha256": "ac17cd454025f45400b6ee7481f1e2fbb7600cc6083ed24502579c3dfdc21acd",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-carr",
+      "C-ich"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::below-loq-not-zero",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "Detected below LoQ is meaningful without a reliable amount, and neither it nor not-detected means biological zero.",
+    "sourceAnchorSha256": "90045763f179a6da6992edc85d0362f4bb12b10c1767f1ecfb912fcc1520053f",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-carr",
+      "C-hoofnagle",
+      "C-ich"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::denominator",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "Report the denominator (e.g. total extract protein); it describes the mixture, not receptors per malignant cell.",
+    "sourceAnchorSha256": "6d06617184cb72e2f267773bfbd8d3a85e6eee30e3c7c9e439d41e6916000d79",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-addona",
+      "C-carr",
+      "C-carr-transition",
+      "C-hoofnagle",
+      "C-ich"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::worked-below-loq",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "Worked example: summary changing detected-below-LoQ to absent must be corrected to retain the limit and units.",
+    "sourceAnchorSha256": "a1613d4bc76985a478e015e4ee793e0689c0b6249a695e80ee474af646088bb1",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-ich"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::figure-reportable-range",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "Figure peptide-response-and-reportable-range: blank, detected-below-LLOQ, validated and saturated regions; saturated response supports no dependable amount.",
+    "sourceAnchorSha256": "30541c8d8ea2b7db27518351b50d1f86515a7b080977529ec6c28aa0bc2cd83c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "foundation-models::worked-masked-rna-breast",
+    "page": "foundation-models",
+    "requirement": "Worked example: masked-RNA accuracy in lung samples does not test postoperative breast treatment selection; the intended input, disease, setting and outcome need their own independent evaluation with comparators.",
+    "sourceAnchorSha256": "46679263cd962ce1c4ab08c612fa92010e07ba60e74e16452e5be967259ed1eb",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "binding-prediction::worked-candidates",
+    "page": "binding-prediction",
+    "requirement": "Worked example: a 0.4% EL rank and a 40 nM predicted IC50 estimate different things; neither establishes tumour coverage.",
+    "sourceAnchorSha256": "d7d7b3cf9b79ce756784c9df88faa35541be43d9a8b212279cd5c1e27540ee2a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "immunopeptidomics::worked-a-b",
+    "page": "immunopeptidomics",
+    "requirement": "Worked example: peptide A detected and peptide B not; B may reflect allele recovery, an unsearchable altered sequence or sensitivity, so it is not a clean biological negative.",
+    "sourceAnchorSha256": "30f11a7aaea8f69f41029a089cd52040dab043ceaed5f8c88b4a7b330c147f6a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "mass-spectrometry-proteomics::try-it-receptor-peptide",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Worked example: twice as much receptor-derived peptide per microgram of extract does not show twice as many accessible receptors per cancer cell.",
+    "sourceAnchorSha256": "ca51ee1db9341b7887736869f8ca0c196e57b53ab8e015bbe8d690b0dfb04170",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "rppa::try-it-phospho-r",
+    "page": "rppa",
+    "requirement": "Worked example: a doubled phospho-R signal without total R or loading evaluation cannot be called doubled R activity.",
+    "sourceAnchorSha256": "e96ee30d4f89e658ec858395cccb00394a0fa251b5e62923be5cf86808615174",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-wu"
+    ]
+  },
+  {
+    "id": "spatial-transcriptomics::try-it-imputed-r",
+    "page": "spatial-transcriptomics",
+    "requirement": "Worked example: gene R shown in segmented cancer cells but absent from the probe panel is imputed, not directly measured; the reference, model and validation must be reported.",
+    "sourceAnchorSha256": "28135b11c5e40dc85fa0c046ce969b17502bcae7d959bead7bf12f81716c717a",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::worked-50-gene",
+    "page": "overfitting",
+    "requirement": "Worked example: a 50-gene score with 95% accuracy where genes and cutoff were chosen in the same 80 patients describes fit, not prediction; ask for the locked score in separate patients and a simple baseline.",
+    "sourceAnchorSha256": "d22257ed986a131c9c0dc87cff8531c4a4214251a54f03eb5ae0c3d402e876a0",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "virtual-cell-model::try-it-fill-rna",
+    "page": "virtual-cell-model",
+    "requirement": "Worked example: accurately filling missing RNA values in familiar samples does not support a claim about a never-tested drug; define the intervention, reserve independent experiments and use baselines.",
+    "sourceAnchorSha256": "1f078d15ac28da09f3d83d31b5b8d0ae3a24cc593bc4f09a6a5e9791cd9babb3",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::try-it-method-ab",
+    "page": "multi-omic-integration",
+    "requirement": "Worked example: all pretreatment samples on Method A and all post-treatment on Method B confounds treatment with method, so a separated cluster does not establish a treatment effect.",
+    "sourceAnchorSha256": "9c3efb88d132df2f84d3d9590416bd081fbb525503c9bd80268b08c0663582cd",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::try-it-two-reports",
+    "page": "variant-effect-prediction",
+    "requirement": "Worked example: two reports repeating the same prediction from the same software version are two copies of one computed result, not independent functional experiments.",
+    "sourceAnchorSha256": "01cec3c976eedbdbb9db323b30ee15b23837cbf273f458352c461a505c956227",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::lead-time-outcome-clock",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "A blood result can anticipate recurrence without proving that earlier treatment improves survival; lead-time bias is one reason to examine the outcome clock.",
+    "sourceAnchorSha256": "e8410c959c076749f93c67d0621a741b94080ff78aefd6bab0b49f22d467d243",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::accreditation-label-not-utility",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "Laboratory accreditation or a product label does not establish every proposed clinical use; commercial availability does not complete a clinical-utility study.",
+    "sourceAnchorSha256": "5775903e42f563b364c741a0d79c8fbf836ca7a18105f0f25a75422192d94984",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-clia",
+      "C-medline-defs"
+    ]
+  },
+  {
+    "id": "binding-prediction::thresholds-are-workflow-rules",
+    "page": "binding-prediction",
+    "requirement": "Thresholds are selection rules for a specified workflow, not biological guarantees.",
+    "sourceAnchorSha256": "8f634eb419aaf2f3eb5e4aad3454036f37049d7a70f02f0ea2029b6ec6ef7df9",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cheng-title",
+      "C-netmhc-doc",
+      "C-netmhc-rank",
+      "C-reynisson"
+    ]
+  },
+  {
+    "id": "binding-prediction::allele-and-task-match",
+    "page": "binding-prediction",
+    "requirement": "A threshold cannot compensate for using the wrong allele or an unsupported prediction task.",
+    "sourceAnchorSha256": "85f2f246bae0d518f3128adc197fe10472f42ff19e81b6c36619edae65bc62f2",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cheng-title",
+      "C-netmhc-doc",
+      "C-netmhc-rank",
+      "C-reynisson"
+    ]
+  },
+  {
+    "id": "binding-prediction::readout-inputs-validation",
+    "page": "binding-prediction",
+    "requirement": "Inputs are sequences and an exact HLA allele, scoring uses no tumour tissue, outputs and thresholds are model-specific, and a model good at one task (binding, recovery, T-cell recognition) is not validated for all three.",
+    "sourceAnchorSha256": "231aa502efec71e3c5aae0475eae942dbc14799a4ab9735d9a853f0290767d77",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cheng-title",
+      "C-netmhc-doc",
+      "C-netmhc-rank",
+      "C-reynisson"
+    ]
+  },
+  {
+    "id": "model-validation-basics::context-shift-no-universal-threshold",
+    "page": "model-validation-basics",
+    "requirement": "A score tested in advanced disease may fail after surgery or in a different treatment era; there is no universal accuracy number that validates every decision.",
+    "sourceAnchorSha256": "7aebc8c27e2e2f5d46dbc8e14d236df68338f22357a89f0162fa8449590c6453",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-riley-ext-val",
+      "C-riley-performance",
+      "C-riley-repro"
+    ]
+  },
+  {
+    "id": "model-validation-basics::worked-intervention-split",
+    "page": "model-validation-basics",
+    "requirement": "Withholding more cells exposed to intervention X does not establish prediction of Y’s response; Y’s response must be reserved across fitting and tuning.",
+    "sourceAnchorSha256": "28cfff9630a15edbe4b5673b88d111bc6a2bb97d7a3b618e68efbf45b8920782",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::correlation-not-dependency",
+    "page": "multi-omic-integration",
+    "requirement": "Correlation between layers is not a tested dependency; a controlled intervention addresses a different question.",
+    "sourceAnchorSha256": "739d02bb9451b457ab123048ecfeab1931abe721283dd34a10a04e4eae12264c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::integration-outputs-benefit",
+    "page": "multi-omic-integration",
+    "requirement": "Integration can reveal agreement, competing explanations, missing evidence or a sample mismatch; molecular detail alone does not ensure a matching treatment will help.",
+    "sourceAnchorSha256": "f1bd3ddf2c0588dd1e07c8b2078b034e1c9641e64eab3b754e06cb41974e6634",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": [
+      "C-escat"
+    ]
+  },
+  {
+    "id": "overfitting::bias-vs-overfitting",
+    "page": "overfitting",
+    "requirement": "Overfitting comes from fitting noise; a model can also be wrong because its training patients differ from the patients it is used on; both lower real-world accuracy.",
+    "sourceAnchorSha256": "0eb67cde3cbfe3624011073fb026e584b23e05957ba246f82c74c496eb20ac5c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "overfitting::significant-not-useful",
+    "page": "overfitting",
+    "requirement": "A statistically significant association in many-gene data can be reached by random signatures, so significance is not usefulness.",
+    "sourceAnchorSha256": "181edf71c76238670dc5d7d82ab9a5b82b011d2cffa5a3e8e15add541411ef91",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::evidence-gaps-differ",
+    "page": "variant-effect-prediction",
+    "requirement": "RNA junction evidence, functional experiments and clinical studies address different gaps and none is interchangeable with a sequence score.",
+    "sourceAnchorSha256": "50765264fe5d87f32c86d4dc5e4ff1623ebefcfe266e15bd0886b1d184660612",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::no-prediction-not-benign",
+    "page": "variant-effect-prediction",
+    "requirement": "No prediction does not mean benign: the tool may not cover that variant type or transcript.",
+    "sourceAnchorSha256": "b3b094efa951d3c35e7850b5dfea3a855fe2323c002c80d3a86bd684bdc44ab0",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "virtual-cell-model::prioritisation-not-selection",
+    "page": "virtual-cell-model",
+    "requirement": "A model can prioritise experiments or organise candidate mechanisms; supporting treatment selection needs separate intended-use clinical evidence.",
+    "sourceAnchorSha256": "5de44636030bf7d0cf7dbc74914b6a14e90ecdcd296da4a34ce59e630215e853",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-ahlmann",
+      "C-ahlmann-var",
+      "C-bunne",
+      "C-scgen"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::worked-new-tissue-intervention",
+    "page": "virtual-cell-model",
+    "requirement": "Worked example: success on additional cells exposed to a familiar intervention in one cell line does not test a never-tested intervention in breast tumour cells; a reserved set of measured interventions and compatible breast-cell data is needed.",
+    "sourceAnchorSha256": "b5e82c6aa9a4d73e1d1a30ce3870a2e0392aadd7590a27b4bee811c13f58fa65",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "virtual-cell-model::aggregate-agreement-hides",
+    "page": "virtual-cell-model",
+    "requirement": "High agreement across all genes can conceal poor prediction of the few genes that changed.",
+    "sourceAnchorSha256": "3dcb23e187e0f13aa76214eabc79efb2371c54b0428f38368624d306578af659",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-ahlmann",
+      "C-ahlmann-var",
+      "C-bunne",
+      "C-scgen"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::untreated-association-not-causal",
+    "page": "virtual-cell-model",
+    "requirement": "An association learned from untreated tissue does not automatically identify a causal drug effect.",
+    "sourceAnchorSha256": "fd0abab8db714195e9c0b118fd811b7f9186f9fb5ba5e0ce26c26f2df18799f5",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-ahlmann-var",
+      "C-bunne"
+    ]
+  },
+  {
+    "id": "virtual-cell-model::test-set-reuse",
+    "page": "virtual-cell-model",
+    "requirement": "Changing the test set repeatedly until performance looks good weakens its independence.",
+    "sourceAnchorSha256": "c7548a980386c7c5d1d42170ed191364e87253928d6ae6c38223e7a0c74dfdc3",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "cell-segmentation::mask-not-measurement",
+    "page": "cell-segmentation",
+    "requirement": "A mask is not a measurement of a new marker; it assigns existing signals to estimated regions.",
+    "sourceAnchorSha256": "18a6fdc632f48d44f008b0c045829489ba494c5a359333e85ffd9a8edb737a3b",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-cellpose",
+      "C-greenwald",
+      "C-greenwald-iou",
+      "C-petukhov"
+    ]
+  },
+  {
+    "id": "immunopeptidomics::adds-presentation-evidence",
+    "page": "immunopeptidomics",
+    "requirement": "Immunopeptidomics adds experimental presentation evidence to a vaccine candidate board and can reveal peptides a shortlist missed, but does not show TCR recognition or patient benefit.",
+    "sourceAnchorSha256": "5b03f4fe1d67da50ed50c9d45e04e2c408b52ee9e8b601a3292aa2e531d4b7bc",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "immunopeptidomics::binding-vs-identification",
+    "page": "immunopeptidomics",
+    "requirement": "Binding prediction estimates a model output; immunopeptidomics identifies recovered peptides; total protein is not the same as HLA-associated fragments.",
+    "sourceAnchorSha256": "baea5aa75d346bcc1845d2eed30f14d3ac0ad00e4e9ca3be3cb514f645a0b947",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-reynisson",
+      "C-sarkizova"
+    ]
+  },
+  {
+    "id": "immunopeptidomics::try-it-database-gap",
+    "page": "immunopeptidomics",
+    "requirement": "Worked example: a peptide missing from the search database that is not identified is not a clean biological negative; correcting the database does not guarantee recovery or prove natural display.",
+    "sourceAnchorSha256": "22bf0c02585c652b9d08cc4387eef531450a25ee09cae36ba5f62b88dcc1d8e6",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "phosphoproteomics::kinase-inference-not-causality",
+    "page": "phosphoproteomics",
+    "requirement": "An inferred kinase from a phosphorylation pattern is not measured causality.",
+    "sourceAnchorSha256": "82a9b1674d7c099eff6ecba36e2acdfdd35be9a93c17a40e5ae2191bdda18fce",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-mertins2014-imac",
+      "C-mertins2016",
+      "C-wu"
+    ]
+  },
+  {
+    "id": "targeted-proteomics-and-loq::precision-vs-accuracy",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "Repeated agreement (precision) can coexist with systematic bias, so precision is not accuracy.",
+    "sourceAnchorSha256": "257c1e1199c5dd967daf47755e68a969643badaa3d9854b4822f24bd3157a7ec",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "primary or official text read",
+    "sourceClaimIds": [
+      "C-carr",
+      "C-hoofnagle",
+      "C-ich"
+    ]
+  },
+  {
+    "id": "analytical-validity-clinical-validity-and-utility::table-evidence",
+    "page": "analytical-validity-clinical-validity-and-utility",
+    "requirement": "Evidence table: measure, meaning and use each need their own evidence, with the tempting overread for each.",
+    "sourceAnchorSha256": "f5b29a6bd739cfabed2a8cf457a32038cc874c53bc6efc7f5422dc1a7320d374",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-fda-ctdna",
+      "C-medline-defs"
+    ]
+  },
+  {
+    "id": "binding-prediction::table-evidence",
+    "page": "binding-prediction",
+    "requirement": "Output table: predicted binding IC50 and percentile rank are read differently and neither establishes measured affinity, display, recognition or coverage.",
+    "sourceAnchorSha256": "fc8c202d246b8a10b0a08a6b06db601a224d3a92f49e480b8bb9d2dc19f9b69d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": [
+      "C-netmhc-rank"
+    ]
+  },
+  {
+    "id": "foundation-models::table-card",
+    "page": "foundation-models",
+    "requirement": "Model card: input and cost, training and adaptation, output and units, controls and thresholds, failure modes, validation tier.",
+    "sourceAnchorSha256": "ed0480473edee256ba3cd50b1467a11d976b2df2ce6c4a9df9a69e4cd7863991",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "model-validation-basics::table-card",
+    "page": "model-validation-basics",
+    "requirement": "Evaluation card: input and cost, output and units, rule and threshold, failure modes, validation tier.",
+    "sourceAnchorSha256": "971e8df93d60aa31a76596b1f5a7e3ea016be43befbf391abf0e74a5f7e2791b",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multi-omic-integration::table-card",
+    "page": "multi-omic-integration",
+    "requirement": "Integration card: measures, how, input and tissue cost, output and units, thresholds, failure modes, cannot establish alone, validation tier.",
+    "sourceAnchorSha256": "dbda52026a8014a7b015f9ecb62960860ebc36354827dcb5ea56e3beffd301b5",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "variant-effect-prediction::table-card",
+    "page": "variant-effect-prediction",
+    "requirement": "Model card: measures, how, input and tissue cost, output and units, thresholds, failure modes, cannot establish alone, validation tier.",
+    "sourceAnchorSha256": "ed0480473edee256ba3cd50b1467a11d976b2df2ce6c4a9df9a69e4cd7863991",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "virtual-cell-model::table-card",
+    "page": "virtual-cell-model",
+    "requirement": "Model card: input and tissue cost, output, version and scope, evaluation, failure modes, cannot establish alone.",
+    "sourceAnchorSha256": "ed0480473edee256ba3cd50b1467a11d976b2df2ce6c4a9df9a69e4cd7863991",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "cell-segmentation::table-card",
+    "page": "cell-segmentation",
+    "requirement": "Analysis card: input and tissue cost, output and units, controls, thresholds, failure modes, what it cannot tell you, validation context.",
+    "sourceAnchorSha256": "100f9d7b7a6f0ac68c6084c2463e395aedbed3ed2fb8b246a607597c1c51c61c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "imaging-mass-cytometry::table-card",
+    "page": "imaging-mass-cytometry",
+    "requirement": "Assay card: input and tissue cost, output and units, controls, thresholds, failure modes, what it cannot tell you, validation context.",
+    "sourceAnchorSha256": "100f9d7b7a6f0ac68c6084c2463e395aedbed3ed2fb8b246a607597c1c51c61c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "immunopeptidomics::table-card",
+    "page": "immunopeptidomics",
+    "requirement": "Measurement card: input, output and units, identification threshold, coverage, material and cost, validation, failure modes, limits.",
+    "sourceAnchorSha256": "3b9a19f5e42ffe87fe437d3bd95fea498802be7435fd56cc179ed0ce09e32d3d",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "mass-spectrometry-proteomics::table-card",
+    "page": "mass-spectrometry-proteomics",
+    "requirement": "Assay card: measures and method, input and tissue cost, output and units, thresholds, failure modes, limits, validation context.",
+    "sourceAnchorSha256": "ddcd4532b7724965dbc4a64cff0b2ccd3ac1d3145f818b697f6e050a6e9cbd26",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "multiplex-immunofluorescence::table-card",
+    "page": "multiplex-immunofluorescence",
+    "requirement": "Assay card: input and tissue cost, output and units, controls, thresholds, failure modes, what it cannot tell you, validation context.",
+    "sourceAnchorSha256": "100f9d7b7a6f0ac68c6084c2463e395aedbed3ed2fb8b246a607597c1c51c61c",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "phosphoproteomics::table-card",
+    "page": "phosphoproteomics",
+    "requirement": "Assay card: measures and method, input and tissue cost, output and units, thresholds, failure modes, limits, validation context.",
+    "sourceAnchorSha256": "ddcd4532b7724965dbc4a64cff0b2ccd3ac1d3145f818b697f6e050a6e9cbd26",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "rppa::table-card",
+    "page": "rppa",
+    "requirement": "Assay card: measures and how, input and tissue cost, output and units, thresholds, failure modes, limits, validation tier.",
+    "sourceAnchorSha256": "ddcd4532b7724965dbc4a64cff0b2ccd3ac1d3145f818b697f6e050a6e9cbd26",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "spatial-transcriptomics::table-card",
+    "page": "spatial-transcriptomics",
+    "requirement": "Assay card: measures and how, input and tissue cost, output and units, thresholds, failure modes, limits, validation tier.",
+    "sourceAnchorSha256": "ddcd4532b7724965dbc4a64cff0b2ccd3ac1d3145f818b697f6e050a6e9cbd26",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "Verified source observation or labelled reading inference; see claim cards",
+    "sourceClaimIds": []
+  },
+  {
+    "id": "targeted-proteomics-and-loq::table-card",
+    "page": "targeted-proteomics-and-loq",
+    "requirement": "Assay card: measures and how, input and tissue cost, output and units, thresholds, failure modes, limits, validation tier.",
+    "sourceAnchorSha256": "ddcd4532b7724965dbc4a64cff0b2ccd3ac1d3145f818b697f6e050a6e9cbd26",
+    "applicableVersions": [
+      "original",
+      "later"
+    ],
+    "status": "covered-draft",
+    "sourceEvidenceGrade": "OnCo teaching inference (no empirical claim)",
+    "sourceClaimIds": []
+  }
+]

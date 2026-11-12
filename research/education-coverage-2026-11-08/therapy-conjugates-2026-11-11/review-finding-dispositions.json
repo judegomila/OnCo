@@ -1,0 +1,352 @@
+{
+  "findings": [
+    {
+      "id": "F-ownership",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "The combined alkylating/antimetabolite overview explicitly distinguishes families; detailed fluoropyrimidine action, DPD and CREATE-X teaching is on fluorouracil and capecitabine. Ask comparisons support alias option A: class aliases stay on the combined overview, with 5-FU on the actual drug. No duplicate class record.",
+      "canonicalOwners": [
+        "alkylating-agent",
+        "fluorouracil",
+        "capecitabine"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-alias-vinca",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Vinca aliases moved to tubulin; the target and taxane text distinguish assembly/growth inhibition from stabilisation.",
+      "canonicalOwners": [
+        "alkylating-agent",
+        "tubulin",
+        "taxane"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-acrolein",
+      "severity": "major",
+      "disposition": "resolved-with-additional-source",
+      "explanation": "Brock 1979 raw abstract and targeted IARC toxicology supply the mechanistic link the label alone did not establish. The text attributes this and supplies no universal incidence.",
+      "canonicalOwners": [
+        "alkylating-agent"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-ovarian",
+      "severity": "major",
+      "disposition": "applied-qualified",
+      "explanation": "Current label risks and the defined POEMS motivation replace inevitable ovarian loss. No trial benefit is made a universal protection guarantee.",
+      "canonicalOwners": [
+        "alkylating-agent"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-cross-resistance",
+      "severity": "minor",
+      "disposition": "applied",
+      "explanation": "The records do not infer subsequent benefit or cross-resistance from TOP1/TOP2 names. The unsourced common-efflux comparison is omitted.",
+      "canonicalOwners": [
+        "anthracycline",
+        "topoisomerase-inhibitors"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-DPD",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Current complete/partial deficiency, immediate-treatment exception, no proven safe dose in complete deficiency and unavailable FDA-authorised test are explicit. Host handling and tumour response remain distinct.",
+      "canonicalOwners": [
+        "fluorouracil",
+        "capecitabine"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-fluorouracil-2024",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Unsupported 2024 label attribution removed; current label and dated FDA update identify the scope.",
+      "canonicalOwners": [
+        "fluorouracil"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-microtubule",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Named vinorelbine, vincristine, eribulin, MMAE and DM1 labels support their distinct mechanisms. Interphase effects and uncertainty replace a universal all-cells-die reading.",
+      "canonicalOwners": [
+        "taxane",
+        "tubulin"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-NCI-purpose",
+      "severity": "minor",
+      "disposition": "applied",
+      "explanation": "The NCI purposes include cure, recurrence reduction, slowing growth and symptom relief, with actual clinical setting and comparator required.",
+      "canonicalOwners": [
+        "chemotherapy-term",
+        "cytotoxic-chemotherapy"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-lung",
+      "severity": "major",
+      "disposition": "applied-qualified",
+      "explanation": "Warning structures are compared without a comparative lung-event frequency. Product and population denominators remain separate; no extra unverified incidence is adopted.",
+      "canonicalOwners": [
+        "topoisomerase-inhibitors"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-penetration-numbers",
+      "severity": "major",
+      "disposition": "applied-qualified",
+      "explanation": "Specified label masses replace a typical-drug ratio; one abstract-scoped 150-micrometre model observation, scoped patient pilots and the original oxygen geometry replace universal reach, bottleneck and superlative claims. Baker correction remains unread.",
+      "canonicalOwners": [
+        "antibody-tumor-penetration"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-TAK500",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Primary TAK-500 papers establish CCR2/dazostinag identity; registry fields support enrolment and stopping reason separately.",
+      "canonicalOwners": [
+        "immune-stimulating-adc"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-SBT6050",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "The older first-in-human status remains UNKNOWN, distinct from the terminated combination study.",
+      "canonicalOwners": [
+        "immune-stimulating-adc"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-ISAC-scope",
+      "severity": "minor",
+      "disposition": "applied",
+      "explanation": "Named laboratory activation, non-breast 18-person cohort, and activated dendritic-cell/CD8 findings are scoped. No family-wide safety or efficacy implication.",
+      "canonicalOwners": [
+        "immune-stimulating-adc"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-NGTOP1",
+      "severity": "minor",
+      "disposition": "applied",
+      "explanation": "Takegawa alternatives, Rampa payload factors, source-specific DXd identity and Weng traceless constructs remain distinct.",
+      "canonicalOwners": [
+        "topoisomerase-i-payloads",
+        "topoisomerase-inhibitors"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-SLFN11",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Zoppoli NCI-60 and silencing experiments span several DNA-damaging categories; a different class does not guarantee escape.",
+      "canonicalOwners": [
+        "topoisomerase-inhibitors",
+        "topoisomerase-i-payloads"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-caption-count",
+      "severity": "minor",
+      "disposition": "resolved-in-OnCo-teaching-guide-caption-open",
+      "explanation": "The record states five design questions plus biological cell-response context. No Guide diagram is copied; caption correction remains with its owner.",
+      "canonicalOwners": [
+        "topoisomerase-i-payloads"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-TR-sources",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "N-acetylcysteine poisoning evidence, OATP transport, released-species permeability, Ren preclinical scope and clinical delivery remain distinct; no universal standalone-use or bystander claim.",
+      "canonicalOwners": [
+        "transcription-inhibitor-payloads"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-retraction",
+      "severity": "minor",
+      "disposition": "applied",
+      "explanation": "Both retracted reports stay excluded, distinct from the three published correction notices.",
+      "canonicalOwners": [
+        "transcription-inhibitor-payloads"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-sponsor",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Dated sponsor 13/31 and 2/5 denominators, completed escalation and recruiting registries are separated from peer-reviewed benefit or confirmation.",
+      "canonicalOwners": [
+        "transcription-inhibitor-payloads"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-mermaid-dark",
+      "severity": "major",
+      "disposition": "guide-artwork-dependency",
+      "explanation": "All default/dark diagrams viewed. Four have pale inline fills with weak dark-theme contrast; no asset imported. Guide rendering/theme change remains an owner/product follow-up.",
+      "canonicalOwners": [],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-visual-penetration",
+      "severity": "minor",
+      "disposition": "resolved-in-OnCo-teaching-guide-artwork-open",
+      "explanation": "The parent explains conditional supply, capture, uptake and release without a binary first-binding rule or a universal vessel-wall bottleneck.",
+      "canonicalOwners": [
+        "antibody-tumor-penetration"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-visual-isac",
+      "severity": "minor",
+      "disposition": "resolved-in-OnCo-teaching-guide-artwork-open",
+      "explanation": "The field distinguishes delivery-antigen negativity from T-cell-recognised antigen and treats cross-priming as a claim needing functional evidence.",
+      "canonicalOwners": [
+        "immune-stimulating-adc"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-visual-taxane",
+      "severity": "minor",
+      "disposition": "qualified-teaching-guide-layout-open",
+      "explanation": "The reader calls symbols schematic, not an atomic binding site or clinical threshold. The crowded leader remains a Guide artwork issue.",
+      "canonicalOwners": [
+        "taxane"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-visual-anthracycline",
+      "severity": "minor",
+      "disposition": "qualified-teaching-guide-layout-open",
+      "explanation": "Reader text explains segment passage and enzyme-associated ends without using the ambiguous arrow as proof. Footer/arrow edits remain with the Guide.",
+      "canonicalOwners": [
+        "anthracycline"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-visual-other",
+      "severity": "note",
+      "disposition": "assessed-no-unique-teaching-loss",
+      "explanation": "All 14 theme files viewed whole. Reuse, omitted acrolein and the weekly/two-weekly fixed-window arithmetic are qualified in reader prose; no new dose-density or source-pixel claim.",
+      "canonicalOwners": [
+        "chemotherapy-term",
+        "dose-dense-chemotherapy",
+        "alkylating-agent",
+        "platinum",
+        "capecitabine"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-render-determinism",
+      "severity": "note",
+      "disposition": "retained-limit",
+      "explanation": "Source hashes identify pinned figures; render hashes identify a particular rendering run. No cross-run pixel identity is inferred.",
+      "canonicalOwners": [],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-dose-dense-duplication",
+      "severity": "minor",
+      "disposition": "applied",
+      "explanation": "Existing quantity and fixed-window notes remain on dose-dense-chemotherapy. Regimen keeps clinical trial evidence and actual scheduling context.",
+      "canonicalOwners": [
+        "dose-dense-chemotherapy",
+        "chemotherapy-regimen"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-anthracycline-shorthand",
+      "severity": "note",
+      "disposition": "applied",
+      "explanation": "Dated label cumulative-risk and AML/MDS figures retain their schedule and follow-up; deterministic lifetime cutoff removed.",
+      "canonicalOwners": [
+        "anthracycline"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-binding-site-barrier",
+      "severity": "note",
+      "disposition": "parent-applied-companion-relation-held",
+      "explanation": "Broad parent registered in draft 375; narrower companion remains in draft 371. Bidirectional related fields are held until the ids coexist.",
+      "canonicalOwners": [
+        "antibody-tumor-penetration"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-corrections-unread",
+      "severity": "minor",
+      "disposition": "source-access-dependency",
+      "explanation": "Baker correction DOI resolved but publisher text blocked; Citron erratum remains unidentified at DOI/text level. The corresponding numerical teaching requirements remain partial despite exact abstract-scoped text.",
+      "canonicalOwners": [
+        "antibody-tumor-penetration",
+        "chemotherapy-regimen"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-candidate-divergence",
+      "severity": "major",
+      "disposition": "applied",
+      "explanation": "Current canonical records were supplemented by AST record identity and exact field values; no divergent candidate diff or union of conflicting scalar objects was applied.",
+      "canonicalOwners": [
+        "chemotherapy-term",
+        "capecitabine",
+        "immune-stimulating-adc"
+      ],
+      "mainCredit": 0
+    },
+    {
+      "id": "F-patient-context",
+      "severity": "note",
+      "disposition": "excluded",
+      "explanation": "Personal-case pointers were excluded from signatures and public teaching artifacts. No private case prose or links are copied.",
+      "canonicalOwners": [],
+      "mainCredit": 0
+    }
+  ],
+  "counts": {
+    "total": 33,
+    "canonicalScientificOrOwnershipChanges": 22,
+    "externalGuideOrSourceDependenciesRetained": true
+  },
+  "independentAcceptance": "The prior independent objections were considered and re-checked. These dispositions are coordinator judgments, not a new independent, expert or learner acceptance."
+}

@@ -1,0 +1,47 @@
+{
+  "checkedOn": "2026-11-09",
+  "rootValidateEntities": 22730,
+  "sharedValidateEntities": 22719,
+  "rootTypecheck": "pass",
+  "sharedTypecheck": "pass",
+  "rootLint": "0 errors, 7 pre-existing warnings",
+  "sharedFocusedLint": "pass",
+  "rootFullSuite": {
+    "files": 284,
+    "passed": 2829,
+    "skipped": 2,
+    "seconds": 105.07
+  },
+  "sharedFullSuite": {
+    "files": 281,
+    "passed": 2813,
+    "skipped": 2,
+    "seconds": 94.25
+  },
+  "dedupe": {
+    "groups": 9,
+    "newGroups": 0,
+    "doiGroups": 0,
+    "pmidGroups": 0
+  },
+  "all49BodyPassages": "pass",
+  "actual126SummarySelectors": "pass",
+  "actualRootJsonAndMarkdown": {
+    "owners": 14,
+    "requirements": 39,
+    "pass": true
+  },
+  "sourceIntake": "28 MD hashes, 261 block dispositions, 30 figure entries/source blobs/render hashes and 39 fresh MED identities verified.",
+  "productionBuild": "Not rerun. The unchanged named GRAPH_JSON page export remains a documented baseline build limitation; no workaround or product change is bundled.",
+  "floorsBudgetsRankingExpectedEntities": "unchanged",
+  "auditTests": {
+    "files": 1,
+    "passed": 12,
+    "seconds": 0.123
+  },
+  "sourceClosures": {
+    "originalExit": 2,
+    "laterExit": 2,
+    "staleOrMissingProofs": 0
+  }
+}

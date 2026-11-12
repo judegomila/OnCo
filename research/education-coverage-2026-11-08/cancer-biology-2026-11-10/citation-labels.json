@@ -1,0 +1,232 @@
+[
+  {
+    "id": "angiogenesis",
+    "pmid": "10373119",
+    "label": "Holash et al., Vessel cooption, regression, and growth in tumors mediated by angiopoietins and VEGF. (1999)"
+  },
+  {
+    "id": "angiogenesis",
+    "pmid": "15172975",
+    "label": "Tong et al., Vascular normalization by vascular endothelial growth factor receptor 2 blockade induces a pressure gradient across the vasculature and improves drug penetration in tumors. (2004)"
+  },
+  {
+    "id": "angiogenesis",
+    "pmid": "15607960",
+    "label": "Winkler et al., Kinetics of vascular normalization by VEGFR2 blockade governs brain tumor response to radiation: role of oxygenation, angiopoietin-1, and matrix metalloproteinases. (2004)"
+  },
+  {
+    "id": "angiogenesis",
+    "pmid": "18160686",
+    "label": "Miller et al., Paclitaxel plus bevacizumab versus paclitaxel alone for metastatic breast cancer. (2007)"
+  },
+  {
+    "id": "cancer-associated-fibroblasts",
+    "pmid": "31980749",
+    "label": "Sahai et al., A framework for advancing our understanding of cancer-associated fibroblasts. (2020)"
+  },
+  {
+    "id": "cancer-associated-fibroblasts",
+    "pmid": "28232471",
+    "label": "Öhlund et al., Distinct populations of inflammatory fibroblasts and myofibroblasts in pancreatic cancer. (2017)"
+  },
+  {
+    "id": "cancer-associated-fibroblasts",
+    "pmid": "24856586",
+    "label": "Özdemir et al., Depletion of carcinoma-associated fibroblasts and fibrosis induces immunosuppression and accelerates pancreas cancer with reduced survival. (2014)"
+  },
+  {
+    "id": "cancer-associated-fibroblasts",
+    "pmid": "22293174",
+    "label": "Salmon et al., Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors. (2012)"
+  },
+  {
+    "id": "tumour-hypoxia",
+    "pmid": "7539918",
+    "label": "Wang et al., Hypoxia-inducible factor 1 is a basic-helix-loop-helix-PAS heterodimer regulated by cellular O2 tension. (1995)"
+  },
+  {
+    "id": "tumour-hypoxia",
+    "pmid": "11292861",
+    "label": "Jaakkola et al., Targeting of HIF-alpha to the von Hippel-Lindau ubiquitylation complex by O2-regulated prolyl hydroxylation. (2001)"
+  },
+  {
+    "id": "tumour-hypoxia",
+    "pmid": "22304911",
+    "label": "Semenza, Hypoxia-inducible factors in physiology and medicine. (2012)"
+  },
+  {
+    "id": "myeloid-derived-suppressor-cells",
+    "pmid": "27381735",
+    "label": "Bronte et al., Recommendations for myeloid-derived suppressor cell nomenclature and characterization standards. (2016)"
+  },
+  {
+    "id": "myeloid-derived-suppressor-cells",
+    "pmid": "28417112",
+    "label": "Condamine et al., Lectin-type oxidized LDL receptor-1 distinguishes population of human polymorphonuclear myeloid-derived suppressor cells in cancer patients. (2016)"
+  },
+  {
+    "id": "myeloid-derived-suppressor-cells",
+    "pmid": "29785656",
+    "label": "Bruger et al., How to measure the immunosuppressive activity of MDSC: assays, problems and potential solutions. (2019)"
+  },
+  {
+    "id": "tumor-microenvironment",
+    "pmid": "30193111",
+    "label": "Keren et al., A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging. (2018)"
+  },
+  {
+    "id": "tumor-microenvironment",
+    "pmid": "22293174",
+    "label": "Salmon et al., Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors. (2012)"
+  },
+  {
+    "id": "clonal-evolution",
+    "pmid": "959840",
+    "label": "Nowell, The clonal evolution of tumor cell populations. (1976)"
+  },
+  {
+    "id": "clonal-evolution",
+    "pmid": "22397650",
+    "label": "Gerlinger et al., Intratumor heterogeneity and branched evolution revealed by multiregion sequencing. (2012)"
+  },
+  {
+    "id": "clonal-evolution",
+    "pmid": "26780609",
+    "label": "Williams et al., Identification of neutral tumor evolution across cancer types. (2016)"
+  },
+  {
+    "id": "hallmarks-of-cancer",
+    "pmid": "21376230",
+    "label": "Hanahan et al., Hallmarks of cancer: the next generation. (2011)"
+  },
+  {
+    "id": "metastasis",
+    "pmid": "23728425",
+    "label": "Ghajar et al., The perivascular niche regulates breast tumour dormancy. (2013)"
+  },
+  {
+    "id": "metastasis",
+    "pmid": "17957189",
+    "label": "Aguirre-Ghiso, Models, mechanisms and clinical evidence for cancer dormancy. (2007)"
+  },
+  {
+    "id": "tumor-dormancy",
+    "pmid": "17957189",
+    "label": "Aguirre-Ghiso, Models, mechanisms and clinical evidence for cancer dormancy. (2007)"
+  },
+  {
+    "id": "tumor-dormancy",
+    "pmid": "23728425",
+    "label": "Ghajar et al., The perivascular niche regulates breast tumour dormancy. (2013)"
+  },
+  {
+    "id": "oncogene-addiction",
+    "pmid": "11287972",
+    "label": "Druker et al., Efficacy and safety of a specific inhibitor of the BCR-ABL tyrosine kinase in chronic myeloid leukemia. (2001)"
+  },
+  {
+    "id": "oncogene-addiction",
+    "pmid": "19269363",
+    "label": "Luo et al., Principles of cancer therapy: oncogene and non-oncogene addiction. (2009)"
+  },
+  {
+    "id": "oncogene-addiction",
+    "pmid": "15829967",
+    "label": "Farmer et al., Targeting the DNA repair defect in BRCA mutant cells as a therapeutic strategy. (2005)"
+  },
+  {
+    "id": "oncogene-addiction",
+    "pmid": "15829966",
+    "label": "Bryant et al., Specific killing of BRCA2-deficient tumours with inhibitors of poly(ADP-ribose) polymerase. (2005)"
+  },
+  {
+    "id": "oncogene",
+    "pmid": "3798106",
+    "label": "Slamon et al., Human breast cancer: correlation of relapse and survival with amplification of the HER-2/neu oncogene. (1987)"
+  },
+  {
+    "id": "oncogene",
+    "pmid": "11248153",
+    "label": "Slamon et al., Use of chemotherapy plus a monoclonal antibody against HER2 for metastatic breast cancer that overexpresses HER2. (2001)"
+  },
+  {
+    "id": "tumour-suppressor-gene",
+    "pmid": "5279523",
+    "label": "Knudson, Mutation and cancer: statistical study of retinoblastoma. (1971)"
+  },
+  {
+    "id": "tumour-suppressor-gene",
+    "pmid": "9823898",
+    "label": "Fero et al., The murine gene p27Kip1 is haplo-insufficient for tumour suppression. (1998)"
+  },
+  {
+    "id": "tumour-suppressor-gene",
+    "pmid": "31395785",
+    "label": "Boettcher et al., A dominant-negative effect drives selection of <i>TP53</i> missense mutations in myeloid malignancies. (2019)"
+  },
+  {
+    "id": "intra-tumour-heterogeneity",
+    "pmid": "22397650",
+    "label": "Gerlinger et al., Intratumor heterogeneity and branched evolution revealed by multiregion sequencing. (2012)"
+  },
+  {
+    "id": "intra-tumour-heterogeneity",
+    "pmid": "31327527",
+    "label": "Neftel et al., An Integrative Model of Cellular States, Plasticity, and Genetics for Glioblastoma. (2019)"
+  },
+  {
+    "id": "inducing-angiogenesis",
+    "pmid": "10373119",
+    "label": "Holash et al., Vessel cooption, regression, and growth in tumors mediated by angiopoietins and VEGF. (1999)"
+  },
+  {
+    "id": "inducing-angiogenesis",
+    "pmid": "21376230",
+    "label": "Hanahan et al., Hallmarks of cancer: the next generation. (2011)"
+  },
+  {
+    "id": "oncogene-activation-two-hit",
+    "pmid": "5279523",
+    "label": "Knudson, Mutation and cancer: statistical study of retinoblastoma. (1971)"
+  },
+  {
+    "id": "oncogene-activation-two-hit",
+    "pmid": "9823898",
+    "label": "Fero et al., The murine gene p27Kip1 is haplo-insufficient for tumour suppression. (1998)"
+  },
+  {
+    "id": "oncogene-activation-two-hit",
+    "pmid": "31395785",
+    "label": "Boettcher et al., A dominant-negative effect drives selection of <i>TP53</i> missense mutations in myeloid malignancies. (2019)"
+  },
+  {
+    "id": "caf-activation-desmoplasia",
+    "pmid": "19931152",
+    "label": "Levental et al., Matrix crosslinking forces tumor progression by enhancing integrin signaling. (2009)"
+  },
+  {
+    "id": "caf-activation-desmoplasia",
+    "pmid": "16169468",
+    "label": "Paszek et al., Tensional homeostasis and the malignant phenotype. (2005)"
+  },
+  {
+    "id": "clonal-evolution-theory",
+    "pmid": "959840",
+    "label": "Nowell, The clonal evolution of tumor cell populations. (1976)"
+  },
+  {
+    "id": "clonal-evolution-theory",
+    "pmid": "26780609",
+    "label": "Williams et al., Identification of neutral tumor evolution across cancer types. (2016)"
+  },
+  {
+    "id": "microenvironment-inflammation-theory",
+    "pmid": "30193111",
+    "label": "Keren et al., A Structured Tumor-Immune Microenvironment in Triple Negative Breast Cancer Revealed by Multiplexed Ion Beam Imaging. (2018)"
+  },
+  {
+    "id": "microenvironment-inflammation-theory",
+    "pmid": "22293174",
+    "label": "Salmon et al., Matrix architecture defines the preferential localization and migration of T cells into the stroma of human lung tumors. (2012)"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "id": "binding-site-barrier-related",
+      "status": "held-until-records-coexist",
+      "owner": "antibody-tumor-penetration and companion binding-site-barrier",
+      "dependency": "PR 371 and PR 375 integration; both directions require the two registered ids."
+    },
+    {
+      "id": "Guide-mermaid-dark-contrast",
+      "status": "Guide-owner-product-follow-up",
+      "owner": "Four antibody-lesson Mermaid diagrams",
+      "dependency": "Inline pale fills produce weak dark-theme contrast. These diagrams are not imported to OnCo."
+    },
+    {
+      "id": "Guide-caption-and-leader-annotations",
+      "status": "Guide-caption-artwork-follow-up",
+      "owner": "Taxane, anthracycline, penetration, ISAC and TOP1 design illustrations",
+      "dependency": "Source figure labels and geometry remain schematic; OnCo prose corrects the interpretation without rewriting the pins."
+    },
+    {
+      "id": "Baker-2008-correction",
+      "status": "source-access-open",
+      "owner": "antibody-tumor-penetration",
+      "dependency": "Publisher correction text remains blocked; numerical point kept partial."
+    },
+    {
+      "id": "Citron-2003-erratum",
+      "status": "source-identity-and-access-open",
+      "owner": "chemotherapy-regimen",
+      "dependency": "June 2003 erratum lacks resolved DOI/text; C9741 numerical point kept partial."
+    },
+    {
+      "id": "prior-platinum-source-route",
+      "status": "represented-in-current-draft",
+      "owner": "platinum",
+      "dependency": "The prior cell-process brief route is addressed by the source-scoped adduct-versus-break teaching and independently assessed figure paths here."
+    }
+  ],
+  "notAWorldLiteratureCensus": true
+}

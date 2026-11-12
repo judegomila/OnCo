@@ -1,0 +1,14 @@
+[
+  {
+    "id": "r1.copy-number-and-loh.ext-rna-inferred-cnloh",
+    "page": "copy-number-and-loh",
+    "status": "adjacent-queued",
+    "reason": "Not teaching on either pinned page; retained as a separate literature extension."
+  },
+  {
+    "id": "r1.bulk-vs-single-cell-vs-spatial-rna.later-delta-spatial-protein",
+    "page": "bulk-vs-single-cell-vs-spatial-rna",
+    "status": "routing-only",
+    "reason": "Later-only related-concept routing, not an additional scientific learning requirement."
+  }
+]

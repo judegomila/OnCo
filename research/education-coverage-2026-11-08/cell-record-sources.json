@@ -1,0 +1,406 @@
+[
+  {
+    "recordId": "car-t",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "related",
+      "drugs",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell"
+      },
+      {
+        "label": "Gross, Waks and Eshhar, the first chimeric antigen receptor (PNAS 1989)",
+        "url": "https://doi.org/10.1073/pnas.86.24.10024"
+      },
+      {
+        "label": "Sotillo et al., Cancer Discov 2015: acquired mutations and alternative splicing of CD19 enable resistance to CART-19",
+        "url": "https://doi.org/10.1158/2159-8290.CD-15-1020"
+      },
+      {
+        "label": "Deng et al., Nat Med 2020: single-cell features of the axicabtagene ciloleucel infusion product that track efficacy and toxicity in 24 patients",
+        "url": "https://doi.org/10.1038/s41591-020-1061-7"
+      },
+      {
+        "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      },
+      {
+        "label": "NCI: T-cell transfer therapy and harms",
+        "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+      },
+      {
+        "label": "Eshhar et al.: single-chain binding and signaling receptors (1993)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8421711/"
+      },
+      {
+        "label": "Hudecek et al.: spacer composition, Fc interactions and mouse-model activity (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25212991/"
+      },
+      {
+        "label": "Kawalekar et al.: costimulatory domains and human T-cell metabolism (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26885860/"
+      },
+      {
+        "label": "Ramos et al.: co-infused second- and third-generation constructs (2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30309819/"
+      },
+      {
+        "label": "Rafiq et al.: WT1 peptide-HLA-targeting CAR proof of concept (2017)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27924074/"
+      },
+      {
+        "label": "CAR signaling-domain library, pooled screening and single-cell analysis (2024 preprint)",
+        "url": "https://doi.org/10.1101/2024.02.26.582129"
+      },
+      {
+        "label": "FDA: approved cellular and gene therapy products",
+        "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/approved-cellular-and-gene-therapy-products"
+      },
+      {
+        "label": "FDA: elimination of REMS for named autologous CAR T-cell products (2025)",
+        "url": "https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antigen-receptor"
+      },
+      {
+        "label": "FDA: boxed-warning changes for T-cell malignancy risk (2024)",
+        "url": "https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-requires-boxed-warning-t-cell-malignancies-following-treatment-bcma-directed-or-cd19-directed"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "armored-car",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "aka",
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "related",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "ClinicalTrials.gov NCT03373097: GD2-CART01 (Bambino Gesù phase 1/2)",
+        "url": "https://clinicaltrials.gov/study/NCT03373097"
+      },
+      {
+        "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      },
+      {
+        "label": "Liu et al.: one cord-blood CAR-NK construct in lymphoid tumors (2020)",
+        "url": "https://doi.org/10.1056/NEJMoa1910607"
+      },
+      {
+        "label": "Chmielewski et al.: inducible IL-12 and macrophage recruitment in tumor models (2011)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/21742772/"
+      },
+      {
+        "label": "Chmielewski and Abken: TRUCK terminology and NFAT control (2012 review)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22274776/"
+      },
+      {
+        "label": "Narayan et al.: TGF-beta-insensitive PSMA CAR T-cell phase 1 study (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35314843/"
+      },
+      {
+        "label": "Zhang et al.: inducible IL-12 TIL study and systemic toxicity (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25695689/"
+      },
+      {
+        "label": "Chen et al.: endogenous-locus control of cytokine payloads in preclinical models (2025)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40604285/"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "logic-gated-therapeutics",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "related",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "ClinicalTrials.gov: logic-gated CAR T",
+        "url": "https://clinicaltrials.gov/search?term=logic%20gated%20CAR%20T"
+      },
+      {
+        "label": "Kloss et al.: balanced activation and costimulation in tumor models (2013)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23242161/"
+      },
+      {
+        "label": "Zah et al.: CD19/CD20 OR-like recognition in tumor models (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27059623/"
+      },
+      {
+        "label": "Zah et al.: experimental addendum on cell viability and OR-gate results (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27371639/"
+      },
+      {
+        "label": "Fedorov et al.: inhibitory CARs in defined experimental systems (2013)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24337479/"
+      },
+      {
+        "label": "Roybal et al.: sequential synNotch-CAR circuit and priming/decay tests (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26830879/"
+      },
+      {
+        "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "car-nk-macrophage",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "related",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "Liu et al., CAR-transduced natural killer cells in CD19-positive lymphoid tumours (NEJM 2020)",
+        "url": "https://doi.org/10.1056/NEJMoa1910607"
+      },
+      {
+        "label": "Klichinsky et al., Human chimeric antigen receptor macrophages for cancer immunotherapy (Nature Biotechnology 2020)",
+        "url": "https://doi.org/10.1038/s41587-020-0462-y"
+      },
+      {
+        "label": "Tang et al.: irradiated CD33-CAR NK-92 cells in an early AML study (2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30034945/"
+      },
+      {
+        "label": "Karre et al.: reduced self-MHC and rejection in mouse lymphoma models (1986)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3951539/"
+      },
+      {
+        "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "nk-cell-therapy",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "related",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Natural_killer_cell"
+      },
+      {
+        "label": "Liu et al.: one cord-blood CAR-NK construct in lymphoid tumors (2020)",
+        "url": "https://doi.org/10.1056/NEJMoa1910607"
+      },
+      {
+        "label": "Tang et al.: irradiated CD33-CAR NK-92 cells in an early AML study (2018)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30034945/"
+      },
+      {
+        "label": "Karre et al.: reduced self-MHC and rejection in mouse lymphoma models (1986)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3951539/"
+      },
+      {
+        "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "nk-cell",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "notes"
+    ],
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Natural_killer_cell"
+      },
+      {
+        "label": "Karre et al.: reduced self-MHC and rejection in mouse lymphoma models (1986)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3951539/"
+      },
+      {
+        "label": "Liu et al.: one cord-blood CAR-NK construct in lymphoid tumors (2020)",
+        "url": "https://doi.org/10.1056/NEJMoa1910607"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "in-vivo-car-t",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "related",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "Pfeiffer et al., In vivo generation of human CD19-CAR T cells results in B-cell depletion and signs of cytokine release syndrome (EMBO Molecular Medicine 2018)",
+        "url": "https://doi.org/10.15252/emmm.201809158"
+      },
+      {
+        "label": "Rurik et al.: targeted mRNA nanoparticles in a mouse cardiac-injury model (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34990237/"
+      },
+      {
+        "label": "ClinicalTrials.gov: INT2104 phase 1 oncology design, not an outcome report",
+        "url": "https://clinicaltrials.gov/study/NCT06539338"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "cellular-kinetics-and-persistence",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "aka",
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "tags",
+      "related",
+      "cancers",
+      "sections",
+      "technologies",
+      "targets",
+      "drugs",
+      "companies",
+      "institutions",
+      "pathways",
+      "terms",
+      "trials",
+      "people",
+      "bottlenecks",
+      "keyPapers",
+      "journals",
+      "dependsOn",
+      "notes",
+      "category"
+    ],
+    "sources": [
+      {
+        "label": "FDA: CAR T-cell product design, testing and clinical pharmacology guidance (2024)",
+        "url": "https://www.fda.gov/media/156896/download"
+      },
+      {
+        "label": "NCI: T-cell transfer therapy and harms",
+        "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+      },
+      {
+        "label": "Liu et al.: one cord-blood CAR-NK construct in lymphoid tumors (2020)",
+        "url": "https://doi.org/10.1056/NEJMoa1910607"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  },
+  {
+    "recordId": "endogenous-promoter-payload-control",
+    "state": "proposed in draft #375; not merged",
+    "changedFields": [
+      "id",
+      "kind",
+      "name",
+      "aka",
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "tags",
+      "related",
+      "cancers",
+      "sections",
+      "technologies",
+      "targets",
+      "drugs",
+      "companies",
+      "institutions",
+      "pathways",
+      "terms",
+      "trials",
+      "people",
+      "bottlenecks",
+      "keyPapers",
+      "journals",
+      "dependsOn",
+      "notes",
+      "category"
+    ],
+    "sources": [
+      {
+        "label": "Chen et al.: endogenous-locus control of cytokine payloads in preclinical models (2025)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40604285/"
+      },
+      {
+        "label": "Guo et al.: synthetic NR4A-responsive payload promoter in human-cell experiments (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35316028/"
+      },
+      {
+        "label": "Zhang et al.: inducible IL-12 TIL study and systemic toxicity (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25695689/"
+      }
+    ],
+    "scope": "The named design/measurement/interpretation claims and sourced corrections are reviewed; no independent expert sign-off or global program census is asserted."
+  }
+]

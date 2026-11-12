@@ -1,0 +1,243 @@
+{
+  "sourceAssetEntries": 20,
+  "distinctSVGs": 10,
+  "svgViews": [
+    {
+      "sha256": "e1710aeeee086cc84fedf60fb97f6f080376d8effde83353086a68699c018e21",
+      "gitBlob": "180d532a6e199f25ed00e58a9c3a808743996726",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "f6e36e1a06013698762564abc29f47330d339852471c7004db9b5d9570651675",
+      "renderedFile": "persistent-scar-and-current-repair-state-b10-v1-dark.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "persistent-scar-and-current-repair-state-b10-v1-dark.svg"
+    },
+    {
+      "sha256": "611c0b265f7c5dbf551cde365abf5fd611ca9efa8cdaba1d8f64adf7973f7b4b",
+      "gitBlob": "f03a7b353d00dcd38f1f9f7b7804140acced819d",
+      "width": 600,
+      "height": 1000,
+      "renderSha256": "820aae7d1ed45ebc7181c432f735690c745ab4032f8000379bcbc8fe3d52998e",
+      "renderedFile": "persistent-scar-and-current-repair-state-b10-v1-light.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "persistent-scar-and-current-repair-state-b10-v1-light.svg"
+    },
+    {
+      "sha256": "46afef295e6e1c3713f53707eacfa4cee5cbcbe8077cb92d297c7dc52cad46a9",
+      "gitBlob": "72179961283079d909b7070a53bec4ecf72d74f1",
+      "width": 600,
+      "height": 900,
+      "renderSha256": "547d2fe290b226521ead935860d509fe09a22a671b7d4ba9f1ca49098a0c8abd",
+      "renderedFile": "patient-event-denominators-and-clocks-v1-dark.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "patient-event-denominators-and-clocks-v1-dark.svg"
+    },
+    {
+      "sha256": "05d457569ada05885db0ea5687aaff7d1cfd2ede73acbd063a44905343529882",
+      "gitBlob": "31bfd92c0a9ceb348b5a826f0f0d8aa87531be12",
+      "width": 600,
+      "height": 900,
+      "renderSha256": "b020ca641cd000ecaa0f18f059f87efde1c23b452b583df312105b47aa78e109",
+      "renderedFile": "patient-event-denominators-and-clocks-v1-light.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "patient-event-denominators-and-clocks-v1-light.svg"
+    },
+    {
+      "sha256": "1b1d089961bd190ea2a30c77cc1b55a209eff220167da8476c3262c603c9e45a",
+      "gitBlob": "79da2bd20dc814ea1ab29d9307754f1f237134c9",
+      "width": 780,
+      "height": 1540,
+      "renderSha256": "a7e072b209d8f3f217fabf662b8f1fb68f78d68af1b6d151e8ac270dd59412a5",
+      "renderedFile": "oligo-histories-v1-dark.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "oligo-histories-v1-dark.svg"
+    },
+    {
+      "sha256": "2b2273ad0c1464f1bf61a5a2ec3af70bf0d7dab2cbbc405b2569f58fa1ed6bd8",
+      "gitBlob": "2db009885dc9d5f78b63d59b66ecad6e9a159254",
+      "width": 780,
+      "height": 1540,
+      "renderSha256": "a2ce65d73915b8cae26a79d147a6a71bc94cb6a7023023a6fe37d7755f7bd4e8",
+      "renderedFile": "oligo-histories-v1-light.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "oligo-histories-v1-light.svg"
+    },
+    {
+      "sha256": "44fdc39c2bf3b4efa5b5699d540185177a8f3db4ef5c3e4e9dcd7b8ad4582117",
+      "gitBlob": "4a2c7abc56e8034a948a479efa84e767ee75b85b",
+      "width": 780,
+      "height": 1510,
+      "renderSha256": "5b33f52b86acdff3549ef4a17f9313a7dc24af16036255b011294be6aefd0a88",
+      "renderedFile": "her2-membrane-patterns-v1-dark.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "her2-membrane-patterns-v1-dark.svg"
+    },
+    {
+      "sha256": "9428d0c93ca928b5f63652fa96b62a0df9a14a76e7f3488fdd72a42cbf74d966",
+      "gitBlob": "a3f064f2c3e821285b87750b46269956efe74d19",
+      "width": 780,
+      "height": 1510,
+      "renderSha256": "65fade198bb8ba9cc6fe3c31f44bbd5ed4ef19c73d976742897ca5f4f03aa096",
+      "renderedFile": "her2-membrane-patterns-v1-light.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "her2-membrane-patterns-v1-light.svg"
+    },
+    {
+      "sha256": "5d3cb0d35e7ccd7cd20ab997f960c079ea2b8c08b114e70038cb529114a70bc2",
+      "gitBlob": "55f7c1573747afc10075019c37c0d8689b77009c",
+      "width": 600,
+      "height": 1260,
+      "renderSha256": "3c1108053dcdedac59905476b3fc965c6a2844c3186a080e898d4708aa4d45aa",
+      "renderedFile": "sox10-nuclear-signal-attribution-v1-dark.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "sox10-nuclear-signal-attribution-v1-dark.svg"
+    },
+    {
+      "sha256": "1ffa617b83e640bd69da6c3f6ae9e71fe736931cbb676241becd5911c9ce8831",
+      "gitBlob": "1d4ee08f0edc07cc508e166cd8e1c4ef584baa6f",
+      "width": 600,
+      "height": 1260,
+      "renderSha256": "30bc2dd90cd8772bdc512ea0b49974d92c3d59399ebf2c42bb995937169d5d6f",
+      "renderedFile": "sox10-nuclear-signal-attribution-v1-light.svg.png",
+      "viewedFullExtent": true,
+      "renderer": "Chrome at the native viewBox; tool display can resize; no native-pixel approval",
+      "sourceFile": "sox10-nuclear-signal-attribution-v1-light.svg"
+    }
+  ],
+  "mermaidDiagrams": [
+    {
+      "sourceCodeSha256": "5ce1b5e71f322a934cabd9975545a76d43f2c4bc84e134dd05ecae9e9287dc0c",
+      "lessons": [
+        "estrogen-receptor.md"
+      ],
+      "views": [
+        {
+          "configuration": "default",
+          "renderSha256": "f4675bb966fdef5e863e48d64545aa75cbf6ba389ab1c72e267ddc93a332b5bd",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        },
+        {
+          "configuration": "dark",
+          "renderSha256": "c534927933e67a92fd4574741333cbf856114bc7b91336e6fd11bc0a81b7e37a",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        }
+      ]
+    },
+    {
+      "sourceCodeSha256": "0f67612a832cb01ad67ed0991dea226bc66a52f32a495e3331ac318d4a23b9e1",
+      "lessons": [
+        "her2.md"
+      ],
+      "views": [
+        {
+          "configuration": "default",
+          "renderSha256": "3f24520d36da9180c8f65bd207275127cefe37bd367945ff7e8a608235942c58",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        },
+        {
+          "configuration": "dark",
+          "renderSha256": "7d06536f31c241e0c7df079b01e9c000cc084efc1a34bfd9d8b34ef57174f533",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        }
+      ]
+    },
+    {
+      "sourceCodeSha256": "ff912af5340b1e896abb7c9c729c424f9b8d8ec10ae7a5da2831f50969f0fc9f",
+      "lessons": [
+        "progesterone-receptor.md"
+      ],
+      "views": [
+        {
+          "configuration": "default",
+          "renderSha256": "aa13b9e1da4937eef5a713a93cf36096dcc571d59b6f65389588a2e585dffdd9",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        },
+        {
+          "configuration": "dark",
+          "renderSha256": "a15e7f13729d63b5d274d4a4ea8a01f9a6be30ffa39f36c9a035d661671b3366",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        }
+      ]
+    },
+    {
+      "sourceCodeSha256": "b49a4bd2a645c947d1319af4de45dd20dd1887c562b2468279787821a094af3e",
+      "lessons": [
+        "sox10-and-basal-markers.md"
+      ],
+      "views": [
+        {
+          "configuration": "default",
+          "renderSha256": "5ad544253d5b04700f91a9805ecc8dedbe58ce3500779b46e1a9435dbb784296",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        },
+        {
+          "configuration": "dark",
+          "renderSha256": "82866229a584156718df41dfe65a70b1de18ea1cb3c18269e56942572cd8eba5",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        }
+      ]
+    },
+    {
+      "sourceCodeSha256": "0bcb524b91086977997886304cae740d7b553d67da09b6a4ef1bdaaa7be8fca1",
+      "lessons": [
+        "tnbc-recurrence-timing-and-sites.md"
+      ],
+      "views": [
+        {
+          "configuration": "default",
+          "renderSha256": "5786c118236dacf72895757bf7884ae547b8a8e55602b8884b1a46c72e654173",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        },
+        {
+          "configuration": "dark",
+          "renderSha256": "fdfce074c330943e654a55cd0ad6e82f174460d95b19c579182fde0debebcaa1",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        }
+      ]
+    },
+    {
+      "sourceCodeSha256": "eea76b59584ee52f438a72b8cd7de018f8be198e9622dd6451bf5c4fd964991b",
+      "lessons": [
+        "tnbc.md"
+      ],
+      "views": [
+        {
+          "configuration": "default",
+          "renderSha256": "a5c0496af4082bfb84fad5e06989e397b32ae006646dc76851daee038586d3d5",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        },
+        {
+          "configuration": "dark",
+          "renderSha256": "8676147df6ce43539f718b2a1ba34adbb49837542b31bf14e777562c1cc3eac4",
+          "viewedFullExtent": true,
+          "sourceChanged": false
+        }
+      ]
+    }
+  ],
+  "scope": "Fresh whole-extent source-art review; no Guide browser, accessibility, expert or owner approval. Native Mermaid screenshots were used, before the helper added its optional edge CSS.",
+  "defectsRetained": [
+    "HER2 dark cytoplasm versus membrane-stain colour legend ambiguity",
+    "Oligometastatic symbolic cluster/label crowding in both themes"
+  ]
+}

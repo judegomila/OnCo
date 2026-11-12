@@ -1,0 +1,983 @@
+{
+  "entries": [
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-dark.svg",
+      "gitBlob": "8afe084ec58a77a605a7f910e198cf97a64b7d0d",
+      "sourceSha256": "bf5de144dd9928dabcd30509b34385a3246e4539920fe49da2d2cf7e46e03faf",
+      "renderSha256": "c57d0cadc42e039d7534771fccf5f89191734a6292f50ab0d54db9b24296e837",
+      "lesson": "tcr-sequencing",
+      "requirements": [
+        "tcr-sequencing:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small nucleus faces inside cell discs are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-light.svg",
+      "gitBlob": "b25b24ab965716b9874667cecad7521ad40c131f",
+      "sourceSha256": "d84fc5fcef1e11cbb962761ef64c16522571843b81a44d1c53bf70edf61c11d2",
+      "renderSha256": "e00b640b2b4bd708a698f28a7c107fc9753c28d4bf6557f4d22bf52e8625e14c",
+      "lesson": "tcr-sequencing",
+      "requirements": [
+        "tcr-sequencing:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small nucleus faces inside cell discs are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+      "gitBlob": "f77b0ce096e89756bff9a64df62312c6786c7177",
+      "sourceSha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c",
+      "renderSha256": "e6925866c2a767dd0f71578d79cb4c60c179c2161fdb4389bd52c448a8fceb3f",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirements": [
+        "peripheral-blood-mononuclear-cells:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+      "gitBlob": "e7181498263cbac43baab4fb1836cdc6f58e5072",
+      "sourceSha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb",
+      "renderSha256": "3cd0c6d33f7bf8ef857c5d19792bcac4db2d1645df149ca93d31038a63505375",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirements": [
+        "peripheral-blood-mononuclear-cells:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-dark.svg",
+      "gitBlob": "d0ddcd9bdd9d8fa85313674f80fbc5ed25ef6222",
+      "sourceSha256": "7273252fa7f3c0bdd4a0bda3eb6e4a31dd5924e6cf22ab409a782ea2f305f782",
+      "renderSha256": "77b5700583986e1f607c4658460257c19f2e070e2e65b1eb53365b31452af0be",
+      "lesson": "flow-cytometry",
+      "requirements": [
+        "flow-cytometry:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small recorded-event cell glyphs in the first panel are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-light.svg",
+      "gitBlob": "3c55d3d88171749e293a2886f5260dd482ddc267",
+      "sourceSha256": "e93249a9cfd6f0357420c88d01b519050a0a7826485e2508ce70d7df88ee0715",
+      "renderSha256": "a40ec13dc0c8a5700148524921b8367864e4f8d17376d56658ae9438e4d477ed",
+      "lesson": "flow-cytometry",
+      "requirements": [
+        "flow-cytometry:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small recorded-event cell glyphs in the first panel are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+      "gitBlob": "a7702d8702108ac130b787cf3ac54bf8da67db68",
+      "sourceSha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc",
+      "renderSha256": "037b4ce0fa686b3fcb97ac327bb91a181d626d70fec73580546c25dd2d93f6bf",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirements": [
+        "peptide-hla-multimer-staining:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+      "gitBlob": "f51a2390320d70e21279010ca2b4ac9feb46f03b",
+      "sourceSha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b",
+      "renderSha256": "b0158b0609fe924a3b9cf359ca894f603d0e8be9c05dcc98e3e7dbde89039531",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirements": [
+        "peptide-hla-multimer-staining:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-dark.svg",
+      "gitBlob": "7179dc69f1ff3f3a35409946d8a89eb3a850b15c",
+      "sourceSha256": "e05b10d8ee4c5d549b8301b8aa3e8d0ee09003533f19dcf18d202b17b1745d97",
+      "renderSha256": "2557d95b16aa92af9c7673124759fcce01c87d11522d14f197c0befbd7b6df7c",
+      "lesson": "intracellular-cytokine-staining",
+      "requirements": [
+        "intracellular-cytokine-staining:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Stain rule is assay-specific' reaches the right edge of its panel in both themes.",
+        "'Cytokines retained inside' touches the cell outline in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-light.svg",
+      "gitBlob": "bb96acca5edec96a41da5ef67c7c0423b1904e8a",
+      "sourceSha256": "2b47cc45d083b6352d08e68c518e7758366d909a3af09088f4835eff9893ec72",
+      "renderSha256": "52cacd2c5a8206b896f83a72e4b2219d21cd575c92ca4ceda53a11c9d01c806b",
+      "lesson": "intracellular-cytokine-staining",
+      "requirements": [
+        "intracellular-cytokine-staining:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Stain rule is assay-specific' reaches the right edge of its panel in both themes.",
+        "'Cytokines retained inside' touches the cell outline in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+      "gitBlob": "3e559a1483ebdbb283fb6894f89f1d10831f371e",
+      "sourceSha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a",
+      "renderSha256": "bd628dae5e8c85d40072d04f45cc1d5dc92160e3167fdb8b55a10a64193c95b3",
+      "lesson": "tcr-clonality-metrics",
+      "requirements": [
+        "tcr-clonality-metrics:r4",
+        "tcr-clonality-metrics:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+      "gitBlob": "b0198ae0f313fa607840458dfaad5b0c59062e24",
+      "sourceSha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb",
+      "renderSha256": "5af6ff399bf0b958ec5e192301067918ff31cc3d98e563cf044e3baa54fcc092",
+      "lesson": "tcr-clonality-metrics",
+      "requirements": [
+        "tcr-clonality-metrics:r4",
+        "tcr-clonality-metrics:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-dark.svg",
+      "gitBlob": "74571a7e641c889d345e43bf5763407f0a0e7bd6",
+      "sourceSha256": "b03024677b75c00fa8fc8f879f2413a23bce1b14332c7d46b33dffbf765c5bf7",
+      "renderSha256": "acfd2fe451d476ff39a4fc4856aa26c9a77fc664120eb61ca2ea37ca01d69fff",
+      "lesson": "elispot",
+      "requirements": [
+        "elispot:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-light.svg",
+      "gitBlob": "0c5a90a26529385e3278af8d7b7381c14495aad7",
+      "sourceSha256": "330cd03622856c79dd5ba3742f154e04090cd028cc60e8d67c9361da40e22f5b",
+      "renderSha256": "7fb643a5eb4a032f4955b8739a403853b42e2dfd8c27e4482c2646f4b38b8e82",
+      "lesson": "elispot",
+      "requirements": [
+        "elispot:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-dark.svg",
+      "gitBlob": "fbf07337e96ed5f4061ab3ff0dabf602eb9e023f",
+      "sourceSha256": "942c39b61ae28fc17c69f7327b101557e8a51811f86196ea2675c029b43fe1af",
+      "renderSha256": "72417ac4fef4dc4fa80845cad712e2c8b872b53999622af45d9b4964b86a9407",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirements": [
+        "functional-cytotoxicity-assays:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "30% and 40% bar-end labels touch the bar edges in both themes.",
+        "The effector glyph overlaps the words 'target denominator' in the second panel in both themes.",
+        "Dark theme: the X marks that distinguish dead targets are low contrast, so dead and alive rely on pink fill."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-light.svg",
+      "gitBlob": "2f06060ca6d82387a2fedc10127a141af8219f10",
+      "sourceSha256": "b47b6b2add5fad6a9aaef4255ed4939ebe24cf9fc7850214c1159296e489d8e3",
+      "renderSha256": "dcc9d1d79161f82c9d660f82cd3b9e7e5db582f641fd758176b4ee493426bf87",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirements": [
+        "functional-cytotoxicity-assays:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "30% and 40% bar-end labels touch the bar edges in both themes.",
+        "The effector glyph overlaps the words 'target denominator' in the second panel in both themes.",
+        "Dark theme: the X marks that distinguish dead targets are low contrast, so dead and alive rely on pink fill."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/average-one-can-be-zero-v1-dark.svg",
+      "gitBlob": "30cb42f2b008db634db3f350795731791196e7af",
+      "sourceSha256": "470a25338034c9b1b025a163ee7b21ca9a3d988c1215b3c4947599059cc5f568",
+      "renderSha256": "5218ddcb0246a41665b5b4c58c0f2a4ccfe0fdf4f2d97ff8c244e62c79222f29",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirements": [
+        "limit-of-detection-and-sampling:r1"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/average-one-can-be-zero-v1-light.svg",
+      "gitBlob": "62b271d08d2413b8c85767bea5bb471f4d1b1fdd",
+      "sourceSha256": "bcc3153324c63be1e78f6117352b686016bd993e1dffd4c1f262d9c55e0f11db",
+      "renderSha256": "871c68c1656c884184a494425612b7b12370a7f92ea1e236fc3c3cf6f0b80bb4",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirements": [
+        "limit-of-detection-and-sampling:r1"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+      "gitBlob": "8db7d24dfd5dce95443372a6cd3ea7ec5468fa33",
+      "sourceSha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2",
+      "renderSha256": "8bcb6b37256364c7d856ad20e0cb3ba69c38391629ff0f7204bc4eb7b936b5b4",
+      "lesson": "cfdna-vs-ctdna",
+      "requirements": [
+        "cfdna-vs-ctdna:r12"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+      "gitBlob": "3dccacc26fbf85b54546a23e5e71e9ca27a59525",
+      "sourceSha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e",
+      "renderSha256": "840ee1583da608d45d8c4c3a4d3df28b7f3006a6a24bacac296d6e6b1e1594f0",
+      "lesson": "cfdna-vs-ctdna",
+      "requirements": [
+        "cfdna-vs-ctdna:r12"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-dark.svg",
+      "gitBlob": "e974ba56dc425ccb745c6b62f836365c678fbaad",
+      "sourceSha256": "e62d1cfe8faa81f5ca6c63e4df34d44fef8e88e35fc50a073346e3777cd1b86f",
+      "renderSha256": "999870fdb5b0770e7b964e633de28c29e8bae11ddcbe0af34d891b69df5261d4",
+      "lesson": "ctdna-units",
+      "requirements": [
+        "ctdna-units:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-light.svg",
+      "gitBlob": "3ecffa6368d97b272a2afaeda37067454d6f4e5a",
+      "sourceSha256": "a7b5799fbac716f8d1b4b3d527a9683deb7c0df81c580ff601e9b0ec652868d3",
+      "renderSha256": "4a166c7923b6c5d5f05a8450cb26fe39cd47804ce9dd49c7d3921693dc6490c0",
+      "lesson": "ctdna-units",
+      "requirements": [
+        "ctdna-units:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/marker-recovery-and-free-dna-v1-dark.svg",
+      "gitBlob": "cd07518dda8f2e10a82a4a55362a6817ec26cc23",
+      "sourceSha256": "301b6ce303143f7c99a5365ab265b1581671a74ac7254d3801a0f2c640f71cb5",
+      "renderSha256": "983b267a558e5819f72319518a17372bf2377a64c1db08e6e85e490dd27f468b",
+      "lesson": "circulating-tumor-cells",
+      "requirements": [
+        "circulating-tumor-cells:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Qualifying cells counted' runs past the bottom edge of the Recovered panel in both themes.",
+        "'Cells + DNA' label is overlapped by the DNA glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/marker-recovery-and-free-dna-v1-light.svg",
+      "gitBlob": "bf66d5b2da4c9bc7f437fd7e7ba85990da7e4101",
+      "sourceSha256": "c42d47c91ac3834c5d8a8e2d5ff881517faa2ec81316306bf3cd36e4c1fd5ff3",
+      "renderSha256": "0565055781b43784b2923e3c390f7b1e6b347869674bec32ca6d8ab33ded9276",
+      "lesson": "circulating-tumor-cells",
+      "requirements": [
+        "circulating-tumor-cells:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Qualifying cells counted' runs past the bottom edge of the Recovered panel in both themes.",
+        "'Cells + DNA' label is overlapped by the DNA glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-dark.svg",
+      "gitBlob": "968b336236ae7296d1c3381bc5bad628eca2c597",
+      "sourceSha256": "f0c307688caa2e7a08594d5fc7b7e89f78039a1bd4514c5791d1bcd1cd7e3a63",
+      "renderSha256": "659fc2f32f58e35bbe2d322f3f31b2f67f7f8201c819a429fd588400ee8b9d7a",
+      "lesson": "fragmentomics-and-methylation",
+      "requirements": [
+        "fragmentomics-and-methylation:r7"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-light.svg",
+      "gitBlob": "ca5ce3e4a0c483a1759945ee01b0a9a8a7c6d07a",
+      "sourceSha256": "6cc7add0c6a71455992b699f9339bc93916da1ac4785d67ec97accf50152bb12",
+      "renderSha256": "d58d598445fcb2eb6c7928a3bb8feb68cf7b3e595b79012894a7a52480978e8f",
+      "lesson": "fragmentomics-and-methylation",
+      "requirements": [
+        "fragmentomics-and-methylation:r7"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+      "gitBlob": "0345a1142d8ed2edc9accd8a7be49c279615a268",
+      "sourceSha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f",
+      "renderSha256": "01be3ede230c4474f49f670fa163bdbe844e960cd961bf7837d3473ff4a9e18d",
+      "lesson": "chip",
+      "requirements": [
+        "chip:r7",
+        "chip:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Panel 1 labels 'blood' and 'tumor' are struck through by the inner nucleus circle glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+      "gitBlob": "d9632b046002479b4ad7d23387f3418f128db642",
+      "sourceSha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611",
+      "renderSha256": "63ce5d8c1a11b66bc0d252951ee08965ccbc2203c9903e789ef1dcb9d4f5a1c7",
+      "lesson": "chip",
+      "requirements": [
+        "chip:r7",
+        "chip:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Panel 1 labels 'blood' and 'tumor' are struck through by the inner nucleus circle glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/six-person-sampling-timelines-v1-dark.svg",
+      "gitBlob": "893710fb2a50d11d72ba17669d3c8491e252e1c8",
+      "sourceSha256": "2de566fd94946baa908d8390a91376aebd5ae3f641f02d3f6bb143ed0df46256",
+      "renderSha256": "6aa8f3d85aa653f65d7f2fcef09b7761b076ff8b6555f0f1e70585de8dc2b6a1",
+      "lesson": "lead-time",
+      "requirements": [
+        "lead-time:r6"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/six-person-sampling-timelines-v1-light.svg",
+      "gitBlob": "00df5c6b36af390f60366f6a6ac9b763dfa5dc0c",
+      "sourceSha256": "7dc07b220d957b712bba861a371a2b7ade52a36329140e2f32500db95dc33cfb",
+      "renderSha256": "794dfeea043974a79d95a9ab72d048c98b6a8a9c488f84cc0a9b98c51673ecf9",
+      "lesson": "lead-time",
+      "requirements": [
+        "lead-time:r6"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+      "gitBlob": "a4e1cd2477fed8573df378c79c7eb5e8ec0a375e",
+      "sourceSha256": "100ca2f85b9f167b8cd7ea06da15e026f3eb7a743b81297695269c502e19f887",
+      "renderSha256": "d79e0954f14be2ab696b72aa54a2294be10198998be76a4f34e4e7c282c8fa6e",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirements": [
+        "tumor-informed-vs-tumor-naive-mrd-assays:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the tumour-naive DNA glyph outline is low contrast against the card."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "7510db6b",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+      "gitBlob": "544c605675ab62c58b5f9d014bb7cef86ae55429",
+      "sourceSha256": "7adaff7cd17be861a34024f410668585a6830dd3766bc210aad912dc5c6a5c5e",
+      "renderSha256": "b436cd320e1a7583e5381cd479d7999fae083e97b7cb4aefa61382a384b31af4",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirements": [
+        "tumor-informed-vs-tumor-naive-mrd-assays:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the tumour-naive DNA glyph outline is low contrast against the card."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-dark.svg",
+      "gitBlob": "8afe084ec58a77a605a7f910e198cf97a64b7d0d",
+      "sourceSha256": "bf5de144dd9928dabcd30509b34385a3246e4539920fe49da2d2cf7e46e03faf",
+      "renderSha256": "c57d0cadc42e039d7534771fccf5f89191734a6292f50ab0d54db9b24296e837",
+      "lesson": "tcr-sequencing",
+      "requirements": [
+        "tcr-sequencing:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small nucleus faces inside cell discs are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/bulk-chain-and-paired-cell-identities-v1-light.svg",
+      "gitBlob": "b25b24ab965716b9874667cecad7521ad40c131f",
+      "sourceSha256": "d84fc5fcef1e11cbb962761ef64c16522571843b81a44d1c53bf70edf61c11d2",
+      "renderSha256": "e00b640b2b4bd708a698f28a7c107fc9753c28d4bf6557f4d22bf52e8625e14c",
+      "lesson": "tcr-sequencing",
+      "requirements": [
+        "tcr-sequencing:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small nucleus faces inside cell discs are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-dark.svg",
+      "gitBlob": "f77b0ce096e89756bff9a64df62312c6786c7177",
+      "sourceSha256": "c65f885a63118078557fd24029a6275d8ca92b883f89cc5a0186f1fb5ce0600c",
+      "renderSha256": "e6925866c2a767dd0f71578d79cb4c60c179c2161fdb4389bd52c448a8fceb3f",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirements": [
+        "peripheral-blood-mononuclear-cells:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/density-interface-and-recovered-blood-fraction-v1-light.svg",
+      "gitBlob": "e7181498263cbac43baab4fb1836cdc6f58e5072",
+      "sourceSha256": "054d9602c21a349279af2e16f72c8df587bcab725a94e44f02e9feb7d93ceefb",
+      "renderSha256": "3cd0c6d33f7bf8ef857c5d19792bcac4db2d1645df149ca93d31038a63505375",
+      "lesson": "peripheral-blood-mononuclear-cells",
+      "requirements": [
+        "peripheral-blood-mononuclear-cells:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-dark.svg",
+      "gitBlob": "d0ddcd9bdd9d8fa85313674f80fbc5ed25ef6222",
+      "sourceSha256": "7273252fa7f3c0bdd4a0bda3eb6e4a31dd5924e6cf22ab409a782ea2f305f782",
+      "renderSha256": "77b5700583986e1f607c4658460257c19f2e070e2e65b1eb53365b31452af0be",
+      "lesson": "flow-cytometry",
+      "requirements": [
+        "flow-cytometry:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small recorded-event cell glyphs in the first panel are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/nested-flow-gates-and-parent-denominators-v1-light.svg",
+      "gitBlob": "3c55d3d88171749e293a2886f5260dd482ddc267",
+      "sourceSha256": "e93249a9cfd6f0357420c88d01b519050a0a7826485e2508ce70d7df88ee0715",
+      "renderSha256": "a40ec13dc0c8a5700148524921b8367864e4f8d17376d56658ae9438e4d477ed",
+      "lesson": "flow-cytometry",
+      "requirements": [
+        "flow-cytometry:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the small recorded-event cell glyphs in the first panel are low contrast."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-dark.svg",
+      "gitBlob": "a7702d8702108ac130b787cf3ac54bf8da67db68",
+      "sourceSha256": "32b32bd4f286557a7dd615a5f1f29a561f04bc7e7e70c9d7ecd9718dc292b3cc",
+      "renderSha256": "037b4ce0fa686b3fcb97ac327bb91a181d626d70fec73580546c25dd2d93f6bf",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirements": [
+        "peptide-hla-multimer-staining:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/peptide-hla-multimer-and-cell-receptor-v1-light.svg",
+      "gitBlob": "f51a2390320d70e21279010ca2b4ac9feb46f03b",
+      "sourceSha256": "e575ff4f070ee072862327ae2fcc880124179b0d920b01fda1202368a990126b",
+      "renderSha256": "b0158b0609fe924a3b9cf359ca894f603d0e8be9c05dcc98e3e7dbde89039531",
+      "lesson": "peptide-hla-multimer-staining",
+      "requirements": [
+        "peptide-hla-multimer-staining:r3"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-dark.svg",
+      "gitBlob": "7179dc69f1ff3f3a35409946d8a89eb3a850b15c",
+      "sourceSha256": "e05b10d8ee4c5d549b8301b8aa3e8d0ee09003533f19dcf18d202b17b1745d97",
+      "renderSha256": "2557d95b16aa92af9c7673124759fcce01c87d11522d14f197c0befbd7b6df7c",
+      "lesson": "intracellular-cytokine-staining",
+      "requirements": [
+        "intracellular-cytokine-staining:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Stain rule is assay-specific' reaches the right edge of its panel in both themes.",
+        "'Cytokines retained inside' touches the cell outline in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/retained-cytokines-stimulus-and-analysis-gate-v1-light.svg",
+      "gitBlob": "bb96acca5edec96a41da5ef67c7c0423b1904e8a",
+      "sourceSha256": "2b47cc45d083b6352d08e68c518e7758366d909a3af09088f4835eff9893ec72",
+      "renderSha256": "52cacd2c5a8206b896f83a72e4b2219d21cd575c92ca4ceda53a11c9d01c806b",
+      "lesson": "intracellular-cytokine-staining",
+      "requirements": [
+        "intracellular-cytokine-staining:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Stain rule is assay-specific' reaches the right edge of its panel in both themes.",
+        "'Cytokines retained inside' touches the cell outline in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-dark.svg",
+      "gitBlob": "3e559a1483ebdbb283fb6894f89f1d10831f371e",
+      "sourceSha256": "01f19a7f61a64a36e74493b482b131a462c36582ff427bf3e27fbb7d1cb8187a",
+      "renderSha256": "bd628dae5e8c85d40072d04f45cc1d5dc92160e3167fdb8b55a10a64193c95b3",
+      "lesson": "tcr-clonality-metrics",
+      "requirements": [
+        "tcr-clonality-metrics:r4",
+        "tcr-clonality-metrics:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/richness-evenness-and-relative-enrichment-v1-light.svg",
+      "gitBlob": "b0198ae0f313fa607840458dfaad5b0c59062e24",
+      "sourceSha256": "99bea761894ccc2d308faf0cb21bbbfc42ab32f93a531ab358870f266e8600bb",
+      "renderSha256": "5af6ff399bf0b958ec5e192301067918ff31cc3d98e563cf044e3baa54fcc092",
+      "lesson": "tcr-clonality-metrics",
+      "requirements": [
+        "tcr-clonality-metrics:r4",
+        "tcr-clonality-metrics:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-dark.svg",
+      "gitBlob": "74571a7e641c889d345e43bf5763407f0a0e7bd6",
+      "sourceSha256": "b03024677b75c00fa8fc8f879f2413a23bce1b14332c7d46b33dffbf765c5bf7",
+      "renderSha256": "acfd2fe451d476ff39a4fc4856aa26c9a77fc664120eb61ca2ea37ca01d69fff",
+      "lesson": "elispot",
+      "requirements": [
+        "elispot:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/secretion-membrane-spots-and-controls-v1-light.svg",
+      "gitBlob": "0c5a90a26529385e3278af8d7b7381c14495aad7",
+      "sourceSha256": "330cd03622856c79dd5ba3742f154e04090cd028cc60e8d67c9361da40e22f5b",
+      "renderSha256": "7fb643a5eb4a032f4955b8739a403853b42e2dfd8c27e4482c2646f4b38b8e82",
+      "lesson": "elispot",
+      "requirements": [
+        "elispot:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-dark.svg",
+      "gitBlob": "fbf07337e96ed5f4061ab3ff0dabf602eb9e023f",
+      "sourceSha256": "942c39b61ae28fc17c69f7327b101557e8a51811f86196ea2675c029b43fe1af",
+      "renderSha256": "72417ac4fef4dc4fa80845cad712e2c8b872b53999622af45d9b4964b86a9407",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirements": [
+        "functional-cytotoxicity-assays:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "30% and 40% bar-end labels touch the bar edges in both themes.",
+        "The effector glyph overlaps the words 'target denominator' in the second panel in both themes.",
+        "Dark theme: the X marks that distinguish dead targets are low contrast, so dead and alive rely on pink fill."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/immune-monitoring/images/target-death-controls-and-associated-excess-v1-light.svg",
+      "gitBlob": "2f06060ca6d82387a2fedc10127a141af8219f10",
+      "sourceSha256": "b47b6b2add5fad6a9aaef4255ed4939ebe24cf9fc7850214c1159296e489d8e3",
+      "renderSha256": "dcc9d1d79161f82c9d660f82cd3b9e7e5db582f641fd758176b4ee493426bf87",
+      "lesson": "functional-cytotoxicity-assays",
+      "requirements": [
+        "functional-cytotoxicity-assays:r5"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "30% and 40% bar-end labels touch the bar edges in both themes.",
+        "The effector glyph overlaps the words 'target denominator' in the second panel in both themes.",
+        "Dark theme: the X marks that distinguish dead targets are low contrast, so dead and alive rely on pink fill."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/average-one-can-be-zero-v1-dark.svg",
+      "gitBlob": "30cb42f2b008db634db3f350795731791196e7af",
+      "sourceSha256": "470a25338034c9b1b025a163ee7b21ca9a3d988c1215b3c4947599059cc5f568",
+      "renderSha256": "5218ddcb0246a41665b5b4c58c0f2a4ccfe0fdf4f2d97ff8c244e62c79222f29",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirements": [
+        "limit-of-detection-and-sampling:r1"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/average-one-can-be-zero-v1-light.svg",
+      "gitBlob": "62b271d08d2413b8c85767bea5bb471f4d1b1fdd",
+      "sourceSha256": "bcc3153324c63be1e78f6117352b686016bd993e1dffd4c1f262d9c55e0f11db",
+      "renderSha256": "871c68c1656c884184a494425612b7b12370a7f92ea1e236fc3c3cf6f0b80bb4",
+      "lesson": "limit-of-detection-and-sampling",
+      "requirements": [
+        "limit-of-detection-and-sampling:r1"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-dark.svg",
+      "gitBlob": "8db7d24dfd5dce95443372a6cd3ea7ec5468fa33",
+      "sourceSha256": "7ac7dcab1890bbd55ed1abf6a15e7e52e5e4102762fb004bbe8a34608201d0a2",
+      "renderSha256": "8bcb6b37256364c7d856ad20e0cb3ba69c38391629ff0f7204bc4eb7b936b5b4",
+      "lesson": "cfdna-vs-ctdna",
+      "requirements": [
+        "cfdna-vs-ctdna:r12"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/cfdna-vs-ctdna-comparison-pool-and-source-v1-light.svg",
+      "gitBlob": "3dccacc26fbf85b54546a23e5e71e9ca27a59525",
+      "sourceSha256": "76d02e670742a804fa7c43733923f953d7be533a923cf91509819033a3aaa15e",
+      "renderSha256": "840ee1583da608d45d8c4c3a4d3df28b7f3006a6a24bacac296d6e6b1e1594f0",
+      "lesson": "cfdna-vs-ctdna",
+      "requirements": [
+        "cfdna-vs-ctdna:r12"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-dark.svg",
+      "gitBlob": "e974ba56dc425ccb745c6b62f836365c678fbaad",
+      "sourceSha256": "e62d1cfe8faa81f5ca6c63e4df34d44fef8e88e35fc50a073346e3777cd1b86f",
+      "renderSha256": "999870fdb5b0770e7b964e633de28c29e8bae11ddcbe0af34d891b69df5261d4",
+      "lesson": "ctdna-units",
+      "requirements": [
+        "ctdna-units:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/ctdna-concentration-and-background-fractions-v1-light.svg",
+      "gitBlob": "3ecffa6368d97b272a2afaeda37067454d6f4e5a",
+      "sourceSha256": "a7b5799fbac716f8d1b4b3d527a9683deb7c0df81c580ff601e9b0ec652868d3",
+      "renderSha256": "4a166c7923b6c5d5f05a8450cb26fe39cd47804ce9dd49c7d3921693dc6490c0",
+      "lesson": "ctdna-units",
+      "requirements": [
+        "ctdna-units:r4"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/marker-recovery-and-free-dna-v1-dark.svg",
+      "gitBlob": "cd07518dda8f2e10a82a4a55362a6817ec26cc23",
+      "sourceSha256": "301b6ce303143f7c99a5365ab265b1581671a74ac7254d3801a0f2c640f71cb5",
+      "renderSha256": "983b267a558e5819f72319518a17372bf2377a64c1db08e6e85e490dd27f468b",
+      "lesson": "circulating-tumor-cells",
+      "requirements": [
+        "circulating-tumor-cells:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Qualifying cells counted' runs past the bottom edge of the Recovered panel in both themes.",
+        "'Cells + DNA' label is overlapped by the DNA glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/marker-recovery-and-free-dna-v1-light.svg",
+      "gitBlob": "bf66d5b2da4c9bc7f437fd7e7ba85990da7e4101",
+      "sourceSha256": "c42d47c91ac3834c5d8a8e2d5ff881517faa2ec81316306bf3cd36e4c1fd5ff3",
+      "renderSha256": "0565055781b43784b2923e3c390f7b1e6b347869674bec32ca6d8ab33ded9276",
+      "lesson": "circulating-tumor-cells",
+      "requirements": [
+        "circulating-tumor-cells:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "'Qualifying cells counted' runs past the bottom edge of the Recovered panel in both themes.",
+        "'Cells + DNA' label is overlapped by the DNA glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-dark.svg",
+      "gitBlob": "968b336236ae7296d1c3381bc5bad628eca2c597",
+      "sourceSha256": "f0c307688caa2e7a08594d5fc7b7e89f78039a1bd4514c5791d1bcd1cd7e3a63",
+      "renderSha256": "659fc2f32f58e35bbe2d322f3f31b2f67f7f8201c819a429fd588400ee8b9d7a",
+      "lesson": "fragmentomics-and-methylation",
+      "requirements": [
+        "fragmentomics-and-methylation:r7"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/measured-features-model-inference-v1-light.svg",
+      "gitBlob": "ca5ce3e4a0c483a1759945ee01b0a9a8a7c6d07a",
+      "sourceSha256": "6cc7add0c6a71455992b699f9339bc93916da1ac4785d67ec97accf50152bb12",
+      "renderSha256": "d58d598445fcb2eb6c7928a3bb8feb68cf7b3e595b79012894a7a52480978e8f",
+      "lesson": "fragmentomics-and-methylation",
+      "requirements": [
+        "fragmentomics-and-methylation:r7"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-dark.svg",
+      "gitBlob": "0345a1142d8ed2edc9accd8a7be49c279615a268",
+      "sourceSha256": "9c7bcc320c3153232506ec716267c5ec3d7d2b2664ea7714bb3b40464226749f",
+      "renderSha256": "01be3ede230c4474f49f670fa163bdbe844e960cd961bf7837d3473ff4a9e18d",
+      "lesson": "chip",
+      "requirements": [
+        "chip:r7",
+        "chip:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Panel 1 labels 'blood' and 'tumor' are struck through by the inner nucleus circle glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/plasma-variant-and-parallel-source-comparisons-b11-v1-light.svg",
+      "gitBlob": "d9632b046002479b4ad7d23387f3418f128db642",
+      "sourceSha256": "e36758ee1b040bdd63935eee2e119eaf3757a4ca244ae528c64e598d45951611",
+      "renderSha256": "63ce5d8c1a11b66bc0d252951ee08965ccbc2203c9903e789ef1dcb9d4f5a1c7",
+      "lesson": "chip",
+      "requirements": [
+        "chip:r7",
+        "chip:r9"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Panel 1 labels 'blood' and 'tumor' are struck through by the inner nucleus circle glyph in both themes."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/six-person-sampling-timelines-v1-dark.svg",
+      "gitBlob": "893710fb2a50d11d72ba17669d3c8491e252e1c8",
+      "sourceSha256": "2de566fd94946baa908d8390a91376aebd5ae3f641f02d3f6bb143ed0df46256",
+      "renderSha256": "6aa8f3d85aa653f65d7f2fcef09b7761b076ff8b6555f0f1e70585de8dc2b6a1",
+      "lesson": "lead-time",
+      "requirements": [
+        "lead-time:r6"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/six-person-sampling-timelines-v1-light.svg",
+      "gitBlob": "00df5c6b36af390f60366f6a6ac9b763dfa5dc0c",
+      "sourceSha256": "7dc07b220d957b712bba861a371a2b7ade52a36329140e2f32500db95dc33cfb",
+      "renderSha256": "794dfeea043974a79d95a9ab72d048c98b6a8a9c488f84cc0a9b98c51673ecf9",
+      "lesson": "lead-time",
+      "requirements": [
+        "lead-time:r6"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-dark.svg",
+      "gitBlob": "a4e1cd2477fed8573df378c79c7eb5e8ec0a375e",
+      "sourceSha256": "100ca2f85b9f167b8cd7ea06da15e026f3eb7a743b81297695269c502e19f887",
+      "renderSha256": "d79e0954f14be2ab696b72aa54a2294be10198998be76a4f34e4e7c282c8fa6e",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirements": [
+        "tumor-informed-vs-tumor-naive-mrd-assays:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the tumour-naive DNA glyph outline is low contrast against the card."
+      ],
+      "newViewing": false
+    },
+    {
+      "phase": "c9689645",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/images/tumor-informed-mrd-assay-comparison-reference-routes-v1-light.svg",
+      "gitBlob": "544c605675ab62c58b5f9d014bb7cef86ae55429",
+      "sourceSha256": "7adaff7cd17be861a34024f410668585a6830dd3766bc210aad912dc5c6a5c5e",
+      "renderSha256": "b436cd320e1a7583e5381cd479d7999fae083e97b7cb4aefa61382a384b31af4",
+      "lesson": "tumor-informed-vs-tumor-naive-mrd-assays",
+      "requirements": [
+        "tumor-informed-vs-tumor-naive-mrd-assays:r2"
+      ],
+      "rendererLimits": "librsvg is not a browser: font fallback and text metrics can differ, so edge-touching text may be renderer-specific; dark checked as its own raster and not as a recolour of light",
+      "defects": [
+        "Dark theme: the tumour-naive DNA glyph outline is low contrast against the card."
+      ],
+      "newViewing": false
+    }
+  ],
+  "uniqueThemeFiles": 32,
+  "versionEntries": 64,
+  "newViewing": false
+}

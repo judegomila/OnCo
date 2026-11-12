@@ -1,0 +1,182 @@
+[
+  {
+    "id": "assay-status-claims",
+    "status": "implemented draft with locally verified consumers; owner approval and hosted preview pending",
+    "question": "Can a query distinguish test origin, development designation, product authorization and laboratory certification for the same assay and intended use?",
+    "currentFields": [
+      "src/data/assays.ts:Assay.regulatory",
+      "src/data/assays.ts:Assay.source"
+    ],
+    "finding": "One enum mixes LDT, Breakthrough device and FDA authorization labels. It cannot retain coexisting source-backed claims with separate subject and use scopes.",
+    "needed": "A backwards-compatible collection of scoped regulatory claims, preserving authority, jurisdiction, subject/product/laboratory, intended use, source and date. Unknown clinical utility must not be inferred from a status label.",
+    "approvalDependency": "Schema/library product changes require the repository product-approval workflow.",
+    "proposal": {
+      "url": "https://github.com/judegomila/OnCo/pull/376",
+      "head": "873163fc1bf27a57a2dbb232025fdbca2d8338c4",
+      "fields": [
+        "RegulatoryClaimSchema",
+        "DrugSchema.regulatoryClaims",
+        "Assay.regulatoryClaims"
+      ],
+      "state": "Open draft; not merged or deployed",
+      "validation": "Current standalone product checks: validate 22,683 entities, typecheck, lint (0 errors/7 pre-existing warnings), 286 files/2,838 tests passed with 2 skips. Actual temporary data/product integration retains 46 scoped observations in JSON and Markdown and structural endpoint requirements. No new production build or hydration/responsive/hosted-preview check for this follow-up. Earlier 52,905-page export and hydrated checks apply only to their recorded historical heads.",
+      "remaining": [
+        "Maintainer issue triage and requested review",
+        "Owner approval under PRODUCT-APPROVAL.md",
+        "Upstream preview/externally accessible paired captures; connected account returned 403, and native consent lookup returned 404 for both reported id and slug",
+        "Historical temporary images are unavailable; replacement matched SSR captures are recorded in the November 9 recovery receipt. Upstream-accessible attachments remain needed."
+      ],
+      "consumerVerification": "PR #376 research/scoped-evidence-schema-2026-11-08/consumer-verification.json; scoped groups fit usable width, citations retain distinct observations, dual cargo remains one bundle; whole-document overflow outside the new groups remains 11px at 393 and 3px at 320. The legacy follow-up receipt at this head keeps Ed-04 and AZ14170133 distinct, leaves unnamed cargo unknown, and keeps TE-1182 in one combined-class cell; existing mobile engine overflow remains 32px beyond usable width.",
+      "dataFollowUp": "RAS narrative and stale short-summary fallbacks synchronized with the repair checkpoint. Separate pathway nodes/edges are unchanged. Standalone 286 files/2838 tests pass; product approval and hosted review remain pending."
+    }
+  },
+  {
+    "id": "trial-site-status",
+    "status": "implemented draft with locally verified consumers; owner approval and hosted preview pending",
+    "question": "Can a query report which named facility is recruiting while keeping overall status, local cohort availability and the dated source separate?",
+    "currentFields": [
+      "src/lib/schema.ts:TrialParticipationSchema.overallStatus",
+      "src/lib/schema.ts:TrialParticipationSchema.siteCount",
+      "src/lib/schema.ts:TrialParticipationSchema.recruitingSiteCount",
+      "src/lib/schema.ts:TrialParticipationSchema.studySha256"
+    ],
+    "finding": "Dated raw study captures and site counts exist, but the normalized participation row does not retain named facility statuses or cohort availability. This is not loss of the original registry source.",
+    "needed": "Optional source-backed facility-status observations with registry provenance; cohort/slot availability remains unknown unless separately reported. Do not infer it from overall status.",
+    "approvalDependency": "Schema and ingestion/UI changes need scoped product review; source data must not be fabricated.",
+    "proposal": {
+      "url": "https://github.com/judegomila/OnCo/pull/376",
+      "head": "873163fc1bf27a57a2dbb232025fdbca2d8338c4",
+      "fields": [
+        "TrialParticipationSchema.facilities",
+        "TrialParticipationSchema.cohortObservations",
+        "TrialParticipationSchema.responseStudySha256"
+      ],
+      "state": "Open draft; not merged or deployed",
+      "validation": "Current standalone product checks: validate 22,683 entities, typecheck, lint (0 errors/7 pre-existing warnings), 286 files/2,838 tests passed with 2 skips. Actual temporary data/product integration retains 46 scoped observations in JSON and Markdown and structural endpoint requirements. No new production build or hydration/responsive/hosted-preview check for this follow-up. Earlier 52,905-page export and hydrated checks apply only to their recorded historical heads.",
+      "remaining": [
+        "Maintainer issue triage and requested review",
+        "Owner approval under PRODUCT-APPROVAL.md",
+        "Upstream preview/externally accessible paired captures; connected account returned 403, and native consent lookup returned 404 for both reported id and slug",
+        "Historical temporary images are unavailable; replacement matched SSR captures are recorded in the November 9 recovery receipt. Upstream-accessible attachments remain needed."
+      ],
+      "consumerVerification": "PR #376 research/scoped-evidence-schema-2026-11-08/consumer-verification.json; scoped groups fit usable width, citations retain distinct observations, dual cargo remains one bundle; whole-document overflow outside the new groups remains 11px at 393 and 3px at 320. The legacy follow-up receipt at this head keeps Ed-04 and AZ14170133 distinct, leaves unnamed cargo unknown, and keeps TE-1182 in one combined-class cell; existing mobile engine overflow remains 32px beyond usable width.",
+      "dataFollowUp": "RAS narrative and stale short-summary fallbacks synchronized with the repair checkpoint. Separate pathway nodes/edges are unchanged. Standalone 286 files/2838 tests pass; product approval and hosted review remain pending."
+    }
+  },
+  {
+    "id": "mechanism-edge-evidence",
+    "status": "implemented draft with locally verified consumers; owner approval and hosted preview pending",
+    "question": "Can a mechanism edge retain its model, observation versus hypothesis, source and uncertainty instead of representing every connection only as activation or inhibition?",
+    "currentFields": [
+      "src/lib/schema.ts:PathwayEdgeSchema.from",
+      "src/lib/schema.ts:PathwayEdgeSchema.to",
+      "src/lib/schema.ts:PathwayEdgeSchema.type"
+    ],
+    "finding": "PathwayEdgeSchema retains only endpoints and activates/inhibits. The rendered RNA-splicing map illustrates how context-dependent effects and dependencies acquire categorical arrow wording even when prose is qualified. Record-level sources/notes exist, but the edge has no scoped evidence/provenance fields.",
+    "needed": "A backwards-compatible optional edge-evidence/context structure and a reviewed rendering rule that preserves uncertainty. Do not infer universal causality from a pathway diagram or replace verified mechanisms with generic doubt.",
+    "approvalDependency": "Schema and diagram-rendering changes require the product-approval workflow; a prose interpretation boundary is included now.",
+    "proposal": {
+      "url": "https://github.com/judegomila/OnCo/pull/376",
+      "head": "873163fc1bf27a57a2dbb232025fdbca2d8338c4",
+      "fields": [
+        "PathwayEdgeSchema.evidence",
+        "PathwayDiagramInteractive evidence disclosure"
+      ],
+      "state": "Open draft; not merged or deployed",
+      "validation": "Current standalone product checks: validate 22,683 entities, typecheck, lint (0 errors/7 pre-existing warnings), 286 files/2,838 tests passed with 2 skips. Actual temporary data/product integration retains 46 scoped observations in JSON and Markdown and structural endpoint requirements. No new production build or hydration/responsive/hosted-preview check for this follow-up. Earlier 52,905-page export and hydrated checks apply only to their recorded historical heads.",
+      "remaining": [
+        "Maintainer issue triage and requested review",
+        "Owner approval under PRODUCT-APPROVAL.md",
+        "Upstream preview/externally accessible paired captures; connected account returned 403, and native consent lookup returned 404 for both reported id and slug",
+        "Historical temporary images are unavailable; replacement matched SSR captures are recorded in the November 9 recovery receipt. Upstream-accessible attachments remain needed."
+      ],
+      "consumerVerification": "PR #376 research/scoped-evidence-schema-2026-11-08/consumer-verification.json; scoped groups fit usable width, citations retain distinct observations, dual cargo remains one bundle; whole-document overflow outside the new groups remains 11px at 393 and 3px at 320. The legacy follow-up receipt at this head keeps Ed-04 and AZ14170133 distinct, leaves unnamed cargo unknown, and keeps TE-1182 in one combined-class cell; existing mobile engine overflow remains 32px beyond usable width.",
+      "dataFollowUp": "RAS narrative and stale short-summary fallbacks synchronized with the repair checkpoint. Separate pathway nodes/edges are unchanged. Standalone 286 files/2838 tests pass; product approval and hosted review remain pending."
+    }
+  },
+  {
+    "id": "conjugate-payload-composition",
+    "status": "implemented draft with locally verified consumers; owner approval and hosted preview pending",
+    "question": "Can a drug query distinguish delivery antigen, payload chemical identity, payload mechanism/class, released species and per-payload loading for a dual-payload construct?",
+    "currentFields": [
+      "src/lib/schema.ts:DrugSchema.payload",
+      "src/lib/schema.ts:DrugSchema.linker",
+      "src/lib/schema.ts:DrugSchema.targets",
+      "src/lib/schema.ts:CombinationIdeaSchema.components"
+    ],
+    "finding": "Drug payload and linker are optional strings. Combination ideas support string-valued component axes, but this does not normalize sourced multi-payload drug composition, distinguish delivery from payload targets, or preserve per-component loading/analyte evidence. Existing descriptions and payload-class term records are acknowledged.",
+    "needed": "Optional backwards-compatible sourced composition entries distinguishing chemical identities, class/mechanism references and released catabolites, with scoped loading observations and dates. Preserve unknown values; do not split a total DAR into invented component ratios or classify radiation as a small-molecule cytotoxic mechanism.",
+    "approvalDependency": "Drug schema, format decomposition and any display changes need a concrete product proposal and owner review.",
+    "proposal": {
+      "url": "https://github.com/judegomila/OnCo/pull/376",
+      "head": "873163fc1bf27a57a2dbb232025fdbca2d8338c4",
+      "fields": [
+        "DrugSchema.conjugateComposition",
+        "ConjugateCompositionSchema",
+        "PayloadComponentSchema"
+      ],
+      "state": "Open draft; not merged or deployed",
+      "validation": "Current standalone product checks: validate 22,683 entities, typecheck, lint (0 errors/7 pre-existing warnings), 286 files/2,838 tests passed with 2 skips. Actual temporary data/product integration retains 46 scoped observations in JSON and Markdown and structural endpoint requirements. No new production build or hydration/responsive/hosted-preview check for this follow-up. Earlier 52,905-page export and hydrated checks apply only to their recorded historical heads.",
+      "remaining": [
+        "Maintainer issue triage and requested review",
+        "Owner approval under PRODUCT-APPROVAL.md",
+        "Upstream preview/externally accessible paired captures; connected account returned 403, and native consent lookup returned 404 for both reported id and slug",
+        "Historical temporary images are unavailable; replacement matched SSR captures are recorded in the November 9 recovery receipt. Upstream-accessible attachments remain needed."
+      ],
+      "consumerVerification": "PR #376 research/scoped-evidence-schema-2026-11-08/consumer-verification.json; scoped groups fit usable width, citations retain distinct observations, dual cargo remains one bundle; whole-document overflow outside the new groups remains 11px at 393 and 3px at 320. The legacy follow-up receipt at this head keeps Ed-04 and AZ14170133 distinct, leaves unnamed cargo unknown, and keeps TE-1182 in one combined-class cell; existing mobile engine overflow remains 32px beyond usable width.",
+      "dataFollowUp": "RAS narrative and stale short-summary fallbacks synchronized with the repair checkpoint. Separate pathway nodes/edges are unchanged. Standalone 286 files/2838 tests pass; product approval and hosted review remain pending."
+    }
+  },
+  {
+    "id": "classification-context",
+    "status": "design required; not implemented",
+    "question": "Can Ask/API distinguish a research expression profile, histology, receptor-test category and inherited-risk grouping, retaining classifier version and measurement method without inferring a common hierarchy from names?",
+    "currentFields": [
+      "src/lib/schema.ts:CancerSchema.parent",
+      "src/lib/schema.ts:CancerSchema.subtypes",
+      "src/lib/schema.ts:Base.related"
+    ],
+    "finding": "Subtypes is an array of strings and parent is one entity id. Corrected reader prose can state the axis, but these fields do not retain a sourced classification system/version, profile role, assay or explicit overlap-versus-hierarchy relation. Parallel Burstein groups had been placed inside Lehmann BL1/IM subtype arrays.",
+    "needed": "A backwards-compatible sourced classification context or relationship contract, with explicit system/version, measured input, role and relation meaning. Demonstrate a real TNBC/PAM50/histology query and preserve ordinary cancer-family navigation.",
+    "approvalDependency": "Schema and query/reader changes need a concrete product proposal and owner approval before deployment; existing four prototypes do not implement this finding.",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/27310713/",
+      "https://pubmed.ncbi.nlm.nih.gov/25208879/",
+      "https://pubmed.ncbi.nlm.nih.gov/32406563/"
+    ]
+  },
+  {
+    "id": "chemical-property-observations",
+    "status": "implemented draft with locally verified consumers; owner approval and hosted preview pending",
+    "question": "Can readers and queries retain coexisting observations for an exact free, attached or released chemical species, a defined experimental endpoint, transporter and named conjugate, while distinguishing missing data from a negative result?",
+    "currentFields": [
+      "src/data/payloads.ts:Payload.chemicalObservations",
+      "src/lib/schema.ts:TermSchema.chemicalObservations"
+    ],
+    "finding": "The baseline comparison used an unqualified permeability boolean, efflux grade and approximate loading. Its canonical Term schema discarded source-scoped chemical observations. Family-level summaries cannot substitute for a measured species, assay or construct.",
+    "needed": "Optional source-scoped observations retaining species, property, context, method, statement, evidence type, sources and dates; transporter endpoints require transporters, loading endpoints require a conjugate. Preserve conflicting or coexisting contexts, range wording and unknown values through actual consumers.",
+    "approvalDependency": "Product owner approval and accessible hosted review remain required. Release requires coordinated data PR369 and product PR376; data-only comparison and canonical schema do not expose these observations.",
+    "proposal": {
+      "url": "https://github.com/judegomila/OnCo/pull/376",
+      "head": "873163fc1bf27a57a2dbb232025fdbca2d8338c4",
+      "fields": [
+        "ChemicalPropertyObservationSchema",
+        "TermSchema.chemicalObservations",
+        "queryChemicalObservations",
+        "ChemicalEvidence",
+        "payload comparison and glossary readers",
+        "Ask/search passages",
+        "JSON/Markdown/OpenAPI exports"
+      ],
+      "state": "Open draft; not merged or deployed",
+      "validation": "46 observations across 12 chemical owners; 65 canonical owners and comparison page rendered in matched before/after states (66 each); actual JSON and Markdown generation checked for all 65 owners; loading/transporter structural requirements survive schema export; combined typecheck passed. Product full suite: 286 files/2,838 tests, 2 skips.",
+      "remaining": [
+        "Owner approval under PRODUCT-APPROVAL.md",
+        "Upstream-accessible hosted preview and visual review for the current follow-up",
+        "Coordinated data/product integration before release"
+      ],
+      "consumerVerification": "payload-chemical-species-2026-11-09/scope.json and immutable public receipts in data PR369 and product PR376",
+      "dataFollowUp": "RAS narrative and stale short-summary fallbacks synchronized with the repair checkpoint. Separate pathway nodes/edges are unchanged. Standalone 286 files/2838 tests pass; product approval and hosted review remain pending."
+    }
+  }
+]

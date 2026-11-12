@@ -1,0 +1,11 @@
+{
+  "auditFilesCompared": 651,
+  "byteIdentical": true,
+  "ledgerSourceVersions": [
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "c96896452386202405c435aa161bc5047919337a"
+  ],
+  "staleOrMissingFieldProofs": 0,
+  "closureExitCodePerPhase": 2,
+  "reasonForNonzeroClosure": "Unreviewed curriculum/assets and named source/schema/approval dependencies remain open; not an integrity or implementation error."
+}

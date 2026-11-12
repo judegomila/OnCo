@@ -1,0 +1,108 @@
+{
+  "entries": [
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg",
+      "bytes": 8103,
+      "sha256": "6e7651c9ce2e81200ab50908d01d76542b455a1595b53d00350a3fc0a8139338",
+      "gitBlob": "c13704c0a4cc3e286d5e0a46b0df6ce6a3074d96",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-dark.svg",
+      "bytes": 8103,
+      "sha256": "348a9a8d9148ecc15d0aa687081b41d2422297f7d6ac764448d1664384e263e0",
+      "gitBlob": "1f02409d202f94f4626ff39d305ef866685dcd44",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-light.svg",
+      "bytes": 8103,
+      "sha256": "6e7651c9ce2e81200ab50908d01d76542b455a1595b53d00350a3fc0a8139338",
+      "gitBlob": "c13704c0a4cc3e286d5e0a46b0df6ce6a3074d96",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/specimen-treatment-report-clocks-v2-dark.svg",
+      "bytes": 8103,
+      "sha256": "348a9a8d9148ecc15d0aa687081b41d2422297f7d6ac764448d1664384e263e0",
+      "gitBlob": "1f02409d202f94f4626ff39d305ef866685dcd44",
+      "scope": "teaching",
+      "role": "teaching figure",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Whole 360 by 760 headless Chrome SVG render viewed in this theme with lesson caption/alt. Collection, actual treatment record and reporting remain distinct; arbitrary days are not a regimen or response explanation. No accessibility or live Guide-page certification."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-data.json",
+      "bytes": 2332,
+      "sha256": "2b2dd6ccba7688370bfe5fe530350e07d458d8d30217e0c90bcdf7b69b2df6bd",
+      "gitBlob": "f6b46c59421e27a093acc8a71a98821f8435760a",
+      "scope": "teaching",
+      "role": "fictional worked data",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Complete fictional data JSON body read; every plan/record/collection/addendum value and 4/3/1 counts agree with both viewed SVGs and the current owner passage. No clinical regimen, hold cause or outcome inferred."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-data.json",
+      "bytes": 2332,
+      "sha256": "2b2dd6ccba7688370bfe5fe530350e07d458d8d30217e0c90bcdf7b69b2df6bd",
+      "gitBlob": "f6b46c59421e27a093acc8a71a98821f8435760a",
+      "scope": "teaching",
+      "role": "fictional worked data",
+      "coverageCredit": "draft represented; not main/live",
+      "rationale": "Complete fictional data JSON body read; every plan/record/collection/addendum value and 4/3/1 counts agree with both viewed SVGs and the current owner passage. No clinical regimen, hold cause or outcome inferred."
+    },
+    {
+      "version": "original",
+      "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-provenance.json",
+      "bytes": 4896,
+      "sha256": "e5a7d4c5ea8eb459d6dd3d87b3ef28e8e246803faecd534af3cfae5f99cfb5c2",
+      "gitBlob": "28b7feadbf6e0f3df87538764283a0516d1b97cb",
+      "scope": "supporting",
+      "role": "documented-mixed provenance with duplicate reader copy",
+      "coverageCredit": 0,
+      "rationale": "Complete provenance body read; embedded caption and alt equal the owner at both pins, and toy/SVG hashes match. This is supporting mixed provenance with duplicated reader copy, no teaching credit. Historical before/prospective owner hashes match neither pin; generator/authoring claims are self-attestations, not scientific, owner, expert or learner approval."
+    },
+    {
+      "version": "later",
+      "ref": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/guides/reading-pathology-and-surgery-results/images/prompts/specimen-treatment-report-clocks-v2-native-provenance.json",
+      "bytes": 4896,
+      "sha256": "e5a7d4c5ea8eb459d6dd3d87b3ef28e8e246803faecd534af3cfae5f99cfb5c2",
+      "gitBlob": "28b7feadbf6e0f3df87538764283a0516d1b97cb",
+      "scope": "supporting",
+      "role": "documented-mixed provenance with duplicate reader copy",
+      "coverageCredit": 0,
+      "rationale": "Complete provenance body read; embedded caption and alt equal the owner at both pins, and toy/SVG hashes match. This is supporting mixed provenance with duplicated reader copy, no teaching credit. Historical before/prospective owner hashes match neither pin; generator/authoring claims are self-attestations, not scientific, owner, expert or learner approval."
+    }
+  ],
+  "paths": 4,
+  "versionEntries": 8,
+  "classificationByPath": {
+    "teaching": 3,
+    "supportingMixed": 1
+  },
+  "nativeJSONBodiesReadInFull": 2,
+  "noExternalPrimaryApprovalFromCustody": true
+}

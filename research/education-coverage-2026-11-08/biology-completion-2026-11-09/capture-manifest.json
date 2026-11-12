@@ -1,0 +1,286 @@
+[
+  {
+    "file": "pdb-methods.html",
+    "url": "https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/methods-for-determining-structure",
+    "capturedAt": "2026-11-09T17:47:15.277529+00:00",
+    "status": 200,
+    "finalURL": "https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/methods-for-determining-structure",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 56476,
+    "sha256": "7300740455e3f992f33004813c16db78c0ce52080d96d9ece26ee01c5fab6cfd"
+  },
+  {
+    "file": "hgvs-deletion.html",
+    "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/",
+    "capturedAt": "2026-11-09T17:47:15.277720+00:00",
+    "status": 200,
+    "finalURL": "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 51458,
+    "sha256": "e986b4aa7f3eec077fce73db7913919e0502781fd95942a4a0308c704ba01959"
+  },
+  {
+    "file": "hgvs-delins.html",
+    "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/delins/",
+    "capturedAt": "2026-11-09T17:47:15.277817+00:00",
+    "status": 200,
+    "finalURL": "https://hgvs-nomenclature.org/stable/recommendations/protein/delins/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 49345,
+    "sha256": "0ffeae488bbcc115f08c72054a0d81599f88837f3a18b17a9cd5650788ee0795"
+  },
+  {
+    "file": "nhgri-frameshift.html",
+    "url": "https://www.genome.gov/genetics-glossary/Frameshift-Mutation",
+    "capturedAt": "2026-11-09T17:47:15.277884+00:00",
+    "status": 200,
+    "finalURL": "https://www.genome.gov/genetics-glossary/Frameshift-Mutation",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 200235,
+    "sha256": "f03a273a13d2f492ed23992739f9abc6e15518b0613dca633ffdf9aceb27cb81"
+  },
+  {
+    "file": "cap-er.html",
+    "url": "https://www.cap.org/protocols-and-guidelines/cap-guidelines/current-cap-guidelines/guideline-recommendations-for-immunohistochemical-testing-of-estrogen-and-progesterone-receptors-in-breast-cancer",
+    "capturedAt": "2026-11-09T17:47:15.277935+00:00",
+    "status": 200,
+    "finalURL": "https://www.cap.org/cap-guidelines/estrogen-and-progesterone-receptor-testing-in-breast-cancer-guideline-update/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 359985,
+    "sha256": "727dda8f11deeea3e99a1cd992e438e8a7dd92d3628e182397e23b2fdbbbe2b6"
+  },
+  {
+    "file": "cap-her2.html",
+    "url": "https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/",
+    "capturedAt": "2026-11-09T17:47:16.889820+00:00",
+    "status": 200,
+    "finalURL": "https://www.cap.org/cap-guidelines/her2-testing-in-breast-cancer-2023-guideline-update/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 373461,
+    "sha256": "4652f22d6eb739f3895140a188c215497c12d12215d9079407fd96ae8f74bae9"
+  },
+  {
+    "file": "cap-er-faq.pdf",
+    "url": "https://documents.cap.org/documents/erpgr_faqs.pdf",
+    "capturedAt": "2026-11-09T17:47:16.928554+00:00",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "file": "seer-epithelial.html",
+    "url": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html",
+    "capturedAt": "2026-11-09T17:47:17.065231+00:00",
+    "status": 200,
+    "finalURL": "https://training.seer.cancer.gov/anatomy/cells_tissues_membranes/tissues/epithelial.html",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 42607,
+    "sha256": "665812586fc7e958d598791853eedebc05143e5f664011dc7eed6969a1c0c715"
+  },
+  {
+    "file": "seer-summary-stage.pdf",
+    "url": "https://seer.cancer.gov/tools/ssm/Summary-Stage_v3.4.pdf",
+    "capturedAt": "2026-11-09T17:47:17.180096+00:00",
+    "status": 200,
+    "finalURL": "https://seer.cancer.gov/tools/ssm/Summary-Stage_v3.4.pdf",
+    "contentType": "application/pdf",
+    "bytes": 6557566,
+    "sha256": "c7fb9745cdcbdf40b2ac125a01718b8b38c26d4dad9b03a689288ede5513042b"
+  },
+  {
+    "file": "nci-breast-biomarkers.html",
+    "url": "https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests",
+    "capturedAt": "2026-11-09T17:47:17.732056+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 43881,
+    "sha256": "1b43498a0cbd9798345d326ff094f4a70d522641c1a24fdf9ce27ddb21e5715a"
+  },
+  {
+    "file": "nih-dna-damage.html",
+    "url": "https://www.ncbi.nlm.nih.gov/mesh?LinkName=medgen_mesh&from_uid=222489",
+    "capturedAt": "2026-11-09T17:47:18.125328+00:00",
+    "status": 200,
+    "finalURL": "https://www.ncbi.nlm.nih.gov/mesh?LinkName=medgen_mesh&from_uid=222489",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 21649,
+    "sha256": "79e5a9da38efffc19272db20da770d19454442e804c3f861bb001bdd1bcefecd"
+  },
+  {
+    "file": "rag-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24413735+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:18.600171+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24413735+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 18794,
+    "sha256": "ddadb64c7c3f77c5eb3bd1fdbd710b44ee9a3fb560433c4a2f42cc4d5bd70076"
+  },
+  {
+    "file": "convergent-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17130450+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:18.707119+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A17130450+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8233,
+    "sha256": "7173212a5c1c3da73a6b71800709969a2bbc02120434524e79357e84c6a4f203"
+  },
+  {
+    "file": "human-tcr-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21383244+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:18.855341+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21383244+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7972,
+    "sha256": "dce5ab3ac8cf76dff41e3a0b6f4f3f054314b5aa3a3461d54dc70fa4a9f1840c"
+  },
+  {
+    "file": "clonogenic-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fnprot.2006.339&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:19.486324+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fnprot.2006.339&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 4202,
+    "sha256": "7c18799adb698bfa8a400c133404744d7dd13758de2050008e42c1902086037c"
+  },
+  {
+    "file": "clonogenic-update-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41596-021-00615-0&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:19.634235+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41596-021-00615-0&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7176,
+    "sha256": "e4277d6b9d00718011514300ea73a1a17d663ea1893a72872fb720fd326e9a1e"
+  },
+  {
+    "file": "h2ax-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9488723+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:19.669121+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9488723+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7209,
+    "sha256": "0a2629c50344643dda9c2c9a1f2758e21421ba73da8c9b96235383a4c3ef31e2"
+  },
+  {
+    "file": "h2ax-limits-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21555580+AND+SRC%3AMED&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:20.411831+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A21555580+AND+SRC%3AMED&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 6625,
+    "sha256": "7e817018db55e7b31f5b290cddb0818519b1620b339c3d5011b3b6bff6ee5b78"
+  },
+  {
+    "file": "cap-er-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.19.02309&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:20.641461+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.19.02309&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 10312,
+    "sha256": "1e1172fb339f1abc6e5ee89653f6f791de0241b88933860b6241ddcf8fcad276"
+  },
+  {
+    "file": "cap-her2-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.22.02864&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:47:21.116830+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.22.02864&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 8115,
+    "sha256": "b87f95f951fa4efd724138de13d17c0493327428c70fdfdef1fa2a9e5aca773b"
+  },
+  {
+    "file": "rag-full.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3960636/fullTextXML",
+    "capturedAt": "2026-11-09T17:49:47.495257+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "convergent-full.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC1693724/fullTextXML",
+    "capturedAt": "2026-11-09T17:49:47.495418+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "h2ax-limits-full.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3102364/fullTextXML",
+    "capturedAt": "2026-11-09T17:49:47.495499+00:00",
+    "error": "HTTP Error 500: "
+  },
+  {
+    "file": "mesh-dna-damage.json",
+    "url": "https://id.nlm.nih.gov/mesh/D004249.json",
+    "capturedAt": "2026-11-09T17:49:47.495557+00:00",
+    "status": 200,
+    "finalURL": "https://id.nlm.nih.gov/mesh/D004249.json",
+    "contentType": "application/rdf+json;charset=utf-8",
+    "bytes": 3486,
+    "sha256": "af241a6ab8c9bf93b720714314944a42b7cf21d09a14dca2576533a2f85bc739"
+  },
+  {
+    "file": "nci-grade.html",
+    "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade",
+    "capturedAt": "2026-11-09T17:49:48.330822+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 43992,
+    "sha256": "5e8121c53b903443eb17c85f664b075f08960b2187703693190cc1c64d81704c"
+  },
+  {
+    "file": "medlineplus-variants.html",
+    "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/possiblemutations/",
+    "capturedAt": "2026-11-09T17:49:48.597491+00:00",
+    "status": 200,
+    "finalURL": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/possiblemutations/",
+    "contentType": "text/html",
+    "bytes": 32883,
+    "sha256": "449a0a1bfb9e26bf8fae2710b7abf7b71f8e33784ecc9bc9ecdc99341440748e"
+  },
+  {
+    "file": "mesh-dna-damage-concept.json",
+    "url": "https://id.nlm.nih.gov/mesh/M0006649.json",
+    "capturedAt": "2026-11-09T17:51:41.162392+00:00",
+    "status": 200,
+    "finalURL": "https://id.nlm.nih.gov/mesh/M0006649.json",
+    "contentType": "application/rdf+json;charset=utf-8",
+    "bytes": 2051,
+    "sha256": "b349c5c41f32eea347f08e6a7a47263115a2f96b4495ce4ae9bf645f512da0a4"
+  },
+  {
+    "file": "yoder-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41523-022-00448-4&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:51:41.162580+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41523-022-00448-4&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 11029,
+    "sha256": "1a78c4b4335f7efd04972f6d4d436b3a0442f297206b132e808fa622a11e08f3"
+  },
+  {
+    "file": "acs-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.lanepe.2024.100886&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:51:41.162669+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.lanepe.2024.100886&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 7809,
+    "sha256": "2f070a28ae49a36fd448c67b3f04d71a440d6eb5bd758fa889fc42339a426a7f"
+  },
+  {
+    "file": "dieci-core.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41523-021-00308-7&resultType=core&format=json",
+    "capturedAt": "2026-11-09T17:51:41.162727+00:00",
+    "status": 200,
+    "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41523-021-00308-7&resultType=core&format=json",
+    "contentType": "application/json;charset=UTF-8",
+    "bytes": 9767,
+    "sha256": "738904bd04f507bb71d2dd0e2df922bd95bd4eee8c7eeea3e14883582bc4b0af"
+  }
+]

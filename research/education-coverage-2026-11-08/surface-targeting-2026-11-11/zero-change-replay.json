@@ -1,0 +1,13 @@
+{
+  "dataCommit": "12cc76ee50c46bfa211434317bd7a05b94c537d4",
+  "phases": [
+    "7510db6b",
+    "c9689645"
+  ],
+  "preReplayFiles": 737,
+  "allPreReplayFileBytesUnchanged": true,
+  "perPhaseExitCode": 2,
+  "staleOrMissingProofs": 0,
+  "scope": "Both source ledgers replayed deterministically. Exit 2 reflects unfinished work. This receipt is written after the byte comparison; neither it nor the subsequently rebuilt manifest is claimed byte-compared in this replay.",
+  "snapshotSha256": "32867b7e70469501e0a59ae1c6080caafb8a6242d7fa067ddd402a9193fb5048"
+}

@@ -1,0 +1,23 @@
+{
+  "unchangedTherapyRootIds": [
+    "adc",
+    "alkylating-agent",
+    "anthracycline",
+    "antibody-tumor-penetration",
+    "capecitabine",
+    "chemotherapy-regimen",
+    "chemotherapy-term",
+    "cytotoxic-chemotherapy",
+    "dose-dense-chemotherapy",
+    "fluorouracil",
+    "platinum",
+    "taxane",
+    "topoisomerase-inhibitors",
+    "tubulin"
+  ],
+  "exactTherapyRootFieldProofs": 605,
+  "uniqueActiveFieldsMatchingPreMergeRoot": 723,
+  "thoseFieldsChanged": 0,
+  "otherVersionedFieldProofsRetained": 209,
+  "scope": "Other branch and pinned-baseline evidence remains tied to its own snapshot; a main refresh does not grant fresh source, clinical, expert or main-coverage credit."
+}

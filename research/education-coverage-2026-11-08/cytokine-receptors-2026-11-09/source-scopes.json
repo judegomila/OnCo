@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-11-09",
+  "sources": [
+    {
+      "pmid": "29789554",
+      "depth": "Complete MED and Crossref abstracts; full text captured but not claimed fully read.",
+      "use": "Nanobody/artificial-ligand receptor design as a particular preclinical example.",
+      "boundary": "Not Enoda/MIMIC validation or a patient result."
+    },
+    {
+      "pmid": "20562098",
+      "depth": "Complete MED abstract.",
+      "use": "Human-cell IL-4-input chimeric receptor, expansion and separate CAR targeting.",
+      "boundary": "Culture experiments; no efficacy in patients inferred."
+    },
+    {
+      "pmid": "42182394",
+      "doi": "10.64898/2026.05.12.724672",
+      "depth": "Complete MED/Crossref abstract and first raw results subsection with receptor design, controls, markers and phagocytosis.",
+      "use": "Ligand-independent motif-bearing macrophage receptors as a distinct design.",
+      "boundary": "Preprint in raw metadata; no human benefit or quantitative mouse efficacy figure used."
+    },
+    {
+      "pmid": "26405231",
+      "depth": "Complete fresh MED abstract; existing switch owner retained.",
+      "use": "Defined small-molecule input control is distinct from cell elimination.",
+      "boundary": "Preclinical split-CAR example, not a universal rescue or a synthetic cytokine-receptor result."
+    },
+    {
+      "url": "https://www.enoda.bio/",
+      "depth": "Complete visible raw text read; scripts/styles excluded.",
+      "use": "Enoda uses MIMIC as its platform name.",
+      "boundary": "Sponsor description only. Claims of universal signal access or lack of systemic toxicity are not adopted as clinical facts."
+    }
+  ],
+  "otherDiscovery": "Five resolved review abstracts read for orientation; a bibliographic-only Science item and a separate receptor-valency preprint are unused as empirical cytokine-receptor evidence.",
+  "zeroResultQueries": [
+    "elicit-rank-5-med.json",
+    "macrophage-med.json",
+    "macrophage-pmc-core.json"
+  ],
+  "copyright": "No article, abstract, lesson, inline image or sponsor-page body is copied into public Git."
+}

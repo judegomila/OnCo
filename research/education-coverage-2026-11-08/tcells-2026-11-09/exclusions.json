@@ -1,0 +1,785 @@
+[
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "f8574c025ac225112ba9b51e981b62df491e46ca21a560c7d2bcab66259b40f9",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "6e175e324c26e155d6a01578530868771101e9342a3f5d58b034055383579019",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "e10a6d73ddbad39d41f57de378540cd61decc220b1c575d3926d21668973edd4",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "b4489dc2d683d3094ec5a8b1941a64ba06664574a2339154e3575fe0c01098dd",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "8c20a298d58d8bc5defe1ba4c719c85def02760972c51736ad95ae8dd4316ae0",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "2c2a83785d5cdaf369ff39a65f252b058a7eb271c728cecfe3226c6bc03fdeed",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy-vs-exhaustion",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "b53c3dbed54db94a85b70a1c309215bb0412b3a7d8194d811f3f1c5b602089b7",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "anergy",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "d82a8371c8fe4d3a1003fbcffd14cc1103633b111fd6a87a5fca67b29fb9e22c",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "ae6cbf29a6e2185f16c3f9c2519368b05712fa4d0c6868f10ce58a6ab884aad3",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "27e267e7ffbccaa4633ad426065ceb54526b257ed1de642ecd7212038d2726b0",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "anergy",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "d82a8371c8fe4d3a1003fbcffd14cc1103633b111fd6a87a5fca67b29fb9e22c",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "3a9e74ed97e3088f91a366a8719dfe6bc64ac5fd2de908f4950a47d70f083e7b",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "anergy",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "2b815dd8e299c1ad5baea90ddfdfbcb6fb08c5d106931773b89c822c272e3256",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "1d98811b93312e0093a78a8437925d23bdae69941b49b8542c5fac4d43c4d15b",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "610ab3441d8dbd003156ce912241cc3407a4ac07bc64ed7e79a994e9f78017bd",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "a77011a0c0e045b3e8b446440d68c9f5757702673fef2f6f8ee592c45fe88dbc",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "d8f1f571827474a3852a3955a4aa546d1a342b6caf918348767e0cb604f632dd",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "cedaf6d997da3a21b24c420b322e64cd0bee063eae0f92f033366ed2b2efaf4d",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "610ab3441d8dbd003156ce912241cc3407a4ac07bc64ed7e79a994e9f78017bd",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "a2b6ac5024ce3217d4b4352120d3ca18abb32ecfc6ad6c24bcf986359b629a2f",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "cd4-vs-cd8",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "7ec797196f296c814ad60eb21257a7648524dde8e51928f3abaa51b97b9f1b05",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "costimulation",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "costimulation",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "0bdd089ef7095b806b47d9a759ef6a7b1883145a3fb7ccde2ae1566b4a47b320",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "costimulation",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "f7a7ab402bf48d1cb6848e3217df5741579ec46da82cb8daf688c7ab2740cddb",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "costimulation",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "7bbac85f00eb27f0d5fca8c3897bc6c881630365b67be565d5001a81af498f8d",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "costimulation",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "99601e13d0ef303a68a8a88e35b62aaa79d7844e505f2227412df290ec966625",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "costimulation",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "0bdd089ef7095b806b47d9a759ef6a7b1883145a3fb7ccde2ae1566b4a47b320",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "costimulation",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "068e1d239189c900a6d384eeaf3b1bc1254878d6c71c74e7347cb142ac8ae1f2",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "costimulation",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "c484779f256a51569f5fe6d52154027784edf8d098da3a2309ec834f4b017a4d",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "b36fb7c5a82476f69fbfa195a04268ce5db8265ed2bd39155d4d9d068714ce28",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "a990391ae54c9844580d6898ed8d8e3aaa0fdc71e148e07e5ed156803691d69a",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "0de213d1e6a5b4cffcf74826641f26c27bfe6618e4f9ea6ed7af8d958de5af51",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "f189232fc02f2d85f6e20198fcb37ca75ebbdf415309751c9663d19d1199d3ed",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "b36fb7c5a82476f69fbfa195a04268ce5db8265ed2bd39155d4d9d068714ce28",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "a990391ae54c9844580d6898ed8d8e3aaa0fdc71e148e07e5ed156803691d69a",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "d04bffd4631fb8bb9ca01b6740ce0f2362ce28526b141d1405479c6bc938bf92",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "epitope-spreading",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "387366874519a5d2a0433913dacdb37e165402eda28984ef9f4bd0329cff5eae",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "715489b768abcbc47d9173afdbc7694a7c9c3ff27d44de4e53096fcc69d16652",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "f79637f6a3a1a708e9770e1a33bc32beb66fcfe66d426cd62bdd9418bfc8d802",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "0de213d1e6a5b4cffcf74826641f26c27bfe6618e4f9ea6ed7af8d958de5af51",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "59f46782d6aa388e42c3828e5dc78812cedbea0e1e4377b950dc5d864a6b7358",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "715489b768abcbc47d9173afdbc7694a7c9c3ff27d44de4e53096fcc69d16652",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "f79637f6a3a1a708e9770e1a33bc32beb66fcfe66d426cd62bdd9418bfc8d802",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "d04bffd4631fb8bb9ca01b6740ce0f2362ce28526b141d1405479c6bc938bf92",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "immunodominance",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "f6c51172c52d69718bdae2c8ad527b9ca722565db69b822d53a5fce4182b3ea3",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "fd974c2f78316e64174dbcdea9ad2887d964bb241a4c75b388f5ffb7c33d44a0",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "6b0818517a865662ea6847fa03899c930bf6e646bc7fe2175ff13c731801d56a",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "667f674016dc3780e42de38ec9453ec21ec780776233452c125852305da21f44",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "1764d1c6f304394433bb493bfe286095e4153b56fb792cc9ed3abed92259a93d",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "d5ca87c3ba0e4a9e79c5e8a1f7d936c8e16dad2bbac6fcb26802b0102a1d6fe3",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "6b0818517a865662ea6847fa03899c930bf6e646bc7fe2175ff13c731801d56a",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "4e80d331d3d5277c103ab4a33a247fedef4644525126037d83e4710944de9ab1",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "regulatory-t-cells",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "dd90c08b8379206e206de9ea9c44e3393627f140ff018306170c29766d6b02ca",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "aebd481a5f9dc5076a32dd97161708c9ae53bdd63720e661ccf1123bf2708c23",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "9d546518b574e021afbb077974811fe1f2c2020558aae401f8f82f6db946db62",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "b8c88f86aec26991e40b25fbdbf449a58943db199753fe5f8a0679d314848ea3",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "ce5aa645916f64e155cfdba4eac6c7242e424146b0fcdedd095283b05ecab66b",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "aebd481a5f9dc5076a32dd97161708c9ae53bdd63720e661ccf1123bf2708c23",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "9d546518b574e021afbb077974811fe1f2c2020558aae401f8f82f6db946db62",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "33e4192ec0efa590a4bc14007ebd3727b8efe7ebbdb354d78b01be34805e5f86",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-exhaustion",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "4e227046874b4e63e47b943b55b7b43eccf4da248d4bceecd64215a86cba91c8",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "90ac92946159623b42e347bff9466660aeeb8fbe38e3d3d235d98ab47afb40b2",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "2cfb082229af2b99438e1c34fafd57411da63ff9e30deedf946d16c80647128a",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "0f64930d9dd2653265dcc3e3593074581e56cae57b5c183d4513f1918a9236be",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "02e84328b1fe94ca4a057b6a86807f0aacf487b619f18b4e046f5f1769a30678",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "90ac92946159623b42e347bff9466660aeeb8fbe38e3d3d235d98ab47afb40b2",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "2cfb082229af2b99438e1c34fafd57411da63ff9e30deedf946d16c80647128a",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "4eac15ce39e10eb818842c4db52250a6fb81b04f4fe60fe0e961f043438a67d1",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-priming-three-signals",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "a4160947a6c5ca2d29b414ca59ebc51958fdece1e0079d4c54dd644b69a4dfb2",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "af752b6e09d0a3568125275bc5b85a0476c3d7478a95b04e3f65821d520bde2c",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "5d64a4193c5d0a7c6395d21dd0d65a2c0cfcf9fcda256f93e9e33ace2c662642",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "e687bd276dafbb61566b200fadd8e4283711d53ee0f0fe08e0e8c00ca29c6ca0",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "879fe218e7d70486b14c955be15a2837e30520b3ef68f5975755568b743d66a3",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "af752b6e09d0a3568125275bc5b85a0476c3d7478a95b04e3f65821d520bde2c",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "5d64a4193c5d0a7c6395d21dd0d65a2c0cfcf9fcda256f93e9e33ace2c662642",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "ba813d27471996728dc90b7bbcd86f6765c6591a70c85ff0f72ee2639bef520e",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-receptor",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "b783aa3c8e9d65887059eb3b08669881ed31b7b476db0b15b78530c1f3bf4444",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "a9cc2ef679fe3415ad2c0a42ed9321e121954a83931c0bbb0bd556151089e934",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "d2a3287976e31e3e32a0f5a2931619e20faa162f3c601dee91ea0557ac227f2e",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "07b96a68ed46cde96877579318baf75967b78f074b76bd3757b82260ad516ef2",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "d3e658284e5de0ff67755429c7a0eb61ba0ae3230a84b4fbba4014c2d7b7137f",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "a9cc2ef679fe3415ad2c0a42ed9321e121954a83931c0bbb0bd556151089e934",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "d2a3287976e31e3e32a0f5a2931619e20faa162f3c601dee91ea0557ac227f2e",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "35b7e33e2e7a7d0d887eacb569f3db6fd3bbe017956b95a36822e60d78c4dd06",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-repertoire",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "a165afc60f4546ea074de0622a2f5086e1907120991c524a2e80588a9d5fb082",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "d387ca7d0a26537fa86877fa1bcf42803bf972a56805ec347b9a0f1d58c2e5a6",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "c7bfee56c09bcf2a75778a51d563d64dee606268eee233531d5e4d18dee696e4",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "966ddbe18ed2a78cb4dcd6095b821f6b02c70c0455067d35e8646438afa879da",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "fb956c0592ab9e0789a37409e800dc47a394e97fa2ede1feb2d441e415fc80c0",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "d387ca7d0a26537fa86877fa1bcf42803bf972a56805ec347b9a0f1d58c2e5a6",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "c7bfee56c09bcf2a75778a51d563d64dee606268eee233531d5e4d18dee696e4",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "b50ab1f0e57b91bda1597a886a9d6f61c40e3a5df31aaec6b51f65696e3e4f27",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell-states",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "acd10669ec3c1b2c03625a1589b21fd106eb416bc863e13ae141ab8647fc218b",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "f529a13a21d0609e8e32f27068f216015fdc544300f9a21a414dc88f3d4be1f1",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "be4f3f5db7457deae9c35303651f5a855d045708d140b44470e7fe89a2723960",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "804dc8151a8f51e779de32c8e86afb8e36fc4ee57391a0d81f4d39ab847eeb09",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "7c27c6e0880f7dee98ec41330bac8bd7288dfaa77753c6d53345186039bd0c32",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "t-cell",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "f529a13a21d0609e8e32f27068f216015fdc544300f9a21a414dc88f3d4be1f1",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "be4f3f5db7457deae9c35303651f5a855d045708d140b44470e7fe89a2723960",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "2cd3b41c8e3d4fe66cc2d251bd2692f51d033219f90ab9ea25601e7ff4cbc5e2",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "t-cell",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "5f13901fe369c29d6a82be4b13fd2deff0c9be140a111b50cd91ec1eec9316cd",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "original",
+    "section": "## Related concepts",
+    "sha256": "602c02993e24c6cacbda7d687c0e0473a15ce351b91637e2f64ab8d7fc440c90",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "original",
+    "section": "## Sources and scope",
+    "sha256": "0ca6f258bb1af34c3fb69cedb74a964fbec9066548ce28ccc0e59a5921fb99ab",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "original",
+    "section": "## Used in",
+    "sha256": "ae6cbf29a6e2185f16c3f9c2519368b05712fa4d0c6868f10ce58a6ab884aad3",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "original",
+    "section": "front matter",
+    "sha256": "68a20447c44bd3e9b9498863614aaa8819936315d6e0f4cebc3d108a1206ab70",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "later",
+    "section": "## Related concepts",
+    "sha256": "602c02993e24c6cacbda7d687c0e0473a15ce351b91637e2f64ab8d7fc440c90",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "later",
+    "section": "## Sources and scope",
+    "sha256": "0ca6f258bb1af34c3fb69cedb74a964fbec9066548ce28ccc0e59a5921fb99ab",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "later",
+    "section": "## Used in",
+    "sha256": "3a9e74ed97e3088f91a366a8719dfe6bc64ac5fd2de908f4950a47d70f083e7b",
+    "reason": "excluded from learner coverage: generated/navigation or source/review metadata"
+  },
+  {
+    "page": "thymic-output-and-aging",
+    "inventory": "later",
+    "section": "front matter",
+    "sha256": "000d9021096053f204f7fd1928c93311f0fa62c50b5afb3154431e12eee62288",
+    "reason": "Inventory metadata, dates, prerequisites and used_by are preserved custody; no learning-coverage credit or expert-review claim."
+  },
+  {
+    "scope": "all 14 assigned pages",
+    "type": "patient or personal examples",
+    "count": 0,
+    "reason": "No patient or personal examples imported. Fictional general teaching exercises are explicitly labelled and their units/limits retained. Generated backlink titles are navigation, not clinical evidence."
+  }
+]

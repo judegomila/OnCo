@@ -1,0 +1,2114 @@
+{
+  "paths": 20,
+  "versionEntries": 40,
+  "roles": {
+    "review-custody": 11,
+    "authoring-provenance": 9
+  },
+  "entries": [
+    {
+      "indexInPriorPacket": 1,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/node-count-and-deposit-size-context-v1-next-gap-137-independent-task-fit.json",
+      "bytes": 12224,
+      "gitBlob": "f3c0a6f7da73ec6c193ab911c55aa7beec5d92f8",
+      "sha256": "77d8cba5362696c4dda206fb48c967d695fec7abda2733cedc15e462cf67db33",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 12224,
+          "bytesMatchManifest": true,
+          "gitBlob": "f3c0a6f7da73ec6c193ab911c55aa7beec5d92f8",
+          "blobMatchesManifest": true,
+          "sha256": "77d8cba5362696c4dda206fb48c967d695fec7abda2733cedc15e462cf67db33",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 12224,
+          "bytesMatchManifest": true,
+          "gitBlob": "f3c0a6f7da73ec6c193ab911c55aa7beec5d92f8",
+          "blobMatchesManifest": true,
+          "sha256": "77d8cba5362696c4dda206fb48c967d695fec7abda2733cedc15e462cf67db33",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 109,
+        "stringLeavesOver40chars": 59,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "displayReview block read in full (reference copy)"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E04",
+            "C04"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS)",
+          "escalations": [
+            "E04",
+            "C04"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "independent task-fit review record (next-gap-137)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Body is a review receipt: reviewer/author thread ids, verdict PASS, custody hash list, sourceReview read-depth ledger, a batch-wide displayReview block and zero-credit/pending flags. The only science is the sourceFitAssessment reasoning (two fictional axillary cases; three 0.8 mm deposits -> pN1mi, one 4 mm deposit -> pN1a; 16:80 px = 0.8:4 mm). That is review prose about a figure whose reader-facing text lives in the owner/SVG, not a lesson. PASS is self-attested by an agent thread and is not a science certification.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E04",
+        "C04"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "07b252ef899c9f92dbc5762a264ccbe9fe25ae492a7ec5e2a2a7bcc150b799ff",
+          "meaning": "current: equals owner body at BOTH pinned refs"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "a704826e794f6434d4560a85f06cb6a42e3ef04355931d8ee1d9e29ad6d0724d",
+          "meaning": "historical pre-insertion preimage (git b52c5ec, 2026-10-10); not a pinned body"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "'private prospective135-140' (canonicalAssignmentAdoption) - locator only, not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP Breast.Invasive.Res 4.11.0.0 PDF (url)",
+        "NCI PDQ breast treatment HP (url)"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "pN1mi/pN1a mapping for the fictional cases: raw CAP 4.11 text (lines ~617-632, 774-800) states micrometastasis >0.2 to 2 mm, 'if only micrometastasis is present count as pN1mi', macrometastasis-containing set pN1a. Consistent with the SVG text I read. Recorded as a lead only; SVG pixels, 'three involved nodes' arithmetic against the full N-category rule and expert review not done.",
+      "reviewObservation": "Display-review block is byte-identical across 01/04/07/33 and scopes 'six new native pairs', not this owner alone; it supplies no source-science grade (its own limitation text).",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 2,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/node-count-and-deposit-size-context-v1-provenance.json",
+      "bytes": 2545,
+      "gitBlob": "9f3877064ebc5981c5f31a3a17426baad4bfa36b",
+      "sha256": "4ddd51a1c1765f2942a996ddd40b6a6d8793833894f239dc973f6b0747bd5dec",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 2545,
+          "bytesMatchManifest": true,
+          "gitBlob": "9f3877064ebc5981c5f31a3a17426baad4bfa36b",
+          "blobMatchesManifest": true,
+          "sha256": "4ddd51a1c1765f2942a996ddd40b6a6d8793833894f239dc973f6b0747bd5dec",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 2545,
+          "bytesMatchManifest": true,
+          "gitBlob": "9f3877064ebc5981c5f31a3a17426baad4bfa36b",
+          "blobMatchesManifest": true,
+          "sha256": "4ddd51a1c1765f2942a996ddd40b6a6d8793833894f239dc973f6b0747bd5dec",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 34,
+        "stringLeavesOver40chars": 18,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-confirmed",
+          "escalations": [
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-confirmed",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "code-SVG construction/provenance record",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Body records construction method (code SVG, 0 image-model calls), brief hash, two output hashes/dimensions, themePairMeaning and publicReferences scope limits. No lesson content; the publicReferences scopes are access/depth disclaimers.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "sourceOwnerPreimageSHA256",
+          "sha256": "a704826e794f6434d4560a85f06cb6a42e3ef04355931d8ee1d9e29ad6d0724d",
+          "meaning": "historical pre-insertion preimage (b52c5ec); pinned owner is 07b252ef at both refs"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "sourceObservedCommit 64923746ef83... not resolvable in the local oncoguide object database; not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP 4.11 PDF",
+        "NCI PDQ breast treatment HP"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "none",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 4,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/specimen-collection-and-later-addendum-v1-next-gap-138-independent-task-fit.json",
+      "bytes": 11130,
+      "gitBlob": "de01f4d78ff5304d723e9eec593464dc5aa18b6f",
+      "sha256": "694e5b58f58c85323f42eb28c0a857d174c436eaa431d2e49c118eb74dd21b38",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 11130,
+          "bytesMatchManifest": true,
+          "gitBlob": "de01f4d78ff5304d723e9eec593464dc5aa18b6f",
+          "blobMatchesManifest": true,
+          "sha256": "694e5b58f58c85323f42eb28c0a857d174c436eaa431d2e49c118eb74dd21b38",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 11130,
+          "bytesMatchManifest": true,
+          "gitBlob": "de01f4d78ff5304d723e9eec593464dc5aa18b6f",
+          "blobMatchesManifest": true,
+          "sha256": "694e5b58f58c85323f42eb28c0a857d174c436eaa431d2e49c118eb74dd21b38",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 101,
+        "stringLeavesOver40chars": 53,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "displayReview block printed and read in full; equals body 01 block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E05",
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS)",
+          "escalations": [
+            "E05",
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "independent task-fit review record (next-gap-138)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Review receipt for the specimen-collection/addendum figure. Science-bearing text is the sourceFitAssessment reasoning (addendum refers back to pretreatment biopsy B; issue date does not change collection into residual post-treatment pathology; cT3 vs T4 retained; no pM0). Read depth is selected CAP Notes K/N paragraphs only. Review verdict is self-attested.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E05",
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "8e5d25c39fce775ddc4e400f853b799365186038d67c60e727a6a4b7382c5fae",
+          "meaning": "HISTORICAL owner version (git 052e26fb, 2026-10-12); pinned owner is 8ce9a28b at both refs; diff = one navigation link title"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "c00a8d97363a5eec5dc8d431841840845236c43108eab4a212001e91a572085f",
+          "meaning": "historical preimage (ea9e3b6, 2026-10-10)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "'private prospective135-140' locator not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP 4.11 PDF"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "CAP 4.11 y/p notes: not re-read by me beyond identity/version page; E05 stays open.",
+      "reviewObservation": "Cited current-owner hash is NOT the pinned body at either ref (C02 stands); the drift is navigation only.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 5,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/specimen-collection-and-later-addendum-v1-provenance.json",
+      "bytes": 2187,
+      "gitBlob": "f645a27f11186bbca08247be6ee1726e81ec3a46",
+      "sha256": "149678c84cf6dd0fa425636acc13686ca62da9058ac6fdb5b11b8ac449cff4f1",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 2187,
+          "bytesMatchManifest": true,
+          "gitBlob": "f645a27f11186bbca08247be6ee1726e81ec3a46",
+          "blobMatchesManifest": true,
+          "sha256": "149678c84cf6dd0fa425636acc13686ca62da9058ac6fdb5b11b8ac449cff4f1",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 2187,
+          "bytesMatchManifest": true,
+          "gitBlob": "f645a27f11186bbca08247be6ee1726e81ec3a46",
+          "blobMatchesManifest": true,
+          "sha256": "149678c84cf6dd0fa425636acc13686ca62da9058ac6fdb5b11b8ac449cff4f1",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 31,
+        "stringLeavesOver40chars": 15,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-confirmed",
+          "escalations": [
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-confirmed",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "code-SVG construction/provenance record",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Construction method, brief hash, output hashes, scope limits for the specimen-timeline SVG pair. No teaching text.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "sourceOwnerPreimageSHA256",
+          "sha256": "c00a8d97363a5eec5dc8d431841840845236c43108eab4a212001e91a572085f",
+          "meaning": "historical preimage; pinned tnm-staging.md is 8ce9a28b at both refs"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "sourceObservedCommit 64923746ef83... not resolvable locally; not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP 4.11 PDF"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "none",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 7,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/three-microscopic-features-before-grade-v1-next-gap-135-independent-task-fit.json",
+      "bytes": 11936,
+      "gitBlob": "8ea58b0ec6489503b77896c0cb402166d2583df0",
+      "sha256": "309577bfa95efea326009b3674cd67d0e4e59a7af6b6008f65049d41c93bbc14",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 11936,
+          "bytesMatchManifest": true,
+          "gitBlob": "8ea58b0ec6489503b77896c0cb402166d2583df0",
+          "blobMatchesManifest": true,
+          "sha256": "309577bfa95efea326009b3674cd67d0e4e59a7af6b6008f65049d41c93bbc14",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 11936,
+          "bytesMatchManifest": true,
+          "gitBlob": "8ea58b0ec6489503b77896c0cb402166d2583df0",
+          "blobMatchesManifest": true,
+          "sha256": "309577bfa95efea326009b3674cd67d0e4e59a7af6b6008f65049d41c93bbc14",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 109,
+        "stringLeavesOver40chars": 58,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "displayReview block printed and read in full; equals body 01 block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E06",
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS)",
+          "escalations": [
+            "E06",
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "independent task-fit review record (next-gap-135)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Review receipt for the three-microscopic-features figure. Science-bearing text is the reasoning (tubule formation, nuclear appearance, mitotic figures; fictional 2+3+3=8 within retained 8-9 grade-3 range) and guardrails (mitosis needs field area and method; nuclear darkness is not mitosis; grade is not stage). Cites CAP grade template lines and NCI tumor-grade lines by number only.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E06",
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "f2b3e769f846a3bd8833a0227357fa0f499ebbe079b6353f295ab7f650bf3a00",
+          "meaning": "HISTORICAL owner version (052e26fb); pinned owner is 40f851ef at both refs; diff = used_by/navigation only"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "5c895a412092bd8df2e42d14b14196b310a49598f24138ae2c47a6bda35c6a50",
+          "meaning": "historical preimage (ea9e3b6)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "'private prospective135-140' locator not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP 4.11 PDF",
+        "NCI tumor-grade page"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "'8-9 = grade 3' is the Nottingham sum-to-grade mapping; reasoning agrees with CAP convention but I did not re-read the grade template lines.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 8,
+      "path": "wiki/education/concepts/breast-cancer/grade-and-stage/images/prompts/three-microscopic-features-before-grade-v1-provenance.json",
+      "bytes": 2438,
+      "gitBlob": "60c444ef3e3a92b8790b504c14d70170892189ad",
+      "sha256": "003740fbef54653f1901ac21063382c48e6ecf5cd58dc25eef4f84f080dba1f3",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 2438,
+          "bytesMatchManifest": true,
+          "gitBlob": "60c444ef3e3a92b8790b504c14d70170892189ad",
+          "blobMatchesManifest": true,
+          "sha256": "003740fbef54653f1901ac21063382c48e6ecf5cd58dc25eef4f84f080dba1f3",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 2438,
+          "bytesMatchManifest": true,
+          "gitBlob": "60c444ef3e3a92b8790b504c14d70170892189ad",
+          "blobMatchesManifest": true,
+          "sha256": "003740fbef54653f1901ac21063382c48e6ecf5cd58dc25eef4f84f080dba1f3",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 34,
+        "stringLeavesOver40chars": 17,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-confirmed",
+          "escalations": [
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-confirmed",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "code-SVG construction/provenance record",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Construction method, brief hash, output hashes and scope limits. No teaching text.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "sourceOwnerPreimageSHA256",
+          "sha256": "5c895a412092bd8df2e42d14b14196b310a49598f24138ae2c47a6bda35c6a50",
+          "meaning": "historical preimage; pinned histologic-grade.md is 40f851ef at both refs"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "sourceObservedCommit 64923746ef83... not resolvable locally; not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP 4.11 PDF",
+        "NCI tumor-grade page"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "none",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 10,
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/peer-reviews/next-gap-242-independent-owner-review.json",
+      "bytes": 13855,
+      "gitBlob": "31d2d7d0b785432974f4a19d56f93c6bb394955f",
+      "sha256": "7674ed4a7b23b9f554e5cb2e1ee179470d781a5af309cd8b30b063a6a929ca0b",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 13855,
+          "bytesMatchManifest": true,
+          "gitBlob": "31d2d7d0b785432974f4a19d56f93c6bb394955f",
+          "blobMatchesManifest": true,
+          "sha256": "7674ed4a7b23b9f554e5cb2e1ee179470d781a5af309cd8b30b063a6a929ca0b",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 13855,
+          "bytesMatchManifest": true,
+          "gitBlob": "31d2d7d0b785432974f4a19d56f93c6bb394955f",
+          "blobMatchesManifest": true,
+          "sha256": "7674ed4a7b23b9f554e5cb2e1ee179470d781a5af309cd8b30b063a6a929ca0b",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 198,
+        "stringLeavesOver40chars": 72,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E07",
+            "C04"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS)",
+          "escalations": [
+            "E07",
+            "C04"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "independent task-fit review record (next-gap-242, BRCAness)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Largest review body. Carries verdict flags, whole-custody hash list, privacy block, two sourceChecks, 10 fresh-capture hashes, native pixel metrics (min label px, contrast 6.10, Escape focus not restored) and a zero-credit ledger. Science sits in sourceFitAssessment.reasoning and sourceChecks.supports (reversion/RAD51 selected cohort; scars persist after HRR restoration). Review assertions, not reader copy.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E07",
+        "C04"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+          "meaning": "current: equals owner body at BOTH pinned refs"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256/frozenPageSHA256",
+          "sha256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+          "meaning": "historical preimage (b52c5ec); sourceBaseCommit b3704aa2 not resolvable locally"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "captures/*.png paths (10 capture hashes): not present in repo, not followed",
+        "'author handoff/seal/inventory' hashes: custody locators only"
+      ],
+      "embeddedIdentifiers": [
+        "PMID 32245699",
+        "Europe PMC PMC5961353 fullTextXML"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "32245699 abstract (read): 8 patients, 4 BRCA1/4 BRCA2, 4 PARPi/4 platinum; 4/8 reversion; RAD51 foci acquired post-resistance in all patients with genomic reversion. Matches the leaf's selected-cohort wording. Abstract-level only.",
+      "reviewObservation": "Support attribution is wrong in part: sourceChecks[1].supports says Cruz shows 'historical genomic scars can persist after HRR restoration'. In the raw Cruz 2018 full text this is an Introduction sentence citing Watkins 2014 (ref 26), not a Cruz finding; Cruz's abstract does not state it. Keep E07 open; primary lead = Watkins 2014 (resolve before use).",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 11,
+      "path": "wiki/education/concepts/breast-cancer/hereditary-risk/images/prompts/persistent-scar-and-current-repair-state-b10-v1-provenance.json",
+      "bytes": 3820,
+      "gitBlob": "c50478e00b03b69e96ca7c6d2a43cdb731665aa2",
+      "sha256": "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 3820,
+          "bytesMatchManifest": true,
+          "gitBlob": "c50478e00b03b69e96ca7c6d2a43cdb731665aa2",
+          "blobMatchesManifest": true,
+          "sha256": "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 3820,
+          "bytesMatchManifest": true,
+          "gitBlob": "c50478e00b03b69e96ca7c6d2a43cdb731665aa2",
+          "blobMatchesManifest": true,
+          "sha256": "bd80ed8bbbfafd8ffbb8233242ff8442e5284d3f75934e23c30211118dd60ce7",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 44,
+        "stringLeavesOver40chars": 28,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E07",
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "E07",
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "authored-vector provenance with source-read bounds",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Authoring record: task id, learner task/gap/guardrails restated from the frozen task, method (manual SVG via Python), prompt hash, two native hashes and a five-URL sourceReadBounds ledger with access failures (reCAPTCHA, Anubis). It restates the figure's learner task but teaches nothing itself.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E07",
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "frozenPageSHA256 / currentSourcePreimageSHA256",
+          "sha256": "5ca86c53e2f097fe5eff5d3d9eb8b6e22d5a05202b21938266774c62a64d99c2",
+          "meaning": "historical preimage"
+        },
+        {
+          "field": "finalCandidateSHA256",
+          "sha256": "181aa83c8ccc0510c4d6b6e89506d88ce4b4f5d915356bd7f085236fb56b9495",
+          "meaning": "current: equals pinned owner at both refs"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "sourceTeachingAnchor b3704aa2... not resolvable locally; not followed"
+      ],
+      "embeddedIdentifiers": [
+        "PMID 32245699 = PMC7946408 (one paper, two URLs)",
+        "PMID 28288110 HRDetect",
+        "PMC5961353 = PMID 29635390 = ddd.uab.cat PDF (one paper, two URLs)"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "The five source URLs are only three distinct papers; do not count five sources. HRDetect abstract is a classifier paper and does not address scar persistence or RAD51.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 13,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/next-gap-059-combined19-current-owner-task-fit-continuity.json",
+      "bytes": 7980,
+      "gitBlob": "445c70f245dd9ddb22f91336a52238d3b1bba447",
+      "sha256": "ca19b77468ea042e9a95414db5afe9d9ddb8816018f24f302479966b6354f933",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 7980,
+          "bytesMatchManifest": true,
+          "gitBlob": "445c70f245dd9ddb22f91336a52238d3b1bba447",
+          "blobMatchesManifest": true,
+          "sha256": "ca19b77468ea042e9a95414db5afe9d9ddb8816018f24f302479966b6354f933",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 7980,
+          "bytesMatchManifest": true,
+          "gitBlob": "445c70f245dd9ddb22f91336a52238d3b1bba447",
+          "blobMatchesManifest": true,
+          "sha256": "ca19b77468ea042e9a95414db5afe9d9ddb8816018f24f302479966b6354f933",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 95,
+        "stringLeavesOver40chars": 42,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (continuity, navigation-only)",
+          "decision": "support-confirmed",
+          "escalations": [
+            "C02",
+            "C04"
+          ]
+        },
+        "round6": {
+          "decision": "support-confirmed",
+          "actualRole": "review-record (continuity, navigation-only)",
+          "escalations": [
+            "C02",
+            "C04"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "continuity review (navigation-only owner change), next-gap-059",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Body is a current-owner continuity addendum: it asserts that only generated used_by/Used-in navigation changed between the reviewed preimage and the proposed owner, binds prior review/release hashes, and states 'no science or pixel review repeated'. Role is custody of a routing change; it is not itself routing and not teaching.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "C02",
+        "C04"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C03",
+          "reason": "owner body differs between original and later pinned ref (extended use; navigation/link churn, plus one added link in brain-metastasis-risk) and from the hash cited in the review"
+        },
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "63b9e8fe7ac0a5edbc0979789f8bddc5e9e269f31f4bc2b2fd1684c3508a3664",
+          "meaning": "HISTORICAL owner version (4738f1ca, 2026-10-13); pinned owner is 6b5a0e52 at O and 9f4974fd at L"
+        },
+        {
+          "field": "metadataContinuity.previousOwnerSHA256",
+          "sha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+          "meaning": "historical (dda084dd, 2026-10-12)"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+          "meaning": "historical preimage (b52c5ec)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "no /tmp paths; 'source98'/teachingContentBaseCommit 98a29eb7... not resolvable locally"
+      ],
+      "embeddedIdentifiers": [],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "Cross-hashes verified: priorReviews.selectedSourceFitReview.sha256 f8b64723 equals pinned body 14; oligo-histories-v1.json hash b35f785d equals pinned body 15. Owner diff O->L and cited->L is navigation/link paths only (read).",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 14,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1-independent-owner-review.json",
+      "bytes": 7376,
+      "gitBlob": "f68ff6e88221f1331037e05bb785d7772526517f",
+      "sha256": "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 7376,
+          "bytesMatchManifest": true,
+          "gitBlob": "f68ff6e88221f1331037e05bb785d7772526517f",
+          "blobMatchesManifest": true,
+          "sha256": "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 7376,
+          "bytesMatchManifest": true,
+          "gitBlob": "f68ff6e88221f1331037e05bb785d7772526517f",
+          "blobMatchesManifest": true,
+          "sha256": "f8b647234492ce9f40b31ba779e2c17ed1a5fea453e120b2207aa30dc2f5ba93",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 84,
+        "stringLeavesOver40chars": 44,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent owner review, superseded in part)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E08",
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent owner review, superseded in part)",
+          "escalations": [
+            "E08",
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "addendum owner-binding review, next-gap-059 (superseded in part)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Review record binding an exact frozen task, owner candidate bytes and native-pair custody to selected id next-gap-059. States scientific/pixel review NOT repeated. Reasoning restates the Casey/Drew/Robin timelines (same numeral two, different burden) as the fictional exercise. Superseded in part by body 13 for the owner hash.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E08",
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C03",
+          "reason": "owner body differs between original and later pinned ref (extended use; navigation/link churn, plus one added link in brain-metastasis-risk) and from the hash cited in the review"
+        },
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "b16ed55ff06782d136291afc4874db336ea1108fed69ed2b48ba869aaa164ca1",
+          "meaning": "HISTORICAL owner version (dda084dd, 2026-10-12); pinned owner 6b5a0e52 (O) / 9f4974fd (L)"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+          "meaning": "historical preimage"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "originalPackageReview artifact 'breast-four-owner-independent-review-01' (7b6c6afb...) not present in set; locator only"
+      ],
+      "embeddedIdentifiers": [],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "Field 'currentOwnerFieldMeaning' says the hash is 'prospective for canonical integration; not an assertion of current adoption' - treat as historical, never as current owner.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 15,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/oligo-histories-v1.json",
+      "bytes": 3488,
+      "gitBlob": "061ccce89be1f6efd2f8de41bedb14a35076fa89",
+      "sha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 3488,
+          "bytesMatchManifest": true,
+          "gitBlob": "061ccce89be1f6efd2f8de41bedb14a35076fa89",
+          "blobMatchesManifest": true,
+          "sha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 3488,
+          "bytesMatchManifest": true,
+          "gitBlob": "061ccce89be1f6efd2f8de41bedb14a35076fa89",
+          "blobMatchesManifest": true,
+          "sha256": "b35f785d4e04c2372c960ad2e2021318baa89e09684a291ded3b36d5cb7f507a",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 41,
+        "stringLeavesOver40chars": 27,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E08",
+            "C02",
+            "C04",
+            "C07"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "E08",
+            "C02",
+            "C04",
+            "C07"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "code-SVG provenance with four-source ledger (oligo histories)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Provenance record with a sourceReview list giving read depths for four sources and a usedFor sentence each. The usedFor statements are authoring claims about what a source supports. No reader copy.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E08",
+        "C02",
+        "C04",
+        "C07"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C03",
+          "reason": "owner body differs between original and later pinned ref (extended use; navigation/link churn, plus one added link in brain-metastasis-risk) and from the hash cited in the review"
+        },
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "basis.ownerPreimageSHA256",
+          "sha256": "23b998fb9e7daca8550b81fd5e0728718f0f6643d5de1a66c85bf4181145337e",
+          "meaning": "historical preimage; pinned owner 6b5a0e52 (O) / 9f4974fd (L)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "basis.sourceCommit 8ff971e6... not resolvable locally",
+        "privateAids author.py and sources/ (not delivered) - not followed"
+      ],
+      "embeddedIdentifiers": [
+        "repub.eur.nl pub 130575 = Lievens 2020 ESTRO-ASTRO consensus, Radiother Oncol 148:157-166, PMID 32388150 DOI 10.1016/j.radonc.2020.04.003",
+        "PMID 31908301 = Guckenberger 2020 ESTRO-EORTC consensus, Lancet Oncol",
+        "PMID 35643253 SABR-COMET extended, IJROBP 2022",
+        "PMID 42842849 NRG-BR002, JCO 2026"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "Abstract-level identity only for 31908301, 35643253, 42842849.",
+      "reviewObservation": "C07 confirmed: two DIFFERENT consensus documents (ESTRO-ASTRO via repub.eur.nl; ESTRO-EORTC via PMID 31908301) are carried; the first is described as 'primary full-consensus PDF' but is a consensus statement, not a primary study. Passage read: no fixed number of metastases defines OMD; systemic-therapy-induced OMD distinct; oligoprogression a different entity.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 17,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/patient-event-denominators-and-clocks-v1-independent-owner-review.json",
+      "bytes": 7889,
+      "gitBlob": "22d50b7462474a5ad0024accf9ee20d4f4601e34",
+      "sha256": "e0d13ec82085bf238e7bd63e258f702ba8cd422274797da315c69cda2828f60c",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 7889,
+          "bytesMatchManifest": true,
+          "gitBlob": "22d50b7462474a5ad0024accf9ee20d4f4601e34",
+          "blobMatchesManifest": true,
+          "sha256": "e0d13ec82085bf238e7bd63e258f702ba8cd422274797da315c69cda2828f60c",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 7889,
+          "bytesMatchManifest": true,
+          "gitBlob": "22d50b7462474a5ad0024accf9ee20d4f4601e34",
+          "blobMatchesManifest": true,
+          "sha256": "e0d13ec82085bf238e7bd63e258f702ba8cd422274797da315c69cda2828f60c",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 103,
+        "stringLeavesOver40chars": 42,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E09",
+            "C02",
+            "C04"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS)",
+          "escalations": [
+            "E09",
+            "C02",
+            "C04"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "independent review record with correction check (next-gap-163, B06-G3-C1)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Review record whose verdict PASS follows an earlier whole-package REVISE; it binds a finite phrase/custody correction and inherits the unchanged scientific/pixel review by hash. Science-bearing text is reasoning (100 dots: 5 brain-involved recurrent, 15 other recurrent, 80 others; 5/20 = 25%, 5/100 = 5%; enrollment-origin two-year clock; raw fractions not competing-risk estimates).",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E09",
+        "C02",
+        "C04"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C03",
+          "reason": "owner body differs between original and later pinned ref (extended use; navigation/link churn, plus one added link in brain-metastasis-risk) and from the hash cited in the review"
+        },
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "3e89574c0f1de3457444ae0be9bc67e037af43e148196e6d8b38aecc208e1bf2",
+          "meaning": "HISTORICAL owner version (f16b6c18, 2026-10-13); pinned owner 4811d8be (O) / f77a73b8 (L)"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "2e3efcab690ca89a8f9d206b26073a5f66390afd3f28511085ac4b4ae06bc7af",
+          "meaning": "historical preimage (b52c5ec)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "candidatePath/receiptPath/path values under /tmp/education-next-visual-batch-06/... (5 leaves): private locators, not followed",
+        "originalWholeReview receipt 93e17200..., seal 53deea40..., source-reading 0ca1185b..., pixel inspection f3e517dc...: not in set"
+      ],
+      "embeddedIdentifiers": [],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "Arithmetic only; no clinical estimate asserted.",
+      "reviewObservation": "originalWholeReview.verdict is REVISE; the PASS is a narrow correction check. O->L owner diff: one added competing-event link and two related links (read); cited->L adds nothing to the arithmetic. Dot arithmetic (5+15+80=100; 5/20, 5/100) re-derived by me.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 18,
+      "path": "wiki/education/concepts/breast-cancer/natural-history/images/prompts/patient-event-denominators-and-clocks-v1-provenance.json",
+      "bytes": 5444,
+      "gitBlob": "9fa2f344784d977acae7aa87b3522a1808665f22",
+      "sha256": "2aa050e2e4c26e1e07a0fe8aea16a51ac3cb14d5c28e0c38570fb0fae094b6ef",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 5444,
+          "bytesMatchManifest": true,
+          "gitBlob": "9fa2f344784d977acae7aa87b3522a1808665f22",
+          "blobMatchesManifest": true,
+          "sha256": "2aa050e2e4c26e1e07a0fe8aea16a51ac3cb14d5c28e0c38570fb0fae094b6ef",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 5444,
+          "bytesMatchManifest": true,
+          "gitBlob": "9fa2f344784d977acae7aa87b3522a1808665f22",
+          "blobMatchesManifest": true,
+          "sha256": "2aa050e2e4c26e1e07a0fe8aea16a51ac3cb14d5c28e0c38570fb0fae094b6ef",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 73,
+        "stringLeavesOver40chars": 35,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E09"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "E09"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "code-SVG provenance with five-source read-bounds ledger",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Provenance: fictional scope (100 enrolled, 20 recur, 5 brain; raw fractions), guardrails, five sources with retrieval times, failures (PubMed browser challenge -> Europe PMC fallback), generator hash and display-check metrics. Scope/guardrail text restates the figure premise; no reader copy.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E09"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C03",
+          "reason": "owner body differs between original and later pinned ref (extended use; navigation/link churn, plus one added link in brain-metastasis-risk) and from the hash cited in the review"
+        },
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "(none; carries no owner hash)",
+          "sha256": "-",
+          "meaning": "pinned owner brain-metastasis-risk.md: 4811d8be (O), f77a73b8 (L)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "no private paths; retrieval fallbacks recorded as Europe PMC REST URLs"
+      ],
+      "embeddedIdentifiers": [
+        "PMC2835546 = PMID 18833576 Lin 2008 Cancer",
+        "PMID 22359359 Dawood 2012 Cancer",
+        "PMID 28301662 Martin 2017 JAMA Oncol",
+        "PMID 20829328 Lockman 2010 Clin Cancer Res",
+        "NCI metastatic-cancer page"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "Identity + abstract depth.",
+      "reviewObservation": "Label 'Lin et al., 2008' gives no id; PMC2835546 resolves to PMID 18833576. Dawood abstract: 2448 stage I-III TNBC, 2-yr cumulative incidence of brain metastasis as first recurrence 3.7% (read) - the leaf cites it only for first-recurrence scope, not for the 25%/5% fictional numbers.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 20,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/her2-membrane-patterns-v1-independent-owner-review.json",
+      "bytes": 7749,
+      "gitBlob": "c4a1f231c01fa90d84458556eea54b277edd6457",
+      "sha256": "81131d62448f9920a7d7b077a6bd863a900314d5438a4b4fb5590064acbb5fc2",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 7749,
+          "bytesMatchManifest": true,
+          "gitBlob": "c4a1f231c01fa90d84458556eea54b277edd6457",
+          "blobMatchesManifest": true,
+          "sha256": "81131d62448f9920a7d7b077a6bd863a900314d5438a4b4fb5590064acbb5fc2",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 7749,
+          "bytesMatchManifest": true,
+          "gitBlob": "c4a1f231c01fa90d84458556eea54b277edd6457",
+          "blobMatchesManifest": true,
+          "sha256": "81131d62448f9920a7d7b077a6bd863a900314d5438a4b4fb5590064acbb5fc2",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 84,
+        "stringLeavesOver40chars": 44,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent owner binding PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E02",
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent owner binding PASS)",
+          "escalations": [
+            "E02",
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "addendum owner-binding review, next-gap-058 (HER2 membrane patterns)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Addendum review binding frozen task, owner bytes and native-pair custody; states science and pixels not repeated. Science-bearing text: reasoning on 0/0+ criteria 'selected September 2026 CAP' and guardrails (IHC 0 not zero molecules; negative status is not drug eligibility). Review claim, not reader copy.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E02",
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C03",
+          "reason": "owner body differs between original and later pinned ref (extended use; navigation/link churn, plus one added link in brain-metastasis-risk) and from the hash cited in the review"
+        },
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "614ca637735785ad9303c182586b0aeff7858dbf73ae82759a7cf35a921964a6",
+          "meaning": "HISTORICAL owner version (dda084dd, 2026-10-12); pinned owner 7b2d07a2 (O) / 44d5468f (L)"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "8288465cd37e66c3bc61c62af0153fc0f4d3721f9fd64132428be0ee98c23642",
+          "meaning": "historical preimage (ea9e3b6)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "originalPackageReview artifact (7b6c6afb...) locator only"
+      ],
+      "embeddedIdentifiers": [],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "Raw CAP Breast.Bmk 1.6.2.0 (Sept 2026) read: Score 0 = no membrane staining; 0+ = incomplete, faint/barely perceptible, <=10% of tumor cells; 1+ = same pattern >10%; 2+ weak-moderate complete >10% (other listed patterns); 3+ complete intense >10%, homogeneous contiguous. Agrees with the SVG text I read. Lead only; E02 stays open.",
+      "reviewObservation": "Owner text changed after the cited version (the 2026 0 vs 0+ sentence region and 'used_by'); I read the cited->L diff only for navigation lines and did not adjudicate the changed HER2 prose line.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 21,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/her2-membrane-patterns-v1.json",
+      "bytes": 3389,
+      "gitBlob": "57b1aa2e989ffe19a92a3d5d7206f6e75873d173",
+      "sha256": "8fb9a75163f161c98762dd011b902e64cc5b2476c90ae58cc5186e8ddc36fea4",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 3389,
+          "bytesMatchManifest": true,
+          "gitBlob": "57b1aa2e989ffe19a92a3d5d7206f6e75873d173",
+          "blobMatchesManifest": true,
+          "sha256": "8fb9a75163f161c98762dd011b902e64cc5b2476c90ae58cc5186e8ddc36fea4",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 3389,
+          "bytesMatchManifest": true,
+          "gitBlob": "57b1aa2e989ffe19a92a3d5d7206f6e75873d173",
+          "blobMatchesManifest": true,
+          "sha256": "8fb9a75163f161c98762dd011b902e64cc5b2476c90ae58cc5186e8ddc36fea4",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 38,
+        "stringLeavesOver40chars": 24,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-confirmed",
+          "escalations": [
+            "E02",
+            "C02",
+            "C04"
+          ]
+        },
+        "round6": {
+          "decision": "support-confirmed",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "E02",
+            "C02",
+            "C04"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "code-SVG provenance with three-source ledger (HER2)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Provenance record: method, brief hash, outputs 780x1510, three sources with access depth and usedFor. usedFor 'September 2026 IHC 0/0+ distinction, membrane patterns, extent and 3+ qualifier' is an authoring claim. Prior label 'support-confirmed' carries E02 so is inconsistent; I propose the label support-escalated-assertions.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": "label aligned from support-confirmed because E-ids/scientific assertions are attached",
+      "escalationsRetained": [
+        "E02",
+        "C02",
+        "C04"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C03",
+          "reason": "owner body differs between original and later pinned ref (extended use; navigation/link churn, plus one added link in brain-metastasis-risk) and from the hash cited in the review"
+        },
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "basis.ownerPreimageSHA256",
+          "sha256": "8288465cd37e66c3bc61c62af0153fc0f4d3721f9fd64132428be0ee98c23642",
+          "meaning": "historical preimage; pinned owner 7b2d07a2 (O) / 44d5468f (L)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "basis.sourceCommit 8ff971e6... not resolvable locally",
+        "privateAids author.py, sources/ not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP Breast.Bmk 1.6.2.0 PDF (Sept 2026)",
+        "CAP HER2 breast update SOR 2023 PDF (url, not fetched by me)",
+        "NCI breast cancer biomarker tests page"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "CAP template fetched and read as above.",
+      "reviewObservation": "none",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 23,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/peer-reviews/next-gap-277-independent-new-owner-task-fit.json",
+      "bytes": 14534,
+      "gitBlob": "7176249d698e02fd9abfd7d183f9db866ad1bc0a",
+      "sha256": "bc1dafae4943ddff6347d56673be839518129757807d942ed680939ba73ad401",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 14534,
+          "bytesMatchManifest": true,
+          "gitBlob": "7176249d698e02fd9abfd7d183f9db866ad1bc0a",
+          "blobMatchesManifest": true,
+          "sha256": "bc1dafae4943ddff6347d56673be839518129757807d942ed680939ba73ad401",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 14534,
+          "bytesMatchManifest": true,
+          "gitBlob": "7176249d698e02fd9abfd7d183f9db866ad1bc0a",
+          "blobMatchesManifest": true,
+          "sha256": "bc1dafae4943ddff6347d56673be839518129757807d942ed680939ba73ad401",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 156,
+        "stringLeavesOver40chars": 85,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS, agent)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E10",
+            "C03",
+            "C04",
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS, agent)",
+          "escalations": [
+            "E10",
+            "C03",
+            "C04",
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "independent new-owner task-fit review (next-gap-277, SOX10)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Large review: author/reviewer agents, frozen task identity incl. shared canonical owner (myoepithelial page), typed planning decision and acceptance, one sourceCheck (PMID 23260325), visual review and custody including the shared owner/native. Only review in the set that sets newPixelApproval and newScientificSourceApproval to true; these are agent self-attestations, explicitly not credited here.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E10",
+        "C03",
+        "C04",
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "96172c179405bf27c3b18b4f9d14a4c07f2b6fa3b8c9a9c1f5993457630a6154",
+          "meaning": "current: equals sox10 owner at BOTH pinned refs"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256 / frozenTaskIdentity.pageSHA256",
+          "sha256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+          "meaning": "historical pre-insertion baseline (b52c5ec)"
+        },
+        {
+          "field": "custody.hashes myoepithelial-cells-and-basement-membrane.md",
+          "sha256": "db9645c50afbe4691455da06e86865f60cf3e3d0868c322867adbb19ec03fb9a",
+          "meaning": "equals shared owner at O; shared owner at L is 844e299c85f8 (C03 confirmed); the two myoepithelial SVGs and brief are unchanged at both refs"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "'private prospective' author custody zip/seal/manifest hashes: locators only"
+      ],
+      "embeddedIdentifiers": [
+        "PMID 23260325 Sox10 breast (Hum Pathol 2013)"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "Abstract depth only.",
+      "reviewObservation": "Support text overreaches the abstract: 'Nuclear signal can occur in benign myoepithelial cells' is a background statement in the abstract (previously documented), not a result of the study. The abstract's results: 40/100 invasive carcinomas positive; 66% (38/58) of basal-like/unclassified TN/metaplastic vs 5% (2/42) of luminal/HER2. Only one primary source supports a lineage-attribution figure; E10 stays open.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 24,
+      "path": "wiki/education/concepts/breast-cancer/receptors-and-subtypes/images/prompts/sox10-nuclear-signal-attribution-v1-provenance.json",
+      "bytes": 2328,
+      "gitBlob": "8be2ad02084c89d671a6af990ec5faf2a17af75f",
+      "sha256": "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 2328,
+          "bytesMatchManifest": true,
+          "gitBlob": "8be2ad02084c89d671a6af990ec5faf2a17af75f",
+          "blobMatchesManifest": true,
+          "sha256": "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 2328,
+          "bytesMatchManifest": true,
+          "gitBlob": "8be2ad02084c89d671a6af990ec5faf2a17af75f",
+          "blobMatchesManifest": true,
+          "sha256": "5a3263dd1c6e2a9f73444dc8dbf8bcf344f73ca0794f0c2c85caedbd62deede4",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 27,
+        "stringLeavesOver40chars": 14,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-confirmed",
+          "escalations": [
+            "C02",
+            "C04",
+            "E10"
+          ]
+        },
+        "round6": {
+          "decision": "support-confirmed",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "C02",
+            "C04",
+            "E10"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "original-SVG source provenance (private code path)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Authoring record: creative author, private /tmp source-code path, native outputs with private /tmp prospective paths, reviewStatus 'author QA only', canonicalAdoption false. No teaching. Its 'currentOwnerSHA256' field is the pre-insertion baseline, not the current owner.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": "label aligned from support-confirmed because E-ids/scientific assertions are attached",
+      "escalationsRetained": [
+        "C02",
+        "C04",
+        "E10"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSHA256",
+          "sha256": "01bea2bcd13e4f5126360bff162e34bd55731f74c452215ce65a5d6e1a5516a2",
+          "meaning": "MISLABELLED: field says current but holds the historical pre-insertion baseline (b52c5ec); pinned owner is 96172c17 at both refs"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "sourceCode and nativeOutputs[].path under /tmp/education-next-visual-batch-12/...: private locators, not followed",
+        "scientificSourceLedger 'private/primary-source-read-ledger.json': not in set, not followed"
+      ],
+      "embeddedIdentifiers": [],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "none performed beyond identity",
+      "reviewObservation": "Prior decision 'support-confirmed' carries E10 and C04; I propose label support-escalated-assertions for consistency (no change of role).",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 30,
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1-independent-owner-review.json",
+      "bytes": 7596,
+      "gitBlob": "ce2811ea82afe8408623e246378601207870d610",
+      "sha256": "ff866360ea7a010edb41a5755f4077bace5fdc12fb38db7f1d245b3f709fb7f3",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 7596,
+          "bytesMatchManifest": true,
+          "gitBlob": "ce2811ea82afe8408623e246378601207870d610",
+          "blobMatchesManifest": true,
+          "sha256": "ff866360ea7a010edb41a5755f4077bace5fdc12fb38db7f1d245b3f709fb7f3",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 7596,
+          "bytesMatchManifest": true,
+          "gitBlob": "ce2811ea82afe8408623e246378601207870d610",
+          "blobMatchesManifest": true,
+          "sha256": "ff866360ea7a010edb41a5755f4077bace5fdc12fb38db7f1d245b3f709fb7f3",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 84,
+        "stringLeavesOver40chars": 44,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E11"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS)",
+          "escalations": [
+            "E11"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "addendum owner-binding review, next-gap-057 (ENE)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Addendum binding frozen task, owner bytes and native-pair custody; no science/pixel repeat. Reasoning restates the figure claim (contiguous deposit crosses capsule; inked cut edge and vessel lumen distinct boundaries). Review claim, not reader copy.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E11"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "9d010c83d4db1445c3844d93c2a9b6b634cf4220dc93494c705c34d9fa2d5583",
+          "meaning": "current: equals owner at BOTH pinned refs"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "42883864d91ad3f49e4a1e0ee040f7a35ce34ced4c3bf158b5acbfda930b33a4",
+          "meaning": "historical preimage (0017728, 2026-10-10)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "originalPackageReview artifact locator only"
+      ],
+      "embeddedIdentifiers": [],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "CAP 4.11 raw text read: ENE measurement 'either perpendicular to the capsule or ...'; no evidence for a specific method; reporting extent optional. Agrees with the figure's 'no measurement direction'.",
+      "reviewObservation": "Prior listed only E11 for this path; C02 does not apply to the owner hash (current), but the body still cites a baseline preimage - recorded as historical.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 31,
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/ene-boundaries-v1.json",
+      "bytes": 3267,
+      "gitBlob": "d8ad311df2c1646cda2c218d4ec5c5772f1a2bb9",
+      "sha256": "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 3267,
+          "bytesMatchManifest": true,
+          "gitBlob": "d8ad311df2c1646cda2c218d4ec5c5772f1a2bb9",
+          "blobMatchesManifest": true,
+          "sha256": "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 3267,
+          "bytesMatchManifest": true,
+          "gitBlob": "d8ad311df2c1646cda2c218d4ec5c5772f1a2bb9",
+          "blobMatchesManifest": true,
+          "sha256": "7ef00b13b44b6bcb96b5734ee28e7e225ad291a3e0d4d17e5d6cfe9ce4d0bae5",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 38,
+        "stringLeavesOver40chars": 24,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "no displayReview block"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "provenance-custody (JSON)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E11",
+            "C02",
+            "C04",
+            "C07"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "provenance-custody (JSON)",
+          "escalations": [
+            "E11",
+            "C02",
+            "C04",
+            "C07"
+          ]
+        }
+      },
+      "proposedRole": "authoring-provenance",
+      "proposedSubRole": "code-SVG provenance with three-source ledger (ENE)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Provenance: method, brief hash, outputs 780x1380, sources with access depth and usedFor. usedFor statements are authoring claims; one cited paper is a survey, not an outcomes study.",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E11",
+        "C02",
+        "C04",
+        "C07"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "basis.ownerPreimageSHA256",
+          "sha256": "42883864d91ad3f49e4a1e0ee040f7a35ce34ced4c3bf158b5acbfda930b33a4",
+          "meaning": "historical preimage; pinned owner 9d010c83 (current) at both refs"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "basis.sourceCommit 8ff971e6... not resolvable locally",
+        "privateAids not followed"
+      ],
+      "embeddedIdentifiers": [
+        "CAP 4.11 PDF",
+        "PMID 36030639 = 70-pathologist international survey, Pathol Res Pract 2022",
+        "PMID 33953240 = 402-patient single-centre cohort, Sci Rep 2021"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "Abstract depth.",
+      "reviewObservation": "C07 confirmed: 36030639 is a practice survey and 33953240 an observational cohort; the leaf calls both 'primary'. Abstracts support the narrow usedFor statements (evaluation difficulty from LVI/capsule integrity/fatty hilum; ENE defined as breaking through the capsule into peripheral fat).",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    },
+    {
+      "indexInPriorPacket": 33,
+      "path": "wiki/education/concepts/breast-cancer/surgery-and-pathology-results/images/prompts/gland-removal-and-outer-structures-v1-next-gap-139-independent-task-fit.json",
+      "bytes": 12211,
+      "gitBlob": "7316c046536d5556bc7a2ee1bd88e0601bdf394f",
+      "sha256": "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec",
+      "versionEntries": [
+        {
+          "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "role": "original-pinned",
+          "pathVerified": true,
+          "bytes": 12211,
+          "bytesMatchManifest": true,
+          "gitBlob": "7316c046536d5556bc7a2ee1bd88e0601bdf394f",
+          "blobMatchesManifest": true,
+          "sha256": "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec",
+          "sha256MatchesManifest": true
+        },
+        {
+          "ref": "c96896452386202405c435aa161bc5047919337a",
+          "role": "later-pinned",
+          "pathVerified": true,
+          "bytes": 12211,
+          "bytesMatchManifest": true,
+          "gitBlob": "7316c046536d5556bc7a2ee1bd88e0601bdf394f",
+          "blobMatchesManifest": true,
+          "sha256": "80b28c726f63b41655cc6419cdfa57cfba5fadf182e839efa6e8aff7cc53d7ec",
+          "sha256MatchesManifest": true
+        }
+      ],
+      "identicalBodyAcrossRefs": true,
+      "bodyReadReceipt": {
+        "method": "git show <ref>:<path> extracted byte-exact to private return/bodies; json.loads whole body; every leaf printed and read; trailing receipt keys read",
+        "leavesCounted": 109,
+        "stringLeavesOver40chars": 57,
+        "readInFull": true,
+        "reuseOfSingleRead": "both version entries are byte-identical; one full read covers both, both entries retained",
+        "displayReviewNote": "displayReview block deep-compared equal to body 01 block (already read in full)"
+      },
+      "priorClassificationRetained": {
+        "round5": {
+          "classification": "support",
+          "role": "review-record (independent task-fit PASS)",
+          "decision": "support-escalated-assertions",
+          "escalations": [
+            "E12",
+            "C02"
+          ]
+        },
+        "round6": {
+          "decision": "support-escalated-assertions",
+          "actualRole": "review-record (independent task-fit PASS)",
+          "escalations": [
+            "E12",
+            "C02"
+          ]
+        }
+      },
+      "proposedRole": "review-custody",
+      "proposedSubRole": "independent task-fit review record (next-gap-139, lumpectomy vs mastectomy)",
+      "proposedClassification": "support",
+      "bodyBasedReason": "Review receipt for the gland-removal figure. Science text: variable local excision vs one nipple-sparing mastectomy example; skin, nipple, chest wall labelled separately; nodal procedure, radiation and systemic therapy separate. Source depth is selected NCI lines 42-56, 68-69 (lumpectomy) and 56-67 (mastectomy).",
+      "teachingBearingFinding": "none: body contains no reader-facing alt, caption, lesson prose or exercise text (leaf scan for alt/caption keys empty); science statements are review/authoring assertions restating owner or figure content",
+      "readerFacingCopyEscalation": {
+        "R01": false,
+        "why": "no alt/caption/acceptedOverallCaption leaves in this body"
+      },
+      "proposedDecision": "support-escalated-assertions",
+      "priorDecisionLabelChange": null,
+      "escalationsRetained": [
+        "E12",
+        "C02"
+      ],
+      "escalationsAddedByThisReview": [
+        {
+          "id": "C05",
+          "reason": "natives (SVG pair) and brief referenced by hash but outside this 20-path set; read only as context for 3-4 SVGs, none assessed as artwork"
+        }
+      ],
+      "escalationsClosed": [],
+      "ownerFieldEvidence": [
+        {
+          "field": "currentOwnerSha256",
+          "sha256": "452d0e8bda1d58c3debf285ba7703349884ad42e36dbab98d2d50b2189a8e37a",
+          "meaning": "HISTORICAL owner version (052e26fb, 2026-10-12); pinned owner de09c672 at BOTH refs"
+        },
+        {
+          "field": "sourceFitAssessment.baselinePageSHA256",
+          "sha256": "d097c79ca58a9f8ecf83c3fb53abe3ac090b9cbfd70f0b779071a467db149ec3",
+          "meaning": "historical preimage (0017728)"
+        }
+      ],
+      "privateOrLocalLocators": [
+        "'private prospective135-140' locator not followed"
+      ],
+      "embeddedIdentifiers": [
+        "NCI lumpectomy page",
+        "NCI mastectomy page"
+      ],
+      "identifierResolutionDepth": "identity only (id -> title/journal/year/DOI via Europe PMC) unless noted; claim support is a separate field",
+      "scientificSupportObservation": "NCI pages fetched (HTTP 200); skin-/nipple-sparing and radical/chest-wall wording present. Not a verification of the new trial figures.",
+      "reviewObservation": "MATERIAL DRIFT: the pinned owner (both refs) adds 2026-11-07 teaching after this review: a 'same survival as mastectomy' claim with NSABP B-06 and Milan I numbers, a recurrence comparison (14.3% vs 39.2%), and 'a larger operation does not improve survival in eligible patients'. None of this was within the reviewed owner or this review's source depth. It is outside this support asset's scope; queue as a separate lesson-level assessment. The review still binds only the figure/adjacent caption.",
+      "selfAttestedPassNotCertification": true,
+      "coverageCreditGranted": 0
+    }
+  ],
+  "scope": "Accepted body-based roles only; all science/custody escalations remain open. No curriculum, claim or expert credit."
+}

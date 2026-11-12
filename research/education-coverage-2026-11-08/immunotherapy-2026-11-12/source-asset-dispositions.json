@@ -1,0 +1,333 @@
+{
+  "sourceImageFiles": 20,
+  "sourceVersionEntries": 40,
+  "changedDispositions": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "44e5b157813b360b575d04ff2ea1379fd90bf6c22bad8ddbac6a9e56ca083537",
+      "requirementId": "V-002"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262",
+      "requirementId": "V-002"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+      "requirementId": "C-005"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+      "requirementId": "C-005"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+      "requirementId": "I-003"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+      "requirementId": "I-003"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "55354948639f9e00d7887c85bebf554b14481d3e5a5c3601b079aa8a3411b24e",
+      "requirementId": "S-005"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "7e189db1cc88603ac07038491a19ad99956255d65428643ff7bdcfc2b503e8ca",
+      "requirementId": "S-005"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "90673e24d7f6129702e7bc530f067d4ebfede556c4923967c213cb17a421aab8",
+      "requirementId": "T-006"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "bb38937e75e15f6b9674bcabdc7acb96721f337e43b7272d1496a37e55c3d54b",
+      "requirementId": "T-006"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "535c058344167df8e4c5c95590b88835cc32f681359fb26725eb25adbd96aaae",
+      "requirementId": "O-010"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "1922e5a358163d9fee6bd06734b5da885150671714ec5e20bbbc98e1f7acae71",
+      "requirementId": "O-010"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "f1222e2de134b50f016948627743ef912ab90026c06633dcb1eca4ecea8be45d",
+      "requirementId": "O-012"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "c562e9eaaad40690a1d2c33b72c8854316dce3c0d3fb831664a9cfafd963ef36",
+      "requirementId": "O-012"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c",
+      "requirementId": "A-002"
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92",
+      "requirementId": "A-002"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "44e5b157813b360b575d04ff2ea1379fd90bf6c22bad8ddbac6a9e56ca083537",
+      "requirementId": "V-002"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/vaccine-purpose-target-selection-and-delivery-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "82cc180abed67abb0a6f2ef4cf922fbc8bf4fb3c82cc5dea6f8e6bd933be9262",
+      "requirementId": "V-002"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "775125abd96ee8a276b0531ca01df5dba6eac630c1f9eceae52a99ad006a4f97",
+      "requirementId": "C-005"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/cytokine-receivers-and-beyond-origin-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "8c713b1c92ce1499b1116a7fff0175682f0b9f599121ff577a33e84df59c120b",
+      "requirementId": "C-005"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "5e4cae5ef71f111a917fafa8b345f23bcee056015e74d3d0290f10321a10c4e6",
+      "requirementId": "I-003"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/checkpoint-partners-and-selective-blockade-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "9aab28b4c3e8dd9df9999374fd15ed5f4afc2668d4590b85bcf1b8bd94d54903",
+      "requirementId": "I-003"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "55354948639f9e00d7887c85bebf554b14481d3e5a5c3601b079aa8a3411b24e",
+      "requirementId": "S-005"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/in-situ-vs-designed-vaccine-comparison-source-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "7e189db1cc88603ac07038491a19ad99956255d65428643ff7bdcfc2b503e8ca",
+      "requirementId": "S-005"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "90673e24d7f6129702e7bc530f067d4ebfede556c4923967c213cb17a421aab8",
+      "requirementId": "T-006"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/injection-learning-and-distant-effect-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "bb38937e75e15f6b9674bcabdc7acb96721f337e43b7272d1496a37e55c3d54b",
+      "requirementId": "T-006"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "535c058344167df8e4c5c95590b88835cc32f681359fb26725eb25adbd96aaae",
+      "requirementId": "O-010"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-entry-replication-injury-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "1922e5a358163d9fee6bd06734b5da885150671714ec5e20bbbc98e1f7acae71",
+      "requirementId": "O-010"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "f1222e2de134b50f016948627743ef912ab90026c06633dcb1eca4ecea8be45d",
+      "requirementId": "O-012"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/viral-and-tumor-target-tests-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "c562e9eaaad40690a1d2c33b72c8854316dce3c0d3fb831664a9cfafd963ef36",
+      "requirementId": "O-012"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-light.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "4d89f578481f3cbe5d668504c9f7ad79e1f3004f41ecc80cac493178cbf3618c",
+      "requirementId": "A-002"
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/therapeutics/immunotherapy/images/antigen-material-and-support-inputs-v1-dark.svg",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "156efc897671200c3f73b9126272f584043cb2c1ac03308bc07e3aa26b910f92",
+      "requirementId": "A-002"
+    }
+  ],
+  "alreadyTeachingFreshViews": [
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "C-003",
+      "sourceSha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "priorReviewRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "C-003",
+      "sourceSha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "priorReviewRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "I-002",
+      "sourceSha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "priorReviewRetained": true
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "I-002",
+      "sourceSha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "priorReviewRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "C-003",
+      "sourceSha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "priorReviewRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "C-003",
+      "sourceSha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "priorReviewRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "I-002",
+      "sourceSha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "priorReviewRetained": true
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "scope": "teaching",
+      "currentFreshReviewRequirement": "I-002",
+      "sourceSha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "priorReviewRetained": true
+    }
+  ],
+  "mermaidInstances": 8,
+  "uniqueMermaid": 4,
+  "mermaidThemeViews": 8,
+  "sourceArtworkImported": false,
+  "scope": "Teaching represented in prose, with context and layout findings separate from expert/native-pixel approval."
+}

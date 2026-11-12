@@ -1,0 +1,31 @@
+{
+  "checkedOn": "2026-11-09",
+  "scope": "Coordinator audit-metadata refresh only; existing data/product implementations are unchanged.",
+  "checks": {
+    "pinnedSourceClosures": {
+      "originalExit": 2,
+      "laterExit": 2,
+      "staleOrMissingFieldProofs": 0,
+      "reason": "Unread sources/assets, residual requirements, schema dependencies and literature remain open."
+    },
+    "educationCoverageExistingTests": {
+      "files": 1,
+      "passed": 12,
+      "durationSeconds": 0.114
+    },
+    "summaryRenderFileHashes": 234,
+    "selectedActualSummaryOrEnglishFallbackVisible": 234,
+    "dataSnapshotOwners": 65,
+    "newOwners": 34,
+    "existingOwners": 31,
+    "actualIntegratedChemicalObservationConsumers": 12,
+    "actualIntegratedChemicalObservations": 46
+  },
+  "notRun": [
+    "New full suite for metadata-only refresh",
+    "New production build",
+    "New browser hydration/responsive/hosted preview"
+  ],
+  "upstreamImplementationValidation": "Current PR369 and PR376 receipts remain separately scoped in scope.json.",
+  "release": "No merge/deploy/product approval or additional curriculum reading claimed."
+}

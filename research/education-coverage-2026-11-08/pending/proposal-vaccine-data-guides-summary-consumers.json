@@ -1,0 +1,980 @@
+{
+  "version": "proposal-vaccine-data-guides-summary-consumers",
+  "state": "Actual short/long summary selectors; no new canonical IDs or named language approval",
+  "draft": 375,
+  "committedDataHead": "5937706d998ce56a77e04e12f5d2a40dae9e512f",
+  "records": [
+    {
+      "id": "neoantigen-mrna-vaccine-ar",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (ar)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "ar",
+      "available": true,
+      "text": "لقاح يُصنع لمريض واحد، ويشفّر الطفرات الفريدة في ورمه هو، لتدريب الجهاز المناعي على مطاردته."
+    },
+    {
+      "id": "neoantigen-ar",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (ar)",
+      "canonicalRecordId": "neoantigen",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-ar",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (ar)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (ar)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (ar)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ar)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-ar",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (ar)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-ar",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (ar)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-ar",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (ar)",
+      "canonicalRecordId": "variant-calling",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (ar)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-ar",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (ar)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "ar",
+      "available": true,
+      "text": "طفرات الخط الجرثومي موروثة وموجودة في كل خلية؛ أما الطفرات الجسدية فتنشأ في الورم فقط."
+    },
+    {
+      "id": "vaf-ar",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (ar)",
+      "canonicalRecordId": "vaf",
+      "language": "ar",
+      "available": true,
+      "text": "نسبة قراءات الحمض النووي التي تحمل طفرة ما. تبيّن مقدار الجزء المتحوّر من العينة ومدى نسيليته."
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-de",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (de)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "de",
+      "available": true,
+      "text": "Ein für einen einzelnen Patienten hergestellter Impfstoff, der die einzigartigen Mutationen seines eigenen Tumors kodiert, um das Immunsystem darauf zu trainieren, ihn zu jagen."
+    },
+    {
+      "id": "neoantigen-de",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (de)",
+      "canonicalRecordId": "neoantigen",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-de",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (de)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-de",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (de)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (de)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (de)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-de",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (de)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-de",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (de)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-de",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (de)",
+      "canonicalRecordId": "variant-calling",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (de)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-de",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (de)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "de",
+      "available": true,
+      "text": "Keimbahnmutationen sind vererbt und in jeder Zelle vorhanden; somatische Mutationen entstehen nur im Tumor."
+    },
+    {
+      "id": "vaf-de",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (de)",
+      "canonicalRecordId": "vaf",
+      "language": "de",
+      "available": true,
+      "text": "Der Anteil der DNA-Reads, die eine Mutation tragen. Er zeigt, wie viel der Probe mutiert ist und wie klonal sie ist."
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-es",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (es)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "es",
+      "available": true,
+      "text": "Una vacuna hecha para un solo paciente, que codifica las mutaciones únicas de su tumor, para entrenar al sistema inmunitario a cazarlo."
+    },
+    {
+      "id": "neoantigen-es",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (es)",
+      "canonicalRecordId": "neoantigen",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-es",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (es)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-es",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (es)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (es)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (es)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-es",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (es)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-es",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (es)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-es",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (es)",
+      "canonicalRecordId": "variant-calling",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (es)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-es",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (es)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "es",
+      "available": true,
+      "text": "Las mutaciones germinales se heredan y están en todas las células; las somáticas surgen solo en el tumor."
+    },
+    {
+      "id": "vaf-es",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (es)",
+      "canonicalRecordId": "vaf",
+      "language": "es",
+      "available": true,
+      "text": "La fracción de lecturas de ADN que llevan una mutación. Indica cuánto de la muestra es mutante y cuán clonal es."
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-fr",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (fr)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "fr",
+      "available": true,
+      "text": "Un vaccin fabriqué pour un seul patient, qui code les mutations uniques de sa propre tumeur, afin d'entraîner le système immunitaire à la traquer."
+    },
+    {
+      "id": "neoantigen-fr",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (fr)",
+      "canonicalRecordId": "neoantigen",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-fr",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (fr)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (fr)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (fr)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (fr)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-fr",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (fr)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-fr",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (fr)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-fr",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (fr)",
+      "canonicalRecordId": "variant-calling",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (fr)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-fr",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (fr)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "fr",
+      "available": true,
+      "text": "Les mutations germinales sont héritées et présentes dans toutes les cellules ; les mutations somatiques apparaissent uniquement dans la tumeur."
+    },
+    {
+      "id": "vaf-fr",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (fr)",
+      "canonicalRecordId": "vaf",
+      "language": "fr",
+      "available": true,
+      "text": "La fraction des lectures d'ADN portant une mutation. Elle indique quelle part de l'échantillon est mutée et à quel point elle est clonale."
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-hi",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (hi)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "hi",
+      "available": true,
+      "text": "एक मरीज़ के लिए बना टीका, जो उसके ट्यूमर के अद्वितीय म्यूटेशन कोड करता है, ताकि प्रतिरक्षा तंत्र उसका शिकार करना सीखे।"
+    },
+    {
+      "id": "neoantigen-hi",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (hi)",
+      "canonicalRecordId": "neoantigen",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-hi",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (hi)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (hi)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (hi)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (hi)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-hi",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (hi)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-hi",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (hi)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-hi",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (hi)",
+      "canonicalRecordId": "variant-calling",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (hi)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-hi",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (hi)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "hi",
+      "available": true,
+      "text": "जर्मलाइन म्यूटेशन विरासती हैं और हर कोशिका में हैं; सोमैटिक म्यूटेशन केवल ट्यूमर में उत्पन्न होते हैं।"
+    },
+    {
+      "id": "vaf-hi",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (hi)",
+      "canonicalRecordId": "vaf",
+      "language": "hi",
+      "available": true,
+      "text": "म्यूटेशन ले रहे DNA रीड्स का अंश। बताता है कि नमूने का कितना हिस्सा म्यूटेंट है और कितना क्लोनल।"
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-ja",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (ja)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "ja",
+      "available": true,
+      "text": "一人の患者のために作られるワクチンで、その患者自身の腫瘍に固有の変異情報を組み込み、免疫系にその腫瘍を追い詰めるよう教え込む。"
+    },
+    {
+      "id": "neoantigen-ja",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (ja)",
+      "canonicalRecordId": "neoantigen",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-ja",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (ja)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (ja)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (ja)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ja)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-ja",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (ja)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-ja",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (ja)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-ja",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (ja)",
+      "canonicalRecordId": "variant-calling",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (ja)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-ja",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (ja)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "ja",
+      "available": true,
+      "text": "生殖細胞系列の変異は親から受け継がれ、体のすべての細胞にある。体細胞変異は腫瘍の中だけで生じる。"
+    },
+    {
+      "id": "vaf-ja",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (ja)",
+      "canonicalRecordId": "vaf",
+      "language": "ja",
+      "available": true,
+      "text": "ある変異を持つDNAリードの割合である。サンプルのどれだけが変異型で、どの程度クローン性であるかを示す。"
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-pt",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (pt)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "pt",
+      "available": true,
+      "text": "Uma vacina feita para um só paciente, codificando as mutações únicas do próprio tumor, para treinar o sistema imune a caçá-lo."
+    },
+    {
+      "id": "neoantigen-pt",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (pt)",
+      "canonicalRecordId": "neoantigen",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-pt",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (pt)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (pt)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (pt)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (pt)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-pt",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (pt)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-pt",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (pt)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-pt",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (pt)",
+      "canonicalRecordId": "variant-calling",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (pt)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-pt",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (pt)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "pt",
+      "available": true,
+      "text": "Mutações germinativas são herdadas e estão em todas as células; mutações somáticas surgem só no tumor."
+    },
+    {
+      "id": "vaf-pt",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (pt)",
+      "canonicalRecordId": "vaf",
+      "language": "pt",
+      "available": true,
+      "text": "A fração de leituras de DNA que carregam uma mutação. Diz quanto da amostra é mutante e quão clonal é."
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-zh",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (zh)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "zh",
+      "available": true,
+      "text": "为单个患者制作的疫苗，编码其肿瘤独有的突变，训练免疫系统追猎它。"
+    },
+    {
+      "id": "neoantigen-zh",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (zh)",
+      "canonicalRecordId": "neoantigen",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "wes-wgs-zh",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (zh)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (zh)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (zh)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (zh)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-zh",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (zh)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-zh",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (zh)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-zh",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (zh)",
+      "canonicalRecordId": "variant-calling",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (zh)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-zh",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (zh)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "zh",
+      "available": true,
+      "text": "胚系突变是遗传的、存在于每个细胞；体细胞突变仅在肿瘤中产生。"
+    },
+    {
+      "id": "vaf-zh",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (zh)",
+      "canonicalRecordId": "vaf",
+      "language": "zh",
+      "available": true,
+      "text": "携带突变的DNA读数比例。告知样本中突变占比及克隆性。"
+    },
+    {
+      "id": "neoantigen-mrna-vaccine-simple",
+      "kind": "reader-summary-entry",
+      "name": "Personalised neoantigen (mRNA) vaccines (simple)",
+      "canonicalRecordId": "neoantigen-mrna-vaccine",
+      "language": "simple",
+      "available": true,
+      "text": "A vaccine made for one patient, based on the unique mutations in their own tumour, to train the immune system to hunt it."
+    },
+    {
+      "id": "neoantigen-simple",
+      "kind": "reader-summary-entry",
+      "name": "Neoantigen (simple)",
+      "canonicalRecordId": "neoantigen",
+      "language": "simple",
+      "available": true,
+      "text": "A changed tumour sequence can make a new protein piece. Immune cells may recognise it, but tests still need to check display, recognition and harm to healthy cells."
+    },
+    {
+      "id": "wes-wgs-simple",
+      "kind": "reader-summary-entry",
+      "name": "Whole-exome & whole-genome sequencing (simple)",
+      "canonicalRecordId": "wes-wgs",
+      "language": "simple",
+      "available": true,
+      "text": "One test reads mostly the DNA parts that code for proteins. Another reads more of the genome. Both can miss changes, so their tested regions and limits matter."
+    },
+    {
+      "id": "dendritic-cell-cross-presentation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Dendritic-cell cross-presentation (cDC1) (simple)",
+      "canonicalRecordId": "dendritic-cell-cross-presentation",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (simple)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (simple)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-simple",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (simple)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "antigen-processing-machinery-simple",
+      "kind": "reader-summary-entry",
+      "name": "Antigen-processing machinery (APM) (simple)",
+      "canonicalRecordId": "antigen-processing-machinery",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-simple",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (simple)",
+      "canonicalRecordId": "variant-calling",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (simple)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "germline-vs-somatic-simple",
+      "kind": "reader-summary-entry",
+      "name": "Germline vs somatic mutations (simple)",
+      "canonicalRecordId": "germline-vs-somatic",
+      "language": "simple",
+      "available": true,
+      "text": "Germline changes are inherited and in every cell; somatic changes arise only in the tumour."
+    },
+    {
+      "id": "vaf-simple",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (simple)",
+      "canonicalRecordId": "vaf",
+      "language": "simple",
+      "available": true,
+      "text": "The share of DNA reads carrying a mutation, which shows how much of the sample is cancer."
+    }
+  ]
+}

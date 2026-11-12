@@ -1,0 +1,400 @@
+{
+  "version": "proposal-genetic-code-root",
+  "state": "Actual committed, registered, unmerged draft fields; no main/live approval",
+  "draft": 375,
+  "committedDataHead": "0a4721b47e888d2b0b67586da29d75d05a0709de",
+  "records": [
+    {
+      "id": "genetic-code",
+      "kind": "term",
+      "name": "Genetic code and reading frame",
+      "aka": [
+        "genetic code",
+        "codon",
+        "codons",
+        "reading frame",
+        "open reading frame",
+        "triplet code",
+        "start codon",
+        "stop codon"
+      ],
+      "tldr": "A cell reads messenger RNA in groups of three letters called codons. The code says which amino acid to add or when to stop. Changing the grouping can change the protein.",
+      "summary": "The genetic code maps three-letter codons to amino acids or termination signals. A reading frame specifies how a coding sequence is grouped into consecutive, non-overlapping triplets. A codon is one unit of a message, while a protein-coding gene also includes other sequence and regulatory context; some genes instead produce functional RNA.\n\nAn open reading frame is a stretch without an internal stop in the chosen frame. A candidate start-to-stop segment can help identify a possible coding region, but an open frame alone does not show that a protein is expressed or functional. The reference sequence, transcript and translation table matter.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Genetic_code",
+      "links": [
+        {
+          "label": "Wikipedia: genetic code",
+          "url": "https://en.wikipedia.org/wiki/Genetic_code"
+        },
+        {
+          "label": "NHGRI: codons and the 64-triplet standard code",
+          "url": "https://www.genome.gov/genetics-glossary/Codon"
+        },
+        {
+          "label": "NHGRI: open reading frame",
+          "url": "https://www.genome.gov/genetics-glossary/Open-Reading-Frame"
+        },
+        {
+          "label": "NCBI: standard and vertebrate mitochondrial genetic codes",
+          "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi"
+        },
+        {
+          "label": "OpenStax Biology 2e: protein synthesis and initiation context",
+          "url": "https://openstax.org/books/biology-2e/pages/15-5-ribosomes-and-protein-synthesis"
+        },
+        {
+          "label": "HGVS: frameshift descriptions and predicted consequences",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/frameshift/"
+        },
+        {
+          "label": "HGVS: protein deletions and transcript-dependent consequences",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/"
+        },
+        {
+          "label": "ClinVar: TP53 c.524G>A, p.Arg175His",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/12374/"
+        },
+        {
+          "label": "ClinVar: BRCA1 c.68_69del, p.Glu23fs",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/17662/"
+        },
+        {
+          "label": "RefSeq: TP53 transcript NM_000546.6",
+          "url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_000546.6"
+        },
+        {
+          "label": "RefSeq: BRCA1 transcript NM_007294.4",
+          "url": "https://www.ncbi.nlm.nih.gov/nuccore/NM_007294.4"
+        },
+        {
+          "label": "MedlinePlus Genetics: BRCA1",
+          "url": "https://medlineplus.gov/genetics/gene/brca1/"
+        },
+        {
+          "label": "MedlinePlus Genetics: BRCA2",
+          "url": "https://medlineplus.gov/genetics/gene/brca2/"
+        },
+        {
+          "label": "Crick et al.: bacteriophage experiments and coding ratio (1961)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/13882203/"
+        },
+        {
+          "label": "NLM archive: Crick et al. 1961 article scan",
+          "url": "https://digirepo.nlm.nih.gov/ext/document/101584582X412/PDF/101584582X412.pdf"
+        },
+        {
+          "label": "Nirenberg: Nobel lecture, The genetic code (1968)",
+          "url": "https://www.nobelprize.org/uploads/2018/06/nirenberg-lecture.pdf"
+        },
+        {
+          "label": "Le et al.: mismatch-repair deficiency and PD-1 blockade (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28596308/"
+        },
+        {
+          "label": "Krüger et al.: mitochondrial termination at AGA and AGG (2023)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36596788/"
+        },
+        {
+          "label": "Wakigawa et al.: mitochondrial termination and frame context (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42481489/"
+        },
+        {
+          "label": "Sakai et al.: BRCA2 secondary mutations and cisplatin resistance (2008)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18264087/"
+        },
+        {
+          "label": "Sakai et al.: functional BRCA2 restoration in ovarian carcinoma models (2009)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "dna-term",
+        "central-dogma-information-flow",
+        "gene",
+        "rna",
+        "protein",
+        "mutation",
+        "nonsense-mediated-decay",
+        "brca-reversion-mutations",
+        "neoantigen"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In the standard code, four RNA letters, A, U, G and C, give 4 × 4 × 4 = 64 possible codons. Of these, 61 specify the 20 common amino acids and UAA, UAG and UGA signal termination. Several codons can specify the same amino acid; methionine has AUG and tryptophan has UGG. A third-position change often preserves the amino acid, but this is not true for every codon.",
+        "For ordinary cap-dependent eukaryotic initiation, the translation machinery scans from the front of the message and the sequence around AUG helps determine initiation. It need not use the first AUG. Initiation commonly supplies methionine; subsequent processing can change the protein end. Bacterial initiation and mitochondrial translation have their own context, and NCBI lists alternative initiation codons. An AUG within an already translated frame normally adds methionine rather than starting a second protein.",
+        "A fictional letter exercise separates frame from spelling: THE CAT SAW THE DOG groups a string into threes, while starting one letter later gives HEC ATS AWT. Biological codons have synonyms, unlike these ordinary words, so this analogy does not make every single-letter substitution damaging. The exercise identifies grouping, not a protein sequence or an estimate of mutation effects.",
+        "Coding-DNA reports use T where the corresponding RNA sequence uses U. Matching them requires the coding strand and a specified processed transcript; an unprocessed genomic stretch can contain introns. In variant notation, c. numbers coding-DNA positions and p. describes a protein consequence relative to a named reference. The symbols fs, Ter and * denote frameshift and termination. HGVS places predicted protein consequences in parentheses when RNA or protein has not been analysed.",
+        "For NM_000546.6, TP53 c.524G>A changes coding-DNA codon 175 from CGC to CAC, predicting arginine to histidine. HGVS writes an unmeasured protein consequence as p.(Arg175His); ClinVar's reference display uses p.Arg175His. The named RefSeq coding sequence reproduces the substitution. ClinVar VCV000012374 has an expert-panel pathogenic germline classification, but a classification, a protein prediction and a measured functional result are different evidence. This notation example does not establish a treatment response.",
+        "For NM_007294.4, BRCA1 c.68_69del removes the two coding bases AG and is also known as 185delAG. ClinVar VCV000017662 records the consequence as p.Glu23fs. In the exercise, 2 is not divisible by 3, so deleting those bases changes the downstream frame. Deleting three coding bases preserves the downstream grouping, but can remove an amino acid, change the codon at the join or introduce a stop. It does not guarantee a working protein; the actual sequence and transcript need checking.",
+        "The fictional standard-code substitution UGG to UGA creates a stop instead of tryptophan. A premature stop can shorten a protein or lead to nonsense-mediated RNA decay; that outcome is not established for every transcript by the variant class alone. GAA and GAG both encode glutamate, illustrating a synonymous substitution. Synonymous does not mean biologically silent: RNA processing can still change. A missense substitution changes an amino acid, while a frameshift changes the later codon grouping and may encounter a premature stop.",
+        "MedlinePlus describes many inherited BRCA1 and BRCA2 risk variants as producing a shortened or absent functional product. Frameshift and nonsense examples illustrate ways to disrupt coding information; these examples and their ClinVar entries do not estimate what fraction of all inherited BRCA variants belong to either class. Secondary tumour changes can sometimes restore a BRCA reading frame or repair function. Restoring a frame, demonstrating repair and predicting a clinical drug response remain separate questions.",
+        "The standard table is nearly universal, not universal. Human mitochondria encode 13 proteins and use a different translation table. NCBI table 2 assigns UGA to tryptophan and AUA to methionine, with AGA and AGG as termination signals. A nuclear variant should not be interpreted with that mitochondrial table. A table assignment also differs from demonstrating the release mechanism: Krüger 2023 tested release at AGA and AGG in a reconstituted mitochondrial system, and Wakigawa 2026 studied release-factor specificity in cellular translation experiments.",
+        "Two historical experiments addressed different questions. Crick and colleagues studied bacteriophage genetics in 1961; combinations of three changes could partly restore function when the individual changes did not. The authors argued for a coding ratio of three or a multiple of three, with three more likely, rather than guaranteeing that every three-base deletion is harmless. Nirenberg's 1968 Nobel lecture recounts his work with Matthaei in which synthetic poly-U directed polyphenylalanine synthesis in cell-free E. coli extracts. That connected U-rich RNA with phenylalanine, while UUU is the corresponding codon in the standard table.",
+        "Le and colleagues studied pembrolizumab in 86 people with advanced mismatch-repair-deficient cancers across 12 tumour types in 2017. They reported objective radiographic responses in 46 of 86, or 53%; this is a cohort outcome, not the response chance for any particular frameshift. Detailed mutant-peptide T-cell experiments used one responding person, and the peptides that scored positive came from frameshifts. A genomic frameshift alone does not establish natural peptide presentation, T-cell recognition or clinical benefit."
+      ],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "dna-term",
+      "kind": "term",
+      "name": "DNA",
+      "aka": [
+        "deoxyribonucleic acid",
+        "double helix",
+        "genome"
+      ],
+      "tldr": "DNA stores sequence information. Its packaging, copying and use as a template for RNA are different processes.",
+      "summary": "DNA contains nucleotide chains with a sugar–phosphate backbone and the bases A, T, C and G. Complementary A–T and C–G pairing joins antiparallel strands. Nuclear chromosomes contain DNA associated with proteins as chromatin; nucleosomes organize DNA around histones. Mitochondria carry a separate genome. A gene is a functional region within DNA, rather than an entire chromosome. Replication copies DNA, while transcription produces RNA from a selected template. Packaging and gene presence do not establish active transcription or a functional protein.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/DNA",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/DNA"
+        },
+        {
+          "label": "NHGRI: DNA fact sheet",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet"
+        },
+        {
+          "label": "NHGRI: Chromatin",
+          "url": "https://www.genome.gov/genetics-glossary/Chromatin"
+        },
+        {
+          "label": "NHGRI: Transcription",
+          "url": "https://www.genome.gov/genetics-glossary/Transcription"
+        },
+        {
+          "label": "NLM MeSH: DNA damage, repair and possible sequence consequences",
+          "url": "https://id.nlm.nih.gov/mesh/D004249.html"
+        },
+        {
+          "label": "Rogakou and colleagues: H2AX phosphorylation after DNA double-strand breaks in models",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/9488723/"
+        },
+        {
+          "label": "Revet and colleagues: gamma-H2AX signal and functional damage-response limits",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21555580/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "gene",
+        "mutation",
+        "rna",
+        "chromosome",
+        "ctdna",
+        "ngs",
+        "genomic-profiling",
+        "cellular-compartments",
+        "gene-expression",
+        "genetic-code"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A DNA lesion can be a damaged base, a strand break or a crosslink. Damage can be repaired, and is different from a stable change in the DNA sequence. The damage response is another observation: an assay for gamma-H2AX measures a histone modification associated with a response, rather than reading a variant sequence. Experimental work also shows that this signal is not an unambiguous count of double-strand breaks. A sequencing variant call, a lesion assay and a damage-response stain answer different questions; one is not a count of the others."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "mutation",
+      "kind": "term",
+      "name": "Mutation",
+      "aka": [
+        "mutations",
+        "mutated",
+        "mutant",
+        "mutants",
+        "genetic mutation",
+        "point mutation",
+        "point mutations",
+        "variant",
+        "variants",
+        "genetic alteration",
+        "genetic alterations",
+        "alteration",
+        "alterations"
+      ],
+      "tldr": "A DNA variant describes a sequence change relative to a reference. Its origin, effect and clinical importance require separate evidence.",
+      "summary": "A single-nucleotide substitution changes one base. Insertions and deletions change sequence length; copy-number and structural alterations affect larger regions and can overlap in category. In a specified coding transcript, missense changes alter an amino acid, synonymous changes preserve it, and nonsense changes introduce a stop. A net coding indel not divisible by three can shift the reading frame; an indel outside coding sequence is not automatically a frameshift. Transcript and reference versions determine the description.",
+      "asOf": "2026-11-09",
+      "wikipedia": "https://en.wikipedia.org/wiki/Mutation",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mutation"
+        },
+        {
+          "label": "NHGRI: Mutation",
+          "url": "https://www.genome.gov/genetics-glossary/Mutation"
+        },
+        {
+          "label": "NHGRI: Copy-Number-Variation-CNV",
+          "url": "https://www.genome.gov/genetics-glossary/Copy-Number-Variation-CNV"
+        },
+        {
+          "label": "NHGRI: Structural-Variation",
+          "url": "https://www.genome.gov/genetics-glossary/Structural-Variation"
+        },
+        {
+          "label": "HGVS: measured and predicted sequence consequences",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/general/"
+        },
+        {
+          "label": "HGVS: frameshift descriptions",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/frameshift/"
+        },
+        {
+          "label": "NHGRI: three-base reading frames and frameshift variants",
+          "url": "https://www.genome.gov/genetics-glossary/Frameshift-Mutation"
+        },
+        {
+          "label": "HGVS: protein deletions and predicted consequences",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/deletion/"
+        },
+        {
+          "label": "HGVS: deletion-insertion consequences, including inserted stop codons",
+          "url": "https://hgvs-nomenclature.org/stable/recommendations/protein/delins/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "dna-term",
+        "gene",
+        "driver-mutation",
+        "germline-vs-somatic",
+        "tmb",
+        "mutational-signature",
+        "vus",
+        "rna-splicing",
+        "alleles-and-zygosity",
+        "gene-fusion",
+        "genetic-code"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A DNA rearrangement, a joined RNA and a protein fusion are different observations. A predicted splice or protein consequence remains a prediction until supported at the relevant molecular level. Synonymous does not mean incapable of affecting RNA processing. Preserve genome build, accession/version, tested regions, detectable change classes and limits; pathogenicity or drug sensitivity does not follow from variant class alone.",
+        "In a specified coding transcript, an insertion or deletion of a complete number of three-base groups can preserve the downstream reading frame. It can still add or remove amino acids, change a codon at the join or introduce a stop; preserving the frame does not establish preserved protein function. The actual sequence and transcript consequences need checking. A protein-level change inferred from DNA remains a prediction until supported at the relevant molecular level."
+      ],
+      "category": "Biology basics"
+    },
+    {
+      "id": "brca-reversion-mutations",
+      "kind": "term",
+      "name": "BRCA reversion mutations",
+      "aka": [
+        "reversion mutation",
+        "reversion mutations",
+        "BRCA reversion",
+        "BRCA1 reversion",
+        "BRCA2 reversion",
+        "secondary BRCA mutation",
+        "restored homologous recombination",
+        "homologous recombination restoration",
+        "PARP inhibitor resistance mutation",
+        "acquired PARP inhibitor resistance",
+        "reversion to platinum resistance"
+      ],
+      "tldr": "A secondary change in a tumour can sometimes restore BRCA repair function and contribute to treatment resistance. A DNA prediction and demonstrated repair function are different findings.",
+      "summary": "Some tumours acquire secondary BRCA changes that restore a disrupted reading frame or enable production of functional repair protein. Such changes can contribute to resistance to platinum compounds and PARP inhibitors. A sequence-based prediction, a measured protein and demonstrated repair function are different levels of evidence; a restored frame alone does not establish a patient's drug response.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Sakai et al.: BRCA2 secondary mutations and cisplatin resistance (2008)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18264087/"
+        },
+        {
+          "label": "Sakai et al.: functional BRCA2 restoration in ovarian carcinoma models (2009)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "gbrca-mutation",
+        "hrd",
+        "brca",
+        "parp",
+        "olaparib",
+        "niraparib",
+        "rucaparib",
+        "ctdna",
+        "resistance",
+        "platinum-sensitivity"
+      ],
+      "cancers": [
+        "platinum-sensitive-ovarian-cancer",
+        "platinum-resistant-ovarian-cancer",
+        "high-grade-serous-ovarian-cancer",
+        "prostate-mcrpc",
+        "prostate"
+      ],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-quigley-brca2-reversion-cfdna-parp-resistance-cancer-discov-2017"
+      ],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Sakai 2008 described secondary BRCA2 changes that restored the reading frame in breast and pancreatic cancer models. The selected clones resisted cisplatin and the experimental PARP inhibitor AG14361. A recurrent BRCA2-mutated ovarian tumour with acquired cisplatin resistance also carried a reversion. These examples establish a possible resistance mechanism, rather than a universal frequency across cancers, assays or medicines.",
+        "Sakai 2009 studied ovarian cancer cell lines from one BRCA2-variant carrier. A secondary change cancelled an inherited nonsense variant, BRCA2 protein was detectable in resistant lines, and further experiments selected BRCA2-restored clones. Reducing BRCA2 with siRNA made the restored clones and PEO4 cells more sensitive to cisplatin and AG14361. This is evidence from a named cellular model and depletion experiment, rather than a clinical trial selecting a subsequent treatment.",
+        "Reading rule: these experiments do not supply a general incidence percentage or a treatment-switch rule. A reversion-negative result does not by itself show that every resistance mechanism is absent or establish benefit from another course of a PARP inhibitor. Interpretation needs the tested sequence regions, sample, assay limits and relevant clinical evidence. An inherited variant and a secondary tumour variant remain separate findings."
+      ],
+      "category": "Biomarkers",
+      "wikipediaChecked": "2026-09-22"
+    }
+  ]
+}

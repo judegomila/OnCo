@@ -1,0 +1,2104 @@
+{
+  "checkedOn": "2026-11-10",
+  "scope": "Repairs missing scope metadata and explicit whole-figure reading sections for already-reviewed figures. Scientific judgments, evidence points and source bytes are unchanged. No new views or new curriculum coverage are claimed.",
+  "assetVersionEntries": 72,
+  "uniquePaths": 36,
+  "sourceAssetsBeforeSha256": "71224b0c231e1a84ff4efe8a8c95b635201a7e8f34de3c44646fbe22e22bc64f",
+  "repairs": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/binding-is-only-one-step-v2-dark.png",
+      "gitBlob": "18c4da4cc18b96b9586a74df911e7ec3556196de",
+      "bytes": 2123537,
+      "sourceSha256": "5f34bbc9d22769bfa4d7c8f607ed64ffd41039fdf4a2b761bd809f52e534c5a1",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "5f34bbc9d22769bfa4d7c8f607ed64ffd41039fdf4a2b761bd809f52e534c5a1",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "18c4da4cc18b96b9586a74df911e7ec3556196de"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "5f34bbc9d22769bfa4d7c8f607ed64ffd41039fdf4a2b761bd809f52e534c5a1"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/binding-is-only-one-step-v2-light.png",
+      "gitBlob": "87ab4f64355b6a2308832d788fa24d5e878b513d",
+      "bytes": 1987033,
+      "sourceSha256": "8d77cfd53e58f133c5a0dd337a992f8143e3fa5e062e6019b9bca18eba9a8904",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "8d77cfd53e58f133c5a0dd337a992f8143e3fa5e062e6019b9bca18eba9a8904",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "87ab4f64355b6a2308832d788fa24d5e878b513d"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "8d77cfd53e58f133c5a0dd337a992f8143e3fa5e062e6019b9bca18eba9a8904"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-dark.svg",
+      "gitBlob": "a82bbab1ce266d5261932f94392f1acb71e79832",
+      "bytes": 14906,
+      "sourceSha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "a82bbab1ce266d5261932f94392f1acb71e79832"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-light.svg",
+      "gitBlob": "7fe9b83a428170b52dfb6586c8f871e822fba45b",
+      "bytes": 14906,
+      "sourceSha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "7fe9b83a428170b52dfb6586c8f871e822fba45b"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-dark.svg",
+      "gitBlob": "770295937abd040b3a509d8c19263ef2cee2ab06",
+      "bytes": 12587,
+      "sourceSha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "770295937abd040b3a509d8c19263ef2cee2ab06"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-light.svg",
+      "gitBlob": "26692ff11fec71ba07588ff860ce2a6abb20d0fb",
+      "bytes": 12587,
+      "sourceSha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "26692ff11fec71ba07588ff860ce2a6abb20d0fb"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-dark.svg",
+      "gitBlob": "3c1feed905a9fecdbd6b9ebc253f5fb046cb2853",
+      "bytes": 6519,
+      "sourceSha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "3c1feed905a9fecdbd6b9ebc253f5fb046cb2853"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-light.svg",
+      "gitBlob": "c47623e914016c25618b8c30567daf437ee81b05",
+      "bytes": 6519,
+      "sourceSha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "c47623e914016c25618b8c30567daf437ee81b05"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/selected-display-hit-sequence-and-testing-v1-dark.svg",
+      "gitBlob": "2e069e7fbfd86e3bb742f6321bae76181a4ad61d",
+      "bytes": 5264,
+      "sourceSha256": "9fdc06824290d8376ac7db3de55da39a9a95d5f669e6f8683d9d3f4f4ca27f97",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "9fdc06824290d8376ac7db3de55da39a9a95d5f669e6f8683d9d3f4f4ca27f97",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "2e069e7fbfd86e3bb742f6321bae76181a4ad61d"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "9fdc06824290d8376ac7db3de55da39a9a95d5f669e6f8683d9d3f4f4ca27f97"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/selected-display-hit-sequence-and-testing-v1-light.svg",
+      "gitBlob": "581a4d1dd115d92808e131fd964b72257f67ee17",
+      "bytes": 5264,
+      "sourceSha256": "0ff1352c365eb456cd48ec27b501e63e3ea80f531af0fdf5ac263a3e38b74b56",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "0ff1352c365eb456cd48ec27b501e63e3ea80f531af0fdf5ac263a3e38b74b56",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "581a4d1dd115d92808e131fd964b72257f67ee17"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "0ff1352c365eb456cd48ec27b501e63e3ea80f531af0fdf5ac263a3e38b74b56"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+      "gitBlob": "678840488ff1c60758c4a68af39aa4d1f0195d81",
+      "bytes": 4704,
+      "sourceSha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "678840488ff1c60758c4a68af39aa4d1f0195d81"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+      "gitBlob": "deffcec72705e9cfc35c35c14b4936ab0d07ec47",
+      "bytes": 4704,
+      "sourceSha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "deffcec72705e9cfc35c35c14b4936ab0d07ec47"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-dark.svg",
+      "gitBlob": "9bbcdf963064dfa9758811879b2677dafbadcba6",
+      "bytes": 4859,
+      "sourceSha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "9bbcdf963064dfa9758811879b2677dafbadcba6"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-light.svg",
+      "gitBlob": "a1c07902774c9946179ec92bc3b50878391c4a70",
+      "bytes": 4859,
+      "sourceSha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "a1c07902774c9946179ec92bc3b50878391c4a70"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-dark.svg",
+      "gitBlob": "1c25a448ee32197eeff7b0136e9fdcf00fd6593c",
+      "bytes": 5772,
+      "sourceSha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "1c25a448ee32197eeff7b0136e9fdcf00fd6593c"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-light.svg",
+      "gitBlob": "09dee8a81ee173fa67fcdfe4acf8881c192e3e6f",
+      "bytes": 5772,
+      "sourceSha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "09dee8a81ee173fa67fcdfe4acf8881c192e3e6f"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "gitBlob": "79ce8455bf2dfa2dc1e1a0f58976528d71cfec1c",
+      "bytes": 1659218,
+      "sourceSha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "79ce8455bf2dfa2dc1e1a0f58976528d71cfec1c"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "gitBlob": "d111fe86904d531fdbc2d0e4274a496d2236b234",
+      "bytes": 1718880,
+      "sourceSha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "d111fe86904d531fdbc2d0e4274a496d2236b234"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+      "gitBlob": "b49658b12eafda7a50e512d1bfeea45a578c6e56",
+      "bytes": 3591,
+      "sourceSha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "b49658b12eafda7a50e512d1bfeea45a578c6e56"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+      "gitBlob": "c5d8ed6947e77410555e599eff87e98b1bd1b734",
+      "bytes": 3591,
+      "sourceSha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "c5d8ed6947e77410555e599eff87e98b1bd1b734"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "gitBlob": "e59072164ab4e811f8013a8cbff1efc0d1e09852",
+      "bytes": 7183,
+      "sourceSha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "e59072164ab4e811f8013a8cbff1efc0d1e09852"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "gitBlob": "05c637b4a928be151c1949d02637f18a9ff89221",
+      "bytes": 7183,
+      "sourceSha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "05c637b4a928be151c1949d02637f18a9ff89221"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+      "gitBlob": "c4b7462b60a906215ec891db0a2f179720b0c212",
+      "bytes": 5298,
+      "sourceSha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "c4b7462b60a906215ec891db0a2f179720b0c212"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+      "gitBlob": "0c83810abf6c908138629f3e34ba0ff94b783ce8",
+      "bytes": 5298,
+      "sourceSha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "0c83810abf6c908138629f3e34ba0ff94b783ce8"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+      "gitBlob": "2d3d8b8dc1b5ddb911c3667819866b4f0c1406ed",
+      "bytes": 5547,
+      "sourceSha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "2d3d8b8dc1b5ddb911c3667819866b4f0c1406ed"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+      "gitBlob": "40ebe4b3e32bf97502f722a4853cd5e45da268b0",
+      "bytes": 5547,
+      "sourceSha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "40ebe4b3e32bf97502f722a4853cd5e45da268b0"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+      "gitBlob": "ca29502b36c6a4a46cb326c7a4bda600092d59af",
+      "bytes": 2182881,
+      "sourceSha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "ca29502b36c6a4a46cb326c7a4bda600092d59af"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+      "gitBlob": "3dad1850503772bd967f72ac2d0d36711a6aee30",
+      "bytes": 2176699,
+      "sourceSha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "3dad1850503772bd967f72ac2d0d36711a6aee30"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+      "gitBlob": "f8717a807b0a6261fb252240dfecbc8fcbcc8580",
+      "bytes": 5040,
+      "sourceSha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "f8717a807b0a6261fb252240dfecbc8fcbcc8580"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+      "gitBlob": "e920097caf62b7cd6f69c0cdeacba192bfc00ac9",
+      "bytes": 5040,
+      "sourceSha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "e920097caf62b7cd6f69c0cdeacba192bfc00ac9"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "gitBlob": "9e86feba89668b54d5f08cc1a081aa43b742ba29",
+      "bytes": 9201,
+      "sourceSha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "9e86feba89668b54d5f08cc1a081aa43b742ba29"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "gitBlob": "6b70d483d6991a1cde50c9866afcb8c4dd56542b",
+      "bytes": 9201,
+      "sourceSha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "6b70d483d6991a1cde50c9866afcb8c4dd56542b"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-dark.png",
+      "gitBlob": "cbd873a11bcf67803a4865175075eb6c20d23c9a",
+      "bytes": 2310407,
+      "sourceSha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "cbd873a11bcf67803a4865175075eb6c20d23c9a"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-light.png",
+      "gitBlob": "a2d605efbf4bfe45b2f2414c35dfaee873690d49",
+      "bytes": 2282824,
+      "sourceSha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "a2d605efbf4bfe45b2f2414c35dfaee873690d49"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+      "gitBlob": "6119569585de57782c8c62d339ffcb37a35d9c33",
+      "bytes": 5868,
+      "sourceSha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "6119569585de57782c8c62d339ffcb37a35d9c33"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+      "gitBlob": "9353aad667d06e08140a9ced85c3ca2c10492660",
+      "bytes": 5868,
+      "sourceSha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "9353aad667d06e08140a9ced85c3ca2c10492660"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/binding-is-only-one-step-v2-dark.png",
+      "gitBlob": "18c4da4cc18b96b9586a74df911e7ec3556196de",
+      "bytes": 2123537,
+      "sourceSha256": "5f34bbc9d22769bfa4d7c8f607ed64ffd41039fdf4a2b761bd809f52e534c5a1",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "5f34bbc9d22769bfa4d7c8f607ed64ffd41039fdf4a2b761bd809f52e534c5a1",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "18c4da4cc18b96b9586a74df911e7ec3556196de"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "5f34bbc9d22769bfa4d7c8f607ed64ffd41039fdf4a2b761bd809f52e534c5a1"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/binding-is-only-one-step-v2-light.png",
+      "gitBlob": "87ab4f64355b6a2308832d788fa24d5e878b513d",
+      "bytes": 1987033,
+      "sourceSha256": "8d77cfd53e58f133c5a0dd337a992f8143e3fa5e062e6019b9bca18eba9a8904",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "8d77cfd53e58f133c5a0dd337a992f8143e3fa5e062e6019b9bca18eba9a8904",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "87ab4f64355b6a2308832d788fa24d5e878b513d"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "8d77cfd53e58f133c5a0dd337a992f8143e3fa5e062e6019b9bca18eba9a8904"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-dark.svg",
+      "gitBlob": "a82bbab1ce266d5261932f94392f1acb71e79832",
+      "bytes": 14906,
+      "sourceSha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "a82bbab1ce266d5261932f94392f1acb71e79832"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "d03bd1ee0f27f3765f124d319a13c6e6c41311aed2426f114aaccf8f92b0862f"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-binding-module-distinct-format-contexts-v1-light.svg",
+      "gitBlob": "7fe9b83a428170b52dfb6586c8f871e822fba45b",
+      "bytes": 14906,
+      "sourceSha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "7fe9b83a428170b52dfb6586c8f871e822fba45b"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "095efb0a36dc34122c2d75c94c2dca3983ee6e16b68d0eaa2212654b3df5764c"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-dark.svg",
+      "gitBlob": "770295937abd040b3a509d8c19263ef2cee2ab06",
+      "bytes": 12587,
+      "sourceSha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "770295937abd040b3a509d8c19263ef2cee2ab06"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "d94ee86300d8d32898b484f5f7e9e6b51eb5e826d39d2ea840de6208e352bfaf"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/one-site-multiple-contacts-reachable-epitope-v1-light.svg",
+      "gitBlob": "26692ff11fec71ba07588ff860ce2a6abb20d0fb",
+      "bytes": 12587,
+      "sourceSha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "26692ff11fec71ba07588ff860ce2a6abb20d0fb"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "ed21cf49f1c134241f3e0f87a2bd68ae90be0e98f7af7b7786aab6b9c9ab45d8"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-dark.svg",
+      "gitBlob": "3c1feed905a9fecdbd6b9ebc253f5fb046cb2853",
+      "bytes": 6519,
+      "sourceSha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "3c1feed905a9fecdbd6b9ebc253f5fb046cb2853"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "91edcd09770c03f8ff05212413633a1a6976cf63727d304371ab186f5164602f"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/scfv-vhh-linked-and-single-domains-v1-light.svg",
+      "gitBlob": "c47623e914016c25618b8c30567daf437ee81b05",
+      "bytes": 6519,
+      "sourceSha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "c47623e914016c25618b8c30567daf437ee81b05"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "7e4e271a74e489dcce856872fad008a27eb8cb16aef5dfeccfe3afa02e74872b"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/selected-display-hit-sequence-and-testing-v1-dark.svg",
+      "gitBlob": "2e069e7fbfd86e3bb742f6321bae76181a4ad61d",
+      "bytes": 5264,
+      "sourceSha256": "9fdc06824290d8376ac7db3de55da39a9a95d5f669e6f8683d9d3f4f4ca27f97",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "9fdc06824290d8376ac7db3de55da39a9a95d5f669e6f8683d9d3f4f4ca27f97",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "2e069e7fbfd86e3bb742f6321bae76181a4ad61d"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "9fdc06824290d8376ac7db3de55da39a9a95d5f669e6f8683d9d3f4f4ca27f97"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/binders/images/selected-display-hit-sequence-and-testing-v1-light.svg",
+      "gitBlob": "581a4d1dd115d92808e131fd964b72257f67ee17",
+      "bytes": 5264,
+      "sourceSha256": "0ff1352c365eb456cd48ec27b501e63e3ea80f531af0fdf5ac263a3e38b74b56",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "0ff1352c365eb456cd48ec27b501e63e3ea80f531af0fdf5ac263a3e38b74b56",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "581a4d1dd115d92808e131fd964b72257f67ee17"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "0ff1352c365eb456cd48ec27b501e63e3ea80f531af0fdf5ac263a3e38b74b56"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-dark.svg",
+      "gitBlob": "678840488ff1c60758c4a68af39aa4d1f0195d81",
+      "bytes": 4704,
+      "sourceSha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "678840488ff1c60758c4a68af39aa4d1f0195d81"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "6b0a378956b7261684e1bfdc5b0c2fd154df773be2f4a62d1e54916cf29fae3c"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/identity-activity-and-clinical-evidence-v1-light.svg",
+      "gitBlob": "deffcec72705e9cfc35c35c14b4936ab0d07ec47",
+      "bytes": 4704,
+      "sourceSha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "deffcec72705e9cfc35c35c14b4936ab0d07ec47"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "bdac30771ea379921df322195c92bcda1d553d36cd573d3de3f7c1ed19ef4857"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-dark.svg",
+      "gitBlob": "9bbcdf963064dfa9758811879b2677dafbadcba6",
+      "bytes": 4859,
+      "sourceSha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "9bbcdf963064dfa9758811879b2677dafbadcba6"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "576a05ca9a3c98cb37bdbdb9033f653bcabb7a7b9a78bd78ac3e6af503a08ae2"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/old-new-lots-and-evidence-bridge-b10-v1-light.svg",
+      "gitBlob": "a1c07902774c9946179ec92bc3b50878391c4a70",
+      "bytes": 4859,
+      "sourceSha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "a1c07902774c9946179ec92bc3b50878391c4a70"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "52db85b481586a459af84f90d4d9a3e38d4c3bb8885193a0bed83bb03d0f1e1f"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-dark.svg",
+      "gitBlob": "1c25a448ee32197eeff7b0136e9fdcf00fd6593c",
+      "bytes": 5772,
+      "sourceSha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "1c25a448ee32197eeff7b0136e9fdcf00fd6593c"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "fb01b52188dbe548934448062a2254fa8383f575de5cbb26a2c1f393606d8087"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/images/resin-protection-coupling-and-release-v1-light.svg",
+      "gitBlob": "09dee8a81ee173fa67fcdfe4acf8881c192e3e6f",
+      "bytes": 5772,
+      "sourceSha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in binders-cmc-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "09dee8a81ee173fa67fcdfe4acf8881c192e3e6f"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "a45f5fbe02ca6255e635c84010da89382ffbf2bb57845a2daca4d0ca6e64f139"
+          }
+        ]
+      },
+      "preservedScientificReview": "binders-cmc-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-dark.png",
+      "gitBlob": "79ce8455bf2dfa2dc1e1a0f58976528d71cfec1c",
+      "bytes": 1659218,
+      "sourceSha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "79ce8455bf2dfa2dc1e1a0f58976528d71cfec1c"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "c7dd868f9d9fbf24f6d4c4c0d63b2f7df2e7b202a298884fdb0cd4fd0368c3e1"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/checkpoint-contact-capture-v1-light.png",
+      "gitBlob": "d111fe86904d531fdbc2d0e4274a496d2236b234",
+      "bytes": 1718880,
+      "sourceSha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "d111fe86904d531fdbc2d0e4274a496d2236b234"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "012cb1196d48179b0ecbcb0a475792a7af7b6969f5d87feb06b79dd80dc96b51"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-dark.svg",
+      "gitBlob": "b49658b12eafda7a50e512d1bfeea45a578c6e56",
+      "bytes": 3591,
+      "sourceSha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "b49658b12eafda7a50e512d1bfeea45a578c6e56"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "f8de40aaf7710542212be8ed53e91af706ee85971ec69484f07e4a97805bcb85"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/nucleotide-adenosine-and-tryptophan-routes-v1-light.svg",
+      "gitBlob": "c5d8ed6947e77410555e599eff87e98b1bd1b734",
+      "bytes": 3591,
+      "sourceSha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "c5d8ed6947e77410555e599eff87e98b1bd1b734"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "f6209afce3e860b0570de5b5571c90dca1d41ee74d504881c2ef4f8e28244f39"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-dark.svg",
+      "gitBlob": "e59072164ab4e811f8013a8cbff1efc0d1e09852",
+      "bytes": 7183,
+      "sourceSha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "e59072164ab4e811f8013a8cbff1efc0d1e09852"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "4eaa08e0a37a29fe41660d74e37db73a26e8638e44d1f24d8682fe549bd77f94"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/immune-regulation/images/same-bulk-average-different-spatial-signals-v1-light.svg",
+      "gitBlob": "05c637b4a928be151c1949d02637f18a9ff89221",
+      "bytes": 7183,
+      "sourceSha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "05c637b4a928be151c1949d02637f18a9ff89221"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "29e86e8b7f7eb552927f33fe69f86232cbc4d0716d1c2cc473efd29b6100904e"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-dark.svg",
+      "gitBlob": "c4b7462b60a906215ec891db0a2f179720b0c212",
+      "bytes": 5298,
+      "sourceSha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "c4b7462b60a906215ec891db0a2f179720b0c212"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "c8afb378034586a007e19990419cb3618f86a1bbd49390955e4848aab0e4d7f1"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/cd1d-lipid-and-peptide-hla-displays-v1-light.svg",
+      "gitBlob": "0c83810abf6c908138629f3e34ba0ff94b783ce8",
+      "bytes": 5298,
+      "sourceSha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "0c83810abf6c908138629f3e34ba0ff94b783ce8"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "1033220cc1efa2cb79ed5b34bfbd14f614ef23e38bae2bd047b002bb5c5bc9c2"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-dark.svg",
+      "gitBlob": "2d3d8b8dc1b5ddb911c3667819866b4f0c1406ed",
+      "bytes": 5547,
+      "sourceSha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "2d3d8b8dc1b5ddb911c3667819866b4f0c1406ed"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "45b9f83557461f675e545d7dae81ec748b24947155ddc1d539430d33928cf79a"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/coexisting-macrophage-programs-v1-light.svg",
+      "gitBlob": "40ebe4b3e32bf97502f722a4853cd5e45da268b0",
+      "bytes": 5547,
+      "sourceSha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "40ebe4b3e32bf97502f722a4853cd5e45da268b0"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "727c32019691078c8796e61eb32c0520ab16cc42c5dba66b9ac76b1b3ac12cfa"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-dark.png",
+      "gitBlob": "ca29502b36c6a4a46cb326c7a4bda600092d59af",
+      "bytes": 2182881,
+      "sourceSha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "ca29502b36c6a4a46cb326c7a4bda600092d59af"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "a3f45bc320010a6f2d8fe099564d4be6e8f5145a264f0e32be455c4f578b37a5"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/dna-sensing-and-sting-traffic-v1-light.png",
+      "gitBlob": "3dad1850503772bd967f72ac2d0d36711a6aee30",
+      "bytes": 2176699,
+      "sourceSha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "3dad1850503772bd967f72ac2d0d36711a6aee30"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "e7f0800afa40b7e394ca962beea28caa293cb524536a6043cb802d2643302fb2"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-dark.svg",
+      "gitBlob": "f8717a807b0a6261fb252240dfecbc8fcbcc8580",
+      "bytes": 5040,
+      "sourceSha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "f8717a807b0a6261fb252240dfecbc8fcbcc8580"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "37263d5c4747c8a762f86d043183c1ff7a06729314b1996f96910273c4406a82"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/native-gamma-delta-contact-and-added-car-v1-light.svg",
+      "gitBlob": "e920097caf62b7cd6f69c0cdeacba192bfc00ac9",
+      "bytes": 5040,
+      "sourceSha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "e920097caf62b7cd6f69c0cdeacba192bfc00ac9"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "3b56f62244ee60203a6dbd0d905f5970cf5d0b150f04d84a18fb80002def2093"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-dark.svg",
+      "gitBlob": "9e86feba89668b54d5f08cc1a081aa43b742ba29",
+      "bytes": 9201,
+      "sourceSha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "9e86feba89668b54d5f08cc1a081aa43b742ba29"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "6cc1179703f5f5eef9f880d05ab0b0882cabb92985caa8e7aee49fc9212b34fe"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/innate-and-unconventional-cells/images/nk-target-contacts-and-remaining-inputs-v1-light.svg",
+      "gitBlob": "6b70d483d6991a1cde50c9866afcb8c4dd56542b",
+      "bytes": 9201,
+      "sourceSha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "6b70d483d6991a1cde50c9866afcb8c4dd56542b"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "3ebd8331311af478b82fb08ae875a5663ef334b22ea01340e242953b22daca3e"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-dark.png",
+      "gitBlob": "cbd873a11bcf67803a4865175075eb6c20d23c9a",
+      "bytes": 2310407,
+      "sourceSha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "cbd873a11bcf67803a4865175075eb6c20d23c9a"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "f965430b052e7379ebef80fc7e625e31f2a5da45b9aa22eedb696440fd4857f8"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/lymph-node-entry-routes-v3-20261011-light.png",
+      "gitBlob": "a2d605efbf4bfe45b2f2414c35dfaee873690d49",
+      "bytes": 2282824,
+      "sourceSha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "a2d605efbf4bfe45b2f2414c35dfaee873690d49"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "4d6d57de05024daf6e14cb63c89ba09a74af79e222d2ffa0507d6be4d2bdce6b"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-dark.svg",
+      "gitBlob": "6119569585de57782c8c62d339ffcb37a35d9c33",
+      "bytes": 5868,
+      "sourceSha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "6119569585de57782c8c62d339ffcb37a35d9c33"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "305325d0c6bd2d4cb1e906f7e2cc078cd604b8d7e06bb4df07132954b42f8527"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/immunology/the-immune-system/images/signals-vessels-and-recruited-cells-v1-light.svg",
+      "gitBlob": "9353aad667d06e08140a9ced85c3ca2c10492660",
+      "bytes": 5868,
+      "sourceSha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+      "before": {
+        "sourceSha256": null,
+        "scopeReview": null,
+        "sections": null
+      },
+      "after": {
+        "sourceSha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a",
+        "scopeReview": {
+          "auditor": "Coordinator scope reconciliation of preserved independent figure review; not expert sign-off",
+          "checkedAt": "2026-11-10",
+          "rationale": "The image is teaching material assessed with its lesson, not an authoring receipt. Its existing full-extent light/dark review and scientific limits are recorded in innate-immunity-2026-11-10/figures.json. This scope record reuses that review only after current blob, byte and SHA-256 verification; it is not a new image view or expert review.",
+          "gitBlob": "9353aad667d06e08140a9ced85c3ca2c10492660"
+        },
+        "sections": [
+          {
+            "ordinal": 0,
+            "kind": "complete visual teaching figure",
+            "sha256": "9564affb3fc1ea28f08f162119cf7f55527c9b0cd1775b17fc3144971b3ee23a"
+          }
+        ]
+      },
+      "preservedScientificReview": "innate-immunity-2026-11-10/figures.json"
+    }
+  ],
+  "validation": {
+    "actualSourceAssetProblems": "After both source-ledger executions, no reviewed figure has a scope or reading-section problem. Remaining asset failures are only unclassified entries.",
+    "repairedEntriesPerRef": 36,
+    "remainingUnclassifiedPerRef": 1633,
+    "staleOrMissingFieldProofs": 0,
+    "focusedSourceAuditTestsPassed": 12
+  }
+}

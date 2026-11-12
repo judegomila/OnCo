@@ -1,0 +1,43 @@
+{
+  "priorFiles": 1024,
+  "protectedPriorFiles": 1010,
+  "priorPendingFilesPreserved": 96,
+  "priorCohortFilesPreserved": 871,
+  "allProtectedBytesUnchanged": true,
+  "allPriorPendingAndCohortBytesUnchanged": true,
+  "sourceAssetsBytesUnchanged": true,
+  "adjacentGroupsAdded": 1,
+  "changedSharedAccounts": [
+    "README.md",
+    "adjacent-concepts.json",
+    "artifact-manifest.json",
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "source-phases/c9689645/README.md",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-items.json"
+  ],
+  "allowedSharedAccounts": [
+    "README.md",
+    "adjacent-concepts.json",
+    "artifact-manifest.json",
+    "candidates.json",
+    "ledger.json",
+    "open-dependencies.json",
+    "open-items.json",
+    "open-source-assets.json",
+    "source-phases/c9689645/README.md",
+    "source-phases/c9689645/candidates.json",
+    "source-phases/c9689645/ledger.json",
+    "source-phases/c9689645/open-dependencies.json",
+    "source-phases/c9689645/open-items.json",
+    "source-phases/c9689645/open-source-assets.json"
+  ],
+  "activeEvidenceBindingsRebased": 18,
+  "preservationReceiptCoverageCredit": 0,
+  "cohortScopedDraftRequirementsAdded": 72,
+  "newIndependentScienceOrExpertCredit": 0
+}

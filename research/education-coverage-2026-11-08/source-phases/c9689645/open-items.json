@@ -1,0 +1,1454 @@
+[
+  {
+    "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+    "problem": "cancer-associated-fibroblasts-and-stroma:coordinator:05: partial"
+  },
+  {
+    "path": "wiki/education/concepts/cancer-biology/tumor-microenvironment/cancer-associated-fibroblasts-and-stroma.md",
+    "problem": "cancer-associated-fibroblasts-and-stroma:coordinator:05: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance.md",
+    "problem": "adaptive-immune-resistance:jak-stat-irf1: partial"
+  },
+  {
+    "path": "wiki/education/concepts/immunology/tumor-immunology/adaptive-immune-resistance.md",
+    "problem": "adaptive-immune-resistance:jak-stat-irf1: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "problem": "antibody-tumor-penetration:T012: partial"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/antibody-based/antibody-tumor-penetration.md",
+    "problem": "antibody-tumor-penetration:T012: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "problem": "dose-dense-scheduling:T009: partial"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/chemotherapy/dose-dense-scheduling.md",
+    "problem": "dose-dense-scheduling:T009: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+    "problem": "IND-107: partial"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/cytokine-release-syndrome.md",
+    "problem": "IND-107: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+    "problem": "IND-117: partial"
+  },
+  {
+    "path": "wiki/education/concepts/therapeutics/toxicities-and-supportive-care/icans.md",
+    "problem": "IND-117: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+    "problem": "AG4-008: partial"
+  },
+  {
+    "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+    "problem": "AG4-008: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+    "problem": "ST4-014: partial"
+  },
+  {
+    "path": "wiki/education/guides/aiming-a-drug-at-a-surface-target/04-match-the-payload-to-the-failure.md",
+    "problem": "ST4-014: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-022: source-blocked"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-022: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-022: no field evidence"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-023: source-blocked"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-023: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-023: no field evidence"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-024: source-blocked"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-024: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-024: no field evidence"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-026: partial"
+  },
+  {
+    "path": "wiki/education/guides/engineered-cell-therapy/04-in-vivo-delivery.md",
+    "problem": "engineered-cell-therapy-DEL-026: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/01-authenticate-and-attribute-the-finding.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/02-connect-repair-biology-to-parp-sensitivity.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/03-check-clinical-evidence-and-access.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/04-parp-trapping-and-recycling.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/05-autophagy-flux-and-dependence.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/06-pi3k-akt-mtor-and-repair.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/07-reading-a-functional-experiment.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/08-test-a-supply-dependence-with-rescue.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/09-locate-the-active-signaling-step.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/10-test-the-direction-of-a-stress-defense.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/11-measure-energy-and-damage-separately.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/from-variant-to-drug/index.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/01-how-a-t-cell-sees-a-cancer-cell.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/02-start-a-response.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/03-reach-the-tumor.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/04-read-an-immune-map.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/05-t-cell-states.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/06-find-the-failed-step.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/07-what-checkpoint-inhibitors-change.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/09-read-a-tcr-sequencing-report.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/how-the-immune-system-fights-cancer/index.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/01-mechanism.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/02-timing.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/03-overlap-and-sequencing.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/04-decision-questions.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/05-tissue-and-sample-budget.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/06-comparisons.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/07-read-an-injected-treatment-study.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/local-therapy-and-the-immune-system/index.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+    "problem": "residual-monitoring-S-002: partial"
+  },
+  {
+    "path": "wiki/education/guides/monitoring-residual-disease/index.md",
+    "problem": "residual-monitoring-S-002: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/personalized-cancer-vaccine/index.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/predicting-response-before-treating/01-choose-a-model.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/predicting-response-before-treating/02-check-the-experiment.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/predicting-response-before-treating/03-verification-and-feedback-loops.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/predicting-response-before-treating/04-what-concordance-studies-show.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/predicting-response-before-treating/index.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+    "problem": "evidence-guide-5-013: partial"
+  },
+  {
+    "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+    "problem": "evidence-guide-5-013: residual gaps remain"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/01-genes-rna-and-protein.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/02-what-is-inside-a-tissue-sample.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/03-read-dna.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/04-test-a-copy-aware-clone-model.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/05-read-rna.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/06-read-protein.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/07-map-cells-and-immune-context.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/08-choose-the-comparison.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/09-test-function-in-a-model.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/10-integrate-the-evidence.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/11-read-one-report.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/12-profile-residual-tumor.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "wiki/education/guides/what-multi-omics-tells-us/index.md",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/payload-chemical-identity-vs-class",
+    "problem": "identity-and-consumers: partial"
+  },
+  {
+    "path": "adjacent/payload-chemical-identity-vs-class",
+    "problem": "identity-and-consumers: residual gaps remain"
+  },
+  {
+    "path": "adjacent/immune-pathway-and-prognostic-evidence-scope",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/gene-catalogue-role-versus-molecular-function",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/rna-toxicity-owner-and-class-claims",
+    "problem": "scope: partial"
+  },
+  {
+    "path": "adjacent/rna-toxicity-owner-and-class-claims",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/rna-pseudotyping-scope",
+    "problem": "scope: partial"
+  },
+  {
+    "path": "adjacent/rna-pseudotyping-scope",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/rna-multiple-cargo-co-delivery",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/repair-assay-owner-definitions",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/repair-assay-owner-definitions",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/repair-assay-owner-definitions",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/repair-checkpoint-dependence-scope",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/repair-checkpoint-dependence-scope",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/repair-checkpoint-dependence-scope",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/repair-clinical-landscape-scope",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/repair-clinical-landscape-scope",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/repair-clinical-landscape-scope",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-paper-owner-census",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/spatial-paper-owner-census",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-paper-owner-census",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-mif-clinical-prediction",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/spatial-mif-clinical-prediction",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-mif-clinical-prediction",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-ffpe-immunopeptidomics",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/spatial-ffpe-immunopeptidomics",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-ffpe-immunopeptidomics",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-segmentation-error-taxonomy",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/spatial-segmentation-error-taxonomy",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-segmentation-error-taxonomy",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-lead-time-monitoring",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/spatial-lead-time-monitoring",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-lead-time-monitoring",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-model-landscape-scope",
+    "problem": "scope: gap"
+  },
+  {
+    "path": "adjacent/spatial-model-landscape-scope",
+    "problem": "scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-model-landscape-scope",
+    "problem": "scope: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-1: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-1: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-2: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-2: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-2: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-3: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-3: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-3: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-4: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-4: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-4: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-5: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-5: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-5: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-6: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-6: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-6: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-7: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-7: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-7: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-8: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-8: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-8: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-9: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-9: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-9: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-10: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-10: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-10: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-11: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-11: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-11: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-12: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-12: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-12: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-13: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-13: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-13: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-14: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-14: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-14: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-15: gap"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-15: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-adjacent-literature",
+    "problem": "discovery-15: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-rna-inferred-copy-state",
+    "problem": "method-scope: gap"
+  },
+  {
+    "path": "adjacent/measurement-rna-inferred-copy-state",
+    "problem": "method-scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-rna-inferred-copy-state",
+    "problem": "method-scope: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "salivary-pdl1: gap"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "salivary-pdl1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "salivary-pdl1: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "mmr-aggregate: gap"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "mmr-aggregate: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "mmr-aggregate: no field evidence"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "msi-marker-definitions: gap"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "msi-marker-definitions: residual gaps remain"
+  },
+  {
+    "path": "adjacent/measurement-tmb-context-residuals",
+    "problem": "msi-marker-definitions: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-retained-source-context",
+    "problem": "breast-retained-source-context: gap"
+  },
+  {
+    "path": "adjacent/breast-retained-source-context",
+    "problem": "breast-retained-source-context: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-retained-source-context",
+    "problem": "breast-retained-source-context: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "breast-guide-artwork-issues: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "breast-guide-artwork-issues: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "breast-guide-artwork-issues: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q1: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q1: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q2: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q2: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q2: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q3: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q3: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q3: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q4: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q4: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q4: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q5: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q5: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q5: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q6: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q6: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q6: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q7: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q7: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q7: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q8: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q8: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q8: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q9: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q9: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "support-assets-20-Q9: no field evidence"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "early-tnbc-overview-dark-contrast: gap"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "early-tnbc-overview-dark-contrast: residual gaps remain"
+  },
+  {
+    "path": "adjacent/breast-guide-artwork-issues",
+    "problem": "early-tnbc-overview-dark-contrast: no field evidence"
+  },
+  {
+    "path": "adjacent/innate-guide-source-artwork",
+    "problem": "innate-guide-source-artwork-1: gap"
+  },
+  {
+    "path": "adjacent/innate-guide-source-artwork",
+    "problem": "innate-guide-source-artwork-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/innate-guide-source-artwork",
+    "problem": "innate-guide-source-artwork-1: no field evidence"
+  },
+  {
+    "path": "adjacent/innate-retained-trial-scopes",
+    "problem": "innate-retained-trial-scopes-1: gap"
+  },
+  {
+    "path": "adjacent/innate-retained-trial-scopes",
+    "problem": "innate-retained-trial-scopes-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/innate-retained-trial-scopes",
+    "problem": "innate-retained-trial-scopes-1: no field evidence"
+  },
+  {
+    "path": "adjacent/cmc-guide-source-and-artwork",
+    "problem": "cmc-guide-source-and-artwork-1: gap"
+  },
+  {
+    "path": "adjacent/cmc-guide-source-and-artwork",
+    "problem": "cmc-guide-source-and-artwork-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/cmc-guide-source-and-artwork",
+    "problem": "cmc-guide-source-and-artwork-1: no field evidence"
+  },
+  {
+    "path": "adjacent/literature-pathology-validation-followups",
+    "problem": "literature-pathology-validation-followups-1: gap"
+  },
+  {
+    "path": "adjacent/literature-pathology-validation-followups",
+    "problem": "literature-pathology-validation-followups-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/literature-pathology-validation-followups",
+    "problem": "literature-pathology-validation-followups-1: no field evidence"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-1: gap"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-1: no field evidence"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-2: gap"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-2: residual gaps remain"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-2: no field evidence"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-3: gap"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-3: residual gaps remain"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-3: no field evidence"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-4: gap"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-4: residual gaps remain"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-4: no field evidence"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-5: gap"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-5: residual gaps remain"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-5: no field evidence"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-6: gap"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-6: residual gaps remain"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-6: no field evidence"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-7: gap"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-7: residual gaps remain"
+  },
+  {
+    "path": "adjacent/multi-attribute-method",
+    "problem": "multi-attribute-method-7: no field evidence"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-1: gap"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-1: no field evidence"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-2: gap"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-2: residual gaps remain"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-2: no field evidence"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-remaining-screen-20261110: gap"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-remaining-screen-20261110: residual gaps remain"
+  },
+  {
+    "path": "adjacent/literature-manufacturing-followups",
+    "problem": "literature-manufacturing-followups-remaining-screen-20261110: no field evidence"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-codebreak-200: gap"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-codebreak-200: residual gaps remain"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-codebreak-200: no field evidence"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-adjuvant-endpoint-generalisations: gap"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-adjuvant-endpoint-generalisations: residual gaps remain"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-adjuvant-endpoint-generalisations: no field evidence"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-mrd-regulatory-and-treatment-claims: gap"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-mrd-regulatory-and-treatment-claims: residual gaps remain"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-mrd-regulatory-and-treatment-claims: no field evidence"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-ukctocs: gap"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-ukctocs: residual gaps remain"
+  },
+  {
+    "path": "adjacent/surrogate-validation-legacy-evidence",
+    "problem": "surrogate-validation-legacy-evidence-ukctocs: no field evidence"
+  },
+  {
+    "path": "adjacent/cell-origin-and-plasticity-literature",
+    "problem": "cell-origin-and-plasticity-literature-1: gap"
+  },
+  {
+    "path": "adjacent/cell-origin-and-plasticity-literature",
+    "problem": "cell-origin-and-plasticity-literature-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/cell-origin-and-plasticity-literature",
+    "problem": "cell-origin-and-plasticity-literature-1: no field evidence"
+  },
+  {
+    "path": "adjacent/cell-origin-and-plasticity-literature",
+    "problem": "cell-origin-and-plasticity-literature-2: gap"
+  },
+  {
+    "path": "adjacent/cell-origin-and-plasticity-literature",
+    "problem": "cell-origin-and-plasticity-literature-2: residual gaps remain"
+  },
+  {
+    "path": "adjacent/cell-origin-and-plasticity-literature",
+    "problem": "cell-origin-and-plasticity-literature-2: no field evidence"
+  },
+  {
+    "path": "adjacent/central-tolerance-source-reconciliation",
+    "problem": "central-tolerance-source-reconciliation-1: gap"
+  },
+  {
+    "path": "adjacent/central-tolerance-source-reconciliation",
+    "problem": "central-tolerance-source-reconciliation-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/central-tolerance-source-reconciliation",
+    "problem": "central-tolerance-source-reconciliation-1: no field evidence"
+  },
+  {
+    "path": "adjacent/central-tolerance-source-reconciliation",
+    "problem": "central-tolerance-source-reconciliation-2: gap"
+  },
+  {
+    "path": "adjacent/central-tolerance-source-reconciliation",
+    "problem": "central-tolerance-source-reconciliation-2: residual gaps remain"
+  },
+  {
+    "path": "adjacent/central-tolerance-source-reconciliation",
+    "problem": "central-tolerance-source-reconciliation-2: no field evidence"
+  },
+  {
+    "path": "adjacent/estimands-literature-followups",
+    "problem": "estimands-literature-followups-1: gap"
+  },
+  {
+    "path": "adjacent/estimands-literature-followups",
+    "problem": "estimands-literature-followups-1: residual gaps remain"
+  },
+  {
+    "path": "adjacent/estimands-literature-followups",
+    "problem": "estimands-literature-followups-1: no field evidence"
+  },
+  {
+    "path": "adjacent/estimands-literature-followups",
+    "problem": "estimands-literature-followups-2: gap"
+  },
+  {
+    "path": "adjacent/estimands-literature-followups",
+    "problem": "estimands-literature-followups-2: residual gaps remain"
+  },
+  {
+    "path": "adjacent/estimands-literature-followups",
+    "problem": "estimands-literature-followups-2: no field evidence"
+  },
+  {
+    "path": "adjacent/functional-model-legacy-target-context",
+    "problem": "functional-model-legacy-target-context: gap"
+  },
+  {
+    "path": "adjacent/functional-model-legacy-target-context",
+    "problem": "functional-model-legacy-target-context: residual gaps remain"
+  },
+  {
+    "path": "adjacent/functional-model-legacy-target-context",
+    "problem": "functional-model-legacy-target-context: no field evidence"
+  },
+  {
+    "path": "adjacent/checkpoint-mechanism-template-guardrails",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/surface-format-mechanism-template-guardrails",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/access-catalogue-consent-protocol-qualifications",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/pathology-guide-linked-errata-review",
+    "problem": "Content remains unreviewed"
+  },
+  {
+    "path": "adjacent/vaccine-presentation-source-followups",
+    "problem": "altman-1998-notice: gap"
+  },
+  {
+    "path": "adjacent/vaccine-presentation-source-followups",
+    "problem": "altman-1998-notice: residual gaps remain"
+  },
+  {
+    "path": "adjacent/vaccine-presentation-source-followups",
+    "problem": "altman-1998-notice: no field evidence"
+  },
+  {
+    "path": "adjacent/vaccine-presentation-source-followups",
+    "problem": "retained-tmb-lung-context: gap"
+  },
+  {
+    "path": "adjacent/vaccine-presentation-source-followups",
+    "problem": "retained-tmb-lung-context: residual gaps remain"
+  },
+  {
+    "path": "adjacent/vaccine-presentation-source-followups",
+    "problem": "retained-tmb-lung-context: no field evidence"
+  },
+  {
+    "path": "adjacent/vaccine-manufacturing-retained-context",
+    "problem": "residual-dna-regulatory-scope: gap"
+  },
+  {
+    "path": "adjacent/vaccine-manufacturing-retained-context",
+    "problem": "residual-dna-regulatory-scope: residual gaps remain"
+  },
+  {
+    "path": "adjacent/vaccine-manufacturing-retained-context",
+    "problem": "residual-dna-regulatory-scope: no field evidence"
+  },
+  {
+    "path": "adjacent/vaccine-manufacturing-retained-context",
+    "problem": "withdrawn-commercial-assertions: gap"
+  },
+  {
+    "path": "adjacent/vaccine-manufacturing-retained-context",
+    "problem": "withdrawn-commercial-assertions: residual gaps remain"
+  },
+  {
+    "path": "adjacent/vaccine-manufacturing-retained-context",
+    "problem": "withdrawn-commercial-assertions: no field evidence"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "asco-2026-original-methods: gap"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "asco-2026-original-methods: residual gaps remain"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "asco-2026-original-methods: no field evidence"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "eanm-2025-technical-body: gap"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "eanm-2025-technical-body: residual gaps remain"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "eanm-2025-technical-body: no field evidence"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "inspire-modern-followup-primary: gap"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "inspire-modern-followup-primary: residual gaps remain"
+  },
+  {
+    "path": "adjacent/imaging-follow-up-primary-depth",
+    "problem": "inspire-modern-followup-primary: no field evidence"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "schoenfeld-original-body: gap"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "schoenfeld-original-body: residual gaps remain"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "schoenfeld-original-body: no field evidence"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "button-erratum-body: gap"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "button-erratum-body: residual gaps remain"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "button-erratum-body: no field evidence"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "statistics-legacy-catalogues: gap"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "statistics-legacy-catalogues: residual gaps remain"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "statistics-legacy-catalogues: no field evidence"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "seamless-adaptive-schematic-fit: gap"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "seamless-adaptive-schematic-fit: residual gaps remain"
+  },
+  {
+    "path": "adjacent/study-statistics-source-depth",
+    "problem": "seamless-adaptive-schematic-fit: no field evidence"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "birkbak-raw-correction: gap"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "birkbak-raw-correction: residual gaps remain"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "birkbak-raw-correction: no field evidence"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "repair-resistance-withdrawn-catalogues: gap"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "repair-resistance-withdrawn-catalogues: residual gaps remain"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "repair-resistance-withdrawn-catalogues: no field evidence"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "ddr-tp53-diagram-qualification: gap"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "ddr-tp53-diagram-qualification: residual gaps remain"
+  },
+  {
+    "path": "adjacent/repair-resistance-source-depth",
+    "problem": "ddr-tp53-diagram-qualification: no field evidence"
+  },
+  {
+    "path": "adjacent/immunotherapy-source-depth",
+    "problem": "legacy-immunotherapy-catalogues: gap"
+  },
+  {
+    "path": "adjacent/immunotherapy-source-depth",
+    "problem": "legacy-immunotherapy-catalogues: residual gaps remain"
+  },
+  {
+    "path": "adjacent/immunotherapy-source-depth",
+    "problem": "legacy-immunotherapy-catalogues: no field evidence"
+  },
+  {
+    "path": "adjacent/immunotherapy-source-depth",
+    "problem": "immunotherapy-guide-art-context: gap"
+  },
+  {
+    "path": "adjacent/immunotherapy-source-depth",
+    "problem": "immunotherapy-guide-art-context: residual gaps remain"
+  },
+  {
+    "path": "adjacent/immunotherapy-source-depth",
+    "problem": "immunotherapy-guide-art-context: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "guide-spatial-qualifications: gap"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "guide-spatial-qualifications: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "guide-spatial-qualifications: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "guide-spatial-visual-context: gap"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "guide-spatial-visual-context: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "guide-spatial-visual-context: no field evidence"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "spatial-legacy-and-absence-claims: gap"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "spatial-legacy-and-absence-claims: residual gaps remain"
+  },
+  {
+    "path": "adjacent/spatial-measurement-source-scope",
+    "problem": "spatial-legacy-and-absence-claims: no field evidence"
+  },
+  {
+    "path": "adjacent/targeted-small-molecule-source-scope",
+    "problem": "targeted-retained-catalogue-claims: gap"
+  },
+  {
+    "path": "adjacent/targeted-small-molecule-source-scope",
+    "problem": "targeted-retained-catalogue-claims: residual gaps remain"
+  },
+  {
+    "path": "adjacent/targeted-small-molecule-source-scope",
+    "problem": "targeted-retained-catalogue-claims: no field evidence"
+  },
+  {
+    "path": "adjacent/targeted-small-molecule-source-scope",
+    "problem": "targeted-source-deepening: gap"
+  },
+  {
+    "path": "adjacent/targeted-small-molecule-source-scope",
+    "problem": "targeted-source-deepening: residual gaps remain"
+  },
+  {
+    "path": "adjacent/targeted-small-molecule-source-scope",
+    "problem": "targeted-source-deepening: no field evidence"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-frank-full-source: gap"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-frank-full-source: residual gaps remain"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-frank-full-source: no field evidence"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-pfeiffer-parent-gate: gap"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-pfeiffer-parent-gate: residual gaps remain"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-pfeiffer-parent-gate: no field evidence"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-retained-catalogue: gap"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-retained-catalogue: residual gaps remain"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-retained-catalogue: no field evidence"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-visual-and-generic-reader: gap"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-visual-and-generic-reader: residual gaps remain"
+  },
+  {
+    "path": "adjacent/engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "problem": "cell-visual-and-generic-reader: no field evidence"
+  }
+]

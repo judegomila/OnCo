@@ -1,0 +1,7 @@
+{
+  "packageLockSha256": "d0bb38dabe540f8bc311917deaa5c667677e1d88c7823eee36bb71f552195199",
+  "copiedOnlyPackageManifests": true,
+  "nodeModulesCopied": false,
+  "installCommand": "npm ci --no-audit --no-fund",
+  "method": "A separate owned dependency cache was installed for the new lockfile. Only package manifests were copied; this worktree uses a symlink. Existing shared caches were not modified."
+}

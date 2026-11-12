@@ -1,0 +1,208 @@
+{
+  "wiki/education/concepts/therapeutics/antibody-based/target-expression-vs-adc-response.md": [
+    "antigen-expression-and-response",
+    "binding-site-barrier",
+    "antibody-internalization-trafficking",
+    "lysosomal-payload-egress"
+  ],
+  "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md": [
+    "drug-target-engagement",
+    "on-target-drug-validation",
+    "experimental-versus-clinical-exposure"
+  ],
+  "wiki/education/concepts/measurement/liquid-biopsy/chip.md": [
+    "blood-cell-variants-liquid-biopsy",
+    "clonal-haematopoiesis"
+  ],
+  "wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md": [
+    "ctdna-shedding-negative-results",
+    "finite-molecule-sampling",
+    "detection-versus-quantification"
+  ],
+  "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md": [
+    "tumor-informed-assay-design"
+  ],
+  "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md": [
+    "analytical-vs-clinical-validation"
+  ],
+  "wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md": [
+    "model-context-of-use"
+  ],
+  "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md": [
+    "on-target-drug-validation",
+    "crispr-copy-number-artifact"
+  ],
+  "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md": [
+    "drug-response-sensitivity",
+    "growth-rate-inhibition",
+    "cytostasis-versus-cell-death",
+    "experimental-versus-clinical-exposure"
+  ],
+  "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md": [
+    "model-context-of-use",
+    "organoids",
+    "pdx-models"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md": [
+    "prognostic-versus-predictive-biomarkers",
+    "biomarker"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/biomarkers/actionability.md": [
+    "cancer-drivers-vs-actionable",
+    "functional-variant-evidence"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md": [
+    "detection-versus-quantification"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md": [
+    "inconclusive-and-negative-evidence"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md": [
+    "measurement-to-benefit-evidence",
+    "functional-variant-evidence"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md": [
+    "trial-population-transportability",
+    "external-validation"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md": [
+    "biomarker-cutpoint-selection",
+    "decision-curve-net-benefit"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md": [
+    "calibration",
+    "roc-auc"
+  ],
+  "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md": [
+    "external-validation",
+    "train-test-discipline",
+    "data-leakage"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md": [
+    "surrogate-endpoint",
+    "surrogate-validation"
+  ],
+  "wiki/education/concepts/measurement/immune-monitoring/elispot.md": [
+    "elispot"
+  ],
+  "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md": [
+    "intracellular-cytokine-staining"
+  ],
+  "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md": [
+    "peptide-hla-multimer-staining"
+  ],
+  "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md": [
+    "immune-cytotoxicity-assays"
+  ],
+  "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md": [
+    "tcr-repertoire-sequencing"
+  ],
+  "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md": [
+    "tcr-repertoire-clonality"
+  ],
+  "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md": [
+    "pbmc-specimens"
+  ],
+  "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md": [
+    "binding-presentation-recognition"
+  ],
+  "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md": [
+    "immunopeptidome"
+  ],
+  "wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics.md": [
+    "immunopeptidomics"
+  ],
+  "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md": [
+    "peptide-hla-binding-prediction"
+  ],
+  "wiki/education/concepts/immunology/t-cells/immunodominance.md": [
+    "immunodominance"
+  ],
+  "wiki/education/concepts/immunology/t-cells/epitope-spreading.md": [
+    "epitope-spreading"
+  ],
+  "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md": [
+    "self-similarity-immune-recognition"
+  ],
+  "wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy.md": [
+    "immunogenicity-versus-efficacy"
+  ],
+  "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md": [
+    "tissue-preparation-assay-fit"
+  ],
+  "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md": [
+    "finite-tissue-budget"
+  ],
+  "wiki/education/concepts/measurement/specimens/rna-integrity.md": [
+    "rna-integrity"
+  ],
+  "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md": [
+    "specimen-provenance"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md": [
+    "mrna-construct-anatomy"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md": [
+    "codon-optimization"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md": [
+    "modified-rna-nucleosides"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md": [
+    "in-vitro-transcription"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md": [
+    "dsrna-impurities"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md": [
+    "multi-epitope-constructs"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module.md": [
+    "binder-targeting-module"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md": [
+    "binder-affinity-epitope-developability"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md": [
+    "binder-format-constraints"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md": [
+    "scfv-vhh-formats"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md": [
+    "delivery-target-versus-therapeutic-target"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls.md": [
+    "chemistry-manufacturing-controls"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis.md": [
+    "certificate-of-analysis"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md": [
+    "manufacturing-process-comparability"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md": [
+    "cell-therapy-release-testing"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md": [
+    "vein-to-vein-time"
+  ],
+  "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product.md": [
+    "vein-to-vein-time"
+  ],
+  "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md": [
+    "cell-segmentation"
+  ],
+  "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md": [
+    "proteomics"
+  ],
+  "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md": [
+    "targeted-proteomics-quantification"
+  ],
+  "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md": [
+    "imaging-mass-cytometry"
+  ],
+  "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md": [
+    "rppa"
+  ]
+}

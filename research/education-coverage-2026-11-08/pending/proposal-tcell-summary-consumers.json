@@ -1,0 +1,1179 @@
+{
+  "version": "proposal-tcell-summary-consumers",
+  "state": "Actual selected summary entries in coordinator draft375; 27 corrected machine-assisted entries and 99 English fallbacks. Not graph entities or named language review.",
+  "scope": "Available text is an actual dictionary entry. Missing entries are retained explicitly and use the English fallback; this is not evidence of a completed translation or language review. kind is an audit owner type.",
+  "records": [
+    {
+      "id": "anergy-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (ar)",
+      "canonicalRecordId": "anergy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (de)",
+      "canonicalRecordId": "anergy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (es)",
+      "canonicalRecordId": "anergy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (fr)",
+      "canonicalRecordId": "anergy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (hi)",
+      "canonicalRecordId": "anergy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (ja)",
+      "canonicalRecordId": "anergy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (pt)",
+      "canonicalRecordId": "anergy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (zh)",
+      "canonicalRecordId": "anergy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "anergy-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell anergy (simple)",
+      "canonicalRecordId": "anergy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (ar)",
+      "canonicalRecordId": "costimulation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-de",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (de)",
+      "canonicalRecordId": "costimulation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-es",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (es)",
+      "canonicalRecordId": "costimulation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (fr)",
+      "canonicalRecordId": "costimulation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (hi)",
+      "canonicalRecordId": "costimulation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (ja)",
+      "canonicalRecordId": "costimulation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (pt)",
+      "canonicalRecordId": "costimulation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (zh)",
+      "canonicalRecordId": "costimulation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "costimulation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Costimulation (simple)",
+      "canonicalRecordId": "costimulation",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-ar",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (ar)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-de",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (de)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-es",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (es)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-fr",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (fr)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-hi",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (hi)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-ja",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (ja)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-pt",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (pt)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-zh",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (zh)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "regulatory-t-cells-simple",
+      "kind": "reader-summary-entry",
+      "name": "Regulatory T cells (simple)",
+      "canonicalRecordId": "regulatory-t-cells",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (ar)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (de)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (es)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (fr)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (hi)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (ja)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (pt)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (zh)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-priming-three-signals-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell priming and the three-signal model (simple)",
+      "canonicalRecordId": "t-cell-priming-three-signals",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ar)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (de)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (es)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (fr)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (hi)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (ja)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (pt)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (zh)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-receptor-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell receptor (simple)",
+      "canonicalRecordId": "t-cell-receptor",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (ar)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (de)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (es)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (fr)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (hi)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (ja)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (pt)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (zh)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "t-cell-states-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell states (simple)",
+      "canonicalRecordId": "t-cell-states",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-ar",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (ar)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-de",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (de)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-es",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (es)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-fr",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (fr)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-hi",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (hi)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-ja",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (ja)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-pt",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (pt)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-zh",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (zh)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "thymic-output-and-aging-simple",
+      "kind": "reader-summary-entry",
+      "name": "Thymic output and ageing (simple)",
+      "canonicalRecordId": "thymic-output-and-aging",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "pd1-checkpoint-ar",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (ar)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "ar",
+      "available": true,
+      "text": "يساعد PD-1 وCTLA-4 على تنظيم استجابات الخلايا التائية. تغيير إشاراتهما وحده لا يثبت التعرّف على السرطان أو قتله أو تحقيق فائدة علاجية."
+    },
+    {
+      "id": "pd1-checkpoint-de",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (de)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "de",
+      "available": true,
+      "text": "PD-1 und CTLA-4 helfen, T-Zell-Antworten zu regulieren. Eine Änderung ihrer Signale allein belegt weder die Erkennung noch die Abtötung von Krebs oder einen Behandlungsnutzen."
+    },
+    {
+      "id": "pd1-checkpoint-es",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (es)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "es",
+      "available": true,
+      "text": "PD-1 y CTLA-4 ayudan a regular las respuestas de las células T. Cambiar sus señales por sí solo no demuestra reconocimiento o destrucción del cáncer ni beneficio del tratamiento."
+    },
+    {
+      "id": "pd1-checkpoint-fr",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (fr)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "fr",
+      "available": true,
+      "text": "PD-1 et CTLA-4 contribuent à réguler les réponses des lymphocytes T. Modifier leurs signaux ne prouve pas, à soi seul, la reconnaissance ou la destruction du cancer, ni un bénéfice thérapeutique."
+    },
+    {
+      "id": "pd1-checkpoint-hi",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (hi)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "hi",
+      "available": true,
+      "text": "PD-1 और CTLA-4, T कोशिकाओं की प्रतिक्रियाओं को नियंत्रित करने में मदद करते हैं। केवल उनके संकेत बदलना कैंसर की पहचान, उसे मारने या उपचार से लाभ का प्रमाण नहीं है।"
+    },
+    {
+      "id": "pd1-checkpoint-ja",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (ja)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "ja",
+      "available": true,
+      "text": "PD-1とCTLA-4はT細胞の応答を調節します。これらのシグナルを変えるだけでは、がんの認識や殺傷、治療による利益は示せません。"
+    },
+    {
+      "id": "pd1-checkpoint-pt",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (pt)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "pt",
+      "available": true,
+      "text": "PD-1 e CTLA-4 ajudam a regular as respostas das células T. Alterar os seus sinais, por si só, não demonstra reconhecimento ou destruição do cancro, nem benefício do tratamento."
+    },
+    {
+      "id": "pd1-checkpoint-zh",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (zh)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "zh",
+      "available": true,
+      "text": "PD-1和CTLA-4参与调节T细胞反应。仅改变这些信号，并不能证明T细胞识别或杀伤癌细胞，也不能证明治疗获益。"
+    },
+    {
+      "id": "pd1-checkpoint-simple",
+      "kind": "reader-summary-entry",
+      "name": "PD-1 / PD-L1 immune checkpoint & T-cell activation (simple)",
+      "canonicalRecordId": "pd1-checkpoint",
+      "language": "simple",
+      "available": true,
+      "text": "PD-1 and CTLA-4 help control T-cell responses. Changing their signals does not by itself show cancer recognition, killing or treatment benefit."
+    },
+    {
+      "id": "t-cell-ar",
+      "kind": "reader-summary-entry",
+      "name": "T cell (ar)",
+      "canonicalRecordId": "t-cell",
+      "language": "ar",
+      "available": true,
+      "text": "الخلايا التائية خلايا مناعية تختلف في طرق التعرّف وأدوارها. وجودها وحده لا يثبت أنها تتعرّف على السرطان أو تقتله."
+    },
+    {
+      "id": "t-cell-de",
+      "kind": "reader-summary-entry",
+      "name": "T cell (de)",
+      "canonicalRecordId": "t-cell",
+      "language": "de",
+      "available": true,
+      "text": "T-Zellen sind Immunzellen mit unterschiedlichen Erkennungssystemen und Aufgaben. Ihre Anwesenheit allein zeigt nicht, dass sie Krebs erkennen oder abtöten."
+    },
+    {
+      "id": "t-cell-es",
+      "kind": "reader-summary-entry",
+      "name": "T cell (es)",
+      "canonicalRecordId": "t-cell",
+      "language": "es",
+      "available": true,
+      "text": "Las células T son células inmunitarias con distintos sistemas de reconocimiento y funciones. Su presencia por sí sola no demuestra que reconozcan o destruyan el cáncer."
+    },
+    {
+      "id": "t-cell-fr",
+      "kind": "reader-summary-entry",
+      "name": "T cell (fr)",
+      "canonicalRecordId": "t-cell",
+      "language": "fr",
+      "available": true,
+      "text": "Les lymphocytes T sont des cellules immunitaires aux systèmes de reconnaissance et aux rôles variés. Leur présence seule ne prouve pas qu’ils reconnaissent ou détruisent le cancer."
+    },
+    {
+      "id": "t-cell-hi",
+      "kind": "reader-summary-entry",
+      "name": "T cell (hi)",
+      "canonicalRecordId": "t-cell",
+      "language": "hi",
+      "available": true,
+      "text": "T कोशिकाएँ प्रतिरक्षा कोशिकाएँ हैं, जिनके पहचान तंत्र और काम अलग-अलग होते हैं। केवल उनकी मौजूदगी यह नहीं दिखाती कि वे कैंसर को पहचानती या मारती हैं।"
+    },
+    {
+      "id": "t-cell-ja",
+      "kind": "reader-summary-entry",
+      "name": "T cell (ja)",
+      "canonicalRecordId": "t-cell",
+      "language": "ja",
+      "available": true,
+      "text": "T細胞は、異なる認識の仕組みや役割を持つ免疫細胞です。存在するだけでは、がんを認識したり殺したりするとは示せません。"
+    },
+    {
+      "id": "t-cell-pt",
+      "kind": "reader-summary-entry",
+      "name": "T cell (pt)",
+      "canonicalRecordId": "t-cell",
+      "language": "pt",
+      "available": true,
+      "text": "As células T são células imunitárias com diferentes sistemas de reconhecimento e funções. A sua presença, por si só, não demonstra que reconheçam ou destruam o cancro."
+    },
+    {
+      "id": "t-cell-zh",
+      "kind": "reader-summary-entry",
+      "name": "T cell (zh)",
+      "canonicalRecordId": "t-cell",
+      "language": "zh",
+      "available": true,
+      "text": "T细胞是具有不同识别机制和作用的免疫细胞。仅凭它们的存在，不能证明它们能识别或杀伤癌细胞。"
+    },
+    {
+      "id": "t-cell-simple",
+      "kind": "reader-summary-entry",
+      "name": "T cell (simple)",
+      "canonicalRecordId": "t-cell",
+      "language": "simple",
+      "available": true,
+      "text": "T cells are immune cells with different jobs. Finding them does not show that they recognise or kill cancer."
+    },
+    {
+      "id": "t-cell-exhaustion-ar",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (ar)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "ar",
+      "available": true,
+      "text": "قد يغيّر التحفيز المستمر برنامج استجابة الخلية التائية. تضم مجموعات الخلايا المنهكة مجموعات فرعية تختلف في وظائفها المتبقية واستجابتها لحصر نقاط التفتيش المناعية."
+    },
+    {
+      "id": "t-cell-exhaustion-de",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (de)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "de",
+      "available": true,
+      "text": "Anhaltende Stimulation kann das Reaktionsprogramm einer T-Zelle verändern. Erschöpfte Zellpopulationen enthalten Untergruppen mit unterschiedlichen verbleibenden Funktionen und Reaktionen auf eine Checkpoint-Blockade."
+    },
+    {
+      "id": "t-cell-exhaustion-es",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (es)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "es",
+      "available": true,
+      "text": "La estimulación persistente puede cambiar el programa de respuesta de una célula T. Las poblaciones agotadas incluyen subgrupos con distintas funciones conservadas y respuestas al bloqueo de puntos de control."
+    },
+    {
+      "id": "t-cell-exhaustion-fr",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (fr)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "fr",
+      "available": true,
+      "text": "Une stimulation persistante peut modifier le programme de réponse d’un lymphocyte T. Les populations épuisées comprennent des sous-groupes dont les fonctions restantes et les réponses au blocage des points de contrôle diffèrent."
+    },
+    {
+      "id": "t-cell-exhaustion-hi",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (hi)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "hi",
+      "available": true,
+      "text": "लगातार उत्तेजना T कोशिका की प्रतिक्रिया के कार्यक्रम को बदल सकती है। थकी हुई कोशिकाओं के समूह में उपसमूह होते हैं, जिनकी बची हुई क्षमताएँ और चेकपॉइंट अवरोधन के प्रति प्रतिक्रियाएँ अलग-अलग होती हैं।"
+    },
+    {
+      "id": "t-cell-exhaustion-ja",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (ja)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "ja",
+      "available": true,
+      "text": "刺激が持続すると、T細胞の応答プログラムが変わることがあります。疲弊した細胞集団には、残る機能やチェックポイント阻害への反応が異なる亜集団があります。"
+    },
+    {
+      "id": "t-cell-exhaustion-pt",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (pt)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "pt",
+      "available": true,
+      "text": "A estimulação persistente pode alterar o programa de resposta de uma célula T. As populações exaustas incluem subgrupos com diferentes funções preservadas e respostas ao bloqueio dos pontos de controlo."
+    },
+    {
+      "id": "t-cell-exhaustion-zh",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (zh)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "zh",
+      "available": true,
+      "text": "持续刺激可能改变T细胞的反应程序。耗竭细胞群包含不同亚群，其保留的功能及对免疫检查点阻断的反应各不相同。"
+    },
+    {
+      "id": "t-cell-exhaustion-simple",
+      "kind": "reader-summary-entry",
+      "name": "T-cell exhaustion (simple)",
+      "canonicalRecordId": "t-cell-exhaustion",
+      "language": "simple",
+      "available": true,
+      "text": "Long stimulation can change how T cells respond. Exhausted T cells include groups that retain different abilities and respond differently to checkpoint drugs."
+    },
+    {
+      "id": "cd28-ar",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (ar)",
+      "canonicalRecordId": "cd28",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-de",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (de)",
+      "canonicalRecordId": "cd28",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-es",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (es)",
+      "canonicalRecordId": "cd28",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-fr",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (fr)",
+      "canonicalRecordId": "cd28",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-hi",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (hi)",
+      "canonicalRecordId": "cd28",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-ja",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (ja)",
+      "canonicalRecordId": "cd28",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-pt",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (pt)",
+      "canonicalRecordId": "cd28",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-zh",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (zh)",
+      "canonicalRecordId": "cd28",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd28-simple",
+      "kind": "reader-summary-entry",
+      "name": "CD28 (simple)",
+      "canonicalRecordId": "cd28",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-ar",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (ar)",
+      "canonicalRecordId": "foxp3",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-de",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (de)",
+      "canonicalRecordId": "foxp3",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-es",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (es)",
+      "canonicalRecordId": "foxp3",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-fr",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (fr)",
+      "canonicalRecordId": "foxp3",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-hi",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (hi)",
+      "canonicalRecordId": "foxp3",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-ja",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (ja)",
+      "canonicalRecordId": "foxp3",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-pt",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (pt)",
+      "canonicalRecordId": "foxp3",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-zh",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (zh)",
+      "canonicalRecordId": "foxp3",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "foxp3-simple",
+      "kind": "reader-summary-entry",
+      "name": "FOXP3 (simple)",
+      "canonicalRecordId": "foxp3",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-ar",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (ar)",
+      "canonicalRecordId": "cd4",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-de",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (de)",
+      "canonicalRecordId": "cd4",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-es",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (es)",
+      "canonicalRecordId": "cd4",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-fr",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (fr)",
+      "canonicalRecordId": "cd4",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-hi",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (hi)",
+      "canonicalRecordId": "cd4",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-ja",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (ja)",
+      "canonicalRecordId": "cd4",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-pt",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (pt)",
+      "canonicalRecordId": "cd4",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-zh",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (zh)",
+      "canonicalRecordId": "cd4",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd4-simple",
+      "kind": "reader-summary-entry",
+      "name": "CD4 (simple)",
+      "canonicalRecordId": "cd4",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-ar",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (ar)",
+      "canonicalRecordId": "cd8",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-de",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (de)",
+      "canonicalRecordId": "cd8",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-es",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (es)",
+      "canonicalRecordId": "cd8",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-fr",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (fr)",
+      "canonicalRecordId": "cd8",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-hi",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (hi)",
+      "canonicalRecordId": "cd8",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-ja",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (ja)",
+      "canonicalRecordId": "cd8",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-pt",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (pt)",
+      "canonicalRecordId": "cd8",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-zh",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (zh)",
+      "canonicalRecordId": "cd8",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cd8-simple",
+      "kind": "reader-summary-entry",
+      "name": "CD8 (simple)",
+      "canonicalRecordId": "cd8",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ],
+  "sources": [
+    {
+      "language": "ar",
+      "selectedEntriesSha256": "9913309aedd7c7b6c95a44ebf29f1f8aeac60da4f8b5d82e6dc00e6a9cfaa97d"
+    },
+    {
+      "language": "de",
+      "selectedEntriesSha256": "25802d252a1bc73c76eb4147115407609d837b3981c8e7ccfa732064a4739ad4"
+    },
+    {
+      "language": "es",
+      "selectedEntriesSha256": "2882479c1d6ebbf07ce5775169534ac61417a5c2cc88fd957d3d567a9ac925f1"
+    },
+    {
+      "language": "fr",
+      "selectedEntriesSha256": "f586dea6b1b7036a444ccb3325e692ee8e0e5484e6c1a7874c41f2610349e9d9"
+    },
+    {
+      "language": "hi",
+      "selectedEntriesSha256": "3bc4b0d2a852ca114a869dcad7c695b28dfa2c661f616a0a8a219f3532d82cf2"
+    },
+    {
+      "language": "ja",
+      "selectedEntriesSha256": "76981830e3ae76a7097da839204833c88052ea087b99b43d59290f60138ccba3"
+    },
+    {
+      "language": "pt",
+      "selectedEntriesSha256": "fad27da370ec61f419fbc15dda167aef88a69f74ea4a14cd619e3c6619045948"
+    },
+    {
+      "language": "zh",
+      "selectedEntriesSha256": "2c2218dd5899f9ec78a2522e118f075a1f9690e94fc145c5fcd80748f9131cd7"
+    },
+    {
+      "language": "simple",
+      "selectedEntriesSha256": "f8ae02407da4426852ed148abed5fff101aed71d69168a399d66d81c106ce67f"
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "count": 19,
+  "references": [
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/464/review/points/4/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/464/review/points/4/evidence/2",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/466/review/points/0/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/466/review/points/1/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/466/review/points/8/evidence/2",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/466/review/points/9/evidence/2",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/adjacent/17/review/points/2/evidence/0",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "summary",
+        "fieldSha256": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "summary",
+        "fieldSha256": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/adjacent/17/review/points/2/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/484/review/points/30/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The new evidence card explicitly distinguishes all assigned, treated and evaluable denominators; the retained definition specifies everyone randomised, including those who did not take treatment. Other older analysis-population claims are not certified. Source scope: Primary abstract or specified targeted passage where named; other retained context stays at its earlier recorded depth. Fictional premises and practical reading rules are authored inference, not observed clinical effects or treatment recommendations. Rebound to the current committed root field. Earlier teaching remains; appended notes do not upgrade previous source or independent-review depth. The trial-protocol edit changes only its categorical final sentence; the prior eligibility/protocol teaching remains. The KEYNOTE-522 protocol and dose content remains while the exploratory RCB wording is qualified. The ITT definition now also has direct primary-guidance support in its notes."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The new evidence card explicitly distinguishes all assigned, treated and evaluable denominators; the retained definition specifies everyone randomised, including those who did not take treatment. Other older analysis-population claims are not certified. Source scope: Primary abstract or specified targeted passage where named; other retained context stays at its earlier recorded depth. Fictional premises and practical reading rules are authored inference, not observed clinical effects or treatment recommendations. Rebound to the current committed root field. Earlier teaching remains; appended notes do not upgrade previous source or independent-review depth. The trial-protocol edit changes only its categorical final sentence; the prior eligibility/protocol teaching remains. The KEYNOTE-522 protocol and dose content remains while the exploratory RCB wording is qualified. The ITT definition now also has direct primary-guidance support in its notes."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/514/review/points/4/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/514/review/points/4/evidence/2",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The card and corrected analysis-population account explicitly connect the treatment-effect question, assigned groups, prespecified exclusions, intercurrent events and missing outcomes. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/516/review/points/0/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/516/review/points/1/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The plan/card explicitly separates precision, bias and applicability, retains reporting and analysis history, denominators and reasons, and rejects a checklist-as-validity verdict. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/516/review/points/8/evidence/2",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/516/review/points/9/evidence/2",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "The existing subgroup paragraph requires a direct interaction comparison and distinguishes baseline from treatment-selected response groups; the corrected per-protocol discussion retains selection bias. Source scope: Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/adjacent/17/review/points/2/evidence/0",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "summary",
+        "fieldSha256": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "summary",
+        "fieldSha256": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/adjacent/17/review/points/2/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "adjacent-concepts.json",
+      "pointer": "/17/review/points/2/evidence/0",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "summary",
+        "fieldSha256": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "summary",
+        "fieldSha256": "24e9b2e28c1ecffea2127b5f3f0005d6277bef10ce2f0f1c7cb4c3dea361249b",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    },
+    {
+      "artifact": "adjacent-concepts.json",
+      "pointer": "/17/review/points/2/evidence/1",
+      "before": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-evidence-reading-guides-root",
+        "field": "notes",
+        "fieldSha256": "98d4095a84b13e385c6446df0817cd2dfe2b1a4e62a611adfe10de6ef3695d3d",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "after": {
+        "recordId": "intention-to-treat",
+        "version": "proposal-study-statistics-root",
+        "field": "notes",
+        "fieldSha256": "871ff562d46186d15328c901fdbb188c4a643929830447b5e77f928e3a802671",
+        "explanation": "ICH E9 sections 5.2, 5.3 and 6.3 and E9(R1) targeted pages support the qualified analysis-set account. The categorical inflation and site-wide-default assertions are withdrawn; no universal modified-set definition or unbiased per-protocol guarantee is asserted."
+      },
+      "reason": "All previous root field meaning and note strings are preserved; refresh the projection to actual current committed root fields, leaving frozen older packets byte-identical."
+    }
+  ],
+  "priorPacketsRewritten": false
+}

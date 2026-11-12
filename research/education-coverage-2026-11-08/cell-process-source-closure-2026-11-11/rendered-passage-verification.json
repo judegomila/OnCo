@@ -1,0 +1,205 @@
+{
+  "fieldPassages": 22,
+  "missing": [],
+  "checks": [
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e124a5354a3f007570638d82f7f5b89f385bfadb80f9b6fec92fb9f0e0a88eb2",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "de58693ba4d1f572e61aeedde47ca0c80f3a7f3ec3a71a13dd41c25a5721c434",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "a49a8e25e737fd89165aafa815833e0ea8724abc4f91fd954138dcce79628c0a",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "55d4666b888373b031643ae0952718ed19aa49f977c5da7b00a19804b840f70f",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "4d6b29a9b3bcbe9f5cd8b24d7cc55c957170690abdf59e3307a24c294485e915",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "46b2dcacbf58850e551d68799ddeec1965a43591a345d79a4e3c4ece38bf9f6b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "notes",
+      "index": 4,
+      "segment": "field or note",
+      "passageSha256": "8526ba9415324b88cec866162990391a0bda70da70bcd680a9b5b192345b00ea",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "notes",
+      "index": 5,
+      "segment": "field or note",
+      "passageSha256": "bc026c8c8557d03df3691dafbcde08dc0ada45bf55bdce148d78efd9653e997b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "autophagy",
+      "field": "notes",
+      "index": 6,
+      "segment": "field or note",
+      "passageSha256": "6b4a572c963fc6934fa5578e007b098d8e3fa93a455d333973f06e7566712c80",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "homologous-recombination-repair",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "a9bb53b894629795af61d8564f663e3143626ace78e56b3cf5c142c8aea0be85",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "homologous-recombination-repair",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "a111615df73b081715af70cb2e46e935561204e7f589e4d8888c800e37eb45c6",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "homologous-recombination-repair",
+      "field": "summary",
+      "index": 1,
+      "segment": "summary paragraph",
+      "passageSha256": "2c8353418d172b08292919c60ffa3950b86ae5a2818c7011177bf0419c44ff0e",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "homologous-recombination-repair",
+      "field": "summary",
+      "index": 2,
+      "segment": "summary paragraph",
+      "passageSha256": "f190eb024b403c0191cf711040c3cee57a46dc6021fde14f6383250ee972e5b0",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "homologous-recombination-repair",
+      "field": "summary",
+      "index": 3,
+      "segment": "summary paragraph",
+      "passageSha256": "55fe679a920db302b3203ce67987e2094bd45efafb0f8fc5a537b67e88413842",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "homologous-recombination-repair",
+      "field": "summary",
+      "index": 4,
+      "segment": "summary paragraph",
+      "passageSha256": "74f6259428890c5cd56143312bf157b1306fbb5a9e1eefc62128b1c76acfb464",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "homologous-recombination-repair",
+      "field": "summary",
+      "index": 5,
+      "segment": "summary paragraph",
+      "passageSha256": "b5e13c053a2ba4c1617071c9bca052a1b97de06864c6d907618cd76f3e3df25b",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "oxidative-phosphorylation",
+      "field": "tldr",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "e6e1ba8619e531a05fe947288084a81d6369de39442c393f5a19d8e3d2ce08b1",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "oxidative-phosphorylation",
+      "field": "summary",
+      "index": 0,
+      "segment": "summary paragraph",
+      "passageSha256": "c8aeca63e7bd3cdd6fc751a23ed1882f74900b9e317984ca3a9413a12db535ee",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "oxidative-phosphorylation",
+      "field": "notes",
+      "index": 0,
+      "segment": "field or note",
+      "passageSha256": "c306abdae9d9717ef4c5843ab6a57aa2fb8b25f4800ac05b0f4bfd3c94af914d",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "oxidative-phosphorylation",
+      "field": "notes",
+      "index": 1,
+      "segment": "field or note",
+      "passageSha256": "7cea76bb63ea093af1bb6fe1c680d46e9a5bd6b3a7943bc8fe9e667ac22e6e77",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "oxidative-phosphorylation",
+      "field": "notes",
+      "index": 2,
+      "segment": "field or note",
+      "passageSha256": "a364779b77f09475697c96ed262c5a10b9fe7578c1d6199a11e1f6e32e04f260",
+      "inActualReaderText": true
+    },
+    {
+      "group": "root",
+      "id": "oxidative-phosphorylation",
+      "field": "notes",
+      "index": 3,
+      "segment": "field or note",
+      "passageSha256": "dd4ffdb6ff9265dc0a8737943f3cc8cb094a188d876372d46aa4fcaa0f6e1d8f",
+      "inActualReaderText": true
+    }
+  ],
+  "method": "Exact normalized text from actual EntityDetail SSR; script/style/noscript excluded. Long summaries are checked paragraph by paragraph because the reader inserts expansion controls between paragraphs. No fuzzy, browser, hydration or accessibility claim."
+}

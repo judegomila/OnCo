@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "subject": "Guide comparison wording",
+      "action": "Coordinator may propose source wording corrections; no pinned Guide edits performed.",
+      "suggestedSummary": "Cell-death mechanisms, necrotic appearance and adaptive immune consequences are different classifications; senescence is a living durable arrest with context-dependent escape."
+    },
+    {
+      "subject": "Generated gene target enrichment",
+      "action": "Do not hand-edit targets-genes-wave.ts; this batch teaches through existing pathways and distinct general terms."
+    },
+    {
+      "subject": "Unchanged baseline mechanism claims",
+      "action": "Clinical approval, prevalence and programme-status claims outside the adopted teaching excerpts were not freshly validated; no coverage credit assigned to them."
+    }
+  ],
+  "openWeightModelEvaluation": "out of scope"
+}

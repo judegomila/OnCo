@@ -1,0 +1,310 @@
+{
+  "checkedOn": "2026-11-09",
+  "fromRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "toRef": "c96896452386202405c435aa161bc5047919337a",
+  "items": [
+    {
+      "oldPath": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+      "newPath": "wiki/education/concepts/access-and-regulation/approval/companion-diagnostics.md",
+      "oldSourceSha256": "1dd66dd84092aead2e84ae64a876d856e24bbb111f8c0b1aaf56ba5ca9f2ae72",
+      "newSourceSha256": "6431bfba9f13b7929d68302e2a9b4575c76b55313afb05fd81143acc7e6d0177",
+      "oldSignature": {
+        "teachingSha256": "4d641ef3df145b63e559449536726e991825f2cba778a866459007d848eab178",
+        "metadataSha256": "9787c4861f12cff44953a9982b399b0e72ccd00a82f59b50119490bf7bb9d879"
+      },
+      "newSignature": {
+        "teachingSha256": "41664670b4880b3abe4aa1ab3dcd5a7a941d2f7ab75d421ce2d5b357ad696284",
+        "metadataSha256": "9787c4861f12cff44953a9982b399b0e72ccd00a82f59b50119490bf7bb9d879"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "newPath": "wiki/education/concepts/access-and-regulation/approval/fda-approval-types.md",
+      "oldSourceSha256": "2c73f15e3d15e749372f1dc4a63f42c49897e46595010b6aa5ccec6ce0fba2a0",
+      "newSourceSha256": "d53908bea2f97e5808d96c353c1357795a45438049484761bc3099d0d6fe8461",
+      "oldSignature": {
+        "teachingSha256": "b500cba25b3481888277552fdfe847817f556cc7ffc18e8fcbf06163cfc256b2",
+        "metadataSha256": "f65939bacd7717b0cc5f7ccdcc3648d82fc14297813fe8678afd4cb6e27323f1"
+      },
+      "newSignature": {
+        "teachingSha256": "a40818781169010683aad6e1c76c2a25196e8451d9c8cfbc40bc48027bc2efea",
+        "metadataSha256": "f65939bacd7717b0cc5f7ccdcc3648d82fc14297813fe8678afd4cb6e27323f1"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-tiers.md",
+      "newPath": "wiki/education/concepts/access-and-regulation/approval/ruo-ldt-clia-and-fda-authorization.md",
+      "oldSourceSha256": "fcefcb6dc206d06c8561a9e81d94fda8867aa5236d7420412e89e3253c420d1a",
+      "newSourceSha256": "1512514f3bce393be2940472e5b18d7b10514222ea1054f7193e82675b12bdce",
+      "oldSignature": {
+        "teachingSha256": "95dc057ace5ebd81aca77c4d4be4b6ad31685bd24c0122d9f1e6e9225d0391d0",
+        "metadataSha256": "75a490b735c3b49f45e46e92404fd12b130d4e6cbfe0c2c67d0c1ccd337b6cc2"
+      },
+      "newSignature": {
+        "teachingSha256": "95dc057ace5ebd81aca77c4d4be4b6ad31685bd24c0122d9f1e6e9225d0391d0",
+        "metadataSha256": "75a490b735c3b49f45e46e92404fd12b130d4e6cbfe0c2c67d0c1ccd337b6cc2"
+      },
+      "disposition": "reviewed rename; same teaching and relevant metadata",
+      "scope": "Read the renamed source and metadata; teaching and all interpretation-relevant metadata are identical, and internal route targets exist."
+    },
+    {
+      "oldPath": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "newPath": "wiki/education/concepts/access-and-regulation/trials-and-access/clinical-trial-vs-expanded-access.md",
+      "oldSourceSha256": "c89f8a2f509c1d33ce8e430d82204a4d44fef939b82fc1b2b3aa249f2260dfdd",
+      "newSourceSha256": "8d6c022c948f7f1bf33f0be82f7d569f65d0c523579298d57b2e8b133ae8cbba",
+      "oldSignature": {
+        "teachingSha256": "dc7504ffbafd594b0df481eafbb44cb061e517c00171599790e662d9e2d4aa1d",
+        "metadataSha256": "ab7beaa00b449651b8bb2b031f69c7cfed415ae9d4cfbf5a938b78cd018f4354"
+      },
+      "newSignature": {
+        "teachingSha256": "44c7b6ec8eea473ece04cacbe4593b9ec3556c7f920b5c8b1993ba8d9e734809",
+        "metadataSha256": "ab7beaa00b449651b8bb2b031f69c7cfed415ae9d4cfbf5a938b78cd018f4354"
+      },
+      "disposition": "reviewed with new open requirements",
+      "scope": "Read all changed teaching against the previous complete review; additional distinctions are explicit new open requirements below."
+    },
+    {
+      "oldPath": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+      "newPath": "wiki/education/concepts/biology-basics/cells/cell-lineage-and-differentiation.md",
+      "oldSourceSha256": "0d6f11b639c53b94748bd158b2396e5dbd44d038afd4df020727d693f29f6ada",
+      "newSourceSha256": "9ce9570737f8ecd12633ff57da93856c2810caf3190647e7395062b100e59063",
+      "oldSignature": {
+        "teachingSha256": "ff7170ebd6edee2bde8f056146c272595c7af1aa6e5dfa0efc4a5409791c92f4",
+        "metadataSha256": "824d8db21218307b7e2a05084a027f5d5b92042c2470b449e3560a5a4788cc26"
+      },
+      "newSignature": {
+        "teachingSha256": "8afd9c6e24240c8fc154a3bb4ff8b9aabece0b2457d65b3e6f25c4bc846e0a8f",
+        "metadataSha256": "824d8db21218307b7e2a05084a027f5d5b92042c2470b449e3560a5a4788cc26"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/biology-basics/genetics/central-dogma.md",
+      "newPath": "wiki/education/concepts/biology-basics/genetics/central-dogma.md",
+      "oldSourceSha256": "6a9e14b7c87c8404253d248b5bae5cf3c05fbf4d9d6d6ac3a8fa08d6e18d2230",
+      "newSourceSha256": "fffa003023f9506692fa3f7cb7bac8355aa09a12dca62ce5079f566fb43c5681",
+      "oldSignature": {
+        "teachingSha256": "29404e1eb5b78df2dfffff7459b51e47b7481a92dd524b595feaf76c1fd89a10",
+        "metadataSha256": "ac1db2c3f5f28465b333f7041fc12419ece9c4b98b28e34e2a2d68e1f5887a65"
+      },
+      "newSignature": {
+        "teachingSha256": "2adfe4203762527a50cd5f5c4c11c9d7b1ed5ea2599b5516725ea5a7ac5c50d9",
+        "metadataSha256": "ac1db2c3f5f28465b333f7041fc12419ece9c4b98b28e34e2a2d68e1f5887a65"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+      "newPath": "wiki/education/concepts/biology-basics/genetics/mutation-types.md",
+      "oldSourceSha256": "2ff47d053b7ed5f8f74b30993eb5ba900e4959d38246405cd3bc40133d5db8a5",
+      "newSourceSha256": "785817ecc02fd127e7beb5f6cf57c7dda7954123655a5b3be3721867047bfb6f",
+      "oldSignature": {
+        "teachingSha256": "07cb1ff0a2621f632d4e682d3d6fe244967946c241dd3cb4c35a5abb65fc30bb",
+        "metadataSha256": "cb92237b34d359fd34c8a3638b613dc3a23d628db6672b31da32d8897063b8d3"
+      },
+      "newSignature": {
+        "teachingSha256": "4d54ee0f8af4529e448a371533e603160f25eaea160f7ee1a4876b25dcaef485",
+        "metadataSha256": "cb92237b34d359fd34c8a3638b613dc3a23d628db6672b31da32d8897063b8d3"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "newPath": "wiki/education/concepts/biology-basics/genetics/nonsense-mediated-decay.md",
+      "oldSourceSha256": "aaca25cac98179d46a7d9530ba5aceff22c1a0aa4beb787cb8be586df80ccc1a",
+      "newSourceSha256": "256212f4a31e50bb940b3c453bcb349451fd35633a65110bfb8230e6ae3d663d",
+      "oldSignature": {
+        "teachingSha256": "f19342d33eaec20dc1b1b3cc5dccc03613fa1864ac80e3e6a04a22538e923251",
+        "metadataSha256": "be1f7c58963af7b5ac7a61d6358b06863f4b52f753f9bb49df25d2811297e6a2"
+      },
+      "newSignature": {
+        "teachingSha256": "01de8eecb8e34a82db4b43ceb0944c0d7c59bfaaf2a3840138d4b00c07d5bd0b",
+        "metadataSha256": "be1f7c58963af7b5ac7a61d6358b06863f4b52f753f9bb49df25d2811297e6a2"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/biology-basics/genetics/splicing.md",
+      "newPath": "wiki/education/concepts/biology-basics/genetics/splicing.md",
+      "oldSourceSha256": "db289787187044c95da6bfa14e23e58f91d9921b3be21da8e4f0fbca3e4a12e9",
+      "newSourceSha256": "415fc694647eacb2c0faf92b82f26bea09854adef4d38056eb919191ed549a9f",
+      "oldSignature": {
+        "teachingSha256": "648da717bbd9a4476ed83a9799b1ffe825a297355d6a6b5463541a9a8cdf74c3",
+        "metadataSha256": "3615cca500567d8b4cbf2640beda1bb8ed61e78825bc21bc4487b2d0ca33c713"
+      },
+      "newSignature": {
+        "teachingSha256": "dc1fd14a97c045fd7b7b576caddefbff0bd18c3d9c465547ef72f19226998b8d",
+        "metadataSha256": "3615cca500567d8b4cbf2640beda1bb8ed61e78825bc21bc4487b2d0ca33c713"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/biology-basics/molecules/rna-and-mrna.md",
+      "newPath": "wiki/education/concepts/biology-basics/molecules/rna-and-mrna.md",
+      "oldSourceSha256": "66b70ea5e782756bf4c26a2704f18926c79d07088886294f96a17f6fcf37f842",
+      "newSourceSha256": "e08a2be9b32ec664fbc8e1c6eb329465af58d96783cac121c0511c1efa8e3f5a",
+      "oldSignature": {
+        "teachingSha256": "1f5a616f7cc3a4e520072455a0c113fe69222f9006a9ddcba0e9e28eeb0f2e9a",
+        "metadataSha256": "4a994a7fc7063c64881ca4afef3b1119c36e56a151ab23f5a5a672bcc8016916"
+      },
+      "newSignature": {
+        "teachingSha256": "32becbecc9176c42a63526b88c42fb6ded29230a1e464d862a275d211cf1cea5",
+        "metadataSha256": "4a994a7fc7063c64881ca4afef3b1119c36e56a151ab23f5a5a672bcc8016916"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+      "newPath": "wiki/education/concepts/measurement/imaging/response-criteria.md",
+      "oldSourceSha256": "bbecea9ca28ec58e3faf2aefc86221bc52cd74e937ef6f113578fde9a0daa41f",
+      "newSourceSha256": "f24a20f9dcef19a9831a38276bbd2983bd095855c1263256f56f5e521677bdb7",
+      "oldSignature": {
+        "teachingSha256": "d0f5f40e5cdf1112888df377fdd8e5943b40fc84996d35ce56f9b32284e0bd10",
+        "metadataSha256": "6c66ac20efdc356d805033f8ff4df8e8f13279676d63fcb387acb3c03427cbc6"
+      },
+      "newSignature": {
+        "teachingSha256": "c6f746bc7e628f917e14c0d771b6c4ece48b1dd3c84ef030e446b090eed3b294",
+        "metadataSha256": "63c16e8c97effb2ee897683c6c49b820e7896efcd0021a529dc01efde70199fe"
+      },
+      "disposition": "reviewed with new open requirements",
+      "scope": "Read all changed teaching against the previous complete review; additional distinctions are explicit new open requirements below."
+    },
+    {
+      "oldPath": "wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t.md",
+      "newPath": "wiki/education/concepts/therapeutics/cell-therapies/t-cell-engager-vs-car-t.md",
+      "oldSourceSha256": "bd503481126eb2e9a53b780c974c4949d8e0924cf43d87ff1433da60ee435b23",
+      "newSourceSha256": "8dd23aae0fb43206bb02e07b183775a487b647767a340cbc122a2aad00d5061e",
+      "oldSignature": {
+        "teachingSha256": "c0f89977a3a1bd52b33251f81187725fa533597dac38bdf62d14944c53c92b26",
+        "metadataSha256": "2f2c45f658b56df7d814d5fd521c6feb81413136601242d703c8ffb615537893"
+      },
+      "newSignature": {
+        "teachingSha256": "082e6163b4367e577d1da8b13588c0ae7a72f266e3f39c927a94d341e43449ee",
+        "metadataSha256": "2f2c45f658b56df7d814d5fd521c6feb81413136601242d703c8ffb615537893"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/therapeutics/local-therapies/completion-surgery.md",
+      "newPath": "wiki/education/concepts/therapeutics/local-therapies/completion-surgery.md",
+      "oldSourceSha256": "c4ebecc246f42dde5c566a288bea9a9e1965974aa20c033b9c289da048868424",
+      "newSourceSha256": "814328cc13b122d5429baf2ee368deb99d873d879d1bb68a5877663f2bdde5d1",
+      "oldSignature": {
+        "teachingSha256": "67eddcbb220727fa71b04ea2742eb1f5610ecc2e96a9f756777f149fef539634",
+        "metadataSha256": "e366b4c6e8f088c4f10f691ae7a1a9e73716e4d3917d8fe0d7f4ebeb4e6c406a"
+      },
+      "newSignature": {
+        "teachingSha256": "2a35ba87077f729d9d8da0da929bc156eb5179dcf835f332c646d5c82d18b24e",
+        "metadataSha256": "e366b4c6e8f088c4f10f691ae7a1a9e73716e4d3917d8fe0d7f4ebeb4e6c406a"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa.md",
+      "newPath": "wiki/education/concepts/therapeutics/local-therapies/cryo-vs-rfa-vs-mwa.md",
+      "oldSourceSha256": "5aec9cb66f9776a85b3b8f61b5aa302bc1b5c678613c7d7a68ba7be9736e0820",
+      "newSourceSha256": "79ce54e10b56b1518d033da931ffbef994c3eff55e0918722759f35e1bb4726b",
+      "oldSignature": {
+        "teachingSha256": "abf7e6668250cabd8ecc3c47a0f11ed8e39600e7e5844a17e27f0590713b218b",
+        "metadataSha256": "188511fb6a4f75e84f323ce5f9ea5dbf534d28514e1c4ac45ae82546e884d688"
+      },
+      "newSignature": {
+        "teachingSha256": "5d73132155ac919b87777998e13d65fb698f22436bf2c656488b6138a3312860",
+        "metadataSha256": "188511fb6a4f75e84f323ce5f9ea5dbf534d28514e1c4ac45ae82546e884d688"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/therapeutics/local-therapies/hypofractionation.md",
+      "newPath": "wiki/education/concepts/therapeutics/local-therapies/hypofractionation.md",
+      "oldSourceSha256": "2d5c78c8e39eef65dfc43d80b13d7dbd08206323cdee06861e4ae26d6113a8c4",
+      "newSourceSha256": "6651f275bc27f5b9cc902d567377197b37de9372bf46a12a054896d439ad6319",
+      "oldSignature": {
+        "teachingSha256": "4eac601927f85db78587a079267fac9edbcc7296487bca79a0aed8af021341b4",
+        "metadataSha256": "e79fbf683812ae8e91cbbe7c97b457118b7bf5447ec48b5a7c8d9f177cd4e473"
+      },
+      "newSignature": {
+        "teachingSha256": "2cab936d4f4bc4f7197b98b885cd57c328fe80c0ba62b1ed56c105833e73671c",
+        "metadataSha256": "e79fbf683812ae8e91cbbe7c97b457118b7bf5447ec48b5a7c8d9f177cd4e473"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation.md",
+      "newPath": "wiki/education/concepts/therapeutics/local-therapies/sbrt-vs-conventional-radiation.md",
+      "oldSourceSha256": "7f2e92f14e9152e74d94c61b810c6c0de053226d6ab965411525a177afc3c8fb",
+      "newSourceSha256": "4c504a2058013651c38a215b202ef41571edef97e6abf6e9048bcdf093e633ea",
+      "oldSignature": {
+        "teachingSha256": "835bcbae2345077b873b6001e6e25fc00b4eaa292db95518283249b4ed4cd81e",
+        "metadataSha256": "91c4df4043a89ce3f41a394f1003f1ffd9aa28ee2497a92e9d6c28a901585ab3"
+      },
+      "newSignature": {
+        "teachingSha256": "bf0fb6bb05f6641a0bf1c08a51baad4a7ec6f58f78015abd21c47b288fb21fd7",
+        "metadataSha256": "91c4df4043a89ce3f41a394f1003f1ffd9aa28ee2497a92e9d6c28a901585ab3"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/local-treatment-modalities/index.md",
+      "newPath": "wiki/education/local-treatment-modalities/index.md",
+      "oldSourceSha256": "4da57a9359d2b2c25b88fcffa1671fb26aae49ca5accee5c986b4ca03384c679",
+      "newSourceSha256": "5b9966519ddcb6c8ca8cd43cfd58ba784109612bd9f052082278c4fbff94d7cd",
+      "oldSignature": {
+        "teachingSha256": "39234b095f366abcb955fee00ada199210d3e90e9d097ce2b8b8f6392e65f537",
+        "metadataSha256": "307aa3c562ddc1fb69b62a87735090a7bf537917c8b70cc88e5d94ec4bede52a"
+      },
+      "newSignature": {
+        "teachingSha256": "361e7ab83bb2d7b3f2ae07cb89109d09fb8a546898e9b3cf56b66da089933cfd",
+        "metadataSha256": "307aa3c562ddc1fb69b62a87735090a7bf537917c8b70cc88e5d94ec4bede52a"
+      },
+      "disposition": "reviewed delta; same requirements",
+      "scope": "Read the entire source delta against the prior complete review. Changes are internal links, terminal whitespace or the central-dogma sentence compressed without a new teaching requirement; all internal education Markdown targets exist. Linked new concepts retain their own unread status."
+    },
+    {
+      "oldPath": "wiki/education/tools/in-vivo-car-t-learning-lab.md",
+      "newPath": "wiki/education/tools/in-vivo-car-t-learning-lab.md",
+      "oldSourceSha256": "b29353f1b9fc07e0b0e43d230cb435a0e229fc23e735b378a881e2193676e095",
+      "newSourceSha256": "5ca2ab7aa27b6546f72bdbda5dd0d63228387b25c21a6cf9c4104f2a58a6fb14",
+      "oldSignature": {
+        "teachingSha256": "38459d7b52378a29831456c6635fc49f366fb857771164515615afa5953f1c66",
+        "metadataSha256": "01f5e41ac94bfdd51551c61ed3830484b34c67882e5e27c736d950b2a616bd6f"
+      },
+      "newSignature": {
+        "teachingSha256": "0ee5d8e5e2e39084dc2f10dccb8de196ca0f7804bb805af298c2543dd56e8fbe",
+        "metadataSha256": "60540cd4b804a99118de7538682b4d58093d3e0207c8bf621dd20f2ab664c1ad"
+      },
+      "disposition": "reviewed with new open requirements",
+      "scope": "Read all changed teaching against the previous complete review; additional distinctions are explicit new open requirements below."
+    }
+  ],
+  "scope": "Semantic delta review of these named sources only. Unread changed payload sources and newly introduced concepts remain open. Original requirements and field proofs remain in both ledgers; totals across versions must not be added.",
+  "metadataComparison": {
+    "ignoredOperationalKeys": [
+      "used_by",
+      "updated",
+      "source_checked",
+      "review_status",
+      "reviewed",
+      "reviewed_by",
+      "expert_review",
+      "learner_review",
+      "minutes"
+    ],
+    "unknownKeysCount": true
+  }
+}

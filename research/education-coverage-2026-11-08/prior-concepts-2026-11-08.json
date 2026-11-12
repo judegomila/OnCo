@@ -1,0 +1,251 @@
+{
+  "oncoBaseline": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "publicCurriculumRepository": "https://github.com/jasonLaster/oncoguide",
+  "publicCurriculumCommit": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "scope": "Concept titles, identifiers, hashes and authored gap descriptions only; no case-specific lesson content copied.",
+  "concepts": [
+    {
+      "title": "Target expression versus ADC response",
+      "path": "wiki/education/concepts/therapeutics/antibody-based/target-expression-vs-adc-response.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/antibody-based/target-expression-vs-adc-response.md",
+      "sha256": "689f667f671bc11a332ccb172ac5525fad207b2325347c7dc8aa33020c49e2e3",
+      "disposition": "New concepts",
+      "oncoRecords": [
+        "antigen-expression-and-response",
+        "binding-site-barrier",
+        "antibody-internalization-trafficking",
+        "lysosomal-payload-egress"
+      ],
+      "gapOrReason": "Surface expression did not have a dedicated explanation of delivery, processing and response boundaries."
+    },
+    {
+      "title": "Chemical probes, medicines and target engagement",
+      "path": "wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/therapeutics/how-drugs-work/chemical-probe-vs-drug-and-target-engagement.md",
+      "sha256": "376cc880362d0060f7b2d23a71fae169167da86193947ca9cc91d599d2162124",
+      "disposition": "New concepts",
+      "oncoRecords": [
+        "drug-target-engagement",
+        "on-target-drug-validation",
+        "experimental-versus-clinical-exposure"
+      ],
+      "gapOrReason": "Separate engagement, mechanism attribution and clinically relevant exposure."
+    },
+    {
+      "title": "CHIP (clonal hematopoiesis of indeterminate potential)",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/liquid-biopsy/chip.md",
+      "sha256": "cac7684a3411ad9be1a11feccc3bc879ef973730b7521414dc5cc0d68d06b2ff",
+      "disposition": "New explanation beside existing owner",
+      "oncoRecords": [
+        "blood-cell-variants-liquid-biopsy",
+        "clonal-haematopoiesis"
+      ],
+      "gapOrReason": "Keep the existing CHIP pathway; add plasma-variant origin as a measurement problem."
+    },
+    {
+      "title": "Blood sampling and detection limits",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/liquid-biopsy/limit-of-detection-and-sampling.md",
+      "sha256": "7df6cf713487a96d5f4746b50d28bbf95022e18ee688d45dd2736d6eae10d898",
+      "disposition": "New concepts",
+      "oncoRecords": [
+        "ctdna-shedding-negative-results",
+        "finite-molecule-sampling",
+        "detection-versus-quantification"
+      ],
+      "gapOrReason": "Separate biological shedding, finite input, assay detection and reliable quantification."
+    },
+    {
+      "title": "Tumor-informed versus tumor-naive residual-disease assays",
+      "path": "wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/liquid-biopsy/tumor-informed-mrd-assay.md",
+      "sha256": "6ff2dc13625796a087c43c606417d98c19ff9b495ad5cd8c349d3ad289c4b048",
+      "disposition": "New concept",
+      "oncoRecords": [
+        "tumor-informed-assay-design"
+      ],
+      "gapOrReason": "Describe assay architecture without ranking all platforms or assuming clinical utility."
+    },
+    {
+      "title": "Analytical validity, clinical validity and clinical utility",
+      "path": "wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/computational-analysis/analytical-validity-clinical-validity-and-utility.md",
+      "sha256": "d4c73c370a30b7e17160d9278b71d6180b5ca844fa026553dbac6e0f7b779d64",
+      "disposition": "Augment existing owner",
+      "oncoRecords": [
+        "analytical-vs-clinical-validation"
+      ],
+      "gapOrReason": "Deepen the existing validation record instead of duplicating it."
+    },
+    {
+      "title": "How a model earns trust",
+      "path": "wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/functional-models/how-a-model-earns-trust.md",
+      "sha256": "50e5ed1ac0d137f01f051e2f2ef97d9a5fdc83a76f0d6a5f688ffb7f71a883d1",
+      "disposition": "New concept",
+      "oncoRecords": [
+        "model-context-of-use"
+      ],
+      "gapOrReason": "Model credibility depends on the particular question and retained components."
+    },
+    {
+      "title": "CRISPR dependency mapping: what a cell needs",
+      "path": "wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/functional-models/dependency-mapping-crispr.md",
+      "sha256": "4108d78736dc94abec5492e02ec57c65ad255ddc06e895bbc67ef9cf85bfd1c7",
+      "disposition": "New concepts",
+      "oncoRecords": [
+        "on-target-drug-validation",
+        "crispr-copy-number-artifact"
+      ],
+      "gapOrReason": "Guide depletion, target dependency and drug mechanism require separate checks."
+    },
+    {
+      "title": "Ex vivo drug screen: response outside the original body",
+      "path": "wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/functional-models/ex-vivo-drug-screen.md",
+      "sha256": "4460e232b188f37d6d495cd6810e2b2535ac9a2e726874e45037427f1e65a043",
+      "disposition": "New concepts and augment existing owner",
+      "oncoRecords": [
+        "drug-response-sensitivity",
+        "growth-rate-inhibition",
+        "cytostasis-versus-cell-death",
+        "experimental-versus-clinical-exposure"
+      ],
+      "gapOrReason": "Readout, baseline, division rate and exposure are missing parts of a sensitivity claim."
+    },
+    {
+      "title": "PDX, organoid or tumor fragment: choose by the question",
+      "path": "wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/functional-models/pdx-vs-organoid-vs-tumor-fragment.md",
+      "sha256": "7f4b539fc8599bc475d4497c436f34b10ab48a233db75d7af9fea3ac9edce6a9",
+      "disposition": "Connect existing owners",
+      "oncoRecords": [
+        "model-context-of-use",
+        "organoids",
+        "pdx-models"
+      ],
+      "gapOrReason": "Preserve the platform records and add a question-specific interpretation concept."
+    },
+    {
+      "title": "Prognostic versus predictive biomarkers",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/biomarkers/prognostic-vs-predictive.md",
+      "sha256": "0dfdc3ece7837e16ba57049ef19e66efb71c3d7a6f63c5fbda535db43bab1438",
+      "disposition": "New concept and augment existing owner",
+      "oncoRecords": [
+        "prognostic-versus-predictive-biomarkers",
+        "biomarker"
+      ],
+      "gapOrReason": "A treatment-effect interaction is different from a within-treatment response association."
+    },
+    {
+      "title": "Clinical actionability and evidence tiers",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/actionability.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/biomarkers/actionability.md",
+      "sha256": "66bbe54425220bd8cdac8a45039fcbc1fb8f5ab7f90b635423a26c670d8e1106",
+      "disposition": "Augment existing owner",
+      "oncoRecords": [
+        "cancer-drivers-vs-actionable",
+        "functional-variant-evidence"
+      ],
+      "gapOrReason": "Exact variant function, cancer mechanism, clinical evidence and access remain distinct."
+    },
+    {
+      "title": "Limits of blank, detection and quantitation",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/biomarkers/limits-of-detection-and-quantitation.md",
+      "sha256": "142cb20c4a4ab8b2b0cda07aa8eba00ec2f0efc75ea2844d813f3ecc7781261f",
+      "disposition": "New concept",
+      "oncoRecords": [
+        "detection-versus-quantification"
+      ],
+      "gapOrReason": "Analytical detection and precise amount measurement are distinct."
+    },
+    {
+      "title": "Absence of evidence",
+      "path": "wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md",
+      "sha256": "9b962fe6005013553d7ceea5f1cfe60090c1df3f1b697335398004af93ff11d5",
+      "disposition": "New concept",
+      "oncoRecords": [
+        "inconclusive-and-negative-evidence"
+      ],
+      "gapOrReason": "Separate an imprecise null result from informative evidence against a meaningful effect."
+    },
+    {
+      "title": "The evidence chain from variant to benefit",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+      "disposition": "New reading map",
+      "oncoRecords": [
+        "measurement-to-benefit-evidence",
+        "functional-variant-evidence"
+      ],
+      "gapOrReason": "Use separate evidence questions instead of treating a variant-to-drug match as patient benefit."
+    },
+    {
+      "title": "Transportability and eligibility",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+      "disposition": "New concept and augment existing owner",
+      "oncoRecords": [
+        "trial-population-transportability",
+        "external-validation"
+      ],
+      "gapOrReason": "Treatment-effect transport and prediction-model validation are different transfer questions."
+    },
+    {
+      "title": "Thresholds and cutpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+      "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+      "disposition": "New concepts",
+      "oncoRecords": [
+        "biomarker-cutpoint-selection",
+        "decision-curve-net-benefit"
+      ],
+      "gapOrReason": "A chosen positivity rule and the consequences of acting on a prediction need their own evidence."
+    },
+    {
+      "title": "Calibration of predicted probabilities",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+      "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+      "disposition": "Already represented; no new synonym record",
+      "oncoRecords": [
+        "calibration",
+        "roc-auc"
+      ],
+      "gapOrReason": "Existing canonical owners cover probability agreement and ranking; this pass connects them to decision analysis, without re-auditing all their claims."
+    },
+    {
+      "title": "Model-validation basics",
+      "path": "wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/computational-analysis/model-validation-basics.md",
+      "sha256": "bb92354b1903e5684a5a708324dabe2156f715b102096a056d6c3e8330e154cd",
+      "disposition": "Already represented; strengthen canonical owner",
+      "oncoRecords": [
+        "external-validation",
+        "train-test-discipline",
+        "data-leakage"
+      ],
+      "gapOrReason": "Retain the canonical validation and leakage concepts, and correct overstatement of what validation proves."
+    },
+    {
+      "title": "Surrogate endpoints: patient-level and trial-level evidence",
+      "path": "wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+      "publicSource": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md",
+      "sha256": "2207caebb32f4d3df09e3f1da82cce874085d3034f254574d36c092ea1994f49",
+      "disposition": "Already represented; no duplicate",
+      "oncoRecords": [
+        "surrogate-endpoint",
+        "surrogate-validation"
+      ],
+      "gapOrReason": "Keep the existing endpoint and validation records; link the predictive-biomarker distinction to them."
+    }
+  ]
+}

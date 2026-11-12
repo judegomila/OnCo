@@ -1,0 +1,1108 @@
+{
+  "ownersChanged": 3,
+  "newRecords": 0,
+  "changes": [
+    {
+      "id": "autophagy",
+      "file": "src/data/mechanisms.ts",
+      "fields": {
+        "notes": [
+          "Leading programmes: Amaravadi (Penn) on autophagy inhibition trials; Kimmelman (NYU) on PDAC autophagy and MHC-I; Der (UNC) on KRAS/autophagy.",
+          "Macroautophagy encloses cargo in a double-membrane autophagosome, delivers it through lysosomal fusion and degrades it for reuse. Formation, delivery and breakdown are separate steps; not all lysosomal processes use autophagosomes. Active recycling often supports stress adaptation, whereas autophagy-dependent death requires causal evidence implicating the machinery.",
+          "A completed macroautophagosome has separate inner and outer membranes, with space between them. When it fuses with a lysosome, the outer membrane joins the lysosomal boundary, while the inner membrane is degraded before enzymes gain access to the enclosed cargo. Itakura and colleagues located syntaxin 17 on completed autophagosomes, and Tsuboyama and colleagues found that loss of ATG conjugation systems markedly delayed inner-membrane degradation even when fusion occurred. A direct-fusion sketch omits intermediate endosomal interactions described in multicellular organisms; it is not the complete route taken by every compartment.",
+          "Product return has evidence in defined systems. In leucine-starved cultured human HEK-293T cells, Wyant and colleagues found that SLC38A9 was needed for leucine made by lysosomal protein breakdown to reach the cytosol; the response also depended on the autophagy protein ATG7. Abu-Remaileh and colleagues measured regulated lysosomal amino-acid exchange in mammalian cells. Yeast experiments identified Atg22, Avt3 and Avt4 as partially redundant vacuolar amino-acid exporters. These results support amino-acid recycling in those systems, without establishing transport of every breakdown product, secretion from the cell or guaranteed growth.",
+          "More lipidated LC3-II can reflect greater formation or slower removal. A controlled short lysosomal block and complementary tandem fluorescent LC3 reporter can help examine turnover and delivery to acidic compartments. Equal starting amounts can have different later fates. Little additional accumulation can reflect a late block, low formation or an unsuitable window; it does not establish dependence.",
+          "Flux, selected-cargo clearance and survival dependence are different claims. NBR1 experiments identify selective ubiquitinated-cargo handling, not a universal LC3 cargo census. Use time courses, viable-cell normalisation, verified lysosomal inhibition and independent perturbations; autophagy proteins can have other functions. Lower mTOR signalling can change initiation without guaranteeing completed degradation. Typical research outputs include normalised LC3-II band intensity, reporter compartments per cell and selected-cargo disappearance over time. Tested cultures are consumed or perturbed, and prolonged lysosomal inhibition can itself disturb the system. No universal LC3 or flux cutoff selects treatment.",
+          "In Karasic and colleagues' randomised phase 2 study of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel increased response rate but did not improve the primary endpoint of survival at 12 months. Response was 38.2% versus 21.1%; 12-month survival was 41% versus 49%. These group results do not show selective autophagy dependence or recommend this combination."
+        ],
+        "links": [
+          {
+            "label": "Primary source, PMID 17534139",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17534139/"
+          },
+          {
+            "label": "Primary source, PMID 31120501",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31120501/"
+          },
+          {
+            "label": "Yamamoto et al., Autophagy promotes immune evasion of pancreatic cancer by degrading MHC-I (Nature 2020)",
+            "url": "https://doi.org/10.1038/s41586-020-2229-5"
+          },
+          {
+            "label": "Source identity and scope, PMID 33634751",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33634751/"
+          },
+          {
+            "label": "Source identity and scope, PMID 29362479",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+          },
+          {
+            "label": "Source identity and scope, PMID 33584716",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33584716/"
+          },
+          {
+            "label": "Source identity and scope, PMID 19250911",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19250911/"
+          },
+          {
+            "label": "Source identity and scope, PMID 19258318",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19258318/"
+          },
+          {
+            "label": "Lysosome biology in autophagy (2020 review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32047650/"
+          },
+          {
+            "label": "The hairpin-type tail-anchored SNARE syntaxin 17 targets to autophagosomes for fusion with endosomes/lysosomes (2012 cell experiments)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23217709/"
+          },
+          {
+            "label": "The ATG conjugation systems are important for degradation of the inner autophagosomal membrane (2016 cell experiments)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27885029/"
+          },
+          {
+            "label": "Autophagosome maturation: An epic journey from the ER to lysosomes (2019 review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30578282/"
+          },
+          {
+            "label": "mTORC1 Activator SLC38A9 Is Required to Efflux Essential Amino Acids from Lysosomes and Use Protein as a Nutrient (2017 cell and transport experiments)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29053970/"
+          },
+          {
+            "label": "Lysosomal metabolomics reveals V-ATPase- and mTOR-dependent regulation of amino acid efflux from lysosomes (2017 lysosomal metabolomics)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29074583/"
+          },
+          {
+            "label": "Atg22 recycles amino acids to link the degradative and recycling functions of autophagy (2006 yeast experiments)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17021250/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "before": {
+        "notes": [
+          "Leading programmes: Amaravadi (Penn) on autophagy inhibition trials; Kimmelman (NYU) on PDAC autophagy and MHC-I; Der (UNC) on KRAS/autophagy.",
+          "Macroautophagy encloses cargo in a double-membrane autophagosome, delivers it through lysosomal fusion and degrades it for reuse. Formation, delivery and breakdown are separate steps; not all lysosomal processes use autophagosomes. Active recycling often supports stress adaptation, whereas autophagy-dependent death requires causal evidence implicating the machinery.",
+          "More lipidated LC3-II can reflect greater formation or slower removal. A controlled short lysosomal block and complementary tandem fluorescent LC3 reporter can help examine turnover and delivery to acidic compartments. Equal starting amounts can have different later fates. Little additional accumulation can reflect a late block, low formation or an unsuitable window; it does not establish dependence.",
+          "Flux, selected-cargo clearance and survival dependence are different claims. NBR1 experiments identify selective ubiquitinated-cargo handling, not a universal LC3 cargo census. Use time courses, viable-cell normalisation, verified lysosomal inhibition and independent perturbations; autophagy proteins can have other functions. Lower mTOR signalling can change initiation without guaranteeing completed degradation. Typical research outputs include normalised LC3-II band intensity, reporter compartments per cell and selected-cargo disappearance over time. Tested cultures are consumed or perturbed, and prolonged lysosomal inhibition can itself disturb the system. No universal LC3 or flux cutoff selects treatment.",
+          "In Karasic and colleagues' randomised phase 2 study of 112 people with advanced pancreatic cancer, adding hydroxychloroquine to gemcitabine and nab-paclitaxel increased response rate but did not improve the primary endpoint of survival at 12 months. Response was 38.2% versus 21.1%; 12-month survival was 41% versus 49%. These group results do not show selective autophagy dependence or recommend this combination."
+        ],
+        "links": [
+          {
+            "label": "Primary source, PMID 17534139",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17534139/"
+          },
+          {
+            "label": "Primary source, PMID 31120501",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31120501/"
+          },
+          {
+            "label": "Yamamoto et al., Autophagy promotes immune evasion of pancreatic cancer by degrading MHC-I (Nature 2020)",
+            "url": "https://doi.org/10.1038/s41586-020-2229-5"
+          },
+          {
+            "label": "Source identity and scope, PMID 33634751",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33634751/"
+          },
+          {
+            "label": "Source identity and scope, PMID 29362479",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
+          },
+          {
+            "label": "Source identity and scope, PMID 33584716",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33584716/"
+          },
+          {
+            "label": "Source identity and scope, PMID 19250911",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19250911/"
+          },
+          {
+            "label": "Source identity and scope, PMID 19258318",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19258318/"
+          }
+        ],
+        "asOf": "2026-11-09"
+      },
+      "beforeHashes": {
+        "notes": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+        "links": "953439756f1039e0ebaca6acfcb15cbbe067f4c44c745eab6527fe98dc8029e9",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterHashes": {
+        "notes": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+        "links": "913bb67ee7798bea15472020a3320cb459de30c7da3eebc935838ae5f6c921ce",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      }
+    },
+    {
+      "id": "homologous-recombination-repair",
+      "file": "src/data/mechanics-pathways.ts",
+      "fields": {
+        "summary": "Double-strand breaks can be repaired through matching-template homologous recombination or several end-joining routes. Homologous repair often uses the sister chromatid after DNA copying. The substrate, available template and cell-cycle state affect which route can operate.\n\nPreparing a double-strand break for homologous repair includes DNA end resection in the 5′ to 3′ direction, leaving protruding 3′ single-stranded ends. RAD51 helps a prepared strand find and pair with a complementary strand in matching duplex DNA, displacing the other template strand into a D-loop. DNA synthesis can then extend the invading end using the template. Synthesis-dependent strand annealing can finish as a noncrossover repair: the extended strand leaves the template and pairs with the other broken end. Other homologous-repair routes can have crossover outcomes, so using an intact template does not mean every repair leaves donor and recipient arrangements unchanged. Purified bacterial RecA structures reveal strand-pairing intermediates; they are not direct measurements of human RAD51 repair in a tumour.\n\nClassical nonhomologous end joining reconnects ends without requiring a long matching template and can preserve compatible ends. Microhomology-associated joining uses short matching sequences after end processing. Theta-mediated end joining names a POLQ-mediated mechanism; finding short matches alone does not identify that enzyme. These routes overlap in outcomes without becoming interchangeable definitions.\n\nKu binds broken ends, and ligase IV with supporting factors can help align and seal them; difficult ends can require processing. Resection exposes single-stranded regions for alternative joining, where short matches can align and intervening sequence can be lost. Purified-factor experiments, defined chromosome-break reporters and controlled cellular studies test particular substrates and factor dependencies, not a universal menu for every break.\n\nA fictional top-strand sequence CA-GAC-TT|AA-GAC-GT has 14 base pairs before joining. A selected short-match product CA-GAC-GT retains seven, losing the four-base TTAA interval and one three-base GAC repeat. For a selected alignment of GAC with its complementary CTG sequence, trimming the unmatched TT flaps leaves seven paired positions and two backbone nicks to seal, without a gap to fill. Other substrates can require synthesis; this arithmetic and schematic geometry are not measured repair frequencies.\n\nSequence a repaired junction and measure a defined repair reporter, then perturb the proposed factor with specificity controls and, where feasible, rescue. Repair fraction, junction distribution and cell survival are distinct outputs. A deletion with microhomology is compatible with a joining route, but does not demonstrate POLQ dependence, selective killing or benefit from a POLQ inhibitor in a patient. Viable-cell and purified-component studies have model-specific input and material costs.",
+        "analogy": "A matching copy can guide repair of a torn page; end joining reconnects the damaged edges. This comparison omits the proteins and end processing, and end joining can preserve compatible sequence.",
+        "links": [
+          {
+            "label": "Chang, Pannunzio, Adachi & Lieber, Non-homologous DNA end joining and alternative pathways to double-strand break repair (Nat Rev Mol Cell Biol 2017)",
+            "url": "https://doi.org/10.1038/nrm.2017.48"
+          },
+          {
+            "label": "Lord & Ashworth, PARP inhibitors: synthetic lethality in the clinic (Science 2017)",
+            "url": "https://doi.org/10.1126/science.aam7344"
+          },
+          {
+            "label": "Structural role for DNA Ligase IV in promoting the fidelity of non-homologous end joining. (2024; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38341432/"
+          },
+          {
+            "label": "Mechanism of microhomology-mediated end-joining promoted by human DNA polymerase θ. (2015; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25643323/"
+          },
+          {
+            "label": "Alternative-NHEJ is a mechanistically distinct pathway of mammalian chromosome break repair. (2008; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18584027/"
+          },
+          {
+            "label": "DNA Ligase IV Guides End-Processing Choice during Nonhomologous End Joining. (2017; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28930678/"
+          },
+          {
+            "label": "Essential Roles for Polymerase θ-Mediated End Joining in the Repair of Chromosome Breaks. (2016; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27453047/"
+          },
+          {
+            "label": "Sister chromatid gene conversion is a prominent double-strand break repair pathway in mammalian cells. (2000; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10880452/"
+          },
+          {
+            "label": "Brca1 controls homology-directed DNA repair. (1999; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10549283/"
+          },
+          {
+            "label": "Purified human BRCA2 stimulates RAD51-mediated recombination. (2010; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20729832/"
+          },
+          {
+            "label": "Biochemical Mechanisms of Genetic Recombination and DNA Repair (2025 biochemical review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40153609/"
+          },
+          {
+            "label": "Homologous recombination and its regulation (2012 review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22467216/"
+          },
+          {
+            "label": "Mechanism of strand exchange from RecA-DNA synaptic and D-loop structures (2020 purified bacterial RecA cryo-EM)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33057191/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "before": {
+        "summary": "Double-strand breaks can be repaired through matching-template homologous recombination or several end-joining routes. Homologous repair often uses the sister chromatid after DNA copying. The substrate, available template and cell-cycle state affect which route can operate.\n\nClassical nonhomologous end joining reconnects ends without requiring a long matching template and can preserve compatible ends. Microhomology-associated joining uses short matching sequences after end processing. Theta-mediated end joining names a POLQ-mediated mechanism; finding short matches alone does not identify that enzyme. These routes overlap in outcomes without becoming interchangeable definitions.\n\nKu binds broken ends, and ligase IV with supporting factors can help align and seal them; difficult ends can require processing. Resection exposes single-stranded regions for alternative joining, where short matches can align and intervening sequence can be lost. Purified-factor experiments, defined chromosome-break reporters and controlled cellular studies test particular substrates and factor dependencies, not a universal menu for every break.\n\nA fictional top-strand sequence CA-GAC-TT|AA-GAC-GT has 14 base pairs before joining. A selected short-match product CA-GAC-GT retains seven, losing the four-base TTAA interval and one three-base GAC repeat. In the pictured selected alignment, trimming the unmatched TT flaps leaves seven paired positions and two backbone nicks to seal, without a gap to fill. Other substrates can require synthesis; this arithmetic and schematic geometry are not measured repair frequencies.\n\nSequence a repaired junction and measure a defined repair reporter, then perturb the proposed factor with specificity controls and, where feasible, rescue. Repair fraction, junction distribution and cell survival are distinct outputs. A deletion with microhomology is compatible with a joining route, but does not demonstrate POLQ dependence, selective killing or benefit from a POLQ inhibitor in a patient. Viable-cell and purified-component studies have model-specific input and material costs.",
+        "analogy": "A torn page. The careful archivist (HR) fetches the twin copy from the shelf and transcribes it letter for letter; the hurried clerk (NHEJ) tapes the two halves together, losing a few words. Tumours missing the archivist survive on the clerk, so anything that adds more torn pages (PARP inhibitors, platinum, radiation) buries them.",
+        "links": [
+          {
+            "label": "Chang, Pannunzio, Adachi & Lieber, Non-homologous DNA end joining and alternative pathways to double-strand break repair (Nat Rev Mol Cell Biol 2017)",
+            "url": "https://doi.org/10.1038/nrm.2017.48"
+          },
+          {
+            "label": "Lord & Ashworth, PARP inhibitors: synthetic lethality in the clinic (Science 2017)",
+            "url": "https://doi.org/10.1126/science.aam7344"
+          },
+          {
+            "label": "Structural role for DNA Ligase IV in promoting the fidelity of non-homologous end joining. (2024; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38341432/"
+          },
+          {
+            "label": "Mechanism of microhomology-mediated end-joining promoted by human DNA polymerase θ. (2015; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25643323/"
+          },
+          {
+            "label": "Alternative-NHEJ is a mechanistically distinct pathway of mammalian chromosome break repair. (2008; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18584027/"
+          },
+          {
+            "label": "DNA Ligase IV Guides End-Processing Choice during Nonhomologous End Joining. (2017; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28930678/"
+          },
+          {
+            "label": "Essential Roles for Polymerase θ-Mediated End Joining in the Repair of Chromosome Breaks. (2016; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27453047/"
+          },
+          {
+            "label": "Sister chromatid gene conversion is a prominent double-strand break repair pathway in mammalian cells. (2000; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10880452/"
+          },
+          {
+            "label": "Brca1 controls homology-directed DNA repair. (1999; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10549283/"
+          },
+          {
+            "label": "Purified human BRCA2 stimulates RAD51-mediated recombination. (2010; primary evidence)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20729832/"
+          }
+        ],
+        "asOf": "2026-11-10"
+      },
+      "beforeHashes": {
+        "summary": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+        "analogy": "c83e42aecc54ebecbc1577101d5a5a57933be69939a7199c71e8486c02bac9ea",
+        "links": "cb52c7294f83f47a081484112c886a2a7bbaf254c599a48cffb6bca0b22e9372",
+        "asOf": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      "afterHashes": {
+        "summary": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+        "analogy": "ba49dc6bd6e84877f31415fe71d15b485d9181bc385b0378743c1ed8dae3604f",
+        "links": "7018261a3ed7cfa2eb19327c5912255ae3662c158eb1e73a980e89d52c6a68f6",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      }
+    },
+    {
+      "id": "oxidative-phosphorylation",
+      "file": "src/data/education-parallel-death-metabolism-2026-11.ts",
+      "fields": {
+        "summary": "Extracellular flux methods estimate respiratory and glycolytic contributions to energy production under defined assumptions. A respiratory message, measured oxygen use, calculated energy output and dependence for survival are distinct claims. Normalisation, fuel, viable-cell input, collection time and the specified method version belong with a result. Electron transport, proton pumping, return through ATP synthase and uncoupling are distinct steps. The mitochondrial matrix and intermembrane space locate the two sides of the inner membrane; naming these compartments does not supply a universal conversion ratio.",
+        "notes": [
+          "Respiration and ATP generation are related but different measurements. Mitochondrial and nonmitochondrial oxygen consumption, proton leak and ATP-linked respiration require controlled separation. Respiratory transcripts, normalised oxygen-consumption rates and survival dependence cannot substitute for one another; bulk tissue composition and compensatory fuel use also matter. Oxygen-consumption assays require viable cells or functional preparations rather than routine fixed sections and use or perturb the tested material. Report oxygen per time with justified viable-cell or protein normalisation. Equal baseline respiration and different responses to ATP-synthase inhibition do not by themselves identify which culture will die.",
+          "The fictional oxygen-rate example gives 60 minus 30 = 30 picomoles of oxygen per minute per 10,000 viable cells after ATP-synthase inhibition. This is an inhibitor-sensitive oxygen-rate difference, not picomoles of ATP, a death percentage or a corrected ATP-production calculation. Fuel, normalisation and assay controls remain attached.",
+          "In mitochondria, respiratory electron transfer and proton movement are distinct processes. Some respiratory complexes move protons from the matrix into the intermembrane space; return through ATP synthase can support ATP formation, while other return pathways dissipate the gradient without that synthesis step. These directions do not specify a fixed proton-to-ATP ratio. Protons return from the intermembrane space to the matrix through the membrane-embedded Fo part of ATP synthase. The matrix-facing F1 part uses the transferred energy to make ATP from ADP and inorganic phosphate. Protons provide the driving force; they are not converted into ATP. A parallel proton leak bypasses ATP synthase and dissipates the gradient. In Racker and Stoeckenius' reconstituted vesicles, a light-driven membrane system from Halobacterium supported ATP formation when mitochondrial ATPase was included. Their artificial vesicles pumped in the opposite direction to the intact source cells, so the experiment supports coupling without specifying a universal cellular orientation or ratio.",
+          "Extracellular acidification can include respiration-derived carbon dioxide as well as glycolytic acid production. Keep correction assumptions, normalisation and method version with any calculated ATP rate. The 2018 correction to Mookerjee and colleagues' 2017 method changes the ATP-linked oxygen-rate equation and reports use of a different hyperpolarization factor in some calculations; several numerical rates changed while the authors retained their qualitative conclusions. An inhibitor-sensitive oxygen-rate difference is therefore not itself an ATP rate, and an unversioned fixed conversion should not be inferred."
+        ],
+        "links": [
+          {
+            "label": "Source identity and scope, PMID 26709455",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26709455/"
+          },
+          {
+            "label": "Source identity and scope, PMID 28270511",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28270511/"
+          },
+          {
+            "label": "Racker and Stoeckenius 1974: proton-pumping vesicle reconstitution",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4272126/"
+          },
+          {
+            "label": "Mookerjee et al. 2018 correction to the ATP-rate method",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6093231/"
+          },
+          {
+            "label": "OpenStax Biology 2e 7.4: mitochondrial oxidative phosphorylation (educational source)",
+            "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+          },
+          {
+            "label": "Assessing mitochondrial dysfunction in cells (2011 methods review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21726199/"
+          },
+          {
+            "label": "Mitochondrial ATP synthase: architecture, function and pathology (2012 ATP-synthase review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21874297/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "before": {
+        "summary": "Extracellular flux methods estimate respiratory and glycolytic contributions to energy production under defined assumptions. A respiratory message, measured oxygen use, calculated energy output and dependence for survival are distinct claims. Normalisation, fuel, viable-cell input, collection time and the specified method version belong with a result. Electron transport, proton pumping, return through ATP synthase and uncoupling are distinct steps. The mitochondrial matrix and intermembrane space identify the direction in the teaching diagram, not a universal conversion ratio.",
+        "notes": [
+          "Respiration and ATP generation are related but different measurements. Mitochondrial and nonmitochondrial oxygen consumption, proton leak and ATP-linked respiration require controlled separation. Respiratory transcripts, normalised oxygen-consumption rates and survival dependence cannot substitute for one another; bulk tissue composition and compensatory fuel use also matter. Oxygen-consumption assays require viable cells or functional preparations rather than routine fixed sections and use or perturb the tested material. Report oxygen per time with justified viable-cell or protein normalisation. Equal baseline respiration and different responses to ATP-synthase inhibition do not by themselves identify which culture will die.",
+          "The fictional oxygen-rate example gives 60 minus 30 = 30 picomoles of oxygen per minute per 10,000 viable cells after ATP-synthase inhibition. This is an inhibitor-sensitive oxygen-rate difference, not picomoles of ATP, a death percentage or a corrected ATP-production calculation. Fuel, normalisation and assay controls remain attached.",
+          "In mitochondria, respiratory electron transfer and proton movement are distinct processes. Some respiratory complexes move protons from the matrix into the intermembrane space; return through ATP synthase can support ATP formation, while other return pathways dissipate the gradient without that synthesis step. The illustrated arrows identify paths, not a fixed proton-to-ATP ratio. In Racker and Stoeckenius' reconstituted vesicles, a light-driven membrane system from Halobacterium supported ATP formation when mitochondrial ATPase was included. Their artificial vesicles pumped in the opposite direction to the intact source cells, so the experiment supports coupling without specifying a universal cellular orientation or ratio.",
+          "Extracellular acidification can include respiration-derived carbon dioxide as well as glycolytic acid production. Keep correction assumptions, normalisation and method version with any calculated ATP rate. The 2018 correction to Mookerjee and colleagues' 2017 method changes the ATP-linked oxygen-rate equation and reports use of a different hyperpolarization factor in some calculations; several numerical rates changed while the authors retained their qualitative conclusions. An inhibitor-sensitive oxygen-rate difference is therefore not itself an ATP rate, and an unversioned fixed conversion should not be inferred."
+        ],
+        "links": [
+          {
+            "label": "Source identity and scope, PMID 26709455",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26709455/"
+          },
+          {
+            "label": "Source identity and scope, PMID 28270511",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28270511/"
+          },
+          {
+            "label": "Racker and Stoeckenius 1974: proton-pumping vesicle reconstitution",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/4272126/"
+          },
+          {
+            "label": "Mookerjee et al. 2018 correction to the ATP-rate method",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6093231/"
+          },
+          {
+            "label": "OpenStax Biology 2e 7.4: mitochondrial oxidative phosphorylation (educational source)",
+            "url": "https://openstax.org/books/biology-2e/pages/7-4-oxidative-phosphorylation"
+          }
+        ],
+        "asOf": "2026-11-09"
+      },
+      "beforeHashes": {
+        "summary": "f33ffc0003928f4237022b562c4b891ea47a1b22c75ff8d6b0a8f6dbcf6ed0f6",
+        "notes": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+        "links": "3f1612811789e499efd72754e891e1859ae3a62b0e9802d2c42b6f84d9836877",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterHashes": {
+        "summary": "ffc19b48d7754de8980894498b50793643713530de6ccca2c8264c54e7ad2e62",
+        "notes": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+        "links": "ea93192975cc65eb51e61e025952763bb43f52131b9ba8a5f94a847c565ed4d4",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      }
+    }
+  ],
+  "oldCurrentProofRefreshes": [
+    {
+      "at": "ledger.json/items/86/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/86/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/86/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/97/review/points/0/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/97/review/points/1/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/97/review/points/2/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/97/review/points/3/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/102/review/points/0/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/102/review/points/1/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/102/review/points/2/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "ledger.json/items/102/review/points/3/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/80/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/80/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/80/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/80/review/points/3/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/93/review/points/0/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/93/review/points/1/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/93/review/points/2/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/93/review/points/3/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/98/review/points/0/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/98/review/points/1/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/98/review/points/2/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-phases/c9689645/ledger.json/items/98/review/points/3/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/369/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/369/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/369/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/370/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/370/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/370/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/371/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/371/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/371/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/372/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/372/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/372/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/413/review/points/0/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/413/review/points/1/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/414/review/points/0/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/414/review/points/1/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/441/review/points/0/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/441/review/points/1/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/441/review/points/2/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/441/review/points/3/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/442/review/points/0/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/442/review/points/1/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/442/review/points/2/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/0/items/442/review/points/3/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/369/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/369/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/369/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/369/review/points/3/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/370/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/370/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/370/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/370/review/points/3/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/371/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/371/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/371/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/371/review/points/3/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/372/review/points/0/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/372/review/points/1/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/372/review/points/2/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/372/review/points/3/evidence/0",
+      "recordId": "autophagy",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "15185250204e0a3441fcb29fd51aa015ceb66a7760d582a747f0badd82562aad",
+      "afterSha256": "7b30c108145200ab22043b1d76b4622435fd8e9e518faee588044bd704338635",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/413/review/points/0/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/413/review/points/1/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/414/review/points/0/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/414/review/points/1/evidence/0",
+      "recordId": "homologous-recombination-repair",
+      "version": "proposal-repair-signaling",
+      "field": "summary",
+      "beforeSha256": "636bcf5645e6e248c749914012692e3c2b6c517b1239ac2c108985396cbf7cbe",
+      "afterSha256": "df4f7df4dc7ef18c670f0a38040b8850f9e82da92049c73e3f1c7a37cf843484",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/441/review/points/0/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/441/review/points/1/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/441/review/points/2/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/441/review/points/3/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/442/review/points/0/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/442/review/points/1/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/442/review/points/2/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    },
+    {
+      "at": "source-assets.json/phases/1/items/442/review/points/3/evidence/0",
+      "recordId": "oxidative-phosphorylation",
+      "version": "proposal-death-metabolism",
+      "field": "notes",
+      "beforeSha256": "0fba10989ba89adb3607d1d5e9473536d11d68998d217407bb6b591cb86afe59",
+      "afterSha256": "2d3a32151f86f1b11e6b92b44fb18f409ad6173027bad362c682eee9cb7901b8",
+      "exactExcerptPreserved": true,
+      "semanticChange": "Unchanged excerpt remains exact in supplemented field."
+    }
+  ],
+  "intentionalCorrections": [
+    "Removed absent-image references from the HR example and oxidative-phosphorylation text.",
+    "Replaced a universal sequence-loss/clinical-killing analogy with a scoped repair comparison.",
+    "Added twelve resolved source links while preserving all previous links and notes."
+  ],
+  "legacyNotRecertified": [
+    "The pre-existing detailed programme, intervention and analogy assertions outside the changed fields are not freshly certified by this source-closure pass."
+  ]
+}

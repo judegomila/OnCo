@@ -1,0 +1,28 @@
+{
+  "checkedOn": "2026-11-11",
+  "status": "Represented in the unmerged audit draft at stated source depth; broader audit stays active.",
+  "dataCommit": "0a4721b47e888d2b0b67586da29d75d05a0709de",
+  "originalLessonVersions": 0,
+  "laterLessonVersions": 1,
+  "sectionSignatures": 12,
+  "sourceFirstRows": 35,
+  "teachingRowsRepresented": 31,
+  "recapRoutingScopeRows": 4,
+  "newCanonicalIds": [
+    "genetic-code"
+  ],
+  "existingOwnersChanged": 3,
+  "newConnectedNotes": 14,
+  "exactFieldReferences": 38,
+  "completeParagraphChecks": 64,
+  "sourcePaperIdentitiesResolved": 8,
+  "abstractsRead": 6,
+  "wholeOriginalPapersRead": 0,
+  "rawCapturesHashed": 42,
+  "lessonAssetCreditAdded": 0,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "files": [
+      "fda-endpoints-2018.pdf",
+      "recist-1-1-2009.pdf",
+      "recist-core.json"
+    ],
+    "scope": "FDA sections on tumour-assessment endpoints/ORR/CR and relevant design/analysis context, and selected RECIST measurement, overall response, confirmation, duration and follow-up sections read. Definitions, full-disease/axis/reference conditions and protocol-specific clocks are retained; no universal mandatory median DoR or survival-surrogacy rule. No complete article/guidance reading is claimed."
+  },
+  {
+    "files": [
+      "cbr-examples-core.json"
+    ],
+    "scope": "Both resolved identities and complete MED abstracts read. The 2013 endpoint is called six-month CBR without inventing a current hormone-receptor classification. The 2018 16-week primary/24-week secondary measures, 118/78 populations and AR/post-baseline requirements are retained. No response value, dose, current indication or comparative treatment estimate is transferred; blocked full texts are not claimed read."
+  },
+  {
+    "files": [
+      "criteria-med-quoted.json",
+      "primary-web-sections.json",
+      "irecist-working-group.html"
+    ],
+    "scope": "Both identities/complete MED abstracts and selected parsed primary PMC criterion/stability passages read; article titles, PMID/DOI/PMCID independently matched. PERCIST Table 7 governs the 30 percent and 0.8-unit partial-metabolic response statement with other conditions; anatomical and tissue outcomes differ. iRECIST requires clinical stability in the trial recommendation; timing/protocol exceptions and data-versus-care authority retain scope. Working-group raw clarification text is separately read. The JSON capture is exact tool-returned primary text, not recovered original HTML or a rewritten secondary summary."
+  },
+  {
+    "files": [
+      "fda-quantitative-imaging-2022.pdf",
+      "qiba-profiles.html",
+      "qiba-claims-2016.pdf"
+    ],
+    "scope": "FDA 16 June 2022 introduction/scope, definitions, measurement-error and relevant technical-assessment passages read. Technical validation is distinct from clinical validation, which that guidance excludes. Profile versions/stages and the claims-guidance introduction were read for measurement-performance context; the latter contains working comments and is not promoted into a current approved empirical performance standard. The old RSNA family URL redirects to generic research content and is replaced by actual source documents, without inferring programme status."
+  },
+  {
+    "files": [
+      "nci-complete-response.html",
+      "irecist-pmc.html",
+      "percist-pmc.html",
+      "gucalp-pmc.html",
+      "traina-pmc.html",
+      "criteria-identity-core.json",
+      "criteria-med-resolved.json"
+    ],
+    "scope": "The NCI automated capture contains an unrelated Facebook body and no definition; excluded. Four PMC HTTP 200 bodies are browser challenges and supply no article evidence. The accidentally empty query response supplies no evidence; an unquoted DOI lookup returned zero, while the corrected quoted lookup resolved both identities. XML HTTP 500 and free-PDF HTTP 403 failures remain in the capture manifest. None is called a recovered/full article."
+  }
+]

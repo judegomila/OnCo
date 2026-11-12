@@ -1,0 +1,3076 @@
+{
+  "entries": 270,
+  "available": 0,
+  "missingEnglishFallbacks": 270,
+  "longSummaryCache": {
+    "accepted": 0,
+    "rejectedStale": 0,
+    "absent": 240,
+    "rows": [
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc-adcp-cdc",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody-structure",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cells-and-plasma-cells",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "isotypes-and-fc-silencing",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen-processing-machinery",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-typing-and-nomenclature",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tumor-associated-antigen",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antigen",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "epitope",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "antibody",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b-cell",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "adcc",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fc-effector",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dendritic-cell-cross-presentation",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "complement-in-cancer",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tertiary-lymphoid-structures",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-a-02-01",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap1",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tap2",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap1",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "erap2",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "b2m",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-b",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-c",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dra",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hla-dqa1",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr3a",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2a",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "fcgr2b",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ]
+  },
+  "namedReviewEntries": 0,
+  "scope": "Actual lazy-loaded tables and summary-cache selectors; selected-text SSR, not browser hydration or fluent-language sign-off.",
+  "rows": [
+    {
+      "id": "antigen-summary-es-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-zh-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-pt-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-hi-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-fr-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-de-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-ja-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-ar-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-simple-adcc-adcp-cdc",
+      "available": false,
+      "fallback": true,
+      "sha256": "f837b902892d8023bc839e6c45a8f90a41091eff6c1bc2e53862a76190d7bc74"
+    },
+    {
+      "id": "antigen-summary-es-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-zh-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-pt-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-hi-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-fr-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-de-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-ja-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-ar-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-simple-antibody-structure",
+      "available": false,
+      "fallback": true,
+      "sha256": "76a47c91241ddd95396d9cdff134db06a3a509532ed002c9ed5b41a6a08c2f40"
+    },
+    {
+      "id": "antigen-summary-es-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-zh-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-pt-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-hi-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-fr-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-de-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-ja-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-ar-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-simple-b-cells-and-plasma-cells",
+      "available": false,
+      "fallback": true,
+      "sha256": "9b012a90c3917b23abc2c073557f3ce6b062e1cc89c569af484c696fb7cd6555"
+    },
+    {
+      "id": "antigen-summary-es-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-zh-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-pt-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-hi-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-fr-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-de-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-ja-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-ar-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-simple-isotypes-and-fc-silencing",
+      "available": false,
+      "fallback": true,
+      "sha256": "352aeece7e5de1a86ccd1909111063ef824a6639ad4e089c92fb30c9295b13ec"
+    },
+    {
+      "id": "antigen-summary-es-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-zh-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-pt-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-hi-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-fr-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-de-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-ja-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-ar-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-simple-antigen-processing-machinery",
+      "available": false,
+      "fallback": true,
+      "sha256": "9a19de4d9cfa3ed00d2bd74e08a2ffe1d48a48c9f5e6bef42efb990bf469d72a"
+    },
+    {
+      "id": "antigen-summary-es-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-zh-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-pt-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-hi-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-fr-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-de-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-ja-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-ar-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-simple-hla-typing-and-nomenclature",
+      "available": false,
+      "fallback": true,
+      "sha256": "6514fefba8f5fc0cf66290fd835af0fbc7e95c4d786c5df5aee613e4fdeaa0c5"
+    },
+    {
+      "id": "antigen-summary-es-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-zh-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-pt-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-hi-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-fr-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-de-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-ja-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-ar-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-simple-hla",
+      "available": false,
+      "fallback": true,
+      "sha256": "dde8d10d56461e7811d70018790bc7f15d8977ddc4edbee9579b6985dc40506e"
+    },
+    {
+      "id": "antigen-summary-es-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-zh-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-pt-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-hi-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-fr-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-de-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-ja-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-ar-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-simple-tumor-associated-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "e4ff5f22dda02aa3b05b21e11b222a7e194fb7e9d49a69e7ab2b6605367d81e1"
+    },
+    {
+      "id": "antigen-summary-es-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-zh-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-pt-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-hi-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-fr-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-de-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-ja-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-ar-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-simple-antigen",
+      "available": false,
+      "fallback": true,
+      "sha256": "feb6385082854c1826adbf76b4a68609ae78c7a37e4b5818fcaa4417aded254d"
+    },
+    {
+      "id": "antigen-summary-es-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-zh-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-pt-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-hi-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-fr-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-de-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-ja-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-ar-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-simple-epitope",
+      "available": false,
+      "fallback": true,
+      "sha256": "2c1ba85aad185adc67a9921c5ddd4d0d01e4de4dd9a5ce458450035ab9b67884"
+    },
+    {
+      "id": "antigen-summary-es-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-zh-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-pt-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-hi-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-fr-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-de-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-ja-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-ar-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-simple-antibody",
+      "available": false,
+      "fallback": true,
+      "sha256": "1c5d2eee017f490fd2d95408dd708fcf927245a641dd2ccba4a29d53d5e867b1"
+    },
+    {
+      "id": "antigen-summary-es-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-zh-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-pt-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-hi-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-fr-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-de-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-ja-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-ar-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-simple-b-cell",
+      "available": false,
+      "fallback": true,
+      "sha256": "a0739da733bc55bc75031ca18935065fb39d6320391b17b3cf5e59b93e31fd85"
+    },
+    {
+      "id": "antigen-summary-es-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-zh-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-pt-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-hi-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-fr-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-de-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-ja-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-ar-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-simple-adcc",
+      "available": false,
+      "fallback": true,
+      "sha256": "7a551a7aff42dd8f8d1bcfd1beacbe7bd089e00c8ae049b10ff2e5350c94473f"
+    },
+    {
+      "id": "antigen-summary-es-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-zh-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-pt-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-hi-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-fr-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-de-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-ja-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-ar-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-simple-fc-effector",
+      "available": false,
+      "fallback": true,
+      "sha256": "fedf797341b21999b88a8f3afb2347db363a3a8fef61da16a1c5abf6adc89a0e"
+    },
+    {
+      "id": "antigen-summary-es-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-zh-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-pt-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-hi-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-fr-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-de-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-ja-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-ar-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-simple-dendritic-cell-cross-presentation",
+      "available": false,
+      "fallback": true,
+      "sha256": "6aaa3949d5ff2dc2c8f137a902dc51001a5bf7f708e9c171e0ee46ab4d1e0077"
+    },
+    {
+      "id": "antigen-summary-es-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-zh-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-pt-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-hi-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-fr-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-de-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-ja-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-ar-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-simple-complement-in-cancer",
+      "available": false,
+      "fallback": true,
+      "sha256": "8948437a12fd11b9c40815e5d1053c7d70b0366359cce031def94264b3e9bb5a"
+    },
+    {
+      "id": "antigen-summary-es-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-zh-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-pt-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-hi-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-fr-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-de-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-ja-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-ar-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-simple-tertiary-lymphoid-structures",
+      "available": false,
+      "fallback": true,
+      "sha256": "4a28a702d463cd62c6ead2e4cdd997e8a58a4f53427bba22068689910eeaedcb"
+    },
+    {
+      "id": "antigen-summary-es-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-zh-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-pt-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-hi-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-fr-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-de-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-ja-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-ar-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-simple-hla-a-02-01",
+      "available": false,
+      "fallback": true,
+      "sha256": "49b35d23b42993e26e969032f16e8877eee2a803dfacdd6f7163f4b200cebb91"
+    },
+    {
+      "id": "antigen-summary-es-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-zh-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-pt-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-hi-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-fr-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-de-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-ja-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-ar-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-simple-tap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "7e91bc393e5a651102027df1f0510fbabca7afa52a62a668817e1cca1099acf6"
+    },
+    {
+      "id": "antigen-summary-es-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-zh-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-pt-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-hi-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-fr-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-de-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-ja-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-ar-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-simple-tap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "f48cea056415f2059bc6bf1c08e9a4f975148c32f00d71ae55e5eaa23015fd63"
+    },
+    {
+      "id": "antigen-summary-es-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-zh-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-pt-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-hi-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-fr-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-de-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-ja-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-ar-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-simple-erap1",
+      "available": false,
+      "fallback": true,
+      "sha256": "70b47940d5f3fbfc2f28949d61ac9d67aa9369ae3eaf88218adf70d39756c034"
+    },
+    {
+      "id": "antigen-summary-es-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-zh-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-pt-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-hi-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-fr-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-de-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-ja-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-ar-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-simple-erap2",
+      "available": false,
+      "fallback": true,
+      "sha256": "173f658ee2da53df74a3b6fe6ba47235eb49be0944e0bf58a789dee6943329a1"
+    },
+    {
+      "id": "antigen-summary-es-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-zh-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-pt-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-hi-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-fr-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-de-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-ja-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-ar-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-simple-b2m",
+      "available": false,
+      "fallback": true,
+      "sha256": "1ed1b7b21f666e605b53d708bebbe6b70e8df78e1574a403aeaafbb98ed6c919"
+    },
+    {
+      "id": "antigen-summary-es-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-zh-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-pt-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-hi-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-fr-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-de-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-ja-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-ar-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-simple-hla-b",
+      "available": false,
+      "fallback": true,
+      "sha256": "d2f7dd0e905876a1e3ca50a21d2fe9a5ea35d24e71d52aa9cc418c01005dbeea"
+    },
+    {
+      "id": "antigen-summary-es-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-zh-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-pt-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-hi-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-fr-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-de-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-ja-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-ar-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-simple-hla-c",
+      "available": false,
+      "fallback": true,
+      "sha256": "ca323b8d24b1066766925726b700ca47e32ea073498f1efc102d69197c77d899"
+    },
+    {
+      "id": "antigen-summary-es-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-zh-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-pt-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-hi-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-fr-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-de-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-ja-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-ar-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-simple-hla-dra",
+      "available": false,
+      "fallback": true,
+      "sha256": "237ce8f4b8dc09ac7a5ea21b948c3560cff6581882f7c833a32263a678b205eb"
+    },
+    {
+      "id": "antigen-summary-es-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-zh-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-pt-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-hi-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-fr-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-de-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-ja-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-ar-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-simple-hla-dqa1",
+      "available": false,
+      "fallback": true,
+      "sha256": "16c05f35ee1a1013d8b5d6c386a27e406775b7d541979eec282381d5c587aae1"
+    },
+    {
+      "id": "antigen-summary-es-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-zh-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-pt-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-hi-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-fr-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-de-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-ja-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-ar-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-simple-fcgr3a",
+      "available": false,
+      "fallback": true,
+      "sha256": "6cd104c991783c3259d746b587100fef67dd679765dac9156fcf6f248dbfc871"
+    },
+    {
+      "id": "antigen-summary-es-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-zh-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-pt-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-hi-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-fr-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-de-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-ja-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-ar-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-simple-fcgr2a",
+      "available": false,
+      "fallback": true,
+      "sha256": "7b2c8ef4e59b65e972de3d800ac121d8ef37dc6a2a13eedd2c04ff522d16d751"
+    },
+    {
+      "id": "antigen-summary-es-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-zh-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-pt-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-hi-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-fr-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-de-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-ja-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-ar-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    },
+    {
+      "id": "antigen-summary-simple-fcgr2b",
+      "available": false,
+      "fallback": true,
+      "sha256": "3c7549f623beef8be3ac50f9529003fea5997bfd908d85156af31cbba15447c9"
+    }
+  ]
+}

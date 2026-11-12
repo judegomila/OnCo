@@ -1,0 +1,38 @@
+{
+  "checkedOn": "2026-11-09",
+  "curriculumRequirementsClosed": 8,
+  "newCurriculumReading": 0,
+  "newRecords": 0,
+  "existingOwnersUpdated": 8,
+  "additionalAdjacentFindingClosed": 1,
+  "existingFieldProofsRehashedAfterPrefixReview": 10,
+  "resolvedPublicationIdentities": 12,
+  "rawBodies": "Persistent local cache outside Git; public metadata/hashes only. Historical missing captures remain missing; these are new retrievals.",
+  "validation": {
+    "status": "pass after recorded fixes",
+    "validate": "pass, 22707 entities",
+    "typecheck": "pass after removing duplicate date initializer caught by first check",
+    "lint": "six changed data files pass",
+    "renderedOwners": 95,
+    "additionalCancerSections": 5,
+    "build": "Pinned data-branch GRAPH_JSON export blocker retained; no combined-draft build or deployment.",
+    "firstFullSuite": "280 files passed, two failed: authored en-dash punctuation and an Ask literal assertion requiring inaccurate complete receptor absence.",
+    "failureFixes": "Authored RAG notation now uses a hyphen. The existing Ask definition assertion now enforces named negative test categories, the under-1-percent diagnostic threshold, IHC/ISH context and the molecular-absence limit; its question, expected entity/citation and all retrieval floors remain unchanged.",
+    "focusedFailureRecheck": "Two selected prior failures pass; 47 unselected tests are filter skips, not claimed as coverage.",
+    "benchmarkNarrativeCheck": {
+      "questions": 100,
+      "changedArguments": [
+        {
+          "id": "\"tnbc-02\"",
+          "argument": 5
+        }
+      ],
+      "questionsRubricsEntitiesAndScoringUnchanged": true
+    },
+    "fullLint": "0 errors; seven existing warnings. Two subsequently changed files also pass scoped lint.",
+    "fullFilesPassed": 282,
+    "fullTestsPassed": 2821,
+    "existingSkips": 2,
+    "fullDurationSeconds": 99.9
+  }
+}

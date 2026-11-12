@@ -1,0 +1,3684 @@
+{
+  "records": [
+    {
+      "id": "lead-time-bias-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ar)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-ar",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (ar)",
+      "canonicalRecordId": "efs",
+      "language": "ar",
+      "available": true,
+      "text": "في السرطان في مراحله المبكرة: المدة التي يبقى فيها المرضى دون انتكاس أو تقدم للمرض أو وفاة."
+    },
+    {
+      "id": "hazard-ratio-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (ar)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-ar",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (ar)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-ar",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (ar)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-ar",
+      "kind": "reader-summary-entry",
+      "name": "P-value (ar)",
+      "canonicalRecordId": "p-value",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-ar",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (ar)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-ar",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (ar)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (ar)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-ar",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (ar)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ar)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (ar)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-ar",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (ar)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ar",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ar)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-de",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (de)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-de",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (de)",
+      "canonicalRecordId": "efs",
+      "language": "de",
+      "available": true,
+      "text": "Bei Krebs im Frühstadium: wie lange Patienten ohne Rückfall, Fortschreiten der Erkrankung oder Tod bleiben."
+    },
+    {
+      "id": "hazard-ratio-de",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (de)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-de",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (de)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-de",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (de)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-de",
+      "kind": "reader-summary-entry",
+      "name": "P-value (de)",
+      "canonicalRecordId": "p-value",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-de",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (de)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-de",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (de)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-de",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (de)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-de",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (de)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-de",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (de)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-de",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (de)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-de",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (de)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-de",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (de)",
+      "canonicalRecordId": "graph-reading",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-es",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (es)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-es",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (es)",
+      "canonicalRecordId": "efs",
+      "language": "es",
+      "available": true,
+      "text": "En cáncer temprano: cuánto tiempo permanecen los pacientes libres de recaída, progresión o muerte."
+    },
+    {
+      "id": "hazard-ratio-es",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (es)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-es",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (es)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-es",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (es)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-es",
+      "kind": "reader-summary-entry",
+      "name": "P-value (es)",
+      "canonicalRecordId": "p-value",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-es",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (es)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-es",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (es)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-es",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (es)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-es",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (es)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-es",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (es)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-es",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (es)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-es",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (es)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-es",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (es)",
+      "canonicalRecordId": "graph-reading",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (fr)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-fr",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (fr)",
+      "canonicalRecordId": "efs",
+      "language": "fr",
+      "available": true,
+      "text": "Dans le cancer à un stade précoce : combien de temps les patients restent sans récidive, sans progression ni décès."
+    },
+    {
+      "id": "hazard-ratio-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (fr)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-fr",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (fr)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-fr",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (fr)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-fr",
+      "kind": "reader-summary-entry",
+      "name": "P-value (fr)",
+      "canonicalRecordId": "p-value",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-fr",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (fr)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-fr",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (fr)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (fr)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-fr",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (fr)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (fr)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (fr)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-fr",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (fr)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-fr",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (fr)",
+      "canonicalRecordId": "graph-reading",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (hi)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-hi",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (hi)",
+      "canonicalRecordId": "efs",
+      "language": "hi",
+      "available": true,
+      "text": "प्रारंभिक कैंसर में: मरीज़ कितनी देर पुनरावृत्ति, प्रगति या मृत्यु से मुक्त रहते हैं।"
+    },
+    {
+      "id": "hazard-ratio-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (hi)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-hi",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (hi)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-hi",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (hi)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-hi",
+      "kind": "reader-summary-entry",
+      "name": "P-value (hi)",
+      "canonicalRecordId": "p-value",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-hi",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (hi)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-hi",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (hi)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (hi)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-hi",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (hi)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (hi)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (hi)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-hi",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (hi)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-hi",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (hi)",
+      "canonicalRecordId": "graph-reading",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ja)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-ja",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (ja)",
+      "canonicalRecordId": "efs",
+      "language": "ja",
+      "available": true,
+      "text": "早期がんにおいて、患者が再発や進行、死亡なしに過ごせる期間のこと。"
+    },
+    {
+      "id": "hazard-ratio-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (ja)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-ja",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (ja)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-ja",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (ja)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-ja",
+      "kind": "reader-summary-entry",
+      "name": "P-value (ja)",
+      "canonicalRecordId": "p-value",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-ja",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (ja)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-ja",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (ja)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (ja)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-ja",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (ja)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ja)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (ja)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-ja",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (ja)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ja",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ja)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (pt)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-pt",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (pt)",
+      "canonicalRecordId": "efs",
+      "language": "pt",
+      "available": true,
+      "text": "No câncer inicial: quanto tempo os pacientes permanecem livres de recorrência, progressão ou morte."
+    },
+    {
+      "id": "hazard-ratio-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (pt)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-pt",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (pt)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-pt",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (pt)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-pt",
+      "kind": "reader-summary-entry",
+      "name": "P-value (pt)",
+      "canonicalRecordId": "p-value",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-pt",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (pt)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "absolute-benefit-pt",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (pt)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "surrogate-validation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (pt)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "odds-ratio-pt",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (pt)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (pt)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (pt)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-pt",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (pt)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-pt",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (pt)",
+      "canonicalRecordId": "graph-reading",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (zh)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-zh",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (zh)",
+      "canonicalRecordId": "efs",
+      "language": "zh",
+      "available": true,
+      "text": "在早期癌症中：患者保持无复发、无进展、无死亡的时间。"
+    },
+    {
+      "id": "hazard-ratio-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (zh)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-zh",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (zh)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-zh",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (zh)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-zh",
+      "kind": "reader-summary-entry",
+      "name": "P-value (zh)",
+      "canonicalRecordId": "p-value",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-zh",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (zh)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "zh",
+      "available": true,
+      "text": "Kaplan-Meier 曲线显示在每个时间点仍然存活（或仍未进展）的患者比例；每发生一次事件曲线就下降一个台阶，并利用所有人的随访时间，即使他们尚未发生事件。"
+    },
+    {
+      "id": "absolute-benefit-zh",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (zh)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "zh",
+      "available": true,
+      "text": "相对获益说风险下降了三分之一；绝对获益说每 100 人中实际有多少人免于不良结局，这取决于该事件原本有多常见，也是判断治疗是否值得其副作用的关键数字。"
+    },
+    {
+      "id": "surrogate-validation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (zh)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "zh",
+      "available": true,
+      "text": "替代终点只有在试验证明“它的变化会带来真正重要结局的变化”时才值得信任，且需针对该疾病和该类药物；有些替代终点通过了检验，有些没有，各终点的记录各不相同。"
+    },
+    {
+      "id": "odds-ratio-zh",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (zh)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (zh)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (zh)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-zh",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (zh)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-zh",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (zh)",
+      "canonicalRecordId": "graph-reading",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (simple)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "efs-simple",
+      "kind": "reader-summary-entry",
+      "name": "Event-free / disease-free survival (EFS, DFS, iDFS, RFS) (simple)",
+      "canonicalRecordId": "efs",
+      "language": "simple",
+      "available": true,
+      "text": "In early cancer, how long patients stay free of the cancer coming back."
+    },
+    {
+      "id": "hazard-ratio-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hazard ratio (HR) (simple)",
+      "canonicalRecordId": "hazard-ratio",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hazard-ratio-basics-simple",
+      "kind": "reader-summary-entry",
+      "name": "Reading a hazard ratio (simple)",
+      "canonicalRecordId": "hazard-ratio-basics",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-simple",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (simple)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "p-value-simple",
+      "kind": "reader-summary-entry",
+      "name": "P-value (simple)",
+      "canonicalRecordId": "p-value",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "kaplan-meier-curve-simple",
+      "kind": "reader-summary-entry",
+      "name": "Kaplan-Meier curve, censoring and proportional hazards (simple)",
+      "canonicalRecordId": "kaplan-meier-curve",
+      "language": "simple",
+      "available": true,
+      "text": "A Kaplan-Meier curve shows the share of patients still alive or free of progression at each point in time, stepping down each time an event happens."
+    },
+    {
+      "id": "absolute-benefit-simple",
+      "kind": "reader-summary-entry",
+      "name": "Absolute versus relative benefit (number needed to treat) (simple)",
+      "canonicalRecordId": "absolute-benefit",
+      "language": "simple",
+      "available": true,
+      "text": "A relative benefit says the risk fell by a third, while an absolute benefit says how many people out of 100 were actually spared, which is the number that matters when weighing side effects."
+    },
+    {
+      "id": "surrogate-validation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Surrogate endpoint validation: which stand-ins have earned trust (simple)",
+      "canonicalRecordId": "surrogate-validation",
+      "language": "simple",
+      "available": true,
+      "text": "A surrogate endpoint only deserves trust if trials have shown that moving it also moves the outcome that matters, and the record differs from one endpoint to the next."
+    },
+    {
+      "id": "odds-ratio-simple",
+      "kind": "reader-summary-entry",
+      "name": "Odds ratio (simple)",
+      "canonicalRecordId": "odds-ratio",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (simple)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (simple)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-simple",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (simple)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-simple",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (simple)",
+      "canonicalRecordId": "graph-reading",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-ar",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (ar)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-ar",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (ar)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-ar",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (ar)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (ar)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-de",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (de)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-de",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (de)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-de",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (de)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-de",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (de)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-es",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (es)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-es",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (es)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-es",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (es)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-es",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (es)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-fr",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (fr)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-fr",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (fr)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-fr",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (fr)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (fr)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-hi",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (hi)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-hi",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (hi)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-hi",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (hi)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (hi)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-ja",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (ja)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-ja",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (ja)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-ja",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (ja)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (ja)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-pt",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (pt)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-pt",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (pt)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-pt",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (pt)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (pt)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-zh",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (zh)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-zh",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (zh)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-zh",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (zh)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (zh)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "inconclusive-and-negative-evidence-simple",
+      "kind": "reader-summary-entry",
+      "name": "Inconclusive results and evidence against an effect (simple)",
+      "canonicalRecordId": "inconclusive-and-negative-evidence",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "measurement-to-benefit-evidence-simple",
+      "kind": "reader-summary-entry",
+      "name": "Evidence from measurement to patient benefit (simple)",
+      "canonicalRecordId": "measurement-to-benefit-evidence",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "growth-rate-inhibition-simple",
+      "kind": "reader-summary-entry",
+      "name": "Growth-rate correction in drug-response assays (simple)",
+      "canonicalRecordId": "growth-rate-inhibition",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-population-transportability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Transporting trial evidence to another population (simple)",
+      "canonicalRecordId": "trial-population-transportability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (ar)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-de",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (de)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-es",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (es)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (fr)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (hi)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (ja)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (pt)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (zh)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immunogenicity-versus-efficacy-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immunogenicity and clinical efficacy (simple)",
+      "canonicalRecordId": "immunogenicity-versus-efficacy",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ],
+  "verification": {
+    "w": {
+      "entries": 126,
+      "available": 15,
+      "EnglishFallback": 111,
+      "longSummaryCache": {
+        "accepted": 0,
+        "rejectedStale": 0,
+        "absent": 112,
+        "rows": [
+          {
+            "id": "lead-time-bias",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "lead-time-bias",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "lead-time-bias",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "lead-time-bias",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "lead-time-bias",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "lead-time-bias",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "lead-time-bias",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "lead-time-bias",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "efs",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "hazard-ratio-basics",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "confidence-interval",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "p-value",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "kaplan-meier-curve",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "absolute-benefit",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "surrogate-validation",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "odds-ratio",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "cross-trial-comparison",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "denominators-and-conditional-probability",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "population-versus-individual-risk",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "graph-reading",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          }
+        ]
+      },
+      "existingReviewLabels": [],
+      "newNamedLanguageReviews": 0,
+      "files": [
+        {
+          "id": "lead-time-bias-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-ar",
+          "available": true,
+          "fallback": false,
+          "sha256": "ae0309ab43f1c88b9c6f3933a2c427cad383c609453902e426cc13ef70f99902"
+        },
+        {
+          "id": "hazard-ratio-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "9d868fa6e3aa671597e8d9906bb10168cb944bd9f40a966178f9eaf145768ded"
+        },
+        {
+          "id": "absolute-benefit-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "ded5a2716d04b5d6b65db043e1d40fd4b0295591e8a4f47df6649910b608f018"
+        },
+        {
+          "id": "surrogate-validation-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "d27de44dc7d41c3b8c23122bf033d6d1ed249efd2960ed6e115605737e776b85"
+        },
+        {
+          "id": "odds-ratio-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-de",
+          "available": true,
+          "fallback": false,
+          "sha256": "6d926b22173f2a09814ab3e2f221d7d4f2f55be1c030ceca1de1fecea92b77a9"
+        },
+        {
+          "id": "hazard-ratio-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "9d868fa6e3aa671597e8d9906bb10168cb944bd9f40a966178f9eaf145768ded"
+        },
+        {
+          "id": "absolute-benefit-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "ded5a2716d04b5d6b65db043e1d40fd4b0295591e8a4f47df6649910b608f018"
+        },
+        {
+          "id": "surrogate-validation-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "d27de44dc7d41c3b8c23122bf033d6d1ed249efd2960ed6e115605737e776b85"
+        },
+        {
+          "id": "odds-ratio-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-es",
+          "available": true,
+          "fallback": false,
+          "sha256": "a47982301b06070c28018db75c7b9b5d03e828f69ec9107dd37a2617ab6acdf9"
+        },
+        {
+          "id": "hazard-ratio-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "9d868fa6e3aa671597e8d9906bb10168cb944bd9f40a966178f9eaf145768ded"
+        },
+        {
+          "id": "absolute-benefit-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "ded5a2716d04b5d6b65db043e1d40fd4b0295591e8a4f47df6649910b608f018"
+        },
+        {
+          "id": "surrogate-validation-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "d27de44dc7d41c3b8c23122bf033d6d1ed249efd2960ed6e115605737e776b85"
+        },
+        {
+          "id": "odds-ratio-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-fr",
+          "available": true,
+          "fallback": false,
+          "sha256": "13f68168aaf6bdcbfa720da3f1e369ca58cbf39940f016e44b7313dd3951a957"
+        },
+        {
+          "id": "hazard-ratio-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "9d868fa6e3aa671597e8d9906bb10168cb944bd9f40a966178f9eaf145768ded"
+        },
+        {
+          "id": "absolute-benefit-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "ded5a2716d04b5d6b65db043e1d40fd4b0295591e8a4f47df6649910b608f018"
+        },
+        {
+          "id": "surrogate-validation-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "d27de44dc7d41c3b8c23122bf033d6d1ed249efd2960ed6e115605737e776b85"
+        },
+        {
+          "id": "odds-ratio-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-hi",
+          "available": true,
+          "fallback": false,
+          "sha256": "198a8a17e6b780155aae660adffa154832ed299227b462fda1e263e2c9f18d4b"
+        },
+        {
+          "id": "hazard-ratio-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "9d868fa6e3aa671597e8d9906bb10168cb944bd9f40a966178f9eaf145768ded"
+        },
+        {
+          "id": "absolute-benefit-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "ded5a2716d04b5d6b65db043e1d40fd4b0295591e8a4f47df6649910b608f018"
+        },
+        {
+          "id": "surrogate-validation-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "d27de44dc7d41c3b8c23122bf033d6d1ed249efd2960ed6e115605737e776b85"
+        },
+        {
+          "id": "odds-ratio-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-ja",
+          "available": true,
+          "fallback": false,
+          "sha256": "f4a4951bacb9f4867941f3850b1d8f0a037dd27f982385a9c27cb64833b79da8"
+        },
+        {
+          "id": "hazard-ratio-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "9d868fa6e3aa671597e8d9906bb10168cb944bd9f40a966178f9eaf145768ded"
+        },
+        {
+          "id": "absolute-benefit-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "ded5a2716d04b5d6b65db043e1d40fd4b0295591e8a4f47df6649910b608f018"
+        },
+        {
+          "id": "surrogate-validation-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "d27de44dc7d41c3b8c23122bf033d6d1ed249efd2960ed6e115605737e776b85"
+        },
+        {
+          "id": "odds-ratio-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-pt",
+          "available": true,
+          "fallback": false,
+          "sha256": "6c6aa466cb7fb617bf0f864ce56b7809a2f94fbeb0b731735fd2e678157f8f59"
+        },
+        {
+          "id": "hazard-ratio-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "9d868fa6e3aa671597e8d9906bb10168cb944bd9f40a966178f9eaf145768ded"
+        },
+        {
+          "id": "absolute-benefit-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "ded5a2716d04b5d6b65db043e1d40fd4b0295591e8a4f47df6649910b608f018"
+        },
+        {
+          "id": "surrogate-validation-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "d27de44dc7d41c3b8c23122bf033d6d1ed249efd2960ed6e115605737e776b85"
+        },
+        {
+          "id": "odds-ratio-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-zh",
+          "available": true,
+          "fallback": false,
+          "sha256": "3fa4b7f7ee63b4321e4141abf46aa1213c177755a4e4bd8c774e350e1d5949b6"
+        },
+        {
+          "id": "hazard-ratio-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-zh",
+          "available": true,
+          "fallback": false,
+          "sha256": "7079637c4d454be669751a425c0d1a8708067bd79d6ca1a5a2e4c6bb6ac10f1b"
+        },
+        {
+          "id": "absolute-benefit-zh",
+          "available": true,
+          "fallback": false,
+          "sha256": "aec6ce8b146eae5533be07334f319e42a98db28a5cd780a232638e3d82b7a8f3"
+        },
+        {
+          "id": "surrogate-validation-zh",
+          "available": true,
+          "fallback": false,
+          "sha256": "b39ceed1cb7bacd450fbd2a409c07d4b2b0f30326f0c6412e8b9e9a656422470"
+        },
+        {
+          "id": "odds-ratio-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        },
+        {
+          "id": "lead-time-bias-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "a46cf4b7e35415dd7ecb792118727f28ebc9edfab43f6f7a8a0575b2f709c4d7"
+        },
+        {
+          "id": "efs-simple",
+          "available": true,
+          "fallback": false,
+          "sha256": "6481ddcfd33771dfce948f7984e924210bcbccad2d13c1a97bc7743a611cf7bc"
+        },
+        {
+          "id": "hazard-ratio-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "6bca7cf9f1ff7eaef961e4ef220d3b98dd5986d6d1a5e093c18c13e5152ab77a"
+        },
+        {
+          "id": "hazard-ratio-basics-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "84824fe9fd35cde04f30a770bd98f1864fc8ad0d8340bab95a6ca791db138bf1"
+        },
+        {
+          "id": "confidence-interval-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "52b5811c34c85c6dc26c51655904e483092d47a70500c52a38807df2b9c2315c"
+        },
+        {
+          "id": "p-value-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "5a4d525679242d847839468ad670365a2c523b38385e8b3ea4d7ef6747513eb8"
+        },
+        {
+          "id": "kaplan-meier-curve-simple",
+          "available": true,
+          "fallback": false,
+          "sha256": "1654a64a73b31b9a39f414da81db7749e82a7388ac9267d6c59390b496d81057"
+        },
+        {
+          "id": "absolute-benefit-simple",
+          "available": true,
+          "fallback": false,
+          "sha256": "13786e8372518981d63acd623f55d5552e6f11a234c528f65232942497ad4ab8"
+        },
+        {
+          "id": "surrogate-validation-simple",
+          "available": true,
+          "fallback": false,
+          "sha256": "c22b98c4ec93e3b8d53ddd25c742d47fea9c45549a2ab36b9e313e6a4907c8e0"
+        },
+        {
+          "id": "odds-ratio-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "5291cb39dbd4a31b59b7b8c923f4499be8e1ecd977ec5c480f9615b9e5acf9b4"
+        },
+        {
+          "id": "cross-trial-comparison-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "a35795d7a476035369e476d094faac114d826eac631c4934b38ceada7088563b"
+        },
+        {
+          "id": "denominators-and-conditional-probability-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "efcc66ea2f05be1b431104aa0e9fb9eddefbf36b5941cd43735ccb14effd9013"
+        },
+        {
+          "id": "population-versus-individual-risk-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "e7317915e5452bda26fd9cc7c6a0024b0db2394b5ffc925f907f4f752272ac3d"
+        },
+        {
+          "id": "graph-reading-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "863f6f739029f4346c3ab06589599bfebc7ac68f5b651d7bb5e1d29068d2e848"
+        }
+      ]
+    },
+    "f": {
+      "entries": 36,
+      "available": 0,
+      "EnglishFallback": 36,
+      "longSummaryCache": {
+        "accepted": 0,
+        "rejectedStale": 0,
+        "absent": 32,
+        "rows": [
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "inconclusive-and-negative-evidence",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "measurement-to-benefit-evidence",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "growth-rate-inhibition",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "trial-population-transportability",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          }
+        ]
+      },
+      "existingReviewLabels": [],
+      "newNamedLanguageReviews": 0,
+      "files": [
+        {
+          "id": "inconclusive-and-negative-evidence-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        },
+        {
+          "id": "inconclusive-and-negative-evidence-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "b2b215e01a778d5d432106669a34ef36bac582d6931fb9ef4360915a57f18f36"
+        },
+        {
+          "id": "measurement-to-benefit-evidence-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "01d2c74cd587ffcc35c26015dffc2b074e113ecff722e688d8361212c16938e9"
+        },
+        {
+          "id": "growth-rate-inhibition-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "cc7aba29f069d06a89fa70a3fad5d1c8587bceb097a9eb594f38b6f80f3e2b74"
+        },
+        {
+          "id": "trial-population-transportability-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "6357a222a4e96a894578f2dfabdd67233f5745f514a8637186eea8f9a1b536de"
+        }
+      ]
+    },
+    "s": {
+      "entries": 9,
+      "available": 0,
+      "EnglishFallback": 9,
+      "longSummaryCache": {
+        "accepted": 0,
+        "rejectedStale": 0,
+        "absent": 8,
+        "rows": [
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "es",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "zh",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "pt",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "hi",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "fr",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "de",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "ja",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          },
+          {
+            "id": "immunogenicity-versus-efficacy",
+            "language": "ar",
+            "stored": false,
+            "accepted": false,
+            "rejectedStale": false
+          }
+        ]
+      },
+      "existingReviewLabels": [],
+      "newNamedLanguageReviews": 0,
+      "files": [
+        {
+          "id": "immunogenicity-versus-efficacy-ar",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-de",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-es",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-fr",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-hi",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-ja",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-pt",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-zh",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        },
+        {
+          "id": "immunogenicity-versus-efficacy-simple",
+          "available": false,
+          "fallback": true,
+          "sha256": "71be9490d71d75118601ae4aaf46933bb6609db9a5a10439fa01f89ad1a7aa9e"
+        }
+      ]
+    }
+  },
+  "newNamedLanguageApprovals": 0
+}

@@ -1,0 +1,84 @@
+{
+  "partialRequirementIds": [
+    "5-013"
+  ],
+  "partialRequirements": [
+    {
+      "id": "5-013",
+      "lesson": "5",
+      "kind": "substantive",
+      "requirement": "Verify I-SPY2 estimated TNBC pCR 60% versus 22%, adaptive phase-two context and a control without carboplatin; it is not a head-to-head estimate versus KEYNOTE-522.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/guides/reading-cancer-evidence/05-read-a-real-trial.md",
+          "sourceSha256": "3a5d37bc48a545d5099ae1fe1824ff78e57b4de6902ad4af41bb3876bf906caa",
+          "heading": "Step 3: watch the estimates mature",
+          "lineStart": 78,
+          "lineEnd": 91,
+          "passageSha256": "be7275270f8f932a78b90072a9c9ed941f779fd00b9a6ba58810efab8177a32e"
+        }
+      ],
+      "disposition": "Partly represented; exact source-open clause retained without credit",
+      "status": "partial",
+      "references": [
+        {
+          "recordId": "keynote-522",
+          "version": "proposal-evidence-reading-guides-root",
+          "field": "notes",
+          "fieldSha256": "4471c7e3d8c9684a1ba939ca8a09df7a4131e2f7977cc595984afac826f3bf5c",
+          "excerpt": "The earlier adaptive phase 2 I-SPY2 report estimated pCR of 60% versus 22% in its triple-negative subgroup against its own chemotherapy control. That is a different comparison from KEYNOTE-522 and cannot establish a cross-trial treatment ranking. Likewise, better survival among people who achieve pCR is a prognostic association within selected response groups, not proof of the postoperative drug's separate effect or a validated rule selecting individual benefit. CTNeoBC found a strong pCR-outcome association but did not validate pCR as a trial-level surrogate for EFS or OS in its included trials. Here survival itself was measured.",
+          "excerptSha256": "31a132177c3ba340ac68ab5133063f28b4150e5d78119f8ce14bd911a266d070",
+          "pointer": "notes[10]"
+        }
+      ],
+      "explanation": "The primary abstract verifies the adaptive phase-two setting and estimated TNBC pCR 60% versus 22%; the text retains the non-head-to-head comparison. The control-without-carboplatin clause is not adopted without a readable primary methods passage.",
+      "sourceIds": [
+        "nanda2020",
+        "author-inference"
+      ],
+      "sourceScope": "Named primary sources retain abstract/targeted/document-section depth in primary-sources. Existing mathematical and contextual fields are reused with current hashes at earlier recorded depth; fictional premises and reasoning rules are authored inference. Field/excerpt hashes prove identity and presence, not scientific entailment.",
+      "remaining": [
+        "The precise no-carboplatin control clause is not source-verified at methods depth. Europe PMC full text failed; NCBI efetch supplied metadata only; PMC served a challenge; JAMA returned 403; BioC returned no-result help text. Those are not full-text reads."
+      ]
+    }
+  ],
+  "sourceReadingLimits": [
+    {
+      "source": "I-SPY2 Nanda 2020",
+      "failure": "Complete abstract read; no readable primary methods body. Europe PMC fullTextXML 500, NCBI efetch metadata/abstract only, PMC reCAPTCHA, JAMA 403 and BioC no-result help. The no-carboplatin control clause is not adopted or credited."
+    },
+    {
+      "source": "NEJM KEYNOTE-522 full reports",
+      "failure": "NEJM HTML requests returned 403. Complete primary abstracts plus label and specified registry results support the adopted figures; OS HR is sourced to label text rather than an unread journal body."
+    },
+    {
+      "source": "ASCO 2026",
+      "failure": "Publisher returned 403. The complete authors-deposited abstract is available in raw Crossref metadata and is read as conference-level evidence, not a full journal report."
+    },
+    {
+      "source": "Older statistics sources",
+      "failure": "Kaplan 1958, Cox 1972, Altman 1998 and Sun 2010 are identity-only here. Altman 1999 targeted article text, NIST methods and ICH guidance supply the adopted method context. Metadata or a no-result response is not a full-text read."
+    },
+    {
+      "source": "R survival vignette attempt",
+      "failure": "timedep.pdf returned 404 and is unused; its package-index retrieval is not treated as an available vignette or a method-body reading."
+    },
+    {
+      "source": "Retained catalogue text",
+      "failure": "Selected source/field comparisons do not independently reverify every earlier assertion in referenced records, including older site lists, commissioning dates or other trials."
+    }
+  ],
+  "limits": [
+    "The assessment is complete at the stated source/field scope; full later teaching coverage is not claimed because 5-013 retains one unread I-SPY2 methods clause.",
+    "No whole original paper or guidance was read; abstracts, targeted body passages, official web sections, registry modules and specified PDF text pages keep their exact depth.",
+    "Earlier catalogue content beyond the referenced teaching remains at its inherited scope. Private source bodies, personal-context sections and review media are not published.",
+    "Overview checks integrate chapter teaching without extra independent science credit. Routing, recaps, source presence and two personal-context sections earn no independent teaching points.",
+    "Full extent qualitative image views and actual component SSR are not measured contrast, accessibility, browser hydration, mobile, expert or learner review.",
+    "No merge, main/live, language certification, full Next production build or deployment."
+  ],
+  "broaderAuditComplete": false
+}

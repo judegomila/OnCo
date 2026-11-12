@@ -1,0 +1,62 @@
+{
+  "newGroup": {
+    "id": "engineered-cell-therapy-source-depth-and-catalogue-followups",
+    "title": "Engineered-cell source depth, retained catalogue assertions and illustration limits",
+    "domain": "therapeutics-cell-adjacent",
+    "sourceURLs": [
+      "https://pubmed.ncbi.nlm.nih.gov/33216892/",
+      "https://pubmed.ncbi.nlm.nih.gov/30224381/",
+      "https://pubmed.ncbi.nlm.nih.gov/22418702/",
+      "https://www.fda.gov/media/156896/download"
+    ],
+    "discoveryOccurrences": [
+      "engineered-cell-therapy-2026-11-12"
+    ],
+    "review": {
+      "status": "reviewed",
+      "auditor": "Coordinator scoped follow-up intake; no additional curriculum coverage credit",
+      "checkedAt": "2026-11-12",
+      "rationale": "Preserves the exact source-open curriculum clauses, source-depth limits, retained older assertions and illustration/product questions rather than certifying them through new notes or dates.",
+      "points": [
+        {
+          "id": "cell-frank-full-source",
+          "requirement": "Frank model/gates/compartments, controls and 3–4-week/5-week kinetics require an accessible primary body. Complete abstract identity is resolved, while recorded BioC/efetch responses are errors or metadata-only and the publisher/PMC routes are blocked. These are the three source-blocked curriculum units.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Frank model/gates/compartments, controls and 3–4-week/5-week kinetics require an accessible primary body. Complete abstract identity is resolved, while recorded BioC/efetch responses are errors or metadata-only and the publisher/PMC routes are blocked. These are the three source-blocked curriculum units."
+          ]
+        },
+        {
+          "id": "cell-pfeiffer-parent-gate",
+          "requirement": "The primary Results supports CD8-negative cells and the stated day-seven fractions. Read Appendix Fig S1A before narrowing the parent gate to CD8-negative T cells. The supplementary ZIP timed out and the DOCX route returned HTML, not a valid document; the broader verified reader wording remains.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "The primary Results supports CD8-negative cells and the stated day-seven fractions. Read Appendix Fig S1A before narrowing the parent gate to CD8-negative T cells. The supplementary ZIP timed out and the DOCX route returned HTML, not a valid document; the broader verified reader wording remains."
+          ]
+        },
+        {
+          "id": "cell-retained-catalogue",
+          "requirement": "Retained target prevalence, programme/status and biology assertions, including mesothelin dispensability wording outside the corrected risk inference, need their own current primary checks. No whole-owner certification follows from a new asOf. Two existing MUC1-named trial titles merit registry/product/target-edge review rather than assuming an unverified product relationship.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Retained target prevalence, programme/status and biology assertions, including mesothelin dispensability wording outside the corrected risk inference, need their own current primary checks. No whole-owner certification follows from a new asOf. Two existing MUC1-named trial titles merit registry/product/target-edge review rather than assuming an unverified product relationship."
+          ]
+        },
+        {
+          "id": "cell-visual-and-generic-reader",
+          "requirement": "Queue the source CAR bracket, theme-specific conditional support sentence and standalone Mermaid word wrap for their illustration owners. The generic target schematic says a surface target can be reached from blood; accessibility remains an experimental question in the new prose. Any change to that shared product wording belongs under PRODUCT-APPROVAL, rather than a silent product edit in this data audit.",
+          "status": "gap",
+          "evidence": [],
+          "remaining": [
+            "Queue the source CAR bracket, theme-specific conditional support sentence and standalone Mermaid word wrap for their illustration owners. The generic target schematic says a surface target can be reached from blood; accessibility remains an experimental question in the new prose. Any change to that shared product wording belongs under PRODUCT-APPROVAL, rather than a silent product edit in this data audit."
+          ]
+        }
+      ]
+    }
+  },
+  "globalGroups": 68,
+  "literatureOccurrenceCensusUnchanged": 917
+}

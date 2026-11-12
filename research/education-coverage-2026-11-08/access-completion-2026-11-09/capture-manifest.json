@@ -1,0 +1,60 @@
+[
+  {
+    "file": "fda-charging.pdf",
+    "url": "https://www.fda.gov/media/176308/download",
+    "retrievedAt": "2026-11-09T17:22:38.409397+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/media/176308/download",
+    "bytes": 272460,
+    "sha256": "8e10ac8c411dbfbd7d48da8ec69ed24b22c0e01f40d69ddda6d3301cb8c1d42f"
+  },
+  {
+    "file": "fda-3926-instructions.pdf",
+    "url": "https://www.fda.gov/media/98627/download",
+    "retrievedAt": "2026-11-09T17:22:38.409695+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/media/98627/download",
+    "bytes": 179458,
+    "sha256": "b7025f67c03dfa3f85f78029ac9c5e51cf979dc5488ff20f694fab815b6f5433"
+  },
+  {
+    "file": "fda-industry.html",
+    "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry",
+    "retrievedAt": "2026-11-09T17:22:38.409799+00:00",
+    "status": 200,
+    "finalURL": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry",
+    "bytes": 60083,
+    "sha256": "355003cc1c8b2ada3d1d01cbcbed435957525ef878b0bdd2b96f52d387991413"
+  },
+  {
+    "file": "nci-trial-design.html",
+    "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+    "retrievedAt": "2026-11-09T17:22:38.725142+00:00",
+    "status": 200,
+    "finalURL": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+    "bytes": 52639,
+    "sha256": "f0ffa43b46b44b80de5d7f4aba69425db32a26ba0aa0e328d02a665761987a7e"
+  },
+  {
+    "file": "fda-22c3-original-2015.pdf",
+    "url": "https://accessdata.fda.gov/cdrh_docs/pdf15/P150013C.pdf",
+    "retrievedAt": "2026-11-09T17:22:38.836227+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1081)>"
+  },
+  {
+    "file": "govinfo-control-procedures-2025.pdf",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol5/pdf/CFR-2025-title42-vol5-sec493-1256.pdf",
+    "retrievedAt": "2026-11-09T17:24:37.753203+00:00",
+    "status": 200,
+    "bytes": 178696,
+    "sha256": "9f1d47d3d7ea5733ab620457c5512c4a7370d45863c075dddccdd8b5cfc20d50"
+  },
+  {
+    "file": "govinfo-11-10.pdf",
+    "source": "Committed access-primary/govinfo-recruitment-definitions.pdf.gz",
+    "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf",
+    "status": "recovered-exact-from-committed-gzip",
+    "bytes": 217486,
+    "sha256": "b616f75e0aee70502a0d41037f19a30ff7a3ac6dcade15e6da1db90a5bb2a2b4"
+  }
+]

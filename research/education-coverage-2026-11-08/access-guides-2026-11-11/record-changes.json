@@ -1,0 +1,879 @@
+{
+  "dataCommit": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "newCanonicalIds": [],
+  "changedOwners": 9,
+  "connectedNotesAdded": 17,
+  "plannedBeforeAfterFields": [
+    {
+      "id": "expanded-access",
+      "expectedRuntimeRecordSha256": "be90e368e34ae5d879423cbe6317b707f373f7c46b3dd37b99cace6f48c593b3",
+      "before": {
+        "notes": [
+          "For non-emergency individual-patient use, a new IND ordinarily becomes effective 30 calendar days after FDA receipt unless held or FDA permits earlier use. An individual-patient protocol under an existing active IND has no automatic 30-day wait, but must be submitted and have applicable IRB approval and consent. Widespread-use treatment protocols have different start rules.",
+          "Emergency individual-patient use can receive prior FDA authorisation by telephone or other rapid communication, allowing use to begin before the written expanded-access submission. That submission is due within 15 working days of FDA authorisation. When the emergency exception to prospective IRB review applies, report the emergency use to the IRB within 5 working days of use. Any later use of the test article at that institution requires IRB review. These are separate events and units; the exception is not continuing permission or a promised treatment date.",
+          "A licensed physician acting as sponsor-investigator can use Form FDA 3926 for an individual-patient expanded-access IND. Form FDA 1571 remains an option. The streamlined individual-patient form is not a marketing application or a universal form for every access category.",
+          "When an application references another sponsor’s IND, a letter of authorization permits FDA to reference specified product information. That permission does not itself authorize treatment or guarantee drug supply. If such a letter is unavailable, the FDA review division can advise which other information may satisfy the applicable requirements.",
+          "For an unapproved investigational drug supplied under an IND, the IND sponsor needs separate prior written FDA authorization to charge for the drug. Recoverable costs and other conditions differ between clinical trials and expanded access. Treatment authorization does not itself authorize charging, and permission to recover drug costs does not decide insurer payment or the total cost of clinical care.",
+          "A reported FDA authorization rate needs its stated submitted-request denominator, period and request categories. It does not measure the fraction of everyone seeking the drug who obtains manufacturer supply, meets every requirement or actually receives treatment. An application authorization is not a personal probability of access or benefit.",
+          "For individual-patient expanded access, authorised drug-cost recovery is limited to direct costs attributable specifically to supplying the drug for that authorised investigational use. Examples include per-unit manufacture or acquisition, shipping and storage. Commercial-scale facilities and equipment, and research, administrative or labour expenses that would occur anyway, are indirect costs excluded by 21 CFR 312.8(d)(1). This concerns the sponsor's authorised drug charge, not every bill for clinical care.",
+          "For intermediate-size populations and treatment INDs or protocols under 21 CFR 312.315 and 312.320, the regulation additionally permits specified monitoring, IND reporting and directly associated administrative costs. Those additional categories do not apply automatically to an individual-patient arrangement. FDA authorisation of the treatment and prior written permission to charge remain separate."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Expanded_access"
+          },
+          {
+            "label": "FDA: expanded access",
+            "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+          },
+          {
+            "label": "FDA Oncology Center of Excellence: Project Facilitate",
+            "url": "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate"
+          },
+          {
+            "label": "FDA: expanded access questions and answers, April 2026",
+            "url": "https://www.fda.gov/media/162793/download"
+          },
+          {
+            "label": "FDA: expanded access information for institutional review boards",
+            "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs"
+          },
+          {
+            "label": "FDA: current Form 3926 instructions, including permission to reference another IND",
+            "url": "https://www.fda.gov/media/98627/download"
+          },
+          {
+            "label": "FDA: charging for investigational drugs under an IND, February 2024",
+            "url": "https://www.fda.gov/media/176308/download"
+          },
+          {
+            "label": "FDA: separate industry, physician, IRB and agency responsibilities",
+            "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry"
+          },
+          {
+            "label": "21 CFR 312.8: Costs recoverable for investigational drugs (Cornell LII regulation mirror)",
+            "url": "https://www.law.cornell.edu/cfr/text/21/312.8"
+          },
+          {
+            "label": "21 CFR 312.310: Individual-patient emergency procedures (Cornell LII regulation mirror)",
+            "url": "https://www.law.cornell.edu/cfr/text/21/312.310"
+          },
+          {
+            "label": "21 CFR 56.104: Emergency IRB exception and subsequent use (Cornell LII regulation mirror)",
+            "url": "https://www.law.cornell.edu/cfr/text/21/56.104"
+          }
+        ],
+        "asOf": "2026-11-09"
+      },
+      "after": {
+        "notes": [
+          "For non-emergency individual-patient use, a new IND ordinarily becomes effective 30 calendar days after FDA receipt unless held or FDA permits earlier use. An individual-patient protocol under an existing active IND has no automatic 30-day wait, but must be submitted and have applicable IRB approval and consent. Widespread-use treatment protocols have different start rules.",
+          "Emergency individual-patient use can receive prior FDA authorisation by telephone or other rapid communication, allowing use to begin before the written expanded-access submission. That submission is due within 15 working days of FDA authorisation. When there is insufficient time for prospective institutional review board (IRB) review, report the emergency use to the IRB within 5 working days of starting treatment. Subsequent use at the same institution normally requires prior IRB review. FDA's April 2026 guidance also describes discretion for a subsequent emergency request when prior review is infeasible, with the same 5-working-day reporting requirement. This is not continuing permission or a promised treatment date.",
+          "A licensed physician acting as sponsor-investigator can use Form FDA 3926 for an individual-patient expanded-access IND in a non-emergency or emergency setting. Forms FDA 1571 and 1572 remain an alternative. FDA also lists eRequest for non-emergency individual-patient requests. The streamlined form is not a marketing application, a form for group requests or the device-access process.",
+          "When an application references another sponsor’s IND, a letter of authorization permits FDA to reference specified product information. That permission does not itself authorize treatment or guarantee drug supply. If such a letter is unavailable, the FDA review division can advise which other information may satisfy the applicable requirements.",
+          "For an unapproved investigational drug supplied under an IND, the IND sponsor needs separate prior written FDA authorization to charge for the drug. Recoverable costs and other conditions differ between clinical trials and expanded access. Treatment authorization does not itself authorize charging, and permission to recover drug costs does not decide insurer payment or the total cost of clinical care.",
+          "A reported FDA authorization rate needs its stated submitted-request denominator, period and request categories. It does not measure the fraction of everyone seeking the drug who obtains manufacturer supply, meets every requirement or actually receives treatment. An application authorization is not a personal probability of access or benefit.",
+          "For individual-patient expanded access, authorised drug-cost recovery is limited to direct costs attributable specifically to supplying the drug for that authorised investigational use. Examples include per-unit manufacture or acquisition, shipping and storage. Commercial-scale facilities and equipment, and research, administrative or labour expenses that would occur anyway, are indirect costs excluded by 21 CFR 312.8(d)(1). This concerns the sponsor's authorised drug charge, not every bill for clinical care.",
+          "For intermediate-size populations and treatment INDs or protocols under 21 CFR 312.315 and 312.320, the regulation additionally permits specified monitoring, IND reporting and directly associated administrative costs. Those additional categories do not apply automatically to an individual-patient arrangement. FDA authorisation of the treatment and prior written permission to charge remain separate.",
+          "FDA's request-forms page reports that, on average, 99% of expanded-access requests may proceed. That is the page's submitted-request statement, without a period specified there, not the fraction of everyone seeking a drug who receives it or benefits. Manufacturer agreement is an independent supply gate, and Project Facilitate is an FDA oncology point of contact that helps clinicians navigate requests. The reported FDA fraction does not measure how often supply is the limiting step or rank the obstacles in a particular plan.",
+          "The charging calculation required by 21 CFR 312.8(d)(3) must have supporting documentation and a statement that an independent certified public accountant reviewed and approved it. Expanded-access permission to charge normally lasts one year from FDA authorisation, or less if FDA specifies; the sponsor can request reauthorisation. FDA must withdraw permission if charging interferes with development or its authorisation criteria cease to be met. A two-year-old letter therefore needs a current reauthorisation check. These rules concern the investigational drug charge, not a promise of free clinical care.",
+          "Build a readiness record around the actual product, formulation, dose, route and schedule, its clinical rationale and alternatives, and the supporting quality, exposure and safety information. Name the sponsor and treating clinician, supplier and receiving or storage team, administering service, urgent-care destination, and people responsible for response assessment, toxicity management and reporting. Record the applicable submissions, review and consent, usable supply, costs, dependencies and possible stop conditions. Mark each answer confirmed, proposed or unknown with its responsible person and date; a checklist does not determine a patient's status. The treating team must assess suitability before administration; a laboratory result supplies neither eligibility nor a safe regimen. This checklist concerns U.S. drugs and biologics; device access, other countries and institutional rules can differ.",
+          "In a fictional request, a supplier says manufacture could finish next week while institutional review, the treatment plan and monitoring remain unresolved. That is a manufacturing estimate, not a treatment date. Similarly, FDA permission without a service able to administer and monitor the product leaves a delivery gate open. Ask which milestones are complete and which depend on others. A fictional new non-emergency individual-patient IND with supplier agreement, the necessary product information, applicable IRB review and consent can proceed when effective, ordinarily 30 days after FDA receipt or earlier FDA notice, provided it is not on hold. Supplier review, manufacture, FDA review, institutional review, shipping and scheduling each need their own estimate and dependencies.",
+          "For non-emergency individual-patient use, a physician using Form FDA 3926 may request the permitted institutional review board (IRB) chairperson or designated-member concurrence procedure instead of review at a convened full-board meeting. Concurrence must precede treatment under that procedure. It is not a waiver of informed consent: obtain the applicable written consent on an IRB-approved form. The supplier's letter of authorisation lets FDA reference specified information and does not replace these steps or FDA permission to proceed."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Expanded_access"
+          },
+          {
+            "label": "FDA: expanded access",
+            "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+          },
+          {
+            "label": "FDA Oncology Center of Excellence: Project Facilitate",
+            "url": "https://www.fda.gov/about-fda/oncology-center-excellence/project-facilitate"
+          },
+          {
+            "label": "FDA: expanded access questions and answers, April 2026",
+            "url": "https://www.fda.gov/media/162793/download"
+          },
+          {
+            "label": "FDA: expanded access information for institutional review boards",
+            "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-institutional-review-boards-irbs"
+          },
+          {
+            "label": "FDA: current Form 3926 instructions, including permission to reference another IND",
+            "url": "https://www.fda.gov/media/98627/download"
+          },
+          {
+            "label": "FDA: charging for investigational drugs under an IND, February 2024",
+            "url": "https://www.fda.gov/media/176308/download"
+          },
+          {
+            "label": "FDA: separate industry, physician, IRB and agency responsibilities",
+            "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-industry"
+          },
+          {
+            "label": "21 CFR 312.8: Costs recoverable for investigational drugs (Cornell LII regulation mirror)",
+            "url": "https://www.law.cornell.edu/cfr/text/21/312.8"
+          },
+          {
+            "label": "21 CFR 312.310: Individual-patient emergency procedures (Cornell LII regulation mirror)",
+            "url": "https://www.law.cornell.edu/cfr/text/21/312.310"
+          },
+          {
+            "label": "21 CFR 56.104: Emergency IRB exception and subsequent use (Cornell LII regulation mirror)",
+            "url": "https://www.law.cornell.edu/cfr/text/21/56.104"
+          },
+          {
+            "label": "FDA: expanded-access request forms, individual-patient steps and emergency follow-up",
+            "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms"
+          },
+          {
+            "label": "eCFR: official 21 CFR 312 text, issued 9 November 2026 (machine-readable)",
+            "url": "https://www.ecfr.gov/api/versioner/v1/full/2026-11-09/title-21.xml?part=312"
+          },
+          {
+            "label": "NCI: research, routine-care and practical costs of a trial",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/paying"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "30ab1372098762c65f14c225af16fa6155bd0f39cde046e5b575c0429a431234",
+        "links": "77aa083bd57df32a3c5efabffc33e14b250adf89df3a52328641d4e37e164607",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterFieldHashes": {
+        "notes": "d7994663e67761242ba1fd9e14a8e0d6048ab4e3a147d6c8c48c5b2cea3a389b",
+        "links": "a9d5a824189c92958794a857635f2aa964c639b4b7026d8040126a0bf52ceee2",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Complete the charging and readiness teaching; qualify the over-absolute subsequent-emergency IRB sentence against April 2026 Q11. Do not import the source lesson's unsupported usual-bottleneck ranking.",
+      "sourceSupport": [
+        "18",
+        "19",
+        "26-current:312.8/312.305/312.310",
+        "16:Q2/Q11/Q24-Q26",
+        "07"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "off-label",
+      "expectedRuntimeRecordSha256": "396bdccb9bdc530023b463383bea0227154cfaf0aa36cccd8191ad8a32cb962c",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Off-label_use"
+          },
+          {
+            "label": "FDA: unapproved use of an approved drug",
+            "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label"
+          },
+          {
+            "label": "FDA: expanded access",
+            "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+          }
+        ],
+        "asOf": "2026-11-08"
+      },
+      "after": {
+        "notes": [
+          "Start with the exact medicine and proposed disease, dose and route. In a fictional three-proposal comparison, Drug A is approved for Cancer X but suggested for Cancer Y: ask for the off-label evidence and prescribing and payment arrangements. Product B has never been approved and is in a trial: ask about its protocol, site, cohort and eligibility. Product C is described as single-patient IND access: ask who supplies it, who takes clinical responsibility and what treatment plan and reviews apply. None of those descriptions establishes benefit or selects a treatment. A different dose and unapproved indication for an approved medicine also starts as an off-label question, although a trial can study it."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Off-label_use"
+          },
+          {
+            "label": "FDA: unapproved use of an approved drug",
+            "url": "https://www.fda.gov/patients/learn-about-expanded-access-and-other-treatment-options/understanding-unapproved-use-approved-drugs-label"
+          },
+          {
+            "label": "FDA: expanded access",
+            "url": "https://www.fda.gov/news-events/public-health-focus/expanded-access"
+          },
+          {
+            "label": "FDA: approved medicines used outside their labelling",
+            "url": "https://www.fda.gov/understanding-unapproved-use-approved-drugs-label"
+          },
+          {
+            "label": "FDA: expanded-access request forms, individual-patient steps and emergency follow-up",
+            "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-how-submit-request-forms"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "7637c14ee98b0cfb1baacc052cd5c05d897f339c770b4137ae3a03cad3a3f1d9",
+        "asOf": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce"
+      },
+      "afterFieldHashes": {
+        "notes": "d0d4d840f934df74f3b936347627e035f8ea198e862c63edc4cbb2cd8f71f07a",
+        "links": "ae21d43353205c5cc50d3267883416b0daa4b64495e88cb2fcf2d090cb1a4f71",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Carry the fictional route comparison and dose exercise on the existing off-label owner.",
+      "sourceSupport": [
+        "24",
+        "18",
+        "12",
+        "authored inference from explicit fictional product premises"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "investigational-new-drug-application",
+      "expectedRuntimeRecordSha256": "51c6891b39fa407e55a4f538d2763ae01c55c33d4a151f9f4c4821ba0b995aa4",
+      "before": {
+        "notes": [
+          "For an ordinary new IND, FDA describes a 30-calendar-day period after receipt before an investigation may begin, unless FDA gives earlier notification or imposes a hold. Expanded-access INDs and protocols have route-specific rules; no application number establishes a treatment start date."
+        ],
+        "links": [
+          {
+            "label": "FDA: Investigational New Drug application",
+            "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+          },
+          {
+            "label": "FDA: new drug applications",
+            "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda"
+          },
+          {
+            "label": "FDA: biologics license applications",
+            "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+          },
+          {
+            "label": "FDA: expanded access questions and answers, April 2026",
+            "url": "https://www.fda.gov/media/162793/download"
+          }
+        ],
+        "asOf": "2026-11-08"
+      },
+      "after": {
+        "notes": [
+          "For an ordinary new IND, FDA describes a 30-calendar-day period after receipt before an investigation may begin, unless FDA gives earlier notification or imposes a hold. Expanded-access INDs and protocols have route-specific rules; no application number establishes a treatment start date.",
+          "Product identity matters alongside the proposed use. A redesigned cell product or personalised formulation cannot acquire another product's evidence or authorisation merely by sharing a target, ingredient category or platform name. FDA assesses nonclinical, manufacturing and clinical-protocol information for the proposed investigation. Ask whether the cited data and permission actually cover that product version and plan; a supplier's earlier authorisation is not itself permission for a different use."
+        ],
+        "links": [
+          {
+            "label": "FDA: Investigational New Drug application",
+            "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+          },
+          {
+            "label": "FDA: new drug applications",
+            "url": "https://www.fda.gov/drugs/types-applications/new-drug-application-nda"
+          },
+          {
+            "label": "FDA: biologics license applications",
+            "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+          },
+          {
+            "label": "FDA: expanded access questions and answers, April 2026",
+            "url": "https://www.fda.gov/media/162793/download"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "e73c6b77dd6b5af2efef2d8af9b9e09ac886aae821ab573eb7218f11d3a66db7",
+        "links": "0a1a999bbf1a7936fca66bb5b338eced4358011cffa564f589b9f5af2b0eae73",
+        "asOf": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce"
+      },
+      "afterFieldHashes": {
+        "notes": "c31471fa8da72171b0d1983cc97e53150abd2c8b8103758d5ba84fd8f14eb355",
+        "links": "0a1a999bbf1a7936fca66bb5b338eced4358011cffa564f589b9f5af2b0eae73",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Retain the exact-product and version boundary rather than assuming platform transfer.",
+      "sourceSupport": [
+        "15",
+        "26-current:312.305(b)",
+        "authored reading inference"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "trial-search-site-verification",
+      "expectedRuntimeRecordSha256": "73465dd245f9288fd86403c3c67009e88cf61553f4795ac1a2b16b826d8ba00f",
+      "before": {
+        "notes": [
+          "Search with disease, treatment setting, intervention aliases, biomarker and location terms. Keep registry verification and update dates with the result; ask the team about the current protocol, site and cohort. A record or invitation to screen is not a promise of enrollment.",
+          "Estimated enrollment is a target total, while actual enrollment records people already enrolled. Neither is a count of places available now. Overall study recruitment, an individual facility’s status and availability in the relevant cohort or dose group require separate dated checks.",
+          "When a protocol randomizes participants, meeting its entry rules does not reserve the experimental arm. Assignment follows the protocol’s chance process rather than a choice by the participant or doctor. Screening, eligibility, enrollment, arm assignment and individual benefit are different steps; a plausible match or invitation to screen does not establish the later steps."
+        ],
+        "links": [
+          {
+            "label": "NCI: steps to find a clinical trial",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+          },
+          {
+            "label": "NCI: what to expect during a clinical trial",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect"
+          },
+          {
+            "label": "ClinicalTrials.gov: protocol registration definitions",
+            "url": "https://clinicaltrials.gov/policy/protocol-definitions"
+          },
+          {
+            "label": "42 CFR 11.10: overall recruitment and individual-site status",
+            "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf"
+          },
+          {
+            "label": "NCI: eligibility, randomization and clinical-trial comparisons",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+          }
+        ],
+        "asOf": "2026-11-09"
+      },
+      "after": {
+        "notes": [
+          "Search with disease, treatment setting, intervention aliases, biomarker and location terms. Keep registry verification and update dates with the result; ask the team about the current protocol, site and cohort. A record or invitation to screen is not a promise of enrollment.",
+          "Estimated enrollment is a target total, while actual enrollment records people already enrolled. Neither is a count of places available now. Overall study recruitment, an individual facility’s status and availability in the relevant cohort or dose group require separate dated checks.",
+          "When a protocol randomizes participants, meeting its entry rules does not reserve the experimental arm. Assignment follows the protocol’s chance process rather than a choice by the participant or doctor. Screening, eligibility, enrollment, arm assignment and individual benefit are different steps; a plausible match or invitation to screen does not establish the later steps.",
+          "Keep a compact screening record: registry number and title, current protocol version, disease and stage, treatment goal and required biomarker. Ask about previous treatments, relevant conditions and safety history, current medicines, laboratory criteria and required samples. Advanced-disease and postoperative studies can share a biomarker while requiring different measurable disease, pathology or enrolment windows. A washout is the interval defined by that protocol after a named treatment or medicine; its starting event and duration must be checked with the treating and study teams. A deadline or a half-life calculation is not permission to change treatment.",
+          "Confirm the relevant site, cohort and slot, each assignment group and the randomisation ratio, screening and visit dates, treatment duration and follow-up. Check travel, sample needs, available support and who pays. Record who supplied each dated answer and what remains unknown; request the current protocol or consent material and clarify discrepancies between it, the registry and the site. A personal eligibility worksheet prepares that discussion and does not replace formal screening.",
+          "In a fictional postoperative study, a matching molecular report is a reason to ask about screening, not proof of pathology, treatment-history, local availability or timing eligibility. If Drug B plus standard care is randomised against standard care alone, either group can be assigned; neither the doctor nor participant chooses the experimental arm. If a multicohort registry says recruiting but the local breast cohort has no slots, access is unconfirmed. Asking about another site or reopening supplies a next question, not a promise. Trial phase describes the research question rather than an individual benefit estimate."
+        ],
+        "links": [
+          {
+            "label": "NCI: steps to find a clinical trial",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+          },
+          {
+            "label": "NCI: what to expect during a clinical trial",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect"
+          },
+          {
+            "label": "ClinicalTrials.gov: protocol registration definitions",
+            "url": "https://clinicaltrials.gov/policy/protocol-definitions"
+          },
+          {
+            "label": "42 CFR 11.10: overall recruitment and individual-site status",
+            "url": "https://www.govinfo.gov/content/pkg/CFR-2025-title42-vol1/pdf/CFR-2025-title42-vol1-sec11-10.pdf"
+          },
+          {
+            "label": "NCI: eligibility, randomization and clinical-trial comparisons",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+          },
+          {
+            "label": "NCI: research, routine-care and practical costs of a trial",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/paying"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "df23f2d4359988c603819388408c9b396caae9411f96c950fd027fae3c892085",
+        "links": "d748aaeddd9b7a7c8f3951937d07bcf44b21d26609c610e46f127bcda073cedd",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterFieldHashes": {
+        "notes": "0923c9e0de42b35c0918b9a5a282ef57dd3a56c78cb246d307b302658e78567e",
+        "links": "6d4aa06d3787c44295503b184d1122e5f364ed258e2f50f535ef64dafa77b570",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Complete the screening table, protocol-dependent washout question and both fictional availability exercises.",
+      "sourceSupport": [
+        "05",
+        "06",
+        "09",
+        "07",
+        "authored inference from stipulated fictional protocol"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "placebo",
+      "expectedRuntimeRecordSha256": "6e5ed9ddc730dc25ae38d7e010c78943f5fdc22918ae0b74722221ab5d3aea4f",
+      "before": {
+        "tldr": "An inactive look-alike treatment given to the comparison group in a trial so that neither patients nor doctors can tell who is on the real drug. In cancer trials it is added on top of standard treatment, never given instead of it.",
+        "summary": "Placebos control for the placebo effect (improvement from expectation), for the extra attention trial patients receive, and for bias in how symptoms and side effects are reported; in oncology a placebo arm nearly always means 'standard of care plus placebo' versus 'standard of care plus new drug', since withholding effective treatment would be unethical. Placebo-controlled designs are most common in adjuvant and maintenance settings where the comparator is observation, and they are impossible when the new drug's side effects give it away. When an active standard exists, trials compare against it directly (open-label or double-dummy) rather than using placebo.",
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Placebo"
+          }
+        ],
+        "asOf": "2026-09-09"
+      },
+      "after": {
+        "tldr": "A placebo is an inactive comparison treatment. A cancer trial may compare standard care plus placebo with standard care plus a new drug, or use another justified design. The protocol and consent explain what each group receives.",
+        "summary": "A placebo is an inert substance without pharmacological activity. In a blinded randomised trial, keeping participants and investigators unaware of assignment can reduce biased observations, especially for subjective outcomes. It does not guarantee that treatment remains concealed: characteristic adverse effects can reveal or suggest the assignment.\n\nFDA's August 2019 cancer-trial guidance describes selected uses, including add-on designs and settings where surveillance is standard care or no treatment is available. Replacing an available effective therapy with placebo alone is a different ethical question from adding placebo to standard care. NCI explains that a study can compare standard treatment plus placebo with standard treatment plus the study drug. Read the actual groups, protocol and consent rather than inferring no care, a guaranteed active drug or a universal trial design.\n\nThe FDA guidance recommends planned unblinding in specified circumstances, including documented progression when appropriate treatment alternatives exist and suspected drug-related adverse events whose management would involve substantial toxicity or invasive procedures. These are guidance recommendations with stated qualifications, not a rule that every trial must remain blinded or that visible side effects make blinding categorically impossible.",
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Placebo"
+          },
+          {
+            "label": "NCI: eligibility, assignment and placebo comparisons",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work"
+          },
+          {
+            "label": "FDA: placebos and blinding in cancer trials, August 2019 guidance",
+            "url": "https://www.fda.gov/media/130326/download"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "tldr": "020b16513fa72c3a2665b79b40df04c4600085e946d35223e4f51456e9327d6a",
+        "summary": "d28cbeb2f6634baaa6cb0ebd458dd8b604f8a02bfbf916cc4edcbfb1ab85712f",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "354b6e591c65ecbc004fbcf0e7be1d8f4ed84d1877d59ad3aa3e22b45964d6f3",
+        "asOf": "deab17f5c24dfc69254d7427a910923048244bb75e30f66a7d2bc6916b4ca270"
+      },
+      "afterFieldHashes": {
+        "tldr": "d6c9d5a26b7cdf0cdcfbaa03f3d76f088d98f732b7d906a96d6626a03c6ed47f",
+        "summary": "14f049a3cf782d34298205035efae42a323039b020ba16d0c734f5b4ac5d9024",
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "aa1f0d2c2e31ffa4fca388202068ee0170f2ffff9d14ebddf282b9cfec6e81b3",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Correct the never-alone and impossible-blinding absolutes and the inconsistent exclusion of standard-care add-on placebo designs.",
+      "sourceSupport": [
+        "06",
+        "28:whole PDF text read"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "biobanking",
+      "expectedRuntimeRecordSha256": "0edca8cacd7f69a407fe2ea6fa8cc6ee179a68ad6c8df038ef8c476c92bb0614",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "NCI Best Practices for Biospecimen Resources",
+            "url": "https://biospecimens.cancer.gov/bestpractices/"
+          }
+        ],
+        "asOf": "2026-09-08"
+      },
+      "after": {
+        "notes": [
+          "For research planning, distinguish a hard dependency from a scheduling preference. A hard dependency is an input, permission or required check without which the named step cannot proceed under its stated rules; a preference is an order the team would like. Reversibility is a different question. A mandatory analysis can be revisable, while an optional experiment can consume irreplaceable tissue. Copies of a DNA or RNA dataset can inform different target searches, but copying data does not replace the physical specimen, permission to use it or separate product validation.",
+          "In a fictional worksheet, Lab A accepts existing DNA and RNA data, their quality report and permitted reuse for candidate ranking. It needs neither new tissue nor Lab B's result. Lab B has confirmed that the preparation and selected region of an archived formalin-fixed, paraffin-embedded block fit its protein-localisation study; it requires four sections. The custodian has identified six research sections after protecting diagnostic needs, but release is unconfirmed. A joint meeting after both reports is a scheduling preference, not an input either lab requires.",
+          "Under those invented constraints, Lab A can start while the team asks the custodian about Lab B's release. The inquiry uses no tissue. Cutting and consuming four sections requires release and the agreed specimen requirements to remain satisfied; consumed material is not restored by returning the block. Six minus four leaves two sections in this exercise, without predicting assay yield, successful analysis or future adequacy. A fixed block does not establish a viable-cell input. Preserve original data, record use and keep permission, input acceptance and an informative result separate.",
+          "Candidate-ranking data do not establish an accessible surface protein or a clinically useful product. Surface-target research still needs localisation, accessibility and normal-tissue assessment; T-cell receptor sequences still need functional specificity testing. A target-specific experiment needs a defined question and target. A product-specific potency or safety test needs the actual candidate being tested, and batch release needs a defined manufacturing process and its quality requirements. Process development and documentation can overlap, so a planning diagram supplies no universal order for all safety and manufacturing work. No product, combination comparison or clinical administration plan is supplied by the fictional two-laboratory worksheet."
+        ],
+        "links": [
+          {
+            "label": "NCI Best Practices for Biospecimen Resources",
+            "url": "https://biospecimens.cancer.gov/bestpractices/"
+          },
+          {
+            "label": "NCI: technical and operational biospecimen practices, handling and inventory overview",
+            "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/technical-operational"
+          },
+          {
+            "label": "FDA: distinct manufacturing and clinical-protocol information for an IND",
+            "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+          },
+          {
+            "label": "Kula et al.: functional T-Scan antigen-discovery experiments (2019)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31398327/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "3f12fc7daa8404929d5549f779085fbd01ce4e64f2c22fedfd3b629700635857",
+        "asOf": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb"
+      },
+      "afterFieldHashes": {
+        "notes": "03c0135301354b76eb9b31d0d1e1c7ef6dbaabd19ffd5c0f45b6d35883be8596",
+        "links": "6f7f7218698536c75798b579065e70960050edcdbd11e96878c89e33c45fe77f",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Carry the finite-specimen dependency and reversibility worksheet within the existing procurement owner; do not create a duplicate of the pending finite-tissue owner.",
+      "sourceSupport": [
+        "01:overview only",
+        "15:manufacturing/protocol",
+        "27:resolved abstract",
+        "authored inference from stipulated worksheet"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "backbone-add-on",
+      "expectedRuntimeRecordSha256": "deec0222961f1cd2f367d8cfd9201d073c2173132eb6e2498e6b54bc35fbdb3f",
+      "before": {
+        "notes": [
+          "Reading a combination result. A combination rationale should name the job of each component (for example a growth pathway, a survival route, a location or stage, or a resistant population), and each story makes predictions that need testing. A regimen that beats one component does not show which component supplied the benefit, nor superiority to every alternative. In ASCENT-04 (443 people with previously untreated locally advanced or metastatic triple-negative breast cancer whose tumours express PD-L1, combined positive score 10 or higher), median progression-free survival was 11.2 months with sacituzumab govitecan plus pembrolizumab and 7.8 months with physician's-choice chemotherapy plus pembrolizumab (hazard ratio 0.65, 95 per cent CI 0.51 to 0.84; label section 14); that compares the ADC with chemotherapy as pembrolizumab's partner and does not by itself show synergy. Independent drug action offers another explanation: if each person benefits from the drug to which their tumour is most sensitive, patient-to-patient variability alone can explain the superiority of many approved combinations without additivity or synergy (Palmer and Sorger), which is an alternative explanation, not a rule that effective combinations lack synergy. A combination can also add toxicity, change exposure or force lower doses, and simultaneous and sequential treatment are different strategies that a molecular diagram cannot choose between.",
+          "What 'synergy' means and how it is measured. Synergy is the narrower claim that a combined effect exceeds a stated reference expectation, and the references differ. Highest single agent (Gaddum) expects the better single effect and is the easiest bar to clear. Bliss independence expects the probability of being unaffected by each drug to be independent, so for effects written as fractions the expectation is A plus B minus A times B. Loewe additivity treats the two drugs as dilutions of one another and needs the full dose-response curve of each, with straight-line isoboles as its classic form. In Chou's median-effect method a combination index below 1 indicates synergism, equal to 1 additivity and above 1 antagonism, within that method only. Meyer et al. found no consensus on how to quantify synergy, and Yadav et al. note that a drug combined with itself can easily exceed the highest single agent and that their zero-interaction potency score is zero when both independence and dose additivity hold. A 2020 review's point stands: a synergy claim needs its model, scale and uncertainty named. Greco's 1995 review was identified but only its title could be read. Laboratory interaction analysis needs single-drug dose-response data, combination conditions, controls and variation estimates; a clinical survival advantage does not by itself measure a cell-level interaction.",
+          "The two fictional comparisons use different units of inference. In a ten-tumour better-component model, A covers tumours 1 to 4 and B covers 3 to 6: 4 + 4 - 2 = 6 in the union, with four in neither group. There is no extra within-tumour interaction or added toxicity in that counting model. Separately, one cultured-cell experiment at 72 hours gives 20%, 30% and 40% inhibition for A, B and the pair at one fixed dose pair. Inhibition here is a reduction in vehicle-normalised viable-cell count, not a direct death measurement. HSA expects 30% and Bliss 44%, so 40% exceeds the first and falls below the second. Loewe needs single-drug dose-response curves; three numbers and no uncertainty estimate cannot establish a general synergy claim. In this model, greater overlap among responders reduces the union. Independent drug action does not require the two response groups to be statistically independent; shared resistance and response correlation matter to a population prediction."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Combination_therapy"
+          },
+          {
+            "label": "Sacituzumab govitecan prescribing information (DailyMed)",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+          },
+          {
+            "label": "Palmer and Sorger, combination therapy via patient-to-patient variability without synergy (2017)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29245013/"
+          },
+          {
+            "label": "Chou, synergism and antagonism in drug combination studies (2006)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16968952/"
+          },
+          {
+            "label": "Meyer et al., charting the fragmented landscape of drug synergy (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32113653/"
+          },
+          {
+            "label": "Yadav et al., searching for drug synergy using an interaction potency model (2015)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26949479/"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "Reading a combination result. A combination rationale should name the job of each component (for example a growth pathway, a survival route, a location or stage, or a resistant population), and each story makes predictions that need testing. A regimen that beats one component does not show which component supplied the benefit, nor superiority to every alternative. In ASCENT-04 (443 people with previously untreated locally advanced or metastatic triple-negative breast cancer whose tumours express PD-L1, combined positive score 10 or higher), median progression-free survival was 11.2 months with sacituzumab govitecan plus pembrolizumab and 7.8 months with physician's-choice chemotherapy plus pembrolizumab (hazard ratio 0.65, 95 per cent CI 0.51 to 0.84; label section 14); that compares the ADC with chemotherapy as pembrolizumab's partner and does not by itself show synergy. Independent drug action offers another explanation: if each person benefits from the drug to which their tumour is most sensitive, patient-to-patient variability alone can explain the superiority of many approved combinations without additivity or synergy (Palmer and Sorger), which is an alternative explanation, not a rule that effective combinations lack synergy. A combination can also add toxicity, change exposure or force lower doses, and simultaneous and sequential treatment are different strategies that a molecular diagram cannot choose between.",
+          "What 'synergy' means and how it is measured. Synergy is the narrower claim that a combined effect exceeds a stated reference expectation, and the references differ. Highest single agent (Gaddum) expects the better single effect and is the easiest bar to clear. Bliss independence expects the probability of being unaffected by each drug to be independent, so for effects written as fractions the expectation is A plus B minus A times B. Loewe additivity treats the two drugs as dilutions of one another and needs the full dose-response curve of each, with straight-line isoboles as its classic form. In Chou's median-effect method a combination index below 1 indicates synergism, equal to 1 additivity and above 1 antagonism, within that method only. Meyer et al. found no consensus on how to quantify synergy, and Yadav et al. note that a drug combined with itself can easily exceed the highest single agent and that their zero-interaction potency score is zero when both independence and dose additivity hold. A 2020 review's point stands: a synergy claim needs its model, scale and uncertainty named. Greco's 1995 review was identified but only its title could be read. Laboratory interaction analysis needs single-drug dose-response data, combination conditions, controls and variation estimates; a clinical survival advantage does not by itself measure a cell-level interaction.",
+          "The two fictional comparisons use different units of inference. In a ten-tumour better-component model, A covers tumours 1 to 4 and B covers 3 to 6: 4 + 4 - 2 = 6 in the union, with four in neither group. There is no extra within-tumour interaction or added toxicity in that counting model. Separately, one cultured-cell experiment at 72 hours gives 20%, 30% and 40% inhibition for A, B and the pair at one fixed dose pair. Inhibition here is a reduction in vehicle-normalised viable-cell count, not a direct death measurement. HSA expects 30% and Bliss 44%, so 40% exceeds the first and falls below the second. Loewe needs single-drug dose-response curves; three numbers and no uncertainty estimate cannot establish a general synergy claim. In this model, greater overlap among responders reduces the union. Independent drug action does not require the two response groups to be statistically independent; shared resistance and response correlation matter to a population prediction.",
+          "Parallel research and concurrent treatment answer different questions. A shared dataset or target, or different proposed killing mechanisms, can justify studying products separately without establishing that their combination adds benefit or is tolerable. A combination can change immune-cell numbers, toxicity, exposure and attribution of adverse effects. Earlier checkpoint treatment does not establish a safe later partner; a history of immune-mediated pneumonitis is relevant to clinical assessment. Neither negative circulating tumour DNA nor high residual cancer burden determines a new combination's benefit or safety. An exact regimen, clinical evidence and applicable readiness and monitoring are still needed. A planning inquiry can be revised; changing the plan cannot undo an administered dose. A decision record should state which evidence would change an action; a readiness record instead tracks permission, supply and clinical delivery."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Combination_therapy"
+          },
+          {
+            "label": "Sacituzumab govitecan prescribing information (DailyMed)",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+          },
+          {
+            "label": "Palmer and Sorger, combination therapy via patient-to-patient variability without synergy (2017)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29245013/"
+          },
+          {
+            "label": "Chou, synergism and antagonism in drug combination studies (2006)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16968952/"
+          },
+          {
+            "label": "Meyer et al., charting the fragmented landscape of drug synergy (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32113653/"
+          },
+          {
+            "label": "Yadav et al., searching for drug synergy using an interaction potency model (2015)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26949479/"
+          },
+          {
+            "label": "NCI: T-cell transfer therapy, conditioning and regimen harms",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+          },
+          {
+            "label": "FDA: pembrolizumab prescribing information, July 2026, immune-mediated adverse reactions",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "95466cddcd05e9b25054690164eb7dacb44e487fd09994b85ef95713f6728732",
+        "links": "5cdf392b1c395f0ddbef683df2623cb0a144154b7ea97779c71b554bfb9769d3",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterFieldHashes": {
+        "notes": "4fb139e4938a9cf6a6c0f6dc102a4dc364bffa62691f2fb9b2849c9906ac9514",
+        "links": "53698d818c8f05b3384cce88453623f55fb0a8396d0c410367cb9889e4ddc910",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Keep the planning-versus-combination inference and prior-toxicity boundary on the existing combination owner.",
+      "sourceSupport": [
+        "04:conditioning/regimen",
+        "03:5.1 targeted",
+        "authored inference; no individual safety or efficacy estimate"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "apheresis",
+      "expectedRuntimeRecordSha256": "a9aa1a876d448aa52543242c0d047a77ec7b493c4650ff4d22b1673476f0b92a",
+      "before": {
+        "notes": [
+          "Processed blood volume, collected bag volume, total white-cell number, viable-cell recovery and numbers or fractions of intended subsets are different measurements. A large bag or high overall white-cell count does not establish an adequate viable T-cell input. FDA's CAR T-cell guidance recommends product-development-specific starting-material acceptance criteria and discusses CD3, CD4, CD8, NK-cell, monocyte and B-cell characterisation.",
+          "Collection is supervised clinical care. Access may use peripheral veins or a central catheter. Citrate anticoagulant can lower available calcium and cause symptoms requiring monitoring or treatment; access, blood-pressure, bleeding and infection risks depend on the procedure and person. The NIH consent example is not a universal duration, risk estimate or permission to change medicines.",
+          "Prior treatment, current cell composition, collection and shipping conditions can affect the starting material. Retain source identity, time, handling, receiving acceptance and relevant samples through subsequent manufacture. A successful collection does not guarantee culture growth, a conforming final lot or eventual infusion.",
+          "Research collection and therapeutic collection can have different acceptance, consent, banking and testing requirements. Tumour-infiltrating-lymphocyte manufacture uses tumour-derived material, not simply this blood collection. Vaccines and other cell-based protocols have their own collection requirements; leukapheresis is not a universal prerequisite for vaccination."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Apheresis"
+          },
+          {
+            "label": "FDA: CAR T-cell development guidance, January 2024",
+            "url": "https://www.fda.gov/media/156896/download"
+          },
+          {
+            "label": "NIH consent library version 18: supervised leukapheresis, February 2026",
+            "url": "https://irbo.nih.gov/documents/306/2026_02_05_Consent_Library_v18.pdf"
+          }
+        ],
+        "asOf": "2026-11-09"
+      },
+      "after": {
+        "notes": [
+          "Processed blood volume, collected bag volume, total white-cell number, viable-cell recovery and numbers or fractions of intended subsets are different measurements. A large bag or high overall white-cell count does not establish an adequate viable T-cell input. FDA's CAR T-cell guidance recommends product-development-specific starting-material acceptance criteria and discusses CD3, CD4, CD8, NK-cell, monocyte and B-cell characterisation.",
+          "Collection is supervised clinical care. Access may use peripheral veins or a central catheter. Citrate anticoagulant can lower available calcium and cause symptoms requiring monitoring or treatment; access, blood-pressure, bleeding and infection risks depend on the procedure and person. The NIH consent example is not a universal duration, risk estimate or permission to change medicines.",
+          "Prior treatment, current cell composition, collection and shipping conditions can affect the starting material. Retain source identity, time, handling, receiving acceptance and relevant samples through subsequent manufacture. A successful collection does not guarantee culture growth, a conforming final lot or eventual infusion.",
+          "Research collection and therapeutic collection can have different acceptance, consent, banking and testing requirements. Tumour-infiltrating-lymphocyte manufacture uses tumour-derived material, not simply this blood collection. Vaccines and other cell-based protocols have their own collection requirements; leukapheresis is not a universal prerequisite for vaccination.",
+          "Collection order must come from the actual research or manufacturing protocol. A need for a pretreatment baseline or a specified cell input can make timing important, but the name vaccine supplies no universal requirement to collect blood first. Engineered T-cell manufacture can use peripheral cells, whereas native tumour-infiltrating-lymphocyte treatment begins with tumour-derived lymphocytes. Those different starting materials do not establish a common collection order or validate giving resulting treatments together."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Apheresis"
+          },
+          {
+            "label": "FDA: CAR T-cell development guidance, January 2024",
+            "url": "https://www.fda.gov/media/156896/download"
+          },
+          {
+            "label": "NIH consent library version 18: supervised leukapheresis, February 2026",
+            "url": "https://irbo.nih.gov/documents/306/2026_02_05_Consent_Library_v18.pdf"
+          },
+          {
+            "label": "NCI: different starting material for TIL and engineered T-cell therapy",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/t-cell-transfer-therapy"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "0d99aeab638055cd3c727c474bd3c5fa17eabb4a93c9a391c2beaf504ee28f19",
+        "links": "6e6bce6eea884494ed1dc8a581ee756565b612b74b0d09edd09b2b020cc97b65",
+        "asOf": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+      },
+      "afterFieldHashes": {
+        "notes": "c79ad20c841bba54ccb4709193cbe5b1a0a3f59c419281bd648d4fb39a45f1e2",
+        "links": "25e1902ba3e704d5e4e829e846963573d1cf1f46d5730e2f35e0d4dd613d2967",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Retain product-specific collection timing without turning absence of a universal rule into a recommendation.",
+      "sourceSupport": [
+        "04",
+        "authored conditional protocol-reading inference"
+      ],
+      "integrationCredit": 0
+    },
+    {
+      "id": "informed-consent",
+      "expectedRuntimeRecordSha256": "d1167ea074161a80f51966d61863889ff150d34b727ea7a9809f67e04548f383",
+      "before": {
+        "notes": [],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Informed_consent"
+          },
+          {
+            "label": "FDA guidance: informed consent for IRBs, clinical investigators and sponsors",
+            "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent"
+          },
+          {
+            "label": "WMA Declaration of Helsinki",
+            "url": "https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/"
+          }
+        ],
+        "asOf": "2026-09-17"
+      },
+      "after": {
+        "notes": [
+          "Continue asking questions after signing and ask how to leave a trial safely and what care or follow-up is appropriate afterwards. Consent does not establish benefit, product supply or financial coverage. Keep routine care, research-only procedures and practical costs such as travel distinct, and request a written plan identifying which costs the sponsor, insurer or participant would bear. A supplier's decision not to charge for the investigational product does not pay the other bills."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Informed_consent"
+          },
+          {
+            "label": "FDA guidance: informed consent for IRBs, clinical investigators and sponsors",
+            "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/informed-consent"
+          },
+          {
+            "label": "WMA Declaration of Helsinki",
+            "url": "https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/"
+          },
+          {
+            "label": "NCI: continuing questions, understandable information and trial withdrawal",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/safety"
+          },
+          {
+            "label": "NCI: what happens before and after trial participation",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/what-to-expect"
+          },
+          {
+            "label": "NCI: research, routine-care and practical costs of a trial",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials/paying"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "beforeFieldHashes": {
+        "notes": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "links": "2eff6dcf81cd0a766d748f21741e320335e6e20b9240929fdf9d049dc1e8250c",
+        "asOf": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06"
+      },
+      "afterFieldHashes": {
+        "notes": "a084794c26831afbacbefc9f6e4cfc5b2c3f33eb79c47657334a538f09ad5120",
+        "links": "85aa9d1652fb9756f6dd08903b00d2dbc81b812c2109c3a9b0e7162385c52769",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "reason": "Add safe-departure and plan-specific cost questions, preserving all previous consent text at its prior source scope.",
+      "sourceSupport": [
+        "08",
+        "09",
+        "07"
+      ],
+      "integrationCredit": 0
+    }
+  ],
+  "exactRuntimeReadback": {
+    "graphCount": 23023,
+    "changedIds": [
+      "apheresis",
+      "backbone-add-on",
+      "biobanking",
+      "expanded-access",
+      "informed-consent",
+      "investigational-new-drug-application",
+      "off-label",
+      "placebo",
+      "trial-search-site-verification"
+    ],
+    "newIds": [],
+    "allPlannedFieldsMatch": true,
+    "exactFieldReferences": 159,
+    "unrelatedChangedIds": []
+  },
+  "sourceChanges": [
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "requirementsAccounted": 18,
+      "substantive": 16,
+      "representedAtStatedScope": 16,
+      "partial": 0
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "requirementsAccounted": 18,
+      "substantive": 16,
+      "representedAtStatedScope": 16,
+      "partial": 0
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "requirementsAccounted": 23,
+      "substantive": 21,
+      "representedAtStatedScope": 21,
+      "partial": 0
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "requirementsAccounted": 19,
+      "substantive": 17,
+      "representedAtStatedScope": 16,
+      "partial": 1
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "requirementsAccounted": 5,
+      "substantive": 3,
+      "representedAtStatedScope": 3,
+      "partial": 0
+    },
+    {
+      "phase": "original",
+      "path": "wiki/education/targeted-therapy-modalities/03-overlap-and-sequencing.md",
+      "requirementsAccounted": 27,
+      "substantive": 25,
+      "representedAtStatedScope": 25,
+      "partial": 0
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/01-name-the-access-route.md",
+      "requirementsAccounted": 18,
+      "substantive": 16,
+      "representedAtStatedScope": 16,
+      "partial": 0
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/02-check-a-real-trial-opportunity.md",
+      "requirementsAccounted": 18,
+      "substantive": 16,
+      "representedAtStatedScope": 16,
+      "partial": 0
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/03-build-the-readiness-picture.md",
+      "requirementsAccounted": 26,
+      "substantive": 24,
+      "representedAtStatedScope": 24,
+      "partial": 0
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/04-walk-the-non-trial-route.md",
+      "requirementsAccounted": 26,
+      "substantive": 24,
+      "representedAtStatedScope": 23,
+      "partial": 1
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/05-sequence-the-work.md",
+      "requirementsAccounted": 27,
+      "substantive": 25,
+      "representedAtStatedScope": 25,
+      "partial": 0
+    },
+    {
+      "phase": "later",
+      "path": "wiki/education/guides/accessing-experimental-therapy/index.md",
+      "requirementsAccounted": 5,
+      "substantive": 3,
+      "representedAtStatedScope": 3,
+      "partial": 0
+    }
+  ],
+  "priorRootFieldProofRebases": 64,
+  "shortReaders": {
+    "withdrawnStaleUnreviewedMachineTranslations": 8,
+    "correctedUnreviewedSimpleEntries": 1,
+    "actualSelectors": {
+      "entries": 243,
+      "available": 97,
+      "EnglishFallback": 146
+    },
+    "acceptedLongCaches": 1,
+    "newNamedLanguageReviews": 0
+  },
+  "productChange": false,
+  "changeClass": "product 0  data 15  neither 0   (--cached)"
+}

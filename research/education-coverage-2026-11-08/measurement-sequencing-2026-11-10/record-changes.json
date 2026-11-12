@@ -1,0 +1,1706 @@
+[
+  {
+    "ownerId": "tmb",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "027d6ddd5e26f6f9405bd6ee51c1ff7d1b8717a3b24fbb17c1535f4064e0263f",
+        "newFieldSha256": "fed3afdd13c05ff926774f671c717b4b27faf261777d74fced667ceef18af7fa"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "efaa730522a94735c3a92c78955212e20163a582cd6cba481959933e9e98f27a",
+        "newFieldSha256": "e87cc48e835ef8a4b8dddcff301b12711e044a475122a0c49a5fbd788e2b42ca"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "4a8260368c5464560b71f3d64be6b4f5503e20601b8cc339d594808ecfe22549",
+        "newFieldSha256": "4f2f492dc051b812bf71fca81d120625f968a56e784c90b9ab808127fae18b51"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "fa89582ebb2578f95fd5ad92aff7858de0bc67a57ef4d018107d8d917699720d",
+        "newFieldSha256": "b2e2d66bf241fda88034598a77e25ddbf3c338275495e1e9a9c8c00d4dc54153"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "msi",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "469fd0ba696daf37f0b4dfcf28fafbbff7e927461606f8e1a8a4196d77b5f6b4",
+        "newFieldSha256": "5b85c4fc658b9c783f529b055719d8dd142957284199fb2f0c8622fc4475dec5"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "3207d207a36740225ee7f7378cece82546b7c98fa1ec2d7214364e2d6169b2a8",
+        "newFieldSha256": "f760cbc5190e2deb3988fed5a9562cae3377be06ae89132a525a27f7ba218df0"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "bf3b34b514863280eb98746f3805747ae96af261a5a64cefdd188cb7b1ec8ea8",
+        "newFieldSha256": "b81426431e96e968fa11f4ec696b306f2251276679604c857a87f9ba80ebc5e6"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "0a5afe288e1d0d5825537e40d8a9461eb0cbd38a0c357aa4e521b546be4729b1",
+        "newFieldSha256": "339e58a53e2aac9c7cbfcdd3a254bfabe89251681f54b25dc0636a4f0d8f90ed"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "ngs",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "6845bdab44e1142cf38423fba9eb213f29226f98ac101bfaa71c8ab59b6bcbf0",
+        "newFieldSha256": "1414f33c76133ff2aa41fd90ba0d9e991764fadb64adf107ee150159b4d56526"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "83fc6d87fbd3c7079d8ae745b70a769f40ffe01df8a17cb9014a7c5e13e0301a",
+        "newFieldSha256": "432b4cbff3c1d8c7e622dbb6864b4a68a43bae90c307fc32f81da0dbf90fa883"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "newFieldSha256": "19a8dab3a7d8fc60844119d1d1be747d52cee870c3c5f14315c92b5365836b08"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "5fe2c00fe8c951914cb209d4d64f381d10690242bbfc3862facb5bf2dcf5f9e9",
+        "newFieldSha256": "ceabd690cddef443e2d1f432c3774924275372ac8cf13afdf99028733071c93c"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "965e4abacd36075b95826d8b2cefd1500c79b1fcb9cc3835a440898dd03035f2",
+        "newFieldSha256": "0598d1215112bbe14abd2fafa67f0c8dcf34d8b7945a4b96e04a472bdf9f5a36"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "rna-seq",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "limitations",
+        "oldFieldSha256": "618d1c0945c9bebb46b290b6f7b0bbfd374e4fcc412373f0a16be5daba18028e",
+        "newFieldSha256": "9cbaf0d0bc0f8b3c26a236027f4aec5ca1ac356883fd61b5e0aa6397cb5f4c72"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "4a2f9fa09f8287483434a0cf3ba2ceddf2f26c16786ef127c52586632e239111",
+        "newFieldSha256": "26612af17c69520cb71209a6a6fe750ef321af20aa1fef1e27ff3f841a93528f"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "de1193cd9129ab62249debd176abf3a5c953873fb59219511fc3a3a4f3d6f572",
+        "newFieldSha256": "1ad7677860d648d6690793456e5c2f1a93aa19476f79ac2a6b87e06649d9b691"
+      },
+      {
+        "field": "strengths",
+        "oldFieldSha256": "96e70090403a643ad3facf3150d364cbe39ebb607003a167ce0de43625bf58e0",
+        "newFieldSha256": "cc33159a4f93c15d94bc0c6fbf6b59ff45a2586988c64bb83db7a1b61d214f1e"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "e533eab302dd24225717290d271ea93cb9e509dd3fae28879ed662fa5cecea31",
+        "newFieldSha256": "a7c37f8680ec13465b281b9a28b6bc7ba1256236f85315a350ee6c5c0bc8b96f"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "8e2ff6d259094bf1abc278a7f1f9e99bb7e05c173a3452fafd84bea957a60376",
+        "newFieldSha256": "1cf86421f3c69ace4f96c312d67ac8c564e90729f877095aec8e8925a3c17667"
+      },
+      {
+        "field": "principle",
+        "oldFieldSha256": "ed3e609a050f54ee9bbab8cf0a1857ddacc158602dd6d3e8507d13f64391664a",
+        "newFieldSha256": "9673ba28a1063e8b34b2d2138ea95e77b549ee21b4ff2023f63557c21f710d60"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "single-cell-spatial",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "limitations",
+        "oldFieldSha256": "258f88fbf81a886c6888caaa291d73ebdf91b80d47d400e97cebc31772c4de63",
+        "newFieldSha256": "a52cc5c8b01b51a752ee5742c23f279150a52809832c242891c3bce9313e33c2"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "f1b019d71199a0cb46260fe455623d1ae9a6714940f7eb8a686041389161cc44",
+        "newFieldSha256": "f22286974dfa67acd35ee8788e8b7f5308caf6bb1e0a0041bed169c30b6757d5"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "newFieldSha256": "47aa3540244cd44945de8811d630f3cca253e728fed25417d9f5d5d78822767b"
+      },
+      {
+        "field": "strengths",
+        "oldFieldSha256": "5c80b2d4082fb5b57132fc221836974a50f673ad8937a00b74f74ad429809c61",
+        "newFieldSha256": "05a3d2ccc6d59ac0adf1e38d7f11b3550bfff2a38ee2ef64722920cd6b1e1d90"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "9e1844e8e8225ad3711e6e6dbc24463946a54012f0f14dab802d6ee5f880b8eb",
+        "newFieldSha256": "e56e7f5924a6624ed12d40f47155b4933ad4cee6dd062057692e64e21182f0c7"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "1fe58c9ecf342e5b51b9204f359b500f6718eb6a840ad9181988f3b40d38113a",
+        "newFieldSha256": "7b7964af0e591aa0c6216ec714500328542dc5afc9c55aa04151045c7565be3a"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "long-read-sequencing",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "b9ed7007424194dc7a97dff28ca2a7145b283368d44077adcd15eb7aaec7b5eb",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "limitations",
+        "oldFieldSha256": "a910690a8246df549522a02b5bb6b73aedd9af1ddce89254d43f2804e8511ab7",
+        "newFieldSha256": "a38aeef77bdd0d21d803fef926f5a4f83c982d33cf228a3a32d3b051e2f4ffa5"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "2d8c681b51dcb7d6566147fd249fc4f16a8143e91d0de0a9c299ef8f0726f013",
+        "newFieldSha256": "8b3e2a3b61bbebc3a2b2cf861d5073133fb2d45da94fc20383cc0662c0ed25d5"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "newFieldSha256": "7843a1d288dabc765d8a454580e927aa470236ab3b10e82649a53f2220a10118"
+      },
+      {
+        "field": "principle",
+        "oldFieldSha256": "51c304601f8bb8171e277114c7d7e9da6f709e6534a61ff50e242b335f092f13",
+        "newFieldSha256": "a3c83692c0132d9ee7ac51400e9186eebbfb4aaeddb6b48828572b2f0dd38669"
+      },
+      {
+        "field": "strengths",
+        "oldFieldSha256": "c09bc52dd2385030800faa053d685f594db29ecc032420d0ebfd2e45f81d2e4f",
+        "newFieldSha256": "86a18e50e012f25b8fa9efa63fe417f5232f036a5dd81bcc99e3bef2619d65e7"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "a662d4aa39e9a8cfecfe0c320766f698d3d2d7eddce0401f3667ea4099e3ac2a",
+        "newFieldSha256": "8f7c25d6d97f321c5603c1745d7c85878ae9f273b6de5a257f0d49ed985585ac"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "814699e9b5dd1122e5237a2ca3659d487e22e69c380e516506d9b2961ec2e032",
+        "newFieldSha256": "00526ced7a1ec2c9e5f5ac51794c411d1ed34b1543f89993e7153f351f894e2f"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "bulk-rna-seq",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "e7dff3d81a233eef77d9625ad3f0921e5931bd2803157bef8721b0dac4569e7e",
+        "newFieldSha256": "71e3ee0334e4744c26a4c7e951688dce9107f1cba7b2fd0e1f75b2c6957f6bb5"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "322c8bcb5dffccd08b015d148ed68bf61665869f7b12adcf9e6324662b787719",
+        "newFieldSha256": "e4df0fa5245446b8fef7328e2551e53e82db69d5a095f2f699d12378394d7ce1"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "6f7e21ef43f6e0d7a430cea42af177262c896f91be1cf2accb15415860c2d356",
+        "newFieldSha256": "524b966acbb09a531143fdb30d8b64a9eaf8471d05be0f205c62489ae61caa2b"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "68e666c19a7cdd79f4d4f9dfa758376d1c97905fdd5dabdf55a59d3a0ceee95d",
+        "newFieldSha256": "9d1e8557e8086cb4646a3152be061a3142d7b1efe4203a0a3331ea6832cc0743"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "b53ec36c6fd45b9b2846ce9f8da8e5c786a609ee4729d290d80baac166b51743",
+        "newFieldSha256": "76c367533c4688fc666bd8f4d97b866d7350c5e786ef18604a19eacba4d65958"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "variant-calling",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "471ed71d2ecad1eeeb68e9d3a1dfbc811983d3bbf1cb537c60c03da6f9a0c6cc",
+        "newFieldSha256": "87bc3494fa7945b52a8f53d7f714710821fbf570e9384284838bf5455692ab34"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "8aba63db2ea449fd59524fd581de1888ff7fe89d1ec79dd040aecb43675c0185",
+        "newFieldSha256": "040b4825da3630580e4545532424c1b2d97f6702301eeff1a7c9879cea46d4ab"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "4a339f363ed97dd3547a607e7637fe2ce104bf4e8f6da95d0cc3d522e3155e26",
+        "newFieldSha256": "154e3fd3df1a1ed887ca33fc66474c1473e098c9250d3b7b464f2e518e3ef9ca"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "d663f974f45977612f6d75b508eaa325aee373c454cf23b530914e1774eac122",
+        "newFieldSha256": "5500f536bce1b180f094c5c3f6a7fc9942c05a728e0ffd7c08dbef32cc6670e3"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "batch-effects",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "16f8e0f3e2b89be85f9905cd6befe36154725cd221d723440071f38a5373c216",
+        "newFieldSha256": "94d7389c07495c7ff1c316ca768c04e8f126f06a2435fee9a1ce175cc1cc67ff"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "d1309d2b0f6719419bceeb6e58aaca07b6dec109dd9c7e319db7756cc623d6c9",
+        "newFieldSha256": "02fab3e939aa9a65c1efdcd2698a2c70382cba0221ca11bb18020d3ea21c0168"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "728cb2dd351efc895bdaf5d1cc349431e6a1ed969a0f4f8ef24ba6a3ccd98ee6",
+        "newFieldSha256": "42d6a69a7043defc2edb5b5dff1e3b66e72359a61902aa2f9a5706c0973cb259"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "92db212ade37a1f7b20792ccb13a4d0849e1b221146d9b37019da2865cdf5974",
+        "newFieldSha256": "ff456350086692621f358034aedbf32469933491eb29a4a63dcf23787326e3b3"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "single-cell-rna-seq",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "dd720a7f444fae0bb9c5f5934c777dea7919552b1ef05fa6162ff41a84c0d019",
+        "newFieldSha256": "90085df69dee16bd6a8fd996c3517610e5f768ad2e13e1cf6775c49b39d34edb"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "d53b00a3b10532fe46983739ff6a08059b1d5ccb063e3cf3f93d7c49f0fa2640",
+        "newFieldSha256": "489b12990a891e53f7378d824a0cf644efe00743940a9392605685025c24c913"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "a521c1e78d649e2cead1016dcc245df37eac083785d729b441a6ffd051f53f78",
+        "newFieldSha256": "d332eaeb62af9f99b66e103d32c2ccd733f200cfc1236719fc21cf3ea624ba82"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "acf7753ff78690ee5877eac74a41c8587a1abb17c9d8d213e41e3a9c5920285a",
+        "newFieldSha256": "47462b4fe4bb6d5199f2a4edae31f94f5d1b8933797815e644aee86b2cf2d208"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "tmb-testing",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "d54aceff0a93232f1a84e4126c70569bc0680fe831277f952b40aec39bacb300",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "limitations",
+        "oldFieldSha256": "aff0467c01a1c4efe64405258b530912f83662f5313fc0fd77970e14da697e6f",
+        "newFieldSha256": "6f3123a7b5b884c0c955bea11e8a3f831249865caab700e10b6ac2d74cd22e4a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "7e81870978098f3b609c38bac873e1ccf9d5cbf14aa78fb2f9a644ac86ae5400",
+        "newFieldSha256": "dea922ae25a46d9c82930b9d9ae795cec0a6079f5d607f52745559ce029c49ee"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "98e990a9635e29f4d4d92a958ee6b57cc2b26fbb68285dc29f7ec0be88549a7d",
+        "newFieldSha256": "faee6dc62cf7b79b46c4dd194510810a8b6a7bc956d9c64b8f8aac0a83b9e480"
+      },
+      {
+        "field": "principle",
+        "oldFieldSha256": "93d5de8ef9b10c2d670a63ecd0e704432362afc6cbcdfe8c66180b7b118f2cbd",
+        "newFieldSha256": "03c5e9ee5182ae8f14dd2c62c98c71c5d2d68ea50d5726334493511ca2cb4c9b"
+      },
+      {
+        "field": "strengths",
+        "oldFieldSha256": "74992de7fd493e89f4aebb5e568952122125cd789ca11bba1a8cfdc93fc9d230",
+        "newFieldSha256": "e6d58e2bd7dccb846b9fdb5b216dcbd2a30eb21375ea04f87df06d8b46400977"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "29536ca8a996498de674602ad47c1c0e31cdd9a4c335df0836f54deae3005e7b",
+        "newFieldSha256": "76dc970f2444efcda36c4366c515960a4c6d6c8cb4d203b794c7a035b5f9d3ff"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "0162821e95a2dea8dd62726af6d12ee2bab0a3aa452282a586ed3336038460b9",
+        "newFieldSha256": "9605f57214765486f936f83f41fcabceba9c809d9051b93636bef63c6d47cb0c"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "hla-loh",
+    "draft": 375,
+    "newCanonicalIdentity": true,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "bottlenecks",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "cancers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "category",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "field": "companies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "dependsOn",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "drugs",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "id",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "fcf00b4256c5360a34377a6abc9df458153de89ef2a61cdb88b19f568cdef425"
+      },
+      {
+        "field": "institutions",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "journals",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "keyPapers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "kind",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "1f99d3ecf1a7cc3b313c5c780e3fde4400f141e4254e36b63af0bc73cdf346c6"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "33251d7f198140f5c5bc28908383e89bc448920dd525ed852aec0866dcd88b35"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9d1b24f99f55f2cffa112f09296eac0ab4ae279981269d65ebad57cd3a8ca751"
+      },
+      {
+        "field": "pathways",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "people",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f58b99308872be3459a97d44b64ba77c591d3de230ae65d5b4f19c11aaf9adce"
+      },
+      {
+        "field": "sections",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "3bfd22a7185a5eebf146e26baca065578cff90bd10c03daee818f63d0ed081e3"
+      },
+      {
+        "field": "tags",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "targets",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "technologies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "terms",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "cb31baec5f794135ab0a9249a033e332851af8eea5d58d98451e4efcfced4fc3"
+      },
+      {
+        "field": "trials",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "sequencing-depth-and-coverage",
+    "draft": 375,
+    "newCanonicalIdentity": true,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "bottlenecks",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "cancers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "category",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "field": "companies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "dependsOn",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "drugs",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "id",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9104c9a2987cc9a8c5b537d91ff1eb4f43f1dea247579dc48ce110b7592023e4"
+      },
+      {
+        "field": "institutions",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "journals",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "keyPapers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "kind",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "8f3906fc42d40b2737c08e59caf6d777638708135f82caa73bc488216bf4dfd2"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "3771217ed1bc0e14e5945c25f7b82c84cd1229442531433369c2da50424a1ece"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "b1a7279ac139c5b283ceb03d51ac9466677d39f8a7f73874b9def2617dd3ec91"
+      },
+      {
+        "field": "pathways",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "people",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d96246ee5d52dace5ef6ad2ca51496a4aa989320ec0314d682285f51a2277559"
+      },
+      {
+        "field": "sections",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "acb5c5035d83716c16f28ac81e1953193e33ae592594eff48eca03b4cf945024"
+      },
+      {
+        "field": "tags",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "targets",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "technologies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "terms",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "401e115d21df61a5252860752014c77484e292085e5fd88acba8b0b4b614506b"
+      },
+      {
+        "field": "trials",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "sequencing-reads",
+    "draft": 375,
+    "newCanonicalIdentity": true,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "bottlenecks",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "cancers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "category",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "field": "companies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "dependsOn",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "drugs",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "id",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "ed881333cfb9957c64ac2280e949a4c9116bc0c00f922eacf5f0943e3bc0dfe6"
+      },
+      {
+        "field": "institutions",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "journals",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "keyPapers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "kind",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "c261619402f1e9fb94e5b2cb302165c66e443956d8a0a4d699221fe218785999"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "994a943ee197fb6392302fab096a6fce9f2b6d7b87d03bf6065f9cc203c5bdee"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "0be335e6a3a95ddb56729275eb154e92ef5f53af52ca3ec27dd8e91dfe4ce6f0"
+      },
+      {
+        "field": "pathways",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "people",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d96246ee5d52dace5ef6ad2ca51496a4aa989320ec0314d682285f51a2277559"
+      },
+      {
+        "field": "sections",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "07ef91ed1ef7f74e89cf7bd65e7008d58c1715dc6519ae369521475c7d219613"
+      },
+      {
+        "field": "tags",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "targets",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "technologies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "terms",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "95d6227076309b76baa42cc060acb91f6bbc5d3ebeb46ddb7fde08325b41bb8f"
+      },
+      {
+        "field": "trials",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "tumor-normal-vs-tumor-only-sequencing",
+    "draft": 375,
+    "newCanonicalIdentity": true,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "bottlenecks",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "cancers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "category",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "field": "companies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "dependsOn",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "drugs",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "id",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "125899a3a6ffb0b6fadb70fc04da6eff1e11ef378b4e846007b0487c51a331c4"
+      },
+      {
+        "field": "institutions",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "journals",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "keyPapers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "kind",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "6fcab010d9566c42a0214463dc036433fe7782ffbbecb8b8368a935d99baf57c"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4384a662acd39d8798d857c9d2fab2244adc3b24214a5c3313e685a8ae71f538"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "5d918b2b352e2faae9ad3878a983693c42e1276a7db92e7833f5410d3cd50ebf"
+      },
+      {
+        "field": "pathways",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "people",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d96246ee5d52dace5ef6ad2ca51496a4aa989320ec0314d682285f51a2277559"
+      },
+      {
+        "field": "sections",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "04e38d5ffccb5e4ad2687580f14ff233e318be0f4c05f493bcc2dd98fe5590aa"
+      },
+      {
+        "field": "tags",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "targets",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "technologies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "terms",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "932299788ec61214a36a83c18f311fa5d0ac13017be09089ed8f98cb608f7906"
+      },
+      {
+        "field": "trials",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "gene-expression-signatures",
+    "draft": 375,
+    "newCanonicalIdentity": true,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "bottlenecks",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "cancers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "category",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "field": "companies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "dependsOn",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "drugs",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "id",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "ac8c2031fb8bab1583215dc4fc5227a29946b1121042a3511d267c22dd535969"
+      },
+      {
+        "field": "institutions",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "journals",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "keyPapers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "kind",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "6a6de89868d52c814599a7db7e31ba3ddd9163d88cd208b30cd65255d1af1d5d"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "6c22ad3c2eaf39c6b8e4594c33934d3f1aab0b1f3129d8380cb2275fa190ca46"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "a4d15fe9e0d366c5244040b8216207b4cbbcdd2789211e035f6decd0986959d3"
+      },
+      {
+        "field": "pathways",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "people",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d96ac9d3e17db69e88ba6c540a17b6e75a71a2a25d32c40813bcdf437e11b5c6"
+      },
+      {
+        "field": "sections",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "1ef9e19982eb54eb3e419f69e84ffbb9f45250fb973c975591dfc4b635b44c61"
+      },
+      {
+        "field": "tags",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "targets",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "technologies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "terms",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "718ff44a1ffb8374708a6f083e0e903e64c24c929e25d3900f2dba13aff3a9c0"
+      },
+      {
+        "field": "trials",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "immune-deconvolution",
+    "draft": 375,
+    "newCanonicalIdentity": true,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "bottlenecks",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "cancers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "category",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "field": "companies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "dependsOn",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "drugs",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "id",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d6fe68c0d6fdd3339618db3812dcf4ce73e289697c03869a69e96ddd81034235"
+      },
+      {
+        "field": "institutions",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "journals",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "keyPapers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "kind",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "a5b92669769a1850f729035bf9d8e50e6cc6aff11f185d4ad7f01cc949b70351"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f5676f1317d2554e77f86dd206172ebe8d10e0c518654d1605438320b6487aed"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "081fff82e6bb236b58e0733334f7a685dd99015ee00c81d5ed9da2358854ce4c"
+      },
+      {
+        "field": "pathways",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "people",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d96ac9d3e17db69e88ba6c540a17b6e75a71a2a25d32c40813bcdf437e11b5c6"
+      },
+      {
+        "field": "sections",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "0d18ef658b63edd88b75287fc53eb2d4f377bf8cfcaa663bd2ab4fb23d9d260b"
+      },
+      {
+        "field": "tags",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "targets",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "technologies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "terms",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "3674f493c33a3d7cb4a1ca24ca49f126158570aba3b536b9ea6937cca3ee947f"
+      },
+      {
+        "field": "trials",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "rna-pathway-scoring",
+    "draft": 375,
+    "newCanonicalIdentity": true,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "bottlenecks",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "cancers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "category",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d8675b52eebdee012c77c459dce20064a20ae004f69439f225542cf77d23e03b"
+      },
+      {
+        "field": "companies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "dependsOn",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "drugs",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "id",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "acd1a6fcf7f98ce391800740880c29a542644058a3f91fb0ee24008c33e06bd9"
+      },
+      {
+        "field": "institutions",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "journals",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "keyPapers",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "kind",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "18f3ef9d907230fe781f548afc88566830e123b9d33fcdce4ddef43dc0a4c6e3"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "431f76d0e300709a67f87b9cc07a31b2d7234548beec415688e33cae1d932a48"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "9f1603a25a14f7d24593c4496b4de66e6c42a2dbe30983cf0b3eba220b133a80"
+      },
+      {
+        "field": "pathways",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "people",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "related",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "d96ac9d3e17db69e88ba6c540a17b6e75a71a2a25d32c40813bcdf437e11b5c6"
+      },
+      {
+        "field": "sections",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "0f160e5077a7ef65edb24c5161666d700a7680909b265f9b58bc22d1b58a76e4"
+      },
+      {
+        "field": "tags",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "targets",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "technologies",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "terms",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "b285acdd4ca8913a2f2e58a94cd39de606b160911eef1ebd6c1981bab4cbb178"
+      },
+      {
+        "field": "trials",
+        "oldFieldSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+        "newFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "vaf",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "newFieldSha256": "8c904d31c888ce2c54ae24f02f57a2d28d05c920293f0f621a12b1ce0149dffc"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "gene-amplification",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "d6131a11fd0474fb5729808538035934bbb362063cec6b5e0318f85ca7a1c4b4",
+        "newFieldSha256": "e7bab6a883f6d56dd7dd075e9f4d36674880aecade6646f01d19ff75916b95bd"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "d60700af93a02fca2366edbb62c92a9638531c8eff890169a1b44cb2d545ac40",
+        "newFieldSha256": "06dd3a233f6624b38f89ae0343d3c3c2f0b2fc9ccf5002bde4ad11843ea17eee"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "tpm-fpkm-counts",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "81b25749988e15f2aa18c1da47d80eb4db1c0f3a395b85f1a65572db86b9e526",
+        "newFieldSha256": "a0c171b327cb5d69c088e0b3b1569a2c2a9924586c8497df2bffaf30105e252d"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "4b678979a6638f151e0872cd2c3a357383853126d2467b96e2a0e7fa34ff6192",
+        "newFieldSha256": "b49c112864de4fdcc7bcbfd7b5fc7aa21991aaa8d27fc760afaa2ea1028f47d4"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "6672f709150a878fccab1287d6f5d4ce6219692dfb99c9864d398b34b5f6acd1",
+        "newFieldSha256": "38a0f9f98ae3270efb0b0d481cc6725dfaf3196f26112d4fd96dbd601d6b2d83"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "genome-wide-loss-of-heterozygosity",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "3316282710e32d0ca7b50b16d93fa277b607b584dccb729bd8bf78058cc4d598",
+        "newFieldSha256": "64e3ad685d482745a6122d8d4962e6a49afcf8d18abe3324ddab720b6936618d"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "4b52dd932abb0330fe10b098ba01a1c59d39fbba493e6a2812af0657d00920f6",
+        "newFieldSha256": "2936ba6d43201ce5b685a678490fc07cec54505ae22c5dd50e5968b0d4fce151"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "tmb-high",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "aka",
+        "oldFieldSha256": "22aa6d7a07a065655e82bbfbaa6246f218b8eb5c756a46e8392422f83699ef99",
+        "newFieldSha256": "d1c04cb36799ea6f12f76a27213e559556fe6da63ec1e6a3ae201c3f70600768"
+      },
+      {
+        "field": "asOf",
+        "oldFieldSha256": "203550de69fd32247aa59c67343c1ec7437181af7576b6b4a0750aca2b15d62b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "forPatient",
+        "oldFieldSha256": "50fef40bc437e696b43d9fcde6cbd16edaf6a920f85ce300ccee24f65fc4336f",
+        "newFieldSha256": "067d0ddef0fb2fba97c9ffa8c15d7ab656107f58db64413e6dc98feb3c9d5b84"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "c7acad7a3e46427030aaf2a57e872c6a7f593a7dfeafe89eac4ca053da824d86",
+        "newFieldSha256": "69de7eeeffd2e49085707c1a3f06a8e2c01ad972d02603b2a8e62d7d0b49b79f"
+      },
+      {
+        "field": "name",
+        "oldFieldSha256": "c53d3b7cc1a5b27e6620e0e4339b0ccd0629a4de82dba21853a1bc545d0a8f4a",
+        "newFieldSha256": "cf05561bb89da09455f2f326c763b280c49d0967863cd984d351f5c2b40c825f"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "b71a80f80cb4a205d2cc41823c156ee369488160a80b7bc4c6184a3fd023b8c4",
+        "newFieldSha256": "0e19d74817f7185670d29ed72e313178f59ad26beac814dc7a489c1318800211"
+      },
+      {
+        "field": "scoringRule",
+        "oldFieldSha256": "56f2c1f9d504d66ff7b737bf6bb6c2a1cc7030226119c929d9243bef45ab157d",
+        "newFieldSha256": "5d9cdb870f2d7d22287be9dcc7dac5f0d278e3884463d543c69e5432d45297c2"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "091a5f3d202f9e75f9265c130109211bbc0b31db297d085d727d0fdc1d7733ef",
+        "newFieldSha256": "f948ede107d24c6bde8dad37455f2160fab1fb8a8809d9804b720d5873dc4d51"
+      },
+      {
+        "field": "thresholds",
+        "oldFieldSha256": "bf7b488a08987caa49c50833e4388dd283f8a38025478c229ad83c55d5d9461e",
+        "newFieldSha256": "07599d6e84496b9c5cfa64ef20a8ca94ce40b2662b4647b80f849288cf12bfce"
+      },
+      {
+        "field": "tldr",
+        "oldFieldSha256": "cb734f00c8d0972dd9f5b9c4b2fb7d3edfca41ddeee550e642915dd42c29bc15",
+        "newFieldSha256": "e6f7ffd4fef59a0e88c476d9aabeaa41367bb56dd436e24a0f0f04839a3d8b29"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "nsclc",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "a9b0a25ae5ed68d53f6571c0cb4e497bbf15ffb85b6d8fe3cd9950d7cf06f1bc",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "cb76a5c776c7da8963cce0d3150a116ff8c8d355b89701f54935fb40b52d981b",
+        "newFieldSha256": "db0dbeb019383abc985030d459f9d59bfc61baab479d89dc6866a7513b5a4a7d"
+      },
+      {
+        "field": "notes",
+        "oldFieldSha256": "874072b823e575e3c7976fd3f23debf8fbc0c77404d3ad67ef8c3e84b19ce32e",
+        "newFieldSha256": "2a7957a17ab052811fe843e6976bc46c03517cc2bd26e8db343b177db682edd6"
+      },
+      {
+        "field": "stateOfArt",
+        "oldFieldSha256": "9aa47d046929beeb639d7256d71706d2dee06714c6f6aca99a84440da5f6f8ca",
+        "newFieldSha256": "624cf7d654a8efe09f7c93549e3baa815593359b6e80d7c877498410a51ce0b7"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "gallbladder",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "7679bfe64dd6fd91061402a3fa5d1161d16b833d049cd35df3a454bc28c3c647",
+        "newFieldSha256": "95dca0dec8c970e9bad8ba9e11756d155c366896afa4b74304f22be4574e3a6b"
+      },
+      {
+        "field": "standardOfCare",
+        "oldFieldSha256": "1f8a4af8d4f48e1d73e2af9fb5459b99da6a50faaa47924bb7bfbd583f69ead5",
+        "newFieldSha256": "9a12d33bb0392ebe7644c21d3275816ed1996e3f8522b367a3d0f8d56464a9e0"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "recurrent-metastatic-hnscc",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "biomarkers",
+        "oldFieldSha256": "0ee3c9463e6259f25ecc762076b425491234bdecbcda4fd29a9d08ee75e8ab17",
+        "newFieldSha256": "a2f445a5f0d6ce6f6ee1caf495401ed896681211b5ed83be7887a89dbbc1ed3f"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "46a822b167fe5e92976c93ab8a30f8bbb5c6625630181cc24b724f2c1cdf49c8",
+        "newFieldSha256": "91810f13a66b378d9b4f2354fedd0c779cf860ce14430fc4ef8059dd09088600"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "checkpoint-inhibitor",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "74730567b1da2293aa81350878e9fc027fde9e85dfd2ef0ed3669d3b21a7bd1d",
+        "newFieldSha256": "c3cab72bad3295770eaf8c6e2e6273f9a656b94d07613f0c9199ae98f2f4d5a5"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "bf28fb075d45754599432b6d6c6d67263cea1e60b9a65d1ab9701fcfc923d000",
+        "newFieldSha256": "830cb3427586107aa1df5baea9f7fdfb2b33dd8f5ae34e40c6ab4fa67b343e76"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  },
+  {
+    "ownerId": "msi-high",
+    "draft": 375,
+    "newCanonicalIdentity": false,
+    "fields": [
+      {
+        "field": "asOf",
+        "oldFieldSha256": "203550de69fd32247aa59c67343c1ec7437181af7576b6b4a0750aca2b15d62b",
+        "newFieldSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81"
+      },
+      {
+        "field": "forPatient",
+        "oldFieldSha256": "1938fafb157edb7d89080cb56d4a58c244a2299cecb277780862d4a173cf9163",
+        "newFieldSha256": "5df018764e277599f9a80cb553ad96b389444b476ddb467c5cf1776ec6c881c5"
+      },
+      {
+        "field": "links",
+        "oldFieldSha256": "807811f27efeb56c52147cde1506dff4c7140c62c871ab6db865df944423eb56",
+        "newFieldSha256": "a28160b04ff7660f0e221ae636ac0b1931417f13f1ab1c6eb5c70f300acef704"
+      },
+      {
+        "field": "summary",
+        "oldFieldSha256": "5de4aa6556d17149fdf450913ba4acb9a4176e51d10787c92fd0e5907dc5e2a1",
+        "newFieldSha256": "71f542464faa1f820093e0ae3a2ac60fa500a232163c59440d3f4adec2859391"
+      }
+    ],
+    "sourceLayerRule": "Edit actual owner inputs; graph-applied supplements retain their own locations. No derived bibliography or cancer arrays pasted into base inputs."
+  }
+]

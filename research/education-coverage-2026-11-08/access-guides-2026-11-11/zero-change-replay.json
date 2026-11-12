@@ -1,0 +1,66 @@
+{
+  "dataCommit": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "comparedPreexistingAuditFiles": 760,
+  "changedPreexistingFiles": 0,
+  "pathSetsIdentical": true,
+  "includedPreReplayArtifactManifest": true,
+  "phaseChecks": [
+    {
+      "phase": "c9689645",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 550,
+        "conceptOrComparison": 434,
+        "guideOrLesson": 109,
+        "navigation": 7,
+        "navigationReviewed": 5,
+        "navigationWithTeachingContent": 2,
+        "semanticallyReviewed": 416,
+        "implementedCoverage": 408,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 137,
+        "unresolvedSources": 137,
+        "adjacentConcepts": 58,
+        "unresolvedAdjacentConcepts": 34,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 4233,
+      "evidencedRequirements": 4225,
+      "openRequirements": 8,
+      "staleOrMissingProofs": 0
+    },
+    {
+      "phase": "7510db6b",
+      "exitCode": 2,
+      "stats": {
+        "totalSources": 537,
+        "conceptOrComparison": 411,
+        "guideOrLesson": 112,
+        "navigation": 14,
+        "navigationReviewed": 7,
+        "navigationWithTeachingContent": 7,
+        "semanticallyReviewed": 407,
+        "implementedCoverage": 397,
+        "mainCoverage": 0,
+        "unresolvedContentItems": 133,
+        "unresolvedSources": 133,
+        "adjacentConcepts": 58,
+        "unresolvedAdjacentConcepts": 34,
+        "openSchemaGaps": 6,
+        "unreviewedLiteratureOccurrences": 0,
+        "readyForFinalReaudit": false
+      },
+      "requirements": 3967,
+      "evidencedRequirements": 3954,
+      "openRequirements": 13,
+      "staleOrMissingProofs": 0
+    }
+  ],
+  "receiptAndFinalManifestWrittenAfterComparison": true,
+  "noClaimThatNewReceiptOrFinalManifestWereByteCompared": true,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "broaderGoalComplete": false
+}

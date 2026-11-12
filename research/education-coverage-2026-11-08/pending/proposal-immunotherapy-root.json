@@ -1,0 +1,1125 @@
+{
+  "version": "proposal-immunotherapy-root",
+  "state": "Actual committed registered-root fields in unmerged draft #375; no main/live or independent approval",
+  "draft": 375,
+  "committedDataHead": "9c35a999031089605de1286fcc981e21dd688f4c",
+  "records": [
+    {
+      "id": "vaccines-and-oncolytic-viruses",
+      "kind": "term",
+      "name": "Cancer vaccines and oncolytic viruses",
+      "aka": [
+        "therapeutic cancer vaccine",
+        "cancer vaccine",
+        "cancer vaccines",
+        "oncolytic virus therapy",
+        "vaccine or oncolytic",
+        "tumour vaccine"
+      ],
+      "tldr": "Cancer vaccines aim to support immune recognition of cancer targets. Oncolytic viruses can injure susceptible cancer cells; useful tumour-directed immunity and clinical benefit need separate evidence.",
+      "summary": "Cancer-vaccine strategies differ in purpose, target selection and supplied material. Infection-prevention vaccines reduce the risk from cancer-causing infections. Therapeutic strategies aim at cancer-associated targets, including after removal of visible disease. Personalised selection, shared targets and RNA or peptide delivery are separate design choices.\n\nOncolytic viruses are a related approach in which viral activity can injure susceptible tumour cells and release material that may support an immune response. Infection, tumour recognition and useful clinical control remain distinct. A product-specific result cannot establish benefit for every vaccine, virus, cancer or setting.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cancer_vaccine",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cancer_vaccine"
+        },
+        {
+          "label": "NCI: cancer prevention and infection-prevention vaccines",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/patient-prevention-overview-pdq"
+        },
+        {
+          "label": "NCI: cancer treatment vaccines",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+        },
+        {
+          "label": "Brody et al.: local radiation and CpG in 15 lymphoma participants (2010)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20697067/"
+        },
+        {
+          "label": "Ott et al.: personalised long-peptide melanoma vaccine (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        },
+        {
+          "label": "Kedl et al.: mouse T-cell competition for antigen-presenting cells (2000)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11034600/"
+        },
+        {
+          "label": "CDC: vaccine-adjuvant definition and reactions",
+          "url": "https://www.cdc.gov/vaccine-safety/about/adjuvants.html"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "vaccine-adjuvants",
+        "intratumoral-immunotherapy",
+        "in-situ-vaccination",
+        "shared-antigen-vaccine"
+      ],
+      "cancers": [
+        "melanoma",
+        "prostate",
+        "cervical"
+      ],
+      "sections": [],
+      "technologies": [
+        "neoantigen-mrna-vaccine",
+        "shared-antigen-vaccine",
+        "dendritic-cell-vaccines",
+        "bacterial-vector-vaccines",
+        "oncolytic-virus",
+        "hpv-vaccine",
+        "checkpoint-inhibitor"
+      ],
+      "targets": [],
+      "drugs": [
+        "talimogene-laherparepvec",
+        "sipuleucel-t",
+        "intismeran-autogene"
+      ],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "immunotherapy-term"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Cancer-vaccine strategies seek useful recognition of cancer-associated targets. Their purpose is different from vaccination against an infection that can cause cancer: HPV and hepatitis B vaccines reduce infection-related cancer risk, rather than treat an established tumour. A therapeutic vaccine can be studied after removal of visible cancer to reduce recurrence risk; that timing does not turn it into infection prevention. Teaching recognition is an aim, not a guarantee that responding cells will reach and control the cancer.",
+        "Describe a vaccine along three independent axes: its purpose, how its targets are selected, and what material is supplied. Personalised selection uses information or material from one person's tumour and can still include targets shared with other people. Shared targets can be tumour-associated proteins or recurring mutation-derived neoantigens. Neither label proves that every cancer cell contains and displays the target. RNA can encode shared targets, and a personalised product can contain peptides. A three-axis comparison therefore classifies designs without ranking their effectiveness.",
+        "A designed product supplies planned antigen material or instructions for making it. An in-situ approach instead uses tumour material already within the body while trying to support presentation and immune activation. Injury or injection alone does not show that vaccination succeeded. These categories describe antigen sources; they do not determine route, peptide display, personalisation or clinical benefit. The dedicated in-situ vaccination and intratumoral immunotherapy records distinguish a learning strategy from a delivery route.",
+        "Brody's 2010 phase I/II study treated 15 people with low-grade B-cell lymphoma using low-dose radiation to one tumour and an injected CpG TLR9 agonist at that site. At distant untreated sites, one participant had a complete response and three had partial responses. This is evidence for a particular multicomponent regimen in that lymphoma group. It does not establish that every local injury creates a vaccine, that the same result occurs in breast cancer, or that this strategy outperforms a supplied-antigen vaccine.",
+        "Ott's 2017 melanoma study illustrates personalised selection without RNA delivery. Six people received a vaccine containing long peptides selected from their own tumours with poly-ICLC, an immune stimulus. The study demonstrated manufacturing feasibility and assay-defined antigen-reactive responses. Some T-cell preparations also recognised the person's tumour cells, while others did not under the tested conditions. This early, nonrandomised study cannot rank all peptide and RNA platforms or isolate the contribution of each ingredient.",
+        "Follow a proposed vaccine response through separate questions. Is the antigen supplied or available with suitable supporting signals? Is it processed and displayed, and are suitable cells primed or expanded? Do those cells reach the tumour, recognise naturally displayed targets and maintain useful function? Finally, does the complete intervention improve a clinical outcome with acceptable harms? Variation between tumour cells, differences in target display and immune restraint can affect different steps. The sequence is a way to investigate dependencies, not a promise that each stage follows automatically.",
+        "Manufacturing feasibility, immunogenicity and clinical benefit are different endpoints. An immune assay needs its stated cell population, supplied antigen, controls, sampling time and response definition. Reactivity in blood to added peptide does not by itself establish recognition of naturally processed targets on cancer cells; recognition in a model does not establish fewer recurrences. A clinical comparison needs the population, accompanying treatments, endpoint, follow-up and harms. A positive result at one level cannot substitute for the next.",
+        "Adding target sequences does not guarantee equally broad functional immunity. Responses can be concentrated on a subset of epitopes, a pattern called immunodominance; Ott's study found different response frequencies across selected targets and T-cell populations. A vaccine adjuvant is an ingredient intended to support an immune response. Adjuvant cancer treatment instead means treatment after the main treatment. These uses of the same word describe different things.",
+        "In a fictional study, an RNA product encoding shared tumour-associated antigens is given after surgery, and an antigen-reactive blood response is detected. Its purpose is therapeutic risk reduction, its target selection is shared, and its supplied material is RNA. Nothing in those facts demonstrates personalised manufacture, natural tumour recognition or reduced recurrence. Those conclusions require their own product, assay and clinical evidence."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "cytokine-therapy",
+      "kind": "technology",
+      "name": "Cytokines & engineered cytokines",
+      "aka": [],
+      "tldr": "Cytokine therapy supplies immune-signalling proteins or cells that produce them. Effects depend on the molecule, receiving cells and exposure, with benefits and harms specific to the regimen.",
+      "summary": "High-dose IL-2 and interferon-alpha are historic. Engineered IL-2 (bempegaldesleukin failed), IL-15 superagonists (nogapendekin alfa/Anktiva, approved 2024 with BCG in bladder cancer), IL-12 (tavokinogene, intratumoural), and tumour-targeted immunocytokines are the modern forms. IL-2 remains part of TIL therapy regimens.",
+      "status": "approved",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Cytokine",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Cytokine"
+        },
+        {
+          "label": "NCI: cytokines and haematopoietic growth-factor support",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/immune-system-modulators"
+        },
+        {
+          "label": "Boyman et al.: selective IL-2-antibody complexes in mice (2006)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16484453/"
+        },
+        {
+          "label": "Nicola: cytokine receptor pleiotropy and redundancy (1994)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7696967/"
+        },
+        {
+          "label": "Lazear et al.: shared and distinct interferon functions (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30995506/"
+        },
+        {
+          "label": "Zhang et al.: inducible IL-12 TILs, serum exposure and toxicity (2015)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25695689/"
+        },
+        {
+          "label": "Proleukin U.S. prescribing information: indications and boxed warnings",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3c516ad-d405-4fbe-af6a-962080dbfa7d"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "immunocytokines",
+        "intratumoral-immunotherapy",
+        "vaccine-adjuvants",
+        "cytokine",
+        "interferons"
+      ],
+      "cancers": [
+        "urothelial",
+        "melanoma",
+        "rcc"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "lenograstim",
+        "peginterferon-alfa-2b",
+        "oprelvekin"
+      ],
+      "companies": [
+        "amunix-pharmaceuticals",
+        "asher-bio",
+        "geneos-therapeutics",
+        "granza-bio",
+        "strand-therapeutics",
+        "synsorybio",
+        "werewolf-therapeutics",
+        "xilio-therapeutics",
+        "nammi-therapeutics",
+        "neuregen-therapeutics",
+        "siren-biotechnology",
+        "stamford-pharmaceuticals",
+        "trutino-biosciences",
+        "ileukon-therapeutics",
+        "saros-therapeutics"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A cytokine is a signalling protein, and cytokine treatment supplies the protein or causes cells to produce it. The response depends on the molecule, the receiving receptor system, the cell's previous state and its exposure. A neighbourhood-message analogy is useful only to this extent: receiving a signal does not give a cell the correct cancer target or a literal instruction to fight it. IL-2 can influence lymphocyte growth and activity; interferons have different receptors and effects, so one cytokine name cannot stand for every immune signal.",
+        "IL-2 can support regulatory T cells as well as other responding lymphocytes. Boyman and colleagues showed in mice that different IL-2-antibody complexes preferentially expanded different T-cell populations, including CD8 cells or CD4 regulatory T cells. The formulation changed the biological effect. Receptor composition, sensitivity and cell state therefore matter when studying a cytokine design; these mouse experiments do not establish human cancer benefit from every complex or from a larger dose.",
+        "Circulating protein, local formulations and engineered cytokine-producing cells are different exposure strategies. A local origin does not guarantee local confinement: the signal can reach the circulation and persist elsewhere. In Zhang's 2015 dose-escalation study, 33 people with metastatic melanoma received transferred tumour-infiltrating cells engineered with inducible IL-12. Higher cell doses were associated with high serum IL-12 and interferon gamma and serious liver, fever and circulatory toxicities. The finding concerns that construct and regimen; it does not establish the safety or harm of every armoured cell product.",
+        "The U.S. Proleukin prescribing information specifies aldesleukin for adults with metastatic renal cell carcinoma or metastatic melanoma. Its boxed warning includes potentially fatal capillary leak and requires administration in a hospital with an intensive-care facility. These are medicine-specific indications and precautions, not an indication or toxicity rate for all cytokines. Mechanistic plausibility or a diagnosis alone does not select a cytokine regimen.",
+        "Haematopoietic growth factors support blood-cell production. For example, G-CSF used to reduce infection risk from low white-cell counts during cancer treatment is supportive care; that use does not by itself establish direct cancer killing. Endogenous cytokine biology, measuring a signal and administering a therapy are different activities. More activation is not automatically more useful immunity, and secretion by an engineered cell is not proof of confined exposure.",
+        "A fictional spatial comparison has two equal-sized compartments with cytokine concentrations of 0 and 20 picograms per millilitre, while another has 10 and 10. Both means are 10, but the spatial patterns differ. A whole-sample mean cannot establish directed chemotaxis, which concerns movement in relation to a chemical pattern, an appropriate receiver and a route the cell can traverse. This simplified drawing neither measures migration nor states a requirement for every kind of cell movement.",
+        "Measure exposure, receptor signalling, absolute cell number, cell state, functional activity and tumour outcomes separately. A larger sampled cell population can reflect more division, less loss or redistribution into the sampled compartment. A blood count does not by itself describe the tumour. Likewise, a high cytokine concentration or inflammation does not establish efficacy: persistence of useful activity and adverse effects need their own measurements.",
+        "For a cytokine design, follow the molecule, formulation and route to tissue exposure, receptor and cell state, useful and unwanted responses, and then clinical outcomes and harms. This is a set of conditional questions. Antigen material, a recognition receptor and cytokine support perform different jobs: adding cytokine-producing armouring does not itself supply cancer specificity or a route into the tumour. The actual combination and disease setting need evidence.",
+        "Suppose a fictional cytokine study reports more circulating T cells after treatment but no measurement of their targets or tumour recognition. The count changed, but the result does not identify which populations changed, whether division, survival or redistribution caused it, or whether those cells can recognise and affect the cancer. Functional testing, clinical outcomes, durability and safety remain separate questions."
+      ],
+      "principle": "Deliver a specified signalling protein, or support its production, to change responses in cells with the relevant receptor system; measure useful effects and harms under the actual exposure conditions.",
+      "strengths": [
+        "Potent immune expansion"
+      ],
+      "limitations": [
+        "Useful and unwanted responses depend on molecule, formulation, receptor and cell state",
+        "Local production does not guarantee confined exposure",
+        "Immune-cell expansion alone does not establish cancer control"
+      ]
+    },
+    {
+      "id": "checkpoint-inhibitor",
+      "kind": "technology",
+      "name": "Immune checkpoint inhibitors",
+      "aka": [],
+      "tldr": "Checkpoint inhibitors block specified immune-regulatory interactions. They can support cancer-directed activity and can also cause immune-related injury; benefit depends on the cancer, regimen and setting.",
+      "summary": "Anti-CTLA-4 (ipilimumab), anti-PD-1 (pembrolizumab, nivolumab, cemiplimab, dostarlimab, toripalimab, tislelizumab), anti-PD-L1 (atezolizumab, durvalumab, avelumab), anti-LAG-3 (relatlimab). Approved across >20 tumour types. The U.S. tumour-agnostic pembrolizumab indication covers adult and paediatric patients with unresectable or metastatic MSI-H or dMMR solid tumours, determined by an FDA-authorised test, that have progressed following prior treatment and who have no satisfactory alternative treatment options. The separate colorectal indication covers unresectable or metastatic MSI-H or dMMR colorectal cancer determined by an FDA-authorised test, without that prior-treatment restriction. For the U.S. tumour-agnostic pembrolizumab indication, TMB-H means at least 13 mutations per megabase, determined by an FDA-authorised test, in adult and paediatric patients with unresectable or metastatic solid tumours that have progressed following prior treatment and who have no satisfactory alternative treatment options. Moving earlier: neoadjuvant/perioperative in melanoma, NSCLC, TNBC (KEYNOTE-522), bladder, and MSI-H colorectal (where dostarlimab produced 100% complete responses in rectal cancer without surgery). Immune-related adverse events are the cost.",
+      "status": "standard-of-care",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Checkpoint_inhibitor",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Checkpoint_inhibitor"
+        },
+        {
+          "label": "FDA, 16 October 2026: updated tumour-agnostic TMB-H indication",
+          "url": "https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph"
+        },
+        {
+          "label": "KEYTRUDA current prescribing information, sections 1.8, 1.9, 1.18 and 2.1",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287"
+        },
+        {
+          "label": "Qureshi et al.: CTLA-4 captures CD80 and CD86 (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21474713/"
+        },
+        {
+          "label": "Hui et al.: PD-1, Shp2 and preferential CD28 dephosphorylation (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28280247/"
+        },
+        {
+          "label": "Buchbinder and Desai: CTLA-4 and PD-1 pathway emphases (2016)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26558876/"
+        },
+        {
+          "label": "Schmid et al.: final KEYNOTE-522 overall survival (2024)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39282906/"
+        },
+        {
+          "label": "Cortes et al.: KEYNOTE-355 overall survival (2022)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35857659/"
+        },
+        {
+          "label": "U.S. Tecentriq label: PD-L1 mechanism via openFDA",
+          "url": "https://api.fda.gov/drug/label.json?search=openfda.brand_name:%22TECENTRIQ%22"
+        },
+        {
+          "label": "NCI: checkpoint inhibitors and immune-related injury",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/checkpoint-inhibitors"
+        },
+        {
+          "label": "NICE NG122: lung cancer, management",
+          "url": "https://www.nice.org.uk/guidance/ng122/chapter/Management"
+        },
+        {
+          "label": "Macmillan: pembrolizumab (Keytruda)",
+          "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/pembrolizumab"
+        },
+        {
+          "label": "Macmillan: durvalumab (Imfinzi)",
+          "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/durvalumab"
+        },
+        {
+          "label": "Macmillan: atezolizumab (Tecentriq)",
+          "url": "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/atezolizumab"
+        },
+        {
+          "label": "Green et al., Blood 2010: selective 9p24.1 amplification and PD-1 ligand induction through JAK2 in Hodgkin lymphoma and mediastinal large B-cell lymphoma",
+          "url": "https://doi.org/10.1182/blood-2010-05-282780"
+        },
+        {
+          "label": "Roemer et al., J Clin Oncol 2016: PD-L1 and PD-L2 genetic alterations in 108 classical Hodgkin lymphomas",
+          "url": "https://doi.org/10.1200/JCO.2016.66.4482"
+        },
+        {
+          "label": "Ansell et al., N Engl J Med 2015: nivolumab in relapsed or refractory Hodgkin lymphoma (23 patients)",
+          "url": "https://doi.org/10.1056/NEJMoa1411087"
+        },
+        {
+          "label": "Roemer et al., J Clin Oncol 2018: MHC class II and PD-L1 expression predict outcome after PD-1 blockade in classical Hodgkin lymphoma (CheckMate 205)",
+          "url": "https://doi.org/10.1200/JCO.2017.77.3994"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "tigit-blockade",
+        "tim3-blockade",
+        "immune-checkpoint",
+        "intratumoral-immunotherapy",
+        "vaccines-and-oncolytic-viruses",
+        "checkpoint-inhibitor-baseline-and-monitoring",
+        "irae-colitis",
+        "irae-diabetes",
+        "irae-haematological",
+        "irae-hepatitis",
+        "irae-hypophysitis-adrenal",
+        "irae-myocarditis",
+        "irae-nephritis",
+        "irae-neurological",
+        "irae-ocular",
+        "irae-pneumonitis",
+        "irae-rechallenge",
+        "irae-rheumatological",
+        "irae-skin",
+        "irae-steroid-taper-and-pjp",
+        "irae-thyroid"
+      ],
+      "cancers": [
+        "colorectal",
+        "lung-cancer",
+        "nsclc",
+        "sclc",
+        "hodgkin-lymphoma",
+        "primary-mediastinal-b-cell-lymphoma",
+        "non-hodgkin-lymphoma"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [],
+      "targets": [
+        "pd1",
+        "pdl1",
+        "ctla4",
+        "lag3",
+        "tigit"
+      ],
+      "drugs": [
+        "pembrolizumab",
+        "nivolumab",
+        "ipilimumab",
+        "atezolizumab",
+        "durvalumab",
+        "relatlimab-nivolumab",
+        "dostarlimab",
+        "cemiplimab"
+      ],
+      "companies": [
+        "compass-therapeutics",
+        "eris-biotech",
+        "onc-ai",
+        "ose-immunotherapeutics",
+        "persephone-biosciences",
+        "xilio-therapeutics",
+        "mabquest",
+        "ascendo-biotechnology",
+        "bright-peak-therapeutics",
+        "pheast-therapeutics",
+        "zumutor-biologics",
+        "biond-biologics",
+        "solstice-oncology"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "cps",
+        "tmb",
+        "msi",
+        "irae"
+      ],
+      "trials": [
+        "rationale-302"
+      ],
+      "people": [
+        "lieping-chen"
+      ],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-ribas-wolchok-checkpoint-blockade-science-2018",
+        "paper-chen-mellman-cancer-immunity-cycle-immunity-2013",
+        "paper-le-mmr-deficiency-pd1-nejm-2015",
+        "paper-overman-checkmate-142-nivolumab-dmmr-colorectal-lancet-oncol-2017",
+        "paper-eng-imblaze370-atezolizumab-cobimetinib-colorectal-lancet-oncol-2019",
+        "paper-bullock-botensilimab-balstilimab-mss-colorectal-nat-med-2024",
+        "paper-keynote-024-nejm-2016",
+        "paper-herbst-impower110-atezolizumab-pd-l1-nejm-2020",
+        "paper-checkmate-026-first-line-nivolumab-nejm-2017",
+        "paper-ricciuti-stk11-keap1-kras-immunotherapy-jto-2022",
+        "paper-gay-sclc-subtypes-inflamed-cancer-cell-2021"
+      ],
+      "journals": [
+        "cancer-immunology-immunotherapy",
+        "journal-of-immunotherapy",
+        "oncoimmunology"
+      ],
+      "dependsOn": [
+        "monoclonal-antibody"
+      ],
+      "notes": [
+        "Checkpoint antibodies interrupt specified inhibitory contacts. PD-1 is a receptor with two partners, PD-L1 and PD-L2; PD-L1 is a distinct molecule found on cancer and non-cancer cells. The pembrolizumab label describes blockade of PD-1 binding to both ligands. Atezolizumab instead binds PD-L1 and blocks its PD-1 and B7.1 interactions; directly blocking PD-L1 does not directly block the separate PD-1/PD-L2 contact. These target-specific descriptions are more precise than treating all checkpoint drugs as one switch.",
+        "The pathways also differ inside and between cells. Hui's 2017 biochemical reconstitution and intact-cell experiments found that PD-1-recruited Shp2 preferentially dephosphorylated CD28 over the T-cell receptor, not that CD28 was the only possible affected signal. CTLA-4 and CD28 share CD80 and CD86. Qureshi's human and mouse cell experiments showed CTLA-4 capture and removal of these ligands from an opposing cell, reducing available costimulation. Contact and capture cartoons show these distinct receptor jobs; their molecule counts and positions are schematic, not a complete mechanism or a clinical comparison of blocking antibodies.",
+        "CTLA-4 is often emphasised during priming in lymphoid sites and PD-1 during ongoing responses in tissues. These are overlapping emphases, not exclusive addresses: CD28-related regulation can also matter later. LAG-3, TIM-3 and TIGIT have their own biology rather than being interchangeable versions of PD-1. A regulator identified in an experimental model does not establish benefit from blocking it in another population; each intervention needs its own evidence.",
+        "KEYNOTE-522 randomised 1,174 people with previously untreated stage II or III triple-negative breast cancer to pembrolizumab or placebo with chemotherapy before surgery, followed by continuation of the assigned antibody or placebo after surgery. At a median follow-up of 75.1 months, estimated 60-month overall survival was 86.6 per cent versus 81.7 per cent. Enrolment did not require PD-L1 positivity. The trial compared the whole perioperative regimen and was not designed to isolate the contribution of each treatment phase. These group results do not predict one person's outcome.",
+        "KEYNOTE-355 studied 847 people with previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer. In the PD-L1 combined-positive-score-at-least-10 subgroup, pembrolizumab plus chemotherapy gave median overall survival of 23.0 months versus 16.1 with placebo plus chemotherapy, with a death hazard ratio of 0.73. A median divides a study group in half; it is not an individual forecast. The October 2026 U.S. pembrolizumab label has no PD-L1 qualifier for its high-risk early-stage TNBC regimen, while its advanced TNBC indications with chemotherapy or sacituzumab govitecan specify CPS at least 10 and an FDA-authorised test. The sacituzumab combination is a separate labelled regimen, not the KEYNOTE-355 comparison. Population, regimen, scoring context and evidence must stay together.",
+        "Checkpoint blockade changes an inhibitory interaction; it does not install a new recognition receptor or reconstruct required HLA machinery that has been genetically lost. That last statement concerns missing machinery, not a claim that checkpoint treatment can never affect regulated HLA expression. Recognition, access and cell state remain separate dependencies. Vaccines, engineered cell receptors and cytokines change different inputs, and a plausible combination still needs regimen-specific benefit and safety evidence.",
+        "In a fictional sample containing PD-1-positive T cells, staining does not identify every cell's target, functional state or capacity to respond to an antibody. It does not show that all those cells are exhausted or that a drug will awaken all of them. Similarly, interrupting inhibition cannot alone solve a missing target-display component. Checkpoint biology, drug action, marker measurement and prediction of clinical benefit are separate claims.",
+        "The multiple-controls analogy has two possible branches: interrupting regulation can support useful cancer-directed activity and can also injure healthy tissue. Neither outcome is guaranteed for a person. Normal checkpoint regulation helps limit immune injury, and immune-related adverse events can involve several organs. Assess activity, durability and harms in the relevant population rather than equating more immune activity with exclusively tumour-directed benefit.",
+        "Colorectal cancer: the sharpest biomarker split in oncology. In mismatch repair deficient disease, responses run from 31% (single-agent nivolumab, previously treated) to 68% pathological complete response (four weeks of neoadjuvant nivolumab plus ipilimumab); in microsatellite-stable disease, the phase 3 test of atezolizumab with or without a MEK inhibitor was no better than regorafenib (Eng 2019). The only credible microsatellite-stable signal is the Fc-enhanced CTLA-4 antibody botensilimab with balstilimab, 17% response in 101 evaluable patients (Bullock 2024).",
+        "Lung cancer: NICE NG122 places checkpoint treatment at four separate points, which is why the same side-effect list keeps reappearing. Before and after surgery: nivolumab with chemotherapy (1.6.8), durvalumab with platinum chemotherapy (1.6.9) and pembrolizumab with platinum chemotherapy (1.6.10) for resectable disease. After chemoradiotherapy: durvalumab for locally advanced unresectable disease with PD-L1 on 1 percent or more of tumour cells (1.6.18), and for limited-stage small-cell disease that has not progressed (1.10.6). For advanced disease: the treatment pathways organised by PD-L1 below or at or above 50 percent. For extensive-stage small-cell disease: durvalumab or atezolizumab added to chemotherapy (1.11.3).",
+        "Lung cancer: the biomarker story in one line is that PD-L1 selects and nothing else does reliably. A 50% threshold by 22C3 supported first-line monotherapy where a 5% threshold by 28-8 did not (Reck 2016, Carbone 2017), tumour mutational burden failed once chemotherapy was added (Garassino 2023), and STK11 and KEAP1 predict poor benefit only in KRAS-mutant tumours (Ricciuti 2022). In small-cell disease the inflamed transcriptional subtype gains most from adding immunotherapy to chemotherapy, which is the first credible explanation of why the benefit is confined to a minority (Gay 2021).",
+        "Lymphoma: the contrast between Hodgkin lymphoma and everything else is genetic rather than mysterious. The 9p24.1 amplicon carries both PD-1 ligand genes and JAK2, which induces them further, so one copy-number event raises the brake twice over; 97% of 108 classical Hodgkin lymphomas carried concordant alterations of the two loci (Green 2010, Roemer 2016). PD-1 blockade gave an objective response in 20 of 23 heavily pre-treated Hodgkin patients (Ansell 2015). In B-cell non-Hodgkin lymphoma outside the mediastinal group, single-agent checkpoint blockade does very little. Within the responsive group, what predicts complete remission is expression of MHC class II rather than class I on the Hodgkin and Reed-Sternberg cells, which points to a CD4 T cell as the effector (Roemer 2018)."
+      ],
+      "principle": "Interrupt a specified inhibitory receptor-ligand interaction; effective cancer recognition, access, function and clinical benefit remain separate questions.",
+      "strengths": [
+        "Durable, sometimes curative responses",
+        "Broad applicability"
+      ],
+      "limitations": [
+        "Most patients do not respond",
+        "Autoimmune toxicity",
+        "Biomarkers are imperfect"
+      ],
+      "since": 2011
+    },
+    {
+      "id": "in-situ-vaccination",
+      "kind": "technology",
+      "name": "In situ vaccination",
+      "aka": [],
+      "tldr": "In situ vaccination aims to use antigens at a tumour site to stimulate useful immune recognition. Local destruction does not automatically make the tumour a successful vaccine.",
+      "summary": "Local treatment can supply tumour antigens, and an adjuvant or other immune intervention may support their presentation and priming. The proposal needs evidence for each step and for useful immune effects in the relevant host and setting. It does not guarantee recognition of every antigen or every lesion.\n\nInjury, danger signals, immune-cell changes, distant lesion responses and comparative patient outcomes are different observations. The actual local method and accompanying treatments must be named. A response during combined treatment does not isolate which component caused it.",
+      "status": "phase-2",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "ClinicalTrials.gov: in situ vaccination cancer",
+          "url": "https://clinicaltrials.gov/search?term=in%20situ%20vaccination%20cancer"
+        },
+        {
+          "label": "ICD consensus: antigens, host, assay and model requirements",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
+        },
+        {
+          "label": "In situ vaccination with a TLR9 agonist induces systemic lymphoma regression: a phase I/II study.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20697067/"
+        },
+        {
+          "label": "Systemic clinical tumor regressions and potentiation of PD1 blockade with in situ vaccination.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30962585/"
+        },
+        {
+          "label": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        },
+        {
+          "label": "Marabelle et al.: terminology and reporting recommendations (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30295695/"
+        },
+        {
+          "label": "Joffre et al.: cross-presentation by dendritic cells (2012)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22790179/"
+        }
+      ],
+      "tags": [
+        "frontier",
+        "promising"
+      ],
+      "related": [
+        "abscopal-effect",
+        "cancer-immunity-cycle",
+        "intratumoral-immunotherapy",
+        "vaccine-adjuvants",
+        "vaccines-and-oncolytic-viruses"
+      ],
+      "cancers": [
+        "melanoma",
+        "dlbcl"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [
+        "oncolytic-virus",
+        "sting-agonist",
+        "sbrt",
+        "hifu-histotripsy",
+        "cytokine-therapy",
+        "thermal-ablation"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "trogenix",
+        "aummune",
+        "onchilles-pharma",
+        "syncromune"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "abscopal-effect",
+        "immunogenic-cell-death"
+      ],
+      "trials": [
+        "nct05688280"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The strategy uses relevant tumour antigens in place while supporting presenting cells and immune activation. Antigen availability, uptake and processing, cross-presentation, suitable priming, access to another lesion, recognition of naturally displayed targets and useful function are conditional jobs. Local injury can supply material without establishing all these steps, and danger signals alone do not establish immunogenic cell death. An uninjected lesion can still be exposed to systemic drugs.",
+        "Intratumoral immunotherapy describes a delivery route and treatment purpose; in-situ vaccination describes a proposed learning strategy. Not every injected cytotoxic or immune-directed treatment is a vaccine. Local shrinkage, antigen-reactive blood responses, distant control and longer-term clinical benefit are different outcomes, and a multicomponent result does not isolate each component’s contribution.",
+        "Brody’s early study combined low-dose radiation and an injected CpG TLR9 agonist in 15 people with low-grade B-cell lymphoma. Hammerich combined Flt3 ligand, radiation and the TLR3 agonist poly-ICLC in indolent lymphoma with accompanying models. The latter report’s restored sensitivity to PD-1 blockade was demonstrated in mice; it is not established human combination benefit or evidence for every injection or a breast-cancer regimen.",
+        "Assessment combines local sampling, controlled immune assays and serial treated/uninjected-lesion measurements. Tissue, blood and viable cells are finite inputs. Keep local change, specified reactive-cell counts or functions, and response proportions under their stated rules separate. No universal marker proves successful vaccination. Nonspecific inflammation, added peptide, viability, missed sampling times and concurrent therapy can confound results; a model or assay needs separate clinical validation of the complete intervention.",
+        "Added peptide can bypass natural processing. Appropriate naturally presenting targets and recognition or cytotoxicity controls address a separate bridge, within the model’s limits. In a fictional study, the injected lesion shrinks and blood cells respond to supplied tumour peptides, while another lesion is unchanged. Local activity and assay reactivity were observed; natural recognition, access and useful distant function remain unproven. The unchanged lesion also does not establish absence of every immune-learning event.",
+        "For T-cell-directed therapeutic strategies, compare the antigen source and what can be selected beforehand. An in-situ approach uses tumour material in the body and selects a site and intervention; a supplied design selects planned composition or encoded targets using adequate sample information or material. Defined peptide or encoded targets differ from broader cell preparations. Manufacturing a product does not mean every peptide ultimately displayed is known or controlled. The room-material versus teaching-kit analogy describes these inputs, not assured learning or a winner.",
+        "Priming is initial activation of a naive T cell. Cross-presentation places externally acquired material on class I HLA in a presenting cell; that event is distinct from a cancer cell naturally displaying a recognised target. Both strategies still need evidence of presentation, suitable priming or expansion, tumour access, useful function, outcomes and harms. Dashed links in a comparison diagram mark questions to investigate, not successful completion of each step.",
+        "The required opportunity depends on the method. A lesion-based local approach needs available tumour material at an identified, safely accessible site. A supplied product needs appropriate information or material and a workable manufacturing and delivery plan. If no identifiable lesion is accessible, that removes the stated opportunity for that local method; it does not show that another vaccine is feasible or choose treatment. Match a research question about local material and support to that design, or one about planned antigen selection to a supplied design, then compare complete strategies in suitable studies.",
+        "Injection specifies a route, and using one person's tumour material is not equivalent to manufacturing a selected personalised vaccine. A study can combine local tumour material with a supplied antigen product; report both sources rather than forcing one exclusive category. Personalisation, platform and route are independent descriptors. Local shrinkage, an immune assay and control at another lesion remain different outcomes.",
+        "Consider two fictional cards. A uses accessible tumour material with a local intervention and immune stimulus; B supplies selected encoded targets based on sample information. Neither gives outcome data. A does not specify a fixed presented mixture, and B does not guarantee processing, HLA display or natural tumour recognition. For both, investigate presentation, priming, access and function and then matched clinical outcomes and harms. If A's lesion becomes inaccessible, B is not thereby chosen. If B is added to A, the study now uses both antigen sources.",
+        "The examples answer different questions. Brody used radiation plus injected CpG in low-grade lymphoma. Hammerich used Flt3 ligand, low-dose radiation and poly-ICLC in indolent lymphoma, with accompanying models; the reported new responsiveness to PD-1 blockade was in mice. Ott's melanoma study supplied selected long peptides with poly-ICLC. These are not a head-to-head efficacy ranking, evidence for a breast-cancer regimen or an individual eligibility assessment."
+      ],
+      "principle": "Use a treated lesion as an antigen source while seeking effective presentation and adaptive immune recognition; the hypothesised chain requires experimental and clinical evidence.",
+      "strengths": [
+        "Can investigate tumour-derived antigens without preselecting every sequence",
+        "Allows local delivery approaches to be studied with immune support"
+      ],
+      "limitations": [
+        "Local injury or marker release does not establish protective immunity",
+        "Access and delivery requirements depend on the chosen method",
+        "Whole-regimen benefit, harms and distant effects need their own evidence"
+      ]
+    },
+    {
+      "id": "oncolytic-virus",
+      "kind": "technology",
+      "name": "Oncolytic viruses",
+      "aka": [
+        "Oncolytic virus",
+        "Oncolytic virotherapy"
+      ],
+      "tldr": "Oncolytic viruses can infect and injure susceptible tumour cells and may support an immune response. Useful tumour recognition, clinical benefit and safety depend on the product and setting.",
+      "summary": "A healthy cell that detects a virus mounts an interferon response: it slows its own machinery, calls the immune system and kills itself before the virus spreads. Many cancer cells have already broken parts of that response, because it also restrains growth, and a virus can exploit the break. Stojdl and colleagues showed this directly in 2000 with vesicular stomatitis virus, which killed human tumour lines at interferon doses that fully protected normal cells. Coffey and colleagues showed in 1998 that reovirus needs an activated Ras pathway, which many cancers supply. Martuza and colleagues had already built the first engineered version in 1991, a herpes virus with thymidine kinase deleted so it could only replicate where the host cell supplied the missing function.\n\nFour replicating oncolytic viruses have an approval somewhere. H101 (Oncorine) in China from 2005, on a 160-patient randomised trial reporting response rate and no survival data. Talimogene laherparepvec (Imlygic, HSV-1) from 2015 in melanoma: durable response rate 16.3 per cent against 2.1 per cent for granulocyte-macrophage colony-stimulating factor, with a median overall survival difference of 23.3 against 18.9 months that did not reach significance. Teserpaturev (G47 delta, Delytact) conditionally approved in Japan in 2021 on a single-arm trial of 19 patients with recurrent glioblastoma. Vusolimogene oderparepvec (Tudriqev, RP1), an HSV-1 carrying GM-CSF and a fusogenic protein, given accelerated approval with nivolumab for anti-PD-1-failed melanoma on 6 August 2026, on a 140-patient single-arm cohort with a 32.9 per cent response rate in which uninjected lesions responded too.\n\nTwo products often counted in the class are not replicating viruses at all. Nadofaragene firadenovec (Adstiladrin) is a replication-deficient adenovirus that delivers the interferon alfa-2b gene to the bladder lining, and aglatimagene besadenovec (CAN-2409) is a replication-defective adenovirus delivering a prodrug-converting enzyme. They are gene delivery, not oncolysis, and the distinction matters when reading claims about the class. Cretostimogene grenadenorepvec, which does replicate, reported a 75 per cent complete response rate in BCG-unresponsive bladder cancer with carcinoma in situ in a single-arm phase 3 trial.\n\nThe randomised record is poor. Adding talimogene laherparepvec to pembrolizumab in melanoma (MASTERKEY-265) did not improve progression-free or overall survival. Toca 5 in recurrent high-grade glioma and PHOCUS in liver cancer were both negative, PHOCUS worse than its control. The unsolved problems are the ones named in 2012: delivery to tumours that cannot be injected, pre-existing and rapidly rising neutralising antibody, the conflict between letting the virus spread and wanting an immune response, and manufacturing yield.",
+      "status": "approved",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Oncolytic_virus",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Oncolytic_virus"
+        },
+        {
+          "label": "Oncolytic virotherapy on OnCo: history, approvals, engineering and failures",
+          "url": "https://onco.cc/virotherapy/"
+        },
+        {
+          "label": "FDA Imlygic label: mechanism uncertainty, local indication and infection precautions",
+          "url": "https://www.fda.gov/media/94129/download"
+        },
+        {
+          "label": "Chesney et al.: randomised T-VEC plus ipilimumab phase II trial (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28981385/"
+        },
+        {
+          "label": "NCI: historical 2018 oncolytic-virus explanation",
+          "url": "https://www.cancer.gov/news-events/cancer-currents-blog/2018/oncolytic-viruses-to-treat-cancer"
+        },
+        {
+          "label": "Ott et al.: separate antigen-processing and tumour-recognition tests (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "intratumoral-immunotherapy",
+        "in-situ-vaccination",
+        "vaccines-and-oncolytic-viruses"
+      ],
+      "cancers": [
+        "melanoma",
+        "urothelial",
+        "glioblastoma",
+        "hcc",
+        "multiple-myeloma"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [
+        "vusolimogene-oderparepvec",
+        "talimogene-laherparepvec",
+        "nadofaragene-firadenovec",
+        "cretostimogene",
+        "h101-oncolytic-adenovirus",
+        "olvimulogene-nanivacirepvec",
+        "aglatimagene-besadenovec"
+      ],
+      "companies": [
+        "replimune",
+        "amgen",
+        "candel-therapeutics",
+        "humane-genomics",
+        "kopra-bio",
+        "transgene",
+        "minuteman-therapeutics",
+        "adze-biotechnology",
+        "accession-therapeutics",
+        "viromissile",
+        "neuregen-therapeutics",
+        "kalivir-immunotherapeutics",
+        "genemedicine",
+        "jecho",
+        "psivac",
+        "virogin-biotech",
+        "dnatrix"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nct07006077"
+      ],
+      "people": [
+        "robert-martuza",
+        "stephen-russell",
+        "john-bell",
+        "tomoki-todo",
+        "beata-halassy",
+        "dubravko-forcic",
+        "howard-kaufman",
+        "evanthia-galanis"
+      ],
+      "bottlenecks": [],
+      "keyPapers": [
+        "paper-stojdl-vsv-interferon-defect-natmed-2000",
+        "paper-coffey-reovirus-ras-science-1998",
+        "paper-martuza-engineered-hsv-glioma-science-1991",
+        "paper-bischoff-onyx-015-science-1996",
+        "paper-kelly-russell-oncolytic-history-moltherapy-2007",
+        "paper-russell-peng-bell-oncolytic-virotherapy-natbiotech-2012",
+        "paper-shalhout-oncolytic-progress-challenges-natrevclinonc-2023",
+        "paper-andtbacka-optim-talimogene-jco-2015",
+        "paper-todo-g47delta-glioblastoma-natmed-2022",
+        "paper-xia-h101-head-neck-aizheng-2004",
+        "paper-wong-ignyte-rp1-nivolumab-jco-2025",
+        "paper-russell-mv-nis-myeloma-mayo-2014",
+        "paper-cloughesy-toca5-glioma-jamaoncol-2020",
+        "paper-abou-alfa-phocus-pexa-vec-liver-cancer-2024",
+        "paper-hietanen-rigvir-echovirus-viruses-2022",
+        "paper-bourgeois-daigneault-neoadjuvant-ovt-tnbc-scitranslmed-2018",
+        "paper-halassy-self-experiment-ovt-vaccines-2024",
+        "paper-pugh-self-experimentation-publication-jme-2026"
+      ],
+      "journals": [
+        "cancer-gene-therapy"
+      ],
+      "dependsOn": [
+        "viral-vector-manufacturing"
+      ],
+      "notes": [
+        "Oncolytic viruses use viral activity to injure susceptible tumour cells and may also support immune effects. Natural viral properties and engineered changes can alter replication or add signalling proteins; different platforms have different entry, replication and immune requirements. A replication-vehicle analogy does not establish universal tumour targeting or healthy-cell sparing. Infection, productive replication, injury, released tumour material and useful antigen presentation are distinct steps. Replication alone is not successful vaccination, and this treatment purpose differs from preventing an infection.",
+        "Talimogene laherparepvec is a modified herpes simplex virus type 1 product. The U.S. label describes modification for tumour replication and GM-CSF production, tumour lysis and a possible antitumour immune response, while stating that the exact mechanism is unknown. Its specified use is local treatment of unresectable cutaneous, subcutaneous and nodal melanoma lesions recurrent after surgery; improved overall survival and visceral-metastasis effects have not been established. Herpetic infection, local wound complications and other adverse effects remain possible, so injection is not proof of confinement or normal-cell safety.",
+        "Chesney's randomised phase II trial compared talimogene laherparepvec plus ipilimumab with ipilimumab alone in 198 people with advanced unresectable melanoma. Investigator-assessed objective response was 39 per cent versus 18 per cent; grade 3 or greater adverse events occurred in 45 versus 35 per cent. This comparison concerns that combination, population and response endpoint. It is separate from the virus's labelled local indication and does not establish survival benefit, an immune mechanism for every response or efficacy in breast cancer.",
+        "A modified-HSV teaching cartoon can separate conditional entry into a susceptible cell, replication and injury, and release of new particles and tumour material. The particles are not the same as released tumour antigen, and the symbol counts are not measured yields. The drawing supplies no literal entry route, nuclear-versus-cytoplasmic replication or assembly map. Its cell boundaries and interiors are schematic, and no whole-body benefit or universal selectivity follows from the image.",
+        "Antiviral and tumour-targeted responses concern different antigens. In a two-test teaching example, the same T-cell sample is offered a viral-target test and a tumour-target test, with separate class-I HLA holders, peptides and symbolic receptors. HLA compatibility and verified presentation are conditions to check. The receptor shapes establish neither molecular binding nor a shared clone, and released material is not automatically processed into the displayed peptide. Question marks supply no response result. Clearing viral targets does not establish recognition of uninfected cancer cells.",
+        "Suitable tests distinguish verified compatible presentation, irrelevant-peptide or background responses, antigen-negative targets and a positive assay control. Added peptide can bypass natural processing. Reactivity to that peptide does not by itself establish recognition of naturally presenting uninfected tumour cells, tissue access or killing. Ott's melanoma experiments illustrate the distinction by testing peptide-loaded cells, antigen-encoding presenting cells and autologous tumour cells separately; their results do not fill in the unanswered viral-versus-tumour cartoon.",
+        "Suppose a fictional study reports viral entry and cancer-cell death plus immune cells reactive to a viral protein. It shows viral activity and an antiviral response under the tested conditions. Naturally processed tumour recognition and useful cancer control remain separate questions. Measure infected-tissue effects, antitumour immunity and clinical outcomes over time; an injected-lesion response does not establish exposure or control elsewhere, and systemic co-treatment complicates attribution.",
+        "The NCI's 2018 explanation describes early research on viral killing, immune effects and combinations. Trial plans and statuses in that historical account describe that time, rather than present access. Current availability depends on the particular product, indication, jurisdiction and trial record. Historical class background cannot establish a current treatment opportunity."
+      ],
+      "principle": "Use specified viral properties or engineered changes to investigate tumour-cell infection, replication and injury, with possible immune effects. Released material and antiviral activity do not by themselves establish effective antitumour vaccination.",
+      "strengths": [
+        "Provides a route to investigate direct viral injury alongside immune effects",
+        "Can make tumour material available in place",
+        "Local and uninjected-lesion effects can be measured separately"
+      ],
+      "limitations": [
+        "Delivery, replication and immune effects differ between products",
+        "An injected response does not establish systemic immune control",
+        "Infection, local injury and systemic harms remain product-specific",
+        "Clinical outcome claims need the actual regimen, population and comparator"
+      ],
+      "since": 2015
+    },
+    {
+      "id": "talimogene-laherparepvec",
+      "kind": "drug",
+      "name": "Talimogene laherparepvec",
+      "aka": [],
+      "tldr": "Talimogene laherparepvec is a modified herpes virus used by injection for local treatment of specified unresectable melanoma lesions.",
+      "summary": "Talimogene laherparepvec (T-VEC) is a herpes simplex virus type 1 with ICP34.5 and ICP47 deleted, designed to support replication within tumours without guaranteeing normal-cell safety, and it expresses GM-CSF to attract antigen-presenting cells. It was the first FDA-approved oncolytic virus (2015), injected into unresectable melanoma lesions at 10^6 PFU/mL initially, then 10^8 PFU/mL 3 weeks later and every 2 weeks. In OPTiM the durable response rate was 16% versus 2% for GM-CSF alone. Uptake has been modest because responses concentrate in injected lesions, and the MASTERKEY-265 combination with pembrolizumab did not improve progression-free or overall survival. Amgen markets it; its legacy is proving the principle that later viruses build on. The U.S. indication is local treatment of specified unresectable melanoma lesions recurrent after surgery.",
+      "status": "approved",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Talimogene_laherparepvec",
+      "links": [
+        {
+          "label": "FDA label (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Talimogene%20laherparepvec"
+        },
+        {
+          "label": "FDA Imlygic prescribing information: exact indication, mechanism and harms",
+          "url": "https://www.fda.gov/media/94129/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "intratumoral-immunotherapy"
+      ],
+      "cancers": [
+        "melanoma",
+        "advanced-melanoma",
+        "stage-iii-melanoma"
+      ],
+      "sections": [],
+      "technologies": [
+        "oncolytic-virus"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "amgen"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nct02263508",
+        "nct00769704",
+        "nct01368276"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The U.S. Imlygic label limits the indication to local treatment of specified unresectable melanoma lesions recurrent after surgery and states that improved overall survival and visceral-metastasis effects have not been shown. Its mechanism section describes modified HSV-1, tumour lysis and possible immune effects, with the exact mechanism unknown. Herpetic infection and injection-site complications are possible. This is not a guarantee of healthy-cell sparing or an indication for breast cancer."
+      ],
+      "brand": "Imlygic",
+      "code": "T-VEC",
+      "modality": "Oncolytic virus (HSV-1)",
+      "mechanism": "HSV-1 with ICP34.5 and ICP47 deleted, expressing GM-CSF.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 2015,
+          "indication": "Unresectable melanoma with injectable lesions"
+        }
+      ],
+      "mechanismSteps": [
+        "HSV-1 with ICP34.5 and ICP47 deleted is injected into melanoma lesions",
+        "Replicates in tumour cells and lyses them",
+        "GM-CSF expression attracts antigen-presenting cells",
+        "Local and some distant lesions regress"
+      ],
+      "dosing": {
+        "route": "Intratumoural injection",
+        "schedule": "10⁶ PFU/mL initial dose, then 10⁸ PFU/mL 3 weeks later and every 2 weeks; volume by lesion size (up to 4 mL total)",
+        "monitoring": "Herpetic infection, injection-site complications, immune-mediated events",
+        "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+      },
+      "toxicity": [
+        {
+          "event": "Fatigue"
+        },
+        {
+          "event": "Chills"
+        },
+        {
+          "event": "Pyrexia"
+        },
+        {
+          "event": "Nausea"
+        },
+        {
+          "event": "Influenza-like illness"
+        },
+        {
+          "event": "Injection-site pain"
+        }
+      ],
+      "access": [
+        {
+          "country": "US",
+          "reimbursement": "Medicare Part B (physician-administered); commercial plans per formulary",
+          "source": "https://www.cms.gov/medicare/payment/part-b-drugs/asp-pricing-files",
+          "asOf": "2026-09-06"
+        },
+        {
+          "country": "UK",
+          "reimbursement": "NICE: recommended for unresectable melanoma when systemic immunotherapy is unsuitable (TA410)",
+          "source": "https://www.nice.org.uk/guidance/published?ngt=Technology%20appraisal%20guidance",
+          "asOf": "2026-09-06"
+        }
+      ],
+      "regulatoryEvents": [
+        {
+          "date": "2015-10-27",
+          "type": "approval",
+          "region": "US",
+          "note": "Unresectable melanoma with injectable lesions (OPTiM): first oncolytic virus approved in the US",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        },
+        {
+          "date": "2015-12",
+          "type": "approval",
+          "region": "EU",
+          "note": "EMA approval",
+          "source": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancer-hematologic-malignancies-approval-notifications"
+        }
+      ]
+    },
+    {
+      "id": "aldesleukin",
+      "kind": "drug",
+      "name": "Aldesleukin (high-dose IL-2)",
+      "aka": [
+        "Interleukin-2",
+        "IL-2",
+        "Recombinant interleukin-2"
+      ],
+      "tldr": "High-dose interleukin-2 was the first immunotherapy to cure a small fraction of patients with metastatic melanoma and kidney cancer, at the cost of ICU-level toxicity; today it mainly supports TIL therapy.",
+      "summary": "Approved 1992 (RCC) and 1998 (melanoma) on ~15% response with ~5-7% durable complete responses (Rosenberg). Capillary leak, hypotension and multi-organ effects confine it to specialised centres. Now used as a short course after lifileucel (TIL) infusion; engineered IL-2 variants (bempegaldesleukin) failed in phase 3.",
+      "status": "approved",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Aldesleukin",
+      "links": [
+        {
+          "label": "Label (DailyMed)",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aldesleukin"
+        },
+        {
+          "label": "Proleukin U.S. prescribing information: adult indications and boxed warnings",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f3c516ad-d405-4fbe-af6a-962080dbfa7d"
+        }
+      ],
+      "tags": [
+        "gap-fill",
+        "historic"
+      ],
+      "related": [],
+      "cancers": [
+        "rcc",
+        "melanoma"
+      ],
+      "sections": [],
+      "technologies": [
+        "cytokine-therapy",
+        "til-therapy"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [
+        "iovance"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [
+        "nct06119685",
+        "nct07681596"
+      ],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "The Proleukin U.S. label specifies adults with metastatic renal cell carcinoma or metastatic melanoma. The boxed warning includes potentially fatal capillary leak, neurologic toxicities and serious infections and calls for hospital administration with an intensive-care facility. These medicine-specific statements should not be generalised to every IL-2 construct or other cytokine. A treatment's immune-cell effects and its clinical outcomes remain separate measurements."
+      ],
+      "brand": "Proleukin",
+      "modality": "Recombinant interleukin-2 (cytokine)",
+      "mechanism": "Activates IL-2 receptors on T and NK cells, driving proliferation and cytotoxicity; high doses cause capillary leak.",
+      "approvals": [
+        {
+          "region": "US",
+          "year": 1992,
+          "indication": "Metastatic renal cell carcinoma"
+        },
+        {
+          "region": "US",
+          "year": 1998,
+          "indication": "Metastatic melanoma"
+        }
+      ],
+      "mechanismSteps": [],
+      "toxicity": [],
+      "access": [],
+      "regulatoryEvents": []
+    },
+    {
+      "id": "shared-antigen-vaccine",
+      "kind": "technology",
+      "name": "Off-the-shelf cancer vaccines",
+      "aka": [],
+      "tldr": "Off-the-shelf cancer vaccines target antigens shared across patients, such as mutant KRAS or HER2 peptides, so they are made in advance rather than per person. Sipuleucel-T is still the only approved therapeutic cancer vaccine in the US; tolerance to self-antigens and weak past results hold them back.",
+      "summary": "KRAS-directed vaccines (ELI-002 7P, Elicio; mRNA-5671), shared neoantigen vaccines (Gritstone SLATE, discontinued), HER2 peptide vaccines, and tumour-lysate approaches. Sipuleucel-T (2010) remains the only approved therapeutic cancer vaccine in the US; BCG for bladder cancer is the oldest immunotherapy.",
+      "status": "phase-3",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "First trial of a vaccine against the shared neoantigens of mismatch-repair-deficient cancers (Clinical Cancer Research 2020)",
+          "url": "https://doi.org/10.1158/1078-0432.CCR-19-3517"
+        },
+        {
+          "label": "ClinicalTrials.gov NCT05726864: AMPLIFY-7P",
+          "url": "https://clinicaltrials.gov/study/NCT05726864"
+        },
+        {
+          "label": "NCI: antigen sources for cancer treatment vaccines",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy/cancer-treatment-vaccines"
+        },
+        {
+          "label": "Ott et al.: a personal selection delivered as long peptides (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "idea-splice-neoantigens",
+        "vaccine-adjuvants",
+        "vaccines-and-oncolytic-viruses"
+      ],
+      "cancers": [
+        "pancreatic",
+        "colorectal",
+        "prostate"
+      ],
+      "sections": [
+        "immunotherapy"
+      ],
+      "technologies": [],
+      "targets": [
+        "kras"
+      ],
+      "drugs": [],
+      "companies": [
+        "gritstone",
+        "adventris-pharmaceuticals",
+        "curevac",
+        "evaxion",
+        "guardian-bio",
+        "io-biotech",
+        "mendus",
+        "nykode-therapeutics",
+        "ose-immunotherapeutics",
+        "tarebio",
+        "infinitopes",
+        "brenus-pharma",
+        "epitopea",
+        "therorna",
+        "chimigen-bio",
+        "expres2ion-biotechnologies"
+      ],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Shared antigen selection describes a target found across people; it does not alone specify peptide, RNA, vector or cellular delivery, or guarantee an identical finished product for every person. Shared tumour-associated antigens and recurring mutation-derived targets are different sources. A personalised selection can include a shared target. Presence of a target sequence also does not establish natural peptide display on every cancer cell or a useful immune response."
+      ],
+      "principle": "Supply selected shared cancer-associated targets or instructions for making them in a specified vaccine design; antigen selection, delivery platform and manufacturing personalisation are separate attributes.",
+      "strengths": [
+        "Scalable, immediate"
+      ],
+      "limitations": [
+        "Tolerance to self-antigens; weak historical results"
+      ]
+    },
+    {
+      "id": "intratumoral-immunotherapy",
+      "kind": "term",
+      "name": "Intratumoral immunotherapy",
+      "aka": [
+        "Intratumoural immunotherapy",
+        "Intralesional immunotherapy"
+      ],
+      "tldr": "Intratumoral immunotherapy delivers an immune-directed treatment within a tumour. Local effects, immune responses and control of other lesions need separate evidence.",
+      "summary": "Intratumoral describes a route into a tumour, while immunotherapy describes the intended immune-directed action. Products, injection methods and accompanying treatments differ. A lesion-based method needs an identified safely accessible site; local delivery does not guarantee confined exposure or systemic safety.\n\nAn in-situ vaccination strategy is one possible use of local tumour material, rather than a synonym for every injection. Evidence must distinguish injected-lesion changes, controlled immune assays, uninjected-lesion outcomes and the whole regimen’s benefits and harms.",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "Marabelle et al.: intratumoral terminology and reporting (2018)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30295695/"
+        },
+        {
+          "label": "Hammerich et al.: defined lymphoma in-situ regimen and mouse combination evidence (2019)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30962585/"
+        },
+        {
+          "label": "NCT01976585: Flt3 ligand, poly-ICLC and low-dose radiation",
+          "url": "https://clinicaltrials.gov/study/NCT01976585"
+        },
+        {
+          "label": "FDA Imlygic prescribing information: local indication and limitations",
+          "url": "https://www.fda.gov/media/94129/download"
+        },
+        {
+          "label": "Ott et al.: separate peptide, processing and tumour-recognition assays (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "in-situ-vaccination",
+        "oncolytic-virus",
+        "talimogene-laherparepvec",
+        "itrecist",
+        "abscopal-effect",
+        "cytokine-therapy",
+        "vaccine-adjuvants",
+        "checkpoint-inhibitor"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Intratumoral means within a tumour; intralesional means within a lesion. Intratumoral immunotherapy combines a route with an immune-directed treatment purpose. The name does not identify the substance, and a locally injected cytotoxic drug need not be immunotherapy. An in-situ vaccination strategy seeks useful immune learning from material in the body; it is not a synonym for every injection. Local-material and learning analogies leave direct drug effects and procedure risks unresolved.",
+        "A lesion-based injection needs an identified site that can be reached safely by the specified method. The accessible lesion may not represent every other tumour site. Entry of a needle does not establish uniform distribution, confined exposure or systemic safety. Recruitment or activation of presenting cells, antigen collection and priming can be investigated, while travel to another lesion, natural recognition and sustained function remain separate questions. Inflammation, local injury, infection and systemic effects depend on the product and procedure.",
+        "Hammerich's 2019 report studied a particular strategy in indolent non-Hodgkin lymphoma: Flt3 ligand, low-dose radiation and the TLR3 agonist poly-ICLC. NCT01976585 specifies intratumoral Flt3 ligand and poly-ICLC with low-dose radiotherapy. It does not make every injected immune agent the same intervention. Marabelle's 2018 paper is an expert terminology and reporting recommendation, rather than a trial establishing efficacy of the class.",
+        "Keep three measurements separate. Changes in size or tissue at the injected lesion show local observations. Controlled assays of antigen-reactive cells ask an immune-response question but leave natural recognition and function elsewhere unresolved. Changes at uninjected lesions ask another question, while the injection's added effect and longer-term patient benefit need a suitable comparison. Report each component's route and serial injected and uninjected lesion results. An uninjected lesion can still receive systemic co-treatment, so it need not be untreated.",
+        "The U.S. Imlygic label specifies talimogene laherparepvec for local treatment of unresectable cutaneous, subcutaneous and nodal melanoma lesions recurrent after initial surgery. It states that improved overall survival and an effect on visceral metastases have not been shown. A local melanoma indication does not establish whole-body benefit or a breast-cancer indication. Intralesional administration also does not remove the label's infection, wound and other product-specific precautions.",
+        "In a fictional study, the injected lesion shrinks, a controlled immune assay becomes positive and a separate lesion stays unchanged. The observations establish local and assay activity under their stated definitions, without demonstrating distant control. The result also does not establish that no immune-learning event occurred. Testing naturally presenting targets, relevant function, later outcomes and harms addresses additional questions.",
+        "For radiation, an abscopal effect describes an observation outside the irradiated field. After an injection, describe an uninjected-lesion response and name concurrent treatments before attributing it to the injection or to immunity. Marabelle's expert panel specifically distinguished injected from noninjected lesions because systemic co-treatment can expose both. A combination's name alone does not reveal which component was injected."
+      ],
+      "category": "Immunology"
+    },
+    {
+      "id": "vaccine-adjuvants",
+      "kind": "term",
+      "name": "Vaccine adjuvants",
+      "aka": [
+        "Vaccine adjuvant",
+        "Immune adjuvants"
+      ],
+      "tldr": "A vaccine adjuvant is an ingredient intended to support an immune response. Its effects depend on the antigen, formulation and exposure; more inflammation does not establish cancer benefit.",
+      "summary": "Vaccine adjuvants support the immune context in which antigen is encountered. Their actions can involve different sensing, recruitment, antigen-availability and activation pathways. Antigen specificity, delivery, useful priming and tumour control remain distinct questions.\n\nThe ingredient meaning differs from adjuvant cancer treatment after the main treatment. An adjuvant’s contribution needs a suitable comparison, and immune assay responses, clinical outcomes and harms need separate measurement.",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "CDC: adjuvant ingredients and local/systemic reactions",
+          "url": "https://www.cdc.gov/vaccine-safety/about/adjuvants.html"
+        },
+        {
+          "label": "Mata-Haro et al.: MPLA, TLR4 and TRIF-biased signalling in mice (2007)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/17569868/"
+        },
+        {
+          "label": "Caskey et al.: stabilised synthetic double-stranded RNA in human volunteers (2011)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22065672/"
+        },
+        {
+          "label": "Ott et al.: long peptides with poly-ICLC in melanoma (2017)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
+        },
+        {
+          "label": "Hailemichael et al.: persistent short-peptide depots in mouse melanoma (2013)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23455713/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "vaccines-and-oncolytic-viruses",
+        "neoantigen-mrna-vaccine",
+        "shared-antigen-vaccine",
+        "in-situ-vaccination",
+        "intratumoral-immunotherapy",
+        "cytokine-therapy",
+        "dendritic-cell-cross-presentation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A vaccine adjuvant is an ingredient intended to support an immune response to vaccine antigen. In a topic-and-teaching-context analogy, antigen supplies a possible target while the adjuvant changes the context; it does not choose a mature T cell's receptor specificity. Ingredients can affect recruitment, antigen availability, activation and supporting signals through different pathways. An antigen-acquisition diagram with one example sensor and a later priming encounter is simplified: antigen and context have distinct jobs, adjuvants can act on other cells, and a useful response still needs testing.",
+        "Mata-Haro's 2007 experiments studied monophosphoryl lipid A, an LPS-derived TLR4 agonist. In mice, its lower inflammatory toxicity relative to LPS was associated with biased TRIF signalling while retaining adjuvant activity. This is a defined molecule, comparison and model. It does not establish a universal safe amount, route-independent safety or a rule that more innate stimulation improves human cancer outcomes.",
+        "Delivery and adjuvant activity can overlap but answer different questions. Material entering a cell does not establish useful priming, and a lipid carrier's immune effects depend on its composition, payload, route and exposure. Recognition of antigen, entry into tumour tissue, useful function and safety remain separate requirements. Experience with an ingredient in an infection-prevention vaccine does not by itself establish efficacy in cancer treatment.",
+        "Ott's personal melanoma vaccine combined selected long peptides with poly-ICLC, a stabilised synthetic double-stranded RNA immune stimulus. The study's antigen-reactive responses concern that package. There was no randomised estimate of the adjuvant's independent contribution, so the result cannot determine what the same peptides would have done without it or rank every alternative adjuvant.",
+        "Hailemichael's 2013 mouse melanoma experiments found that a persistent short-gp100-peptide depot in incomplete Freund's adjuvant could draw vaccine-reactive T cells to the vaccination site, with dysfunction and deletion. A nonpersisting formulation shifted localisation toward tumours under the tested conditions. The study also found less sequestration and different activity with a longer peptide in the depot formulation. Persistence is therefore not automatically better, but these experiments do not show that every depot adjuvant fails in humans.",
+        "Assess presenting-cell activation, antigen-specific antibody or T-cell responses, persistence and harms with the cell population, units, background controls and sampling time stated. To isolate an adjuvant's contribution, use suitable comparisons with the same antigen and relevant conditions. Changing antigen, carrier and adjuvant together measures a package; it cannot assign the result to one ingredient. Clinical tumour outcomes require separate evidence from an immune assay.",
+        "A vaccine adjuvant is an immune-supporting ingredient, while adjuvant cancer treatment is given after the main treatment. Redness, fever or a high cytokine signal is not proof of useful antigen-specific immunity. A larger measured response may involve different cells, durability and harms, so neither more inflammation nor more stimulation is an automatic success criterion.",
+        "In a fictional comparison, formulations A and B contain the same antigen. A causes more redness; B gives a larger controlled antigen-specific assay response. A has a stronger observed local reaction and B a stronger response under the assay's definition, but neither result establishes cancer control. Check route, sampling, controls, persistence and harms, then the appropriate clinical outcomes, before assigning a benefit to an ingredient."
+      ],
+      "category": "Immunology"
+    }
+  ]
+}

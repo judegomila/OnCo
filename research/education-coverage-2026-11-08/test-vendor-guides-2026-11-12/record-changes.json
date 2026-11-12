@@ -1,0 +1,314 @@
+{
+  "dataCommit": "179d222f910fd6786a123cea5c74fd85ab7db417",
+  "existingOwnersChanged": [
+    "analytical-vs-clinical-validation",
+    "external-validation",
+    "ppv",
+    "targeted-therapy-term"
+  ],
+  "newCanonicalIds": [],
+  "newNotes": 17,
+  "literalFieldChanges": [
+    {
+      "id": "analytical-vs-clinical-validation",
+      "file": "src/data/terms-cansim-oncology.ts",
+      "before": {
+        "notes": [
+          "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/clinical-vs-analytical-validation."
+        ],
+        "links": [
+          {
+            "label": "FDA: Software as a Medical Device (SaMD)",
+            "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+          },
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Biomarker_(medicine)"
+          }
+        ],
+        "asOf": "2026-09-24",
+        "tldr": "Analytical validation shows a test measures what it claims, reliably; clinical validation shows the measurement actually predicts the patient outcome it is meant to.",
+        "summary": "A biomarker in medicine is a measurable indicator of the presence or severity of a disease state (Wikipedia). Before it is used, a test must show analytical validity (accuracy, precision, reproducibility of the measurement itself) and clinical validity (that the result relates to the clinical condition or outcome in the intended population), and ideally clinical utility, that acting on it improves outcomes. For an AI model the same ladder applies: reproducible outputs on fixed inputs, then discrimination and calibration on external cohorts, then a trial of using it."
+      },
+      "after": {
+        "notes": [
+          "Start a claim worksheet with the population and treatment setting, specimen and method version, measured or predicted outcome, time horizon and proposed decision. A molecule measurement, drug ranking in a dish and outcome prediction from earlier patients are different claims. For risk, retain whether the estimate assumes usual care or no treatment; for a drug experiment, retain the drug, dose and combination. Leave unavailable details unknown. Then separate the tested material and quality, biological interpretation and alternatives, prediction, proposed action and evidence of benefit. Mark each measured, inferred, proposed or unknown. A sound measurement does not automatically support the later steps.",
+          "Consider a fictional report that calls a protein-rich stored tumour a Drug A responder. Its study related protein abundance to shrinkage among people all receiving Drug A for advanced Cancer X. The measurement and response association can be useful, but there is no untreated or alternative-treatment comparison establishing greater benefit from A. Applying it after surgery also changes the setting. Ask what comparison shows improved outcomes from choosing A with this result in the proposed setting. Confirmation of protein abundance answers whether that signal is real, while postoperative benefit remains a separate question. A favourable prognostic result does not itself justify omitting standard treatment.",
+          "An evidence card records population, stage, treatment context and selection; specimen, handling, assay version and quality criteria; the reference condition or care comparator and its limitations; outcome and measurement time; the analysis plan, all tuning and independent evaluation; failed samples, dropout and missing outcomes; and sample size, intervals and remaining uncertainty. A response endpoint is not recurrence or survival. A preclinical card names the actual model and tested claim; an observational clinical association retains possible confounding. Neither alone establishes that the proposed clinical action helps. A headline metric also needs the consequences of false positive and false negative calls attached to the action. Distinguish prespecified analyses from exploratory searches, keep their tuning history, and seek confirmation that does not reuse the search. State whether a treatment-study denominator includes everyone assigned, only those treated or only those evaluable.",
+          "For analytical performance, request the detection limit with its target level, input amount, specimen and detection probability; precision within runs and across days, operators, instruments and reagent lots; agreement with an appropriate independent reference; attempted-sample failure rate and reasons; and specimen handling, preservation and interference testing. The 2017 AMP/CAP recommendations concern next-generation sequencing panels for somatic variants. They ask for performance by variant class and relevant reference materials, depth and sample numbers. They describe a lower detection limit at which 95 per cent of samples are reliably detected, but also explain why observing 19 or 20 successes in 20 trials does not by itself establish that reliability with confidence. This is an assay-specific example, not a universal validation protocol. Fresh and delayed specimens can differ, and measurement variation must be understood before interpreting a trend. Self-agreement alone does not establish accuracy.",
+          "Put the decision before ordering. Write what positive, negative, uncertain and failed results would change, including proposed treatment omission, confirmation or another sample. Compare existing pathology and other tests, and record the decision deadline, finite tissue, time, travel, uncertainty and financial burden. Name who interprets the result, who owns the clinical recommendation and when further testing is unlikely to help that decision. A result arriving after the decision closes may not serve its intended use. The worksheet exposes assumptions rather than calculating a treatment choice; urgency does not establish validity.",
+          "In the fictional postoperative protein-test case, possible next steps are checking the actual companion-diagnostic requirement and whether this assay meets it, inspecting the Drug A evidence, considering a trial of the relevant strategy, or declining a tissue-consuming test that would not change the decision. The exact laboratory, service, version and intended use matter. A research-use label, laboratory certification, development designation or report drug list cannot replace the claim-specific evidence. A companion test is tied to specified treatment use. Clinician-led off-label use, access, payment and suitability are additional questions, not promises made by a molecular report. Fast-track and breakthrough-therapy designations are not marketing approval; accelerated approval is a distinct approval pathway, not just a development designation.",
+          "Research can have a defined value without selecting treatment: checking a mechanism, explaining discordant assays or generating a future hypothesis. Name the reviewer and what would count as a useful answer rather than extending an endless chain of tests. Attribute unpublished company data and state which methods and results were available to inspect; unavailable evidence does not prove the claim false. In a fictional high/low recurrence-risk test for which neither answer changes recommended care and no relevant study is open, the immediate value for that treatment decision is limited. A separate research or personal-information goal should be weighed against burden, uncertainty and alternatives. A changed treatment decision is not itself demonstrated benefit and can add unnecessary treatment.",
+          "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/clinical-vs-analytical-validation."
+        ],
+        "links": [
+          {
+            "label": "FDA: Software as a Medical Device (SaMD)",
+            "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+          },
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Biomarker_(medicine)"
+          },
+          {
+            "label": "MedlinePlus Genetics: analytical validity, clinical validity and utility",
+            "url": "https://medlineplus.gov/genetics/understanding/testing/validtest/"
+          },
+          {
+            "label": "Jennings et al.: AMP/CAP somatic sequencing-panel validation recommendations (2017)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28341590/"
+          },
+          {
+            "label": "FDA: companion diagnostics and specified treatment uses",
+            "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+          },
+          {
+            "label": "FDA: understanding unapproved use of approved drugs",
+            "url": "https://www.fda.gov/understanding-unapproved-use-approved-drugs-label"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "tldr": "Analytical validity concerns whether a test measures reliably. Clinical validity concerns what its result means for a condition or outcome. Clinical utility concerns using that information for a decision.",
+        "summary": "Analytical validity, clinical validity and clinical utility address different questions for a specified assay, specimen, population and intended use. MedlinePlus Genetics distinguishes detection of a genetic variant, its relationship to disease presence or risk, and whether the information helps diagnosis, treatment, management or prevention. Reliable measurement does not by itself establish clinical meaning, and an outcome association does not establish benefit from changing care. For a prediction model, reproducibility of fixed-input output, discrimination, calibrated probabilities and the consequences of model-guided decisions also require distinct evidence. These are related questions rather than a universal sequence that guarantees a useful test."
+      },
+      "beforeHashes": {
+        "notes": "8709f019a93523a4ee3ae99247c66eaf4070c0ec309ed616716a60398a2afa0c",
+        "links": "e3356b266fa303b52769d53af4819125cc37f97d710053a52ea3c1a416f9adf2",
+        "asOf": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "tldr": "bdce4c119efcc49c6f2374dbfe50c25a6bdec77662fcf6f72a2a63286332aadb",
+        "summary": "00275796f68a8127f1d50ec067bf5faf68fed11a75bafeec2c8ac15dad19e4bf"
+      },
+      "afterHashes": {
+        "notes": "aa990ea269294b6c1682fde6d58796e8e22476c1466966dd516632052b128109",
+        "links": "3965fceba0fbe196392910904f4a674402b9fab799faa8bbc8016a21b57b4979",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "tldr": "982365aec0da4168ff5d9982638e7967fef156ceee50d1d390c60a5a180d1d2d",
+        "summary": "14031dcd9ca3c74074e5caf65da96f8ac12adbb62871dffe4b7ed8f30e6008bc"
+      },
+      "newNotes": 7,
+      "newNoteStart": 0,
+      "factoryAppendedAttribution": true
+    },
+    {
+      "id": "external-validation",
+      "file": "src/data/terms-cansim-methods.ts",
+      "before": {
+        "notes": [
+          "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/external-validation."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/External_validity"
+          }
+        ],
+        "asOf": "2026-09-24",
+        "tldr": "External validation tests a model on patients from a different hospital, country or platform than it was trained on; it is the only evidence that a result travels.",
+        "summary": "External validity is the extent to which a study's conclusions generalise to other situations, people and times (Wikipedia). For a prognostic model that means an independent cohort, ideally collected by other people on another platform: TCGA-trained survival models are routinely tested on METABRIC, and the concordance index typically falls, sometimes to chance. A model with no external validation has an internal estimate, not a result, and several OnCo ideas argue that multi-site validation should precede clinical use."
+      },
+      "after": {
+        "notes": [
+          "Follow the people behind a performance plot: eligibility, selection, care, sample quality, failures and missing outcomes. Identify every variable-selection, preprocessing and threshold choice and whether outcomes were known when those choices were made. Good performance on ideal specimens or the development patients may not describe practice. External evaluation uses data outside development, which can differ in hospital, calendar period, handling or care. The data and evaluation need to be independent of the tuning decisions; a new company logo supplies no such guarantee.",
+          "Two fictional slides illustrate the boundary. Slide A uses Hospital A patients and their known outcomes to select variables and a threshold, then reports performance on those same A patients. That is apparent performance; repeating the computation can check reproducibility without providing a new independent population test. Slide B fixes preprocessing, variables and threshold using A before applying the locked method to separate Hospital B patients. It reports B performance and the failed-test denominator, with no B outcomes fed back into tuning. This supports evaluation outside development, while suitable population, uncertainty, calibration and usefulness of clinical decisions remain separate questions. The patient icons are schematic and neither slide supplies a measured performance value.",
+          "Michiels and colleagues reanalysed the seven largest published microarray cancer-prognosis studies in their 2005 report using multiple random training and evaluation sets. They found unstable gene signatures and overoptimistic published estimates; five of the seven did not classify patients better than chance. That historical result supports retaining the entire selection and evaluation process, not a conclusion that every molecular model fails or that this one analysis establishes a universal validation method.",
+          "A model evaluated at a second hospital may still address advanced treated disease rather than the proposed postoperative use. Discrimination asks whether outcomes are ranked usefully; calibration asks whether stated probabilities agree with observed frequencies in comparable groups. Good ranking can coexist with inflated risk estimates, and good prognostic probabilities do not establish benefit from a treatment printed beside them. There is no single performance cutoff that makes every decision appropriate. If unchanged Hospital A samples are rerun, request an evaluation set held out from every tuning choice, a locked method, target population and outcome, all failure denominators and uncertainty. Internal resampling and independent external evaluation answer different performance questions; neither name alone is a clinical-use verdict.",
+          "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/external-validation."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/External_validity"
+          },
+          {
+            "label": "Debray et al.: TRIPOD-Cluster explanation, development and evaluation (2023)",
+            "url": "https://doi.org/10.1136/bmj-2022-071058"
+          },
+          {
+            "label": "Michiels et al.: repeated-split reanalysis of seven microarray prognosis studies (2005)",
+            "url": "https://doi.org/10.1016/S0140-6736(05)17866-0"
+          }
+        ],
+        "asOf": "2026-11-12",
+        "tldr": "External evaluation estimates model performance on data not used to develop or tune it. The patients, setting and methods determine which transportability question it addresses; it does not by itself establish useful clinical decisions.",
+        "summary": "External evaluation applies an existing model to data outside its development and compares predictions with observed outcomes. The TRIPOD-Cluster explanation includes later-period data collected by the same investigators as well as data from another hospital, country or care setting. A different platform is not a universal requirement. Apparent performance uses the development data and can be optimistic. Internal validation with resampling can estimate optimism and performance for new people from the same source population; it is evidence about a different question, rather than no result. External evaluation quantifies performance and its uncertainty instead of conferring a universal pass or fail. Keep the locked method, population, outcome, follow-up and differences from development visible."
+      },
+      "beforeHashes": {
+        "notes": "60de286371affc01bd615233a0d7085d39e6526842f5c567148a30b7c0f759b6",
+        "links": "96983024a34c9af0605ebd6f42d67eafcf1074c37432af6514e8ce55fd2593ec",
+        "asOf": "6c26f434a89139387427fa6eea4d321fa7eaf0929936ef3b9100933bfefb2246",
+        "tldr": "91f1fdbaf14bb943853db581e3cf9f09358b6587108e43ba592d264647ce4939",
+        "summary": "88961978323186fc580b3ef9bce5c0f15588504d2f61c36a28b55d9f5b2e0493"
+      },
+      "afterHashes": {
+        "notes": "42d852f1c799884d6a44de160548d119c60085691d6e5ebf89d73df3545f20c7",
+        "links": "af338afeeed2075f79b0fe7d1358c4d828ff2556f555aa4a2af4038fac41fb5e",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0",
+        "tldr": "e984b8ef566382318eee5a79275fb8b43429467d6734792359c3db085ced300f",
+        "summary": "693cbfa73a167164ec9c1bc580137e45ca929e4c550af49624251db151dd7e41"
+      },
+      "newNotes": 4,
+      "newNoteStart": 0,
+      "factoryAppendedAttribution": true
+    },
+    {
+      "id": "ppv",
+      "file": "src/data/terms.ts",
+      "before": {
+        "notes": [
+          "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+          "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values"
+          },
+          {
+            "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+            "url": "https://www.fda.gov/media/71147/download"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+          "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+          "Fictional examples hold sensitivity at 90 per cent and specificity at 95 per cent to isolate the base rate, with complete reference assessment and no indeterminate tests. Among 1,000 people with condition prevalence 10 per cent, 100 have the condition: 90 test positive, while 45 of the 900 without it test positive. PPV is 90/(90 + 45), about 67 per cent. At 2 per cent prevalence, 20 have the condition: 18 test positive and 49 of the other 980 test positive. PPV is 18/(18 + 49), about 27 per cent. The same assumed sensitivity and specificity therefore yield very different positive-call fractions. Actual performance can also change across populations. A negative test retains its detection limits, specimen timing and pretest context rather than guaranteeing absence of disease."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values"
+          },
+          {
+            "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+            "url": "https://www.fda.gov/media/71147/download"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "links": "c84ab20b62b71a6fc65a7ee596e949eb0a25de7eef027bb14c39a1118537f1ee",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "links": "c84ab20b62b71a6fc65a7ee596e949eb0a25de7eef027bb14c39a1118537f1ee",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      },
+      "newNotes": 1,
+      "newNoteStart": 3
+    },
+    {
+      "id": "targeted-therapy-term",
+      "file": "src/data/terms-basics.ts",
+      "before": {
+        "notes": [
+          "Target, mechanism and evidence. A drug target is the molecule or structure a treatment acts on, and its mechanism of action is how that action produces an effect; a target name does not show that the target is reachable, required by the cancer, or that changing it does useful work. Binding to a purified protein, engagement in the relevant cell (the cellular thermal shift assay was introduced to evaluate drug binding in cells and tissues), a measured effect with controls, and benefit and harm in a stated clinical setting each need their own evidence, and a blood concentration is not the concentration at an intracellular target. In-cell thermal profiling can pick up indirect as well as direct targets (Ball et al. 2020). If an antibody is shown to bind a protein on cancer cells and growth is unchanged, binding is supported; dependence on the protein, inhibition of its function, delivery by a finished payload-bearing product, safety and benefit are not. A molecule used as an address for delivery and a molecule whose function the cell depends on are different roles.",
+          "What NCI says about the class. Targeted therapy was once expected to be less toxic than chemotherapy but can cause serious side effects, cancer cells can become resistant to it, and it may work best combined with other targeted therapy or with treatments such as chemotherapy and radiation (NCI page, HTML read)."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Targeted_therapy"
+          },
+          {
+            "label": "NCI: targeted therapy, different antibody actions, resistance and adverse effects",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies"
+          },
+          {
+            "label": "TRODELVY U.S. label: indications, mechanism and named pharmacokinetic measurements",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+          },
+          {
+            "label": "KIMMTRAK U.S. label: gp100 peptide-HLA-A*02:01/CD3 recognition and indication",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24a49f57-d2fc-4ffe-9eb1-fe0460c6b067"
+          }
+        ],
+        "asOf": "2026-11-11"
+      },
+      "after": {
+        "notes": [
+          "Target, mechanism and evidence. A drug target is the molecule or structure a treatment acts on, and its mechanism of action is how that action produces an effect; a target name does not show that the target is reachable, required by the cancer, or that changing it does useful work. Binding to a purified protein, engagement in the relevant cell (the cellular thermal shift assay was introduced to evaluate drug binding in cells and tissues), a measured effect with controls, and benefit and harm in a stated clinical setting each need their own evidence, and a blood concentration is not the concentration at an intracellular target. In-cell thermal profiling can pick up indirect as well as direct targets (Ball et al. 2020). If an antibody is shown to bind a protein on cancer cells and growth is unchanged, binding is supported; dependence on the protein, inhibition of its function, delivery by a finished payload-bearing product, safety and benefit are not. A molecule used as an address for delivery and a molecule whose function the cell depends on are different roles.",
+          "What NCI says about the class. Targeted therapy was once expected to be less toxic than chemotherapy but can cause serious side effects, cancer cells can become resistant to it, and it may work best combined with other targeted therapy or with treatments such as chemotherapy and radiation (NCI page, HTML read).",
+          "A product proposal identifies the clinical problem, disease setting, treatment intent, alternatives and measurable goal; the exact target, specimen and method; accessible protein or peptide-HLA presentation and normal-tissue evidence with sampling limits; and the complete binder, linker, payload or cell design and mechanism. It records the relevant human comparison or explicitly limited preclinical evidence, product-specific safety monitoring, management capability and stopping rules. Keep manufacture, quality release, sponsor, site and access pathway separate from benefit. Reviewing existing data, consuming tissue for an experiment, manufacturing and administering treatment are different commitments with their own rationale and responsible owner. A target shortlist or recipe analogy establishes none of their benefit or safety.",
+          "Questions follow the product. For a cytotoxic antibody-drug conjugate, assess antibody, linker and payload together, delivery and exposure, tested resistance steps and the design-specific role of internalisation; FDA's March 2024 clinical-pharmacology guidance has this scope. For an engager or cell product, ask about cytokine release syndrome, immune effector cell-associated neurotoxicity and other neurologic effects, healthy-tissue recognition, tissue access and what can persist after dosing stops. FDA's January 2024 CAR T-cell guidance describes product-specific recognition, expansion, persistence and toxicity management; it does not supply incidence for every engager. For a radioligand, ask how the imaging relates to that therapeutic product's distribution, organ absorbed doses and organ limits. FDA's August 2019 document addresses nonclinical studies and labeling, not a universal clinical dose threshold. Tracer uptake supplies no CAR-T safety threshold. For a T-cell-receptor proposal, ask which peptide-HLA target is recognised and how specificity, natural presentation and function were tested; receptor sequences or expanded clones alone leave these questions open.",
+          "Product Q is a fictional investigational conjugate against surface protein M, with a specified antibody, cleavable linker and cell-damaging payload. Adults with progressing metastatic solid cancer after prior treatment are the setting, and the immediate proposal is to review existing data before designing a laboratory experiment. No manufacture, treatment or new sample collection is proposed. The dossier has M RNA measurements from one tumour biopsy and Q activity in target-bearing cultured cells, without direct surface measurement, relevant healthy-tissue tests or a human comparison. Supplier participation, access and site arrangements are unknown. These findings support a research hypothesis about Q, not demonstrated clinical benefit or evidence borrowed from another M-targeted format.",
+          "Complete the fictional Q card by retaining accessible tumour protein, healthy-tissue effects, full-product delivery and relevant human outcomes as missing evidence. A research lead first reviews methods, controls and Q-specific product data; this existing-data review consumes no tissue. Pause experiment planning if product identity or usable evidence remains unavailable, and ask which Q-specific result would change the experiment plan. RNA abundance is a different observation from accessible surface protein. Mertins and colleagues measured RNA, protein and phosphoprotein layers in primary breast cancers; that work is not a cell-surface-accessibility or treatment-selection assay. Confirming protein would answer another premise while leaving benefit unproven.",
+          "Now change only the fictional request: after complete tumour removal, someone proposes manufacturing Q and administering it to prevent recurrence because M RNA was abundant, an IND is said to be active and a supplier offers manufacture. The setting and commitments have changed, while the dossier is still one biopsy RNA signal plus cultured-cell activity. Neither that evidence nor the attributed investigational milestone or supply offer establishes postoperative benefit. Ask the clinical team for Q-specific human evidence or a relevant protocol, the sponsor which product and protocol are covered, and the readiness owner about delivery requirements. In the United States an effective Investigational New Drug application is not marketing approval, and submission of a Biologics License Application is not its approval. A manufacturing quote cannot confirm supply, consent, review, delivery and monitoring as a whole. With only this dossier, evidence and pathway review are justified; manufacture or administration is not justified by the supplied information. Speculative availability does not promise access or protection against recurrence."
+        ],
+        "links": [
+          {
+            "label": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Targeted_therapy"
+          },
+          {
+            "label": "NCI: targeted therapy, different antibody actions, resistance and adverse effects",
+            "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies"
+          },
+          {
+            "label": "TRODELVY U.S. label: indications, mechanism and named pharmacokinetic measurements",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d"
+          },
+          {
+            "label": "KIMMTRAK U.S. label: gp100 peptide-HLA-A*02:01/CD3 recognition and indication",
+            "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=24a49f57-d2fc-4ffe-9eb1-fe0460c6b067"
+          },
+          {
+            "label": "FDA: Clinical Pharmacology Considerations for Antibody-Drug Conjugates (March 2024)",
+            "url": "https://www.fda.gov/media/155997/download"
+          },
+          {
+            "label": "FDA: Considerations for the Development of CAR T Cell Products (January 2024)",
+            "url": "https://www.fda.gov/media/156896/download"
+          },
+          {
+            "label": "FDA: Oncology Therapeutic Radiopharmaceuticals, Nonclinical Studies and Labeling (August 2019)",
+            "url": "https://www.fda.gov/media/129547/download"
+          },
+          {
+            "label": "Mertins et al.: separate RNA, protein and phosphoprotein layers (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27251275/"
+          },
+          {
+            "label": "FDA: Investigational New Drug application overview",
+            "url": "https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"
+          },
+          {
+            "label": "FDA: Biologics License Applications for CBER-regulated products",
+            "url": "https://www.fda.gov/vaccines-blood-biologics/development-approval-process-cber/biologics-license-applications-blas-cber-regulated-products"
+          }
+        ],
+        "asOf": "2026-11-12"
+      },
+      "beforeHashes": {
+        "notes": "1346c267af92490dbd65c2020eba1f3cdcd3f50213af5055a4de695b43a0d4c8",
+        "links": "7c6ce5a97ddd872fddd7f67491316035d10d3d91f1537734f0ecf6c9d1557dcc",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b"
+      },
+      "afterHashes": {
+        "notes": "bded5b24864e0d3e8a666d1fa699a41ccf5b04fbacbb42b48c0a1ee6dd36dbff",
+        "links": "b82dd45c885dc5235dbff2c6411ac88c9ffa392e388504afbbe4c329df166d4e",
+        "asOf": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+      },
+      "newNotes": 5,
+      "newNoteStart": 2
+    }
+  ],
+  "correctionDispositions": [
+    "Clinical validity is not limited to outcome prediction; utility is a separate specified-use question.",
+    "External evaluation is not the only performance evidence, need not change platform or investigators, and does not turn internal evidence into no result.",
+    "Unverified routine TCGA-to-METABRIC performance/drop assertions are intentionally withdrawn, not declared false."
+  ],
+  "peerDraftsPreserved": true,
+  "sourceGuideAndArtworkUnchanged": true,
+  "allPriorNotesAndLinksRetained": true,
+  "canSimFactoryScope": "The existing factory appends the retained attribution once; it is not copied into the literal note arrays. No factory/schema change.",
+  "summaryConsumersChanged": false,
+  "languageApproval": false,
+  "graphRecords": 23084
+}

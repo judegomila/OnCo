@@ -1,0 +1,196 @@
+{
+  "header": {
+    "batch": "education-audit-round20-support-assets-20",
+    "taskKind": "support-asset-classification-review",
+    "model": "claude-sonnet-5-5",
+    "branch": "t3/classify-support-assets-1",
+    "branchNote": "observed at report time via git branch --show-current; session started on t3/c5eb31cf (renamed in reflog, not by this batch)",
+    "baseSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "finalSHA": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "commitsMade": 0,
+    "worktreeCleanAtReport": true,
+    "originalRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "laterRef": "c96896452386202405c435aa161bc5047919337a",
+    "coverageCreditGranted": 0,
+    "notAScienceCertification": true,
+    "subagentsUsed": false,
+    "elicit": "not used; not callable",
+    "mainCredit": 0,
+    "integrationCredit": 0,
+    "expertCredit": 0,
+    "languageCredit": 0
+  },
+  "openEscalations": [
+    "C02",
+    "C03",
+    "C04",
+    "C07",
+    "E02",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10",
+    "E11",
+    "E12"
+  ],
+  "escalationsClosed": [],
+  "gaps": [
+    {
+      "id": "G-E04",
+      "esc": "E04",
+      "text": "pN1mi/pN1a mapping and 'three nodes' premise agree with CAP 4.11 passages read, but SVG pixels, the full N-category rule, ITC counting and expert review are unassessed",
+      "assets": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "G-E05",
+      "esc": "E05",
+      "text": "specimen timing/addendum/yc-yp claims rest on selected CAP Notes K/N; I did not re-read them",
+      "assets": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "G-E06",
+      "esc": "E06",
+      "text": "grade components and 8-9 range: CAP grade template and NCI page not re-read",
+      "assets": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "G-E07",
+      "esc": "E07",
+      "text": "scar persistence after HRR restoration is supported in the leaf only by an Introduction sentence in Cruz 2018 citing Watkins 2014; primary lead unresolved; HRDetect abstract does not address it",
+      "assets": [
+        10,
+        11
+      ]
+    },
+    {
+      "id": "G-E08",
+      "esc": "E08",
+      "text": "oligometastatic count/history claims: two consensus documents, one trial extension, one 2026 trial; only abstracts/selected passages read; NRG-BR002 results beyond the abstract not read",
+      "assets": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "G-E09",
+      "esc": "E09",
+      "text": "fictional denominators arithmetic re-derived; endpoint-definition support (Dawood, Martin, Lin, Lockman) at abstract/identity depth; the 'raw fractions are not competing-risk estimates' framing depends on the owner prose that changed at L",
+      "assets": [
+        17,
+        18
+      ]
+    },
+    {
+      "id": "G-E02",
+      "esc": "E02",
+      "text": "HER2 0/0+ criteria agree with CAP 1.6.2.0 raw text; SVG integrated-status/eligibility lines, 2023 SOR PDF and expert review not read; owner HER2 prose changed after the cited review version and I did not adjudicate it",
+      "assets": [
+        20,
+        21
+      ]
+    },
+    {
+      "id": "G-E10",
+      "esc": "E10",
+      "text": "only one primary source (23260325, abstract) for an attribution figure; its myoepithelial statement is background; no source for the 'cell identity comes from the whole context' wording; shared owner changed at L",
+      "assets": [
+        23,
+        24
+      ]
+    },
+    {
+      "id": "G-E11",
+      "esc": "E11",
+      "text": "ENE boundary claims agree with CAP 4.11 measurement note; vessel-lumen and capsule-vs-cut-edge distinctions rest on a survey and one cohort abstract",
+      "assets": [
+        30,
+        31
+      ]
+    },
+    {
+      "id": "G-E12",
+      "esc": "E12",
+      "text": "extent illustration rests on selected NCI lines; new 2026-11-07 survival teaching in the same owner is unassessed",
+      "assets": [
+        33
+      ]
+    },
+    {
+      "id": "G-C02",
+      "esc": "C02",
+      "text": "historical vs current owner hashes preserved per asset; coordinator must rebind any registry that treated cited hashes as current (04,07,13,14,17,20,24,33)",
+      "assets": [
+        4,
+        7,
+        13,
+        14,
+        17,
+        20,
+        24,
+        33
+      ]
+    },
+    {
+      "id": "G-C04",
+      "esc": "C04",
+      "text": "private /tmp, captures/, private/ and author.py locators not followed (01,10,17,24 and the 'private prospective' strings)",
+      "assets": [
+        1,
+        10,
+        15,
+        17,
+        21,
+        24,
+        31
+      ]
+    },
+    {
+      "id": "G-C07",
+      "esc": "C07",
+      "text": "consensus statements and a survey are carried as 'primary'; relabel in the coordinator source table",
+      "assets": [
+        15,
+        31
+      ]
+    },
+    {
+      "id": "G-access-commits",
+      "esc": "C05",
+      "text": "source commits cited by bodies are not resolvable locally; whether they exist elsewhere is unknown",
+      "assets": "all"
+    },
+    {
+      "id": "G-pixels",
+      "text": "no native pixel, theme parity, or accessibility check performed; Escape-focus defect in the pinned renderer is reported only by body 10 and 23",
+      "assets": [
+        10,
+        23
+      ]
+    },
+    {
+      "id": "G-expert",
+      "text": "no clinician, expert or learner review exists for any figure; all bodies say pending",
+      "assets": "all"
+    }
+  ],
+  "specificAccessProblems": [
+    "PubMed HTML challenged; Europe PMC abstracts used",
+    "PMC7946408 full text not retrievable",
+    "CAP SOR 2023 PDF and NCI PDQ not fetched",
+    "source commits unresolvable locally"
+  ],
+  "note": "A finished classification with specific scientific and access gaps; not coverage."
+}

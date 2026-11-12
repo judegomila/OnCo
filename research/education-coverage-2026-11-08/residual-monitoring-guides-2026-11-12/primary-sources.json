@@ -1,0 +1,550 @@
+{
+  "checkedOn": "2026-11-12",
+  "publications": [
+    {
+      "sourceId": "pmid-35809752",
+      "pmid": "35809752",
+      "pmcid": null,
+      "doi": "10.1016/j.annonc.2022.05.520",
+      "title": "ESMO recommendations on the use of circulating tumour DNA assays for patients with cancer: a report from the ESMO Precision Medicine Working Group.",
+      "authors": "Pascual J, Attard G, Bidard FC, Curigliano G, De Mattos-Arruda L, Diehn M, Italiano A, Lindberg J, Merker JD, Montagut C, Normanno N, Pantel K, Pentheroudakis G, Popat S, Reis-Filho JS, Tie J, Seoane J, Tarazona N, Yoshino T, Turner NC.",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35809752/",
+      "metadataCaptureSha256": "7c25bd3b38828dd6e953b583a0bea75a0fd09e96db41b580e401cbd20933a6e4",
+      "crossrefCaptureSha256": "524c2fd77f694672406e665832e9240a24bf832255a06621859b3aa6d11bc7a1",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete raw abstract read. No whole-paper reading claim.",
+      "abstractSha256": "94555332afd1526c51688a9479db6e10283e012aa7d73cf00ac31f2e013e1cb2",
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "pmid-37161793",
+      "pmid": "37161793",
+      "pmcid": "PMC10245040",
+      "doi": "10.15252/emmm.202216505",
+      "title": "Comparison of tumor-informed and tumor-naïve sequencing assays for ctDNA detection in breast cancer.",
+      "authors": "Santonja A, Cooper WN, Eldridge MD, Edwards PAW, Morris JA, Edwards AR, Zhao H, Heider K, Couturier DL, Vijayaraghavan A, Mennea P, Ditter EJ, Smith CG, Boursnell C, Manzano García R, Rueda OM, Beddowes E, Biggs H, Sammut SJ, Rosenfeld N, Caldas C, Abraham JE, Gale D.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37161793/",
+      "metadataCaptureSha256": "4c5c015cc8fea1064fedf5522be9f66de3704f788e6e9b2847ba9a9ad5f36852",
+      "crossrefCaptureSha256": "3491c47c4f41958833252ef482044563d280a8ea103e0f6b1457fe42cb208997",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete abstract plus 7 targeted body paragraphs; not the whole paper.",
+      "abstractSha256": "5551f32492a9aa9354cfc9f0a9fc6ef059523e3d3f60746316255d84cfb7af4d",
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "pmid-33106634",
+      "pmid": "33106634",
+      "pmcid": "PMC7891089",
+      "doi": "10.1038/s41588-020-00710-0",
+      "title": "Cancer therapy shapes the fitness landscape of clonal hematopoiesis.",
+      "authors": "Bolton KL, Ptashkin RN, Gao T, Braunstein L, Devlin SM, Kelly D, Patel M, Berthon A, Syed A, Yabe M, Coombs CC, Caltabellotta NM, Walsh M, Offit K, Stadler Z, Mandelker D, Schulman J, Patel A, Philip J, Bernard E, Gundem G, Ossa JEA, Levine M, Martinez JSM, Farnoud N, Glodzik D, Li S, Robson ME, Lee C, Pharoah PDP, Stopsack KH, Spitzer B, Mantha S, Fagin J, Boucai L, Gibson CJ, Ebert BL, Young AL, Druley T, Takahashi K, Gillis N, Ball M, Padron E, Hyman DM, Baselga J, Norton L, Gardos S, Klimek VM, Scher H, Bajorin D, Paraiso E, Benayed R, Arcila ME, Ladanyi M, Solit DB, Berger MF, Tallman M, Garcia-Closas M, Chatterjee N, Diaz LA, Levine RL, Morton LM, Zehir A, Papaemmanuil E.",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33106634/",
+      "metadataCaptureSha256": "7d19315731fd30ac3ef52d2f482458187017c5decc21ee0bf737f6cd2f95fe0d",
+      "crossrefCaptureSha256": "b4aaca7dd61527d971b044a43f7e56215aa41e0c64ed919493359088f2532327",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete raw abstract read. No whole-paper reading claim.",
+      "abstractSha256": "e242d0b230850dfcfefe08e71ee7c3d278288d777948f9beb499e379253431e9",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "33158847",
+            "reference": "Cancer Discov. 2021 Jan;11(1):9. doi: 10.1158/2159-8290.CD-RW2020-162.",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "pmid-36423745",
+      "pmid": "36423745",
+      "pmcid": null,
+      "doi": "10.1016/j.annonc.2022.11.005",
+      "title": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer.",
+      "authors": "Turner NC, Swift C, Jenkins B, Kilburn L, Coakley M, Beaney M, Fox L, Goddard K, Garcia-Murillas I, Proszek P, Hall P, Harper-Wynne C, Hickish T, Kernaghan S, Macpherson IR, Okines AFC, Palmieri C, Perry S, Randle K, Snowdon C, Stobart H, Wardley AM, Wheatley D, Waters S, Winter MC, Hubank M, Allen SD, Bliss JM, c-TRAK TN investigators.",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36423745/",
+      "metadataCaptureSha256": "7a1c1452440cf9028f463f6499e0d4171a95dce94bb02202a042019943f30577",
+      "crossrefCaptureSha256": "0083e5963148dff0fa54674fbaa746abe363c2245e1afebd40a3ad97bfb9f2d4",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete raw abstract read. No whole-paper reading claim.",
+      "abstractSha256": "2c8cbc3fc31ee92717a56bc54f00ce5b0c184bccc3653fdeea4daaba259c58a1",
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "pmid-40332918",
+      "pmid": "40332918",
+      "pmcid": "PMC12060017",
+      "doi": "10.1001/jamasurg.2025.1072",
+      "title": "Breast Tumor-Bed Biopsy for Pathological Complete Response Prediction: The NRG-BR005 Nonrandomized Clinical Trial.",
+      "authors": "Basik M, Cecchini RS, De Los Santos JF, Umphrey HR, Julian TB, Mamounas EP, White JR, Lucas PC, Balanoff CR, Tan AR, Weber JJ, Edmonson DA, Brown-Glaberman UA, Diego EJ, Teshome M, Matsen CB, Seaward SA, Wapnir IL, Wagner JL, Tjoe JA, Thompson AM, Wolmark N.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40332918/",
+      "metadataCaptureSha256": "43b3596e23c1a427d1698991bc0fd42ba9482e6c29c990760641c238c3b22d99",
+      "crossrefCaptureSha256": "b1097dfc1c0d5244c0c2704baeba09a3800b034c255688cab5a36b4f56b2aeb3",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete raw abstract read. No whole-paper reading claim.",
+      "abstractSha256": "14a50bff03919dda3bc9766c111a1076f00f7505f912ef0b94436700bde11499",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40332930",
+            "reference": "JAMA Surg. 2025 Jul 1;160(7):731-732. doi: 10.1001/jamasurg.2025.1057.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "40465236",
+            "reference": "JAMA Surg. 2025 Jul 1;160(7):826. doi: 10.1001/jamasurg.2025.1980.",
+            "type": "Erratum in",
+            "orderIn": 2
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "pmid-33232761",
+      "pmid": "33232761",
+      "pmcid": "PMC9348585",
+      "doi": "10.1016/j.annonc.2020.11.007",
+      "title": "Circulating tumor DNA in neoadjuvant-treated breast cancer reflects response and survival.",
+      "authors": "Magbanua MJM, Swigart LB, Wu HT, Hirst GL, Yau C, Wolf DM, Tin A, Salari R, Shchegrova S, Pawar H, Delson AL, DeMichele A, Liu MC, Chien AJ, Tripathy D, Asare S, Lin CJ, Billings P, Aleshin A, Sethi H, Louie M, Zimmermann B, Esserman LJ, van 't Veer LJ.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33232761/",
+      "metadataCaptureSha256": "f166ec3392941b0205bbf45c30f0e7f3e4cd4e7043ebc7f9eb58c13e0bdd015d",
+      "crossrefCaptureSha256": "c6bffc5b1a46e0e26e9c0f3bc7c3e528bd84918ee2a7abfc618ace8fc6ca4cbc",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete abstract plus 5 targeted body paragraphs; not the whole paper.",
+      "abstractSha256": "757736d1e234264d5e4acd5b3003af988a9ec8ad9ebb2ff0324e69c8961e46db",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR111668",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/2020.02.03.20019760",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "mri-2021",
+      "pmid": "33767190",
+      "pmcid": "PMC7994408",
+      "doi": "10.1038/s41523-021-00239-3",
+      "title": "Circulating tumor DNA and magnetic resonance imaging to predict neoadjuvant chemotherapy response and recurrence risk.",
+      "authors": "Magbanua MJM, Li W, Wolf DM, Yau C, Hirst GL, Swigart LB, Newitt DC, Gibbs J, Delson AL, Kalashnikova E, Aleshin A, Zimmermann B, Chien AJ, Tripathy D, Esserman L, Hylton N, van 't Veer L.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33767190/",
+      "metadataCaptureSha256": "237e23ebfd284395b5f231d60280e2dced26b0dda1cc96378bf7dbe1eebc6885",
+      "crossrefCaptureSha256": "e944f5274fc0bf5eb9a42e993ef52be6a1a041d13e1b48859e708504634b6166",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete abstract plus 3 targeted body paragraphs; not the whole paper.",
+      "abstractSha256": "48a8b936ad26a1699339dd29e525e9ec443d25af574794791d0fe9b95e96cccb",
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "rcb-2025",
+      "pmid": "41365872",
+      "pmcid": "PMC12690079",
+      "doi": "10.1038/s41467-025-65432-5",
+      "title": "Circulating tumor DNA refines risk stratification of neoadjuvant therapy-resistant breast tumors.",
+      "authors": "Magbanua MJM, Manon NA, Wolf DM, Rivero-Hinojosa S, Ahmed Z, Sayaman RW, Tin A, Renner D, Kalashnikova E, Brown-Swigart L, Hirst GL, Yau C, Li W, Isaacs C, Shatsky RA, Clark AS, Zimmer A, Delson AL, Rodriguez A, Liu MC, Pohlmann PR, Esserman LJ, Rugo HS, DeMichele A, van 't Veer L.",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41365872/",
+      "metadataCaptureSha256": "70f142e53fadbbe340020ce6d7255857eeb6e3a0c1acfb2f9bb64a7c6be25ef1",
+      "crossrefCaptureSha256": "f39a5aa8ff73043aacce64356aa7d5e1dc0276f628efecd72830794ad2ea6db5",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete abstract plus 8 targeted body paragraphs; not the whole paper.",
+      "abstractSha256": "2f330d2dfa9ef55494d3a75f8d530fda71249e533671fefa99638ae5956d2f28",
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "tnbc-mutation-landscape",
+      "pmid": "22495314",
+      "pmcid": "PMC3863681",
+      "doi": "10.1038/nature10933",
+      "title": "The clonal and mutational evolution spectrum of primary triple-negative breast cancers.",
+      "authors": "Shah SP, Roth A, Goya R, Oloumi A, Ha G, Zhao Y, Turashvili G, Ding J, Tse K, Haffari G, Bashashati A, Prentice LM, Khattra J, Burleigh A, Yap D, Bernard V, McPherson A, Shumansky K, Crisan A, Giuliany R, Heravi-Moussavi A, Rosner J, Lai D, Birol I, Varhol R, Tam A, Dhalla N, Zeng T, Ma K, Chan SK, Griffith M, Moradian A, Cheng SW, Morin GB, Watson P, Gelmon K, Chia S, Chin SF, Curtis C, Rueda OM, Pharoah PD, Damaraju S, Mackey J, Hoon K, Harkins T, Tadigotla V, Sigaroudinia M, Gascard P, Tlsty T, Costello JF, Meyer IM, Eaves CJ, Wasserman WW, Jones S, Huntsman D, Hirst M, Caldas C, Marra MA, Aparicio S.",
+      "year": "2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22495314/",
+      "metadataCaptureSha256": "72c4b3417de5107b4f27ae0ba5fb727352289dd8629a907727206fe8a0b3d1f8",
+      "crossrefCaptureSha256": "795df1bd81bd9686088723a9bfdce1e643ecabd0dfe0c6e1e17aa054f798553b",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete abstract plus 1 targeted body paragraphs; not the whole paper.",
+      "abstractSha256": "0dda27d3bc745f20fca5e6ba5e15de6ead44c9b8467adc927d6388dc015f4a17",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "22576166",
+            "reference": "Nat Rev Cancer. 2012 May 11;12(6):375. doi: 10.1038/nrc3279.",
+            "type": "Comment in",
+            "orderIn": 1
+          },
+          {
+            "source": "MED",
+            "id": "22722187",
+            "reference": "Nature. 2012 Jun 20;486(7403):328-9. doi: 10.1038/486328a.",
+            "type": "Comment in",
+            "orderIn": 2
+          },
+          {
+            "source": "MED",
+            "id": "23113888",
+            "reference": "Breast Cancer Res. 2012 Oct 31;14(5):323. doi: 10.1186/bcr3325.",
+            "type": "Comment in",
+            "orderIn": 3
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.715297919.790852811",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.715297919.791053004",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "razavi-2019",
+      "pmid": "31768066",
+      "pmcid": "PMC7061455",
+      "doi": "10.1038/s41591-019-0652-7",
+      "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+      "authors": "Razavi P, Li BT, Brown DN, Jung B, Hubbell E, Shen R, Abida W, Juluru K, De Bruijn I, Hou C, Venn O, Lim R, Anand A, Maddala T, Gnerre S, Vijaya Satya R, Liu Q, Shen L, Eattock N, Yue J, Blocker AW, Lee M, Sehnert A, Xu H, Hall MP, Santiago-Zayas A, Novotny WF, Isbell JM, Rusch VW, Plitas G, Heerdt AS, Ladanyi M, Hyman DM, Jones DR, Morrow M, Riely GJ, Scher HI, Rudin CM, Robson ME, Diaz LA, Solit DB, Aravanis AM, Reis-Filho JS.",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31768066/",
+      "metadataCaptureSha256": "a59e5c7923246f5077c36ebc2e684666c8ae70ffbca5d66d83478fbb9ccce975",
+      "crossrefCaptureSha256": "91b6ca5fa01c30db759a02a333d1d97204f47480e4e08d1a9b06b817b037f6d1",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete raw abstract read. No whole-paper reading claim.",
+      "abstractSha256": "cabff0898fb6bcb699e303acf89ab01186805b75d954768244b931ef82c308f5",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "32016102",
+            "reference": "Ann Transl Med. 2019 Dec;7(Suppl 8):S384. doi: 10.21037/atm.2019.12.97",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "moss-2018",
+      "pmid": "30498206",
+      "pmcid": "PMC6265251",
+      "doi": "10.1038/s41467-018-07466-6",
+      "title": "Comprehensive human cell-type methylation atlas reveals origins of circulating cell-free DNA in health and disease.",
+      "authors": "Moss J, Magenheim J, Neiman D, Zemmour H, Loyfer N, Korach A, Samet Y, Maoz M, Druid H, Arner P, Fu KY, Kiss E, Spalding KL, Landesberg G, Zick A, Grinshpun A, Shapiro AMJ, Grompe M, Wittenberg AD, Glaser B, Shemer R, Kaplan T, Dor Y.",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30498206/",
+      "metadataCaptureSha256": "5e7f7a17b3881391fa24f78db7e301268f1cbad60c2d1b7931391b65d909976f",
+      "crossrefCaptureSha256": "d0e09dbd0875224c77e99818dc6e5cce401d2e7d51dc12160ebd4501092a0f1d",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete raw abstract read. No whole-paper reading claim.",
+      "abstractSha256": "88736b7efbbb36055bcb4f979d81cf09e094ce0b2b4078e1ae7a1a4ae25946b4",
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR59392",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "crossrefRelations": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/448142",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "analytical-limits",
+      "pmid": "18852857",
+      "pmcid": "PMC2556583",
+      "doi": null,
+      "title": "Limit of blank, limit of detection and limit of quantitation.",
+      "authors": "Armbruster DA, Pry T.",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18852857/",
+      "metadataCaptureSha256": "f4dde1db9d384014d133cd9871818845110ad1e5348d7a4c4b52edfa961f1012",
+      "crossrefCaptureSha256": null,
+      "crossrefStatus": null,
+      "readingDepth": "Complete raw abstract read. No whole-paper reading claim.",
+      "abstractSha256": "d935ba2348606fe3f7356809e9b066a779e02dedb4c1b01b3897699ebfecd62a",
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    },
+    {
+      "sourceId": "mri-vascular-2021",
+      "pmid": "33863924",
+      "pmcid": "PMC8052427",
+      "doi": "10.1038/s41523-021-00247-3",
+      "title": "Dynamic contrast-enhanced breast MRI features correlate with invasive breast cancer angiogenesis.",
+      "authors": "Xiao J, Rahbar H, Hippe DS, Rendi MH, Parker EU, Shekar N, Hirano M, Cheung KJ, Partridge SC.",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33863924/",
+      "metadataCaptureSha256": "2db6e3154ad6e0355f53dca6aede8c6f1cbd12f904f59b3467634b7703efc7bc",
+      "crossrefCaptureSha256": "fb0c90960f4bd8de92b6ad899b7af1b936356f3f469eb2cb58af251df91b82d6",
+      "crossrefStatus": 200,
+      "readingDepth": "Complete abstract plus 2 targeted body paragraphs; not the whole paper.",
+      "abstractSha256": "9349432e66f0bdc1cbc17380530a8ceffe644e67a85a28b38dbf63035dcde88d",
+      "commentCorrectionList": null,
+      "crossrefRelations": {},
+      "crossrefUpdates": []
+    }
+  ],
+  "linkedCorrection": {
+    "pmid": "40465236",
+    "pmcid": "PMC12138792",
+    "doi": "10.1001/jamasurg.2025.1980",
+    "title": "Error in Limitations.",
+    "correctsPmid": "40332918",
+    "metadataCaptureSha256": "67f76136a517e2db145776a56ad47be59cb522cd7484305b7c5828a356a2f1f6",
+    "readingDepth": "Identity verified. Official JAMA/PMC search extracts describe a limitations-text correction, but raw publisher access is challenged, efetch has no article body and BioC has no result. Not adopted as raw-text verification or closure of the earlier erratum follow-up.",
+    "sourceURLs": [
+      "https://jamanetwork.com/journals/jamasurgery/fullarticle/2835039",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC12138792/"
+    ],
+    "clinicalFiguresAdoptedFromCorrection": false
+  },
+  "officialDefinitions": [
+    {
+      "sourceId": "nci-api-circulating-tumor-cell",
+      "termName": "circulating tumor cell",
+      "termId": 811570,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "circulating-tumor-cell",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/circulating-tumor-cell",
+      "captureSha256": "5db0e26c9f94ad85d0b06b618a4dfb7b63f141a2d42704ca8946c2d796bf08fc",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    },
+    {
+      "sourceId": "nci-api-circulating-tumor-dna",
+      "termName": "circulating tumor DNA",
+      "termId": 805629,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "circulating-tumor-dna",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/circulating-tumor-dna",
+      "captureSha256": "746f8ae79ad01983ae1f6c9c4a7a21a8da9675d13580b80aec5959640c5571e4",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    },
+    {
+      "sourceId": "nci-api-follow-up-care",
+      "termName": "follow-up care",
+      "termId": 774384,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "follow-up-care",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/follow-up-care",
+      "captureSha256": "3042bc6b4aec233f0e641e020cb7b0a8ce7c737c7c75c57d15c8b8b979d172ed",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    },
+    {
+      "sourceId": "nci-api-magnetic-resonance-imaging",
+      "termName": "magnetic resonance imaging",
+      "termId": 45997,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "magnetic-resonance-imaging",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/magnetic-resonance-imaging",
+      "captureSha256": "ce6eae4df04ade1e552547f961a10afdc68df928041c0ae695ff2abcb0fb3cbf",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    },
+    {
+      "sourceId": "nci-api-mammography",
+      "termName": "mammography",
+      "termId": 45996,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "mammography",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/mammography",
+      "captureSha256": "e92ff90fe3b4ceb2f2eb20d794521de314d36f8a8d9f0d82870d1d37ef02823d",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    },
+    {
+      "sourceId": "nci-api-pet-ct-scan",
+      "termName": "PET-CT scan",
+      "termId": 742485,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "pet-ct-scan",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/pet-ct-scan",
+      "captureSha256": "5dd5b0419d041d770b20b27f87304d8e7ef2ea5552eb59abda00b9a3c6d76ce0",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    },
+    {
+      "sourceId": "nci-api-pet-scan",
+      "termName": "PET scan",
+      "termId": 46140,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "pet-scan",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/pet-scan",
+      "captureSha256": "7b64d238c607c3f205eec56bcf04a2f030b5c998afc920530cd360f34742276c",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    },
+    {
+      "sourceId": "nci-api-ultrasound",
+      "termName": "ultrasound",
+      "termId": 46157,
+      "dictionary": "Cancer.gov",
+      "audience": "Patient",
+      "language": "en",
+      "prettyUrlName": "ultrasound",
+      "url": "https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/ultrasound",
+      "captureSha256": "2c0d6a1431f852dec5b583c39f6764c646e632c7397719828bac85f63c57cf4f",
+      "readingDepth": "Complete raw definition and identity read; not all linked clinical pages."
+    }
+  ],
+  "guidance": [
+    {
+      "sourceId": "fda-ctdna-2024",
+      "url": "https://www.fda.gov/media/183874/download",
+      "captureSha256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+      "date": "November 2024",
+      "scope": "Nonbinding curative-intent solid-tumour drug-development guidance, not a routine clinical surveillance schedule.",
+      "readingDepth": "Targeted main text on PDF pages 6 to 11, with introductory definition/background paragraphs on page 5. PDF pages 9, 10 and 11 rendered and viewed in full. Not the complete guidance or all footnotes.",
+      "textPages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "viewedPdfPages": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "sourceId": "fda-diagnostic-2007",
+      "url": "https://www.fda.gov/media/71147/download",
+      "captureSha256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+      "date": "March 2007",
+      "scope": "Diagnostic-test study sensitivity, reference-standard, intended-use and reporting definitions.",
+      "readingDepth": "Targeted text on PDF pages 7, 14 and 21, not the entire guidance. Poppler emitted a default-config warning while producing the text layer; no layout certification.",
+      "textPages": [
+        7,
+        14,
+        21
+      ],
+      "viewedPdfPages": []
+    }
+  ],
+  "officialAndProfessionalSources": [
+    {
+      "sourceId": "nci-lead-time.html",
+      "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean",
+      "captureSha256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readingDepth": "Selected relevant raw HTML paragraphs only; not the whole page.",
+      "scope": "Lead-time bias and the unchanged-death-date example; screening-context anxiety and procedures motivate outcomes to assess, without borrowing an MRD harm rate"
+    },
+    {
+      "sourceId": "fda-surrogate.html",
+      "url": "https://www.fda.gov/drugs/development-resources/surrogate-endpoint-resources-drug-and-biologic-development",
+      "captureSha256": "f7993b73410181521a1697816e5ea87b678ac63221afe68d2cb82f11d3b9c120",
+      "readingDepth": "Selected relevant raw HTML paragraphs only; not the whole page.",
+      "scope": "Context-specific surrogate validation and clinical outcomes"
+    },
+    {
+      "sourceId": "mri-radiologyinfo.html",
+      "url": "https://www.radiologyinfo.org/en/info/breastmr",
+      "captureSha256": "ad038bb7c24d7a8bdb3cdc4a2249403fc1cdd993a1e5886bc8d228d57b9f98ff",
+      "readingDepth": "Selected relevant raw HTML paragraphs only; not the whole page.",
+      "scope": "Regional breast MRI, imaging physics and contrast use"
+    }
+  ],
+  "counts": {
+    "publicationIdentities": 13,
+    "linkedCorrectionIdentities": 1,
+    "completeAbstractsRead": 13,
+    "wholePapersRead": 0,
+    "targetedBodyParagraphs": 26,
+    "requests": 70,
+    "retainedRawBodies": 69,
+    "accessErrorReceipts": 1,
+    "rawApiDefinitionsRead": 8
+  },
+  "limits": [
+    "S-002 remains partial: the reported 9% final-draw rate is verified in the abstract and body, but the exact evaluable denominator in Figure 3 was not obtained. Do not use 84 as that denominator.",
+    "All original/later identities are verified. Every later body and all original/later diffs are read; unchanged original lines are not claimed independently reread.",
+    "No whole original paper, review or guidance is claimed read. Abstracts, the 26 named body paragraphs and selected official paragraphs/PDF text keep their depth.",
+    "The Basik original efetch contains metadata rather than an article body. Its current abstract supports the scoped result; the raw erratum body remains inaccessible and its earlier follow-up stays open.",
+    "PMC article/Bookshelf HTML, Europe PMC PDFs and publisher routes sometimes return challenge pages, errors or metadata. HTML served under a PDF filename is not treated as a PDF. No challenges were bypassed.",
+    "The existing VAF definition and other unchanged canonical assertions retain their inherited primary-reading scope. Earlier catalogue claims outside the selected field excerpts are not blanket recertified.",
+    "Eight stale cfDNA translations are withdrawn to English fallback and Simple English corrected; no independent language approval."
+  ],
+  "elicit": {
+    "scientificInterfaceCallable": false,
+    "toolMetadataMatches": [
+      "mcp__t3_code__delegate_task",
+      "mcp__t3_code__task_status"
+    ],
+    "reason": "These task tools mention Elicit but are not scientific Elicit interfaces; no question, report or response invented.",
+    "frozenLiteratureOccurrences": 917
+  }
+}

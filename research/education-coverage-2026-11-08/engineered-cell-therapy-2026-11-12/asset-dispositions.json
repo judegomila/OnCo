@@ -1,0 +1,31 @@
+{
+  "newTeachingEntries": [
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-dark.png",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-light.png",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/solid-tumor-journey-dark.png",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/solid-tumor-journey-light.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-dark.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/cytokine-message-and-receptor-v2-light.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/solid-tumor-journey-dark.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/solid-tumor-journey-light.png"
+  ],
+  "retainedEarlierTeachingEntries": [
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/instructions-to-car-dark.png",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/instructions-to-car-light.png",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+    "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/instructions-to-car-dark.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/instructions-to-car-light.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-dark.png",
+    "c96896452386202405c435aa161bc5047919337a:wiki/education/cellular-therapies/images/where-cells-are-engineered-v2-light.png"
+  ],
+  "freshPNGFilesViewed": 8,
+  "sourceAssetVersionEntries": 16,
+  "originalScopeChanges": 4,
+  "laterScopeChanges": 4,
+  "uniqueMermaidCodes": 3,
+  "freshMermaidThemeRenders": 6,
+  "embeddedDiagramVersionInstances": 6,
+  "sourceArtworkImported": false,
+  "expertAccessibilityOrLiveGuideApproval": false
+}

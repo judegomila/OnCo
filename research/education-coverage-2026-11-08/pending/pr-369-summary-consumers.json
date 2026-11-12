@@ -1,0 +1,2153 @@
+{
+  "version": "draft-369-summary-consumers",
+  "state": "Actual selected summary entries in data draft #369; 209 present and 25 English fallbacks; not graph entities or named-language review.",
+  "scope": "Available text is an actual dictionary entry. Missing entries are retained explicitly and use the English fallback; this is not evidence of a completed translation or language review. kind is an audit owner type.",
+  "records": [
+    {
+      "id": "sn-38-ar",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (ar)",
+      "canonicalRecordId": "sn-38",
+      "language": "ar",
+      "available": true,
+      "text": "SN-38 ناتج أيضي للإيرينوتيكان يُستخدم حمولةً في ساسيتوزوماب غوفيتيكان؛ يعتمد تحرره وعدده وسلامته على المنتج الكامل."
+    },
+    {
+      "id": "sn-38-de",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (de)",
+      "canonicalRecordId": "sn-38",
+      "language": "de",
+      "available": true,
+      "text": "SN-38 ist ein Irinotecan-Metabolit und die Fracht von Sacituzumab Govitecan; Freisetzung, Beladung und Sicherheit hängen vom gesamten Präparat ab."
+    },
+    {
+      "id": "sn-38-es",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (es)",
+      "canonicalRecordId": "sn-38",
+      "language": "es",
+      "available": true,
+      "text": "SN-38 es un metabolito del irinotecán y la carga de sacituzumab govitecán; su liberación, cantidad y seguridad dependen del producto completo."
+    },
+    {
+      "id": "sn-38-fr",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (fr)",
+      "canonicalRecordId": "sn-38",
+      "language": "fr",
+      "available": true,
+      "text": "Le SN-38 est un métabolite de l’irinotécan et la charge du sacituzumab govitécan ; sa libération, sa quantité et sa sécurité dépendent du produit complet."
+    },
+    {
+      "id": "sn-38-hi",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (hi)",
+      "canonicalRecordId": "sn-38",
+      "language": "hi",
+      "available": true,
+      "text": "SN-38 इरिनोटेकैन का एक मेटाबोलाइट और सैसिटुज़ुमैब गोविटेकैन का पेलोड है; उसका निकलना, मात्रा और सुरक्षा पूरे उत्पाद पर निर्भर हैं।"
+    },
+    {
+      "id": "sn-38-ja",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (ja)",
+      "canonicalRecordId": "sn-38",
+      "language": "ja",
+      "available": true,
+      "text": "SN-38はイリノテカンの代謝物で、サシツズマブ ゴビテカンのペイロードです。放出、搭載数、安全性は製剤全体の条件で考えます。"
+    },
+    {
+      "id": "sn-38-pt",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (pt)",
+      "canonicalRecordId": "sn-38",
+      "language": "pt",
+      "available": true,
+      "text": "SN-38 é um metabolito do irinotecano e a carga do sacituzumab govitecano; libertação, quantidade e segurança dependem do produto completo."
+    },
+    {
+      "id": "sn-38-zh",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (zh)",
+      "canonicalRecordId": "sn-38",
+      "language": "zh",
+      "available": true,
+      "text": "SN-38是伊立替康的代谢物，也是戈沙妥珠单抗的载荷；释放、装载数量和安全性须结合完整产品判断。"
+    },
+    {
+      "id": "sn-38-simple",
+      "kind": "reader-summary-entry",
+      "name": "SN-38 (simple)",
+      "canonicalRecordId": "sn-38",
+      "language": "simple",
+      "available": true,
+      "text": "SN-38 is a cell-killing chemical carried by sacituzumab govitecan. Its release, amount and risks depend on the whole drug."
+    },
+    {
+      "id": "dxd-ar",
+      "kind": "reader-summary-entry",
+      "name": "DXd (ar)",
+      "canonicalRecordId": "dxd",
+      "language": "ar",
+      "available": true,
+      "text": "DXd سمّ يستهدف توبويزوميراز I؛ الجزيء المتحرر ومركّب الرابط والدواء والجسم المضاد المقترن أشياء مختلفة."
+    },
+    {
+      "id": "dxd-de",
+      "kind": "reader-summary-entry",
+      "name": "DXd (de)",
+      "canonicalRecordId": "dxd",
+      "language": "de",
+      "available": true,
+      "text": "DXd ist ein von Exatecan abgeleitetes Topoisomerase-Gift; freier Wirkstoff, Linker-Wirkstoff und vollständiges Antikörperkonjugat sind verschiedene Objekte."
+    },
+    {
+      "id": "dxd-es",
+      "kind": "reader-summary-entry",
+      "name": "DXd (es)",
+      "canonicalRecordId": "dxd",
+      "language": "es",
+      "available": true,
+      "text": "DXd es un veneno de topoisomerasa derivado del exatecán; la sustancia libre, el enlazador-fármaco y el conjugado completo son objetos distintos."
+    },
+    {
+      "id": "dxd-fr",
+      "kind": "reader-summary-entry",
+      "name": "DXd (fr)",
+      "canonicalRecordId": "dxd",
+      "language": "fr",
+      "available": true,
+      "text": "Le DXd est un poison de topoisomérase dérivé de l’exatécan ; la molécule libre, le couple liaison-médicament et le conjugué complet sont distincts."
+    },
+    {
+      "id": "dxd-hi",
+      "kind": "reader-summary-entry",
+      "name": "DXd (hi)",
+      "canonicalRecordId": "dxd",
+      "language": "hi",
+      "available": true,
+      "text": "DXd एक्साटेकैन से बना टोपोआइसोमेरेज़ विष है; मुक्त दवा, लिंकर-दवा और पूरा एंटीबॉडी संयुग्म अलग वस्तुएँ हैं।"
+    },
+    {
+      "id": "dxd-ja",
+      "kind": "reader-summary-entry",
+      "name": "DXd (ja)",
+      "canonicalRecordId": "dxd",
+      "language": "ja",
+      "available": true,
+      "text": "DXdはエキサテカン由来のトポイソメラーゼ毒です。遊離薬、リンカー薬物、抗体との複合体全体は別のものです。"
+    },
+    {
+      "id": "dxd-pt",
+      "kind": "reader-summary-entry",
+      "name": "DXd (pt)",
+      "canonicalRecordId": "dxd",
+      "language": "pt",
+      "available": true,
+      "text": "DXd é um veneno da topoisomerase derivado do exatecano; a molécula livre, o ligante-fármaco e o conjugado completo são objetos distintos."
+    },
+    {
+      "id": "dxd-zh",
+      "kind": "reader-summary-entry",
+      "name": "DXd (zh)",
+      "canonicalRecordId": "dxd",
+      "language": "zh",
+      "available": true,
+      "text": "DXd是依喜替康衍生的拓扑异构酶毒物；游离药物、连接子-药物组分和完整抗体偶联物是不同对象。"
+    },
+    {
+      "id": "dxd-simple",
+      "kind": "reader-summary-entry",
+      "name": "DXd (simple)",
+      "canonicalRecordId": "dxd",
+      "language": "simple",
+      "available": true,
+      "text": "DXd is the cell-killing chemical released by some antibody drugs. The free chemical, its linked form and the whole antibody drug are different things."
+    },
+    {
+      "id": "t030-ar",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (ar)",
+      "canonicalRecordId": "t030",
+      "language": "ar",
+      "available": true,
+      "text": "T030، أو KL610023، حمولة مشتقة من بيلوتيكان في SKB264؛ وهو مختلف عن الوسيط الرابط والدواء TL033."
+    },
+    {
+      "id": "t030-de",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (de)",
+      "canonicalRecordId": "t030",
+      "language": "de",
+      "available": true,
+      "text": "T030, auch KL610023, ist die von Belotecan abgeleitete Fracht in SKB264 und vom Linker-Wirkstoff-Zwischenprodukt TL033 zu unterscheiden."
+    },
+    {
+      "id": "t030-es",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (es)",
+      "canonicalRecordId": "t030",
+      "language": "es",
+      "available": true,
+      "text": "T030, también llamado KL610023, es la carga derivada de belotecán de SKB264; se distingue del intermediario enlazador-fármaco TL033."
+    },
+    {
+      "id": "t030-fr",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (fr)",
+      "canonicalRecordId": "t030",
+      "language": "fr",
+      "available": true,
+      "text": "Le T030, aussi nommé KL610023, est la charge dérivée du bélotécan de SKB264 ; il se distingue de l’intermédiaire liaison-médicament TL033."
+    },
+    {
+      "id": "t030-hi",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (hi)",
+      "canonicalRecordId": "t030",
+      "language": "hi",
+      "available": true,
+      "text": "T030, जिसे KL610023 भी कहते हैं, SKB264 में बेलोटेकैन से बना पेलोड है; यह TL033 लिंकर-दवा मध्यवर्ती से अलग है।"
+    },
+    {
+      "id": "t030-ja",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (ja)",
+      "canonicalRecordId": "t030",
+      "language": "ja",
+      "available": true,
+      "text": "T030（KL610023）はSKB264のベロテカン由来ペイロードで、リンカー薬物中間体TL033とは異なります。"
+    },
+    {
+      "id": "t030-pt",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (pt)",
+      "canonicalRecordId": "t030",
+      "language": "pt",
+      "available": true,
+      "text": "T030, também chamado KL610023, é a carga derivada do belotecano em SKB264 e difere do intermediário ligante-fármaco TL033."
+    },
+    {
+      "id": "t030-zh",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (zh)",
+      "canonicalRecordId": "t030",
+      "language": "zh",
+      "available": true,
+      "text": "T030又称KL610023，是SKB264中的贝洛替康衍生载荷，与连接子-药物中间体TL033不同。"
+    },
+    {
+      "id": "t030-simple",
+      "kind": "reader-summary-entry",
+      "name": "T030 (KL610023) (simple)",
+      "canonicalRecordId": "t030",
+      "language": "simple",
+      "available": true,
+      "text": "T030, also called KL610023, is the cell-killing chemical in SKB264. It is different from the linked component called TL033."
+    },
+    {
+      "id": "mmae-ar",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (ar)",
+      "canonicalRecordId": "mmae",
+      "language": "ar",
+      "available": true,
+      "text": "MMAE حمولة أورستاتين تعطل التوبولين؛ اشتراك الأدوية في الحمولة لا يجعل توصيلها أو سلامتها متماثلين."
+    },
+    {
+      "id": "mmae-de",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (de)",
+      "canonicalRecordId": "mmae",
+      "language": "de",
+      "available": true,
+      "text": "MMAE ist eine tubulinstörende Auristatin-Fracht; dieselbe Fracht macht verschiedene Vedotin-Präparate nicht gleichwertig."
+    },
+    {
+      "id": "mmae-es",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (es)",
+      "canonicalRecordId": "mmae",
+      "language": "es",
+      "available": true,
+      "text": "MMAE es una auristatina que altera la tubulina; compartir la carga no hace equivalentes la distribución ni la seguridad de los distintos productos vedotina."
+    },
+    {
+      "id": "mmae-fr",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (fr)",
+      "canonicalRecordId": "mmae",
+      "language": "fr",
+      "available": true,
+      "text": "Le MMAE est une auristatine qui perturbe la tubuline ; une charge commune ne rend pas équivalents la distribution et les risques des produits védotine."
+    },
+    {
+      "id": "mmae-hi",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (hi)",
+      "canonicalRecordId": "mmae",
+      "language": "hi",
+      "available": true,
+      "text": "MMAE ट्यूबुलिन को बाधित करने वाला ऑरिस्टैटिन है; एक पेलोड साझा करने से अलग वेडोटिन उत्पादों का वितरण और सुरक्षा समान नहीं हो जाते।"
+    },
+    {
+      "id": "mmae-ja",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (ja)",
+      "canonicalRecordId": "mmae",
+      "language": "ja",
+      "available": true,
+      "text": "MMAEはチューブリンを阻害するアウリスタチンです。同じペイロードでも、ベドチン製剤間で送達や安全性が同じとは限りません。"
+    },
+    {
+      "id": "mmae-pt",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (pt)",
+      "canonicalRecordId": "mmae",
+      "language": "pt",
+      "available": true,
+      "text": "MMAE é uma auristatina que perturba a tubulina; uma carga comum não torna iguais a distribuição e a segurança dos diferentes produtos vedotina."
+    },
+    {
+      "id": "mmae-zh",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (zh)",
+      "canonicalRecordId": "mmae",
+      "language": "zh",
+      "available": true,
+      "text": "MMAE是干扰微管蛋白的奥瑞他汀载荷；使用相同载荷不代表不同维多汀产品的递送和安全性相同。"
+    },
+    {
+      "id": "mmae-simple",
+      "kind": "reader-summary-entry",
+      "name": "MMAE (simple)",
+      "canonicalRecordId": "mmae",
+      "language": "simple",
+      "available": true,
+      "text": "MMAE blocks the scaffolding cells use to divide. Drugs carrying it can still differ in how they reach cells and in their risks."
+    },
+    {
+      "id": "mmaf-ar",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (ar)",
+      "canonicalRecordId": "mmaf",
+      "language": "ar",
+      "available": true,
+      "text": "MMAF الحر والمستقلب المحتوي على السيستئين cys-mcMMAF مادتان مختلفتان؛ يجب فصل نتائج النفاذية والناقلات لكل منهما."
+    },
+    {
+      "id": "mmaf-de",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (de)",
+      "canonicalRecordId": "mmaf",
+      "language": "de",
+      "available": true,
+      "text": "Freies MMAF und der cysteinhaltige Metabolit cys-mcMMAF sind unterschiedliche Stoffe; Membran- und Transporterbefunde müssen getrennt bleiben."
+    },
+    {
+      "id": "mmaf-es",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (es)",
+      "canonicalRecordId": "mmaf",
+      "language": "es",
+      "available": true,
+      "text": "El MMAF libre y el metabolito con cisteína cys-mcMMAF son sustancias distintas; sus resultados de membrana y transportadores deben mantenerse separados."
+    },
+    {
+      "id": "mmaf-fr",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (fr)",
+      "canonicalRecordId": "mmaf",
+      "language": "fr",
+      "available": true,
+      "text": "Le MMAF libre et le métabolite contenant une cystéine cys-mcMMAF sont différents ; leurs résultats de perméabilité et de transport doivent rester séparés."
+    },
+    {
+      "id": "mmaf-hi",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (hi)",
+      "canonicalRecordId": "mmaf",
+      "language": "hi",
+      "available": true,
+      "text": "मुक्त MMAF और सिस्टीन वाला cys-mcMMAF मेटाबोलाइट अलग पदार्थ हैं; उनकी झिल्ली और ट्रांसपोर्टर संबंधी खोजों को अलग रखना चाहिए।"
+    },
+    {
+      "id": "mmaf-ja",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (ja)",
+      "canonicalRecordId": "mmaf",
+      "language": "ja",
+      "available": true,
+      "text": "遊離MMAFとシステインを含む代謝物cys-mcMMAFは別の物質です。膜通過性や輸送体の結果を混同しません。"
+    },
+    {
+      "id": "mmaf-pt",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (pt)",
+      "canonicalRecordId": "mmaf",
+      "language": "pt",
+      "available": true,
+      "text": "MMAF livre e o metabolito com cisteína cys-mcMMAF são substâncias distintas; os seus resultados de membrana e transportadores devem ficar separados."
+    },
+    {
+      "id": "mmaf-zh",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (zh)",
+      "canonicalRecordId": "mmaf",
+      "language": "zh",
+      "available": true,
+      "text": "游离MMAF与含半胱氨酸的代谢物cys-mcMMAF是不同物质，不能混用其膜通透性和转运体研究结果。"
+    },
+    {
+      "id": "mmaf-simple",
+      "kind": "reader-summary-entry",
+      "name": "MMAF (simple)",
+      "canonicalRecordId": "mmaf",
+      "language": "simple",
+      "available": true,
+      "text": "Free MMAF and the cysteine-containing chemical released from a mafodotin drug are different substances. Results for one do not automatically apply to the other."
+    },
+    {
+      "id": "dm1-ar",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (ar)",
+      "canonicalRecordId": "dm1",
+      "language": "ar",
+      "available": true,
+      "text": "DM1 الحر ومركّب MCC-DM1 والمستقلب المحتوي على الليسين مواد مختلفة؛ لا تُنقل نتيجة النفاذية من أحدها إلى الآخر."
+    },
+    {
+      "id": "dm1-de",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (de)",
+      "canonicalRecordId": "dm1",
+      "language": "de",
+      "available": true,
+      "text": "Freies DM1, MCC-DM1 und ein lysinhaltiger Abbaumetabolit sind verschiedene Stoffe; ein Membranbefund gilt nicht automatisch für alle."
+    },
+    {
+      "id": "dm1-es",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (es)",
+      "canonicalRecordId": "dm1",
+      "language": "es",
+      "available": true,
+      "text": "DM1 libre, MCC-DM1 y el metabolito con lisina son sustancias distintas; una medida de permeabilidad no se aplica automáticamente a todas."
+    },
+    {
+      "id": "dm1-fr",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (fr)",
+      "canonicalRecordId": "dm1",
+      "language": "fr",
+      "available": true,
+      "text": "Le DM1 libre, MCC-DM1 et le métabolite contenant une lysine sont différents ; une mesure de perméabilité ne s’applique pas automatiquement à tous."
+    },
+    {
+      "id": "dm1-hi",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (hi)",
+      "canonicalRecordId": "dm1",
+      "language": "hi",
+      "available": true,
+      "text": "मुक्त DM1, MCC-DM1 और लाइसीन वाला मेटाबोलाइट अलग पदार्थ हैं; एक की पारगम्यता का परिणाम सभी पर लागू नहीं होता।"
+    },
+    {
+      "id": "dm1-ja",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (ja)",
+      "canonicalRecordId": "dm1",
+      "language": "ja",
+      "available": true,
+      "text": "遊離DM1、MCC-DM1、リシンを含む分解産物は別の物質で、一つの膜通過性の結果を全てに当てはめません。"
+    },
+    {
+      "id": "dm1-pt",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (pt)",
+      "canonicalRecordId": "dm1",
+      "language": "pt",
+      "available": true,
+      "text": "DM1 livre, MCC-DM1 e o metabolito com lisina são substâncias distintas; uma medida de permeabilidade não se aplica automaticamente a todas."
+    },
+    {
+      "id": "dm1-zh",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (zh)",
+      "canonicalRecordId": "dm1",
+      "language": "zh",
+      "available": true,
+      "text": "游离DM1、MCC-DM1及含赖氨酸的分解产物是不同物质，不能把一种物质的通透性结果套用到全部形式。"
+    },
+    {
+      "id": "dm1-simple",
+      "kind": "reader-summary-entry",
+      "name": "DM1 (simple)",
+      "canonicalRecordId": "dm1",
+      "language": "simple",
+      "available": true,
+      "text": "Free DM1, its linked form and the chemical left after antibody breakdown are different substances. A membrane test of one does not measure all of them."
+    },
+    {
+      "id": "dm4-ar",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (ar)",
+      "canonicalRecordId": "dm4",
+      "language": "ar",
+      "available": true,
+      "text": "DM4 حمولة تعطل التوبولين؛ يجب تمييز المركّب المرتبط وDM4 الحر ومستقلب S-methyl-DM4."
+    },
+    {
+      "id": "dm4-de",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (de)",
+      "canonicalRecordId": "dm4",
+      "language": "de",
+      "available": true,
+      "text": "DM4 ist eine tubulinstörende Fracht; gebundene Komponente, freies DM4 und S-Methyl-DM4 sind getrennt zu benennen."
+    },
+    {
+      "id": "dm4-es",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (es)",
+      "canonicalRecordId": "dm4",
+      "language": "es",
+      "available": true,
+      "text": "DM4 altera la tubulina; hay que distinguir el componente unido, DM4 libre y el metabolito S-metil-DM4."
+    },
+    {
+      "id": "dm4-fr",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (fr)",
+      "canonicalRecordId": "dm4",
+      "language": "fr",
+      "available": true,
+      "text": "Le DM4 perturbe la tubuline ; il faut distinguer le composant lié, le DM4 libre et le métabolite S-méthyl-DM4."
+    },
+    {
+      "id": "dm4-hi",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (hi)",
+      "canonicalRecordId": "dm4",
+      "language": "hi",
+      "available": true,
+      "text": "DM4 ट्यूबुलिन को बाधित करता है; जुड़े घटक, मुक्त DM4 और S-मिथाइल-DM4 मेटाबोलाइट को अलग पहचानना चाहिए।"
+    },
+    {
+      "id": "dm4-ja",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (ja)",
+      "canonicalRecordId": "dm4",
+      "language": "ja",
+      "available": true,
+      "text": "DM4はチューブリンを阻害します。結合成分、遊離DM4、代謝物S-メチル-DM4を区別します。"
+    },
+    {
+      "id": "dm4-pt",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (pt)",
+      "canonicalRecordId": "dm4",
+      "language": "pt",
+      "available": true,
+      "text": "DM4 perturba a tubulina; é preciso distinguir o componente ligado, DM4 livre e o metabolito S-metil-DM4."
+    },
+    {
+      "id": "dm4-zh",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (zh)",
+      "canonicalRecordId": "dm4",
+      "language": "zh",
+      "available": true,
+      "text": "DM4干扰微管蛋白；须区分连接组分、游离DM4和S-甲基-DM4代谢物。"
+    },
+    {
+      "id": "dm4-simple",
+      "kind": "reader-summary-entry",
+      "name": "DM4 (simple)",
+      "canonicalRecordId": "dm4",
+      "language": "simple",
+      "available": true,
+      "text": "DM4 blocks the scaffolding cells use to divide. Its linked form, free chemical and S-methyl metabolite need separate names."
+    },
+    {
+      "id": "pbd-sg3199-ar",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (ar)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "ar",
+      "available": true,
+      "text": "SG3199 حمولة تربط شريطي الحمض النووي؛ تيسيرين، أو SG3249، هو مركّب الرابط والدواء وليس مرادفاً لـSG3199 الحر."
+    },
+    {
+      "id": "pbd-sg3199-de",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (de)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "de",
+      "available": true,
+      "text": "SG3199 ist ein DNA-vernetzendes PBD-Dimer; Tesirin, auch SG3249, bezeichnet die Linker-Wirkstoff-Komponente und ist kein Synonym für freies SG3199."
+    },
+    {
+      "id": "pbd-sg3199-es",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (es)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "es",
+      "available": true,
+      "text": "SG3199 es un dímero PBD que entrecruza el ADN; tesirina, o SG3249, es el componente enlazador-fármaco y no un sinónimo de SG3199 libre."
+    },
+    {
+      "id": "pbd-sg3199-fr",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (fr)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "fr",
+      "available": true,
+      "text": "Le SG3199 est un dimère PBD qui réticule l’ADN ; la tésirine, ou SG3249, désigne le couple liaison-médicament et non le SG3199 libre."
+    },
+    {
+      "id": "pbd-sg3199-hi",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (hi)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "hi",
+      "available": true,
+      "text": "SG3199 डीएनए को क्रॉसलिंक करने वाला PBD डाइमर है; टेसिरिन या SG3249 लिंकर-दवा घटक है, मुक्त SG3199 का पर्याय नहीं।"
+    },
+    {
+      "id": "pbd-sg3199-ja",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (ja)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "ja",
+      "available": true,
+      "text": "SG3199はDNAを架橋するPBD二量体です。テシリン（SG3249）はリンカー薬物成分で、遊離SG3199の別名ではありません。"
+    },
+    {
+      "id": "pbd-sg3199-pt",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (pt)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "pt",
+      "available": true,
+      "text": "SG3199 é um dímero PBD que faz ligações cruzadas no ADN; tesirina, ou SG3249, é o componente ligante-fármaco e não um sinónimo de SG3199 livre."
+    },
+    {
+      "id": "pbd-sg3199-zh",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (zh)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "zh",
+      "available": true,
+      "text": "SG3199是使DNA交联的PBD二聚体；tesirine又称SG3249，指连接子-药物组分，并非游离SG3199的同义词。"
+    },
+    {
+      "id": "pbd-sg3199-simple",
+      "kind": "reader-summary-entry",
+      "name": "SG3199 (PBD dimer) (simple)",
+      "canonicalRecordId": "pbd-sg3199",
+      "language": "simple",
+      "available": true,
+      "text": "SG3199 links strands of DNA together. Tesirine, also called SG3249, includes a linker and is different from free SG3199."
+    },
+    {
+      "id": "calicheamicin-ar",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (ar)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "ar",
+      "available": true,
+      "text": "الكاليشيميسينات حمولات تؤذي الحمض النووي؛ تختلف المكوّنات المعدلة في أدوية أوزوغامايسين عن أفراد العائلة غير المعدلة."
+    },
+    {
+      "id": "calicheamicin-de",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (de)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "de",
+      "available": true,
+      "text": "Calicheamicine schädigen DNA; die modifizierten Komponenten der Ozogamicin-Präparate unterscheiden sich von unveränderten Familienmitgliedern."
+    },
+    {
+      "id": "calicheamicin-es",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (es)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "es",
+      "available": true,
+      "text": "Las caliqueamicinas dañan el ADN; los componentes modificados de los productos ozogamicina son distintos de los miembros no modificados de la familia."
+    },
+    {
+      "id": "calicheamicin-fr",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (fr)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "fr",
+      "available": true,
+      "text": "Les calichéamicines endommagent l’ADN ; les composants modifiés des produits ozogamicine diffèrent des membres non modifiés de cette famille."
+    },
+    {
+      "id": "calicheamicin-hi",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (hi)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "hi",
+      "available": true,
+      "text": "कैलिकीमाइसिन डीएनए को क्षति पहुँचाते हैं; ओज़ोगैमिसिन उत्पादों के संशोधित घटक परिवार के असंशोधित सदस्यों से अलग हैं।"
+    },
+    {
+      "id": "calicheamicin-ja",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (ja)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "ja",
+      "available": true,
+      "text": "カリケアミシン類はDNAを傷つけるペイロードです。オゾガマイシン製剤の修飾成分は、未修飾の同族化合物とは異なります。"
+    },
+    {
+      "id": "calicheamicin-pt",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (pt)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "pt",
+      "available": true,
+      "text": "As caliqueamicinas danificam o ADN; os componentes modificados dos produtos ozogamicina diferem dos membros não modificados da família."
+    },
+    {
+      "id": "calicheamicin-zh",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (zh)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "zh",
+      "available": true,
+      "text": "卡利奇霉素类载荷可损伤DNA；奥唑米星偶联药使用的修饰组分与未修饰家族成员不同。"
+    },
+    {
+      "id": "calicheamicin-simple",
+      "kind": "reader-summary-entry",
+      "name": "Calicheamicin-family payloads (simple)",
+      "canonicalRecordId": "calicheamicin",
+      "language": "simple",
+      "available": true,
+      "text": "Calicheamicin-family chemicals damage DNA. The modified chemicals in antibody drugs differ from unmodified members of the family."
+    },
+    {
+      "id": "duocarmycin-ar",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (ar)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "ar",
+      "available": true,
+      "text": "تؤذي تصاميم الدوكارمايسين الحمض النووي بالألكلة؛ تختلف الطليعة الدوائية والجزيء النشط ومركّب الرابط والدواء."
+    },
+    {
+      "id": "duocarmycin-de",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (de)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "de",
+      "available": true,
+      "text": "Duocarmycin-Entwürfe alkylieren DNA; Prodrug, aktivierter Stoff und Linker-Wirkstoff sind unterschiedliche chemische Formen."
+    },
+    {
+      "id": "duocarmycin-es",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (es)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "es",
+      "available": true,
+      "text": "Los diseños de duocarmicina alquilan el ADN; el profármaco, la sustancia activada y el enlazador-fármaco son formas químicas diferentes."
+    },
+    {
+      "id": "duocarmycin-fr",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (fr)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "fr",
+      "available": true,
+      "text": "Les structures de duocarmycine alkylent l’ADN ; prodrogue, molécule activée et couple liaison-médicament sont des formes distinctes."
+    },
+    {
+      "id": "duocarmycin-hi",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (hi)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "hi",
+      "available": true,
+      "text": "डुओकार्माइसिन डिज़ाइन डीएनए का एल्काइलेशन करते हैं; प्रोड्रग, सक्रिय पदार्थ और लिंकर-दवा अलग रासायनिक रूप हैं।"
+    },
+    {
+      "id": "duocarmycin-ja",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (ja)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "ja",
+      "available": true,
+      "text": "デュオカルマイシンの設計はDNAをアルキル化します。プロドラッグ、活性化した物質、リンカー薬物は別の化学形です。"
+    },
+    {
+      "id": "duocarmycin-pt",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (pt)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "pt",
+      "available": true,
+      "text": "Os desenhos de duocarmicina alquilam o ADN; pró-fármaco, substância ativada e ligante-fármaco são formas químicas distintas."
+    },
+    {
+      "id": "duocarmycin-zh",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (zh)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "zh",
+      "available": true,
+      "text": "杜卡霉素类设计使DNA发生烷基化；前药、活化物质和连接子-药物是不同化学形式。"
+    },
+    {
+      "id": "duocarmycin-simple",
+      "kind": "reader-summary-entry",
+      "name": "Duocarmycin-family payloads (simple)",
+      "canonicalRecordId": "duocarmycin",
+      "language": "simple",
+      "available": true,
+      "text": "Duocarmycin designs damage DNA. Their inactive starting form, active chemical and linked component are different things."
+    },
+    {
+      "id": "af-hpa-ar",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (ar)",
+      "canonicalRecordId": "af-hpa",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-de",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (de)",
+      "canonicalRecordId": "af-hpa",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-es",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (es)",
+      "canonicalRecordId": "af-hpa",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-fr",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (fr)",
+      "canonicalRecordId": "af-hpa",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-hi",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (hi)",
+      "canonicalRecordId": "af-hpa",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-ja",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (ja)",
+      "canonicalRecordId": "af-hpa",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-pt",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (pt)",
+      "canonicalRecordId": "af-hpa",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-zh",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (zh)",
+      "canonicalRecordId": "af-hpa",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "af-hpa-simple",
+      "kind": "reader-summary-entry",
+      "name": "AF-HPA and auristatin F (simple)",
+      "canonicalRecordId": "af-hpa",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-ar",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (ar)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-de",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (de)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-es",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (es)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-fr",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (fr)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-hi",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (hi)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-ja",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (ja)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-pt",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (pt)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-zh",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (zh)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-simple",
+      "kind": "reader-summary-entry",
+      "name": "DM21-C peptide-linked maytansinoid system (simple)",
+      "canonicalRecordId": "dm21-c-maytansinoid-system",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cl2a-ar",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (ar)",
+      "canonicalRecordId": "cl2a",
+      "language": "ar",
+      "available": true,
+      "text": "CL2A رابط قابل للتحلل المائي يحرر SN-38؛ ولا ينحصر التحرر بالضرورة في الأنسجة الورمية الحمضية."
+    },
+    {
+      "id": "cl2a-de",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (de)",
+      "canonicalRecordId": "cl2a",
+      "language": "de",
+      "available": true,
+      "text": "CL2A setzt SN-38 durch Hydrolyse frei; die Freisetzung ist nicht zwangsläufig auf saures Tumorgewebe beschränkt."
+    },
+    {
+      "id": "cl2a-es",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (es)",
+      "canonicalRecordId": "cl2a",
+      "language": "es",
+      "available": true,
+      "text": "CL2A libera SN-38 por hidrólisis; la liberación no queda necesariamente confinada al tejido tumoral ácido."
+    },
+    {
+      "id": "cl2a-fr",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (fr)",
+      "canonicalRecordId": "cl2a",
+      "language": "fr",
+      "available": true,
+      "text": "CL2A libère le SN-38 par hydrolyse ; cette libération n’est pas nécessairement limitée au tissu tumoral acide."
+    },
+    {
+      "id": "cl2a-hi",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (hi)",
+      "canonicalRecordId": "cl2a",
+      "language": "hi",
+      "available": true,
+      "text": "CL2A हाइड्रोलिसिस से SN-38 छोड़ता है; निकलना केवल अम्लीय ट्यूमर ऊतक तक सीमित होना ज़रूरी नहीं।"
+    },
+    {
+      "id": "cl2a-ja",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (ja)",
+      "canonicalRecordId": "cl2a",
+      "language": "ja",
+      "available": true,
+      "text": "CL2Aは加水分解でSN-38を放出します。放出が酸性の腫瘍組織だけに限られるわけではありません。"
+    },
+    {
+      "id": "cl2a-pt",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (pt)",
+      "canonicalRecordId": "cl2a",
+      "language": "pt",
+      "available": true,
+      "text": "CL2A liberta SN-38 por hidrólise; a libertação não fica necessariamente limitada ao tecido tumoral ácido."
+    },
+    {
+      "id": "cl2a-zh",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (zh)",
+      "canonicalRecordId": "cl2a",
+      "language": "zh",
+      "available": true,
+      "text": "CL2A经水解释放SN-38；释放并不一定局限于酸性肿瘤组织。"
+    },
+    {
+      "id": "cl2a-simple",
+      "kind": "reader-summary-entry",
+      "name": "CL2A (simple)",
+      "canonicalRecordId": "cl2a",
+      "language": "simple",
+      "available": true,
+      "text": "CL2A is a linker that can release SN-38 through hydrolysis, a reaction involving water. Release is not necessarily confined to acidic tumour tissue."
+    },
+    {
+      "id": "ggfg-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (ar)",
+      "canonicalRecordId": "ggfg",
+      "language": "ar",
+      "available": true,
+      "text": "GGFG جزء من رابط يُعالج بالإنزيمات؛ يختلف متوسط عدد الحمولات بين المنتجات، ولا يثبت الرابط وحده سلامتها."
+    },
+    {
+      "id": "ggfg-de",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (de)",
+      "canonicalRecordId": "ggfg",
+      "language": "de",
+      "available": true,
+      "text": "GGFG gehört zu einem enzymatisch verarbeiteten Linker; mittlere Beladung und Sicherheit müssen für das jeweilige Präparat betrachtet werden."
+    },
+    {
+      "id": "ggfg-es",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (es)",
+      "canonicalRecordId": "ggfg",
+      "language": "es",
+      "available": true,
+      "text": "GGFG forma parte de un enlazador procesado por enzimas; la carga media y la seguridad deben evaluarse para cada producto."
+    },
+    {
+      "id": "ggfg-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (fr)",
+      "canonicalRecordId": "ggfg",
+      "language": "fr",
+      "available": true,
+      "text": "GGFG fait partie d’une liaison traitée par des enzymes ; la charge moyenne et la sécurité doivent être examinées pour chaque produit."
+    },
+    {
+      "id": "ggfg-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (hi)",
+      "canonicalRecordId": "ggfg",
+      "language": "hi",
+      "available": true,
+      "text": "GGFG एंज़ाइमों से संसाधित लिंकर का हिस्सा है; औसत पेलोड संख्या और सुरक्षा हर उत्पाद के लिए अलग देखनी चाहिए।"
+    },
+    {
+      "id": "ggfg-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (ja)",
+      "canonicalRecordId": "ggfg",
+      "language": "ja",
+      "available": true,
+      "text": "GGFGは酵素で処理されるリンカーの一部です。平均搭載数と安全性は製剤ごとに考えます。"
+    },
+    {
+      "id": "ggfg-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (pt)",
+      "canonicalRecordId": "ggfg",
+      "language": "pt",
+      "available": true,
+      "text": "GGFG faz parte de um ligante processado por enzimas; carga média e segurança devem ser avaliadas para cada produto."
+    },
+    {
+      "id": "ggfg-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (zh)",
+      "canonicalRecordId": "ggfg",
+      "language": "zh",
+      "available": true,
+      "text": "GGFG是经酶处理的连接子的一部分；平均装载数量和安全性须按具体产品判断。"
+    },
+    {
+      "id": "ggfg-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tetrapeptide GGFG (maleimide-GGFG-aminomethyl) (simple)",
+      "canonicalRecordId": "ggfg",
+      "language": "simple",
+      "available": true,
+      "text": "GGFG is part of a linker processed by enzymes. The number of attached chemicals and the risks depend on the particular product."
+    },
+    {
+      "id": "mc-vc-pabc-ar",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (ar)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "ar",
+      "available": true,
+      "text": "mc-Val-Cit-PABC تصميم رابط يمكن أن يحرر MMAE بعد المعالجة الإنزيمية؛ لا يعني ذلك تحرراً حصرياً داخل الورم."
+    },
+    {
+      "id": "mc-vc-pabc-de",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (de)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "de",
+      "available": true,
+      "text": "mc-Val-Cit-PABC kann nach enzymatischer Verarbeitung MMAE freisetzen; dies bedeutet keine ausschliessliche Freisetzung im Tumor."
+    },
+    {
+      "id": "mc-vc-pabc-es",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (es)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "es",
+      "available": true,
+      "text": "mc-Val-Cit-PABC puede liberar MMAE tras el procesamiento enzimático; esto no implica liberación exclusiva dentro del tumor."
+    },
+    {
+      "id": "mc-vc-pabc-fr",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (fr)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "fr",
+      "available": true,
+      "text": "mc-Val-Cit-PABC peut libérer du MMAE après traitement enzymatique ; cela ne signifie pas une libération exclusivement dans la tumeur."
+    },
+    {
+      "id": "mc-vc-pabc-hi",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (hi)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "hi",
+      "available": true,
+      "text": "mc-Val-Cit-PABC एंज़ाइमिक संसाधन के बाद MMAE छोड़ सकता है; इससे केवल ट्यूमर में ही निकलना सिद्ध नहीं होता।"
+    },
+    {
+      "id": "mc-vc-pabc-ja",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (ja)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "ja",
+      "available": true,
+      "text": "mc-Val-Cit-PABCは酵素処理後にMMAEを放出できるリンカーですが、腫瘍内だけで放出される証明ではありません。"
+    },
+    {
+      "id": "mc-vc-pabc-pt",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (pt)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "pt",
+      "available": true,
+      "text": "mc-Val-Cit-PABC pode libertar MMAE após processamento enzimático; isto não implica libertação exclusiva dentro do tumor."
+    },
+    {
+      "id": "mc-vc-pabc-zh",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (zh)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "zh",
+      "available": true,
+      "text": "mc-Val-Cit-PABC经酶处理后可释放MMAE，但这不代表只在肿瘤内释放。"
+    },
+    {
+      "id": "mc-vc-pabc-simple",
+      "kind": "reader-summary-entry",
+      "name": "mc-Val-Cit-PABC (simple)",
+      "canonicalRecordId": "mc-vc-pabc",
+      "language": "simple",
+      "available": true,
+      "text": "mc-Val-Cit-PABC is a linker design that can release MMAE after enzyme processing. That does not prove release happens only inside a tumour."
+    },
+    {
+      "id": "smcc-ar",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (ar)",
+      "canonicalRecordId": "smcc",
+      "language": "ar",
+      "available": true,
+      "text": "SMCC رابط غير مصمم لشطر الحمولة؛ يؤدي تحلل الجسم المضاد إلى نواتج مثل Lys-MCC-DM1، لا إلى DM1 الحر وحده."
+    },
+    {
+      "id": "smcc-de",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (de)",
+      "canonicalRecordId": "smcc",
+      "language": "de",
+      "available": true,
+      "text": "SMCC ist kein zur Frachtabspaltung entworfener Linker; Antikörperabbau erzeugt unter anderem Lys-MCC-DM1 und nicht nur freies DM1."
+    },
+    {
+      "id": "smcc-es",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (es)",
+      "canonicalRecordId": "smcc",
+      "language": "es",
+      "available": true,
+      "text": "SMCC no está diseñado para escindir la carga; la degradación del anticuerpo produce formas como Lys-MCC-DM1, no solo DM1 libre."
+    },
+    {
+      "id": "smcc-fr",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (fr)",
+      "canonicalRecordId": "smcc",
+      "language": "fr",
+      "available": true,
+      "text": "SMCC n’est pas conçu pour couper la charge ; la dégradation de l’anticorps produit notamment Lys-MCC-DM1, et pas seulement du DM1 libre."
+    },
+    {
+      "id": "smcc-hi",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (hi)",
+      "canonicalRecordId": "smcc",
+      "language": "hi",
+      "available": true,
+      "text": "SMCC पेलोड काटने के लिए बना लिंकर नहीं है; एंटीबॉडी के टूटने से Lys-MCC-DM1 जैसे रूप बनते हैं, केवल मुक्त DM1 नहीं।"
+    },
+    {
+      "id": "smcc-ja",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (ja)",
+      "canonicalRecordId": "smcc",
+      "language": "ja",
+      "available": true,
+      "text": "SMCCはペイロード切断用のリンカーではありません。抗体の分解でLys-MCC-DM1などが生じ、遊離DM1だけになるとは限りません。"
+    },
+    {
+      "id": "smcc-pt",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (pt)",
+      "canonicalRecordId": "smcc",
+      "language": "pt",
+      "available": true,
+      "text": "SMCC não foi concebido para clivar a carga; a degradação do anticorpo produz formas como Lys-MCC-DM1, não apenas DM1 livre."
+    },
+    {
+      "id": "smcc-zh",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (zh)",
+      "canonicalRecordId": "smcc",
+      "language": "zh",
+      "available": true,
+      "text": "SMCC并非为切断载荷而设计的连接子；抗体分解产生Lys-MCC-DM1等形式，并非仅有游离DM1。"
+    },
+    {
+      "id": "smcc-simple",
+      "kind": "reader-summary-entry",
+      "name": "SMCC (thioether, non-cleavable) (simple)",
+      "canonicalRecordId": "smcc",
+      "language": "simple",
+      "available": true,
+      "text": "SMCC is not designed as a breakable release site. Antibody breakdown can leave a linked chemical such as Lys-MCC-DM1 rather than free DM1 alone."
+    },
+    {
+      "id": "sulfo-spdb-ar",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (ar)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "ar",
+      "available": true,
+      "text": "Sulfo-SPDB رابط ثنائي الكبريتيد في ميرفيتوكسيماب؛ وهو مختلف عن SPDB المستخدم في بعض التجارب قبل السريرية."
+    },
+    {
+      "id": "sulfo-spdb-de",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (de)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "de",
+      "available": true,
+      "text": "Sulfo-SPDB ist der Disulfidlinker in Mirvetuximab; er ist nicht mit dem SPDB einiger präklinischer Versuche identisch."
+    },
+    {
+      "id": "sulfo-spdb-es",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (es)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "es",
+      "available": true,
+      "text": "Sulfo-SPDB es el enlazador disulfuro de mirvetuximab; no es idéntico al SPDB de algunos experimentos preclínicos."
+    },
+    {
+      "id": "sulfo-spdb-fr",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (fr)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "fr",
+      "available": true,
+      "text": "Sulfo-SPDB est la liaison disulfure du mirvetuximab ; elle n’est pas identique au SPDB de certaines expériences précliniques."
+    },
+    {
+      "id": "sulfo-spdb-hi",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (hi)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "hi",
+      "available": true,
+      "text": "Sulfo-SPDB मिर्वेटुक्सिमैब का डाइसल्फाइड लिंकर है; यह कुछ प्रीक्लिनिकल प्रयोगों के SPDB से समान नहीं है।"
+    },
+    {
+      "id": "sulfo-spdb-ja",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (ja)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "ja",
+      "available": true,
+      "text": "Sulfo-SPDBはミルベツキシマブのジスルフィドリンカーで、一部の前臨床実験に使われたSPDBとは同一ではありません。"
+    },
+    {
+      "id": "sulfo-spdb-pt",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (pt)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "pt",
+      "available": true,
+      "text": "Sulfo-SPDB é o ligante dissulfureto do mirvetuximab; não é idêntico ao SPDB de algumas experiências pré-clínicas."
+    },
+    {
+      "id": "sulfo-spdb-zh",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (zh)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "zh",
+      "available": true,
+      "text": "Sulfo-SPDB是米维妥昔单抗使用的二硫键连接子，与部分临床前实验中的SPDB并不相同。"
+    },
+    {
+      "id": "sulfo-spdb-simple",
+      "kind": "reader-summary-entry",
+      "name": "Sulfo-SPDB (disulfide) (simple)",
+      "canonicalRecordId": "sulfo-spdb",
+      "language": "simple",
+      "available": true,
+      "text": "Sulfo-SPDB is the linker used with DM4 in mirvetuximab. It differs from SPDB used in some laboratory studies."
+    },
+    {
+      "id": "hydrazone-ar",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (ar)",
+      "canonicalRecordId": "hydrazone",
+      "language": "ar",
+      "available": true,
+      "text": "الهيدرازون رابطة حساسة للتحلل المائي؛ يجب تحديد مكوّن الكاليشيميسين المعدل والمنتج، لا افتراض حمولة واحدة لكل التصاميم."
+    },
+    {
+      "id": "hydrazone-de",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (de)",
+      "canonicalRecordId": "hydrazone",
+      "language": "de",
+      "available": true,
+      "text": "Hydrazon ist eine hydrolyseempfindliche Bindung; die modifizierte Calicheamicin-Komponente und das jeweilige Präparat müssen benannt werden."
+    },
+    {
+      "id": "hydrazone-es",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (es)",
+      "canonicalRecordId": "hydrazone",
+      "language": "es",
+      "available": true,
+      "text": "La hidrazona es un enlace sensible a hidrólisis; deben nombrarse el componente modificado de caliqueamicina y el producto concreto."
+    },
+    {
+      "id": "hydrazone-fr",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (fr)",
+      "canonicalRecordId": "hydrazone",
+      "language": "fr",
+      "available": true,
+      "text": "L’hydrazone est une liaison sensible à l’hydrolyse ; il faut nommer le composant modifié de calichéamicine et le produit précis."
+    },
+    {
+      "id": "hydrazone-hi",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (hi)",
+      "canonicalRecordId": "hydrazone",
+      "language": "hi",
+      "available": true,
+      "text": "हाइड्राज़ोन हाइड्रोलिसिस के प्रति संवेदनशील बंध है; संशोधित कैलिकीमाइसिन घटक और विशिष्ट उत्पाद बताना चाहिए।"
+    },
+    {
+      "id": "hydrazone-ja",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (ja)",
+      "canonicalRecordId": "hydrazone",
+      "language": "ja",
+      "available": true,
+      "text": "ヒドラゾンは加水分解を受ける結合です。修飾カリケアミシン成分と製剤を具体的に示す必要があります。"
+    },
+    {
+      "id": "hydrazone-pt",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (pt)",
+      "canonicalRecordId": "hydrazone",
+      "language": "pt",
+      "available": true,
+      "text": "A hidrazona é uma ligação sensível à hidrólise; é preciso identificar o componente modificado de caliqueamicina e o produto concreto."
+    },
+    {
+      "id": "hydrazone-zh",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (zh)",
+      "canonicalRecordId": "hydrazone",
+      "language": "zh",
+      "available": true,
+      "text": "腙键可发生水解；须明确修饰的卡利奇霉素组分及具体产品，不能把所有设计当成同一种载荷。"
+    },
+    {
+      "id": "hydrazone-simple",
+      "kind": "reader-summary-entry",
+      "name": "Acid-labile hydrazone (AcBut) (simple)",
+      "canonicalRecordId": "hydrazone",
+      "language": "simple",
+      "available": true,
+      "text": "A hydrazone is a bond that can break through hydrolysis. Name the particular modified calicheamicin component and product."
+    },
+    {
+      "id": "val-ala-ar",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (ar)",
+      "canonicalRecordId": "val-ala",
+      "language": "ar",
+      "available": true,
+      "text": "Val-Ala جزء من نظام تيسيرين الذي يحرر SG3199؛ لا يثبت ذلك سهولة تصنيع أو سلامة جميع تصاميم هذه العائلة."
+    },
+    {
+      "id": "val-ala-de",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (de)",
+      "canonicalRecordId": "val-ala",
+      "language": "de",
+      "available": true,
+      "text": "Val-Ala ist Teil des Tesirin-Systems, das SG3199 freisetzt; daraus folgt keine allgemeine einfachere Herstellung oder höhere Sicherheit."
+    },
+    {
+      "id": "val-ala-es",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (es)",
+      "canonicalRecordId": "val-ala",
+      "language": "es",
+      "available": true,
+      "text": "Val-Ala forma parte del sistema tesirina que libera SG3199; no demuestra una fabricación más fácil o mayor seguridad en todos los diseños."
+    },
+    {
+      "id": "val-ala-fr",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (fr)",
+      "canonicalRecordId": "val-ala",
+      "language": "fr",
+      "available": true,
+      "text": "Val-Ala fait partie du système tésirine qui libère SG3199 ; cela ne prouve pas une fabrication plus simple ou une sécurité supérieure pour tous les modèles."
+    },
+    {
+      "id": "val-ala-hi",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (hi)",
+      "canonicalRecordId": "val-ala",
+      "language": "hi",
+      "available": true,
+      "text": "Val-Ala, SG3199 छोड़ने वाले टेसिरिन तंत्र का हिस्सा है; इससे सभी डिज़ाइनों का निर्माण आसान या सुरक्षा बेहतर सिद्ध नहीं होती।"
+    },
+    {
+      "id": "val-ala-ja",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (ja)",
+      "canonicalRecordId": "val-ala",
+      "language": "ja",
+      "available": true,
+      "text": "Val-AlaはSG3199を放出するテシリン系の一部です。全ての設計で製造が容易、安全性が高いとは示していません。"
+    },
+    {
+      "id": "val-ala-pt",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (pt)",
+      "canonicalRecordId": "val-ala",
+      "language": "pt",
+      "available": true,
+      "text": "Val-Ala faz parte do sistema tesirina que liberta SG3199; não demonstra fabrico mais fácil ou maior segurança em todos os desenhos."
+    },
+    {
+      "id": "val-ala-zh",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (zh)",
+      "canonicalRecordId": "val-ala",
+      "language": "zh",
+      "available": true,
+      "text": "Val-Ala是释放SG3199的tesirine系统的一部分，不能据此认定所有此类设计都更易制造或更安全。"
+    },
+    {
+      "id": "val-ala-simple",
+      "kind": "reader-summary-entry",
+      "name": "Val-Ala dipeptide (simple)",
+      "canonicalRecordId": "val-ala",
+      "language": "simple",
+      "available": true,
+      "text": "Val-Ala is part of the tesirine system that releases SG3199. This does not establish easier manufacturing or better safety for every design."
+    },
+    {
+      "id": "mc-non-cleavable-ar",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (ar)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "ar",
+      "available": true,
+      "text": "يُنتج تحلل الجسم المضاد المرتبط بـmc-MMAF مستقلباً يحتفظ بالسيستئين والرابط؛ لا يلزم افتراض هضم كل الجزيئات بالكامل."
+    },
+    {
+      "id": "mc-non-cleavable-de",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (de)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "de",
+      "available": true,
+      "text": "Beim Abbau eines mc-MMAF-Antikörperkonjugats bleibt eine cystein- und linkerhaltige Form zurück; vollständiger Abbau jedes Moleküls darf nicht vorausgesetzt werden."
+    },
+    {
+      "id": "mc-non-cleavable-es",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (es)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "es",
+      "available": true,
+      "text": "La degradación de un conjugado mc-MMAF libera una forma que conserva cisteína y enlazador; no exige suponer la digestión completa de cada anticuerpo."
+    },
+    {
+      "id": "mc-non-cleavable-fr",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (fr)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "fr",
+      "available": true,
+      "text": "La dégradation d’un conjugué mc-MMAF libère une forme conservant cystéine et liaison ; elle ne suppose pas la digestion complète de chaque anticorps."
+    },
+    {
+      "id": "mc-non-cleavable-hi",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (hi)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "hi",
+      "available": true,
+      "text": "mc-MMAF संयुग्म के टूटने से सिस्टीन और लिंकर वाला रूप निकलता है; हर एंटीबॉडी का पूरी तरह पचना मानना आवश्यक नहीं।"
+    },
+    {
+      "id": "mc-non-cleavable-ja",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (ja)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "ja",
+      "available": true,
+      "text": "mc-MMAF複合体の分解ではシステインとリンカーを残す物質が生じます。全抗体分子の完全分解を前提にしません。"
+    },
+    {
+      "id": "mc-non-cleavable-pt",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (pt)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "pt",
+      "available": true,
+      "text": "A degradação de um conjugado mc-MMAF liberta uma forma que retém cisteína e ligante; não exige pressupor digestão completa de cada anticorpo."
+    },
+    {
+      "id": "mc-non-cleavable-zh",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (zh)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "zh",
+      "available": true,
+      "text": "mc-MMAF偶联物分解后可产生保留半胱氨酸及连接子的物质，无须假定每个抗体分子均完全消化。"
+    },
+    {
+      "id": "mc-non-cleavable-simple",
+      "kind": "reader-summary-entry",
+      "name": "Maleimidocaproyl (mc), non-cleavable (simple)",
+      "canonicalRecordId": "mc-non-cleavable",
+      "language": "simple",
+      "available": true,
+      "text": "Breakdown of an mc-MMAF antibody drug leaves a chemical containing cysteine and linker material. It need not mean every antibody molecule is fully digested."
+    },
+    {
+      "id": "hydrophilic-next-gen-ar",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (ar)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "ar",
+      "available": true,
+      "text": "التصاميم المحبة للماء تشمل روابط وحوامل مختلفة؛ ليس لها محفز تحرر أو حمولة أو عدد حمولات موحد."
+    },
+    {
+      "id": "hydrophilic-next-gen-de",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (de)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "de",
+      "available": true,
+      "text": "Hydrophile Linker- und Trägerentwürfe haben weder einen gemeinsamen Freisetzungsauslöser noch eine einheitliche Fracht oder Beladung."
+    },
+    {
+      "id": "hydrophilic-next-gen-es",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (es)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "es",
+      "available": true,
+      "text": "Los diseños hidrófilos de enlazadores y portadores no comparten un único desencadenante de liberación, una carga o una cantidad fija."
+    },
+    {
+      "id": "hydrophilic-next-gen-fr",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (fr)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "fr",
+      "available": true,
+      "text": "Les liaisons et supports hydrophiles n’ont ni déclencheur de libération commun, ni charge ou quantité universelle."
+    },
+    {
+      "id": "hydrophilic-next-gen-hi",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (hi)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "hi",
+      "available": true,
+      "text": "जलस्नेही लिंकर और वाहक डिज़ाइनों का एक साझा रिलीज़ संकेत, पेलोड या निश्चित पेलोड संख्या नहीं है।"
+    },
+    {
+      "id": "hydrophilic-next-gen-ja",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (ja)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "ja",
+      "available": true,
+      "text": "親水性リンカーや担体には様々な設計があり、共通の放出条件、ペイロード、搭載数はありません。"
+    },
+    {
+      "id": "hydrophilic-next-gen-pt",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (pt)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "pt",
+      "available": true,
+      "text": "Os desenhos hidrófilos de ligantes e transportadores não têm um único mecanismo de libertação, carga ou quantidade universal."
+    },
+    {
+      "id": "hydrophilic-next-gen-zh",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (zh)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "zh",
+      "available": true,
+      "text": "亲水连接子和载体包含多种设计，并没有统一的释放触发条件、载荷或装载数量。"
+    },
+    {
+      "id": "hydrophilic-next-gen-simple",
+      "kind": "reader-summary-entry",
+      "name": "Hydrophilic linker and carrier designs (simple)",
+      "canonicalRecordId": "hydrophilic-next-gen",
+      "language": "simple",
+      "available": true,
+      "text": "Water-friendly linker and carrier designs are a varied group. They do not share one release trigger, cargo or fixed amount per antibody."
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (ar)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "ar",
+      "available": true,
+      "text": "تشمل الحمولات المعطلة للتوبولين الأورستاتينات والمايتانسينويدات؛ يؤثر الجزيء المتحرر المحدد في دخوله الخلايا ومعالجته."
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-de",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (de)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "de",
+      "available": true,
+      "text": "Tubulinfrachten umfassen Auristatine und Maytansinoide; die genaue freigesetzte Form beeinflusst Zellzugang und Verarbeitung."
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-es",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (es)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "es",
+      "available": true,
+      "text": "Las cargas dirigidas a tubulina incluyen auristatinas y maitansinoides; la forma liberada concreta influye en el acceso y procesamiento celular."
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (fr)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "fr",
+      "available": true,
+      "text": "Les charges ciblant la tubuline comprennent auristatines et maytansinoïdes ; la forme libérée précise influence l’accès aux cellules et son traitement."
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (hi)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "hi",
+      "available": true,
+      "text": "ट्यूबुलिन पेलोड में ऑरिस्टैटिन और मेटैनसिनोइड शामिल हैं; निकला हुआ सटीक रासायनिक रूप कोशिका में प्रवेश और संसाधन को प्रभावित करता है।"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (ja)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "ja",
+      "available": true,
+      "text": "チューブリン阻害ペイロードにはアウリスタチン類とメイタンシノイド類があります。放出される正確な化学形が細胞への到達と処理に影響します。"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (pt)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "pt",
+      "available": true,
+      "text": "As cargas dirigidas à tubulina incluem auristatinas e maitansinoides; a forma exata libertada influencia a entrada e o processamento celular."
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (zh)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "zh",
+      "available": true,
+      "text": "微管蛋白抑制载荷包括奥瑞他汀和美登素类；具体释放的化学形式影响细胞进入和后续处理。"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tubulin inhibitor payloads (simple)",
+      "canonicalRecordId": "tubulin-inhibitor-payloads",
+      "language": "simple",
+      "available": true,
+      "text": "These payloads disrupt the scaffolding cells use to divide. The exact released chemical affects how it enters and moves through cells."
+    },
+    {
+      "id": "pbd-dimer-payloads-ar",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (ar)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "ar",
+      "available": true,
+      "text": "تربط ثنائيات PBD الحمض النووي؛ يجب فصل الحمولة الحرة عن مركّب الرابط والدواء، ولا تحدد قوة الخلايا هامش السلامة السريري."
+    },
+    {
+      "id": "pbd-dimer-payloads-de",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (de)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "de",
+      "available": true,
+      "text": "PBD-Dimere vernetzen DNA; freie Fracht und Linker-Wirkstoff sind getrennt zu benennen, und Zellpotenz bestimmt keinen klinischen Sicherheitsabstand."
+    },
+    {
+      "id": "pbd-dimer-payloads-es",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (es)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "es",
+      "available": true,
+      "text": "Los dímeros PBD entrecruzan el ADN; la carga libre y el enlazador-fármaco son distintos, y la potencia celular no define el margen de seguridad clínica."
+    },
+    {
+      "id": "pbd-dimer-payloads-fr",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (fr)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "fr",
+      "available": true,
+      "text": "Les dimères PBD réticulent l’ADN ; la charge libre et le couple liaison-médicament sont distincts, et la puissance cellulaire ne définit pas une marge de sécurité clinique."
+    },
+    {
+      "id": "pbd-dimer-payloads-hi",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (hi)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "hi",
+      "available": true,
+      "text": "PBD डाइमर डीएनए क्रॉसलिंक करते हैं; मुक्त पेलोड और लिंकर-दवा अलग हैं, और कोशिका में शक्ति क्लिनिकल सुरक्षा सीमा तय नहीं करती।"
+    },
+    {
+      "id": "pbd-dimer-payloads-ja",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (ja)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "ja",
+      "available": true,
+      "text": "PBD二量体はDNAを架橋します。遊離ペイロードとリンカー薬物は別で、細胞での強さだけでは臨床の安全域を決められません。"
+    },
+    {
+      "id": "pbd-dimer-payloads-pt",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (pt)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "pt",
+      "available": true,
+      "text": "Os dímeros PBD fazem ligações cruzadas no ADN; carga livre e ligante-fármaco são distintos, e a potência celular não define a margem de segurança clínica."
+    },
+    {
+      "id": "pbd-dimer-payloads-zh",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (zh)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "zh",
+      "available": true,
+      "text": "PBD二聚体使DNA交联；游离载荷与连接子-药物须分开描述，细胞实验中的效力不能确定临床安全范围。"
+    },
+    {
+      "id": "pbd-dimer-payloads-simple",
+      "kind": "reader-summary-entry",
+      "name": "DNA crosslinker payloads (PBD dimers) (simple)",
+      "canonicalRecordId": "pbd-dimer-payloads",
+      "language": "simple",
+      "available": true,
+      "text": "These payloads link strands of DNA together. Free cargo and its linked form are different, and strength in a cell test does not define safety in people."
+    },
+    {
+      "id": "dna-cleaver-payloads-ar",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (ar)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "ar",
+      "available": true,
+      "text": "قد تؤذي حمولات الإينيديين خيوط الحمض النووي بعد التنشيط؛ تختلف المواد الحرة والمكوّنات المرتبطة والنواتج المعدلة المتحررة."
+    },
+    {
+      "id": "dna-cleaver-payloads-de",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (de)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "de",
+      "available": true,
+      "text": "Enediinfrachten können nach Aktivierung DNA-Stränge schädigen; freie, gebundene und modifizierte freigesetzte Formen sind verschieden."
+    },
+    {
+      "id": "dna-cleaver-payloads-es",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (es)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "es",
+      "available": true,
+      "text": "Las cargas de enediino pueden dañar hebras de ADN tras activarse; las formas libres, unidas y modificadas liberadas son distintas."
+    },
+    {
+      "id": "dna-cleaver-payloads-fr",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (fr)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "fr",
+      "available": true,
+      "text": "Les charges énédiynes peuvent endommager les brins d’ADN après activation ; formes libres, liées et modifiées libérées sont distinctes."
+    },
+    {
+      "id": "dna-cleaver-payloads-hi",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (hi)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "hi",
+      "available": true,
+      "text": "एनीडाइन पेलोड सक्रिय होने के बाद डीएनए स्ट्रैंड को नुकसान पहुँचा सकते हैं; मुक्त, जुड़े और संशोधित निकले रूप अलग हैं।"
+    },
+    {
+      "id": "dna-cleaver-payloads-ja",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (ja)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "ja",
+      "available": true,
+      "text": "エンジインのペイロードは活性化後にDNA鎖を傷つけることがあります。遊離、結合、修飾された放出形は別のものです。"
+    },
+    {
+      "id": "dna-cleaver-payloads-pt",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (pt)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "pt",
+      "available": true,
+      "text": "As cargas de enediino podem danificar cadeias de ADN após ativação; as formas livres, ligadas e modificadas libertadas são diferentes."
+    },
+    {
+      "id": "dna-cleaver-payloads-zh",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (zh)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "zh",
+      "available": true,
+      "text": "烯二炔载荷活化后可损伤DNA链；游离、连接及修饰的释放形式是不同物质。"
+    },
+    {
+      "id": "dna-cleaver-payloads-simple",
+      "kind": "reader-summary-entry",
+      "name": "DNA cleaver payloads (enediynes) (simple)",
+      "canonicalRecordId": "dna-cleaver-payloads",
+      "language": "simple",
+      "available": true,
+      "text": "These payloads can damage DNA strands after activation. Their free, attached and modified released forms are different substances."
+    },
+    {
+      "id": "dna-alkylator-payloads-ar",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (ar)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "ar",
+      "available": true,
+      "text": "تؤلكل تصاميم الدوكارمايسين الحمض النووي؛ لا يثبت نشاطها قبل السريري فائدةً في كل سرطان بطيء النمو أو مقاوم."
+    },
+    {
+      "id": "dna-alkylator-payloads-de",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (de)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "de",
+      "available": true,
+      "text": "Duocarmycin-Entwürfe alkylieren DNA; präklinische Aktivität beweist keinen Nutzen bei jedem langsam wachsenden oder resistenten Krebs."
+    },
+    {
+      "id": "dna-alkylator-payloads-es",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (es)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "es",
+      "available": true,
+      "text": "Los diseños de duocarmicina alquilan el ADN; su actividad preclínica no demuestra beneficio en todos los cánceres de crecimiento lento o resistentes."
+    },
+    {
+      "id": "dna-alkylator-payloads-fr",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (fr)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "fr",
+      "available": true,
+      "text": "Les structures de duocarmycine alkylent l’ADN ; leur activité préclinique ne prouve pas un bénéfice dans tous les cancers lents ou résistants."
+    },
+    {
+      "id": "dna-alkylator-payloads-hi",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (hi)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "hi",
+      "available": true,
+      "text": "डुओकार्माइसिन डिज़ाइन डीएनए का एल्काइलेशन करते हैं; प्रीक्लिनिकल गतिविधि हर धीमे बढ़ते या प्रतिरोधी कैंसर में लाभ सिद्ध नहीं करती।"
+    },
+    {
+      "id": "dna-alkylator-payloads-ja",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (ja)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "ja",
+      "available": true,
+      "text": "デュオカルマイシンの設計はDNAをアルキル化します。前臨床の活性は、全ての増殖の遅い癌や耐性癌での利益を証明しません。"
+    },
+    {
+      "id": "dna-alkylator-payloads-pt",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (pt)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "pt",
+      "available": true,
+      "text": "Os desenhos de duocarmicina alquilam o ADN; atividade pré-clínica não demonstra benefício em todos os cancros lentos ou resistentes."
+    },
+    {
+      "id": "dna-alkylator-payloads-zh",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (zh)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "zh",
+      "available": true,
+      "text": "杜卡霉素类设计使DNA烷基化；临床前活性不能证明其对所有生长缓慢或耐药癌症都有临床获益。"
+    },
+    {
+      "id": "dna-alkylator-payloads-simple",
+      "kind": "reader-summary-entry",
+      "name": "DNA alkylator payloads (simple)",
+      "canonicalRecordId": "dna-alkylator-payloads",
+      "language": "simple",
+      "available": true,
+      "text": "These payload designs chemically alter DNA. Laboratory activity does not prove benefit for every slow-growing or drug-resistant cancer."
+    },
+    {
+      "id": "upifitamab-rilsodotin-ar",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (ar)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "upifitamab-rilsodotin-de",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (de)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "upifitamab-rilsodotin-es",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (es)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "upifitamab-rilsodotin-fr",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (fr)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "upifitamab-rilsodotin-hi",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (hi)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "upifitamab-rilsodotin-ja",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (ja)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "upifitamab-rilsodotin-pt",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (pt)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "upifitamab-rilsodotin-zh",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (zh)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "zh",
+      "available": true,
+      "text": "Upifitamab rilsodotin是一种研究中的NaPi2b靶向抗体偶联药，通过Dolaflexin平台携带AF-HPA；临床前活性不等于患者获益。"
+    },
+    {
+      "id": "upifitamab-rilsodotin-simple",
+      "kind": "reader-summary-entry",
+      "name": "Upifitamab rilsodotin (simple)",
+      "canonicalRecordId": "upifitamab-rilsodotin",
+      "language": "simple",
+      "available": true,
+      "text": "Upifitamab rilsodotin is an experimental antibody drug directed at NaPi2b and carrying AF-HPA. Laboratory activity is separate from benefit in people."
+    }
+  ],
+  "sources": [
+    {
+      "language": "ar",
+      "selectedEntriesSha256": "ba29da3b0ca67e0e4e46d5e9262f5838f098b5c16a4defa501e89220c403186c"
+    },
+    {
+      "language": "de",
+      "selectedEntriesSha256": "56ac6681b9a6d7497d80e4184f2eeb91d671597b15f553c93be5d99f01602e66"
+    },
+    {
+      "language": "es",
+      "selectedEntriesSha256": "8e6d4047fda0c51346c7d2ea4efee1e1d8cf05a2f4945843f9c8af55d93d806a"
+    },
+    {
+      "language": "fr",
+      "selectedEntriesSha256": "2c0ccac696cd63bcab10ea09afbd2525cc43ee44d006d15a36d0f6b1cf27a275"
+    },
+    {
+      "language": "hi",
+      "selectedEntriesSha256": "73bbd80dd4f8ed9469221824d0b59588f8316fb5e81a92edbbfbc25fca5d29ec"
+    },
+    {
+      "language": "ja",
+      "selectedEntriesSha256": "2cf57f2b516c5d877485c795fd4057e0076f4866740c0c7a30133e6adba140cf"
+    },
+    {
+      "language": "pt",
+      "selectedEntriesSha256": "71de9c0b2256b7b386ea15462a3cf3e83405fa9b89e11195113de08814985313"
+    },
+    {
+      "language": "zh",
+      "selectedEntriesSha256": "bcd5cc18218dba98819dcdfa45b345430cd873f91a472d1ef33fe3167812fdb8"
+    },
+    {
+      "language": "simple",
+      "selectedEntriesSha256": "96702cc605d65d425798fb9b1a72c627d81dfd8ae7480d478cfb1868c9c567ce"
+    }
+  ],
+  "head": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+  "pr": 369
+}

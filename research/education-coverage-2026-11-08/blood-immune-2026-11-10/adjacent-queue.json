@@ -1,0 +1,31 @@
+{
+  "existingQueuesRetained": true,
+  "classificationContextExample": {
+    "existingOpenDesign": "classification-context",
+    "source": "https://doi.org/10.1038/s41375-022-01613-1",
+    "requirement": "The WHO 2022 CHIP definition conditions its variant-fraction criterion on an X-linked gene mutation in males; retain classification version, clinical exclusions and this condition instead of one universal percentage.",
+    "newProductFieldImplemented": false
+  },
+  "crossDraftRelations": [
+    {
+      "owner": "detection-versus-quantification",
+      "editable": false,
+      "field": "related",
+      "add": [
+        "ctdna-units"
+      ],
+      "when": "coordinator, after registration",
+      "reason": "target lives in PR 375; apply only after both drafts are combined"
+    },
+    {
+      "owner": "finite-molecule-sampling",
+      "editable": false,
+      "field": "related",
+      "add": [
+        "ctdna-units"
+      ],
+      "when": "coordinator, after registration",
+      "reason": "target lives in PR 375; apply only after both drafts are combined"
+    }
+  ]
+}

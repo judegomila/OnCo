@@ -1,0 +1,3322 @@
+{
+  "status": "Coordinator source-to-field comparison completed at the recorded reading depths; registered draft only.",
+  "requirements": [
+    {
+      "id": "brcaness:B001",
+      "source": "brcaness.md",
+      "requirement": "Define BRCAness as research resemblance to BRCA-deficient cancer without a known BRCA mutation, rather than inherited diagnosis.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B002",
+      "source": "brcaness.md",
+      "requirement": "Explain why similar repair marks do not identify the failed cause, present state or future response.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": "brcaness:B003",
+      "source": "brcaness.md",
+      "requirement": "Keep BRCA repair roles and other disruption mechanisms, including epigenetic regulation, distinct.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B004",
+      "source": "brcaness.md",
+      "requirement": "State that the original term did not define one standard diagnostic assay.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B005",
+      "source": "brcaness.md",
+      "requirement": "Separate evidence of causal disruption from historical genomic patterns and current functional measurement.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B2"
+      ]
+    },
+    {
+      "id": "brcaness:B006",
+      "source": "brcaness.md",
+      "requirement": "Scope Waks to paired resistance samples from eight selected patients, with possible restored repair rather than a population frequency.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B3"
+      ]
+    },
+    {
+      "id": "brcaness:B007",
+      "source": "brcaness.md",
+      "requirement": "Distinguish HRD from broader BRCAness shorthand without a universal assay, cutoff or response rate.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B008",
+      "source": "brcaness.md",
+      "requirement": "Interpret the two-time-point figure as persistent historical marks alongside a potentially changed current RAD51 readout, with method and sampling-time conditions.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B2",
+        "B3"
+      ]
+    },
+    {
+      "id": "brcaness:B009",
+      "source": "brcaness.md",
+      "requirement": "Do not infer germline origin or equivalence of all repair-gene alterations from a BRCA-like pattern.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B1"
+      ]
+    },
+    {
+      "id": "brcaness:B010",
+      "source": "brcaness.md",
+      "requirement": "Separate classifier accuracy from validated drug selection for an actual treatment, population and endpoint.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B4",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B011",
+      "source": "brcaness.md",
+      "requirement": "Describe assay inputs and finite DNA/section use, including matched normal when required.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B5"
+      ]
+    },
+    {
+      "id": "brcaness:B012",
+      "source": "brcaness.md",
+      "requirement": "Distinguish sequencing scar/model outputs from functional RAD51 foci measurements.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B2",
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "brcaness:B013",
+      "source": "brcaness.md",
+      "requirement": "Keep method-specific units and thresholds; do not transfer cutoffs.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B014",
+      "source": "brcaness.md",
+      "requirement": "Retain low tumour content, genomic adequacy, tissue timing and assessable cycling-cell failure modes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B015",
+      "source": "brcaness.md",
+      "requirement": "Do not infer inheritance, individual response probability or combination benefit from these assays.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B3",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B016",
+      "source": "brcaness.md",
+      "requirement": "Distinguish a research classifier/functional study from a validated predictive test in a specified population.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B4",
+        "B5",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B017",
+      "source": "brcaness.md",
+      "requirement": "Scope HRDetect to identification of BRCA-deficient patterns, not response probability.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B4"
+      ]
+    },
+    {
+      "id": "brcaness:B018",
+      "source": "brcaness.md",
+      "requirement": "Scope Cruz to tumour models and a small retrospective sample set with cell-cycle/damage conditions.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B4",
+        "B5"
+      ]
+    },
+    {
+      "id": "brcaness:B019",
+      "source": "brcaness.md",
+      "requirement": "BRCA wild type does not establish intact repair; historical scars do not establish a present defect.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B1",
+        "B2",
+        "B3",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B020",
+      "source": "brcaness.md",
+      "requirement": "A drug-induced laboratory phenotype does not establish clinical synergy or trial eligibility.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B021",
+      "source": "brcaness.md",
+      "requirement": "Interpret the fictional high-scar/later-RAD51 example using dates, methods and applicable clinical evidence, with no guaranteed response.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "B2",
+        "B3",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B022",
+      "source": "brcaness.md",
+      "requirement": "Retain the cause/history/function teach-back and the specific-finding/time/unanswered-question takeaway as recaps.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "B2",
+        "B6"
+      ]
+    },
+    {
+      "id": "brcaness:B023",
+      "source": "brcaness.md",
+      "requirement": "Retain source-review scope: original concept review versus primary classifier, paired resistance and functional studies, at their stated reading depths.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "B1",
+        "B2",
+        "B3",
+        "B4"
+      ]
+    },
+    {
+      "id": "germline-testing:B001",
+      "source": "germline-testing.md",
+      "requirement": "Define testing of constitutional variants and distinguish newly arising constitutional changes from inherited changes and tumour-confined changes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74",
+        "germline-vs-somatic:summary:cfea07f9d9cc"
+      ]
+    },
+    {
+      "id": "germline-testing:B002",
+      "source": "germline-testing.md",
+      "requirement": "Explain detection versus interpretation and the testing-scope limit of the family-document analogy.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G2",
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B003",
+      "source": "germline-testing.md",
+      "requirement": "Describe consent and personal/family-history review before suitable non-tumour specimen testing.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3",
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B004",
+      "source": "germline-testing.md",
+      "requirement": "Distinguish a multigene panel from targeted testing of a known family variant.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B005",
+      "source": "germline-testing.md",
+      "requirement": "Describe population, segregation and functional evidence for classification, with possible reclassification over time.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G2"
+      ]
+    },
+    {
+      "id": "germline-testing:B006",
+      "source": "germline-testing.md",
+      "requirement": "A pathogenic/likely pathogenic result does not establish whether/when cancer occurs or the existing tumour's behaviour.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B007",
+      "source": "germline-testing.md",
+      "requirement": "A VUS is an uncertain evidence category, not a pathogenic result or a management instruction.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G2",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B008",
+      "source": "germline-testing.md",
+      "requirement": "Define a true negative for a known family variant within a capable assay, without excluding all other risks.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B009",
+      "source": "germline-testing.md",
+      "requirement": "Define an uninformative negative without a known family explanation, without proving an undetected mutation.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B010",
+      "source": "germline-testing.md",
+      "requirement": "A negative panel can leave family history relevant and does not exclude acquired tumour changes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B011",
+      "source": "germline-testing.md",
+      "requirement": "Define cascade testing of relatives for a confirmed family finding, with individual interpretation.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B012",
+      "source": "germline-testing.md",
+      "requirement": "Tumour-only testing can raise an origin question but does not replace germline testing.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G4",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B013",
+      "source": "germline-testing.md",
+      "requirement": "A germline result does not measure current tumour repair function or completely determine treatment selection.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G4",
+        "H3"
+      ]
+    },
+    {
+      "id": "germline-testing:B014",
+      "source": "germline-testing.md",
+      "requirement": "Describe assay coverage of regions and variant types, and collection, sequence analysis, classification and reporting steps.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3",
+        "germline-testing:summary:94ac6eaa7a74"
+      ]
+    },
+    {
+      "id": "germline-testing:B015",
+      "source": "germline-testing.md",
+      "requirement": "Describe blood, saliva or cheek input, submitted aliquot consumption and lack of required tumour-block use.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B016",
+      "source": "germline-testing.md",
+      "requirement": "Report gene, reference sequence, precise variant, classification and assay limitations, without a universal hereditary percentage.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B017",
+      "source": "germline-testing.md",
+      "requirement": "Keep classification standards and detection limits separate, with no universal positive cutoff.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G2",
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B018",
+      "source": "germline-testing.md",
+      "requirement": "Retain specimen adequacy, missed regions/types, interpretation uncertainty and circumstance-specific specimen suitability failures.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B019",
+      "source": "germline-testing.md",
+      "requirement": "Distinguish laboratory validation and report version from actionability of every detected variant.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G2",
+        "G3"
+      ]
+    },
+    {
+      "id": "germline-testing:B020",
+      "source": "germline-testing.md",
+      "requirement": "Retain privacy, consent, relatives' implications and clear explanation of uncertainty.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G4"
+      ]
+    },
+    {
+      "id": "germline-testing:B021",
+      "source": "germline-testing.md",
+      "requirement": "A larger panel is not automatically more informative and can add uncertain findings.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B022",
+      "source": "germline-testing.md",
+      "requirement": "Interpret the two fictional negative reports according to known family variant and assay coverage, without zero-risk inference.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B023",
+      "source": "germline-testing.md",
+      "requirement": "Retain the teach-back details of genes/types, known family variant and history as a recap.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "G1"
+      ]
+    },
+    {
+      "id": "germline-testing:B024",
+      "source": "germline-testing.md",
+      "requirement": "Retain source-tier distinctions among NCI explanations, ACMG/AMP classification and ASCO-SSO counseling/VUS guidance.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "G2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B001",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Define susceptibility from certain harmful inherited variants, not from merely having the gene or inevitable cancer.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "H1"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B002",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Explain the limited maintenance-manual analogy alongside biological and environmental influences.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "H1"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B003",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Describe BRCA1/2 and PALB2 roles in homologous repair, PALB2's expanded name and partnership, without interchangeability.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "H1",
+        "palb2:summary:98e357ad9040",
+        "homologous-recombination-repair:summary:a111615df73b",
+        "gbrca-mutation:summary:b8ebabe7f0c7"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B004",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Separate an inherited harmful copy with a working copy from subsequent changes in a cell lineage and the tumour's eventual repair state.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "H1",
+        "H3"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B005",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Scope Yang to 524 PALB2 families and age/family-history/ascertainment-dependent estimates, not every variant or individual.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B006",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "A hereditary result can inform relatives but does not establish one cause for every family cancer.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1",
+        "H2",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B007",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "No known family cancer does not exclude a harmful inherited variant; family size, ages and incomplete history matter.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B008",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Distinguish inherited susceptibility from current tumour treatment biomarkers, origin confirmation and guaranteed response.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G4",
+        "H1",
+        "H2",
+        "H3"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B009",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Describe blood/saliva input without required tumour-block consumption.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B010",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Keep named method, genes/variant types, precise variant and classification together.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B011",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "A gene name alone is insufficient; retain untested regions, missed changes, uncertain interpretation and no direct tumour-function measurement.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B012",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Define VUS as insufficient evidence for harmful/harmless classification, not a measure of existing cancer severity.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G2",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B013",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Inherited susceptibility does not predict whether/when cancer occurs.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G4",
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B014",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "BRCA-negative is not a complete family-risk assessment; other genes and non-genetic factors can matter.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G1",
+        "H4"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B015",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Keep inherited versus acquired origin, exact gene, specimen, classification and question distinct.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "G3",
+        "G4",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B016",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Interpret the fictional pathogenic-germline PALB2, PALB2 VUS and tumour-only BRCA2 reports separately, with no individual forecast or guaranteed response.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B017",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Retain the origin/classification/function teach-back as a recap.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "G1",
+        "H2"
+      ]
+    },
+    {
+      "id": "hereditary-breast-cancer-genes:B018",
+      "source": "hereditary-breast-cancer-genes.md",
+      "requirement": "Retain source scope: NCI explanatory documents, PALB2 partnership experiments and an international family study.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "H1",
+        "H4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B001",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Define brain-metastasis risk with a population, starting point and time window; distinguish metastatic from early-disease selection.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B002",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "A breast-cancer brain metastasis remains breast cancer and differs from a primary brain cancer.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M1"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B003",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Distinguish brain parenchymal involvement from broader CNS/leptomeningeal involvement.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M1",
+        "M2"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B004",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Describe multistep spread and scope variable blood-tumour barrier permeability to Lockman's mouse models, without a universal human drug-delivery failure claim.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M1"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B005",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Scope Lin to 116 metastatic-TNBC patients at one centre in 2000–2006, CNS at metastatic diagnosis and observed later events including parenchymal and leptomeningeal disease.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B006",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Scope Dawood to 2,448 stage I–III TNBC patients from 1990–2010, brain metastases as first recurrence at stated times and competing-risk estimation.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B007",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Scope Martin to diagnosis-time population-based invasive breast cancer in 2010–2013, subtype analysis and initial brain metastases rather than lifetime events.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M3"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B008",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Explain why historical cohorts, event definitions, ascertainment and treatment eras cannot calibrate a modern personal forecast.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M3"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B009",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Retain imaging/clinical records, dates, follow-up, deaths, losses and context-specific tissue confirmation as inputs.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B010",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Distinguish diagnosis proportions, events per patient-time and period cumulative incidence.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B011",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Keep first/any event, CNS extent and symptom-triggered versus scheduled imaging explicit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B012",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Retain missed asymptomatic disease, incomplete follow-up, referral and subtype-definition failure modes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M3"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B013",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Distinguish applicability of a cohort estimate from validation of a personal calculator or screening survival benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B014",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Explain death as a competing event rather than ordinary loss and distinguish raw fractions from time-to-event estimates.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B015",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "A share of recorded recurrences is not risk in the original patient denominator.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B016",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "No universal CNS subtype ranking, metastatic-to-early extrapolation or screening interval follows from a cohort description.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M4"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B017",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Interpret the fictional 100-person complete two-year follow-up: five of 20 recurrences is 25%, five of all 100 is 5%, with nested categories and one patient per dot.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B018",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Keep the enrolment clock distinct from restarting at recurrence; the visual has no losses, raw fractions and no competing-risk or personal-risk claim.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B019",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Retain the teach-back population/time/CNS definition/follow-up rule and scoped takeaway as recaps.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "M2",
+        "M3",
+        "M5"
+      ]
+    },
+    {
+      "id": "brain-metastasis-risk:B020",
+      "source": "brain-metastasis-risk.md",
+      "requirement": "Retain source tiers and reading depths: NCI identity, historical cohorts, diagnosis-time registry and mouse permeability study.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "M1",
+        "M2",
+        "M3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B001",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Define limited detected distant burden under a specified study/clinical definition, not a complete census of cancer cells.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B002",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Use the lit-window analogy only for detection limits, without assuming every limited pattern hides widespread disease.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B003",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Define distant metastasis and the hypothesis of a limited state; distinguish early detection and treatment-induced limitation from inherent biology.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "O5",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B004",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Scope the 2020 consensus to one to five safely treatable lesions, with no universal maximum or automatic indication for local treatment.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B005",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Distinguish synchronous and metachronous detection with protocol-defined timing.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B006",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Define induced limited disease following previously widespread burden and systemic treatment.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B007",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Define oligoprogression as a growing subset amid other controlled disease during treatment.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B008",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Define limited residual/persistent disease with its stable/progressing state and the author's definitions, not assumed universal synonyms.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B009",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Retain prior burden, treatment and progression history rather than classifying from current count alone.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B010",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Separate treated-site control, progression delay, survival and symptom relief and require an appropriate comparator for an added-benefit claim.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B011",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Scope SABR-COMET to selected mixed-cancer randomised phase 2, 99 participants including 18 breast cases, without a definitive TNBC effect.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O2"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B012",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Scope NRG-BR002 eligibility to no more than four metastases, controlled primary and specified first-line nonprogression conditions.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B013",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Retain NRG-BR002's negative phase-2 PFS/OS comparison, no phase 3 and predominantly HR-positive/HER2-negative population, without universal subtype-effect or symptom-goal inference.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O3"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B014",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Describe imaging, diagnostic/treatment history and possible confirmation biopsy rather than required tumour consumption for classification.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B015",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Report detected lesion/organ counts, location, size, dates and change with units.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B016",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Keep protocol count, timing, primary-control and treatability thresholds without a five-means-curable cutoff.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B017",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Retain imaging sensitivity/coverage, benign mimics and missing-history failure modes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O4"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B018",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Classification cannot exclude microscopic disease or guarantee local-treatment benefit and is not a universal molecular cure predictor.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O4",
+        "O5",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B019",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Distinguish distant spread from regional nodes/early stage, detection from eradication and response-selected from progression-selected populations.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O1",
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B020",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Curative intent is a goal requiring long-term outcome measurement, not proof of cure.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O2",
+        "O3",
+        "O5",
+        "oligometastatic:summary:e9262606d89c"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B021",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Interpret the three fictional histories: two new lesions, two residual after many, and two growing amid many stable; the numeral counts different subsets.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B022",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Attach sites, imaging/date, previous burden, systemic response and study definition to a lesion count, retaining the scoped takeaway as recap.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "O4",
+        "O5"
+      ]
+    },
+    {
+      "id": "oligometastatic-disease:B023",
+      "source": "oligometastatic-disease.md",
+      "requirement": "Retain consensus-versus-trial evidence, breast subgroup size and comparator/endpoint source qualifiers.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "O1",
+        "O2",
+        "O3"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B001",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Define recurrence timing and sites in a specified receptor-defined TNBC group, treatment context and starting clock rather than individual prognosis.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B002",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Define recurrence from persistent cells returning to detection and distinguish local breast/chest-wall, regional nodes, distant organs and second primary.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R1"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B003",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Scope Dent to 180 TNBC of 1,601 diagnosed in 1987–1997, approximate three-year distant-recurrence peak from diagnosis and later decline, without a modern percentage or deadline.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R1"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B004",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Scope Reddy to 873 stage I–III patients already disease-free five years from diagnosis, including historical low-HR-positive criteria.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R2"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B005",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Interpret the landmark diagram as selection of the later population without erasing endpoint/treatment context.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B006",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Distinguish possible bone/lung/liver/brain sites from a prediction of personal metastases.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R3"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B007",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Scope Kennecke to early disease diagnosed in 1986–1992, separate basal-like and TN nonbasal groups and relative brain/lung patterns versus luminal A, without current absolute risks or universal site ranking.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R3"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B008",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Keep diagnosis, surgery and randomisation clocks distinct; stage, treatment, response and survival landmark govern applicability.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B009",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "A share among recurrence sites requires the original patient denominator and time/event definition for patient-risk interpretation.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B010",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "A group event-rate peak is not an individual's next-year probability, and lower later risk is not zero.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B011",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Site prominence alone does not validate a screening schedule or prove earlier detection improves outcomes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R5"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B012",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Scope the older asymptomatic-survivor intensive-testing trials to survival/quality-of-life findings, without treating them as tests of every newer blood or imaging strategy.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R5"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B013",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Describe confirmed recurrence dates/sites, clock, deaths and follow-up loss; distinguish first from later sites and multiple sites in one person.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R3",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B014",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Distinguish raw fractions from follow-up/competing-event estimates.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B015",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Interpret the fictional five-year disease-free survivor report as inapplicable directly to a newly diagnosed population; retain mismatch explicitly.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "R2",
+        "R4"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B016",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Retain the population/event/clock/prognosis-screening teach-back as a recap.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "id": "tnbc-recurrence-timing-and-sites:B017",
+      "source": "tnbc-recurrence-timing-and-sites.md",
+      "requirement": "Retain source scope: historical observational patterns and their definitions, NCI definitions and historical follow-up testing evidence.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "R1",
+        "R2",
+        "R3",
+        "R5"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B001",
+      "source": "estrogen-receptor.md",
+      "requirement": "Define intracellular estrogen-response receptor protein and clinical tissue-staining status, not blood estrogen.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E1",
+        "er-status:summary:467d20d21095",
+        "nucleus:tldr:c8dd6c9c7f3a"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B002",
+      "source": "estrogen-receptor.md",
+      "requirement": "Treat the message-machinery analogy as receptor presence, not equal cellular signalling or guaranteed response.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E1"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B003",
+      "source": "estrogen-receptor.md",
+      "requirement": "Describe estrogen binding and gene/growth-related programmes, distinct from HER2 cell-surface location.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E1"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B004",
+      "source": "estrogen-receptor.md",
+      "requirement": "Describe validated IHC of identified tumour-cell nuclei with percentage and intensity as separate observations.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E2",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B005",
+      "source": "estrogen-receptor.md",
+      "requirement": "Retain invasive-breast thresholds: at least 1% positive, below 1% negative and ER-specific 1–10% low-positive category.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E3",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B006",
+      "source": "estrogen-receptor.md",
+      "requirement": "Stained-cell percentage is not estrogen concentration or probability of treatment benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B007",
+      "source": "estrogen-receptor.md",
+      "requirement": "Interpret the tissue-to-controls-to-percentage/intensity-to-category diagram as a measurement route, not direct downstream signalling or outcome prediction.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B008",
+      "source": "estrogen-receptor.md",
+      "requirement": "Define endocrine treatment as interference with hormone production/action, distinct from menopausal hormone replacement.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E1",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B009",
+      "source": "estrogen-receptor.md",
+      "requirement": "Keep ER-low positive despite ER-negative-like features; limited endocrine-benefit evidence and possible benefit support consideration, not guaranteed response or a mandate.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E3",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B010",
+      "source": "estrogen-receptor.md",
+      "requirement": "Describe identified specimen/block and section consumption.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B011",
+      "source": "estrogen-receptor.md",
+      "requirement": "Report percentage of positive tumour-cell nuclei, intensity and final interpretation with controls and low-result review.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B012",
+      "source": "estrogen-receptor.md",
+      "requirement": "Retain poor preservation, artefacts and control failures; uninterpretable does not equal negative.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E2",
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B013",
+      "source": "estrogen-receptor.md",
+      "requirement": "Keep invasive versus in-situ testing contexts and do not substitute bulk RNA for validated clinical IHC.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E2"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B014",
+      "source": "estrogen-receptor.md",
+      "requirement": "Interpret the fictional adequate-control ER 4% report as low-positive, with a separate basal-like RNA label.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B015",
+      "source": "estrogen-receptor.md",
+      "requirement": "Reject ER 4% as 4% benefit and failed controls as justification for a negative call.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B016",
+      "source": "estrogen-receptor.md",
+      "requirement": "Retain separate hormone/receptor, ER/PR and percentage/intensity distinctions; ER-low is not TNBC.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "E1",
+        "E2",
+        "E3",
+        "er-status:summary:467d20d21095"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B017",
+      "source": "estrogen-receptor.md",
+      "requirement": "Retain category, measurement denominator and treatment-benefit teach-back as recap.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "E3"
+      ]
+    },
+    {
+      "id": "estrogen-receptor:B018",
+      "source": "estrogen-receptor.md",
+      "requirement": "Retain official-source scope and dated ASCO/CAP low-result/threshold guidance.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B001",
+      "source": "progesterone-receptor.md",
+      "requirement": "Define intracellular progesterone-response protein and nuclear tissue IHC status, not circulating progesterone.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P1",
+        "pr-status:summary:32fbe9cda28e",
+        "nucleus:tldr:c8dd6c9c7f3a"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B002",
+      "source": "progesterone-receptor.md",
+      "requirement": "Keep ER and PR as separate signalling entries and acknowledge a stain does not measure every interaction.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P1"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B003",
+      "source": "progesterone-receptor.md",
+      "requirement": "Describe receptor binding/gene effects and ER's role in identifying potential endocrine-treatment benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P1"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B004",
+      "source": "progesterone-receptor.md",
+      "requirement": "Scope PR's primary clinical role to prognosis in ER-positive invasive breast cancer, distinct from prediction of treatment benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P1",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B005",
+      "source": "progesterone-receptor.md",
+      "requirement": "Describe validated IHC of identified tumour-cell nuclei and the separate percentage/intensity findings.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P2",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B006",
+      "source": "progesterone-receptor.md",
+      "requirement": "Retain at least 1% PR-positive and below 1% negative; ER-low is an ER-specific reporting category.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P2",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B007",
+      "source": "progesterone-receptor.md",
+      "requirement": "Interpret the tissue-to-PR-result-to-separate-ER diagram as interpretation sequence, without controlling ER or measuring hormone levels.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B008",
+      "source": "progesterone-receptor.md",
+      "requirement": "Define HR-positive as ER-positive, PR-positive or both, preserving individual observations without inventing treatment eligibility.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P1",
+        "P3",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B009",
+      "source": "progesterone-receptor.md",
+      "requirement": "ER-positive/PR-negative is not HR-negative/TNBC; unusual ER-negative/PR-positive findings need quality/pathology review rather than an automatic treatment rule.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P3",
+        "pr-status:summary:32fbe9cda28e"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B010",
+      "source": "progesterone-receptor.md",
+      "requirement": "Retain specimen/block, section use, percentage, intensity, interpretation and control/morphology review.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B011",
+      "source": "progesterone-receptor.md",
+      "requirement": "Preservation/control failure can prevent interpretation and tissue staining does not supply personal risk.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B012",
+      "source": "progesterone-receptor.md",
+      "requirement": "Keep invasive and in-situ contexts and distinguish percentage, intensity and composite IHC score units.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P2"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B013",
+      "source": "progesterone-receptor.md",
+      "requirement": "Interpret fictional ER 80%/PR below 1% with adequate controls without cancelling ER or choosing/quantifying treatment.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P3"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B014",
+      "source": "progesterone-receptor.md",
+      "requirement": "PR positivity does not prescribe progesterone; PR percentage is not recurrence/benefit probability.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "P1",
+        "P2",
+        "P3"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B015",
+      "source": "progesterone-receptor.md",
+      "requirement": "Retain the separate-observation teach-back and takeaway as recaps.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "P3"
+      ]
+    },
+    {
+      "id": "progesterone-receptor:B016",
+      "source": "progesterone-receptor.md",
+      "requirement": "Retain source scope for ASCO/CAP thresholds, ER-specific low-positive reporting, PR prognostic role and endocrine mechanisms.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "P1",
+        "P2"
+      ]
+    },
+    {
+      "id": "her2:B001",
+      "source": "her2.md",
+      "requirement": "Define cell-surface HER2 protein and clinical overexpression/amplification status without treating a label as pathway dependence or drug eligibility.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE4",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B002",
+      "source": "her2.md",
+      "requirement": "Name ERBB2 as the encoding gene; distinguish amplification, protein abundance and RNA abundance.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE4",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B003",
+      "source": "her2.md",
+      "requirement": "Describe membrane IHC in invasive tumour cells and tissue-probe ISH gene-copy measurement, with further workup for equivocal IHC.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1",
+        "HE2",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B004",
+      "source": "her2.md",
+      "requirement": "Scope the simplified map to CAP September 2026 and retain uncommon patterns, artefacts and heterogeneity requiring full rules.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B005",
+      "source": "her2.md",
+      "requirement": "Retain IHC 0 as absent membrane staining and 0+ as faint incomplete staining in at most 10% under that template.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B006",
+      "source": "her2.md",
+      "requirement": "Retain IHC 1+ as faint incomplete membrane staining in more than 10%, still negative for overexpression.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B007",
+      "source": "her2.md",
+      "requirement": "Retain IHC 2+ as equivocal, commonly weak/moderate complete in more than 10%; intense complete at most 10% and some incomplete patterns also need workup.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B008",
+      "source": "her2.md",
+      "requirement": "Retain IHC 3+ intense complete membrane staining in more than 10% of a homogeneous contiguous invasive population.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1"
+      ]
+    },
+    {
+      "id": "her2:B009",
+      "source": "her2.md",
+      "requirement": "Define HER2-low as 1+ or 2+/ISH-negative, and ultralow as the historically IHC-0 limited faint pattern separated as 0+ in the dated template.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B010",
+      "source": "her2.md",
+      "requirement": "Keep low/ultralow negative for overexpression/amplification and distinguish treatment-specific response/eligibility evidence.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE4",
+        "HE5",
+        "her2-positive:summary:3ea16c51bc14"
+      ]
+    },
+    {
+      "id": "her2:B011",
+      "source": "her2.md",
+      "requirement": "Interpret representative-cell art as membrane pattern versus population extent, with controls, heterogeneity and indicated ISH required.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B012",
+      "source": "her2.md",
+      "requirement": "Interpret the IHC-to-ISH-to-integrated-status-to-evidence diagram without a promised treatment benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE3",
+        "HE4"
+      ]
+    },
+    {
+      "id": "her2:B013",
+      "source": "her2.md",
+      "requirement": "Distinguish signalling receptor and ADC delivery address and retain setting-specific treatment options for some HER2-negative cancers.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B014",
+      "source": "her2.md",
+      "requirement": "Describe specimen/block and sections consumed by IHC/ISH.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE2"
+      ]
+    },
+    {
+      "id": "her2:B015",
+      "source": "her2.md",
+      "requirement": "Report IHC category, mean HER2 and CEP17 signals/cell, ratio and counted cells for dual-probe ISH.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE2",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B016",
+      "source": "her2.md",
+      "requirement": "Retain integrated rules, controls, preservation, artefacts and distinct populations, without inferring activity, IHC category from RNA or medicine benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE2",
+        "HE4"
+      ]
+    },
+    {
+      "id": "her2:B017",
+      "source": "her2.md",
+      "requirement": "Define CEP17's chromosome-17 centromeric-region probe only after source verification; distinguish ratio from mean HER2 signals/cell.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE2"
+      ]
+    },
+    {
+      "id": "her2:B018",
+      "source": "her2.md",
+      "requirement": "Uncommon ISH groups can require concurrent IHC/recounting; a ratio alone cannot assign the final category.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE2",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B019",
+      "source": "her2.md",
+      "requirement": "Interpret the 0+/1+ comparison as extent changing across 10% with the same faint incomplete pattern, no eligibility inference.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1",
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B020",
+      "source": "her2.md",
+      "requirement": "Interpret the completed fictional 2+/ratio 1.8/mean 3.5/ISH-negative report: dimensionless ratio versus mean signals, HER2-negative low range, no complete algorithm or medicine decision.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE3"
+      ]
+    },
+    {
+      "id": "her2:B021",
+      "source": "her2.md",
+      "requirement": "Reject half-positive IHC 2+, literal zero molecules from IHC 0, and replacement of IHC/ISH by ERBB2 mutation/RNA.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1",
+        "HE2",
+        "HE3",
+        "HE4"
+      ]
+    },
+    {
+      "id": "her2:B022",
+      "source": "her2.md",
+      "requirement": "Keep HER2-enriched RNA subtype separate and allow HER2-low staining within TNBC.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B023",
+      "source": "her2.md",
+      "requirement": "Retain protein pattern, gene-signal units, integrated status and eligibility teach-back as recap.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "HE2",
+        "HE3",
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "her2:B024",
+      "source": "her2.md",
+      "requirement": "Retain the dated CAP template, full ASCO/CAP rules and NCI biology source scopes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "HE1",
+        "HE2",
+        "HE4",
+        "HE5"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B001",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Define contextual tissue-protein evidence, without standalone breast-origin, RNA-subtype or treatment-benefit assignment.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B002",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Keep the overlapping-accent analogy limited and identify the stained cells, signal location and morphology.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B003",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Interpret the stain/cells/location/morphology/panel diagram as a supported interpretation with remaining uncertainty.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B004",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Expand SOX10 and describe nuclear transcription-factor protein detection without inferring activity or tumour dependence.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B005",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Retain benign myoepithelial staining, a subset of TN/metaplastic breast cancers in the study, and other tumours including melanoma/nerve sheath.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B006",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "A positive stain alone cannot confirm breast origin and a negative stain cannot exclude breast carcinoma.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S2",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B007",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Define CK5/6 as epithelial structural cytokeratins and retain EGFR/HER1 with ER/HER2 in specified research panels.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B008",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Scope Nielsen's protein surrogate to expression-defined comparison and a historical tissue cohort, not one-marker RNA subtype assignment.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B009",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Interpret the paired fictional SOX10 art as benign myoepithelial versus malignant nuclear signal, not micrographs/scoring standards; anatomy alone is not a stain result.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B010",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Distinguish basal-marker phenotype, basal-like expression and TNBC; SOX10 does not assign Lehmann BL1, ancestry or vaccine benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1",
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B011",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Separate cohort outcome association from a treatment-benefit biomarker.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B012",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Describe tissue/lesion/cell selection, fixation, named antibody, protocol, localisation and scoring.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B013",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Retain presence/intensity/percentage with intended-cell denominator and external/internal controls.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B014",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Retain preservation, scant tumour, background and neighbour-cell misattribution failure modes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B015",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "A stain is not an RNA classifier, lineage trace or drug-response assay; study rates are not universal prevalence/sensitivity or treatment probability.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B016",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Interpret the fictional axillary SOX10-positive mass without standalone breast-origin/BL1 jumps; retain morphology, panel and clinical context.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "S3"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B017",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Retain which-cells-stained teach-back and contextual-evidence takeaway as recaps.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "id": "sox10-and-basal-markers:B018",
+      "source": "sox10-and-basal-markers.md",
+      "requirement": "Retain defined-series/protein-surrogate source scopes rather than diagnostic-rule/personal-prognosis endorsement.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "S1",
+        "S2",
+        "S4"
+      ]
+    },
+    {
+      "id": "tnbc:B001",
+      "source": "tnbc.md",
+      "requirement": "Define TNBC from three completed validated negative receptor tests, not full biology, no targets or no treatment.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B002",
+      "source": "tnbc.md",
+      "requirement": "Retain invasive ER/PR below 1% nuclear staining as negative and ER 1–10% positive rather than rounding low values to zero.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B003",
+      "source": "tnbc.md",
+      "requirement": "Describe completed HER2 negativity for overexpression/amplification, IHC protein versus ISH copies and further workup for equivocal 2+.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1",
+        "T1",
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B004",
+      "source": "tnbc.md",
+      "requirement": "Retain dated 0/0+/1+ negative categories without treating IHC 2+ as a completed negative.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "HE1",
+        "T1",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B005",
+      "source": "tnbc.md",
+      "requirement": "Interpret the three-test diagram as gathering independent results, not causality; unknown/pending/uninterpretable differ from negative.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T1",
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B006",
+      "source": "tnbc.md",
+      "requirement": "Explain category use in pathways/cohorts while keeping its limited question separate from full tumour biology.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T1",
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B007",
+      "source": "tnbc.md",
+      "requirement": "Verify and scope NCI's about-15% share as a population overview, not a personal probability.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B008",
+      "source": "tnbc.md",
+      "requirement": "Verify and scope younger-age, Black-versus-White women and BRCA-carrier associations without individual prediction/origin inference.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B009",
+      "source": "tnbc.md",
+      "requirement": "Verify and qualify NCI growth/recurrence comparisons and rarely-stage-0 language without assigning every tumour the same course.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T2"
+      ]
+    },
+    {
+      "id": "tnbc:B010",
+      "source": "tnbc.md",
+      "requirement": "Correct the blanket no-hormone/no-HER2-drugs clause; retain setting-specific chemotherapy/immunotherapy and high-risk early KEYNOTE-522 evidence.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T2",
+        "T5"
+      ]
+    },
+    {
+      "id": "tnbc:B011",
+      "source": "tnbc.md",
+      "requirement": "Keep basal-like/PAM50 and TNBCtype RNA labels distinct from receptor status and SOX10/protein clues.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T4",
+        "pam50:summary:7dccb96f08a7",
+        "tnbc-molecular-subtyping:summary:e301732401e0"
+      ]
+    },
+    {
+      "id": "tnbc:B012",
+      "source": "tnbc.md",
+      "requirement": "TNBC does not assign stage, grade, immune activity or response.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T1",
+        "T2",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B013",
+      "source": "tnbc.md",
+      "requirement": "Retain specimen/block, site/date and section use, individual ER/PR percentages/categories and completed HER2 IHC/ISH findings.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B014",
+      "source": "tnbc.md",
+      "requirement": "Retain controls, adequate invasive tumour and unresolved results; general RNA classifiers do not replace these tests.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B015",
+      "source": "tnbc.md",
+      "requirement": "Keep standard pathology definitions distinct from trial entry thresholds.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T1",
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B016",
+      "source": "tnbc.md",
+      "requirement": "For specimen discrepancies retain sites/dates rather than synthesising selected results into an invented three-negative specimen.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T3"
+      ]
+    },
+    {
+      "id": "tnbc:B017",
+      "source": "tnbc.md",
+      "requirement": "Interpret adequate fictional ER below 1%/PR below 1%/HER2 1+ as both TNBC and HER2-low.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B018",
+      "source": "tnbc.md",
+      "requirement": "Change ER only to 4% and explain why standard TNBC no longer applies regardless of basal-like RNA.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B019",
+      "source": "tnbc.md",
+      "requirement": "Retain category/expression/HER2-low teach-back and separate extent/evidence takeaway as recaps.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "T3",
+        "T4"
+      ]
+    },
+    {
+      "id": "tnbc:B020",
+      "source": "tnbc.md",
+      "requirement": "Retain NCI overview/definition, official testing and PAM50 comparison source scopes.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ]
+    },
+    {
+      "id": "curative-intent:B001",
+      "source": "curative-intent.md",
+      "requirement": "Define durable-elimination intent without a guarantee, distinct from observed outcome and personal success probability.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C2",
+        "C3",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B002",
+      "source": "curative-intent.md",
+      "requirement": "Keep the destination analogy compatible with hope/uncertainty, without implying effort determines outcome.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C4",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B003",
+      "source": "curative-intent.md",
+      "requirement": "Intent depends on type/extent, evidence, feasibility, safety and personal goals rather than an intrinsic property of one medicine.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C1",
+        "C2",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B004",
+      "source": "curative-intent.md",
+      "requirement": "Distinguish selected surgery tissue, planned radiation volumes and systemic reach including undetected disease, without uniform exposure/sensitivity.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C1"
+      ]
+    },
+    {
+      "id": "curative-intent:B005",
+      "source": "curative-intent.md",
+      "requirement": "Explain local/systemic contribution in nonmetastatic breast cancer and before/after-main-treatment neoadjuvant/adjuvant roles.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C1",
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B006",
+      "source": "curative-intent.md",
+      "requirement": "Adjuvant risk-reduction treatment can follow no visible tumour; sequence depends on the plan.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C1",
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B007",
+      "source": "curative-intent.md",
+      "requirement": "Scope usual metastatic-breast control/symptom goals to that setting, not every cancer or special situation.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C2"
+      ]
+    },
+    {
+      "id": "curative-intent:B008",
+      "source": "curative-intent.md",
+      "requirement": "Chemotherapy can contribute to cure, recurrence reduction, control or symptom relief; intensity/visits/side effects do not identify intent.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C1",
+        "C2",
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B009",
+      "source": "curative-intent.md",
+      "requirement": "Define palliative care as comfort/function/quality-of-life support alongside curative care, distinct from palliative anticancer intent.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C4",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B010",
+      "source": "curative-intent.md",
+      "requirement": "Shrinkage does not prove more durable cure; plan changes require decision-specific evidence, safety and priorities.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "id": "curative-intent:B011",
+      "source": "curative-intent.md",
+      "requirement": "Intent is documented, not a lab test; effects use imaging/pathology/symptoms and defined recurrence/survival clocks and follow-up.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C3",
+        "C4",
+        "curative-intent:summary:d5b6edf8619d"
+      ]
+    },
+    {
+      "id": "curative-intent:B012",
+      "source": "curative-intent.md",
+      "requirement": "Define complete remission under the used assessment, distinct from guaranteed cure; scan/pCR or a universal year threshold does not guarantee no return.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C3",
+        "C4",
+        "curative-intent:summary:d5b6edf8619d",
+        "remission:summary:2618d1b982c0"
+      ]
+    },
+    {
+      "id": "curative-intent:B013",
+      "source": "curative-intent.md",
+      "requirement": "A negative assessment does not exclude every cell, and recurrence does not prove every earlier treatment lacked benefit.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C3"
+      ]
+    },
+    {
+      "id": "curative-intent:B014",
+      "source": "curative-intent.md",
+      "requirement": "Interpret the fictional surgery/no-visible-disease/adjuvant/nausea-support example without changing the documented goal solely due to palliative care.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "substantive teaching obligation",
+      "evidenceKeys": [
+        "C4"
+      ]
+    },
+    {
+      "id": "curative-intent:B015",
+      "source": "curative-intent.md",
+      "requirement": "Retain goal-versus-observed-remission teach-back and long-term-outcome distinction as recaps.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "derived recap; not an additional empirical claim",
+      "evidenceKeys": [
+        "C3",
+        "C4",
+        "remission:summary:2618d1b982c0"
+      ]
+    },
+    {
+      "id": "curative-intent:B016",
+      "source": "curative-intent.md",
+      "requirement": "Retain general-education source scope without individual prognosis/recommendation, citing NCI prognosis, chemotherapy, stage-based and palliative-care explanations.",
+      "disposition": "represented at stated source scope in registered audit-draft fields",
+      "status": "covered-draft",
+      "remaining": [],
+      "entailmentAssessment": "The named field excerpts jointly carry this stated requirement; this is a coordinator semantic assessment, not an independent scientific or clinical sign-off.",
+      "requirementClass": "source-scope reading obligation; source listing alone earns no credit",
+      "evidenceKeys": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    }
+  ],
+  "counts": {
+    "substantive teaching obligation": 213,
+    "derived recap; not an additional empirical claim": 12,
+    "source-scope reading obligation; source listing alone earns no credit": 12
+  },
+  "retainedSemanticRows": 237,
+  "priorWorkerRows": 135,
+  "inventoriesAreNotSummed": true,
+  "sourceBlockDenominator": 928,
+  "draftLessonsCompletedAtStatedSourceScope": 12,
+  "mainCredit": 0,
+  "liveCredit": 0
+}

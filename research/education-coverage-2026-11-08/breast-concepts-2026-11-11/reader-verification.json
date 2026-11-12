@@ -1,0 +1,2434 @@
+{
+  "scope": "Actual server reader components and lazy summary selectors; no browser hydration, responsive, native-pixel or production claim.",
+  "paragraphs": [
+    {
+      "key": "G1",
+      "owner": "germline-testing",
+      "index": 0,
+      "passageSha256": "a0c2b158610f887aef42dc56a61882097c81da3f341784c66f25b8d6c0b41882",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "G2",
+      "owner": "germline-testing",
+      "index": 1,
+      "passageSha256": "f5bd707e3c60cd9c6c166e1f5c3db0e7a41af098671625a1a45ef548d2d26233",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "G3",
+      "owner": "germline-testing",
+      "index": 2,
+      "passageSha256": "635515a800a3ca817df65802d87e210b00b7cca968f2952546fc07e609ef28cd",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "G4",
+      "owner": "germline-testing",
+      "index": 3,
+      "passageSha256": "05232a813a815829ef819ee3135b16e8d176867accb4fb0f947ca857ce897e36",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "H1",
+      "owner": "gbrca-mutation",
+      "index": 0,
+      "passageSha256": "9ed4b3d9cd4f483e6e495c80f4870bf21342444b2321ad846d9d66c2d2458429",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "H2",
+      "owner": "gbrca-mutation",
+      "index": 1,
+      "passageSha256": "2a8d875f6b92ade519979a75a780769092dfcc08d8f23583984f15aad849f2b0",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "H3",
+      "owner": "brca-germline",
+      "index": 0,
+      "passageSha256": "53eccf7bf8bedf559cc87cf91cb2c9ba1ec66581c8f7a8d2048fb638dcf348da",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "H4",
+      "owner": "hereditary-cancer-syndromes",
+      "index": 0,
+      "passageSha256": "6eeb13b897b474dc5e1472bdab6d1d65df07f3ef832f3fa372c1808d821d1c0c",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "B1",
+      "owner": "hrd-in-breast-cancer",
+      "index": 0,
+      "passageSha256": "a474997acb3a084dd9605bdaf0ed675e1f932df794345f9ecbe5144b873cca90",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "B2",
+      "owner": "hrd-in-breast-cancer",
+      "index": 1,
+      "passageSha256": "e5e9bd50c562b32963f49f473095dc61797d1b116b9aef65e1a2b050f359509e",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "B3",
+      "owner": "hrd-in-breast-cancer",
+      "index": 2,
+      "passageSha256": "b4b69252e235f6b86f2b313e0041b9fca49909c206dad4aa7fdada641618d36b",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "B4",
+      "owner": "hrd-in-breast-cancer",
+      "index": 3,
+      "passageSha256": "bdc386a0cec3c60e421b070231fde14a3d2007d26a9f1be1dbe2a14d3d01c3f4",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "B5",
+      "owner": "hrd-in-breast-cancer",
+      "index": 4,
+      "passageSha256": "aa32ce317370d0b80aea2a14fb57feaf18cb49eb94e3b1e5aede8a7518b959f7",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "B6",
+      "owner": "hrd-in-breast-cancer",
+      "index": 5,
+      "passageSha256": "29a54a3a3faeaaff08484308656af4be4a390e853fa2d700e266b53e35aeb54b",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "M1",
+      "owner": "secondary-brain-tumours",
+      "index": 0,
+      "passageSha256": "0fe28dd3a8e1cebf8af5da4a6c7151102b8e5cd991223dec63adb70a6c7564f5",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "M2",
+      "owner": "secondary-brain-tumours",
+      "index": 1,
+      "passageSha256": "d15a98729fc56e266ed2338eac036e3cb07829b1137151535f254daac5885784",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "M3",
+      "owner": "secondary-brain-tumours",
+      "index": 2,
+      "passageSha256": "2aa39f228ed5475a8e9e6b65baefc303698848084abbac647e1f131e9810b3dd",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "M4",
+      "owner": "secondary-brain-tumours",
+      "index": 3,
+      "passageSha256": "8d01e99b73e01d16997845fd6dacfc728ff42ff3ddbf44ea8b9e1ce2cf6e425f",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "M5",
+      "owner": "secondary-brain-tumours",
+      "index": 4,
+      "passageSha256": "fca443197ae1ac4a904b1063ba105e0c1b2ee1b9bba10e0eb48b9cd3afd2d74c",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "O1",
+      "owner": "oligometastatic",
+      "index": 0,
+      "passageSha256": "1370462c968e008f98df00bffdbb806e5be23e7f757bebab0dbe82b17f1c96b0",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "O2",
+      "owner": "oligometastatic",
+      "index": 1,
+      "passageSha256": "b0656d583e0293009aa188e5a9becbce40329e6b4fa2ff3997d58ad070b70198",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "O3",
+      "owner": "oligometastatic",
+      "index": 2,
+      "passageSha256": "e940badce8a03fd89cc2587919093e424733b6e849637a18e8140cce97ca0821",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "O4",
+      "owner": "oligometastatic",
+      "index": 3,
+      "passageSha256": "3b01b467af99595fc0b7fcb5e83e95ea95247849772d8160929362aee15115bf",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "O5",
+      "owner": "oligometastatic",
+      "index": 4,
+      "passageSha256": "e7e6358f27c0c2590158ae715e014ba6021735002554fb090175fafadf202468",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "R1",
+      "owner": "relapse-recurrence",
+      "index": 0,
+      "passageSha256": "d48250ba8dc5dc1b7237c5727b39f2a08f8adbac635aa5b1a6a0947c7732384f",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "R2",
+      "owner": "relapse-recurrence",
+      "index": 1,
+      "passageSha256": "034bd2ea2b85b425823732e298fef8e465489a1a25152ade6ca93da08a283f06",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "R3",
+      "owner": "relapse-recurrence",
+      "index": 2,
+      "passageSha256": "4bec4daeb5b5143aac96f7d8c2b0e8e4ea35a362d89f3b4fed1d210fb374dfce",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "R4",
+      "owner": "relapse-recurrence",
+      "index": 3,
+      "passageSha256": "64f8bacc4eb5d421c5318e5432293c5bf61d34063b8eacb9bb9161efb298701a",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "R5",
+      "owner": "relapse-recurrence",
+      "index": 4,
+      "passageSha256": "ac012e3a9f85de986c37e0fac7c06d3dbcdbfcc64d3f5b936273d72e542eeaf2",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "E1",
+      "owner": "er-status",
+      "index": 0,
+      "passageSha256": "e3e73a4ad8eff4ac40ad3299244453dd1a7cc41670100d1e1b876e6943d6f8a9",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "E2",
+      "owner": "er-status",
+      "index": 1,
+      "passageSha256": "fb7ddf36729bfb67e4ee618288c67ae2eed7fe3b856ebe6a4c1e2aed1165bfaf",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "E3",
+      "owner": "er-status",
+      "index": 2,
+      "passageSha256": "082e19a828911ab06228155447efe00924867b6dd186de491f82e4361829b9ee",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "P1",
+      "owner": "pr-status",
+      "index": 0,
+      "passageSha256": "9c09e43b442887591cec49e788f5cc1d73aaa672571f4a159f9a133b86f5a7a9",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "P2",
+      "owner": "pr-status",
+      "index": 1,
+      "passageSha256": "39ae1823a2a8304f13a2acaaf41b7ad20c580c5b2c54c8764ae701a6563aaafb",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "P3",
+      "owner": "pr-status",
+      "index": 2,
+      "passageSha256": "32a56b5224cb092ba4a2e47349143d939616be0907d49f6b0733e1efea1c059d",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "HE1",
+      "owner": "her2-positive",
+      "index": 0,
+      "passageSha256": "7f6adc07e4c8f067b7d124bdb014cd166214ee1dfdca737c9d8d5624063605d0",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "HE2",
+      "owner": "her2-positive",
+      "index": 1,
+      "passageSha256": "7618ede99b9e441b1855520b7a38718cc5008256a974206e5f5ae3141e8d54e6",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "HE3",
+      "owner": "her2-positive",
+      "index": 2,
+      "passageSha256": "93f91ace96d8076965518c8cf36eba631718b69ea8c8262e0b254b165b8eac67",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "HE4",
+      "owner": "her2-positive",
+      "index": 3,
+      "passageSha256": "42232c3d85dbde6d61b9f46ab5d0ae77c5ad8e7520a9b66b957c0095cd2ff2ff",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "HE5",
+      "owner": "her2-low",
+      "index": 1,
+      "passageSha256": "9f0255416fba7bb7739a9b4b061210e1821df9aa367bc4440fa90dfaf0af8cd6",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "S1",
+      "owner": "basal-like",
+      "index": 2,
+      "passageSha256": "1bb2ef12d397d5f8271f0a1c594fba0fcd46f6c2d113b00c465030a691064c73",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "S2",
+      "owner": "basal-like",
+      "index": 3,
+      "passageSha256": "259fa302dbe7e838cbcaf34ae5c38cf5803617d02ecbf6658d4821652e896353",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "S3",
+      "owner": "basal-like",
+      "index": 4,
+      "passageSha256": "6582640ee42cb35f57682971c669dc193bdaa63a0208056cbeff39f59823dbf6",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "S4",
+      "owner": "basal-like",
+      "index": 5,
+      "passageSha256": "2ee37da95756665d72d66ebbbeba8e4351ffd8a82864c09fcafdd905f3084272",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "T1",
+      "owner": "tnbc",
+      "index": 10,
+      "passageSha256": "902ffaae1cd5fd6327176082e920d33921185d193db360d570d049f9c1cfad9f",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "T2",
+      "owner": "tnbc",
+      "index": 11,
+      "passageSha256": "7d19ba52df51d7b91897c4778c9546fc1c972bd22586f80fd164d41f9695c4dc",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "T3",
+      "owner": "tnbc",
+      "index": 12,
+      "passageSha256": "6f670caff51ab8a14563ff8e5bfcf9d0c856ea5afa8399885d766cea771cca8d",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "T4",
+      "owner": "tnbc",
+      "index": 13,
+      "passageSha256": "c1b63eca4caade226d663c0e6f9f5d83cd4d18729356d8a1119183a8f3eef6e4",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "T5",
+      "owner": "tnbc",
+      "index": 14,
+      "passageSha256": "a313e5b2da4f1b827e523eb1ec4700776da75e9f1e5292a3ca89a166c278560c",
+      "actualReaderContainment": true,
+      "reader": "CancerSectionPage data route"
+    },
+    {
+      "key": "C1",
+      "owner": "curative-intent",
+      "index": 0,
+      "passageSha256": "62c91d9e4edb7cf96f028f9b47465259be291875f12653691fec2dd9b22373f7",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "C2",
+      "owner": "curative-intent",
+      "index": 1,
+      "passageSha256": "a8697b41069e1a46750351bf1aa614fef5f426cce762c5495a1be82ee78bee81",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "C3",
+      "owner": "curative-intent",
+      "index": 2,
+      "passageSha256": "b5e91f02c5da1b0f0558c3b43bb3d6cf3a8576e88a96d6ff5bd007f145928c72",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    },
+    {
+      "key": "C4",
+      "owner": "curative-intent",
+      "index": 3,
+      "passageSha256": "9dc9ed06bd59fd76d7757dd661cbf6d5703f3a4d918387db7416d4b8f14dbf0c",
+      "actualReaderContainment": true,
+      "reader": "EntityDetail"
+    }
+  ],
+  "fieldExcerptsCheckedInActualReaders": 68,
+  "ownerReaders": 18,
+  "existingDefinitionReaders": 5,
+  "summarySelectors": {
+    "entries": 162,
+    "available": 62,
+    "EnglishFallback": 100,
+    "longSummaryCache": {
+      "accepted": 0,
+      "rejectedStale": 0,
+      "absent": 144,
+      "rows": [
+        {
+          "id": "basal-like",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "basal-like",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "brca-germline",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "curative-intent",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "er-status",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "gbrca-mutation",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "germline-testing",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-low",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "her2-positive",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hereditary-cancer-syndromes",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hormone-receptor-status",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "hrd-in-breast-cancer",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "nucleus",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "oligometastatic",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "pr-status",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "relapse-recurrence",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "remission",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "secondary-brain-tumours",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "es",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "zh",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "pt",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "hi",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "fr",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "de",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "ja",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        },
+        {
+          "id": "tnbc",
+          "language": "ar",
+          "stored": false,
+          "accepted": false,
+          "rejectedStale": false
+        }
+      ]
+    },
+    "existingReviewLabels": [],
+    "newNamedLanguageReviews": 0,
+    "files": [
+      {
+        "id": "basal-like-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "38c3619dcdc584c67cd7f5efb526dde46be5cd8fe715ea2ef50e044e7ad96d9f"
+      },
+      {
+        "id": "er-status-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "adf640194320d8a168e59e8dc26cb70c0bbd37ce5f594cb551c3c7d73f386141"
+      },
+      {
+        "id": "her2-positive-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "cbd61dec8f1b2e35e58f4164cabeac6094d22c1290386ae3de77e1b656582f02"
+      },
+      {
+        "id": "hormone-receptor-status-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "509f53bf228d7e3ec7b2f2ea6aaa433b0a62137df89d151c43e3a2333a79b804"
+      },
+      {
+        "id": "remission-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "1d942a6642d829211d179776b3aba717455a4dd918d80dbfbb74403a81db3d99"
+      },
+      {
+        "id": "secondary-brain-tumours-ar",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-ar",
+        "available": true,
+        "fallback": false,
+        "sha256": "45734f0d2d185d394bdd745c130526a29304f546af462216358cede8204a8101"
+      },
+      {
+        "id": "basal-like-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "ce2d21131ee3fa33be8b98d3fd7b9aa66d78d04c429eaad2ffc9598c3a10a350"
+      },
+      {
+        "id": "er-status-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "72e99f0ed54879121fe842672fde0595239c5db931fb304b937d6634a65cb227"
+      },
+      {
+        "id": "her2-positive-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "865ed7803526dd66be64e7d61d05d3da082005b510394ae2b6794b1b15b7238c"
+      },
+      {
+        "id": "hormone-receptor-status-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "76cc12d927aef5b94bf4ec2e9072a7d20487172a973377259e7fceef2834964c"
+      },
+      {
+        "id": "remission-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "3c1c3b2e281a78d3257fb7e0ea528acd990ba24102af2456b820ec196e049480"
+      },
+      {
+        "id": "secondary-brain-tumours-de",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-de",
+        "available": true,
+        "fallback": false,
+        "sha256": "5afd7a39640d781ec984ef2f65f90e0db5e700a01691b15e25cd2d20730daabb"
+      },
+      {
+        "id": "basal-like-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "d16eb1d721d701a67f943c62370b31ce886db2666218e41b375870f4d3a74f31"
+      },
+      {
+        "id": "er-status-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "3ac14106407d70a1aac026cae693ebedf8630556044b1ab022407ae26acca714"
+      },
+      {
+        "id": "her2-positive-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "984e5430d60e1daf02b84cc5f28e12d516f204dfb391e33b56e8ac663b521597"
+      },
+      {
+        "id": "hormone-receptor-status-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "93b07b8f795bb5992a92f8929040a27ca701dee2e922b11c9271b7e035a6c2fc"
+      },
+      {
+        "id": "remission-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "6789802c1c45fb3514a7e091e6a9fcf285801e53889c1f0ed4e93812f9fead64"
+      },
+      {
+        "id": "secondary-brain-tumours-es",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-es",
+        "available": true,
+        "fallback": false,
+        "sha256": "555832fd1b65fdb2c20aee8aefb1347d20c5b83e76fa85e60b11af177b185319"
+      },
+      {
+        "id": "basal-like-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "d541c9183704f69a8767c12ec5afae0b2393e67c8748c34f60daec5efadae2e0"
+      },
+      {
+        "id": "er-status-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "0c6ec010849700226ece76d1f7b29f49ab330b39419da0774e6c6532c1013dd6"
+      },
+      {
+        "id": "her2-positive-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "b1ea4438e061fb63a9ae4fa48224d061a887bd501a196657190cef1002fbe901"
+      },
+      {
+        "id": "hormone-receptor-status-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "7980bbf4ab470518b76772e44af84a24da15b11f420f8c6ffe7c12928d57ab2d"
+      },
+      {
+        "id": "remission-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "6e90e4fc51ff3a6afc889c6e60548b4a0d540a2827783217944ae6e5c27340b2"
+      },
+      {
+        "id": "secondary-brain-tumours-fr",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-fr",
+        "available": true,
+        "fallback": false,
+        "sha256": "33b67d6b3607ce628d9352bb50e003e905edc49c138fd4c15502a928e37bdb43"
+      },
+      {
+        "id": "basal-like-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "432a986d72679c96a3efa6b472e7ff9c20fad2b6e770385a79c5849de1d36c3a"
+      },
+      {
+        "id": "er-status-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "ef44ff791bf3deb8f4d1753a15ce3240054350ed77176fd607a9377f0d5ebad5"
+      },
+      {
+        "id": "her2-positive-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "c96d109b766254dde43fe3769e452ab5e41e63be1341820307646a70af04fb6d"
+      },
+      {
+        "id": "hormone-receptor-status-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "ec8dff160723a78b4bfa92d2c09a7d802d0ee1e2ec79be5d3d15069ff95e3bbf"
+      },
+      {
+        "id": "remission-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "cb264ed2e61c53506ed4490c62571de959edd67f27a9c38028d1d9ebb77803d0"
+      },
+      {
+        "id": "secondary-brain-tumours-hi",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-hi",
+        "available": true,
+        "fallback": false,
+        "sha256": "7740c8634ef410166778ddd70f8cddc300f64884d4285ae7bc5697f5cc4d0946"
+      },
+      {
+        "id": "basal-like-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "51d35e78007d06609be53e5ac281301f2d44a56627a47d26642ea6b27787c6e6"
+      },
+      {
+        "id": "er-status-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "5358795c59ca5697f30a609dc7ad096096f2aad8eada169c7cbfe8a70914a48d"
+      },
+      {
+        "id": "her2-positive-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "8bfc35c2bbab4460aa2b4ef542302fa117befb64d083de3b11f77eec208fdc69"
+      },
+      {
+        "id": "hormone-receptor-status-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "4c9718d6c5ea4272dbd9b1ca2736d058e4f19965b13c28bc275a96b6a5277c16"
+      },
+      {
+        "id": "remission-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "deedeb85e47be35907875145ac4f3d028cd708e8e7b7a7f7f9054235b8765e18"
+      },
+      {
+        "id": "secondary-brain-tumours-ja",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-ja",
+        "available": true,
+        "fallback": false,
+        "sha256": "b29b47dcf36884e6c697ed3fe3a3186a1b4cc73b9b8bb6a87db30b4b933bbe91"
+      },
+      {
+        "id": "basal-like-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "75f7a7a13ffc4fb5d4411acf86115a3bbd6f2caf5e7d0e117a0a84b90aa0d418"
+      },
+      {
+        "id": "er-status-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "f4054a72af5509a13f7f951dcd6c7dc0e770a93299986c647a8f7fb27f352e7a"
+      },
+      {
+        "id": "her2-positive-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "85fb36a2a4c88d51fb896fe660f7731134791b085d9936868cec91f457b91fba"
+      },
+      {
+        "id": "hormone-receptor-status-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "4e3062117c84bb3c80c96b7ab9ca88a87e0d9d34265daf2eb6c4feecf380f7e8"
+      },
+      {
+        "id": "remission-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "704bf90135214f34635054293c1edd1f75de7795f0b397afc999a5c719e21b67"
+      },
+      {
+        "id": "secondary-brain-tumours-pt",
+        "available": false,
+        "fallback": true,
+        "sha256": "3f4a9114429fae8c1464b088e07921f5fcbf5893d8640f2d6e959b3925aa5481"
+      },
+      {
+        "id": "tnbc-pt",
+        "available": true,
+        "fallback": false,
+        "sha256": "97b110425a8e83f18746a631b98d63dd2951e34d2b738ae42003a489babe0a93"
+      },
+      {
+        "id": "basal-like-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "78f3e9b559c942cdf0ab03925797b774e4b194200f015aa02979cb8f1f898421"
+      },
+      {
+        "id": "er-status-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe69845dc027495b6691f400b0b4fc766dad812979ed6c4e0c693eb200664521"
+      },
+      {
+        "id": "germline-testing-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "dc032466853fb1c7e0c6fcc50bacc72fa76c09b6cde26fda5767b71db9ee216d"
+      },
+      {
+        "id": "her2-low-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "240d939d620a1b9304bf9af60871c6e53b2f90e393f20f5d25fe8d5eea852e7e"
+      },
+      {
+        "id": "her2-positive-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "4ec309540db25f3845a35f8f4495ac01af190df8511c962800ea0bc2aa4d7703"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "0440e9322fe6824c433aac3a282c9cc2adc4f2ef733c8522baa3d61111d6f8eb"
+      },
+      {
+        "id": "hormone-receptor-status-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "90738dad909788bf731cec09cc1e010242adb1541691350f7642153f5fdc05b5"
+      },
+      {
+        "id": "hrd-in-breast-cancer-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "4f04d70f245e1d19b5a30e3ae67df313aed39aef201178741a888a4f0476d3b2"
+      },
+      {
+        "id": "oligometastatic-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "fe32aa5fa3144e11c54a0024e68d52c5bdbfaa703e92c72480c7438a4132969e"
+      },
+      {
+        "id": "pr-status-zh",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "ad862b85e96315a274fc523b397be638290309370f623133bb33d05fef8ad546"
+      },
+      {
+        "id": "remission-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "f8b2ecb874c004c2b5a3e7a8cc42aaf1b0a81c944cc227ab72126392eefe6805"
+      },
+      {
+        "id": "secondary-brain-tumours-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "48acd8325837cc88eee7fd8995ea0d4a0ce0188b8ed78546f5c09a60ed49801d"
+      },
+      {
+        "id": "tnbc-zh",
+        "available": true,
+        "fallback": false,
+        "sha256": "1d57dbdc2510db8b57563c00ad044d4236d241047b12f82a5f316f8e6eae43b3"
+      },
+      {
+        "id": "basal-like-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "16f2bf01adac4f989f77054af27fa7e4b8a602c39abed85a80e957b6f9739769"
+      },
+      {
+        "id": "brca-germline-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "cd7f387b0190af6a1f87a06b5db3ed83f0864683c9c858a41fb86da41b663a23"
+      },
+      {
+        "id": "curative-intent-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7730c2df99965adfc86ac3018044645234b6719f162e61bcc68279d4bed006ae"
+      },
+      {
+        "id": "er-status-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "ce31cd7a1aa80aca49502f39f2ee04f5baf035c9c76786c5d7fce90992716f1b"
+      },
+      {
+        "id": "gbrca-mutation-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "95f59b4d7dc86ea770f27bef40eb37a677e932a509ce2a4c642ccf63f0931a91"
+      },
+      {
+        "id": "germline-testing-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "eff880d8f20bf48d1a62d4abf411b4332bedbedf9dda38c2f7efa0d18c2e3196"
+      },
+      {
+        "id": "her2-low-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "9e2e3354f5b7e6ec96a7b58069a1b2830f8c1182de24720ec2c18e14fb775c39"
+      },
+      {
+        "id": "her2-positive-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "e86e4703c606485da9093843607c4651c8901952ce259b4aa9f6f2e65b18b9c9"
+      },
+      {
+        "id": "hereditary-cancer-syndromes-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "07c08454d4130f2ba7d9c1833c0b2f615d66ad020179c322c22730225de2e90a"
+      },
+      {
+        "id": "hormone-receptor-status-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "d19bd4af9d5d0001aa5d2a6cffe1113b63a7b24a52a4b453107ce2f2124f0a7b"
+      },
+      {
+        "id": "hrd-in-breast-cancer-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "4728798a964654a2419255194480320b04be0db3cc51357ce22ced736c9541cc"
+      },
+      {
+        "id": "nucleus-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7f2452ef03696ab454cfbd7ba9f5acc7772209aa793634ddfdabd54aeb9752b4"
+      },
+      {
+        "id": "oligometastatic-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "40e28c1fa2ba286105ab6c70c23fd01403774a0ddebe75746963bdc14ca49cb0"
+      },
+      {
+        "id": "pr-status-simple",
+        "available": false,
+        "fallback": true,
+        "sha256": "919052f9542b3ad11cd6cfcc1899cc5581433b39ae86a15f181b8dae103e6c39"
+      },
+      {
+        "id": "relapse-recurrence-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "70305c3dbc9777dc967baa8658b842ecfc0bddcee43a20f6fe5c68f08b2ae301"
+      },
+      {
+        "id": "remission-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "5cb4bf60e494557feb9859577f0af8249d898a6ae87bc77b9be61bc9e95b0b1c"
+      },
+      {
+        "id": "secondary-brain-tumours-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "3c1f5874623e9b1d15cb215a51b870d0808231c8cf67643bc8cb89d994c65dd5"
+      },
+      {
+        "id": "tnbc-simple",
+        "available": true,
+        "fallback": false,
+        "sha256": "7a861be9b752720cb1f581b036e5cbeb1884a97fb53be802074857befb966ac6"
+      }
+    ]
+  },
+  "exports": {
+    "records": 18,
+    "exactEntityJSON": true,
+    "markdownPassages": 119,
+    "openApiHasPathsAndComponents": true
+  }
+}

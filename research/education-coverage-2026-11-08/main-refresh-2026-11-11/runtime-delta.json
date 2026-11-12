@@ -1,0 +1,872 @@
+{
+  "beforeCount": 22811,
+  "afterCount": 22809,
+  "changedRecords": [
+    {
+      "id": "2005",
+      "fields": [
+        "tldr",
+        "events",
+        "summary"
+      ]
+    },
+    {
+      "id": "akt1-e17k",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "alk-fusion",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "alliance-for-rare-cancers",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "astrazeneca",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "azd0120",
+      "fields": [
+        "aka",
+        "links",
+        "companies",
+        "tldr",
+        "mechanism",
+        "summary",
+        "related",
+        "trials"
+      ]
+    },
+    {
+      "id": "b-data-silos",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "b-ip-collaboration",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "b-misinformation",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "b-patient-voice",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "bayli-divita-dean",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "bcma",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "bcr-abl1-transcript",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "braf-fusion",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "braf-v600e",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "brca-germline",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "brca-somatic",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "cancer-commons",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "institutionType"
+      ]
+    },
+    {
+      "id": "cd19",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "cgp",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "chan-zuckerberg-initiative",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "institutionType"
+      ]
+    },
+    {
+      "id": "cldn18-2-expression",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "colorectal",
+      "fields": [
+        "pipeline"
+      ]
+    },
+    {
+      "id": "ctdna-mrd-positive",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "cure-first",
+      "fields": [
+        "investors",
+        "hq",
+        "aka",
+        "lat",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "summary",
+        "institutionType",
+        "asOf"
+      ]
+    },
+    {
+      "id": "dmmr-ihc",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "docrates",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "drup",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "egfr-exon-19-deletion",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "egfr-exon-20-insertion",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "egfr-l858r",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "egfr-t790m",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "esr1-mutation-ctdna",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "fgfr2-fusion-rearrangement",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "fgfr3-alteration",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "flt3-itd",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "flt3-tkd",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "folr1-expression",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "functional-drug-testing",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "future-of-cancer-care-today",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "companies",
+        "stage",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "institutions",
+        "institutionType"
+      ]
+    },
+    {
+      "id": "galen",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "gfh375",
+      "fields": [
+        "aka",
+        "links",
+        "companies",
+        "cancers",
+        "summary",
+        "related",
+        "trials"
+      ]
+    },
+    {
+      "id": "gracell-biotechnologies",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "hartwig-medical-foundation",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "institutionType"
+      ]
+    },
+    {
+      "id": "her2-ihc-0",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "her2-ihc-1-plus",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "her2-ihc-2-plus",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "her2-ihc-3-plus",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "her2-ish-amplified",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "her2-low-ihc",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "her2-mutation",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "her2-ultralow",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "hla-a-02-01",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "houston-methodist-rna-therapeutics",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "hrd-positive",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "hrr-gene-mutation",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "i-spy-2",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "i-spy-2-2",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "idea-data-donor-card",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "idea-tr1-ehr-point-of-care-trial-alert",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "idea-tr1-live-trial-slot-api",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "idh1-r132",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "idh2-mutation",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "invoke-bio",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "jaime-leandro-foundation",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "companies",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "institutions",
+        "institutionType"
+      ]
+    },
+    {
+      "id": "kit-d816v",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "klineo",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "kras",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "kras-g12c",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "kras-g12c-colorectal",
+      "fields": [
+        "pipeline"
+      ]
+    },
+    {
+      "id": "kras-g12d",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "met-ex14",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "met-overexpression",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "msi-high",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "multiple-myeloma",
+      "fields": [
+        "pipeline"
+      ]
+    },
+    {
+      "id": "navexio",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "nct06235229",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "nct07020221",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "nct07644559",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "nct07659782",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "nct07659795",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "neoantigen-mrna-vaccine",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "nsclc",
+      "fields": [
+        "pipeline"
+      ]
+    },
+    {
+      "id": "ntrk-fusion",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "oncodna",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "organoids",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "ostomy-appliances",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "pancreatic",
+      "fields": [
+        "pipeline"
+      ]
+    },
+    {
+      "id": "paper-drup-van-der-velden-nature-2019",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "paper-priestley-hartwig-metastatic-wgs-nature-2019",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "pathfinder-oncology",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "pd-l1-cps",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "pd-l1-ic-score",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "pd-l1-tc-score",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "pd-l1-tps",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "picnic-health",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "pik3ca-hotspot-mutation",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "poornima-parameswaran",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "private-health-management",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "private-medical",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "protean-biodiagnostics",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "pten-alteration",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "quantum-leap-healthcare-collaborative",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "founded",
+        "stage",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "institutionType"
+      ]
+    },
+    {
+      "id": "ras-wild-type",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "ret-fusion",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "ros1-fusion",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "sid-sijbrandij",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "sijbrandij-foundation",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "companies",
+        "stage",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "institutions",
+        "institutionType"
+      ]
+    },
+    {
+      "id": "storemytumor",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "tmb-high",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "tp53-del17p",
+      "fields": [
+        "companionDiagnostics"
+      ]
+    },
+    {
+      "id": "transcriptformer",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "universal-cell-embedding",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "uoaa",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "summary",
+        "institutionType",
+        "asOf"
+      ]
+    },
+    {
+      "id": "verastem",
+      "fields": [
+        "drugs"
+      ]
+    },
+    {
+      "id": "virtual-cell",
+      "fields": [
+        "companies",
+        "institutions"
+      ]
+    },
+    {
+      "id": "wocn-society",
+      "fields": [
+        "investors",
+        "hq",
+        "lat",
+        "programs",
+        "kind",
+        "companyType",
+        "city",
+        "funding",
+        "lng",
+        "summary",
+        "institutionType",
+        "asOf"
+      ]
+    }
+  ],
+  "addedIds": [],
+  "removedIds": [
+    "gc012f",
+    "vs-7375"
+  ]
+}

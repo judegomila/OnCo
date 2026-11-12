@@ -1,0 +1,838 @@
+[
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+    "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b",
+    "gitBlob": "3f406f6831386fe37bd1209fc644cbcc894234c0",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show BH3-only activation and survival-protein restraint converging on BAX/BAK. Cytochrome c is drawn in intermembrane space and crosses the outer membrane toward cytosol, with matrix below inner folds. Apoptosome/caspase-9 are downstream; shapes and counts are schematic.",
+    "requirementIds": [
+      "apoptosis-and-bcl2-family-mechanism",
+      "apoptosis-and-bcl2-family-family",
+      "apoptosis-and-bcl2-family-compartment",
+      "apoptosis-and-bcl2-family-interpretation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+    "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99",
+    "gitBlob": "c06315ceb38fc736111bc358f20cc33ae1a44f8f",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show BH3-only activation and survival-protein restraint converging on BAX/BAK. Cytochrome c is drawn in intermembrane space and crosses the outer membrane toward cytosol, with matrix below inner folds. Apoptosome/caspase-9 are downstream; shapes and counts are schematic.",
+    "requirementIds": [
+      "apoptosis-and-bcl2-family-mechanism",
+      "apoptosis-and-bcl2-family-family",
+      "apoptosis-and-bcl2-family-compartment",
+      "apoptosis-and-bcl2-family-interpretation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-light.svg",
+    "sha256": "d1a9cabf874aea53281f3e1d22c361d9d78710440e8684df218b91573779167b",
+    "gitBlob": "3f406f6831386fe37bd1209fc644cbcc894234c0",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show BH3-only activation and survival-protein restraint converging on BAX/BAK. Cytochrome c is drawn in intermembrane space and crosses the outer membrane toward cytosol, with matrix below inner folds. Apoptosome/caspase-9 are downstream; shapes and counts are schematic.",
+    "requirementIds": [
+      "apoptosis-and-bcl2-family-mechanism",
+      "apoptosis-and-bcl2-family-family",
+      "apoptosis-and-bcl2-family-compartment",
+      "apoptosis-and-bcl2-family-interpretation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/apoptosis-and-bcl2-family.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/apoptosis-outer-membrane-v1-dark.svg",
+    "sha256": "a62ae2817018e389559528353d5183e1ed30b89e24b95d1f0a673216eb581b99",
+    "gitBlob": "c06315ceb38fc736111bc358f20cc33ae1a44f8f",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show BH3-only activation and survival-protein restraint converging on BAX/BAK. Cytochrome c is drawn in intermembrane space and crosses the outer membrane toward cytosol, with matrix below inner folds. Apoptosome/caspase-9 are downstream; shapes and counts are schematic.",
+    "requirementIds": [
+      "apoptosis-and-bcl2-family-mechanism",
+      "apoptosis-and-bcl2-family-family",
+      "apoptosis-and-bcl2-family-compartment",
+      "apoptosis-and-bcl2-family-interpretation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-light.png",
+    "sha256": "c23644d27db8e8f3a7f65e26282c4bdefd54912c41d245c9eeabaa0b78d2059a",
+    "gitBlob": "b87ff429188ec604282559e2578c69d88f96366a",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show enclosed cargo and two membranes, lysosomal fusion, and later fragmented material leaving for reuse. This is a completed route schematic rather than a measurement of flux, timing, cargo identity or dependence.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-dark.png",
+    "sha256": "8121c792f5edb6172d8e85e8544c40c334cc0f83570a3db900fb0dc1971e112b",
+    "gitBlob": "c2a2975153fd7dc85f016eb2ef30f9194113f6f7",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show enclosed cargo and two membranes, lysosomal fusion, and later fragmented material leaving for reuse. This is a completed route schematic rather than a measurement of flux, timing, cargo identity or dependence.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-amount-and-flow-v1-light.png",
+    "sha256": "ca3a5e06297389cf1d22d21659e4354443e96ca35c59292e06d8f0c6fe9e0a54",
+    "gitBlob": "9d0ba2aa96b3f94fbc128c8d95cef441f366c824",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Equal two-autophagosome starting depictions lead either to released breakdown products or retained cargo in a hypothetical degradation block. The bottom explicitly separates survival dependence. It does not diagnose culture B from the starting picture.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-amount-and-flow-v1-dark.png",
+    "sha256": "293996c731a998c31fd764c8128a080f0f88da61b473497aafc6672038a1f6c4",
+    "gitBlob": "66cbfab6239840820e44a78fbf0d4f8da14aabe7",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Equal two-autophagosome starting depictions lead either to released breakdown products or retained cargo in a hypothetical degradation block. The bottom explicitly separates survival dependence. It does not diagnose culture B from the starting picture.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-light.png",
+    "sha256": "c23644d27db8e8f3a7f65e26282c4bdefd54912c41d245c9eeabaa0b78d2059a",
+    "gitBlob": "b87ff429188ec604282559e2578c69d88f96366a",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show enclosed cargo and two membranes, lysosomal fusion, and later fragmented material leaving for reuse. This is a completed route schematic rather than a measurement of flux, timing, cargo identity or dependence.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-cargo-route-v1-dark.png",
+    "sha256": "8121c792f5edb6172d8e85e8544c40c334cc0f83570a3db900fb0dc1971e112b",
+    "gitBlob": "c2a2975153fd7dc85f016eb2ef30f9194113f6f7",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show enclosed cargo and two membranes, lysosomal fusion, and later fragmented material leaving for reuse. This is a completed route schematic rather than a measurement of flux, timing, cargo identity or dependence.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-amount-and-flow-v1-light.png",
+    "sha256": "ca3a5e06297389cf1d22d21659e4354443e96ca35c59292e06d8f0c6fe9e0a54",
+    "gitBlob": "9d0ba2aa96b3f94fbc128c8d95cef441f366c824",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Equal two-autophagosome starting depictions lead either to released breakdown products or retained cargo in a hypothetical degradation block. The bottom explicitly separates survival dependence. It does not diagnose culture B from the starting picture.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/autophagy.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/macroautophagy-amount-and-flow-v1-dark.png",
+    "sha256": "293996c731a998c31fd764c8128a080f0f88da61b473497aafc6672038a1f6c4",
+    "gitBlob": "66cbfab6239840820e44a78fbf0d4f8da14aabe7",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Equal two-autophagosome starting depictions lead either to released breakdown products or retained cargo in a hypothetical degradation block. The bottom explicitly separates survival dependence. It does not diagnose culture B from the starting picture.",
+    "requirementIds": [
+      "autophagy-mechanism",
+      "autophagy-flux",
+      "autophagy-specificity",
+      "autophagy-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-light.svg",
+    "sha256": "cce611f06e366b84feb7869c4b4af5eb4376b5481a74f6479a1131c55511047f",
+    "gitBlob": "dd965acbbdf033a6d31c2170268a572f4d41ed3f",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes place illustrative oxidation in membrane tails and separate GPX4/glutathione lipid-hydroperoxide reduction from FSP1/CoQ radical-trap regeneration. Generic O icons are not atom counts or assay readings. The image explicitly requires damage, timing, death and rescue and disclaims diagnosis.",
+    "requirementIds": [
+      "ferroptosis-mechanism",
+      "ferroptosis-defences",
+      "ferroptosis-measurement",
+      "ferroptosis-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-dark.svg",
+    "sha256": "d18262b270aafda1437e0d2a71136ab967f1f02c0bd65453c99ac4c87bf48a27",
+    "gitBlob": "90612b65767afa7f84aa54e72a027c46e0dbab88",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes place illustrative oxidation in membrane tails and separate GPX4/glutathione lipid-hydroperoxide reduction from FSP1/CoQ radical-trap regeneration. Generic O icons are not atom counts or assay readings. The image explicitly requires damage, timing, death and rescue and disclaims diagnosis.",
+    "requirementIds": [
+      "ferroptosis-mechanism",
+      "ferroptosis-defences",
+      "ferroptosis-measurement",
+      "ferroptosis-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-light.svg",
+    "sha256": "cce611f06e366b84feb7869c4b4af5eb4376b5481a74f6479a1131c55511047f",
+    "gitBlob": "dd965acbbdf033a6d31c2170268a572f4d41ed3f",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes place illustrative oxidation in membrane tails and separate GPX4/glutathione lipid-hydroperoxide reduction from FSP1/CoQ radical-trap regeneration. Generic O icons are not atom counts or assay readings. The image explicitly requires damage, timing, death and rescue and disclaims diagnosis.",
+    "requirementIds": [
+      "ferroptosis-mechanism",
+      "ferroptosis-defences",
+      "ferroptosis-measurement",
+      "ferroptosis-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ferroptosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/membrane-lipid-damage-and-parallel-defenses-v1-dark.svg",
+    "sha256": "d18262b270aafda1437e0d2a71136ab967f1f02c0bd65453c99ac4c87bf48a27",
+    "gitBlob": "90612b65767afa7f84aa54e72a027c46e0dbab88",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes place illustrative oxidation in membrane tails and separate GPX4/glutathione lipid-hydroperoxide reduction from FSP1/CoQ radical-trap regeneration. Generic O icons are not atom counts or assay readings. The image explicitly requires damage, timing, death and rescue and disclaims diagnosis.",
+    "requirementIds": [
+      "ferroptosis-mechanism",
+      "ferroptosis-defences",
+      "ferroptosis-measurement",
+      "ferroptosis-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+    "sha256": "85958b20d6a0170b888a6eabd12006ed1517f8618e67f40eaac25d066ccab13c",
+    "gitBlob": "52aa02c98792a490042b44a04bb74225f1de814d",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes display dying-cell preparation, removal of inducer, no added adjuvant, compatible immune-competent mouse vaccination then living matched challenge, and vaccinated/unvaccinated and specificity controls. Model protection is explicitly separated from patient benefit. Layout supplies no experimental protocol or positive result.",
+    "requirementIds": [
+      "immunogenic-cell-death-definition",
+      "immunogenic-cell-death-signals",
+      "immunogenic-cell-death-functional-test",
+      "immunogenic-cell-death-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+    "sha256": "66a5b03febd22eb25a978b6c37ac743eb9b17ae601777bb8c03b9d4d75e28b05",
+    "gitBlob": "6abec4801c3ac79d446a562d7412c862fc9a4e0d",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes display dying-cell preparation, removal of inducer, no added adjuvant, compatible immune-competent mouse vaccination then living matched challenge, and vaccinated/unvaccinated and specificity controls. Model protection is explicitly separated from patient benefit. Layout supplies no experimental protocol or positive result.",
+    "requirementIds": [
+      "immunogenic-cell-death-definition",
+      "immunogenic-cell-death-signals",
+      "immunogenic-cell-death-functional-test",
+      "immunogenic-cell-death-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-light.svg",
+    "sha256": "85958b20d6a0170b888a6eabd12006ed1517f8618e67f40eaac25d066ccab13c",
+    "gitBlob": "52aa02c98792a490042b44a04bb74225f1de814d",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes display dying-cell preparation, removal of inducer, no added adjuvant, compatible immune-competent mouse vaccination then living matched challenge, and vaccinated/unvaccinated and specificity controls. Model protection is explicitly separated from patient benefit. Layout supplies no experimental protocol or positive result.",
+    "requirementIds": [
+      "immunogenic-cell-death-definition",
+      "immunogenic-cell-death-signals",
+      "immunogenic-cell-death-functional-test",
+      "immunogenic-cell-death-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/immunogenic-cell-death.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/danger-signals-host-learning-and-challenge-v1-dark.svg",
+    "sha256": "66a5b03febd22eb25a978b6c37ac743eb9b17ae601777bb8c03b9d4d75e28b05",
+    "gitBlob": "6abec4801c3ac79d446a562d7412c862fc9a4e0d",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes display dying-cell preparation, removal of inducer, no added adjuvant, compatible immune-competent mouse vaccination then living matched challenge, and vaccinated/unvaccinated and specificity controls. Model protection is explicitly separated from patient benefit. Layout supplies no experimental protocol or positive result.",
+    "requirementIds": [
+      "immunogenic-cell-death-definition",
+      "immunogenic-cell-death-signals",
+      "immunogenic-cell-death-functional-test",
+      "immunogenic-cell-death-translation"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-light.svg",
+    "sha256": "4bcbf22ae138b1ff04a856ed6039710e5df40b2b00825e7ee42b57e505c3605a",
+    "gitBlob": "28d0b8d8c29faee720e164990288afb6ecc737c9",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "In both themes overwhelming injury, RIPK3-to-MLKL example and earlier apoptosis with inadequate clearance converge on boundary breakdown. Dye entry measures boundary loss, not pathway; no inferred immune memory is drawn.",
+    "requirementIds": [
+      "necrosis-mechanism",
+      "necrosis-necroptosis",
+      "necrosis-sampling",
+      "necrosis-immunity"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-dark.svg",
+    "sha256": "2289247905a17afa9a7b5e03a224ed859ba8d8fdf9df53397f7370f1c2e98c12",
+    "gitBlob": "5ca4a2d0eeb77e81e34cd75745060ea3dacc1709",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "In both themes overwhelming injury, RIPK3-to-MLKL example and earlier apoptosis with inadequate clearance converge on boundary breakdown. Dye entry measures boundary loss, not pathway; no inferred immune memory is drawn.",
+    "requirementIds": [
+      "necrosis-mechanism",
+      "necrosis-necroptosis",
+      "necrosis-sampling",
+      "necrosis-immunity"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-light.svg",
+    "sha256": "4bcbf22ae138b1ff04a856ed6039710e5df40b2b00825e7ee42b57e505c3605a",
+    "gitBlob": "28d0b8d8c29faee720e164990288afb6ecc737c9",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "In both themes overwhelming injury, RIPK3-to-MLKL example and earlier apoptosis with inadequate clearance converge on boundary breakdown. Dye entry measures boundary loss, not pathway; no inferred immune memory is drawn.",
+    "requirementIds": [
+      "necrosis-mechanism",
+      "necrosis-necroptosis",
+      "necrosis-sampling",
+      "necrosis-immunity"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/necrosis.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/different-death-routes-and-shared-boundary-loss-v1-dark.svg",
+    "sha256": "2289247905a17afa9a7b5e03a224ed859ba8d8fdf9df53397f7370f1c2e98c12",
+    "gitBlob": "5ca4a2d0eeb77e81e34cd75745060ea3dacc1709",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "In both themes overwhelming injury, RIPK3-to-MLKL example and earlier apoptosis with inadequate clearance converge on boundary breakdown. Dye entry measures boundary loss, not pathway; no inferred immune memory is drawn.",
+    "requirementIds": [
+      "necrosis-mechanism",
+      "necrosis-necroptosis",
+      "necrosis-sampling",
+      "necrosis-immunity"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/living-arrest-metabolism-and-contextual-secretions-v1-light.svg",
+    "sha256": "90a05b202835a4196a46dbd5905efbb4928c23822c0f17c97e2eb4b821fc8a5c",
+    "gitBlob": "3e7a1704738150a4e00351db67a45e6b87982c1a",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show an intact cell with separate arrest, continuing metabolism and variable secretions. Neighbour effects depend on cells, signals, timing and environment; low division plus p21 is explicitly insufficient. Neither relapse nor a harmful secretory mixture is assumed.",
+    "requirementIds": [
+      "senescence-state",
+      "senescence-measurement",
+      "senescence-secretions",
+      "senescence-escape"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/living-arrest-metabolism-and-contextual-secretions-v1-dark.svg",
+    "sha256": "e979cd42fe440aa2f2a0152e6d18a371510142159da65bd9cddf3d9a4d58b91f",
+    "gitBlob": "165bce6e28d45d56c1e14119a1ca542344a396cb",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show an intact cell with separate arrest, continuing metabolism and variable secretions. Neighbour effects depend on cells, signals, timing and environment; low division plus p21 is explicitly insufficient. Neither relapse nor a harmful secretory mixture is assumed.",
+    "requirementIds": [
+      "senescence-state",
+      "senescence-measurement",
+      "senescence-secretions",
+      "senescence-escape"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/living-arrest-metabolism-and-contextual-secretions-v1-light.svg",
+    "sha256": "90a05b202835a4196a46dbd5905efbb4928c23822c0f17c97e2eb4b821fc8a5c",
+    "gitBlob": "3e7a1704738150a4e00351db67a45e6b87982c1a",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show an intact cell with separate arrest, continuing metabolism and variable secretions. Neighbour effects depend on cells, signals, timing and environment; low division plus p21 is explicitly insufficient. Neither relapse nor a harmful secretory mixture is assumed.",
+    "requirementIds": [
+      "senescence-state",
+      "senescence-measurement",
+      "senescence-secretions",
+      "senescence-escape"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/senescence.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/living-arrest-metabolism-and-contextual-secretions-v1-dark.svg",
+    "sha256": "e979cd42fe440aa2f2a0152e6d18a371510142159da65bd9cddf3d9a4d58b91f",
+    "gitBlob": "165bce6e28d45d56c1e14119a1ca542344a396cb",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show an intact cell with separate arrest, continuing metabolism and variable secretions. Neighbour effects depend on cells, signals, timing and environment; low division plus p21 is explicitly insufficient. Neither relapse nor a harmful secretory mixture is assumed.",
+    "requirementIds": [
+      "senescence-state",
+      "senescence-measurement",
+      "senescence-secretions",
+      "senescence-escape"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+    "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+    "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show E1 activation with ATP, E2 carriage and E3 substrate selection, P threading into a proteasome with fragments below, and detached ubiquitin returning to a free pool. Intact Q engages a partner as a nondegradative fate. Protein shapes and tag counts are illustrative, not a universal chain code.",
+    "requirementIds": [
+      "ubiquitin-and-proteasome-enzymes",
+      "ubiquitin-and-proteasome-fates",
+      "ubiquitin-and-proteasome-measurement",
+      "ubiquitin-and-proteasome-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+    "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+    "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show E1 activation with ATP, E2 carriage and E3 substrate selection, P threading into a proteasome with fragments below, and detached ubiquitin returning to a free pool. Intact Q engages a partner as a nondegradative fate. Protein shapes and tag counts are illustrative, not a universal chain code.",
+    "requirementIds": [
+      "ubiquitin-and-proteasome-enzymes",
+      "ubiquitin-and-proteasome-fates",
+      "ubiquitin-and-proteasome-measurement",
+      "ubiquitin-and-proteasome-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-light.png",
+    "sha256": "8a6cd8185da33887467b07011639514902cb7ec9343abe3a1edd93f6888333f7",
+    "gitBlob": "65ca3d3b3126f4ba2e9a94719fe1b905c101510b",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show E1 activation with ATP, E2 carriage and E3 substrate selection, P threading into a proteasome with fragments below, and detached ubiquitin returning to a free pool. Intact Q engages a partner as a nondegradative fate. Protein shapes and tag counts are illustrative, not a universal chain code.",
+    "requirementIds": [
+      "ubiquitin-and-proteasome-enzymes",
+      "ubiquitin-and-proteasome-fates",
+      "ubiquitin-and-proteasome-measurement",
+      "ubiquitin-and-proteasome-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/cell-death-and-survival/ubiquitin-and-proteasome.md",
+    "path": "wiki/education/concepts/cancer-biology/cell-death-and-survival/images/ubiquitin-selected-cargo-v5-dark.png",
+    "sha256": "24eb9e14757b2176a4cf49a230395bce0a70aecd5aecb53838084282da6e6b7f",
+    "gitBlob": "eaef59cfb21c6abbd19fbf693cf9f49017e4f1cd",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes show E1 activation with ATP, E2 carriage and E3 substrate selection, P threading into a proteasome with fragments below, and detached ubiquitin returning to a free pool. Intact Q engages a partner as a nondegradative fate. Protein shapes and tag counts are illustrative, not a universal chain code.",
+    "requirementIds": [
+      "ubiquitin-and-proteasome-enzymes",
+      "ubiquitin-and-proteasome-fates",
+      "ubiquitin-and-proteasome-measurement",
+      "ubiquitin-and-proteasome-clinical"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/sterol-sensing-to-nuclear-fragment-v1-light.png",
+    "sha256": "7b95970ccb6d1c6b593549eafe95e6d8c8404910c02e6cfa39cc4bd9015beb43",
+    "gitBlob": "b526041347d141eb05f57b9e19205594318f2368",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes trace low-local-sterol SCAP/SREBP-2 movement from ER via vesicle to Golgi, a separate sufficient-sterol retention panel and cleavage releasing a fragment for nuclear entry. The whole precursor is not drawn entering the nucleus. No clinical sensing threshold follows from the schematic.",
+    "requirementIds": [
+      "cholesterol-and-srebp-transport",
+      "cholesterol-and-srebp-members",
+      "cholesterol-and-srebp-compensation",
+      "cholesterol-and-srebp-rescue"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/sterol-sensing-to-nuclear-fragment-v1-dark.png",
+    "sha256": "aa0fa93fd2d32804eacff8bb3da5229604779685e568ac63a572c6d3921009e2",
+    "gitBlob": "990d7e7edb7b8af9f648766974d216b0921d6342",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes trace low-local-sterol SCAP/SREBP-2 movement from ER via vesicle to Golgi, a separate sufficient-sterol retention panel and cleavage releasing a fragment for nuclear entry. The whole precursor is not drawn entering the nucleus. No clinical sensing threshold follows from the schematic.",
+    "requirementIds": [
+      "cholesterol-and-srebp-transport",
+      "cholesterol-and-srebp-members",
+      "cholesterol-and-srebp-compensation",
+      "cholesterol-and-srebp-rescue"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/sterol-sensing-to-nuclear-fragment-v1-light.png",
+    "sha256": "7b95970ccb6d1c6b593549eafe95e6d8c8404910c02e6cfa39cc4bd9015beb43",
+    "gitBlob": "b526041347d141eb05f57b9e19205594318f2368",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes trace low-local-sterol SCAP/SREBP-2 movement from ER via vesicle to Golgi, a separate sufficient-sterol retention panel and cleavage releasing a fragment for nuclear entry. The whole precursor is not drawn entering the nucleus. No clinical sensing threshold follows from the schematic.",
+    "requirementIds": [
+      "cholesterol-and-srebp-transport",
+      "cholesterol-and-srebp-members",
+      "cholesterol-and-srebp-compensation",
+      "cholesterol-and-srebp-rescue"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/cholesterol-and-srebp.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/sterol-sensing-to-nuclear-fragment-v1-dark.png",
+    "sha256": "aa0fa93fd2d32804eacff8bb3da5229604779685e568ac63a572c6d3921009e2",
+    "gitBlob": "990d7e7edb7b8af9f648766974d216b0921d6342",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes trace low-local-sterol SCAP/SREBP-2 movement from ER via vesicle to Golgi, a separate sufficient-sterol retention panel and cleavage releasing a fragment for nuclear entry. The whole precursor is not drawn entering the nucleus. No clinical sensing threshold follows from the schematic.",
+    "requirementIds": [
+      "cholesterol-and-srebp-transport",
+      "cholesterol-and-srebp-members",
+      "cholesterol-and-srebp-compensation",
+      "cholesterol-and-srebp-rescue"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+    "sha256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c",
+    "gitBlob": "9d82c9ffa589da652a8020ee121c493ae54b8c67",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes separate RNA processing through IRE1/XBP1u-to-XBP1s, PERK phosphorylation of eIF2alpha and ATF6 Golgi traffic/cleavage followed by a nuclear fragment. A phosphate alone does not specify kinase, total message is not splice fraction and branch activity is not death.",
+    "requirementIds": [
+      "er-stress-and-unfolded-protein-response-branches",
+      "er-stress-and-unfolded-protein-response-compartments",
+      "er-stress-and-unfolded-protein-response-measurement",
+      "er-stress-and-unfolded-protein-response-cancer"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+    "sha256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3",
+    "gitBlob": "ba0c912177c15d156f6713267f02b6a645fd1055",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes separate RNA processing through IRE1/XBP1u-to-XBP1s, PERK phosphorylation of eIF2alpha and ATF6 Golgi traffic/cleavage followed by a nuclear fragment. A phosphate alone does not specify kinase, total message is not splice fraction and branch activity is not death.",
+    "requirementIds": [
+      "er-stress-and-unfolded-protein-response-branches",
+      "er-stress-and-unfolded-protein-response-compartments",
+      "er-stress-and-unfolded-protein-response-measurement",
+      "er-stress-and-unfolded-protein-response-cancer"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-light.svg",
+    "sha256": "528eac62ca395af5b68c11e6d6bfeca3add3d5980186c056438cd12b2cd8105c",
+    "gitBlob": "9d82c9ffa589da652a8020ee121c493ae54b8c67",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes separate RNA processing through IRE1/XBP1u-to-XBP1s, PERK phosphorylation of eIF2alpha and ATF6 Golgi traffic/cleavage followed by a nuclear fragment. A phosphate alone does not specify kinase, total message is not splice fraction and branch activity is not death.",
+    "requirementIds": [
+      "er-stress-and-unfolded-protein-response-branches",
+      "er-stress-and-unfolded-protein-response-compartments",
+      "er-stress-and-unfolded-protein-response-measurement",
+      "er-stress-and-unfolded-protein-response-cancer"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/er-stress-and-unfolded-protein-response.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/er-sensors-rna-phosphate-and-cleaved-fragment-v1-dark.svg",
+    "sha256": "289ce9a0548c550ffb10ed2f74eb99454a8cc8f209c6f97875218a317faf67e3",
+    "gitBlob": "ba0c912177c15d156f6713267f02b6a645fd1055",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes separate RNA processing through IRE1/XBP1u-to-XBP1s, PERK phosphorylation of eIF2alpha and ATF6 Golgi traffic/cleavage followed by a nuclear fragment. A phosphate alone does not specify kinase, total message is not splice fraction and branch activity is not death.",
+    "requirementIds": [
+      "er-stress-and-unfolded-protein-response-branches",
+      "er-stress-and-unfolded-protein-response-compartments",
+      "er-stress-and-unfolded-protein-response-measurement",
+      "er-stress-and-unfolded-protein-response-cancer"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+    "sha256": "3265d8fc1ef67048948749200db3dd378f011944dd9c18e62a2ccfca7cf83549",
+    "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes locate outer/inner membranes, intermembrane space and matrix; proton pumping is matrix-outward, ATP-synthase return and leak point inward, and electron transfer ends in oxygen-to-water separately. No fixed ratios are claimed. Source review of the foundational reconstitution claim remains open even though the actual image has been viewed.",
+    "requirementIds": [
+      "oxidative-phosphorylation-gradient",
+      "oxidative-phosphorylation-rates",
+      "oxidative-phosphorylation-calculation",
+      "oxidative-phosphorylation-method-version"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "original",
+    "ref": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+    "sha256": "b2eca31a574a0359cbd1e9b4ccafd62b009f1890535eb82d4f92be53056bd667",
+    "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes locate outer/inner membranes, intermembrane space and matrix; proton pumping is matrix-outward, ATP-synthase return and leak point inward, and electron transfer ends in oxygen-to-water separately. No fixed ratios are claimed. Source review of the foundational reconstitution claim remains open even though the actual image has been viewed.",
+    "requirementIds": [
+      "oxidative-phosphorylation-gradient",
+      "oxidative-phosphorylation-rates",
+      "oxidative-phosphorylation-calculation",
+      "oxidative-phosphorylation-method-version"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-light.png",
+    "sha256": "3265d8fc1ef67048948749200db3dd378f011944dd9c18e62a2ccfca7cf83549",
+    "gitBlob": "9940b9e6e1717807b277fcfe294ae89c7214d28c",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes locate outer/inner membranes, intermembrane space and matrix; proton pumping is matrix-outward, ATP-synthase return and leak point inward, and electron transfer ends in oxygen-to-water separately. No fixed ratios are claimed. Source review of the foundational reconstitution claim remains open even though the actual image has been viewed.",
+    "requirementIds": [
+      "oxidative-phosphorylation-gradient",
+      "oxidative-phosphorylation-rates",
+      "oxidative-phosphorylation-calculation",
+      "oxidative-phosphorylation-method-version"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  },
+  {
+    "version": "later",
+    "ref": "c96896452386202405c435aa161bc5047919337a",
+    "page": "wiki/education/concepts/cancer-biology/metabolism-and-stress/oxidative-phosphorylation.md",
+    "path": "wiki/education/concepts/cancer-biology/metabolism-and-stress/images/mitochondrial-proton-paths-v2-dark.png",
+    "sha256": "b2eca31a574a0359cbd1e9b4ccafd62b009f1890535eb82d4f92be53056bd667",
+    "gitBlob": "50a6837a2a7f906a8f3ee65ca064a15abc8e3141",
+    "status": "actual-raster-or-rendered-SVG-viewed",
+    "inventoryBlobVerified": true,
+    "reading": "Both themes locate outer/inner membranes, intermembrane space and matrix; proton pumping is matrix-outward, ATP-synthase return and leak point inward, and electron transfer ends in oxygen-to-water separately. No fixed ratios are claimed. Source review of the foundational reconstitution claim remains open even though the actual image has been viewed.",
+    "requirementIds": [
+      "oxidative-phosphorylation-gradient",
+      "oxidative-phosphorylation-rates",
+      "oxidative-phosphorylation-calculation",
+      "oxidative-phosphorylation-method-version"
+    ],
+    "reuse": "Exact byte-identical version counterpart inspected once per unique file; both versions retain separate hashes.",
+    "coverageClaim": "Visual assessment only; field coverage and primary limits remain separate."
+  }
+]

@@ -1,0 +1,1172 @@
+{
+  "canonicalOwners": 20,
+  "exactPassageChecks": 177,
+  "passed": 177,
+  "checks": [
+    {
+      "requirementId": "adeno.routes",
+      "recordId": "adenosine-and-ido",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.fig-routes",
+      "recordId": "adenosine-and-ido",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.fig-routes",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.mouse-evidence",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.mouse-evidence",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.why-cancer",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.why-cancer",
+      "recordId": "cd73-adenosine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.ecoh",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.ecoh",
+      "recordId": "ido1",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.confusions",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.confusions",
+      "recordId": "ido1",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.measure",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.measure",
+      "recordId": "cd73-adenosine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "adeno.try-cd73",
+      "recordId": "adenosine-and-ido",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.definition",
+      "recordId": "cytokine",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.pleio",
+      "recordId": "cytokine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.il2",
+      "recordId": "cytokine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.gradient",
+      "recordId": "cytokine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.fig-average",
+      "recordId": "cytokine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.why-cancer",
+      "recordId": "cytokine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.measure",
+      "recordId": "cytokine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "cyto.confusions",
+      "recordId": "cytokine",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.pd1",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.ctla4",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.fig-contact",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.table",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.table",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.sites",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.why-cancer",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.anchors",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.anchors",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.anchors",
+      "recordId": "immune-checkpoint",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.anchors",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.measure",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "chk.confusions",
+      "recordId": "immune-checkpoint",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.definition",
+      "recordId": "peripheral-tolerance",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.definition",
+      "recordId": "peripheral-tolerance",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.mechanisms",
+      "recordId": "peripheral-tolerance",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.examples",
+      "recordId": "peripheral-tolerance",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.examples",
+      "recordId": "peripheral-tolerance",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.ignorance",
+      "recordId": "peripheral-tolerance",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.fig-diagram",
+      "recordId": "peripheral-tolerance",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.why-cancer",
+      "recordId": "peripheral-tolerance",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "tol.measure",
+      "recordId": "peripheral-tolerance",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "sting.sensor-messenger",
+      "recordId": "cgas-sting",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "sting.sting-traffic",
+      "recordId": "cgas-sting",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "sting.fig-dna",
+      "recordId": "cgas-sting",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "sting.downstream",
+      "recordId": "cgas-sting",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "sting.host-vs-cancer",
+      "recordId": "cgas-sting",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "sting.assay-card",
+      "recordId": "cgas-sting",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.definition",
+      "recordId": "dendritic-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.cdc1",
+      "recordId": "dendritic-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.subsets",
+      "recordId": "dendritic-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.subsets",
+      "recordId": "dendritic-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.state",
+      "recordId": "dendritic-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.routes",
+      "recordId": "dendritic-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.cooperation",
+      "recordId": "dendritic-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.vaccine-hla",
+      "recordId": "dendritic-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "dc.measure",
+      "recordId": "dendritic-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.definition",
+      "recordId": "gamma-delta-t-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.subsets",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.phosphoantigen",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.fig-contacts",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.hla",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.car",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.car",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.tnbc",
+      "recordId": "gamma-delta-t-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.measure",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.measure",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "gd.measure",
+      "recordId": "gamma-delta-t-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "mac.definition",
+      "recordId": "macrophage-states",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "mac.m1m2",
+      "recordId": "macrophage-states",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "mac.spectrum",
+      "recordId": "macrophage-states",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "mac.fig-programs",
+      "recordId": "macrophage-states",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "mac.tam",
+      "recordId": "macrophage-states",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "mac.tam",
+      "recordId": "tumor-associated-macrophages",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "mac.measure",
+      "recordId": "macrophage-states",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.integrate",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.missing-self",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.receptors",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.education",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.b2m",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.fig-nk",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.worked",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.assay",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nk.cancer",
+      "recordId": "nk-cell",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.definition",
+      "recordId": "nkt-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.definition",
+      "recordId": "nkt-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.cd1d",
+      "recordId": "nkt-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.fig-cd1d",
+      "recordId": "nkt-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.types",
+      "recordId": "nkt-cells",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.table-compare",
+      "recordId": "nkt-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.function",
+      "recordId": "nkt-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.function",
+      "recordId": "nkt-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.car",
+      "recordId": "nkt-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.car",
+      "recordId": "nkt-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "nkt.measure",
+      "recordId": "nkt-cells",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.prr-definition",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.prr-definition",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.prr-definition",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.pamp-damp",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.pamp-damp",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.tlr4",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.dna",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.fig-dna",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.hmgb1",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "prr.measure",
+      "recordId": "pattern-recognition-damps-and-pamps",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.principle",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.states",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.states",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.states",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.states",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.states",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.states",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.denominator",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "roster.why-cancer",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "infl.definition",
+      "recordId": "inflammation",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "infl.fig-tissue",
+      "recordId": "inflammation",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "infl.response",
+      "recordId": "inflammation",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "infl.macrophages",
+      "recordId": "macrophage",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "infl.cancer",
+      "recordId": "inflammation",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "infl.measure",
+      "recordId": "inflammation",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.architecture",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.cooperation",
+      "recordId": "immune-system",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.table",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.exceptions",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.exceptions",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.cancer",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.cancer",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.cancer",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.cancer",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.cancer",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.measure",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.measure",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.measure",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.measure",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.measure",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ia.measure",
+      "recordId": "immune-system",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.types",
+      "recordId": "interferons",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.jakstat",
+      "recordId": "interferons",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.fig-map",
+      "recordId": "interferons",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.dunn-benci",
+      "recordId": "interferons",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.dunn-benci",
+      "recordId": "interferons",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.zaretsky",
+      "recordId": "interferons",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.measure",
+      "recordId": "interferons",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.measure",
+      "recordId": "interferons",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "ifn.measure",
+      "recordId": "interferons",
+      "field": "notes",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "lymph.route",
+      "recordId": "lymph-node",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "lymph.compartments",
+      "recordId": "lymph-node",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "lymph.fig-routes",
+      "recordId": "lymph-node",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "lymph.dc-route",
+      "recordId": "lymph-node",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "lymph.ccr7",
+      "recordId": "lymph-node",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "lymph.cancer",
+      "recordId": "lymph-node",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    },
+    {
+      "requirementId": "lymph.measure",
+      "recordId": "lymph-node",
+      "field": "summary",
+      "passageInActualEntityDetail": true
+    }
+  ],
+  "captures": [
+    {
+      "id": "tumor-associated-macrophages",
+      "sha256": "5eb867a1575bec927f21b575ab6ac6a485be3395bb9c96c71d35a4fa7f10270a",
+      "bytes": 48565
+    },
+    {
+      "id": "lymph-node",
+      "sha256": "1527cf789d54c4bfa6ceac83840dcd7fdbabb4caee4f9490c4f16807d115b6f0",
+      "bytes": 27323
+    },
+    {
+      "id": "immune-system",
+      "sha256": "342063fa04efedf5e9881688f70a8495dbeb805636284adb9e20791d64590b5f",
+      "bytes": 66895
+    },
+    {
+      "id": "macrophage",
+      "sha256": "86e6ad88b3648558b0b79a3613a9bf145222c2864ff24382862fef022f688dc6",
+      "bytes": 30234
+    },
+    {
+      "id": "cytokine",
+      "sha256": "c30e2379cb076784d1b40b7fb2bf51f522751b1e7c41f029e1179924147b13b7",
+      "bytes": 35328
+    },
+    {
+      "id": "inflammation",
+      "sha256": "208cc366dd428698d143dc0b1163b6a762a395887965026cc985956acb981b3c",
+      "bytes": 34823
+    },
+    {
+      "id": "immune-checkpoint",
+      "sha256": "4844c5326cb144a7aae9e1eb0671a08db480d6d55b3ae6c6cc17b32b37cd18b6",
+      "bytes": 61243
+    },
+    {
+      "id": "ido1",
+      "sha256": "a9d270031552114aca01be472b6062bcc4f4bdb0a4bc125ec77c55481fdcce08",
+      "bytes": 60319
+    },
+    {
+      "id": "entpd1",
+      "sha256": "8fbbc8e3a0bacae5ec3e7ef2c157170f536247b014480c6bbfa41448a82632e5",
+      "bytes": 41241
+    },
+    {
+      "id": "adenosine-and-ido",
+      "sha256": "e644543cb860eed6a21cd43f8c07279a7e050335cce194d3f97bee6438767d44",
+      "bytes": 33153
+    },
+    {
+      "id": "dendritic-cells",
+      "sha256": "c74cd34458fcf2cb0e9db937d1e595d6463615c3f737b6277012b2968cc54f64",
+      "bytes": 31808
+    },
+    {
+      "id": "gamma-delta-t-cells",
+      "sha256": "e39b3bb7794440dcc4b36e88bf4685feeb7c61b4914327109e9c01d5eb9059cf",
+      "bytes": 33502
+    },
+    {
+      "id": "interferons",
+      "sha256": "e8cc7607a6d351feb21db03b319dc01192204f03acb538f2a547ae9495f1e929",
+      "bytes": 33775
+    },
+    {
+      "id": "macrophage-states",
+      "sha256": "ab83ebf9fc1a5a13fbf8ab9900d0c663668871b8bd8e50d8754391dc1de6e97e",
+      "bytes": 27568
+    },
+    {
+      "id": "nkt-cells",
+      "sha256": "2a9291e75c4ecafb7618539375f684906234ed7bae9189b0909659421219b35e",
+      "bytes": 29169
+    },
+    {
+      "id": "pattern-recognition-damps-and-pamps",
+      "sha256": "f90267aae012b785ba235a06169787ee40e55409a4a68f535dc914cdf874d034",
+      "bytes": 34727
+    },
+    {
+      "id": "peripheral-tolerance",
+      "sha256": "d3a07aaf019e0775f7f1f9b88cbc6c16f988429c77606c455c182ee5225d7bd2",
+      "bytes": 31725
+    },
+    {
+      "id": "cgas-sting",
+      "sha256": "4f016bcaaa38b691c82307bbce6cff9f8a0e2edda2a06dbc70b1be8d31351d34",
+      "bytes": 43326
+    },
+    {
+      "id": "nk-cell",
+      "sha256": "78336956fa146168382d00817f1d7e8573a84f51a605d2e03ee5cb3e1984742a",
+      "bytes": 33049
+    },
+    {
+      "id": "cd73-adenosine",
+      "sha256": "eb4f185f5521127f0b1cc2ec55241de554dc6a0f10d7332a80e38c5fb56199d0",
+      "bytes": 79580
+    }
+  ],
+  "scope": "Actual EntityDetail server rendering with the current graph. No browser layout, hydration, mobile or accessibility claim."
+}

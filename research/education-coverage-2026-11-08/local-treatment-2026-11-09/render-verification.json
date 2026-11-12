@@ -1,0 +1,1958 @@
+{
+  "checkedOn": "2026-11-09",
+  "renderedOwners": 148,
+  "allOwnersSourceDateAnchorChecks": true,
+  "changedOwners": [
+    {
+      "id": "thermal-ablation",
+      "route": "/technologies/thermal-ablation/",
+      "asOf": "2026-11-09",
+      "bytes": 50245,
+      "sha256": "d4e66d47dc3c437f4748a0204fd243c7b785cdd59571853980730cd019d05014",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "radiofrequency-ablation",
+      "route": "/terms/radiofrequency-ablation/",
+      "asOf": "2026-11-09",
+      "bytes": 25710,
+      "sha256": "92b8afb0a8cef286fec76b3dcbd22acdfbd9e2373e115014aabca14df43e0727",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "microwave-ablation",
+      "route": "/terms/microwave-ablation/",
+      "asOf": "2026-11-09",
+      "bytes": 22531,
+      "sha256": "124481bd1667ca481f13ee5bc5f413ea2fa664819205f3ec86809d4cd5275acf",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "cryoablation",
+      "route": "/terms/cryoablation/",
+      "asOf": "2026-11-09",
+      "bytes": 25608,
+      "sha256": "31980e5ce22ffced02b0710fa980d0bdf5830e53b3cb4786429e55e928aa9f22",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "sbrt",
+      "route": "/technologies/sbrt/",
+      "asOf": "2026-11-09",
+      "bytes": 81738,
+      "sha256": "e96e3a1abbad889b66932e5223c775272f5a5dde0dc42f6aab310861c3859064",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "sbrt-term",
+      "route": "/terms/sbrt-term/",
+      "asOf": "2026-11-09",
+      "bytes": 29710,
+      "sha256": "ad380e4ad346b98c443c11bdc492606ff79912bdb470de4747237138b3acbc16",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "radiotherapy",
+      "route": "/terms/radiotherapy/",
+      "asOf": "2026-11-09",
+      "bytes": 66113,
+      "sha256": "244c718dcdd7405a80070325df47b5b11c5156de70a2e4ebb791b3a9916d5359",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "hypofractionation",
+      "route": "/terms/hypofractionation/",
+      "asOf": "2026-11-09",
+      "bytes": 37792,
+      "sha256": "b55af7916ae322eec85d8618c6bf7f2ee903a1824bef344c041a2529da17a803",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "hypofractionated-radiotherapy",
+      "route": "/technologies/hypofractionated-radiotherapy/",
+      "asOf": "2026-11-09",
+      "bytes": 47253,
+      "sha256": "357aea163fbd0d557aae20839a7b4ffbc1263ccd1e9a044ea104475eda835adc",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "immunogenic-cell-death",
+      "route": "/terms/immunogenic-cell-death/",
+      "asOf": "2026-11-09",
+      "bytes": 28138,
+      "sha256": "7d3f17b0b125c144481ecd615bc817d9b5ad842548bbe7278de372669f996b48",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "in-situ-vaccination",
+      "route": "/technologies/in-situ-vaccination/",
+      "asOf": "2026-11-09",
+      "bytes": 31217,
+      "sha256": "b98264a8438ddc60c9e6f99b963e83d9b2d55e583811d3f11d43fa3b756aa424",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "abscopal-effect",
+      "route": "/terms/abscopal-effect/",
+      "asOf": "2026-11-09",
+      "bytes": 26569,
+      "sha256": "2b967b3021b81184962dc6a3c8596c636be5cb3f4a4263ba176f3e0a42d41d58",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "systemic-vs-local-therapy",
+      "route": "/terms/systemic-vs-local-therapy/",
+      "asOf": "2026-11-09",
+      "bytes": 35154,
+      "sha256": "4c9e3e9f96acd3e07f36d8b6d7727de896a58f99b4a7cbfb063e2de15ee4e01f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "theranostics",
+      "route": "/terms/theranostics/",
+      "asOf": "2026-11-09",
+      "bytes": 49769,
+      "sha256": "dd8f9cee9d92fdb588883f4511b4623f557675e09f7983ab9cdb1f415e8d1600",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "nsabp-b51",
+      "route": "/trials/nsabp-b51/",
+      "asOf": "2026-11-09",
+      "bytes": 46805,
+      "sha256": "18ad9d9bb44dcb52cbe8109de008ca4cedb0377d499dabaf2001e61c59f7a54d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "acosog-z0011",
+      "route": "/trials/acosog-z0011/",
+      "asOf": "2026-11-09",
+      "bytes": 73465,
+      "sha256": "87d1f4f443903647ccad5928913b91cfa8e34e4806d462076d532d22694ddaa0",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "amaros",
+      "route": "/trials/amaros/",
+      "asOf": "2026-11-09",
+      "bytes": 98383,
+      "sha256": "12db23f67a10e0e5d30a80fc6c5d9e2b9663d74e98ce6820f6f882a03f1f546c",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "sentinel-node",
+      "route": "/technologies/sentinel-node/",
+      "asOf": "2026-11-09",
+      "bytes": 60504,
+      "sha256": "3b77957da6fd06fa3ddc60996527e26be634903a13aa543e1496fc738dcd34cf",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "lumpectomy",
+      "route": "/terms/lumpectomy/",
+      "asOf": "2026-11-09",
+      "bytes": 41897,
+      "sha256": "6a4a5e4aa17078b8aa7cded2e4e6987744732b2e0711736a2ad563f2eb953ee6",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "mastectomy",
+      "route": "/terms/mastectomy/",
+      "asOf": "2026-11-09",
+      "bytes": 42801,
+      "sha256": "8e381f5a1c876a369e97a3496c9253d3febdd1ce67d358d91676022445f468fc",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "breast-reconstruction",
+      "route": "/terms/breast-reconstruction/",
+      "asOf": "2026-11-09",
+      "bytes": 39679,
+      "sha256": "5a114a6832911f8fc2aa2a890795abdd4f1f081e3d836d715d68bf8b9b09cc20",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "resection-margins",
+      "route": "/terms/resection-margins/",
+      "asOf": "2026-11-09",
+      "bytes": 48698,
+      "sha256": "14677bb77831531e69f2cbc3b44f2ea067def2f1f5d012765d2100d4ca5ae4be",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "breast-margins-and-re-excision",
+      "route": "/terms/breast-margins-and-re-excision/",
+      "asOf": "2026-11-09",
+      "bytes": 27699,
+      "sha256": "8726350a44d3c71c2d73e6f583215f90f7cbd15ebb53707b2eca58b8539d1175",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "pacific",
+      "route": "/trials/pacific/",
+      "asOf": "2026-11-09",
+      "bytes": 78076,
+      "sha256": "f20e295529bb47dfec5dbb7c46cb22afe2184b7069831eee874cdb9e96e7cf3f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-spigel-pacific-five-year-survival-jco-2022",
+      "route": "/key-papers/paper-spigel-pacific-five-year-survival-jco-2022/",
+      "asOf": "2026-11-09",
+      "bytes": 48681,
+      "sha256": "79ecbf759009ce667446bfc874ce091e97b87db9309a861261924ca4cf78869d",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "lymph-node-status",
+      "route": "/terms/lymph-node-status/",
+      "asOf": "2026-11-09",
+      "bytes": 26893,
+      "sha256": "0a6a5e1d4d9169be059587e8c304a8bc5cb67fbe84838dd5646e9b9dfe03f4a2",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "completion-surgery",
+      "route": "/terms/completion-surgery/",
+      "asOf": "2026-11-09",
+      "bytes": 24703,
+      "sha256": "177b8c3c08ab65c782ac6ae2701c1a340d731eb291c60146567487f90f626b0f",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "regional-nodal-irradiation",
+      "route": "/terms/regional-nodal-irradiation/",
+      "asOf": "2026-11-09",
+      "bytes": 25866,
+      "sha256": "e97412c40027fec37d4867e76f8a1d1a4d0a5a307489397402f36f9f595d91c9",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-booster-ablation-immunotherapy-2025",
+      "route": "/key-papers/paper-booster-ablation-immunotherapy-2025/",
+      "asOf": "2026-11-09",
+      "bytes": 30070,
+      "sha256": "3d757655e74b5340b01ad9b8256a7521dfbbb122fc440fac60dea3e5c82d7be0",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-curb-oligoprogression-lancet-2024",
+      "route": "/key-papers/paper-curb-oligoprogression-lancet-2024/",
+      "asOf": "2026-11-09",
+      "bytes": 33311,
+      "sha256": "8f101f0b131b4db53db7cb5fcca2e0526a68a05f4a0125e8f7c1e402ac98f33b",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-nrg-br002-jco-2026",
+      "route": "/key-papers/paper-nrg-br002-jco-2026/",
+      "asOf": "2026-11-09",
+      "bytes": 30508,
+      "sha256": "e3f5f576f4f250f97ed0fe066ca85dc0fef8115ca5b375d419d206e2be0b7cf3",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "paper-nsabp-b51-nejm-2025",
+      "route": "/key-papers/paper-nsabp-b51-nejm-2025/",
+      "asOf": "2026-11-09",
+      "bytes": 28395,
+      "sha256": "d0d6fc2edf2d759798a15cf8683acf1479bc5b1381dd17e777f480e2854b75bf",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "curb-oligoprogression",
+      "route": "/trials/curb-oligoprogression/",
+      "asOf": "2026-11-09",
+      "bytes": 41241,
+      "sha256": "c29b7ce1dbac85940dc05d4fe9f28211394ec0f5de4ada40fa077dae4287649b",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "nrg-br002",
+      "route": "/trials/nrg-br002/",
+      "asOf": "2026-11-09",
+      "bytes": 32882,
+      "sha256": "4aade0d4e86bda16085920acabc62fd15f87e5c0246e71d3abc39e2d21497f45",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    },
+    {
+      "id": "alliance-a011202",
+      "route": "/trials/alliance-a011202/",
+      "asOf": "2026-11-09",
+      "bytes": 25466,
+      "sha256": "70640dadd7f99a3e62537c8a744de78bac454132ab4d206ab5b2c87f01af5c6e",
+      "missingSources": [],
+      "nestedAnchors": 0,
+      "duplicateUrls": []
+    }
+  ],
+  "readerFieldChecks": {
+    "checkedOn": "2026-11-09",
+    "checks": [
+      {
+        "recordId": "thermal-ablation",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a51a1de1f20c6aa7b4c6aeceec35fb13dc2cd629bc08de511fd2c03e7c90a041"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "0ee7e8a071ea148427438be3b65dc2b813f2dbdc6feedd65e42dea02600f4af2"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6afae26eec5db7a5c79fbdd050b26acd695b8ac78bc07bcccb1d2db3064987bb"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "69ff05a556290fc2805ec9799b52c12d8880418c6a4fc72518df17dd41087f59"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "principle",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "60b6c76dd2db774e9daca9d963dabf53969da3313352714011076b2ac25f5e68"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "strengths",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "ed305f5ba620b44f3a551faa561f3b71e32472e8597bd33a3c6628139ef4fec7"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "strengths",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "806a465d53dc41252f2b920cd8ff2948593b203c8ba11433aaf4e88584b0a0f5"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "limitations",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bcd0f04c009f711ae2752d89625129b8f6e9694998b5b5cbce2e6253038bad1a"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "limitations",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "ef10e2ebea4a3ddbab3d2fac1f05a57e4c4a44bffb03ad63276e4e1b319d8ae3"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "limitations",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "286f051e7482186aaa915b2e243cce71efb7aca31f1124de03c0fcf0b6adfae8"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "b50b12907242dc1766ba65212f7bfd3e26cd8f13dc5ca297a71fd6173015ff01"
+      },
+      {
+        "recordId": "thermal-ablation",
+        "field": "notes",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "daa7edaf4ec235eb9091c90fc6a5f64df4eda15d3a80875ba8d9a446520efaaa"
+      },
+      {
+        "recordId": "radiofrequency-ablation",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c0ef1730d45f219a5504d35aae8639c7c787ad955e858c59a879626746215b23"
+      },
+      {
+        "recordId": "radiofrequency-ablation",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "79404e3e374facf67817710d9ee79fa4d657e31cecf8f77ec255497e44afcf6c"
+      },
+      {
+        "recordId": "radiofrequency-ablation",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5b55de9185d4418669cd64bfb46134156c02873dd82ac8eac162ec3fa2e1b5ea"
+      },
+      {
+        "recordId": "radiofrequency-ablation",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5c7b23ed5ea4572965618c539c537fd54272c9eac7b46f479f3eb7575abb2cd0"
+      },
+      {
+        "recordId": "microwave-ablation",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1960dd84ec1d99f8af648ba832fba517bf5005ee288b24576fcdceeb9f5b005b"
+      },
+      {
+        "recordId": "microwave-ablation",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5c4126409d24b8a36e2ff129fe3eb946b74c82e834efcbd6cd5777d7ec872516"
+      },
+      {
+        "recordId": "microwave-ablation",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "31eb0c0a799354ce7c7e888af668860dbbd88eafae05bd95a8773e6bc0c3dd0b"
+      },
+      {
+        "recordId": "cryoablation",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "218c620823fef702b20e9eda323b555b8ab2a6214e7b2bdf1865dd2a92f397cb"
+      },
+      {
+        "recordId": "cryoablation",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a809c8f62254dbfe66981d7ab4c5d82d5c7c17e895f1300fb890c1ff720d6ff5"
+      },
+      {
+        "recordId": "cryoablation",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d457bc9f413d794244c77eb4f52be4ec56a51382d12a76ae49868b3218faa63c"
+      },
+      {
+        "recordId": "cryoablation",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d3fad389d9641e259adef0ab8d1ef083fcea31b39ccdea4082cc91c48390cd07"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "84e5dc6f9ddeb5fa66b56186a2cd71bc778e26f858a1c798abef8ed4485308c8"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6dc7c7f18d1c34c19657b352093496589074b5a0aaf4850c160ab329ff1b3cf5"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "8f3e6af817626531d42c16c9e308e982a7611e72528626870f2bc553cbb78617"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e6853679962a89dc4b867f07059eb9254b9a713d4cfd9c91567923baebd12bee"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "principle",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1ec2f5e71246a7a23e049cb2a37f19c61c7a0a27ab9237c25f04af545768fb07"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "strengths",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a0e3640e3b2705f4444507afb451e5b5f4ce5263fa8f628f9a5e7d541c87669a"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "strengths",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4b6f02f4fcb4683575b8920e53422a74265bae433b64813fa0ee3b8d1a8ee30c"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "limitations",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "00dec5618a16b8644d21814108b872d824422256ebea88d05578a50c32eeac37"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "limitations",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "716399d89390cf2260479d6e9334a030dc963339f68a5743431fc75555180f61"
+      },
+      {
+        "recordId": "sbrt",
+        "field": "limitations",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4c0e3246405d128f584fd38e333a1ec3b29dcd9c5630b8966587b186b0c647c8"
+      },
+      {
+        "recordId": "sbrt-term",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "84e5dc6f9ddeb5fa66b56186a2cd71bc778e26f858a1c798abef8ed4485308c8"
+      },
+      {
+        "recordId": "sbrt-term",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6dc7c7f18d1c34c19657b352093496589074b5a0aaf4850c160ab329ff1b3cf5"
+      },
+      {
+        "recordId": "sbrt-term",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "8f3e6af817626531d42c16c9e308e982a7611e72528626870f2bc553cbb78617"
+      },
+      {
+        "recordId": "sbrt-term",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e6853679962a89dc4b867f07059eb9254b9a713d4cfd9c91567923baebd12bee"
+      },
+      {
+        "recordId": "radiotherapy",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5405e12209ceed38d3fac4a13b7d24167874169f7e5e519e9f126dc2fff8b581"
+      },
+      {
+        "recordId": "radiotherapy",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "479c6fa75bd7f220490eb4899df9b21b8293afe1b9302e5037cd1efe1890e246"
+      },
+      {
+        "recordId": "radiotherapy",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "75f61ec1fc0582925bfdebeaaaf0c0a0234a7731be088b5fe0182a8c5148ad5b"
+      },
+      {
+        "recordId": "radiotherapy",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d1091997635cd00283b7d1eaa364f681027296dd09a56552716eb3044d71fbdc"
+      },
+      {
+        "recordId": "hypofractionation",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6aa8bd1985a25a23320f7dc748c02fd247115f40fcc1853a60601fa271a64db6"
+      },
+      {
+        "recordId": "hypofractionation",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "f2f59d23e86ada0dc83bc284331180163d8d30f1f68fbc461140fd6d1edad46c"
+      },
+      {
+        "recordId": "hypofractionation",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "402ce44a73ed306db522682ab34f297c245c0d69afa22541d6955e20f14a87b7"
+      },
+      {
+        "recordId": "hypofractionation",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "de13f7277db2dba9d3831a3d0e84e5408394164af04af4de7c4a72b3043c4204"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6aa8bd1985a25a23320f7dc748c02fd247115f40fcc1853a60601fa271a64db6"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "f2f59d23e86ada0dc83bc284331180163d8d30f1f68fbc461140fd6d1edad46c"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "402ce44a73ed306db522682ab34f297c245c0d69afa22541d6955e20f14a87b7"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "de13f7277db2dba9d3831a3d0e84e5408394164af04af4de7c4a72b3043c4204"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "principle",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "77dba8d9157228fd5b56e93c9f835fff16013db01c3f3ec6162743693947bb19"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "strengths",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6723e0d9ba2749353e1793c1ede91542a5630729732bc566322c5deea26d221f"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "strengths",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "843dbd384ab243103cc91e05e38e6604236a08c59a857ce4eb61f287dfac2bc7"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "limitations",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "ce2d143aa369b55ec99feb28f3b8439ec3a01621548f2cb08b2b93c6f1725ce1"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "limitations",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "f37628957f78539d6f1a83face0bb0bcddbb3356e976fe34454e41691289f408"
+      },
+      {
+        "recordId": "hypofractionated-radiotherapy",
+        "field": "limitations",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "38f1298825b32396c15050bb0a912c4b5787169f9bf75e0321206a949571099d"
+      },
+      {
+        "recordId": "immunogenic-cell-death",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "50d286a5fc2f8de8fd3e03fef520bcd990b8ef443e813f914ebe76cd3d6ffd51"
+      },
+      {
+        "recordId": "immunogenic-cell-death",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "fc165367ac5bfc6cb372944c438c67a4be3d4f1e3c72c65e8962a6f0f111f04a"
+      },
+      {
+        "recordId": "immunogenic-cell-death",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "dcebf304fda8616fd9b187238dd7257c51115043fe30b726810caeefb1e95213"
+      },
+      {
+        "recordId": "immunogenic-cell-death",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "01e2b1589aa83967b672218d5d4efa0c1ce9f0ea2fdd0144168a8497590d6fea"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "7d6ca70643aefee2644acbe8f1fe6c7a3978d10d2727154bb9d47323d8703898"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "3449ebc0cf572445291db463348fc190751f972233fe950701220d57ab42f199"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6deb69eac3e3c6d4cb44a9cea83e3ed26f2e8db2f5264b61b7d052f3fed2e01f"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "principle",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "24cf04beb5f766243e2a790758e5666d82c59c7195df25e3dd9726a42abd7728"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "strengths",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "121ab2ec350e3407356b3f0b9999be272dfdb54fa53960c96e136ef0ca12551b"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "strengths",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "44896867808f577d1a52ba8cf52ef83ef320dca5727e9f41479619e4098b5d50"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "limitations",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bf31cc721c8d2693de7dd4e598d525ca360fd2b82ce25a14f1af95c14d05f954"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "limitations",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4b2f28566c6b4dc3c611856a95410b32936bb4b37cd1eb0df9cb04630776136f"
+      },
+      {
+        "recordId": "in-situ-vaccination",
+        "field": "limitations",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "06f0cc4f31ed81bccb778e1c88ae077d6071280ea1525db996c0f77b6c9b8ad9"
+      },
+      {
+        "recordId": "abscopal-effect",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e75584d8605afb066b632651e70d5f8bc95547669068967e21372b200d04a684"
+      },
+      {
+        "recordId": "abscopal-effect",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4f9cc7ab7ef37897196b1fd1a96a00bb37e4c91c7e44ed3c8df0dfbd4d4a4089"
+      },
+      {
+        "recordId": "abscopal-effect",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "3835a1674492fba0d273472341f8fe2fcbd9dab84cc9d7aa4922ae389feed883"
+      },
+      {
+        "recordId": "systemic-vs-local-therapy",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "8a8aa485065cbfc7372df4f3c1eb7c0919887b0c90b0cea493d7728746de28c0"
+      },
+      {
+        "recordId": "systemic-vs-local-therapy",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "73fbc4d621e24a2592604dbe959ae1e232a5994fc9137eac62e41461069110da"
+      },
+      {
+        "recordId": "systemic-vs-local-therapy",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5927e88832d302fe6938ae05386d161ce3e406d9ea2854f210a10939c90f1c35"
+      },
+      {
+        "recordId": "systemic-vs-local-therapy",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "0dc144726943eccb277d7eefe80372cdb3f3a359ab7dc9eb8fd9debca5eea7eb"
+      },
+      {
+        "recordId": "theranostics",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "7613baa7af023eaa1a611fbd249c06b0883b24b6f984e7ef8d8cb76d8ee7ce37"
+      },
+      {
+        "recordId": "theranostics",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "276ea5d456183ea003f1f8d54cc4d2f579570ccf2fd3229caf780ee2bf8fd6fa"
+      },
+      {
+        "recordId": "theranostics",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "49daaabb42e023ea91229b3bd7c7be235f80d12ec9682db9370e1d167b4c4132"
+      },
+      {
+        "recordId": "theranostics",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9f655a943ba17c684168f0cf8e61a7037e4c560ee444715e6a372643a813f864"
+      },
+      {
+        "recordId": "theranostics",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c0fbb3fb05f076936a205c178d58ec2fe23d386e0a52b1c36352e005d7dabba0"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "699c95d115a869b497837f037010be8ca63422e5e6d79a1a15b339aae6076d86"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d462dc3495262c53cdd43a6af8594d8774643ba242e07a860c68d31f67765a28"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "533159ee581f0e7f0d570c928ac9dac915ef66a68631a5cc2fdd9e64332984f6"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "326c0d97cc13f51dc02a9750900c579827d29b593f397a2bd4174c748a10493c"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "result",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bd982ef38936f669cba00b5e78c1ce51c1b9614985f4fcfe168a69523406c15b"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "replication",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "dd9f709bb335c2d17a291d6045871308098485dc8819b498c58d00e61646c2e0"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5dad3d4588b4b2e6230c9aea80c1c1b4573843f28036b20c80cff8e61f9f0667"
+      },
+      {
+        "recordId": "nsabp-b51",
+        "field": "notes",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e0e42f3ab528a017601ea4d35c7c5d4df2f998c22cd5b17d6ba0c3ff3e368259"
+      },
+      {
+        "recordId": "acosog-z0011",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "63cdf8a341e9ee70ce092ea8aadae4219f82374c2e03fabb29973126753f85f7"
+      },
+      {
+        "recordId": "acosog-z0011",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c202ad3272d37a232764d81c58fff5b84139ee6e630975f60c1bf7221e89a24f"
+      },
+      {
+        "recordId": "acosog-z0011",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "03fe408915e9ae31fb877c64ddbbec85147449578d81b75f2e9a0c67bb553539"
+      },
+      {
+        "recordId": "acosog-z0011",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c65938eda4e3eaa3452c2447d885b3a3abd554f898f865111b6210d0eb092555"
+      },
+      {
+        "recordId": "acosog-z0011",
+        "field": "enrolledNote",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "20f3eb7cf8e4e84e4fcddf7bfb5409b2b69a4bc4de61b1413212a2cd81946abf"
+      },
+      {
+        "recordId": "acosog-z0011",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "26357266d3d14d44e3184335834cb9eec62b263bbb975616478be35cc65c8ec5"
+      },
+      {
+        "recordId": "amaros",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "50d5d69d4a19175dc828e37c693f948f88e4bb3261de6c1ac8f8a9b702c26e54"
+      },
+      {
+        "recordId": "amaros",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "916c5a68c28cc3c0c90491518e590c6c04296047ac7c527cef93f6e730d6edd1"
+      },
+      {
+        "recordId": "amaros",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "21fa58f7174ae8ca9e695db6e2f2f055896d97fc48e5214a2e7bfa558a8c5a86"
+      },
+      {
+        "recordId": "amaros",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "45a0d2f4fc3a9a135b8e10b53d129c383f4dd9529c74298dd3b23fc14e30d084"
+      },
+      {
+        "recordId": "amaros",
+        "field": "enrolledNote",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "3caa39fea301adee867a15f8b241768a979ecb563705de0df90d7b019183ec43"
+      },
+      {
+        "recordId": "sentinel-node",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "655b36e1e77336b7253a58b0655ee5bb65d82dd1b5af4239853a58053c242179"
+      },
+      {
+        "recordId": "sentinel-node",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "3de251974b6f5eef80a31f4fed6486c7ff35776d9d940c7b8676fe22451ebbc4"
+      },
+      {
+        "recordId": "sentinel-node",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9f470439a3183154de3ca57fae85b5f79fe915fad50bc9121b8e42d0b457f70b"
+      },
+      {
+        "recordId": "lumpectomy",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "f957a685a3ce835205317d6763ee6786ae3d1fcf3569b094ea2ebdef8da47c78"
+      },
+      {
+        "recordId": "lumpectomy",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9b5f643262070cfe8228eddde8a25e88e2f55be3ed99f82255dc20b8d2377168"
+      },
+      {
+        "recordId": "lumpectomy",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "706bee7a61a0d0be1963dda7da04bfada83f515181fdac7f198d91e9b0c8db96"
+      },
+      {
+        "recordId": "mastectomy",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "3e80dacaf3c99f9a23d10e814d185e7e8c67290b80775b348dddab30408684e6"
+      },
+      {
+        "recordId": "mastectomy",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1917820a5cd0d4d246a97ffef485bb76698323975684e8625a0f7c5975691bfe"
+      },
+      {
+        "recordId": "mastectomy",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "71340c589e1dec8c1fad6837733c7649b74af3a9a108439b8515076e845d8ba5"
+      },
+      {
+        "recordId": "breast-reconstruction",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "f73e98886cef2f40423a601e4c6c3610b16fb103ac14578cdc180991926ebd6b"
+      },
+      {
+        "recordId": "resection-margins",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "7dea887d0b541230c9861af7e6f720b2c05cffc45ae5e51184f681f2b9765cd3"
+      },
+      {
+        "recordId": "resection-margins",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1dabf8e238aa78ee20b0186417c2f83f117dd6b00ddf80fb4b6fd7943635a24e"
+      },
+      {
+        "recordId": "resection-margins",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "96c5d42499daa085977a5fd5b6878ecc9a0e3871f446107ef0b4b6fad34b8770"
+      },
+      {
+        "recordId": "resection-margins",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "b1e7e6d6093a3cc42e9a4e7e9592023478772cbff589c30ff56399d7b171b502"
+      },
+      {
+        "recordId": "breast-margins-and-re-excision",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "a2ffb7e6aa24839c617b71a9900fad3a7016680e62b638035adecdeac4a89b48"
+      },
+      {
+        "recordId": "breast-margins-and-re-excision",
+        "field": "notes",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "47db67ffaa8e7438f60383dd53d0a94edf4877800aebf107b4be11156045b25d"
+      },
+      {
+        "recordId": "pacific",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9d3c976d521591ac43dd490401e310abbac7b86d43beece283074dc510ca0073"
+      },
+      {
+        "recordId": "pacific",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "67dfc37bee131ed91fe7763a84a22833dbf14208eb86dea2cbce9d8ca29e796b"
+      },
+      {
+        "recordId": "pacific",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "79b4a5a6d8b469ec59d4c2bf41eee6e61f4a1d9f9f09488ed2681a0e5817f03a"
+      },
+      {
+        "recordId": "pacific",
+        "field": "result",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "65ba4fd2d511238678e2ca3a283d79e42a1d745e15740d16b81463aa6df621aa"
+      },
+      {
+        "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e4d34abe2b02cae7414eacabced5f1d27482aa1ae927b33f67af7b14d57b6529"
+      },
+      {
+        "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c5a0f53192bfea4477e086abbb936a8f2bf97cd63de8cea6fd83f4ec16e2edc6"
+      },
+      {
+        "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "fcdc557016f6d64189b682eaca05bb91220736c8a7a588335d4352fc157633b6"
+      },
+      {
+        "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+        "field": "whatItMeans",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "60ae4cd34a10a5aeb1f4ea3fa40b1b4d47e2a39337d3c3b382a2d946ebee6854"
+      },
+      {
+        "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+        "field": "caveats",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "005f60e5a80c991a86e51304d4c37d864e8c0f9376e4751b0285ecdc8706acc6"
+      },
+      {
+        "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+        "field": "caveats",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1e60e9afeea8a5be973813d2fb2d24f5ce92006b9e7790f1241cac8a1048475a"
+      },
+      {
+        "recordId": "paper-spigel-pacific-five-year-survival-jco-2022",
+        "field": "caveats",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9b85595f4b8a19ea463a440152615920c2e950385ee2c5c27ad2ce9b0e0dca4e"
+      },
+      {
+        "recordId": "lymph-node-status",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "204164b59beb525cf8591471e9b690944acd591de0c4cc49ab6382552cc90284"
+      },
+      {
+        "recordId": "lymph-node-status",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "0e4799946ed4956374a9d3dfe68498d319fa0e1fb93df6dca12653481ca95517"
+      },
+      {
+        "recordId": "lymph-node-status",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "b8b623f7b6553b48e19c8e7674537ce831a5b54d4a61321a96197f58899cd4da"
+      },
+      {
+        "recordId": "lymph-node-status",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "7f1573b91c759638cf7228cd526e1dad7237338f7822570edbfdad62e23828a2"
+      },
+      {
+        "recordId": "completion-surgery",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "00f54af2f5521ee4a89a400e21c9c7eea8abd6680902399987276f057010d5c9"
+      },
+      {
+        "recordId": "completion-surgery",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "52d8bd78ed72b49122d060f26c218b2cc64c184b40245f8096871deba903e483"
+      },
+      {
+        "recordId": "completion-surgery",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9a5277e2d4646eb2e14fba907b4c60133c069c6519f30e2d3b94700e4dd27e58"
+      },
+      {
+        "recordId": "regional-nodal-irradiation",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "52fa5ba1ed5bbc271cb6d07e482751e66d274ef4acbcaef1bf2ac7b30092c7fa"
+      },
+      {
+        "recordId": "regional-nodal-irradiation",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "fea2c643f5d520c6e73bd37b3e7620f7146a6bdacd3e94e7b1729684211aac7e"
+      },
+      {
+        "recordId": "regional-nodal-irradiation",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "2b40535b33efad03b55df595c66848987aabe0481c32e8f84316ee9ab0a6bf6d"
+      },
+      {
+        "recordId": "regional-nodal-irradiation",
+        "field": "summary",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "0bea6ea481a2ab1426025e206782b3eb1585f866545bbfbda2aecba99e8c2604"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1f65e12e93dd1aad60a0c5d4d7e672118e7985728583c4ea66a30b6291efcf8a"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e59f6a43699f7f8f1bd745b85e584a6ae5153ce351ff62cfd0dd74db32d08500"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4c917400a7647cc4348980d5eefe2fa2e60b311676603805bd55f9bc533f9bba"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "findings",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "07a1fb46e0211dadbb0ae29fe1fc5e676c7d249b54cf340cc954d2e65999bd25"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "findings",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "aee014a35e0de1e7e73f50d2cbf1a0970a988d012231ad284579fe49001b39c3"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "findings",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "2784bb9f495e617f8acb93dfd18adcd98b15a7dcf594cec8b2ad4a58ac271b8c"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "caveats",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "448db824d6421084b398f9def643a32ed072b3d91416a7e707ee916764f2eac3"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "caveats",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "0fc75d115949a53c99c4c2b6d46de21b4028f7eae08bbc36501e91f7d54d9ca0"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "caveats",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "76b29e0a6c3cb4439a03b70874662f3ced4aed446ac439b94369d7054747cf6a"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "caveats",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bd81c597118d7ba10674ba26bfac673bca2e0819b36bd2ccf6f9923b6a8e24f2"
+      },
+      {
+        "recordId": "paper-booster-ablation-immunotherapy-2025",
+        "field": "whatItMeans",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4809984a8e85a6c899401e1db1e48c4ed214d2f8137c4d4fac6dea9429fa799e"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c022f2a9bcd8299d736927d7801935d296f4bb3621972300e78f3d65abb83d78"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e0fc860f2f3a67feaae902feb409363b3b5a6d7c6285140ce003fd922af6b61a"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "8bf636803b1385973ccd5ba29e2ac3335dca6d806524a7a0062ce6680152a6e2"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "findings",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "cf08e716678e640a7cb872789e15553531c554b78e38a03b10a35e0577ff009f"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "findings",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "68cfc7ce81a5de8bc5283229d52f2487e1668ab1ffe0906f7a9e9b2e6f285c32"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "findings",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "31bcd6a0efa5ccb9c003cafc903c322cd580b8d7a76f21bb3bc1183e1bbc3eb5"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "caveats",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "46134f18d8192764983eab552896d8f3d9cfcff4e462a65e490e8da3252cbaf9"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "caveats",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "000b19e5309f9fc12f4cc02af068ab73b75ea2c5666ab50efe3af1438c530088"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "caveats",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5e9bd6c9ab3566657984d584d5c368b316c04e464fcd233eaffde01cfd273ccc"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "caveats",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6a7ab89b6698e22daea348aefd1a3d50d15dd13bd2bf220dd87f6a87b8368cda"
+      },
+      {
+        "recordId": "paper-curb-oligoprogression-lancet-2024",
+        "field": "whatItMeans",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9ba72175c37ef31ba052ca8f267d6d9e242219a8496bd6b24e98bc251e4508ea"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "987928569404629b3320298f48169d0e0394d864d788f40119cf64ed7c5b60e4"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9c126374e0c143e849edb42d4b92326d03a5ed5c0d4fbb1ae70e0fd926282cf3"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4265eb7be51c320cad946a7e9eb0f702ef1c8fec34297f3e456caa846e9ec0b8"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "findings",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "631ca5a5ff0a93675ddc923827de51039d1c0a63c35038418e3f4ed5f927cbe2"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "findings",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e5be503ea16d36fcbbf360556510e7166b15733b7a2a476a4b6f6fa3f54eddc2"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "findings",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "46ac5937338c67cf940bf0e5b2516cc54ac8035958c3242ac55fe15d6956f136"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "findings",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "10fda07d89fbb791dc1a44dc3f0c448fbdd7575e46ca81bff62ed7da458c700b"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "caveats",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "1c01614c0b0f04925a8287da8183bf5a98a4bb4e536fb623f95baa2afbd775f5"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "caveats",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "ab4fbfcec1248cb1eb28caee91eaa94bd6f0040c1300d864be032a8b94e6f8c8"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "caveats",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "263fef248590f2f13a4f31786eb72588a8be2196e0ff783295730292dc34d94a"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "caveats",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e3613f8e4602807839c4b2530a29a69f642e6af5548a7302356ade4aaae975e7"
+      },
+      {
+        "recordId": "paper-nrg-br002-jco-2026",
+        "field": "whatItMeans",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "597fb8b643c660d1377216b989e4fca3092972e2698e3ef714f38641771080ed"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "ac2cc455fb368e7994e9fc0c9673da85aa5bee6427ec2a4c645972f4257a5321"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "8f8fa560443a471ead16aff146f114d1777c70635afc30d47b25f12c535e990a"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d473381683e48d9088bc8db7a49f1ac83a76dbd7891277d88a177846779ec1bd"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "findings",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "0a709c45d5711131882a7e98f144bd4b4684ea7d93fed9f0bffb539e644c88cb"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "findings",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "e427abda0d5fda0a8c8c22ecdf05c92470b09ed3ba0f28c2b56ed7ce8aa1672f"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "findings",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "74910cf0be53462d18c1a52bbe01e8dce0bb6a90cc3923a08b0d1e89790ea5eb"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "caveats",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "934b80f74af3b203780eeab3479fb38399d99760722fc1760959636f9a33af34"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "caveats",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5c049ce34ba72a7299097ec01650113b3db5cc21295f957170915a1c8b7aa776"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "caveats",
+        "part": 2,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "dadc00ad93d899686ce71d9c95787fdadf34bc226052d41c44078209694a531e"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "caveats",
+        "part": 3,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "97c5a016ca3d95644bbb1d62c4b6b96ef464b1b9c194eb2af338c91bd5834677"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "caveats",
+        "part": 4,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "b855a1f4f1ac30dd2774043897ceb4926927b27fdf6c71db61de5454ef2c7fa1"
+      },
+      {
+        "recordId": "paper-nsabp-b51-nejm-2025",
+        "field": "whatItMeans",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5326923f1c9ee45e5ec437253aedc169ac242451b903733314f3f31ddeeabd9c"
+      },
+      {
+        "recordId": "curb-oligoprogression",
+        "field": "setting",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5823a4dfd609a203dd1d7b915c121e6c8baaf02c137b89ba9635199702fe4df1"
+      },
+      {
+        "recordId": "curb-oligoprogression",
+        "field": "enrolledNote",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bac757089e432f3746480e41da88a4ab9912e1ad39581d43b8308e828310a1e6"
+      },
+      {
+        "recordId": "curb-oligoprogression",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "45b86e3dcddbdc3c3f42b891d04e78bbd96c9df47f22b0a083ba3c2ed76f85d5"
+      },
+      {
+        "recordId": "curb-oligoprogression",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "8c1ebe801a2e6d3a3b9b55a34a0a352a7bc8d0104074d70dfab9d82c45933984"
+      },
+      {
+        "recordId": "curb-oligoprogression",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "c642c2d1e62cf6067173079962729a09605558a55aa3dd3dd6fc40506f019e85"
+      },
+      {
+        "recordId": "curb-oligoprogression",
+        "field": "result",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "40b19a5a1332d0ae0b1f1ce5d8fcb185ab2c36c440f8da6390bfda8af243c5cd"
+      },
+      {
+        "recordId": "nrg-br002",
+        "field": "setting",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "474a932f05858fb22de7bac772ff059c331aa70ba00ff023b2bfdb0fbbe21723"
+      },
+      {
+        "recordId": "nrg-br002",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "bb5d56bb3d4636051b69c38c8beb06e9ed6472a6bb3ea32ee49f5bfbc5c1013a"
+      },
+      {
+        "recordId": "nrg-br002",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "d4d72f8d0cb44d3989df6f6df768104200448252502c3f51f77f419b25f5c4de"
+      },
+      {
+        "recordId": "nrg-br002",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9a990d6ee0cb16962d6021d07702c0d8ba9f5d320e38d0fcdd75f27b209d9fc7"
+      },
+      {
+        "recordId": "nrg-br002",
+        "field": "result",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "9488ac6579f402af1135486340daafbe685893d0fe98bd8a03fae269bc623c85"
+      },
+      {
+        "recordId": "alliance-a011202",
+        "field": "setting",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "790ae7617d82d5efb354751cb35cba3a7edbd895f8e69a2c56dd67895775edb9"
+      },
+      {
+        "recordId": "alliance-a011202",
+        "field": "tldr",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "ea9464a04b7cb9b1ab20910d8fbe765736589208e607de4d172cb82c236f8036"
+      },
+      {
+        "recordId": "alliance-a011202",
+        "field": "summary",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "5fb11c6d9b8fc400899b81346e7e53aeefc2325f0936f3f8882f25dc8834c93a"
+      },
+      {
+        "recordId": "alliance-a011202",
+        "field": "summary",
+        "part": 1,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "6ad0bd515c5e576a9e56cb40449027ef7e385cebc425f49e797c6fcd02e3a7ba"
+      },
+      {
+        "recordId": "alliance-a011202",
+        "field": "result",
+        "part": 0,
+        "readerBodyMatch": true,
+        "accessibleAttributeMatch": false,
+        "textSha256": "4e3b5762a5bb6053ab767c9f0a5fe15fd2dad71ec59163ef58d648b45c3a8c98"
+      }
+    ],
+    "failed": [],
+    "attributeOnly": [],
+    "scope": "Authored local-treatment fields matched in actual rendered reader text excluding script/style and JSON-LD; accessible-attribute matches named separately. No hydration, visual-layout or live-deployment certification."
+  },
+  "scope": "Actual canonical fields matched to rendered reader bodies excluding scripts/styles/JSON-LD. No live-deployment, hydration or visual-layout certification."
+}

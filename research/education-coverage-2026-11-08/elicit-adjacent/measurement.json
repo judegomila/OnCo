@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T22:43:27.227Z",
+  "request": {
+    "query": "Which original methods studies show overlooked interpretation limits in spatial and single-cell omics, DNA copy number and loss of heterozygosity, RNA isoforms, phosphoproteomics, immune assays and functional tumor models?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-282312658",
+        "title": "Multi-sample and multi-group spatial colocalization analysis using PANORAMIC",
+        "authors": [
+          "Jacob Chang",
+          "Almudena Espin Perez",
+          "Perla Molina",
+          "Rohit Khurana",
+          "Wei-Ruo Zhang",
+          "L. Tian",
+          "Sylvia K. Plevritis"
+        ],
+        "year": 2026,
+        "doi": "10.1093/bioinformatics/btag546",
+        "pmid": "42538825",
+        "venue": "bioRxiv",
+        "citedByCount": 0,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13472731/pdf/btag546.pdf",
+          "https://doi.org/10.1093/bioinformatics/btag546",
+          "https://www.biorxiv.org/content/biorxiv/early/2025/12/20/2025.09.18.677135.full.pdf"
+        ],
+        "studyTypeTags": [
+          "Meta-Analysis"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13472731/pdf/btag546.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "6d537d4b0f1e28262c104702f39fc5255db74d30e74fb6d4059e8e57161f0a65",
+          "characters": 1583
+        }
+      },
+      {
+        "elicitId": "ss-278456430",
+        "title": "INLAomics for Scalable and Interpretable Spatial Multiomic Data Integration",
+        "authors": [
+          "Lukas Arnroth",
+          "S. Vickovic"
+        ],
+        "year": 2025,
+        "doi": "10.1101/2025.05.02.651831",
+        "pmid": "40654897",
+        "venue": "bioRxiv",
+        "citedByCount": 3,
+        "urls": [
+          "https://doi.org/10.1101/2025.05.02.651831"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1101/2025.05.02.651831",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4079baa7e8ec4f0a6f3a9ee693fa5c320609d29b2002216914621b74d11fe907",
+          "characters": 1239
+        }
+      },
+      {
+        "elicitId": "ss-289441349",
+        "title": "Spatial omics illuminates tumor heterogeneity",
+        "authors": [
+          "Neha Srinivas",
+          "Serap Erdogmus",
+          "G. Mollaoglu"
+        ],
+        "year": 2026,
+        "doi": "10.1016/j.crmeth.2026.101504",
+        "pmid": "42320479",
+        "venue": "Cell Reports Methods",
+        "citedByCount": 0,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13494549/pdf/main.pdf",
+          "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(26)00205-5.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.cell.com/cell-reports-methods/pdf/S2667-2375(26)00205-5.pdf",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-249313746",
+        "title": "Single cell‐ and spatial ‘Omics revolutionize physiology",
+        "authors": [
+          "Thomas Conrad",
+          "J. Altmuller"
+        ],
+        "year": 2022,
+        "doi": "10.1111/apha.13848",
+        "pmid": "35656634",
+        "venue": "Acta Physiologica",
+        "citedByCount": 19,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apha.13848"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/apha.13848",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "dd834fd2bd4143161dcadd13187b290a017a07cf973b47591e6971b9424c6bfb",
+          "characters": 1112
+        }
+      },
+      {
+        "elicitId": "ss-220517938",
+        "title": "Assessing the performance of methods for copy number aberration detection from single-cell DNA sequencing data",
+        "authors": [
+          "X. Mallory",
+          "M. Edrisi",
+          "N. Navin",
+          "L. Nakhleh"
+        ],
+        "year": 2020,
+        "doi": "10.1371/journal.pcbi.1008012",
+        "pmid": "32658894",
+        "venue": "PLoS Comput. Biol.",
+        "citedByCount": 41,
+        "urls": [
+          "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008012&type=printable"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1008012&type=printable",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e3f364ea6bcf50b02b105f87f8f9d8cdaedd272c398f3ca9ce09800d9e3bf697",
+          "characters": 1326
+        }
+      },
+      {
+        "elicitId": "ss-284977072",
+        "title": "2D spatial tissue analysis often misrepresents true biological patterns of 3D tissues",
+        "authors": [
+          "David Le",
+          "David I. Kaplan",
+          "A. Trigos"
+        ],
+        "year": 2026,
+        "doi": "10.64898/2026.01.21.700966",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 1,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2026/01/22/2026.01.21.700966.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2026/01/22/2026.01.21.700966.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "512a1b7469ac145534913572dff876b89b7c3695a2944a12427a0d8d51660df3",
+          "characters": 505
+        }
+      },
+      {
+        "elicitId": "ss-279620506",
+        "title": "Beyond benchmarking: an expert-guided consensus approach to spatially aware clustering",
+        "authors": [
+          "Jie-Ran Sun",
+          "Kirti Biharie",
+          "Peiying Cai",
+          "N. Müller-Bötticher",
+          "Paul Kiessling",
+          "Meghan A. Turner",
+          "S. H. Dam",
+          "Florian Heyl",
+          "Sarusan Kathirchelvan",
+          "M. Emons",
+          "Samuel Gunz",
+          "Sven Twardziok",
+          "Amin El-Heliebi",
+          "Martin Zacharias",
+          "Roland Eils",
+          "M. Reinders",
+          "R. Gottardo",
+          "Christoph Kuppe",
+          "Brian Long",
+          "A. Mahfouz",
+          "Mark D. Robinson",
+          "N. Ishaque"
+        ],
+        "year": 2025,
+        "doi": "10.1101/2025.06.23.660861",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 4,
+        "urls": [
+          "https://doi.org/10.1101/2025.06.23.660861"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1101/2025.06.23.660861",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "e9b8521a753fb822ec8844730c78cb15c51d08266c143a64db36aefc532f76cb",
+          "characters": 2076
+        }
+      },
+      {
+        "elicitId": "ss-286739673",
+        "title": "Advances in Explainable Models for Single-cell Transcriptomics and Spatial Transcriptomics Data Analysis",
+        "authors": [
+          "Luchang Ge"
+        ],
+        "year": 2025,
+        "doi": "10.71052/srb2024/yuag4486",
+        "pmid": null,
+        "venue": "Scientific Research Bulletin",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9fde3ed9341836427abdfe5f0f8fa0e3051239fa8f905a0b835e55132910c5cc",
+          "characters": 1507
+        }
+      },
+      {
+        "elicitId": "ss-287172108",
+        "title": "Abstract 5519: SOMaC: An interpretable and generalizable framework for integrating and clustering multimodal spatial omics to resolve cell states and immune niches in cancer.",
+        "authors": [
+          "Junming Shi",
+          "Md Tauhidul Islam"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1538-7445.am2026-5519",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "da64c3987077cafbd89fc01724e910f91c91c736b575e1ecce03c9e2c866667c",
+          "characters": 3024
+        }
+      },
+      {
+        "elicitId": "ss-269927925",
+        "title": "Spatially Resolved Single-Cell Omics: Methods, Challenges, and Future Perspectives.",
+        "authors": [
+          "F. Dezem",
+          "N. Morosini",
+          "Wani Arjumand",
+          "Hannah DuBose",
+          "Jasmine T. Plummer"
+        ],
+        "year": 2024,
+        "doi": "10.1146/annurev-biodatasci-102523-103640",
+        "pmid": "38768396",
+        "venue": "Annual Review of Biomedical Data Science",
+        "citedByCount": 48,
+        "urls": [
+          "https://doi.org/10.1146/annurev-biodatasci-102523-103640"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1146/annurev-biodatasci-102523-103640",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "7558cfc9126daba057c934dda0ecc2c961732a77aa6f8eb71944b6b7279cfae0",
+          "characters": 1128
+        }
+      },
+      {
+        "elicitId": "ss-281323719",
+        "title": "Cancer subclone detection based on DNA copy number in single-cell and spatial omic sequencing data",
+        "authors": [
+          "Chi-Yun Wu",
+          "Jiazhen Rong",
+          "Anuja Sathe",
+          "Paul R. Hess",
+          "Billy T. Lau",
+          "Susan M. Grimes",
+          "Si-Jia Huang",
+          "Hanlee P. Ji",
+          "Nancy R. Zhang"
+        ],
+        "year": 2025,
+        "doi": "10.1038/s41592-025-02773-5",
+        "pmid": "40954304",
+        "venue": "Nature Methods",
+        "citedByCount": 6,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2022/07/08/2022.07.05.498882.full.pdf",
+          "https://www.researchsquare.com/article/rs-1838921/latest.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2022/07/08/2022.07.05.498882.full.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "a79132b83a33ca43ae7a4f1516d247967d9016ce191081a9753656fb70622e0c",
+          "characters": 1408
+        }
+      },
+      {
+        "elicitId": "ss-276104406",
+        "title": "Spatial-Omics Methods and Applications.",
+        "authors": [
+          "A. Kulasinghe",
+          "Naomi Berrell",
+          "M. Donovan",
+          "Benedikt S. Nilges"
+        ],
+        "year": 2025,
+        "doi": "10.1007/978-1-0716-4276-4_5",
+        "pmid": "39900756",
+        "venue": "Methods in molecular biology",
+        "citedByCount": 9,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 4,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "48a5556beb45d6d84ca1ede8f8065be7000cc182b7ad1b2d986aed3d7597c7c7",
+          "characters": 1093
+        }
+      },
+      {
+        "elicitId": "ss-285449502",
+        "title": "Single-cell Spatial Multiomics: Technologies, Methods, and Biological Applications",
+        "authors": [
+          "Dong Xing",
+          "Rong Fan",
+          "Fang-Qing Zhao"
+        ],
+        "year": 2026,
+        "doi": "10.1093/gpbjnl/qzag012",
+        "pmid": "41660845",
+        "venue": "Genomics, Proteomics & Bioinformatics",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "a4316dba55675e4bb7a60d3c7bdf48380904465378124593b65619840e1141a4",
+          "characters": 155
+        }
+      },
+      {
+        "elicitId": "ss-268384209",
+        "title": "Inferring allele-specific copy number aberrations and tumor phylogeography from spatially resolved transcriptomics",
+        "authors": [
+          "Cong Ma",
+          "Metin Balaban",
+          "Jingxian Liu",
+          "Siqi Chen",
+          "Michael J. Wilson",
+          "Christopher H. Sun",
+          "Li Ding",
+          "Benjamin J. Raphael"
+        ],
+        "year": 2024,
+        "doi": "10.1038/s41592-024-02438-9",
+        "pmid": "39478176",
+        "venue": "bioRxiv",
+        "citedByCount": 31,
+        "urls": [
+          "https://doi.org/10.1038/s41592-024-02438-9",
+          "https://www.biorxiv.org/content/biorxiv/early/2024/03/13/2024.03.09.584244.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1038/s41592-024-02438-9",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "0ea68b531f76e6287b3d9ab3e3727b08331211f30f96b2b367b7771ffcda6bd1",
+          "characters": 1385
+        }
+      },
+      {
+        "elicitId": "ss-248832021",
+        "title": "Benchmarking spatial and single-cell transcriptomics integration methods for transcript distribution prediction and cell type deconvolution",
+        "authors": [
+          "Bin Li",
+          "Wen Zhang",
+          "Chuang Guo",
+          "Hao Xu",
+          "Longfei Li",
+          "Ming-Hao Fang",
+          "Yinlei Hu",
+          "Xinye Zhang",
+          "Xinfeng Yao",
+          "Mei-Fang Tang",
+          "Ke Liu",
+          "Xuetong Zhao",
+          "Jun Lin",
+          "Linzhao Cheng",
+          "Falai Chen",
+          "Tian Xue",
+          "Kun Qu"
+        ],
+        "year": 2022,
+        "doi": "10.1038/s41592-022-01480-9",
+        "pmid": "35577954",
+        "venue": "Nature Methods",
+        "citedByCount": 412,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "580a91b9773922936a959bbf868182e24c9abef6f27156ca6dfbf502fb7ecb70",
+          "characters": 1263
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "0e8cd43b408ea409367d749717b1b4229c6d4090e46d036d52613d626295a4cc",
+    "rawBytes": 31140,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no excerpted or rewritten quotation substituted"
+  }
+}

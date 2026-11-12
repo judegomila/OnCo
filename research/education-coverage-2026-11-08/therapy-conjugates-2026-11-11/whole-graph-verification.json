@@ -1,0 +1,182 @@
+{
+  "groups": [
+    {
+      "group": "root",
+      "baseCommit": "2f729291c55a4caac2e9869cd4efb5d4da67deba",
+      "runtimeGraphBefore": 22810,
+      "runtimeGraphAfter": 22811,
+      "changedIds": [
+        "cytotoxic-chemotherapy",
+        "platinum",
+        "topoisomerase-inhibitors",
+        "adc",
+        "tubulin",
+        "antibody-tumor-penetration",
+        "fluorouracil",
+        "chemotherapy-term",
+        "dose-dense-chemotherapy",
+        "chemotherapy-regimen",
+        "anthracycline",
+        "taxane",
+        "alkylating-agent",
+        "capecitabine"
+      ],
+      "removedIds": [],
+      "unchangedOtherRecords": 22797,
+      "checks": [
+        {
+          "id": "cytotoxic-chemotherapy",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "platinum",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "topoisomerase-inhibitors",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "adc",
+          "priorLinksPreserved": 8,
+          "priorNotesPreservedExactly": 2,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "tubulin",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "antibody-tumor-penetration",
+          "priorLinksPreserved": 0,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": true
+        },
+        {
+          "id": "fluorouracil",
+          "priorLinksPreserved": 4,
+          "priorNotesPreservedExactly": 1,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "chemotherapy-term",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "dose-dense-chemotherapy",
+          "priorLinksPreserved": 5,
+          "priorNotesPreservedExactly": 3,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "chemotherapy-regimen",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "anthracycline",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "taxane",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "alkylating-agent",
+          "priorLinksPreserved": 1,
+          "priorNotesPreservedExactly": 0,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "capecitabine",
+          "priorLinksPreserved": 6,
+          "priorNotesPreservedExactly": 1,
+          "intentionalReplacements": 1,
+          "replacementReason": "CREATE-X population is not restricted to absent germline BRCA mutation; all subgroup figures and remaining prior notes are preserved.",
+          "newRecord": false
+        }
+      ]
+    },
+    {
+      "group": "chem",
+      "baseCommit": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+      "runtimeGraphBefore": 22717,
+      "runtimeGraphAfter": 22717,
+      "changedIds": [
+        "immune-stimulating-adc",
+        "topoisomerase-i-payloads",
+        "transcription-inhibitor-payloads"
+      ],
+      "removedIds": [],
+      "unchangedOtherRecords": 22714,
+      "checks": [
+        {
+          "id": "immune-stimulating-adc",
+          "priorLinksPreserved": 12,
+          "priorNotesPreservedExactly": 8,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "topoisomerase-i-payloads",
+          "priorLinksPreserved": 8,
+          "priorNotesPreservedExactly": 8,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        },
+        {
+          "id": "transcription-inhibitor-payloads",
+          "priorLinksPreserved": 11,
+          "priorNotesPreservedExactly": 6,
+          "intentionalReplacements": 0,
+          "replacementReason": null,
+          "newRecord": false
+        }
+      ]
+    }
+  ],
+  "scope": "Fingerprint every runtime graph entity before and after; typed arrays and metadata do not substitute for canonical owner identity. Other owners preserved."
+}

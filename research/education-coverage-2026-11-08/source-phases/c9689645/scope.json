@@ -1,0 +1,60 @@
+{
+  "checkedOn": "2026-11-09",
+  "fromGuideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "guideRef": "c96896452386202405c435aa161bc5047919337a",
+  "sourcesInventoriedAndBlobVerified": 550,
+  "exactTeachingAndMetadataReviewCarryovers": 57,
+  "manualSourceDeltaReviews": 18,
+  "newSourcePhaseRequirements": 316,
+  "evidencedRequirements": 314,
+  "openRequirements": 2,
+  "newRequirementsIdentifiedInDelta": 6,
+  "newRequirementsFilled": 5,
+  "newRecords": 0,
+  "existingOwnersSupplementedThisCheckpoint": [
+    "expanded-access",
+    "percist"
+  ],
+  "totalTracked375Owners": 158,
+  "newAdjacentConsumerGap": "expanded-access-service-cost-consumer",
+  "literatureOccurrences": 252,
+  "literatureScreened": 147,
+  "literatureUnread": 105,
+  "sourceVersionCountsMustNotBeAdded": true,
+  "originalCensusRetained": 537,
+  "originalRequirementsStillOpen": 8,
+  "sourcePhaseClosureRequiredByRoot": true,
+  "captureReceipts": 11,
+  "captureCounts": {
+    "rawHTTP200": 7,
+    "excludedRawAccessBodies": 3,
+    "rawRequestErrors": 1,
+    "parsedPrimaryWebResponses": 2,
+    "excludedParsedChallengeResponses": 1
+  },
+  "renderedOwners": 158,
+  "authoredReaderFieldParts": 14,
+  "validation": {
+    "entities": 22716,
+    "typecheck": "passed",
+    "lint": {
+      "errors": 0,
+      "preexistingWarnings": 7
+    },
+    "fullSuite": {
+      "filesPassed": 282,
+      "testsPassed": 2823,
+      "existingSkips": 2,
+      "durationSeconds": 89.89
+    },
+    "closureExitCodes": {
+      "original": 2,
+      "newerSourcePhase": 2
+    },
+    "staleFieldOrSectionProofs": 0,
+    "testFloorsAndBudgetsChanged": false,
+    "dedupe": "No new survey: identities/names/paper/trial identifiers unchanged; full duplicate tests pass. The prior survey's nine groups are not a new measurement."
+  },
+  "expertSignOff": false,
+  "goalStatus": "active; no final complete re-audit performed"
+}

@@ -1,0 +1,13 @@
+{
+  "items": [
+    {
+      "id": "generated-catalogue-owner-comparison",
+      "status": "Remaining in-scope work, not an external blocker",
+      "sources": [
+        "wiki/education/concepts/index.md",
+        "wiki/education/images/index.md"
+      ],
+      "work": "Check the generated-text duplication claim at exact entry/owner level, with full body reads and source receipts."
+    }
+  ]
+}

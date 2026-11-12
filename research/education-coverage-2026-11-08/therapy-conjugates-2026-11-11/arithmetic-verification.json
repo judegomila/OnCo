@@ -1,0 +1,46 @@
+{
+  "checks": [
+    {
+      "id": "same-total-different-windows",
+      "inputs": [
+        40,
+        4,
+        8
+      ],
+      "result": [
+        10.0,
+        5.0
+      ],
+      "units": "arbitrary amount per week; fixed fictional windows"
+    },
+    {
+      "id": "same-four-doses-final-interval-convention",
+      "windowsWeeks": [
+        12,
+        8
+      ],
+      "throughFourthAdministrationWeeks": [
+        9,
+        6
+      ],
+      "intensityRatio": 1.5
+    },
+    {
+      "id": "sponsor-denominators",
+      "fractions": [
+        0.41935483870967744,
+        0.4
+      ],
+      "scope": "Different cohorts; counts alone do not show a lower response percentage."
+    },
+    {
+      "id": "Abelman-rounded-fractions",
+      "fractions": [
+        0.12903225806451613,
+        0.007142857142857143
+      ],
+      "scope": "Selected cohorts, not population incidence."
+    }
+  ],
+  "inferenceScope": "Fictional arithmetic and reading rules do not establish clinical dose, safety or benefit."
+}

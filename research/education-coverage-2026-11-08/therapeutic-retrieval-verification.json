@@ -1,0 +1,13 @@
+{
+  "beforeRecall": 0.42759523809523814,
+  "afterRecall": 0.42759523809523814,
+  "changed": [],
+  "baselineCommit": "67eee0b7edafb4568e11c4f9719ca73d410b66a5",
+  "initialAfterRecall": 0.4209285714285715,
+  "finalRubric": 0.685,
+  "initialLostQuestions": [
+    "tnbc-07",
+    "tnbc-09"
+  ],
+  "fix": "Restored complete conventional bispecific aliases and registry-verified phase 3 context, plus explicit second-ADC/same-payload wording. Expected entities, ranking code and both floors remain unchanged."
+}

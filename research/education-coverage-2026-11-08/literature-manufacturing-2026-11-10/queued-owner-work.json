@@ -1,0 +1,24 @@
+{
+  "canonicalChangesApplied": false,
+  "ownerCorrection": {
+    "id": "manufacturing-process-comparability",
+    "canonicalDraft": "PR 373",
+    "snapshotWrapper": "proposal-binders-cmc",
+    "rule": "Supplement the existing shared owner. A proposal snapshot is not a second canonical record."
+  },
+  "pendingLinkIntents": [
+    {
+      "doi": "10.1002/bit.22441",
+      "scope": "Whole-cell immunotherapy process-characterisation example; abstract only."
+    },
+    {
+      "doi": "10.5045/kjh.2010.45.1.14",
+      "scope": "Background molecular-assay review; targeted reading only."
+    }
+  ],
+  "applicationPreconditions": [
+    "Read any load-bearing claims against primary passages.",
+    "Re-freeze the current canonical owner fields, preserve existing links and recompute compact-JSON field hashes without sorting.",
+    "The worker sorted-key whole-proposal digest is not an actual field precondition."
+  ]
+}

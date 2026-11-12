@@ -1,0 +1,75 @@
+{
+  "version": "proposal-study-statistics-peer-371",
+  "state": "UNAPPLIED complete-field proposal for existing owner in unmerged peer #371; no root registration or integration credit",
+  "draft": 375,
+  "targetPeerDraft": 371,
+  "targetPeerHead": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+  "frozenBeforeVersion": "pr-371",
+  "records": [
+    {
+      "id": "competing-risks",
+      "kind": "term",
+      "name": "Competing events and cumulative incidence",
+      "aka": [
+        "competing risks",
+        "cause-specific hazard and cumulative incidence"
+      ],
+      "tldr": "One event can prevent another outcome from being observed. A cancer study needs to explain how it handles such events when estimating the chance of an outcome.",
+      "summary": "A competing event prevents the defined event of interest from occurring first. Death before a first breast-cancer recurrence is an example; an endpoint counting death as a failure asks a different, composite question. The cumulative incidence function describes the probability of the chosen event by a stated time in the presence of competing events. Aalen-Johansen estimates this probability nonparametrically. Cause-specific Cox and Fine-Gray regression model different hazards; neither hazard ratio is itself an absolute event probability. Ordinary loss to follow-up and competing events need different handling.",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "Competing-risk methodology with transplantation illustration (2012)",
+          "url": "https://doi.org/10.1093/ije/dyr213"
+        },
+        {
+          "label": "Austin, Lee and Fine, 2016: competing-risk analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26858290/"
+        },
+        {
+          "label": "Therneau, Crowson and Atkinson, September 2026: competing risks and Aalen-Johansen",
+          "url": "https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf"
+        },
+        {
+          "label": "van Walraven and McAlister, 2016: survey of competing-risk bias",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26232083/"
+        },
+        {
+          "label": "Gooley et al., 1999: event probabilities with competing risks",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10204198/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "other-cause-mortality",
+        "estimand",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Imagine runners approaching a hurdle. A runner who leaves observation has an unknown later outcome; one who experiences a competing event cannot subsequently have the chosen first event. The analogy is about event definitions, not the idea that all departures have the same prognosis. Death precludes a later first recurrence, while a missed visit does not. Ordinary censoring still requires an appropriate assumption about unobserved outcomes. Deaths-censored Kaplan-Meier instead constructs a net-risk quantity from the cause-specific hazard. Interpreting it as the causal risk in a world where nobody dies needs additional assumptions; it is not the observed real-world recurrence probability.",
+        "For cumulative incidence, each target-event increment is event-free survival immediately before that time multiplied by the target-event count divided by the number still at risk. Sum those increments through the chosen time. The survival factor falls after every relevant first event, including competing deaths. This is the competing-risk form of the Aalen-Johansen calculation. The target-event cumulative incidence, the cumulative incidence of all competing first events and the probability of remaining free of all those events sum to one. A cumulative incidence curve does not require Fine-Gray regression.",
+        "Consider a fictional five-year cohort of ten people with no loss to follow-up. At year 1, two die without recurrence: eight remain, event-free survival is 0.8 and the cumulative incidence of death is 0.2. At year 2, two of eight recur. Their conditional fraction is 25%, but their cumulative-incidence increment is 0.8 × 2/8 = 20%, leaving event-free survival 0.6. At year 3, two of six die: the death increment is 0.6 × 2/6 = 20%, giving 40% cumulative incidence of death and 0.4 event-free survival. At year 4, two of four recur: 0.4 × 2/4 adds another 20% recurrence incidence. Two people remain event-free at year 5. The five-year probabilities are therefore 40% recurrence, 40% competing death and 20% neither. In contrast, censoring deaths in recurrence-only Kaplan-Meier gives 1 − (1 − 2/8)(1 − 2/4) = 62.5%. Four recurrences among ten with complete observation are 40%, not 62.5%.",
+        "A cause-specific hazard is the instantaneous event rate among people still free of every relevant event. Coding a competing event as censored in cause-specific Cox removes that person from this risk set; it does not turn the fitted rate into a recurrence probability. This observed-rate definition does not require assuming independent latent times to competing events. Ordinary loss to follow-up raises a separate censoring assumption. Fine-Gray models a subdistribution hazard linked to cumulative incidence, using a different risk-set construction that retains people with competing events mathematically. A subdistribution hazard ratio is not a risk ratio or a calibrated personal probability. The two hazard ratios can differ without contradiction; choice follows the scientific question, and neither association alone proves a biological mechanism.",
+        "In a survey of 100 Kaplan-Meier studies from prominent medical journals, van Walraven and McAlister judged 46 susceptible to competing-risk bias. Sixteen reported enough event and competing-event information to quantify it; six of those had at least 10% relative overestimation. The quantification used a previously validated prediction model, not a fresh individual-data reanalysis of every study. These findings describe that sampled literature. More competing events and longer follow-up can create more opportunity for a gap, but neither supplies a universal correction factor or an individual-risk rule.",
+        "Define the first-event question before choosing a method. For first local recurrence, death without recurrence competes; whether a distant recurrence also competes depends on whether later local recurrence is still counted. First brain metastasis likewise requires a rule about other first sites. A disease-free-survival composite that counts death as failure has no competing death for that composite, yet its recurrence component can still require competing-risk analysis. Specify the event, competing events, time origin and horizon, ordinary censoring and probability estimator.",
+        "A fictional study in people older than 75 reports 12% ten-year recurrence from one minus Kaplan-Meier, censoring deaths, while many participants die first. Ask for the endpoint-defined cumulative incidence and its uncertainty before calling 12% the observed recurrence chance. The report does not provide enough information to calculate a corrected percentage. The hypothetical net quantity and real-world probability are different questions; neither result is a diagnosis or a treatment-benefit estimate for a particular person."
+      ],
+      "category": "Endpoints"
+    }
+  ]
+}

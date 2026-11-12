@@ -1,7 +1,7 @@
 import type { PaperInput } from "@/lib/schema";
 
 const asOf = "2026-09-08";
-type P = Omit<PaperInput, "kind" | "asOf">;
+type P = Omit<PaperInput, "kind" | "asOf"> & Partial<Pick<PaperInput, "asOf">>;
 const p = (x: P): PaperInput => ({ kind: "paper", asOf, ...x });
 
 /**
@@ -69,57 +69,31 @@ export const papersSolidTumours: PaperInput[] = [
     people: ["javier-cortes", "kim-sung-bae", "im-seock-ah", "park-yeon-hee", "giuseppe-curigliano", "xu-binghe", "sara-hurvitz"], bottlenecks: ["b-resistance", "b-toxicity-qol"],
     related: ["idea-payload-switching"], journals: ["nejm"] }),
 
-  p({ id: "paper-destiny-breast04-nejm-2022", name: "DESTINY-Breast04: trastuzumab deruxtecan works in HER2-low breast cancer, creating a new treatable group",
-    tldr: "Breast cancers with only a little HER2 on their surface, long called HER2-negative, responded to trastuzumab deruxtecan and patients lived about six months longer than on chemotherapy. It created the HER2-low category.",
-    summary: "Open-label phase 3 trial of 557 patients with HER2-low (IHC 1+ or IHC 2+/ISH-negative) metastatic breast cancer after one or two lines of chemotherapy, randomised 2:1 to trastuzumab deruxtecan or physician's choice chemotherapy. About 89% were hormone-receptor positive. Primary endpoint was PFS in the HR-positive cohort.\n\nMedian PFS was 10.1 vs 5.4 months (HR 0.51) in the HR-positive cohort and overall survival 23.9 vs 17.5 months (HR 0.64); results in the whole population were similar. Roughly half of all breast cancers are HER2-low, so the trial redefined HER2 testing and opened ADC therapy to a very large population.",
+  p({
+    asOf:"2026-11-09", id: "paper-destiny-breast04-nejm-2022", name: "DESTINY-Breast04: trastuzumab deruxtecan after chemotherapy in HER2-low metastatic breast cancer",
+    tldr: "In a randomised trial of previously treated HER2-low metastatic breast cancer, trastuzumab deruxtecan prolonged progression-free and overall survival compared with chemotherapy. The study did not include IHC 0 disease.",
+    summary: "Open-label phase 3 trial of 557 patients with HER2-low metastatic breast cancer after one or two previous lines of chemotherapy, randomised 2:1 to trastuzumab deruxtecan or physician’s-choice chemotherapy. Eligibility used IHC 1+ or IHC 2+/ISH-negative. At randomisation, 494 were hormone receptor-positive and 63 hormone receptor-negative. The primary endpoint was progression-free survival in the hormone receptor-positive cohort.\n\nAt the original 11 January 2022 primary data cutoff, progression-free and overall survival favored trastuzumab deruxtecan in the prespecified populations. Exploratory analyses, corrected receptor-status datasets and later follow-up reports need their own denominators. Trial eligibility does not establish a new biologically uniform disease or treatment access for everyone with HER2-low staining.",
     journal: "New England Journal of Medicine", year: 2022, doi: "10.1056/NEJMoa2203690",
     authors: "Modi S, Jacot W, Yamashita T, et al.", paperType: "rct", participants: 557, changedPractice: true,
-    findings: [
-      "HR-positive cohort: median PFS 10.1 vs 5.4 months, HR 0.51 (95% CI 0.40-0.64); median OS 23.9 vs 17.5 months, HR 0.64.",
-      "All patients: median PFS 9.9 vs 5.1 months (HR 0.50); median OS 23.4 vs 16.8 months (HR 0.64).",
-      "Benefit was similar for IHC 1+ and IHC 2+/ISH-negative tumours, questioning whether HER2 level is the true predictor.",
-      "The small HR-negative (triple-negative) cohort of about 58 patients showed a consistent trend (PFS HR 0.46).",
-      "Drug-related interstitial lung disease in 12.1% of T-DXd patients, including three deaths.",
-    ],
+    findings: ["Original hormone receptor-positive intention-to-treat cohort: median progression-free survival 10.1 versus 5.4 months, hazard ratio 0.51; median overall survival 23.9 versus 17.5 months, hazard ratio 0.64.","Original overall randomised population: median progression-free survival 9.9 versus 5.1 months, hazard ratio 0.50; median overall survival 23.4 versus 16.8 months, hazard ratio 0.64.","The hormone receptor-negative efficacy table uses 40 versus 18 patients. Median progression-free survival was 8.5 versus 2.9 months, hazard ratio 0.46 with 95 percent confidence interval 0.24 to 0.89; the small analysis was exploratory. The 58-person efficacy analysis is not the 63-person randomised stratification count.","The original safety analysis reported adjudicated drug-related interstitial lung disease or pneumonitis in 12.1 percent, with grade 5 events in 0.8 percent. These are study-population results, not individual risk predictions."],
     whatItMeans: "Patients whose breast cancer was previously called HER2-negative may now be eligible for an effective HER2-directed drug if their tumour has even low-level HER2 staining, so pathology reports must now distinguish HER2-low (1+ or 2+/ISH-negative) from HER2-zero. This applies to metastatic disease after at least one line of chemotherapy; it does not mean these patients benefit from trastuzumab or other older HER2 drugs.",
-    caveats: [
-      "HER2-low scoring by immunohistochemistry is poorly reproducible between pathologists, and the assay was never designed to distinguish 0 from 1+.",
-      "Fatal pneumonitis occurred; patients need CT surveillance and rapid steroid treatment of symptoms.",
-      "The triple-negative cohort was exploratory and small.",
-      "DESTINY-Breast06 later showed activity in HER2-ultralow (faint staining) tumours, suggesting the biomarker threshold is arbitrary.",
-    ],
-    links: [
-      { label: "NEJM 2022", url: "https://doi.org/10.1056/NEJMoa2203690" },
-      { label: "ClinicalTrials.gov NCT03734029", url: "https://clinicaltrials.gov/study/NCT03734029" },
-    ],
+    caveats: ["IHC 0 tumours were not randomised, so this trial cannot estimate a treatment effect for that category or validate a universal expression cutoff.","The primary and key secondary intention-to-treat analyses use receptor status recorded at randomisation, including mis-stratified patients. Other endpoint analyses use corrected electronic data; denominators can differ within the same publication.","The hormone receptor-negative analysis was small and exploratory. Similar findings across selected subgroups do not by themselves establish a treatment-by-marker interaction.","Serious and fatal pneumonitis occurred. Current product safety instructions and later analyses remain separate from these original 2022 results."],
+    links: [{"label":"NEJM 2022","url":"https://doi.org/10.1056/NEJMoa2203690"},{"label":"ClinicalTrials.gov NCT03734029","url":"https://clinicaltrials.gov/study/NCT03734029"},{"label":"Full original report and Table 2 population footnotes","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10561652/"},{"label":"Current U.S. ENHERTU prescribing information","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"}],
     cancers: ["breast-hr-positive", "tnbc"], drugs: ["trastuzumab-deruxtecan"], targets: ["her2"], technologies: ["adc", "histopathology-ihc", "companion-diagnostic"],
     trials: ["destiny-breast04"], terms: ["her2-low", "ihc", "bystander-effect", "ild", "pfs", "os"], companies: ["daiichi-sankyo", "astrazeneca"],
     people: ["sohn-joohyuk", "park-yeon-hee", "xu-binghe", "im-seock-ah", "hope-rugo", "kim-sung-bae", "david-cameron"], bottlenecks: ["b-biomarker-validation", "b-toxicity-qol"],
     related: ["idea-payload-switching"], journals: ["nejm"] }),
 
-  p({ id: "paper-destiny-breast06-nejm-2024", name: "DESTINY-Breast06: trastuzumab deruxtecan before any chemotherapy in hormone-receptor-positive, HER2-low or ultralow breast cancer",
-    tldr: "Given as the first chemotherapy-type treatment after hormone therapy stopped working, trastuzumab deruxtecan delayed progression by about five months compared with standard chemotherapy, including in tumours with barely detectable HER2.",
-    summary: "Open-label phase 3 trial of 866 patients with hormone-receptor-positive metastatic breast cancer that was HER2-low (IHC 1+ or 2+/ISH-negative) or HER2-ultralow (IHC 0 with faint membrane staining), who had progressed on endocrine therapy but had not received chemotherapy for metastatic disease. Patients were randomised to trastuzumab deruxtecan or physician's choice chemotherapy (capecitabine, paclitaxel or nab-paclitaxel). Primary endpoint was PFS in the HER2-low group.\n\nMedian PFS was 13.2 vs 8.1 months (HR 0.62) in HER2-low patients, with a similar effect in the ultralow subgroup. It moved T-DXd one line earlier and pushed the HER2 threshold down to almost any detectable staining.",
+  p({
+    notes:["The ENHERTU U.S. SPL version 28, published 28 May 2026, separately reports an exploratory ultralow subgroup of 153 patients: median progression-free survival 15.1 versus 8.3 months, hazard ratio 0.76 with 95 percent confidence interval 0.49 to 1.17. This is the labelled regulatory analysis as recorded in that version, not the HER2-low primary comparison; the interval includes 1. Keep the source version and analysis population with the estimate."], asOf:"2026-11-09", id: "paper-destiny-breast06-nejm-2024", name: "DESTINY-Breast06: trastuzumab deruxtecan after endocrine therapy and before metastatic chemotherapy in HR-positive breast cancer",
+    tldr: "This randomised trial found longer progression-free survival with trastuzumab deruxtecan than chemotherapy in HR-positive, HER2-low metastatic breast cancer after endocrine therapy. The ultralow analysis was exploratory.",
+    summary: "Open-label phase 3 trial of 866 patients with hormone receptor-positive metastatic breast cancer after endocrine-based therapy and no previous chemotherapy for metastatic disease. The population contained 713 HER2-low and 153 HER2-ultralow participants. Patients were randomised to trastuzumab deruxtecan or physician’s-choice chemotherapy; the primary endpoint was blinded-central-review progression-free survival in HER2-low disease.\n\nThe original 2024 report found median progression-free survival of 13.2 versus 8.1 months in HER2-low disease, with hazard ratio 0.62 and 95 percent confidence interval 0.52 to 0.75. Ultralow results were described as consistent in an exploratory analysis. Overall survival was immature. This does not establish the same effect in every expression category or an ultralow effect in hormone receptor-negative disease.",
     journal: "New England Journal of Medicine", year: 2024, doi: "10.1056/NEJMoa2407086", pmid: "39282896",
     authors: "Bardia A, Hu X, Dent R, et al.", paperType: "rct", participants: 866, changedPractice: true,
-    findings: [
-      "HER2-low: median PFS 13.2 vs 8.1 months, HR 0.62 (95% CI 0.51-0.74).",
-      "HER2-ultralow (about 150 patients): median PFS 13.2 vs 8.3 months, HR 0.78, consistent with the HER2-low result.",
-      "Objective response rate roughly 57% vs 31% in the HER2-low group.",
-      "Overall survival was immature at the primary analysis and not significantly different.",
-      "Interstitial lung disease in about 11% of T-DXd patients, with a small number of fatal cases.",
-    ],
+    findings: ["Primary HER2-low comparison: median progression-free survival 13.2 versus 8.1 months; hazard ratio 0.62, 95 percent confidence interval 0.52 to 0.75.","Of 866 randomised participants, 713 were HER2-low and 153 HER2-ultralow. The primary endpoint concerned HER2-low disease; ultralow analysis was exploratory.","Overall-survival data were immature in the original report. No absence of a survival effect is inferred from immature data.","Original report: grade 3 or higher adverse events in 52.8 percent versus 44.4 percent; adjudicated interstitial lung disease or pneumonitis in 11.3 percent with three grade 5 events in the trastuzumab deruxtecan group, versus 0.2 percent with one grade 2 event in the chemotherapy group."],
     whatItMeans: "Patients with hormone-receptor-positive metastatic breast cancer that has stopped responding to endocrine therapy can be offered trastuzumab deruxtecan as their first chemotherapy-type treatment if the tumour shows any HER2 staining, rather than waiting until after conventional chemotherapy. Whether to use it before or after chemotherapy is now a choice, since overall survival was not shown to differ and the drug carries a risk of lung inflammation.",
-    caveats: [
-      "No overall survival benefit was demonstrated at the primary analysis, so the case for using it earlier rests on PFS and response.",
-      "HER2-ultralow scoring is even less reproducible than HER2-low, and the ultralow subgroup was small and exploratory.",
-      "Comparator chemotherapy was single-agent and the trial was open-label.",
-      "Cost and pneumonitis risk are much higher than for capecitabine, which many patients tolerate well for a long time.",
-    ],
-    links: [
-      { label: "PubMed search: DESTINY-Breast06", url: "https://pubmed.ncbi.nlm.nih.gov/?term=DESTINY-Breast06+trastuzumab+deruxtecan+HER2-low+chemotherapy-naive" },
-      { label: "ClinicalTrials.gov NCT04494425", url: "https://clinicaltrials.gov/study/NCT04494425" },
-    ],
+    caveats: ["The population had no prior chemotherapy for metastatic disease; this does not mean no prior chemotherapy in any setting.","The study was open-label, with blinded central review for the primary progression endpoint.","The ultralow subgroup was exploratory. A confidence interval or estimate from a regulatory analysis must not be substituted for the HER2-low primary comparison or attributed to a different source version.","The trial does not establish ultralow efficacy in TNBC or validate the same staining threshold for another ADC. Serious interstitial lung disease, including fatal events, remains material."],
+    links: [{"label":"PubMed search: DESTINY-Breast06","url":"https://pubmed.ncbi.nlm.nih.gov/?term=DESTINY-Breast06+trastuzumab+deruxtecan+HER2-low+chemotherapy-naive"},{"label":"ClinicalTrials.gov NCT04494425","url":"https://clinicaltrials.gov/study/NCT04494425"},{"label":"Original 2024 publication identity and abstract","url":"https://pubmed.ncbi.nlm.nih.gov/39282896/"},{"label":"ENHERTU U.S. label: regulatory study analysis","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6"}],
     cancers: ["breast-hr-positive"], drugs: ["trastuzumab-deruxtecan"], targets: ["her2"], technologies: ["adc", "histopathology-ihc"],
     trials: ["destiny-breast06"], terms: ["her2-low", "ihc", "pfs", "ild", "first-line"], companies: ["daiichi-sankyo", "astrazeneca"],
     people: ["hu-xichun", "yonemori-kan", "barrios-carlos", "sohn-joohyuk", "im-seock-ah", "giuseppe-curigliano"], bottlenecks: ["b-biomarker-validation", "b-drug-pricing", "b-trial-design"], journals: ["nejm"] }),
@@ -484,29 +458,16 @@ export const papersSolidTumours: PaperInput[] = [
     terms: ["os", "pfs", "standard-of-care"], companies: ["astrazeneca"],
     people: ["cho-byoung-chul"], bottlenecks: ["b-immunotherapy-response", "b-surgery-radiation-innovation"], journals: ["nejm"] }),
 
-  p({ id: "paper-dellphi-301-nejm-2023", name: "DeLLphi-301: tarlatamab, a DLL3-targeting T-cell engager, in previously treated small-cell lung cancer",
-    tldr: "A bispecific antibody that pulls T cells onto small-cell lung cancer cells produced responses in 40% of patients whose cancer had come back after chemotherapy, lasting far longer than any previous drug in this setting.",
-    summary: "Open-label phase 2 trial of 220 patients with small-cell lung cancer that had progressed after platinum-based chemotherapy (and usually immunotherapy), testing tarlatamab, a DLL3 x CD3 bispecific T-cell engager, at 10 mg or 100 mg every two weeks. Primary endpoint was objective response rate.\n\nAt 10 mg the response rate was 40%, median PFS 4.9 months and median OS 14.3 months, with cytokine release syndrome in about half of patients, mostly grade 1-2 and mainly during the first cycle. It led to accelerated FDA approval in 2024 and was confirmed by the phase 3 DeLLphi-304 trial, which showed a survival benefit over chemotherapy (median OS 13.6 vs 8.3 months, HR 0.60).",
+  p({
+    asOf:"2026-11-08", id: "paper-dellphi-301-nejm-2023", name: "DeLLphi-301: tarlatamab, a DLL3-targeting T-cell engager, in previously treated small-cell lung cancer",
+    tldr: "In the phase 2 DeLLphi-301 study, tarlatamab produced an objective response in 40% of the evaluated 10-mg group. This study did not compare it with standard chemotherapy.",
+    summary: "DeLLphi-301 was an open-label phase 2 study of tarlatamab, a DLL3/CD3 T-cell-engaging protein, in previously treated small-cell lung cancer. The publication reports 220 treated patients, with 10-mg and 100-mg dose groups. Blinded independent central review assessed objective response.\n\nAt the reported cutoff, objective response was 40% in the 10-mg group and 32% in the 100-mg group. Median progression-free survival was 4.9 and 3.9 months, respectively. The abstract reports estimated survival at 9 months, rather than a mature median overall-survival comparison with chemotherapy. The later DeLLphi-304 randomized chemotherapy comparison is a separate study, reflected in FDA’s 2025 traditional-approval decision.",
     journal: "New England Journal of Medicine", year: 2023, doi: "10.1056/NEJMoa2307980",
     authors: "Ahn MJ, Cho BC, Felip E, et al.", paperType: "rct", participants: 220, changedPractice: true,
-    findings: [
-      "Objective response 40% at 10 mg and 32% at 100 mg; median duration of response over 9 months.",
-      "At 10 mg: median PFS 4.9 months; median overall survival 14.3 months in a population with a historical OS of 6-8 months.",
-      "Cytokine release syndrome 51% (10 mg) and 61% (100 mg), mostly grade 1-2 in cycle 1; ICANS or associated neurological events in about 8% (10 mg).",
-      "Discontinuation for treatment-related adverse events 3% at the 10 mg dose, which was selected for further development.",
-      "DeLLphi-304 phase 3 (2025): OS 13.6 vs 8.3 months versus chemotherapy, HR 0.60.",
-    ],
-    whatItMeans: "Patients with small-cell lung cancer that has relapsed after chemotherapy now have a drug that works far better than topotecan or lurbinectedin, and it is the first T-cell engager approved for a solid tumour. Treatment requires inpatient monitoring for the first doses because of cytokine release syndrome, which most centres now manage on a short-stay basis. It does not yet apply to first-line treatment, where trials are ongoing.",
-    caveats: [
-      "Single-arm phase 2 with a randomised dose comparison, not a randomised comparison against chemotherapy (that came with DeLLphi-304).",
-      "Cytokine release syndrome and neurotoxicity require hospital-based step-up dosing and limit use in frail patients or centres without experience.",
-      "Every-two-week intravenous dosing is burdensome for patients with a short life expectancy.",
-      "DLL3 expression was not required for entry and was not predictive, so there is no selection biomarker.",
-    ],
-    links: [
-      { label: "NEJM 2023", url: "https://doi.org/10.1056/NEJMoa2307980" },
-      { label: "ClinicalTrials.gov NCT05060016", url: "https://clinicaltrials.gov/study/NCT05060016" },
-    ],
+    findings: ["Objective response: 40% (97.5% CI 29 to 52) in the 10-mg group and 32% (97.5% CI 21 to 44) in the 100-mg group.","Among 68 responders across the dose groups, 40 (59%) had a response lasting at least six months at the reported cutoff. This responder denominator is different from all treated patients.","Median progression-free survival: 4.9 months (95% CI 2.9 to 6.7) at 10 mg and 3.9 months (95% CI 2.6 to 4.4) at 100 mg. Estimated survival at nine months was 68% and 66%, respectively.","Cytokine-release syndrome occurred in 51% and 61% of the respective groups, mostly grade 1 or 2 and mainly during cycle 1. Grade 3 CRS was reported in 1% and 6%.","The abstract reports 3% discontinuation because of treatment-related adverse events across the study; it does not assign that figure only to the 10-mg group."],
+    whatItMeans: "This study demonstrated antitumor activity in previously treated SCLC, while leaving comparative benefit against chemotherapy to another trial. The later FDA traditional approval concerns extensive-stage disease progressing on or after platinum chemotherapy. CRS and neurologic toxicity remain serious risks. The September 2026 label specifies 6-to-8-hour monitoring in an appropriate healthcare setting on cycle 1 days 1 and 8, with next-day assessments and further caregiver/proximity instructions; the full current label governs the regimen.",
+    caveats: ["Randomized dose allocation is different from randomization against standard chemotherapy. DeLLphi-304 supplies the later chemotherapy comparison.","Response duration among responders, progression-free survival and overall survival have different endpoints and denominators. Results at one cutoff do not establish superiority to every earlier treatment.","The current label retains boxed warnings for CRS and neurologic toxicity, including ICANS. A shorter specified monitoring period does not mean absence of serious risk."],
+    links: [{"label":"NEJM 2023","url":"https://doi.org/10.1056/NEJMoa2307980"},{"label":"ClinicalTrials.gov NCT05060016","url":"https://clinicaltrials.gov/study/NCT05060016"},{"label":"PubMed","url":"https://pubmed.ncbi.nlm.nih.gov/37861218/"},{"label":"FDA: tarlatamab traditional approval and separate DeLLphi-304 comparison (2025)","url":"https://www.fda.gov/drugs/cancer-approvals/fda-grants-traditional-approval-tarlatamab-dlle-extensive-stage-small-cell-lung-cancer"},{"label":"Current IMDELLTRA label: September 2026 monitoring revision and serious warnings","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7b6163-5d83-42ea-82c9-cf7620cdc782"}],
     cancers: ["sclc"], drugs: ["tarlatamab"], targets: ["dll3", "cd3"], technologies: ["t-cell-engager", "bispecific-antibody"],
     trials: ["dellphi-304"], terms: ["orr", "crs", "icans", "accelerated-approval"], companies: ["amgen"],
     institutions: ["samsung-medical-center"], people: ["ahn-myung-ju", "cho-byoung-chul", "enriqueta-felip", "juergen-wolf", "fiona-blackhall"], bottlenecks: ["b-undruggable-targets", "b-dose-optimisation", "b-toxicity-qol"], journals: ["nejm"] }),
@@ -1498,4 +1459,281 @@ export const papersSolidTumours: PaperInput[] = [
     changedPractice: true, participants: 594,
     links: [{ label: "Full text (DOI)", url: "https://doi.org/10.1016/S0140-6736(10)61121-X" }, { label: "ClinicalTrials.gov NCT01041404", url: "https://clinicaltrials.gov/study/NCT01041404" }],
     cancers: ["gastric"], drugs: ["trastuzumab", "cisplatin", "capecitabine", "fluorouracil"], targets: ["her2"], trials: ["toga"], people: ["bang-yung-jue"], companies: ["roche-genentech"], terms: ["her2-positive", "ihc", "os"], related: ["paper-slamon-trastuzumab-nejm-2001"] }),
+
+{
+  "id": "paper-booster-ablation-immunotherapy-2025",
+  "kind": "paper",
+  "name": "BOOSTER: ablation during continuing immunotherapy for limited residual lung cancer",
+  "tldr": "This small randomised phase 2 trial found longer progression-free survival with ablation in selected lung cancer after an immunotherapy response. It did not test SBRT or establish one ablation method as universally best.",
+  "summary": "Single-centre open-label trial in advanced non-small-cell lung cancer with limited residual disease after first-line anti-PD-1/PD-L1 treatment and no progression before randomisation. Sixty-five patients were allocated 2:1; the main analysis included 42 with ablation plus continuing immunotherapy and 20 with immunotherapy alone after three withdrawals. Eligible lung residual lesions were ablated; this was not treatment of every disease site.\n\nThe primary progression-free survival clock began at immunotherapy initiation, before randomisation. The main text also reports a separate analysis starting at randomisation. Keep those clocks and denominators separate when comparing estimates with another trial. The study enrolled fewer patients than planned and needs confirmation.",
+  "journal": "Signal transduction and targeted therapy",
+  "year": 2025,
+  "doi": "10.1038/s41392-025-02460-z",
+  "pmid": "41213939",
+  "authors": "Yang S, Liu X, Yu J, Chen X, Liu X, Zhao S, Jiang T, Sun H, Yang M, Wu F, Li A, Wang L, Gao G, Xu Y, Chen B, Ren S.",
+  "paperType": "rct",
+  "participants": 65,
+  "findings": [
+    "Main analysis: median progression-free survival from immunotherapy initiation was 26.7 versus 11.7 months; hazard ratio 0.213, 95 percent confidence interval 0.099 to 0.461.",
+    "The report gives overall-survival hazard ratio 0.242, confidence interval 0.057 to 1.019 and nominal p=0.036, with medians not reached. The interval and reported test are retained together; the progression endpoint is not proof of a settled survival gain.",
+    "Ablation-related pneumothorax occurred in 15 of 42 patients, including one grade 3 event; pleural effusion occurred in 10 and bronchopulmonary haemorrhage in eight. These are study-group observations, not individual risk predictions."
+  ],
+  "caveats": [
+    "The 65 randomised patients and 62 in the main analysis are different denominators; supplementary all-randomised analyses were reported separately.",
+    "Cryoablation versus heating was exploratory, with differences in lesion characteristics and no multiple-comparison correction. It was not a randomised comparison of modalities.",
+    "Peripheral cytokine measurements came from a separate 97-patient cohort. They do not establish tumour-specific priming or explain the randomised treatment effect.",
+    "The abstract and figure/main-text thermal-subgroup counts differ. No corrected subgroup count or universal technique ranking is invented here."
+  ],
+  "whatItMeans": "Provides a hypothesis-supporting result for this selected residual-lung-disease setting. It does not establish the same effect for breast cancer, oligoprogression, every local method or a proposed immune mechanism.",
+  "cancers": [
+    "nsclc"
+  ],
+  "trials": [],
+  "technologies": [
+    "thermal-ablation"
+  ],
+  "related": [
+    "systemic-vs-local-therapy"
+  ],
+  "links": [
+    {
+      "label": "Primary publication identity and abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41213939/"
+    },
+    {
+      "label": "Full report: methods, endpoint clocks, safety and subgroup limitations",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12603194/"
+    }
+  ],
+  "asOf": "2026-11-09",
+  "tags": [
+    "education-audit",
+    "local-treatment"
+  ]
+},
+{
+  "id": "paper-curb-oligoprogression-lancet-2024",
+  "kind": "paper",
+  "name": "CURB: adding SBRT for oligoprogressive breast or non-small-cell lung cancer",
+  "tldr": "CURB found longer progression-free survival overall with added SBRT, with different findings in its lung and breast cohorts. The small breast comparison did not show a statistically significant improvement.",
+  "summary": "Open-label randomised phase 2 comparison after at least first-line systemic therapy in metastatic breast cancer or non-small-cell lung cancer with no more than five progressing lesions. The 2024 report randomised 106 patients: 51 to standard care and 55 to SBRT plus standard care. The primary endpoint was progression-free survival; the registry defines its clock from randomisation. Disease-site subgroup analysis was prespecified.\n\nThe overall median was 7.2 months with added SBRT versus 3.2 with standard care, hazard ratio 0.53. The NSCLC subgroup showed a longer median, while the breast subgroup’s estimate was imprecise and not statistically significant. Sixteen of 47 breast participants had TNBC; the combined breast result does not determine the effect in every subtype.",
+  "journal": "Lancet (London, England)",
+  "year": 2024,
+  "doi": "10.1016/s0140-6736(23)01857-3",
+  "pmid": "38104577",
+  "authors": "Tsai CJ, Yang JT, Shaverdian N, Patel J, Shepherd AF, Eng J, Guttmann D, Yeh R, Gelblum DY, Namakydoust A, Preeshagul I, Modi S, Seidman A, Traina T, Drullinsky P, Flynn J, Zhang Z, Rimner A, Gillespie EF, Gomez DR, Lee NY, Berger M, Robson ME, Reis-Filho JS, Riaz N, Rudin CM, Powell SN, CURB Study Group.",
+  "paperType": "rct",
+  "participants": 106,
+  "findings": [
+    "Overall progression-free survival: 7.2 versus 3.2 months with SBRT versus standard care; hazard ratio 0.53, 95 percent confidence interval 0.35 to 0.81.",
+    "NSCLC subgroup: 10.0 versus 2.2 months; hazard ratio 0.41, 95 percent confidence interval 0.22 to 0.75. Breast subgroup: 4.4 versus 4.2 months; hazard ratio 0.78, interval 0.43 to 1.43.",
+    "Grade 2 or worse adverse events occurred in 34 of 55 versus 21 of 51. Nine patients had SBRT-related grade 2 or worse toxicity, including pneumonitis and brachial plexopathy."
+  ],
+  "caveats": [
+    "The trial closed before its planned sample size after the preplanned interim efficacy analysis.",
+    "An imprecise nonsignificant breast comparison does not establish exactly zero effect in every breast-cancer population.",
+    "Oligoprogression after prior treatment differs from limited residual responding disease and newly limited metastatic disease.",
+    "The captured 2026 registry reports enrollment of 107, while this publication reports 106 randomised participants. The publication denominator is retained; no reason for the source difference is invented."
+  ],
+  "whatItMeans": "Supports a setting-specific comparison of adding SBRT. Neither treated-site control nor this progression endpoint alone establishes an immune mechanism or a universal survival benefit.",
+  "cancers": [
+    "nsclc",
+    "breast-cancer"
+  ],
+  "trials": [
+    "curb-oligoprogression"
+  ],
+  "technologies": [
+    "sbrt"
+  ],
+  "related": [
+    "systemic-vs-local-therapy"
+  ],
+  "links": [
+    {
+      "label": "Primary publication identity and abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38104577/"
+    },
+    {
+      "label": "Full original report",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10880046/"
+    },
+    {
+      "label": "Registry: randomisation-based primary endpoint",
+      "url": "https://clinicaltrials.gov/study/NCT03808662"
+    }
+  ],
+  "asOf": "2026-11-09",
+  "tags": [
+    "education-audit",
+    "local-treatment"
+  ]
+},
+{
+  "id": "paper-nrg-br002-jco-2026",
+  "kind": "paper",
+  "name": "NRG-BR002: metastasis-directed ablation during first-line therapy for limited metastatic breast cancer",
+  "tldr": "NRG-BR002 did not show improved progression-free or overall survival from adding metastasis-directed ablation in its selected breast-cancer population. This result is distinct from local palliation.",
+  "summary": "Randomised phase 2/3 design in breast cancer with no more than four metastases, a controlled primary and no progression during up to twelve months of first-line systemic treatment. All visible metastases had to be amenable to SBRT or surgery. The 2026 report enrolled 129 patients and analysed 125 eligible participants; 79 percent had HR-positive, HER2-negative disease. Ablation was SBRT in 93 percent.\n\nWith median follow-up 29.9 months and 72 progression events, the study did not meet the progression endpoint needed to proceed to phase 3. Its outcome does not establish that ablation is incapable of local control or symptom relief, or answer every breast subtype, later therapy or metastatic setting.",
+  "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+  "year": 2026,
+  "doi": "10.1200/jco-26-00201",
+  "pmid": "42842849",
+  "authors": "Chmura SJ, Winter KA, Woodward WA, Borges VF, Salama JK, Al-Hallaq HA, Matuszak MM, Milano MT, Jaskowiak NT, Jagsi R, Kuhn P, Lucci A, Meas S, Shishido SN, Mason J, Bazan JG, Nordal RA, Lee DY, Smith BD, Gabos Z, Ye JC, Kahn ST, Vallow LA, Zoberi I, Razaq W, Mishra MV, Lupinacci KM, Moughan J, Mamounas EP, White JR.",
+  "paperType": "rct",
+  "participants": 129,
+  "findings": [
+    "Median progression-free survival: 23.0 months without ablation versus 19.5 with it; hazard ratio 0.92, 95 percent confidence interval 0.57 to 1.47.",
+    "The report gives one-sided p=0.36 and stratified p=0.42 for progression. These are different reported analyses, not a value to silently interchange.",
+    "Overall-survival hazard ratio 1.07, 95 percent confidence interval 0.60 to 1.89; no statistically significant difference was shown.",
+    "No grade 5 toxicity was reported; this does not mean no lower-grade harms occurred."
+  ],
+  "caveats": [
+    "Most participants had HR-positive, HER2-negative cancer; the result does not independently settle every TNBC subgroup.",
+    "The trial did not proceed to phase 3. A planned phase 2/3 label is not evidence that the phase 3 portion was completed.",
+    "Exploratory circulating-tumour-cell findings do not establish a validated local-ablation selection rule.",
+    "The authors advise against routine use outside trials except palliation in this studied setting. The comparison does not erase the distinct symptom-relief question."
+  ],
+  "whatItMeans": "Demonstrates why a local-treatment name and a small number of metastases do not establish added patient-level benefit. Preserve the studied population, systemic strategy and endpoint.",
+  "cancers": [
+    "breast-cancer"
+  ],
+  "trials": [
+    "nrg-br002"
+  ],
+  "technologies": [
+    "sbrt"
+  ],
+  "related": [
+    "systemic-vs-local-therapy"
+  ],
+  "links": [
+    {
+      "label": "Primary publication identity and abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42842849/"
+    },
+    {
+      "label": "Full original report and analysis context",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13647293/"
+    },
+    {
+      "label": "NRG-BR002 registry",
+      "url": "https://clinicaltrials.gov/study/NCT02364557"
+    }
+  ],
+  "asOf": "2026-11-09",
+  "tags": [
+    "education-audit",
+    "local-treatment"
+  ]
+},
+{
+  "id": "paper-nsabp-b51-nejm-2025",
+  "kind": "paper",
+  "name": "B-51: regional radiation after node-positive breast cancer becomes ypN0",
+  "tldr": "B-51 did not show a statistically significant recurrence benefit from regional irradiation in its selected post-chemotherapy ypN0 population. The confidence interval and surgery-specific comparison remain important.",
+  "summary": "Randomised comparison in biopsy-proven cT1 to T3 N1 M0 breast cancer that became pathologically node-negative after neoadjuvant chemotherapy. The 2025 report enrolled 1,641 patients; 1,556 entered the primary-event analysis, 772 with irradiation and 784 without. The primary endpoint counted invasive breast cancer recurrence or death from breast cancer.\n\nThe radiation contrast depended on surgery: after lumpectomy, both groups received whole-breast radiation with or without nodal fields; after mastectomy, chest-wall plus nodal irradiation was compared with none. A study-level statement about omission must retain these different strategies.",
+  "journal": "The New England journal of medicine",
+  "year": 2025,
+  "doi": "10.1056/nejmoa2414859",
+  "pmid": "40466065",
+  "authors": "Mamounas EP, Bandos H, White JR, Julian TB, Khan AJ, Shaitelman SF, Torres MA, Vicini FA, Ganz PA, McCloskey SA, Lucas PC, Gupta N, Li XA, McCormick B, Smith B, Tendulkar RD, Kavadi VS, Matsumoto K, Seaward SA, Irvin WJ, Lin JY, Mutter RW, Muanza TM, Stromberg J, Jagsi R, Weiss AC, Curran WJ, Wolmark N.",
+  "paperType": "rct",
+  "participants": 1641,
+  "findings": [
+    "At median follow-up 59.5 months, 109 primary events occurred: 50 with irradiation and 59 without.",
+    "Primary hazard ratio 0.88, 95 percent confidence interval 0.60 to 1.28, p=0.51; reported event-free estimates were 92.7 and 91.8 percent.",
+    "Grade 4 adverse events: 0.5 versus 0.1 percent. No deaths related to the protocol therapy were reported."
+  ],
+  "caveats": [
+    "Nonsignificance does not establish an exactly absent effect or prove safe omission in every population.",
+    "The study did not directly test pretreatment N2/N3 disease or residual ypN-positive disease.",
+    "ypN0 concerns the nodes examined; it is not by itself a complete breast-and-node response or a whole-body finding.",
+    "The registry’s estimated 1,636 and the publication’s enrolled/analysed counts are different source figures and should retain their versions.",
+    "The full report permitted ypN0i+ isolated tumour cells but did not collect their frequency or specific outcomes. The analysis used 109 primary events rather than the planned 172 in a protocol-specified time-driven report."
+  ],
+  "whatItMeans": "Informs the specified response-adapted radiation question with uncertainty. Residual-node-positive trials and personal treatment decisions require their own population and protocol context.",
+  "cancers": [
+    "breast-cancer"
+  ],
+  "trials": [
+    "nsabp-b51"
+  ],
+  "technologies": [
+    "imrt-igrt"
+  ],
+  "related": [
+    "systemic-vs-local-therapy"
+  ],
+  "links": [
+    {
+      "label": "Primary publication identity and abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40466065/"
+    },
+    {
+      "label": "Full report and methods",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12269788/"
+    },
+    {
+      "label": "Registry: surgery-specific arms and endpoint",
+      "url": "https://clinicaltrials.gov/study/NCT01872975"
+    }
+  ],
+  "asOf": "2026-11-09",
+  "tags": [
+    "education-audit",
+    "local-treatment"
+  ]
+},
+
+{
+  "id": "paper-future-super-lancet-oncology-2024",
+  "kind": "paper",
+  "name": "FUTURE-SUPER: first-line subtyping-based treatment in advanced TNBC",
+  "asOf": "2026-11-09",
+  "tldr": "This randomised phase 2 trial found longer progression-free survival with a specified subtype-based combination strategy than with nab-paclitaxel alone, with more serious treatment-related adverse events.",
+  "summary": "Single-centre, open-label phase 2 study at Fudan University Shanghai Cancer Center. Participants were women aged 18-70, ECOG 0-1, with untreated metastatic or recurrent TNBC. Five cohorts combined a Fudan subtype classification with genomic biomarkers. Within that strategy, 139 participants were randomised to matched additions to nab-paclitaxel (69) or nab-paclitaxel alone (70). This is a different classifier from Lehmann TNBCtype-4.\n\nThe primary comparison was investigator-assessed progression-free survival in the pooled intention-to-treat groups. At the 31 May 2023 cutoff, median follow-up was 22.5 months (interquartile range 15.2-29.0). It tested a package of classification, matching rules and regimens; it did not separately establish each component's effect.",
+  "journal": "The Lancet. Oncology",
+  "year": 2024,
+  "doi": "10.1016/s1470-2045(23)00579-x",
+  "pmid": "38211606",
+  "authors": "Fan L, Wang ZH, Ma LX, Wu SY, Wu J, Yu KD, Sui XY, Xu Y, Liu XY, Chen L, Zhang WJ, Jin X, Xiao Q, Shui RH, Xiao Y, Wang H, Yang YS, Huang XY, Cao AY, Li JJ, Di GH, Liu GY, Yang WT, Hu X, Xia Y, Liang QN, Jiang YZ, Shao ZM.",
+  "paperType": "rct",
+  "participants": 139,
+  "findings": [
+    "Median PFS: 11.3 months (95 percent confidence interval 8.6-15.2) with the pooled matched strategy versus 5.8 (4.0-6.7) with control; hazard ratio 0.44 (0.30-0.65), p<0.0001.",
+    "Grade 3-4 treatment-related neutropenia: 21/69 versus 16/70; anaemia: 5/69 versus 0/70; increased alanine aminotransferase: 4/69 versus 1/70. Treatment-related serious events: 7/69 versus 0/70; no treatment-related deaths reported."
+  ],
+  "caveats": [
+    "A pooled strategy result does not establish that every cohort benefits, validate an interchangeable RNA/IHC classifier, or prove a treatment-by-biomarker interaction for each drug.",
+    "Single-centre phase 2 evidence with an investigator-assessed endpoint and nab-paclitaxel-alone comparator does not establish superiority to every current regimen or a phase 3 survival benefit.",
+    "The current registry status is UNKNOWN, last known active/not recruiting with its last posted update on 22 December 2023. No posted registry results does not mean no publication.",
+    "Source use here is the complete independently resolved abstract and selected registry methods; no complete manuscript review is claimed."
+  ],
+  "whatItMeans": "Evidence that a particular subtype-linked treatment strategy can be tested prospectively. Keep the classifier, genomic rules, population, comparator, endpoint and harms attached to the result.",
+  "cancers": [
+    "tnbc"
+  ],
+  "trials": [
+    "future-super"
+  ],
+  "related": [
+    "tnbc-molecular-subtyping",
+    "pam50"
+  ],
+  "links": [
+    {
+      "label": "Primary publication: identity, complete abstract, population, PFS and safety",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38211606/"
+    },
+    {
+      "label": "ClinicalTrials.gov: independently captured NCT04395989",
+      "url": "https://clinicaltrials.gov/study/NCT04395989"
+    }
+  ],
+  "tags": [
+    "education-audit",
+    "randomised-phase-2"
+  ]
+},
 ];

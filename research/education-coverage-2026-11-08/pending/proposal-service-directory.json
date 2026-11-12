@@ -1,0 +1,24 @@
+{
+  "version": "proposal-service-directory",
+  "state": "directory data implemented in draft #375; not merged; not knowledge-graph entities",
+  "source": {
+    "path": "src/data/free-wave.ts",
+    "sha256": "651a1ac6ecb4f341e93cdb2426d868c3c923fef18f63b03a64964ab4781a009b"
+  },
+  "scope": "Only the selected directory entries are represented by this snapshot. kind is an audit owner type, not a graph schema kind.",
+  "records": [
+    {
+      "id": "expanded-access",
+      "group": "trials",
+      "name": "FDA expanded-access information",
+      "who": "Patients, carers and clinicians seeking US expanded-access information",
+      "where": "US",
+      "what": "Free public information about requesting an investigational product through a licensed physician. Treatment is not guaranteed or necessarily free: product supply, clinical care and institutional review can involve separate charges. For investigational drugs, FDA permission to charge is separate from authorisation to treat. Discuss costs and insurance cover with the supplier and care team.",
+      "url": "https://www.fda.gov/news-events/expanded-access/expanded-access-information-patients",
+      "entityIds": [
+        "expanded-access"
+      ],
+      "kind": "service-directory-entry"
+    }
+  ]
+}

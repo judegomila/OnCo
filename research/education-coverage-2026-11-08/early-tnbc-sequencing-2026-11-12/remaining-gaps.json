@@ -1,0 +1,33 @@
+{
+  "inScopeRequirementResiduals": [],
+  "sourceReadingLimits": [
+    "No whole original paper, book or guidance read.",
+    "Europe PMC fullTextXML returned 500; some NCBI efetch responses contain metadata/abstract only. Those are not counted as article bodies.",
+    "I-SPY2.2 full-text efetch and BioC attempts returned rate limits; adopted description is abstract-level only. No challenge bypass.",
+    "CDC adjuvant page returned 403; FDA ingredient text supplies the adopted definition.",
+    "NCI dictionary pages are shells; valid raw NCI Glossary API definitions supply adopted definitions. Two requested glossary slugs returned 404 and supply no claims.",
+    "The first KEYNOTE-522 OS core capture was incomplete JSON; retained and replaced by a separately hashed targeted refetch.",
+    "Doxorubicin FDA 2019 PDF request timed out without a retained body; the current conventional-product DailyMed SPL supplies the adopted mechanism.",
+    "EBCTCG timing Crossref request returned 429; its DOI and identity resolve through Europe PMC.",
+    "ASCO 2022 abstract describes guideline methodology only; no recommendation is inferred from it.",
+    "Earlier assertions in unchanged portions of canonical records retain prior source scope and do not gain blanket re-verification."
+  ],
+  "limits": [
+    "No whole original paper, book or guidance read. Complete abstracts and targeted body, label, official-page and registry passages keep their exact depth.",
+    "All later bodies and original/later diffs read; unchanged original lines are not claimed independently reread.",
+    "Older catalogue assertions beyond the selected requirements retain earlier scope. Withheld generalisations are not declared false.",
+    "Personal-context routing, source presence and derived recaps earn no independent teaching credit. The follow-up gloss does not close the full surveillance lesson.",
+    "SVG/Mermaid full-extent views and actual component SSR are not live Guide rendering, hydration, mobile, measured accessibility, expert or learner review.",
+    "Source artwork and all earlier frozen peer versions stay unchanged. No merge, main/live or language approval."
+  ],
+  "sourceArtworkFinding": {
+    "id": "early-tnbc-overview-dark-contrast",
+    "requirement": "Check and repair pale surgery and residual-disease nodes with light text in the early-TNBC overview under the source dark Mermaid theme.",
+    "status": "gap",
+    "evidence": [],
+    "remaining": [
+      "ART-01: qualitative pinned-source render finding; no measured contrast or live-site certification. Source artwork was not changed."
+    ]
+  },
+  "broaderAuditComplete": false
+}

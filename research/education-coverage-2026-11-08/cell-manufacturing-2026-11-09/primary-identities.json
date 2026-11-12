@@ -1,0 +1,271 @@
+{
+  "completeMedAbstractsRead": [
+    {
+      "pmid": "28123068",
+      "doi": "10.1126/scitranslmed.aaj2013",
+      "title": "Molecular remission of infant B-ALL after infusion of universal TALEN gene-edited CAR T cells.",
+      "year": "2017",
+      "pmcid": null,
+      "sourceFile": "med-28123068.json",
+      "responseSha256": "57d6e61f9cd55c2af002b8a3d5db3421accad0ba97fc4dd972d0dff1bcc8f0a3",
+      "abstractSha256": "34fb2ac1a0a02040ae4f7541b66d310f906ed5e196c5ca7a6cb9afb0e4e18148",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "33308471",
+      "doi": "10.1016/s0140-6736(20)32334-5",
+      "title": "Genome-edited, donor-derived allogeneic anti-CD19 chimeric antigen receptor T cells in paediatric and adult B-cell acute lymphoblastic leukaemia: results of two phase 1 studies.",
+      "year": "2020",
+      "pmcid": "PMC11773457",
+      "sourceFile": "med-33308471.json",
+      "responseSha256": "54bf04e156c3c86565d6f20f9e9b29163728dc78d1d202e96886a2076caec857",
+      "abstractSha256": "8c9b92a8d3c5853ba3553e94fb18258a6877acbd533813af5a2d4a2bdb9d531c",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "36970059",
+      "doi": "10.1158/2767-9764.crc-22-0175",
+      "title": "Clinical Pharmacology and Determinants of Response to UCART19, an Allogeneic Anti-CD19 CAR-T Cell Product, in Adult B-cell Acute Lymphoblastic Leukemia.",
+      "year": "2022",
+      "pmcid": "PMC10035397",
+      "sourceFile": "med-36970059.json",
+      "responseSha256": "f7c8b70921a44aff64b4a7d8744b44f81458d9d3056b7c5939977e1f99f8afe6",
+      "abstractSha256": "a108a803828c77ebd18f5c47af545f8ac36bc1c94eeac32b3bf3a630fda921a6",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "38231412",
+      "doi": "10.1007/s00262-023-03586-1",
+      "title": "Allogeneic CAR-T cells with of HLA-A/B and TRAC disruption exhibit promising antitumor capacity against B cell malignancies.",
+      "year": "2024",
+      "pmcid": "PMC10794471",
+      "sourceFile": "med-38231412.json",
+      "responseSha256": "c247b3f929c596f67ff1dfe7b5619aad454024edc581417053b052209e9b5af0",
+      "abstractSha256": "72a0e99901e32186cee1ebd5294d959e7d84101881d458c0bee6368abc3e86d8",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "30030295",
+      "doi": "10.1158/2326-6066.cir-17-0405",
+      "title": "Reducing <i>Ex Vivo</i> Culture Improves the Antileukemic Activity of Chimeric Antigen Receptor (CAR) T Cells.",
+      "year": "2018",
+      "pmcid": "PMC8274631",
+      "sourceFile": "med-30030295.json",
+      "responseSha256": "f4833525b4b3cadae2bcfff4dcf19deb48cefa83c90284e7c8ea8d22b787dd51",
+      "abstractSha256": "eb3f97eceee452bd3258ed4f4fb76c97c48bfde8abb681fa38828db06d2b2055",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "14085017",
+      "doi": "10.1085/jgp.47.2.347",
+      "title": "KINETICS OF WATER LOSS FROM CELLS AT SUBZERO TEMPERATURES AND THE LIKELIHOOD OF INTRACELLULAR FREEZING.",
+      "year": "1963",
+      "pmcid": "PMC2195343",
+      "sourceFile": "med-14085017.json",
+      "responseSha256": "0ad0c5a7e7d0a684421b42ce3546270cdc26590dd579ac66e07004353a89ef63",
+      "abstractSha256": "61edd20dae2d39ac23a9b3a0ab5f74bfb304da86881df7b8d70f15c0af37d65b",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "31178392",
+      "doi": "10.1016/j.ymthe.2019.05.015",
+      "title": "Effect of Cryopreservation on Autologous Chimeric Antigen Receptor T Cell Characteristics.",
+      "year": "2019",
+      "pmcid": "PMC6612799",
+      "sourceFile": "med-31178392.json",
+      "responseSha256": "6330bb90787c0161364b172867e5aae7ab34a5dc659e3f7289e6bba75eed026c",
+      "abstractSha256": "26d0029cb2c637a32f5a6fc80c925ab8bb5185b21106d5a70afbff87473721c8",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "30910382",
+      "doi": "10.1016/j.jcyt.2019.02.013",
+      "title": "Improvement of in vitro potency assays by a resting step for clinical-grade chimeric antigen receptor engineered T cells.",
+      "year": "2019",
+      "pmcid": null,
+      "sourceFile": "med-30910382.json",
+      "responseSha256": "46f11cc3046d5cfc47c6f37eadd95d5f075c41136810ef21f8cda4bd2566bb93",
+      "abstractSha256": "6176ca85faf1ef07822527274e3e09442d1e1c3a484d4e1cec2fec2778c47bc3",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "40745920",
+      "doi": "10.1016/j.ymthe.2025.07.045",
+      "title": "Advancing CAR-T cell therapy: Insights into patient biology, leukapheresis, and cryopreservation.",
+      "year": "2025",
+      "pmcid": "PMC12628162",
+      "sourceFile": "elicit-rank-1-med.json",
+      "responseSha256": "4737ff5ef5fd1d77c2bcdcdbe0a21c95d9064c7b5cd29038d3f88950fe781f4b",
+      "abstractSha256": "7f0a3c553a22ef1ca53aa00a74e42d3fdc91a4049aba4d79a31a93b99c89b1ab",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "36276077",
+      "doi": "10.3389/fonc.2022.1024362",
+      "title": "Impact of cryopreservation on CAR T production and clinical response.",
+      "year": "2022",
+      "pmcid": "PMC9582437",
+      "sourceFile": "elicit-rank-2-med.json",
+      "responseSha256": "3846a2753479ff51e5b78a63a829f0c9cff2595fafa3cff3e097f590ff3bedfa",
+      "abstractSha256": "183b7d223fcced8557b269c1d220e5657eaf18fa1ddd7fe100c01c0a035de7c5",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "36225930",
+      "doi": "10.3389/fimmu.2022.1007042",
+      "title": "CAR-T manufactured from frozen PBMC yield efficient function with prolonged <i>in vitro</i> production.",
+      "year": "2022",
+      "pmcid": "PMC9549966",
+      "sourceFile": "elicit-rank-3-med.json",
+      "responseSha256": "66bd21d843ee1f54e948e45f6be824d4c3132990cfc592a360a2d8f14fd266c4",
+      "abstractSha256": "a1bdc8f7595e5bcb67e736388f8057cfb3581abd8fcd21bb20b21bfe0d5cfabf",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "42553327",
+      "doi": "10.3389/fimmu.2026.1876909",
+      "title": "Impact of cryopreservation on PBMC-derived CAR-T cell manufacturing outcomes: a systematic review.",
+      "year": "2026",
+      "pmcid": "PMC13433609",
+      "sourceFile": "elicit-rank-6-med.json",
+      "responseSha256": "57eae600bb5f0b4b5a497f975530b3dcb1a146e37eaf496fb923df7f6fb13188",
+      "abstractSha256": "2c8bb35f31691f2381e2754ed32d3ef9306393e00b0d8ae8fd4fe1482ff36d84",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "35502223",
+      "doi": "10.1007/s40778-022-00212-1",
+      "title": "Impact of Cryopreservation and Freeze-Thawing on Therapeutic Properties of Mesenchymal Stromal/Stem Cells and Other Common Cellular Therapeutics.",
+      "year": "2022",
+      "pmcid": "PMC9045030",
+      "sourceFile": "elicit-rank-7-med.json",
+      "responseSha256": "ca8f08b8cd4c79c8e0ec1f3200bc879bf5805bdb2c749bf595ad42c7c1ed095e",
+      "abstractSha256": "8eec875cb832c4ca8bcddb6d307b8f54b9d962bbcfeeabb0aaa745e484667d3e",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "40066375",
+      "doi": "10.1016/j.reth.2025.02.001",
+      "title": "Optimizing the commercial manufacturing of tisagenlecleucel for patients in Japan: A 4-year experiential journey.",
+      "year": "2025",
+      "pmcid": "PMC11891598",
+      "sourceFile": "med-40066375.json",
+      "responseSha256": "c2996f5b3cb323108eb59971b65c22c45ca67c4b2c56f0af8b1f1d56333f3646",
+      "abstractSha256": "bfbb988c9fbf139e49e9f75e439b492125795dd3da8cc88374fd477cfe9573f6",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "40377509",
+      "doi": "10.1016/j.jcyt.2025.04.067",
+      "title": "Clinical outcomes of Japanese patients treated with out-of-specification tisagenlecleucel in a phase 3b trial.",
+      "year": "2025",
+      "pmcid": null,
+      "sourceFile": "med-40377509.json",
+      "responseSha256": "03395c9ef60cfd93da4b63f8f1a47beaca5f0e1005758442f15933443f8afca9",
+      "abstractSha256": "86e3f3931f7c7a3073d5645fc29e4c0ab5824f01600f8e4ff67fb00f16b82dc8",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "40032870",
+      "doi": "10.1038/s41408-025-01225-9",
+      "title": "Risk factors for CAR T-cell manufacturing failure and patient outcomes in large B-cell lymphoma: a report from the UK National CAR T Panel.",
+      "year": "2025",
+      "pmcid": "PMC11876324",
+      "sourceFile": "uk-panel-med.json",
+      "responseSha256": "2056990f50bc124fd417566ec583b5cb9506b1621ba8ce5993516775f6f6d714",
+      "abstractSha256": "cf83ade1cee55f0f5bc0bec3c58394a79e7b8eed4205550e5c8b501a5dcff424",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "40536974",
+      "doi": "10.1126/science.ads8473",
+      "title": "In vivo CAR T cell generation to treat cancer and autoimmune disease.",
+      "year": "2025",
+      "pmcid": null,
+      "sourceFile": "med-40536974.json",
+      "responseSha256": "9ef9ca3199145cfb832c99198a38d180876aabd9b6dc29c2bc6c8ff22a9ecb60",
+      "abstractSha256": "5b44d4ea12673e9e549cce70be843574ef8696696c461089dc26094e9fb759a1",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "34990237",
+      "doi": "10.1126/science.abm0594",
+      "title": "CAR T cells produced in vivo to treat cardiac injury.",
+      "year": "2022",
+      "pmcid": "PMC9983611",
+      "sourceFile": "med-34990237.json",
+      "responseSha256": "594934c15af4a5e64ada36e925826b23d59c09184b69feccf6f60208aa349924",
+      "abstractSha256": "4db225595e9b753a7ce73c77d5a6a5ed7c27f48706232a17401cdeb980d2275f",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    },
+    {
+      "pmid": "31900462",
+      "doi": "10.1038/s41573-019-0051-2",
+      "title": "'Off-the-shelf' allogeneic CAR T cells: development and challenges.",
+      "year": "2020",
+      "pmcid": null,
+      "sourceFile": "depil-med.json",
+      "responseSha256": "a2a272923905cde4185eb8f5c869f1e84f45b9ebed08dfb9d036e9df0967763d",
+      "abstractSha256": "e622d329ee52630ed0d5ccc4a1e52136e5f16805792372de3129d1185f539589",
+      "readingDepth": "Complete MED abstract read; any additional selected raw full-text reading is separately stated."
+    }
+  ],
+  "crossrefIdentitiesOnly": [
+    {
+      "doi": "10.1136/jitc-2025-sitc2025.0579",
+      "title": [
+        "579 Quality of starting material result in high manufacturability and favorable product phenotype of IMA203, a PRAME-directed TCR T-cell therapy"
+      ],
+      "sourceFile": "elicit-rank-4-crossref.json",
+      "responseSha256": "fee426684f12a2ced608c3e51021ee76b1919a597dabffefef6b3db2bef39d95",
+      "abstractPresent": false,
+      "scope": "Exact Crossref identity resolved, no abstract. Raw publisher full content remains unavailable or gated; no result figures adopted."
+    },
+    {
+      "doi": "10.1016/j.jtct.2023.12.275",
+      "title": [
+        "Fresh Versus Cryopreserved LV20.19 CAR T-Cell Therapy for Relapsed, Refractory DLBCL and Follicular Lymphoma"
+      ],
+      "sourceFile": "elicit-rank-5-crossref.json",
+      "responseSha256": "2a94d086ef4ed847319853469e08f56a36775d1cc5dab67589afc00dc15bf022",
+      "abstractPresent": false,
+      "scope": "Exact Crossref identity resolved, no abstract. Raw publisher full content remains unavailable or gated; no result figures adopted."
+    },
+    {
+      "doi": "10.18609/cgti.2025.147",
+      "title": [
+        "Cryo-processed leukapheresis using an automated closed system: a high-quality starting material for autologous and allogeneic CAR-T cell therapy manufacturing"
+      ],
+      "sourceFile": "elicit-rank-8-crossref.json",
+      "responseSha256": "321ee5e46c2770b1bf2f83885f231dbaabcfbe11f7dca9da4c9d43b9f8d19dc1",
+      "abstractPresent": false,
+      "scope": "Exact Crossref identity resolved, no abstract. Raw publisher full content remains unavailable or gated; no result figures adopted."
+    }
+  ],
+  "validZeroMedQueries": [
+    {
+      "file": "elicit-rank-4-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fjitc-2025-sitc2025.0579%22+AND+SRC%3AMED&format=json&resultType=core",
+      "hitCount": 0,
+      "scope": "Valid zero result for this exact MED query; not absence of a paper or programme."
+    },
+    {
+      "file": "elicit-rank-5-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jtct.2023.12.275%22+AND+SRC%3AMED&format=json&resultType=core",
+      "hitCount": 0,
+      "scope": "Valid zero result for this exact MED query; not absence of a paper or programme."
+    },
+    {
+      "file": "elicit-rank-8-med.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.18609%2Fcgti.2025.147%22+AND+SRC%3AMED&format=json&resultType=core",
+      "hitCount": 0,
+      "scope": "Valid zero result for this exact MED query; not absence of a paper or programme."
+    }
+  ],
+  "limits": [
+    "MED publication-type tags were not treated as a study-design substitute. Benjamin early cohorts are not a randomised comparison despite its tag.",
+    "Ghassemi cell/mouse/manufacturing comparisons are not patient efficacy merely because MED includes a clinical-trial tag.",
+    "Chen includes nine treated people as well as laboratory models.",
+    "Elicit and MED bibliographic years can differ; no invented study cutoff follows."
+  ]
+}

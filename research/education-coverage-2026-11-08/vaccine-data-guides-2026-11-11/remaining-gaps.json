@@ -1,0 +1,23 @@
+{
+  "unrepresentedSubstantiveRows": [],
+  "sourceReadingLimits": [
+    {
+      "file": "pmc-ffpe.xml",
+      "httpStatus": 429,
+      "usedFor": "No body claim; the resolved abstract supplies the bounded fixation observation."
+    },
+    {
+      "file": "nhgri-somatic-mutation.html",
+      "httpStatus": 404,
+      "usedFor": "Not used; MedlinePlus and the resolved Razavi abstract provide the stated origin context."
+    }
+  ],
+  "limits": [
+    "No whole original paper was read. Ten abstracts and specified primary/textbook/company/registry passages have their stated scopes.",
+    "The company report supplies the INTerpath-001 outcome statement; its older registry record supplies design/endpoint context, not independent outcome verification.",
+    "Retained WGS national-programme, long-read and lung-study catalogue context is not newly re-verified. Retained cDC1 marker/model and other unchanged reference-owner details keep their earlier source scope.",
+    "The broader vaccine curriculum, prerequisite/related chapters and drug/trial owners are not closed by these two guide assessments.",
+    "No full Next production build, browser hydration, deployment, expert, learner, owner or language approval."
+  ],
+  "broaderAuditComplete": false
+}

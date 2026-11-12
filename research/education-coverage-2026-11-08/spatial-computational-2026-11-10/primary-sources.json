@@ -1,0 +1,1776 @@
+{
+  "publications": [
+    {
+      "sourceId": "michiels2005",
+      "resolvedTitle": "Prediction of cancer outcome with microarrays: a multiple random validation strategy.",
+      "authors": "Michiels S, Koscielny S, Hill C.",
+      "year": "2005",
+      "journal": "The Lancet",
+      "doi": "10.1016/s0140-6736(05)17866-0",
+      "pmid": "15705458",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "Crossref shows no correction or update relation; no erratum was searched beyond Crossref.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15705458/",
+      "evidenceCard": {
+        "sourceType": "primary reanalysis",
+        "modelOrPopulation": "seven published microarray prognosis datasets in cancer",
+        "interventionOrMethod": "multiple random training and validation splits",
+        "comparatorOrEndpoint": "misclassification proportion versus chance",
+        "limits": "abstract only (no open full text)"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": "Lancet article, no open full text found via Europe PMC; abstract only",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-michiels-5of7"
+      ]
+    },
+    {
+      "sourceId": "venet2011",
+      "resolvedTitle": "Most random gene expression signatures are significantly associated with breast cancer outcome.",
+      "authors": "Venet D, Dumont JE, Detours V.",
+      "year": "2011",
+      "journal": "PLoS Computational Biology",
+      "doi": "10.1371/journal.pcbi.1002240",
+      "pmid": "22028643",
+      "pmcid": "PMC3197658",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22028643/",
+      "evidenceCard": {
+        "sourceType": "primary computational analysis",
+        "modelOrPopulation": "public breast cancer expression cohorts",
+        "interventionOrMethod": "signatures of random genes compared with 47 published signatures; meta-PCNA proliferation adjustment",
+        "comparatorOrEndpoint": "association with outcome versus random signatures",
+        "limits": "retrospective expression cohorts; breast cancer only"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "EPMC fullTextXML PMC3197658: Results text on Figure 2 and Discussion read in context",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-venet-28of47"
+      ]
+    },
+    {
+      "sourceId": "argelaguet2018",
+      "resolvedTitle": "Multi-Omics Factor Analysis-a framework for unsupervised integration of multi-omics data sets.",
+      "authors": "Argelaguet R, Velten B, Arnol D, Dietrich S, Zenz T, Marioni JC, Buettner F, Huber W, Steg",
+      "year": "2018",
+      "journal": "Molecular Systems Biology",
+      "doi": "10.15252/msb.20178124",
+      "pmid": "29925568",
+      "pmcid": "PMC6010767",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29925568/",
+      "evidenceCard": {
+        "sourceType": "methods paper with application",
+        "modelOrPopulation": "200 CLL samples and single-cell multi-omics",
+        "interventionOrMethod": "Multi-Omics Factor Analysis (unsupervised)",
+        "comparatorOrEndpoint": "factors of variation, imputation, subgroup discovery",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": "PMC HTML returned a 21 KB challenge page; abstract only",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-argelaguet"
+      ]
+    },
+    {
+      "sourceId": "risso2014",
+      "resolvedTitle": "Normalization of RNA-seq data using factor analysis of control genes or samples.",
+      "authors": "Risso D, Ngai J, Speed TP, Dudoit S.",
+      "year": "2014",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/nbt.2931",
+      "pmid": "25150836",
+      "pmcid": "PMC4404308",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25150836/",
+      "evidenceCard": {
+        "sourceType": "methods paper",
+        "modelOrPopulation": "RNA-seq with ERCC spike-ins and replicate libraries",
+        "interventionOrMethod": "remove unwanted variation by factor analysis on control genes or samples",
+        "comparatorOrEndpoint": "fold-change accuracy and differential-expression tests",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": "PMC HTML returned a 21 KB challenge page; abstract only",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-risso"
+      ]
+    },
+    {
+      "sourceId": "mertins2016",
+      "resolvedTitle": "Proteogenomics connects somatic mutations to signalling in breast cancer.",
+      "authors": "Mertins P, Mani DR, Ruggles KV, Gillette MA, Clauser KR, Wang P, Wang X, Qiao JW, Cao S, P",
+      "year": "2016",
+      "journal": "Nature",
+      "doi": "10.1038/nature18003",
+      "pmid": "27251275",
+      "pmcid": "PMC5102256",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27251275/",
+      "evidenceCard": {
+        "sourceType": "primary proteogenomic study",
+        "modelOrPopulation": "105 breast cancers (77 high quality)",
+        "interventionOrMethod": "MS proteomics and phosphoproteomics integrated with genomics",
+        "comparatorOrEndpoint": "pathway and cluster findings versus mRNA",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-mertins2016"
+      ]
+    },
+    {
+      "sourceId": "beausoleil2006",
+      "resolvedTitle": "A probability-based approach for high-throughput protein phosphorylation analysis and site localization.",
+      "authors": "Beausoleil SA, Villén J, Gerber SA, Rush J, Gygi SP.",
+      "year": "2006",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/nbt1240",
+      "pmid": "16964243",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16964243/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "nocodazole-arrested HeLa lysate",
+        "interventionOrMethod": "Ascore localisation and target-decoy error",
+        "comparatorOrEndpoint": "1,761 sites, peptide false-positive rate 1.3%",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-beausoleil"
+      ]
+    },
+    {
+      "sourceId": "elias2007",
+      "resolvedTitle": "Target-decoy search strategy for increased confidence in large-scale protein identifications by mass spectrometry.",
+      "authors": "Elias JE, Gygi SP.",
+      "year": "2007",
+      "journal": "Nature Methods",
+      "doi": "10.1038/nmeth1019",
+      "pmid": "17327847",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17327847/",
+      "evidenceCard": {
+        "sourceType": "methods paper",
+        "modelOrPopulation": "LC-MS/MS searches",
+        "interventionOrMethod": "target-decoy strategy",
+        "comparatorOrEndpoint": "decoy hit frequencies",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-elias"
+      ]
+    },
+    {
+      "sourceId": "merritt2020",
+      "resolvedTitle": "Multiplex digital spatial profiling of proteins and RNA in fixed tissue.",
+      "authors": "Merritt CR, Ong GT, Church SE, Barker K, Danaher P, Geiss G, Hoang M, Jung J, Liang Y, McK",
+      "year": "2020",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/s41587-020-0472-9",
+      "pmid": "32393914",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32393914/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "FFPE lymphoid, colorectal and autoimmune tissue",
+        "interventionOrMethod": "digital spatial profiling with photocleavable tags",
+        "comparatorOrEndpoint": "ROI of 1 to about 5,000 cells; up to 44 proteins; 1,412 genes by sequencing",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-merritt"
+      ]
+    },
+    {
+      "sourceId": "lin2018",
+      "resolvedTitle": "Highly multiplexed immunofluorescence imaging of human tissues and tumors using t-CyCIF and conventional optical microscopes.",
+      "authors": "Lin JR, Izar B, Wang S, Yapp C, Mei S, Shah PM, Santagata S, Sorger PK.",
+      "year": "2018",
+      "journal": "eLife",
+      "doi": "10.7554/elife.31657",
+      "pmid": "29993362",
+      "pmcid": "PMC6075866",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29993362/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "FFPE human tissue and tumours",
+        "interventionOrMethod": "t-CyCIF iterative staining",
+        "comparatorOrEndpoint": "up to 60-plex images; cycle-number effect",
+        "limits": "full text passage read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "EPMC fullTextXML PMC6075866: cycle-number and antibody-order experiment read in context",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-lin2018"
+      ]
+    },
+    {
+      "sourceId": "pmc10130759",
+      "resolvedTitle": "Quantitative immunopeptidomics reveals a tumor stroma-specific target for T cell therapy.",
+      "authors": "Kim GB, Fritsche J, Bunk S, Mahr A, Unverdorben F, Tosh K, Kong H, Maldini CR, Lau C, Sriv",
+      "year": "2022",
+      "journal": "Science Translational Medicine",
+      "doi": "10.1126/scitranslmed.abo6135",
+      "pmid": "36044599",
+      "pmcid": "PMC10130759",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36044599/",
+      "evidenceCard": {
+        "sourceType": "primary translational study",
+        "modelOrPopulation": "about 1,500 tumour and normal tissue samples (snap-frozen for peptide-HLA analysis)",
+        "interventionOrMethod": "population-scale quantitative immunopeptidomics",
+        "comparatorOrEndpoint": "stroma-specific COL6A3 epitope",
+        "limits": "Methods passage read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "PMC HTML PMC10130759: Methods sample-handling paragraph read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-stm2022-frozen"
+      ]
+    },
+    {
+      "sourceId": "riley2024",
+      "resolvedTitle": "Evaluation of clinical prediction models (part 2): how to undertake an external validation study.",
+      "authors": "Riley RD, Archer L, Snell KIE, Ensor J, Dhiman P, Martin GP, Bonnett LJ, Collins GS.",
+      "year": "2024",
+      "journal": "BMJ",
+      "doi": "10.1136/bmj-2023-074820",
+      "pmid": "38224968",
+      "pmcid": "PMC10788734",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38224968/",
+      "evidenceCard": {
+        "sourceType": "methodological guidance (BMJ series)",
+        "modelOrPopulation": "clinical prediction models",
+        "interventionOrMethod": "steps for external validation",
+        "comparatorOrEndpoint": "n/a",
+        "limits": "guidance; passages read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "PMC HTML PMC10788734: summary points read | round 8: PMC HTML: summary points and reproducibility paragraph read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false,
+        "abstractNote": "Europe PMC holds no abstract text for this BMJ article; the summary points or glossary were read in the PMC HTML instead"
+      },
+      "adoptedClaimIds": [
+        "C-riley-ext-val",
+        "C-riley-performance",
+        "C-riley-repro"
+      ]
+    },
+    {
+      "sourceId": "tripodai2024",
+      "resolvedTitle": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods.",
+      "authors": "Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reit",
+      "year": "2024",
+      "journal": "BMJ",
+      "doi": "10.1136/bmj-2023-078378",
+      "pmid": "38626948",
+      "pmcid": "PMC11019967",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38626948/",
+      "evidenceCard": {
+        "sourceType": "reporting guideline",
+        "modelOrPopulation": "prediction-model studies",
+        "interventionOrMethod": "consensus checklist and glossary",
+        "comparatorOrEndpoint": "n/a",
+        "limits": "guidance, not evidence of quality"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "PMC HTML PMC11019967: glossary entry for evaluation data read | round 8: PMC HTML: glossary and items 3b and 8a read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false,
+        "abstractNote": "Europe PMC holds no abstract text for this BMJ article; the summary points or glossary were read in the PMC HTML instead"
+      },
+      "adoptedClaimIds": [
+        "C-tripod-8a",
+        "C-tripod-eval-data"
+      ]
+    },
+    {
+      "sourceId": "kedzierska2025",
+      "resolvedTitle": "Zero-shot evaluation reveals limitations of single-cell foundation models.",
+      "authors": "Kedzierska KZ, Crawford L, Amini AP, Lu AX.",
+      "year": "2025",
+      "journal": "Genome Biology",
+      "doi": "10.1186/s13059-025-03574-x",
+      "pmid": "40251685",
+      "pmcid": "PMC12007350",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40251685/",
+      "evidenceCard": {
+        "sourceType": "primary evaluation",
+        "modelOrPopulation": "public single-cell datasets",
+        "interventionOrMethod": "zero-shot evaluation of Geneformer and scGPT",
+        "comparatorOrEndpoint": "simpler baselines; overlap with pretraining sets",
+        "limits": "selected models and datasets; full text passages read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "EPMC fullTextXML PMC12007350: overlap paragraph, Methods dataset note and Conclusions read in context",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-kedzierska"
+      ]
+    },
+    {
+      "sourceId": "ahlmann2025",
+      "resolvedTitle": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines.",
+      "authors": "Ahlmann-Eltze C, Huber W, Anders S.",
+      "year": "2025",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-025-02772-6",
+      "pmid": "40759747",
+      "pmcid": "PMC12328236",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40759747/",
+      "evidenceCard": {
+        "sourceType": "primary benchmark (Brief Communication)",
+        "modelOrPopulation": "CRISPR perturbation datasets (double: 124; K562 and RPE1 single)",
+        "interventionOrMethod": "5 foundation models and 2 other deep models versus no-change, additive and linear baselines",
+        "comparatorOrEndpoint": "L2 distance on 1,000 most expressed genes; Pearson delta",
+        "limits": "selected datasets and model versions; passages read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "round 8: full text XML: held-out partition design, baselines and prediction-variation passages read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-ahlmann",
+        "C-ahlmann-splits",
+        "C-ahlmann-var"
+      ]
+    },
+    {
+      "sourceId": "sprung2009",
+      "resolvedTitle": "Equivalence of protein inventories obtained from formalin-fixed paraffin-embedded and frozen tissue in multidimensional liquid chromatography-tandem mass spectrometry shotgun proteomic analysis.",
+      "authors": "Sprung RW, Brock JW, Tanksley JP, Li M, Washington MK, Slebos RJ, Liebler DC.",
+      "year": "2009",
+      "journal": "Molecular &amp; Cellular Proteomics",
+      "doi": "10.1074/mcp.m800518-mcp200",
+      "pmid": "19467989",
+      "pmcid": "PMC2722776",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19467989/",
+      "evidenceCard": {
+        "sourceType": "primary comparison",
+        "modelOrPopulation": "colon adenoma frozen versus FFPE",
+        "interventionOrMethod": "shotgun LC-MS/MS",
+        "comparatorOrEndpoint": "identifications and peptide properties",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": "PMC HTML returned a 21 KB challenge page; abstract only",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-sprung"
+      ]
+    },
+    {
+      "sourceId": "wu2011",
+      "resolvedTitle": "Correct interpretation of comprehensive phosphorylation dynamics requires normalization by protein expression changes.",
+      "authors": "Wu R, Dephoure N, Haas W, Huttlin EL, Zhai B, Sowa ME, Gygi SP.",
+      "year": "2011",
+      "journal": "Molecular &amp; Cellular Proteomics",
+      "doi": "10.1074/mcp.m111.009654",
+      "pmid": "21551504",
+      "pmcid": "PMC3149096",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21551504/",
+      "evidenceCard": {
+        "sourceType": "primary study",
+        "modelOrPopulation": "S. cerevisiae FUS3 and STE7 mutants",
+        "interventionOrMethod": "parallel protein and phosphorylation measurement",
+        "comparatorOrEndpoint": "25% of apparent differential phosphopeptides explained by protein change",
+        "limits": "yeast; abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": "PMC HTML returned a 21 KB challenge page; abstract only",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-wu"
+      ]
+    },
+    {
+      "sourceId": "hoofnagle2016",
+      "resolvedTitle": "Recommendations for the Generation, Quantification, Storage, and Handling of Peptides Used for Mass Spectrometry-Based Assays.",
+      "authors": "Hoofnagle AN, Whiteaker JR, Carr SA, Kuhn E, Liu T, Massoni SA, Thomas SN, Townsend RR, Zi",
+      "year": "2016",
+      "journal": "Clinical Chemistry",
+      "doi": "10.1373/clinchem.2015.250563",
+      "pmid": "26719571",
+      "pmcid": "PMC4830481",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26719571/",
+      "evidenceCard": {
+        "sourceType": "consensus recommendations",
+        "modelOrPopulation": "peptide standards for MS assays",
+        "interventionOrMethod": "recommendations",
+        "comparatorOrEndpoint": "n/a",
+        "limits": "passage read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "PMC HTML PMC4830481: introduction passage on spiked internal standards read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-hoofnagle"
+      ]
+    },
+    {
+      "sourceId": "greenwald2022",
+      "resolvedTitle": "Whole-cell segmentation of tissue images with human-level performance using large-scale data annotation and deep learning.",
+      "authors": "Greenwald NF, Miller G, Moen E, Kong A, Kagel A, Dougherty T, Fullaway CC, McIntosh BJ, Le",
+      "year": "2022",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/s41587-021-01094-0",
+      "pmid": "34795433",
+      "pmcid": "PMC9010346",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34795433/",
+      "evidenceCard": {
+        "sourceType": "primary dataset and model paper",
+        "modelOrPopulation": "TissueNet more than 1 million labelled cells",
+        "interventionOrMethod": "Mesmer deep-learning segmentation",
+        "comparatorOrEndpoint": "F1 and error classes by intersection over union",
+        "limits": "methods passages read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "round 8: PMC HTML: intersection-over-union error classification and bias passages read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-greenwald",
+        "C-greenwald-iou"
+      ]
+    },
+    {
+      "sourceId": "addona2009",
+      "resolvedTitle": "Multi-site assessment of the precision and reproducibility of multiple reaction monitoring-based measurements of proteins in plasma.",
+      "authors": "Addona TA, Abbatiello SE, Schilling B, Skates SJ, Mani DR, Bunk DM, Spiegelman CH, Zimmerm",
+      "year": "2009",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/nbt.1546",
+      "pmid": "19561596",
+      "pmcid": "PMC2855883",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19561596/",
+      "evidenceCard": {
+        "sourceType": "multilaboratory primary study",
+        "modelOrPopulation": "plasma with spiked proteins, CPTAC sites",
+        "interventionOrMethod": "MRM isotope dilution",
+        "comparatorOrEndpoint": "reproducibility, recovery, linear range, LOD, LOQ",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-addona"
+      ]
+    },
+    {
+      "sourceId": "mannsperger2010",
+      "resolvedTitle": "RNAi-based validation of antibodies for reverse phase protein arrays.",
+      "authors": "Mannsperger HA, Uhlmann S, Schmidt C, Wiemann S, Sahin O, Korf U.",
+      "year": "2010",
+      "journal": "Proteome Science",
+      "doi": "10.1186/1477-5956-8-69",
+      "pmid": "21182776",
+      "pmcid": "PMC3022873",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21182776/",
+      "evidenceCard": {
+        "sourceType": "primary validation study",
+        "modelOrPopulation": "cell lines, EGFR and STAT3 knockdown",
+        "interventionOrMethod": "RNAi with RPPA and Western blot",
+        "comparatorOrEndpoint": "antibody knockdown detection",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-mannsperger"
+      ]
+    },
+    {
+      "sourceId": "carr2014",
+      "resolvedTitle": "Targeted peptide measurements in biology and medicine: best practices for mass spectrometry-based assay development using a fit-for-purpose approach.",
+      "authors": "Carr SA, Abbatiello SE, Ackermann BL, Borchers C, Domon B, Deutsch EW, Grant RP, Hoofnagle",
+      "year": "2014",
+      "journal": "Molecular &amp; Cellular Proteomics",
+      "doi": "10.1074/mcp.m113.036095",
+      "pmid": "24443746",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "The lesson cites the same article twice, as PMC3945918 (mass-spectrometry page) and PMID 24443746 (targeted-proteomics page). Europe PMC does not index PMCID PMC3945918; NCBI idconv maps PMC3945918 to PMID 24443746 and DOI 10.1074/mcp.M113.036095.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24443746/",
+      "evidenceCard": {
+        "sourceType": "consensus workshop report",
+        "modelOrPopulation": "targeted MS assays",
+        "interventionOrMethod": "three tiers of assay performance",
+        "comparatorOrEndpoint": "validation criteria",
+        "limits": "passages read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "PMC HTML PMC3945918: validation-criteria and tier passages read | round 8: PMC HTML: transition, surrogate and validation-criteria passages read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-carr",
+        "C-carr-transition"
+      ]
+    },
+    {
+      "sourceId": "mertins2014",
+      "resolvedTitle": "Ischemia in tumors induces early and sustained phosphorylation changes in stress kinase pathways but does not affect global protein levels.",
+      "authors": "Mertins P, Yang F, Liu T, Mani DR, Petyuk VA, Gillette MA, Clauser KR, Qiao JW, Gritsenko ",
+      "year": "2014",
+      "journal": "Molecular &amp; Cellular Proteomics",
+      "doi": "10.1074/mcp.m113.036392",
+      "pmid": "24719451",
+      "pmcid": "PMC4083109",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24719451/",
+      "evidenceCard": {
+        "sourceType": "primary study",
+        "modelOrPopulation": "human ovarian tumour and breast cancer xenograft tissue",
+        "interventionOrMethod": "defined ischaemic intervals, MS phosphoproteomics (Fe3+ IMAC)",
+        "comparatorOrEndpoint": "phosphorylation change in up to 24% of the phosphoproteome",
+        "limits": "abstract plus Methods passage"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "round 8: PMC HTML: Methods enrichment passage read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-mertins2014",
+        "C-mertins2014-imac"
+      ]
+    },
+    {
+      "sourceId": "lukasse2014",
+      "resolvedTitle": "Protein inference using Peptide quantification patterns.",
+      "authors": "Lukasse PN, America AH.",
+      "year": "2014",
+      "journal": "Journal of Proteome Research",
+      "doi": "10.1021/pr401072g",
+      "pmid": "24815921",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24815921/",
+      "evidenceCard": {
+        "sourceType": "methods paper",
+        "modelOrPopulation": "LC-MS/MS datasets",
+        "interventionOrMethod": "protein inference from peptide quantification patterns",
+        "comparatorOrEndpoint": "ambiguous versus unambiguous proteins",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-lukasse"
+      ]
+    },
+    {
+      "sourceId": "chen2015",
+      "resolvedTitle": "RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells.",
+      "authors": "Chen KH, Boettiger AN, Moffitt JR, Wang S, Zhuang X.",
+      "year": "2015",
+      "journal": "Science",
+      "doi": "10.1126/science.aaa6090",
+      "pmid": "25858977",
+      "pmcid": "PMC4662681",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25858977/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "cultured cells",
+        "interventionOrMethod": "MERFISH error-robust encoding",
+        "comparatorOrEndpoint": "100 to 1,000 RNA species in hundreds of cells",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-chen2015"
+      ]
+    },
+    {
+      "sourceId": "stahl2016",
+      "resolvedTitle": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics.",
+      "authors": "Ståhl PL, Salmén F, Vickovic S, Lundmark A, Navarro JF, Magnusson J, Giacomello S, Asp M, ",
+      "year": "2016",
+      "journal": "Science",
+      "doi": "10.1126/science.aaf2403",
+      "pmid": "27365449",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27365449/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "mouse brain and human breast cancer sections",
+        "interventionOrMethod": "positionally barcoded arrays",
+        "comparatorOrEndpoint": "RNA-seq with position",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-stahl"
+      ]
+    },
+    {
+      "sourceId": "li2017",
+      "resolvedTitle": "Standards and Guidelines for the Interpretation and Reporting of Sequence Variants in Cancer: A Joint Consensus Recommendation of the Association for Molecular Pathology, American Society of Clinical Oncology, and College of American Pathologists.",
+      "authors": "Li MM, Datto M, Duncavage EJ, Kulkarni S, Lindeman NI, Roy S, Tsimberidou AM, Vnencak-Jone",
+      "year": "2017",
+      "journal": "The Journal of Molecular Diagnostics",
+      "doi": "10.1016/j.jmoldx.2016.10.002",
+      "pmid": "27993330",
+      "pmcid": "PMC5707196",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "Historical guidance; the lesson says so. Applied text states it as the 2017 guideline.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27993330/",
+      "evidenceCard": {
+        "sourceType": "consensus guideline (AMP, ASCO, CAP)",
+        "modelOrPopulation": "somatic variants in cancer testing",
+        "interventionOrMethod": "tiered classification and reporting",
+        "comparatorOrEndpoint": "n/a",
+        "limits": "dated 2017; PMC HTML passage read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "PMC HTML PMC5707196: In Silico (Computational) Prediction Algorithms section read in context",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-li2017"
+      ]
+    },
+    {
+      "sourceId": "chong2018",
+      "resolvedTitle": "High-throughput and Sensitive Immunopeptidomics Platform Reveals Profound Interferonγ-Mediated Remodeling of the Human Leukocyte Antigen (HLA) Ligandome.",
+      "authors": "Chong C, Marino F, Pak H, Racle J, Daniel RT, Müller M, Gfeller D, Coukos G, Bassani-Stern",
+      "year": "2018",
+      "journal": "Molecular &amp; Cellular Proteomics",
+      "doi": "10.1074/mcp.tir117.000383",
+      "pmid": "29242379",
+      "pmcid": "PMC5836376",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29242379/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "7 tissues and 21 cell-line sets",
+        "interventionOrMethod": "plate-format sequential HLA-I and HLA-II purification",
+        "comparatorOrEndpoint": "depth, reproducibility",
+        "limits": "full text passage read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "round 8: PMC XML: lysate passage read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-chong",
+        "C-chong-lysate"
+      ]
+    },
+    {
+      "sourceId": "chevrier2018",
+      "resolvedTitle": "Compensation of Signal Spillover in Suspension and Imaging Mass Cytometry.",
+      "authors": "Chevrier S, Crowell HL, Zanotelli VRT, Engler S, Robinson MD, Bodenmiller B.",
+      "year": "2018",
+      "journal": "Cell Systems",
+      "doi": "10.1016/j.cels.2018.02.010",
+      "pmid": "29605184",
+      "pmcid": "PMC5981006",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29605184/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "suspension and imaging mass cytometry",
+        "interventionOrMethod": "bead-based spillover compensation",
+        "comparatorOrEndpoint": "reduction of phenotype artefacts",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-chevrier"
+      ]
+    },
+    {
+      "sourceId": "reynisson2020",
+      "resolvedTitle": "NetMHCpan-4.1 and NetMHCIIpan-4.0: improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data.",
+      "authors": "Reynisson B, Alvarez B, Paul S, Peters B, Nielsen M.",
+      "year": "2020",
+      "journal": "Nucleic Acids Research",
+      "doi": "10.1093/nar/gkaa379",
+      "pmid": "32406916",
+      "pmcid": "PMC7319546",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32406916/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper (web server)",
+        "modelOrPopulation": "binding-affinity and eluted-ligand data",
+        "interventionOrMethod": "NetMHCpan-4.1 integration",
+        "comparatorOrEndpoint": "prediction performance",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-reynisson"
+      ]
+    },
+    {
+      "sourceId": "wells2020",
+      "resolvedTitle": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "authors": "Wells DK, van Buuren MM, Dang KK, Hubbard-Lucey VM, Sheehan KCF, Campbell KM, Lamb A, Ward",
+      "year": "2020",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "pmid": "33038342",
+      "pmcid": "PMC7652061",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/",
+      "evidenceCard": {
+        "sourceType": "primary consortium study",
+        "modelOrPopulation": "patient tumour sequencing; 608 then 310 epitopes tested for T-cell binding",
+        "interventionOrMethod": "shared prediction pipelines",
+        "comparatorOrEndpoint": "T-cell binding assay",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-wells"
+      ]
+    },
+    {
+      "sourceId": "radtke2020",
+      "resolvedTitle": "IBEX: A versatile multiplex optical imaging approach for deep phenotyping and spatial analysis of cells in complex tissues.",
+      "authors": "Radtke AJ, Kandov E, Lowekamp B, Speranza E, Chu CJ, Gola A, Thakur N, Shih R, Yao L, Yani",
+      "year": "2020",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.2018488117",
+      "pmid": "33376221",
+      "pmcid": "PMC7776876",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33376221/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "human lymphoid and other tissues",
+        "interventionOrMethod": "IBEX iterative staining and bleaching",
+        "comparatorOrEndpoint": "more than 65 parameters in one section",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-radtke"
+      ]
+    },
+    {
+      "sourceId": "taube2021",
+      "resolvedTitle": "Multi-institutional TSA-amplified Multiplexed Immunofluorescence Reproducibility Evaluation (MITRE) Study.",
+      "authors": "Taube JM, Roman K, Engle EL, Wang C, Ballesteros-Merino C, Jensen SM, McGuire J, Jiang M, ",
+      "year": "2021",
+      "journal": "Journal for ImmunoTherapy of Cancer",
+      "doi": "10.1136/jitc-2020-002197",
+      "pmid": "34266881",
+      "pmcid": "PMC8286792",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34266881/",
+      "evidenceCard": {
+        "sourceType": "multi-institutional reproducibility study",
+        "modelOrPopulation": "tonsil, breast and NSCLC tissue microarrays at six sites",
+        "interventionOrMethod": "six-plex mIF panel with locked image analysis",
+        "comparatorOrEndpoint": "intersite and intrasite concordance R2",
+        "limits": "one panel and workflow; results confirmed in full text"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "EPMC fullTextXML PMC8286792: abstract results confirmed in the full-text",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-taube"
+      ]
+    },
+    {
+      "sourceId": "petukhov2022",
+      "resolvedTitle": "Cell segmentation in imaging-based spatial transcriptomics.",
+      "authors": "Petukhov V, Xu RJ, Soldatov RA, Cadinu P, Khodosevich K, Moffitt JR, Kharchenko PV.",
+      "year": "2022",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/s41587-021-01044-w",
+      "pmid": "34650268",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "Crossref issue year 2021 (online) versus 2022 (issue); the lesson states both.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34650268/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "MERFISH with boundary immunostaining and four other protocols",
+        "interventionOrMethod": "Baysor segmentation from transcripts and morphology",
+        "comparatorOrEndpoint": "cell count and artefacts versus existing tools",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-petukhov"
+      ]
+    },
+    {
+      "sourceId": "biancalani2021",
+      "resolvedTitle": "Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram.",
+      "authors": "Biancalani T, Scalia G, Buffoni L, Avasthi R, Lu Z, Sanger A, Tokcan N, Vanderburg CR, Seg",
+      "year": "2021",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-021-01264-7",
+      "pmid": "34711971",
+      "pmcid": "PMC8566243",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34711971/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "mouse brain, several spatial technologies",
+        "interventionOrMethod": "Tangram alignment of single-cell to spatial data",
+        "comparatorOrEndpoint": "reconstructed spatial map",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": "EPMC fullTextXML requested; not read beyond the abstract",
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-biancalani"
+      ]
+    },
+    {
+      "sourceId": "pejaver2022",
+      "resolvedTitle": "Calibration of computational tools for missense variant pathogenicity classification and ClinGen recommendations for PP3/BP4 criteria.",
+      "authors": "Pejaver V, Byrne AB, Feng BJ, Pagel KA, Mooney SD, Karchin R, O'Donnell-Luria A, Harrison ",
+      "year": "2022",
+      "journal": "The American Journal of Human Genetics",
+      "doi": "10.1016/j.ajhg.2022.10.013",
+      "pmid": "36413997",
+      "pmcid": "PMC9748256",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "The lesson describes this as a germline pathogenicity framework; the paper does not use the word germline or study somatic variants. Applied text says ACMG/AMP evidence strengths.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36413997/",
+      "evidenceCard": {
+        "sourceType": "primary calibration study",
+        "modelOrPopulation": "ClinVar 2019 missense pathogenic or benign variants rare in gnomAD; 13 tools",
+        "interventionOrMethod": "local positive predictive value mapped to PP3/BP4 strengths",
+        "comparatorOrEndpoint": "evidence-strength thresholds",
+        "limits": "monogenic-disease framework; full text read at introduction, methods and circularity passages"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "EPMC fullTextXML PMC9748256: circularity paragraphs read in context; word searches for germline, somatic and cancer (only affiliations) | round 8: PMC XML: introduction, methods (datasets) and circularity passages read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-pejaver",
+        "C-pejaver-overlap",
+        "C-pejaver-scope"
+      ]
+    },
+    {
+      "sourceId": "theodoris2023",
+      "resolvedTitle": "Transfer learning enables predictions in network biology.",
+      "authors": "Theodoris CV, Xiao L, Chopra A, Chaffin MD, Al Sayed ZR, Hill MC, Mantineo H, Brydon EM, Z",
+      "year": "2023",
+      "journal": "Nature",
+      "doi": "10.1038/s41586-023-06139-9",
+      "pmid": "37258680",
+      "pmcid": "PMC10949956",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37258680/",
+      "evidenceCard": {
+        "sourceType": "primary model paper",
+        "modelOrPopulation": "about 30 million single-cell transcriptomes",
+        "interventionOrMethod": "self-supervised pretraining then fine-tuning",
+        "comparatorOrEndpoint": "downstream network-biology tasks",
+        "limits": "abstract level; research use"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-geneformer"
+      ]
+    },
+    {
+      "sourceId": "cui2024",
+      "resolvedTitle": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI.",
+      "authors": "Cui H, Wang C, Maan H, Pang K, Luo F, Duan N, Wang B.",
+      "year": "2024",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-024-02201-0",
+      "pmid": "38409223",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38409223/",
+      "evidenceCard": {
+        "sourceType": "primary model paper",
+        "modelOrPopulation": "over 33 million cells",
+        "interventionOrMethod": "generative pretrained transformer with adaptation",
+        "comparatorOrEndpoint": "cell annotation, integration, perturbation prediction",
+        "limits": "abstract level; research use"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-scgpt"
+      ]
+    },
+    {
+      "sourceId": "giesen2014",
+      "resolvedTitle": "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry.",
+      "authors": "Giesen C, Wang HA, Schapiro D, Zivanovic N, Jacobs A, Hattendorf B, Schüffler PJ, Grolimun",
+      "year": "2014",
+      "journal": "Nature Methods",
+      "doi": "10.1038/nmeth.2869",
+      "pmid": "24584193",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24584193/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "human breast cancer samples",
+        "interventionOrMethod": "imaging mass cytometry (laser ablation with CyTOF)",
+        "comparatorOrEndpoint": "32 proteins at subcellular resolution",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-giesen"
+      ]
+    },
+    {
+      "sourceId": "wilhelm2021",
+      "resolvedTitle": "Deep learning boosts sensitivity of mass spectrometry-based immunopeptidomics.",
+      "authors": "Wilhelm M, Zolg DP, Graber M, Gessulat S, Schmidt T, Schnatbaum K, Schwencke-Westphal C, S",
+      "year": "2021",
+      "journal": "Nature Communications",
+      "doi": "10.1038/s41467-021-23713-9",
+      "pmid": "34099720",
+      "pmcid": "PMC8184761",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34099720/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "more than 300,000 synthetic peptides and published tumour data",
+        "interventionOrMethod": "Prosit deep-learning spectrum prediction",
+        "comparatorOrEndpoint": "identification up to 7-fold better; 87% of proposed spliced peptides may be incorrect",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-wilhelm"
+      ]
+    },
+    {
+      "sourceId": "sarkizova2020",
+      "resolvedTitle": "A large peptidome dataset improves HLA class I epitope prediction across most of the human population.",
+      "authors": "Sarkizova S, Klaeger S, Le PM, Li LW, Oliveira G, Keshishian H, Hartigan CR, Zhang W, Brau",
+      "year": "2020",
+      "journal": "Nature Biotechnology",
+      "doi": "10.1038/s41587-019-0322-9",
+      "pmid": "31844290",
+      "pmcid": "PMC7008090",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31844290/",
+      "evidenceCard": {
+        "sourceType": "primary dataset and model paper",
+        "modelOrPopulation": "95 mono-allelic cell lines, tumour samples",
+        "interventionOrMethod": "MS elution and HLAthena prediction",
+        "comparatorOrEndpoint": "positive predictive value 1.5-fold over existing tools",
+        "limits": "full text methods passage read"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "round 8: PMC XML: lysate immunoprecipitation and allele-assignment passages read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-sarkizova",
+        "C-sarkizova-lysate"
+      ]
+    },
+    {
+      "sourceId": "lotfollahi2019",
+      "resolvedTitle": "scGen predicts single-cell perturbation responses.",
+      "authors": "Lotfollahi M, Wolf FA, Theis FJ.",
+      "year": "2019",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-019-0494-8",
+      "pmid": "31363220",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31363220/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "single-cell perturbation and infection datasets across cell types, studies and species",
+        "interventionOrMethod": "scGen: variational autoencoder with latent arithmetic",
+        "comparatorOrEndpoint": "out-of-sample response prediction",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-scgen"
+      ]
+    },
+    {
+      "sourceId": "stringer2021",
+      "resolvedTitle": "Cellpose: a generalist algorithm for cellular segmentation.",
+      "authors": "Stringer C, Wang T, Michaelos M, Pachitariu M.",
+      "year": "2021",
+      "journal": "Nature Methods",
+      "doi": "10.1038/s41592-020-01018-x",
+      "pmid": "33318659",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33318659/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "more than 70,000 segmented objects",
+        "interventionOrMethod": "Cellpose generalist model",
+        "comparatorOrEndpoint": "segmentation accuracy",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-cellpose"
+      ]
+    },
+    {
+      "sourceId": "purcell2019",
+      "resolvedTitle": "Mass spectrometry-based identification of MHC-bound peptides for immunopeptidomics.",
+      "authors": "Purcell AW, Ramarathinam SH, Ternette N.",
+      "year": "2019",
+      "journal": "Nature Protocols",
+      "doi": "10.1038/s41596-019-0133-y",
+      "pmid": "31092913",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31092913/",
+      "evidenceCard": {
+        "sourceType": "protocol",
+        "modelOrPopulation": "cell lines and tissues",
+        "interventionOrMethod": "immunoaffinity capture, acid elution, HPLC, nUPLC-MS/MS",
+        "comparatorOrEndpoint": "several thousand peptides in 2 to 3 days",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-purcell"
+      ]
+    },
+    {
+      "sourceId": "windhager2023",
+      "resolvedTitle": "An end-to-end workflow for multiplexed image processing and analysis.",
+      "authors": "Windhager J, Zanotelli VRT, Schulz D, Meyer L, Daniel M, Bodenmiller B, Eling N.",
+      "year": "2023",
+      "journal": "Nature Protocols",
+      "doi": "10.1038/s41596-023-00881-0",
+      "pmid": "37816904",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37816904/",
+      "evidenceCard": {
+        "sourceType": "identity only; no claim adopted",
+        "modelOrPopulation": "",
+        "interventionOrMethod": "",
+        "comparatorOrEndpoint": "",
+        "limits": "not adopted"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "sirois2021",
+      "resolvedTitle": "Immunopeptidomics: Isolation of Mouse and Human MHC Class I- and II-Associated Peptides for Mass Spectrometry Analysis.",
+      "authors": "Sirois I, Isabelle M, Duquette JD, Saab F, Caron E.",
+      "year": "2021",
+      "journal": "Journal of Visualized Experiments",
+      "doi": "10.3791/63052",
+      "pmid": "34723952",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "The FFPE-adaptation claim the lesson attributes to this paper could not be checked.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34723952/",
+      "evidenceCard": {
+        "sourceType": "identity only; no claim adopted",
+        "modelOrPopulation": "",
+        "interventionOrMethod": "",
+        "comparatorOrEndpoint": "",
+        "limits": "not adopted"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": "JoVE page returned HTTP 202 with an empty body; abstract only",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "bunne2024",
+      "resolvedTitle": "How to build the virtual cell with artificial intelligence: Priorities and opportunities.",
+      "authors": "Bunne C, Roohani Y, Rosen Y, Gupta A, Zhang X, Roed M, Alexandrov T, AlQuraishi M, Brennan",
+      "year": "2024",
+      "journal": "Cell",
+      "doi": "10.1016/j.cell.2024.11.015",
+      "pmid": "39672099",
+      "pmcid": "PMC12148494",
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "A first Europe PMC title search returned an unrelated article; the page URL carries Cell pii S0092-8674(24)01332-1 and the identity was fixed by DOI 10.1016/j.cell.2024.11.015 (Crossref and Europe PMC PMID 39672099 agree on title).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39672099/",
+      "evidenceCard": {
+        "sourceType": "perspective",
+        "modelOrPopulation": "none (no data)",
+        "interventionOrMethod": "vision for AI virtual cells",
+        "comparatorOrEndpoint": "n/a",
+        "limits": "not evidence of performance"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-bunne"
+      ]
+    },
+    {
+      "sourceId": "paweletz2001",
+      "resolvedTitle": "Reverse phase protein microarrays which capture disease progression show activation of pro-survival pathways at the cancer invasion front.",
+      "authors": "Paweletz CP, Charboneau L, Bichsel VE, Simone NL, Chen T, Gillespie JW, Emmert-Buck MR, Ro",
+      "year": "2001",
+      "journal": "Oncogene",
+      "doi": "10.1038/sj.onc.1204265",
+      "pmid": "11360182",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year read against the page label)",
+      "identityNote": "A first Europe PMC title search returned an unrelated meeting abstract; resolved by DOI 10.1038/sj.onc.1204265 (PMID 11360182). The lesson links the NCI-hosted PDF, not the DOI.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11360182/",
+      "evidenceCard": {
+        "sourceType": "primary methods paper",
+        "modelOrPopulation": "prostate tissue by laser-capture microdissection",
+        "interventionOrMethod": "reverse phase protein microarray",
+        "comparatorOrEndpoint": "sensitivity, precision, linearity; Akt and ERK phosphorylation",
+        "limits": "abstract plus PDF passages"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": "round 8: NCI PDF text (pdftotext): dilution-curve and loading passages read",
+        "fullTextRetrievedNotRead": null,
+        "fullTextAccessNote": "NCI-hosted PDF retrieved (590 KB); read only through the Europe PMC abstract",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-paweletz"
+      ]
+    },
+    {
+      "sourceId": "escat2018",
+      "resolvedTitle": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+      "authors": "Mateo J, Chakravarty D, Dienstmann R, Jezdic S, Gonzalez-Perez A, Lopez-Bigas N, Ng CKY, Bedard PL, Tortora G, Douillard JY, Van Allen EM, Schultz N, Swanton C, André F, Pusztai L.",
+      "year": "2018",
+      "journal": "Annals of Oncology",
+      "doi": "10.1093/annonc/mdy263",
+      "pmid": "30137196",
+      "pmcid": "PMC6158764",
+      "identityJudgement": "match (title, authors and year compared; added as an accessible alternative, not cited by a lesson)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30137196/",
+      "evidenceCard": {
+        "sourceType": "consensus framework (ESMO)",
+        "modelOrPopulation": "molecular targets in cancer",
+        "interventionOrMethod": "expert evidence grading",
+        "comparatorOrEndpoint": "six clinical-evidence levels",
+        "limits": "abstract level; superseded by version 2"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "escat2026v2",
+      "resolvedTitle": "The ESMO Scale for Clinical Actionability of Molecular Targets, version 2 (ESCAT v2): an evidence-based framework for ranking alterations as actionability and resistance biomarkers in precision oncology.",
+      "authors": "El Helali A, Cardone C, Coleman N, Beal JR, Cruz-Ordinario MV, Kocakavuk E, Chiu MK, Thomas D, Turnbull C, Meric-Bernstam F, Mosele MF, Chakravarty D, Dienstmann R, Tamborero D, Russnes HEG, Kordes M, Fung Loong HH, Stenzinger A, Rueter J, Martins-Branco D, Pentheroudakis G, Mateo J, Westphalen CB.",
+      "year": "2026",
+      "journal": "Annals of Oncology",
+      "doi": "10.1016/j.annonc.2026.09.008",
+      "pmid": "42906778",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year compared; added as an accessible alternative, not cited by a lesson)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42906778/",
+      "evidenceCard": {
+        "sourceType": "consensus framework (ESMO) update",
+        "modelOrPopulation": "molecular targets in cancer",
+        "interventionOrMethod": "expert panel revision",
+        "comparatorOrEndpoint": "tiers plus resistance scale",
+        "limits": "abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "aebersold2003",
+      "resolvedTitle": "Mass spectrometry-based proteomics.",
+      "authors": "Aebersold R, Mann M.",
+      "year": "2003",
+      "journal": "Nature",
+      "doi": "10.1038/nature01511",
+      "pmid": "12634793",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year compared; added as an accessible alternative, not cited by a lesson)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12634793/",
+      "evidenceCard": {
+        "sourceType": "review",
+        "modelOrPopulation": "MS-based proteomics",
+        "interventionOrMethod": "n/a",
+        "comparatorOrEndpoint": "n/a",
+        "limits": "review, abstract level"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": true,
+        "passagesOfFullTextRead": null,
+        "fullTextAccessNote": null,
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "chengprusoff1973",
+      "resolvedTitle": "Relationship between the inhibition constant (K1) and the concentration of inhibitor which causes 50 per cent inhibition (I50) of an enzymatic reaction.",
+      "authors": "Cheng Y, Prusoff WH.",
+      "year": "1973",
+      "journal": "Biochemical Pharmacology",
+      "doi": "10.1016/0006-2952(73)90196-2",
+      "pmid": "4202581",
+      "pmcid": null,
+      "identityJudgement": "match (title, authors and year compared; added as an accessible alternative, not cited by a lesson)",
+      "identityNote": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/4202581/",
+      "evidenceCard": {
+        "sourceType": "primary biochemical paper",
+        "modelOrPopulation": "enzyme kinetics",
+        "interventionOrMethod": "n/a",
+        "comparatorOrEndpoint": "n/a",
+        "limits": "title level only"
+      },
+      "readingDepth": {
+        "identityResolved": true,
+        "abstractRead": false,
+        "passagesOfFullTextRead": null,
+        "fullTextAccessNote": "Europe PMC holds no abstract for this 1973 article; title only",
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "cer2009",
+      "resolvedTitle": "IC50-to-Ki: a web-based tool for converting IC50 to Ki values for inhibitors of enzyme activity and ligand binding.",
+      "authors": "Cer RZ, Mudunuri U, Stephens R, Lebeda FJ.",
+      "year": "2009",
+      "doi": "10.1093/nar/gkp253",
+      "pmid": "19395593",
+      "pmcid": "PMC2703898",
+      "url": "https://doi.org/10.1093/nar/gkp253",
+      "identityJudgement": "Raw Europe PMC and Crossref metadata agree on title, first author, DOI and year",
+      "evidenceCard": {
+        "sourceType": "primary methods paper (web server)",
+        "modelOrPopulation": "Biochemical enzyme inhibition and macromolecule-ligand interaction schemes",
+        "limits": "Does not validate an HLA prediction model or a tumour-growth endpoint; no conversion is implemented."
+      },
+      "readingDepth": {
+        "abstractRead": true,
+        "sectionsRead": [
+          "Introduction",
+          "Methods",
+          "Usage"
+        ],
+        "fullPaperReadInEntirety": false
+      },
+      "adoptedClaimIds": [
+        "C-cer-ic50-assumptions"
+      ]
+    },
+    {
+      "sourceId": "pmid36870295",
+      "resolvedTitle": "Targeted Quantitative Mass Spectrometry Analysis of Protein Biomarkers From Previously Stained Single Formalin-Fixed Paraffin-Embedded Tissue Sections.",
+      "authors": "Ackermann BL, Morrison RD, Hill S, Westfall MD, Butts BD, Soper MD, Fill JA, Schade AE, Liebler DC, Gruver AM.",
+      "year": "2023",
+      "doi": "10.1016/j.labinv.2022.100052",
+      "pmid": "36870295",
+      "pmcid": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36870295/",
+      "identityJudgement": "Europe PMC and Crossref agree on title, first author, DOI and publication year",
+      "readingDepth": "Raw abstract read in full; no full text read",
+      "disposition": "Abstract-only relevance screen: targeted protein quantification after tryptic digestion of previously stained FFPE NSCLC sections; not evidence of recovering naturally HLA-bound ligands from FFPE.",
+      "evidenceCard": {
+        "sourceType": "primary methods or analytical study",
+        "limits": "Abstract-only relevance screen. No new empirical or numerical claim adopted in a canonical owner."
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "pmc8260184",
+      "resolvedTitle": "Quantification of Human Epidermal Growth Factor Receptor 2 by Immunopeptide Enrichment and Targeted Mass Spectrometry in Formalin-Fixed Paraffin-Embedded and Frozen Breast Cancer Tissues.",
+      "authors": "Kennedy JJ, Whiteaker JR, Kennedy LC, Bosch DE, Lerch ML, Schoenherr RM, Zhao L, Lin C, Chowdhury S, Kilgore MR, Allison KH, Wang P, Hoofnagle AN, Baird GS, Paulovich AG.",
+      "year": "2021",
+      "doi": "10.1093/clinchem/hvab047",
+      "pmid": "34136904",
+      "pmcid": "PMC8260184",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34136904/",
+      "identityJudgement": "Europe PMC and Crossref agree on title, first author, DOI and publication year",
+      "readingDepth": "Raw abstract read in full; no full text read",
+      "disposition": "Abstract-only relevance screen: HER2 protein quantification by immuno-MRM in frozen and FFPE breast tissue. Immunopeptide enrichment in this protein assay is not evidence that naturally presented HLA-bound ligands were recovered from FFPE.",
+      "evidenceCard": {
+        "sourceType": "primary methods or analytical study",
+        "limits": "Abstract-only relevance screen. No new empirical or numerical claim adopted in a canonical owner."
+      },
+      "adoptedClaimIds": []
+    },
+    {
+      "sourceId": "pmc11395153",
+      "resolvedTitle": "Crucial Parameters for Immunopeptidome Characterization: A Systematic Evaluation.",
+      "authors": "Juanes-Velasco P, Arias-Hidalgo C, García-Vaquero ML, Sotolongo-Ravelo J, Paíno T, Lécrevisse Q, Landeira-Viñuela A, Góngora R, Hernández ÁP, Fuentes M.",
+      "year": "2024",
+      "doi": "10.3390/ijms25179564",
+      "pmid": "39273511",
+      "pmcid": "PMC11395153",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39273511/",
+      "identityJudgement": "Europe PMC and Crossref agree on title, first author, DOI and publication year",
+      "readingDepth": "Raw abstract read in full; no full text read",
+      "disposition": "Abstract-only relevance screen: systematic extraction, HLA isolation and peptide-recovery evaluation across tumour cell lines. The abstract does not establish an FFPE adaptation.",
+      "evidenceCard": {
+        "sourceType": "primary methods or analytical study",
+        "limits": "Abstract-only relevance screen. No new empirical or numerical claim adopted in a canonical owner."
+      },
+      "adoptedClaimIds": []
+    }
+  ],
+  "officialAndDocumentationSources": [
+    {
+      "name": "Ensembl: calculated variant consequences, release 116 (June 2026 archive)",
+      "url": "https://jun2026.archive.ensembl.org/info/genome/variation/prediction/predicted_data.html",
+      "status": "read (archive URL, HTTP 200). The live www.ensembl.org URL returned HTTP 504 repeatedly in this stage, and the round-3 capture of it was overwritten by a failed background fetch; the archive capture replaces it",
+      "finding": "allele-by-transcript consequences and qualitative impact categories verified",
+      "sourceRole": "official documentation, dated release"
+    },
+    {
+      "name": "MedlinePlus Genetics, judging a valid and useful test",
+      "url": "https://medlineplus.gov/genetics/understanding/testing/validtest/",
+      "status": "read",
+      "finding": "definitions verified; its clinical utility definition (\"helpful information\") is weaker than the lesson wording",
+      "sourceRole": "official patient-education text (textbook-level definition)"
+    },
+    {
+      "name": "FDA 2024 ctDNA guidance",
+      "url": "https://www.fda.gov/media/183874/download",
+      "status": "PDF text extracted and searched (30 KB of text); analytical validation and clinical validity or utility passages read",
+      "finding": "see claims C-fda-ctdna and C-fda-analytical",
+      "sourceRole": "dated official guidance"
+    },
+    {
+      "name": "FDA guidance reproducing ICH Q2(R2) glossary",
+      "url": "https://www.fda.gov/media/161201/download",
+      "status": "PDF text extracted (80 KB); glossary entries for detection limit, quantitation limit, accuracy and precision read",
+      "finding": "see claim C-ich",
+      "sourceRole": "dated official guidance"
+    },
+    {
+      "name": "NetMHCpan-4.1 server documentation",
+      "url": "https://services.healthtech.dtu.dk/services/NetMHCpan-4.1/",
+      "status": "read",
+      "finding": "percentile rank definition, configurable thresholds, training data size",
+      "sourceRole": "tool documentation (developer)"
+    },
+    {
+      "name": "NCI biomarker testing page",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment",
+      "status": "read; the lesson claim is not stated there",
+      "finding": "not adopted; ESCAT used instead",
+      "sourceRole": "official patient-education text"
+    },
+    {
+      "name": "NCI Dictionary of Cancer Terms: kinase and phosphatase",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/kinase",
+      "status": "ACCESS LIMIT: retrieved HTML is a client-rendered shell without the definition text (identical 29 KB for both URLs)",
+      "finding": "no claim adopted from it; the kinase and phosphatase statement is credited to the existing phosphorylation record instead",
+      "sourceRole": "official dictionary"
+    },
+    {
+      "name": "FDA-NIH BEST glossary NBK402284",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK402284/",
+      "status": "ACCESS FAILURE: reCAPTCHA interstitial returned again (21 KB); not bypassed",
+      "finding": "withheld",
+      "sourceRole": "official glossary"
+    },
+    {
+      "name": "NCBI Assay Guidance Manual (IC50 and Ki)",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK91994/",
+      "status": "ACCESS FAILURE: challenge page (21 KB); not bypassed",
+      "finding": "IC50 versus inhibition constant therefore graded as inference with a title-only Cheng and Prusoff citation",
+      "sourceRole": "official manual"
+    },
+    {
+      "name": "10x Genomics Xenium segmentation documentation and Explorer data-quality tutorial",
+      "url": "https://www.10xgenomics.com/support/software/xenium-onboard-analysis/latest/algorithms-overview/segmentation",
+      "status": "ACCESS FAILURE: HTTP 429 on retry; not read",
+      "finding": "not adopted",
+      "sourceRole": "vendor documentation"
+    },
+    {
+      "name": "JoVE Sirois 2021 protocol page",
+      "url": "https://www.jove.com/t/63052/immunopeptidomics-isolation-mouse-human-mhc-class-i-ii-associated",
+      "status": "ACCESS FAILURE: HTTP 202, empty body",
+      "finding": "FFPE-adaptation claim withheld",
+      "sourceRole": "protocol article"
+    }
+  ],
+  "workerAccessFailuresAndWithheldClaims": [
+    {
+      "id": "C-nci-biomarker",
+      "claim": "Lesson claim: sampling limits and why a molecular match does not ensure treatment benefit.",
+      "verdict": "not adopted: cited page does not state it; replaced by ESCAT (C-escat)"
+    },
+    {
+      "id": "W-sirois-ffpe",
+      "claim": "A published immunopeptidomics protocol proposed an FFPE adaptation.",
+      "verdict": "withheld: publisher page returned HTTP 202 with no body; no alternative primary source found that states it; no search was widened beyond one Europe PMC and one Crossref query"
+    },
+    {
+      "id": "W-best-glossary",
+      "claim": "FDA-NIH BEST definitions of prognostic and predictive biomarkers.",
+      "verdict": "withheld: NCBI Bookshelf returned a reCAPTCHA interstitial again; challenge not bypassed"
+    }
+  ],
+  "coordinatorAccessChecks": [
+    {
+      "source": "Sirois 2021 publisher page",
+      "httpStatus": 202,
+      "bodyBytes": 0,
+      "claim": "FFPE adaptation not adopted"
+    },
+    {
+      "source": "Cer 2009",
+      "identity": "Europe PMC and Crossref agree",
+      "rawScientificText": "Introduction, Methods and Usage read",
+      "claim": "Assay conditions and conversion assumptions support the endpoint distinction"
+    }
+  ],
+  "sourceRoleRule": "Reviews, consensus frameworks, reporting guidance, primary studies and identity-only records retain separate roles. No whole-paper reading is claimed."
+}

@@ -1,0 +1,8 @@
+{
+  "AAVCapacity": "Replaced a secondary 3.3-kb figure with the original inverted-repeat experiment and the source-scoped loss-of-half-coding-capacity trade-off. Retained named AAV2 and Wu measurements. No universal packaging ceiling inferred.",
+  "AAVCancerScope": "Corrected the blanket claim that none of the cited studies concerns cancer; Eyquem includes a mouse leukaemia experiment, while no human cancer benefit is established here.",
+  "IonisableLipids": "Replaced absolute neutral-at-physiological-pH wording with lipid/environment-dependent charge.",
+  "IVTAbsorbance": "Resolved the retained measurement gap using the actual NEB protocol PDF extraction, explicitly vendor guidance.",
+  "IVTReleaseNumber": "Removed an unsourced universal residual-DNA numerical implication; the review is not a product-specific regulatory release specification.",
+  "FoundationalAndAssayDistinctions": "Added explicit definitions and inference boundaries where an existing requirement was not fully taught by the earlier authored passage."
+}

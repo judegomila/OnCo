@@ -1,0 +1,155 @@
+[
+  {
+    "file": "imtad-identity.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37596658+AND+SRC%3AMED&format=json&resultType=core",
+    "sha256": "db133afc52668c85cde5d67d4bca4c6344c21ee554879cff1977fe99d752af04",
+    "bytes": 8957,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "imtad.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10439625/fullTextXML",
+    "sha256": "0f37f7ff706632df45b844a161ea583cd0744ed5b2fa8ae7bd1a155c10c05f79",
+    "bytes": 92068,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "g148.pdf",
+    "url": "https://www.rcpath.org/static/d255f34c-176a-490d-9b5a7d58ac85f3a6/G148-Dataset-for-histopathological-reporting-of-breast-disease-in-surgical-excision-specimens-of-breast-cancer.pdf",
+    "sha256": "661c6d1df6c987d450093ba1d8c06244590e712ed83efd7b1cd9345548d51ff6",
+    "bytes": 7911011,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "fda-pcr.pdf",
+    "url": "https://www.fda.gov/media/83507/download",
+    "sha256": "9d3c714624718290f7f8c36f69aa6f3121d0a9ba137a579ee5de9f04dd21e563",
+    "bytes": 247030,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "nci-sln.html",
+    "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging/sentinel-node-biopsy-fact-sheet",
+    "sha256": "44b8c3a783281e71aa5370e5892fd0eb3235aa3218dbd140c95349162a91dd67",
+    "bytes": 70471,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "pmid36917758.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36917758+AND+SRC%3AMED&format=json&resultType=core",
+    "sha256": "882c5ad143528ce0bd021cd42f944382d6b97c4dcd62d160008ade41aada2b2f",
+    "bytes": 12658,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "pmid39665585.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39665585+AND+SRC%3AMED&format=json&resultType=core",
+    "sha256": "16882228f3a72c8d7eed3e51b5d7b88e4149a5eff7b10448b276ee847ab59c25",
+    "bytes": 26801,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "loris-query.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3ALORIS&format=json&resultType=core&pageSize=8",
+    "sha256": "26f6159f638e214defef59a5fca79fc57907ca29f88c8e8c5cdaaf0a997d0f00",
+    "bytes": 41674,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "loris-breast.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3ALORIS+AND+%28DCIS+OR+breast%29&format=json&resultType=core&pageSize=5",
+    "sha256": "38e77df90b5b1722fc3efbf5a2c404dd764bfa11c8242a34fd7b92c738cd94fb",
+    "bytes": 44790,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "comet-bioc.json",
+    "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11920841/unicode",
+    "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+    "bytes": 6140,
+    "identityMatch": true,
+    "acceptedAsSourceContent": false,
+    "limit": "Returned non-JSON error text, not readable scientific content."
+  },
+  {
+    "file": "nci-pdq.html",
+    "url": "https://www.cancer.gov/types/breast/hp/breast-treatment-pdq",
+    "sha256": "07833b9f6d4edcc27970bdcb8e4058e247da06293635991f373826ec82cb8247",
+    "bytes": 810189,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "nci-male.html",
+    "url": "https://www.cancer.gov/types/breast/male-breast-cancer",
+    "sha256": "d4cb0336e8f69a6f2c89070f8f181acc28fa8fcda0a09bef9e5ed06a88171a00",
+    "bytes": 56526,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "nci-density.html",
+    "url": "https://www.cancer.gov/types/breast/screening/dense-breasts",
+    "sha256": "924a1c9e24ebb79afe906c5ae0352dcbda50ed2ddf9e929ed92e16db34c37b46",
+    "bytes": 62111,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "seer-ilc.html",
+    "url": "https://seer.cancer.gov/statfacts/html/ilc.html",
+    "sha256": "66e94b7fc83b27a6eea0fc1b31cee3c3f0ceeaa2c5685bdaf0577ed3c4070db2",
+    "bytes": 69889,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "atnec.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies/NCT04109079",
+    "sha256": "dd0d9226a95a9ee1be6cc4b06f32aa6f5d3ed9a9ac6b2139445db4f63a5b2263",
+    "bytes": 40877,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "b51-identity.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2FNEJMoa2414859&format=json&resultType=core",
+    "sha256": "0fa7b6243950823d2096494b09978d7931e88249b299567111536775ff2f6e1e",
+    "bytes": 18573,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  },
+  {
+    "file": "dcis-surveillance-trials.json",
+    "url": "https://clinicaltrials.gov/api/v2/studies?query.term=%28LORIS+OR+LORD%29+AND+ductal+carcinoma+in+situ&pageSize=10&format=json",
+    "sha256": "673180250edd2bc558029b613ef5908eac3c96730ffabcea9829d5fd3d0bb64b",
+    "bytes": 22155,
+    "identityMatch": true,
+    "acceptedAsSourceContent": true,
+    "limit": "HTTP/content hash alone is not scientific claim verification; use recorded reading scope."
+  }
+]

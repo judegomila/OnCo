@@ -1,0 +1,2079 @@
+{
+  "dataCommit": "de53831915247c76e4fe4bb384393bacc8f40265",
+  "changedExistingOwners": [
+    {
+      "id": "mri",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging"
+            },
+            {
+              "label": "ACR/RSNA: breast MRI",
+              "url": "https://www.radiologyinfo.org/en/info/breastmr"
+            },
+            {
+              "label": "Ray et al., 2018: background parenchymal enhancement",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29072981/"
+            },
+            {
+              "label": "UCLA: non-mass enhancement",
+              "url": "https://www.uclahealth.org/departments/radiology/education/breast-imaging-teaching-resources/birads/breast-mri-findings-non-mass-enhancement-nme"
+            },
+            {
+              "label": "Li et al., 2016: enhancement thresholds and FTV",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28066808/"
+            },
+            {
+              "label": "Hylton et al., 2016: ACRIN 6657/I-SPY 1 FTV and recurrence-free survival",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26624971/"
+            }
+          ],
+          "beforeSha256": "5254c72f0ea4a2085d16ee0b39bccdfe8fff466cea88aa1f159da1c5be9fed4a",
+          "afterSha256": "db1488853d8844fec1f93e14a2108a644f886f7d20d2ed4922e285e5249970f6"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "Think of a contrast marker passing through a landscape. A brighter region records how that examination sees the marker and tissue, not a label attached to every cancer cell. Background parenchymal enhancement (BPE) is enhancement of normal fibroglandular breast tissue, described as minimal, mild, moderate or marked. It is separate from the amount of fibroglandular tissue and from mammographic density. Non-mass enhancement (NME) describes enhancement without a mass or focus, distinguishable from the background; benign, high-risk and malignant processes can overlap in that appearance. Neither a bright area nor an NME label supplies histology.",
+            "Functional tumour volume (FTV) in research is a calculated volume of voxels inside a selected region that meet specified enhancement and processing rules. Changing thresholds, postcontrast time, region, software or registration can change which voxels qualify. Li and colleagues studied enhancement thresholds and recurrence-free survival in a particular breast cohort. DCE names an acquisition, BPE describes background, NME describes morphology, and FTV names a calculation. They are not four estimates of one quantity, and the word functional does not turn the calculated volume into an amount of viable tumour.",
+            "A fictional report gives a 60 mm NME span and an FTV of 0.6 mL. Both can be correct: one is a length across an enhancement pattern, the other a three-dimensional selected-voxel volume. A symbolic grid of qualifying and nonqualifying squares supplies no voxel dimensions or complete segmentation with which to recalculate 0.6 mL. Ask for the region, thresholds, acquisition time and software before comparing calculations. Neither number establishes invasive extent, viable-cell number or tissue pCR, and neither needs to be declared wrong because the units differ.",
+            "In ACRIN 6657/I-SPY 1, Hylton and colleagues analysed MRI-derived FTV and recurrence-free survival in 162 women with tumours at least 3 cm receiving neoadjuvant chemotherapy. The reported association concerns that cohort and calculation. It is neither a personal recurrence calculator nor a randomised demonstration that changing treatment in response to FTV improves outcomes.",
+            "The measurement starts with the prescribed body region and imaging protocol, without removing a tissue specimen. Record the breast and finding, morphology and enhancement, dates and comparison scan, and whether a reported number is length in mm or cm or volume in cubic centimetres or mL. Motion or misregistration can alter a calculation. An FTV of zero means no volume met that calculation's qualifying rule; it does not establish zero microscopic disease. A negative regional examination cannot exclude disease throughout the body. Tissue and imaging answer different questions, each within its sampling limits."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "761730b5b715b1fd906a78bfa8838dd8f8c2951930ee1feb952566310e0c5e4b"
+        },
+        "principle": {
+          "before": "Proton spin alignment in a strong magnetic field; radiofrequency excitation and relaxation times (T1, T2) encode tissue properties. Gadolinium contrast shows perfusion.",
+          "after": "Magnetic fields and radiofrequency pulses produce tissue-dependent signals; specified sequences and contrast timing determine the image contrast.",
+          "beforeSha256": "588ce4d3583c7efb6258d07aeeeeea6c13ca3eec49a8c99016339c767d02a3db",
+          "afterSha256": "148ab3739251dc5fdafb9fea55d80cc9ec70dce288d592b2e6fb79c013f37af7"
+        },
+        "strengths": {
+          "before": [
+            "No ionising radiation",
+            "Best soft-tissue and brain imaging",
+            "Functional sequences (diffusion, perfusion)"
+          ],
+          "after": [
+            "No ionising X-rays",
+            "Regional soft-tissue morphology and contrast patterns",
+            "Repeated acquisition can describe contrast time courses"
+          ],
+          "beforeSha256": "e8033830008f2a6d3e790213e7b5600185535b8e287784c2ba3a6c4522ff1328",
+          "afterSha256": "120f3afe0a4c0f073d1124b8bfcad33f018d7511cadfbe85a66881180b3b473b"
+        },
+        "summary": {
+          "before": "Superior soft-tissue contrast makes MRI the standard for brain tumours, prostate (multiparametric MRI with PI-RADS), rectal cancer staging, liver lesions, breast screening in high-risk women, and bone marrow. Diffusion-weighted imaging adds cellularity information. Whole-body MRI is used in myeloma and for radiation-free surveillance.",
+          "after": "Magnetic resonance imaging (MRI) records tissue-dependent signals using a magnetic field and radiofrequency pulses. In contrast-enhanced breast MRI, intravenous gadolinium changes those signals. Dynamic contrast-enhanced imaging (DCE) acquires images before and at specified times after contrast. Enhancement depends on delivery, vascular and tissue distribution, and acquisition; its shape, distribution and time course help interpretation. Benign tissue can enhance too.\n\nMRI can describe regional extent and changes during treatment. A change in contrast signal does not establish pathological complete response (pCR), which concerns examined tissue. Residual disease can be inconspicuous, while nonmalignant tissue and treatment changes can enhance. Image-derived lengths and volumes need their own acquisition and calculation definitions.",
+          "beforeSha256": "3d2c28a4167ed63ce1d4f4c5aaef634d45694332e0f0cfbe04096665d4da3e67",
+          "afterSha256": "34d6f2d5f5b4a5ef41cfefc0b47498c2a6423e1b71da43094f26593bdfcec00c"
+        },
+        "tldr": {
+          "before": "MRI uses a strong magnet and radio waves, with no ionising radiation, to picture soft tissue in finer contrast than CT, so it is the standard scan for brain tumours, prostate, rectal cancer staging, liver lesions and breast screening in high-risk women. It is slow, expensive and blurred by movement.",
+          "after": "Magnetic resonance imaging uses a magnetic field and radio waves for tissue images, including selected high-risk breast screening. Enhancement and volume do not directly count living cancer cells.",
+          "beforeSha256": "55f15b2cbc701493b7d658ba5794298a49a4cd15a82414c61696b82c580de175",
+          "afterSha256": "033e33a0b45206e8ce44879a61dd5e6b403ef81840a3063600b55092c5502012"
+        }
+      }
+    },
+    {
+      "id": "ultrasound",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Medical_ultrasound"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Medical_ultrasound"
+            },
+            {
+              "label": "ACR/RSNA: breast ultrasound",
+              "url": "https://www.radiologyinfo.org/en/info/breastus"
+            },
+            {
+              "label": "NIBIB: diagnostic, Doppler and therapeutic ultrasound",
+              "url": "https://www.nibib.nih.gov/science-education/science-topics/ultrasound"
+            }
+          ],
+          "beforeSha256": "a1787ce19b722f2aa59771eddd7ce565e8e5dbeb8b8245f7016d66f9bab98fce",
+          "afterSha256": "ac27d31c6c7f45ec908c3a3b6345b0f8f031405e0042736f996163bc4d886e1b"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "The room-echo analogy explains the observation: a beam travels into tissue and returns from boundaries. Under a common assumed sound speed, a later return is placed deeper than an earlier one. That relationship does not identify cell type. A selected image plane is neither a histological section nor a survey of the whole body. Grayscale images primarily describe echo patterns; Doppler uses frequency changes from movement to describe blood-flow direction or speed. Its displayed colours depend on the mode and settings, rather than staining malignant cells. Flow is not itself proof of malignant activity.",
+            "Not every cancer, calcification or MRI finding has an ultrasound counterpart. DCIS can appear as mammographic calcifications without a visible ultrasound mass. A missing correlate is not proof that the other finding is absent or benign. After treatment, a residual ultrasound finding can include tumour, treatment change or both. Diameter is a dimension of that finding, not a viable-cell count or a test for all-body eradication. Imaging and tissue results should be reconciled with the limits of both observations.",
+            "Keep the examined region, side and location, depth, recorded axes, dimensions in mm or cm, examination date and comparison date. No tissue is removed by the imaging examination itself. Probe angle, compression, settings, boundary choice and imaging plane can affect a measured diameter; using the same machine name does not establish comparable measurements. A small difference between scans can include measurement variation. Neither darkness nor a smaller diameter establishes histology, molecular subtype or a pathological response.",
+            "In a fictional course, the longest reported dimension is 18 mm on one dated examination and 15 mm on another. The printed length difference is 3 mm, or one-sixth of 18 mm. It is not a measured one-sixth reduction in cancer cells: axes, planes, compression, settings and selected boundaries may differ, and a linear dimension is not volume. A smaller finding can be useful information without proving tissue pCR. Keep the actual examination dates and use tissue evidence for the sampled pathological question."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "0f214a955407e60397192a24c22551cddf0f2b958a9da4f15affbf502f72251a"
+        },
+        "summary": {
+          "before": "Ultrasound sends pulses of high-frequency sound into the body and builds an image from echoes reflected at tissue interfaces, while Doppler shows blood flow. It is first-line for breast lumps, thyroid nodules, liver and lymph nodes, and guides most biopsies because it is real-time, portable and free of radiation. Endoscopic ultrasound, with the probe inside the gut, stages pancreatic, oesophageal and rectal cancer and samples lesions that external probes cannot reach. Contrast-enhanced ultrasound and elastography add characterisation of blood flow and tissue stiffness. Its weaknesses are that image quality depends heavily on the operator and that sound cannot pass through bone or air, so lung and skeletal disease need other methods. Ultrasound is the cheap, safe, live imaging that puts the needle in the lump.",
+          "after": "Diagnostic ultrasound sends high-frequency sound pulses through a transducer and reconstructs images from returning echoes. Gel helps transmit sound between probe and skin. Echo timing and strength, the selected plane and examination settings contribute to the displayed structures; moving the probe changes the view. It uses no ionising X-rays. This diagnostic use is distinct from therapeutic ultrasound.\n\nBreast ultrasound can examine a focal breast or nodal finding, distinguish fluid-containing from solid findings, and guide a needle towards a target. Shape, orientation, margins, internal echoes and posterior behaviour are interpreted together. A simple cyst, a complex finding and a solid finding are not interchangeable diagnoses. Sampling adds tissue evidence; the live image guides the procedure but does not replace examination of the sample.",
+          "beforeSha256": "db243a872f5e6d088d61a361d256dae1bd151d48d6e0af5d1c5cec8dfb922e50",
+          "afterSha256": "240f8ef54f91faed5f573011b87f4a475b6ffe6b43755240fa0f94815fabcd91"
+        },
+        "tldr": {
+          "before": "Ultrasound uses sound waves to make live pictures; it is cheap, safe, and used to guide needles into lumps.",
+          "after": "Diagnostic ultrasound uses returning sound waves to make images of a selected region and can guide a needle. An image or measured diameter does not establish the cell type or exclude all cancer.",
+          "beforeSha256": "cb35ce9c21346970c19b9779876a98e715157fb3f93d1564f4430a036a9f1ed4",
+          "afterSha256": "b17520c5ee8a42ac999ae66497d4dde5a0ad5603ae5b3c268c2a765eb790c18f"
+        }
+      }
+    },
+    {
+      "id": "mammography",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Mammography"
+            },
+            {
+              "label": "NCCN Guidelines for Patients: Breast Cancer Screening and Diagnosis",
+              "url": "https://www.nccn.org/patientresources/patient-resources/guidelines-for-patients/guidelines-for-patients-details?patientGuidelineId=66"
+            },
+            {
+              "label": "NCI PDQ for patients: Breast Cancer Screening",
+              "url": "https://www.cancer.gov/types/breast/screening"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Mammography"
+            },
+            {
+              "label": "ACR/RSNA: mammography and tomosynthesis",
+              "url": "https://www.radiologyinfo.org/en/info/mammo"
+            },
+            {
+              "label": "NCI: mammograms",
+              "url": "https://www.cancer.gov/types/breast/screening/mammograms"
+            },
+            {
+              "label": "NCI: dense breasts",
+              "url": "https://www.cancer.gov/types/breast/breast-changes/dense-breasts"
+            },
+            {
+              "label": "ACR/RSNA: breast imaging reports",
+              "url": "https://www.radiologyinfo.org/en/info/article-breast-imaging-report"
+            },
+            {
+              "label": "NCCN Guidelines for Patients: Breast Cancer Screening and Diagnosis",
+              "url": "https://www.nccn.org/patientresources/patient-resources/guidelines-for-patients/guidelines-for-patients-details?patientGuidelineId=66"
+            },
+            {
+              "label": "NCI PDQ for patients: Breast Cancer Screening",
+              "url": "https://www.cancer.gov/types/breast/screening"
+            }
+          ],
+          "beforeSha256": "a1a81825b10761dfd6279c8a2b70c49bf3571b80774e8da91250f68658152159",
+          "afterSha256": "10dbecb73c98199bb1e190966388945b71e03092fea468429a2cdf228f72246d"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "Imagine viewing a stack of translucent layers: features at different depths can overlap in a projection. Mammography measures X-ray transmission, not reflected sound. Tomosynthesis uses several projections to reconstruct sections and reduce the effect of overlap; it does not stain cells or guarantee that every lesion becomes visible. A schematic with overlapping shapes and separated reconstructed sections illustrates the geometry, without identifying any shape as cancer. A prepared stained tissue section supplies a different, sampled observation.",
+            "Breast density describes the relative fibroglandular appearance and amount compared with fat, not the fraction occupied by cancer. Dense tissue can mask a finding. Overlap, positioning and lesion type also limit detection. Keep the density description, prior examinations, dates and comparable views alongside the finding. BI-RADS organises imaging findings and assessment; it does not replace pathological diagnosis or establish cancer stage. A negative examination does not set a universal threshold below which microscopic or distant disease is absent.",
+            "The imaging examination removes no tissue. Retain the positioned breast and named finding, morphology, distribution, assessment and comparison dates. A measured span in mm or cm is a length, not a three-dimensional volume or number of cells. Matching an image with the sampled pathology helps answer the finding's question but does not remove imaging blind spots or tissue-sampling limits.",
+            "A fictional mammogram reports 24 mm of calcifications and no definite mass. It records a calcification span under that examination, not 24 mm of proven invasive or viable cancer. Calcium pattern, distribution, comparison and assessment remain relevant; absence of a mass does not establish benignity. An exact ultrasound counterpart is not guaranteed. The useful question is what the finding and any sampled tissue establish together, rather than converting the span into a cancer-cell amount."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "1e8f21c5bce83c6fa3ecabec15a6699c48bb6dc5d1ea58a4bd8df88c76b26ba3"
+        },
+        "summary": {
+          "before": "Population mammographic screening reduces breast cancer mortality by roughly 20% in screened women. Digital breast tomosynthesis (3D) improves detection in dense breasts. Contrast-enhanced mammography approaches MRI sensitivity at lower cost. AI reading (Transpara, Lunit, Mirai risk model) is being deployed at scale in Europe.",
+          "after": "Mammography records how X-rays pass through a positioned, compressed breast. Fat and fibroglandular tissue contribute different image appearances. Compression reduces tissue overlap, thickness and motion. Standard digital mammography produces projection images; digital breast tomosynthesis acquires multiple angles and reconstructs thin sections. These computed sections are different from tissue that has been physically removed, prepared and stained.\n\nScreening asks about cancer in people without symptoms; a diagnostic examination investigates symptoms or an imaging finding and may use additional views. Neither label establishes that cancer is present. Masses and calcium deposits are findings whose pattern and distribution matter. A calcification is not itself proof of malignancy or a measure of viable cancer after treatment. A biopsy adds examination of sampled tissue.",
+          "beforeSha256": "dae278a958c1fd8182b11ae37904d3a1e0ba67431ab01d46360bac3d9c9a03f7",
+          "afterSha256": "851895d3306430cf87539e82dee62a8ade8ff4c2834ca3c9e6ad8bfafb0cb6fc"
+        },
+        "tldr": {
+          "before": "Low-dose breast X-ray used for screening. Newer 3D versions find more cancers with fewer false alarms.",
+          "after": "Mammography uses low-dose X-rays to show breast patterns such as masses and calcifications. Tomosynthesis reconstructs images from several angles; its sections are computed images, not tissue slides.",
+          "beforeSha256": "788be9b8ce956d2322fdd7ac4891a927a3eac2190c63fdab5a86626888f81d7f",
+          "afterSha256": "45eff6c458cc1284b31f30f58050d528c5995931a9861dc7dc5ed275ecfdb888"
+        }
+      }
+    },
+    {
+      "id": "pet",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Positron_emission_tomography"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Positron_emission_tomography"
+            },
+            {
+              "label": "NIBIB: nuclear medicine and PET",
+              "url": "https://www.nibib.nih.gov/science-education/science-topics/nuclear-medicine"
+            },
+            {
+              "label": "Boellaard et al., 2015: EANM FDG PET/CT version 2.0",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25452219/"
+            }
+          ],
+          "beforeSha256": "cb2fca27cc17532a7d0839d2899ff410172a14016cdd17c4655d1e22c5f3ce36",
+          "afterSha256": "587b8a279f14abfe23270e4ab12050f361591cf3645851b54457133af3211f73"
+        },
+        "principle": {
+          "before": "Positron-emitting isotopes (18F, 68Ga, 89Zr, 64Cu) attached to a targeting molecule; coincidence detection of 511 keV photons; standardised uptake value (SUV) quantifies uptake.",
+          "after": "Positron emission and electron annihilation produce photon pairs used to reconstruct radiotracer activity; the tracer and examination protocol determine interpretation.",
+          "beforeSha256": "4ad63b47530959a64e1edd4b66ce58d40f57e9fb00dfac767493a292447dd02b",
+          "afterSha256": "3d71a4938db5545e26dfff56023a9b9384732854c865292b19fc28e15730c087"
+        },
+        "summary": {
+          "before": "Positron emission tomography detects the paired 511 keV gamma photons produced when a positron from a radioactive tracer annihilates with an electron; coincidence detection localises the source and the standardised uptake value (SUV) quantifies it. Isotopes such as 18F, 68Ga, 89Zr and 64Cu are attached to a targeting molecule, and the tracer determines what is measured: glucose metabolism (FDG), receptor expression (PSMA, SSTR, TROP2, HER2), stroma (FAP), immune cells (CD8) or DNA repair (PARP). In clinical use since 1975, it is almost always combined with CT or MRI for anatomic reference. Its strengths are whole-body biology in one quantitative scan and the fact that any target with a ligand can in principle be imaged. Resolution of about 4 mm and tracer supply and cost are the main limitations. PET images what tumours are doing rather than what they look like.",
+          "after": "Positron emission tomography (PET) detects photons produced when a positron emitted by a tracer annihilates with an electron. Detected photon pairs inform reconstruction of the activity distribution. The tracer molecule and its handling in the body determine the biological question; PET is not a label that marks every cancer cell. Anatomical imaging can help locate and interpret the distribution.\n\nNormal tissues and inflammatory processes can accumulate some tracers, while some malignant lesions produce little detectable signal. The field imaged, background, lesion size, acquisition, reconstruction and tracer biology limit detection. Whole-body terminology does not establish a microscopic disease census. Uptake measurements have a named tracer, time, unit and calculation; they are not percentages of malignant cells.",
+          "beforeSha256": "1abb7aff86fee1c728cf2d77ce82aea55d0117bb5746146dd2dea6172148d4ae",
+          "afterSha256": "2f77987194ece923e3dac28bb45738d85f1d0e6c4d6281c9d618c7bb1bc2a9de"
+        },
+        "tldr": {
+          "before": "A scan that shows where a radioactive tracer accumulates, so it images what tumours are doing rather than what they look like.",
+          "after": "Positron emission tomography shows the distribution of a named radioactive tracer. What the signal means depends on the tracer, normal physiology, disease and examination conditions.",
+          "beforeSha256": "9da3124ea0cfc483bfbcf90d71fbe29a8536de38e7fab98fd6fb76bcd2bfed3a",
+          "afterSha256": "f1a535ff50d3a18efd91813b038fc3718eed022c97a3a7730ef49945b0613e27"
+        }
+      }
+    },
+    {
+      "id": "fdg-pet",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Fludeoxyglucose_(18F)"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Fludeoxyglucose_(18F)"
+            },
+            {
+              "label": "Boellaard et al., 2015: EANM FDG PET/CT version 2.0",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25452219/"
+            },
+            {
+              "label": "ACR/RSNA: PET/CT",
+              "url": "https://www.radiologyinfo.org/en/info/pet"
+            }
+          ],
+          "beforeSha256": "8f94799e9d40b59bbe6d8a08c7c6c1561e516215b0d499f4fab3056c83629b16",
+          "afterSha256": "63e78c42e7df3ac0d70c8ae4b816e8502fc48d60dd93c41f704d03b3a6a0dcf1"
+        },
+        "summary": {
+          "before": "FDG PET uses 18F-fluorodeoxyglucose, a radioactive sugar analogue taken up through GLUT transporters and trapped after phosphorylation by hexokinase, exploiting the Warburg effect by which most cancers burn glucose fast. It is the standard PET scan for staging and response in lymphoma (scored on the Deauville scale), lung cancer, melanoma, head and neck cancer and oesophageal cancer, with universal availability and decades of validation. Its limits are biological: infection and inflammation are also hot, normal brain uptake creates a high background, and indolent tumours are poorly seen. It is weak in prostate cancer, low-grade neuroendocrine tumours, mucinous cancers and some breast cancers, which is why target-specific tracers such as PSMA and SSTR ligands exist. FDG PET shows which tissues are consuming glucose fastest, and most, though not all, cancers do.",
+          "after": "Fluorine-18 fluorodeoxyglucose (18F-FDG) is a radioactive glucose analogue used in PET. Its distribution reflects tracer delivery and glucose handling under the examination conditions, rather than a direct count of living cancer cells. Normal physiological uptake and inflammation can contribute signal, and some cancer deposits are not conspicuous.\n\nInterpretation keeps the clinical question, lesion size and background, blood glucose, preparation, uptake time, scanner calibration and reconstruction. A non-avid lesion is not negative histology. The method's usefulness and response criteria belong to a specified cancer and setting, rather than a universal availability or all-cancer claim.",
+          "beforeSha256": "598a547c38d36dac09873cfa3a2d118d2fba1ff96c67c5b37325361fec7b43d1",
+          "afterSha256": "2c6afa4975f4fd1e2abaf68f348d2a932402530a27bae66bb6f5a34ec2804edf"
+        },
+        "tldr": {
+          "before": "FDG PET is the standard PET scan. A radioactive sugar shows which tissues are burning glucose fast, which most cancers do.",
+          "after": "FDG PET images the distribution of a radioactive glucose analogue. Normal tissues, inflammation and some cancers can take it up, so a bright area is not a diagnosis of cancer.",
+          "beforeSha256": "b908fa3d756b5c1c00d6e3e5244192d61c14e0dc86238072a65970afe7a1a5a7",
+          "afterSha256": "87bf6b71e30d8ece24aa5d11686a275f01397a50e554b1c51d215c8b910a4a74"
+        }
+      }
+    },
+    {
+      "id": "pet-ct",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/PET-CT"
+            },
+            {
+              "label": "NICE NG122: lung cancer, diagnosis and staging",
+              "url": "https://www.nice.org.uk/guidance/ng122/chapter/Diagnosis-and-staging"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/PET-CT"
+            },
+            {
+              "label": "ACR/RSNA: PET/CT",
+              "url": "https://www.radiologyinfo.org/en/info/pet"
+            },
+            {
+              "label": "Boellaard et al., 2015: EANM FDG PET/CT version 2.0",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25452219/"
+            },
+            {
+              "label": "Boellaard et al., 2025: EANM FDG PET/CT version 3.0, identity only",
+              "url": "https://doi.org/10.1016/j.eanmj.2025.100006"
+            },
+            {
+              "label": "NICE NG122: lung cancer, diagnosis and staging",
+              "url": "https://www.nice.org.uk/guidance/ng122/chapter/Diagnosis-and-staging"
+            }
+          ],
+          "beforeSha256": "e24d0c3dce5c0c5c422e8869449d36d5240905fced3aa2713d5e6e0ddf211f52",
+          "afterSha256": "a4ba65a33e1fa6f61a7c4d1e4b2758329c18552db8dbd9ad9e3d38723d0405c3"
+        },
+        "notes": {
+          "before": [
+            "Lung cancer: NICE NG122 (1.2.4) says to ensure that all people with lung cancer who could potentially have treatment with curative intent are offered PET-CT before treatment, and (1.2.5) that every cancer alliance should have a system of rapid access to PET-CT scanning for people who are eligible. If an operation or radical radiotherapy is being discussed and no PET-CT has been arranged, that is a fair thing to ask about."
+          ],
+          "after": [
+            "Think of two maps placed together: tracer distribution and X-ray anatomy. In a fictional drawing, a large and a small region start with comparable tracer concentration, but the small region's signal spreads into surrounding reconstructed space. Partial-volume effects can lower its apparent peak. The uncalibrated sketch is not an uptake simulation and cannot recover the original activity, count cells or identify malignancy. A lower-looking peak therefore does not prove less tracer was originally present. Lesion size, surrounding activity and tracer biology matter alongside resolution.",
+            "Check the actual field imaged. EANM's 2015 version 2.0 calls skull-base-to-mid-thigh coverage torso imaging; it is not literally every body part. Even wider coverage cannot detect every microscopic deposit. Keep the administered tracer, imaged region and acquisition time with the report. Administered activity in megabecquerels (MBq) and activity concentration such as kilobecquerels per millilitre (kBq/mL) describe different quantities. Neither is a count of cancer cells.",
+            "A standardised uptake value (SUV) normalises a measured activity concentration using administered activity and a stated body-size measure. SUL uses lean body mass; SUVmax is a voxel maximum, while SUVmean averages a defined region. These values are not percentages of target-positive or malignant cells. PERCIST uses specified SUL-based response measurements; that framework does not make all SUV summaries interchangeable. Keep uptake time, FDG glucose, calibration, reconstruction and region selection. Raw numbers from different tracers or protocols do not supply a controlled biological comparison or a universal malignancy cutoff.",
+            "In a fictional example, a node is avid after inflammation in the region it drains. The report establishes uptake under the named tracer and conditions. Inflammation is an alternative explanation; uptake alone cannot decide between that and malignancy. Anatomy, timing, clinical history, earlier examinations and any appropriate sampled tissue add different evidence. Conversely, a non-avid node is not a negative tissue examination. A fall in SUV is a fall in that uptake measure, not automatically the same proportional reduction in cancer cells.",
+            "The technical definitions here draw on the read passages of EANM's 2015 FDG PET/CT guideline, version 2.0. A 2025 version 3.0 is registered under DOI 10.1016/j.eanmj.2025.100006. Its full text could not be read, so the older definitions are not presented as a complete account of that revision. This source-version distinction also prevents a generic PET/CT description from substituting for a product's current acquisition instructions.",
+            "Lung cancer: NICE NG122 (1.2.4) says to ensure that all people with lung cancer who could potentially have treatment with curative intent are offered PET-CT before treatment, and (1.2.5) that every cancer alliance should have a system of rapid access to PET-CT scanning for people who are eligible. If an operation or radical radiotherapy is being discussed and no PET-CT has been arranged, that is a fair thing to ask about."
+          ],
+          "beforeSha256": "ca002df3c89b4213e2c617373760446ec7f7123beac416192bbf0b57dc732170",
+          "afterSha256": "d123a585b4a083bd939b1dc8ed9e571a9e98ac7d2013dd5323e2515ae9b8195a"
+        },
+        "summary": {
+          "before": "PET/CT acquires PET and CT sequentially on one gantry; the CT provides attenuation correction for the PET data and pins each hot spot to an exact anatomical location. In clinical use since 2001, it is the default form of clinical PET and the standard for staging lymphoma, lung cancer, melanoma and head and neck cancer, combining anatomy with biology in one examination. Total-body PET/CT scanners such as the uEXPLORER and Biograph Vision Quadra image the whole body simultaneously with around 40 times the sensitivity of conventional scanners, enabling ultra-low-dose imaging and dynamic studies that follow tracer kinetics over time. The main drawback is that the CT adds radiation to the PET dose, which matters most in children and in patients scanned repeatedly. PET/CT is two scans in one machine so the biology shown by PET can be read against the anatomy shown by CT.",
+          "after": "PET/CT combines positron emission tomography with computed tomography. PET reconstructs radiotracer activity; CT adds anatomical information and can support attenuation correction. Registration helps relate the two, without guaranteeing an exact match in moving tissues. A low-dose CT used for localisation and attenuation correction is not automatically a full diagnostic CT with its own acquisition and contrast protocol.\n\nTracer identity remains part of the scan identity. 18F-FDG concerns glucose handling, whereas an antibody or other target-directed tracer asks a different question. Normal physiology, inflammation and malignancy can contribute uptake. Structural and activity findings can also disagree. Interpretation retains anatomy, history, preparation, comparison images and, where indicated, tissue evidence.",
+          "beforeSha256": "13f3534cc4ac4d799e8454b624d07c523a91321da00d341bcd8f6da74334856c",
+          "afterSha256": "e21985fd9207422a5b9b694cc59ae000cee481a0b7c0f9d13ddd59f7c79cac30"
+        },
+        "tldr": {
+          "before": "PET and CT in one machine, so hot spots on the PET are pinned to exact locations on the CT.",
+          "after": "PET/CT combines a named tracer-distribution image with X-ray anatomy. Uptake, anatomy and the scan conditions are interpreted together; a hot spot does not by itself identify malignant cells.",
+          "beforeSha256": "376aad097efcf21abdd9805198e83e51aaa7859ddcebcffc2abf91cc40f07490",
+          "afterSha256": "fb91cb85a4cda11e0f16cbad7685db374f468564511f21144ed6cdf661368fca"
+        }
+      }
+    },
+    {
+      "id": "immuno-pet",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Bensch et al., 89Zr-atezolizumab imaging as a non-invasive approach to assess clinical response to PD-L1 blockade (Nature Medicine 2018)",
+              "url": "https://doi.org/10.1038/s41591-018-0255-8"
+            }
+          ],
+          "after": [
+            {
+              "label": "Bensch et al., 89Zr-atezolizumab imaging as a non-invasive approach to assess clinical response to PD-L1 blockade (Nature Medicine 2018)",
+              "url": "https://doi.org/10.1038/s41591-018-0255-8"
+            },
+            {
+              "label": "Dijkers et al., 2010: 89Zr-trastuzumab feasibility in metastatic breast cancer",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20357763/"
+            },
+            {
+              "label": "Keyaerts et al., 2016: phase 1 68Ga-HER2 nanobody study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26449837/"
+            },
+            {
+              "label": "Farwell et al., 2022: CD8 minibody first-in-human study",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34413145/"
+            },
+            {
+              "label": "Kist de Ruijter et al., 2022: whole-body CD8 PET",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36471036/"
+            }
+          ],
+          "beforeSha256": "81cd54e0b07dd2eca69202c8ed3bd5aba2eb6a444c183510c182604990276aed",
+          "afterSha256": "f98a654369fbb51d44f3db357e121e52688b81f4356d33e274a68ff91aff034a"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "Imagine sending a labelled binding tool into the body. Some remains in blood, some reaches accessible sites, and some fails to bind or clears. Delivery, access, target binding, competition, clearance and retention all affect the image. Therapeutic or unlabelled antibody can compete for the same target or alter distribution and background. A smaller signal after same-target treatment is therefore not, by itself, target loss. A conceptual labelled/unlabelled-binder drawing supplies these alternatives, not uptake values.",
+            "Dijkers and colleagues studied 14 people with HER2-positive metastatic breast cancer using 89Zr-trastuzumab, with different antibody masses and scan times. The study addressed feasibility, biodistribution and visualisation, not universal treatment selection. Keyaerts and colleagues studied 20 women with primary or metastatic breast cancer scored HER2 IHC 2+ or 3+ using a 68Ga-HER2 nanobody in a phase 1 safety, distribution and dosimetry study. Tumour targeting and no observed adverse reactions in that small study do not establish general safety, individual benefit or an interchangeable imaging schedule.",
+            "Bensch and colleagues imaged 22 patients across three tumour types with 89Zr-atezolizumab before PD-L1 blockade. Uptake varied within and between patients and included high signal in lymphoid tissues and inflammation. Associations with treatment response were exploratory. Imaging an accessible PD-L1-associated distribution does not isolate malignant cells, convert uptake into an expression percentage or prove that a scan-directed treatment choice improves outcomes.",
+            "CD8 imaging traces a labelled CD8-binding construct, not the total number of tumour-killing cells. Farwell's phase 1 study included 15 patients: tumour uptake appeared in 10, including 7 of 8 receiving immunotherapy. Lymphoid and normal-organ distribution were also part of the observation. The paper appeared online in 2021 and in print in 2022. Kist de Ruijter's 38-person phase 1/2 study found heterogeneous 89Zr-CD8 tracer uptake, associations with tissue CD8 and inflamed versus desert patterns, and an exploratory association between higher baseline uptake and survival. On-treatment lesion-uptake changes did not simply track response. These mixed-cancer studies do not establish antigen recognition, cell killing or a validated stop/switch strategy for breast cancer.",
+            "An interpretable tracer record retains the exact binder and format, isotope, protein mass in micrograms or mg, administered activity in MBq and time after injection. Background in blood and normal organs, lesion size and clearance affect interpretation. One image cannot isolate every delivery, binding and retention contribution, quantify receptor occupancy or supply a therapeutic absorbed dose. Protein mass is not a target-positive cell fraction, and uptake is not an expression percentage.",
+            "In a fictional course, uptake is lower after an antibody against the same target. Before declaring that the target disappeared, compare tracer and therapeutic exposure, labelled and unlabelled mass, image timing, blood background, delivery, access and clearance. Competition is one explanation among several. A controlled binding experiment or suitable sampled tissue would answer a different, more specific question, each with its own limits. The image alone neither assigns all signal to cancer nor chooses a treatment."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "6f07e1e79203a66b5de952ea588264a6c682f4be87cd73e2102e96b04b0b522b"
+        },
+        "principle": {
+          "before": "Long-lived positron emitters (89Zr, 64Cu) chelated to antibodies, minibodies, or nanobodies.",
+          "after": "A positron-emitting label is incorporated into an antibody-derived tracer with chemistry appropriate to that product; serial distribution depends on the binder, label, administered mass and time.",
+          "beforeSha256": "fb5914d67e4ee83c216ab4e2acb6d3af3de6d0399b293b5dfb2cbb4c3f45bec3",
+          "afterSha256": "3d36fc99f87ad6fb46690bd06611dfdb58046a310efef02fc805aaf8001e518f"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "granzyme-b-pet"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "26b77ea46ff78f029f89a9e9866ccf3f49efbde0a203a91931160704ba9e4a92"
+        },
+        "summary": {
+          "before": "Immuno-PET attaches long-lived positron emitters such as 89Zr or 64Cu to antibodies, minibodies or nanobodies, so that any protein an antibody can reach can be imaged across the whole body. It covers 89Zr-antibody imaging of ADC targets including TROP2 and HER2, and T-cell imaging with 89Zr-crefmirlimab berdoxam, a CD8 minibody, and 18F-AraG, which marks activated T cells. CD8 PET is in phase 2/3 as a pharmacodynamic and predictive biomarker for checkpoint inhibitors, aiming to show whether T cells are entering tumours early in treatment. The strengths are non-invasive imaging of target and immune infiltrate, and the fact that any antibody can be turned into a tracer. Full antibodies have slow kinetics, requiring days before imaging, and 89Zr is costly. Immuno-PET turns therapeutic antibodies into imaging agents that show where their targets and the immune cells are.",
+          "after": "Immuno-PET uses radiolabelled antibodies or antibody-derived binders. Full immunoglobulin G (IgG), antigen-binding fragments (Fab), minibodies and single-domain nanobodies differ in size and pharmacokinetics. The format can affect penetration, clearance, retention and normal-organ background; there is no universal best format. A label makes the binder traceable, not a perfect detector of every target site.\n\nThe radionuclide must suit the product's imaging time course. Dijkers' 89Zr-trastuzumab study examined a full antibody over several days; Keyaerts' 68Ga-HER2 nanobody study imaged at earlier times. These are product-specific examples. Antibody imaging can concern a tumour-associated target or immune cells. CD8 binder imaging belongs here; granzyme-B peptide or peptidomimetic imaging is a different tracer class and has its own record.",
+          "beforeSha256": "0f33a35b4598ac5569d6e5dfe97b140e41d752d001bb17647fa3622858726289",
+          "afterSha256": "0c2702029428d19afff999855323e31dd17647ade9eea868ec72acb37b216226"
+        },
+        "tldr": {
+          "before": "PET scans built from radiolabelled antibodies or their fragments, to see any protein an antibody can reach, including immune cells inside tumours.",
+          "after": "Immuno-PET uses a radiolabelled antibody or an antibody-derived binder to image its distribution. Uptake depends on access, binding and clearance as well as the target; clinical usefulness needs separate evidence.",
+          "beforeSha256": "fd4d7ef355c11d898e50a6d6a457cb2e1696ce1e5762d172c95a067b0fa66521",
+          "afterSha256": "d78f6049eca760f9e1c0b8c98f23532a9e4f918ff814a01731f2e586c001e2fb"
+        }
+      }
+    },
+    {
+      "id": "theranostics",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-11-09",
+          "after": "2026-11-12",
+          "beforeSha256": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "notes": {
+          "before": [
+            "Uptake, administered activity and absorbed dose are different quantities. In its then-approved prostate-cancer setting, the 2023 joint EANM/SNMMI guideline describes fixed activities and says individual dosimetry is not mandatory for in-label lutetium-177 PSMA-617 use. This is a product- and setting-specific statement, not a rule for every radionuclide or indication; benefit from adapting treatment by dosimetry still needs clinical evidence."
+          ],
+          "after": [
+            "Uptake, administered activity and absorbed dose are different quantities. In its then-approved prostate-cancer setting, the 2023 joint EANM/SNMMI guideline describes fixed activities and says individual dosimetry is not mandatory for in-label lutetium-177 PSMA-617 use. This is a product- and setting-specific statement, not a rule for every radionuclide or indication; benefit from adapting treatment by dosimetry still needs clinical evidence.",
+            "A target-directed PET product combines a targeting vector with a positron-emitting label and, where its chemistry uses them, a linker or chelator. Vectors include small molecules, peptides and antibodies. The accessible interaction and target location depend on the product; normal and stromal tissues may contribute signal. A labelled-key analogy is useful only if access and nonmalignant locks remain visible: RNA or total protein in one sample does not establish accessible target throughout the body. Observed uptake combines delivery, binding, retention, clearance and background.",
+            "Keep three questions separate: was tracer detected, is target sufficiently available for a specified product, and does the matched treatment have a useful benefit-harm balance? Theranostic imaging connects a diagnostic result to a related treatment strategy through evidence. Radioligand therapy delivers the therapeutic radionuclide's radiation. The 68Ga-PSMA imaging and mainly beta-emitting 177Lu-PSMA therapy example belongs to prostate cancer and named products; it is not a breast-cancer eligibility or access claim. Shared targeting does not make different vectors, molecular masses, radionuclides, retention or emissions interchangeable.",
+            "A fictional small-molecule tracer carrying isotope A lights up target M, and someone proposes an antibody carrying therapeutic isotope B. The scan shows that tracer's distribution at its recorded time. It cannot fill in the antibody's time course. The missing bridge includes therapeutic-product distribution and retention over time, decay and emissions, energy deposition and tissue dose, safety, and outcomes in the intended setting. Two curves with different shapes or durations can have different integrated activity; curve area alone is still not absorbed dose. The drawing has no calibrated numeric axes from which to calculate a dose.",
+            "The measurement ledger names tracer, vector, isotope, administered activity, administered mass, injection and image times, scan coverage and the defined uptake region. A bright focus can include nonmalignant target sites, while low signal can reflect limited access, small size, background, low target or the protocol. Heterogeneity among visible lesions can add information beyond one tissue sample, without describing every unseen lesion. The PSMA imaging and therapy guidelines concern their named products and prostate settings; FDA's August 2019 document concerns nonclinical oncology therapeutic-radiopharmaceutical development. None is a personal clinical protocol for an arbitrary target-positive scan."
+          ],
+          "beforeSha256": "35c8ab6c5208c5d79c5098f4065ad0e823d95e047335bb9e2aa4d4c141c70112",
+          "afterSha256": "9d5b715fde876205d9d783fa912ceb43d4653b63b168597a9766b1e27aefe0ef"
+        }
+      }
+    },
+    {
+      "id": "radioligand-dosimetry",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-11-08",
+          "after": "2026-11-12",
+          "beforeSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "notes": {
+          "before": [
+            "Physical decay, biological clearance and radioactive daughters all affect interpretation. Alpha-emitter dosimetry may need additional microscopic considerations. FDA’s cited document addresses nonclinical development; it is not a universal clinical dosing protocol or evidence of a jurisdiction-wide reimbursement requirement."
+          ],
+          "after": [
+            "Physical decay, biological clearance and radioactive daughters all affect interpretation. Alpha-emitter dosimetry may need additional microscopic considerations. FDA’s cited document addresses nonclinical development; it is not a universal clinical dosing protocol or evidence of a jurisdiction-wide reimbursement requirement.",
+            "Absorbed dose in gray (Gy) is energy deposited per tissue mass, with 1 Gy equal to 1 joule per kilogram. Administered activity in MBq measures radioactive decays per time, not energy absorbed. A single uptake image or SUV is neither quantity. Dose estimation needs an appropriate time-activity model, emissions and energy-deposition assumptions for the relevant tissue. Equal early uptake can precede different retention. The tested diagnostic tracer cannot supply a different therapeutic product's dose merely because both bind the same target."
+          ],
+          "beforeSha256": "468a5198fce07e24214825d01fb2b7869cb761f0ee24e28a9d7963ba61bb15ed",
+          "afterSha256": "7c4fb86348d0c247754eb346b0e711ec5566e403c1f4af7cd007ef3f7953ebed"
+        }
+      }
+    },
+    {
+      "id": "breast-cancer-follow-up-after-treatment",
+      "version": "proposal-imaging-follow-up-root",
+      "fields": {
+        "asOf": {
+          "before": "2026-11-11",
+          "after": "2026-11-12",
+          "beforeSha256": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "bestInClass": {
+          "before": {
+            "statement": "NICE NG101 (last updated 2025) and ASCO (2013, reaffirmed by ACS/ASCO in 2016) agree on the core: yearly mammography, clinical review, a written plan, and no routine blood tests, tumour markers or body imaging in people without symptoms. They differ in detail: NICE sets mammography yearly for 5 years and then hands over to the screening programme, and advises against routine ultrasound or MRI; ASCO sets a schedule of clinical examinations (every 3 to 6 months for 3 years, 6 to 12 months to year 5, then yearly) that NICE does not specify. The ESMO 2024 early breast cancer guideline could not be read.",
+            "sources": [
+              "nice-ng101",
+              "asco-2013",
+              "acs-asco-2016",
+              "esmo-2024"
+            ]
+          },
+          "after": {
+            "statement": "NICE NG101 and ASCO 2026 retain clinical follow-up and breast surveillance within a care plan while advising against routine distant-recurrence screening in the overall asymptomatic population. Their detailed pathways differ. ASCO now uses low-, intermediate- and high-intensity groups and selected mammographic de-escalation; it is not simply the 2013 calendar reaffirmed. Much of the risk-based scheduling rests on expert consensus, while Mammo-50 informs one frequency question. The original 2026 journal full text and ESMO 2024 guideline remain unread; the ASCO abstract and official practice summary supply the stated 2026 scope.",
+            "sources": [
+              "nice-ng101",
+              "asco-2026",
+              "asco-2026-summary",
+              "esmo-2024"
+            ]
+          },
+          "beforeSha256": "3fc296240bfed9d289eb2040692ab2bf47ffe46da05e14dff50cab80fe89fd9c",
+          "afterSha256": "2910c9dc819523c378cd1a3da7d7081823f3cebada6f77ac03775561908eae93"
+        },
+        "gaps": {
+          "before": [
+            "The ESMO 2024 early breast cancer guideline could not be read: Europe PMC holds no abstract and the publisher refused a script. Its follow-up schedule is not stated here.",
+            "ASCO's follow-up guideline dates from 2013 and reaffirms 2006 recommendations; no later ASCO follow-up guideline was found in Europe PMC.",
+            "The ACS/ASCO 2016 survivorship guideline was read only as an abstract, so its detailed recommendations on late effects are not given here.",
+            "No source read says how long yearly mammography should continue for men with breast cancer or for people outside a national screening programme after 5 years.",
+            "Women at high inherited risk (for example BRCA carriers) follow separate MRI surveillance schedules not covered here."
+          ],
+          "after": [
+            "The ESMO 2024 early breast cancer guideline could not be read: Europe PMC holds no abstract and the publisher refused a script. Its follow-up schedule is not stated here.",
+            "The ACS/ASCO 2016 survivorship guideline was read only as an abstract, so its detailed recommendations on late effects are not given here.",
+            "Women at high inherited risk (for example BRCA carriers) follow separate MRI surveillance schedules not covered here.",
+            "The ASCO 2026 journal full text could not be reached. The abstract and official practice-summary recommendations were read; complete methodology and every detailed recommendation were not.",
+            "The read current sources do not establish a universal clinical benefit from routine ctDNA-triggered intervention after curative breast treatment; each strategy needs its own trial evidence."
+          ],
+          "beforeSha256": "c48b0949c4c23c04694c19b9f9f17f937bda9e524f7f107107ebb7d7ecc8d878",
+          "afterSha256": "07d81ec900548a2cc4eed0eac298e30991081e64643266ff561a234ee12043e7"
+        },
+        "links": {
+          "before": [],
+          "after": [
+            {
+              "label": "ASCO 2026: follow-up and surveillance guideline abstract",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42462191/"
+            },
+            {
+              "label": "ASCO/Guideline Central: official 2026 practice summary",
+              "url": "https://www.guidelinecentral.com/guideline/5236434/pocket-guide/5244655/"
+            },
+            {
+              "label": "GIVIO, 1994: randomised follow-up testing trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/8182811/"
+            },
+            {
+              "label": "Rosselli Del Turco et al., 1994: intensive diagnostic follow-up",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/7848404/"
+            },
+            {
+              "label": "Moschetti et al., 2016: follow-up strategies systematic review",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27230946/"
+            },
+            {
+              "label": "Turner et al., 2023: c-TRAK TN",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36423745/"
+            },
+            {
+              "label": "Pascual et al., 2022: ESMO ctDNA recommendations",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35809752/"
+            },
+            {
+              "label": "ASCO Post, 2016: survivorship care guideline summary",
+              "url": "https://ascopost.com/issues/april-25-2016/acsasco-breast-cancer-survivorship-care-guideline/"
+            },
+            {
+              "label": "Dent et al., 2007: historical triple-negative recurrence patterns",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/17671126/"
+            },
+            {
+              "label": "Dunn et al., 2025: Mammo-50 mammographic-frequency trial",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39892911/"
+            },
+            {
+              "label": "Braun et al., 2025: SURVIVE trial protocol",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40924700/"
+            }
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "3b21efc29becbb941c7b7f2e7cd7fbef8c8bf6c6a5a823e26848a23efd01c7ac"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "A smoke alarm can detect a problem earlier without showing that a proposed inspection programme changes its outcome. Follow-up has the same evidence distinction: the comparison needs survival, quality of life and harms, not just the date a recurrence was found. New or persistent symptoms between visits should be reported under the agreed plan, including a new lump or persistent bone, breathing, neurological or other unexplained change. This is an access-to-evaluation principle, not a new symptom-specific triage protocol.",
+            "The historical routine-testing recommendation applies to asymptomatic follow-up with no specific examination finding. It includes blood panels and routine bone scans, chest radiographs, liver ultrasound, CT, PET and MRI to search for recurrence, and conventional serum markers CEA, CA 15-3 and CA 27.29. Diagnostic tests for a symptom or specific finding ask a different question. Normal markers cannot exclude recurrence, and raised markers do not locate or by themselves diagnose it. ASCO 2026 continues to advise against routine distant-metastasis imaging and conventional blood-marker surveillance for the overall asymptomatic post-treatment population.",
+            "GIVIO randomised 1,320 women younger than 70 with stage I to III breast cancer to intensive testing or clinically indicated testing alongside follow-up. Added testing included bone scans, liver ultrasound, chest radiographs and laboratory tests. At median 71 months, 132 of 655 (20%) versus 122 of 665 (18%) had died; no significant survival or reported quality-of-life difference was found. That trial also found no significant difference in time to recurrence detection. Rosselli Del Turco's separate 1,243-person trial added six-month chest radiographs and bone scans. It found more isolated intrathoracic/bone metastases (112 versus 71) and earlier detection, without a significant five-year mortality difference (18.6% versus 19.5%). The two detection results should not be merged into one claim.",
+            "The 2016 Cochrane review pooled two intensive-testing trials with 2,563 participants for overall survival: hazard ratio 0.98, 95% confidence interval 0.84 to 1.15. The review included five trials overall and searched through 2014; the survival denominator is not the denominator for every quality-of-life analysis. A nonsignificant result is not proof of equivalence or identical death times. These older trials do not settle every modern strategy. Measuring outcomes from randomisation avoids mistaking the extra interval after an earlier diagnosis for a delayed death. No exhaustive claim that comparable modern research does not exist is made here.",
+            "In c-TRAK TN, 161 patients entered ctDNA surveillance after treatment for higher-risk early triple-negative breast cancer. Forty-four (27.3%) had detection by 12 months, and seven recurred without prior detection. Among the intervention-allocated/staged group, 23 of 32 already had metastases at detection. Five started pembrolizumab and none achieved sustained ctDNA clearance. Surveillance, staging and treatment denominators answer different questions; neither lead time nor an association with recurrence establishes a useful molecular-triggered intervention. ESMO's 2022 guidance distinguishes clinical validity from demonstrated utility in molecular residual-disease-directed treatment. A positive blood signal does not locate its source or choose an action by itself.",
+            "Dent's historical cohort included 1,601 women diagnosed in 1987 to 1997, of whom 180 had triple-negative disease. The distant-recurrence pattern in that group peaked around 3 years and fell thereafter, with excess risk relative to other types within 5 years. This is cohort evidence, not an individual forecast or proof that a particular visit interval improves survival. Do not derive the guideline calendar directly from the shape of that risk curve. Follow-up also considers new cancers, late cardiac, nerve and bone effects, ongoing endocrine therapy where applicable, counselling and support. Additional testing has possible false alarms, radiation exposure, anxiety and cost, without a universal numerical harm rate here.",
+            "A fictional person feels well one year after curative treatment and asks whether adding routine CT and CA 15-3 every few months will improve outcomes. A more sensitive alarm or an earlier date of detection is insufficient evidence for that proposal. The older intensive-testing trials and current ASCO guidance address routine asymptomatic surveillance, while a symptom, new finding, inherited-risk screening programme or research protocol changes the question. Breast imaging according to remaining tissue and risk continues to have its own purpose. This example supplies an evidence question, not a personal testing schedule.",
+            "A 2026 SEER teaching presentation summarises NCCN as clinical history/examination 1 to 4 times a year for 5 years, then annually, and mammography every 12 months beginning at least 6 months after breast-conservation therapy. It says routine imaging of a reconstructed breast is not indicated and directs high inherited-risk patients to separate guidance. This is a read secondary presentation, not independent verification of the current NCCN guideline. Remaining breast tissue, mastectomy/reconstruction, inherited risk and a diagnostic indication prevent annual mammography or MRI from becoming a universal instruction.",
+            "ASCO 2026 distinguishes risk-based clinical-review intensity. Its official summary recommends annual review for selected lower-intensity groups; intermediate-intensity history/examination every 6 to 12 months for 5 to 10 years; and high-intensity review every 3 to 6 months after active treatment other than endocrine therapy is complete, for up to 10 years after diagnosis. The categories depend on stage, subtype, response, ongoing treatment, inherited risk and time since diagnosis, rather than time alone. Much of this scheduling is expert consensus, with no randomised comparison of all risk-specific approaches. A clinical team must identify the applicable category.",
+            "For the ASCO 2026 lower-intensity pathway after breast conservation, annual mammography continues for the first 3 years. Every 1 to 2 years can then be considered for people at least 50 with low-risk T1, low-grade, node-negative, ER-positive disease who remain recurrence-free for 3 years; people younger than 50 or with triple-negative/HER2-positive disease continue annual mammography. Continued annual imaging can also be chosen after discussing benefits and harms. Intermediate/high-intensity pathways retain annual imaging of remaining breast tissue, and routine mammography is not recommended after bilateral mastectomy. Supplemental MRI may be offered through shared decision-making for selected risk and anatomical contexts; that is separate from routine imaging for distant metastases.",
+            "Mammo-50 randomised 5,235 people aged at least 50 at diagnosis who remained recurrence-free 3 years after curative surgery: 2,618 to annual mammography and 2,617 to less frequent imaging, two-yearly after breast conservation or three-yearly after mastectomy. Most were ER-positive (82.7%). Five-year breast-cancer-specific survival was 98.1% versus 98.3%, hazard ratio 0.92 (95% confidence interval 0.64 to 1.32), meeting the prespecified 3-percentage-point non-inferiority margin. This mammographic-frequency question does not test routine CT, tumour markers or ctDNA, or prove de-escalation for newly treated younger triple-negative patients. The 2025 SURVIVE publication is a protocol for a planned 3,500-person intensive liquid-biopsy-triggered surveillance trial, not an outcome result."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "47e55e1dd091e1b65a7042796bfc691c5c9d1a1b28b42d30981c437b9a7ace5c"
+        },
+        "population": {
+          "before": "Adults who have completed primary treatment with curative intent for early or locally advanced breast cancer, or DCIS. The NHS screening programme rules in NG101 apply in England and Wales. People with metastatic breast cancer, and people at very high inherited risk who have their own MRI surveillance schedules, are not covered here.",
+          "after": "Adults after curative-intent primary treatment for early or locally advanced breast cancer, or DCIS; endocrine therapy may continue. The NICE screening-programme pathway is jurisdiction-specific. ASCO 2026 distinguishes risk, ongoing therapy, age and remaining anatomy. Metastatic-disease monitoring and dedicated very-high-inherited-risk screening plans need their own setting-specific guidance.",
+          "beforeSha256": "45f587e078a953bb3472ecc619348b235e85badd3144ba5a067960bca043225a",
+          "afterSha256": "76315b0aa938143b96adde7ae2d544b4b16902f83be19c05b40a0386fb018426"
+        },
+        "simple": {
+          "before": "After breast cancer treatment you have a mammogram every year. You do not need regular scans or blood tests if you feel well. Tell your team about any new lump or symptom.",
+          "after": "After breast cancer treatment, agree a written follow-up plan with your team. The visits and breast scans depend on your treatment, remaining breast tissue and risk. Report a new or persistent symptom between visits.",
+          "beforeSha256": "537137ca153589f3595759bb6c575ae61cb5acf6c96dd6cadb48fd00e7b4bc94",
+          "afterSha256": "c49a34e83d4d44285a2a9764f73c5afd26f7e8bfed7b0f9092056c0f75b140a7"
+        },
+        "sources": {
+          "before": [
+            {
+              "key": "nice-ng101",
+              "label": "Early and locally advanced breast cancer: diagnosis and management (NG101), recommendations",
+              "publisher": "NICE",
+              "year": 2018,
+              "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations",
+              "gradingScheme": "NICE does not grade recommendations; the strength is in the wording ('offer', 'consider', 'do not') and each is dated, for example [2009, amended 2023]. Published July 2018, last updated April 2025.",
+              "read": "full-text",
+              "accessed": "2026-11-11"
+            },
+            {
+              "key": "asco-2013",
+              "label": "Breast cancer follow-up and management after primary treatment: ASCO clinical practice guideline update",
+              "publisher": "ASCO, Journal of Clinical Oncology",
+              "year": 2013,
+              "url": "https://europepmc.org/abstract/MED/23129741",
+              "doi": "10.1200/JCO.2012.45.9859",
+              "read": "abstract",
+              "accessed": "2026-11-11"
+            },
+            {
+              "key": "acs-asco-2016",
+              "label": "American Cancer Society/American Society of Clinical Oncology Breast Cancer Survivorship Care Guideline",
+              "publisher": "American Cancer Society and ASCO, Journal of Clinical Oncology",
+              "year": 2016,
+              "url": "https://europepmc.org/abstract/MED/26644543",
+              "doi": "10.1200/JCO.2015.64.3809",
+              "read": "abstract",
+              "accessed": "2026-11-11"
+            },
+            {
+              "key": "esmo-2024",
+              "label": "Early breast cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+              "publisher": "ESMO, Annals of Oncology",
+              "year": 2024,
+              "url": "https://doi.org/10.1016/j.annonc.2023.11.016",
+              "doi": "10.1016/j.annonc.2023.11.016",
+              "read": "not-reachable",
+              "accessed": "2026-11-11"
+            }
+          ],
+          "after": [
+            {
+              "key": "nice-ng101",
+              "label": "Early and locally advanced breast cancer: diagnosis and management (NG101), recommendations",
+              "publisher": "NICE",
+              "year": 2018,
+              "url": "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations",
+              "gradingScheme": "NICE does not grade recommendations; the strength is in the wording ('offer', 'consider', 'do not') and each is dated, for example [2009, amended 2023]. Published July 2018, last updated April 2025.",
+              "read": "full-text",
+              "accessed": "2026-11-11"
+            },
+            {
+              "key": "asco-2013",
+              "label": "Breast cancer follow-up and management after primary treatment: ASCO clinical practice guideline update",
+              "publisher": "ASCO, Journal of Clinical Oncology",
+              "year": 2013,
+              "url": "https://europepmc.org/abstract/MED/23129741",
+              "doi": "10.1200/JCO.2012.45.9859",
+              "read": "abstract",
+              "accessed": "2026-11-11"
+            },
+            {
+              "key": "acs-asco-2016",
+              "label": "American Cancer Society/American Society of Clinical Oncology Breast Cancer Survivorship Care Guideline",
+              "publisher": "American Cancer Society and ASCO, Journal of Clinical Oncology",
+              "year": 2016,
+              "url": "https://europepmc.org/abstract/MED/26644543",
+              "doi": "10.1200/JCO.2015.64.3809",
+              "read": "abstract",
+              "accessed": "2026-11-11"
+            },
+            {
+              "key": "esmo-2024",
+              "label": "Early breast cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+              "publisher": "ESMO, Annals of Oncology",
+              "year": 2024,
+              "url": "https://doi.org/10.1016/j.annonc.2023.11.016",
+              "doi": "10.1016/j.annonc.2023.11.016",
+              "read": "not-reachable",
+              "accessed": "2026-11-11"
+            },
+            {
+              "key": "asco-2026",
+              "label": "Breast Cancer Follow-Up and Surveillance After Primary Treatment: ASCO Guideline Update",
+              "publisher": "ASCO, Journal of Clinical Oncology",
+              "year": 2026,
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42462191/",
+              "doi": "10.1200/jco-26-01700",
+              "gradingScheme": "Abstract read in full; original journal full text inaccessible. Recommendations combine available evidence and expert consensus.",
+              "read": "abstract",
+              "accessed": "2026-11-12"
+            },
+            {
+              "key": "asco-2026-summary",
+              "label": "ASCO Breast Cancer: Follow-Up and Surveillance After Primary Treatment pocket guide",
+              "publisher": "Guideline Central in participation with ASCO",
+              "year": 2026,
+              "url": "https://www.guidelinecentral.com/guideline/5236434/pocket-guide/5244655/",
+              "gradingScheme": "Risk-based intensity and selected recommendation notes read in the official practice summary; the journal article and complete methodology were not read.",
+              "read": "public-summary",
+              "accessed": "2026-11-12"
+            }
+          ],
+          "beforeSha256": "7e37740c696c55e5f5acd028b95443f5adbbb65cda7322fa15fa861379e533d3",
+          "afterSha256": "9fb5cf5d1ee221563bdae77474f546baf0147a1fed52d387f6a1026308b26108"
+        },
+        "steps": {
+          "before": [
+            {
+              "action": "Give the person and their GP an agreed written care plan with named professionals, review dates, the mammogram schedule, symptoms to report and how to reach the specialist team",
+              "why": "Most returns are noticed by the person between appointments, so knowing what to look for and whom to call matters more than the visits themselves.",
+              "source": "nice-ng101",
+              "quote": "Ensure all people who have had treatment for breast cancer have an agreed, written care plan, recorded in their notes by a named healthcare professional (or professionals) from the multidisciplinary team. Give a copy to the person and to their GP."
+            },
+            {
+              "action": "Offer a mammogram every year for 5 years, then for women continue yearly until they join the national breast screening programme",
+              "why": "Mammography finds a return in the treated breast or a new cancer in the other breast early.",
+              "source": "nice-ng101",
+              "quote": "Offer annual mammography for 5 years to all people who have had or are being treated for breast cancer, including DCIS."
+            },
+            {
+              "action": "After breast-conserving surgery, time the first mammogram 1 year after the diagnostic one and at least 6 months after radiotherapy",
+              "why": "Changes from radiotherapy settle over months, and an early image is harder to read.",
+              "source": "asco-2013",
+              "quote": "For women who have undergone breast-conserving surgery, a post-treatment mammogram should be obtained 1 year after the initial mammogram and at least 6 months after completion of radiation therapy."
+            },
+            {
+              "action": "Do not do mammography of the chest wall on the side of a mastectomy",
+              "why": "There is no breast tissue left to image there; changes are found by examination and symptoms.",
+              "source": "nice-ng101",
+              "quote": "Do not perform mammography of the ipsilateral soft tissues after mastectomy."
+            },
+            {
+              "action": "Do not use ultrasound or MRI routinely for surveillance",
+              "why": "NICE found no reason to use them routinely for people at ordinary risk; they find more harmless changes that then need checking.",
+              "source": "nice-ng101",
+              "quote": "Do not routinely use ultrasound or MRI for post-treatment surveillance in people who have had treatment for invasive breast cancer or DCIS."
+            },
+            {
+              "action": "Review history and examine every 3 to 6 months for 3 years, every 6 to 12 months in years 4 and 5, then yearly",
+              "why": "Regular review is a chance to check symptoms, side effects and whether endocrine therapy is being taken.",
+              "source": "asco-2013",
+              "quote": "Physical examinations should be performed every 3 to 6 months for the first 3 years, every 6 to 12 months for years 4 and 5, and annually thereafter."
+            },
+            {
+              "action": "Do not order routine blood tests, tumour markers, bone scans, chest X-rays, CT or PET in someone who is well with a normal examination",
+              "why": "The evidence does not support these tests in people without symptoms, and a false alarm leads to more tests and worry.",
+              "source": "asco-2013",
+              "quote": "is not recommended for routine follow-up in an otherwise asymptomatic patient with no specific findings on clinical examination."
+            },
+            {
+              "action": "Advise a healthy weight, regular physical activity, and alcohol below 5 units a week",
+              "why": "These are linked with a lower risk of the cancer coming back.",
+              "source": "nice-ng101",
+              "quote": "Advise people who have had or are being treated for breast cancer that a healthy lifestyle is associated with a lower risk of recurrence, and that this should include:"
+            },
+            {
+              "action": "In primary care, watch for long-term effects of treatment and support the person to keep taking endocrine therapy",
+              "why": "Long-term side effects affect daily life, and stopping endocrine therapy early loses part of its benefit.",
+              "source": "acs-asco-2016",
+              "quote": "Primary care clinicians should counsel patients about the importance of maintaining a healthy lifestyle, monitor for post-treatment symptoms that can adversely affect quality of life, and monitor for adherence to endocrine therapy."
+            }
+          ],
+          "after": [
+            {
+              "action": "Agree which guideline, risk group, remaining breast anatomy, age and ongoing treatment define the follow-up plan",
+              "why": "NICE and ASCO describe different pathways; the 2026 ASCO approach uses risk-based intensity rather than one calendar for everyone.",
+              "source": "asco-2026-summary"
+            },
+            {
+              "action": "Give the person and their GP an agreed written care plan with named professionals, review dates, the mammogram schedule, symptoms to report and how to reach the specialist team",
+              "why": "The written plan makes review dates, the mammogram schedule and access to the specialist team explicit.",
+              "source": "nice-ng101",
+              "quote": "Ensure all people who have had treatment for breast cancer have an agreed, written care plan, recorded in their notes by a named healthcare professional (or professionals) from the multidisciplinary team. Give a copy to the person and to their GP."
+            },
+            {
+              "action": "Under NICE NG101, offer annual mammography for 5 years, with women continuing yearly until entry to the national breast screening programme",
+              "why": "This is the NICE pathway; ASCO 2026 allows different frequency for selected lower-risk groups.",
+              "source": "nice-ng101",
+              "quote": "Offer annual mammography for 5 years to all people who have had or are being treated for breast cancer, including DCIS."
+            },
+            {
+              "action": "Recognise the historical ASCO 2013 first-mammogram timing after breast conservation: 1 year after the initial mammogram and at least 6 months after radiotherapy",
+              "why": "The quoted timing belongs to that guideline version rather than a universal schedule.",
+              "source": "asco-2013",
+              "quote": "For women who have undergone breast-conserving surgery, a post-treatment mammogram should be obtained 1 year after the initial mammogram and at least 6 months after completion of radiation therapy."
+            },
+            {
+              "action": "Do not do mammography of the chest wall on the side of a mastectomy",
+              "why": "This is a recommendation about routine imaging of the ipsilateral soft tissues, not a claim that mastectomy removes every cell or that symptoms need no evaluation.",
+              "source": "nice-ng101",
+              "quote": "Do not perform mammography of the ipsilateral soft tissues after mastectomy."
+            },
+            {
+              "action": "Under NICE NG101, do not routinely use ultrasound or MRI for post-treatment surveillance",
+              "why": "ASCO 2026 separately permits supplemental imaging discussions for selected risk and anatomical contexts; recommendations must retain their source and population.",
+              "source": "nice-ng101",
+              "quote": "Do not routinely use ultrasound or MRI for post-treatment surveillance in people who have had treatment for invasive breast cancer or DCIS."
+            },
+            {
+              "action": "Recognise the historical ASCO 2013 clinical-exam schedule: every 3 to 6 months for 3 years, every 6 to 12 months in years 4 and 5, then annually",
+              "why": "ASCO 2026 replaces a single calendar with risk-based intensity; the older quotation is retained as history.",
+              "source": "asco-2013",
+              "quote": "Physical examinations should be performed every 3 to 6 months for the first 3 years, every 6 to 12 months for years 4 and 5, and annually thereafter."
+            },
+            {
+              "action": "Avoid routine distant-recurrence screening tests in the overall asymptomatic post-treatment population; investigate symptoms or specific findings under the clinical plan",
+              "why": "The historical recommendation below and ASCO 2026 distinguish routine screening from indicated diagnostic evaluation. More testing can cause false alarms and additional procedures.",
+              "source": "asco-2013",
+              "quote": "is not recommended for routine follow-up in an otherwise asymptomatic patient with no specific findings on clinical examination."
+            },
+            {
+              "action": "Advise a healthy weight, regular physical activity, and alcohol below 5 units a week",
+              "why": "These are linked with a lower risk of the cancer coming back.",
+              "source": "nice-ng101",
+              "quote": "Advise people who have had or are being treated for breast cancer that a healthy lifestyle is associated with a lower risk of recurrence, and that this should include:"
+            },
+            {
+              "action": "In primary care, watch for long-term effects of treatment and support the person to keep taking endocrine therapy",
+              "why": "The survivorship guideline includes post-treatment symptoms, quality of life and endocrine-therapy adherence; its detailed late-effect recommendations were not read beyond the abstract.",
+              "source": "acs-asco-2016",
+              "quote": "Primary care clinicians should counsel patients about the importance of maintaining a healthy lifestyle, monitor for post-treatment symptoms that can adversely affect quality of life, and monitor for adherence to endocrine therapy."
+            },
+            {
+              "action": "Use the current ASCO risk-based clinical-review and breast-imaging recommendations within their stated populations when following that pathway",
+              "why": "Selected lower-risk groups have annual clinical follow-up; intermediate and high-intensity groups have different intervals. Mammographic de-escalation has age, risk and recurrence-free-time conditions, detailed below.",
+              "source": "asco-2026-summary"
+            }
+          ],
+          "beforeSha256": "81b0d83fd460af650043f3302297b317bdec5d5f2908a64bff0c4806f4edf9e9",
+          "afterSha256": "6a3fb8076620fcfa531e5de4c8b947ec1deb5a236d599dfca0ce792e1c52401b"
+        },
+        "summary": {
+          "before": "NICE NG101 offers annual mammography for 5 years to everyone who has had or is being treated for breast cancer, including DCIS, and for women continued annually until they enter the national screening programme; no mammography of the soft tissues on the side of a mastectomy; and no routine ultrasound or MRI for surveillance. ASCO (2013) recommends history and physical examination every 3 to 6 months for the first 3 years, every 6 to 12 months in years 4 and 5, and annually after that, with the first post-treatment mammogram 1 year after the initial one and at least 6 months after radiotherapy. Both advise against routine blood tests, tumour markers and body imaging in people without symptoms; the ACS/ASCO survivorship guideline (2016) agrees.\n\nEvery person should have an agreed written care plan held by them and their GP, with named professionals, dates for review of adjuvant therapy, the surveillance mammography, symptoms to report and how to reach specialist care quickly (NICE). Primary care follow-up includes healthy lifestyle advice, monitoring for long-term effects of treatment, and support to keep taking endocrine therapy (ACS/ASCO). Bone density checks on aromatase inhibitors and lymphoedema care are covered by their own protocols.",
+          "after": "Follow-up after curative treatment for early breast cancer asks several questions: recurrence or a new breast cancer, treatment effects, ongoing therapy and support needs. Screening an asymptomatic person for distant recurrence is a different question from investigating a symptom or finding. Earlier detection alone does not establish longer life or better quality of life.\n\nNICE NG101 recommends annual mammography for 5 years, with women continuing annually until they enter the national screening programme, and a written plan with access to the specialist team. ASCO's 2026 update uses risk-based follow-up intensity and permits less frequent mammography for a defined older, lower-risk group after an initial period. It still advises against routine distant-metastasis imaging or conventional blood-marker surveillance in the overall asymptomatic post-treatment population. Supplemental MRI or other breast imaging is a separate, individualised risk and anatomy discussion.\n\nThe 2006/2013 ASCO calendar is historical: examinations every 3 to 6 months for 3 years, every 6 to 12 months in years 4 and 5, then annually. Its first mammogram after breast conservation was 1 year after the initial mammogram and at least 6 months after radiotherapy. Those dated recommendations should not be presented as the latest single calendar. The 2026 recommendations and their evidence limits are distinguished below from the older trials and from experimental molecular surveillance.",
+          "beforeSha256": "e21f9fb94911a421348808542d618b3b689fe660c4ec9d2f5a481dc266c9e074",
+          "afterSha256": "7da0da3a327aeb50049bbc01dbb9424423db1d12f3747dd162cdac2ed5b77879"
+        },
+        "tldr": {
+          "before": "After treatment for early breast cancer, the main test is a yearly mammogram, usually for 5 years and then through the national screening programme. Routine scans and blood tests are not recommended when you are well, because the evidence does not show they help. You should get a written plan saying who to contact and which symptoms to report.",
+          "after": "Breast cancer follow-up combines a written care plan, review of symptoms and treatment effects, and breast imaging suited to risk and remaining tissue. Routine scans and blood markers to seek distant recurrence are not recommended for the overall asymptomatic post-treatment population.",
+          "beforeSha256": "a184a4645a5d0011b999892843cd43a5dfe64baf0801de6d2b98919d0b834e64",
+          "afterSha256": "317f0fd4e8511acce4972cc6e96fd300d54dd32bf47c602ac1eeae18c29c52a1"
+        },
+        "variants": {
+          "before": [
+            {
+              "name": "Scheduled clinical examinations (ASCO)",
+              "differs": "Sets a frequency for history and examination for life (every 3 to 6 months for 3 years, every 6 to 12 months for years 4 and 5, then yearly), where NICE sets no visit schedule and relies on the written plan and open access to the specialist team.",
+              "evidence": "ASCO's 2013 update found no new evidence that warranted changing its 2006 recommendations; ACS/ASCO (2016) say most evidence is not sufficient for a strong evidence-based recommendation. Read as abstracts.",
+              "sources": [
+                "asco-2013",
+                "acs-asco-2016"
+              ]
+            },
+            {
+              "name": "Mammography handed to the screening programme after 5 years (NICE)",
+              "differs": "After 5 years of yearly mammography, women continue yearly until they enter the NHS Breast Screening Programme in England or Breast Test Wales, after which screening follows the programme's own interval.",
+              "evidence": "NICE recommendation [2009, amended 2023]; NICE does not grade recommendations.",
+              "sources": [
+                "nice-ng101"
+              ]
+            }
+          ],
+          "after": [
+            {
+              "name": "Risk-based intensity (ASCO 2026)",
+              "differs": "Uses risk group, ongoing treatment and time since diagnosis to determine clinical follow-up intensity; permits less frequent mammography only in selected older, lower-risk groups after initial annual imaging.",
+              "evidence": "Complete abstract and selected official ASCO practice-summary recommendations; much of the risk-based scheduling is consensus-based, not a randomised comparison of every intensity group.",
+              "sources": [
+                "asco-2026",
+                "asco-2026-summary"
+              ]
+            },
+            {
+              "name": "Historical 2013 clinical examinations (ASCO)",
+              "differs": "Sets a frequency for history and examination for life (every 3 to 6 months for 3 years, every 6 to 12 months for years 4 and 5, then yearly), where NICE sets no visit schedule and relies on the written plan and open access to the specialist team. This is a historical comparator, not the latest ASCO calendar.",
+              "evidence": "ASCO's 2013 update found no new evidence that warranted changing its 2006 recommendations; ACS/ASCO (2016) say most evidence is not sufficient for a strong evidence-based recommendation. Read as abstracts.",
+              "sources": [
+                "asco-2013",
+                "acs-asco-2016"
+              ]
+            },
+            {
+              "name": "Mammography handed to the screening programme after 5 years (NICE)",
+              "differs": "After 5 years of yearly mammography, women continue yearly until they enter the NHS Breast Screening Programme in England or Breast Test Wales, after which screening follows the programme's own interval.",
+              "evidence": "NICE recommendation [2009, amended 2023]; NICE does not grade recommendations.",
+              "sources": [
+                "nice-ng101"
+              ]
+            }
+          ],
+          "beforeSha256": "59eacbe9d9fc44e82b4a072ccbd9655f39fe3a9e347087b4ef139f3698990381",
+          "afterSha256": "dc081638aba1437808cc231ded9983a4b4ec521b762d47f2934aa3e1a3028b66"
+        }
+      }
+    }
+  ],
+  "newRegisteredRecords": [
+    {
+      "id": "granzyme-b-pet",
+      "kind": "technology",
+      "name": "Granzyme B PET",
+      "aka": [
+        "Granzyme-B PET",
+        "Granzyme B molecular imaging"
+      ],
+      "tldr": "Granzyme B imaging uses a radioactive tracer to study an enzyme released by cytotoxic immune cells. Early studies show feasibility and response associations; they do not validate choosing or stopping treatment from a scan.",
+      "summary": "Granzyme B is an enzyme released by cytotoxic T cells and natural killer cells. Experimental PET tracers use labelled peptides or peptidomimetics to target granzyme-associated activity. This is distinct from CD8 antibody-derived binder imaging and does not by itself establish recognition of a particular tumour antigen, identify which cell released the enzyme or prove a durable response.\n\nLarimer's 2017 proof of concept used mouse models and examined human biopsy specimens; it was not a human PET trial. A 2026 review describes 68Ga and 18F tracer approaches and early human feasibility while noting standardisation and validation needs. In Shen's 2024 phase 1/2 study, 68Ga-grazytracer imaging in 24 patients with mixed solid tumours or lymphomas explored distribution, safety and response associations after immune treatment. It did not randomise a scan-guided treatment strategy.",
+      "status": "emerging",
+      "asOf": "2026-11-12",
+      "links": [
+        {
+          "label": "Larimer et al., 2017: granzyme B PET proof of concept",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28461564/"
+        },
+        {
+          "label": "Shen et al., 2024: phase 1/2 68Ga-grazytracer trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39389969/"
+        },
+        {
+          "label": "Filippi et al., 2026: granzyme B imaging review",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42223848/"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "immuno-pet",
+        "pet"
+      ],
+      "cancers": [],
+      "sections": [
+        "imaging"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "In Larimer's mouse experiments, granzyme-associated imaging separated treatment-response groups before tumour-size change. The human component examined tissue from nine biopsies; it did not establish human scan performance. CD8 presence alone does not establish tumour-antigen-specific recognition or killing. Granzyme release is a different observation and also cannot identify the contributing cell population or guarantee lasting benefit.",
+        "Shen's 24-person study combined several cancers and immune-treatment approaches, including checkpoint therapy alone, checkpoint therapy with chemotherapy and CAR-T therapy. No baseline granzyme PET was obtained, so a post-treatment value is not a measured within-person rise from baseline. Some patients with low uptake nevertheless had good outcomes, subgroup numbers were small, and optimal imaging time remained unsettled. Associations, feasible imaging and preliminary safety do not supply a validated treatment-selection threshold or prove that acting on the image helps."
+      ],
+      "principle": "A positron-emitting label on a peptide or peptidomimetic enables imaging of its granzyme-associated distribution; tracer chemistry, timing, access and background affect interpretation.",
+      "strengths": [],
+      "limitations": []
+    }
+  ],
+  "literalOwnerReceipts": {
+    "baseHead": "017b0871f5cc49fb6988b04252db0afebd0a46d6",
+    "owners": [
+      {
+        "id": "mri",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary",
+          "principle",
+          "strengths"
+        ],
+        "appendedNotes": [
+          "M1",
+          "M2",
+          "M3",
+          "M4",
+          "M5"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "ultrasound",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary"
+        ],
+        "appendedNotes": [
+          "U1",
+          "U2",
+          "U3",
+          "U4"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "mammography",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary"
+        ],
+        "appendedNotes": [
+          "A1",
+          "A2",
+          "A3",
+          "A4"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "pet",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary",
+          "principle"
+        ],
+        "appendedNotes": [],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "fdg-pet",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary"
+        ],
+        "appendedNotes": [],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "pet-ct",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary"
+        ],
+        "appendedNotes": [
+          "P1",
+          "P2",
+          "P3",
+          "P4",
+          "P5"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "immuno-pet",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary",
+          "principle",
+          "related"
+        ],
+        "appendedNotes": [
+          "I1",
+          "I2",
+          "I3",
+          "I4",
+          "I5",
+          "I6"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "theranostics",
+        "file": "src/data/terms.ts",
+        "scalarFields": [],
+        "appendedNotes": [
+          "T1",
+          "T2",
+          "T3",
+          "T4"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "radioligand-dosimetry",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [],
+        "appendedNotes": [
+          "D1"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "breast-cancer-follow-up-after-treatment",
+        "file": "src/data/protocols/breast-cancer-follow-up-after-treatment.ts",
+        "scalarFields": [
+          "tldr",
+          "simple",
+          "summary",
+          "population",
+          "steps",
+          "sources",
+          "bestInClass",
+          "variants",
+          "gaps"
+        ],
+        "appendedNotes": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7",
+          "S8",
+          "S9",
+          "S10",
+          "S11"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      }
+    ],
+    "files": [
+      {
+        "file": "src/data/terms.ts",
+        "beforeSha256": "4f8246173cf1576f426f2a17b382a41c70c243ef7e8ae6fcfd947aefb1eeaaa2",
+        "afterSha256": "0890ca0cfe9dbaae36e01e872a8cbd71c9a95d354db77705061a17d96c8066af",
+        "edits": [
+          {
+            "id": "theranostics",
+            "field": "asOf"
+          },
+          {
+            "id": "theranostics",
+            "field": "notes"
+          }
+        ]
+      },
+      {
+        "file": "src/data/protocols/breast-cancer-follow-up-after-treatment.ts",
+        "beforeSha256": "f3ac79d03600213631cad980c15d9fec4637fb596d2903e0d0120ef7ce8611c6",
+        "afterSha256": "2ca424edbb7983dc75d0fbd366120992df01206351337efd56547e9631a2e62f",
+        "edits": [
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "tldr"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "simple"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "summary"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "population"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "steps"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "sources"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "bestInClass"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "variants"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "gaps"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "asOf"
+          },
+          {
+            "id": "breast-cancer-follow-up-after-treatment",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/technologies.ts",
+        "beforeSha256": "2487db1c1677e4cfcbe29705ae1c9f2a516444a0a3208b610e37643ad97f69ec",
+        "afterSha256": "d29fcaf3c03cff7fde1ead85a1be6eba76adeed7eec7773ac09c258e06427bed",
+        "edits": [
+          {
+            "id": "mri",
+            "field": "tldr"
+          },
+          {
+            "id": "mri",
+            "field": "summary"
+          },
+          {
+            "id": "mri",
+            "field": "principle"
+          },
+          {
+            "id": "mri",
+            "field": "strengths"
+          },
+          {
+            "id": "mri",
+            "field": "asOf"
+          },
+          {
+            "id": "mri",
+            "field": "links"
+          },
+          {
+            "id": "mri",
+            "field": "insert-properties"
+          },
+          {
+            "id": "ultrasound",
+            "field": "tldr"
+          },
+          {
+            "id": "ultrasound",
+            "field": "summary"
+          },
+          {
+            "id": "ultrasound",
+            "field": "asOf"
+          },
+          {
+            "id": "ultrasound",
+            "field": "links"
+          },
+          {
+            "id": "ultrasound",
+            "field": "insert-properties"
+          },
+          {
+            "id": "mammography",
+            "field": "tldr"
+          },
+          {
+            "id": "mammography",
+            "field": "summary"
+          },
+          {
+            "id": "mammography",
+            "field": "asOf"
+          },
+          {
+            "id": "mammography",
+            "field": "links"
+          },
+          {
+            "id": "mammography",
+            "field": "insert-properties"
+          },
+          {
+            "id": "pet",
+            "field": "tldr"
+          },
+          {
+            "id": "pet",
+            "field": "summary"
+          },
+          {
+            "id": "pet",
+            "field": "principle"
+          },
+          {
+            "id": "pet",
+            "field": "asOf"
+          },
+          {
+            "id": "pet",
+            "field": "links"
+          },
+          {
+            "id": "fdg-pet",
+            "field": "tldr"
+          },
+          {
+            "id": "fdg-pet",
+            "field": "summary"
+          },
+          {
+            "id": "fdg-pet",
+            "field": "asOf"
+          },
+          {
+            "id": "fdg-pet",
+            "field": "links"
+          },
+          {
+            "id": "pet-ct",
+            "field": "tldr"
+          },
+          {
+            "id": "pet-ct",
+            "field": "summary"
+          },
+          {
+            "id": "pet-ct",
+            "field": "asOf"
+          },
+          {
+            "id": "pet-ct",
+            "field": "links"
+          },
+          {
+            "id": "pet-ct",
+            "field": "insert-properties"
+          },
+          {
+            "id": "immuno-pet",
+            "field": "tldr"
+          },
+          {
+            "id": "immuno-pet",
+            "field": "summary"
+          },
+          {
+            "id": "immuno-pet",
+            "field": "principle"
+          },
+          {
+            "id": "immuno-pet",
+            "field": "asOf"
+          },
+          {
+            "id": "immuno-pet",
+            "field": "links"
+          },
+          {
+            "id": "immuno-pet",
+            "field": "insert-properties"
+          },
+          {
+            "id": "radioligand-dosimetry",
+            "field": "asOf"
+          },
+          {
+            "id": "radioligand-dosimetry",
+            "field": "notes"
+          }
+        ]
+      }
+    ],
+    "runtimeSupplementsMaterialised": false
+  },
+  "summaryConsumerCorrections": {
+    "scope": "Current exact-table preconditions; no named review changed. Missing table entries retain English fallback. No new language approval.",
+    "files": [
+      {
+        "file": "src/data/i18n/ar.ts",
+        "beforeSha256": "e172fb96709a9052d6b42a4cc37ae67f54e8c85600c187831cd06e8b66b43b62",
+        "afterSha256": "624bde770871c213ece02afee88ebe8d83116dfa4410054c1c214f41dcc8e305",
+        "changes": [
+          {
+            "id": "ultrasound",
+            "language": "ar",
+            "before": "يستخدم التصوير بالموجات فوق الصوتية موجات صوتية لإنتاج صور حية؛ وهو زهيد التكلفة وآمن ويُستخدم لتوجيه الإبر إلى داخل الكتل.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "a0b971845a1204b0fc8faaa120390b6b8a62c81112e6242265584031270c218e",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "ar",
+            "before": "يستخدم المغناطيس وموجات الراديو، من دون إشعاع، لإعطاء صور دقيقة جداً للأنسجة الرخوة مثل الدماغ والثدي والكبد والبروستاتا.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "10de0eed431a9955c5dcf9414fd4dc21aecdba630e6e59c062bc9f292a49b77e",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "ar",
+            "before": "PET وCT في جهاز واحد، بحيث تُثبَّت البقع النشطة في صورة PET على مواقعها الدقيقة في صورة CT.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3744bb0f9c80e512dde8654171b6d80af35c86761b59fb191f5c48ff3d38d262",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "ar",
+            "before": "فحص تصويري يُظهر أين يتراكم مقتفٍ إشعاعي، وبذلك يصوّر ما تفعله الأورام وليس شكلها.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "e6fac87315085d19a960db5c64b8f870dc48e3a248cf0471e8569cdfab614cc3",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "ar",
+            "before": "تصوير الثدي بالأشعة السينية بجرعة منخفضة يُستخدم للفحص المبكر. وتكشف النسخ الثلاثية الأبعاد الأحدث عدداً أكبر من السرطانات مع عدد أقل من الإنذارات الكاذبة.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3a55bb8291eba59868adba36a0165e7478d2f940cbfa6ed6062269cd7961a834",
+            "afterSha256": null
+          },
+          {
+            "id": "immuno-pet",
+            "language": "ar",
+            "before": "فحوصات PET تُجرى باستخدام أجسام مضادة موسومة إشعاعياً أو أجزاء منها، لرؤية أي بروتين يمكن للجسم المضاد الوصول إليه، بما في ذلك الخلايا المناعية داخل الأورام.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "dfe998410fb6b1fbc4c7eacb9958de1373c93cbb8fe6aa54d63eac0903f1df35",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "ar",
+            "before": "FDG PET هو فحص PET المعياري. يُظهر سكر مشعّ أيّ الأنسجة تحرق الغلوكوز بسرعة، وهو ما تفعله معظم السرطانات.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "265e31762468107f57e93ad43069b99b967000f139a648a50774bf47ef0615b4",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "beforeSha256": "c56852f044ddaab685dd4c35b19508f4a5bbb9b7178d6eb43113b0af2f621260",
+        "afterSha256": "0baa2e93bdc40982e6001cfaf53f70b9821f6745f13dca3688ccaea7dc53bc8a",
+        "changes": [
+          {
+            "id": "ultrasound",
+            "language": "de",
+            "before": "Ultraschall nutzt Schallwellen, um Live-Bilder zu erzeugen; er ist günstig, sicher und wird eingesetzt, um Nadeln in Knoten zu führen.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "b6d1870c8926ba3b8302bf1d7f3c1275e3cbd079841ba0a5f0c44892f6a804ef",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "de",
+            "before": "Nutzt Magnete und Radiowellen, ohne Strahlung, um sehr detaillierte Bilder von Weichgewebe wie Gehirn, Brust, Leber und Prostata zu liefern.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "31703de88267d2db3f0a61c8d37ea849df54e5866729e61575f8d04b38fdae1d",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "de",
+            "before": "PET und CT in einem Gerät, sodass die auffälligen Herde im PET exakten Stellen im CT zugeordnet werden.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "358993c71407d2d7f8fc308e2ad4c5da010445b58e1bc6f9d25a3e81766607bc",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "de",
+            "before": "Eine Untersuchung, die zeigt, wo sich ein radioaktiver Marker ansammelt, und so abbildet, was Tumoren tun, statt wie sie aussehen.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "22ca16d3f9984b0f724c25adba5bc4a57c0a44d526102dc11bf103d60880692b",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "de",
+            "before": "Strahlungsarme Röntgenaufnahme der Brust zur Früherkennung. Neuere 3D-Versionen finden mehr Krebsfälle bei weniger Fehlalarmen.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ee5c3479550294de3e93d93a0dd9865fe4055c9d131df8f0d5b9773f75365335",
+            "afterSha256": null
+          },
+          {
+            "id": "immuno-pet",
+            "language": "de",
+            "before": "PET-Untersuchungen mit radioaktiv markierten Antikörpern oder deren Fragmenten, um jedes Protein sichtbar zu machen, das ein Antikörper erreichen kann, einschließlich Immunzellen im Inneren von Tumoren.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "f5c376579df0ebf5c44a173389d4f3966b9cf1c90e622a73abb79ea3f4bbaac7",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "de",
+            "before": "FDG PET ist die Standard-PET-Untersuchung. Ein radioaktiver Zucker zeigt, welche Gewebe schnell Glukose verbrennen, was die meisten Krebsarten tun.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "aed8db0cab40987aa1249765ffa2711f1cfa5790405fdb0a0a20fa531d35aaca",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "beforeSha256": "c9c9486a429daf8c7a4f13410cdbd199e48495b60a797c73162ef870b9b839ad",
+        "afterSha256": "a9c25b4496fb67a252959ed150242e5900dc9922aaddfc73cf7bc94ec0dd3741",
+        "changes": [
+          {
+            "id": "immuno-pet",
+            "language": "es",
+            "before": "PET construidos a partir de anticuerpos radiomarcados o sus fragmentos, para ver cualquier proteína alcanzable por un anticuerpo, incluidas las células inmunitarias dentro de los tumores.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "42afde9d7a74fefae28ee96bfe3322bc2e2cdb5249d359fbbf9f0c51802be3d5",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "es",
+            "before": "El PET estándar. Un azúcar radiactivo muestra qué tejidos consumen glucosa con rapidez, como hacen la mayoría de los cánceres.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4831bb51286a0769a31ce65dc0fb0c35b04afca2a238a726ebb107ddafbdb285",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "es",
+            "before": "PET y TC en una sola máquina, para que los puntos calientes del PET se sitúen con exactitud en la TC.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "dee18016c6db77bf5a06987ad7b9840a28210521381722ce6c11994ac58e9dc9",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "es",
+            "before": "Una exploración que muestra dónde se acumula un trazador radiactivo, de modo que refleja lo que hacen los tumores y no solo su forma.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "1176e9ce24fc852d4bc6ccb059f5aab62f7c69e4b43ebafff0f8b6f5ecb34078",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "es",
+            "before": "Radiografía de mama de baja dosis para el cribado. Las versiones 3D más nuevas encuentran más cánceres con menos falsas alarmas.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "1fb75157c6d2618b6e07cbac49ee557e7228c0db9ae8ad6f151996b1012d07d9",
+            "afterSha256": null
+          },
+          {
+            "id": "ultrasound",
+            "language": "es",
+            "before": "Las ondas sonoras crean imágenes en vivo; barato, seguro y usado para guiar agujas hacia los bultos.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "9881e9dcf690cd788e2d53bb31d1508fc8dfacc9e8dc4190828a4a52fddfce76",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "es",
+            "before": "Usa imanes y ondas de radio, sin radiación, para dar imágenes muy detalladas de tejidos blandos como cerebro, mama, hígado y próstata.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5c69d5b014a68123fe0a971c8b92adc2291515a3bc49ecd6228aaf9fce88c080",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "beforeSha256": "937fc688ddd3ae127836b8e70584a4cb1484450ec7ef8c57a034d0c7a3227212",
+        "afterSha256": "0463175dc1285e4cb4e121c8e01be95ac037fe2d9391e27be980d3c6ba1fa40f",
+        "changes": [
+          {
+            "id": "ultrasound",
+            "language": "fr",
+            "before": "L'échographie utilise des ondes sonores pour produire des images en direct ; elle est peu coûteuse, sûre et sert à guider les aiguilles jusque dans les masses.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "608d9d11b8a5c3d602e88201e4f4941fdd8f045470f0526527377ce62c6ead70",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "fr",
+            "before": "Utilise des aimants et des ondes radio, sans rayonnement, pour fournir des images très détaillées des tissus mous tels que le cerveau, le sein, le foie et la prostate.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "e6c9dd63b27bedc602801fb22ec1a084d66d70753e1de34231b254f7df49c865",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "fr",
+            "before": "La PET et le CT dans une seule machine, de sorte que les zones actives sur la PET sont localisées avec précision sur le CT.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4f41c42afd5b0b6a068b4eaf8fc8d76997c9041bafba5c4cb8b44ca985315d06",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "fr",
+            "before": "Un examen d'imagerie qui montre où s'accumule un traceur radioactif, et qui visualise donc ce que font les tumeurs plutôt que leur apparence.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "8dd3d67b703f597f7c0ab4dd7370a35f4477ff82cd8bc8356ce389e2a16aa4c7",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "fr",
+            "before": "Radiographie du sein à faible dose utilisée pour le dépistage. Les versions 3D plus récentes détectent davantage de cancers avec moins de fausses alertes.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "2ff6a414fbda60d7db3cabd67eb341bcf1b3edac7f3120f72a2800d62441e26d",
+            "afterSha256": null
+          },
+          {
+            "id": "immuno-pet",
+            "language": "fr",
+            "before": "Des examens PET réalisés avec des anticorps radiomarqués ou leurs fragments, pour visualiser toute protéine qu'un anticorps peut atteindre, y compris les cellules immunitaires à l'intérieur des tumeurs.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4608ac26507925c40cdf3735b5ca8e76681118530fd8d43e09c35a9cb4dd29c3",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "fr",
+            "before": "La TEP au FDG est l'examen TEP standard. Un sucre radioactif montre quels tissus consomment rapidement du glucose, ce que font la plupart des cancers.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "277bec3544c085240a68172d4d8a1995f28dfcc162adc96f19e3f32d58ed1f2c",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "beforeSha256": "d62be35912401662afaa3891e3129fe888f33c16d2baa3dee5485f47c585a3a7",
+        "afterSha256": "7e161b3707819e8d082687148f81652c1e33a047124519cf1df224784850ce96",
+        "changes": [
+          {
+            "id": "immuno-pet",
+            "language": "hi",
+            "before": "रेडियोलेबल एंटीबॉडी या उनके टुकड़ों से बने PET, जो एंटीबॉडी की पहुँच वाले किसी भी प्रोटीन को दिखाते हैं, ट्यूमर के भीतर की प्रतिरक्षा कोशिकाओं समेत।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "f4741f68e7bed438eed8638f5ddf51dcf7c5b7ac55af59a2eac9447f1e5c8a9e",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "hi",
+            "before": "मानक PET स्कैन। एक रेडियोधर्मी शर्करा दिखाती है कि कौन से ऊतक तेज़ी से ग्लूकोज़ जला रहे हैं, जो अधिकांश कैंसर करते हैं।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5694667a1f975395a01f1b80f374f33953c11bb8cb373cd2a604a4cf43bfabbd",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "hi",
+            "before": "एक मशीन में PET और CT, ताकि PET के गर्म बिंदु CT पर सटीक स्थान पर टिकें।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "7453b0b53a4779a97f6dfdf06fa95c3dd92cde3aa38f17e353f71bf6d5136365",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "hi",
+            "before": "एक स्कैन जो दिखाता है कि रेडियोधर्मी ट्रेसर कहाँ जमा होता है, इसलिए यह ट्यूमर के दिखने के बजाय उनके काम को दर्शाता है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "6458c5f3b2a95106f93a098523951d15238aad80e0f90f228f7d1d24e13d488e",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "hi",
+            "before": "स्क्रीनिंग के लिए कम-डोज़ स्तन एक्स-रे। नए 3D संस्करण कम झूठे अलार्म के साथ ज़्यादा कैंसर खोजते हैं।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "dae45a2d31eea608541221f2f58a364160edec1c5c749889f8f879e8365e48fc",
+            "afterSha256": null
+          },
+          {
+            "id": "ultrasound",
+            "language": "hi",
+            "before": "ध्वनि तरंगें जीवंत चित्र बनाती हैं; सस्ता, सुरक्षित और गाँठों में सुई निर्देशित करने में प्रयुक्त।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "382c3f3f795afb8d83a15e3d23aae4ee9520fa139f090d015c17e2862e1256e3",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "hi",
+            "before": "चुंबक और रेडियो तरंगों से, बिना विकिरण, मस्तिष्क, स्तन, लिवर और प्रोस्टेट जैसे कोमल ऊतकों की बहुत विस्तृत छवियाँ देता है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "3ece0869704f16251e9df1a4c4af7cd3724afe2b97d6c84750b2a3f2dfc99606",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "beforeSha256": "ff2b083112f6553fb63fee75f1cd40a9d5b6af39225ff8cf8573b8ead20e8a13",
+        "afterSha256": "4790ee893381e94f4d6352b985b3528f51c7e647df68b4014669d51e8376c71a",
+        "changes": [
+          {
+            "id": "ultrasound",
+            "language": "ja",
+            "before": "超音波検査は音波を使ってリアルタイムの画像を作る。安価で安全であり、しこりに針を刺すときの誘導にも使われる。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "738e7afb330052f7dea3ccfaf5267f33cda8badcba77e358dae329e7605e4d38",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "ja",
+            "before": "磁石と電波を使い、放射線を使わずに、脳、乳房、肝臓、前立腺などの軟部組織を非常に細かく映し出す。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "63de78bbbebb69c918694a359bff97460a6c5853e9f0b45906dfae33c1367e9a",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "ja",
+            "before": "PETとCTを1台の装置にまとめたもので、PETで光る部分をCT上の正確な位置に重ねて特定できます。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "71d6198ea9f5b58f1a0f9c7db936dab9fed4a6456e960cc7b8f02badb5a6f11c",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "ja",
+            "before": "放射性トレーサーがどこに集まるかを映し出す検査で、腫瘍の見た目ではなく、腫瘍が何をしているかを画像にします。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "b45d6164bc4f8a045737ecbd5993782ff47eaaf461d8cc515fb731019df71313",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "ja",
+            "before": "検診に使われる低線量の乳房 X 線検査。新しい 3D 版では、より多くのがんを見つけながら、誤報は少なくなっている。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "322351f6dd9a54c86b57ba7a2d02f75942e368f09b720d7c9167cf30743e46c6",
+            "afterSha256": null
+          },
+          {
+            "id": "immuno-pet",
+            "language": "ja",
+            "before": "放射性標識した抗体やその断片を使ったPET検査で、抗体が届くあらゆるタンパク質を可視化でき、腫瘍内部の免疫細胞も見ることができる。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "034adbf202a18941ca3b029bc47ebadbd473645802b35b3b2340c035c6e87975",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "ja",
+            "before": "FDG PETは標準的なPET検査である。放射性の糖を使って、どの組織がブドウ糖を速く消費しているかを映し出す。ほとんどのがんはそうした性質を持っている。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "a54a3f759678e9a9dbd117bf89c6f4a38270a80c2f9f390a2af7d5873d7aacb4",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "beforeSha256": "b3f76f3e0bbb303bfe9fefb381eaf798d9ff3bf29d111a031493bd0cc1e14e3a",
+        "afterSha256": "59f3452a83b1d2c19f95c4ce0cc1e6019229de6f3bf6de84fbc99fd325d31a57",
+        "changes": [
+          {
+            "id": "immuno-pet",
+            "language": "pt",
+            "before": "PETs construídos a partir de anticorpos radiomarcados ou seus fragmentos, para ver qualquer proteína que um anticorpo alcance, inclusive células imunes dentro dos tumores.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4e703941e7c31bb301a3d9e9508c92ab86610be22674947b38d1060a978deaf0",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "pt",
+            "before": "O PET padrão. Um açúcar radioativo mostra quais tecidos estão queimando glicose rapidamente, como a maioria dos cânceres faz.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "d8b9306a9357da81f99dfde2720d71d5b53dbc5c77abad905a09543d74e7f0ba",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "pt",
+            "before": "PET e tomografia em uma só máquina, para que os pontos quentes do PET fiquem fixados em locais exatos da tomografia.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "fd66a5d92f81563b01821c1d819b0a1122799638dde5f282539a67fa0d63e268",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "pt",
+            "before": "Um exame que mostra onde um traçador radioativo se acumula, de modo que retrata o que os tumores estão fazendo, e não só sua aparência.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "361d0cedd6e92e7dfb5d86bd77a2f214fb121d4ce5f7d9b41f0f5bac36d0122a",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "pt",
+            "before": "Raio X de mama de baixa dose usado no rastreamento. Versões 3D mais novas encontram mais cânceres com menos alarmes falsos.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "531fdf4028cd6ac4fb49091444d6e23a5e96f3d10158ad265fb09700299ad735",
+            "afterSha256": null
+          },
+          {
+            "id": "ultrasound",
+            "language": "pt",
+            "before": "Ondas sonoras produzem imagens ao vivo; barato, seguro e usado para guiar agulhas até caroços.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "0d98ed17b1e7e9b7a425cf9e61d8f61f640426da90940e393ed13802a8c912fb",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "pt",
+            "before": "Usa ímãs e ondas de rádio, sem radiação, para dar imagens muito detalhadas de tecidos moles como cérebro, mama, fígado e próstata.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "73b5f968f1fc06bc3ecee79f9632127143af747310b0db5dc41dcfbfc2fa3285",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "beforeSha256": "b2e91cd33719e56c76c43ded1e416123c92b3b0c55d472ad035e890f53127e88",
+        "afterSha256": "7f9000982eb69bb5aa3c9d32a33e4dc57677c84d08c66f2857505a374f4a4bf7",
+        "changes": [
+          {
+            "id": "immuno-pet",
+            "language": "zh",
+            "before": "由放射标记抗体或其片段构建的PET，能看到抗体可触及的任何蛋白，包括肿瘤内的免疫细胞。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5e184230ef881dd4feb3d2aeb5b187cf2ea27ac83d061002c42d41627ef7cb52",
+            "afterSha256": null
+          },
+          {
+            "id": "fdg-pet",
+            "language": "zh",
+            "before": "标准PET。放射性糖显示哪些组织在快速消耗葡萄糖，大多数癌症如此。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "603ec8dc140fa8dccf8398680c8354b85ea4196ae0303b43621b31a68085b0de",
+            "afterSha256": null
+          },
+          {
+            "id": "pet-ct",
+            "language": "zh",
+            "before": "PET和CT合于一机，PET上的热点被精确定位到CT上。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "eb532c37e88f59552a05b69abf32377842d04fc66b69f1c391d1359f9f72fc55",
+            "afterSha256": null
+          },
+          {
+            "id": "pet",
+            "language": "zh",
+            "before": "显示放射性示踪剂在何处聚集的扫描，因此反映肿瘤在做什么而非仅是外形。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "c521d7b8c47f6d20c69e1b356625065bf1606bba3c40dac8c0bb7879681ca1aa",
+            "afterSha256": null
+          },
+          {
+            "id": "mammography",
+            "language": "zh",
+            "before": "用于筛查的低剂量乳腺X光。新的3D版本发现更多癌症且误报更少。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "5566c984e51898ef398083ce6c19553c190d183ab29018b83b5e2c2c4a671d11",
+            "afterSha256": null
+          },
+          {
+            "id": "ultrasound",
+            "language": "zh",
+            "before": "声波生成实时图像；廉价、安全，用于引导穿刺。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "90621667d8b5b55e6efa38d73baa8292cd06957acf417b61978ae8c955e67714",
+            "afterSha256": null
+          },
+          {
+            "id": "mri",
+            "language": "zh",
+            "before": "利用磁场和无线电波、无辐射，给出脑、乳腺、肝和前列腺等软组织的高清图像。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "987e66f815fdb264b996bff315b51fc4bd26216b19f739b4e863490d62b319d0",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-a.ts",
+        "beforeSha256": "b2da2714092637b182f88fab07b18add076bede0445892811681883500f3f5c8",
+        "afterSha256": "fdabac562fb7bda8355db11c2a381523056f8fe82526e722f7c44374f7101ac5",
+        "changes": [
+          {
+            "id": "immuno-pet",
+            "language": "simple",
+            "before": "Scans built from radioactive antibodies, which can show any protein an antibody can reach, including immune cells inside tumours.",
+            "after": "A labelled antibody or antibody fragment is traced in the body. Access, binding and clearance affect the image; treatment benefit needs separate evidence.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "075c562ad6651267dff71d4bbecd11a2f359247497f315e750d7de6ca2ae930f",
+            "afterSha256": "2990ce463cf089422b2d084e0b059f28415ed65efbc685759ab5bdfceb756166"
+          },
+          {
+            "id": "fdg-pet",
+            "language": "simple",
+            "before": "The standard PET scan. A radioactive sugar shows which tissues are burning energy fast, which most cancers do.",
+            "after": "This scan uses a radioactive glucose analogue. Normal tissues, inflammation and some cancers take it up, so a bright area is not a cancer diagnosis.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "dd655eb84b4737a5dc34382224a1bf35246341b1e16738009922144dd998579f",
+            "afterSha256": "94e7c15c5a5f9edcad0119b134a76c4013ff83815013cf7c47bf8b0897f413e9"
+          },
+          {
+            "id": "pet-ct",
+            "language": "simple",
+            "before": "PET and CT in one machine, so hot spots are pinned to exact places in the body.",
+            "after": "This examination combines a tracer-distribution image with X-ray anatomy. Uptake, location and scan conditions are interpreted together.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "ad7aadcfb52676813c9cc45f297f7715d6a3b8f9753ec82ea1d77916e04bcb4a",
+            "afterSha256": "023553ad6803c3ca1f41c5e4d500954ef2e2357d29353f7586af7edf6a70ff9d"
+          },
+          {
+            "id": "pet",
+            "language": "simple",
+            "before": "A scan that shows where a tiny radioactive tracer collects, so it shows what tumours are doing, not just their shape.",
+            "after": "This scan shows where a named radioactive tracer goes. Normal tissues and disease can contribute signal; uptake does not count cancer cells.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "46d1f140ba4a5891cf2beea8a2911a9f2e8daf4e1c50d5c762be324aa39db6b3",
+            "afterSha256": "2a33559b39ce4d0c3f57b2dab114f1ea9b723c60725cacf59481fb54ddaec2a6"
+          },
+          {
+            "id": "mammography",
+            "language": "simple",
+            "before": "A low-dose breast X-ray used for screening. Newer 3D versions find more cancers with fewer false alarms.",
+            "after": "Low-dose X-rays show breast patterns. Images reconstructed from several angles are computed sections, rather than removed tissue viewed under a microscope.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "cf7050dbc024511f68869442e20ca5afb88e6e53621e1c96d8bbd8115be74de9",
+            "afterSha256": "86151623da6bd73db9a3d7fcc223c6418f5f68df357b45c8153a2aecda3e9133"
+          },
+          {
+            "id": "ultrasound",
+            "language": "simple",
+            "before": "Sound waves make live pictures. Cheap, safe, and used to guide needles into lumps.",
+            "after": "Sound echoes make an image of a selected region and can guide a needle. The image does not establish the cell type or rule out all cancer.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "d84acc98829445af2540c51573bfccbc8bc9b3fa0b47b214781d8f6e29a94d74",
+            "afterSha256": "3d65cbae197565375d98499ab2b5969d2fed5e26166fa4c2597dbd1c58becebc"
+          },
+          {
+            "id": "mri",
+            "language": "simple",
+            "before": "A scan using magnets and radio waves, with no radiation, that gives very detailed pictures of soft parts of the body.",
+            "after": "A magnetic field and radio waves make tissue images. Breast screening is one selected use. Enhancement and image volume do not count living cancer cells.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "29bf008a52b345d051b89754c92afa28141e4e7acd2d91a86a6aa796b0c9c3b1",
+            "afterSha256": "658e68e71154158f09f24ece2d1db1ac36c7710cb1c4ece7434eddb4788b63b2"
+          }
+        ]
+      }
+    ],
+    "withdrawnTranslations": 56,
+    "correctedSimpleEntries": 7,
+    "gateRefinement": "Seven updated Simple English entries shortened below 200 characters; original before hashes preserved. No floor or budget changed."
+  },
+  "schematicChange": "Existing PET detector geometry assigned to the new technology with a granzyme-tracer-distribution label; no antibody-specific or FDG-specific animation reused.",
+  "retainedQuotationsNotesAndLinks": true,
+  "noFrozenPeerEdit": true
+}

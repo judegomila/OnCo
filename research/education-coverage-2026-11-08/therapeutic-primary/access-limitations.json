@@ -1,0 +1,21 @@
+[
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5680544/fullTextXML",
+    "finding": "HTTP 500; no content used",
+    "alternative": "The named NCBI BioC response was retrieved and the stated sections were read."
+  },
+  {
+    "source": "PARP payload Crossref request",
+    "finding": "The initial concurrent request did not finish successfully; the sequential retry returned the resolved identity and deposited abstract.",
+    "scope": "Only the successful capture is used; no publisher full manuscript is asserted."
+  },
+  {
+    "urls": [
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761137s037lbl.pdf",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/761064s000lbl.pdf",
+      "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125427s125lbl.pdf"
+    ],
+    "finding": "Direct FDA PDF URLs returned HTTP 404 in the raw fetch; search summaries were not substituted for raw label content.",
+    "alternative": "DailyMed raw label HTML for the respective source set identifiers was retrieved; the scoped correction fields were read. Kadcyla is held for a later composition proposal and is not new load-bearing evidence in this checkpoint."
+  }
+]

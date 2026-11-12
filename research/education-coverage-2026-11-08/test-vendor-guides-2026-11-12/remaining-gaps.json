@@ -1,0 +1,29 @@
+{
+  "unrepresentedSubstantiveRows": [],
+  "requiredRetainedSourceWork": [
+    "Recheck the retained intention-to-treat summary against primary statistical guidance: superiority/non-inferiority scope, modified ITT, evaluable and safety populations, categorical inflation claims and the assertion about default analyses across OnCo trial/drug pages. The new guide comparison uses only the definition and explicit denominator distinctions; it does not certify those broader baseline assertions."
+  ],
+  "sourceReadingLimits": [
+    {
+      "source": "FDA-NIH BEST chapters NBK402283 and NBK338448",
+      "failure": "Both raw responses returned HTTP 200 browser-check/reCAPTCHA pages, not chapter text. No bypass and no body reading claimed. MedlinePlus and defined fictional/inference reasoning are used for the adopted teaching."
+    },
+    {
+      "source": "Morgan 2006",
+      "failure": "Full text not obtained. The NCBI response is metadata-only and is not credited as a body."
+    },
+    {
+      "source": "TRIPOD+AI 2024",
+      "failure": "Identity resolved, no abstract in the registry response and no fresh body read. Used only for custody identity and explicitly inherited context."
+    }
+  ],
+  "limits": [
+    "No whole original paper, review or guidance was read. Four complete abstracts, specified targeted primary paragraphs, eight PDF text pages and selected official web passages retain their stated depth.",
+    "The two BEST responses are reCAPTCHA/browser checks, not readable chapter bodies. Morgan full text was not retrieved; the NCBI response has metadata/abstract only. TRIPOD+AI identity was resolved without a fresh abstract/body read.",
+    "Earlier peer drafts, selected unchanged catalogue fields and generic ITT assertions are not recertified. The precise ITT follow-up is retained in the existing adjacent group.",
+    "Overview checks reuse chapter evidence without independent science credit. Recaps, routing/source lists and two personal-context sections earn no extra teaching points.",
+    "Full-extent qualitative source-image checks are not measured contrast, comprehensive accessibility, expert or learner approval. Historical support-record PASS is not new approval.",
+    "No full Next production build, browser hydration, mobile, main/live or deployment credit."
+  ],
+  "broaderAuditComplete": false
+}

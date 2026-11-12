@@ -1,0 +1,1350 @@
+{
+  "dataCommit": "179d222f910fd6786a123cea5c74fd85ab7db417",
+  "sourceReferencesRebound": 40,
+  "assetReferencesRebound": 12,
+  "totalMatchingCurrentRootReferencesRebound": 52,
+  "distinctFields": 1,
+  "references": [
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:reference",
+      "requirement": "Separate a defined reference condition from the index-test result; a result called positive need not establish the condition.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:sensitivity",
+      "requirement": "Sensitivity is positive index results among reference-condition cases: TP/(TP+FN).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:specificity",
+      "requirement": "Specificity is negative index results among reference-noncases: TN/(TN+FP).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:ppv",
+      "requirement": "PPV is reference-condition cases among positive index calls: TP/(TP+FP).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:npv",
+      "requirement": "NPV is reference-noncases among negative calls: TN/(TN+FN).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:prevalence",
+      "requirement": "Base rate is reference-condition prevalence in the intended tested population; reversing the question changes the denominator.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:regrouping-figure",
+      "requirement": "The positive-call pool regroups existing people and adds no participants; sensitivity and PPV use different denominators even with the same true positives.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:worked-ten",
+      "requirement": "For fictionalN1000,prevalence10%,sensitivity80%,specificity90%,complete reference and no indeterminates: TP80,FN20,FP90,TN810; PPV80/170=47.1%,NPV810/830=97.6%.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:worked-fifty",
+      "requirement": "At fictional50% prevalence with performance held constant: TP400,FN100,FP50,TN450; PPV400/450=88.9%,NPV450/550=81.8%.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:performance-assumptions",
+      "requirement": "The prevalence examples isolate base rate under fixed assumed sensitivity/specificity; actual populations can change performance too, so borrowed fractions are not personal probabilities.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-input",
+      "requirement": "Use test results and independent reference outcomes in the intended population.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-method",
+      "requirement": "Keep locked threshold, condition definition, assay version and missing/indeterminate handling.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-output",
+      "requirement": "Report all four counts, estimates and confidence intervals.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-failure",
+      "requirement": "Positive-selective verification, imperfect comparators and borrowed population prevalence can mislead.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-limits",
+      "requirement": "Test performance alone does not establish benefit from acting.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:agreement",
+      "requirement": "Without a condition-establishing reference, positive/negative percent agreement may be appropriate; agreement does not prove either method is correct.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:imaging-pathology",
+      "requirement": "Imaging response and pathologic response are separate assessments; imaging-versus-surgical-reference accuracy requires population, regimen, definition and timing, and does not establish individual outcome or safe surgery omission.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:rare-negative",
+      "requirement": "High NPV can coexist with missed cases when the condition is rare; negative calls are not a universal absence-of-disease guarantee.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:treatment",
+      "requirement": "Positive calls do not establish treatment benefit; threshold and population changes affect performance.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "original",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:worked-five",
+      "requirement": "For fictionalN1000,5% prevalence and fixed80/90% performance, TP40/FP95 give PPV40/135=29.6%; the held-constant assumptions remain attached.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:reference",
+      "requirement": "Separate a defined reference condition from the index-test result; a result called positive need not establish the condition.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:sensitivity",
+      "requirement": "Sensitivity is positive index results among reference-condition cases: TP/(TP+FN).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:specificity",
+      "requirement": "Specificity is negative index results among reference-noncases: TN/(TN+FP).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:ppv",
+      "requirement": "PPV is reference-condition cases among positive index calls: TP/(TP+FP).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:npv",
+      "requirement": "NPV is reference-noncases among negative calls: TN/(TN+FN).",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:prevalence",
+      "requirement": "Base rate is reference-condition prevalence in the intended tested population; reversing the question changes the denominator.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:regrouping-figure",
+      "requirement": "The positive-call pool regroups existing people and adds no participants; sensitivity and PPV use different denominators even with the same true positives.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:worked-ten",
+      "requirement": "For fictionalN1000,prevalence10%,sensitivity80%,specificity90%,complete reference and no indeterminates: TP80,FN20,FP90,TN810; PPV80/170=47.1%,NPV810/830=97.6%.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:worked-fifty",
+      "requirement": "At fictional50% prevalence with performance held constant: TP400,FN100,FP50,TN450; PPV400/450=88.9%,NPV450/550=81.8%.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:performance-assumptions",
+      "requirement": "The prevalence examples isolate base rate under fixed assumed sensitivity/specificity; actual populations can change performance too, so borrowed fractions are not personal probabilities.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-input",
+      "requirement": "Use test results and independent reference outcomes in the intended population.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-method",
+      "requirement": "Keep locked threshold, condition definition, assay version and missing/indeterminate handling.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-output",
+      "requirement": "Report all four counts, estimates and confidence intervals.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-failure",
+      "requirement": "Positive-selective verification, imperfect comparators and borrowed population prevalence can mislead.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:card-limits",
+      "requirement": "Test performance alone does not establish benefit from acting.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:agreement",
+      "requirement": "Without a condition-establishing reference, positive/negative percent agreement may be appropriate; agreement does not prove either method is correct.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:imaging-pathology",
+      "requirement": "Imaging response and pathologic response are separate assessments; imaging-versus-surgical-reference accuracy requires population, regimen, definition and timing, and does not establish individual outcome or safe surgery omission.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:rare-negative",
+      "requirement": "High NPV can coexist with missed cases when the condition is rare; negative calls are not a universal absence-of-disease guarantee.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:treatment",
+      "requirement": "Positive calls do not establish treatment benefit; threshold and population changes affect performance.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "source",
+      "phase": "later",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "pointId": "ppv-and-base-rates:worked-five",
+      "requirement": "For fictionalN1000,5% prevalence and fixed80/90% performance, TP40/FP95 give PPV40/135=29.6%; the held-constant assumptions remain attached.",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the current committed root field; all three earlier PPV notes remain byte-exact before the new fictional 90/95-per-cent example. Earlier source depth and acceptance are not upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+      "pointId": "ppv-and-base-rates:regrouping-figure",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+      "pointId": "ppv-and-base-rates:worked-ten",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+      "pointId": "ppv-and-base-rates:worked-fifty",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+      "pointId": "ppv-and-base-rates:regrouping-figure",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+      "pointId": "ppv-and-base-rates:worked-ten",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+      "pointId": "ppv-and-base-rates:worked-fifty",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+      "pointId": "ppv-and-base-rates:regrouping-figure",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+      "pointId": "ppv-and-base-rates:worked-ten",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+      "pointId": "ppv-and-base-rates:worked-fifty",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+      "pointId": "ppv-and-base-rates:regrouping-figure",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+      "pointId": "ppv-and-base-rates:worked-ten",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    },
+    {
+      "kind": "asset",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+      "pointId": "ppv-and-base-rates:worked-fifty",
+      "before": {
+        "recordId": "ppv",
+        "version": "proposal-study-prediction-root",
+        "field": "notes",
+        "fieldSha256": "ee19ddb534f7a483ba175e3a425f4c78527ac3a58595b8620b97200dfb86e49e",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "after": {
+        "recordId": "ppv",
+        "version": "proposal-test-vendor-guides-root",
+        "field": "notes",
+        "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+        "explanation": "Semantic comparison at stated source or fictional-premise scope; hash and containment checks are separate from entailment. Rebound to the expanded current root field with all three earlier notes preserved byte-exactly. No earlier scientific or visual acceptance is upgraded.",
+        "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667"
+      },
+      "earlierTeachingRetained": true
+    }
+  ],
+  "scope": "Only the matching current root PPV notes field is rebound. All three earlier notes remain byte-exact, and frozen peer/source/visual acceptance limits are not upgraded."
+}

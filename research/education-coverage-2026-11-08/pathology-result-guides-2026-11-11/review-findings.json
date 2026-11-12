@@ -1,0 +1,56 @@
+{
+  "findings": [
+    {
+      "id": "PG-F01",
+      "status": "already carried correctly in current measurement owners; reinforced in the corrected shared report owner",
+      "finding": "Ki67 is a positive-nucleus fraction and sTILs an eligible-stromal-area estimate, not exact division speed or an absolute immune-cell count."
+    },
+    {
+      "id": "PG-F02",
+      "status": "qualified; source shortcut not adopted as a complete algorithm",
+      "finding": "CAP Table 5 requires concurrent IHC and specified review for uncommon ISH groups. The existing HER2 owner already integrates these; the exercise supplies a completed negative interpretation."
+    },
+    {
+      "id": "PG-F03",
+      "status": "supported at abstract scope",
+      "finding": "The Loi 2019 pooled diagnostic-sample association concerns early TNBC treated with specified chemotherapy; it is not individual outcome certainty or proof of added pembrolizumab benefit."
+    },
+    {
+      "id": "PG-F04",
+      "status": "corrected in olaparib notes",
+      "finding": "A BRCA finding alone does not satisfy the early-breast indication or OlympiA high-risk criteria. The trial included hormone receptor-positive participants as well as TNBC."
+    },
+    {
+      "id": "PG-F05",
+      "status": "qualified in owner teaching",
+      "finding": "CREATE-X and OlympiA supply specific comparisons; OlympiA disallowed post-neoadjuvant capecitabine. Neither should silently become a different post-pembrolizumab or head-to-head comparison."
+    },
+    {
+      "id": "PG-F06",
+      "status": "corrected in shared report lead and summary",
+      "finding": "The previous grade/stage/receptor lead promised receptor-defined drug response, treatment intensity and a fixed biopsy/surgery reporting order. The replacement distinguishes measurements, staging contexts and conditional treatment evidence."
+    },
+    {
+      "id": "PG-F07",
+      "status": "corrected in biopsy lead and summary consumers",
+      "finding": "The previous generic biopsy lead claimed it was the only way to confirm any cancer. The current lead describes the procedure and specimen limits; eight stale unreviewed translations are withdrawn and Simple English corrected."
+    },
+    {
+      "id": "PG-C01",
+      "status": "non-content captures excluded",
+      "finding": "One old TIL XML was a BioC error page and another metadata only. Fresh EPMC fullTextXML failed, NCBI initially returned 429, and readable PMC HTML ultimately supplied the targeted denominator. No false full-text credit."
+    },
+    {
+      "id": "PG-C02",
+      "status": "retained source caveat",
+      "finding": "The 2019 CTNeoBC and 2025 NRG-BR005 erratum bodies were not read. They are not certified reconciled, and no new numerical claims depend on guessing their scope."
+    },
+    {
+      "id": "PG-C03",
+      "status": "official-template boundary preserved",
+      "finding": "CAP ER Table 2 displays an overlapping 10% boundary in its Positive and Low Positive rows; the adjacent prose and 2020 guideline specify the 1% to 10% ER-low category. The 5% exercise is unambiguous; no new 10% boundary rule is invented."
+    }
+  ],
+  "readerCheckCorrection": "Invasive-NST notes live on its separate Data route. Rendering that actual CancerSection resolved two hub-only probe omissions; no product visibility defect was established.",
+  "independentExpertAcceptance": false
+}

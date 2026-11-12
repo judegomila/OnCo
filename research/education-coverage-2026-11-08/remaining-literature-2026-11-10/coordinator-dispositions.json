@@ -1,0 +1,106 @@
+{
+  "notes": [
+    "The worker did not locate a dedicated clonal-evolution term. The coordinator found existing clonal-evolution-models and clonal-evolution-theory owners in the baseline; they must be compared before any new subject is considered.",
+    "A worker suggestion to await a main merge before supplementing rna-lipoplex is not required: verified scientific record text can be reconciled in the current draft with exact field guards. No proposal is applied by this screen.",
+    "Scientific record text is data under docs/PRODUCT-APPROVAL.md. The unassessed product-class concern in the worker packet creates no approval dependency for these proposed record paragraphs.",
+    "The manifest path typo was corrected to pending/*.json and all frozen inventories were searched; it is not a scientific access failure."
+  ],
+  "queuedFindings": [
+    {
+      "item": "Generic cell of origin versus cancer stem cell versus cell state",
+      "owner": "coordinator: supplement cancer-stem-cell-theory / cancer-stem-cells-plasticity, or a new term (not allowed here)",
+      "evidenceNeeded": "Full text of Rycaj and Tang 2015 (PMC4756645; Europe PMC full text returned HTTP 500, try the PMC site or accepted manuscript) and the Results of Wang 2013 (PMC3743266, accessible); reconcile the prostate and endometrial examples before any sentence is written",
+      "occurrences": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12
+      ]
+    },
+    {
+      "item": "Limits of clonal evolution: plasticity, non-genetic inheritance",
+      "owner": "coordinator: owner not identified in baseline (clonal evolution has no dedicated term)",
+      "evidenceNeeded": "Full text of Laplane and Maley 2024 (PMC11627115) and one primary lineage-tracing paper; the published Cell 2022 paper behind preprint 14 (PMID 35523183, PMC9452598)",
+      "occurrences": [
+        8,
+        10,
+        11,
+        13,
+        14
+      ]
+    },
+    {
+      "item": "Central tolerance / thymic selection as its own concept",
+      "owner": "coordinator: pending peripheral-tolerance (proposal-innate-immunity) mentions central tolerance; no dedicated record",
+      "evidenceNeeded": "Full text of Xing and Hogquist 2012 (EPMC 500; occurrence 41), a decision on which Sprent paper occurrence 31 means (the 2001 Phil Trans review has the substantive abstract), primary thymocyte experiments such as occurrence 40 read beyond the abstract",
+      "occurrences": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "item": "Competing events as censoring versus not (cause-specific vs subdistribution)",
+      "owner": "coordinator: pending competing-risks (pr-371)",
+      "evidenceNeeded": "Published Young, Stensrud, Tchetgen Tchetgen and Hernan, Stat Med 2020 (10.1002/sim.8471; PMC7811594 open) read in full; the arXiv v1 under the frozen title is not the version to cite",
+      "occurrences": [
+        18,
+        26,
+        27
+      ]
+    },
+    {
+      "item": "Treatment switching as an intercurrent event in oncology evidence synthesis",
+      "owner": "coordinator: baseline crossover and estimand",
+      "evidenceNeeded": "Abstract text of ISPOR 2024 MSR80 (Value in Health 27(6) S274-S275), not exposed by Crossref, Europe PMC or Elicit; publisher interstitial",
+      "occurrences": [
+        21
+      ]
+    },
+    {
+      "item": "Starting-material quality, cryopreservation and manufacturing outcomes",
+      "owner": "coordinator: apheresis-starting-material, cell-therapy-cold-chain, cell-manufacturing-outcomes (pending), vein-to-vein-time",
+      "evidenceNeeded": "IMA203: the abstract cites the phase 1 Nat Med 2025 paper (10.1038/s41591-025-03650-6, resolved in Crossref, not read) for the 56% response rate and the RP2D definition of 95% success; JTCT 2024 abstract text for fresh versus cryopreserved LV20.19; the IntegriCell poster behind an email gate",
+      "occurrences": [
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "item": "Sonotransfection / microbubble-assisted nucleic-acid delivery concept",
+      "owner": "coordinator",
+      "evidenceNeeded": "a review or guideline for the field, and a second primary study, before a standalone concept; occurrence 49 alone supports only P3",
+      "occurrences": [
+        49
+      ]
+    },
+    {
+      "item": "Resolve occurrences 30 and 31 before any use",
+      "owner": "coordinator / source verification",
+      "evidenceNeeded": "30: obtain a bibliographic record for \"Thymic T-Cell Education: Positive & Negative Selection\" (the Elicit text looks like a general tolerance overview); 31: decide between Sprent 1996 (DOI) and Sprent and Kishimoto 2001 (PMID) and correct the frozen row",
+      "occurrences": [
+        30,
+        31
+      ]
+    }
+  ],
+  "proposalPacketSha256": "f1d5a816700d203406345783a939dd6ae16e1ca4627da1e092434a050455f92e",
+  "proposalCount": 3,
+  "status": "All three field proposals remain unapplied. Existing canonical-owner and primary-source checks are required."
+}

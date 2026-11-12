@@ -1,0 +1,86 @@
+{
+  "scope": "The nine cell-therapy owners are included in the complete 85-record rendered check; not a deployment",
+  "checks": [
+    {
+      "id": "car-t",
+      "route": "/technologies/car-t/",
+      "asOf": "2026-11-08",
+      "bytes": 188411,
+      "sha256": "152b4841e01ed639324a4b15762a1efec747035cac9f4f124e16ebf26b211b8d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "armored-car",
+      "route": "/technologies/armored-car/",
+      "asOf": "2026-11-08",
+      "bytes": 41656,
+      "sha256": "0068f9d81dcf3b63da6256742f6e062024ffbfc596a5dae57fe8fb3c2f05a39d",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "logic-gated-therapeutics",
+      "route": "/technologies/logic-gated-therapeutics/",
+      "asOf": "2026-11-08",
+      "bytes": 35748,
+      "sha256": "96cd6393e57189a6dd39358f04a33bdd79f4c5abd7627e3c8f8d84fe8ccb6b30",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "car-nk-macrophage",
+      "route": "/technologies/car-nk-macrophage/",
+      "asOf": "2026-11-08",
+      "bytes": 53832,
+      "sha256": "eeff12dd6c7e7d880b215ba864134a3a9d685b554e22f24bd0608266dc50c056",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nk-cell-therapy",
+      "route": "/technologies/nk-cell-therapy/",
+      "asOf": "2026-11-08",
+      "bytes": 35853,
+      "sha256": "7094809793ad6cbc3b121dc453a9bf2f9f7a2d41bd3a99e4de97a640807038ce",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "nk-cell",
+      "route": "/terms/nk-cell/",
+      "asOf": "2026-11-08",
+      "bytes": 26148,
+      "sha256": "6b56bc045eae09cc153f921aef4620f37d1d594f9beed72b4d168c8c6cc9151f",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "in-vivo-car-t",
+      "route": "/technologies/in-vivo-car-t/",
+      "asOf": "2026-11-08",
+      "bytes": 51912,
+      "sha256": "9c0177c6dd0cac73bb85b00868774f778f0d5acb527230e1ea2bbdb0543dcde1",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cellular-kinetics-and-persistence",
+      "route": "/terms/cellular-kinetics-and-persistence/",
+      "asOf": "2026-11-08",
+      "bytes": 26273,
+      "sha256": "a4f011b68f23a2fe5ac955f63498606f43b39ffe3d84c83f58915f0655deeaca",
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "endogenous-promoter-payload-control",
+      "route": "/terms/endogenous-promoter-payload-control/",
+      "asOf": "2026-11-08",
+      "bytes": 21666,
+      "sha256": "9af8c8cb425c3368704b3a60592a71f8068c7940b2513c5ff72084568d33dbbb",
+      "missingSources": [],
+      "nestedAnchors": 0
+    }
+  ]
+}

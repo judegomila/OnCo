@@ -1,0 +1,1955 @@
+{
+  "identityCatalog": {
+    "sources": [
+      {
+        "doi": "10.1038/s41467-018-07466-6",
+        "title": "Comprehensive human cell-type methylation atlas reveals origins of circulating cell-free DNA in health and disease",
+        "pmid": "30498206",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1126/scitranslmed.3001720",
+        "title": "Maternal Plasma DNA Sequencing Reveals the Genome-Wide Genetic and Mutational Profile of the Fetus",
+        "pmid": "21148127",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity (abstract states the 166 bp peak and fetal reduction; general-plasma peak read as a pattern reminiscent of nucleosomes)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1126/scitranslmed.aat4921",
+        "title": "Enhanced detection of circulating tumor DNA by fragment size analysis",
+        "pmid": "30404863",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.15252/emmm.202216505",
+        "title": "Comparison of tumor‐informed and tumor‐naïve sequencing assays for ctDNA detection in breast cancer",
+        "pmid": "37161793",
+        "readingDepth": "full text (Europe PMC JATS XML PMC10245040): methods and results read for 4,500 amplifiable copies (about 15 ng), theoretical limit 1/(4,500 x variants), 211,500, 27,000-copy re-assay",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1126/scitranslmed.3007094",
+        "title": "Detection of Circulating Tumor DNA in Early- and Late-Stage Human Malignancies",
+        "pmid": "24553385",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41591-019-0652-7",
+        "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants",
+        "pmid": "31768066",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity; methods text via NCBI efetch PMC7061455 read for the ambiguous category",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41523-021-00239-3",
+        "title": "Circulating tumor DNA and magnetic resonance imaging to predict neoadjuvant chemotherapy response and recurrence risk",
+        "pmid": "33767190",
+        "readingDepth": "full text (Europe PMC JATS XML PMC7994408): population, I-SPY 2 origin, Spearman correlations read",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1001/jamaoncol.2019.1838",
+        "title": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer.",
+        "pmid": "31369045",
+        "year": "2019",
+        "captureSha256": "0f2bf3be0df5593d370ac6795620a8a7179bd9552190a28bf4bf50d5bf575385",
+        "abstractRead": true
+      },
+      {
+        "doi": "10.1016/j.annonc.2022.11.005",
+        "title": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer",
+        "pmid": "36423745",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41588-020-00710-0",
+        "title": "Cancer therapy shapes the fitness landscape of clonal hematopoiesis",
+        "pmid": "33106634",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1056/NEJMoa1408617",
+        "title": "Age-Related Clonal Hematopoiesis Associated with Adverse Outcomes",
+        "pmid": "25426837",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1016/j.stem.2017.07.010",
+        "title": "Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes",
+        "pmid": "28803919",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1182/blood-2015-03-631747",
+        "title": null,
+        "pmid": null,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity (found by DOI after a title search missed it); abstract gives the concept CHIP, not the 2% threshold",
+        "abstractRead": false,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1056/NEJMoa040766",
+        "title": "Circulating Tumor Cells, Disease Progression, and Survival in Metastatic Breast Cancer",
+        "pmid": "15317891",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1200/JCO.2014.56.2561",
+        "title": "Circulating Tumor Cells and Response to Chemotherapy in Metastatic Breast Cancer: SWOG S0500",
+        "pmid": "24888818",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1158/1078-0432.CCR-04-0378",
+        "title": "Tumor Cells Circulate in the Peripheral Blood of All Major Carcinomas but not in Healthy Subjects or Patients With Nonmalignant Diseases",
+        "pmid": "15501967",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41586-019-1272-6",
+        "title": "Genome-wide cell-free DNA fragmentation in patients with cancer",
+        "pmid": "31142840",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1016/j.cell.2015.11.050",
+        "title": "Cell-free DNA Comprises an In Vivo Nucleosome Footprint that Informs Its Tissues-Of-Origin",
+        "pmid": "26771485",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1093/clinchem/hvac029",
+        "title": "The Effect of Preanalytical and Physiological Variables on Cell-Free DNA Fragmentation",
+        "pmid": "35292813",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41591-020-0915-3",
+        "title": "Genome-wide cell-free DNA mutational integration enables ultra-sensitive cancer monitoring",
+        "pmid": "32483360",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1182/blood.2021013626",
+        "title": "2021 Update on MRD in acute myeloid leukemia: a consensus document from the European LeukemiaNet MRD Working Party",
+        "pmid": "34724563",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/nbt.3520",
+        "title": "Integrated digital error suppression for improved detection of circulating tumor DNA",
+        "pmid": "27018799",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/nm.1789",
+        "title": "Circulating mutant DNA to assess tumor dynamics.",
+        "pmid": "18670422",
+        "year": "2008",
+        "captureSha256": "0814f20f4bb56a5de6cdb7b532afea6ffce2224f2c19d0bccab8205aa0150439",
+        "abstractRead": true
+      },
+      {
+        "doi": "10.3389/fonc.2026.1894198",
+        "title": "Circulating tumor DNA in colorectal cancer: assay selection, clinical applications, and practical integration for gastroenterologists",
+        "pmid": "42609878",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/nbt.2938",
+        "title": "Linking T-cell receptor sequence to functional phenotype at the single-cell level",
+        "pmid": "24952902",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/ncomms9081",
+        "title": "High-resolution analysis of the human T-cell receptor repertoire",
+        "pmid": "26324409",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/nprot.2009.7",
+        "title": "The role of IFN-γ Elispot assay in HIV vaccine research",
+        "pmid": "19282851",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity (title in Crossref is a review of the IFN-gamma ELISpot in HIV vaccine research)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41434-020-00214-w",
+        "title": "Validation of an IFN-gamma ELISpot assay to measure cellular immune responses against viral antigens in non-human primates",
+        "pmid": "33432123",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41592-025-02907-9",
+        "title": "TIRTL-seq: deep, quantitative and affordable paired TCR repertoire sequencing",
+        "pmid": "41286199",
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1186/1471-2172-6-13",
+        "title": "Standardization of cytokine flow cytometry assays.",
+        "pmid": "15978127",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1016/s0022-1759(03)00265-5",
+        "title": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+        "pmid": "14580882",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1002/1097-0320(20011101)45:3<194::aid-cyto1163>3.0.co;2-c",
+        "title": "Spectral compensation for flow cytometry: visualization artifacts, limitations, and caveats.",
+        "pmid": "11746088",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1002/eji.202170126",
+        "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (third edition).",
+        "pmid": "34910301",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1016/j.jim.2019.112668",
+        "title": "A versatile flow-based assay for immunocyte-mediated cytotoxicity.",
+        "pmid": "31525367",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.3791/51105",
+        "title": "Cell-based flow cytometry assay to measure cytotoxic activity.",
+        "pmid": "24378436",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1126/science.274.5284.94",
+        "title": "Phenotypic analysis of antigen-specific T lymphocytes.",
+        "pmid": "8810254",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1016/j.jim.2006.08.014",
+        "title": "A robust method for production of MHC tetramers with small molecule fluorophores.",
+        "pmid": "17187819",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1371/journal.pcbi.1004503",
+        "title": "VDJtools: Unifying Post-analysis of T Cell Receptor Repertoires.",
+        "pmid": "26606115",
+        "readingDepth": "abstract (Europe PMC)",
+        "abstractRead": true,
+        "inheritedSourcePacketSha256": "2d0ac954990bc979691c86e12d289b9dbedaf34b32730582f27005291cd83726"
+      },
+      {
+        "doi": "10.1038/s41375-022-01613-1",
+        "title": "The 5th edition of the World Health Organization Classification of Haematolymphoid Tumours: Myeloid and Histiocytic/Dendritic Neoplasms.",
+        "pmid": "35732831",
+        "year": "2022",
+        "captureSha256": "c0f45d0f8760bd4ddfe89df07024134389143f4678e605eab19f4a542d6b0138",
+        "abstractRead": true
+      },
+      {
+        "doi": "10.1126/science.1228522",
+        "title": "Circulating breast tumor cells exhibit dynamic changes in epithelial and mesenchymal composition.",
+        "pmid": "23372014",
+        "year": "2013",
+        "captureSha256": "8d12fb6f90490d9ab52bdc7989c503691309782651a9aaaad3d7009cbd7b7688",
+        "abstractRead": true
+      },
+      {
+        "doi": "10.1002/eji.201970107",
+        "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (second edition).",
+        "pmid": "31633216",
+        "year": "2019",
+        "captureSha256": "fedc0c2dfae8888d29727da8470220fd0db660b7e61e4122fcb9a574103fab28",
+        "abstractRead": true
+      }
+    ],
+    "note": "Registry identity, abstract reading and targeted primary-text support remain distinct. Inherited packet assessments retain their original depth."
+  },
+  "priorCoordinatorAssessments": {
+    "state": "Source verification completed at the stated section depth; no applied-field or main credit yet.",
+    "sources": [
+      {
+        "id": "FDA-K031588",
+        "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf3/K031588.pdf",
+        "sourceFile": "cellsearch-fda.pdf",
+        "sha256": "fb5365f72edef52e9dca80269ec28e545b8aa71fd3a3a9636317ea4c46f383ed",
+        "identity": "FDA corrected classification order dated 29 September 2004, correcting the 21 January 2004 order; page-one date visually inspected.",
+        "readDepth": "Complete first-page intended-use passages in PDF text and rendered page; page-two classification context read in text. Not a current all-indication label review.",
+        "verifiedClauses": [
+          "Epithelial-origin CTC enumeration under CD45-negative, EpCAM-positive and cytokeratin 8/18 and/or 19 marker rules in whole blood.",
+          "Historical metastatic-breast prognostic statement for at least 5 CTC per 7.5 mL.",
+          "Class-II classification and adjunctive monitoring/prediction context."
+        ],
+        "limits": [
+          "Historical document; not a universal cell definition or a current all-cancer threshold.",
+          "Treatment-selection benefit requires separate interventional evidence."
+        ],
+        "reviewGapResolved": "R3 source access and historical intended-use scope; not whole CellSearch owner certification."
+      },
+      {
+        "id": "Cossarizza2021",
+        "doi": "10.1002/eji.202170126",
+        "pmid": "34910301",
+        "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (third edition)",
+        "identity": "Crossref and Europe PMC title, first author and 2021 publication year agree; complete raw abstract read.",
+        "sourceFile": "cossarizza-epmc.xml",
+        "sha256": "1b8c49c7af54a9b1453e6860069e9e883b3384c103eaefa135ba4ebfb66429d5",
+        "additionalPDFSha256": "be5b7d3fec55b196201e78837fcd91bea0e8a940f8995a70241b898c4e33c165",
+        "readDepth": "Targeted controls, specificity/gating, sequential-gating and tissue-resident T-cell data-analysis passages, not the whole 438-page guideline.",
+        "verifiedClauses": [
+          "FMO stains all selected labels except one to help identify gating boundaries.",
+          "FMO does not account for every nonspecific antibody-binding shift; biological controls address another question.",
+          "Single-stain compensation controls and gating controls have different jobs.",
+          "Sequential gating names parent populations and can exclude unexpected or rare subsets.",
+          "The stated T-cell example uses good-flow time regions, lymphocytes, singlets, compensation and viable CD3-positive cells before CD4/CD8 subdivision."
+        ],
+        "limits": [
+          "No one mandatory gate order for all tissues and tasks is inferred.",
+          "Sorting definition and the other remaining lesson clauses still require their own source/field mapping."
+        ],
+        "reviewGapResolved": "R5 FMO/gating source availability; R7 gating content can now be authored with stated example scope."
+      },
+      {
+        "id": "FDA-diagnostic-statistics-2007",
+        "url": "https://www.fda.gov/media/71147/download",
+        "sourceFile": "fda-diagnostic-statistics.pdf",
+        "sha256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+        "identity": "Statistical Guidance on Reporting Results from Studies Evaluating Diagnostic Tests, issued 13 March 2007.",
+        "readDepth": "Section 7.1, printed page 21, and its intended-use/reference-standard discussion.",
+        "verifiedClauses": [
+          "Sensitivity conditions on the presence of the condition of interest; specificity conditions on its absence.",
+          "Performance estimates use a reference standard and subjects representative of the intended-use population."
+        ],
+        "limits": [
+          "Dated nonbinding guidance; generic performance terminology, not clinical validation of an oncology MRD assay."
+        ],
+        "reviewGapResolved": "R7 clinical-sensitivity definition source gap."
+      },
+      {
+        "id": "FDA-biomarker-technical-review-2018",
+        "url": "https://www.fda.gov/media/119431/download",
+        "sourceFile": "fda-ivd-terminology-memo.pdf",
+        "sha256": "de83b8824a8a1eee45b7908db79b651a5f43015641d8fcb937b0ec60fb36cda2",
+        "identity": "FDA/CDRH/OIR Consult Review Memo, 7 November 2018, DDTBMQ000044, Plasmodium 18S rRNA/rDNA biomarker. The search display filename suggesting 2013 is not the document date.",
+        "readDepth": "Header/context and Appendix I terminology on printed page 23.",
+        "verifiedClauses": [
+          "LoD is a conditional detection-concentration concept; the document describes typically 95 percent detection in a defined sample type.",
+          "LoQ is the lowest measurand amount determined with stated accuracy, expressed as total error or bias/precision criteria, under stated experimental conditions."
+        ],
+        "limits": [
+          "This review concerns a malaria biomarker, not validation of cancer detection.",
+          "No universal 95 percent rule or interchangeability of detection and quantitative accuracy is adopted.",
+          "Definitions cited by FDA are not a claim that the full CLSI standard was read."
+        ],
+        "reviewGapResolved": "R5 and F10 have direct raw FDA support for the detection/quantitation distinction."
+      },
+      {
+        "id": "Steensma2015",
+        "doi": "10.1182/blood-2015-03-631747",
+        "pmid": "25931582",
+        "identity": "Crossref and Europe PMC intended title, first author and 2015 publication agree; complete raw abstract read.",
+        "readDepth": "Abstract only.",
+        "verifiedClauses": [
+          "Clonal hematopoiesis and CHIP distinction at the abstract scope."
+        ],
+        "limits": [
+          "The 2 percent VAF proposal is not present in the retrieved abstract.",
+          "Europe PMC full text returned HTTP 500; NCBI efetch returned an abstract/metadata-only article without body.",
+          "The old author-PDF URL redirects to the laboratory homepage (HTML); the publisher PDF returned HTTP 403. Neither is adopted as the full text."
+        ],
+        "reviewGapStillOpen": "R1 working CHIP VAF definition needs an accessible original or another appropriate primary classification source."
+      }
+    ],
+    "otherOpenWork": [
+      "Garcia-Murillas results lead-time denominator",
+      "Diehl supplementary figure for the single-subject fit",
+      "EMT/capture claim and remaining source-first unit mapping",
+      "Full figure/Mermaid acceptance and current owner/proposal reconciliation"
+    ]
+  },
+  "freshAdditions": {
+    "WHO2022": "Complete raw abstract and the clonal-haematopoiesis section: source-specific 2% threshold, 4% X-linked-male exception and clinical exclusions.",
+    "Cossarizza2019": "Complete raw abstract and targeted cell-sorting principles; not the whole guideline.",
+    "Yu2013": "Complete raw abstract; epithelial/mesenchymal-state findings scoped to circulating breast tumour cells.",
+    "GarciaMurillas2019": "Complete raw abstract and targeted Results in the ICR accepted manuscript; its uncorrected recurrence sentence is not adopted.",
+    "Diehl2008": "Complete raw abstract; the R20 reviewer Results-text assessment is reused for the scoped single-subject 114-minute estimate. New full-body and supplement access attempts failed; no fresh coordinator full-text claim."
+  },
+  "captureVerification": {
+    "count": 42,
+    "captures": [
+      {
+        "captureReceipt": "captures-r10.json",
+        "file": "garcia-2019-med.json",
+        "bytes": 13916,
+        "sha256": "0f2bf3be0df5593d370ac6795620a8a7179bd9552190a28bf4bf50d5bf575385",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r10.json",
+        "file": "garcia-2019-crossref.json",
+        "bytes": 11630,
+        "sha256": "5d7a3f6ceaa87b44e4f657b2b79a3c3f6a3364dcdc554053a5fb4543031cc653",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r10.json",
+        "file": "diehl-2008-med.json",
+        "bytes": 8214,
+        "sha256": "0814f20f4bb56a5de6cdb7b532afea6ffce2224f2c19d0bccab8205aa0150439",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r10.json",
+        "file": "diehl-2008-crossref.json",
+        "bytes": 9527,
+        "sha256": "c47024f0e3b4ac9c4859e769d0b68a5f849b16f7550fca00295e5ef8281eb391",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r11.json",
+        "file": "garcia-2019-efetch.xml",
+        "bytes": 22161,
+        "sha256": "4aa7b6b85653f079c11c48692e8f3a7ea8b55b43efc127573578bf1fc35883df",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r11.json",
+        "file": "diehl-2008-efetch.xml",
+        "bytes": 10203,
+        "sha256": "0a7ebdc2f4bf799edde253133d029f59c51bcd0c9364d2efe4c05eb3beb4121a",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r12.json",
+        "file": "garcia-2019-publisher.pdf",
+        "bytes": 5762,
+        "sha256": "4845381a5ba3f24c86b9659ee580544a17ec560d5f17f55eac8cafb68119ca32",
+        "status": 403
+      },
+      {
+        "captureReceipt": "captures-r12.json",
+        "file": "garcia-2019-accepted.pdf",
+        "bytes": 564217,
+        "sha256": "61e147554210a56466f0c17a70b2cc27dc1c0b7ddd92f6fde7d7c3af88279fcb",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r13.json",
+        "file": "diehl-2008-bioc.xml",
+        "bytes": 899,
+        "sha256": "037c2dbe610ab2a6516d0f0916f7ad3cdfe016739186de59e5eaecd7043d00ba",
+        "status": 429
+      },
+      {
+        "captureReceipt": "captures-r13.json",
+        "file": "garcia-2019-bioc.xml",
+        "bytes": 899,
+        "sha256": "037c2dbe610ab2a6516d0f0916f7ad3cdfe016739186de59e5eaecd7043d00ba",
+        "status": 429
+      },
+      {
+        "captureReceipt": "captures-r14.json",
+        "file": "diehl-2008-epmc.html",
+        "bytes": 5471,
+        "sha256": "8db2f650dcd6c95c1c3a007af1bf267a6481f8c609e9d34bff2d4dad7790f224",
+        "status": 403
+      },
+      {
+        "captureReceipt": "captures-r15.json",
+        "file": "garcia-correction-med.json",
+        "bytes": 2309,
+        "sha256": "0fdda675506d3a0e9038b97104eabf7a68112034208ab956319850c3988cb0a3",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r15.json",
+        "file": "garcia-correction.xml",
+        "bytes": 151,
+        "sha256": "9f76bdc11cd2f39526f4e56eb6ce3e9481bdfdc5880b092a9dfc89ce7f6eca46",
+        "status": 500
+      },
+      {
+        "captureReceipt": "captures-r2.json",
+        "file": "steensma-epmc.xml",
+        "bytes": 150,
+        "sha256": "dd75932f0cd592d8334ad09ef7f5bc4289698703330658fa3acb13182e88e72e",
+        "status": 500
+      },
+      {
+        "captureReceipt": "captures-r2.json",
+        "file": "steensma-efetch.xml",
+        "bytes": 8947,
+        "sha256": "06a5a3f398790f4cb1fc40b5c9efc355efb28bf22b7ce3a82d06ce77ea8d476c",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r2.json",
+        "file": "cossarizza-epmc.xml",
+        "bytes": 4739865,
+        "sha256": "1b8c49c7af54a9b1453e6860069e9e883b3384c103eaefa135ba4ebfb66429d5",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r3.json",
+        "file": "nci-clonal-search.json",
+        "bytes": 36690,
+        "sha256": "311309b87675108420b4701dbc5b7af6935aaa20c370a4dd8589c75906e29c50",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r3.json",
+        "file": "nci-sensitivity-search.json",
+        "bytes": 6552,
+        "sha256": "b06159cdb51a2fa94113322b21938ff0e08c56a894ffe967bbdf79128651f0ec",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r3.json",
+        "file": "steensma-openalex.json",
+        "bytes": 30050,
+        "sha256": "cedbfac4e753c7c00666adbc8ce38d84d5f16219bc8fcfc065695ba711483a7d",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r4.json",
+        "file": "steensma-publisher.pdf",
+        "bytes": 5516,
+        "sha256": "84c2e9e08a7ea05c4a91b48467a2221447c4df48650202d6cbb14c80134bce5e",
+        "status": 403
+      },
+      {
+        "captureReceipt": "captures-r4.json",
+        "file": "fda-diagnostic-statistics.pdf",
+        "bytes": 344921,
+        "sha256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r4.json",
+        "file": "fda-ivd-terminology-memo.pdf",
+        "bytes": 540791,
+        "sha256": "de83b8824a8a1eee45b7908db79b651a5f43015641d8fcb937b0ec60fb36cda2",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r5.json",
+        "file": "yu-med.json",
+        "bytes": 9520,
+        "sha256": "8d12fb6f90490d9ab52bdc7989c503691309782651a9aaaad3d7009cbd7b7688",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r5.json",
+        "file": "yu-crossref.json",
+        "bytes": 12857,
+        "sha256": "227080287afdca93cc4333d8597361ba4264a44d222bcfdbf6db6f379983dacb",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r5.json",
+        "file": "who-2022-med.json",
+        "bytes": 24265,
+        "sha256": "c0f45d0f8760bd4ddfe89df07024134389143f4678e605eab19f4a542d6b0138",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r5.json",
+        "file": "who-2022-crossref.json",
+        "bytes": 60124,
+        "sha256": "a6f862c96088bb33878c243cbdb6d451af0bc3155171b61fb1288b87d28a7bb3",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r5.json",
+        "file": "nci-sorting-search.json",
+        "bytes": 62,
+        "sha256": "1b1e6a7d9f6f4e58d28a34d7f25b1844d76c88968a5113b5449775230a83e66e",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r5.json",
+        "file": "steensma-publisher.html",
+        "bytes": 5724,
+        "sha256": "dbf50eaa97894db632c7819869a495c72af8952ba2319ef15af29a5dfe595375",
+        "status": 403
+      },
+      {
+        "captureReceipt": "captures-r6.json",
+        "file": "yu-epmc.xml",
+        "bytes": 150,
+        "sha256": "d750782f8f0a67cdacca482c124957c7d1719f3ed29e1be92785590b6dc886a4",
+        "status": 500
+      },
+      {
+        "captureReceipt": "captures-r6.json",
+        "file": "who-2022-epmc.xml",
+        "bytes": 277905,
+        "sha256": "dd91f9e125df71e396c7084bd920705a2ca7696bb1f28980889bc757207329c5",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r7.json",
+        "file": "cossarizza-2019-med.json",
+        "bytes": 156028,
+        "sha256": "fedc0c2dfae8888d29727da8470220fd0db660b7e61e4122fcb9a574103fab28",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r7.json",
+        "file": "cossarizza-2019-crossref.json",
+        "bytes": 345379,
+        "sha256": "7b87772c3165b384b790dc5888424ca6049bd6e26cdfd3f3149239052edfb048",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures-r9.json",
+        "file": "cossarizza-2019-efetch.xml",
+        "bytes": 5210530,
+        "sha256": "a76cdd29638f93ca0cad4a54fec22672e007264d093994f476f0352514749d21",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "steensma-med.json",
+        "bytes": 7745,
+        "sha256": "2610b6fe2044dbf0789c98c6cb34db60ed966536fcb011b8d11b4e2557b5c886",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "steensma-crossref.json",
+        "bytes": 30774,
+        "sha256": "dbb10a7a8a4697fcc77c4384ccda4389da0711193bc36c13ac67fa5e85542180",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "steensma.pdf",
+        "bytes": 17681,
+        "sha256": "55b5bcf34bb7c8eeeeaf8d08362a1d1a0eb45ab2cb33c81a1e303bc813694a70",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "cossarizza-med.json",
+        "bytes": 76488,
+        "sha256": "d0cd12c8e4b2c3258899fab65c246450d76c833b878acda5b76fc3918dfe38a1",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "cossarizza-crossref.json",
+        "bytes": 221551,
+        "sha256": "c3b5ef6e52c8153fe01fa17ab96b2478b10458af6185ecfbdcea175ac531cb74",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "cossarizza.pdf",
+        "bytes": 22695772,
+        "sha256": "be5b7d3fec55b196201e78837fcd91bea0e8a940f8995a70241b898c4e33c165",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "cellsearch-fda.pdf",
+        "bytes": 235420,
+        "sha256": "fb5365f72edef52e9dca80269ec28e545b8aa71fd3a3a9636317ea4c46f383ed",
+        "status": 200
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "nci-chip.json",
+        "bytes": 151,
+        "sha256": "1713e7f85f18976ae7d2010d19e1cc333905adfa208640b8a0267a7e3b548ff6",
+        "status": 404
+      },
+      {
+        "captureReceipt": "captures.json",
+        "file": "nci-clinical-sensitivity.json",
+        "bytes": 124,
+        "sha256": "15a906c338f518a7630ef967288b003d6adaab374675f07d830ccc3363f32a68",
+        "status": 404
+      }
+    ]
+  },
+  "originalWorkerDepth": {
+    "resolution": "every DOI resolved through Europe PMC and Crossref, titles, first authors and years compared with the lesson citation, raw abstract read before any figure was used",
+    "sources": [
+      {
+        "sourceId": "Moss2018",
+        "doi": "10.1038/s41467-018-07466-6",
+        "pmid": "30498206",
+        "pmcid": "PMC6265251",
+        "crossrefTitle": "Comprehensive human cell-type methylation atlas reveals origins of circulating cell-free DNA in health and disease",
+        "crossrefYear": 2018,
+        "crossrefFirstAuthor": "Moss",
+        "epmcTitle": "Comprehensive human cell-type methylation atlas reveals origins of circulating cell-free DNA in health and disease.",
+        "epmcFirstAuthors": "Moss J, Magenheim J, Neiman D, Zemmour H, Loyfer N, Korach A, Samet Y, Maoz M, D",
+        "epmcYear": "2018",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "1e516c5d49d76ef9faf31046f72cad3660aadbcf2983b4cca36076970c7584d4",
+        "crossrefCaptureSha256": "d0e09dbd0875224c77e99818dc6e5cce401d2e7d51dc12160ebd4501092a0f1d",
+        "abstractSha256": "88736b7efbbb36055bcb4f979d81cf09e094ce0b2b4078e1ae7a1a4ae25946b4",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "healthy-donor cfDNA tissue origins by methylation atlas; not a cancer detection claim",
+        "usedInRecords": [
+          "cfdna",
+          "cfdna-methylation-testing"
+        ]
+      },
+      {
+        "sourceId": "Lo2010",
+        "doi": "10.1126/scitranslmed.3001720",
+        "pmid": "21148127",
+        "pmcid": null,
+        "crossrefTitle": "Maternal Plasma DNA Sequencing Reveals the Genome-Wide Genetic and Mutational Profile of the Fetus",
+        "crossrefYear": 2010,
+        "crossrefFirstAuthor": "Lo",
+        "epmcTitle": "Maternal plasma DNA sequencing reveals the genome-wide genetic and mutational profile of the fetus.",
+        "epmcFirstAuthors": "Lo YM, Chan KC, Sun H, Chen EZ, Jiang P, Lun FM, Zheng YW, Leung TY, Lau TK, Can",
+        "epmcYear": "2010",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "e0cf1c1b8410ac4bf1ddf93f5f1fc24fffe0d515db529b971ea0568d7fbe5158",
+        "crossrefCaptureSha256": "e0c0ace26b452748f7b3b198ee225ccb587a8157b75b22fedc4396913e7f133a",
+        "abstractSha256": "daedebc253065306addd1de912558b5bb3a461de088209f06f23a9a28109590e",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity (abstract states the 166 bp peak and fetal reduction; general-plasma peak read as a pattern reminiscent of nucleosomes)",
+        "scientificScope": "maternal plasma sequencing; 166 bp pattern is cited as a cfDNA feature, not a cancer test",
+        "usedInRecords": [
+          "cfdna"
+        ]
+      },
+      {
+        "sourceId": "Mouliere2018",
+        "doi": "10.1126/scitranslmed.aat4921",
+        "pmid": "30404863",
+        "pmcid": "PMC6483061",
+        "crossrefTitle": "Enhanced detection of circulating tumor DNA by fragment size analysis",
+        "crossrefYear": 2018,
+        "crossrefFirstAuthor": "Mouliere",
+        "epmcTitle": "Enhanced detection of circulating tumor DNA by fragment size analysis.",
+        "epmcFirstAuthors": "Mouliere F, Chandrananda D, Piskorz AM, Moore EK, Morris J, Ahlborn LB, Mair R, ",
+        "epmcYear": "2018",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "c9204f63668acaf358663fa00460b7c1769ec1936746811f4e5e480576429126",
+        "crossrefCaptureSha256": "46b2073cc82233ab55eb4326d8b52fbd0fe1061748ab84af0d87fc6b09502b5c",
+        "abstractSha256": "2543c1632243acd8963f3df74c19342cc8478f621a9e60dc99f4c6a0bcc330f4",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "344 plasma samples from 200 people with cancer; size selection enrichment; research method",
+        "usedInRecords": [
+          "cfdna",
+          "fragmentomics"
+        ]
+      },
+      {
+        "sourceId": "Santonja2023",
+        "doi": "10.15252/emmm.202216505",
+        "pmid": "37161793",
+        "pmcid": "PMC10245040",
+        "crossrefTitle": "Comparison of tumor‐informed and tumor‐naïve sequencing assays for ctDNA detection in breast cancer",
+        "crossrefYear": 2023,
+        "crossrefFirstAuthor": "Santonja",
+        "epmcTitle": "Comparison of tumor-informed and tumor-naïve sequencing assays for ctDNA detection in breast cancer.",
+        "epmcFirstAuthors": "Santonja A, Cooper WN, Eldridge MD, Edwards PAW, Morris JA, Edwards AR, Zhao H, ",
+        "epmcYear": "2023",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "0a2350a809a0022f25c9da4a9bbf291915862d37fe87bcfbfd3fef1a55622c32",
+        "crossrefCaptureSha256": "3491c47c4f41958833252ef482044563d280a8ea103e0f6b1457fe42cb208997",
+        "abstractSha256": "eec5f673685c56e6e6abcfc35e526335242e2f5941c79573dc81f85b5ed9a5f6",
+        "abstractRead": true,
+        "readingDepth": "full text (Europe PMC JATS XML PMC10245040): methods and results read for 4,500 amplifiable copies (about 15 ng), theoretical limit 1/(4,500 x variants), 211,500, 27,000-copy re-assay",
+        "scientificScope": "serial plasma from a small breast-cancer cohort (7 patients with tumour sequencing, 54 plasma samples); limits belong to those assays",
+        "usedInRecords": [
+          "cfdna",
+          "tumour-informed-assay",
+          "mrd-testing",
+          "ctdna-units",
+          "finite-molecule-sampling (proposal)"
+        ],
+        "fullTextSha256": "68d0f639e5f00aa8c1f17f8127f4fb77811fe99f393e339ec4766bf7171373ca"
+      },
+      {
+        "sourceId": "Bettegowda2014",
+        "doi": "10.1126/scitranslmed.3007094",
+        "pmid": "24553385",
+        "pmcid": "PMC4017867",
+        "crossrefTitle": "Detection of Circulating Tumor DNA in Early- and Late-Stage Human Malignancies",
+        "crossrefYear": 2014,
+        "crossrefFirstAuthor": "Bettegowda",
+        "epmcTitle": "Detection of circulating tumor DNA in early- and late-stage human malignancies.",
+        "epmcFirstAuthors": "Bettegowda C, Sausen M, Leary RJ, Kinde I, Wang Y, Agrawal N, Bartlett BR, Wang ",
+        "epmcYear": "2014",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "203b350fee49685478572e277971307ea166132e02417bd15a2f7deadd1737bc",
+        "crossrefCaptureSha256": "b44efb80396eac9c55a38bf0a259f97fc2f516f2f9c5ac40108bb5f9345e13c4",
+        "abstractSha256": "fa0496561b79416365a2235112303f949ee6d34ba3ec6f9bbf8834a6c8289279",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "digital PCR-based detection in 640 patients across tumour types; not a stage-wide sensitivity for other assays",
+        "usedInRecords": [
+          "ctdna"
+        ]
+      },
+      {
+        "sourceId": "Razavi2019",
+        "doi": "10.1038/s41591-019-0652-7",
+        "pmid": "31768066",
+        "pmcid": "PMC7061455",
+        "crossrefTitle": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants",
+        "crossrefYear": 2019,
+        "crossrefFirstAuthor": "Razavi",
+        "epmcTitle": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+        "epmcFirstAuthors": "Razavi P, Li BT, Brown DN, Jung B, Hubbell E, Shen R, Abida W, Juluru K, De Brui",
+        "epmcYear": "2019",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "eef2ade11422a22bacc382cbe890edd8662bb05f46b08402219115dbdc9d31fa",
+        "crossrefCaptureSha256": "842054ee4778d4d237003c37204f8adf339495a48af4ed09fc3e4026d174b51e",
+        "abstractSha256": "cb239c08a11ffcc847c1a516cb4d88a9fe6567014bbea517832007b82b86ddb4",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity; methods text via NCBI efetch PMC7061455 read for the ambiguous category",
+        "scientificScope": "124 patients with metastatic cancer and 47 controls, high-intensity assay; fractions are for that assay",
+        "usedInRecords": [
+          "ctdna",
+          "clonal-haematopoiesis",
+          "ctdna-imaging-discordance",
+          "blood-cell-variants-liquid-biopsy (proposal)"
+        ],
+        "methodsTextSha256": "feac68548cc2f6f9c42f2fffee30ead6ddbed08b4dc385cf8f5b7d8e99319507"
+      },
+      {
+        "sourceId": "Magbanua2021",
+        "doi": "10.1038/s41523-021-00239-3",
+        "pmid": "33767190",
+        "pmcid": "PMC7994408",
+        "crossrefTitle": "Circulating tumor DNA and magnetic resonance imaging to predict neoadjuvant chemotherapy response and recurrence risk",
+        "crossrefYear": 2021,
+        "crossrefFirstAuthor": "Magbanua",
+        "epmcTitle": "Circulating tumor DNA and magnetic resonance imaging to predict neoadjuvant chemotherapy response and recurrence risk.",
+        "epmcFirstAuthors": "Magbanua MJM, Li W, Wolf DM, Yau C, Hirst GL, Swigart LB, Newitt DC, Gibbs J, De",
+        "epmcYear": "2021",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "5c3cb158974258144721f954d8c576d50e4003246c1f20e5889e68cda17ed523",
+        "crossrefCaptureSha256": "d1a441583b8f3afc18e587dffb5b4c736a8aab4bed668f789590e59fcf237748",
+        "abstractSha256": "59fa8443ff1a06a1daf1189976527db7addd74d3153a647ad9487701fd7b1e2f",
+        "abstractRead": true,
+        "readingDepth": "full text (Europe PMC JATS XML PMC7994408): population, I-SPY 2 origin, Spearman correlations read",
+        "scientificScope": "84 women from I-SPY 2 with paired ctDNA and MRI data; pilot, authors call findings preliminary",
+        "usedInRecords": [
+          "ctdna-units",
+          "ctdna-imaging-discordance",
+          "ctdna-mrd-positive"
+        ],
+        "fullTextSha256": "3a063e6734f75da6b6544b4dad5fff2bc266daa59fe01dff5c064027d4fe9de1"
+      },
+      {
+        "sourceId": "GarciaMurillas2019",
+        "doi": "10.1001/jamaoncol.2019.1838",
+        "pmid": "31369045",
+        "pmcid": "PMC6681568",
+        "crossrefTitle": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer",
+        "crossrefYear": 2019,
+        "crossrefFirstAuthor": "Garcia-Murillas",
+        "epmcTitle": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer.",
+        "epmcFirstAuthors": "Garcia-Murillas I, Chopra N, Comino-Méndez I, Beaney M, Tovey H, Cutts RJ, Swift",
+        "epmcYear": "2019",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "0f2bf3be0df5593d370ac6795620a8a7179bd9552190a28bf4bf50d5bf575385",
+        "crossrefCaptureSha256": "a4f2799b7d93622d0b31a221952f37b3df1a788a4214ebc3925b9e322ebe983e",
+        "abstractSha256": "2b400b54e22dc844ad15be43483de28ae0120b38943f7cd3922c0431717b5855",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity; NCBI efetch record PMC6681568 read for the 10.7-month lead time and 22 of 23 versus 1 of 6",
+        "scientificScope": "101-patient main cohort and 144-patient combined cohort; digital PCR tumour-informed assay",
+        "usedInRecords": [
+          "ctdna-monitoring-lead-time",
+          "continuous-ctdna-monitoring",
+          "mrd-testing",
+          "lead-time-bias (proposal)"
+        ],
+        "efetchSha256": "4aa7b6b85653f079c11c48692e8f3a7ea8b55b43efc127573578bf1fc35883df"
+      },
+      {
+        "sourceId": "Turner2023",
+        "doi": "10.1016/j.annonc.2022.11.005",
+        "pmid": "36423745",
+        "pmcid": null,
+        "crossrefTitle": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer",
+        "crossrefYear": 2023,
+        "crossrefFirstAuthor": "Turner",
+        "epmcTitle": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer.",
+        "epmcFirstAuthors": "Turner NC, Swift C, Jenkins B, Kilburn L, Coakley M, Beaney M, Fox L, Goddard K,",
+        "epmcYear": "2023",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "c10e8c22e79cf8041e613a1a2e725d259e5ce9995dfd93aae7b87264eb317c81",
+        "crossrefCaptureSha256": "f9b83ebcd12678fdd4fb5a63ff918b72d46567c7b3ca891273a0eb4459d0edf1",
+        "abstractSha256": "51b909295d4e66aca74657c2c1760ec5aee50c3d30836a6a62b932f3cd002b5f",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "c-TRAK TN trial in early triple-negative breast cancer; digital PCR; small pembrolizumab group",
+        "usedInRecords": [
+          "ctdna-monitoring-lead-time"
+        ]
+      },
+      {
+        "sourceId": "Bolton2020",
+        "doi": "10.1038/s41588-020-00710-0",
+        "pmid": "33106634",
+        "pmcid": "PMC7891089",
+        "crossrefTitle": "Cancer therapy shapes the fitness landscape of clonal hematopoiesis",
+        "crossrefYear": 2020,
+        "crossrefFirstAuthor": "Bolton",
+        "epmcTitle": "Cancer therapy shapes the fitness landscape of clonal hematopoiesis.",
+        "epmcFirstAuthors": "Bolton KL, Ptashkin RN, Gao T, Braunstein L, Devlin SM, Kelly D, Patel M, Bertho",
+        "epmcYear": "2020",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "b3324bc7c4923e6e02112b0a7ba7a39ea31e00d320f42fa7d11ac05ef760ed08",
+        "crossrefCaptureSha256": "51b0ab10904d1682b1a4ee41df1bc5fb74fea8bc3fe2faa533e71e70edf37a8a",
+        "abstractSha256": "e242d0b230850dfcfefe08e71ee7c3d278288d777948f9beb499e379253431e9",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "therapy exposure and clonal haematopoiesis selection in a cancer cohort",
+        "usedInRecords": [
+          "clonal-haematopoiesis",
+          "blood-cell-variants-liquid-biopsy (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Jaiswal2014",
+        "doi": "10.1056/NEJMoa1408617",
+        "pmid": "25426837",
+        "pmcid": "PMC4306669",
+        "crossrefTitle": "Age-Related Clonal Hematopoiesis Associated with Adverse Outcomes",
+        "crossrefYear": 2014,
+        "crossrefFirstAuthor": "Jaiswal",
+        "epmcTitle": "Age-related clonal hematopoiesis associated with adverse outcomes.",
+        "epmcFirstAuthors": "Jaiswal S, Fontanillas P, Flannick J, Manning A, Grauman PV, Mar BG, Lindsley RC",
+        "epmcYear": "2014",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "b8ba3f11da73f9f090437c2c46227384075e688334286d1effbf722e7b665331",
+        "crossrefCaptureSha256": "dd957812e666872fcafa8f8e974d686ecb2d52c3ad3ffb47d84e2990537f482f",
+        "abstractSha256": "fab6976266864d2a0e56b6e0cea39612effe58746aa7ebe73069a443699fa659",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "17,182 exomes, population and not a cancer cohort",
+        "usedInRecords": [
+          "clonal-haematopoiesis",
+          "blood-cell-variants-liquid-biopsy (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Coombs2017",
+        "doi": "10.1016/j.stem.2017.07.010",
+        "pmid": "28803919",
+        "pmcid": "PMC5591073",
+        "crossrefTitle": "Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes",
+        "crossrefYear": 2017,
+        "crossrefFirstAuthor": "Coombs",
+        "epmcTitle": "Therapy-Related Clonal Hematopoiesis in Patients with Non-hematologic Cancers Is Common and Associated with Adverse Clinical Outcomes.",
+        "epmcFirstAuthors": "Coombs CC, Zehir A, Devlin SM, Kishtagari A, Syed A, Jonsson P, Hyman DM, Solit ",
+        "epmcYear": "2017",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "13f081232f6470a3fa965e6dd58ce24950b4c95f5adcb93956079a157c51c8f3",
+        "crossrefCaptureSha256": "b4fcd344d90e51a1c0f9baf0c1308bdfa33e030d0a6f3b7fe35b2fa93c65e247",
+        "abstractSha256": "1745c1f523694c175fd2616363504435350fee119a76b0a3e97c0cdf3ae0781a",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "8,810 people with non-haematological cancers",
+        "usedInRecords": [
+          "clonal-haematopoiesis"
+        ]
+      },
+      {
+        "sourceId": "Steensma2015",
+        "doi": "10.1182/blood-2015-03-631747",
+        "pmid": null,
+        "pmcid": null,
+        "crossrefTitle": null,
+        "crossrefYear": null,
+        "crossrefFirstAuthor": null,
+        "epmcTitle": null,
+        "epmcFirstAuthors": "",
+        "epmcYear": null,
+        "identityMatchesLesson": false,
+        "resolvedThrough": [],
+        "epmcCaptureSha256": null,
+        "crossrefCaptureSha256": null,
+        "abstractSha256": null,
+        "abstractRead": false,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity (found by DOI after a title search missed it); abstract gives the concept CHIP, not the 2% threshold",
+        "scientificScope": "concept paper for CHIP",
+        "usedInRecords": [
+          "clonal-haematopoiesis"
+        ]
+      },
+      {
+        "sourceId": "Cristofanilli2004",
+        "doi": "10.1056/NEJMoa040766",
+        "pmid": "15317891",
+        "pmcid": null,
+        "crossrefTitle": "Circulating Tumor Cells, Disease Progression, and Survival in Metastatic Breast Cancer",
+        "crossrefYear": 2004,
+        "crossrefFirstAuthor": "Cristofanilli",
+        "epmcTitle": "Circulating tumor cells, disease progression, and survival in metastatic breast cancer.",
+        "epmcFirstAuthors": "Cristofanilli M, Budd GT, Ellis MJ, Stopeck A, Matera J, Miller MC, Reuben JM, D",
+        "epmcYear": "2004",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "48534d2d826574c6bd956bf35e7fa01bc57d58d0265fc862e29f30583ca4d4c7",
+        "crossrefCaptureSha256": "2e946709c3b7832daee675ed231db3c5a4dd3038d372ee179f8dfe813a627163",
+        "abstractSha256": "66667dafe8946ff7062550a7ec4abd81da08c8b05c2a3c3f77cda07cce958827",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "177 patients with metastatic breast cancer; training set; CellSearch",
+        "usedInRecords": [
+          "ctc-capture",
+          "cellsearch-ctc-count"
+        ]
+      },
+      {
+        "sourceId": "Smerage2014",
+        "doi": "10.1200/JCO.2014.56.2561",
+        "pmid": "24888818",
+        "pmcid": "PMC4209100",
+        "crossrefTitle": "Circulating Tumor Cells and Response to Chemotherapy in Metastatic Breast Cancer: SWOG S0500",
+        "crossrefYear": 2014,
+        "crossrefFirstAuthor": "Smerage",
+        "epmcTitle": "Circulating tumor cells and response to chemotherapy in metastatic breast cancer: SWOG S0500.",
+        "epmcFirstAuthors": "Smerage JB, Barlow WE, Hortobagyi GN, Winer EP, Leyland-Jones B, Srkalovic G, Te",
+        "epmcYear": "2014",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "4d87744cdd2c046a62c03192436c1261d9a50181f4604dbe6e86025954b2e2ea",
+        "crossrefCaptureSha256": "a31bdbae37ad9251e1e414ab0813f17a76359503e9225f7d9b2e841cc305392f",
+        "abstractSha256": "4280e33b4cbc965ae3a4d147941b01286e99202d83da3c4565a5f0d30ef5263b",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "SWOG S0500, 595 evaluable; early switch not effective for survival in the randomised group",
+        "usedInRecords": [
+          "ctc-capture",
+          "cellsearch-ctc-count"
+        ]
+      },
+      {
+        "sourceId": "Allard2004",
+        "doi": "10.1158/1078-0432.CCR-04-0378",
+        "pmid": "15501967",
+        "pmcid": null,
+        "crossrefTitle": "Tumor Cells Circulate in the Peripheral Blood of All Major Carcinomas but not in Healthy Subjects or Patients With Nonmalignant Diseases",
+        "crossrefYear": 2004,
+        "crossrefFirstAuthor": "Allard",
+        "epmcTitle": "Tumor cells circulate in the peripheral blood of all major carcinomas but not in healthy subjects or patients with nonmalignant diseases.",
+        "epmcFirstAuthors": "Allard WJ, Matera J, Miller MC, Repollet M, Connelly MC, Rao C, Tibbe AG, Uhr JW",
+        "epmcYear": "2004",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "3cb66597b87cf0af6033241d6f9c3ec1eb7a05ce550c4903e3be3f910f723909",
+        "crossrefCaptureSha256": "038be5da3c04596d08f5cdc6b88e7a04ea4fa3be1c747ad3fda83f03292a8dde",
+        "abstractSha256": "cdf531d5771a6e27d5be63fb173e31ea90b9d5f0461544e6e1fddc7db661b713",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "CellSearch enumeration; 964 metastatic carcinoma patients, 145 healthy, 199 non-malignant",
+        "usedInRecords": [
+          "ctc-capture"
+        ]
+      },
+      {
+        "sourceId": "Cristiano2019",
+        "doi": "10.1038/s41586-019-1272-6",
+        "pmid": "31142840",
+        "pmcid": "PMC6774252",
+        "crossrefTitle": "Genome-wide cell-free DNA fragmentation in patients with cancer",
+        "crossrefYear": 2019,
+        "crossrefFirstAuthor": "Cristiano",
+        "epmcTitle": "Genome-wide cell-free DNA fragmentation in patients with cancer.",
+        "epmcFirstAuthors": "Cristiano S, Leal A, Phallen J, Fiksel J, Adleff V, Bruhm DC, Jensen SØ, Medina ",
+        "epmcYear": "2019",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "9796c7bea41177076751b00c64125ad09180e4637e080ea79494b81b99e3d95b",
+        "crossrefCaptureSha256": "a974bf6dc4afcd6363f7ba8eea9bfadd5a388f492a0a783a699b5dd1153b93b7",
+        "abstractSha256": "f31eb445be4cb7d16b49769546f23a44a9c143f22fd508b63ae89b212a956641",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "236 patients and 245 healthy people; classifier proof of principle",
+        "usedInRecords": [
+          "fragmentomics"
+        ]
+      },
+      {
+        "sourceId": "Snyder2016",
+        "doi": "10.1016/j.cell.2015.11.050",
+        "pmid": "26771485",
+        "pmcid": "PMC4715266",
+        "crossrefTitle": "Cell-free DNA Comprises an In Vivo Nucleosome Footprint that Informs Its Tissues-Of-Origin",
+        "crossrefYear": 2016,
+        "crossrefFirstAuthor": "Snyder",
+        "epmcTitle": "Cell-free DNA Comprises an In Vivo Nucleosome Footprint that Informs Its Tissues-Of-Origin.",
+        "epmcFirstAuthors": "Snyder MW, Kircher M, Hill AJ, Daza RM, Shendure J.",
+        "epmcYear": "2016",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "2ff1ace0e8d07a2fd84709d6c996b33de58070707bf7473e8c33a50b7de3dcee",
+        "crossrefCaptureSha256": "7b140f3f80358c3a33799687babb14e9a55af2ec92d875e7a6b44d1faa4be27f",
+        "abstractSha256": "ee3f7e3d0dc7e6dd04e099e35e48c066a412d3ea42b39d85c4cb8d33771bfb4d",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "nucleosome footprints and tissue-of-origin inference",
+        "usedInRecords": [
+          "fragmentomics"
+        ]
+      },
+      {
+        "sourceId": "vanderPol2022",
+        "doi": "10.1093/clinchem/hvac029",
+        "pmid": "35292813",
+        "pmcid": null,
+        "crossrefTitle": "The Effect of Preanalytical and Physiological Variables on Cell-Free DNA Fragmentation",
+        "crossrefYear": 2022,
+        "crossrefFirstAuthor": "van der Pol",
+        "epmcTitle": "The Effect of Preanalytical and Physiological Variables on Cell-Free DNA Fragmentation.",
+        "epmcFirstAuthors": "van der Pol Y, Moldovan N, Verkuijlen S, Ramaker J, Boers D, Onstenk W, de Rooij",
+        "epmcYear": "2022",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "102a13d47a34d4f7692de4d11c57bb661ad1e9af13e454779233f37c0f05fba1",
+        "crossrefCaptureSha256": "4a9d94a0cc72bbbe61bf9706848c303b90bf47a1ff8095f2ee59f6d5e40847b5",
+        "abstractSha256": "66ca3f3ee03d737f7ee7121dc55c8c0eeddb411be96515d71a7cce42218b1c9e",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "preanalytical and physiological effects on fragmentation; 63 individuals",
+        "usedInRecords": [
+          "fragmentomics"
+        ]
+      },
+      {
+        "sourceId": "Zviran2020",
+        "doi": "10.1038/s41591-020-0915-3",
+        "pmid": "32483360",
+        "pmcid": "PMC8108131",
+        "crossrefTitle": "Genome-wide cell-free DNA mutational integration enables ultra-sensitive cancer monitoring",
+        "crossrefYear": 2020,
+        "crossrefFirstAuthor": "Zviran",
+        "epmcTitle": "Genome-wide cell-free DNA mutational integration enables ultra-sensitive cancer monitoring.",
+        "epmcFirstAuthors": "Zviran A, Schulman RC, Shah M, Hill STK, Deochand S, Khamnei CC, Maloney D, Pate",
+        "epmcYear": "2020",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "de8accb01b2896f0aa4b73353375942430889f57225afcbaaf207ef269936f8c",
+        "crossrefCaptureSha256": "1683447fd1d3c3c667a0b91c8db043f0c8f136572ca35e373ad20941f7d19a68",
+        "abstractSha256": "bc80ae569bbc950d108c80734a13e0de14b2f2cfb80fedd63dd10a32c5a3c546",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "whole-genome mutational integration, tumour-fraction sensitivity to 1e-5",
+        "usedInRecords": [
+          "mrd-testing"
+        ]
+      },
+      {
+        "sourceId": "Heuser2021",
+        "doi": "10.1182/blood.2021013626",
+        "pmid": "34724563",
+        "pmcid": "PMC8718623",
+        "crossrefTitle": "2021 Update on MRD in acute myeloid leukemia: a consensus document from the European LeukemiaNet MRD Working Party",
+        "crossrefYear": 2021,
+        "crossrefFirstAuthor": "Heuser",
+        "epmcTitle": "2021 Update on MRD in acute myeloid leukemia: a consensus document from the European LeukemiaNet MRD Working Party.",
+        "epmcFirstAuthors": "Heuser M, Freeman SD, Ossenkoppele GJ, Buccisano F, Hourigan CS, Ngai LL, Tetter",
+        "epmcYear": "2021",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "592fb2a295d65f6fb8713e75e1b3029daf234ef2b9c2d7304b265684d6c23fac",
+        "crossrefCaptureSha256": "2b2ba6dfe106a04a3ee6802246ba9e3d4a55d9d2347bc5f6791d9f3f164a0cd5",
+        "abstractSha256": "a34ccacc83a5fac5b02c95c5e737da90b378187062dad278c060aad0ec284ff2",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "acute myeloid leukaemia consensus; thresholds not transferable",
+        "usedInRecords": [
+          "mrd"
+        ]
+      },
+      {
+        "sourceId": "Newman2016",
+        "doi": "10.1038/nbt.3520",
+        "pmid": "27018799",
+        "pmcid": "PMC4907374",
+        "crossrefTitle": "Integrated digital error suppression for improved detection of circulating tumor DNA",
+        "crossrefYear": 2016,
+        "crossrefFirstAuthor": "Newman",
+        "epmcTitle": "Integrated digital error suppression for improved detection of circulating tumor DNA.",
+        "epmcFirstAuthors": "Newman AM, Lovejoy AF, Klass DM, Kurtz DM, Chabon JJ, Scherer F, Stehr H, Liu CL",
+        "epmcYear": "2016",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "455196421bd92858d78d3ea1844774e0ba5348e0b17c0fcd0b829ef31991d31d",
+        "crossrefCaptureSha256": "78acff72972c5002d2699158bd2716c1f33c407d16d170bdc767ceaac8344653",
+        "abstractSha256": "367d02677597a2286b5f01f647f0edf6b5f28a9315c1d46211cbb57ec9ffa7f1",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "iDES error suppression in CAPP-Seq; read, not used for a claim in a note",
+        "usedInRecords": []
+      },
+      {
+        "sourceId": "Diehl2008",
+        "doi": "10.1038/nm.1789",
+        "pmid": "18670422",
+        "pmcid": "PMC2820391",
+        "crossrefTitle": "Circulating mutant DNA to assess tumor dynamics",
+        "crossrefYear": 2008,
+        "crossrefFirstAuthor": "Diehl",
+        "epmcTitle": "Circulating mutant DNA to assess tumor dynamics.",
+        "epmcFirstAuthors": "Diehl F, Schmidt K, Choti MA, Romans K, Goodman S, Li M, Thornton K, Agrawal N, ",
+        "epmcYear": "2008",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "0814f20f4bb56a5de6cdb7b532afea6ffce2224f2c19d0bccab8205aa0150439",
+        "crossrefCaptureSha256": "14353271ad8deab9680bd5a7bfd4b836627c8aaf9cc44419150382814dcbd9fd",
+        "abstractSha256": "7ae9501006f7808dd2a954d698e3e57bf2b0fa4ce36324ed8e95e458ac514c65",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity; abstract does not state the half-life; full text not obtainable (see failures)",
+        "scientificScope": "18 subjects, 162 plasma samples; half-life claim NOT adopted",
+        "usedInRecords": []
+      },
+      {
+        "sourceId": "Sharma2026",
+        "doi": "10.3389/fonc.2026.1894198",
+        "pmid": "42609878",
+        "pmcid": "PMC13479687",
+        "crossrefTitle": "Circulating tumor DNA in colorectal cancer: assay selection, clinical applications, and practical integration for gastroenterologists",
+        "crossrefYear": 2026,
+        "crossrefFirstAuthor": "Sharma",
+        "epmcTitle": "Circulating tumor DNA in colorectal cancer: assay selection, clinical applications, and practical integration for gastroenterologists.",
+        "epmcFirstAuthors": "Sharma A, Tan JK, Kumar H, Dhali A, Paladiya R, Sisodia R, Bharadwaj H, Dahiya D",
+        "epmcYear": "2026",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "158f50cae0e1ad8db70979ecb684fd4767477d4cd2222a1c986a8ef4aef4c60c",
+        "crossrefCaptureSha256": "389f79d050a6cfdeb8906030b556e67ab2ba565f3fdcff479129f9cd59a79385",
+        "abstractSha256": "2daed9fd18d070ca622ef925678bbc11bcabc70fe60cf21d84c6915ec5faa2fa",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "narrative review in colorectal cancer; used only to confirm that tissue and time are named costs, no figure adopted",
+        "usedInRecords": []
+      },
+      {
+        "sourceId": "Han2014",
+        "doi": "10.1038/nbt.2938",
+        "pmid": "24952902",
+        "pmcid": "PMC4337815",
+        "crossrefTitle": "Linking T-cell receptor sequence to functional phenotype at the single-cell level",
+        "crossrefYear": 2014,
+        "crossrefFirstAuthor": "Han",
+        "epmcTitle": "Linking T-cell receptor sequence to functional phenotype at the single-cell level.",
+        "epmcFirstAuthors": "Han A, Glanville J, Hansmann L, Davis MM.",
+        "epmcYear": "2014",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "860de017ac25f353a8d5ab2351468f2ba157011a9f29237a89d5329e8aaa6a32",
+        "crossrefCaptureSha256": "d95a10167a30c1e0cb5f5fcb6f6ea729e4da73aff54045f6f07b9d1031ce8cb3",
+        "abstractSha256": "55557a49c43843591d630686c3deb7fc6a65d4b9986a93269944fd8b98edf0ca",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "single-cell paired TCR with function; methods paper",
+        "usedInRecords": [
+          "tcr-repertoire-sequencing (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Ruggiero2015",
+        "doi": "10.1038/ncomms9081",
+        "pmid": "26324409",
+        "pmcid": "PMC4569693",
+        "crossrefTitle": "High-resolution analysis of the human T-cell receptor repertoire",
+        "crossrefYear": 2015,
+        "crossrefFirstAuthor": "Ruggiero",
+        "epmcTitle": "High-resolution analysis of the human T-cell receptor repertoire.",
+        "epmcFirstAuthors": "Ruggiero E, Nicolay JP, Fronza R, Arens A, Paruzynski A, Nowrouzi A, Ürenden G, ",
+        "epmcYear": "2015",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "e58bd2bc5a8f0231e500bee4966b98a35ed30d7e4b7981e35760a574f2576f63",
+        "crossrefCaptureSha256": "0cef459e44a27684e6b0db6cbb191ba6130fcc4f1d5658ce8c3c5e2564b57465",
+        "abstractSha256": "e18cc159349c9b24c175ddeb7c55cb40a8cc9ffa82700cf0e4e013af07390391",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "TCR-LA-MC PCR method",
+        "usedInRecords": [
+          "tcr-repertoire-sequencing (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Streeck2009",
+        "doi": "10.1038/nprot.2009.7",
+        "pmid": "19282851",
+        "pmcid": null,
+        "crossrefTitle": "The role of IFN-γ Elispot assay in HIV vaccine research",
+        "crossrefYear": 2009,
+        "crossrefFirstAuthor": "Streeck",
+        "epmcTitle": "The role of IFN-gamma Elispot assay in HIV vaccine research.",
+        "epmcFirstAuthors": "Streeck H, Frahm N, Walker BD.",
+        "epmcYear": "2009",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "51881bc1dc780089d41a6868e6e34af5d25405333f8b6dc65d6d68e3d611b79c",
+        "crossrefCaptureSha256": "5620440ec6f023cac7f03eb7861ec69de600099251f7efa4774c558aad9b4e49",
+        "abstractSha256": "07506cf85cee7af582d835a2b500f79e9225c9ceec7edac3ce9cbac3f95280d6",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity (title in Crossref is a review of the IFN-gamma ELISpot in HIV vaccine research)",
+        "scientificScope": "HIV vaccine; not cancer",
+        "usedInRecords": [
+          "elispot (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Yang2022",
+        "doi": "10.1038/s41434-020-00214-w",
+        "pmid": "33432123",
+        "pmcid": "PMC7797710",
+        "crossrefTitle": "Validation of an IFN-gamma ELISpot assay to measure cellular immune responses against viral antigens in non-human primates",
+        "crossrefYear": 2021,
+        "crossrefFirstAuthor": "Yang",
+        "epmcTitle": "Validation of an IFN-gamma ELISpot assay to measure cellular immune responses against viral antigens in non-human primates.",
+        "epmcFirstAuthors": "Yang F, Patton K, Kasprzyk T, Long B, Gupta S, Zoog SJ, Tracy K, Vettermann C.",
+        "epmcYear": "2022",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "034cb6532d75bb85352a5dbfca6d0064bb370b032d985cc0f94935a5f7213702",
+        "crossrefCaptureSha256": "b918f1ba0a1cff70ce8ceed8ea73e1e94ddba6772a52fbc0a67b2089c1002e74",
+        "abstractSha256": "ed4378144ac63061f990bca56f2f2fe42a6610d7d87857206bd948a3062f7b42",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "cynomolgus monkey AAV-antigen ELISpot validation; not cancer efficacy",
+        "usedInRecords": [
+          "elispot (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Pogorelyy2026",
+        "doi": "10.1038/s41592-025-02907-9",
+        "pmid": "41286199",
+        "pmcid": "PMC12791010",
+        "crossrefTitle": "TIRTL-seq: deep, quantitative and affordable paired TCR repertoire sequencing",
+        "crossrefYear": 2025,
+        "crossrefFirstAuthor": "Pogorelyy",
+        "epmcTitle": "TIRTL-seq: deep, quantitative and affordable paired TCR repertoire sequencing.",
+        "epmcFirstAuthors": "Pogorelyy MV, Kirk AM, Adhikari S, Minervina AA, Sundararaman B, Vegesana K, Bri",
+        "epmcYear": "2026",
+        "identityMatchesLesson": true,
+        "resolvedThrough": [
+          "Europe PMC",
+          "Crossref"
+        ],
+        "epmcCaptureSha256": "7f798061694a7a08311590cafa58e5698430d7083ae910cd3d7c293a2430118a",
+        "crossrefCaptureSha256": "eff5e3a886c4ae09685ff8737019bce88a462a514984bf308a4ba2b6e98bc3ac",
+        "abstractSha256": "6bcf21b4353f7fc9aa242ba6a7606c8492df8f9d5b07c3e461cbd3ed11d1a6e0",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC) and Crossref identity",
+        "scientificScope": "TIRTL-seq methods; not a universal validation",
+        "usedInRecords": [
+          "tcr-repertoire-sequencing (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Maecker2005",
+        "pmid": "15978127",
+        "doi": "10.1186/1471-2172-6-13",
+        "epmcTitle": "Standardization of cytokine flow cytometry assays.",
+        "epmcFirstAuthors": "Maecker HT, Rinfret A, D'Souza P, Darden J, Roig E, Landry C, Hayes P, Birungi J",
+        "epmcYear": "2005",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "84c071a39423b1cae89da0c99abdbad5282cf216ffb45d176d3b844745944564",
+        "abstractSha256": "052f7a956f8657aef99dc3264f4061921c39e74ab41ea19215ee5b6fbdbd00cd",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "HIV vaccine-trial laboratories; precision not validity for every panel",
+        "usedInRecords": [
+          "intracellular-cytokine-staining (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Betts2003",
+        "pmid": "14580882",
+        "doi": "10.1016/s0022-1759(03)00265-5",
+        "epmcTitle": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+        "epmcFirstAuthors": "Betts MR, Brenchley JM, Price DA, De Rosa SC, Douek DC, Roederer M, Koup RA.",
+        "epmcYear": "2003",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "d70c072846b6572692fc5a3663d8a940d65da479bd14c0744c145bceb50f11e3",
+        "abstractSha256": "e4bac9d5f434c1cf27b0d970213488c9a5883cd5dc2f7f1c79cf6d9c909144b1",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "CD107 degranulation in antigen-specific CD8 T cells",
+        "usedInRecords": [
+          "flow-cytometry (proposal)",
+          "immune-cytotoxicity-assays (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Roederer2001",
+        "pmid": "11746088",
+        "doi": "10.1002/1097-0320(20011101)45:3<194::aid-cyto1163>3.0.co;2-c",
+        "epmcTitle": "Spectral compensation for flow cytometry: visualization artifacts, limitations, and caveats.",
+        "epmcFirstAuthors": "Roederer M.",
+        "epmcYear": "2001",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "1f30911c6f91793dd30e9201d0a623b0ae281c23da1a5fd6678c89bf15aecd58",
+        "abstractSha256": "e08c88e5d971eb3ec83c0e0cdba9fb555ae53ec3b492d66b45b0fd4b953b554e",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "mathematical and experimental compensation analysis",
+        "usedInRecords": [
+          "flow-cytometry (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Cossarizza2021",
+        "pmid": "34910301",
+        "doi": "10.1002/eji.202170126",
+        "epmcTitle": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (third edition).",
+        "epmcFirstAuthors": "Cossarizza A, Chang HD, Radbruch A, Abrignani S, Addo R, Akdis M, Andrä I, Andre",
+        "epmcYear": "2021",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "d6aece43df3b098954b823f30b8e79b8651b51139bffb1e0a88fd0996d560bfd",
+        "abstractSha256": "7e0ee4e81a4066549d426876434c288d6091c3bfe74fed1dea8eacd2a190bd83",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "guidelines handbook, abstract only",
+        "usedInRecords": [
+          "flow-cytometry (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Rabinovich2019",
+        "pmid": "31525367",
+        "doi": "10.1016/j.jim.2019.112668",
+        "epmcTitle": "A versatile flow-based assay for immunocyte-mediated cytotoxicity.",
+        "epmcFirstAuthors": "Rabinovich PM, Zhang J, Kerr SR, Cheng BH, Komarovskaya M, Bersenev A, Hurwitz M",
+        "epmcYear": "2019",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "84009db1931d04defe8483ec15283eb9ba2f777c31bbafe61886405ce06808a4",
+        "abstractSha256": "be9c12cc2e79a2af4b8904f5b634786e9acc113fbbffe7fc034e5976ca59041c",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "flow-based nuclear cytotoxicity assay, multiple effector-target systems",
+        "usedInRecords": [
+          "immune-cytotoxicity-assays (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Noto2013",
+        "pmid": "24378436",
+        "doi": "10.3791/51105",
+        "epmcTitle": "Cell-based flow cytometry assay to measure cytotoxic activity.",
+        "epmcFirstAuthors": "Noto A, Ngauv P, Trautmann L.",
+        "epmcYear": "2013",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "fb9b7548f2c9f5f4b2d94fbc91fa8180edb4e01cb461dcef2e83b8062236dd52",
+        "abstractSha256": "05022a49b4a6c7bf46f733d467701a391cc7b4135e66b06bcc0821100cfbe1cc",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "CFSE peptide-pulsed CD4 targets with CD8 effectors",
+        "usedInRecords": [
+          "immune-cytotoxicity-assays (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Altman1996",
+        "pmid": "8810254",
+        "doi": "10.1126/science.274.5284.94",
+        "epmcTitle": "Phenotypic analysis of antigen-specific T lymphocytes.",
+        "epmcFirstAuthors": "Altman JD, Moss PA, Goulder PJ, Barouch DH, McHeyzer-Williams MG, Bell JI, McMic",
+        "epmcYear": "1996",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "97975b884761f295e3d08538b7b19bc6b1baa28f4b1b05bc91c2a77b6502c330",
+        "abstractSha256": "8f8fe2e0ca9b034a8fea1b410e5d898af04c4a39fdc0ff93dd56304ccf207323",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "HLA-A2 tetramers with HIV and influenza peptides",
+        "usedInRecords": [
+          "peptide-hla-multimer-staining (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Ramachandiran2007",
+        "pmid": "17187819",
+        "doi": "10.1016/j.jim.2006.08.014",
+        "epmcTitle": "A robust method for production of MHC tetramers with small molecule fluorophores.",
+        "epmcFirstAuthors": "Ramachandiran V, Grigoriev V, Lan L, Ravkov E, Mertens SA, Altman JD.",
+        "epmcYear": "2007",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "ff5a2fd4529a67682bc55e4918a849ffcf22049047c1cf1d303e488a1a7a4537",
+        "abstractSha256": "08e444d32ccd66d7c54a4bb5803eab79a3cb6bbe6903266c57f7cfc8f95bc81b",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "tetramer production method",
+        "usedInRecords": [
+          "peptide-hla-multimer-staining (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Shugay2015",
+        "pmid": "26606115",
+        "doi": "10.1371/journal.pcbi.1004503",
+        "epmcTitle": "VDJtools: Unifying Post-analysis of T Cell Receptor Repertoires.",
+        "epmcFirstAuthors": "Shugay M, Bagaev DV, Turchaninova MA, Bolotin DA, Britanova OV, Putintseva EV, P",
+        "epmcYear": "2015",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "c3de89afa8fb3e61c1fd221b1bcb467e1533b28f5518efc7ea6329c0976451b5",
+        "abstractSha256": "1ebce6b35c42ac7d2341c125dfa1707c91c3a82b78f6560f2f2d73a146c6e9c1",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "VDJtools software paper",
+        "usedInRecords": [
+          "tcr-repertoire-clonality (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Boyum1968",
+        "pmid": "4179068",
+        "doi": null,
+        "epmcTitle": "Isolation of mononuclear cells and granulocytes from human blood. Isolation of monuclear cells by one centrifugation, and of granulocytes by combining centrifugation and sedimentation at 1 g.",
+        "epmcFirstAuthors": "Böyum A.",
+        "epmcYear": "1968",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "c792dec0196e3e5d5e6d919f5c73ff2be854b47567db9cf4d5e47bd3d024511d",
+        "abstractSha256": null,
+        "abstractRead": false,
+        "readingDepth": "title only (no abstract in Europe PMC)",
+        "scientificScope": "Europe PMC record has a title and no abstract; only the title was read, so it is cited for the existence of the method and nothing else",
+        "usedInRecords": [
+          "pbmc-specimens (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Bull2007",
+        "pmcid": "PMC1904432",
+        "pmid": "17382342",
+        "epmcTitle": "Defining blood processing parameters for optimal detection of cryopreserved antigen-specific responses for HIV vaccine trials.",
+        "epmcFirstAuthors": "Bull M, Lee D, Stucky J, Chiu YL, Rubin A, Horton H, McElrath MJ.",
+        "epmcYear": "2007",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "1aee1da8ab93ace38d6893a2b12602fe840b5bca5e9b304fc98de22eb4af5ce8",
+        "abstractSha256": "2a699743c0291b9f947275fe79ce3e367d32528750fd302f0c125138d98716b0",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "HIV vaccine assays; handling window for those protocols",
+        "usedInRecords": [
+          "pbmc-specimens (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Zhang2017",
+        "pmcid": "PMC5327583",
+        "pmid": "28241742",
+        "epmcTitle": "3D: diversity, dynamics, differential testing - a proposed pipeline for analysis of next-generation sequencing T cell repertoire data.",
+        "epmcFirstAuthors": "Zhang L, Cham J, Paciorek A, Trager J, Sheikh N, Fong L.",
+        "epmcYear": "2017",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "de5d0eb7ce66872b6fbfc98ac13541d84ecfbc8b12c79d1aef819e7f4d76c663",
+        "abstractSha256": "0cdb6d76d53ff0dc6d848809a3e0f342a15b40f009b4a06f73e8cc04401ad345",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "methods pipeline with sipuleucel-T example; no response threshold",
+        "usedInRecords": [
+          "tcr-repertoire-clonality (proposal)"
+        ]
+      },
+      {
+        "sourceId": "WykesRenia",
+        "pmcid": "PMC8410284",
+        "pmid": "34541071",
+        "epmcTitle": "ELISPOT Assay to Measure Peptide-specific IFN-γ Production.",
+        "epmcFirstAuthors": "Wykes MN, Renia L.",
+        "epmcYear": "2017",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "52ddc1a52a960a2f91363f9196fd5bd802b1aa36f3693df745d12931c33e43df",
+        "abstractSha256": "67c8dd4e617860763fc752c40354e53aaabe112b7b40776ee4e39a54320214d8",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "ELISpot protocol (Bio-protocol)",
+        "usedInRecords": [
+          "elispot (proposal)"
+        ]
+      },
+      {
+        "sourceId": "Maecker2005-PMC",
+        "pmcid": "PMC1184077",
+        "pmid": "15978127",
+        "epmcTitle": "Standardization of cytokine flow cytometry assays.",
+        "epmcFirstAuthors": "Maecker HT, Rinfret A, D'Souza P, Darden J, Roig E, Landry C, Hayes P, Birungi J",
+        "epmcYear": "2005",
+        "resolvedThrough": [
+          "Europe PMC"
+        ],
+        "epmcCaptureSha256": "400b031732fd4fe35ebefde026f523f40a4cb68dcd2e614d4c3a1a7b4abed24d",
+        "abstractSha256": "052f7a956f8657aef99dc3264f4061921c39e74ab41ea19215ee5b6fbdbd00cd",
+        "abstractRead": true,
+        "readingDepth": "abstract (Europe PMC)",
+        "scientificScope": "same paper as Maecker2005",
+        "usedInRecords": [
+          "intracellular-cytokine-staining (proposal)"
+        ]
+      }
+    ],
+    "regulatorAndWebSources": [
+      {
+        "sourceId": "FDA2024",
+        "title": "Use of Circulating Tumor DNA for Curative-Intent Solid Tumor Drug Development, Guidance for Industry, November 2024",
+        "url": "https://www.fda.gov/media/183874/download",
+        "httpStatus": 200,
+        "rawCaptureSha256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+        "textSha256": "e351152041e791df4341566ec9690fdc16285b6f73b9fbf6b5efb5b837f6cab7",
+        "readingDepth": "full text extracted with pdftotext; section IV.A (types of MRD assays) read in full",
+        "scientificScope": "nonbinding guidance for drug development; design considerations, not performance data",
+        "usedInRecords": [
+          "tumour-informed-assay",
+          "ctdna-units (link)",
+          "ctdna-monitoring-lead-time (link)"
+        ]
+      },
+      {
+        "sourceId": "NCIcfDNA",
+        "title": "NCI Biospecimen Evidence-Based Practices: cell-free DNA collection and processing, revision 1.0 of 5 February 2025",
+        "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/bebp/bebp-cfdna.pdf",
+        "httpStatus": 200,
+        "rawCaptureSha256": "0025bd664c25a2b1ccb1f14decf533d76f9f2161133c173d0cc5cef7e5805b2e",
+        "textSha256": "fc3406cf40144779e5f973d04842be4f2b809c8674dfb9c6f4e5bf1279b818fb",
+        "readingDepth": "full text extracted; sections 7.1 and 7.2 read",
+        "scientificScope": "literature summary of tube choice and processing delay",
+        "usedInRecords": [
+          "cfdna"
+        ]
+      },
+      {
+        "sourceId": "VDJtoolsDoc",
+        "url": "https://vdjtools-doc.readthedocs.io/en/master/diversity.html",
+        "httpStatus": 200,
+        "rawCaptureSha256": "1255311068751823bec0f29594b18742b1a1bbb8fcf0db163c8248aab919b40a",
+        "readingDepth": "diversity index definitions read",
+        "scientificScope": "software documentation",
+        "usedInRecords": [
+          "tcr-repertoire-clonality (proposal)"
+        ]
+      },
+      {
+        "sourceId": "MabtechELISpot",
+        "url": "https://www.mabtech.com/knowledge-hub/elispot",
+        "httpStatus": 200,
+        "rawCaptureSha256": "54b6b53f9ea9deb2268f5ae3f644a37d5d4cdb46c1ae3d68ecd15bdb64aa1337",
+        "readingDepth": "principle paragraph read",
+        "scientificScope": "vendor explanation of the ELISpot principle; no validation or cancer claim",
+        "usedInRecords": []
+      },
+      {
+        "sourceId": "CytivaDensity",
+        "url": "https://cdn.cytivalifesciences.com/api/public/content/digi-16156-pdf",
+        "httpStatus": 200,
+        "rawCaptureSha256": "dad96751fdda0d5e2cbbb9d5b3f5dfc46dfa5e07f885d5b44a41e6de3de83bf2",
+        "readingDepth": "text extracted, not read beyond confirming mononuclear-cell separation content (91 mentions)",
+        "scientificScope": "vendor handbook",
+        "usedInRecords": []
+      },
+      {
+        "sourceId": "CLSIterms",
+        "url": "https://htd.clsi.org/listterms.asp?button=Submit",
+        "httpStatus": 200,
+        "rawCaptureSha256": "8f862848768df7ca7c7f32c2b7da2995710c948a78c9b8be11ae97656d853dc5",
+        "readingDepth": "fetched, not read for a claim",
+        "scientificScope": "terminology list; no claim adopted",
+        "usedInRecords": []
+      }
+    ],
+    "failures": [
+      {
+        "source": "Diehl 2008 full text (PMC2820391)",
+        "attempts": [
+          "Europe PMC fullTextXML: HTTP 500",
+          "pmc.ncbi.nlm.nih.gov article page: 21 KB page without the results text",
+          "NCBI efetch db=pmc: 10 KB record without the results text"
+        ],
+        "captureSha256": {
+          "pmc_html": "ce3ca3ea670e6d527b889cae401f1aa9cd5a4e7033b49b2ca7fbffd4340cb0a1",
+          "efetch": "0a7ebdc2f4bf799edde253133d029f59c51bcd0c9364d2efe4c05eb3beb4121a"
+        },
+        "outcome": "the 114-minute half-life and the one-subject basis could not be verified; withheld from the new records and queued"
+      },
+      {
+        "source": "NCI dictionary pages for CHIP and minimal residual disease",
+        "attempts": [
+          "https://www.cancer.gov/publications/dictionaries/genetics-dictionary/def/chip and the cancer-terms MRD page returned HTTP 200 with no definition text in the raw HTML (client-rendered)"
+        ],
+        "captureSha256": {
+          "chip": "4555afbfa48a8a3c43da68867a6082ecc534222d84161e588dcd82c260f1cdbc",
+          "mrd": "d7929aaf6b0d6c85acef366ad5755fd18f3af7bf7dd02b41062f4cdef5b6964c"
+        },
+        "outcome": "NCI definitions not adopted from raw text; the 2% VAF threshold is carried from the owner record and labelled as such"
+      },
+      {
+        "source": "Europe PMC fullTextXML for Razavi 2019 and García-Murillas 2019",
+        "attempts": [
+          "HTTP 500"
+        ],
+        "outcome": "NCBI efetch records read instead (methods text for Razavi, abstract and results for García-Murillas)"
+      },
+      {
+        "source": "Böyum 1968 abstract",
+        "attempts": [
+          "Europe PMC record has no abstract"
+        ],
+        "outcome": "title-only use"
+      },
+      {
+        "source": "Europe PMC title search for Steensma 2015",
+        "attempts": [
+          "title search returned unrelated records"
+        ],
+        "outcome": "resolved by DOI 10.1182/blood-2015-03-631747 instead"
+      },
+      {
+        "source": "Elicit",
+        "attempts": [
+          "no Elicit tool is callable in this session"
+        ],
+        "outcome": "frozen literature plan and dispositions in the manifest were not needed as claim evidence; primary-source searches by identifier used instead"
+      }
+    ],
+    "lessonClauseAudit": [
+      {
+        "lesson": "ctdna-imaging-discordance",
+        "clause": "ctDNA half-life 114 minutes in one colorectal subject (Diehl 2008)",
+        "status": "unverified from accessible raw text; withheld",
+        "action": "queued"
+      },
+      {
+        "lesson": "chip, cfdna-vs-ctdna",
+        "clause": "Lo 2010 cited for a general plasma 166 bp peak",
+        "status": "abstract supports a 166 bp peak in maternal plasma with fetal reduction relative to 143 bp; carried with its maternal-plasma scope",
+        "action": "scoped"
+      },
+      {
+        "lesson": "cfdna-vs-ctdna, tumor-informed-vs-tumor-naive-mrd-assays",
+        "clause": "4,500 genome copies, about 15 nanograms (Santonja)",
+        "status": "verified in full text as 4,500 amplifiable copies (~15 ng)",
+        "action": "adopted with wording amplifiable copies"
+      },
+      {
+        "lesson": "chip",
+        "clause": "NCI definition: VAF at least 2% without detectable haematologic cancer",
+        "status": "NCI page unreadable as raw text; threshold carried from the owner record and labelled",
+        "action": "scoped"
+      },
+      {
+        "lesson": "tcr-clonality-metrics",
+        "clause": "normalised Shannon clonality 1 - H/ln(K) alongside software normalised indices",
+        "status": "VDJtools documentation read: its normalised index is H/log(K) (evenness) and Shannon-Wiener returns the exponent; the 1 minus form is a derived convention",
+        "action": "added to the clonality proposal"
+      },
+      {
+        "lesson": "ctdna-units, ctdna-imaging-discordance",
+        "clause": "Magbanua cohort described as 84 high-risk early breast cancers",
+        "status": "verified in full text: 84 women, stage II or III, from I-SPY 2",
+        "action": "adopted"
+      },
+      {
+        "lesson": "circulating-tumor-cells",
+        "clause": "FDA K031588 decision summary for epithelial identification and input",
+        "status": "not read in this batch",
+        "action": "not adopted; device details taken only from the existing CellSearch record"
+      },
+      {
+        "lesson": "elispot, peptide-hla-multimer-staining",
+        "clause": "nature.com protocol links",
+        "status": "resolved through Crossref and Europe PMC; the Nature protocol is a review of IFN-gamma ELISpot in HIV vaccine research",
+        "action": "scoped to HIV"
+      }
+    ]
+  },
+  "elicit": "No callable live Elicit tool in these batches. Frozen discovery remains separate; no report URL, question or response is invented."
+}

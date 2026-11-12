@@ -1,0 +1,387 @@
+{
+  "references": [
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/106/review/points/0/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/106/review/points/1/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/106/review/points/2/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "ledger.json",
+      "pointer": "/items/106/review/points/3/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/102/review/points/0/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/102/review/points/1/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/102/review/points/2/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-phases/c9689645/ledger.json",
+      "pointer": "/items/102/review/points/3/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/458/review/points/0/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/458/review/points/1/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/458/review/points/2/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/459/review/points/0/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/459/review/points/1/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/0/items/459/review/points/2/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/458/review/points/0/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/458/review/points/1/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/458/review/points/2/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/459/review/points/0/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/459/review/points/1/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    },
+    {
+      "artifact": "source-assets.json",
+      "pointer": "/phases/1/items/459/review/points/2/evidence/0",
+      "before": {
+        "recordId": "brd4",
+        "version": "proposal-repair-signaling",
+        "field": "summary",
+        "fieldSha256": "bf007b53213c1b7aca0dfdbc556e12c64952a11342a1f176d8b41f6a9c436b1f",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "after": {
+        "recordId": "brd4",
+        "version": "proposal-targeted-small-molecules-root",
+        "field": "summary",
+        "fieldSha256": "74ac8402dcd8102e15c06bf10b4c88a34b07acc8069e71e94100ff691b980edb",
+        "explanation": "Exact current authored passage, source scope and actual reader/export checks retained in repair-signaling-2026-11-10."
+      },
+      "reason": "The current-root BRD4 summary retains its prior functional and study claims; the only scalar change explains the existing fixed-mark convention without an unavailable lesson reference. Exact before hash matches. Frozen snapshots and earlier packets remain untouched."
+    }
+  ],
+  "count": 20,
+  "earlierPacketAndSnapshotBytesUntouched": true,
+  "currentRootOnly": true
+}

@@ -1,0 +1,2843 @@
+[
+  {
+    "id": "C-001",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Define a competing event as preventing the event of interest; retain death before a first breast-cancer recurrence as the concrete endpoint-specific example.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "In one sentence",
+        "lineStart": 24,
+        "lineEnd": 36,
+        "passageSha256": "afc58f5215ae6f6fe30370dcdf70e4848fc5944417335bac3d1c87698642b94f"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-002",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Carry the hurdle/runners analogy and its limit: ordinary loss, competing events and the target event have different handling.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "The intuition",
+        "lineStart": 28,
+        "lineEnd": 32,
+        "passageSha256": "c65a2a0c9bd10e90d817ef04b52e832b6c8fa8f13a7a1ddd5cc3f7258fc899a0"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-003",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Assess ordinary censoring and the hypothetical net-risk interpretation of deaths-censored Kaplan-Meier, retaining the assumptions and avoiding an unqualified causal counterfactual.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "How it works",
+        "lineStart": 38,
+        "lineEnd": 38,
+        "passageSha256": "8213b6b27e103ecbf2ae61caf5ee0d05ff35b8b7960ceb752b95f8ef2829bd32"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-004",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Distinguish upward bias of 1 minus Kaplan-Meier as real-world event probability from assumptions about independence of competing events.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "How it works",
+        "lineStart": 38,
+        "lineEnd": 38,
+        "passageSha256": "8213b6b27e103ecbf2ae61caf5ee0d05ff35b8b7960ceb752b95f8ef2829bd32"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-005",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Define cumulative incidence as event probability by time in the presence of competing events and resolve Aalen-Johansen as its standard nonparametric estimator.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "How it works",
+        "lineStart": 40,
+        "lineEnd": 40,
+        "passageSha256": "331fe61cbe5be897cf545a0efbf061c233952feeee0ae42d91a7664c61cc5510"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-006",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Carry the full increment rule: event-free survival from every event just before a time times target-event fraction among those at risk, then sum; deaths alter future survival factors.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "How it works",
+        "lineStart": 40,
+        "lineEnd": 45,
+        "passageSha256": "38b63914684df241ceaa421f788a8b7aa0059760cddd5c70b4b2c189c7008e61"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-007",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Retain all rows of the ten-person, no-loss, five-year fictional example, including risk sets 10/8/6/4/2, deaths and recurrences, and the 25% versus 20% and 62.5% versus 40% calculations.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Worked example: count it by hand",
+        "lineStart": 47,
+        "lineEnd": 57,
+        "passageSha256": "2702a43ef1df3dba4efb7dc6a69831601958e1c7b7f1028879915af050d8dc53"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-008",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Explain why four observed recurrences among ten give 40% in the complete-follow-up example and how deaths-censored Kaplan-Meier instead gives 62.5%; do not treat the latter as an observed proportion.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Worked example: count it by hand",
+        "lineStart": 59,
+        "lineEnd": 59,
+        "passageSha256": "3f833a5a3ee3de726ea46af1add44844c40cd7279ec8bb8c698f864431b6f6bd"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-009",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Define cause-specific hazard among those free of all events and the use of competing-event censoring in a cause-specific Cox model without equating it to a recurrence-probability estimate.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Two kinds of regression",
+        "lineStart": 63,
+        "lineEnd": 68,
+        "passageSha256": "d9581c304b26d58f69421b2c0bdd35d935fbe394269d492e1e6d97ecd38c9954"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-010",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Define Fine-Gray subdistribution regression and its relationship to cumulative incidence; qualify the simple absolute-personal-risk and causal-mechanism labels rather than interpreting its ratio as a risk ratio.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Two kinds of regression",
+        "lineStart": 65,
+        "lineEnd": 68,
+        "passageSha256": "bc757a49481bfe6cdcb036d6e610efaa365ae6acce36b42ccd3154488b734b62"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-011",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Keep Fine-Gray regression distinct from Aalen-Johansen curve estimation.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Two kinds of regression",
+        "lineStart": 70,
+        "lineEnd": 70,
+        "passageSha256": "331ec7b490807d2c5597af4ee420a993ec02acc2648e944fa9b0a319e0f67105"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-012",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Verify the published-methods survey: 100 studies, 46 susceptible, 16 checkable and 6 with at least 10% relative risk overstatement, retaining its actual publication/sample scope.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Why it matters in cancer",
+        "lineStart": 74,
+        "lineEnd": 74,
+        "passageSha256": "3eeb75f79160b794357bb8c1e15142084667cffeae7126346ace0f3f84c49b6a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-013",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Define the first-event question for local recurrence or brain metastasis; death and other first sites compete only as the stated endpoint defines them.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Why it matters in cancer",
+        "lineStart": 75,
+        "lineEnd": 75,
+        "passageSha256": "36c8b77492767cf0042f25c29511502b3a701a3e181b0c26aa5871732dc301e2"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-014",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "A composite counting death as an event avoids death competition for that composite, while its separately reported components can still have competing events.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Why it matters in cancer",
+        "lineStart": 76,
+        "lineEnd": 76,
+        "passageSha256": "3ea2375acd578e156c37df931275eef93609f08c8028e8c032b53ac82149213c"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-015",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Assess how frequency of competing events and follow-up influence the gap, without inventing a universal monotonic bias or individual-risk rule.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Why it matters in cancer",
+        "lineStart": 77,
+        "lineEnd": 77,
+        "passageSha256": "fdb06694159b082f4e8eee9f88884a15d99ee791aaff9a01a38d4d62c5907c92"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-016",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Retain the censoring-versus-competing-event confusion and the scope of 1 minus Kaplan-Meier as a hypothetical quantity rather than real-world risk.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Common confusions",
+        "lineStart": 81,
+        "lineEnd": 82,
+        "passageSha256": "9f64629a75493caef7388cb5e1c1b928077088ae292819afbb4bbe18159c2e5c"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-017",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Cause-specific and subdistribution hazard ratios are not interchangeable; different values for the same treatment do not by themselves contradict each other.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Common confusions",
+        "lineStart": 83,
+        "lineEnd": 83,
+        "passageSha256": "bb7dfbf872494cc7f3c18d6080865e324c32bfc357eda716fd83ad439f363de1"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-018",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Carry the probability identity: target-event cumulative incidence, competing-event cumulative incidence and freedom from both sum to one.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Common confusions",
+        "lineStart": 84,
+        "lineEnd": 84,
+        "passageSha256": "7b0173c1ab99e615ae762e4121abee356b8f9b5f2200cbd0171a7e4c61b1e3e5"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-019",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "Carry the complete fictional over-75, 10-year, 12%-from-1-minus-Kaplan-Meier exercise with competing deaths and the request for appropriately defined cumulative incidence.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Try it",
+        "lineStart": 86,
+        "lineEnd": 90,
+        "passageSha256": "3b1dd1c827159fa630347cfb06e1f90ae6530d24ac84011ca6799829978fa3d5"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "C-020",
+    "lesson": "competing-risks",
+    "kind": "substantive",
+    "requirement": "The explanation must connect the chosen event, competing events, probability estimator and ordinary censoring, without claiming individual diagnosis or causal benefit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Explain it back",
+        "lineStart": 92,
+        "lineEnd": 100,
+        "passageSha256": "429d88af525b35b0c1e31b662cf4bd86a3d3178413077db14fc205e2725af2fc"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-001",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Define an analysis population as the prespecified/data-defined people entering an analysis, with different sets answering different questions.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "In one sentence",
+        "lineStart": 24,
+        "lineEnd": 26,
+        "passageSha256": "9750412f349c88cd980c9f03a8409be247819e9425d3d4a273d8d3e833f93d85"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-002",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Qualify randomisation as protection in expectation, not a guarantee of identical observed baseline groups; later selection can lose that protection.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 34,
+        "lineEnd": 34,
+        "passageSha256": "8ca1a47961c7aa436f2a3eea1236130842e808d74f37fd95cc441478aa1b9703"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-003",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Carry the school-programme/completer analogy and treatment-related discontinuation limit without assuming completers and dropouts have the same prognosis.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "The intuition",
+        "lineStart": 28,
+        "lineEnd": 30,
+        "passageSha256": "560d336be8c6e2acd6a91cf053f4ef7382df45322c195862b295f281620d548b"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-004",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Intention-to-treat retains everyone randomised in assigned groups, including non-completion, switching and non-start; missing outcomes remain a separate problem.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 38,
+        "lineEnd": 38,
+        "passageSha256": "f013105bd286d56bf1e9309f7910debbbd91d5733926591610ceffbab919f864"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-005",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Modified intention-to-treat has study-specific exclusions; assess the role of prespecification and whether assignment can influence exclusion, without assuming the label itself removes bias.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 39,
+        "lineEnd": 39,
+        "passageSha256": "fe2cb741d7b58b8eb28053271f1c2115dd99dbb0ba45d31e6139ffb87d439b1d"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-006",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Per-protocol uses defined adherence/violation criteria, commonly assigned groups; a selected adherent set is not automatically the unbiased true effect.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 40,
+        "lineEnd": 40,
+        "passageSha256": "88193f7d8d5d1a54bb8650760f67dee6a2dc85a34cea4e54b5c784f462b2e215"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-007",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "As-treated groups by actual received treatment rather than assignment; qualify the source table's everyone wording when treatment was never received.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 41,
+        "lineEnd": 41,
+        "passageSha256": "4274669c747aaf607fa4ec020aedb3451ad70fd9978785575e38e235e11e1a4a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-008",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Safety analyses commonly include at least one dose and group by received treatment, with study-specific definitions rather than a universal efficacy denominator.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 42,
+        "lineEnd": 42,
+        "passageSha256": "da6c1be74be327af60743fb15f85af7b4f628f51db4562e9098eaf7770b04ffc"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-009",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Verify ICH E9 full-analysis-set language and allowed exclusions, including eligibility/non-start and the conditions limiting assignment-related bias; do not treat every exclusion as justified.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 44,
+        "lineEnd": 44,
+        "passageSha256": "6aab8bf5aea99d18f4f3ec8031c10dcb3829197217c5f82335afe0fbeee24d77"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-010",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Verify E9(R1) estimand-first framing: stopping, switching and death affect the question/intercurrent-event strategy rather than being automatic cleanup exclusions.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "How it works",
+        "lineStart": 46,
+        "lineEnd": 46,
+        "passageSha256": "010df0b3cd3722a7319dac5ec72616e49224739e0f28c953247a15e96de0cddd"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-011",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Carry the full fictional 100-versus-100 table: A completers 80 with 16 recurrences, discontinuers 20 with 10, overall 26/100; B 26/100 with complete follow-up.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Worked example: dropping people changes the answer",
+        "lineStart": 48,
+        "lineEnd": 57,
+        "passageSha256": "72494658a5fd628cba6f634211a455472b28e48b6715b1f3b4dc4bfde6abe39a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-012",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Explain the 20% versus 26% completer contrast and six-percentage-point apparent advantage from selection, without asserting an unmeasured frailty difference.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Worked example: dropping people changes the answer",
+        "lineStart": 59,
+        "lineEnd": 59,
+        "passageSha256": "43d96a248c28f5d3e2f80107aa767ee1fab3e15911adb1e30b4e41dc2cf6147a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-013",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "The same fixed fictional data yield different analyses when people are removed; observed 26% versus 26% is not proof of a zero population causal effect.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Worked example: dropping people changes the answer",
+        "lineStart": 59,
+        "lineEnd": 59,
+        "passageSha256": "43d96a248c28f5d3e2f80107aa767ee1fab3e15911adb1e30b4e41dc2cf6147a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-014",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Reconcile KEYNOTE-522's 1174 randomised (784/390) with the first-602 planned pCR analysis and the actual endpoint populations; correct any implication that every primary analysis used all 1174.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 63,
+        "lineEnd": 63,
+        "passageSha256": "13ab0e024548d914b8232ef4d109d85a0a40c0cb392f7a8f2304a00b2ce28209"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-015",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Verify BrighTNess efficacy ITT 634 and safety 628 at the actual study/received-dose scope.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 64,
+        "lineEnd": 64,
+        "passageSha256": "bc22e18f2158c2e8db07715b82bd5f99030bd8f44add1fea0926e483f39e09cc"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-016",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Assess ITT and per-protocol use in superiority versus non-inferiority, including adherence and selection limits; neither label is a universal conservatism guarantee.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Why it matters in cancer",
+        "lineStart": 68,
+        "lineEnd": 68,
+        "passageSha256": "4e21e2f74db69a74877117b080450437a642585e7ea0bd75669ce7f1a6f986d9"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-017",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Evaluable-response subsets can select out people missing scans and alter rates; retain who was excluded and why rather than treating the subset as everyone treated.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Why it matters in cancer",
+        "lineStart": 69,
+        "lineEnd": 69,
+        "passageSha256": "fbeb3611385a09a8f51c6aec7a9e35efd2e72d8af52c97e511aebd1b5fb87c70"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-018",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Keep harms/safety and efficacy denominators separate, with their actual grouping rules.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Why it matters in cancer",
+        "lineStart": 70,
+        "lineEnd": 70,
+        "passageSha256": "cdc62637524e6b241cf8abaaa795482d15de23b7e10641f1c8f19a49238f3c95"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-019",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Verify the 475-trial modified-ITT review and its reported 80% post-randomisation exclusions at the study's actual selection and definition scope.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Common confusions",
+        "lineStart": 74,
+        "lineEnd": 74,
+        "passageSha256": "13dcddc7f08290826677501b26ef36abad1c49039a29aaceb34abffdb7c79a2e"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-020",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Verify Hollis/Campbell: 119 claiming ITT, 12 excluding non-starters, 3 not analysed as allocated and 75% missing primary outcomes, without conflating those groups.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Common confusions",
+        "lineStart": 77,
+        "lineEnd": 77,
+        "passageSha256": "1445768eb5ed4a1ce99f430c2df82bed9274920135177ac31bd61e447d9959b8"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-021",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "An ITT label does not mean all treatment completed or all outcomes observed; handling missing outcomes must be evaluated separately.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Common confusions",
+        "lineStart": 75,
+        "lineEnd": 77,
+        "passageSha256": "e98dc85a607f8b06fa154bdc7c69211810449fa91efabc6bed78e09a448db848"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-022",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "Carry the fictional eight-point per-protocol versus two-point imprecise ITT exercise; identify the assignment question and request arm-specific exclusions without ranking the selected set as truer.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Try it",
+        "lineStart": 79,
+        "lineEnd": 83,
+        "passageSha256": "4658437e6c0327c5d272a0a46ae1656289b0c1a37365ae1ab73995bee2b8c212"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "A-023",
+    "lesson": "analysis-populations",
+    "kind": "substantive",
+    "requirement": "The explanation must state who enters, how groups are assigned and which question/estimand is being answered; labels alone cannot establish unbiased causal effects.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Explain it back",
+        "lineStart": 85,
+        "lineEnd": 93,
+        "passageSha256": "ec0624a504675ae053312dc823d3de0b8c7cf12f3629b2c4fa387884894eb61f"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-001",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Define Bayesian inference and prespecified adaptation separately; Bayesian need not mean adaptive and adaptive need not mean Bayesian.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "In one sentence",
+        "lineStart": 25,
+        "lineEnd": 27,
+        "passageSha256": "149eec8ba664570f1aeb41ea560e39a5161efba2293fcea3f3399efdc7db4df7"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-002",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Carry the weather/prior-update analogy and its model/prior and early-endpoint-versus-survival limits.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "The intuition",
+        "lineStart": 29,
+        "lineEnd": 33,
+        "passageSha256": "3efa2f70a3b22d5c1e52fb9676a4ba73143e04bbf992ae306e85fc4fd1f821c3"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-003",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Define prior and posterior as conditional on data, likelihood/model and starting assumptions, rather than a model-free probability a drug works.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "The intuition",
+        "lineStart": 31,
+        "lineEnd": 37,
+        "passageSha256": "de73f913422f11edbd9d5232fc2574ebc9c510b98eb7ce340d7244996224f911"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-004",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Distinguish null-model p-values, posterior probabilities, credible intervals and confidence intervals, retaining the assumptions and chosen effect size.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "How it works",
+        "lineStart": 37,
+        "lineEnd": 37,
+        "passageSha256": "32239803d6d85aff9e870992de1a2cba8d95bc1fc25033b0cd8ff5a6aee9a95f"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-005",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Define predictive probability for a specified future design, endpoint and success criterion rather than an individual response or survival probability.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "How it works",
+        "lineStart": 37,
+        "lineEnd": 37,
+        "passageSha256": "32239803d6d85aff9e870992de1a2cba8d95bc1fc25033b0cd8ff5a6aee9a95f"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-006",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify response-adaptive randomisation and FDA2019 discussion of controversial arguments, especially for two-arm trials, at that dated guidance scope.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "How it works",
+        "lineStart": 39,
+        "lineEnd": 41,
+        "passageSha256": "a6b4c34e3795cdd298acaa21d7cafefd748d3583e9394da1540c1332db823d6c"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-007",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Define arm addition/dropping and platform/shared-control/master-protocol structure, without asserting every platform has every adaptation or Bayesian method.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "How it works",
+        "lineStart": 42,
+        "lineEnd": 42,
+        "passageSha256": "1ca175f9bd739f15d2aa6ed6393e87645b3676f93dcaed5c4efce3e78bf7537a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-008",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Assess sample-size adaptation and early stopping, prespecification and simulation of operating characteristics, including false success and power.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "How it works",
+        "lineStart": 43,
+        "lineEnd": 45,
+        "passageSha256": "0e6bd853350551f8d18ba36c26f5bb8a43c0f35018ce2ce4d16e17c48d28e811"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-009",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Qualify the source's valid-only-if-prespecified claim: prespecified design and protected conduct support valid planned inference, while unplanned changes require their own assessment rather than a blanket dismissal of all data.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "How it works",
+        "lineStart": 45,
+        "lineEnd": 45,
+        "passageSha256": "a1f6932727886ce4234927b8c6d5aedb96b337d531e87a3a96be8d130a2591da"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-010",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Scope I-SPY2 as the described phase2 neoadjuvant platform in high-risk stageII/III breast cancer with standard-chemotherapy comparison.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 47,
+        "lineEnd": 49,
+        "passageSha256": "d3d76fdd3b1d5bd67d3ff928e0afe4f024acada29fc1f90d2341c70f04855246"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-011",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify eight subtypes defined by HER2, hormone receptors and a 70-gene assay versus up to ten prespecified overlapping signatures.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 51,
+        "lineEnd": 51,
+        "passageSha256": "2933acfcbac563a3d603c21f73f93962caf1a2d2c5ec2e6f02a29778fa071db6"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-012",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify use of longitudinal MRI volume to predict pCR within the platform model, without substituting an image prediction for measured surgical pCR.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "passageSha256": "87acbc61c0b9a45a939cdfbc921f03f393d24e1fd5e5c2b20c60b4ef36ecb9dc"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-013",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify subtype-specific adaptive assignment favouring more promising regimens under the trial model/rules, without deriving a new randomisation algorithm.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 53,
+        "lineEnd": 53,
+        "passageSha256": "fd10435b9a1ab44a3b4994e060bbac9fd2c9877a270f501399f2aa3ca403214a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-014",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify graduation at 85% predicted success in a specified 300-person phase3 trial/signature, including the actual endpoint and future success definition.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 54,
+        "lineEnd": 54,
+        "passageSha256": "726be2e4b414be61c5b62ea8fd63eca405c7617a518c9657a7ce4f80c0148621"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-015",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify futility below 10% predictive success in every relevant signature, keeping which decision/timepoint and rule applied.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 54,
+        "lineEnd": 54,
+        "passageSha256": "726be2e4b414be61c5b62ea8fd63eca405c7617a518c9657a7ce4f80c0148621"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-016",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify veliparib-plus-carboplatin TNBC estimated pCR51% versus26%, predictive88%, and the distinct 72 HER2-negative drug-arm/44 concurrent-control denominators.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 58,
+        "lineEnd": 58,
+        "passageSha256": "25e6b9de45ae95ec492a4d3480a05e87006433a6ae6cc3190d3e4de88c89a5ad"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-017",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify neratinib estimated pCR56% versus33% in HER2-positive/HR-negative disease, graduation threshold and final79% predictive result; explain why interim and mature probabilities can differ.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 59,
+        "lineEnd": 59,
+        "passageSha256": "db6be52d2539d0ee2afa115ea94761bc76bd1910448186d5c7c5e2b900675d99"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-018",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify pembrolizumab TNBC estimated pCR60% versus22%, 29 on-drug TNBC participants and graduation in three tested signatures, retaining model estimates and control scope.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Worked example: I-SPY2",
+        "lineStart": 60,
+        "lineEnd": 60,
+        "passageSha256": "a806a7dc89975587285890e8a268d09355c9aef3a05735b9b1fb04bbf1e883d6"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-019",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify BrighTNess pCR53%/58%/31% in its three arms; assess the component-contribution inference without calling a nonsignificant veliparib comparison proof of zero contribution.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "What I-SPY2 did and did not validate",
+        "lineStart": 66,
+        "lineEnd": 66,
+        "passageSha256": "67cee75702b85ee881065831a104b5196a2865bda1b466968716c07577fd7b21"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-020",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Verify KEYNOTE-522 pCR64.8% versus51.2% in its stated early analysis and carboplatin-containing control; cross-trial direction does not predict the same effect size.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "What I-SPY2 did and did not validate",
+        "lineStart": 67,
+        "lineEnd": 67,
+        "passageSha256": "075732607754c102eaab4ba3a7570967798f451bd4f72ec91ebe5962ee3527f3"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-021",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Qualify claims that I-SPY2 validated an efficient screen; pCR association is not trial-level validation of survival benefit or a comparative efficiency trial.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "What I-SPY2 did and did not validate",
+        "lineStart": 69,
+        "lineEnd": 71,
+        "passageSha256": "73e3db60833c8ab54666818b3c66f34a431da7a32e9e35da7edc1d6306249a80"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-022",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "A two-drug addition does not isolate either component's effect without an appropriate component comparison.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "What I-SPY2 did and did not validate",
+        "lineStart": 72,
+        "lineEnd": 72,
+        "passageSha256": "071760d473c0ed52aca2c9a0a6ec6e281165b70a2dd19e2395db52d56629f25a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-023",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Keep changed comparator, different effect size and unvalidated exploratory treatment-selection biomarkers distinct from successful regimen screening.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "What I-SPY2 did and did not validate",
+        "lineStart": 73,
+        "lineEnd": 74,
+        "passageSha256": "4b550cbdcb58801f6ddd746f2199bde74e9b556efc0241bfbcd62b330add33e9"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-024",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Assess potential shared-control/platform efficiency with design and operating-characteristic conditions rather than a universal fewer-patients guarantee.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Why it matters in cancer",
+        "lineStart": 78,
+        "lineEnd": 78,
+        "passageSha256": "4d7bcb97cd7db361efe1b32ddf5540a2a0c422d7a5977d08f41b946eb765cce5"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-025",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Graduation supports confirmatory testing under its model, not proven benefit, approval or routine clinical access.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Why it matters in cancer",
+        "lineStart": 79,
+        "lineEnd": 79,
+        "passageSha256": "76989bbbb7eca6a5fd27e1310c17dc4d511090c1aa1ab0ba0836c76f907208eb"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-026",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Keep adaptive assignment between arms separate from I-SPY2.2-style adaptation of an enrolled person's later treatment by response; verify or retain the actual successor-source depth.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Why it matters in cancer",
+        "lineStart": 80,
+        "lineEnd": 87,
+        "passageSha256": "661834e2b94293cf022368d1bb9e522ff75cb20e2fb48ab14e25365b2a0ebd75"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-027",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Retain probability/p-value, prespecified/ad hoc, moving predictive probability and small-29-person-subgroup confusions without upgrading precision.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Common confusions",
+        "lineStart": 84,
+        "lineEnd": 88,
+        "passageSha256": "c52782616ecbee713e931324d7429ba7e0c9cf8c5bb1b812af25ba36b360aebc"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "B-028",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "substantive",
+    "requirement": "Carry the entire fictional 90%-graduated/300-person/signature exercise with endpoint, model, future-success and individual-survival/response limits.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Try it",
+        "lineStart": 90,
+        "lineEnd": 100,
+        "passageSha256": "a5facbaa4181cf78bb89148839bd43e7da6f1e778d77e68fc61759dc1ea6a1c0"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-001",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Define non-inferiority as excluding worse-than-prespecified-margin performance, with potential simplicity/shortness/harms advantages requiring their own evidence.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "In one sentence",
+        "lineStart": 24,
+        "lineEnd": 26,
+        "passageSha256": "7123a25c4d5d401ab1267904b605c0f00101aacbe5abb9b5ba2acb8505d05ad3"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-002",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Carry the lighter-bridge analogy and its uncertainty/clinical-tradeoff limit; an agreed margin is not an exact safety proof.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "The intuition",
+        "lineStart": 28,
+        "lineEnd": 32,
+        "passageSha256": "49a0254504770636dddbb257c8c41e55c9cc3fbaab1dc2b6344eb08ebe88fbd3"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-003",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Define superiority with the appropriate favourable-side comparison and inferential level, rather than an unqualified interval shortcut for every design.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 36,
+        "lineEnd": 40,
+        "passageSha256": "22e6546528d68b861fbbff0060365aa82fce4b83b73d08c6e2993892bbef8144"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-004",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Define non-inferiority using the worse-side confidence bound, direction, scale and prespecified margin.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 41,
+        "lineEnd": 41,
+        "passageSha256": "32a51c40fec55bece91af875199cb7d1f2f42dde1eca581e64c5d1d77c5128d8"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-005",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Define equivalence using both prespecified bounds and the appropriate interval, distinct from non-inferiority.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 42,
+        "lineEnd": 42,
+        "passageSha256": "e3de7970ac8e699c62a5d4ca922bc841cdeef30a11722f5af4a674a327fadd02"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-006",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify FDA M1 as historical active-control benefit and the evidence/assumptions needed to preserve assay sensitivity.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 46,
+        "lineEnd": 46,
+        "passageSha256": "04591dcf7dbe6ccdb6e9c5e6fae081751a46c0adc1711ca97a29e4a317c58ba7"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-007",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify M2 as clinically acceptable loss relative to the supported control effect; preserve the source's margin justification rather than an arbitrary fraction rule.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 46,
+        "lineEnd": 46,
+        "passageSha256": "04591dcf7dbe6ccdb6e9c5e6fae081751a46c0adc1711ca97a29e4a317c58ba7"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-008",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Retain the example's new-versus-standard event HR orientation in which values above one are worse.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 47,
+        "lineEnd": 47,
+        "passageSha256": "4cefa5320b6487741a872365d7104a1b2fef1f041b8201afd7966d517575af28"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-009",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Carry the HR1.3 margin versus upper1.16 example with its stated confidence level, without treating any upper bound as interchangeable.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 48,
+        "lineEnd": 48,
+        "passageSha256": "53ee65e447a4a4ba1a56e3a3133716b73a8e58bc2b5f457b65975ccea5a43683"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-010",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify FDA two-sided95% guidance scope and the one-sided5%/two-sided90% relationship for some academic trials.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 48,
+        "lineEnd": 48,
+        "passageSha256": "53ee65e447a4a4ba1a56e3a3133716b73a8e58bc2b5f457b65975ccea5a43683"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-011",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Assess active-control constancy and assay-sensitivity assumptions, including limits of what the present trial can establish about historical benefit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 50,
+        "lineEnd": 50,
+        "passageSha256": "021dc0069e0b276ac144e801501946345f759fd35aa4c7c8b88b7ee2e85856c0"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-012",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Assess adherence, crossover and missing follow-up as possible threats; qualify any claim that each always moves arms toward equality.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 50,
+        "lineEnd": 50,
+        "passageSha256": "021dc0069e0b276ac144e801501946345f759fd35aa4c7c8b88b7ee2e85856c0"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-013",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify ITT not-necessarily-conservative caution in non-inferiority and why per-protocol is informative but is not automatically an unbiased correction.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 50,
+        "lineEnd": 50,
+        "passageSha256": "021dc0069e0b276ac144e801501946345f759fd35aa4c7c8b88b7ee2e85856c0"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-014",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Distinguish a planned non-inferiority-then-superiority sequence from retrospective non-inferiority after failed superiority, retaining margin and multiplicity prerequisites.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "How it works",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "passageSha256": "9b37c2b37d16bc5a17ec222523bef0e856041a5605866b1c3c6738bb00c796ed"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-015",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify Z0011's exact clinical population and surgery/comparator context before extending its result beyond selected sentinel-node-positive patients.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 58,
+        "lineEnd": 58,
+        "passageSha256": "00b04043c38455593e6ba15c451d40cbc288453e6c4935b534515cad27dbe67c"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-016",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify Z0011 ten-year OS86.3%/83.6%, death HR0.85 and one-sided95% upper1.16 against the1.3 margin; preserve interval orientation.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 58,
+        "lineEnd": 58,
+        "passageSha256": "00b04043c38455593e6ba15c451d40cbc288453e6c4935b534515cad27dbe67c"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-017",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify Z0011 planned1900/500deaths, enrolled891 and actual early-closure reasons; distinguish event-information loss from automatic invalidation of a non-inferiority result.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 62,
+        "lineEnd": 62,
+        "passageSha256": "4b59ecbcf035d0de61c7dfc0ea20ae7bbc33253480f63fea9d9da05e549e02fe"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-018",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify PERSEPHONE6vs12months, HER2 context, 3-point four-year DFS margin, 89.4%/89.8%, HR1.07 and90%CI0.93to1.24, plus scoped cardiac-stop comparison.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 59,
+        "lineEnd": 59,
+        "passageSha256": "ede4a86c49eded19cf03cac3a6b99d234c61203bf09e5983b26272f8d91a9285"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-019",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Verify EA1131 residual basal-subtype TNBC, platinum/capecitabine, planned NI/superiority sequence, 61%information and3-year iDFS42%/49%; futility is not proof of equivalence.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 60,
+        "lineEnd": 60,
+        "passageSha256": "e85d017531b53f93afe2566e2e7f44f6a491a693ba477e6535d8e7681f1431d3"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-020",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Less surgery/radiation/treatment can motivate a non-inferiority design, but all de-escalation strategies do not automatically share one design or acceptable margin.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Why it matters in cancer",
+        "lineStart": 64,
+        "lineEnd": 68,
+        "passageSha256": "48ff5036602798c7e98397086389437c89e2789cd2607cdeaa6014ff3d510af8"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-021",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "The margin expresses a clinical tradeoff and the result remains tied to its population, comparator, endpoint and uncertainty.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Why it matters in cancer",
+        "lineStart": 67,
+        "lineEnd": 68,
+        "passageSha256": "b430d39058e2cb98f38e10691386331eb7978372c2dce023ba5bca6d40b071ef"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-022",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "A nonsignificant superiority comparison does not establish non-inferiority or exclude a meaningful loss.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Common confusions",
+        "lineStart": 72,
+        "lineEnd": 72,
+        "passageSha256": "7df6d61d47135794457273967ee63b4529983de2e513f2f9b1891f44843434ab"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-023",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Carry the synthetic HR1.15, CI1.02to1.28, margin1.3 example: NI can coexist with statistically worse event hazard; NI is not identity.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Common confusions",
+        "lineStart": 73,
+        "lineEnd": 74,
+        "passageSha256": "fd97f6a21f2cff7d1077be7ee64e4301dcc05fed20bddd643fcbc7ad3ab1d93c"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-024",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Assess relative versus absolute margins and qualify the unqualified common-events/larger-absolute-loss statement using baseline risk, horizon and model assumptions.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Common confusions",
+        "lineStart": 75,
+        "lineEnd": 75,
+        "passageSha256": "fe08e6167eac626b3c2d0a2ef84f92e4bec1290fccc4d9f116d383ad147bf641"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-025",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Explain biocreep as a possible chain-of-comparators erosion problem, not inevitable loss in every series of trials.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Common confusions",
+        "lineStart": 76,
+        "lineEnd": 76,
+        "passageSha256": "66cb832abf2788a6b9f4fc2dc2e24f182fdc31d4f88f0223ce77285855b7fbf6"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "N-026",
+    "lesson": "non-inferiority-trials",
+    "kind": "substantive",
+    "requirement": "Carry both fictional3-point four-year DFS/90%CI examples:1point worse with2.6worse-to0.6better stays inside;3.6worse-to1.6better crosses and is inconclusive, without proving harm.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Try it",
+        "lineStart": 78,
+        "lineEnd": 88,
+        "passageSha256": "67abac8b29f10ef7d11718eba16078bd8408d7bb3d167837150d75e9016e7034"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-001",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Define power for a specified true effect, test/design, sample or event information, variability and significance threshold.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "In one sentence",
+        "lineStart": 24,
+        "lineEnd": 26,
+        "passageSha256": "e217b5231aea145922ae57360faff7bca061fa0dc8b4853ba5938fd8953d65ee"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-002",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Carry the flashlight/sofa/coin analogy with its assumed-effect/model and planning limits; low sensitivity for one effect does not establish absence.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "The intuition",
+        "lineStart": 28,
+        "lineEnd": 30,
+        "passageSha256": "6a710542b35bc60f7e9f0234029282bfaa33f0a03961283c19f4e06d0e8ef4d3"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-003",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Retain the target effect and clinical relevance in planning; assess the source's smallest-worth-detecting prescription without assuming every design uses one universal effect criterion.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 34,
+        "lineEnd": 36,
+        "passageSha256": "e6a6c76bca3510650bb5f784fe6af499efbdf5b6d9a068bc8cc56732d2a022f6"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-004",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Define alpha and distinguish common two-sided5% from a rule applying to every endpoint/design.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 37,
+        "lineEnd": 37,
+        "passageSha256": "fdcbb6e97f0a9479ba1aec54f1203c2fe4ce193510af2fb52cb72292432efe24"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-005",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Define 80%/90% power and typeII error as1minus power under the specified alternative, not probability a drug works or a particular patient benefits.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 38,
+        "lineEnd": 38,
+        "passageSha256": "a8ad8539dfe58bb14b5f06de999205abba4d673b711f42661218e752991a5bcf"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-006",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Keep outcome variability, expected event rate and participant/event information together; events drive many survival designs conditional on the model rather than being the sole determinant.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 39,
+        "lineEnd": 41,
+        "passageSha256": "41be003d736fe4157df13c64c2aaef7ee084ed8bdf43d1072f2b7d264166cbb1"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-007",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Verify and scope Schoenfeld's approximate two-equal-arm proportional-hazards event formula, including allocation, significance and power assumptions.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 41,
+        "lineEnd": 43,
+        "passageSha256": "1f7ea03bf0963f04af654d298520f00ffc768263481702043d7a10a1a15cd936"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-008",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Recompute the complete HR0.60/0.70/0.74/0.85 event table near121/247/347/1189; distinguish rounded displayed quantiles from unrounded quantiles and upward rounding.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 43,
+        "lineEnd": 50,
+        "passageSha256": "3b8ff7d53df740915dbb8d687774af2ddf89f6871058200b84c31bd9720d69d0"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-009",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Halving the log-hazard-ratio effect quadruples required events with the other formula assumptions fixed.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "passageSha256": "e4e122119eb8b4a525a84f986e8eecb2c135a802db5e0f8aa7d7c0d230fcf259"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-010",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Verify the2:1 versus1:1 allocation12.5%event inflation under the corresponding proportional-hazards approximation.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 52,
+        "lineEnd": 52,
+        "passageSha256": "e4e122119eb8b4a525a84f986e8eecb2c135a802db5e0f8aa7d7c0d230fcf259"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-011",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Do not substitute an event target directly for recruited sample size; expected events, accrual, follow-up and censoring matter to the participant design.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "How it works",
+        "lineStart": 39,
+        "lineEnd": 52,
+        "passageSha256": "7a32dcd60aa1e42b2030d1750003ad6b97c80263eac0503adb37042420db5ca1"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-012",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Verify CALOR planned977/347events forHR0.74, revised265/124 forHR0.6 and actual162enrolled; retain the protocol's actual numbers rather than forcing them to exactly equal an approximate formula.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 56,
+        "lineEnd": 56,
+        "passageSha256": "271d4a677e7543e8985565b5f26f013119047f47978f11786b53f9dc761ab6dc"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-013",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Verify CALOR's clinical setting and reported HR0.59 with95%CI0.35to0.99 from the named analysis, without transferring later receptor-subgroup results into it.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 56,
+        "lineEnd": 56,
+        "passageSha256": "271d4a677e7543e8985565b5f26f013119047f47978f11786b53f9dc761ab6dc"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-014",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Verify Z0011 planned1900/500deaths and891enrolled, retaining actual closure causes and event-information limitation.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Real examples in breast cancer",
+        "lineStart": 57,
+        "lineEnd": 57,
+        "passageSha256": "71173459c1a7837111ef2394f436c1ae2b4c337f54f9b86803f2e686651f64c4"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-015",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "A null small-study result can leave a clinically useful effect compatible with its interval; underpowered needs a specified effect and design.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Why it matters in cancer",
+        "lineStart": 61,
+        "lineEnd": 61,
+        "passageSha256": "74792c4abca1d43c85d19239c0c7aa21243117504f602d169e5799fd35cfc180"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-016",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Interaction/subgroup questions have different information needs; a main-effect-powered study need not resolve differences between subgroups.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Why it matters in cancer",
+        "lineStart": 62,
+        "lineEnd": 62,
+        "passageSha256": "f67e6a74061ef0ae2f371a73b0c2df4a4eb1a577648eb52a7d1be561dc663c51"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-017",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Assess conditional inflation of significant small-study estimates and early benefit stops at the actual cited source scope; do not claim every small significant estimate is too large.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Why it matters in cancer",
+        "lineStart": 63,
+        "lineEnd": 63,
+        "passageSha256": "4e59c188b1d89483d7278a427056e1741cb6f322ade746d2660b08cb7120a47e"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-018",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Rare-harm frequency/precision questions may require large samples; absence of observed harm is not a universal safety proof.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Why it matters in cancer",
+        "lineStart": 64,
+        "lineEnd": 64,
+        "passageSha256": "dd202dab9053885cddd6831fa80ee6b975ac9df6cec580fbfbadcab724dfe7d4"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-019",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Retain power-not-probability-drug-works and the80%-power/one-in-five-miss interpretation under repeated-study assumptions.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Common confusions",
+        "lineStart": 68,
+        "lineEnd": 69,
+        "passageSha256": "cc68383842df3b175e3eab5bf2dde4c1dd6182a619f5de4a4445e285c2ff3061"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-020",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "A design can be well powered forHR0.60 and underpowered forHR0.85; no effect-free label underpowered is sufficient.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Common confusions",
+        "lineStart": 70,
+        "lineEnd": 70,
+        "passageSha256": "2d959b1fd2b7e70737654da267f7c937262ef611c59b0a668f54854de3e13bd6"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-021",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Verify the usual observed-power-at-observed-effect critique and distinguish it from legitimate conditional/predictive power or future-design calculations.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Common confusions",
+        "lineStart": 71,
+        "lineEnd": 71,
+        "passageSha256": "da96c2d2b98e35a6f0f163750a6ee00a646dc14001974096890eda80f7a5b378"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-022",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Statistical detectability and clinical importance differ; a large study can detect effects smaller than the relevant clinical threshold.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Common confusions",
+        "lineStart": 72,
+        "lineEnd": 72,
+        "passageSha256": "8b2badfd5bc06b8fff0f6314f845c1644a3190b5260806b78a42fe8087db71f8"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-023",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "Carry the entire fictional247-event study sized forHR0.70, theHR0.85 alternative needing1189events and about25%power, with all normal/proportional-hazards approximation assumptions.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Try it",
+        "lineStart": 74,
+        "lineEnd": 78,
+        "passageSha256": "a29fce8853d2b59ea0ec490c5573856c5a6d7568b234b42bbba5430df03f12d4"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "P-024",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "substantive",
+    "requirement": "The explanation must keep assumed effect, alpha, information/events and achieved follow-up visible, rather than reading a null result as proof of no effect.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Explain it back",
+        "lineStart": 80,
+        "lineEnd": 88,
+        "passageSha256": "8c1390018399793a504f1867b29ece355ad4ab31a88169b13e82c78fd69dee9a"
+      }
+    ],
+    "disposition": "Frozen from complete source reading before fresh inspection of canonical OnCo fields; verification and coverage pending."
+  },
+  {
+    "id": "competing-risks-R",
+    "lesson": "competing-risks",
+    "kind": "routing",
+    "requirement": "Links route to separate concepts; no citation-presence or navigation credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Related concepts",
+        "lineStart": 102,
+        "lineEnd": 124
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "competing-risks-D",
+    "lesson": "competing-risks",
+    "kind": "derived-recap",
+    "requirement": "Explain-it-back and takeaway recap the assessed obligations, with no extra independent scientific credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Explain it back",
+        "lineStart": 92,
+        "lineEnd": 124
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "competing-risks-S",
+    "lesson": "competing-risks",
+    "kind": "source-scope",
+    "requirement": "Dated scope, fictional status and pending expert/learner review are metadata, not proof of verification.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/endpoints/competing-risks.md",
+        "sourceSha256": "bcf9cd87173a253c8dc6acc0027fc3ffb1ce66992a40ff25d2f81be15753be78",
+        "heading": "Sources and scope",
+        "lineStart": 109,
+        "lineEnd": 124
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "analysis-populations-R",
+    "lesson": "analysis-populations",
+    "kind": "routing",
+    "requirement": "Links route to separate concepts; no citation-presence or navigation credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Related concepts",
+        "lineStart": 95,
+        "lineEnd": 122
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "analysis-populations-D",
+    "lesson": "analysis-populations",
+    "kind": "derived-recap",
+    "requirement": "Explain-it-back and takeaway recap the assessed obligations, with no extra independent scientific credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Explain it back",
+        "lineStart": 85,
+        "lineEnd": 122
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "analysis-populations-S",
+    "lesson": "analysis-populations",
+    "kind": "source-scope",
+    "requirement": "Dated scope, fictional status and pending expert/learner review are metadata, not proof of verification.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/analysis-populations.md",
+        "sourceSha256": "7532fff5459b45b234a78bf22991ff7330b5d5914fb591648d7cb96865d4cf34",
+        "heading": "Sources and scope",
+        "lineStart": 102,
+        "lineEnd": 122
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "bayesian-and-adaptive-designs-R",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "routing",
+    "requirement": "Links route to separate concepts; no citation-presence or navigation credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Related concepts",
+        "lineStart": 106,
+        "lineEnd": 130
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "bayesian-and-adaptive-designs-D",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "derived-recap",
+    "requirement": "Explain-it-back and takeaway recap the assessed obligations, with no extra independent scientific credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Explain it back",
+        "lineStart": 96,
+        "lineEnd": 130
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "bayesian-and-adaptive-designs-S",
+    "lesson": "bayesian-and-adaptive-designs",
+    "kind": "source-scope",
+    "requirement": "Dated scope, fictional status and pending expert/learner review are metadata, not proof of verification.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/bayesian-and-adaptive-designs.md",
+        "sourceSha256": "747904b4d67804d700bd2c9108a2719542cc494def5544c49e13a3d9822d0bdf",
+        "heading": "Sources and scope",
+        "lineStart": 114,
+        "lineEnd": 130
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "non-inferiority-trials-R",
+    "lesson": "non-inferiority-trials",
+    "kind": "routing",
+    "requirement": "Links route to separate concepts; no citation-presence or navigation credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Related concepts",
+        "lineStart": 94,
+        "lineEnd": 119
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "non-inferiority-trials-D",
+    "lesson": "non-inferiority-trials",
+    "kind": "derived-recap",
+    "requirement": "Explain-it-back and takeaway recap the assessed obligations, with no extra independent scientific credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Explain it back",
+        "lineStart": 84,
+        "lineEnd": 119
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "non-inferiority-trials-S",
+    "lesson": "non-inferiority-trials",
+    "kind": "source-scope",
+    "requirement": "Dated scope, fictional status and pending expert/learner review are metadata, not proof of verification.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/non-inferiority-trials.md",
+        "sourceSha256": "6a442542a7bedb7b5e2db483c71e50a5bd468fa5c1468e29d90de822ea85293f",
+        "heading": "Sources and scope",
+        "lineStart": 102,
+        "lineEnd": 119
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "statistical-power-and-sample-size-R",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "routing",
+    "requirement": "Links route to separate concepts; no citation-presence or navigation credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Related concepts",
+        "lineStart": 90,
+        "lineEnd": 116
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "statistical-power-and-sample-size-D",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "derived-recap",
+    "requirement": "Explain-it-back and takeaway recap the assessed obligations, with no extra independent scientific credit.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Explain it back",
+        "lineStart": 80,
+        "lineEnd": 116
+      }
+    ],
+    "independentScienceCredit": 0
+  },
+  {
+    "id": "statistical-power-and-sample-size-S",
+    "lesson": "statistical-power-and-sample-size",
+    "kind": "source-scope",
+    "requirement": "Dated scope, fictional status and pending expert/learner review are metadata, not proof of verification.",
+    "appliesTo": [
+      "later"
+    ],
+    "sourceEvidence": [
+      {
+        "phase": "later",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/statistical-power-and-sample-size.md",
+        "sourceSha256": "97064ac89d118dc20599201f170506cd0417924ce43c70c7a64f39e0dd9d2971",
+        "heading": "Sources and scope",
+        "lineStart": 98,
+        "lineEnd": 116
+      }
+    ],
+    "independentScienceCredit": 0
+  }
+]

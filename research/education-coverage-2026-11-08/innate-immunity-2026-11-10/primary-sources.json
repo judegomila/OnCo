@@ -1,0 +1,3095 @@
+{
+  "publicationIdentities": [
+    {
+      "pmid": "10426993",
+      "doi": "10.1126/science.285.5428.727",
+      "title": "Activation of NK cells and T cells by NKG2D, a receptor for stress-inducible MICA.",
+      "year": "1999",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "10520991",
+      "doi": "10.1016/s0092-8674(00)80059-8",
+      "title": "CCR7 coordinates the primary immune response by establishing functional microenvironments in secondary lymphoid organs.",
+      "year": "1999",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "12483210",
+      "doi": "10.1038/ni875",
+      "title": "IFN-lambdas mediate antiviral protection through a distinct class II cytokine receptor complex.",
+      "year": "2003",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "15664156",
+      "doi": "10.1016/j.immuni.2004.11.013",
+      "title": "The conduit system transports soluble antigens from the afferent lymph to resident dendritic cells in the T cell area of the lymph node.",
+      "year": "2005",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "15719024",
+      "doi": "10.1038/nri1570",
+      "title": "MHC class I molecules and KIRs in human history, health and survival.",
+      "year": "2005",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "15951814",
+      "doi": "10.1038/ni1213",
+      "title": "A critical function for type I interferons in cancer immunoediting.",
+      "year": "2005",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "16007090",
+      "doi": "10.1038/ni1225",
+      "title": "The crystal structure of human CD1d with and without alpha-galactosylceramide.",
+      "year": "2005",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "16484453",
+      "doi": "10.1126/science.1122927",
+      "title": "Selective stimulation of T cell subsets with antibody-cytokine immune complexes.",
+      "year": "2006",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "16916931",
+      "doi": "10.1073/pnas.0605251103",
+      "title": "A2A adenosine receptor protects tumors from antitumor T cells.",
+      "year": "2006",
+      "origins": [
+        "initial innate source assessment; independently rechecked",
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        },
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only (re-read from raw)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "17502665",
+      "doi": "10.1084/jem.20062512",
+      "title": "Adenosine generation catalyzed by CD39 and CD73 expressed on regulatory T cells mediates immune suppression.",
+      "year": "2007",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "17704786",
+      "doi": "10.1038/nm1622",
+      "title": "Toll-like receptor 4-dependent contribution of the immune system to anticancer chemotherapy and radiotherapy.",
+      "year": "2007",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "18369468",
+      "doi": "10.1371/journal.ppat.1000017",
+      "title": "IFN-lambda (IFN-lambda) is expressed in a tissue-dependent fashion and primarily acts on epithelial cells in vivo.",
+      "year": "2008",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "18650913",
+      "doi": "10.1038/nature07201",
+      "title": "Origin and physiological roles of inflammation.",
+      "year": "2008",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "19008445",
+      "doi": "10.1126/science.1164206",
+      "title": "Batf3 deficiency reveals a critical role for CD8alpha+ dendritic cells in cytotoxic T cell immunity.",
+      "year": "2008",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "19136945",
+      "doi": "10.1038/nature07665",
+      "title": "Adaptive immune features of natural killer cells.",
+      "year": "2009",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "19701893",
+      "doi": "10.1002/eji.200939307",
+      "title": "Education of hyporesponsive NK cells by cytokines.",
+      "year": "2009",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "20479116",
+      "doi": "10.1084/jem.20092140",
+      "title": "Human CD141+ (BDCA-3)+ dendritic cells (DCs) represent a unique myeloid DC subset that cross-presents necrotic cell antigens.",
+      "year": "2010",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "21474713",
+      "doi": "10.1126/science.1202947",
+      "title": "Trans-endocytosis of CD80 and CD86: a molecular basis for the cell-extrinsic function of CTLA-4.",
+      "year": "2011",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "22901542",
+      "doi": "10.1016/j.chom.2012.06.006",
+      "title": "Candida albicans infection affords protection against reinfection via functional reprogramming of monocytes.",
+      "year": "2012",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "23258413",
+      "doi": "10.1126/science.1232458",
+      "title": "Cyclic GMP-AMP synthase is a cytosolic DNA sensor that activates the type I interferon pathway.",
+      "year": "2013",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "2331011",
+      "doi": "10.1152/ajpheart.1990.258.4.h1232",
+      "title": "A new method of sampling blood for measurement of plasma adenosine.",
+      "year": "1990",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "23329049",
+      "doi": "10.1126/science.1228456",
+      "title": "Interstitial dendritic cell guidance by haptotactic chemokine gradients.",
+      "year": "2013",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "23516982",
+      "doi": "10.1146/annurev-immunol-020711-075005",
+      "title": "Controlling natural killer cell responses: integration of signals for activation and inhibition.",
+      "year": "2013",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "24530056",
+      "doi": "10.1016/j.immuni.2014.01.006",
+      "title": "Transcriptome-based network analysis reveals a spectrum model of human macrophage activation.",
+      "year": "2014",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "25035950",
+      "doi": "10.1016/j.immuni.2014.06.008",
+      "title": "Macrophage activation and polarization: nomenclature and experimental guidelines.",
+      "year": "2014",
+      "origins": [
+        "initial innate source assessment; independently rechecked",
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        },
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (origin of M1 and M2 terms, culture conditions)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "25465800",
+      "doi": "10.1016/j.ccell.2014.10.018",
+      "title": "The immunoreceptor TIGIT regulates antitumor and antiviral CD8(+) T cell effector function.",
+      "year": "2014",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "25480296",
+      "doi": "10.1016/j.cell.2014.11.018",
+      "title": "Tissue-resident macrophage enhancer landscapes are shaped by the local microenvironment.",
+      "year": "2014",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "25517615",
+      "doi": "10.1016/j.immuni.2014.10.017",
+      "title": "STING-dependent cytosolic DNA sensing mediates innate immune recognition of immunogenic tumors.",
+      "year": "2014",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "27324217",
+      "doi": "10.1038/ncomms11932",
+      "title": "Activation of STING requires palmitoylation at the Golgi.",
+      "year": "2016",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "27433843",
+      "doi": "10.1056/nejmoa1604958",
+      "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+      "year": "2016",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "27912061",
+      "doi": "10.1016/j.cell.2016.11.022",
+      "title": "Tumor Interferon Signaling Regulates a Multigenic Resistance Program to Immune Checkpoint Blockade.",
+      "year": "2016",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "28280247",
+      "doi": "10.1126/science.aaf1292",
+      "title": "T cell costimulatory receptor CD28 is a primary target for PD-1-mediated inhibition.",
+      "year": "2017",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "28428369",
+      "doi": "10.1126/science.aah4573",
+      "title": "Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.",
+      "year": "2017",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "29310916",
+      "doi": "10.1016/j.ymthe.2017.12.001",
+      "title": "Chimeric Antigen Receptor-Engineered Human Gamma Delta T Cells: Enhanced Cytotoxicity with Retention of Cross Presentation.",
+      "year": "2018",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "29342134",
+      "doi": "10.1038/nature25432",
+      "title": "Chromosomal instability drives metastasis through a cytosolic DNA response.",
+      "year": "2018",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "29429633",
+      "doi": "10.1016/j.cell.2018.01.004",
+      "title": "NK Cells Stimulate Recruitment of cDC1 into the Tumor Microenvironment Promoting Cancer Immune Control.",
+      "year": "2018",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "30349037",
+      "doi": "10.1038/s41590-018-0217-9",
+      "title": "LAG-3 inhibits the activation of CD4+ T cells that recognize stable pMHCII through its conformation-dependent recognition of pMHCII.",
+      "year": "2018",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "31221619",
+      "doi": "10.1016/s1470-2045(19)30274-8",
+      "title": "Epacadostat plus pembrolizumab versus placebo plus pembrolizumab in patients with unresectable or metastatic melanoma (ECHO-301/KEYNOTE-252): a phase 3, randomised, double-blind study.",
+      "year": "2019",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "31525367",
+      "doi": "10.1016/j.jim.2019.112668",
+      "title": "A versatile flow-based assay for immunocyte-mediated cytotoxicity.",
+      "year": "2019",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "31597756",
+      "doi": "10.1126/scitranslmed.aax9364",
+      "title": "An innate-like Vδ1+ γδ T cell compartment in the human breast is associated with remission in triple-negative breast cancer.",
+      "year": "2019",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "31919129",
+      "doi": "10.1126/science.aay5516",
+      "title": "Butyrophilin 2A1 is essential for phosphoantigen reactivity by γδ T cells.",
+      "year": "2020",
+      "origins": [
+        "initial innate source assessment; independently rechecked",
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        },
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Abstract read; BTN2A1/BTN3A1 and the studied Vgamma9Vdelta2 phosphoantigen response."
+        }
+      ],
+      "rawCaptureSha256": "b1cdf788afc1a1131cc45d4ae917c4f0d67de0a3f3e5f9e4c8b785d6270b61e0",
+      "abstractSha256": "7d3b51c816785cdb9a16ccbb3137951518905d5934766d39e97fd43ccdfedd17"
+    },
+    {
+      "pmid": "37612508",
+      "doi": "10.1038/s41586-023-06464-z",
+      "title": "Non-cell-autonomous cancer progression from chromosomal instability.",
+      "year": "2023",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "3951539",
+      "doi": "10.1038/319675a0",
+      "title": "Selective rejection of H-2-deficient lymphoma variants suggests alternative immune defence strategy.",
+      "year": "1986",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "7520467",
+      "doi": "10.1084/jem.180.3.1097",
+      "title": "An invariant T cell receptor alpha chain is used by a unique subset of major histocompatibility complex class I-specific CD4+ and CD4-8- T cells in mice and humans.",
+      "year": "1994",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "7561702",
+      "doi": "10.1084/jem.182.4.993",
+      "title": "CD1-restricted CD4+ T cells in major histocompatibility complex class II-deficient mice.",
+      "year": "1995",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "7636184",
+      "doi": "10.4049/jimmunol.155.3.1151",
+      "title": "Immunologic self-tolerance maintained by activated T cells expressing IL-2 receptor alpha-chains (CD25). Breakdown of a single mechanism of self-tolerance causes various autoimmune diseases.",
+      "year": "1995",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "9374463",
+      "doi": "10.1126/science.278.5343.1626",
+      "title": "CD1d-restricted and TCR-mediated activation of valpha14 NKT cells by glycosylceramides.",
+      "year": "1997",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "9396776",
+      "doi": "10.1084/jem.186.12.2057",
+      "title": "CD4+ T cell help impairs CD8+ T cell deletion induced by cross-presentation of self-antigens and favors autoimmunity.",
+      "year": "1997",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "9486650",
+      "doi": "10.1038/35869",
+      "title": "HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C.",
+      "year": "1998",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "9851930",
+      "doi": "10.1126/science.282.5396.2085",
+      "title": "Defective LPS signaling in C3H/HeJ and C57BL/10ScCr mice: mutations in Tlr4 gene.",
+      "year": "1998",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "16275765",
+      "doi": "10.1084/jem.20050953",
+      "title": "Differential antitumor immunity mediated by NKT cell subsets in vivo.",
+      "year": "2005",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "11877485",
+      "doi": "10.1084/jem.20011786",
+      "title": "Functionally distinct subsets of CD1d-restricted natural killer T cells revealed by CD1d tetramer staining.",
+      "year": "2002",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "22863785",
+      "doi": "10.1038/nm.2871",
+      "title": "Bat3 promotes T cell responses and autoimmunity by repressing Tim-3–mediated cell death and exhaustion.",
+      "year": "2012",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "PMC3491118",
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "31585951",
+      "doi": "10.1182/bloodadvances.2019032409",
+      "title": "Identification of a tumor-specific allo-HLA-restricted γδTCR.",
+      "year": "2019",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "32732867",
+      "doi": "10.1038/s41467-020-17291-5",
+      "title": "A molecular map of murine lymph node blood vascular endothelium at single cell resolution.",
+      "year": "2020",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "PMC7393069",
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "15254595",
+      "doi": "10.1172/jci21583",
+      "title": "Expression of indoleamine 2,3-dioxygenase by plasmacytoid dendritic cells in tumor-draining lymph nodes.",
+      "year": "2004",
+      "origins": [
+        "initial innate source assessment; independently rechecked"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "PMC449750",
+          "scope": "Identity and recorded reading depth carried from the initial source assessment and independent review. Claim use is restricted by the hashed evidence registry; older catalogue assertions are not certified."
+        }
+      ]
+    },
+    {
+      "pmid": "12072446",
+      "doi": "10.1074/jbc.r200003200",
+      "title": "Cytokine and cytokine receptor pleiotropy and redundancy.",
+      "year": "2002",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": false,
+          "fullTextRead": "none",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "10714678",
+      "doi": "10.1016/s1074-7613(00)80165-x",
+      "title": "Chemokines: a new classification system and their role in immunity.",
+      "year": "2000",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": false,
+          "fullTextRead": "none",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "26558876",
+      "doi": "10.1097/coc.0000000000000239",
+      "title": "CTLA-4 and PD-1 Pathways: Similarities, Differences, and Implications of Their Inhibition.",
+      "year": "2016",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (CTLA-4 versus PD-1 phase, PD-L1 and PD-L2 distribution)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "27192565",
+      "doi": "10.1016/j.immuni.2016.05.001",
+      "title": "Lag-3, Tim-3, and TIGIT: Co-inhibitory Receptors with Specialized Functions in Immune Regulation.",
+      "year": "2016",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "title and summary passage only",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "22437870",
+      "doi": "10.1038/nrc3239",
+      "title": "The blockade of immune checkpoints in cancer immunotherapy.",
+      "year": "2012",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (abstract, CTLA4 knockout, CD8 expression)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "22661634",
+      "doi": "10.1101/cshperspect.a006957",
+      "title": "T-cell tolerance: central and peripheral.",
+      "year": "2012",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (central and peripheral tolerance definitions)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "26161423",
+      "doi": "10.1155/2015/948501",
+      "title": "Human Tumor Antigens and Cancer Immunotherapy.",
+      "year": "2015",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (differentiation antigens, tolerance, mutated antigens)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "23516985",
+      "doi": "10.1146/annurev-immunol-020711-074950",
+      "title": "The dendritic cell lineage: ontogeny and function of dendritic cells and their subsets in the steady state and the inflamed setting.",
+      "year": "2013",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (pDC, cross-presentation, maturation, tolerance, CD11b+ cDC)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "11560993",
+      "doi": "10.1084/jem.194.6.769",
+      "title": "Dendritic cells induce peripheral T cell unresponsiveness under steady state conditions in vivo.",
+      "year": "2001",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract and one results passage",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "23348415",
+      "doi": "10.1038/nri3384",
+      "title": "Six-of-the-best: unique contributions of γδ T cells to immunology.",
+      "year": "2013",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (properties distinguishing gamma-delta T cells, NKG2D)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "15039760",
+      "doi": "10.1038/nri1309",
+      "title": "NKT cells: what's in a name?",
+      "year": "2004",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": false,
+          "fullTextRead": "none",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "33046868",
+      "doi": "10.1038/s41591-020-1074-2",
+      "title": "Anti-GD2 CAR-NKT cells in patients with relapsed or refractory neuroblastoma: an interim analysis.",
+      "year": "2020",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "19366914",
+      "doi": "10.1128/cmr.00046-08",
+      "title": "Pathogen recognition and inflammatory signaling in innate immune defenses.",
+      "year": "2009",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "30181915",
+      "doi": "10.4110/in.2018.18.e27",
+      "title": "Damage-Associated Molecular Patterns in Inflammatory Diseases.",
+      "year": "2018",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (DAMP and PAMP definitions)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "27381735",
+      "doi": "10.1038/ncomms12150",
+      "title": "Recommendations for myeloid-derived suppressor cell nomenclature and characterization standards.",
+      "year": "2016",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (MDSC definition and functional assays)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "23592557",
+      "doi": "10.1002/emmm.201202382",
+      "title": "Resolution of inflammation: an integrated view.",
+      "year": "2013",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract and one results passage",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "30263032",
+      "doi": "10.1186/s13223-018-0278-1",
+      "title": "An introduction to immunology and immunopathology.",
+      "year": "2018",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (innate and adaptive definitions, PRRs)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "30995506",
+      "doi": "10.1016/j.immuni.2019.03.025",
+      "title": "Shared and Distinct Functions of Type I and Type III Interferons.",
+      "year": "2019",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (receptors, JAK-STAT)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "24555472",
+      "doi": "10.1146/annurev-immunol-032713-120231",
+      "title": "Interferon-stimulated genes: a complex web of host defenses.",
+      "year": "2014",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (IFN-gamma production and receptor)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "14525967",
+      "doi": "10.1189/jlb.0603252",
+      "title": "Interferon-gamma: an overview of signals, mechanisms and functions.",
+      "year": "2004",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "17067937",
+      "doi": "10.1080/01926230600867727",
+      "title": "Normal structure, function, and histology of lymph nodes.",
+      "year": "2006",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "10535986",
+      "doi": "10.1073/pnas.96.22.12703",
+      "title": "CD8 T cell ignorance or tolerance to islet antigens depends on antigen dose.",
+      "year": "1999",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "37654482",
+      "doi": "10.3389/fimmu.2023.1233261",
+      "title": "Cytotoxic CD4 T cells in the mucosa and in cancer.",
+      "year": "2023",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (cytotoxic CD4 T cells)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "39748148",
+      "doi": "10.1111/imr.13435",
+      "title": "Recognition of Self and Viral Ligands by NK Cell Receptors.",
+      "year": "2025",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "targeted passages (KIR2D and KIR3D ligands, NKG2D ligands)",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "35139274",
+      "doi": "10.1056/nejmoa2112651",
+      "title": "Event-free Survival with Pembrolizumab in Early Triple-Negative Breast Cancer.",
+      "year": "2022",
+      "origins": [
+        "independent innate source review",
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only; EPMC truncated the abstract at a less-than sign, p-value not readable",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        },
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Primary trial abstract read; event-free survival for the tested stage II/III neoadjuvant-plus-adjuvant regimen. No new numerical claim."
+        }
+      ],
+      "rawCaptureSha256": "38750ff24c91a7ae484a50c98648e2f1b4349e5901463e8a7422adf96c0de2a1",
+      "abstractSha256": "6b472475f00d5c34377ec091d60f0c9322be6dbea2fa0bfd07d514adc13d0409"
+    },
+    {
+      "pmid": "39282906",
+      "doi": "10.1056/nejmoa2409932",
+      "title": "Overall Survival with Pembrolizumab in Early-Stage Triple-Negative Breast Cancer.",
+      "year": "2024",
+      "origins": [
+        "independent innate source review",
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        },
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Primary trial abstract read; overall survival for the tested regimen. The similarly titled NEJM commentary is excluded."
+        }
+      ],
+      "rawCaptureSha256": "e6a04ad3c21127e1b070ab988a6db3872089fe8939a10644d09de2391b2652e2",
+      "abstractSha256": "e6563b379c2c183216c82d78f5cb993b67b21dac21e6fbd213a27a1e9d43a91c"
+    },
+    {
+      "pmid": "33278935",
+      "doi": "10.1016/s0140-6736(20)32531-9",
+      "title": "Pembrolizumab plus chemotherapy versus placebo plus chemotherapy for previously untreated locally recurrent inoperable or metastatic triple-negative breast cancer (KEYNOTE-355): a randomised, placebo-controlled, double-blind, phase 3 clinical trial.",
+      "year": "2020",
+      "origins": [
+        "independent innate source review"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": "abstract only; EPMC truncated one passage at a less-than sign",
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "28368006",
+      "doi": "10.1038/nri.2017.19",
+      "title": "Mechanisms of central tolerance for B cells.",
+      "year": "2017",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "30464294",
+      "doi": "10.1038/s41577-018-0088-1",
+      "title": "Dendritic cell subsets in T cell programming: location dictates function.",
+      "year": "2019",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "27760337",
+      "doi": "10.1016/j.immuni.2016.10.010",
+      "title": "Functions of Murine Dendritic Cells.",
+      "year": "2016",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "22771139",
+      "doi": "10.1016/j.it.2012.05.006",
+      "title": "MHC restriction is imposed on a diverse T cell receptor repertoire by CD4 and CD8 co-receptors during thymic selection.",
+      "year": "2012",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "17943118",
+      "doi": "10.1038/nature06246",
+      "title": "Recognition of microorganisms and activation of the immune response.",
+      "year": "2007",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "21029960",
+      "doi": "10.1016/j.immuni.2010.10.002",
+      "title": "Vaccine adjuvants: putting innate immunity to work.",
+      "year": "2010",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "31633216",
+      "doi": "10.1002/eji.201970107",
+      "title": "Guidelines for the use of flow cytometry and cell sorting in immunological studies (second edition).",
+      "year": "2019",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "17150027",
+      "doi": "10.1146/annurev.immunol.25.022106.141711",
+      "title": "The biology of NKT cells.",
+      "year": "2007",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "34990248",
+      "doi": "10.1126/science.abf9419",
+      "title": "Tertiary lymphoid structures in cancer.",
+      "year": "2022",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "32023374",
+      "doi": "10.1056/nejmoa1910607",
+      "title": "Use of CAR-Transduced Natural Killer Cells in CD19-Positive Lymphoid Tumors.",
+      "year": "2020",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "29385370",
+      "doi": "10.1056/nejmoa1709866",
+      "title": "Tisagenlecleucel in Children and Young Adults with B-Cell Lymphoblastic Leukemia.",
+      "year": "2018",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "15604012",
+      "doi": "10.1016/j.jim.2004.08.008",
+      "title": "CD107a as a functional marker for the identification of natural killer cell activity.",
+      "year": "2004",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "35118176",
+      "doi": "10.21769/bioprotoc.4285",
+      "title": "Evaluating Human Natural Killer Cells Antibody-dependent Cellular Cytotoxicity (ADCC) Using Plate-bound Anti-CD16 Antibodies.",
+      "year": "2022",
+      "origins": [
+        "innate completion source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "See claim evidence registry for the exact setting and read depth."
+        }
+      ]
+    },
+    {
+      "pmid": "10839805",
+      "doi": "10.1084/jem.191.11.1895",
+      "title": "In vivo identification of glycolipid antigen-specific T cells using fluorescent CD1d tetramers.",
+      "year": "2000",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Abstract read; glycolipid-reactive CD1d-tetramer populations, including mouse NK1.1-negative cells. Not all type II NKT cells."
+        }
+      ],
+      "rawCaptureSha256": "09c7e68370eccb2054647b6aefe3c2d9b3d12b823cae9969742096b45d58a5de",
+      "abstractSha256": "ccbba345d3e43102d501f5f18c45a7fdf5b4711677a81a255a7ccdecc28a9e6b"
+    },
+    {
+      "pmid": "37063856",
+      "doi": "10.3389/fimmu.2023.1148988",
+      "title": "Deep characterization of human γδ T cell subsets defines shared and lineage-specific traits.",
+      "year": "2023",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Abstract and targeted cytotoxicity/repertoire methods. Human subsets and Daudi targets; no general DNA-versus-RNA library protocol adopted."
+        }
+      ],
+      "rawCaptureSha256": "6ef86f58db1a84fec75c63f33b57c055615ce40713f2225858b7017f8491936c",
+      "abstractSha256": "14a31f50ebb8afbb50ded5dd15b52f385ee4816be97971d94ab2b4b34240ea1d"
+    },
+    {
+      "pmid": "22869893",
+      "doi": "10.1084/jem.20120189",
+      "title": "Mutually exclusive redox forms of HMGB1 promote cell recruitment or proinflammatory cytokine release.",
+      "year": "2012",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Abstract read; distinct HMGB1 redox-form activities under the tested conditions."
+        }
+      ],
+      "rawCaptureSha256": "44506b7d812649ad34c8db6b5e04ddd98dec205b4b2621ae35583c40234899e9",
+      "abstractSha256": "6c14a6bfdc9f442a6acbc5cfd985c6aaead656576938fdefd2cbab888ec05033"
+    },
+    {
+      "pmid": "28420733",
+      "doi": "10.1084/jem.20161451",
+      "title": "Detection of interferon alpha protein reveals differential levels and cellular sources in disease.",
+      "year": "2017",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Abstract and targeted antiviral activity-assay method; IFN-alpha protein, stimulated RNA and antiviral activity remain different readouts."
+        }
+      ],
+      "rawCaptureSha256": "876006745b1e02f21631267318b70e13c732febd16194bad8fc510bff4476747",
+      "abstractSha256": "59c07894221ca49c268091258347d57cb61075a84f1a04f0a053a2ce05ef52b5"
+    },
+    {
+      "pmid": "28650338",
+      "doi": "10.1172/jci91190",
+      "title": "IFN-γ-related mRNA profile predicts clinical response to PD-1 blockade.",
+      "year": "2017",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Abstract read; treated-cohort RNA profile association, not protein dose or untreated-comparator treatment benefit."
+        }
+      ],
+      "rawCaptureSha256": "917cab798f75939a4815ea3e964d0323527f727d6a97a043ec90654ffddfeb0d",
+      "abstractSha256": "f9f1f4b330fe59ef54cc35c3a6bf39047db875ff1730853feeb9a52f55d15280"
+    },
+    {
+      "pmid": "2360047",
+      "doi": "10.1126/science.2360047",
+      "title": "RAG-1 and RAG-2, adjacent genes that synergistically activate V(D)J recombination.",
+      "year": "1990",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Abstract read; V(D)J assembly and fibroblast cotransfection. No modern catalytic-mechanism or numerical effect claim adopted."
+        }
+      ],
+      "rawCaptureSha256": "c13d930834543f6540f93981b7b039fdce3d4ed1ad477041b46be3078d0d0ec2",
+      "abstractSha256": "5331d329e9dff3d8dd2a035e7d4269f34a14685e1914df97f7956c42284e7893"
+    },
+    {
+      "pmid": "32017636",
+      "doi": "10.1146/annurev-immunol-102819-023144",
+      "title": "The Innate Biologies of Adaptive Antigen Receptors.",
+      "year": "2020",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Review abstract read; inherited receptors versus somatically assembled antigen receptors, with innate-like exceptions."
+        }
+      ],
+      "rawCaptureSha256": "35d981ec3abc1c96322ac42b2f30cfc613acc84ae74c6a68ab081401d91c5e16",
+      "abstractSha256": "6164f423cfb98c06223ac414ec6936d8a2fcc39efb4f877ee3f24495ade57a6f"
+    },
+    {
+      "pmid": "31205028",
+      "doi": "10.1172/jci124616",
+      "title": "More friend than foe: the emerging role of neutrophils in tissue repair.",
+      "year": "2019",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Review abstract read; tissue damage, inflammation resolution and repair, including sterile injury."
+        }
+      ],
+      "rawCaptureSha256": "a97aefd2168a130f386b4a7094f3848f5a0f5c8f6d10e50cc9071ea756c26b6c",
+      "abstractSha256": "6d097b9e36f0fa5da71d6da43118629f027b935935625f85f541decb2a908fb2"
+    },
+    {
+      "pmid": "36179248",
+      "doi": "10.1093/cei/uxac090",
+      "title": "Cytokine production by human B cells: role in health and autoimmune disease.",
+      "year": "2022",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Review abstract read; human B-cell cytokine production and contextual pro- and anti-inflammatory responses."
+        }
+      ],
+      "rawCaptureSha256": "2d53d2128868bf9f8007b99ea77afc640d3102c25576dbb606ac94f00f224f05",
+      "abstractSha256": "8cd4f6f113df81b0f1b565d84c70bd311c2bc1f1c947234f9318a2e53537bf52"
+    },
+    {
+      "pmid": "26982353",
+      "doi": "10.1016/j.immuni.2016.02.015",
+      "title": "Macrophages in Tissue Repair, Regeneration, and Fibrosis.",
+      "year": "2016",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Review abstract read; macrophage states and tissue injury, repair, regeneration and fibrosis."
+        }
+      ],
+      "rawCaptureSha256": "ff28193a50e54e4e566e5b60b90ee0e6a4afae3a40301b52fdffea8fa4f6a24b",
+      "abstractSha256": "2a6562e8a7e9c4b44a4bc0f8a566a77041eb167e5272f3afb1ceb3260909c5c3"
+    },
+    {
+      "pmid": "22542839",
+      "doi": "10.1016/j.devcel.2012.02.003",
+      "title": "LTB4 is a signal-relay molecule during neutrophil chemotaxis.",
+      "year": "2012",
+      "origins": [
+        "coordinator source reconciliation"
+      ],
+      "readingScopes": [
+        {
+          "abstractRead": true,
+          "fullTextRead": false,
+          "scope": "Primary abstract read; LTB4 signal relay in defined neutrophil chemotaxis experiments, including mouse receptor perturbation."
+        }
+      ],
+      "rawCaptureSha256": "7170a6ccc1874b046449f8b661563aee7a7012dd7b392b6faad8c1ddfc1268ec",
+      "abstractSha256": "131b93243c613ee1f811cc8f2be4a015cd5aa4baf724b5e5169c2ff703b7cd5a"
+    }
+  ],
+  "coordinatorCaptures": [
+    {
+      "sourceId": "10839805",
+      "rawCaptureSha256": "09c7e68370eccb2054647b6aefe3c2d9b3d12b823cae9969742096b45d58a5de",
+      "bytes": 7089,
+      "readingScope": "Abstract read; glycolipid-reactive CD1d-tetramer populations, including mouse NK1.1-negative cells. Not all type II NKT cells."
+    },
+    {
+      "sourceId": "37063856",
+      "rawCaptureSha256": "6ef86f58db1a84fec75c63f33b57c055615ce40713f2225858b7017f8491936c",
+      "bytes": 7791,
+      "readingScope": "Abstract and targeted cytotoxicity/repertoire methods. Human subsets and Daudi targets; no general DNA-versus-RNA library protocol adopted."
+    },
+    {
+      "sourceId": "22869893",
+      "rawCaptureSha256": "44506b7d812649ad34c8db6b5e04ddd98dec205b4b2621ae35583c40234899e9",
+      "bytes": 10176,
+      "readingScope": "Abstract read; distinct HMGB1 redox-form activities under the tested conditions."
+    },
+    {
+      "sourceId": "28420733",
+      "rawCaptureSha256": "876006745b1e02f21631267318b70e13c732febd16194bad8fc510bff4476747",
+      "bytes": 21991,
+      "readingScope": "Abstract and targeted antiviral activity-assay method; IFN-alpha protein, stimulated RNA and antiviral activity remain different readouts."
+    },
+    {
+      "sourceId": "28650338",
+      "rawCaptureSha256": "917cab798f75939a4815ea3e964d0323527f727d6a97a043ec90654ffddfeb0d",
+      "bytes": 11229,
+      "readingScope": "Abstract read; treated-cohort RNA profile association, not protein dose or untreated-comparator treatment benefit."
+    },
+    {
+      "sourceId": "2360047",
+      "rawCaptureSha256": "c13d930834543f6540f93981b7b039fdce3d4ed1ad477041b46be3078d0d0ec2",
+      "bytes": 17703,
+      "readingScope": "Abstract read; V(D)J assembly and fibroblast cotransfection. No modern catalytic-mechanism or numerical effect claim adopted."
+    },
+    {
+      "sourceId": "32017636",
+      "rawCaptureSha256": "35d981ec3abc1c96322ac42b2f30cfc613acc84ae74c6a68ab081401d91c5e16",
+      "bytes": 6136,
+      "readingScope": "Review abstract read; inherited receptors versus somatically assembled antigen receptors, with innate-like exceptions."
+    },
+    {
+      "sourceId": "31919129",
+      "rawCaptureSha256": "b1cdf788afc1a1131cc45d4ae917c4f0d67de0a3f3e5f9e4c8b785d6270b61e0",
+      "bytes": 19252,
+      "readingScope": "Abstract read; BTN2A1/BTN3A1 and the studied Vgamma9Vdelta2 phosphoantigen response."
+    },
+    {
+      "sourceId": "31205028",
+      "rawCaptureSha256": "a97aefd2168a130f386b4a7094f3848f5a0f5c8f6d10e50cc9071ea756c26b6c",
+      "bytes": 5295,
+      "readingScope": "Review abstract read; tissue damage, inflammation resolution and repair, including sterile injury."
+    },
+    {
+      "sourceId": "36179248",
+      "rawCaptureSha256": "2d53d2128868bf9f8007b99ea77afc640d3102c25576dbb606ac94f00f224f05",
+      "bytes": 5982,
+      "readingScope": "Review abstract read; human B-cell cytokine production and contextual pro- and anti-inflammatory responses."
+    },
+    {
+      "sourceId": "26982353",
+      "rawCaptureSha256": "ff28193a50e54e4e566e5b60b90ee0e6a4afae3a40301b52fdffea8fa4f6a24b",
+      "bytes": 5307,
+      "readingScope": "Review abstract read; macrophage states and tissue injury, repair, regeneration and fibrosis."
+    },
+    {
+      "sourceId": "22542839",
+      "rawCaptureSha256": "7170a6ccc1874b046449f8b661563aee7a7012dd7b392b6faad8c1ddfc1268ec",
+      "bytes": 8015,
+      "readingScope": "Primary abstract read; LTB4 signal relay in defined neutrophil chemotaxis experiments, including mouse receptor perturbation."
+    },
+    {
+      "sourceId": "35139274",
+      "rawCaptureSha256": "38750ff24c91a7ae484a50c98648e2f1b4349e5901463e8a7422adf96c0de2a1",
+      "bytes": 113738,
+      "readingScope": "Primary trial abstract read; event-free survival for the tested stage II/III neoadjuvant-plus-adjuvant regimen. No new numerical claim."
+    },
+    {
+      "sourceId": "39282906",
+      "rawCaptureSha256": "e6a04ad3c21127e1b070ab988a6db3872089fe8939a10644d09de2391b2652e2",
+      "bytes": 94995,
+      "readingScope": "Primary trial abstract read; overall survival for the tested regimen. The similarly titled NEJM commentary is excluded."
+    }
+  ],
+  "officialSources": [
+    {
+      "sourceId": "bsi-cytokines",
+      "title": "Cytokines: Introduction",
+      "author": "Jodie Testar",
+      "publisher": "British Society for Immunology",
+      "url": "https://www.immunology.org/sites/default/files/2022-08/cytokines%20-%20introduction.pdf",
+      "readingDepth": "Targeted definition and autocrine/paracrine/endocrine paragraphs; professional-society education, not trial evidence.",
+      "sha256": "bfcdba45b1c413eb718c6e4bf9f2e95964418f8dcb6de8fad5d67ce821cf3f91"
+    },
+    {
+      "sourceId": "nlm-mesh-chemokines",
+      "title": "Chemokines, D018925 / M0028294",
+      "publisher": "NLM MeSH",
+      "url": "https://id.nlm.nih.gov/mesh/D018925",
+      "readingDepth": "Descriptor and preferred-concept scope note; only cytokine-family, recruitment and activation definitions adopted."
+    }
+  ],
+  "evidenceRegistry": [
+    {
+      "id": "E-OHTA-AUTO",
+      "source": "abs:16916931",
+      "rawFileSha256": "bc7b052b61ce2541c8b5ad7912ac83bd36fb0e4a0c1c78ed52349e700c98f6e9",
+      "textSha256": "bc7b052b61ce2541c8b5ad7912ac83bd36fb0e4a0c1c78ed52349e700c98f6e9",
+      "passageSha256": null,
+      "claimSupported": "A2A receptor deletion in mice gave autoimmunity during melanoma rejection and the authors propose A2AR in T cells also prevents autoimmunity",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-OHTA-60",
+      "source": "abs:16916931",
+      "rawFileSha256": "bc7b052b61ce2541c8b5ad7912ac83bd36fb0e4a0c1c78ed52349e700c98f6e9",
+      "textSha256": "bc7b052b61ce2541c8b5ad7912ac83bd36fb0e4a0c1c78ed52349e700c98f6e9",
+      "passageSha256": null,
+      "claimSupported": "Host A2AR deletion: about 60 per cent of deficient mice rejected established immunogenic tumours, none of controls",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BUCH-EARLY",
+      "source": "new:26558876",
+      "rawFileSha256": "72428b0a644b94a4563452906506db9f0f7317355a640251996d3bf6767ea3a4",
+      "textSha256": "507d13fe94526f6e5aebe939b7bf7e30903209413cedf0df9b51883523f9801a",
+      "passageSha256": null,
+      "claimSupported": "CTLA-4 thought to act early in lymph nodes, PD-1 later in peripheral tissues (review statement)",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-PARD-CD8",
+      "source": "new:22437870",
+      "rawFileSha256": "0c43f9fe767b6871468c51ecc476448610ac51a5eeec87e579d0f7a3e773547f",
+      "textSha256": "f7ccbf356259378104c5a6a4897208987e3d4cd12ad33cc78d7223c9d34a9fb2",
+      "passageSha256": null,
+      "claimSupported": "CTLA4 is also expressed by activated CD8 effector T cells; its main physiological role is through CD4 helper and Treg effects",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-ANDER-SPEC",
+      "source": "new:27192565",
+      "rawFileSha256": "9a3d02df898220414b55b62c1de2894f680c6c260004e806b19c101b82d22672",
+      "textSha256": "a6ef7f32f374f3b26ac182be9c0fdb5e624163770d50b3e78f72802694dff9bf",
+      "passageSha256": null,
+      "claimSupported": "LAG-3, TIM-3 and TIGIT described as co-inhibitory receptors with specialised functions (title and summary level only)",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-PARD-COOPT",
+      "source": "new:22437870",
+      "rawFileSha256": "0c43f9fe767b6871468c51ecc476448610ac51a5eeec87e579d0f7a3e773547f",
+      "textSha256": "f7ccbf356259378104c5a6a4897208987e3d4cd12ad33cc78d7223c9d34a9fb2",
+      "passageSha256": null,
+      "claimSupported": "Tumours co-opt checkpoint pathways as a mechanism of immune resistance; checkpoints maintain self-tolerance",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-PARD-KO",
+      "source": "new:22437870",
+      "rawFileSha256": "0c43f9fe767b6871468c51ecc476448610ac51a5eeec87e579d0f7a3e773547f",
+      "textSha256": "f7ccbf356259378104c5a6a4897208987e3d4cd12ad33cc78d7223c9d34a9fb2",
+      "passageSha256": null,
+      "claimSupported": "Ctla4 knockout mice show lethal systemic hyperactivation, the physiological cost of losing the brake",
+      "settingStated": "mouse, review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BUCH-PDL",
+      "source": "new:26558876",
+      "rawFileSha256": "72428b0a644b94a4563452906506db9f0f7317355a640251996d3bf6767ea3a4",
+      "textSha256": "507d13fe94526f6e5aebe939b7bf7e30903209413cedf0df9b51883523f9801a",
+      "passageSha256": null,
+      "claimSupported": "PD-1 has two ligands, PD-L1 and PD-L2, more widely expressed than CTLA-4 ligands",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BUCH-PDL1-IFNG",
+      "source": "new:26558876",
+      "rawFileSha256": "72428b0a644b94a4563452906506db9f0f7317355a640251996d3bf6767ea3a4",
+      "textSha256": "507d13fe94526f6e5aebe939b7bf7e30903209413cedf0df9b51883523f9801a",
+      "passageSha256": null,
+      "claimSupported": "PD-L1 on leukocytes, non-haematopoietic cells and non-lymphoid tissues, inducible by interferon gamma",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-XING-CENTRAL",
+      "source": "new:22661634",
+      "rawFileSha256": "7726e2110e5a4e8fbac1d493e9980d8fdeb847cd5010208e6bc6b4a490695187",
+      "textSha256": "cd6dac87a86c8538585dc8301682c521a5fa4063725f49c109257c5f4ab0bc42",
+      "passageSha256": null,
+      "claimSupported": "Central tolerance operates in the thymus before T cells mature and circulate; central tolerance alone is insufficient",
+      "settingStated": "review (T cells only)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-XING-PERIPH",
+      "source": "new:22661634",
+      "rawFileSha256": "7726e2110e5a4e8fbac1d493e9980d8fdeb847cd5010208e6bc6b4a490695187",
+      "textSha256": "cd6dac87a86c8538585dc8301682c521a5fa4063725f49c109257c5f4ab0bc42",
+      "passageSha256": null,
+      "claimSupported": "Peripheral tolerance acts on mature circulating T cells",
+      "settingStated": "review (T cells only)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-KURTS99",
+      "source": "abs:10535986",
+      "rawFileSha256": "a1c01be40959f0f412403a27c98af4ea969cbbeb954ebe1f70d74dcb7f239263",
+      "textSha256": "a1c01be40959f0f412403a27c98af4ea969cbbeb954ebe1f70d74dcb7f239263",
+      "passageSha256": null,
+      "claimSupported": "Ignorance versus tolerance for CD8 T cells; antigen concentration decided which operated",
+      "settingStated": "mouse transgenic",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-VIG-BREAK",
+      "source": "new:26161423",
+      "rawFileSha256": "b305d96e064ae2a08153e511ff769ba4e76252cfa5ff97a9e93de3534bd64a87",
+      "textSha256": "71a5955b0427b8ae363e0dca091c37e1ee5bde40102676bed5c47781f4c34699",
+      "passageSha256": null,
+      "claimSupported": "Autoimmune side effects of checkpoint blockade likely reflect breakage of peripheral tolerance to normal-tissue antigens",
+      "settingStated": "review (\"likely\")",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-VIG-DIFF",
+      "source": "new:26161423",
+      "rawFileSha256": "b305d96e064ae2a08153e511ff769ba4e76252cfa5ff97a9e93de3534bd64a87",
+      "textSha256": "71a5955b0427b8ae363e0dca091c37e1ee5bde40102676bed5c47781f4c34699",
+      "passageSha256": null,
+      "claimSupported": "Differentiation antigens are expressed by some tumours and the matching healthy tissue",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-VIG-CENTRAL",
+      "source": "new:26161423",
+      "rawFileSha256": "b305d96e064ae2a08153e511ff769ba4e76252cfa5ff97a9e93de3534bd64a87",
+      "textSha256": "71a5955b0427b8ae363e0dca091c37e1ee5bde40102676bed5c47781f4c34699",
+      "passageSha256": null,
+      "claimSupported": "Responses to melanoma differentiation antigens occur in patients and healthy donors, suggesting incomplete central tolerance",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-VIG-MUT",
+      "source": "new:26161423",
+      "rawFileSha256": "b305d96e064ae2a08153e511ff769ba4e76252cfa5ff97a9e93de3534bd64a87",
+      "textSha256": "71a5955b0427b8ae363e0dca091c37e1ee5bde40102676bed5c47781f4c34699",
+      "passageSha256": null,
+      "claimSupported": "Mutated antigens: a mutation is not enough, few CD8 T cells recognise mutated-peptide targets (passage truncated in capture window; see full text)",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MERAD-PDC",
+      "source": "new:23516985",
+      "rawFileSha256": "8fe2e1fccd5f96eca00aaeaad2d9fc12a28ab2bfb8b76270d7a6c3d1f5ad83f2",
+      "textSha256": "0d7c941045234a931a66bc7d1f0e0fb98751e740b876ba89295afe59c4958d2e",
+      "passageSha256": null,
+      "claimSupported": "Plasmacytoid cells produce large amounts of interferon alpha",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MERAD-CDC1",
+      "source": "new:23516985",
+      "rawFileSha256": "8fe2e1fccd5f96eca00aaeaad2d9fc12a28ab2bfb8b76270d7a6c3d1f5ad83f2",
+      "textSha256": "0d7c941045234a931a66bc7d1f0e0fb98751e740b876ba89295afe59c4958d2e",
+      "passageSha256": null,
+      "claimSupported": "CD8+ and CD103+ cDCs have enhanced ability to mount CD8 T-cell immunity (cDC1 cross-presentation context)",
+      "settingStated": "mouse, review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MERAD-CDC2",
+      "source": "new:23516985",
+      "rawFileSha256": "8fe2e1fccd5f96eca00aaeaad2d9fc12a28ab2bfb8b76270d7a6c3d1f5ad83f2",
+      "textSha256": "0d7c941045234a931a66bc7d1f0e0fb98751e740b876ba89295afe59c4958d2e",
+      "passageSha256": null,
+      "claimSupported": "The contribution of CD11b+ cDCs to CD4 T-cell priming in vivo is described as still to be determined",
+      "settingStated": "mouse, review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MERAD-MAT",
+      "source": "new:23516985",
+      "rawFileSha256": "8fe2e1fccd5f96eca00aaeaad2d9fc12a28ab2bfb8b76270d7a6c3d1f5ad83f2",
+      "textSha256": "0d7c941045234a931a66bc7d1f0e0fb98751e740b876ba89295afe59c4958d2e",
+      "passageSha256": null,
+      "claimSupported": "Migration-linked maturation upregulates MHC-II and costimulatory molecules; steady-state versus inflammatory maturation differ in cytokines",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MERAD-TOL",
+      "source": "new:23516985",
+      "rawFileSha256": "8fe2e1fccd5f96eca00aaeaad2d9fc12a28ab2bfb8b76270d7a6c3d1f5ad83f2",
+      "textSha256": "0d7c941045234a931a66bc7d1f0e0fb98751e740b876ba89295afe59c4958d2e",
+      "passageSha256": null,
+      "claimSupported": "cDCs induce immunity to foreign antigens and enforce tolerance to self-antigens",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-HAW-LOSS",
+      "source": "new:11560993",
+      "rawFileSha256": "0aa0b1f9c0e287ccdc9f7755eee04cf42e7bbdfaacd055613d50608e6a8cac51",
+      "textSha256": "723ae773219f90964d9d766b071d8180e7f6f9cc732e2fb118288c7bbb1616de",
+      "passageSha256": null,
+      "claimSupported": "DC-targeted antigen in the steady state: transient activation then loss and unresponsiveness of antigen-specific T cells",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-HAW-CD40",
+      "source": "new:11560993",
+      "rawFileSha256": "0aa0b1f9c0e287ccdc9f7755eee04cf42e7bbdfaacd055613d50608e6a8cac51",
+      "textSha256": "723ae773219f90964d9d766b071d8180e7f6f9cc732e2fb118288c7bbb1616de",
+      "passageSha256": null,
+      "claimSupported": "Anti-CD40 with DC-targeted antigen changed the outcome from tolerance to prolonged activation",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-VAN-DIST",
+      "source": "new:23348415",
+      "rawFileSha256": "2a9916111ab0fdf0ff189dc1f56ac3d486f0edcd03326cf16909d58c60e1be5b",
+      "textSha256": "21ad0c6fc844935cdac25842e247ad774c5a434b3738485ee57fa972dc9509a1",
+      "passageSha256": null,
+      "claimSupported": "Gamma-delta T cells distinguished from alpha-beta T cells by receptor antigen recognition and other properties",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-VAN-NKG2D",
+      "source": "new:23348415",
+      "rawFileSha256": "2a9916111ab0fdf0ff189dc1f56ac3d486f0edcd03326cf16909d58c60e1be5b",
+      "textSha256": "21ad0c6fc844935cdac25842e247ad774c5a434b3738485ee57fa972dc9509a1",
+      "passageSha256": null,
+      "claimSupported": "NKG2D is expressed by many gamma-delta subsets, NK cells and CD8 T cells",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MUR-STIM",
+      "source": "new:25035950",
+      "rawFileSha256": "6ac41e780fbc6e691fa4e47b001a8b4a7004473901b242866b7f20038125e989",
+      "textSha256": "2f9f4eeceea98cac2a74a631035650df971476c088a2d6692c1326b659a0a69d",
+      "passageSha256": null,
+      "claimSupported": "M1/M2 terminology arose from IL-4 versus IFN-gamma and/or LPS effects on macrophage gene expression",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MUR-CULT",
+      "source": "new:25035950",
+      "rawFileSha256": "6ac41e780fbc6e691fa4e47b001a8b4a7004473901b242866b7f20038125e989",
+      "textSha256": "2f9f4eeceea98cac2a74a631035650df971476c088a2d6692c1326b659a0a69d",
+      "passageSha256": null,
+      "claimSupported": "Culture conditions for the two paradigmatic in vitro M1 and M2 populations are IFN-gamma or IL-4 stimulation",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-ORT-RES",
+      "source": "new:23592557",
+      "rawFileSha256": "fbb0247561847e3dcba5e8be4efd388faf807a97bfb178e31272788063223169",
+      "textSha256": "1210061e0749941258ff474993423fd7eef0462f8b49b5970418a658fd9863c5",
+      "passageSha256": null,
+      "claimSupported": "Resolution of inflammation is a coordinated and active process aimed at restoring tissue integrity and function",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MAR-INNATE",
+      "source": "new:30263032",
+      "rawFileSha256": "6e143507bb80ca5816bddd3283e015537ef579d463f48f54d26265c40edf634b",
+      "textSha256": "f7234191930b8671d5bc088c8b9c0d87996f1e88871f449bf9c3853255462b88",
+      "passageSha256": null,
+      "claimSupported": "Classical contrast: innate rapid without immunologic memory; adaptive antigen-specific with memory",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MAR-MUTUAL",
+      "source": "new:30263032",
+      "rawFileSha256": "6e143507bb80ca5816bddd3283e015537ef579d463f48f54d26265c40edf634b",
+      "textSha256": "f7234191930b8671d5bc088c8b9c0d87996f1e88871f449bf9c3853255462b88",
+      "passageSha256": null,
+      "claimSupported": "Innate and adaptive immunity are not mutually exclusive",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MAR-PRR",
+      "source": "new:30263032",
+      "rawFileSha256": "6e143507bb80ca5816bddd3283e015537ef579d463f48f54d26265c40edf634b",
+      "textSha256": "f7234191930b8671d5bc088c8b9c0d87996f1e88871f449bf9c3853255462b88",
+      "passageSha256": null,
+      "claimSupported": "Innate immunity relies on PRRs detecting structures shared by many pathogens",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-LAZ-RECEP",
+      "source": "new:30995506",
+      "rawFileSha256": "ebd55cdf7d15aef6fc5a863ce4a372bc4578278ba6c91f346421dfdc9dea9a92",
+      "textSha256": "d4d1296e3aed0c3559c6b7e4ae89805eb6bb109efa7606fa0a56992aacd9c95c",
+      "passageSha256": null,
+      "claimSupported": "IFNAR1/2 expressed on virtually all nucleated cells; IFNLR1 preferentially on epithelial cells",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-SCH-IFNG",
+      "source": "new:24555472",
+      "rawFileSha256": "5b3f1aafc8a3a9049000cf56562a2a195a8d3e3af9a9deca974a4b41ded071c0",
+      "textSha256": "8fc3c87ea31aa2166ba2a7c1d53f7d47f3b3c66402ef01c48b4e375d13549252",
+      "passageSha256": null,
+      "claimSupported": "IFN-gamma production largely restricted to immune cells; IFNGR widely expressed",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-LAZ-JAK",
+      "source": "new:30995506",
+      "rawFileSha256": "ebd55cdf7d15aef6fc5a863ce4a372bc4578278ba6c91f346421dfdc9dea9a92",
+      "textSha256": "d4d1296e3aed0c3559c6b7e4ae89805eb6bb109efa7606fa0a56992aacd9c95c",
+      "passageSha256": null,
+      "claimSupported": "Type I and III interferons signal through JAK-STAT",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-SCHR-EFFECTS",
+      "source": "abs:14525967",
+      "rawFileSha256": "21a8821c8672609d93b89f55b6d460d0af25463b5b559e40dfa6899145daeb45",
+      "textSha256": "21a8821c8672609d93b89f55b6d460d0af25463b5b559e40dfa6899145daeb45",
+      "passageSha256": null,
+      "claimSupported": "IFN-gamma effects include antigen processing and presentation, antiviral state, effects on proliferation and apoptosis",
+      "settingStated": "review (abstract)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-WILL-AREAS",
+      "source": "abs:17067937",
+      "rawFileSha256": "91b76034df8ab9acf9af03df9d7e8eddd4b202463743b32d28f6c8f977c49134",
+      "textSha256": "91b76034df8ab9acf9af03df9d7e8eddd4b202463743b32d28f6c8f977c49134",
+      "passageSha256": null,
+      "claimSupported": "Lymph node cortex, paracortex and medulla; B and T cells home to separate areas",
+      "settingStated": "review (abstract)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BRU-HEV",
+      "source": "prior_html:PMC7393069",
+      "rawFileSha256": "42f75bb77bf2ad433c72ab8441755d0893a61e37228df90ad65715add22dc630",
+      "textSha256": "1a8f05f8b95d09f1de360565e5f11a56d0d43377345cd6116c94e9a12743ae79",
+      "passageSha256": null,
+      "claimSupported": "Lymph node blood endothelium: HEV recruit lymphocytes",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BRU-MED",
+      "source": "prior_html:PMC7393069",
+      "rawFileSha256": "42f75bb77bf2ad433c72ab8441755d0893a61e37228df90ad65715add22dc630",
+      "textSha256": "1a8f05f8b95d09f1de360565e5f11a56d0d43377345cd6116c94e9a12743ae79",
+      "passageSha256": null,
+      "claimSupported": "A medullary venous population predicted to recruit myeloid cells, confirmed by videomicroscopy",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-VEN-CTL",
+      "source": "new:37654482",
+      "rawFileSha256": "86c657ee92c7d1fae656aa56af1b68270a63a49e922b51f3db4440434e195e0f",
+      "textSha256": "4ef9acae8f50da74acd702626ed352c45f86b8b4b5318fadb8006f0468f42d40",
+      "passageSha256": null,
+      "claimSupported": "Cytotoxic CD4 T cells can be elicited in acute and chronic inflammatory conditions in vivo",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BRO-FUNC",
+      "source": "new:27381735",
+      "rawFileSha256": "265d4c8ee573b8659ad5be5ce8b246519fdfc49516eda975b99a3e82315fed4c",
+      "textSha256": "62061d21ec70c560d64633c9d78ff633cb8a0ae2a3323df96e97755b25d9a752",
+      "passageSha256": null,
+      "claimSupported": "MDSC identified by myeloid origin plus suppressive function; functional assays needed",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MOG-PAMP",
+      "source": "abs:19366914",
+      "rawFileSha256": "63356d94e1cf363bf65eaf16f27e579d0d1dcfdb4cba7079f3663411ab607041",
+      "textSha256": "63356d94e1cf363bf65eaf16f27e579d0d1dcfdb4cba7079f3663411ab607041",
+      "passageSha256": null,
+      "claimSupported": "PRRs detect evolutionarily conserved structures on pathogens (PAMPs) (abstract only)",
+      "settingStated": "review (abstract)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-ROH-DAMP",
+      "source": "new:30181915",
+      "rawFileSha256": "565f5e5da618b65aa4db7514a381143a5dea4d68ca8cc25134c84e411ec51365",
+      "textSha256": "4546d4482109b21021f86f87ece9fdad143b5c1cc8ff6f658f0930c8d437e0f7",
+      "passageSha256": null,
+      "claimSupported": "DAMPs are endogenous danger molecules released from damaged or dying cells and sensed by PRRs",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-HECZ",
+      "source": "abs:33046868",
+      "rawFileSha256": "247acbde1330f94dc347fae0d981a16d4184a0b9784322bc1364f005528ec56a",
+      "textSha256": "247acbde1330f94dc347fae0d981a16d4184a0b9784322bc1364f005528ec56a",
+      "passageSha256": null,
+      "claimSupported": "Phase 1 CAR-NKT (GD2 CAR plus IL-15) in three children with neuroblastoma, interim, one objective response",
+      "settingStated": "human phase 1, n=3",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MAR25-KIR",
+      "source": "new:39748148",
+      "rawFileSha256": "5d81b3fec423160fc9fe61810407254a7e166e3d5cbea5642ccb711e83132890",
+      "textSha256": "d7a07737c6b20f46ec9a6eac3d727080c67491121e7f146e18a5292f700e23fd",
+      "passageSha256": null,
+      "claimSupported": "KIR2D bind HLA-C; KIR3D bind HLA-A and HLA-B; KIR family has activating and inhibitory receptors",
+      "settingStated": "review (structural)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MAR25-NKG2D",
+      "source": "new:39748148",
+      "rawFileSha256": "5d81b3fec423160fc9fe61810407254a7e166e3d5cbea5642ccb711e83132890",
+      "textSha256": "d7a07737c6b20f46ec9a6eac3d727080c67491121e7f146e18a5292f700e23fd",
+      "passageSha256": null,
+      "claimSupported": "NKG2D binds MHC-I paralogs MICA and ULBP",
+      "settingStated": "review (structural)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MUNN-HUMAN",
+      "source": "prior_html:PMC449750",
+      "rawFileSha256": "76fd8557a717f49ab5c1d19f6dcc2c76f00c0b1bbd22f3712166d93d1e1636cd",
+      "textSha256": "bc3772a67893a7fb2263fd6af742d5d7f700602bf2bbb774b5834ab5af1d597b",
+      "passageSha256": null,
+      "claimSupported": "Human sentinel lymph nodes: IDO-expressing cells correlated with worse outcome in a 40-patient melanoma pilot",
+      "settingStated": "human archival pilot",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MUNN-PILOT",
+      "source": "prior_html:PMC449750",
+      "rawFileSha256": "76fd8557a717f49ab5c1d19f6dcc2c76f00c0b1bbd22f3712166d93d1e1636cd",
+      "textSha256": "bc3772a67893a7fb2263fd6af742d5d7f700602bf2bbb774b5834ab5af1d597b",
+      "passageSha256": null,
+      "claimSupported": "Authors state the pilot was not intended to validate IDO as a prognostic marker",
+      "settingStated": "human archival pilot",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MUNN-TBD",
+      "source": "prior_html:PMC449750",
+      "rawFileSha256": "76fd8557a717f49ab5c1d19f6dcc2c76f00c0b1bbd22f3712166d93d1e1636cd",
+      "textSha256": "bc3772a67893a7fb2263fd6af742d5d7f700602bf2bbb774b5834ab5af1d597b",
+      "passageSha256": null,
+      "claimSupported": "Whether human IDO+ DCs resemble the murine CD19+ counterparts remains to be determined",
+      "settingStated": "mouse vs human",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-RANG-293T",
+      "source": "prior_html:PMC3491118",
+      "rawFileSha256": "ff8226ea46fb16f9602fa009b11d33f4c77013ac8390413d45498ad99863bf02",
+      "textSha256": "d7de13fedb8d1e1e866377e3587e9140dd8c4500585ff6a2b12896eb3d23e0cc",
+      "passageSha256": null,
+      "claimSupported": "Galectin-9 co-expression abolished Bat3/Tim-3 binding in 293T cells (a cell line), not in helper T cells",
+      "settingStated": "293T cell line",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-RANG-TH1",
+      "source": "prior_html:PMC3491118",
+      "rawFileSha256": "ff8226ea46fb16f9602fa009b11d33f4c77013ac8390413d45498ad99863bf02",
+      "textSha256": "d7de13fedb8d1e1e866377e3587e9140dd8c4500585ff6a2b12896eb3d23e0cc",
+      "passageSha256": null,
+      "claimSupported": "In Th1 cells galectin-9 did not lower Bat3 levels",
+      "settingStated": "mouse Th1 cells",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-RANG-PROT",
+      "source": "prior_html:PMC3491118",
+      "rawFileSha256": "ff8226ea46fb16f9602fa009b11d33f4c77013ac8390413d45498ad99863bf02",
+      "textSha256": "d7de13fedb8d1e1e866377e3587e9140dd8c4500585ff6a2b12896eb3d23e0cc",
+      "passageSha256": null,
+      "claimSupported": "Bat3 protects Th1 cells from galectin-9 mediated cell death (functional result in helper cells)",
+      "settingStated": "mouse Th1 cells",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-K522-EFS",
+      "source": "abs:35139274",
+      "rawFileSha256": "46be9e63919c8639c9cd4e32f8a9f8c59dcddd0545d3d5d851abe9daa06450d3",
+      "textSha256": "46be9e63919c8639c9cd4e32f8a9f8c59dcddd0545d3d5d851abe9daa06450d3",
+      "passageSha256": null,
+      "claimSupported": "KEYNOTE-522 EFS 84.5% versus 76.8% at 36 months (pembrolizumab versus placebo with chemotherapy); abstract p-value truncated by the source (see note)",
+      "settingStated": "phase 3 trial, early TNBC",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-K522-OS",
+      "source": "abs:39282906",
+      "rawFileSha256": "57a138dc955199be83bd47bdafe6cd831e7822d009ac8c5f6abd72e2cb1bbcc0",
+      "textSha256": "57a138dc955199be83bd47bdafe6cd831e7822d009ac8c5f6abd72e2cb1bbcc0",
+      "passageSha256": null,
+      "claimSupported": "KEYNOTE-522 OS 86.6% versus 81.7% at 60 months (P=0.002)",
+      "settingStated": "phase 3 trial, early TNBC",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-K355",
+      "source": "abs:33278935",
+      "rawFileSha256": "fdbc64d658fad169a397026134b1a57714160574fdc5efc89a98dfa3852001de",
+      "textSha256": "fdbc64d658fad169a397026134b1a57714160574fdc5efc89a98dfa3852001de",
+      "passageSha256": null,
+      "claimSupported": "KEYNOTE-355: benefit increased with PD-L1 enrichment; CPS>=10 PFS 9.7 vs 5.6 months",
+      "settingStated": "phase 3 trial, metastatic TNBC",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-SUN13",
+      "source": "pabs:23258413",
+      "rawFileSha256": "28c46a2d856b14f78ee15b5cfdf4fb2d11a36a2731c950cce002656333286a98",
+      "textSha256": "28c46a2d856b14f78ee15b5cfdf4fb2d11a36a2731c950cce002656333286a98",
+      "passageSha256": null,
+      "claimSupported": "cGAS binds cytoplasmic DNA and makes cGAMP, which binds STING (cell experiments)",
+      "settingStated": "cultured mammalian cells",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-MUKAI",
+      "source": "pabs:27324217",
+      "rawFileSha256": "6ec578f340b9e30538d3db2249d92e1818c57a1b501b8ee92bd48b93c51539ff",
+      "textSha256": "6ec578f340b9e30538d3db2249d92e1818c57a1b501b8ee92bd48b93c51539ff",
+      "passageSha256": null,
+      "claimSupported": "STING moves from ER to perinuclear compartments; Golgi palmitoylation essential for activation",
+      "settingStated": "cell experiments",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-WOO",
+      "source": "pabs:25517615",
+      "rawFileSha256": "238b23740d97b160785344a4589b6ac8ae060357a02b0ca9299ff6647c0b4da1",
+      "textSha256": "238b23740d97b160785344a4589b6ac8ae060357a02b0ca9299ff6647c0b4da1",
+      "passageSha256": null,
+      "claimSupported": "Host STING needed for spontaneous CD8 priming against tumours",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BAKH",
+      "source": "pabs:29342134",
+      "rawFileSha256": "aaa2d55a33e6f60d4d3d0797909f88cea376847a9ef645f54f9d80ee06bf9607",
+      "textSha256": "aaa2d55a33e6f60d4d3d0797909f88cea376847a9ef645f54f9d80ee06bf9607",
+      "passageSha256": null,
+      "claimSupported": "CIN, micronuclear DNA, cGAS-STING and metastasis in tumour models",
+      "settingStated": "tumour models (species not stated in abstract)",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-LI",
+      "source": "pabs:37612508",
+      "rawFileSha256": "61b3c14005c00861a51562186bb91cc371d6e70fb620371ff10b7037b9ede92d",
+      "textSha256": "61b3c14005c00861a51562186bb91cc371d6e70fb620371ff10b7037b9ede92d",
+      "passageSha256": null,
+      "claimSupported": "CIN-driven chronic cGAS-STING: interferon tachyphylaxis, ER stress and a pro-metastatic microenvironment; association in human TNBC",
+      "settingStated": "mouse and human TNBC association",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-KARRE",
+      "source": "pabs:3951539",
+      "rawFileSha256": "ed502e024e8ac557a39ff0402b6bdcfec20b8cc002c7cd05e06cfd5d07619975",
+      "textSha256": "ed502e024e8ac557a39ff0402b6bdcfec20b8cc002c7cd05e06cfd5d07619975",
+      "passageSha256": null,
+      "claimSupported": "H-2-loss lymphoma variants less malignant and rejected non-adaptively; NK cells suggested as effectors",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BRAUD",
+      "source": "pabs:9486650",
+      "rawFileSha256": "3d30a2dd414ec316106105c78031f3ef5d16ead84fa4a900261c4057134fe07d",
+      "textSha256": "3d30a2dd414ec316106105c78031f3ef5d16ead84fa4a900261c4057134fe07d",
+      "passageSha256": null,
+      "claimSupported": "HLA-E binds CD94/NKG2A,B,C and protects targets from CD94/NKG2A+ NK clones",
+      "settingStated": "human cells",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-BAUER",
+      "source": "pabs:10426993",
+      "rawFileSha256": "0590643d364efab8a45901ee99571d0d014ab0aaa074bca3abb48136b5b08cec",
+      "textSha256": "0590643d364efab8a45901ee99571d0d014ab0aaa074bca3abb48136b5b08cec",
+      "passageSha256": null,
+      "claimSupported": "NKG2D is the receptor for MICA; engagement activated gamma-delta and NK cytolysis against MICA-expressing tumour cells",
+      "settingStated": "human cells",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-LONG",
+      "source": "pabs:23516982",
+      "rawFileSha256": "e8288d1db28e21c5755ee7aa1c015e66523051540511a8bafcfc9f37b4dd5744",
+      "textSha256": "e8288d1db28e21c5755ee7aa1c015e66523051540511a8bafcfc9f37b4dd5744",
+      "passageSha256": null,
+      "claimSupported": "No single activation receptor dominates; synergistic signals are integrated; licensing",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-JUELKE",
+      "source": "pabs:19701893",
+      "rawFileSha256": "1f7c2ab8479bcf98a807873dab094065c0e8b9cd7601ccadd4c33eb3c29f164a",
+      "textSha256": "1f7c2ab8479bcf98a807873dab094065c0e8b9cd7601ccadd4c33eb3c29f164a",
+      "passageSha256": null,
+      "claimSupported": "Cytokines let hyporesponsive NK cells acquire KIR and function when the cognate MHC is present",
+      "settingStated": "human cells",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-ZAR",
+      "source": "pabs:27433843",
+      "rawFileSha256": "af824ab2d31e7e951938e5bed443b8f8f93c4daf4d910e8876a79985dc62099a",
+      "textSha256": "af824ab2d31e7e951938e5bed443b8f8f93c4daf4d910e8876a79985dc62099a",
+      "passageSha256": null,
+      "claimSupported": "B2M truncating mutation led to loss of surface MHC class I in one of four relapsing melanoma patients",
+      "settingStated": "human, n=4",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-RAB",
+      "source": "pabs:31525367",
+      "rawFileSha256": "be9c12cc2e79a2af4b8904f5b634786e9acc113fbbffe7fc034e5976ca59041c",
+      "textSha256": "be9c12cc2e79a2af4b8904f5b634786e9acc113fbbffe7fc034e5976ca59041c",
+      "passageSha256": null,
+      "claimSupported": "Flow-based assay separating target and effector nuclei, live and dead; validated with NK-92, CAR-T, TIL",
+      "settingStated": "methods paper",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-PARHAM",
+      "source": "pabs:15719024",
+      "rawFileSha256": "b67cb052c3768d118220d59101985301b5b39d8193c19cb25f322da31a5f3876",
+      "textSha256": "b67cb052c3768d118220d59101985301b5b39d8193c19cb25f322da31a5f3876",
+      "passageSha256": null,
+      "claimSupported": "MHC class I molecules are ligands for KIRs (allele split not in abstract)",
+      "settingStated": "review",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-DEAGLIO",
+      "source": "pabs:17502665",
+      "rawFileSha256": "d8fa3f9d5514fd2e3268e9226c6bd8bc3a1a43e812871000ebe920208a68f321",
+      "textSha256": "d8fa3f9d5514fd2e3268e9226c6bd8bc3a1a43e812871000ebe920208a68f321",
+      "passageSha256": null,
+      "claimSupported": "CD39/CD73 on Treg generate pericellular adenosine; Cd39-null Treg impaired suppression",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-SHRY",
+      "source": "pabs:2331011",
+      "rawFileSha256": "384bf44a730322ca2eb2a318dd4aa9afc9ebaafc2d803449af2cdb5430d7a9e3",
+      "textSha256": "384bf44a730322ca2eb2a318dd4aa9afc9ebaafc2d803449af2cdb5430d7a9e3",
+      "passageSha256": null,
+      "claimSupported": "Adenosine half-life 1 to 2 s in human blood; recovery 89 versus 7 per cent by stop-solution placement",
+      "settingStated": "human blood sampling method",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-KAWANO",
+      "source": "pabs:9374463",
+      "rawFileSha256": "b6aa6eb8dc058d8733bad09ae01c9b96f89266c457b989c47f902aa97ea069d6",
+      "textSha256": "b6aa6eb8dc058d8733bad09ae01c9b96f89266c457b989c47f902aa97ea069d6",
+      "passageSha256": null,
+      "claimSupported": "Valpha14 NKT cells recognise glycosylceramide in a CD1d-dependent, TCR-mediated way; share recognition systems with T or NK cells",
+      "settingStated": "mouse",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-KOCH",
+      "source": "pabs:16007090",
+      "rawFileSha256": "a978bc9b867abfa6ce91ee5cc1a53d1d97ec952572ce0361ae31b98e7180eb35",
+      "textSha256": "a978bc9b867abfa6ce91ee5cc1a53d1d97ec952572ce0361ae31b98e7180eb35",
+      "passageSha256": null,
+      "claimSupported": "Crystal structure of human CD1d with alpha-galactosylceramide: lipid tails fit the groove",
+      "settingStated": "structure",
+      "readingDepth": null,
+      "origin": "independent review (round 4), passage re-found in preserved raw this batch"
+    },
+    {
+      "id": "E-NICOLA",
+      "source": "PMID 7696967 (Nicola 1994, Stem Cells; no DOI in the record)",
+      "rawFileSha256": "4759f0f1316eb0d56c2cb21e43ab9595672f7a98a03d5c28fc212b3ea68db749",
+      "textSha256": "9c1d722a46343d1947ae85aef12a3487f9662928efa16dc18a49c6c07c0f6522",
+      "passageSha256": "40f958454361cfdbadbea17d93d9c1d26545b7b2a29f112ebc89d0ac957fb44b",
+      "claimSupported": "All cytokines show pleiotropy and redundancy; redundancy might be explained by shared receptor subunits; pleiotropy requires differential receptor activities on different cells",
+      "settingStated": "review of receptor biology",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-COSS-TIME",
+      "source": "PMID 31633216 (Cossarizza 2019)",
+      "rawFileSha256": "863bf40a01dfe344827ff1693eb563c23fb07f217233aa7cfa2245ee4eab2b28",
+      "textSha256": "863bf40a01dfe344827ff1693eb563c23fb07f217233aa7cfa2245ee4eab2b28",
+      "passageSha256": "5627a404848995186bd7a1593137f64b317c302fff9c7b4c3b4b2fba33fbf7cc",
+      "claimSupported": "ICS stimulation of 4 to 6 hours usually sufficient for IFN-gamma and TNF",
+      "settingStated": "guideline chapter",
+      "readingDepth": "full text (BioC, targeted passages)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-COSS-BFA",
+      "source": "PMID 31633216",
+      "rawFileSha256": "863bf40a01dfe344827ff1693eb563c23fb07f217233aa7cfa2245ee4eab2b28",
+      "textSha256": "863bf40a01dfe344827ff1693eb563c23fb07f217233aa7cfa2245ee4eab2b28",
+      "passageSha256": "ec6f2c12235b6aa02fe274cae0f2ce947b5a58a7b863412477cd8f220f2fccbe",
+      "claimSupported": "secretion block keeps cytokine inside the cell for staining",
+      "settingStated": "guideline chapter",
+      "readingDepth": "full text (BioC, targeted passages)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-COSS-CTRL",
+      "source": "PMID 31633216",
+      "rawFileSha256": "863bf40a01dfe344827ff1693eb563c23fb07f217233aa7cfa2245ee4eab2b28",
+      "textSha256": "863bf40a01dfe344827ff1693eb563c23fb07f217233aa7cfa2245ee4eab2b28",
+      "passageSha256": "7118ef709b689ac87ef7a3a85908eaa42279ddfafb6989b52ce71cba36419c3b",
+      "claimSupported": "negative and positive controls are essential",
+      "settingStated": "guideline chapter",
+      "readingDepth": "full text (BioC, targeted passages)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-DUNN",
+      "source": "PMID 15951814 (Dunn 2005)",
+      "rawFileSha256": "79732a142d27a8d6c32584c09e4edfa37fb80d956722a2687be8cd78ede905a8",
+      "textSha256": "47e3a62e7914cc11d85aef39961d6a90591547a6846ac2a4b952fd51f1ac3333",
+      "passageSha256": "b6bea8d3a6c278fe4111723b654eafd197f9ffe020b2339c8591f10acf63768a",
+      "claimSupported": "type I interferon needed to prevent growth of carcinogen-induced and transplanted tumours; host haematopoietic cells are the critical targets",
+      "settingStated": "mouse",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-BENCI",
+      "source": "PMID 27912061 (Benci 2016)",
+      "rawFileSha256": "962db92501cecc79cad83bccea7f6eba75dc8085a9d545f063b09eea29fbf77c",
+      "textSha256": "c6fbf7ef04f23a36817abb2eecf7103f6535e7f8db27b16a8ce6ceefaf3bef7c",
+      "passageSha256": "5965a1a4b9bf6bee84403450ed4d410503732cd90796630d4d02aa6779bd8f3d",
+      "claimSupported": "prolonged interferon signalling maintains a resistance programme to checkpoint blockade",
+      "settingStated": "experimental tumours (mouse) with patient-data association",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-DM-EARLY",
+      "source": "DailyMed Keytruda label",
+      "rawFileSha256": "700a24d8a2d90c42d8e63229f8c3ea13ee093919a4dc073b87393191394202c9",
+      "textSha256": "72bab20a6c070feb972d90446ab14146aa09289bf018453f89c9eba7d2faa520",
+      "passageSha256": "6fe4e523903736db3505b3c13e9ddf972493a07541f50c3232af4f2e37de4688",
+      "claimSupported": "early-stage TNBC indication has no PD-L1 qualifier in the label wording",
+      "settingStated": "regulatory label text (not a trial result)",
+      "readingDepth": "official label full text (DailyMed SPL XML, set id 9333c79b-d487-4538-a9f0-71b91a02b287, effective 2026-10-16, version 229)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-DM-CPS",
+      "source": "DailyMed Keytruda label",
+      "rawFileSha256": "700a24d8a2d90c42d8e63229f8c3ea13ee093919a4dc073b87393191394202c9",
+      "textSha256": "72bab20a6c070feb972d90446ab14146aa09289bf018453f89c9eba7d2faa520",
+      "passageSha256": "6bafc58fbeb17ca58a762df7538d86e3aef1c84061d7fb83481734a27940b1fc",
+      "claimSupported": "locally recurrent unresectable or metastatic TNBC indication with chemotherapy names PD-L1 CPS 10 or more",
+      "settingStated": "regulatory label text",
+      "readingDepth": "official label full text",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-DM-SG",
+      "source": "DailyMed Keytruda label",
+      "rawFileSha256": "700a24d8a2d90c42d8e63229f8c3ea13ee093919a4dc073b87393191394202c9",
+      "textSha256": "72bab20a6c070feb972d90446ab14146aa09289bf018453f89c9eba7d2faa520",
+      "passageSha256": "37c18f9867cdfddde1c3037706d39afa37bacb39b1d6d52e6ccf0462fb5aaf46",
+      "claimSupported": "sacituzumab govitecan combination indication names PD-L1 CPS 10 or more",
+      "settingStated": "regulatory label text",
+      "readingDepth": "official label full text",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-VANL",
+      "source": "PMID 22771139 (Van Laethem 2012)",
+      "rawFileSha256": "8184e359a461ca98e43539c62dce12e75e5cd085f84ebc42f649a8193875a95b",
+      "textSha256": "8184e359a461ca98e43539c62dce12e75e5cd085f84ebc42f649a8193875a95b",
+      "passageSha256": "dfce29065f887a8466f5d30c5695b020df9d4a2833279f95affc826503d2e5d1",
+      "claimSupported": "CD4 and CD8 are coreceptors that helped impose MHC specificity in thymic selection (mouse)",
+      "settingStated": "mouse",
+      "readingDepth": "full text (BioC)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-MARSH-PHAGO",
+      "source": "PMID 30263032 (Marshall 2018)",
+      "rawFileSha256": "f7234191930b8671d5bc088c8b9c0d87996f1e88871f449bf9c3853255462b88",
+      "textSha256": "bd5cce1d50b00b7648c122b97ae2f7c8f6387a78a6a347d6167d19d53eed6f5c",
+      "passageSha256": "25a89ff85378d3b81d23678567fadcc42368111d75a5b9b57715ed34c476c751",
+      "claimSupported": "neutrophils and macrophages engulf and kill microbes",
+      "settingStated": "overview review",
+      "readingDepth": "full text (PMC XML text), targeted passages",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-MARSH-NK",
+      "source": "PMID 30263032",
+      "rawFileSha256": "f7234191930b8671d5bc088c8b9c0d87996f1e88871f449bf9c3853255462b88",
+      "textSha256": "bd5cce1d50b00b7648c122b97ae2f7c8f6387a78a6a347d6167d19d53eed6f5c",
+      "passageSha256": "457b7c05e2cc243a2662aca110d214a9dc35770c233fdf547c221951d0cb4946",
+      "claimSupported": "NK cells reject tumours and destroy infected cells through perforins and granzymes",
+      "settingStated": "overview review",
+      "readingDepth": "full text (PMC XML text), targeted passages",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-LIU22",
+      "source": "PMID 35118176 (Liu W 2022, Bio-protocol)",
+      "rawFileSha256": "aca9662c9173266142ee09c58105875f23b8cc7b2232682e02b8ce064277f2d7",
+      "textSha256": "5145c8a9569f40f1f75aeeb27ad030eab8de77ebce7523b74c27ac51e9a2e7de",
+      "passageSha256": "2bb28a6ffdfcdd6cf3f8c301b3de3b3315a3b70069297f3a8e99e776b4f194ef",
+      "claimSupported": "NK cells use germline-coded receptors; CD16 is a low-affinity IgG Fc receptor mediating ADCC",
+      "settingStated": "protocol article, introduction statements",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-NEM-VDJ",
+      "source": "PMID 28368006 (Nemazee 2017)",
+      "rawFileSha256": "fdcb16e98c72b0d0716ccb364625c097ecb72b531c81bc5517af1d36984450a9",
+      "textSha256": "fdcb16e98c72b0d0716ccb364625c097ecb72b531c81bc5517af1d36984450a9",
+      "passageSha256": "e991a05a9fb3c0f6d784e2b9010bcd15390af1dd178f993c0efb4d1f1892e5de",
+      "claimSupported": "B-cell receptor genes are assembled by random V(D)J recombination generating diversity",
+      "settingStated": "review (mouse and human B cells)",
+      "readingDepth": "full text (BioC, targeted passages)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-NEM-CENTRAL",
+      "source": "PMID 28368006",
+      "rawFileSha256": "fdcb16e98c72b0d0716ccb364625c097ecb72b531c81bc5517af1d36984450a9",
+      "textSha256": "fdcb16e98c72b0d0716ccb364625c097ecb72b531c81bc5517af1d36984450a9",
+      "passageSha256": "ce8e9313b91881b5abe68dd38f72c760cf9e930c23d9851a593f78d14550ec26",
+      "claimSupported": "B-cell central tolerance at the immature stage by deletion and receptor editing",
+      "settingStated": "review",
+      "readingDepth": "abstract-level statement inside the full text (BioC)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-NEM-PERIPH",
+      "source": "PMID 28368006",
+      "rawFileSha256": "fdcb16e98c72b0d0716ccb364625c097ecb72b531c81bc5517af1d36984450a9",
+      "textSha256": "fdcb16e98c72b0d0716ccb364625c097ecb72b531c81bc5517af1d36984450a9",
+      "passageSha256": "20dea3f077e164bf1f519769cff7702775a4dc38a42168d463f8b11d02ded412",
+      "claimSupported": "peripheral B-cell mechanisms not fail-safe and mostly reversible",
+      "settingStated": "review",
+      "readingDepth": "full text (BioC, targeted passages)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-MED07",
+      "source": "PMID 17943118 (Medzhitov 2007)",
+      "rawFileSha256": "acc6a814a1163954affdd4864e2379cc58c66124249a1dd80e6af93bfa5872e7",
+      "textSha256": "32f7fe4c3b056674c013983e00ed0fe19c63e6e7c5dc23ae82090a049dfff1b3",
+      "passageSha256": "2325590cedb057067350aa379862f9a8731fe15fc6470387f5a8c41e040b86dd",
+      "claimSupported": "PRRs trigger antimicrobial defences and stimulate adaptive response; adaptive system activates innate effectors",
+      "settingStated": "review",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-COFF",
+      "source": "PMID 21029960 (Coffman 2010)",
+      "rawFileSha256": "e418a8803ac1874daeaffa6625110c1238e38dab6a9298e7aa766fee1d54cc27",
+      "textSha256": "e418a8803ac1874daeaffa6625110c1238e38dab6a9298e7aa766fee1d54cc27",
+      "passageSha256": "4bab2cf7adce4667837d604f4b3ba6d31dffbc942ca9f38aef164d9fb64fbf3d",
+      "claimSupported": "adjuvants act through innate immunity",
+      "settingStated": "review",
+      "readingDepth": "full text (BioC, targeted passages)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-SEER-LYMPH",
+      "source": "NCI SEER Training, Introduction to the Lymphatic System",
+      "rawFileSha256": "499ea6e9015afce0d8c7ac7c56f84fadb1c42cc9eb9d13ec56b88feeaf97384f",
+      "textSha256": "e73b4e2de26f7a1bf0de1dde477d1d5d6401942ed17cafdacc04f3d9e3592c72",
+      "passageSha256": "93c34523461f2c297f8d506250d8cb25019632d0a3bc562a95b80244089cc715",
+      "claimSupported": "lymph is interstitial fluid returned to venous blood",
+      "settingStated": "official NCI training text (definition level)",
+      "readingDepth": "page text",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-SCHUM",
+      "source": "PMID 34990248 (Schumacher and Thommen 2022)",
+      "rawFileSha256": "3b4c9c1e8d07b8dfc1ba08fa9323f41fbefa5fa429e53877f77ba0d06d949e89",
+      "textSha256": "0bb056eb7889da22812bf66b94128ddde77010e4232c8254c06a255c9f4f2feb",
+      "passageSha256": "a188b68a7e6330ca694fe84c170295f66b5ba8f195cc7cd8e95d4b88583a2163",
+      "claimSupported": "TLS are ectopic lymphoid aggregates formed in cancers",
+      "settingStated": "review",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-EIS-CDC2",
+      "source": "PMID 30464294 (Eisenbarth 2019)",
+      "rawFileSha256": "fbcdf138caf2699d4d6927ae500f995c3d3301b6f80a09e43ba18882f051c093",
+      "textSha256": "8865dc03fd9f4e8c908c84289de87c3cf88c25f0c298d6db12ab370d627f9351",
+      "passageSha256": "96b9cebd80075f4fc5eb152abff419f7af182ca1ea2cf3e3d3fe45baff9bc586",
+      "claimSupported": "cDC2 most often required for CD4 priming (mouse)",
+      "settingStated": "review, mostly mouse",
+      "readingDepth": "full text (PMC XML), targeted passages",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-EIS-TH1",
+      "source": "PMID 30464294",
+      "rawFileSha256": "fbcdf138caf2699d4d6927ae500f995c3d3301b6f80a09e43ba18882f051c093",
+      "textSha256": "8865dc03fd9f4e8c908c84289de87c3cf88c25f0c298d6db12ab370d627f9351",
+      "passageSha256": "56b99ea73db1450355a0034cc0d571b06c2b94254700312b083c3eeb946697bb",
+      "claimSupported": "Th1 differentiation is an exception where cDC1 are often required",
+      "settingStated": "review",
+      "readingDepth": "full text (PMC XML), targeted passages",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-EIS-OVERLAP",
+      "source": "PMID 30464294",
+      "rawFileSha256": "fbcdf138caf2699d4d6927ae500f995c3d3301b6f80a09e43ba18882f051c093",
+      "textSha256": "8865dc03fd9f4e8c908c84289de87c3cf88c25f0c298d6db12ab370d627f9351",
+      "passageSha256": "c731657179a6ef2de1f4232897ef66cce5e3de898b334c7b28840e19d9a45d53",
+      "claimSupported": "cDC2 identity overlaps monocyte-derived cells by marker",
+      "settingStated": "review",
+      "readingDepth": "full text (PMC XML), targeted passages",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-DUR-CDC2",
+      "source": "PMID 27760337 (Durai and Murphy 2016)",
+      "rawFileSha256": "815ef6bd1bcb8528de36adaf1b218c653ded0fa5c7a7c56ea31d0fbf9c17e3ed",
+      "textSha256": "651c214683dcacc019c4a0d1d653c3d9c65ff1c1dd9f575c8432b90b2e78dee0",
+      "passageSha256": "6f43381839882d9e68a63dff494535e63fff2b7276458202bdfafc58e55a414a",
+      "claimSupported": "cDC2 unique role in CD4 priming still to be confirmed",
+      "settingStated": "review, mouse models",
+      "readingDepth": "full text (BioC, targeted passages)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-BEND",
+      "source": "PMID 17150027 (Bendelac 2007)",
+      "rawFileSha256": "f5c4968934a398591f11c4660c7ee012d69647a2fdbbc60a723821cbb3a6d160",
+      "textSha256": "ee5971dc59aff9eacaf69658bfc39fe857f1117e1fad6741e6aa30d50db26c0e",
+      "passageSha256": "6818285b2fdca2b98ff681b63e03751b05d52ec028ab7c20839f6ed736d541ac",
+      "claimSupported": "NKT semi-invariant alpha-beta TCRs recognise CD1d-presented glycolipids",
+      "settingStated": "review",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-LIU20",
+      "source": "PMID 32023374 (Liu 2020)",
+      "rawFileSha256": "27ee0a25883fa10eb00ddb5f3b93e2e67917bdf6d5471980b1ed78d447cad7cb",
+      "textSha256": "90973687582dedd272a8768c66860cf344c841546f61dffb8d91cb3d04ee331b",
+      "passageSha256": "09d05bdd213f827d3d54c8785b291c555aadb1c5c1fbb4bd630a9f2cdfd958c5",
+      "claimSupported": "one phase 1 and 2 CAR-NK trial, 11 patients",
+      "settingStated": "phase 1 and 2 human trial",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-MAUDE",
+      "source": "PMID 29385370 (Maude 2018)",
+      "rawFileSha256": "2b36747601adfda5bbbe946316bb63b53546083d26ebf01d1fb0a667043f184e",
+      "textSha256": "fdb8e298d9c224ed23db89b2d4953916b5c8780e18c7bf3f91a83c53093364bb",
+      "passageSha256": "81d1f84b95d97ea1854f215eb0fea119c8842bafaad1bcaeafa6d7302f842008",
+      "claimSupported": "one phase 2 CAR-T trial, 75 evaluable, remission rate 81 per cent",
+      "settingStated": "phase 2 human trial",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-ALTER",
+      "source": "PMID 15604012 (Alter 2004)",
+      "rawFileSha256": "2c90594f0d23d6e1a9208fb1592e09d8bb5beabf9afa351aa5841e7cce5934ee",
+      "textSha256": "4679743fbd2ade4752a81210fc8d0e8d939c6c5be27778d890704df3f630f0e7",
+      "passageSha256": "f91d0c221541a5c4c3194405dc3955e850ac281fa36291b6b5d0a3613e432d2d",
+      "claimSupported": "CD107a marks degranulation; correlates with lysis; also on cells not secreting cytokine",
+      "settingStated": "human cells in vitro",
+      "readingDepth": "abstract (Europe PMC MED core record)",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-MAR25-MICB",
+      "source": "PMID 39748148 (Mariuzza 2025)",
+      "rawFileSha256": "d7a07737c6b20f46ec9a6eac3d727080c67491121e7f146e18a5292f700e23fd",
+      "textSha256": "d475a7fe902a2484c978fe68990fd6aa870cce85abad193d0207054a37fc90f1",
+      "passageSha256": "ef28a2707ffc0f0aec6c002fbcc8f625a2c4c9c753cc01ee4d2b64b7364162dc",
+      "claimSupported": "NKG2D ligands include MICA, MICB and ULBP1 to 3",
+      "settingStated": "review",
+      "readingDepth": "full text (PMC XML text), targeted passages",
+      "origin": "this batch"
+    },
+    {
+      "id": "E-FDA-LABEL-2021",
+      "source": "FDA label 125514s096 (2021)",
+      "rawFileSha256": "c7d97c87140ac0551eec117499319d13932bfb837cd6faf3bb522c3f5e8abd05",
+      "textSha256": "20d3906d6685d8dfb0c732d96b505da908b60838576a33d3f5cd46d1356ff39a",
+      "passageSha256": "e9b670a7214a53c0aff49c7ffae277d0a8485f4ee788ffa65d7afff221950369",
+      "claimSupported": "earlier (2021) label wording of the advanced indication, for date context",
+      "settingStated": "regulatory label text",
+      "readingDepth": "official label PDF text (accessdata.fda.gov, 125514s096)",
+      "origin": "this batch"
+    }
+  ],
+  "accessLimits": [
+    {
+      "source": "NCBI Bookshelf NBK27122 (Janeway sections 2-19, 2-20)",
+      "retestedThisBatch": true,
+      "result": "HTTP 200 with a 21,453 byte reCAPTCHA page; ?report=printable gave 21,553 bytes of the same; EPMC fullTextXML 500; efetch db=books 400; Europe PMC books page 403",
+      "handling": "not circumvented; not read"
+    },
+    {
+      "source": "NCBI Bookshelf NBK27174, NBK26846, NBK27092, NBK27090, NBK565844",
+      "retestedThisBatch": false,
+      "result": "prior packet recorded the same reCAPTCHA interstitial; the NBK27122 retest shows the block persists",
+      "handling": "remains access failure; no claim credited from them"
+    },
+    {
+      "source": "NCI Dictionary: lymph system",
+      "retestedThisBatch": false,
+      "result": "JavaScript shell in the prior packet",
+      "handling": "remains open"
+    },
+    {
+      "source": "PMC HTML after the second request",
+      "retestedThisBatch": true,
+      "result": "reCAPTCHA page (about 21.5 kB) for 7 further PMC pages; 429 from the BioC API on rapid repeat",
+      "handling": "switched to the BioC PMC OA API with delays; Mogensen 2009 remained unreadable beyond its abstract"
+    },
+    {
+      "source": "Ozaki and Leonard 2002 publisher page (jbc.org)",
+      "retestedThisBatch": true,
+      "result": "HTTP 403 for the article page; doi.org returned a 2.6 kB shell",
+      "handling": "identity only"
+    },
+    {
+      "source": "Europe PMC fullTextXML for non-open-access flagged PMC records",
+      "retestedThisBatch": true,
+      "result": "HTTP 500 for 9 of 16 requested records; used BioC or PMC HTML instead where possible",
+      "handling": "recorded per source"
+    },
+    {
+      "source": "NCBI Bookshelf NBK27122 (Janeway cytokines)",
+      "retestedThisBatch": true,
+      "result": "HTTP 200, reCAPTCHA challenge page (21,553 bytes for ?report=printable); Europe PMC fullTextXML for NBK27122 returned 500; Europe PMC search for the book id returned 0 hits",
+      "handling": "not circumvented; not read"
+    },
+    {
+      "source": "Zlotnik and Yoshie 2000, Immunity (PMID 10714678)",
+      "result": "cell.com returned 403 with a \"Just a moment\" challenge; ScienceDirect returned a captcha page; Europe PMC has no abstract",
+      "handling": "not circumvented; chemokine-as-cytokine-family claim stays unsourced"
+    },
+    {
+      "source": "Ozaki and Leonard 2002, J Biol Chem (PMID 12072446)",
+      "result": "doi.org redirected to a JavaScript \"Redirecting\" shell (13 bytes of text); Europe PMC has no abstract",
+      "handling": "not read; Nicola 1994 abstract used for the definitions instead"
+    },
+    {
+      "source": "NCI Dictionary of Cancer Terms (cytokine, chemokine, lymph system, lymph node, natural killer cell, dendritic cell)",
+      "result": "all six pages returned the same 29,258-byte JavaScript shell; the dictionary API rejected my query parameters (HTTP 400). The shell carries an unrelated banner sentence; it was treated as page data and not acted on",
+      "handling": "not read; NCI SEER Training lymphatic pages (static HTML) used for definition-level support"
+    },
+    {
+      "source": "Godfrey et al. 2004, Nat Rev Immunol (PMID 15039760)",
+      "result": "identity-resolved; no abstract and no accessible text",
+      "handling": "NKT marker-definition clauses stay unsourced"
+    },
+    {
+      "source": "FDA press-release URLs for the two pembrolizumab TNBC approvals",
+      "result": "URLs I guessed returned 404 (not taken from a search result); nothing was cited from them",
+      "handling": "official label text from DailyMed and accessdata.fda.gov used instead"
+    },
+    {
+      "source": "Europe PMC fullTextXML for author-manuscript PMC articles",
+      "result": "HTTP 500 for PMC5623591, PMC7755085, PMC4507498, PMC5145312, PMC3427466",
+      "handling": "NCBI BioC API or E-utilities efetch used (BioC returned 429 once and was retried after a pause)"
+    },
+    {
+      "source": "Gong et al. 2020 DAMP-sensing receptors (PMID 31558839), Takeuchi and Akira 2010, Sautes-Fridman 2019, Bendelac 2007 full texts",
+      "result": "abstract only in Europe PMC; no open full text retrieved",
+      "handling": "cited at abstract depth or not cited"
+    }
+  ],
+  "identityCorrection": "PMID 7636184 is the 1995 Sakaguchi original, DOI 10.4049/jimmunol.155.3.1151. The unrelated Europe PMC DOI is not adopted.",
+  "readingLimits": "Most papers are abstract-only or targeted-passage reads. Prior assessments are attributed and reused by identity, not described as new end-to-end reads. Live Elicit was not callable; frozen discovery is separate from claim verification. Failed XML/BioC and challenge bodies are not scientific evidence.",
+  "carriedOfficialSources": [
+    {
+      "source": "Keytruda US prescribing information (DailyMed set 9333c79b-d487-4538-a9f0-71b91a02b287)",
+      "effective": "2026-10-16",
+      "versionNumber": 229,
+      "retrievedFrom": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/9333c79b-d487-4538-a9f0-71b91a02b287.xml",
+      "rawSha256": "d9428c1af7f2c67836ce8112ed211a7669f3f4495d6d294c283ba3becab8b05e",
+      "resolvedVia": "DailyMed spls API search for drug_name=keytruda (set id taken from the API response)",
+      "role": "official regulatory label; wording of indications only, not trial evidence"
+    },
+    {
+      "source": "FDA label 125514s096 (2021 PDF)",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/125514s096lbl.pdf",
+      "rawSha256": "b437f510dbff474998922991b49d5163d7aeadb545dc58ad3d46dbf3858c114d",
+      "role": "dated label showing the advanced TNBC indication at accelerated approval (CPS 10 or more); the early-stage indication is not in this version"
+    },
+    {
+      "source": "NCI SEER Training: Introduction to the Lymphatic System",
+      "url": "https://training.seer.cancer.gov/anatomy/lymphatic/",
+      "rawSha256": "499ea6e9015afce0d8c7ac7c56f84fadb1c42cc9eb9d13ec56b88feeaf97384f",
+      "role": "official NCI training definition (not medical advice; the page says so)"
+    }
+  ]
+}

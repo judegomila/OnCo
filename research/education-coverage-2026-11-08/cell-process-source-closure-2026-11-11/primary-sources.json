@@ -1,0 +1,1511 @@
+{
+  "sources": [
+    {
+      "sourceId": "tsuboyama2016",
+      "pmid": "27885029",
+      "doi": "10.1126/science.aaf6136",
+      "pmcid": null,
+      "title": "The ATG conjugation systems are important for degradation of the inner autophagosomal membrane.",
+      "authors": [
+        "Tsuboyama K",
+        "Koyama-Honda I",
+        "Sakamaki Y",
+        "Koike M",
+        "Morishita H",
+        "Mizushima N"
+      ],
+      "publicationDateString": "2016",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/27885029/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary experiment",
+      "captureHashes": [
+        {
+          "sha256": "9b923fe68daf3977a61ba88fe5d4a96113b1d0eb28d871d57e22a82448d39f1c",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "sourceId": "itakura2012",
+      "pmid": "23217709",
+      "doi": "10.1016/j.cell.2012.11.001",
+      "pmcid": null,
+      "title": "The hairpin-type tail-anchored SNARE syntaxin 17 targets to autophagosomes for fusion with endosomes/lysosomes.",
+      "authors": [
+        "Itakura E",
+        "Kishi-Itakura C",
+        "Mizushima N"
+      ],
+      "publicationDateString": "2012",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/23217709/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary experiment",
+      "captureHashes": [
+        {
+          "sha256": "2887774f8968612cbc206696490ab50f1706f41a2fe72e4f2817aeee9a8fc9e8",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "sourceId": "nakamura2017",
+      "pmid": "28302910",
+      "doi": "10.1242/jcs.196352",
+      "pmcid": null,
+      "title": "New insights into autophagosome-lysosome fusion.",
+      "authors": [
+        "Nakamura S",
+        "Yoshimori T"
+      ],
+      "publicationDateString": "2017",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28302910/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "76117c43b4edd3d9491b044860c267a5e9dba65c85d0a0e5d1d2ee036acc1107",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "sourceId": "zhao2019",
+      "pmid": "30578282",
+      "doi": "10.1083/jcb.201810099",
+      "pmcid": "PMC6400552",
+      "title": "Autophagosome maturation: An epic journey from the ER to lysosomes.",
+      "authors": [
+        "Zhao YG",
+        "Zhang H"
+      ],
+      "publicationDateString": "2019",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/30578282/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "dad634f333d4507b285a2fd54337086b4676c4d7a49587bba922fe0e3707265e",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "atg22_2006",
+      "pmid": "17021250",
+      "doi": "10.1091/mbc.e06-06-0479",
+      "pmcid": "PMC1679675",
+      "title": "Atg22 recycles amino acids to link the degradative and recycling functions of autophagy.",
+      "authors": [
+        "Yang Z",
+        "Huang J",
+        "Geng J",
+        "Nair U",
+        "Klionsky DJ"
+      ],
+      "publicationDateString": "2006",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/17021250/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary experiment (yeast)",
+      "captureHashes": [
+        {
+          "sha256": "0b93cdef4c163039f30c67d7efaaa1967eade59e1ab19c8ed6508e669ed02d6f",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    {
+      "sourceId": "yu2010",
+      "pmid": "20526321",
+      "doi": "10.1038/nature09076",
+      "pmcid": "PMC2920749",
+      "title": "Termination of autophagy and reformation of lysosomes regulated by mTOR.",
+      "authors": [
+        "Yu L",
+        "McPhee CK",
+        "Zheng L",
+        "Mardones GA",
+        "Rong Y",
+        "Peng J",
+        "Mi N",
+        "Zhao Y",
+        "Liu Z",
+        "Wan F",
+        "Hailey DW",
+        "Oorschot V",
+        "Klumperman J",
+        "Baehrecke EH",
+        "Lenardo MJ"
+      ],
+      "publicationDateString": "2010",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/20526321/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary experiment",
+      "captureHashes": [
+        {
+          "sha256": "60c991c0b6dd2af72950a5f73a84620e46f7dd2b49e69248fa312e35c8f9d0b6",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, N.I.H., Intramural",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ]
+    },
+    {
+      "sourceId": "wright2018",
+      "pmid": "29599286",
+      "doi": "10.1074/jbc.TM118.000372",
+      "pmcid": "PMC6036207",
+      "title": "Homologous recombination and the repair of DNA double-strand breaks.",
+      "authors": [
+        "Wright WD",
+        "Shah SS",
+        "Heyer WD"
+      ],
+      "publicationDateString": "2018",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/29599286/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "ff620437c11e6782db3b7eb53da5e0aabb7e2c465a94187037263addbf32056d",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "hr_biochem2025",
+      "pmid": "40153609",
+      "doi": "10.1146/annurev-biochem-083024-113931",
+      "pmcid": "PMC12810152",
+      "title": "Biochemical Mechanisms of Genetic Recombination and DNA Repair.",
+      "authors": [
+        "Raina VB",
+        "Jessop A",
+        "Greene EC"
+      ],
+      "publicationDateString": "2025",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/40153609/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "7e89c0ed4d90cc6995c55b5a2367ab9612ce6934bb63c29cd674b1d628b71cda",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    {
+      "sourceId": "hr_search2024",
+      "pmid": "38323621",
+      "doi": "10.1042/BST20230705",
+      "pmcid": "PMC10903458",
+      "title": "All who wander are not lost: the search for homology during homologous recombination.",
+      "authors": [
+        "Hu J",
+        "Crickard JB"
+      ],
+      "publicationDateString": "2024",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/38323621/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "authoritative review (open)",
+      "captureHashes": [
+        {
+          "sha256": "3c960d16c973cd372e8b63f8e8dd9e3721b03f6702c2108d2b5225d105346a59",
+          "kind": "europepmc-core-record-with-abstract"
+        },
+        {
+          "sha256": "20df6197036fa2d6289dc09fad2ec3b30c306d619fc1595282e23ef54e538954",
+          "kind": "fulltext-xml"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    {
+      "sourceId": "hr_subpath2021",
+      "pmid": "34408777",
+      "doi": "10.3389/fgene.2021.723847",
+      "pmcid": "PMC8365153",
+      "title": "Homologous Recombination Subpathways: A Tangle to Resolve.",
+      "authors": [
+        "Elbakry A",
+        "Löbrich M"
+      ],
+      "publicationDateString": "2021",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/34408777/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "1ee76c7866fefdd33ffe0000f2cdf472652278ca6d211cbb4ca637a500d8fe50",
+          "kind": "europepmc-core-record-with-abstract"
+        },
+        {
+          "sha256": "d236681ae57f3ee7d83221d01c6b4388913bb4fe1011abf4c7e03ad06cb2e682",
+          "kind": "fulltext-xml"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "brand2011",
+      "pmid": "21726199",
+      "doi": "10.1042/BJ20110162",
+      "pmcid": "PMC3076726",
+      "title": "Assessing mitochondrial dysfunction in cells.",
+      "authors": [
+        "Brand MD",
+        "Nicholls DG"
+      ],
+      "publicationDateString": "2011",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/21726199/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "3ca6f33c4143d808a72754d7cceca1cdae6369ef148fba29480971331251665c",
+          "kind": "europepmc-core-record-with-abstract"
+        },
+        {
+          "sha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+          "kind": "fulltext-xml"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "jonckheere2012",
+      "pmid": "21874297",
+      "doi": "10.1007/s10545-011-9382-9",
+      "pmcid": "PMC3278611",
+      "title": "Mitochondrial ATP synthase: architecture, function and pathology.",
+      "authors": [
+        "Jonckheere AI",
+        "Smeitink JA",
+        "Rodenburg RJ"
+      ],
+      "publicationDateString": "2012",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/21874297/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "554925455e8e1e352b959b9900f1aa518b2ace91c682789604e932268d148f8d",
+          "kind": "europepmc-core-record-with-abstract"
+        },
+        {
+          "sha256": "b49a9d82bef48dadbba0bf1f91bb8b88702dcb6a5fe44441abe29fe1c057b6dc",
+          "kind": "fulltext-xml"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "shi1998_pek",
+      "pmid": "9819435",
+      "doi": "10.1128/MCB.18.12.7499",
+      "pmcid": "PMC109330",
+      "title": "Identification and characterization of pancreatic eukaryotic initiation factor 2 alpha-subunit kinase, PEK, involved in translational control.",
+      "authors": [
+        "Shi Y",
+        "Vattem KM",
+        "Sood R",
+        "An J",
+        "Liang J",
+        "Stramm L",
+        "Wek RC"
+      ],
+      "publicationDateString": "1998",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/9819435/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary experiment",
+      "captureHashes": [
+        {
+          "sha256": "69b82d0437be5f756f080f94eb71ef413c0b1ceeabd315b744a9854740aa8a4b",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ]
+    },
+    {
+      "sourceId": "harding1999_perk",
+      "pmid": "9930704",
+      "doi": "10.1038/16729",
+      "pmcid": null,
+      "title": "Protein translation and folding are coupled by an endoplasmic-reticulum-resident kinase.",
+      "authors": [
+        "Harding HP",
+        "Zhang Y",
+        "Ron D"
+      ],
+      "publicationDateString": "1999",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/9930704/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary experiment",
+      "captureHashes": [
+        {
+          "sha256": "0f4e3c9ea6b9a706b31cd54498e4eef8ee4336be12eb6979a6c3bd81484538ce",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ]
+    },
+    {
+      "sourceId": "pakos2016",
+      "pmid": "27629041",
+      "doi": "10.15252/embr.201642195",
+      "pmcid": "PMC5048378",
+      "title": "The integrated stress response.",
+      "authors": [
+        "Pakos-Zebrucka K",
+        "Koryga I",
+        "Mnich K",
+        "Ljujic M",
+        "Samali A",
+        "Gorman AM"
+      ],
+      "publicationDateString": "2016",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/27629041/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "8752d92f7519f90cf464abae1c0580583c3d5bc982266feb52ddf50ca2173919",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "sourceId": "deshaies2009",
+      "pmid": "19489725",
+      "doi": "10.1146/annurev.biochem.78.101807.093809",
+      "pmcid": null,
+      "title": "RING domain E3 ubiquitin ligases.",
+      "authors": [
+        "Deshaies RJ",
+        "Joazeiro CA"
+      ],
+      "publicationDateString": "2009",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/19489725/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "fc7b8c80e617e1d61d2bf5a170b9c33501250dc188af83e47daf040fa5bfa47c",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "zheng2017",
+      "pmid": "28375744",
+      "doi": "10.1146/annurev-biochem-060815-014922",
+      "pmcid": null,
+      "title": "Ubiquitin Ligases: Structure, Function, and Regulation.",
+      "authors": [
+        "Zheng N",
+        "Shabek N"
+      ],
+      "publicationDateString": "2017",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28375744/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "2530e659603e2a268bede0b3ef8a8c7e04fabdee6fe7560bcc5a8397929446d4",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "sourceId": "deconstructsigs2016",
+      "pmid": "26899170",
+      "doi": "10.1186/s13059-016-0893-4",
+      "pmcid": "PMC4762164",
+      "title": "DeconstructSigs: delineating mutational processes in single tumors distinguishes DNA repair deficiencies and patterns of carcinoma evolution.",
+      "authors": [
+        "Rosenthal R",
+        "McGranahan N",
+        "Herrero J",
+        "Taylor BS",
+        "Swanton C"
+      ],
+      "publicationDateString": "2016",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/26899170/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary methods (open)",
+      "captureHashes": [
+        {
+          "sha256": "a3f0a53600f05edd4366525b8fff2e97b6623efecd25958107c6d257eb03c2dd",
+          "kind": "europepmc-core-record-with-abstract"
+        },
+        {
+          "sha256": "b24815068349087c14845fd59b346680db3ebb110097cf58c6e4425afa76cdbb",
+          "kind": "fulltext-xml"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "sourceId": "huang2018",
+      "pmid": "29028923",
+      "doi": "10.1093/bioinformatics/btx604",
+      "pmcid": "PMC5860213",
+      "title": "Detecting presence of mutational signatures in cancer with confidence.",
+      "authors": [
+        "Huang X",
+        "Wojtowicz D",
+        "Przytycka TM"
+      ],
+      "publicationDateString": "2018",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/29028923/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary methods",
+      "captureHashes": [
+        {
+          "sha256": "bc1ddf178075a0c2623abe1ea3a2802b9fc1365d6216d58c7c2f7a0a7b3ce415",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "sourceId": "birkbak2012",
+      "pmid": "22576213",
+      "doi": "10.1158/2159-8290.CD-11-0206",
+      "pmcid": "PMC3806629",
+      "title": "Telomeric allelic imbalance indicates defective DNA repair and sensitivity to DNA-damaging agents.",
+      "authors": [
+        "Birkbak NJ",
+        "Wang ZC",
+        "Kim JY",
+        "Eklund AC",
+        "Li Q",
+        "Tian R",
+        "Bowman-Colin C",
+        "Li Y",
+        "Greene-Colozzi A",
+        "Iglehart JD",
+        "Tung N",
+        "Ryan PD",
+        "Garber JE",
+        "Silver DP",
+        "Szallasi Z",
+        "Richardson AL"
+      ],
+      "publicationDateString": "2012",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/22576213/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "primary experiment",
+      "captureHashes": [
+        {
+          "sha256": "9b5764f2f124dea1770e36f7e388acf2e8f88f4bd3eb660608a1f22b1f02654b",
+          "kind": "europepmc-core-record-with-abstract"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    },
+    {
+      "sourceId": "watkins2014",
+      "pmid": "25093514",
+      "doi": "10.1186/bcr3670",
+      "pmcid": "PMC4053155",
+      "title": "Genomic scars as biomarkers of homologous recombination deficiency and drug response in breast and ovarian cancers.",
+      "authors": [
+        "Watkins JA",
+        "Irshad S",
+        "Grigoriadis A",
+        "Tutt AN"
+      ],
+      "publicationDateString": "2014",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/25093514/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "562e1fb30f22887ed7590554120f782502fd3132b0a59496f7df98e51f9a6648",
+          "kind": "europepmc-core-record-with-abstract"
+        },
+        {
+          "sha256": "e9790e0c0b661cf2be37f561549f05380659f1e141c98df81ab2d031d097bfd6",
+          "kind": "fulltext-xml"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "yim2020",
+      "pmid": "32047650",
+      "doi": "10.1038/s41421-020-0141-7",
+      "pmcid": "PMC7010707",
+      "title": "Lysosome biology in autophagy.",
+      "authors": [
+        "Yim WW",
+        "Mizushima N"
+      ],
+      "publicationDateString": "2020",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/32047650/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "melia2020",
+      "pmid": "32357219",
+      "doi": "10.1083/jcb.202002085",
+      "pmcid": "PMC7265318",
+      "title": "Autophagosome biogenesis: From membrane growth to closure.",
+      "authors": [
+        "Melia TJ",
+        "Lystad AH",
+        "Simonsen A"
+      ],
+      "publicationDateString": "2020",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/32357219/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "15aba0cc1a689de15c4284bd595946c79b025627999923baf2e3a3835429c2f3",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "wyant2017",
+      "pmid": "29053970",
+      "doi": "10.1016/j.cell.2017.09.046",
+      "pmcid": "PMC5704964",
+      "title": "mTORC1 Activator SLC38A9 Is Required to Efflux Essential Amino Acids from Lysosomes and Use Protein as a Nutrient.",
+      "authors": [
+        "Wyant GA",
+        "Abu-Remaileh M",
+        "Wolfson RL",
+        "Chen WW",
+        "Freinkman E",
+        "Danai LV",
+        "Vander Heiden MG",
+        "Sabatini DM"
+      ],
+      "publicationDateString": "2017",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/29053970/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Primary experimental research; specific model and method retained.",
+      "captureHashes": [
+        {
+          "sha256": "2756899069b24673ce7738b9338acbeb9b20a1f4149ab210b72db99c10ed7a91",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article"
+      ]
+    },
+    {
+      "sourceId": "aburemaileh2017",
+      "pmid": "29074583",
+      "doi": "10.1126/science.aan6298",
+      "pmcid": "PMC5704967",
+      "title": "Lysosomal metabolomics reveals V-ATPase- and mTOR-dependent regulation of amino acid efflux from lysosomes.",
+      "authors": [
+        "Abu-Remaileh M",
+        "Wyant GA",
+        "Kim C",
+        "Laqtom NN",
+        "Abbasi M",
+        "Chan SH",
+        "Freinkman E",
+        "Sabatini DM"
+      ],
+      "publicationDateString": "2017",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/29074583/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Primary experimental research; specific model and method retained.",
+      "captureHashes": [
+        {
+          "sha256": "ad4543848f6da0b998b27d77d2dec527e440d9be657b96aaaddee3a8a28678cd",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ]
+    },
+    {
+      "sourceId": "shibata2020",
+      "pmid": "33294131",
+      "doi": "10.1016/j.csbj.2020.10.025",
+      "pmcid": "PMC7677664",
+      "title": "The intrinsic ability of double-stranded DNA to carry out D-loop and R-loop formation.",
+      "authors": [
+        "Shibata T",
+        "Iwasaki W",
+        "Hirota K"
+      ],
+      "publicationDateString": "2020",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/33294131/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "6b7b780e9e77a75280d0c0e854be9e432ed74227ee9483cb01a2661179198947",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "yang2020",
+      "pmid": "33057191",
+      "doi": "10.1038/s41586-020-2820-9",
+      "pmcid": "PMC8366275",
+      "title": "Mechanism of strand exchange from RecA-DNA synaptic and D-loop structures.",
+      "authors": [
+        "Yang H",
+        "Zhou C",
+        "Dhar A",
+        "Pavletich NP"
+      ],
+      "publicationDateString": "2020",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/33057191/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Primary experimental research; specific model and method retained.",
+      "captureHashes": [
+        {
+          "sha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    {
+      "sourceId": "krejci2012",
+      "pmid": "22467216",
+      "doi": "10.1093/nar/gks270",
+      "pmcid": "PMC3401455",
+      "title": "Homologous recombination and its regulation.",
+      "authors": [
+        "Krejci L",
+        "Altmannova V",
+        "Spirek M",
+        "Zhao X"
+      ],
+      "publicationDateString": "2012",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/22467216/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract plus targeted body paragraphs",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "530767a077eb8fae9249aef218ccefdbb3b91cf4b042c7e4db68fe396fcfcc76",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "korkmaz2026",
+      "pmid": "42592724",
+      "doi": "10.1002/bies.70173",
+      "pmcid": "PMC13470658",
+      "title": "Mechanisms That Govern Recombinase Fidelity Control During Eukaryotic Homologous Recombination.",
+      "authors": [
+        "Korkmaz I",
+        "Crickard JB"
+      ],
+      "publicationDateString": "2026",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/42592724/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Review; its cited experiments are not adopted as new direct results.",
+      "captureHashes": [
+        {
+          "sha256": "ce60d84a872024957259d0e50799666e836a7c2eee73ae8adfa70e139e9e3219",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Review"
+      ]
+    },
+    {
+      "sourceId": "jasin2000",
+      "pmid": "10880452",
+      "doi": "10.1093/emboj/19.13.3398",
+      "pmcid": "PMC313931",
+      "title": "Sister chromatid gene conversion is a prominent double-strand break repair pathway in mammalian cells.",
+      "authors": [
+        "Johnson RD",
+        "Jasin M"
+      ],
+      "publicationDateString": "2000",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/10880452/",
+      "identity": "Fresh PubMed article-level identifiers agree with resolved packet identity; newly linked sources also match Crossref.",
+      "readingDepth": "Complete raw abstract; any earlier body assessment is inherited at its separately recorded depth.",
+      "sourceTier": "Primary experimental research; specific model and method retained.",
+      "captureHashes": [
+        {
+          "sha256": "d5c53ba1555a7b9b568144bab3f68ec38ae4d460b4fb63684ba10014cfd4fa80",
+          "kind": "preserved source body"
+        }
+      ],
+      "publicationTypes": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, P.H.S."
+      ]
+    },
+    {
+      "sourceId": "jung2019",
+      "doi": "10.1186/s42649-019-0012-6",
+      "status": "Context-only EM review retained from worker packet; not read or adopted by coordinator."
+    }
+  ],
+  "freshAbstractsRead": 30,
+  "targetedBodiesRead": 9,
+  "wholePaperReadsClaimed": 0,
+  "targetedParagraphReceipts": [
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 0,
+      "passageSha256": "d5b0b52d8d80a7fc594f03ca5e67058b154c0565e07ce631caa6d6ac9c48a0dc",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "e22da4ecb921a1c15ed4f418d1001ef7ad199169e5d8d591df15e710f48a2d25",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 9,
+      "passageSha256": "df3faf887055ec08636e3e7a88b82e045e7e84c7f089eee25ab70962ddba6c12",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 10,
+      "passageSha256": "e2d260b0745be2168b1fe7a5006e2629dd9c8d3aac782f67952cbeb1dd60d8ab",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 11,
+      "passageSha256": "f286bd0432c2080e2a5c40319a0ca19d613a5fa52e019aaeff32a6566a7a8ed3",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 12,
+      "passageSha256": "3e8ac96df06f99e9fcf7d8e1cff897ca0fc5d098d00b4e619bd937c0cd0199c3",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yim2020",
+      "bodyParagraphIndex": 13,
+      "passageSha256": "777a55d8393a3621f6ce89834d7bba6b44859376111871d3ab1d292b925adc8f",
+      "captureSha256": "44f45df21dde5847861d6f0bbb9bcccd201eb714e7d1e7360925d9cb99ceb7e0",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "melia2020",
+      "bodyParagraphIndex": 34,
+      "passageSha256": "b851ae4eecca2ae82644b48305b7eddbe5e07fa8923768a5faba2478448d94b0",
+      "captureSha256": "15aba0cc1a689de15c4284bd595946c79b025627999923baf2e3a3835429c2f3",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "zhao2019",
+      "bodyParagraphIndex": 2,
+      "passageSha256": "a99ecc5361183a969f1679dfb5071a3b2c541ce3a259b91f070e46dd35d29fde",
+      "captureSha256": "dad634f333d4507b285a2fd54337086b4676c4d7a49587bba922fe0e3707265e",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "zhao2019",
+      "bodyParagraphIndex": 7,
+      "passageSha256": "8540a90dbeef0ae3cf60362b5031339a971f129743f9891abfd60900c4f4b63b",
+      "captureSha256": "dad634f333d4507b285a2fd54337086b4676c4d7a49587bba922fe0e3707265e",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "zhao2019",
+      "bodyParagraphIndex": 15,
+      "passageSha256": "2a2074f2bc346d74c5ff842b258d6fbdab894375f3066e332ff939a75b2eaba8",
+      "captureSha256": "dad634f333d4507b285a2fd54337086b4676c4d7a49587bba922fe0e3707265e",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "wyant2017",
+      "bodyParagraphIndex": 18,
+      "passageSha256": "e2d680f2d5db5811eee9f39387de6c7d55f0226fe25e7f4e8a4cccc75e8052d8",
+      "captureSha256": "2756899069b24673ce7738b9338acbeb9b20a1f4149ab210b72db99c10ed7a91",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "wyant2017",
+      "bodyParagraphIndex": 19,
+      "passageSha256": "82ae01fd832e5b6cbbe8a2ce5ab89f915a136be4ee3dc34396be05da3ed05c4a",
+      "captureSha256": "2756899069b24673ce7738b9338acbeb9b20a1f4149ab210b72db99c10ed7a91",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "wyant2017",
+      "bodyParagraphIndex": 20,
+      "passageSha256": "a037ea00b4dd34f0951659aed9b4f07ac203e9fa1efe81dfa171859eaf490b54",
+      "captureSha256": "2756899069b24673ce7738b9338acbeb9b20a1f4149ab210b72db99c10ed7a91",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "hr_biochem2025",
+      "bodyParagraphIndex": 6,
+      "passageSha256": "5f3ab25f84dd935051e0b720fd2550bdd1037a7987d6291c36bde56d8c1d39a9",
+      "captureSha256": "7e89c0ed4d90cc6995c55b5a2367ab9612ce6934bb63c29cd674b1d628b71cda",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "hr_biochem2025",
+      "bodyParagraphIndex": 33,
+      "passageSha256": "b0e25b977d0c834f32154fe34a97c87db3afd00128dae07ae3cf4c9d105b2de9",
+      "captureSha256": "7e89c0ed4d90cc6995c55b5a2367ab9612ce6934bb63c29cd674b1d628b71cda",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "hr_biochem2025",
+      "bodyParagraphIndex": 36,
+      "passageSha256": "849564ffba4b0dc6afd3d6ddb8aadeae3fc4950e88b2ba3513ecc863d7eba113",
+      "captureSha256": "7e89c0ed4d90cc6995c55b5a2367ab9612ce6934bb63c29cd674b1d628b71cda",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "krejci2012",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "2b5a059415d62e735a54d359b438eef8355d1b8d6d388a1e959e75f6912a1355",
+      "captureSha256": "530767a077eb8fae9249aef218ccefdbb3b91cf4b042c7e4db68fe396fcfcc76",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "krejci2012",
+      "bodyParagraphIndex": 2,
+      "passageSha256": "495f3060811b3a35e8baa0764bd55b4d3a4926c723e14ba2afad025c322a2705",
+      "captureSha256": "530767a077eb8fae9249aef218ccefdbb3b91cf4b042c7e4db68fe396fcfcc76",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "jonckheere2012",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "0dac85e7bd1ac9d531f9a202e3b97fb16e66cae627aa04c01f49fc8dbbddb4b3",
+      "captureSha256": "b49a9d82bef48dadbba0bf1f91bb8b88702dcb6a5fe44441abe29fe1c057b6dc",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "jonckheere2012",
+      "bodyParagraphIndex": 6,
+      "passageSha256": "1e1557bbeec5e870a2780efc15b9d75bb4e3695ddfd8daa0cc4340a1f8351192",
+      "captureSha256": "b49a9d82bef48dadbba0bf1f91bb8b88702dcb6a5fe44441abe29fe1c057b6dc",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 4,
+      "passageSha256": "e4f0611be280841bfd7349bb433a3a4b3852fdcc9027bb9df9e443ca0d623b3a",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 5,
+      "passageSha256": "61b398b7099a566eb9c5c33e828ad3d91775f7e75e2b3f6181b1262a94817d6e",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 6,
+      "passageSha256": "d1e2b5ef4bbfc10f6e9da5b4a120e31fb1a6a154d24583fa9a2d61d34529496e",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "brand2011",
+      "bodyParagraphIndex": 8,
+      "passageSha256": "09fcd392713a52373c16c6b9fc052e18ff89fde0d3d0a57aaa438091f82866e6",
+      "captureSha256": "17ebf32cec0a3f5b7b34011118d8c5cf8924477285e3a606f12722053a84bfeb",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 0,
+      "passageSha256": "beaa10399eee491b4482c608e33c38f41e5a6abec4968830fbaffc4538d76622",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 1,
+      "passageSha256": "ac238302ccb232be36a9ac98c2ef5b995f1ecb2656d175b5676892abb1fb3616",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 14,
+      "passageSha256": "435275116acbe236f210b4a9b734dc9a49c73d3d8d848d934805bffae7946751",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 16,
+      "passageSha256": "543688ab7f7ae017b78e6c660dc23f571d38c8d56fd3217e66c8a58706c54fa8",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    },
+    {
+      "sourceId": "yang2020",
+      "bodyParagraphIndex": 25,
+      "passageSha256": "396167132cb8761d5153171b9a1aab22433fbde7e1893a2239ccebe04d2ac72a",
+      "captureSha256": "f36eeef7f2da6f20b459735226ff52a95ff7deee1df0bd744dd65cb1a2c05086",
+      "depth": "Complete selected body paragraph, including surrounding qualifications; no whole-paper claim"
+    }
+  ],
+  "freshPubmedCaptureSha256": "faa97b6209a1685af89f6689d2c57297320437c26347b0dea85404f2452e285d",
+  "crossrefChecks": [
+    {
+      "pmid": "10880452",
+      "doi": "10.1093/emboj/19.13.3398",
+      "titleMatches": true,
+      "sha256": "75f530d8184a9d7bca4b8209831c30ea17f159bb4b96009df1f7bcd7e79ee24d",
+      "sourceURL": "https://api.crossref.org/works/10.1093%2Femboj%2F19.13.3398",
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            7,
+            3
+          ]
+        ]
+      },
+      "publishedOnline": {
+        "date-parts": [
+          [
+            2000,
+            7,
+            3
+          ]
+        ]
+      },
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2000,
+            7,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "17021250",
+      "doi": "10.1091/mbc.e06-06-0479",
+      "titleMatches": true,
+      "sha256": "fb852a11f874fc53519251e691fe875afd56bf4e4a381eebb9aacfbd47070b7c",
+      "sourceURL": "https://api.crossref.org/works/10.1091%2Fmbc.e06-06-0479",
+      "published": {
+        "date-parts": [
+          [
+            2006,
+            12
+          ]
+        ]
+      },
+      "publishedOnline": null,
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2006,
+            12
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "21726199",
+      "doi": "10.1042/BJ20110162",
+      "titleMatches": true,
+      "sha256": "3ac7d486c52fd29c71d49857a3f89d99dcc08f80201b2af0e62da6403aca4a25",
+      "sourceURL": "https://api.crossref.org/works/10.1042%2FBJ20110162",
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            29
+          ]
+        ]
+      },
+      "publishedOnline": {
+        "date-parts": [
+          [
+            2011,
+            3,
+            29
+          ]
+        ]
+      },
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2011,
+            4,
+            15
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "21874297",
+      "doi": "10.1007/s10545-011-9382-9",
+      "titleMatches": true,
+      "sha256": "ab8d2714135a1d702fc6174e920216138371472afb8f5d9adcb60a7b0378d34a",
+      "sourceURL": "https://api.crossref.org/works/10.1007%2Fs10545-011-9382-9",
+      "published": {
+        "date-parts": [
+          [
+            2011,
+            8,
+            27
+          ]
+        ]
+      },
+      "publishedOnline": {
+        "date-parts": [
+          [
+            2011,
+            8,
+            27
+          ]
+        ]
+      },
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2012,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "22467216",
+      "doi": "10.1093/nar/gks270",
+      "titleMatches": true,
+      "sha256": "8e6fd75aa2de0b0667ec3d3b8ae122778c848f437d149e8851934ec5c08cdc38",
+      "sourceURL": "https://api.crossref.org/works/10.1093%2Fnar%2Fgks270",
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            3,
+            30
+          ]
+        ]
+      },
+      "publishedOnline": {
+        "date-parts": [
+          [
+            2012,
+            3,
+            30
+          ]
+        ]
+      },
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2012,
+            7,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "23217709",
+      "doi": "10.1016/j.cell.2012.11.001",
+      "titleMatches": true,
+      "sha256": "f37ec0dd6b1caebbc3d84bca3eeb291aa8469a24034f2d7dbf8f69ac86506341",
+      "sourceURL": "https://api.crossref.org/works/10.1016%2Fj.cell.2012.11.001",
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            12
+          ]
+        ]
+      },
+      "publishedOnline": null,
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2012,
+            12
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "27885029",
+      "doi": "10.1126/science.aaf6136",
+      "titleMatches": true,
+      "sha256": "09b53c0b15fa48bbbb39db90de36478669e5b3622a3479931530d5e2f95bd2cd",
+      "sourceURL": "https://api.crossref.org/works/10.1126%2Fscience.aaf6136",
+      "published": {
+        "date-parts": [
+          [
+            2016,
+            11,
+            25
+          ]
+        ]
+      },
+      "publishedOnline": null,
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2016,
+            11,
+            25
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "29053970",
+      "doi": "10.1016/j.cell.2017.09.046",
+      "titleMatches": true,
+      "sha256": "79cddfc48705c7cddd2db705ab3fc8a45c5dc01d55c2fa1a33ae46bddbbf050f",
+      "sourceURL": "https://api.crossref.org/works/10.1016%2Fj.cell.2017.09.046",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            10
+          ]
+        ]
+      },
+      "publishedOnline": null,
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2017,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "29074583",
+      "doi": "10.1126/science.aan6298",
+      "titleMatches": true,
+      "sha256": "5942f8ddf3cdb43335d89dad314b4cc11d5a760e7503a7b65fbc5a470491aa6a",
+      "sourceURL": "https://api.crossref.org/works/10.1126%2Fscience.aan6298",
+      "published": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            10
+          ]
+        ]
+      },
+      "publishedOnline": null,
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2017,
+            11,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "30578282",
+      "doi": "10.1083/jcb.201810099",
+      "titleMatches": true,
+      "sha256": "0a10bef0bd2da84deb9551394aacf2dfb4204dc91b7d359e5e78458a9b66c54f",
+      "sourceURL": "https://api.crossref.org/works/10.1083%2Fjcb.201810099",
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            21
+          ]
+        ]
+      },
+      "publishedOnline": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            21
+          ]
+        ]
+      },
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2019,
+            3,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "32047650",
+      "doi": "10.1038/s41421-020-0141-7",
+      "titleMatches": true,
+      "sha256": "b9feab85259a4917f414e19f06a6dc88ecb7046acac88c8c659c2786fbc40b2b",
+      "sourceURL": "https://api.crossref.org/works/10.1038%2Fs41421-020-0141-7",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            11
+          ]
+        ]
+      },
+      "publishedOnline": {
+        "date-parts": [
+          [
+            2020,
+            2,
+            11
+          ]
+        ]
+      },
+      "publishedPrint": null
+    },
+    {
+      "pmid": "33057191",
+      "doi": "10.1038/s41586-020-2820-9",
+      "titleMatches": true,
+      "sha256": "ea21e0e1c37f2a5ba6d1b953dd60d9253aecfabb2f91dd022acf07cd8576248d",
+      "sourceURL": "https://api.crossref.org/works/10.1038%2Fs41586-020-2820-9",
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            14
+          ]
+        ]
+      },
+      "publishedOnline": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            14
+          ]
+        ]
+      },
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2020,
+            10,
+            29
+          ]
+        ]
+      }
+    },
+    {
+      "pmid": "40153609",
+      "doi": "10.1146/annurev-biochem-083024-113931",
+      "titleMatches": true,
+      "sha256": "3813c543d8d0f119514e1ef72123b36c833d28d375c6c51284da2aaea0073f0f",
+      "sourceURL": "https://api.crossref.org/works/10.1146%2Fannurev-biochem-083024-113931",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      },
+      "publishedOnline": null,
+      "publishedPrint": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            20
+          ]
+        ]
+      }
+    }
+  ],
+  "accessLimits": [
+    "Two PMC HTML fetches returned reCAPTCHA and a PubMed web fetch returned a stub. Ordinary PubMed E-utilities supplied fresh records; preserved open full-text captures were hash-checked before targeted reading.",
+    "No Elicit tool was callable in the source workers; no new Elicit output is claimed."
+  ],
+  "claimSupportFromIdentityAlone": false
+}

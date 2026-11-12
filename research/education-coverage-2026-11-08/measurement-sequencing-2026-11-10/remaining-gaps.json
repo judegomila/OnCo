@@ -1,0 +1,113 @@
+{
+  "assignedLessonLearningRequirementsOpen": 0,
+  "sourceCorrections": "Three original assertions are corrected rather than adopted: typical HLA regional frequency, the shared HLA cytoband and frequency wording, and the superseded current TMB criterion. Original assertions remain explicit in the requirement proofs.",
+  "adjacentOpenIds": [
+    "measurement-adjacent-literature",
+    "measurement-rna-inferred-copy-state",
+    "measurement-tmb-context-residuals"
+  ],
+  "readingLimits": {
+    "status": "assessment-complete-with-explicit-residuals",
+    "unassessedAssignedPages": 0,
+    "unproposedSupportableRequirements": 0,
+    "withheldRequirements": [
+      {
+        "page": "hla-loh",
+        "pageTitle": "HLA loss of heterozygosity",
+        "proposedCanonicalOwner": "sequencing-basics/proposed:hla-loh",
+        "requirement": "Region by region a tumour region typically had all three loci lost or none (page wording).",
+        "unitsOrInterpretiveLimit": "Only partly supported: the PCR validation chose regions predicted all-loci or no-loci, so the claim is a selection property, not an observed frequency.",
+        "evidenceKind": "primary-verified-fulltext",
+        "primarySourceKeys": [
+          "PMC5720478"
+        ],
+        "figure": null,
+        "versionHandling": "present in both versions; section signatures for the teaching sections of this requirement unchanged (later version differences are navigation metadata and cross-links only, see source-reading.json)",
+        "status": "withheld-source-overstatement",
+        "priorId": "hla-loh.all-or-none-regions",
+        "id": "r1.hla-loh.all-or-none-regions",
+        "sourceAnchors": {
+          "original": [
+            {
+              "sectionOrdinal": 3,
+              "sectionHeading": "## How it works",
+              "passage": "In 90 non-small-cell lung cancers, the LOHHLA method found HLA LOH in 36 (40%); in the tumors examined region by region, a region typically had either all three loci lost or none ([McGranahan 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5720478/)). Breast-cancer frequencies need their own studies.",
+              "passageSha256": "e98f6157e07b0ea5ae0f506e3e7840c8865ffc497b8edc0f0c6c49cc50f7ea8b"
+            },
+            {
+              "sectionOrdinal": 3,
+              "sectionHeading": "## How it works",
+              "passage": "A loss may occur in only one tumor population. Normal cells and other malignant populations can retain the allele and contribute reads. Thus a weak or indeterminate call is not proof of retention. Likewise, a call from one sampled region does not map every lesion.",
+              "passageSha256": "314e6ccc6ad6fd20c22db2a853ee9304561823941731a67322a216bf6eb4dfe3"
+            },
+            {
+              "sectionOrdinal": 7,
+              "sectionHeading": "## Try it",
+              "passage": "**Answer:** Both groups, because B\\*Y travelled on the same lost haplotype as A\\*X. Peptides predicted to bind the retained paternal alleles are not challenged by this finding, but retention alone does not prove they are displayed; that needs presentation evidence.",
+              "passageSha256": "14b515fa98b05224e1b98216690c8ec74ebde99ad90a01c0de72cff5ca8e2fed"
+            }
+          ],
+          "later": [
+            {
+              "sectionOrdinal": 3,
+              "sectionHeading": "## How it works",
+              "passage": "In 90 non-small-cell lung cancers, the LOHHLA method found HLA LOH in 36 (40%); in the tumors examined region by region, a region typically had either all three loci lost or none ([McGranahan 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5720478/)). Breast-cancer frequencies need their own studies.",
+              "passageSha256": "e98f6157e07b0ea5ae0f506e3e7840c8865ffc497b8edc0f0c6c49cc50f7ea8b"
+            },
+            {
+              "sectionOrdinal": 3,
+              "sectionHeading": "## How it works",
+              "passage": "A loss may occur in only one tumor population. Normal cells and other malignant populations can retain the allele and contribute reads. Thus a weak or indeterminate call is not proof of retention. Likewise, a call from one sampled region does not map every lesion.",
+              "passageSha256": "314e6ccc6ad6fd20c22db2a853ee9304561823941731a67322a216bf6eb4dfe3"
+            },
+            {
+              "sectionOrdinal": 7,
+              "sectionHeading": "## Try it",
+              "passage": "**Answer:** Both groups, because B\\*Y travelled on the same lost haplotype as A\\*X. Peptides predicted to bind the retained paternal alleles are not challenged by this finding, but retention alone does not prove they are displayed; that needs presentation evidence.",
+              "passageSha256": "14b515fa98b05224e1b98216690c8ec74ebde99ad90a01c0de72cff5ca8e2fed"
+            }
+          ]
+        },
+        "disposition": "withheld-source-overstatement",
+        "reason": "Full-text validation regions were selected for all-loci/no-loci states; this cannot establish regional frequency.",
+        "ownerId": "hla-loh",
+        "authoredNote": "Region by region a tumour region typically had all three loci lost or none (page wording).",
+        "fieldProofs": []
+      }
+    ],
+    "residuals": [
+      {
+        "id": "hla-regional-frequency",
+        "status": "withheld-source-overstatement",
+        "sourceRequirement": "r1.hla-loh.all-or-none-regions",
+        "reason": "Validation regions selected to have all loci lost or none cannot establish a typical regional frequency. LOHHLA 36/90 NSCLC frequency remains scoped and supported.",
+        "fieldDisposition": "No regional-frequency statement authored; future claim needs an appropriate unselected regional analysis."
+      },
+      {
+        "id": "figure-dark-vaf-colors",
+        "status": "known-source-figure-limitation",
+        "reason": "Independent dark raster uses different V color and decorative legend colors. Scientific values match; rely on letter/numeric labels, not cross-theme color identity.",
+        "fieldDisposition": "Teaching notes use denominators and numbers; source image is not imported into public Git."
+      },
+      {
+        "id": "source-figure-legibility",
+        "status": "known-source-render-limitation",
+        "reason": "Dark outlines/hatching/leader contrast and unlabeled concepts require the retained captions/tables. Standalone source SVGs were reviewed in Chrome only; no mobile or multi-browser claim."
+      },
+      {
+        "id": "coordinator-integration",
+        "status": "integration-pending",
+        "reason": "Seven new subjects remain unregistered and four patches are not applied to coordinator-owned records. No proposed patch receives integrated credit."
+      },
+      {
+        "id": "full-gates",
+        "status": "coordinator-only",
+        "reason": "Full suites/build, production reader verification and deployment were expressly excluded."
+      }
+    ],
+    "sourceAccessLimits": "Failed access routes and accessible primary alternatives are listed in primary-sources.json. No unread full text is claimed.",
+    "newSchemaNeeded": false
+  },
+  "figureLimits": "Recorded legibility notes and independent raster variants remain; no artwork, browser-layout or accessibility certification.",
+  "releaseLimits": "Draft contribution only; no merge, deployment, named expert or new language sign-off. The pre-existing Next GRAPH_JSON route-export limitation is outside this data-only batch."
+}

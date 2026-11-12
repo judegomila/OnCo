@@ -1,0 +1,32 @@
+[
+  {
+    "file": "elicit-rank-6-med.json",
+    "queryURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.sabcs19-p4-06-13%22+AND+SRC%3AMED&format=json&resultType=core",
+    "hitCount": 0
+  },
+  {
+    "file": "elicit-rank-8-med.json",
+    "queryURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.SABCS14-P2-04-07%22+AND+SRC%3AMED&format=json&resultType=core",
+    "hitCount": 0
+  },
+  {
+    "file": "prospective-rank-1-med.json",
+    "queryURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2Fjco.2023.41.16_suppl.3011%22+AND+SRC%3AMED&format=json&resultType=core",
+    "hitCount": 0
+  },
+  {
+    "file": "prospective-rank-4-med.json",
+    "queryURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1158%2F1538-7445.sabcs22-ot3-27-01%22+AND+SRC%3AMED&format=json&resultType=core",
+    "hitCount": 0
+  },
+  {
+    "file": "prospective-rank-5-med.json",
+    "queryURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1200%2Fjco.2023.41.16_suppl.528%22+AND+SRC%3AMED&format=json&resultType=core",
+    "hitCount": 0
+  },
+  {
+    "file": "prospective-rank-6-med.json",
+    "queryURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1055%2Fa-2373-8257%22+AND+SRC%3AMED&format=json&resultType=core",
+    "hitCount": 0
+  }
+]

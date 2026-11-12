@@ -1,0 +1,3840 @@
+{
+  "freezeReceipt": {
+    "frozenAtUtc": "2026-11-12T16:37:38.835342+00:00",
+    "baseHead": "21a9d0348c28ea9a6aab392af8e08bbfcee479d3",
+    "inventorySha256": "a5397847eaf531b03477800ce4acf6f4501bc1ab8290abcfaf5aac596c660b19",
+    "rows": 142,
+    "substantive": 127,
+    "originalVersions": 3,
+    "originalSubstantive": 71,
+    "laterVersions": 5,
+    "laterSubstantive": 127,
+    "nonCredit": 15,
+    "sourceVersions": 8,
+    "sourceSectionSignatures": 98,
+    "sourceFigureFiles": 8,
+    "mermaidRenders": 6,
+    "order": "Five later bodies, three complete original/later diffs, all eight source themes and all six Mermaid renders read before fresh canonical-owner comparison. Three original teaching bodies are reused by exact section identity; two later-only source paths/basenames are absent at the original pin."
+  },
+  "erratum": {
+    "id": "scope-erratum-1",
+    "checkedAtUtc": "2026-11-12T16:38:27.660908+00:00",
+    "frozenInventorySha256": "a5397847eaf531b03477800ce4acf6f4501bc1ab8290abcfaf5aac596c660b19",
+    "requirementId": "P-024",
+    "beforeKind": "substantive",
+    "afterKind": "source-scope",
+    "reason": "The row concerns source dates and authoring/review custody, not distinct scientific teaching. It overlaps the lesson source-scope row and earns no scientific coverage credit. Corrected before any fresh canonical-owner field inspection. Original frozen bytes remain untouched.",
+    "denominatorDelta": {
+      "original": -1,
+      "later": -1
+    },
+    "correctedCounts": {
+      "rows": 142,
+      "substantive": 126,
+      "originalSubstantive": 70,
+      "laterSubstantive": 126,
+      "nonCredit": 16
+    }
+  },
+  "counts": {
+    "sourceFirstRows": 142,
+    "originallyCodedSubstantive": 127,
+    "assessedSubstantiveUnique": 126,
+    "substantiveUnique": 126,
+    "originalRequirements": 70,
+    "laterRequirements": 126,
+    "representedOriginal": 70,
+    "representedLater": 126,
+    "nonCreditRows": 16,
+    "rootRepresentedRequirements": 126,
+    "peerProposalRequirements": 0,
+    "exactReferences": 179,
+    "uniqueAnchors": 46,
+    "partialUnique": 0
+  },
+  "assessedProjection": [
+    {
+      "id": "B-001",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Define a BRCA reversion as a secondary restoring change in a previously altered tumour gene; assess function and drug resistance without assuming every putative reversion guarantees either.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 27,
+          "passageSha256": "0913821a172c3192ec8c6a71a845c87eab94eacfe686e69cca46e337ae64c37d"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-002",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Retain the missing-letter/restoring-edit analogy and its reading-frame limit, without attributing purpose to cells.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "The intuition",
+          "lineStart": 29,
+          "lineEnd": 31,
+          "passageSha256": "e95e5f105320114cdc377f75395606399fc272098e41eed185ba02aaef4a71fa"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-003",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Explain selection of restoring populations under treatment while keeping pre-existing versus newly arising mutations and their timing separate.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "The intuition",
+          "lineStart": 31,
+          "lineEnd": 46,
+          "passageSha256": "10685454bb4ad83d5c650564ca6b146eefcba76880db63f880c38b6d9200b4c6"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-004",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Assess loss of the remaining working BRCA copy and the HR-deficient platinum/PARP rationale; inherited variation alone does not establish biallelic functional loss or drug response.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "7f107f7676380d34c9dbc6eeb3426297a319c28a6e50eade4b469ada4c95b0ab"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-005",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Assess exact sequence reversion as one route and the source claim that it is uncommon at the reviewed catalogue scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 41,
+          "passageSha256": "5eb4249097c67703868ea1677acb938f82d681531960c2dc142db559cc7c93f8"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-006",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Carry the secondary insertion/deletion route and how its net sequence effect can restore the reading frame.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "00ac5da04f24d3f11fd1bea4f9b75722b64a4baef9101c64b50be584d65f729c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-007",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Assess deletion-mediated restoration, the relevant net-frame rule and the reported under-100-base deletion scope, correcting an unqualified multiple-of-three deletion shortcut.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "6a97fda60d49c01b67b89704147aaa427c893705d916a96c3cab06b55148cba2"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-008",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify the BRCA1 splice-site/exon-skipping route in the named ovarian cancers and models, including shorter-protein function and scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "a49fdc1664a6186a68c4bd033f21fdf5b2bb67c2d27810b5e5f8066747fe1a28"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-009",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Different disease sites can carry different restoring changes and multiple reversions can coexist; detection is sampling-dependent.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "8f7bf7ab2055a7823a167eb9318577baef257b0f49653d4728e626d2aded0e72"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-010",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify the two named 2008 reports: restoring secondary BRCA2 changes, tested platinum/PARP resistance and recurrent ovarian specimens, without an unsupported exhaustive first-in-history claim.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "e700c063d608e50d5d433a4901097c0dd559aca6b9e66a612c17e8b0fbdc1c4c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-011",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Assess microhomology flanking reversion deletions as an end-joining-associated pattern, without treating a junction pattern as proof of one repair enzyme or mechanism.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it works",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "e700c063d608e50d5d433a4901097c0dd559aca6b9e66a612c17e8b0fbdc1c4c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-012",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify Lin 2019 baseline reversions 2/11 platinum-refractory, 5/38 resistant and 1/48 sensitive ovarian groups and their actual pre-rucaparib test scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How often reversions are found",
+          "lineStart": 54,
+          "lineEnd": 56,
+          "passageSha256": "55e07531abd86bdf7fd3d5e3f8d96c216b3ebbf1cebf0412c3fc0c3e8d775774"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-013",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify the Tobalina published-case meta-analysis denominator 327, 86/26% reversions and stated cancer composition, keeping selection/publication scope rather than a general incidence estimate.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How often reversions are found",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "cc9a2af84697bf7ef10e58c3fcb759cd469f712ffa42c5b3dde4e5d20875e0de"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-014",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify Pettitt catalogue size and deletion-size statements, retaining whether observations are variants, cases or patients.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Sources and scope",
+          "lineStart": 114,
+          "lineEnd": 114,
+          "passageSha256": "6eff09392fd8f65a352f930a14e9cb219fe60fdb469f26f0088acaa4174c475a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-015",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify Weigelt 2017 ovarian 19 and breast 5 denominators, ovarian 21% and breast 2/5 findings, with polyclonal and pretreated blood-test scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How often reversions are found",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "041d9b8816bfb39f2de479905c4e8c547d4f6314632c58d5b36103931067d9c1"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-016",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify Waks 2020 eight resistant metastatic BRCA-mutant breast cancers and four reversions, including sampling and treatment context.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How often reversions are found",
+          "lineStart": 59,
+          "lineEnd": 59,
+          "passageSha256": "686efd3dd290abc73d6d740d0632a2899a6afe0a4542f7f2919fd9b387152d26"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-017",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify Lin progression-free survival 9.0 versus 1.8 months and HR0.12, with direction, population, detection and observational qualification.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How often reversions are found",
+          "lineStart": 61,
+          "lineEnd": 61,
+          "passageSha256": "937b2b6e078c512ef94d24b3ebac074a25a15c18dc012f402722a87776cdc27f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-018",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Carry reversion-related cross-resistance as a treatment/mechanism-specific explanation rather than a guarantee for every tumour, drug or patient.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Why it matters in cancer",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "08e9f5c0ad01c017e57f487b87d5a5a59027bfa026482327d3606c6ad8885221"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-019",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Verify the two Waks non-reversion repair-restoration mechanisms, loss of 53BP1 and increased MRE11A, without upgrading expected function to an independently measured universal rule.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Why it matters in cancer",
+          "lineStart": 66,
+          "lineEnd": 66,
+          "passageSha256": "c5abe846da8139f99f1c5950eacd145d4bbd691591c19a90c2fc22fad75c868b"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-020",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Assess persistent genomic scars alongside restored repair and Waks RAD51 foci in reversion cases, with the cohort, assay and present-function limits.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Why it matters in cancer",
+          "lineStart": 67,
+          "lineEnd": 67,
+          "passageSha256": "397c1b16a5af6fb61ee080fb62f61500d2deae3f6cbc9712729f14ce9f17e68f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-021",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Retain the proposed end-joining/POLtheta prevention direction as a research hypothesis, not an established resistance-delaying treatment.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Why it matters in cancer",
+          "lineStart": 68,
+          "lineEnd": 68,
+          "passageSha256": "82f3d0dccb9ed61cc951af583fbbae8104e6dde89245ae1d00d9ffadb3b9a16a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-022",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Distinguish tumour-acquired restoration from the inherited germline variant and the mixed DNA present in a blood specimen.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Common confusions",
+          "lineStart": 72,
+          "lineEnd": 72,
+          "passageSha256": "fe82c03278e2812bfc758976a5d15f428c4c8ccda0de4cb308e0d588e3654d37"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-023",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "A secondary restoring event does not imply that the original variant call was false.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Common confusions",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "763c65adcf0ea7a81c44d37bb5d5297fa950dcf49daefd8e73d76a60cc50fef0"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-024",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "One tissue biopsy can miss other sites; plasma may detect several clones but is also limited by shedding and assay coverage.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Common confusions",
+          "lineStart": 74,
+          "lineEnd": 74,
+          "passageSha256": "7a48cb844f85fabd73438ec19c6f75b67bab18f7feab046132f1e4025383fc34"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-025",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Restored function need not mean a completely normal or full-length protein; sequence restoration and functional proof differ.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Common confusions",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "c94fa47c3db541bdd0067a0faf50aa84238084dbb9ae07280d48a86e49bc6ee7"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-026",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Carry tissue versus ctDNA sequencing, coverage around the original change, deletion/splicing detection and hotspot-panel failure modes without promising complete detection from a category of test.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it is measured",
+          "lineStart": 77,
+          "lineEnd": 79,
+          "passageSha256": "1007399e885dd3baa5866e078892efd461b45936a5320a26d0a3d8e6ae8426b5"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-027",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "A RAD51-foci assay asks a distinct present-repair question, with its experimental/assay conditions rather than replacing all genetic and clinical evidence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "How it is measured",
+          "lineStart": 79,
+          "lineEnd": 79,
+          "passageSha256": "0b3c3d2200c1443af99250cad9d6e550cd1279df5a6215d2757c5d358145cc1c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-028",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "Recompute the fictional two-base plus one-base deletion and two-plus-six comparison; restored frame is a candidate functional reversion, not sufficient protein/function/resistance proof.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Try it",
+          "lineStart": 81,
+          "lineEnd": 87,
+          "passageSha256": "481183c0cb2c576c05a3e81385fce3599e7c5677994198ed740f1210a4e082a6"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "B-029",
+      "lesson": "brca-reversion-mutations",
+      "kind": "substantive",
+      "requirement": "The fictional scar-score and functional-test interpretation must keep historical damage, current repair and missing observed measurements separate.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Try it",
+          "lineStart": 83,
+          "lineEnd": 87,
+          "passageSha256": "2e315f686e09e167b23897def30e184425d0bab805807a76a1203d6d910580cc"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-001",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Define a composite HRD score and preserve assay, scale, cutoff, treatment and population dependence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "In one sentence",
+          "lineStart": 24,
+          "lineEnd": 26,
+          "passageSha256": "6acf85eac7901d5ec50f23fbe26a7cc3b0a16e34a76e5a1b864fc3b7b14760fc"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-002",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Carry the history-compression and different-scale analogy without endorsing the source’s unsupported universal claim about credit-bureau cutoffs.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "The intuition",
+          "lineStart": 28,
+          "lineEnd": 30,
+          "passageSha256": "2f2337c4d8bd0934f15fb2538ebd5c822344327ac916d865fa5cd4400029d68a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-003",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Connect HR repair deficiency to accumulated chromosome patterns without making every scar specific to one present defect.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 32,
+          "lineEnd": 34,
+          "passageSha256": "aae3aa0bd2e936f1cb7b4b640b68982764f9d21df1d168ed5e85a162bfd7b2f4"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-004",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify the LOH counting rule, region length and whole-chromosome exclusions and correct loss-of-a-parental-copy shorthand where copy-neutral LOH is possible.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 36,
+          "lineEnd": 38,
+          "passageSha256": "db78634e262e11c0d97f87e0075fb5311e6422fe1a56710aa93f0ed2d2f4618f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-005",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify the TAI counting rule and any centromere-crossing/extent qualifications in the named scoring method.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "9401fde2addf78a8e368f26e57e2d5b26a560fb9ceeef0030fdbeeb6afe3f7a4"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-006",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify the LST segment-size and filtering rule rather than adopting a truncated ten-megabase definition.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 40,
+          "lineEnd": 40,
+          "passageSha256": "d3ef12241c38b9c57f5efa5e686353cceb3c6cffbb252c20495597f84b046088"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-007",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify the unweighted sum and Telli application across the actual three platinum-treated TNBC trials/cohorts.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 42,
+          "lineEnd": 42,
+          "passageSha256": "4bd0b47a74dfa863db2d983560fb1a8a1e34b6f597dd2f11ef475ae54a209590"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-008",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify the training origin of cutoff42 as a fifth-percentile/approximately95%-capture rule among BRCA-deficient breast/ovarian tumours, not a directly optimised response cutoff.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "8899ad9a033d213cfed97268060bf9596712a52f309a69166b290898d5d9c1a9"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-009",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Keep the score-or-BRCA alteration definition at its stated assay/study scope, including what qualifies as a BRCA-deficient or mutated case.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "8899ad9a033d213cfed97268060bf9596712a52f309a69166b290898d5d9c1a9"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-010",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify historical PRIMA commercial GIS42 and BRCA-positive criteria, keeping historical trial definition separate from current indication wording.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "32a8ee0e6891c08190de17bf8c62ea5507e7f6baefa4ccecdaf2030652c5e06c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-011",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify ARIEL2 genomic-LOH percentage and prespecified14% threshold at that trial scope, without equating it to the composite sum or every later cutoff.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "32a8ee0e6891c08190de17bf8c62ea5507e7f6baefa4ccecdaf2030652c5e06c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-012",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify HRDetect as a sequence/signature-based probability rather than the same count or percentage.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it works",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "32a8ee0e6891c08190de17bf8c62ea5507e7f6baefa4ccecdaf2030652c5e06c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-013",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify Telli odds ratios4.96 and10.18 with their actual cohorts and minimal-residual-disease RCB0/I outcome.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "What the cutoff has and has not predicted",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "96ad431ca0e9317ae92521aa2c274be9d64c1185d0795c089e0a45abf444745a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-014",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify GeparSixto193 and33.9/63.5 versus20.0/29.6 pCR percentages and interactionP.33, keeping association and evidence for differential carboplatin benefit distinct.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "What the cutoff has and has not predicted",
+          "lineStart": 55,
+          "lineEnd": 55,
+          "passageSha256": "f442592f912d909c9391753f70649382e36585d4ad6a66b0624cb10dea274738"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-015",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify TNT376, the actual advanced-disease population, high-score non-selection and germline-BRCA response68%/33% with their drug comparator.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "What the cutoff has and has not predicted",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "b94076e796cadfe7216492b245f8eb8e1cbab1712affba2adc9c17590ef8b8a8"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-016",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify PAOLA-1 population806, ovarian combination/comparator, HRD-positive HR.33 and exploratory negative HR1.00 with its interval and endpoint; nonsignificance does not prove zero benefit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "What the cutoff has and has not predicted",
+          "lineStart": 57,
+          "lineEnd": 57,
+          "passageSha256": "75ea078421d1ac867fe1f2d4f1a1cd6a1327629500c25d6abc92eb6b02fa65d0"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-017",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify PRIMA733, HRD-positive HR.43 and overall-population result at the original PFS analysis, without making it a current unqualified treatment indication.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "What the cutoff has and has not predicted",
+          "lineStart": 58,
+          "lineEnd": 58,
+          "passageSha256": "4b21c15f5b6e3453c7f0f9fcc601e2fb0d9d242d193365945e94c27415a2613c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-018",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Explain response association versus a treatment-by-biomarker comparison; the score does not establish extra drug benefit merely by correlating with outcome.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "What the cutoff has and has not predicted",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "adf37bc70e08839b2ef48079d3c6d30c745a689008f6a4b9215abb39fb2ff9fb"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-019",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Do not transfer one assay/cutoff/drug/cancer result to another without appropriate validation.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "What the cutoff has and has not predicted",
+          "lineStart": 60,
+          "lineEnd": 60,
+          "passageSha256": "adf37bc70e08839b2ef48079d3c6d30c745a689008f6a4b9215abb39fb2ff9fb"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-020",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify the dated/current U.S. ovarian olaparib-plus-bevacizumab HRD indication versus early-breast germline-BRCA indication and other setting conditions.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Why it matters in cancer",
+          "lineStart": 64,
+          "lineEnd": 64,
+          "passageSha256": "b5a68c1f881fe140283322a778da413869a11ce265cb68dcde1a309f8121838d"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-021",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "A named companion-test result and the complete indication criteria cannot be replaced by an arbitrary high number or tumour-only BRCA result.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Why it matters in cancer",
+          "lineStart": 64,
+          "lineEnd": 65,
+          "passageSha256": "8874198940645be119ffa4ccd34d4073f4d1c5af42464710c95c5d4b76b0d3f7"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-022",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Two laboratories’ scores with the same number need not share a scale, calibration or cutoff.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Common confusions",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "62b6ce4e7e70f219dbab4a7c67d84413090890d9f5eb8f3ee02a8c975005cb77"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-023",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Assess persistent scar scores after BRCA reversion or loss of53BP1 without claiming that either alteration always restores repair.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Common confusions",
+          "lineStart": 70,
+          "lineEnd": 70,
+          "passageSha256": "cd81251c4e612965e05f62e02d5a068a87fcd5219e2f29878824a29d4f18a319"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-024",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Distinguish training-set sensitivity from prediction of drug response; below42 can occur in a BRCA-deficient training population and score/mutation definitions matter.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Common confusions",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "a23f5fc1da43742de40e2f09bb514ac6179af543d4d6533d8a9e09e9c24594c2"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-025",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Verify measurement from tumour DNA, allele balance/copy number, segmentation, purity/ploidy and low-input/degraded-specimen failure modes at the read method scope.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 75,
+          "passageSha256": "627fbcd33e2444a1e7b663c02b299b71773cecd005c43f033ed92cda6ad2eafe"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-026",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "RAD51 foci ask a different present-repair question; a chromosome-history score is not a current functional assay.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "How it is measured",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "8b5c831b28fd8394d67ea27b6f393bd26beb0aaee1a3ca2d186152377a6390b2"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "C-027",
+      "lesson": "composite-hrd-scores",
+      "kind": "substantive",
+      "requirement": "Carry the entire fictional laboratoryX48 versus laboratoryY42 exercise, including scale mismatch and response association versus extra carboplatin benefit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Try it",
+          "lineStart": 77,
+          "lineEnd": 83,
+          "passageSha256": "0a4fb0abdc79349e3d28809b81e9a784d12a4ffa35d40153a9fe9ed2050641c0"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-001",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Define resistance as reduced effect in a specified cancer population, treatment and setting, rather than a single permanent mechanism.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "In one sentence",
+          "lineStart": 22,
+          "lineEnd": 24,
+          "passageSha256": "6300b070245c6d5037511ee1f973e8dca889791f87dc6fa3b57689218d266ec0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "In one sentence",
+          "lineStart": 22,
+          "lineEnd": 24,
+          "passageSha256": "6300b070245c6d5037511ee1f973e8dca889791f87dc6fa3b57689218d266ec0"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-002",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Carry the garden selection analogy, its limitation and coexistence of sequence, cell-state, environmental and exposure explanations.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "The intuition",
+          "lineStart": 26,
+          "lineEnd": 30,
+          "passageSha256": "e9c209424c7cddc98e669e9b159d56aeae3f4b520954b800815e3487919973ba"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "The intuition",
+          "lineStart": 26,
+          "lineEnd": 30,
+          "passageSha256": "e9c209424c7cddc98e669e9b159d56aeae3f4b520954b800815e3487919973ba"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-003",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Intrinsic versus acquired resistance are timing descriptions; a rare pre-existing population may become more detectable later.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 34,
+          "lineEnd": 34,
+          "passageSha256": "7b7bd7137a6d8591330bba25054f40f618ebaca9948235357558e83782349539"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 34,
+          "lineEnd": 34,
+          "passageSha256": "7b7bd7137a6d8591330bba25054f40f618ebaca9948235357558e83782349539"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-004",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Selection changes relative survival/growth; later variant detection alone does not establish time of origin, treatment induction or causality.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 36,
+          "lineEnd": 36,
+          "passageSha256": "6eeb64cf28eac9be0c33bb3a018a40e2097713e256423753dd0567286780a80a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 36,
+          "lineEnd": 36,
+          "passageSha256": "6eeb64cf28eac9be0c33bb3a018a40e2097713e256423753dd0567286780a80a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-005",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "A target can change, disappear or become inaccessible; its resistance relevance depends on the treatment’s requirements.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-006",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Alternative signalling can bypass a blocked route; proposed mechanism must fit the actual drug and context.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-007",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Altered drug handling, including efflux, is distinct from a change in the target.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-008",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Death-avoidance and stromal effects on exposure/survival can coexist with genetic mechanisms.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 38,
+          "lineEnd": 38,
+          "passageSha256": "a4384c7acd81c039ee7a5ed54eab6a1122ff9dd223389acc740dec55778dfb9f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-009",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Verify Sharma reversible drug-tolerant states in defined human cancer-cell models, including resensitisation after withdrawal, without a personal treatment-break inference.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 40,
+          "lineEnd": 40,
+          "passageSha256": "887f0079b2edd4ed881e7c698d4884fe1d3b8618f3faecbf1f60935d989b232e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 40,
+          "lineEnd": 40,
+          "passageSha256": "887f0079b2edd4ed881e7c698d4884fe1d3b8618f3faecbf1f60935d989b232e"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-010",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Different sites and populations can carry multiple mechanisms; one later sample need not explain every lesion.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Why it matters in cancer",
+          "lineStart": 52,
+          "lineEnd": 54,
+          "passageSha256": "8566f58bad3f000da1c25229ee95b53c1e6eb4e95d425b16dd05ab3520880f96"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 52,
+          "lineEnd": 54,
+          "passageSha256": "8566f58bad3f000da1c25229ee95b53c1e6eb4e95d425b16dd05ab3520880f96"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-011",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Cross-resistance requires evidence for the actual drugs and mechanism, not a universal inference from sharing a class.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Why it matters in cancer",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "5adc1efd5e63be9707726d9efc998e81313db651bc586134cce87c72fda89186"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 54,
+          "lineEnd": 54,
+          "passageSha256": "5adc1efd5e63be9707726d9efc998e81313db651bc586134cce87c72fda89186"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-012",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "A combination rationale needs useful exposure and tolerable harm while addressing the measured failure; a pathway diagram alone does not establish clinical rescue.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Why it matters in cancer",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "32024737092eff0660444652c366c4de85681baf919059a0dd38b78a659c56d0"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Why it matters in cancer",
+          "lineStart": 56,
+          "lineEnd": 56,
+          "passageSha256": "32024737092eff0660444652c366c4de85681baf919059a0dd38b78a659c56d0"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-013",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Recompute the full fictional990-sensitive/10-resistant example,90% removal of sensitive cells,99+10=109 and1% to approximately9.2% while resistant count stays10.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Worked example",
+          "lineStart": 58,
+          "lineEnd": 62,
+          "passageSha256": "e52a976fd00f71e9fdce6305eed015313bcecf7f9f8753d4b849f3368e7b3cb4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Worked example",
+          "lineStart": 58,
+          "lineEnd": 62,
+          "passageSha256": "e52a976fd00f71e9fdce6305eed015313bcecf7f9f8753d4b849f3368e7b3cb4"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-014",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Read both themes’ count-versus-fraction figure with its common0–1000 count axis, separate0–10% axis and no-division/state-change assumptions; it does not establish new mutation or clinical effect.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Worked example",
+          "lineStart": 64,
+          "lineEnd": 67,
+          "passageSha256": "3e42a32d38a79ed7bac9db8f27e37b16ac714f13aed0695a221b000ee1b2cd9b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Worked example",
+          "lineStart": 64,
+          "lineEnd": 67,
+          "passageSha256": "3e42a32d38a79ed7bac9db8f27e37b16ac714f13aed0695a221b000ee1b2cd9b"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-015",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Carry all steps of the resistance-investigation Mermaid: check exposure/assay/sample, investigate mechanisms, compare earlier samples/controlled models and test treatment-specific cause/limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it works",
+          "lineStart": 42,
+          "lineEnd": 50,
+          "passageSha256": "ea2c2036e2128593fb37626565ef72a64ffbe174e9617b583a8b66f843f310b8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it works",
+          "lineStart": 42,
+          "lineEnd": 50,
+          "passageSha256": "ea2c2036e2128593fb37626565ef72a64ffbe174e9617b583a8b66f843f310b8"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-016",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Clinical response assessments and mechanistic research are distinct; compare exposure, engagement, pathway activity and response in suitable models.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it is measured",
+          "lineStart": 69,
+          "lineEnd": 71,
+          "passageSha256": "5997ea05e702d8e599833afe1dc4871665e763afe5d6032e27817e20022a0562"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it is measured",
+          "lineStart": 69,
+          "lineEnd": 71,
+          "passageSha256": "5997ea05e702d8e599833afe1dc4871665e763afe5d6032e27817e20022a0562"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-017",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Drug removal/re-exposure tests reversibility and genetic perturbation/rescue can test function, with matched controls and specificity limits.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "e9210b4fb3318adef33123509f8084b954efbbfc0002a3db9f4f4a3c9a24d437"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "e9210b4fb3318adef33123509f8084b954efbbfc0002a3db9f4f4a3c9a24d437"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-018",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Culture tests do not reproduce every tissue, immune, exposure and human-safety condition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "e9210b4fb3318adef33123509f8084b954efbbfc0002a3db9f4f4a3c9a24d437"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "e9210b4fb3318adef33123509f8084b954efbbfc0002a3db9f4f4a3c9a24d437"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-019",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Retain the four explicit confusions: detection/origin, fraction/count, tolerance/genetic permanence and failure-to-respond/proven escape mechanism.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Common confusions",
+          "lineStart": 75,
+          "lineEnd": 80,
+          "passageSha256": "223ddc0403d22c2a5fc7a5ed80da97a388fc4904946c7951b4d53bba7f5a4b00"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Common confusions",
+          "lineStart": 75,
+          "lineEnd": 80,
+          "passageSha256": "223ddc0403d22c2a5fc7a5ed80da97a388fc4904946c7951b4d53bba7f5a4b00"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "R-020",
+      "lesson": "drug-resistance",
+      "kind": "substantive",
+      "requirement": "Carry the full fictional later-variant/insufficient-earlier-coverage exercise: assess comparison and detection limit, then test causality; timing, origin and mechanism remain separate.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Try it",
+          "lineStart": 82,
+          "lineEnd": 86,
+          "passageSha256": "4ba80de782bdc70cc1c5dffa8756a367508bc7376c3a76a99386bf479cc9a9ef"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Try it",
+          "lineStart": 82,
+          "lineEnd": 86,
+          "passageSha256": "4ba80de782bdc70cc1c5dffa8756a367508bc7376c3a76a99386bf479cc9a9ef"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-001",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Define DNA-damage-response inhibitors broadly and retain target and current repair-state dependence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "In one sentence",
+          "lineStart": 22,
+          "lineEnd": 24,
+          "passageSha256": "af7efa460535d7f54aa9c35eb143bf2e81fa6bcb154e84221d624589e7d1d3aa"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "In one sentence",
+          "lineStart": 22,
+          "lineEnd": 24,
+          "passageSha256": "af7efa460535d7f54aa9c35eb143bf2e81fa6bcb154e84221d624589e7d1d3aa"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-002",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Carry the workshop pause/stabilisation/repair analogy while keeping the network overlapping rather than a single crew or a rigid two-sensors/two-pauses taxonomy.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "The intuition",
+          "lineStart": 26,
+          "lineEnd": 28,
+          "passageSha256": "68a7e2d29d99d37865d3f58211d9c0d172fc09adad96016cf9fea5066175e070"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "The intuition",
+          "lineStart": 26,
+          "lineEnd": 28,
+          "passageSha256": "68a7e2d29d99d37865d3f58211d9c0d172fc09adad96016cf9fea5066175e070"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-003",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Explain DNA, replication stress and slowing/stalling copying machinery without equating every stress signal to a double-strand break.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "66973ba890541d285cc1b0d8ffa9408e33bdd5fefdfc28afd2daaa580e52aaba"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "66973ba890541d285cc1b0d8ffa9408e33bdd5fefdfc28afd2daaa580e52aaba"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-004",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify ATM-associated break signalling/p53-G1 roles and model ATR sensitivity after defined ATM/p53 deficiency; a sequence change alone is not functional loss.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "7baf1d0eec9dbd34f8a527250122494630b13de4273f1b52e84e65e3b610f7f8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 43,
+          "lineEnd": 43,
+          "passageSha256": "7baf1d0eec9dbd34f8a527250122494630b13de4273f1b52e84e65e3b610f7f8"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-005",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify ATR-associated stalled-fork stress signalling and CHK1 activation, keeping other sensing machinery and target dependence implicit rather than claiming a standalone direct sensor.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "ce1c5dfd4d10fe80313e8fd649a989082e4532fe4af8318b378b212314ca906f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 44,
+          "lineEnd": 44,
+          "passageSha256": "ce1c5dfd4d10fe80313e8fd649a989082e4532fe4af8318b378b212314ca906f"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-006",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify CHK1 checkpoint signalling and the source’s G2/M rationale without claiming this is its only cellular role.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "3b0d9a237ccba39f02eeeee1bca9cad6d82d3d47b80f63fc092adc9e47f1ce12"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "3b0d9a237ccba39f02eeeee1bca9cad6d82d3d47b80f63fc092adc9e47f1ce12"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-007",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify the BRCA-wild-type advanced-TNBC prexasertib pilot:9participants,1partial response and8grade3/4neutropenia, with actual endpoint/exposure scope.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "3b0d9a237ccba39f02eeeee1bca9cad6d82d3d47b80f63fc092adc9e47f1ce12"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 45,
+          "passageSha256": "3b0d9a237ccba39f02eeeee1bca9cad6d82d3d47b80f63fc092adc9e47f1ce12"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-008",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify WEE1 inhibitory phosphorylation of CDK1 and the named p53-deficient combination models; TP53 mutation does not itself validate a clinical selection rule.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "ab7801454bf044083e2f360cd440e83102aec6d70b5e6912856cf675c794be2b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 46,
+          "lineEnd": 46,
+          "passageSha256": "ab7801454bf044083e2f360cd440e83102aec6d70b5e6912856cf675c794be2b"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-009",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify DNA-PK’s classical end-joining role and distinguish combination/radiation rationale from established selective tumour benefit or normal-tissue safety.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "036456f4094b0f76e8584657d114db13a507b4e48de204d2b9ea10ab30c3e30b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 47,
+          "lineEnd": 47,
+          "passageSha256": "036456f4094b0f76e8584657d114db13a507b4e48de204d2b9ea10ab30c3e30b"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-010",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify POLQ/POLtheta and short-match theta-mediated end joining, with selected HR-deficient dependency rather than every resistant tumour.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "f65687984fe1c59446fb352f4a9ca6899c23ed487d6bc26b09e7f5c59cbb64c8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 48,
+          "lineEnd": 48,
+          "passageSha256": "f65687984fe1c59446fb352f4a9ca6899c23ed487d6bc26b09e7f5c59cbb64c8"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-011",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Read both complete three-panel DDR cartoons: ATR stress signal, WEE1 inhibitory phosphate and POLtheta short-match joining; bars and DNA strokes are schematic, not doses or a complete literal network.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 32,
+          "lineEnd": 35,
+          "passageSha256": "504770378501369501de44ed29f07360bcabf1e2b58ca6f0ebfe753c42c0d819"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 32,
+          "lineEnd": 35,
+          "passageSha256": "504770378501369501de44ed29f07360bcabf1e2b58ca6f0ebfe753c42c0d819"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-012",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Carry the full checkpoint Mermaid while qualifying the edge that assumes any TP53 mutation loses the first checkpoint and creates a clinically useful second-checkpoint dependency.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 50,
+          "lineEnd": 61,
+          "passageSha256": "408bbe9a4f4ba40557337084965937c8f27ec2b03ea101de3381d128f1652762"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 50,
+          "lineEnd": 61,
+          "passageSha256": "408bbe9a4f4ba40557337084965937c8f27ec2b03ea101de3381d128f1652762"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-013",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Define kinase phosphate transfer and distinguish WEE1’s inhibitory substrate effect from a universal claim that phosphorylation activates a protein.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "47c743f70e481997bc21288d8cd29034c7448d58c47fcf01fcd82f64ccbbb111"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "47c743f70e481997bc21288d8cd29034c7448d58c47fcf01fcd82f64ccbbb111"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-014",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Checkpoint inhibition and loss of an end-joining route are distinct mechanisms even when each reduces experimental survival.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "47c743f70e481997bc21288d8cd29034c7448d58c47fcf01fcd82f64ccbbb111"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 63,
+          "lineEnd": 63,
+          "passageSha256": "47c743f70e481997bc21288d8cd29034c7448d58c47fcf01fcd82f64ccbbb111"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-015",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "A synthetic-lethal relationship requires evidence about paired functional losses rather than a repair-gene name alone.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "b64ea48953317a59e4bb8abefdffea2715e648f4427992da2213bb7f2ddec924"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "b64ea48953317a59e4bb8abefdffea2715e648f4427992da2213bb7f2ddec924"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-016",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Historical genomic scars do not prove the current repair dependency.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "b64ea48953317a59e4bb8abefdffea2715e648f4427992da2213bb7f2ddec924"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it works",
+          "lineStart": 65,
+          "lineEnd": 65,
+          "passageSha256": "b64ea48953317a59e4bb8abefdffea2715e648f4427992da2213bb7f2ddec924"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-017",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify the primary POLtheta studies’ selected HR-deficient and PARP-resistant models, including what compound/domain and resistance mechanisms were tested.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 67,
+          "lineEnd": 69,
+          "passageSha256": "1ba95bdf6688b357409eeb7577c2752abfde7e3625c315f64512707f5395d2f3"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 67,
+          "lineEnd": 69,
+          "passageSha256": "1ba95bdf6688b357409eeb7577c2752abfde7e3625c315f64512707f5395d2f3"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-018",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Keep53BP1/Shieldin-loss model contexts separate from BRCA2 reversions restoring gene function.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "a949a3694074fd8b2c028356387aa6ab574d06cb6967aa697863cf3687b14627"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "a949a3694074fd8b2c028356387aa6ab574d06cb6967aa697863cf3687b14627"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-019",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Verify the novobiocin study’s BRCA2-reverted models resisting both PARP inhibition and novobiocin, without extrapolating to every POLtheta inhibitor.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "a949a3694074fd8b2c028356387aa6ab574d06cb6967aa697863cf3687b14627"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "a949a3694074fd8b2c028356387aa6ab574d06cb6967aa697863cf3687b14627"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-020",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Different POLtheta compounds can target different protein domains; one compound’s model result does not establish another’s specificity or clinical activity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "891a1af2b6a067db035323da95b9607dab5181566001c5b4900118a37f0d9278"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "891a1af2b6a067db035323da95b9607dab5181566001c5b4900118a37f0d9278"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-021",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "A preclinical rescue or TP53 alteration does not establish a personal DDR treatment choice or validated clinical biomarker.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "891a1af2b6a067db035323da95b9607dab5181566001c5b4900118a37f0d9278"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "891a1af2b6a067db035323da95b9607dab5181566001c5b4900118a37f0d9278"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-022",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Combinations can affect normal dividing cells; different targets do not guarantee nonoverlapping toxicity.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "891a1af2b6a067db035323da95b9607dab5181566001c5b4900118a37f0d9278"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Why it matters in cancer",
+          "lineStart": 71,
+          "lineEnd": 71,
+          "passageSha256": "891a1af2b6a067db035323da95b9607dab5181566001c5b4900118a37f0d9278"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-023",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Carry the measurement card separating engagement, damage, repair capacity and survival, with named phosphorylation sites, foci and regrowth after removal.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 75,
+          "passageSha256": "a6584e0153888c6ca34707e87f2a53815252df41d4bbcfc43a487f4fc4320294"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 75,
+          "passageSha256": "a6584e0153888c6ca34707e87f2a53815252df41d4bbcfc43a487f4fc4320294"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-024",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Foci are visible protein clusters, not by themselves proof of completed successful repair.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it is measured",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "1edff9dfda1c7ff9a98e1d2e74a1e316d035967a9494b0faeb824086837d81be"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it is measured",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "1edff9dfda1c7ff9a98e1d2e74a1e316d035967a9494b0faeb824086837d81be"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-025",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Keep matched repair states/genetic controls, times, concentrations and nM/µM units explicit; a culture concentration is not a clinical dose.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it is measured",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "1edff9dfda1c7ff9a98e1d2e74a1e316d035967a9494b0faeb824086837d81be"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "How it is measured",
+          "lineStart": 75,
+          "lineEnd": 75,
+          "passageSha256": "1edff9dfda1c7ff9a98e1d2e74a1e316d035967a9494b0faeb824086837d81be"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-026",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Retain DDR/pathway, scar/function, PARP-resistance/POLtheta-sensitivity, TP53/selection and ATR/ATM-loss confusions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Common confusions",
+          "lineStart": 77,
+          "lineEnd": 83,
+          "passageSha256": "253232c8ea005a9420fde8659bc355cf1b12ae88cc04fa652c2298e8ee0f64a5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Common confusions",
+          "lineStart": 77,
+          "lineEnd": 83,
+          "passageSha256": "253232c8ea005a9420fde8659bc355cf1b12ae88cc04fa652c2298e8ee0f64a5"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "D-027",
+      "lesson": "ddr-inhibitors",
+      "kind": "substantive",
+      "requirement": "Carry the two fictional PARP-resistant cultures,53BP1-loss/retained-BRCA-defect versus BRCA2-reversion, requiring the actual compound and repair state and leaving clinical benefit/safety unresolved.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Try it",
+          "lineStart": 85,
+          "lineEnd": 89,
+          "passageSha256": "05529d1a600d3d2393e92dd70af3f126af001b257bb89fa3fed9ed37ab22515e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Try it",
+          "lineStart": 85,
+          "lineEnd": 89,
+          "passageSha256": "05529d1a600d3d2393e92dd70af3f126af001b257bb89fa3fed9ed37ab22515e"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-001",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Define catalytic inhibition and PARP-DNA trapping as related but different actions, with obstacles that cells must tolerate or resolve.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 27,
+          "passageSha256": "acacdf6afb9013c3d5880f4dc6716f0f5850bb2f6304ebd9b6a1800cacc0fef1"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "In one sentence",
+          "lineStart": 25,
+          "lineEnd": 27,
+          "passageSha256": "acacdf6afb9013c3d5880f4dc6716f0f5850bb2f6304ebd9b6a1800cacc0fef1"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-002",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Carry the repair-worker/call/doorway analogy and its multiple-routes/protein/drug limits, rather than literal purposeful action.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "The intuition",
+          "lineStart": 29,
+          "lineEnd": 31,
+          "passageSha256": "393fcd9b81c9d4122d8e5cda8f2bc2a9fdaeb82b31e321e1572fd1e5f66baa4b"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "The intuition",
+          "lineStart": 29,
+          "lineEnd": 31,
+          "passageSha256": "393fcd9b81c9d4122d8e5cda8f2bc2a9fdaeb82b31e321e1572fd1e5f66baa4b"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-003",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Define PARP, DNA and ADP-ribose/PAR signalling; distinguish reduced catalytic output from stabilised DNA-associated complexes.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "7ebf5b64953e04a9100d1948278572f51a9edc697789cce07c7431c0cfa6fe67"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 35,
+          "lineEnd": 35,
+          "passageSha256": "7ebf5b64953e04a9100d1948278572f51a9edc697789cce07c7431c0cfa6fe67"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-004",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Relate protein obstacles, copying stress and repair challenge without making every encounter an observed fork break or guaranteed death.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "06b1ec17471a146273540a670e7eee9924297986ca414918c91c075930d9782e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "06b1ec17471a146273540a670e7eee9924297986ca414918c91c075930d9782e"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-005",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Verify Farmer experimental repair-deficient synthetic lethality at its actual model scope, rather than inferring sensitivity from any repair-gene variant.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "06b1ec17471a146273540a670e7eee9924297986ca414918c91c075930d9782e"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 37,
+          "passageSha256": "06b1ec17471a146273540a670e7eee9924297986ca414918c91c075930d9782e"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-006",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Carry obstacle and gap explanations as nonexclusive mechanistic models whose relative contribution in patients is unsettled.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "381f96bc340974f50a2c9b62d07588a83c3f36ade8196790d18d479e56530c11"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "381f96bc340974f50a2c9b62d07588a83c3f36ade8196790d18d479e56530c11"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-007",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Verify Cong’s cell-model gap, resistance/resensitisation and HR/fork-protection comparisons without turning those models into a universal clinical rule.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "381f96bc340974f50a2c9b62d07588a83c3f36ade8196790d18d479e56530c11"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 39,
+          "lineEnd": 39,
+          "passageSha256": "381f96bc340974f50a2c9b62d07588a83c3f36ade8196790d18d479e56530c11"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-008",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Verify Murai2012 niraparib/olaparib versus veliparib trapping in the tested systems/exposures, distinct from catalytic inhibition.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "89b303b918548c5bf2e565c7ff5328d74522a28f89c123b9e9935882ecbbbf37"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "89b303b918548c5bf2e565c7ff5328d74522a28f89c123b9e9935882ecbbbf37"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-009",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Verify Murai2014 BMN673/talazoparib catalytic comparison and approximately100-fold trapping potency against actual tested comparators; strongest-tested is not a clinical best-drug ranking.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "89b303b918548c5bf2e565c7ff5328d74522a28f89c123b9e9935882ecbbbf37"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 41,
+          "lineEnd": 41,
+          "passageSha256": "89b303b918548c5bf2e565c7ff5328d74522a28f89c123b9e9935882ecbbbf37"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-010",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Read both full catalytic-output PNG themes: matched DNA-bound PARP1 snapshots, long versus shorter schematic PAR signal, generic catalytic-pocket inhibitor and no bound-duration measurement.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 43,
+          "lineEnd": 47,
+          "passageSha256": "ef2890698755764495cd46fa0240b61fd5991572715ed2abbd9c95db5431f260"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 43,
+          "lineEnd": 47,
+          "passageSha256": "ef2890698755764495cd46fa0240b61fd5991572715ed2abbd9c95db5431f260"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-011",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Read both full occupancy PNG themes: copying machinery approaches retained PARP1 ahead with visible separation; no measured collision, literal conformation or guaranteed outcome is established.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 49,
+          "lineEnd": 51,
+          "passageSha256": "2890b9f6fee4468a289c1d5051d5ee6b997829e70e01db4f4e5a157e7c915e0a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 49,
+          "lineEnd": 51,
+          "passageSha256": "2890b9f6fee4468a289c1d5051d5ee6b997829e70e01db4f4e5a157e7c915e0a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-012",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "PAR-level output and DNA-associated PARP occupancy are different measured quantities; exposure, conditions, current repair and other responses remain necessary.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "1034a96aecefd9fe7f7d642d417b2c81e601494cc74010046e4aad8303b6427a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "1034a96aecefd9fe7f7d642d417b2c81e601494cc74010046e4aad8303b6427a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-013",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "PARP1 is a representative protein, not a claim that every PARP family member is trapped identically; no figure-derived drug or patient-benefit ranking.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "1034a96aecefd9fe7f7d642d417b2c81e601494cc74010046e4aad8303b6427a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 53,
+          "lineEnd": 53,
+          "passageSha256": "1034a96aecefd9fe7f7d642d417b2c81e601494cc74010046e4aad8303b6427a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-014",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Carry both branches of the Mermaid, less catalytic activity and possible DNA retention, joining a context-dependent measurement rather than a predicted effect size.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 55,
+          "lineEnd": 63,
+          "passageSha256": "35a49d967d557718156afff5c36b850c819d8034445929b970f85aeb7514e1d5"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 55,
+          "lineEnd": 63,
+          "passageSha256": "35a49d967d557718156afff5c36b850c819d8034445929b970f85aeb7514e1d5"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-015",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Verify Waks selected resistant metastatic-breast repair-restoration examples and persistence of history versus present function, without universalising the cohort.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Why it matters in cancer",
+          "lineStart": 65,
+          "lineEnd": 67,
+          "passageSha256": "d6dfa24949995b9947d4f43337dfdcd0339f492147962f88db0fe5b2ebb01b79"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Why it matters in cancer",
+          "lineStart": 65,
+          "lineEnd": 67,
+          "passageSha256": "d6dfa24949995b9947d4f43337dfdcd0339f492147962f88db0fe5b2ebb01b79"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-016",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Verify the dated olaparib early-breast indication, germline-BRCA requirement and other disease-setting conditions; tumour-only BRCA or a scar score cannot substitute.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "b1ddc1605c23f461e7a4ab269bdae0a89936811e4c4d973766ae0d78d5cbb588"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 69,
+          "passageSha256": "b1ddc1605c23f461e7a4ab269bdae0a89936811e4c4d973766ae0d78d5cbb588"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-017",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Keep biological mechanism, a qualifying indication and a clinical-trial slot separate; no personal access or treatment advice follows from the mechanism.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 80,
+          "passageSha256": "754c885c12becbfd870991c74b23b54092d2a1564bb2ed9f1ac892c7a2294dad"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Why it matters in cancer",
+          "lineStart": 69,
+          "lineEnd": 80,
+          "passageSha256": "754c885c12becbfd870991c74b23b54092d2a1564bb2ed9f1ac892c7a2294dad"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-018",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Distinguish enzyme assays, chromatin-associated PARP measurements, repair readouts and survival experiments at specified conditions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it is measured",
+          "lineStart": 71,
+          "lineEnd": 73,
+          "passageSha256": "87f7dae22920a42ec50cafe7a66842959825e8e01990e9cdaa086a1e9ff7a96a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it is measured",
+          "lineStart": 71,
+          "lineEnd": 73,
+          "passageSha256": "87f7dae22920a42ec50cafe7a66842959825e8e01990e9cdaa086a1e9ff7a96a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-019",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "A lower metabolic signal alone does not prove irreversible cell death or the causal mechanism; appropriate survival/regrowth and perturbation controls are needed.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "d341ad599a30ce33430770f0f2833144a8a4174f14e935db04e2b2ca75b1b201"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it is measured",
+          "lineStart": 73,
+          "lineEnd": 73,
+          "passageSha256": "d341ad599a30ce33430770f0f2833144a8a4174f14e935db04e2b2ca75b1b201"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-020",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Retain inhibition/trapping, potency/clinical benefit, scar/current weakness and biology/access confusions.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Common confusions",
+          "lineStart": 75,
+          "lineEnd": 80,
+          "passageSha256": "a17b5faedc59b2f4f213c1ba26b3bb6baecb2914f654f080ab83096123ddf51a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Common confusions",
+          "lineStart": 75,
+          "lineEnd": 80,
+          "passageSha256": "a17b5faedc59b2f4f213c1ba26b3bb6baecb2914f654f080ab83096123ddf51a"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-021",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "Carry the fictional similarly catalytic-inhibitory pair where A traps more in culture; exposure, survival, safety, resistance and clinical outcomes remain unproven.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Try it",
+          "lineStart": 82,
+          "lineEnd": 89,
+          "passageSha256": "8284d2992bd2d9d3c5ebf90b66e80f4f7b869efa406bd45b2a205ee0030f925c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Try it",
+          "lineStart": 82,
+          "lineEnd": 89,
+          "passageSha256": "8284d2992bd2d9d3c5ebf90b66e80f4f7b869efa406bd45b2a205ee0030f925c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-022",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "A historical or sequence-based repair hypothesis is not sufficient proof of a present functional vulnerability or a useful PARP intervention.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 67,
+          "passageSha256": "41486bf2d30a9fc46c612f0055753fb7e66c4cc8423a345a06afab89dcefc641"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 37,
+          "lineEnd": 67,
+          "passageSha256": "41486bf2d30a9fc46c612f0055753fb7e66c4cc8423a345a06afab89dcefc641"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-023",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "substantive",
+      "requirement": "The two pictures can describe effects that coexist; different activity and occupancy readouts must not be treated as independent proof of one clinical mechanism.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 53,
+          "passageSha256": "21b17e5a12cd65f16db99063854358e96abfb691e1c94a5b7713a9579ee6fc5c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "How it works",
+          "lineStart": 45,
+          "lineEnd": 53,
+          "passageSha256": "21b17e5a12cd65f16db99063854358e96abfb691e1c94a5b7713a9579ee6fc5c"
+        }
+      ],
+      "disposition": "Frozen after full later-source and visual reading, before fresh canonical-owner inspection; source entailment and field coverage remain to assess."
+    },
+    {
+      "id": "P-024",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "source-scope",
+      "requirement": "Keep the historical mechanism/indication dates and artwork’s original-explanatory status separate from current primary verification; no source-figure copy or new clinical evidence is inferred from the art receipt.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Sources",
+          "lineStart": 111,
+          "lineEnd": 120,
+          "passageSha256": "9b1879f4178a98f36ab40887d2a930dad8cb069f220d07204a735661f3401c5c"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Sources",
+          "lineStart": 111,
+          "lineEnd": 120,
+          "passageSha256": "9b1879f4178a98f36ab40887d2a930dad8cb069f220d07204a735661f3401c5c"
+        }
+      ],
+      "disposition": "No science credit; source-scope classification corrected by scope-erratum-1 before owner comparison.",
+      "erratum": "source-first-erratum.json"
+    },
+    {
+      "id": "drug-resistance-R",
+      "lesson": "drug-resistance",
+      "kind": "routing",
+      "requirement": "Navigation retains routes to separate concepts, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Related concepts",
+          "lineStart": 98,
+          "lineEnd": 106,
+          "passageSha256": "03e26b434735db025fcf75ae801f9e5a885458db829f945091e242c6dfc95a96"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Related concepts",
+          "lineStart": 98,
+          "lineEnd": 106,
+          "passageSha256": "03e26b434735db025fcf75ae801f9e5a885458db829f945091e242c6dfc95a96"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "drug-resistance-D",
+      "lesson": "drug-resistance",
+      "kind": "derived-recap",
+      "requirement": "Explain-it-back and takeaway recap the substantive obligations without additional independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Explain it back",
+          "lineStart": 88,
+          "lineEnd": 93,
+          "passageSha256": "a806e0773ea9c1592dca3a55bb4423fac43429e9c5156d5a67dcefc71138c62f"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Explain it back",
+          "lineStart": 88,
+          "lineEnd": 93,
+          "passageSha256": "a806e0773ea9c1592dca3a55bb4423fac43429e9c5156d5a67dcefc71138c62f"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "drug-resistance-S",
+      "lesson": "drug-resistance",
+      "kind": "source-scope",
+      "requirement": "Source-check dates, fictional/artwork scope and pending expert/learner review are metadata, not verification evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "207a6636cc68e9960836a55ee005ee1944a769dbfe8560258c1edcfcd5f4c939",
+          "heading": "Sources and scope",
+          "lineStart": 107,
+          "lineEnd": 114,
+          "passageSha256": "5d0c193948f0a7e7e96c490d30e7f8aa4560498bbae820ac3d46618203aab0cb"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/how-drugs-work/drug-resistance.md",
+          "sourceSha256": "a3ba9a1fbb8f4acb3338bfd5e9d6080857b236c471f04070aa1676d8f2dd594c",
+          "heading": "Sources and scope",
+          "lineStart": 107,
+          "lineEnd": 114,
+          "passageSha256": "5d0c193948f0a7e7e96c490d30e7f8aa4560498bbae820ac3d46618203aab0cb"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "ddr-inhibitors-R",
+      "lesson": "ddr-inhibitors",
+      "kind": "routing",
+      "requirement": "Navigation retains routes to separate concepts, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Related concepts",
+          "lineStart": 101,
+          "lineEnd": 108,
+          "passageSha256": "d0e4e9c54cb7bfe79798086227c802fdffabc39c1bda36d37ae546f5b0cbc53a"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Related concepts",
+          "lineStart": 101,
+          "lineEnd": 108,
+          "passageSha256": "d0e4e9c54cb7bfe79798086227c802fdffabc39c1bda36d37ae546f5b0cbc53a"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "ddr-inhibitors-D",
+      "lesson": "ddr-inhibitors",
+      "kind": "derived-recap",
+      "requirement": "Explain-it-back and takeaway recap the substantive obligations without additional independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Explain it back",
+          "lineStart": 91,
+          "lineEnd": 96,
+          "passageSha256": "8c14f814ac59ecb46bae24720960d64b8edc9f86eb7bb5675bbc5f55221254e8"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Explain it back",
+          "lineStart": 91,
+          "lineEnd": 96,
+          "passageSha256": "8c14f814ac59ecb46bae24720960d64b8edc9f86eb7bb5675bbc5f55221254e8"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "ddr-inhibitors-S",
+      "lesson": "ddr-inhibitors",
+      "kind": "source-scope",
+      "requirement": "Source-check dates, fictional/artwork scope and pending expert/learner review are metadata, not verification evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Sources",
+          "lineStart": 109,
+          "lineEnd": 121,
+          "passageSha256": "097eb726322df30943af6b5906b4dbd7c022d7c54e700c6327c165312047f534"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/ddr-inhibitors.md",
+          "sourceSha256": "fd6d528dcd2db359b56a4c90d9c339be23a63e65cd40877ba78bbb3d741dda0e",
+          "heading": "Sources",
+          "lineStart": 109,
+          "lineEnd": 121,
+          "passageSha256": "097eb726322df30943af6b5906b4dbd7c022d7c54e700c6327c165312047f534"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "parp-inhibitors-and-trapping-R",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "routing",
+      "requirement": "Navigation retains routes to separate concepts, without citation-presence credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Related concepts",
+          "lineStart": 103,
+          "lineEnd": 108,
+          "passageSha256": "02a9889a1c0b0b283b83559fa57a4356c5732b6f5dde732f88bac9af3022e9aa"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Related concepts",
+          "lineStart": 103,
+          "lineEnd": 108,
+          "passageSha256": "02a9889a1c0b0b283b83559fa57a4356c5732b6f5dde732f88bac9af3022e9aa"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "parp-inhibitors-and-trapping-D",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "derived-recap",
+      "requirement": "Explain-it-back and takeaway recap the substantive obligations without additional independent science credit.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Explain it back",
+          "lineStart": 93,
+          "lineEnd": 98,
+          "passageSha256": "0b909df695e8b31365431c0680a3280d870b0c58103f6438d6c5179c9e4694a4"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Explain it back",
+          "lineStart": 93,
+          "lineEnd": 98,
+          "passageSha256": "0b909df695e8b31365431c0680a3280d870b0c58103f6438d6c5179c9e4694a4"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "parp-inhibitors-and-trapping-S",
+      "lesson": "parp-inhibitors-and-trapping",
+      "kind": "source-scope",
+      "requirement": "Source-check dates, fictional/artwork scope and pending expert/learner review are metadata, not verification evidence.",
+      "appliesTo": [
+        "original",
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "original",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "bbb0fd0444f8e5832b9e2f7e292cd86fa2827dfcefff83414ca72ebf351a25c9",
+          "heading": "Sources",
+          "lineStart": 109,
+          "lineEnd": 122,
+          "passageSha256": "aa4d950c7e8c456ba3f52c1a9a306e98e17a5c9eece04488e832bfaafcd00e75"
+        },
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/therapeutics/targeted-small-molecules/parp-inhibitors-and-trapping.md",
+          "sourceSha256": "4037593db0495dbdaa33ecb229a9dffc7f23fae13eed7ba40f0add863de20f7f",
+          "heading": "Sources",
+          "lineStart": 109,
+          "lineEnd": 122,
+          "passageSha256": "aa4d950c7e8c456ba3f52c1a9a306e98e17a5c9eece04488e832bfaafcd00e75"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "brca-reversion-mutations-R",
+      "lesson": "brca-reversion-mutations",
+      "kind": "routing",
+      "requirement": "Navigation retains routes to separate concepts, without citation-presence credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Related concepts",
+          "lineStart": 101,
+          "lineEnd": 107,
+          "passageSha256": "2b268a66f87c2a8215bf25c048d6c7ead818f5a9b2c98f15b1001703f53e262a"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "brca-reversion-mutations-D",
+      "lesson": "brca-reversion-mutations",
+      "kind": "derived-recap",
+      "requirement": "Explain-it-back and takeaway recap the substantive obligations without additional independent science credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Explain it back",
+          "lineStart": 91,
+          "lineEnd": 96,
+          "passageSha256": "9b2bb23d03a2fdbb6b321d644b867f32f486f2f98de322575286dda98854b357"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "brca-reversion-mutations-S",
+      "lesson": "brca-reversion-mutations",
+      "kind": "source-scope",
+      "requirement": "Source-check dates, fictional/artwork scope and pending expert/learner review are metadata, not verification evidence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/brca-reversion-mutations.md",
+          "sourceSha256": "ef0408354768bc8e187cc4964b62f8189183633bbe852be651a95e98e3ed04a9",
+          "heading": "Sources and scope",
+          "lineStart": 108,
+          "lineEnd": 120,
+          "passageSha256": "f0793b27e7142f547323aa571bbb054de4572f4eb87429d394d27e1a77753159"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "composite-hrd-scores-R",
+      "lesson": "composite-hrd-scores",
+      "kind": "routing",
+      "requirement": "Navigation retains routes to separate concepts, without citation-presence credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Related concepts",
+          "lineStart": 97,
+          "lineEnd": 103,
+          "passageSha256": "22e6c4d7f7569322a28eba06cc1e3e83b04885518ccbc8d03217c122f0ccb682"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "composite-hrd-scores-D",
+      "lesson": "composite-hrd-scores",
+      "kind": "derived-recap",
+      "requirement": "Explain-it-back and takeaway recap the substantive obligations without additional independent science credit.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Explain it back",
+          "lineStart": 87,
+          "lineEnd": 92,
+          "passageSha256": "aea468c987d160f91841851c7b401ea18646cc1648a1d55b06ab1c225242811d"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    },
+    {
+      "id": "composite-hrd-scores-S",
+      "lesson": "composite-hrd-scores",
+      "kind": "source-scope",
+      "requirement": "Source-check dates, fictional/artwork scope and pending expert/learner review are metadata, not verification evidence.",
+      "appliesTo": [
+        "later"
+      ],
+      "sourceEvidence": [
+        {
+          "phase": "later",
+          "path": "wiki/education/concepts/cancer-biology/genome-instability-and-repair/composite-hrd-scores.md",
+          "sourceSha256": "c0f976da1ba01bcde8cbef2aac9ca98d23c02c7c3ca614fd0116365fafa071ef",
+          "heading": "Sources and scope",
+          "lineStart": 104,
+          "lineEnd": 117,
+          "passageSha256": "aa1fc02aa5f323169683df958a60d5c658c832c0778b103b7270e432a7bbff86"
+        }
+      ],
+      "disposition": "Non-credit; retains source inventory and interpretation boundary."
+    }
+  ]
+}

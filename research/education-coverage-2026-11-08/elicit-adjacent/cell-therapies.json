@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-09T02:30:36.428Z",
+  "request": {
+    "query": "Engineered CAR T and CAR NK cell architecture, cytokine armoring, antigen logic gates, safety switches and source-dependent persistence: primary experiments and clinical studies reporting limitations or new mechanisms",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-287211875",
+        "title": "Cytokine armored CAR T cells for cancer immunotherapy",
+        "authors": [
+          "K. Sek",
+          "K. M. Yap",
+          "Wo-On-Xuan Hong",
+          "P. Darcy"
+        ],
+        "year": 2026,
+        "doi": "10.1111/imcb.70112",
+        "pmid": "41937468",
+        "venue": "Immunology and Cell Biology",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "f9c772b7d72611e7996a685205e457e9823c944e0e72cbc7cc6bb48ce26e067f",
+          "characters": 475
+        }
+      },
+      {
+        "elicitId": "ss-286362650",
+        "title": "Progress in the development of cytokine armoured CAR T cells",
+        "authors": [
+          "Krishneel Prasad",
+          "Ryan S. Cross",
+          "Misty R. Jenkins"
+        ],
+        "year": 2026,
+        "doi": "10.1038/s41577-026-01280-8",
+        "pmid": "41792262",
+        "venue": "Nature reviews. Immunology",
+        "citedByCount": 15,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "2457df8f2b041ca8f090f7c58be89ece675b5f0588e69c1215f5ef39d7f1547d",
+          "characters": 774
+        }
+      },
+      {
+        "elicitId": "ss-282747009",
+        "title": "Chimeric antigen receptor natural killer (CAR-NK) cells: from preclinical promise to clinical reality in cancer immunotherapy",
+        "authors": [
+          "H. Cochran",
+          "Kevin Ashkan Ghobadi",
+          "Armin Ghobadi"
+        ],
+        "year": 2025,
+        "doi": "10.1080/1750743X.2025.2582464",
+        "pmid": "41186143",
+        "venue": "Immunotherapy",
+        "citedByCount": 6,
+        "urls": [
+          "https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=7452&context=oa_4",
+          "https://doi.org/10.1080/1750743x.2025.2582464"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=7452&context=oa_4",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "da462f15a3c1057ce3a13d4430daf9fbbf67a1d31859f427e2086f68d190954d",
+          "characters": 906
+        }
+      },
+      {
+        "elicitId": "ss-281416815",
+        "title": "Designing immunity with cytokines: A logic-based framework for programmable CAR therapies.",
+        "authors": [
+          "Saurabh Upadhyay",
+          "K. Upmanyu",
+          "M. Gabr"
+        ],
+        "year": 2025,
+        "doi": "10.1016/j.cytogfr.2025.09.004",
+        "pmid": "40976094",
+        "venue": "Cytokine & growth factor reviews",
+        "citedByCount": 14,
+        "urls": [
+          "https://doi.org/10.1016/j.cytogfr.2025.09.004"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1016/j.cytogfr.2025.09.004",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-257703995",
+        "title": "Limitations and Overcomes of CAR-NK for Cancer Immunotherapy",
+        "authors": [
+          "Ye Xue"
+        ],
+        "year": 2023,
+        "doi": "10.54097/hset.v36i.6133",
+        "pmid": null,
+        "venue": "Highlights in Science Engineering and Technology",
+        "citedByCount": 4,
+        "urls": [
+          "https://drpress.org/ojs/index.php/HSET/article/download/6133/5940"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://drpress.org/ojs/index.php/HSET/article/download/6133/5940",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "bea47f9886ce8d70082d0f5f960e0bf6a715491d947ca58b17ea326083eeb7df",
+          "characters": 1089
+        }
+      },
+      {
+        "elicitId": "ss-227297041",
+        "title": "Outlook for new CAR-based therapies with a focus on CAR-NK cells: what lies beyond CAR-engineered T cells in the race against cancer",
+        "authors": [
+          "May Daher",
+          "K. Rezvani"
+        ],
+        "year": 2020,
+        "doi": "10.1158/2159-8290.CD-20-0556",
+        "pmid": "33277313",
+        "venue": "Cancer Discovery",
+        "citedByCount": 161,
+        "urls": [
+          "https://aacrjournals.org/cancerdiscovery/article-pdf/11/1/45/1818542/45.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://aacrjournals.org/cancerdiscovery/article-pdf/11/1/45/1818542/45.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "671292f2d410d6d305600f5312cf0bb016f5f762a4c6b4a02150947c084edb10",
+          "characters": 699
+        }
+      },
+      {
+        "elicitId": "ss-289394981",
+        "title": "Next-generation CAR-NK cell therapy: engineering strategies, translational challenges, and future perspectives in cancer immunotherapy",
+        "authors": [
+          "Minoo Bakhtiari",
+          "Hamid Nickho",
+          "Mahmoud Mahmoudi",
+          "F. L. Arab",
+          "Akram Hoseinzadeh",
+          "R. Baharlou"
+        ],
+        "year": 2026,
+        "doi": "10.1186/s12935-026-04389-x",
+        "pmid": "42316255",
+        "venue": "Cancer Cell International",
+        "citedByCount": 3,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13523458/pdf/12935_2026_Article_4389.pdf",
+          "https://doi.org/10.1186/s12935-026-04389-x"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13523458/pdf/12935_2026_Article_4389.pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "561c7341a908f6fe7784a91d95c8c88f61e0bbbc1ae2592fb2aa47016c9bb3e2",
+          "characters": 1610
+        }
+      },
+      {
+        "elicitId": "ss-263714850",
+        "title": "Arming CAR-T Cells with Cytokines and More: Innovations in the Fourth-Generation CAR-T Development.",
+        "authors": [
+          "Lin Tang",
+          "Sheng Pan",
+          "Xu-Yong Wei",
+          "Xiao Xu",
+          "Qiang Wei"
+        ],
+        "year": 2023,
+        "doi": "10.1016/j.ymthe.2023.09.021",
+        "pmid": "37803832",
+        "venue": "Molecular Therapy",
+        "citedByCount": 179,
+        "urls": [
+          "https://doi.org/10.1016/j.ymthe.2023.09.021",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10638038/pdf/main.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1016/j.ymthe.2023.09.021",
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-284695672",
+        "title": "Engineering the next generation of CAR T- cells: precision modifications, logic gates and universal strategies to overcome exhaustion and tumor resistance",
+        "authors": [
+          "J. Garcia-Robledo",
+          "S. Cabrera-Salcedo",
+          "A. Brandauer",
+          "F. Romano",
+          "Joshua Rengifo-Martinez",
+          "Alejandro Toro-Pedroza",
+          "J. S. Victoria",
+          "Lady J. Rios-Serna",
+          "Alexandre Loukanov",
+          "A. Cardona",
+          "Pietro Genovese",
+          "J. Baena"
+        ],
+        "year": 2026,
+        "doi": "10.3389/fonc.2025.1698442",
+        "pmid": "41584599",
+        "venue": "Frontiers in Oncology",
+        "citedByCount": 34,
+        "urls": [
+          "https://public-pages-files-2025.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1698442/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://public-pages-files-2025.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1698442/pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "d59bf3103d482d787b30c567358427629b5f9e1133120520069993f0ca02f822",
+          "characters": 2149
+        }
+      },
+      {
+        "elicitId": "ss-284888207",
+        "title": "Advances in chimeric antigen receptor-natural killer cell therapy: from mechanisms and preclinical studies to clinical application",
+        "authors": [
+          "Tianyuan Ren",
+          "Fengjiang Wang",
+          "Xuan Liu",
+          "Jun Guo",
+          "Sitan Xie"
+        ],
+        "year": 2026,
+        "doi": "10.3389/fonc.2025.1759796",
+        "pmid": "41635402",
+        "venue": "Frontiers in Oncology",
+        "citedByCount": 9,
+        "urls": [
+          "https://public-pages-files-2025.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1759796/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://public-pages-files-2025.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1759796/pdf",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "d69e92ff65b5ab9c91d98aee3327e62222eb4ab07648b89327e3818acb3a19bc",
+          "characters": 1312
+        }
+      },
+      {
+        "elicitId": "ss-211044797",
+        "title": "Use of CAR-Transduced Natural Killer Cells in CD19-Positive Lymphoid Tumors",
+        "authors": [
+          "En-Li Liu",
+          "D. Marin",
+          "P. Banerjee",
+          "H. Macapinlac",
+          "P. Thompson",
+          "R. Başar",
+          "L. Kerbauy",
+          "Bethany J Overman",
+          "P. Thall",
+          "Mecit Kaplan",
+          "Vandana Nandivada",
+          "I. Kaur",
+          "Ana Karen Nunez Cortes",
+          "Kai Cao",
+          "May Daher",
+          "C. Hosing",
+          "E. Cohen",
+          "P. Kebriaei",
+          "R. Mehta",
+          "S. Neelapu",
+          "Y. Nieto",
+          "Michael Wang",
+          "W. Wierda",
+          "M. Keating",
+          "R. Champlin",
+          "E. Shpall",
+          "K. Rezvani"
+        ],
+        "year": 2020,
+        "doi": "10.1056/NEJMoa1910607",
+        "pmid": "32023374",
+        "venue": "New England Journal of Medicine",
+        "citedByCount": 1829,
+        "urls": [
+          "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1910607?articleTools=true"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1910607?articleTools=true",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "4a724100e9da6dd59bbcb0148deb7aa5b7f48ffa6f9d7de914cee90beab05334",
+          "characters": 1986
+        }
+      },
+      {
+        "elicitId": "ss-233430213",
+        "title": "CAR‐NK cells: the next wave of cellular therapy for cancer",
+        "authors": [
+          "May Daher",
+          "Luciana Melo-Garcia",
+          "Ye Li",
+          "K. Rezvani"
+        ],
+        "year": 2021,
+        "doi": "10.1002/cti2.1274",
+        "pmid": "33959279",
+        "venue": "Clinical & Translational Immunology",
+        "citedByCount": 101,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cti2.1274"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cti2.1274",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "75242bee23d429a676de27928452d986fca32ff081d705a0e6bbacf3948bc3b0",
+          "characters": 825
+        }
+      },
+      {
+        "elicitId": "ss-229504257",
+        "title": "Abstract IA15: CARs and armored CARs: Improving CAR T-cell therapy for cancer",
+        "authors": [
+          "R. Brentjens"
+        ],
+        "year": 2020,
+        "doi": "10.1158/2643-3249.lymphoma20-ia15",
+        "pmid": null,
+        "venue": "Oral Presentations - Invited Abstracts",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "14a9bcd2b1b5bb305080ff219f54b47f3552d7058e96f21e723d41a2c59382e6",
+          "characters": 3132
+        }
+      },
+      {
+        "elicitId": "ss-280825894",
+        "title": "Beyond CAR-T: Engineered NK cell therapies (CAR-NK, NKCEs) in next-generation cancer immunotherapy.",
+        "authors": [
+          "Feng-Hao Zhang",
+          "Hamed Soleimani Samarkhazan",
+          "Zahra Pooraskari",
+          "Alireza Bayani"
+        ],
+        "year": 2025,
+        "doi": "10.1016/j.critrevonc.2025.104912",
+        "pmid": "40848820",
+        "venue": "Critical reviews in oncology/hematology",
+        "citedByCount": 30,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-268041928",
+        "title": "Dissecting the role of CAR signaling architectures on T cell activation and persistence using pooled screening and single-cell sequencing",
+        "authors": [
+          "Rocío Castellanos-Rueda",
+          "Kai-Ling K Wang",
+          "Juliette L. Forster",
+          "Alice Driessen",
+          "Jessica A. Frank",
+          "María Rodríguez Martínez",
+          "Sai T. Reddy"
+        ],
+        "year": 2024,
+        "doi": "10.1101/2024.02.26.582129",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 4,
+        "urls": [
+          "https://doi.org/10.1101/2024.02.26.582129"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1101/2024.02.26.582129",
+        "abstractRetention": {
+          "status": "outside-public-repository",
+          "sha256": "9091249d63612d29037e3f853d0b3b76cbba9ccee99e1f71c01470e18d0e133a",
+          "characters": 1214
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "6b21c4efb4d5fb8940016265f92ee2fd18b0cafdb05315e4c9b37171407e51b1",
+    "rawBytes": 28789,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact response bytes retained outside the public checkout; no quotation rewritten"
+  }
+}

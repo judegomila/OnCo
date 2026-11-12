@@ -1,0 +1,265 @@
+{
+  "diagramInstances": 2,
+  "uniqueCodes": 1,
+  "renders": [
+    {
+      "codeSha256": "2e6b01a6a8ea0730630a35dc70d7b8518da98e06e471f6711d015f5d450d7794",
+      "theme": "default",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-default.png",
+      "renderSha256": "e28bd8fa309feb69820f2794adc94923c0c281557041f56ee1fba425c3e4bcc7",
+      "width": 168,
+      "height": 656,
+      "viewed": true,
+      "viewScope": "Full native screenshot extent viewed; all boxes, labels and arrows are legible in default and dark. No measured contrast or live-page claim."
+    },
+    {
+      "codeSha256": "2e6b01a6a8ea0730630a35dc70d7b8518da98e06e471f6711d015f5d450d7794",
+      "theme": "dark",
+      "instances": [
+        {
+          "version": "original",
+          "path": "wiki/education/designing-a-vaccine/02-hla-and-antigen-presentation.md",
+          "index": 0
+        },
+        {
+          "version": "later",
+          "path": "wiki/education/guides/personalized-cancer-vaccine/03-hla-and-presentation.md",
+          "index": 0
+        }
+      ],
+      "render": "diagram-1-dark.png",
+      "renderSha256": "dea71838f0dd381710f42a1ad667051c1c5b3f4209339c4bacc449d9d844693e",
+      "width": 168,
+      "height": 656,
+      "viewed": true,
+      "viewScope": "Full native screenshot extent viewed; all boxes, labels and arrows are legible in default and dark. No measured contrast or live-page claim."
+    }
+  ],
+  "standaloneAssets": 2,
+  "scope": "Pinned source diagrams rendered in headless Chrome; not an OnCo UI change or live Guide-page check.",
+  "figureThemes": [
+    {
+      "file": "three-assays-three-questions-v2-light.png",
+      "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewScope": "Complete native image extent viewed, with lesson caption/context. No cropped-preview, clinical, expert or accessibility approval."
+    },
+    {
+      "file": "three-assays-three-questions-v2-dark.png",
+      "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+      "width": 1024,
+      "height": 1536,
+      "viewed": true,
+      "viewScope": "Complete native image extent viewed, with lesson caption/context. No cropped-preview, clinical, expert or accessibility approval."
+    }
+  ],
+  "findings": [
+    {
+      "severity": "reading-note",
+      "issue": "Stacked panels show independent measurements; only within-panel arrows show an experimental sequence. A four-unit tetramer is a laboratory scaffold and developed spots are not a numerical mapping from the three drawn cells.",
+      "disposition": "The candidate-selection field carries the three workflows and explicit schematic/non-killing interpretation."
+    },
+    {
+      "severity": "reading-note",
+      "issue": "The HLA diagram is a dependency schematic rather than proof of a strict temporal sequence.",
+      "disposition": "The evidence-ladder field and reading-rule note reject a compulsory assay sequence and keep later claims separate."
+    }
+  ],
+  "fullSupportBodiesRead": [
+    {
+      "file": "three-assays-three-questions-v2-dark-call.txt",
+      "bytes": 625,
+      "sha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d",
+      "read": "First byte to last; all text spans read."
+    },
+    {
+      "file": "three-assays-three-questions-v2-light-call.txt",
+      "bytes": 4451,
+      "sha256": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
+      "read": "First byte to last; all text spans read."
+    },
+    {
+      "file": "three-assays-three-questions-v2.txt",
+      "bytes": 4278,
+      "sha256": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",
+      "read": "First byte to last; all text spans read."
+    }
+  ],
+  "wholeProtocolPDFRead": false,
+  "protocolPagesRenderedAndViewed": [
+    6,
+    7
+  ],
+  "noScientificOrLayoutDefectFoundInViewedSourceFigures": true,
+  "viewLimitations": [
+    "Qualitative full-extent native image/diagram inspection only.",
+    "No pixel-difference fidelity certification of the authoring prompts, measured contrast, responsive Guide or accessibility test.",
+    "No image-model call, human author identity or approval self-attestation is certified."
+  ],
+  "assetReceipts": [
+    {
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "c02849f0423219e9ee121a8be3080e64a7fdcea5",
+      "bytes": 625,
+      "sha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d",
+      "priorScope": "supporting"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-light-call.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "774e65af87ba1f6260d83f06cb5de07267719cd1",
+      "bytes": 4451,
+      "sha256": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
+      "priorScope": "unclassified"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "1fdef9eddf0f3e83e7621fb62223e8ddec01a4f4",
+      "bytes": 4278,
+      "sha256": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",
+      "priorScope": "unclassified"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "2ae11790a3f46288ebdda5112d6e472f7f39994b",
+      "bytes": 2360947,
+      "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+      "priorScope": "unclassified"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "1c2544759320b98f62556fe9724a8b0a4b5064b5",
+      "bytes": 2513836,
+      "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+      "priorScope": "unclassified"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-dark-call.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "c02849f0423219e9ee121a8be3080e64a7fdcea5",
+      "bytes": 625,
+      "sha256": "9b867866a6d385cadec059055845ea0380f5fcf15d62b6750838eed6ac78d72d",
+      "priorScope": "supporting"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-light-call.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "774e65af87ba1f6260d83f06cb5de07267719cd1",
+      "bytes": 4451,
+      "sha256": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
+      "priorScope": "unclassified"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "1fdef9eddf0f3e83e7621fb62223e8ddec01a4f4",
+      "bytes": 4278,
+      "sha256": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",
+      "priorScope": "unclassified"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "2ae11790a3f46288ebdda5112d6e472f7f39994b",
+      "bytes": 2360947,
+      "sha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+      "priorScope": "unclassified"
+    },
+    {
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "1c2544759320b98f62556fe9724a8b0a4b5064b5",
+      "bytes": 2513836,
+      "sha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+      "priorScope": "unclassified"
+    }
+  ],
+  "scopeChanges": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-light-call.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
+      "gitBlob": "774e65af87ba1f6260d83f06cb5de07267719cd1"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",
+      "gitBlob": "1fdef9eddf0f3e83e7621fb62223e8ddec01a4f4"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+      "gitBlob": "2ae11790a3f46288ebdda5112d6e472f7f39994b"
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+      "gitBlob": "1c2544759320b98f62556fe9724a8b0a4b5064b5"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2-light-call.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "af989b41fc9543e0bfb6fdc8d5ab33f01e0e4d4d95848e0852f9863a0dd3dc48",
+      "gitBlob": "774e65af87ba1f6260d83f06cb5de07267719cd1"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/designing-a-vaccine/images/prompts/three-assays-three-questions-v2.txt",
+      "beforeScope": "unclassified",
+      "afterScope": "supporting",
+      "sourceSha256": "2b9ed82827f2d5d62b2acb76197a1fa3e629ef92c380a782854f9bc77116cce0",
+      "gitBlob": "1fdef9eddf0f3e83e7621fb62223e8ddec01a4f4"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-dark.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "ddbf196b42c45fa932b403e31bd149f54168d7cb5f7026b6d217270e2f14fdf3",
+      "gitBlob": "2ae11790a3f46288ebdda5112d6e472f7f39994b"
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/designing-a-vaccine/images/three-assays-three-questions-v2-light.png",
+      "beforeScope": "unclassified",
+      "afterScope": "teaching",
+      "sourceSha256": "b299d9d96471bd400c0c67c5b87096785104e94c26226f047e123e5edae403d0",
+      "gitBlob": "1c2544759320b98f62556fe9724a8b0a4b5064b5"
+    }
+  ],
+  "teachingPathsAddedPerPin": 2,
+  "supportingPathsAddedPerPin": 2,
+  "previousDarkPromptSupportDispositionPreserved": true,
+  "sourceArtworkChanged": false
+}

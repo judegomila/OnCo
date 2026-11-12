@@ -1,0 +1,26 @@
+{
+  "beforeRecords": 22809,
+  "afterRecords": 22809,
+  "changedIds": [
+    "basal-like",
+    "brca-germline",
+    "curative-intent",
+    "er-status",
+    "gbrca-mutation",
+    "germline-testing",
+    "her2-low",
+    "her2-positive",
+    "hereditary-cancer-syndromes",
+    "hormone-receptor-status",
+    "hrd-in-breast-cancer",
+    "nucleus",
+    "oligometastatic",
+    "pr-status",
+    "relapse-recurrence",
+    "remission",
+    "secondary-brain-tumours",
+    "tnbc"
+  ],
+  "unexpectedChangedIds": [],
+  "newOrMissingIds": []
+}

@@ -24,7 +24,7 @@ const provenance = { editedBy: "OnCo device gap fill (openFDA, accessdata.fda.go
 const doi = (label: string, d: string) => ({ label, url: `https://doi.org/${d}` });
 const fdaClass = (code: string, what: string) => ({ label: `FDA product code ${code}: ${what}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?ID=${code}` });
 
-type Tc = Omit<TechnologyInput, "kind" | "asOf">;
+type Tc = Omit<TechnologyInput, "kind" | "asOf"> & { asOf?: TechnologyInput["asOf"] };
 const tech = (x: Tc): TechnologyInput => ({ kind: "technology", asOf, tags, provenance, ...x } as TechnologyInput);
 type Co = Omit<CompanyInput, "kind" | "asOf">;
 const co = (x: Co): CompanyInput => ({ kind: "company", asOf, tags, provenance, ...x } as CompanyInput);
@@ -48,7 +48,74 @@ export const devicesGapsDiagnosticTechnologies: TechnologyInput[] = [
     strengths: ["Larger and more numerous cores through one skin entry", "Works with stereotactic, tomosynthesis, ultrasound or MRI guidance"],
     limitations: ["Bruising and haematoma", "Removing the imaged lesion does not mean a cancer has been removed with clear margins"],
     cancers: ["breast-cancer"], technologies: ["stereotactic-breast-biopsy", "breast-lesion-localisation", "mammography", "breast-mri-coils-abbreviated-mri", "automated-breast-ultrasound"], terms: ["core-needle-biopsy", "biopsy"], companies: ["mammotome", "hologic", "becton-dickinson"],
-    links: [fdaClass("KNW", "biopsy instrument"), fda510k("K202012", "Mammotome Revolve (18 August 2020)"), fda510k("K260365", "Mammotome Prima MR (4 March 2026)"), fda510k("K233220", "EnCor Enspire (27 October 2023)"), fda510k("K252681", "EnCor EnCompass (12 December 2025)"), fda510k("K192948", "EleVation breast biopsy driver (7 November 2019)"), fda510k("K180233", "Eviva stereotactic guided breast biopsy system (10 April 2018)"), fda510k("K163052", "Brevera with CorLumina imaging (29 March 2017)"), fda510k("K262792", "Brevera with CorLumina imaging (12 August 2026)")] }),
+    links: [
+  {
+    "label": "FDA product code KNW: biopsy instrument",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPCD/classification.cfm?ID=KNW"
+  },
+  {
+    "label": "FDA 510(k) K202012: Mammotome Revolve (18 August 2020)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K202012"
+  },
+  {
+    "label": "FDA 510(k) K260365: Mammotome Prima MR (4 March 2026)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K260365"
+  },
+  {
+    "label": "FDA 510(k) K233220: EnCor Enspire (27 October 2023)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K233220"
+  },
+  {
+    "label": "FDA 510(k) K252681: EnCor EnCompass (12 December 2025)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K252681"
+  },
+  {
+    "label": "FDA 510(k) K192948: EleVation breast biopsy driver (7 November 2019)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K192948"
+  },
+  {
+    "label": "FDA 510(k) K180233: Eviva stereotactic guided breast biopsy system (10 April 2018)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K180233"
+  },
+  {
+    "label": "FDA 510(k) K163052: Brevera with CorLumina imaging (29 March 2017)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K163052"
+  },
+  {
+    "label": "FDA 510(k) K262792: Brevera with CorLumina imaging (12 August 2026)",
+    "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K262792"
+  },
+  {
+    "label": "Measurement method and interpretation source",
+    "url": "https://www.radiologyinfo.org/en/info/breastbius"
+  },
+  {
+    "label": "Heil et al., RESPONDER, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32657944/"
+  },
+  {
+    "label": "Kuerer et al., omission trial, 2022",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36306810/"
+  },
+  {
+    "label": "Kuerer et al., omission follow-up, 2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40152443/"
+  }
+] ,
+"notes": [
+  "Suction and a cutter collect several tissue pieces through a positioned probe. More pieces can broaden sampling but do not provide the mapped outer boundary of an oriented excision. Little visible abnormality after biopsy does not establish microscopic clearance or negative surgical margins.",
+  "Collection and preservation are separate: vacuum-collected tissue placed in formalin does not become a viable-cell bank. Retain target, sampled locations, concordance, preparation and assay-specific adequacy. No universal number of pieces proves complete representation.",
+  "Vacuum pressure draws tissue into a sampling opening and a cutter collects pieces through the positioned probe. Pathology identifies the cells, while imaging correlation asks whether the target was represented, including relevant calcifications. Sampling method does not establish preservation for living-cell work or every ancillary assay.",
+  "Fictional vacuum samples show a lesion and imaging shows little remaining visible abnormality. That does not establish negative microscopic margins. Several selected pieces do not supply the mapped outer boundary of an oriented excision, and a marker identifies a location rather than certifying that every abnormal cell was removed.",
+  "RESPONDER missed residual cancer in 37 of 208 women with residual disease at surgery. Exploratory combined imaging and biopsy gave a 6.2% false-negative rate; zero false negatives with the largest needle were also exploratory. The 2022 selected omission cohort of 31 women had no ipsilateral breast recurrence at median 26.4 months, updated to 55.4 months in 2025. These are study-specific results, not universal sampling adequacy or clearance rules.",
+  "Vacuum-assisted sampling combines image guidance, probe sampling, tissue preparation and pathology correlation. Document the target, site and collected pieces, then report the diagnosis, sample inventory and any assay-specific results. Collection and subsequent sections use finite material; each ancillary assay has its own input requirements. No universal piece count proves adequacy or complete removal. Missed or incompletely represented targets, bleeding, damaged tissue, necrosis and inadequate analyte can limit the procedure. Results depend on the intended lesion and workflow and cannot alone establish whole-lesion biology, surgical clearance or future treatment response."
+],
+"asOf": "2026-11-10",
+"related": [
+  "biopsy-after-neoadjuvant-therapy",
+  "surgical-resection-specimen"
+]
+}),
 
   tech({ id: "stereotactic-breast-biopsy", name: "Stereotactic and tomosynthesis-guided breast biopsy systems (Affirm, Giotto, Fujifilm positioner)", aka: ["Stereotactic breast biopsy", "Tomosynthesis-guided biopsy", "Prone biopsy table", "Affirm", "Affirm Contrast Biopsy", "Giotto SMART FINDER"],
     sections: ["diagnostics", "imaging", "devices"], status: "standard-of-care", since: 2016,

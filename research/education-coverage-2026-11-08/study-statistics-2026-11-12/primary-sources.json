@@ -1,0 +1,2359 @@
+{
+  "counts": {
+    "publicationIdentities": 24,
+    "completeAbstractsRead": 22,
+    "targetedArticleBodyParagraphs": 47,
+    "wholePapersRead": 0,
+    "methodAndGuidanceDocuments": 9,
+    "lessonEmbeddedVisuals": 0
+  },
+  "publications": [
+    {
+      "sourceId": "pmid-26858290",
+      "pmid": "26858290",
+      "pmcid": "PMC4741409",
+      "doi": "10.1161/circulationaha.115.017719",
+      "title": "Introduction to the Analysis of Survival Data in the Presence of Competing Risks.",
+      "firstAuthor": "Austin",
+      "year": "2016",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              9
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              9
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              2,
+              9
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 1565,
+      "abstractSha256": "3f34d62510e61c493b1c37b014c2a633608aeca30826568a272ed4ee2c760ff9",
+      "bodyRead": "Targeted complete paragraphs",
+      "bodyParagraphOrdinals": [
+        4,
+        8,
+        9,
+        13,
+        14,
+        15,
+        18,
+        37,
+        40
+      ],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.726132013.793530876",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-17031868",
+      "pmid": "17031868",
+      "pmcid": null,
+      "doi": "10.1002/sim.2712",
+      "title": "Tutorial in biostatistics: competing risks and multi-state models.",
+      "firstAuthor": "Putter",
+      "year": "2007",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2007,
+              5,
+              20
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2006,
+              10,
+              10
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2006,
+              10,
+              10
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2006,
+              10,
+              10
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 978,
+      "abstractSha256": "b2588ff5937e545621c0de422f9b96b7ea9addb26adc11fb73e08cf8c096ff87",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false,
+      "dateQualification": "2006 online versus 2007 journal issue; same resolved work."
+    },
+    {
+      "sourceId": "pmid-26232083",
+      "pmid": "26232083",
+      "pmcid": null,
+      "doi": "10.1016/j.jclinepi.2015.07.006",
+      "title": "Competing risk bias was common in Kaplan-Meier risk estimates published in prominent medical journals.",
+      "firstAuthor": "van Walraven",
+      "year": "2016",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              1
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              1
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              1
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 1300,
+      "abstractSha256": "4efaa20554c06facbb093a4791a35903eb1edfb7bd2c6c5fc51637afab4b3204",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "27492787",
+              "reference": "J Clin Epidemiol. 2016 Dec;80:135-136. doi: 10.1016/j.jclinepi.2016.07.013",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-10204198",
+      "pmid": "10204198",
+      "pmcid": null,
+      "doi": "10.1002/(sici)1097-0258(19990330)18:6<695::aid-sim60>3.0.co;2-o",
+      "title": "Estimation of failure probabilities in the presence of competing risks: new representations of old estimators.",
+      "firstAuthor": "Gooley",
+      "year": "1999",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              1999,
+              3,
+              30
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1999,
+              3,
+              30
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1999,
+              3,
+              30
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 1148,
+      "abstractSha256": "93051bc8d1c19778d1cd801858928aaab3da022a8f2cc14bdcb6e1fa9b567191",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Review",
+            "Journal Article"
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-32101663",
+      "pmid": "32101663",
+      "pmcid": null,
+      "doi": "10.1056/nejmoa1910549",
+      "title": "Pembrolizumab for Early Triple-Negative Breast Cancer.",
+      "firstAuthor": "Schmid",
+      "year": "2020",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              27
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              27
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              2,
+              27
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2822,
+      "abstractSha256": "a6c39217a826f15420024eb3f054d1b30438386b6fbf7ef5b4efc68d1a7e1417",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "32127649",
+              "reference": "Nat Rev Clin Oncol. 2020 Apr;17(4):196. doi: 10.1038/s41571-020-0349-3",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "32145769",
+              "reference": "Lancet Oncol. 2020 Apr;21(4):e183. doi: 10.1016/S1470-2045(20)30154-6",
+              "type": "Comment in",
+              "orderIn": 2
+            },
+            {
+              "source": "MED",
+              "id": "32561940",
+              "reference": "Strahlenther Onkol. 2020 Sep;196(9):841-843. doi: 10.1007/s00066-020-01641-9",
+              "type": "Comment in",
+              "orderIn": 3
+            },
+            {
+              "source": "MED",
+              "id": "32579834",
+              "reference": "N Engl J Med. 2020 Jun 25;382(26):e108. doi: 10.1056/NEJMc2006684",
+              "type": "Comment in",
+              "orderIn": 4
+            },
+            {
+              "source": "MED",
+              "id": "36152640",
+              "reference": "Int J Radiat Oncol Biol Phys. 2022 Nov 1;114(3):377-381. doi: 10.1016/j.ijrobp.2022.05.024",
+              "type": "Comment in",
+              "orderIn": 5
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737441116.793571810",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.737441116.793581142",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-29501363",
+      "pmid": "29501363",
+      "pmcid": null,
+      "doi": "10.1016/s1470-2045(18)30111-6",
+      "title": "Addition of the PARP inhibitor veliparib plus carboplatin or carboplatin alone to standard neoadjuvant chemotherapy in triple-negative breast cancer (BrighTNess): a randomised, phase 3 trial.",
+      "firstAuthor": "Loibl",
+      "year": "2018",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2018,
+              4
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 4194,
+      "abstractSha256": "a87a79c25358d4bcafb7dacf7c52898a44f3a9d26df7b321c8dc177755ef5101",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "Research Support, Non-U.S. Gov't",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "29501365",
+              "reference": "Lancet Oncol. 2018 Apr;19(4):434-436. doi: 10.1016/S1470-2045(18)30129-3",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.732796213.793562855",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.732796213.793581141",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.732796213.793548686",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-20547685",
+      "pmid": "20547685",
+      "pmcid": "PMC2885592",
+      "doi": "10.1136/bmj.c2697",
+      "title": "Modified intention to treat reporting in randomised controlled trials: systematic review.",
+      "firstAuthor": "Abraha",
+      "year": "2010",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2010,
+              6,
+              14
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2010,
+              6,
+              14
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              6,
+              14
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2010,
+              6,
+              14
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2244,
+      "abstractSha256": "3d6f51189e42a13d332554c88c1b00a87702ed0edba7fc35191d90185afea0af",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Systematic Review",
+            "Journal Article"
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-10480822",
+      "pmid": "10480822",
+      "pmcid": "PMC28218",
+      "doi": "10.1136/bmj.319.7211.670",
+      "title": "What is meant by intention to treat analysis? Survey of published randomised controlled trials.",
+      "firstAuthor": "Hollis",
+      "year": "1999",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              1999,
+              9,
+              11
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1999,
+              9,
+              11
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1999,
+              9,
+              11
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 1502,
+      "abstractSha256": "41fb5bb786847ad1598087644c42d455c6a407f15a3bf5c453024a6782bd8962",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "10753165",
+              "reference": "BMJ. 2000 Apr 8;320(7240):1007-8.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "pmid": "27406347",
+      "pmcid": "PMC5259561",
+      "doi": "10.1056/nejmoa1513749",
+      "title": "Adaptive Randomization of Veliparib-Carboplatin Treatment in Breast Cancer.",
+      "firstAuthor": "Rugo",
+      "year": "2016",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2636,
+      "abstractSha256": "84636f7b7d99fae4ff5a0b355c7c5895a5b764866b47f082aee106cf12b791af",
+      "bodyRead": "Targeted complete paragraphs",
+      "bodyParagraphOrdinals": [
+        2,
+        3,
+        6,
+        7,
+        10,
+        11,
+        15,
+        17,
+        19,
+        20,
+        21,
+        24,
+        25,
+        27,
+        29,
+        31,
+        32
+      ],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase II",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "27406345",
+              "reference": "N Engl J Med. 2016 Jul 7;375(1):7-9. doi: 10.1056/NEJMp1602256.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "27406352",
+              "reference": "N Engl J Med. 2016 Jul 7;375(1):83-4. doi: 10.1056/NEJMe1603691.",
+              "type": "Comment in",
+              "orderIn": 2
+            },
+            {
+              "source": "MED",
+              "id": "28249538",
+              "reference": "Chin Clin Oncol. 2017 Feb;6(1):3. doi: 10.21037/cco.2016.12.01.",
+              "type": "Comment in",
+              "orderIn": 3
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-27406346",
+      "pmid": "27406346",
+      "pmcid": "PMC5259558",
+      "doi": "10.1056/nejmoa1513750",
+      "title": "Adaptive Randomization of Neratinib in Early Breast Cancer.",
+      "firstAuthor": "Park",
+      "year": "2016",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2453,
+      "abstractSha256": "15d4b01b9e9b6ddbea115049154866f71e4b3c4ceb5f0afc3ee697c5418205e2",
+      "bodyRead": "Targeted complete paragraphs",
+      "bodyParagraphOrdinals": [
+        7,
+        17,
+        23,
+        24,
+        28
+      ],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase II",
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "27406345",
+              "reference": "N Engl J Med. 2016 Jul 7;375(1):7-9. doi: 10.1056/NEJMp1602256.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "27406352",
+              "reference": "N Engl J Med. 2016 Jul 7;375(1):83-4. doi: 10.1056/NEJMe1603691.",
+              "type": "Comment in",
+              "orderIn": 2
+            },
+            {
+              "source": "MED",
+              "id": "27797314",
+              "reference": "N Engl J Med. 2016 Oct 20;375(16):1592-3. doi: 10.1056/NEJMc1609993.",
+              "type": "Comment in",
+              "orderIn": 3
+            },
+            {
+              "source": "MED",
+              "id": "28103001",
+              "reference": "N Engl J Med. ;375(16):1592. doi: 10.1056/NEJMc1609993.",
+              "type": "Comment in",
+              "orderIn": 4
+            },
+            {
+              "source": "MED",
+              "id": "28103002",
+              "reference": "N Engl J Med. ;375(16):1593-4. doi: 10.1056/NEJMc1609993.",
+              "type": "Comment in",
+              "orderIn": 5
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-32053137",
+      "pmid": "32053137",
+      "pmcid": "PMC7058271",
+      "doi": "10.1001/jamaoncol.2019.6650",
+      "title": "Effect of Pembrolizumab Plus Neoadjuvant Chemotherapy on Pathologic Complete Response in Women With Early-Stage Breast Cancer: An Analysis of the Ongoing Phase 2 Adaptively Randomized I-SPY2 Trial.",
+      "firstAuthor": "Nanda",
+      "year": "2020",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              1
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              1
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2020,
+              5,
+              1
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees after retaining the subtitle omitted from Crossref title[0]",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2963,
+      "abstractSha256": "6b622101f72155f6a88f224b28ca2537fa9c1c19c9dcb1021330b691619e868d",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase II",
+            "research-article",
+            "Adaptive Clinical Trial",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "32127649",
+              "reference": "Nat Rev Clin Oncol. 2020 Apr;17(4):196. doi: 10.1038/s41571-020-0349-3.",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-23268518",
+      "pmid": "23268518",
+      "pmcid": null,
+      "doi": "10.1001/jama.2012.87802",
+      "title": "Reporting of noninferiority and equivalence randomized trials: extension of the CONSORT 2010 statement.",
+      "firstAuthor": "Piaggio",
+      "year": "2012",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2012,
+              12,
+              26
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2012,
+              12,
+              26
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2012,
+              12,
+              26
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees after retaining the subtitle omitted from Crossref title[0]",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 1108,
+      "abstractSha256": "5195fe11737b4707f34d1c9ef25d1fc061a052a206dfcefb3706b4ce0cfe4f89",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Guideline",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "23592098",
+              "reference": "JAMA. 2013 Apr 17;309(15):1584-5. doi: 10.1001/jama.2013.3086.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "23592099",
+              "reference": "JAMA. 2013 Apr 17;309(15):1585. doi: 10.1001/jama.2013.3095.",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-28898379",
+      "pmid": "28898379",
+      "pmcid": "PMC5672806",
+      "doi": "10.1001/jama.2017.11470",
+      "title": "Effect of Axillary Dissection vs No Axillary Dissection on 10-Year Overall Survival Among Women With Invasive Breast Cancer and Sentinel Node Metastasis: The ACOSOG Z0011 (Alliance) Randomized Clinical Trial.",
+      "firstAuthor": "Giuliano",
+      "year": "2017",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2017,
+              9,
+              12
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2017,
+              9,
+              12
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2017,
+              9,
+              12
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees after retaining the subtitle omitted from Crossref title[0]",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2719,
+      "abstractSha256": "8cce2569f780209a533bb3cc2b3fb9e9327556ba14ca6e0060afd2ef04a72d5a",
+      "bodyRead": "Targeted complete paragraphs",
+      "bodyParagraphOrdinals": [
+        8,
+        9,
+        14,
+        32
+      ],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "28898365",
+              "reference": "JAMA. 2017 Sep 12;318(10):909-911. doi: 10.1001/jama.2017.12890",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "29340668",
+              "reference": "JAMA. 2018 Jan 16;319(3):306. doi: 10.1001/jama.2017.18312",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-31178152",
+      "pmid": "31178152",
+      "pmcid": "PMC6615016",
+      "doi": "10.1016/s0140-6736(19)30650-6",
+      "title": "6 versus 12 months of adjuvant trastuzumab for HER2-positive early breast cancer (PERSEPHONE): 4-year disease-free survival results of a randomised phase 3 non-inferiority trial.",
+      "firstAuthor": "Earl",
+      "year": "2019",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2019,
+              6
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2019,
+              6
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2019,
+              6
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2700,
+      "abstractSha256": "a87607b29399faccaf95c696b3e0d675173fa786b4f2cc6baa16fcbca53f3afe",
+      "bodyRead": "Targeted complete paragraphs",
+      "bodyParagraphOrdinals": [
+        17,
+        18,
+        32
+      ],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "Comparative Study",
+            "Equivalence Trial",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "31178153",
+              "reference": "Lancet. 2019 Jun 29;393(10191):2565-2567. doi: 10.1016/S0140-6736(19)30946-8.",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "31341271",
+              "reference": "Nat Rev Clin Oncol. 2019 Nov;16(11):663-664. doi: 10.1038/s41571-019-0256-7.",
+              "type": "Comment in",
+              "orderIn": 2
+            },
+            {
+              "source": "MED",
+              "id": "32061289",
+              "reference": "Lancet. 2020 Feb 15;395(10223):491-492. doi: 10.1016/S0140-6736(19)32549-8.",
+              "type": "Comment in",
+              "orderIn": 3
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-34092112",
+      "pmid": "34092112",
+      "pmcid": "PMC8577688",
+      "doi": "10.1200/jco.21.00976",
+      "title": "Randomized Phase III Postoperative Trial of Platinum-Based Chemotherapy Versus Capecitabine in Patients With Residual Triple-Negative Breast Cancer Following Neoadjuvant Chemotherapy: ECOG-ACRIN EA1131.",
+      "firstAuthor": "Mayer",
+      "year": "2021",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              10
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              10
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2021,
+              8,
+              10
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 1892,
+      "abstractSha256": "2c4736f7c1ff4bf36259b7c1c7c48dfb7b1cd9bd793deb952c2a1a3851d622d2",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "research-article",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "34554822",
+              "reference": "J Clin Oncol. 2021 Nov 1;39(31):3519-3521. doi: 10.1200/JCO.21.01537",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "34554848",
+              "reference": "J Clin Oncol. 2021 Nov 1;39(31):3522-3524. doi: 10.1200/JCO.21.01905",
+              "type": "Comment in",
+              "orderIn": 2
+            },
+            {
+              "source": "MED",
+              "id": "34554850",
+              "reference": "J Clin Oncol. 2021 Nov 1;39(31):3521-3522. doi: 10.1200/JCO.21.01757",
+              "type": "Comment in",
+              "orderIn": 3
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-21304082",
+      "pmid": "21304082",
+      "pmcid": "PMC5389857",
+      "doi": "10.1001/jama.2011.90",
+      "title": "Axillary dissection vs no axillary dissection in women with invasive breast cancer and sentinel node metastasis: a randomized clinical trial.",
+      "firstAuthor": "Giuliano",
+      "year": "2011",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              9
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              9
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2011,
+              2,
+              9
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees after retaining the subtitle omitted from Crossref title[0]",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2461,
+      "abstractSha256": "bf67ac26b6166ffa61a30d01d3ce4fc72bbf23c88df1a1b7b3175210b7de3338",
+      "bodyRead": "Targeted complete paragraphs",
+      "bodyParagraphOrdinals": [
+        9
+      ],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial, Phase III",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "21304087",
+              "reference": "JAMA. 2011 Feb 9;305(6):606-7. doi: 10.1001/jama.2011.131",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "21642671",
+              "reference": "JAMA. 2011 Jun 8;305(22):2288-9; author reply 2290-1. doi: 10.1001/jama.2011.751",
+              "type": "Comment in",
+              "orderIn": 2
+            },
+            {
+              "source": "MED",
+              "id": "21642672",
+              "reference": "JAMA. 2011 Jun 8;305(22):2288; author reply 2290-1. doi: 10.1001/jama.2011.750",
+              "type": "Comment in",
+              "orderIn": 3
+            },
+            {
+              "source": "MED",
+              "id": "21642673",
+              "reference": "JAMA. 2011 Jun 8;305(22):2289; author reply 2290-1. doi: 10.1001/jama.2011.753",
+              "type": "Comment in",
+              "orderIn": 4
+            },
+            {
+              "source": "MED",
+              "id": "21642674",
+              "reference": "JAMA. 2011 Jun 8;305(22):2289; author reply 2290-1. doi: 10.1001/jama.2011.752",
+              "type": "Comment in",
+              "orderIn": 5
+            },
+            {
+              "source": "MED",
+              "id": "21642675",
+              "reference": "JAMA. 2011 Jun 8;305(22):2290; author reply 2290-1. doi: 10.1001/jama.2011.755",
+              "type": "Comment in",
+              "orderIn": 6
+            },
+            {
+              "source": "MED",
+              "id": "21642676",
+              "reference": "JAMA. 2011 Jun 8;305(22):2290; author reply 2290-1. doi: 10.1001/jama.2011.754",
+              "type": "Comment in",
+              "orderIn": 7
+            },
+            {
+              "source": "MED",
+              "id": "21790334",
+              "reference": "Womens Health (Lond). 2011 Jul;7(4):417-8. doi: 10.2217/whe.11.46",
+              "type": "Comment in",
+              "orderIn": 8
+            },
+            {
+              "source": "MED",
+              "id": "21844441",
+              "reference": "Arch Surg. 2011 Aug;146(8):980-2. doi: 10.1001/archsurg.2011.181",
+              "type": "Comment in",
+              "orderIn": 9
+            },
+            {
+              "source": "MED",
+              "id": "22269305",
+              "reference": "Can J Surg. 2012 Feb;55(1):66-9. doi: 10.1503/cjs.036011",
+              "type": "Comment in",
+              "orderIn": 10
+            },
+            {
+              "source": "MED",
+              "id": "23135733",
+              "reference": "Strahlenther Onkol. 2012 Dec;188(12):1155-6. doi: 10.1007/s00066-012-0247-4",
+              "type": "Comment in",
+              "orderIn": 11
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-6354290",
+      "pmid": "6354290",
+      "pmcid": null,
+      "doi": "10.2307/2531021",
+      "title": "Sample-size formula for the proportional-hazards regression model.",
+      "firstAuthor": "Schoenfeld",
+      "year": "1983",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              1983,
+              6
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              1983,
+              6
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              1983,
+              6
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 652,
+      "abstractSha256": "5c460e95bf0b98f8133d17d05a44d469fe89872dae78aeeafe94332d49111a7c",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Clinical Trial",
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Journal Article"
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-24439313",
+      "pmid": "24439313",
+      "pmcid": "PMC3982874",
+      "doi": "10.1016/s1470-2045(13)70589-8",
+      "title": "Chemotherapy for isolated locoregional recurrence of breast cancer (CALOR): a randomised trial.",
+      "firstAuthor": "Aebi",
+      "year": "2014",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2014,
+              2
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2014,
+              2
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2014,
+              2
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 2795,
+      "abstractSha256": "29471ef9dbbb9c044950534f8a01b68ee207021c8b8f8acd89670692354b65a5",
+      "bodyRead": "Targeted complete paragraphs",
+      "bodyParagraphOrdinals": [
+        10,
+        21,
+        26
+      ],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, U.S. Gov't, P.H.S.",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Multicenter Study",
+            "Randomized Controlled Trial",
+            "Pragmatic Clinical Trial",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "24439312",
+              "reference": "Lancet Oncol. 2014 Feb;15(2):125-6. doi: 10.1016/S1470-2045(13)70610-7",
+              "type": "Comment in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "24492831",
+              "reference": "Nat Rev Clin Oncol. 2014 Mar;11(3):120. doi: 10.1038/nrclinonc.2014.13",
+              "type": "Comment in",
+              "orderIn": 2
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {},
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "pmid-23571845",
+      "pmid": "23571845",
+      "pmcid": null,
+      "doi": "10.1038/nrn3475",
+      "title": "Power failure: why small sample size undermines the reliability of neuroscience.",
+      "firstAuthor": "Button",
+      "year": "2013",
+      "crossrefDates": {
+        "published-print": {
+          "date-parts": [
+            [
+              2013,
+              5
+            ]
+          ]
+        },
+        "published-online": {
+          "date-parts": [
+            [
+              2013,
+              4,
+              10
+            ]
+          ]
+        },
+        "issued": {
+          "date-parts": [
+            [
+              2013,
+              4,
+              10
+            ]
+          ]
+        },
+        "published": {
+          "date-parts": [
+            [
+              2013,
+              4,
+              10
+            ]
+          ]
+        }
+      },
+      "titleIdentity": "Agrees",
+      "doiIdentity": "EPMC DOI agrees with resolved Crossref work",
+      "abstractRead": "Complete raw abstract; mathematical less-than signs preserved by HTMLParser, not a broad tag-removal regex. BrighTNess complete raw abstract was explicitly reread after that extraction pitfall was found.",
+      "abstractCharacters": 665,
+      "abstractSha256": "416c2bf6b99e3eee1cab49312e80cc3513290d7c1574907323c8b8fab5a8ef00",
+      "bodyRead": "No body assessment in this pass",
+      "bodyParagraphOrdinals": [],
+      "correctionAndCommentMetadata": {
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Review",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "reference": "Nat Rev Neurosci. 2013 Jun;14(6):451",
+              "type": "Erratum in",
+              "orderIn": 1
+            },
+            {
+              "source": "MED",
+              "id": "23820772",
+              "reference": "Nat Rev Neurosci. 2013 Aug;14(8):585. doi: 10.1038/nrn3475-c1.",
+              "type": "Comment in",
+              "orderIn": 2
+            },
+            {
+              "source": "MED",
+              "id": "23820775",
+              "reference": "Nat Rev Neurosci. 2013 Aug;14(8):585. doi: 10.1038/nrn3475-c3.",
+              "type": "Comment in",
+              "orderIn": 3
+            },
+            {
+              "source": "MED",
+              "id": "23820777",
+              "reference": "Nat Rev Neurosci. 2013 Aug;14(8):585. doi: 10.1038/nrn3475-c2.",
+              "type": "Comment in",
+              "orderIn": 4
+            },
+            {
+              "source": "MED",
+              "id": "23820778",
+              "reference": "Nat Rev Neurosci. 2013 Aug;14(8):585-6. doi: 10.1038/nrn3475-c4.",
+              "type": "Comment in",
+              "orderIn": 5
+            },
+            {
+              "source": "MED",
+              "id": "24149186",
+              "reference": "Nat Rev Neurosci. 2013 Dec;14(12):877. doi: 10.1038/nrn3475-c6.",
+              "type": "Comment in",
+              "orderIn": 6
+            },
+            {
+              "source": "MED",
+              "id": "24149189",
+              "reference": "Nat Rev Neurosci. 2013 Dec;14(12):877. doi: 10.1038/nrn3475-c5.",
+              "type": "Comment in",
+              "orderIn": 7
+            }
+          ]
+        }
+      },
+      "crossrefUpdateTo": [],
+      "crossrefRelation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.718002370.793475584",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.718002370.793480398",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.718002370.793478334",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.718002370.793476498",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.718002370.793475357",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "wholePaperRead": false,
+      "correctionQualification": "Erratum DOI 10.1038/nrn3502 independently resolved and the publisher landing captured. Its body is not certified read; no numerical neuroscience estimate is adopted."
+    },
+    {
+      "sourceId": "ctneobc-epmc.json",
+      "pmid": "24529560",
+      "pmcid": null,
+      "doi": "10.1016/s0140-6736(13)62422-8",
+      "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+      "authors": "Cortazar P, Zhang L, Untch M, Mehta K, Costantino JP, Wolmark N, Bonnefoi H, Cameron D, Gianni L, Valagussa P, Swain SM, Prowell T, Loibl S, Wickerham DL, Bogaerts J, Baselga J, Perou C, Blumenthal G, Blohmer J, Mamounas EP, Bergh J, Semiglazov V, Justice R, Eidtmann H, Paik S, Piccart M, Sridhara R, Fasching PA, Slaets L, Tang S, Gerber B, Geyer CE, Pazdur R, Ditsch N, Rastogi P, Eiermann W, von Minckwitz G.",
+      "year": "2014",
+      "identity": "Crossref and Europe PMC agree on work, DOI, first author and year; subtitle differences retained",
+      "abstractRead": "Complete raw abstract",
+      "abstractCharacters": 2955,
+      "abstractSha256": "35fbdd1a41d70fc6f33a092d0ece590edfda22d8b20c81c0f204644e2c4e3331",
+      "bodyRead": "None",
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "ispy22-epmc.json",
+      "pmid": "39277671",
+      "pmcid": "PMC12044543",
+      "doi": "10.1038/s41591-024-03266-2",
+      "title": "Datopotamab-deruxtecan in early-stage breast cancer: the sequential multiple assignment randomized I-SPY2.2 phase 2 trial.",
+      "authors": "Khoury K, Meisel JL, Yau C, Rugo HS, Nanda R, Davidian M, Tsiatis B, Chien AJ, Wallace AM, Arora M, Rozenblit M, Hershman DL, Zimmer A, Clark AS, Beckwith H, Elias AD, Stringer-Reasor E, Boughey JC, Nangia C, Vaklavas C, Omene C, Albain KS, Kalinsky KM, Isaacs C, Tseng J, Roussos Torres ET, Thomas B, Thomas A, Sanford A, Balassanian R, Ewing C, Yeung K, Sauder C, Sanft T, Pusztai L, Trivedi MS, Outhaythip A, Li W, Onishi N, Asare AL, Beineke P, Norwood P, Brown-Swigart L, Hirst GL, Matthews JB, Moore B, Fraser Symmans W, Price E, Beedle C, Perlmutter J, Pohlmann P, Shatsky RA, DeMichele A, Yee D, van 't Veer LJ, Hylton NM, Esserman LJ.",
+      "year": "2024",
+      "identity": "Crossref and Europe PMC agree on work, DOI, first author and year; subtitle differences retained",
+      "abstractRead": "Complete raw abstract",
+      "abstractCharacters": 2071,
+      "abstractSha256": "d52d24cc7a2747f945bdc0ffef6f7fc1bd7b8acf88c91d645f97eb0ae6122083",
+      "bodyRead": "Targeted first five selected complete body paragraphs",
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "fine-gray-1999",
+      "doi": "10.1080/01621459.1999.10474144",
+      "title": [
+        "A Proportional Hazards Model for the Subdistribution of a Competing Risk"
+      ],
+      "authors": [
+        {
+          "given": "Jason P.",
+          "family": "Fine",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Wisconsin",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert J.",
+          "family": "Gray",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harvard University",
+              "place": [
+                "USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            1999,
+            6
+          ]
+        ]
+      },
+      "identity": "Crossref resolved exact DOI; no EPMC hit from the frozen DOI query",
+      "abstractRead": "No abstract available in resolved registry",
+      "bodyRead": "None; Fine-Gray definitions use the separately read Austin passages",
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "hoenig-heisey-2001",
+      "doi": "10.1198/000313001300339897",
+      "title": [
+        "The Abuse of Power"
+      ],
+      "authors": [
+        {
+          "given": "John M",
+          "family": "Hoenig",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dennis M",
+          "family": "Heisey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": {
+        "date-parts": [
+          [
+            2001,
+            2
+          ]
+        ]
+      },
+      "identity": "Crossref resolved exact DOI; no EPMC hit from the frozen DOI query",
+      "abstractRead": "Read the complete abstract on PDF page 2",
+      "bodyRead": "Section 2.1, PDF pages 2 to 3",
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "button-erratum-2013",
+      "doi": "10.1038/nrn3502",
+      "title": [
+        "Erratum: Power failure: why small sample size undermines the reliability of neuroscience"
+      ],
+      "authors": [
+        {
+          "given": "Katherine S.",
+          "family": "Button",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "John P. A.",
+          "family": "Ioannidis",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Claire",
+          "family": "Mokrysz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian A.",
+          "family": "Nosek",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Flint",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emma S. J.",
+          "family": "Robinson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marcus R.",
+          "family": "Munafó",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "year": 2013,
+      "identity": "Crossref exact erratum and original DOI relation, agreeing with EPMC Erratum-in metadata",
+      "abstractRead": "None",
+      "bodyRead": "Publisher landing metadata only; correction content remains unassessed",
+      "wholePaperRead": false
+    }
+  ],
+  "methodAndGuidanceReadings": [
+    {
+      "sourceId": "ich-e9.pdf",
+      "url": "https://www.fda.gov/media/71336/download",
+      "sha256": "f64a79a9800d523e50ac3c33af6fbd5de0c229b984e51b224bd5d58c26b12325",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        18,
+        24,
+        28,
+        31,
+        32,
+        33,
+        34
+      ],
+      "pageTextSha256": {
+        "18": "f772c1691e4359120f5ba16cf2ca47f5467ebf5eb4f2f6de00bd0e08f466687f",
+        "24": "fbfbd53ab844eb858a8e14de6df07b617e3fd827bb5019dbeeab580c8072cc68",
+        "28": "bedfca40520869a5745eafc278f75c3b647f68f69b9d7af27bf30da730c781ac",
+        "31": "03f65a2ccdfbaaca6b0bd8fbf925c4d96f44c619c8c65da8b7327f0a922738dd",
+        "32": "7879eff5b3769c3f43ecbfd1fb7bb3020dec63267f14715c5726a7c200a43b2a",
+        "33": "2c63a6b5f51368f76ad0dd146bb26f1a9acd27dc01ac6f57c8b91f8b7d0e425a",
+        "34": "f99abb64ca8559217c32186a5d9e93bf6adfded20f63b69acf78779e21c8589d"
+      },
+      "pixelReviewPages": [],
+      "status": "Dated methodological source"
+    },
+    {
+      "sourceId": "ich-e9-r1.pdf",
+      "url": "https://www.fda.gov/media/148473/download",
+      "sha256": "5b274cf44361195fe95295598ad046e7a072d90da5309a8cb3cdb0b44bbff688",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        17
+      ],
+      "pageTextSha256": {
+        "8": "ef0649bedbf7d193bd27608dfbbbaa518ebde58092c8f7186d94582712ea602d",
+        "9": "27fe9f7d89aaab4719df6ab14154a5b95e567bfbb4e973642086ded5323b3a77",
+        "10": "ae6338efa183237c7dcef1a1a95ba6493c27cd29cbac90b89ca89863838a3a98",
+        "11": "868c54015f7486b620a34db502a6f82db7e3bf0d60487fded0b9f1feacbdaf31",
+        "12": "a1b6b85dd34c87ddd663c344dfdb916f70c9ace51189d33028b91adc73d181fb",
+        "13": "5ed1505e222deee598d4ee3dbedf5a37e73c196b2560b56e824c2bfd152f0ba4",
+        "14": "0f4d3fa1c386c08fd9c0491c1bc0337769381d7f545c698c04ee28dbe42a94ad",
+        "17": "f12f0b93190dcb4c39891c369fbc45ffde2c328be0f80323397a12092da8b472"
+      },
+      "pixelReviewPages": [],
+      "status": "Dated methodological source"
+    },
+    {
+      "sourceId": "fda-adaptive-2019.pdf",
+      "url": "https://www.fda.gov/media/78495/download",
+      "sha256": "c8b48547036f69ad95b4aac55510bd0c37ead058dd35dbc7cd0c15085e371a89",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        5,
+        6,
+        8,
+        21,
+        22,
+        23
+      ],
+      "pageTextSha256": {
+        "5": "34721a5af57b612e8fa6b8ede6d53987d6b38504a9d2b4c276b11007a6174c3d",
+        "6": "fdb67cb1fdebc30090161c1579f6c474a6416e0d956f5fd501aadaeb74201a16",
+        "8": "811df1dfb722420c3720cb9cdc01663945014a4c1ea7d3ab56152ecfd7ae13ee",
+        "21": "800a2a48b3559095f079165b55b3a2c96d3df32a8e7edfc7ce931213348197d4",
+        "22": "11711c92a20ee52f7311d6279d73d54427749d514000a55feb2882f7b66efb23",
+        "23": "1d25d01b4c12b7ef6620eae839b399783cfc4d9c7ffbb28c7c36ef96bb3e4950"
+      },
+      "pixelReviewPages": [],
+      "status": "Final dated guidance"
+    },
+    {
+      "sourceId": "fda-ni-2016.pdf",
+      "url": "https://www.fda.gov/media/78504/download",
+      "sha256": "9eb8993e8be5ce94d6accb24f35d179993bb48f2899d275b4d0f837944cbfc61",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "pageTextSha256": {
+        "9": "21075ab03918de678bf6330e873afc6c33b8dbdadc803c7e4e8778a0455ffb34",
+        "10": "2f0c52f8bed2d36162cf5640b8b7843f592d91f4b4a87d6c447a1245a3f3c1b7",
+        "11": "39aad3f83381d52ff88cdb00daaee02ab03ca489731c9ccd4ef0f53c9469613d",
+        "12": "7edd15ef9814e0b279713f7386e1ebee8e3241d389894ee7799ee2a5a333fdf5",
+        "16": "dea7e895e9658375eb90f726c4bc609a7b55824647b2b609cbb7569fe49a7ebe"
+      },
+      "pixelReviewPages": [],
+      "status": "Final dated guidance"
+    },
+    {
+      "sourceId": "fda-bayesian-2026.pdf",
+      "url": "https://www.fda.gov/media/190505/download",
+      "sha256": "299c9ed12dc43e24c618a1133d336e18eb4ea14eab75e4ea1a7e5328cafcdad6",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        1,
+        4,
+        6,
+        7,
+        15,
+        23,
+        24
+      ],
+      "pageTextSha256": {
+        "1": "de9dcf92809dc64c0992d3a04d906b74654e38c0327704f0c99a34b11e3ae75b",
+        "4": "249b27046eb2e0a8c8595b6ee326db21325433637bc190eb7ddda0c7983f8aa7",
+        "6": "be3d292f408ebf167f02025117e27e852ee2e7d577bbd34414ff0e039d4a2590",
+        "7": "9434fc2026c58260544e5f2466b266bc6a23b085678988c9f550c82cbc68d381",
+        "15": "036013fe56fb6dd51cba4c36421ae2a2da95611f7122482f79bd40cdf4031ad7",
+        "23": "0fbabd566c60a27ece1f1013e53686cf65380b3f8c0d35de379593d5ceeb501b",
+        "24": "f5e1e92e71aea4f9e85c21806efa84387389aadeaec1406081fcabc613292765"
+      },
+      "pixelReviewPages": [],
+      "status": "January 2026 draft, not for implementation, nonbinding"
+    },
+    {
+      "sourceId": "fda-master-2022.pdf",
+      "url": "https://www.fda.gov/media/120721/download",
+      "sha256": "8ca4c05cace3d271e4e421a9cbb8b9bf73ab6737b9f306567300f8a7a4b70fc9",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        7
+      ],
+      "pageTextSha256": {
+        "7": "6a8baf396c39f4422eb5728d2d43644368960280b1c6ceb316c0087734933cc8"
+      },
+      "pixelReviewPages": [],
+      "status": "Final dated guidance"
+    },
+    {
+      "sourceId": "fda-pcr-2020.pdf",
+      "url": "https://www.fda.gov/media/83507/download",
+      "sha256": "9d3c714624718290f7f8c36f69aa6f3121d0a9ba137a579ee5de9f04dd21e563",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        7
+      ],
+      "pageTextSha256": {
+        "7": "e97da34ad96a24e34c11c8e79a3b95808d0c0ed3da5331a3ec9af87da6c4f7be"
+      },
+      "pixelReviewPages": [],
+      "status": "Final dated guidance"
+    },
+    {
+      "sourceId": "therneau-competing.pdf",
+      "url": "https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf",
+      "sha256": "a23bfbe61f702fb931c37bc54195c0646920da686579f6207629296c6525cc03",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        1,
+        3,
+        9
+      ],
+      "pageTextSha256": {
+        "1": "fe0c6bac7ce3ac7cde07f80ef2069b6a7728a49851db84d5d02f5c641613c88a",
+        "3": "32acade686cb8731e801cad08f1c5c422e5af57f2a8398e1149ca2ea59667b78",
+        "9": "bd9b60b391f05cd0a3ab96c57676f1f00cf75ae57f7a6aaa0dca8f3db41ba078"
+      },
+      "pixelReviewPages": [
+        3
+      ],
+      "status": "Dated methodological source"
+    },
+    {
+      "sourceId": "hoenig-heisey-2001.pdf",
+      "url": "https://sciences.ucf.edu/biology/d4lab/wp-content/uploads/sites/24/2016/11/HoenigHeisey2001.pdf",
+      "sha256": "8780f3dbe3d27247554253f99addf4017b20cdc67ff5d41fd5dcaacfef904bf0",
+      "readingDepth": "Selected complete text-layer pages only; not whole document",
+      "pdfPagesRead": [
+        2,
+        3
+      ],
+      "pageTextSha256": {
+        "2": "6792556bec42c8344673770efeb9d923ce04dc9d59882c5167677d5551f310aa",
+        "3": "87e0405851e6306fbc811b0227a97602ea93d5f14976067da897c8817017e7d5"
+      },
+      "pixelReviewPages": [],
+      "status": "Dated methodological source"
+    },
+    {
+      "sourceId": "gsSurv-event-design.html",
+      "url": "https://keaven.github.io/gsSurv/nsurv.html",
+      "readingDepth": "Section 2.3.2.1 Schoenfeld approximation, including equation, null-variance assumption and superiority restriction; not whole manual",
+      "captureSha256": "cee5d567faf425acf5ec978cc48cb43d8e723f8050a42d4e577827ac4032165c"
+    }
+  ],
+  "targetedPassageReceipts": [
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 4,
+      "sha256": "32d07bcca81a24517e9e1d053b26c9115b73f13c45ba32b5c9bf1784700e4577"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 8,
+      "sha256": "2a90266cc86435e0ed8ba9fbcedb39dc4b221713cbf352d7b80b13074f2afd31"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 9,
+      "sha256": "a4df6242cf7fdb639c51012f6bb6c572fb8fac08ab07ac5085d85d498c9da648"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 13,
+      "sha256": "71bd3deab2a8eda5eb471bf4bdc26c4f3ba9d56dbddf35caa01957bd57120655"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 14,
+      "sha256": "c62b29204d31e34138549dc1b772a1aca89428180078e765b8eb6387fe4d7537"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 15,
+      "sha256": "27b1b93cbd5c051b24c457b2074855b9689f3772297d21f6bb9abeffc1aee2bc"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 18,
+      "sha256": "110556418ff3ea22693a130a675edc2427bbd56ece60b7958d399a3e0e90f2d9"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 37,
+      "sha256": "0b6144d2b33bcf37ebf9d0081e1e2ba967ac1f0748e2ad04e88ecb947b1c5d1e"
+    },
+    {
+      "sourceId": "pmid-26858290",
+      "captureFile": "pmid-26858290-fulltext.xml",
+      "ordinal": 40,
+      "sha256": "1d500b948dbab843d01012fe9ceee5928785dd04654d7b86048840663428bbe9"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 2,
+      "sha256": "e3fc351a177298b1a88e85fdcecd1b837b0258c75e548cb7cd7f728cd6346f2a"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 3,
+      "sha256": "6e29e187c2e9b93fedbe8756b94ce8edf20d999b33992bf213773955fdf14cb9"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 6,
+      "sha256": "c453f7dfb63cced4a46039b658e9c602d851f80a23cff7e1335a00569e85879a"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 7,
+      "sha256": "5a737763229ed009c9c8530b8ad7dbe5c5831e62c5cbaf6f65d6c8426e337bb2"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 10,
+      "sha256": "508d5424816376da6e579e2887d8b588435adb0dbde26cd9ed4002c1cd604a75"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 11,
+      "sha256": "629a0114cc7f9f5d428271d72c31ad4fac91037de5207f0f5f70d1d9eb88d04f"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 15,
+      "sha256": "0af8c5d4498759d46d924089f4994c3a2f84abf6ecc41386965bc21ed100099c"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 17,
+      "sha256": "e5b5a347dc38511c5f94834a546d05de2ebc3d664c8aa600e714c01f3380f8db"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 19,
+      "sha256": "e951c8645612dc0db4cd9d71d7e2b5d4db573fd7c55cfd4c929da105709c4dc7"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 20,
+      "sha256": "ae39de55ced886d64bf5d8dacdbe32a946534e49e0bb27581db01a3eebb6727f"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 21,
+      "sha256": "4455d639ace555dcbd86c62d202f02ba1a0a85acc87ac629fa88b9be3078cbd1"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 24,
+      "sha256": "f82c6b26211c0ba58bc34b88c601d8636e8f5207d20ae491c4435920ec9d744b"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 25,
+      "sha256": "34bfff90352c27c5be4d684b7fa722ea806182fcb901676003c340e51e04482f"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 27,
+      "sha256": "59755970c800db7dbb83b7f18958410eab1f1e7a5f7e3b7f55b18bdc3b70abc2"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 29,
+      "sha256": "b4ed556ee800080d34145e75e3917b611b1f8e939fa18dfdff11880f22216d4e"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 31,
+      "sha256": "d16d0014ab41dc474ab6bebb8643c57597c7cd229398bab73aabeb2d4ffe9047"
+    },
+    {
+      "sourceId": "pmid-27406347",
+      "captureFile": "pmid-27406347-efetch.xml",
+      "ordinal": 32,
+      "sha256": "6dbde52abe517f00d3ef7ebf6a35e8c4350cf5d6b21cea0ba767aa1224038659"
+    },
+    {
+      "sourceId": "pmid-27406346",
+      "captureFile": "pmid-27406346-efetch.xml",
+      "ordinal": 7,
+      "sha256": "9edc03cda76a4d0348a4de17acb9776e5e70dbeb56b35cdf81718d8a6e95db30"
+    },
+    {
+      "sourceId": "pmid-27406346",
+      "captureFile": "pmid-27406346-efetch.xml",
+      "ordinal": 17,
+      "sha256": "a6d06924d3b00f9e348e0295578fec8f6858811028a90d0d95f7af11bf82d7db"
+    },
+    {
+      "sourceId": "pmid-27406346",
+      "captureFile": "pmid-27406346-efetch.xml",
+      "ordinal": 23,
+      "sha256": "dd53da0cdf1dd73d980021dbc4290a598955fc54f3a7d74c8a20c8b3014fa5ef"
+    },
+    {
+      "sourceId": "pmid-27406346",
+      "captureFile": "pmid-27406346-efetch.xml",
+      "ordinal": 24,
+      "sha256": "024cd076dbed9cabe1657aaa47b2f211efdfdedde30650694ecc2d8f7f6fba93"
+    },
+    {
+      "sourceId": "pmid-27406346",
+      "captureFile": "pmid-27406346-efetch.xml",
+      "ordinal": 28,
+      "sha256": "79c451530188e2ad8481da8c0418a1b17d5934bacb034ce49c47c265864b5ade"
+    },
+    {
+      "sourceId": "pmid-28898379",
+      "captureFile": "pmid-28898379-efetch.xml",
+      "ordinal": 8,
+      "sha256": "dfc295d06b5a53676b14440a26f406baa1581202ca3655b2c547187b4d2c6a93"
+    },
+    {
+      "sourceId": "pmid-28898379",
+      "captureFile": "pmid-28898379-efetch.xml",
+      "ordinal": 9,
+      "sha256": "c633db2097d0c78c14a3627f7b626e4dfddac2a18ccb4ff719c8258b36fd2110"
+    },
+    {
+      "sourceId": "pmid-28898379",
+      "captureFile": "pmid-28898379-efetch.xml",
+      "ordinal": 14,
+      "sha256": "f3dde25b8f8fbd246155a2e07950f268f37423f6589dbab4ee925c8872a3aa29"
+    },
+    {
+      "sourceId": "pmid-28898379",
+      "captureFile": "pmid-28898379-efetch.xml",
+      "ordinal": 32,
+      "sha256": "77479947365e03756070e0fa37a4b9e340f4916789c78dd7b73e04a76b83de1b"
+    },
+    {
+      "sourceId": "pmid-31178152",
+      "captureFile": "pmid-31178152-fulltext.xml",
+      "ordinal": 17,
+      "sha256": "31e11cb15c839adb74be1543c8682c3a0c24206368e968ec18c336cd7efb0fc6"
+    },
+    {
+      "sourceId": "pmid-31178152",
+      "captureFile": "pmid-31178152-fulltext.xml",
+      "ordinal": 18,
+      "sha256": "77c3d67d4c37f54312f7e85d19dbd13848b0e3f16bf47f80211796ed694a368b"
+    },
+    {
+      "sourceId": "pmid-31178152",
+      "captureFile": "pmid-31178152-fulltext.xml",
+      "ordinal": 32,
+      "sha256": "759bb74aa9b1da56d7cad4124afbaf983b9acafec618e8d0c0987911ada34f62"
+    },
+    {
+      "sourceId": "pmid-21304082",
+      "captureFile": "pmid-21304082-efetch.xml",
+      "ordinal": 9,
+      "sha256": "6104c2276f7122645abb4e500fc83d26d03d4046b52a8d17cf5f74dc6c8e0947"
+    },
+    {
+      "sourceId": "pmid-24439313",
+      "captureFile": "pmid-24439313-efetch.xml",
+      "ordinal": 10,
+      "sha256": "92f1cb9df3e129872b411796311659b3dbedeb6fc7a46dedaa528bb9f547af05"
+    },
+    {
+      "sourceId": "pmid-24439313",
+      "captureFile": "pmid-24439313-efetch.xml",
+      "ordinal": 21,
+      "sha256": "0f5e4829cab499812d0350377db721b84690c97fabad5b9cf70bb166d566eb91"
+    },
+    {
+      "sourceId": "pmid-24439313",
+      "captureFile": "pmid-24439313-efetch.xml",
+      "ordinal": 26,
+      "sha256": "3d2b79bc7ece23e20f0c90a245ba7c3f86829d2b253b4dd42498cdc659bc5ebc"
+    },
+    {
+      "sourceId": "ispy22-efetch.xml",
+      "ordinal": 2,
+      "sha256": "e7e662c0f360e5b518ba02a71f2330f426ba3d4704429475c1d2e341e55cd311"
+    },
+    {
+      "sourceId": "ispy22-efetch.xml",
+      "ordinal": 3,
+      "sha256": "6e125d951547a8e7c2f50d65c34ebd29a9fef49c18f6b67bb5dbf01dae29a461"
+    },
+    {
+      "sourceId": "ispy22-efetch.xml",
+      "ordinal": 8,
+      "sha256": "ca4bc871320ea6ef7922fb3f76f6bb74927a2d08eb9bc35cdbf75fde30803b08"
+    },
+    {
+      "sourceId": "ispy22-efetch.xml",
+      "ordinal": 10,
+      "sha256": "8213d1d30cd76dd2128e5305fb99d9e3a9eac64d8d2a52df87fce86e892860ec"
+    },
+    {
+      "sourceId": "ispy22-efetch.xml",
+      "ordinal": 11,
+      "sha256": "7cd20d11f2918ef883577415343e9e5d18fb24d1c35e707d67d5d400a75267db"
+    }
+  ],
+  "identityReview": "Title, first author, DOI and date reviewed. Four JAMA subtitle differences and one online/print year difference are explicit. Button erratum is identified; registry comments are not treated as retractions. Registry metadata is not a whole-literature correction search.",
+  "limits": [
+    "Most publications are abstract-only. Body paragraphs and official PDF pages listed here are targeted readings, never first-to-last full-text claims.",
+    "Schoenfeld university mirror returned HTTP 202 with an empty body. Its exact body was not read; formula support is the stated technical manual and independent calculation.",
+    "The old I-SPY2.2 sponsor URL returned 404. The separately resolved 2024 report and valid NCBI full text supply the described design, without inventing sponsor content.",
+    "Button erratum content and many linked older clinical catalogues remain outside this source-depth certification. No quantitative neuroscience estimate is used.",
+    "No callable Elicit scientific tool was available. Search tools supplied leads only; no question, report link or response is invented."
+  ],
+  "sourceIdentityErrors": [],
+  "retainedVersions": "Original path absence, later source reading and peer-versus-root status stay separate."
+}

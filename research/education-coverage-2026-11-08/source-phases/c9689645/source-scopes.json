@@ -1,0 +1,29 @@
+{
+  "checkedOn": "2026-11-09",
+  "items": [
+    {
+      "source": "Wahl et al. 2009, DOI 10.2967/jnumed.108.057307, PMID 19403881",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2755245/",
+      "scope": "Identity and complete MED abstract resolved at prior checkpoint. This follow-up reads selected Introduction to PERCIST/Table 7, ROI, normalisation, timing, background and progression passages through the primary-page parser. Table 7 progression uses strictly greater than 0.8 SUL units, unlike the newer curriculum short table's at-least wording. PMR and PMD conditions remain distinct. The abnormal-liver alternative and TLG routes are named without inventing a universal algorithm from conflicting abbreviated lines. No entire-article review, clinical validation or personal scan timing is inferred."
+    },
+    {
+      "source": "Riedl et al. 2017, PMID 28462446",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28462446/",
+      "scope": "Independently resolved title/DOI/PMID and complete MED abstract read. The 65-person metastatic first-/second-line cohort, 22 RECIST responders, 17/43 cross-classification, PFS concordance and 4-year DSS are abstract-supported. No full-text review, TNBC-specific outcome, personal prognosis or treatment-guided benefit is claimed. The primary article challenge is excluded."
+    },
+    {
+      "source": "21 CFR 312.8, 312.310(d) and 56.104(c)",
+      "urls": [
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-A/section-312.8",
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-D/part-312/subpart-I/section-312.310",
+        "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-56/subpart-A/section-56.104"
+      ],
+      "rawMirrors": [
+        "https://www.law.cornell.edu/cfr/text/21/312.8",
+        "https://www.law.cornell.edu/cfr/text/21/312.310",
+        "https://www.law.cornell.edu/cfr/text/21/56.104"
+      ],
+      "scope": "Read the operative direct/indirect cost and larger-program provisions, emergency prior authorisation/written follow-up, and emergency IRB/subsequent-use clauses. Raw mirror text agrees with independently opened current eCFR primary text. Direct eCFR HTML fetches returned access bodies and XML returned 406; none was promoted to an operative raw regulation capture. No personal eligibility, cost estimate or free-care promise is inferred."
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "dataCommit": "d49a0f58aa230c53a5be44c3025a1ce2adf918d5",
+  "graphCount": 23023,
+  "gates": {
+    "results": [
+      {
+        "name": "typecheck-r2",
+        "exitCode": 0,
+        "seconds": 3.64,
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "lint-r2",
+        "exitCode": 0,
+        "seconds": 1.89,
+        "logSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "validate-r2",
+        "exitCode": 0,
+        "seconds": 2.28,
+        "logSha256": "83287051c0c0f990efde45efbb1ff58665a4ac8228d1c299ef22ae56f6b5c2f9"
+      },
+      {
+        "name": "full-suite-r2",
+        "exitCode": 0,
+        "seconds": 96.36,
+        "logSha256": "cc46f3feb608bd97325f91a3bce3028c6d31689c00f5414bf8efd46f046a3945"
+      }
+    ],
+    "sourceCodeHashesBefore": {
+      "src/data/education-access-evidence.ts": "27a45648d9ebdc834165ccaf9b2458fb87c775bd9ca569b2c940d07cc72f435d",
+      "src/data/i18n/ar.ts": "bef8b7f2be436e3723e8a47c8419b0f5039c8516fa431f7f73dfd478a6f21f6e",
+      "src/data/i18n/de.ts": "79413a0b79e03e8f8c808413be41b384cf3d5e6467c6d0119e70d668e6bcee16",
+      "src/data/i18n/es.ts": "d102cc24ac75ddd229c18bda949d75e0548a3c049c3a2e0abec92355875102c2",
+      "src/data/i18n/fr.ts": "01c1cce7ddea4d0ff9a6c8468f20fc10e1dec25e9534cd9792d71cc04e9cf66f",
+      "src/data/i18n/hi.ts": "0b042d57b3cabf90b37b42b7f2f88618bed3204751f6f51a1982f2ce0c03c907",
+      "src/data/i18n/ja.ts": "73594a321c040ec76d09daf913cf206c4a0afc7f0c67e333558ac9badfb6ba8f",
+      "src/data/i18n/pt.ts": "8736121836ab3a5cede21f2d4aa307fed0f133a4f3f82e1eb7f54a1a5c73b1d6",
+      "src/data/i18n/zh.ts": "16f5ffa7651f5017b32acbbe5f4ec4e7f3b2baa6fa1e370af17e6fe7505fe8d1",
+      "src/data/law-wave.ts": "1555a4dfe5ed28f90fe68eaece74cb69ed9f76bb66e32680f5dc9a511eda1129",
+      "src/data/simple/part-j.ts": "e8850a997e70c26631259eb1a8fa3a547e5ecf7ef1fcd6684acdf81ba047e911",
+      "src/data/supporting.ts": "79eb1c6c73ebd6c8cd50e067c331ff0ffb6dfe8eb5db1819248c522dca08a19b",
+      "src/data/terms-basics.ts": "4d89b2c2678809fff390e98b77a827f42e47d97aa85352e0960f832b97ca4ede",
+      "src/data/terms-jargon.ts": "8a7191224edb466fbb95f95ace61696ce33c8a8f1caff7ad5e3f7f771af5710e",
+      "src/data/trial-design-wave.ts": "a9a340a6c8f7e5bb45c4fed5073d7735c686564181c83825cae44b8952f88255"
+    },
+    "sourceCodeHashesAfter": {
+      "src/data/education-access-evidence.ts": "27a45648d9ebdc834165ccaf9b2458fb87c775bd9ca569b2c940d07cc72f435d",
+      "src/data/i18n/ar.ts": "bef8b7f2be436e3723e8a47c8419b0f5039c8516fa431f7f73dfd478a6f21f6e",
+      "src/data/i18n/de.ts": "79413a0b79e03e8f8c808413be41b384cf3d5e6467c6d0119e70d668e6bcee16",
+      "src/data/i18n/es.ts": "d102cc24ac75ddd229c18bda949d75e0548a3c049c3a2e0abec92355875102c2",
+      "src/data/i18n/fr.ts": "01c1cce7ddea4d0ff9a6c8468f20fc10e1dec25e9534cd9792d71cc04e9cf66f",
+      "src/data/i18n/hi.ts": "0b042d57b3cabf90b37b42b7f2f88618bed3204751f6f51a1982f2ce0c03c907",
+      "src/data/i18n/ja.ts": "73594a321c040ec76d09daf913cf206c4a0afc7f0c67e333558ac9badfb6ba8f",
+      "src/data/i18n/pt.ts": "8736121836ab3a5cede21f2d4aa307fed0f133a4f3f82e1eb7f54a1a5c73b1d6",
+      "src/data/i18n/zh.ts": "16f5ffa7651f5017b32acbbe5f4ec4e7f3b2baa6fa1e370af17e6fe7505fe8d1",
+      "src/data/law-wave.ts": "1555a4dfe5ed28f90fe68eaece74cb69ed9f76bb66e32680f5dc9a511eda1129",
+      "src/data/simple/part-j.ts": "e8850a997e70c26631259eb1a8fa3a547e5ecf7ef1fcd6684acdf81ba047e911",
+      "src/data/supporting.ts": "79eb1c6c73ebd6c8cd50e067c331ff0ffb6dfe8eb5db1819248c522dca08a19b",
+      "src/data/terms-basics.ts": "4d89b2c2678809fff390e98b77a827f42e47d97aa85352e0960f832b97ca4ede",
+      "src/data/terms-jargon.ts": "8a7191224edb466fbb95f95ace61696ce33c8a8f1caff7ad5e3f7f771af5710e",
+      "src/data/trial-design-wave.ts": "a9a340a6c8f7e5bb45c4fed5073d7735c686564181c83825cae44b8952f88255"
+    },
+    "unchangedDuringGates": true
+  },
+  "fullSuite": {
+    "filesPassed": 293,
+    "testsPassed": 3100,
+    "testsSkipped": 2,
+    "logSha256": "cc46f3feb608bd97325f91a3bce3028c6d31689c00f5414bf8efd46f046a3945"
+  },
+  "actualEntityReaders": 27,
+  "proofOwnerReaders": 20,
+  "fieldReferences": 159,
+  "completeParagraphChecks": 209,
+  "missingSourceLinks": 0,
+  "nestedAnchors": 0,
+  "exports": {
+    "exactJSONRecords": 27,
+    "exactMarkdownPassages": 140,
+    "openAPI": true,
+    "dedupe": "Passed; no new canonical IDs."
+  },
+  "generationResults": [
+    {
+      "name": "build-api",
+      "exitCode": 0,
+      "seconds": 28.61
+    },
+    {
+      "name": "build-openapi",
+      "exitCode": 0,
+      "seconds": 1.72
+    },
+    {
+      "name": "build-context",
+      "exitCode": 0,
+      "seconds": 4.36
+    },
+    {
+      "name": "dedupe",
+      "exitCode": 0,
+      "seconds": 4.95
+    }
+  ],
+  "secretScan": {
+    "findings": 1,
+    "classifiedPublicReferenceFalsePositives": [
+      {
+        "rule": "generic-api-key",
+        "file": "src/data/law-wave.ts",
+        "startLineInScannedDiff": 177,
+        "lineSha256": "3d4259270a0bf5d272cec33c725cfd2d52a9f636dbf07d6138a317ce80a2088c",
+        "classification": "Unchanged public graph relationship IDs in staged-diff context, byte-identical to the existing HEAD file; no credential.",
+        "allQuotedIdsResolveInCurrentGraph": true,
+        "quotedIds": [
+          "right-to-try",
+          "abigail-alliance",
+          "clinical-trial",
+          "france-early-access",
+          "eu-regulation-726-2004",
+          "21st-century-cures-act",
+          "accelerated-approval",
+          "off-label",
+          "investigational-new-drug-application",
+          "trial-search-site-verification",
+          "investigator-initiated-trials"
+        ],
+        "verifiedBaselineCommit": "53f121b935c3c02f4c35ae0761f9c68fd4427bb2"
+      }
+    ],
+    "unclassifiedFindings": [],
+    "rulesAndAllowlistsChanged": false
+  },
+  "zeroChangeLedgerReplay": "A separate zero-change-replay receipt is written after comparing every pre-existing audit file, including the pre-replay artifact manifest. That receipt and the final rebuilt manifest are created after the comparison."
+}

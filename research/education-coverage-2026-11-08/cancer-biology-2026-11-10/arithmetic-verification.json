@@ -1,0 +1,11 @@
+{
+  "fictionalChecks": [
+    "100/1000 = 10%; 90/180 = 50%; B count falls 100 to 90",
+    "20/100 = 20%; 40/200 = 20%; 40/50 = 80%; later B count is 40 in both arms",
+    "100 + 20 - 20 = 100; stable count differs from no division/loss",
+    "60 + 40 = 100; target specificity is not a whole-tumour response probability",
+    "Equal-area matrix drawings each have eight equal-size fibres; stipulated speeds are both 4 micrometres/minute",
+    "Four/two vessel structures and independent 100/160 arbitrary-unit tracer outputs are different measurements"
+  ],
+  "passed": true
+}

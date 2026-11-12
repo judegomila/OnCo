@@ -1,0 +1,486 @@
+{
+  "checkedOn": "2026-11-10",
+  "screenedOccurrences": 15,
+  "doiResolutions": 15,
+  "consistentPmidPairs": 7,
+  "reviewedOccurrencesAfterIntake": 867,
+  "totalDefinedOccurrences": 917,
+  "unreadOccurrencesAfterIntake": 50,
+  "credit": 0,
+  "provenance": "Worker identity/source screen accepted after exact occurrence matching and capture hash verification. Reading-depth limits remain per row.",
+  "rows": [
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 1,
+      "elicitId": "ss-221183292",
+      "title": "Transcriptomics uncovers substantial variability associated with alterations in manufacturing processes of macrophage cell therapy products",
+      "doi": "10.1038/s41598-020-70967-2",
+      "pmid": "32820219",
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": true,
+        "epmcPmidHit": true,
+        "doiPmidPairConsistent": true,
+        "pmidFrozen": "32820219",
+        "pmidFromEpmc": "32820219",
+        "crossrefIssued": [
+          [
+            2020,
+            8,
+            20
+          ]
+        ],
+        "container": "Scientific Reports"
+      },
+      "sourceType": "primary research article (Sci Rep, OA)",
+      "rawAbstractRead": true,
+      "readingDepth": "Europe PMC fullTextXML PMC7441152 retrieved (sha b7fcc624...); read: abstract, ethics/methods start, introduction, discussion opening; not read: supplementary data, per-figure statistics.",
+      "disposition": "hold-scope: identity verified, not proposed",
+      "rationale": "Healthy-donor regulatory macrophage products for kidney-transplant trials (PMC full text read), not an oncology product; one study. Abstract and Methods/Discussion opening read from Europe PMC full text. Usable only as a bounded illustration that RNA-seq separated manufacturing variants that flow phenotyping did not.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 2,
+      "elicitId": "ss-1361553",
+      "title": "Microarray‐based gene expression analysis as a process characterization tool to establish comparability of complex biological products: Scale‐up of a whole‐cell immunotherapy product",
+      "doi": "10.1002/bit.22441",
+      "pmid": "19591186",
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": true,
+        "epmcPmidHit": true,
+        "doiPmidPairConsistent": true,
+        "pmidFrozen": "19591186",
+        "pmidFromEpmc": "19591186",
+        "crossrefIssued": [
+          [
+            2009,
+            7,
+            9
+          ]
+        ],
+        "container": "Biotechnology and Bioengineering"
+      },
+      "sourceType": "primary research article (Biotechnol Bioeng, paywalled)",
+      "rawAbstractRead": true,
+      "readingDepth": "Abstract only. Primary text not accessible.",
+      "disposition": "propose-owner-link (abstract-level)",
+      "rationale": "Oncology cell-based immunotherapy (GVAX, two prostate lines secreting GM-CSF); compares expression after serum/hypoxia changes as a comparability tool. Crossref and Europe PMC abstract read in full (2643 chars); no full text accessible (not OA, not in EPMC). Claim scope bounded to what the abstract states.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 3,
+      "elicitId": "ss-286323782",
+      "title": "Assessing mRNA and sgRNA Quality for Cell and Gene Therapy Applications Using Nanopore Direct RNA Sequencing.",
+      "doi": "10.1021/acs.analchem.5c06819",
+      "pmid": "41787951",
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": true,
+        "epmcPmidHit": true,
+        "doiPmidPairConsistent": true,
+        "pmidFrozen": "41787951",
+        "pmidFromEpmc": "41787951",
+        "crossrefIssued": [
+          [
+            2026,
+            3,
+            6
+          ]
+        ],
+        "container": "Analytical Chemistry"
+      },
+      "sourceType": "primary research article (Anal Chem 2026, paywalled)",
+      "rawAbstractRead": true,
+      "readingDepth": "Abstract only (1737 chars). Primary text not accessible.",
+      "disposition": "queue: supplement candidate after drafts merge",
+      "rationale": "Single-lab method paper; abstract claims \"first\" sequencing-based capping-efficiency method and agreement with orthogonal methods: author-stated, unverified here. No existing record cites it; owners are drafts, so no edit proposed.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 4,
+      "elicitId": "ss-1312311",
+      "title": "Quality assessment of cellular therapies: the emerging role of molecular assays",
+      "doi": "10.5045/kjh.2010.45.1.14",
+      "pmid": "21120158",
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": true,
+        "epmcPmidHit": true,
+        "doiPmidPairConsistent": true,
+        "pmidFrozen": "21120158",
+        "pmidFromEpmc": "21120158",
+        "crossrefIssued": [
+          [
+            2010
+          ]
+        ],
+        "container": "The Korean Journal of Hematology"
+      },
+      "sourceType": "narrative review (Korean J Hematol, OA)",
+      "rawAbstractRead": true,
+      "readingDepth": "Europe PMC fullTextXML PMC2983004 retrieved (sha 486c2516...); introduction and structure read, no data claims relied on.",
+      "disposition": "propose-owner-link (background review, abstract + full text skimmed)",
+      "rationale": "Authors summarise their own gene-expression comparability work; pre-CAR-era hematopoietic grafts/products. Review, not primary evidence; use as orientation only.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 5,
+      "elicitId": "ss-280847003",
+      "title": "Characterisation of small RNA-based therapeutics and their process impurities by fast and sensitive liquid chromatography high resolution mass spectrometry.",
+      "doi": "10.1016/j.jpba.2025.117097",
+      "pmid": "40840061",
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": true,
+        "epmcPmidHit": true,
+        "doiPmidPairConsistent": true,
+        "pmidFrozen": "40840061",
+        "pmidFromEpmc": "40840061",
+        "crossrefIssued": [
+          [
+            2026,
+            1
+          ]
+        ],
+        "container": "Journal of Pharmaceutical and Biomedical Analysis"
+      },
+      "sourceType": "primary method paper (JPBA, paywalled); ChemRxiv preprint exists",
+      "rawAbstractRead": true,
+      "readingDepth": "Abstract only (1735 chars).",
+      "disposition": "hold: narrow scope (antisense oligonucleotides, not mRNA)",
+      "rationale": "Studies single-stranded ASOs with chemical modifications by IP-RP LC-HRMS, although the frozen title says \"small RNA-based therapeutics\". Crossref lists has-preprint 10.26434/chemrxiv-2025-sb6xg (+v2); the preprint was not read, so versions are not compared.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 6,
+      "elicitId": "ss-292760459",
+      "title": "Potency, off-target analysis, and comparability in vivo gene-edited therapy development",
+      "doi": "10.18609/cgti.2026.114",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2026,
+            10,
+            7
+          ]
+        ],
+        "container": "Cell and Gene Therapy Insights"
+      },
+      "sourceType": "interview/commentary (Cell Gene Ther Insights); Crossref types it journal-article",
+      "rawAbstractRead": true,
+      "readingDepth": "Crossref abstract only.",
+      "disposition": "exclude as evidence",
+      "rationale": "Abstract itself says it is a conversation between an editor and a consultant; expert opinion, not data. Crossref abstract only; page not fetched.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 7,
+      "elicitId": "ss-219503348",
+      "title": "The application of high content omics for comparability testing of an allogeneic cell therapy",
+      "doi": "10.1016/j.jcyt.2020.03.089",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2020,
+            5
+          ]
+        ],
+        "container": "Cytotherapy"
+      },
+      "sourceType": "conference abstract (Cytotherapy 22(5) S61-S62)",
+      "rawAbstractRead": false,
+      "readingDepth": "None available.",
+      "disposition": "exclude: unreadable abstract",
+      "rationale": "No abstract in Crossref or Europe PMC (no PMID); 17 authors; title only. Nothing to verify.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 8,
+      "elicitId": "ss-256936308",
+      "title": "The Role of Separation Techniques in the Analysis of mRNA Therapeutic Drug Substances and Drug Products",
+      "doi": "10.56530/lcgc.eu.hk6689y3",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2023,
+            2,
+            1
+          ]
+        ],
+        "container": "LCGC Europe"
+      },
+      "sourceType": "trade-press review (LCGC Europe)",
+      "rawAbstractRead": true,
+      "readingDepth": "Crossref abstract only.",
+      "disposition": "exclude as evidence; may seed primary references",
+      "rationale": "Single-author trade review; abstract general (CQAs of mRNA). Not a source for any figure or claim.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 9,
+      "elicitId": "ss-254813004",
+      "title": "Comprehensive multi-attribute method workflow for biotherapeutic characterization and current good manufacturing practices testing",
+      "doi": "10.1038/s41596-022-00785-5",
+      "pmid": "36526726",
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": true,
+        "epmcPmidHit": true,
+        "doiPmidPairConsistent": true,
+        "pmidFrozen": "36526726",
+        "pmidFromEpmc": "36526726",
+        "crossrefIssued": [
+          [
+            2022,
+            12,
+            16
+          ]
+        ],
+        "container": "Nature Protocols"
+      },
+      "sourceType": "protocol (Nat Protoc 2022; EPMC year 2023)",
+      "rawAbstractRead": true,
+      "readingDepth": "Abstract only (1798 chars).",
+      "disposition": "queue: new concept candidate (multi-attribute method)",
+      "rationale": "LC-MS MAM for therapeutic proteins; concerns antibody/protein quality, not RNA or cell products. EPMC says 2023, Crossref online 16 Dec 2022 (issue vs online date, benign).",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 10,
+      "elicitId": "ss-290686247",
+      "title": "Capillary Electrophoresis in RNA Therapeutics: Toward a Core Analytical Platform for Development, Release Testing, and Process Analytics",
+      "doi": "10.3390/separations13080211",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2026,
+            7,
+            25
+          ]
+        ],
+        "container": "Separations"
+      },
+      "sourceType": "narrative review (Separations, MDPI, OA)",
+      "rawAbstractRead": true,
+      "readingDepth": "Crossref abstract only.",
+      "disposition": "hold: background review",
+      "rationale": "Review of CE for RNA therapeutics; says routine adoption needs better standardisation and regulatory acceptance. Not fetched; abstract read only.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 11,
+      "elicitId": "ss-281277052",
+      "title": "Single-Cell Sequencing for the Characterization of Mesenchymal Cell Therapy Products: A Tool to Assess Batch-to-Batch Variability in Allogeneic Manufacturing",
+      "doi": "10.51219/urforum.2025.roberto-moreno",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "proceedings-article",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2025
+          ]
+        ],
+        "container": "2nd International Conference on Cell Science and Regenerative Medicine"
+      },
+      "sourceType": "conference proceedings entry (United Research Forum)",
+      "rawAbstractRead": false,
+      "readingDepth": "None available.",
+      "disposition": "exclude: unreadable, unverifiable venue",
+      "rationale": "One-page entry (p. 31); no abstract anywhere; no PMID. Single-cell MSC variability claim in the title cannot be checked.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 12,
+      "elicitId": "ss-82424123",
+      "title": "Product Characterization from Gene to Therapeutic Product",
+      "doi": "10.1002/9780470723791.CH22",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "other",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2007,
+            4,
+            26
+          ]
+        ],
+        "container": "Medicines from Animal Cell Culture"
+      },
+      "sourceType": "book chapter (Wiley 2007); Crossref type \"other\"",
+      "rawAbstractRead": false,
+      "readingDepth": "None available.",
+      "disposition": "exclude: inaccessible and dated",
+      "rationale": "Chapter 22 of Medicines from Animal Cell Culture on protein product characterisation; no abstract; likely paywalled.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 13,
+      "elicitId": "ss-282447165",
+      "title": "The Laboratory and Clinical Guide to RNA Therapeutic Analysis and Patient Management: Advanced Analytical Techniques and Nursing Considerations for the Physicochemical, Functional, and Safe Clinical Application of RNA Therapeutics",
+      "doi": "10.64483/jmph-168",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2024,
+            12,
+            31
+          ]
+        ],
+        "container": "Saudi Journal of Medicine and Public Health"
+      },
+      "sourceType": "review in a new journal (Saudi J Med Public Health)",
+      "rawAbstractRead": true,
+      "readingDepth": "Crossref abstract only.",
+      "disposition": "quarantine: date and provenance conflict",
+      "rationale": "Crossref issued/online 2024-12-31 (record created 2025-10-24) but the abstract says it covers 2015-2025 advances; zero references deposited; abstract calls it a systematic review with a nursing aim. Do not use or cite until the date is explained.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 14,
+      "elicitId": "ss-246312888",
+      "title": "A high-resolution multi-attribute method for product characterization, process characterization, and quality control of therapeutic proteins.",
+      "doi": "10.1016/j.ab.2022.114575",
+      "pmid": "35085546",
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": true,
+        "epmcPmidHit": true,
+        "doiPmidPairConsistent": true,
+        "pmidFrozen": "35085546",
+        "pmidFromEpmc": "35085546",
+        "crossrefIssued": [
+          [
+            2022,
+            4
+          ]
+        ],
+        "container": "Analytical Biochemistry"
+      },
+      "sourceType": "primary industrial method paper (Anal Biochem 2022, paywalled)",
+      "rawAbstractRead": true,
+      "readingDepth": "Abstract only (1136 chars).",
+      "disposition": "queue with 9 (multi-attribute method)",
+      "rationale": "MAM qualified for therapeutic proteins and combined with design of experiments; outside RNA/cell scope.",
+      "canonicalCredit": 0
+    },
+    {
+      "queryId": "engineering-and-manufacturing",
+      "rank": 15,
+      "elicitId": "ss-289772788",
+      "title": "Harnessing analytical tool innovation for R&D, product characterization, and QC",
+      "doi": "10.18609/nai.2026.043",
+      "pmid": null,
+      "identityResolution": {
+        "doiResolvedCrossref": true,
+        "crossrefTitleMatchesFrozen": true,
+        "crossrefType": "journal-article",
+        "epmcDoiHit": false,
+        "epmcPmidHit": false,
+        "doiPmidPairConsistent": null,
+        "pmidFrozen": null,
+        "pmidFromEpmc": null,
+        "crossrefIssued": [
+          [
+            2026,
+            6,
+            29
+          ]
+        ],
+        "container": "Nucleic Acid Insights"
+      },
+      "sourceType": "editorial/commentary (Nucleic Acid Insights)",
+      "rawAbstractRead": true,
+      "readingDepth": "Crossref abstract fragment only.",
+      "disposition": "exclude as evidence",
+      "rationale": "Crossref abstract is a truncated pull quote; single author; Crossref title carries a double-escaped \"&amp;amp;\" (metadata defect).",
+      "canonicalCredit": 0
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "doi": "10.1158/1538-7445.am2026-1714",
+    "title": [
+      "Abstract 1714: First-in-class CHK1 inhibitor antibody-drug conjugate overcomes limitations of current ADC payloads and provides a new option for HER2-positive and TOP1 inhibitor-resistant tumors"
+    ],
+    "containerTitle": [
+      "Cancer Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "source": "Crossref publisher deposit",
+    "rawResponseSha256": "5667c3eabada98231b013fad2b98b1c7e13e61723dbc9587530d561cbc114f6e",
+    "abstractSha256": "73a77ab390b3c49da667f2a73d21156d1f0764438aa57fea71b2dc39c04b971b",
+    "readingScope": "Complete publisher-deposited abstract read; conference/model findings, not human efficacy."
+  },
+  {
+    "doi": "10.1158/1557-3265.d32026-a067",
+    "title": [
+      "Abstract A067: Combined Top1 and CHK Inhibitor Dual-Payload Strategy for Synergistic Reversal of Tumor Drug Resistance"
+    ],
+    "containerTitle": [
+      "Clinical Cancer Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          21
+        ]
+      ]
+    },
+    "source": "Crossref publisher deposit",
+    "rawResponseSha256": "4be8ff182413920b3bedb24f1149123b3a7eb149a27697e439545295013786d9",
+    "abstractSha256": "135c278e8b052b39abee65a8f287febc8c34b6b36c4406fb5c71fa044eb701b9",
+    "readingScope": "Complete publisher-deposited abstract read; conference/model findings, not human efficacy."
+  },
+  {
+    "pmid": "32304937",
+    "doi": "10.1016/j.biomaterials.2020.120032",
+    "pmcid": "PMC7285923",
+    "title": "Redirecting extracellular proteases to molecularly guide radiosensitizing drugs to tumors.",
+    "source": "Europe PMC MED core record",
+    "rawResponseSha256": "866dd54441c3942be77efdc06e66a4ccbbdd510564455409c2fdc5c685782792",
+    "abstractSha256": "9ca443df36cb6bb57d0f31855e6956223c0f0000a5f8a0e5179b4f0dc42bd7b2",
+    "readingScope": "Complete available primary abstract read. Full-text API returned 500; repository PDF returned 202 with zero bytes. No detailed assay concentration, loading figure or full-manuscript review adopted."
+  }
+]

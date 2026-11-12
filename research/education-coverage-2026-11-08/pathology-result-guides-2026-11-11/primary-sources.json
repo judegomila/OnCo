@@ -1,0 +1,810 @@
+{
+  "checkedOn": "2026-11-11",
+  "sources": [
+    {
+      "id": "01",
+      "sourceURL": "https://doi.org/10.1038/modpathol.2015.74",
+      "status": 200,
+      "bytes": 15489,
+      "sha256": "811ee5a282a5698680ff7fbd60504fbbf068bdf8ef9319bfb2131ac8cad8980e",
+      "projectionSha256": "96d21a2e59a16e41684f973586ca103e194c5f61b93cfab8a125095aed0b7e71",
+      "readingDepth": "Complete resolved abstract read. Reporting nonuniformity, separate residual DCIS and protocol context only. Its blanket validated-surrogate wording is not adopted.",
+      "adopted": true,
+      "identity": {
+        "id": "26205180",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1038/modpathol.2015.74",
+        "title": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group.",
+        "authorString": "Provenzano E, Bossuyt V, Viale G, Cameron D, Badve S, Denkert C, MacGrogan G, Penault-Llorca F, Boughey J, Curigliano G, Dixon JM, Esserman L, Fastner G, Kuehn T, Peintinger F, von Minckwitz G, White J, Yang W, Symmans WF, Residual Disease Characterization Working Group of the Breast International Group-North American Breast Cancer Group Collaboration.",
+        "pubYear": "2015",
+        "firstPublicationDate": "2015-07-24",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "02",
+      "sourceURL": "https://doi.org/10.1200/JCO.2007.10.6823",
+      "status": 200,
+      "bytes": 7205,
+      "sha256": "41fc55ecfbb983a44d5738fd44e22c417900cfaeccfbb5b9f6cc1e8790d8e317",
+      "projectionSha256": "bdc01612dcd7d76ea3c000d875bd012c06cdc686f73789f7510c9d2b0ee9dd68",
+      "readingDepth": "Complete resolved abstract read: 241/141 historical chemotherapy cohorts, combined breast/node index and prognostic association. No whole paper read in this cohort.",
+      "adopted": true,
+      "identity": {
+        "id": "17785706",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1200/jco.2007.10.6823",
+        "title": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+        "authorString": "Symmans WF, Peintinger F, Hatzis C, Rajan R, Kuerer H, Valero V, Assad L, Poniecka A, Hennessy B, Green M, Buzdar AU, Singletary SE, Hortobagyi GN, Pusztai L.",
+        "pubYear": "2007",
+        "firstPublicationDate": "2007-09-04",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "03",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/1757079/",
+      "status": 200,
+      "bytes": 4864,
+      "sha256": "395c1567fd8d9622f5c3b115337d47c4e9f754c897b4514c1544af420f28c633",
+      "projectionSha256": "b1031bb16a91a31b109ca03ae9ab1d81f281afe02bbfd794508bebed8bfc9e7d",
+      "readingDepth": "Complete resolved abstract read: three morphological grading features, summation and historical prognostic study; NCI and CAP supply current template totals.",
+      "adopted": true,
+      "identity": {
+        "id": "1757079",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1111/j.1365-2559.1991.tb00229.x",
+        "title": "Pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long-term follow-up.",
+        "authorString": "Elston CW, Ellis IO.",
+        "pubYear": "1991",
+        "firstPublicationDate": "1991-11-01",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "04",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/24516019/",
+      "status": 200,
+      "bytes": 8303,
+      "sha256": "003724eec227414c939807eb749d608048bbcabadf1c4d7dc7ed73a851bc4ca9",
+      "projectionSha256": "b7874c121cf176b15c7127cd51b1e7ffadc2620690723dc85d6ffda4a6c4b35d",
+      "readingDepth": "Complete resolved abstract read: stage I/II invasive breast conservation plus whole-breast irradiation. Not a universal margin rule.",
+      "adopted": true,
+      "identity": {
+        "id": "24516019",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1200/jco.2013.53.3935",
+        "title": "Society of Surgical Oncology-American Society for Radiation Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in stages I and II invasive breast cancer.",
+        "authorString": "Moran MS, Schnitt SJ, Giuliano AE, Harris JR, Khan SA, Horton J, Klimberg S, Chavez-MacGregor M, Freedman G, Houssami N, Johnson PL, Morrow M, Society of Surgical Oncology, American Society for Radiation Oncology.",
+        "pubYear": "2014",
+        "firstPublicationDate": "2014-02-10",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "05",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/24529560/",
+      "status": 200,
+      "bytes": 18202,
+      "sha256": "91ecc5fae54b595f9f268938bfb006a1df787870d0b00f7e643fc0ee1f9fbdd3",
+      "projectionSha256": "c5eba5e2708cd85761d40478d0cc75bcf512b130d5fc580aac759d01118ba3f6",
+      "readingDepth": "Complete resolved abstract read: combined breast/node pCR definitions, prognostic associations and lack of trial-level surrogate validation. Linked 2019 erratum identity resolved but body unread. No new exact CTNeoBC outcome figure is adopted in this cohort.",
+      "adopted": true,
+      "identity": {
+        "id": "24529560",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1016/s0140-6736(13)62422-8",
+        "title": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+        "authorString": "Cortazar P, Zhang L, Untch M, Mehta K, Costantino JP, Wolmark N, Bonnefoi H, Cameron D, Gianni L, Valagussa P, Swain SM, Prowell T, Loibl S, Wickerham DL, Bogaerts J, Baselga J, Perou C, Blumenthal G, Blohmer J, Mamounas EP, Bergh J, Semiglazov V, Justice R, Eidtmann H, Paik S, Piccart M, Sridhara R, Fasching PA, Slaets L, Tang S, Gerber B, Geyer CE, Pazdur R, Ditsch N, Rastogi P, Eiermann W, von Minckwitz G.",
+        "pubYear": "2014",
+        "firstPublicationDate": "2014-02-14",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "06",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/27528719/",
+      "status": 200,
+      "bytes": 19571,
+      "sha256": "5bab2ce42f2145d0af813cc5f8cfd566bf625f8ed07a5cf7651dac707873a5d9",
+      "projectionSha256": "2e6814fcd2cbd1d2847541545059eafc90e8aa648aae74efc7305ee23d0476da",
+      "readingDepth": "Complete resolved abstract read: DCIS breast conservation plus whole-breast irradiation, 2 mm standard and clinical judgement for smaller negative margins.",
+      "adopted": true,
+      "identity": {
+        "id": "27528719",
+        "source": "MED",
+        "pmcid": "PMC5477830",
+        "doi": "10.1200/jco.2016.68.3573",
+        "title": "Society of Surgical Oncology-American Society for Radiation Oncology-American Society of Clinical Oncology Consensus Guideline on Margins for Breast-Conserving Surgery With Whole-Breast Irradiation in Ductal Carcinoma In Situ.",
+        "authorString": "Morrow M, Van Zee KJ, Solin LJ, Houssami N, Chavez-MacGregor M, Harris JR, Horton J, Hwang S, Johnson PL, Marinovich ML, Schnitt SJ, Wapnir I, Moran MS.",
+        "pubYear": "2016",
+        "firstPublicationDate": "2016-10-31",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "07",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/28564564/",
+      "status": 200,
+      "bytes": 39010,
+      "sha256": "ef8b6b3c6016a12cb4663819aab7e2133661f2534f53fc7c17c668ebfd3099b6",
+      "projectionSha256": "d84c473172792c136012f20e084131020dfb9284f7eb8a0a2c9200fe280b3f41",
+      "readingDepth": "Complete resolved CREATE-X abstract read: overall population and TNBC subgroup. New evidence credits only the matched comparison and quoted existing first TNBC sentence, not other trials in that mixed note.",
+      "adopted": true,
+      "identity": {
+        "id": "28564564",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1056/nejmoa1612645",
+        "title": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy.",
+        "authorString": "Masuda N, Lee SJ, Ohtani S, Im YH, Lee ES, Yokota I, Kuroi K, Im SA, Park BW, Kim SB, Yanagita Y, Ohno S, Takao S, Aogi K, Iwata H, Jeong J, Kim A, Park KH, Sasano H, Ohashi Y, Toi M.",
+        "pubYear": "2017",
+        "firstPublicationDate": "2017-06-01",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "08",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/29846122/",
+      "status": 200,
+      "bytes": 31658,
+      "sha256": "061800e9eea9218f1ebaad5f07a2cc87a513ff1dd2b339597f36b3ed86c3661b",
+      "projectionSha256": "da3f997afade00754ccdb467ef7b7b5c444a99915e050fcf07ad832a57d8baa4",
+      "readingDepth": "Complete resolved HER2 focused-update abstract read: IHC/ISH integration and uncommon groups. Not a full guideline read.",
+      "adopted": true,
+      "identity": {
+        "id": "29846122",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1200/jco.2018.77.8738",
+        "title": "Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: American Society of Clinical Oncology/College of American Pathologists Clinical Practice Guideline Focused Update.",
+        "authorString": "Wolff AC, Hammond MEH, Allison KH, Harvey BE, Mangu PB, Bartlett JMS, Bilous M, Ellis IO, Fitzgibbons P, Hanna W, Jenkins RB, Press MF, Spears PA, Vance GH, Viale G, McShane LM, Dowsett M.",
+        "pubYear": "2018",
+        "firstPublicationDate": "2018-05-30",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "09",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/31928404/",
+      "status": 200,
+      "bytes": 10361,
+      "sha256": "cddecb24f952ad434f39a1d494a826ad183c27bb7c1e30baa746d20ee1694c9c",
+      "projectionSha256": "b179b17ece6e995653464b8cceccd3182921710dffc197a88855eeaeffede9e1",
+      "readingDepth": "Complete resolved ER/PR guideline abstract read, including 1% to 10%, controls and the separate PR role. Not a whole guideline read.",
+      "adopted": true,
+      "identity": {
+        "id": "31928404",
+        "source": "MED",
+        "pmcid": null,
+        "doi": "10.1200/jco.19.02309",
+        "title": "Estrogen and Progesterone Receptor Testing in Breast Cancer: ASCO/CAP Guideline Update.",
+        "authorString": "Allison KH, Hammond MEH, Dowsett M, McKernin SE, Carey LA, Fitzgibbons PL, Hayes DF, Lakhani SR, Chavez-MacGregor M, Perlmutter J, Perou CM, Regan MM, Rimm DL, Symmans WF, Torlakovic EE, Varella L, Viale G, Weisberg TF, McShane LM, Wolff AC.",
+        "pubYear": "2020",
+        "firstPublicationDate": "2020-01-13",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "10",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/34081848/",
+      "status": 200,
+      "bytes": 187127,
+      "sha256": "8c5195c1356c33fd856611e611645113bc67ee2572a7826526416a240145e723",
+      "projectionSha256": "ed02f1d162727466b0e8dc1d32ea61a3287f5efe0fa339e9726dc0e68de0314a",
+      "readingDepth": "Registry abstract is degraded at a less-than comparison. Complete abstract re-read in NCBI PMC 29, plus targeted eligibility and capecitabine-discussion paragraphs. No whole paper read.",
+      "adopted": true,
+      "identity": {
+        "id": "34081848",
+        "source": "MED",
+        "pmcid": "PMC9126186",
+        "doi": "10.1056/nejmoa2105215",
+        "title": "Adjuvant Olaparib for Patients with &lt;i&gt;BRCA1&lt;/i&gt;- or &lt;i&gt;BRCA2&lt;/i&gt;-Mutated Breast Cancer.",
+        "authorString": "Tutt ANJ, Garber JE, Kaufman B, Viale G, Fumagalli D, Rastogi P, Gelber RD, de Azambuja E, Fielding A, Balmaña J, Domchek SM, Gelmon KA, Hollingsworth SJ, Korde LA, Linderholm B, Bandos H, Senkus E, Suga JM, Shao Z, Pippas AW, Nowecki Z, Huzarski T, Ganz PA, Lucas PC, Baker N, Loibl S, McConnell R, Piccart M, Schmutzler R, Steger GG, Costantino JP, Arahmani A, Wolmark N, McFadden E, Karantza V, Lakhani SR, Yothers G, Campbell C, Geyer CE, OlympiA Clinical Trial Steering Committee and Investigators.",
+        "pubYear": "2021",
+        "firstPublicationDate": "2021-06-03",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "11",
+      "sourceURL": "https://pubmed.ncbi.nlm.nih.gov/36228963/",
+      "status": 200,
+      "bytes": 75984,
+      "sha256": "49e78d1e850c16ec381bfe98f2d749c9b36aca3ef380f4a9339e179f48fdc7a4",
+      "projectionSha256": "9a158fbd1ea5dbda828a4fb48cbe76f6add65ebfa9ab6694a4431c61151b9d43",
+      "readingDepth": "Registry abstract is degraded at a less-than comparison. Complete abstract re-read in NCBI PMC 30, including the planned OS boundary and later OS result. No whole paper read.",
+      "adopted": true,
+      "identity": {
+        "id": "36228963",
+        "source": "MED",
+        "pmcid": "PMC10207856",
+        "doi": "10.1016/j.annonc.2022.09.159",
+        "title": "Overall survival in the OlympiA phase III trial of adjuvant olaparib in patients with germline pathogenic variants in BRCA1/2 and high-risk, early breast cancer.",
+        "authorString": "Geyer CE, Garber JE, Gelber RD, Yothers G, Taboada M, Ross L, Rastogi P, Cui K, Arahmani A, Aktan G, Armstrong AC, Arnedos M, Balmaña J, Bergh J, Bliss J, Delaloge S, Domchek SM, Eisen A, Elsafy F, Fein LE, Fielding A, Ford JM, Friedman S, Gelmon KA, Gianni L, Gnant M, Hollingsworth SJ, Im SA, Jager A, Jóhannsson ÓÞ, Lakhani SR, Janni W, Linderholm B, Liu TW, Loman N, Korde L, Loibl S, Lucas PC, Marmé F, Martinez de Dueñas E, McConnell R, Phillips KA, Piccart M, Rossi G, Schmutzler R, Senkus E, Shao Z, Sharma P, Singer CF, Španić T, Stickeler E, Toi M, Traina TA, Viale G, Zoppoli G, Park YH, Yerushalmi R, Yang H, Pang D, Jung KH, Mailliez A, Fan Z, Tennevet I, Zhang J, Nagy T, Sonke GS, Sun Q, Parton M, Colleoni MA, Schmidt M, Brufsky AM, Razaq W, Kaufman B, Cameron D, Campbell C, Tutt ANJ, OlympiA Clinical Trial Steering Committee and Investigators.",
+        "pubYear": "2022",
+        "firstPublicationDate": "2022-10-10",
+        "isRetracted": null
+      }
+    },
+    {
+      "id": "12",
+      "sourceURL": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet",
+      "status": 200,
+      "bytes": 66350,
+      "sha256": "fc9cd4a6a0b9e52d966d0a158dc37091c1f8824f487db4a310d701e68b9dc0fe",
+      "projectionSha256": "c0a9572c39ebe27700ed4c1b28fee8018486ea3aad0965e08c2a38d52be5c2f9",
+      "readingDepth": "Complete extracted NCI pathology main article read; not its linked pages. Report sections, specimen identity, final integrated diagnosis and pending tests.",
+      "adopted": true
+    },
+    {
+      "id": "13",
+      "sourceURL": "https://www.cancer.gov/research/participate/clinical-trials",
+      "status": 200,
+      "bytes": 42565,
+      "sha256": "1d008a45825ae0b0df228e27d1188421f9ffb54d6e082eae002c993288157888",
+      "projectionSha256": "36304207320139cdcfed6a3d521eee751d1047a55bf75bfbe2b9b6d64fb9ea5f",
+      "readingDepth": "NCI trial landing-page opening excerpt only; no trial-specific efficacy or safety claim adopted.",
+      "adopted": false
+    },
+    {
+      "id": "14",
+      "sourceURL": "https://www.cancer.gov/types/breast/stages",
+      "status": 200,
+      "bytes": 71232,
+      "sha256": "33109ffd8156a1514c20f17f825a9a696f39902713d545f086339f54adcec917",
+      "projectionSha256": "4d14fa57c6cebd092b8226343de8d3b2b87f113f0f63cf384c64d629d63b110a",
+      "readingDepth": "Complete extracted NCI breast-staging main text read, including its displayed stage/grade/receptor tables; no new stage-group assignment is calculated here and linked TNM pages were not read.",
+      "adopted": true
+    },
+    {
+      "id": "15",
+      "sourceURL": "https://www.mdanderson.org/content/dam/mdanderson/documents/for-physicians/clinical-calculators/PLM_protocol_RCB_calculators_BRO.pdf",
+      "status": 200,
+      "bytes": 765946,
+      "sha256": "e33f33f569be0337f22d8dfb6526791648133d7c6785090c6f8d08c9c3f1c8e5",
+      "projectionSha256": "ac103ed432167282c26e90e21ab1dda5fd39a4edba2745d8182d377e54c11d73",
+      "readingDepth": "Complete extracted MD Anderson methods PDF text read. Protocol diagrams were not freshly viewed; no whole-original-paper claim. Bed dimensions, area and in-situ denominator remain protocol-specific.",
+      "adopted": true
+    },
+    {
+      "id": "16",
+      "sourceURL": "https://www.ncbi.nlm.nih.gov/books/NBK402284/",
+      "status": 200,
+      "bytes": 21456,
+      "sha256": "3ce812e86c352cd554b04e74e82a1a58bdc776d97188120b882b92a7b2e88c0a",
+      "projectionSha256": "70ed53e8fcfe821ce08ac48e458aba71b728212a27f1b762812ca1e5d4c56ace",
+      "readingDepth": "HTTP 200 is a reCAPTCHA challenge, not chapter text. No contents read or source credit.",
+      "adopted": false
+    },
+    {
+      "id": "17",
+      "sourceURL": "https://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3",
+      "status": 200,
+      "bytes": 140269,
+      "sha256": "e0317fa48adb54e3b8353fc5003fb0e7e9c2e2009fa2dd93d8b159c525975e77",
+      "projectionSha256": "4a1ebeb28a2705bbbe7478102ab339f84ca0fe24232bf9b6a254dc5641a57283",
+      "readingDepth": "Complete extracted MD Anderson calculator main text read, including six input definitions and assessment caveats; no interactive calculator execution.",
+      "adopted": true
+    },
+    {
+      "id": "19",
+      "sourceURL": "https://www.cap.org/wp-content/uploads/2026/09/Breast.Bmk_1.6.2.0.REL_CAPCP.pdf?download=true",
+      "url": null,
+      "status": 200,
+      "bytes": 422411,
+      "sha256": "0c75de2e1ec4877b4fdbb85400a57317d2a3a291f48cb89e8d74786fbed4e691",
+      "readingDepth": "CAP biomarker 1.6.2 PDF: targeted ER/HER2/Ki67 text and whole-page views of printed pages 18,23,25. Not a full PDF read.",
+      "adopted": true
+    },
+    {
+      "id": "27",
+      "sourceURL": null,
+      "url": "https://www.cap.org/wp-content/uploads/2026/06/Breast.Invasive.Res_4.11.0.0.REL_CAPCP.pdf",
+      "status": 200,
+      "bytes": 637105,
+      "sha256": "50b25425f5a99112afca8ee449cdc3e4149547c7c721310d05fd722a3e884c97",
+      "readingDepth": "CAP invasive-resection 4.11 PDF from current official URL: targeted type/grade, treatment-effect, residual-bed and nodal text; printed pages 6,33,39 viewed. Page 34 text read. Not a full protocol or needle-biopsy protocol read.",
+      "adopted": true
+    },
+    {
+      "id": "28",
+      "sourceURL": null,
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa",
+      "status": 200,
+      "bytes": 352133,
+      "sha256": "87a1eacb03a7496086867782edf389624f5ce0b2b6766aa42f2f0404fcc47af1",
+      "readingDepth": "Lynparza raw official DailyMed label HTML: sections 1.4 and 14.4 and relevant OlympiA population text targeted; not a whole-label read.",
+      "adopted": true
+    },
+    {
+      "id": "21",
+      "sourceURL": null,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25214542+AND+SRC%3AMED&format=json&resultType=core",
+      "status": 200,
+      "bytes": 14029,
+      "sha256": "04d28c988ad8836da3d91270f4be6503496a3e86f8bd0662ae6245d053328528",
+      "readingDepth": "Salgado working-group 2014 recommendations, published 2015: resolved abstract read. Full article denominator/scoring paragraphs read through PMC HTML capture 35 after XML endpoints failed; no whole-paper read.",
+      "adopted": true
+    },
+    {
+      "id": "22",
+      "sourceURL": null,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1093%2Fjnci%2Fdjaa201%22&format=json&resultType=core",
+      "status": 200,
+      "bytes": 13109,
+      "sha256": "f6c4f83dddb3966fd482bceb7e9d26568fc139ae753168bdd4812492fac60799",
+      "readingDepth": "Nielsen 2021: resolved abstract read and selected Ki67 scoring paragraphs in PMC 32; no whole-paper read.",
+      "adopted": true
+    },
+    {
+      "id": "24",
+      "sourceURL": null,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Tumor-Infiltrating+Lymphocytes+and+Prognosis%22+AND+AUTH_FIRST%3ALoi&format=json&resultType=core",
+      "status": 200,
+      "bytes": 14131,
+      "sha256": "61c980dcffeabbb423feefaed6343559f00bf7a91bfa955fe1d7c0032eb3e8f5",
+      "readingDepth": "Loi 2019: complete resolved abstract read, including diagnostic-sample population, treatment context and adjusted prognostic association. No full paper read.",
+      "adopted": true
+    },
+    {
+      "id": "23",
+      "sourceURL": null,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30860051+AND+SRC%3AMED&format=json&resultType=core",
+      "status": 200,
+      "bytes": 1843,
+      "sha256": "830f81d13788d1b49d4474350fc6c4743b1491f0c1e76b13621e4c4aad511f70",
+      "readingDepth": "CTNeoBC erratum: MED identity and linked original resolved; no abstract and body unread. No guessed correction scope.",
+      "adopted": false
+    },
+    {
+      "id": "37",
+      "sourceURL": null,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A6290045+AND+SRC%3AMED&format=json&resultType=core",
+      "status": "200",
+      "bytes": 5252,
+      "sha256": "737d9af1523d3bb844161d4a5f7fad89033cc1c272d210f8a6e228685200350c",
+      "readingDepth": "Gusterson 1982: MED identity resolved and complete abstract read. Supports matrix/myoepithelial distinction and cautions against a binary basement-protein staining rule; not every invasion criterion is verified by this experiment.",
+      "adopted": true
+    },
+    {
+      "id": "38",
+      "sourceURL": null,
+      "url": "https://www.cancer.gov/types/breast/breast-cancer-types/dcis",
+      "status": "200",
+      "bytes": 46322,
+      "sha256": "2f4d58091a71180e11cceb762d27cdafdb03cf46ea3069053478f8aa03615d1c",
+      "readingDepth": "NCI DCIS page: definition and diagnosis paragraphs and beginning of management read only. Noninvasive ductal confinement versus invasive surrounding-tissue relationship; no management claim adopted.",
+      "adopted": true
+    },
+    {
+      "id": "39",
+      "sourceURL": null,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40332918+AND+SRC%3AMED&format=json&resultType=core",
+      "status": "200",
+      "bytes": 13597,
+      "sha256": "0f2b322bd888a273cdbef5b7c65c73d04bff6d8c38fe82a5b6d84fd6e369e018",
+      "readingDepth": "Basik 2025 NRG-BR005: MED identity resolved and complete abstract read. Qualitative protocol-specific conclusion supports the separate post-neoadjuvant sampling point and limits of a negative biopsy. A linked erratum is identified but not read; no new numerical performance estimate adopted.",
+      "adopted": true
+    }
+  ],
+  "evidencePassages": [
+    {
+      "id": "TIL-denominator",
+      "sourceId": "21",
+      "excerpt": "not the number of stromal cells",
+      "excerptSha256": "78b3bab792212b9e31501df9bc0cd8f88b1fc914ed840d7c4dd46b96338d32af",
+      "captureSha256": "80d5b945da794e96ce42d74d0a816654c3ccf2c7fa630b9e56d940db821c5473",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    },
+    {
+      "id": "ER-low",
+      "sourceId": "19",
+      "excerpt": "should be reported as ER Low Positive",
+      "excerptSha256": "e4069bf7ca979ca316ac9c5bb7b1e65790fc60e1b95bb9bfc9315adf37754cb5",
+      "captureSha256": "0c75de2e1ec4877b4fdbb85400a57317d2a3a291f48cb89e8d74786fbed4e691",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    },
+    {
+      "id": "HER2-concurrent",
+      "sourceId": "19",
+      "excerpt": "final ISH results are based on concurrent review of IHC",
+      "excerptSha256": "f9135e2690467ec62b37b9e1bdaea5f773242eb94b331d8474d87e85403de809",
+      "captureSha256": "0c75de2e1ec4877b4fdbb85400a57317d2a3a291f48cb89e8d74786fbed4e691",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    },
+    {
+      "id": "MD-denominator",
+      "sourceId": "15",
+      "excerpt": "Estimate the proportion of the cancer that is in situ component",
+      "excerptSha256": "635937a705a5198a1d2230e234b2a4c984e836d416c82dd1a46896d7b10a68e6",
+      "captureSha256": "e33f33f569be0337f22d8dfb6526791648133d7c6785090c6f8d08c9c3f1c8e5",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    },
+    {
+      "id": "OLY-comparator",
+      "sourceId": "10",
+      "excerpt": "Postneoadjuvant capecitabine was not permitted in the OlympiA trial",
+      "excerptSha256": "f293b35241fcf9271cad4405b09974a62c42c0325091de93d4b170adc859e334",
+      "captureSha256": "792788bb73d9aba10cb5a0b9be4ff44526a8a01339e9186f8ffdc444902ab786",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    },
+    {
+      "id": "OLY-hormone",
+      "sourceId": "10",
+      "excerpt": "CPS+EG score of 3 or higher",
+      "excerptSha256": "a391aba54d964c05c95788521d64c4b1614496f8631e3d23401eca7bfdb5c336",
+      "captureSha256": "792788bb73d9aba10cb5a0b9be4ff44526a8a01339e9186f8ffdc444902ab786",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    },
+    {
+      "id": "NCI-specimen",
+      "sourceId": "12",
+      "excerpt": "details about where in the body the specimen is from and how it was obtained",
+      "excerptSha256": "a23aeeedcb99314cf4a2388ff0b5fbfb8afa6b0895e9a853096632c085c8ee1e",
+      "captureSha256": "fc9cd4a6a0b9e52d966d0a158dc37091c1f8824f487db4a310d701e68b9dc0fe",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    },
+    {
+      "id": "NCI-clinical",
+      "sourceId": "14",
+      "excerpt": "Clinical prognostic stage is used first to assign a stage for anyone diagnosed with breast cancer.",
+      "excerptSha256": "8582f7f75f6b89bc2804bb45bd24d26974ee25d9face7c39cc42f78687595627",
+      "captureSha256": "33109ffd8156a1514c20f17f825a9a696f39902713d545f086339f54adcec917",
+      "scope": "Exact short passage read in the named raw capture; location is not independent clinical or expert approval."
+    }
+  ],
+  "curriculumPaperIdentities": 11,
+  "crossrefIdentityChecks": [
+    {
+      "sourceId": "01",
+      "doi": "10.1038/modpathol.2015.74",
+      "crossrefDOI": "10.1038/modpathol.2015.74",
+      "pmid": "26205180",
+      "europePMCTitle": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group.",
+      "crossrefTitle": "Standardization of pathologic evaluation and reporting of postneoadjuvant specimens in clinical trials of breast cancer: recommendations from an international working group",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Provenzano E",
+      "firstAuthorCrossref": "Provenzano",
+      "yearEuropePMC": "2015",
+      "crossrefPublished": [
+        [
+          2015,
+          9
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    },
+    {
+      "sourceId": "02",
+      "doi": "10.1200/jco.2007.10.6823",
+      "crossrefDOI": "10.1200/jco.2007.10.6823",
+      "pmid": "17785706",
+      "europePMCTitle": "Measurement of residual breast cancer burden to predict survival after neoadjuvant chemotherapy.",
+      "crossrefTitle": "Measurement of Residual Breast Cancer Burden to Predict Survival After Neoadjuvant Chemotherapy",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Symmans WF",
+      "firstAuthorCrossref": "Symmans",
+      "yearEuropePMC": "2007",
+      "crossrefPublished": [
+        [
+          2007,
+          10,
+          1
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    },
+    {
+      "sourceId": "03",
+      "doi": "10.1111/j.1365-2559.1991.tb00229.x",
+      "crossrefDOI": "10.1111/j.1365-2559.1991.tb00229.x",
+      "pmid": "1757079",
+      "europePMCTitle": "Pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long-term follow-up.",
+      "crossrefTitle": "pathological prognostic factors in breast cancer. I. The value of histological grade in breast cancer: experience from a large study with long‐term follow‐up",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Elston CW",
+      "firstAuthorCrossref": "ELSTON",
+      "yearEuropePMC": "1991",
+      "crossrefPublished": [
+        [
+          1991,
+          11
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    },
+    {
+      "sourceId": "04",
+      "doi": "10.1200/jco.2013.53.3935",
+      "crossrefDOI": "10.1200/jco.2013.53.3935",
+      "pmid": "24516019",
+      "europePMCTitle": "Society of Surgical Oncology-American Society for Radiation Oncology consensus guideline on margins for breast-conserving surgery with whole-breast irradiation in stages I and II invasive breast cancer.",
+      "crossrefTitle": "Society of Surgical Oncology–American Society for Radiation Oncology Consensus Guideline on Margins for Breast-Conserving Surgery With Whole-Breast Irradiation in Stages I and II Invasive Breast Cancer",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Moran MS",
+      "firstAuthorCrossref": "Moran",
+      "yearEuropePMC": "2014",
+      "crossrefPublished": [
+        [
+          2014,
+          5,
+          10
+        ]
+      ],
+      "updates": [],
+      "crossmark": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.718272651.793497396",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    },
+    {
+      "sourceId": "05",
+      "doi": "10.1016/s0140-6736(13)62422-8",
+      "crossrefDOI": "10.1016/s0140-6736(13)62422-8",
+      "pmid": "24529560",
+      "europePMCTitle": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis.",
+      "crossrefTitle": "Pathological complete response and long-term clinical benefit in breast cancer: the CTNeoBC pooled analysis",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Cortazar P",
+      "firstAuthorCrossref": "Cortazar",
+      "yearEuropePMC": "2014",
+      "crossrefPublished": [
+        [
+          2014,
+          7
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    },
+    {
+      "sourceId": "06",
+      "doi": "10.1200/jco.2016.68.3573",
+      "crossrefDOI": "10.1200/jco.2016.68.3573",
+      "pmid": "27528719",
+      "europePMCTitle": "Society of Surgical Oncology-American Society for Radiation Oncology-American Society of Clinical Oncology Consensus Guideline on Margins for Breast-Conserving Surgery With Whole-Breast Irradiation in Ductal Carcinoma In Situ.",
+      "crossrefTitle": "Society of Surgical Oncology–American Society for Radiation Oncology–American Society of Clinical Oncology Consensus Guideline on Margins for Breast-Conserving Surgery With Whole-Breast Irradiation in Ductal Carcinoma In Situ",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Morrow M",
+      "firstAuthorCrossref": "Morrow",
+      "yearEuropePMC": "2016",
+      "crossrefPublished": [
+        [
+          2016,
+          11,
+          20
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    },
+    {
+      "sourceId": "07",
+      "doi": "10.1056/nejmoa1612645",
+      "crossrefDOI": "10.1056/nejmoa1612645",
+      "pmid": "28564564",
+      "europePMCTitle": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy.",
+      "crossrefTitle": "Adjuvant Capecitabine for Breast Cancer after Preoperative Chemotherapy",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Masuda N",
+      "firstAuthorCrossref": "Masuda",
+      "yearEuropePMC": "2017",
+      "crossrefPublished": [
+        [
+          2017,
+          6
+        ]
+      ],
+      "updates": [],
+      "crossmark": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.727674364.793562859",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    },
+    {
+      "sourceId": "08",
+      "doi": "10.1200/jco.2018.77.8738",
+      "crossrefDOI": "10.1200/jco.2018.77.8738",
+      "pmid": "29846122",
+      "europePMCTitle": "Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: American Society of Clinical Oncology/College of American Pathologists Clinical Practice Guideline Focused Update.",
+      "crossrefTitle": "Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: American Society of Clinical Oncology/College of American Pathologists Clinical Practice Guideline Focused Update",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Wolff AC",
+      "firstAuthorCrossref": "Wolff",
+      "yearEuropePMC": "2018",
+      "crossrefPublished": [
+        [
+          2018,
+          7,
+          10
+        ]
+      ],
+      "updates": [],
+      "crossmark": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.3410/f.733321759.793562854",
+            "asserted-by": "object"
+          }
+        ]
+      }
+    },
+    {
+      "sourceId": "09",
+      "doi": "10.1200/jco.19.02309",
+      "crossrefDOI": "10.1200/jco.19.02309",
+      "pmid": "31928404",
+      "europePMCTitle": "Estrogen and Progesterone Receptor Testing in Breast Cancer: ASCO/CAP Guideline Update.",
+      "crossrefTitle": "Estrogen and Progesterone Receptor Testing in Breast Cancer: ASCO/CAP Guideline Update",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Allison KH",
+      "firstAuthorCrossref": "Allison",
+      "yearEuropePMC": "2020",
+      "crossrefPublished": [
+        [
+          2020,
+          4,
+          20
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    },
+    {
+      "sourceId": "10",
+      "doi": "10.1056/nejmoa2105215",
+      "crossrefDOI": "10.1056/nejmoa2105215",
+      "pmid": "34081848",
+      "europePMCTitle": "Adjuvant Olaparib for Patients with &lt;i&gt;BRCA1&lt;/i&gt;- or &lt;i&gt;BRCA2&lt;/i&gt;-Mutated Breast Cancer.",
+      "crossrefTitle": "Adjuvant Olaparib for Patients with\n                    <i>BRCA1</i>\n                    - or\n                    <i>BRCA2</i>\n                    -Mutated Breast Cancer",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Tutt ANJ",
+      "firstAuthorCrossref": "Tutt",
+      "yearEuropePMC": "2021",
+      "crossrefPublished": [
+        [
+          2021,
+          6,
+          24
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    },
+    {
+      "sourceId": "11",
+      "doi": "10.1016/j.annonc.2022.09.159",
+      "crossrefDOI": "10.1016/j.annonc.2022.09.159",
+      "pmid": "36228963",
+      "europePMCTitle": "Overall survival in the OlympiA phase III trial of adjuvant olaparib in patients with germline pathogenic variants in BRCA1/2 and high-risk, early breast cancer.",
+      "crossrefTitle": "Overall survival in the OlympiA phase III trial of adjuvant olaparib in patients with germline pathogenic variants in BRCA1/2 and high-risk, early breast cancer",
+      "titleNormalizedEqual": true,
+      "firstAuthorEuropePMC": "Geyer CE",
+      "firstAuthorCrossref": "Geyer",
+      "yearEuropePMC": "2022",
+      "crossrefPublished": [
+        [
+          2022,
+          12
+        ]
+      ],
+      "updates": [],
+      "crossmark": {}
+    }
+  ],
+  "paperAbstractsRead": 16,
+  "originalPapersReadInFull": 0,
+  "targetedFullTextPublications": [
+    "OlympiA initial report",
+    "OlympiA OS report, abstract only from full-text capture",
+    "Nielsen Ki67 recommendations",
+    "Salgado TIL recommendations"
+  ],
+  "failedAndNonContentCaptures": [
+    {
+      "sourceId": "18",
+      "reason": "CAP documents host DNS failure; official current www.cap.org capture 27 succeeded"
+    },
+    {
+      "sourceId": "20",
+      "reason": "DailyMed service URL redirected to home page, not label; capture 28 contains the real label"
+    },
+    {
+      "sourceIds": [
+        "25",
+        "26",
+        "31",
+        "33"
+      ],
+      "reason": "EPMC XML HTTP 500 or NCBI 429; failures preserved. Targeted full text came from successful NCBI 29/30/32 and PMC HTML 35."
+    },
+    {
+      "sourceId": "34",
+      "reason": "Historical XML contains metadata and abstract only, no body; not credited as full text."
+    }
+  ],
+  "sourceFindings": [
+    {
+      "id": "PG-F01",
+      "status": "already carried correctly in current measurement owners; reinforced in the corrected shared report owner",
+      "finding": "Ki67 is a positive-nucleus fraction and sTILs an eligible-stromal-area estimate, not exact division speed or an absolute immune-cell count."
+    },
+    {
+      "id": "PG-F02",
+      "status": "qualified; source shortcut not adopted as a complete algorithm",
+      "finding": "CAP Table 5 requires concurrent IHC and specified review for uncommon ISH groups. The existing HER2 owner already integrates these; the exercise supplies a completed negative interpretation."
+    },
+    {
+      "id": "PG-F03",
+      "status": "supported at abstract scope",
+      "finding": "The Loi 2019 pooled diagnostic-sample association concerns early TNBC treated with specified chemotherapy; it is not individual outcome certainty or proof of added pembrolizumab benefit."
+    },
+    {
+      "id": "PG-F04",
+      "status": "corrected in olaparib notes",
+      "finding": "A BRCA finding alone does not satisfy the early-breast indication or OlympiA high-risk criteria. The trial included hormone receptor-positive participants as well as TNBC."
+    },
+    {
+      "id": "PG-F05",
+      "status": "qualified in owner teaching",
+      "finding": "CREATE-X and OlympiA supply specific comparisons; OlympiA disallowed post-neoadjuvant capecitabine. Neither should silently become a different post-pembrolizumab or head-to-head comparison."
+    },
+    {
+      "id": "PG-F06",
+      "status": "corrected in shared report lead and summary",
+      "finding": "The previous grade/stage/receptor lead promised receptor-defined drug response, treatment intensity and a fixed biopsy/surgery reporting order. The replacement distinguishes measurements, staging contexts and conditional treatment evidence."
+    },
+    {
+      "id": "PG-F07",
+      "status": "corrected in biopsy lead and summary consumers",
+      "finding": "The previous generic biopsy lead claimed it was the only way to confirm any cancer. The current lead describes the procedure and specimen limits; eight stale unreviewed translations are withdrawn and Simple English corrected."
+    },
+    {
+      "id": "PG-C01",
+      "status": "non-content captures excluded",
+      "finding": "One old TIL XML was a BioC error page and another metadata only. Fresh EPMC fullTextXML failed, NCBI initially returned 429, and readable PMC HTML ultimately supplied the targeted denominator. No false full-text credit."
+    },
+    {
+      "id": "PG-C02",
+      "status": "retained source caveat",
+      "finding": "The 2019 CTNeoBC and 2025 NRG-BR005 erratum bodies were not read. They are not certified reconciled, and no new numerical claims depend on guessing their scope."
+    },
+    {
+      "id": "PG-C03",
+      "status": "official-template boundary preserved",
+      "finding": "CAP ER Table 2 displays an overlapping 10% boundary in its Positive and Low Positive rows; the adjacent prose and 2020 guideline specify the 1% to 10% ER-low category. The 5% exercise is unambiguous; no new 10% boundary rule is invented."
+    }
+  ],
+  "inferenceScope": "All artificial specimens, clock days, treatment holds, equal-footprint beds and numerical subgroup examples are stipulated teaching premises and reading inferences, not clinical observations, schedules or personal treatment decisions.",
+  "retainedBaselineScope": "Only selected teaching clauses are assessed. Full-field hashes do not recertify retained WHO, NICE, other trials, jurisdictions, prevalence estimates, monitoring advice or catalogue claims elsewhere in the selected owners.",
+  "elicit": {
+    "newSearches": 0,
+    "newReports": 0,
+    "scope": "No callable Elicit tool was used; no invented question or report URL"
+  },
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "expertCredit": 0,
+  "learnerCredit": 0,
+  "languageCredit": 0
+}

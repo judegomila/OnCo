@@ -55,7 +55,7 @@ export const simpleF: Record<string, string> = {
   "plasmid-dna-manufacturing": "Plasmid DNA and mRNA raw materials are the DNA templates and enzymes behind viral vectors and mRNA vaccines, invisible to patients but decisive for supply.",
   "radiopharmacy-network": "Radiopharmacy networks are the factories and courier routes that make short-lived radioactive tracers and deliver them to hospitals within hours before they decay.",
   "therapy-isotope-supply-chain": "The therapeutic isotope supply chain is where the radioactive atoms for imaging and therapy come from: ageing reactors, new accelerators and a scramble for scarce actinium.",
-  "long-read-sequencing": "Long-read sequencing reads DNA in very long stretches, revealing rearrangements and chemical marks that short-read machines miss, and can classify brain tumours during surgery.",
+
   "next-gen-short-read-platforms": "New short-read sequencing platforms are challengers to Illumina promising cheaper genomes, which matters for making tumour sequencing a routine part of care.",
   "spatial-biology-instruments": "Spatial biology instruments are machines that map which genes and proteins are active in each part of a tumour slice, transforming research though clinical use is nascent.",
   "whole-slide-scanners": "Whole-slide scanners turn glass pathology slides into gigapixel digital images, and the software that stores and serves them is what lets pathology AI run.",
@@ -88,7 +88,7 @@ export const simpleF: Record<string, string> = {
   "survivorship-care-plan": "Survivorship care is organised follow-up for the tens of millions of people living after cancer, watching for recurrence and managing long-term side effects like heart damage and fatigue.",
   "fertility-preservation": "Fertility preservation protects the ability to have children before cancer treatment that damages eggs, sperm or the womb, by freezing sperm, eggs, embryos or ovarian tissue.",
   "oncology-nursing": "Specialist oncology nurses deliver most cancer treatment and much of its safety, education and support, and nurse-led clinics are the backbone of care where doctors are scarce.",
-  "g-csf-growth-factors": "G-CSF injections such as filgrastim after chemotherapy make white blood cells recover faster, cutting the risk of life-threatening infections and keeping chemotherapy on schedule.",
+  "g-csf-growth-factors": "These medicines help the bone marrow produce and recover neutrophils, a type of white blood cell. Their use depends on the treatment and the person's infection risk.",
   "transfusion-support": "Transfusion support uses red cell and platelet transfusions, iron and blood-boosting injections to keep patients safe through chemotherapy, with trials showing that more is not always better.",
   "multidisciplinary-tumour-board": "A tumour board is a regular meeting where surgeons, oncologists, radiologists, pathologists and others review each patient together and agree a plan, mandatory in many countries.",
   "telehealth-oncology": "Telehealth in oncology, including video visits, remote monitoring and some home-delivered treatments, expanded hugely during COVID-19 and has stayed, cutting travel without worse outcomes.",

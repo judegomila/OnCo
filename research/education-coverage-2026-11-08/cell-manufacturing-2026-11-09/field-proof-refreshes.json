@@ -1,0 +1,122 @@
+[
+  {
+    "location": "ledger.json/adjacent/6/review/points/0/evidence/0",
+    "id": "in-vivo-car-t",
+    "field": "notes",
+    "oldSha256": "7c1d1c889c0ec6f2517b6601a830b2d780b2f57d3e8c9e239ec689b1977bbbdd",
+    "newSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300",
+    "reason": "All five earlier notes are retained verbatim as an array prefix; three explicit location/sample/Hunter notes appended. Earlier semantic evidence reread and retained."
+  },
+  {
+    "location": "source-phases/c9689645/ledger.json/adjacent/6/review/points/0/evidence/0",
+    "id": "in-vivo-car-t",
+    "field": "notes",
+    "oldSha256": "7c1d1c889c0ec6f2517b6601a830b2d780b2f57d3e8c9e239ec689b1977bbbdd",
+    "newSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300",
+    "reason": "All five earlier notes are retained verbatim as an array prefix; three explicit location/sample/Hunter notes appended. Earlier semantic evidence reread and retained."
+  },
+  {
+    "location": "adjacent-concepts.json/6/review/points/0/evidence/0",
+    "id": "in-vivo-car-t",
+    "field": "notes",
+    "oldSha256": "7c1d1c889c0ec6f2517b6601a830b2d780b2f57d3e8c9e239ec689b1977bbbdd",
+    "newSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300",
+    "reason": "All five earlier notes are retained verbatim as an array prefix; three explicit location/sample/Hunter notes appended. Earlier semantic evidence reread and retained."
+  },
+  {
+    "location": "source-assets.json/phases/0/items/28/review/points/1/evidence/1",
+    "id": "in-vivo-car-t",
+    "field": "notes",
+    "oldSha256": "7c1d1c889c0ec6f2517b6601a830b2d780b2f57d3e8c9e239ec689b1977bbbdd",
+    "newSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300",
+    "reason": "All five earlier notes are retained verbatim as an array prefix; three explicit location/sample/Hunter notes appended. Earlier semantic evidence reread and retained."
+  },
+  {
+    "location": "source-assets.json/phases/1/items/28/review/points/1/evidence/1",
+    "id": "in-vivo-car-t",
+    "field": "notes",
+    "oldSha256": "7c1d1c889c0ec6f2517b6601a830b2d780b2f57d3e8c9e239ec689b1977bbbdd",
+    "newSha256": "318c3eb0afab1f2573731e99ddc5eb9eed60bba7d59d1c35d6a2d8945eb70300",
+    "reason": "All five earlier notes are retained verbatim as an array prefix; three explicit location/sample/Hunter notes appended. Earlier semantic evidence reread and retained."
+  },
+  {
+    "location": "ledger.json/items/134/review/points/1/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "ledger.json/items/134/review/points/2/evidence/0",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "ledger.json/items/134/review/points/3/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "source-phases/c9689645/ledger.json/items/130/review/points/1/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "source-phases/c9689645/ledger.json/items/130/review/points/2/evidence/0",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "source-phases/c9689645/ledger.json/items/130/review/points/3/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "source-assets.json/phases/0/items/585/review/points/1/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "source-assets.json/phases/0/items/586/review/points/1/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "source-assets.json/phases/1/items/585/review/points/1/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  },
+  {
+    "location": "source-assets.json/phases/1/items/586/review/points/1/evidence/1",
+    "id": "allogeneic-cell-therapy",
+    "field": "notes",
+    "oldSha256": "a290de6cd24f0adadc0bc8c3e9871bcb508b70b61cc3e1b343520f70361da1bf",
+    "newSha256": "3261ca674d8ecd228d32db64c35f050075b854be08ec838ed5dfa8baab53d350",
+    "reason": "Remove an unnecessary sequence/chronology characterisation. Small uncontrolled groups and differing preparation remain; the selected clinical procedures were additionally read."
+  }
+]

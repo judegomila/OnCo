@@ -1,0 +1,11 @@
+# Therapy and conjugate assessment
+
+Twelve later lessons and eleven originals are assessed separately: 467 later and 432 original source blocks, and 122/111 reproduced section signatures. Every block has a disposition. Unchanged original blocks reuse exact normalised text identity; all 82 rewritten original blocks were read and reconciled. The inventories contain 276 later and 255 original instructional requirements, with 274/254 evidenced at their stated source scope. The Baker correction and Citron erratum leave two later and one original requirements partial.
+
+Fifty-three connected paragraphs supplement twelve existing root teaching owners and three existing chemistry owners in PR 369. One broad antibody-tumour-penetration concept is registered in PR 375, with an inbound ADC relation. The narrower binding-site-barrier companion remains separate; its bidirectional relation waits until both ids coexist. Detailed fluoropyrimidine teaching belongs on fluorouracil/capecitabine; class aliases stay on the existing combined overview after an actual retrieval comparison, and vinca aliases move to tubulin.
+
+The 934 exact field proofs establish identity and containment, alongside the coordinator's semantic judgment and the source cards. They are not blind, expert or learner acceptance. All fourteen SVG theme files and twelve Mermaid theme renders were viewed at full extent. No illustration is imported. Dark contrast, labels and drawing conventions remain named Guide follow-ups; substantive interpretations are written into the reader.
+
+Validate, TypeScript, lint and full suites pass in both branches. Seventeen actual EntityDetail pages, selected JSON and Markdown exports, OpenAPI, dedupe, summary selectors, recorded page-weight ceilings and Ask were checked. Twelve simplified-English entries are corrected; 89 stale translations use current English fallback. No named-language review is claimed. Raw sources, review images, private paths and case pointers remain outside Git.
+
+The prior 125-reviewer and 84-curated inventories remain distinct historical checks. Most papers are abstract-only; targeted reading and access failures remain explicit. These are unmerged drafts, with no main, live, expert, learner or language credit. The broader curriculum, asset, adjacent and schema audit remains open.

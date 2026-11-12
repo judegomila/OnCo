@@ -1,0 +1,34 @@
+{
+  "checkedOn": "2026-11-11",
+  "status": "Coordinator assessment and registered draft representation completed at stated source scope; main and live pending.",
+  "localOwnersUpdated": 18,
+  "newCanonicalIds": 0,
+  "teachingParagraphs": 53,
+  "semanticRequirements": 237,
+  "requirementClasses": {
+    "substantive teaching obligation": 213,
+    "derived recap; not an additional empirical claim": 12,
+    "source-scope reading obligation; source listing alone earns no credit": 12
+  },
+  "sourceVersions": 24,
+  "sourceSectionsVerified": 266,
+  "sourceBlocks": {
+    "original": 462,
+    "later": 466
+  },
+  "draftLessonClosureAddedPerPin": 12,
+  "teachingAssetReviewsAddedPerPin": 10,
+  "readerParagraphsVerified": 53,
+  "summaryReaderStates": 162,
+  "availableShortTexts": 62,
+  "EnglishFallbacks": 100,
+  "acceptedLongCaches": 0,
+  "cachedSummaryChanges": {
+    "staleTranslationsWithdrawn": 48,
+    "simpleEnglishCorrected": 6
+  },
+  "repositoryState": "Unmerged audit contribution; Git and PR receipts establish the pushed head separately.",
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "independentExpertLearnerLanguageCredit": 0
+}

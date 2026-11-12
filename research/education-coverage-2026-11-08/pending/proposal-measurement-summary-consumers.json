@@ -1,0 +1,2274 @@
+{
+  "version": "proposal-measurement-summary-consumers",
+  "state": "252 additional distinct current short-summary selectors. Existing unchanged text is preserved; stale source-dependent entries fall back to current English. No new named language review.",
+  "records": [
+    {
+      "id": "tmb-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (ar)",
+      "canonicalRecordId": "tmb",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-ar",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (ar)",
+      "canonicalRecordId": "msi",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-ar",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (ar)",
+      "canonicalRecordId": "ngs",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-ar",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (ar)",
+      "canonicalRecordId": "rna-seq",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-ar",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (ar)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (ar)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-ar",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (ar)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-ar",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (ar)",
+      "canonicalRecordId": "variant-calling",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-ar",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (ar)",
+      "canonicalRecordId": "batch-effects",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-ar",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (ar)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (ar)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-ar",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (ar)",
+      "canonicalRecordId": "hla-loh",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-ar",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (ar)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-ar",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (ar)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-ar",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (ar)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-ar",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (ar)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (ar)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-ar",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (ar)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-ar",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (ar)",
+      "canonicalRecordId": "vaf",
+      "language": "ar",
+      "available": true,
+      "text": "نسبة قراءات الحمض النووي التي تحمل طفرة ما. تبيّن مقدار الجزء المتحوّر من العينة ومدى نسيليته."
+    },
+    {
+      "id": "gene-amplification-ar",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (ar)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "ar",
+      "available": true,
+      "text": "غالبا ما تحمل الخلايا السرطانية نسخا إضافية من جين نمو (تضخيم) أو تفقد نسخا من جين واقٍ (حذف)، بدلا من تغيير في تهجئة الجين نفسه. النسخ الإضافية من HER2 أو MYCN أمثلة كلاسيكية تغير العلاج."
+    },
+    {
+      "id": "tpm-fpkm-counts-ar",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (ar)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-ar",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (ar)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-ar",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (ar)",
+      "canonicalRecordId": "tmb-high",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (ar)",
+      "canonicalRecordId": "nsclc",
+      "language": "ar",
+      "available": true,
+      "text": "السرطان الأكثر فتكاً وميدان اختبار الطب الدقيق: عشرات الطفرات القابلة للاستهداف، والعلاج المناعي لبقية الحالات، ومركّبات ADC والأجسام المضادة ثنائية النوعية تصل الآن."
+    },
+    {
+      "id": "gallbladder-ar",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (ar)",
+      "canonicalRecordId": "gallbladder",
+      "language": "ar",
+      "available": true,
+      "text": "سرطان المرارة هو سرطان يصيب الكيس الذي يخزّن الصفراء تحت الكبد، ويُكتشف في أغلب الأحيان بالصدفة عند استئصال المرارة بسبب الحصوات. إذا اكتُشف مبكرًا، فإن عملية ثانية لإزالة سرير الكبد والعقد اللمفية يمكن أن تشفيه؛ وفي المرض المتقدم يُعطى العلاج الكيميائي الآن مع العلاج المناعي، وتساعد الأجسام المضادة الموجّهة ضد HER2 الفئة التي تُظهر أورامها تعبيرًا مفرطًا لـHER2."
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (ar)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "checkpoint-inhibitor-ar",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (ar)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "ar",
+      "available": true,
+      "text": "أجسام مضادة تُحرر الخلايا المناعية من مكابحها لتتمكن من مهاجمة السرطان. وهي تشفي أقلية من المرضى في كثير من أنواع السرطان، وهو أمر نادراً ما يحققه العلاج الكيميائي."
+    },
+    {
+      "id": "msi-high-ar",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (ar)",
+      "canonicalRecordId": "msi-high",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (de)",
+      "canonicalRecordId": "tmb",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-de",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (de)",
+      "canonicalRecordId": "msi",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-de",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (de)",
+      "canonicalRecordId": "ngs",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-de",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (de)",
+      "canonicalRecordId": "rna-seq",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-de",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (de)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-de",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (de)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-de",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (de)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-de",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (de)",
+      "canonicalRecordId": "variant-calling",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-de",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (de)",
+      "canonicalRecordId": "batch-effects",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-de",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (de)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (de)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-de",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (de)",
+      "canonicalRecordId": "hla-loh",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-de",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (de)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-de",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (de)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-de",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (de)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-de",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (de)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (de)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-de",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (de)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-de",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (de)",
+      "canonicalRecordId": "vaf",
+      "language": "de",
+      "available": true,
+      "text": "Der Anteil der DNA-Reads, die eine Mutation tragen. Er zeigt, wie viel der Probe mutiert ist und wie klonal sie ist."
+    },
+    {
+      "id": "gene-amplification-de",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (de)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "de",
+      "available": true,
+      "text": "Krebszellen haben oft zusätzliche Kopien eines Wachstumsgens (Amplifikation) oder haben Kopien eines schützenden Gens verloren (Deletion), statt einer Änderung der Buchstabenfolge innerhalb des Gens. Zusätzliche Kopien von HER2 oder MYCN sind klassische Beispiele, die die Behandlung verändern."
+    },
+    {
+      "id": "tpm-fpkm-counts-de",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (de)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-de",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (de)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-de",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (de)",
+      "canonicalRecordId": "tmb-high",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-de",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (de)",
+      "canonicalRecordId": "nsclc",
+      "language": "de",
+      "available": true,
+      "text": "Der Krebs mit den meisten Todesfällen und das Testfeld der Präzisionsmedizin: ein Dutzend zielgerichtet behandelbare Mutationen, Immuntherapie für den Rest, und jetzt kommen ADCs und bispezifische Antikörper."
+    },
+    {
+      "id": "gallbladder-de",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (de)",
+      "canonicalRecordId": "gallbladder",
+      "language": "de",
+      "available": true,
+      "text": "Gallenblasenkrebs ist ein Krebs des Gallenspeichersacks unter der Leber, der meist zufällig entdeckt wird, wenn die Gallenblase wegen Steinen entfernt wird. Früh erkannt, kann eine zweite Operation zur Entfernung des Leberbetts und der Lymphknoten ihn heilen; bei fortgeschrittener Erkrankung wird die Chemotherapie heute mit einer Immuntherapie kombiniert, und gegen HER2 gerichtete Antikörper helfen der Untergruppe, deren Tumoren HER2 überexprimieren."
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-de",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (de)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "checkpoint-inhibitor-de",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (de)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "de",
+      "available": true,
+      "text": "Antikörper, die die Bremsen der Immunzellen lösen, damit diese den Krebs angreifen können. Sie heilen bei vielen Krebsarten eine Minderheit der Patienten, was Chemotherapie nur selten schafft."
+    },
+    {
+      "id": "msi-high-de",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (de)",
+      "canonicalRecordId": "msi-high",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (es)",
+      "canonicalRecordId": "tmb",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-es",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (es)",
+      "canonicalRecordId": "msi",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-es",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (es)",
+      "canonicalRecordId": "ngs",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-es",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (es)",
+      "canonicalRecordId": "rna-seq",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-es",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (es)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-es",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (es)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-es",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (es)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-es",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (es)",
+      "canonicalRecordId": "variant-calling",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-es",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (es)",
+      "canonicalRecordId": "batch-effects",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-es",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (es)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (es)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-es",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (es)",
+      "canonicalRecordId": "hla-loh",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-es",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (es)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-es",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (es)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-es",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (es)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-es",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (es)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (es)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-es",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (es)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-es",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (es)",
+      "canonicalRecordId": "vaf",
+      "language": "es",
+      "available": true,
+      "text": "La fracción de lecturas de ADN que llevan una mutación. Indica cuánto de la muestra es mutante y cuán clonal es."
+    },
+    {
+      "id": "gene-amplification-es",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (es)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "es",
+      "available": true,
+      "text": "Las células cancerosas a menudo tienen copias extra de un gen de crecimiento (amplificación) o han perdido copias de uno protector (deleción), en lugar de un cambio de ortografía dentro del gen. Las copias extra de HER2 o MYCN son ejemplos clásicos que cambian el tratamiento."
+    },
+    {
+      "id": "tpm-fpkm-counts-es",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (es)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-es",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (es)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-es",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (es)",
+      "canonicalRecordId": "tmb-high",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-es",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (es)",
+      "canonicalRecordId": "nsclc",
+      "language": "es",
+      "available": true,
+      "text": "El cáncer que más muertes causa y el campo de pruebas de la medicina de precisión: una docena de mutaciones tratables, inmunoterapia para el resto, y ADC y biespecíficos que llegan ahora."
+    },
+    {
+      "id": "gallbladder-es",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (es)",
+      "canonicalRecordId": "gallbladder",
+      "language": "es",
+      "available": true,
+      "text": "El cáncer de vesícula biliar es un cáncer de la bolsa que almacena la bilis debajo del hígado, que se descubre con mayor frecuencia por casualidad cuando se extirpa la vesícula por cálculos. Detectado a tiempo, una segunda operación para limpiar el lecho hepático y los ganglios puede curarlo; en la enfermedad avanzada, la quimioterapia ahora se acompaña de inmunoterapia, y los anticuerpos dirigidos contra HER2 ayudan al subgrupo cuyos tumores sobreexpresan HER2."
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-es",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (es)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "checkpoint-inhibitor-es",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (es)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "es",
+      "available": true,
+      "text": "Anticuerpos que liberan los frenos de las células inmunitarias para que ataquen el cáncer. Curan a una minoría de pacientes en muchos cánceres, algo que la quimioterapia rara vez logra."
+    },
+    {
+      "id": "msi-high-es",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (es)",
+      "canonicalRecordId": "msi-high",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (fr)",
+      "canonicalRecordId": "tmb",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-fr",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (fr)",
+      "canonicalRecordId": "msi",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-fr",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (fr)",
+      "canonicalRecordId": "ngs",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-fr",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (fr)",
+      "canonicalRecordId": "rna-seq",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-fr",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (fr)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (fr)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-fr",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (fr)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-fr",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (fr)",
+      "canonicalRecordId": "variant-calling",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-fr",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (fr)",
+      "canonicalRecordId": "batch-effects",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-fr",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (fr)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (fr)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-fr",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (fr)",
+      "canonicalRecordId": "hla-loh",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-fr",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (fr)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-fr",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (fr)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-fr",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (fr)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-fr",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (fr)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (fr)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-fr",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (fr)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-fr",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (fr)",
+      "canonicalRecordId": "vaf",
+      "language": "fr",
+      "available": true,
+      "text": "La fraction des lectures d'ADN portant une mutation. Elle indique quelle part de l'échantillon est mutée et à quel point elle est clonale."
+    },
+    {
+      "id": "gene-amplification-fr",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (fr)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "fr",
+      "available": true,
+      "text": "Les cellules cancéreuses possèdent souvent des copies supplémentaires d'un gène de croissance (amplification) ou ont perdu des copies d'un gène protecteur (délétion), plutôt qu'une faute d'orthographe à l'intérieur du gène. Les copies supplémentaires de HER2 ou de MYCN sont des exemples classiques qui modifient le traitement."
+    },
+    {
+      "id": "tpm-fpkm-counts-fr",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (fr)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-fr",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (fr)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-fr",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (fr)",
+      "canonicalRecordId": "tmb-high",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (fr)",
+      "canonicalRecordId": "nsclc",
+      "language": "fr",
+      "available": true,
+      "text": "Le cancer qui tue le plus et le terrain d'essai de la médecine de précision : une douzaine de mutations ciblables, l'immunothérapie pour le reste, et les ADC et bispécifiques qui arrivent maintenant."
+    },
+    {
+      "id": "gallbladder-fr",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (fr)",
+      "canonicalRecordId": "gallbladder",
+      "language": "fr",
+      "available": true,
+      "text": "Le cancer de la vésicule biliaire est un cancer de la poche qui stocke la bile sous le foie, le plus souvent découvert par hasard lorsque la vésicule est retirée pour des calculs. Détecté tôt, une seconde opération pour nettoyer le lit hépatique et les ganglions peut le guérir ; dans la maladie avancée, la chimiothérapie s'accompagne désormais d'une immunothérapie, et les anticorps dirigés contre HER2 aident le sous-groupe dont les tumeurs surexpriment HER2."
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (fr)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "checkpoint-inhibitor-fr",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (fr)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "fr",
+      "available": true,
+      "text": "Des anticorps qui relâchent les freins des cellules immunitaires pour qu'elles puissent attaquer le cancer. Ils guérissent une minorité de patients dans de nombreux cancers, ce que la chimiothérapie fait rarement."
+    },
+    {
+      "id": "msi-high-fr",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (fr)",
+      "canonicalRecordId": "msi-high",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (hi)",
+      "canonicalRecordId": "tmb",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-hi",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (hi)",
+      "canonicalRecordId": "msi",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-hi",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (hi)",
+      "canonicalRecordId": "ngs",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-hi",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (hi)",
+      "canonicalRecordId": "rna-seq",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-hi",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (hi)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (hi)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-hi",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (hi)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-hi",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (hi)",
+      "canonicalRecordId": "variant-calling",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-hi",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (hi)",
+      "canonicalRecordId": "batch-effects",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-hi",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (hi)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (hi)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-hi",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (hi)",
+      "canonicalRecordId": "hla-loh",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-hi",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (hi)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-hi",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (hi)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-hi",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (hi)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-hi",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (hi)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (hi)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-hi",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (hi)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-hi",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (hi)",
+      "canonicalRecordId": "vaf",
+      "language": "hi",
+      "available": true,
+      "text": "म्यूटेशन ले रहे DNA रीड्स का अंश। बताता है कि नमूने का कितना हिस्सा म्यूटेंट है और कितना क्लोनल।"
+    },
+    {
+      "id": "gene-amplification-hi",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (hi)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "hi",
+      "available": true,
+      "text": "कैंसर कोशिकाओं में अक्सर किसी वृद्धि जीन की अतिरिक्त प्रतियाँ होती हैं (एम्प्लिफिकेशन) या किसी सुरक्षात्मक जीन की प्रतियाँ खो जाती हैं (डिलीशन), बजाय जीन के भीतर किसी वर्तनी परिवर्तन के। HER2 या MYCN की अतिरिक्त प्रतियाँ ऐसे क्लासिक उदाहरण हैं जो उपचार को बदल देते हैं।"
+    },
+    {
+      "id": "tpm-fpkm-counts-hi",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (hi)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-hi",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (hi)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-hi",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (hi)",
+      "canonicalRecordId": "tmb-high",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (hi)",
+      "canonicalRecordId": "nsclc",
+      "language": "hi",
+      "available": true,
+      "text": "सबसे ज़्यादा जानें लेने वाला कैंसर और सटीक चिकित्सा का परीक्षण-क्षेत्र: दर्जन भर लक्ष्य-योग्य म्यूटेशन, बाकी के लिए इम्यूनोथेरेपी, और अब ADC व बाइस्पेसिफिक दवाएँ आ रही हैं।"
+    },
+    {
+      "id": "gallbladder-hi",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (hi)",
+      "canonicalRecordId": "gallbladder",
+      "language": "hi",
+      "available": true,
+      "text": "पित्ताशय का कैंसर लिवर के नीचे पित्त जमा करने वाली थैली का कैंसर है, जो अक्सर तब संयोग से पता चलता है जब पथरी के कारण पित्ताशय निकाला जाता है। समय रहते पकड़ में आ जाए तो लिवर की सतह और लसीका ग्रंथियों को साफ़ करने के लिए दूसरी सर्जरी इसे ठीक कर सकती है; उन्नत बीमारी में अब कीमोथेरेपी के साथ इम्यूनोथेरेपी दी जाती है, और HER2 पर लक्षित एंटीबॉडी उन मरीज़ों के उपसमूह की मदद करती हैं जिनके ट्यूमर में HER2 की अधिकता होती है।"
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (hi)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "checkpoint-inhibitor-hi",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (hi)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "hi",
+      "available": true,
+      "text": "प्रतिरक्षा कोशिकाओं के ब्रेक छोड़ने वाले एंटीबॉडी ताकि वे कैंसर पर हमला कर सकें। कई कैंसरों में अल्पसंख्यक मरीज़ों को ठीक करते हैं, जो कीमोथेरेपी शायद ही करती है।"
+    },
+    {
+      "id": "msi-high-hi",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (hi)",
+      "canonicalRecordId": "msi-high",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (ja)",
+      "canonicalRecordId": "tmb",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-ja",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (ja)",
+      "canonicalRecordId": "msi",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-ja",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (ja)",
+      "canonicalRecordId": "ngs",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-ja",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (ja)",
+      "canonicalRecordId": "rna-seq",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-ja",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (ja)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (ja)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-ja",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (ja)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-ja",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (ja)",
+      "canonicalRecordId": "variant-calling",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-ja",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (ja)",
+      "canonicalRecordId": "batch-effects",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-ja",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (ja)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (ja)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-ja",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (ja)",
+      "canonicalRecordId": "hla-loh",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-ja",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (ja)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-ja",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (ja)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-ja",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (ja)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-ja",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (ja)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (ja)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-ja",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (ja)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-ja",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (ja)",
+      "canonicalRecordId": "vaf",
+      "language": "ja",
+      "available": true,
+      "text": "ある変異を持つDNAリードの割合である。サンプルのどれだけが変異型で、どの程度クローン性であるかを示す。"
+    },
+    {
+      "id": "gene-amplification-ja",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (ja)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "ja",
+      "available": true,
+      "text": "がん細胞では、遺伝子内部の「つづり」の変化ではなく、増殖遺伝子のコピーが余分にある（増幅）か、保護的な遺伝子のコピーが失われている（欠失）ことがよくある。HER2やMYCNのコピー数増加は、治療を変える代表的な例である。"
+    },
+    {
+      "id": "tpm-fpkm-counts-ja",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (ja)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-ja",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (ja)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-ja",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (ja)",
+      "canonicalRecordId": "tmb-high",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (ja)",
+      "canonicalRecordId": "nsclc",
+      "language": "ja",
+      "available": true,
+      "text": "最も多くの命を奪うがんであり、精密医療の実証の場でもある。十数種の標的可能な変異、それ以外には免疫療法、そして今ADCと二重特異性抗体が登場している。"
+    },
+    {
+      "id": "gallbladder-ja",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (ja)",
+      "canonicalRecordId": "gallbladder",
+      "language": "ja",
+      "available": true,
+      "text": "胆嚢がんは肝臓の下にある胆汁を蓄える袋に生じるがんで、胆石のために胆嚢を摘出した際に偶然見つかることが最も多い。早期に見つかれば、肝床とリンパ節を取り除く二回目の手術で治癒が期待できる。進行がんでは、化学療法に免疫療法が併用されるようになり、HER2を標的とする抗体は、腫瘍がHER2を過剰に発現している一部の患者に効果がある。"
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (ja)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "checkpoint-inhibitor-ja",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (ja)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "ja",
+      "available": true,
+      "text": "免疫細胞のブレーキを外し、がんを攻撃できるようにする抗体薬。多くの種類のがんで少数ながら患者を治癒に導いており、これは化学療法ではめったに起こらないことである。"
+    },
+    {
+      "id": "msi-high-ja",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (ja)",
+      "canonicalRecordId": "msi-high",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (pt)",
+      "canonicalRecordId": "tmb",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-pt",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (pt)",
+      "canonicalRecordId": "msi",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-pt",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (pt)",
+      "canonicalRecordId": "ngs",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-pt",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (pt)",
+      "canonicalRecordId": "rna-seq",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-pt",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (pt)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (pt)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-pt",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (pt)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-pt",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (pt)",
+      "canonicalRecordId": "variant-calling",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-pt",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (pt)",
+      "canonicalRecordId": "batch-effects",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-pt",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (pt)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (pt)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-pt",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (pt)",
+      "canonicalRecordId": "hla-loh",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-pt",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (pt)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-pt",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (pt)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-pt",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (pt)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-pt",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (pt)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (pt)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-pt",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (pt)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-pt",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (pt)",
+      "canonicalRecordId": "vaf",
+      "language": "pt",
+      "available": true,
+      "text": "A fração de leituras de DNA que carregam uma mutação. Diz quanto da amostra é mutante e quão clonal é."
+    },
+    {
+      "id": "gene-amplification-pt",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (pt)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "pt",
+      "available": true,
+      "text": "As células cancerosas têm frequentemente cópias extra de um gene de crescimento (amplificação) ou perderam cópias de um gene protetor (deleção), em vez de uma alteração de ortografia dentro do gene. Cópias extra de HER2 ou MYCN são exemplos clássicos que mudam o tratamento."
+    },
+    {
+      "id": "tpm-fpkm-counts-pt",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (pt)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-pt",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (pt)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-pt",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (pt)",
+      "canonicalRecordId": "tmb-high",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (pt)",
+      "canonicalRecordId": "nsclc",
+      "language": "pt",
+      "available": true,
+      "text": "O câncer que mais mata e o campo de provas da medicina de precisão: uma dúzia de mutações tratáveis, imunoterapia para o resto, e ADCs e biespecíficos chegando agora."
+    },
+    {
+      "id": "gallbladder-pt",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (pt)",
+      "canonicalRecordId": "gallbladder",
+      "language": "pt",
+      "available": true,
+      "text": "O câncer de vesícula biliar é um câncer da bolsa que armazena a bile abaixo do fígado, descoberto na maioria das vezes por acaso quando a vesícula é retirada por causa de pedras. Detectado cedo, uma segunda operação para limpar o leito hepático e os gânglios pode curá-lo; na doença avançada, a quimioterapia agora vem acompanhada de imunoterapia, e os anticorpos dirigidos ao HER2 ajudam o subgrupo cujos tumores superexpressam HER2."
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (pt)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "checkpoint-inhibitor-pt",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (pt)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "pt",
+      "available": true,
+      "text": "Anticorpos que soltam os freios das células imunes para que ataquem o câncer. Curam uma minoria de pacientes em muitos cânceres, algo que a quimioterapia raramente faz."
+    },
+    {
+      "id": "msi-high-pt",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (pt)",
+      "canonicalRecordId": "msi-high",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (zh)",
+      "canonicalRecordId": "tmb",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-zh",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (zh)",
+      "canonicalRecordId": "msi",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-zh",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (zh)",
+      "canonicalRecordId": "ngs",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-zh",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (zh)",
+      "canonicalRecordId": "rna-seq",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-zh",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (zh)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (zh)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-zh",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (zh)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-zh",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (zh)",
+      "canonicalRecordId": "variant-calling",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-zh",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (zh)",
+      "canonicalRecordId": "batch-effects",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-zh",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (zh)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (zh)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-zh",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (zh)",
+      "canonicalRecordId": "hla-loh",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-zh",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (zh)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-zh",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (zh)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-zh",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (zh)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-zh",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (zh)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (zh)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-zh",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (zh)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-zh",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (zh)",
+      "canonicalRecordId": "vaf",
+      "language": "zh",
+      "available": true,
+      "text": "携带突变的DNA读数比例。告知样本中突变占比及克隆性。"
+    },
+    {
+      "id": "gene-amplification-zh",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (zh)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "zh",
+      "available": true,
+      "text": "癌细胞常常拥有额外拷贝的生长基因（扩增），或丢失了保护性基因的拷贝（缺失），而不是基因内部的“拼写”改变。HER2或MYCN的额外拷贝是会改变治疗方案的经典例子。"
+    },
+    {
+      "id": "tpm-fpkm-counts-zh",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (zh)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-zh",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (zh)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-zh",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (zh)",
+      "canonicalRecordId": "tmb-high",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (zh)",
+      "canonicalRecordId": "nsclc",
+      "language": "zh",
+      "available": true,
+      "text": "致死人数最多的癌症，也是精准医学的试验场：十余种可靶向的突变，其余用免疫治疗，ADC和双特异性药物正在到来。"
+    },
+    {
+      "id": "gallbladder-zh",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (zh)",
+      "canonicalRecordId": "gallbladder",
+      "language": "zh",
+      "available": true,
+      "text": "胆囊癌是肝脏下方储存胆汁的囊袋发生的癌症，最常在因结石切除胆囊时偶然发现。若发现得早，通过第二次手术清除肝床和淋巴结可以治愈；对于晚期疾病，化疗现在会搭配免疫治疗，而针对HER2的抗体则可帮助肿瘤HER2过度表达的那部分患者。"
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (zh)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "zh",
+      "available": true,
+      "text": "当头颈癌在无法切除的部位复发或扩散到其他部位时，治疗目标是延长生命而非治愈：帕博利珠单抗单用或联合化疗是首选，西妥昔单抗方案和廉价口服化疗是替代方案，同时打击两个靶点的抗体正处于后期试验。"
+    },
+    {
+      "id": "checkpoint-inhibitor-zh",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (zh)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "zh",
+      "available": true,
+      "text": "松开免疫细胞刹车、让其攻击癌症的抗体。它们在多种癌症中治愈少数患者，这是化疗很少做到的。"
+    },
+    {
+      "id": "msi-high-zh",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (zh)",
+      "canonicalRecordId": "msi-high",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden (TMB) (simple)",
+      "canonicalRecordId": "tmb",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "msi-simple",
+      "kind": "reader-summary-entry",
+      "name": "Microsatellite instability (MSI-H) / mismatch repair deficiency (dMMR) (simple)",
+      "canonicalRecordId": "msi",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ngs-simple",
+      "kind": "reader-summary-entry",
+      "name": "Next-generation sequencing (NGS) (simple)",
+      "canonicalRecordId": "ngs",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-seq-simple",
+      "kind": "reader-summary-entry",
+      "name": "RNA sequencing & expression profiling (simple)",
+      "canonicalRecordId": "rna-seq",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-spatial-simple",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell & spatial profiling (simple)",
+      "canonicalRecordId": "single-cell-spatial",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "long-read-sequencing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Long-read sequencing (PacBio, Oxford Nanopore) (simple)",
+      "canonicalRecordId": "long-read-sequencing",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "bulk-rna-seq-simple",
+      "kind": "reader-summary-entry",
+      "name": "Bulk RNA sequencing (RNA-seq) and the full transcriptome (simple)",
+      "canonicalRecordId": "bulk-rna-seq",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "variant-calling-simple",
+      "kind": "reader-summary-entry",
+      "name": "Variant calling (simple)",
+      "canonicalRecordId": "variant-calling",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "batch-effects-simple",
+      "kind": "reader-summary-entry",
+      "name": "Batch effects and harmonisation (simple)",
+      "canonicalRecordId": "batch-effects",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "single-cell-rna-seq-simple",
+      "kind": "reader-summary-entry",
+      "name": "Single-cell RNA sequencing (scRNA-seq, 10x Chromium) (simple)",
+      "canonicalRecordId": "single-cell-rna-seq",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-testing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumour mutational burden testing (simple)",
+      "canonicalRecordId": "tmb-testing",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "hla-loh-simple",
+      "kind": "reader-summary-entry",
+      "name": "HLA loss of heterozygosity (simple)",
+      "canonicalRecordId": "hla-loh",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-depth-and-coverage-simple",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing depth and coverage (simple)",
+      "canonicalRecordId": "sequencing-depth-and-coverage",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "sequencing-reads-simple",
+      "kind": "reader-summary-entry",
+      "name": "Sequencing reads (simple)",
+      "canonicalRecordId": "sequencing-reads",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tumor-normal-vs-tumor-only-sequencing-simple",
+      "kind": "reader-summary-entry",
+      "name": "Tumor-normal versus tumor-only sequencing (simple)",
+      "canonicalRecordId": "tumor-normal-vs-tumor-only-sequencing",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "gene-expression-signatures-simple",
+      "kind": "reader-summary-entry",
+      "name": "Gene-expression signatures (simple)",
+      "canonicalRecordId": "gene-expression-signatures",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "immune-deconvolution-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune deconvolution (simple)",
+      "canonicalRecordId": "immune-deconvolution",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "rna-pathway-scoring-simple",
+      "kind": "reader-summary-entry",
+      "name": "RNA pathway scoring (simple)",
+      "canonicalRecordId": "rna-pathway-scoring",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "vaf-simple",
+      "kind": "reader-summary-entry",
+      "name": "Variant allele frequency (VAF) (simple)",
+      "canonicalRecordId": "vaf",
+      "language": "simple",
+      "available": true,
+      "text": "The share of DNA reads carrying a mutation, which shows how much of the sample is cancer."
+    },
+    {
+      "id": "gene-amplification-simple",
+      "kind": "reader-summary-entry",
+      "name": "Gene amplification and copy-number change (simple)",
+      "canonicalRecordId": "gene-amplification",
+      "language": "simple",
+      "available": true,
+      "text": "Gene amplification means cancer cells have extra copies of a growth gene, such as HER2 or MYCN, rather than a spelling change within it, which changes treatment."
+    },
+    {
+      "id": "tpm-fpkm-counts-simple",
+      "kind": "reader-summary-entry",
+      "name": "TPM, FPKM and raw counts (expression units) (simple)",
+      "canonicalRecordId": "tpm-fpkm-counts",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "genome-wide-loss-of-heterozygosity-simple",
+      "kind": "reader-summary-entry",
+      "name": "Genome-wide loss of heterozygosity (gLOH) (simple)",
+      "canonicalRecordId": "genome-wide-loss-of-heterozygosity",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "tmb-high-simple",
+      "kind": "reader-summary-entry",
+      "name": "TMB-high (tumour mutational burden) (simple)",
+      "canonicalRecordId": "tmb-high",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "nsclc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Non-small-cell lung cancer (simple)",
+      "canonicalRecordId": "nsclc",
+      "language": "simple",
+      "available": true,
+      "text": "The most common lung cancer and the one that kills the most people. Doctors now test each tumour for its weak spots and pick a pill or an immune drug to match."
+    },
+    {
+      "id": "gallbladder-simple",
+      "kind": "reader-summary-entry",
+      "name": "Gallbladder cancer (simple)",
+      "canonicalRecordId": "gallbladder",
+      "language": "simple",
+      "available": true,
+      "text": "Gallbladder cancer affects the bile-storing sac under the liver, often found by chance when the gallbladder is removed for stones, and a second operation can cure early cases."
+    },
+    {
+      "id": "recurrent-metastatic-hnscc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Recurrent or metastatic head and neck squamous cell carcinoma (simple)",
+      "canonicalRecordId": "recurrent-metastatic-hnscc",
+      "language": "simple",
+      "available": true,
+      "text": "Recurrent or metastatic head and neck cancer has come back where it cannot be removed or spread elsewhere, so it is treated to extend life rather than cure, with pembrolizumab as the first choice."
+    },
+    {
+      "id": "checkpoint-inhibitor-simple",
+      "kind": "reader-summary-entry",
+      "name": "Immune checkpoint inhibitors (simple)",
+      "canonicalRecordId": "checkpoint-inhibitor",
+      "language": "simple",
+      "available": true,
+      "text": "Antibodies that release the brakes on immune cells so they can attack the cancer. They cure a minority of patients across many cancers."
+    },
+    {
+      "id": "msi-high-simple",
+      "kind": "reader-summary-entry",
+      "name": "MSI-high (microsatellite instability by PCR or sequencing) (simple)",
+      "canonicalRecordId": "msi-high",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ]
+}

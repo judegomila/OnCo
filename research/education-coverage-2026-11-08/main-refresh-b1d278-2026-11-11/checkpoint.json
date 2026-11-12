@@ -1,0 +1,36 @@
+{
+  "checkedOn": "2026-11-11",
+  "upstreamHead": "b1d278e277075208a5929e0137146531716091fe",
+  "priorAuditHead": "c7a39329684b096ed053fefacb992145f636fe39",
+  "mergeDataHead": "f28dabca920a3387f285c7293400321c599c6324",
+  "graphCount": 23023,
+  "upstreamNewRecords": {
+    "protocol": 190,
+    "idea": 24
+  },
+  "removedGraphIds": [],
+  "auditIntroducedIds": 128,
+  "earlierUpstreamDuplicatesRetired": 2,
+  "conflictResolution": "One terms-file conflict: retain the audited records and union two upstream irAE aliases. No object-literal union.",
+  "evidenceFieldsChanged": 0,
+  "registeredDependenciesChecked": 565,
+  "distinctPointOwnerIds": 481,
+  "newSourceCredit": 0,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "upstreamClaimsIndependentlyCertified": false,
+  "additionalDataCorrection": {
+    "id": "irae",
+    "field": "tldr",
+    "before": "An immune-related adverse event is harm attributed to treatment-related immune activity; its name does not establish the affected organ, severity or management.",
+    "after": "Checkpoint inhibitors can cause immune-related adverse events such as colitis, rash, hepatitis, pneumonitis and thyroid problems. Management depends on the organ and severity and may involve steroids, other immunosuppression or hormone replacement.",
+    "beforeFieldSha256": "87900ccf42ae25af68013abef2d78d9acedb4c4523b6ecf05c304bf1f7339bc8",
+    "afterFieldSha256": "fd95d2648ca979b996fc7a4e6b396bb96b3bfa4ac3fc780ea21029bcefac061b",
+    "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287",
+    "readingScope": "Label section 5.1 opening management paragraphs, thyroid/hypophysitis/adrenal passages and retained prior guideline assessment. No class incidence, universal steroid instruction or individual advice.",
+    "simpleEnglishEntriesCorrected": 1,
+    "staleMachineTranslationsWithdrawn": 0
+  },
+  "priorPacketPreserved": "surface-targeting-2026-11-11",
+  "broaderGoalComplete": false
+}

@@ -1,0 +1,1365 @@
+{
+  "dataCommit": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+  "records": [
+    {
+      "id": "brca-reversion-mutations",
+      "implementation": "committed-draft-root",
+      "anchorHead": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+      "fields": {
+        "asOf": {
+          "before": "2026-11-11",
+          "after": "2026-11-12",
+          "beforeSha256": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Sakai et al.: BRCA2 secondary mutations and cisplatin resistance (2008)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18264087/"
+            },
+            {
+              "label": "Sakai et al.: functional BRCA2 restoration in ovarian carcinoma models (2009)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+            }
+          ],
+          "after": [
+            {
+              "label": "Sakai et al.: BRCA2 secondary mutations and cisplatin resistance (2008)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18264087/"
+            },
+            {
+              "label": "Sakai et al.: functional BRCA2 restoration in ovarian carcinoma models (2009)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+            },
+            {
+              "label": "Edwards et al.: intragenic BRCA2 deletion and therapy resistance (2008)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18264088/"
+            },
+            {
+              "label": "Tobalina et al.: meta-analysis of published BRCA reversion cases (2021)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33091561/"
+            },
+            {
+              "label": "Pettitt et al.: clinical BRCA reversion-event catalogue (2020)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32699032/"
+            },
+            {
+              "label": "Lin et al.: blood BRCA reversions before and after rucaparib (2019)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30425037/"
+            },
+            {
+              "label": "Weigelt et al.: diverse reversions in circulating DNA (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28765325/"
+            },
+            {
+              "label": "Waks et al.: reversion and other repair-restoration mechanisms (2020)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/"
+            },
+            {
+              "label": "Nesic et al.: BRCA1 splice-site mutations and PARP resistance (2024)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39103848/"
+            },
+            {
+              "label": "Zatreanu et al.: polymerase-theta inhibition in selected resistant models (2021)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34140467/"
+            }
+          ],
+          "beforeSha256": "5025abd3905182c62dac5738e42430caf92da633aec1b3fc0af6db04b589c755",
+          "afterSha256": "8452903fb737a60e3a24b0fdf6af51cf9c374cadddeece18cd32fccc17da3393"
+        },
+        "notes": {
+          "before": [
+            "Sakai 2008 described secondary BRCA2 changes that restored the reading frame in breast and pancreatic cancer models. The selected clones resisted cisplatin and the experimental PARP inhibitor AG14361. A recurrent BRCA2-mutated ovarian tumour with acquired cisplatin resistance also carried a reversion. These examples establish a possible resistance mechanism, rather than a universal frequency across cancers, assays or medicines.",
+            "Sakai 2009 studied ovarian cancer cell lines from one BRCA2-variant carrier. A secondary change cancelled an inherited nonsense variant, BRCA2 protein was detectable in resistant lines, and further experiments selected BRCA2-restored clones. Reducing BRCA2 with siRNA made the restored clones and PEO4 cells more sensitive to cisplatin and AG14361. This is evidence from a named cellular model and depletion experiment, rather than a clinical trial selecting a subsequent treatment.",
+            "Reading rule: these experiments do not supply a general incidence percentage or a treatment-switch rule. A reversion-negative result does not by itself show that every resistance mechanism is absent or establish benefit from another course of a PARP inhibitor. Interpretation needs the tested sequence regions, sample, assay limits and relevant clinical evidence. An inherited variant and a secondary tumour variant remain separate findings."
+          ],
+          "after": [
+            "Sakai 2008 described secondary BRCA2 changes that restored the reading frame in breast and pancreatic cancer models. The selected clones resisted cisplatin and the experimental PARP inhibitor AG14361. A recurrent BRCA2-mutated ovarian tumour with acquired cisplatin resistance also carried a reversion. These examples establish a possible resistance mechanism, rather than a universal frequency across cancers, assays or medicines.",
+            "Sakai 2009 studied ovarian cancer cell lines from one BRCA2-variant carrier. A secondary change cancelled an inherited nonsense variant, BRCA2 protein was detectable in resistant lines, and further experiments selected BRCA2-restored clones. Reducing BRCA2 with siRNA made the restored clones and PEO4 cells more sensitive to cisplatin and AG14361. This is evidence from a named cellular model and depletion experiment, rather than a clinical trial selecting a subsequent treatment.",
+            "Reading rule: these experiments do not supply a general incidence percentage or a treatment-switch rule. A reversion-negative result does not by itself show that every resistance mechanism is absent or establish benefit from another course of a PARP inhibitor. Interpretation needs the tested sequence regions, sample, assay limits and relevant clinical evidence. An inherited variant and a secondary tumour variant remain separate findings.",
+            "A reading frame groups the DNA sequence into three-letter instructions. A missing letter can change the groups that follow; a nearby second edit can restore the grouping without recreating the original sequence. In a fictional tumour with a two-base BRCA1 deletion, a further one-base deletion on the same altered copy gives a net three-base loss. Two plus six gives eight and does not restore the original frame. The positions, affected copy and intervening sequence still matter. Even after a response lasting a year, this sequence calculation supplies a candidate explanation for later resistance, not proof of protein function or treatment causation.",
+            "An inherited BRCA variant does not by itself establish loss of both working copies in a tumour. The functional state of the remaining copy matters. A restoring change can expand under treatment selection, whether it arose earlier or later; detecting it at progression does not date its origin or show that treatment deliberately produced it. A secondary tumour change also does not invalidate the original variant call or remove the inherited variant from the person's other cells. Blood contains a mixture of tumour and non-tumour DNA, so linking changes to the same copy can be important.",
+            "Alongside Sakai's 2008 experiments, Edwards 2008 selected PARP-inhibitor-resistant CAPAN1 pancreatic cancer cells whose intragenic BRCA2 deletions restored an open reading frame. The authors reported restored repair-related findings and similar secondary changes in carboplatin-resistant ovarian tumours. This shows a possible route to cross-resistance in the tested systems, rather than a rule for every drug or tumour. Short matching sequences around some deletion junctions suggested an end-joining process; such a junction does not identify one responsible enzyme.",
+            "A restoring event can produce a shorter, partly functional protein. Nesic 2024 studied BRCA1 exon-11 frameshift ovarian and breast cancer models, including a matched before/after PARP-inhibitor pair, and reported secondary splice-site changes that increased shorter BRCA1 isoforms. Post-treatment ovarian cancer data also showed enrichment of these changes. These were hypomorphic proteins with partial function, not evidence that every splice change recreates normal full-length BRCA1 or produces the same drug response.",
+            "Reversion percentages depend on whom and what was counted. Tobalina's 2021 meta-analysis assembled 327 published patient cases after platinum or PARP-inhibitor progression: 234 ovarian, 27 breast, 13 pancreatic, 11 prostate and 42 of unspecified origin. It catalogued 269 reversion events in 86 people, about 26 per cent of these selected cases. Pettitt's 2020 catalogue contained more than 300 reversion events, with most deletions smaller than 100 bases; events are not independent patients. Among 283 sequence-informative events, 159 had microhomology-associated deletions. The net coding change must compensate for the original frameshift: a secondary deletion divisible by three does not by itself repair an earlier two-base loss. Exact wild-type restoration is one route, but mixed normal DNA and difficulty linking variants can hide it, so catalogue rarity does not establish its biological incidence.",
+            "Lin 2019 examined circulating tumour DNA before rucaparib in BRCA-mutated high-grade ovarian cancer. Reversions were detected in 2 of 11 platinum-refractory, 5 of 38 platinum-resistant and 1 of 48 platinum-sensitive cases. Median progression-free survival was 9.0 months without a detected pretreatment reversion versus 1.8 months with one, with a hazard ratio of 0.12 for the former versus the latter. These are associations within a selected treatment cohort, not a general population frequency or a randomised comparison of treatment choices. A negative result is limited by what the blood sample and assay could detect.",
+            "Weigelt 2017 sequenced blood from 19 germline-BRCA carriers with platinum-refractory or resistant ovarian cancer and five with pretreated metastatic breast cancer. Putative reversions were found in 4 of 19 ovarian cases, about 21 per cent, and 2 of 5 breast cases. Several changes could coexist, and functional experiments tested a subset. These small selected groups do not establish the frequency in all breast or ovarian cancers. One tissue biopsy samples one site; plasma can reveal changes shed by several sites while missing populations that shed little DNA or fall outside assay coverage.",
+            "Waks 2020 studied paired samples from eight selected BRCA1/2-mutant metastatic breast cancers that acquired platinum or PARP-inhibitor resistance. Four had definite or putative reversions and acquired RAD51 foci. Two other cases suggested repair-restoring routes: one had biallelic 53BP1 loss, with insufficient tissue for the protein or RAD51 assay; another had MRE11A amplification, increased RNA, DNA-end-processing findings and reacquired RAD51 foci. The proposed causal explanations have different amounts of direct evidence. Six patients acquired RAD51 foci overall; three subsequently received another platinum or PARP treatment and all three were resistant. This small selected cohort cannot establish a universal predictive rule.",
+            "Sequencing and functional testing answer different questions. A tissue or plasma assay needs coverage around the original variant, suitable deletion and splice-change detection, and a way to assess whether the changes share an allele; a hotspot-only panel can miss such events. RNA, protein or functional work may be needed for a proposed splice rescue. In Waks's RAD51 method, more than three nuclear foci in at least one cell across three examined fields supported repair proficiency, with geminin and control samples used for interpretation. A negative-foci sample with too few proliferating cells was uninterpretable. A visible focus alone does not establish completed repair, and a single RAD51 method cannot substitute for all sequence and clinical evidence.",
+            "Returning to the fictional two-plus-one deletion, neither a new scar score nor a functional result has actually been supplied. Restoring a gene does not by itself undo the chromosome alterations accumulated earlier, so historical scars can coexist with changed repair. It is reasonable to investigate a restoring protein and current RAD51 behaviour, but it is not reasonable to invent those measurements or predict an unchanged numerical score. End-joining and polymerase-theta inhibition are research directions for particular repair states; preventing future reversions or delaying resistance in people remains a hypothesis, rather than an established treatment consequence of this example."
+          ],
+          "beforeSha256": "3f99d54194406bdd7f0480d64961fb1474a6738746e9602b5ced92318b45cfe4",
+          "afterSha256": "75c0cfdf6fe2ae2f056199d1f3c566b1742db32ec8fbebb8de094399262229a4"
+        },
+        "related": {
+          "before": [
+            "gbrca-mutation",
+            "hrd",
+            "brca",
+            "parp",
+            "olaparib",
+            "niraparib",
+            "rucaparib",
+            "ctdna",
+            "resistance",
+            "platinum-sensitivity"
+          ],
+          "after": [
+            "gbrca-mutation",
+            "hrd",
+            "brca",
+            "parp",
+            "olaparib",
+            "niraparib",
+            "rucaparib",
+            "ctdna",
+            "resistance",
+            "platinum-sensitivity",
+            "dna-damage-response-inhibitors"
+          ],
+          "beforeSha256": "4eec8b87f679c3183ca8b46d0c2802fdd385beed48468a2bdd5440f16cb6d226",
+          "afterSha256": "211048f1fe2fbc6aabf65ebed0a304017f473fbc59bb04e620b213656ee463d0"
+        }
+      }
+    },
+    {
+      "id": "hrd-genomic-scar-scores",
+      "implementation": "committed-draft-root",
+      "anchorHead": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+      "fields": {
+        "asOf": {
+          "before": "2026-11-10",
+          "after": "2026-11-12",
+          "beforeSha256": "f67c5ec50bf3ce9b5e2e30b3b2ba5789ee3f1491778fd8b3b94147e12dbc2a81",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "limitations": {
+          "before": [
+            "Scar persists after resistance, so it overstates current sensitivity",
+            "Different assays and thresholds disagree",
+            "Needs adequate tumour content in the sample"
+          ],
+          "after": [
+            "Historical scars can coexist with restored repair",
+            "Assay scales and validated cutoffs differ",
+            "Specimen quality and tumour content can prevent an interpretable result"
+          ],
+          "beforeSha256": "f1fdd2281b2757c39b62ac5760baefd8abc9a2166c3779605cca91aceda4c42e",
+          "afterSha256": "885e07147f3c9e925d886526ca9d1e934b6c3b006978c3702d31cd5d990bd773"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "PRIMA: niraparib maintenance in advanced ovarian cancer, with the largest benefit in HRD-positive tumours (New England Journal of Medicine 2019)",
+              "url": "https://doi.org/10.1056/NEJMoa1910962"
+            },
+            {
+              "label": "Nature Medicine 2017: HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures",
+              "url": "https://doi.org/10.1038/nm.4292"
+            },
+            {
+              "label": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer. (2020; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/"
+            },
+            {
+              "label": "Patterns of genomic loss of heterozygosity predict homologous recombination repair defects in epithelial ovarian cancer. (2012; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23047548/"
+            },
+            {
+              "label": "Telomeric allelic imbalance indicates defective DNA repair and sensitivity to DNA-damaging agents. (2012; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22576213/"
+            },
+            {
+              "label": "Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation. (2012; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22933060/"
+            },
+            {
+              "label": "Homologous Recombination Deficiency (HRD) Score Predicts Response to Platinum-Containing Neoadjuvant Chemotherapy in Patients with Triple-Negative Breast Cancer. (2016; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26957554/"
+            }
+          ],
+          "after": [
+            {
+              "label": "PRIMA: niraparib maintenance in advanced ovarian cancer, with the largest benefit in HRD-positive tumours (New England Journal of Medicine 2019)",
+              "url": "https://doi.org/10.1056/NEJMoa1910962"
+            },
+            {
+              "label": "Nature Medicine 2017: HRDetect is a predictor of BRCA1 and BRCA2 deficiency based on mutational signatures",
+              "url": "https://doi.org/10.1038/nm.4292"
+            },
+            {
+              "label": "Reversion and non-reversion mechanisms of resistance to PARP inhibitor or platinum chemotherapy in BRCA1/2-mutant metastatic breast cancer. (2020; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/"
+            },
+            {
+              "label": "Patterns of genomic loss of heterozygosity predict homologous recombination repair defects in epithelial ovarian cancer. (2012; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23047548/"
+            },
+            {
+              "label": "Telomeric allelic imbalance indicates defective DNA repair and sensitivity to DNA-damaging agents. (2012; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22576213/"
+            },
+            {
+              "label": "Ploidy and large-scale genomic instability consistently identify basal-like breast carcinomas with BRCA1/2 inactivation. (2012; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/22933060/"
+            },
+            {
+              "label": "Homologous Recombination Deficiency (HRD) Score Predicts Response to Platinum-Containing Neoadjuvant Chemotherapy in Patients with Triple-Negative Breast Cancer. (2016; primary evidence)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26957554/"
+            },
+            {
+              "label": "Swisher et al.: ARIEL2 Part 1 and the prespecified genomic-LOH threshold (2017)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27908594/"
+            },
+            {
+              "label": "Loibl et al.: HRD and carboplatin in GeparSixto (2018)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30335131/"
+            },
+            {
+              "label": "Tutt et al.: carboplatin versus docetaxel and biomarkers in TNT (2018)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29713086/"
+            },
+            {
+              "label": "Ray-Coquard et al.: olaparib plus bevacizumab maintenance in PAOLA-1 (2019)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31851799/"
+            },
+            {
+              "label": "Lynparza U.S. prescribing information: July 2025 effective version",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+            },
+            {
+              "label": "Zejula U.S. prescribing information: July 2026 effective version",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d"
+            }
+          ],
+          "beforeSha256": "c9cecfd27aea67d82e4b1822792287ded2ddb879dfaa88f43cb00d3de09b9a92",
+          "afterSha256": "dc5083613fd944a4e971e20ad7640de1a397fb9f5153d5a5e930c23508982ce7"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "A composite score compresses selected features of a tumour's chromosome history. Like a summary of past events, it leaves details out; like numbers on differently calibrated scales, the same numerical value need not have the same meaning in two laboratories. The composite count is not a percentage of repair-deficient cells. Copy-neutral loss of heterozygosity can replace two parental versions with copies of one version without reducing the total copy number, so loss of heterozygosity is not always loss of a physical chromosome copy.",
+            "Telli 2016 selected the boundary of 42 using an independent training set of 497 breast and 561 ovarian cancers, including 78 breast and 190 ovarian cancers classified as lacking a functional BRCA1 or BRCA2 copy. That classification used a deleterious variant with loss of the other copy, two deleterious changes in one gene, or BRCA1 promoter methylation with loss of the other copy. The boundary was the fifth percentile among these BRCA-deficient cancers, aiming to capture about 95 per cent, rather than an optimised divider of drug responders. Some deficient cancers therefore fall below it. The study's abstract and discussion use at least 42, whereas its Methods prints greater than 42; a result at the boundary needs the actual validated assay rule, not an improvised inequality.",
+            "Telli tested the unweighted LOH plus TAI plus LST score in three platinum-containing neoadjuvant triple-negative breast cancer trials, using a high score or a deleterious or suspected-deleterious tumour BRCA1/2 alteration. A variant of uncertain significance did not count as a mutated BRCA result. The odds ratios for minimal residual disease, residual cancer burden class 0 or I, were 4.96 in PrECOG's platinum, gemcitabine and iniparib cohort and 10.18 in the pooled two cisplatin cohorts. These associations are not three randomised demonstrations of extra platinum benefit. PRIMA later defined HRD positivity by a tumour BRCA mutation or a MyChoice genomic instability score of at least 42. That trial definition and current prescribing conditions are separate facts.",
+            "ARIEL2 Part 1 used a prespecified 14 per cent genomic-LOH cutoff in relapsed, platinum-sensitive high-grade ovarian cancer. Of 206 enrolled patients, 204 received rucaparib and 192 could be classified: 40 BRCA-mutated, 82 BRCA-wild-type/LOH-high and 70 BRCA-wild-type/LOH-low. Twelve BRCA-wild-type tumours lacked enough neoplastic nuclei for the LOH classification. This percentage of genome is a different quantity from the composite sum, and a single-arm rucaparib study cannot by itself separate prognostic association from differential treatment benefit. HRDetect is different again: its weighted sequence-signature logistic model outputs a probability of BRCA-deficient genomic history. Its 2017 sensitivity and AUC describe that classification task, not an individual's chance of benefiting from a medicine.",
+            "In the GeparSixto analysis, HRD was measurable in 193 of 315 triple-negative breast cancers. Pathological complete response rose from 33.9 to 63.5 per cent with added carboplatin in the HR-deficient group and from 20.0 to 29.6 per cent in the other group. The treatment-by-HRD interaction had P = 0.327. This does not establish that the treatment effects differ by HRD status, nor does a non-significant interaction prove they are identical. In TNT, 376 people with advanced triple-negative disease or a germline BRCA-associated breast cancer received carboplatin or docetaxel. Germline-BRCA carriers had response rates of 68 versus 33 per cent, with interaction P = 0.01; a high Myriad HRD score did not select extra carboplatin benefit. Association with response and evidence for choosing between treatments are different questions.",
+            "PAOLA-1 randomised 806 people with advanced ovarian cancer responding to first-line platinum-taxane chemotherapy plus bevacizumab. Both maintenance groups received bevacizumab; the added treatment was olaparib or placebo. The 2019 HRD-positive progression-free-survival hazard ratio was 0.33, with a 95 per cent interval of 0.25 to 0.45. The olaparib label's planned exploratory HRD-negative analysis gives 1.00, with an interval of 0.75 to 1.34. That interval is compatible with a range of effects and does not prove exactly zero benefit. It also cannot be transferred to an unrelated assay, breast cancer, a different drug or olaparib without bevacizumab.",
+            "PRIMA's 2019 analysis randomised 733 people after response to first-line platinum for advanced ovarian cancer. Among 373 with HR-deficient tumours, median progression-free survival was 21.9 versus 10.4 months with niraparib versus placebo, hazard ratio 0.43 with a 95 per cent interval of 0.31 to 0.59. In the overall population it was 13.8 versus 8.2 months, hazard ratio 0.62 with an interval of 0.50 to 0.76. These are historical progression-free-survival results, not an updated overall-survival estimate. The U.S. niraparib label effective July 2026 restricts first-line maintenance to HRD-positive advanced epithelial ovarian, fallopian tube or primary peritoneal cancer in complete or partial response to platinum, selected with an authorised companion test.",
+            "The U.S. olaparib label effective July 2025 permits olaparib plus bevacizumab maintenance for adults with HRD-positive advanced epithelial ovarian, fallopian tube or primary peritoneal cancer in complete or partial response to first-line platinum; the specified HRD definition includes a deleterious or suspected-deleterious BRCA alteration and/or genomic instability, with an approved companion test. Its early-breast indication instead requires a deleterious or suspected-deleterious germline BRCA alteration, HER2-negative high-risk disease and prior neoadjuvant or adjuvant chemotherapy, with the approved test. A tumour-only BRCA finding or an arbitrary high scar number does not substitute for these conditions.",
+            "The specimen and analysis are part of the result. Telli used tumour DNA, a genome-wide SNP panel, allele-imbalance profiles and prespecified counting rules; if the score failed and BRCA testing was negative or failed, HRD status was undetermined. A failed result is not a low score. Reports should identify the assay version, usable tumour content, DNA input/quality, copy-number and allele-balance method, segmentation, and purity/ploidy assumptions. HRDetect was explored in a small biopsy series and one formalin-fixed specimen with substantial sequencing artefact; those demonstrations do not certify every degraded specimen. RAD51 foci ask a different, conditional question about present repair. A BRCA reversion or 53BP1 loss is not itself a measured new scar score or proof of restored function.",
+            "In a fictional report, laboratory X gives a score of 48 and a paper uses laboratory Y's cutoff of 42 in early triple-negative breast cancer. The numerical comparison 48 > 42 does not establish HRD positivity on X's assay: its scale, quality requirements and validated boundary are needed. Even on the correct scale, association with response to one regimen does not establish extra carboplatin benefit over a comparator. GeparSixto's interaction analysis and TNT's high-score result illustrate that distinction; neither permits a blanket claim that a high-score tumour never benefits from carboplatin."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "f800bac4af69ba379d294b707e7bff5a9b8fa0eb73f36d6f3b1deace93b29319"
+        },
+        "principle": {
+          "before": "Count genome-wide footprints of failed homologous recombination (loss of heterozygosity, telomeric allelic imbalance, large-scale transitions, mutational signature 3) from tumour sequencing and call HRD against a validated threshold.",
+          "after": "Assay-specific counts or weighted sequence signatures describe selected genomic patterns. Their scales, validated boundaries and clinical uses differ; they do not directly measure present repair or drug sensitivity.",
+          "beforeSha256": "b0dafc0fc5e589b7a4817f55e5fdb6d2aefc7b5d7110fd86cb29e554753ee794",
+          "afterSha256": "39c62e93b0fba0c62adbff0782f7ee61cc930bc8e038ecc77ff7083751f14dd4"
+        },
+        "related": {
+          "before": [
+            "stride-dna-break-detection"
+          ],
+          "after": [
+            "stride-dna-break-detection",
+            "dna-damage-response-inhibitors"
+          ],
+          "beforeSha256": "87f35388169443d4c1c1ec918811f2287be7c74869ea93b9d5cfc2f77bc6bd7c",
+          "afterSha256": "8dc1014ce484e23d484aa2edffdeb088a1eea0aea6f5551246525654079eba4d"
+        },
+        "strengths": {
+          "before": [
+            "Extends PARP inhibitor benefit beyond BRCA carriers",
+            "Runs on the same tissue sequencing as a gene panel",
+            "Backed by randomised trials and drug labels in ovarian cancer"
+          ],
+          "after": [
+            "Can identify genomic patterns beyond a BRCA sequence finding",
+            "Selected ovarian maintenance indications use validated companion tests",
+            "Permits explicit comparison of assay methods and their validation populations"
+          ],
+          "beforeSha256": "3222b273a63e8329c8a4c31d273b56269d272193e914d929ee47ccbde290afbc",
+          "afterSha256": "ee8836cd5629c7b4d746d7691afeb8b4de52786467560a15d9be18197e8669b1"
+        }
+      }
+    },
+    {
+      "id": "resistance",
+      "implementation": "committed-draft-root",
+      "anchorHead": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Drug_resistance"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/Drug_resistance"
+            },
+            {
+              "label": "NCI: targeted cancer therapies, resistance and adverse effects",
+              "url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies"
+            },
+            {
+              "label": "Sharma et al.: reversible drug-tolerant states in cancer-cell models (2010)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20371346/"
+            },
+            {
+              "label": "Sakai et al.: BRCA2 depletion and resistance in ovarian cancer models (2009)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19654294/"
+            }
+          ],
+          "beforeSha256": "32186f720c9600961fe871d7f81f097fa1c101c3d7a5c8dda9e425aa22f97b19",
+          "afterSha256": "d00121117afb4e219ed36d3491ff4033a21241f133e207f7c3e5bd8ea4e0183b"
+        },
+        "notes": {
+          "before": [
+            "Lung cancer is where acquired resistance is best characterised, in three categories with three different consequences. On-target mutation (EGFR T790M in 63% of first-generation rebiopsies, then C797S in 22% of osimertinib resistance; ALK G1202R after a second-generation inhibitor) means the tumour still depends on the target and a later-generation inhibitor is the answer. Bypass activation (MET amplification in 5 to 22%, HER2 amplification in 13%) means adding a second inhibitor rather than swapping. Lineage change (small-cell transformation in 3 to 14%) means a different disease and a different chemotherapy. Which one it is cannot be guessed, which is why rebiopsy or plasma genotyping at progression is standard (Yu 2013, Oxnard 2018, Gainor 2016, Shaw 2019)."
+          ],
+          "after": [
+            "Drug resistance is reduced effect for a specified medicine, cancer population and setting. A garden analogy can describe selection: removing susceptible plants leaves a larger share of survivors, without showing that the treatment created those survivors. Intrinsic resistance describes poor initial effect; acquired resistance describes lost effect after an earlier response. These timing labels do not identify one permanent mechanism. A rare pre-existing population can become easier to detect, and sequence change, reversible cell state, exposure and the surrounding tissue can contribute together.",
+            "NCI describes changes that prevent a medicine interacting with its target and alternative growth routes that no longer depend on that target. Investigation can also ask whether the required target is still present and accessible, whether drug efflux or inadequate local exposure changes the amount reaching cells, whether death signalling is bypassed, and whether the surrounding tissue changes exposure or survival. These are competing or coexisting hypotheses, rather than a mechanism established by a failed scan response. Cross-resistance needs evidence for the actual drugs and the attributed mechanism; a shared class name does not establish it.",
+            "Sharma 2010 found small drug-tolerant populations in human cancer-cell cultures. In PC9 lung cancer cells, persisters propagated without drug regained sensitivity within nine doublings; expanded persister populations required roughly 90 doublings or 20 to 30 passages. The observations supported a reversible chromatin-associated state in those systems, distinct from assuming a new permanent resistance mutation. They do not establish that a treatment break is safe or beneficial for a person. Drug withdrawal and re-exposure are experimental tests of reversibility, with matched conditions and controls.",
+            "A fictional population starts with 990 sensitive and 10 resistant cells, total 1,000. Removing 90 per cent of the sensitive cells leaves 99 sensitive plus 10 resistant cells, total 109. The resistant share rises from 10/1,000 = 1 per cent to 10/109, about 9.2 per cent, although the absolute resistant count stays at 10. No division, mutation or state switching is included. To display this honestly, compare absolute counts on one 0 to 1,000 scale and resistant fractions on a separately labelled 0 to 10 per cent scale. A larger fraction alone does not prove growth of that population, a newly induced mutation or a clinical treatment effect.",
+            "A useful investigation first checks exposure, assay performance and what the sample represents. It then compares earlier and later specimens, the sampled sites, coverage and detection limits, and candidate target, pathway, state or environmental changes. Controlled models can test target engagement, pathway activity, damage and survival separately. Genetic perturbation or rescue, an appropriate comparison compound, and removal/re-exposure can strengthen a causal explanation, but off-target effects and altered growth can confound it. Culture does not reproduce every tissue, immune, exposure or human-safety condition; clinical response assessment and mechanistic research remain distinct.",
+            "Combining drugs is a hypothesis that must address the measured failure at useful exposures and tolerable harm. NCI notes both the rationale for combinations and the possibility of serious targeted-treatment side effects. Different pathway targets do not guarantee nonoverlapping toxicity or clinical rescue. A later variant found in a fictional progression sample is especially hard to interpret if the earlier sample lacked enough coverage to detect it: it may have been present but undetected, arisen later or be unrelated to the observed failure. First check the comparison and detection limit, then test its treatment-specific function. Detection, origin, timing and causation are separate conclusions.",
+            "Lung-cancer resistance investigations distinguish a changed drug target, bypass signalling and a change in tumour lineage. Finding a candidate mechanism does not by itself establish dependence on that pathway or specify a next medicine. A later-generation inhibitor, a combination or another treatment requires evidence for the exact alteration, previous exposure, disease setting and safety. Tissue and plasma sample different aspects of the disease, and a negative test is limited by sampling and assay sensitivity. The NCI overview supports the target-change and bypass distinction; the linked disease-specific papers provide separate cohorts rather than one universal frequency or switching rule."
+          ],
+          "beforeSha256": "16f3502ea33305793cfdc2042542cd8e9184bafa44932ca2b3a7da9d15a8fd69",
+          "afterSha256": "37707091598b15fa18ea3a4906078cc2c12549456e37a6e865421cef1427aa7b"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "dna-damage-response-inhibitors"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "55f69aa26cb1b6b02f659b003cd45d7188951cc87023e4dfad46c1bf3acaae46"
+        },
+        "summary": {
+          "before": "Primary: no target dependence, poor drug penetration, pre-existing resistant clones. Acquired: on-target mutations (EGFR T790M/C797S, ESR1, BRCA reversion, ALK G1202R), bypass signalling (MET amplification), lineage change (SCLC transformation), antigen loss (CD19-negative relapse), efflux, epigenetic plasticity. Tumours are evolving populations; combination and sequential strategies are the response.",
+          "after": "Drug resistance describes reduced treatment effect in a specified setting. Primary and acquired resistance describe the timing of response, rather than proving a single biological cause. Changes in the target, alternative signalling, drug handling and reversible cell states can contribute. Sampling, exposure and controlled functional evidence are needed to distinguish a plausible explanation from a demonstrated treatment-specific mechanism.",
+          "beforeSha256": "9735c0a20bc9bd56f37b57803df7fcc94b9b1a69adad45572bace72e81e16439",
+          "afterSha256": "e292f095442adc0e976f6510344d93829b22d8591fba2c70a276dab703687230"
+        },
+        "tldr": {
+          "before": "Why cancer drugs stop working: the tumour either never depended on the target or evolves around the block.",
+          "after": "A cancer may respond less to a medicine from the start or after an earlier response. The cause can involve cell populations, drug exposure or several mechanisms.",
+          "beforeSha256": "ef19af933090f4a7583eb4c4175e951278f1f0d6271ceb2faa7c94f400b44232",
+          "afterSha256": "f9fa99a488100e5403ee23da5335a6f72296460e4cf9c40657819bf86aca5bc0"
+        }
+      }
+    },
+    {
+      "id": "parp-inhibitor",
+      "implementation": "committed-draft-root",
+      "anchorHead": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-04",
+          "after": "2026-11-12",
+          "beforeSha256": "169670126c693bbe6cf3e565032488d8021f0e87862b4d5147c27e0c87f24992",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "limitations": {
+          "before": [
+            "Myelosuppression, MDS risk",
+            "Reversion resistance"
+          ],
+          "after": [
+            "Blood-cell toxicity and other harms depend on product and exposure",
+            "Repair-restoring changes can contribute to resistance",
+            "Laboratory trapping potency does not rank clinical benefit"
+          ],
+          "beforeSha256": "ac2d7f34aaab475b4c046622e9db1113dc94c7a3ee61572693003541ab071894",
+          "afterSha256": "164e56a6aef33a3f7e448add4425d7d5727200d60a057082244bb1d305b5bbdf"
+        },
+        "links": {
+          "before": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/PARP_inhibitor"
+            }
+          ],
+          "after": [
+            {
+              "label": "Wikipedia",
+              "url": "https://en.wikipedia.org/wiki/PARP_inhibitor"
+            },
+            {
+              "label": "Farmer et al.: PARP inhibition in BRCA-deficient experimental systems (2005)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/15829967/"
+            },
+            {
+              "label": "Murai et al.: differential PARP trapping by inhibitors (2012)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23118055/"
+            },
+            {
+              "label": "Murai et al.: BMN673/talazoparib trapping comparisons (2014)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24356813/"
+            },
+            {
+              "label": "Cong et al.: replication gaps in PARP-inhibitor model sensitivity (2021)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34216544/"
+            },
+            {
+              "label": "Waks et al.: repair restoration in selected resistant breast cancers (2020)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32245699/"
+            },
+            {
+              "label": "NCI: validated PAR pharmacodynamic assay",
+              "url": "https://dctd.cancer.gov/drug-discovery-development/assays/pharmacodynamic-biomarker-assays/additional"
+            },
+            {
+              "label": "Lynparza U.S. prescribing information: July 2025 effective version",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=741ff3e3-dc1a-45a6-84e5-2481b27131aa"
+            }
+          ],
+          "beforeSha256": "348cfcb3218766b76518966516d453c14b15d6de5d91a2a476441ebf213f3e82",
+          "afterSha256": "7d1a017fb178d4e7bf8f331ec782a14fd46b06716b39e0d103c576bb50fe0f5a"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "PARP means poly(ADP-ribose) polymerase, a protein family involved in cellular signalling and repair. PARP1 is one representative. At damaged DNA it can build signals on proteins from chains of the chemical unit ADP-ribose, called poly(ADP-ribose), or PAR. Catalytic inhibition reduces this output. Some inhibitors can also stabilise DNA-associated PARP complexes, often called trapping. A repair-worker analogy separates a reduced call for help from a worker remaining in a doorway; proteins and medicines have no purpose, and the cell has more than one response route.",
+            "Murai 2012 compared niraparib, olaparib and veliparib in defined cellular and biochemical systems: niraparib and olaparib trapped PARP-DNA complexes more strongly than veliparib, despite catalytic inhibition being a different comparison. Murai 2014 compared BMN673, now talazoparib, with olaparib and rucaparib. In damaged-DNA cell assays, 0.1 micromolar BMN673 produced a trapping signal comparable to 10 micromolar olaparib, about a 100-fold concentration difference; the purified DNA-binding assay gave a different, roughly 40-fold comparison. Similar catalytic effects did not imply similar trapping. Strongest among compounds tested in 2014 is not a ranking of clinical benefit, tolerated exposure or personal treatment choices.",
+            "A DNA-associated protein obstacle can challenge copying without every encounter becoming a measured collision, double-strand break or cell death. Farmer 2005 demonstrated increased sensitivity to PARP inhibition in experimental BRCA-deficient systems. Cong 2021 studied single-stranded replication gaps in cellular models: gap suppression tracked resistance or resensitisation, while restoring fork protection did not always restore resistance in the tested models. Obstacle and gap explanations can coexist, but their relative contribution in a patient's tumour is not established by these experiments. A repair-gene variant alone does not reproduce the functional losses tested in a synthetic-lethal experiment.",
+            "Two schematic pictures ask different questions. Matched snapshots of DNA-bound PARP1 with a longer or shorter PAR chain illustrate catalytic output; a generic inhibitor in the catalytic pocket does not measure binding duration. A second picture places approaching copying machinery behind a retained PARP1 complex, with visible separation; it does not show an observed collision, literal backbone conformation or a measured effect size. Reduced catalytic activity and DNA retention can occur together. The arrows therefore lead to further context-dependent measurements, rather than two independent proofs of a clinical mechanism or a drug ranking.",
+            "Enzyme assays and PAR immunoassays report catalytic activity or its product. NCI's PAR assay measures PAR levels in specified biospecimens; chromatin-associated PARP measurements instead investigate DNA retention under specified conditions. Repair readouts and survival/regrowth experiments add other information. Murai's experiments used defined cell lines, DNA damage and drug concentrations, so neither a reduced metabolic or ATP signal alone nor a picture establishes irreversible death or its cause. Matched genetic perturbations and appropriate controls are needed to distinguish reduced growth, reduced metabolism and loss of long-term survival.",
+            "Waks's selected resistant breast cancer cohort illustrates why historical repair markers and current repair can diverge: four definite or putative BRCA reversion cases acquired RAD51 foci, and other proposed routes included 53BP1 loss and MRE11A amplification. The 53BP1-loss case lacked enough tissue for direct functional confirmation. A historical scar or sequence hypothesis cannot establish a present PARP vulnerability, and this small cohort does not supply an all-patient resistance rule. Biological plausibility, a qualifying label indication and a trial place are separate requirements.",
+            "For example, the U.S. olaparib label effective July 2025 specifies adjuvant treatment of adults with deleterious or suspected-deleterious germline BRCA-mutated, HER2-negative high-risk early breast cancer after neoadjuvant or adjuvant chemotherapy, selected with an approved companion diagnostic. A tumour-only BRCA result or high scar score cannot replace the germline and disease-setting requirements. That indication does not establish that a different PARP inhibitor, a different setting or a plausible mechanism has the same approval or access conditions.",
+            "In a fictional comparison, compounds A and B inhibit PARP catalytic activity similarly, but A retains more PARP on DNA in a culture assay. The conclusion is an assay-specific trapping difference. Useful exposure, survival, safety, resistance and clinical outcomes still need evidence. More trapping in that system does not establish a better treatment, and neither an old scar nor a repair-gene name identifies which effect matters in the current tumour."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "e8c64b635cb318b99c9458f113c930c7e932d8a8036ef9284e0011b5aa5bbca3"
+        },
+        "principle": {
+          "before": "Synthetic lethality: PARP trapping converts single-strand breaks into double-strand breaks that HR-deficient cells cannot repair.",
+          "after": "Catalytic inhibition reduces PAR signalling; some inhibitors also stabilise DNA-associated PARP complexes. Protein obstacles and replication gaps are studied mechanisms, with effects dependent on repair state, exposure and the experimental or clinical setting.",
+          "beforeSha256": "82d6e3c801fdfa1993c9d7f3e68ead4a3779885a60fbf00614dcad7c4ebd5f02",
+          "afterSha256": "f4f60e65c2485460dfaca7eb54671a4d6d970dcaab310cbed77f95715d62f17b"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "dna-damage-response-inhibitors"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "55f69aa26cb1b6b02f659b003cd45d7188951cc87023e4dfad46c1bf3acaae46"
+        },
+        "strengths": {
+          "before": [
+            "Oral, targeted to a germline-definable population",
+            "Overall survival benefit in adjuvant setting"
+          ],
+          "after": [
+            "Oral medicines with defined, setting-specific approved uses",
+            "Catalytic and DNA-retention effects can be studied separately"
+          ],
+          "beforeSha256": "f2fb11cb52387326a92ba585e9d76c0883055bd6c109ead1a442b99b9d0c9756",
+          "afterSha256": "b6894cb4206b8b81397a6a84c160885ffe4a2131792f5575f629b420f0b3d0b8"
+        },
+        "summary": {
+          "before": "The approved PARP inhibitors are olaparib, niraparib, rucaparib and talazoparib. They are standard as maintenance in BRCA/HRD ovarian cancer (SOLO-1, PRIMA), adjuvant in germline-BRCA HER2-negative breast cancer (OlympiA, with overall survival benefit), metastatic breast (OlympiAD, EMBRACA), HRR-mutant prostate (PROfound, PROpel, TALAPRO-2), and pancreatic maintenance (POLO). Resistance via BRCA reversion; PARP1-selective saruparib aims to widen the window.",
+          "after": "PARP inhibitors reduce PARP enzyme activity and can stabilise PARP complexes on damaged DNA. Catalytic output, DNA-associated occupancy, repair capacity and cell survival are different measurements. Experimental sensitivity depends on the current cellular repair state, and repair-restoring changes can contribute to resistance. Clinical eligibility depends on the particular medicine, cancer setting, previous treatment and required companion test; a shared mechanism is not a shared indication.",
+          "beforeSha256": "2752535a3fd393c4895682f8251ae83f600d28acef6b235c9f2d036359d6d10c",
+          "afterSha256": "6b89a50ee88ca65903e2682cf47e4992718ba23f18d6ebea6fbd1fb84234a6aa"
+        },
+        "tldr": {
+          "before": "Pills that block a DNA repair backup, killing cancer cells that already lost their main repair system (BRCA).",
+          "after": "These medicines disrupt DNA repair processes. Some also retain repair proteins on DNA; a repair-gene finding alone does not establish that they will help.",
+          "beforeSha256": "c453885bd0925675364df4d801a63c96aa3ebc0fa6d60cd0ac9f4147fa2b6282",
+          "afterSha256": "84dce8618d204262ab3461f4e2b9fe08a86a597fd5758695e03b8a3ec495b17c"
+        }
+      }
+    },
+    {
+      "id": "drug-resistance-dynamics",
+      "implementation": "committed-draft-root",
+      "anchorHead": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+      "fields": {
+        "asOf": {
+          "before": "2026-09-17",
+          "after": "2026-11-12",
+          "beforeSha256": "7adde3ab68e3a013b2bce70eff168ce294597f55f98f2d972253f283065bcf06",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "limitations": {
+          "before": [
+            "Assumes genetic resistance; non-genetic adaptation is common",
+            "Toxicity limits combinations in practice",
+            "Fitness costs of resistance often unknown"
+          ],
+          "after": [
+            "Simplifies non-genetic states and the tissue environment",
+            "Tolerable simultaneous exposure is an assumption to verify",
+            "Model predictions require prospective clinical testing"
+          ],
+          "beforeSha256": "f7bfd0acf576fccda3bef7847c01effd322e07fb5cdc28de49d560b2ee075191",
+          "afterSha256": "0e2a72be134529ee059743d3b27a43df16568cb085d43071c784741137e55db5"
+        },
+        "notes": {
+          "before": [],
+          "after": [
+            "Bozic 2013 modelled genetic resistance as a stochastic birth-and-death process, using lesion measurements from 20 vemurafenib-treated melanoma patients to inform rates. The model separates the number of mutations conferring resistance to each drug from mutations causing cross-resistance to both. It assumes the drugs can be given together at tolerable concentrations, and initially assumes resistant cells retain their pretreatment birth and death rates. Lesion size, mutation rate, fitness costs and cross-resistance change the predictions. Its comparison of simultaneous and sequential treatment is a model result under these conditions, not a randomised demonstration that a particular combination cures people.",
+            "A cell population can become a larger fraction because other cells are removed, without its own absolute count rising. That arithmetic is distinct from this branching model's assumptions about division, death and genetic mutation. The model does not capture every reversible drug-tolerant state, local exposure difference, tissue interaction or clinical toxicity. It can generate a combination hypothesis, but direct evidence about the actual medicines, shared resistance routes, exposure and harms is needed before interpreting it as a treatment strategy."
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "257a1d2914d2ffc9d5471f4cea8c986ba8a0e759f825828f9e985b17fac35ded"
+        },
+        "principle": {
+          "before": "Resistance arises as a stochastic branching process; the probability of pre-existing resistance to k drugs falls steeply with k when their resistance mutations are distinct, favouring simultaneous combinations.",
+          "after": "A stochastic birth-and-death model links population size, mutation rates and treatment effects to resistance probabilities. Combination predictions depend on the existence of cross-resistance and the assumed exposures and fitness effects.",
+          "beforeSha256": "3b97fc8beacf7fce2b49cefa61c4c470b2f0daaa2c9104f389d35b62fcb448ae",
+          "afterSha256": "190649b4a25b4de368174cff48ce57afce4501ddd24bab8315e3be5e6afebb67"
+        },
+        "related": {
+          "before": [],
+          "after": [
+            "dna-damage-response-inhibitors"
+          ],
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "55f69aa26cb1b6b02f659b003cd45d7188951cc87023e4dfad46c1bf3acaae46"
+        },
+        "strengths": {
+          "before": [
+            "Quantitative case for upfront combinations",
+            "Explains kinetics of relapse on targeted drugs",
+            "Parameters partly measurable from sequencing"
+          ],
+          "after": [
+            "Makes resistance and cross-resistance assumptions explicit",
+            "Generates quantitative hypotheses for combination research",
+            "Can explore changes in lesion size and growth parameters"
+          ],
+          "beforeSha256": "a3d34022f2ccfbfd778e63c7b8b284698af86376bf9c3ba0c4b7a2148f889755",
+          "afterSha256": "8942194407c2938da673297851076a6f4fbdcdf70e042ea6612e9d72c5cf7ebc"
+        },
+        "summary": {
+          "before": "Ivana Bozic, Martin Nowak and colleagues modelled targeted therapy as a branching process in which resistance mutations arise before and during treatment. Their 2013 analysis showed that a tumour of a billion cells almost certainly carries cells resistant to any single drug, that monotherapy therefore fails predictably, and that two drugs without overlapping resistance mutations given together can cure where sequential use cannot, provided no single mutation confers cross-resistance. The framework explains the transient responses to single kinase inhibitors and underpins combination design, and later work added treatment holidays and dose modulation.",
+          "after": "Bozic and colleagues used a branching-process model to study resistance before and during targeted therapy. Their 2013 analysis compared simultaneous and sequential drugs under specified mutation, growth and exposure assumptions. Tumour size and mutations conferring cross-resistance strongly affected predicted control. These simulations explain why nonoverlapping resistance routes can motivate combination research; they do not establish that every large tumour already resists every drug or that a particular schedule will cure a person.",
+          "beforeSha256": "7118d03866e86553a806ae748162e34388b9920e861f3ca60187f16e89b8e2df",
+          "afterSha256": "168c38e7608f4a12e7be5ac51b630d276a49d577ff5c5e7cc5156a8f413b7750"
+        },
+        "tldr": {
+          "before": "Mathematics from population genetics shows that resistant cells almost always exist before treatment in large tumours, and that combining drugs with different resistance mutations from the start can succeed where the same drugs in sequence fail.",
+          "after": "Mathematical models explore how resistant cell populations change. Predictions about combinations depend on growth, mutation, cross-resistance and tolerable drug exposure.",
+          "beforeSha256": "c1583c8c1d2687c7167684aa8ce279fe7d4c713efc6640683215040cb68df53a",
+          "afterSha256": "cab3f6dd3172151f2f14e613fe6c70c5ac3eb28b7ebd710d160b8917491571d2"
+        }
+      }
+    },
+    {
+      "id": "dna-damage-response-inhibitors",
+      "implementation": "newly-registered-draft-root",
+      "anchorHead": "526531eaccab6d6b36d680df37f8a31a29d8329f",
+      "fields": {
+        "aka": {
+          "before": null,
+          "after": [
+            "DDR inhibitors",
+            "DNA-damage-response inhibitors",
+            "DNA damage response inhibitor",
+            "DNA repair checkpoint inhibitors"
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "8213854306cf5baacbfa7e0d77e10983905a8a91c275ee39077f19f53b45124c"
+        },
+        "asOf": {
+          "before": null,
+          "after": "2026-11-12",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "eb349f71a7e711e0ce6d06c80026691e8a28047d509b4438a3b8a72f9b6646a0"
+        },
+        "bottlenecks": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "cancers": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "category": {
+          "before": null,
+          "after": "Treatment jargon",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "e7dd1d9e0667dc69b0b32faa2488ec20ab0c8c51b63fd2baf3494d38245b580a"
+        },
+        "companies": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "dependsOn": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "drugs": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "id": {
+          "before": null,
+          "after": "dna-damage-response-inhibitors",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "182006f6e13fdad6a0a9b2e593d2fc12485c8efcc9a6034bcd171cc36e70f44b"
+        },
+        "institutions": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "journals": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "keyPapers": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "kind": {
+          "before": null,
+          "after": "term",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "9c8c8be40fd165e634b628adb702feaf2e8ec4bfa2740ed216742cd0619b861a"
+        },
+        "links": {
+          "before": null,
+          "after": [
+            {
+              "label": "Reaper et al.: ATR inhibition in defined damage-response models (2011)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21490603/"
+            },
+            {
+              "label": "Gatti-Mays et al.: prexasertib in nine BRCA-wild-type TNBC participants (2020)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32510664/"
+            },
+            {
+              "label": "Hirai et al.: WEE1 inhibition and p53-deficient combination models (2009)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19887545/"
+            },
+            {
+              "label": "Zatreanu et al.: polymerase-domain inhibition of polymerase theta (2021)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34140467/"
+            },
+            {
+              "label": "Zhou et al.: novobiocin, the ATPase domain and selected resistance models (2021)",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34179826/"
+            },
+            {
+              "label": "UniProt: human ATM function",
+              "url": "https://www.uniprot.org/uniprotkb/Q13315/entry"
+            },
+            {
+              "label": "UniProt: human ATR function",
+              "url": "https://www.uniprot.org/uniprotkb/Q13535/entry"
+            },
+            {
+              "label": "UniProt: human CHEK1 function",
+              "url": "https://www.uniprot.org/uniprotkb/O14757/entry"
+            },
+            {
+              "label": "UniProt: human WEE1 function",
+              "url": "https://www.uniprot.org/uniprotkb/P30291/entry"
+            },
+            {
+              "label": "UniProt: human PRKDC function",
+              "url": "https://www.uniprot.org/uniprotkb/P78527/entry"
+            }
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "b5c6012fe190642ebab07bd209bd946e796998e5fbced13ce7a492786688f1e6"
+        },
+        "name": {
+          "before": null,
+          "after": "DNA damage response inhibitors",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "da56fbb4641fe2b319a1874a6c3bc7cb870bd232cc388e8f04711e04720d73f6"
+        },
+        "notes": {
+          "before": null,
+          "after": [
+            "DNA is the cell's genetic material. During copying, a replication fork can slow or stall; that stress is not itself a diagnosis of a double-strand break. A workshop analogy separates pausing the job, stabilising unfinished work and repairing damage, while the actual response is an overlapping network. UniProt describes ATM-associated signalling after double-strand breaks and ATR-associated checkpoint signalling during replication stalling; ATR can phosphorylate CHK1 and other substrates. These labels do not make two proteins the only sensors or reduce each to one job.",
+            "A kinase transfers a phosphate group to a substrate; phosphorylation does not always turn that substrate on. WEE1 phosphorylates CDK1 at tyrosine 15 and inhibits entry into mitosis. CHK1 also acts through checkpoint and repair pathways, including inhibition of CDC25 regulators. A simplified p53/G1 and WEE1/G2 checkpoint drawing can motivate a hypothesis after defined functional checkpoint loss; a TP53 sequence variant alone does not prove that the first pause is absent or that a second pause is a validated treatment dependency. Hirai 2009 tested WEE1 inhibition with DNA-damaging drugs in specified p53-deficient models, not a universal clinical TP53-selection rule.",
+            "Reaper 2011 reported an ATR-inhibitor interaction with ATM-p53 pathway deficiency in cells treated with DNA-damaging agents. That experimental context matters: an ATM alteration is not automatically functional loss, and this result is not an all-tumour monotherapy rule. Gatti-Mays 2020 studied prexasertib in nine people with previously treated recurrent or metastatic triple-negative breast cancer who were germline-BRCA wild-type. One had a partial response, four had stable disease, and eight had grade 3 or 4 afebrile neutropenia. This small single-group pilot illustrates both activity and marrow toxicity at its tested exposure; it does not validate a general repair-variant biomarker or a routine combination schedule.",
+            "DNA-PK's catalytic component, PRKDC, participates in classical non-homologous end joining with other end-binding and repair proteins. Polymerase theta, encoded by POLQ, supports a different end-joining route that can use short sequence matches. Blocking checkpoint signalling and blocking an end-joining route are different interventions even if each reduces survival in a model. A rationale for combining a DNA-PK inhibitor with DNA damage or radiation does not by itself establish selective tumour benefit or spare normal dividing tissue. Synthetic lethality requires evidence about the paired functional defects, rather than two gene names on a report.",
+            "Zatreanu 2021 studied ART558, an allosteric inhibitor of polymerase theta's polymerase domain. It impaired theta-mediated end joining rather than classical non-homologous end joining, and showed activity in selected BRCA-deficient models, including PARP-resistant models with 53BP1 or Shieldin loss. Zhou 2021 instead studied novobiocin against the ATPase domain in cell and mouse tumour models. These are different compounds and domains; their experimental specificity and activity cannot be transferred automatically to another polymerase-theta drug or to a patient.",
+            "The novobiocin study also tested BRCA2-reverted PEO4 and CAPAN1-CR cells against their deficient parental lines. The reverted cells resisted both PARP inhibition and novobiocin. Other PARP-resistant models, including a BRCA1-mutant/53BP1-loss model, remained novobiocin-sensitive. Thus PARP resistance alone did not identify one common vulnerability, and the study does not establish resistance to every polymerase-theta inhibitor. In two fictional PARP-resistant cultures, one retaining a BRCA defect with 53BP1 loss and another carrying a BRCA2 reversion, test the actual compound and current repair state separately. Even a positive experiment leaves clinical benefit and safety unresolved.",
+            "The measurement question determines the assay. Engagement and downstream action can be investigated with specified phosphorylation sites, such as WEE1-related CDK1 tyrosine 15, rather than an unspecified phosphate signal. DNA-damage markers, RAD51 or other repair foci, functional repair assays, and survival or regrowth after drug removal ask further questions. Foci are visible protein clusters, not proof by themselves that repair finished successfully. Use matched repair-proficient and deficient models, genetic controls, specified concentrations, exposure times and sampling times. Nanomolar means nanomoles per litre and micromolar means micromoles per litre; a culture concentration is not a clinical dose.",
+            "A three-panel teaching cartoon can show an ATR-associated stress signal, WEE1 placing an inhibitory phosphate, and polymerase-theta joining with short matches. Its bars and DNA strokes supply schematic roles, not concentrations, a complete literal network or a treatment ranking. Follow a checkpoint diagram by asking what functional loss is demonstrated, what job is interrupted and what measured dependency remains. A historical genomic scar does not establish the current repair state; a PARP-resistant label does not establish polymerase-theta sensitivity; and loss of one checkpoint does not establish clinical benefit from inhibiting another. These distinctions also prevent treating ATR inhibition and an ATM-loss biomarker as the same fact."
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "ac4117af79a04ac10328567b081fc22ca93c2d97b2473375876e2b8b9f68aac7"
+        },
+        "pathways": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "people": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "related": {
+          "before": null,
+          "after": [
+            "ddr",
+            "replication-stress",
+            "synthetic-lethality",
+            "parp-inhibitor",
+            "brca-reversion-mutations",
+            "hrd-genomic-scar-scores",
+            "atr",
+            "atm",
+            "chek1",
+            "wee1",
+            "prkdc",
+            "polq",
+            "chemical-probe",
+            "resistance"
+          ],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "694fb75146563e3b677810e0b5ad7f76a3f552024cffb5a9ebdf36aa0aeb0f9e"
+        },
+        "sections": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "summary": {
+          "before": null,
+          "after": "DNA damage response inhibitors interfere with selected signalling, checkpoint or repair functions. ATM, ATR, CHK1, WEE1, DNA-PK and polymerase theta have different, overlapping roles. The relevant question is which function a particular medicine interrupts and whether the sampled tumour currently depends on it. A repair-gene variant, an old genomic scar or prior PARP-inhibitor resistance alone does not establish benefit from another damage-response inhibitor.",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "6055395823dd5ee74ccde11080c0188ca86bea98718f5ce24cf2c7865ff05752"
+        },
+        "tags": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "targets": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "technologies": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "terms": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        },
+        "tldr": {
+          "before": null,
+          "after": "These medicines interrupt particular damage signals, cell-cycle pauses or DNA repair routes. A useful effect depends on the tumour and the interrupted job.",
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "6c7f4e2e3217a4e13dab966d99bdc749f1b7349b8e8d164c76ed5997ed9c74db"
+        },
+        "trials": {
+          "before": null,
+          "after": [],
+          "beforeSha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b",
+          "afterSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+        }
+      }
+    }
+  ],
+  "newOwners": 1,
+  "newRegisteredRecords": 1,
+  "newId": "dna-damage-response-inhibitors",
+  "literalOwnerReceipts": {
+    "baseHead": "21a9d0348c28ea9a6aab392af8e08bbfcee479d3",
+    "owners": [
+      {
+        "id": "brca-reversion-mutations",
+        "file": "src/data/terms-biomarkers-wave.ts",
+        "scalarFields": [],
+        "appendedNotes": [
+          "B01",
+          "B02",
+          "B03",
+          "B04",
+          "B05",
+          "B06",
+          "B07",
+          "B08",
+          "B09",
+          "B10"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "hrd-genomic-scar-scores",
+        "file": "src/data/diagnostics-wave2.ts",
+        "scalarFields": [
+          "principle",
+          "strengths",
+          "limitations"
+        ],
+        "appendedNotes": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08",
+          "C09",
+          "C10"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "resistance",
+        "file": "src/data/terms.ts",
+        "scalarFields": [
+          "tldr",
+          "summary"
+        ],
+        "appendedNotes": [
+          "R01",
+          "R02",
+          "R03",
+          "R04",
+          "R05",
+          "R06"
+        ],
+        "explicitNoteCorrections": 1,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "parp-inhibitor",
+        "file": "src/data/technologies.ts",
+        "scalarFields": [
+          "tldr",
+          "summary",
+          "principle",
+          "strengths",
+          "limitations"
+        ],
+        "appendedNotes": [
+          "P01",
+          "P02",
+          "P03",
+          "P04",
+          "P05",
+          "P06",
+          "P07",
+          "P08"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      },
+      {
+        "id": "drug-resistance-dynamics",
+        "file": "src/data/models-wave.ts",
+        "scalarFields": [
+          "tldr",
+          "summary",
+          "principle",
+          "strengths",
+          "limitations"
+        ],
+        "appendedNotes": [
+          "M01",
+          "M02"
+        ],
+        "explicitNoteCorrections": 0,
+        "asOf": "2026-11-12"
+      }
+    ],
+    "files": [
+      {
+        "file": "src/data/terms.ts",
+        "beforeSha256": "0890ca0cfe9dbaae36e01e872a8cbd71c9a95d354db77705061a17d96c8066af",
+        "afterSha256": "299d2c49a21486768b51a2c27c57b138921ddc115ed2f89483ee1d064ae133bb",
+        "edits": [
+          {
+            "id": "resistance",
+            "field": "tldr"
+          },
+          {
+            "id": "resistance",
+            "field": "summary"
+          },
+          {
+            "id": "resistance",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/models-wave.ts",
+        "beforeSha256": "5f6b84d0a8afe889653115da972be6d365e7a7fa246a4c839e70929f6a1438e4",
+        "afterSha256": "1956135d93cd66ff4b1b420109afd2b6cb5d1d8c6efc00c06cdd833297214914",
+        "edits": [
+          {
+            "id": "drug-resistance-dynamics",
+            "field": "tldr"
+          },
+          {
+            "id": "drug-resistance-dynamics",
+            "field": "summary"
+          },
+          {
+            "id": "drug-resistance-dynamics",
+            "field": "principle"
+          },
+          {
+            "id": "drug-resistance-dynamics",
+            "field": "strengths"
+          },
+          {
+            "id": "drug-resistance-dynamics",
+            "field": "limitations"
+          },
+          {
+            "id": "drug-resistance-dynamics",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/spikes/lung-molecular.ts",
+        "beforeSha256": "d84f825d6ca08a93fa4688a74f546e7d7fb53ef18cd96751f15b287fb743ac77",
+        "afterSha256": "2afb768b7e649670fc4558fe9e4ad21327b59a6d89ad994d43f9f2a7cc1ee8af",
+        "edits": [
+          {
+            "id": "resistance",
+            "field": "notes-explicit-correction"
+          }
+        ]
+      },
+      {
+        "file": "src/data/technologies.ts",
+        "beforeSha256": "e777b4a45733cb42c7da27f31e7824a574fc5091b0781f4250e20c705b1dedb8",
+        "afterSha256": "afb2e2d9bf77fb366cbbdf202642ac5371cb3f509002549051242b92b39b5b5a",
+        "edits": [
+          {
+            "id": "parp-inhibitor",
+            "field": "tldr"
+          },
+          {
+            "id": "parp-inhibitor",
+            "field": "summary"
+          },
+          {
+            "id": "parp-inhibitor",
+            "field": "principle"
+          },
+          {
+            "id": "parp-inhibitor",
+            "field": "strengths"
+          },
+          {
+            "id": "parp-inhibitor",
+            "field": "limitations"
+          },
+          {
+            "id": "parp-inhibitor",
+            "field": "asOf"
+          },
+          {
+            "id": "parp-inhibitor",
+            "field": "links"
+          },
+          {
+            "id": "parp-inhibitor",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/diagnostics-wave2.ts",
+        "beforeSha256": "cba4658be70510afb49a8e4c5aa0520be73baf8df7c2d2abd86384c3bb10d63e",
+        "afterSha256": "f081717ca2b0397bffc8a7ae33545ca615613130787142ba2391b1767267f350",
+        "edits": [
+          {
+            "id": "hrd-genomic-scar-scores",
+            "field": "principle"
+          },
+          {
+            "id": "hrd-genomic-scar-scores",
+            "field": "strengths"
+          },
+          {
+            "id": "hrd-genomic-scar-scores",
+            "field": "limitations"
+          },
+          {
+            "id": "hrd-genomic-scar-scores",
+            "field": "asOf"
+          },
+          {
+            "id": "hrd-genomic-scar-scores",
+            "field": "links"
+          },
+          {
+            "id": "hrd-genomic-scar-scores",
+            "field": "related"
+          },
+          {
+            "id": "hrd-genomic-scar-scores",
+            "field": "insert-properties"
+          }
+        ]
+      },
+      {
+        "file": "src/data/terms-biomarkers-wave.ts",
+        "beforeSha256": "7cf36804268f58919403675d021066d21aad7c531665132609edcc2f1e656731",
+        "afterSha256": "1f7dd31c1d6723db8d9e9dd13e83f727fe15642160480919e857f98eb0f603ea",
+        "edits": [
+          {
+            "id": "brca-reversion-mutations",
+            "field": "asOf"
+          },
+          {
+            "id": "brca-reversion-mutations",
+            "field": "notes"
+          },
+          {
+            "id": "brca-reversion-mutations",
+            "field": "links"
+          },
+          {
+            "id": "brca-reversion-mutations",
+            "field": "related"
+          }
+        ]
+      }
+    ],
+    "runtimeSupplementsMaterialised": false
+  },
+  "modelFactory": "Allows a record-specific asOf date; no schema or floor change.",
+  "summaryConsumers": {
+    "scope": "Current exact-table preconditions; no named review changed. Missing table entries retain English fallback. No new language approval.",
+    "files": [
+      {
+        "file": "src/data/i18n/ar.ts",
+        "beforeSha256": "558bcf231b181e1b9aa3257744d46a212c21365cf9e69627f7d422c78fd4d3a4",
+        "afterSha256": "55a8453bdc55a819a6bff4b1acb8014593576616d0300815b88889bb592272e7",
+        "changes": [
+          {
+            "id": "parp-inhibitor",
+            "language": "ar",
+            "before": "أقراص تعطل نظاماً احتياطياً لإصلاح الحمض النووي DNA، فتقتل الخلايا السرطانية التي فقدت بالفعل نظام الإصلاح الرئيسي لديها (BRCA).",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "60a050e445aff23bf96f58bbf97055f4306992a8ab8a0fce5f90fb6d7d0e5c5c",
+            "afterSha256": null
+          },
+          {
+            "id": "resistance",
+            "language": "ar",
+            "before": "لماذا تتوقف أدوية السرطان عن العمل: إما أن الورم لم يعتمد أصلًا على الهدف، أو أنه يتطور ليلتف حول الحصار.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "d06ba449aa0e742358c1c0aeb3df1cf6661d3f540380771c82053635b8eec804",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/de.ts",
+        "beforeSha256": "e94201d4c1f00ca7445a41a0db9714a56a4d1da80b186600ee9793c6e6bb2ffd",
+        "afterSha256": "108e61a1ca1351b345d7a34e3854f3ba698a5623e9d008d638d4adad07f3630f",
+        "changes": [
+          {
+            "id": "parp-inhibitor",
+            "language": "de",
+            "before": "Tabletten, die ein Ersatzsystem der DNA-Reparatur blockieren und so Krebszellen abtöten, die ihr Hauptreparatursystem (BRCA) bereits verloren haben.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "4a603962b147b30f97d5fbf89dd4a58b1e687662bd74afda463eba6ddaecf8c2",
+            "afterSha256": null
+          },
+          {
+            "id": "resistance",
+            "language": "de",
+            "before": "Warum Krebsmedikamente aufhören zu wirken: Entweder war der Tumor nie von der Zielstruktur abhängig, oder er entwickelt sich so weiter, dass er die Blockade umgeht.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "93d3eaf211bafc163854eac6473239ff12b7a488e92df16e007a27244fc52d39",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/es.ts",
+        "beforeSha256": "a183fc480f4705465875c017c57d46876f39289895bac677637073d3d88d7c41",
+        "afterSha256": "d3b21796fbe443e3509e2df3fead1256c17c32dee27a821345c5b3e3a2926f36",
+        "changes": [
+          {
+            "id": "resistance",
+            "language": "es",
+            "before": "Por qué los fármacos dejan de funcionar: el tumor nunca dependió de la diana o evoluciona para rodear el bloqueo.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "012a1ed82d05c1a07e3a31cdf27209fd9b0fa7a5bd2bfd2b987cb5feb781a85d",
+            "afterSha256": null
+          },
+          {
+            "id": "parp-inhibitor",
+            "language": "es",
+            "before": "Pastillas que bloquean un sistema de reparación de reserva del ADN, matando células cancerosas que ya perdieron su sistema principal (BRCA).",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "72f1176744f9f6d89af6a848800e99e38e7848bd0ca1024c831cb554ce22ae15",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/fr.ts",
+        "beforeSha256": "44041e4de0fbcd58d986884a6edb8e2f89dc652df3eb17424b949167893a1d48",
+        "afterSha256": "58f0556815e573256f8c983c3ae2ff850f8460805b01cb761560a716d4faa1a9",
+        "changes": [
+          {
+            "id": "parp-inhibitor",
+            "language": "fr",
+            "before": "Des comprimés qui bloquent un système de secours de réparation de l'ADN, tuant les cellules cancéreuses qui ont déjà perdu leur système de réparation principal (BRCA).",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "73698524b7fbbc569ac51e4e1632798ed6d5cdfe71b28751e6cd85dd1461912a",
+            "afterSha256": null
+          },
+          {
+            "id": "resistance",
+            "language": "fr",
+            "before": "Pourquoi les médicaments anticancéreux cessent d'agir : soit la tumeur n'a jamais dépendu de la cible, soit elle évolue pour contourner le blocage.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "e243792935d455d2274dc4066ab672ab95b2c28a55de06e943e561687e885f96",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/hi.ts",
+        "beforeSha256": "d8e7db147526c8472360a69e5e8dbee6a5757953e9d524d9faddc7c63e01a95c",
+        "afterSha256": "855a4980369bd2f7ed2617c0c309e689bec0abc53bc8a4728891b70abc94c275",
+        "changes": [
+          {
+            "id": "resistance",
+            "language": "hi",
+            "before": "कैंसर दवाएँ क्यों काम बंद करती हैं: ट्यूमर कभी लक्ष्य पर निर्भर नहीं था या अवरोध के चारों ओर विकसित हो जाता है।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "29f43ecc135c7e6d77f52f4c2988e83816e89d6f679918dacb1dc59defa91695",
+            "afterSha256": null
+          },
+          {
+            "id": "parp-inhibitor",
+            "language": "hi",
+            "before": "DNA मरम्मत के बैकअप को रोकने वाली गोलियाँ, जो पहले ही मुख्य मरम्मत तंत्र (BRCA) खो चुकी कैंसर कोशिकाओं को मारती हैं।",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "e82435c9ad1ca111814b49b80e99dbd90792fc3ae377a31f85bc46afbe1d74ad",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/ja.ts",
+        "beforeSha256": "6f9af3940f81c27377d4bd96b175ca66d30f3c719b71b2e8925f0acf2768e0dc",
+        "afterSha256": "55346db94103d83a90f1cf66e0023dc60a16826b04f85c006eacf2cf9be18da4",
+        "changes": [
+          {
+            "id": "parp-inhibitor",
+            "language": "ja",
+            "before": "DNA修復の予備の仕組みを止める飲み薬で、主な修復の仕組み（BRCA）をすでに失ったがん細胞を死滅させます。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "ce682acc248116963db340b2b93f06de4b08e85c65ac9e536773a0603a2891e3",
+            "afterSha256": null
+          },
+          {
+            "id": "resistance",
+            "language": "ja",
+            "before": "がんの薬が効かなくなる理由。腫瘍がもともとその標的に依存していなかったか、あるいは進化して阻害を回り込むかのどちらかだ。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "16df9cca1c2e99e16fd1a951b0be28e15bc2c176ca54ee0db7fbd7d5888d57f6",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/pt.ts",
+        "beforeSha256": "3b0ace27b05366ea09b2964ddb2f974f507f6ba76529b96d9dad3d7d58e59c1b",
+        "afterSha256": "118a14f4a51458b7f3779eb978d5c5424a0bb73e60a4228a0e1461aedd82a825",
+        "changes": [
+          {
+            "id": "resistance",
+            "language": "pt",
+            "before": "Por que as drogas contra o câncer param de funcionar: o tumor nunca dependeu do alvo ou evolui contornando o bloqueio.",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "97b1b55704cd6c475fdc8937e011e50c6c31462e17cdc2db824f7d42381a6369",
+            "afterSha256": null
+          },
+          {
+            "id": "parp-inhibitor",
+            "language": "pt",
+            "before": "Comprimidos que bloqueiam um sistema reserva de reparo do DNA, matando células cancerosas que já perderam o sistema principal (BRCA).",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "850dac97df5f08debc0a365b376c9cadc57d73a42468aa397500b11ef3591b3d",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/i18n/zh.ts",
+        "beforeSha256": "170163eeb81b7e53cc32975d3abad35dc7e4f0978e5a6317ab7c9c4cc004ee95",
+        "afterSha256": "966c33a1b58349934cc226dbc027d8bac95f18e9fbc4af8e819b39dd1b29c2d0",
+        "changes": [
+          {
+            "id": "drug-resistance-dynamics",
+            "language": "zh",
+            "before": "来自群体遗传学的数学表明，大肿瘤在治疗前几乎必然已存在耐药细胞，而从一开始就联合耐药突变不同的药物，可以在同样药物序贯使用失败之处取得成功。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "26f7e9871d51ef2ec61b85a9bf157ece12e2836485e9bdfce64d6c412e1ed86c",
+            "afterSha256": null
+          },
+          {
+            "id": "resistance",
+            "language": "zh",
+            "before": "癌症药物失效的原因：肿瘤从未依赖该靶点，或演化出绕过阻断的方式。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "d517c7ecd9e4c8d50aa7e1e6e54819963bc9a34048e0be1ef60a5f7bf24aa945",
+            "afterSha256": null
+          },
+          {
+            "id": "parp-inhibitor",
+            "language": "zh",
+            "before": "阻断DNA备用修复系统的药片，杀灭已失去主修复系统（BRCA）的癌细胞。",
+            "after": null,
+            "action": "withdrawn-stale-unreviewed-translation-English-fallback",
+            "beforeSha256": "17bdb38545e694737b4ce82ffd2dfc139882dd51402196bf6a11d2b68b4171b0",
+            "afterSha256": null
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-o.ts",
+        "beforeSha256": "4aa088e6be31e131d6858cb22680056a5d9dff371a7def9b4b5b65b1696435c4",
+        "afterSha256": "133a90e16f4112a7aa64b668803f7e1770d4105b73ec7f3195845797abdbb2d0",
+        "changes": [
+          {
+            "id": "drug-resistance-dynamics",
+            "language": "simple",
+            "before": "Mathematics from population genetics shows resistant cells almost always exist before treatment in large tumours, so combining drugs from the start beats using them in sequence.",
+            "after": "A mathematical model explores how resistant cells can change. Its predictions depend on growth, mutation, shared resistance and drug exposure assumptions.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "6e9fe27f10c2113e745c1a0b43bfb2bae7aeefecef10be18f9e1147f842b7da4",
+            "afterSha256": "982216a3c970904f4c9a2a6a0c4de7a5871fa9e93e83cbe6f9b2e5df38011e43"
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-a.ts",
+        "beforeSha256": "fdabac562fb7bda8355db11c2a381523056f8fe82526e722f7c44374f7101ac5",
+        "afterSha256": "15d597e6fa986efffb634f4917ae40fe54b536bfcc8a2af9a96d7036e8baf032",
+        "changes": [
+          {
+            "id": "parp-inhibitor",
+            "language": "simple",
+            "before": "Pills that block a backup DNA repair system, killing cancer cells that have already lost their main repair system.",
+            "after": "These medicines disrupt DNA repair. Their usefulness depends on the tumour and treatment setting; stronger trapping in a cell test does not mean greater benefit for a person.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "109eec42066d374c79822543c233cd58c8b53d6324d49b54ce9832503d00ad92",
+            "afterSha256": "971cfb7886b74d969f467594a4a6a292eaa27c6d240bdf83bdf0a1d710c98a46"
+          }
+        ]
+      },
+      {
+        "file": "src/data/simple/part-b.ts",
+        "beforeSha256": "b83788d18424c60c36978238f171e7e35e06f20b76f424899b35210bbf85a90c",
+        "afterSha256": "b892f8dc5b43b78e760f4d214e70ce23b3eec8f09823c42572c8583634f682ff",
+        "changes": [
+          {
+            "id": "resistance",
+            "language": "simple",
+            "before": "Why cancer drugs stop working: the tumour never depended on the target, or it evolves a way around the block.",
+            "after": "A cancer can respond less to a medicine from the start or later. Testing is needed to understand why; a later finding alone does not prove the cause.",
+            "action": "corrected-simple-English",
+            "beforeSha256": "feb5b576af5026435347a9d0cd32aac46793b5f39b000a0820331789d9621744",
+            "afterSha256": "a65f4dddf2ae6381a8083477d77e71ec50b8f0c2c9b69727279602245c2348a9"
+          }
+        ]
+      }
+    ],
+    "withdrawnTranslations": 17,
+    "correctedSimpleEntries": 3
+  },
+  "retiredRawFoldInputs": {
+    "scope": "Retired unreviewed raw Chinese fold inputs for the same selected owners. These are separate from the 17 currently selected translations withdrawn, and receive no second canonical-language slot count.",
+    "rows": [
+      {
+        "file": "src/data/terms-biomarkers-wave.ts",
+        "id": "brca-reversion-mutations",
+        "table": "tldrZh",
+        "before": "BRCA 基因断裂的癌症在 PARP 抑制剂或铂类的压力下能自我修复：第二个突变恢复了阅读框，DNA 修复机制重新开启，两类药物都不再有效。回复突变在五分之一到三分之一的耐药病例的血液 ctDNA 中出现，意味着该换用另一类治疗了。",
+        "beforeSha256": "c01697252a76e54c5feb71151f3f1aa5b6039e7bb36c11e25d54cf2af321152b"
+      }
+    ]
+  },
+  "upstreamComparison": {
+    "priorMain": "72b29117afa707fcb3892f0a22f00ee202a0fbf2",
+    "observedMain": "2f25843d31097b6b12824e0a4cc528e4fcdbda99",
+    "selectedIds": [
+      "brca-reversion-mutations",
+      "hrd-genomic-scar-scores",
+      "resistance",
+      "parp-inhibitor",
+      "drug-resistance-dynamics"
+    ],
+    "findings": [],
+    "decision": "No new-main literal field differs for these five selected owners. Preserve earlier draft edits and do not merge unrelated changes."
+  },
+  "scope": "All earlier BRCA notes, HRD summary paragraphs, links and relationships are retained. Scalar and one lung-resistance-note withdrawals are deliberate, with exact before and after fields. No load-time supplements are materialised. No peer owner is edited."
+}

@@ -1,0 +1,20 @@
+{
+  "doi": "10.1101/2024.02.26.582129",
+  "title": [
+    "Dissecting the role of CAR signaling architectures on T cell activation and persistence using pooled screening and single-cell sequencing"
+  ],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        2,
+        26
+      ]
+    ]
+  },
+  "type": "posted-content",
+  "abstractRead": true,
+  "relationReturned": {},
+  "scope": "Pooled signaling-domain library and repeated-stimulation/single-cell experiments. No clinical domain ranking; no assertion that no later journal version exists.",
+  "checkedOn": "2026-11-08"
+}

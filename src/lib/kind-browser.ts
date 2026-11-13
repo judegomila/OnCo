@@ -4,7 +4,7 @@ import { logoSrc } from "@/lib/logos";
 import { portraitSrc } from "@/lib/portraits";
 import { rankInstitutions } from "@/lib/ranking";
 import { decadeLabel, PHASE_FILTER_ORDER, phaseLabel, routeFor, type Kind } from "@/lib/kinds";
-import { EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_DISTRIBUTION_LABEL, TARGET_DISTRIBUTIONS, TARGET_ROLE_LABEL, TARGET_ROLES, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, type Entity } from "@/lib/schema";
+import { PROTOCOL_ACTOR_LABEL, PROTOCOL_ACTORS, PROTOCOL_DOMAIN_LABEL, PROTOCOL_DOMAINS, PROTOCOL_PLACE_LABEL, PROTOCOL_PLACES, EVIDENCE_TIER_LABEL, EVIDENCE_TIERS, TARGET_DISTRIBUTION_LABEL, TARGET_DISTRIBUTIONS, TARGET_ROLE_LABEL, TARGET_ROLES, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, type Entity } from "@/lib/schema";
 import { distributionTip, specificityTip, TUMOUR_AGNOSTIC_FACET } from "@/lib/target-specificity";
 import { COMPANY_TYPE_LABEL, portfolioOf, STAGE_LABEL, STAGE_ORDER, STAGE_TIP, stageOf } from "@/lib/startups";
 import { publicTags } from "@/lib/tags";
@@ -56,6 +56,12 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
    * of its first technology, else (only where asked, since the molecule slot also drives the approval chip)
    * the molecule of its first product. Empty when nothing fits, and the table then shows the kind's symbol.
    */
+  /** The first sentence of a TL;DR, cut at a word to one table line. */
+  const oneLine = (t: string, max = 110): string => {
+    const first = t.match(/^.*?[.!?](?=\s|$)/)?.[0] ?? t;
+    if (first.length <= max) return first;
+    return `${first.slice(0, max).replace(/\s+\S*$/, "")}…`;
+  };
   const borrowed = (e: Entity, withMolecule = false): Partial<BrowserRow> => {
     if (e.cancers[0]) return { cancerIcon: e.cancers[0] };
     const t = e.technologies.map((id) => g.get(id)).find((x) => x?.kind === "technology");
@@ -298,6 +304,32 @@ export function buildBrowser(k: Kind): { rows: BrowserRow[]; facets: FacetDef[];
       rows: g.kind("collection").map((c) => { const lic = c.license?.split(/[;(]/)[0].trim(); return { ...base(c), logo: logoFor(c.id, c.url), avatar: "org", sub: c.maintainer, facets: { license: lic ? [lic] : [] }, cols: { holds: c.holds, license: fl("license", lic, { tip: c.license && c.license !== lic ? c.license : undefined }) } }; }),
       facets: [{ key: "license", label: "Licence", searchable: false, width: "w-56" }],
       columns: [{ key: "holds", label: "Holds", hide: "hidden md:table-cell" }, { key: "license", label: "Licence", hide: "hidden lg:table-cell" }],
+    };
+    // Care protocols (docs/PROTOCOLS.md): grouped by domain in care-pathway order, filterable by who carries them out
+    // and where. The domain column is the grouping the index page draws above the table.
+    case "protocol": return {
+      hideStatus: true,
+      rows: g.kind("protocol").map((p) => {
+        const domain = PROTOCOL_DOMAIN_LABEL[p.domain];
+        const who = p.setting.who.map((w) => PROTOCOL_ACTOR_LABEL[w]);
+        const where = p.setting.where.map((w) => PROTOCOL_PLACE_LABEL[w]);
+        // A light row (11 November 2026): at 190 protocols a row of filter chips, a step link and a two-line summary
+        // weighed 4.7 KB and put /protocols/ at 464 KB against a 121 KB ceiling. Who and where are plain text (the
+        // column headers and the toolbar still filter them), the domain is one pill, and the summary is its first
+        // sentence, cut to a line. The protocol page carries the whole TL;DR.
+        return { ...base(p), tldr: oneLine(p.tldr), ...borrowed(p),
+          facets: { domain: [domain], who, where, cancers: cancerFacet(p.cancers) },
+          cols: { domain, who: who.join(", "), where: where.join(", "), steps: p.steps.length },
+          sortKeys: { domain: PROTOCOL_DOMAINS.indexOf(p.domain), steps: p.steps.length } };
+      }),
+      facets: [
+        { key: "domain", label: "Domain", searchable: false, width: "w-64", order: PROTOCOL_DOMAINS.map((d) => PROTOCOL_DOMAIN_LABEL[d]) },
+        { key: "who", label: "Who carries it out", searchable: false, width: "w-52", order: PROTOCOL_ACTORS.map((a) => PROTOCOL_ACTOR_LABEL[a]) },
+        { key: "where", label: "Where", searchable: false, width: "w-60", order: PROTOCOL_PLACES.map((a) => PROTOCOL_PLACE_LABEL[a]) },
+        { key: "cancers", label: "Cancer", width: "w-52", normalise: "cancer" },
+      ],
+      columns: [{ key: "domain", label: "Domain", sortable: true, chip: true }, { key: "who", label: "Who", hide: "hidden md:table-cell", plain: true }, { key: "where", label: "Where", hide: "hidden lg:table-cell", plain: true }, { key: "steps", label: "Steps", sortable: true, numeric: true, hide: "hidden sm:table-cell" }],
+      defaultSort: { key: "domain", dir: 1 },
     };
     // Years are generated from every dated field in the corpus (src/data/years.ts). The table is the timeline as a
     // list: how much each year holds and what kind of thing it was, newest first, filterable by decade.

@@ -441,6 +441,7 @@ const spike: Spike = {
       "prehabilitation", "eras-perioperative-nutrition", "survivorship-care-plan", "cea-surveillance-colorectal",
       "msi-mmr-testing", "fertility-preservation", "financial-navigation", "multidisciplinary-tumour-board",
       "cbt-fatigue-distress", "exercise-during-chemotherapy", "microwave-rf-ablation", "oncology-pharmacogenomics",
+      "implanted-ports", "picc-lines", "ambulatory-chemotherapy-pumps", "dpyd-genotyping",
     ],
     // The cancer record's own links are four guideline and registry pages (src/data/cancers.ts and ./colorectal.ts);
     // none of the URLs below repeat them, because the same URL twice on one record gives React duplicate-key errors.

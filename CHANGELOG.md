@@ -6,8 +6,107 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 13 November 2026
+- 269 cancer institutions for under-covered countries, from national centres and radiotherapy units to registries, regulators and payers, and oncology hospital ranks checked against the published Newsweek 2026 list, which corrects several ranks and removes three that the list does not contain
+
+### 12 November 2026
+- Logo gauge counts the new institutions
+- Ask finds the brachytherapy page and trastuzumab deruxtecan again
+- Country institutions stand on their own until the country deep dives arrive
+- Drug pages answer whether a medicine is available in your country, with approval, who pays and help with the cost, and country and institution pages list the trials recruiting there, counted only where that site's own registry status says recruiting
+- chore: refresh pulse, abstract and citation snapshots (#405)
+- chore: weekly roadmap registry check (public/roadmap-watch.json)
+- chore: refresh institution research output from OpenAlex (#404)
+- chore: draft change proposals that need review (#403)
+
 ### 11 November 2026
+- Newsweek 2026 oncology ranks on 268 institutions, with 75 new records for ranked hospitals OnCo did not hold
+- Cancer institutions for the 83 countries that held fewer than three: national centres, radiotherapy centres, registries, regulators and payers
+- Newsweek 2026 oncology ranks corrected against the published list, and unsourced superlatives removed from the ranked records
+- Glossary links no longer fire on ordinary words such as has, cure, prior and bleeding, and the care protocols now list the supportive medicines their steps name, so each medicine's page shows the protocols that use it
+- The care protocols now list the everyday medicines their own steps name, so 40 of the 43 medicines added in the November supportive care fill show the protocols that use them: blood thinners on the clot and endoscopy protocols, anti-sickness drugs, opioids, antibiotics, antivirals and the immune-toxicity rescue drugs
+- Glossary links no longer fire on ordinary words: "has" stops linking to health technology assessment, and 57 other aliases that named something else leave the hover matcher or are qualified
+- Forty-three everyday medicines the care protocols name now have records (blood thinners, anti-sickness drugs, pain relief, antibiotics and antivirals among them), with three line types and thirteen glossary terms; and three China approvals now rest on the makers' own exchange announcements, with two indications corrected
+- The availability table says each payer once and keeps its rows short on a phone
+- Drug pages say where a drug is available and country and institution pages list the trials recruiting there
+- Three China approvals now rest on the makers' own exchange announcements, marked as reported by the company with the regulator notice not read
+- Care protocols arrive: 190 sourced protocols for every part of cancer care, each step with its reason, source, grade and quote, best practice set beside named variants, linked from cancer, drug, device, side-effect, red-card and first-60-days pages; and every country in GLOBOCAN now has a page, with France's overseas departments on the France page
+- Forty-three medicines used in cancer care, three vascular access devices and thirteen glossary terms join the corpus, each from its label or a guideline
+- The scalp cooling protocol leaves the anagen effluvium term to the hair loss pages, so Ask still finds the scalp cooling record first for whether cooling prevents hair loss
+- Endometrial cancer lists fertility preservation, as the fertility preservation record already names it, so the fertility protocol stays on its page
+- The side-effects page shows how each symptom is managed: the care protocol for the symptom, and a treatment's own protocol beside the products it names
+- First-60-days checklist items link the care protocol they are about: fertility referral, vaccinations, port or PICC care, scalp cooling, the DPD test, the temperature rule and follow-up
+- Red cards for breast, bowel, lung, pancreatic, prostate, skin, lymphoma and triple-negative breast cancer link the protocol that manages each emergency
+- Breast, bowel, ovarian, pancreatic, stomach and AML pages list the ports, PICC lines, chemotherapy pumps and DPYD testing their treatment uses, so port care and line care appear on them
+- Protocols name the medicines, devices, glossary terms and upgrade ideas their steps are about, and the port protocol links a proposal to test masks and head-turning at port access
+- A cancer page reaches a protocol through a treatment only where the protocol names that treatment as its own, and a steroid or other supportive medicine brings only supportive-care protocols
+- The protocols index carries ten light rows, and weighs 148 KB rather than 464 KB
+- Cancer pages list only the protocols that apply to them, and every protocol summary fits the short-summary limit
+- The protocols index pages its table now that there are more than sixty, and a similar page no longer repeats a protocol the page already lists
+- Two pairs of care protocols written in parallel now read as one each, and neighbouring protocols point at each other
+- Eighteen supportive care and survivorship protocols: diarrhoea, nausea, skin, eyes, hair, fatigue, exercise, pain, lymphoedema, distress, sleep, sex, hot flushes and survivorship care plans
+- Three protocol-upgrade ideas from the pharmacy and vascular access protocols: carboplatin GFR estimate outcomes, vesicants through midlines, and central line discard volume
+- Nineteen more care protocols for radiotherapy, radiation safety, biopsies and scans, and ten protocol upgrades
+- Protocol for central line and port care in the community and at home
+- Protocols for looking after yourself during treatment: bleeding precautions, cancer tablets at home, sex and contraception, skin and nails, sun, driving and travel, and diet and alcohol; two upgrade ideas
+- Protocol grades show only what each source prints
+- Protocol for dose banding of anticancer drugs
+- Protocol for central line and port removal
+- Protocol for midline catheters in cancer care
+- Protocol for ambulatory chemotherapy pumps at home; insertion protocol no longer links the tip-location record
+- Protocols: blood thinners around surgery, anti-VEGF drugs before and after operations, sentinel node tracers and blue dye, and lowering the risk of arm lymphoedema
+- Protocol: enhanced recovery after radical cystectomy, from the EAU 2026 bladder cancer guideline with the ERAS Society guideline and its 2025 surgeons' update
+- Protocols: enhanced recovery after oesophagectomy, gastrectomy, Whipple, cytoreduction with HIPEC and head and neck free flap surgery; syringe drivers, pleural catheter drainage at home and malignant ascites
+- Protocol for aseptic compounding of hazardous anticancer drugs in the pharmacy
+- Protocols: enhanced recovery after colorectal, gynaecological cancer, lung and breast reconstruction surgery, each saying which ERAS edition could be read
+- Protocol for hepatic dose adjustment of anticancer drugs, including the FDA's September 2026 draft guidance
+- Two survivorship and assessment protocols: breast screening after chest radiotherapy at a young age, and geriatric assessment before systemic therapy
+- Protocol for rapid drug desensitisation after an allergic reaction to a platinum, taxane or antibody
+- Two more protocols: heart risk assessment and monitoring around heart-toxic cancer treatment, and nutrition screening and support
+- Protocols for a blocked central line or port and for blood sampling from a central line
+- Protocol for consent and education before anticancer treatment
+- Four more supportive care protocols: G-CSF by febrile neutropenia risk, chemotherapy nerve damage, transfusion thresholds, and anaemia with ESAs and iron
+- Protocol for inserting a PICC, tunnelled line or implanted port for anticancer treatment
+- Fifteen more care protocols: eight oncological emergencies and seven steps in CAR T-cell and transplant care
+- Protocol upgrade idea: start an antimuscarinic when dying is recognised to prevent the death rattle, on the SILENCE trial, linked from the last-days protocol
+- Protocol for siting and checking a peripheral cannula for anticancer treatment, from the 2024 Japanese extravasation guideline, CDC, epic3 and UK network guidance
+- Nineteen care protocols for preventing infection and for children with cancer, each step quoted from the current guideline
+- Protocol: routine tests before planned surgery, from NICE NG45, by size of operation and fitness
+- Protocols for body-size-based dose calculation (including full doses in obesity), drug, herbal and food interaction review, and medicines reconciliation
+- Palliative sedation protocol: describe refractory suffering without the word the tone rules reserve
+- Sixteen care protocols for radiotherapy and for scans, scopes and tests
+- Three more supportive care protocols: fertility preservation before treatment, bone health on hormone therapy, and dental assessment before bone-modifying drugs
+- Protocol: mouth care at home during chemotherapy and head and neck radiotherapy, from the MASCC/ISOO mucositis guideline and the NCI patient guide
+- Protocol: enhanced recovery after liver surgery, from the ERAS Society 2022 recommendations with each element's evidence level and grade, and NICE NG180
+- Protocols for carboplatin dose calculation and renal dose adjustment of anticancer drugs, from the 2025 international ADDIKD guideline and KDIGO 2024
+- Protocol: palliative sedation for refractory suffering, from the revised EAPC framework (2024) and the Korean last-days guideline
+- Ten care protocols for immunotherapy side effects: thyroid, diabetes, heart, nerves, kidneys, joints, eyes and blood, plus restarting treatment and tapering steroids
+- Protocols: blood clot prevention around cancer surgery and surgical site infection prevention, from NICE NG89 and NG125 and the WHO global guidelines, with the points where they disagree set side by side
+- Five supportive care and follow-up protocols: antiemetics by emetic risk, oral mucositis prevention, outpatient clot prevention, and follow-up after breast and colorectal cancer
+- Protocols: strong opioids for cancer pain, opioid switching and conversion, and care in the last days of life, each read from NICE, WHO and national guidelines with every quote checked against the source text
+- Three proposals to test practices the protocols found unmeasured: video second checks before chemotherapy at home, closed-system transfer devices, and antiseptic caps on long-term lines; linked from their protocols
+- Protocol for oral anticancer medicines at home: prescribing, teaching, adherence support and safe handling
+- Protocol for choosing a venous access device for anticancer treatment
+- Protocol for intrathecal chemotherapy safety and giving vinca alkaloids only from a minibag
+- Care protocols for checkpoint inhibitor skin reactions and infection prevention after CAR T-cell therapy
+- Hazardous drug protocol: plain wording for USP chapter 800 so the page renders it as written
+- Protocol for safe handling of hazardous anticancer drugs where they are given: protective equipment, closed systems, spills, waste and body fluids
+- Care protocols for tumour lysis syndrome and bispecific antibody step-up dosing
+- Protocol for PICC and tunnelled central line care: dressings, cleaning the connector, flushing and living with the line
+- Protocol for a suspected central line infection in a person with cancer: paired cultures, first antibiotics, and removing or keeping the line
+- Ten care protocols for oncological emergencies, immunotherapy side effects and CAR T-cell toxicity
+- Protocols for treating a blood clot in a person with cancer, and for a clot around a central line
+- Protocols for infusion and allergic reactions during anticancer treatment, and for premedication before taxanes, antibodies and other reaction-prone drugs
+- Protocols for DPD testing before fluorouracil and capecitabine, for prescribing and pharmacy verification of anticancer treatment, and for the checks at the chair before it is given
 - Outperform Cancer is no longer called a nonprofit, since neither its site nor the IRS says so; it is now typed as media and education. The Chan Zuckerberg Initiative is shown as both a research institute and a philanthropy, with its own account of its structure
+- Three care protocols read from their guidelines: accessing and caring for an implanted port, chemotherapy leaking out of the vein by drug class, and the first hour of suspected neutropenic sepsis
+- A new record kind for care protocols: how a part of cancer care is carried out, step by step, each step with its reason, its source and the grade the source gives it
+- Every country in GLOBOCAN has a page: 144 automatic country pages beside the 39 deep dives, France's overseas departments on the France page, and a filterable list of every country on /countries/
+- chore: weekly citation link check (#392)
+- chore: check regional approvals against the EMA register (#390)
+- chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#389)
+- chore: draft change proposals that need review (#388)
+- chore: EU regional rows read from the EMA register pages (#387)
 
 ### 10 November 2026
 - The site follows the device's light or dark setting until a reader chooses, an accessibility check runs on every ship, and the faults it found are fixed: unnamed timeline links, links hidden in expandable rows, mislabelled body and resistance buttons, low-contrast colours and small targets

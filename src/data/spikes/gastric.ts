@@ -244,7 +244,7 @@ const spike: Spike = {
       "Perioperative immunotherapy benefit by PD-L1 or MSI status, and whether chemotherapy can be omitted in MSI-high disease, are unresolved.",
     ],
     targets: ["her2", "cldn18-2", "pd1", "pdl1", "fgfr2", "vegf", "fap"],
-    technologies: ["checkpoint-inhibitor", "adc", "car-t", "hipec", "fapi-pet", "monoclonal-antibody", "bispecific-antibody", "antiangiogenic", "companion-diagnostic", "endoscopic-resection"],
+    technologies: ["checkpoint-inhibitor", "adc", "car-t", "hipec", "fapi-pet", "monoclonal-antibody", "bispecific-antibody", "antiangiogenic", "companion-diagnostic", "endoscopic-resection", "ambulatory-chemotherapy-pumps", "dpyd-genotyping"],
     pathways: ["pi3k-akt-mtor", "ras-mapk", "vegf-angiogenesis", "pd1-checkpoint"],
     companies: ["astellas", "bms", "merck", "astrazeneca", "daiichi-sankyo", "jazz", "beone", "amgen", "eli-lilly", "carsgen", "remegen", "keymed"],
     terms: ["cps", "siewert-classification", "lauren-classification", "peritoneal-metastasis", "msi", "neoadjuvant-adjuvant", "adcc", "ild"],

@@ -114,7 +114,9 @@ export type ColDef = { key: string; label: string; sortable?: boolean; hide?: st
   /** The facet this column filters from its header. Defaults to the facet with the column's key, or the facet its chips point at; `null` turns the header filter off. */
   facet?: string | null;
   /** Most linked objects a list cell shows before a "+N more" pill that expands the rest inline (default LIST_CAP). */
-  cap?: number };
+  cap?: number;
+  /** A short list of plain values (who carries out a protocol, where): no glossary marks, which would link "Chemotherapy" in "Chemotherapy day unit". */
+  plain?: boolean };
 
 /** Default cap on the linked objects a list cell shows before its "+N more" pill. */
 export const LIST_CAP = 3;

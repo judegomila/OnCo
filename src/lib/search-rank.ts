@@ -26,6 +26,7 @@ export const KIND_TIER: Record<SearchKind, Tier> = {
   trial: 2,
   technology: 2,
   pairing: 2,
+  protocol: 2,
   collection: 2,
   section: 2,
   page: 2,

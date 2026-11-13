@@ -343,7 +343,7 @@ const spike: Spike = {
     technologies: [
       "palliative-care", "psycho-oncology", "peer-support-groups", "oncology-nutrition", "pain-management", "survivorship-care-plan",
       "multidisciplinary-tumour-board", "financial-navigation", "cbt-fatigue-distress", "exercise-during-chemotherapy", "prehabilitation",
-      "lymphoedema-decongestive-therapy", "scalp-cooling", "fertility-preservation",
+      "lymphoedema-decongestive-therapy", "scalp-cooling", "fertility-preservation", "implanted-ports", "picc-lines", "cardio-oncology", "dpyd-genotyping",
     ],
     links: [
       NHS_BC, NHS_BC_TESTS, NHS_BC_TREATMENT, NHS_BC_SUPPORT, NHS_BC_MEN, NHS_MASTECTOMY, NHS_LYMPHOEDEMA, NHS_LYMPHOEDEMA_TREATMENT,

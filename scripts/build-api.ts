@@ -39,6 +39,7 @@ import { CANCER_GEOGRAPHIES, geographyJson } from "../src/lib/cancer-geography";
 import { sectionsJson } from "../src/lib/record-sections";
 import { roadmapEraFile } from "../src/lib/roadmap-eras";
 import { dossierJson } from "../src/components/Dossier";
+import { autoCountryCodes, autoCountryJson, countryIndexJson } from "../src/lib/country-pages";
 
 const out = join(process.cwd(), "public", "api", "v1");
 // Clear the previous build, keeping rdf/: scripts/build-triples.ts rewrites only the Turtle files whose content changed
@@ -85,6 +86,10 @@ for (const p of UK_PATHWAYS) { mkdirSync(join(out, "cancers", p.cancerId), { rec
 for (const geo of CANCER_GEOGRAPHIES) { mkdirSync(join(out, "cancers", geo.cancerId), { recursive: true }); write(`cancers/${geo.cancerId}/geography.json`, geographyJson(geo)); }
 // Section plan: one file per cancer listing its ten sections with placement (inline on the hub or own page), routes, anchors and counts (src/lib/record-sections.ts).
 for (const c of g.kind("cancer")) { mkdirSync(join(out, "cancers", c.id), { recursive: true }); write(`cancers/${c.id}/sections.json`, sectionsJson(c, g)); }
+// Countries: every country with a page (deep dives and automatic pages), and one file per automatic page, its companion (src/lib/country-pages.ts).
+mkdirSync(join(out, "countries"), { recursive: true });
+write("countries.json", countryIndexJson());
+for (const c of autoCountryCodes()) write(`countries/${c.toLowerCase()}.json`, autoCountryJson(c));
 // Explore: every row of one kind per file; the page carries only the first rows of each kind (src/lib/explore-kinds.ts).
 const explore = writeExploreFiles(out);
 // Idea rankings: every row of one view per file; the page carries only the first rows of each view (src/lib/idea-rankings-views.ts).

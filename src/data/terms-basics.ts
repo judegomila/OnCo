@@ -303,7 +303,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "cell-division", name: "Cell division", category: BIO,
-    aka: ["cell divisions", "divide", "dividing", "divides", "dividing cells", "rapidly dividing", "fast-dividing", "replication", "replicating", "cell replication"],
+    aka: ["cell divisions", "divide", "dividing", "divides", "dividing cells", "rapidly dividing", "fast-dividing", "replicating", "cell replication"],
     tldr: "One cell splitting into two identical daughters. Tissues need it for growth and repair; cancer is cell division that no longer stops.",
     summary: "Before dividing, a cell must copy its entire genome, and every copy introduces a small chance of error, so tissues that divide often (gut lining, blood, skin) accumulate mutations faster and give rise to more cancers. Classic chemotherapy targets division itself, damaging DNA or the machinery that pulls chromosomes apart, which is why it also hits hair follicles, bone marrow and gut lining and produces the familiar side effects. The number of divisions a tumour has undergone shows up as the number of mutations it carries, and the rate of division (Ki-67 staining, mitotic count) feeds into tumour grade.",
     wikipedia: W("Cell_division"),
@@ -679,7 +679,7 @@ export const termsBasics: TermInput[] = [
   // =====================================================================================
   t({
     id: "remission", name: "Remission", category: CLINIC,
-    aka: ["remissions", "in remission", "complete remission", "partial remission", "durable remission", "durable remissions", "cure", "cured", "curable", "functional cure", "no evidence of disease", "NED", "disease-free"],
+    aka: ["remissions", "in remission", "complete remission", "partial remission", "durable remission", "durable remissions", "functional cure", "no evidence of disease", "NED", "disease-free"],
     tldr: "When the signs of cancer have shrunk (partial remission) or disappeared entirely (complete remission). It is not the same as cure, because cells too few to detect may remain.",
     summary: "In blood cancers, complete remission has precise definitions (normal blood counts, fewer than 5% blasts in the marrow) and can be refined by measuring minimal residual disease; in solid tumours the equivalent language is complete or partial response on scans, or 'no evidence of disease' after surgery. Whether a remission becomes a cure is only known with time: for most cancers, five years without recurrence is a reasonable proxy, though late relapses occur in breast cancer and melanoma. Immunotherapy has introduced durable remissions in metastatic disease that behave like cures, and 'functional cure' describes long control without eradication.",
     wikipedia: W("Remission_(medicine)"),
@@ -695,7 +695,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "partial-response", name: "Partial response", category: CLINIC,
-    aka: ["partial responses", "responded", "responders", "responder", "non-responders", "non-responder", "response rate", "response rates", "tumour shrinkage", "tumor shrinkage", "shrank", "shrinkage", "responds to", "responding"],
+    aka: ["partial responses", "responders", "responder", "non-responders", "non-responder", "response rate", "response rates", "tumour shrinkage", "tumor shrinkage", "shrank", "shrinkage", "responds to"],
     tldr: "The tumours have shrunk substantially (by at least 30% in total diameter) but not disappeared. Together with complete responses it makes up a trial's response rate.",
     summary: "RECIST 1.1 defines partial response as at least a 30% decrease in the sum of the longest diameters of the target lesions with no new lesions; the response must be confirmed on a later scan. Response rate (complete plus partial) is the quickest signal that a drug is active and the basis of many accelerated approvals, but shrinkage does not always translate into longer life, and some effective drugs, notably immunotherapies and some targeted agents, produce long stable disease rather than shrinkage. How long a response lasts (duration of response) is often more informative than how many patients achieve one.",
     wikipedia: W("Response_evaluation_criteria_in_solid_tumors"),
@@ -820,7 +820,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "median-survival", name: "Median survival", category: CLINIC,
-    aka: ["median overall survival", "median OS", "median PFS", "median progression-free survival", "median", "median follow-up", "median time to", "survival curve", "survival curves", "Kaplan-Meier", "Kaplan–Meier", "landmark analysis", "long tail"],
+    aka: ["median overall survival", "median OS", "median PFS", "median progression-free survival", "median follow-up", "median time to", "survival curve", "survival curves", "Kaplan-Meier", "Kaplan–Meier", "landmark analysis", "long tail"],
     tldr: "The time by which half the patients in a group have died (or, for other endpoints, progressed). It is the midpoint of a spread, not a prediction for anyone: half live longer, some much longer.",
     summary: "Medians are used rather than averages because some patients live far longer than the rest and the average would be dragged up and undefined until the last patient dies; the median can be read off the survival curve at the point where it crosses 50%. Comparing medians between arms gives an absolute benefit in months, complementing the hazard ratio's relative measure, but it captures only one point on the curve: two treatments with the same median can differ hugely in the proportion alive at three years, which is where immunotherapy's long tail shows up. 'Median not reached' means fewer than half the patients had the event at the time of analysis, a good sign that is also frustratingly uninformative.",
     wikipedia: W("Kaplan%E2%80%93Meier_estimator"),
@@ -864,7 +864,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "toxicity-grade", name: "Toxicity grade", category: CLINIC,
-    aka: ["toxicity", "toxicities", "toxic", "grade 3", "grade 4", "grade 5", "grade 3-4", "grade 3/4", "grade 3 or higher", "grade ≥3", "grade 3+", "high-grade toxicity", "severe toxicity", "CTCAE", "treatment-related", "treatment-related adverse events", "TRAEs", "TRAE", "serious adverse event", "serious adverse events", "SAE", "discontinuation", "discontinuation rate", "treatment discontinuation", "tolerability", "tolerable", "well tolerated", "well-tolerated", "safety profile", "manageable"],
+    aka: ["toxicity", "toxicities", "grade 3", "grade 4", "grade 5", "grade 3-4", "grade 3/4", "grade 3 or higher", "grade ≥3", "grade 3+", "high-grade toxicity", "severe toxicity", "CTCAE", "treatment-related", "treatment-related adverse events", "TRAEs", "TRAE", "serious adverse event", "serious adverse events", "SAE", "discontinuation", "discontinuation rate", "treatment discontinuation", "tolerability", "tolerable", "well tolerated", "well-tolerated", "safety profile", "manageable"],
     tldr: "A 1 to 5 severity scale for side effects: grade 1 mild, grade 2 moderate, grade 3 severe and needing intervention, grade 4 life-threatening, grade 5 fatal. Trials report the percentage of patients with grade 3 or worse.",
     summary: "The Common Terminology Criteria for Adverse Events (CTCAE) define each grade for hundreds of specific effects, from nausea to neutropenia; 'grade 3 or higher' is the usual summary of how hard a treatment is to take, and the rates of dose reduction and discontinuation show how often it cannot be given as planned. Grading is done by clinicians and tends to underestimate symptoms that patients feel but doctors do not see (fatigue, nausea), so patient-reported versions (PRO-CTCAE) are increasingly collected. The same word 'grade' in 'tumour grade' means something entirely different.",
     wikipedia: W("Common_Terminology_Criteria_for_Adverse_Events"),
@@ -880,7 +880,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "quality-of-life", keyPapers: ["paper-cella-fact-g-jco-1993"], name: "Quality of life", category: CLINIC,
-    aka: ["QoL", "HRQoL", "health-related quality of life", "patient-reported outcomes", "patient-reported outcome", "PROs", "PRO", "patient-reported", "symptom burden", "functional status", "performance status", "ECOG", "ECOG 0-1", "ECOG performance status", "Karnofsky", "time to deterioration", "wellbeing"],
+    aka: ["QoL", "HRQoL", "health-related quality of life", "patient-reported outcomes", "patient-reported outcome", "PRO", "patient-reported", "symptom burden", "functional status", "performance status", "ECOG", "ECOG 0-1", "ECOG performance status", "Karnofsky", "time to deterioration", "wellbeing"],
     tldr: "How a patient actually feels and functions day to day: symptoms, energy, mood, ability to work and live normally. Measured with questionnaires, it is the outcome that matters most alongside survival, and the one trials have historically neglected.",
     summary: "Standard instruments (EORTC QLQ-C30, FACT-G, EQ-5D) ask patients to rate pain, fatigue, nausea, physical and social function, and are collected repeatedly during a trial; results are reported as change from baseline or time until quality of life deteriorates. They matter because a drug that extends progression-free survival by two months while making patients feel worse may not be a good trade, and because regulators and health systems increasingly weigh them in approval and pricing. Performance status (ECOG 0 to 4) is the clinician's brief summary of how well a patient functions and gates who is fit enough for treatment and for trials.",
     wikipedia: W("Quality_of_life_(healthcare)"),
@@ -944,7 +944,7 @@ export const termsBasics: TermInput[] = [
   }),
   t({
     id: "screening", name: "Screening", category: CLINIC,
-    aka: ["cancer screening", "screening programme", "screening programmes", "screening program", "screening programs", "screened", "screening test", "screening tests", "population screening", "overdiagnosis", "overdiagnosed", "over-diagnosis", "overtreatment", "false positive", "false positives", "false-positive", "false negative", "false negatives", "false-negative", "sensitivity", "specificity", "lead-time bias", "length-time bias"],
+    aka: ["cancer screening", "screening programme", "screening programmes", "screening program", "screening programs", "screened", "screening test", "screening tests", "population screening", "overdiagnosis", "overdiagnosed", "over-diagnosis", "overtreatment", "false positive", "false positives", "false-positive", "false negative", "false negatives", "false-negative", "specificity", "lead-time bias", "length-time bias"],
     tldr: "Testing people who have no symptoms to catch cancer, or its precursors, early enough to cure. Proven for breast, cervical, colorectal and (in smokers) lung cancer; every test also finds some cancers that would never have caused harm.",
     summary: "A good screening test must find cancers at a stage where treatment changes the outcome, be acceptable and affordable for millions of healthy people, and cause more benefit than harm from false positives, unnecessary biopsies and overdiagnosis; it is judged ultimately by whether it lowers deaths in randomised trials. Mammography, cervical smears and HPV testing, colonoscopy and stool tests, and low-dose CT for heavy smokers meet this bar; PSA testing for prostate cancer is a marginal case where shared decision-making is advised. Multi-cancer early detection blood tests such as Galleri aim to screen for dozens of cancers at once and are being tested in large trials, with the risks of overdiagnosis and false reassurance under close scrutiny.",
     wikipedia: W("Cancer_screening"),

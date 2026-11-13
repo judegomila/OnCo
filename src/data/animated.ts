@@ -471,6 +471,10 @@ function frameLoop(sc: Scene, duration: number, fn: (t: number, pts: Vec3[], alp
 // Order matters: earlier rules win. animated.test.ts checks every product in the corpus resolves.
 // =====================================================================================
 export const MODALITY_SCHEMATICS: Array<[RegExp, string]> = [
+  // General medicines used in cancer care (src/data/supportive-care-gaps-2026-11.ts): antibiotics, antivirals, anaesthetics,
+  // thrombolytics and skin creams draw the supportive care front. First, so that "antiviral" never reaches the oncolytic
+  // virus rule below; no product outside that file carries these words.
+  [/\b(antibacterials?|antifungals?|antivirals?|anaesthetics?|anesthetics?|thrombolytics?|keratolytic|emollients?|antimetabolite immunosuppressant|reuptake inhibitor|medicine for diarrhoea)\b/, "front:supportive-care"],
   [/bispecific adc|biparatopic adc/, "bispecific-adc"],
   [/dual[- ]payload/, "dual-payload-adc"],
   [/\badc\b|antibody[- ]drug conjugate|drug conjugate|toxin conjugate|immunotoxin|cytotoxin|photoimmunotherapy/, "adc"],

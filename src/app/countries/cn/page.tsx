@@ -4,6 +4,7 @@ import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import type { Entity } from "@/lib/schema";
 import { ChipList, Container, EntityCard, EntityLink, GroupKicker, PageHeader, Section } from "@/components/ui";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { CHINA_FACTS } from "@/data/china";
 import { countryExtras } from "@/data/country-extras";
 import { GLOBOCAN } from "@/lib/globocan";
@@ -193,6 +194,8 @@ export default function ChinaPage() {
         </Section>
 
         {/* ---------- Institutions and people ---------- */}
+        <CountryTrialsSection iso2="CN" />
+
         <Section title={`Institutions (${institutions.length})`} aside={<Link href="/institutions/" className="text-sm underline">Map and ranking</Link>}>
           <ChipList items={institutions.sort((a, b) => a.name.localeCompare(b.name))} />
         </Section>

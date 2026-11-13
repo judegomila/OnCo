@@ -35,7 +35,7 @@ import { CONTINUOUS_FROM } from "@/lib/years";
 import { findings, series } from "@/lib/timeline";
 import { allTags } from "@/lib/tags";
 import { KIND_PAGE, SECTION_PAGE, TABLE_PAGE } from "@/lib/static-tables";
-import { PAGED_KINDS } from "@/lib/tables/kinds";
+import { kindPageSize, PAGED_KINDS } from "@/lib/tables/kinds";
 import { KIND_META, KINDS } from "@/lib/kinds";
 import { EXPLAINED_PAGE, explainedGroups } from "@/lib/explained-data";
 import { PAPER_CARDS } from "@/components/record-blocks";
@@ -398,15 +398,17 @@ describe("kind browsers carry one page of rows", () => {
   const kindPage = (kind: (typeof KINDS)[number]) => KindIndex({ params: Promise.resolve({ kind: KIND_META[kind].route }) });
 
   for (const k of PAGED_KINDS) {
-    it(`${KIND_META[k].route} renders the first ${KIND_PAGE} rows, the Show more sentinel and the whole-set JSON link`, async () => {
+    // The first page is KIND_PAGE rows except where a kind's weight ceiling needs fewer (kindPageSize: /protocols/ carries ten).
+    const size = kindPageSize(k);
+    it(`${KIND_META[k].route} renders the first ${size} rows, the Show more sentinel and the whole-set JSON link`, async () => {
       const html = render(await kindPage(k));
       const total = graph().kind(k).length;
-      expect(total).toBeGreaterThan(KIND_PAGE);
+      expect(total).toBeGreaterThan(size);
       const rows = bodyRows(html);
-      expect(rows[0], "browser rows").toBe(KIND_PAGE);
-      for (const n of rows) expect(n).toBeLessThanOrEqual(KIND_PAGE);
+      expect(rows[0], "browser rows").toBe(size);
+      for (const n of rows) expect(n).toBeLessThanOrEqual(size);
       expect(html).toContain("data-more");
-      expect(html).toContain(`Show ${KIND_PAGE} more`);
+      expect(html).toContain(`Show ${Math.max(TABLE_PAGE, size)} more`);
       expect(html).toContain(total.toLocaleString("en-GB"));
       // Real rows for search engines: named records with their pages.
       expect(html).toMatch(new RegExp(`href="/${KIND_META[k].route}/[a-z0-9-]+/?"`));

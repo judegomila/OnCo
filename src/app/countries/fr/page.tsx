@@ -3,10 +3,12 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
 import { StaticTable, type StaticColumn, type StaticRow } from "@/components/filters/StaticTable";
+import { CountryParts } from "@/components/CountryParts";
 import {
   FR_ASOF, FR_ASSESSMENT, FR_COMPANIES, FR_DOING, FR_DRUGS, FR_GAPS, FR_INSTITUTIONS, FR_PAPERS, FR_PAYING, FR_PEOPLE, FR_PROFILE,
   FR_REGISTRY, FR_REGULATOR, FR_RESEARCH, FR_SCREENING, FR_SCREENING_PROGRAMMES, FR_TRIALS, type CountryCard,
@@ -107,7 +109,7 @@ export default function FrancePage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#registry", "How France counts"], ["#screening", "Screening"], ["#paying", "Paying for care"], ["#assessment", "Assessment and price"], ["#regulator", "Licensing and early access"], ["#doing", "What France does differently"], ["#research", "Research and trials"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#registry", "How France counts"], ["#overseas", "Overseas departments"], ["#screening", "Screening"], ["#paying", "Paying for care"], ["#assessment", "Assessment and price"], ["#regulator", "Licensing and early access"], ["#doing", "What France does differently"], ["#research", "Research and trials"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">French national figures in the cards; GLOBOCAN {GLOBOCAN.year} estimates in the table</span>}>
@@ -126,6 +128,11 @@ export default function FrancePage() {
 
         <Section id="registry" title="How France counts its cancers">
           <Cards cards={FR_REGISTRY} />
+        </Section>
+
+        <Section id="overseas" title="The overseas departments" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year}, reported by IARC apart from metropolitan France</span>}>
+          <p className="text-[15px] leading-relaxed max-w-3xl mb-4">IARC reports French Guiana, Guadeloupe, Martinique and La Réunion separately from metropolitan France, so the table above does not include them. As French departments they share France&apos;s health system described on this page: the national health insurance (Assurance Maladie), full cover for cancer as a long-term condition (ALD 30), and the HAS assessments that decide what is reimbursed. Their figures are IARC&apos;s estimates, with the method code IARC gives for each.</p>
+          <CountryParts parent="FR" />
         </Section>
 
         <Section id="screening" title="Organised screening">
@@ -162,6 +169,8 @@ export default function FrancePage() {
             </div>
           )}
         </Section>
+
+        <CountryTrialsSection iso2="FR" />
 
         <Section id="institutions" title="The institutions">
           <Grid items={institutions} />

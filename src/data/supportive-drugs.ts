@@ -54,6 +54,19 @@ export const SUPPORTIVE_DRUGS: Record<string, string> = {
   "human-normal-immunoglobulin": "infection prophylaxis",
   // Transplant support: stem cell mobilisation and thrombocytopenia.
   plerixafor: "stem cell mobilisation", motixafortide: "stem cell mobilisation", eltrombopag: "thrombocytopenia", romiplostim: "thrombocytopenia", fostamatinib: "thrombocytopenia",
+  // Supportive and general medicines the care protocols named (src/data/supportive-care-gaps-2026-11.ts, November 2026).
+  alteplase: "central line occlusion", urokinase: "central line occlusion",
+  enoxaparin: "anticoagulant", dalteparin: "anticoagulant", tinzaparin: "anticoagulant", apixaban: "anticoagulant", rivaroxaban: "anticoagulant", edoxaban: "anticoagulant", warfarin: "anticoagulant",
+  anakinra: "immune effector cell toxicity", doxycycline: "EGFR inhibitor rash prophylaxis", minocycline: "EGFR inhibitor rash prophylaxis",
+  metoclopramide: "antiemetic", haloperidol: "antiemetic", levomepromazine: "antiemetic and palliative sedation", cyclizine: "antiemetic",
+  loperamide: "treatment-induced diarrhoea", infliximab: "immune-related adverse events", vedolizumab: "immune-related colitis", mycophenolate: "immune-related adverse events",
+  gabapentin: "neuropathic pain and hot flushes", duloxetine: "chemotherapy-induced neuropathic pain", venlafaxine: "hot flushes on hormone therapy",
+  morphine: "cancer pain", oxycodone: "cancer pain", naloxone: "opioid reversal",
+  midazolam: "procedural and palliative sedation", glycopyrronium: "secretions in the last days of life", hyoscine: "secretions and bowel colic in palliative care",
+  valaciclovir: "herpesvirus prophylaxis", tenofovir: "hepatitis B reactivation prophylaxis", posaconazole: "antifungal prophylaxis",
+  levofloxacin: "antibacterial prophylaxis in neutropenia", ciprofloxacin: "antibacterial prophylaxis in neutropenia", "piperacillin-tazobactam": "neutropenic sepsis",
+  levetiracetam: "seizures after CAR-T", levothyroxine: "thyroid hormone replacement and TSH suppression", mometasone: "radiation dermatitis prevention", "urea-cream": "hand-foot skin reaction prevention",
+  lidocaine: "local anaesthesia for procedures", propofol: "procedural and palliative sedation", ketamine: "procedural sedation",
 };
 
 /** Borderline records left as treatments, with the reason; the test asserts none of them is flagged. */
@@ -63,5 +76,6 @@ export const SUPPORTIVE_NOT_FLAGGED: Record<string, string> = {
   ruxolitinib: "myelofibrosis and polycythaemia vera labels beside GVHD", "radium-223": "overall survival benefit in bone-metastatic prostate cancer", omidubicel: "a graft, not a supportive medicine", tregzi: "a graft, not a supportive medicine",
   emapalumab: "treats haemophagocytic lymphohistiocytosis", ravulizumab: "treats paroxysmal nocturnal haemoglobinuria", "propranolol-hemangeol": "treats infantile haemangioma",
   mavorixafor: "treats WHIM syndrome, an inherited immunodeficiency, not a cancer toxicity", raloxifene: "chemoprevention of breast cancer; the osteoporosis label is the setting",
+  cyproterone: "the UK Cyprostat label includes long-term palliative treatment of prostate cancer beside flare suppression and hot flushes",
   sirolimus: "an immunosuppressant: its only approval is prophylaxis of kidney transplant rejection, which the rule reads as prophylaxis but which is not a cancer toxicity. It is in the corpus because switching to it lowers the risk of the next cutaneous squamous cell carcinoma (TUMORAPA), which is chemoprevention rather than supportive care",
 };

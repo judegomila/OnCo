@@ -25,6 +25,7 @@ export const KINDS = [
   "journal",
   "biomarker",
   "year",
+  "protocol",
 ] as const;
 export type Kind = (typeof KINDS)[number];
 
@@ -97,6 +98,73 @@ export const TARGET_DISTRIBUTION_LABEL: Record<TargetDistribution, string> = {
   "one-type": "One cancer type", "few-types": "A few cancer types", "many-types": "Many cancer types", "not-established": "Distribution not established",
 };
 
+/**
+ * The domains a care protocol belongs to, in the order /protocols/ groups them: the care pathway from first access
+ * to a vein through to survivorship. Labels and one-line blurbs in PROTOCOL_DOMAIN_LABEL. See docs/PROTOCOLS.md.
+ */
+export const PROTOCOL_DOMAINS = [
+  "vascular-access",
+  "chemotherapy-administration",
+  "oral-anticancer-therapy",
+  "hazardous-drug-safety",
+  "infection-prevention",
+  "emergencies",
+  "immunotherapy-toxicity",
+  "cell-therapy-toxicity",
+  "radiotherapy",
+  "surgery-perioperative",
+  "transfusion",
+  "supportive-care",
+  "symptom-management",
+  "nutrition",
+  "palliative",
+  "survivorship",
+  "screening-diagnostics",
+  "paediatric",
+  "pharmacy",
+  "consent-and-communication",
+  "other",
+] as const;
+export type ProtocolDomain = (typeof PROTOCOL_DOMAINS)[number];
+export const PROTOCOL_DOMAIN_LABEL: Record<ProtocolDomain, string> = {
+  "vascular-access": "Vascular access",
+  "chemotherapy-administration": "Giving chemotherapy",
+  "oral-anticancer-therapy": "Tablets and capsules at home",
+  "hazardous-drug-safety": "Handling hazardous drugs safely",
+  "infection-prevention": "Preventing infection",
+  emergencies: "Oncology emergencies",
+  "immunotherapy-toxicity": "Immunotherapy side effects",
+  "cell-therapy-toxicity": "Cell therapy side effects",
+  radiotherapy: "Radiotherapy",
+  "surgery-perioperative": "Around surgery",
+  transfusion: "Blood transfusion",
+  "supportive-care": "Supportive care",
+  "symptom-management": "Managing symptoms",
+  nutrition: "Nutrition",
+  palliative: "Palliative and end-of-life care",
+  survivorship: "After treatment",
+  "screening-diagnostics": "Screening and diagnostic procedures",
+  paediatric: "Children and young people",
+  pharmacy: "Pharmacy and prescribing",
+  "consent-and-communication": "Consent and communication",
+  other: "Other",
+};
+/** Who carries a protocol out. A protocol may name several. */
+export const PROTOCOL_ACTORS = ["nurse", "doctor", "pharmacist", "pharmacy-technician", "radiographer", "surgical-team", "anaesthetist", "emergency-team", "patient-or-carer", "multidisciplinary-team"] as const;
+export type ProtocolActor = (typeof PROTOCOL_ACTORS)[number];
+export const PROTOCOL_ACTOR_LABEL: Record<ProtocolActor, string> = {
+  nurse: "Nurse", doctor: "Doctor", pharmacist: "Pharmacist", "pharmacy-technician": "Pharmacy technician", radiographer: "Radiographer",
+  "surgical-team": "Surgical team", anaesthetist: "Anaesthetist", "emergency-team": "Emergency team", "patient-or-carer": "Patient or carer", "multidisciplinary-team": "Multidisciplinary team",
+};
+/** Where a protocol is carried out. */
+export const PROTOCOL_PLACES = ["chemotherapy-day-unit", "ward", "home", "emergency-department", "acute-oncology-service", "telephone-triage", "theatre", "radiotherapy-department", "aseptic-unit", "outpatient-clinic", "intensive-care", "community"] as const;
+export type ProtocolPlace = (typeof PROTOCOL_PLACES)[number];
+export const PROTOCOL_PLACE_LABEL: Record<ProtocolPlace, string> = {
+  "chemotherapy-day-unit": "Chemotherapy day unit (chair-side)", ward: "Ward", home: "Home", "emergency-department": "Emergency department", "acute-oncology-service": "Acute oncology service",
+  "telephone-triage": "Telephone triage line", theatre: "Operating theatre", "radiotherapy-department": "Radiotherapy department", "aseptic-unit": "Pharmacy aseptic unit",
+  "outpatient-clinic": "Outpatient clinic", "intensive-care": "Intensive care", community: "Community",
+};
+
 /** The relationship array fields shared by every entity. */
 export const REL_FIELDS = [
   "related",
@@ -141,6 +209,7 @@ export const KIND_META: Record<Kind, { plural: string; label: string; route: str
   // over the whole field with the findings read off its shape. The title says which of the two a reader has reached
   // ("years of what?"); the navigation entry is "Year by year" beside "Timeline" for the same reason.
   year: { plural: "years", label: "Year", route: "years", title: "Oncology year by year", blurb: "One record per year: everything the corpus dates to it, each line linking to the record it was read from. The whole field on one chart is the timeline.", color: "stone" },
+  protocol: { plural: "protocols", label: "Protocol", route: "protocols", title: "Care protocols", blurb: "How care is carried out, step by step: accessing a port, a drug leaking out of the vein, fever during chemotherapy. Each step with its reason and its source, the best-supported version beside the variants in use.", color: "teal" },
   biomarker: { plural: "biomarkers", label: "Biomarker", route: "biomarkers", title: "Biomarkers & readouts", blurb: "The readouts a pathology report gives (PD-L1 CPS, HER2 IHC 3+, MSI-high), each under its gene or protein, with the thresholds approvals use and the tests that measure them.", color: "violet" },
 };
 

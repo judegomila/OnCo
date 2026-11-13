@@ -37,7 +37,7 @@ export type RedFlagSet = {
   modalityRe?: string;
   /** Cancer ids this set applies to whatever the treatment: emergencies of the disease itself (a blocked bile duct, a stent). */
   cancerIds?: string[];
-  /** Entity ids the cards of a cancer-scoped set link to (a technology such as biliary stenting); the cancer itself when empty. */
+  /** Entity ids the cards of a cancer-scoped set link to (a technology such as biliary stenting, or the care protocol that manages the emergency); the cancer itself when empty. */
   concernIds?: string[];
   /** When the risk is highest, if the label states a window. */
   window?: string;
@@ -452,7 +452,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "tnbc-neutropenic-sepsis",
     label: "Triple-negative breast cancer: infection and sepsis during chemotherapy",
     cancerIds: ["tnbc"],
-    concernIds: ["febrile-neutropenia", "carboplatin", "sacituzumab-govitecan"],
+    concernIds: ["febrile-neutropenia", "carboplatin", "sacituzumab-govitecan", "febrile-neutropenia-first-hour"],
     window: "Carboplatin-paclitaxel, anthracycline chemotherapy and sacituzumab govitecan all lower white cells; Macmillan says a minor infection can become life-threatening within hours when neutrophils are low, and the risk is usually highest 7 to 14 days after each dose.",
     flags: [
       { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A&E, and do not drive yourself. Macmillan's 999 list adds passing no urine in a day and feeling the worst you ever have.", action: "emergency", source: NHS_SEPSIS },
@@ -463,7 +463,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "tnbc-immune-reactions",
     label: "Triple-negative breast cancer: immune-related reactions on pembrolizumab (bowel, lungs, liver, glands)",
     cancerIds: ["tnbc"],
-    concernIds: ["pembrolizumab", "irae"],
+    concernIds: ["pembrolizumab", "irae", "irae-colitis", "irae-pneumonitis", "irae-hepatitis"],
     window: "Pembrolizumab runs for about a year around surgery in early disease; Macmillan says immune-related side effects can start during treatment or after it ends, and Breast Cancer Now says to carry the alert card and use its out-of-hours number.",
     flags: [
       { symptom: "Diarrhoea, stools at night or tummy cramps (colitis)", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if you pass more stools than is normal for you, pass stools at night, have watery or loose stools, or have uncomfortable tummy cramps or pain, during treatment or after it ends; Breast Cancer Now adds blood or mucus in the stool.", action: "call-now", source: MAC_PEMBRO },
@@ -507,7 +507,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "pancreatic-neutropenic-sepsis",
     label: "Pancreatic cancer: infection and sepsis during chemotherapy",
     cancerIds: ["pancreatic"],
-    concernIds: ["febrile-neutropenia", "folfirinox", "gemcitabine-nab-paclitaxel"],
+    concernIds: ["febrile-neutropenia", "folfirinox", "gemcitabine-nab-paclitaxel", "febrile-neutropenia-first-hour"],
     window: "FOLFIRINOX, NALIRIFOX and gemcitabine with nab-paclitaxel all lower white cells; blood counts are checked before each dose and are usually lowest 7 to 14 days after it. A blocked bile duct is a second route to sepsis in this cancer, so fever counts even when the count is normal.",
     flags: [
       { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A&E. Macmillan's 999 list adds passing no urine in a day.", action: "emergency", source: NHS_SEPSIS },
@@ -518,6 +518,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "pancreatic-bleeding",
     label: "Pancreatic cancer: bleeding from the gut, or on a blood thinner",
     cancerIds: ["pancreatic"],
+    concernIds: ["bleeding-precautions-when-platelets-are-low"],
     flags: [
       { symptom: "Vomiting blood or black stools", threshold: "Vomiting blood (bright red, brown, black or like coffee granules) together with feeling unwell, confused, faint or dizzy, rapid or shallow breathing, cold clammy pale skin, tummy pain or black poo: the NHS says call 999 or go to A&E. If the vomiting of blood has stopped and there are no other symptoms, ask for an urgent GP appointment or call 111. The tumour can bleed into the duodenum, and many people with pancreatic cancer take blood-thinning medicine, which makes bleeding last longer.", action: "emergency", source: NHS_VOMITING_BLOOD },
       { symptom: "Unexplained bruising, nosebleeds or bleeding gums on chemotherapy", threshold: "Macmillan says chemotherapy can lower platelets and to contact the hospital straight away on the 24-hour number for any unexplained bruising or bleeding; you may need a platelet transfusion.", action: "call-now", source: MAC_FOLFIRINOX },
@@ -538,7 +539,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "pancreatic-blood-clot",
     label: "Pancreatic cancer: a blood clot in the leg or lungs",
     cancerIds: ["pancreatic"],
-    concernIds: ["vte", "cancer-associated-thrombosis"],
+    concernIds: ["vte", "cancer-associated-thrombosis", "cancer-associated-vte-treatment"],
     window: "Pancreatic Cancer UK says people with pancreatic cancer are at higher risk of a clot, more so with metastatic disease, surgery and chemotherapy; blood-thinning injections continue for about four weeks after surgery and the oncologist should consider them during chemotherapy.",
     flags: [
       { symptom: "Swollen or painful leg or arm with breathlessness or chest pain", threshold: "The NHS says call 999 or go to A&E if you have symptoms of DVT, such as pain and swelling, and feel short of breath or have chest pain; a clot that travels to the lungs (pulmonary embolism) is life-threatening. Do not drive yourself.", action: "emergency", source: NHS_DVT },
@@ -549,7 +550,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lung-breathlessness",
     label: "Lung cancer: breathlessness that is new, worse, or there at rest",
     cancerIds: ["lung-cancer", "nsclc", "sclc"],
-    concernIds: ["pleural-effusion", "anaemia", "cancer-related-fatigue"],
+    concernIds: ["pleural-effusion", "anaemia", "cancer-related-fatigue", "indwelling-pleural-catheter-drainage-at-home"],
     window: "Breathlessness in lung cancer has several separately treatable causes (a chest infection, anaemia, fluid around the lung, a partly blocked airway, a clot, inflammation after radiotherapy or immunotherapy), and they cannot be told apart at home.",
     flags: [
       { symptom: "Struggling to breathe, choking or gasping and unable to speak", threshold: "The NHS says to call 999 or go to A&E if you are struggling to breathe, if you are choking, gasping and unable to speak, or if you have pain in your chest or upper back. Do not drive yourself.", action: "emergency", source: NHS_LUNG_SYMPTOMS },
@@ -562,7 +563,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lung-pneumonitis",
     label: "Lung cancer: pneumonitis from immunotherapy, targeted drugs or radiotherapy",
     cancerIds: ["lung-cancer", "nsclc", "sclc"],
-    concernIds: ["radiation-pneumonitis", "irae"],
+    concernIds: ["radiation-pneumonitis", "irae", "irae-pneumonitis"],
     window: "Immunotherapy pneumonitis can start at any point during treatment and for months after the last dose; radiotherapy pneumonitis usually starts in the weeks after treatment, and a smaller number of people develop a later, longer-lasting form months or years on.",
     flags: [
       { symptom: "Breathlessness, a cough that does not go away, wheezing, or a fever over 37.5 C on immunotherapy", threshold: "Macmillan says this treatment can cause inflammation of the lungs (pneumonitis) and to contact the hospital straight away on the 24-hour number for breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C, during treatment or after it ends.", action: "call-now", source: MAC_PEMBRO },
@@ -575,7 +576,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lung-neutropenic-sepsis",
     label: "Lung cancer treatment: neutropenic sepsis",
     cancerIds: ["lung-cancer", "nsclc", "sclc"],
-    concernIds: ["neutropenia", "febrile-neutropenia"],
+    concernIds: ["neutropenia", "febrile-neutropenia", "febrile-neutropenia-first-hour"],
     window: "The risk is highest about 7 to 14 days after each dose of platinum chemotherapy, when the white cell count is at its lowest, but a fever at any point counts, and a chest infection in a lung already affected by cancer gets worse faster.",
     flags: [
       { symptom: "A temperature above 37.5 C, a temperature below 36 C, or feeling unwell with a normal temperature", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number if you have a temperature above 37.5 C, a temperature below 36 C, or you feel unwell even with a normal temperature; NICE CG151 defines neutropenic sepsis as a temperature higher than 38 C or any symptoms and signs of sepsis in a person having anticancer treatment.", action: "call-now", source: MAC_PEMBRO },
@@ -598,6 +599,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lung-svc-obstruction",
     label: "Lung cancer: superior vena cava obstruction (swelling of the face, neck and arms)",
     cancerIds: ["lung-cancer", "nsclc", "sclc"],
+    concernIds: ["superior-vena-cava-obstruction", "svc-obstruction"],
     window: "Most cases of superior vena cava obstruction are caused by lung cancer, and Macmillan says the symptoms can develop over a few days or over a few weeks, so a change over a week still counts as new.",
     flags: [
       { symptom: "Swelling of the face, neck, arms or hands, with breathlessness", threshold: "Macmillan says the most common symptoms are breathlessness because of swelling around the windpipe, headaches or a feeling of fullness in the head that gets worse leaning forward or bending over, facial swelling with changes to your complexion, changes in eyesight, a swollen neck, swollen arms and hands, visible swollen veins on the chest and dizziness, and that if you have any of these it is important to contact your cancer doctor or nurse straight away because it needs to be treated quickly.", action: "call-now", source: MAC_SVCO },
@@ -609,7 +611,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lung-spinal-cord-compression",
     label: "Lung cancer: spinal cord compression and spinal metastases",
     cancerIds: ["lung-cancer", "nsclc", "sclc"],
-    concernIds: ["bone-metastases"],
+    concernIds: ["bone-metastases", "metastatic-spinal-cord-compression-emergency"],
     window: "NICE NG234 treats new cord compression symptoms in anyone with a past or current diagnosis of cancer as an oncological emergency, and asks for advice within 24 hours for the pain pattern that suggests spinal metastases.",
     flags: [
       { symptom: "New weakness, numbness or altered sensation in the legs, difficulty walking, or bladder or bowel problems", threshold: "NICE NG234 says to immediately contact the metastatic spinal cord compression coordinator if a person with a past or current diagnosis of cancer presents with bladder or bowel dysfunction, gait disturbance or difficulty walking, limb weakness, neurological signs of spinal cord or cauda equina compression, numbness, paraesthesia or sensory loss, or radicular pain, and to treat this as an oncological emergency.", action: "emergency", source: NG234_MSCC },
@@ -621,7 +623,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "colorectal-bowel-obstruction",
     label: "Bowel cancer: a blocked bowel or a blocked stoma",
     cancerIds: ["colorectal"],
-    concernIds: ["stoma", "colectomy"],
+    concernIds: ["stoma", "colectomy", "malignant-bowel-obstruction"],
     window: "A tumour, scar tissue or food can block the bowel at any point, before or after surgery; NICE NG151 treats acute left-sided large bowel obstruction as an emergency to be relieved by stenting or surgery.",
     flags: [
       { symptom: "Nothing coming out of the stoma, with cramps, sickness or swelling around it", threshold: "The NHS says if less poo is coming out of your stoma than usual, or your stoma stops producing poo, you may have a bowel blockage; a blockage is serious because your bowel could burst, and you may need further surgery, so speak to your stoma nurse urgently if you have cramps, are feeling sick or notice swelling around the stoma.", action: "call-now", source: NHS_COLOSTOMY_COMPLICATIONS },
@@ -646,7 +648,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "colorectal-neutropenic-sepsis",
     label: "Bowel cancer chemotherapy: neutropenic sepsis",
     cancerIds: ["colorectal"],
-    concernIds: ["neutropenia", "febrile-neutropenia"],
+    concernIds: ["neutropenia", "febrile-neutropenia", "febrile-neutropenia-first-hour", "treatment-induced-diarrhoea-grading-and-management"],
     window: "The risk is highest about 7 to 14 days after each dose of FOLFOX, CAPOX, FOLFIRI or irinotecan, when the white cell count is at its lowest, but a fever at any point counts.",
     flags: [
       { symptom: "Fever, shivering, or feeling unwell with a normal temperature", threshold: "Macmillan says to contact the hospital straight away on the 24-hour number for a temperature outside the range your team gave you, for shivering, or for feeling unwell even with a normal temperature; NICE CG151 defines neutropenic sepsis as a temperature higher than 38 C or any symptoms and signs of sepsis in a person having anticancer treatment.", action: "call-now", source: NICE_CG151 },
@@ -685,7 +687,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "colorectal-oxaliplatin-egfr",
     label: "Bowel cancer: oxaliplatin and the EGFR antibodies",
     cancerIds: ["colorectal"],
-    concernIds: ["peripheral-neuropathy", "rash-skin-toxicity"],
+    concernIds: ["peripheral-neuropathy", "rash-skin-toxicity", "chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention", "egfr-inhibitor-rash-prophylaxis"],
     window: "Oxaliplatin's cold sensitivity is worst in the days after each dose; the acne-like rash from cetuximab or panitumumab is most likely in the first 2 or 3 weeks.",
     flags: [
       { symptom: "Difficulty swallowing or breathing in the cold after oxaliplatin", threshold: "Macmillan says that rarely oxaliplatin can cause a spasm in the throat area around the voicebox, causing difficulties with swallowing and breathing, during treatment or in the first few days after it, and that this may be worse in cold temperatures; difficulty breathing is a 999 call, and the team should be told either way because later doses may be given over 4 to 6 hours.", action: "emergency", source: MAC_OXALIPLATIN },
@@ -698,7 +700,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "prostate-cord-compression",
     label: "Prostate cancer: spinal cord compression, the emergency men are not warned about",
     cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"],
-    concernIds: ["bone-metastases"],
+    concernIds: ["bone-metastases", "metastatic-spinal-cord-compression-emergency"],
     window: "About 4 in 100 people with prostate cancer develop metastatic spinal cord compression, and the risk is highest once the cancer has reached the spine. Treated quickly the damage is usually recoverable; left for days it may not be.",
     flags: [
       { symptom: "New weakness or numbness in the legs, unsteadiness, or loss of control of the bladder or bowel", threshold: "NICE NG234 says to immediately contact the metastatic spinal cord compression coordinator if a person with a past or current diagnosis of cancer presents with bladder or bowel dysfunction, gait disturbance or difficulty walking, limb weakness, neurological signs of spinal cord or cauda equina compression, numbness, paraesthesia or sensory loss, or radicular pain, and to treat this as an oncological emergency.", action: "emergency", source: NG234_MSCC },
@@ -711,7 +713,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "prostate-urinary-retention",
     label: "Prostate cancer: not being able to pass urine, and other urgent bladder problems",
     cancerIds: ["prostate", "prostate-low-risk", "prostate-intermediate-risk", "prostate-high-risk"],
-    concernIds: ["brachytherapy", "robotic-surgery"],
+    concernIds: ["brachytherapy", "robotic-surgery", "prostate-biopsy-route-and-antibiotic-prophylaxis"],
     window: "Acute retention is commonest in the days and weeks after brachytherapy, radiotherapy or a focal treatment, when the prostate swells, and after surgery if the urethra narrows with scarring.",
     flags: [
       { symptom: "Suddenly and painfully unable to pass urine at all", threshold: "Prostate Cancer UK says acute urine retention is when you suddenly and painfully cannot urinate, that it needs treating straight away, and to call your doctor or nurse or go to your nearest accident and emergency department, where they may need to drain the bladder with a catheter. Make sure they know what prostate cancer treatment you have had.", action: "emergency", source: PCUK_URINARY },
@@ -724,7 +726,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "prostate-bone-pain",
     label: "Prostate cancer: bone pain and fractures",
     cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"],
-    concernIds: ["bone-metastases", "zoledronic-acid", "denosumab"],
+    concernIds: ["bone-metastases", "zoledronic-acid", "denosumab", "metastatic-spinal-cord-compression-emergency"],
     window: "Bone is where prostate cancer goes first and most often. Pain that is new, worsening, or waking you at night is the pattern that matters, not the ache you have had for years.",
     flags: [
       { symptom: "Bone pain that your usual painkillers are not controlling", threshold: "NICE NG131 says to consider oral or intravenous bisphosphonates for pain relief for people with hormone-relapsed metastatic prostate cancer when other treatments, including analgesics and palliative radiotherapy, have not given satisfactory pain relief, so uncontrolled bone pain is a reason to ring the team rather than to take more tablets.", action: "call-today", source: NG131_PROSTATE },
@@ -736,7 +738,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "prostate-hormone-therapy",
     label: "Prostate cancer: hormone therapy effects that need action rather than endurance",
     cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc", "prostate-nmcrpc"],
-    concernIds: ["cancer-related-fatigue", "bone-metastases"],
+    concernIds: ["cancer-related-fatigue", "bone-metastases", "hot-flushes-on-endocrine-therapy-non-hormonal-options", "cancer-related-fatigue-screening-and-management"],
     window: "Most of these build over months rather than arriving suddenly, which is why they get tolerated. Each of them has something NICE NG131 says to offer for it.",
     flags: [
       { symptom: "Chest pain, breathlessness, or the signs of a stroke while on hormone therapy", threshold: "Prostate Cancer UK says evidence suggests hormone therapy might increase the chance of developing heart disease, stroke and type-2 diabetes; in 73,196 men, GnRH agonist use carried an adjusted hazard ratio of 1.16 for coronary heart disease and 1.16 for sudden cardiac death. Chest pain or stroke symptoms are 999 whatever the cause.", action: "emergency", source: PCUK_HORMONE },
@@ -762,7 +764,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "prostate-docetaxel-sepsis",
     label: "Prostate cancer chemotherapy: neutropenic sepsis on docetaxel",
     cancerIds: ["prostate", "prostate-mhspc", "prostate-mcrpc"],
-    concernIds: ["neutropenia", "febrile-neutropenia"],
+    concernIds: ["neutropenia", "febrile-neutropenia", "febrile-neutropenia-first-hour", "chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention"],
     window: "The risk is highest about 7 to 14 days after each three-weekly dose, when the white cell count is at its lowest, but a fever at any point counts. NICE NG131 reports febrile neutropenia in 15 out of 100 men given docetaxel for high-risk non-metastatic disease.",
     flags: [
       { symptom: "Fever, shivering, or feeling unwell with a normal temperature", threshold: "NICE CG151 defines neutropenic sepsis as a temperature higher than 38 C or any symptoms and signs of sepsis in a person having anticancer treatment; NICE NG131 reports that 15 out of 100 people who took docetaxel developed febrile neutropenia and 1 out of 100 died because of infections that, in the opinion of the investigators, they might not have developed without it.", action: "call-now", source: NICE_CG151 },
@@ -778,7 +780,7 @@ export const redFlagSets: RedFlagSet[] = [
     // Triple-negative has its own sepsis card naming the drugs it is given, so this one stops short of that page:
     // one page, one sepsis card. The other three breast sets have no subtype equivalent and reach every branch.
     cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
-    concernIds: ["febrile-neutropenia", "neutropenic-sepsis-breast-chemotherapy", "seroma-after-breast-surgery"],
+    concernIds: ["febrile-neutropenia", "neutropenic-sepsis-breast-chemotherapy", "seroma-after-breast-surgery", "febrile-neutropenia-first-hour", "cancer-associated-vte-treatment"],
     window: "Chemotherapy for any type of breast cancer lowers the white cell count, and the count is usually at its lowest 7 to 14 days after each dose. A breast or chest wall wound is the other route in, in the first weeks after an operation.",
     flags: [
       { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin, lips or tongue; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A and E, and do not drive yourself, ask someone to drive you or call 999.", action: "emergency", source: NHS_SEPSIS },
@@ -791,7 +793,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "breast-cord-compression",
     label: "Breast cancer: spinal cord compression, the emergency nobody mentions at diagnosis",
     cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
-    concernIds: ["metastatic-spinal-cord-compression", "bone-metastases"],
+    concernIds: ["metastatic-spinal-cord-compression", "bone-metastases", "metastatic-spinal-cord-compression-emergency"],
     window: "Bone is where breast cancer goes first and most often, and a deposit in the spine can press on the cord. Treated within hours the damage is usually recoverable; left for days it may not be. This applies at any time after a diagnosis, including years later.",
     flags: [
       { symptom: "New weakness or numbness in the legs, unsteadiness, or loss of control of the bladder or bowel", threshold: "NICE NG234 says to immediately contact the metastatic spinal cord compression coordinator if a person with a past or current diagnosis of cancer presents with bladder or bowel dysfunction, gait disturbance or difficulty walking, limb weakness, neurological signs of spinal cord or cauda equina compression, numbness, paraesthesia or sensory loss, or radicular pain, and to treat this as an oncological emergency. If you cannot reach anyone, go to A and E and say you have breast cancer and symptoms of spinal cord compression.", action: "emergency", source: NG234_MSCC },
@@ -803,7 +805,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "breast-lymphoedema-cellulitis",
     label: "Breast cancer: a hot, red or suddenly swollen arm after lymph node surgery or radiotherapy",
     cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
-    concernIds: ["lymphoedema-after-breast-cancer", "lymphoedema-decongestive-therapy", "lymphadenectomy"],
+    concernIds: ["lymphoedema-after-breast-cancer", "lymphoedema-decongestive-therapy", "lymphadenectomy", "lymphoedema-risk-reduction-surveillance-and-treatment"],
     window: "An arm whose lymph nodes have been removed or irradiated drains badly and fights infection badly, so cellulitis in it can move fast. The risk is lifelong, and how long ago the surgery was does not make it less urgent.",
     flags: [
       { symptom: "Cellulitis with a very high temperature, fast heartbeat, confusion, dizziness or purple patches on the skin", threshold: "The NHS says to call 999 or go to A and E if you have cellulitis with a very high temperature or you feel hot, cold or shivery, a fast heartbeat or fast breathing, purple patches on the skin which may be less obvious on brown or black skin, feeling dizzy or faint, confusion or disorientation, cold, clammy or pale skin, or unresponsiveness. These are symptoms of serious complications, which can be life threatening.", action: "emergency", source: NHS_CELLULITIS },
@@ -816,7 +818,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "breast-recurrence-signs",
     label: "Breast cancer: the symptoms that are worth a phone call rather than a wait",
     cancerIds: ["breast-cancer", "breast-hr-positive", "breast-her2-positive", "tnbc", "invasive-lobular-carcinoma", "inflammatory-breast-cancer", "male-breast-cancer", "ductal-carcinoma-in-situ"],
-    concernIds: ["brain-metastases", "bone-metastases", "survivorship-care-plan"],
+    concernIds: ["brain-metastases", "bone-metastases", "survivorship-care-plan", "breast-cancer-follow-up-after-treatment"],
     window: "Breast Cancer Now's rule is easier to hold than a list: talk to your GP or breast care nurse about any symptom that is new, does not have an obvious cause, and does not go away. Most turn out to be something else. Waiting months in order not to make a fuss is the thing to avoid.",
     flags: [
       { symptom: "A seizure, sudden severe headache, new weakness or numbness down one side, or new confusion", threshold: "Breast Cancer Now lists headache, sickness and vomiting especially on waking, weakness or numbness down one side of the body, unsteadiness or loss of balance, seizures, difficulty with speech, vision problems, and changes in behaviour, mood or memory among the signs that breast cancer may have spread to the brain. A seizure, a sudden severe headache or new one-sided weakness is 999 whatever the cause.", action: "emergency", source: BCN_SECONDARY },
@@ -830,7 +832,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "skin-surgery-wound",
     label: "Skin cancer: the wound, the graft and the flap in the first fortnight",
     cancerIds: ["skin-cancer", "basal-cell-carcinoma", "cutaneous-scc", "bowens-disease"],
-    concernIds: ["skin-graft-and-flap-reconstruction", "mohs-surgery", "wide-local-excision", "facial-scar-after-skin-cancer", "curettage-and-cautery"],
+    concernIds: ["skin-graft-and-flap-reconstruction", "mohs-surgery", "wide-local-excision", "facial-scar-after-skin-cancer", "curettage-and-cautery", "surgical-site-infection-prevention"],
     window: "The first two weeks after the operation, while the wound is closing and a graft or flap is taking its blood supply. Bleeding for a few days after Mohs surgery is normal and usually minimal; what follows is what is not.",
     flags: [
       { symptom: "Signs of sepsis", threshold: "Breathing very fast; confused, slurred speech or not making sense; blue, pale or blotchy skin, lips or tongue; a very high or very low temperature, feeling hot or cold to the touch, or shivery; a rash that does not fade when pressed: the NHS says call 999 or go to A and E, and do not drive yourself.", action: "emergency", source: NHS_SEPSIS },
@@ -884,7 +886,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lymphoma-neutropenic-sepsis",
     label: "Lymphoma: infection and neutropenic sepsis, including the kind that comes without a fever",
     cancerIds: ["non-hodgkin-lymphoma", "dlbcl", "primary-mediastinal-b-cell-lymphoma", "burkitt-lymphoma", "primary-cns-lymphoma", "follicular-lymphoma", "marginal-zone-lymphoma", "malt-lymphoma", "splenic-marginal-zone-lymphoma", "nodal-marginal-zone-lymphoma", "mantle-cell-lymphoma", "waldenstrom", "peripheral-t-cell-lymphoma", "angioimmunoblastic-t-cell-lymphoma", "cutaneous-t-cell-lymphoma", "sezary-syndrome", "hodgkin-lymphoma", "early-stage-classical-hodgkin-lymphoma", "advanced-stage-classical-hodgkin-lymphoma", "relapsed-refractory-hodgkin-lymphoma", "nodular-lymphocyte-predominant-hodgkin-lymphoma"],
-    concernIds: ["febrile-neutropenia", "neutropenia", "central-venous-access", "hypogammaglobulinaemia"],
+    concernIds: ["febrile-neutropenia", "neutropenia", "central-venous-access", "hypogammaglobulinaemia", "febrile-neutropenia-first-hour"],
     window: "Highest about 7 to 14 days after each dose of chemotherapy, when the white cell count is at its lowest, but a fever at any point counts. Steroids are part of almost every lymphoma regimen and can mask a fever, so the presentation without one is not rare here. After treatment that removes B cells the risk continues for months or years.",
     flags: [
       { symptom: "Temperature of 38 C or higher", threshold: "Lymphoma Action says a common sign of neutropenic sepsis is a body temperature higher than 38 C, that this is known as febrile neutropenia, and to seek medical attention straight away. NICE CG151 asks for antibiotics within an hour of arrival, and treated that fast most people recover: that is why the rule is to ring rather than wait and see.", action: "call-now", source: NICE_CG151 },
@@ -898,7 +900,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lymphoma-tumour-lysis",
     label: "Lymphoma: tumour lysis syndrome in the first days of treating bulky or fast-growing disease",
     cancerIds: ["non-hodgkin-lymphoma", "dlbcl", "primary-mediastinal-b-cell-lymphoma", "burkitt-lymphoma", "mantle-cell-lymphoma", "peripheral-t-cell-lymphoma", "angioimmunoblastic-t-cell-lymphoma", "primary-cns-lymphoma"],
-    concernIds: ["tumor-lysis-syndrome", "lymphoma-tx-tumour-lysis"],
+    concernIds: ["tumor-lysis-syndrome", "lymphoma-tx-tumour-lysis", "tumour-lysis-syndrome-prevention-and-treatment"],
     window: "The first 12 to 72 hours after treatment starts, and occasionally before it, when a large or fast-growing lymphoma breaks down faster than the kidneys can clear what comes out of it. The risk is concentrated in Burkitt lymphoma, the high-grade B-cell lymphomas and large or rapidly growing diffuse large B-cell lymphoma, which is why a pre-phase of steroid or low-dose chemotherapy, fluids into a vein, frequent blood tests and a drug to lower uric acid come first.",
     flags: [
       { symptom: "Passing much less urine than usual, or none", threshold: "The British Committee for Standards in Haematology guideline on tumour lysis syndrome is built around protecting the kidneys with fluids and monitoring in the first days of treatment. A sharp fall in how much urine you pass is the sign that this is going wrong, and it is a reason to ring the 24-hour number in the night rather than wait for the morning.", action: "call-now", source: BSH_TLS_RF },
@@ -911,7 +913,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lymphoma-crs-icans",
     label: "After engineered T cells or a bispecific antibody: cytokine release syndrome and neurotoxicity, and what a relative should watch for",
     cancerIds: ["non-hodgkin-lymphoma", "dlbcl", "primary-mediastinal-b-cell-lymphoma", "follicular-lymphoma", "mantle-cell-lymphoma", "marginal-zone-lymphoma"],
-    concernIds: ["crs", "icans", "lymphoma-tx-crs-icans", "lymphoma-tx-car-t-pathway", "lymphoma-tx-bispecific-step-up"],
+    concernIds: ["crs", "icans", "lymphoma-tx-crs-icans", "lymphoma-tx-car-t-pathway", "lymphoma-tx-bispecific-step-up", "crs-grading-and-management", "icans-grading-and-management"],
     window: "Cytokine release syndrome most commonly develops within 10 days of an engineered T-cell infusion; neurotoxicity generally within 28 days and often within a few days. The step-up doses of a bispecific antibody are given in hospital for the same reason. This is why Lymphoma Action says to stay within about an hour or two of the centre for four weeks and to have someone with you at all times.",
     flags: [
       { symptom: "Fever, chills, a racing heart, feeling faint or short of breath", threshold: "Lymphoma Action says almost everyone treated with engineered T cells has some level of cytokine release syndrome, most commonly within 10 days of the infusion, and lists fever and chills, a rapid heart rate, low blood pressure, low oxygen, headache, and feeling or being sick. Most cases are mild and easily treated, and they are treated faster the earlier the team hears.", action: "call-now", source: LA_CAR_T_RF },
@@ -925,7 +927,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lymphoma-cord-compression",
     label: "Lymphoma pressing on the spinal cord: the hours matter",
     cancerIds: ["non-hodgkin-lymphoma", "dlbcl", "primary-mediastinal-b-cell-lymphoma", "burkitt-lymphoma", "primary-cns-lymphoma", "follicular-lymphoma", "marginal-zone-lymphoma", "malt-lymphoma", "splenic-marginal-zone-lymphoma", "nodal-marginal-zone-lymphoma", "mantle-cell-lymphoma", "waldenstrom", "peripheral-t-cell-lymphoma", "angioimmunoblastic-t-cell-lymphoma", "cutaneous-t-cell-lymphoma", "sezary-syndrome", "hodgkin-lymphoma", "early-stage-classical-hodgkin-lymphoma", "advanced-stage-classical-hodgkin-lymphoma", "relapsed-refractory-hodgkin-lymphoma", "nodular-lymphocyte-predominant-hodgkin-lymphoma"],
-    concernIds: ["metastatic-spinal-cord-compression"],
+    concernIds: ["metastatic-spinal-cord-compression", "metastatic-spinal-cord-compression-emergency"],
     window: "NICE NG234 treats new cord compression symptoms in anyone with a past or current diagnosis of cancer as an oncological emergency, and asks for advice within 24 hours for the pain pattern that suggests spinal metastases. Treated quickly the damage is usually recoverable; left for days it may not be. This applies at any time after a diagnosis, including years later.",
     flags: [
       { symptom: "Not being able to pass urine, or losing control of your bladder or bowel", threshold: "Macmillan lists difficulty passing urine, loss of bladder or bowel control and constipation among the signs of spinal cord compression and says to contact the hospital straight away. If you cannot reach anyone, go to A and E and say you have lymphoma and symptoms of spinal cord compression.", action: "emergency", source: MAC_MSCC_RF },
@@ -938,7 +940,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lymphoma-svc-obstruction",
     label: "Lymphoma in the chest: swelling of the face, neck and arms (superior vena cava obstruction)",
     cancerIds: ["non-hodgkin-lymphoma", "dlbcl", "primary-mediastinal-b-cell-lymphoma", "hodgkin-lymphoma", "early-stage-classical-hodgkin-lymphoma", "advanced-stage-classical-hodgkin-lymphoma", "relapsed-refractory-hodgkin-lymphoma"],
-    concernIds: ["superior-vena-cava-obstruction"],
+    concernIds: ["superior-vena-cava-obstruction", "svc-obstruction"],
     window: "Macmillan says the symptoms can develop over a few days or over a few weeks, so a change over a week still counts as new. It happens when a mass in the chest presses on the large vein returning blood from the head and arms, and a large mass in the middle of the chest is a defining feature of primary mediastinal large B-cell lymphoma and common in Hodgkin lymphoma.",
     flags: [
       { symptom: "Swelling of the face, neck, arms or hands", threshold: "Macmillan describes swelling of the face, neck, arms and hands, with veins on the chest and neck that look more prominent than usual, as the picture of superior vena cava obstruction, and says to contact the team straight away.", action: "call-now", source: MAC_SVCO },
@@ -951,7 +953,7 @@ export const redFlagSets: RedFlagSet[] = [
     id: "lymphoma-hepatitis-b-reactivation",
     label: "Hepatitis B waking up during antibody treatment for a B-cell lymphoma",
     cancerIds: ["non-hodgkin-lymphoma", "dlbcl", "primary-mediastinal-b-cell-lymphoma", "burkitt-lymphoma", "follicular-lymphoma", "marginal-zone-lymphoma", "malt-lymphoma", "splenic-marginal-zone-lymphoma", "nodal-marginal-zone-lymphoma", "mantle-cell-lymphoma", "waldenstrom", "primary-cns-lymphoma"],
-    concernIds: ["lymphoma-tx-hepatitis-b-reactivation"],
+    concernIds: ["lymphoma-tx-hepatitis-b-reactivation", "hepatitis-b-screening-and-reactivation-prophylaxis"],
     window: "Antibodies that remove B cells can let a hepatitis B infection the person had years ago become active again, during treatment or in the months after it. This is why hepatitis B is on the list of blood tests before treatment, and why an antiviral tablet is prescribed alongside for anyone who tests positive.",
     flags: [
       { symptom: "Yellow skin or eyes, dark urine or pale stools", threshold: "Yellowing during or after antibody treatment for a B-cell lymphoma is a reason to be seen the same day and to have liver blood tests, not to wait for the next cycle.", action: "call-now", source: LA_DLBCL_RF },

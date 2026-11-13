@@ -270,6 +270,7 @@ export const EN = {
   "kind.paper.label": "Key paper", "kind.paper.plural": "key papers",
   "kind.bottleneck.label": "Bottleneck", "kind.bottleneck.plural": "bottlenecks", "kind.bottleneck.title": "Bottlenecks of the war on cancer",
   "kind.biomarker.label": "Biomarker", "kind.biomarker.plural": "biomarkers", "kind.biomarker.title": "Biomarkers & readouts",
+  "kind.protocol.label": "Protocol", "kind.protocol.plural": "protocols", "kind.protocol.title": "Care protocols",
   "kind.year.label": "Year", "kind.year.plural": "years", "kind.year.title": "Oncology year by year",
 
   // ---- headings, field labels, facet and column labels (looked up by English text) ----
@@ -342,6 +343,7 @@ export const EN = {
   "l.Payload": "Payload",
   "l.Linker": "Linker",
   "l.Where it is approved": "Where it is approved",
+  "l.Is this drug available in my country?": "Is this drug available in my country?",
   "l.Approvals": "Approvals",
   "l.Region": "Region",
   "l.Year": "Year",

@@ -5,10 +5,12 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { CountryRanking, type CountryRow } from "@/components/CountryRanking";
 import { countryExtras } from "@/data/country-extras";
 import { routeExists } from "@/lib/sitemap-urls";
-import { GLOBOCAN } from "@/lib/globocan";
+import { GLOBOCAN, CONTINENT } from "@/lib/globocan";
+import { countryIndex } from "@/lib/country-pages";
+import { CountryDirectory, type DirectoryRow } from "@/components/CountryDirectory";
 import data from "../../../public/openalex/countries.json";
 
-export const metadata: Metadata = pageMeta({ title: "Country research rankings", description: "Countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
+export const metadata: Metadata = pageMeta({ title: "Country research rankings", description: "A page for every country in GLOBOCAN, with the deep dives marked, and countries ranked by oncology research output (OpenAlex), growth, highly cited share, open access, registered trials, and a disclosed composite score, with GLOBOCAN burden and national funders.", path: "/countries/" });
 
 type Raw = { built: string; years: number[]; source: string; countries: Record<string, { name: string; works: Record<string, number>; total: number; citedHigh: number; oa: number; trials?: number }> };
 
@@ -22,12 +24,22 @@ export default function Countries() {
   const rows: CountryRow[] = Object.entries(raw.countries).map(([code, c]) => ({ code, ...c, ...(countryExtras[code] ?? {}), name: countryExtras[code]?.name ?? c.name, institutions: instByCountry.get(code) ?? 0 }));
   const y1 = raw.years[raw.years.length - 1];
   const top = [...rows].sort((a, b) => (b.works[String(y1)] ?? 0) - (a.works[String(y1)] ?? 0)).slice(0, 3);
+  // Every country with a page: the deep dives and the automatic pages (src/app/countries/[iso]/page.tsx).
+  const index = countryIndex();
+  const directory: DirectoryRow[] = index.map((c) => ({ c: c.iso2, n: c.name, r: c.region, d: c.deepDive, ...(c.parts ? { p: c.parts.map((x) => [x.name, x.route] as [string, string]) } : {}) }));
+  const directoryDives = index.filter((c) => c.deepDive).length;
 
   return (
     <>
       <PageHeader kicker={<GroupKicker id="who" />} title="Country research rankings"
         lede={`Oncology research output by country from OpenAlex (${raw.years[0]} to ${y1}), with growth, highly cited share, open access, ClinicalTrials.gov sites, cancer burden, and the national funder. Ranked by a disclosed composite score. In ${y1} the leaders by volume were ${top.map((t) => t.name).join(", ")}.`} />
       <Container className="pb-16">
+        <section aria-labelledby="every-country" className="mb-12">
+          <h2 id="every-country" className="text-lg font-semibold mb-1">Every country</h2>
+          <p className="text-sm text-muted mb-4 max-w-3xl">{index.length} countries and territories have a page ({index.flatMap((c) => c.parts ?? []).map((x) => x.name).join(", ")} are on the France page, as IARC reports them separately): {directoryDives} deep dives written from each country&apos;s own sources, and {index.length - directoryDives} pages assembled from GLOBOCAN {GLOBOCAN.year}, the trials, institutions, companies and people OnCo records there, and a list of what it does not yet hold.</p>
+          <CountryDirectory rows={directory} regions={Object.values(CONTINENT)} />
+        </section>
+        <h2 className="text-lg font-semibold mb-3">Research ranking</h2>
         <CountryRanking rows={rows} years={raw.years} deepDives={deepDives} globocanYear={GLOBOCAN.year} />
 
         <section className="mt-12 grid gap-6 lg:grid-cols-2 text-[15px] leading-relaxed max-w-6xl">

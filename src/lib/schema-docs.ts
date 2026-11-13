@@ -10,12 +10,12 @@ import { join } from "node:path";
 import { z } from "zod";
 import { graph } from "./graph";
 import {
-  BiomarkerSchema, BottleneckSchema, CancerSchema, CollectionSchema, CompanySchema, DrugSchema, IdeaSchema, InstitutionSchema, JournalSchema, KIND_META, KINDS, PairingSchema, PaperSchema, PathwaySchema, PersonSchema, RoadmapSchema, SectionSchema, STATUSES, TargetSchema, TechnologySchema, TermSchema, TrialSchema, YearSchema,
+  BiomarkerSchema, BottleneckSchema, CancerSchema, CollectionSchema, CompanySchema, DrugSchema, IdeaSchema, InstitutionSchema, JournalSchema, KIND_META, KINDS, PairingSchema, PaperSchema, PathwaySchema, PersonSchema, RoadmapSchema, SectionSchema, STATUSES, TargetSchema, TechnologySchema, TermSchema, TrialSchema, YearSchema, ProtocolSchema,
   type Entity, type Kind,
 } from "./schema";
 
 const SCHEMAS: Record<Kind, z.ZodType> = {
-  cancer: CancerSchema, section: SectionSchema, technology: TechnologySchema, target: TargetSchema, drug: DrugSchema, company: CompanySchema, institution: InstitutionSchema, pathway: PathwaySchema, term: TermSchema, trial: TrialSchema, pairing: PairingSchema, roadmap: RoadmapSchema, idea: IdeaSchema, collection: CollectionSchema, person: PersonSchema, bottleneck: BottleneckSchema, paper: PaperSchema, journal: JournalSchema, biomarker: BiomarkerSchema, year: YearSchema,
+  cancer: CancerSchema, section: SectionSchema, technology: TechnologySchema, target: TargetSchema, drug: DrugSchema, company: CompanySchema, institution: InstitutionSchema, pathway: PathwaySchema, term: TermSchema, trial: TrialSchema, pairing: PairingSchema, roadmap: RoadmapSchema, idea: IdeaSchema, collection: CollectionSchema, person: PersonSchema, bottleneck: BottleneckSchema, paper: PaperSchema, journal: JournalSchema, biomarker: BiomarkerSchema, year: YearSchema, protocol: ProtocolSchema,
 };
 
 export type FieldDoc = { name: string; type: string; required: boolean; default?: string; description?: string; /** Nested fields for object or array-of-object types. */ children?: FieldDoc[] };

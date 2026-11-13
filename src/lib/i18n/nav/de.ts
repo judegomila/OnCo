@@ -45,6 +45,7 @@ export const navDe: NavDict = {
   "/machines/": ["Geräte", "Scanner, Beschleuniger, Roboter und Ablationsgeräte im Kampf gegen Krebs: was jedes leistet, Vorteile und Grenzen, wer es baut und welche Zentren die seltenen betreiben."],
   "/open-questions/": ["Offene Fragen", "Ungelöste Fragen je Zielstruktur und Technologie: warum offen, was sie beantworten würde, wer handelt."],
   "/preclinical-models/": ["Präklinische Modelle", "Zelllinien mit Cellosaurus- und DepMap-IDs, PDX-Banken, Mausmodelle und Organoide je Krebsart und Zielstruktur."],
+  "/protocols/": ["Pflegeprotokolle", "Wie Versorgung Schritt für Schritt abläuft, vom Anstechen eines Ports bis zum Fieber unter Chemotherapie: jeder Schritt mit Begründung und Quelle, die am besten belegte Version neben den Varianten."],
   "/regimens/": ["Schemata", "Benannte Schemata mit Dosen, Tagen, Zyklen, Emetogenität und G-CSF-Bedarf; Kalenderstreifen je Schema."],
   "/sequencing/": ["Therapielinien", "Je Krebsart der Therapiestandard nach Linie und Biomarker-Subgruppe, mit Reihenfolgen und Kombinationen, bei denen Vorsicht gilt."],
   "/staging/": ["Staging und Risikoscores", "TNM, FIGO, Lugano, BCLC, R-ISS und interaktive Rechner für IPI, IMDC, CLL-IPI, Child-Pugh, Khorana."],

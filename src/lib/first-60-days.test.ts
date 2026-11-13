@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { graph } from "./graph";
 import { buildGuide, buildSheet, settingRank, type Guide } from "./first-60-days";
 import { CancerSchema, type Cancer } from "./schema";
+import { FIRST_60_DAYS_CHECKLISTS } from "@/data/first-60-days-checklists";
 
 const g = graph();
 const must = (id: string): Cancer => { const c = g.must(id); if (c.kind !== "cancer") throw new Error(`${id} is not a cancer`); return c; };
@@ -61,6 +62,16 @@ describe("first 60 days guide", () => {
     }
     expect(buildGuide(must("nsclc"), g).checklist).toBeDefined();
     expect(buildGuide(must("glioblastoma"), g).checklist).toBeUndefined();
+  });
+
+  it("links the care protocol an item is about, and every id it names is a protocol", () => {
+    const bad = Object.entries(FIRST_60_DAYS_CHECKLISTS).flatMap(([cancer, items]) => items.flatMap((it) => (it.protocols ?? []).filter((id) => g.get(id)?.kind !== "protocol").map((id) => `${cancer}: "${it.item.slice(0, 40)}" names ${id}`)));
+    expect(bad).toEqual([]);
+    // The owner's example: port care is linked where the checklist asks about a port or a PICC line.
+    const port = Object.values(FIRST_60_DAYS_CHECKLISTS).flat().find((it) => /\bport\b/i.test(it.item) && /\bPICC\b/.test(it.item));
+    expect(port?.protocols).toContain("implanted-port-access-and-care");
+    const tnbc = buildGuide(must("tnbc"), g).checklist!.items;
+    expect(tnbc.find((it) => /scalp cooling/i.test(it.item))?.protocolLinks.map((p) => p.route)).toContain("/protocols/scalp-cooling-during-chemotherapy/");
   });
 
   it("omits every data-driven section for a record with no optional fields", () => {

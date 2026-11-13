@@ -15,6 +15,7 @@ import { MACHINE } from "../src/lib/seo";
 import { productLabel } from "../src/lib/product-class";
 import { paragraphs } from "../src/lib/text";
 import { sectionsContextLines } from "../src/lib/record-sections";
+import { countryIndex } from "../src/lib/country-pages";
 
 const SITE = "https://onco.cc";
 const g = graph();
@@ -147,6 +148,12 @@ const llms: string[] = [
 ];
 for (const grp of NAV_GROUPS) {
   llms.push(`## ${grp.label}`, "", ...grp.items.filter((it) => !it.href.startsWith("http")).map((it) => `- [${it.label}](${SITE}${it.href}): ${it.blurb}`), "");
+}
+// Countries: one line, not one per country; the deep dives are in the navigation above and the list is a JSON file.
+{
+  const countries = countryIndex();
+  const dives = countries.filter((c) => c.deepDive).length;
+  llms.push("## Countries", "", `- [Every country](${SITE}/countries/): ${countries.length} countries and territories have a page at /countries/<iso2>/, ${dives} of them hand-written deep dives (marked in countries.json) and ${countries.length - dives} assembled from GLOBOCAN estimates, the trials with a site there and the institutions, companies and people in OnCo, each stating what OnCo does not yet hold. The list with codes and routes is [countries.json](${SITE}/api/v1/countries.json); an automatic page's data is /api/v1/countries/<iso2>.json`, "");
 }
 llms.push("## Optional", "", `- [About and methodology](${SITE}/about/): rules for facts, ranking formulas, licence`, `- [Open API](${SITE}/api/): the corpus as JSON, with the endpoint list`, `- [Build on OnCo](${SITE}/build/): recipes, types, embeddable cards, the MCP server`, `- [Corrections](${SITE}/corrections/): every factual correction and how it was found`, `- [GitHub](${REPO}): edit any record with a pull request`, "");
 writeFileSync(join(process.cwd(), "public", "llms.txt"), llms.join("\n"));

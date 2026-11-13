@@ -239,6 +239,7 @@ export const ar: UiDict = {
   "kind.paper.label": "ورقة رئيسية", "kind.paper.plural": "أوراق رئيسية",
   "kind.bottleneck.label": "عائق", "kind.bottleneck.plural": "عوائق", "kind.bottleneck.title": "عوائق الحرب على السرطان",
   "kind.biomarker.label": "واسم حيوي", "kind.biomarker.plural": "الواسمات الحيوية", "kind.biomarker.title": "الواسمات الحيوية والقراءات",
+  "kind.protocol.label": "بروتوكول رعاية", "kind.protocol.plural": "بروتوكولات الرعاية", "kind.protocol.title": "بروتوكولات الرعاية",
   "kind.year.label": "سنة", "kind.year.plural": "السنوات", "kind.year.title": "علم الأورام سنة بسنة",
 
   "l.Summary": "الملخص",
@@ -310,6 +311,7 @@ export const ar: UiDict = {
   "l.Payload": "الحمولة",
   "l.Linker": "الرابط",
   "l.Where it is approved": "أين هو معتمد",
+  "l.Is this drug available in my country?": "هل هذا الدواء متاح في بلدي؟",
   "l.Approvals": "الموافقات",
   "l.Region": "المنطقة",
   "l.Year": "السنة",

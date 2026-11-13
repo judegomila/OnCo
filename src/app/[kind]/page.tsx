@@ -16,10 +16,11 @@ import { kindTitle, pageMeta } from "@/lib/seo";
 import { KindName, T } from "@/components/T";
 import { RankGlyph } from "@/components/RankGlyph";
 import { cap } from "@/lib/kind-browser";
-import { isPagedKind, kindBrowser, pageKindRows } from "@/lib/tables/kinds";
-import { KIND_PAGE } from "@/lib/static-tables";
+import { isPagedKind, kindBrowser, kindPageSize, pageKindRows } from "@/lib/tables/kinds";
 import { MyCancerPin, MyCancerTrialsFilter } from "@/components/MyCancer";
 import { myCancerTiles } from "@/lib/my-cancer-list";
+import { PROTOCOL_DOMAINS, PROTOCOL_DOMAIN_LABEL } from "@/lib/kinds";
+import { protocolDomainHref } from "@/components/ProtocolDetail";
 
 const ROUTE_TO_KIND: Record<string, Kind> = Object.fromEntries(KINDS.map((k) => [KIND_META[k].route, k])) as Record<string, Kind>;
 
@@ -44,7 +45,7 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
   const meta = KIND_META[k];
   const title = k === "section" ? "Fronts of the war on cancer" : k === "term" ? "Glossary" : k === "bottleneck" ? "Bottlenecks of the war on cancer" : (meta.title ?? cap(meta.plural));
   // Rows with glossary marks, in the table's default order (src/lib/tables/kinds.ts). A paged kind carries its first
-  // KIND_PAGE rows and the whole-table facet counts; the rest is /api/v1/tables/kind-<route>.json, fetched on demand.
+  // kindPageSize(k) rows and the whole-table facet counts; the rest is /api/v1/tables/kind-<route>.json, fetched on demand.
   const built = kindBrowser(k);
   const { facets, columns, hideStatus, hideTldr, defaultSort } = built;
   const paged = pageKindRows(k, built.rows);
@@ -67,11 +68,12 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
         {k === "bottleneck" && <BottlenecksPipeline />}
         {k === "cancer" && <CancersGrid />}
         {k === "term" && <GlossaryCategories />}
+        {k === "protocol" && <ProtocolDomains />}
         <EntityBrowser rows={paged.rows} more={paged.more} counts={paged.more ? built.counts : undefined} facets={facets} columns={columns} noun={meta.plural} hideStatus={hideStatus} hideTldr={hideTldr} defaultSort={defaultSort} nameKind={k} />
         {isPagedKind(k) && (
           // The whole set for crawlers and agents without the table's fetch: every record also has its own page, listed in the sitemap.
           <p className="text-xs text-muted mt-3" data-kind-export>
-            The table above loads {Math.min(KIND_PAGE, total)} of {total.toLocaleString("en-GB")} {meta.plural} first and fetches the rest as you scroll, search or filter.{" "}
+            The table above loads {Math.min(kindPageSize(k), total)} of {total.toLocaleString("en-GB")} {meta.plural} first and fetches the rest as you scroll, search or filter.{" "}
             <a href={`/api/v1/${encodeURIComponent(meta.plural)}.json`} className="underline hover:text-foreground">All {total.toLocaleString("en-GB")} {meta.plural} as JSON</a>
             {" · "}
             <a href={`/api/v1/${encodeURIComponent(meta.plural)}.csv`} className="underline hover:text-foreground">as CSV</a>
@@ -84,6 +86,33 @@ export default async function KindIndex({ params }: { params: Promise<{ kind: st
         )}
       </Container>
     </>
+  );
+}
+
+/**
+ * The protocol domains in care-pathway order, each a link that filters the table below to it: the grouping without
+ * printing the protocols twice on one screen (docs/INFORMATION-ARCHITECTURE.md). The domains with nothing in them yet
+ * are named underneath, so an empty part of the map reads as not yet written rather than as not existing.
+ */
+function ProtocolDomains() {
+  const list = graph().kind("protocol");
+  const counts = new Map(PROTOCOL_DOMAINS.map((d) => [d, list.filter((p) => p.domain === d).length]));
+  const filled = PROTOCOL_DOMAINS.filter((d) => counts.get(d)! > 0);
+  const empty = PROTOCOL_DOMAINS.filter((d) => d !== "other" && counts.get(d) === 0);
+  return (
+    <div className="mb-8" data-protocol-domains>
+      <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2">
+        {filled.map((d) => (
+          <li key={d} className="min-w-0">
+            <Link href={protocolDomainHref(d)} className="card flex h-full items-center gap-2 px-3 py-2.5 hover:shadow-md transition">
+              <span className="text-sm font-medium leading-snug min-w-0 flex-1">{PROTOCOL_DOMAIN_LABEL[d]}</span>
+              <span className="text-xs text-muted tabular-nums shrink-0">{counts.get(d)}</span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+      {empty.length > 0 && <p className="text-xs text-muted mt-3 max-w-3xl">Not yet mapped: {empty.map((d) => PROTOCOL_DOMAIN_LABEL[d].toLowerCase()).join(", ")}. Every step on every protocol here is read from a named guideline or standard; how they are written is in <a className="underline" href="https://github.com/judegomila/OnCo/blob/main/docs/PROTOCOLS.md" rel="noopener">docs/PROTOCOLS.md</a>.</p>}
+    </div>
   );
 }
 

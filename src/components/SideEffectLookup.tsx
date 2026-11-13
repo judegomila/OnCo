@@ -6,7 +6,7 @@ import { FacetSelect } from "./filters/FacetSelect";
 import { ResultsTable, Toolbar, type Column, type SortState } from "./filters/ResultsTable";
 import { useProfile } from "@/lib/profile";
 import { sideEffectGuidance, type SideEffectGuidance } from "@/data/side-effect-guidance";
-import type { SideEffectRow } from "@/lib/side-effects";
+import type { SideEffectProtocol, SideEffectRow } from "@/lib/side-effects";
 
 function Bar({ pct, tone }: { pct?: number; tone: string }) {
   if (pct === undefined) return <span className="text-muted">not sourced</span>;
@@ -39,11 +39,32 @@ function GuidanceCard({ g }: { g: SideEffectGuidance }) {
 }
 
 /**
+ * How the symptom is handled: the care protocols for the group, the general ones always and a treatment-specific one
+ * only when a treatment it names is among the rows shown, with those treatments named.
+ */
+function ProtocolLinks({ list, shown, drugNames }: { list: SideEffectProtocol[]; shown: Set<string>; drugNames: Record<string, string> }) {
+  const items = list.filter((p) => p.general || p.drugs.some((d) => shown.has(d)));
+  if (!items.length) return null;
+  return (
+    <div className="card p-4">
+      <div className="kicker mb-1">How the team manages it</div>
+      <ul className="text-sm space-y-1">
+        {items.map((p) => {
+          const forDrugs = p.drugs.filter((d) => shown.has(d)).map((d) => drugNames[d] ?? d);
+          return <li key={p.id}><Link href={p.route} className="underline">{p.name}</Link>{forDrugs.length > 0 && <span className="text-xs text-muted"> for {forDrugs.slice(0, 4).join(", ")}{forDrugs.length > 4 ? ` and ${forDrugs.length - 4} more` : ""}</span>}</li>;
+        })}
+      </ul>
+      <p className="text-xs text-muted mt-2">Care protocols, step by step, each with its sources. Your team&apos;s own protocol comes first.</p>
+    </div>
+  );
+}
+
+/**
  * Symptom-first side-effect lookup. Pick a symptom (or start from the treatments in the browser profile)
  * and see which products cause it, how often, and the threshold at which to call. Everything is precomputed
  * on the server; nothing entered here leaves the browser.
  */
-export function SideEffectLookup({ rows, drugNames }: { rows: SideEffectRow[]; /** id to name for the profile's prior lines, so the "my treatments" filter can show names. */ drugNames: Record<string, string> }) {
+export function SideEffectLookup({ rows, drugNames, protocols = {} }: { rows: SideEffectRow[]; /** id to name for the profile's prior lines, so the "my treatments" filter can show names. */ drugNames: Record<string, string>; /** Care protocols per symptom group (`symptomProtocols` in src/lib/side-effects.ts). */ protocols?: Record<string, SideEffectProtocol[]> }) {
   const [profile, , ready] = useProfile();
   const [group, setGroup] = useState<string | null>(null);
   const [onlyMine, setOnlyMine] = useState(false);
@@ -129,6 +150,7 @@ export function SideEffectLookup({ rows, drugNames }: { rows: SideEffectRow[]; /
             <p className="text-sm text-muted mt-1">{groupCounts.get(group)?.drugs.size ?? 0} products in OnCo report this{onlyMine ? " among your treatments" : ""}. Rates come from the prescribing information or pivotal trial; blank means not sourced, not zero.</p>
           </div>
           {guidance ? <GuidanceCard g={guidance} /> : <p className="text-sm text-muted">No guidance written for this group yet. See the product page and the label.</p>}
+          <ProtocolLinks list={protocols[group] ?? []} shown={new Set(filtered.map((r) => r.drugId))} drugNames={drugNames} />
           <div>
             <Toolbar count={filtered.length} total={inGroup.length} noun="rows"
               left={<>

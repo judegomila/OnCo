@@ -19,10 +19,18 @@ import type { TableFile } from "./index";
  * Rows are the same objects src/app/[kind]/page.tsx renders (buildBrowser plus glossary marks), sorted here with
  * the client's own comparator, so the first page and the file agree by construction (scripts/build-tables.test.ts).
  */
-export const PAGED_KINDS: readonly Kind[] = ["trial", "paper", "person", "company", "drug", "idea", "institution", "target", "term", "technology", "cancer"];
+export const PAGED_KINDS: readonly Kind[] = ["trial", "paper", "person", "company", "drug", "idea", "institution", "target", "term", "technology", "cancer", "protocol"];
 
 /** A kind whose browser ships every row: small tables (roadmaps, bottlenecks, pairings, collections, journals, fronts, pathways). */
 export const isPagedKind = (k: Kind): boolean => PAGED_KINDS.includes(k);
+
+/**
+ * How many rows a paged kind browser carries before it fetches the rest: KIND_PAGE, except where a kind's page has a
+ * weight ceiling sixty rows cannot meet. /protocols/ is pinned at 121 KB (src/data/page-weight.json, docs/MOBILE.md),
+ * and the site chrome, toolbar and domain strip weigh about that much with no rows at all, so it carries ten.
+ */
+const KIND_PAGE_SIZE: Partial<Record<Kind, number>> = { protocol: 10 };
+export const kindPageSize = (k: Kind): number => KIND_PAGE_SIZE[k] ?? KIND_PAGE;
 
 /** The table id of a kind browser's file: `kind-` and the kind's route (`kind-key-papers`), so it cannot clash with a hand-written table. */
 export const kindTableId = (k: Kind): string => `kind-${KIND_META[k].route}`;
@@ -37,7 +45,7 @@ export type KindBrowser = {
 
 /** Glossary tooltips inside free-text cells: any non-chip, non-numeric string column gets its technical terms marked. */
 function withTermMarks(rows: BrowserRow[], columns: ColDef[]): BrowserRow[] {
-  const richKeys = new Set(columns.filter((c) => !c.chip && !c.numeric).map((c) => c.key));
+  const richKeys = new Set(columns.filter((c) => !c.chip && !c.numeric && !c.plain).map((c) => c.key));
   return rows.map((r) => {
     const cols = { ...r.cols };
     for (const key of richKeys) {
@@ -71,10 +79,10 @@ export function kindBrowser(k: Kind): KindBrowser {
 
 /** What the kind page hands to EntityBrowser: every row for a small kind; the first KIND_PAGE rows, the file and the counts for a paged one. */
 export function pageKindRows(k: Kind, rows: BrowserRow[]): { rows: BrowserRow[]; more?: MoreRows } {
-  return isPagedKind(k) ? pageRows(kindTableId(k), rows, KIND_PAGE) : { rows };
+  return isPagedKind(k) ? pageRows(kindTableId(k), rows, kindPageSize(k)) : { rows };
 }
 
 /** The paged kind browsers as table files for scripts/build-tables.ts, in KINDS order. */
 export function kindTables(): TableFile[] {
-  return KINDS.filter(isPagedKind).map((k) => ({ id: kindTableId(k), rows: kindBrowser(k).rows, page: KIND_PAGE }));
+  return KINDS.filter(isPagedKind).map((k) => ({ id: kindTableId(k), rows: kindBrowser(k).rows, page: kindPageSize(k) }));
 }

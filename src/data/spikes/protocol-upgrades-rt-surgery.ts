@@ -295,6 +295,27 @@ const ideas: IdeaInput[] = [
     bottlenecks: ["b-knowledge-diffusion", "b-care-fragmentation"],
     related: ["idea-pu-enhanced-recovery-with-measured-compliance"],
   }),
+  // Added in the protocol fill round, 11 November 2026: each abstract below, and the NICE NG101 dual-technique
+  // recommendation on the live page, were read that day; every DOI was resolved through Crossref.
+  idea({
+    id: "idea-pu-sentinel-node-without-blue-dye", name: "Sentinel node biopsy for breast cancer with fluorescence or isotope alone, without blue dye",
+    maturity: "being-tested-at-scale", actor: "clinic", cost: "small", horizonYears: 3, sections: SURG,
+    tags: T("promising", "moderate"),
+    tldr: "To find the first lymph node a breast cancer drains to, UK surgeons inject a radioactive tracer and a blue dye. The blue dye is one of the causes of severe allergic reactions under anaesthesia and stains the skin. Pooled studies suggest a green fluorescent dye finds the node as well as the tracer and better than the two together, and that the blue dye does not lower the rate of missed cancer.",
+    summary: "Current practice. NICE NG101 says to perform sentinel node biopsy using the dual technique with isotope and blue dye, a recommendation dated 2009.\n\nThe harm. The 6th National Audit Project found 266 severe perioperative allergic reactions in a year across UK NHS hospitals; of 199 identified culprits, nine were Patent Blue dye, with a delayed onset.\n\nThe evidence. A 2016 systematic review of 24 prospective studies found that adding blue dye to the isotope raised the node identification rate (OR 2.03) but did not significantly lower the false-negative rate (OR 0.76, 95% CI 0.44 to 1.29). A 2020 meta-analysis of 10 studies found indocyanine green fluorescence equivalent to isotope alone and superior to the dual technique and to blue dye alone at finding the node, and suggested hospitals could consider changing. Neither is a randomised trial of outcomes such as axillary recurrence.\n\nThe gap. How often UK units use blue dye has not been measured here; NICE has not updated the 2009 recommendation.",
+    hypothesis: "Sentinel node biopsy with indocyanine green fluorescence, or with isotope alone where nuclear medicine is available, identifies the sentinel node at least as often as isotope plus blue dye, with a false-negative rate no worse, and removes blue-dye anaphylaxis and skin staining.",
+    rationale: "The step removed is the one that causes a rare but life-threatening reaction and a cosmetic harm, and the pooled detection data already favour the alternatives. What is missing is an outcome-level comparison and an update to a 2009 recommendation.",
+    test: "A randomised non-inferiority trial of indocyanine green against isotope plus blue dye in clinically node-negative breast cancer, with false-negative rate on completion surgery or axillary recurrence at 3 years as the primary endpoint and anaphylaxis and skin staining as secondary endpoints.",
+    links: [
+      { label: "NICE guideline NG101, Early and locally advanced breast cancer: recommendation on the dual technique (2009)", url: "https://www.nice.org.uk/guidance/ng101/chapter/Recommendations" },
+      doi("Harper et al., Anaesthesia, surgery, and life-threatening allergic reactions: epidemiology and clinical features of perioperative anaphylaxis in the 6th National Audit Project (NAP6) (British Journal of Anaesthesia 2018)", "10.1016/j.bja.2018.04.014"),
+      doi("He et al., The combination of blue dye and radioisotope versus radioisotope alone during sentinel lymph node biopsy for breast cancer: a systematic review (BMC Cancer 2016)", "10.1186/s12885-016-2137-0"),
+      doi("Kedrzycki et al., Meta-analysis Comparing Fluorescence Imaging with Radioisotope and Blue Dye-Guided Sentinel Node Identification for Breast Cancer Surgery (Annals of Surgical Oncology 2020)", "10.1245/s10434-020-09288-7"),
+    ],
+    cancers: ["breast-hr-positive", "breast-her2-positive", "tnbc"], terms: ["sentinel-lymph-node-biopsy"], technologies: ["sentinel-node", "magnetic-sentinel-node-tracer"],
+    bottlenecks: ["b-knowledge-diffusion", "b-toxicity-qol"],
+    related: ["sentinel-node-tracers-and-blue-dye-safety"],
+  }),
 ];
 
 export const protocolUpgradesRtSurgery: EntityInput[] = [...ideas];

@@ -40,10 +40,16 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   { id: "tldr", total: 22343, label: "TL;DRs that are full sentences" },
   { id: "summary", total: 22343, label: "Summaries of 300 characters or more" },
   { id: "cancer-depth", total: 453, label: "Cancers that reach a deep dive, their own or the parent's" },
-  { id: "regional-approvals", total: 450, label: "Approved products with regional rows" },
+  // 11 November 2026: the supportive care gap round (src/data/supportive-care-gaps-2026-11.ts) added 43 medicines used in cancer
+  // care (anticoagulants, antiemetics, opioids, antibiotics, anaesthetics). They are approved products, the kind these gauges ask
+  // about, so the denominators grow with them; no target changed.
+  { id: "regional-approvals", total: 557, label: "Approved products with regional rows" },
   // 1,080 to 1,442 on 3 November 2026: 282 company pipeline products (src/data/company-pipeline-gap.ts, gap audit class 5)
   // and earlier rounds. They are products, the kind both product gauges ask about, so the denominators move with them.
-  { id: "molecules", total: 1442, label: "Products with a molecule or an explained placeholder" },
+  // 11 November 2026: the supportive care gap round (src/data/supportive-care-gaps-2026-11.ts) added 43 medicines used in cancer
+  // care (anticoagulants, antiemetics, opioids, antibiotics, anaesthetics). They are approved products, the kind these gauges ask
+  // about, so the denominators grow with them; no target changed.
+  { id: "molecules", total: 1746, label: "Products with a molecule or an explained placeholder" },
   // 591 to 710 on 2 October 2026: the two Recovery and Rejuvenation rounds added 119 technology records. They
   // are the kind this gauge asks about, and almost none has a drawing of its own; they borrow one through
   // SCHEMATIC_ALIAS. So the denominator grows and the score falls, which is the true reading. The alternative,
@@ -63,10 +69,15 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // the country deep dives of waves 3 and 4 added the registries, ministries, insurers, regulators, assessment bodies
   // and cancer centres each country page rests on. Each is an institution page that should name the people who lead
   // it, the kind this gauge asks about, so the denominator grows and the score falls.
-  // 1,330 to 1,730 on 11 November 2026: the country deep dives of waves 5 to 12 (80 countries) added the registries,
-  // ministries, insurers, regulators and cancer centres each page rests on. Each is an institution page that should
-  // name the people who lead it, the kind this gauge asks about, so the denominator grows and the score falls.
-  { id: "institution-people", total: 1730, label: "Institutions with people" },
+  // 1,330 to 1,743 on 12 November 2026: the institutions for the countries that held fewer than three
+  // (src/data/institutions/countries-2026-11-*.ts: national cancer centres, radiotherapy centres, registries, regulators
+  // and payers) and the Newsweek 2026 ranked hospitals OnCo did not hold. Each is an institution page that should name
+  // the people who lead it, the kind this gauge asks about, so the denominator grows and the score falls; no target changed.
+  // 1,743 to 2,074 on 12 November 2026: the country deep dives of waves 5 to 12 (80 countries, PR #395) merged with
+  // main, adding the registries, ministries, insurers, regulators and cancer centres each page rests on. Each is an
+  // institution page that should name the people who lead it, the kind this gauge asks about, so the denominator
+  // grows and the score falls; no target changed.
+  { id: "institution-people", total: 2074, label: "Institutions with people" },
   { id: "people-papers", total: 1567, label: "People with papers, or in a role that produces none" },
   // 45 to 55 on 4 November 2026: the rejuvenation front's agenda bottlenecks and, last, the residual disease bottleneck
   // (src/data/spikes/breast-residual-subclones.ts). Each is a bottleneck that ideas are meant to attack, the kind this
@@ -87,11 +98,19 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // survival studies) and the rounds since the last recording. They are key papers, the kind this gauge asks about,
   // so the denominator grows; their counts come from the Europe PMC fetch run in the same change.
   { id: "citations", total: 3094, label: "Key papers with a citation count" },
-  { id: "trials-snapshot", total: 1442, label: "Products with a ClinicalTrials.gov snapshot" },
+  // 11 November 2026: the supportive care gap round (src/data/supportive-care-gaps-2026-11.ts) added 43 medicines used in cancer
+  // care (anticoagulants, antiemetics, opioids, antibiotics, anaesthetics). They are approved products, the kind these gauges ask
+  // about, so the denominators grow with them; no target changed.
+  { id: "trials-snapshot", total: 1746, label: "Products with a ClinicalTrials.gov snapshot" },
   // 2,078 to 2,563 on 4 November 2026: the company rounds since the last recording, ending with the 83 companies the
   // startup monitors found (SEC filings, orphan designations, NCI SBIR awards). Companies are exactly what this gauge
   // asks about, so the denominator grows; their logos are fetched in the same change.
-  { id: "logos", total: 3154, label: "Companies, institutions and collections with a logo" },
+  // 3,154 to 3,675 on 12 November 2026: the institutions for the countries that held fewer than three
+  // (src/data/institutions/countries-2026-11-*.ts) and the Newsweek 2026 ranked hospitals OnCo did not hold. They are
+  // institutions, the kind this gauge asks about, so the denominator grows; no target changed.
+  // 3,675 to 4,007 on 12 November 2026: the institutions of the 80 country deep dives (PR #395) merged with main.
+  // They are institutions, the kind this gauge asks about, so the denominator grows; no target changed.
+  { id: "logos", total: 4007, label: "Companies, institutions and collections with a logo" },
   { id: "completeness", total: 22, label: "External denominators at least half covered" },
 ];
 

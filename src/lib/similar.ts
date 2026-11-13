@@ -12,6 +12,7 @@ import { graph } from "./graph";
 import { publicTags } from "./tags";
 import { routeFor, type Kind } from "./kinds";
 import { nonMedicineClass, type ProductClass } from "./product-class";
+import { protocolsFor } from "./members";
 
 export type Similar = { id: string; score: number; shared: string[]; sharedTags: string[] };
 export type SimilarLink = { id: string; kind: Kind; /** A product that is not a medicine (src/lib/product-class.ts), so its chip says Test rather than Treatment. */ cls?: ProductClass; name: string; route: string; score: number; shared: Array<{ id: string; name: string; route: string }>; sharedTags: string[] };
@@ -76,11 +77,22 @@ export function similarFor(id: string): Similar[] {
   return result;
 }
 
-/** Resolved for rendering: names and routes of the similar page and of the links that explain the match (up to `explain`). */
+/**
+ * Resolved for rendering: names and routes of the similar page and of the links that explain the match (up to `explain`).
+ *
+ * A care protocol the page already lists in its own Protocols section (src/lib/members.ts `protocolsFor`) is not named
+ * again as a shared link: two devices that share a care protocol put that protocol under "Shares" on each other's
+ * page, so the implanted-ports page carried the same protocol link twice (11 November 2026). A card left with nothing
+ * else to explain the match is dropped rather than shown with an empty "Shares".
+ */
 export function similarLinks(id: string, explain = 4): SimilarLink[] {
   const g = graph();
-  return similarFor(id).map((s) => {
+  const self = g.get(id);
+  const listed = new Set(self ? protocolsFor(self, g).map((m) => m.protocol.id) : []);
+  return similarFor(id).flatMap((s) => {
+    const shared = s.shared.filter((n) => !listed.has(n));
+    if (!shared.length && !s.sharedTags.length) return [];
     const e = g.must(s.id);
-    return { id: e.id, kind: e.kind, cls: nonMedicineClass(e), name: e.name, route: routeFor(e), score: s.score, shared: s.shared.slice(0, explain).map((n) => { const x = g.must(n); return { id: x.id, name: x.name, route: routeFor(x) }; }), sharedTags: s.sharedTags };
+    return [{ id: e.id, kind: e.kind, cls: nonMedicineClass(e), name: e.name, route: routeFor(e), score: s.score, shared: shared.slice(0, explain).map((n) => { const x = g.must(n); return { id: x.id, name: x.name, route: routeFor(x) }; }), sharedTags: s.sharedTags }];
   });
 }

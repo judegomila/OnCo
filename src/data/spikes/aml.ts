@@ -462,7 +462,7 @@ const spike: Spike = {
       "Access: rapid genomics within 72 hours and menin/FLT3 inhibitors are unavailable in most low- and middle-income settings.",
     ],
     targets: ["npm1", "kmt2a", "flt3", "idh", "menin", "bcl2", "cd33", "cd123", "tp53"],
-    technologies: ["allogeneic-hsct", "flow-cytometry-mrd", "ngs-mrd-clonoseq", "cytogenetics-fish", "bh3-profiling", "epigenetic-drugs", "kinase-inhibitors", "adc"],
+    technologies: ["allogeneic-hsct", "flow-cytometry-mrd", "ngs-mrd-clonoseq", "cytogenetics-fish", "bh3-profiling", "epigenetic-drugs", "kinase-inhibitors", "adc", "picc-lines"],
     terms: ["eln-risk", "flt3-itd-allelic-ratio", "mrd-negative-cr", "differentiation-syndrome", "tumor-lysis-syndrome"],
     companies: ["abbvie", "novartis", "daiichi-sankyo", "astellas", "servier", "syndax", "kura-oncology", "taiho-oncology", "jazz", "rigel-pharmaceuticals", "bms"],
     links: [{ label: "ELN 2022 recommendations", url: "https://ashpublications.org/blood/article/140/12/1345/485817" }, { label: "NCCN AML guidelines", url: "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1411" }, { label: "SEER Cancer Stat Facts: Acute Myeloid Leukemia", url: "https://seer.cancer.gov/statfacts/html/amyl.html" }, { label: "ClinicalTrials.gov NCT03745716: eprenetapopt phase 3 in TP53-mutant MDS", url: "https://clinicaltrials.gov/study/NCT03745716" }, { label: "ClinicalTrials.gov NCT04778397: ENHANCE-2 (magrolimab, TP53-mutant AML)", url: "https://clinicaltrials.gov/study/NCT04778397" }],

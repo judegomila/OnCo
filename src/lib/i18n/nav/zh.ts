@@ -45,6 +45,7 @@ export const navZh: NavDict = {
   "/machines/": ["机器", "医院用于对抗癌症的扫描仪、加速器、机器人和消融设备：每种机器的作用、优势与局限、制造商，以及哪些中心拥有稀有机器。"],
   "/open-questions/": ["开放问题", "每个靶点和技术的未解问题：为何未解、什么能回答、谁来行动。"],
   "/preclinical-models/": ["临床前模型", "带 Cellosaurus 和 DepMap 编号的细胞系、PDX 库、小鼠模型和类器官，按癌症和靶点分类。"],
+  "/protocols/": ["护理规程", "护理如何一步步进行，从输液港穿刺到化疗期间发热：每一步附理由和出处，证据最充分的做法与在用的变体并列。"],
   "/regimens/": ["方案", "有名称的方案，附剂量、天数、周期、致吐性和 G-CSF 需求；每个方案有日历条。"],
   "/sequencing/": ["治疗线", "按癌症列出各线和生物标志物亚组的标准治疗，附序贯和需谨慎的组合。"],
   "/staging/": ["分期与风险评分", "TNM、FIGO、Lugano、BCLC、R-ISS，以及交互式 IPI、IMDC、CLL-IPI、Child-Pugh、Khorana 评分。"],

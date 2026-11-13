@@ -239,6 +239,7 @@ export const fr: UiDict = {
   "kind.paper.label": "Article clé", "kind.paper.plural": "articles clés",
   "kind.bottleneck.label": "Goulet d'étranglement", "kind.bottleneck.plural": "goulets d'étranglement", "kind.bottleneck.title": "Les goulets d'étranglement de la guerre contre le cancer",
   "kind.biomarker.label": "Biomarqueur", "kind.biomarker.plural": "biomarqueurs", "kind.biomarker.title": "Biomarqueurs et scores",
+  "kind.protocol.label": "Protocole de soins", "kind.protocol.plural": "protocoles de soins", "kind.protocol.title": "Protocoles de soins",
   "kind.year.label": "Année", "kind.year.plural": "années", "kind.year.title": "L'oncologie année par année",
 
   "l.Summary": "Résumé",
@@ -310,6 +311,7 @@ export const fr: UiDict = {
   "l.Payload": "Charge",
   "l.Linker": "Lieur",
   "l.Where it is approved": "Où il est autorisé",
+  "l.Is this drug available in my country?": "Ce médicament est-il disponible dans mon pays ?",
   "l.Approvals": "Autorisations",
   "l.Region": "Région",
   "l.Year": "Année",

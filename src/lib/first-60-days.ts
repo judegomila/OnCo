@@ -30,7 +30,7 @@ export type Guide = {
   /** Staging tests: "Diagnosis" rows of the standard of care, the diagnostic technologies linked to the cancer, staging systems, biomarkers. */
   now?: { rows: GuideSocRow[]; technologies: GuideLink[]; staging: GuideLink[]; biomarkers: string[]; journeyDiagnosis: string[] };
   /** A hand-written, dated checklist for this cancer (src/data/first-60-days-checklists.ts), where one exists. */
-  checklist?: { items: ChecklistItem[] };
+  checklist?: { items: Array<ChecklistItem & { protocolLinks: GuideLink[] }> };
   /** Specialties, derived from the sections of the technologies and drugs named in the standard of care. */
   team?: { roles: GuideRole[] };
   /** Standard-of-care settings in the order they occur, plus the decision points of any recorded journey. */
@@ -164,7 +164,12 @@ export function buildGuide(c: Cancer, g: Graph = graph()): Guide {
   }
 
   const items = FIRST_60_DAYS_CHECKLISTS[c.id] ?? [];
-  if (items.length) { guide.checklist = { items }; guide.sections.push("checklist"); }
+  if (items.length) {
+    // An item whose subject is a care protocol links it (a fertility referral, a DPD test, port care).
+    const protocolLinks = (ids: string[] = []) => ids.map((id) => g.get(id)).filter((e): e is Entity => e?.kind === "protocol").map((e) => ({ id: e.id, name: e.name, route: routeFor(e), kind: e.kind }));
+    guide.checklist = { items: items.map((it) => ({ ...it, protocolLinks: protocolLinks(it.protocols) })) };
+    guide.sections.push("checklist");
+  }
 
   const roles = teamRoles(c, g);
   if (roles.length) { guide.team = { roles }; guide.sections.push("team"); }

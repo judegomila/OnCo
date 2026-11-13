@@ -45,6 +45,7 @@ export const navEs: NavDict = {
   "/machines/": ["Máquinas", "Escáneres, aceleradores, robots y dispositivos de ablación usados contra el cáncer: qué hace cada uno, sus ventajas y límites, quién lo fabrica y qué centros tienen los más raros."],
   "/open-questions/": ["Preguntas abiertas", "Preguntas sin resolver por diana y tecnología: por qué siguen abiertas, qué las respondería, quién actúa."],
   "/preclinical-models/": ["Modelos preclínicos", "Líneas celulares con identificadores de Cellosaurus y DepMap, bancos de PDX, modelos de ratón y organoides por cáncer y diana."],
+  "/protocols/": ["Protocolos asistenciales", "Cómo se realiza la atención paso a paso, desde acceder a un port hasta la fiebre durante la quimioterapia: cada paso con su motivo y su fuente, la versión mejor respaldada junto a las variantes."],
   "/regimens/": ["Esquemas", "Esquemas con nombre, con dosis, días, ciclos, emetogenicidad y necesidad de G-CSF; calendario por esquema."],
   "/sequencing/": ["Líneas de tratamiento", "Por cáncer, el tratamiento estándar por línea y subgrupo de biomarcadores, con secuencias y combinaciones a evitar."],
   "/staging/": ["Estadificación y puntuaciones de riesgo", "TNM, FIGO, Lugano, BCLC, R-ISS y calculadoras interactivas de IPI, IMDC, CLL-IPI, Child-Pugh y Khorana."],

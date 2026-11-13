@@ -66,7 +66,7 @@ const BASE_DEFAULT = "https://onco.cc";
 /** Pages worth watching: the heaviest of each shape, not a sample. */
 const PAGES = [
   "/", "/timeline/", "/years/2020/", "/for-me/", "/explore/", "/trials/", "/trials/open/", "/drugs/", "/navigator/",
-  "/cancers/breast-cancer/", "/cancers/prostate/uk/", "/countries/us/", "/virotherapy/", "/explained/",
+  "/cancers/breast-cancer/", "/cancers/prostate/uk/", "/countries/us/", "/virotherapy/", "/explained/", "/protocols/",
 ];
 
 const KB = 1024;

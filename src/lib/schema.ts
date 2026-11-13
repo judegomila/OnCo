@@ -1,9 +1,9 @@
 import { z } from "zod";
-import { EVIDENCE_TIERS, KINDS, MACHINE_FAMILIES, STATUSES, TARGET_DISTRIBUTIONS, TARGET_ROLES, TARGET_SPECIFICITIES } from "./kinds";
+import { EVIDENCE_TIERS, KINDS, MACHINE_FAMILIES, PROTOCOL_ACTORS, PROTOCOL_DOMAINS, PROTOCOL_PLACES, STATUSES, TARGET_DISTRIBUTIONS, TARGET_ROLES, TARGET_SPECIFICITIES } from "./kinds";
 import { DATE_PRECISIONS, YEAR_EVENT_GROUPS } from "./year-groups";
 
-export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel, TARGET_ROLES, TARGET_ROLE_LABEL, EVIDENCE_TIERS, EVIDENCE_TIER_LABEL, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, TARGET_DISTRIBUTIONS, TARGET_DISTRIBUTION_LABEL } from "./kinds";
-export type { Kind, Status, RelField, TargetRole, EvidenceTier, TargetSpecificity, TargetDistribution } from "./kinds";
+export { KINDS, STATUSES, REL_FIELDS, KIND_META, PHASE_ORDER, routeFor, phaseLabel, normalisePhaseLabel, TARGET_ROLES, TARGET_ROLE_LABEL, EVIDENCE_TIERS, EVIDENCE_TIER_LABEL, TARGET_SPECIFICITIES, TARGET_SPECIFICITY_LABEL, TARGET_DISTRIBUTIONS, TARGET_DISTRIBUTION_LABEL, PROTOCOL_DOMAINS, PROTOCOL_DOMAIN_LABEL, PROTOCOL_ACTORS, PROTOCOL_ACTOR_LABEL, PROTOCOL_PLACES, PROTOCOL_PLACE_LABEL } from "./kinds";
+export type { Kind, Status, RelField, TargetRole, EvidenceTier, TargetSpecificity, TargetDistribution, ProtocolDomain, ProtocolActor, ProtocolPlace } from "./kinds";
 
 /**
  * OnCo data model.
@@ -654,6 +654,89 @@ export const YearSchema = Base.extend({
   events: z.array(YearEventSchema).default([]),
 });
 
+/**
+ * A guideline or standard a protocol was read from. `key` is how the protocol's steps, evidence rows and variants cite
+ * it; `year` is the edition's year and `url` the page or PDF the text was read from. `read` says how much of it was
+ * read: the full text, only the abstract or a public summary, or that it could not be reached (then the page says so
+ * and no step rests on that source alone). See docs/PROTOCOLS.md.
+ */
+export const ProtocolSourceSchema = z.object({
+  key: id,
+  /** Title and edition as the publisher gives it: "Infusion Therapy Standards of Practice, 9th edition". */
+  label: z.string().min(1),
+  /** Who issued it: "Infusion Nurses Society", "ESMO", "NICE", "CDC/HICPAC". */
+  publisher: z.string().min(1),
+  year: z.number().int().min(1950).max(2100),
+  url,
+  /** A bare DOI (10.xxxx/...), resolved through Crossref or Europe PMC before use. */
+  doi: z.string().regex(/^10\.\d{4,9}\/\S+$/, "a bare DOI, 10.xxxx/...").optional(),
+  /** The source's own grading scheme in one line, so a reader can read a grade quoted from it. */
+  gradingScheme: z.string().optional(),
+  read: z.enum(["full-text", "abstract", "public-summary", "not-reachable"]),
+  /** When the text was read. */
+  accessed: isoDate,
+});
+export type ProtocolSource = z.infer<typeof ProtocolSourceSchema>;
+
+/** One step of a protocol: `action` is a short imperative ("Clean the skin with chlorhexidine in alcohol and let it dry"). */
+export const ProtocolStepSchema = z.object({
+  action: z.string().min(1),
+  /** Why the step is there, in plain English. */
+  why: z.string().optional(),
+  /** Key of the source in the protocol's `sources` the step was read from. Required unless `practice` says why there is none. */
+  source: id.optional(),
+  /** The source's own sentence, verbatim, where the step rests on one. */
+  quote: z.string().optional(),
+  /** The grade the source gives this recommendation, as printed ("IA", "Level IV", "[II, B]", "strong recommendation"). */
+  grade: z.string().optional(),
+  /** For a step no source states but every source assumes: say so here instead of citing. */
+  practice: z.string().optional(),
+});
+export type ProtocolStep = z.infer<typeof ProtocolStepSchema>;
+
+/**
+ * A care protocol: how something in cancer care is done, step by step, with the best-supported version and the
+ * variants in use. Not a proposal: proposals to change practice are idea records tagged `protocol-upgrade`, which a
+ * protocol links in `upgrades`. Devices are technology records (`technologies`); the cancers, drugs, terms and trials
+ * it concerns are the usual relation arrays. Every step cites a source by key and every grade is quoted as the source
+ * prints it. Rules in docs/PROTOCOLS.md, checked in src/lib/protocols.test.ts.
+ */
+export const ProtocolSchema = Base.extend({
+  kind: z.literal("protocol"),
+  domain: z.enum(PROTOCOL_DOMAINS),
+  /** Who carries it out and where. */
+  setting: z.object({
+    who: z.array(z.enum(PROTOCOL_ACTORS)).min(1),
+    where: z.array(z.enum(PROTOCOL_PLACES)).min(1),
+  }),
+  /** Who it applies to, as the sources scope it: "Adults with an implanted port"; children and exceptions named. */
+  population: z.string().min(1),
+  /** When to start it ("A patient on chemotherapy reports a temperature of 38 °C or more"). */
+  trigger: z.string().optional(),
+  steps: z.array(ProtocolStepSchema).min(1),
+  /** The version best supported now and why: the strongest current guideline recommendation, or, where guidelines disagree, both stated. */
+  bestInClass: z.object({ statement: z.string().min(1), sources: z.array(id).min(1) }),
+  /** Alternatives in use: what each does differently, and the evidence for it. */
+  variants: z.array(z.object({
+    name: z.string().min(1),
+    differs: z.string().min(1),
+    evidence: z.string().min(1),
+    sources: z.array(id).default([]),
+  })).default([]),
+  /** The grades the sources give the protocol's key recommendations, each quoted as printed. */
+  grades: z.array(z.object({
+    claim: z.string().min(1),
+    grade: z.string().min(1),
+    source: id,
+    quote: z.string().optional(),
+  })).default([]),
+  sources: z.array(ProtocolSourceSchema).min(1),
+  /** Idea records tagged `protocol-upgrade` that propose changing this protocol. */
+  upgrades: z.array(id).default([]),
+  /** What the sources do not settle, or could not be read, said plainly. */
+  gaps: z.array(z.string()).default([]),
+});
+
 export const CollectionSchema = Base.extend({
   kind: z.literal("collection"),
   url,
@@ -708,6 +791,7 @@ export const EntitySchema = z.discriminatedUnion("kind", [
   BiomarkerSchema,
   JournalSchema,
   YearSchema,
+  ProtocolSchema,
 ]);
 
 export type Entity = z.infer<typeof EntitySchema>;
@@ -731,6 +815,7 @@ export type Paper = z.infer<typeof PaperSchema>;
 export type Journal = z.infer<typeof JournalSchema>;
 export type Biomarker = z.infer<typeof BiomarkerSchema>;
 export type Year = z.infer<typeof YearSchema>;
+export type Protocol = z.infer<typeof ProtocolSchema>;
 
 /** Input types (before defaults are applied) — what authors write in data files. */
 export type CancerInput = z.input<typeof CancerSchema>;
@@ -753,6 +838,7 @@ export type PaperInput = z.input<typeof PaperSchema>;
 export type JournalInput = z.input<typeof JournalSchema>;
 export type BiomarkerInput = z.input<typeof BiomarkerSchema>;
 export type YearInput = z.input<typeof YearSchema>;
+export type ProtocolInput = z.input<typeof ProtocolSchema>;
 export type EntityInput = z.input<typeof EntitySchema>;
 
 /**

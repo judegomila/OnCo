@@ -24,7 +24,7 @@ export const XSD = "http://www.w3.org/2001/XMLSchema#";
 export const TYPE: Record<Kind, string> = {
   cancer: "MedicalCondition", section: "DefinedTerm", technology: "MedicalTherapy", target: "BioChemEntity", drug: "Drug", company: "Organization",
   institution: "MedicalOrganization", pathway: "BioChemEntity", term: "DefinedTerm", trial: "MedicalTrial", pairing: "MedicalTherapy", roadmap: "CreativeWork",
-  idea: "CreativeWork", collection: "Dataset", person: "Person", bottleneck: "Thing", paper: "ScholarlyArticle", journal: "Periodical", biomarker: "MedicalTest", year: "Collection",
+  idea: "CreativeWork", collection: "Dataset", person: "Person", bottleneck: "Thing", paper: "ScholarlyArticle", journal: "Periodical", biomarker: "MedicalTest", year: "Collection", protocol: "MedicalGuideline",
 };
 
 /** N-Triples terms. Every term here is also a valid Turtle term, so the Turtle writer only needs to compact them. */

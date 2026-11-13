@@ -2,12 +2,13 @@ import { MECHANICS } from "@/data/mechanics-atlas";
 import { graph } from "./graph";
 import { portraitSrc } from "./portraits";
 import { NAV_GROUPS } from "./nav";
-import { COUNTRY_PAGES } from "./country-pages";
 import { routeFor, type Kind } from "./kinds";
 import { nonMedicineClass, type ProductClass } from "./product-class";
 import { engineRoute, FORMATS, modalityRoute } from "./modular-formats";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
 import { COMPARE_SETS, compareRoute } from "./cancer-compare";
+import { autoCountryCodes, autoCountry, COUNTRY_PAGES, countryRoute } from "./country-pages";
+import { GLOBOCAN } from "./globocan";
 
 export type SearchDoc = { id: string; kind: Kind | "page"; name: string; /** Aliases, one per line: MiniSearch tokenises on the newline as it does on a space, and the ranking can still tell "Breast cancer in men" from a lone "Breast". */ aka: string; tldr: string; tags: string; route: string; status?: string; /** Space-separated ids of the cancers the record links to, for the "for my cancer" filter. */ cancers?: string; /** The broader record this is a subtype of (a cancer's parent page); Ask ranks a subtype below its parent unless the query names it. */ parent?: string; /** A person's portrait, so the command palette can show a face without importing the portrait index. */ portrait?: string; /** A product that is not a medicine (src/lib/product-class.ts), so its result chip says Test rather than Treatment. */ cls?: Exclude<ProductClass, "medicine"> };
 
@@ -35,8 +36,14 @@ function pageDocs(): SearchDoc[] {
   ];
   // Country deep dives are not in the menu (it is in every page; see src/lib/country-pages.ts), so they are listed
   // here. Each page is titled "Cancer in <country>", which goes in as the alias.
-  const countryPages = COUNTRY_PAGES.map((c) => ({ ...c, aka: `Cancer in ${c.label.replace(/ deep dive$/, "")}` }));
-  const pages: ReadonlyArray<{ href: string; label: string; blurb: string; aka?: string }> = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...countryPages, ...enginePages, ...modalityPages, ...toolPages];
+  const diveCountryPages = COUNTRY_PAGES.map((c) => ({ ...c, aka: `Cancer in ${c.label.replace(/ deep dive$/, "")}` }));
+  // The automatic country pages (src/app/countries/[iso]/page.tsx), so "Samoa" reaches its page. autoCountryCodes()
+  // leaves out every code with a deep dive, so no country is indexed twice; the `seen` set below would drop a repeat.
+  const autoCountryPages = autoCountryCodes().map((code) => {
+    const c = autoCountry(code)!;
+    return { href: countryRoute(code), label: `Cancer in ${c.name}`, blurb: `${c.name}: GLOBOCAN ${GLOBOCAN.year} cases, deaths and leading cancers, trials with a site there, institutions, companies and people in OnCo.`, aka: [c.name, c.globocanName].filter((x, i, a) => a.indexOf(x) === i).join("\n") };
+  });
+  const pages: ReadonlyArray<{ href: string; label: string; blurb: string; aka?: string }> = [...NAV_GROUPS.flatMap((gp) => [{ href: gp.href, label: gp.label, blurb: gp.blurb }, ...gp.items]), ...SITE_PAGES, ...diveCountryPages, ...enginePages, ...modalityPages, ...toolPages, ...autoCountryPages];
   for (const it of pages) {
     if (seen.has(it.href)) continue; seen.add(it.href);
     // `aka` carries the page's former name, so a reader searching "forest plot" still reaches the renamed page.

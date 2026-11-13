@@ -1,7 +1,7 @@
 import { graph, type Graph } from "./graph";
-import { routeFor } from "./kinds";
+import { PROTOCOL_DOMAINS, routeFor } from "./kinds";
 import { productClass } from "./product-class";
-import type { Biomarker, Company, Drug, Entity, Kind, Technology } from "./schema";
+import type { Biomarker, Cancer, Company, Drug, Entity, Kind, Protocol, Technology } from "./schema";
 import { TUMOUR_TESTS, type TumourTest } from "@/data/tumour-tests";
 import { assays as ASSAYS, type Assay } from "@/data/assays";
 import { READOUT_TEST_RULES, type ReadoutTestRule } from "@/data/readout-test-technologies";
@@ -195,12 +195,96 @@ export function membersFor(hub: Entity, section: "tests" | "treatments" | "produ
   return [];
 }
 
+/** A protocol on a record's page, with the record that brought it there when that is not the page itself. */
+export type ProtocolMember = { protocol: Protocol; via?: Entity };
+
+/** Protocol domains a supportive medicine can bring to a cancer page: the ones about giving that medicine well. */
+const SUPPORTIVE_ROUTE_DOMAINS: ReadonlySet<Protocol["domain"]> = new Set(["supportive-care", "symptom-management", "nutrition", "palliative", "survivorship"]);
+
+/** A medicine given to treat or prevent what other treatment causes: tagged `supportive`, or a corticosteroid. */
+const supportiveMedicine = (d: Drug) => d.tags.includes("supportive") || /\b(?:gluco)?corticosteroid\b|\bglucocorticoid\b/i.test(d.modality);
+
+/**
+ * Whether a cancer's treatment brings a protocol to the cancer's page. The protocol must name the treatment as one of
+ * its own medicines or devices, not only in `related` or `terms`: the antiemetic protocol named cisplatin only in
+ * `related`, as did the diarrhoea protocols octreotide, which put them on neuroendocrine pages through a cancer
+ * treatment they use as a remedy. A supportive medicine (`supportiveMedicine`) brings only the supportive, symptom,
+ * nutrition, palliative and survivorship protocols: dexamethasone, listed on the triple-negative breast cancer record as
+ * an antiemetic, otherwise put CRS, ICANS and IEC-HS management on that page, and prednisone in R-CHOP put the
+ * immune-related toxicity protocols on lymphoma pages, because those protocols treat with them (11 November 2026).
+ * The emergencies and toxicities a steroid treats come to a page through what causes them.
+ */
+export function reachesThrough(p: Protocol, via: Entity): boolean {
+  if (via.kind === "drug") return p.drugs.includes(via.id) && (!supportiveMedicine(via) || SUPPORTIVE_ROUTE_DOMAINS.has(p.domain));
+  if (via.kind === "technology") return p.technologies.includes(via.id);
+  return false;
+}
+
+/**
+ * The care protocols a record page lists (docs/PROTOCOLS.md), from structured fields only:
+ *
+ * - **Any record**: every protocol whose relation arrays name it (the graph backlink): a drug its administration
+ *   protocols, a device such as `implanted-ports` its care protocols, a glossary term the protocols filed under it.
+ * - **A cancer**, as well: protocols naming a cancer above it in the family (a breast cancer protocol is on the
+ *   triple-negative page), and protocols naming a medicine or technology the cancer's own record lists (in its
+ *   relation arrays or its standard-of-care rows), each with that record as `via` so the page can say why (`reachesThrough` says which count), unless
+ *   the protocol is scoped to other cancers only (it names cancers, none of them in this cancer's family). A protocol
+ *   naming no cancer and none of the cancer's treatments is general and is not repeated on every cancer page; it is
+ *   on /protocols/.
+ *
+ * Ordered by domain (care-pathway order), then name; direct links before the ones reached through a treatment.
+ */
+export function protocolsFor(e: Entity, g: Graph = graph()): ProtocolMember[] {
+  const out = new Map<string, ProtocolMember>();
+  const direct = (id: string) => (g.incoming(id).get("protocol") ?? []) as Protocol[];
+  for (const p of direct(e.id)) out.set(p.id, { protocol: p });
+  if (e.kind === "cancer") {
+    let parent = (e as Cancer).parent;
+    for (let hops = 0; parent && hops < 8; hops++) {
+      for (const p of direct(parent)) if (!out.has(p.id)) out.set(p.id, { protocol: p });
+      const up = g.get(parent);
+      parent = up?.kind === "cancer" ? up.parent : undefined;
+    }
+    // A protocol scoped to other cancers is not this cancer's, even when it shares a treatment: breast radiotherapy
+    // positioning names breast cancer and imrt-igrt, and reached the prostate page through imrt-igrt, as colorectal
+    // follow-up did through the survivorship care plan (11 November 2026, when the fill rounds took the corpus to 190
+    // protocols). It still counts when it names this cancer's family above or below it.
+    const ancestors = (id: string): string[] => {
+      const out: string[] = [];
+      let up = g.get(id);
+      for (let hops = 0; up?.kind === "cancer" && up.parent && hops < 8; hops++) { out.push(up.parent); up = g.get(up.parent); }
+      return out;
+    };
+    const family = new Set([e.id, ...ancestors(e.id)]);
+    const scopedElsewhere = (p: Protocol) => p.cancers.length > 0 && !p.cancers.some((id) => family.has(id) || ancestors(id).includes(e.id));
+    const treatments = [...new Set([...e.drugs, ...e.technologies, ...e.standardOfCare.flatMap((s) => s.refs)])];
+    for (const id of treatments) {
+      const via = g.get(id);
+      if (!via || (via.kind !== "drug" && via.kind !== "technology")) continue;
+      for (const p of direct(id)) if (!out.has(p.id) && !scopedElsewhere(p) && reachesThrough(p, via)) out.set(p.id, { protocol: p, via });
+    }
+  }
+  const order = (m: ProtocolMember) => PROTOCOL_DOMAINS.indexOf(m.protocol.domain);
+  return [...out.values()].sort((a, b) => Number(!!a.via) - Number(!!b.via) || order(a) - order(b) || a.protocol.name.localeCompare(b.protocol.name));
+}
+
 /**
  * The Connected groups of a record page, less what the page's own sections already list. On a readout page the tests
  * and the treatments it selects have their own sections above, so Connected keeps only the products it alone shows.
  */
 export function connectedGroups(e: Entity, g: Graph = graph()): Map<Kind, Entity[]> {
   const groups = g.neighbours(e.id);
+  // A record whose page has a Protocols section (protocolsFor) does not list the same protocols again in Connected.
+  if (e.kind !== "protocol" && groups.has("protocol")) {
+    const shown = new Set(protocolsFor(e, g).map((m) => m.protocol.id));
+    const rest = groups.get("protocol")!.filter((p) => !shown.has(p.id));
+    if (rest.length) groups.set("protocol", rest); else groups.delete("protocol");
+  }
+  // A protocol page lists its upgrades in their own block; Connected keeps only the other ideas.
+  if (e.kind === "protocol" && e.upgrades.length && groups.has("idea")) {
+    const rest = groups.get("idea")!.filter((i) => !e.upgrades.includes(i.id));
+    if (rest.length) groups.set("idea", rest); else groups.delete("idea");
+  }
   if (e.kind !== "biomarker") return groups;
   const m = biomarkerMembers(e, g);
   const shown = new Set<string>([...m.tests.map((i) => i.record?.id).filter((x): x is string => !!x), ...m.treatments.map((d) => d.id)]);

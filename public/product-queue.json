@@ -7,5 +7,23 @@
     "files": 69,
     "proposed": "2026-11-09",
     "state": "waiting"
+  },
+  {
+    "branch": "product/20261111-115540",
+    "why": "80 more country deep dives (agent-researched, each fact-checked by a second agent), plus country nav in its own file and the Ask named-medicine rule",
+    "pr": "https://github.com/judegomila/OnCo/pull/395",
+    "preview": "",
+    "files": 451,
+    "proposed": "2026-11-11",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/glossary-case-sensitive-acronyms",
+    "why": "glossary acronyms match only in capitals",
+    "pr": "https://github.com/judegomila/OnCo/pull/400",
+    "preview": "",
+    "files": 3,
+    "proposed": "2026-11-12",
+    "state": "waiting"
   }
 ]

@@ -1,7 +1,7 @@
 import { EntitySchema, KINDS, REL_FIELDS, type Entity, type Kind, type RelField } from "./schema";
 import { ALL_INPUTS } from "@/data";
 
-export type Backlink = { from: Entity; via: RelField | "pairing" | "roadmap" | "history" | "pipeline" | "standardOfCare" | "pathway-node" | "investors" | "acquiredBy" | "parent" };
+export type Backlink = { from: Entity; via: RelField | "pairing" | "roadmap" | "history" | "pipeline" | "standardOfCare" | "pathway-node" | "investors" | "acquiredBy" | "parent" | "upgrades" };
 
 class Graph {
   readonly entities: Entity[];
@@ -136,6 +136,8 @@ export function outgoing(e: Entity): Array<[string, Backlink["via"]]> {
   if (e.kind === "pathway") for (const n of e.nodes) if (n.targetId) out.push([n.targetId, "pathway-node"]);
   // A biomarker readout hangs off its parent gene or protein; the target page lists its readouts by this backlink.
   if (e.kind === "biomarker" && e.target) out.push([e.target, "parent"]);
+  // A protocol names the protocol-upgrade ideas that would change it; the idea page lists the protocol by backlink.
+  if (e.kind === "protocol") for (const u of e.upgrades) out.push([u, "upgrades"]);
   if (e.kind === "company") {
     // Startup graph: a company names its investors and its acquirer; investors get their portfolio by backlink.
     for (const inv of e.investors) out.push([inv, "investors"]);

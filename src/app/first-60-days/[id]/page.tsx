@@ -134,6 +134,9 @@ export default async function FirstSixtyDaysPage({ params }: { params: Promise<{
                           <span>
                             {it.item}
                             <span className="block text-xs text-muted mt-0.5">{it.why} <a href={it.source.url} target="_blank" rel="noopener noreferrer" className="underline">{it.source.label}</a>{it.also && <>; <a href={it.also.url} target="_blank" rel="noopener noreferrer" className="underline">{it.also.label}</a></>}</span>
+                            {it.protocolLinks.length > 0 && (
+                              <span className="block text-xs mt-0.5">How it is done: {it.protocolLinks.map((p, k) => <span key={p.id}>{k > 0 && "; "}<Link href={p.route} className="underline">{p.name}</Link></span>)}</span>
+                            )}
                           </span>
                         </li>
                       ))}

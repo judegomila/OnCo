@@ -4,7 +4,7 @@ export const devicesGapsSchematicAliases: Record<string, string> = {
   // Vascular access and pumps share the infusion device drawing; the feeding pump shares the nutrition drawing.
   "implanted-ports": "infusion-devices-vascular-access", "picc-lines": "infusion-devices-vascular-access", "huber-needles-port-access": "infusion-devices-vascular-access",
   "picc-tip-location-systems": "infusion-devices-vascular-access", "catheter-securement-devices": "infusion-devices-vascular-access", "needleless-connector-disinfecting-caps": "infusion-devices-vascular-access",
-  "catheter-lock-solutions": "infusion-devices-vascular-access", "ambulatory-chemotherapy-pumps": "infusion-devices-vascular-access", "pca-pumps": "pain-management",
+  "catheter-lock-solutions": "infusion-devices-vascular-access", "midline-catheters": "infusion-devices-vascular-access", "tunnelled-cuffed-central-venous-catheters": "infusion-devices-vascular-access", "ethanol-lock-therapy": "infusion-devices-vascular-access", "ambulatory-chemotherapy-pumps": "infusion-devices-vascular-access", "pca-pumps": "pain-management",
   "syringe-drivers": "palliative-care", "smart-infusion-pumps": "infusion-devices-vascular-access", "hepatic-arterial-infusion-pump": "infusion-devices-vascular-access",
   "intrathecal-drug-delivery-pumps": "pain-management", "enteral-feeding-pumps": "enteral-parenteral-nutrition",
   // Stoma, breast and laryngectomy devices.

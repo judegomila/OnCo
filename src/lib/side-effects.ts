@@ -37,7 +37,7 @@ const RULES: Array<[RegExp, string]> = [
   [/hypogammaglobulin|b-cell aplasia/i, "Low antibody levels (hypogammaglobulinaemia)"],
   [/hepatitis b reactivation/i, "Infections"],
   [/infection|pneumonia\b|covid|otitis|urinary tract|upper respiratory/i, "Infections"],
-  [/leukocytosis/i, "Blood chemistry or blood count changes (other)"],
+  [/\bleukocytosis/i, "Blood chemistry or blood count changes (other)"],
 
   // Second cancers.
   [/\bmds\b|myelodysplastic|acute leukaemia|malignan|second primary|squamous cell carcinoma|keratoacanthoma|endometrial cancer/i, "Second cancers"],
@@ -57,7 +57,7 @@ const RULES: Array<[RegExp, string]> = [
   [/weight gain/i, "Weight gain"],
 
   // Lungs and airways.
-  [/\bild\b|interstitial|pneumonitis|pulmonary toxicity/i, "Lung inflammation (pneumonitis, ILD)"],
+  [/\bild\b|\binterstitial|pneumonitis|pulmonary toxicity/i, "Lung inflammation (pneumonitis, ILD)"],
   [/dyspn|cough|hypoxia|pneumothorax|pulmonary arterial hypertension/i, "Breathlessness or cough"],
   [/dysphonia|voice/i, "Voice changes"],
 
@@ -85,7 +85,7 @@ const RULES: Array<[RegExp, string]> = [
   // Nerves, muscles, joints, pain.
   [/neuropath|paraesth|paresth|dysaesth|dysesth/i, "Nerve damage (peripheral neuropathy)"],
   [/rhabdomyolysis/i, "Muscle breakdown (rhabdomyolysis)"],
-  [/arthralgia|myalgia|musculoskeletal|muscle|cramp|cpk|creatine kinase/i, "Muscle or joint pain"],
+  [/arthralgia|\bmyalgia|musculoskeletal|muscle|cramp|cpk|creatine kinase/i, "Muscle or joint pain"],
   [/headache/i, "Headache"],
   [/^pain$/i, "Pain"],
   [/fatigue|asthenia|malaise/i, "Tiredness (fatigue)"],
@@ -167,4 +167,93 @@ export function buildSideEffectIndex(): SideEffectRow[] {
     source: t.source,
     note: t.note,
   })));
+}
+
+/**
+ * The care protocols (src/data/protocols/) that manage each symptom group, so a side-effect row reaches how the
+ * problem is handled and not only how often it happens. Two kinds:
+ *
+ * - `general`: the protocol for the symptom whatever caused it (fever after any treatment that lowers white cells,
+ *   hand-foot syndrome, nausea). Shown for the group.
+ * - `specific`: a protocol for the symptom on particular treatments (immune-related colitis on checkpoint inhibitors,
+ *   irinotecan's early diarrhoea, CRS after a bispecific). Shown only for the products it names, by the structured
+ *   link: the protocol's `drugs` include the product, or its `technologies` include one of the product's.
+ *
+ * Which protocols belong to which group is written here because the groups are the rules' own plain-language labels
+ * and exist nowhere in the corpus; which products a specific protocol applies to is read from the protocol record.
+ * src/lib/side-effects.test.ts checks that every id is a protocol and every key a group the rules produce.
+ */
+export const SYMPTOM_PROTOCOLS: Record<string, { general?: string[]; specific?: string[] }> = {
+  "Cytokine release syndrome": { general: ["crs-grading-and-management"], specific: ["bispecific-step-up-dosing"] },
+  "Confusion or brain effects (neurotoxicity, ICANS)": { specific: ["icans-grading-and-management", "bispecific-step-up-dosing", "irae-neurological"] },
+  "Tumour lysis syndrome": { general: ["tumour-lysis-syndrome-prevention-and-treatment"] },
+  "Immune-related side effects (general)": { specific: ["checkpoint-inhibitor-baseline-and-monitoring", "irae-steroid-taper-and-pjp", "irae-rechallenge"] },
+  "Fever or febrile neutropenia": { general: ["febrile-neutropenia-first-hour", "g-csf-prophylaxis-by-febrile-neutropenia-risk"] },
+  "Low white cells (neutropenia)": { general: ["g-csf-prophylaxis-by-febrile-neutropenia-risk", "febrile-neutropenia-first-hour"] },
+  "Low red cells (anaemia)": { general: ["chemotherapy-induced-anaemia-esa-and-iron", "red-cell-and-platelet-transfusion-thresholds"] },
+  "Low platelets (thrombocytopenia)": { general: ["bleeding-precautions-when-platelets-are-low", "red-cell-and-platelet-transfusion-thresholds"], specific: ["irae-haematological"] },
+  "Low blood counts (general)": { specific: ["icaht-prolonged-cytopenia", "irae-haematological"] },
+  "Low antibody levels (hypogammaglobulinaemia)": { specific: ["car-t-infection-prevention", "bispecific-step-up-dosing"] },
+  "Infections": { specific: ["hepatitis-b-screening-and-reactivation-prophylaxis", "pneumocystis-pneumonia-prophylaxis", "herpes-simplex-and-zoster-antiviral-prophylaxis", "car-t-infection-prevention"] },
+  "Colitis (bowel inflammation)": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irae-colitis"] },
+  "Diarrhoea": { general: ["treatment-induced-diarrhoea-grading-and-management"], specific: ["irinotecan-early-cholinergic-syndrome-and-late-diarrhoea", "neratinib-diarrhoea-prophylaxis-and-dose-escalation", "irae-colitis"] },
+  "Nausea or vomiting": { general: ["antiemetic-prophylaxis-by-emetic-risk"] },
+  "Mouth soreness or ulcers (stomatitis)": { general: ["oral-mucositis-prevention-and-oral-care"] },
+  "Loss of appetite or weight loss": { general: ["nutrition-screening-and-support-during-cancer-treatment"] },
+  "Lung inflammation (pneumonitis, ILD)": { specific: ["irae-pneumonitis"] },
+  "Liver inflammation or raised liver enzymes": { specific: ["irae-hepatitis"] },
+  "Kidney problems": { specific: ["irae-nephritis"] },
+  "Heart muscle weakness or inflammation": { general: ["cardio-oncology-risk-assessment-and-cardiac-surveillance"], specific: ["irae-myocarditis"] },
+  "Blood clots": { general: ["cancer-associated-vte-treatment"] },
+  "Bleeding or bruising": { general: ["bleeding-precautions-when-platelets-are-low"] },
+  "Hand-foot syndrome": { general: ["hand-foot-syndrome-prevention-and-dose-modification"] },
+  "Nail changes": { general: ["skin-and-nail-care-during-cancer-drug-treatment"] },
+  "Hair loss": { specific: ["scalp-cooling-during-chemotherapy"] },
+  "Rash, itching or skin reactions": { general: ["skin-and-nail-care-during-cancer-drug-treatment"], specific: ["egfr-inhibitor-rash-prophylaxis", "irae-skin"] },
+  "Nerve damage (peripheral neuropathy)": { general: ["chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention"] },
+  "Muscle or joint pain": { specific: ["irae-rheumatological"] },
+  "Tiredness (fatigue)": { general: ["cancer-related-fatigue-screening-and-management"] },
+  "Eye problems": { specific: ["eye-care-with-ocular-toxic-antibody-drug-conjugates", "irae-ocular"] },
+  "Hearing problems": { specific: ["paediatric-cisplatin-hearing-protection"] },
+  "Infusion or injection reactions": { general: ["infusion-reaction-management"], specific: ["premedication-before-reaction-prone-anticancer-drugs", "drug-desensitisation-after-anticancer-hypersensitivity"] },
+  "Thyroid changes": { specific: ["irae-thyroid"] },
+  "Adrenal insufficiency": { specific: ["irae-hypophysitis-adrenal"] },
+  "High blood sugar": { specific: ["irae-diabetes"] },
+  "Hot flushes, sexual or fertility effects": { general: ["sexual-health-assessment-and-interventions"], specific: ["hot-flushes-on-endocrine-therapy-non-hormonal-options"] },
+  "Bone loss or fractures": { specific: ["bone-health-on-hormone-therapy"] },
+};
+
+/** A care protocol for a symptom group; for a specific one, `drugs` are the products in the group's rows it names. */
+export type SideEffectProtocol = { id: string; name: string; route: string; general: boolean; drugs: string[] };
+
+/** Whether a protocol names a product: in its `drugs`, or through a technology both name. */
+export function protocolNamesProduct(p: { drugs: string[]; technologies: string[] }, d: { id: string; technologies: string[] }): boolean {
+  return p.drugs.includes(d.id) || d.technologies.some((t) => p.technologies.includes(t));
+}
+
+/** Server-side: the protocols for each symptom group present in `rows`, general first; a specific one only with the products it names. */
+export function symptomProtocols(rows: SideEffectRow[]): Record<string, SideEffectProtocol[]> {
+  const g = graph();
+  const drugsByGroup = new Map<string, Set<string>>();
+  for (const r of rows) {
+    const set = drugsByGroup.get(r.group) ?? new Set<string>();
+    set.add(r.drugId);
+    drugsByGroup.set(r.group, set);
+  }
+  const out: Record<string, SideEffectProtocol[]> = {};
+  for (const [group, drugIds] of drugsByGroup) {
+    const spec = SYMPTOM_PROTOCOLS[group];
+    if (!spec) continue;
+    const list: SideEffectProtocol[] = [];
+    const add = (id: string, general: boolean) => {
+      const p = g.get(id);
+      if (p?.kind !== "protocol" || list.some((x) => x.id === id)) return;
+      const drugs = general ? [] : [...drugIds].filter((d) => { const e = g.get(d); return e?.kind === "drug" && protocolNamesProduct(p, e); });
+      if (general || drugs.length) list.push({ id, name: p.name, route: routeFor(p), general, drugs });
+    };
+    for (const id of spec.general ?? []) add(id, true);
+    for (const id of spec.specific ?? []) add(id, false);
+    if (list.length) out[group] = list;
+  }
+  return out;
 }

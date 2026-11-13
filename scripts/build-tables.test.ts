@@ -2,9 +2,9 @@ import { describe, expect, it } from "vitest";
 import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import { KIND_PAGE, pageRows, tableFile } from "../src/lib/static-tables";
+import { pageRows, tableFile } from "../src/lib/static-tables";
 import { allTables, pagedTables, tablePage } from "../src/lib/tables";
-import { kindTableId, PAGED_KINDS } from "../src/lib/tables/kinds";
+import { kindPageSize, kindTableId, PAGED_KINDS } from "../src/lib/tables/kinds";
 import { EVIDENCE_TABLE } from "../src/lib/tables/evidence";
 import { CHINA_TRIALS_TABLE } from "../src/lib/tables/china";
 import { UNIVERSITY_GROUPED_TABLE, UNIVERSITY_OUTPUT_TABLE, UNIVERSITY_SCORE_TABLE } from "../src/lib/tables/universities";
@@ -33,8 +33,8 @@ describe("paged table files", () => {
     for (const k of PAGED_KINDS) {
       expect(ids, k).toContain(kindTableId(k));
       const t = tables.find((x) => x.id === kindTableId(k))!;
-      expect(t.page, k).toBe(KIND_PAGE);
-      expect(t.rows.length, k).toBeGreaterThan(KIND_PAGE);
+      expect(t.page, k).toBe(kindPageSize(k));
+      expect(t.rows.length, k).toBeGreaterThan(kindPageSize(k));
     }
     for (const w of written) {
       expect(w.path).toBe(tableFile(w.id));

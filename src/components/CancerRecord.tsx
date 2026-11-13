@@ -47,6 +47,8 @@ import { CancerPipeline } from "./CancerPipeline";
 import { FamilyRollup } from "./FamilyRollup";
 import { Bullets } from "./ui";
 import { machineRoutes } from "@/lib/seo";
+import { protocolsFor } from "@/lib/members";
+import { ProtocolList } from "./ProtocolDetail";
 
 /**
  * A cancer record as ten sections (src/lib/record-sections.ts). `cancerTabs` builds the hub page: each section is
@@ -203,6 +205,21 @@ function PillRow({ items, label }: { items: Array<{ href: string; text: string; 
 /* ------------------------------------------------------------------------------------------------------------ */
 
 /** One section of a cancer record in full. `plan` is the section's entry in the plan (for the sub-page pills). */
+/**
+ * The care protocols for this cancer (src/lib/members.ts `protocolsFor`): those naming it or a cancer above it, and
+ * those naming a treatment its record lists. Nothing when there are none.
+ */
+function CancerProtocols({ c }: { c: Cancer }) {
+  const members = protocolsFor(c);
+  if (!members.length) return null;
+  return (
+    <Block id="protocols" title="Care protocols" aside={<span className="text-sm text-muted tabular-nums">{members.length}</span>}>
+      <ProtocolList members={members} />
+      <p className="text-xs text-muted mt-3"><Link className="underline" href="/protocols/">Every care protocol</Link></p>
+    </Block>
+  );
+}
+
 export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?: SectionPlan }) {
   const g = graph();
   const p = plan ?? sectionPlan(c, g).find((x) => x.def.id === id)!;
@@ -278,6 +295,7 @@ export function CancerSection({ c, id, plan }: { c: Cancer; id: SectionId; plan?
           {!c.standardOfCare.length && <p className="text-sm text-muted">No standard-of-care rows are recorded yet; the parent cancer&apos;s page may carry them.</p>}
         </div>
       </Block>
+      <CancerProtocols c={c} />
     </>);
 
     case "evidence": { const trials = forMe.get("trial") ?? []; const papers = keyPapersFor(c); return (<>

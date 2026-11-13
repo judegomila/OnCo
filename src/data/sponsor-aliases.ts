@@ -12,6 +12,22 @@ export type SponsorTarget = { id?: string; label: string; kind: SponsorKind };
 
 /** Regex patterns tested against the normalised sponsor string. Order matters: more specific first. */
 export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
+  // Institutions added on 11 November 2026 whose names a broad pattern below would give to another record: Libya's
+  // national cancer institutes to the US NCI, Abbott Northwestern to Abbott, MD Anderson Madrid to Houston, Heidelberg's
+  // Thoraxklinik to the NCT, Birmingham's orthopaedic hospital to the university, and a Princess Margaret, a St Jude, a
+  // Mount Sinai, a Brigham, a Duke and a Severance that are not the ones below. First match wins, so they sit at the top.
+  [/\bnci misurata\b|\bnational cancer institute misurata\b|\bmisurata national cancer institute\b/, { id: "nci-misurata", label: "National Cancer Institute, Misurata", kind: "institution" }],
+  [/\bnci sabratha\b|\bnational cancer institute sabratha\b|\bsabratha national cancer institute\b/, { id: "nci-sabratha", label: "National Cancer Institute, Sabratha", kind: "institution" }],
+  [/\babbott northwestern\b/, { id: "abbott-northwestern-hospital", label: "Abbott Northwestern Hospital", kind: "institution" }],
+  [/\bbrigham and women'?s faulkner\b|\bfaulkner hospital\b/, { id: "brigham-and-womens-faulkner-hospital", label: "Brigham and Women's Faulkner Hospital", kind: "institution" }],
+  [/\bduke regional\b|\bduke cancer center north durham\b/, { id: "duke-regional-hospital", label: "Duke Regional Hospital", kind: "institution" }],
+  [/\bmount sinai hospital toronto\b|\bsinai health\b/, { id: "mount-sinai-hospital-toronto", label: "Mount Sinai Hospital, Toronto", kind: "institution" }],
+  [/\bprincess margaret hospital \(nassau\)|\bprincess margaret hospital (nassau|bahamas)\b/, { id: "princess-margaret-hospital-bahamas", label: "Princess Margaret Hospital, Nassau", kind: "institution" }],
+  [/\bprovidence st\.? jude\b|\bst\.? jude medical center\b/, { id: "providence-st-jude-medical-center", label: "Providence St. Jude Medical Center", kind: "institution" }],
+  [/\bmd anderson cancer center madrid\b|\bmd anderson madrid\b|\bmd anderson (cancer center )?hospiten\b/, { id: "md-anderson-madrid", label: "MD Anderson Cancer Center Madrid", kind: "institution" }],
+  [/\broyal orthopaedic hospital\b/, { id: "royal-orthopaedic-hospital-birmingham", label: "The Royal Orthopaedic Hospital, Birmingham", kind: "institution" }],
+  [/\bthoraxklinik\b|\bheidelberg thoracic clinic\b/, { id: "thoraxklinik-heidelberg", label: "Thoraxklinik Heidelberg", kind: "institution" }],
+  [/\bgangnam severance\b/, { id: "gangnam-severance-hospital", label: "Gangnam Severance Hospital", kind: "institution" }],
   // ---- Large pharma ----
   [/merck sharp|^msd\b|^merck & co|^merck$|^merck \(msd\)|merck and co/, { id: "merck", label: "Merck & Co. (MSD)", kind: "company" }],
   [/merck kgaa|emd serono|merck healthcare|darmstadt/, { id: "merck-kgaa", label: "Merck KGaA (EMD Serono)", kind: "company" }],
@@ -20,7 +36,7 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/hoffmann|^roche|genentech|chugai/, { id: "roche-genentech", label: "Roche / Genentech", kind: "company" }],
   [/novartis|advanced accelerator|endocyte/, { id: "novartis", label: "Novartis", kind: "company" }],
   [/pfizer|seagen|seattle genetics|array bio|medivation|wyeth|arena pharma/, { id: "pfizer", label: "Pfizer", kind: "company" }],
-  [/eli lilly|^lilly(?! asia ventures)|loxo/, { id: "eli-lilly", label: "Eli Lilly", kind: "company" }],
+  [/eli lilly|^lilly(?! asia ventures)|\bloxo/, { id: "eli-lilly", label: "Eli Lilly", kind: "company" }],
   [/janssen|johnson & johnson|johnson and johnson|^j&j/, { id: "johnson-johnson", label: "Johnson & Johnson (Janssen)", kind: "company" }],
   [/daiichi/, { id: "daiichi-sankyo", label: "Daiichi Sankyo", kind: "company" }],
   [/gilead|^kite|immunomedics|forty seven/, { id: "gilead", label: "Gilead Sciences (Kite)", kind: "company" }],
@@ -485,7 +501,7 @@ export const SPONSOR_PATTERNS: Array<[RegExp, SponsorTarget]> = [
   [/national cancer centre singapore/, { id: "nccs", label: "National Cancer Centre Singapore", kind: "institution" }],
   [/national taiwan university/, { id: "ntuh", label: "National Taiwan University Hospital", kind: "institution" }],
   [/kyoto university/, { id: "kyoto-university-hospital", label: "Kyoto University Hospital", kind: "institution" }],
-  [/university of iceland/, { label: "University of Iceland", kind: "institution" }],
+  [/university of iceland/, { id: "university-of-iceland", label: "University of Iceland", kind: "institution" }],
   [/gates foundation/, { id: "gates-foundation", label: "Gates Foundation", kind: "other" }],
   [/john wayne/, { label: "John Wayne Cancer Institute", kind: "institution" }],
 ];

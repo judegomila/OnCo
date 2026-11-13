@@ -113,6 +113,11 @@ import { precisionDosing } from "./spikes/precision-dosing";
 import { precisionRoadmap } from "./spikes/precision-roadmap";
 import { protocolUpgradesRtSurgery } from "./spikes/protocol-upgrades-rt-surgery";
 import { protocolUpgradesCare } from "./spikes/protocol-upgrades-care";
+import { protocolUpgradesAdministration } from "./spikes/protocol-upgrades-administration";
+import { protocolUpgradesPharmacyAccess } from "./spikes/protocol-upgrades-pharmacy-access";
+import { protocolUpgradesFillGi } from "./spikes/protocol-upgrades-fill-gi";
+import { protocolUpgradesFillSkin } from "./spikes/protocol-upgrades-fill-skin";
+import { protocolUpgradesFillBody } from "./spikes/protocol-upgrades-fill-body";
 import { rejuvenationMeasurement } from "./spikes/rejuvenation-measurement";
 import { tests } from "./tests";
 import { testsCdxDevices } from "./tests-cdx-devices";
@@ -303,6 +308,18 @@ import { institutionsBiobankGaps2026, collectionsBiobankGaps2026, biobankBacklin
 import { institutionsGrantGaps2026, collectionsGrantGaps2026, trialsGrantGaps2026, grantBacklinks } from "./funding-programmes-gaps-2026-11";
 import { termsLawGaps2026, lawBacklinks } from "./laws-gaps-2026-11";
 import { termsPayerGaps2026, institutionsPayerGaps2026, payerBacklinks } from "./payers-gaps-2026-11";
+import { supportiveCareGapDrugs, supportiveCareGapDrugBacklinks } from "./supportive-care-gaps-2026-11";
+import { supportiveCareGapTechnologies, supportiveCareGapTerms, supportiveCareGapTermBacklinks } from "./supportive-care-gaps-2026-11-terms";
+// Institutions for the countries that held fewer than three (census of 11 November 2026, by region).
+import { NEWSWEEK_ONCOLOGY_2026, newsweekOncology2026Ranks } from "./institutions/newsweek-oncology-2026";
+import { institutionsNewsweek2026Europe } from "./institutions/newsweek-oncology-2026-records-europe";
+import { institutionsNewsweek2026World } from "./institutions/newsweek-oncology-2026-records-world";
+import { institutionsCountriesMena, countriesMenaBacklinks } from "./institutions/countries-2026-11-mena";
+import { institutionsCountriesAsiaPacific, countriesAsiaPacificBacklinks } from "./institutions/countries-2026-11-asia-pacific";
+import { institutionsCountriesAmericas, countriesAmericasBacklinks } from "./institutions/countries-2026-11-americas";
+import { institutionsCountriesWestCentralAfrica, countriesWestCentralAfricaBacklinks } from "./institutions/countries-2026-11-west-central-africa";
+import { institutionsCountriesEastSouthernAfrica, countriesEastSouthernAfricaBacklinks } from "./institutions/countries-2026-11-east-southern-africa";
+import { institutionsCountriesEuropeOverseas, countriesEuropeOverseasBacklinks } from "./institutions/countries-2026-11-europe-overseas";
 import { drugsPipelineWave1 } from "./drugs-pipeline-wave1";
 import { trop2DualPayload } from "./trop2-dual-payload";
 import { pipelineTrialsWave2 } from "./pipeline-trials-wave2";
@@ -385,6 +402,7 @@ import { hospicesSupportGaps } from "./hospices-support-gaps-2026-11";
 import { palliativeNavigationFertilityGaps } from "./palliative-navigation-fertility-gaps-2026-11";
 import { psychosocialGeneticsGaps } from "./psychosocial-genetics-gaps-2026-11";
 import { helplinesGaps } from "./helplines-gaps-2026-11";
+import { protocols } from "./protocols";
 
 const RAW_INPUTS: EntityInput[] = [
   ...ucsfBreastTrials,
@@ -478,6 +496,11 @@ const RAW_INPUTS: EntityInput[] = [
   ...precisionRoadmap,
   ...protocolUpgradesRtSurgery,
   ...protocolUpgradesCare,
+  ...protocolUpgradesAdministration,
+  ...protocolUpgradesPharmacyAccess,
+  ...protocolUpgradesFillGi,
+  ...protocolUpgradesFillSkin,
+  ...protocolUpgradesFillBody,
   ...rejuvenationMeasurement,
   ...tests,
   ...testsCdxDevices,
@@ -535,6 +558,9 @@ const RAW_INPUTS: EntityInput[] = [
   ...veterinaryGapDrugs, ...veterinaryGapInstitutions,
   ...institutionsPrizes202611,
   ...institutionsParticleTherapyGaps2026, ...institutionsDonorRegistryGaps2026, ...institutionsBiobankGaps2026, ...collectionsBiobankGaps2026, ...institutionsGrantGaps2026, ...collectionsGrantGaps2026, ...trialsGrantGaps2026, ...termsLawGaps2026, ...termsPayerGaps2026, ...institutionsPayerGaps2026,
+  ...supportiveCareGapDrugs, ...supportiveCareGapTechnologies, ...supportiveCareGapTerms,
+  ...institutionsCountriesMena, ...institutionsCountriesAsiaPacific, ...institutionsCountriesAmericas, ...institutionsCountriesWestCentralAfrica, ...institutionsCountriesEastSouthernAfrica, ...institutionsCountriesEuropeOverseas,
+  ...institutionsNewsweek2026Europe, ...institutionsNewsweek2026World,
   ...targetsWaveSoc, ...targetsPipelineGap, ...targetsReaderEdits, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...drugsUniverseGaps, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...trop2DualPayload,
@@ -549,6 +575,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...cansimOncologyTerms, ...cansimMethodsTerms, ...cansimTargets,
   ...scoringSystemsGapTerms,
   ...hospicesSupportGaps, ...palliativeNavigationFertilityGaps, ...psychosocialGeneticsGaps, ...helplinesGaps,
+  ...protocols,
 ];
 
 /** Readout ids by parent target id and by the drugs their current thresholds name (see the biomarker branch in ALL_INPUTS). */
@@ -562,6 +589,14 @@ for (const bm of ALL_READOUTS) {
 // A test or device names the readouts it measures in its own `related` (src/data/readout-test-records.ts), never the
 // readout's `drugs`, which holds what a result selects.
 for (const [bmId, ids] of Object.entries(READOUT_TEST_RECORDS)) for (const id of ids) { const list = (READOUTS_BY_DRUG[id] ??= []); if (!list.includes(bmId)) list.push(bmId); }
+
+/**
+ * Care protocols (./protocols/) by each device, medicine and glossary term they name. The reverse link is written
+ * here, as for readouts, so a protocol is reached from the pages it concerns and is not an orphan; those pages list
+ * their protocols in their own section (src/lib/members.ts `protocolsFor`) and leave them out of Connected.
+ */
+const PROTOCOLS_BY_RECORD: Record<string, string[]> = {};
+for (const pr of protocols) for (const id of new Set([...(pr.technologies ?? []), ...(pr.drugs ?? []), ...(pr.terms ?? [])])) (PROTOCOLS_BY_RECORD[id] ??= []).push(pr.id);
 
 /** Every input, with glossary terms mapped to their canonical category (see ./term-categories.ts). */
 /**
@@ -602,7 +637,7 @@ const READOUT_TESTS_BY_COMPANY: Record<string, string[]> = (() => {
 
 /**
  * Inbound links for the November 2026 census fill (particle therapy centres, donor registries, biobanks, funding
- * programmes, laws, payers): each fill file exports a map from an existing record to the new records it should list,
+ * programmes, laws, payers, and the supportive care medicines, devices and terms the care protocols named): each fill file exports a map from an existing record to the new records it should list,
  * so the host hospital, funder, drug or technology page shows them without editing the file that owns it. The field is
  * chosen by the new record's kind, so a typed array only ever holds its own kind; collections go to `related`.
  */
@@ -610,10 +645,12 @@ const CENSUS_FILL_BACKLINKS: Map<string, Map<string, string[]>> = (() => {
   const kindOf = new Map<string, string>([
     ...institutionsParticleTherapyGaps2026, ...institutionsDonorRegistryGaps2026, ...institutionsBiobankGaps2026, ...collectionsBiobankGaps2026,
     ...institutionsGrantGaps2026, ...collectionsGrantGaps2026, ...trialsGrantGaps2026, ...termsLawGaps2026, ...termsPayerGaps2026, ...institutionsPayerGaps2026,
+    ...supportiveCareGapDrugs, ...supportiveCareGapTechnologies, ...supportiveCareGapTerms,
+    ...institutionsCountriesMena, ...institutionsCountriesAsiaPacific, ...institutionsCountriesAmericas, ...institutionsCountriesWestCentralAfrica, ...institutionsCountriesEastSouthernAfrica, ...institutionsCountriesEuropeOverseas,
   ].map((e) => [e.id, e.kind] as [string, string]));
-  const fieldFor: Record<string, string> = { institution: "institutions", term: "terms", trial: "trials", collection: "related" };
+  const fieldFor: Record<string, string> = { institution: "institutions", term: "terms", trial: "trials", collection: "related", drug: "drugs", technology: "technologies" };
   const out = new Map<string, Map<string, string[]>>();
-  for (const map of [particleTherapyHostBacklinks, donorRegistryBacklinks, biobankBacklinks, grantBacklinks, lawBacklinks, payerBacklinks])
+  for (const map of [particleTherapyHostBacklinks, donorRegistryBacklinks, biobankBacklinks, grantBacklinks, lawBacklinks, payerBacklinks, supportiveCareGapDrugBacklinks, supportiveCareGapTermBacklinks, countriesMenaBacklinks, countriesAsiaPacificBacklinks, countriesAmericasBacklinks, countriesWestCentralAfricaBacklinks, countriesEastSouthernAfricaBacklinks, countriesEuropeOverseasBacklinks])
     for (const [from, ids] of Object.entries(map)) for (const id of ids) {
       const kind = kindOf.get(id);
       if (!kind) throw new Error(`Census fill backlink names a record not in the fill files: ${id}`);
@@ -636,6 +673,38 @@ function withCensusFillBacklinks<T extends EntityInput>(e: T): T {
   if (missing.length) throw new Error(`Census fill backlinks name records that do not exist: ${missing.join(", ")}`);
 }
 
+/**
+ * Newsweek/Statista World's Best Specialized Hospitals 2026: Oncology, for records other files own
+ * (src/data/institutions/newsweek-oncology-2026.ts): the rank goes on the record with the list in its links, and the
+ * collection `newsweek-hospitals` lists every institution that carries a rank, in rank order. A rank given twice, or one
+ * that contradicts a rank the owning file already states, stops the build rather than picking one.
+ */
+const NEWSWEEK_RANKED: string[] = (() => {
+  const byRank = new Map<number, string>();
+  for (const e of RAW_INPUTS_DEDUPED) {
+    if (e.kind !== "institution") continue;
+    const own = e.newsweekOncology2026, overlay = newsweekOncology2026Ranks[e.id]?.rank;
+    if (own !== undefined && overlay !== undefined && own !== overlay) throw new Error(`Newsweek 2026 rank for ${e.id}: the record says ${own}, newsweek-oncology-2026.ts says ${overlay}`);
+    const rank = overlay ?? own;
+    if (rank === undefined) continue;
+    const prior = byRank.get(rank);
+    if (prior) throw new Error(`Newsweek 2026 oncology rank ${rank} is given to both ${prior} and ${e.id}`);
+    byRank.set(rank, e.id);
+  }
+  const ids = new Set(RAW_INPUTS_DEDUPED.map((e) => e.id));
+  const missing = Object.keys(newsweekOncology2026Ranks).filter((id) => !ids.has(id));
+  if (missing.length) throw new Error(`newsweek-oncology-2026.ts names records that do not exist: ${missing.join(", ")}`);
+  return [...byRank.entries()].sort((a, b) => a[0] - b[0]).map(([, id]) => id);
+})();
+function withNewsweekRank<T extends EntityInput>(e: T): T {
+  if (e.id === "newsweek-hospitals") return { ...e, institutions: [...(e.institutions ?? []), ...NEWSWEEK_RANKED.filter((id) => !(e.institutions ?? []).includes(id))] };
+  const r = newsweekOncology2026Ranks[e.id];
+  if (!r || e.kind !== "institution") return e;
+  const links = e.links ?? [];
+  const link = { label: `Newsweek World's Best Specialized Hospitals 2026: Oncology, rank ${r.rank} (${r.listed}, ${r.city})`, url: NEWSWEEK_ONCOLOGY_2026 };
+  return { ...e, newsweekOncology2026: r.rank, links: links.some((l) => l.url === link.url) ? links : [...links, link] };
+}
+
 const RECORDS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // Spike supplements (src/data/spikes/index.ts): partial records a cancer deep dive attaches to targets, readouts,
   // drugs and papers other files own; arrays append, scalars fill gaps. Applied before everything else.
@@ -644,11 +713,13 @@ const RECORDS: EntityInput[] = RAW_INPUTS_DEDUPED.map((base) => {
   // drugs and papers other files own) come next; arrays append, scalars fill gaps.
   // Merge supplements (src/data/merged-records.ts): what a record retired as a duplicate carried and its survivor did
   // not. Applied on the same terms as a spike supplement, so retiring an id loses no relation.
-  const raw = withCensusFillBacklinks(applyMergeSupplements(applySpikeSupplements(base.kind === "cancer" ? mergeSpikeInto(base) : base)));
+  const raw = withNewsweekRank(withCensusFillBacklinks(applyMergeSupplements(applySpikeSupplements(base.kind === "cancer" ? mergeSpikeInto(base) : base))));
   // Paper pages written for DOIs a record cites in its external links by scripts/fetch-cited-papers.ts (wave 7): the
   // citing record, whatever its kind, gains the paper in `keyPapers`. Applied first so the kind-specific steps below see it.
   const cited = citedPaperLinksWave7[raw.id];
   let e: EntityInput = cited ? { ...raw, keyPapers: [...(raw.keyPapers ?? []), ...cited.filter((id) => !(raw.keyPapers ?? []).includes(id))] } : raw;
+  const prs = PROTOCOLS_BY_RECORD[e.id];
+  if (prs) e = { ...e, related: [...(e.related ?? []), ...prs.filter((id) => !(e.related ?? []).includes(id))] };
   // Patient education links (src/data/patient-education-links-2026-11.ts): NCCN Guidelines for Patients, NCI PDQ patient
   // summaries and ONS/NCODA patient education sheets, appended to the record's own links; an address it holds is not repeated.
   const edu = patientEducationLinks[e.id];

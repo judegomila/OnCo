@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -94,7 +95,7 @@ export default function IndiaPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#gallbladder", "Gallbladder cancer"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#doing", "What is being done"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#gallbladder", "Gallbladder cancer"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#doing", "What is being done"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
@@ -153,6 +154,8 @@ export default function IndiaPage() {
             </div>
           )}
         </Section>
+
+        <CountryTrialsSection iso2="IN" />
 
         <Section id="institutions" title="Research institutions and cancer centres" aside={<span className="text-sm text-muted">{allInstitutions} Indian institutions in the corpus · <Link href="/institutions/" className="underline">map and ranking</Link></span>}>
           <Grid items={institutions} />

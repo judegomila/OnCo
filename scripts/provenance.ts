@@ -65,7 +65,7 @@ function blame(file: string): BlameLine[] {
 /** Kind from the file name when the record's lines do not say (helper-built records such as ideas.ts). */
 const FILE_KIND: Record<string, string> = {
   cancers: "cancer", sections: "section", technologies: "technology", targets: "target", drugs: "drug", companies: "company", institutions: "institution",
-  pathways: "pathway", terms: "term", trials: "trial", pairings: "pairing", roadmaps: "roadmap", ideas: "idea", collections: "collection", bottlenecks: "bottleneck", journals: "journal",
+  pathways: "pathway", terms: "term", trials: "trial", pairings: "pairing", roadmaps: "roadmap", ideas: "idea", collections: "collection", bottlenecks: "bottleneck", journals: "journal", protocols: "protocol",
   "pipeline-trials": "trial", failures: "drug", groups: "institution", sources: "collection", "terms-basics": "term",
 };
 

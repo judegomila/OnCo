@@ -239,6 +239,7 @@ export const ja: UiDict = {
   "kind.paper.label": "重要論文", "kind.paper.plural": "重要論文",
   "kind.bottleneck.label": "ボトルネック", "kind.bottleneck.plural": "ボトルネック", "kind.bottleneck.title": "がんとの戦いのボトルネック",
   "kind.biomarker.label": "バイオマーカー", "kind.biomarker.plural": "バイオマーカー", "kind.biomarker.title": "バイオマーカーと判定値",
+  "kind.protocol.label": "プロトコル", "kind.protocol.plural": "プロトコル", "kind.protocol.title": "ケアプロトコル",
   "kind.year.label": "年", "kind.year.plural": "年", "kind.year.title": "がん医療の一年ごと",
 
   "l.Summary": "要約",
@@ -310,6 +311,7 @@ export const ja: UiDict = {
   "l.Payload": "ペイロード",
   "l.Linker": "リンカー",
   "l.Where it is approved": "承認されている地域",
+  "l.Is this drug available in my country?": "この薬は私の国で使えますか？",
   "l.Approvals": "承認",
   "l.Region": "地域",
   "l.Year": "年",

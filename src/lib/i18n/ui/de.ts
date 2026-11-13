@@ -239,6 +239,7 @@ export const de: UiDict = {
   "kind.paper.label": "Schlüsselpublikation", "kind.paper.plural": "Schlüsselpublikationen",
   "kind.bottleneck.label": "Engpass", "kind.bottleneck.plural": "Engpässe", "kind.bottleneck.title": "Die Engpässe im Krieg gegen den Krebs",
   "kind.biomarker.label": "Biomarker", "kind.biomarker.plural": "Biomarker", "kind.biomarker.title": "Biomarker & Messwerte",
+  "kind.protocol.label": "Protokoll", "kind.protocol.plural": "Protokolle", "kind.protocol.title": "Pflegeprotokolle",
   "kind.year.label": "Jahr", "kind.year.plural": "Jahre", "kind.year.title": "Onkologie Jahr für Jahr",
 
   "l.Summary": "Zusammenfassung",
@@ -310,6 +311,7 @@ export const de: UiDict = {
   "l.Payload": "Wirkstofffracht",
   "l.Linker": "Linker",
   "l.Where it is approved": "Wo es zugelassen ist",
+  "l.Is this drug available in my country?": "Ist dieses Medikament in meinem Land verfügbar?",
   "l.Approvals": "Zulassungen",
   "l.Region": "Region",
   "l.Year": "Jahr",

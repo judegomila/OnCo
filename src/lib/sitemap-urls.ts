@@ -17,6 +17,7 @@ import { ukPathwayCancerIds, ukPathwayRoute } from "./uk-pathway";
 import { DECISION_TOOLS, toolRoute } from "./decision-tools";
 import { COMPARE_SETS, compareRoute } from "./cancer-compare";
 import { pagedSectionParams, sectionRoute } from "./record-sections";
+import { autoCountryCodes, countryRoute } from "./country-pages";
 
 export type SitemapUrl = { url: string; lastModified?: string };
 
@@ -115,6 +116,8 @@ export function sitemapUrls(): SitemapUrl[] {
   for (const f of FORMATS) add(engineRoute(f.id), newest.drug);
   for (const f of FORMATS) add(modalityRoute(f.id), newest.drug);
   for (const t of allTags()) add(`/tagged/${t.slug}/`);
+  // Automatic country pages (src/app/countries/[iso]/page.tsx); the deep dives are static routes, listed above.
+  for (const c of autoCountryCodes()) add(countryRoute(c));
   return out;
 }
 

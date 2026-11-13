@@ -26,6 +26,8 @@ const ICONS: Record<Kind, (p: P) => React.ReactElement> = {
   journal: (p) => <Svg {...p}><path d="M4 4h16v16H4z" /><path d="M7 8h5v5H7zM14 8h3M14 11h3M7 16h10" /></Svg>,
   // A year: the calendar the whole record hangs on, with the current row marked.
   year: (p) => <Svg {...p}><rect x="3.5" y="5" width="17" height="15" rx="2" /><path d="M8 3v4M16 3v4M3.5 10h17M8 14h3" /></Svg>,
+  // A protocol: a clipboard of ticked steps.
+  protocol: (p) => <Svg {...p}><rect x="5" y="4" width="14" height="17" rx="2" /><path d="M9 4V3h6v1M8 10l1.2 1.2L11.5 9M8 15l1.2 1.2 2.3-2.2M13.5 10.5H16M13.5 15.5H16" /></Svg>,
   biomarker: (p) => <Svg {...p}><path d="M4 18h16" /><path d="M6 18V11M10 18V7M14 18v-5M18 18V9" /><path d="M4 8.5h2.5M9 8.5h1.5" strokeDasharray="1.5 1.5" /></Svg>,
 };
 

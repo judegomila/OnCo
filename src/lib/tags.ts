@@ -44,6 +44,7 @@ export const NO_DESCRIPTION = "No description yet";
 export const TAG_DESCRIPTIONS: Readonly<Record<string, string>> = {
   survivorship: "Records about life after cancer treatment: late effects, the checks that find them, and what helps recovery.",
   precision: "Records where care is limited by how precise it is: how precise a test, a beam, a margin or a dose is today, what limits it, and what more precision would buy a patient.",
+  protocol: "Care protocols: how a part of cancer care is done, step by step, with the source behind each step, or a note where no source states it.",
   "protocol-upgrade": "Changes to how existing care is delivered rather than new treatments, graded by whether they are proven and unevenly used, promising, or untested.",
   rejuvenation: "Records on the Recovery and Rejuvenation front: what treatment takes from the body, whether it comes back, and what is offered or sold to speed it.",
   transplant: "Records about stem cell transplant and cell therapy as a long-term situation: graft-versus-host disease, late effects and the immune system afterwards.",

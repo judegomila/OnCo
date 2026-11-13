@@ -51,6 +51,7 @@ export const NAV_GROUPS: NavGroup[] = [
       { href: "/machines/", label: "Machines", blurb: "The scanners, accelerators, robots and ablation devices hospitals use against cancer: what each does, its advantages and limits, who makes it, and which centres run the rare ones." },
       { href: "/open-questions/", label: "Open questions", blurb: "Unresolved questions per target and technology: why open, what would answer them, who acts." },
       { href: "/preclinical-models/", label: "Preclinical models", blurb: "Cell lines with Cellosaurus and DepMap ids, PDX banks, mouse models and organoids per cancer and target." },
+      { href: "/protocols/", label: "Care protocols", blurb: "How care is carried out step by step, from accessing a port to fever during chemotherapy: each step with its reason and source, the best-supported version beside the variants." },
       { href: "/regimens/", label: "Regimens", blurb: "Named regimens with doses, days, cycles, emetogenicity and G-CSF need; calendar strip per regimen." },
       { href: "/sequencing/", label: "Lines of therapy", blurb: "Per cancer, the standard of care by line and biomarker subgroup, with sequence and caution pairings." },
       { href: "/staging/", label: "Staging & risk scores", blurb: "TNM, FIGO, Lugano, BCLC, R-ISS and interactive IPI, IMDC, CLL-IPI, Child-Pugh, Khorana scorers." },

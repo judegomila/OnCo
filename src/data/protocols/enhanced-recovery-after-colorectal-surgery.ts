@@ -1,0 +1,255 @@
+import { protocol } from "./helpers";
+
+/*
+ * Enhanced recovery after planned bowel cancer surgery (colon and rectum).
+ *
+ * What was read, and how (11 November 2026, fetched raw with curl into a scratch directory and read as text):
+ * - ERAS Society colorectal recommendations 2025 (Gustafsson et al., Surgery 2025, doi 10.1016/j.surg.2025.109397;
+ *   corrigendum 2026): the current edition. Europe PMC and PubMed hold no abstract for it and the journal page refused
+ *   a script, so none of its recommendations could be read. It is named here and no step rests on it.
+ * - ERAS Society colorectal recommendations 2018 (World J Surg 2019): abstract only (Europe PMC); the publisher PDF and
+ *   the repository copies answered with a bot check, which was not got round. The abstract holds no recommendations.
+ * - The 2024 Korean ERAS guidelines for colorectal cancer (Ann Coloproctol 2025, secondary publication): full text,
+ *   Europe PMC XML (PMC11906033). Thirteen key questions, GRADE, each with a strength and a level of evidence, quoted as
+ *   printed. This is the most recent graded colorectal ERAS guideline whose recommendations could be read.
+ * - EUPEMEN recommendations for perioperative care in colorectal surgery (Int J Surg 2024): full text, PMC11325912.
+ * - NICE NG180 (2020) and NG125 (2019, updated 2020), and the WHO global guidelines for the prevention of surgical
+ *   site infection (2016, second edition 2018): raw text, read by the first protocol agent and re-checked here.
+ * Every DOI was resolved through Crossref and Europe PMC and its title checked.
+ */
+export const enhancedRecoveryAfterColorectalSurgery = protocol({
+  id: "enhanced-recovery-after-colorectal-surgery",
+  name: "Enhanced recovery after colorectal cancer surgery (ERAS pathway for bowel resection)",
+  aka: ["ERAS colorectal", "ERAS bowel surgery", "enhanced recovery colectomy", "fast-track colorectal surgery", "perioperative care for bowel cancer surgery"],
+  domain: "surgery-perioperative",
+  tldr: "Enhanced recovery is a package of care for bowel cancer surgery: getting fitter and better nourished beforehand, a sugary drink up to two hours before, antibiotic tablets with the bowel preparation, two anti-sickness drugs, no routine tubes or drains, the urinary catheter out the next day, and eating and walking from the day after the operation.",
+  simple: "Before bowel cancer surgery you may be offered exercise and nutrition drinks. You can have a sugary drink up to two hours before. After the operation you will be helped to eat, drink and walk early, with fewer tubes, which speeds recovery.",
+  summary: "The current ERAS Society colorectal guideline (2025) could not be read: no abstract is indexed and the publisher refused a script. The most recent graded guideline that could be read in full is the 2024 Korean ERAS guideline for colorectal cancer (13 GRADE recommendations). Strong, high-quality: dexamethasone plus a 5-HT3 antagonist rather than either alone for nausea. Conditional for, high quality: oral antibiotics with mechanical bowel preparation. Conditional for, moderate: prehabilitation; preoperative oral nutritional supplements; carbohydrate loading up to 2 hours before; goal-directed fluid therapy in high-risk patients; TAP block; preoperative pharmacological thromboprophylaxis; urinary catheter out on day 1; early feeding and walking from day 1. Conditional against: routine intra-abdominal drain (moderate) and nasogastric tube (low). NICE NG180 offers an enhanced recovery programme to everyone having elective major surgery. On bowel preparation the bodies differ: WHO (2018) and the Korean guideline support oral antibiotics with mechanical preparation; NICE NG125 (recommendation from 2008) says not to use mechanical bowel preparation routinely to reduce infection; EUPEMEN does not recommend mechanical preparation alone.",
+  asOf: "2026-11-11",
+  setting: {
+    who: ["surgical-team", "anaesthetist", "nurse", "multidisciplinary-team", "patient-or-carer"],
+    where: ["outpatient-clinic", "ward", "theatre", "home"],
+  },
+  population: "Adults having planned (elective) surgery for colon or rectal cancer, open or minimally invasive. Emergency surgery (obstruction, perforation) has its own ERAS guidance and is not covered. The Korean guideline was written for Korean practice and says where Korean evidence was thin.",
+  trigger: "A decision to operate on the colon or rectum for cancer.",
+  steps: [
+    {
+      action: "Offer an enhanced recovery programme with preoperative, intraoperative and postoperative parts",
+      why: "A coordinated package shortens recovery more than any single change on its own.",
+      source: "nice-ng180",
+      quote: "Use an enhanced recovery programme that includes preoperative, intraoperative and postoperative components.",
+      grade: "Not graded (NICE NG180 1.2.2)",
+    },
+    {
+      action: "Offer prehabilitation (exercise, nutrition and psychological support) in the weeks before surgery",
+      why: "Getting fitter before surgery helps the body cope with the operation.",
+      source: "korea-eras-crc-2024",
+      quote: "Prehabilitation is recommended for patients scheduled to undergo surgery for colorectal cancer.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: Moderate.",
+    },
+    {
+      action: "Give oral nutritional supplements before surgery",
+      why: "People with bowel cancer often lose weight and appetite, and poor nutrition raises the risk of complications.",
+      source: "korea-eras-crc-2024",
+      quote: "Preoperative nutritional support using oral nutritional supplements is recommended for patients scheduled for colorectal cancer surgery.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: Moderate.",
+    },
+    {
+      action: "If bowel preparation is used, give oral antibiotics with it; do not use mechanical bowel preparation alone",
+      why: "Antibiotic tablets taken with the bowel preparation roughly halved wound infections compared with preparation alone in the trials pooled.",
+      source: "korea-eras-crc-2024",
+      quote: "The use of oral antibiotics in conjunction with mechanical bowel preparation is recommended for patients scheduled for colorectal cancer surgery.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: High.",
+    },
+    {
+      action: "Allow clear fluids until 2 hours before, and give a carbohydrate drink up to 2 hours before surgery",
+      why: "A long fast leaves people thirsty and more resistant to insulin; a sugary drink shortly before is safe.",
+      source: "korea-eras-crc-2024",
+      quote: "Oral carbohydrate loading up to 2 hours before colorectal cancer surgery is recommended.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: Moderate.",
+    },
+    {
+      action: "Start pharmacological thromboprophylaxis before surgery",
+      why: "Bowel cancer surgery carries a real risk of blood clots in the legs and lungs.",
+      source: "korea-eras-crc-2024",
+      quote: "Preoperative pharmacologic thromboprophylaxis is recommended for patients scheduled for colorectal cancer surgery.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: Moderate.",
+    },
+    {
+      action: "Prevent sickness with dexamethasone plus a 5-HT3 antagonist (such as ondansetron) rather than either drug alone",
+      why: "Two drugs together prevent more sickness than one, and sickness delays eating and getting up.",
+      source: "korea-eras-crc-2024",
+      quote: "The use of dexamethasone in combination with a serotonin receptor antagonist rather than monotherapy is recommended for the prevention of postoperative nausea and vomiting in patients scheduled for colorectal cancer surgery.",
+      grade: "Strength of the recommendation: Strong for. Level of evidence: High.",
+    },
+    {
+      action: "Consider goal-directed fluid therapy during surgery for high-risk patients",
+      why: "Matching fluid to measured need avoids both too much and too little fluid in people least able to cope with either.",
+      source: "korea-eras-crc-2024",
+      quote: "Goal-directed fluid therapy during surgery may be considered for high-risk patients undergoing colorectal cancer surgery.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: Moderate.",
+    },
+    {
+      action: "Consider a transversus abdominis plane (TAP) block as part of pain relief",
+      why: "A nerve block in the abdominal wall reduces pain and the need for opioids, which cause sickness and slow the bowel.",
+      source: "korea-eras-crc-2024",
+      quote: "Transverse abdominis plane block may be considered for pain control during surgery for colorectal cancer.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: Moderate.",
+    },
+    {
+      action: "Do not place a routine intra-abdominal drain or nasogastric tube",
+      why: "In the trials pooled, drains and stomach tubes did not prevent leaks or complications, and they add discomfort.",
+      source: "korea-eras-crc-2024",
+      quote: "It is suggested not to insert an intra-abdominal drain during surgery for colorectal cancer.",
+      grade: "Drain: Conditional against, Moderate. Nasogastric tube: Conditional against, Low.",
+    },
+    {
+      action: "Remove the urinary catheter the day after surgery",
+      why: "An early catheter removal helps people walk sooner and go home sooner.",
+      source: "korea-eras-crc-2024",
+      quote: "It is recommended to remove urinary catheters the day after colorectal cancer surgery.",
+      grade: "Strength of the recommendation: Conditional for. Level of evidence: Moderate.",
+    },
+    {
+      action: "Start eating and drinking, and walking, from the day after surgery",
+      why: "Early food and movement support recovery of the bowel and reduce chest problems and clots.",
+      source: "korea-eras-crc-2024",
+      quote: "Early feeding is recommended to start from the day after surgery for colorectal cancer.",
+      grade: "Early feeding: Conditional for, Moderate. Early ambulation: Conditional for, Moderate.",
+    },
+  ],
+  bestInClass: {
+    statement: "The ERAS Society's 2025 colorectal guideline is the current specialty standard, but its recommendations could not be read for this page. Of what could be read, the 2024 Korean ERAS guideline gives the most recent graded recommendations, built on new meta-analyses of randomised trials: the strongest is two-drug nausea prophylaxis (strong, high); oral antibiotics with bowel preparation (conditional, high) agrees with WHO (conditional, moderate); and avoiding drains and nasogastric tubes, early catheter removal, early feeding and early walking are all supported. NICE NG180 supports an enhanced recovery programme and a 2-hour clear-fluid fast for all elective major surgery. Where they disagree is bowel preparation: NICE NG125 says not to use mechanical preparation routinely to reduce infection (a 2008 recommendation carried into the 2019 guideline) and is silent on oral antibiotics.",
+    sources: ["korea-eras-crc-2024", "who-ssi-2018", "nice-ng180", "nice-ng125", "eras-crc-2025"],
+  },
+  variants: [
+    {
+      name: "Thoracic epidural for open surgery and a catheter for 1 to 3 days (ERAS 2018)",
+      differs: "Uses a thoracic epidural for open colorectal surgery and keeps the urinary catheter routinely for 1 to 3 days, rather than removing it on day 1.",
+      evidence: "Listed as colorectal-specific recommendations of the 2018 ERAS guideline by a 2025 appraisal of all ERAS Society guidelines. The Korean guideline recommends catheter removal on day 1 (conditional, moderate) and a TAP block (conditional, moderate), and does not grade epidurals. Whether the 2025 ERAS edition kept these positions could not be read.",
+      sources: ["eras-overview-2025", "korea-eras-crc-2024"],
+    },
+    {
+      name: "No routine bowel preparation (NICE)",
+      differs: "Does not use mechanical bowel preparation routinely to reduce wound infection, and makes no recommendation on oral antibiotics.",
+      evidence: "NICE NG125, a recommendation carried forward from 2008. WHO (2018) recommends against mechanical preparation alone (strong, moderate) and suggests oral antibiotics with it (conditional, moderate); the Korean guideline cites newer network meta-analyses for the combination.",
+      sources: ["nice-ng125", "who-ssi-2018", "korea-eras-crc-2024"],
+    },
+    {
+      name: "EUPEMEN European pathway",
+      differs: "A low-residue diet for at least five days and two enemas the afternoon before left-sided operations; mechanical bowel preparation alone is not recommended except for a perioperative colonoscopy; immunonutrition preferred for the malnourished, 7 days before and 5 days after surgery.",
+      evidence: "Consensus of a European multisociety network (2024) built on the literature; its recommendations are not graded item by item in the way GRADE guidelines are.",
+      sources: ["eupemen-2024"],
+    },
+  ],
+  grades: [
+    { claim: "Offer an enhanced recovery programme for elective major or complex surgery", grade: "Not graded (NICE NG180 1.2.1)", source: "nice-ng180", quote: "Offer an enhanced recovery programme to people having elective major or complex surgery ." },
+    { claim: "Clear fluids until 2 hours before the operation", grade: "Not graded (NICE NG180 1.4.1)", source: "nice-ng180", quote: "they may drink clear fluids until 2 hours before their operation" },
+    { claim: "Oral antibiotics with mechanical bowel preparation in elective colorectal surgery", grade: "Conditional Moderate", source: "who-ssi-2018", quote: "The panel suggests that preoperative oral antibiotics combined with mechanical bowel preparation should be used to reduce the risk of SSI in adult patients undergoing elective colorectal surgery." },
+    { claim: "No mechanical bowel preparation alone", grade: "Strong Moderate", source: "who-ssi-2018", quote: "The panel recommends that mechanical bowel preparation alone (without administration of oral antibiotics) should not be used for the purpose of reducing SSI in adult patients undergoing elective colorectal surgery." },
+    { claim: "No routine mechanical bowel preparation to reduce infection", grade: "Not graded (NICE NG125, recommendation dated 2008)", source: "nice-ng125", quote: "Do not use mechanical bowel preparation routinely to reduce the risk of surgical site infection. [2008]" },
+    { claim: "ERAS 2018: routine urinary catheter for 1 to 3 days (as listed by the 2025 appraisal)", grade: "Not stated in the appraisal", source: "eras-overview-2025", quote: "Routine transurethral catheterization is recommended for 1–3 days" },
+    { claim: "No routine nasogastric tube", grade: "Conditional against, Low", source: "korea-eras-crc-2024", quote: "It is suggested not to insert a nasogastric tube during surgery for colorectal cancer." },
+    { claim: "Early walking from the day after surgery", grade: "Conditional for, Moderate", source: "korea-eras-crc-2024", quote: "Early ambulation is recommended to commence on the day after surgery for colorectal cancer." },
+  ],
+  sources: [
+    {
+      key: "eras-overview-2025",
+      label: "Enhanced recovery after surgery: overarching themes of the ERAS Society Guidelines and Consensus Statements for Adult Specialty Surgery",
+      publisher: "Perioperative Medicine",
+      year: 2025,
+      url: "https://doi.org/10.1186/s13741-025-00590-0",
+      doi: "10.1186/s13741-025-00590-0",
+      gradingScheme: "An appraisal; repeats the guidelines' own recommendations without new grades.",
+      read: "full-text",
+      accessed: "2026-11-11",
+    },
+    {
+      key: "eras-crc-2025",
+      label: "Guidelines for perioperative care in elective colorectal surgery: Enhanced Recovery After Surgery (ERAS) Society recommendations 2025",
+      publisher: "ERAS Society (Surgery)",
+      year: 2025,
+      url: "https://doi.org/10.1016/j.surg.2025.109397",
+      doi: "10.1016/j.surg.2025.109397",
+      gradingScheme: "GRADE (per the 2018 edition's method); not read.",
+      read: "not-reachable",
+      accessed: "2026-11-11",
+    },
+    {
+      key: "korea-eras-crc-2024",
+      label: "The 2024 Korean Enhanced Recovery After Surgery (ERAS) guidelines for colorectal cancer: a secondary publication",
+      publisher: "Korean Society of Surgical Metabolism and Nutrition, ERAS Committee (Annals of Coloproctology)",
+      year: 2025,
+      url: "https://doi.org/10.3393/ac.2024.00836.0119",
+      doi: "10.3393/ac.2024.00836.0119",
+      gradingScheme: "GRADE: strength (strong or conditional, for or against) and level of evidence (high, moderate, low, very low), printed under each recommendation.",
+      read: "full-text",
+      accessed: "2026-11-11",
+    },
+    {
+      key: "eupemen-2024",
+      label: "The EUropean PErioperative MEdical Networking (EUPEMEN) project and recommendations for perioperative care in colorectal surgery",
+      publisher: "EUPEMEN (International Journal of Surgery)",
+      year: 2024,
+      url: "https://doi.org/10.1097/JS9.0000000000001601",
+      doi: "10.1097/JS9.0000000000001601",
+      gradingScheme: "Narrative consensus; grades are quoted only where it repeats another guideline's.",
+      read: "full-text",
+      accessed: "2026-11-11",
+    },
+    {
+      key: "nice-ng180",
+      label: "Perioperative care in adults (NG180), recommendations",
+      publisher: "NICE",
+      year: 2020,
+      url: "https://www.nice.org.uk/guidance/ng180/chapter/Recommendations",
+      gradingScheme: "NICE does not grade recommendations; the wording ('offer', 'consider') signals strength.",
+      read: "full-text",
+      accessed: "2026-11-11",
+    },
+    {
+      key: "nice-ng125",
+      label: "Surgical site infections: prevention and treatment (NG125)",
+      publisher: "NICE",
+      year: 2020,
+      url: "https://www.nice.org.uk/guidance/ng125/chapter/Recommendations",
+      gradingScheme: "NICE does not grade recommendations; the year in brackets is when the recommendation was last reviewed.",
+      read: "full-text",
+      accessed: "2026-11-11",
+    },
+    {
+      key: "who-ssi-2018",
+      label: "Global guidelines for the prevention of surgical site infection, second edition",
+      publisher: "World Health Organization",
+      year: 2018,
+      url: "https://iris.who.int/handle/10665/277399",
+      gradingScheme: "GRADE: strength (strong or conditional) and quality of evidence (high, moderate, low, very low).",
+      read: "full-text",
+      accessed: "2026-11-11",
+    },
+    {
+      key: "eras-crc-2018",
+      label: "Guidelines for Perioperative Care in Elective Colorectal Surgery: Enhanced Recovery After Surgery (ERAS) Society Recommendations: 2018",
+      publisher: "ERAS Society (World Journal of Surgery)",
+      year: 2019,
+      url: "https://doi.org/10.1007/s00268-018-4844-y",
+      doi: "10.1007/s00268-018-4844-y",
+      gradingScheme: "GRADE evidence level and recommendation grade per item; the abstract holds none.",
+      read: "abstract",
+      accessed: "2026-11-11",
+    },
+  ],
+  cancers: ["colorectal", "rectal-cancer"],
+  drugs: ["dexamethasone", "ondansetron"],
+  technologies: ["eras-perioperative-nutrition", "prehabilitation"],
+  terms: ["colectomy", "total-mesorectal-excision", "prehabilitation-term"],
+  related: ["surgical-site-infection-prevention", "vte-prophylaxis-after-cancer-surgery", "enhanced-recovery-after-liver-surgery", "routine-preoperative-tests"],
+  upgrades: ["idea-pu-enhanced-recovery-with-measured-compliance", "idea-pu-shorter-fasting-before-surgery"],
+  gaps: [
+    "The ERAS Society 2025 colorectal guideline, the current specialty standard, could not be read: no abstract is indexed in Europe PMC or PubMed, and the journal refused a script. Its recommendations may differ from the Korean guideline's on any item here, and this page should be updated when it can be read.",
+    "The 2018 ERAS colorectal guideline could be read only as an abstract; the publisher and repository copies answered with a bot check.",
+    "The Korean guideline covers 13 questions; it does not address smoking and alcohol, anaemia, warming, antibiotic timing, epidural against other analgesia, or audit, which the ERAS liver guideline grades. Those items rest on other protocols here (surgical site infection prevention) or on sources not read.",
+    "Whether bowel preparation with oral antibiotics should be used for right-sided colon operations as well as rectal ones is where guidelines part; NICE's recommendation against routine preparation dates from 2008.",
+    "How long thromboprophylaxis should continue after discharge is covered by the VTE prophylaxis protocol, not here.",
+  ],
+});

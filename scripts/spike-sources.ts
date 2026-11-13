@@ -130,6 +130,8 @@ export const NON_SPIKE_FILES = ["index", "gap-cancers",
   // src/data/index.ts adds to RAW_INPUTS directly, so they have no cancerId and no patch.
   "rejuvenation-body", "rejuvenation-paediatric", "rejuvenation-second-cancers", "rejuvenation-mind", "rejuvenation-rehab", "rejuvenation-agenda", "rejuvenation-measurement",
   // The Precision and protocol-upgrades run (20 October 2026): entity modules, same shape as the rejuvenation ones.
-  "precision-molecular", "precision-radiation", "precision-surgery", "precision-dosing", "precision-roadmap", "protocol-upgrades-rt-surgery", "protocol-upgrades-care"];
+  "precision-molecular", "precision-radiation", "precision-surgery", "precision-dosing", "precision-roadmap", "protocol-upgrades-rt-surgery", "protocol-upgrades-care",
+  // The care protocol fill rounds (11 November 2026): protocol-upgrade ideas, entity modules of the same shape.
+  "protocol-upgrades-administration", "protocol-upgrades-pharmacy-access", "protocol-upgrades-fill-gi", "protocol-upgrades-fill-skin", "protocol-upgrades-fill-body"];
 
 export const spikeSources: Spike[] = Object.values(SPIKE_FILES);

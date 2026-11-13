@@ -359,7 +359,7 @@ const spike: Spike = {
       "Optimal duration of maintenance and ctDNA-guided de-escalation are untested.",
     ],
     targets: ["kras", "vegf", "pdl1", "pd1"],
-    technologies: ["risk-reducing-salpingectomy", "germline-testing", "ultrasound", "robotic-surgery"],
+    technologies: ["risk-reducing-salpingectomy", "germline-testing", "ultrasound", "robotic-surgery", "implanted-ports"],
     terms: ["ca-125", "lgsoc", "hgsoc", "cps"],
     companies: ["astrazeneca", "merck", "gsk", "abbvie", "corcept", "verastem", "genmab", "sutro-biopharma", "daiichi-sankyo", "roche-genentech"],
     related: ["parp-plus-bevacizumab", "hipec-at-interval-surgery", "caution-pd1-first-line-ovarian", "adc-generations"],

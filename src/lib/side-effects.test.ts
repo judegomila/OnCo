@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { graph } from "./graph";
-import { buildSideEffectIndex, SYMPTOM_GROUPS, symptomGroup } from "./side-effects";
+import { buildSideEffectIndex, protocolNamesProduct, SYMPTOM_GROUPS, SYMPTOM_PROTOCOLS, symptomGroup, symptomProtocols } from "./side-effects";
 import { sideEffectGuidance } from "@/data/side-effect-guidance";
 
 describe("symptomGroup", () => {
@@ -52,5 +52,36 @@ describe("side-effect guidance", () => {
     const expected = graph().kind("drug").reduce((n, d) => n + d.toxicity.length, 0);
     expect(rows.length).toBe(expected);
     expect(rows.every((r) => r.group && r.drugId && r.route.startsWith("/drugs/"))).toBe(true);
+  });
+});
+
+describe("side-effect protocols", () => {
+  const g = graph();
+  const rows = buildSideEffectIndex();
+  const byGroup = symptomProtocols(rows);
+
+  it("names only protocols, under groups the rules produce", () => {
+    const groups = new Set(SYMPTOM_GROUPS);
+    const bad: string[] = [];
+    for (const [group, spec] of Object.entries(SYMPTOM_PROTOCOLS)) {
+      if (!groups.has(group)) bad.push(`unknown group ${group}`);
+      for (const id of [...(spec.general ?? []), ...(spec.specific ?? [])]) if (g.get(id)?.kind !== "protocol") bad.push(`${group}: ${id} is not a protocol`);
+    }
+    expect(bad).toEqual([]);
+  });
+
+  it("gives a treatment-specific protocol only with the products it names", () => {
+    for (const list of Object.values(byGroup)) for (const p of list.filter((x) => !x.general)) {
+      const rec = g.must(p.id);
+      expect(p.drugs.length, p.id).toBeGreaterThan(0);
+      for (const d of p.drugs) expect(protocolNamesProduct(rec as never, g.must(d) as never), `${p.id} ${d}`).toBe(true);
+    }
+    // Colitis on a checkpoint inhibitor reaches the immune-related colitis protocol; the general diarrhoea protocol is there for everyone.
+    const colitis = byGroup["Colitis (bowel inflammation)"] ?? [];
+    expect(colitis.find((p) => p.id === "irae-colitis")?.drugs.some((d) => ["pembrolizumab", "nivolumab", "ipilimumab"].includes(d))).toBe(true);
+    expect(colitis.some((p) => p.general && p.id === "treatment-induced-diarrhoea-grading-and-management")).toBe(true);
+    // A product the protocol does not name is not listed under it: no capecitabine under immune-related colitis.
+    expect(colitis.find((p) => p.id === "irae-colitis")?.drugs).not.toContain("capecitabine");
+    expect((byGroup["Hand-foot syndrome"] ?? []).map((p) => p.id)).toContain("hand-foot-syndrome-prevention-and-dose-modification");
   });
 });

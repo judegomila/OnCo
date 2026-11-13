@@ -46,6 +46,9 @@ export function proseOf(e: Entity): string {
 export function hasAnySource(e: Entity): boolean {
   if (e.links.length > 0 || e.wikipedia) return true;
   if (e.kind === "trial" && e.nct) return true;
+  // A care protocol cites its guidelines in `sources` (each with a year and URL, checked by src/lib/protocols.test.ts),
+  // not in `links`; a source that could not be read does not count.
+  if (e.kind === "protocol" && e.sources.some((s) => s.read !== "not-reachable")) return true;
   return false;
 }
 

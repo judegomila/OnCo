@@ -239,6 +239,7 @@ export const hi: UiDict = {
   "kind.paper.label": "प्रमुख शोधपत्र", "kind.paper.plural": "प्रमुख शोधपत्र",
   "kind.bottleneck.label": "अड़चन", "kind.bottleneck.plural": "अड़चनें", "kind.bottleneck.title": "कैंसर के विरुद्ध युद्ध की अड़चनें",
   "kind.biomarker.label": "बायोमार्कर", "kind.biomarker.plural": "बायोमार्कर", "kind.biomarker.title": "बायोमार्कर और रीडआउट",
+  "kind.protocol.label": "प्रोटोकॉल", "kind.protocol.plural": "प्रोटोकॉल", "kind.protocol.title": "देखभाल प्रोटोकॉल",
   "kind.year.label": "वर्ष", "kind.year.plural": "वर्ष", "kind.year.title": "ऑन्कोलॉजी, वर्ष दर वर्ष",
 
   "l.Summary": "सार",
@@ -310,6 +311,7 @@ export const hi: UiDict = {
   "l.Payload": "पेलोड",
   "l.Linker": "लिंकर",
   "l.Where it is approved": "कहाँ मंज़ूर है",
+  "l.Is this drug available in my country?": "क्या यह दवा मेरे देश में उपलब्ध है?",
   "l.Approvals": "मंज़ूरियाँ",
   "l.Region": "क्षेत्र",
   "l.Year": "वर्ष",

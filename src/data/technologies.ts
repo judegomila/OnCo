@@ -712,38 +712,134 @@ export const technologies: TechnologyInput[] = [
     related: ["bcg033"],
   },
   {
-    id: "dual-payload-adc", links: [{"label": "Yamazaki et al., Antibody-drug conjugates with dual payloads for combating breast tumour heterogeneity and drug resistance (Nature Communications 2021)", "url": "https://doi.org/10.1038/s41467-021-23793-7"}, {"label": "Publisher abstract", "url": "https://doi.org/10.1158/1538-7445.am2026-6928"}, {"label": "Publisher abstract", "url": "https://doi.org/10.1158/1535-7163.targ-25-a124"}, {"label": "Publisher abstract", "url": "https://doi.org/10.1158/1538-7445.am2026-4438"}, {"label": "Publisher abstract", "url": "https://doi.org/10.1158/1557-3265.d32026-a014"}], kind: "technology", name: "Dual-payload ADC", sections: ["adcs"], status: "phase-1",  generation: "4th (next-gen)",
-    tldr: "A dual-payload ADC is an ADC carrying two different poisons at once, so the tumour cannot escape by becoming resistant to one.",
-    summary: "Programs from Sutro, Mersana, Tavotek/Adcoris (ACR335, TOP1 inhibitor + non-TOP1/non-tubulin, DAR 4+4, phase 1 in 2026), and others place two payloads with distinct mechanisms on one antibody. Rationale: TOP1-payload cross-resistance after T-DXd, sacituzumab, or Dato-DXd. Also 'dual-mechanism' ADCs pairing a cytotoxic with an immune agonist.",
-    principle: "Orthogonal site-specific conjugation chemistries attach two payload classes at defined positions.",
-    strengths: ["Delays resistance", "Combination therapy without additive antibody dose"],
-    limitations: ["Manufacturing", "Two toxicity profiles in one molecule"],
+    notes:["Yamazaki reported dual-drug conjugates outperforming co-administration of the single-drug variants in xenograft models with HER2 heterogeneity and resistance. That is a matched experimental comparison, not proof of clinical benefit after a prior TOP1 ADC.","A 2024 AACR conference abstract described two exatecan-based TOP1 payloads with different bystander properties on one HER2 antibody. Two chemical cargoes therefore need not represent two independent mechanism classes. The abstract is preclinical and does not establish a clinical regimen or benefit.","The Ren dual-payload platform paired exatecan with triptolide and described initially released triptolide followed by gradual exatecan release in experimental models. Co-attachment does not guarantee simultaneous intracellular release or a constant active-drug ratio.","Keep per-component identity, attachment sites, mean and distribution of loading, released metabolites, concentration-time profiles and toxicity separate. A total DAR does not reveal the ratio of two cargoes or the ratio reaching a lesion. Two payloads also expand the bioanalytical and immunogenicity questions. For a fixed composition, reducing the antibody dose reduces both attached cargo doses; they cannot then be adjusted as freely as separately administered drugs.","Use otherwise matched single-cargo conjugates, the unconjugated antibody, free agents and their co-administration as appropriate controls. State antibody dose, each payload dose, schedule, target density and prior resistance selection. Differences in loading, exposure or antibody properties can confound a claimed second-cargo contribution.","The Abel phase 1 study gave sacituzumab govitecan and berzosertib as separate drugs. Its findings do not establish an attached ATR payload or a dual-payload product. CLIO-8221 instead has a source identifying exatecan and berzosertib on one construct; its trial-design abstract is separate from clinical results.","A shared delivery defect can defeat both cargoes. A shared transporter or cell-response adaptation can also affect more than one drug. Adding another active agent can add healthy-tissue exposure; it does not by itself establish synergy, independent resistance routes or a useful clinical window."],
+    id: "dual-payload-adc", links: [{"label":"Yamazaki et al., Antibody-drug conjugates with dual payloads for combating breast tumour heterogeneity and drug resistance (Nature Communications 2021)","url":"https://doi.org/10.1038/s41467-021-23793-7"},{"label":"Publisher abstract","url":"https://doi.org/10.1158/1538-7445.am2026-6928"},{"label":"Publisher abstract","url":"https://doi.org/10.1158/1535-7163.targ-25-a124"},{"label":"Publisher abstract","url":"https://doi.org/10.1158/1538-7445.am2026-4438"},{"label":"Publisher abstract","url":"https://doi.org/10.1158/1557-3265.d32026-a014"},{"label":"CLIO-8221 phase 1/2 trial-design abstract (2026)","url":"https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"},{"label":"Spycher et al.: dual TOP1 payloads with different bystander properties, AACR abstract (2024)","url":"https://doi.org/10.1158/1538-7445.AM2024-2600"},{"label":"Ren et al.: sequential-release exatecan/triptolide conjugates in preclinical models","url":"https://pubmed.ncbi.nlm.nih.gov/41121984/"},{"label":"Abel et al.: separate sacituzumab govitecan and berzosertib phase 1 regimen","url":"https://pubmed.ncbi.nlm.nih.gov/37227187/"},{"label":"Ravenstijn et al.: dual-payload clinical pharmacology perspective (2026)","url":"https://pubmed.ncbi.nlm.nih.gov/42089685/"}], kind: "technology", name: "Dual-payload ADC", sections: ["adcs"], status: "phase-1",  generation: "4th (next-gen)",
+    tldr: "A dual-payload antibody-drug conjugate carries two different active cargoes on one antibody. The cargoes can share a mechanism or act through different mechanisms.",
+    summary: "Dual-payload describes what is physically attached: two active cargo species on the same antibody construct. It is independent of whether the antibody recognizes one antigen or two, and differs from separately administering drugs or single-payload conjugates. A defined preparation may control average loading or particular attachment sites; the measured distribution still matters.\n\nPossible aims include different killing routes, a damage/checkpoint combination, or different distribution properties within one mechanism. A mouse-model result, laboratory synergy or trial-design abstract establishes a particular stage of evidence. None guarantees that a second cargo repairs antigen loss, delivery failure or resistance in a person.",
+    principle: "Attach and characterize each active cargo and its loading. Then measure released species, exposure and combined function for the finished construct.",
+    strengths: ["Can co-deliver specified active cargoes","Allows testing of complementary mechanisms or distribution properties"],
+    limitations: ["Shared target access, uptake or processing failures can affect both cargoes","Release and tissue exposure need not preserve the manufactured ratio","Dose reduction can lower both cargoes, while their tolerable and active exposures may differ"],
     technologies: ["adc", "site-specific-conjugation"],
     tags: ["frontier"], companies: ["callio-therapeutics", "axcynsis-therapeutics", "primelink-biotherapeutics", "phrontline-biopharma"],
 
-    asOf: "2026-10-06",
+    asOf: "2026-11-08",
 
     related: ["catb-101", "cbb-120", "ctph-03", "can020"],
+    terms: ["next-generation-adc-payloads", "ddr-inhibitor-payloads", "atr-inhibitor-payloads"],
   },
   {
-    id: "degrader-antibody-conjugate", dependsOn: ["adc", "protac-degrader"], links: [{ label: "The first PROTAC: a chimeric molecule that tags a protein for destruction (PNAS 2001)", url: "https://doi.org/10.1073/pnas.141230798" }], kind: "technology", name: "Degrader-antibody conjugate (DAC)", sections: ["adcs", "targeted-therapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
-    tldr: "An ADC that delivers a protein-destroying molecule instead of chemotherapy, hitting targets inside the cell that were previously unreachable.",
-    summary: "A degrader-antibody conjugate is an ADC whose payload is a molecular glue or PROTAC rather than a cytotoxic: the antibody delivers it to the tumour cell and intracellular release triggers targeted protein degradation. Programmes include Orum Therapeutics (ORM-5029, a HER2-directed GSPT1 degrader; ORM-6151, CD33), Genentech (BRD4 degrader conjugates), and others. The design solves the delivery and bioavailability problems of PROTACs and lets a non-cytotoxic, non-genotoxic mechanism be targeted to the tumour, reaching intracellular targets via antibody selectivity. The trade-off is that potency per molecule is lower than for cytotoxics, and the field is early clinical, so it is not yet known whether degradation can match chemotherapy payloads in efficacy. The simple version is an ADC that destroys a specific protein inside the cancer cell instead of poisoning it.",
+    id: "degrader-antibody-conjugate", dependsOn: ["adc", "protac-degrader"], links: [{"label": "The first PROTAC: a chimeric molecule that tags a protein for destruction (PNAS 2001)", "url": "https://doi.org/10.1073/pnas.141230798"}, {"label": "BRD4 degrader antibody conjugates (2021)", "url": "https://doi.org/10.1021/acs.jmedchem.0c01846"}, {"label": "ORM-5029 preclinical abstract (2022)", "url": "https://doi.org/10.1158/1538-7445.AM2022-3933"}, {"label": "ORM-5029 trial: terminated", "url": "https://clinicaltrials.gov/study/NCT05511844"}, {"label": "ORM-6151 trial: terminated", "url": "https://clinicaltrials.gov/study/NCT06419634"}, {"label": "KIF11 degrader conjugate cellular study, ASCO abstract (2025)", "url": "https://doi.org/10.1200/JCO.2025.43.16_suppl.3092"}], kind: "technology", name: "Degrader-antibody conjugate (DAC)", sections: ["adcs", "targeted-therapy"], status: "phase-1", asOf: "2026-11-08", generation: "4th (next-gen)",
+    tldr: "A degrader-antibody conjugate delivers a drug that makes a cell remove a selected protein. This changes the payload mechanism while using an antibody to direct delivery.",
+    summary: "A degrader-antibody conjugate carries a molecular glue or a bifunctional degrader that directs a selected protein to cellular disposal machinery. BRD4-directed conjugates have shown antigen-dependent degradation and antitumor activity in preclinical models. GSPT1-directed ORM-5029 and ORM-6151 reached human studies, but their linked trials are terminated. KIF11 degrader conjugates are another mechanism explored in cellular experiments. Degradation can kill cells and does not guarantee less toxicity, greater potency or access to every intracellular protein; those properties require construct-specific evidence.",
     principle: "Antibody delivers a molecular glue or PROTAC payload; intracellular release triggers targeted degradation.",
-    strengths: ["Non-genotoxic payload", "Intracellular targets via antibody selectivity"],
-    limitations: ["Potency per molecule lower than cytotoxics", "Early stage"],
+    strengths: ["Antibody-directed delivery of protein-removing agents", "Distinct intracellular mechanisms from DNA-damaging payloads"],
+    limitations: ["Release, intracellular access and degradation must all occur", "Target and protein-disposal machinery influence response", "Clinical safety and benefit remain construct-specific"],
     technologies: ["adc", "protac-degrader"],
     tags: ["frontier"], companies: ["cullgen", "firefly-bio", "orum-therapeutics", "prelude-therapeutics"],
+    terms: ["gspt1-degrader-payloads", "brd4-degrader-payloads", "kif11-degrader-payloads"],
+    drugs: ["orm-5029", "orm-6151"],
   },
   {
-    id: "immune-stimulating-adc", links: [{ label: "Ackerman et al., Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumour immunity (Nature Cancer 2020)", url: "https://doi.org/10.1038/s43018-020-00136-x" }], kind: "technology", name: "Immune-stimulating antibody conjugate (ISAC)", sections: ["adcs", "immunotherapy"], status: "phase-1", asOf, generation: "4th (next-gen)",
-    tldr: "An immune-stimulating antibody conjugate (ISAC) is an ADC whose payload wakes up the immune system inside the tumour rather than poisoning the cell.",
-    summary: "An immune-stimulating antibody conjugate delivers an innate immune agonist, rather than a cytotoxic, to tumour-resident myeloid cells, aiming to convert immunologically cold tumours into hot ones. TLR7/8 agonist conjugates (Bolt's BDC-1001 against HER2; Silverback) and STING agonist conjugates (Mersana XMT-2056, Takeda TAK-500) are the leading examples. In principle the approach could produce durable immune memory and combine naturally with checkpoint inhibitors. Early results have been modest, with weak single-agent activity so far; dose-limiting systemic cytokine release and the need for antigen-presenting-cell engagement are the challenges. The simple version is an ADC whose payload wakes up the immune system inside the tumour, an idea still waiting for convincing clinical proof.",
-    principle: "Antibody-targeted delivery of innate immune agonists to tumour-resident myeloid cells.",
-    strengths: ["Durable immune memory in principle", "Combinable with checkpoint inhibitors"],
-    limitations: ["Weak single-agent activity so far"],
+    notes:[
+  "Chernyak tested TLR7 and TLR7/8 conjugates whose myeloid activation depended on antigen-expressing cancer cells in the tested assays. The proposed route included Fc-gamma-receptor-dependent phagocytosis. An altered Fc, different target, sensor expression or uptake route needs its own tests.",
+  "Bukhalid reported XMT-2056 activity and reduced systemic inflammation relative to a free STING agonist in mouse models, with immune-mediated neighboring-cell effects in a specified HER2-positive/negative context. These results do not make every ISAC tumor-only or establish a human safety window.",
+  "Measure cargo exposure and uptake, sensor activation, cytokines, antigen presentation, tumor-reactive effector function and target-cell death separately. An adaptive-priming claim needs relevant antigen presentation and functional responding cells; innate myeloid killing and T-cell priming are not interchangeable mechanisms.",
+  "Oh found cGAS-STING/interferon activation and increased PD-L1 after T-DXd in gastric cancer experiments. That cytotoxic product does not thereby acquire an attached STING-agonist payload. Incidental immune effects and deliberately conjugated agonism are different composition claims.",
+  "Janku reported a single-ascending-dose phase 1 study of NJH395 in 18 people with HER2-positive non-breast advanced malignancies. Tumor delivery and type I interferon responses were pharmacodynamic findings; CRS, anti-drug antibodies and neuroinflammation at higher doses were clinical challenges. Neither the cohort nor an interferon marker establishes efficacy in breast cancer.",
+  "Benci linked prolonged interferon signaling to a checkpoint-resistance program in experimental systems and clinical associations. That report did not test an ISAC regimen. It supports examining duration and counter-regulation rather than assuming that a stronger cytokine signal must improve tumor control.",
+  "The named registry captures show XMT-2056 stopped with development discontinued, TAK-500 stopped for clinical futility, BDC-1001 studies stopped by sponsor decision, and the SBT6050 combination study stopped for strategic realignment. The older SBT6050 first-in-human status is unknown. Preserve each reason; a strategic decision is not proof that every related mechanism failed.",
+  "The phase-2 history includes the terminated BDC-1001 breast-cancer study. A class-level development label does not establish that a named trial is open. Verify overall status, facility/cohort availability and the dated source separately.",
+  "The intended cargo is an innate-sensor agonist. cGAS can detect misplaced cytosolic DNA and make cGAMP, which activates STING and downstream type I interferon signalling; mitochondrial DNA also has a normal location, so DNA is not confined to the nucleus. TLR7/8 agonists act through endosomal sensing pathways. Heil’s receptor-deficiency and complementation experiments showed species-specific recognition of GU-rich single-stranded viral RNA by murine TLR7 and human TLR8; a small-molecule agonist imitates a sensing signal rather than supplying viral infection. Chernyak’s experiments included constructs with few agonist molecules attached per antibody; the tested loading is part of the construct, not a universal requirement. Cargo, receptor, cell type and uptake route must be named: an antibody-bound agonist does not guarantee that every exposed cell produces a useful immune response.",
+  "TAK-500 is a CCR2-directed antibody conjugated to a STING agonist, dazostinag, as established by its primary pharmacology and modelling reports. Its registry record supports study design, enrolment and the stated stopping reason; it is not the source of the target identity. The refreshed records list XMT-2056 terminated after 57 participants for discontinued development and TAK-500 terminated after 61 for clinical futility. The two BDC-1001 records are terminated by sponsor decision. The SBT6050 combination record is terminated for strategic realignment, while the earlier first-in-human record remains unknown, last verified in 2022.",
+  "A cross-priming claim needs antigen-presenting cells to take up tumour material, present its antigens and activate responding T cells. A neighbour lacking the antibody’s delivery target might still display an antigen that those T cells recognise; negative for the delivery target does not mean negative for every immune antigen. Myeloid activation, dendritic-cell function, antigen presentation, T-cell access and killing must each be demonstrated in the proposed route. An innate signal, a mouse regression or memory response, and a human response or survival comparison are different endpoints. A proposed clinical test would measure tumour agonist exposure, interferon-related genes and functional immune-cell changes in paired biopsies alongside blood cytokines and dose-limiting harms, before a randomised comparison tests patient benefit.",
+  "The alarm analogy describes an intention, not a guaranteed result. Systemic agonist exposure can cause inflammatory harms, and prolonged interferon signalling can engage counter-regulation. Low target access, an inactive sensor pathway, suppressive cells or poor effector access are different reasons that an immune-cold tumour may not respond. Repeated stimulation calls for serial tests of function and counter-regulation; a first cytokine pulse cannot establish sustained activity or prove that tolerance or exhaustion will occur. As a design hypothesis, adding a TOP1 cargo could join direct injury to an innate agonist, but both actions need separate tests. Oh’s gastric-cancer experiments found dendritic-cell activation and enhanced CD8-mediated killing after T-DXd through the cancer-cell cGAS-STING/interferon pathway. Benci’s experimental resistance programme involved persistent type II interferon and was maintained by both type I and type II signalling. These are mechanistic contexts, not proof that every dual-cargo design produces useful priming. The laboratory studies and small non-breast phase 1 cohort described here do not establish a randomised TNBC benefit or that every design lacks a usable human dose."
+],
+    id: "immune-stimulating-adc", links: [
+  {
+    "label": "Ackerman et al., Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumour immunity (Nature Cancer 2020)",
+    "url": "https://doi.org/10.1038/s43018-020-00136-x"
+  },
+  {
+    "label": "XMT-2056 preclinical study (2025)",
+    "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449"
+  },
+  {
+    "label": "XMT-2056 trial: terminated",
+    "url": "https://clinicaltrials.gov/study/NCT05514717"
+  },
+  {
+    "label": "TAK-500 trial: terminated",
+    "url": "https://clinicaltrials.gov/study/NCT05070247"
+  },
+  {
+    "label": "BDC-1001 trial: terminated",
+    "url": "https://clinicaltrials.gov/study/NCT04278144"
+  },
+  {
+    "label": "Chernyak et al.: TLR-agonist conjugate uptake and myeloid-cell experiments (2024)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39235949/"
+  },
+  {
+    "label": "Janku et al.: NJH395 preclinical and phase 1 non-breast cohort (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36129967/"
+  },
+  {
+    "label": "Oh et al.: T-DXd immune effects in gastric cancer models (2024)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39449023/"
+  },
+  {
+    "label": "Benci et al.: prolonged interferon signaling and checkpoint-resistance programs (2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27912061/"
+  },
+  {
+    "label": "BDC-1001 breast-cancer phase 2 registry: terminated",
+    "url": "https://clinicaltrials.gov/study/NCT05954143"
+  },
+  {
+    "label": "SBT6050 combination registry: terminated",
+    "url": "https://clinicaltrials.gov/study/NCT05091528"
+  },
+  {
+    "label": "SBT6050 first-in-human registry: unknown status",
+    "url": "https://clinicaltrials.gov/study/NCT04460456"
+  },
+  {
+    "label": "Decout et al., cGAS-STING signalling and therapeutic context (2021 review)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33833439/"
+  },
+  {
+    "label": "Heil et al., species-specific TLR7/8 recognition of viral RNA (2004)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/14976262/"
+  },
+  {
+    "label": "TAK-500 CCR2-directed STING activation study (2025)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39918395/"
+  },
+  {
+    "label": "TAK-500 anti-CCR2 conjugate PK/PD modelling (2026)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41888610/"
+  },
+  {
+    "label": "TAK-500 STING-conjugate linker study (2025)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41143331/"
+  },
+  {
+    "label": "UniProt TLR7: function and endosomal location",
+    "url": "https://www.uniprot.org/uniprotkb/Q9NYK1/entry"
+  },
+  {
+    "label": "UniProt TLR8: function and endosomal location",
+    "url": "https://www.uniprot.org/uniprotkb/Q9NR97/entry"
+  }
+], kind: "technology", name: "Immune-stimulating antibody conjugate (ISAC)", sections: ["adcs", "immunotherapy"], status: "phase-2", asOf: "2026-11-11", generation: "4th (next-gen)",
+    tldr: "An immune-stimulating antibody conjugate carries an intended immune agonist. Target binding, innate activation and useful tumor control remain separate findings.",
+    summary: "Immune-stimulating conjugates carry innate immune agonists such as TLR7/8 or STING agonists. They differ from an ordinary cytotoxic ADC that produces secondary inflammatory effects and from a protein that bridges a T cell to a target. The actual construct determines which cells receive the cargo and which sensing pathway acts.\n\nPreclinical TLR conjugates have used antigen recognition and Fc-receptor-dependent phagocytosis. XMT-2056 studies tested HER2-directed STING agonism in cancer and tumor-resident immune-cell contexts. These routes cannot be transferred to every antibody, Fc design or immune compartment. Human pharmacodynamic activation, tolerability and comparative benefit require separate evidence.",
+    principle: "Verify target-dependent delivery and the intended innate-sensor response, then test the proposed innate or adaptive effector mechanism and harms in the actual biological setting.",
+    strengths: ["Can test antigen-directed delivery of an innate agonist","Some constructs engage cancer cells and local immune cells in experimental models"],
+    limitations: ["Inflammatory signals can reach healthy tissue","Receptor expression, uptake, functional antigen presentation and effector access vary","Cytokine induction or mouse immune memory does not establish patient benefit"],
     technologies: ["adc", "sting-agonist"],
     tags: ["frontier"], companies: ["nbe-therapeutics", "tallac-therapeutics"],
+    terms: ["tlr-agonist-payloads", "sting-agonist-payloads"],
   },
   {
     id: "masked-adc", aka: ["probody drug conjugate", "Probody ADC", "protease-activated ADC", "conditionally activated ADC", "masked antibody-drug conjugate"], links: [{ label: "Autio et al., Probody therapeutics: an emerging class of therapies designed to enhance on-target effects with reduced off-tumour toxicity (Clinical Cancer Research 2020)", url: "https://doi.org/10.1158/1078-0432.CCR-19-1457" }], kind: "technology", name: "Masked / conditionally active ADC", sections: ["adcs"], status: "phase-2", asOf, generation: "4th (next-gen)",

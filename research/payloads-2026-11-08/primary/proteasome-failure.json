@@ -1,0 +1,464 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1124/dmd.119.086595",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31072822",
+        "source": "MED",
+        "pmid": "31072822",
+        "doi": "10.1124/dmd.119.086595",
+        "title": "Carfilzomib Is Not an Appropriate Payload of Antibody-Drug Conjugates Due to Rapid Inactivation by Lysosomal Enzymes.",
+        "authorString": "Ma Y, Dela Cruz-Chuh J, Khojasteh SC, Dragovich PS, Pillow TH, Zhang D.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ma Y",
+              "lastName": "Ma",
+              "firstName": "Yong",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Disposition (Y.M., S.C.K., D.Z.), Biochemical and Cellular Pharmacology (J.D.C.-C.), and Discovery Chemistry (P.S.D., T.H.P.), Genentech, South San Francisco, California yongma87@gmail.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dela Cruz-Chuh J",
+              "lastName": "Dela Cruz-Chuh",
+              "firstName": "Josefa",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Disposition (Y.M., S.C.K., D.Z.), Biochemical and Cellular Pharmacology (J.D.C.-C.), and Discovery Chemistry (P.S.D., T.H.P.), Genentech, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Khojasteh SC",
+              "lastName": "Khojasteh",
+              "firstName": "S Cyrus",
+              "initials": "SC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Disposition (Y.M., S.C.K., D.Z.), Biochemical and Cellular Pharmacology (J.D.C.-C.), and Discovery Chemistry (P.S.D., T.H.P.), Genentech, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dragovich PS",
+              "lastName": "Dragovich",
+              "firstName": "Peter S",
+              "initials": "PS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Disposition (Y.M., S.C.K., D.Z.), Biochemical and Cellular Pharmacology (J.D.C.-C.), and Discovery Chemistry (P.S.D., T.H.P.), Genentech, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pillow TH",
+              "lastName": "Pillow",
+              "firstName": "Thomas H",
+              "initials": "TH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Disposition (Y.M., S.C.K., D.Z.), Biochemical and Cellular Pharmacology (J.D.C.-C.), and Discovery Chemistry (P.S.D., T.H.P.), Genentech, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang D",
+              "lastName": "Zhang",
+              "firstName": "Donglu",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Drug Metabolism and Disposition (Y.M., S.C.K., D.Z.), Biochemical and Cellular Pharmacology (J.D.C.-C.), and Discovery Chemistry (P.S.D., T.H.P.), Genentech, South San Francisco, California zhang.donglu@gene.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5417-8750"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "47",
+          "journalIssueId": 2836026,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Drug Metab Dispos",
+            "title": "Drug metabolism and disposition: the biological fate of chemicals",
+            "essn": "1521-009X",
+            "issn": "0090-9556",
+            "isoabbreviation": "Drug Metab Dispos",
+            "nlmid": "9421550"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "884-889",
+        "affiliation": "Drug Metabolism and Disposition (Y.M., S.C.K., D.Z.), Biochemical and Cellular Pharmacology (J.D.C.-C.), and Discovery Chemistry (P.S.D., T.H.P.), Genentech, South San Francisco, California yongma87@gmail.com.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lysosomes",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EN",
+                    "qualifierName": "enzymology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cathepsin B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oligopeptides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Screening Assays, Antitumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Feasibility Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sialic Acid Binding Ig-like Lectin 2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erb-b2 Receptor Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oligopeptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Cathepsin B",
+              "registryNumber": "EC 3.4.22.1"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "CD22 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ERBB2 protein, human",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "Sialic Acid Binding Ig-like Lectin 2",
+              "registryNumber": "0"
+            },
+            {
+              "name": "carfilzomib",
+              "registryNumber": "72X6E3J5AR"
+            },
+            {
+              "name": "monomethyl auristatin E",
+              "registryNumber": "V7I58RC5EJ"
+            },
+            {
+              "name": "Erb-b2 Receptor Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://dmd.aspetjournals.org/content/dmd/47/8/884.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://dmd.aspetjournals.org/content/dmd/47/8/884.full.pdf"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://dmd.aspetjournals.org/content/dmd/47/8/884.full.pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1124/dmd.119.086595"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 6,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-04-20",
+        "dateOfCreation": "2019-05-11",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2019-05-09",
+        "firstPublicationDate": "2019-05-09",
+        "firstIndexDate": "2019-05-11",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "cd0eb57d0c2de0c6889f7736a22e0851421b2753c22ef022eef06d6196f40b23",
+          "characters": 1456
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "3d283caa0c583ac7764a3ccbdf4cc0f6b05f7257fd2c8889be2153c72a80a1fd",
+    "sourceBytes": 9658,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

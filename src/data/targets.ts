@@ -4,6 +4,47 @@ const asOf = "2026-09-04";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 
 export const targets: TargetInput[] = [
+  {
+    "id": "polr2a",
+    "kind": "target",
+    "name": "POLR2A",
+    "symbol": "POLR2A",
+    "aka": [
+      "RNA polymerase II subunit A",
+      "POLRA",
+      "RPB1"
+    ],
+    "asOf": "2026-11-08",
+    "hgnc": "HGNC:9187",
+    "ensembl": "ENSG00000181222",
+    "uniprot": "P24928",
+    "entrez": "5430",
+    "targetClass": "transcription",
+    "tldr": "POLR2A encodes the largest subunit of RNA polymerase II, which makes RNA from DNA. Researchers study whether losing one gene copy creates a vulnerability to further suppression.",
+    "summary": "RNA polymerase II is a transcription complex; POLR2A encodes its largest catalytic subunit. Amanitin inhibits the complex. This intracellular action is separate from an antibody’s surface delivery target, such as BCMA or TROP2. Normal cells also use this machinery, so target identity alone does not establish tumor selectivity.\n\nThe collateral-vulnerability hypothesis asks whether loss of one POLR2A copy reduces the margin for further suppression. The 2015 colorectal report studied co-deletion near TP53 and amanitin delivery in cell/mouse models. A separate TNBC report used siRNA in nanoparticles. A TP53 mutation does not by itself establish POLR2A copy loss, and these model findings do not establish a clinical eligibility test.",
+    "biology": "The approved human gene symbol is POLR2A, at 17p13.1. Its product is part of RNA polymerase II. DNA copy number, RNA/protein abundance, enzymatic activity and drug response are separate measurements; loss of one copy is different from complete loss or any TP53 sequence alteration.",
+    "cancers": [
+      "colorectal",
+      "tnbc",
+      "multiple-myeloma"
+    ],
+    "related": [
+      "tp53",
+      "synthetic-lethality"
+    ],
+    "terms": [
+      "transcription-inhibitor-payloads",
+      "amanitin-payloads"
+    ],
+    "technologies": [
+      "adc"
+    ],
+    "drugs": [
+      "pamlectabart-tismanitin"
+    ],
+    "notes": ["The colorectal amanitin-conjugate report and the TNBC siRNA-nanoparticle report test distinct delivery systems and models. Tumor regression in either system does not establish the clinical activity of the other.","The 2015 colorectal study has a 2021 staining-image correction. The 2019 TNBC nanoparticle paper has separate supplementary-material and image corrections. Other reports on a 2018 prostate model and 2021 HER2-low/17p-loss model were retracted in 2026 and are excluded from support.","Gene dosage can be a research hypothesis without being an approved selection biomarker. Test actual POLR2A copy number/expression and functional dependence rather than substituting a TP53 mutation, a broad 17p label or an unrelated cell-state marker.","Amanitin transport in engineered cells and human hepatocytes illustrates a normal-organ exposure risk. An antibody, conjugation/release system and intracellular drug must each have evidence; a housekeeping target is not inherently cancer-specific."],
+    "links": [{"label":"HGNC: independently resolved POLR2A identity and gene location","url":"https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9187"},{"label":"Bushnell et al.: RNA polymerase II/amanitin structural study (2002)","url":"https://pubmed.ncbi.nlm.nih.gov/11805306/"},{"label":"Liu et al.: colorectal POLR2A dosage study (2015)","url":"https://pubmed.ncbi.nlm.nih.gov/25901683/"},{"label":"Author correction to the colorectal study (2021)","url":"https://pubmed.ncbi.nlm.nih.gov/34433970/"},{"label":"Xu et al.: POLR2A siRNA nanoparticles in TNBC models (2019)","url":"https://pubmed.ncbi.nlm.nih.gov/30804480/"},{"label":"Publisher correction to the TNBC study (2019)","url":"https://pubmed.ncbi.nlm.nih.gov/30837690/"},{"label":"Author correction to the TNBC study (2020)","url":"https://pubmed.ncbi.nlm.nih.gov/31953520/"},{"label":"Retraction notice for a separate HER2-low/17p-loss study (2026)","url":"https://pubmed.ncbi.nlm.nih.gov/41984934/"},{"label":"Letschert et al.: amatoxin uptake into human hepatocytes (2006)","url":"https://pubmed.ncbi.nlm.nih.gov/16495352/"},{"label":"Retraction notice for the separate prostate/17p-loss report (2026)","url":"https://pubmed.ncbi.nlm.nih.gov/42414292/"}]
+  },
   // ---- Surface antigens (ADC / bispecific / CAR / tracer targets) ----
   {
     id: "trop2", drugs: ["ak146d1", "bio-106", "datopotamab-deruxtecan", "eb-nk-301", "lcb84", "sacituzumab-govitecan", "sacituzumab-tirumotecan"], trials: ["nct04617522", "nct05922930", "nct06311214", "nct06454890", "nct06902389", "nct06929663", "nct07067567", "nct07101432", "nct07299747", "nct07377526", "nct07509008", "nct07553390", "nct07631013"], kind: "target", name: "TROP2", symbol: "TACSTD2", hgnc: "HGNC:11530", ensembl: "ENSG00000184292", uniprot: "P09758", entrez: "4070", targetClass: "surface-antigen", asOf: "2026-10-06",

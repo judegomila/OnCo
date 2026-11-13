@@ -655,7 +655,7 @@ export const simpleO: Record<string, string> = {
   tst003: "TST003 is an antibody from Transcenta Therapeutics that is being tested in a phase 2 trial for bowel cancer.",
   tuspetinib: "Tuspetinib is a tablet from Aptose Biosciences that blocks a growth-signal enzyme, in a phase 2 trial for bone marrow diseases that make faulty blood cells.",
   ubamatamab: "Ubamatamab is an antibody from Regeneron that is being tested in phase 2 trials for ovarian cancer and cancer of the womb lining.",
-  "upifitamab-rilsodotin": "Upifitamab rilsodotin is an antibody from Mersana that carries a cell-killing drug into tumour cells, in a phase 2 trial for ovarian and lung cancers.",
+  "upifitamab-rilsodotin": "Upifitamab rilsodotin is an experimental antibody drug directed at NaPi2b and carrying AF-HPA. Laboratory activity is separate from benefit in people.",
   utomilumab: "Utomilumab is an antibody from Pfizer that is being tested in a phase 3 trial for ovarian cancer.",
   vactosertib: "Vactosertib is a tablet from MedPacto that blocks a growth-signal enzyme, and it is being tested in a phase 2 trial for osteosarcoma [a bone cancer].",
   vb15010: "VB15010 is a tablet from Zhejiang Yangli that blocks the DNA repair enzyme PARP1, in a phase 2 trial for ovarian, prostate, pancreatic and other cancers.",

@@ -1,0 +1,192 @@
+[
+  {
+    "nctId": "NCT07529782",
+    "title": "Study to Assess Safety and Efficacy of HDP-101 in Chinese Patients With Relapsed or Refractory Multiple Myeloma",
+    "overallStatus": "RECRUITING",
+    "whyStopped": null,
+    "lastUpdate": {
+      "date": "2026-04-14",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 15,
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "source": "https://clinicaltrials.gov/study/NCT07529782",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference.",
+    "sourceConflict": {
+      "structuredMaximumAge": "18 Years",
+      "structuredMinimumAge": null,
+      "narrativeAgeCriterion": "At least 18 years",
+      "interpretation": "Conflict in the source itself, also reflected by semantic summary. Do not infer a corrected age limit, pediatric indication or personal eligibility."
+    }
+  },
+  {
+    "nctId": "NCT04460456",
+    "title": "A Study of SBT6050 Alone and in Combination With PD-1 Inhibitors in Subjects With Advanced HER2 Expressing Solid Tumors",
+    "overallStatus": "UNKNOWN",
+    "whyStopped": null,
+    "lastUpdate": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 58,
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "source": "https://clinicaltrials.gov/study/NCT04460456",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference."
+  },
+  {
+    "nctId": "NCT00915681",
+    "title": "Intravenous Milk Thistle (Silibinin-Legalon) for Hepatic Failure Induced by Amatoxin/Amanita Mushroom Poisoning",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Sponsor decision",
+    "lastUpdate": {
+      "date": "2022-04-07",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 148,
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "source": "https://clinicaltrials.gov/study/NCT00915681",
+    "disposition": "Semantic result is a poisoning treatment study, not an oncology amanitin-conjugate program; excluded."
+  },
+  {
+    "nctId": "NCT04278144",
+    "title": "A First-in-human Study Using BDC-1001 as a Single Agent and in Combination With Nivolumab in Advanced HER2-Expressing Solid Tumors",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Sponsor Decision",
+    "lastUpdate": {
+      "date": "2025-09-15",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 175,
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "source": "https://clinicaltrials.gov/study/NCT04278144",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference."
+  },
+  {
+    "nctId": "NCT04879043",
+    "title": "Study to Assess Safety of HDP-101 in Patients With Relapsed Refractory Multiple Myeloma",
+    "overallStatus": "RECRUITING",
+    "whyStopped": null,
+    "lastUpdate": {
+      "date": "2026-09-17",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 78,
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "source": "https://clinicaltrials.gov/study/NCT04879043",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference."
+  },
+  {
+    "nctId": "NCT05514717",
+    "title": "A Study of XMT-2056 in Advanced/Recurrent Solid Tumors That Express HER2",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Development discontinued.",
+    "lastUpdate": {
+      "date": "2026-06-18",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 57,
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "source": "https://clinicaltrials.gov/study/NCT05514717",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference."
+  },
+  {
+    "nctId": "NCT05070247",
+    "title": "A Study of TAK-500 With or Without Pembrolizumab in Adults With Select Locally Advanced or Metastatic Solid Tumors",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Clinical Futility of TAK 500 met. No further development with this compound",
+    "lastUpdate": {
+      "date": "2026-01-22",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 61,
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "source": "https://clinicaltrials.gov/study/NCT05070247",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference."
+  },
+  {
+    "nctId": "NCT05954143",
+    "title": "Trial of BDC-1001 +/- Pertuzumab in Subjects With HER2-Positive Metastatic Breast Cancer",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Sponsor Decision",
+    "lastUpdate": {
+      "date": "2025-11-20",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 11,
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "source": "https://clinicaltrials.gov/study/NCT05954143",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference."
+  },
+  {
+    "nctId": "NCT05091528",
+    "title": "A Safety and Activity Study of SBT6050 in Combination With Other HER2-directed Therapies for HER2-positive Cancers",
+    "overallStatus": "TERMINATED",
+    "whyStopped": "Sponsor decision based on strategic re-alignment",
+    "lastUpdate": {
+      "date": "2022-08-18",
+      "type": "ACTUAL"
+    },
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 2,
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "source": "https://clinicaltrials.gov/study/NCT05091528",
+    "disposition": "Named mechanism/program context; no local slot or clinical-benefit inference."
+  }
+]

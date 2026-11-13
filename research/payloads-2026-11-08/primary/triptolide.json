@@ -1,0 +1,289 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.3390/cancers11081138",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31398954",
+        "source": "MED",
+        "pmid": "31398954",
+        "pmcid": "PMC6721810",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6721810"
+          ]
+        },
+        "doi": "10.3390/cancers11081138",
+        "title": "Novel Antibody-Drug Conjugate with Anti-CD26 Humanized Monoclonal Antibody and Transcription Factor IIH (TFIIH) Inhibitor, Triptolide, Inhibits Tumor Growth via Impairing mRNA Synthesis.",
+        "authorString": "Hayashi M, Madokoro H, Yamada K, Nishida H, Morimoto C, Sakamoto M, Yanagawa H, Yamada T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hayashi M",
+              "lastName": "Hayashi",
+              "firstName": "Mutsumi",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan."
+                  },
+                  {
+                    "affiliation": "Department of Pediatrics, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Madokoro H",
+              "lastName": "Madokoro",
+              "firstName": "Hiroko",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yamada K",
+              "lastName": "Yamada",
+              "firstName": "Koji",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan."
+                  },
+                  {
+                    "affiliation": "Department of Biochemistry, The Jikei University School of Medicine, 3-25-8 Nishi-Shimbashi, Minato-ku, Tokyo 105-8461, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nishida H",
+              "lastName": "Nishida",
+              "firstName": "Hiroko",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Morimoto C",
+              "lastName": "Morimoto",
+              "firstName": "Chikao",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Therapy Development and Innovation for Immune Disorders and Cancers, Juntendo University Graduate School of Medicine, 2-1-1 Hongo, Bunkyo-ku, Tokyo 113-8421, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sakamoto M",
+              "lastName": "Sakamoto",
+              "firstName": "Michiie",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yanagawa H",
+              "lastName": "Yanagawa",
+              "firstName": "Hiroshi",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Fundamental Science and Technology, Keio University School of Science and Technology, 3-14-1 Hiyoshi, Kouhoku-ku, Yokohama City 233-8522, Kanagawa, Japan."
+                  },
+                  {
+                    "affiliation": "IDAC Theranostics Inc., 1-1-48 Suehirocho, Tsurumi-ku, Yokohama City 230-0045, Kanagawa, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yamada T",
+              "lastName": "Yamada",
+              "firstName": "Taketo",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan. taketo@saitama-med.ac.jp."
+                  },
+                  {
+                    "affiliation": "Department of Pathology, Saitama Medical University, 38 Morohongo, Moroyama-machi, Saitama 350-0495, Japan. taketo@saitama-med.ac.jp."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "11",
+          "journalIssueId": 2844574,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Cancers (Basel)",
+            "title": "Cancers",
+            "essn": "2072-6694",
+            "issn": "2072-6694",
+            "isoabbreviation": "Cancers (Basel)",
+            "nlmid": "101526829"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "E1138",
+        "affiliation": "Department of Pathology, Keio University School of Medicine, 35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582, Japan.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Ministry of Education, Culture, Sports, Science and Technology",
+              "grantId": "07-17",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Health, Labor, and Welfare of Japan",
+              "grantId": "H24-B10-003",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Health, Labor, and Welfare of Japan",
+              "grantId": "H27-150401-01",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education, Culture, Sports, Science and Technology",
+              "grantId": "22790355",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education, Culture, Sports, Science and Technology",
+              "grantId": "16H04714",
+              "orderIn": 0
+            },
+            {
+              "agency": "Ministry of Education, Culture, Sports, Science and Technology",
+              "grantId": "23390086",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Triptolide",
+            "RNA polymerase II",
+            "Targeted Therapy",
+            "Malignant Mesothelioma",
+            "Antibody Drug Conjugate",
+            "Cd26"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/cancers11081138"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6721810"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6721810?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 15,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2019-08-11",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2019-08-08",
+        "firstPublicationDate": "2019-08-08",
+        "firstIndexDate": "2019-08-10",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "e90309252ae2f2b5cb2336e1ac1a7458a7f33c5cac8fe15edf33df17fc4115be",
+          "characters": 1454
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "e647119acbb93065d2a43ddac55dbabd638158e197154fb1749e5edad502c02a",
+    "sourceBytes": 7515,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

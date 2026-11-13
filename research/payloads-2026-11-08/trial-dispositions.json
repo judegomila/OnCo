@@ -1,0 +1,146 @@
+[
+  {
+    "nctId": "NCT03595059",
+    "overallStatus": "COMPLETED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT04278144",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT04460456",
+    "overallStatus": "UNKNOWN",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT04879043",
+    "overallStatus": "RECRUITING",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": "nct04879043",
+    "disposition": "existing-record",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT05070247",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT05091528",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT05511844",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": "nct05511844",
+    "disposition": "existing-record",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT05514717",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT05954143",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT06419634",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": "nct06419634",
+    "disposition": "existing-record",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT06885645",
+    "overallStatus": "NOT_YET_RECRUITING",
+    "semanticDiscovery": false,
+    "directlyCaptured": true,
+    "canonicalOwner": "nct06885645",
+    "disposition": "existing-record",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT06934889",
+    "overallStatus": "RECRUITING",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT07300943",
+    "overallStatus": "RECRUITING",
+    "semanticDiscovery": false,
+    "directlyCaptured": true,
+    "canonicalOwner": "nct07300943",
+    "disposition": "existing-record",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT07529782",
+    "overallStatus": "RECRUITING",
+    "semanticDiscovery": true,
+    "directlyCaptured": true,
+    "canonicalOwner": "nct07529782",
+    "disposition": "existing-record",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT05415072",
+    "overallStatus": "ACTIVE_NOT_RECRUITING",
+    "semanticDiscovery": false,
+    "directlyCaptured": true,
+    "canonicalOwner": "nct05415072",
+    "disposition": "existing-record",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  },
+  {
+    "nctId": "NCT06563804",
+    "overallStatus": "TERMINATED",
+    "semanticDiscovery": false,
+    "directlyCaptured": true,
+    "canonicalOwner": null,
+    "disposition": "context-only-no-new-trial",
+    "reason": "Used only for construct identity/lifecycle where cited; no eligibility, access or efficacy inference."
+  }
+]

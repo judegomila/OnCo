@@ -1,0 +1,29 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "complete": true,
+  "queries": [
+    {
+      "id": "mcl1-trial",
+      "params": {
+        "filter.ids": "NCT06563804"
+      },
+      "complete": true,
+      "pages": 1,
+      "retrievedCount": 1,
+      "totalCount": 1
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "mcl1-trial/page-0001.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT06563804&format=json&pageSize=100&countTotal=true",
+      "retrievedAt": "2026-11-08T18:22:54.321619+00:00",
+      "bytes": 27261,
+      "sha256": "7a06317c915be286f4526fa2546b2796ae5c182d1007e586f19909ca2b5791d1"
+    }
+  ],
+  "uniqueRecords": 1,
+  "statuses": {
+    "TERMINATED": 1
+  }
+}

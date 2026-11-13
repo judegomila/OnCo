@@ -1,0 +1,380 @@
+{
+  "fullChain": [
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate"
+      ],
+      "exitCode": 0,
+      "seconds": 2.17
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "npm",
+        "run",
+        "typecheck"
+      ],
+      "exitCode": 0,
+      "seconds": 10.4
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "exitCode": 0,
+      "seconds": 28.25
+    },
+    {
+      "name": "full-suite",
+      "command": [
+        "npx",
+        "vitest",
+        "run"
+      ],
+      "exitCode": 0,
+      "seconds": 100.13
+    }
+  ],
+  "fullSuite": {
+    "filesPassed": 281,
+    "testsPassed": 2813,
+    "skipped": 2
+  },
+  "followupCacheTests": "DOI existence and audit tests pass after verified registry additions.",
+  "reader": {
+    "scope": "Actual EntityDetail SSR; no browser hydration, responsive or deployed-page claim.",
+    "checks": [
+      {
+        "id": "immune-stimulating-adc",
+        "route": "/technologies/immune-stimulating-adc/",
+        "asOf": "2026-11-11",
+        "bytes": 61585,
+        "sha256": "58b9f4ced0793f4731e92fa6e6136a3ef556d884feb31153507dbd785b3ee9f2",
+        "sourceLinksChecked": 19,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "route": "/terms/transcription-inhibitor-payloads/",
+        "asOf": "2026-11-11",
+        "bytes": 49454,
+        "sha256": "d476ce4c9a933ce2a310212aa8d84a1be6f96b22ad16bb609d2998267d4dc18c",
+        "sourceLinksChecked": 20,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "route": "/terms/topoisomerase-i-payloads/",
+        "asOf": "2026-11-11",
+        "bytes": 58070,
+        "sha256": "636cf9cd0551e120b6e343ba1a0efd6461c8da557358156673634312b9838970",
+        "sourceLinksChecked": 10,
+        "missingSources": 0,
+        "nestedAnchors": 0
+      }
+    ]
+  },
+  "export": {
+    "records": 3,
+    "exactEntityJSON": true,
+    "checks": [
+      {
+        "id": "immune-stimulating-adc",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "immune-stimulating-adc",
+        "field": "notes",
+        "index": 11,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "tldr",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "summary",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 0,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 1,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 2,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 3,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 4,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 5,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 6,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 7,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 8,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 9,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 10,
+        "passageInActualMarkdown": true
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "field": "notes",
+        "index": 11,
+        "passageInActualMarkdown": true
+      }
+    ],
+    "openApiHasPathsAndComponents": true,
+    "scope": "Actual static JSON, Markdown and OpenAPI generation. No deployment or full Next production-build claim."
+  },
+  "wholeGraph": {
+    "group": "chem",
+    "baseCommit": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+    "runtimeGraphBefore": 22717,
+    "runtimeGraphAfter": 22717,
+    "changedIds": [
+      "immune-stimulating-adc",
+      "topoisomerase-i-payloads",
+      "transcription-inhibitor-payloads"
+    ],
+    "removedIds": [],
+    "unchangedOtherRecords": 22714,
+    "checks": [
+      {
+        "id": "immune-stimulating-adc",
+        "priorLinksPreserved": 12,
+        "priorNotesPreservedExactly": 8,
+        "intentionalReplacements": 0,
+        "replacementReason": null,
+        "newRecord": false
+      },
+      {
+        "id": "topoisomerase-i-payloads",
+        "priorLinksPreserved": 8,
+        "priorNotesPreservedExactly": 8,
+        "intentionalReplacements": 0,
+        "replacementReason": null,
+        "newRecord": false
+      },
+      {
+        "id": "transcription-inhibitor-payloads",
+        "priorLinksPreserved": 11,
+        "priorNotesPreservedExactly": 6,
+        "intentionalReplacements": 0,
+        "replacementReason": null,
+        "newRecord": false
+      }
+    ]
+  },
+  "pageWeight": "All 14 recorded pages within existing ceilings; no ceiling changed.",
+  "scope": "Actual EntityDetail SSR and static JSON/Markdown/OpenAPI generators, not browser hydration, a full Next production build, main, live or expert acceptance."
+}

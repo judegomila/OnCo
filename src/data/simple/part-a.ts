@@ -179,7 +179,7 @@ export const simpleA: Record<string, string> = {
   "bispecific-adc": "An antibody-drug whose antibody grabs two different proteins on the cancer cell, so it sticks to the tumour better and to healthy tissue less.",
   "dual-payload-adc": "An antibody-drug carrying two different poisons at once, so the tumour cannot escape by resisting one of them.",
   "degrader-antibody-conjugate": "An antibody-drug that delivers a protein-destroying molecule instead of chemotherapy, reaching targets inside the cell.",
-  "immune-stimulating-adc": "An antibody-drug whose cargo wakes up the immune system inside the tumour instead of poisoning the cell.",
+  "immune-stimulating-adc": "The antibody carries a drug intended to stimulate immune sensing. Delivery, immune activation and useful tumour control each need evidence.",
   "masked-adc": "An antibody-drug wearing a mask that only comes off inside the tumour, so it leaves the same protein on healthy tissue alone.",
   "site-specific-conjugation": "The chemistry that decides exactly where and how many drug molecules attach to the antibody, which sets how safe and effective it is.",
   "peptide-drug-conjugate": "Like an antibody-drug but with a tiny targeting peptide instead of an antibody, so it gets into tumours faster and is cheaper to make.",

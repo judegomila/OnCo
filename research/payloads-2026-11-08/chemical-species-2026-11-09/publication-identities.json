@@ -1,0 +1,1143 @@
+{
+  "scope": "Resolved MED identities. Metadata screening is not abstract/full-text review. Selected sections do not certify the remainder of a paper. No abstracts are reproduced here.",
+  "identities": [
+    {
+      "id": "16821799",
+      "pmcid": null,
+      "doi": "10.1021/jm060319f",
+      "title": "Semisynthetic maytansine analogues for the targeted treatment of cancer.",
+      "authorString": "Widdison WC, Wilhelm SD, Cavanagh EE, Whiteman KR, Leece BA, Kovtun Y, Goldmacher VS, Xie H, Steeves RM, Lutz RJ, Zhao R, Wang L, Blättler WA, Chari RV.",
+      "firstPublicationDate": "2006-07-01",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "e481b3b0f29cd88df92e9635fa6c06e09c89c2274d747d66010ec77909ef8b22",
+      "captures": [
+        {
+          "file": "doi-dm4-med.json",
+          "sha256": "229fe5169d702463892143336413bbe40bc7c90560d322c8c2bab396f134c6bb"
+        }
+      ]
+    },
+    {
+      "id": "21372224",
+      "pmcid": "PMC10766325",
+      "doi": "10.1158/1078-0432.ccr-10-2939",
+      "title": "Humanized anti-Trop-2 IgG-SN-38 conjugate for effective treatment of diverse epithelial cancers: preclinical studies in human cancer xenograft models and monkeys.",
+      "authorString": "Cardillo TM, Govindan SV, Sharkey RM, Trisal P, Goldenberg DM.",
+      "firstPublicationDate": "2011-03-03",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "304db948eff52e7cfe9a9086499f7940b7e9eb342db5602fccb8a4d0a66e7edc",
+      "captures": [
+        {
+          "file": "doi-cl2a-med.json",
+          "sha256": "7009e5fc396f31b6c9ea394a9ed918df3931246e8339a1f23dd69728c96e892f"
+        }
+      ]
+    },
+    {
+      "id": "27026201",
+      "pmcid": null,
+      "doi": "10.1158/1078-0432.ccr-15-2822",
+      "title": "DS-8201a, A Novel HER2-Targeting ADC with a Novel DNA Topoisomerase I Inhibitor, Demonstrates a Promising Antitumor Efficacy with Differentiation from T-DM1.",
+      "authorString": "Ogitani Y, Aida T, Hagihara K, Yamaguchi J, Ishii C, Harada N, Soma M, Okamoto H, Oitate M, Arakawa S, Hirai T, Atsumi R, Nakada T, Hayakawa I, Abe Y, Agatsuma T.",
+      "firstPublicationDate": "2016-03-29",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "ba66d0f5e0425e9aa578638034aa514c94d3cb16aa9eb9e08c3a0dcb245a085c",
+      "captures": [
+        {
+          "file": "doi-ggfg-med.json",
+          "sha256": "9638a93084bf58ec29dfd8008f172f2db54872c0db3dd69d4431132e501223f7"
+        }
+      ]
+    },
+    {
+      "id": "12778055",
+      "pmcid": null,
+      "doi": "10.1038/nbt832",
+      "title": "Development of potent monoclonal antibody auristatin conjugates for cancer therapy.",
+      "authorString": "Doronina SO, Toki BE, Torgov MY, Mendelsohn BA, Cerveny CG, Chace DF, DeBlanc RL, Gearing RP, Bovee TD, Siegall CB, Francisco JA, Wahl AF, Meyer DL, Senter PD.",
+      "firstPublicationDate": "2003-06-01",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Evaluation Study",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "46c78ef25a65f0068d51fa3d1a3067663cd17179cc4c38ae6b18be7934c73822",
+      "captures": [
+        {
+          "file": "doi-mc-vc-pabc-med.json",
+          "sha256": "8398a12c0bd0350a0008bb23406fc4f9b487a8a81d966a39aee804e4d72c2885"
+        }
+      ]
+    },
+    {
+      "id": "21425776",
+      "pmcid": null,
+      "doi": "10.1021/bc100480a",
+      "title": "Disulfide-linked antibody-maytansinoid conjugates: optimization of in vivo activity by varying the steric hindrance at carbon atoms adjacent to the disulfide linkage.",
+      "authorString": "Kellogg BA, Garrett L, Kovtun Y, Lai KC, Leece B, Miller M, Payne G, Steeves R, Whiteman KR, Widdison W, Xie H, Singh R, Chari RV, Lambert JM, Lutz RJ.",
+      "firstPublicationDate": "2011-03-22",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "e24684e349bf04a84dce86531b3e0e25796772f4ccd66a2883ca7f4c4ff7af31",
+      "captures": [
+        {
+          "file": "doi-sulfo-spdb-med.json",
+          "sha256": "3bed948cca6d7c1df99bb6d8049707b9edbae4a1fe26bc4d6b126e8d8359e7e4"
+        }
+      ]
+    },
+    {
+      "id": "29298756",
+      "pmcid": null,
+      "doi": "10.1182/blood-2017-10-813493",
+      "title": "ADCT-402, a PBD dimer-containing antibody drug conjugate targeting CD19-expressing malignancies.",
+      "authorString": "Zammarchi F, Corbett S, Adams L, Tyrer PC, Kiakos K, Janghra N, Marafioti T, Britten CE, Havenith CEG, Chivers S, D'Hooge F, Williams DG, Tiberghien A, Howard PW, Hartley JA, van Berkel PH.",
+      "firstPublicationDate": "2018-01-03",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "a0269cead8a248f22c5a5821ef6770b53a7c01115875a08bad8e74a60bf173e2",
+      "captures": [
+        {
+          "file": "doi-val-ala-med.json",
+          "sha256": "5ccdf23d6ea40237074d2515747a3ecda0c80372ca68d3c5ac47784062c8f864"
+        }
+      ]
+    },
+    {
+      "id": "16417259",
+      "pmcid": null,
+      "doi": "10.1021/bc0502917",
+      "title": "Enhanced activity of monomethylauristatin F through monoclonal antibody delivery: effects of linker technology on efficacy and toxicity.",
+      "authorString": "Doronina SO, Mendelsohn BA, Bovee TD, Cerveny CG, Alley SC, Meyer DL, Oflazoglu E, Toki BE, Sanderson RJ, Zabinski RF, Wahl AF, Senter PD.",
+      "firstPublicationDate": "2006-01-01",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "59218b8690412e697cdeb4c9ea7ddf7d2ed8965b72504b415e2e8e6fc5399873",
+      "captures": [
+        {
+          "file": "doi-mc-non-cleavable-med.json",
+          "sha256": "97b5ef634ea31c11bee27bb103b44fa5774bea84906c56eb5088e65a97c4698d"
+        }
+      ]
+    },
+    {
+      "id": "26113086",
+      "pmcid": null,
+      "doi": "10.1158/0008-5472.can-15-0129",
+      "title": "A Polymer-Based Antibody-Vinca Drug Conjugate Platform: Characterization and Preclinical Efficacy.",
+      "authorString": "Yurkovetskiy AV, Yin M, Bodyak N, Stevenson CA, Thomas JD, Hammond CE, Qin L, Zhu B, Gumerov DR, Ter-Ovanesyan E, Uttard A, Lowinger TB.",
+      "firstPublicationDate": "2015-06-25",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "004e5ab3f7a38843ad4412be00322ce01902beddd8d44721dd5ca718ecdaa66f",
+      "captures": [
+        {
+          "file": "doi-hydrophilic-next-gen-med.json",
+          "sha256": "fe3120ab40b240c6887cb6c2b96217e421adf4b900083c7baa63e33a98634aec"
+        }
+      ]
+    },
+    {
+      "id": "29992976",
+      "pmcid": "PMC6041317",
+      "doi": "10.1038/s41598-018-28533-4",
+      "title": "Pre-clinical pharmacology and mechanism of action of SG3199, the pyrrolobenzodiazepine (PBD) dimer warhead component of antibody-drug conjugate (ADC) payload tesirine.",
+      "authorString": "Hartley JA, Flynn MJ, Bingham JP, Corbett S, Reinert H, Tiberghien A, Masterson LA, Antonow D, Adams L, Chowdhury S, Williams DG, Mao S, Harper J, Havenith CEG, Zammarchi F, Chivers S, van Berkel PH, Howard PW.",
+      "firstPublicationDate": "2018-07-11",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract-and-selected-full-text",
+      "selectedSections": [
+        "Results: cell-panel, DNA-repair and multidrug-resistance experiments",
+        "Methods: cell lines and cytotoxicity procedures"
+      ],
+      "abstractSha256": "0834406c89dd673c7aa267748db895b6c5af8ad03ba16c3e9d4265b46db6791a",
+      "captures": [
+        {
+          "file": "med-29992976.json",
+          "sha256": "49d3d8a1154e037309fce3a9e27e2cb6df3d511a9d0b9cbcda988983fd194589"
+        }
+      ]
+    },
+    {
+      "id": "27166974",
+      "pmcid": "PMC4946713",
+      "doi": "10.1111/cas.12966",
+      "title": "Bystander killing effect of DS-8201a, a novel anti-human epidermal growth factor receptor 2 antibody-drug conjugate, in tumors with human epidermal growth factor receptor 2 heterogeneity.",
+      "authorString": "Ogitani Y, Hagihara K, Oitate M, Naito H, Agatsuma T.",
+      "firstPublicationDate": "2016-06-22",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract-and-selected-full-text",
+      "selectedSections": [
+        "Methods: distribution coefficient and artificial-membrane assays",
+        "Results: exact compared species and local/distant tumour controls"
+      ],
+      "abstractSha256": "2d13b0dd7a5865940ba3982eac20d2e0bb8a6ae58b89f76ea3b7dd958a2a80f2",
+      "captures": [
+        {
+          "file": "med-27166974.json",
+          "sha256": "e96415ec2772c85b3bac58d9b77dcfa61d979f24b045d7dd86f9f530433ea682"
+        },
+        {
+          "file": "elicit-rank-5-med.json",
+          "sha256": "495f6f743379aea900453e0ad8258808320f41d2b6b438a57d98b0f96c16294f"
+        }
+      ]
+    },
+    {
+      "id": "36620535",
+      "pmcid": "PMC9817100",
+      "doi": "10.3389/fonc.2022.951589",
+      "title": "Preclinical profiles of SKB264, a novel anti-TROP2 antibody conjugated to topoisomerase inhibitor, demonstrated promising antitumor efficacy compared to IMMU-132.",
+      "authorString": "Cheng Y, Yuan X, Tian Q, Huang X, Chen Y, Pu Y, Long H, Xu M, Ji Y, Xie J, Tan Y, Zhao X, Song H.",
+      "firstPublicationDate": "2022-12-23",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract-and-selected-full-text",
+      "selectedSections": [
+        "Introduction: T030, KL610023 and TL033 identities",
+        "Methods: composition and source materials",
+        "Results: structure, chromatography and TOP1 DNA-relaxation assay"
+      ],
+      "abstractSha256": "a4ed762b368057dd79046639cc3573c8f0820718acd5a1f03161246039b6faab",
+      "captures": [
+        {
+          "file": "skb264-med.json",
+          "sha256": "e730ceae79b0f52662a633db2bd180cd6d73ab87ad3ffd6fccacf51eb2119b11"
+        }
+      ]
+    },
+    {
+      "id": "41668804",
+      "pmcid": "PMC12883344",
+      "doi": "10.20517/cdr.2025.151",
+      "title": "Identification of antibody-drug conjugate payloads that are substrates of ATP-binding cassette drug efflux transporters.",
+      "authorString": "Roth JS, Guo H, Chen L, Shen M, Gbadegesin O, Robey RW, Gottesman MM, Hall MD.",
+      "firstPublicationDate": "2026-01-12",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract-and-selected-full-text",
+      "selectedSections": [
+        "Methods: paired-cell screen and confirmatory transfected-cell assays",
+        "Results: ABCB1/ABCG2/ABCC1 responses and free MMAF",
+        "Discussion: SG3199, chemical-species and clinical extrapolation limits"
+      ],
+      "abstractSha256": "bee79dbc8a051f3490cdd26c6f198be81af6e7a9b61e262853523de1ddb45317",
+      "captures": [
+        {
+          "file": "elicit-rank-2-med.json",
+          "sha256": "d3012d10f89bcb2fbc7d00c2c4abc198251a63b9dae71de8626eca51640bf031"
+        }
+      ]
+    },
+    {
+      "id": "26921341",
+      "pmcid": null,
+      "doi": "10.1158/0008-5472.can-15-1795",
+      "title": "Intracellular Released Payload Influences Potency and Bystander-Killing Effects of Antibody-Drug Conjugates in Preclinical Models.",
+      "authorString": "Li F, Emmerton KK, Jonas M, Zhang X, Miyamoto JB, Setter JR, Nicholas ND, Okeley NM, Lyon RP, Benjamin DR, Law CL.",
+      "firstPublicationDate": "2016-02-26",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "f7fadaf7360550134e6557b602df8d8df0938ac7e98d1d515f272313a5dac843",
+      "captures": [
+        {
+          "file": "elicit-rank-4-med.json",
+          "sha256": "f4ce73ba77a4c3385a80c818c5410e8c799f7bf4fdc300f2360f40a30f2b00d7"
+        }
+      ]
+    },
+    {
+      "id": "26101225",
+      "pmcid": null,
+      "doi": "10.1124/dmd.115.064253",
+      "title": "Intracellular Catabolism of an Antibody Drug Conjugate with a Noncleavable Linker.",
+      "authorString": "Rock BM, Tometsko ME, Patel SK, Hamblett KJ, Fanslow WC, Rock DA.",
+      "firstPublicationDate": "2015-06-22",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "dccda5e295b7c4ae9b984e63a82b93ffa8200341804a26cdc32586ce5f120169",
+      "captures": [
+        {
+          "file": "elicit-rank-6-med.json",
+          "sha256": "82f46d3eb7ae924cedfd076b1c1221961d309d670944553916ef43c07bb8a2bf"
+        }
+      ]
+    },
+    {
+      "id": "27206324",
+      "pmcid": null,
+      "doi": "10.1021/acs.bioconjchem.6b00192",
+      "title": "Determination of Antibody-Drug Conjugate Released Payload Species Using Directed in Vitro Assays and Mass Spectrometric Interrogation.",
+      "authorString": "Bessire AJ, Ballard TE, Charati M, Cohen J, Green M, Lam MH, Loganzo F, Nolting B, Pierce B, Puthenveetil S, Roberts L, Schildknegt K, Subramanyam C.",
+      "firstPublicationDate": "2016-06-13",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "5125d0be10d9c988142e291a3036ffdb0984c038b46fbf728d15a32d8a987340",
+      "captures": [
+        {
+          "file": "elicit-rank-7-med.json",
+          "sha256": "472080d27f5778922cf1236c550d1e0746c5478b06846be1184a2cde3015c5f9"
+        }
+      ]
+    },
+    {
+      "id": "28438386",
+      "pmcid": null,
+      "doi": "10.1016/j.bmc.2017.04.010",
+      "title": "Catabolism of antibody drug conjugates and characterization methods.",
+      "authorString": "Shadid M, Bowlin S, Bolleddula J.",
+      "firstPublicationDate": "2017-04-11",
+      "pubTypeList": {
+        "pubType": [
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "49cc9e6a8c7224615df5d338079a7d22925a0186e05888d975e96cc54397b8ed",
+      "captures": [
+        {
+          "file": "elicit-rank-9-med.json",
+          "sha256": "5d1c4edae6cc828813078da3458f30e6b87f4f71f6dc8fe0f728179e0dbd29bd"
+        }
+      ]
+    },
+    {
+      "id": "33722857",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-20-0166",
+      "title": "Dolaflexin: A Novel Antibody-Drug Conjugate Platform Featuring High Drug Loading and a Controlled Bystander Effect.",
+      "authorString": "Yurkovetskiy AV, Bodyak ND, Yin M, Thomas JD, Clardy SM, Conlon PR, Stevenson CA, Uttard A, Qin L, Gumerov DR, Ter-Ovanesyan E, Bu C, Johnson AJ, Gurijala VR, McGillicuddy D, DeVit MJ, Poling LL, Protopopova M, Xu L, Zhang Q, Park PU, Bergstrom DA, Lowinger TB.",
+      "firstPublicationDate": "2021-03-15",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "b857ebcfb3517ca1b78a2df367cd71ead4adae4cf9999f65bb671537e6ef80c4",
+      "captures": [
+        {
+          "file": "med-33722857.json",
+          "sha256": "216a93372962bf01fcc526c66766394910f7d8097d2232ce76a3655f3a0addc9"
+        }
+      ]
+    },
+    {
+      "id": "33722858",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-20-0183",
+      "title": "The Dolaflexin-based Antibody-Drug Conjugate XMT-1536 Targets the Solid Tumor Lineage Antigen SLC34A2/NaPi2b.",
+      "authorString": "Bodyak ND, Mosher R, Yurkovetskiy AV, Yin M, Bu C, Conlon PR, Demady DR, DeVit MJ, Gumerov DR, Gurijala VR, Lee W, McGillicuddy D, Park PU, Poling LL, Protopova M, Qin L, Stevenson CA, Ter-Ovanesyan E, Uttard A, Xiao D, Xu J, Xu L, Bergstrom DA, Lowinger TB.",
+      "firstPublicationDate": "2021-03-15",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "20b830f2e5ceaf0e162f38bf4b42c43f646dcce909a3d31ff734d13791135720",
+      "captures": [
+        {
+          "file": "med-33722858.json",
+          "sha256": "7c673b97cace3faa6c4bac6c386ba16534bebd48bf7df48ee36cf232ae945ed1"
+        }
+      ]
+    },
+    {
+      "id": "26631267",
+      "pmcid": null,
+      "doi": "10.1158/0008-5472.can-15-1610",
+      "title": "SLC46A3 Is Required to Transport Catabolites of Noncleavable Antibody Maytansine Conjugates from the Lysosome to the Cytoplasm.",
+      "authorString": "Hamblett KJ, Jacob AP, Gurgel JL, Tometsko ME, Rock BM, Patel SK, Milburn RR, Siu S, Ragan SP, Rock DA, Borths CJ, O'Neill JW, Chang WS, Weidner MF, Bio MM, Quon KC, Fanslow WC.",
+      "firstPublicationDate": "2015-12-02",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "eec9254430c480701bf677101da76f2c25a1417f37f7271ff7e5b950d364d2a0",
+      "captures": [
+        {
+          "file": "slc46a3-med.json",
+          "sha256": "33dd856d7b9ade72504597429b6ffae7fcbed9fe9b65f4bc7df26fd0e01aba85"
+        }
+      ]
+    },
+    {
+      "id": "40501953",
+      "pmcid": "PMC12154920",
+      "doi": "10.1101/2025.05.22.651305",
+      "title": "Identification of antibody-drug conjugate payloads which are substrates of ATP-binding cassette drug efflux transporters.",
+      "authorString": "Roth JS, Guo H, Chen L, Shen M, Gbadegesin O, Robey RW, Gottesman MM, Hall MD.",
+      "firstPublicationDate": "2025-07-18",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Preprint",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "76321fce0dfd0dc3cf5e2bd66d790b77d4cae170c51c6ca4f88494cf87f45946",
+      "captures": [
+        {
+          "file": "abc-preprint-med.json",
+          "sha256": "d39615fda004b2101844b1af20fefc63805281f243eaac52a84bc678562b2fb7"
+        }
+      ]
+    },
+    {
+      "id": "31620224",
+      "pmcid": "PMC6792174",
+      "doi": "10.1021/acsmedchemlett.9b00310",
+      "title": "Peptide-Cleavable Self-immolative Maytansinoid Antibody-Drug Conjugates Designed To Provide Improved Bystander Killing.",
+      "authorString": "Costoplus JA, Veale KH, Qiu Q, Ponte JF, Lanieri L, Setiady Y, Dong L, Skaletskaya A, Bartle LM, Salomon P, Wu R, Maloney EK, Kovtun YV, Ab O, Lai K, Chari RVJ, Widdison WC.",
+      "firstPublicationDate": "2019-09-27",
+      "pubTypeList": {
+        "pubType": [
+          "rapid-communication",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract-and-selected-full-text",
+      "selectedSections": [
+        "Selected main-body passages: chemical design, thiol and S-methyl products, co-culture methods and metabolite identification"
+      ],
+      "abstractSha256": "f1a87fc6238748b2e8d2c087f8deee5b355259e159d1da240142d0262b00c3df",
+      "captures": [
+        {
+          "file": "dm21-peer-reviewed-med.json",
+          "sha256": "35815965c02b4170e57d74f2193697105a5ff1c5048bb6aa866381ac8098e6e2"
+        }
+      ]
+    },
+    {
+      "id": "41166694",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-25-0461",
+      "title": "Preclinical Development of MGC028, an ADAM9-Targeted, Glycan-Linked, Exatecan-Based Antibody-Drug Conjugate for the Treatment of Solid Cancers.",
+      "authorString": "Scribner JA, Brown JG, Son T, Jin L, McKenzie C, Nam V, Bush C, Quinonez D, Ford D, Tamura J, Gorlatov S, Summers A, Hav M, Li H, Sharma NK, Zhang X, Diedrich G, Butler S, Bonvini E, Loo D.",
+      "firstPublicationDate": "2026-04-01",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "8d4b3cb2dc57d3076f42cb32e4838022449bb23ebb10c36ded85f63840f077a8",
+      "captures": [
+        {
+          "file": "imgc936-med-query.json",
+          "sha256": "548d5403294baa83de591a88d08cb72067d75a1b606a1053fdf8a66111773399"
+        }
+      ]
+    },
+    {
+      "id": "35511740",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-21-0915",
+      "title": "Preclinical Evaluation of IMGC936, a Next-Generation Maytansinoid-based Antibody-drug Conjugate Targeting ADAM9-expressing Tumors.",
+      "authorString": "Scribner JA, Hicks SW, Sinkevicius KW, Yoder NC, Diedrich G, Brown JG, Lucas J, Fuller ME, Son T, Dastur A, Hooley J, Espelin C, Themeles M, Chen FZ, Li Y, Chiechi M, Lee J, Barat B, Widjaja L, Gorlatov S, Tamura J, Ciccarone V, Ab O, McEachem KA, Koenig S, Westin EH, Moore PA, Chittenden T, Gregory RJ, Bonvini E, Loo D.",
+      "firstPublicationDate": "2022-07-01",
+      "pubTypeList": {
+        "pubType": [
+          "Clinical Trial, Phase II",
+          "Clinical Trial, Phase I",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "f8e19d7a61f16b843ca2a34bfe90530991f0eaa539d62c0b5c994c88da886718",
+      "captures": [
+        {
+          "file": "imgc936-med-query.json",
+          "sha256": "548d5403294baa83de591a88d08cb72067d75a1b606a1053fdf8a66111773399"
+        }
+      ]
+    },
+    {
+      "id": "31620223",
+      "pmcid": "PMC6792168",
+      "doi": "10.1021/acsmedchemlett.9b00301",
+      "title": "Synthesis and Evaluation of Camptothecin Antibody-Drug Conjugates.",
+      "authorString": "Li W, Veale KH, Qiu Q, Sinkevicius KW, Maloney EK, Costoplus JA, Lau J, Evans HL, Setiady Y, Ab O, Abbott SM, Lee J, Wisitpitthaya S, Skaletskaya A, Wang L, Keating TA, Chari RVJ, Widdison WC.",
+      "firstPublicationDate": "2019-09-06",
+      "pubTypeList": {
+        "pubType": [
+          "rapid-communication",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "067cd31634a0fe497076033414473097eec4b3b2aa94078fdfa7204024887676",
+      "captures": [
+        {
+          "file": "med-31620223-check.json",
+          "sha256": "2bf74a7785e505f2931fad83f2a4ceeb52fe479c2ea554e9816dac8453f7eaee"
+        }
+      ]
+    },
+    {
+      "id": "39442070",
+      "pmcid": null,
+      "doi": "10.1200/jco.24.00529",
+      "title": "Trastuzumab Duocarmazine in Pretreated Human Epidermal Growth Factor Receptor 2-Positive Advanced or Metastatic Breast Cancer: An Open-Label, Randomized, Phase III Trial (TULIP).",
+      "authorString": "Turner N, Saura C, Aftimos P, van den Tweel E, Oesterholt M, Koper N, Colleoni M, Kaczmarek E, Punie K, Song X, Armstrong A, Bianchi G, Stradella A, Ladoire S, Lim JSJ, Quenel-Tueux N, Tan TJ, Escrivá-de-Romaní S, O'Shaughnessy J, TULIP Trial Investigators.",
+      "firstPublicationDate": "2024-10-23",
+      "pubTypeList": {
+        "pubType": [
+          "Clinical Trial, Phase III",
+          "Research Support, Non-U.S. Gov't",
+          "Multicenter Study",
+          "Randomized Controlled Trial",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "0f7678c556557159d7d80ae969ea88da8d97578440e67391014570cc924c18fe",
+      "captures": [
+        {
+          "file": "duocarmazine-tulip-med.json",
+          "sha256": "9faa6229b1d16aa97dea5bb4edb7ba148d8390d84e5f76c87448e82ed34e8f92"
+        }
+      ]
+    },
+    {
+      "id": "36046357",
+      "pmcid": "PMC9400777",
+      "doi": "10.37349/etat.2022.00069",
+      "title": "New antibody-drug conjugates (ADCs) in breast cancer-an overview of ADCs recently approved and in later stages of development.",
+      "authorString": "Koster KL, Huober J, Joerger M.",
+      "firstPublicationDate": "2022-02-24",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "577f57ef1a0455314869e2fdf6310f40db80ffbe435e95aed3a745fa09574cdd",
+      "captures": [
+        {
+          "file": "duocarmazine-tulip-med.json",
+          "sha256": "9faa6229b1d16aa97dea5bb4edb7ba148d8390d84e5f76c87448e82ed34e8f92"
+        }
+      ]
+    },
+    {
+      "id": "27197308",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-16-0021",
+      "title": "A New Triglycyl Peptide Linker for Antibody-Drug Conjugates (ADCs) with Improved Targeted Killing of Cancer Cells.",
+      "authorString": "Singh R, Setiady YY, Ponte J, Kovtun YV, Lai KC, Hong EE, Fishkin N, Dong L, Jones GE, Coccia JA, Lanieri L, Veale K, Costoplus JA, Skaletskaya A, Gabriel R, Salomon P, Wu R, Qiu Q, Erickson HK, Lambert JM, Chari RV, Widdison WC.",
+      "firstPublicationDate": "2016-03-29",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "b4fe9f0775f5324cbc4c5686814af4cc1878b98db5583f696a7e7255c8d33256",
+      "captures": [
+        {
+          "file": "dm4-catabolites-med.json",
+          "sha256": "d7fbc1eb598618dfa9df4d9f39ef97592051e9becbd456f430b7b4bc74f00248"
+        }
+      ]
+    },
+    {
+      "id": "31257177",
+      "pmcid": null,
+      "doi": "10.1016/s1470-2045(19)30328-6",
+      "title": "Trastuzumab duocarmazine in locally advanced and metastatic solid tumours and HER2-expressing breast cancer: a phase 1 dose-escalation and dose-expansion study.",
+      "authorString": "Banerji U, van Herpen CML, Saura C, Thistlethwaite F, Lord S, Moreno V, Macpherson IR, Boni V, Rolfo C, de Vries EGE, Rottey S, Geenen J, Eskens F, Gil-Martin M, Mommers EC, Koper NP, Aftimos P.",
+      "firstPublicationDate": "2019-06-27",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Clinical Trial, Phase I",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "e1cb58bbe4b30680292903954f639fbc8b3d299fbd907bced61b9680d7c7702a",
+      "captures": [
+        {
+          "file": "duocarmazine-phase1-med.json",
+          "sha256": "b93e3dd3ad6d836f06a64c4f4e72012e76e4e99f9c8b0fcfa7104f4cc3ac19fd"
+        }
+      ]
+    },
+    {
+      "id": "27256376",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-16-0163",
+      "title": "SYD985, a Novel Duocarmycin-Based HER2-Targeting Antibody-Drug Conjugate, Shows Antitumor Activity in Uterine Serous Carcinoma with HER2/Neu Expression.",
+      "authorString": "Black J, Menderes G, Bellone S, Schwab CL, Bonazzoli E, Ferrari F, Predolini F, De Haydu C, Cocco E, Buza N, Hui P, Wong S, Lopez S, Ratner E, Silasi DA, Azodi M, Litkouhi B, Schwartz PE, Goedings P, Beusker PH, van der Lee MM, Timmers CM, Dokter WH, Santin AD.",
+      "firstPublicationDate": "2016-06-02",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "126881e862f5072b6cb0ad88373b9a7b804d47254a7ef99ddcd39e7c6d84930a",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "25589493",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-14-0881-t",
+      "title": "The Preclinical Profile of the Duocarmycin-Based HER2-Targeting ADC SYD985 Predicts for Clinical Benefit in Low HER2-Expressing Breast Cancers.",
+      "authorString": "van der Lee MM, Groothuis PG, Ubink R, van der Vleuten MA, van Achterberg TA, Loosveld EM, Damming D, Jacobs DC, Rouwette M, Egging DF, van den Dobbelsteen D, Beusker PH, Goedings P, Verheijden GF, Lemmens JM, Timmers M, Dokter WH.",
+      "firstPublicationDate": "2015-01-14",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "db419e34c2cd47292d898dded9bf8f981637d58d42b34d67979c0e14a12ba619",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "25635711",
+      "pmcid": null,
+      "doi": "10.1021/mp500781a",
+      "title": "Design, Synthesis, and Evaluation of Linker-Duocarmycin Payloads: Toward Selection of HER2-Targeting Antibody-Drug Conjugate SYD985.",
+      "authorString": "Elgersma RC, Coumans RG, Huijbregts T, Menge WM, Joosten JA, Spijker HJ, de Groot FM, van der Lee MM, Ubink R, van den Dobbelsteen DJ, Egging DF, Dokter WH, Verheijden GF, Lemmens JM, Timmers CM, Beusker PH.",
+      "firstPublicationDate": "2015-02-18",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "40adc163d1627cf7d763c904e099adf94c03db91a6f8c64d126b0eb86263aa0d",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "25189543",
+      "pmcid": null,
+      "doi": "10.1158/1535-7163.mct-14-0040-t",
+      "title": "Preclinical profile of the HER2-targeting ADC SYD983/SYD985: introduction of a new duocarmycin-based linker-drug platform.",
+      "authorString": "Dokter W, Ubink R, van der Lee M, van der Vleuten M, van Achterberg T, Jacobs D, Loosveld E, van den Dobbelsteen D, Egging D, Mattaar E, Groothuis P, Beusker P, Coumans R, Elgersma R, Menge W, Joosten J, Spijker H, Huijbregts T, de Groot V, Eppink M, de Roo G, Verheijden G, Timmers M.",
+      "firstPublicationDate": "2014-09-04",
+      "pubTypeList": {
+        "pubType": [
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "complete-abstract",
+      "selectedSections": [],
+      "abstractSha256": "0ba8352eaee2112ffe382b67c2f052b9d1253c8d7902448702ec162b472c18d8",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "26824988",
+      "pmcid": "PMC5325455",
+      "doi": "10.18632/oncotarget.7043",
+      "title": "Mechanisms of resistance and sensitivity to anti-HER2 therapies in HER2+ breast cancer.",
+      "authorString": "de Melo Gagliato D, Jardim DL, Marchesi MS, Hortobagyi GN.",
+      "firstPublicationDate": "2016-09-01",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "78baa70ba791e33a5b65098968e3532b3746582e9be0450f3d9aed57376f0d0b",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "26292154",
+      "pmcid": "PMC4966491",
+      "doi": "10.1080/19420862.2015.1082019",
+      "title": "Antibody-drug conjugates: Intellectual property considerations.",
+      "authorString": "Storz U.",
+      "firstPublicationDate": "2015-08-20",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "05bc14508cfb7c2b63bde34f666385f9d47a421f96db7261ce0a1e8b7231e62d",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "25759187",
+      "pmcid": "PMC4596905",
+      "doi": "10.1007/s11095-015-1657-7",
+      "title": "Current ADC Linker Chemistry.",
+      "authorString": "Jain N, Smith SW, Ghone S, Tomczuk B.",
+      "firstPublicationDate": "2015-03-11",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "116d8def2bcb86ca57acec9cd8d536c7fc9c670bcb5d852b9d6861a84427c6fd",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "26848651",
+      "pmcid": "PMC4783928",
+      "doi": "10.3390/ijms17020194",
+      "title": "Methods to Design and Synthesize Antibody-Drug Conjugates (ADCs).",
+      "authorString": "Yao H, Jiang F, Lu A, Zhang G.",
+      "firstPublicationDate": "2016-02-02",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "35f1a5a59f51a453200bb736f5ec95c7a55e3e8d019f598c42e6220b46f795c6",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "28536381",
+      "pmcid": "PMC5344263",
+      "doi": "10.3390/biomedicines4030014",
+      "title": "Antibody-Drug Conjugates for Cancer Therapy.",
+      "authorString": "Parslow AC, Parakh S, Lee FT, Gan HK, Scott AM.",
+      "firstPublicationDate": "2016-07-11",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "bcfc4fb1a7984eff2723314774c3287b8a5f09081dfc3462eff993d2af527556",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "25848336",
+      "pmcid": "PMC4381788",
+      "doi": "10.3747/co.22.2363",
+      "title": "Targeted therapy in her2-positive metastatic breast cancer: a review of the literature.",
+      "authorString": "Zhu X, Verma S.",
+      "firstPublicationDate": "2015-03-01",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "78d58f7ba78ae0b2cb821895dd2a6228b6c10ae179cc584547726fa65bcd107c",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "26742008",
+      "pmcid": "PMC4815767",
+      "doi": "10.1038/bjc.2015.435",
+      "title": "Antibody-drug conjugates--an emerging class of cancer treatment.",
+      "authorString": "Diamantis N, Banerji U.",
+      "firstPublicationDate": "2016-01-07",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "424a2f1d255e715daf66e594cbacb700032159b5f3fa1ad6ba4262750bb58b09",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "27000769",
+      "pmcid": "PMC4851893",
+      "doi": "10.1016/j.pharmthera.2016.03.003",
+      "title": "Emerging therapeutic targets in metastatic progression: A focus on breast cancer.",
+      "authorString": "Li Z, Kang Y.",
+      "firstPublicationDate": "2016-03-19",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "a8540b448ba941d0a254ebbc960df7d8b429f3fa9c9180d5fc3f40e6dcaf7103",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    },
+    {
+      "id": "26535074",
+      "pmcid": "PMC4624065",
+      "doi": "10.4062/biomolther.2015.116",
+      "title": "Strategies and Advancement in Antibody-Drug Conjugate Optimization for Targeted Cancer Therapeutics.",
+      "authorString": "Kim EG, Kim KM.",
+      "firstPublicationDate": "2015-11-01",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "readingDepth": "metadata-only",
+      "selectedSections": [],
+      "abstractSha256": "21f5a84d0ff2479a3c36b15ab5cc6d56a0bb67cf3a568e63a2a60ff3c9421874",
+      "captures": [
+        {
+          "file": "duocarmazine-early-med.json",
+          "sha256": "6c152b517af544b41106a56241aaeae33e5895b3c224e75239da425b35d7d331"
+        }
+      ]
+    }
+  ],
+  "captureOccurrences": [
+    {
+      "file": "doi-dm4-med.json",
+      "pmid": "16821799"
+    },
+    {
+      "file": "doi-cl2a-med.json",
+      "pmid": "21372224"
+    },
+    {
+      "file": "doi-ggfg-med.json",
+      "pmid": "27026201"
+    },
+    {
+      "file": "doi-mc-vc-pabc-med.json",
+      "pmid": "12778055"
+    },
+    {
+      "file": "doi-sulfo-spdb-med.json",
+      "pmid": "21425776"
+    },
+    {
+      "file": "doi-val-ala-med.json",
+      "pmid": "29298756"
+    },
+    {
+      "file": "doi-mc-non-cleavable-med.json",
+      "pmid": "16417259"
+    },
+    {
+      "file": "doi-hydrophilic-next-gen-med.json",
+      "pmid": "26113086"
+    },
+    {
+      "file": "med-29992976.json",
+      "pmid": "29992976"
+    },
+    {
+      "file": "med-27166974.json",
+      "pmid": "27166974"
+    },
+    {
+      "file": "skb264-med.json",
+      "pmid": "36620535"
+    },
+    {
+      "file": "elicit-rank-2-med.json",
+      "pmid": "41668804"
+    },
+    {
+      "file": "elicit-rank-4-med.json",
+      "pmid": "26921341"
+    },
+    {
+      "file": "elicit-rank-5-med.json",
+      "pmid": "27166974"
+    },
+    {
+      "file": "elicit-rank-6-med.json",
+      "pmid": "26101225"
+    },
+    {
+      "file": "elicit-rank-7-med.json",
+      "pmid": "27206324"
+    },
+    {
+      "file": "elicit-rank-9-med.json",
+      "pmid": "28438386"
+    },
+    {
+      "file": "med-33722857.json",
+      "pmid": "33722857"
+    },
+    {
+      "file": "med-33722858.json",
+      "pmid": "33722858"
+    },
+    {
+      "file": "slc46a3-med.json",
+      "pmid": "26631267"
+    },
+    {
+      "file": "abc-preprint-med.json",
+      "pmid": "40501953"
+    },
+    {
+      "file": "dm21-peer-reviewed-med.json",
+      "pmid": "31620224"
+    },
+    {
+      "file": "imgc936-med-query.json",
+      "pmid": "41166694"
+    },
+    {
+      "file": "imgc936-med-query.json",
+      "pmid": "35511740"
+    },
+    {
+      "file": "med-31620223-check.json",
+      "pmid": "31620223"
+    },
+    {
+      "file": "duocarmazine-tulip-med.json",
+      "pmid": "39442070"
+    },
+    {
+      "file": "duocarmazine-tulip-med.json",
+      "pmid": "36046357"
+    },
+    {
+      "file": "dm4-catabolites-med.json",
+      "pmid": "27197308"
+    },
+    {
+      "file": "duocarmazine-phase1-med.json",
+      "pmid": "31257177"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "27256376"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "25589493"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "25635711"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "25189543"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "26824988"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "26292154"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "25759187"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "26848651"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "28536381"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "25848336"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "26742008"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "27000769"
+    },
+    {
+      "file": "duocarmazine-early-med.json",
+      "pmid": "26535074"
+    }
+  ]
+}

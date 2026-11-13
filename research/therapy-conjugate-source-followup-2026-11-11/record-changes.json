@@ -1,0 +1,468 @@
+{
+  "baseCommit": "c6deecb92b279b11964c7ef81f419e6a18e26aeb",
+  "changes": [
+    {
+      "id": "immune-stimulating-adc",
+      "before": {
+        "asOf": "2026-11-08",
+        "links": [
+          {
+            "label": "Ackerman et al., Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumour immunity (Nature Cancer 2020)",
+            "url": "https://doi.org/10.1038/s43018-020-00136-x"
+          },
+          {
+            "label": "XMT-2056 preclinical study (2025)",
+            "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449"
+          },
+          {
+            "label": "XMT-2056 trial: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05514717"
+          },
+          {
+            "label": "TAK-500 trial: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05070247"
+          },
+          {
+            "label": "BDC-1001 trial: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT04278144"
+          },
+          {
+            "label": "Chernyak et al.: TLR-agonist conjugate uptake and myeloid-cell experiments (2024)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39235949/"
+          },
+          {
+            "label": "Janku et al.: NJH395 preclinical and phase 1 non-breast cohort (2022)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36129967/"
+          },
+          {
+            "label": "Oh et al.: T-DXd immune effects in gastric cancer models (2024)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39449023/"
+          },
+          {
+            "label": "Benci et al.: prolonged interferon signaling and checkpoint-resistance programs (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27912061/"
+          },
+          {
+            "label": "BDC-1001 breast-cancer phase 2 registry: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05954143"
+          },
+          {
+            "label": "SBT6050 combination registry: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05091528"
+          },
+          {
+            "label": "SBT6050 first-in-human registry: unknown status",
+            "url": "https://clinicaltrials.gov/study/NCT04460456"
+          }
+        ],
+        "notes": [
+          "Chernyak tested TLR7 and TLR7/8 conjugates whose myeloid activation depended on antigen-expressing cancer cells in the tested assays. The proposed route included Fc-gamma-receptor-dependent phagocytosis. An altered Fc, different target, sensor expression or uptake route needs its own tests.",
+          "Bukhalid reported XMT-2056 activity and reduced systemic inflammation relative to a free STING agonist in mouse models, with immune-mediated neighboring-cell effects in a specified HER2-positive/negative context. These results do not make every ISAC tumor-only or establish a human safety window.",
+          "Measure cargo exposure and uptake, sensor activation, cytokines, antigen presentation, tumor-reactive effector function and target-cell death separately. An adaptive-priming claim needs relevant antigen presentation and functional responding cells; innate myeloid killing and T-cell priming are not interchangeable mechanisms.",
+          "Oh found cGAS-STING/interferon activation and increased PD-L1 after T-DXd in gastric cancer experiments. That cytotoxic product does not thereby acquire an attached STING-agonist payload. Incidental immune effects and deliberately conjugated agonism are different composition claims.",
+          "Janku reported a single-ascending-dose phase 1 study of NJH395 in 18 people with HER2-positive non-breast advanced malignancies. Tumor delivery and type I interferon responses were pharmacodynamic findings; CRS, anti-drug antibodies and neuroinflammation at higher doses were clinical challenges. Neither the cohort nor an interferon marker establishes efficacy in breast cancer.",
+          "Benci linked prolonged interferon signaling to a checkpoint-resistance program in experimental systems and clinical associations. That report did not test an ISAC regimen. It supports examining duration and counter-regulation rather than assuming that a stronger cytokine signal must improve tumor control.",
+          "The named registry captures show XMT-2056 stopped with development discontinued, TAK-500 stopped for clinical futility, BDC-1001 studies stopped by sponsor decision, and the SBT6050 combination study stopped for strategic realignment. The older SBT6050 first-in-human status is unknown. Preserve each reason; a strategic decision is not proof that every related mechanism failed.",
+          "The phase-2 history includes the terminated BDC-1001 breast-cancer study. A class-level development label does not establish that a named trial is open. Verify overall status, facility/cohort availability and the dated source separately."
+        ]
+      },
+      "after": {
+        "asOf": "2026-11-11",
+        "links": [
+          {
+            "label": "Ackerman et al., Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumour immunity (Nature Cancer 2020)",
+            "url": "https://doi.org/10.1038/s43018-020-00136-x"
+          },
+          {
+            "label": "XMT-2056 preclinical study (2025)",
+            "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449"
+          },
+          {
+            "label": "XMT-2056 trial: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05514717"
+          },
+          {
+            "label": "TAK-500 trial: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05070247"
+          },
+          {
+            "label": "BDC-1001 trial: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT04278144"
+          },
+          {
+            "label": "Chernyak et al.: TLR-agonist conjugate uptake and myeloid-cell experiments (2024)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39235949/"
+          },
+          {
+            "label": "Janku et al.: NJH395 preclinical and phase 1 non-breast cohort (2022)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36129967/"
+          },
+          {
+            "label": "Oh et al.: T-DXd immune effects in gastric cancer models (2024)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39449023/"
+          },
+          {
+            "label": "Benci et al.: prolonged interferon signaling and checkpoint-resistance programs (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27912061/"
+          },
+          {
+            "label": "BDC-1001 breast-cancer phase 2 registry: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05954143"
+          },
+          {
+            "label": "SBT6050 combination registry: terminated",
+            "url": "https://clinicaltrials.gov/study/NCT05091528"
+          },
+          {
+            "label": "SBT6050 first-in-human registry: unknown status",
+            "url": "https://clinicaltrials.gov/study/NCT04460456"
+          },
+          {
+            "label": "Decout et al., cGAS-STING signalling and therapeutic context (2021 review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33833439/"
+          },
+          {
+            "label": "Heil et al., species-specific TLR7/8 recognition of viral RNA (2004)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14976262/"
+          },
+          {
+            "label": "TAK-500 CCR2-directed STING activation study (2025)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39918395/"
+          },
+          {
+            "label": "TAK-500 anti-CCR2 conjugate PK/PD modelling (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41888610/"
+          },
+          {
+            "label": "TAK-500 STING-conjugate linker study (2025)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41143331/"
+          },
+          {
+            "label": "UniProt TLR7: function and endosomal location",
+            "url": "https://www.uniprot.org/uniprotkb/Q9NYK1/entry"
+          },
+          {
+            "label": "UniProt TLR8: function and endosomal location",
+            "url": "https://www.uniprot.org/uniprotkb/Q9NR97/entry"
+          }
+        ],
+        "notes": [
+          "Chernyak tested TLR7 and TLR7/8 conjugates whose myeloid activation depended on antigen-expressing cancer cells in the tested assays. The proposed route included Fc-gamma-receptor-dependent phagocytosis. An altered Fc, different target, sensor expression or uptake route needs its own tests.",
+          "Bukhalid reported XMT-2056 activity and reduced systemic inflammation relative to a free STING agonist in mouse models, with immune-mediated neighboring-cell effects in a specified HER2-positive/negative context. These results do not make every ISAC tumor-only or establish a human safety window.",
+          "Measure cargo exposure and uptake, sensor activation, cytokines, antigen presentation, tumor-reactive effector function and target-cell death separately. An adaptive-priming claim needs relevant antigen presentation and functional responding cells; innate myeloid killing and T-cell priming are not interchangeable mechanisms.",
+          "Oh found cGAS-STING/interferon activation and increased PD-L1 after T-DXd in gastric cancer experiments. That cytotoxic product does not thereby acquire an attached STING-agonist payload. Incidental immune effects and deliberately conjugated agonism are different composition claims.",
+          "Janku reported a single-ascending-dose phase 1 study of NJH395 in 18 people with HER2-positive non-breast advanced malignancies. Tumor delivery and type I interferon responses were pharmacodynamic findings; CRS, anti-drug antibodies and neuroinflammation at higher doses were clinical challenges. Neither the cohort nor an interferon marker establishes efficacy in breast cancer.",
+          "Benci linked prolonged interferon signaling to a checkpoint-resistance program in experimental systems and clinical associations. That report did not test an ISAC regimen. It supports examining duration and counter-regulation rather than assuming that a stronger cytokine signal must improve tumor control.",
+          "The named registry captures show XMT-2056 stopped with development discontinued, TAK-500 stopped for clinical futility, BDC-1001 studies stopped by sponsor decision, and the SBT6050 combination study stopped for strategic realignment. The older SBT6050 first-in-human status is unknown. Preserve each reason; a strategic decision is not proof that every related mechanism failed.",
+          "The phase-2 history includes the terminated BDC-1001 breast-cancer study. A class-level development label does not establish that a named trial is open. Verify overall status, facility/cohort availability and the dated source separately.",
+          "The intended cargo is an innate-sensor agonist. cGAS can detect misplaced cytosolic DNA and make cGAMP, which activates STING and downstream type I interferon signalling; mitochondrial DNA also has a normal location, so DNA is not confined to the nucleus. TLR7/8 agonists act through endosomal sensing pathways. Heil’s receptor-deficiency and complementation experiments showed species-specific recognition of GU-rich single-stranded viral RNA by murine TLR7 and human TLR8; a small-molecule agonist imitates a sensing signal rather than supplying viral infection. Chernyak’s experiments included constructs with few agonist molecules attached per antibody; the tested loading is part of the construct, not a universal requirement. Cargo, receptor, cell type and uptake route must be named: an antibody-bound agonist does not guarantee that every exposed cell produces a useful immune response.",
+          "TAK-500 is a CCR2-directed antibody conjugated to a STING agonist, dazostinag, as established by its primary pharmacology and modelling reports. Its registry record supports study design, enrolment and the stated stopping reason; it is not the source of the target identity. The refreshed records list XMT-2056 terminated after 57 participants for discontinued development and TAK-500 terminated after 61 for clinical futility. The two BDC-1001 records are terminated by sponsor decision. The SBT6050 combination record is terminated for strategic realignment, while the earlier first-in-human record remains unknown, last verified in 2022.",
+          "A cross-priming claim needs antigen-presenting cells to take up tumour material, present its antigens and activate responding T cells. A neighbour lacking the antibody’s delivery target might still display an antigen that those T cells recognise; negative for the delivery target does not mean negative for every immune antigen. Myeloid activation, dendritic-cell function, antigen presentation, T-cell access and killing must each be demonstrated in the proposed route. An innate signal, a mouse regression or memory response, and a human response or survival comparison are different endpoints. A proposed clinical test would measure tumour agonist exposure, interferon-related genes and functional immune-cell changes in paired biopsies alongside blood cytokines and dose-limiting harms, before a randomised comparison tests patient benefit.",
+          "The alarm analogy describes an intention, not a guaranteed result. Systemic agonist exposure can cause inflammatory harms, and prolonged interferon signalling can engage counter-regulation. Low target access, an inactive sensor pathway, suppressive cells or poor effector access are different reasons that an immune-cold tumour may not respond. Repeated stimulation calls for serial tests of function and counter-regulation; a first cytokine pulse cannot establish sustained activity or prove that tolerance or exhaustion will occur. As a design hypothesis, adding a TOP1 cargo could join direct injury to an innate agonist, but both actions need separate tests. Oh’s gastric-cancer experiments found dendritic-cell activation and enhanced CD8-mediated killing after T-DXd through the cancer-cell cGAS-STING/interferon pathway. Benci’s experimental resistance programme involved persistent type II interferon and was maintained by both type I and type II signalling. These are mechanistic contexts, not proof that every dual-cargo design produces useful priming. The laboratory studies and small non-breast phase 1 cohort described here do not establish a randomised TNBC benefit or that every design lacks a usable human dose."
+        ]
+      },
+      "beforeHashes": {
+        "asOf": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+        "links": "1931b7c69cffdc5ec6e1d83e8d265d3055e789b200626db1798dd89be60d318f",
+        "notes": "5043b69fc9ad082249ee6854453d48fd61042ff7e5f06178e6e484ced37c4b01"
+      },
+      "afterHashes": {
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b",
+        "links": "8a639230419ce7b610c8d9ef6f68cfce946228add4d4b39a3c0bcd9fb8ff5c6f",
+        "notes": "7da79af01129a3b8074311796c6eb76ce46a7baed3c944abb28c8b9dde1d027f"
+      }
+    },
+    {
+      "id": "topoisomerase-i-payloads",
+      "before": {
+        "asOf": "2026-11-08",
+        "links": [
+          {
+            "label": "Jo et al.: exatecan TOP1-DNA trapping and ATR-combination models (2022)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35439320/"
+          },
+          {
+            "label": "Weng et al.: traceless antibody-exatecan resistant-model studies (2023)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+          },
+          {
+            "label": "Murase et al.: efflux-mediated T-DXd resistance in gastric/lung models (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41548044/"
+          },
+          {
+            "label": "Abelman et al.: selected patient TOP1 mutations and functional studies (2025)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/"
+          },
+          {
+            "label": "Exploratory retrospective TOP1-alteration conference abstract (2026)",
+            "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.e15044"
+          },
+          {
+            "label": "Chun et al.: PBX-7016 preclinical medicinal-chemistry study (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41414896/"
+          },
+          {
+            "label": "Zoppoli et al.: SLFN11 and DNA-damaging drug response (2012)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22927417/"
+          },
+          {
+            "label": "Ogitani et al.: local bystander and distant-tumor controls (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+          }
+        ],
+        "notes": [
+          "Jo compared exatecan with other TOP1 inhibitors in biochemical/cellular models and studied SLFN11/repair context and an ATR combination. Modeled binding contacts and experimental trapping do not establish a clinical superiority or an approved biomarker cutoff.",
+          "Weng tested traceless self-immolative antibody-exatecan conjugates in cells, organoids, xenografts and nonhuman primates. Their activity against specified resistant models is separate from a patient trial showing benefit after a TOP1 ADC.",
+          "Murase selected resistant gastric and lung models with preserved HER2 and internalization, identified increased ABCG2 or ABCB1 and restored sensitivity with knockdown or inhibition. This defines a model-specific efflux route, not the mechanism in every resistant patient.",
+          "Abelman linked particular acquired TOP1 mutations in a selected metastatic-breast cohort with functional resistance experiments. A different mutation, a copy-number change, low expression and efflux are different findings. Do not infer that any TOP1 alteration predicts the same response to every TOP1 drug.",
+          "A 2026 conference analysis pooled baseline TOP1 mutations and copy-number changes in a retrospective cohort and used time to next treatment or discontinuation. The TOP1-altered ADC subgroup was small. These exploratory associations do not validate a clinical selection rule or substitute those endpoints for progression-free or overall survival.",
+          "The PBX-7016 medicinal-chemistry publication reports cell/animal work and authors’ statements about phase 1 development. It does not supply a verified clinical efficacy result or activity against every acquired TOP1 mutant.",
+          "Zoppoli found SLFN11 associations and knockdown effects across several DNA-damaging drug categories. This supports a cell-response dependency in tested systems, not a rule that a non-TOP1 drug automatically bypasses low SLFN11.",
+          "Compare the actual released species at matched exposures, transporter perturbations and appropriate controls. Distinguish binding/trapping, damage markers and completed target death. Use target-positive/negative co-cultures and local versus distant tumor controls for spread, and defined enzymes or cell models for a particular mutant-coverage claim."
+        ]
+      },
+      "after": {
+        "asOf": "2026-11-11",
+        "links": [
+          {
+            "label": "Jo et al.: exatecan TOP1-DNA trapping and ATR-combination models (2022)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35439320/"
+          },
+          {
+            "label": "Weng et al.: traceless antibody-exatecan resistant-model studies (2023)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+          },
+          {
+            "label": "Murase et al.: efflux-mediated T-DXd resistance in gastric/lung models (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41548044/"
+          },
+          {
+            "label": "Abelman et al.: selected patient TOP1 mutations and functional studies (2025)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/"
+          },
+          {
+            "label": "Exploratory retrospective TOP1-alteration conference abstract (2026)",
+            "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.e15044"
+          },
+          {
+            "label": "Chun et al.: PBX-7016 preclinical medicinal-chemistry study (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41414896/"
+          },
+          {
+            "label": "Zoppoli et al.: SLFN11 and DNA-damaging drug response (2012)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22927417/"
+          },
+          {
+            "label": "Ogitani et al.: local bystander and distant-tumor controls (2016)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+          },
+          {
+            "label": "Takegawa et al., DS-8201a in T-DM1-resistant gastric models (2017)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28677116/"
+          },
+          {
+            "label": "Rampa et al., payload factors and sequential conjugates in breast models (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41591991/"
+          }
+        ],
+        "notes": [
+          "Jo compared exatecan with other TOP1 inhibitors in biochemical/cellular models and studied SLFN11/repair context and an ATR combination. Modeled binding contacts and experimental trapping do not establish a clinical superiority or an approved biomarker cutoff.",
+          "Weng tested traceless self-immolative antibody-exatecan conjugates in cells, organoids, xenografts and nonhuman primates. Their activity against specified resistant models is separate from a patient trial showing benefit after a TOP1 ADC.",
+          "Murase selected resistant gastric and lung models with preserved HER2 and internalization, identified increased ABCG2 or ABCB1 and restored sensitivity with knockdown or inhibition. This defines a model-specific efflux route, not the mechanism in every resistant patient.",
+          "Abelman linked particular acquired TOP1 mutations in a selected metastatic-breast cohort with functional resistance experiments. A different mutation, a copy-number change, low expression and efflux are different findings. Do not infer that any TOP1 alteration predicts the same response to every TOP1 drug.",
+          "A 2026 conference analysis pooled baseline TOP1 mutations and copy-number changes in a retrospective cohort and used time to next treatment or discontinuation. The TOP1-altered ADC subgroup was small. These exploratory associations do not validate a clinical selection rule or substitute those endpoints for progression-free or overall survival.",
+          "The PBX-7016 medicinal-chemistry publication reports cell/animal work and authors’ statements about phase 1 development. It does not supply a verified clinical efficacy result or activity against every acquired TOP1 mutant.",
+          "Zoppoli found SLFN11 associations and knockdown effects across several DNA-damaging drug categories. This supports a cell-response dependency in tested systems, not a rule that a non-TOP1 drug automatically bypasses low SLFN11.",
+          "Compare the actual released species at matched exposures, transporter perturbations and appropriate controls. Distinguish binding/trapping, damage markers and completed target death. Use target-positive/negative co-cultures and local versus distant tumor controls for spread, and defined enzymes or cell models for a particular mutant-coverage claim.",
+          "Five design questions need separate tests: potency or TOP1-complex trapping; whether a named transporter removes the released species; membrane passage and local neighbouring-cell exposure; activity against a specified altered enzyme; and linker stability and release. The cell’s TOP1 level, checkpoint and repair response are a further biological context, not another chemical lever. Biochemical potency, cellular killing and affinity are not interchangeable measurements. A potency or transporter advantage must be tested against healthy-tissue exposure and tolerability too; a lower effective concentration does not dictate one dose or payload loading. If target access, uptake or release failed, changing the released chemical alone has not shown that the delivery problem was corrected.",
+          "Jo’s exatecan study modelled two additional contacts beyond three known contacts and measured stronger experimental trapping in its comparison. Takegawa’s gastric-cancer T-DM1-resistant models supported two possible explanations for DS-8201a activity: reduced handling of DXd by the pumps and compensation by the higher drug-to-antibody ratio. Rampa’s engineered breast models also implicated payload factors, notably efflux. These are defined model and construct comparisons, not proof that one chemistry bypasses every clinical resistance mechanism.",
+          "Ogitani’s bystander experiments compared membrane-permeable DXd with the poorly permeable T-DM1 breakdown product Lys-SMCC-DM1, mixed HER2-positive/negative tumours and an opposite-flank tumour. Local killing of target-negative neighbours was not equivalent to a distant systemic effect. Weng’s traceless self-immolative exatecan constructs targeting HER2, HER3 or TROP2 were tested against matched DXd/SN-38 constructs in low-target-expression, large and multidrug-resistant models, with organoid and animal experiments and nonhuman-primate tolerability. Those experiments do not by themselves establish patient benefit after a prior TOP1 conjugate.",
+          "A new payload can be a redesigned member of the same mechanism family or a cargo with a different target. Neither label guarantees escape from a cell-response dependency. Abelman’s selected mutations and experiments do not test every proposed cargo or variant. The PBX-7016 chemistry report supplies preclinical results and the authors’ account of phase 1 development, rather than a verified clinical response result. Compare exact released species at matched exposures, and distinguish model evidence, trial status and patient outcomes."
+        ]
+      },
+      "beforeHashes": {
+        "asOf": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+        "links": "69a7772174141552f652eac386797c0100184631cee29f59b545e78662b4f72c",
+        "notes": "c29a6de1a8b44a44eccaa873792dbcb0ae388ce7df2ad7bc01591a6f69c656b9"
+      },
+      "afterHashes": {
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b",
+        "links": "1f7e67f5776fb5fcdead3a4e0abc9ffa78fb5007d3a5c30edc47bd8c42765a18",
+        "notes": "a25642e0e7ea2e0cdd8cb2aa5ecd6dd12dd2264174a1cc8678848218ede18319"
+      }
+    },
+    {
+      "id": "transcription-inhibitor-payloads",
+      "before": {
+        "tldr": "These payloads stop a cell from reading the instructions in its genes. Researchers are testing whether antibody delivery can make this different way of killing cancer cells usable safely.",
+        "asOf": "2026-11-08",
+        "links": [
+          {
+            "label": "HDP-101 in proliferating and resting myeloma models (2021)",
+            "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287"
+          },
+          {
+            "label": "Hayashi et al., CD26-directed triptolide conjugate (2019)",
+            "url": "https://doi.org/10.3390/cancers11081138"
+          },
+          {
+            "label": "Bushnell et al.: amanitin/RNA polymerase II structural study (2002)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11805306/"
+          },
+          {
+            "label": "Liu et al.: POLR2A dosage hypothesis in colorectal models (2015)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25901683/"
+          },
+          {
+            "label": "Xu et al.: POLR2A siRNA nanoparticles in TNBC models (2019)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30804480/"
+          },
+          {
+            "label": "Author correction to the colorectal POLR2A report (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34433970/"
+          },
+          {
+            "label": "Publisher correction to the TNBC nanoparticle report (2019)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30837690/"
+          },
+          {
+            "label": "Author correction to the TNBC nanoparticle report (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31953520/"
+          },
+          {
+            "label": "Retraction notice for a separate HER2-low/17p-loss report (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41984934/"
+          },
+          {
+            "label": "Letschert et al.: amatoxin transport in cells and human hepatocytes (2006)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+          },
+          {
+            "label": "Retraction notice for the separate prostate/17p-loss report (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42414292/"
+          }
+        ],
+        "notes": [
+          "Transcription makes RNA from a DNA template; replication copies DNA. Amanitin acts on RNA polymerase II, while triptolide-directed designs interfere with other transcription machinery. A transcription-directed cargo is not automatically the same chemical or target as another member of the category.",
+          "The Figueroa-Vazquez HDP-101 study included proliferating and resting myeloma cells, with BCMA-negative controls and animal models. This establishes an experimental cell-state scope, not eradication of every dormant clone, intrinsic tumor specificity or human benefit.",
+          "The POLR2A dosage hypothesis concerns measured loss of a neighboring essential gene, sometimes with TP53-region deletion. A TP53 point mutation alone does not establish POLR2A loss or a clinical response rule. The colorectal amanitin-conjugate report and the TNBC siRNA-nanoparticle report used different delivery formats.",
+          "Healthy cells also rely on transcription. The chemical species released from a conjugate, linker stability, antigen access, cellular uptake and normal-organ exposure remain relevant. OATP1B3-mediated uptake was studied for amatoxins; it does not give a permeability or toxicity value for every attached derivative.",
+          "The 2015 colorectal dosage report and the 2019 TNBC nanoparticle paper have published corrections. Separate prostate/17p-loss and HER2-low/17p-loss reports were retracted in 2026 and are excluded from support. A corrected or retracted preclinical report must not become an unqualified clinical claim.",
+          "A registry establishes a study design and dated status. Sponsor response reports, model regressions, patient-derived laboratory material and randomized patient outcomes are different evidence types. None should be substituted for an independently reviewed human benefit result."
+        ]
+      },
+      "after": {
+        "tldr": "Transcription-directed payloads interfere with the machinery that makes RNA. Antibody delivery is being studied to limit exposure, but each design needs evidence of useful activity and tolerability.",
+        "asOf": "2026-11-11",
+        "links": [
+          {
+            "label": "HDP-101 in proliferating and resting myeloma models (2021)",
+            "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287"
+          },
+          {
+            "label": "Hayashi et al., CD26-directed triptolide conjugate (2019)",
+            "url": "https://doi.org/10.3390/cancers11081138"
+          },
+          {
+            "label": "Bushnell et al.: amanitin/RNA polymerase II structural study (2002)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11805306/"
+          },
+          {
+            "label": "Liu et al.: POLR2A dosage hypothesis in colorectal models (2015)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25901683/"
+          },
+          {
+            "label": "Xu et al.: POLR2A siRNA nanoparticles in TNBC models (2019)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30804480/"
+          },
+          {
+            "label": "Author correction to the colorectal POLR2A report (2021)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34433970/"
+          },
+          {
+            "label": "Publisher correction to the TNBC nanoparticle report (2019)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/30837690/"
+          },
+          {
+            "label": "Author correction to the TNBC nanoparticle report (2020)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31953520/"
+          },
+          {
+            "label": "Retraction notice for a separate HER2-low/17p-loss report (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41984934/"
+          },
+          {
+            "label": "Letschert et al.: amatoxin transport in cells and human hepatocytes (2006)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+          },
+          {
+            "label": "Retraction notice for the separate prostate/17p-loss report (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42414292/"
+          },
+          {
+            "label": "Liu et al., N-acetylcysteine in amatoxin poisoning (2020 systematic review)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32609548/"
+          },
+          {
+            "label": "Singh et al., engineered myeloma amanitin-conjugate models (2024 preprint)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38260385/"
+          },
+          {
+            "label": "Papacharisi et al., TROP2-amanitin preclinical studies (2025)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39564769/"
+          },
+          {
+            "label": "Ren et al., exatecan/triptolide preclinical platform (2026)",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41121984/"
+          },
+          {
+            "label": "Author correction: colorectal POLR2A report (2021)",
+            "url": "https://www.nature.com/articles/s41586-021-03664-3"
+          },
+          {
+            "label": "Author correction: TNBC nanoparticle report (2020)",
+            "url": "https://www.nature.com/articles/s41565-020-0635-3"
+          },
+          {
+            "label": "Heidelberg Pharma sponsor update, 15 October 2026",
+            "url": "https://heidelberg-pharma.com/en/press-investors/announcements/press-releases-and-ad-hoc-announcements/pr-heidelberg-pharma-reports-on-the-first-nine-months-of-financial-year-2026"
+          },
+          {
+            "label": "HDP-101 trial: dated registry status",
+            "url": "https://clinicaltrials.gov/study/NCT04879043"
+          },
+          {
+            "label": "HDP-101 China trial: dated registry status",
+            "url": "https://clinicaltrials.gov/study/NCT07529782"
+          }
+        ],
+        "notes": [
+          "Transcription makes RNA from a DNA template; replication copies DNA. Amanitin acts on RNA polymerase II, while triptolide-directed designs interfere with other transcription machinery. A transcription-directed cargo is not automatically the same chemical or target as another member of the category.",
+          "The Figueroa-Vazquez HDP-101 study included proliferating and resting myeloma cells, with BCMA-negative controls and animal models. This establishes an experimental cell-state scope, not eradication of every dormant clone, intrinsic tumor specificity or human benefit.",
+          "The POLR2A dosage hypothesis concerns measured loss of a neighboring essential gene, sometimes with TP53-region deletion. A TP53 point mutation alone does not establish POLR2A loss or a clinical response rule. The colorectal amanitin-conjugate report and the TNBC siRNA-nanoparticle report used different delivery formats.",
+          "Healthy cells also rely on transcription. The chemical species released from a conjugate, linker stability, antigen access, cellular uptake and normal-organ exposure remain relevant. OATP1B3-mediated uptake was studied for amatoxins; it does not give a permeability or toxicity value for every attached derivative.",
+          "The 2015 colorectal dosage report and the 2019 TNBC nanoparticle paper have published corrections. Separate prostate/17p-loss and HER2-low/17p-loss reports were retracted in 2026 and are excluded from support. A corrected or retracted preclinical report must not become an unqualified clinical claim.",
+          "A registry establishes a study design and dated status. Sponsor response reports, model regressions, patient-derived laboratory material and randomized patient outcomes are different evidence types. None should be substituted for an independently reviewed human benefit result.",
+          "RNA polymerase II makes RNA from protein-coding genes; POLR2A encodes its largest catalytic subunit. Bushnell’s alpha-amanitin co-crystal study used yeast polymerase and supported a mechanism for blocking translocation. Transcription is different from copying DNA before division, but non-dividing healthy cells still need it. The Figueroa-Vazquez BCMA-directed amanitin work affected proliferating and resting myeloma cells while sparing BCMA-negative controls. In its mouse models, single intravenous doses produced durable complete remissions; this is not proof of eliminating dormant human disease. In the dosage hypothesis, hemizygous loss means one copy remains at the locus, unlike loss of both copies. The proposed vulnerability concerns reduced capacity of an essential gene co-deleted with TP53, rather than dependence on an activating cancer driver. POLR2A lies beside TP53 on chromosome 17p. In Liu’s colorectal models, expression tracked copy number, suppression acted independently of p53 itself, and an EpCAM-directed amanitin conjugate produced complete regressions in mice. Xu instead tested POLR2A siRNA nanoparticles in TNBC models with hemizygous loss. A TP53 mutation does not establish that copy state, and two copies do not by themselves guarantee a normal-tissue safety margin.",
+          "The 2015 colorectal POLR2A-dosage paper has a 2021 correction replacing two caspase-3 staining panels; the authors state those images were not used for quantitative analysis and the original article was not corrected online. The 2019 TNBC siRNA paper has a 2019 correction to supplementary material and a 2020 correction replacing the Fig. 5j siNT@NPs image. These are distinct from the separate reports retracted in 2026. POLR2A copy loss, a TP53 point mutation, siRNA delivery and an amanitin conjugate remain different biological and delivery questions.",
+          "Liu’s 2020 review concerned N-acetylcysteine treatment in 506 amatoxin-poisoned patients across 13 studies. It is not an incidence study of an antibody conjugate. Letschert’s transporter experiments identified OATP1B3 uptake in engineered cells and human hepatocytes. That helps explain an organ-exposure concern for the studied amatoxin species; it does not prove that every derivative has the same transport, that poisoning predicts conjugate toxicity, or that an antibody automatically creates a safety margin. A transporter-uptake experiment does not quantify passive membrane passage or bystander killing by a released derivative. Those require the actual chemical and appropriately controlled neighbouring-cell experiments; neither potency nor low payload loading substitutes for a measured release and exposure profile.",
+          "Heidelberg Pharma’s October 2026 sponsor update reported that HDP-101 dose escalation had ended in April after 53 treated patients in ten cohorts. In pooled cohorts 5 to 9 it reported 13 responses among 31 evaluable people, about 42%; at the selected phase 2 dose, cohort 9 had 2 among 5, 40%. These counts use different denominators and the report does not establish confirmation or comparative benefit. The two refreshed HDP-101 registry records are recruiting; dated status and sponsor-reported responses are different evidence. These are myeloma reports, not human breast-cancer efficacy evidence. A clinical test of the gene-dosage hypothesis would pre-specify the copy-number or expression measurement, compare outcomes by that measurement, and report liver and other dose-limiting harms against delivered exposure. Laboratory selectivity is not a validated patient-selection rule.",
+          "Singh’s 2024 myeloma study is a preprint using engineered TP53/POLR2A models, not a validated 17p patient-selection test. Papacharisi’s TROP2-amanitin experiments concern pancreatic and breast models. Their abstract reports picomolar cellular EC50 values, mouse xenograft activity and a 9.7 to 10.7 day half-life with no premature payload release in serum for the tested constructs. In the tested refractory pancreatic and TNBC xenografts, the authors reported complete tumour eradication and greater activity than Trodelvy. These are preclinical comparisons, not human efficacy or safety estimates. Ren’s exatecan/triptolide platform report is another preclinical design; its abstract does not establish the TROP2 target or an early human result attributed to it elsewhere. New mechanism, delivery antigen, normal-tissue exposure, released chemical and prior resistance must be assessed separately before inferring a useful next treatment."
+        ]
+      },
+      "beforeHashes": {
+        "tldr": "2455fb24c998e886c97c9197f170267a9d187741737bbb459b3daf0809267ac0",
+        "asOf": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+        "links": "9fc9549e67769f6feaf3844658d23b8ba9c692305b2a32165b9c7005e40fdd54",
+        "notes": "6709d9e3b7ee6e38ca27bdf1c9ae28b39eb98cb65309be87e6f51f83603fcb5e"
+      },
+      "afterHashes": {
+        "tldr": "ba5f1be023a43665479d1b4cc14ce86605e55539b1dc05c481c9393940f505aa",
+        "asOf": "b3ff15f86190dbe330d60c00616bf86409191308461f59ce0361cf105690d75b",
+        "links": "05abf7e9bcd47bb16e671a42de9e1f7d79a478b257d7f75f532c850667790afb",
+        "notes": "f87a2d7e2a2ccf90d5168f98e044ac9358c231492226cb5b30c742abf2375246"
+      }
+    }
+  ],
+  "preservation": "All earlier notes and source links retained. No new owner or alias is created in this companion. The unchanged exatecan and payload records keep their dates."
+}

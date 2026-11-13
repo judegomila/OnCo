@@ -1,0 +1,463 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2026-06-02T15:07:34Z",
+      "timestamp": 1780412854491,
+      "version": "3.54.1"
+    },
+    "reference-count": 0,
+    "publisher": "American Society of Clinical Oncology (ASCO)",
+    "issue": "16_suppl",
+    "funder": [
+      {
+        "name": "Callio Therapeutics"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "ascopubs.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Clin Oncol"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1200/jco.2026.44.16_suppl.tps3162",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          28
+        ]
+      ],
+      "date-time": "2026-05-28T13:49:34Z",
+      "timestamp": 1779976174000
+    },
+    "update-policy": "https://doi.org/10.1200/crossmark",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Phase 1/2 study of CLIO-8221, a HER2-targeted, dual-payload exatecan and ATR inhibitor antibody-drug conjugate (ADC) in patients with advanced HER2-expressing solid tumors."
+    ],
+    "prefix": "10.1200",
+    "volume": "44",
+    "author": [
+      {
+        "given": "Timothy A.",
+        "family": "Yap",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "The University of Texas MD Anderson Cancer Center, Houston, TX"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Charlotte Rose",
+        "family": "Lemech",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Scientia Clinical Research-Prince of Wales Clinical School, Randwick, NSW, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter Kar Han",
+        "family": "Lau",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Linear Clinical Research Ltd, Perth, Western Australia, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jermaine Ian George",
+        "family": "Coward",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "ICON Cancer Care, South Brisbane, QLD, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Malaka",
+        "family": "Ameratunga",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Alfred Health, Melbourne, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Stephen James",
+        "family": "Luen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Peter MacCallum Cancer Centre, Melbourne, Australia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Amita",
+        "family": "Patnaik",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "START Center for Cancer Research, San Antonio, TX"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Justin A.",
+        "family": "Call",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "The START Center for Cancer Research, Mountain Region, West Valley City, UT"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Erika P.",
+        "family": "Hamilton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Sarah Cannon Research Institute, Nashville, TN"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hongxia",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Fudan University Shanghai Cancer Center, Shanghai, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Naomi N. H.",
+        "family": "Hunder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Callio Therapeutics, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sharon",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Callio Therapeutics, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alyson",
+        "family": "Smith",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Callio Therapeutics, Seattle, WA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Akshaya",
+        "family": "Bansal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Callio Therapeutics, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ben",
+        "family": "Ayers",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Callio Therapeutics, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jerome Douglas",
+        "family": "Boyd-Kirkup",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Callio Therapeutics, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Piers",
+        "family": "Ingram",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Callio Therapeutics, Singapore, Singapore"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Filipa",
+        "family": "Lynce",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Dana-Farber Cancer Institute, Boston, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "233",
+    "container-title": [
+      "Journal of Clinical Oncology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.TPS3162",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          2
+        ]
+      ],
+      "date-time": "2026-06-02T14:04:12Z",
+      "timestamp": 1780409052000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.TPS3162"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "16_suppl",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1200/JCO.2026.44.16_suppl.TPS3162"
+    ],
+    "URL": "https://doi.org/10.1200/jco.2026.44.16_suppl.tps3162",
+    "relation": {},
+    "ISSN": [
+      "0732-183X",
+      "1527-7755"
+    ],
+    "issn-type": [
+      {
+        "value": "0732-183X",
+        "type": "print"
+      },
+      {
+        "value": "1527-7755",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2026-05-27",
+        "order": 3,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ],
+    "abstractRetention": {
+      "status": "exact body outside public checkout",
+      "sha256": "1c23443139c4ad61109ae11d391bbc0813b5a65e4f1e48e2ef65cc6cf6ed887f",
+      "characters": 3676
+    }
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "475975e02525ca4c7d00bde3d603eddc3bea8a64ff149e81db5752652d747a06",
+    "sourceBytes": 9330,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

@@ -1,0 +1,1008 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T18:06:32.157Z",
+  "request": {
+    "query": "What novel antibody drug conjugate payload mechanisms beyond topoisomerase I inhibition have primary preclinical or clinical evidence, including NAMPT, BCL-XL, kinesin spindle protein, RNA splicing, amanitin, CDK9, protein degradation and immune agonists?",
+    "searchMode": "semantic",
+    "maxResults": 30,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-52313689",
+        "title": "Targeted Delivery of Cytotoxic NAMPT Inhibitors Using Antibody–Drug Conjugates",
+        "authors": [
+          "Christoph Neumann",
+          "Kathleen C. Olivas",
+          "M. Anderson",
+          "Julia H Cochran",
+          "Steven Jin",
+          "Fu Li",
+          "Luke V. Loftus",
+          "David W Meyer",
+          "J. Neale",
+          "J. Nix",
+          "Paul G. Pittman",
+          "J. Simmons",
+          "Michelle Ulrich",
+          "A. Waight",
+          "Abbie Wong",
+          "Margo Zaval",
+          "Weiping Zeng",
+          "Robert P. Lyon",
+          "P. Senter"
+        ],
+        "year": 2018,
+        "doi": "10.1158/1535-7163.MCT-18-0643",
+        "pmid": "30242091",
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 36,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3f6a5571b65aac8f4bdc8b38bb078af205de41f8e7f0ae15f23be29587cd010e",
+          "characters": 1465
+        }
+      },
+      {
+        "elicitId": "ss-52046185",
+        "title": "Nicotinamide Phosphoribosyltransferase Inhibitor as a Novel Payload for Antibody–Drug Conjugates",
+        "authors": [
+          "A. Karpov",
+          "T. Abrams",
+          "Suzanna Clark",
+          "Ankita Raikar",
+          "J. D'Alessio",
+          "M. P. Dillon",
+          "T. Gesner",
+          "D. Jones",
+          "M. Lacaud",
+          "W. Mallet",
+          "P. Martyniuk",
+          "E. Meredith",
+          "Morvarid Mohseni",
+          "C. Nieto-Oberhuber",
+          "Daniel S. Palacios",
+          "Francesca Perruccio",
+          "Grazia Piizzi",
+          "M. Zurini",
+          "C. U. Bialucha"
+        ],
+        "year": 2018,
+        "doi": "10.1021/acsmedchemlett.8b00254",
+        "pmid": "30128077",
+        "venue": "ACS Medicinal Chemistry Letters",
+        "citedByCount": 33,
+        "urls": [
+          "https://doi.org/10.1021/acsmedchemlett.8b00254"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1021/acsmedchemlett.8b00254",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "f8cedd0009816d12b9524df9be7bc257b970a4a48f509b321de3b01f4f7e488e",
+          "characters": 418
+        }
+      },
+      {
+        "elicitId": "ss-225434003",
+        "title": "Abstract 1807: Anti-tumor activity of a novel structural class of NAMPT inhibitor-based ADCs in models of hematologic and solid tumor indications",
+        "authors": [
+          "A. Sommer",
+          "S. Hammer",
+          "S. Berndt",
+          "A. Wengner",
+          "Niels Boehnke",
+          "M. Berger",
+          "N. Griebenow",
+          "Andreas Steffen",
+          "B. Stelte-Ludwig",
+          "C. Mahlert",
+          "Simone Greven",
+          "L. Dietz",
+          "Hannah Joerissen",
+          "A. Giese",
+          "M. Quanz",
+          "Zheng-Zheng Bao",
+          "Xiu-Li Wu",
+          "H. Weinmann",
+          "Lars Linden",
+          "B. Kreft",
+          "D. Mumberg"
+        ],
+        "year": 2020,
+        "doi": "10.1158/1538-7445.am2020-1807",
+        "pmid": null,
+        "venue": "Experimental and Molecular Therapeutics",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "2eaacdf5b415accb084c7b74acee35d4af96ef38c0b163eb4d9cfc8783ca11f9",
+          "characters": 3502
+        }
+      },
+      {
+        "elicitId": "ss-81962760",
+        "title": "Abstract 930: Targeted delivery of cytotoxic NAMPT inhibitors using antibody-drug conjugates",
+        "authors": [
+          "Christoph Neumann",
+          "Kathleen C. Olivas",
+          "A. Waight",
+          "David J. Meyer",
+          "Luke V. Loftus",
+          "Margo Zaval",
+          "M. Anderson",
+          "Steven Jin",
+          "Julia H Cochran",
+          "J. Simmons",
+          "Paul G. Pittman",
+          "Robert P. Lyon",
+          "P. Senter"
+        ],
+        "year": 2018,
+        "doi": "10.1158/1538-7445.AM2018-930",
+        "pmid": null,
+        "venue": "Cancer Chemistry",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "992e262dbbdd3a8ef81f72a77583a99d4b192711bbc4f0fba7cbb4f2357ffb39",
+          "characters": 2336
+        }
+      },
+      {
+        "elicitId": "ss-278009460",
+        "title": "Abstract 1162: In silico optimized NAMPT inhibitor for targeted delivery by antibody drug conjugates as novel therapeutic modality for treatment of liquid and solid malignancies",
+        "authors": [
+          "Pablo Ruedas Batuecas",
+          "Hendrik Gruss",
+          "Sarah-Jane Neuberth",
+          "A. Hempelmann",
+          "A. Pálfi",
+          "Marija Vranic",
+          "Andreas M. Pahl",
+          "Torsten Hechler"
+        ],
+        "year": 2025,
+        "doi": "10.1158/1538-7445.am2025-1162",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "7e2578e2f50946a7cd4f1b617f569d8b2a1ad2dbb55052b3b5ab9634cec535ef",
+          "characters": 3300
+        }
+      },
+      {
+        "elicitId": "ss-225432686",
+        "title": "Abstract 2907: Identification and optimization of a novel NAMPT inhibitor-based ADC payload class for cancer therapy",
+        "authors": [
+          "Niels Böhnke",
+          "M. Berger",
+          "N. Griebenow",
+          "A. Giese",
+          "Judith Günther",
+          "A. Sommer",
+          "S. Hammer",
+          "S. Berndt",
+          "A. Wengner",
+          "R. Beier",
+          "B. Stelte-Ludwig",
+          "C. Mahlert",
+          "Simone Greven",
+          "L. Dietz",
+          "Hannah Joerissen",
+          "A. Rottmann",
+          "Michael Erkelenz",
+          "Naomi Barak",
+          "Ulf Bömer",
+          "Dominik Mumber",
+          "B. Kreft",
+          "Lars Linden",
+          "C. Nising",
+          "H. Weinmann"
+        ],
+        "year": 2020,
+        "doi": "10.1158/1538-7445.am2020-2907",
+        "pmid": null,
+        "venue": "Experimental and Molecular Therapeutics",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "83c2ddb0836bd10b2ede6dcf28ecc19b08250a50b0607536d76a7ccd98a49721",
+          "characters": 2711
+        }
+      },
+      {
+        "elicitId": "ss-249350301",
+        "title": "A Novel NAMPT Inhibitor-Based Antibody–Drug Conjugate Payload Class for Cancer Therapy",
+        "authors": [
+          "Niels Böhnke",
+          "M. Berger",
+          "N. Griebenow",
+          "A. Rottmann",
+          "Michael Erkelenz",
+          "S. Hammer",
+          "S. Berndt",
+          "Judith Günther",
+          "A. Wengner",
+          "B. Stelte-Ludwig",
+          "C. Mahlert",
+          "Simone Greven",
+          "L. Dietz",
+          "H. Jörißen",
+          "Naomi Barak",
+          "Ulf Bömer",
+          "R. Hillig",
+          "U. Eberspaecher",
+          "J. Weiske",
+          "A. Giese",
+          "D. Mumberg",
+          "C. Nising",
+          "H. Weinmann",
+          "A. Sommer"
+        ],
+        "year": 2022,
+        "doi": "10.1021/acs.bioconjchem.2c00178",
+        "pmid": "35658441",
+        "venue": "Bioconjugate chemistry",
+        "citedByCount": 30,
+        "urls": [
+          "https://doi.org/10.1021/acs.bioconjchem.2c00178"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1021/acs.bioconjchem.2c00178",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "38f755b3c507305b84b7938e87b600224be568673dce174ed9c2cb2d82143cb6",
+          "characters": 1554
+        }
+      },
+      {
+        "elicitId": "ss-219265853",
+        "title": "Abstract 983: Antibody-drug conjugates of NAMPT inhibitors: Discovery, optimization, and preclinical characterization",
+        "authors": [
+          "Christoph Neumann",
+          "Kathleen C. Olivas",
+          "K. Wang",
+          "A. Waight",
+          "David W Meyer",
+          "Luke V. Loftus",
+          "Margo Zaval",
+          "M. Anderson",
+          "Steven Jin",
+          "Julia H Cochran",
+          "J. Simmons",
+          "Paul G. Pittman",
+          "Fu Li",
+          "Michelle Ulrich",
+          "Abbie Wong",
+          "Weiping Zeng",
+          "Robert P. Lyon",
+          "P. Senter"
+        ],
+        "year": 2019,
+        "doi": "10.1158/1538-7445.AM2019-983",
+        "pmid": null,
+        "venue": "Cancer Chemistry",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3d3a790cdeab12d4ca5400d4bdc35f1b6cf549b2f9c2aa8ffe502197dce69b42",
+          "characters": 2622
+        }
+      },
+      {
+        "elicitId": "ss-80361116",
+        "title": "38INKinesin spindle protein inhibitors as novel payload class for ADCs",
+        "authors": [
+          "A. Sommer"
+        ],
+        "year": 2018,
+        "doi": "10.1093/annonc/mdy046.019",
+        "pmid": null,
+        "venue": "Annals of Oncology",
+        "citedByCount": 0,
+        "urls": [
+          "https://academic.oup.com/annonc/article-pdf/29/suppl_3/mdy046.019/24250695/mdy046.019.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://academic.oup.com/annonc/article-pdf/29/suppl_3/mdy046.019/24250695/mdy046.019.pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "6fe6a25103b821d01df74f0249ff8a98facf4f179e1ff923af7f02f0cc7faee6",
+          "characters": 2206
+        }
+      },
+      {
+        "elicitId": "ss-285664281",
+        "title": "GD2-directed NAMPT inhibition using antibody-drug conjugates in neuroblastoma.",
+        "authors": [
+          "Jing Liu",
+          "Qingyuan Cheng",
+          "Shangwei Huangfu",
+          "Yue-Yang Zhang",
+          "Biao Jiang",
+          "Yin-Feng Zhang",
+          "Hong-Li Chen"
+        ],
+        "year": 2026,
+        "abstract": null,
+        "doi": "10.1016/j.ejmech.2026.118691",
+        "pmid": "41707282",
+        "venue": "European journal of medicinal chemistry",
+        "citedByCount": 0,
+        "urls": [
+          "https://doi.org/10.2139/ssrn.5818910"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.2139/ssrn.5818910"
+      },
+      {
+        "elicitId": "ss-290162708",
+        "title": "Physicochemical and Metabolic Optimization of NAMPT Inhibitors Enables Effective Antibody–Drug Conjugates for Liquid and Solid Tumors",
+        "authors": [
+          "Pablo Ruedas",
+          "Hendrik Gruss",
+          "A. Hempelmann",
+          "Marija Vranic",
+          "Sarah-Jane Neuberth",
+          "Valentin Petrich",
+          "Dominic Gross",
+          "A. Pálfi",
+          "Andreas M. Pahl",
+          "Torsten Hechler"
+        ],
+        "year": 2026,
+        "doi": "10.1021/acsbiomedchemau.6c00047",
+        "pmid": "42631027",
+        "venue": "ACS Bio & Med Chem Au",
+        "citedByCount": 0,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13495016/pdf/bg6c00047.pdf",
+          "https://pubs.acs.org/doi/pdf/10.1021/acsbiomedchemau.6c00047?ref=article_openPDF"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://pubs.acs.org/doi/pdf/10.1021/acsbiomedchemau.6c00047?ref=article_openPDF",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3c7414d566dc8c0d234e53e28c48ec916de6cf0004714555521a33de9b5cc521",
+          "characters": 1714
+        }
+      },
+      {
+        "elicitId": "ss-80466445",
+        "title": "Abstract 46: Preclinical activity of novel antibody-drug conjugates with pyrrole-based kinesin spindle protein inhibitors targeting different tumor antigens",
+        "authors": [
+          "A. Sommer",
+          "S. Berndt",
+          "H. Lerchen",
+          "B. Stelte-Ludwig",
+          "Sven Wittrock",
+          "A. Rebstock",
+          "L. Dietz",
+          "C. Mahlert",
+          "Simone Greven",
+          "N. Griebenow",
+          "Yolanda Cancho-Grande",
+          "R. Jautelat",
+          "H. Apeler",
+          "B. Kreft"
+        ],
+        "year": 2017,
+        "doi": "10.1158/1538-7445.AM2017-46",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "7660710cc8403b75fc596b6d29c8ea69d62f6fabca8288d16760b00f5cfd98dd",
+          "characters": 2859
+        }
+      },
+      {
+        "elicitId": "ss-106390906",
+        "title": "Antikörper‐Wirkstoff‐Konjugate mit Pyrrol‐basierten KSP‐Inhibitoren als Payload‐Klasse",
+        "authors": [
+          "Hans-Georg Lerchen",
+          "Sven Wittrock",
+          "B. Stelte-Ludwig",
+          "A. Sommer",
+          "S. Berndt",
+          "Nils Griebenow",
+          "Anne-sophie Rebstock",
+          "Sarah Johannes",
+          "Yolanda Cancho-Grande",
+          "C. Mahlert",
+          "Simone Greven",
+          "Carsten Terjung"
+        ],
+        "year": 2018,
+        "doi": "10.1002/ANGE.201807619",
+        "pmid": null,
+        "venue": "Angewandte Chemie",
+        "citedByCount": 2,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "cc1a0cbb10bb2ce3fc4f0d70fcba5613e55509ae85d51b84b15c55550010a56a",
+          "characters": 1101
+        }
+      },
+      {
+        "elicitId": "ss-79770291",
+        "title": "Abstract 3234: Development of potent and selective antibody-drug conjugates with pyrrole-based KSP inhibitors as novel payload class",
+        "authors": [
+          "H. Lerchen",
+          "Sven Wittrock",
+          "N. Griebenow",
+          "M. Lobell",
+          "A. Rebstock",
+          "Yolanda Cancho-Grande",
+          "B. Stelte-Ludwig",
+          "C. Mahlert",
+          "Simone Greven",
+          "A. Sommer",
+          "S. Berndt",
+          "Carsten Terjung",
+          "H. Apeler",
+          "B. Kreft",
+          "R. Jautelat"
+        ],
+        "year": 2017,
+        "doi": "10.1158/1538-7445.AM2017-3234",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "57fc8390fc51902b0f54a2d92c60ba2212c64236eeefc0818756ab3aebe8215f",
+          "characters": 2454
+        }
+      },
+      {
+        "elicitId": "ss-198300344",
+        "title": "Abstract 4825: Preclinical characterization of BAY-924, a first in class ADC targeting CXCR5-positive B-cell malignancies, with a KSP inhibitor as novel payload",
+        "authors": [
+          "Sarah Johannes",
+          "S. Hammer",
+          "Stephan Maersch",
+          "H. Lerchen",
+          "B. Stelte-Ludwig",
+          "Hannah Joerissen",
+          "O. von Ahsen",
+          "C. Schatz",
+          "Simone Greven",
+          "C. Mahlert",
+          "D. Mumberg",
+          "P. Lejeune"
+        ],
+        "year": 2019,
+        "doi": "10.1158/1538-7445.SABCS18-4825",
+        "pmid": null,
+        "venue": "Experimental and Molecular Therapeutics",
+        "citedByCount": 2,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "8a25f914f4de78b0ff35d2f3fd6a59b261ea2d82883664ced5c15ac3dc676a96",
+          "characters": 1899
+        }
+      },
+      {
+        "elicitId": "ss-255967333",
+        "title": "Payload diversification: a key step in the development of antibody–drug conjugates",
+        "authors": [
+          "L. Conilh",
+          "L. Sadílková",
+          "W. Viricel",
+          "C. Dumontet"
+        ],
+        "year": 2023,
+        "doi": "10.1186/s13045-022-01397-y",
+        "pmid": "36650546",
+        "venue": "Journal of Hematology & Oncology",
+        "citedByCount": 231,
+        "urls": [
+          "https://cnrs.hal.science/hal-04914056/document",
+          "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-022-01397-y"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-022-01397-y",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "9a6b3a47b085c2c6ee3d00a922b00a0a6e9ff4041488cfbd9d003a918601562a",
+          "characters": 927
+        }
+      },
+      {
+        "elicitId": "ss-52156208",
+        "title": "Antibody-Drug Conjugates with Pyrrole-Based KSP Inhibitors as the Payload Class.",
+        "authors": [
+          "H. Lerchen",
+          "Sven Wittrock",
+          "B. Stelte-Ludwig",
+          "A. Sommer",
+          "S. Berndt",
+          "N. Griebenow",
+          "A. Rebstock",
+          "Sarah Johannes",
+          "Yolanda Cancho-Grande",
+          "C. Mahlert",
+          "Simone Greven",
+          "Carsten Terjung"
+        ],
+        "year": 2018,
+        "doi": "10.1002/anie.201807619",
+        "pmid": "30180286",
+        "venue": "Angewandte Chemie",
+        "citedByCount": 32,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "a3c445acc6d076b213b5fba72a793963ca7220db989846de698ae5ee849287cd",
+          "characters": 985
+        }
+      },
+      {
+        "elicitId": "ss-246723929",
+        "title": "Antibody–drug conjugates harboring a kinesin spindle protein inhibitor with immunostimulatory properties",
+        "authors": [
+          "A. Sommer",
+          "S. Berndt",
+          "H. Lerchen",
+          "S. Forveille",
+          "A. Sauvat",
+          "D. Mumberg",
+          "G. Kroemer",
+          "O. Kepp"
+        ],
+        "year": 2022,
+        "doi": "10.1080/2162402X.2022.2037216",
+        "pmid": "35154909",
+        "venue": "Oncoimmunology",
+        "citedByCount": 8,
+        "urls": [
+          "https://www.tandfonline.com/doi/pdf/10.1080/2162402X.2022.2037216?needAccess=true"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.tandfonline.com/doi/pdf/10.1080/2162402X.2022.2037216?needAccess=true",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "c2177a08b3203f877a2de4b2be48885cd06690d9e6ff2401c9e431db256e354f",
+          "characters": 1722
+        }
+      },
+      {
+        "elicitId": "ss-237518461",
+        "title": "Addressing Enzymatic-Independent Tumor-Promoting Function of NAMPT via PROTAC-Mediated Degradation",
+        "authors": [
+          "Xiaotong Zhu",
+          "Haixia Liu",
+          "Li Chen",
+          "Cang Yong",
+          "Biao Jiang",
+          "Xiao-Bao Yang",
+          "G. Fan"
+        ],
+        "year": 2021,
+        "doi": "10.1101/2021.09.13.460066",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 1,
+        "urls": [
+          "https://doi.org/10.1101/2021.09.13.460066",
+          "https://www.biorxiv.org/content/biorxiv/early/2021/09/13/2021.09.13.460066.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2021/09/13/2021.09.13.460066.full.pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "6938b1ce2ed687bb6cc5a7aedd867faf1419784b77396e4518bf56a26f0791ac",
+          "characters": 1182
+        }
+      },
+      {
+        "elicitId": "ss-207365400",
+        "title": "Inhibition of nicotinamide phosphoribosyltransferase (NAMPT) as a therapeutic strategy in cancer.",
+        "authors": [
+          "D. Sampath",
+          "T. Zabka",
+          "D. Misner",
+          "T. O'Brien",
+          "P. Dragovich"
+        ],
+        "year": 2015,
+        "abstract": null,
+        "doi": "10.1016/j.pharmthera.2015.02.004",
+        "pmid": "25709099",
+        "venue": "Pharmacology and Therapeutics",
+        "citedByCount": 225,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-259355855",
+        "title": "Recent advances of targeting nicotinamide phosphoribosyltransferase (NAMPT) for cancer drug discovery.",
+        "authors": [
+          "He Tang",
+          "Lin Wang",
+          "Tian-Yu Wang",
+          "Jia-Mei Yang",
+          "Shuai Zheng",
+          "Jun Tong",
+          "Sheng Jiang",
+          "Xiangyu Zhang",
+          "Kuo-Jun Zhang"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/j.ejmech.2023.115607",
+        "pmid": "37413882",
+        "venue": "European journal of medicinal chemistry",
+        "citedByCount": 28,
+        "urls": [
+          "https://doi.org/10.7270/q2h41x1n"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.7270/q2h41x1n"
+      },
+      {
+        "elicitId": "ss-88947101",
+        "title": "Abstract 2973: CD269 - A promising target for amanitin based ADCs",
+        "authors": [
+          "A. Pálfi",
+          "Torsten Hechler",
+          "C. Mueller",
+          "A. Pahl",
+          "Michael Kulke"
+        ],
+        "year": 2016,
+        "doi": "10.1158/1538-7445.AM2016-2973",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 2,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "aaf04555d2300d8281823b5d3fd91011ec0d59eb3704277c5a95aaf13ec9481a",
+          "characters": 2557
+        }
+      },
+      {
+        "elicitId": "ss-273124578",
+        "title": "BCL-XL–targeting antibody-drug conjugates are active in preclinical models and mitigate on-mechanism toxicity of small-molecule inhibitors",
+        "authors": [
+          "Andrew S. Judd",
+          "Bhupinder Bawa",
+          "Wayne R Buck",
+          "Zhi-Fu Tao",
+          "Yingchun Li",
+          "M. Mitten",
+          "M. Bruncko",
+          "Nathaniel D. Catron",
+          "George Doherty",
+          "Kenneth R. Durbin",
+          "Brian Enright",
+          "Robin R. Frey",
+          "D. Haasch",
+          "Sandra T Haman",
+          "A. Haight",
+          "Tracy Henriques",
+          "J. Holms",
+          "K. Izeradjene",
+          "R. A. Judge",
+          "Gary J. Jenkins",
+          "Aaron R. Kunzer",
+          "J. Leverson",
+          "Ruth L. Martin",
+          "Diya Mitra",
+          "S. Mittelstadt",
+          "L. Nelson",
+          "P. Nimmer",
+          "Joann P Palma",
+          "Richard Peterson",
+          "D. Phillips",
+          "Sherry L. Ralston",
+          "S. Rosenberg",
+          "Xiaoqiang Shen",
+          "Xiaohong Song",
+          "Kedar R. Vaidya",
+          "Xilu Wang",
+          "Jin Wang",
+          "Yu Xiao",
+          "Hai-Chao Zhang",
+          "Xinxin Zhang",
+          "Eric A. Blomme",
+          "Erwin R. Boghaert",
+          "John C. Kalvass",
+          "Andrew Phillips",
+          "A. Souers"
+        ],
+        "year": 2024,
+        "doi": "10.1126/sciadv.ado7120",
+        "pmid": "39365864",
+        "venue": "Science Advances",
+        "citedByCount": 25,
+        "urls": [
+          "https://www.science.org/doi/pdf/10.1126/sciadv.ado7120?download=true",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11451551/pdf/sciadv.ado7120.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.science.org/doi/pdf/10.1126/sciadv.ado7120?download=true",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3814615ea9b3d52f481069f35e94745e66737256dafd0711a4b57bd1dc09b715",
+          "characters": 1198
+        }
+      },
+      {
+        "elicitId": "ss-283917361",
+        "title": "NAMPT inhibition uncovers therapeutic vulnerabilities to venetoclax and chemotherapy in acute myelogenous leukemia",
+        "authors": [
+          "John R. Sanchez",
+          "Chaomei Liu",
+          "V. Pawar",
+          "Yanqing Huang",
+          "D. Diaz-Rohena",
+          "Jyotsana Singh",
+          "Priya J. Koppikar",
+          "Tzung-Huei Lai",
+          "L. S. St. John",
+          "V. Puduvalli",
+          "J. Molldrem",
+          "Palaniraja Thandapani",
+          "Nitin Jain",
+          "R. Lapalombella",
+          "Deepa Sampath"
+        ],
+        "year": 2025,
+        "doi": "10.1080/10428194.2025.2571199",
+        "pmid": "41401031",
+        "venue": "Leukemia and Lymphoma",
+        "citedByCount": 5,
+        "urls": [
+          "https://digitalcommons.library.tmc.edu/context/uthgsbs_docs/article/7143/viewcontent/NAMPT_inhibition_uncovers_therapeutic_vulnerabilities_to_venetoclax_and_chemotherapy_in_acute_myelogenous_leukemia_compressed.pdf",
+          "https://www.tandfonline.com/doi/pdf/10.1080/10428194.2025.2571199?needAccess=true"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.tandfonline.com/doi/pdf/10.1080/10428194.2025.2571199?needAccess=true",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "283b10f1b8afb3cd9f0230f8140399fbd15d6e8e713d10c85cd27ef4108e9ce0",
+          "characters": 1200
+        }
+      },
+      {
+        "elicitId": "ss-253268152",
+        "title": "Addressing the Enzyme-independent tumor-promoting function of NAMPT via PROTAC-mediated degradation.",
+        "authors": [
+          "Xiaotong Zhu",
+          "Haixia Liu",
+          "Li Chen",
+          "Chenxu Wu",
+          "X. Liu",
+          "Cang Yong",
+          "Biao Jiang",
+          "Xiao-Bao Yang",
+          "G. Fan"
+        ],
+        "year": 2022,
+        "abstract": null,
+        "doi": "10.1016/j.chembiol.2022.10.007",
+        "pmid": "36323324",
+        "venue": "Cell Chemical Biology",
+        "citedByCount": 28,
+        "urls": [
+          "https://doi.org/10.1016/j.chembiol.2022.10.007"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.chembiol.2022.10.007"
+      },
+      {
+        "elicitId": "ss-199076496",
+        "title": "CHAPTER 8. Topoisomerase Inhibitors as Antibody–Drug Conjugate (ADC) Payloads",
+        "authors": [
+          "S. Govindan",
+          "Thomas M Cardillo",
+          "D. Goldenberg"
+        ],
+        "year": 2019,
+        "doi": "10.1039/9781788012898-00166",
+        "pmid": null,
+        "venue": "Cytotoxic Payloads for Antibody–Drug Conjugates",
+        "citedByCount": 4,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "913964705f5502fb5cac8139343e721df4eadbcdb36f277a107b97ddce311073",
+          "characters": 1383
+        }
+      },
+      {
+        "elicitId": "ss-216072635",
+        "title": "The Resurgence of Antibody Drug Conjugates in Cancer Therapeutics: Novel Targets and Payloads.",
+        "authors": [
+          "V. Boni",
+          "Manish R. Sharma",
+          "A. Patnaik"
+        ],
+        "year": 2020,
+        "doi": "10.1200/edbk_281107",
+        "pmid": "32315240",
+        "venue": "American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting",
+        "citedByCount": 62,
+        "urls": [
+          "https://ascopubs.org/doi/pdfdirect/10.1200/EDBK_281107"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://ascopubs.org/doi/pdfdirect/10.1200/EDBK_281107",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3edee9b191595d43ce2a00e76dbb2ac6ab87f511a180349b2ae472238f748d7f",
+          "characters": 1819
+        }
+      },
+      {
+        "elicitId": "ss-203897406",
+        "title": "CHAPTER 17. Splicing Inhibitors as Antibody–Drug Conjugate (ADC) Payloads",
+        "authors": [
+          "C. Subramanyam"
+        ],
+        "year": 2019,
+        "doi": "10.1039/9781788012898-00364",
+        "pmid": null,
+        "venue": "Cytotoxic Payloads for Antibody–Drug Conjugates",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "6e7ca6cc8aa868a92e193347354f5ec4b73ee95476e58418deb60c8af937d9a4",
+          "characters": 1053
+        }
+      },
+      {
+        "elicitId": "ss-199073451",
+        "title": "CHAPTER 22. The Future of Antibody–Drug Conjugate (ADC) Payloads",
+        "authors": [
+          "R. Lutz"
+        ],
+        "year": 2019,
+        "doi": "10.1039/9781788012898-00461",
+        "pmid": null,
+        "venue": "Cytotoxic Payloads for Antibody–Drug Conjugates",
+        "citedByCount": 2,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "0caaad385d2cb0f9b12e0c5e2ac0a086aee20e9aaa9eaf1bdf3b44d7488386d8",
+          "characters": 1401
+        }
+      },
+      {
+        "elicitId": "ss-289548704",
+        "title": "Genotoxic antibody-drug conjugates combined with BCL-XL inhibitors enhance therapeutic efficacy in metastatic castration-resistant prostate cancer",
+        "authors": [
+          "Galina Semenova",
+          "Sander Frank",
+          "R. Dumpit",
+          "Wanting Han",
+          "I. Coleman",
+          "Roman Gulati",
+          "C. Dirican",
+          "T. Arman",
+          "Jessica Maruwan",
+          "C. Morrissey",
+          "Michael C. Haffner",
+          "Peter S Nelson",
+          "John K. Lee"
+        ],
+        "year": 2026,
+        "doi": "10.1172/JCI200438",
+        "pmid": "42348027",
+        "venue": "Journal of Clinical Investigation",
+        "citedByCount": 1,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2025/09/11/2025.09.05.674562.full.pdf",
+          "http://www.jci.org/articles/view/200438/files/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "http://www.jci.org/articles/view/200438/files/pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "1b6892376e7f0bbba37dc9a7e377b8732a1603e9eddb485160db03de560f9e7c",
+          "characters": 1598
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "207c99a10e0eb8a80983cffec8964da8b54bae9b4f6de172e6db4e636cd24873",
+    "sourceBytes": 75280,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

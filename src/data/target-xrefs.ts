@@ -3753,4 +3753,20 @@ export const targetXrefs: Record<string, TargetXref> = {
       }
     ]
   },
+
+  // POLR2A: generated from the HGNC symbol endpoint on 2026-11-08; full refresh reads the target symbol.
+  polr2a: {
+  "genes": [
+    {
+      "symbol": "POLR2A",
+      "name": "RNA polymerase II subunit A",
+      "hgnc": "HGNC:9187",
+      "ensembl": "ENSG00000181222",
+      "uniprot": "P24928",
+      "entrez": "5430",
+      "omim": "180660",
+      "locus": "17p13.1"
+    }
+  ]
+},
 };

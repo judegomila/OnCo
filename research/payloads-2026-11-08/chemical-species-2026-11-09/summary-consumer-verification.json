@@ -1,0 +1,2668 @@
+{
+  "entries": 234,
+  "available": 209,
+  "missingEnglishFallbacks": 25,
+  "longSummaryCache": {
+    "accepted": 0,
+    "rejectedStale": 0,
+    "absent": 208,
+    "rows": [
+      {
+        "id": "sn-38",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sn-38",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sn-38",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sn-38",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sn-38",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sn-38",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sn-38",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sn-38",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dxd",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "t030",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmae",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mmaf",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm1",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm4",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-sg3199",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "calicheamicin",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "duocarmycin",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "af-hpa",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dm21-c-maytansinoid-system",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "cl2a",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "ggfg",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-vc-pabc",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "smcc",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "sulfo-spdb",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrazone",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "val-ala",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "mc-non-cleavable",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "hydrophilic-next-gen",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "tubulin-inhibitor-payloads",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "pbd-dimer-payloads",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-cleaver-payloads",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "dna-alkylator-payloads",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "es",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "zh",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "pt",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "hi",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "fr",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "de",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "ja",
+        "stored": false,
+        "accepted": false
+      },
+      {
+        "id": "upifitamab-rilsodotin",
+        "lang": "ar",
+        "stored": false,
+        "accepted": false
+      }
+    ]
+  },
+  "namedReviewEntries": 0,
+  "scope": "Actual lazy-loaded tables and summary-cache selectors; selected-text SSR, not browser hydration or fluent-language sign-off.",
+  "rows": [
+    {
+      "id": "sn-38-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "dd37a563d82c9fcd5b9f32cb54b55d2e22d4776f82233d0d8c9cd9e579a665cb"
+    },
+    {
+      "id": "sn-38-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "0ee23a983f71acb35ba58ecd042dbd2c97dd5333cebfc1a75524f27c3e8bfb1d"
+    },
+    {
+      "id": "sn-38-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "4cfdeaad7a38ba68d7d7bcebb337189d8f891e606dc91c5ad0f14de1a5062607"
+    },
+    {
+      "id": "sn-38-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "44164fa4608e9c6d79bd886a29a942201709447d4d0598ee4a1ad772565ac4ac"
+    },
+    {
+      "id": "sn-38-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "ddb0b83c8a07e2a5d79aef8c8dc269f939dedc4347f4a96acb4bed7c327eb220"
+    },
+    {
+      "id": "sn-38-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "7ca95bf0e445a1d58598c9ec40b789b514a2af1ea06f5bb9d0b5da68d587945a"
+    },
+    {
+      "id": "sn-38-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "73abd73535fefe1723acc1637f4781ba2cf2165eb89d89fb9943c44597026658"
+    },
+    {
+      "id": "sn-38-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "395a5590ae147d88833cc7d87f4aefa97ca0d5a4b491b6000fb03437b3f1a848"
+    },
+    {
+      "id": "sn-38-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "14b169204a6cf3f7da5994c67b04acf2ea9f8a626b1d6b09e397460b68fdd935"
+    },
+    {
+      "id": "dxd-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "2e02fbb78798f0b678117abfb01d332a90d2b89a9ab9b3888df67bd095d518b1"
+    },
+    {
+      "id": "dxd-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "75ef1777d6f49f0e19cb841cf7d292bb7435a8aa85b2fa183c2c8aff1a321d8a"
+    },
+    {
+      "id": "dxd-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "d64b81c49f79bf767f460ff3d234952af181a34ebf72951e6d41616e24c58ead"
+    },
+    {
+      "id": "dxd-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "5aa8073c392495e6b7a8451c35c6b94ccfa77439d99b950a35e20173c5159337"
+    },
+    {
+      "id": "dxd-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "21e950cc356dab487f26379fed79832d0f5044c0c75a6c4d20cebb3096850824"
+    },
+    {
+      "id": "dxd-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "1eac9318c6910be32fe3d78699293bf9d4d699b87e0fa3859b9b7b2c2b1ac9ab"
+    },
+    {
+      "id": "dxd-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "1e52bd7563bb620ebd7e9df8fcbb90645e03a02e3a1da639dd3dae7a4e9ccc09"
+    },
+    {
+      "id": "dxd-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "e2d94940d140840469ff9978f1a9493710711b0da66a0b61662fec093ae36deb"
+    },
+    {
+      "id": "dxd-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "b36d5bdf023547dc934e51e1a87539876da76089d954586bf0ea461d38c5b952"
+    },
+    {
+      "id": "t030-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "a8da2e132f8d4918c68f6f7c27760707ea6aea17f47ae9aec65def60bd46f2e4"
+    },
+    {
+      "id": "t030-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "5aaa7d7f0ef8a0b89ed3c162a5f65ab1d3f0a89a14478f65a270f2f3eac67d70"
+    },
+    {
+      "id": "t030-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "23100767d5aaedbbc10ff6390487259b72c2c97c11bbab66ad7725eb0b3414ad"
+    },
+    {
+      "id": "t030-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "28ca18c1da1362b899cf6195bec9d34ce02caf72251c30fbd965e84ff044efb8"
+    },
+    {
+      "id": "t030-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "0b982887a2fcf02b2c63f33b9b17e81656953fc11acf7ba8c178502367f08e98"
+    },
+    {
+      "id": "t030-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "6addcd9b1a7a51ab0958dbb17c79366b59826ed3dc3a5f14cd4f02180d8d40b4"
+    },
+    {
+      "id": "t030-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "51aa84c7d6209539b5bf09433dbce11ba95b09d05776d84d3c1286cebfb2ba3d"
+    },
+    {
+      "id": "t030-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "afa827d076eb0f138ea2b06b88f8489314b82f066d4236aca86c5b367eb12e6f"
+    },
+    {
+      "id": "t030-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "43c05536192ef0d4b4babe5152c6a3b12359bc6d053c0b1ddd0729a6be96fb60"
+    },
+    {
+      "id": "mmae-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "0ebd3b1e646f0c7f5e2c66ee3222385a5cd6f8a802137ea7fd763c40c2819638"
+    },
+    {
+      "id": "mmae-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "ea440e6eb6627a9b42f110d3417526685b0ebb61ea20b8054b71c0a15bae6144"
+    },
+    {
+      "id": "mmae-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "45a73e78d70c8de7acd22099dfa557d03f8ec1efc5a42de3ea8bf39f8bc44b9f"
+    },
+    {
+      "id": "mmae-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "486c184b18907860144cbeb23e40594aa7a22cec2ad83b50de9ec704fe52e704"
+    },
+    {
+      "id": "mmae-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "34cb0d3be0fdf6150ccf9bdb75cb0003f1d4273defc62392fbcb17bcd1d379ca"
+    },
+    {
+      "id": "mmae-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "e173f88dcbfab8afc4ebbdcd69b3e0a45f31a18ec9cf469e53036c34d36cab6e"
+    },
+    {
+      "id": "mmae-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "e0458d345e84510b29f94e9987a5a4cee0b8ec32cef6930ba379913b940499a9"
+    },
+    {
+      "id": "mmae-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "c18ddc3b9e3d1f912e2374b19d385b7cd55a11b5347748a10c59b225b28ef272"
+    },
+    {
+      "id": "mmae-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "99c30c0fe81596bc49153ef057b831da428568b3cc7a14e9e4c10bb2723414d1"
+    },
+    {
+      "id": "mmaf-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "9a34f1a7f1ee82f1d4608b9bb71e18d4f60af9b9cbf99119f464397b71157fb3"
+    },
+    {
+      "id": "mmaf-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "237f90f298024f76b8dea15516a3f832cd7290db4096234c40d581f6b1ce11e4"
+    },
+    {
+      "id": "mmaf-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "ee889345fab76861b77903c3926ddf4ed712fece66f31f2fa3955f38310d11a7"
+    },
+    {
+      "id": "mmaf-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "3bc9a4e3a4b24b415717dcf78bb7a5e3f51cfc03a446853831b6713b0632ab6a"
+    },
+    {
+      "id": "mmaf-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "6fdc2faee7e048e82da720f1b18291c6b6cd92ee14bc2c22670f3d183d0656ac"
+    },
+    {
+      "id": "mmaf-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "e8af54c5f74f4a5e8afd4dda8f761ffdfc8abeb2bc0fa0301f80e03916620bee"
+    },
+    {
+      "id": "mmaf-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "a4b5cdfa9ecd4cd0f1cba228aa17903026828e73515e8e38f136ab09a642a779"
+    },
+    {
+      "id": "mmaf-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "ad4a94ca9b47d340373107296bc420738a0f4e1758d1dfe95b6903ad6080299d"
+    },
+    {
+      "id": "mmaf-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "4f79d2125c2da12c05adde55a18bee35e5cbb3202c371bc8c06df987373946e7"
+    },
+    {
+      "id": "dm1-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "eb31f602c4d46708fc7507971143a6e0a451cae293e50c0f4f6c17d6fa5150f7"
+    },
+    {
+      "id": "dm1-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "df2c7734b50fa22e8e4c726a4e4988f66ca5d1636f28c8f164a80abb704fcd2d"
+    },
+    {
+      "id": "dm1-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "b2d5d45411c3af3644eadde19b4f72de5b60fbe3161be862e284e151be004910"
+    },
+    {
+      "id": "dm1-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "80b0c1e8b5ea3ae3c8e527b5947cde97dfce44075d3c11386531b671464365f7"
+    },
+    {
+      "id": "dm1-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "2772b2c53b9ec062bec15aa79904fcf745205298d7d747596023ffebf2f8b16a"
+    },
+    {
+      "id": "dm1-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "c23f42868e2ee42705aab0d43b05443585ad0c24bb52f2a94cc922d303c6bdf7"
+    },
+    {
+      "id": "dm1-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "0b6204e35e3cc0d3406c5f979efa45deca2b63620eb26e56899b9a5b82b6fbb5"
+    },
+    {
+      "id": "dm1-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "5d2041cdbd1eceba0b45dff41cdced12d2ee78668091070e389387536beeb8e0"
+    },
+    {
+      "id": "dm1-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "b70c06770b5fa062c8152b3811ffe5b52fe7dc927e57b1b92d0627e655e622d7"
+    },
+    {
+      "id": "dm4-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "b35c88095889f143fa52e6ebb9c0c2fe277a71c9c661b9c2ed3f2cbeed9c7554"
+    },
+    {
+      "id": "dm4-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "eade19d73dc56c44e5c8073c5fd4eb5343054bb12f2cadfa88a4105f0ceacb90"
+    },
+    {
+      "id": "dm4-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "6a7b778e189ec2aaadc55181b3d24574523e86478eaa959df5871204eaf61be5"
+    },
+    {
+      "id": "dm4-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "257be9886b7a8b09e178068ea4e210a118113e1cc5c7330451ef1fade73cdece"
+    },
+    {
+      "id": "dm4-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "c1c473db90615e776b5d22dd082e76c8b0f08a10af1a80a102a935631b754f16"
+    },
+    {
+      "id": "dm4-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "573911c3980459778df4df9e72872466ef8519d090f5ba63c3e5bc266fe5b846"
+    },
+    {
+      "id": "dm4-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "6841dbea40abd17843545a7c7fde7cf3b1c8523c1feb891d2bdf8232425834f7"
+    },
+    {
+      "id": "dm4-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "dba96a7168783a8c2c498359633c2e9660f27aff343ec1875fdd6dd80ca87d82"
+    },
+    {
+      "id": "dm4-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "ce690d77bbfe34456e466f5ce0d2f7a41f12af309e58aef0ae4d3114032372ce"
+    },
+    {
+      "id": "pbd-sg3199-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "692ab04bcf852868db8a495f0c35b5449c4cbcb3631118c0924bae13bdf14f72"
+    },
+    {
+      "id": "pbd-sg3199-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "c96ed331f8a05e2ec268cf539a86b6a7c08cfb8c9d89193b82e541172f9d0e2e"
+    },
+    {
+      "id": "pbd-sg3199-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "a0dc8050c08eab078612df01da7b26d435c70abb8e4a28e35ad4b5a6c857c2cf"
+    },
+    {
+      "id": "pbd-sg3199-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "d89ad214d283a236798fe1973fc06626a3dd96b17522622ab633ab4bd5dacc35"
+    },
+    {
+      "id": "pbd-sg3199-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "1f1e70fb70619ac62a65d5239a69647a42098931567c8c461167b826e479d62d"
+    },
+    {
+      "id": "pbd-sg3199-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "413c8ffea331584d8c6698c8059e5ea1eedd15c7fc020b5287203dbdd0f3725c"
+    },
+    {
+      "id": "pbd-sg3199-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "be1fa40a50250b1327927a0e90a78c78046651273b2374ff03e7c5998d8b0337"
+    },
+    {
+      "id": "pbd-sg3199-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "6202dcd0703a97921f5f4836587f6ebee41ea72e489b67d21176bf06df8dad35"
+    },
+    {
+      "id": "pbd-sg3199-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "1ad586df72ea26fe487cf57e2345d01b312b6b222a2a2ec5147164b8c695ae79"
+    },
+    {
+      "id": "calicheamicin-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "d471b0764530d3d86f87ce467c842f799dd95558d5b15c2e68c161de151a59cf"
+    },
+    {
+      "id": "calicheamicin-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "2572df8b379054af6c2f4855ff2a82c1048618c945fa5c4e6a5fb6c400ef939a"
+    },
+    {
+      "id": "calicheamicin-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "f73335a59b85021cd0097a5990ad33488cf44d109ef50c2a7f945c88a2ac6760"
+    },
+    {
+      "id": "calicheamicin-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "89aab4a63e0e178b46e84e059ceda4f387248ef30d103f296d2b8eea6e5d0a34"
+    },
+    {
+      "id": "calicheamicin-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "15bce95171693360e03676aed4de390505147590ce3efd65636ec5f354d52828"
+    },
+    {
+      "id": "calicheamicin-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "60179bdf350a6d5c12fd3068d31124bacc312c36b621d4de7f8f06741cc439ec"
+    },
+    {
+      "id": "calicheamicin-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "18d1552898f6d2ebc4585bc6b42d60fd8fc125a1782d34ed83e037527b1b548f"
+    },
+    {
+      "id": "calicheamicin-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "7d731c32278c3ac56c46def8d4cc50153db70553dcc6e6d7a3755183145fc39b"
+    },
+    {
+      "id": "calicheamicin-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "19c7f27384da7f2d5351c9de49743fb562011ce6c01af22c1b0041756667730e"
+    },
+    {
+      "id": "duocarmycin-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "9da128d383e047622758bab7e679017295177e05164e8dbd6a88839253b059a9"
+    },
+    {
+      "id": "duocarmycin-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "27cdaae825433dd7464ef089b97c8ecab27532cbc15ce76b1ba21660b5bf72c0"
+    },
+    {
+      "id": "duocarmycin-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "f6af5dc35371d5e9e0efdd2e3dd806184b7ebcd99b4a810b59effff02928ab6d"
+    },
+    {
+      "id": "duocarmycin-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "c39b47ddaa0be97857bca2567bec2665d7b3ed35db1833d476774fd64fb1db0c"
+    },
+    {
+      "id": "duocarmycin-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "13c397791e3fbe6ed82edeaa92edcb94f8fea43c21fa2bd92bd2b6e3ea731475"
+    },
+    {
+      "id": "duocarmycin-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "e13f6e1abd4d68ae06e08bfd45e0d08a0fb53abc5b2ee09c5f4028bd56d74ef3"
+    },
+    {
+      "id": "duocarmycin-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "09191a7d66113c6169a59cd0b08bebf7383c8efb31ab2592b02a4c3187e5872f"
+    },
+    {
+      "id": "duocarmycin-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "589827593f654566c08706a2e88b9358cd8290cb2b4e2c56449102f034693c42"
+    },
+    {
+      "id": "duocarmycin-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "88bf74c4304dbbba365dccf3a70ea9afe87b309f934b2eeea9701ac8e251dafc"
+    },
+    {
+      "id": "af-hpa-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "af-hpa-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "d31fa7b9cff6edb371d925f6359287794d891e8ecbd3c2ddd77633ed491bf3c2"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-zh",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "dm21-c-maytansinoid-system-simple",
+      "available": false,
+      "fallback": true,
+      "sha256": "1a54aac875a358f565cd96a0c04e3a72c5b4e8e3f11695a60bfc7c4e897771d0"
+    },
+    {
+      "id": "cl2a-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "c553d79e424324e71f5c6418556c4e7dd3364412e46ea1d952028f4062703739"
+    },
+    {
+      "id": "cl2a-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "6cd1ad0a28b89bfbbc79e0f4c49811ed73dc64e0c8b420cb00b7ef3b56af2abf"
+    },
+    {
+      "id": "cl2a-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "155ede744117740af3941a89aae5d79fb2920495adac212eb8bd25a388af9399"
+    },
+    {
+      "id": "cl2a-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "ecc9868bfd6d56f2ca6458a8dd89868c3a098ed048d47145a3d7feac6655292a"
+    },
+    {
+      "id": "cl2a-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "944081bf9fa77a92ca597679cf6d3f95ab9b98fea9957dba2a81bbe0b8ec2e4c"
+    },
+    {
+      "id": "cl2a-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "8f6572a3867e6009f452955a6aad054d795532c88bced963df14f2c593de499a"
+    },
+    {
+      "id": "cl2a-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "4205f713ca3351d6dca84f45d25e731aed63223c9ba58149dee443125740c5cd"
+    },
+    {
+      "id": "cl2a-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "995d5c0cb4dbb7a2163c9e5ad0a509099d8a2bf7fa3701078a4a755b029cc0c7"
+    },
+    {
+      "id": "cl2a-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "685a38b593554cb881e1a4bf0555a2c316e3931d81ddbf61765f4aec007d80d8"
+    },
+    {
+      "id": "ggfg-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "a255e178a5db1beb715be19c5d426ab371f37014c103308dd428af264991869d"
+    },
+    {
+      "id": "ggfg-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "595291aa6e7952ace66274855d2aac2cf9c50aef0d690da8c03367456abf4937"
+    },
+    {
+      "id": "ggfg-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "345b893ccb02b63360a73e8c3d7aa1263dba8d97f0b2f9999e7d2dcab858870e"
+    },
+    {
+      "id": "ggfg-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "5c9f47a6c5328d27de3c22a0feafed152568f0687806b9d40be7c02ed093aa52"
+    },
+    {
+      "id": "ggfg-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "b32582dfc2097e4dd25692526a9924fa920ff77eca213572e6f68a088f83e946"
+    },
+    {
+      "id": "ggfg-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "0b83d37744d754bbd3fa6ff39e662bff69728f6c246450bf69dc18d2635e3fbb"
+    },
+    {
+      "id": "ggfg-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "c7e7cb07299ebfa1e43a54fe5e6c1969752c1385457699bf4bdcc8d13f142b35"
+    },
+    {
+      "id": "ggfg-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "3a1be204713f4f34aac4f66d7da7485d599486fd98435e1bee3e94820d57052b"
+    },
+    {
+      "id": "ggfg-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "9740b4a4900d4c853cd08bfc36c606cd9bb23feb12dcc3ad925fc2c48e7c630e"
+    },
+    {
+      "id": "mc-vc-pabc-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "49cf81e95815c6e16f73f6b4a7e3020532d00b91ba96be2e4c3c171c455bc45c"
+    },
+    {
+      "id": "mc-vc-pabc-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "3d3d9185002df91a43a18252c990fde7559c710580eea3f733287ccec3e01f68"
+    },
+    {
+      "id": "mc-vc-pabc-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "4fa44992e46f531ba240ed6f4a586da3f361a6b66d4c67f267927ea01d77c635"
+    },
+    {
+      "id": "mc-vc-pabc-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "bbc3c195afa78d6de30131fa465963bfd4a185c7f476b1ecb238b34b268b9c9a"
+    },
+    {
+      "id": "mc-vc-pabc-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "c6c185eed1d2092e28b4013d06ed1a3ef4e151d0b35327d756cf72b11a685e0a"
+    },
+    {
+      "id": "mc-vc-pabc-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "5a906be10307d774340af5cccb2caf579937a69fcea0989b26d10af04ef019bf"
+    },
+    {
+      "id": "mc-vc-pabc-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "b950e33aabd9a4849228d94cf23130d0835768b7db9e4bdd3a0c910d4197a766"
+    },
+    {
+      "id": "mc-vc-pabc-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "a29ed4594af8fed968447d7a8f9dec85e81b081dda9416f70955e5f21671e290"
+    },
+    {
+      "id": "mc-vc-pabc-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "c85a4b6cce0d0f533b9d42598fc46469cf837df15a178ac8c2343cf566149688"
+    },
+    {
+      "id": "smcc-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "503e9050495b4df1c0e38cd3c5b295542396147bb034a5f9d21a53705aff533b"
+    },
+    {
+      "id": "smcc-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "d5277617dacb89837d37b4050255dcfe50494ab70692ae149b31c8a7195a5310"
+    },
+    {
+      "id": "smcc-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "41301dafff13c9a5fa215e94dc36ca9ac4492bf2b87527ea5bea1970a6f35a11"
+    },
+    {
+      "id": "smcc-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "23e743e6a288293ad0d9f5389d7143d863890273f6ca26d346cfd9bf59d58228"
+    },
+    {
+      "id": "smcc-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "e57eaed808ad334fecc0a146512f7b98f83ee816148465638ed6b0f9634d7be5"
+    },
+    {
+      "id": "smcc-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "d0cdffe8637f797f3e588a58b19065290255609b545ed64ec01b428cdf89eebb"
+    },
+    {
+      "id": "smcc-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "78a60b66bc522f74749848204d3ed0eb3f9b430ef6ec2b349d925c64df2d8473"
+    },
+    {
+      "id": "smcc-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "83525da7d86ff009ea956848443015b3d56c4090b297a8b033e47f500b23c960"
+    },
+    {
+      "id": "smcc-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "9959a57b650df3c9ce466a3a5acaeffaa0afcd61c4158d4652b2e35a9827fd1f"
+    },
+    {
+      "id": "sulfo-spdb-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "8082410f61eef6d89b93f183801e024d59befa500296cd4c722e0fdcfb674cf0"
+    },
+    {
+      "id": "sulfo-spdb-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "76d9de978f09466b1f2e17d86b05e4bd133f749a4bd03e90095cb1563e8eebc9"
+    },
+    {
+      "id": "sulfo-spdb-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "72ccd99509d2ec8a0c7988c3c8b1f92fa212651773519b69fe955dfce8c4d095"
+    },
+    {
+      "id": "sulfo-spdb-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "1c47be8725fc75cfdf38f2322a3217c424e57ca2ba5c7b96b3091893058ac111"
+    },
+    {
+      "id": "sulfo-spdb-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "34b223e9ecaf780bd689e029cb7d9383cf6f9a8aa9b155bc85849ef947f57959"
+    },
+    {
+      "id": "sulfo-spdb-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "264846b362a4f6f0a56252dea06454f07e5793c1094cf04656511e1efe44309a"
+    },
+    {
+      "id": "sulfo-spdb-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "1cf3be83a9cf90ea5952de627aec6db0e0e2ac0d4b6394863417f26a7e9156e9"
+    },
+    {
+      "id": "sulfo-spdb-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "cdb14eecb853265b064b6e705fbd4aa6ba2dbb0e6684d3f595d64544d89d4892"
+    },
+    {
+      "id": "sulfo-spdb-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "65fd8bd960263774a3be9f967ab82ee2933c1347a5c792765fea33a5677dc98d"
+    },
+    {
+      "id": "hydrazone-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "1063b0a7c8c2acbe33187911d3c02196e1670a041553b52c612e2a88ae22f75a"
+    },
+    {
+      "id": "hydrazone-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "f5b4a73b241c4bd49b39a7af757107175e459dea0520ef513d8af7f488eba966"
+    },
+    {
+      "id": "hydrazone-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "126a707bba68fbaa8862bea824d9a8ea7cfe077f63488b273e8fbc33342f5828"
+    },
+    {
+      "id": "hydrazone-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "13d5f948ab3daa44d128286edad358e0e6da55499f5ced72979bcb4a67593d0d"
+    },
+    {
+      "id": "hydrazone-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "69b1a552c8f69ec08623b4f9f1934d9369a43d7ed75a1a41bc1f2d19c43e8cce"
+    },
+    {
+      "id": "hydrazone-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "30aa024edaa3eaaec120f67f391080425cfa1f177c5e1fe39d935e1b1ac5fc13"
+    },
+    {
+      "id": "hydrazone-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "5e6a72d36c76a46c77c863b2d0e6ba57ba6995afdc0cf67fc574c7d3fb164781"
+    },
+    {
+      "id": "hydrazone-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "93311b8b9bb9b4acd2a7b0b35a310f43fb708bf7ca7c64782ad2fe829591be36"
+    },
+    {
+      "id": "hydrazone-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "9f193ba0d4f88f4de0499973b535ed9886b19ea9c7774d26508dbe2994e06082"
+    },
+    {
+      "id": "val-ala-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "e0466fb7e9141256dc0fbcfe833b331d5fab9f85fb24f2e2f4e44a49f905ca0f"
+    },
+    {
+      "id": "val-ala-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "509605022ac45ec2b073f2a8f27c98d9d7eae2531cd7c10e1210f170df8f78a5"
+    },
+    {
+      "id": "val-ala-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "a3293137673a39def168cdeb43d3686b27f758c1a89bf30c44ef34d44bc08c10"
+    },
+    {
+      "id": "val-ala-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "a2047a98c0da458b6cc84d0e94fbaebb7f18d2bba007fb4ef44515a6fa6bacb6"
+    },
+    {
+      "id": "val-ala-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "4d407ddaa0a1bc53f030a4a24822a398754ef8b034fec5a4f11abfa3135a7ad3"
+    },
+    {
+      "id": "val-ala-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "386ab3309c55cab7b0fa5f68bee98569071f4773478217989f5c516d13f60baf"
+    },
+    {
+      "id": "val-ala-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "71375de1d47a17b084c6c5eb27c26bb5addabe37c3015e6b32222b9d547e5821"
+    },
+    {
+      "id": "val-ala-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "71cb456b030af15e3780f64a06cbf31ae0bb4efc8f49b79ae5f22dfa8797ac2f"
+    },
+    {
+      "id": "val-ala-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "bd4aa06a8419034cdd3caf32b28f15c27c600ca07168c85f70e6bbaed57543ad"
+    },
+    {
+      "id": "mc-non-cleavable-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "2d86b2427740a8f327346de70c37c47a865113c5f6f251d45fbeceb32c676f5b"
+    },
+    {
+      "id": "mc-non-cleavable-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "28d67adbfdca3195da2380bd40454331d2740c6ca6cf9655fbbd469ddc881cb6"
+    },
+    {
+      "id": "mc-non-cleavable-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "ef974913035eb65e16a0c1c0798ce531cad27e8cada140d66ebb7d08daa2a87b"
+    },
+    {
+      "id": "mc-non-cleavable-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "8b3e35a378832947997fb39360c8a6ebce5f6df2c82a99c0fc3dd6aad8f7dbdd"
+    },
+    {
+      "id": "mc-non-cleavable-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "4cb4769f00686c7a950449aaf3f9851c5c405188a26dfa3d4ba9d87f24b6898a"
+    },
+    {
+      "id": "mc-non-cleavable-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "85bf636fb91459a87e4a1227576ecf8d1dd3608bb03b3923ebd63888f7e50de4"
+    },
+    {
+      "id": "mc-non-cleavable-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "cf103601abac6333f8caf166684b938764524cf6fb072d735c6decc944abb996"
+    },
+    {
+      "id": "mc-non-cleavable-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "9d2063cb6b6eb93c8fcafcaa00c6acee23d06ecf48afeade5142e1e420a54618"
+    },
+    {
+      "id": "mc-non-cleavable-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "6ea7ca8efce869cfe8c04d87e65885a18a1a68ea13639c425371c081c1fc413e"
+    },
+    {
+      "id": "hydrophilic-next-gen-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "2cd3871ff9ee369b8283eecef6ef4c9b0bfec91851d87c096765d728035374c4"
+    },
+    {
+      "id": "hydrophilic-next-gen-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "7b5288251da84c466e810cf309b1abdf6da5d4a5a8b7b1b6ec2f31eed23a8a4d"
+    },
+    {
+      "id": "hydrophilic-next-gen-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "9b9f8f5985c281fedb07a9d86011259b6cdb4865629692ae906288dd8a42762c"
+    },
+    {
+      "id": "hydrophilic-next-gen-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "291a028ef937d10847c040de0999c800e1a173da9156be2bc40f3c4049fbd124"
+    },
+    {
+      "id": "hydrophilic-next-gen-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "3ef02b1f657a7594be28840a1cd6a4930bab832dd91090bf299731fb4ed5f184"
+    },
+    {
+      "id": "hydrophilic-next-gen-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "3874b79c28e961938e3cec637a9f6057fce6f7947eb51e04aefeaea16e627258"
+    },
+    {
+      "id": "hydrophilic-next-gen-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "2be9804244408ad73dd954884258118b28d6e5e9c0feabd2395633925a254ace"
+    },
+    {
+      "id": "hydrophilic-next-gen-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "0095fcaf2a2e4b304c58f1b61ddaf3acdc90205eeff47598c6f681db754638eb"
+    },
+    {
+      "id": "hydrophilic-next-gen-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "2e3a8ae689657cbad115bbde81d76889288106411215d582f16470946c33a36b"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "4daf106d94f723d73ff35b482d2dc4ed87a727d8fc5857d3a1881328b1aee856"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "db6c2b91b773cc205912d092583198a5fb4e24b03f1b374b3d955ac47d05bdac"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "2d4deec489bce9ad58be7843affe781e5c4c5962d2cfa52c9b4b07dac18a1430"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "41ff9f18ae27c665a9c08bd91d964191ae6d7920cd899ae30089b74fb7ef6bbd"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "3a226d8b9bb3b77be369df990d18de8d7cabb69f8da6ff1be4648187883dc564"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "8ba546b48de75444791245159ca451a896b540d4e9e3bfdf2d618194fe70849b"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "48f0b8c6b78993bf96ba53e5a7774d4fb854cf654a8138659d719d71f570eedf"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "88a63e0b11349cff8243563e315fdd9e148127e2353e052c761be891b8d9e699"
+    },
+    {
+      "id": "tubulin-inhibitor-payloads-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "f2f53e9973a8e8438e7c521dd76ff5bb02bfce6862ed6ca0b8ab733617d9051f"
+    },
+    {
+      "id": "pbd-dimer-payloads-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "c6c108169eeb3194bf12a9287684293d20d41061c81fdf3d80963b10342eab95"
+    },
+    {
+      "id": "pbd-dimer-payloads-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "1b5efd26ed523df1219c0b121e0706ee70cf4a8f60cfb06409d0a6acd9967aff"
+    },
+    {
+      "id": "pbd-dimer-payloads-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "9eae6cb93e9512e86ee65be82e59a8c5a4e393aec2a28cd2ab4652078dd6b2c8"
+    },
+    {
+      "id": "pbd-dimer-payloads-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "3b7f4cb6bb882f4e508d0aba76d0e1888c36a0f62b7b201317f2ca7200eb1739"
+    },
+    {
+      "id": "pbd-dimer-payloads-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "1251d580caf7d4f21273cc84e35eca19bc7174b7904956b09666b6481b8d7723"
+    },
+    {
+      "id": "pbd-dimer-payloads-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "ca119809611b0d6ba5a710dd3b838411395bb557499defe939c8f3cffb0d23a1"
+    },
+    {
+      "id": "pbd-dimer-payloads-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "574bdd0344d2c751f1e81033581bd2ca850680b29e2775c40f32a32694175234"
+    },
+    {
+      "id": "pbd-dimer-payloads-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "322adce075be184dce6137e97c005c22365af61d33e3f8d24d89d290b98bf571"
+    },
+    {
+      "id": "pbd-dimer-payloads-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "f79a8411aed6bd0c261d23e20605665fac99a8a0277fc2be29650014dd850998"
+    },
+    {
+      "id": "dna-cleaver-payloads-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "3fa6d01d21cd2ba63449127274b82ae54c2381a5febfddd228c458872f87f5d5"
+    },
+    {
+      "id": "dna-cleaver-payloads-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "4b84d6bd7dc7438b2f6c303df9987c871820062017465a167493ef25483f598c"
+    },
+    {
+      "id": "dna-cleaver-payloads-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "0f7cbc78136923be88555018bdf3a12f48780959df16295cccf4b73e7d00bb42"
+    },
+    {
+      "id": "dna-cleaver-payloads-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "4d955493a6ed3ba142eb0478f90a582d41bb09892f6fc880bc854dc88bffae70"
+    },
+    {
+      "id": "dna-cleaver-payloads-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "a7b81bcb0d37f5e5656a22ed09e7e83ea21bd08b2d5edf278a854d345b3b3f24"
+    },
+    {
+      "id": "dna-cleaver-payloads-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "fa1fad3eff3846780a482a88351fa5960685aad5c5e322680073277d30f53094"
+    },
+    {
+      "id": "dna-cleaver-payloads-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "27a07525b90ffaa37e3012ee9dfe1095ea70cd12934c8eb21414cb71f82e4d26"
+    },
+    {
+      "id": "dna-cleaver-payloads-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "04930accbf831de859980100cda22d8be09518b12c2715a0935f0d20cdfdc42c"
+    },
+    {
+      "id": "dna-cleaver-payloads-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "56975b55ac026474995456f43a50ceb5766aac9ff59f5d2ffb990230aacf3145"
+    },
+    {
+      "id": "dna-alkylator-payloads-ar",
+      "available": true,
+      "fallback": false,
+      "sha256": "aaa4e5d5ad4488b29a15a08e21a729bf8eaab1b74317423f47edfd938453a680"
+    },
+    {
+      "id": "dna-alkylator-payloads-de",
+      "available": true,
+      "fallback": false,
+      "sha256": "4952ef5c22d903701579abb97b3fda8693a212f8b61c5f2de4ee403ed7bbc357"
+    },
+    {
+      "id": "dna-alkylator-payloads-es",
+      "available": true,
+      "fallback": false,
+      "sha256": "c7a9a1b79c33727458407a0e9a59dfd2104c9955dc1135ad70d1c152a69d9f92"
+    },
+    {
+      "id": "dna-alkylator-payloads-fr",
+      "available": true,
+      "fallback": false,
+      "sha256": "114a7fed7d523bbeb616b3b9efe0c8d74e85836622c77aeee8225e1721483453"
+    },
+    {
+      "id": "dna-alkylator-payloads-hi",
+      "available": true,
+      "fallback": false,
+      "sha256": "bee28257cb29c45a593b85a5cc53ebfb0567bcd1be2291acf327d2ca305ef6b9"
+    },
+    {
+      "id": "dna-alkylator-payloads-ja",
+      "available": true,
+      "fallback": false,
+      "sha256": "eec9cd187e3a61539852077561b0a7489a89eda98c0797af6894e3283561115e"
+    },
+    {
+      "id": "dna-alkylator-payloads-pt",
+      "available": true,
+      "fallback": false,
+      "sha256": "54a3ef923302d1e51e6bb6b7a30d30f7ddc9e5811edb844f74cb2075a0236f0f"
+    },
+    {
+      "id": "dna-alkylator-payloads-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "ff1d6bcbc7d38a225bc9422d3c5bf53f284b8f532ce8c6e45a41d119570c03c0"
+    },
+    {
+      "id": "dna-alkylator-payloads-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "6dec5bbf8bf3bb24281885ea347787531362831526b5f8fa27ab57c1f197ba9b"
+    },
+    {
+      "id": "upifitamab-rilsodotin-ar",
+      "available": false,
+      "fallback": true,
+      "sha256": "5ac91d724af5aad1e58ab826f88744b6d606881260181056c24df88a9d901112"
+    },
+    {
+      "id": "upifitamab-rilsodotin-de",
+      "available": false,
+      "fallback": true,
+      "sha256": "5ac91d724af5aad1e58ab826f88744b6d606881260181056c24df88a9d901112"
+    },
+    {
+      "id": "upifitamab-rilsodotin-es",
+      "available": false,
+      "fallback": true,
+      "sha256": "5ac91d724af5aad1e58ab826f88744b6d606881260181056c24df88a9d901112"
+    },
+    {
+      "id": "upifitamab-rilsodotin-fr",
+      "available": false,
+      "fallback": true,
+      "sha256": "5ac91d724af5aad1e58ab826f88744b6d606881260181056c24df88a9d901112"
+    },
+    {
+      "id": "upifitamab-rilsodotin-hi",
+      "available": false,
+      "fallback": true,
+      "sha256": "5ac91d724af5aad1e58ab826f88744b6d606881260181056c24df88a9d901112"
+    },
+    {
+      "id": "upifitamab-rilsodotin-ja",
+      "available": false,
+      "fallback": true,
+      "sha256": "5ac91d724af5aad1e58ab826f88744b6d606881260181056c24df88a9d901112"
+    },
+    {
+      "id": "upifitamab-rilsodotin-pt",
+      "available": false,
+      "fallback": true,
+      "sha256": "5ac91d724af5aad1e58ab826f88744b6d606881260181056c24df88a9d901112"
+    },
+    {
+      "id": "upifitamab-rilsodotin-zh",
+      "available": true,
+      "fallback": false,
+      "sha256": "07988363e4be396b9aa62b84761911d68cae11a3cc65c8ac0e930566c28dcd93"
+    },
+    {
+      "id": "upifitamab-rilsodotin-simple",
+      "available": true,
+      "fallback": false,
+      "sha256": "c053615091702f065dc26d98d12481db71e5d92cc5baad9b55cfbd0e57f9572c"
+    }
+  ]
+}

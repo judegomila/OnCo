@@ -1,0 +1,20 @@
+{
+  "source": "https://rest.genenames.org/fetch/symbol/POLR2A",
+  "sourceSha256": "57e2163eb2a122d13861e40ea7d8103e49e2dcfee699b2dcbd81f5c70f15041a",
+  "generatedEntry": {
+    "genes": [
+      {
+        "symbol": "POLR2A",
+        "name": "RNA polymerase II subunit A",
+        "hgnc": "HGNC:9187",
+        "ensembl": "ENSG00000181222",
+        "uniprot": "P24928",
+        "entrez": "5430",
+        "omim": "180660",
+        "locus": "17p13.1"
+      }
+    ]
+  },
+  "checkedOn": "2026-11-08",
+  "scope": "One source-resolved target entry; no ChEMBL id guessed and no whole-registry refresh claimed."
+}

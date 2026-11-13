@@ -1,0 +1,68 @@
+[
+  {
+    "doi": "10.1158/1538-7445.am2024-2600",
+    "title": [
+      "Abstract 2600: Novel dual TOP1i ADC inducing superior tumour growth inhibition at low-drug load vs. trastuzumab deruxtecan"
+    ],
+    "publisher": "American Association for Cancer Research (AACR)",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          22
+        ]
+      ]
+    },
+    "depositedType": "journal-article",
+    "evidenceType": "conference abstract; supplementary issue, not a full clinical paper",
+    "publisherDepositedAbstractRead": true,
+    "scope": "Dual-TOP1 mouse/conjugate example, exploratory retrospective TOP1 analysis or CLIO-8221 trial design as the title specifies. No claim of verified patient benefit from these abstracts.",
+    "capture": "crossref-1538-7445.am2024-2600.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "doi": "10.1200/jco.2026.44.16_suppl.e15044",
+    "title": [
+      "Clinical impact of\n                    <i>TOP1</i>\n                    alterations on outcomes to topoisomerase-I–directed therapies across chemotherapy and antibody-drug conjugates."
+    ],
+    "publisher": "American Society of Clinical Oncology (ASCO)",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "depositedType": "journal-article",
+    "evidenceType": "conference abstract; supplementary issue, not a full clinical paper",
+    "publisherDepositedAbstractRead": true,
+    "scope": "Dual-TOP1 mouse/conjugate example, exploratory retrospective TOP1 analysis or CLIO-8221 trial design as the title specifies. No claim of verified patient benefit from these abstracts.",
+    "capture": "crossref-jco.2026.44.16_suppl.e15044.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "doi": "10.1200/jco.2026.44.16_suppl.tps3162",
+    "title": [
+      "Phase 1/2 study of CLIO-8221, a HER2-targeted, dual-payload exatecan and ATR inhibitor antibody-drug conjugate (ADC) in patients with advanced HER2-expressing solid tumors."
+    ],
+    "publisher": "American Society of Clinical Oncology (ASCO)",
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          1
+        ]
+      ]
+    },
+    "depositedType": "journal-article",
+    "evidenceType": "conference abstract; supplementary issue, not a full clinical paper",
+    "publisherDepositedAbstractRead": true,
+    "scope": "Dual-TOP1 mouse/conjugate example, exploratory retrospective TOP1 analysis or CLIO-8221 trial design as the title specifies. No claim of verified patient benefit from these abstracts.",
+    "capture": "crossref-jco.2026.44.16_suppl.tps3162.json",
+    "checkedOn": "2026-11-08"
+  }
+]

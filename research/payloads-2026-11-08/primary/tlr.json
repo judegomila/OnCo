@@ -1,0 +1,761 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1038/s43018-020-00136-x",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "35121890",
+        "source": "MED",
+        "pmid": "35121890",
+        "pmcid": "PMC9012298",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9012298"
+          ]
+        },
+        "doi": "10.1038/s43018-020-00136-x",
+        "title": "Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumor immunity.",
+        "authorString": "Ackerman SE, Pearson CI, Gregorio JD, Gonzalez JC, Kenkel JA, Hartmann FJ, Luo A, Ho PY, LeBlanc H, Blum LK, Kimmey SC, Luo A, Nguyen ML, Paik JC, Sheu LY, Ackerman B, Lee A, Li H, Melrose J, Laura RP, Ramani VC, Henning KA, Jackson DY, Safina BS, Yonehiro G, Devens BH, Carmi Y, Chapin SJ, Bendall SC, Kowanetz M, Dornan D, Engleman EG, Alonso MN.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Ackerman SE",
+              "lastName": "Ackerman",
+              "firstName": "Shelley E",
+              "initials": "SE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioengineering, Stanford University Schools of Medicine and Engineering, Stanford, CA, USA."
+                  },
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pearson CI",
+              "lastName": "Pearson",
+              "firstName": "Cecelia I",
+              "initials": "CI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gregorio JD",
+              "lastName": "Gregorio",
+              "firstName": "Joshua D",
+              "initials": "JD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gonzalez JC",
+              "lastName": "Gonzalez",
+              "firstName": "Joseph C",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kenkel JA",
+              "lastName": "Kenkel",
+              "firstName": "Justin A",
+              "initials": "JA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  },
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hartmann FJ",
+              "lastName": "Hartmann",
+              "firstName": "Felix J",
+              "initials": "FJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4174-2276"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo A",
+              "lastName": "Luo",
+              "firstName": "Angela",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ho PY",
+              "lastName": "Ho",
+              "firstName": "Po Y",
+              "initials": "PY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "LeBlanc H",
+              "lastName": "LeBlanc",
+              "firstName": "Heidi",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blum LK",
+              "lastName": "Blum",
+              "firstName": "Lisa K",
+              "initials": "LK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7921-8939"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kimmey SC",
+              "lastName": "Kimmey",
+              "firstName": "Samuel C",
+              "initials": "SC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5742-4037"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  },
+                  {
+                    "affiliation": "Department of Developmental Biology, Stanford University School of Medicine, Stanford, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Luo A",
+              "lastName": "Luo",
+              "firstName": "Andrew",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nguyen ML",
+              "lastName": "Nguyen",
+              "firstName": "Murray L",
+              "initials": "ML",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Paik JC",
+              "lastName": "Paik",
+              "firstName": "Jason C",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sheu LY",
+              "lastName": "Sheu",
+              "firstName": "Lauren Y",
+              "initials": "LY",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2038-9909"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ackerman B",
+              "lastName": "Ackerman",
+              "firstName": "Benjamin",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biostatistics, Johns Hopkins Bloomberg School of Public Health, Baltimore, MD, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee A",
+              "lastName": "Lee",
+              "firstName": "Arthur",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li H",
+              "lastName": "Li",
+              "firstName": "Hai",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Melrose J",
+              "lastName": "Melrose",
+              "firstName": "Jennifer",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Laura RP",
+              "lastName": "Laura",
+              "firstName": "Richard P",
+              "initials": "RP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ramani VC",
+              "lastName": "Ramani",
+              "firstName": "Vishnu C",
+              "initials": "VC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Henning KA",
+              "lastName": "Henning",
+              "firstName": "Karla A",
+              "initials": "KA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1099-6089"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jackson DY",
+              "lastName": "Jackson",
+              "firstName": "David Y",
+              "initials": "DY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Safina BS",
+              "lastName": "Safina",
+              "firstName": "Brian S",
+              "initials": "BS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yonehiro G",
+              "lastName": "Yonehiro",
+              "firstName": "Grant",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Devens BH",
+              "lastName": "Devens",
+              "firstName": "Bruce H",
+              "initials": "BH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Carmi Y",
+              "lastName": "Carmi",
+              "firstName": "Yaron",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0972-0616"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  },
+                  {
+                    "affiliation": "Department of Pathology, Sackler School of Medicine, Tel Aviv University, Tel Aviv-Yafo, Israel."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chapin SJ",
+              "lastName": "Chapin",
+              "firstName": "Steven J",
+              "initials": "SJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bendall SC",
+              "lastName": "Bendall",
+              "firstName": "Sean C",
+              "initials": "SC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1341-2453"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kowanetz M",
+              "lastName": "Kowanetz",
+              "firstName": "Marcin",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dornan D",
+              "lastName": "Dornan",
+              "firstName": "David",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Engleman EG",
+              "lastName": "Engleman",
+              "firstName": "Edgar G",
+              "initials": "EG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Alonso MN",
+              "lastName": "Alonso",
+              "firstName": "Michael N",
+              "initials": "MN",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3859-7669"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bolt Biotherapeutics, Inc., Redwood City, CA, USA. malonso@boltbio.com."
+                  },
+                  {
+                    "affiliation": "Department of Pathology, Stanford University School of Medicine, Stanford, CA, USA. malonso@boltbio.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0972-0616"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1099-6089"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4174-2276"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5742-4037"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7921-8939"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1341-2453"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2038-9909"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2522-6623"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3859-7669"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "2",
+          "journalIssueId": 3135606,
+          "dateOfPublication": "2021 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Nat Cancer",
+            "title": "Nature cancer",
+            "essn": "2662-1347",
+            "issn": "2662-1347",
+            "nlmid": "101761119",
+            "isoabbreviation": "Nat Cancer"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "18-33",
+        "affiliation": "Department of Bioengineering, Stanford University Schools of Medicine and Engineering, Stanford, CA, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "T32 GM007276",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA222969",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "U54 CA209971",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antigens, Neoplasm"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunotherapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adaptive Immunity"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Microenvironment"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antigens, Neoplasm",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9012298"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s43018-020-00136-x"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9012298"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9012298?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s43018-020-00136-x"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "35121891",
+              "reference": "Nat Cancer. 2021 Jan;2(1):12-13. doi: 10.1038/s43018-020-00152-x",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 177,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1793358",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-04-05",
+        "dateOfCreation": "2022-02-05",
+        "dateOfRevision": "2024-01-11",
+        "electronicPublicationDate": "2020-12-07",
+        "firstPublicationDate": "2020-12-07",
+        "firstIndexDate": "2022-02-06",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "a385507c1967da7faea21954e206dc6fdd8e2b0dcd577acf6880a3def0fb4c72",
+          "characters": 1245
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "3c83564f854a0ced5d792b65ef2cfe7e1e77a250ddc3ba6ded2b7d83c8d345bf",
+    "sourceBytes": 14061,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

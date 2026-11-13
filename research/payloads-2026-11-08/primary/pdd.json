@@ -1,0 +1,300 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1039/d4md01040j",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40352674",
+        "source": "MED",
+        "pmid": "40352674",
+        "pmcid": "PMC12059774",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12059774"
+          ]
+        },
+        "doi": "10.1039/d4md01040j",
+        "title": "A novel DNA sequence-selective, guanine mono-alkylating ADC payload suitable for solid tumour treatment.",
+        "authorString": "Andriollo P, di Mascio D, Jackson PJM, Hasan MM, Pysz-Hosey I, Procopiou G, Fox KR, Rahman KM, Thurston DE.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Andriollo P",
+              "lastName": "Andriollo",
+              "firstName": "Paolo",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-3754-6877"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "di Mascio D",
+              "lastName": "di Mascio",
+              "firstName": "Daniella",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Biological Sciences, University of Southampton SO17 1BJ UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jackson PJM",
+              "lastName": "Jackson",
+              "firstName": "Paul J M",
+              "initials": "PJM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hasan MM",
+              "lastName": "Hasan",
+              "firstName": "Md Mahbub",
+              "initials": "MM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5769-5224"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891."
+                  },
+                  {
+                    "affiliation": "Department of Genetic Engineering and Biotechnology, Faculty of Biological Sciences, University of Chittagong Chattogram Bangladesh."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pysz-Hosey I",
+              "lastName": "Pysz-Hosey",
+              "firstName": "Ilona",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Procopiou G",
+              "lastName": "Procopiou",
+              "firstName": "George",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9429-0050"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fox KR",
+              "lastName": "Fox",
+              "firstName": "Keith R",
+              "initials": "KR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2925-7315"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Biological Sciences, University of Southampton SO17 1BJ UK."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rahman KM",
+              "lastName": "Rahman",
+              "firstName": "Khondaker Miraz",
+              "initials": "KM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8566-8648"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thurston DE",
+              "lastName": "Thurston",
+              "firstName": "David E",
+              "initials": "DE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8032-7203"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8032-7203"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8566-8648"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9429-0050"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2925-7315"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5769-5224"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-3754-6877"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "16",
+          "journalIssueId": 3978886,
+          "dateOfPublication": "2025 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "RSC Med Chem",
+            "title": "RSC medicinal chemistry",
+            "essn": "2632-8682",
+            "issn": "2632-8682",
+            "isoabbreviation": "RSC Med Chem",
+            "nlmid": "101759460"
+          },
+          "printPublicationDate": "2025-07-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "3058-3076",
+        "affiliation": "School of Cancer & Pharmaceutical Sciences, King's College London WC2R 2LS UK k.miraz.rahman@kcl.ac.uk +44 (0)20 7848 1891.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/d4md01040j"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12059774"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12059774?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 2,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2025-05-12",
+        "dateOfRevision": "2025-07-17",
+        "electronicPublicationDate": "2025-03-11",
+        "firstPublicationDate": "2025-03-11",
+        "firstIndexDate": "2025-05-13",
+        "fullTextReceivedDate": "2025-07-18",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "937f572e8004586246823f772181ab604c587ee80fb9f79dc53643847d6f6105",
+          "characters": 1314
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "383d2bf9ed6311287a216b9ce8ef3f97d008d123b0744fcf729dfea9ac882d89",
+    "sourceBytes": 6930,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

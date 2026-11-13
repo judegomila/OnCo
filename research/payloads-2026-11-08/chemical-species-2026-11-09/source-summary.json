@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-11-09",
+  "requests": 73,
+  "HTTP200": 66,
+  "failedRequests": 7,
+  "MEDIdentities": 41,
+  "MEDCompleteAbstractsRead": 29,
+  "MEDMetadataOnly": 12,
+  "literatureOccurrences": 46,
+  "literatureUnreviewed": 0,
+  "elicitResults": 12,
+  "observations": 46,
+  "labelScopes": 10,
+  "note": "Counts describe this bounded chemical-species follow-up and do not close the wider educational or literature audit."
+}

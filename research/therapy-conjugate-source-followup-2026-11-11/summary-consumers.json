@@ -1,0 +1,175 @@
+{
+  "actualSelectorEntries": 27,
+  "available": 2,
+  "EnglishFallbacks": 25,
+  "longSummaryCache": {
+    "accepted": 0,
+    "rejectedStale": 0,
+    "absent": 24
+  },
+  "changes": [
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "simple",
+      "file": "src/data/simple/part-a.ts",
+      "before": "An antibody-drug whose cargo wakes up the immune system inside the tumour instead of poisoning the cell.",
+      "after": "The antibody carries a drug intended to stimulate immune sensing. Delivery, immune activation and useful tumour control each need evidence.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "simple",
+      "file": "src/data/simple/part-j.ts",
+      "before": "Topoisomerase-I inhibitor payloads are the poisons behind Enhertu, Trodelvy and Dato-DXd, trapping the enzyme that untwists DNA so dividing cancer cells break their own DNA.",
+      "after": "These drug cargoes can trap an enzyme on DNA during a temporary cut. The chemical, exposure and cell response determine what happens next.",
+      "disposition": "Corrected simplified English from the adopted source-backed definition; no new language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "حمولات مثبطات التوبوإيزوميراز I هي فئة الحمولة التي تقف خلف Enhertu وTrodelvy وDato-DXd: سموم تحاصر الإنزيم الذي يفك التواء الحمض النووي DNA، فتكسر الخلايا المنقسمة حمضها النووي بنفسها.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "ar",
+      "file": "src/data/i18n/ar.ts",
+      "before": "المترافق المضاد المحفِّز للمناعة (ISAC) هو ADC تعمل حمولته على إيقاظ الجهاز المناعي داخل الورم بدلًا من تسميم الخلية.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Topoisomerase-I-Inhibitor-Payloads sind die Wirkstoffklasse hinter Enhertu, Trodelvy und Dato-DXd: Gifte, die das Enzym, das die DNA entwindet, in seiner Position festhalten, sodass sich teilende Zellen ihre eigene DNA zerbrechen.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "de",
+      "file": "src/data/i18n/de.ts",
+      "before": "Ein immunstimulierendes Antikörperkonjugat (ISAC) ist ein ADC, dessen Wirkstoffanteil das Immunsystem im Tumor aktiviert, statt die Zelle zu vergiften.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Las cargas útiles inhibidoras de la topoisomerasa I son la clase de carga útil detrás de Enhertu, Trodelvy y Dato-DXd: venenos que atrapan la enzima que desenrolla el ADN, de modo que las células en división rompen su propio ADN.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "es",
+      "file": "src/data/i18n/es.ts",
+      "before": "Un ADC cuya carga despierta al sistema inmunitario dentro del tumor en vez de envenenar la célula.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Les charges inhibitrices de la topoisomérase I sont la classe de charge utile derrière Enhertu, Trodelvy et Dato-DXd : des poisons qui piègent l'enzyme qui déroule l'ADN, de sorte que les cellules en division cassent leur propre ADN.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "fr",
+      "file": "src/data/i18n/fr.ts",
+      "before": "Un conjugué anticorps-immunostimulant (ISAC) est un ADC dont la charge utile réveille le système immunitaire à l'intérieur de la tumeur au lieu d'empoisonner la cellule.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "टोपोआइसोमरेज़-I अवरोधक पेलोड वही पेलोड वर्ग हैं जो Enhertu, Trodelvy और Dato-DXd के पीछे है: ये ऐसे विष हैं जो DNA को खोलने वाले एंज़ाइम को फँसा लेते हैं, जिससे विभाजित हो रही कोशिकाएँ अपना ही DNA तोड़ देती हैं।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "hi",
+      "file": "src/data/i18n/hi.ts",
+      "before": "एक ADC जिसका पेलोड कोशिका को ज़हर देने के बजाय ट्यूमर के भीतर प्रतिरक्षा तंत्र को जगाता है।",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "トポイソメラーゼI阻害薬ペイロードは、Enhertu、Trodelvy、Dato-DXdを支えるペイロードの一群である。DNAのねじれをほどく酵素を捕まえて動けなくする毒であり、分裂中の細胞が自らのDNAを切断してしまう。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "ja",
+      "file": "src/data/i18n/ja.ts",
+      "before": "免疫刺激性抗体複合体（ISAC）は、ペイロードが細胞を毒殺するのではなく、腫瘍内部で免疫系を目覚めさせるタイプのADCである。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "As cargas inibidoras de topoisomerase I são a classe de carga por trás de Enhertu, Trodelvy e Dato-DXd: venenos que aprisionam a enzima que desenrola o DNA, fazendo com que as células em divisão quebrem o próprio DNA.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "pt",
+      "file": "src/data/i18n/pt.ts",
+      "before": "Um ADC cuja carga desperta o sistema imune dentro do tumor em vez de envenenar a célula.",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "topoisomerase-i-payloads",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "拓扑异构酶I抑制剂载荷是Enhertu、Trodelvy和Dato-DXd背后的载荷类别：这类毒素会困住负责解开DNA螺旋的酶，使正在分裂的细胞把自己的DNA弄断。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    },
+    {
+      "group": "chem",
+      "id": "immune-stimulating-adc",
+      "language": "zh",
+      "file": "src/data/i18n/zh.ts",
+      "before": "其载荷在肿瘤内唤醒免疫系统而非毒杀细胞的ADC。",
+      "after": null,
+      "disposition": "Removed stale short translation that retained corrected mechanism, inevitability, product-identity or safety framing. Actual table uses corrected English fallback; no replacement translation or named language review."
+    }
+  ],
+  "newNamedLanguageReviews": 0
+}

@@ -1,0 +1,10 @@
+{
+  "queries": [
+    {
+      "id": "gq11-trial",
+      "params": {
+        "filter.ids": "NCT05415072"
+      }
+    }
+  ]
+}

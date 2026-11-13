@@ -1,0 +1,67 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "complete": true,
+  "queries": [
+    {
+      "id": "semantic-exemplar-identifiers",
+      "params": {
+        "filter.ids": "NCT05514717,NCT07529782,NCT04879043,NCT05511844,NCT05954143,NCT03595059,NCT04460456,NCT05070247,NCT05091528,NCT06934889,NCT04278144,NCT06419634"
+      },
+      "complete": true,
+      "pages": 1,
+      "retrievedCount": 12,
+      "totalCount": 12
+    },
+    {
+      "id": "dual-ddr",
+      "params": {
+        "query.intr": "CLIO-8221 OR CBB-120 OR LY5775377 OR KH815"
+      },
+      "complete": true,
+      "pages": 1,
+      "retrievedCount": 2,
+      "totalCount": 2
+    },
+    {
+      "id": "novel-payload-programs",
+      "params": {
+        "query.intr": "HDP-101 OR ABBV-155 OR ORM-5029 OR ORM-6151 OR XMT-2056 OR TAK-500 OR BDC-1001 OR SBT6050"
+      },
+      "complete": true,
+      "pages": 1,
+      "retrievedCount": 12,
+      "totalCount": 12
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "semantic-exemplar-identifiers/page-0001.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT05514717%2CNCT07529782%2CNCT04879043%2CNCT05511844%2CNCT05954143%2CNCT03595059%2CNCT04460456%2CNCT05070247%2CNCT05091528%2CNCT06934889%2CNCT04278144%2CNCT06419634&format=json&pageSize=100&countTotal=true",
+      "retrievedAt": "2026-11-08T18:08:42.566912+00:00",
+      "bytes": 590554,
+      "sha256": "d52752458665b59d3545a4282fec92241a0d499c073f2da8cc2d28c8c34dd50a"
+    },
+    {
+      "path": "dual-ddr/page-0001.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=CLIO-8221+OR+CBB-120+OR+LY5775377+OR+KH815&format=json&pageSize=100&countTotal=true",
+      "retrievedAt": "2026-11-08T18:08:42.759068+00:00",
+      "bytes": 23060,
+      "sha256": "f2d37d7d38f9111d3ff57ce82562721db88f70394a8855f251c49fe1f6ee71ff"
+    },
+    {
+      "path": "novel-payload-programs/page-0001.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.intr=HDP-101+OR+ABBV-155+OR+ORM-5029+OR+ORM-6151+OR+XMT-2056+OR+TAK-500+OR+BDC-1001+OR+SBT6050&format=json&pageSize=100&countTotal=true",
+      "retrievedAt": "2026-11-08T18:08:43.255603+00:00",
+      "bytes": 590554,
+      "sha256": "d52752458665b59d3545a4282fec92241a0d499c073f2da8cc2d28c8c34dd50a"
+    }
+  ],
+  "uniqueRecords": 14,
+  "statuses": {
+    "COMPLETED": 1,
+    "TERMINATED": 7,
+    "UNKNOWN": 1,
+    "RECRUITING": 4,
+    "NOT_YET_RECRUITING": 1
+  }
+}

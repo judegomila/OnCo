@@ -1,0 +1,867 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2026-08-03T05:32:02Z",
+      "timestamp": 1785735122819,
+      "version": "3.56.0"
+    },
+    "reference-count": 0,
+    "publisher": "American Society of Hematology",
+    "issue": "Supplement 1",
+    "content-domain": {
+      "domain": [
+        "ashpublications.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1182/blood-2024-210048",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          5
+        ]
+      ],
+      "date-time": "2024-12-05T23:54:54Z",
+      "timestamp": 1733442894000
+    },
+    "page": "1381-1381",
+    "update-policy": "https://doi.org/10.1182/blood.2019cm0000",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "S227928: A Novel Anti-CD74 ADC with MCL-1 Inhibitor Payload for the Treatment of Acute Myeloid Leukemia (AML) and Other Hematologic Malignancies"
+    ],
+    "prefix": "10.1182",
+    "volume": "144",
+    "author": [
+      {
+        "given": "Ana-Leticia",
+        "family": "Maragno",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "1Oncology Research and Development Unit, Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katherine",
+        "family": "Seiss",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Novartis Institutes For Biomedical Research, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rick",
+        "family": "Newcombe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "3ONC, Biological chemistry, Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Prakash",
+        "family": "Mistry",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "4ONC, Pharmacology, Novartis, Basel, Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian R",
+        "family": "Schnell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "4ONC, Pharmacology, Novartis, Basel, Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fabian",
+        "family": "Von Arx",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "4ONC, Pharmacology, Novartis, Basel, Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Julie",
+        "family": "Koenig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "4ONC, Pharmacology, Novartis, Basel, Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anthony S",
+        "family": "Malamas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "5ONC, Pharmacology, Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gaetane",
+        "family": "Le Toumelin-Braizat",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "6Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laura",
+        "family": "Bresson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Oncology Research and Development Unit, Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Francesca",
+        "family": "Rocchetti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "6Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Didier",
+        "family": "Demarles",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "7Technologie Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Esther",
+        "family": "Kurth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "5ONC, Pharmacology, Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Lorena",
+        "family": "Renteria",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "5ONC, Pharmacology, Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dominik",
+        "family": "Hainzl",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "8PKS (Pharmacokinetic Sciences), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Engelhardt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "9PKS (Pharmacokinetic Sciences), Novartis, Basel, Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Caroline",
+        "family": "Liot",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "10Oncology Research and Development Unit, Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vincent",
+        "family": "Madelain",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "6Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vesela",
+        "family": "Kostova",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "6Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jérôme-Benoit",
+        "family": "Starck",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "6Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Damien",
+        "family": "Valour",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "6Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Georges-Alain",
+        "family": "Franzetti",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "6Institut de Recherches Servier, Gif-sur-Yvette, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frederic",
+        "family": "Colland",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "11Pierre Fabre Laboratories, Paris, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Helena",
+        "family": "Vostiarova",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "9PKS (Pharmacokinetic Sciences), Novartis, Basel, Switzerland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William R",
+        "family": "Tschantz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Novartis Institutes For Biomedical Research, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nicholas",
+        "family": "Bachmann",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "12BRC (Biologics Research Center), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sebastian",
+        "family": "Palacio-Ramirez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "12BRC (Biologics Research Center), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthew T",
+        "family": "Burger",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jennifer M",
+        "family": "Campbell",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhuoliang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "14Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert",
+        "family": "Koenig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Eric",
+        "family": "McNeill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ruowei",
+        "family": "Mo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Katsumasa",
+        "family": "Nakajima",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark G",
+        "family": "Palermo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yiping",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bing",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark",
+        "family": "Zambrowski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "13GDC (Global Discovery Chemistry), Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frederic",
+        "family": "Zecri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "14Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alberto",
+        "family": "Broniscer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "15Bio-Innovation, Servier Pharmaceuticals, Boston, MA"
+          },
+          {
+            "name": "16Therapeutic Area Oncology, Servier, Arlington, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Olivier",
+        "family": "Geneste",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "17Institut de Recherches International Servier, Gif-sur-Yvette, FRA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kristin",
+        "family": "Horton",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "18Bio-Innovation, Servier, Boston, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joseph A",
+        "family": "D'Alessio",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "19ONC, Biotherapeutics, Novartis, Cambridge, MA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "234",
+    "container-title": [
+      "Blood"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://ashpublications.org/blood/article-pdf/144/Supplement%201/1381/2333050/blood-4128-main.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://ashpublications.org/blood/article-pdf/144/Supplement%201/1381/2333050/blood-4128-main.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          5
+        ]
+      ],
+      "date-time": "2024-12-05T23:54:54Z",
+      "timestamp": 1733442894000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ashpublications.org/blood/article/144/Supplement%201/1381/531321/S227928-A-Novel-Anti-CD74-ADC-with-MCL-1-Inhibitor"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "Supplement 1",
+      "published-print": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            5
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1182/blood-2024-210048",
+    "relation": {},
+    "ISSN": [
+      "0006-4971",
+      "1528-0020"
+    ],
+    "issn-type": [
+      {
+        "value": "0006-4971",
+        "type": "print"
+      },
+      {
+        "value": "1528-0020",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          5
+        ]
+      ]
+    },
+    "abstractRetention": {
+      "status": "exact body outside public checkout",
+      "sha256": "b76f64329aafbafe4c72c18276ca3f8b754ee6480b95cdda9444e6b7fe905134",
+      "characters": 4163
+    }
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "2c0dd1180f22897fb9a9f3af280f959292438e06c32eeb1db99df8c9d4099c59",
+    "sourceBytes": 15133,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

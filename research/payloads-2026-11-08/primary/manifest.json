@@ -1,0 +1,280 @@
+[
+  {
+    "path": "primary/amanitin.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22HDP-101%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:26.540847+00:00",
+    "sha256": "da29a6292a219880ff7c1d394a151e5494baf3d0472bc3278934ea04a229ed6c",
+    "sourceCaptureSha256": "c373f2cf5bf88f31a01a4532f80c37a23941e1e8b2d7f09e68bd662d91b14630",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/anthracycline-identity-note.json",
+    "sourceUrl": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC11740940/unicode",
+    "savedAt": "2026-11-08T18:20:37.081408+00:00",
+    "sha256": "a94ee1aa6c58e6e6ed5fecea89e2246135182258138186d1d929919d6f134f6c"
+  },
+  {
+    "path": "primary/anthracycline.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Targeting+uPAR%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:29.115035+00:00",
+    "sha256": "13f84bc2f7dd62994dcc1c795baccd8579b69953d9dfe43421f098aa09ed08b2",
+    "sourceCaptureSha256": "7f3b65d553fe3efbb3e81bf118f7df868c3325d5b7acf41d5e8f87e709bfa553",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/bclxl.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39365864+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:27.241485+00:00",
+    "sha256": "9d3d457cbcd18b93a8b03acc187b692a6cd8d364da2450c0bb20b2d9fc6bc4c9",
+    "sourceCaptureSha256": "0fbf24ea8b3810fae2c23eb41bf90968bfbb5a286cd75803ce3c2e0199c1d727",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/brd4.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33596073+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:27.244663+00:00",
+    "sha256": "853a5ee5984d63d0e41b04c58dc4c8e5f86dabbc8bccdc41c2545dcec99bf626",
+    "sourceCaptureSha256": "df1a14263773ca8588ef8cf7d24b710020c83077fb906d7614780b7c9fe90eb7",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/cdk.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1158%2F1078-0432.CCR-23-3110&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:27.232312+00:00",
+    "sha256": "ac8d8f75b93d53ce0ab60ad0120afeb2b0e0df8ecc41aab93d04736cf5b3ae60",
+    "sourceCaptureSha256": "bef4f0bd2feb67b2a2ecf30e1003933ff77258772f07f3839c804a0cda82a7c4",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/clio-abstract-crossref.json",
+    "sourceUrl": "https://api.crossref.org/works/10.1200%2Fjco.2026.44.16_suppl.tps3162",
+    "savedAt": "2026-11-08T18:10:39.583778+00:00",
+    "sha256": "189e1faf631b761b92492912e3585e8c38d3b167595f310290acc6241636a728",
+    "sourceCaptureSha256": "475975e02525ca4c7d00bde3d603eddc3bea8a64ff149e81db5752652d747a06",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/cryptophycin.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22cryptophycin%22+AND+TITLE%3A%22antibody%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:29.810724+00:00",
+    "sha256": "468d2bf30aa6ba7279ba802bc96b43c7664a3257280d49760ff42cbe2fa0f042",
+    "sourceCaptureSha256": "bdc17d624d91e3875c94bc906f075af731d006d1d35d77f62e030a115466ca2a",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/ddr.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22antibody%22+AND+%28TITLE%3A%22ATR+inhibitor%22+OR+TITLE%3A%22WEE1%22+OR+TITLE%3A%22CHK1%22%29+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:30.979039+00:00",
+    "sha256": "dcc269fcde133e3e245f040e0bad982b4e84fce6dee60e7ac16d3375bd5dcc02",
+    "sourceCaptureSha256": "a20aac15b1a8066e86015609620ef2337ae13b067c1ac613462c66f1f2b9971b",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/dual.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41467-021-23793-7&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:30.069865+00:00",
+    "sha256": "5d0be30cd4a854abaf3efbb0b0157d01cd9d97002553320bc2630375cfecf30c",
+    "sourceCaptureSha256": "b17b055e22c4beab072b6212a643cd1f739c5d97657393df636af3b8576a9a08",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/eribulin.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22MORAb-202%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:29.065843+00:00",
+    "sha256": "a3459f19d8b28ca360ab9720e953718b3712cd534590a91554d9520679c666fd",
+    "sourceCaptureSha256": "8e3328bbf9aa57103043664def079a225169ef126b869561a4001e03e9986ab1",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/ferroptosis-fgfr4.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Development+of+the+FGFR4-ADC%22&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:21:58.226395+00:00",
+    "sha256": "ae1de717734eea3de71fd83da38b36fc6828f23bf67d06271ca2b58046ee6afd",
+    "sourceCaptureSha256": "58a4c58f4d576153d8b85760a69ca00750425f4e6b582a09f5fdae5c4a854ec2",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/ferroptosis.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Therapeutic+Induction+of+Ferroptosis%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:28.087466+00:00",
+    "sha256": "7ab60626f26930979979cef4f46762dba38210739a05c27da92df6122c3ecb47",
+    "sourceCaptureSha256": "060dfbc5dba4e0cd7779b5d28d8d44000ddf028a66e6b03d69b42b8f571c1080",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/gq11.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41591-026-04518-z&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:58.153959+00:00",
+    "sha256": "ea8298aaa22c9d324f081ec3de254f27feeca4ca28d9ee7eea2d83c00f4abcb7",
+    "sourceCaptureSha256": "8f9ba2795aaf5f4a035c7dc51b0e9ccc2543775ffa74ab0681ddaf9dbd9fbbdd",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/gspt1-abstract-crossref.json",
+    "sourceUrl": "https://api.crossref.org/works/10.1158%2F1538-7445.am2022-3933",
+    "savedAt": "2026-11-08T18:10:19.094620+00:00",
+    "sha256": "7cc8e8e957ad1aa2a244d024f22b946629e7ccf5c78de767e68b77a5a37dea45",
+    "sourceCaptureSha256": "e9ab47eea4579c02bb2e1f41b073e22b146e871e7c942459c022e900f9255a26",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/hdac.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1039%2Fc7sc05266a&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:27.278749+00:00",
+    "sha256": "24cd57615b99c53a7cf003bb4a7357dde3c083be12cc645f727f4f924e4b4b03",
+    "sourceCaptureSha256": "9cddf17fb2c71cdd572c0c5af0c95f76475fd49d6a81d9c17004d36269cb8b7c",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/hemiasterlin-select.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22STRO-002%22+AND+FIRST_PDATE%3A%5B2020-01-01+TO+2023-12-31%5D&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:58.533319+00:00",
+    "sha256": "a802d2f3d24ac3598a1fd7643fac7ae0d6f67df501e7d00a02fb81092edb7c48",
+    "sourceCaptureSha256": "0fe49dd87f6dd59235c5fbf968e632eb73c361eed3217af3597dc219df9e1697",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/ign.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22indolinobenzodiazepine%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:30.146143+00:00",
+    "sha256": "b8e1477cd901fb05dcdfbb95a57801a2ac96a385720e904215175d05e05f9927",
+    "sourceCaptureSha256": "c00224ec6457b53c56d8559aaa6dc2c8d09c7714f2e1244bc20aa76773e81ff1",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/kif11-abstract-crossref.json",
+    "sourceUrl": "https://api.crossref.org/works/10.1200%2Fjco.2025.43.16_suppl.3092",
+    "savedAt": "2026-11-08T18:10:39.320672+00:00",
+    "sha256": "1ab6c7a2cbf393138fae16a33ff4064bd97d4d153173aadf016a7d7fa79f5ce0",
+    "sourceCaptureSha256": "694ed6c7c3a4404bfb62ad0a1346f8e82566ce9f0ba38d12c04199ea90bc9e6e",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/ksp-primary.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30180286+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:39.546289+00:00",
+    "sha256": "b6777b379a78021b378b9db077d88d1cbbe05fc84956155b95f1d73ceb724711",
+    "sourceCaptureSha256": "d46f8385ac408e686bd0f5fc59f4a96dcc3279d606e2378cea4e9dd1d146d79d",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/mcl1-crossref.json",
+    "sourceUrl": "https://api.crossref.org/works/10.1182%2Fblood-2024-210048",
+    "savedAt": "2026-11-08T18:22:08.283606+00:00",
+    "sha256": "d0cd3cc9a4ca1c02204213b9df7d8f82963fffe447a9ed3401b20e7c237fcad8",
+    "sourceCaptureSha256": "2c0dd1180f22897fb9a9f3af280f959292438e06c32eeb1db99df8c9d4099c59",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/nampt-2026.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42631027+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:38.893535+00:00",
+    "sha256": "653589a64d5e32a34b84f6da92a211aadbef14e4c00713c3aba0bffc4e86b86d",
+    "sourceCaptureSha256": "d597a85cbaab33489b95155826f632f0a46f2c8814313e4d03fe696b8d99787f",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/nampt.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30128077+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:26.538263+00:00",
+    "sha256": "703becf7cd67e7a615d2810d3a87ebdeaac2ee8c97128f3ce23de7f35558a5e1",
+    "sourceCaptureSha256": "3d50d539dd008c3d1cb9a137937a8fff518450cf78cca6dac63137072ea5d1a4",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/pa289-crossref.json",
+    "sourceUrl": "https://api.crossref.org/works/10.1158%2F1538-7445.am2025-1579",
+    "savedAt": "2026-11-08T18:10:18.847075+00:00",
+    "sha256": "791de2d2d24324721180c01eefd25b892ccbcb51a03260ada3642904889ae2be",
+    "sourceCaptureSha256": "3563cbd69472a91ee28b4cee1c8872b000e9c3e0b14f096afec751b2ee8c6c4a",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/pdd.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1039%2Fd4md01040j&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:57.850066+00:00",
+    "sha256": "074ca861fd7ee5514246f1915fc249fb087923feb2a98d55033f72ae9a27fd88",
+    "sourceCaptureSha256": "383d2bf9ed6311287a216b9ce8ef3f97d008d123b0744fcf729dfea9ac882d89",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/pi3k-abstract-crossref.json",
+    "sourceUrl": "https://api.crossref.org/works/10.1158%2F1538-7445.am2026-4549",
+    "savedAt": "2026-11-08T18:10:39.309391+00:00",
+    "sha256": "f2bc58d4b2006a001d1e364b611d0eaf837de86db537c84dfc1d4bccaec8a68b",
+    "sourceCaptureSha256": "6ec8e4ee681b8f8fe00fb5a05d445e879db8ee37b68f6cf9fd9a4ed0129c703b",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/proteasome-failure.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1124%2Fdmd.119.086595&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:38.945541+00:00",
+    "sha256": "5bc7d0ee5f51b62c91f18fafc51dba93b22849de7ae5b3e9940d992bfb47a000",
+    "sourceCaptureSha256": "3d283caa0c583ac7764a3ccbdf4cc0f6b05f7257fd2c8889be2153c72a80a1fd",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/protein-toxin.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.3390%2Fmolecules21121741&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:57.854513+00:00",
+    "sha256": "ee7d27bc4de9491ff77901fb187d8584b4225a9e99d40a5d3cd861a6cfc4cdc7",
+    "sourceCaptureSha256": "a6e77d04bab7d337a8bc53788fd0debf73802abd0f9561981e6055e5d9df43ee",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/splicing-site.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1371%2Fjournal.pone.0178452&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:17:41.302569+00:00",
+    "sha256": "d0c219dc9fc488f05d721caeac05e2de1941ec412ceee3146842a3adb8908699",
+    "sourceCaptureSha256": "38e92f6ea3d308608f4da1f3d9eab106b6b96d14e6d3484a2a26218baa17dc6a",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/splicing.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27412791+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:26.566386+00:00",
+    "sha256": "08a30f218626cc28ff3f2c2d0f6bc125b0da82bf181b3f84234e8d6ede3cce0b",
+    "sourceCaptureSha256": "5f78b74862e69b6e1dda229642756dc866dbbcd4f3408eb86833d509ff344d38",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/sting-platform.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1021%2Facs.jmedchem.3c00907&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:09:39.608760+00:00",
+    "sha256": "e86f68502c684cc625ae35838d9b4c9c51ee1a73215a673b365f1e8ec7f14d7e",
+    "sourceCaptureSha256": "c41586f9328b611bb640ca60cb387a88e692a5eb23ad61d55969fa60fde38115",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/sting.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22XMT-2056%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:28.052915+00:00",
+    "sha256": "835555e4ffa7a24bdaed35e6de59cc694ded9b88a1141becc5929908e9ab0d06",
+    "sourceCaptureSha256": "586017dc101dd54b87b520c65e579b7bfc0de69028e098c40ec9c73a3d286daf",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/tlr.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs43018-020-00136-x&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:27.917515+00:00",
+    "sha256": "267ae8ae7c78d00a4413c244068d4b98b7b257ddb8d8a48fa6ce2784929c67d5",
+    "sourceCaptureSha256": "3c83564f854a0ced5d792b65ef2cfe7e1e77a250ddc3ba6ded2b7d83c8d345bf",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/triptolide.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.3390%2Fcancers11081138&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:28.649651+00:00",
+    "sha256": "15df18aaa4a816df22f128468e800fd1bee6898e0cb5c22912f4da0489981c9f",
+    "sourceCaptureSha256": "e647119acbb93065d2a43ddac55dbabd638158e197154fb1749e5edad502c02a",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  },
+  {
+    "path": "primary/tubulysin.json",
+    "sourceUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22tubulysin%22+AND+TITLE%3A%22conjugate%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=8",
+    "savedAt": "2026-11-08T18:08:29.311758+00:00",
+    "sha256": "a1cea7ee89c198beb98a174949e2abb596d65041774cdadd116b98ee49899b40",
+    "sourceCaptureSha256": "09895b660cf533ade9deafe6238b47414430fb6e29e8b741a6e443ad15ba7587",
+    "representation": "Metadata only; exact original capture retained outside public checkout."
+  }
+]

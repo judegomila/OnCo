@@ -1,0 +1,53 @@
+[
+  {
+    "nctId": "NCT06563804",
+    "title": "A Study to Evaluate S227928 as a Single Agent and in Combination With Venetoclax in Patients With R/R AML, MDS/AML, or CMML",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2026-03-30",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 13,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2025-02-25",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2025-10-09",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Relapsed/Refractory (R/R) Acute Myeloid Leukemia (AML)",
+      "Myelodysplastic Syndrome (MDS)/AML",
+      "Chronic Myelomonocytic Leukemia (CMML)"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "S227928",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Venetoclax",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "mcl1-trial"
+    ],
+    "sourcePages": [
+      "mcl1-trial/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  }
+]

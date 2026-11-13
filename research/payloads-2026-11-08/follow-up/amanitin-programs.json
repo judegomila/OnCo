@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/trials",
+  "retrievedAt": "2026-11-09T05:52:03.724Z",
+  "request": {
+    "query": "Human oncology studies of amanitin RNA polymerase II antibody conjugates including HDP-101 pamlectabart tismanitin, with all trial statuses and unsuccessful programs",
+    "searchMode": "semantic",
+    "maxResults": 10
+  },
+  "response": {
+    "trials": [
+      {
+        "nctId": "NCT04879043",
+        "title": "Study to Assess Safety of HDP-101 in Patients With Relapsed Refractory Multiple Myeloma",
+        "url": "https://clinicaltrials.gov/study/NCT04879043",
+        "overallStatus": "RECRUITING",
+        "phase": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 78,
+        "conditions": [
+          "Multiple Myeloma",
+          "Plasma Cell Disorder"
+        ],
+        "interventions": [
+          "HDP-101"
+        ],
+        "leadSponsor": "Heidelberg Pharma AG",
+        "startDate": "2022-02-07",
+        "primaryCompletionDate": "2028-03",
+        "completionDate": "2028-09",
+        "hasResults": false,
+        "lastUpdatedYear": 2026,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "b361c52f2d125cc19a5c323fc12f399d6ccf7b76babcca0d9a8c31f2eb2b8c4e",
+          "characters": 1380
+        }
+      },
+      {
+        "nctId": "NCT07529782",
+        "title": "Study to Assess Safety and Efficacy of HDP-101 in Chinese Patients With Relapsed or Refractory Multiple Myeloma",
+        "url": "https://clinicaltrials.gov/study/NCT07529782",
+        "overallStatus": "RECRUITING",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 15,
+        "conditions": [
+          "Multiple Myeloma and Other Plasma Cell Neoplasms"
+        ],
+        "interventions": [
+          "HDP-101"
+        ],
+        "leadSponsor": "Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",
+        "startDate": "2026-03-17",
+        "primaryCompletionDate": "2026-06-30",
+        "completionDate": "2026-12-31",
+        "hasResults": false,
+        "lastUpdatedYear": 2026,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "b3751ca62d3c38754aabe5064aa499403d1b802c2622669624b6442f5df4d030",
+          "characters": 1442
+        }
+      },
+      {
+        "nctId": "NCT00915681",
+        "title": "Intravenous Milk Thistle (Silibinin-Legalon) for Hepatic Failure Induced by Amatoxin/Amanita Mushroom Poisoning",
+        "url": "https://clinicaltrials.gov/study/NCT00915681",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 148,
+        "conditions": [
+          "Amatoxin Poisoning",
+          "Amanita Poisoning",
+          "Mushroom Poisoning",
+          "Liver Failure"
+        ],
+        "interventions": [
+          "Silibinin"
+        ],
+        "leadSponsor": "Mylan Specialty, LP",
+        "startDate": "2009-11-10",
+        "primaryCompletionDate": "2020-04-10",
+        "completionDate": "2020-04-10",
+        "hasResults": true,
+        "lastUpdatedYear": 2022,
+        "summaryRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "4897eace0a2d017488e5c4c351ae0eb4f469839f634a27b92f2a58f530dec99a",
+          "characters": 697
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "5d01d5e571d1c5ef5bf4d48ef9a845c63e8dd249208fd766de41c5eec45d5613",
+    "rawBytes": 6655,
+    "excludedFields": [
+      "response.trials[].summary"
+    ],
+    "rawLocation": "Exact original response retained outside public checkout; bodies excluded in full, not edited quotations."
+  }
+}

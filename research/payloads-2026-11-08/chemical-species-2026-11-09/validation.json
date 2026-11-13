@@ -1,0 +1,74 @@
+{
+  "checkedOn": "2026-11-09",
+  "verificationCapturedBeforeCommit": true,
+  "baseHead": "b5a3c341deb1f5cce51dcb3791b239898eea3647",
+  "canonicalOwners": 65,
+  "newOwners": 34,
+  "supplementedExistingOwners": 31,
+  "batchNewOwners": 2,
+  "batchExistingOwnersUpdated": 25,
+  "graphEntities": 22717,
+  "checks": {
+    "validate": "pass, 22717 entities",
+    "typecheck": "pass, including the final structural observation type",
+    "lint": "pass, 0 errors and 7 pre-existing warnings",
+    "fullVitest": {
+      "filesPassed": 281,
+      "testsPassed": 2813,
+      "testsSkipped": 2,
+      "durationSeconds": 87.51,
+      "note": "The final runtime observation data passed; nine later linker summaries passed focused Ask, corpus and tone checks, matched renders and actual export generation."
+    },
+    "pairedStaticRenders": {
+      "pagesPerState": 66,
+      "canonicalOwners": 65,
+      "allObservationStatementsMethodsContextsLimitsAndSources": 46,
+      "nestedAnchors": 0
+    },
+    "readerSummaryEntries": {
+      "updatedPresent": 209,
+      "explicitMissingFallbacks": 25,
+      "actualLazyLoadedTables": "pass",
+      "selectedTextSSR": "pass",
+      "namedLanguageReviewEntries": 0,
+      "storedLongSummaryCaches": 0
+    },
+    "actualApiAndMarkdownGeneration": {
+      "owners": 65,
+      "observations": 46,
+      "portableEndpointRequiredFields": "present",
+      "combinedDataProductTypecheck": "pass",
+      "temporarySourceOverlayRestoredByHash": true
+    },
+    "dedupe": {
+      "groups": 9,
+      "newGroups": 0,
+      "paperDoiGroups": 0,
+      "paperPubmedGroups": 0,
+      "trialRegistryGroups": 2,
+      "nearNameGroups": 7
+    },
+    "specificLinkerTldrFollowup": {
+      "changed": 9,
+      "focusedFilesPassed": 3,
+      "focusedTestsPassed": 55,
+      "durationSeconds": 36.41,
+      "source": "Specific sourced summaries replace generic linker text; citations/observations unchanged."
+    }
+  },
+  "release": {
+    "dataDraft": 369,
+    "productConsumerDependency": 376,
+    "merged": false,
+    "deployed": false,
+    "ownerProductApproval": "pending",
+    "productionBuildForThisFollowup": "not rerun",
+    "browserHydrationOrResponsiveReviewForThisFollowup": "not claimed"
+  },
+  "limits": [
+    "Baseline schema on data draft alone does not retain chemicalObservations in parsed canonical records. The companion product schema and readers are required.",
+    "Broader ambiguous-prose component inference remains a separate open audit item.",
+    "This does not close unread curriculum, assets or prior literature."
+  ],
+  "unchangedGatePolicy": "No floor, budget, ranking, expected entity or product approval rule was changed."
+}

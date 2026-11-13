@@ -1,0 +1,454 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.3390/molecules21121741",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "27999336",
+        "source": "MED",
+        "pmid": "27999336",
+        "pmcid": "PMC6273041",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6273041"
+          ]
+        },
+        "doi": "10.3390/molecules21121741",
+        "title": "DeBouganin Diabody Fusion Protein Overcomes Drug Resistance to ADCs Comprised of Anti-Microtubule Agents.",
+        "authorString": "Chooniedass S, Dillon RL, Premsukh A, Hudson PJ, Adams GP, MacDonald GC, Cizeau J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chooniedass S",
+              "lastName": "Chooniedass",
+              "firstName": "Shilpa",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Viventia Bio Inc., Winnipeg, MB R3T 3Z1, Canada. SChooniedass@viventia.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dillon RL",
+              "lastName": "Dillon",
+              "firstName": "Rachelle L",
+              "initials": "RL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Viventia Bio Inc., Winnipeg, MB R3T 3Z1, Canada. RDillon@viventia.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Premsukh A",
+              "lastName": "Premsukh",
+              "firstName": "Arjune",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Viventia Bio Inc., Winnipeg, MB R3T 3Z1, Canada. APremsukh@Viventia.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hudson PJ",
+              "lastName": "Hudson",
+              "firstName": "Peter J",
+              "initials": "PJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Avipep Pty Ltd., Parkville 3052, Victoria, Australia. Peter.Hudson@avipep.com.au."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adams GP",
+              "lastName": "Adams",
+              "firstName": "Gregory P",
+              "initials": "GP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4207-2881"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eleven Biotherapeutics, Philadelphia, PA 19104, USA. GAdams@viventia.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "MacDonald GC",
+              "lastName": "MacDonald",
+              "firstName": "Glen C",
+              "initials": "GC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eleven Biotherapeutics, Winnipeg, MB R3E 0W3, Canada. glen.macdonald@eleven.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cizeau J",
+              "lastName": "Cizeau",
+              "firstName": "Jeannick",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Viventia Bio Inc., Winnipeg, MB R3T 3Z1, Canada. JCizeau@viventia.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4207-2881"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "21",
+          "journalIssueId": 2500252,
+          "dateOfPublication": "2016 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Molecules",
+            "title": "Molecules (Basel, Switzerland)",
+            "essn": "1420-3049",
+            "issn": "1420-3049",
+            "nlmid": "100964009",
+            "isoabbreviation": "Molecules"
+          },
+          "printPublicationDate": "2016-12-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "E1741",
+        "affiliation": "Viventia Bio Inc., Winnipeg, MB R3T 3Z1, Canada. SChooniedass@viventia.com.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microtubules",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Escherichia coli"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Breast Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Intracellular Signaling Peptides and Proteins"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Carrier Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Recombinant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chromatography, High Pressure Liquid"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Resistance, Neoplasm",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "MCF-7 Cells"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trastuzumab"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Immunotoxin",
+            "Ribosome inactivating protein",
+            "Her2",
+            "C6.5 Diabody",
+            "Debouganin"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Carrier Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Recombinant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Intracellular Signaling Peptides and Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ribosome-binding protein p34, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "trastuzumab",
+              "registryNumber": "P188ANX8CK"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/molecules21121741"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6273041"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6273041?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-06-20",
+        "dateOfCreation": "2016-12-22",
+        "dateOfRevision": "2020-02-25",
+        "electronicPublicationDate": "2016-12-17",
+        "firstPublicationDate": "2016-12-17",
+        "firstIndexDate": "2016-12-22",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "5e7698053962cf25615ad1a9e7c9bc9cf85645c8835727a9c06f366f36e2d683",
+          "characters": 1417
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "a6e77d04bab7d337a8bc53788fd0debf73802abd0f9561981e6055e5d9df43ee",
+    "sourceBytes": 8492,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

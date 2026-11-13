@@ -1,0 +1,1170 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "TITLE:\"STRO-002\" AND FIRST_PDATE:[2020-01-01 TO 2023-12-31]",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "36149945",
+        "source": "MED",
+        "pmid": "36149945",
+        "pmcid": "PMC9701621",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9701621"
+          ]
+        },
+        "doi": "10.1182/bloodadvances.2022008503",
+        "title": "Targeting FOLR1 in high-risk CBF2AT3-GLIS2 pediatric AML with STRO-002 FOLR1-antibody-drug conjugate.",
+        "authorString": "Tang T, Le Q, Castro S, Pardo L, McKay CN, Perkins L, Smith J, Kirkey D, Abrahams C, Bedard K, Molina A, Brodersen LE, Loken MR, Tarlock K, Meshinchi S, Loeb KR.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Tang T",
+              "lastName": "Tang",
+              "firstName": "Thao",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-9456-1699"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Le Q",
+              "lastName": "Le",
+              "firstName": "Quy",
+              "initials": "Q",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Castro S",
+              "lastName": "Castro",
+              "firstName": "Sommer",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pardo L",
+              "lastName": "Pardo",
+              "firstName": "Laura",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  },
+                  {
+                    "affiliation": "Hematologics Inc, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "McKay CN",
+              "lastName": "McKay",
+              "firstName": "Cyd Nourigat",
+              "initials": "CN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Perkins L",
+              "lastName": "Perkins",
+              "firstName": "LaKeisha",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smith J",
+              "lastName": "Smith",
+              "firstName": "Jenny",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0402-2779"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kirkey D",
+              "lastName": "Kirkey",
+              "firstName": "Danielle",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5176-9416"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abrahams C",
+              "lastName": "Abrahams",
+              "firstName": "Cristina",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, CA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bedard K",
+              "lastName": "Bedard",
+              "firstName": "Kristin",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, CA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Molina A",
+              "lastName": "Molina",
+              "firstName": "Arturo",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, CA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Brodersen LE",
+              "lastName": "Brodersen",
+              "firstName": "Lisa Eidenshinck",
+              "initials": "LE",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6747-4695"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hematologics Inc, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Loken MR",
+              "lastName": "Loken",
+              "firstName": "Michael R",
+              "initials": "MR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Hematologics Inc, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tarlock K",
+              "lastName": "Tarlock",
+              "firstName": "Katherine",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  },
+                  {
+                    "affiliation": "Department of Pediatrics, University of Washington, Seattle, WA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meshinchi S",
+              "lastName": "Meshinchi",
+              "firstName": "Soheil",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6276-4423"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  },
+                  {
+                    "affiliation": "Department of Pediatrics, University of Washington, Seattle, WA."
+                  },
+                  {
+                    "affiliation": "Children's Oncology Group, Monrovia, CA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Loeb KR",
+              "lastName": "Loeb",
+              "firstName": "Keith R",
+              "initials": "KR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3305-0261"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA."
+                  },
+                  {
+                    "affiliation": "Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5176-9416"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3305-0261"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6276-4423"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6747-4695"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0402-2779"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-9456-1699"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "22",
+          "volume": "6",
+          "journalIssueId": 3455688,
+          "dateOfPublication": "2022 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Blood Adv",
+            "title": "Blood advances",
+            "essn": "2473-9537",
+            "issn": "2473-9529",
+            "nlmid": "101698425",
+            "isoabbreviation": "Blood Adv"
+          },
+          "printPublicationDate": "2022-11-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "5933-5937",
+        "affiliation": "Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "letter",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Agents"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Child"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Leukemia, Myeloid, Acute",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Folate Receptor 1"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Folate Receptor 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "FOLR1 protein, human",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1182/bloodadvances.2022008503"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9701621"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9701621?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "geo",
+            "dbgap",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2022-11-24",
+        "dateOfCreation": "2022-09-23",
+        "dateOfRevision": "2022-12-13",
+        "firstPublicationDate": "2022-11-01",
+        "firstIndexDate": "2022-09-26",
+        "fullTextReceivedDate": "2022-12-02",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "36459691",
+        "source": "MED",
+        "pmid": "36459691",
+        "pmcid": "PMC9890132",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9890132"
+          ]
+        },
+        "doi": "10.1158/1535-7163.mct-22-0322",
+        "title": "Discovery of STRO-002, a Novel Homogeneous ADC Targeting Folate Receptor Alpha, for the Treatment of Ovarian and Endometrial Cancers.",
+        "authorString": "Li X, Zhou S, Abrahams CL, Krimm S, Smith J, Bajjuri K, Stephenson HT, Henningsen R, Hanson J, Heibeck TH, Calarese D, Tran C, Yin G, Stafford RL, Yam AY, Kline T, De Almeida VI, Sato AK, Lupher M, Bedard K, Hallam TJ.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Li X",
+              "lastName": "Li",
+              "firstName": "Xiaofan",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4783-7372"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou S",
+              "lastName": "Zhou",
+              "firstName": "Sihong",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4951-0621"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abrahams CL",
+              "lastName": "Abrahams",
+              "firstName": "Cristina L",
+              "initials": "CL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4744-2343"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Seagen, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Krimm S",
+              "lastName": "Krimm",
+              "firstName": "Stellanie",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5633-0349"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Genentech, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smith J",
+              "lastName": "Smith",
+              "firstName": "Jennifer",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6885-5839"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bajjuri K",
+              "lastName": "Bajjuri",
+              "firstName": "Krishna",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5342-1381"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stephenson HT",
+              "lastName": "Stephenson",
+              "firstName": "Heather T",
+              "initials": "HT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9217-6369"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Gilead, Foster City, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Henningsen R",
+              "lastName": "Henningsen",
+              "firstName": "Robert",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7656-509X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hanson J",
+              "lastName": "Hanson",
+              "firstName": "Jeffrey",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4381-2589"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Heibeck TH",
+              "lastName": "Heibeck",
+              "firstName": "Tyler H",
+              "initials": "TH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9507-2896"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Calarese D",
+              "lastName": "Calarese",
+              "firstName": "Daniel",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6941-7803"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tran C",
+              "lastName": "Tran",
+              "firstName": "Cuong",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6425-3440"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yin G",
+              "lastName": "Yin",
+              "firstName": "Gang",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0818-9904"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stafford RL",
+              "lastName": "Stafford",
+              "firstName": "Ryan L",
+              "initials": "RL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3584-9966"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Twist Bioscience, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yam AY",
+              "lastName": "Yam",
+              "firstName": "Alice Y",
+              "initials": "AY",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5650-6973"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kline T",
+              "lastName": "Kline",
+              "firstName": "Toni",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5496-1366"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Engine Biosciences, San Carlos, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Almeida VI",
+              "lastName": "De Almeida",
+              "firstName": "Venita I",
+              "initials": "VI",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-7709-1041"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "3T Biosciences, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sato AK",
+              "lastName": "Sato",
+              "firstName": "Aaron K",
+              "initials": "AK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1922-9780"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Twist Bioscience, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lupher M",
+              "lastName": "Lupher",
+              "firstName": "Mark",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2118-7156"
+              }
+            },
+            {
+              "fullName": "Bedard K",
+              "lastName": "Bedard",
+              "firstName": "Kristin",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8067-7238"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hallam TJ",
+              "lastName": "Hallam",
+              "firstName": "Trevor J",
+              "initials": "TJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4621-3373"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Sutro Biopharma, South San Francisco, California."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5496-1366"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5633-0349"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5650-6973"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6885-5839"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7656-509X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-7709-1041"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8067-7238"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9217-6369"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2118-7156"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3584-9966"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4621-3373"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4783-7372"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4951-0621"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5342-1381"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6425-3440"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6941-7803"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9507-2896"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0818-9904"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1922-9780"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4381-2589"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4744-2343"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "22",
+          "journalIssueId": 3498080,
+          "dateOfPublication": "2023 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Mol Cancer Ther",
+            "title": "Molecular cancer therapeutics",
+            "essn": "1538-8514",
+            "issn": "1535-7163",
+            "nlmid": "101132535",
+            "isoabbreviation": "Mol Cancer Ther"
+          },
+          "printPublicationDate": "2023-02-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "155-167",
+        "affiliation": "Sutro Biopharma, South San Francisco, California.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "N/A",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Carcinoma, Non-Small-Cell Lung"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Lung Neoplasms"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Endometrial Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tubulin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Folate Receptor 1"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Tubulin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Folate Receptor 1",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/1535-7163.MCT-22-0322"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9890132"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9890132?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 63,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2023-02-02",
+        "dateOfCreation": "2022-12-02",
+        "dateOfRevision": "2023-03-03",
+        "firstPublicationDate": "2023-02-01",
+        "firstIndexDate": "2022-12-04",
+        "fullTextReceivedDate": "2023-02-06",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "f114387f9a4f0535b6c8f32eabb0e905f943484864629e6bad4f6d6f04865a4f",
+          "characters": 1836
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "0fe49dd87f6dd59235c5fbf968e632eb73c361eed3217af3597dc219df9e1697",
+    "sourceBytes": 20238,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

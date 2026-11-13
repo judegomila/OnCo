@@ -1,0 +1,288 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2026-09-01T20:49:36Z",
+      "timestamp": 1788295776542,
+      "version": "build-2803163510"
+    },
+    "reference-count": 0,
+    "publisher": "American Association for Cancer Research (AACR)",
+    "issue": "8_Supplement_1",
+    "content-domain": {
+      "domain": [
+        "aacrjournals.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "DOI": "10.1158/1538-7445.am2025-1579",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ],
+      "date-time": "2025-04-21T15:36:09Z",
+      "timestamp": 1745249769000
+    },
+    "page": "1579-1579",
+    "update-policy": "https://doi.org/10.1158/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": [
+      "Abstract 1579: PA289, a prodrug linker-payload with a novel mechanism of action for the development of antibody drug conjugates"
+    ],
+    "prefix": "10.1158",
+    "volume": "85",
+    "author": [
+      {
+        "given": "Justyna H.",
+        "family": "Mysliwy",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jutta",
+        "family": "Deckert",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adam",
+        "family": "Lodge",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jenny",
+        "family": "Thirlway",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "James",
+        "family": "Stephenson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Patrick",
+        "family": "Higgs",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "Williamson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert J.",
+        "family": "Lutz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Iksuda Therapeutics Ltd., Newcastle upon Tyne, United Kingdom."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1086",
+    "container-title": [
+      "Cancer Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/1579/758150/Abstract-1579-PA289-a-prodrug-linker-payload-with",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/1579/758150/Abstract-1579-PA289-a-prodrug-linker-payload-with",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          22
+        ]
+      ],
+      "date-time": "2025-04-22T07:30:35Z",
+      "timestamp": 1745307035000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/1579/758150/Abstract-1579-PA289-a-prodrug-linker-payload-with"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "8_Supplement_1",
+      "published-print": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            21
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1158/1538-7445.am2025-1579",
+    "relation": {},
+    "ISSN": [
+      "0008-5472",
+      "1538-7445"
+    ],
+    "issn-type": [
+      {
+        "value": "0008-5472",
+        "type": "print"
+      },
+      {
+        "value": "1538-7445",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          21
+        ]
+      ]
+    },
+    "abstractRetention": {
+      "status": "exact body outside public checkout",
+      "sha256": "eb935101ff6a6ed0cc08f0ba902f8bacb33ec753460edb0ef1502d82df52029a",
+      "characters": 3908
+    }
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "3563cbd69472a91ee28b4cee1c8872b000e9c3e0b14f096afec751b2ee8c6c4a",
+    "sourceBytes": 7806,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

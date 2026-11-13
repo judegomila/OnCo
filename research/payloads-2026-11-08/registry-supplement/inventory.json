@@ -1,0 +1,46 @@
+[
+  {
+    "nctId": "NCT05415072",
+    "title": "A Phase I/II Study of DYP688 in Patients With Metastatic Uveal Melanoma and Other GNAQ/11 Mutant Melanomas",
+    "status": "ACTIVE_NOT_RECRUITING",
+    "lastUpdate": {
+      "date": "2026-07-28",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 66,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2022-07-04",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2027-10-01",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Metastatic Uveal Melanoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "DYP688",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "gq11-trial"
+    ],
+    "sourcePages": [
+      "gq11-trial/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  }
+]

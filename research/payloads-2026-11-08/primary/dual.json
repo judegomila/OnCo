@@ -1,0 +1,606 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1038/s41467-021-23793-7",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "34112795",
+        "source": "MED",
+        "pmid": "34112795",
+        "pmcid": "PMC8192907",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8192907"
+          ]
+        },
+        "doi": "10.1038/s41467-021-23793-7",
+        "title": "Antibody-drug conjugates with dual payloads for combating breast tumor heterogeneity and drug resistance.",
+        "authorString": "Yamazaki CM, Yamaguchi A, Anami Y, Xiong W, Otani Y, Lee J, Ueno NT, Zhang N, An Z, Tsuchikama K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Yamazaki CM",
+              "lastName": "Yamazaki",
+              "firstName": "Chisato M",
+              "initials": "CM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0785-7352"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yamaguchi A",
+              "lastName": "Yamaguchi",
+              "firstName": "Aiko",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7631-3164"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anami Y",
+              "lastName": "Anami",
+              "firstName": "Yasuaki",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5136-7708"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xiong W",
+              "lastName": "Xiong",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Otani Y",
+              "lastName": "Otani",
+              "firstName": "Yoshihiro",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1615-5125"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Neurosurgery, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee J",
+              "lastName": "Lee",
+              "firstName": "Jangsoon",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Section of Translational Breast Cancer Research, Department of Breast Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ueno NT",
+              "lastName": "Ueno",
+              "firstName": "Naoto T",
+              "initials": "NT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0166-7275"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Section of Translational Breast Cancer Research, Department of Breast Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang N",
+              "lastName": "Zhang",
+              "firstName": "Ningyan",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4348-2180"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "An Z",
+              "lastName": "An",
+              "firstName": "Zhiqiang",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9309-2335"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tsuchikama K",
+              "lastName": "Tsuchikama",
+              "firstName": "Kyoji",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2359-0408"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA. Kyoji.Tsuchikama@uth.tmc.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5136-7708"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9309-2335"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0166-7275"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0785-7352"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1615-5125"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2359-0408"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4348-2180"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7631-3164"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "12",
+          "journalIssueId": 3179177,
+          "dateOfPublication": "2021 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Nat Commun",
+            "title": "Nature communications",
+            "essn": "2041-1723",
+            "issn": "2041-1723",
+            "isoabbreviation": "Nat Commun",
+            "nlmid": "101528555"
+          },
+          "printPublicationDate": "2021-06-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "3528",
+        "affiliation": "Texas Therapeutics Institute, The Brown Foundation Institute of Molecular Medicine, The University of Texas Health Science Center at Houston, Houston, TX, USA.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "United States Department of Defense | United States Army | Army Medical Command | Congressionally Directed Medical Research Programs",
+              "grantId": "W81XWH-18-1-0004",
+              "orderIn": 0
+            },
+            {
+              "agency": "University of Texas System",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P30 CA016672",
+              "orderIn": 0
+            },
+            {
+              "agency": "Welch Foundation",
+              "grantId": "AU-0042-20030616",
+              "orderIn": 0
+            },
+            {
+              "agency": "United States Department of Defense | United States Army | Army Medical Command | Congressionally Directed Medical Research Programs",
+              "grantId": "W81XWH-19-1-0598",
+              "orderIn": 0
+            },
+            {
+              "agency": "Cancer Prevention and Research Institute of Texas",
+              "grantId": "RP150551",
+              "orderIn": 0
+            },
+            {
+              "agency": "Cancer Prevention and Research Institute of Texas",
+              "grantId": "RP190561",
+              "orderIn": 0
+            },
+            {
+              "agency": "MEXT | Japan Society for the Promotion of Science",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Breast Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Inflammation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CO",
+                    "qualifierName": "complications"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oligopeptides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Combined Chemotherapy Protocols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TO",
+                    "qualifierName": "toxicity"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunohistochemistry"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trastuzumab",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erb-b2 Receptor Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oligopeptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "monomethylauristatin F",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ERBB2 protein, human",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "trastuzumab",
+              "registryNumber": "P188ANX8CK"
+            },
+            {
+              "name": "monomethyl auristatin E",
+              "registryNumber": "V7I58RC5EJ"
+            },
+            {
+              "name": "Erb-b2 Receptor Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41467-021-23793-7"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8192907"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8192907?pdf=render"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "PPR",
+              "id": "PPR255953",
+              "type": "Preprint in",
+              "note": "CrossRef Pre-print loader",
+              "orderIn": 10002
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 272,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refseq",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-06-29",
+        "dateOfCreation": "2021-06-11",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2021-06-10",
+        "firstPublicationDate": "2021-06-10",
+        "firstIndexDate": "2021-06-12",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "037acbf5c50fa56e2ff8774983db4c67f4502dd6bc8b4f313b990900632108b9",
+          "characters": 1143
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "b17b055e22c4beab072b6212a643cd1f739c5d97657393df636af3b8576a9a08",
+    "sourceBytes": 11647,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

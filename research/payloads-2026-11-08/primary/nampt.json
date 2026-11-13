@@ -1,0 +1,424 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:30128077 AND SRC:MED",
+    "internalQuery": "EXT_ID:30128077 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30128077",
+        "source": "MED",
+        "pmid": "30128077",
+        "pmcid": "PMC6088352",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6088352"
+          ]
+        },
+        "doi": "10.1021/acsmedchemlett.8b00254",
+        "title": "Nicotinamide Phosphoribosyltransferase Inhibitor as a Novel Payload for Antibody-Drug Conjugates.",
+        "authorString": "Karpov AS, Abrams T, Clark S, Raikar A, D'Alessio JA, Dillon MP, Gesner TG, Jones D, Lacaud M, Mallet W, Martyniuk P, Meredith E, Mohseni M, Nieto-Oberhuber CM, Palacios D, Perruccio F, Piizzi G, Zurini M, Bialucha CU.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Karpov AS",
+              "lastName": "Karpov",
+              "firstName": "Alexei S",
+              "initials": "AS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3067-4538"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Abrams T",
+              "lastName": "Abrams",
+              "firstName": "Tinya",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Clark S",
+              "lastName": "Clark",
+              "firstName": "Suzanna",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Raikar A",
+              "lastName": "Raikar",
+              "firstName": "Ankita",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "D'Alessio JA",
+              "lastName": "D'Alessio",
+              "firstName": "Joseph A",
+              "initials": "JA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dillon MP",
+              "lastName": "Dillon",
+              "firstName": "Michael P",
+              "initials": "MP",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gesner TG",
+              "lastName": "Gesner",
+              "firstName": "Thomas G",
+              "initials": "TG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jones D",
+              "lastName": "Jones",
+              "firstName": "Darryl",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lacaud M",
+              "lastName": "Lacaud",
+              "firstName": "Marion",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mallet W",
+              "lastName": "Mallet",
+              "firstName": "William",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 5300 Chiron Way, Emeryville, California 94608, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Martyniuk P",
+              "lastName": "Martyniuk",
+              "firstName": "Piotr",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meredith E",
+              "lastName": "Meredith",
+              "firstName": "Erik",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mohseni M",
+              "lastName": "Mohseni",
+              "firstName": "Morvarid",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0964-924X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nieto-Oberhuber CM",
+              "lastName": "Nieto-Oberhuber",
+              "firstName": "Cristina M",
+              "initials": "CM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Palacios D",
+              "lastName": "Palacios",
+              "firstName": "Daniel",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5229-0631"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Perruccio F",
+              "lastName": "Perruccio",
+              "firstName": "Francesca",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Piizzi G",
+              "lastName": "Piizzi",
+              "firstName": "Grazia",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zurini M",
+              "lastName": "Zurini",
+              "firstName": "Mauro",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bialucha CU",
+              "lastName": "Bialucha",
+              "firstName": "Carl Uli",
+              "initials": "CU",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1219-2955"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Novartis Institutes for BioMedical Research, 250 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0964-924X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3067-4538"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5229-0631"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1219-2955"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "9",
+          "journalIssueId": 2718227,
+          "dateOfPublication": "2018 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "ACS Med Chem Lett",
+            "title": "ACS medicinal chemistry letters",
+            "essn": "1948-5875",
+            "issn": "1948-5875",
+            "nlmid": "101521073",
+            "isoabbreviation": "ACS Med Chem Lett"
+          },
+          "printPublicationDate": "2018-08-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "838-842",
+        "affiliation": "Novartis Institutes for BioMedical Research, CH-4056 Basel, Switzerland.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "rapid-communication",
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://pubs.acs.org/doi/pdf/10.1021/acsmedchemlett.8b00254"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acsmedchemlett.8b00254"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6088352"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6088352?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 33,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCreation": "2018-08-22",
+        "dateOfRevision": "2020-09-30",
+        "electronicPublicationDate": "2018-06-28",
+        "firstPublicationDate": "2018-06-28",
+        "firstIndexDate": "2018-08-22",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "7e7f02dc604926efe70864c166c08bd6827589e10ef9f715993b407b9fc9638d",
+          "characters": 439
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "3d50d539dd008c3d1cb9a137937a8fff518450cf78cca6dac63137072ea5d1a4",
+    "sourceBytes": 8461,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

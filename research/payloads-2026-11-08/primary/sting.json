@@ -1,0 +1,790 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"XMT-2056\" AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "40029253",
+        "source": "MED",
+        "pmid": "40029253",
+        "pmcid": "PMC12010966",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12010966"
+          ]
+        },
+        "doi": "10.1158/1078-0432.ccr-24-2449",
+        "title": "XMT-2056, a HER2-Directed STING Agonist Antibody-Drug Conjugate, Induces Innate Antitumor Immune Responses by Acting on Cancer Cells and Tumor-Resident Immune Cells.",
+        "authorString": "Bukhalid RA, Duvall JR, Lancaster K, Catcott KC, Malli Cetinbas N, Monnell T, Routhier C, Thomas JD, Bentley KW, Collins SD, Collins SD, Ditty E, Eitas TK, Kelleher EW, Shaw P, Soomer-James J, Ter-Ovanesyan E, Xu L, Zurita J, Toader D, Damelin M, Lowinger TB.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bukhalid RA",
+              "lastName": "Bukhalid",
+              "firstName": "Raghida A",
+              "initials": "RA",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-5407-8913"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duvall JR",
+              "lastName": "Duvall",
+              "firstName": "Jeremy R",
+              "initials": "JR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-9897-7924"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lancaster K",
+              "lastName": "Lancaster",
+              "firstName": "Kelly",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-4750-199X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Catcott KC",
+              "lastName": "Catcott",
+              "firstName": "Kalli C",
+              "initials": "KC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1941-0678"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Malli Cetinbas N",
+              "lastName": "Malli Cetinbas",
+              "firstName": "Naniye",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2798-4620"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Monnell T",
+              "lastName": "Monnell",
+              "firstName": "Travis",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0005-6043-8041"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Routhier C",
+              "lastName": "Routhier",
+              "firstName": "Caitlin",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-0727-0842"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thomas JD",
+              "lastName": "Thomas",
+              "firstName": "Joshua D",
+              "initials": "JD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2974-8226"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bentley KW",
+              "lastName": "Bentley",
+              "firstName": "Keith W",
+              "initials": "KW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-5146-8795"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Collins SD",
+              "lastName": "Collins",
+              "firstName": "Scott D",
+              "initials": "SD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0193-2892"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Collins SD",
+              "lastName": "Collins",
+              "firstName": "Scott D",
+              "initials": "SD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-6068-4623"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ditty E",
+              "lastName": "Ditty",
+              "firstName": "Elizabeth",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-4605-5880"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Eitas TK",
+              "lastName": "Eitas",
+              "firstName": "Timothy K",
+              "initials": "TK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-5953-1306"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kelleher EW",
+              "lastName": "Kelleher",
+              "firstName": "Eugene W",
+              "initials": "EW",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-9424-6111"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shaw P",
+              "lastName": "Shaw",
+              "firstName": "Pamela",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-3966-7300"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Soomer-James J",
+              "lastName": "Soomer-James",
+              "firstName": "Jahna",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0001-1072-2184"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ter-Ovanesyan E",
+              "lastName": "Ter-Ovanesyan",
+              "firstName": "Elena",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-5204-7849"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu L",
+              "lastName": "Xu",
+              "firstName": "Ling",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0000-3422-7623"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zurita J",
+              "lastName": "Zurita",
+              "firstName": "Jeffrey",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0009-1054-5358"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Toader D",
+              "lastName": "Toader",
+              "firstName": "Dorin",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6330-5280"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Damelin M",
+              "lastName": "Damelin",
+              "firstName": "Marc",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0512-7126"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lowinger TB",
+              "lastName": "Lowinger",
+              "firstName": "Timothy B",
+              "initials": "TB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4209-3693"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6330-5280"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0193-2892"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4209-3693"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0512-7126"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1941-0678"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2798-4620"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2974-8226"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-3422-7623"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-5146-8795"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0000-5953-1306"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-0727-0842"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0001-1072-2184"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-4605-5880"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-9897-7924"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0005-6043-8041"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-5204-7849"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-5407-8913"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-3966-7300"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-6068-4623"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-9424-6111"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-1054-5358"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0009-4750-199X"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "31",
+          "journalIssueId": 3934872,
+          "dateOfPublication": "2025 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Clin Cancer Res",
+            "title": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "essn": "1557-3265",
+            "issn": "1078-0432",
+            "nlmid": "9502500",
+            "isoabbreviation": "Clin Cancer Res"
+          },
+          "printPublicationDate": "2025-05-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "1766-1782",
+        "affiliation": "Mersana Therapeutics, Inc., Cambridge, Massachusetts.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Mersana Therapeutics",
+              "orderIn": 0
+            },
+            {
+              "agency": "Mersana Therapeutics (Mersana)",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Membrane Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AG",
+                    "qualifierName": "agonists"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunity, Innate",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Trastuzumab"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Erb-b2 Receptor Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "STING Protein"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Membrane Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "ERBB2 protein, human",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "trastuzumab",
+              "registryNumber": "P188ANX8CK"
+            },
+            {
+              "name": "STING1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Erb-b2 Receptor Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            },
+            {
+              "name": "STING Protein",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12010966"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12010966?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 47,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "refseq",
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2025-05-01",
+        "dateOfCreation": "2025-03-03",
+        "dateOfRevision": "2026-01-27",
+        "firstPublicationDate": "2025-05-01",
+        "firstIndexDate": "2025-03-03",
+        "fullTextReceivedDate": "2025-11-28",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "a7e2b102aef76a2842b59dfc8546d2126e5a3b6c3d52f66c7c16f1796b2b6c9f",
+          "characters": 1658
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "586017dc101dd54b87b520c65e579b7bfc0de69028e098c40ec9c73a3d286daf",
+    "sourceBytes": 13825,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

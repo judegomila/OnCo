@@ -1,0 +1,888 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T18:08:48.893Z",
+  "request": {
+    "query": "Antibody conjugate payloads beyond cytotoxic chemotherapy: STING TLR7 TLR8 immune agonists, ATR PARP DNA damage repair inhibitors, GSPT1 molecular glue and BRD4 PROTAC degraders, dual payload constructs",
+    "searchMode": "semantic",
+    "maxResults": 25,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-259777474",
+        "title": "Abstract 1542: Generation of an antibody-drug conjugate-optimized TLR 7/8 agonist payload",
+        "authors": [
+          "K. Wang",
+          "C. Neumann",
+          "Angela Epp",
+          "Weiping Zeng",
+          "Thomas S. Griffith",
+          "David Ferguson",
+          "S. Gardai",
+          "Alyson J. Smith"
+        ],
+        "year": 2023,
+        "doi": "10.1158/1538-7445.am2023-1542",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "15947c05b3a6d54a590038be04db0d0ed92a0dea91f024a0235e13b5ed596dd0",
+          "characters": 3206
+        }
+      },
+      {
+        "elicitId": "ss-264894440",
+        "title": "1114 Targeted delivery of a potent STING agonist payload via an antibody drug conjugate drives robust antitumor activity in preclinical models",
+        "authors": [
+          "Elizabeth J Cummins",
+          "David R. Gruber",
+          "Wei-Ping Zeng",
+          "Michelle L Ulrich",
+          "Kaleb Smith",
+          "Mallory Long",
+          "Kellie Spahr",
+          "Katie Snead",
+          "Katelyn Hinricher",
+          "Aditi Langalia",
+          "Priyanka Gupta",
+          "Alyson Smith",
+          "Patrick J Burke",
+          "S. Gardai",
+          "Peter D Senter",
+          "Adam G Hill",
+          "Elizabeth Gray"
+        ],
+        "year": 2023,
+        "doi": "10.1136/jitc-2023-sitc2023.1114",
+        "pmid": null,
+        "venue": "Regular and Young Investigator Award Abstracts",
+        "citedByCount": 1,
+        "urls": [
+          "https://jitc.bmj.com/content/11/Suppl_1/A1227.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jitc.bmj.com/content/11/Suppl_1/A1227.full.pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "9b303d80991e1e9935a9051f33d6c05ed6aea31b449043112a7db172c33c96c2",
+          "characters": 3754
+        }
+      },
+      {
+        "elicitId": "ss-271922405",
+        "title": "Design and Optimization of Selectivity-Tunable Toll-like Receptor 7/8 Agonists as Novel Antibody-Drug Conjugate Payloads.",
+        "authors": [
+          "Akash M. Patel",
+          "A. Willingham",
+          "Alan C. Cheng",
+          "Daniela M. Tomazela",
+          "E. Bowman",
+          "Esther Kofman",
+          "Fan Zhang",
+          "Jianming Bao",
+          "Jillian R. Sanzone",
+          "J. Choy",
+          "John A. Flygare",
+          "Jin-Hwan Han",
+          "Komal Pradhan",
+          "M. Kieffer",
+          "Natalia Chernyak",
+          "Peyman Akbari",
+          "Ping Liu",
+          "Rimsha Mehmood",
+          "Saraswathi Naravula",
+          "Scott A. Hollingsworth",
+          "Bhagyashree Bhagwat",
+          "Simon B. Lang",
+          "W. M. Seganish"
+        ],
+        "year": 2024,
+        "doi": "10.1021/acs.jmedchem.4c01384",
+        "pmid": "39172064",
+        "venue": "Journal of Medicinal Chemistry",
+        "citedByCount": 14,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "36fd53de8051b089068c13f92c48f83d4f3305666ade8af6aaff377d5a5ec124",
+          "characters": 871
+        }
+      },
+      {
+        "elicitId": "ss-282570528",
+        "title": "Targeted Delivery of a Potent STING Agonist Payload via an Antibody–Drug Conjugate Drives Robust Antitumor Activity in Preclinical Models",
+        "authors": [
+          "David R. Gruber",
+          "Elizabeth J Cummins",
+          "Wei-Ping Zeng",
+          "Michelle Ulrich",
+          "Kaleb Smith",
+          "Mallory Long",
+          "Kellie Spahr",
+          "Shaylin Higgins",
+          "Katelyn Hinricher",
+          "Aditi Langalia",
+          "Kora Krumm",
+          "Devra J. Olson",
+          "Bryan Grogan",
+          "R. Mazahreh",
+          "Priyanka Gupta",
+          "Patrick J Burke",
+          "Alyson Smith",
+          "Peter D Senter",
+          "S. Gardai",
+          "Adam G Hill",
+          "E. Gray"
+        ],
+        "year": 2025,
+        "doi": "10.1158/1535-7163.MCT-25-0108",
+        "pmid": "41159384",
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 6,
+        "urls": [
+          "https://doi.org/10.1158/1535-7163.mct-25-0108",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13060629/pdf/mct-25-0108.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1158/1535-7163.mct-25-0108",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "70fdfd2263486356ad65d4cff11b725b125f70a942615af1b17ce581cfadd928",
+          "characters": 1593
+        }
+      },
+      {
+        "elicitId": "ss-272426035",
+        "title": "Discovery and Evaluation of TLR-Targeted Immune Agonists.",
+        "authors": [
+          "Natalia Chernyak",
+          "Bhagyashree Bhagwat",
+          "Saraswathi Naravula",
+          "Ying Chen",
+          "Nicolas Solban",
+          "Fan Zhang",
+          "Esther Kofman",
+          "Fahimeh Raoufi",
+          "Xibei Dang",
+          "Jianming Bao",
+          "Daniela M. Tomazela",
+          "Marc Baily",
+          "B. Geierstanger",
+          "John A. Flygare",
+          "Jin-Hwan Han",
+          "A. Willingham",
+          "W. M. Seganish"
+        ],
+        "year": 2024,
+        "doi": "10.1021/acs.jmedchem.4c00804",
+        "pmid": "39235949",
+        "venue": "Journal of Medicinal Chemistry",
+        "citedByCount": 7,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "7f9086d35db7f975aae33d80ad603ad554ae712fe19f583ea15a224bfd8459de",
+          "characters": 1081
+        }
+      },
+      {
+        "elicitId": "ss-274913190",
+        "title": "Structure-Based Design of Novel TLR7/8 Agonist Payloads Enabling an Immunomodulatory Conjugate Approach.",
+        "authors": [
+          "Yam B. Poudel",
+          "Julian C Lo",
+          "Derek J. Norris",
+          "Matthew Cox",
+          "Li-Qi He",
+          "Walter L Johnson",
+          "Murugaiah A. M. Subbaiah",
+          "Santigopal Mondal",
+          "Soodamani Thangavel",
+          "Lakshumanan Subramani",
+          "M. Reddy",
+          "Suraksha Jain",
+          "Dahlia R. Weiss",
+          "P. Sivaprakasam",
+          "David Critton",
+          "Dawn Mulligan",
+          "Chunshan Xie",
+          "Payal Dhar",
+          "Yvonne Li",
+          "Emanuela Sega",
+          "Sayumi Yamazoe",
+          "A. Gavai",
+          "A. Mathur",
+          "Christoph W. Zapf",
+          "Eugene P. Chekler"
+        ],
+        "year": 2024,
+        "doi": "10.1021/acsmedchemlett.4c00463",
+        "pmid": "39811121",
+        "venue": "ACS Medicinal Chemistry Letters",
+        "citedByCount": 2,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11726388/pdf/ml4c00463.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11726388/pdf/ml4c00463.pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "63ba3ae683bb808491a60d9ca39487299966110351054c43c9e72c70ea65b754",
+          "characters": 596
+        }
+      },
+      {
+        "elicitId": "ss-255967333",
+        "title": "Payload diversification: a key step in the development of antibody–drug conjugates",
+        "authors": [
+          "L. Conilh",
+          "L. Sadílková",
+          "W. Viricel",
+          "C. Dumontet"
+        ],
+        "year": 2023,
+        "doi": "10.1186/s13045-022-01397-y",
+        "pmid": "36650546",
+        "venue": "Journal of Hematology & Oncology",
+        "citedByCount": 231,
+        "urls": [
+          "https://cnrs.hal.science/hal-04914056/document",
+          "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-022-01397-y"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jhoonline.biomedcentral.com/counter/pdf/10.1186/s13045-022-01397-y",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "9a6b3a47b085c2c6ee3d00a922b00a0a6e9ff4041488cfbd9d003a918601562a",
+          "characters": 927
+        }
+      },
+      {
+        "elicitId": "ss-277984402",
+        "title": "Abstract 6754: A payload screening and ADC evaluation platform for STING agonist antibody drug conjugates",
+        "authors": [
+          "Ying Meng",
+          "Li Li",
+          "M. Kang",
+          "Xiao Li",
+          "Haiting Dai",
+          "T. Bing"
+        ],
+        "year": 2025,
+        "doi": "10.1158/1538-7445.am2025-6754",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "4e384c40d41e77b49c1eb8de603499ed61b5788fd8bd2f4579f17a197dd391b9",
+          "characters": 1481
+        }
+      },
+      {
+        "elicitId": "ss-287175567",
+        "title": "Abstract 4445: Diverse ADC novel payloads, comprehensive screening and evaluation platform",
+        "authors": [
+          "Ying Meng",
+          "Qian Wang",
+          "M. Kang",
+          "Xuan Qiao",
+          "Chanrui Wang",
+          "Yixiao Zhao",
+          "Jia-Ren Lin",
+          "Jiamei Zhao",
+          "Li Li",
+          "Tie-Jun Bing"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1538-7445.am2026-4445",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "6322c76ea012051f600bab8fe77f9523937d9064fe5b1d1703db3c27fead2a30",
+          "characters": 2215
+        }
+      },
+      {
+        "elicitId": "ss-231954518",
+        "title": "Antibody-Mediated Delivery of Chimeric BRD4 Degraders. Part 1: Exploration of Antibody Linker, Payload Loading, and Payload Molecular Properties.",
+        "authors": [
+          "P. Dragovich",
+          "Thomas H. Pillow",
+          "R. Blake",
+          "J. Sadowsky",
+          "Emel Adaligil",
+          "Pragya Adhikari",
+          "Sunil Bhakta",
+          "N. Blaquiere",
+          "Jinhua Chen",
+          "Josefa Dela Cruz-Chuh",
+          "Karen E Gascoigne",
+          "Steven J. Hartman",
+          "M. He",
+          "Susan Kaufman",
+          "Tracy Kleinheinz",
+          "K. Kozak",
+          "Liang Liu",
+          "Li-Ling Liu",
+          "Qi Liu",
+          "Ying Lu",
+          "Fan-Wei Meng",
+          "Melinda M. Mulvihill",
+          "Aimee O’Donohue",
+          "Rebecca K. Rowntree",
+          "Leanna R. Staben",
+          "S. Staben",
+          "J. Wai",
+          "Jian Wang",
+          "Binqing Wei",
+          "Catherine H. Wilson",
+          "Jianfeng Xin",
+          "Zijin Xu",
+          "Hui Yao",
+          "Donglu Zhang",
+          "Hongyan Zhang",
+          "Hao Zhou",
+          "Xiao-Yu Zhu"
+        ],
+        "year": 2021,
+        "doi": "10.1021/acs.jmedchem.0c01845",
+        "pmid": "33596065",
+        "venue": "Journal of Medicinal Chemistry",
+        "citedByCount": 119,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "60c7b7a2a185f815294980d082d2703dc78c8ad418c72020f1414d68f8508077",
+          "characters": 1203
+        }
+      },
+      {
+        "elicitId": "ss-278452670",
+        "title": "Molecular glue meets antibody: next-generation antibody-drug conjugates.",
+        "authors": [
+          "Yiran Tao",
+          "Ying Lu",
+          "Bin Yu",
+          "Yuxi Wang"
+        ],
+        "year": 2025,
+        "abstract": null,
+        "doi": "10.1016/j.tips.2025.04.002",
+        "pmid": "40345868",
+        "venue": "TIPS - Trends in Pharmacological Sciences",
+        "citedByCount": 22,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-265293926",
+        "title": "Antibody drug conjugates beyond cytotoxic payloads.",
+        "authors": [
+          "A. Hobson"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/bs.pmch.2023.10.001",
+        "pmid": "37981349",
+        "venue": "Progress in Medicinal Chemistry",
+        "citedByCount": 8,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-264906689",
+        "title": "1161 Development of TLR7- and STING-conjugatable agonists for immunostimulatory ADC-based cancer therapies",
+        "authors": [
+          "Fabienne Vernejoul",
+          "Anne-Sophie Baudru",
+          "Lioux Thierry",
+          "Alain Lamoureux",
+          "Marc-Antoine Mauny",
+          "Julien Mozo",
+          "Amandine Leguevaques",
+          "Michèle Tiraby"
+        ],
+        "year": 2023,
+        "doi": "10.1136/jitc-2023-sitc2023.1161",
+        "pmid": null,
+        "venue": "Regular and Young Investigator Award Abstracts",
+        "citedByCount": 1,
+        "urls": [
+          "https://jitc.bmj.com/content/jitc/11/Suppl_1/A1280.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jitc.bmj.com/content/jitc/11/Suppl_1/A1280.full.pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "fcbf834e2b035de8ecbfcc668c988073c4cd77c2691a58ab76803c2338e4486a",
+          "characters": 2854
+        }
+      },
+      {
+        "elicitId": "ss-256022655",
+        "title": "Site-Specific Antibody Conjugation with Payloads beyond Cytotoxins",
+        "authors": [
+          "Qun Zhou"
+        ],
+        "year": 2023,
+        "doi": "10.3390/molecules28030917",
+        "pmid": "36770585",
+        "venue": "Molecules",
+        "citedByCount": 40,
+        "urls": [
+          "https://www.mdpi.com/1420-3049/28/3/917/pdf?version=1674824343",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC9921355/pdf/molecules-28-00917.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.mdpi.com/1420-3049/28/3/917/pdf?version=1674824343",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "ef2bbc686f48f263e6bbb0efd56917f40ec900ab1d338fd73e0fd9d2561b8274",
+          "characters": 1400
+        }
+      },
+      {
+        "elicitId": "ss-272401479",
+        "title": "The New Frontier: Merging Molecular Glue Degrader and Antibody-Drug Conjugate Modalities To Overcome Strategic Challenges.",
+        "authors": [
+          "Yam B. Poudel",
+          "Ruchita R. Thakore",
+          "Eugene P. Chekler"
+        ],
+        "year": 2024,
+        "doi": "10.1021/acs.jmedchem.4c01289",
+        "pmid": "39231796",
+        "venue": "Journal of Medicinal Chemistry",
+        "citedByCount": 28,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "aefb2d6e4bbcbb056590df70d21dac3d10b7d5bb0ec236422dadd48c5c77559e",
+          "characters": 871
+        }
+      },
+      {
+        "elicitId": "ss-237747872",
+        "title": "Abstract 1738: XMT-2056, a well-tolerated, Immunosynthen-based STING-agonist antibody-drug conjugate which induces anti-tumor immune activity",
+        "authors": [
+          "Jeremy R. Duvall",
+          "R. Bukhalid",
+          "N. Cetinbas",
+          "Kalli C. Catcott",
+          "K. Slocum",
+          "Kenneth Avocetien",
+          "Keith W Bentley",
+          "Stephen P. Bradley",
+          "Susan M. Clardy",
+          "S. Collins",
+          "Elizabeth Ditty",
+          "Timothy K. Eitas",
+          "Brian Jones",
+          "Eugene W Kelleher",
+          "Winnie Lee",
+          "Travis Monnell",
+          "R. Mosher",
+          "M. Protopopova",
+          "Liuliang Qin",
+          "P. Shaw",
+          "Elena Ter-Ovanesyan",
+          "Joshua D Thomas",
+          "Phonphimon Wongthida",
+          "Ling Xu",
+          "Li-Ping Yang",
+          "J. Zurita",
+          "D. Toader",
+          "M. Damelin",
+          "T. Lowinger"
+        ],
+        "year": 2021,
+        "doi": "10.1158/1538-7445.AM2021-1738",
+        "pmid": null,
+        "venue": "Immunology",
+        "citedByCount": 17,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "927d58b6b980af2a00fe662687d8eb1ba9a6440c728832daf40aa5fe1b02bf70",
+          "characters": 2566
+        }
+      },
+      {
+        "elicitId": "ss-257567217",
+        "title": "Generation and structure-activity relationships of novel imidazo-thienopyridine based TLR7 agonists: application as payloads for immunostimulatory antibody drug-conjugates.",
+        "authors": [
+          "Michael G. Brant",
+          "G. Garnett",
+          "Joy Guedia",
+          "M. Lasalle",
+          "S. Lawn",
+          "M. Petersen",
+          "Renee Duan",
+          "J. Méndez-Campos",
+          "Truman Hirkala-Schaefer",
+          "G. Winters",
+          "Stuart D. Barnscher"
+        ],
+        "year": 2023,
+        "doi": "10.2139/ssrn.4379817",
+        "pmid": "37217025",
+        "venue": "Bioorganic & Medicinal Chemistry Letters",
+        "citedByCount": 13,
+        "urls": [
+          "https://doi.org/10.2139/ssrn.4379817"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.2139/ssrn.4379817",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "c7453622235b367f879fbaf7296fecca11ce9b0fbc76b0c99cb9178159622b2e",
+          "characters": 1091
+        }
+      },
+      {
+        "elicitId": "ss-249716544",
+        "title": "Abstract 5616: Tumor-targeted immune activation via a site-specific TLR7-agonist antibody-drug conjugate",
+        "authors": [
+          "Mingchao Kang",
+          "Sung-Ju Moon",
+          "Ji Young Kim",
+          "Andrew Beck",
+          "Molly E Allen",
+          "Jay D Nelson",
+          "K. Tatsukawa",
+          "Trần",
+          "Manoj Pal",
+          "Michael J Gray",
+          "Nick A. Knudsen",
+          "Lillian K. Skidmore",
+          "David Mills",
+          "Yingchun Lu",
+          "Y. Buechler",
+          "Sukumar Sakamuri",
+          "S. Zhang",
+          "Feng Tian"
+        ],
+        "year": 2022,
+        "doi": "10.1158/1538-7445.am2022-5616",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "db1fc7337a11dd22ee02e0a73c9587e75a3411df122d331e9b65d3c19f8509be",
+          "characters": 3142
+        }
+      },
+      {
+        "elicitId": "ss-257965097",
+        "title": "Abstract 2640: An innovative site-specific dual-payload antibody drug conjugate (dpADC) combining a novel Topo1 inhibitor and an immune agonist delivers a strong immunogenic cell death (ICD) and antitumor response in vitro and in vivo",
+        "authors": [
+          "Meijun Xiong",
+          "Bei-Bei Fan",
+          "Xinju Gao",
+          "Yajun Sun",
+          "Cao Lv",
+          "Yu Si",
+          "Xiao Liu",
+          "Lili Shi",
+          "P. H. Song",
+          "Gang Qin"
+        ],
+        "year": 2023,
+        "doi": "10.1158/1538-7445.am2023-2640",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 6,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "457f098941fe078d7c6427599860579a7218de12f837c8ed2db01c18a6318f1a",
+          "characters": 3069
+        }
+      },
+      {
+        "elicitId": "ss-251651157",
+        "title": "More than Toxins-Current Prospects in Designing the Next Generation of Antibody Drug Conjugates.",
+        "authors": [
+          "Jonathan Schwach",
+          "Mustafa Abdellatif",
+          "A. Stengl"
+        ],
+        "year": 2022,
+        "doi": "10.31083/j.fbl2708240",
+        "pmid": "36042167",
+        "venue": "Frontiers in Bioscience",
+        "citedByCount": 23,
+        "urls": [
+          "https://www.imrpress.com/journal/FBL/27/8/10.31083/j.fbl2708240/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.imrpress.com/journal/FBL/27/8/10.31083/j.fbl2708240/pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "e5f0ca4939d1c9ad711130aac7b859c3c715fa2efef52937aec6459282d49ee0",
+          "characters": 969
+        }
+      },
+      {
+        "elicitId": "ss-259716698",
+        "title": "Antibody–drug conjugates: Recent advances in payloads",
+        "authors": [
+          "Zhijia Wang",
+          "Han-Xuan Li",
+          "L. Gou",
+          "Wei Li",
+          "Yu-xi Wang"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/j.apsb.2023.06.015",
+        "pmid": "37799390",
+        "venue": "Acta Pharmaceutica Sinica B",
+        "citedByCount": 242,
+        "urls": [
+          "https://doi.org/10.1016/j.apsb.2023.06.015",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10547921/pdf/main.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1016/j.apsb.2023.06.015"
+      },
+      {
+        "elicitId": "ss-271481670",
+        "title": "Antibody-drug conjugates for targeted cancer therapy: Recent advances in potential payloads.",
+        "authors": [
+          "Mei-Yang Xi",
+          "Jingjing Zhu",
+          "Fengxia Zhang",
+          "Hua-Liang Shen",
+          "Jianhui Chen",
+          "Ziyan Xiao",
+          "Yang Huang Fu",
+          "Chun-Lei Wu",
+          "Hao-Peng Sun",
+          "Gang Xia"
+        ],
+        "year": 2024,
+        "abstract": null,
+        "doi": "10.1016/j.ejmech.2024.116709",
+        "pmid": "39068862",
+        "venue": "European journal of medicinal chemistry",
+        "citedByCount": 44,
+        "urls": [
+          "https://doi.org/10.7270/q2dj5mbp"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.7270/q2dj5mbp"
+      },
+      {
+        "elicitId": "ss-248513978",
+        "title": "Degrader-antibody conjugates.",
+        "authors": [
+          "P. Dragovich"
+        ],
+        "year": 2022,
+        "doi": "10.1039/d2cs00141a",
+        "pmid": "35506708",
+        "venue": "Chemical Society Reviews",
+        "citedByCount": 101,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "c32baf27794f76003411c190ae5881580d7af5bf87cf89a48e82756b49a5b33f",
+          "characters": 968
+        }
+      },
+      {
+        "elicitId": "ss-225394703",
+        "title": "Abstract 6706: Systemic administration of STING agonist antibody-drug conjugates elicit potent anti-tumor immune responses with minimal induction of circulating cytokines",
+        "authors": [
+          "R. Bukhalid",
+          "Jeremy R. Duvall",
+          "N. Cetinbas",
+          "Kalli C. Catcott",
+          "Kenneth Avocetien",
+          "Keith W Bentley",
+          "Stephen P. Bradley",
+          "Tyler Carter",
+          "Chen-Ni Chin",
+          "Susan M. Clardy",
+          "S. Collins",
+          "Timothy K. Eitas",
+          "Brian Jones",
+          "Eugene W Kelleher",
+          "R. Mosher",
+          "Mark Nazzaro",
+          "M. Protopopova",
+          "P. Shaw",
+          "K. Slocum",
+          "Elena Ter-Ovanesyan",
+          "Liuliang Qin",
+          "Joshua D Thomas",
+          "Ling Xu",
+          "Li-Ping Yang",
+          "J. Zurita",
+          "D. Toader",
+          "M. Damelin",
+          "T. Lowinger"
+        ],
+        "year": 2020,
+        "doi": "10.1158/1538-7445.am2020-6706",
+        "pmid": null,
+        "venue": "Immunology",
+        "citedByCount": 20,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "49ba723695926ba25070dc4921bd62c566c5b510b864665bb3f6bd99b688e7dc",
+          "characters": 3090
+        }
+      },
+      {
+        "elicitId": "ss-278884564",
+        "title": "Discovery and Characterization of a First-in-Class LIV1-TLR7/8 Immunomodulatory Conjugate with Robust Myeloid Activation and Antitumor Activity",
+        "authors": [
+          "Sayumi Yamazoe",
+          "Yam B. Poudel",
+          "Emanuela Sega",
+          "Anandaroop Mukhopadhyay",
+          "Radha Ramakrishnan",
+          "O. Ukairo",
+          "S. Liu",
+          "Rahima Akter",
+          "Keerthi Sadanala",
+          "Kathryn Que",
+          "Qinqin Cheng",
+          "Srikanth Kotapati",
+          "Madhura Deshpande",
+          "Matthew Cox",
+          "Shishir Chourey",
+          "Anuradha Gupta",
+          "J. Kempson",
+          "Kumar B. Pabbisetty",
+          "Mahammed Kaspady",
+          "D. Bhattasali",
+          "S. Yip",
+          "Dauh-Rurng Wu",
+          "D. Pookot",
+          "Yvonne Li",
+          "Alexander Kozhich",
+          "D. Drexler",
+          "S. Carl",
+          "Ekaterina G. Deyanova",
+          "Michael J. Smith",
+          "Henry Chan",
+          "Sean West",
+          "S. J. Diong",
+          "Aram Chang",
+          "Lore Florin",
+          "A. Mathur",
+          "P. Strop",
+          "Christoph W. Zapf",
+          "Deborah Law",
+          "Nicholas Wilson",
+          "Miranda Broz",
+          "Eugene P. Chekler"
+        ],
+        "year": 2025,
+        "doi": "10.1021/acs.jmedchem.5c00264",
+        "pmid": "40411528",
+        "venue": "Journal of Medicinal Chemistry",
+        "citedByCount": 5,
+        "urls": [
+          "https://pubs.acs.org/doi/pdf/10.1021/acs.jmedchem.5c00264?ref=article_openPDF"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://pubs.acs.org/doi/pdf/10.1021/acs.jmedchem.5c00264?ref=article_openPDF",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "9977779695b40ad13e5ab44f34b17ce53ef1f58d5de3979a968fba154b791313",
+          "characters": 1073
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "c76f556acdffc4921e86d5561c7cee17249359d91165456f86c1e8363f49c778",
+    "sourceBytes": 62477,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

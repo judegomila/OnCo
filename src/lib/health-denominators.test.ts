@@ -98,7 +98,10 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // 2,078 to 2,563 on 4 November 2026: the company rounds since the last recording, ending with the 83 companies the
   // startup monitors found (SEC filings, orphan designations, NCI SBIR awards). Companies are exactly what this gauge
   // asks about, so the denominator grows; their logos are fetched in the same change.
-  { id: "logos", total: 3154, label: "Companies, institutions and collections with a logo" },
+  // 3,154 to 3,675 on 12 November 2026: the institutions for the countries that held fewer than three
+  // (src/data/institutions/countries-2026-11-*.ts) and the Newsweek 2026 ranked hospitals OnCo did not hold. They are
+  // institutions, the kind this gauge asks about, so the denominator grows; no target changed.
+  { id: "logos", total: 3675, label: "Companies, institutions and collections with a logo" },
   { id: "completeness", total: 22, label: "External denominators at least half covered" },
 ];
 

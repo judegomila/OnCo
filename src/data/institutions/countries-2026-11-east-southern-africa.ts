@@ -392,7 +392,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
 
   i({ id: "village-oncology-gaborone", name: "Village Oncology", aka: ["Village Oncology Gaborone"],
     city: "Gaborone", country: "BW", lat: -24.669, lng: 25.936, institutionType: "cancer-center",
-    tldr: "A radiotherapy centre in Gaborone listed by the International Atomic Energy Agency with one linear accelerator and brachytherapy.",
+    tldr: "A radiotherapy centre in Gaborone listed by the International Atomic Energy Agency with one linear accelerator.",
     summary: "IAEA DIRAC, with the entry updated in 2026, lists Village Oncology on Maratadiba Road, Gaborone, with one linear accelerator, brachytherapy and a CT scanner. OnCo found no website or other primary source for it (the domain villageoncology.com is parked), so nothing else is stated here. The coordinates are DIRAC's.",
     programs: ["Radiotherapy (one linear accelerator in IAEA DIRAC)", "Brachytherapy"],
     institutions: ["botswana-ministry-of-health"],

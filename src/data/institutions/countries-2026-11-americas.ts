@@ -353,7 +353,7 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "kingston-public-hospital", name: "Kingston Public Hospital", aka: ["KPH"],
     city: "Kingston", country: "JM", lat: 17.977, lng: -76.795, institutionType: "hospital",
-    tldr: "A public hospital on North Street, Kingston, with radiotherapy, listed in the international directory with a cobalt machine and brachytherapy.",
+    tldr: "A public hospital on North Street, Kingston, whose radiotherapy service is listed in the IAEA's international directory with a cobalt machine.",
     summary: "IAEA DIRAC lists Kingston Public Hospital, North Street, Kingston, with one cobalt-60 unit, one brachytherapy unit and a CT scanner (entry last updated 2020). DIRAC also lists two other Kingston operators: the Radiation Oncology Centre of Jamaica (one linear accelerator, brachytherapy) and St. Joseph's Hospital (one linear accelerator). The South East Regional Health Authority's site did not answer. Coordinates are Wikidata's (Q104863743).",
     programs: ["Radiotherapy (one cobalt-60 unit and brachytherapy in IAEA DIRAC)"],
     institutions: ["nhf-jamaica", "radiation-oncology-centre-jamaica", "iaea"],
@@ -361,7 +361,7 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "radiation-oncology-centre-jamaica", name: "Radiation Oncology Centre of Jamaica", aka: ["ROC Jamaica"],
     city: "Kingston", country: "JM", lat: 18.0, lng: -76.79, institutionType: "cancer-center",
-    tldr: "A radiotherapy centre in Kingston, Jamaica, with a linear accelerator and brachytherapy.",
+    tldr: "A radiotherapy centre in Kingston, Jamaica, listed in the IAEA's international directory with one linear accelerator.",
     summary: "IAEA DIRAC lists the Radiation Oncology Centre of Jamaica at 1 Ripon Road, Kingston 5, with one linear accelerator, one brachytherapy unit and a CT scanner (entry last updated 2025). OnCo found no website for it. Coordinates are DIRAC's.",
     programs: ["Radiotherapy (one linear accelerator and brachytherapy in IAEA DIRAC)"],
     institutions: ["kingston-public-hospital", "iaea"],

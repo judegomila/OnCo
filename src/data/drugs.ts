@@ -21,7 +21,7 @@ const baseDrugs: DrugInput[] = [
   {
     id: "trastuzumab-deruxtecan", keyPapers: ["paper-destiny-breast06-nejm-2024", "paper-destiny-gastric01-nejm-2020", "paper-destiny-lung01-nejm-2022"], kind: "drug", links: [{ label: "FDA label (DailyMed)", url: "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Trastuzumab%20deruxtecan" }], name: "Trastuzumab deruxtecan", brand: "Enhertu", code: "DS-8201, T-DXd", modality: "ADC", asOf, status: "approved", wikipedia: W("Trastuzumab_deruxtecan"),
     payload: "DXd (exatecan derivative, TOP1 inhibitor), DAR ~8", linker: "Tetrapeptide GGFG, protease-cleavable",
-    tldr: "Trastuzumab deruxtecan (Enhertu) is the most successful ADC ever. It redefined HER2 by working in tumours with only tiny amounts of the protein, and in 2026 moved into early-stage breast cancer.",
+    tldr: "Trastuzumab deruxtecan (Enhertu) is an ADC that redefined HER2 by working in tumours with low levels of the protein, and in 2026 moved into early-stage breast cancer.",
     summary: "Approved in HER2+ metastatic breast cancer (DESTINY-Breast03: beat T-DM1), HER2-low (DESTINY-Breast04, 2022) and HER2-ultralow (DESTINY-Breast06, 2025) HR+ breast cancer, HER2+ gastric, HER2-mutant NSCLC, and tumour-agnostically for HER2 IHC 3+ solid tumours (2024). DESTINY-Breast09 (with pertuzumab) established it in first-line HER2+ metastatic disease. In Q2 2026 the FDA approved two early-stage HER2+ indications (neoadjuvant DESTINY-Breast11; post-neoadjuvant DESTINY-Breast05). Interstitial lung disease (~10-15%, ~1% fatal) requires monitoring. Membrane-permeable payload gives a strong bystander effect.",
     mechanism: "Trastuzumab backbone; DXd released by lysosomal cathepsins; TOP1 inhibition and bystander diffusion.",
     approvals: [

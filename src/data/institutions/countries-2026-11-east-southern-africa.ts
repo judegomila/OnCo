@@ -134,8 +134,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     tldr: "Angola's health ministry. It reports that cancer is treated at the national cancer institute in Luanda and at two newer public hospitals, and in 2026 it was building a new oncology centre with 148 beds in the capital.",
     summary: "The Ministério da Saúde is Angola's ministry of health. In a statement reported by Ver Angola in August 2026, the Ministry said the country has oncology services at the Instituto Angolano de Controlo do Câncer (IACC) and at hospitals including the Hospital Geral de Cacuaco \"Heróis de Kifangondo\" and the Complexo Hospitalar Pedro Maria Tonha \"Pedalé\", and that a new oncology centre, part of the third phase of the Cardinal Dom Alexandre do Nascimento cardiopulmonary hospital complex in Luanda, was 36 per cent built, with four floors and 148 beds. The same statement gives the IACC 70 inpatient beds and an average of 360 consultations a day. The medicines regulator, the Agência Reguladora de Medicamentos e Tecnologias de Saúde, replaced the Ministry's own national directorate of medicines and equipment in 2021. The coordinates are an approximate city point for Luanda.",
     programs: ["New oncology centre in Luanda (148 beds, under construction in 2026)"],
-    // TODO: re-link iacc-angola (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["armed-angola", "hospital-geral-cacuaco", "complexo-hospitalar-pedale", "clinica-girassol"],
+    institutions: ["iacc-angola", "armed-angola", "hospital-geral-cacuaco", "complexo-hospitalar-pedale", "clinica-girassol"],
     links: [
       { label: "Ministério da Saúde de Angola", url: MINSA },
       VA_ONC_L,
@@ -551,7 +550,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
 
 /** Existing record id to the new institution ids it should list (applied in src/data/index.ts). */
 export const countriesEastSouthernAfricaBacklinks: Record<string, string[]> = {
-  // TODO: iacc-angola is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "iacc-angola": ["angola-ministry-of-health"],
+  "iacc-angola": ["angola-ministry-of-health"],
   "cancer-association-of-namibia": ["namibia-national-cancer-registry", "zuzu-holding-hands-cancer-foundation", "namibia-ministry-of-health"],
   uicc: [
     "fondation-akbaraly", "somalia-ministry-of-health", "abspa-burundi", "kenyera-burundi", "zuzu-holding-hands-cancer-foundation",

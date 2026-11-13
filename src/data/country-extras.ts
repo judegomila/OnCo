@@ -39,12 +39,32 @@ export type CountryExtra = {
  */
 const GCO_SLUG: Record<number, string> = {
   // Added 4 November 2026 with the wave 3 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  // The wave 4 rows (4 November 2026) had no slug, so their links read "<code>-undefined-fact-sheet.pdf"; each slug below
+  // answered with the GLOBOCAN 2024 PDF on 11 November 2026.
+  704: "viet-nam", 608: "philippines", 231: "ethiopia", 710: "south-africa", 170: "colombia", 32: "argentina", 804: "ukraine", 642: "romania", 458: "malaysia", 12: "algeria",
+  // Added 11 November 2026 with the wave 5 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  504: "morocco", 368: "iraq", 604: "peru", 104: "myanmar", 152: "chile", 404: "kenya", 203: "czechia",
   50: "bangladesh", 360: "indonesia", 566: "nigeria", 586: "pakistan", 764: "thailand",
+  // Added 11 November 2026 with the wave 6 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  144: "sri-lanka", 180: "congo-democratic-republic-of", 348: "hungary", 729: "sudan", 800: "uganda", 834: "tanzania-united-republic-of", 860: "uzbekistan", 862: "venezuela",
+  // Added 11 November 2026 with the wave 7 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  288: "ghana", 524: "nepal", 398: "kazakhstan", 218: "ecuador", 192: "cuba", 887: "yemen", 112: "belarus", 688: "serbia", 760: "syrian-arab-republic",
   36: "australia", 40: "austria", 56: "belgium", 76: "brazil", 124: "canada", 156: "china", 208: "denmark", 250: "france-metropolitan",
   276: "germany", 300: "greece", 356: "india", 364: "iran-islamic-republic-of", 376: "israel", 380: "italy", 392: "japan",
   410: "korea-republic-of", 484: "mexico", 528: "the-netherlands", 578: "norway", 616: "poland", 620: "portugal",
   643: "russian-federation", 682: "saudi-arabia", 702: "singapore", 724: "spain", 752: "sweden", 756: "switzerland",
   792: "turkiye", 818: "egypt", 826: "united-kingdom", 840: "united-states-of-america",
+  // Wave 8 (11 November 2026); each answered with the GLOBOCAN 2024 PDF that day.
+  4: "afghanistan", 100: "bulgaria", 246: "finland", 408: "korea-democratic-peoples-republic-of", 116: "cambodia", 372: "ireland",
+  716: "zimbabwe", 24: "angola", 788: "tunisia",
+  // Added 11 November 2026 with the wave 9 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  703: "slovakia", 554: "new-zealand", 191: "croatia", 508: "mozambique", 454: "malawi", 450: "madagascar", 214: "dominican-republic", 320: "guatemala", 384: "cote-divoire",
+  // Added 11 November 2026 with the wave 10 country pages; each answered with the GLOBOCAN 2024 PDF that day.
+  68: "bolivia-plurinational-state-of", 120: "cameroon", 148: "chad", 268: "georgia", 422: "lebanon", 440: "lithuania", 562: "niger", 630: "puerto-rico", 858: "uruguay", 894: "zambia",
+  // Wave 11 (11 November 2026); each answered with the GLOBOCAN 2024 PDF that day.
+  31: "azerbaijan", 70: "bosnia-herzegovina", 188: "costa-rica", 332: "haiti", 466: "mali", 598: "papua-new-guinea", 600: "paraguay", 686: "senegal", 705: "slovenia", 854: "burkina-faso",
+  // Wave 12 (11 November 2026): each answered with the GLOBOCAN 2024 PDF that day; Moldova is "republic-of-moldova" (the bare slug serves 2022).
+  51: "armenia", 222: "el-salvador", 324: "guinea", 340: "honduras", 400: "jordan", 428: "latvia", 498: "republic-of-moldova", 591: "panama", 646: "rwanda", 706: "somalia",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -108,4 +128,93 @@ export const countryExtras: Record<string, CountryExtra> = {
   RO: { name: "Romania", population: 19, incidence: 266, mortality: 128, gcoUrl: gco(642) },
   MY: { name: "Malaysia", population: 36, incidence: 141, mortality: 85, gcoUrl: gco(458) },
   DZ: { name: "Algeria", population: 47, incidence: 153, mortality: 79, gcoUrl: gco(12) },
+  // Wave 5 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series as tabulated in docs/proposals/country-coverage-2026-11.md. Belgium, Portugal and Greece already had rows.
+  MA: { name: "Morocco", population: 38, incidence: 113, mortality: 62, gcoUrl: gco(504) },
+  IQ: { name: "Iraq", population: 46, incidence: 111, mortality: 69, gcoUrl: gco(368) },
+  PE: { name: "Peru", population: 34, incidence: 187, mortality: 84, gcoUrl: gco(604) },
+  MM: { name: "Myanmar", population: 55, incidence: 126, mortality: 90, gcoUrl: gco(104) },
+  CL: { name: "Chile", population: 20, incidence: 162, mortality: 83, gcoUrl: gco(152) },
+  KE: { name: "Kenya", population: 56, incidence: 111, mortality: 75, gcoUrl: gco(404) },
+  CZ: { name: "Czechia", population: 11, incidence: 282, mortality: 102, gcoUrl: gco(203) },
+  // Wave 6 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series as tabulated in docs/proposals/country-coverage-2026-11.md. Saudi Arabia and Austria already had rows.
+  SD: { name: "Sudan", population: 50, incidence: 132, mortality: 87, gcoUrl: gco(729) },
+  CD: { name: "Democratic Republic of the Congo", population: 109, incidence: 116, mortality: 77, gcoUrl: gco(180) },
+  HU: { name: "Hungary", population: 10, incidence: 333, mortality: 135, gcoUrl: gco(348) },
+  TZ: { name: "Tanzania", population: 69, incidence: 78, mortality: 53, gcoUrl: gco(834) },
+  UZ: { name: "Uzbekistan", population: 36, incidence: 112, mortality: 67, gcoUrl: gco(860) },
+  UG: { name: "Uganda", population: 50, incidence: 124, mortality: 81, gcoUrl: gco(800) },
+  VE: { name: "Venezuela", population: 28, incidence: 174, mortality: 85, gcoUrl: gco(862) },
+  LK: { name: "Sri Lanka", population: 22, incidence: 134, mortality: 82, gcoUrl: gco(144) },
+  // Wave 7 (11 November 2026): rates from public/globocan/countries.json code 39, population in millions from the
+  // World Bank 2024 series as tabulated in docs/proposals/country-coverage-2026-11.md. Denmark already has a row. No
+  // funder is given because none was researched for this file; each country page names its funders where it found them.
+  GH: { name: "Ghana", population: 34, incidence: 114, mortality: 76, gcoUrl: gco(288) },
+  NP: { name: "Nepal", population: 30, incidence: 90, mortality: 64, gcoUrl: gco(524) },
+  KZ: { name: "Kazakhstan", population: 21, incidence: 125, mortality: 68, gcoUrl: gco(398) },
+  EC: { name: "Ecuador", population: 18, incidence: 145, mortality: 72, gcoUrl: gco(218) },
+  CU: { name: "Cuba", population: 11, incidence: 215, mortality: 113, gcoUrl: gco(192) },
+  YE: { name: "Yemen", population: 41, incidence: 112, mortality: 71, gcoUrl: gco(887) },
+  BY: { name: "Belarus", population: 9, incidence: 275, mortality: 124, gcoUrl: gco(112) },
+  RS: { name: "Serbia", population: 7, incidence: 267, mortality: 128, gcoUrl: gco(688) },
+  SY: { name: "Syrian Arab Republic", population: 25, incidence: 143, mortality: 88, gcoUrl: gco(760) },
+  // Wave 8 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series as tabulated in docs/proposals/country-coverage-2026-11.md. Norway already has a row above. No funder is given.
+  AF: { name: "Afghanistan", population: 43, incidence: 119, mortality: 78, gcoUrl: gco(4) },
+  BG: { name: "Bulgaria", population: 6, incidence: 220, mortality: 117, gcoUrl: gco(100) },
+  FI: { name: "Finland", population: 6, incidence: 259, mortality: 78, gcoUrl: gco(246) },
+  KP: { name: "North Korea", population: 27, incidence: 172, mortality: 120, gcoUrl: gco(408) },
+  KH: { name: "Cambodia", population: 18, incidence: 136, mortality: 93, gcoUrl: gco(116) },
+  IE: { name: "Ireland", population: 5, incidence: 317, mortality: 93, gcoUrl: gco(372) },
+  ZW: { name: "Zimbabwe", population: 17, incidence: 266, mortality: 182, gcoUrl: gco(716) },
+  AO: { name: "Angola", population: 38, incidence: 121, mortality: 76, gcoUrl: gco(24) },
+  TN: { name: "Tunisia", population: 12, incidence: 106, mortality: 58, gcoUrl: gco(788) },
+  // Wave 9 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read through its API the same day), rounded to millions. Singapore already has a row above.
+  SK: { name: "Slovakia", population: 5, incidence: 286, mortality: 122, gcoUrl: gco(703) },
+  NZ: { name: "New Zealand", population: 5, incidence: 294, mortality: 98, gcoUrl: gco(554) },
+  HR: { name: "Croatia", population: 4, incidence: 312, mortality: 123, gcoUrl: gco(191) },
+  MZ: { name: "Mozambique", population: 35, incidence: 119, mortality: 75, gcoUrl: gco(508) },
+  MW: { name: "Malawi", population: 22, incidence: 171, mortality: 109, gcoUrl: gco(454) },
+  MG: { name: "Madagascar", population: 32, incidence: 100, mortality: 64, gcoUrl: gco(450) },
+  DO: { name: "Dominican Republic", population: 11, incidence: 165, mortality: 91, gcoUrl: gco(214) },
+  GT: { name: "Guatemala", population: 18, incidence: 149, mortality: 88, gcoUrl: gco(320) },
+  CI: { name: "Côte d'Ivoire", population: 32, incidence: 114, mortality: 75, gcoUrl: gco(384) },
+  // Wave 10 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day). No funder is given; each country page names its own.
+  TD: { name: "Chad", population: 20, incidence: 180, mortality: 121, gcoUrl: gco(148) },
+  LB: { name: "Lebanon", population: 6, incidence: 242, mortality: 117, gcoUrl: gco(422) },
+  BO: { name: "Bolivia", population: 12, incidence: 153, mortality: 92, gcoUrl: gco(68) },
+  ZM: { name: "Zambia", population: 21, incidence: 152, mortality: 97, gcoUrl: gco(894) },
+  PR: { name: "Puerto Rico", population: 3, incidence: 236, mortality: 100, gcoUrl: gco(630) },
+  UY: { name: "Uruguay", population: 3, incidence: 273, mortality: 126, gcoUrl: gco(858) },
+  LT: { name: "Lithuania", population: 3, incidence: 276, mortality: 113, gcoUrl: gco(440) },
+  NE: { name: "Niger", population: 27, incidence: 121, mortality: 82, gcoUrl: gco(562) },
+  CM: { name: "Cameroon", population: 29, incidence: 100, mortality: 63, gcoUrl: gco(120) },
+  GE: { name: "Georgia", population: 4, incidence: 234, mortality: 109, gcoUrl: gco(268) },
+  // Wave 11 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from its API that day) to one decimal, as these countries are small. No funder researched.
+  AZ: { name: "Azerbaijan", population: 10.2, incidence: 120, mortality: 69, gcoUrl: gco(31) },
+  BA: { name: "Bosnia and Herzegovina", population: 3.2, incidence: 215, mortality: 112, gcoUrl: gco(70) },
+  HT: { name: "Haiti", population: 11.8, incidence: 167, mortality: 111, gcoUrl: gco(332) },
+  SN: { name: "Senegal", population: 18.5, incidence: 121, mortality: 85, gcoUrl: gco(686) },
+  SI: { name: "Slovenia", population: 2.1, incidence: 297, mortality: 114, gcoUrl: gco(705) },
+  ML: { name: "Mali", population: 24.5, incidence: 117, mortality: 80, gcoUrl: gco(466) },
+  PG: { name: "Papua New Guinea", population: 10.6, incidence: 200, mortality: 118, gcoUrl: gco(598) },
+  BF: { name: "Burkina Faso", population: 23.5, incidence: 110, mortality: 76, gcoUrl: gco(854) },
+  CR: { name: "Costa Rica", population: 5.1, incidence: 178, mortality: 73, gcoUrl: gco(188) },
+  PY: { name: "Paraguay", population: 6.9, incidence: 190, mortality: 93, gcoUrl: gco(600) },
+  // Wave 12 (11 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day). No funder is given; each country page names its funders.
+  RW: { name: "Rwanda", population: 14, incidence: 136, mortality: 91, gcoUrl: gco(646) },
+  GN: { name: "Guinea", population: 15, incidence: 127, mortality: 88, gcoUrl: gco(324) },
+  MD: { name: "Moldova", population: 2, incidence: 225, mortality: 111, gcoUrl: gco(498) },
+  LV: { name: "Latvia", population: 2, incidence: 282, mortality: 117, gcoUrl: gco(428) },
+  HN: { name: "Honduras", population: 11, incidence: 128, mortality: 82, gcoUrl: gco(340) },
+  AM: { name: "Armenia", population: 3, incidence: 216, mortality: 106, gcoUrl: gco(51) },
+  SO: { name: "Somalia", population: 19, incidence: 104, mortality: 69, gcoUrl: gco(706) },
+  JO: { name: "Jordan", population: 12, incidence: 112, mortality: 56, gcoUrl: gco(400) },
+  SV: { name: "El Salvador", population: 6, incidence: 130, mortality: 75, gcoUrl: gco(222) },
+  PA: { name: "Panama", population: 5, incidence: 158, mortality: 66, gcoUrl: gco(591) },
 };

@@ -2147,7 +2147,7 @@ export const tldr_de: Record<string, string> = {
   "niche-2": "In NICHE-2 beseitigten vier Wochen Immuntherapie vor der Operation die meisten Mismatch-Reparatur-defizienten Dickdarmkrebse, und drei Jahre später hatte niemand einen Rückfall erlitten.",
   "nicholas-turner": "Brustkrebsforscher, der ctDNA zu einem Werkzeug für die Therapiewahl gemacht hat und SERENA-6 sowie CAPItello-291 leitete.",
   "nicoletta-colombo": "Leitete KEYNOTE-826, wodurch Pembrolizumab plus Chemotherapie zum Erstlinienstandard beim rezidivierten oder metastasierten Gebärmutterhalskrebs wurde.",
-  "noi-budapest": "Ungarns nationales Krebsinstitut, Sitz des nationalen Krebsregisters und eines führenden Programms für Brust-Brachytherapie.",
+  "noi-budapest": "Ungarns nationales Krebsinstitut in Budapest. Es behandelt seltene Krebsarten und führt das nationale Krebsregister.",
   "nordic-lymphoma-group": "Das dänisch-finnisch-norwegisch-schwedisch-isländische Studiennetzwerk für Lymphome, am bekanntesten für das nordische Schema beim Mantelzelllymphom.",
   "northwell-cancer-institute": "Die Krebsabteilung des größten Gesundheitssystems im Bundesstaat New York, mit der von Kanti Rai begründeten CLL-Forschungstradition der Feinstein Institutes.",
   novocure: "Novocure stellt die Tumortherapiefelder Optune her, zugelassen bei Glioblastom, Lungenkrebs, Mesotheliom und (2026) Bauchspeicheldrüsenkrebs.",

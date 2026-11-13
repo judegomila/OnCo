@@ -934,7 +934,7 @@ export const pipelineTrialsWave6: TrialInput[] = [
     links: [{ label: "ClinicalTrials.gov NCT06667076", url: "https://clinicaltrials.gov/study/NCT06667076" }] },
   { id: "nct05491525", aka: ["KANGUROO"], kind: "trial", name: "Open-label, Long-term Safety, Efficacy, and Pharmacokinetics Study of Vibegron in Pediatric Subjects 2 Years to < 18 Years of Age With NDO and on CIC", nct: "NCT05491525", phase: "2/3", status: "recruiting", sponsor: "Urovant Sciences GmbH", enrolled: 71, asOf, tags,
     setting: "A Phase 2/3, Open-label, Baseline-controlled, Multicenter, Long-term Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of Vibegron in Pediatric Subjects 2 Years to < 18 Years of Age With Neurogenic Detrusor Overactivity (NDO) on Clean Intermittent Catheterization (CIC)",
-    tldr: "A phase 2/3 trial of Vibegron in childhood cancers, run by Urovant Sciences GmbH, now recruiting.",
+    tldr: "A phase 2/3 trial of vibegron in children with neurogenic detrusor overactivity, not a cancer, run by Urovant Sciences GmbH, now recruiting.",
     summary: "Open-label, Long-term Safety, Efficacy, and Pharmacokinetics Study of Vibegron in Pediatric Subjects 2 Years to < 18 Years of Age With NDO and on CIC is a phase 2/3 interventional study registered as NCT05491525 by Urovant Sciences GmbH, with 71 participants planned, started 2022-10-12 and due to reach its primary completion in 2030-03. Interventions recorded: Vibegron.",
     drugs: [], cancers: ["childhood-cancers"],
     links: [{ label: "ClinicalTrials.gov NCT05491525", url: "https://clinicaltrials.gov/study/NCT05491525" }] },

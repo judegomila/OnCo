@@ -91,8 +91,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "A cancer centre inside Jamhuriat Hospital in Kabul, where senior cancer nurses described in 2025 how hard it is for patients to reach and afford care.",
     summary: "Known to OnCo from two papers whose authors give their affiliation as the Cancer Centre, Jamhuriat Hospital, Kabul. A 2025 opinion paper in Seminars in Oncology Nursing, drawing on an environmental scan and the reflections of two senior nurses working in cancer services in Kabul, describes cancer nursing in a dire state: a collapsed economy, limited investment in health services, restrictions on women's education, and nurses wishing to migrate; it proposes actions to support cancer nursing. A 2024 paper on oncology nursing in the Eastern Mediterranean Region (Annals of Palliative Medicine) also lists the centre. OnCo read no website of the centre and no figure for its beds, staff or equipment; IAEA DIRAC lists no radiotherapy centre in Afghanistan. Coordinates are Nominatim's point for Jamhuriat Hospital.",
     programs: ["Cancer nursing", "Cancer treatment (services not itemised in the sources read)"],
-    // TODO: re-link kabul-cancer-registry (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["afghanistan-cancer-foundation"],
+    institutions: ["kabul-cancer-registry", "afghanistan-cancer-foundation"],
     links: [
       epmc("10.1016/j.soncn.2025.151895", "Samadi et al., inequities affecting cancer nursing care in Afghanistan (Semin Oncol Nurs 2025)"),
       epmc("10.21037/apm-23-511", "Oncology nursing in the Eastern Mediterranean Region (Ann Palliat Med 2024)"),
@@ -112,8 +111,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "A non-profit organisation in Kabul, set up in 2015, that works on cancer awareness, early detection, palliative care and research support in Afghanistan.",
     summary: "UICC's member page (an Associate Member, updated December 2025) describes the Afghanistan Cancer Foundation as a non-governmental, non-partisan, non-profit organisation established in 2015 to strengthen cancer control through awareness, advocacy, palliative care and research support, founded on the initiative of the Director General of the Afghanistan Medical Council, Dr Shafaq Shinwari, together with Afghan women affected by cancer. Its own site gives its address in District 19 of Kabul near the Pul-e-Charkhi Jalalabad bus station and describes conferences, public education and its own guidelines. The coordinates are an approximate Kabul city point.",
     programs: ["Cancer awareness and early detection", "Palliative care", "Advocacy", "Research support"],
-    // TODO: re-link kabul-cancer-registry (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["jamhuriat-hospital-cancer-centre", "herat-regional-hospital", "afghanistan-ncd-alliance"],
+    institutions: ["kabul-cancer-registry", "jamhuriat-hospital-cancer-centre", "herat-regional-hospital", "afghanistan-ncd-alliance"],
     links: [{ label: "Afghanistan Cancer Foundation", url: "https://www.afghanistancancerfoundation.org" }, uicc("afghanistan-cancer-foundation", "Afghanistan Cancer Foundation")] }),
 
   i({ id: "afghanistan-ncd-alliance", name: "Afghanistan NCD Alliance", aka: ["Afghanistan Non-Communicable Disease Alliance"],
@@ -130,8 +128,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "A national hospital in Phnom Penh with a national cancer centre and radiotherapy, including internal radiotherapy (brachytherapy). It also trains health workers and does research.",
     summary: "Calmette Hospital describes itself on its own site as a national hospital with three missions: quality of care, training of health professionals, and research. IAEA DIRAC lists it as a radiotherapy centre at 3 Preah Monivong Boulevard with one linear accelerator and one brachytherapy unit (entry updated 2020). Researchers at its National Cancer Center, Department of Pathology and Department of Gynaecology studied 50 cervical cancer biopsies from April 2019 to March 2020 and found HPV 16 or 18 in 83.3% (BMC Women's Health, 2025). UICC lists the hospital as an Associate Member working on awareness of cervical and breast cancer screening. A 2026 geospatial study found Cambodia's radiotherapy facilities concentrated in Phnom Penh, with 37% of the population within two hours' drive. Coordinates are from Wikidata.",
     programs: ["Radiotherapy (one linear accelerator and brachytherapy in IAEA DIRAC)", "National Cancer Center", "Cervical and breast cancer screening awareness", "Pathology"],
-    // TODO: re-link khmer-soviet-friendship-hospital (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["orange-cancer-clinic-phnom-penh", "iaea"],
+    institutions: ["khmer-soviet-friendship-hospital", "orange-cancer-clinic-phnom-penh", "iaea"],
     cancers: ["cervical", "breast-cancer"],
     links: [
       { label: "Calmette Hospital: about", url: "https://www.calmette.gov.kh/about" },
@@ -146,8 +143,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "A private cancer clinic in Phnom Penh offering screening, scans, chemotherapy and other drug treatment, radiotherapy, surgery and supportive care.",
     summary: "IAEA DIRAC lists Orange Cancer Clinic on National Road 6A in Khan Chroy Changva, Phnom Penh, as a radiotherapy centre with one linear accelerator (entry updated 2024). Its own site describes a private oncology and haematology clinic providing screening, imaging (CT, mammography, X-ray and ultrasound), chemotherapy, immunotherapy and targeted therapy, radiation treatment, cancer surgery, inpatient care and supportive care. Coordinates are DIRAC's.",
     programs: ["Radiotherapy (one linear accelerator in IAEA DIRAC)", "Chemotherapy, immunotherapy and targeted therapy", "Cancer surgery", "Screening and imaging"],
-    // TODO: re-link khmer-soviet-friendship-hospital (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["calmette-hospital"],
+    institutions: ["khmer-soviet-friendship-hospital", "calmette-hospital"],
     links: [{ label: "Orange Cancer Clinic", url: "https://www.orangecancerclinic.com" }, DIRAC] }),
 
   // ── Laos (LA) ────────────────────────────────────────────────────────────────────────────────────────────────
@@ -548,8 +544,8 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
 
 /** Existing record id to the new institution ids it should list (applied in src/data/index.ts). */
 export const countriesAsiaPacificBacklinks: Record<string, string[]> = {
-  // TODO: kabul-cancer-registry is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "kabul-cancer-registry": ["jamhuriat-hospital-cancer-centre", "afghanistan-cancer-foundation"],
-  // TODO: khmer-soviet-friendship-hospital is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "khmer-soviet-friendship-hospital": ["calmette-hospital", "orange-cancer-clinic-phnom-penh"],
+  "kabul-cancer-registry": ["jamhuriat-hospital-cancer-centre", "afghanistan-cancer-foundation"],
+  "khmer-soviet-friendship-hospital": ["calmette-hospital", "orange-cancer-clinic-phnom-penh"],
   "cancer-society-of-maldives": ["igmh-maldives"],
   // ClinicalTrials.gov site lists in the context file name "FHP Health Center-Guam", Tamuning.
   alchemist: ["fhp-health-center-guam"],

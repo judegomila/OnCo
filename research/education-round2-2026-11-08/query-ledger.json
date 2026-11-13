@@ -1,0 +1,770 @@
+[
+  {
+    "id": "antigen-evidence",
+    "lane": "Elicit semantic paper discovery",
+    "file": "elicit/antigen-evidence.json",
+    "request": {
+      "query": "Which primary studies distinguish predicted peptide-HLA binding, natural tumor peptide presentation by immunopeptidomics, and T-cell recognition, including immunodominance, epitope spreading and cross-reactivity?",
+      "searchMode": "semantic",
+      "maxResults": 15,
+      "corpus": "elicit"
+    },
+    "retrievedAt": "2026-11-08T21:06:36.424Z",
+    "capturedResults": 15,
+    "nativeReportCreated": false,
+    "warning": []
+  },
+  {
+    "id": "binder-targeting",
+    "lane": "Elicit semantic paper discovery",
+    "file": "elicit/binder-targeting.json",
+    "request": {
+      "query": "Which primary experiments distinguish antibody scFv and VHH formats, binding affinity, epitope position, developability and therapeutic function, or delivery targets from therapeutic targets in targeted nanoparticles?",
+      "searchMode": "semantic",
+      "maxResults": 15,
+      "corpus": "elicit"
+    },
+    "retrievedAt": "2026-11-08T21:06:38.111Z",
+    "capturedResults": 15,
+    "nativeReportCreated": false,
+    "warning": []
+  },
+  {
+    "id": "immune-assays",
+    "lane": "Elicit semantic paper discovery",
+    "file": "elicit/immune-assays.json",
+    "request": {
+      "query": "Which primary assay-development and interlaboratory validation studies distinguish ELISpot cytokine secretion, intracellular cytokine staining, peptide-MHC multimer binding, functional target-cell cytotoxicity, and TCR repertoire clonality?",
+      "searchMode": "semantic",
+      "maxResults": 15,
+      "corpus": "elicit"
+    },
+    "retrievedAt": "2026-11-08T21:06:33.213Z",
+    "capturedResults": 15,
+    "nativeReportCreated": false,
+    "warning": []
+  },
+  {
+    "id": "manufacturing-quality",
+    "lane": "Elicit semantic paper discovery",
+    "file": "elicit/manufacturing-quality.json",
+    "request": {
+      "query": "Which primary studies or regulatory guidance distinguish cell therapy viability, potency, batch release, manufacturing failure, out-of-specification product, comparability, and chain of identity or custody?",
+      "searchMode": "semantic",
+      "maxResults": 15,
+      "corpus": "elicit"
+    },
+    "retrievedAt": "2026-11-08T21:06:40.217Z",
+    "capturedResults": 15,
+    "nativeReportCreated": false,
+    "warning": []
+  },
+  {
+    "id": "rna-engineering",
+    "lane": "Elicit semantic paper discovery",
+    "file": "elicit/rna-engineering.json",
+    "request": {
+      "query": "Which primary experiments test mRNA construct elements, codon optimization, modified nucleosides, double-stranded RNA impurities and multi-epitope antigen processing?",
+      "searchMode": "semantic",
+      "maxResults": 15,
+      "corpus": "elicit"
+    },
+    "retrievedAt": "2026-11-08T21:06:38.116Z",
+    "capturedResults": 15,
+    "nativeReportCreated": false,
+    "warning": []
+  },
+  {
+    "id": "spatial-protein",
+    "lane": "Elicit semantic paper discovery",
+    "file": "elicit/spatial-protein.json",
+    "request": {
+      "query": "Which primary methods studies show cell segmentation limitations in spatial proteomics, phosphosite normalization to protein abundance, and targeted proteomics quantification or RPPA antibody validation?",
+      "searchMode": "semantic",
+      "maxResults": 15,
+      "corpus": "elicit"
+    },
+    "retrievedAt": "2026-11-08T21:06:43.028Z",
+    "capturedResults": 15,
+    "nativeReportCreated": false,
+    "warning": []
+  },
+  {
+    "id": "specimen-fitness",
+    "lane": "Elicit semantic paper discovery",
+    "file": "elicit/specimen-fitness.json",
+    "request": {
+      "query": "Which primary studies compare fixed FFPE, fresh-frozen and viable tumor specimens, tissue section consumption, and RNA integrity measures RIN and DV200 for molecular assays?",
+      "searchMode": "semantic",
+      "maxResults": 15,
+      "corpus": "elicit"
+    },
+    "retrievedAt": "2026-11-08T21:06:33.221Z",
+    "capturedResults": 15,
+    "nativeReportCreated": false,
+    "warning": []
+  },
+  {
+    "id": "elispot-origin",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/elispot-origin.json",
+    "request": {
+      "query": "TITLE:\"A solid-phase enzyme-linked immunospot\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+solid-phase+enzyme-linked+immunospot%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.306710+00:00",
+    "reportedHitCount": 3,
+    "capturedResults": 3,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "elispot-harmonization",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/elispot-harmonization.json",
+    "request": {
+      "query": "TITLE:\"Results and harmonization guidelines from two large-scale international Elispot\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Results+and+harmonization+guidelines+from+two+large-scale+international+Elispot%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.276521+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "ics-origin",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/ics-origin.json",
+    "request": {
+      "query": "TITLE:\"Determination of antigen-specific memory/effector CD4\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Determination+of+antigen-specific+memory%2Feffector+CD4%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.259188+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "multimer-origin",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/multimer-origin.json",
+    "request": {
+      "query": "TITLE:\"Phenotypic analysis of antigen-specific T lymphocytes\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Phenotypic+analysis+of+antigen-specific+T+lymphocytes%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.273526+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "degranulation-readout",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/degranulation-readout.json",
+    "request": {
+      "query": "TITLE:\"Sensitive and viable identification of antigen-specific CD8\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Sensitive+and+viable+identification+of+antigen-specific+CD8%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.884303+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "tcr-repertoire",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/tcr-repertoire.json",
+    "request": {
+      "query": "TITLE:\"Comprehensive assessment of T-cell receptor beta-chain diversity\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Comprehensive+assessment+of+T-cell+receptor+beta-chain+diversity%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.916825+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "pbmc-processing",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/pbmc-processing.json",
+    "request": {
+      "query": "TITLE:\"Defining blood processing parameters for optimal detection\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Defining+blood+processing+parameters+for+optimal+detection%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.947220+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "immunopeptidomics",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/immunopeptidomics.json",
+    "request": {
+      "query": "TITLE:\"Direct identification of clinically relevant neoepitopes presented on native human melanoma tissue\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Direct+identification+of+clinically+relevant+neoepitopes+presented+on+native+human+melanoma+tissue%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.944180+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "netmhcpan",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/netmhcpan.json",
+    "request": {
+      "query": "TITLE:\"NetMHCpan-4.0\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22NetMHCpan-4.0%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.503799+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "neoantigen-consortium",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/neoantigen-consortium.json",
+    "request": {
+      "query": "TITLE:\"Key Parameters of Tumor Epitope Immunogenicity\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Key+Parameters+of+Tumor+Epitope+Immunogenicity%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.690823+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "neoantigen-vaccine",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/neoantigen-vaccine.json",
+    "request": {
+      "query": "TITLE:\"An immunogenic personal neoantigen vaccine for patients with melanoma\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22An+immunogenic+personal+neoantigen+vaccine+for+patients+with+melanoma%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.750145+00:00",
+    "reportedHitCount": 2,
+    "capturedResults": 2,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "epitope-spreading",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/epitope-spreading.json",
+    "request": {
+      "query": "TITLE:\"Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Personal+neoantigen+vaccines+induce+persistent+memory+T+cell+responses+and+epitope+spreading%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.663275+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "immunodominance",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/immunodominance.json",
+    "request": {
+      "query": "TITLE:\"T cells compete for access to antigen-bearing antigen-presenting cells\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22T+cells+compete+for+access+to+antigen-bearing+antigen-presenting+cells%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.178606+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "cross-recognition",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/cross-recognition.json",
+    "request": {
+      "query": "TITLE:\"Identification of a Titin-Derived HLA-A1-Presented Peptide\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Identification+of+a+Titin-Derived+HLA-A1-Presented+Peptide%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.317516+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "cross-recognition-clinical",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/cross-recognition-clinical.json",
+    "request": {
+      "query": "TITLE:\"Cardiovascular toxicity and titin cross-reactivity\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Cardiovascular+toxicity+and+titin+cross-reactivity%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.385105+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "rna-integrity",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/rna-integrity.json",
+    "request": {
+      "query": "TITLE:\"The RIN: an RNA integrity number\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22The+RIN%3A+an+RNA+integrity+number%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.375776+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "paired-preservation",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/paired-preservation.json",
+    "request": {
+      "query": "TITLE:\"Next-generation sequencing of RNA and DNA isolated from paired fresh-frozen\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Next-generation+sequencing+of+RNA+and+DNA+isolated+from+paired+fresh-frozen%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.826078+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "viable-organoids",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/viable-organoids.json",
+    "request": {
+      "query": "TITLE:\"A Living Biobank of Breast Cancer Organoids\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+Living+Biobank+of+Breast+Cancer+Organoids%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.978422+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "pathology-specimen",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/pathology-specimen.json",
+    "request": {
+      "query": "TITLE:\"Collection and Handling of Thoracic Small Biopsy and Cytology Specimens\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Collection+and+Handling+of+Thoracic+Small+Biopsy+and+Cytology+Specimens%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.313128+00:00",
+    "reportedHitCount": 3,
+    "capturedResults": 3,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "modified-nucleosides",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/modified-nucleosides.json",
+    "request": {
+      "query": "TITLE:\"Suppression of RNA recognition by Toll-like receptors\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Suppression+of+RNA+recognition+by+Toll-like+receptors%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.052652+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "rna-purification",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/rna-purification.json",
+    "request": {
+      "query": "TITLE:\"Generating the optimal mRNA for therapy\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Generating+the+optimal+mRNA+for+therapy%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.465346+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "dsrna-removal",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/dsrna-removal.json",
+    "request": {
+      "query": "TITLE:\"A Facile Method for the Removal of dsRNA Contaminant\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+Facile+Method+for+the+Removal+of+dsRNA+Contaminant%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.591542+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "mrna-structure",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/mrna-structure.json",
+    "request": {
+      "query": "TITLE:\"mRNA structure regulates protein expression through changes in functional half-life\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22mRNA+structure+regulates+protein+expression+through+changes+in+functional+half-life%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.703053+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "mrna-construct",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/mrna-construct.json",
+    "request": {
+      "query": "TITLE:\"Modification of antigen-encoding RNA increases antigen expression\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Modification+of+antigen-encoding+RNA+increases+antigen+expression%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.942665+00:00",
+    "reportedHitCount": 0,
+    "capturedResults": 0,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "codon-optimality",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/codon-optimality.json",
+    "request": {
+      "query": "TITLE:\"Codon optimality is a major determinant of mRNA stability\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Codon+optimality+is+a+major+determinant+of+mRNA+stability%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.103810+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "multiepitope-design",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/multiepitope-design.json",
+    "request": {
+      "query": "TITLE_ABS:\"polyepitope\" AND TITLE_ABS:\"flanking\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22polyepitope%22+AND+TITLE_ABS%3A%22flanking%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.906065+00:00",
+    "reportedHitCount": 5,
+    "capturedResults": 5,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "scfv-origin",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/scfv-origin.json",
+    "request": {
+      "query": "TITLE:\"Protein engineering of antibody binding sites\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Protein+engineering+of+antibody+binding+sites%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.373040+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "vhh-origin",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/vhh-origin.json",
+    "request": {
+      "query": "TITLE:\"Naturally occurring antibodies devoid of light chains\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Naturally+occurring+antibodies+devoid+of+light+chains%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.587836+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "antibody-developability",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/antibody-developability.json",
+    "request": {
+      "query": "TITLE:\"Biophysical properties of the clinical-stage antibody landscape\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Biophysical+properties+of+the+clinical-stage+antibody+landscape%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.737129+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "binder-format",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/binder-format.json",
+    "request": {
+      "query": "TITLE:\"Epitope distance to the target cell membrane and antigen size\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Epitope+distance+to+the+target+cell+membrane+and+antigen+size%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.004067+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "delivery-versus-target",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/delivery-versus-target.json",
+    "request": {
+      "query": "TITLE:\"CAR T cells produced in vivo to treat cardiac injury\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22CAR+T+cells+produced+in+vivo+to+treat+cardiac+injury%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.248104+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "cell-segmentation",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/cell-segmentation.json",
+    "request": {
+      "query": "TITLE:\"Whole-cell segmentation of tissue images\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Whole-cell+segmentation+of+tissue+images%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.530292+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "imaging-mass-cytometry",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/imaging-mass-cytometry.json",
+    "request": {
+      "query": "TITLE:\"Highly multiplexed imaging of tumor tissues with subcellular resolution\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Highly+multiplexed+imaging+of+tumor+tissues+with+subcellular+resolution%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.651382+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "phosphosite-normalization",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/phosphosite-normalization.json",
+    "request": {
+      "query": "TITLE:\"Correct interpretation of comprehensive phosphorylation dynamics\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Correct+interpretation+of+comprehensive+phosphorylation+dynamics%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.740300+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "rppa-origin",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/rppa-origin.json",
+    "request": {
+      "query": "TITLE:\"Reverse phase protein microarrays which capture disease progression\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Reverse+phase+protein+microarrays+which+capture+disease+progression%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.902594+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "targeted-proteomics",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/targeted-proteomics.json",
+    "request": {
+      "query": "TITLE:\"Multi-site assessment of the precision and reproducibility of multiple reaction monitoring\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Multi-site+assessment+of+the+precision+and+reproducibility+of+multiple+reaction+monitoring%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:36.748930+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "potency-survey",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/potency-survey.json",
+    "request": {
+      "query": "TITLE:\"Analysis of the measurements used as potency tests\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Analysis+of+the+measurements+used+as+potency+tests%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:36.273785+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "mrna-construct-resolved",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/mrna-construct-resolved.json",
+    "request": {
+      "query": "EXT_ID:16940422 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16940422+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:10:00.188070+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "multiepitope-processing",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/multiepitope-processing.json",
+    "request": {
+      "query": "TITLE:\"Optimization of epitope processing enhances immunogenicity of multiepitope DNA vaccines\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Optimization+of+epitope+processing+enhances+immunogenicity+of+multiepitope+DNA+vaccines%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:10:00.847301+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "cytotoxicity-assay",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/cytotoxicity-assay.json",
+    "request": {
+      "query": "TITLE:\"A novel multiparametric flow cytometry-based cytotoxicity assay\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+novel+multiparametric+flow+cytometry-based+cytotoxicity+assay%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:10:01.688359+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "assay-validation-comparison",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/assay-validation-comparison.json",
+    "request": {
+      "query": "DOI:10.1186/1471-2172-9-9 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1186%2F1471-2172-9-9+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:21.855924+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "binder-format-comparison",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/binder-format-comparison.json",
+    "request": {
+      "query": "DOI:10.1016/j.ymthe.2026.06.017 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.ymthe.2026.06.017+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:22.530000+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "rna-quality-comparison",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/rna-quality-comparison.json",
+    "request": {
+      "query": "DOI:10.1038/s41598-018-24781-6 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41598-018-24781-6+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:23.286759+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "preanalytic-variables",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/preanalytic-variables.json",
+    "request": {
+      "query": "DOI:10.5858/arpa.2018-0172-OA AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.5858%2Farpa.2018-0172-OA+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:24.104583+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "rppa-antibody-validation",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/rppa-antibody-validation.json",
+    "request": {
+      "query": "DOI:10.1038/s41598-022-26715-9 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41598-022-26715-9+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:24.775432+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "segmentation-errors",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/segmentation-errors.json",
+    "request": {
+      "query": "DOI:10.1038/s41588-025-02497-4 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41588-025-02497-4+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:25.465886+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "manufacturing-failure",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/manufacturing-failure.json",
+    "request": {
+      "query": "DOI:10.1038/s41408-025-01225-9 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41408-025-01225-9+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:26.178632+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "mibi",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/mibi.json",
+    "request": {
+      "query": "TITLE:\"Multiplexed ion beam imaging of human breast tumors\" AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Multiplexed+ion+beam+imaging+of+human+breast+tumors%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:24:05.886380+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "existing-her2-source",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/existing-her2-source.json",
+    "request": {
+      "query": "DOI:10.1200/JCO.2018.77.8738 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.2018.77.8738+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:31:25.646997+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "existing-immunoediting-source",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/existing-immunoediting-source.json",
+    "request": {
+      "query": "DOI:10.1126/science.1203486 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1126%2Fscience.1203486+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:31:26.261754+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  },
+  {
+    "id": "existing-resistance-source",
+    "lane": "Europe PMC bounded title/DOI lookup",
+    "file": "primary/existing-resistance-source.json",
+    "request": {
+      "query": "DOI:10.1056/NEJMoa1604958 AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2FNEJMoa1604958+AND+SRC%3AMED&format=json&resultType=core&pageSize=6"
+    },
+    "retrievedAtFilesystemUTC": "2026-11-08T21:31:27.008699+00:00",
+    "reportedHitCount": 1,
+    "capturedResults": 1,
+    "paginationScope": "First response only, bounded lookup; not an exhaustive search or registry sweep."
+  }
+]

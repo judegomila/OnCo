@@ -1,0 +1,505 @@
+{
+  "method": "React renderToStaticMarkup of the actual EntityDetail component with the graph and Next AppRouterContext; not a production deployment or browser screenshot review.",
+  "recordCount": 45,
+  "checkedAt": "2026-11-08T21:52:16.052037+00:00",
+  "assertions": [
+    "All touched record asOf values are 2026-11-08",
+    "Every explicit source URL appears in its rendered page",
+    "No nested HTML anchors"
+  ],
+  "humanReadRenderedTextIds": [
+    "certificate-of-analysis",
+    "immunodominance",
+    "intracellular-cytokine-staining",
+    "binder-format-constraints",
+    "cell-therapy-release-testing",
+    "antigen-presentation-immunoediting"
+  ],
+  "additionalFinding": "Release-testing diagram wording was corrected after rendered review; same geometry and animation timing.",
+  "records": [
+    {
+      "id": "immune-product-evidence",
+      "bytes": 25591,
+      "sourceUrls": [
+        "https://doi.org/10.1186/1471-2172-9-9",
+        "https://doi.org/10.1038/ncomms13404",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "elispot",
+      "bytes": 18905,
+      "sourceUrls": [
+        "https://doi.org/10.1016/0022-1759(83)90308-3",
+        "https://doi.org/10.1007/s00262-007-0380-6",
+        "https://doi.org/10.1186/1471-2172-9-9"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "intracellular-cytokine-staining",
+      "bytes": 18036,
+      "sourceUrls": [
+        "https://doi.org/10.1172/jci119338",
+        "https://doi.org/10.1186/1471-2172-9-9",
+        "https://doi.org/10.1016/s0022-1759(03)00265-5"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "peptide-hla-multimer-staining",
+      "bytes": 20106,
+      "sourceUrls": [
+        "https://doi.org/10.1126/science.274.5284.94",
+        "https://doi.org/10.1016/s0022-1759(03)00265-5"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immune-cytotoxicity-assays",
+      "bytes": 20514,
+      "sourceUrls": [
+        "https://doi.org/10.1016/j.jim.2007.05.013",
+        "https://doi.org/10.1016/s0022-1759(03)00265-5"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tcr-repertoire-sequencing",
+      "bytes": 20693,
+      "sourceUrls": [
+        "https://doi.org/10.1182/blood-2009-04-217604",
+        "https://doi.org/10.1126/science.274.5284.94"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tcr-repertoire-clonality",
+      "bytes": 20261,
+      "sourceUrls": [
+        "https://doi.org/10.1182/blood-2009-04-217604",
+        "https://doi.org/10.1126/science.274.5284.94"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "pbmc-specimens",
+      "bytes": 21260,
+      "sourceUrls": [
+        "https://id.nlm.nih.gov/mesh/M0012412.json",
+        "https://doi.org/10.1016/j.jim.2007.02.003"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binding-presentation-recognition",
+      "bytes": 21584,
+      "sourceUrls": [
+        "https://doi.org/10.1038/ncomms13404",
+        "https://doi.org/10.1016/j.cell.2020.09.015",
+        "https://doi.org/10.4049/jimmunol.1700893"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunopeptidome",
+      "bytes": 20671,
+      "sourceUrls": [
+        "https://doi.org/10.1038/ncomms13404"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunopeptidomics",
+      "bytes": 20601,
+      "sourceUrls": [
+        "https://doi.org/10.1038/ncomms13404",
+        "https://doi.org/10.1016/j.cell.2020.09.015"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "peptide-hla-binding-prediction",
+      "bytes": 19831,
+      "sourceUrls": [
+        "https://doi.org/10.4049/jimmunol.1700893",
+        "https://doi.org/10.1016/j.cell.2020.09.015"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunodominance",
+      "bytes": 18991,
+      "sourceUrls": [
+        "https://doi.org/10.1084/jem.192.8.1105"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "epitope-spreading",
+      "bytes": 18008,
+      "sourceUrls": [
+        "https://doi.org/10.1038/s41591-020-01206-4"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "self-similarity-immune-recognition",
+      "bytes": 22114,
+      "sourceUrls": [
+        "https://doi.org/10.1126/scitranslmed.3006034"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immunogenicity-versus-efficacy",
+      "bytes": 21254,
+      "sourceUrls": [
+        "https://doi.org/10.1038/nature22991",
+        "https://doi.org/10.1038/s41591-020-01206-4"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tissue-preparation-assay-fit",
+      "bytes": 21127,
+      "sourceUrls": [
+        "https://doi.org/10.1371/journal.pone.0098187",
+        "https://doi.org/10.5858/arpa.2018-0172-oa",
+        "https://doi.org/10.1016/j.cell.2017.11.010"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "finite-tissue-budget",
+      "bytes": 19342,
+      "sourceUrls": [
+        "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/intro",
+        "https://doi.org/10.5858/arpa.2020-0119-cp"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rna-integrity",
+      "bytes": 17597,
+      "sourceUrls": [
+        "https://doi.org/10.1186/1471-2199-7-3",
+        "https://doi.org/10.1038/s41598-018-24781-6",
+        "https://doi.org/10.5858/arpa.2018-0172-oa"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "specimen-provenance",
+      "bytes": 17733,
+      "sourceUrls": [
+        "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/intro"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "mrna-construct-anatomy",
+      "bytes": 19853,
+      "sourceUrls": [
+        "https://doi.org/10.1182/blood-2006-04-015024",
+        "https://doi.org/10.1073/pnas.1908052116",
+        "https://doi.org/10.1093/nar/gkr695"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "codon-optimization",
+      "bytes": 17236,
+      "sourceUrls": [
+        "https://doi.org/10.1016/j.cell.2015.02.029",
+        "https://doi.org/10.1073/pnas.1908052116"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "modified-rna-nucleosides",
+      "bytes": 18747,
+      "sourceUrls": [
+        "https://doi.org/10.1016/j.immuni.2005.06.008",
+        "https://doi.org/10.1093/nar/gkr695"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "in-vitro-transcription",
+      "bytes": 18935,
+      "sourceUrls": [
+        "https://doi.org/10.1093/nar/gkr695",
+        "https://doi.org/10.1016/j.omtn.2019.02.018",
+        "https://doi.org/10.1182/blood-2006-04-015024"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "dsrna-impurities",
+      "bytes": 16967,
+      "sourceUrls": [
+        "https://doi.org/10.1093/nar/gkr695",
+        "https://doi.org/10.1016/j.omtn.2019.02.018"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "multi-epitope-constructs",
+      "bytes": 19549,
+      "sourceUrls": [
+        "https://doi.org/10.1016/s0264-410x(01)00233-x",
+        "https://doi.org/10.1084/jem.192.8.1105",
+        "https://doi.org/10.1182/blood-2006-04-015024"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binder-targeting-module",
+      "bytes": 17203,
+      "sourceUrls": [
+        "https://doi.org/10.1073/pnas.85.16.5879",
+        "https://doi.org/10.1038/363446a0",
+        "https://doi.org/10.1007/s00262-010-0844-y"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binder-affinity-epitope-developability",
+      "bytes": 20800,
+      "sourceUrls": [
+        "https://doi.org/10.1007/s00262-010-0844-y",
+        "https://doi.org/10.1073/pnas.1616408114"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binder-format-constraints",
+      "bytes": 17029,
+      "sourceUrls": [
+        "https://doi.org/10.1007/s00262-010-0844-y",
+        "https://doi.org/10.1016/j.ymthe.2026.06.017"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "scfv-vhh-formats",
+      "bytes": 16507,
+      "sourceUrls": [
+        "https://doi.org/10.1073/pnas.85.16.5879",
+        "https://doi.org/10.1038/363446a0",
+        "https://doi.org/10.1016/j.ymthe.2026.06.017"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "delivery-target-versus-therapeutic-target",
+      "bytes": 19544,
+      "sourceUrls": [
+        "https://doi.org/10.1126/science.abm0594"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "chemistry-manufacturing-controls",
+      "bytes": 20252,
+      "sourceUrls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "certificate-of-analysis",
+      "bytes": 17711,
+      "sourceUrls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "manufacturing-process-comparability",
+      "bytes": 18191,
+      "sourceUrls": [
+        "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-5-e-comparability-biotechnologicalbiological-products-step-5_en.pdf"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-segmentation",
+      "bytes": 16311,
+      "sourceUrls": [
+        "https://doi.org/10.1038/s41587-021-01094-0",
+        "https://doi.org/10.1038/s41588-025-02497-4"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "targeted-proteomics-quantification",
+      "bytes": 19725,
+      "sourceUrls": [
+        "https://doi.org/10.1038/nbt.1546"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "neoantigen",
+      "bytes": 53634,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Neoantigen",
+        "https://doi.org/10.1038/ncomms13404",
+        "https://doi.org/10.1016/j.cell.2020.09.015"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "flow-cytometry",
+      "bytes": 29867,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Flow_cytometry",
+        "https://doi.org/10.1172/jci119338",
+        "https://doi.org/10.1186/1471-2172-9-9",
+        "https://doi.org/10.1016/j.jim.2007.05.013"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "vein-to-vein-time",
+      "bytes": 27268,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell",
+        "https://doi.org/10.1038/s41408-025-01225-9",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products",
+        "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/intro"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "antigen-presentation-immunoediting",
+      "bytes": 68780,
+      "sourceUrls": [
+        "https://doi.org/10.1126/science.1203486",
+        "https://doi.org/10.1056/NEJMoa1604958",
+        "https://doi.org/10.1038/ncomms13404",
+        "https://doi.org/10.1016/j.cell.2020.09.015",
+        "https://doi.org/10.1007/s00262-010-0844-y"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cell-therapy-release-testing",
+      "bytes": 31224,
+      "sourceUrls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "preanalytics-sample-stabilisation",
+      "bytes": 33673,
+      "sourceUrls": [
+        "https://doi.org/10.1200/JCO.2018.77.8738",
+        "https://doi.org/10.1371/journal.pone.0098187",
+        "https://doi.org/10.5858/arpa.2018-0172-oa",
+        "https://doi.org/10.1038/s41598-018-24781-6",
+        "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/intro"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "proteomics",
+      "bytes": 68567,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Proteomics",
+        "https://doi.org/10.1074/mcp.m111.009654",
+        "https://doi.org/10.1038/nbt.1546",
+        "https://doi.org/10.1038/s41598-022-26715-9"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "imaging-mass-cytometry",
+      "bytes": 30187,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Mass_cytometry",
+        "https://doi.org/10.1038/nmeth.2869",
+        "https://doi.org/10.1038/nm.3488",
+        "https://doi.org/10.1038/s41587-021-01094-0"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "rppa",
+      "bytes": 24342,
+      "sourceUrls": [
+        "https://en.wikipedia.org/wiki/Reverse_phase_protein_lysate_microarray",
+        "https://doi.org/10.1038/sj.onc.1204265",
+        "https://doi.org/10.1038/s41598-022-26715-9",
+        "https://doi.org/10.1074/mcp.m111.009654"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    }
+  ],
+  "releaseTestingSchematic": {
+    "labels": [
+      "Final CAR-T product",
+      "Safety and identity: product-specific tests",
+      "Viability, CAR expression and vector-related attributes",
+      "Timing and sampling depend on the workflow"
+    ],
+    "captions": [
+      "1 · A cell-product lot is sampled for specified quality checks; assay requirements and acceptance criteria depend on the product and development stage",
+      "2 · Sterility, mycoplasma and endotoxin assays assess specified contamination risks; identity testing and cell tracking address different questions. Flow cytometry can measure viability and CAR expression",
+      "3 · Where relevant, vector-copy and replication-competent-virus tests assess vector-related attributes. Potency assays measure a specified biological activity; cytokine release and target-cell killing are different readouts",
+      "4 · Test duration and sampling needs depend on the workflow. A release result supports a lot-quality decision; its relationship to clinical outcomes needs product-specific evidence"
+    ]
+  }
+}

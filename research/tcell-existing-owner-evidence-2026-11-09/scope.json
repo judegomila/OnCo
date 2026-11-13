@@ -1,0 +1,221 @@
+{
+  "checkedOn": "2026-11-09",
+  "owners": [
+    "tcr-repertoire-clonality",
+    "immunodominance",
+    "epitope-spreading"
+  ],
+  "learningRequirements": 10,
+  "newRecords": 0,
+  "canonicalDraftOwners": 45,
+  "newVersusMain": 36,
+  "existingVersusMain": 9,
+  "sources": [
+    {
+      "id": "18641351",
+      "pmid": "18641351",
+      "doi": "10.4049/jimmunol.181.3.2124",
+      "title": "Naive precursor frequencies and MHC binding rather than the degree of epitope diversity shape CD8+ T cell immunodominance.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:18641351%20AND%20SRC:MED&format=json&resultType=core",
+      "sha256": "69a134a3b5a5948294a8cf6baef43a1c730b7ae56bf281dfc764a27e0cf6c960",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "dominance-context",
+        "dominance-mechanism",
+        "dominance-assay"
+      ]
+    },
+    {
+      "id": "21367907",
+      "pmid": "21367907",
+      "doi": "10.1128/jvi.00093-11",
+      "title": "Immunodominance of HLA-A2-restricted hepatitis C virus-specific CD8+ T cell responses is linked to naive-precursor frequency.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:21367907%20AND%20SRC:MED&format=json&resultType=core",
+      "sha256": "59b62e039b999e117d2daf7c7456eca39710946dcd0a3995f0a7161c983050f6",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "dominance-context",
+        "dominance-mechanism"
+      ]
+    },
+    {
+      "id": "22365666",
+      "pmid": "22365666",
+      "doi": "10.1016/j.immuni.2012.02.006",
+      "title": "Maintenance of peripheral naive T cells is sustained by thymus output in mice but not humans.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22365666%20AND%20SRC:MED&format=json&resultType=core",
+      "sha256": "b5a2bb7df0f5803fd6c64ef65d0f14666cc79bd6562fdae31d4baade66748ada",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "repertoire-sampling",
+        "state-history",
+        "thymus-maintenance",
+        "thymus-interpretation"
+      ]
+    },
+    {
+      "id": "24952902",
+      "pmid": "24952902",
+      "doi": "10.1038/nbt.2938",
+      "title": "Linking T-cell receptor sequence to functional phenotype at the single-cell level.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24952902%20AND%20SRC:MED&format=json&resultType=core",
+      "sha256": "7515e898c4d411e2ab5828a60011e9a860c0506831280c360e2046a3e72db2d0",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "tcr-structure",
+        "tcr-readouts",
+        "tcr-intervention",
+        "repertoire-definition",
+        "state-identity",
+        "state-function",
+        "tcell-measurement"
+      ]
+    },
+    {
+      "id": "31359002",
+      "pmid": "31359002",
+      "doi": "10.1038/s41591-019-0522-3",
+      "title": "Clonal replacement of tumor-specific T cells following PD-1 blockade.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:31359002%20AND%20SRC:MED&format=json&resultType=core",
+      "sha256": "5403b051e3924a3d80c05215859d2d8d35e007e671a18d52cd2288cbf762f2be",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "response-origin",
+        "repertoire-sampling",
+        "state-function"
+      ]
+    },
+    {
+      "id": "33038342",
+      "pmid": "33038342",
+      "doi": "10.1016/j.cell.2020.09.015",
+      "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33038342%20AND%20SRC:MED&format=json&resultType=core",
+      "sha256": "59008ee8cbd846e0b6556ecf3197ed343e77201015c6f74295396659ac369389",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "dominance-context",
+        "dominance-assay"
+      ]
+    },
+    {
+      "id": "33479501",
+      "pmid": "33479501",
+      "doi": "10.1038/s41591-020-01206-4",
+      "title": "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33479501%20AND%20SRC:MED&format=json&resultType=core",
+      "sha256": "f3bb3717da7113f8e65e5d6df34e569843b14af55471ffbd2999e3478261bb32",
+      "readingDepth": "abstract and resolved bibliographic identity; reused original capture",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "spreading-definition",
+        "spreading-causality",
+        "spreading-example"
+      ]
+    },
+    {
+      "id": "26324409",
+      "pmid": "26324409",
+      "doi": "10.1038/ncomms9081",
+      "title": "High-resolution analysis of the human T-cell receptor repertoire.",
+      "url": "https://europepmc.org/article/MED/26324409",
+      "sha256": "3809a845cd55c35562564280ddf0c062fabe13758cea9ec570721352495caeb3",
+      "readingDepth": "resolved identity and abstract",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "tcr-structure",
+        "tcr-readouts",
+        "repertoire-definition",
+        "repertoire-sampling"
+      ]
+    },
+    {
+      "id": "28678778",
+      "pmid": "28678778",
+      "doi": "10.1038/nature22991",
+      "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+      "url": "https://europepmc.org/article/MED/28678778",
+      "sha256": "c1eac18a356563da2b2efdc665555649ed7e9b7584b598b294c55e96ccec6cc1",
+      "readingDepth": "resolved identity and abstract",
+      "evidenceType": "primary study abstract",
+      "supportedRequirements": [
+        "spreading-causality",
+        "tcr-intervention"
+      ]
+    }
+  ],
+  "changes": [
+    {
+      "id": "tcr-repertoire-clonality",
+      "fields": [
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "897f202aff79cea39dd300f60fe58786b62247ef6b7e2c0bf620673a4ff71298"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "894338a92ee2c3b854dd5ad03f8a2c5074f805e3b587f88ddd213433602b1733",
+          "afterSha256": "1744816a5f4326d311b33b102bb8730e8031cd38a26efa13470f12acbe1aee68"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "afterSha256": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+        }
+      ]
+    },
+    {
+      "id": "immunodominance",
+      "fields": [
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "fccce89545f4b03b7e9110e8b65186f1abae9051d79083b14b6c2890bed8d1d1"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "3bfc22f794341270099f3c87348a9a8b53e8cbd23fdaa10ad84a5f37d3edf3cd",
+          "afterSha256": "4ec4bbda94a133bdd7b5ffd146207066f92c3b6002db3f7491f38d331c41f584"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "afterSha256": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+        }
+      ]
+    },
+    {
+      "id": "epitope-spreading",
+      "fields": [
+        {
+          "field": "notes",
+          "beforeSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "afterSha256": "0cbf81a8ce2340818da50c2e25f2e137771629174e6ca1cde76295f611217ce2"
+        },
+        {
+          "field": "links",
+          "beforeSha256": "a1ef91a44a713b620ff644c8ad535073266d9bfc0202db5c799f28e945eecf1a",
+          "afterSha256": "e1eef140af05318e6cb9263e371ad3f166f75a44a8369255b07fe67da1a45c2e"
+        },
+        {
+          "field": "asOf",
+          "beforeSha256": "3742c520e4b076b8f25c29fb2fb474ac56259e2077648042554c29b1b94855ce",
+          "afterSha256": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+        }
+      ]
+    }
+  ],
+  "workerCommits": [
+    "3d78cf048fc1323091f4567afd286d81fc6ccebd",
+    "7a62395f6a87e45d6037de6f554ae46962f49e37"
+  ],
+  "approval": "Draft pending maintainer triage; no expert sign-off or COI asserted.",
+  "sourceCustody": "Raw primary bytes, complete abstracts and review HTML remain in persistent storage outside Git. Reader notes are an authored teaching synthesis."
+}

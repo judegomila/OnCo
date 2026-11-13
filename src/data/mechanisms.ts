@@ -66,10 +66,11 @@ const pathways: PathwayInput[] = [
     tags: ["mechanism"],
   }),
   p({
-    id: "antigen-presentation-immunoediting", name: "Antigen presentation & immune editing", wikipedia: W("Immunoediting"),
-    tldr: "How the immune system sees cancer, and how cancer learns to hide. Tumours display fragments of their proteins on MHC molecules; T cells kill the ones they recognise; the survivors are the ones that stopped showing fragments or switched on brakes.",
-    summary: "Proteasome-processed peptides are loaded on MHC class I (HLA-A/B/C, B2M) and presented to CD8 T cells; dendritic cells cross-present tumour antigens in lymph nodes. Immunoediting proceeds through elimination, equilibrium, and escape: loss of B2M or HLA, JAK1/2 or IFNGR mutations (blunting interferon-γ response), antigen loss, PD-L1 induction, and immunosuppressive niches. Neoantigen quality, not just quantity, predicts response; HLA genotype shapes which mutations are visible. Escape variants explain acquired resistance to checkpoint blockade and CAR-T (CD19 loss).",
-    analogy: "Wanted posters: the cell pins fragments of everything it makes onto its surface. Immune police recognise criminals' faces. Cancers that survive have taken down the posters (lost MHC) or bribed the police (checkpoints).",
+    id: "antigen-presentation-immunoediting",
+    related: ["binding-presentation-recognition", "immunopeptidome", "immunopeptidomics", "self-similarity-immune-recognition", "immunogenicity-versus-efficacy"], asOf: "2026-11-10", name: "Antigen presentation & immune editing", wikipedia: W("Immunoediting"),
+    tldr: "Cells display protein fragments that immune cells can recognize. Tumors can escape by changing this display or suppressing immune responses. Recognition and target-cell killing are separate steps.",
+    summary: "Proteasome-processed peptides are loaded on MHC class I (HLA-A/B/C, B2M) and presented to CD8 T cells; dendritic cells cross-present tumour antigens in lymph nodes. Immunoediting describes elimination, equilibrium and escape as possible, sometimes coexisting processes rather than a mandatory sequence. Examples of altered recognition or immune control include: loss of B2M or HLA, JAK1/2 or IFNGR mutations (blunting interferon-γ response), antigen loss, PD-L1 induction, and immunosuppressive niches. Candidate epitope selection considers presentation and immune recognition; these require evidence beyond mutation count or predicted binding. HLA genotype shapes which peptides can be displayed. Escape variants explain acquired resistance to checkpoint blockade and CAR-T (CD19 loss).",
+    analogy: "A cell displays a selection of protein fragments, like samples placed in a window. Display, recognition by an immune receptor and a response from that immune cell are separate steps.",
     nodes: [
       { id: "prot", label: "Proteasome → peptides", x: 15, y: 30 }, { id: "tap", label: "TAP transport", x: 35, y: 30 }, { id: "mhc", label: "MHC-I / B2M loading", x: 55, y: 30 }, { id: "surf", label: "Peptide-MHC on surface", x: 75, y: 30 },
       { id: "tcr", label: "CD8 T cell (TCR)", x: 75, y: 65, targetId: "cd3" }, { id: "ifn", label: "IFN-γ → JAK1/2 → STAT1", x: 45, y: 65 }, { id: "pdl1", label: "PD-L1 induction", x: 25, y: 85, targetId: "pdl1" },
@@ -78,11 +79,54 @@ const pathways: PathwayInput[] = [
     edges: [
       { from: "prot", to: "tap" }, { from: "tap", to: "mhc" }, { from: "mhc", to: "surf" }, { from: "surf", to: "tcr" }, { from: "dc", to: "tcr" }, { from: "tcr", to: "ifn" }, { from: "ifn", to: "mhc" }, { from: "ifn", to: "pdl1" }, { from: "pdl1", to: "tcr", type: "inhibits" }, { from: "escape", to: "mhc", type: "inhibits" }, { from: "escape", to: "ifn", type: "inhibits" },
     ],
-    interventions: ["Checkpoint inhibitors; personalised neoantigen vaccines (intismeran) supply antigen; T-cell engagers and CAR-T bypass MHC entirely", "TCR-T and ImmTACs (tebentafusp) target intracellular antigens via peptide-HLA", "Epigenetic drugs and interferon can re-express MHC; MHC-independent NK-cell therapies address MHC-loss escape"],
+    interventions: ["Checkpoint inhibitors; personalised neoantigen vaccines supply encoded antigens; CAR-T and surface-antigen-directed T-cell engagers recognize targets without requiring peptide-HLA, while peptide-HLA-directed formats retain that requirement", "TCR-T and ImmTACs (tebentafusp) target intracellular antigens via peptide-HLA", "Epigenetic drugs and interferon can re-express MHC; MHC-independent NK-cell therapies address MHC-loss escape"],
     pathways: ["pd1-checkpoint", "cgas-sting", "jak-stat"], targets: ["pd1", "pdl1", "cd3", "gp100", "mage-a4", "prame", "hla-a"], technologies: ["neoantigen-mrna-vaccine", "tcr-t", "t-cell-engager", "car-t", "car-nk-macrophage", "checkpoint-inhibitor"], terms: ["neoantigen", "hla-a02-restriction", "tmb", "cold-vs-hot", "avoiding-immune-destruction"],
     institutions: ["wustl-siteman", "mskcc", "nci", "johns-hopkins"],
-    notes: ["Leading programmes: Schreiber (WashU) coined immunoediting; Chan and Ribas on neoantigen quality and escape (MSK, UCLA); NCI Surgery Branch on neoantigen-reactive T cells; Balachandran (MSK) on long-term vaccine responders."],
-    links: [{ label: "Schreiber, Old & Smyth, Cancer immunoediting (Science 2011)", url: "https://doi.org/10.1126/science.1203486" }, { label: "Zaretsky et al., Mutations associated with acquired resistance to PD-1 blockade (NEJM 2016)", url: "https://doi.org/10.1056/NEJMoa1604958" }],
+    notes: [
+  "Leading programmes: Schreiber (WashU) coined immunoediting; Chan and Ribas on neoantigen quality and escape (MSK, UCLA); NCI Surgery Branch on neoantigen-reactive T cells; Balachandran (MSK) on long-term vaccine responders.",
+  "Predicted peptide binding, natural peptide presentation and immune recognition have different evidence. Direct melanoma immunopeptidomics and a neoantigen-prediction consortium illustrate why a candidate at one stage should not be described as validated at every later stage.",
+  "Koebel used immune perturbation in chemical-carcinogenesis mouse models to demonstrate equilibrium; a quiet scan alone is not such an experiment. Matsushita combined sequencing, antigen recognition and immune comparisons in mouse sarcoma to support selection of pre-existing antigen-distinct clones. This is different from T cells creating every mutation that appears later.",
+  "Luksza followed 70 pancreatic ductal adenocarcinomas from 15 people longitudinally over ten years, comparing primary and recurrent tumours and modelling neoantigen quality and clonal fitness. Long-term survivors had stronger primary T-cell activity and recurrent tumours with fewer high-quality neoantigens under the model. This is human cohort and modelling evidence, not a vaccine experiment or direct observation of every selection event. Treatment and sampling history and model assumptions remain relevant.",
+  "An editing claim combines longitudinal populations or antigens, recognition or functional assays and relevant comparisons. Apparent antigen loss can instead reflect sampling, detection limits, expression change or another treatment. Neither sequencing alone nor a killing experiment reconstructs the whole history. One immune-rich sample, negative blood test or model cannot assign an individual postoperative phase, explain every recurrence or forecast personal risk; different lesions can face different pressures."
+],
+    links: [
+  {
+    "label": "Schreiber, Old & Smyth, Cancer immunoediting (Science 2011)",
+    "url": "https://doi.org/10.1126/science.1203486"
+  },
+  {
+    "label": "Zaretsky et al., Mutations associated with acquired resistance to PD-1 blockade (NEJM 2016)",
+    "url": "https://doi.org/10.1056/NEJMoa1604958"
+  },
+  {
+    "label": "Direct identification of clinically relevant neoepitopes presented on native human melanoma tissue by mass spectrometry.",
+    "url": "https://doi.org/10.1038/ncomms13404"
+  },
+  {
+    "label": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+    "url": "https://doi.org/10.1016/j.cell.2020.09.015"
+  },
+  {
+    "label": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+    "url": "https://doi.org/10.1007/s00262-010-0844-y"
+  },
+  {
+    "label": "Shankaran et al., immune control and selection in mouse models (2001)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11323675/"
+  },
+  {
+    "label": "Koebel et al., immune equilibrium in mouse models (2007)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18026089/"
+  },
+  {
+    "label": "Matsushita et al., selection of pre-existing antigen-distinct clones (2012)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22318521/"
+  },
+  {
+    "label": "Luksza et al., neoantigen quality and pancreatic cancer evolution (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35589842/"
+  }
+],
     tags: ["mechanism"],
   }),
   p({

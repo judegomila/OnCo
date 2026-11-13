@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T21:06:40.217Z",
+  "request": {
+    "query": "Which primary studies or regulatory guidance distinguish cell therapy viability, potency, batch release, manufacturing failure, out-of-specification product, comparability, and chain of identity or custody?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-33892823",
+        "title": "Potency assay development for cellular therapy products: an ISCT review of the requirements and experiences in the industry.",
+        "authors": [
+          "C. Bravery",
+          "J. Carmen",
+          "T. Fong",
+          "Wanda Oprea",
+          "K. Hoogendoorn",
+          "J. Woda",
+          "S. Burger",
+          "J. Rowley",
+          "M. Bonyhadi",
+          "W. van’t Hof"
+        ],
+        "year": 2013,
+        "abstract": null,
+        "doi": "10.1016/j.jcyt.2012.10.008",
+        "pmid": "23260082",
+        "venue": "Cytotherapy",
+        "citedByCount": 180,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-11369551",
+        "title": "Measuring the potency of a stem cell therapeutic.",
+        "authors": [
+          "H. Harper",
+          "I. Rich"
+        ],
+        "year": 2015,
+        "abstract": "The potency of a drug is one of the most important parameters of a therapeutic. Besides providing the basis for manufacturing consistency and product stability, the potency can predict product failure or toxicity due to incorrect potency, provide release criteria, and the dose that will ensure that it can be used as intended. Recently, cellular therapeutics, in particular, stem cell therapy products, have being designated as \"drugs\" by regulatory agencies if they produce a systemic effect in the patient. Regulatory agencies are becoming increasingly stringent with respect to the manufacture, production, and testing of these products prior to being used in a patient. A clear understanding of what potency is and how it can be measured should help erase the misunderstandings and misconceptions that have accrued within the cellular therapy field. This protocol describes how the potency of hematopoietic stem cell therapy products is determined. The same principles apply to any proliferating stem cell therapeutic product.",
+        "doi": "10.1007/978-1-4939-1785-3_4",
+        "pmid": "25388384",
+        "venue": "Methods in molecular biology",
+        "citedByCount": 6,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 4,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-213485854",
+        "title": "Potency Assays for Cell and Gene Therapy",
+        "authors": [
+          "K. Doucette",
+          "Jaleel Shujath"
+        ],
+        "year": 2020,
+        "abstract": "pproved biological products are required to be accompanied by analytical tests to demonstrate safety, purity and potency. Manufacturing and testing processes for approved products are validated and performed under current Good Manufacturing Processes (cGMP). Potency is defined as",
+        "doi": "10.1089/gen.40.02.14",
+        "pmid": null,
+        "venue": "Genetic Engineering & Biotechnology News",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-265576282",
+        "title": "Failure and out of Specification Manufacturing of Autologous CAR-T Cells Could be Associated with a High Concentration of Total Nucleated Cells, CD3 + Cells and Neutrophils in the Apheresis Product",
+        "authors": [
+          "Guillaume Cohet",
+          "Cedrik NGO-Chin",
+          "N. Douki",
+          "Marion Desniaux",
+          "Stellie Cornu",
+          "J. Nasone",
+          "Audrey Cras",
+          "L. Faivre",
+          "N. Parquet",
+          "A. Brignier",
+          "D. Menouche",
+          "Emmanuelle Lesprit",
+          "N. Azar",
+          "R. Belhocine",
+          "I. Madelaine",
+          "R. de Jorna",
+          "J. Larghero",
+          "M. Mebarki"
+        ],
+        "year": 2023,
+        "abstract": "Manufacturing capacities of commercial autologous chimeric antigen receptor (CAR)-T cells have been significantly increased during the last years, allowing treatment of a larger patient cohort. However, this was associated with the emergence of several failures and out of specifications (OOS), resulting in treatment delay. The aim of our study was to identify early indicators related to apheresis products that can predict CAR-T cells manufacturing failure or OOS. To this end, we analyzed manipulation processes of cellular starting materials (conservation, freezing, cryopreservation) and quality controls (QC) including count and/or concentration of total nucleated cells (TNC), CD3 +, CD4 +, CD8 + cells, platelets, monocytes and neutrophils.\n\nWe analyzed 802 apheresis products that were collected for the manufacturing of axicabtagene ciloleucel (axi-cel, n=303), tisagenlecleucel (tisa-cel, n=403), brexucatagene autoleucel (brexu-cel, n=44) and idecabtagene vicleucel (ide-cel, n=52). This cohort was classified into 3 groups: failure (CAR-T cells not produced), OOS (CAR-T cells produced but non-compliant) and compliant.\n\nWe identified 21 failures and 24 OOS, resulting in either no treatment or a significant delay when the OOS were injected (57.6±17.5d versus 45.9±16.3d in compliant group, p=0.0405). Among each CAR-T cells product, 13 (4.3%) axi-cel, 30 (7.4%) tisa-cel, 1 (2.3%) brexu-cel and 1 (1.9%) ide-cel were concerned. The main causes of failures were low viability (33.3%), non-compliant dose (28.6%), microbiological contamination (23.8%) and formulation concerns (14.3%). In OOS, low viability (41.7%), low dose (29.2%), microbiological contamination (4.2%), formulation (12.5%) and safety concerns (8.3%; i.e high vector copy number) were identified. 17 products (13 failures and 4 OOS) were successfully remanufactured without an increased delay comparing to compliant products (47.5±15.9 and 47.3±15.1 respectively versus 45.9±16.3 d).\n\nTo identify risk factors of manufacturing failure or OOS due to non-compliant viability and/or dose, we analyzed processing and QC of collected cellular starting materials. OOS were associated with a high concentration of TNC (146.7±94.3 vs 61.6±36.1 x10 6/mL, p=0.009) and CD3 + cells (88.6±76.5 vs 26.0±21.9 x10 6/mL, p=0.0112) in cell collections, while failures were observed in apheresis with high neutrophils concentration (14.3±15.03 x10 3/µL vs 6.0±7.6 x10 3/µL, p=0.0195). Interestingly, neutrophils were significantly decreased in apheresis collected for CAR-T cells remanufacturing which succeed (p=0.0156).\n\nThis preliminary study showed that high TNC, CD3 + cells and neutrophils concentration in the apheresis product might be predictive factors of failures and/or OOS of commercial autologous CAR-T cells manufacturing.",
+        "doi": "10.1182/blood-2023-174865",
+        "pmid": null,
+        "venue": "Blood",
+        "citedByCount": 10,
+        "urls": [
+          "https://doi.org/10.1182/blood-2023-174865"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1182/blood-2023-174865"
+      },
+      {
+        "elicitId": "ss-20379526",
+        "title": "Comparability: manufacturing, characterization and controls, report of a UK Regenerative Medicine Platform Pluripotent Stem Cell Platform Workshop, Trinity Hall, Cambridge, 14–15 September 2015",
+        "authors": [
+          "David J. Williams",
+          "R. Archer",
+          "P. Archibald",
+          "I. Bantounas",
+          "R. Baptista",
+          "R. Barker",
+          "J. Barry",
+          "Florence M. Bietrix",
+          "N. Blair",
+          "J. Braybrook",
+          "J. Campbell",
+          "M. Canham",
+          "A. Chandra",
+          "G. Foldes",
+          "R. Gilmanshin",
+          "M. Girard",
+          "E. Gorjup",
+          "Z. Hewitt",
+          "P. Hourd",
+          "J. Hyllner",
+          "H. Jesson",
+          "Jasmin Kee",
+          "J. Kerby",
+          "N. Kotsopoulou",
+          "S. Kowalski",
+          "C. Leidel",
+          "D. Marshall",
+          "L. Masi",
+          "M. McCall",
+          "Conor McCann",
+          "N. Medcalf",
+          "H. Moore",
+          "Hiroki Ozawa",
+          "David Pan",
+          "M. Parmar",
+          "A. Plant",
+          "Y. Reinwald",
+          "S. Sebastian",
+          "G. Stacey",
+          "R. Thomas",
+          "Dave Thomas",
+          "Jamie A. Thurman-Newell",
+          "M. Turner",
+          "L. Vitillo",
+          "I. Wall",
+          "Alison J Wilson",
+          "J. Wolfrum",
+          "Ying Yang",
+          "H. Zimmerman"
+        ],
+        "year": 2016,
+        "abstract": "This paper summarizes the proceedings of a workshop held at Trinity Hall, Cambridge to discuss comparability and includes additional information and references to related information added subsequently to the workshop. Comparability is the need to demonstrate equivalence of product after a process change; a recent publication states that this ‘may be difficult for cell-based medicinal products’. Therefore a well-managed change process is required which needs access to good science and regulatory advice and developers are encouraged to seek help early. The workshop shared current thinking and best practice and allowed the definition of key research questions. The intent of this report is to summarize the key issues and the consensus reached on each of these by the expert delegates.",
+        "doi": "10.2217/rme-2016-0053",
+        "pmid": "27404768",
+        "venue": "Regenerative medicine",
+        "citedByCount": 24,
+        "urls": [
+          "https://www.futuremedicine.com/doi/pdf/10.2217/rme-2016-0053",
+          "https://publications.aston.ac.uk/id/eprint/39626/1/rme_2016_0053.pdf",
+          "http://irep.ntu.ac.uk/id/eprint/31107/1/8826_Reinwald.pdf",
+          "https://eprints.keele.ac.uk/2511/1/Y%20Yang%20-%20Comparability%20-%20manufacturing%2C%20characterisation%20and%20controls.pdf",
+          "http://eprints.whiterose.ac.uk/102943/1/Comparability.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.futuremedicine.com/doi/pdf/10.2217/rme-2016-0053"
+      },
+      {
+        "elicitId": "ss-45297916",
+        "title": "Manufacturing and quality control of cell-based tumor vaccines: a scientific and a regulatory perspective.",
+        "authors": [
+          "T. Hinz",
+          "C. Buchholz",
+          "Ton van der Stappen",
+          "K. Cichutek",
+          "U. Kalinke"
+        ],
+        "year": 2006,
+        "abstract": "Tumor vaccines play an increasingly important role in the therapy of various malignant diseases. The efficacy of these new products is currently being explored in many clinical trials all over the world. Cell-based tumor vaccines can be classified as somatic cell therapy, or, depending on whether genetic modifications have been applied, as gene-transfer medicinal products. Few specific guidance documents are available to standardize the development and production of cell-based tumor vaccines. Here, we review the different types of cell-based cancer vaccines that are currently being used in clinical trials. Furthermore, we discuss regulatory guidance documents available in the European Union and describe methods that have been applied so far to ensure that the cell-based vaccines meet acceptable standards, including potency assays.",
+        "doi": "10.1097/01.CJI.0000211305.98244.56",
+        "pmid": "16971803",
+        "venue": "Journal of immunotherapy",
+        "citedByCount": 26,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-70807056",
+        "title": "A Stem Cell Potency, Quality And Release (PQR) Assay For Umbilical Cord Blood That Is Compliant With Regulatory Guidelines",
+        "authors": [
+          "I. Rich",
+          "K. Hall",
+          "H. Harper"
+        ],
+        "year": 2010,
+        "abstract": null,
+        "doi": "10.1016/J.BBMT.2009.12.408",
+        "pmid": null,
+        "venue": "Biology of Blood and Marrow Transplantation",
+        "citedByCount": 0,
+        "urls": [
+          "http://www.astctjournal.org/article/S1083879109010040/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "http://www.astctjournal.org/article/S1083879109010040/pdf"
+      },
+      {
+        "elicitId": "ss-10411257",
+        "title": "Draft of Iranian National Guideline for Cell Therapy Manufacturing.",
+        "authors": [
+          "H. Aghayan",
+          "B. Arjmand",
+          "N. Ahmadbeigi",
+          "Y. Gheisari",
+          "M. Vasei"
+        ],
+        "year": 2017,
+        "abstract": "Cell therapy, a promising method for treatment of incurable diseases, has been moving fast from basic research laboratories to clinical practice in recent years. Defining clear and strict regulations for manufacturing of cell therapy products in clinical applications is the best way to give assurance to the public sector for safe usage, harmonizing research projects, and placing barriers for unqualified products from entering this market. To achieve this goal, the Iranian Council for Stem cell Science and Technologies sponsored a project in 2013 to develop a national cell therapy guideline for research and clinical trials. To prepare the preliminary guideline, a comprehensive literature and document review was performed by an expert team. The draft was subsequently revised and approved in May 2014 by a large group of experts who were practically involved in basic and clinical fields of regenerative medicine. The final guideline covered all aspects of cell manufacturing, including ethical issues, manufacturing process, quality controls, transportation, harvesting, storage, and release of cell-based products. The optimal infrastructure of the cell manufacturing facility as well as the eligibilities of man-power working in the facility were also described. After adoption in the Council, the guideline was sent to the Ministry of Health and Medical Education for confirmation and final approval. In this report, we introduce the main topics and mention some of the important items of this guideline. The complete draft of the guideline is available as a supplement in this issue.",
+        "doi": null,
+        "pmid": "28846019",
+        "venue": "Archives of Iranian medicine",
+        "citedByCount": 7,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 3,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-259875314",
+        "title": "Bringing function to the forefront of cell therapy: how do we demonstrate potency?",
+        "authors": [
+          "M. Lowdell",
+          "B. Weil"
+        ],
+        "year": 2023,
+        "abstract": "Unlike conventional pharmaceuticals, biologics and Advanced Therapy Medicinal Products (ATMPs) are required to meet a standard of “potency” as part of the final release criteria at completion of manufacture. During early phase clinical trials, most regulatory agencies have been willing to accept very immature potency assays with an expectation that these will be improved, qualified and validated during the clinical development of the drug to Marketing Authorisation Application (MAA) or Biologics License Application (BLA) submission.This model of continuous development of potency assay in parallel with drug development has already led to at least two notable problem cases; namely Iovance and Mesoblast. Both companies completed successful phase III clinical trials but, in both cases, the initial BLA was rejected on the basis that their potency assay for drug product release was inadequate. Fortunately these issues appear to have been overcome in March of this year, with Mesoblast receiving acceptance of their BLA for Remestemcel and Iovance obtaining a rolling BLA approval for Lifileucel.",
+        "doi": "10.3389/fimmu.2023.1226841",
+        "pmid": "37497223",
+        "venue": "Frontiers in Immunology",
+        "citedByCount": 7,
+        "urls": [
+          "https://discovery.ucl.ac.uk/10174776/1/fimmu-14-1226841.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10366357/pdf/fimmu-14-1226841.pdf",
+          "https://www.frontiersin.org/articles/10.3389/fimmu.2023.1226841/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fimmu.2023.1226841/pdf"
+      },
+      {
+        "elicitId": "ss-276751798",
+        "title": "Risk factors for CAR T-cell manufacturing failure and patient outcomes in large B-cell lymphoma: a report from the UK National CAR T Panel",
+        "authors": [
+          "Vaishali Dulobdas",
+          "A. Kirkwood",
+          "Fabio Serpenti",
+          "Brijesh Gautama",
+          "Aikaterini Panopoulou",
+          "A. Mathew",
+          "S. Gabriel",
+          "R. Malladi",
+          "Jessica Pealing",
+          "Denise Bonney",
+          "Emma K. Nicholson",
+          "C. Besley",
+          "S. Ghorashian",
+          "A. Kuhnl",
+          "E. Davies",
+          "Jackie Chappell",
+          "A. Black",
+          "T. Menne",
+          "M. O'Reilly",
+          "R. Sanderson",
+          "S. Chaganti"
+        ],
+        "year": 2025,
+        "abstract": "CAR T-cell manufacturing failure (MF) is a situation where the manufacturing process fails to yield a product or results in one which is out-of-specification (OOS). We conducted a multicentre retrospective review of factors contributing to MF and patient outcomes. Of 981 large B-cell lymphoma (LBCL) patients approved for CAR T-cell therapy, 38 (3.87%) had MF. Eleven patients received delayed infusion with a product in-specification (delayed-infused) following 21 remanufacturing attempts. OOS product was infused in 13 (OOS-infused), and 14 were not infused. For comparison, we included 38 LBCL controls without MF; 29 received infusion (controls-infused). Prior bendamustine was the only baseline variable associated with MF risk, largely due to therapy within 6 months; 23.7% MF vs 0% controls (P = 0.0029). Overall survival (OS) and progression-free survival (PFS) were not significantly different for infused patients, with 1-year OS (PFS) of 52.8% (46.2%), 46.8% (24.2%) and 68.4% (41.4%) for OOS-infused, delayed-infused and controls-infused respectively (PFS HR OOS-infused vs controls-infused 1.41, P = 0.40; delayed-infused vs controls-infused 1.64, P = 0.25; and OOS-infused vs delayed-infused 0.86, P = 0.76). CRS, ICANS and cytopenias were not significantly different between cohorts. Outcomes for OOS-infused LBCL patients following MF are encouraging. Remanufacturing led to infusion of a product in-specification in around 50% and may be an option for patients where a suitable OOS product is not available.",
+        "doi": "10.1038/s41408-025-01225-9",
+        "pmid": "40032870",
+        "venue": "Blood Cancer Journal",
+        "citedByCount": 26,
+        "urls": [
+          "https://www.repository.cam.ac.uk/bitstreams/469f4c17-5ed5-4a66-934f-a64178f63ed8/download",
+          "https://doi.org/10.1038/s41408-025-01225-9"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.repository.cam.ac.uk/bitstreams/469f4c17-5ed5-4a66-934f-a64178f63ed8/download"
+      },
+      {
+        "elicitId": "ss-258487864",
+        "title": "Potency testing of cell and gene therapy products",
+        "authors": [
+          "P. Salmikangas",
+          "Bjorn Carlsson",
+          "Christophe Klumb",
+          "Tatiana Reimer",
+          "S. Thirstrup"
+        ],
+        "year": 2023,
+        "abstract": "Potency is one of the critical quality attributes of biological medicinal products, defining their biological activity. Potency testing is expected to reflect the Mechanism of Action (MoA) of the medicinal product and ideally the results should correlate with the clinical response. Multiple assay formats may be used, both in vitro assays and in vivo models, however, for timely release of the products for clinical studies or for commercial use, quantitative, validated in vitro assays are necessary. Robust potency assays are fundamental also for comparability studies, process validation and for stability testing. Cell and Gene Therapy Products (CGTs, also called Advanced Therapy Medicinal Products, ATMPs) are part of biological medicines, having nucleic acids, viral vectors, viable cells and tissues as starting material. For such complex products potency testing is often challenging and may require a combination of methods to address multiple functional mechanisms of the product. For cells, viability and cell phenotype are important attributes but alone will not be sufficient to address potency. Furthermore, if the cells are transduced with a viral vector, potency probably is related to the expression of the transgene but will also be dependent on the target cells and transduction efficiency/copy number of the transgene in the cells. Genome Editing (GE) together with other cell manipulations can result into multiple changes in the characteristics and activity of the cells, which should be all somehow captured by the potency testing. Non-clinical studies/models may provide valuable support for potency testing, especially for comparability testing. However, sometimes lack of suitable potency data may lead to situations where bridging clinical efficacy data are required to solve the problems of the potency testing, for example where comparability of different clinical batches is unclear. In this article the challenges of potency testing are discussed together with examples of assays used for different CGTs/ATMPs and the available guidance addressing differences between the European Union and the United States.",
+        "doi": "10.3389/fmed.2023.1190016",
+        "pmid": "37215709",
+        "venue": "Frontiers in Medicine",
+        "citedByCount": 44,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10196484/pdf/fmed-10-1190016.pdf",
+          "https://www.frontiersin.org/articles/10.3389/fmed.2023.1190016/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fmed.2023.1190016/pdf"
+      },
+      {
+        "elicitId": "ss-72297390",
+        "title": "Summary of DIA Workshop: Comparability Challenges: Regulatory and Scientific Issues in the Assessment of Biopharmaceuticals",
+        "authors": [
+          "Richard M. Lewis",
+          "M. E. Cosenza"
+        ],
+        "year": 2010,
+        "abstract": "On February 3–4, 2009, a DIA Workshop was held to review and discuss comparability challenges and issues for biotechnology-derived pharmaceuticals. The workshop was held in the Washington, DC, area and was attended by representatives from the FDA and biotech and pharmaceutical industries. The expectation was to develop a consensus on which data are necessary to provide assurance of comparability for manufacturing changes made to biotechnology products during different stages of development or postmarketing. Numerous case studies were reviewed and discussed to build on best practices and recognize successful approaches to comparability.",
+        "doi": "10.1177/009286151004400413",
+        "pmid": null,
+        "venue": "Drug information journal : DIJ / Drug Information Association",
+        "citedByCount": 9,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-162180846",
+        "title": "Compliance with Good Manufacturing Practice in the Assessment of Immunomodulation Potential of Clinical Grade Multipotent Mesenchymal Stromal Cells Derived from Wharton’s Jelly",
+        "authors": [
+          "Marta Grau-Vorster",
+          "Luciano Rodríguez",
+          "Anna del Mazo-Barbara",
+          "Clémentine Mirabel",
+          "M. Blanco",
+          "M. Codinach",
+          "Susana Gómez",
+          "S. Querol",
+          "J. García-López",
+          "J. Vives"
+        ],
+        "year": 2019,
+        "abstract": "Background: The selection of assays suitable for testing the potency of clinical grade multipotent mesenchymal stromal cell (MSC)-based products and its interpretation is a challenge for both developers and regulators. Here, we present a bioprocess design for the production of Wharton’s jelly (WJ)-derived MSCs and a validated immunopotency assay approved by the competent regulatory authority for batch release together with the study of failure modes in the bioprocess with potential impact on critical quality attributes (CQA) of the final product. Methods: The lymphocyte proliferation assay was used for determining the immunopotency of WJ-MSCs and validated under good manufacturing practices (GMP). Moreover, failure mode effects analysis (FMEA) was used to identify and quantify the potential impact of different unexpected situations on the CQA. Results: A production process based on a two-tiered cell banking strategy resulted in batches with sufficient numbers of cells for clinical use in compliance with approved specifications including MSC identity (expressing CD73, CD90, CD105, but not CD31, CD45, or HLA-DR). Remarkably, all batches showed high capacity to inhibit the proliferation of activated lymphocytes. Moreover, implementation of risk management tools led to an in-depth understanding of the manufacturing process as well as the identification of weak points to be reinforced. Conclusions: The bioprocess design showed here together with detailed risk management and the use of a robust method for immunomodulation potency testing allowed for the robust production of clinical-grade WJ-MSCs under pharmaceutical standards.",
+        "doi": "10.3390/cells8050484",
+        "pmid": "31117301",
+        "venue": "Cells",
+        "citedByCount": 33,
+        "urls": [
+          "https://www.mdpi.com/2073-4409/8/5/484/pdf?version=1559006569",
+          "https://ddd.uab.cat/pub/artpub/2019/216979/cells_a2019v8p484.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.mdpi.com/2073-4409/8/5/484/pdf?version=1559006569"
+      },
+      {
+        "elicitId": "ss-56518046",
+        "title": "When do I (not) release cellular products?",
+        "authors": [
+          "Andreas Humpe",
+          "U. Buwitt-Beckmann",
+          "M. Gramatzki"
+        ],
+        "year": 2010,
+        "abstract": "Harvest, production, storage and release of cellular products are regulated by international guidelines like the EU guidelines 2004/23/EC or 2006/17/EC. In addition, worldwide effective guidelines exist with the FACT‐JACIE standards. As cellular products such as haematopoietic progenitor cells (HPC) are usually applied to critically ill patients requirements for release must be well defined and high.",
+        "doi": "10.1111/j.1751-2824.2010.01407.x",
+        "pmid": null,
+        "venue": "ISBT Science Series",
+        "citedByCount": 2,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1751-2824.2010.01407.x"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1751-2824.2010.01407.x"
+      },
+      {
+        "elicitId": "ss-78116974",
+        "title": "FDA Perspectives on Characterization and Comparability of Cellular Therapy Products",
+        "authors": [
+          "K. Benton"
+        ],
+        "year": 2003,
+        "abstract": "As product development proceeds in the field of cellular therapies, adequate product characterization remains a challenge for both IND Sponsors and FDA/CBER. Cellular therapy products are not considered to be well-defined products, and therefore the control and characterization of each stage of the production process helps to ensure product safety and consistency. Product characterization of cellular products includes demonstration of safety, plus determination of identity, purity, potency, and product stability. Development of appropriate specifications for each of these parameters is necessary for lot release, and also provides an important database of knowledge for addressing regulatory issues, such as lot-to-lot consistency and potential issues with product comparability, should the manufacturing process, or other aspects of product development, change over time.",
+        "doi": "10.12665/J21.BENTON",
+        "pmid": null,
+        "venue": "BioProcessing Journal",
+        "citedByCount": 0,
+        "urls": [
+          "http://www.bioprocessingjournal.com/afp/J21-Benton.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "http://www.bioprocessingjournal.com/afp/J21-Benton.pdf"
+      }
+    ],
+    "warnings": []
+  }
+}

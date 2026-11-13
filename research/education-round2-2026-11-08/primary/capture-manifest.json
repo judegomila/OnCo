@@ -1,0 +1,512 @@
+[
+  {
+    "id": "elispot-origin",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+solid-phase+enzyme-linked+immunospot%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"A solid-phase enzyme-linked immunospot\" AND SRC:MED",
+    "file": "elispot-origin.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.306710+00:00",
+    "sha256": "db68632e3f8110666ca4d6cf829412b3aeacfe3cfbb47cad8207130983d509d3",
+    "reportedHitCount": 3,
+    "capturedResults": 3
+  },
+  {
+    "id": "elispot-harmonization",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Results+and+harmonization+guidelines+from+two+large-scale+international+Elispot%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Results and harmonization guidelines from two large-scale international Elispot\" AND SRC:MED",
+    "file": "elispot-harmonization.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.276521+00:00",
+    "sha256": "a452c8d8a4ec760ffe049cce699055f67ad3215db0b7e5b3dc52b8c15d40fd5f",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "ics-origin",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Determination+of+antigen-specific+memory%2Feffector+CD4%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Determination of antigen-specific memory/effector CD4\" AND SRC:MED",
+    "file": "ics-origin.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.259188+00:00",
+    "sha256": "0f8946f23ff63ff76711d6122bcc2fdd573e488f6746cf3cd6194b8e97e722a2",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "multimer-origin",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Phenotypic+analysis+of+antigen-specific+T+lymphocytes%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Phenotypic analysis of antigen-specific T lymphocytes\" AND SRC:MED",
+    "file": "multimer-origin.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.273526+00:00",
+    "sha256": "2a3c6ff11c2efd9506077bcce3d3b63f99c9db6bef35302059e68418d06f81e2",
+    "reportedHitCount": 2,
+    "capturedResults": 2
+  },
+  {
+    "id": "degranulation-readout",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Sensitive+and+viable+identification+of+antigen-specific+CD8%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Sensitive and viable identification of antigen-specific CD8\" AND SRC:MED",
+    "file": "degranulation-readout.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.884303+00:00",
+    "sha256": "5f22ae92c871a5e5edc93d0e937a214627155392b3e616d80c913998bdb9ffdf",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "tcr-repertoire",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Comprehensive+assessment+of+T-cell+receptor+beta-chain+diversity%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Comprehensive assessment of T-cell receptor beta-chain diversity\" AND SRC:MED",
+    "file": "tcr-repertoire.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.916825+00:00",
+    "sha256": "6623ae68d3b6059227dcb1b1c9e1b5aa113ca326128b2851caca150a621d7a14",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "pbmc-processing",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Defining+blood+processing+parameters+for+optimal+detection%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Defining blood processing parameters for optimal detection\" AND SRC:MED",
+    "file": "pbmc-processing.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.947220+00:00",
+    "sha256": "3eaa49c70a22d569bfd6ad9dfeb854b561980460e12dc025f24f20d3ad08a4e1",
+    "reportedHitCount": 2,
+    "capturedResults": 2
+  },
+  {
+    "id": "immunopeptidomics",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Direct+identification+of+clinically+relevant+neoepitopes+presented+on+native+human+melanoma+tissue%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Direct identification of clinically relevant neoepitopes presented on native human melanoma tissue\" AND SRC:MED",
+    "file": "immunopeptidomics.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:30.944180+00:00",
+    "sha256": "6f3e15d5ce86458092b60ee0a012962327f86f67807319dff7df959a7d494cc0",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "netmhcpan",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22NetMHCpan-4.0%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"NetMHCpan-4.0\" AND SRC:MED",
+    "file": "netmhcpan.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.503799+00:00",
+    "sha256": "550db622ea06db250982989a31273bbd3ffb8f57f22bfade6eb4fdbc34c46722",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "neoantigen-consortium",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Key+Parameters+of+Tumor+Epitope+Immunogenicity%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Key Parameters of Tumor Epitope Immunogenicity\" AND SRC:MED",
+    "file": "neoantigen-consortium.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.690823+00:00",
+    "sha256": "7ffda120d8fecf30cf8fcc73c269069ee627d635975fd26491662b77e674e076",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "neoantigen-vaccine",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22An+immunogenic+personal+neoantigen+vaccine+for+patients+with+melanoma%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"An immunogenic personal neoantigen vaccine for patients with melanoma\" AND SRC:MED",
+    "file": "neoantigen-vaccine.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.750145+00:00",
+    "sha256": "9bedd91399ec15b83eae20bfa38f54f4776f1ea758a9dc843a190bcd1e57acb1",
+    "reportedHitCount": 2,
+    "capturedResults": 2
+  },
+  {
+    "id": "epitope-spreading",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Personal+neoantigen+vaccines+induce+persistent+memory+T+cell+responses+and+epitope+spreading%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading\" AND SRC:MED",
+    "file": "epitope-spreading.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:31.663275+00:00",
+    "sha256": "4464ac83eb04700472297db23f55c4390b9d222097f7087969303c5339188e17",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "immunodominance",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22T+cells+compete+for+access+to+antigen-bearing+antigen-presenting+cells%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"T cells compete for access to antigen-bearing antigen-presenting cells\" AND SRC:MED",
+    "file": "immunodominance.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.178606+00:00",
+    "sha256": "d078153293928db93df76eea7771b762e0e0deab3a67a830e1ad3ad9cae5bf70",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "cross-recognition",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Identification+of+a+Titin-Derived+HLA-A1-Presented+Peptide%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Identification of a Titin-Derived HLA-A1-Presented Peptide\" AND SRC:MED",
+    "file": "cross-recognition.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.317516+00:00",
+    "sha256": "3e366ef334b0d31670b398efbff6fe647af0e4b0a39867844d799842e362039b",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "cross-recognition-clinical",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Cardiovascular+toxicity+and+titin+cross-reactivity%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Cardiovascular toxicity and titin cross-reactivity\" AND SRC:MED",
+    "file": "cross-recognition-clinical.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.385105+00:00",
+    "sha256": "1bc9b6f4ad966cb27d25752f1b5cafc9cbfbc8017f7d7a519dc696ca1f09c280",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "rna-integrity",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22The+RIN%3A+an+RNA+integrity+number%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"The RIN: an RNA integrity number\" AND SRC:MED",
+    "file": "rna-integrity.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.375776+00:00",
+    "sha256": "43f497dc74ed41c97fa9d63edb80ae61f7fb7adde1b2a94dab0f02e0d022b7b4",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "paired-preservation",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Next-generation+sequencing+of+RNA+and+DNA+isolated+from+paired+fresh-frozen%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Next-generation sequencing of RNA and DNA isolated from paired fresh-frozen\" AND SRC:MED",
+    "file": "paired-preservation.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.826078+00:00",
+    "sha256": "144003f0bcfdb3b20dc579a2efbe2c873c9180c14d42ce6d5c320c786907d813",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "viable-organoids",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+Living+Biobank+of+Breast+Cancer+Organoids%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"A Living Biobank of Breast Cancer Organoids\" AND SRC:MED",
+    "file": "viable-organoids.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:32.978422+00:00",
+    "sha256": "3c9377f1d5b6b3fb68e1e20a19a95985bac456964c5fabc2ecdc5dfa52ddb65a",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "pathology-specimen",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Collection+and+Handling+of+Thoracic+Small+Biopsy+and+Cytology+Specimens%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Collection and Handling of Thoracic Small Biopsy and Cytology Specimens\" AND SRC:MED",
+    "file": "pathology-specimen.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.313128+00:00",
+    "sha256": "f172d2ddb9ce1411f5eb3b60152bd8251f3b099e45e344a3601bdf3319344583",
+    "reportedHitCount": 3,
+    "capturedResults": 3
+  },
+  {
+    "id": "modified-nucleosides",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Suppression+of+RNA+recognition+by+Toll-like+receptors%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Suppression of RNA recognition by Toll-like receptors\" AND SRC:MED",
+    "file": "modified-nucleosides.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.052652+00:00",
+    "sha256": "2b0d298a4bbd2ee4bde8edac0594a380825facb4fdaa6b65068bb705c55cd8ea",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "rna-purification",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Generating+the+optimal+mRNA+for+therapy%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Generating the optimal mRNA for therapy\" AND SRC:MED",
+    "file": "rna-purification.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.465346+00:00",
+    "sha256": "0c6779d8f6f6b78e2cc5b3e83580cd5651260a221d0ba298777d45d24ca1df0e",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "dsrna-removal",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+Facile+Method+for+the+Removal+of+dsRNA+Contaminant%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"A Facile Method for the Removal of dsRNA Contaminant\" AND SRC:MED",
+    "file": "dsrna-removal.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.591542+00:00",
+    "sha256": "ffced17bf9d71eadaa7293fbeb12650ebb698f0bed9c805f17d507d27e89e0f1",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "mrna-structure",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22mRNA+structure+regulates+protein+expression+through+changes+in+functional+half-life%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"mRNA structure regulates protein expression through changes in functional half-life\" AND SRC:MED",
+    "file": "mrna-structure.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.703053+00:00",
+    "sha256": "f2ced48e529827804b54d82b6b675a4778fd2efe619f857147824a653ff2098d",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "mrna-construct",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Modification+of+antigen-encoding+RNA+increases+antigen+expression%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Modification of antigen-encoding RNA increases antigen expression\" AND SRC:MED",
+    "file": "mrna-construct.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:33.942665+00:00",
+    "sha256": "f50145292712e702f600b88919669040fdbd98f45949253d2b8af83396b247df",
+    "reportedHitCount": 0,
+    "capturedResults": 0
+  },
+  {
+    "id": "codon-optimality",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Codon+optimality+is+a+major+determinant+of+mRNA+stability%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Codon optimality is a major determinant of mRNA stability\" AND SRC:MED",
+    "file": "codon-optimality.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.103810+00:00",
+    "sha256": "a3d6805b82cdc2bf05797ac6dbea857d7221f6223a18f3f080e1eb0e4e1d98cf",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "multiepitope-design",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE_ABS%3A%22polyepitope%22+AND+TITLE_ABS%3A%22flanking%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE_ABS:\"polyepitope\" AND TITLE_ABS:\"flanking\" AND SRC:MED",
+    "file": "multiepitope-design.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.906065+00:00",
+    "sha256": "1cd6ff6d0f7d112cc3d373e0dd16c08494c24b3ca369ab5e19c4902c6d38be7f",
+    "reportedHitCount": 5,
+    "capturedResults": 5
+  },
+  {
+    "id": "scfv-origin",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Protein+engineering+of+antibody+binding+sites%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Protein engineering of antibody binding sites\" AND SRC:MED",
+    "file": "scfv-origin.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.373040+00:00",
+    "sha256": "daced41bb914048349a3f427731d87f10813e85168a3cd2f2535548d6482382f",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "vhh-origin",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Naturally+occurring+antibodies+devoid+of+light+chains%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Naturally occurring antibodies devoid of light chains\" AND SRC:MED",
+    "file": "vhh-origin.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.587836+00:00",
+    "sha256": "47463e4cdd868becf305e8a6363271f4b64732cd79482b8d9c6fd2348018f06f",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "antibody-developability",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Biophysical+properties+of+the+clinical-stage+antibody+landscape%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Biophysical properties of the clinical-stage antibody landscape\" AND SRC:MED",
+    "file": "antibody-developability.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:34.737129+00:00",
+    "sha256": "810c2ab19d3caba4f127040e9cc37f35758e4ae6cbfc45beaab6fe20dbe820bc",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "binder-format",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Epitope+distance+to+the+target+cell+membrane+and+antigen+size%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Epitope distance to the target cell membrane and antigen size\" AND SRC:MED",
+    "file": "binder-format.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.004067+00:00",
+    "sha256": "fdfd5e4d00b57fa3333874e08c003e1ea7a5048b5b4a77aa46fbf9b0bdcddec4",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "delivery-versus-target",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22CAR+T+cells+produced+in+vivo+to+treat+cardiac+injury%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"CAR T cells produced in vivo to treat cardiac injury\" AND SRC:MED",
+    "file": "delivery-versus-target.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.248104+00:00",
+    "sha256": "1c9caf3f812deef123fc18d93d5322e6e734a3ff940039af2bec33ee791e90f2",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "cell-segmentation",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Whole-cell+segmentation+of+tissue+images%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Whole-cell segmentation of tissue images\" AND SRC:MED",
+    "file": "cell-segmentation.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.530292+00:00",
+    "sha256": "edab064835e4141fbd204754bddee99ff43f145851dfc22524d3d3b1287474d9",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "imaging-mass-cytometry",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Highly+multiplexed+imaging+of+tumor+tissues+with+subcellular+resolution%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Highly multiplexed imaging of tumor tissues with subcellular resolution\" AND SRC:MED",
+    "file": "imaging-mass-cytometry.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.651382+00:00",
+    "sha256": "d31a1c35fad9bdfad736169bbfd1bc1751496102cb0a0875ca4640c7b0eedb5f",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "phosphosite-normalization",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Correct+interpretation+of+comprehensive+phosphorylation+dynamics%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Correct interpretation of comprehensive phosphorylation dynamics\" AND SRC:MED",
+    "file": "phosphosite-normalization.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.740300+00:00",
+    "sha256": "91521beed1cea534d3bc4bc48a6a4cbff7608abb4cc3d906101ccaf3bb572f5c",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "rppa-origin",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Reverse+phase+protein+microarrays+which+capture+disease+progression%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Reverse phase protein microarrays which capture disease progression\" AND SRC:MED",
+    "file": "rppa-origin.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:35.902594+00:00",
+    "sha256": "1805910c5e6f16717621da2cc88880d2fa6106960f5185e62cf1706524603dca",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "targeted-proteomics",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Multi-site+assessment+of+the+precision+and+reproducibility+of+multiple+reaction+monitoring%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Multi-site assessment of the precision and reproducibility of multiple reaction monitoring\" AND SRC:MED",
+    "file": "targeted-proteomics.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:36.748930+00:00",
+    "sha256": "91fc53f987e6aae490f518c48528fc55251add1a0abe934baa3068ea7d1c723f",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "potency-survey",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Analysis+of+the+measurements+used+as+potency+tests%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Analysis of the measurements used as potency tests\" AND SRC:MED",
+    "file": "potency-survey.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:07:36.273785+00:00",
+    "sha256": "aa50773eaff3c091142b6c018d6138b0f38a9257636dcbdc1104a7a99d1f4be1",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "mrna-construct-resolved",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A16940422+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "EXT_ID:16940422 AND SRC:MED",
+    "file": "mrna-construct-resolved.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:10:00.188070+00:00",
+    "sha256": "791d7db923c3a6f1912d012e5fa2f316107541250d884726b642da5cbd9b38d3",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "multiepitope-processing",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Optimization+of+epitope+processing+enhances+immunogenicity+of+multiepitope+DNA+vaccines%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Optimization of epitope processing enhances immunogenicity of multiepitope DNA vaccines\" AND SRC:MED",
+    "file": "multiepitope-processing.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:10:00.847301+00:00",
+    "sha256": "bc54237a7bc265db56939b87ab375c6109a91b85afee44a7794b513d20393177",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "cytotoxicity-assay",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+novel+multiparametric+flow+cytometry-based+cytotoxicity+assay%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"A novel multiparametric flow cytometry-based cytotoxicity assay\" AND SRC:MED",
+    "file": "cytotoxicity-assay.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:10:01.688359+00:00",
+    "sha256": "fece03585dc5cf9fc4ffc32c617bfe2b9fc6dcfc59f920498421805fe917720d",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "assay-validation-comparison",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1186%2F1471-2172-9-9+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1186/1471-2172-9-9 AND SRC:MED",
+    "file": "assay-validation-comparison.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:21.855924+00:00",
+    "sha256": "88173d70d13cc650c82357ee69175b8dfbed3ce2ce85d81a55603d15b81d85b5",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "binder-format-comparison",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1016%2Fj.ymthe.2026.06.017+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1016/j.ymthe.2026.06.017 AND SRC:MED",
+    "file": "binder-format-comparison.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:22.530000+00:00",
+    "sha256": "5694787a65cd2a21e76a9089353884b0f30e16c0fd1d73c7cfa15df2e5f97367",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "rna-quality-comparison",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41598-018-24781-6+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1038/s41598-018-24781-6 AND SRC:MED",
+    "file": "rna-quality-comparison.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:23.286759+00:00",
+    "sha256": "706daa1f5808f07a147ef72bbc9d4cb47ed24b49e372fcc3d74fdd7511487ed0",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "preanalytic-variables",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.5858%2Farpa.2018-0172-OA+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.5858/arpa.2018-0172-OA AND SRC:MED",
+    "file": "preanalytic-variables.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:24.104583+00:00",
+    "sha256": "cab42435e4a7ab84a5b3cc326948841cb55de0765b1b493631a0fca692519328",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "rppa-antibody-validation",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41598-022-26715-9+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1038/s41598-022-26715-9 AND SRC:MED",
+    "file": "rppa-antibody-validation.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:24.775432+00:00",
+    "sha256": "832127c9bbb2cddadfb702a3a4c8edb69663a4c541fadd40cc88a6ebf6a15b0c",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "segmentation-errors",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41588-025-02497-4+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1038/s41588-025-02497-4 AND SRC:MED",
+    "file": "segmentation-errors.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:25.465886+00:00",
+    "sha256": "93644300632491b4d82b998250123d8b382d831d7f71449dafbbd9dceb7bfcef",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "manufacturing-failure",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs41408-025-01225-9+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1038/s41408-025-01225-9 AND SRC:MED",
+    "file": "manufacturing-failure.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:12:26.178632+00:00",
+    "sha256": "732a337f2a18dfe3bc8ec0ca21ea98057f06b88b23857bc45dc04799750350c4",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "mibi",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Multiplexed+ion+beam+imaging+of+human+breast+tumors%22+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "TITLE:\"Multiplexed ion beam imaging of human breast tumors\" AND SRC:MED",
+    "file": "mibi.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:24:05.886380+00:00",
+    "sha256": "43976640af4606a6e481165ab062d317c69f547052d2af8016776ca7be7eef05",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "existing-her2-source",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.2018.77.8738+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1200/JCO.2018.77.8738 AND SRC:MED",
+    "file": "existing-her2-source.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:31:25.646997+00:00",
+    "sha256": "93ba812a109d2c1fdcb930d761f01a9bf727879d04dc3551b343f07982f767ab",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "existing-immunoediting-source",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1126%2Fscience.1203486+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1126/science.1203486 AND SRC:MED",
+    "file": "existing-immunoediting-source.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:31:26.261754+00:00",
+    "sha256": "ef1b2e0a4ed1141461736bd05c0a9fe847c76285f45094d3e7e007feea9c6b4d",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  },
+  {
+    "id": "existing-resistance-source",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1056%2FNEJMoa1604958+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "query": "DOI:10.1056/NEJMoa1604958 AND SRC:MED",
+    "file": "existing-resistance-source.json",
+    "retrievedAtFilesystemUTC": "2026-11-08T21:31:27.008699+00:00",
+    "sha256": "38f8587d5c6b903ed273f88a1431a16c0f153924f1d573f1a2d5dd7300dee965",
+    "reportedHitCount": 1,
+    "capturedResults": 1
+  }
+]

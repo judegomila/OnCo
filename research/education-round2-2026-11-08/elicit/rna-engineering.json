@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T21:06:38.116Z",
+  "request": {
+    "query": "Which primary experiments test mRNA construct elements, codon optimization, modified nucleosides, double-stranded RNA impurities and multi-epitope antigen processing?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-288419387",
+        "title": "Double-Stranded RNA Profiling with Mass Photometry",
+        "authors": [
+          "M. Ranaghan",
+          "Nathanial E. Clark",
+          "Kayleigh Fay",
+          "A. O’Shea",
+          "Svea Cheeseman"
+        ],
+        "year": 2026,
+        "abstract": "Double-stranded RNA (dsRNA) is a potent immunogenic impurity and its detection is a critical quality attribute in characterizing mRNA therapeutics. Standard analytical methods (e.g., sandwich ELISA) are only able to resolve the bulk presence of dsRNA and cannot characterize the different sub-species that may be present within a mRNA sample.. In this study, we use mass photometry (MP) as a single-molecule analytical platform for the simultaneous detection and characterization of dsRNA impurities in mRNA samples. We demonstrate how ionic strength can interfere with the stability of the mAb/dsRNA complex and measure the binding affinity (1 nM) under a set of parameters for reproducible characterization of the complex. We then leverage the J2 antibody to identify antibody/dsRNA complexes that then resolve dsRNA-positive species within an mRNA sample based on discrete molecular weight profiles. Furthermore, we introduce a novel MP assay that harnesses the repulsive surface chemistry of uncoated glass to exclude the bulk mRNA analyte to enable the use of higher loading concentrations to sensitively profile trace dsRNA impurities as antibody-bound species. This work establishes MP as a valuable next generation mRNA analytical tool for analyzing dsRNA byproducts within mRNA samples.",
+        "doi": "10.64898/2026.05.15.725554",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 1,
+        "urls": [
+          "https://doi.org/10.64898/2026.05.15.725554"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.64898/2026.05.15.725554"
+      },
+      {
+        "elicitId": "ss-289327061",
+        "title": "Purification of Double-Stranded RNA Impurities From In Vitro-Transcribed mRNA Using Size-Exclusion Chromatography.",
+        "authors": [
+          "Kyle J. Tynan",
+          "Trina Mouchahoir",
+          "M. Lowenthal",
+          "Karen W. Phinney"
+        ],
+        "year": 2026,
+        "abstract": "dsRNA is a highly immunogenic byproduct generated during in vitro transcription of mRNA, leading to unwanted immunostimulatory responses and reduced vaccine efficacy. Removal of dsRNA impurities from mRNA is challenging, as they share similar physicochemical properties. Here, we present a lab-scale size-exclusion chromatography method that effectively separates dsRNA impurities from mRNA. This method achieves baseline resolution between dsRNA impurities and mRNA (resolution factor of 1.6) while maintaining high recovery of the target mRNA (81.8%). This work introduces a novel chromatographic strategy for the removal of dsRNA from mRNA therapeutics.",
+        "doi": "10.1002/bmc.70528",
+        "pmid": "42306876",
+        "venue": "Biomedical chromotography",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-283389411",
+        "title": "A systemic evaluation of the effect of dsRNA contamination on mRNA vaccine expression and immunogenicity.",
+        "authors": [
+          "Sohee Jo",
+          "Ji-Sun Lee",
+          "Sang-In Park",
+          "Yoonseob Kim",
+          "Subin Yoon",
+          "Seonghyun Lee",
+          "Seongje Cho",
+          "Youngran Cho",
+          "Ayoung Oh",
+          "Dahyeon Ha",
+          "Huijeong Choi",
+          "Jungmin Kim",
+          "Yeeun Lee",
+          "Sowon Lee",
+          "Soo-Yeon Lee",
+          "Eun-Jin Choi",
+          "Gahyun Roh",
+          "Yu-Sun Lee",
+          "Seo-Hyeon Bae",
+          "Sanghyuk Jeon",
+          "Hyo-Jung Park",
+          "Jae-Hwan Nam"
+        ],
+        "year": 2025,
+        "abstract": null,
+        "doi": "10.1016/j.jconrel.2025.114471",
+        "pmid": "41314258",
+        "venue": "Journal of Controlled Release",
+        "citedByCount": 11,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-290660495",
+        "title": "Processing-Optimized Multi-Epitope mRNA Vaccine Enhances HIV-1—Specific CD8+ T Cells 2258806",
+        "authors": [
+          "T. Nogimori",
+          "H. Nguyen",
+          "M. Kumamoto",
+          "Hiroki Fukushima",
+          "Yuta Nagatsuka",
+          "Y. Masuta",
+          "Ayae Nishiyama",
+          "L. Papagno",
+          "V. Appay",
+          "T. Yamamoto"
+        ],
+        "year": 2026,
+        "abstract": "Despite ART, HIV-1 persists in latency and rapidly rebounds after interruption. A functional cure will require potent CD8+ T cells that recognize and eliminate latent reservoirs. mRNA vaccines enable rapid, flexible, multi-epitope design. We tested an mRNA encoding tandem CD8+ epitopes with flanking sequences optimized for antigen processing/MHC-I presentation in mice and human PBMCs and assessed co-stimulation by a TLR8 ligand (TLR8L).\n\nWe generated mRNAs carrying model epitopes either directly concatenated or appended with flanking regions designed to favor proteasomal generation. HLA-A*02:01 transgenic mice were immunized, and antigen-specific CD8+ T-cell responses and multifunctionality were quantified by ELISpot and flow cytometry. We then established a 10-day in vitro boosting assay using PBMCs from people with HIV-1 cultured with FLT3L and exposed to mRNA encoding tandem HIV-1 epitopes. Epitope-specific CD8+ T-cell frequencies were measured by HLA-tetramers, and cytotoxic potential was assessed by granzyme B and perforin expression.\n\nIn HLA-A*02:01 mice, the flanking-optimized tandem design increased multifunctional CD8+ responses co-producing CD107a/IFN-γ/TNF. In PBMCs from people with HIV-1, the HIV epitope—tandem mRNA increased epitope-specific CD8+ T-cell frequency 3.4-fold versus no vaccine (p = 0.0137); addition of TLR8L further raised this to 4.7-fold (p = 0.0273). The proportion of cells co-expressing granzyme B and perforin rose from 40.8% to 80.5% with TLR8L (p = 0.0137).\n\nAn mRNA vaccine encoding tandem CD8+ T-cell epitopes with optimized flanking sequences elicited quantitatively and qualitatively superior epitope-specific CD8+ responses in HLA-A*02:01 mice and in PBMCs from people with HIV-1. TLR8L further enhanced these responses. This platform supports development of therapeutic mRNA vaccines aimed at strengthening CD8+ T-cell immunity toward a functional cure of HIV-1.\n\nJapan Society for the Promotion of Science Grant-in-Aid for Early-Career Scientists\n\nVaccines and Immunotherapy (VAC)",
+        "doi": "10.1093/jimmun/vkag141.630",
+        "pmid": null,
+        "venue": "Journal of Immunology",
+        "citedByCount": 0,
+        "urls": [
+          "https://academic.oup.com/jimmunol/article-pdf/215/Supplement_1/vkag141.630/70269847/vkag141.630.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://academic.oup.com/jimmunol/article-pdf/215/Supplement_1/vkag141.630/70269847/vkag141.630.pdf"
+      },
+      {
+        "elicitId": "ss-291877068",
+        "title": "Analytical and functional clearance of dsRNA contaminants from in vitro transcribed mRNA by an engineered dsRNA-binding protein",
+        "authors": [
+          "T. Vonderfecht",
+          "Peter Lam",
+          "Genia Verovskaya",
+          "J. Potter"
+        ],
+        "year": 2026,
+        "abstract": "Double-stranded RNA (dsRNA) is a biologically active contaminant of in vitro transcribed (IVT) mRNA that can reduce protein expression, induce cytokines, affect cell viability, and confound experimental results. Here, we show that dsRNA contaminants containing modified nucleotides are difficult to quantify and functionally assess. Common antibody-based dsRNA ELISAs under-detected pseudouridine- and N1-methylpseudouridine-modified dsRNA, while a higher-sensitivity ELISA improved detection but remained chemistry dependent. Defined dsRNA spike-in experiments showed that effects of dsRNA on cell viability, cytokine induction, and protein expression were chemistry dependent and occurred at low burdens of 0.05-0.5 ng dsRNA per µg RNA. Analytical dsRNA depletion across several workflows did not always predict suppression of cytokine induction, supporting the need for a functional cell- based readout. We engineered B2-S, a single-chain spliced variant of the Flock House virus B2 dsRNA-binding protein, to selectively deplete dsRNA from crude IVT reactions while preserving mRNA recovery and integrity. Among tested methods, B2-S was the only non- enzymatic, non-chromatographic workflow that reduced the cytokine marker IP-10/CXCL10 to mock-transfection levels. These findings establish a paired analytical and functional framework for IVT mRNA quality assessment and introduce B2-S as an accessible method for producing mRNA with improved potency and reduced immunostimulatory activity. GRAPHICAL ABSTRACT",
+        "doi": "10.64898/2026.09.03.749252",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2026/09/07/2026.09.03.749252.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2026/09/07/2026.09.03.749252.full.pdf"
+      },
+      {
+        "elicitId": "ss-282924094",
+        "title": "937 Structural optimization of multi-epitope mRNA constructs enhances MHC class II presentation and reduces immune interference in personalized cancer vaccines",
+        "authors": [
+          "Adrienne Sallets",
+          "Christopher S Rae",
+          "Wei-Qun Liu",
+          "Anustha Sharma",
+          "Ray Low",
+          "Sangeeta Nath",
+          "Evan McCartney-Melstad",
+          "Johnny L. Luu",
+          "Samuel Deutsch",
+          "Meredith Leong",
+          "O. Haabeth"
+        ],
+        "year": 2025,
+        "abstract": "Background Personalized mRNA vaccines targeting tumor neoantigens are emerging as a promising therapeutic modality. However, the design of multi-epitope constructs remains empirically driven, with limited understanding of how sequence organization affects expression, antigen processing, and immune presentation. A particular challenge is optimizing CD4 + T cell activation via MHC class II pathways, which are highly sensitive to antigen accessibility and trafficking. Here, we describe rational design strategies to overcome immune interference and enhance structural availability of MHC class II-restricted epitopes in multi-epitope mRNA constructs.Methods We developed a panel of multi-epitope mRNA constructs encoding up to 30 antigens, with systematic variation in epitope order, polarity, trafficking signals, and inter-epitope spacers. Antigen expression was assessed in vitro using transfected human dendritic cells and flow cytometry. MHC class II presentation was quantified via antigen-specific CD4 + T cell activation assays using TCR-transgenic Reporter cells and monocyte derived DCs from healthy, HLA matched donors. Manufacturability metrics were evaluated through in vitro transcription and mRNA purity.Results Inclusion of an endolysosomal trafficking domain from human CD1d significantly increased MHC class II presentation, likely by promoting routing to late endosomal compartments. A strong positional effect was observed: class II epitopes placed at the 5’ end of the mRNA—corresponding to early translation—were presented more efficiently than those placed later in the sequence. This highlights the importance of structural availability during early translation for effective routing into the class II processing pathway. Furthermore, arranging epitopes in order of decreasing polarity improved expression and antigen accessibility, likely by reducing hydrophobic aggregation during translation. Flexible, non-repetitive glycine-serine-rich spacers between epitopes reduced pseudoepitope formation and improved manufacturability by minimizing homopolymer tracts and repetitive sequence elements that hinder mRNA synthesis and stability ( figure 1).Conclusions Our findings establish key design principles for next-generation mRNA neoantigen vaccines. By prioritizing early translation of CD4 + T cell epitopes, leveraging intracellular trafficking domains, and optimizing polarity and spacer architecture, multi-epitope constructs can be structurally tuned to improve expression, enhance MHC class II presentation, and reduce immune interference. These strategies enable more effective engagement of both CD4+ and CD8+ T cells and may enhance the clinical efficacy of personalized cancer vaccines.Abstract 937 Figure 1PCT RNA design",
+        "doi": "10.1136/jitc-2025-sitc2025.0937",
+        "pmid": null,
+        "venue": "Regular and Young Investigator Award Abstracts",
+        "citedByCount": 0,
+        "urls": [
+          "https://jitc.bmj.com/content/13/Suppl_2/A1060.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jitc.bmj.com/content/13/Suppl_2/A1060.full.pdf"
+      },
+      {
+        "elicitId": "ss-287866926",
+        "title": "Unveiling dsRNA impurities in mRNA therapeutics",
+        "authors": [
+          "Alexander Bank",
+          "C. Lake",
+          "Deblina Biswas",
+          "Jan Lohöfener",
+          "Kalavathi Dasuri",
+          "Mayada M Elgohary",
+          "P. Hamill",
+          "Roland Pach",
+          "Shogo Omuro"
+        ],
+        "year": 2026,
+        "abstract": "Clinical development of mRNA-based vaccines and therapeutics rapidly accelerated following the successful approval of Covid-19 vaccines in 2020/21.\n\nHowever, with limited current regulatory guidance and little precedent for approved products to inform quality attributes and safety considerations, developers of mRNA-based products face some uncertainty in assuring quality and safety, including control of impurities.\n\nA prime example of this challenge is double-stranded RNA (dsRNA).\n\ndsRNA is typically associated with viral infections in organisms and can provoke cellular responses similar to those intended for antiviral defense following virus detection.\n\ndsRNA is, therefore, undesirable as it can negatively impact the efficacy of mRNA products and patient safety by triggering various cascades in the innate immune system.\n\nTo understand the implications of dsRNA impurities in mRNA-based products and address some of the gaps in current guidance, we have published our new paper.\n\nIt focuses on the dsRNA impurities that may be present in mRNA products generated through in vitro transcription and their potential impact on safety and efficacy. It also discusses:\n\nHow dsRNA impurity is generated in in vitro reactions\n\nThe regulatory landscape and expectations for control of impurities in mRNA-based products\n\nCurrent analytical methods for quantification and characterization of dsRNA\n\nSetting safety limits for dsRNA.\n\nImportantly, we outline strategies for reducing dsRNA impurities. The first involves reducing or avoiding the generation of dsRNA synthesis during the in vitro reaction. The second is where dsRNA can be removed from the mRNA drug substance during downstream processing steps.",
+        "doi": "10.46220/2025atmp009",
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-287235349",
+        "title": "In vitro synthesis and expression validation of unmodified mRNA encoding a multi-epitope chimeric L1/L2 antigen of human papillomavirus",
+        "authors": [
+          "S. Nshimiyimana",
+          "J. Kimotho",
+          "C. Ngugi"
+        ],
+        "year": 2026,
+        "abstract": "Human papillomavirus (HPV) is a predominant etiological factor for cervical cancer globally. However, current vaccines offer type-specific protection restricted to certain genotypes. The L1 capsid protein induces strong type-specific antibodies, whereas the L2 protein contains conserved epitopes capable of eliciting cross-type immune responses. The integration of both proteins into a chimeric antigen offers a promising approach for broader protection. Notwithstanding widespread use of nucleoside-modified mRNA, current findings indicate that unmodified mRNA can still yield efficient protein expression under optimized conditions. This study aimed to produce and validate an in vitro transcribed (IVT) unmodified mRNA encoding a chimeric HPV L1/L2 protein as a proof-of-concept for mRNA-based HPV vaccine development. For in vitro transcription, a linearized plasmid containing a codon-optimized chimeric L1/L2 gene with a complete mRNA expression cassette was used. This plasmid was subjected to in vitro transcription using a T7-driven RNA polymerase enzyme, followed by enzymatic capping to generate a Cap-1 structure. Transcription efficiency was optimized across incubation periods of 1–6 h, and transcript integrity was confirmed by agarose gel electrophoresis. The histidine-tagged protein expression in Vero cells was evaluated by SDS-PAGE and ELISA, with the chimeric L1/L2 antigen detected using an anti-histidine primary antibody. IVT reactions yielded transcript concentrations ranging from 107.24 to 780.64 µg/mL (~2.1–15.61 µg), with a purification recovery rate of approximately 62.84% and maximal yield observed at 6 h. Agarose electrophoresis confirmed intact, high-quality transcripts. In vitro expression analysis demonstrated significantly higher OD450 values in IVT mRNA–transfected cells compared with the non-transfected control (P < 0.01). The findings demonstrated that unmodified mRNA is capable of producing functional chimeric proteins in mammalian cells, thereby providing a foundation for broad-spectrum HPV mRNA vaccine development and underscoring the need for further evaluation in preclinical models.",
+        "doi": "10.31893/multiscience.2026552",
+        "pmid": null,
+        "venue": "Multidisciplinary Science Journal",
+        "citedByCount": 0,
+        "urls": [
+          "https://doi.org/10.31893/multiscience.2026552"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://doi.org/10.31893/multiscience.2026552"
+      },
+      {
+        "elicitId": "ss-280496813",
+        "title": "Transfecting Primary Macrophages with Modified mRNA",
+        "authors": [],
+        "year": 2025,
+        "abstract": "Source: Herb, M. et al., Highly Efficient Transfection of Primary Macrophages with In Vitro Transcribed mRNA. J. Vis. Exp. (2019) This video demonstrates the process of transfecting primary macrophages with modified mRNA encoding green fluorescent protein. These modified mRNAs, designed to reduce immunogenicity and improve its stability, ensure the successful transfection and subsequent expression of green fluorescent proteins, which is confirmed through fluorescence microscopy.",
+        "doi": "10.3791/30929",
+        "pmid": null,
+        "venue": "Journal of Visualized Experiments",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-278786706",
+        "title": "Research progress on immune mechanism and control strategy of dsRNA impurities in mRNA vaccine",
+        "authors": [
+          "Xin-Jun Liu",
+          "Chaoying Hu",
+          "Qian He",
+          "Yu Bai",
+          "Xuanxuan Zhang",
+          "Zhihao Fu",
+          "Xiao Ma",
+          "Miao Xu",
+          "Zheng-Lun Liang",
+          "Qun-Ying Mao"
+        ],
+        "year": 2025,
+        "abstract": "ABSTRACT Introduction Double-stranded RNA (dsRNA) is a key impurity of mRNA vaccines prepared by in vitro transcription (IVT) and is primarily transcribed by T7 RNA polymerase. It can trigger innate immunity and induce a series of side effects that may influence the safety of mRNA vaccines. Areas covered This manuscript summarizes dsRNA generation mechanisms and immunity activation and analyzes the current challenges in dsRNA detection and control strategies. Regulatory standards for dsRNA impurities in mRNA vaccines have also been discussed. Expert opinion dsRNA as a critical quality attribute (CQA), the structural heterogeneity of it (including length and structure) and its precise immunomodulatory mechanisms affecting vaccine safety are poorly understood. Regulatory authorities have not released specific standards for dsRNA. Additionally, there is a lack of comparative analysis data on different corporate testing methods. Therefore, to ensure the safety of dsRNA containing mRNA vaccines and improve mRNA-based platforms, it is of great significance to establish standardized detection methods and standards for dsRNA; to design mRNA production with low dsRNA impurities by adopting the quality by design (QbD) approach; and to evaluate the immune stimulation mechanism of dsRNA impurities in mRNA vaccines.",
+        "doi": "10.1080/14760584.2025.2510335",
+        "pmid": "40401819",
+        "venue": "Expert Review of Vaccines",
+        "citedByCount": 8,
+        "urls": [
+          "https://www.tandfonline.com/doi/pdf/10.1080/14760584.2025.2510335?needAccess=true"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.tandfonline.com/doi/pdf/10.1080/14760584.2025.2510335?needAccess=true"
+      },
+      {
+        "elicitId": "ss-279302768",
+        "title": "Sequence simplification of antigen coding IVT mRNA allows accelerated synthetic DNA template generation and epitope immunogenicity validation",
+        "authors": [
+          "Arthur Esprit",
+          "Dorien Autaers",
+          "Ilke Aernout",
+          "I. Lentacker",
+          "S. Pascolo",
+          "Kris Thielemans",
+          "K. Breckpot",
+          "Lorenzo Franceschini"
+        ],
+        "year": 2025,
+        "abstract": null,
+        "doi": "10.1016/j.omtn.2025.102591",
+        "pmid": "40673161",
+        "venue": "Molecular Therapy: Nucleic Acids",
+        "citedByCount": 5,
+        "urls": [
+          "https://doi.org/10.1016/j.omtn.2025.102591",
+          "https://biblio.ugent.be/publication/01K3606EWYSXKQWRJXVKN27GTZ/file/01K360CJ4J7X0V67H2ZVBY4GE8.pdf",
+          "https://biblio.vub.ac.be/vubirfiles/225303131/134714837.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.omtn.2025.102591"
+      },
+      {
+        "elicitId": "ss-290729134",
+        "title": "Immunogenicity of Double-Stranded RNA in mRNA Vaccines and its Impact on Immune Cell Function 2335037",
+        "authors": [
+          "Christopher E. Lopez",
+          "Seyedehmahsa Moghimi",
+          "Ethan P. McCurdy",
+          "Cheng-Hui Hu",
+          "Tanveer Sandhu",
+          "A. Mirza",
+          "Joanna Varughese",
+          "Patty Gu",
+          "Ashley Gelbard",
+          "Urmi Patel",
+          "Lei Hu",
+          "Mindy Wang",
+          "Mark Chipley",
+          "Aparna Paul",
+          "Arkee Patel",
+          "Fan-Rong Kong",
+          "Raymond Singh",
+          "Dr. L. V. Malde",
+          "Wei Chen",
+          "Kristin Tompkins",
+          "Pilar Mendoza Daroca",
+          "Bridget Y. Huang",
+          "K. Swanson",
+          "A. Giannakou",
+          "Fanyu Meng",
+          "K. Efferen"
+        ],
+        "year": 2026,
+        "abstract": "Double-stranded RNA (dsRNA) is a natural activator of innate immune responses in mammalian cells and can form as a limited byproduct during in vitro transcription of mRNA vaccines\n\nWe sought to further characterize humoral and cell-mediated immune responses to varying levels of dsRNA using a prototype nucleoside-modified mRNA (modRNA) based respiratory syncytial virus (RSV) vaccine. The modRNA lipid nanoparticle formulations contained defined quantities of a full-length dsRNA generated from complementary sense and antisense strands of RSV modRNA.\n\nIn vivo analysis in BALB/c mice revealed that increasing levels of dsRNA impurities in a modRNA LNP vaccine delivered intramuscularly led to a modest induction of inflammatory cytokines, including Type I interferons, but had no effect on neutralizing antibody titers or the functionality of CD4+ and CD8+ T cells. In parallel, in vitro analysis of human PBMCs exposed to the same formulations showed no significant changes in inflammatory cytokine production or cell-mediated immunity; Increasing levels of dsRNA impurities did not alter population composition, antigen-presenting cell (APC) activation, or CD4+ and CD8+ T cell exhaustion, indicating limited immunostimulatory potential of N1-Methylpseudouridine (m1ψ) modified dsRNA in immune cells.\n\nTogether, these results improve our understanding of potential dsRNA impurities and immune responses in mRNA vaccines.\n\nn/a\n\nVaccines and Immunotherapy (VAC)",
+        "doi": "10.1093/jimmun/vkag141.1872",
+        "pmid": null,
+        "venue": "Journal of Immunology",
+        "citedByCount": 0,
+        "urls": [
+          "https://academic.oup.com/jimmunol/article-pdf/215/Supplement_1/vkag141.1872/70272699/vkag141.1872.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://academic.oup.com/jimmunol/article-pdf/215/Supplement_1/vkag141.1872/70272699/vkag141.1872.pdf"
+      },
+      {
+        "elicitId": "ss-282935442",
+        "title": "343 Strategic epitope placement enhances antigen presentation in multiepitope mRNA vaccine design",
+        "authors": [
+          "Olivia Roy",
+          "Akshansh Kaushik",
+          "S. Henry",
+          "Karen Anderson"
+        ],
+        "year": 2025,
+        "abstract": "Background Multiepitope mRNA vaccines present a scalable strategy for cancer immunotherapy by targeting multiple tumor antigens. However, key challenges persist: identifying immunodominant, broadly presented epitopes across diverse HLA alleles, strategically positioning these epitopes within synthetic mRNAs, and ensuring stable single-frame translation to enhance MHC-I presentation for CD8+ T cell activation. Here, we investigate epitope positioning within a synthetic mRNA affects antigen processing and immunogenicity.Methods To evaluate the impact of epitope positioning, we designed a model mRNA construct (FluM1-EGFP Multitag, FEM) encoding EGFP fused to the influenza M1 epitope (GILGFVFTL) in three configurations: N-terminal (FEM-N), C-terminal (FEM-C), and both termini (FEM-NC). The dual-terminal construct incorporated quadrivalent M1 epitopes to increase epitope density. Transfection efficiency was measured in HEK293T cells. Protein expression was confirmed by immunoblotting, and LC-MS/MS was used to validate peptide coverage. Proteasomal dependency was assessed using MG132. Antigen presentation and immunogenicity were assessed using HLA-A02:01+ dendritic cells derived from human PBMCs and THP-1 cells. CD8+ T cell responses were evaluated using HLA-A02:01 tetramer staining and IFN-γ ELISPOT.Results All mRNA constructs—including FEM-N, FEM-C, and FEM-NC—achieved >94% transfection efficiency in HEK293T cells comparable to EGFP-only mRNA controls, indicating that epitope insertion did not impair expression. Immunoblotting confirmed M1 protein expression only in the C-terminal and dual-terminal designs while LC-MS/MS detected M1 from all three constructs, confirming expression despite lack of immunoblot signal in FEM-N. CD8+ T cell activation varied significantly by epitope position: C-terminal M1 placement led to 2.8% tetramer+ CD8+ cells, versus 1.18% for N-terminal (2.4-fold increase); dual-terminal placement induced 4.32 (3.7-fold vs. N-terminal), comparable to the peptide controls which resulted in the highest activation at 4.91%. IFN-γ ELISPOT corroborated these findings, for dual-terminal FEM (4.54-fold) increases in spot-forming units relative to EGFP-only mRNA controls. Proteasome inhibition abolished CD8+ activation for all three positional constructs.Conclusions Epitope positioning within this multiepitope mRNA construct significantly alters antigen expression and immunogenicity. C-terminal or dual-terminal replicate M1 epitope expression improve CD8+ T cell responses. The impact of intervening sequences and intra-allelic epitope competition will be assessed. These findings provide mechanistic insights to guide rational design of mRNA-based immunotherapies.Ethics Approval This study obtained under institutional oversight at Arizona State University. All procedures complied with institutional guidelines, and informed consent was obtained from all donors through an IRB-approved protocol or exemption. The study was reviewed by the Arizona State University Institutional Review Board. Full protocol details are available upon request.",
+        "doi": "10.1136/jitc-2025-sitc2025.0343",
+        "pmid": null,
+        "venue": "Regular and Young Investigator Award Abstracts",
+        "citedByCount": 0,
+        "urls": [
+          "https://jitc.bmj.com/content/13/Suppl_2/A393.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://jitc.bmj.com/content/13/Suppl_2/A393.full.pdf"
+      },
+      {
+        "elicitId": "ss-267197348",
+        "title": "Enzymatic isolation and microfluidic electrophoresis analysis of residual dsRNA impurities in mRNA vaccines and therapeutics.",
+        "authors": [
+          "Adriana Coll de Peña",
+          "Matei Vaduva",
+          "N. Li",
+          "Shreyas Shah",
+          "Menel Ben Frej",
+          "Anubhav Tripathi"
+        ],
+        "year": 2024,
+        "abstract": "The versatility, rapid development, and ease of production scalability of mRNA therapeutics have placed them at the forefront of biopharmaceutical research. However, despite their vast potential to treat diseases, their novelty comes with unsolved analytical challenges. A key challenge in ensuring sample purity has been monitoring residual, immunostimulatory dsRNA impurities generated during the in vitro transcription of mRNA. Here, we present a method that combines an enzyme, S1 nuclease, to identify and isolate dsRNA from an mRNA sample with a microfluidic electrophoresis analytical platform to characterize the impurity. After the method was developed and optimized, it was tested with clinically relevant, pseudouridine-modified 700 and 1800 bp dsRNA and 818-4451 nt mRNA samples. While the treatment impacted the magnitude of the fluorescent signal used to analyze the samples due to the interference of the buffer with the labeling of the sample, this signal loss was mitigated by 8.8× via treatment optimization. In addition, despite the mRNA concentration being up to 400× greater than that of the dsRNA, under every condition, there was a complete disappearance of the main mRNA peak. While the mRNA peak was digested, the dsRNA fragments remained physically unaffected by the treatment, with no change to their migration time. Using these samples, we detected 0.25% dsRNA impurities in mRNA samples using 15 μL with an analytical runtime of 1 min per sample after digestion and were able to predict their size within 8% of the expected length. The short runtime, sample consumption, and high throughput compatibility make it suitable to support the purity assessment of mRNA during purification and downstream.",
+        "doi": "10.1039/d3an02157b",
+        "pmid": "38265070",
+        "venue": "In Analysis",
+        "citedByCount": 6,
+        "urls": [
+          "https://pubs.rsc.org/en/content/articlepdf/2024/an/d3an02157b"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://pubs.rsc.org/en/content/articlepdf/2024/an/d3an02157b"
+      },
+      {
+        "elicitId": "ss-254641206",
+        "title": "Exploring in vitro expression and immune potency in mice using mRNA encoding the Plasmodium falciparum malaria antigen, CelTOS",
+        "authors": [
+          "Ishita N. Waghela",
+          "K. Mallory",
+          "Justin A. Taylor",
+          "Cosette G. Schneider",
+          "T. Savransky",
+          "C. Janse",
+          "Paulo J. C. Lin",
+          "Ying K. Tam",
+          "D. Weissman",
+          "E. Angov"
+        ],
+        "year": 2022,
+        "abstract": "The secreted malarial protein, Cell-Traversal protein for Ookinetes and Sporozoites (CelTOS), is highly conserved among Plasmodium species, and plays a role in the invasion of mosquito midgut cells and hepatocytes in the vertebrate host. CelTOS was identified as a potential protective antigen based on a proteomic analysis, which showed that CelTOS stimulated significant effector T cells producing IFN-γ in peripheral blood mononuclear cells (PBMCs) from radiation attenuated sporozoite-immunized, malaria-naïve human subjects. In a rodent malaria model, recombinant full-length CelTOS protein/adjuvant combinations induced sterile protection, and in several studies, functional antibodies were produced that had hepatocyte invasion inhibition and transmission-blocking activities. Despite some encouraging results, vaccine approaches using CelTOS will require improvement before it can be considered as an effective vaccine candidate. Here, we report on the use of mRNA vaccine technology to induce humoral and cell-mediated immune responses using this antigen. Several pfceltos encoding mRNA transcripts were assessed for the impact on protein translation levels in vitro. Protein coding sequences included those to evaluate the effects of signal sequence, N-glycosylation on translation, and of nucleoside substitutions. Using in vitro transfection experiments as a pre-screen, we assessed the quality of the expressed CelTOS target relative to the homogeneity, cellular localization, and durability of expression levels. Optimized mRNA transcripts, which demonstrated highest protein expression levels in vitro were selected for encapsulation in lipid nanoparticles (LNP) and used to immunize mice to assess for both humoral and cellular cytokine responses. Our findings indicate that mRNA transcripts encoding pfceltos while potent for inducing antigen-specific cellular cytokine responses in mice, were less able to mount PfCelTOS-specific antibody responses using a two-dose regimen. An additional booster dose was needed to overcome low seroconversion rates in mice. With respect to antibody fine specificities, N-glycosylation site mutated immunogens yielded lower immune responses, particularly to the N-terminus of the molecule. While it remains unclear the impact on CelTOS antigen as immunogen, this study highlights the need to optimize antigen design for vaccine development.",
+        "doi": "10.3389/fimmu.2022.1026052",
+        "pmid": "36591298",
+        "venue": "Frontiers in Immunology",
+        "citedByCount": 10,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fimmu.2022.1026052/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.1026052/pdf"
+      }
+    ],
+    "warnings": []
+  }
+}

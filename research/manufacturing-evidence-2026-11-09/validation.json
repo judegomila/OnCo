@@ -1,0 +1,54 @@
+{
+  "baseCommit": "851dfd3b1dabcac4f7ff5dcdf3183b321d878a29",
+  "scope": "Data-only follow-up in the existing draft; no merge or deployment.",
+  "validate": {
+    "exitCode": 0,
+    "entities": 22719
+  },
+  "typecheck": {
+    "exitCode": 0
+  },
+  "lint": {
+    "exitCode": 0,
+    "errors": 0,
+    "existingWarnings": 7
+  },
+  "tests": {
+    "exitCode": 0,
+    "filesPassed": 281,
+    "testsPassed": 2813,
+    "skippedExisting": 2,
+    "durationSeconds": 98.37
+  },
+  "render": {
+    "entityDetailPages": 45,
+    "changedOwners": 2,
+    "authoredVisibleBodyParts": 12,
+    "alternativeSummaryLookups": 18,
+    "nestedAnchors": 0,
+    "missingSources": 0
+  },
+  "sourceBodiesAddedToGit": 0,
+  "floorsBudgetsRankingChanges": 0,
+  "browserHydrationOrDeploymentVerified": false,
+  "build": "Not rerun for this data-only follow-up. The original contribution records the existing upstream GRAPH_JSON route export build failure; this follow-up does not claim a successful production build.",
+  "localLogReceipts": {
+    "validate": {
+      "bytes": 354,
+      "sha256": "538e2fc243458b2d32668a36811887a154eb0a51fdb73028472a83a4d4270556"
+    },
+    "typecheck": {
+      "bytes": 40,
+      "sha256": "ed8420b073d4b44dba56a3ebb139d01e223c69b6bdb9cc3772a93ca5ef4a07d8"
+    },
+    "lint": {
+      "bytes": 1430,
+      "sha256": "b58c74edf0e8f26054a87248f5178ac5593944cb66d96d7bd751804e41a90ee4"
+    },
+    "full": {
+      "bytes": 951,
+      "sha256": "baf1788869b67ec0330d80ed05f100a93a3c5870af0c3c5ae91fddc94dcb7010"
+    }
+  },
+  "gitleaks": "Staged content scan required before commit; commit proceeded only after exit 0."
+}

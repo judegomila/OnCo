@@ -1,0 +1,58 @@
+{
+  "scope": "Two existing canonical owners supplemented; no new graph record, no changed schema or component.",
+  "owners": [
+    {
+      "id": "cell-therapy-release-testing",
+      "sourceFile": "src/data/supporting.ts",
+      "asOf": "2026-11-09",
+      "sources": [
+        "fda-car-t-guidance.pdf",
+        "fda-gene-cmc-2020.pdf",
+        "fda-potency-final-2026.pdf"
+      ],
+      "fields": [
+        {
+          "field": "asOf",
+          "sha256": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+        },
+        {
+          "field": "notes",
+          "sha256": "70457955b62e52c0ff42806d4f7031974c0c7f001ba1452ffb756fe51968c576"
+        },
+        {
+          "field": "links",
+          "sha256": "7ae4c2f4eac9d9385cccd8591c93755c591d01c0e61594b5a3422f6b4a30ea85"
+        }
+      ]
+    },
+    {
+      "id": "vein-to-vein-time",
+      "sourceFile": "src/data/terms-jargon.ts",
+      "asOf": "2026-11-09",
+      "sources": [
+        "fda-car-t-guidance.pdf"
+      ],
+      "fields": [
+        {
+          "field": "asOf",
+          "sha256": "dd627efcb5b4f7a56b1dc2259533f08f93d260f95f32f227670084204b3069ef"
+        },
+        {
+          "field": "tldr",
+          "sha256": "2d6424157b2030f66e80e27c69a08ecf92a5e3da6e64971792277960f339e1c4"
+        },
+        {
+          "field": "notes",
+          "sha256": "75bfaa8a19412fc8b27ce60fc142a0cc0a65c703c21a068b199503e9d99e4804"
+        },
+        {
+          "field": "links",
+          "sha256": "70234a1f1db0b4d302cab6fdc37605555d1e15ee3e8cc9e1f54905eb12fc19aa"
+        }
+      ]
+    }
+  ],
+  "consumerCount": 18,
+  "consumerScope": "Sixteen translated TL;DRs and two simplified-English TL;DRs. Machine-assisted translations remain unreviewed; no named language review invented.",
+  "teachingArithmetic": "Fictional counts and day numbers are explicitly labelled and checked; they are not empirical release thresholds or performance estimates."
+}

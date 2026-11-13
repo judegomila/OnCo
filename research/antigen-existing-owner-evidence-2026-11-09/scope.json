@@ -1,0 +1,15 @@
+{
+  "checkedOn": "2026-11-09",
+  "owners": [
+    "binding-presentation-recognition",
+    "immunopeptidome",
+    "neoantigen",
+    "self-similarity-immune-recognition"
+  ],
+  "requirements": 4,
+  "sourceVersionEntries": 8,
+  "sourceWorkerCommit": "ddc1fcae43af5e7214b01dd75ff9beb53e344491",
+  "summaryFieldsUnchanged": true,
+  "allExistingArraysRetained": true,
+  "state": "Draft data only; no merge or deployment."
+}

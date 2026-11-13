@@ -1,0 +1,56 @@
+[
+  {
+    "id": "delivery-versus-target",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9983611/",
+    "sha256": "4d8c84678028a92899db18265ada56e4103122dd2a46001537ce72b097995f85",
+    "retrievedAt": "2026-11-08T21:16:22.386335+00:00",
+    "bytes": 21476,
+    "reviewLevel": "access failure: reCAPTCHA HTML; not article text",
+    "rawFileDistributed": false,
+    "usedForClaims": false
+  },
+  {
+    "id": "elispot-harmonization",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2150634/",
+    "sha256": "dfc01bd4b14ce3a25831c9a648ab156329443652043ec67268935578e9215554",
+    "retrievedAt": "2026-11-08T21:16:22.397200+00:00",
+    "bytes": 21476,
+    "reviewLevel": "access failure: reCAPTCHA HTML; not article text",
+    "rawFileDistributed": false,
+    "usedForClaims": false
+  },
+  {
+    "id": "codon-optimality",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4359748/",
+    "sha256": "d2a283095abcafd1b354511ea173866986d36bef968204151493099aa8e923bf",
+    "retrievedAt": "2026-11-08T21:16:22.640674+00:00",
+    "bytes": 21476,
+    "reviewLevel": "access failure: reCAPTCHA HTML; not article text",
+    "rawFileDistributed": false,
+    "usedForClaims": false
+  },
+  {
+    "id": "delivery-bioc",
+    "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC9983611/unicode",
+    "sha256": "8b5751a94347b69046d68f5036c5b7bc9005934993b3741018dcbc34c314a774",
+    "bytes": 69827,
+    "retrievedAtFilesystemUTC": "2026-11-08T21:17:16.661556+00:00",
+    "reviewLevel": "specific full-text methods/paragraph verified",
+    "locator": "BioC paragraph offset 4335",
+    "supports": "CD5-targeted nanoparticles deliver RNA encoding a FAP-directed receptor in the mouse cardiac-fibrosis study.",
+    "usedForClaims": true,
+    "rawFileDistributed": false
+  },
+  {
+    "id": "rna-purification-bioc",
+    "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC3241667/unicode",
+    "sha256": "aceeebea5b69322cb9745dea1851e118bf16d51509d28c7941b64c4b326d38ca",
+    "bytes": 65282,
+    "retrievedAtFilesystemUTC": "2026-11-08T21:33:13.016979+00:00",
+    "reviewLevel": "specific full-text methods/paragraph verified",
+    "locator": "Methods: mRNA synthesis and capping",
+    "supports": "The experimental mRNA constructs include a poly(A) tail and cap variants; no experimental recipe parameters imported.",
+    "usedForClaims": true,
+    "rawFileDistributed": false
+  }
+]

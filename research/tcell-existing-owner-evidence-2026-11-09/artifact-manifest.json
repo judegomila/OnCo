@@ -1,0 +1,25 @@
+{
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1204,
+      "sha256": "f7db85259b4d1c52a324a52c129626cc70adab26ec678d2bedd7aacdc44391e6"
+    },
+    {
+      "path": "render-verification.json",
+      "bytes": 18316,
+      "sha256": "82e2079254be6925882f180d527cb855b2c7fd3723a7d61f7ee5856613a9177b"
+    },
+    {
+      "path": "scope.json",
+      "bytes": 9228,
+      "sha256": "ba9f16738af87f9d6f8274f178e0d68dad293f97e620cb3447c1681c4afecb5d"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1080,
+      "sha256": "efbc41b8c8003bd22384146ae888e27ee638ac3e508fc52b4dcee3d2f70c3c48"
+    }
+  ]
+}

@@ -18,7 +18,7 @@ const provenance = { editedBy: "OnCo CanSim terms wave (Wikipedia summaries, sta
 export const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 export const DOI = (d: string) => `https://doi.org/${d}`;
 
-type T = Omit<TermInput, "kind" | "asOf" | "provenance" | "tags"> & { cansim?: string };
+type T = Omit<TermInput, "kind" | "asOf" | "provenance" | "tags"> & { cansim?: string; asOf?: string };
 /** Term with the CanSim attribution note and a link back to the hub term, so no record is an orphan. */
 export const cansimTerm = (x: T): TermInput => {
   const { cansim, ...rest } = x;
@@ -254,11 +254,44 @@ export const cansimOncologyTerms: TermInput[] = [
     tldr: "Microarrays measured gene expression by hybridising labelled RNA to spots of known DNA on a chip; they preceded RNA sequencing and still hold the longest-followed cohorts.",
     summary: "A DNA microarray is a collection of microscopic DNA spots on a solid surface used to measure the expression of large numbers of genes at once (Wikipedia). The METABRIC breast cancer cohort of about two thousand patients with long follow-up is microarray based, which makes it the standard external test for TCGA-trained RNA-seq survival models and a stern one: intensities and read counts have different distributions, so a model must be rank- or quantile-normalised to cross platforms.",
     terms: ["bulk-rna-seq", "batch-effects", "quantile-normalisation", "external-validation"] }),
-  t({ id: "rppa", name: "Reverse-phase protein array (RPPA)", category: BM, aka: ["RPPA", "reverse-phase protein array", "reverse phase protein array", "protein array data", "RPPA data"],
+  t({ id: "rppa",
+    links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Reverse_phase_protein_lysate_microarray"
+  },
+  {
+    "label": "Reverse phase protein microarrays which capture disease progression show activation of pro-survival pathways at the cancer invasion front.",
+    "url": "https://doi.org/10.1038/sj.onc.1204265"
+  },
+  {
+    "label": "A reverse phase protein array based phospho-antibody characterization approach and its applicability for clinical derived tissue specimens.",
+    "url": "https://doi.org/10.1038/s41598-022-26715-9"
+  },
+  {
+    "label": "Correct interpretation of comprehensive phosphorylation dynamics requires normalization by protein expression changes.",
+    "url": "https://doi.org/10.1074/mcp.m111.009654"
+  },
+  {
+    "label": "Mannsperger et al., RNAi-based validation of antibodies for reverse phase protein arrays (Proteome Science 2010)",
+    "url": "https://doi.org/10.1186/1477-5956-8-69"
+  },
+  {
+    "label": "Mertins et al., Ischemia in tumors induces early and sustained phosphorylation changes in stress kinase pathways but does not affect global protein levels (Molecular and Cellular Proteomics 2014)",
+    "url": "https://doi.org/10.1074/mcp.M113.036392"
+  }
+], asOf: "2026-11-10", name: "Reverse-phase protein array (RPPA)", category: BM, aka: ["RPPA", "reverse-phase protein array", "reverse phase protein array", "protein array data", "RPPA data"],
     wikipedia: W("Reverse_phase_protein_lysate_microarray"), cansim: "/terms/rppa",
-    tldr: "RPPA spots tiny amounts of protein extract from many tumours onto a slide and probes them with antibodies, measuring a few hundred proteins and phosphoproteins in each sample at once.",
-    summary: "A reverse phase protein lysate microarray is a dot-blot platform that measures protein expression in many samples simultaneously and quantitatively where high-quality antibodies exist (Wikipedia). TCGA ran RPPA on most tumours for roughly 150 to 200 proteins and phosphoproteins chosen for signalling pathways, which makes it the only pan-cancer protein data at scale, though a targeted rather than genome-wide view. Deep mass spectrometry from CPTAC covers thousands of proteins on fewer tumours.",
-    technologies: ["proteomics"], terms: ["pathway-activation-state", "mass-spec-proteome"], related: ["tcga-gdc"] }),
+    tldr: "This array tests protein extracts from many samples using selected antibodies. The panel and its validation determine which protein signals can be interpreted.",
+    summary: "A reverse-phase protein array places sample lysates on an array and measures selected proteins or modifications with antibodies. The original tissue study examined signaling proteins in defined cell populations. A later study used phosphatase treatment as an independent control when characterizing phospho-antibodies for frozen and fixed tissue. Signal specificity, input preparation and validation matter. A lysate measurement does not restore the spatial arrangement lost during extraction, and phosphorylation signal needs interpretation alongside protein abundance. In the original reverse-phase protein microarray, the whole repertoire of a patient's tissue proteins from laser-capture microdissected cell populations is immobilised and probed, in contrast to earlier arrays that immobilise the probe, and precision and linearity were tested with microarrayed dilution curves of a standard protein and loading was normalised with an actin control (Paweletz and colleagues, 2001). Because target detection relies on a single antibody, RNA interference was used to test antibody performance: two anti-EGFR antibodies detected knockdown at different rates, and four of ten anti-STAT3 antibodies detected STAT3 knockdown at 80 to 85 per cent (Mannsperger and colleagues, 2010). Ischaemia changed phosphorylation in human ovarian tumour tissue and breast cancer xenografts, which supports recording how tissue was collected and preserved without setting a universal safe delay (Mertins and colleagues, 2014).",
+    technologies: ["proteomics"], terms: ["pathway-activation-state", "mass-spec-proteome"], related: ["tcga-gdc", "targeted-proteomics-quantification", "tissue-preparation-assay-fit", "cell-segmentation"] ,
+"notes": [
+  "Reading guide (OnCo inference). A printed spot holds a mixed lysate, and its address names a sample and a dilution, not a cell position in tissue. Dilution curves, background, references and loading normalisation define the usable range, and signals from two antibodies are not on the same scale. A phosphosite signal is not occupancy or enzymatic activity, because it can reflect more source protein, a larger modified fraction or preparation effects.",
+  "Fictional worked example. A phospho-R signal doubles, but total R and loading were not evaluated. The report cannot call this doubled R activity: check loading, source-protein abundance, antibody performance, handling and the site's function, since the observed increase is narrower than an activity claim.",
+  "Figure reading (toy dilutions, light and dark renders agree): cells are disrupted into one mixed lysate, so location is lost; samples A and B are printed at dilutions 1, 1/2 and 1/4, giving six addresses, and each spot is still a mixture; separate replicate arrays are probed for R and for phospho-R. Each antibody and signal scale needs validation, and this is neither an all-protein census nor a single-cell map.",
+  "Assay card in words (a reading guide). Measures and how: selected antibody-recognised epitopes, by extracting lysate, printing dilutions, probing replicate arrays, quantifying signal and normalising with controls. Input and tissue cost: an assay-compatible lysate; extraction consumes material and destroys arrangement, and microdissection defines the sampled region without keeping coordinates inside the lysate. Output and units: antibody and epitope identifiers with relative or normalised signal; calibrated amounts only when specifically supported. Thresholds: antibody-specific validated range, dilution behaviour, background and report criteria, with no universal activation or treatment cutoff. Failure modes: cross-reactivity, loading differences, saturated or weak signal, cell mixture, handling-induced modification change and batch effects. Limits: no automatic intact-form, spatial map, whole-pathway activity, cell-specific surface amount, dependency or benefit conclusion. Validation tier: primarily a research profiling method."
+]
+}),
   t({ id: "mass-spec-proteome", name: "Deep mass-spectrometry proteome (CPTAC)", category: BM, aka: ["mass-spectrometry proteome", "mass spectrometry proteomics", "deep proteome", "global proteome", "MS proteomics", "TMT proteomics", "phospho-proteomics data"],
     wikipedia: W("Mass_spectrometry"), links: [{ label: "CPTAC (NCI Office of Cancer Clinical Proteomics Research)", url: "https://proteomics.cancer.gov" }], cansim: "/terms/deep-ms-proteome",
     tldr: "Mass spectrometry weighs fragments of every protein in a sample to identify and quantify thousands of proteins and their phosphorylation sites, the closest measurement to what a cell is actually doing.",

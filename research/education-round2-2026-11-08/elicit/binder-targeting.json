@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T21:06:38.111Z",
+  "request": {
+    "query": "Which primary experiments distinguish antibody scFv and VHH formats, binding affinity, epitope position, developability and therapeutic function, or delivery targets from therapeutic targets in targeted nanoparticles?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-244873219",
+        "title": "A comprehensive comparison between camelid nanobodies and single chain variable fragments",
+        "authors": [
+          "Yasaman Asaadi",
+          "Fatemeh Fazlollahi Jouneghani",
+          "S. Janani",
+          "F. Rahbarizadeh"
+        ],
+        "year": 2021,
+        "abstract": "By the emergence of recombinant DNA technology, many antibody fragments have been developed devoid of undesired properties of natural immunoglobulins. Among them, camelid heavy-chain variable domains (VHHs) and single-chain variable fragments (scFvs) are the most favored ones. While scFv is used widely in various applications, camelid antibodies (VHHs) can serve as an alternative because of their superior chemical and physical properties such as higher solubility, stability, smaller size, and lower production cost. Here, these two counterparts are compared in structure and properties to identify which one is more suitable for each of their various therapeutic, diagnosis, and research applications.",
+        "doi": "10.1186/s40364-021-00332-6",
+        "pmid": "34863296",
+        "venue": "Biomarker Research",
+        "citedByCount": 183,
+        "urls": [
+          "https://biomarkerres.biomedcentral.com/track/pdf/10.1186/s40364-021-00332-6"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://biomarkerres.biomedcentral.com/track/pdf/10.1186/s40364-021-00332-6"
+      },
+      {
+        "elicitId": "ss-209893444",
+        "title": "[Antibody alternative formats: antibody fragments and new frameworks].",
+        "authors": [
+          "O. Kitten",
+          "P. Martineau"
+        ],
+        "year": 2019,
+        "abstract": "Antibodies are now recognized as routine molecules in many therapeutic fields, no longer restricted to oncology and inflammation. This explosion of the field leads to new needs that can be better fulfilled by molecules inspired but different from conventional antibodies. In particular, the antibody molecule has multiple functions that are not always necessary, such as its ability to recruit immune system cells, its bivalency, or its high plasma half-life. However, in most applications, its remarkable ability to recognize almost any molecular partner with high affinity and specificity must be preserved. In addition, antibodies are very large molecules, expensive to produce and having limited physicochemical properties that limit their use in aggressive media. Finally, in certain therapeutic applications, the large size of the antibody molecule may also limit its diffusion in tissues and prevent the recognition of some poorly accessible molecular structures. To address these limitations, many alternative formats to whole antibodies have been developed over the last twenty years. These new formats have found applications in many fields like biotechnology, in vitro and in vivo diagnosis, and therapy. Two large families of molecules cover this field and will be presented in this mini-review. The first family is based on antibody by reducing its size, such as classical antibody fragments (Fab, scFv) or those derived from camels or sharks (VHH, V-NAR). The second family was developed by first identifying frameworks fulfilling the desired properties, in particular the stability in extreme medium and the productivity in simple and economic systems like bacteria, then by grafting binding properties comparable to antibodies using methods based on in vitro directed molecular evolution techniques. This mini-review will focus on the most advanced molecules but the field is quickly evolving. It should be noted that many of these molecules, or even these approaches, are covered by patents and are often developed by young innovative companies, some of which have been already bought by large pharmaceutical groups.",
+        "doi": "10.1051/medsci/2019217",
+        "pmid": "31903922",
+        "venue": "Medecine sciences : M/S",
+        "citedByCount": 7,
+        "urls": [
+          "https://www.medecinesciences.org/10.1051/medsci/2019217/pdf",
+          "https://www.medecinesciences.org/articles/medsci/pdf/2019/12/msc190041.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.medecinesciences.org/articles/medsci/pdf/2019/12/msc190041.pdf"
+      },
+      {
+        "elicitId": "ss-44698358",
+        "title": "Targeted cancer therapy through antibody fragments‐decorated nanomedicines",
+        "authors": [
+          "A. Alibakhshi",
+          "Fatemeh Abarghooi Kahaki",
+          "Shahrzad Ahangarzadeh",
+          "H. Yaghoobi",
+          "F. Yarian",
+          "R. Arezumand",
+          "J. Ranjbari",
+          "A. Mokhtarzadeh",
+          "M. de la Guardia"
+        ],
+        "year": 2017,
+        "abstract": null,
+        "doi": "10.1016/j.jconrel.2017.10.036",
+        "pmid": "29107128",
+        "venue": "Journal of Controlled Release",
+        "citedByCount": 134,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-39579552",
+        "title": "The development of nanobodies for therapeutic applications.",
+        "authors": [
+          "F. Van Bockstaele",
+          "J. Holz",
+          "H. Revets"
+        ],
+        "year": 2009,
+        "abstract": "Evolution has been continuously honing the design of antibodies to function as specific molecular markers that are able to alert the immune system to the presence of pathogenic antigens, and to recruit complement- and Fc receptor-bearing effector cells. During the past 25 years, the versatility of antibodies has been applied to several therapeutic applications. The development of new technologies, combined with data obtained using a new generation of antibody reagents, have allowed the adaptation of the design of antibodies to better match drug development requirements. Nanobodies are therapeutic proteins derived from the heavy-chain variable (VHH) domains that occur naturally in heavy-chain-only Ig molecules in camelidae. These VHH domains are the smallest known antigen-binding antibody fragments. Nanobodies can be easily produced in prokaryotic or eukaryotic host organisms, and their unique biophysical and pharmacological characteristics render these molecules ideal candidates for drug development. This review describes the structural properties of nanobodies and focuses on their unique features, which distinguishes these molecules from other antibody formats and small-molecule drugs. Possible therapeutic applications of nanobodies are discussed and data from phase I clinical trials of the novel 'first-in-class' anti-thrombotic agent ALX-0081 (Ablynx NV) are presented.",
+        "doi": null,
+        "pmid": "19876789",
+        "venue": "Current opinion in investigational drugs",
+        "citedByCount": 144,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-244331079",
+        "title": "Camelid Single-Domain Antibodies for Targeting Cancer Nanotheranostics",
+        "authors": [
+          "Sepideh Khaleghi",
+          "S. K. Nikkhoi",
+          "F. Rahbarizadeh"
+        ],
+        "year": 2021,
+        "abstract": "Single-domain antibodies (VHHs), in particular those engineered from the variable heavy-chain fragment (VHH gene) found in Camelidae heavy-chain antibodies, are the smallest fragments that retain the full antigen-binding capacity of the antibody with advantageous properties as drugs or targeting agents. The high stability of VHHs against high concentrations of organic solvents and extreme pHs and temperatures opens a wide range of applications for the detection of small molecules such as the development of more efficient methods of immobilization for biosensing purposes in addition to attachment sites in several immunotherapeutic constructs such as chimeric T cell therapy. VHHs, due to their unique 3D structure, have versatile abilities to inhibit or modulate enzyme activity, bind soluble factors, internalize cell membrane receptors, or block cytoplasmic targets. This chapter summarizes the applications and great potentials of VHHs as therapeutic tools or noninvasive in vivo molecular imaging agents. Moreover, the unique properties of VHHs are outlined like internalization, size, thermal and chemical stability, affinity, blood clearance, and labeling procedures. We highlight some already-reported therapeutic examples about VHHs being used for the treatment of several diseases such as cancer and several nanostructures which are used as molecular imaging or delivering tools.",
+        "doi": "10.1007/978-3-030-74330-7_4",
+        "pmid": null,
+        "venue": "Nanotechnology in the Life Sciences",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-289176223",
+        "title": "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains",
+        "authors": [
+          "Alexander Kinna",
+          "Preeta Datta",
+          "Reyisa Bughda",
+          "F. Parekh",
+          "Mathew Robson",
+          "Ram Jha",
+          "Phillip Wu",
+          "Ian Scott",
+          "Elizabeth Hogben",
+          "Oliver E. Amin",
+          "Gordon Weng-Kit Cheung",
+          "W. Hazelton",
+          "Zulaikha Akbar",
+          "Katarina Lamb",
+          "E. Macken",
+          "Christopher Allen",
+          "S. Panovska",
+          "Lisa Hogan",
+          "Mohamed El-Kholy",
+          "Reevesh Shrestha",
+          "Jonathan F. Popplewell",
+          "E. Kokalaki",
+          "J. Sillibourne",
+          "Simon Thomas",
+          "S. Onuoha",
+          "Mathieu Ferrari",
+          "M. Pule"
+        ],
+        "year": 2026,
+        "abstract": null,
+        "doi": "10.1016/j.ymthe.2026.06.017",
+        "pmid": "42272105",
+        "venue": "Molecular Therapy",
+        "citedByCount": 1,
+        "urls": [
+          "https://doi.org/10.1016/j.ymthe.2026.06.017"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.ymthe.2026.06.017"
+      },
+      {
+        "elicitId": "ss-25366200",
+        "title": "Construction and evaluation of novel fusion proteins for targeted delivery of micro particles to cellulose surfaces",
+        "authors": [
+          "Will Lewis",
+          "E. Keshavarz‐Moore",
+          "J. Windust",
+          "Donna Bushell",
+          "N. Parry"
+        ],
+        "year": 2006,
+        "abstract": "The use of IgG antibodies and fragments has been limited to specific sectors of the biotechnology industry due to the high cost of producing large batches of product necessary for alternative applications. A novel class of Camelid antibodies, known as VHH offer a more economical opportunity to meet a wider application in industry. In this study, we report the evaluation of four llama VHH‐cellulose binding domain fusion proteins displaying varying formats of VHH and CBD domains. Proteins were characterized in a targeted particle delivery system as a method of delivering agents such as perfume to laundry in the wash cycle. Fusion proteins were shown to be stable at high pH and in the presence of a detergent base. They were also shown to bind effectively to both the designated antigen, the azo‐dye reactive‐red 6 (either conjugated to BSA or attached to coacervate microparticles), and cellulose. Binding strength differences were observed between the different fusion protein formats using surface plasmon resonance. The effect of key laundry ingredients was also studied. Combining the fusion proteins and particles into a delivery and deposition study generated clear microscopy evidence for bifunctionality. Confirmation of this was validated by GC‐MS analysis of retained fragrance. This research, reporting the construction and characterization of a variety of fusion proteins, illustrates that the single multidomain fusion protein route offers a new technology for successful targeted delivery of encapsulated benefit agents. Furthermore, the potential to modify or select for proteins to recognize a wide range of surfaces is also possible. © 2006 Wiley Periodicals, Inc.",
+        "doi": "10.1002/bit.20849",
+        "pmid": "16673421",
+        "venue": "Biotechnology and Bioengineering",
+        "citedByCount": 18,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-221285898",
+        "title": "Nanobodies as versatile tools: A focus on targeted tumor therapy, tumor imaging and diagnostics",
+        "authors": [
+          "R. Al-Baradie"
+        ],
+        "year": 2020,
+        "abstract": "Monoclonal antibodies and vaccines have widely been studied for the immunotherapy of cancer, though their large size appears to limit their functionality in solid tumors, in large part due to unique properties of tumor microenvironment. Smaller formats of antibodies have been developed to throw such restrictions. These small format antibodies include antigen binding fragments, single-chain variable fragments, single variable domain of camelid antibody (so-called nanobody (Nb) or VHH). Since their serendipitous discovery, nanobodies have been studies at length in the fields of research, diagnostics and therapy. These antigen binding fragments, originating from camelid heavy-chain antibodies, possess unusual hallmarks in terms of (small) size, stability, solubility and specificity, hence allowing cost-effective production and sometimes out performing monoclonal antibodies. In addition, these small camelid heavy-chain antibodies are highly adaptable tools for cancer research as they enable specific modulation of targets, enzymatic and non-enzymatic proteins alike. Molecular imaging studies benefit from the rapid, homogeneous tumor accumulation of nanobodies and their fast blood clearance, permitting previously unattainable fast tumor visualization. Moreover, they are endowed with considerable therapeutic potential as inhibitors of receptor-ligand pairs and deliverers of drugs or drug-loaded nanoparticles towards tumors. In this review, we shed light on the current status of nanobodies in diagnosis and imaging of tumor and exploiting nanobodies revert immunosuppressive events, modulation of immune checkpoints, and as deliverers of drugs for targeted tumor therapy.",
+        "doi": "10.3233/HAB-200425",
+        "pmid": "32831197",
+        "venue": "Human Antibodies",
+        "citedByCount": 10,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 3,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-19495935",
+        "title": "Self-Assembling VHH-Elastin-Like Peptides for Photodynamic Nanomedicine",
+        "authors": [
+          "Jan Pille",
+          "S. V. van Lith",
+          "J. V. van Hest",
+          "W. Leenders"
+        ],
+        "year": 2017,
+        "abstract": "Recombinant llama heavy-chain antibody fragments (VHHs) are promising tools in the field of targeted nanomedicine. 7D12, a VHH against the epidermal growth factor receptor (EGFR) that is overexpressed in various cancers, has been evaluated as an effective cancer-targeting VHH in multiple studies. The small size of VHHs (15–20 kDa) results in a low circulation half-life, which can be disadvantageous for certain applications. A solution to this problem is to attach VHHs to the surface of nanoparticles to increase the hydrodynamic radius of the conjugate. This approach simultaneously allows the incorporation of different VHHs and other targeting moieties and therapeutic components into one structure, creating multispecificity and versatility for therapy and diagnosis. Here, we present the construction of highly defined 7D12-containing nanoparticles by utilizing thermoresponsive diblock elastin-like peptides that reversibly self-assemble into micellar structures. The resulting particles have a hydrodynamic radius of 24.3 ± 0.9 nm and retain full EGFR-binding capacity. We present proof of concept of the usability of such particles by controlled incorporation of a photosensitizer and show that the resulting nanoparticles induce EGFR-specific light-induced cell killing. This approach is easily extended to the controlled incorporation of various functional modules, improving therapy and diagnosis with targeted nanomedicine.",
+        "doi": "10.1021/acs.biomac.7b00064",
+        "pmid": "28269985",
+        "venue": "Biomacromolecules",
+        "citedByCount": 40,
+        "urls": [
+          "https://pure.tue.nl/ws/files/79763263/pillself2017.pdf",
+          "https://doi.org/10.1021/acs.biomac.7b00064"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://pure.tue.nl/ws/files/79763263/pillself2017.pdf"
+      },
+      {
+        "elicitId": "ss-23445719",
+        "title": "Comprehensive optimization of a single-chain variable domain antibody fragment as a targeting ligand for a cytotoxic nanoparticle",
+        "authors": [
+          "Kathy Zhang",
+          "Melissa L. Geddie",
+          "Neeraj Kohli",
+          "T. Kornaga",
+          "D. Kirpotin",
+          "Y. Jiao",
+          "R. Rennard",
+          "D. Drummond",
+          "Ulrik B. Nielsen",
+          "Lihui Xu",
+          "A. Lugovskoy"
+        ],
+        "year": 2015,
+        "abstract": "Antibody-targeted nanoparticles have the potential to significantly increase the therapeutic index of cytotoxic anti-cancer therapies by directing them to tumor cells. Using antibodies or their fragments requires careful engineering because multiple parameters, including affinity, internalization rate and stability, all need to be optimized. Here, we present a case study of the iterative engineering of a single chain variable fragment (scFv) for use as a targeting arm of a liposomal cytotoxic nanoparticle. We describe the effect of the orientation of variable domains, the length and composition of the interdomain protein linker that connects VH and VL, and stabilizing mutations in both the framework and complementarity-determining regions (CDRs) on the molecular properties of the scFv. We show that variable domain orientation can alter cross-reactivity to murine antigen while maintaining affinity to the human antigen. We demonstrate that tyrosine residues in the CDRs make diverse contributions to the binding affinity and biophysical properties, and that replacement of non-essential tyrosines can improve the stability and bioactivity of the scFv. Our studies demonstrate that a comprehensive engineering strategy may be required to identify a scFv with optimal characteristics for nanoparticle targeting.",
+        "doi": "10.4161/19420862.2014.985933",
+        "pmid": "25484041",
+        "venue": "mAbs",
+        "citedByCount": 28,
+        "urls": [
+          "https://www.tandfonline.com/doi/pdf/10.4161/19420862.2014.985933?needAccess=true"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.tandfonline.com/doi/pdf/10.4161/19420862.2014.985933?needAccess=true"
+      },
+      {
+        "elicitId": "ss-263688046",
+        "title": "Recombinant antibody fragment therapeutics: Current status and future prospects of scFv, nanobody, and mimotopes",
+        "authors": [
+          "Hajarossadat Ghaderi",
+          "Atefeh Alipour",
+          "Arya Mohammadi Zadeh Holagh",
+          "Fatemeh Kazemi lomedasht",
+          "Meghdad Abdollahpour‐Alitappeh",
+          "H. Kaghazian",
+          "Hosein Shahsavarani"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/j.jddst.2023.105009",
+        "pmid": null,
+        "venue": "Journal of Drug Delivery Science and Technology",
+        "citedByCount": 2,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-30019134",
+        "title": "Impact of single-chain Fv antibody fragment affinity on nanoparticle targeting of epidermal growth factor receptor-expressing tumor cells.",
+        "authors": [
+          "Yu Zhou",
+          "D. Drummond",
+          "Hao Zou",
+          "M. Hayes",
+          "G. Adams",
+          "D. Kirpotin",
+          "J. Marks"
+        ],
+        "year": 2007,
+        "abstract": null,
+        "doi": "10.1016/J.JMB.2007.05.011",
+        "pmid": "17602702",
+        "venue": "Journal of Molecular Biology",
+        "citedByCount": 152,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-8282442",
+        "title": "New analytical applications of gold nanoparticles as label in antibody based sensors.",
+        "authors": [
+          "K. Omidfar",
+          "F. Khorsand",
+          "Maedeh Darziani Azizi"
+        ],
+        "year": 2013,
+        "abstract": null,
+        "doi": "10.1016/j.bios.2012.12.045",
+        "pmid": "23356999",
+        "venue": "Biosensors & bioelectronics",
+        "citedByCount": 163,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-15584857",
+        "title": "Toward a magic or imaginary bullet? Ligands for drug targeting to cancer cells: principles, hopes, and challenges",
+        "authors": [
+          "Monika Toporkiewicz",
+          "Justyna Meissner",
+          "Lucyna Matusewicz",
+          "Aleksander Czogalla",
+          "A. Sikorski"
+        ],
+        "year": 2015,
+        "abstract": "There are many problems directly correlated with the systemic administration of drugs and how they reach their target site. Targeting promises to be a hopeful strategy as an improved means of drug delivery, with reduced toxicity and minimal adverse side effects. Targeting exploits the high affinity of cell-surface-targeted ligands, either directly or as carriers for a drug, for specific retention and uptake by the targeted diseased cells. One of the most important parameters which should be taken into consideration in the selection of an appropriate ligand for targeting is the binding affinity (KD). In this review we focus on the importance of binding affinities of monoclonal antibodies, antibody derivatives, peptides, aptamers, DARPins, and small targeting molecules in the process of selection of the most suitable ligand for targeting of nanoparticles. In order to provide a critical comparison between these various options, we have also assessed each technology format across a range of parameters such as molecular size, immunogenicity, costs of production, clinical profiles, and examples of the level of selectivity and toxicity of each. Wherever possible, we have also assessed how incorporating such a targeted approach compares with, or is superior to, original treatments.",
+        "doi": "10.2147/IJN.S74514",
+        "pmid": "25733832",
+        "venue": "International Journal of Nanomedicine",
+        "citedByCount": 102,
+        "urls": [
+          "https://www.dovepress.com/getfile.php?fileID=23804"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.dovepress.com/getfile.php?fileID=23804"
+      },
+      {
+        "elicitId": "ss-19185941",
+        "title": "Use of Single-Chain Antibody Derivatives for Targeted Drug Delivery",
+        "authors": [
+          "Y. Safdari",
+          "V. Ahmadzadeh",
+          "M. Khalili",
+          "H. Z. Jaliani",
+          "Vahid Zarei",
+          "Vahid Erfani-Moghadam"
+        ],
+        "year": 2016,
+        "abstract": "Single-chain antibodies (scFvs), which contain only the variable domains of full-length antibodies, are relatively small molecules that can be used for selective drug delivery. In this review, we discuss how scFvs help improve the specificity and efficiency of drugs. Small interfering RNA (siRNA) delivery using scFv-drug fusion peptides, siRNA delivery using scFv-conjugated nanoparticles, targeted delivery using scFv-viral peptide-fusion proteins, use of scFv in fusion with cell-penetrating peptides for effective targeted drug delivery, scFv-mediated targeted delivery of inorganic nanoparticles, scFv-mediated increase of tumor killing activity of granulocytes, use of scFv for tumor imaging, site-directed conjugation of scFv molecules to drug carrier systems, use of scFv to relieve pain and use of scFv for increasing drug loading efficiency are among the topics that are discussed here.",
+        "doi": "10.2119/molmed.2016.00043",
+        "pmid": "27249008",
+        "venue": "Molecular Medicine",
+        "citedByCount": 39,
+        "urls": [
+          "https://molmed.biomedcentral.com/counter/pdf/10.2119/molmed.2016.00043"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://molmed.biomedcentral.com/counter/pdf/10.2119/molmed.2016.00043"
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,0 +1,2042 @@
+[
+  {
+    "url": "https://doi.org/10.1186/1471-2172-9-9",
+    "labels": [
+      "Precision and linearity targets for validation of an IFNgamma ELISPOT, cytokine flow cytometry, and tetramer assay using CMV peptides."
+    ],
+    "recordIds": [
+      "immune-product-evidence",
+      "elispot",
+      "intracellular-cytokine-staining",
+      "flow-cytometry"
+    ],
+    "sourceKeys": [
+      "assayValidation"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "assayValidation",
+        "design": "Analytical comparison using cryopreserved PBMC and CMV peptides",
+        "boundary": "Precision and linearity are readout-specific; no cancer-treatment predictor is established."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/assay-validation-comparison.json",
+        "rank": 1,
+        "title": "Precision and linearity targets for validation of an IFNgamma ELISPOT, cytokine flow cytometry, and tetramer assay using CMV peptides.",
+        "doi": "10.1186/1471-2172-9-9",
+        "pmid": "18366814",
+        "year": "2008",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/ncomms13404",
+    "labels": [
+      "Direct identification of clinically relevant neoepitopes presented on native human melanoma tissue by mass spectrometry."
+    ],
+    "recordIds": [
+      "immune-product-evidence",
+      "binding-presentation-recognition",
+      "immunopeptidome",
+      "immunopeptidomics",
+      "neoantigen",
+      "antigen-presentation-immunoediting"
+    ],
+    "sourceKeys": [
+      "immunopeptidomics"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "immunopeptidomics",
+        "design": "Native human melanoma immunopeptidomics with selected immune assays",
+        "boundary": "Observed HLA-associated peptides in the sampled tissue; recognition and clinical benefit require separate evidence."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/immunopeptidomics.json",
+        "rank": 1,
+        "title": "Direct identification of clinically relevant neoepitopes presented on native human melanoma tissue by mass spectrometry.",
+        "doi": "10.1038/ncomms13404",
+        "pmid": "27869121",
+        "year": "2016",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products",
+    "labels": [
+      "FDA: Potency Assurance for Cellular and Gene Therapy Products, final guidance (November 2026)"
+    ],
+    "recordIds": [
+      "immune-product-evidence",
+      "chemistry-manufacturing-controls",
+      "cell-therapy-release-testing"
+    ],
+    "sourceKeys": [
+      "potency"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "raw official document sections/JSON",
+    "evidence": [
+      {
+        "key": "potency",
+        "design": "FDA final potency-assurance guidance, November 2026",
+        "boundary": "Product-specific control strategy, not a universal assay panel or clinical-benefit guarantee."
+      }
+    ],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/0022-1759(83)90308-3",
+    "labels": [
+      "A solid-phase enzyme-linked immunospot (ELISPOT) assay for enumeration of specific antibody-secreting cells."
+    ],
+    "recordIds": [
+      "elispot"
+    ],
+    "sourceKeys": [
+      "elispotOrigin"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "elispotOrigin",
+        "design": "Original assay-development experiment",
+        "boundary": "Antibody-secreting cells in the original method; cytokine use is a later assay context."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/elispot-origin.json",
+        "rank": 2,
+        "title": "A solid-phase enzyme-linked immunospot (ELISPOT) assay for enumeration of specific antibody-secreting cells.",
+        "doi": "10.1016/0022-1759(83)90308-3",
+        "pmid": "6361139",
+        "year": "1983",
+        "publicationTypes": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1007/s00262-007-0380-6",
+    "labels": [
+      "Results and harmonization guidelines from two large-scale international Elispot proficiency panels conducted by the Cancer Vaccine Consortium (CVC/SVI)."
+    ],
+    "recordIds": [
+      "elispot"
+    ],
+    "sourceKeys": [
+      "elispot"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "elispot",
+        "design": "Interlaboratory proficiency panels",
+        "boundary": "Protocol, handling and reading affect assay results; not a patient-benefit validation."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/elispot-harmonization.json",
+        "rank": 1,
+        "title": "Results and harmonization guidelines from two large-scale international Elispot proficiency panels conducted by the Cancer Vaccine Consortium (CVC/SVI).",
+        "doi": "10.1007/s00262-007-0380-6",
+        "pmid": "17721781",
+        "year": "2008",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Guideline",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1172/jci119338",
+    "labels": [
+      "Determination of antigen-specific memory/effector CD4+ T cell frequencies by flow cytometry: evidence for a novel, antigen-specific homeostatic mechanism in HIV-associated immunodeficiency."
+    ],
+    "recordIds": [
+      "intracellular-cytokine-staining",
+      "flow-cytometry"
+    ],
+    "sourceKeys": [
+      "ics"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "ics",
+        "design": "Viral antigen-response flow-cytometry experiment",
+        "boundary": "HIV/CMV context; intracellular cytokines are not target-cell death."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/ics-origin.json",
+        "rank": 1,
+        "title": "Determination of antigen-specific memory/effector CD4+ T cell frequencies by flow cytometry: evidence for a novel, antigen-specific homeostatic mechanism in HIV-associated immunodeficiency.",
+        "doi": "10.1172/jci119338",
+        "pmid": "9120019",
+        "year": "1997",
+        "publicationTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/s0022-1759(03)00265-5",
+    "labels": [
+      "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation."
+    ],
+    "recordIds": [
+      "intracellular-cytokine-staining",
+      "peptide-hla-multimer-staining",
+      "immune-cytotoxicity-assays"
+    ],
+    "sourceKeys": [
+      "degranulation"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "degranulation",
+        "design": "CD107 degranulation assay-development experiment",
+        "boundary": "Degranulation is a functional step preceding cytolysis, not a direct count of killed targets."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/degranulation-readout.json",
+        "rank": 1,
+        "title": "Sensitive and viable identification of antigen-specific CD8+ T cells by a flow cytometric assay for degranulation.",
+        "doi": "10.1016/s0022-1759(03)00265-5",
+        "pmid": "14580882",
+        "year": "2003",
+        "publicationTypes": [
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1126/science.274.5284.94",
+    "labels": [
+      "Phenotypic analysis of antigen-specific T lymphocytes."
+    ],
+    "recordIds": [
+      "peptide-hla-multimer-staining",
+      "tcr-repertoire-sequencing",
+      "tcr-repertoire-clonality"
+    ],
+    "sourceKeys": [
+      "multimer"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "multimer",
+        "design": "Original peptide-MHC tetramer experiment",
+        "boundary": "Binding correlated with cytotoxicity in tested systems; binding and killing remain separate observations."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/multimer-origin.json",
+        "rank": 2,
+        "title": "Phenotypic analysis of antigen-specific T lymphocytes.",
+        "doi": "10.1126/science.274.5284.94",
+        "pmid": "8810254",
+        "year": "1996",
+        "publicationTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.jim.2007.05.013",
+    "labels": [
+      "A novel multiparametric flow cytometry-based cytotoxicity assay simultaneously immunophenotypes effector cells: comparisons to a 4 h 51Cr-release assay."
+    ],
+    "recordIds": [
+      "immune-cytotoxicity-assays",
+      "flow-cytometry"
+    ],
+    "sourceKeys": [
+      "cytotoxicity"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "cytotoxicity",
+        "design": "Multiparametric flow-cytometry cytotoxicity method",
+        "boundary": "Distinguishes target and effector cells; timing and cell ratios belong to the result."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/cytotoxicity-assay.json",
+        "rank": 1,
+        "title": "A novel multiparametric flow cytometry-based cytotoxicity assay simultaneously immunophenotypes effector cells: comparisons to a 4 h 51Cr-release assay.",
+        "doi": "10.1016/j.jim.2007.05.013",
+        "pmid": "17617419",
+        "year": "2007",
+        "publicationTypes": [
+          "Comparative Study",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1182/blood-2009-04-217604",
+    "labels": [
+      "Comprehensive assessment of T-cell receptor beta-chain diversity in alphabeta T cells."
+    ],
+    "recordIds": [
+      "tcr-repertoire-sequencing",
+      "tcr-repertoire-clonality"
+    ],
+    "sourceKeys": [
+      "repertoire"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "repertoire",
+        "design": "TCR beta-chain sequencing and diversity study",
+        "boundary": "Sampled beta-chain sequences do not identify paired receptors, specificity or tumor killing."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/tcr-repertoire.json",
+        "rank": 1,
+        "title": "Comprehensive assessment of T-cell receptor beta-chain diversity in alphabeta T cells.",
+        "doi": "10.1182/blood-2009-04-217604",
+        "pmid": "19706884",
+        "year": "2009",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://id.nlm.nih.gov/mesh/M0012412.json",
+    "labels": [
+      "NLM MeSH: mononuclear leukocytes, definition"
+    ],
+    "recordIds": [
+      "pbmc-specimens"
+    ],
+    "sourceKeys": [
+      "pbmcDefinition"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "raw official document sections/JSON",
+    "evidence": [
+      {
+        "key": "pbmcDefinition",
+        "design": "NLM MeSH preferred-concept definition",
+        "boundary": "Mononuclear leukocytes are not monocytes alone; definition verified in raw JSON rather than the browser shell."
+      }
+    ],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.jim.2007.02.003",
+    "labels": [
+      "Defining blood processing parameters for optimal detection of cryopreserved antigen-specific responses for HIV vaccine trials."
+    ],
+    "recordIds": [
+      "pbmc-specimens"
+    ],
+    "sourceKeys": [
+      "pbmcProcessing"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "pbmcProcessing",
+        "design": "Blood-processing study for HIV vaccine immune monitoring",
+        "boundary": "Handling effects on recovery, viability and responses; not cancer-treatment prediction."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/pbmc-processing.json",
+        "rank": 2,
+        "title": "Defining blood processing parameters for optimal detection of cryopreserved antigen-specific responses for HIV vaccine trials.",
+        "doi": "10.1016/j.jim.2007.02.003",
+        "pmid": "17382342",
+        "year": "2007",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.cell.2020.09.015",
+    "labels": [
+      "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction."
+    ],
+    "recordIds": [
+      "binding-presentation-recognition",
+      "immunopeptidomics",
+      "peptide-hla-binding-prediction",
+      "neoantigen",
+      "antigen-presentation-immunoediting"
+    ],
+    "sourceKeys": [
+      "consortium"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "consortium",
+        "design": "Tumor Neoantigen Selection Alliance comparison",
+        "boundary": "Prediction features evaluated against measured immune interactions; no efficacy estimate inferred."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/neoantigen-consortium.json",
+        "rank": 1,
+        "title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction.",
+        "doi": "10.1016/j.cell.2020.09.015",
+        "pmid": "33038342",
+        "year": "2020",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": [
+      "paper-wells-cell"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.4049/jimmunol.1700893",
+    "labels": [
+      "NetMHCpan-4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data."
+    ],
+    "recordIds": [
+      "binding-presentation-recognition",
+      "peptide-hla-binding-prediction"
+    ],
+    "sourceKeys": [
+      "prediction"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "prediction",
+        "design": "NetMHCpan-4.0 model development and evaluation",
+        "boundary": "Affinity and eluted-ligand training signals have different meanings; a score is not observed presentation."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/netmhcpan.json",
+        "rank": 1,
+        "title": "NetMHCpan-4.0: Improved Peptide-MHC Class I Interaction Predictions Integrating Eluted Ligand and Peptide Binding Affinity Data.",
+        "doi": "10.4049/jimmunol.1700893",
+        "pmid": "28978689",
+        "year": "2017",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1084/jem.192.8.1105",
+    "labels": [
+      "T cells compete for access to antigen-bearing antigen-presenting cells."
+    ],
+    "recordIds": [
+      "immunodominance",
+      "multi-epitope-constructs"
+    ],
+    "sourceKeys": [
+      "dominance"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "dominance",
+        "design": "Mouse antigen-presentation/T-cell competition experiment",
+        "boundary": "One mechanism in an experimental setting, not a universal human tumor-epitope ranking."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/immunodominance.json",
+        "rank": 1,
+        "title": "T cells compete for access to antigen-bearing antigen-presenting cells.",
+        "doi": "10.1084/jem.192.8.1105",
+        "pmid": "11034600",
+        "year": "2000",
+        "publicationTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/s41591-020-01206-4",
+    "labels": [
+      "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma."
+    ],
+    "recordIds": [
+      "epitope-spreading",
+      "immunogenicity-versus-efficacy"
+    ],
+    "sourceKeys": [
+      "spreading"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "spreading",
+        "design": "Small melanoma vaccine-cohort follow-up",
+        "boundary": "Persistent responses and epitope spreading observed; clinical benefit not isolated by randomization."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/epitope-spreading.json",
+        "rank": 1,
+        "title": "Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma.",
+        "doi": "10.1038/s41591-020-01206-4",
+        "pmid": "33479501",
+        "year": "2021",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1126/scitranslmed.3006034",
+    "labels": [
+      "Identification of a Titin-derived HLA-A1-presented peptide as a cross-reactive target for engineered MAGE A3-directed T cells."
+    ],
+    "recordIds": [
+      "self-similarity-immune-recognition"
+    ],
+    "sourceKeys": [
+      "crossRecognition"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "crossRecognition",
+        "design": "Investigation of affinity-enhanced MAGE-A3 TCR cross-reactivity",
+        "boundary": "Titin cross-recognition in a particular engineered-receptor program; not a class-wide toxicity estimate."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/cross-recognition.json",
+        "rank": 1,
+        "title": "Identification of a Titin-derived HLA-A1-presented peptide as a cross-reactive target for engineered MAGE A3-directed T cells.",
+        "doi": "10.1126/scitranslmed.3006034",
+        "pmid": "23926201",
+        "year": "2013",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/nature22991",
+    "labels": [
+      "An immunogenic personal neoantigen vaccine for patients with melanoma."
+    ],
+    "recordIds": [
+      "immunogenicity-versus-efficacy"
+    ],
+    "sourceKeys": [
+      "vaccine"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "vaccine",
+        "design": "Phase 1 melanoma personal neoantigen-vaccine report",
+        "boundary": "Small clinical immune-response study, not randomized comparative benefit."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/neoantigen-vaccine.json",
+        "rank": 2,
+        "title": "An immunogenic personal neoantigen vaccine for patients with melanoma.",
+        "doi": "10.1038/nature22991",
+        "pmid": "28678778",
+        "year": "2017",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Clinical Trial, Phase I",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1371/journal.pone.0098187",
+    "labels": [
+      "Next-generation sequencing of RNA and DNA isolated from paired fresh-frozen and formalin-fixed paraffin-embedded samples of human cancer and normal tissue."
+    ],
+    "recordIds": [
+      "tissue-preparation-assay-fit",
+      "preanalytics-sample-stabilisation"
+    ],
+    "sourceKeys": [
+      "preservation"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "preservation",
+        "design": "Paired fixed and frozen tissue nucleic-acid study",
+        "boundary": "Preparation and extraction workflow matter; does not establish one universally best preparation."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/paired-preservation.json",
+        "rank": 1,
+        "title": "Next-generation sequencing of RNA and DNA isolated from paired fresh-frozen and formalin-fixed paraffin-embedded samples of human cancer and normal tissue.",
+        "doi": "10.1371/journal.pone.0098187",
+        "pmid": "24878701",
+        "year": "2014",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.5858/arpa.2018-0172-oa",
+    "labels": [
+      "The Biospecimen Preanalytical Variables Program: A Multiassay Comparison of Effects of Delay to Fixation and Fixation Duration on Nucleic Acid Quality."
+    ],
+    "recordIds": [
+      "tissue-preparation-assay-fit",
+      "rna-integrity",
+      "preanalytics-sample-stabilisation"
+    ],
+    "sourceKeys": [
+      "preanalytics"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "preanalytics",
+        "design": "NCI Biospecimen Preanalytical Variables multiassay study",
+        "boundary": "Colon, kidney and ovarian specimen handling study; verifies DV200 definition, no universal fixation window imported."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/preanalytic-variables.json",
+        "rank": 1,
+        "title": "The Biospecimen Preanalytical Variables Program: A Multiassay Comparison of Effects of Delay to Fixation and Fixation Duration on Nucleic Acid Quality.",
+        "doi": "10.5858/arpa.2018-0172-oa",
+        "pmid": "30785788",
+        "year": "2019",
+        "publicationTypes": [
+          "Comparative Study",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.cell.2017.11.010",
+    "labels": [
+      "A Living Biobank of Breast Cancer Organoids Captures Disease Heterogeneity."
+    ],
+    "recordIds": [
+      "tissue-preparation-assay-fit"
+    ],
+    "sourceKeys": [
+      "organoids"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "organoids",
+        "design": "Breast-cancer organoid biobank experiments",
+        "boundary": "Viable-cell culture evidence, not validation of every preparation or a universal clinical drug-response predictor."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/viable-organoids.json",
+        "rank": 1,
+        "title": "A Living Biobank of Breast Cancer Organoids Captures Disease Heterogeneity.",
+        "doi": "10.1016/j.cell.2017.11.010",
+        "pmid": "29224780",
+        "year": "2018",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/intro",
+    "labels": [
+      "NCI Best Practices for Biospecimen Resources, fourth edition (2026)"
+    ],
+    "recordIds": [
+      "finite-tissue-budget",
+      "specimen-provenance",
+      "vein-to-vein-time",
+      "preanalytics-sample-stabilisation"
+    ],
+    "sourceKeys": [
+      "nci"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "raw official document sections/JSON",
+    "evidence": [
+      {
+        "key": "nci",
+        "design": "NCI Best Practices for Biospecimen Resources, fourth edition 2026",
+        "boundary": "Pathology oversight, sample lineage and chain of custody; no patient-specific allocation recommendation."
+      }
+    ],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.5858/arpa.2020-0119-cp",
+    "labels": [
+      "Collection and Handling of Thoracic Small Biopsy and Cytology Specimens for Ancillary Studies: Guideline From the College of American Pathologists in Collaboration With the American College of Chest Physicians, Association for Molecular Pathology, American Society of Cytopathology, American Thoracic Society, Pulmonary Pathology Society, Papanicolaou Society of Cytopathology, Society of Interventional Radiology, and Society of Thoracic Radiology."
+    ],
+    "recordIds": [
+      "finite-tissue-budget"
+    ],
+    "sourceKeys": [
+      "smallSpecimens"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "smallSpecimens",
+        "design": "CAP-led thoracic small-biopsy and cytology guideline",
+        "boundary": "Consensus and evidence review in thoracic ancillary studies; not a universal order of tests for all cancers."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/pathology-specimen.json",
+        "rank": 3,
+        "title": "Collection and Handling of Thoracic Small Biopsy and Cytology Specimens for Ancillary Studies: Guideline From the College of American Pathologists in Collaboration With the American College of Chest Physicians, Association for Molecular Pathology, American Society of Cytopathology, American Thoracic Society, Pulmonary Pathology Society, Papanicolaou Society of Cytopathology, Society of Interventional Radiology, and Society of Thoracic Radiology.",
+        "doi": "10.5858/arpa.2020-0119-cp",
+        "pmid": "32401054",
+        "year": "2020",
+        "publicationTypes": [
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1186/1471-2199-7-3",
+    "labels": [
+      "The RIN: an RNA integrity number for assigning integrity values to RNA measurements."
+    ],
+    "recordIds": [
+      "rna-integrity"
+    ],
+    "sourceKeys": [
+      "rnaIntegrity"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "rnaIntegrity",
+        "design": "RNA Integrity Number method-development study",
+        "boundary": "Electrophoretic quality metric; not one universal RNA assay pass threshold."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/rna-integrity.json",
+        "rank": 1,
+        "title": "The RIN: an RNA integrity number for assigning integrity values to RNA measurements.",
+        "doi": "10.1186/1471-2199-7-3",
+        "pmid": "16448564",
+        "year": "2006",
+        "publicationTypes": [
+          "research-article",
+          "Evaluation Study",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/s41598-018-24781-6",
+    "labels": [
+      "Systematic evaluation of RNA quality, microarray data reliability and pathway analysis in fresh, fresh frozen and formalin-fixed paraffin-embedded tissue samples."
+    ],
+    "recordIds": [
+      "rna-integrity",
+      "preanalytics-sample-stabilisation"
+    ],
+    "sourceKeys": [
+      "rnaQuality"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "rnaQuality",
+        "design": "RNA-quality and microarray workflow comparison",
+        "boundary": "Fragment and amplification measures depend on the intended workflow."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/rna-quality-comparison.json",
+        "rank": 1,
+        "title": "Systematic evaluation of RNA quality, microarray data reliability and pathway analysis in fresh, fresh frozen and formalin-fixed paraffin-embedded tissue samples.",
+        "doi": "10.1038/s41598-018-24781-6",
+        "pmid": "29679021",
+        "year": "2018",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1182/blood-2006-04-015024",
+    "labels": [
+      "Modification of antigen-encoding RNA increases stability, translational efficacy, and T-cell stimulatory capacity of dendritic cells."
+    ],
+    "recordIds": [
+      "mrna-construct-anatomy",
+      "in-vitro-transcription",
+      "multi-epitope-constructs"
+    ],
+    "sourceKeys": [
+      "rnaConstruct"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "rnaConstruct",
+        "design": "Antigen-encoding RNA study in dendritic cells",
+        "boundary": "UTR/poly(A) changes and separate stability, expression, display and T-cell readouts."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/mrna-construct-resolved.json",
+        "rank": 1,
+        "title": "Modification of antigen-encoding RNA increases stability, translational efficacy, and T-cell stimulatory capacity of dendritic cells.",
+        "doi": "10.1182/blood-2006-04-015024",
+        "pmid": "16940422",
+        "year": "2006",
+        "publicationTypes": [
+          "Comparative Study",
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1073/pnas.1908052116",
+    "labels": [
+      "mRNA structure regulates protein expression through changes in functional half-life."
+    ],
+    "recordIds": [
+      "mrna-construct-anatomy",
+      "codon-optimization"
+    ],
+    "sourceKeys": [
+      "rnaStructure"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "rnaStructure",
+        "design": "Engineered messenger-RNA expression experiments",
+        "boundary": "Separates codon usage and RNA structure; not clinical efficacy."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/mrna-structure.json",
+        "rank": 1,
+        "title": "mRNA structure regulates protein expression through changes in functional half-life.",
+        "doi": "10.1073/pnas.1908052116",
+        "pmid": "31712433",
+        "year": "2019",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1093/nar/gkr695",
+    "labels": [
+      "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA."
+    ],
+    "recordIds": [
+      "mrna-construct-anatomy",
+      "modified-rna-nucleosides",
+      "in-vitro-transcription",
+      "dsrna-impurities"
+    ],
+    "sourceKeys": [
+      "purification"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "purification",
+        "design": "Modified RNA purification and expression experiments",
+        "boundary": "Purification and nucleoside choice are separate; full-text methods additionally checked for capped, polyadenylated constructs."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/rna-purification.json",
+        "rank": 1,
+        "title": "Generating the optimal mRNA for therapy: HPLC purification eliminates immune activation and improves translation of nucleoside-modified, protein-encoding mRNA.",
+        "doi": "10.1093/nar/gkr695",
+        "pmid": "21890902",
+        "year": "2011",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.cell.2015.02.029",
+    "labels": [
+      "Codon optimality is a major determinant of mRNA stability."
+    ],
+    "recordIds": [
+      "codon-optimization"
+    ],
+    "sourceKeys": [
+      "codons"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "codons",
+        "design": "Codon choice and RNA-stability experiments",
+        "boundary": "Synonymous changes can alter RNA behavior; no universal expression optimum or clinical benefit."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/codon-optimality.json",
+        "rank": 1,
+        "title": "Codon optimality is a major determinant of mRNA stability.",
+        "doi": "10.1016/j.cell.2015.02.029",
+        "pmid": "25768907",
+        "year": "2015",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.immuni.2005.06.008",
+    "labels": [
+      "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA."
+    ],
+    "recordIds": [
+      "modified-rna-nucleosides"
+    ],
+    "sourceKeys": [
+      "modifiedRNA"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "modifiedRNA",
+        "design": "RNA modification/innate-sensing experiments",
+        "boundary": "Selected nucleosides and systems; no claim that one modification is optimal for every vaccine."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/modified-nucleosides.json",
+        "rank": 1,
+        "title": "Suppression of RNA recognition by Toll-like receptors: the impact of nucleoside modification and the evolutionary origin of RNA.",
+        "doi": "10.1016/j.immuni.2005.06.008",
+        "pmid": "16111635",
+        "year": "2005",
+        "publicationTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.omtn.2019.02.018",
+    "labels": [
+      "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA."
+    ],
+    "recordIds": [
+      "in-vitro-transcription",
+      "dsrna-impurities"
+    ],
+    "sourceKeys": [
+      "dsrna"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "dsrna",
+        "design": "Cellulose-based dsRNA removal method",
+        "boundary": "Experimental workflow evidence, not a universal acceptable impurity level or release specification."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/dsrna-removal.json",
+        "rank": 1,
+        "title": "A Facile Method for the Removal of dsRNA Contaminant from In Vitro-Transcribed mRNA.",
+        "doi": "10.1016/j.omtn.2019.02.018",
+        "pmid": "30933724",
+        "year": "2019",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/s0264-410x(01)00233-x",
+    "labels": [
+      "Optimization of epitope processing enhances immunogenicity of multiepitope DNA vaccines."
+    ],
+    "recordIds": [
+      "multi-epitope-constructs"
+    ],
+    "sourceKeys": [
+      "polyepitope"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "polyepitope",
+        "design": "Multiepitope DNA/HBV vaccine construct experiments",
+        "boundary": "Flanking sequences and processing in the tested constructs; not a validated rule for all RNA cancer vaccines."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/multiepitope-processing.json",
+        "rank": 1,
+        "title": "Optimization of epitope processing enhances immunogenicity of multiepitope DNA vaccines.",
+        "doi": "10.1016/s0264-410x(01)00233-x",
+        "pmid": "11535313",
+        "year": "2001",
+        "publicationTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Evaluation Study",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1073/pnas.85.16.5879",
+    "labels": [
+      "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli."
+    ],
+    "recordIds": [
+      "binder-targeting-module",
+      "scfv-vhh-formats"
+    ],
+    "sourceKeys": [
+      "scfv"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "scfv",
+        "design": "Original linked VH/VL antibody-fragment experiment",
+        "boundary": "Anti-digoxin binding after expression/refolding; architecture does not guarantee performance in another format."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/scfv-origin.json",
+        "rank": 1,
+        "title": "Protein engineering of antibody binding sites: recovery of specific activity in an anti-digoxin single-chain Fv analogue produced in Escherichia coli.",
+        "doi": "10.1073/pnas.85.16.5879",
+        "pmid": "3045807",
+        "year": "1988",
+        "publicationTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/363446a0",
+    "labels": [
+      "Naturally occurring antibodies devoid of light chains."
+    ],
+    "recordIds": [
+      "binder-targeting-module",
+      "scfv-vhh-formats"
+    ],
+    "sourceKeys": [
+      "vhh"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "vhh",
+        "design": "Camelid heavy-chain antibody study",
+        "boundary": "Architecture lacking light chains; does not establish general therapeutic superiority."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/vhh-origin.json",
+        "rank": 1,
+        "title": "Naturally occurring antibodies devoid of light chains.",
+        "doi": "10.1038/363446a0",
+        "pmid": "8502296",
+        "year": "1993",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1007/s00262-010-0844-y",
+    "labels": [
+      "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen."
+    ],
+    "recordIds": [
+      "binder-targeting-module",
+      "binder-affinity-epitope-developability",
+      "binder-format-constraints",
+      "antigen-presentation-immunoediting"
+    ],
+    "sourceKeys": [
+      "format"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "format",
+        "design": "MCSP/CD3 BiTE geometry experiments",
+        "boundary": "Epitope position/antigen geometry affected lysis despite similar affinity in the tested models."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/binder-format.json",
+        "rank": 1,
+        "title": "Epitope distance to the target cell membrane and antigen size determine the potency of T cell-mediated lysis by BiTE antibodies specific for a large melanoma surface antigen.",
+        "doi": "10.1007/s00262-010-0844-y",
+        "pmid": "20309546",
+        "year": "2010",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1073/pnas.1616408114",
+    "labels": [
+      "Biophysical properties of the clinical-stage antibody landscape."
+    ],
+    "recordIds": [
+      "binder-affinity-epitope-developability"
+    ],
+    "sourceKeys": [
+      "developability"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "developability",
+        "design": "Biophysical survey of clinical-stage antibodies",
+        "boundary": "Measured molecule properties; not a clinical efficacy comparison or a universal selection threshold."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/antibody-developability.json",
+        "rank": 1,
+        "title": "Biophysical properties of the clinical-stage antibody landscape.",
+        "doi": "10.1073/pnas.1616408114",
+        "pmid": "28096333",
+        "year": "2017",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1016/j.ymthe.2026.06.017",
+    "labels": [
+      "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains."
+    ],
+    "recordIds": [
+      "binder-format-constraints",
+      "scfv-vhh-formats"
+    ],
+    "sourceKeys": [
+      "formatComparison"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "formatComparison",
+        "design": "Matched CD123 fragment/CAR experiments and mouse AML model",
+        "boundary": "Construct-specific comparison; the title is not generalized into universal VHH superiority."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/binder-format-comparison.json",
+        "rank": 1,
+        "title": "Antibody format matters: A comparative analysis of VHH and scFv domains reveals superior in vivo CAR T cell function with VHH domains.",
+        "doi": "10.1016/j.ymthe.2026.06.017",
+        "pmid": "42272105",
+        "year": "2026",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1126/science.abm0594",
+    "labels": [
+      "CAR T cells produced in vivo to treat cardiac injury."
+    ],
+    "recordIds": [
+      "delivery-target-versus-therapeutic-target"
+    ],
+    "sourceKeys": [
+      "delivery"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "delivery",
+        "design": "CD5-targeted lipid nanoparticle/FAP-CAR RNA experiment in mice",
+        "boundary": "Cardiac-fibrosis model outside oncology; illustrates delivery versus receptor target, not cancer efficacy."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/delivery-versus-target.json",
+        "rank": 1,
+        "title": "CAR T cells produced in vivo to treat cardiac injury.",
+        "doi": "10.1126/science.abm0594",
+        "pmid": "34990237",
+        "year": "2022",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug",
+    "labels": [
+      "FDA: chemistry, manufacturing and control information for human gene therapy INDs"
+    ],
+    "recordIds": [
+      "chemistry-manufacturing-controls"
+    ],
+    "sourceKeys": [
+      "cmc"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "raw official document sections/JSON",
+    "evidence": [
+      {
+        "key": "cmc",
+        "design": "FDA CMC guidance for human gene-therapy INDs",
+        "boundary": "Human gene-therapy application scope; not a universal rule for every vaccine or jurisdiction."
+      }
+    ],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/q7-good-manufacturing-practice-guidance-active-pharmaceutical-ingredients-guidance-industry",
+    "labels": [
+      "FDA/ICH Q7: certificates of analysis, section 11.4"
+    ],
+    "recordIds": [
+      "certificate-of-analysis"
+    ],
+    "sourceKeys": [
+      "q7"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "raw official document sections/JSON",
+    "evidence": [
+      {
+        "key": "q7",
+        "design": "FDA/ICH Q7, section 11.4",
+        "boundary": "Active-ingredient/intermediate certificates: identity, batch and test results; not independent approval or benefit."
+      }
+    ],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products",
+    "labels": [
+      "FDA: considerations for development of CAR T-cell products"
+    ],
+    "recordIds": [
+      "certificate-of-analysis",
+      "vein-to-vein-time",
+      "cell-therapy-release-testing"
+    ],
+    "sourceKeys": [
+      "carQuality"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "raw official document sections/JSON",
+    "evidence": [
+      {
+        "key": "carQuality",
+        "design": "FDA CAR T-cell product-development guidance",
+        "boundary": "Analytical testing and chain-of-identity in its product scope; individual tests are not universal proof of every attribute."
+      }
+    ],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://www.ema.europa.eu/en/documents/scientific-guideline/ich-q-5-e-comparability-biotechnologicalbiological-products-step-5_en.pdf",
+    "labels": [
+      "EMA/ICH Q5E: comparability after a manufacturing-process change"
+    ],
+    "recordIds": [
+      "manufacturing-process-comparability"
+    ],
+    "sourceKeys": [
+      "q5e"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "raw official document sections/JSON",
+    "evidence": [
+      {
+        "key": "q5e",
+        "design": "EMA/ICH Q5E, sections 1.1-1.2 and comparability framework",
+        "boundary": "Specified manufacturing-process changes; additional nonclinical/clinical work may be needed."
+      }
+    ],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/s41587-021-01094-0",
+    "labels": [
+      "Whole-cell segmentation of tissue images with human-level performance using large-scale data annotation and deep learning."
+    ],
+    "recordIds": [
+      "cell-segmentation",
+      "imaging-mass-cytometry"
+    ],
+    "sourceKeys": [
+      "segmentation"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "segmentation",
+        "design": "Mesmer/TissueNet image-segmentation method",
+        "boundary": "Boundary estimation and extracted features in tested images; not a universal error rate."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/cell-segmentation.json",
+        "rank": 1,
+        "title": "Whole-cell segmentation of tissue images with human-level performance using large-scale data annotation and deep learning.",
+        "doi": "10.1038/s41587-021-01094-0",
+        "pmid": "34795433",
+        "year": "2022",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/s41588-025-02497-4",
+    "labels": [
+      "Impact and correction of segmentation errors in spatial transcriptomics."
+    ],
+    "recordIds": [
+      "cell-segmentation"
+    ],
+    "sourceKeys": [
+      "segmentationErrors"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "segmentationErrors",
+        "design": "Spatial-transcriptomics segmentation reanalysis",
+        "boundary": "Signal misassignment can alter downstream analyses; no error rate transferred to every protein platform."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/segmentation-errors.json",
+        "rank": 1,
+        "title": "Impact and correction of segmentation errors in spatial transcriptomics.",
+        "doi": "10.1038/s41588-025-02497-4",
+        "pmid": "41559218",
+        "year": "2026",
+        "publicationTypes": [
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/nbt.1546",
+    "labels": [
+      "Multi-site assessment of the precision and reproducibility of multiple reaction monitoring-based measurements of proteins in plasma."
+    ],
+    "recordIds": [
+      "targeted-proteomics-quantification",
+      "proteomics"
+    ],
+    "sourceKeys": [
+      "targetedProtein"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "targetedProtein",
+        "design": "Multilaboratory isotope-dilution MRM plasma-protein assay study",
+        "boundary": "Precision, recovery, range and limits belong to selected peptides, analytes and workflows."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/targeted-proteomics.json",
+        "rank": 1,
+        "title": "Multi-site assessment of the precision and reproducibility of multiple reaction monitoring-based measurements of proteins in plasma.",
+        "doi": "10.1038/nbt.1546",
+        "pmid": "19561596",
+        "year": "2009",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Neoantigen",
+    "labels": [
+      "Wikipedia"
+    ],
+    "recordIds": [
+      "neoantigen"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": false,
+    "reviewLevel": "retained existing link; not newly reviewed",
+    "evidence": [],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Flow_cytometry",
+    "labels": [
+      "Wikipedia"
+    ],
+    "recordIds": [
+      "flow-cytometry"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": false,
+    "reviewLevel": "retained existing link; not newly reviewed",
+    "evidence": [],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Chimeric_antigen_receptor_T_cell",
+    "labels": [
+      "Wikipedia"
+    ],
+    "recordIds": [
+      "vein-to-vein-time"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": false,
+    "reviewLevel": "retained existing link; not newly reviewed",
+    "evidence": [],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/s41408-025-01225-9",
+    "labels": [
+      "Risk factors for CAR T-cell manufacturing failure and patient outcomes in large B-cell lymphoma: a report from the UK National CAR T Panel."
+    ],
+    "recordIds": [
+      "vein-to-vein-time"
+    ],
+    "sourceKeys": [
+      "manufactureFailure"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "manufactureFailure",
+        "design": "Retrospective UK National CAR T Panel large B-cell lymphoma report",
+        "boundary": "Manufacturing failure includes OOS and no-product outcomes in this report; definitions are not forced to be mutually exclusive."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/manufacturing-failure.json",
+        "rank": 1,
+        "title": "Risk factors for CAR T-cell manufacturing failure and patient outcomes in large B-cell lymphoma: a report from the UK National CAR T Panel.",
+        "doi": "10.1038/s41408-025-01225-9",
+        "pmid": "40032870",
+        "year": "2025",
+        "publicationTypes": [
+          "research-article",
+          "Multicenter Study",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1126/science.1203486",
+    "labels": [
+      "Schreiber, Old & Smyth, Cancer immunoediting (Science 2011)"
+    ],
+    "recordIds": [
+      "antigen-presentation-immunoediting"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "design": "Existing owner citation re-resolved",
+        "boundary": "Original citation retained; no new numerical clinical or fixation rule extracted."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/existing-immunoediting-source.json",
+        "rank": 1,
+        "title": "Cancer immunoediting: integrating immunity's roles in cancer suppression and promotion.",
+        "doi": "10.1126/science.1203486",
+        "pmid": "21436444",
+        "year": "2011",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Review",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": [
+      "paper-schreiber-cancer-immunoediting-science-2011"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1056/NEJMoa1604958",
+    "labels": [
+      "Zaretsky et al., Mutations associated with acquired resistance to PD-1 blockade (NEJM 2016)"
+    ],
+    "recordIds": [
+      "antigen-presentation-immunoediting"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "design": "Existing owner citation re-resolved",
+        "boundary": "Original citation retained; no new numerical clinical or fixation rule extracted."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/existing-resistance-source.json",
+        "rank": 1,
+        "title": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+        "doi": "10.1056/nejmoa1604958",
+        "pmid": "27433843",
+        "year": "2016",
+        "publicationTypes": [
+          "Research Support, U.S. Gov't, P.H.S.",
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": [
+      "paper-zaretsky-n-engl-j-med"
+    ]
+  },
+  {
+    "url": "https://doi.org/10.1200/JCO.2018.77.8738",
+    "labels": [
+      "Wolff et al., HER2 testing in breast cancer: ASCO/CAP clinical practice guideline focused update, including fixation requirements (Journal of Clinical Oncology 2018)"
+    ],
+    "recordIds": [
+      "preanalytics-sample-stabilisation"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "design": "Existing owner citation re-resolved",
+        "boundary": "Original citation retained; no new numerical clinical or fixation rule extracted."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/existing-her2-source.json",
+        "rank": 1,
+        "title": "Human Epidermal Growth Factor Receptor 2 Testing in Breast Cancer: American Society of Clinical Oncology/College of American Pathologists Clinical Practice Guideline Focused Update.",
+        "doi": "10.1200/jco.2018.77.8738",
+        "pmid": "29846122",
+        "year": "2018",
+        "publicationTypes": [
+          "Practice Guideline",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": [
+      "paper-wolff-j-clin-oncol-2018"
+    ]
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Proteomics",
+    "labels": [
+      "Wikipedia"
+    ],
+    "recordIds": [
+      "proteomics"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": false,
+    "reviewLevel": "retained existing link; not newly reviewed",
+    "evidence": [],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1074/mcp.m111.009654",
+    "labels": [
+      "Correct interpretation of comprehensive phosphorylation dynamics requires normalization by protein expression changes."
+    ],
+    "recordIds": [
+      "proteomics",
+      "rppa"
+    ],
+    "sourceKeys": [
+      "phosphorylation"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "phosphorylation",
+        "design": "Phosphoproteomics normalization experiments in yeast",
+        "boundary": "Measurement principle illustrated in yeast; not validation of a human-cancer treatment predictor."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/phosphosite-normalization.json",
+        "rank": 1,
+        "title": "Correct interpretation of comprehensive phosphorylation dynamics requires normalization by protein expression changes.",
+        "doi": "10.1074/mcp.m111.009654",
+        "pmid": "21551504",
+        "year": "2011",
+        "publicationTypes": [
+          "research-article",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/s41598-022-26715-9",
+    "labels": [
+      "A reverse phase protein array based phospho-antibody characterization approach and its applicability for clinical derived tissue specimens."
+    ],
+    "recordIds": [
+      "proteomics",
+      "rppa"
+    ],
+    "sourceKeys": [
+      "rppaValidation"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "rppaValidation",
+        "design": "RPPA phospho-antibody characterization study",
+        "boundary": "Antibody and phosphatase controls in frozen/FFPE material; no clinical dependence inferred from a signal."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/rppa-antibody-validation.json",
+        "rank": 1,
+        "title": "A reverse phase protein array based phospho-antibody characterization approach and its applicability for clinical derived tissue specimens.",
+        "doi": "10.1038/s41598-022-26715-9",
+        "pmid": "36572710",
+        "year": "2022",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Mass_cytometry",
+    "labels": [
+      "Wikipedia"
+    ],
+    "recordIds": [
+      "imaging-mass-cytometry"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": false,
+    "reviewLevel": "retained existing link; not newly reviewed",
+    "evidence": [],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/nmeth.2869",
+    "labels": [
+      "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry."
+    ],
+    "recordIds": [
+      "imaging-mass-cytometry"
+    ],
+    "sourceKeys": [
+      "imc"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "imc",
+        "design": "Original laser-ablation imaging mass-cytometry study",
+        "boundary": "Distinct from secondary-ion mass spectrometry/MIBI."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/imaging-mass-cytometry.json",
+        "rank": 1,
+        "title": "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry.",
+        "doi": "10.1038/nmeth.2869",
+        "pmid": "24584193",
+        "year": "2014",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/nm.3488",
+    "labels": [
+      "Multiplexed ion beam imaging of human breast tumors."
+    ],
+    "recordIds": [
+      "imaging-mass-cytometry"
+    ],
+    "sourceKeys": [
+      "mibi"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "mibi",
+        "design": "Original MIBI study in human breast tumors",
+        "boundary": "Secondary-ion beam acquisition is distinct from laser-ablation IMC."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/mibi.json",
+        "rank": 1,
+        "title": "Multiplexed ion beam imaging of human breast tumors.",
+        "doi": "10.1038/nm.3488",
+        "pmid": "24584119",
+        "year": "2014",
+        "publicationTypes": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Reverse_phase_protein_lysate_microarray",
+    "labels": [
+      "Wikipedia"
+    ],
+    "recordIds": [
+      "rppa"
+    ],
+    "sourceKeys": [],
+    "independentlyResolvedThisRound": false,
+    "reviewLevel": "retained existing link; not newly reviewed",
+    "evidence": [],
+    "capturedBibliography": [],
+    "canonicalPaperOwnerIds": []
+  },
+  {
+    "url": "https://doi.org/10.1038/sj.onc.1204265",
+    "labels": [
+      "Reverse phase protein microarrays which capture disease progression show activation of pro-survival pathways at the cancer invasion front."
+    ],
+    "recordIds": [
+      "rppa"
+    ],
+    "sourceKeys": [
+      "rppa"
+    ],
+    "independentlyResolvedThisRound": true,
+    "reviewLevel": "resolved bibliographic record and abstract",
+    "evidence": [
+      {
+        "key": "rppa",
+        "design": "Reverse-phase protein microarrays in microdissected prostate specimens",
+        "boundary": "Protein/phosphorylation signals from defined populations; not every mixed-tissue lysate."
+      }
+    ],
+    "capturedBibliography": [
+      {
+        "file": "primary/rppa-origin.json",
+        "rank": 1,
+        "title": "Reverse phase protein microarrays which capture disease progression show activation of pro-survival pathways at the cancer invasion front.",
+        "doi": "10.1038/sj.onc.1204265",
+        "pmid": "11360182",
+        "year": "2001",
+        "publicationTypes": [
+          "Journal Article"
+        ]
+      }
+    ],
+    "canonicalPaperOwnerIds": []
+  }
+]

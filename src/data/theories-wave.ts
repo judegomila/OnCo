@@ -12,7 +12,7 @@ import type { PathwayInput, TermInput } from "@/lib/schema";
 const asOf = "2026-09-17";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const doi = (d: string, label: string) => ({ label, url: `https://doi.org/${d}` });
-type T = Omit<TermInput, "kind" | "asOf" | "category"> & { category?: string };
+type T = Omit<TermInput, "kind" | "asOf" | "category"> & { category?: string; asOf?: string };
 const t = ({ category = "Cancer biology", ...x }: T): TermInput => ({ kind: "term", asOf, category, tags: ["theory"], ...x });
 
 export const THEORY_HUB_ID = "theories-of-cancer";
@@ -278,14 +278,64 @@ export const theoryTerms: TermInput[] = [
     pathways: ["cancer-immunity-cycle", "antigen-presentation-immunoediting", "pd1-checkpoint", "t-cell-exhaustion", "immune-desert-exclusion"], drugs: ["ipilimumab", "nivolumab", "pembrolizumab", "lifileucel"], technologies: ["checkpoint-inhibitor", "car-t", "til-therapy", "t-cell-engager", "neoantigen-mrna-vaccine"], targets: ["pd1", "ctla4"], cancers: ["melanoma", "nsclc"],
     people: ["robert-schreiber", "james-allison", "tasuku-honjo", "drew-pardoll"], keyPapers: ["paper-schreiber-cancer-immunoediting-science-2011", "paper-chen-mellman-cancer-immunity-cycle-immunity-2013", "paper-leach-allison-ctla4-blockade-science-1996", "paper-pardoll-immune-checkpoint-blockade-nrc-2012"],
     links: [
-      doi("10.1136/bmj.1.5022.779", "Burnet, Cancer: a biological approach (BMJ 1957)"),
-      doi("10.1159/000386035", "Burnet, The concept of immunological surveillance (Progress in Experimental Tumor Research 1970)"),
-      doi("10.1126/science.183.4124.534", "Stutman, Tumor development after 3-methylcholanthrene in immunologically deficient athymic-nude mice (Science 1974)"),
-      doi("10.1038/35074122", "Shankaran et al., IFN-gamma and lymphocytes prevent primary tumour development and shape tumour immunogenicity (Nature 2001)"),
-      doi("10.1038/ni1102-991", "Dunn et al., Cancer immunoediting: from immunosurveillance to tumor escape (Nature Immunology 2002)"),
-      doi("10.1126/science.1203486", "Schreiber, Old and Smyth, Cancer immunoediting: integrating immunity's roles in cancer suppression and promotion (Science 2011)"),
-    ],
-  }),
+  {
+    "label": "Burnet, Cancer: a biological approach (BMJ 1957)",
+    "url": "https://doi.org/10.1136/bmj.1.5022.779"
+  },
+  {
+    "label": "Burnet, The concept of immunological surveillance (Progress in Experimental Tumor Research 1970)",
+    "url": "https://doi.org/10.1159/000386035"
+  },
+  {
+    "label": "Stutman, Tumor development after 3-methylcholanthrene in immunologically deficient athymic-nude mice (Science 1974)",
+    "url": "https://doi.org/10.1126/science.183.4124.534"
+  },
+  {
+    "label": "Shankaran et al., IFN-gamma and lymphocytes prevent primary tumour development and shape tumour immunogenicity (Nature 2001)",
+    "url": "https://doi.org/10.1038/35074122"
+  },
+  {
+    "label": "Dunn et al., Cancer immunoediting: from immunosurveillance to tumor escape (Nature Immunology 2002)",
+    "url": "https://doi.org/10.1038/ni1102-991"
+  },
+  {
+    "label": "Schreiber, Old and Smyth, Cancer immunoediting: integrating immunity's roles in cancer suppression and promotion (Science 2011)",
+    "url": "https://doi.org/10.1126/science.1203486"
+  },
+  {
+    "label": "The three Es of cancer immunoediting.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15032581/"
+  },
+  {
+    "label": "Evolution of Neoantigen Landscape during Immune Checkpoint Blockade in Non-Small Cell Lung Cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28031159/"
+  },
+  {
+    "label": "Allele-Specific HLA Loss and Immune Escape in Lung Cancer Evolution.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29107330/"
+  },
+  {
+    "label": "Somatic HLA Class I Loss Is a Widespread Mechanism of Immune Evasion Which Refines the Use of Tumor Mutational Burden as a Biomarker of Checkpoint Inhibitor Response.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33127846/"
+  },
+  {
+    "label": "Mutations Associated with Acquired Resistance to PD-1 Blockade in Melanoma.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27433843/"
+  },
+  {
+    "label": "Overcoming Genetically Based Resistance Mechanisms to PD-1 Blockade.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32467343/"
+  }
+],
+
+"notes": [
+  "Immune escape can involve loss of a targeted antigen, altered HLA alleles or processing, defective inducible signalling, inhibition after entry or impaired access. Anagnostou found loss of putative neoantigens in checkpoint-resistant lung tumours with accompanying T-cell evidence. McGranahan described allele-specific HLA loss in lung cancer evolution. Montesion’s commercial pan-cancer genomic series contained 83,644 samples with HLA-I loss of heterozygosity in 17%; this assay-defined pan-cancer observation is not a breast-specific prevalence. Allele loss differs from reversible expression change or a B2M defect affecting class-I surface display.",
+  "In Zaretsky’s selected four-person melanoma relapse series, two cases had JAK1 or JAK2 loss-of-function changes with loss of the normal allele and another had a truncating B2M change. The JAK2-deficient relapse cells failed to increase interferon-gamma signalling, PD-L1 and class I while retaining interferon-alfa/beta responsiveness. Engineered JAK1- or JAK2-deficient melanoma cells were still recognized by the tested NY-ESO-1-specific T cells. Baseline display, inducibility, recognition and killing are separate dependencies; neither a JAK variant nor detectable HLA alone answers all of them.",
+  "In a fictional controlled comparison, both cultures have baseline class I; only the control increases its signal and surface display after interferon gamma. The candidate retains an interferon-alfa response, and restoring JAK2 restores the tested gamma response. With matched handling, viability and restoration controls, this supports a model-specific JAK2-dependent inducibility defect. It is not proof of a particular displayed peptide, safe clinical rescue, tumour access or useful killing. JAK1 and JAK2 have different interferon dependencies.",
+  "Treatment can select a pre-existing population and new changes can arise. Earlier specimens, retained alleles, expression, stimulation and controlled functional comparisons help test an escape explanation. Different sites may have different bottlenecks; several mechanisms may coexist. Blood tumour DNA alone does not identify a particular escape route. A proposed HLA-independent recognizer or combination still needs its own target, access, function and safety evidence, and a restored laboratory endpoint does not establish clinical benefit."
+],
+"asOf": "2026-11-11"
+}),
   t({
     id: "ageing-tissue-field-theory", name: "Ageing tissue and clonal fields: cancer as a disease of old tissue", wikipedia: W("Clonal_hematopoiesis"),
     aka: ["adaptive oncogenesis", "ageing theory of cancer", "clonal fields", "somatic mosaicism and cancer", "cancer as a disease of ageing", "field theory of cancer"],

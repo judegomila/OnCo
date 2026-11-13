@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T21:06:43.028Z",
+  "request": {
+    "query": "Which primary methods studies show cell segmentation limitations in spatial proteomics, phosphosite normalization to protein abundance, and targeted proteomics quantification or RPPA antibody validation?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-209166516",
+        "title": "Antibody Screening.",
+        "authors": [
+          "F. Hoff",
+          "Yiling Lu",
+          "S. Kornblau"
+        ],
+        "year": 2019,
+        "abstract": "Antibodies are among the most frequently used tools in research and have had a profound impact on the discovery of diagnostic and therapeutic targets and the understanding of the molecular background of diseases. In particular in reverse phase protein arrays (RPPA), where there is no separation of the proteins according to molecular weight, it is crucial that antibodies are proven to be highly specific, selective, and reproducible. However, numerous studies have shown that many antibodies frequently do not recognize the protein that they are supposed to detect, that multiple antibodies do often function in one application but not in another, and that antibodies are not stable over time or between different batches. So far, no universally accepted guidelines or standardized methods for determining the validity of antibodies have been established. This chapter discusses the urgent need for antibody validation, current strategies that are used for (RPPA) antibody validation, as well as proposes a new strategy about how to report, score, and integrate antibody validation from multiple users.",
+        "doi": "10.1007/978-981-32-9755-5_8",
+        "pmid": "31820387",
+        "venue": "Advances in Experimental Medicine and Biology",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-286261368",
+        "title": "High-fidelity multiclass instance segmentation of cells for spatial proteomics",
+        "authors": [
+          "Madeleine S. Torcasso",
+          "Jun-Ting Ai",
+          "Thao-My Cao",
+          "Marcus R. Clark",
+          "Maryellen L. Giger"
+        ],
+        "year": 2026,
+        "abstract": "High quality cell segmentations across cell classes remain elusive in spatial proteomics. Existing methods rely on expansion of cell nuclei, or on “pan-membrane” markers that are not actually uniformly expressed across all cells and tissues. Here, we present an extension of pseudo-spectral angle mapping (pSAM) for multiclass instance segmentation of cells. By predicting segmentations on class maps rather than images, cell shape is better captured. Improved representation of cell shape could help better infer interaction of cells in static images.",
+        "doi": "10.1117/12.3081299",
+        "pmid": null,
+        "venue": "Imaging, Manipulation, and Analysis of Biomolecules, Cells, and Tissues XXIV",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-48445",
+        "title": "Reverse Phase Protein Arrays—Quantitative Assessment of Multiple Biomarkers in Biopsies for Clinical Use",
+        "authors": [
+          "Stefanie Boellner",
+          "K. Becker"
+        ],
+        "year": 2015,
+        "abstract": "Reverse Phase Protein Arrays (RPPA) represent a very promising sensitive and precise high-throughput technology for the quantitative measurement of hundreds of signaling proteins in biological and clinical samples. This array format allows quantification of one protein or phosphoprotein in multiple samples under the same experimental conditions at the same time. Moreover, it is suited for signal transduction profiling of small numbers of cultured cells or cells isolated from human biopsies, including formalin fixed and paraffin embedded (FFPE) tissues. Owing to the much easier sample preparation, as compared to mass spectrometry based technologies, and the extraordinary sensitivity for the detection of low-abundance signaling proteins over a large linear range, RPPA have the potential for characterization of deregulated interconnecting protein pathways and networks in limited amounts of sample material in clinical routine settings. Current aspects of RPPA technology, including dilution curves, spotting, controls, signal detection, antibody validation, and calculation of protein levels are addressed.",
+        "doi": "10.3390/microarrays4020098",
+        "pmid": "27600215",
+        "venue": "Microarrays",
+        "citedByCount": 68,
+        "urls": [
+          "https://www.mdpi.com/2076-3905/4/2/98/pdf?version=1427207587"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.mdpi.com/2076-3905/4/2/98/pdf?version=1427207587"
+      },
+      {
+        "elicitId": "ss-35956585",
+        "title": "Protein Arrays III: Reverse-Phase Protein Arrays.",
+        "authors": [
+          "Yulin Yuan",
+          "Xia Hong",
+          "Zuan-Tao Lin",
+          "Hongting Wang",
+          "Mikala Heon",
+          "Tianfu Wu"
+        ],
+        "year": 2017,
+        "abstract": "The reverse-phase protein array (RPPA) is to use highly specific antibodies to interrogate pan or posttranslationally modified protein targets, such as phosphorylated proteins, particularly the proteins involved in cell signaling pathways. In this protocol we will cover the preparation of cell (or tissue) lysates, sample printing, antibody validation, antibody interrogation, signal amplification steps, imaging and data analysis. In this protocol, colorimetric catalyzed signal amplification (CSA) chemistry, fluorescence and near-infrared (NIR) based detection methods will be described.",
+        "doi": "10.1007/978-1-4939-7231-9_21",
+        "pmid": "28986799",
+        "venue": "Methods in molecular biology",
+        "citedByCount": 5,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 4,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-289097692",
+        "title": "The Challenge of Cell Segmentation in Spatially Resolved Transcriptomics",
+        "authors": [
+          "N. Ishaque",
+          "Peter V. Kharchenko",
+          "Daria Lazić",
+          "Jie-Ran Sun",
+          "J. Y. Yang",
+          "M. Emons",
+          "Florian Heyl",
+          "W. Huber",
+          "Daniel Jones",
+          "L. B. Kuemmerle",
+          "Alex R. Lederer",
+          "M. Luecken",
+          "Vinícius Maracaja-Coutinho",
+          "Matthias Meyer-Bender",
+          "Andrew Moorman",
+          "Evan W. Newell",
+          "Quang-Huy Nguyen",
+          "Shyam Prabhakar",
+          "J. Randell",
+          "D. Romanovskaia",
+          "Oliver Stegle",
+          "G. D. Bader",
+          "Raphael Gottardo"
+        ],
+        "year": 2026,
+        "abstract": "Spatially resolved transcriptomics (SRT) is transforming how we study tissues by measuring gene expression in cells in their spatial context. However, the field lacks robust methodological guidance on one of its most fundamental analytical steps: how to accurately segment cells and assign spatially localized transcripts to them. Major technical challenges include sparse molecular signals, transcript displacement, complex cellular morphologies, and the projection of three-dimensional tissue architecture onto two-dimensional imaging planes. These challenges make segmentation a major source of uncertainty, with errors that can propagate through downstream analyses and ultimately lead to misleading biological interpretations. Here, we argue that segmentation should be treated as a central unresolved problem in spatial omics rather than a routine preprocessing step. We review current approaches, highlight key methodological limitations, including the lack of appropriate metrics and gold-standard benchmarks, and propose a community-driven path forward. Establishing shared evaluation frameworks, scalable benchmark datasets, and transparent reporting standards will be essential for transforming SRT into a robust and reproducible foundation for biological discovery and clinical translation.",
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 6,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-5806924",
+        "title": "Analysis of Reverse Phase Protein Array Data: From Experimental Design towards Targeted Biomarker Discovery",
+        "authors": [
+          "A. Wachter",
+          "S. Bernhardt",
+          "T. Beissbarth",
+          "U. Korf"
+        ],
+        "year": 2015,
+        "abstract": "Mastering the systematic analysis of tumor tissues on a large scale has long been a technical challenge for proteomics. In 2001, reverse phase protein arrays (RPPA) were added to the repertoire of existing immunoassays, which, for the first time, allowed a profiling of minute amounts of tumor lysates even after microdissection. A characteristic feature of RPPA is its outstanding sample capacity permitting the analysis of thousands of samples in parallel as a routine task. Until today, the RPPA approach has matured to a robust and highly sensitive high-throughput platform, which is ideally suited for biomarker discovery. Concomitant with technical advancements, new bioinformatic tools were developed for data normalization and data analysis as outlined in detail in this review. Furthermore, biomarker signatures obtained by different RPPA screens were compared with another or with that obtained by other proteomic formats, if possible. Options for overcoming the downside of RPPA, which is the need to steadily validate new antibody batches, will be discussed. Finally, a debate on using RPPA to advance personalized medicine will conclude this article.",
+        "doi": "10.3390/microarrays4040520",
+        "pmid": "27600238",
+        "venue": "Microarrays",
+        "citedByCount": 20,
+        "urls": [
+          "https://www.mdpi.com/2076-3905/4/4/520/pdf?version=1446561509"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.mdpi.com/2076-3905/4/4/520/pdf?version=1446561509"
+      },
+      {
+        "elicitId": "ss-255943511",
+        "title": "SCS: cell segmentation for high-resolution spatial transcriptomics",
+        "authors": [
+          "Hao Chen",
+          "Dongshunyi Li",
+          "Z. Bar-joseph"
+        ],
+        "year": 2023,
+        "abstract": "Spatial transcriptomics promises to greatly improve our understanding of tissue organization and cell-cell interactions. While most current platforms for spatial transcriptomics only offer multi-cellular resolution, with 10-15 cells per spot, recent technologies provide a much denser spot placement leading to sub-cellular resolution. A key challenge for these newer methods is cell segmentation and the assignment of spots to cells. Traditional image-based segmentation methods are limited and do not make full use of the information profiled by spatial transcrip-tomics. Here we present SCS, which combines imaging data with sequencing data to improve cell segmentation accuracy. SCS assigns spots to cells by adaptively learning the position of each spot relative to the center of its cell using a transformer neural network. SCS was tested on two new sub-cellular spatial transcriptomics technologies and outperformed traditional image-based segmentation methods. SCS achieved better accuracy, identified more cells, and provided more realistic cell size estimation. Sub-cellular analysis of RNAs using SCS spots assignments provides information on RNA localization and further supports the segmentation results.",
+        "doi": "10.1101/2023.01.11.523658",
+        "pmid": "37398213",
+        "venue": "bioRxiv",
+        "citedByCount": 49,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2023/01/15/2023.01.11.523658.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2023/01/15/2023.01.11.523658.full.pdf"
+      },
+      {
+        "elicitId": "ss-238715127",
+        "title": "A reverse phase protein array based phospho-antibody characterization approach and its applicability for clinical derived tissue specimens",
+        "authors": [
+          "Nan Wang",
+          "Li Zhang",
+          "Qiao-Hee Ying",
+          "Zhentao Song",
+          "A. Lu",
+          "A. Treumann",
+          "Zhao-ping Liu",
+          "Tao Sun",
+          "Zhi-Yong Ding"
+        ],
+        "year": 2021,
+        "abstract": "Systematic quantification of phosphoprotein within cell signaling networks in solid tissues remains challenging and precise quantification in large scale samples has great potential for biomarker identification and validation. We developed a reverse phase protein array (RPPA) based phosphor-antibody characterization approach by taking advantage of the lysis buffer compatible with alkaline phosphatase (AP) treatment that differs from the conventional RPPA antibody validation procedure and applied it onto fresh frozen (FF) and formalin-fixed and paraffin-embedded tissue (FFPE) to test its applicability. By screening 106 phospho-antibodies using RPPA, we demonstrated that AP treatment could serve as an independent factor to be adopted for rapid phospho-antibody selection. We also showed desirable reproducibility and specificity in clincical specimens indicating its potential for tissue-based phospho-protein profiling. Of further clinical significance, using the same approach, based on melanoma and lung cancer FFPE samples, we showed great interexperimental reproducibility and significant correlation with pathological markers in both tissues generating meaningful data that match clinical features. Our findings set a benchmark of an efficient workflow for phospho-antibody characterization that is compatible with high-plex clinical proteomics in precison oncology.",
+        "doi": "10.1038/s41598-022-26715-9",
+        "pmid": "36572710",
+        "venue": "Scientific Reports",
+        "citedByCount": 7,
+        "urls": [
+          "https://www.nature.com/articles/s41598-022-26715-9.pdf",
+          "https://www.researchsquare.com/article/rs-806139/latest.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41598-022-26715-9.pdf"
+      },
+      {
+        "elicitId": "ss-292685460",
+        "title": "Benchmarking cell segmentation in two Spatialomics platforms with open-source software",
+        "authors": [
+          "M. E. Brown",
+          "Yu-Yu He",
+          "Erin B. Hudson",
+          "Grant Barthel",
+          "C. Forster",
+          "K. Schwertfeger",
+          "T. Pengo",
+          "Mark A. Sanders",
+          "A. Giubellino",
+          "Andrew C. Nelson"
+        ],
+        "year": 2026,
+        "abstract": "The in situ tissue microenvironment is a complex mixture of different cell types, microanatomic structures, and acellular matrix material. Further, disease perturbs the morphologies of these features significantly. Spatial proteomics utilizing optical or mass spectrometer imaging simultaneously detects expression and subcellular localization of many proteins. Accurate identification of heterogeneous, irregular, and tightly interdigitating cell boundaries is a crucial step for all downstream analyses, including cell phenotyping and cell-cell interaction networks. We describe a benchmarking approach for rapid assessment of segmentation algorithm performance in melanoma and breast cancer contexts using mass spectrometer and optical spatial omics imaging platforms. Comparison of cell segmentation by fourteen methods to pathologist ground-truth annotation with Jaccard pixel index and F1 object measurement identified Cellpose models that performed well across different tumor samples and data sources with minimal fine-tuning. Algorithms utilizing cell membrane and nuclear features demonstrated better performance in both tumor samples. This benchmarking approach is a rapid and effective method to assess performance of cell segmentation methods in different contexts for efficient algorithm selection and iterative model training.",
+        "doi": "10.1038/s41598-026-70919-2",
+        "pmid": null,
+        "venue": "Scientific Reports",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.nature.com/articles/s41598-026-70919-2_reference.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41598-026-70919-2_reference.pdf"
+      },
+      {
+        "elicitId": "ss-259657714",
+        "title": "SCS: cell segmentation for high-resolution spatial transcriptomics",
+        "authors": [
+          "Hao Chen",
+          "Dongshunyi Li",
+          "Z. Bar-joseph"
+        ],
+        "year": 2023,
+        "abstract": "Spatial transcriptomics promises to greatly improve our understanding of tissue organization and cell–cell interactions. While most current platforms for spatial transcriptomics only offer multi-cellular resolution, with 10–15 cells per spot, recent technologies provide a much denser spot placement leading to subcellular resolution. A key challenge for these newer methods is cell segmentation and the assignment of spots to cells. Traditional image-based segmentation methods are limited and do not make full use of the information profiled by spatial transcriptomics. Here we present subcellular spatial transcriptomics cell segmentation (SCS), which combines imaging data with sequencing data to improve cell segmentation accuracy. SCS assigns spots to cells by adaptively learning the position of each spot relative to the center of its cell using a transformer neural network. SCS was tested on two new subcellular spatial transcriptomics technologies and outperformed traditional image-based segmentation methods. SCS achieved better accuracy, identified more cells and provided more realistic cell size estimation. Subcellular analysis of RNAs using SCS spot assignments provides information on RNA localization and further supports the segmentation results. Subcellular spatial transcriptomics cell segmentation (SCS) combines information from stained images and sequencing data to improve cell segmentation in high-resolution spatial transcriptomics data.",
+        "doi": "10.1038/s41592-023-01939-3",
+        "pmid": "37429992",
+        "venue": "Nature Methods",
+        "citedByCount": 60,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2023/01/15/2023.01.11.523658.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2023/01/15/2023.01.11.523658.full.pdf"
+      },
+      {
+        "elicitId": "ss-248181083",
+        "title": "Membrane marker selection for segmenting single cell spatial proteomics data",
+        "authors": [
+          "Monica T. Dayao",
+          "Maigan A. Brusko",
+          "C. Wasserfall",
+          "Z. Bar-joseph"
+        ],
+        "year": 2022,
+        "abstract": "The ability to profile spatial proteomics at the single cell level enables the study of cell types, their spatial distribution, and interactions in several tissues and conditions. Current methods for cell segmentation in such studies rely on known membrane or cell boundary markers. However, for many tissues, an optimal set of markers is not known, and even within a tissue, different cell types may express different markers. Here we present RAMCES, a method that uses a convolutional neural network to learn the optimal markers for a new sample and outputs a weighted combination of the selected markers for segmentation. Testing RAMCES on several existing datasets indicates that it correctly identifies cell boundary markers, improving on methods that rely on a single marker or those that extend nuclei segmentations. Application to new spatial proteomics data demonstrates its usefulness for accurately assigning cell types based on the proteins expressed in segmented cells. Cell segmentation of single-cell spatial proteomics data remains a challenge and often relies on the selection of a membrane marker, which is not always known. Here, the authors introduce RAMCES, a method that selects the optimal membrane markers to use for more accurate cell segmentation.",
+        "doi": "10.1038/s41467-022-29667-w",
+        "pmid": "35422106",
+        "venue": "Nature Communications",
+        "citedByCount": 21,
+        "urls": [
+          "https://www.nature.com/articles/s41467-022-29667-w.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41467-022-29667-w.pdf"
+      },
+      {
+        "elicitId": "ss-284916047",
+        "title": "Impact and correction of segmentation errors in spatial transcriptomics",
+        "authors": [
+          "Jonathan Mitchel",
+          "Teng Gao",
+          "Viktor Petukhov",
+          "Eli Cole",
+          "Petr N. Kharchenko"
+        ],
+        "year": 2026,
+        "abstract": "Spatial transcriptomics aims to elucidate how cells coordinate within tissues by connecting cellular states to their native microenvironments. Imaging-based assays are especially promising, capturing molecular and cellular features at subcellular resolution in three dimensions. Interpretation of such data, however, hinges on accurate cell segmentation. Assigning individual molecules to the correct cells remains challenging. Here we re-analyze data from multiple tissues and platforms to find that segmentation errors currently confound most downstream analysis of cellular state, including differential expression, neighbor influence and ligand–receptor interactions. The extent to which misassigned molecules impact the results can be striking, frequently dominating the results. Thus, we show that matrix factorization of local molecular neighborhoods can effectively identify and isolate such molecular admixtures, thereby reducing their impact on downstream analyses, in a manner analogous to doublet filtering in single-cell RNA sequencing. As the applications of spatial transcriptomics assays become more widespread, accounting for segmentation errors will be important for resolving molecular mechanisms of tissue biology. This study finds that cell segmentation errors affect numerous downstream applications of spatial transcriptomics data and provides a method to correct these errors by factorizing molecular neighborhoods.",
+        "doi": "10.1038/s41588-025-02497-4",
+        "pmid": "41559218",
+        "venue": "Nature Genetics",
+        "citedByCount": 42,
+        "urls": [
+          "https://doi.org/10.1101/2025.01.02.631135"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1101/2025.01.02.631135"
+      },
+      {
+        "elicitId": "ss-235168497",
+        "title": "Reverse-Phase Protein Array: Technology, Application, Data Processing, and Integration.",
+        "authors": [
+          "C. Coarfa",
+          "S. Grimm",
+          "K. Rajapakshe",
+          "D. Perera",
+          "Hsin‐Yi Lu",
+          "Xuan Wang",
+          "K. Christensen",
+          "Q. Mo",
+          "D. Edwards",
+          "Shi-Xia Huang"
+        ],
+        "year": 2021,
+        "abstract": "Reverse-phase protein array (RPPA) is a high-throughput antibody-based targeted proteomics platform that can quantify hundreds of proteins in thousands of samples derived from tissue or cell lysates, serum, plasma, or other body fluids. Protein samples are robotically arrayed as microspots on nitrocellulose-coated glass slides. Each slide is probed with a specific antibody that can detect levels of total protein expression or post-translational modifications, such as phosphorylation as a measure of protein activity. Here we describe workflow protocols and software tools that we have developed and optimized for RPPA in a core facility setting that includes sample preparation, microarray mapping and printing of protein samples, antibody labeling, slide scanning, image analysis, data normalization and quality control, data reporting, statistical analysis, and management of data. Our RPPA platform currently analyzes ∼240 validated antibodies that primarily detect proteins in signaling pathways and cellular processes that are important in cancer biology. This is a robust technology that has proven to be of value for both validation and discovery proteomic research and integration with other omics data sets.",
+        "doi": "10.7171/jbt.21-3202-001",
+        "pmid": "34025221",
+        "venue": "Journal of Biomolecular Techniques",
+        "citedByCount": 35,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7861052/pdf/jbt.32-15.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7861052/pdf/jbt.32-15.pdf"
+      },
+      {
+        "elicitId": "ss-231926373",
+        "title": "Reverse-Phase Protein Array: Technology, Application, Data Processing, and Integration.",
+        "authors": [
+          "C. Coarfa",
+          "S. Grimm",
+          "K. Rajapakshe",
+          "D. Perera",
+          "Hsin‐Yi Lu",
+          "Xuan Wang",
+          "K. Christensen",
+          "Q. Mo",
+          "D. Edwards",
+          "Shi-Xia Huang"
+        ],
+        "year": 2021,
+        "abstract": "Reverse-phase protein array (RPPA) is a high-throughput antibody-based targeted proteomics platform that can quantify hundreds of proteins in thousands of samples derived from tissue or cell lysates, serum, plasma, or other body fluids. Protein samples are robotically arrayed as microspots on nitrocellulose-coated glass slides. Each slide is probed with a specific antibody that can detect levels of total protein expression or post-translational modifications, such as phosphorylation as a measure of protein activity. Here we describe workflow protocols and software tools that we have developed and optimized for RPPA in a core facility setting that includes sample preparation, microarray mapping and printing of protein samples, antibody labeling, slide scanning, image analysis, data normalization and quality control, data reporting, statistical analysis, and management of data. Our RPPA platform currently analyzes ∼240 validated antibodies that primarily detect proteins in signaling pathways and cellular processes that are important in cancer biology. This is a robust technology that has proven to be of value for both validation and discovery proteomic research and integration with other omics data sets.",
+        "doi": "10.7171/jbt.2021-3202-001",
+        "pmid": "33584151",
+        "venue": "Journal of Biomolecular Techniques",
+        "citedByCount": 20,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7861052/pdf/jbt.32-15.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7861052/pdf/jbt.32-15.pdf"
+      },
+      {
+        "elicitId": "ss-279072240",
+        "title": "Nuclear‐Free Zoning",
+        "authors": [
+          "Stephen J. Lockett",
+          "Andrew W. Weisman"
+        ],
+        "year": 2025,
+        "abstract": "Spatial proteomics and transcriptomics are mainstream technologies that molecularly characterize individual cells or groups of cells at spatial locations throughout the tissue. As a result, these methods produce new understandings of organ and organism development and of disease progression, including elucidating the role of immune cells in carcinogenesis. The steps in the execution of such imaging-based technologies are to cut a thin tissue section (≈ 5 μm thickness), uniquely label the specific protein or RNA molecules of interest, acquire images of the labeled section, and analyze the images. In most cases, the labels are fluorescent, and some methods cyclically iterate between labeling and acquisition to build up a profile of scores of proteins or RNA transcripts across the tissue. State of the art acquisition methods produce images of sufficient spatial resolution to facilitate localization of the labeled species in the individual cells. Consequently, the canonical image analysis methods first detect each cell by segmenting its counter-stained nucleus followed by quantifying each labeled species in the nucleus or in the surrounding cytoplasm of the nucleus. Such methods work well for cells that have small, ring-shaped cytoplasm surrounding their nuclei (e.g., T cells) and cells that adhere to each other into a cobble stone arrangement (e.g., epithelial cells). However, some cell types take on elongated morphology with their cytoplasm extending tens of microns from their nucleus (e.g., neurons, myocytes, and fibroblasts), and for these types, the nucleus is not representative of the overall cell extent and shape, leading to failed estimation of the cytoplasmic zone for these cells. Directly finding the borders of such cells by explicitly labeling the plasma membranes has shown promise, but universal plasma membrane markers have proven elusive. Moreover, some proteins of interest are inherently extracellular, such as matrix-metalloproteinases that can play a key role in tumor cell invasion. Recently, several studies reported cell detection methods that circumvent nucleus segmentation and instead rely on certain molecular markers, or combinations thereof, being present in the cytoplasm of one cell with different levels of the markers in neighboring cells. In one early study [1], cell type signatures were calculated by clustering from combinations of gene expression markers in osmFISH and MERFISH images. Examples of subsequent works were an approach that optimizes cell boundary locations by considering the joint likelihood of transcriptional expression along with cell morphology [2]. In 2023, Liu et al. [3] used unsupervised clustering of pixel-level features for capturing relevant objects, such as the extracellular matrix, outside of the cell, and in addition, clustering of pixels that lie within the cells improved cell segmentation over standard methods. Methods to date to investigate tissue architecture without explicit cell segmentation have been limited in the spatial scale of detected zones and may execute slowly, although the latter depends on available hardware. Building on their previous work investigating this task, Wählby et al. [4, 5] describe the computational tool, “Points2Regions,” that identifies image zones of similar RNA composition existing across a diverse range of spatial scales. The article starts with a brief and excellent review of standard practices for image analysis including methods for cell- and nucleus-free segmentation. The methodology applied in this article [5], combining hierarchical and k-means clustering of multiscale counts for each RNA class, proved to be not only accurate but also computationally efficient. Importantly, it compared favorably with the results obtained using the methods requiring explicit cell segmentation across a range of simulated and real spatial transcriptomics datasets. Their software is open source and uniquely the authors provide an interactive web-based version. Figure 1A is an example of application of the method applied to a colorectal cancer liver metastasis tissue sample [6] labeled using a direct RNA-targeted in situ sequencing method [8] (Figure 1B). Points2Regions automatically identified 10 zones, revealing a progression in zone type from healthy liver on the left to tumor on the right (Figure 1C). The article by Andersson et al. [5] is clearly a significant advance in the analysis of multiomics spatial images and furthermore is readily usable by a wide range of researchers in the spatial-omics fields. We look forward to the further developments from the Wählby Team and others. There would be promise in merging cell segmentation-free methods with those that start from nuclei segmentation, using the latter for those markers expected to be only in or proximal to the nuclei and the former for markers that do not localize to nuclei. Multiplexed consensus cell segmentation is an example of this approach where non-nucleated fibroblasts were segmented based on positive αSMA staining and merged with segmentation masks of nucleated cells [9]. Prospecting for marker combinations that consistently identify cell boundaries [10, 11], even if application dependent, would be worthwhile to continue, however. Looking forward, overcoming the major limitation in spatial-omics methodologies of using thin sections (≈ 5 μm thickness) is ripe for progress. In such sections only a fraction of each cell exists, thus limiting quantitative accuracy of marker and cell morphology measurements, as well as losing the full 3D context of each cell. Others, however, are progressing in this area [12-15] and in one example are reporting significantly new interpretation of tertiary lymph node structures [15]. Furthermore, high-throughput volume electron microscopy, which although currently lacking molecularly specific markers, does afford two orders of magnitude in linear spatial resolution, and combined with artificial intelligence analysis of subcellular features [16] will provide a powerful and orthogonal information stream to existing methods. Stephen Lockett: writing – original draft, writing – review and editing. Andrew Weisman: writing – review and editing. We thank Dr. Axel Andersson and Dr. Carolina Wählby for their concurrence with this article and for providing the figure. The writing of the article was supported by contract #75N91019D00024. The authors declare no conflicts of interest. Data sharing not applicable to this article as no datasets were generated or analysed during the current study.",
+        "doi": "10.1002/cyto.a.24939",
+        "pmid": "40452354",
+        "venue": "Cytometry Part A",
+        "citedByCount": 0,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cyto.a.24939"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/cyto.a.24939"
+      }
+    ],
+    "warnings": []
+  }
+}

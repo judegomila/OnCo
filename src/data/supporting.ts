@@ -340,12 +340,58 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "cell-therapy-cold-chain"],
   }),
   t({
-    id: "cell-therapy-release-testing", links: [{ label: "FDA guidance: potency assurance for cellular and gene therapy products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/potency-assurance-cellular-and-gene-therapy-products" }], name: "Cell-therapy release and potency testing", sections: ["cell-therapy"], status: "established",
-    tldr: "The quality checks a CAR-T batch must pass before it can be given: sterile, correct identity, enough live CAR-positive cells, and no replicating virus.",
-    summary: "Release panels include sterility (rapid methods such as BacT/ALERT cut 14 days to about 7), mycoplasma PCR, endotoxin, identity (HLA), viability and CAR expression by flow cytometry, vector copy number by qPCR, replication-competent lentivirus, and potency (cytokine release or cytotoxicity). Testing time is a large share of vein-to-vein time; rapid and in-line methods and reduced-testing strategies for early-phase products are active regulatory topics.",
-    principle: "Compendial and validated assays performed on samples of the final product, with defined acceptance criteria in the marketing authorisation.",
-    strengths: ["Patient safety", "Regulatory clarity"],
-    limitations: ["Adds days to delivery", "Potency assays poorly predictive of clinical activity", "Sample volume consumes product"],
+    notes:[
+  "FDA's November 2026 final potency-assurance guidance supersedes its January 2011 potency-tests guidance. Its scope is cellular and gene therapy biological products regulated under section 351 of the U.S. Public Health Service Act. Potency assurance includes process and material controls, in-process evidence, release assays, stability and in-use handling; a release assay alone does not establish the clinical benefit of a particular lot. Federal Register notice 2026-22427, published 3 November 2026, announces the final guidance and finalises the December 2023 draft.",
+  "For CAR T cells, FDA's 2024 guidance recommends identity evidence for the transgene and intended cellular composition. HLA typing alone does not detect the genetic modification or replace chain-of-identity records. Biological identity and the association with the intended recipient are separate checks.",
+  "For an integrating-vector CAR T-cell product, the 2024 guidance describes average vector copy number per CAR-positive cell on the lot certificate of analysis. Including CAR-negative cells in the denominator can understate the value in the modified population. The average does not show insertion locations or clonal distribution. Short processes can retain non-integrated vector copies, so a release measurement may need a later assessment in cultured cells to determine stable integration; the interval is product-specific.",
+  "Replication-competent virus testing, microbial sterility, mycoplasma, endotoxin and engineered-cell identity address different hazards or attributes. The applicable tests, methods and acceptance criteria depend on the product, process and development stage. Detecting a sequence or a receptor does not demonstrate every intended biological activity.",
+  "For ex vivo genetically modified cells administered immediately after manufacture, FDA's 2020 gene-therapy CMC guidance describes an in-process sterility sample taken 48 to 72 hours before final harvest plus a rapid test such as a Gram stain on final product. Under that approach, negative Gram stain and no growth in the in-process test can support release while the final-product culture continues for its full duration, for example 14 days for USP <71>. The guidance calls for a plan addressing a later positive result, clinical management, investigation and reporting to the investigator and FDA. These are scoped recommendations, not universal early-release criteria for every cell product.",
+  "FDA's CAR T-cell examples distinguish activity against each target in a multi-antigen product, production of an added cytokine and a drug-resistance function. Each relevant transgene activity may need suitable evidence. A single expression or cell-count result is not the complete functional package.",
+  "In a fictional 100-cell teaching sample, 80 cells are live and 60 of those live cells express the receptor. Viability is 80/100, receptor positivity among live cells is 60/80, and live receptor-positive cells among all counted cells are 60/100. Receptor status of the nonlive cells is unspecified. These different denominators establish neither potency nor a clinical release cutoff.",
+  "Scope boundary with general release records. This record owns release and potency testing of cell and gene products. General lot disposition, out-of-specification handling and good manufacturing practice are taught in the batch release and good manufacturing practice records; decaying radiopharmaceuticals are in radiopharmaceutical quality and release.",
+  "Potency is relevant biological activity under defined conditions. FDA's November 2026 guidance aims for every released lot to have the ability to achieve the intended therapeutic effect and expects the relationship between a measured attribute and the product's mechanism of action to be supported by characterisation, nonclinical or clinical studies; where the mechanism is not fully understood, a statistical relationship such as a correlation with outcomes may help. Identity, receptor expression and viability do not establish activity.",
+  "Direct and surrogate measures. A direct biological assay measures activity such as target-cell killing; a surrogate measures a related attribute and needs a supported link to function. FDA's January 2011 potency guidance (now superseded) used the term assay matrix for complementary tests. The 2026 guidance recommends developing multiple assays that measure potency-related CQAs early, with redundant assays discontinued later. Many unrelated measurements do not add up to potency.",
+  "Controls, reference material and handling state. Potency protocols should set predefined sample and system suitability criteria, and a run should be invalidated if system suitability fails. Reference material lots should be qualified and monitored for stability. Release assays must use a sample taken after all manufacturing steps that may affect potency, with cryopreservation named as an example, so a test on fresh material does not stand for the final product.",
+  "Reading a killing result. A figure such as 60 per cent killing is not comparable between laboratories unless target identity, effector-to-target ratio and observation time are stated, and relative potency needs a named reference and model. FDA's CAR T guidance describes orthogonal methods such as a cell-killing assay, transduction efficiency and cytokine measurement. No universal passing cutoff applies across products.",
+  "Validation is about the assay, not the drug. The 2026 guidance asks that release assays measure potency with sufficient specificity, accuracy or precision over their reportable range, that performance be established under actual conditions of use, and that phase-appropriate acceptance criteria be set with failing lots rejected. Qualification and validation do not show that a drug improves a clinical endpoint.",
+  "Different questions. Sterility and potency are separate attributes with separate tests, and a passing potency result is a quality finding, not a clinical response rate. Inference lesson: a lot with high viability and receptor expression whose target-specific killing falls below its predefined criterion is not rescued by the two passing tests, and the failure is investigated under the controlled process."
+],
+    id: "cell-therapy-release-testing",
+    related: ["immune-cytotoxicity-assays", "chemistry-manufacturing-controls", "certificate-of-analysis", "manufacturing-process-comparability", "vein-to-vein-time"], asOf: "2026-11-10", links: [
+  {
+    "label": "FDA: Potency Assurance for Cellular and Gene Therapy Products, final guidance (November 2026)",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
+  },
+  {
+    "label": "FDA: considerations for development of CAR T-cell products",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"
+  },
+  {
+    "label": "FDA: CAR T-cell development guidance, January 2024, identity/VCN/potency sections",
+    "url": "https://www.fda.gov/media/156896/download"
+  },
+  {
+    "label": "FDA: human gene-therapy IND CMC guidance, January 2020, limited-shelf-life sterility context",
+    "url": "https://www.fda.gov/media/113760/download"
+  },
+  {
+    "label": "FDA: final potency-assurance guidance, November 2026, original document",
+    "url": "https://www.fda.gov/media/196183/download"
+  },
+  {
+    "label": "Federal Register notice 2026-22427, published 3 November 2026: Potency Assurance for Cellular and Gene Therapy Products, guidance availability",
+    "url": "https://www.federalregister.gov/documents/2026/11/03/2026-22427/potency-assurance-for-cellular-and-gene-therapy-products-guidance-for-industry-availability"
+  },
+  {
+    "label": "FDA: Potency Assurance (December 2023 draft, historical)",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/potency-assurance-cellular-and-gene-therapy-products"
+  }
+], name: "Cell-therapy release and potency testing", sections: ["cell-therapy"], status: "established",
+    tldr: "A cell-product lot is checked against specified quality requirements before its disposition. Identity, live-cell measures and biological activity answer different questions about that lot.",
+    summary: "FDA's final potency-assurance guidance describes a product-specific strategy spanning manufacturing design, controls, materials, in-process testing and lot-release assays. CAR T-cell guidance separately discusses safety, identity, quality, purity and potency measurements. A viability result or marker-expression result is not automatically equivalent to a functional bioassay. Assay choice and acceptance criteria depend on the product and development context. Passing a release specification is distinct from estimating clinical benefit in a patient.",
+    principle: "Product-specific control strategies combine defined quality attributes, suitable assays and justified acceptance criteria; a release result retains its lot and intended use.",
+    strengths: ["Defines checkable quality requirements", "Supports product-specific quality decisions"],
+    limitations: ["Testing and sample availability can constrain release", "Relationship to clinical outcomes needs product-specific evidence", "Sampling uses a portion of the lot"],
     technologies: ["car-t", "closed-automated-cell-manufacturing", "flow-cytometry-mrd"], companies: ["charles-river", "becton-dickinson"],
   }),
   t({
@@ -456,12 +502,13 @@ const technologies: TechnologyInput[] = [
 
   // ---- Laboratory pre-analytics and automation ----
   t({
-    id: "preanalytics-sample-stabilisation", links: [{ label: "Wolff et al., HER2 testing in breast cancer: ASCO/CAP clinical practice guideline focused update, including fixation requirements (Journal of Clinical Oncology 2018)", url: "https://doi.org/10.1200/JCO.2018.77.8738" }], name: "Pre-analytics: blood-collection tubes and tissue fixation", sections: ["diagnostics"], status: "standard-of-care",
-    tldr: "The tubes and fixatives that keep a sample stable between the patient and the lab. Unglamorous, but they decide whether a liquid biopsy or PD-L1 stain is trustworthy.",
-    summary: "Cell-free DNA stabilising tubes (Streck Cell-Free DNA BCT, PAXgene ccfDNA, Roche Cell-Free DNA Collection Tube) allow ctDNA to be shipped at room temperature for days; formalin fixation time and ischaemia time affect IHC scoring and nucleic-acid quality (CAP/CLSI and ASCO/CAP HER2 guidelines set 6-72 hour fixation windows); RNAlater and vacuum-sealed transport are alternatives. Pre-analytic variability is a major source of discordant biomarker results.",
-    principle: "Chemical stabilisers prevent leukocyte lysis and nuclease activity in blood; cross-linking fixation preserves morphology and antigens in tissue within validated time windows.",
+    id: "preanalytics-sample-stabilisation",
+    related: ["tissue-preparation-assay-fit", "finite-tissue-budget", "rna-integrity", "specimen-provenance", "pbmc-specimens"], asOf: "2026-11-08", links: [{"label": "Wolff et al., HER2 testing in breast cancer: ASCO/CAP clinical practice guideline focused update, including fixation requirements (Journal of Clinical Oncology 2018)", "url": "https://doi.org/10.1200/JCO.2018.77.8738"}, {"label": "Next-generation sequencing of RNA and DNA isolated from paired fresh-frozen and formalin-fixed paraffin-embedded samples of human cancer and normal tissue.", "url": "https://doi.org/10.1371/journal.pone.0098187"}, {"label": "The Biospecimen Preanalytical Variables Program: A Multiassay Comparison of Effects of Delay to Fixation and Fixation Duration on Nucleic Acid Quality.", "url": "https://doi.org/10.5858/arpa.2018-0172-oa"}, {"label": "Systematic evaluation of RNA quality, microarray data reliability and pathway analysis in fresh, fresh frozen and formalin-fixed paraffin-embedded tissue samples.", "url": "https://doi.org/10.1038/s41598-018-24781-6"}, {"label": "NCI Best Practices for Biospecimen Resources, fourth edition (2026)", "url": "https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/intro"}], name: "Pre-analytics: blood-collection tubes and tissue fixation", sections: ["diagnostics"], status: "standard-of-care",
+    tldr: "Collection, fixation, storage and processing can change what a specimen test measures. Handling needs to fit the intended assay and remain part of the sample record.",
+    summary: "Paired fixed and frozen tissue studies found preparation-dependent differences in nucleic-acid recovery and molecular measurements. The NCI Biospecimen Preanalytical Variables program examined delay and duration effects in defined tumor specimens and found that quality assays differed in what they detected. NCI best practices therefore emphasize documented collection, processing and tracking. A protocol or numerical limit appropriate to one assay should not be treated as a universal rule for every tissue, analyte or downstream test.",
+    principle: "Preserve the properties required by the planned measurement and record the collection, handling and preparation history used to interpret it.",
     strengths: ["Enables centralised liquid biopsy testing", "Standards exist for key biomarkers"],
-    limitations: ["Fixation artefacts degrade DNA/RNA", "Adherence to windows uneven", "Little attention outside reference labs"],
+    limitations: ["Preparation can alter nucleic-acid measurements", "Fixed and fresh material may need different workflows", "Assay-specific validation and handling records are needed"],
     technologies: ["liquid-biopsy", "histopathology-ihc", "biobanking", "reference-laboratories"], companies: ["streck", "qiagen", "roche-genentech", "ellele-health"],
     notes: ["Streck's Cell-Free DNA BCT was granted De Novo classification on 7 August 2020 (DEN200001), creating FDA product code QMA, blood collection device for cell-free nucleic acid (21 CFR 862.1676); the decision summary says 'Performance characteristics for this device have only been established on the Guardant360 CDx assay'. A further 510(k) followed on 26 July 2024 (K231776). Read from openFDA and the De Novo decision summary on 4 November 2026."],
   }),

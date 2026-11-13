@@ -1,0 +1,23 @@
+{
+  "neoantigen": [
+    "links",
+    "asOf",
+    "notes"
+  ],
+  "binding-presentation-recognition": [
+    "links",
+    "asOf",
+    "notes"
+  ],
+  "immunopeptidome": [
+    "links",
+    "asOf",
+    "aka",
+    "notes"
+  ],
+  "self-similarity-immune-recognition": [
+    "links",
+    "asOf",
+    "notes"
+  ]
+}

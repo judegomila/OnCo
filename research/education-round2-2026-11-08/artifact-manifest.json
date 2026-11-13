@@ -1,0 +1,403 @@
+{
+  "generatedAt": "2026-11-08T21:52:42.314934+00:00",
+  "excludes": [
+    "artifact-manifest.json"
+  ],
+  "files": [
+    {
+      "file": "README.md",
+      "bytes": 5655,
+      "sha256": "6aa589dbe7dc4003d4c30ed77e342bcca79eab7bc104b16c837769d9171b9abe"
+    },
+    {
+      "file": "curriculum-crosswalk.json",
+      "bytes": 37519,
+      "sha256": "6ee747728d33c7b44ecdcf8500f70666d2dbcca0d6640c03597f2de2be9ee564"
+    },
+    {
+      "file": "elicit/antigen-evidence.json",
+      "bytes": 32064,
+      "sha256": "4dc7bd084d44e68aa5fdc018e3b09ab8ddd8f98f135adaa67572df930d3ca31d"
+    },
+    {
+      "file": "elicit/binder-targeting.json",
+      "bytes": 25993,
+      "sha256": "945a2f928511b1d088c6826a4e03bdb293f44bf490c2d1e0229e0a267a61fd3a"
+    },
+    {
+      "file": "elicit/dispositions.json",
+      "bytes": 61690,
+      "sha256": "102845a03afa9c61b1bc93fc8f9dc76658501ebb2cfe2b1c6f44deed8d870473"
+    },
+    {
+      "file": "elicit/immune-assays.json",
+      "bytes": 26170,
+      "sha256": "089d836c596561ebeeefd21a8f01f584f3a54a0870ebd0c7e6386e90c31ee71b"
+    },
+    {
+      "file": "elicit/manufacturing-quality.json",
+      "bytes": 29583,
+      "sha256": "1138fce8ab9230bd6feaaea6517dbad45649b143aa59b0110c4490ce59db52d5"
+    },
+    {
+      "file": "elicit/rna-engineering.json",
+      "bytes": 36083,
+      "sha256": "432fa425a302200f7b455d446a9a97962776a3fc7c9d65f24670c8b5dfbea376"
+    },
+    {
+      "file": "elicit/spatial-protein.json",
+      "bytes": 35010,
+      "sha256": "1f39c10a9aa42c3ae5f3e25ee7060833c0df770fe212e8bf712067a0c98bfea9"
+    },
+    {
+      "file": "elicit/specimen-fitness.json",
+      "bytes": 36721,
+      "sha256": "9039a6408e3072af6b906e99e31622a30c73d8aeeb4d7c3ab6f03708b33d9363"
+    },
+    {
+      "file": "fulltext-verification.json",
+      "bytes": 2435,
+      "sha256": "44a38f740239eeb22998c830b0910beba8883b01f7e047b68569e16eb5dc75d4"
+    },
+    {
+      "file": "primary/antibody-developability.json",
+      "bytes": 10018,
+      "sha256": "810c2ab19d3caba4f127040e9cc37f35758e4ae6cbfc45beaab6fe20dbe820bc"
+    },
+    {
+      "file": "primary/assay-validation-comparison.json",
+      "bytes": 7531,
+      "sha256": "88173d70d13cc650c82357ee69175b8dfbed3ce2ce85d81a55603d15b81d85b5"
+    },
+    {
+      "file": "primary/binder-format-comparison.json",
+      "bytes": 12288,
+      "sha256": "5694787a65cd2a21e76a9089353884b0f30e16c0fd1d73c7cfa15df2e5f97367"
+    },
+    {
+      "file": "primary/binder-format.json",
+      "bytes": 8677,
+      "sha256": "fdfd5e4d00b57fa3333874e08c003e1ea7a5048b5b4a77aa46fbf9b0bdcddec4"
+    },
+    {
+      "file": "primary/capture-manifest.json",
+      "bytes": 28838,
+      "sha256": "87dd5d85a3f55f1908589de3e0eeb9fe411e98a07f9362d51ca43f5362274427"
+    },
+    {
+      "file": "primary/cell-segmentation.json",
+      "bytes": 14187,
+      "sha256": "edab064835e4141fbd204754bddee99ff43f145851dfc22524d3d3b1287474d9"
+    },
+    {
+      "file": "primary/codon-optimality.json",
+      "bytes": 9281,
+      "sha256": "a3d6805b82cdc2bf05797ac6dbea857d7221f6223a18f3f080e1eb0e4e1d98cf"
+    },
+    {
+      "file": "primary/cross-recognition-clinical.json",
+      "bytes": 10652,
+      "sha256": "1bc9b6f4ad966cb27d25752f1b5cafc9cbfbc8017f7d7a519dc696ca1f09c280"
+    },
+    {
+      "file": "primary/cross-recognition.json",
+      "bytes": 11040,
+      "sha256": "3e366ef334b0d31670b398efbff6fe647af0e4b0a39867844d799842e362039b"
+    },
+    {
+      "file": "primary/cytotoxicity-assay.json",
+      "bytes": 10326,
+      "sha256": "fece03585dc5cf9fc4ffc32c617bfe2b9fc6dcfc59f920498421805fe917720d"
+    },
+    {
+      "file": "primary/degranulation-readout.json",
+      "bytes": 7183,
+      "sha256": "5f22ae92c871a5e5edc93d0e937a214627155392b3e616d80c913998bdb9ffdf"
+    },
+    {
+      "file": "primary/delivery-versus-target.json",
+      "bytes": 16542,
+      "sha256": "1c9caf3f812deef123fc18d93d5322e6e734a3ff940039af2bec33ee791e90f2"
+    },
+    {
+      "file": "primary/dsrna-removal.json",
+      "bytes": 6223,
+      "sha256": "ffced17bf9d71eadaa7293fbeb12650ebb698f0bed9c805f17d507d27e89e0f1"
+    },
+    {
+      "file": "primary/elispot-harmonization.json",
+      "bytes": 13247,
+      "sha256": "a452c8d8a4ec760ffe049cce699055f67ad3215db0b7e5b3dc52b8c15d40fd5f"
+    },
+    {
+      "file": "primary/elispot-origin.json",
+      "bytes": 13177,
+      "sha256": "db68632e3f8110666ca4d6cf829412b3aeacfe3cfbb47cad8207130983d509d3"
+    },
+    {
+      "file": "primary/epitope-spreading.json",
+      "bytes": 22331,
+      "sha256": "4464ac83eb04700472297db23f55c4390b9d222097f7087969303c5339188e17"
+    },
+    {
+      "file": "primary/existing-her2-source.json",
+      "bytes": 31624,
+      "sha256": "93ba812a109d2c1fdcb930d761f01a9bf727879d04dc3551b343f07982f767ab"
+    },
+    {
+      "file": "primary/existing-immunoediting-source.json",
+      "bytes": 5532,
+      "sha256": "ef1b2e0a4ed1141461736bd05c0a9fe847c76285f45094d3e7e007feea9c6b4d"
+    },
+    {
+      "file": "primary/existing-resistance-source.json",
+      "bytes": 28761,
+      "sha256": "38f8587d5c6b903ed273f88a1431a16c0f153924f1d573f1a2d5dd7300dee965"
+    },
+    {
+      "file": "primary/ics-origin.json",
+      "bytes": 6181,
+      "sha256": "0f8946f23ff63ff76711d6122bcc2fdd573e488f6746cf3cd6194b8e97e722a2"
+    },
+    {
+      "file": "primary/identifier-dispositions.json",
+      "bytes": 35605,
+      "sha256": "1dd7dc1c484c27d7426ed0ba31bc821053dd33e1d683643b6a6b61be5ec83340"
+    },
+    {
+      "file": "primary/imaging-mass-cytometry.json",
+      "bytes": 9160,
+      "sha256": "d31a1c35fad9bdfad736169bbfd1bc1751496102cb0a0875ca4640c7b0eedb5f"
+    },
+    {
+      "file": "primary/immunodominance.json",
+      "bytes": 7989,
+      "sha256": "d078153293928db93df76eea7771b762e0e0deab3a67a830e1ad3ad9cae5bf70"
+    },
+    {
+      "file": "primary/immunopeptidomics.json",
+      "bytes": 12243,
+      "sha256": "6f3e15d5ce86458092b60ee0a012962327f86f67807319dff7df959a7d494cc0"
+    },
+    {
+      "file": "primary/manufacturing-failure.json",
+      "bytes": 11808,
+      "sha256": "732a337f2a18dfe3bc8ec0ca21ea98057f06b88b23857bc45dc04799750350c4"
+    },
+    {
+      "file": "primary/mibi.json",
+      "bytes": 11800,
+      "sha256": "43976640af4606a6e481165ab062d317c69f547052d2af8016776ca7be7eef05"
+    },
+    {
+      "file": "primary/modified-nucleosides.json",
+      "bytes": 7816,
+      "sha256": "2b0d298a4bbd2ee4bde8edac0594a380825facb4fdaa6b65068bb705c55cd8ea"
+    },
+    {
+      "file": "primary/mrna-construct-resolved.json",
+      "bytes": 8532,
+      "sha256": "791d7db923c3a6f1912d012e5fa2f316107541250d884726b642da5cbd9b38d3"
+    },
+    {
+      "file": "primary/mrna-construct.json",
+      "bytes": 249,
+      "sha256": "f50145292712e702f600b88919669040fdbd98f45949253d2b8af83396b247df"
+    },
+    {
+      "file": "primary/mrna-structure.json",
+      "bytes": 7460,
+      "sha256": "f2ced48e529827804b54d82b6b675a4778fd2efe619f857147824a653ff2098d"
+    },
+    {
+      "file": "primary/multiepitope-design.json",
+      "bytes": 34685,
+      "sha256": "1cd6ff6d0f7d112cc3d373e0dd16c08494c24b3ca369ab5e19c4902c6d38be7f"
+    },
+    {
+      "file": "primary/multiepitope-processing.json",
+      "bytes": 8240,
+      "sha256": "bc54237a7bc265db56939b87ab375c6109a91b85afee44a7794b513d20393177"
+    },
+    {
+      "file": "primary/multimer-origin.json",
+      "bytes": 11687,
+      "sha256": "2a3c6ff11c2efd9506077bcce3d3b63f99c9db6bef35302059e68418d06f81e2"
+    },
+    {
+      "file": "primary/neoantigen-consortium.json",
+      "bytes": 30096,
+      "sha256": "7ffda120d8fecf30cf8fcc73c269069ee627d635975fd26491662b77e674e076"
+    },
+    {
+      "file": "primary/neoantigen-vaccine.json",
+      "bytes": 27891,
+      "sha256": "9bedd91399ec15b83eae20bfa38f54f4776f1ea758a9dc843a190bcd1e57acb1"
+    },
+    {
+      "file": "primary/netmhcpan.json",
+      "bytes": 7346,
+      "sha256": "550db622ea06db250982989a31273bbd3ffb8f57f22bfade6eb4fdbc34c46722"
+    },
+    {
+      "file": "primary/official/fda-car.html.gz",
+      "bytes": 9783,
+      "sha256": "01c5cb99886d921bf8da248ea5728acc015c008c5a2b0404328e7de4835f9dbc"
+    },
+    {
+      "file": "primary/official/fda-cmc.html.gz",
+      "bytes": 9079,
+      "sha256": "47efceb9d817d7b69d51336c3eb5a380671430eaa0b372377dd71b668c8bf6d6"
+    },
+    {
+      "file": "primary/official/fda-potency.html.gz",
+      "bytes": 9590,
+      "sha256": "21360a122d1b2381f2315ffcaca48afd52a922b325d168485e54c1fae8c1c1ad"
+    },
+    {
+      "file": "primary/official/ich-q7.html.gz",
+      "bytes": 9087,
+      "sha256": "a91deb0470cad5bf8f36a9bca13b50b365c2399b0e2b27c5e1be816775dead9c"
+    },
+    {
+      "file": "primary/official/nci-biospecimens.html.gz",
+      "bytes": 8901,
+      "sha256": "23820853c58155ece8ac52c6659388472ef0c77ae98d9a45c5879be20294f52d"
+    },
+    {
+      "file": "primary/official/nlm-pbmc-definition.json.gz",
+      "bytes": 543,
+      "sha256": "aef67e50ed01b279d830483612884c7faa8c9ca21b4a787149db8f62122c2b2a"
+    },
+    {
+      "file": "primary/official/nlm-pbmc.html.gz",
+      "bytes": 6528,
+      "sha256": "152b0c7273b920a8c35ffd3a10fad73789fa2e5866d696725afca3a24d9f5224"
+    },
+    {
+      "file": "primary/official/nlm-pbmc.json.gz",
+      "bytes": 809,
+      "sha256": "66dd84b9fe8757361ae8ecfc8ceaf143df727fd5c9a422ba6cebdfba04cf8d2a"
+    },
+    {
+      "file": "primary/official-manifest.json",
+      "bytes": 9377,
+      "sha256": "c741064f709901bdbbe19155ba59919b9a79922fa4d7b0027d4cd068d5f25386"
+    },
+    {
+      "file": "primary/paired-preservation.json",
+      "bytes": 13013,
+      "sha256": "144003f0bcfdb3b20dc579a2efbe2c873c9180c14d42ce6d5c320c786907d813"
+    },
+    {
+      "file": "primary/pathology-specimen.json",
+      "bytes": 67753,
+      "sha256": "f172d2ddb9ce1411f5eb3b60152bd8251f3b099e45e344a3601bdf3319344583"
+    },
+    {
+      "file": "primary/pbmc-processing.json",
+      "bytes": 14937,
+      "sha256": "3eaa49c70a22d569bfd6ad9dfeb854b561980460e12dc025f24f20d3ad08a4e1"
+    },
+    {
+      "file": "primary/phosphosite-normalization.json",
+      "bytes": 8379,
+      "sha256": "91521beed1cea534d3bc4bc48a6a4cbff7608abb4cc3d906101ccaf3bb572f5c"
+    },
+    {
+      "file": "primary/potency-survey.json",
+      "bytes": 9037,
+      "sha256": "aa50773eaff3c091142b6c018d6138b0f38a9257636dcbdc1104a7a99d1f4be1"
+    },
+    {
+      "file": "primary/preanalytic-variables.json",
+      "bytes": 37105,
+      "sha256": "cab42435e4a7ab84a5b3cc326948841cb55de0765b1b493631a0fca692519328"
+    },
+    {
+      "file": "primary/rna-integrity.json",
+      "bytes": 6273,
+      "sha256": "43f497dc74ed41c97fa9d63edb80ae61f7fb7adde1b2a94dab0f02e0d022b7b4"
+    },
+    {
+      "file": "primary/rna-purification.json",
+      "bytes": 6241,
+      "sha256": "0c6779d8f6f6b78e2cc5b3e83580cd5651260a221d0ba298777d45d24ca1df0e"
+    },
+    {
+      "file": "primary/rna-quality-comparison.json",
+      "bytes": 9069,
+      "sha256": "706daa1f5808f07a147ef72bbc9d4cb47ed24b49e372fcc3d74fdd7511487ed0"
+    },
+    {
+      "file": "primary/rppa-antibody-validation.json",
+      "bytes": 7969,
+      "sha256": "832127c9bbb2cddadfb702a3a4c8edb69663a4c541fadd40cc88a6ebf6a15b0c"
+    },
+    {
+      "file": "primary/rppa-origin.json",
+      "bytes": 8269,
+      "sha256": "1805910c5e6f16717621da2cc88880d2fa6106960f5185e62cf1706524603dca"
+    },
+    {
+      "file": "primary/scfv-origin.json",
+      "bytes": 6434,
+      "sha256": "daced41bb914048349a3f427731d87f10813e85168a3cd2f2535548d6482382f"
+    },
+    {
+      "file": "primary/segmentation-errors.json",
+      "bytes": 5863,
+      "sha256": "93644300632491b4d82b998250123d8b382d831d7f71449dafbbd9dceb7bfcef"
+    },
+    {
+      "file": "primary/targeted-proteomics.json",
+      "bytes": 11817,
+      "sha256": "91fc53f987e6aae490f518c48528fc55251add1a0abe934baa3068ea7d1c723f"
+    },
+    {
+      "file": "primary/tcr-repertoire.json",
+      "bytes": 7848,
+      "sha256": "6623ae68d3b6059227dcb1b1c9e1b5aa113ca326128b2851caca150a621d7a14"
+    },
+    {
+      "file": "primary/vhh-origin.json",
+      "bytes": 6196,
+      "sha256": "47463e4cdd868becf305e8a6363271f4b64732cd79482b8d9c6fd2348018f06f"
+    },
+    {
+      "file": "primary/viable-organoids.json",
+      "bytes": 17803,
+      "sha256": "3c9377f1d5b6b3fb68e1e20a19a95985bac456964c5fabc2ecdc5dfa52ddb65a"
+    },
+    {
+      "file": "query-ledger.json",
+      "bytes": 38576,
+      "sha256": "ac023aaa0cdba6da151e0ab7155db208512e42e2bb4e68a5f5706dbe75cafdfb"
+    },
+    {
+      "file": "record-ledger.json",
+      "bytes": 58606,
+      "sha256": "2527769b1889b43c188f2c40cd9bdad606283275eb11dfb1fde0c7c72dfe18f5"
+    },
+    {
+      "file": "render-verification.json",
+      "bytes": 16002,
+      "sha256": "934afb2f48679f3de28a67b0f4dc6ec508082fdd445ab3468c2e84967985cd8a"
+    },
+    {
+      "file": "source-reader.md",
+      "bytes": 18212,
+      "sha256": "5446e225d1b3dc3103252f38d072f323ee76802752d8e65e818a29307f5a4b3b"
+    },
+    {
+      "file": "source-to-records.json",
+      "bytes": 67000,
+      "sha256": "288919f09c986c61a8afd436ac2fd917bbb4a171e7860afea891d2c87f1d6180"
+    },
+    {
+      "file": "validation.md",
+      "bytes": 3652,
+      "sha256": "10f51f4f9a85fdd05a91cbc6a2211795150ca72463de91adbfce4c2449ffeaa3"
+    }
+  ]
+}

@@ -7,9 +7,12 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 13 November 2026
+- The search health check now keeps a bounded cache, so it needs under 1.5 GB of memory instead of nearly 3 GB and keeps passing as the corpus grows
 - 269 cancer institutions for under-covered countries, from national centres and radiotherapy units to registries, regulators and payers, and oncology hospital ranks checked against the published Newsweek 2026 list, which corrects several ranks and removes three that the list does not contain
 
 ### 12 November 2026
+- Search health audit holds a bounded word cache, so the gate fits in memory as the corpus grows
+- 269 cancer institutions for under-covered countries, from national centres and radiotherapy units to registries, regulators and payers, and oncology hospital ranks checked against the published Newsweek 2026 list, which corrects several ranks and removes three that the list does not contain
 - Logo gauge counts the new institutions
 - Ask finds the brachytherapy page and trastuzumab deruxtecan again
 - Country institutions stand on their own until the country deep dives arrive

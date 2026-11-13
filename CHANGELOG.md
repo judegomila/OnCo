@@ -6,16 +6,23 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 13 November 2026
+- 269 cancer institutions for under-covered countries, from national centres and radiotherapy units to registries, regulators and payers, and oncology hospital ranks checked against the published Newsweek 2026 list, which corrects several ranks and removes three that the list does not contain
+
 ### 12 November 2026
+- Logo gauge counts the new institutions
+- Ask finds the brachytherapy page and trastuzumab deruxtecan again
+- Country institutions stand on their own until the country deep dives arrive
 - Drug pages answer whether a medicine is available in your country, with approval, who pays and help with the cost, and country and institution pages list the trials recruiting there, counted only where that site's own registry status says recruiting
-- Glossary links no longer fire on ordinary words such as has, cure, prior and bleeding, and the care protocols now list the supportive medicines their steps name, so each medicine's page shows the protocols that use it
-- Forty-three everyday medicines the care protocols name now have records (blood thinners, anti-sickness drugs, pain relief, antibiotics and antivirals among them), with three line types and thirteen glossary terms; and three China approvals now rest on the makers' own exchange announcements, with two indications corrected
 - chore: refresh pulse, abstract and citation snapshots (#405)
 - chore: weekly roadmap registry check (public/roadmap-watch.json)
 - chore: refresh institution research output from OpenAlex (#404)
 - chore: draft change proposals that need review (#403)
 
 ### 11 November 2026
+- Newsweek 2026 oncology ranks on 268 institutions, with 75 new records for ranked hospitals OnCo did not hold
+- Cancer institutions for the 83 countries that held fewer than three: national centres, radiotherapy centres, registries, regulators and payers
+- Newsweek 2026 oncology ranks corrected against the published list, and unsourced superlatives removed from the ranked records
 - Glossary links no longer fire on ordinary words such as has, cure, prior and bleeding, and the care protocols now list the supportive medicines their steps name, so each medicine's page shows the protocols that use it
 - The care protocols now list the everyday medicines their own steps name, so 40 of the 43 medicines added in the November supportive care fill show the protocols that use them: blood thinners on the clot and endoscopy protocols, anti-sickness drugs, opioids, antibiotics, antivirals and the immune-toxicity rescue drugs
 - Glossary links no longer fire on ordinary words: "has" stops linking to health technology assessment, and 57 other aliases that named something else leave the hover matcher or are qualified

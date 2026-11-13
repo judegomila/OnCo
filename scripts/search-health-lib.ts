@@ -40,15 +40,31 @@ type Internals = {
 /** One query word's matches, never modified: the hits, each hit's place in MiniSearch's own order, and the hits best first. */
 type WordHits = { hits: Map<number, RawHit>; pos: Map<number, number>; best: Array<[number, number]> };
 
-/** An index prepared for auditing: the MiniSearch instance as the browser builds it, a cache of what each query word matched, and the way from a record id to MiniSearch's short id. */
-export type AuditIndex = { ms: MiniSearch<SearchDoc>; words: Map<string, WordHits>; shortId: Map<string, number> };
+/**
+ * An index prepared for auditing: the MiniSearch instance as the browser builds it, a cache of what each query word
+ * matched (least recently used first, holding `cachedHits` hits in all), and the way from a record id to MiniSearch's
+ * short id.
+ */
+export type AuditIndex = { ms: MiniSearch<SearchDoc>; words: Map<string, WordHits>; cachedHits: number; shortId: Map<string, number> };
+
+/**
+ * How many word hits the cache may hold before it forgets the least recently used word. The cache is memoisation
+ * only: a forgotten word is computed again, identically, when a later name uses it, so the bound changes how long the
+ * audit takes and never what it finds.
+ *
+ * Unbounded, it kept every word of every name: 4.4 million hits, each an object with its own term list and match map,
+ * about 2.5 GB of heap on the 23,728-document corpus of 12 November 2026, enough for the gate to die of memory at
+ * Node's default heap once the corpus grew by 600 records. The words names share most ("cancer", "of", "foundation")
+ * are used again and again and so stay; the long tail of words used once is what this lets go.
+ */
+export const WORD_CACHE_HITS = 400_000;
 
 /** Builds the index exactly as the browser does (SEARCH_INDEX_OPTIONS), with an empty word cache beside it. */
 export function buildAuditIndex(docs: readonly SearchDoc[]): AuditIndex {
   const ms = new MiniSearch<SearchDoc>(SEARCH_INDEX_OPTIONS);
   ms.addAll(docs as SearchDoc[]);
   const inner = ms as unknown as Internals;
-  return { ms, words: new Map(), shortId: new Map([...inner._documentIds].map(([short, id]) => [id, short])) };
+  return { ms, words: new Map(), cachedHits: 0, shortId: new Map([...inner._documentIds].map(([short, id]) => [id, short])) };
 }
 
 /** The most rankHits can multiply a text score by: the best name boost, the kind tier set aside (tier weights are at most 1). */
@@ -69,7 +85,11 @@ function querySpecs(inner: Internals, query: string): QuerySpec[] {
 function wordHits(index: AuditIndex, inner: Internals, spec: QuerySpec): WordHits {
   const key = `${spec.term}|${spec.prefix}|${String(spec.fuzzy)}|${spec.termBoost}`;
   let w = index.words.get(key);
-  if (!w) {
+  if (w) {
+    // Move it to the most recently used end (a Map iterates in insertion order).
+    index.words.delete(key);
+    index.words.set(key, w);
+  } else {
     const hits = inner.executeQuerySpec(spec, TYPED_SEARCH_OPTIONS);
     const pos = new Map<number, number>();
     const best: Array<[number, number]> = [];
@@ -77,6 +97,13 @@ function wordHits(index: AuditIndex, inner: Internals, spec: QuerySpec): WordHit
     best.sort((a, b) => b[1] - a[1]);
     w = { hits, pos, best };
     index.words.set(key, w);
+    index.cachedHits += hits.size;
+    // Forget the least recently used words until the cache is within budget, never the word just computed.
+    for (const [k, old] of index.words) {
+      if (index.cachedHits <= WORD_CACHE_HITS || k === key) break;
+      index.words.delete(k);
+      index.cachedHits -= old.hits.size;
+    }
   }
   return w;
 }

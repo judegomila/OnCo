@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T18:38:14.429Z",
+  "request": {
+    "query": "Which primary studies distinguish antibody target expression from internalization, endosomal processing, lysosomal payload transport and target engagement, including binding-site barriers and SLC46A3?",
+    "searchMode": "semantic",
+    "maxResults": 20,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-5722613",
+        "title": "SLC46A3 Is Required to Transport Catabolites of Noncleavable Antibody Maytansine Conjugates from the Lysosome to the Cytoplasm.",
+        "authors": [
+          "Kevin J. Hamblett",
+          "A. Jacob",
+          "Jesse L. Gurgel",
+          "M. Tometsko",
+          "Brooke M. Rock",
+          "Sonal Patel",
+          "R. Milburn",
+          "S. Siu",
+          "S. Ragan",
+          "D. Rock",
+          "Christopher J. Borths",
+          "J. C. O'Neill",
+          "Wesley S. Chang",
+          "M. Weidner",
+          "M. Bio",
+          "K. Quon",
+          "W. Fanslow"
+        ],
+        "year": 2015,
+        "abstract": "Antibody-drug conjugates (ADC) target cytotoxic drugs to antigen-positive cells for treating cancer. After internalization, ADCs with noncleavable linkers are catabolized to amino acid-linker-warheads within the lysosome, which then enter the cytoplasm by an unknown mechanism. We hypothesized that a lysosomal transporter was responsible for delivering noncleavable ADC catabolites into the cytoplasm. To identify candidate transporters, we performed a phenotypic shRNA screen with an anti-CD70 maytansine-based ADC. This screen revealed the lysosomal membrane protein SLC46A3, the genetic attenuation of which inhibited the potency of multiple noncleavable antibody-maytansine ADCs, including ado-trastuzumab emtansine. In contrast, the potencies of noncleavable ADCs carrying the structurally distinct monomethyl auristatin F were unaffected by SLC46A3 attenuation. Structure-activity experiments suggested that maytansine is a substrate for SLC46A3. Notably, SLC46A3 silencing led to relative increases in catabolite concentrations in the lysosome. Taken together, our results establish SLC46A3 as a direct transporter of maytansine-based catabolites from the lysosome to the cytoplasm, prompting further investigation of SLC46A3 as a predictive response marker in breast cancer specimens.",
+        "doi": "10.1158/0008-5472.CAN-15-1610",
+        "pmid": "26631267",
+        "venue": "Cancer Research",
+        "citedByCount": 120,
+        "urls": [
+          "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Methods_from_SLC46A3_Is_Required_to_Transport_Catabolites_of_Noncleavable_Antibody_Maytansine_Conjugates_from_the_Lysosome_to_the_Cytoplasm/22406855/1/files/39852722.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://aacr.figshare.com/articles/journal_contribution/Supplementary_Methods_from_SLC46A3_Is_Required_to_Transport_Catabolites_of_Noncleavable_Antibody_Maytansine_Conjugates_from_the_Lysosome_to_the_Cytoplasm/22406855/1/files/39852722.pdf"
+      },
+      {
+        "elicitId": "ss-15844562",
+        "title": "Micropharmacology of monoclonal antibodies in solid tumors: direct experimental evidence for a binding site barrier.",
+        "authors": [
+          "M. Juweid",
+          "R. D. Neumann",
+          "C. Paik",
+          "Miguel J. Perez-Bacete",
+          "Jun Sato",
+          "W. van Osdol",
+          "J. N. Weinstein"
+        ],
+        "year": 1992,
+        "abstract": "Monoclonal antibodies (MAbs) often distribute nonuniformly in tumors. In part, that observation reflects intrinsic heterogeneity within the tumor; in part, it reflects poor penetration through tumor substance. Several years ago, we proposed the \"binding site barrier\" hypothesis (J.N. Weinstein, R.R. Eger, D.G. Covell, C.D.V. Black, J. Mulshine, J.A. Carrasquillo, S.M. Larson, and A.M. Keenan, Ann. NY Acad. Sci., 507: 199-210, 1987; K. Fujimori, D.C. Covell, J.E. Fletcher, and J.N. Weinstein, Cancer Res., 49: 5656-5663, 1989), the idea that antibodies (and other ligands) could be prevented from penetrating tumors by the very fact of their successful binding to target antigen. Calculations suggested that this might be a significant factor in the therapy of even microscopic nodules. The higher the affinity and the higher the antigen density, the greater the barrier. Here, we provide direct experimental evidence of such a barrier to the percolation of D3 MAb through intradermally implanted line 10 carcinoma of guinea pigs. After affinity purification using glutaraldehyde-fixed line 10 cells, the D3 had an average immunoreactivity of 88%, a binding constant of 1.6 +/- 0.3 (SEM) x 10(10) M-1, and saturation binding of 355,000 +/- 15,000 molecules/cell. Using a combination of double-label autoradiography and double-chromagen immunohistochemistry, we determined simultaneously the distribution of (a) i.v. injected D3 MAb; (b) coinjected isotype-matched control IgG (BL3); (c) D3 antigen; (d) blood vessels. The previously developed mathematical models aided in the design of these experiments. Double immunochemical staining of the tumors showed antigen-rich patches 100-800 microns across, surrounded by blood vessels. At a low MAb dose (30 micrograms), binding to antigen severely hindered penetration into antigenic patches as small as 200 microns, even at 72 h. Explanation of this finding by a physical barrier was ruled out by the observation that BL3 distributed uniformly in the same patches. At a higher dose (1000 micrograms), the binding site barrier could be partially overcome. The same general principles of micropharmacology may apply to biological ligands other than antibodies, including those secreted by genetically modified cells.",
+        "doi": null,
+        "pmid": "1327501",
+        "venue": "Cancer Research",
+        "citedByCount": 415,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-28807187",
+        "title": "The macroscopic and microscopic pharmacology of monoclonal antibodies.",
+        "authors": [
+          "J. Weinstein",
+          "W. van Osdol"
+        ],
+        "year": 1992,
+        "abstract": null,
+        "doi": "10.1016/0192-0561(92)90176-L",
+        "pmid": "1618598",
+        "venue": "International Journal of Immunopharmacology",
+        "citedByCount": 35,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-81191740",
+        "title": "Abstract 567: The lysosomal transporter SLC46A3 is a potential predictive biomarker for antibody-drug conjugates bearing the non-cleavable warheads SG3376 and DM1",
+        "authors": [
+          "Krista Kinneer",
+          "Yu-Tzu Tai",
+          "S. Sridhar",
+          "John H Meekin",
+          "Sandrina S. Phipps",
+          "Ben T Ruddle",
+          "Ryan L. Fleming",
+          "N. Dimasi",
+          "R. Herbst",
+          "A. Tiberghien",
+          "Luke A. Masterson",
+          "P. Howard",
+          "K. Anderson",
+          "D. Tice"
+        ],
+        "year": 2018,
+        "abstract": "Antibody drug conjugates (ADCs) combine a monoclonal antibody with a potent cytotoxic drug to preferentially eliminate antigen-positive cells for the treatment of cancer. ADCs bearing non-cleavable drug-linkers such as the pyrrolobenzodiazepine (PBD) SG3376 or the maytansinoid DM1 rely upon lysosomal degradation of the antibody for release of the cytotoxic warheads, which must then escape the lysosome and bind to their intracellular targets. We sought to identify the mechanism of lysosomal transport of these membrane-insoluble warheads and have recently reported that the lysosomal transporter SLC46A3 is required for cytotoxic activity of ADCs bearing SG3376 and DM1, and that loss of SLC46A3 is a mechanism of acquired resistance to Trastuzumab-DM1 (T-DM1). Here we explore the potential translational relevance of SLC46A3. Analysis of SLC46A3 mRNA expression across several tumors showed that breast cancer cell lines and primary tumor samples have relatively high levels of SLC46A3 compared to samples derived from multiple myeloma (MM), esophageal, and upper aerodigestive tract malignancies, all of which are being targeted in clinical trials with non-cleavable DM1 ADCs. Deeper analysis indicates that levels of SLC46A3 are decreased in MM patients compared to healthy donors, and levels are further decreased in the relapsed/refractory setting compared to samples taken at diagnosis. We measured the expression of SLC46A3 in a panel of MM cell lines by RT-PCR and found that 5 of 9 (56%) had undetectable levels of SLC46A3. In vitro cytotoxicity assays demonstrate that SLC46A3-negative cells are resistant to B-cell maturation antigen (BCMA)-targeted ADCs prepared with non-cleavable DM1 and SG3376 warheads, but remain sensitive to the cleavable payload PBD SG3249 (Tesirine). Taken together, our results suggest that SLC46A3 may be a predictive response marker for ADCs bearing the non-cleavable warheads SG3376 and DM1, and this marker may be particularly useful in trials involving MM. Citation Format: Krista Kinneer, Yu-Tzu Tai, Sriram Sridhar, John Meekin, Sandrina Phipps, Ben Ruddle, Ryan Fleming, Nazzareno Dimasi, Ronald Herbst, Arnaud Tiberghien, Luke Masterson, Philip Howard, Kenneth Anderson, David Tice. The lysosomal transporter SLC46A3 is a potential predictive biomarker for antibody-drug conjugates bearing the non-cleavable warheads SG3376 and DM1 [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2018; 2018 Apr 14-18; Chicago, IL. Philadelphia (PA): AACR; Cancer Res 2018;78(13 Suppl):Abstract nr 567.",
+        "doi": "10.1158/1538-7445.AM2018-567",
+        "pmid": null,
+        "venue": "Clinical research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-6427112",
+        "title": "Theoretical analysis of antibody targeting of tumor spheroids: importance of dosage for penetration, and affinity for retention.",
+        "authors": [
+          "Christilyn P. Graff",
+          "K. Wittrup"
+        ],
+        "year": 2003,
+        "abstract": "The interplay among antibody/antigen binding kinetics, antibody diffusion, and antigen metabolic turnover together determines the depth of penetration of antitumor antibodies into prevascular tumor spheroid cell clumps. A sharp boundary between an outer shell of bound high-affinity antibody and an inner antibody-free core has been previously observed and mathematically modeled and was termed the \"binding site barrier.\" We show here that this process is well described by a simplified shrinking core model wherein binding equilibration is much more rapid than diffusion. This analysis provides the following experimentally testable predictions: (a) the binding site barrier is a moving boundary whose velocity is proportional to the time integral of antibody concentration at the spheroid surface (i.e. plasma antibody AUC); (b) the velocity of this moving boundary is independent of binding affinity, if the affinity is sufficiently high to strongly favor antibody/antigen complex formation at prevailing antibody concentrations; and (c) maximum tumor retention is achieved when the antibody/antigen dissociation rate approaches the rate of antigen metabolic turnover. The consistency of these predictions with published experimental results is demonstrated. The shrinking core model provides a simple analytic relationship predicting the effects of altered antibody pharmacokinetics, antibody molecular weight, antigen turnover rate, antigen expression level, and micrometastasis size on antibody penetration and retention. For example, a formula is provided for predicting the bolus dose necessary to accomplish tumor saturation as a function of antibody and tumor properties. Furthermore, this analysis indicates certain attributes necessary for an optimal tumor targeting agent.",
+        "doi": null,
+        "pmid": "12649189",
+        "venue": "Cancer Research",
+        "citedByCount": 220,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-7313652",
+        "title": "Internalization and intracellular processing of an anti B‐cell lymphoma monoclonal antibody, ll2",
+        "authors": [
+          "L. Shih",
+          "H. Lu",
+          "Hong Xuan",
+          "David M. Goldenberg"
+        ],
+        "year": 1994,
+        "abstract": "The successful clinical experience with antibody LL2 (an IgG2a, anti‐B‐cell lymphoma antibody) in radipimmunodetection and radioimmunotherapy suggests that this antibody may have potential as a carrier of cytotoxic agents. The internalization, cellular trafficking, and catabolism of this antibody in target human Burkitt lymphoma cells (Raji) were investigated. Internalization of intact antibody as well as of the F(ab')2 and Fab' fragments was detected by an FITC‐labeled anti‐mouse second antibody probe, and evaluated by fluorescence microscopy. Internalization of intact IgG (or the fragments) was observed as early as 5 min after incubation at 37°C. Initially, the internalized antibodies were present as micro‐particles inside the cell membrane, and were translocated to the lysosomal compartment within 2 hr. The anatomic location of the internalized antibody, before translocation to the lysosomal compartment, was deduced by comparing the fluorescence images obtained with the antibody to those obtained with fluorescent probes with known cellular distribution in a co‐internalization study. A Golgi‐like compartment was found to be involved in the translocation of the antibody. Cellular catabolism of the bound antibody was studied by using 125I‐labeled antibody on the target cells. At 21 h, 40% of the radioactivity was released into the supernatant as degraded fragments. The observation suggested that the antibody was degraded mainly in the lysosomes, since the degradation was significantly inhibited in the presence of lysosomal inhibitors such as ammonium chloride or leupeptin. Subcellular fractionation of Raji cells after the binding of 125I‐lbeled LL2 indicated that the antibody was translocated to lysosomes as evidenced by SDS‐PAGE. The rate of internalization (K) of LL2, and the re‐expression of the antigen were determined. The rapid Internalization of LL2 and the reexpression of the antigen suggest that this antibody may have potential as a therapeutic immunoconjugate, since it could deliver a higher accumulation of cytotoxic agents into lymphoma cells.",
+        "doi": "10.1002/ijc.2910560413",
+        "pmid": "8112889",
+        "venue": "International Journal of Cancer",
+        "citedByCount": 82,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-287153850",
+        "title": "Abstract 6934: Integrated evaluation of payload-, Fc-, and target-mediated mechanisms of ADCs using streamlined complementary platforms",
+        "authors": [
+          "Alpana Prasad",
+          "Surekha Bonasu",
+          "Radhika Venkatnarayanan",
+          "Jennifer Lin-Jones",
+          "Jane E. Lamerdin",
+          "Gaurav Agrawal",
+          "Ly Nguyen",
+          "J. D. de León",
+          "Venkatesh Chari"
+        ],
+        "year": 2026,
+        "abstract": "This study demonstrates an integrated approach for comprehensive characterization of antibody-drug conjugates (ADCs) using complementary bioanalytical platforms. The objective was to evaluate target binding, internalization, and both payload- and Fc-mediated cytotoxic mechanisms to generate a holistic understanding of ADC mode of action.ADC binding affinity and kinetic parameters were characterized by surface plasmon resonance microscopy (SPRm) to assess cell-surface receptor engagement. Internalization was measured in engineered tumor cell lines expressing relevant antigens (e.g., BCMA, CD33) using enzyme-fragment complementation (EFC)-based PathHunter® internalization assays. Functional cytotoxicity was quantified using the KILR® Cytotoxicity platform, providing direct readouts of target-cell death. Fc-effector functions, including antibody-dependent cellular cytotoxicity (ADCC) and phagocytosis (ADCP), were evaluated using effector cell models to distinguish immune-mediated from payload-driven mechanisms.Here we show characterization data for 2 different ADCs which demonstrated high-affinity binding by SPRm and efficient internalization by PathHunter assays. In KILR assays, the ADC produced a concentration-dependent cytotoxic response distinct from its unconjugated parental antibody. Comparative analysis revealed that payload-mediated killing dominated overall cytotoxicity, while measurable ADCC and ADCP activities reflected retained Fc function. Integration of biophysical and cell-based results provided mechanistic resolution of ADC function at multiple levels. Combining SPRm, PathHunter internalization assays, and KILR cytotoxicity enables comprehensive ADC characterization encompassing binding, uptake, and multi-mechanistic cytotoxicity. This integrated workflow supports discovery, optimization, and lot-release testing by linking molecular properties to functional outcomes, enhancing mechanistic understanding critical for ADC development.\n\nAlpana Prasad, Surekha Bonasu, Radhika Venkatnarayanan, Jennifer Lin-Jones, Jane E. Lamerdin, Gaurav Agrawal, Nguyen Ly, Jesus A. Diaz de Leon, Venkatesh Chari. Integrated evaluation of payload-, Fc-, and target-mediated mechanisms of ADCs using streamlined complementary platforms [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 6934.",
+        "doi": "10.1158/1538-7445.am2026-6934",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-248974561",
+        "title": "SLC46A3 is a lysosomal proton-coupled steroid conjugate and bile acid transporter involved in transport of active catabolites of T-DM1",
+        "authors": [
+          "R. Tomabechi",
+          "Hisanao Kishimoto",
+          "Taeka Sato",
+          "Naoki Saito",
+          "Keisuke Kiyomiya",
+          "T. Takada",
+          "K. Higuchi",
+          "Y. Shirasaka",
+          "Katsuhisa Inoue"
+        ],
+        "year": 2022,
+        "abstract": "Abstract Antibody–drug conjugates (ADCs) represent a new class of cancer therapeutics that enable targeted delivery of cytotoxic drugs to cancer cells. Although clinical efficacy has been demonstrated for ADC therapies, resistance to these conjugates may occur. Recently, SLC46A3, a lysosomal membrane protein, was revealed to regulate the efficacy of trastuzumab emtansine (T-DM1), a noncleavable ADC that has been widely used for treating breast cancer. However, the role of SLC46A3 in mediating T-DM1 cytotoxicity remains unclear. In this study, we discovered the function of SLC46A3 as a novel proton-coupled steroid conjugate and bile acid transporter. SLC46A3 preferentially recognized lipophilic steroid conjugates and bile acids as endogenous substrates. In addition, we found that SLC46A3 directly transports Lys-SMCC-DM1, a major catabolite of T-DM1, and potent SLC46A3 inhibitors attenuate the cytotoxic effects of T-DM1, suggesting a role in the escape of Lys-SMCC-DM1 from the lysosome into the cytoplasm. Our findings reveal the molecular mechanism by which T-DM1 kills cancer cells and may contribute to the rational development of ADCs that target SLC46A3.",
+        "doi": "10.1093/pnasnexus/pgac063",
+        "pmid": "36741448",
+        "venue": "PNAS Nexus",
+        "citedByCount": 35,
+        "urls": [
+          "https://academic.oup.com/pnasnexus/article-pdf/1/3/pgac063/45025537/pgac063.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://academic.oup.com/pnasnexus/article-pdf/1/3/pgac063/45025537/pgac063.pdf"
+      },
+      {
+        "elicitId": "ss-92466187",
+        "title": "Abstract A138: Loss of the lysosomal transporter SLC46A3 is a mechanism for innate and acquired resistance to non-cleavable maytansine and pyrrolobenzodiazepine-based antibody-drug conjugates",
+        "authors": [
+          "Krista Kinneer",
+          "John H Meekin",
+          "Sandrina S. Phipps",
+          "Binyam Z Bezabeh",
+          "Ryan L. Fleming",
+          "C. Kiefer",
+          "M. Rebelatto",
+          "N. Dimasi",
+          "M. Wick",
+          "A. Moriarty",
+          "Megan Groves",
+          "R. Herbst",
+          "A. Tiberghien",
+          "Luke A. Masterson",
+          "P. Howard",
+          "D. Tice"
+        ],
+        "year": 2018,
+        "abstract": "Antibody-drug conjugates (ADCs) combine a monoclonal antibody with a potent cytotoxic drug to preferentially eliminate antigen-positive cells for the treatment of cancer. ADCs bearing non-cleavable warheads such as the pyrrolobenzodiazepine (PBD) SG3376 rely upon lysosomal degradation of the antibody for release of the cytotoxic warhead. Here we sought to identify the mechanism of lysosomal membrane transport following release of these membrane-insoluble warheads. We used a multiplexed RT-PCR screen to compare the expression of 43 lysosomal membrane-specific genes in cell lines with inherent sensitivity or resistance to various SG3376-based ADCs. We discovered that only the expression of SLC46A3 correlated with sensitivity to the ADCs. Functional validation through gene knockout or forced gene expression in vitro revealed that loss or gain of SLC46A3 altered the potency of SG3376- and DM1-ADCs but had no effect on ADCs carrying the non-cleavable warhead MMAF or the cleavable PBD payload SG3249. To explore a role in acquired resistance, we interrogated trastuzumab-DM1 (T-DM1) sensitive and resistant cell line pairs and found that resistant lines had lost expression of SLC46A3. Sensitivity to both SG3376- and DM1-ADCs was restored upon reintroduction of SLC46A3. Furthermore, we examined a patient-derived xenograft (PDX) breast cancer model of acquired T-DM1 resistance and found that expression of SLC46A3 was decreased by 92% compared to the parental, T-DM1 sensitive model. Taken together, our results establish SLC46A3 as a transporter of both SG3376 and DM1 catabolites from the lysosome, and suggest that SLC46A3 may be a predictive response marker for ADCs bearing these non-cleavable warheads. Citation Format: Krista Kinneer, John Meekin, Sandrina Phipps, Binyam Bezabeh, Ryan Fleming, Christine Kiefer, Marlon Rebelatto, Nazzareno Dimasi, Michael J. Wick, Alyssa Moriarty, Megan Groves, Ronald Herbst, Arnaud Tiberghien, Luke Masterson, Philip Howard, David Tice. Loss of the lysosomal transporter SLC46A3 is a mechanism for innate and acquired resistance to non-cleavable maytansine and pyrrolobenzodiazepine-based antibody-drug conjugates [abstract]. In: Proceedings of the AACR-NCI-EORTC International Conference: Molecular Targets and Cancer Therapeutics; 2017 Oct 26-30; Philadelphia, PA. Philadelphia (PA): AACR; Mol Cancer Ther 2018;17(1 Suppl):Abstract nr A138.",
+        "doi": "10.1158/1535-7163.TARG-17-A138",
+        "pmid": null,
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-287178260",
+        "title": "Abstract 1326: PRISM AIR: A high-throughput platform for functional validation of ADC targets and antibody candidate prioritization.",
+        "authors": [
+          "Jillian N. Eskra",
+          "Alvin Kalathungal",
+          "Aydin Golabi",
+          "Bailey Porter",
+          "Ursula Widocki",
+          "A. B. George",
+          "Mustafa Kocak",
+          "Melissa M. Ronan",
+          "M. Rees",
+          "Jennifer A. Roth"
+        ],
+        "year": 2026,
+        "abstract": "The development of antibody-drug conjugates (ADCs) remains a resource-intensive process, often hampered by the lack of scalable, early functional assays for validating new tumor targets and prioritizing candidate antibodies with therapeutic potential. To address this technological innovation gap, we developed PRISM AIR (Antibody Internalization Reporter), an assay designed to facilitate discovery of novel cell surface targets and accelerate development of ADCs through integration of large-scale functional cell viability screening with comprehensive molecular data. PRISM AIR utilizes a universal secondary Fab-MMAF conjugate targeting the Fc domain of primary human IgGs. By coupling a secondary drug conjugate with a primary antibody, we hypothesized that we could achieve selective drug delivery mimicking the mechanism of an ADC. This approach would enable early functional screening of candidate antibodies without the need for resource-intensive conjugation of individual antibodies. We screened a panel of antibody and ADC test agents across the entire PRISM cell set of 957 genomically characterized cancer cell lines, validating the platform against several targets including HER2, TROP2, tissue factor and transferrin receptor. Results showed consistent potent, target-selective killing that correlated with antigen expression and analogous conventional ADC efficacy, confirming the assay’s ability to functionally prioritize lead candidates. Integration of viability data with comprehensive baseline genomic and perturbational profiles allowed us to disentangle antibody versus linker and payload activity and identify predictive biomarkers. Notably, comparative profiling of AIR against ADCs with distinct payloads revealed differential activity, identifying GPX2 and AKR1C3 as resistance biomarkers specific to deruxtecan versus MMAF. We also identified the lysosomal transporter SLC46A3 as a critical sensitivity biomarker for non-cleavable linkers, a role previously unreported for MMAF conjugates. In conclusion, PRISM AIR represents a significant technological innovation for the antibody field. It is a robust, high-throughput platform that empowers researchers to identify novel ADC targets, prioritize lead candidates based on optimal internalization and functional cytotoxicity, and discover biomarkers predictive of response or resistance. By enabling these critical assessments early in the discovery pipeline, this next-gen tool for ADC development has the potential to significantly streamline the translation of new cancer immunotherapies from bench to clinic.\n\nJillian Eskra, Alvin Kalathungal, Aydin Golabi, Bailey Porter, Ursula Widocki, Ashish Bino George, Mustafa Kocak, Melissa Ronan, Matthew Rees, Jennifer Roth. PRISM AIR: A high-throughput platform for functional validation of ADC targets and antibody candidate prioritization [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2026; Part 1 (Regular Abstracts); 2026 Apr 17-22; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2026;86(7 Suppl):Abstract nr 1326.",
+        "doi": "10.1158/1538-7445.am2026-1326",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-52056882",
+        "title": "SLC46A3 as a Potential Predictive Biomarker for Antibody–Drug Conjugates Bearing Noncleavable Linked Maytansinoid and Pyrrolobenzodiazepine Warheads",
+        "authors": [
+          "Krista Kinneer",
+          "John H Meekin",
+          "A. Tiberghien",
+          "Yu-Tzu Tai",
+          "Sandrina S. Phipps",
+          "C. Kiefer",
+          "M. Rebelatto",
+          "N. Dimasi",
+          "A. Moriarty",
+          "K. Papadopoulos",
+          "S. Sridhar",
+          "S. Gregson",
+          "M. Wick",
+          "Luke A. Masterson",
+          "K. Anderson",
+          "R. Herbst",
+          "P. Howard",
+          "D. Tice"
+        ],
+        "year": 2018,
+        "abstract": "Purpose: Antibody–drug conjugates (ADC) utilizing noncleavable linker drugs have been approved for clinical use, and several are in development targeting solid and hematologic malignancies including multiple myeloma. Currently, there are no reliable biomarkers of activity for these ADCs other than presence of the targeted antigen. We observed that certain cell lines are innately resistant to such ADCs, and sought to uncover the underlying mechanism of resistance. Experimental Design: The expression of 43 lysosomal membrane target genes was evaluated in cell lines resistant to ADCs bearing the noncleavable linker, pyrrolobenzodiazepine payload SG3376, in vitro. The functional relevance of SLC46A3, a lysosomal transporter of noncleavable ADC catabolites whose expression uniquely correlated with SG3376 resistance, was assessed using EPHA2-, HER2-, and BCMA-targeted ADCs and isogenic cells overexpressing or genetically inactivated for SLC46A3. SLC46A3 expression was also examined in patient-derived xenograft and in vitro models of acquired T-DM1 resistance and multiple myeloma bone marrow samples by RT-PCR. Results: Loss of SLC46A3 expression was found to be a mechanism of innate and acquired resistance to ADCs bearing DM1 and SG3376. Sensitivity was restored in refractory lines upon introduction of SLC46A3, suggesting that expression of SLC46A3 may be more predictive of activity than target antigen levels alone. Interrogation of primary multiple myeloma samples indicated a range of SLC46A3 expression, including samples with undetectable levels like multiple myeloma cell lines resistant to BCMA-targeting DM1 and SG3376 ADCs. Conclusions: Our findings support SLC46A3 as a potential patient selection biomarker with immediate relevance to clinical trials involving these ADCs.",
+        "doi": "10.1158/1078-0432.CCR-18-1300",
+        "pmid": "30131388",
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 78,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-237410893",
+        "title": "Analyze impact of tumor-associated kinetics on antibody delivery in solid tumors with a physiologically based pharmacokinetics/pharmacodynamics model.",
+        "authors": [
+          "Jun Wang",
+          "C. Giragossian",
+          "S. Hansel"
+        ],
+        "year": 2021,
+        "abstract": null,
+        "doi": "10.1016/j.ejpb.2021.08.019",
+        "pmid": "34478854",
+        "venue": "European journal of pharmaceutics and biopharmaceutics",
+        "citedByCount": 8,
+        "urls": [
+          "https://www.sciencedirect.com/science/article/pii/S0939641121002319/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.sciencedirect.com/science/article/pii/S0939641121002319/pdf"
+      },
+      {
+        "elicitId": "ss-254150673",
+        "title": "Identification of 5-Carboxyfluorescein as a Probe Substrate of SLC46A3 and Its Application in a Fluorescence-Based In Vitro Assay Evaluating the Interaction with SLC46A3.",
+        "authors": [
+          "R. Tomabechi",
+          "Miki Miyasato",
+          "Taeka Sato",
+          "T. Takada",
+          "K. Higuchi",
+          "Hisanao Kishimoto",
+          "Y. Shirasaka",
+          "Katsuhisa Inoue"
+        ],
+        "year": 2022,
+        "abstract": "The therapeutic modalities that involve the endocytosis pathway, including antibody-drug conjugates (ADCs), have recently been developed. Since the drug escape from endosomes/lysosomes is a determinant of their efficacy, it is important to optimize the escape, and the cellular evaluation system is needed. SLC46A3, a lysosomal membrane protein, has been implicated in the pharmacological efficacy of trastuzumab emtansine (T-DM1), a noncleavable ADC used for the treatment of breast cancer, and the cellular uptake efficacy of lipid-based nanoparticles. Recently, we identified the SLC46A3 function as a proton-coupled steroid conjugate and bile acid transporter, which can directly transport active catabolites of T-DM1. Thus, the rapid and convenient assay systems for evaluating the SLC46A3 function may help to facilitate ADC development and to clarify the physiological roles in endocytosis. Here, we show that SLC46A3 dC, which localizes to the plasma membrane owing to lacking a lysosomal-sorting motif, has a great ability to transport 5-carboxyfluorescein (5-CF), a fluorescent probe, in a pH-dependent manner. 5-CF uptake mediated by SLC46A3 was significantly inhibited by compounds reported to be SLC46A3 substrates/inhibitors and competitively inhibited by estrone 3-sulfate, a typical SLC46A3 substrate. The inhibition assays followed by uptake studies revealed that SG3199, a pyrrolobenzodiazepine dimer, which has been used as an ADC payload, is a substrate of SLC46A3. Accordingly, the fluorescence-based assay system for the SLC46A3 function using 5-CF can provide a valuable tool to evaluate the interaction of drugs/drug candidates with SLC46A3.",
+        "doi": "10.1021/acs.molpharmaceut.2c00741",
+        "pmid": "36458938",
+        "venue": "Molecular Pharmaceutics",
+        "citedByCount": 8,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-42734831",
+        "title": "Selecting an optimal antibody for antibody-drug conjugate therapy: internalization and intracellular localization.",
+        "authors": [
+          "Jay Harper",
+          "Shen-Lan Mao",
+          "P. Strout",
+          "A. Kamal"
+        ],
+        "year": 2013,
+        "abstract": "Antibody-drug conjugates (ADCs) combine the selectivity of a monoclonal antibody with the killing potency of a cytotoxic drug. For an antibody to function as a successful component of an ADC, it needs to bind to the target antigen on the surface of tumor cells and then be internalized by the cell. Following internalization, the ADC has to be transported to the lysosome where subsequent intracellular processing of the ADC will release the biologically active drug to exert its cytotoxic effects on tumor cells. This chapter describes some of the techniques that are currently used to determine internalization and proper intracellular trafficking of antibodies in order to select an optimal antibody for ADC therapeutics.",
+        "doi": "10.1007/978-1-62703-541-5_3",
+        "pmid": "23913140",
+        "venue": "Methods in molecular biology",
+        "citedByCount": 30,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 4,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-8438748",
+        "title": "Internalization, Trafficking, Intracellular Processing and Actions of Antibody-Drug Conjugates",
+        "authors": [
+          "Shi Xu"
+        ],
+        "year": 2015,
+        "abstract": "PURPOSE\n\nThis review discusses the molecular mechanism involved in the targeting and delivery of antibody-drug conjugates (ADCs), the new class of biopharmaceuticals mainly designed for targeted cancer therapy.\n\nMETHODS\n\nthis review goes over major progress in preclinical and clinical studies of ADCs, in the past 5 years.\n\nRESULTS\n\nThe pharmacokinetics and pharmacodynamics of ADCs involve multiple mechanisms, including internalization of ADCs by target cells, intracellular trafficking, release of conjugated drugs, and payload.\n\nCONCLUSION\n\nThese mechanisms actually jointly determine the efficacy of ADCs. Therefore, the optimization of ADCs should take them as necessary rationales.",
+        "doi": "10.1007/s11095-015-1729-8",
+        "pmid": "26108878",
+        "venue": "Pharmaceutical Research",
+        "citedByCount": 75,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-212549526",
+        "title": "A paired-agent fluorescent molecular imaging strategy for quantifying antibody drug target engagement in in vivo window chamber xenograft models",
+        "authors": [
+          "Elif Kayaalp-Nalbant",
+          "Cody C. Rounds",
+          "Negar Sadeghipour",
+          "Bo-Yu Meng",
+          "M. Folaron",
+          "Chandrika Haldar",
+          "Rendall R. Strawbridge",
+          "K. Samkoe",
+          "S. Davis",
+          "K. Tichauer"
+        ],
+        "year": 2020,
+        "abstract": "A paired-agent fluorescent molecular imaging strategy is presented as a method to measure drug target engagement in whole tumor imaging. The protocol involves dynamic imaging of a pair of targeted and control imaging agents prior to and following antibody therapy. Simulations demonstrated that antibody “drug target engagement” can be estimated within a 15%-error over a wide range of tumor physiology (blood flow, vascular permeability, target density) and antibody characteristics (affinity, binding rates). Experimental results demonstrated the first in vivo detection of binding site barrier, highlighting the potential for this methodology to provide novel insights in drug distribution/binding imaging.",
+        "doi": "10.1117/12.2545182",
+        "pmid": "34183872",
+        "venue": "BiOS",
+        "citedByCount": 1,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8236091"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8236091"
+      },
+      {
+        "elicitId": "ss-268640587",
+        "title": "Abstract 492: Investigating solute carrier SLC46A3 to enhance nanotherapeutic delivery for cancer",
+        "authors": [
+          "Julianna Kenny-Serrano",
+          "Elizabeth B Nelson",
+          "Gil Covarrubias",
+          "Namita Nabar",
+          "Joelle P. Straehla",
+          "Aanchal Gupta",
+          "Natalie Boehnke",
+          "P. Hammond"
+        ],
+        "year": 2024,
+        "abstract": "BACKGROUND: Nanoparticle therapeutics have multifaceted potential to improve efficacy and decrease toxicity of cancer treatments. Nanotherapeutics can encapsulate a range of cargos and have tunable surface chemistry that can enhance drug delivery to tumors. Cellular features also play a role in successful drug delivery, and predictive biomarkers may improve patient selection for clinical trials. In previous work, we identified SLC46A3, a poorly characterized lysosomal solute carrier, as a strong negative regulator of lipid-based nanoparticle uptake across many cancer models. We hypothesize that the expression of SLC46A3 will act as a predictive biomarker for therapeutic nanoparticles.\n\nMETHODS: To test this hypothesis, we used two engineered model systems to probe the relationship between SLC46A3 expression and therapeutic response: lentiviral overexpression in a natively low-expressing melanoma model and genetic deactivation in a natively high-expressing breast cancer model. A library of FDA-approved and experimental therapeutic nanoparticles were screened in both models under a range of conditions. Liposomal formulations of chemotherapeutics were included with high and low surface functionalization of polyethylene glycol to investigate the impact of this ubiquitous ‘stealth’ polymer on our biomarker of interest. Solid lipid nanoparticles with nucleic acid cargo were also included. Orthogonal methods were used to probe these interactions and the therapeutic efficacy of nanotherapeutics, including pulsed dosing viability assays and label-free live-cell imaging.\n\nRESULTS: We found that SLC46A3 expression is a class-specific biomarker of lipid-based nanoparticle uptake and is predictive of distinctive patterns of response to therapy-loaded nanoparticles in both formulation and time-dependent manners. Additionally, we present a new technology for long-term, live cell imaging of nanoparticle uptake and trafficking that can discriminate mechanisms of cytotoxicity, accelerating the study of nano-bio interactions. These findings highlight a promising approach for the functional validation of nanoparticle-specific biomarkers using clinically relevant formulations that have the potential for rapid repurposing.\n\nCitation Format: Julianna Kenny-Serrano, Elizabeth B. Nelson, Gil Covarrubias, Namita Nabar, Joelle Straehla, Aanchal Gupta, Natalie Boehnke, Paula Hammond. Investigating solute carrier SLC46A3 to enhance nanotherapeutic delivery for cancer [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2024; Part 1 (Regular Abstracts); 2024 Apr 5-10; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2024;84(6_Suppl):Abstract nr 492.",
+        "doi": "10.1158/1538-7445.am2024-492",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-210195368",
+        "title": "Antibody Coadministration as a Strategy to Overcome Binding-Site Barrier for ADCs: a Quantitative Investigation",
+        "authors": [
+          "Aman P. Singh",
+          "Lei-Ming Guo",
+          "A. Verma",
+          "G. Wong",
+          "G. Thurber",
+          "D. Shah"
+        ],
+        "year": 2020,
+        "abstract": "It has been proposed that the binding-site barrier (BSB) for antibody-drug conjugates (ADCs) can be overcome with the help of antibody coadministration. However, broad utility of this strategy remains in question. Consequently, here, we have conducted in vivo experiments and pharmacokinetics-pharmacodynamics (PK-PD) modeling and simulation (M&S) to further evaluate the antibody coadministration hypothesis in a quantitative manner. Two different Trastuzumab-based ADCs, T-DM1 (no bystander effect) and T-vc-MMAE (with a bystander effect), were evaluated in high-HER2 (N87) and low-HER2 (MDA-MB-453) expressing tumors, with or without the coadministration of 1, 3, or 8-fold higher Trastuzumab. The tumor growth inhibition (TGI) data was quantitatively characterized using a semi-mechanistic PK-PD model to determine the nature of drug interaction for each coadministration regimen, by estimating the interaction parameter ψ. It was found that the coadministration strategy improved ADC efficacy under certain conditions and had no impact on ADC efficacy in others. The benefit was more pronounced for N87 tumors with very high antigen expression levels where the effect on treatment was synergistic (a synergistic drug interaction, ψ = 2.86 [2.6–3.12]). The benefit was diminished in tumor with lower antigen expression (MDA-MB-453) and payload with bystander effect. Under these conditions, the coadministration regimens resulted in an additive or even less than additive benefit (ψ ≤ 1). As such, our results suggest that while antibody coadministration may be helpful for ADCs in certain circumstances, one should not broadly apply this strategy to all the scenarios without first identifying the costs and benefits of this approach.",
+        "doi": "10.1208/s12248-019-0387-x",
+        "pmid": "31938899",
+        "venue": "AAPS Journal",
+        "citedByCount": 64,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8382310"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8382310"
+      },
+      {
+        "elicitId": "ss-30818894",
+        "title": "Internalization of blocking antibodies against mannose‐6‐phosphate specific receptors.",
+        "authors": [
+          "C. Gartung",
+          "T. Braulke",
+          "A. Hasilik",
+          "K. von Figura"
+        ],
+        "year": 1985,
+        "abstract": "Antibodies against mannose‐6‐phosphate specific receptors inhibit the receptor‐dependent endocytosis of exogenous lysosomal enzymes as well as the sorting of endogenous lysosomal enzymes. This inhibition was correlated with an apparent loss of the receptors. We report here that treatment of cells with the antibody results in the formation of receptor‐antibody complexes that are not extracted by the procedure used for the solubilization of receptors prior to immunoprecipitation and detection of the receptor. The apparent loss of receptors is observed with both native antibody and the F(ab)2 fragments, but not with Fab fragments. In contrast the transport of lysosomal enzymes is inhibited by all three forms of the antibody. The inhibition is ascribed to masking by the antibody of the enzyme‐binding site in the receptor. The inhibition of the sorting of endogenous lysosomal enzymes by antibodies added to the medium indicates that the mannose‐6‐phosphate specific receptors at the sorting site are in dynamic equilibrium with those at the cell surface. The receptor‐antibody complexes formed at the cell surface appear to cycle between the cell surface and intracellular membranes. A fraction of the internalized antibodies dissociates from the receptors and is degraded after transfer into lysosomes. Complexing with Fab increases the concentration of the receptor in the lysosomes and decreases 2‐ to 3‐fold the half‐life of the receptor.",
+        "doi": "10.1002/j.1460-2075.1985.tb03842.x",
+        "pmid": "3161725",
+        "venue": "EMBO Journal",
+        "citedByCount": 49,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/j.1460-2075.1985.tb03842.x"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/j.1460-2075.1985.tb03842.x"
+      },
+      {
+        "elicitId": "ss-220580983",
+        "title": "Improving Receptor-Mediated Intracellular Access and Accumulation of Antibody Therapeutics—The Tale of HER2",
+        "authors": [
+          "Jeffrey V. Leyton"
+        ],
+        "year": 2020,
+        "abstract": "Therapeutic anti-HER2 antibodies and antibody–drug conjugates (ADCs) have undoubtedly benefitted patients. Nonetheless, patients ultimately relapse—some sooner than others. Currently approved anti-HER2 drugs are expensive and their cost-effectiveness is debated. There is increased awareness that internalization and lysosomal processing including subsequent payload intracellular accumulation and retention for ADCs are critical therapeutic attributes. Although HER2 preferential overexpression on the surface of tumor cells is attractive, its poor internalization and trafficking to lysosomes has been linked to poor therapeutic outcomes. To help address such issues, this review will comprehensively detail the most relevant findings on internalization and cellular accumulation for approved and investigational anti-HER2 antibodies and ADCs. The improved clarity of the HER2 system could improve antibody and ADC designs and approaches for next-generation anti-HER2 and other receptor targeting agents.",
+        "doi": "10.3390/antib9030032",
+        "pmid": "32668710",
+        "venue": "Antibodies",
+        "citedByCount": 26,
+        "urls": [
+          "https://www.mdpi.com/2073-4468/9/3/32/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.mdpi.com/2073-4468/9/3/32/pdf"
+      }
+    ],
+    "warnings": []
+  }
+}

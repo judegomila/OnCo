@@ -225,4 +225,10 @@ export const simpleS: Record<string, string> = {
   "israel-cancer-association": "The Israel Cancer Association is a charity that runs on donations and started both of Israel's national cancer screening programmes.",
   "iscort": "ISCORT is the small Israeli society of doctors who treat cancer without surgery. Each year it ranks the new cancer drugs for the committee that decides what the state will pay for.",
   "compugen": "Compugen is an Israeli company that predicts new immune brakes on a computer first and only then tests them in the laboratory. That is how it found PVRIG.",
+
+"cancer-drivers-vs-actionable": "A DNA finding needs evidence for a particular treatment decision. A match to a gene or to another cancer is not enough on its own.",
+"detection-versus-quantification": "A test may find a signal before it can measure the amount reliably. Its limits belong to the stated method and sample conditions.",
+"prognostic-versus-predictive-biomarkers": "A marker can describe the likely outcome or help identify a difference in treatment benefit. Those are different questions and need different comparisons.",
+"confounding-by-indication": "People may receive different care because their health differs. Those starting differences can also affect the outcome.",
+"biomarker-cutpoint-selection": "The line used to call a result positive needs its own evidence. A line chosen because it looked best in one set of results needs testing beyond those same results."
 };

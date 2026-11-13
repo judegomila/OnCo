@@ -1,0 +1,176 @@
+{
+  "new": [
+    {
+      "id": "measurement-to-benefit-evidence",
+      "name": "Evidence from measurement to patient benefit",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "antigen-expression-and-response",
+      "name": "Antigen expression and treatment response",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "binding-site-barrier",
+      "name": "Binding-site barrier in tumor delivery",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "antibody-internalization-trafficking",
+      "name": "Antibody internalization and intracellular trafficking",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "lysosomal-payload-egress",
+      "name": "Lysosomal payload transport",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "drug-target-engagement",
+      "name": "Drug target engagement",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "experimental-versus-clinical-exposure",
+      "name": "Experimental and clinical drug exposure",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers",
+      "name": "Prognostic and predictive biomarkers",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "functional-variant-evidence",
+      "name": "Functional evidence for a sequence variant",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy",
+      "name": "Blood-cell variants in liquid biopsy",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "ctdna-shedding-negative-results",
+      "name": "Tumor DNA shedding and negative plasma results",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "detection-versus-quantification",
+      "name": "Detection and quantification limits",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "finite-molecule-sampling",
+      "name": "Finite-molecule sampling in blood tests",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "tumor-informed-assay-design",
+      "name": "Tumor-informed and tumor-naive assay design",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "biomarker-qualification-context",
+      "name": "Biomarker qualification and context of use",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "test-agreement-versus-accuracy",
+      "name": "Test agreement and diagnostic accuracy",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "growth-rate-inhibition",
+      "name": "Growth-rate correction in drug-response assays",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "cytostasis-versus-cell-death",
+      "name": "Growth arrest, cell number and cell death",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "on-target-drug-validation",
+      "name": "On-target validation of drug effects",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "crispr-copy-number-artifact",
+      "name": "Copy-number artifacts in gene-dependency screens",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "model-context-of-use",
+      "name": "Context of use for a tumor model",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "confounding-by-indication",
+      "name": "Confounding by indication",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "immortal-time-bias",
+      "name": "Immortal time bias",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "target-trial-emulation",
+      "name": "Target-trial emulation",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "competing-risks",
+      "name": "Competing events and cumulative incidence",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "trial-population-transportability",
+      "name": "Transporting trial evidence to another population",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "biomarker-cutpoint-selection",
+      "name": "Biomarker cutoff selection and validation",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "decision-curve-net-benefit",
+      "name": "Decision curves and net benefit",
+      "source": "src/data/evidence-bridges.ts"
+    },
+    {
+      "id": "inconclusive-and-negative-evidence",
+      "name": "Inconclusive results and evidence against an effect",
+      "source": "src/data/evidence-bridges.ts"
+    }
+  ],
+  "augmented": [
+    {
+      "id": "biomarker",
+      "name": "Biomarker",
+      "source": "src/data/terms-basics.ts"
+    },
+    {
+      "id": "drug-response-sensitivity",
+      "name": "Drug response and drug sensitivity (IC50, AUC)",
+      "source": "src/data/terms-cansim-oncology.ts"
+    },
+    {
+      "id": "cancer-drivers-vs-actionable",
+      "name": "Actionable genomic biomarkers",
+      "source": "src/data/terms-cansim-oncology.ts"
+    },
+    {
+      "id": "analytical-vs-clinical-validation",
+      "name": "Analytical versus clinical validation",
+      "source": "src/data/terms-cansim-oncology.ts"
+    },
+    {
+      "id": "external-validation",
+      "name": "External validation",
+      "source": "src/data/terms-cansim-methods.ts"
+    }
+  ]
+}

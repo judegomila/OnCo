@@ -1,0 +1,367 @@
+{
+  "checkedOn": "2026-11-08",
+  "baseline": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "scope": "Authored research and retained raw search/official-page captures; no credentials. Selected full-text sources have metadata only.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 9795,
+      "sha256": "eb074d42df0eab227239e39386c2f6a607fda30421777c459ba5cd1421144665"
+    },
+    {
+      "path": "build-blocker.json",
+      "bytes": 531,
+      "sha256": "d03d0fdd486a5f1d476f62e4f29dd7fc714b8d0f1ce2eee5c78e66fd56a47a83"
+    },
+    {
+      "path": "curriculum-crosswalk.json",
+      "bytes": 15008,
+      "sha256": "77e2eeb5c82915ea5fd18c5df2db21f0e6ada1809e282ffd11c406e6336601fb"
+    },
+    {
+      "path": "curriculum-crosswalk.md",
+      "bytes": 8968,
+      "sha256": "4ac9eca2c12fc91f582fa45d364e2eb0d9452a2c5a483f4cf4dbd810d8c118a0"
+    },
+    {
+      "path": "elicit/delivery.json",
+      "bytes": 48182,
+      "sha256": "504aed7de9cb7c3b70ec6dd4d92aaed84436ac55388ce52abbf9cb6ee79b1304"
+    },
+    {
+      "path": "elicit/evidence-interpretation.json",
+      "bytes": 32178,
+      "sha256": "e163f0532f5b8e8762dd5929a1e09e44a77650239f4dff640f4fdfbcb9e4c8ed"
+    },
+    {
+      "path": "elicit/functional-models.json",
+      "bytes": 49711,
+      "sha256": "a0bb4d8e4ce6bb00c6c262b4a0ca65ccc54662668b8f2b8653a19420634a085a"
+    },
+    {
+      "path": "elicit/measurement.json",
+      "bytes": 48198,
+      "sha256": "4e32f92317ee83b638d173d6475435acd51541c39d4ee326c9e1ac05c69a4123"
+    },
+    {
+      "path": "elicit-dispositions.json",
+      "bytes": 42742,
+      "sha256": "346f0037552ecdc83cab598959f5959970af7038231ba0668e6705b917e74e77"
+    },
+    {
+      "path": "fulltext-verification.json",
+      "bytes": 2277,
+      "sha256": "107167517e95d8c2861e03fe56538b27ab56c755ed8a0b936283d0570aab71a6"
+    },
+    {
+      "path": "identifier-dispositions.json",
+      "bytes": 25131,
+      "sha256": "0db24f3f03da0e25c098cfca0d0390288b0594e7ce0e4cc28299e7dd27500154"
+    },
+    {
+      "path": "primary/absence-classic.json",
+      "bytes": 3449,
+      "sha256": "0235ff259eefae093481c4c10a0cc5b128379967eab5133b46d25528f1709235"
+    },
+    {
+      "path": "primary/absence-method.json",
+      "bytes": 5794,
+      "sha256": "83ccccd9fd83ae1a181b8854d61c36a22919fd38526099ca4b5504b4d9458a3e"
+    },
+    {
+      "path": "primary/absence.json",
+      "bytes": 21633,
+      "sha256": "9f18fb37e46da53076f6ebd0da4317d65b1a1f9f4093194d81979de90456108c"
+    },
+    {
+      "path": "primary/actionability.json",
+      "bytes": 13779,
+      "sha256": "ac3b912851929d5c1191cfe7893658ed7bf9e66a8f1ea0a6c5f5da475cd8f0aa"
+    },
+    {
+      "path": "primary/atp-assay.json",
+      "bytes": 6403,
+      "sha256": "552299b209e9b212b574eca811c939a2bf00c2e2305d5596a5c99c031a4dbcd7"
+    },
+    {
+      "path": "primary/binding-barrier-adc.json",
+      "bytes": 9308,
+      "sha256": "83bd593c805453f74e12343953fd22156b6fddab0bcb537ef84a7ffdcc88b378"
+    },
+    {
+      "path": "primary/binding-barrier-experiment.json",
+      "bytes": 7589,
+      "sha256": "71519ce231a33c403e2c32fdd45274bc8030d26b0317d6b9d500fdb5b8af6b04"
+    },
+    {
+      "path": "primary/binding-barrier.json",
+      "bytes": 209,
+      "sha256": "9acf249a089b9a18129c0df62b4930b23af9550c7f193c265c366c5993b6d568"
+    },
+    {
+      "path": "primary/capture-manifest.json",
+      "bytes": 27797,
+      "sha256": "4ce7f828c6b96d09fbd250160ee5c6e26745a489b23028c140926c84e89c9bec"
+    },
+    {
+      "path": "primary/clinical-utility.json",
+      "bytes": 93731,
+      "sha256": "b3ca7cb81e853a0a78705c896d435527b07d3a24644659b4b24dabd6ca253505"
+    },
+    {
+      "path": "primary/competing-method.json",
+      "bytes": 5233,
+      "sha256": "9280ee05352c6334457f92a061ddaa73040ab004d708abbc6a23e05f072f4516"
+    },
+    {
+      "path": "primary/competing-risks-crossref.json",
+      "bytes": 6985,
+      "sha256": "54d6f5f92d855810905de3b49aa0b821ec2f3577655cde46e3c378f35bbecfd8"
+    },
+    {
+      "path": "primary/competing-risks.json",
+      "bytes": 244,
+      "sha256": "bc020634f23a8e0fc83707122687759560b45782dcd2b05725f7c80d337c6016"
+    },
+    {
+      "path": "primary/confounding-breast.json",
+      "bytes": 7112,
+      "sha256": "b6edc0b5a32a701937ce0c207efe27c9b8599359e83d3ac0acc30f876f2e4c8f"
+    },
+    {
+      "path": "primary/confounding.json",
+      "bytes": 15215,
+      "sha256": "c737f0db2122d656761ca5af73014d72e6b4a257049f4b775d046bb4d8e83284"
+    },
+    {
+      "path": "primary/crispr-artifacts.json",
+      "bytes": 16670,
+      "sha256": "70f164fcfeaacea806dfef7ae119b931241121d24cd0cef41228faedd3429e22"
+    },
+    {
+      "path": "primary/crispr-correction.json",
+      "bytes": 20853,
+      "sha256": "6e9e93e88bdcf433518bc530e085e166326bc56a213d5658a218a63a217dc803"
+    },
+    {
+      "path": "primary/crispr-offtarget.json",
+      "bytes": 7208,
+      "sha256": "8bb11e11510b79145b6d20e8227d2a772159ae2eca9fc3b0fdfb81cdc43b4a76"
+    },
+    {
+      "path": "primary/ctdna-origin.json",
+      "bytes": 20070,
+      "sha256": "61dba56baab93aac511b404021cb15328d024b5d396c0854c896064336a7904d"
+    },
+    {
+      "path": "primary/ctdna-sampling.json",
+      "bytes": 18473,
+      "sha256": "ba4ef9b8ceb5c6f604d2e99cb813bf5f15d2202f19a735c219ac44820e5b114d"
+    },
+    {
+      "path": "primary/ctdna-shedding-med.json",
+      "bytes": 15917,
+      "sha256": "fed0457aafebe4c465f84d51f3480932d808398bfe624f7da9376c6a3cee47fe"
+    },
+    {
+      "path": "primary/ctdna-shedding.json",
+      "bytes": 20478,
+      "sha256": "9f505b9922d3deac22d79f24fbd969b36bfe84d4233e217c8f57d5360e63bb99"
+    },
+    {
+      "path": "primary/cutoff-finder.json",
+      "bytes": 6969,
+      "sha256": "888bfa3a21f12f1bc70c8d0d0585824de9e70022b2395505487ee6d8b630247f"
+    },
+    {
+      "path": "primary/cutpoint-doi.json",
+      "bytes": 3509,
+      "sha256": "b27e8c19059b8c0ebf8d4a1c77354b59639534187e9d7bad9c9cd63402b34dcf"
+    },
+    {
+      "path": "primary/cutpoint-full-crossref.json",
+      "bytes": 2268,
+      "sha256": "a88ccca7848a411698c860fe30349178f80548c0ee8fe7e1a0adcdfff2aed0df"
+    },
+    {
+      "path": "primary/cutpoint.json",
+      "bytes": 5854,
+      "sha256": "4e1bedb71cc2df5435addd46cd8165c8e24cb91155ab24a0374449e35c6111bf"
+    },
+    {
+      "path": "primary/cytostasis.json",
+      "bytes": 8947,
+      "sha256": "35c6bf34490720a9adef81dad440208bfa7b595ece23a7b5d325618d88a68195"
+    },
+    {
+      "path": "primary/decision-curve.json",
+      "bytes": 6101,
+      "sha256": "8f27aff2f24d24bdbfb1b9faa362feae2beffe82ed4b34bdf7fea48cfe64c54b"
+    },
+    {
+      "path": "primary/detection-method.json",
+      "bytes": 4921,
+      "sha256": "988e45bcb57d22780d2448180833f93b889e410dd878da9c389e56ecf11e069a"
+    },
+    {
+      "path": "primary/discovery-manifest.json",
+      "bytes": 11518,
+      "sha256": "9e30acb47ad4ba27503d54cf24687f3550c55e12b0307c01f53ee6095154a161"
+    },
+    {
+      "path": "primary/dmiqe.json",
+      "bytes": 10351,
+      "sha256": "5a2e3d7314a0e6494bc69e32754ac05ad7eedae12979f94a83a52af7301ec7c6"
+    },
+    {
+      "path": "primary/engagement-indirect.json",
+      "bytes": 8452,
+      "sha256": "1e948b70986da3ba14874e5a41b5e768528aeadd7316775df2d251876dddbe20"
+    },
+    {
+      "path": "primary/engagement.json",
+      "bytes": 6590,
+      "sha256": "5130c5d165d3ad68ee233bfc51192f43a3aa55558e4f902f762f5cd2f8018eda"
+    },
+    {
+      "path": "primary/exposure.json",
+      "bytes": 5915,
+      "sha256": "b4ecbd1877d625fe7bd4d8ac45e7ad98ffe457332c42dffaad44c0085a68b6bd"
+    },
+    {
+      "path": "primary/expression-response.json",
+      "bytes": 17393,
+      "sha256": "0647220e681a18210cf6735f714ecb811bebe847a5e3f63d7d7a62c30af8bb21"
+    },
+    {
+      "path": "primary/extra-discovery-manifest.json",
+      "bytes": 4735,
+      "sha256": "2f22e314220f76382a4b55d6df5c74953839558f4585beb5337d38828e01a703"
+    },
+    {
+      "path": "primary/fda-biomarkers.html.gz",
+      "bytes": 10742,
+      "sha256": "64530a77d2f408411bb4e839c01baba6b44c1428a95f9d9947d8184479141d69"
+    },
+    {
+      "path": "primary/fda-companion.html.gz",
+      "bytes": 10007,
+      "sha256": "9f6534b9fdd89e063b0e751e6a51cdd3a62d44fa8384dcf353a8b8f26d96cd2d"
+    },
+    {
+      "path": "primary/fda-diagnostic-statistics.html.gz",
+      "bytes": 33164,
+      "sha256": "30b82e5ceb5e8477560baa58e2ae31759c0de78d5f74a0ed92a2eab6281ff450"
+    },
+    {
+      "path": "primary/fda-q2r2-verification.json",
+      "bytes": 526,
+      "sha256": "f874ae37ff76885c64ae4833ccaa001bfe712dd0b916bec1c406b72a630aa89d"
+    },
+    {
+      "path": "primary/functional-variant.json",
+      "bytes": 21135,
+      "sha256": "d8431dfa2bbe5ae2efc045356ab6b7d2da2d3320cd54e7b270161e5637ce254f"
+    },
+    {
+      "path": "primary/gdsc-resource.json",
+      "bytes": 7242,
+      "sha256": "86499057e35d41bda9885a4316dd3a7b2f23bc962666fc1d494524c4e07bf006"
+    },
+    {
+      "path": "primary/generalizing.json",
+      "bytes": 6239,
+      "sha256": "ecf0d5d3a7cf9b3bd5e085e1b64aa7d2fb9ae44940455cfd700cc0d165b93a5c"
+    },
+    {
+      "path": "primary/genetic-controls.json",
+      "bytes": 11032,
+      "sha256": "4c9cef3e5cc1b4bb51ad6bfd978e7614615b100dc46bf09d39128d22341b4039"
+    },
+    {
+      "path": "primary/growth-rate.json",
+      "bytes": 7205,
+      "sha256": "3681f9749960a12999a9882906c63f7d762a670b118f3aa1002b249ed362ba11"
+    },
+    {
+      "path": "primary/immortal-time.json",
+      "bytes": 5252,
+      "sha256": "727648e7cf2fb57f153da19996ae111a6413f6068ca91d20e0ac273a9d794204"
+    },
+    {
+      "path": "primary/lysosomal-egress.json",
+      "bytes": 9252,
+      "sha256": "72b900b54366d03270dd495d0d087ea41e3c0c46d7ab203e9e80b2a513920ab0"
+    },
+    {
+      "path": "primary/model-context.json",
+      "bytes": 19327,
+      "sha256": "18ec4edc45cc87e5d01a4f281b46c083979b6ac11357ddc4e58a887d7db328a6"
+    },
+    {
+      "path": "primary/molecular-counting.json",
+      "bytes": 13792,
+      "sha256": "af0631f72183be3e6606e981c24356dc5d29eb53b333c3726a4108547645c68f"
+    },
+    {
+      "path": "primary/official-manifest.json",
+      "bytes": 1841,
+      "sha256": "68ad0a5601f00fd152b8b0d9a02bb4bbf262bd71d56766e78c92d2b20df1ef73"
+    },
+    {
+      "path": "primary/prediction-validation.json",
+      "bytes": 32655,
+      "sha256": "ed660c1e027e258f9e077b18dd59e144d03151b81111734285715aac8812c7cf"
+    },
+    {
+      "path": "primary/processing.json",
+      "bytes": 7848,
+      "sha256": "bd38c79fcbc518e0fe6d941bada76c7738c697b6bead8c21b998320c563b808f"
+    },
+    {
+      "path": "primary/prognostic-predictive.json",
+      "bytes": 4546,
+      "sha256": "d124614bc07c0e6e8eff7fa6d04bc0b03d17a61cf01c412c60dba741c014415b"
+    },
+    {
+      "path": "primary/target-trial.json",
+      "bytes": 6368,
+      "sha256": "d38b88bfb21e676eaf4a1250762dd722be02a9216093b07e94ccfe5da2458eec"
+    },
+    {
+      "path": "primary/viability-orthogonal.json",
+      "bytes": 218,
+      "sha256": "e9832e08fbff464f242c9b4194be55fc066e0f492ad5049fb8b9c314d8558ad8"
+    },
+    {
+      "path": "record-inventory.json",
+      "bytes": 5404,
+      "sha256": "20e41adfb173a283328ee5f11097d714de2ec0e9362a2c23eb2c4c6a937c2894"
+    },
+    {
+      "path": "render-review.json",
+      "bytes": 9654,
+      "sha256": "71acbcc90329f05b6bb9a26c9f7ca2e17f81d79894f41723be851952da3cd939"
+    },
+    {
+      "path": "schema-observations.md",
+      "bytes": 3159,
+      "sha256": "ff3a79bd76a2b8be95c05d33cd07f9aee12339e70c96435d9bac56eb90acd68d"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 24392,
+      "sha256": "a0ccc7f0ab545d9f346941b259bb22b7ebd653b27e20edb69c117ecdbc3858a0"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 12104,
+      "sha256": "1df7268d78f8e9059e74daf78e2954c61c6da792bfd1b183c81507fa0843481a"
+    },
+    {
+      "path": "validation.md",
+      "bytes": 3525,
+      "sha256": "1b4f7042d6b2dedff94082f6ae70124060ce83ed4a9f513025c7f6acb84f97da"
+    }
+  ]
+}

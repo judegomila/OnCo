@@ -1,0 +1,595 @@
+{
+  "checkedOn": "2026-11-08",
+  "sources": [
+    {
+      "doi": "10.1016/j.cell.2018.11.021",
+      "pmid": "30550791",
+      "title": "Organoid Modeling of the Tumor Immune Microenvironment.",
+      "year": "2018",
+      "url": "https://doi.org/10.1016/j.cell.2018.11.021",
+      "europePmc": "https://europepmc.org/article/MED/30550791",
+      "evidenceType": "Primary tumor organoid experiments",
+      "scope": "Defined immune-preserving model capabilities; no universal clinical prediction claim.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "model-context-of-use"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/model-context.json"
+      ]
+    },
+    {
+      "doi": "10.1016/j.jclinepi.2009.03.001",
+      "pmid": "19457638",
+      "title": "A most stubborn bias: no adjustment method fully resolves confounding by indication in observational studies.",
+      "year": "2010",
+      "url": "https://doi.org/10.1016/j.jclinepi.2009.03.001",
+      "europePmc": "https://europepmc.org/article/MED/19457638",
+      "evidenceType": "Primary observational breast cancer analysis",
+      "scope": "Treatment-selection confounding and limits of adjustment in this study; not a claim that every adjustment method always fails.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "confounding-by-indication"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/confounding-breast.json"
+      ]
+    },
+    {
+      "doi": "10.1038/bjc.2014.639",
+      "pmid": "25562432",
+      "title": "Transparent reporting of a multivariable prediction model for individual prognosis or diagnosis (TRIPOD): the TRIPOD statement.",
+      "year": "2015",
+      "url": "https://doi.org/10.1038/bjc.2014.639",
+      "europePmc": "https://europepmc.org/article/MED/25562432",
+      "evidenceType": "Primary reporting-guideline development",
+      "scope": "Original TRIPOD statement defines internal and external model validation; transparent reporting is not certification.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "external-validation"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/prediction-validation.json"
+      ]
+    },
+    {
+      "doi": "10.1038/nbt.3520",
+      "pmid": "27018799",
+      "title": "Integrated digital error suppression for improved detection of circulating tumor DNA.",
+      "year": "2016",
+      "url": "https://doi.org/10.1038/nbt.3520",
+      "europePmc": "https://europepmc.org/article/MED/27018799",
+      "evidenceType": "Primary assay-development study",
+      "scope": "Molecular recovery and background error suppression in a defined workflow; no universal detection limit.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "ctdna-shedding-negative-results",
+        "finite-molecule-sampling"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/molecular-counting.json"
+      ]
+    },
+    {
+      "doi": "10.1038/ng.3984",
+      "pmid": "29083409",
+      "title": "Computational correction of copy number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells.",
+      "year": "2017",
+      "url": "https://doi.org/10.1038/ng.3984",
+      "europePmc": "https://europepmc.org/article/MED/29083409",
+      "evidenceType": "Primary computational method evaluated on screens",
+      "scope": "CERES models copy-number effects; correction does not certify a drug mechanism.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "crispr-copy-number-artifact"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/crispr-correction.json"
+      ]
+    },
+    {
+      "doi": "10.1038/nmeth.3852",
+      "pmid": "27135974",
+      "title": "An unbiased metric of antiproliferative drug effect in vitro.",
+      "year": "2016",
+      "url": "https://doi.org/10.1038/nmeth.3852",
+      "europePmc": "https://europepmc.org/article/MED/27135974",
+      "evidenceType": "Primary experimental drug-response method",
+      "scope": "DIP rate addresses timing of antiproliferative measurements; endpoint viability does not inherently mean cell death.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "cytostasis-versus-cell-death"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/cytostasis.json"
+      ]
+    },
+    {
+      "doi": "10.1038/nmeth.3853",
+      "pmid": "27135972",
+      "title": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs.",
+      "year": "2016",
+      "url": "https://doi.org/10.1038/nmeth.3853",
+      "europePmc": "https://europepmc.org/article/MED/27135972",
+      "evidenceType": "Primary experimental assay-method study",
+      "scope": "Cell-division rate affects conventional drug-response metrics; GR measures remain experimental readouts.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "growth-rate-inhibition",
+        "drug-response-sensitivity"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/growth-rate.json"
+      ]
+    },
+    {
+      "doi": "10.1038/s41591-019-0652-7",
+      "pmid": "31768066",
+      "title": "High-intensity sequencing reveals the sources of plasma circulating cell-free DNA variants.",
+      "year": "2019",
+      "url": "https://doi.org/10.1038/s41591-019-0652-7",
+      "europePmc": "https://europepmc.org/article/MED/31768066",
+      "evidenceType": "Matched plasma, white-blood-cell and tumor sequencing",
+      "scope": "Somatic plasma variants may originate in blood cells; gene identity alone does not establish origin.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "blood-cell-variants-liquid-biopsy"
+      ],
+      "existingPaperRecord": "paper-razavi-cfdna-variant-sources-clonal-haematopoiesis-nat-med-2019",
+      "rawCaptures": [
+        "primary/ctdna-origin.json"
+      ]
+    },
+    {
+      "doi": "10.1038/s41591-023-02478-2",
+      "pmid": "37488289",
+      "title": "Trastuzumab deruxtecan in metastatic breast cancer with variable HER2 expression: the phase 2 DAISY trial.",
+      "year": "2023",
+      "url": "https://doi.org/10.1038/s41591-023-02478-2",
+      "europePmc": "https://europepmc.org/article/MED/37488289",
+      "evidenceType": "Single-arm phase 2 clinical study",
+      "scope": "DAISY expression cohorts are exploratory clinical evidence, without a randomized comparison or universal cutoff.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "antigen-expression-and-response"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/expression-response.json"
+      ]
+    },
+    {
+      "doi": "10.1056/nejmoa2200075",
+      "pmid": "35657320",
+      "title": "Circulating Tumor DNA Analysis Guiding Adjuvant Therapy in Stage II Colon Cancer.",
+      "year": "2022",
+      "url": "https://doi.org/10.1056/nejmoa2200075",
+      "europePmc": "https://europepmc.org/article/MED/35657320",
+      "evidenceType": "Randomized clinical management-strategy trial",
+      "scope": "DYNAMIC stage II colon cancer example used for design only; no numerical efficacy claim or extension to every MRD assay.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "analytical-vs-clinical-validation"
+      ],
+      "existingPaperRecord": "paper-dynamic-nejm-2022",
+      "rawCaptures": [
+        "primary/clinical-utility.json"
+      ]
+    },
+    {
+      "doi": "10.1093/aje/kwm324",
+      "pmid": "18056625",
+      "title": "Immortal time bias in pharmaco-epidemiology.",
+      "year": "2008",
+      "url": "https://doi.org/10.1093/aje/kwm324",
+      "europePmc": "https://europepmc.org/article/MED/18056625",
+      "evidenceType": "Primary methodological analysis with lung cancer illustration",
+      "scope": "Exposure classification and survival time alignment can create bias.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "immortal-time-bias"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/immortal-time.json"
+      ]
+    },
+    {
+      "doi": "10.1093/aje/kwv254",
+      "pmid": "26994063",
+      "title": "Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available.",
+      "year": "2016",
+      "url": "https://doi.org/10.1093/aje/kwv254",
+      "europePmc": "https://europepmc.org/article/MED/26994063",
+      "evidenceType": "Resolved publication",
+      "scope": "Read abstract; no numerical extraction.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "immortal-time-bias",
+        "target-trial-emulation"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/target-trial.json"
+      ]
+    },
+    {
+      "doi": "10.1093/annonc/mdy263",
+      "pmid": "30137196",
+      "title": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+      "year": "2018",
+      "url": "https://doi.org/10.1093/annonc/mdy263",
+      "europePmc": "https://europepmc.org/article/MED/30137196",
+      "evidenceType": "Primary consensus actionability framework",
+      "scope": "ESCAT ranks target evidence; evidence tier does not establish individual access or eligibility.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "measurement-to-benefit-evidence",
+        "functional-variant-evidence",
+        "cancer-drivers-vs-actionable"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/actionability.json"
+      ]
+    },
+    {
+      "doi": "10.1093/ije/dyr213",
+      "pmid": "22253319",
+      "title": "Competing risks in epidemiology: possibilities and pitfalls.",
+      "year": "2012",
+      "url": "https://doi.org/10.1093/ije/dyr213",
+      "europePmc": "https://europepmc.org/article/MED/22253319",
+      "evidenceType": "Methodological review with transplantation illustration",
+      "scope": "Cause-specific hazards and cumulative incidence answer different questions; not a treatment efficacy trial.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "competing-risks"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/competing-method.json"
+      ]
+    },
+    {
+      "doi": "10.1093/nar/gks1111",
+      "pmid": "23180760",
+      "title": "Genomics of Drug Sensitivity in Cancer (GDSC): a resource for therapeutic biomarker discovery in cancer cells.",
+      "year": "2013",
+      "url": "https://doi.org/10.1093/nar/gks1111",
+      "europePmc": "https://europepmc.org/article/MED/23180760",
+      "evidenceType": "Original drug-sensitivity resource publication",
+      "scope": "Existing GDSC citation retained; original abstract rechecked without copying historical dataset counts into a current record.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "drug-response-sensitivity"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/gdsc-resource.json"
+      ]
+    },
+    {
+      "doi": "10.1111/j.1467-985x.2010.00673.x",
+      "pmid": "24926156",
+      "title": "The use of propensity scores to assess the generalizability of results from randomized trials.",
+      "year": "2001",
+      "url": "https://doi.org/10.1111/j.1467-985x.2010.00673.x",
+      "europePmc": "https://europepmc.org/article/MED/24926156",
+      "evidenceType": "Primary generalizability methodology, non-oncology example",
+      "scope": "Participation propensity approach with a school-prevention worked example; not validated oncology matching.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "trial-population-transportability"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/generalizing.json"
+      ]
+    },
+    {
+      "doi": "10.1126/science.1233606",
+      "pmid": "23828940",
+      "title": "Monitoring drug target engagement in cells and tissues using the cellular thermal shift assay.",
+      "year": "2013",
+      "url": "https://doi.org/10.1126/science.1233606",
+      "europePmc": "https://europepmc.org/article/MED/23828940",
+      "evidenceType": "Primary assay-method experiments",
+      "scope": "CETSA measures drug-associated thermal stability as engagement evidence; engagement alone is not dependency or clinical benefit.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "measurement-to-benefit-evidence",
+        "drug-target-engagement"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/engagement.json"
+      ]
+    },
+    {
+      "doi": "10.1126/scitranslmed.3007094",
+      "pmid": "24553385",
+      "title": "Detection of circulating tumor DNA in early- and late-stage human malignancies.",
+      "year": "2014",
+      "url": "https://doi.org/10.1126/scitranslmed.3007094",
+      "europePmc": "https://europepmc.org/article/MED/24553385",
+      "evidenceType": "Primary clinical specimen study",
+      "scope": "ctDNA detectability varies by disease context; no universal negative-test exclusion rule.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "ctdna-shedding-negative-results"
+      ],
+      "existingPaperRecord": "paper-bettegowda-ctdna-early-late-stage-stm-2014",
+      "rawCaptures": [
+        "primary/ctdna-shedding-med.json",
+        "primary/ctdna-shedding.json"
+      ]
+    },
+    {
+      "doi": "10.1126/scitranslmed.aaw8412",
+      "pmid": "31511426",
+      "title": "Off-target toxicity is a common mechanism of action of cancer drugs undergoing clinical trials.",
+      "year": "2019",
+      "url": "https://doi.org/10.1126/scitranslmed.aaw8412",
+      "europePmc": "https://europepmc.org/article/MED/31511426",
+      "evidenceType": "Primary genetic and pharmacological experiments",
+      "scope": "Selected compounds retained activity after proposed target loss; no blanket estimate for all cancer drugs copied.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "drug-target-engagement",
+        "on-target-drug-validation"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/genetic-controls.json"
+      ]
+    },
+    {
+      "doi": "10.1158/0008-5472.can-15-1610",
+      "pmid": "26631267",
+      "title": "SLC46A3 Is Required to Transport Catabolites of Noncleavable Antibody Maytansine Conjugates from the Lysosome to the Cytoplasm.",
+      "year": "2015",
+      "url": "https://doi.org/10.1158/0008-5472.can-15-1610",
+      "europePmc": "https://europepmc.org/article/MED/26631267",
+      "evidenceType": "Cell-line mechanistic experiments",
+      "scope": "SLC46A3 dependence is specific to the tested noncleavable maytansine species; the tested MMAF constructs differed.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "lysosomal-payload-egress"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/lysosomal-egress.json"
+      ]
+    },
+    {
+      "doi": "10.1158/0008-5472.can-17-1638",
+      "pmid": "29217763",
+      "title": "Improved Tumor Penetration and Single-Cell Targeting of Antibody-Drug Conjugates Increases Anticancer Efficacy and Host Survival.",
+      "year": "2018",
+      "url": "https://doi.org/10.1158/0008-5472.can-17-1638",
+      "europePmc": "https://europepmc.org/article/MED/29217763",
+      "evidenceType": "Mouse xenograft experiments",
+      "scope": "Coadministration altered intratumoral distribution and efficacy in that model; no human dosing recommendation.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "binding-site-barrier"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/binding-barrier-adc.json"
+      ]
+    },
+    {
+      "doi": "10.1158/1078-0432.ccr-16-3083",
+      "pmid": "28364015",
+      "title": "Clinically Relevant Concentrations of Anticancer Drugs: A Guide for Nonclinical Studies.",
+      "year": "2017",
+      "url": "https://doi.org/10.1158/1078-0432.ccr-16-3083",
+      "europePmc": "https://europepmc.org/article/MED/28364015",
+      "evidenceType": "Clinical PK compilation from labels and publications",
+      "scope": "Nonclinical exposure comparison must consider measured species, protein binding and timing; no numerical dosing guidance.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "experimental-versus-clinical-exposure",
+        "drug-response-sensitivity"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/exposure.json"
+      ]
+    },
+    {
+      "doi": "10.1158/2159-8290.cd-16-0154",
+      "pmid": "27260156",
+      "title": "Genomic Copy Number Dictates a Gene-Independent Cell Response to CRISPR/Cas9 Targeting.",
+      "year": "2016",
+      "url": "https://doi.org/10.1158/2159-8290.cd-16-0154",
+      "europePmc": "https://europepmc.org/article/MED/27260156",
+      "evidenceType": "Primary cell-line CRISPR screening experiments",
+      "scope": "DNA cutting in amplified regions can cause gene-independent antiproliferative effects.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "crispr-copy-number-artifact"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/crispr-artifacts.json"
+      ]
+    },
+    {
+      "doi": "10.1177/0272989x06295361",
+      "pmid": "17099194",
+      "title": "Decision curve analysis: a novel method for evaluating prediction models.",
+      "year": "2006",
+      "url": "https://doi.org/10.1177/0272989x06295361",
+      "europePmc": "https://europepmc.org/article/MED/17099194",
+      "evidenceType": "Original decision-analysis method",
+      "scope": "Net benefit weighs decision consequences under assumptions; not a clinical impact trial.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "decision-curve-net-benefit"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/decision-curve.json"
+      ]
+    },
+    {
+      "doi": "10.1186/s13073-019-0690-2",
+      "pmid": "31892348",
+      "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+      "year": "2019",
+      "url": "https://doi.org/10.1186/s13073-019-0690-2",
+      "europePmc": "https://europepmc.org/article/MED/31892348",
+      "evidenceType": "ClinGen consensus recommendations",
+      "scope": "PS3/BS3 functional sequence-variant interpretation, not a somatic cancer-drug actionability rule.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "functional-variant-evidence",
+        "cancer-drivers-vs-actionable"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/functional-variant.json"
+      ]
+    },
+    {
+      "doi": "10.1200/jco.2015.63.3651",
+      "pmid": "26392104",
+      "title": "Biomarker: Predictive or Prognostic?",
+      "year": "2015",
+      "url": "https://doi.org/10.1200/jco.2015.63.3651",
+      "europePmc": "https://europepmc.org/article/MED/26392104",
+      "evidenceType": "Primary methodological commentary",
+      "scope": "Predictive evidence requires comparison of treatment effects and a biomarker interaction; not merely response association.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "prognostic-versus-predictive-biomarkers",
+        "biomarker"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/prognostic-predictive.json"
+      ]
+    },
+    {
+      "doi": "10.1208/s12248-016-9892-3",
+      "pmid": "26912181",
+      "title": "Determination of Cellular Processing Rates for a Trastuzumab-Maytansinoid Antibody-Drug Conjugate (ADC) Highlights Key Parameters for ADC Design.",
+      "year": "2016",
+      "url": "https://doi.org/10.1208/s12248-016-9892-3",
+      "europePmc": "https://europepmc.org/article/MED/26912181",
+      "evidenceType": "Cell-line kinetic experiments and modeling",
+      "scope": "Binding, uptake, degradation and payload movement are distinct processes in the studied trastuzumab-maytansinoid system.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "antigen-expression-and-response",
+        "antibody-internalization-trafficking"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/processing.json"
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0051862",
+      "pmid": "23251644",
+      "title": "Cutoff Finder: a comprehensive and straightforward Web application enabling rapid biomarker cutoff optimization.",
+      "year": "2012",
+      "url": "https://doi.org/10.1371/journal.pone.0051862",
+      "europePmc": "https://europepmc.org/article/MED/23251644",
+      "evidenceType": "Primary software-method study with breast cancer examples",
+      "scope": "Optimization is discovery; full-text discussion separates cutoff selection from predefined-cutoff validation.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "biomarker-cutpoint-selection"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/cutoff-finder.json"
+      ]
+    },
+    {
+      "doi": "10.1371/journal.pone.0063583",
+      "pmid": "23691072",
+      "title": "A simple high-content cell cycle assay reveals frequent discrepancies between cell number and ATP and MTS proliferation assays.",
+      "year": "2013",
+      "url": "https://doi.org/10.1371/journal.pone.0063583",
+      "europePmc": "https://europepmc.org/article/MED/23691072",
+      "evidenceType": "Primary high-content assay comparison",
+      "scope": "Cell counts and ATP/MTS readouts can diverge with drug mechanism and cell state.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "cytostasis-versus-cell-death",
+        "drug-response-sensitivity"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/atp-assay.json"
+      ]
+    },
+    {
+      "doi": "10.1373/clinchem.2003.029983",
+      "pmid": "14764644",
+      "title": "Partly nonparametric approach for determining the limit of detection.",
+      "year": "2004",
+      "url": "https://doi.org/10.1373/clinchem.2003.029983",
+      "europePmc": "https://europepmc.org/article/MED/14764644",
+      "evidenceType": "Primary statistical method with simulations",
+      "scope": "Detection-limit estimation depends on errors and background; not clinical sensitivity or a product certificate.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "detection-versus-quantification"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/detection-method.json"
+      ]
+    },
+    {
+      "doi": "10.15252/emmm.202216505",
+      "pmid": "37161793",
+      "title": "Comparison of tumor-informed and tumor-na\u00efve sequencing assays for ctDNA detection in breast cancer.",
+      "year": "2023",
+      "url": "https://doi.org/10.15252/emmm.202216505",
+      "europePmc": "https://europepmc.org/article/MED/37161793",
+      "evidenceType": "Primary matched-sample assay comparison",
+      "scope": "Tumor-informed and tumor-naive breast cancer assays differed under tested conditions; no ranking of all commercial assays.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "finite-molecule-sampling",
+        "tumor-informed-assay-design"
+      ],
+      "existingPaperRecord": "paper-santonja-tumour-informed-vs-naive-breast-embo-mol-med-2023",
+      "rawCaptures": [
+        "primary/ctdna-sampling.json"
+      ]
+    },
+    {
+      "doi": "10.7554/elife.92311",
+      "pmid": "38739437",
+      "title": "Replication of null results: Absence of evidence or evidence of absence?",
+      "year": "2024",
+      "url": "https://doi.org/10.7554/elife.92311",
+      "europePmc": "https://europepmc.org/article/MED/38739437",
+      "evidenceType": "Primary methodological analysis of replication projects",
+      "scope": "Includes cancer biology; nonsignificance is distinct from evidence of equivalence or absence.",
+      "abstractReadForThisChange": true,
+      "usedBy": [
+        "inconclusive-and-negative-evidence"
+      ],
+      "existingPaperRecord": null,
+      "rawCaptures": [
+        "primary/absence-method.json"
+      ]
+    }
+  ]
+}

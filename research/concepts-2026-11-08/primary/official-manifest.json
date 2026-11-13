@@ -1,0 +1,36 @@
+[
+  {
+    "id": "fda-biomarkers",
+    "url": "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification",
+    "file": "fda-biomarkers.html.gz",
+    "sha256": "2c3a276f0804abf5c26297bb43e0736fffe2db95946e61e9ee70a91674838413",
+    "retrievedAt": "2026-11-08T18:44:10.033709+00:00",
+    "encoding": "gzip",
+    "uncompressedBytes": 39581,
+    "storedSha256": "64530a77d2f408411bb4e839c01baba6b44c1428a95f9d9947d8184479141d69",
+    "hashDefinition": "sha256 hashes the exact decompressed HTTP response; storedSha256 hashes its gzip archive."
+  },
+  {
+    "id": "fda-diagnostic-statistics",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda",
+    "file": "fda-diagnostic-statistics.html.gz",
+    "sha256": "6f59a193cbfb1b6402b8b30a4be418d3f97f665f4c78d9fbe9c8d6d5c3662eec",
+    "retrievedAt": "2026-11-08T18:44:10.262517+00:00",
+    "encoding": "gzip",
+    "uncompressedBytes": 145270,
+    "storedSha256": "30b82e5ceb5e8477560baa58e2ae31759c0de78d5f74a0ed92a2eab6281ff450",
+    "hashDefinition": "sha256 hashes the exact decompressed HTTP response; storedSha256 hashes its gzip archive."
+  },
+  {
+    "id": "fda-companion",
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics",
+    "sha256": "cf6f0fa1df5766d01ca38bda4ac7838b5e1bb1d9e4b51cfa8454a0c930c1bd7c",
+    "size": 39841,
+    "file": "fda-companion.html.gz",
+    "retrievedAt": "2026-11-08T18:56:23.251551+00:00",
+    "encoding": "gzip",
+    "uncompressedBytes": 39841,
+    "storedSha256": "9f6534b9fdd89e063b0e751e6a51cdd3a62d44fa8384dcf353a8b8f26d96cd2d",
+    "hashDefinition": "sha256 hashes the exact decompressed HTTP response; storedSha256 hashes its gzip archive."
+  }
+]

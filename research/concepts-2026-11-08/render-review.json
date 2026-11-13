@@ -1,0 +1,344 @@
+{
+  "component": "src/components/EntityDetail.tsx",
+  "renderMethod": "ReactDOMServer.renderToStaticMarkup with Next AppRouterContext",
+  "scope": "Record body/source rendering, not complete static site or browser hydration",
+  "records": [
+    {
+      "id": "measurement-to-benefit-evidence",
+      "bytes": 23397,
+      "sourceUrls": [
+        "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification",
+        "https://doi.org/10.1126/science.1233606",
+        "https://doi.org/10.1093/annonc/mdy263"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "antigen-expression-and-response",
+      "bytes": 21712,
+      "sourceUrls": [
+        "https://doi.org/10.1038/s41591-023-02478-2",
+        "https://doi.org/10.1208/s12248-016-9892-3"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "binding-site-barrier",
+      "bytes": 20160,
+      "sourceUrls": [
+        "https://doi.org/10.1158/0008-5472.CAN-17-1638"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "antibody-internalization-trafficking",
+      "bytes": 19959,
+      "sourceUrls": [
+        "https://doi.org/10.1208/s12248-016-9892-3"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "lysosomal-payload-egress",
+      "bytes": 21170,
+      "sourceUrls": [
+        "https://doi.org/10.1158/0008-5472.CAN-15-1610"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "drug-target-engagement",
+      "bytes": 18005,
+      "sourceUrls": [
+        "https://doi.org/10.1126/science.1233606",
+        "https://doi.org/10.1126/scitranslmed.aaw8412"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "experimental-versus-clinical-exposure",
+      "bytes": 20001,
+      "sourceUrls": [
+        "https://doi.org/10.1158/1078-0432.CCR-16-3083"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "prognostic-versus-predictive-biomarkers",
+      "bytes": 20333,
+      "sourceUrls": [
+        "https://doi.org/10.1200/JCO.2015.63.3651",
+        "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "functional-variant-evidence",
+      "bytes": 14999,
+      "sourceUrls": [
+        "https://doi.org/10.1186/s13073-019-0690-2",
+        "https://doi.org/10.1093/annonc/mdy263"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "blood-cell-variants-liquid-biopsy",
+      "bytes": 21994,
+      "sourceUrls": [
+        "https://doi.org/10.1038/s41591-019-0652-7"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "ctdna-shedding-negative-results",
+      "bytes": 22189,
+      "sourceUrls": [
+        "https://doi.org/10.1126/scitranslmed.3007094",
+        "https://doi.org/10.1038/nbt.3520"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "detection-versus-quantification",
+      "bytes": 17632,
+      "sourceUrls": [
+        "https://www.fda.gov/media/161201/download",
+        "https://doi.org/10.1373/clinchem.2003.029983"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "finite-molecule-sampling",
+      "bytes": 15729,
+      "sourceUrls": [
+        "https://doi.org/10.1038/nbt.3520",
+        "https://doi.org/10.15252/emmm.202216505"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "tumor-informed-assay-design",
+      "bytes": 19991,
+      "sourceUrls": [
+        "https://doi.org/10.15252/emmm.202216505"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "biomarker-qualification-context",
+      "bytes": 19469,
+      "sourceUrls": [
+        "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "test-agreement-versus-accuracy",
+      "bytes": 19718,
+      "sourceUrls": [
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "growth-rate-inhibition",
+      "bytes": 15924,
+      "sourceUrls": [
+        "https://doi.org/10.1038/nmeth.3853"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cytostasis-versus-cell-death",
+      "bytes": 15783,
+      "sourceUrls": [
+        "https://doi.org/10.1371/journal.pone.0063583",
+        "https://doi.org/10.1038/nmeth.3852"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "on-target-drug-validation",
+      "bytes": 15973,
+      "sourceUrls": [
+        "https://doi.org/10.1126/scitranslmed.aaw8412"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "crispr-copy-number-artifact",
+      "bytes": 14594,
+      "sourceUrls": [
+        "https://doi.org/10.1158/2159-8290.CD-16-0154",
+        "https://doi.org/10.1038/ng.3984"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "model-context-of-use",
+      "bytes": 20511,
+      "sourceUrls": [
+        "https://doi.org/10.1016/j.cell.2018.11.021"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "confounding-by-indication",
+      "bytes": 14463,
+      "sourceUrls": [
+        "https://doi.org/10.1016/j.jclinepi.2009.03.001"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "immortal-time-bias",
+      "bytes": 13606,
+      "sourceUrls": [
+        "https://doi.org/10.1093/aje/kwm324",
+        "https://doi.org/10.1093/aje/kwv254"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "target-trial-emulation",
+      "bytes": 15141,
+      "sourceUrls": [
+        "https://doi.org/10.1093/aje/kwv254"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "competing-risks",
+      "bytes": 15510,
+      "sourceUrls": [
+        "https://doi.org/10.1093/ije/dyr213"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "trial-population-transportability",
+      "bytes": 17558,
+      "sourceUrls": [
+        "https://doi.org/10.1111/j.1467-985X.2010.00673.x"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "biomarker-cutpoint-selection",
+      "bytes": 20214,
+      "sourceUrls": [
+        "https://doi.org/10.1371/journal.pone.0051862",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "decision-curve-net-benefit",
+      "bytes": 19323,
+      "sourceUrls": [
+        "https://doi.org/10.1177/0272989X06295361"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "inconclusive-and-negative-evidence",
+      "bytes": 16873,
+      "sourceUrls": [
+        "https://doi.org/10.7554/eLife.92311"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "biomarker",
+      "bytes": 49401,
+      "sourceUrls": [
+        "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification",
+        "https://doi.org/10.1200/JCO.2015.63.3651",
+        "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "drug-response-sensitivity",
+      "bytes": 24786,
+      "sourceUrls": [
+        "https://doi.org/10.1093/nar/gks1111",
+        "https://doi.org/10.1038/nmeth.3853",
+        "https://doi.org/10.1371/journal.pone.0063583",
+        "https://doi.org/10.1158/1078-0432.CCR-16-3083",
+        "https://en.wikipedia.org/wiki/IC50"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "cancer-drivers-vs-actionable",
+      "bytes": 27154,
+      "sourceUrls": [
+        "https://doi.org/10.1093/annonc/mdy263",
+        "https://doi.org/10.1186/s13073-019-0690-2",
+        "https://en.wikipedia.org/wiki/Personalized_medicine"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "analytical-vs-clinical-validation",
+      "bytes": 25959,
+      "sourceUrls": [
+        "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda",
+        "https://doi.org/10.1056/NEJMoa2200075",
+        "https://en.wikipedia.org/wiki/Biomarker_(medicine)"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    },
+    {
+      "id": "external-validation",
+      "bytes": 24981,
+      "sourceUrls": [
+        "https://doi.org/10.1038/bjc.2014.639",
+        "https://en.wikipedia.org/wiki/External_validity"
+      ],
+      "missingSources": [],
+      "nestedAnchors": 0
+    }
+  ],
+  "manuallyReadRenderedText": [
+    "biomarker-qualification-context",
+    "test-agreement-versus-accuracy",
+    "growth-rate-inhibition",
+    "external-validation"
+  ]
+}

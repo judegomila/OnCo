@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T18:39:04.282Z",
+  "request": {
+    "query": "What primary studies distinguish target engagement from cancer dependency and clinical drug response, including growth-rate corrected drug sensitivity, ATP viability assay confounding, CRISPR copy-number artifacts, rescue experiments, and organoid microenvironment retention?",
+    "searchMode": "semantic",
+    "maxResults": 20,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-78135328",
+        "title": "Abstract P6-07-33: Metrics of drug sensitivity based on growth rate inhibition correct for the confounding effects of variable division rates",
+        "authors": [
+          "M. Hafner",
+          "M. Niepel",
+          "P. Sorger"
+        ],
+        "year": 2017,
+        "abstract": "Abstract Drug sensitivity and resistance are conventionally quantified by IC50 or Emax values, but these metrics suffer from a fundamental flaw when applied to growing cells: they are highly sensitive to the number of divisions that take place over the course of a response assay. Division rate varies with cell line, experimental conditions, and genetic alterations. The dependency of IC50 and Emax on division rate creates artefactual correlations between genotype and drug sensitivity while obscuring important biological insights and interfering with biomarker discovery. In this work, we derive alternative drug response metrics that are insensitive to number of divisions occurring during the assay. These are based on estimating growth rate inhibition (GR) in the presence of a drug using endpoint or time-course assays. The latter provides a direct measure of phenomena such as adaptive drug resistance. Using a simple model of drug response, we first show how GR50 and GRmax are superior to IC50 and Emax for assessing the effects of drugs in dividing cells. By expressing an oncogene in a transformed cell line, we illustrate how conventional metrics can lead to artefactual connections between mutations and drug sensitivity. We further validate the superiority of GR50 over IC50 values by reanalyzing a recently published large dataset of drug sensitivity and showing cases where difference in division rates is the only reason why IC50 values correlate with tissue type or genetic alterations. Using GR50 values prevents these artificial correlations and restores known connections between drug resistance and genomic markers. Finally, we show how GRmax values, which reflect efficacy, quantify differences in the phenotypic response and thus can be used to identify new biomarkers of sensitivity. Adopting GR metrics requires only modest changes in experimental protocols. GR values and metrics can be evaluated using scripts are available on github (www.github.com/sorgerlab/gr50_tools) or using an interactive website: www.grcalculator.org. We expect GR metrics to improve the use of drugs to identify response biomarkers, study mechanisms of cell signaling and growth, and identify drugs effective on specific patient-derived tumor cells.Drug sensitivity and resistance are conventionally quantified by IC50 or Emax values, but these metrics suffer from a fundamental flaw when applied to growing cells: they are highly sensitive to the number of divisions that take place over the course of a response assay. Division rate varies with cell line, experimental conditions, and genetic alterations. The dependency of IC50 and Emax on division rate creates artefactual correlations between genotype and drug sensitivity while obscuring important biological insights and interfering with biomarker discovery. In this work, we derive alternative drug response metrics that are insensitive to number of divisions occurring during the assay. These are based on estimating growth rate inhibition (GR) in the presence of a drug using endpoint or time-course assays. The latter provides a direct measure of phenomena such as adaptive drug resistance. Using a simple model of drug response, we first show how GR50 and GRmax are superior to IC50 and Emax for assessing the effects of drugs in dividing cells. By expressing an oncogene in a transformed cell line, we illustrate how conventional metrics can lead to artefactual connections between mutations and drug sensitivity. We further validate the superiority of GR50 over IC50 values by reanalyzing a recently published large dataset of drug sensitivity and showing cases where difference in division rates is the only reason why IC50 values correlate with tissue type or genetic alterations. Using GR50 values prevents these artificial correlations and restores known connections between drug resistance and genomic markers. Finally, we show how GRmax values, which reflect efficacy, quantify differences in the phenotypic response and thus can be used to identify new biomarkers of sensitivity. Adopting GR metrics requires only modest changes in experimental protocols. GR values and metrics can be evaluated using scripts are available on github (www.github.com/sorgerlab/gr50_tools) or using an interactive website: www.grcalculator.org. We expect GR metrics to improve the use of drugs to identify response biomarkers, study mechanisms of cell signaling and growth, and identify drugs effective on specific patient-derived tumor cells. Citation Format: Hafner M, Niepel M, Sorger PK. Metrics of drug sensitivity based on growth rate inhibition correct for the confounding effects of variable division rates [abstract]. In: Proceedings of the 2016 San Antonio Breast Cancer Symposium; 2016 Dec 6-10; San Antonio, TX. Philadelphia (PA): AACR; Cancer Res 2017;77(4 Suppl):Abstract nr P6-07-33.",
+        "doi": "10.1158/1538-7445.SABCS16-P6-07-33",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-6559552",
+        "title": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs",
+        "authors": [
+          "M. Hafner",
+          "M. Niepel",
+          "Mirra Chung",
+          "P. Sorger"
+        ],
+        "year": 2016,
+        "abstract": "Drug sensitivity and resistance are conventionally quantified by IC50 or Emax values, but these metrics are highly sensitive to the number of divisions taking place over the course of a response assay. The dependency of IC50 and Emax on division rate creates artefactual correlations between genotype and drug sensitivity, while obscuring valuable biological insights and interfering with biomarker discovery. We derive alternative small molecule drug-response metrics that are insensitive to division number. These are based on estimation of the magnitude of drug-induced growth rate inhibition (GR) using endpoint or time-course assays. We show that GR50 and GRmax are superior to conventional metrics for assessing the effects of small molecule drugs in dividing cells. Moreover, adopting GR metrics requires only modest changes in experimental protocols. We expect GR metrics to improve the study of cell signaling and growth using small molecules and biologics and to facilitate the discovery of drug-response biomarkers and the identification of drugs effective against specific patient-derived tumor cells.",
+        "doi": "10.1038/nmeth.3853",
+        "pmid": "27135972",
+        "venue": "Nature Methods",
+        "citedByCount": 611,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/4887336"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/4887336"
+      },
+      {
+        "elicitId": "ss-22220833",
+        "title": "Measuring Cancer Drug Sensitivity and Resistance in Cultured Cells",
+        "authors": [
+          "M. Niepel",
+          "M. Hafner",
+          "Mirra Chung",
+          "Peter K. Sorger"
+        ],
+        "year": 2017,
+        "abstract": "Measuring the potencies of small‐molecule drugs in cell lines is a critical aspect of preclinical pharmacology. Such experiments are also prototypical of high‐throughput experiments in multi‐well plates. The procedure is simple in principle, but many unrecognized factors can affect the results, potentially making data unreliable. The procedures for measuring drug response described here were developed by the NIH LINCS program to improve reproducibility. Key features include maximizing uniform cell growth during the assay period, accounting for the effects of cell density on response, and correcting sensitivity measures for differences in proliferation rates. Two related protocols are described: one involves an endpoint measure well‐suited to large‐scale studies and the second is a time‐dependent measurement that reveals changes in response over time. The methods can be adapted to other types of plate‐based experiments. © 2017 by John Wiley & Sons, Inc.",
+        "doi": "10.1002/cpch.21",
+        "pmid": "28628199",
+        "venue": "Current Protocols in Chemical Biology",
+        "citedByCount": 41,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/5538315"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/5538315"
+      },
+      {
+        "elicitId": "ss-234747268",
+        "title": "Medium-Throughput Drug- and Radiotherapy Screening Assay using Patient-Derived Organoids.",
+        "authors": [
+          "Marrit Putker",
+          "R. Millen",
+          "R. Overmeer",
+          "E. Driehuis",
+          "M. Zandvliet",
+          "H. Clevers",
+          "S. Boj",
+          "Qi-Xiang Li"
+        ],
+        "year": 2021,
+        "abstract": "Patient-derived organoid (PDO) models allow for long-term expansion and maintenance of primary epithelial cells grown in three dimensions and a near-native state. When derived from resected or biopsied tumor tissue, organoids closely recapitulate in vivo tumor morphology and can be used to study therapy response in vitro. Biobanks of tumor organoids reflect the vast variety of clinical tumors and patients and therefore hold great promise for preclinical and clinical applications. This paper presents a method for medium-throughput drug screening using head and neck squamous cell carcinoma and colorectal adenocarcinoma organoids. This approach can easily be adopted for use with any tissue-derived organoid model, both normal and diseased. Methods are described for in vitro exposure of organoids to chemo- and radiotherapy (either as single-treatment modality or in combination). Cell survival after 5 days of drug exposure is assessed by measuring adenosine triphosphate (ATP) levels. Drug sensitivity is measured by the half-maximal inhibitory concentration (IC50), area under the curve (AUC), and growth rate (GR) metrics. These parameters can provide insight into whether an organoid culture is deemed sensitive or resistant to a particular treatment.",
+        "doi": "10.3791/62495",
+        "pmid": "33999032",
+        "venue": "Journal of Visualized Experiments",
+        "citedByCount": 17,
+        "urls": [
+          "https://dspace.library.uu.nl/handle/1874/470277"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://dspace.library.uu.nl/handle/1874/470277"
+      },
+      {
+        "elicitId": "ss-210862618",
+        "title": "A normalized drug response metric improves accuracy and consistency of anticancer drug sensitivity quantification in cell-based screening",
+        "authors": [
+          "Abhishekh Gupta",
+          "Prson Gautam",
+          "K. Wennerberg",
+          "T. Aittokallio"
+        ],
+        "year": 2020,
+        "abstract": "Accurate quantification of drug effects is crucial for identifying pharmaceutically actionable cancer vulnerabilities. Current cell viability-based measurements often lead to biased response estimates due to varying growth rates and experimental artifacts that explain part of the inconsistency in high-throughput screening results. We developed an improved drug scoring model, normalized drug response (NDR), which makes use of both positive and negative control conditions to account for differences in cell growth rates, and experimental noise to better characterize drug-induced effects. We demonstrate an improved consistency and accuracy of NDR compared to existing metrics in assessing drug responses of cancer cells in various culture models and experimental setups. Notably, NDR reliably captures both toxicity and viability responses, and differentiates a wider spectrum of drug behavior, including lethal, growth-inhibitory and growth-stimulatory modes, based on a single viability readout. The method will therefore substantially reduce the time and resources required in cell-based drug sensitivity screening.",
+        "doi": "10.1038/s42003-020-0765-z",
+        "pmid": "31974521",
+        "venue": "Communications Biology",
+        "citedByCount": 31,
+        "urls": [
+          "https://www.nature.com/articles/s42003-020-0765-z.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s42003-020-0765-z.pdf"
+      },
+      {
+        "elicitId": "ss-89747400",
+        "title": "A normalized drug response metric improves accuracy and consistency of drug sensitivity quantification in cell-based screening",
+        "authors": [
+          "Abhishekh Gupta",
+          "Prson Gautam",
+          "K. Wennerberg",
+          "T. Aittokallio"
+        ],
+        "year": 2018,
+        "abstract": "Accurate and robust quantification of drug effects is crucial for identifying pharmaceutically actionable cancer vulnerabilities. Current cell viability-based measurements often lead to biased response estimates due to varying cell growth rates and experimental artifacts, including background noise and cell seeding discrepancies, that explain part of the inconsistency in high-throughput screening results. To address these limitations, we developed an improved drug scoring model, normalized drug response (NDR), which accounts for differences in cell growth rates and experimental noise, and considers both positive and negative control conditions to characterize drug-induced effects. We demonstrate an improved performance of NDR compared to existing metrics in assessing drug responses of cancer cells in various culture models. Notably, NDR reliably differentiates a wider spectrum of drug behavior, including lethal, growth-inhibitory and growth-stimulatory modes, based on a single viability readout. The method will therefore substantially reduce the time and resources required in cell-based drug sensitivity screening.",
+        "doi": "10.1101/262568",
+        "pmid": null,
+        "venue": "bioRxiv",
+        "citedByCount": 1,
+        "urls": [
+          "https://www.nature.com/articles/s42003-020-0765-z.pdf",
+          "https://www.biorxiv.org/content/biorxiv/early/2019/01/16/262568.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2019/01/16/262568.full.pdf"
+      },
+      {
+        "elicitId": "ss-89006966",
+        "title": "Abstract B184: A novel analytical approach to accurately assess in vitro responses to targeted therapeutics",
+        "authors": [
+          "M. Niepel",
+          "M. Hafner",
+          "P. Sorger"
+        ],
+        "year": 2015,
+        "abstract": "The measurement of drug dose-response is the cornerstone of pre-clinical assessments of novel therapeutics. High-throughput studies have attempted to identify intrinsic drivers of drug sensitivity by measuring the response of hundreds of cell lines to hundreds of drugs and it has been proposed to use the drug response of primary human tumor cells as a way to personalize therapy for individual patients. The commonly used metrics to parameterize drug response (IC50, Emax, or AUC) are based on assessing the cell count of a treated condition relative to an untreated control. Yet all of these metrics suffer from a fundamental flaw: Cell lines undergoing more divisions over the course of an assay—due to the length of the experiment or the division rate —are scored as more sensitive than cell lines with less divisions, even if their inherent drug sensitivities are identical. We developed and experimentally validated a new method to parameterize drug response, the growth rate inhibition (GR) metrics, which is based on the ratio of growth rates under treatment and untreated control conditions. The GR metrics are independent of cell growth over the course of the experiment and thus enable us to accurately compare cell lines with varying growth rates or experimental conditions, like genetic or micro-environment perturbations, which can alter growth rates. We use the GR metric to reanalyze a high throughput dataset of approximately 50 breast cancer cell lines that were treated with therapeutic inhibitors. We find that the GR50 clearly identifies ErbB2amp cells as being highly sensitive to ErbB2 inhibitors, a fact that is obscured by the classic IC50 metric due to the generally slower growth of ErbB2amp cell lines. For paclitaxel, the IC50suggests that the sensitivity of the cell lines spans a range of more than 100-fold and its value is correlated with the line division rate. Surprisingly, the GR50 shows that all breast cancer cell lines are about equally sensitive to paclitaxel, at a value consistent with the drug9s binding affinity to stabilized microtubules in vitro. It is rather the maximal response (GRmax) that distinguishes the response of the different lines. We also apply the GR metrics to study how drug sensitivities are affected by plating density, an often poorly controlled variable in drug response measurements. Previous reports suggest that at high density cells generally become more resistant to therapy, however, we find that this is often an artifact of the IC50 metric due to slowed growth at high confluence. Using the GR50, the emerging picture is more complex, with trends that are rarely uniform across cell lines or drugs. Correcting for differences in growth rates reveals that drug- or cell line-specific biological mechanisms drive density-dependent drug responses, for example through media conditioning effects or metabolic changes. Our work shows the importance of using a metric based on growth rates for any systematic comparison of drug sensitivity where speed of growth are not uniform for all compared cells. This includes high-throughput profiling of cell lines, but also the comparisons of patient-derived tumor and normal cells, or any system where cells are manipulated in ways that can affect their growth rates, like changing the microenvironment or genetically altering the cells. Citation Format: Mario Niepel, Marc Hafner, Peter K. Sorger. A novel analytical approach to accurately assess in vitro responses to targeted therapeutics. [abstract]. In: Proceedings of the AACR-NCI-EORTC International Conference: Molecular Targets and Cancer Therapeutics; 2015 Nov 5-9; Boston, MA. Philadelphia (PA): AACR; Mol Cancer Ther 2015;14(12 Suppl 2):Abstract nr B184.",
+        "doi": "10.1158/1535-7163.TARG-15-B184",
+        "pmid": null,
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-79843471",
+        "title": "Abstract 972: Improving pre-clinical cancer pharmacogenomics with novel drug sensitivity metrics based on growth rate inhibition",
+        "authors": [
+          "M. Hafner",
+          "M. Niepel",
+          "P. Sorger"
+        ],
+        "year": 2017,
+        "abstract": "Abstract Drug sensitivity in growing cells is conventionally quantified by IC50, AUC, or Emax values, but these metrics suffer from a fundamental flaw: they highly depend on the division rate of cell lines. This dependency creates artefactual correlations between genetic alterations and drug sensitivity which impede biomarker discovery. To address this issue, we recently developed novel drug response metrics insensitive to the number of divisions occurring during the assay. These are based on estimating growth rate inhibition (GR) under treatment using fixed assays. Here, we illustrate the flaws of using IC50 values for pharmacogenomic studies by reanalyzing a recently published large dataset of drug sensitivity and showing cases in which differences in division rates drive associations between IC50 values and tissue type or genetic alterations. Using GR50 values prevents these artificial correlations and restores known associations between drug resistance and genomic markers such as PTEN loss driving lapatinib resistance in breast cancer cell lines. We also show how use of GRmax values, a measure of drug efficacy, allows quantifying differences in the phenotypes and distinguishing cytostatic from cytotoxic response. For drugs that have a narrow range of GR50 values like taxanes, efficacy is the most relevant metric: in many ovarian BCL2-deleted cell lines, docetaxel induces a cytotoxic response (negative GRmax values), whereas wild-type lines elicit a cytostatic response (positive GRmax values). Because efficacy (GRmax) varies independently of potency (GR50), we conclude that both metrics are complementary for pharmacogenomics and should be studied jointly. Adopting GR metrics requires only modest changes in experimental protocols and analysis is facilitated by our interactive website: GRcalculator.org. We expect GR metrics to improve the identification of reliable drug response biomarkers and enhance the reproducibility of large-scale sensitivity studies. Citation Format: Marc Hafner, Mario Niepel, Peter K. Sorger. Improving pre-clinical cancer pharmacogenomics with novel drug sensitivity metrics based on growth rate inhibition [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2017; 2017 Apr 1-5; Washington, DC. Philadelphia (PA): AACR; Cancer Res 2017;77(13 Suppl):Abstract nr 972. doi:10.1158/1538-7445.AM2017-972",
+        "doi": "10.1158/1538-7445.am2017-972",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-78569156",
+        "title": "Abstract IA05: New methods and better theory for pre-clinical cancer pharmacogenomics",
+        "authors": [
+          "M. Niepel",
+          "M. Hafner",
+          "Qiaonan Duan",
+          "A. Subramanian",
+          "Avi Ma’ayan",
+          "P. Sorger"
+        ],
+        "year": 2017,
+        "abstract": "Drug dose-response measurements are the cornerstone of pre-clinical assessments of new and existing therapeutics. As a means to identify biomarkers of drug response, high-throughput studies have attempted to relate drug sensitivity across hundreds of cell lines and hundreds of drugs to inhibition of mitogensis and induction of apoptosis. And, by analogy with antibiotic susceptibility testing, it is increasingly possible to screen primary human tumor cells as a means to personalize therapy for individual patients. I will describe new ways of performing such studies that promise to avoid common confounders. The metrics usually used to parameterize drug response (IC50, Emax, or AUC) are based on assessing the cell count of a treated condition relative to an untreated control. All of these metrics suffer from a fundamental flaw: cell lines divide at very different rates and those that undergo more divisions over the course of an assay are scored as more sensitive than cell lines with fewer divisions, even if their inherent drug sensitivities are identical. We developed a new method to parameterize drug response, the growth rate inhibition (GR) metrics, which is based on the ratio of growth rates under treatment conditions in relation to an untreated control. GR metrics are independent of cell growth over the course of the experiment and thus enable us to accurately compare cell lines with varying growth rates or experimental conditions that can alter growth rates. I will describe the use of GR metrics to analyze six breast cancer cell lines treated with ~100 small molecule inhibitors at six doses. We focused on inhibitors targeting key signaling nodes such as PI3K, AKT, or MAPK, as well as receptor tyrosine kinases (RTKs) and cyclin-dependent kinases (CDKs), and many of the drugs studied are currently in clinical trials. We measured the cell9s transcriptional response at 3 hours and 24 hours using the L1000 transcriptional profiling assay and scored phenotypes by imaging at 3 days. We find that some drugs, particularly those targeting cell cycle kinases and chaperones, elicit near identical responses in all cell lines both transcriptionally and phenotypically. Kinase inhibitors, on the other hand, predominantly elicit cell type-specific responses at the molecular and phenotypic levels. Interestingly, a subset of signaling kinase inhibitors induces significant change at the transcriptional level without affecting cell growth. Analysis of the transcriptional profiles under these conditions allows us to identify synergistic drug combinations, which act by blocking adaptive drug resistance. Thus, inexpensive, high-throughput transcript profiling can uncover subtle mechanisms of drug sensitivity and resistance and guide the design of effective drug combinations. Our work shows the value of using drug response metrics that are independent of growth rate. This applies to high-throughput profiling of cell lines, but also to patient-derived tumor and normal cells. GR metrics are also useful whenever cells are manipulated in ways that can affect division times (e.g. by varying the microenvironment or introducing genetic changes). We expect GR metrics to improve pre-clinical pharmacology and precision therapeutic assays employing patient-derived tumor cells. Citation Format: Mario Niepel, Marc Hafner, Qiaonan Duan, Aravind Subramanian, Avi Ma9ayan, Peter K. Sorger. New methods and better theory for pre-clinical cancer pharmacogenomics. [abstract]. In: Proceedings of the AACR Special Conference on Engineering and Physical Sciences in Oncology; 2016 Jun 25-28; Boston, MA. Philadelphia (PA): AACR; Cancer Res 2017;77(2 Suppl):Abstract nr IA05.",
+        "doi": "10.1158/1538-7445.EPSO16-IA05",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-209581017",
+        "title": "Author response: CRISPR/Cas9 mutagenesis invalidates a putative cancer dependency targeted in on-going clinical trials",
+        "authors": [
+          "A. Lin",
+          "Christopher J. Giuliano",
+          "Nicole M. Sayles",
+          "J. Sheltzer"
+        ],
+        "year": 2017,
+        "abstract": "Like a person who is dependent on coffee to be productive, cancer cells are dependent on the products of certain genes in order to dominate their environment and grow. Cancer cells will stop growing and die when the activity of these gene products is blocked. These genes are known as cancer dependencies or “addictions”. As a result, researchers are constantly looking for cancer dependencies and developing drugs to block their activity. It was previously believed that a gene called MELK was an addiction in certain types of breast cancer. In fact, pharmaceutical companies had developed a drug to block the activity of MELK, and this drug is currently being tested in human patients. However, Lin, Giuliano et al. have now taken a second look at the role of MELK in breast cancer, and have come to a different conclusion. Using a gene editing technology called CRISPR/Cas9, Lin, Giuliano et al. removed MELK activity from several cancer cell lines. This did not stop cancer cells from multiplying, suggesting that MELK is not actually a cancer addiction. Additionally, when breast cancer cells that do not produce MELK were exposed to the drug that is supposed to block MELK activity, the drug still stopped cell growth. Since the drug works when MELK is not present in the cell, the drug must be binding to other proteins. This suggests that MELK is not the actual target of the drug. Lin, Giuliano et al. suggest that, in the future, CRISPR/Cas9 technology could be used to better identify cancer dependencies and drug targets before cancer drugs are given to human patients.",
+        "doi": "10.7554/ELIFE.24179.019",
+        "pmid": null,
+        "venue": "eLife",
+        "citedByCount": 4,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-226921276",
+        "title": "Abstract 1265: Validation of the interaction between a candidate compound and the intended drug target by a phenotypic rescue approach",
+        "authors": [
+          "Lieke Geerts",
+          "Laure Grandmoursel",
+          "J. Aarbiou",
+          "J. DeGroot",
+          "J. Schüler",
+          "I. Waddell",
+          "A. Zuurmond"
+        ],
+        "year": 2019,
+        "abstract": "New targets for cancer treatment frequently emerge in literature, but the thorough target validation required to consider these targets for a drug discovery program is often lacking. In pharmacological or genetic perturbation studies using complex biological assays, undesired off-target effects cannot be easily distinguished from the intended mode of action at the desired target. This is especially evident in cancer drug development where it is important to discriminate on-target effects on cell viability from off-target effects resulting in non-specific loss of cellular fitness. Neglecting the possibility of being deceived by off-target effects can have tremendous scientific and financial impact on a drug discovery program. Ideally confidence in a preclinical drug target and a modulating compound is boosted in an early stage by more extensive analysis and validation of the actual drug-target relationship. Rescue of a disease-relevant phenotype by genetic restoration of a target mutation is a gold standard approach in drug discovery by which target validation can be achieved. We aim to follow this approach targeting the BRAF V600E mutation in a number of well described melanoma lines as well as the MAP2K1 Q56P mutation in non-small cell lung cancer cell line H1437. Target validation for both BRAF and MAP2K1 will be addressed by assessing viability, phenotypic changes and sensitivity to compound modulation upon CRISPR/Cas9 repair of the target mutation or by exogenous re-expression of the wildtype variant. Compounds tested will be Vemurafenib for BRAF and Trametinib for MAP2K1. Further investigation into target validity will be done using a physiologically relevant 3D spheroid based co-culture system. Mimicking the tumor microenvironment increases the knowledge about “drug-ability” of a target and sustainability of the target modulation at an early time point in the development process. Such early in-depth validation of the relationship between a compound and the drug target is vital to mitigate the risk of failure at later steps of drug development. Citation Format: Lieke Geerts, Laure Grandmoursel, Jamil Aarbiou, Jeroen DeGroot, Julia Schuler, Ian Waddell, Anne-Marie Zuurmond. Validation of the interaction between a candidate compound and the intended drug target by a phenotypic rescue approach [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2019; 2019 Mar 29-Apr 3; Atlanta, GA. Philadelphia (PA): AACR; Cancer Res 2019;79(13 Suppl):Abstract nr 1265.",
+        "doi": "10.1158/1538-7445.AM2019-1265",
+        "pmid": null,
+        "venue": "Experimental and Molecular Therapeutics",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-219935420",
+        "title": "Discovering and validating cancer genetic dependencies: approaches and pitfalls",
+        "authors": [
+          "A. Lin",
+          "J. Sheltzer"
+        ],
+        "year": 2020,
+        "abstract": "Cancer 'genetic dependencies' - genes whose products are essential for cancer cell fitness - are promising targets for therapeutic development. However, recent evidence has cast doubt on the validity of several putative dependencies that are currently being targeted in cancer clinical trials, underscoring the challenges inherent in correctly identifying cancer-essential genes. Here we review several common techniques and platforms for discovering and characterizing cancer dependencies. We discuss the strengths and drawbacks of different gene-perturbation approaches, and we highlight the use of poorly validated genetic and pharmacological agents as a common cause of target misidentification. A careful consideration of the limitations of current technologies and cancer models will improve our ability to correctly uncover cancer genetic dependencies and will facilitate the development of improved therapeutic agents.",
+        "doi": "10.1038/s41576-020-0247-7",
+        "pmid": "32561862",
+        "venue": "Nature reviews genetics",
+        "citedByCount": 50,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-281101443",
+        "title": "A combined enteric neuron-gastric tumor organoid reveals metabolic vulnerabilities in gastric cancer.",
+        "authors": [
+          "Becky K. C. Chan",
+          "Chu Zhang",
+          "Chi Him Poon",
+          "Marie H.Y. Lee",
+          "Hoi-Yee Chu",
+          "Bei Wang",
+          "Sin-Guang Chen",
+          "Helen H. N. Yan",
+          "S. Leung",
+          "Alan S. L. Wong"
+        ],
+        "year": 2025,
+        "abstract": null,
+        "doi": "10.1016/j.stem.2025.08.006",
+        "pmid": "40902593",
+        "venue": "Cell Stem Cell",
+        "citedByCount": 24,
+        "urls": [
+          "https://doi.org/10.1016/j.stem.2025.08.006"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.stem.2025.08.006"
+      },
+      {
+        "elicitId": "ss-290854866",
+        "title": "A dependency map enhanced with next-generation 3D cancer models",
+        "authors": [
+          "James Neiswender",
+          "Samuel Maffa",
+          "Lisa Brenan",
+          "Dina Elharouni",
+          "Ye-Jie Yun",
+          "Isabella A. Boyle",
+          "K. Wienand",
+          "Haider Inam",
+          "Tate Bertea",
+          "A. Anderson",
+          "M. Wong",
+          "Matias Enriquez",
+          "E. Lenz",
+          "B. Villafranca",
+          "Nora Shanks",
+          "M. Hager",
+          "Nia Lloyd",
+          "Hannah Shadmany",
+          "Sarah J. Wie",
+          "Harry Liang",
+          "Konnor Yunghans",
+          "Xiao-Meng Zhang",
+          "L. Golden",
+          "H. Harris",
+          "Serena Day",
+          "Philip Montgomery",
+          "S. Stokes",
+          "Ross M. Giglio",
+          "Cynthia Hajal",
+          "J. R. Whittle",
+          "Guadalupe Garcia",
+          "Caitlin E. Mills",
+          "M. Touat",
+          "K. Pelton",
+          "Hong-Yu Li",
+          "P. Prabhakar",
+          "S. Herter",
+          "Zoe Hoffmann Kamrat",
+          "Dan Y. Gui",
+          "Julien Dilly",
+          "C. K. Wong",
+          "Jimmy A. Guo",
+          "Sangita Pal",
+          "Yossef Baidi",
+          "Ryan Johnston",
+          "D. Brown",
+          "Sonam Bhatia",
+          "Peter S. Winter",
+          "Srivatsan Raghavan",
+          "R. Beroukhim",
+          "E. Colás",
+          "David L. Spector",
+          "A. Bass",
+          "P. Sorger",
+          "Yu Chen",
+          "Sarah J. Hill",
+          "S. Oesterreich",
+          "A. Lee",
+          "H. Beltran",
+          "Jesse S. Boehm",
+          "Yuen-Yi Tseng",
+          "D. E. Root",
+          "William C. Hahn",
+          "Andrew J. Aguirre",
+          "Catarina D. Campbell",
+          "K. Ligon",
+          "Joshua M. Dempster",
+          "T. Shibue",
+          "Francisca Vazquez"
+        ],
+        "year": 2026,
+        "abstract": "Despite advances in precision oncology, effective personalized treatments are still lacking for most patients with cancer1. The Cancer Dependency Map (DepMap) accelerates this field by systematically identifying cancer vulnerabilities in diverse preclinical models. Data from over 1,300 cell lines have led to the discovery of new therapeutic strategies across multiple tumour types2. However, mapping cancer vulnerabilities using traditional cell lines has limitations, including insufficient cancer subtype representation and the impact of culture conditions on perturbation responses. Here we perform 147 genome-scale CRISPR screens and multi-omic characterizations of next-generation (NextGen) cancer models (organoids and spheroids) across 10 cancer types. This strategy enables the expansion of DepMap to cover new genomic and molecular subtypes and to identify new biomarker-associated vulnerabilities. These new models also preserve transcriptional programs that are silenced in traditional cell lines and facilitate the discovery of specific gene dependencies associated with these programs. Comparisons of traditional and NextGen cancer models enable further identification of distinct effects of growth format and culture medium on gene essentiality. The integrated dataset combines data from both model types to offer a valuable, expansive resource for exploring cancer vulnerabilities and is accessible via the DepMap portal. Integration of genome-scale CRISPR screening data from traditional cell lines and next-generation cancer models expands the representation of tumour subtypes and genomic alterations in The Cancer Dependency Map.",
+        "doi": "10.1038/s41586-026-10843-7",
+        "pmid": "42557315",
+        "venue": "Nature",
+        "citedByCount": 5,
+        "urls": [
+          "https://doi.org/10.1038/s41586-026-10843-7",
+          "https://repository.cshl.edu/id/eprint/42284/1/10.1038.s41586-026-10843-7.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1038/s41586-026-10843-7"
+      },
+      {
+        "elicitId": "ss-44104160",
+        "title": "Meta-screen for cancer dependencies",
+        "authors": [
+          "K. Sarosiek"
+        ],
+        "year": 2017,
+        "abstract": "Systematic identification of gene dependencies in cancer cells teaches us some lessons. Systematic identification of gene dependencies in cancer cells teaches us some lessons.",
+        "doi": "10.1126/scitranslmed.aao2262",
+        "pmid": null,
+        "venue": "Science Translational Medicine",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-255121090",
+        "title": "Multiparametric Tumor Organoid Drug Screening Using Widefield Live-Cell Imaging for Bulk and Single-Organoid Analysis.",
+        "authors": [
+          "Maxim Le Compte",
+          "Edgar Cardenas De La Hoz",
+          "Sofía Peeters",
+          "E. Smits",
+          "F. Lardon",
+          "G. Roeyen",
+          "Steve Vanlanduit",
+          "H. Prenen",
+          "M. Peeters",
+          "A. Lin",
+          "C. Deben"
+        ],
+        "year": 2022,
+        "abstract": "Patient-derived tumor organoids (PDTOs) hold great promise for preclinical and translational research and predicting the patient therapy response from ex vivo drug screenings. However, current adenosine triphosphate (ATP)-based drug screening assays do not capture the complexity of a drug response (cytostatic or cytotoxic) and intratumor heterogeneity that has been shown to be retained in PDTOs due to a bulk readout. Live-cell imaging is a powerful tool to overcome this issue and visualize drug responses more in-depth. However, image analysis software is often not adapted to the three-dimensionality of PDTOs, requires fluorescent viability dyes, or is not compatible with a 384-well microplate format. This paper describes a semi-automated methodology to seed, treat, and image PDTOs in a high-throughput, 384-well format using conventional, widefield, live-cell imaging systems. In addition, we developed viability marker-free image analysis software to quantify growth rate-based drug response metrics that improve reproducibility and correct growth rate variations between different PDTO lines. Using the normalized drug response metric, which scores drug response based on the growth rate normalized to a positive and negative control condition, and a fluorescent cell death dye, cytotoxic and cytostatic drug responses can be easily distinguished, profoundly improving the classification of responders and non-responders. In addition, drug-response heterogeneity can by quantified from single-organoid drug response analysis to identify potential, resistant clones. Ultimately, this method aims to improve the prediction of clinical therapy response by capturing a multiparametric drug response signature, which includes kinetic growth arrest and cell death quantification.",
+        "doi": "10.3791/64434",
+        "pmid": "36622028",
+        "venue": "Journal of Visualized Experiments",
+        "citedByCount": 18,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-251880781",
+        "title": "FAIL EARLY, FAIL FAST a phenotypic rescue approach",
+        "authors": [
+          "I. Waddell"
+        ],
+        "year": 2019,
+        "abstract": "In pharmacological or genetic perturbation studies using complex biological assays, undesired off-target effects cannot be easily distinguished from the intended mode of action at the desired target. This is especially evident in cancer drug development where it is important to discriminate on-target effects on cell viability from off-target effects resulting in non-specific loss of cellular fitness. Neglecting the possibility of being deceived by off-target effects can have tremendous scientific and financial impact on a drug discovery programme. Ideally confidence in a preclinical drug target and a modulating compound is boosted in an early stage by more extensive analysis and validation of the actual target-disease or drug-target relationship. Rescue of a relevant phenotype by genetic restoration of a target mutation is a gold standard approach in drug discovery by which target validation can be achieved.",
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-196676538",
+        "title": "Computational correction of copy-number effect improves specificity of CRISPR-Cas9 essentiality screens in cancer cells",
+        "authors": [
+          "R. Meyers",
+          "Jordan G. Bryan",
+          "James M. McFarland",
+          "B. Weir",
+          "Ann E. Sizemore",
+          "Han Xu",
+          "N. Dharia",
+          "Phillip G Montgomery",
+          "G. Cowley",
+          "S. Pantel",
+          "Amy Goodale",
+          "Yenarae Lee",
+          "L. Ali",
+          "G. Jiang",
+          "Rakela Lubonja",
+          "W. Harrington",
+          "M. Strickland",
+          "Ting Wu",
+          "Derek Hawes",
+          "Victor A. Zhivich",
+          "M. Wyatt",
+          "Zohra Kalani",
+          "Jaime Chang",
+          "M. Okamoto",
+          "K. Stegmaier",
+          "T. Golub",
+          "J. Boehm",
+          "F. Vazquez",
+          "D. Root",
+          "W. Hahn",
+          "Aviad Tsherniak"
+        ],
+        "year": 2017,
+        "abstract": "The CRISPR–Cas9 system has revolutionized gene editing both at single genes and in multiplexed loss-of-function screens, thus enabling precise genome-scale identification of genes essential for proliferation and survival of cancer cells. However, previous studies have reported that a gene-independent antiproliferative effect of Cas9-mediated DNA cleavage confounds such measurement of genetic dependency, thereby leading to false-positive results in copy number–amplified regions. We developed CERES, a computational method to estimate gene-dependency levels from CRISPR–Cas9 essentiality screens while accounting for the copy number–specific effect. In our efforts to define a cancer dependency map, we performed genome-scale CRISPR–Cas9 essentiality screens across 342 cancer cell lines and applied CERES to this data set. We found that CERES decreased false-positive results and estimated sgRNA activity for both this data set and previously published screens performed with different sgRNA libraries. We further demonstrate the utility of this collection of screens, after CERES correction, for identifying cancer-type-specific vulnerabilities.",
+        "doi": "10.1101/160861",
+        "pmid": "29083409",
+        "venue": "Nature Genetics",
+        "citedByCount": 1754,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2017/07/10/160861.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2017/07/10/160861.full.pdf"
+      },
+      {
+        "elicitId": "ss-220687076",
+        "title": "The Cancer Dependency Map enables drug mechanism‐of‐action investigations",
+        "authors": [
+          "F. Vazquez",
+          "J. Boehm"
+        ],
+        "year": 2020,
+        "abstract": "How do small molecules exert their effects in mammalian cells? This seemingly simple question continues to represent one of the fundamental challenges of modern translational science and as such has long been the subject of intense scientific scrutiny. In their recent study, Garnett and colleagues (Gonçalves et al, 2020) demonstrate proof‐of‐concept for a new way to attack this problem systematically for Oncology drugs, by identifying correlated CRISPR‐ and drug‐killing profiles in the Cancer Dependency Map dataset.",
+        "doi": "10.15252/msb.20209757",
+        "pmid": "32696566",
+        "venue": "Molecular Systems Biology",
+        "citedByCount": 20,
+        "urls": [
+          "https://doi.org/10.15252/msb.20209757"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.15252/msb.20209757"
+      },
+      {
+        "elicitId": "ss-266109601",
+        "title": "Screening drug effects in patient‐derived cancer cells links organoid responses to genome alterations",
+        "authors": [
+          "Julia Jabs",
+          "F. Zickgraf",
+          "Jeongbin Park",
+          "Steve Wagner",
+          "Xiao-Qi Jiang",
+          "K. Jechow",
+          "K. Kleinheinz",
+          "U. Toprak",
+          "M. Schneider",
+          "Michael Meister",
+          "Saskia Spaich",
+          "M. Sütterlin",
+          "Matthias Schlesner",
+          "A. Trumpp",
+          "M. Sprick",
+          "R. Eils",
+          "C. Conrad"
+        ],
+        "year": 2017,
+        "abstract": "Cancer drug screening in patient‐derived cells holds great promise for personalized oncology and drug discovery but lacks standardization. Whether cells are cultured as conventional monolayer or advanced, matrix‐dependent organoid cultures influences drug effects and thereby drug selection and clinical success. To precisely compare drug profiles in differently cultured primary cells, we developed DeathPro, an automated microscopy‐based assay to resolve drug‐induced cell death and proliferation inhibition. Using DeathPro, we screened cells from ovarian cancer patients in monolayer or organoid culture with clinically relevant drugs. Drug‐induced growth arrest and efficacy of cytostatic drugs differed between the two culture systems. Interestingly, drug effects in organoids were more diverse and had lower therapeutic potential. Genomic analysis revealed novel links between drug sensitivity and DNA repair deficiency in organoids that were undetectable in monolayers. Thus, our results highlight the dependency of cytostatic drugs and pharmacogenomic associations on culture systems, and guide culture selection for drug tests.",
+        "doi": "10.15252/msb.20177697",
+        "pmid": "29180611",
+        "venue": "Molecular Systems Biology",
+        "citedByCount": 56,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2017/04/06/124446.full.pdf",
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.15252/msb.20177697",
+          "https://opus.bibliothek.uni-augsburg.de/opus4/files/79257/msb.20177697.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.15252/msb.20177697"
+      }
+    ],
+    "warnings": []
+  }
+}

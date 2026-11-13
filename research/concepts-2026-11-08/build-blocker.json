@@ -1,0 +1,8 @@
+{
+  "upstreamMain": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "unchangedFile": "src/app/cancers/map/page.tsx",
+  "localAndUpstreamSha256": "a532dd63f4ab4a79d9e68eb6418f4e245fd278487d84163447a8c2f94124ae0c",
+  "existingExport": "export const GRAPH_JSON = \"/cancers/map/graph.json\";",
+  "nextGeneratedTypeError": "Property GRAPH_JSON is incompatible with index signature; string is not assignable to never.",
+  "scope": "Production-build blocker in unchanged upstream page; no product fix included in the data contribution."
+}

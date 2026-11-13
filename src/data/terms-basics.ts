@@ -18,7 +18,7 @@ import type { TermInput } from "@/lib/schema";
 
 const asOf = "2026-09-09";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
-type T = Omit<TermInput, "kind" | "asOf">;
+type T = Omit<TermInput, "kind" | "asOf"> & { asOf?: string };
 const t = (x: T): TermInput => ({ kind: "term", asOf, links: x.wikipedia ? [{ label: "Wikipedia", url: x.wikipedia }] : undefined, ...x });
 
 const BIO = "Biology basics";
@@ -513,12 +513,13 @@ export const termsBasics: TermInput[] = [
     sections: ["diagnostics"],
   }),
   t({
-    id: "biomarker", name: "Biomarker", category: CLINIC,
+    id: "biomarker", name: "Biomarker", category: CLINIC, asOf: "2026-11-08",
     aka: ["biomarkers", "marker", "markers", "molecular marker", "molecular markers", "predictive biomarker", "predictive biomarkers", "prognostic biomarker", "prognostic biomarkers", "biomarker-positive", "biomarker-negative", "biomarker-selected", "biomarker-driven", "biomarker-defined"],
-    tldr: "Anything measurable in the body or tumour that tells you something useful: what kind of cancer it is, how it is likely to behave, or which drug is likely to work.",
-    summary: "Biomarkers come in three main flavours: diagnostic (what is this?), prognostic (how will it behave regardless of treatment?) and predictive (will this particular treatment work?); ER, PD-L1, HER2, EGFR mutations and MSI are predictive biomarkers with drugs attached to them, PSA and CA-125 are tumour markers used for monitoring, and Ki-67 is prognostic. Predictive biomarkers underpin precision oncology, letting trials enrol only patients likely to benefit and sparing others a useless drug, and a test validated for this purpose becomes a companion diagnostic. Many biomarkers remain imperfect, PD-L1 most famously, and validating and standardising them is one of the field's chronic bottlenecks.",
+    tldr: "A measurable feature of the body or tumour that helps describe a biological process, a disease or a response to an intervention. Its meaning depends on what was measured and how the result is being used.",
+    summary: "FDA distinguishes susceptibility or risk, diagnostic, monitoring, prognostic, predictive, response and safety biomarker roles. One marker can serve more than one role, but evidence for one use does not establish the others. A prognostic association describes an outcome; a predictive claim concerns differences in treatment effect and needs comparative evidence. A positive marker does not guarantee benefit, and a negative result does not universally exclude it. The specimen, assay, cutoff, disease and intended use belong with the claim; a companion diagnostic has a specific regulatory purpose.",
     wikipedia: W("Biomarker_(medicine)"),
-    related: ["tumour-marker", "ihc", "genomic-profiling", "companion-diagnostic-term", "overexpression", "prognosis", "ctdna", "tmb", "msi"], technologies: ["companion-diagnostic", "cgp", "histopathology-ihc"], journals: ["cancer-biomarkers", "international-journal-of-biological-markers", "tumour-biology"],
+    links: [{ label: "FDA: biomarker roles and qualification", url: "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification" }, { label: "Ballman: predictive or prognostic biomarkers (2015)", url: "https://doi.org/10.1200/JCO.2015.63.3651" }, { label: "FDA: companion diagnostics", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics" }],
+    related: ["tumour-marker", "ihc", "genomic-profiling", "companion-diagnostic-term", "overexpression", "prognosis", "ctdna", "tmb", "msi", "prognostic-versus-predictive-biomarkers", "biomarker-qualification-context", "biomarker-cutpoint-selection", "measurement-to-benefit-evidence"], technologies: ["companion-diagnostic", "cgp", "histopathology-ihc"], journals: ["cancer-biomarkers", "international-journal-of-biological-markers", "tumour-biology"],
   }),
   t({
     id: "tumour-marker", name: "Tumour marker", category: CLINIC,

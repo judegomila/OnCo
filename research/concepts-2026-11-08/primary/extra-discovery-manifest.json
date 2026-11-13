@@ -1,0 +1,90 @@
+[
+  {
+    "id": "binding-barrier-experiment",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A1327501+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:42.643120+00:00",
+    "path": "research/concepts-2026-11-08/primary/binding-barrier-experiment.json",
+    "sha256": "71519ce231a33c403e2c32fdd45274bc8030d26b0317d6b9d500fdb5b8af6b04",
+    "count": 1
+  },
+  {
+    "id": "binding-barrier-adc",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1158%2F0008-5472.CAN-17-1638&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:42.643521+00:00",
+    "path": "research/concepts-2026-11-08/primary/binding-barrier-adc.json",
+    "sha256": "83bd593c805453f74e12343953fd22156b6fddab0bcb537ef84a7ffdcc88b378",
+    "count": 1
+  },
+  {
+    "id": "ctdna-shedding-med",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24553385+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:43.924784+00:00",
+    "path": "research/concepts-2026-11-08/primary/ctdna-shedding-med.json",
+    "sha256": "fed0457aafebe4c465f84d51f3480932d808398bfe624f7da9376c6a3cee47fe",
+    "count": 1
+  },
+  {
+    "id": "absence-classic",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1136%2Fbmj.311.7003.485&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:43.313663+00:00",
+    "path": "research/concepts-2026-11-08/primary/absence-classic.json",
+    "sha256": "0235ff259eefae093481c4c10a0cc5b128379967eab5133b46d25528f1709235",
+    "count": 1
+  },
+  {
+    "id": "absence-method",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.7554%2FeLife.92311&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:43.313383+00:00",
+    "path": "research/concepts-2026-11-08/primary/absence-method.json",
+    "sha256": "83ccccd9fd83ae1a181b8854d61c36a22919fd38526099ca4b5504b4d9458a3e",
+    "count": 1
+  },
+  {
+    "id": "cutpoint-doi",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1093%2Fjnci%2F86.11.829&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:44.048989+00:00",
+    "path": "research/concepts-2026-11-08/primary/cutpoint-doi.json",
+    "sha256": "b27e8c19059b8c0ebf8d4a1c77354b59639534187e9d7bad9c9cd63402b34dcf",
+    "count": 1
+  },
+  {
+    "id": "confounding-breast",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A19457638+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:44.411879+00:00",
+    "path": "research/concepts-2026-11-08/primary/confounding-breast.json",
+    "sha256": "b6edc0b5a32a701937ce0c207efe27c9b8599359e83d3ac0acc30f876f2e4c8f",
+    "count": 1
+  },
+  {
+    "id": "target-trial",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Using+Big+Data+to+Emulate+a+Target+Trial%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:44.540426+00:00",
+    "path": "research/concepts-2026-11-08/primary/target-trial.json",
+    "sha256": "d38b88bfb21e676eaf4a1250762dd722be02a9216093b07e94ccfe5da2458eec",
+    "count": 1
+  },
+  {
+    "id": "crispr-offtarget",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Genetic+and+pharmacological+interrogation+of+cancer+vulnerability%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:44.743264+00:00",
+    "path": "research/concepts-2026-11-08/primary/crispr-offtarget.json",
+    "sha256": "8bb11e11510b79145b6d20e8227d2a772159ae2eca9fc3b0fdfb81cdc43b4a76",
+    "count": 1
+  },
+  {
+    "id": "genetic-controls",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Off-target+toxicity+is+a+common+mechanism+of+action+of+cancer+drugs+undergoing+clinical+trials%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:45.231455+00:00",
+    "path": "research/concepts-2026-11-08/primary/genetic-controls.json",
+    "sha256": "4c9cef3e5cc1b4bb51ad6bfd978e7614615b100dc46bf09d39128d22341b4039",
+    "count": 1
+  },
+  {
+    "id": "viability-orthogonal",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Systematic+comparison+of+cell+viability+assays%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:42:45.174016+00:00",
+    "path": "research/concepts-2026-11-08/primary/viability-orthogonal.json",
+    "sha256": "e9832e08fbff464f242c9b4194be55fc066e0f492ad5049fb8b9c314d8558ad8",
+    "count": 0
+  }
+]

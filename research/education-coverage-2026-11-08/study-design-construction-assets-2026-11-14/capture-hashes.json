@@ -1,0 +1,1810 @@
+{
+  "assignedAndAssociated": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 4834,
+      "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+      "gitBlob": "86226c7f38194a74220fedb61bda7eab027cba70"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 4834,
+      "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+      "gitBlob": "86226c7f38194a74220fedb61bda7eab027cba70"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1948,
+      "sha256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+      "gitBlob": "0ec64ad615724ecc95a917f1b2d79e118c668d4b"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1948,
+      "sha256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+      "gitBlob": "0ec64ad615724ecc95a917f1b2d79e118c668d4b"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 2946,
+      "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+      "gitBlob": "686c358b5c9ce03b427b74fad36f54e96d486b7c"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 2946,
+      "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+      "gitBlob": "686c358b5c9ce03b427b74fad36f54e96d486b7c"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1678,
+      "sha256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+      "gitBlob": "dabe074377e21f8c5cae4ae32f1351fc2a5d3b02"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1678,
+      "sha256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+      "gitBlob": "dabe074377e21f8c5cae4ae32f1351fc2a5d3b02"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-next-gap-097-independent-task-fit.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8468,
+      "sha256": "499112cad336eb8d6a808385681c0f8ee536cf15634dac052f8549200226c571",
+      "gitBlob": "47af602a94dc9a9c31d4ebbd2d1af269c64ec562"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-next-gap-097-independent-task-fit.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8468,
+      "sha256": "499112cad336eb8d6a808385681c0f8ee536cf15634dac052f8549200226c571",
+      "gitBlob": "47af602a94dc9a9c31d4ebbd2d1af269c64ec562"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1420,
+      "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+      "gitBlob": "da2454354eae18685ff4ef0a39536334663fc026"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1420,
+      "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+      "gitBlob": "da2454354eae18685ff4ef0a39536334663fc026"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1264,
+      "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+      "gitBlob": "07957983a943add77840e5f6f005aad0d7f7585a"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1264,
+      "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+      "gitBlob": "07957983a943add77840e5f6f005aad0d7f7585a"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-next-gap-099-independent-task-fit.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 6794,
+      "sha256": "1914d299500a795253e2a12cf32b99a493e87f5818153589b4e4930ae455c00f",
+      "gitBlob": "8fabeaa146fdd1d4eaea84e1022030776d87e665"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-next-gap-099-independent-task-fit.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 6794,
+      "sha256": "1914d299500a795253e2a12cf32b99a493e87f5818153589b4e4930ae455c00f",
+      "gitBlob": "8fabeaa146fdd1d4eaea84e1022030776d87e665"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1443,
+      "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+      "gitBlob": "0b47634b51ea1fa020b2536a8caed8d5ec3e8772"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1443,
+      "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+      "gitBlob": "0b47634b51ea1fa020b2536a8caed8d5ec3e8772"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-245-focused-pair-binding-successor.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 16869,
+      "sha256": "1fd6edfd5215b1888c2117482245b03285f64c2fa2a42583666a5edd4816fc57",
+      "gitBlob": "70d20474a3ffca7f7c352a8e988e101dcb0d2958"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-245-focused-pair-binding-successor.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 16869,
+      "sha256": "1fd6edfd5215b1888c2117482245b03285f64c2fa2a42583666a5edd4816fc57",
+      "gitBlob": "70d20474a3ffca7f7c352a8e988e101dcb0d2958"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-246-focused-pair-binding-successor.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 16471,
+      "sha256": "bff80155e917a092bb3daa27357c184c666277bd68c551f96a69f3102da34d24",
+      "gitBlob": "96dcabe5a4890b2658388b2c7545895d932b48f8"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-246-focused-pair-binding-successor.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 16471,
+      "sha256": "bff80155e917a092bb3daa27357c184c666277bd68c551f96a69f3102da34d24",
+      "gitBlob": "96dcabe5a4890b2658388b2c7545895d932b48f8"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 17975,
+      "sha256": "91582d3aa110774d8f78bce6e279bf5fa81357f7477c66c55a7f8b0b467444ce",
+      "gitBlob": "7f820ed8c6c449fe7927d7147780ab2ea04b0687"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 17975,
+      "sha256": "91582d3aa110774d8f78bce6e279bf5fa81357f7477c66c55a7f8b0b467444ce",
+      "gitBlob": "7f820ed8c6c449fe7927d7147780ab2ea04b0687"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 3713,
+      "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+      "gitBlob": "3263b077adbffe3a713e5eacab4fa054d84a2113"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 3713,
+      "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+      "gitBlob": "3263b077adbffe3a713e5eacab4fa054d84a2113"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1530,
+      "sha256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+      "gitBlob": "8742969b095e23e24c69ade07457d18f2f6c5ce3"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1530,
+      "sha256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+      "gitBlob": "8742969b095e23e24c69ade07457d18f2f6c5ce3"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/preclinical-donor-well-cells-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 7389,
+      "sha256": "a1acb4e39ed85eaeace34bec68751329207d5b6161e44cf1e91076529b0f45f3",
+      "gitBlob": "389d2ba0db1b226f687d8a52a2330b423ac9293e"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/preclinical-donor-well-cells-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 7389,
+      "sha256": "a1acb4e39ed85eaeace34bec68751329207d5b6161e44cf1e91076529b0f45f3",
+      "gitBlob": "389d2ba0db1b226f687d8a52a2330b423ac9293e"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-next-gap-100-independent-task-fit.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 9293,
+      "sha256": "0624469e02c949ffa888b4543ab2747c24158de62e9e4af94fc880f62489edd7",
+      "gitBlob": "b98463ae95d95fad711b6bde7164f09f9180572d"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-next-gap-100-independent-task-fit.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 9293,
+      "sha256": "0624469e02c949ffa888b4543ab2747c24158de62e9e4af94fc880f62489edd7",
+      "gitBlob": "b98463ae95d95fad711b6bde7164f09f9180572d"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 1422,
+      "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+      "gitBlob": "7e455a63c4c561555262c6362a4d09317d6c8240"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 1422,
+      "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+      "gitBlob": "7e455a63c4c561555262c6362a4d09317d6c8240"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 913,
+      "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+      "gitBlob": "f91dea6ba300411036c34c20e325f8c8ce765407"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 913,
+      "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+      "gitBlob": "f91dea6ba300411036c34c20e325f8c8ce765407"
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 9681,
+      "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+      "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 9890,
+      "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+      "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 9560,
+      "sha256": "0f88cd065464a7127bcbde011c2a7988e6ba29f3ce2185ba42eb9c10ef103320",
+      "gitBlob": "b49a8c0e4fe2df1a52e15450f4910cfcb487dd25",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 9592,
+      "sha256": "e6516303340a6595b738bde12a3b29ff48f3139bc1a482cf1790d952829e72a4",
+      "gitBlob": "b6a89e23e4917fa107e28b542614f3cfc96374b9",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8431,
+      "sha256": "fda62ef1429577f9ba7dab645aa8ae3f5f742a7263be2216fa59b3a950fbd8ae",
+      "gitBlob": "5bcf22db946bfc40608eff86cd1352f35ebc9919",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8431,
+      "sha256": "fda62ef1429577f9ba7dab645aa8ae3f5f742a7263be2216fa59b3a950fbd8ae",
+      "gitBlob": "5bcf22db946bfc40608eff86cd1352f35ebc9919",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 4549,
+      "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "gitBlob": "32f6adb7f16d1ebe829cde63b1bc14756865c9ed",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 4549,
+      "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "gitBlob": "32f6adb7f16d1ebe829cde63b1bc14756865c9ed",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 4549,
+      "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "gitBlob": "6d6adf9172d38ad2fb38ab5279724a517ddaa5e3",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 4549,
+      "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "gitBlob": "6d6adf9172d38ad2fb38ab5279724a517ddaa5e3",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 7851,
+      "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "gitBlob": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 7851,
+      "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "gitBlob": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 7851,
+      "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "gitBlob": "9be44578450da912056fa52d58b31fcb1358cd05",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 7851,
+      "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "gitBlob": "9be44578450da912056fa52d58b31fcb1358cd05",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8157,
+      "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "gitBlob": "a5ca4b1503553e16d5cbaed853bdb774b2160e9f",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8157,
+      "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "gitBlob": "a5ca4b1503553e16d5cbaed853bdb774b2160e9f",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8157,
+      "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "gitBlob": "74bc088ab40ea306539221b8bdccd0f621c293e7",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8157,
+      "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "gitBlob": "74bc088ab40ea306539221b8bdccd0f621c293e7",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8636,
+      "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "gitBlob": "741cb6d478d48a10efa6a32e3282bab1042630e1",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8636,
+      "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "gitBlob": "741cb6d478d48a10efa6a32e3282bab1042630e1",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8636,
+      "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "gitBlob": "e0903021f6bf41204021975e9bdbe5663abc3e9a",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8636,
+      "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "gitBlob": "e0903021f6bf41204021975e9bdbe5663abc3e9a",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 5328,
+      "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "gitBlob": "0325a2f6b6e4cffbb0291f86aee30f8a51dd4bea",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 5328,
+      "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "gitBlob": "0325a2f6b6e4cffbb0291f86aee30f8a51dd4bea",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 5328,
+      "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "gitBlob": "de6e91921cb7f25e5581886eea96e82c18c16245",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 5328,
+      "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "gitBlob": "de6e91921cb7f25e5581886eea96e82c18c16245",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 11702,
+      "sha256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+      "gitBlob": "fbc086a6655cb7ab8d0db79e12e1e9e7166fcbb7",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 11702,
+      "sha256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+      "gitBlob": "fbc086a6655cb7ab8d0db79e12e1e9e7166fcbb7",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 11702,
+      "sha256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+      "gitBlob": "551cea59a73d4eef8a2a0b5232db62ce46e17814",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 11702,
+      "sha256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+      "gitBlob": "551cea59a73d4eef8a2a0b5232db62ce46e17814",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 746,
+      "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+      "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+      "priorAssetScope": "supporting",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 746,
+      "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+      "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+      "priorAssetScope": "supporting",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 7415,
+      "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "gitBlob": "c5d3b45ba13bdd4c4f23e58049750a483a42b816",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 7415,
+      "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "gitBlob": "c5d3b45ba13bdd4c4f23e58049750a483a42b816",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 7415,
+      "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "gitBlob": "0547570f291dbb2cae9a9357e25c4d1715b5d899",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 7415,
+      "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "gitBlob": "0547570f291dbb2cae9a9357e25c4d1715b5d899",
+      "priorAssetScope": "teaching",
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8839,
+      "sha256": "a3179add0a742b8e8b415ab39d409f0524b492440e9f0cdd78b851a0b9c17318",
+      "gitBlob": "3e6760c02427f36c73a24336bd18e62badec55a6",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8839,
+      "sha256": "a3179add0a742b8e8b415ab39d409f0524b492440e9f0cdd78b851a0b9c17318",
+      "gitBlob": "3e6760c02427f36c73a24336bd18e62badec55a6",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 8656,
+      "sha256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "gitBlob": "05de8e692b3c5f3d74af3ffc45174a5bf99ba967",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 8688,
+      "sha256": "ef6db791c1c4bee45b4d8eb689579dea1e039b396f3ac51278aef273248d8a45",
+      "gitBlob": "be08c82dc8d8a41371f82251e290287e56600779",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 6711,
+      "sha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "gitBlob": "4166297c101492953f8a384911627b760362c125",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 6946,
+      "sha256": "12718a7566a56b37c1f69333b300ee6d86cdd7e1c1da0af913906ff4f788286a",
+      "gitBlob": "927878e06c9955c289b7bfad0fe3a59c77bd69ba",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 10318,
+      "sha256": "be2de6e6320cb6da31756cefc0d7a16c29fa007c1657cc9cebba371ee7144dc7",
+      "gitBlob": "3f0eb7ca9b488202af700cfec2244b024e48359f",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/preclinical-evidence.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 10501,
+      "sha256": "b833b3d13a37507d25987d89b3e0469eec48f96f4b52917a7c0e3579622dde94",
+      "gitBlob": "87831912b4fec2c7e8ba5d6881ca355a21acf67a",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "bytes": 10366,
+      "sha256": "d6b3eb27fe8d52f541a7823e4d354232b0580073851ee1b8911a884e55e3fb89",
+      "gitBlob": "e8e5973aa03c13794a1f2ea59175bb8a09bc0c3c",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "bytes": 11263,
+      "sha256": "495a8d1912b258a5ced3308bde34f8159fee167abea499011515c7249882115b",
+      "gitBlob": "3c7072f6646d22b71cd5c291d583415378894c73",
+      "priorAssetScope": null,
+      "identityVerifiedAgainstCurrentPinnedLedger": true
+    }
+  ],
+  "nativeViews": {
+    "renderer": {
+      "sharp": "0.35.4",
+      "vips": "8.18.6",
+      "density": 72
+    },
+    "rows": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "sourceSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "sourceGitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+        "pngSHA256": "7fcc3d88e9bc7fb72ebd04ad1ea5b848d2dbace6db75840610f5045fe9a645b1",
+        "bytes": 103265,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:30:35.584495+00:00",
+        "coordinatorObservation": "Complete dark view: response fractions 40/80 and 12/20, 4/20 and 24/80; composition bars 80/20 versus 20/80; pooled 44/100 versus 36/100. Footer rejects superiority. All panels visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "sourceSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "sourceGitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+        "pngSHA256": "acdd1b1ebe3ce123a2985dacdedc8aa31d743be9d1c5c1f05af2328105aa86e0",
+        "bytes": 97936,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:30:53.788982+00:00",
+        "coordinatorObservation": "Complete light view: same two within-category comparisons and composition bars; overall 44 versus 36 is a reversal with explicit confounding and no-superiority limits. No clipped labels observed.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+        "sourceSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+        "sourceGitBlob": "32f6adb7f16d1ebe829cde63b1bc14756865c9ed",
+        "pngSHA256": "700fd6550f077e0837194544ad35549aec69d84c5d48632015a22d1367461d74",
+        "bytes": 126931,
+        "width": 600,
+        "height": 1220,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:07.631402+00:00",
+        "coordinatorObservation": "Complete dark view: two 100-person groups have 80/20 and 20/80 compositions, equal 75 percent and 25 percent within-category rates, pooled 65 and 35, and a common six-week symptom clock. Adjustment limits visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+        "sourceSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+        "sourceGitBlob": "6d6adf9172d38ad2fb38ab5279724a517ddaa5e3",
+        "pngSHA256": "26a669c98e899b9d54cf7b77e40c202af9c252239398695bebff045582b499b1",
+        "bytes": 126512,
+        "width": 600,
+        "height": 1220,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:20.335049+00:00",
+        "coordinatorObservation": "Complete light view: same 65/35 observational mixture arithmetic and common six-week clock; all four panels and causal/adjustment cautions visible. Distinct from the 44/36 shared example.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+        "sourceSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+        "sourceGitBlob": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3",
+        "pngSHA256": "85983687923a8898fded0439ea330a02ccefcd6bbf74ab1d82af961246703e15",
+        "bytes": 124794,
+        "width": 600,
+        "height": 1100,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:44.363089+00:00",
+        "coordinatorObservation": "Complete dark view: vehicle, positive, independent-mechanism and restoration controls ask separate questions. The invented 100/200/100 count example does not measure death fraction. Footer retains context and no-single-control limits.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+        "sourceSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+        "sourceGitBlob": "9be44578450da912056fa52d58b31fcb1358cd05",
+        "pngSHA256": "0a9871b49a02704a82468179c165cc4fa4ab1e5b875358b16a487544d8873a7f",
+        "bytes": 118809,
+        "width": 600,
+        "height": 1100,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:52.781679+00:00",
+        "coordinatorObservation": "Complete light view: same four control questions and direct-count example; all labels and caution panel visible. The well symbols do not supply actual measured cell counts or a universal assay protocol.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+        "sourceSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+        "sourceGitBlob": "a5ca4b1503553e16d5cbaed853bdb774b2160e9f",
+        "pngSHA256": "0ecebfd03b6d4d49dac7173e23b1e262721d72db80ab48a188639ddc4d25d85f",
+        "bytes": 87002,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:32:22.902794+00:00",
+        "coordinatorObservation": "Complete dark forest view: five equal squares and 20 percent weights, mean -4 with separate narrow mean interval and wider -13 to +5 prediction line, no-effect zero, I-squared and tau-squared units, and few-study/approximation cautions visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+        "sourceSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+        "sourceGitBlob": "74bc088ab40ea306539221b8bdccd0f621c293e7",
+        "pngSHA256": "be24d2a0afb143a2ef3ae3fd044893e38bebc04c18f75ee8b833d04fd0f0952f",
+        "bytes": 87241,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:32:34.062630+00:00",
+        "coordinatorObservation": "Complete light forest view: all five study estimates and equal weights are visible; mean confidence diamond and prediction line use the same linear score-point axis. No observed label clipping; no direction-of-benefit or individual prognosis inferred.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+        "sourceSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+        "sourceGitBlob": "741cb6d478d48a10efa6a32e3282bab1042630e1",
+        "pngSHA256": "72f417099cdac5e3975aab2e8b79fb67c5ddc6353344be155e4d36e5f708220f",
+        "bytes": 93029,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:32:53.393482+00:00",
+        "coordinatorObservation": "Complete dark view: dated primary EFS and exploratory subgroup precede result access; all twelve later cutoff marks are present, with the sixth selected hypothetically. Future independent testing and planned-exploratory limits remain explicit; no numerical p-values supplied.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+        "sourceSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+        "sourceGitBlob": "e0903021f6bf41204021975e9bdbe5663abc3e9a",
+        "pngSHA256": "878d5b1fdb916df819071ca4ab9de85aa1179099648539b45f4661619cb21785",
+        "bytes": 93216,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:33:29.600238+00:00",
+        "coordinatorObservation": "Complete light view: same ordering and twelve schematic cutoffs with selected sixth mark. Labels fit. Selection is distinguished by colour without an additional shape cue; colour-vision and nontext contrast acceptance are not established.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+        "sourceSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+        "sourceGitBlob": "0325a2f6b6e4cffbb0291f86aee30f8a51dd4bea",
+        "pngSHA256": "e75bf7ba589dcade278a08fcd0a6d849a825ade4b78e1843835b3eb6ba541d25",
+        "bytes": 94771,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:33:55.871824+00:00",
+        "coordinatorObservation": "Complete dark view: phase purpose is separated from participant assignment; concealment concerns the next allocation, blinding is optional after assignment, and symbolic equal groups provide no sample-size or efficacy guarantee. All panels visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+        "sourceSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+        "sourceGitBlob": "de6e91921cb7f25e5581886eea96e82c18c16245",
+        "pngSHA256": "f2a013f9622f900235dc5783d20aa120cd43e862d7a025804bfca57a7aa8a681",
+        "bytes": 92707,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:34:06.678995+00:00",
+        "coordinatorObservation": "Complete light view: same separated purpose and concealed assignment pathway, with feasible blinding after allocation and clear limitations. Symbol counts are illustrative; no observed text clipping.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+        "sourceSHA256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+        "sourceGitBlob": "fbc086a6655cb7ab8d0db79e12e1e9e7166fcbb7",
+        "pngSHA256": "0327f476ae0da7ea641325b5540675996e946827e5b75a1eae939bd1f65a0ef4",
+        "bytes": 149340,
+        "width": 600,
+        "height": 1740,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:34:41.466068+00:00",
+        "coordinatorObservation": "Complete uncropped 600 by 1740 dark view: two donor panels, six distinct wells per donor, each with its own count-not-given observation box. Footer states within-donor randomization, separate treatment, no interference and donor-nested analysis. No invented cell counts or effects.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+        "sourceSHA256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+        "sourceGitBlob": "551cea59a73d4eef8a2a0b5232db62ce46e17814",
+        "pngSHA256": "932c17d79b4cfb8a7031aa00f8042dfac3ca963dbb56e5c406f63cd2bd9103ba",
+        "bytes": 149214,
+        "width": 600,
+        "height": 1740,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:34:53.963882+00:00",
+        "coordinatorObservation": "Complete uncropped light hierarchy view: all A1-A6 and B1-B6 wells and nested observation groups remain distinct; no cell counts supplied. Conditional assignment and donor-breadth limits are legible at the bottom. Source imagery remains unchanged.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+        "sourceSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+        "sourceGitBlob": "c5d3b45ba13bdd4c4f23e58049750a483a42b816",
+        "pngSHA256": "de56492979e780e343fffde63cfbf68c63463c0cb20ab2d70c88f733c0349cfd",
+        "bytes": 88291,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:35:30.442727+00:00",
+        "coordinatorObservation": "Complete dark view: one fictional randomized AB-BA symptom order with repeated same-measure observations is separate from A/procedure/B history. Hatched ribbons are labelled possible and unmeasured; no elapsed durations or causal contributions supplied. Right scan label is close to the edge but fully visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+        "sourceSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+        "sourceGitBlob": "0547570f291dbb2cae9a9357e25c4d1715b5d899",
+        "pngSHA256": "bca72df387d86ddf94228e8a096fd7869a4485787450a909864fd9f384814db7",
+        "bytes": 88338,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:37:51.564741+00:00",
+        "coordinatorObservation": "Complete light view: same fictional AB-BA repeated-period design and separately unmeasured A/procedure/B overlap at an improved scan. All labels remain visible, with a tight right margin at the scan label. No time durations, washout interval, treatment effects or care instructions inferred.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      }
+    ],
+    "sourceBytesEdited": false,
+    "newBrowserOrAccessibilityAcceptance": false,
+    "freshNativeVariantsPendingView": 0
+  },
+  "primaryCaptures": [
+    {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pbio.3000410",
+      "capturedAtUTC": "2026-11-14T18:53:58.221068+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1371%2Fjournal.pbio.3000410",
+      "contentType": "application/json",
+      "bytes": 25970,
+      "sha256": "83bd8999ac700b72bb1bf519aec20eb7fa3e48feb9f8b4c112476c617b0b524b",
+      "sourceId": "arrive-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pbio.3000410%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:57.542812+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pbio.3000410%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 14149,
+      "sha256": "24b54e36b86c7cecee37a8fc9fdc5f0fd0307e1ee63c9814a49b436955f0857d",
+      "sourceId": "arrive-epmc"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pbio.3000411",
+      "capturedAtUTC": "2026-11-14T18:53:59.188649+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1371%2Fjournal.pbio.3000411",
+      "contentType": "application/json",
+      "bytes": 90594,
+      "sha256": "bf3c6aebd0733b28085ff3c3b8f13a86322bde0cf824b0f8285e16bfe781b1be",
+      "sourceId": "arrive-explanation-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pbio.3000411%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:58.526327+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pbio.3000411%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 14275,
+      "sha256": "bad1659412466926499f6bb62b0cf8a8fcedc1c588e85e7b492f19f28d0ac5cb",
+      "sourceId": "arrive-explanation-epmc"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7360025/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:55:43.124977+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7360025/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 448089,
+      "sha256": "8e543ccbcf08686d09f326463cf7bae29ab60189ae82e117e2c3bb2700849041",
+      "sourceId": "arrive-explanation-xml"
+    },
+    {
+      "url": "https://www.consort-spirit.org/spiriteande24a/item-3c-role-of-sponsor-and-funders",
+      "capturedAtUTC": "2026-11-14T18:54:17.248504+00:00",
+      "status": 200,
+      "finalURL": "https://www.consort-spirit.org/spiriteande24a/item-3c-role-of-sponsor-and-funders",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 655793,
+      "sha256": "206e33ddce8a7a0d88612f0c1981a46393337007f676b23f94f330d63b6c14c6",
+      "sourceId": "blinding"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC3784031&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:03.189597+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC3784031&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8372,
+      "sha256": "9981700d43dcc6cb1b4c4f7fa1bf60279f7eee456cfef08d5b5f012cd750790f",
+      "sourceId": "care-guide-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=3784031",
+      "capturedAtUTC": "2026-11-14T18:57:13.078982+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests",
+      "contentType": "application/json",
+      "bytes": 111,
+      "sha256": "1a5f1d3159c2220a3b76a5f5932beb5d72f6da366a10237fdf14917e5521be2f",
+      "sourceId": "care-guide-ncbi-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3784031/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:56:04.480133+00:00",
+      "status": null,
+      "error": "The read operation timed out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceId": "care-guide-xml"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.3238%2Farztebl.2013.0603",
+      "capturedAtUTC": "2026-11-14T18:54:05.125870+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.3238%2Farztebl.2013.0603",
+      "contentType": "application/json",
+      "bytes": 9906,
+      "sha256": "cdecb6c23cd3ad03cd2db3d154be57749249f13f17a4ff514bba60c9cf6d8f79",
+      "sourceId": "care-owner-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3238%2Farztebl.2013.0603%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:03.807852+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3238%2Farztebl.2013.0603%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8354,
+      "sha256": "bb17ce182dcf0100caba5d43a35b2b11c4f1e6bb441d36e8417b4164612766e2",
+      "sourceId": "care-owner-epmc"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.h1738",
+      "capturedAtUTC": "2026-11-14T18:54:06.018203+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.h1738",
+      "contentType": "application/json",
+      "bytes": 3565,
+      "sha256": "7409d70bb776da8bd93dea82d6819956b5bbfeb7c5feb655fb97a09eb66128eb",
+      "sourceId": "cent-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.h1738%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:05.387584+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.h1738%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7585,
+      "sha256": "9e82da02d8f78864d33c7190ab38aca99cac465a461f779f9208d49f99e5de10",
+      "sourceId": "cent-epmc"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.h1793",
+      "capturedAtUTC": "2026-11-14T18:54:06.250758+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.h1793",
+      "contentType": "application/json",
+      "bytes": 3632,
+      "sha256": "b77b9c19b13e4d392429ca0e8b6729135da70380538ea26a23b9a1f29014f9b1",
+      "sourceId": "cent-explanation-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.h1793%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:06.236318+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.h1793%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8382,
+      "sha256": "e1f7b5de7a24132006696a90790bb946363c725cb5fb610d6396ae6a54d2f8a4",
+      "sourceId": "cent-explanation-epmc"
+    },
+    {
+      "url": "https://www.bmj.com/content/350/bmj.h1793",
+      "capturedAtUTC": "2026-11-14T18:57:13.416201+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5454,
+      "sha256": "e699c6eabf27861d48cd73b2cb7b85dc07850f98a1fb69af27a3b9ef3ec770fa",
+      "sourceId": "cent-explanation-publisher"
+    },
+    {
+      "url": "https://www.bmj.com/content/350/bmj.h1738",
+      "capturedAtUTC": "2026-11-14T18:57:13.395761+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5454,
+      "sha256": "278cc3239f5c865dae45e0a79ba9398cea9475c8fca29a1e10f3c8e958e66a56",
+      "sourceId": "cent-publisher"
+    },
+    {
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+      "capturedAtUTC": "2026-11-14T18:54:14.117459+00:00",
+      "status": 200,
+      "finalURL": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-10",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 269831,
+      "sha256": "72bdebbb9e9662482f885f6585eb3bb61108c3e4f647b1899fe15cc1487a2826",
+      "sourceId": "cochrane-10"
+    },
+    {
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-11",
+      "capturedAtUTC": "2026-11-14T18:54:15.023658+00:00",
+      "status": 200,
+      "finalURL": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-11",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 248946,
+      "sha256": "d5ad89e0876cb92c7405e0e4ea4bf81a84140e5f3f10fc76eedcdd1fb9364c9b",
+      "sourceId": "cochrane-11"
+    },
+    {
+      "url": "https://www.consort-spirit.org/spiriteande22/item-22-allocation-concealment-mechanism",
+      "capturedAtUTC": "2026-11-14T18:54:16.822796+00:00",
+      "status": 200,
+      "finalURL": "https://www.consort-spirit.org/spiriteande22/item-22-allocation-concealment-mechanism",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 665132,
+      "sha256": "630f6573456a3f56059a70707824ee4cf81805f9fcd1d7f6ac3e4f5c877990f9",
+      "sourceId": "concealment"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pmed.1004587",
+      "capturedAtUTC": "2026-11-14T18:54:02.883567+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1371%2Fjournal.pmed.1004587",
+      "contentType": "application/json",
+      "bytes": 28876,
+      "sha256": "ea7ec54ef0255b7b46b35087dc35b5319b1e1801b64ebb0204804506c030a309",
+      "sourceId": "consort-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pmed.1004587%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:02.157585+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pmed.1004587%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 21534,
+      "sha256": "431d52edbbe75d0080870b834a9524c33f6cc678bd76719a6b56c09e5dec0124",
+      "sourceId": "consort-epmc"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11996237/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:56:02.882166+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11996237/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 147193,
+      "sha256": "b8191745783d9f0df0974f33d0b00042716235151dbe17ee2503ca75c34be15c",
+      "sourceId": "consort-xml"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pbio.2005282",
+      "capturedAtUTC": "2026-11-14T18:53:57.298479+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1371%2Fjournal.pbio.2005282",
+      "contentType": "application/json",
+      "bytes": 13075,
+      "sha256": "5f6597544bb3087875ddcf2b32ca42dc7ae146ab8daeb379498d1869a7042524",
+      "sourceId": "experimental-unit-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pbio.2005282%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:56.602794+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pbio.2005282%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5926,
+      "sha256": "925d5ff79786f2ceda5b92da0161cd731d78499703bd2191fca63cffbe9e3abb",
+      "sourceId": "experimental-unit-epmc"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5902037/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:55:41.420983+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5902037/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 86419,
+      "sha256": "bf4bbce2b25af343b8523391faeb4aadc4a344fc020c92172db874768e19f54a",
+      "sourceId": "experimental-unit-xml"
+    },
+    {
+      "url": "https://www.fda.gov/media/162416/download",
+      "capturedAtUTC": "2026-11-14T19:01:05.577411+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/162416/download",
+      "contentType": "application/pdf",
+      "bytes": 324708,
+      "sha256": "40284a050aab0037799072b2340e37d4b02ab6f7f2339fff6ea1cd55673a9563",
+      "sourceId": "fda-multiple-endpoints-pdf"
+    },
+    {
+      "url": "https://www.fda.gov/media/78504/download",
+      "capturedAtUTC": "2026-11-14T18:57:13.508085+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/78504/download",
+      "contentType": "application/pdf",
+      "bytes": 686548,
+      "sha256": "9eb8993e8be5ce94d6accb24f35d179993bb48f2899d275b4d0f837944cbfc61",
+      "sourceId": "fda-noninferiority-pdf"
+    },
+    {
+      "url": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "capturedAtUTC": "2026-11-14T18:54:15.885915+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/patients/drug-development-process/step-3-clinical-research",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 44143,
+      "sha256": "d0e5b0c62806ecae73cd5abef9e79437525ed9bcd36fedd2ad6926e3b1ce875b",
+      "sourceId": "fda-phases"
+    },
+    {
+      "url": "https://www.fda.gov/patients/drug-development-process/step-2-preclinical-research",
+      "capturedAtUTC": "2026-11-14T18:54:16.227065+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/patients/drug-development-process/step-2-preclinical-research",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 31880,
+      "sha256": "8928d31b5238da75f661be142b8ea711561bd062cf2654bb4f3059117a8bddf4",
+      "sourceId": "fda-preclinical"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fnmeth.3853",
+      "capturedAtUTC": "2026-11-14T18:53:55.925153+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fnmeth.3853",
+      "contentType": "application/json",
+      "bytes": 19150,
+      "sha256": "2e6687b7178069dd1e5eeff72b70e7613f1d03871844c6af9e70f1a4cdf7dfba",
+      "sourceId": "growth-rate-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fnmeth.3853%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:55.705102+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fnmeth.3853%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7184,
+      "sha256": "37df3b9b28a1b3de4a3a7dfd379288d1d4fa3436aa8fab7080a9cfb850e29f8d",
+      "sourceId": "growth-rate-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4887336",
+      "capturedAtUTC": "2026-11-14T18:57:12.460833+00:00",
+      "status": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4887336",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 129162,
+      "sha256": "42813832aed9153c34c1d16f72f84e7e5a4e3f32a603f9618a2272f46665ba87",
+      "sourceId": "growth-rate-ncbi-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4887336/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:55:38.595463+00:00",
+      "status": 500,
+      "error": "HTTP Error 500: ",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "89a2c1585694c27b2807815eaec0095536fd5c1feaeb5d12a2d2e58a3d32d030",
+      "sourceId": "growth-rate-xml"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8345/2667312/9e6d89ad9b28/rssa0172-0137-m12.jpg",
+      "capturedAtUTC": "2026-11-14T19:01:05.577033+00:00",
+      "status": 200,
+      "finalURL": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8345/2667312/9e6d89ad9b28/rssa0172-0137-m12.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 3357,
+      "sha256": "e5db9369c725441191a5f286e8dedb690c84eab82b97eedb04ed750c81332018",
+      "sourceId": "higgins-equation-12-jpg"
+    },
+    {
+      "url": "https://www.fda.gov/media/71336/download",
+      "capturedAtUTC": "2026-11-14T18:57:13.500529+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/71336/download",
+      "contentType": "application/pdf",
+      "bytes": 112494,
+      "sha256": "f64a79a9800d523e50ac3c33af6fbd5de0c229b984e51b224bd5d58c26b12325",
+      "sourceId": "ich-e9-pdf"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9250266+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:01.518147+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9250266+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5033,
+      "sha256": "db63e9bb1d200375626aad111b4c311240b0ba9b5f165e5d5ad5293b04dae28d",
+      "sourceId": "indirect-comparison-epmc"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1056%2FNEJMoa1513750",
+      "capturedAtUTC": "2026-11-14T18:54:07.172831+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1056%2FNEJMoa1513750",
+      "contentType": "application/json",
+      "bytes": 9540,
+      "sha256": "624a7dbef57bb7aa04bcb26a6943a7a3624aecb2c45aa768cd1a5f8bad0746f7",
+      "sourceId": "ispy-neratinib-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1513750%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:07.112457+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1513750%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 101257,
+      "sha256": "a72e810acbff4688dee539aeda0b361057a0cdbf806bce838af27c81c7cfd7c2",
+      "sourceId": "ispy-neratinib-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5259558",
+      "capturedAtUTC": "2026-11-14T19:01:05.577367+00:00",
+      "status": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5259558",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 82777,
+      "sha256": "e152990cc558d743fd16125100bd0571fc795a4642a0116284d76a3d90ae7520",
+      "sourceId": "ispy-neratinib-ncbi-paced-xml"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5259558",
+      "capturedAtUTC": "2026-11-14T18:57:13.142218+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests",
+      "contentType": "application/json",
+      "bytes": 111,
+      "sha256": "1a5f1d3159c2220a3b76a5f5932beb5d72f6da366a10237fdf14917e5521be2f",
+      "sourceId": "ispy-neratinib-ncbi-xml"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5259558/",
+      "capturedAtUTC": "2026-11-14T18:58:22.200518+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5259558/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21471,
+      "sha256": "f12f2d2ae1ba6847daab5e990e13a255bd632bf3d985dcd1f11ee7cf5bdbd3bd",
+      "sourceId": "ispy-neratinib-pmc-html"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5259558/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:56:06.124130+00:00",
+      "status": 500,
+      "error": "HTTP Error 500: ",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "465424380dc2c356721527b1fcbbb9de67f54aef4e581401dd6bbfe669a46c70",
+      "sourceId": "ispy-neratinib-xml"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1056%2FNEJMoa1513749",
+      "capturedAtUTC": "2026-11-14T18:54:08.413724+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1056%2FNEJMoa1513749",
+      "contentType": "application/json",
+      "bytes": 9065,
+      "sha256": "c445f79e038f392933b8d82acd18b0394fbeeeb6ac9a1bd306b6188f380ba636",
+      "sourceId": "ispy-veliparib-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1513749%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:07.412321+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1056%2FNEJMoa1513749%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 101064,
+      "sha256": "b6265af41b67bf8018cc9ff68749da1c909cd2d1c0e9a9c4494b9f45d44d57c0",
+      "sourceId": "ispy-veliparib-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5259561",
+      "capturedAtUTC": "2026-11-14T18:57:13.150994+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests",
+      "contentType": "application/json",
+      "bytes": 111,
+      "sha256": "1a5f1d3159c2220a3b76a5f5932beb5d72f6da366a10237fdf14917e5521be2f",
+      "sourceId": "ispy-veliparib-ncbi-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5259561/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:56:06.969973+00:00",
+      "status": 500,
+      "error": "HTTP Error 500: ",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "762ee4880d61ee72353b8f750ea8851d029b7d70fad7fa72a6390e45b185687a",
+      "sourceId": "ispy-veliparib-xml"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0167167",
+      "capturedAtUTC": "2026-11-14T18:54:13.778977+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1371%2Fjournal.pone.0167167",
+      "contentType": "application/json",
+      "bytes": 18589,
+      "sha256": "272708aada9375677b65f252393d672c53a12a6b57441c870de2b3d90e2295bb",
+      "sourceId": "n-of-1-variation-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pone.0167167%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:08.650670+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pone.0167167%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5020,
+      "sha256": "56f6eee6cea25309001aa45a534f9773270793cc01745b01b63b3a24ed24fda0",
+      "sourceId": "n-of-1-variation-epmc"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5131970/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:56:13.532906+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5131970/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 186263,
+      "sha256": "9981799c995a0b8c5893f62b82ac2b721f7a84994bd782e6b1d35167cdba9951",
+      "sourceId": "n-of-1-variation-xml"
+    },
+    {
+      "url": "https://www.cancer.gov/research/participate/how/observational-studies",
+      "capturedAtUTC": "2026-11-14T18:54:16.691211+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/research/participate/how/observational-studies",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 40824,
+      "sha256": "2203c8c3789b34af44cc71c9f11a9947242f7a92e553b13df4cb3c5c610a717b",
+      "sourceId": "nci-observational"
+    },
+    {
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "capturedAtUTC": "2026-11-14T18:54:16.389669+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 52639,
+      "sha256": "f0ffa43b46b44b80de5d7f4aba69425db32a26ba0aa0e328d02a665761987a7e",
+      "sourceId": "nci-trials"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.n71",
+      "capturedAtUTC": "2026-11-14T18:54:01.223039+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.n71",
+      "contentType": "application/json",
+      "bytes": 14486,
+      "sha256": "4d244b6a7f6a02598233b35779e1d1bca171ab08a112954a4519386e564d94f2",
+      "sourceId": "prisma-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8005924/fullTextXML",
+      "capturedAtUTC": "2026-11-14T19:07:25.981901+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8005924/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 138678,
+      "sha256": "c5e3b4a1892f0cb97ea0360d5e5b4b51ab4ea8b4e8ddabe7b441b5d464f18758",
+      "sourceId": "prisma-epmc-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.n71%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:00.545369+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.n71%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 12900,
+      "sha256": "5087262a685fc05f4b320d093925edc4453d892362d4f8887f14a86ffb2b0f53",
+      "sourceId": "prisma-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8005924",
+      "capturedAtUTC": "2026-11-14T18:57:13.218936+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests",
+      "contentType": "application/json",
+      "bytes": 111,
+      "sha256": "1a5f1d3159c2220a3b76a5f5932beb5d72f6da366a10237fdf14917e5521be2f",
+      "sourceId": "prisma-ncbi-xml"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8005924/",
+      "capturedAtUTC": "2026-11-14T18:58:22.260309+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8005924/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 21472,
+      "sha256": "308eb065419de7c89f6dc7323b9ddc1ca7851c36a0ea7bc3073d3bb549afd32f",
+      "sourceId": "prisma-pmc-html"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1038%2Fnchembio.1867",
+      "capturedAtUTC": "2026-11-14T18:56:25.345582+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1038%2Fnchembio.1867",
+      "contentType": "application/json",
+      "bytes": 24413,
+      "sha256": "31dba285535dd78de6c0e9abff05cc7d73757050c45e81c23b54323effe821c7",
+      "sourceId": "probes-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fnchembio.1867%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:56:14.823878+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1038%2Fnchembio.1867%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 21923,
+      "sha256": "3ac56da8a2aec70ad121ca99f25e509d1490fadbd158476e1f8148a1f9d8d92b",
+      "sourceId": "probes-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4706458",
+      "capturedAtUTC": "2026-11-14T18:57:13.283329+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests",
+      "contentType": "application/json",
+      "bytes": 111,
+      "sha256": "1a5f1d3159c2220a3b76a5f5932beb5d72f6da366a10237fdf14917e5521be2f",
+      "sourceId": "probes-ncbi-xml"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4706458/",
+      "capturedAtUTC": "2026-11-14T18:58:21.822438+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4706458/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 208930,
+      "sha256": "a3ba9cdeaa92e2ba9fc188a493eaa47e0b34e26ff16ea85748eec7c0ea47ddd3",
+      "sourceId": "probes-pmc-html"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1111%2Fj.1467-985X.2008.00552.x",
+      "capturedAtUTC": "2026-11-14T18:54:00.238854+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1111%2Fj.1467-985X.2008.00552.x",
+      "contentType": "application/json",
+      "bytes": 26795,
+      "sha256": "c7a070a3ce02c67f38bea8120fad78e945ecad292a7f84fd6c2afc3a1977a272",
+      "sourceId": "random-effects-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fj.1467-985X.2008.00552.x%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:59.576507+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fj.1467-985X.2008.00552.x%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 4624,
+      "sha256": "85915e100f7c3da86a846f0d89de6d6adfb90b8187ff8d42db8f9168436b3555",
+      "sourceId": "random-effects-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2667312",
+      "capturedAtUTC": "2026-11-14T18:57:12.950322+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests",
+      "contentType": "application/json",
+      "bytes": 111,
+      "sha256": "1a5f1d3159c2220a3b76a5f5932beb5d72f6da366a10237fdf14917e5521be2f",
+      "sourceId": "random-effects-ncbi-xml"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2667312/",
+      "capturedAtUTC": "2026-11-14T18:58:21.822054+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2667312/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 253793,
+      "sha256": "452ed3dd3677e42b432b713cd204ff5878913f1e79017300305064a5de2e6077",
+      "sourceId": "random-effects-pmc-html"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2667312/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:56:01.590588+00:00",
+      "status": null,
+      "error": "The read operation timed out",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceId": "random-effects-xml"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1002%2Fcpch.21",
+      "capturedAtUTC": "2026-11-14T18:53:56.333364+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1002%2Fcpch.21",
+      "contentType": "application/json",
+      "bytes": 8616,
+      "sha256": "a5d61254aa516f83e5d07dfbfd63ae33c4c55c5030c2f017e85ebb573ac82cc5",
+      "sourceId": "sensitivity-method-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fcpch.21%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:56.235270+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fcpch.21%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6530,
+      "sha256": "d2f79b1f1195a132d2ad83d540f969ff3143a32d513a2a9778d18b66b93d224a",
+      "sourceId": "sensitivity-method-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5538315",
+      "capturedAtUTC": "2026-11-14T18:57:12.874244+00:00",
+      "status": 429,
+      "error": "HTTP Error 429: Too Many Requests",
+      "contentType": "application/json",
+      "bytes": 111,
+      "sha256": "1a5f1d3159c2220a3b76a5f5932beb5d72f6da366a10237fdf14917e5521be2f",
+      "sourceId": "sensitivity-method-ncbi-xml"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5538315/",
+      "capturedAtUTC": "2026-11-14T18:58:21.822281+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5538315/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 211864,
+      "sha256": "fcfd574c66ef0945e57701f432108ba3dd29dbc3523b2b4a5d2a3c3003e3f59c",
+      "sourceId": "sensitivity-method-pmc-html"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5538315/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:55:39.788298+00:00",
+      "status": 500,
+      "error": "HTTP Error 500: ",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "1c4a71940473507973045712d4d50e8115d92142e9fe97f96d7b8e482c1e002f",
+      "sourceId": "sensitivity-method-xml"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1371%2Fjournal.pmed.0040296",
+      "capturedAtUTC": "2026-11-14T18:53:54.716002+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1371%2Fjournal.pmed.0040296",
+      "contentType": "application/json",
+      "bytes": 8085,
+      "sha256": "56073855ef99241bc4839a583580af5c2a1d3d8e2c5561e841a053ee78134c5e",
+      "sourceId": "strobe-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2020495/fullTextXML",
+      "capturedAtUTC": "2026-11-14T19:07:25.982170+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2020495/fullTextXML",
+      "contentType": "application/xml",
+      "bytes": 54882,
+      "sha256": "fc8eb1cfedd0324d0b6f046d5cdcc87bc4d804ed1a0c07d90e108faa29cba4b2",
+      "sourceId": "strobe-epmc-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pmed.0040296%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:54.715757+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1371%2Fjournal.pmed.0040296%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5934,
+      "sha256": "dff5b789411fc317117a3734be7a152d92fa15f3beda4a3722df9157839a9127",
+      "sourceId": "strobe-epmc"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj.c117",
+      "capturedAtUTC": "2026-11-14T18:54:06.870618+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj.c117",
+      "contentType": "application/json",
+      "bytes": 2321,
+      "sha256": "f3b8d158fb0fccb2927b3fd261a36c16882553ba54f58f510b8452779a667af6",
+      "sourceId": "subgroup-credibility-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.c117%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:54:06.523372+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj.c117%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 2882,
+      "sha256": "ff92227f254626e06d7d349b7233e492f1edbc6aac607c86af879c987d7a7820",
+      "sourceId": "subgroup-credibility-epmc"
+    },
+    {
+      "url": "https://www.bmj.com/content/340/bmj.c117",
+      "capturedAtUTC": "2026-11-14T18:57:13.483970+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5429,
+      "sha256": "ee970a256511df34b1a777719643442c36f51090b67befbbfc6b123947c61d95",
+      "sourceId": "subgroup-credibility-publisher"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28379339+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:56:25.127068+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28379339+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6362,
+      "sha256": "4e271187f7cba481d6a1adfbe7d4ed2c1ed455a22a80556d0f7b9c822d013efb",
+      "sourceId": "synergy-reference-epmc"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016%2Fj.jclinepi.2016.04.014",
+      "capturedAtUTC": "2026-11-14T18:53:55.693596+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.jclinepi.2016.04.014",
+      "contentType": "application/json",
+      "bytes": 11164,
+      "sha256": "7a7da19822c2b8c5ae7aeb039a06dda67c3b638bc3af80ed98654fff8e2adb6d",
+      "sourceId": "target-trial-clock-crossref"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jclinepi.2016.04.014%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:54.994292+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.jclinepi.2016.04.014%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6947,
+      "sha256": "490435767681fe83a8bfc9ba1cf3c1595f984da7454c4717b8c8707c8b94d671",
+      "sourceId": "target-trial-clock-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5124536",
+      "capturedAtUTC": "2026-11-14T18:57:12.460704+00:00",
+      "status": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=5124536",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 54920,
+      "sha256": "95f274fb7264b6de8a132f8e64fc2d444064f19c4b08f43f4ecc1521b793074e",
+      "sourceId": "target-trial-clock-ncbi-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5124536/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:55:38.595826+00:00",
+      "status": 500,
+      "error": "HTTP Error 500: ",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "001795294ccbed5282224a2fb7f25c43aa8eb49e38339e6c0cfddb6c74492d38",
+      "sourceId": "target-trial-clock-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC4832051&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T18:53:54.716100+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC4832051&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6370,
+      "sha256": "4370abe36372fc3623fc2dd5592dfd52ed2597f0ff990e70756b6eead0a24b4e",
+      "sourceId": "target-trial-guide-epmc"
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4832051",
+      "capturedAtUTC": "2026-11-14T18:57:12.460406+00:00",
+      "status": 200,
+      "finalURL": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4832051",
+      "contentType": "text/xml; charset=UTF-8",
+      "bytes": 6934,
+      "sha256": "76e7eebe967366998807489e6d1f6cf73550c1461f0eca55d0574c24ed2bc396",
+      "sourceId": "target-trial-guide-ncbi-xml"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4832051/fullTextXML",
+      "capturedAtUTC": "2026-11-14T18:55:38.595766+00:00",
+      "status": 500,
+      "error": "HTTP Error 500: ",
+      "contentType": "application/json",
+      "bytes": 150,
+      "sha256": "0e0661f45bb5e8f1c040e64213a06bd6ddda410c183d5693fcf6b237ad18febc",
+      "sourceId": "target-trial-guide-xml"
+    }
+  ],
+  "wholeBodyReads": 19,
+  "wholeSourceDocumentsRead": 0
+}

@@ -1,0 +1,40 @@
+{
+  "findings": [
+    {
+      "id": "SB30-F01",
+      "finding": "Current registered forest paragraph gave rounded outputs without all explicit calculation steps.",
+      "disposition": "One appended note preserves the chosen variance/weights, individual intervals, pooled standard error and 2009 three-degree prediction calculation; all prior notes remain byte-identical."
+    },
+    {
+      "id": "SB30-F02",
+      "finding": "An equal starting and final treated count does not identify the absence of cell death.",
+      "disposition": "One appended note makes the turnover ambiguity and required death readout explicit as inference from the fictional counts."
+    },
+    {
+      "id": "SB30-F03",
+      "finding": "The 65/35 mixture and the 44/36 reversal are different invented datasets.",
+      "disposition": "Both recomputed separately and retained under their proper owners; the former remains in true PR371."
+    },
+    {
+      "id": "SB30-F04",
+      "finding": "A previously supporting 746-byte brief directly specifies scientific analysis roles and selection.",
+      "disposition": "Explicit supporting-to-teaching reassessment under the same content rule as the six new scientific briefs; earlier complete role decision retained in the packet."
+    },
+    {
+      "id": "SB30-F05",
+      "finding": "The later-only I-SPY 2 clause requires actual platform evidence.",
+      "disposition": "Two resolved abstracts and four raw neratinib-method paragraphs verify subtype-specific assignment incorporating accumulated outcomes. Original clauses receive no later-only evidence credit."
+    },
+    {
+      "id": "SB30-F06",
+      "finding": "Metadata stubs, access failures and truncated diagnostic output cannot count as reading.",
+      "disposition": "Failed routes retained. Bounded paragraphs re-read and acknowledged after intact output. Two private extractor attempts initially included nontext files; corrected exclusion changed no source bytes or read acknowledgment."
+    },
+    {
+      "id": "SB30-F07",
+      "finding": "The chosen 2009 prediction formula differs from the current Cochrane display.",
+      "disposition": "Actual equation 12 viewed whole; k-minus-two is retained as the stipulated historical method, without universal-default endorsement."
+    }
+  ],
+  "independentAcceptance": false
+}

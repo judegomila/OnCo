@@ -1,0 +1,162 @@
+{
+  "checks": [
+    {
+      "id": "real-world-evidence",
+      "file": "real-world-evidence.html",
+      "state": "registered-local-root-after",
+      "sha256": "fd63c67b0978c5a05ddf90cc166d926eb7269614a366ddbab4aaedda4693ac59",
+      "bytes": 46490,
+      "recordSHA256": "7488ab7784a9e6a90e68ea13a914e6bef237ddbbb5942aaf94b9b88b3bb5fdf2",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "cross-trial-comparison",
+      "file": "cross-trial-comparison.html",
+      "state": "registered-local-root-after",
+      "sha256": "b6c24cd729f55d45b4457dafb76c128a3106b477eae8bcbd070efe33df005293",
+      "bytes": 30567,
+      "recordSHA256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "case-report",
+      "file": "case-report.html",
+      "state": "registered-local-root-after",
+      "sha256": "e3f4eb01b3ccec249e8f5dcacd2b7fde46e45d89a1b5bcc2458910de42d73300",
+      "bytes": 19616,
+      "recordSHA256": "e2622e8023792d9159262142adb326e8540737b8f299f7866d707ea19d556965",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "meta-analysis",
+      "file": "meta-analysis.html",
+      "state": "registered-local-root-after",
+      "sha256": "afc425a6f0628ad07364ea48db1e3cd567a01a1bf14ab77a77b919e21a319c2a",
+      "bytes": 26321,
+      "recordSHA256": "bbc7cee431dba9553fabfe65d74167daf649c75872125613ca3e2e4aa422d01a",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "controlled-perturbation",
+      "file": "controlled-perturbation.html",
+      "state": "registered-local-root-after",
+      "sha256": "444778cad982055f593ef944f9e23fcc978720d6f68f30fe66e10808f758434e",
+      "bytes": 32481,
+      "recordSHA256": "9dde43ada2c5fb0dc2bba54a5f817627a00a7493577fddb6ea4dbab907673416",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "trial-phases",
+      "file": "trial-phases.html",
+      "state": "registered-local-root-after",
+      "sha256": "06e78386bd18c70e54a164742c648ff52ecbe561d196cc0faba07813130a74ba",
+      "bytes": 38952,
+      "recordSHA256": "a409394186a6606931f5f020cf9fb246ce9bf706954f32bb889d60ee2c387872",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "randomised-trial",
+      "file": "randomised-trial.html",
+      "state": "registered-local-root-after",
+      "sha256": "9687f8c63d9b9843885d895aa75dd60da40a376cfe61e743964a57cdd6ec772e",
+      "bytes": 34140,
+      "recordSHA256": "4a0ee17c26bfb18cabc767ce6dc7e9c2701a85c4c61ed5b3cb6a8c2d37b7e280",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "preclinical",
+      "file": "preclinical.html",
+      "state": "registered-local-root-after",
+      "sha256": "c77620a035dd66c4bef3df55159ce303c7101e3da899e5e62da4ff4d1c8cbdf6",
+      "bytes": 44530,
+      "recordSHA256": "b4683502ecd69eecfa851df5cacf615435e9d6c192c6d5030e06fc7e5e031167",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "n-of-1-trial",
+      "file": "n-of-1-trial.html",
+      "state": "registered-local-root-after",
+      "sha256": "55e30e7f9a74ea05d045a8a98de08cc426a66bdd1d7ed7a34e30cabee67c4a18",
+      "bytes": 28634,
+      "recordSHA256": "b8e1e6b93a292b66cfa7978252f02bbdc7fa52fbbbed0f89cb1f857a22de3824",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "trial-protocol",
+      "file": "trial-protocol.html",
+      "state": "registered-local-root-after",
+      "sha256": "1e2a4412205069d4e80c6de89f56711e2ee71a5b25d0913dffedf1c85f8e410a",
+      "bytes": 43573,
+      "recordSHA256": "049d84eb8d12130185aa571aaef99ba8459ff70d5e4018da053843acc62a94f0",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "non-inferiority",
+      "file": "non-inferiority.html",
+      "state": "registered-local-root-after",
+      "sha256": "79391134484b4c9522efec07318b87605c3e0940902facd036416d2ef910fa7f",
+      "bytes": 41018,
+      "recordSHA256": "1cdcb7b3ab9ee83605e16933a1a53acd7831649a5731232b2eb06efbc009fc5f",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "intention-to-treat",
+      "file": "intention-to-treat.html",
+      "state": "registered-local-root-after",
+      "sha256": "ebb988314e409026a1f049ff527c31e0efa2675b6f29ce38ca4db881490a4820",
+      "bytes": 42510,
+      "recordSHA256": "f3691fe2c2ed723d40a73aaa8cdcc1de95ed8c9c8a6b1780fdb899878c930d88",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "prespecified-vs-post-hoc",
+      "file": "prespecified-vs-post-hoc.html",
+      "state": "registered-local-root-after",
+      "sha256": "b2ef59e26cf076042c989e8bd85f5af27007d6339955069fc2f8005d7b2684f0",
+      "bytes": 31699,
+      "recordSHA256": "2818973fefca64e9d2a51ddebcfc45ae8fafcaa2fff7104210d57fd63496068d",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "subgroup-analysis",
+      "file": "subgroup-analysis.html",
+      "state": "registered-local-root-after",
+      "sha256": "fca80bbf3b18a9aeaf1d4a62c758681505ef35afc192db0aaf61ad6923f1f7a5",
+      "bytes": 26121,
+      "recordSHA256": "f93d0c0cf716c0e369c9dd3dd689d6524b57b2136442815f8e0380c7a757403f",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "meta-analysis",
+      "file": "meta-analysis-before.html",
+      "state": "captured-before-record-in-current-component",
+      "sha256": "33698822c2e6a17a517a2cb67d770820efefa8b977ef549cfe19e11d07e5de54",
+      "bytes": 25728,
+      "recordSHA256": "b7b2c63478b45193c6584c531fceb863565054732e9331f29cb7a37fa3e85940",
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "controlled-perturbation",
+      "file": "controlled-perturbation-before.html",
+      "state": "captured-before-record-in-current-component",
+      "sha256": "4e986ebdbc0acdba3c166d4ddccedc636328da0bfec456a279c107ff5ab412d7",
+      "bytes": 31480,
+      "recordSHA256": "bdaffd8f272800428c0c9b9a5c278952905d2fcbc01164378b456cdabbc51c71",
+      "allSourceLinksPresent": true
+    }
+  ],
+  "actualRegisteredRootReaders": 14,
+  "beforeReaderCaptures": 2,
+  "totalCanonicalReaderCaptures": 16,
+  "selectedSchemaParses": 16,
+  "controlledLayerFullReaderCaptures": 0,
+  "actualTldrFragments": 0,
+  "ordinaryLayerRestored": true,
+  "rootGraphRecords": 23091,
+  "changedCanonicalOwners": [
+    "meta-analysis",
+    "controlled-perturbation"
+  ],
+  "newRegistrations": 0,
+  "hostedBrowserHydrationAccessibilityOrIndependentAcceptance": false
+}

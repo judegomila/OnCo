@@ -1,0 +1,689 @@
+{
+  "anchors": [
+    {
+      "unit": "SB30-001",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "86b4a781fe5f0180d165792667faba13005ff2058aa22008029658d297182f3b",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-002",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "ad7817830466c3226359927909ebfd261e38b5f51ccf3ef61080cf4e92a6f7a9",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-003",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "50ae8c24be6d4990b1d33c07c9c78699a13783efd84bd57726c7c8f7eed78d94",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-003",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "ad7817830466c3226359927909ebfd261e38b5f51ccf3ef61080cf4e92a6f7a9",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-004",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "50ae8c24be6d4990b1d33c07c9c78699a13783efd84bd57726c7c8f7eed78d94",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-006",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "50ae8c24be6d4990b1d33c07c9c78699a13783efd84bd57726c7c8f7eed78d94",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-007",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "86b4a781fe5f0180d165792667faba13005ff2058aa22008029658d297182f3b",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-007",
+      "recordId": "real-world-evidence",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "50ae8c24be6d4990b1d33c07c9c78699a13783efd84bd57726c7c8f7eed78d94",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-008",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-009",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-010",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-011",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-012",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-013",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-013",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "0a82d94ac5b321277feae672368e8214722835b58930d5502c2b1ea86d57bb7c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-014",
+      "recordId": "cross-trial-comparison",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "0a82d94ac5b321277feae672368e8214722835b58930d5502c2b1ea86d57bb7c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-015",
+      "recordId": "controlled-perturbation",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "9cffdcd03c258cc864f0e3de2b800ed82a9826ef1383464d50198853309ad471",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-015",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "3dc89241f95a440cd82ef42ad63a16a78711904b3c43a6ed4f1ac11602c50c41",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-016",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "a988b8f6aed22139ef4b352a69527090a3a572d2419d31804e4d8042e574adef",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-017",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "a988b8f6aed22139ef4b352a69527090a3a572d2419d31804e4d8042e574adef",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-018",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "a988b8f6aed22139ef4b352a69527090a3a572d2419d31804e4d8042e574adef",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-019",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "a988b8f6aed22139ef4b352a69527090a3a572d2419d31804e4d8042e574adef",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-019",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 4,
+      "passageSha256": "e546eb36a002879e649929dd5ac2edb4f0d977ece8d0b095f65379d44fa7ba4f",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-020",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "df399fea216b250eeff5aedfaab48b7851e9fd6baf54dc0080db5f05b87e0171",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-020",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 6,
+      "passageSha256": "622f5183caf804de8486a0c57a87e504b4da259c2ba8d6792c43f960ee4a2b47",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-021",
+      "recordId": "controlled-perturbation",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "3dc89241f95a440cd82ef42ad63a16a78711904b3c43a6ed4f1ac11602c50c41",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-022",
+      "recordId": "preclinical",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "81b9854fdd81a49ee974456533d3b2436e935cb7d73def3c8404c80d0b24f5a0",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-022",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "fbf312df5f8a6111edaf782e3fb5890d7b9c240bff92e1bfeac0f2f120f0490e",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-023",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "fbf312df5f8a6111edaf782e3fb5890d7b9c240bff92e1bfeac0f2f120f0490e",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-023",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "ff6a588daf2089c9e91b41c2e213d758c6c70ad6c665606f0352e2583edd4e94",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-024",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "9d6a1f0031018cc4ae4ff79dc51e096ecd99ed000f1b83f75035998d3b3b2408",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-025",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "9d6a1f0031018cc4ae4ff79dc51e096ecd99ed000f1b83f75035998d3b3b2408",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-026",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "b16b85644558ec2b14112e1b1ba5855035f7974f51ab5beb1844e7bc36e20535",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-027",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "b16b85644558ec2b14112e1b1ba5855035f7974f51ab5beb1844e7bc36e20535",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-028",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "b16b85644558ec2b14112e1b1ba5855035f7974f51ab5beb1844e7bc36e20535",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-029",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "ff6a588daf2089c9e91b41c2e213d758c6c70ad6c665606f0352e2583edd4e94",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-029",
+      "recordId": "preclinical",
+      "field": "notes",
+      "index": 4,
+      "passageSha256": "635480c13c8f1e769eab7362190b70f98a66df9a659101b4e13fcecfeffd120b",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-030",
+      "recordId": "meta-analysis",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "72eedbe1aa9c14df05da733f4093bd8ad3f62e7c1576eaefdb5179ed85bdcccd",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-031",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "45245011d158f3a7e9e7590b3a3e7824e643782fe2892e8b711d1683a6290666",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-032",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "5a9a3608798d0681564774eadbbe38f7ac9e8be21f80ec3c9511efdec9b9adee",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-033",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "916261bc98bbf18fde20e1caf6075b4e24386e903f330d3c2a23625f1a048d54",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-034",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "916261bc98bbf18fde20e1caf6075b4e24386e903f330d3c2a23625f1a048d54",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-034",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 6,
+      "passageSha256": "a75bb8c3f196a15aa77427ede33cfddbf372251e7406ed753b2780fdcc4cbd8a",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-035",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "916261bc98bbf18fde20e1caf6075b4e24386e903f330d3c2a23625f1a048d54",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-035",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 6,
+      "passageSha256": "a75bb8c3f196a15aa77427ede33cfddbf372251e7406ed753b2780fdcc4cbd8a",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-036",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 4,
+      "passageSha256": "a9e3b678714c12bc77f64296d24f121692245d908af10ed8ea53dd5c8b78e845",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-037",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 4,
+      "passageSha256": "a9e3b678714c12bc77f64296d24f121692245d908af10ed8ea53dd5c8b78e845",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-038",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 3,
+      "passageSha256": "d26153f07457566e16647b47a03b349975411cda4cd39a76a8a1a457c3ffba80",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-038",
+      "recordId": "meta-analysis",
+      "field": "notes",
+      "index": 5,
+      "passageSha256": "6fde4ebb3de6df40c764b75e375978b00a974a3540f62ba2d7fcf8b6951a4c9c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-039",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "4a1524d761b6df3acefd322dec54e5d24ac3da4640653e4df6f22f419fa5e87b",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-039",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "4e91b0dbbb6a025ed4462bb361acab073832c421df1f4072bf76dbd7368e13d1",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-040",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "4a1524d761b6df3acefd322dec54e5d24ac3da4640653e4df6f22f419fa5e87b",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-041",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "be2a428d410ca08b54c2a18fcb06d7f0095d77b0ec72554e0edde382ba83fdd6",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-042",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "be2a428d410ca08b54c2a18fcb06d7f0095d77b0ec72554e0edde382ba83fdd6",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-043",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "4e91b0dbbb6a025ed4462bb361acab073832c421df1f4072bf76dbd7368e13d1",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-044",
+      "recordId": "subgroup-analysis",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "e9466310f7f96017c15848e8b4512cbd2cd6f8a63073ab604e8dc5cc673eba06",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-044",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "96cc324cb79cca041e6c7e273e7a9c1dcecb1c9bf68d7754c3aa8267328f4be1",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-045",
+      "recordId": "prespecified-vs-post-hoc",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "4e91b0dbbb6a025ed4462bb361acab073832c421df1f4072bf76dbd7368e13d1",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-045",
+      "recordId": "subgroup-analysis",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "35ef4cc9be5936b2fd21d4f090c0b2419a74396013032422ce72340605c2f7e1",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-046",
+      "recordId": "trial-phases",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "8c36a07b02778c4fd45a94436bf646dcf1d72b523ced06acb6825b4b0ec69c27",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-046",
+      "recordId": "trial-phases",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "53ade3e60eb38d86b7f52fcd29dd19b5ffe78201a45d2f965e3ac51d8eef99dd",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-047",
+      "recordId": "randomised-trial",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "262ec0e6cc1c4f7f61f0945b2824b28c3de93c3c407c53be8a03edc61311bd87",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-047",
+      "recordId": "randomised-trial",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "34866b9054e9d4ea1afb4660daded5562c6cc4855f6a09ebe8c85e4976ef1450",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-048",
+      "recordId": "randomised-trial",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "262ec0e6cc1c4f7f61f0945b2824b28c3de93c3c407c53be8a03edc61311bd87",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-048",
+      "recordId": "randomised-trial",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "34866b9054e9d4ea1afb4660daded5562c6cc4855f6a09ebe8c85e4976ef1450",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-049",
+      "recordId": "randomised-trial",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "34866b9054e9d4ea1afb4660daded5562c6cc4855f6a09ebe8c85e4976ef1450",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-049",
+      "recordId": "intention-to-treat",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "99f2a38332f2321e70c9f6ff3230ed098debb28a9512ae548028bd41c49c169d",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-050",
+      "recordId": "trial-phases",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "53ade3e60eb38d86b7f52fcd29dd19b5ffe78201a45d2f965e3ac51d8eef99dd",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-050",
+      "recordId": "randomised-trial",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "e07da32a78cf25dd731e259841dd757ff25ae7f578b6164fa0fefa92ff3a6ac8",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-051",
+      "recordId": "randomised-trial",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "e07da32a78cf25dd731e259841dd757ff25ae7f578b6164fa0fefa92ff3a6ac8",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-052",
+      "recordId": "trial-phases",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "53ade3e60eb38d86b7f52fcd29dd19b5ffe78201a45d2f965e3ac51d8eef99dd",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-052",
+      "recordId": "non-inferiority",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "56174a53b4b9a175412e6ceb99d6c51ed55aad8636543aa6d98920c881b48d92",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-052",
+      "recordId": "non-inferiority",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "0ff99e092e0b087b408d42a01174c428b98a670ac1c9752f896a338e692bec52",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-053",
+      "recordId": "trial-phases",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "53ade3e60eb38d86b7f52fcd29dd19b5ffe78201a45d2f965e3ac51d8eef99dd",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-054",
+      "recordId": "trial-phases",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "4d8350c5437baedbcbd237f423dcf3f89d699276d403dfc7d6135ebd37d8a727",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-055",
+      "recordId": "case-report",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "5adb56f893d47dbd84d9beb93a59dd3bb7461729e92e715f308e4c731fd803d4",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-055",
+      "recordId": "case-report",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "92ad5bd9880df7e365402907300444551fae5587e8b4a9de89345c29942a8587",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-056",
+      "recordId": "n-of-1-trial",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "b0cbfea42ff0600ec4eed0bad39d8b4d6a562d9409ae8f70b1d2c07a84f75526",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-057",
+      "recordId": "n-of-1-trial",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "25899947406aeea4445c513d16939f79d3ccba0a56b0fba98df544d21c5f36df",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-058",
+      "recordId": "n-of-1-trial",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "d5fae97b173b691ed5e676fdd150ceb87b9de01db695ce5dbc89f23c8deb5f83",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-059",
+      "recordId": "case-report",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "870a8ba1f439c98bd6b44a8c1d50c85a27c61cc6a13df831eb5c7205a039f4fe",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-060",
+      "recordId": "case-report",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "92ad5bd9880df7e365402907300444551fae5587e8b4a9de89345c29942a8587",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-060",
+      "recordId": "n-of-1-trial",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "b0cbfea42ff0600ec4eed0bad39d8b4d6a562d9409ae8f70b1d2c07a84f75526",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-061",
+      "recordId": "case-report",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "92ad5bd9880df7e365402907300444551fae5587e8b4a9de89345c29942a8587",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "SB30-062",
+      "recordId": "n-of-1-trial",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "25899947406aeea4445c513d16939f79d3ccba0a56b0fba98df544d21c5f36df",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    }
+  ],
+  "count": 85,
+  "allPass": true,
+  "rootOnly": true,
+  "peerRecordContainmentIsSeparateFromRootGraphIntegration": true,
+  "hostedBrowserOrHydrationCheck": false
+}

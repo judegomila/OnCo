@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "id": "SB30-A01",
+      "subject": "Historical reader Escape focus and dark table/nontext contrast",
+      "status": "open",
+      "action": "Preserve prior findings; no hosted browser, keyboard, mobile or accessibility recheck in this cohort."
+    },
+    {
+      "id": "SB30-A02",
+      "subject": "Shared-owner no-native assertion in an older construction brief",
+      "status": "historical-custody-discrepancy",
+      "action": "The pinned shared owner has a native reversal figure; do not promote the older frozen-plan no-native statement into present identity."
+    },
+    {
+      "id": "SB30-A03",
+      "subject": "Locked-plan highlighted sixth choice",
+      "status": "visual-limitation",
+      "action": "Colour alone distinguishes the selected slot; no colour-vision acceptance is established."
+    },
+    {
+      "id": "SB30-A04",
+      "subject": "Original Mermaid presentation",
+      "status": "not-freshly-rendered",
+      "action": "Mermaid source read in parent context and hashed, without new pixel approval."
+    },
+    {
+      "id": "SB30-A05",
+      "subject": "True pending confounding owner",
+      "status": "unmerged-contributor-dependency",
+      "action": "The 65/35 example and direct indication explanation belong to PR371; no competing record or root integration is claimed."
+    }
+  ],
+  "newLiteratureOccurrencesScreened": 0
+}

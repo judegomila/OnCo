@@ -1,0 +1,78 @@
+[
+  {
+    "key": "ich-e9",
+    "captureSHA256": "f64a79a9800d523e50ac3c33af6fbd5de0c229b984e51b224bd5d58c26b12325",
+    "pagesReadFullyAsPDFText": [
+      {
+        "page": 1,
+        "sha256": "0b4b103597e77b569d950d49ea58b451b7322cfc74497838b5bab4d3b8009dd9"
+      },
+      {
+        "page": 9,
+        "sha256": "3a5dde9425a0b09222abd041d12e115f4e4650f2586ede93f218d7c05c86ed9e"
+      },
+      {
+        "page": 23,
+        "sha256": "dd8864dad1d7b2d8e22e79d64a8f681491d480c5501dacd67ca31e6e12322651"
+      },
+      {
+        "page": 24,
+        "sha256": "fbfbd53ab844eb858a8e14de6df07b617e3fd827bb5019dbeeab580c8072cc68"
+      },
+      {
+        "page": 25,
+        "sha256": "e2eddcb186c4b0f053d833e6388cbe3bf762fe5651b52a1519d508b658cb79c9"
+      }
+    ],
+    "wholePDFRead": false,
+    "pdfPixelReviewClaimed": false
+  },
+  {
+    "key": "fda-multiple-endpoints",
+    "captureSHA256": "40284a050aab0037799072b2340e37d4b02ab6f7f2339fff6ea1cd55673a9563",
+    "pagesReadFullyAsPDFText": [
+      {
+        "page": 1,
+        "sha256": "a046a6d7dbd790ae0c2514073d25fcf918b511599d82ef9504469e89251f1c9e"
+      },
+      {
+        "page": 8,
+        "sha256": "9d4dbfd8c9dd71e00649c23327bd7b15598fd96744f842c3cb126831dd328e3c"
+      },
+      {
+        "page": 9,
+        "sha256": "25612657c7558ea4975a42685070b32e3c9acef9f64551dcc937c3431312f9ee"
+      },
+      {
+        "page": 10,
+        "sha256": "89deaab5d3eae33eebf72f726e013082dd1c3e24af8572bb165418c8221b579d"
+      }
+    ],
+    "wholePDFRead": false,
+    "pdfPixelReviewClaimed": false
+  },
+  {
+    "key": "fda-noninferiority",
+    "captureSHA256": "9eb8993e8be5ce94d6accb24f35d179993bb48f2899d275b4d0f837944cbfc61",
+    "pagesReadFullyAsPDFText": [
+      {
+        "page": 1,
+        "sha256": "38c64287373fd2c6b07cbb1dcac52a41acf7c531459070ab7a741ed49276d57d"
+      },
+      {
+        "page": 4,
+        "sha256": "657ed9a2c176bc2edf3ceeb9e2ecf081c5a72285e88e2198e70412e4946ae06e"
+      },
+      {
+        "page": 5,
+        "sha256": "de9e83c7e936dd9fe5b6480fe5d5c1f78021160499191abd20d8c3612da21593"
+      },
+      {
+        "page": 6,
+        "sha256": "20d0f6eb8fb3b9dd8e84bb611088e87aaccb05c482a5d964200db1c0ded7e83c"
+      }
+    ],
+    "wholePDFRead": false,
+    "pdfPixelReviewClaimed": false
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "registeredRootIds": [
+    "real-world-evidence",
+    "cross-trial-comparison",
+    "case-report",
+    "meta-analysis",
+    "controlled-perturbation",
+    "trial-phases",
+    "randomised-trial",
+    "preclinical",
+    "n-of-1-trial",
+    "trial-protocol",
+    "non-inferiority",
+    "intention-to-treat",
+    "prespecified-vs-post-hoc",
+    "subgroup-analysis"
+  ],
+  "actualPeerIds": [
+    "confounding-by-indication",
+    "biomarker-cutpoint-selection"
+  ],
+  "peerHead": {
+    "pr": 371,
+    "url": "https://github.com/judegomila/OnCo/pull/371",
+    "head": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+    "state": "open",
+    "draft": true,
+    "merged": false,
+    "capturedAtUTC": "2026-11-14T19:10:12.888Z",
+    "matchesFrozenSnapshot": true,
+    "selectedPeerIds": [
+      "confounding-by-indication",
+      "biomarker-cutpoint-selection"
+    ],
+    "peerFieldsChanged": false
+  },
+  "completeRootReads": 14,
+  "completePeerReads": 2,
+  "metadataOnlyOtherRootCandidates": 39,
+  "changedRootOwners": [
+    "meta-analysis",
+    "controlled-perturbation"
+  ],
+  "newOwners": 0,
+  "newAliases": 0,
+  "newRelations": 0,
+  "rootAbsenceDoesNotImplyNewIdentity": true
+}

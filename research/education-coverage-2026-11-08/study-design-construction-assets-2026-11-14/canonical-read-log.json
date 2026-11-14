@@ -1,0 +1,133 @@
+{
+  "reads": [
+    {
+      "id": "real-world-evidence",
+      "version": "root",
+      "recordSHA256": "7488ab7784a9e6a90e68ea13a914e6bef237ddbbb5942aaf94b9b88b3bb5fdf2",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:50:36.122363+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "version": "root",
+      "recordSHA256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:50:40.601432+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "version": "root",
+      "recordSHA256": "bdaffd8f272800428c0c9b9a5c278952905d2fcbc01164378b456cdabbc51c71",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:50:46.751302+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "preclinical",
+      "version": "root",
+      "recordSHA256": "b4683502ecd69eecfa851df5cacf615435e9d6c192c6d5030e06fc7e5e031167",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:50:51.147907+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "meta-analysis",
+      "version": "root",
+      "recordSHA256": "b7b2c63478b45193c6584c531fceb863565054732e9331f29cb7a37fa3e85940",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:00.138694+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "case-report",
+      "version": "root",
+      "recordSHA256": "e2622e8023792d9159262142adb326e8540737b8f299f7866d707ea19d556965",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:04.301624+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "n-of-1-trial",
+      "version": "root",
+      "recordSHA256": "b8e1e6b93a292b66cfa7978252f02bbdc7fa52fbbbed0f89cb1f857a22de3824",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:12.193080+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "trial-phases",
+      "version": "root",
+      "recordSHA256": "a409394186a6606931f5f020cf9fb246ce9bf706954f32bb889d60ee2c387872",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:20.139681+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "randomised-trial",
+      "version": "root",
+      "recordSHA256": "4a0ee17c26bfb18cabc767ce6dc7e9c2701a85c4c61ed5b3cb6a8c2d37b7e280",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:25.264153+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "prespecified-vs-post-hoc",
+      "version": "root",
+      "recordSHA256": "2818973fefca64e9d2a51ddebcfc45ae8fafcaa2fff7104210d57fd63496068d",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:34.188118+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "subgroup-analysis",
+      "version": "root",
+      "recordSHA256": "f93d0c0cf716c0e369c9dd3dd689d6524b57b2136442815f8e0380c7a757403f",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:38.666001+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "trial-protocol",
+      "version": "root",
+      "recordSHA256": "049d84eb8d12130185aa571aaef99ba8459ff70d5e4018da053843acc62a94f0",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:46.023815+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "intention-to-treat",
+      "version": "root",
+      "recordSHA256": "f3691fe2c2ed723d40a73aaa8cdcc1de95ed8c9c8a6b1780fdb899878c930d88",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:51:56.974498+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "confounding-by-indication",
+      "version": "371",
+      "recordSHA256": "913ebeafdb064472bb08e0ebce69eaf9b72181d11111a2e29f8abca5f203033c",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:52:41.687285+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "biomarker-cutpoint-selection",
+      "version": "371",
+      "recordSHA256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:52:49.837338+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "non-inferiority",
+      "version": "root",
+      "recordSHA256": "1cdcb7b3ab9ee83605e16933a1a53acd7831649a5731232b2eb06efbc009fc5f",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T18:53:12.579920+00:00",
+      "wholeRecordScientificRecertification": false
+    }
+  ],
+  "wholeRecordScientificRecertification": false
+}

@@ -1,0 +1,17 @@
+{
+  "lastDataCommit": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1",
+  "auditBaseCommit": "07bc55607511e173b821f7f6adab3e12af06d731",
+  "graphRecords": 23091,
+  "allGraphFingerprintsMatchGatedRuntime": true,
+  "canonicalGraphChanges": 2,
+  "changedOwners": [
+    "meta-analysis",
+    "controlled-perturbation"
+  ],
+  "changedShortSummaryEntries": 0,
+  "newCanonicalIds": 0,
+  "committedDataBytesMatchFullGateInputs": true,
+  "newFullGateRun": true,
+  "selectedRootRecordsMatchActualGraph": true,
+  "newNextProductionBuild": false
+}

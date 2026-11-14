@@ -1,0 +1,141 @@
+{
+  "reason": "Keep only the directly constructed scientific requirements as new asset points. The full 62-unit parent/context inventory and its proofs remain unchanged; no ordinary grade changes.",
+  "refinements": [
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+      "beforeUnitIds": [
+        "SB30-002",
+        "SB30-003",
+        "SB30-005",
+        "SB30-006"
+      ],
+      "directConstructionUnitIds": [
+        "SB30-005",
+        "SB30-006"
+      ],
+      "retainedParentContextUnitIds": [
+        "SB30-002",
+        "SB30-003"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "beforeUnitIds": [
+        "SB30-015",
+        "SB30-016",
+        "SB30-017",
+        "SB30-018",
+        "SB30-019",
+        "SB30-020"
+      ],
+      "directConstructionUnitIds": [
+        "SB30-016",
+        "SB30-017",
+        "SB30-018",
+        "SB30-019",
+        "SB30-020"
+      ],
+      "retainedParentContextUnitIds": [
+        "SB30-015"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+      "beforeUnitIds": [
+        "SB30-030",
+        "SB30-031",
+        "SB30-032",
+        "SB30-033",
+        "SB30-034",
+        "SB30-035"
+      ],
+      "directConstructionUnitIds": [
+        "SB30-032",
+        "SB30-033",
+        "SB30-034",
+        "SB30-035"
+      ],
+      "retainedParentContextUnitIds": [
+        "SB30-030",
+        "SB30-031"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "beforeUnitIds": [
+        "SB30-046",
+        "SB30-047",
+        "SB30-048"
+      ],
+      "directConstructionUnitIds": [
+        "SB30-046",
+        "SB30-047",
+        "SB30-048"
+      ],
+      "retainedParentContextUnitIds": []
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/preclinical-donor-well-cells-v1.txt",
+      "beforeUnitIds": [
+        "SB30-024",
+        "SB30-025",
+        "SB30-026",
+        "SB30-027",
+        "SB30-028"
+      ],
+      "directConstructionUnitIds": [
+        "SB30-024",
+        "SB30-026",
+        "SB30-027",
+        "SB30-028"
+      ],
+      "retainedParentContextUnitIds": [
+        "SB30-025"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+      "beforeUnitIds": [
+        "SB30-055",
+        "SB30-056",
+        "SB30-057",
+        "SB30-058",
+        "SB30-059",
+        "SB30-060",
+        "SB30-061",
+        "SB30-062"
+      ],
+      "directConstructionUnitIds": [
+        "SB30-057",
+        "SB30-058",
+        "SB30-059",
+        "SB30-062"
+      ],
+      "retainedParentContextUnitIds": [
+        "SB30-055",
+        "SB30-056",
+        "SB30-060",
+        "SB30-061"
+      ]
+    },
+    {
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "beforeUnitIds": [
+        "SB30-039",
+        "SB30-040",
+        "SB30-041",
+        "SB30-042"
+      ],
+      "directConstructionUnitIds": [
+        "SB30-039",
+        "SB30-040",
+        "SB30-041",
+        "SB30-042"
+      ],
+      "retainedParentContextUnitIds": []
+    }
+  ],
+  "directConstructionPointsPerPin": 26,
+  "scientificInventoryUnitsUnchanged": 62,
+  "ordinaryGradesChanged": 0
+}

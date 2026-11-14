@@ -1,0 +1,19 @@
+{
+  "capture": {
+    "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8345/2667312/9e6d89ad9b28/rssa0172-0137-m12.jpg",
+    "capturedAtUTC": "2026-11-14T19:01:05.577033+00:00",
+    "status": 200,
+    "finalURL": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8345/2667312/9e6d89ad9b28/rssa0172-0137-m12.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 3357,
+    "sha256": "e5db9369c725441191a5f286e8dedb690c84eab82b97eedb04ed750c81332018",
+    "sourceId": "higgins-equation-12-jpg"
+  },
+  "viewedWhole": true,
+  "equation": "mu_hat +/- t_(k-2, alpha) * sqrt(tau_hat^2 + SE(mu_hat)^2)",
+  "nativePixels": [
+    164,
+    21
+  ],
+  "wholeArticleRead": false
+}

@@ -1,0 +1,1180 @@
+{
+  "version": "proposal-study-design-asset-summary-consumers-2026-11-14",
+  "state": "126 actual current short-summary states: fourteen existing Simple texts and 112 explicit English fallbacks. All selected table values/review marks/long-summary loaders unchanged; no native-language acceptance.",
+  "scope": "Actual loaded short tables; absent text explicitly remains English fallback. No language acceptance is inferred.",
+  "records": [
+    {
+      "id": "real-world-evidence-es",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (es)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-es",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (es)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-es",
+      "kind": "reader-summary-entry",
+      "name": "Case report (es)",
+      "canonicalRecordId": "case-report",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-es",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (es)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-es",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (es)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-es",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (es)",
+      "canonicalRecordId": "trial-phases",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-es",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (es)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-es",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (es)",
+      "canonicalRecordId": "preclinical",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-es",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (es)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-es",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (es)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "non-inferiority-es",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (es)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-es",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (es)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-es",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (es)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-es",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (es)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-zh",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (zh)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (zh)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-zh",
+      "kind": "reader-summary-entry",
+      "name": "Case report (zh)",
+      "canonicalRecordId": "case-report",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (zh)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-zh",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (zh)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-zh",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (zh)",
+      "canonicalRecordId": "trial-phases",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-zh",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (zh)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-zh",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (zh)",
+      "canonicalRecordId": "preclinical",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-zh",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (zh)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-zh",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (zh)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "zh",
+      "available": true,
+      "text": "方案是试验运行所依据的规则手册，在开始前写就：谁可以参加、接受什么治疗、何时测量什么、答案如何计算；统计分析计划把最后一部分写得足够详细，使任何人都无法在看到数据后再挑选分析方法。"
+    },
+    {
+      "id": "non-inferiority-zh",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (zh)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-zh",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (zh)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-zh",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (zh)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-zh",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (zh)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-pt",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (pt)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (pt)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-pt",
+      "kind": "reader-summary-entry",
+      "name": "Case report (pt)",
+      "canonicalRecordId": "case-report",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (pt)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-pt",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (pt)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-pt",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (pt)",
+      "canonicalRecordId": "trial-phases",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-pt",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (pt)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-pt",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (pt)",
+      "canonicalRecordId": "preclinical",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-pt",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (pt)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-pt",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (pt)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "non-inferiority-pt",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (pt)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-pt",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (pt)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-pt",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (pt)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-pt",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (pt)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-hi",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (hi)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (hi)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-hi",
+      "kind": "reader-summary-entry",
+      "name": "Case report (hi)",
+      "canonicalRecordId": "case-report",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (hi)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-hi",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (hi)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-hi",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (hi)",
+      "canonicalRecordId": "trial-phases",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-hi",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (hi)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-hi",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (hi)",
+      "canonicalRecordId": "preclinical",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-hi",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (hi)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-hi",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (hi)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "non-inferiority-hi",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (hi)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-hi",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (hi)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-hi",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (hi)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-hi",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (hi)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-fr",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (fr)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (fr)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-fr",
+      "kind": "reader-summary-entry",
+      "name": "Case report (fr)",
+      "canonicalRecordId": "case-report",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (fr)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-fr",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (fr)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-fr",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (fr)",
+      "canonicalRecordId": "trial-phases",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-fr",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (fr)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-fr",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (fr)",
+      "canonicalRecordId": "preclinical",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-fr",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (fr)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-fr",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (fr)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "non-inferiority-fr",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (fr)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-fr",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (fr)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-fr",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (fr)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-fr",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (fr)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-de",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (de)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-de",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (de)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-de",
+      "kind": "reader-summary-entry",
+      "name": "Case report (de)",
+      "canonicalRecordId": "case-report",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-de",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (de)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-de",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (de)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-de",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (de)",
+      "canonicalRecordId": "trial-phases",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-de",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (de)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-de",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (de)",
+      "canonicalRecordId": "preclinical",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-de",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (de)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-de",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (de)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "non-inferiority-de",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (de)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-de",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (de)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-de",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (de)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-de",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (de)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-ja",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (ja)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ja)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-ja",
+      "kind": "reader-summary-entry",
+      "name": "Case report (ja)",
+      "canonicalRecordId": "case-report",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (ja)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-ja",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (ja)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-ja",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (ja)",
+      "canonicalRecordId": "trial-phases",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ja",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ja)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-ja",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (ja)",
+      "canonicalRecordId": "preclinical",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-ja",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (ja)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-ja",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (ja)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "non-inferiority-ja",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (ja)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-ja",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (ja)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-ja",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (ja)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-ja",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (ja)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-ar",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (ar)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ar)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-ar",
+      "kind": "reader-summary-entry",
+      "name": "Case report (ar)",
+      "canonicalRecordId": "case-report",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "meta-analysis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (ar)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "controlled-perturbation-ar",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (ar)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-phases-ar",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (ar)",
+      "canonicalRecordId": "trial-phases",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "randomised-trial-ar",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (ar)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-ar",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (ar)",
+      "canonicalRecordId": "preclinical",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "n-of-1-trial-ar",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (ar)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "trial-protocol-ar",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (ar)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "non-inferiority-ar",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (ar)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "intention-to-treat-ar",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (ar)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "prespecified-vs-post-hoc-ar",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (ar)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "subgroup-analysis-ar",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (ar)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "real-world-evidence-simple",
+      "kind": "reader-summary-entry",
+      "name": "Real-world evidence (simple)",
+      "canonicalRecordId": "real-world-evidence",
+      "language": "simple",
+      "available": true,
+      "text": "Health records and other routinely collected data can answer useful questions. Why people received different care and when follow-up began still matter."
+    },
+    {
+      "id": "cross-trial-comparison-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (simple)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "case-report-simple",
+      "kind": "reader-summary-entry",
+      "name": "Case report (simple)",
+      "canonicalRecordId": "case-report",
+      "language": "simple",
+      "available": true,
+      "text": "A report of what happened to one person can raise useful questions. It usually cannot separate the treatment effect from other possible explanations."
+    },
+    {
+      "id": "meta-analysis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Meta-analysis (simple)",
+      "canonicalRecordId": "meta-analysis",
+      "language": "simple",
+      "available": true,
+      "text": "A calculation that combines results from suitable studies. A precise average can still hide different results, bias or incompatible questions."
+    },
+    {
+      "id": "controlled-perturbation-simple",
+      "kind": "reader-summary-entry",
+      "name": "Controlled perturbation experiment (simple)",
+      "canonicalRecordId": "controlled-perturbation",
+      "language": "simple",
+      "available": true,
+      "text": "Change a defined factor and compare the result with suitable controls. A real change in a laboratory test does not by itself show why it happened or that patients benefit."
+    },
+    {
+      "id": "trial-phases-simple",
+      "kind": "reader-summary-entry",
+      "name": "Phase 1, 2 and 3 trials (simple)",
+      "canonicalRecordId": "trial-phases",
+      "language": "simple",
+      "available": true,
+      "text": "Trial phases describe the questions being studied, such as dose, safety and treatment comparison. A phase number does not promise benefit or tell you how treatment is assigned."
+    },
+    {
+      "id": "randomised-trial-simple",
+      "kind": "reader-summary-entry",
+      "name": "Randomised trial (simple)",
+      "canonicalRecordId": "randomised-trial",
+      "language": "simple",
+      "available": true,
+      "text": "Chance assigns people to different treatment groups. This helps make a fair comparison, but does not guarantee identical groups or complete follow-up."
+    },
+    {
+      "id": "preclinical-simple",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (simple)",
+      "canonicalRecordId": "preclinical",
+      "language": "simple",
+      "available": true,
+      "text": "Laboratory and other model studies can help explain a treatment and guide human studies. A model response does not establish benefit for patients."
+    },
+    {
+      "id": "n-of-1-trial-simple",
+      "kind": "reader-summary-entry",
+      "name": "N-of-1 trial (simple)",
+      "canonicalRecordId": "n-of-1-trial",
+      "language": "simple",
+      "available": true,
+      "text": "A planned comparison in one person may use repeated treatment periods. Lasting effects or changes over time can prevent a fair comparison."
+    },
+    {
+      "id": "trial-protocol-simple",
+      "kind": "reader-summary-entry",
+      "name": "Trial protocol and statistical analysis plan (simple)",
+      "canonicalRecordId": "trial-protocol",
+      "language": "simple",
+      "available": true,
+      "text": "The trial protocol is the rulebook a trial is run by, written before it starts, and the statistical analysis plan fixes how the answer will be calculated."
+    },
+    {
+      "id": "non-inferiority-simple",
+      "kind": "reader-summary-entry",
+      "name": "Non-inferiority trial (simple)",
+      "canonicalRecordId": "non-inferiority",
+      "language": "simple",
+      "available": true,
+      "text": "A non-inferiority trial asks whether a new option avoids losing more than an agreed amount of benefit. Some loss can still be compatible with the data."
+    },
+    {
+      "id": "intention-to-treat-simple",
+      "kind": "reader-summary-entry",
+      "name": "Intention-to-treat (ITT) and per-protocol analysis (simple)",
+      "canonicalRecordId": "intention-to-treat",
+      "language": "simple",
+      "available": true,
+      "text": "Count people in the group they were assigned to, even if treatment changed. Missing results still need careful handling."
+    },
+    {
+      "id": "prespecified-vs-post-hoc-simple",
+      "kind": "reader-summary-entry",
+      "name": "Pre-specified vs post-hoc analysis (simple)",
+      "canonicalRecordId": "prespecified-vs-post-hoc",
+      "language": "simple",
+      "available": true,
+      "text": "Find out what was planned before the relevant results were seen, and what was explored afterwards. Useful discoveries still need an appropriate later test."
+    },
+    {
+      "id": "subgroup-analysis-simple",
+      "kind": "reader-summary-entry",
+      "name": "Subgroup analysis (forest plots) (simple)",
+      "canonicalRecordId": "subgroup-analysis",
+      "language": "simple",
+      "available": true,
+      "text": "A treatment can be studied in groups defined by age, a marker or another feature. Different-looking results do not by themselves prove different treatment effects."
+    }
+  ],
+  "sources": [
+    {
+      "language": "es",
+      "selectedEntriesSha256": "a3c0a6981e2570cbd2b332f80cd66ff5d054d51095c32cde5781361648d03cba"
+    },
+    {
+      "language": "zh",
+      "selectedEntriesSha256": "54f24b338f2ad640f43b7c0c648dcd823e9f41dd2afc14e08163551103631635"
+    },
+    {
+      "language": "pt",
+      "selectedEntriesSha256": "a3c0a6981e2570cbd2b332f80cd66ff5d054d51095c32cde5781361648d03cba"
+    },
+    {
+      "language": "hi",
+      "selectedEntriesSha256": "a3c0a6981e2570cbd2b332f80cd66ff5d054d51095c32cde5781361648d03cba"
+    },
+    {
+      "language": "fr",
+      "selectedEntriesSha256": "a3c0a6981e2570cbd2b332f80cd66ff5d054d51095c32cde5781361648d03cba"
+    },
+    {
+      "language": "de",
+      "selectedEntriesSha256": "a3c0a6981e2570cbd2b332f80cd66ff5d054d51095c32cde5781361648d03cba"
+    },
+    {
+      "language": "ja",
+      "selectedEntriesSha256": "a3c0a6981e2570cbd2b332f80cd66ff5d054d51095c32cde5781361648d03cba"
+    },
+    {
+      "language": "ar",
+      "selectedEntriesSha256": "a3c0a6981e2570cbd2b332f80cd66ff5d054d51095c32cde5781361648d03cba"
+    },
+    {
+      "language": "simple",
+      "selectedEntriesSha256": "1ca0d2e023e1ca025cc2faf3ef69e6633923aebbc949717211344161277f14fe"
+    }
+  ],
+  "committedDataHead": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1"
+}

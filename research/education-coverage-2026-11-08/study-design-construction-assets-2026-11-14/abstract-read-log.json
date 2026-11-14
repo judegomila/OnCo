@@ -1,0 +1,222 @@
+[
+  {
+    "doi": "10.1371/journal.pmed.0040296",
+    "pmid": "17941714",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "f3387c2262f69546bbfe09905dcc96fd1b2542d0faa9e6fa4ef6cbc6176b7fe7",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "strobe"
+  },
+  {
+    "doi": "10.1093/aje/kwv254",
+    "pmid": "26994063",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "7c72a4548f1c0f3d056978000eaab950484a80c68f9d6838479e7d62a899dd0f",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "target-trial-guide"
+  },
+  {
+    "doi": "10.1016/j.jclinepi.2016.04.014",
+    "pmid": "27237061",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "08bd5f14be3fa3bd2fc9a3302ec540d49d2ce2a8668ed3f5b0e057537391cb3d",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "target-trial-clock"
+  },
+  {
+    "doi": "10.1038/nmeth.3853",
+    "pmid": "27135972",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "78f9e632d7a01593a6bf973c5e7abaf62f8beaa502dfced10219c8ac3e375ae8",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "growth-rate"
+  },
+  {
+    "doi": "10.1002/cpch.21",
+    "pmid": "28628199",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "d683a7144d10bf97d645a77a8260cba301200d49db30ef17193a3764ad4e66a3",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "sensitivity-method"
+  },
+  {
+    "doi": "10.1371/journal.pbio.2005282",
+    "pmid": "29617358",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "54168dcd8a8f31e05a56ed977c01a0f119e5852f62ce426ec7bab15304746a26",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "experimental-unit"
+  },
+  {
+    "doi": "10.1371/journal.pbio.3000410",
+    "pmid": "32663219",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "788d43d8ffdf82744418ee5c5b4e4da888b049282b731cc5240b5b9bf0686141",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "arrive"
+  },
+  {
+    "doi": "10.1371/journal.pbio.3000411",
+    "pmid": "32663221",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "358520d1d4df274b9a2dd032d36f17fce5f7786c82db9815d6e8f7c2f2311a68",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "arrive-explanation"
+  },
+  {
+    "doi": "10.1111/j.1467-985x.2008.00552.x",
+    "pmid": "19381330",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "c02a7843f1b3e7eafdf1f98b2235efef6625dc48ceebb5ce9622cee7379cfb1f",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "random-effects"
+  },
+  {
+    "doi": "10.1136/bmj.n71",
+    "pmid": "33782057",
+    "abstractPresent": false,
+    "abstractReadInFull": false,
+    "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "depth": "identity only; no abstract returned",
+    "wholePaperRead": false,
+    "sourceId": "prisma"
+  },
+  {
+    "doi": "10.1016/s0895-4356(97)00049-8",
+    "pmid": "9250266",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "3c1905404e40ecb4964a72233714cba516d52fcb9e44f1116dcc31fae0827fa8",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "indirect-comparison"
+  },
+  {
+    "doi": "10.1371/journal.pmed.1004587",
+    "pmid": "40228477",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "9ca754cf319ebaf6f8a8c5576be4b64f8a342c2303484217912104cbfab9e298",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "consort"
+  },
+  {
+    "doi": "10.3238/arztebl.2013.0603",
+    "pmid": "24078847",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "e37571cb0b6f44bd06011ce51e8f9e083681b93796bc15bec2bed9e7fa007aac",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "care-guide"
+  },
+  {
+    "doi": "10.3238/arztebl.2013.0603",
+    "pmid": "24078847",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "e37571cb0b6f44bd06011ce51e8f9e083681b93796bc15bec2bed9e7fa007aac",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "care-owner"
+  },
+  {
+    "doi": "10.1136/bmj.h1738",
+    "pmid": "25976398",
+    "abstractPresent": false,
+    "abstractReadInFull": false,
+    "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "depth": "identity only; no abstract returned",
+    "wholePaperRead": false,
+    "sourceId": "cent"
+  },
+  {
+    "doi": "10.1136/bmj.h1793",
+    "pmid": "25976162",
+    "abstractPresent": false,
+    "abstractReadInFull": false,
+    "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "depth": "identity only; no abstract returned",
+    "wholePaperRead": false,
+    "sourceId": "cent-explanation"
+  },
+  {
+    "doi": "10.1136/bmj.c117",
+    "pmid": "20354011",
+    "abstractPresent": false,
+    "abstractReadInFull": false,
+    "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "depth": "identity only; no abstract returned",
+    "wholePaperRead": false,
+    "sourceId": "subgroup-credibility"
+  },
+  {
+    "doi": "10.1056/nejmoa1513750",
+    "pmid": "27406346",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "8bbdaffaf1cdefbc831c937b0af022e3176c16942ab58a6f11c315f40495d1b4",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "ispy-neratinib"
+  },
+  {
+    "doi": "10.1056/nejmoa1513749",
+    "pmid": "27406347",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "4ee6a116ad65085e7e756da0da8c35753b2389ef8d32f07b1858f6943a52cd07",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "ispy-veliparib"
+  },
+  {
+    "doi": "10.1371/journal.pone.0167167",
+    "pmid": "27907056",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "c20908c8f160dccbefec4ad9d209b58ef026e09159e8f63ab6d67e6e0cbe1038",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "n-of-1-variation"
+  },
+  {
+    "doi": "10.1038/nchembio.1867",
+    "pmid": "26196764",
+    "abstractPresent": false,
+    "abstractReadInFull": false,
+    "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "depth": "identity only abstract; targeted article paragraphs read separately",
+    "wholePaperRead": false,
+    "sourceId": "probes"
+  },
+  {
+    "doi": "10.1093/bioinformatics/btx162",
+    "pmid": "28379339",
+    "abstractPresent": true,
+    "abstractReadInFull": true,
+    "abstractRawSHA256": "dd3211ad38fc430f40d7d8d239408174d7e400f01e130ee555058d239171df07",
+    "depth": "complete returned abstract",
+    "wholePaperRead": false,
+    "sourceId": "synergy-reference"
+  }
+]

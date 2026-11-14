@@ -1,0 +1,15 @@
+{
+  "pr": 371,
+  "url": "https://github.com/judegomila/OnCo/pull/371",
+  "head": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+  "state": "open",
+  "draft": true,
+  "merged": false,
+  "capturedAtUTC": "2026-11-14T19:10:12.888Z",
+  "matchesFrozenSnapshot": true,
+  "selectedPeerIds": [
+    "confounding-by-indication",
+    "biomarker-cutpoint-selection"
+  ],
+  "peerFieldsChanged": false
+}

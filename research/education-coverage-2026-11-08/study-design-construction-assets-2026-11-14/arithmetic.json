@@ -1,0 +1,332 @@
+{
+  "checks": [
+    {
+      "name": "mixture A 60/80 plus 5/20 pooled",
+      "value": 0.65,
+      "expected": 0.65,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mixture B 15/20 plus 20/80 pooled",
+      "value": 0.35,
+      "expected": 0.35,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "better baseline 60/80",
+      "value": 0.75,
+      "expected": 0.75,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "better baseline 15/20",
+      "value": 0.75,
+      "expected": 0.75,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "poorer baseline 5/20",
+      "value": 0.25,
+      "expected": 0.25,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "poorer baseline 20/80",
+      "value": 0.25,
+      "expected": 0.25,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "different shared A response pool",
+      "value": 0.44,
+      "expected": 0.44,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "different shared B response pool",
+      "value": 0.36,
+      "expected": 0.36,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "shared subgroup 40/80",
+      "value": 0.5,
+      "expected": 0.5,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "shared subgroup 4/20",
+      "value": 0.2,
+      "expected": 0.2,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "shared subgroup 12/20",
+      "value": 0.6,
+      "expected": 0.6,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "shared subgroup 24/80",
+      "value": 0.3,
+      "expected": 0.3,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "treated endpoint relative to vehicle",
+      "value": 0.5,
+      "expected": 0.5,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "treated net count change",
+      "value": 0.0,
+      "expected": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "Q",
+      "value": 10.0,
+      "expected": 10.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "Q df",
+      "value": 4.0,
+      "expected": 4.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I squared",
+      "value": 0.6,
+      "expected": 0.6,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "DL tau squared",
+      "value": 6.0,
+      "expected": 6.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "pooled mean",
+      "value": -4.0,
+      "expected": -4.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "pooled mean SE",
+      "value": 1.4142135623730951,
+      "expected": 1.4142135623730951,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "normalized weight 1",
+      "value": 0.2,
+      "expected": 0.2,
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "normalized weight 2",
+      "value": 0.2,
+      "expected": 0.2,
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "normalized weight 3",
+      "value": 0.2,
+      "expected": 0.2,
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "normalized weight 4",
+      "value": 0.2,
+      "expected": 0.2,
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "normalized weight 5",
+      "value": 0.2,
+      "expected": 0.2,
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "normal mean lower",
+      "value": -6.771858582251266,
+      "expected": -6.771858582251267,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "normal mean upper",
+      "value": -1.2281414177487338,
+      "expected": -1.2281414177487338,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "t3 quantile CDF",
+      "value": 0.9750000000000105,
+      "expected": 0.975,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "2009 prediction lower rounded",
+      "value": -13.0,
+      "expected": -13.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "2009 prediction upper rounded",
+      "value": 5.0,
+      "expected": 5.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "separate two-study supplied-weight mean",
+      "value": -5.0,
+      "expected": -5.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "forest": {
+    "effects": [
+      -8,
+      -6,
+      -4,
+      -2,
+      0
+    ],
+    "withinStudySE": 2,
+    "Q": 10.0,
+    "df": 4,
+    "I2": 0.6,
+    "tau2": 6.0,
+    "mean": -4.0,
+    "meanSE": 1.4142135623730951,
+    "individualIntervals": [
+      {
+        "estimate": -8,
+        "lower": -11.92,
+        "upper": -4.08
+      },
+      {
+        "estimate": -6,
+        "lower": -9.92,
+        "upper": -2.08
+      },
+      {
+        "estimate": -4,
+        "lower": -7.92,
+        "upper": -0.08000000000000007
+      },
+      {
+        "estimate": -2,
+        "lower": -5.92,
+        "upper": 1.92
+      },
+      {
+        "estimate": 0,
+        "lower": -3.92,
+        "upper": 3.92
+      }
+    ],
+    "meanInterval": [
+      -6.771858582251266,
+      -1.2281414177487338
+    ],
+    "predictionCriticalT": 3.182446305284263,
+    "predictionDF": 3,
+    "predictionInterval": [
+      -13.001317452914304,
+      5.001317452914304
+    ],
+    "methodNotClaimedUniversalCurrentDefault": true
+  },
+  "hierarchy": {
+    "donors": 2,
+    "wells": 12,
+    "observedCellCount": null,
+    "assignmentAssumptions": [
+      "random allocation of wells within donor",
+      "separate application of treatment to each well",
+      "no mutual influence of wells on measured outcomes",
+      "analysis retains donor nesting"
+    ],
+    "noTreatmentEffectOrSampleSizeRecommendation": true
+  },
+  "generator": {
+    "reviewedStandardLibraryCode": true,
+    "executionPrivateOnly": true,
+    "outputs": [
+      {
+        "theme": "light",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+        "bytes": 11702,
+        "sha256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+        "exactOutputMatch": true
+      },
+      {
+        "theme": "light",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+        "bytes": 11702,
+        "sha256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+        "exactOutputMatch": true
+      },
+      {
+        "theme": "dark",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+        "bytes": 11702,
+        "sha256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+        "exactOutputMatch": true
+      },
+      {
+        "theme": "dark",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+        "bytes": 11702,
+        "sha256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+        "exactOutputMatch": true
+      }
+    ],
+    "historicalAuthorIdentityOrExecutionEstablished": false
+  },
+  "limits": [
+    "Fictional arithmetic and internal construction checks do not establish empirical treatment effects.",
+    "Equal treated counts before and after do not exclude concurrent growth and death.",
+    "The overlap ribbons supply no measured contributions or durations."
+  ]
+}

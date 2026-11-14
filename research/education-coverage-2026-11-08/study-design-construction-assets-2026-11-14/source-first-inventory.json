@@ -1,0 +1,827 @@
+{
+  "frozenAtUTC": "2026-11-14T18:40:40.665623+00:00",
+  "beforeFreshCurrentCanonicalCapture": true,
+  "priorGoalContextKnown": true,
+  "independentInventory": false,
+  "scope": "Sixty-two source-first scientific obligations and ten construction/context checks from the study-design asset group. Direct construction meaning and broader parent context must stay distinct. Original and later applicability is explicit; primary-method verification and canonical coverage are not yet credited.",
+  "sourceInputHashes": {
+    "input-manifest.json": "07dbb4bf5f5cacfa54ecec8cb554b53606fdbd88ca60851f74d164a1aeef5cec",
+    "additional-role-assessment-input.json": "d58104c493ab2d0b0558037fc8f85ebe616688961d3aecbd17e057c7738ceb99",
+    "full-read-log.json": "7bc5d6f832ad5d006c3b6d82e07975495161a05484985ae8bc2c478aeefd8860",
+    "parent-read-log.json": "5281edcad30b3a1842008dd84876ffad07b9fd43a637554de785873f552b6557",
+    "figure-assessment.json": "0f9296160fa55e03afc88c423357eec6b8409f89a4f8b4548e311f7c95140f92"
+  },
+  "units": [
+    {
+      "id": "SB30-001",
+      "group": "observational",
+      "kind": "canonical-teaching",
+      "requirement": "Distinguish observing exposures from assigning them; cohort, case-control and cross-sectional designs answer different questions, and prospective follow-up is not randomization.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-002",
+      "group": "observational",
+      "kind": "canonical-teaching",
+      "requirement": "Baseline causes can affect treatment choice and outcome; retain the causal diagram, confounding by indication and reverse-causation distinction.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-003",
+      "group": "observational",
+      "kind": "canonical-teaching",
+      "requirement": "Restriction, matching and measured-variable adjustment need information, overlap and assumptions; neither adjusting every variable nor adjusting a treatment consequence guarantees removal of confounding.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-004",
+      "group": "observational",
+      "kind": "canonical-teaching",
+      "requirement": "Align eligibility, strategy assignment and follow-up time zero; requiring survival until treatment can introduce an artificial survival advantage that more data do not repair.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-005",
+      "group": "observational",
+      "kind": "canonical-teaching",
+      "requirement": "Keep the fictional two 100-person groups and common six-week symptom outcome: A has 60/80 and 5/20 improvements, B 15/20 and 20/80; within-category rates are 75% and 25%, while pooled rates are 65% and 35%.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-006",
+      "group": "observational",
+      "kind": "canonical-teaching",
+      "requirement": "The 65/35 mixture example establishes no causal treatment effect or sufficient adjustment recipe; other factors, measurement, missing follow-up and time zero remain.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-007",
+      "group": "observational",
+      "kind": "canonical-teaching",
+      "requirement": "Observational studies can describe care, uncommon harms and underrepresented groups, while a large sample alone does not remove systematic bias.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-008",
+      "group": "cross-trial",
+      "kind": "canonical-teaching",
+      "requirement": "Randomization protects a within-trial contrast, not experimental-arm comparisons across separately conducted randomized trials.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-009",
+      "group": "cross-trial",
+      "kind": "canonical-teaching",
+      "requirement": "A formal common-comparator indirect comparison retains within-trial treatment-versus-control contrasts; pooling active-arm percentages changes the analysis and needs different assumptions.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-010",
+      "group": "cross-trial",
+      "kind": "canonical-teaching",
+      "requirement": "Network transitivity concerns comparable effect modifiers, populations and methods; a shared drug label or statistical agreement does not certify unmeasured compatibility.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-011",
+      "group": "cross-trial",
+      "kind": "canonical-teaching",
+      "requirement": "Keep the separate fictional confirmed-response datasets: A has 40/80 and 4/20 responses, B 12/20 and 24/80; A pools to 44/100 despite lower 50%/20% within-category rates than B 60%/30%, which pools to 36/100.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-012",
+      "group": "cross-trial",
+      "kind": "canonical-teaching",
+      "requirement": "The 44/36 reversal does not establish B superiority or a causal adjusted comparison; it differs from the equal-within-category observational 65/35 dataset.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-013",
+      "group": "cross-trial",
+      "kind": "canonical-teaching",
+      "requirement": "Retain population, setting, biomarker threshold, background care, comparator, endpoint, denominator, starting clock, assessment, cutoff and uncertainty; unrelated hazard ratios and response percentages cannot automatically rank treatments.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-014",
+      "group": "cross-trial",
+      "kind": "canonical-teaching",
+      "requirement": "The invented postoperative 90% two-year recurrence-free result and advanced-disease 30% response rate answer different questions, rather than ranking a vaccine and drug.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-015",
+      "group": "controls",
+      "kind": "canonical-teaching",
+      "requirement": "A deliberate perturbation needs a defined comparator and readout; retain model, timing, concentration, sample assignment, replicate structure, units and variability rather than infer a universal protocol.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-016",
+      "group": "controls",
+      "kind": "canonical-teaching",
+      "requirement": "Vehicle and untreated controls ask different questions when the carrier or solvent can affect the assay.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-017",
+      "group": "controls",
+      "kind": "canonical-teaching",
+      "requirement": "A positive control tests capacity to detect a known relevant response; negative or non-targeting controls estimate background, without certifying the mechanism or correctness of every test response.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-018",
+      "group": "controls",
+      "kind": "canonical-teaching",
+      "requirement": "An independent disruption of the same function can support a mechanism; agreement of correlated readouts need not be independent mechanistic confirmation.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-019",
+      "group": "controls",
+      "kind": "canonical-teaching",
+      "requirement": "Restoration rescue asks a context-specific reversal question; incomplete restoration or off-target effects complicate it, and a successful rescue alone establishes neither complete target specificity nor patient benefit.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-020",
+      "group": "controls",
+      "kind": "canonical-teaching",
+      "requirement": "In the fictional count example, 100 at baseline, 200 vehicle and 100 treated give a relative endpoint fraction of one half and no net treated count decline. They do not measure a 50% death fraction or exclude concurrent growth and death.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-021",
+      "group": "controls",
+      "kind": "canonical-teaching",
+      "requirement": "For combination interpretation retain vehicle, both single agents and the combination with an interaction reference model; an effect larger than either single agent is not automatically synergy.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-022",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "Preclinical evidence concerns model-based mechanisms, activity or safety before or alongside human studies. In vitro, human-derived material outside the body and in vivo animal work do not mean clinical benefit has been demonstrated.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-023",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "Model components determine which mechanisms can be examined; absent immune components, exposure limits and human context constrain translation. A mouse tumour-volume curve is not a patient survival curve.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-024",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "Separate the biological unit of inference, independently assigned experimental unit and measured observational unit; treating correlated subsamples as independent is pseudoreplication.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-025",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "Biological and technical replicate labels can vary; examine actual material, repeated processing, independent runs and nesting. More wells or cell measurements do not add donor identities.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-026",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "The fictional hierarchy has exactly two donor sources, twelve uniquely identified wells and unspecified cell counts: A1-A3/B1-B3 control, A4-A6/B4-B6 treated, each with its own nested observation group.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-027",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "Under within-donor random allocation, separate treatment and no mutual influence, wells receive assignment while analysis retains donor nesting. Twelve wells are not twelve independent donors or a sample-size recommendation.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-028",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "If treatment is assigned to donor preparations before splitting, wells are subsamples; additional cell measurements do not add independently assigned wells.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-029",
+      "group": "preclinical",
+      "kind": "canonical-teaching",
+      "requirement": "A fictional untreated-tumour response and depletion experiment can support an effect or mechanism under its model and controls, while human exposure, safety and comparative benefit remain separate; reporting guidance is not a validity certificate.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-030",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "A systematic review has explicit search, selection and appraisal methods; meta-analysis is an optional statistical component and unsuitable studies need not be pooled.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-031",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "Distinguish a common underlying-effect model from a random-effects distribution and its mean; neither model removes bias or clinical incompatibility.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-032",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "I-squared describes estimated heterogeneity relative to sampling variation, not people helped or studies wrong. Tau-squared is a between-study variance on the named effect scale; both estimates can be uncertain with few studies.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-033",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "Keep the separate five-study day-30, 0-to-100 symptom-score example, A minus control: estimates -8,-6,-4,-2,0 with standard error 2 each, Q10, df4, DL tau-squared6 and I-squared60%.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-034",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "The specified inverse-variance random-effects weights are 20% each and squares have equal areas. Individual Wald intervals use estimate plus or minus 1.96 times 2; pooled mean is -4, SE sqrt2 and its approximate interval -6.77185858 to -1.22814142.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-035",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "The explicitly specified Higgins-Thompson-Spiegelhalter 2009 underlying-study-effect prediction interval uses t with 3 df, critical value 3.182446305284263 and sqrt(tau-squared plus mean-SE-squared), giving about -13.0013 to +5.0013. It is not an individual prediction or a universal current-default endorsement.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-036",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "Retain the different two-study example with supplied weights 0.75 and 0.25 and differences -4 and -8 percentage points, producing -5 points. These weights are supplied, not derived precision estimates.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-037",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "Matching arithmetic does not make randomization-origin and response-selected-landmark studies answer the same question; check endpoint, scale, clock and target before pooling.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-038",
+      "group": "meta-analysis",
+      "kind": "canonical-teaching",
+      "requirement": "Link multiple reports to unique participants, retain risk-of-bias and publication-bias limits, search dates, model, weights and sensitivity analyses. PRISMA reporting completeness does not certify validity.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-039",
+      "group": "prespecification",
+      "kind": "canonical-teaching",
+      "requirement": "Prespecification concerns relevant data access, original protocol and analysis-plan timing, not merely a document preceding publication; retain assigned primary, secondary or exploratory role and multiplicity.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-040",
+      "group": "prespecification",
+      "kind": "canonical-teaching",
+      "requirement": "Planned exploratory work remains exploratory; post hoc exploration can generate useful hypotheses without acquiring confirmatory status by relabelling.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-041",
+      "group": "prespecification",
+      "kind": "canonical-teaching",
+      "requirement": "The fictional original EFS-primary and marker-subgroup exploratory plan precedes results. Twelve further cutoffs are searched only afterward; retain the whole search and selection rule.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-042",
+      "group": "prespecification",
+      "kind": "canonical-teaching",
+      "requirement": "All twelve schematic choices remain visible and the sixth is a hypothetical smallest-p selection, without numerical cutoffs, p-values or measured benefits. Locking it for a future appropriate independent test does not itself establish confirmation.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-043",
+      "group": "prespecification",
+      "kind": "canonical-teaching",
+      "requirement": "Distinguish a documented amendment unrelated to unblinded results from choosing a favourable analysis after seeing them; preserve dates, access, rationale and earlier plan versions without inferring fraud from a label.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-044",
+      "group": "prespecification",
+      "kind": "canonical-teaching",
+      "requirement": "Significant in one subgroup and nonsignificant in another does not establish differing treatment effects; a direct comparison such as an interaction test addresses that question, and a p-value is not the probability that the claim is true.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-045",
+      "group": "prespecification",
+      "kind": "canonical-teaching",
+      "requirement": "Prespecification alone supplies neither enough events or precision nor freedom from bias, applicability or utility. Baseline groups differ from achieved-response groups formed after treatment.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-046",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Phases 1 to 4 describe development purposes, with overlap and actual protocol context. They are not a benefit ladder, fixed sample-size rule, guarantee of safety, efficacy or approval for every investigated use.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-047",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Chance assignment can reduce selection choices and help balance measured or unmeasured factors but can leave imbalances. Random assignment differs from random population sampling and does not guarantee transportability.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-048",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Pre-assignment allocation concealment protects the next allocation; feasible blinding after allocation is separate. Predictable alternation is not a concealed random sequence, and equal symbolic icons are no balance guarantee.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-049",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Preserve how assignment and original-group analysis were conducted, exclusions, missing assessments, treatment changes and follow-up. The later source explicitly labels the original-group concept intention-to-treat.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-050",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Single-arm activity and harms and a concurrent randomized comparison support different claims; a control can be usual care, usual care with placebo or another specified approach rather than no treatment.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-051",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "The fictional early Drug-A shrinkage study establishes no superiority over usual care; the later randomized add-on design can test a defined added effect under its conduct and analysis, without individual choice or guaranteed benefit.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-052",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Assess the later-only phase-3 superiority versus non-inferiority clause, retaining the defined alternative and permitted-loss question rather than a phase-based guarantee.",
+      "versionApplicability": [
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-053",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Assess the later-only sample-size/power clause with actual design assumptions and operating characteristics; do not turn the source wording into a universal sizing rule.",
+      "versionApplicability": [
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-054",
+      "group": "phases",
+      "kind": "canonical-teaching",
+      "requirement": "Verify the later-only named I-SPY2 adaptive-assignment example against an actual source before credit; generic adaptive-design plausibility alone does not verify that platform-specific claim.",
+      "versionApplicability": [
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-055",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "A case report documents an individual course, other care, measurements and alternative explanations; selected published successes supply neither a treatment denominator nor an outcome under alternative care.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-056",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "A prospectively planned individual comparison differs from a clinical narrative; N-of-1 terminology can include broader personalized studies, so inspect the actual design rather than assume crossover or randomization.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-057",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "The fictional reversible symptom design has one possible randomized AB-BA order and repeated same-measure observations, requiring suitable transitions, relative stability and reversibility; no washout duration or benefit values are supplied.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-058",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "Random order does not erase carryover, time trends, period effects, autocorrelation or missingness; retain period and background-care rules and an appropriate analysis.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-059",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "The separate A-start/procedure/B-start/improved-scan history supplies order only. Hatched ribbons denote possible overlapping influences, not measured contributions, elapsed durations or pharmacokinetics; timing alone does not identify the cause.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-060",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "A rigorous individual comparison does not establish average benefit for a population, and a striking response does not eliminate uncertainty about attribution.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-061",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "Repeated scans or measurements remain observations within one person, not independent trial participants.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-062",
+      "group": "case-and-n-of-1",
+      "kind": "canonical-teaching",
+      "requirement": "Keep these interpretation examples distinct from treatment-switching instructions; irreversible procedures and lasting or progressive conditions can prevent an interpretable crossover comparison.",
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "basis": "Complete construction/support body reads, eight later parents, complete original differences and sixteen fresh uncropped native views before fresh current canonical capture.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-063",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Retain 36 initially assigned and 50 associated version receipts, including the separately reassessed previously supporting brief; avoid double-counting its two entries. Every pinned byte, SHA256 and Git blob remains bound.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-064",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Record complete reading of eighteen assigned bodies, 106370 bytes and 28 intact acknowledged spans, plus the 746-byte associated construction brief. No truncated or unread span receives credit.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-065",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Keep eight later full parent reads, two original whole-byte identity reuses and six complete original-to-later diffs separate. Preserve later-only phase clauses and metadata/navigation differences without inventing original teaching.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-066",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "All sixteen native variants are viewed whole separately from SVG source reading and historical reader screenshots. Retained Mermaid source is read in context but receives no fresh pixel acceptance.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-067",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Recompute both distinct mixture datasets, the 100/200/100 interpretation, all forest estimates, weights and intervals, twelve cutoff marks and their selected slot, two donor/twelve well nesting, and the schematic period/overlap chronology.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-068",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Reproduce the fully read public standard-library preclinical generator only in a private directory and compare the exact pinned output bytes. Reproducibility does not establish historical creator identity or execution.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-069",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Determine roles from actual content: six initially assigned construction briefs and twelve support records, plus an explicitly proposed reclassification of the directly scientific locked-plan brief. Preserve prior role history and packet bytes; no support or self-attestation approval credit.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-070",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Resolve every used identifier and read actual raw support at declared depth; preserve failures, metadata-only results and exact inherited-source scope instead of promoting historical search extractions or PASS claims.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-071",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "Compare public path/hash claims against both pins; keep historical preimages, unpaired capture/code seals, private actor and relative screenshot references unverified and unfollowed. Preserve keyboard and contrast limitations.",
+      "independentAcceptance": false
+    },
+    {
+      "id": "SB30-072",
+      "group": "custody-and-review",
+      "kind": "construction-check",
+      "requirement": "After freezing this inventory compare registered root and true peer ownership, exact fields and reader output; preserve old notes, links, packets, statuses and depths. Rebind authoritative input registries as well as derived references and run appropriate validation without integration, main/live or language-acceptance inflation.",
+      "independentAcceptance": false
+    }
+  ]
+}

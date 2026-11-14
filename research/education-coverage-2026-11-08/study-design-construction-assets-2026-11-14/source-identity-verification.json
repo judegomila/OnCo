@@ -1,0 +1,247 @@
+{
+  "identitiesResolved": 22,
+  "distinctPublications": 21,
+  "checks": [
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies",
+      "epmcTitle": "The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) statement: guidelines for reporting observational studies.",
+      "crossrefFirstAuthor": "von Elm",
+      "epmcFirstAuthor": "von Elm E",
+      "epmcYear": "2007",
+      "crossrefYears": [
+        2007
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "strobe"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses",
+      "epmcTitle": "Specifying a target trial prevents immortal time bias and other self-inflicted injuries in observational analyses.",
+      "crossrefFirstAuthor": "Hernán",
+      "epmcFirstAuthor": "Hernán MA",
+      "epmcYear": "2016",
+      "crossrefYears": [
+        2016
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "target-trial-clock"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs",
+      "epmcTitle": "Growth rate inhibition metrics correct for confounders in measuring sensitivity to cancer drugs.",
+      "crossrefFirstAuthor": "Hafner",
+      "epmcFirstAuthor": "Hafner M",
+      "epmcYear": "2016",
+      "crossrefYears": [
+        2016
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "growth-rate"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Measuring Cancer Drug Sensitivity and Resistance in Cultured Cells",
+      "epmcTitle": "Measuring Cancer Drug Sensitivity and Resistance in Cultured Cells.",
+      "crossrefFirstAuthor": "Niepel",
+      "epmcFirstAuthor": "Niepel M",
+      "epmcYear": "2017",
+      "crossrefYears": [
+        2017
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "sensitivity-method"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "What exactly is ‘N’ in cell culture and animal experiments?",
+      "epmcTitle": "What exactly is 'N' in cell culture and animal experiments?",
+      "crossrefFirstAuthor": "Lazic",
+      "epmcFirstAuthor": "Lazic SE",
+      "epmcYear": "2018",
+      "crossrefYears": [
+        2018
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "experimental-unit"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research",
+      "epmcTitle": "The ARRIVE guidelines 2.0: Updated guidelines for reporting animal research.",
+      "crossrefFirstAuthor": "Percie du Sert",
+      "epmcFirstAuthor": "Percie du Sert N",
+      "epmcYear": "2020",
+      "crossrefYears": [
+        2020
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "arrive"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Reporting animal research: Explanation and elaboration for the ARRIVE guidelines 2.0",
+      "epmcTitle": "Reporting animal research: Explanation and elaboration for the ARRIVE guidelines 2.0.",
+      "crossrefFirstAuthor": "Percie du Sert",
+      "epmcFirstAuthor": "Percie du Sert N",
+      "epmcYear": "2020",
+      "crossrefYears": [
+        2020
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "arrive-explanation"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "A Re-Evaluation of Random-Effects Meta-Analysis",
+      "epmcTitle": "A re-evaluation of random-effects meta-analysis.",
+      "crossrefFirstAuthor": "Higgins",
+      "epmcFirstAuthor": "Higgins JP",
+      "epmcYear": "2009",
+      "crossrefYears": [
+        2008,
+        2009
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "random-effects"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+      "epmcTitle": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews.",
+      "crossrefFirstAuthor": "Page",
+      "epmcFirstAuthor": "Page MJ",
+      "epmcYear": "2021",
+      "crossrefYears": [
+        2021
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "prisma"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "CONSORT 2025 statement: Updated guideline for reporting randomised trials",
+      "epmcTitle": "CONSORT 2025 statement: Updated guideline for reporting randomised trials.",
+      "crossrefFirstAuthor": "Hopewell",
+      "epmcFirstAuthor": "Hopewell S",
+      "epmcYear": "2025",
+      "crossrefYears": [
+        2025
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "consort"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": false,
+      "crossrefTitle": "The CARE Guidelines",
+      "epmcTitle": "The CARE guidelines: consensus-based clinical case reporting guideline development.",
+      "crossrefFirstAuthor": "Gagnier",
+      "epmcFirstAuthor": "Gagnier JJ",
+      "epmcYear": "2013",
+      "crossrefYears": [
+        2013
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "care-owner"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "CONSORT extension for reporting N-of-1 trials (CENT) 2015 Statement",
+      "epmcTitle": "CONSORT extension for reporting N-of-1 trials (CENT) 2015 Statement.",
+      "crossrefFirstAuthor": "Vohra",
+      "epmcFirstAuthor": "Vohra S",
+      "epmcYear": "2015",
+      "crossrefYears": [
+        2015
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "cent"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "CONSORT extension for reporting N-of-1 trials (CENT) 2015: Explanation and elaboration",
+      "epmcTitle": "CONSORT extension for reporting N-of-1 trials (CENT) 2015: Explanation and elaboration.",
+      "crossrefFirstAuthor": "Shamseer",
+      "epmcFirstAuthor": "Shamseer L",
+      "epmcYear": "2015",
+      "crossrefYears": [
+        2015
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "cent-explanation"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Is a subgroup effect believable? Updating criteria to evaluate the credibility of subgroup analyses",
+      "epmcTitle": "Is a subgroup effect believable? Updating criteria to evaluate the credibility of subgroup analyses.",
+      "crossrefFirstAuthor": "Sun",
+      "epmcFirstAuthor": "Sun X",
+      "epmcYear": "2010",
+      "crossrefYears": [
+        2010
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "subgroup-credibility"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Adaptive Randomization of Neratinib in Early Breast Cancer",
+      "epmcTitle": "Adaptive Randomization of Neratinib in Early Breast Cancer.",
+      "crossrefFirstAuthor": "Park",
+      "epmcFirstAuthor": "Park JW",
+      "epmcYear": "2016",
+      "crossrefYears": [
+        2016
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "ispy-neratinib"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Adaptive Randomization of Veliparib–Carboplatin Treatment in Breast Cancer",
+      "epmcTitle": "Adaptive Randomization of Veliparib-Carboplatin Treatment in Breast Cancer.",
+      "crossrefFirstAuthor": "Rugo",
+      "epmcFirstAuthor": "Rugo HS",
+      "epmcYear": "2016",
+      "crossrefYears": [
+        2016
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "ispy-veliparib"
+    },
+    {
+      "doiAgrees": true,
+      "titleAgrees": true,
+      "crossrefTitle": "Understanding Variation in Sets of N-of-1 Trials",
+      "epmcTitle": "Understanding Variation in Sets of N-of-1 Trials.",
+      "crossrefFirstAuthor": "Araujo",
+      "epmcFirstAuthor": "Araujo A",
+      "epmcYear": "2016",
+      "crossrefYears": [
+        2016
+      ],
+      "epmcYearAmongCrossrefDates": true,
+      "sourceId": "n-of-1-variation"
+    }
+  ],
+  "careAbbreviatedCrossrefTitleExplicit": true,
+  "allUsedIdentifiersResolvedBeforeUse": true
+}

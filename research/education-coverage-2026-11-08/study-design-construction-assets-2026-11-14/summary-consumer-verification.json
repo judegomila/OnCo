@@ -1,0 +1,119 @@
+{
+  "changedShortEntries": 0,
+  "consumerFiles": 0,
+  "literalChecks": [],
+  "checks": [],
+  "longSummaryLoaderChecks": [
+    {
+      "id": "meta-analysis",
+      "language": "es",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "meta-analysis",
+      "language": "zh",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "meta-analysis",
+      "language": "pt",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "meta-analysis",
+      "language": "hi",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "meta-analysis",
+      "language": "fr",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "meta-analysis",
+      "language": "de",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "meta-analysis",
+      "language": "ja",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "meta-analysis",
+      "language": "ar",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "es",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "zh",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "pt",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "hi",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "fr",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "de",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "ja",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    },
+    {
+      "id": "controlled-perturbation",
+      "language": "ar",
+      "acceptedBefore": false,
+      "acceptedAfter": false
+    }
+  ],
+  "acceptedLongCachesBefore": 0,
+  "acceptedLongCachesAfter": 0,
+  "ordinaryLayerRestored": true,
+  "allOtherDictionaryEntriesUnchanged": true,
+  "machineAssistedUnreviewed": true,
+  "languageReviewStampsChanged": 0,
+  "independentLanguageAcceptance": false,
+  "browserOrHydrationAcceptance": false,
+  "selectedShortSummaryStates": 126,
+  "availableShortTexts": 14,
+  "EnglishFallbacks": 112,
+  "allSelectedTablesAndReviewMarksUnchanged": true,
+  "fullSelectedLongCacheChecks": 112,
+  "acceptedFullSelectedLongCaches": 0,
+  "shortOrLongSummaryTextChanges": 0
+}

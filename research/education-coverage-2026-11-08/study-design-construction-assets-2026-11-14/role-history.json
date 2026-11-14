@@ -1,0 +1,101 @@
+{
+  "explicitReassessedSupportingToTeaching": {
+    "recordedAtUTC": "2026-11-14T18:19:35.337123+00:00",
+    "index": 18,
+    "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+    "versions": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 746,
+        "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+        "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+        "priorAssetScope": "supporting",
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 746,
+        "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+        "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+        "priorAssetScope": "supporting",
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      }
+    ],
+    "priorRoleReceipts": [
+      {
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "item": {
+          "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+          "bytes": 746,
+          "format": ".txt",
+          "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "suggestedRole": "provenance-or-authoring-support",
+          "scope": "supporting",
+          "review": {
+            "status": "reviewed",
+            "auditor": "Coordinator full-body support disposition",
+            "checkedAt": "2026-11-11",
+            "rationale": "Prespecification construction brief with a fictional 3 by 4 cutoff search. It asserts no computed P value or new confirmatory evidence. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg.",
+            "sectionHashes": [
+              "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48"
+            ],
+            "points": []
+          },
+          "sourceSha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+          "bodyRole": "mixed authoring and scientific construction",
+          "scopeReview": {
+            "auditor": "Coordinator full-body role review; no expert, owner or learner sign-off",
+            "checkedAt": "2026-11-11",
+            "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+            "rationale": "Prespecification construction brief with a fictional 3 by 4 cutoff search. It asserts no computed P value or new confirmatory evidence. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg."
+          }
+        }
+      },
+      {
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "item": {
+          "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+          "bytes": 746,
+          "format": ".txt",
+          "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "suggestedRole": "provenance-or-authoring-support",
+          "scope": "supporting",
+          "review": {
+            "status": "reviewed",
+            "auditor": "Coordinator full-body support disposition",
+            "checkedAt": "2026-11-11",
+            "rationale": "Prespecification construction brief with a fictional 3 by 4 cutoff search. It asserts no computed P value or new confirmatory evidence. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg.",
+            "sectionHashes": [
+              "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48"
+            ],
+            "points": []
+          },
+          "sourceSha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+          "bodyRole": "mixed authoring and scientific construction",
+          "scopeReview": {
+            "auditor": "Coordinator full-body role review; no expert, owner or learner sign-off",
+            "checkedAt": "2026-11-11",
+            "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+            "rationale": "Prespecification construction brief with a fictional 3 by 4 cutoff search. It asserts no computed P value or new confirmatory evidence. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg."
+          }
+        }
+      }
+    ],
+    "completeAssociatedBodyReadSpan": 23,
+    "bodyBytes": 746,
+    "proposedRole": "teaching, pending the same complete source/context/field assessment as other construction briefs",
+    "reason": "Fresh complete reading finds an explicit scientific construction brief with prespecification, exploratory status, twelve post-result cutoff searches, a hypothetical selected sixth marker and an independent-testing boundary. It is not a palette-only or custody-only instruction. Prior packet bytes and role history must remain intact; any accepted reclassification must be explicit.",
+    "canonicalCoverageCredit": 0,
+    "scopeDecisionAccepted": false
+  },
+  "earlierRoleDecisionPreserved": true,
+  "earlierPacketBytesUntouched": true
+}

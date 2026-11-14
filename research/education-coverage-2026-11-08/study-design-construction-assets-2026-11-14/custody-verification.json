@@ -1,0 +1,2921 @@
+{
+  "totalAssignedAndAssociatedVersionEntries": 86,
+  "assessedBodyVersionEntries": 38,
+  "remainingAssociatedEntries": 48,
+  "allPinnedIdentitiesVerified": true,
+  "publicCitationInstances": 62,
+  "publicInstancesMatchingAnyPin": 50,
+  "publicCitations": [
+    {
+      "bodyIndex": 2,
+      "pointer": "/nativeFiles/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "claimedSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/nativeFiles/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "claimedSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "claimedSHA256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/outputs/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "claimedSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/outputs/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "claimedSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "claimedSHA256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "claimedSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/2",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "claimedSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/3",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+      "claimedSHA256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/4",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+      "claimedSHA256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "claimedSHA256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/outputs/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "claimedSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/outputs/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "claimedSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "claimedSHA256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "claimedSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/2",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "claimedSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/3",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "claimedSHA256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/4",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+      "claimedSHA256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "claimedSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+      ],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/outputs/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "claimedSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/outputs/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "claimedSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "claimedSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "claimedSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/2",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "claimedSHA256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/3",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "claimedSHA256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/4",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "claimedSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "claimedSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/outputs/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "claimedSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/outputs/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "claimedSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "claimedSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "claimedSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/2",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "claimedSHA256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/3",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "claimedSHA256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/4",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "claimedSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "claimedSHA256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+      ],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/outputs/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "claimedSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/outputs/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "claimedSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/visualReview/newSharedNativeDelta/sharedOwner",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/visualReview/newSharedNativeDelta/outputs/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/visualReview/newSharedNativeDelta/outputs/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "claimedSHA256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+      "claimedSHA256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/2",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+      "claimedSHA256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/3",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "claimedSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/4",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "claimedSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/5",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/6",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/7",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/reviewInheritance/priorReview",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "claimedSHA256": "354afe6afb092b58c050c8ef41f80ae0a84c9d0b07e419043e3f3366181318df",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/sharedOwner",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/sharedNativePair/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/sharedNativePair/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/nativeFiles/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "claimedSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/nativeFiles/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "claimedSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "claimedSHA256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/outputs/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "claimedSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/outputs/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "claimedSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/0",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "claimedSHA256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/1",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "claimedSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/2",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "claimedSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/3",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+      "claimedSHA256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/4",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+      "claimedSHA256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    }
+  ],
+  "additionalPublicIdentityChecks": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 7851,
+      "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "gitBlob": "9be44578450da912056fa52d58b31fcb1358cd05",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 7851,
+      "sha256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "gitBlob": "9be44578450da912056fa52d58b31fcb1358cd05",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 7851,
+      "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "gitBlob": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 7851,
+      "sha256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "gitBlob": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "exists": true,
+      "bytes": 8839,
+      "sha256": "a3179add0a742b8e8b415ab39d409f0524b492440e9f0cdd78b851a0b9c17318",
+      "gitBlob": "3e6760c02427f36c73a24336bd18e62badec55a6",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/meta-analysis.md",
+      "exists": true,
+      "bytes": 8839,
+      "sha256": "a3179add0a742b8e8b415ab39d409f0524b492440e9f0cdd78b851a0b9c17318",
+      "gitBlob": "3e6760c02427f36c73a24336bd18e62badec55a6",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "exists": true,
+      "bytes": 8157,
+      "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "gitBlob": "74bc088ab40ea306539221b8bdccd0f621c293e7",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "exists": true,
+      "bytes": 8157,
+      "sha256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "gitBlob": "74bc088ab40ea306539221b8bdccd0f621c293e7",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "exists": true,
+      "bytes": 8157,
+      "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "gitBlob": "a5ca4b1503553e16d5cbaed853bdb774b2160e9f",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "exists": true,
+      "bytes": 8157,
+      "sha256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "gitBlob": "a5ca4b1503553e16d5cbaed853bdb774b2160e9f",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+      "exists": true,
+      "bytes": 1264,
+      "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+      "gitBlob": "07957983a943add77840e5f6f005aad0d7f7585a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+      "exists": true,
+      "bytes": 1264,
+      "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+      "gitBlob": "07957983a943add77840e5f6f005aad0d7f7585a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+      "exists": true,
+      "bytes": 1420,
+      "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+      "gitBlob": "da2454354eae18685ff4ef0a39536334663fc026",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+      "exists": true,
+      "bytes": 1420,
+      "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+      "gitBlob": "da2454354eae18685ff4ef0a39536334663fc026",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "exists": true,
+      "bytes": 8431,
+      "sha256": "fda62ef1429577f9ba7dab645aa8ae3f5f742a7263be2216fa59b3a950fbd8ae",
+      "gitBlob": "5bcf22db946bfc40608eff86cd1352f35ebc9919",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/exploratory-vs-prespecified-analysis.md",
+      "exists": true,
+      "bytes": 8431,
+      "sha256": "fda62ef1429577f9ba7dab645aa8ae3f5f742a7263be2216fa59b3a950fbd8ae",
+      "gitBlob": "5bcf22db946bfc40608eff86cd1352f35ebc9919",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "exists": true,
+      "bytes": 8636,
+      "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "gitBlob": "e0903021f6bf41204021975e9bdbe5663abc3e9a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "exists": true,
+      "bytes": 8636,
+      "sha256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "gitBlob": "e0903021f6bf41204021975e9bdbe5663abc3e9a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "exists": true,
+      "bytes": 8636,
+      "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "gitBlob": "741cb6d478d48a10efa6a32e3282bab1042630e1",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "exists": true,
+      "bytes": 8636,
+      "sha256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "gitBlob": "741cb6d478d48a10efa6a32e3282bab1042630e1",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "exists": true,
+      "bytes": 746,
+      "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+      "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "exists": true,
+      "bytes": 746,
+      "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+      "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+      "exists": true,
+      "bytes": 1443,
+      "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+      "gitBlob": "0b47634b51ea1fa020b2536a8caed8d5ec3e8772",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+      "exists": true,
+      "bytes": 1443,
+      "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+      "gitBlob": "0b47634b51ea1fa020b2536a8caed8d5ec3e8772",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "exists": true,
+      "bytes": 6711,
+      "sha256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "gitBlob": "4166297c101492953f8a384911627b760362c125",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md",
+      "exists": true,
+      "bytes": 6946,
+      "sha256": "12718a7566a56b37c1f69333b300ee6d86cdd7e1c1da0af913906ff4f788286a",
+      "gitBlob": "927878e06c9955c289b7bfad0fe3a59c77bd69ba",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "exists": true,
+      "bytes": 1678,
+      "sha256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+      "gitBlob": "dabe074377e21f8c5cae4ae32f1351fc2a5d3b02",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "exists": true,
+      "bytes": 1678,
+      "sha256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+      "gitBlob": "dabe074377e21f8c5cae4ae32f1351fc2a5d3b02",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "exists": true,
+      "bytes": 2946,
+      "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+      "gitBlob": "686c358b5c9ce03b427b74fad36f54e96d486b7c",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "exists": true,
+      "bytes": 2946,
+      "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+      "gitBlob": "686c358b5c9ce03b427b74fad36f54e96d486b7c",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "exists": true,
+      "bytes": 10366,
+      "sha256": "d6b3eb27fe8d52f541a7823e4d354232b0580073851ee1b8911a884e55e3fb89",
+      "gitBlob": "e8e5973aa03c13794a1f2ea59175bb8a09bc0c3c",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/trial-phases-and-randomization.md",
+      "exists": true,
+      "bytes": 11263,
+      "sha256": "495a8d1912b258a5ced3308bde34f8159fee167abea499011515c7249882115b",
+      "gitBlob": "3c7072f6646d22b71cd5c291d583415378894c73",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 5328,
+      "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "gitBlob": "de6e91921cb7f25e5581886eea96e82c18c16245",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 5328,
+      "sha256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "gitBlob": "de6e91921cb7f25e5581886eea96e82c18c16245",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 5328,
+      "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "gitBlob": "0325a2f6b6e4cffbb0291f86aee30f8a51dd4bea",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 5328,
+      "sha256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "gitBlob": "0325a2f6b6e4cffbb0291f86aee30f8a51dd4bea",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "exists": true,
+      "bytes": 1530,
+      "sha256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+      "gitBlob": "8742969b095e23e24c69ade07457d18f2f6c5ce3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "exists": true,
+      "bytes": 1530,
+      "sha256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+      "gitBlob": "8742969b095e23e24c69ade07457d18f2f6c5ce3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "exists": true,
+      "bytes": 3713,
+      "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+      "gitBlob": "3263b077adbffe3a713e5eacab4fa054d84a2113",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "exists": true,
+      "bytes": 3713,
+      "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+      "gitBlob": "3263b077adbffe3a713e5eacab4fa054d84a2113",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "exists": true,
+      "bytes": 8656,
+      "sha256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "gitBlob": "05de8e692b3c5f3d74af3ffc45174a5bf99ba967",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md",
+      "exists": true,
+      "bytes": 8688,
+      "sha256": "ef6db791c1c4bee45b4d8eb689579dea1e039b396f3ac51278aef273248d8a45",
+      "gitBlob": "be08c82dc8d8a41371f82251e290287e56600779",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "exists": true,
+      "bytes": 4549,
+      "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "gitBlob": "6d6adf9172d38ad2fb38ab5279724a517ddaa5e3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "exists": true,
+      "bytes": 4549,
+      "sha256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "gitBlob": "6d6adf9172d38ad2fb38ab5279724a517ddaa5e3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "exists": true,
+      "bytes": 4549,
+      "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "gitBlob": "32f6adb7f16d1ebe829cde63b1bc14756865c9ed",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "exists": true,
+      "bytes": 4549,
+      "sha256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "gitBlob": "32f6adb7f16d1ebe829cde63b1bc14756865c9ed",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "exists": true,
+      "bytes": 9681,
+      "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+      "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "exists": true,
+      "bytes": 9890,
+      "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+      "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+      "exists": true,
+      "bytes": 1948,
+      "sha256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+      "gitBlob": "0ec64ad615724ecc95a917f1b2d79e118c668d4b",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+      "exists": true,
+      "bytes": 1948,
+      "sha256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+      "gitBlob": "0ec64ad615724ecc95a917f1b2d79e118c668d4b",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+      "exists": true,
+      "bytes": 4834,
+      "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+      "gitBlob": "86226c7f38194a74220fedb61bda7eab027cba70",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+      "exists": true,
+      "bytes": 4834,
+      "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+      "gitBlob": "86226c7f38194a74220fedb61bda7eab027cba70",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "exists": true,
+      "bytes": 17975,
+      "sha256": "91582d3aa110774d8f78bce6e279bf5fa81357f7477c66c55a7f8b0b467444ce",
+      "gitBlob": "7f820ed8c6c449fe7927d7147780ab2ea04b0687",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "exists": true,
+      "bytes": 17975,
+      "sha256": "91582d3aa110774d8f78bce6e279bf5fa81357f7477c66c55a7f8b0b467444ce",
+      "gitBlob": "7f820ed8c6c449fe7927d7147780ab2ea04b0687",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "exists": true,
+      "bytes": 9560,
+      "sha256": "0f88cd065464a7127bcbde011c2a7988e6ba29f3ce2185ba42eb9c10ef103320",
+      "gitBlob": "b49a8c0e4fe2df1a52e15450f4910cfcb487dd25",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/case-reports-and-n-of-1.md",
+      "exists": true,
+      "bytes": 9592,
+      "sha256": "e6516303340a6595b738bde12a3b29ff48f3139bc1a482cf1790d952829e72a4",
+      "gitBlob": "b6a89e23e4917fa107e28b542614f3cfc96374b9",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "exists": true,
+      "bytes": 7415,
+      "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "gitBlob": "0547570f291dbb2cae9a9357e25c4d1715b5d899",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "exists": true,
+      "bytes": 7415,
+      "sha256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "gitBlob": "0547570f291dbb2cae9a9357e25c4d1715b5d899",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "exists": true,
+      "bytes": 7415,
+      "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "gitBlob": "c5d3b45ba13bdd4c4f23e58049750a483a42b816",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "exists": true,
+      "bytes": 7415,
+      "sha256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "gitBlob": "c5d3b45ba13bdd4c4f23e58049750a483a42b816",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+      "exists": true,
+      "bytes": 913,
+      "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+      "gitBlob": "f91dea6ba300411036c34c20e325f8c8ce765407",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+      "exists": true,
+      "bytes": 913,
+      "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+      "gitBlob": "f91dea6ba300411036c34c20e325f8c8ce765407",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+      "exists": true,
+      "bytes": 1422,
+      "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+      "gitBlob": "7e455a63c4c561555262c6362a4d09317d6c8240",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+      "exists": true,
+      "bytes": 1422,
+      "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+      "gitBlob": "7e455a63c4c561555262c6362a4d09317d6c8240",
+      "identityOnly": true
+    }
+  ],
+  "allHashClaims": [
+    {
+      "bodyIndex": 0,
+      "pointer": "/ownerPreimageSHA256",
+      "claimedSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/frozenTask/pageSHA256",
+      "claimedSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/frozenAuditIdentity/auditSHA256",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/frozenAuditIdentity/originalTaskRowSHA256",
+      "claimedSHA256": "9726702b194ab54878a61bba6a14fcb16aec78e46746e5423b822f1efc9a97ad",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/planningDecisionSHA256",
+      "claimedSHA256": "e71dbfeff841514cc848d48b48c0381c0bfdb299d7a3d13ccf119276d303fdb2",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/outputs/0/sha256",
+      "claimedSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/outputs/1/sha256",
+      "claimedSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/briefSHA256",
+      "claimedSHA256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/frozenPageSHA256",
+      "claimedSHA256": "3032371ecfb33560a7c0b6ded72cec15849ea561a303db19924e5f6fca165e13",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/currentSourcePreimageSHA256",
+      "claimedSHA256": "6b9310613042bd82a22400ee9379343778cc792b345c9f466282a1ea82a820ff",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/finalCandidateSHA256",
+      "claimedSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/frozenRowSHA256",
+      "claimedSHA256": "8f2fbaf7f5f9bde6cec7605a157f3f93d30a268713569d51870184d0fe9c694e",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/promptSHA256",
+      "claimedSHA256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/nativeFiles/0/sha256",
+      "claimedSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 2,
+      "pointer": "/nativeFiles/1/sha256",
+      "claimedSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/currentOwnerSha256",
+      "claimedSHA256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/outputs/0/sha256",
+      "claimedSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/outputs/1/sha256",
+      "claimedSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/sourceFitAssessment/baselinePageSHA256",
+      "claimedSHA256": "2656dba310ec41a3c1ddf77a70dd6dc84522e099aa62b8b98dac286545c9cc65",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/frozenTask/auditSHA256",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/frozenTask/originalTaskRowSHA256",
+      "claimedSHA256": "835f5182217bb02ac908e3fe6a4d5aa8b422943d3c6ab1ebb9f5cf097f9df980",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/0/sha256",
+      "claimedSHA256": "258bbe63652b15b87d3a36d7d0bcd237a4235ac736245759d7b24126bc0e539f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/1/sha256",
+      "claimedSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/2/sha256",
+      "claimedSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/3/sha256",
+      "claimedSHA256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 4,
+      "pointer": "/custody/hashes/4/sha256",
+      "claimedSHA256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 5,
+      "pointer": "/originalBrief/sha256",
+      "claimedSHA256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 5,
+      "pointer": "/nativePair/0/sha256",
+      "claimedSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 5,
+      "pointer": "/nativePair/1/sha256",
+      "claimedSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/currentOwnerSha256",
+      "claimedSHA256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/outputs/0/sha256",
+      "claimedSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/outputs/1/sha256",
+      "claimedSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/sourceFitAssessment/baselinePageSHA256",
+      "claimedSHA256": "af75ea0bb3d59a0d7826574076b80fff030a9aff0bb152b99bcb149e9f1f76b5",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/frozenTask/auditSHA256",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/frozenTask/originalTaskRowSHA256",
+      "claimedSHA256": "5686101ca8c9bb36775fb8ca4aaff2d9a19a1aa8ad691b9995d46812871dfdc5",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/0/sha256",
+      "claimedSHA256": "d3c528aa20caefe2bb783b549b7337b62da24a86bfe571ff8acbe16490c53180",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/1/sha256",
+      "claimedSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/2/sha256",
+      "claimedSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/3/sha256",
+      "claimedSHA256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 7,
+      "pointer": "/custody/hashes/4/sha256",
+      "claimedSHA256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 8,
+      "pointer": "/originalBrief/sha256",
+      "claimedSHA256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 8,
+      "pointer": "/nativePair/0/sha256",
+      "claimedSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 8,
+      "pointer": "/nativePair/1/sha256",
+      "claimedSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/currentOwnerSha256",
+      "claimedSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/frozenRowSHA256",
+      "claimedSHA256": "8f2fbaf7f5f9bde6cec7605a157f3f93d30a268713569d51870184d0fe9c694e",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/frozenAuditSHA256",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/sourceFitAssessment/frozenPageSHA256",
+      "claimedSHA256": "3032371ecfb33560a7c0b6ded72cec15849ea561a303db19924e5f6fca165e13",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/sourceFitAssessment/baselinePageSHA256",
+      "claimedSHA256": "3032371ecfb33560a7c0b6ded72cec15849ea561a303db19924e5f6fca165e13",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/sourceFitAssessment/actualTeachingPreimageSHA256",
+      "claimedSHA256": "6b9310613042bd82a22400ee9379343778cc792b345c9f466282a1ea82a820ff",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/outputs/0/sha256",
+      "claimedSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/outputs/1/sha256",
+      "claimedSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/0/sha256",
+      "claimedSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/1/sha256",
+      "claimedSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/2/sha256",
+      "claimedSHA256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/3/sha256",
+      "claimedSHA256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/hashes/4/sha256",
+      "claimedSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/currentCandidateOwnerSHA256",
+      "claimedSHA256": "dfcadf91e5e24fc48574dc19aebcb839604f149bec36180ccf0bb448196c69e6",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/perturbation-and-controls.md"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/authorPackageSealSHA256",
+      "claimedSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/authorHandoffSHA256",
+      "claimedSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/authorInventorySHA256",
+      "claimedSHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/custody/sourcePreimageSHA256",
+      "claimedSHA256": "6b9310613042bd82a22400ee9379343778cc792b345c9f466282a1ea82a820ff",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/0/sha256",
+      "claimedSHA256": "468bd8a1b02f05d99a45726ff358750ef6baf4216e409dd0370a40886c839ed2",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/1/sha256",
+      "claimedSHA256": "4274b853f26904170510266a96d023a67ccdc344450872868c579e8acc64278f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/2/sha256",
+      "claimedSHA256": "d51147a3dfc8c3c686eb3356160039e35f0fff5dff4e0b49d4cc5dbf4e5c5730",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/3/sha256",
+      "claimedSHA256": "e61fbb5dccea6ec5f758766ac36fa366443e19329d6aa868609c6b9e1b1d662b",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/4/sha256",
+      "claimedSHA256": "cd4ba9dd38d6479732f320c674ce75c6f704b9140d1655a6b9312753ff6d88e8",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/5/sha256",
+      "claimedSHA256": "9120199253061f16c152850da2577c199cdbed8dad4985468176e083ed3ebd9a",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/6/sha256",
+      "claimedSHA256": "d572d3efe15908ad5ad6633bb9d0f89822b075a5093cfe874e7335d744682124",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/7/sha256",
+      "claimedSHA256": "b5d1b71bee44a0e3a115f6338d2f8010b5f1a3cee4d172c8a0ddaa9870ae3227",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/8/sha256",
+      "claimedSHA256": "9c4c535d24e9f1e2ca1b83473375d9735181c8e52aac0a84aba128e31363d6e3",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/9/sha256",
+      "claimedSHA256": "eff136ebbdad6f0d96f01c7162bc0d9eeaeec3bc7e4adc270754904ebe7638ee",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/10/sha256",
+      "claimedSHA256": "78d784163289a0e782f3cf81ea9ac82a9483cd7adc63d7c414cafe6a3e303d19",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/11/sha256",
+      "claimedSHA256": "7119748c72a7e0c95f86bf376947c21fc5423f3c41ce9ea339f34c6d4a54fb9c",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/focusedCorrection/originalReceiptSHA256",
+      "claimedSHA256": "901a2b01734b85590e5540316a579e0891cfe29ab91bbd4ae797ecbde70a7024",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/currentOwnerSha256",
+      "claimedSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/frozenRowSHA256",
+      "claimedSHA256": "9e50a8ed8f911cc0cdd3000feb3e5cc585af93576be950b8aa609327256eaa46",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/frozenAuditSHA256",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/sourceFitAssessment/frozenPageSHA256",
+      "claimedSHA256": "a24bc3df545fac1cdfd5040017f8a733fe80c290571cc708b65a4ed22fce2543",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/sourceFitAssessment/baselinePageSHA256",
+      "claimedSHA256": "a24bc3df545fac1cdfd5040017f8a733fe80c290571cc708b65a4ed22fce2543",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/sourceFitAssessment/actualTeachingPreimageSHA256",
+      "claimedSHA256": "eb01650547c20b2eed87604141a3622c0112ec2b9f36af6709ad02cbe6189287",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/outputs/0/sha256",
+      "claimedSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/outputs/1/sha256",
+      "claimedSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/0/sha256",
+      "claimedSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/1/sha256",
+      "claimedSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/2/sha256",
+      "claimedSHA256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/3/sha256",
+      "claimedSHA256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/hashes/4/sha256",
+      "claimedSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/currentCandidateOwnerSHA256",
+      "claimedSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/authorPackageSealSHA256",
+      "claimedSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/authorHandoffSHA256",
+      "claimedSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/authorInventorySHA256",
+      "claimedSHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/custody/sourcePreimageSHA256",
+      "claimedSHA256": "eb01650547c20b2eed87604141a3622c0112ec2b9f36af6709ad02cbe6189287",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/0/sha256",
+      "claimedSHA256": "89a24b6c1a60def2352eee47177b8bbecb88890a06d7d325766c9b175d89ce5f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/1/sha256",
+      "claimedSHA256": "1f5bd5ee0e9545b9c4893b5b804b7a6b3dc6f244014b2acb8b33b0cd3b38812b",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/2/sha256",
+      "claimedSHA256": "ccd7b2e550da0c812f930437c413da1c1f2d3f8e829a33f4f2eb94ad98d434f8",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/3/sha256",
+      "claimedSHA256": "17f9ed030cadff2d6a232904908f1982d3f4563da24aa97e166784c481d34dad",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/4/sha256",
+      "claimedSHA256": "be1f22ed2b4e0f290a52c8889b054556a1266126355db5ddb9be93a408eac634",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/5/sha256",
+      "claimedSHA256": "f8f5ed59815518890a874959674f11b7c21922d57d6823b3e0f564a60e511590",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/6/sha256",
+      "claimedSHA256": "0f627673f8cb9e4e46191ee223a664772534688af0959580b14eac75afd74118",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/7/sha256",
+      "claimedSHA256": "1dbb6719709afec1448fa0d1308f32841dee4bdc7a8f7515e15051386c65df6f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/8/sha256",
+      "claimedSHA256": "54f7aa2d7df42bbf43d1be849bbe73724de103334708fa6ea5e36f74e44cb8c4",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/9/sha256",
+      "claimedSHA256": "782af0ab6cbc5e8c2eae8d9806fd7b0ed9218950581f35041dbc569bcf407bab",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/focusedCorrection/originalReceiptSHA256",
+      "claimedSHA256": "78301bf582033aa4579f2dd6eb900434e3e1e3d49162d32c6ea55092ff30febb",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/currentOwnerSha256",
+      "claimedSHA256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/outputs/0/sha256",
+      "claimedSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/outputs/1/sha256",
+      "claimedSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/sourceFitAssessment/baselinePageSHA256",
+      "claimedSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/frozenTaskIdentity/pageSHA256",
+      "claimedSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/frozenAuditIdentity/auditSHA256",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/frozenAuditIdentity/originalTaskRowSHA256",
+      "claimedSHA256": "9726702b194ab54878a61bba6a14fcb16aec78e46746e5423b822f1efc9a97ad",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/authorPlanningDecisionReview/decisionSHA256",
+      "claimedSHA256": "b6adb3a01d67864985a445bf3b2392603bbd1d699283e7e454a49b7ed9df4923",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/authorPlanningDecisionReview/decisionFileSHA256",
+      "claimedSHA256": "e97a0424b5135f18855e9c8d8166abf1fbd04c9665536e96dd7f90599280f927",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/scientificSourceReview/inheritedFromReviewSHA256",
+      "claimedSHA256": "354afe6afb092b58c050c8ef41f80ae0a84c9d0b07e419043e3f3366181318df",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/visualReview/inheritedFromReviewSHA256",
+      "claimedSHA256": "354afe6afb092b58c050c8ef41f80ae0a84c9d0b07e419043e3f3366181318df",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/visualReview/newSharedNativeDelta/sharedOwner/sha256",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/visualReview/newSharedNativeDelta/outputs/0/sha256",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/visualReview/newSharedNativeDelta/outputs/1/sha256",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/0/sha256",
+      "claimedSHA256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/1/sha256",
+      "claimedSHA256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/2/sha256",
+      "claimedSHA256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/3/sha256",
+      "claimedSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/4/sha256",
+      "claimedSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/5/sha256",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/6/sha256",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/hashes/7/sha256",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/custody/currentOwnerPreimageSHA256",
+      "claimedSHA256": "15fd960abcce364aed4df1571d0dcd8e62af430987090b34e424c2a8c4e7671f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/priorAuthorPlanningDecisionReviews/0/decisionSHA256",
+      "claimedSHA256": "e71dbfeff841514cc848d48b48c0381c0bfdb299d7a3d13ccf119276d303fdb2",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/priorAuthorPlanningDecisionReviews/0/decisionFileSHA256",
+      "claimedSHA256": "e24f640299dd9bc9e7ab227256b433ae274db7bc54c85a279910c23a98ea62ac",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/reviewInheritance/priorReview/sha256",
+      "claimedSHA256": "354afe6afb092b58c050c8ef41f80ae0a84c9d0b07e419043e3f3366181318df",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/sharedOwner/sha256",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/sharedNativePair/0/sha256",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/sharedNativePair/1/sha256",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/selectedCandidateSHA256",
+      "claimedSHA256": "33eda1080426c491588e6af85d263c2cd7f7de014f14398f91872076babc9386",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/observational-studies-and-confounding.md"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 11,
+      "pointer": "/post40SharedSourceBinding/laterAuthorDecisionSHA256",
+      "claimedSHA256": "b6adb3a01d67864985a445bf3b2392603bbd1d699283e7e454a49b7ed9df4923",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/frozenPageSHA256",
+      "claimedSHA256": "a24bc3df545fac1cdfd5040017f8a733fe80c290571cc708b65a4ed22fce2543",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/currentSourcePreimageSHA256",
+      "claimedSHA256": "eb01650547c20b2eed87604141a3622c0112ec2b9f36af6709ad02cbe6189287",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/finalCandidateSHA256",
+      "claimedSHA256": "590383ba0a248822767f38b8a9fc1c99fa841e6dfeb14a8d0bfbd66ce8ae1e14",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/frozenRowSHA256",
+      "claimedSHA256": "9e50a8ed8f911cc0cdd3000feb3e5cc585af93576be950b8aa609327256eaa46",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/promptSHA256",
+      "claimedSHA256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/nativeFiles/0/sha256",
+      "claimedSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 12,
+      "pointer": "/nativeFiles/1/sha256",
+      "claimedSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/currentOwnerSha256",
+      "claimedSHA256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/outputs/0/sha256",
+      "claimedSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/outputs/1/sha256",
+      "claimedSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/sourceFitAssessment/baselinePageSHA256",
+      "claimedSHA256": "b968993fd8361fe18b86cbbf498ba8cec0c58584aee93bbeb898cc90119d345a",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/frozenTask/auditSHA256",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/frozenTask/originalTaskRowSHA256",
+      "claimedSHA256": "78c02ecc277de75893ed61826e55e1fa76d11b57de49efd9256b39ec0b22c67e",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/0/sha256",
+      "claimedSHA256": "62c4c852b4f61ef7e840b6d91a0c47da3055402fefedfedd4c049351515d7f06",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/1/sha256",
+      "claimedSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/2/sha256",
+      "claimedSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/3/sha256",
+      "claimedSHA256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 15,
+      "pointer": "/custody/hashes/4/sha256",
+      "claimedSHA256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 16,
+      "pointer": "/originalBrief/sha256",
+      "claimedSHA256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 16,
+      "pointer": "/nativePair/0/sha256",
+      "claimedSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    },
+    {
+      "bodyIndex": 16,
+      "pointer": "/nativePair/1/sha256",
+      "claimedSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg"
+      ],
+      "scope": "An unpaired hash is not promoted to code-execution, creator or approval proof."
+    }
+  ],
+  "privateReferenceInstances": 76,
+  "privateReferences": [
+    {
+      "bodyIndex": 0,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 0,
+      "referenceSHA256": "45edd10069a358f8f7798796b2fa33293e8c84ab6a4dc8aa455633f48f4a7525",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 0,
+      "referenceSHA256": "afa1001889e8b545bf35d966d37078a565b5528a924535dabaaa3c730fd1df66",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 0,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/outputs/0",
+      "referenceSHA256": "45edd10069a358f8f7798796b2fa33293e8c84ab6a4dc8aa455633f48f4a7525",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725"
+    },
+    {
+      "bodyIndex": 0,
+      "pointer": "/outputs/1",
+      "referenceSHA256": "afa1001889e8b545bf35d966d37078a565b5528a924535dabaaa3c730fd1df66",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940"
+    },
+    {
+      "bodyIndex": 1,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 2,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 3,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "4571c1fbc48d4133ba29af0713efab7b1721c77ecbe28f62af4c74888c4a631a",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "9ee7a493184247505981d307c3f31ee28b5ce3dee14662cd147716e154bdb5d6",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "08e6caf90015b8d0ccf25683f501f9e61abcb62ecf9bf7c11800e493601a8842",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "d673adba8cee88417f9a3fdea2ef7e1216508a5bd65456a64e0d301b5e667cb8",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "8caad15b968ad51f9775d353f53b5474f92dea7b9d7d82a9ebc37ac456df7ddb",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "5753c3242bb92b5b82789f74b052fb21713ee2a15d70d9bd047a3fc7533cf5f6",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "9f9216b6ee206727f8fe2ebb4b51750e8fb3a4c4416174e49d83971e6975910d",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "6d5161cb14242bf211b7e1c910ff573bbe223915698cb18cdb11cf78dcbea767",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "ca122127881d3a07708a5803bf79c7fe5450fe33f4d77e1568cd9a7119bb7733",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "daa2e53b9a4406a0119badaacfc0d328c85525a1f350dab2c13b53d8d30247a3",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "2e8a2558557807db3fe9188f248e844c0f78356d8883097e62fa768b507f53a4",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "147ad4728db0f7a5b871ab0cf827a72d08564d327091d1bea2741eb77dc94622",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "42b0819cc534217554b455dd468a5b3be60b87c70ebba372b142973c0d154e3f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "37aeebb8533a96f6687484e2301b4a2e334c45608174f04c0efdd4e085fd1da6",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/0",
+      "referenceSHA256": "9ee7a493184247505981d307c3f31ee28b5ce3dee14662cd147716e154bdb5d6",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "468bd8a1b02f05d99a45726ff358750ef6baf4216e409dd0370a40886c839ed2"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/1",
+      "referenceSHA256": "08e6caf90015b8d0ccf25683f501f9e61abcb62ecf9bf7c11800e493601a8842",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "4274b853f26904170510266a96d023a67ccdc344450872868c579e8acc64278f"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/2",
+      "referenceSHA256": "d673adba8cee88417f9a3fdea2ef7e1216508a5bd65456a64e0d301b5e667cb8",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "d51147a3dfc8c3c686eb3356160039e35f0fff5dff4e0b49d4cc5dbf4e5c5730"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/3",
+      "referenceSHA256": "8caad15b968ad51f9775d353f53b5474f92dea7b9d7d82a9ebc37ac456df7ddb",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "e61fbb5dccea6ec5f758766ac36fa366443e19329d6aa868609c6b9e1b1d662b"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/4",
+      "referenceSHA256": "5753c3242bb92b5b82789f74b052fb21713ee2a15d70d9bd047a3fc7533cf5f6",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "cd4ba9dd38d6479732f320c674ce75c6f704b9140d1655a6b9312753ff6d88e8"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/5",
+      "referenceSHA256": "9f9216b6ee206727f8fe2ebb4b51750e8fb3a4c4416174e49d83971e6975910d",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "9120199253061f16c152850da2577c199cdbed8dad4985468176e083ed3ebd9a"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/6",
+      "referenceSHA256": "6d5161cb14242bf211b7e1c910ff573bbe223915698cb18cdb11cf78dcbea767",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "d572d3efe15908ad5ad6633bb9d0f89822b075a5093cfe874e7335d744682124"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/7",
+      "referenceSHA256": "ca122127881d3a07708a5803bf79c7fe5450fe33f4d77e1568cd9a7119bb7733",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "b5d1b71bee44a0e3a115f6338d2f8010b5f1a3cee4d172c8a0ddaa9870ae3227"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/8",
+      "referenceSHA256": "daa2e53b9a4406a0119badaacfc0d328c85525a1f350dab2c13b53d8d30247a3",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "9c4c535d24e9f1e2ca1b83473375d9735181c8e52aac0a84aba128e31363d6e3"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/9",
+      "referenceSHA256": "2e8a2558557807db3fe9188f248e844c0f78356d8883097e62fa768b507f53a4",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "eff136ebbdad6f0d96f01c7162bc0d9eeaeec3bc7e4adc270754904ebe7638ee"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/10",
+      "referenceSHA256": "147ad4728db0f7a5b871ab0cf827a72d08564d327091d1bea2741eb77dc94622",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "78d784163289a0e782f3cf81ea9ac82a9483cd7adc63d7c414cafe6a3e303d19"
+    },
+    {
+      "bodyIndex": 9,
+      "pointer": "/freshCaptures/11",
+      "referenceSHA256": "42b0819cc534217554b455dd468a5b3be60b87c70ebba372b142973c0d154e3f",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "7119748c72a7e0c95f86bf376947c21fc5423f3c41ce9ea339f34c6d4a54fb9c"
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "4571c1fbc48d4133ba29af0713efab7b1721c77ecbe28f62af4c74888c4a631a",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "aed87ddc799901a1785a7cd247a1e9ec31cc2670bd75b6ad2d7e12f434da37d2",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "881f6f04ced33e26e0f14bb99925aecc1facc1f5d06f1245c35d7445f3ad2a9f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "041e7843ff28e1e2ed552951a2e72ca85549fa6a6f8b73a3eee59578108fb7be",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "4ea965d45ee7ecfeb85568dc9937341d12e4bb7986abc273b9384bcf6b58bfb0",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "6c4c588f2136572802694ba5be3057423382b2d0de664e2d65a3dd5dd07420fe",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "3544601fc416dc52ebec8d1fdcc1744d4d0e1ab6514466d4a5c6323adae79916",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "906df7c87d7c256a97625e8eb5c04b535f65fedb2ad9df1f011a3de4ef790476",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "31be823eca33f40bbb244e864abddda7ab71a2720dad6c009cafdef17c281b05",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "031e5e6f4823084697849accbce4034383bb26b703f17ec326967dfa7d657bf4",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "ec942eac524d5705ec0496ca78d0a2e4612657a4375897a0e53f3ccfccbf11a8",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "37aeebb8533a96f6687484e2301b4a2e334c45608174f04c0efdd4e085fd1da6",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/0",
+      "referenceSHA256": "aed87ddc799901a1785a7cd247a1e9ec31cc2670bd75b6ad2d7e12f434da37d2",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "89a24b6c1a60def2352eee47177b8bbecb88890a06d7d325766c9b175d89ce5f"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/1",
+      "referenceSHA256": "881f6f04ced33e26e0f14bb99925aecc1facc1f5d06f1245c35d7445f3ad2a9f",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "1f5bd5ee0e9545b9c4893b5b804b7a6b3dc6f244014b2acb8b33b0cd3b38812b"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/2",
+      "referenceSHA256": "041e7843ff28e1e2ed552951a2e72ca85549fa6a6f8b73a3eee59578108fb7be",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "ccd7b2e550da0c812f930437c413da1c1f2d3f8e829a33f4f2eb94ad98d434f8"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/3",
+      "referenceSHA256": "4ea965d45ee7ecfeb85568dc9937341d12e4bb7986abc273b9384bcf6b58bfb0",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "17f9ed030cadff2d6a232904908f1982d3f4563da24aa97e166784c481d34dad"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/4",
+      "referenceSHA256": "6c4c588f2136572802694ba5be3057423382b2d0de664e2d65a3dd5dd07420fe",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "be1f22ed2b4e0f290a52c8889b054556a1266126355db5ddb9be93a408eac634"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/5",
+      "referenceSHA256": "3544601fc416dc52ebec8d1fdcc1744d4d0e1ab6514466d4a5c6323adae79916",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "f8f5ed59815518890a874959674f11b7c21922d57d6823b3e0f564a60e511590"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/6",
+      "referenceSHA256": "906df7c87d7c256a97625e8eb5c04b535f65fedb2ad9df1f011a3de4ef790476",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "0f627673f8cb9e4e46191ee223a664772534688af0959580b14eac75afd74118"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/7",
+      "referenceSHA256": "31be823eca33f40bbb244e864abddda7ab71a2720dad6c009cafdef17c281b05",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "1dbb6719709afec1448fa0d1308f32841dee4bdc7a8f7515e15051386c65df6f"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/8",
+      "referenceSHA256": "031e5e6f4823084697849accbce4034383bb26b703f17ec326967dfa7d657bf4",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "54f7aa2d7df42bbf43d1be849bbe73724de103334708fa6ea5e36f74e44cb8c4"
+    },
+    {
+      "bodyIndex": 10,
+      "pointer": "/freshCaptures/9",
+      "referenceSHA256": "ec942eac524d5705ec0496ca78d0a2e4612657a4375897a0e53f3ccfccbf11a8",
+      "privateReferenceNotFollowed": true,
+      "claimedSHA256": "782af0ab6cbc5e8c2eae8d9806fd7b0ed9218950581f35041dbc569bcf407bab"
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    }
+  ],
+  "privateReferencesNeverFollowed": true,
+  "historicalCreatorNativeBrowserAndApprovalClaimsNotCertified": true,
+  "approvalCredit": 0
+}

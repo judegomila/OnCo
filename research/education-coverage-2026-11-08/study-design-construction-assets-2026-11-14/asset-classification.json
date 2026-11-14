@@ -1,0 +1,607 @@
+{
+  "decisions": [
+    {
+      "index": 0,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4834,
+          "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+          "gitBlob": "86226c7f38194a74220fedb61bda7eab027cba70"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4834,
+          "sha256": "808cb0ee3a15978a63b23672788257f03894452597e81036744fc05ea638d6a4",
+          "gitBlob": "86226c7f38194a74220fedb61bda7eab027cba70"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 1,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or design assumptions; construction and broader parent context remain distinct.",
+      "requirements": [
+        "SB30-005",
+        "SB30-006"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1948,
+          "sha256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+          "gitBlob": "0ec64ad615724ecc95a917f1b2d79e118c668d4b"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/baseline-mixtures-within-category-and-pooled-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1948,
+          "sha256": "4d1c7f5f5dd6e0127d9300a13ba53a633bf9ff93284c49afb1261ef9b7e11da2",
+          "gitBlob": "0ec64ad615724ecc95a917f1b2d79e118c668d4b"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0,
+      "broaderParentContextRequirementsRetainedSeparately": [
+        "SB30-002",
+        "SB30-003"
+      ]
+    },
+    {
+      "index": 2,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 2946,
+          "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+          "gitBlob": "686c358b5c9ce03b427b74fad36f54e96d486b7c"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 2946,
+          "sha256": "8448269bb332e947fc6f7c2ae3e020f1b7be2f1879fd8eb6b1ce3de34d679e2b",
+          "gitBlob": "686c358b5c9ce03b427b74fad36f54e96d486b7c"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 3,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or design assumptions; construction and broader parent context remain distinct.",
+      "requirements": [
+        "SB30-016",
+        "SB30-017",
+        "SB30-018",
+        "SB30-019",
+        "SB30-020"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1678,
+          "sha256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+          "gitBlob": "dabe074377e21f8c5cae4ae32f1351fc2a5d3b02"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/controlled-conditions-and-causal-questions-b10-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1678,
+          "sha256": "380378a0975ea2b5e53f44a37bc2ed08eec50bcdd6c4a941d145079c7e2084bd",
+          "gitBlob": "dabe074377e21f8c5cae4ae32f1351fc2a5d3b02"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0,
+      "broaderParentContextRequirementsRetainedSeparately": [
+        "SB30-015"
+      ]
+    },
+    {
+      "index": 4,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-next-gap-097-independent-task-fit.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-next-gap-097-independent-task-fit.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 8468,
+          "sha256": "499112cad336eb8d6a808385681c0f8ee536cf15634dac052f8549200226c571",
+          "gitBlob": "47af602a94dc9a9c31d4ebbd2d1af269c64ec562"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-next-gap-097-independent-task-fit.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 8468,
+          "sha256": "499112cad336eb8d6a808385681c0f8ee536cf15634dac052f8549200226c571",
+          "gitBlob": "47af602a94dc9a9c31d4ebbd2d1af269c64ec562"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 5,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1420,
+          "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+          "gitBlob": "da2454354eae18685ff4ef0a39536334663fc026"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1420,
+          "sha256": "b52a987d1df063dd729aa7b8b7e6fc9fe16b79b90f00f2e0402cc5b63da86903",
+          "gitBlob": "da2454354eae18685ff4ef0a39536334663fc026"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 6,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or design assumptions; construction and broader parent context remain distinct.",
+      "requirements": [
+        "SB30-032",
+        "SB30-033",
+        "SB30-034",
+        "SB30-035"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1264,
+          "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+          "gitBlob": "07957983a943add77840e5f6f005aad0d7f7585a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/forest-mean-and-study-effect-range-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1264,
+          "sha256": "42b613b98f3c78df7281afd079cb90d5338451f88b00332683c4db6f896efdb2",
+          "gitBlob": "07957983a943add77840e5f6f005aad0d7f7585a"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0,
+      "broaderParentContextRequirementsRetainedSeparately": [
+        "SB30-030",
+        "SB30-031"
+      ]
+    },
+    {
+      "index": 7,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-next-gap-099-independent-task-fit.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-next-gap-099-independent-task-fit.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 6794,
+          "sha256": "1914d299500a795253e2a12cf32b99a493e87f5818153589b4e4930ae455c00f",
+          "gitBlob": "8fabeaa146fdd1d4eaea84e1022030776d87e665"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-next-gap-099-independent-task-fit.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 6794,
+          "sha256": "1914d299500a795253e2a12cf32b99a493e87f5818153589b4e4930ae455c00f",
+          "gitBlob": "8fabeaa146fdd1d4eaea84e1022030776d87e665"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 8,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1443,
+          "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+          "gitBlob": "0b47634b51ea1fa020b2536a8caed8d5ec3e8772"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1443,
+          "sha256": "1d3324f29825a8d96be797fe6e024ecbf083dd345e3185ce1a4faccf4b1099d3",
+          "gitBlob": "0b47634b51ea1fa020b2536a8caed8d5ec3e8772"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 9,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-245-focused-pair-binding-successor.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-245-focused-pair-binding-successor.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 16869,
+          "sha256": "1fd6edfd5215b1888c2117482245b03285f64c2fa2a42583666a5edd4816fc57",
+          "gitBlob": "70d20474a3ffca7f7c352a8e988e101dcb0d2958"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-245-focused-pair-binding-successor.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 16869,
+          "sha256": "1fd6edfd5215b1888c2117482245b03285f64c2fa2a42583666a5edd4816fc57",
+          "gitBlob": "70d20474a3ffca7f7c352a8e988e101dcb0d2958"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 10,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-246-focused-pair-binding-successor.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-246-focused-pair-binding-successor.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 16471,
+          "sha256": "bff80155e917a092bb3daa27357c184c666277bd68c551f96a69f3102da34d24",
+          "gitBlob": "96dcabe5a4890b2658388b2c7545895d932b48f8"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-246-focused-pair-binding-successor.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 16471,
+          "sha256": "bff80155e917a092bb3daa27357c184c666277bd68c551f96a69f3102da34d24",
+          "gitBlob": "96dcabe5a4890b2658388b2c7545895d932b48f8"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 11,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 17975,
+          "sha256": "91582d3aa110774d8f78bce6e279bf5fa81357f7477c66c55a7f8b0b467444ce",
+          "gitBlob": "7f820ed8c6c449fe7927d7147780ab2ea04b0687"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/peer-reviews/next-gap-286-independent-new-owner-task-fit.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 17975,
+          "sha256": "91582d3aa110774d8f78bce6e279bf5fa81357f7477c66c55a7f8b0b467444ce",
+          "gitBlob": "7f820ed8c6c449fe7927d7147780ab2ea04b0687"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 12,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 3713,
+          "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+          "gitBlob": "3263b077adbffe3a713e5eacab4fa054d84a2113"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 3713,
+          "sha256": "07af1164561c3c75ed055a858219bc0cb98a1b46f6da948b098a16023415271e",
+          "gitBlob": "3263b077adbffe3a713e5eacab4fa054d84a2113"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 13,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or design assumptions; construction and broader parent context remain distinct.",
+      "requirements": [
+        "SB30-046",
+        "SB30-047",
+        "SB30-048"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1530,
+          "sha256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+          "gitBlob": "8742969b095e23e24c69ade07457d18f2f6c5ce3"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/phase-purpose-and-concealed-chance-assignment-b10-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1530,
+          "sha256": "5122119410474b7467a479b02b3170e527a4e0043ecde47b84afea4818e72af5",
+          "gitBlob": "8742969b095e23e24c69ade07457d18f2f6c5ce3"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0,
+      "broaderParentContextRequirementsRetainedSeparately": []
+    },
+    {
+      "index": 14,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/preclinical-donor-well-cells-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or design assumptions; construction and broader parent context remain distinct.",
+      "requirements": [
+        "SB30-024",
+        "SB30-026",
+        "SB30-027",
+        "SB30-028"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/preclinical-donor-well-cells-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 7389,
+          "sha256": "a1acb4e39ed85eaeace34bec68751329207d5b6161e44cf1e91076529b0f45f3",
+          "gitBlob": "389d2ba0db1b226f687d8a52a2330b423ac9293e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/preclinical-donor-well-cells-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 7389,
+          "sha256": "a1acb4e39ed85eaeace34bec68751329207d5b6161e44cf1e91076529b0f45f3",
+          "gitBlob": "389d2ba0db1b226f687d8a52a2330b423ac9293e"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0,
+      "broaderParentContextRequirementsRetainedSeparately": [
+        "SB30-025"
+      ]
+    },
+    {
+      "index": 15,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-next-gap-100-independent-task-fit.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-next-gap-100-independent-task-fit.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 9293,
+          "sha256": "0624469e02c949ffa888b4543ab2747c24158de62e9e4af94fc880f62489edd7",
+          "gitBlob": "b98463ae95d95fad711b6bde7164f09f9180572d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-next-gap-100-independent-task-fit.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 9293,
+          "sha256": "0624469e02c949ffa888b4543ab2747c24158de62e9e4af94fc880f62489edd7",
+          "gitBlob": "b98463ae95d95fad711b6bde7164f09f9180572d"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 16,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody; its historical scientific assertions stay dependencies, without independent approval or support coverage points.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1422,
+          "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+          "gitBlob": "7e455a63c4c561555262c6362a4d09317d6c8240"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1422,
+          "sha256": "f5ed82604739bdf6b84e7695c0a908c59e1029deb32be25d07b1488231a6186c",
+          "gitBlob": "7e455a63c4c561555262c6362a4d09317d6c8240"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 17,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or design assumptions; construction and broader parent context remain distinct.",
+      "requirements": [
+        "SB30-057",
+        "SB30-058",
+        "SB30-059",
+        "SB30-062"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 913,
+          "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+          "gitBlob": "f91dea6ba300411036c34c20e325f8c8ce765407"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/reversible-periods-and-lasting-overlap-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 913,
+          "sha256": "06522bd41f62016467c594774f3154fa397a18448d7c81941656a0e6c2b2d9c5",
+          "gitBlob": "f91dea6ba300411036c34c20e325f8c8ce765407"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0,
+      "broaderParentContextRequirementsRetainedSeparately": [
+        "SB30-055",
+        "SB30-056",
+        "SB30-060",
+        "SB30-061"
+      ]
+    },
+    {
+      "index": 18,
+      "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+      "scope": "teaching",
+      "priorScope": "supporting",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or design assumptions; construction and broader parent context remain distinct.",
+      "requirements": [
+        "SB30-039",
+        "SB30-040",
+        "SB30-041",
+        "SB30-042"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 746,
+          "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+          "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+          "priorAssetScope": "supporting",
+          "identityVerifiedAgainstCurrentPinnedLedger": true
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/prompts/locked-plan-results-and-twelve-cutoffs-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 746,
+          "sha256": "b568f2878038eb4252ddab70539f62cba9dfd8ac45e7692e4700be5d77b33a48",
+          "gitBlob": "0779c391547d741fe266d04428e2a60cc9c1b832",
+          "priorAssetScope": "supporting",
+          "identityVerifiedAgainstCurrentPinnedLedger": true
+        }
+      ],
+      "explicitRoleCorrection": true,
+      "priorRoleRetainedInPacket": true,
+      "supportCoverageCredit": 0,
+      "broaderParentContextRequirementsRetainedSeparately": []
+    }
+  ],
+  "initiallyUnclassifiedPaths": 18,
+  "additionalPreviouslySupportingPath": 1,
+  "assessedPaths": 19,
+  "assessedVersionEntries": 38,
+  "newTeachingFromUnclassifiedPerPin": 6,
+  "newSupportingFromUnclassifiedPerPin": 12,
+  "priorSupportingReclassifiedToTeachingPerPin": 1,
+  "netTeachingIncreasePerPin": 7,
+  "netSupportingIncreasePerPin": 11,
+  "ordinaryLessonGradesChanged": 0,
+  "scopeIsNotScientificOrOwnerApproval": true,
+  "directConstructionPointsPerPin": 26
+}

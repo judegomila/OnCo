@@ -1,0 +1,9 @@
+{
+  "initialReplaySHA256": "323ab83f40275ee9e04f969fd825527998c0758a5961acdfb7f845a5cb4e45da",
+  "initialReplayBytesPreserved": true,
+  "finding": "A subsequent preservation-receipt refresh changed one new-cohort receipt after the first manifest/replay. Commit guard stopped before staging.",
+  "correction": "Retain the initial replay and perform final replay/manifest generation after the preservation receipt is stable.",
+  "canonicalDataChanged": false,
+  "sourceEvidenceGradesChanged": false,
+  "requiredCanonicalGatesRepeated": false
+}

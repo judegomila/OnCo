@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "aa62f7e65f51f6d156a0f732b1429b5da5fd08a2fb077e0d691167958caaf6e9"
+      "sha256": "588a2273e660067567915c3bfe1454c09f10790f9adb7a2c6f00e4fe57cc2551"
     },
     {
       "path": "access-completion-2026-11-09/capture-manifest.json",
@@ -1296,7 +1296,7 @@
     },
     {
       "path": "candidates.json",
-      "sha256": "137795b5a9478d4d0964988c0899cdbad064f70873d1d97c28b2f78196f76d7e"
+      "sha256": "df4fa466c56dcdf90fd7bf487079c058e35d982419c5c1334f024e51817ae419"
     },
     {
       "path": "cell-control-primary/capture-manifest.json",
@@ -3564,7 +3564,7 @@
     },
     {
       "path": "ledger.json",
-      "sha256": "0ddaa1ef4c2149b2b972d9716b7c47b2904ba592e6e631ffa8b4a886c95075f9"
+      "sha256": "1cce929d09e2aabf6fb1b5d7f26d0c6fcf5db87ff23d81f3d9a16aebc13fd5eb"
     },
     {
       "path": "literature-dispositions.json",
@@ -4244,7 +4244,7 @@
     },
     {
       "path": "open-dependencies.json",
-      "sha256": "8b05459bd5c02eac8431f908dcdacaf53a307ba1b54bb27a5ad744d6ea56765c"
+      "sha256": "dd4b640c9b54d15679a299babc30bc727ae301a63a1b743468c6ac2b8a412a8f"
     },
     {
       "path": "open-items.json",
@@ -4252,7 +4252,7 @@
     },
     {
       "path": "open-source-assets.json",
-      "sha256": "fef73491f786e12a9fba4b01464495f5afe1c3904c3430300148253697596320"
+      "sha256": "717f70d5690a37a0346a152c2dfa59caf1659cd6978c088f8f6c6841c29c03c0"
     },
     {
       "path": "original-mrd-and-pathways-2026-11-13/README.md",
@@ -4895,6 +4895,10 @@
       "sha256": "eaf6c4437c6ded3a3ba286a918f6d336a06a0621513bc46d86fc69fb1b7b85dc"
     },
     {
+      "path": "pending/proposal-study-design-asset-summary-consumers-2026-11-14.json",
+      "sha256": "07165325254ce2e2a430a879931912a82049ed4a83db8e42b8ded8e545c5f5b0"
+    },
+    {
       "path": "pending/proposal-study-prediction-peer.json",
       "sha256": "27f0559354eaf714687886ce4399fc1cdf7c7f23975bb6e27cff47d83987acf1"
     },
@@ -5037,6 +5041,14 @@
     {
       "path": "pending/proposal-support-bodies-29-root.json",
       "sha256": "61d6da0440448b03157ff09da3ce763d6e54d7e295b23e34bdddd652a5ce51ec"
+    },
+    {
+      "path": "pending/proposal-support-bodies-30-peer.json",
+      "sha256": "4dbca9c7d1dab44a8b1b36942870b6ce4e525ab119ec3a46b00ec3c59014699f"
+    },
+    {
+      "path": "pending/proposal-support-bodies-30-root.json",
+      "sha256": "7ad6d65995bf7ceeb12d8b8485bd01dd02d7707f8ecf9ca6f46d679eed6118c7"
     },
     {
       "path": "pending/proposal-surface-targeting-root.json",
@@ -5400,7 +5412,7 @@
     },
     {
       "path": "progress.md",
-      "sha256": "841d8f40acd372f1a6b956de5814887da3575a277575ab0db86e9f3c5421f108"
+      "sha256": "2a87f8fef2557638ef4857e6c02ac94547b8164afc770fd6bdd8a2013ec8f563"
     },
     {
       "path": "quality-control-and-peptide-construction-2026-11-14/README.md",
@@ -7752,7 +7764,7 @@
     },
     {
       "path": "source-assets.json",
-      "sha256": "e4d9e4ea055bcc23f9811b3fa37a24199ef956b09274c63cbc59f900bc382c1e"
+      "sha256": "4c5e863042163b0def6d80ccecdf36b575e914595c4f449f7860b6a6a30a688a"
     },
     {
       "path": "source-checkout-isolation-2026-11-09.json",
@@ -7760,11 +7772,11 @@
     },
     {
       "path": "source-phases/c9689645/README.md",
-      "sha256": "514b3e49cde5ba7d90b87ba9fd76f93225d999733d8e53dc3cf74f15739f0a46"
+      "sha256": "f8510f2a750eaeffbb203eb8c24b9a2edd95c6c99a7cb6002dd8ef08b64008c8"
     },
     {
       "path": "source-phases/c9689645/candidates.json",
-      "sha256": "d5a41ec395ed3909a55262d642552d60244484264465e3560fbf5a63cc9530de"
+      "sha256": "525397a5b6730a03bcc181515459d28a0e9d1b8f38aa0ce3ad461cd1b13f7947"
     },
     {
       "path": "source-phases/c9689645/capture-manifest.json",
@@ -7780,11 +7792,11 @@
     },
     {
       "path": "source-phases/c9689645/ledger.json",
-      "sha256": "4214dc95df3fb8f3d73b8c166876b5ab251f9e0bce37a660b3c67d5204a45f6b"
+      "sha256": "cc4d9f58b697a8c0ab6e6f6648d1d4ed064694dc78099d9201099d0e8779834a"
     },
     {
       "path": "source-phases/c9689645/open-dependencies.json",
-      "sha256": "e179171beae58814aa17ec74a67cfbd97adf68af280c9e0a8ba318992009f4cc"
+      "sha256": "1f5f787ecd38920f20e5038105c320d38a5036e8ca8a2c259abd0a272efb0c2e"
     },
     {
       "path": "source-phases/c9689645/open-items.json",
@@ -7792,7 +7804,7 @@
     },
     {
       "path": "source-phases/c9689645/open-source-assets.json",
-      "sha256": "fef73491f786e12a9fba4b01464495f5afe1c3904c3430300148253697596320"
+      "sha256": "717f70d5690a37a0346a152c2dfa59caf1659cd6978c088f8f6c6841c29c03c0"
     },
     {
       "path": "source-phases/c9689645/publication-identities.json",
@@ -8045,6 +8057,190 @@
     {
       "path": "state-and-navigation-2026-11-09/source-scopes.json",
       "sha256": "91195ac0f945015c858d26de169ace278d949247ea0328b335bf7501f9ca88ea"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/README.md",
+      "sha256": "d542227d087272c588e44e35ce9e94cbadb0a674accdeeaab411717ea740ea01"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/abstract-read-log.json",
+      "sha256": "e0dd1006be52d4eccff0b213ac0ca88e5d19274c6b1bad908b0ce4e48075d1b8"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/adjacent-queue.json",
+      "sha256": "acd4af77590586395bbd15ea900a6c884697430884db738299dce7241e5adc42"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/aggregate.json",
+      "sha256": "71f8ae410c3a6661daf2eeb6c38659e6b7d80ffbdbf76415bf22ef9388899f65"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/arithmetic.json",
+      "sha256": "8395a54c35f74a473d7bf9c2e61f3884c37b00bf168c4f5f719943d8fbfb2a9a"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/asset-classification.json",
+      "sha256": "0cbca532924b2da6dda281ab8c90d7f70f5ec490ca3dfe935458aa617f554561"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/audit-finalization-correction.json",
+      "sha256": "de759d4ef4c411d5b75219c63a1a616123698028cc18d1b046f0a6973c60c320"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/batch-summary.json",
+      "sha256": "deb2f26eb623c5c3228ac93569f920277472b9eed7f31ae30854187d16edbad7"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/canonical-read-log.json",
+      "sha256": "94160ab838f5a805b0873d28f335905100d2fa2753efd9aaab54fa8294d74a2e"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/capture-hashes.json",
+      "sha256": "a81f7742964732720e8a86be1bc31e046f923f634657b487faba2b9b37433b18"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/context-verification.json",
+      "sha256": "dc632138596a61e88c914747ebef22ae15d17c99524ad2e5fe0109ee1ec80630"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/coverage-proofs.json",
+      "sha256": "80292da3ff7dbfc8d0cd055a50643387af98a3ac4360e0b285ab2c83d200bc61"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/current-runtime-verification.json",
+      "sha256": "16812f6e4ef0dce72e6fd8daf95a56fd63875b1f9c509f511950b903ae2d0987"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/custody-verification.json",
+      "sha256": "dc632138596a61e88c914747ebef22ae15d17c99524ad2e5fe0109ee1ec80630"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/direct-scope-refinement.json",
+      "sha256": "75a9a01f6912ace55a7c5914ffea9399c59068959d4168df527fcb2b8fc14714"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/equation-image-read.json",
+      "sha256": "f9a19273c31b0fb54bcb66397ae704dd77b51477bebaac754007bf142d72bbbb"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/field-verification.json",
+      "sha256": "31571cfb580f7107e6c413805cf555176c5f030e6691743d750dc61a8133daba"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/figure-assessment-final.json",
+      "sha256": "adee5f6f4d1d07cca91d88eea027594ba543961617ce413cc8675ac0d9f3b8c7"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/full-read-log.json",
+      "sha256": "1c3c5190437580cb370915f3f9ee917744327f8b557c0f76707d0c993c47e23b"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/learning-requirements.json",
+      "sha256": "91f33a6a889626f676a8cb8bed8fff8522f92c356bb3cb1c27dcadea6d7c06cb"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/native-geometry-verification.json",
+      "sha256": "61db8b82e3f0de537ce8a7531cae6f0ede6bc66216734121d100edec0fd7b153"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/owner-resolution.json",
+      "sha256": "291494567e2b33c27b038a36a71939d01abb19e6358885d178a413bc775337a9"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/parent-read-log.json",
+      "sha256": "2cbd329fbd4be419336be03afed29e63094c6b70e5ddfe184cf91379be3bdb6a"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/pdf-source-read-log.json",
+      "sha256": "71c2107be993934056e0fbc1bd042c91e928f12c2d46a6f1fdfd737955bf5ad7"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/peer-state-verification.json",
+      "sha256": "1a3e5d583333c3d6f9266fa8d1de8f54f8ccce9639615a9148239fdff65d67fe"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/primary-sources.json",
+      "sha256": "a0430c372190f5e7a96a72b73bc7f9bf4e4a74bffced37f326ba6cc69fd3e6d1"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/prior-artifact-preservation.json",
+      "sha256": "91450eb4f53bdd4be68735201abb11fcafaf7e96c71cdf1dd5216894ff4fbb2f"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/prior-field-rebases.json",
+      "sha256": "158c11bacd9d28ab9f96fdbdd3b3065b4a19a452c00d252ffe4b3b64a41634d5"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/reader-anchor-checks.json",
+      "sha256": "9f1317fa7a35582e4f3386afef1b0248d8459c4633da586b48c8ce12c63dc7cd"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/reader-verification.json",
+      "sha256": "5230453f5e541106501aa2bd5ebd9520df38b55a1c33bbf4d6def76f3037724c"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/record-changes.json",
+      "sha256": "d7e57f4a915f6e11d41cd732d00795fc892255b03073ff2b2300016b4428fbea"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/remaining-gaps.json",
+      "sha256": "788a579f019977641d6fa5a019ba756262c1bd0ac2a24f815af8ba021690f735"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/render-receipts.json",
+      "sha256": "8f864c4e820fde8c437fe03633f722f3b985a6643940da1a84163b9380fb791e"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/review-findings.json",
+      "sha256": "bac40d41b2294abfa537248d98a16a62e881934fc3f8b12ad5daf77ac2b465fb"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/role-history.json",
+      "sha256": "f46de0fd630af1a8da6255cd95c740b7b9ff1a679199c5fd7dabcb7cd7bee7e0"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/scanner-field-disposition.json",
+      "sha256": "c951eea2529e9650f3af02b0494f7181d6c0f00112e3f6f006fb9526468635b6"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/source-asset-actions.json",
+      "sha256": "aa03f845df80a36f1bdf431ee68d48fc75a5cca70c837452aaa569a9408cf7e5"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/source-first-inventory.json",
+      "sha256": "aeb777ad1ff92071b88b1b2e3162066f4877b37de8d377c9bfdb72d5dcb991ed"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/source-identity-verification.json",
+      "sha256": "aba4897c5d426f6115bbafd16aaf5eab4c768dd0eb1bb535df7d16c695f214fa"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/source-read-log.json",
+      "sha256": "83274defb2d4892357a99e59c0f223bc23f21f57ee2cb77d270b48b105dba2c0"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/source-reading.json",
+      "sha256": "b22ee0c83da0506808d5a77d8e4f89873a842a13e3fadfb06e224befd75462ea"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/summary-consumer-verification.json",
+      "sha256": "ecab4f9b345cfc778e766baccc43ab910d9c4093f503c4ead297baf15b6389bb"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/validation.json",
+      "sha256": "cacad3dbfa0224c9be07b907c73bce8383ab391c33542f309f9f031fac261d35"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/zero-change-replay-before-source-metadata.json",
+      "sha256": "fcd6d357e346659391acc54053795cda30414d3e213321c041cd87855511dc60"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/zero-change-replay-initial.json",
+      "sha256": "323ab83f40275ee9e04f969fd825527998c0758a5961acdfb7f845a5cb4e45da"
+    },
+    {
+      "path": "study-design-construction-assets-2026-11-14/zero-change-replay.json",
+      "sha256": "234ecfd7f56cda7291bf2eba71608b4231608b0524a8add24d428ac956641e86"
     },
     {
       "path": "study-prediction-2026-11-11/README.md",

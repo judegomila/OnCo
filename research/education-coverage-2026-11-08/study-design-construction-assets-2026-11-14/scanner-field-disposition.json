@@ -1,0 +1,47 @@
+{
+  "initialFindings": 26,
+  "allHitsMatchedFrozenPublicSourceCaptureIdentifiers": true,
+  "sourceIdentifierValuesUnchanged": true,
+  "metadataFieldRenamedFrom": "key",
+  "metadataFieldRenamedTo": "sourceId",
+  "changes": [
+    {
+      "path": "abstract-read-log.json",
+      "metadataLabelsRenamed": 22,
+      "beforeSHA256": "075cf95a76d5f142338d02d0ad27c86a7482c28d72246fcbae1f7ede99c5c99c",
+      "afterSHA256": "e0dd1006be52d4eccff0b213ac0ca88e5d19274c6b1bad908b0ce4e48075d1b8"
+    },
+    {
+      "path": "capture-hashes.json",
+      "metadataLabelsRenamed": 85,
+      "beforeSHA256": "dc2631a05eddacb481b1500a4c303b128caeedc4617d7f3ebc42631637843175",
+      "afterSHA256": "a81f7742964732720e8a86be1bc31e046f923f634657b487faba2b9b37433b18"
+    },
+    {
+      "path": "equation-image-read.json",
+      "metadataLabelsRenamed": 1,
+      "beforeSHA256": "721e911674b9033900e90042274838b69a8dcd04ffefb422a343da3e192fdb40",
+      "afterSHA256": "f9a19273c31b0fb54bcb66397ae704dd77b51477bebaac754007bf142d72bbbb"
+    },
+    {
+      "path": "primary-sources.json",
+      "metadataLabelsRenamed": 359,
+      "beforeSHA256": "2bb8cbe70819e2e7a47116bc86dee61d678671bbe22c3d3ae9502d650681e874",
+      "afterSHA256": "a0430c372190f5e7a96a72b73bc7f9bf4e4a74bffced37f326ba6cc69fd3e6d1"
+    },
+    {
+      "path": "source-identity-verification.json",
+      "metadataLabelsRenamed": 17,
+      "beforeSHA256": "8d5c779308131a9ca195e3c2372fd09a5a91d317d3ef422d8ae9dccae69f3738",
+      "afterSHA256": "aba4897c5d426f6115bbafd16aaf5eab4c768dd0eb1bb535df7d16c695f214fa"
+    },
+    {
+      "path": "source-read-log.json",
+      "metadataLabelsRenamed": 212,
+      "beforeSHA256": "f69d42b10341ed4f2745acd11d5cbd65982c9744595baf5157af93540a825786",
+      "afterSHA256": "83274defb2d4892357a99e59c0f223bc23f21f57ee2cb77d270b48b105dba2c0"
+    }
+  ],
+  "canonicalDataOrEvidenceExcerptsChanged": false,
+  "scannerRulesOrAllowlistsChanged": false
+}

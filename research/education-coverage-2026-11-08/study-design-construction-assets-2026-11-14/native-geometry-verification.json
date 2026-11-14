@@ -1,0 +1,86 @@
+{
+  "pairs": [
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "lightSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "darkSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+      "lightSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+      "darkSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+      "lightSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+      "darkSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+      "lightSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+      "darkSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+      "lightSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+      "darkSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+      "lightSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+      "darkSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+      "lightSHA256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+      "darkSHA256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+      "lightSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+      "darkSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+      "textAndSelectedGeometryAttributesEqual": true,
+      "allNativeViewsFreshAndWhole": true,
+      "colourContrastOrBrowserAcceptance": false
+    }
+  ],
+  "pairCount": 8,
+  "lockedPlan": {
+    "allTwelveNumberedChoicesPresent": true,
+    "selectedSixthChoiceConfirmedFromFreshViews": true,
+    "noSuppliedThresholdsPValuesOrBenefits": true
+  },
+  "hierarchyReproduction": "arithmetic-and-reproduction.json",
+  "fictionalMixturesAndForest": "arithmetic-and-reproduction.json",
+  "chronology": "Four ABBA periods and separate A/procedure/B/scan order were freshly viewed; no measured time distances or contributions inferred.",
+  "sourceImagesChanged": false
+}

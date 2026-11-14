@@ -1,0 +1,367 @@
+{
+  "initialNativeViewReceipt": {
+    "completedAtUTC": "2026-11-14T18:37:51.634100+00:00",
+    "freshCompleteNativeViews": 16,
+    "rows": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "sourceSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "sourceGitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+        "pngSHA256": "7fcc3d88e9bc7fb72ebd04ad1ea5b848d2dbace6db75840610f5045fe9a645b1",
+        "bytes": 103265,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:30:35.584495+00:00",
+        "coordinatorObservation": "Complete dark view: response fractions 40/80 and 12/20, 4/20 and 24/80; composition bars 80/20 versus 20/80; pooled 44/100 versus 36/100. Footer rejects superiority. All panels visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "sourceSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "sourceGitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+        "pngSHA256": "acdd1b1ebe3ce123a2985dacdedc8aa31d743be9d1c5c1f05af2328105aa86e0",
+        "bytes": 97936,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:30:53.788982+00:00",
+        "coordinatorObservation": "Complete light view: same two within-category comparisons and composition bars; overall 44 versus 36 is a reversal with explicit confounding and no-superiority limits. No clipped labels observed.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+        "sourceSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+        "sourceGitBlob": "32f6adb7f16d1ebe829cde63b1bc14756865c9ed",
+        "pngSHA256": "700fd6550f077e0837194544ad35549aec69d84c5d48632015a22d1367461d74",
+        "bytes": 126931,
+        "width": 600,
+        "height": 1220,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:07.631402+00:00",
+        "coordinatorObservation": "Complete dark view: two 100-person groups have 80/20 and 20/80 compositions, equal 75 percent and 25 percent within-category rates, pooled 65 and 35, and a common six-week symptom clock. Adjustment limits visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+        "sourceSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+        "sourceGitBlob": "6d6adf9172d38ad2fb38ab5279724a517ddaa5e3",
+        "pngSHA256": "26a669c98e899b9d54cf7b77e40c202af9c252239398695bebff045582b499b1",
+        "bytes": 126512,
+        "width": 600,
+        "height": 1220,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:20.335049+00:00",
+        "coordinatorObservation": "Complete light view: same 65/35 observational mixture arithmetic and common six-week clock; all four panels and causal/adjustment cautions visible. Distinct from the 44/36 shared example.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+        "sourceSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+        "sourceGitBlob": "9a4bb969747bb2751e9790fdcd7f82b2a5d97cf3",
+        "pngSHA256": "85983687923a8898fded0439ea330a02ccefcd6bbf74ab1d82af961246703e15",
+        "bytes": 124794,
+        "width": 600,
+        "height": 1100,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:44.363089+00:00",
+        "coordinatorObservation": "Complete dark view: vehicle, positive, independent-mechanism and restoration controls ask separate questions. The invented 100/200/100 count example does not measure death fraction. Footer retains context and no-single-control limits.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+        "sourceSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+        "sourceGitBlob": "9be44578450da912056fa52d58b31fcb1358cd05",
+        "pngSHA256": "0a9871b49a02704a82468179c165cc4fa4ab1e5b875358b16a487544d8873a7f",
+        "bytes": 118809,
+        "width": 600,
+        "height": 1100,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:31:52.781679+00:00",
+        "coordinatorObservation": "Complete light view: same four control questions and direct-count example; all labels and caution panel visible. The well symbols do not supply actual measured cell counts or a universal assay protocol.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+        "sourceSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+        "sourceGitBlob": "a5ca4b1503553e16d5cbaed853bdb774b2160e9f",
+        "pngSHA256": "0ecebfd03b6d4d49dac7173e23b1e262721d72db80ab48a188639ddc4d25d85f",
+        "bytes": 87002,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:32:22.902794+00:00",
+        "coordinatorObservation": "Complete dark forest view: five equal squares and 20 percent weights, mean -4 with separate narrow mean interval and wider -13 to +5 prediction line, no-effect zero, I-squared and tau-squared units, and few-study/approximation cautions visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+        "sourceSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+        "sourceGitBlob": "74bc088ab40ea306539221b8bdccd0f621c293e7",
+        "pngSHA256": "be24d2a0afb143a2ef3ae3fd044893e38bebc04c18f75ee8b833d04fd0f0952f",
+        "bytes": 87241,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:32:34.062630+00:00",
+        "coordinatorObservation": "Complete light forest view: all five study estimates and equal weights are visible; mean confidence diamond and prediction line use the same linear score-point axis. No observed label clipping; no direction-of-benefit or individual prognosis inferred.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+        "sourceSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+        "sourceGitBlob": "741cb6d478d48a10efa6a32e3282bab1042630e1",
+        "pngSHA256": "72f417099cdac5e3975aab2e8b79fb67c5ddc6353344be155e4d36e5f708220f",
+        "bytes": 93029,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:32:53.393482+00:00",
+        "coordinatorObservation": "Complete dark view: dated primary EFS and exploratory subgroup precede result access; all twelve later cutoff marks are present, with the sixth selected hypothetically. Future independent testing and planned-exploratory limits remain explicit; no numerical p-values supplied.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+        "sourceSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+        "sourceGitBlob": "e0903021f6bf41204021975e9bdbe5663abc3e9a",
+        "pngSHA256": "878d5b1fdb916df819071ca4ab9de85aa1179099648539b45f4661619cb21785",
+        "bytes": 93216,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:33:29.600238+00:00",
+        "coordinatorObservation": "Complete light view: same ordering and twelve schematic cutoffs with selected sixth mark. Labels fit. Selection is distinguished by colour without an additional shape cue; colour-vision and nontext contrast acceptance are not established.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+        "sourceSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+        "sourceGitBlob": "0325a2f6b6e4cffbb0291f86aee30f8a51dd4bea",
+        "pngSHA256": "e75bf7ba589dcade278a08fcd0a6d849a825ade4b78e1843835b3eb6ba541d25",
+        "bytes": 94771,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:33:55.871824+00:00",
+        "coordinatorObservation": "Complete dark view: phase purpose is separated from participant assignment; concealment concerns the next allocation, blinding is optional after assignment, and symbolic equal groups provide no sample-size or efficacy guarantee. All panels visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+        "sourceSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+        "sourceGitBlob": "de6e91921cb7f25e5581886eea96e82c18c16245",
+        "pngSHA256": "f2a013f9622f900235dc5783d20aa120cd43e862d7a025804bfca57a7aa8a681",
+        "bytes": 92707,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:34:06.678995+00:00",
+        "coordinatorObservation": "Complete light view: same separated purpose and concealed assignment pathway, with feasible blinding after allocation and clear limitations. Symbol counts are illustrative; no observed text clipping.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+        "sourceSHA256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+        "sourceGitBlob": "fbc086a6655cb7ab8d0db79e12e1e9e7166fcbb7",
+        "pngSHA256": "0327f476ae0da7ea641325b5540675996e946827e5b75a1eae939bd1f65a0ef4",
+        "bytes": 149340,
+        "width": 600,
+        "height": 1740,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:34:41.466068+00:00",
+        "coordinatorObservation": "Complete uncropped 600 by 1740 dark view: two donor panels, six distinct wells per donor, each with its own count-not-given observation box. Footer states within-donor randomization, separate treatment, no interference and donor-nested analysis. No invented cell counts or effects.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+        "sourceSHA256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+        "sourceGitBlob": "551cea59a73d4eef8a2a0b5232db62ce46e17814",
+        "pngSHA256": "932c17d79b4cfb8a7031aa00f8042dfac3ca963dbb56e5c406f63cd2bd9103ba",
+        "bytes": 149214,
+        "width": 600,
+        "height": 1740,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:34:53.963882+00:00",
+        "coordinatorObservation": "Complete uncropped light hierarchy view: all A1-A6 and B1-B6 wells and nested observation groups remain distinct; no cell counts supplied. Conditional assignment and donor-breadth limits are legible at the bottom. Source imagery remains unchanged.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+        "sourceSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+        "sourceGitBlob": "c5d3b45ba13bdd4c4f23e58049750a483a42b816",
+        "pngSHA256": "de56492979e780e343fffde63cfbf68c63463c0cb20ab2d70c88f733c0349cfd",
+        "bytes": 88291,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:35:30.442727+00:00",
+        "coordinatorObservation": "Complete dark view: one fictional randomized AB-BA symptom order with repeated same-measure observations is separate from A/procedure/B history. Hatched ribbons are labelled possible and unmeasured; no elapsed durations or causal contributions supplied. Right scan label is close to the edge but fully visible.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+        "sourceSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+        "sourceGitBlob": "0547570f291dbb2cae9a9357e25c4d1715b5d899",
+        "pngSHA256": "bca72df387d86ddf94228e8a096fd7869a4485787450a909864fd9f384814db7",
+        "bytes": 88338,
+        "width": 600,
+        "height": 1000,
+        "sourceEdited": false,
+        "viewAcknowledged": true,
+        "completeUncroppedView": true,
+        "viewedAtUTC": "2026-11-14T18:37:51.564741+00:00",
+        "coordinatorObservation": "Complete light view: same fictional AB-BA repeated-period design and separately unmeasured A/procedure/B overlap at an improved scan. All labels remain visible, with a tight right margin at the scan label. No time durations, washout interval, treatment effects or care instructions inferred.",
+        "browserHydrationAccessibilityOrIndependentApproval": false
+      }
+    ],
+    "renderer": {
+      "sharp": "0.35.4",
+      "vips": "8.18.6",
+      "density": 72
+    },
+    "matchesReadParentAndFictionalDataset": true,
+    "primaryMethodVerificationStillPending": true,
+    "minorVisualNotes": [
+      {
+        "figure": "locked-plan-results-and-twelve-cutoffs-v1",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "note": "Selected sixth cutoff relies on colour without an additional shape cue; no colour-vision or nontext contrast acceptance established."
+      },
+      {
+        "figure": "reversible-periods-and-lasting-overlap-v1",
+        "themes": [
+          "light",
+          "dark"
+        ],
+        "note": "Scan-improves label has a tight right margin but is fully visible in these native renders."
+      }
+    ],
+    "reusedPriorPixelViews": 0,
+    "newBrowserRender": false,
+    "newMermaidRenders": 0,
+    "mobileHydrationKeyboardAccessibilityOrIndependentAcceptance": false,
+    "expertOwnerLearnerApproval": false
+  },
+  "finalSourceMethodDisposition": "Named methods checked in the exact acknowledged abstracts, paragraphs, PDF text pages and equation image. Construction arithmetic separately reproduced. This is no whole-source, browser, accessibility or independent approval.",
+  "methodAssessment": "coverage-proofs.json",
+  "nativeGeometry": {
+    "pairs": [
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+        "lightSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+        "darkSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      },
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/baseline-mixtures-within-category-and-pooled-v1-dark.svg",
+        "lightSHA256": "5b4f8d06c693e4dc19debce07643ba90e4c388960646d3d66b8d9b162ecf9725",
+        "darkSHA256": "83706094f1f56061a6706ac8bb3689a2bd13875cda8d1ce89898e0171e600940",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      },
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/controlled-conditions-and-causal-questions-b10-v1-dark.svg",
+        "lightSHA256": "b82b40bf3c75927f8bee37ffea5120866c524ce9c83e543a934c7f07767f3917",
+        "darkSHA256": "7401e33f21e951e98adbbbe7cf30f5c46f11ad8776e4b20ec6f76f6b11958cc7",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      },
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/forest-mean-and-study-effect-range-v1-dark.svg",
+        "lightSHA256": "6a90756eda688d90f6ad084141f8700d8f2989836ea7d6ba2a306d0d3adc8f47",
+        "darkSHA256": "3045a645cd546f2fd8190c7ebff32ecafcbd42201601056e4d18c98cdb179793",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      },
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/locked-plan-results-and-twelve-cutoffs-v1-dark.svg",
+        "lightSHA256": "2299421fdef5d340596138649a9d2c6866c7482dfb4cff043c0c0f7e81c98cc4",
+        "darkSHA256": "8c18fb1490f7b14d8d9a2d99a7a39ab2a9a41890f8e9563f7a5bfe48a9381b1a",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      },
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/phase-purpose-and-concealed-chance-assignment-b10-v1-dark.svg",
+        "lightSHA256": "c688af014f92388d61f11805f3b9dc698a52d53b2386ae3bbdf7f93620ad919a",
+        "darkSHA256": "27a76ebfed318e43e40941c5a1373cd8d7cd31bae7a18fff34f28b93b02a8699",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      },
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/preclinical-donor-well-cells-v1-dark.svg",
+        "lightSHA256": "23a53a8b179fb058f0c832dbdc035ff2043b1be8715d552c9a5e6102d9893744",
+        "darkSHA256": "17f5b2e3cfc54a97841b6b9a6818586e7677f7a698ee8fb8dd44a1f01804f308",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      },
+      {
+        "light": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-light.svg",
+        "dark": "wiki/education/concepts/evidence-and-statistics/study-design/images/reversible-periods-and-lasting-overlap-v1-dark.svg",
+        "lightSHA256": "45ecb5f9b9049f1401081a7b8a33ea2de7cd9914481fe7b6431fab5412807628",
+        "darkSHA256": "6d239d944f2c0fed0425fba1a0b825603b7be96f59d909d6a38101a17faa01ce",
+        "textAndSelectedGeometryAttributesEqual": true,
+        "allNativeViewsFreshAndWhole": true,
+        "colourContrastOrBrowserAcceptance": false
+      }
+    ],
+    "pairCount": 8,
+    "lockedPlan": {
+      "allTwelveNumberedChoicesPresent": true,
+      "selectedSixthChoiceConfirmedFromFreshViews": true,
+      "noSuppliedThresholdsPValuesOrBenefits": true
+    },
+    "hierarchyReproduction": "arithmetic-and-reproduction.json",
+    "fictionalMixturesAndForest": "arithmetic-and-reproduction.json",
+    "chronology": "Four ABBA periods and separate A/procedure/B/scan order were freshly viewed; no measured time distances or contributions inferred.",
+    "sourceImagesChanged": false
+  },
+  "originalFigureAssetsRegisteredInOnCo": false
+}

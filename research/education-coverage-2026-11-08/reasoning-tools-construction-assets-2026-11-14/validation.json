@@ -1,0 +1,37 @@
+{
+  "newFullGateRun": false,
+  "reason": "Metadata-only construction assessment. Graph, code, data, public consumers and all selected summary states are identical to the exact last gated data commit.",
+  "lastGatedDataCommit": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1",
+  "inheritedFullGateReceipt": "research/education-coverage-2026-11-08/study-design-construction-assets-2026-11-14/validation.json",
+  "inheritedFullSuite": {
+    "files": 293,
+    "testsPassed": 3101,
+    "skips": 2
+  },
+  "newChecks": {
+    "schemaParses": 13,
+    "registeredRootSSRReaders": 8,
+    "exactRootReaderAnchors": 39,
+    "arithmeticChecks": 29,
+    "wholeNativeViews": 16,
+    "byteExactGeneratorOutputs": 2,
+    "selectedCodeDataConsumerDrift": false
+  },
+  "newProductionBuild": false,
+  "newDeployment": false,
+  "newGatesOrAPIArtifactMutation": false,
+  "canonicalRuntime": {
+    "auditBaseCommit": "4057e5537d4247b897119c96d4991377f2fae279",
+    "lastDataCommit": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1",
+    "graphRecords": 23091,
+    "canonicalGraphChanges": 0,
+    "allGraphFingerprintsMatchGatedRuntime": true,
+    "codeDataPublicAndConsumersIdenticalToLastGatedData": true,
+    "selectedRootRecordsUnchanged": true,
+    "validationInheritedByExactIdentity": true,
+    "newFullGateRun": false,
+    "newAPIGeneration": false,
+    "newBuild": false,
+    "sourceOfGates": "research/education-coverage-2026-11-08/study-design-construction-assets-2026-11-14/validation.json"
+  }
+}

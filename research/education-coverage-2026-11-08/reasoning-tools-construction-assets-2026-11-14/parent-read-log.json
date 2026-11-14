@@ -1,0 +1,491 @@
+{
+  "completeLaterParents": 8,
+  "originalWholeByteIdentityReuses": 1,
+  "completeOriginalToLaterNonemptyDiffs": 7,
+  "acknowledgedSpans": [
+    {
+      "index": 0,
+      "parent": "denominators-and-conditional-probability",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 9283,
+      "spanSHA256": "5065973a7c14ace716549dc47e55729621331ab13801aa63763be8d96add627e",
+      "spanUTF8Bytes": 6027,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:47:48.714853+00:00"
+    },
+    {
+      "index": 1,
+      "parent": "denominators-and-conditional-probability",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 9283,
+      "totalChars": 9283,
+      "spanSHA256": "948dd9bfe1bd0664a0607e38848ccc4a5c882dfe9bca608c2ca4f6e3c52cbea3",
+      "spanUTF8Bytes": 3292,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:47:48.714962+00:00"
+    },
+    {
+      "index": 2,
+      "parent": "denominators-and-conditional-probability",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 3470,
+      "totalChars": 3470,
+      "spanSHA256": "fef45156153c5998434a2d7500519032e091a6bec140eb5b4ba3cd638a0ce3d2",
+      "spanUTF8Bytes": 3470,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:00.559884+00:00"
+    },
+    {
+      "index": 3,
+      "parent": "lead-time-bias",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 8414,
+      "spanSHA256": "026045b60dbb5f6c021bca39d923f74256f2f355c4eb0fc7043be6fc9849a04f",
+      "spanUTF8Bytes": 6000,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:00.560007+00:00"
+    },
+    {
+      "index": 4,
+      "parent": "lead-time-bias",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 8414,
+      "totalChars": 8414,
+      "spanSHA256": "88214e156b5b6d80088eac828e9de970597191ecc73664377b768e3850ee0bc1",
+      "spanUTF8Bytes": 2420,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:00.560010+00:00"
+    },
+    {
+      "index": 5,
+      "parent": "lead-time-bias",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 2520,
+      "totalChars": 2520,
+      "spanSHA256": "5d4547582c0d2aba7cc2e7652a72d3c925b9a856234516b8b53431cedcab50cc",
+      "spanUTF8Bytes": 2520,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:06.245478+00:00"
+    },
+    {
+      "index": 6,
+      "parent": "reading-a-graph-in-five-passes",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 8660,
+      "spanSHA256": "6951dfca9dba92d03ac9a5dddd9b90af570e400c16113ca3b3ed466e8da1cab8",
+      "spanUTF8Bytes": 6010,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:06.245599+00:00"
+    },
+    {
+      "index": 7,
+      "parent": "reading-a-graph-in-five-passes",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 8660,
+      "totalChars": 8660,
+      "spanSHA256": "935584b2b4ca7e37767481357e90cf6edb939ff94fda71b945bd37352c152226",
+      "spanUTF8Bytes": 2668,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:06.245603+00:00"
+    },
+    {
+      "index": 8,
+      "parent": "reading-a-graph-in-five-passes",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 1838,
+      "totalChars": 1838,
+      "spanSHA256": "48a53db892e7275f52af452c5de514927c7f66f51214a0edec6d8fbefdb79294",
+      "spanUTF8Bytes": 1838,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:14.657131+00:00"
+    },
+    {
+      "index": 9,
+      "parent": "population-vs-individual-risk",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 9252,
+      "spanSHA256": "90c8d0e7969a322c3a0ee47ff166bc1a2b7a9e535a2ff83df5b0b878ddd330a7",
+      "spanUTF8Bytes": 6004,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:14.657249+00:00"
+    },
+    {
+      "index": 10,
+      "parent": "population-vs-individual-risk",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 9252,
+      "totalChars": 9252,
+      "spanSHA256": "70bcf59f3a47e8e78a31dabcba36b0cbc9545ca80d25bb536ce3063fcc5a580e",
+      "spanUTF8Bytes": 3259,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:14.657252+00:00"
+    },
+    {
+      "index": 11,
+      "parent": "transportability-and-eligibility",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 9820,
+      "spanSHA256": "8cdbcab9e5d457dbd5ae02f60ce83b7107c215088dd44872757e72eb622ab162",
+      "spanUTF8Bytes": 6016,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:19.958633+00:00"
+    },
+    {
+      "index": 12,
+      "parent": "transportability-and-eligibility",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 9820,
+      "totalChars": 9820,
+      "spanSHA256": "7c43c8afcf0e5db23dacb5c945ac5578f65e02644d58ee2150f3d3d403c9c6a4",
+      "spanUTF8Bytes": 3838,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:19.958746+00:00"
+    },
+    {
+      "index": 13,
+      "parent": "transportability-and-eligibility",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 1258,
+      "totalChars": 1258,
+      "spanSHA256": "0b3e4132b8b47d1c2c0fb04073639ca91632199184597cdbe7d3c15d1e9941d9",
+      "spanUTF8Bytes": 1258,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:19.958750+00:00"
+    },
+    {
+      "index": 14,
+      "parent": "evidence-chain-variant-to-benefit",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 10491,
+      "spanSHA256": "0adc84e44cd7cf2762900e3ea0c0f49514aee89dfac63b94d213c3e8bbb9b266",
+      "spanUTF8Bytes": 6014,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:29.371451+00:00"
+    },
+    {
+      "index": 15,
+      "parent": "evidence-chain-variant-to-benefit",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 10491,
+      "totalChars": 10491,
+      "spanSHA256": "dec8313158303babfba6570581be399f405d0ec473fe27215036feec92ce6baf",
+      "spanUTF8Bytes": 4505,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:29.371561+00:00"
+    },
+    {
+      "index": 16,
+      "parent": "evidence-chain-variant-to-benefit",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 2251,
+      "totalChars": 2251,
+      "spanSHA256": "fefbcd008a3dc1a0b5a51607dcdd63f342f12fce8fb1cc43ad5bd91e47a1d382",
+      "spanUTF8Bytes": 2251,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:29.371564+00:00"
+    },
+    {
+      "index": 17,
+      "parent": "reduction-is-not-regression",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 7758,
+      "spanSHA256": "79a94cbc27baa01fafa47ed9d43c8812b4707c77297b9b52de25695e4800d678",
+      "spanUTF8Bytes": 6026,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:36.548902+00:00"
+    },
+    {
+      "index": 18,
+      "parent": "reduction-is-not-regression",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 7758,
+      "totalChars": 7758,
+      "spanSHA256": "aa32675d8060f60eba531372867544eee8acca288a8bf716bd4e5c78cb5a976c",
+      "spanUTF8Bytes": 1770,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:36.549022+00:00"
+    },
+    {
+      "index": 19,
+      "parent": "reduction-is-not-regression",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 1653,
+      "totalChars": 1653,
+      "spanSHA256": "9c53d832cae2246dffd84665a30ad05d49959fc111943b41d5170a2fd4a6ab0d",
+      "spanUTF8Bytes": 1653,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:36.549026+00:00"
+    },
+    {
+      "index": 20,
+      "parent": "cross-trial-comparison",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 9870,
+      "spanSHA256": "157217fc3fb2f3717ac68b167aba5cf44ef99c768638e05eabc5e017e6887d0e",
+      "spanUTF8Bytes": 6000,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:46.468045+00:00"
+    },
+    {
+      "index": 21,
+      "parent": "cross-trial-comparison",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 9870,
+      "totalChars": 9870,
+      "spanSHA256": "2e452ca162685b1f898309ee588b5f679771c8d72ed07fd0e314552e5cd8d73e",
+      "spanUTF8Bytes": 3890,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:46.468143+00:00"
+    },
+    {
+      "index": 22,
+      "parent": "cross-trial-comparison",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 2208,
+      "totalChars": 2208,
+      "spanSHA256": "54cdeb1688073d0a1fbebbb9960d147ea51ac321361049b2e8d004c1fe769a2b",
+      "spanUTF8Bytes": 2208,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:46.468147+00:00"
+    },
+    {
+      "index": 23,
+      "parent": "earlier-detection-construction",
+      "kind": "associated-complete-brief-with-prior-support-role",
+      "startChar": 0,
+      "endChar": 598,
+      "totalChars": 598,
+      "spanSHA256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "spanUTF8Bytes": 600,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T19:48:58.935506+00:00"
+    }
+  ],
+  "parents": [
+    {
+      "parent": "denominators-and-conditional-probability",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 8928,
+        "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+        "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 9319,
+        "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+        "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "lead-time-bias",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 8195,
+        "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+        "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 8420,
+        "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+        "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "reading-a-graph-in-five-passes",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 8654,
+        "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+        "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 8678,
+        "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+        "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "population-vs-individual-risk",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 9263,
+        "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+        "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 9263,
+        "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+        "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": true,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "transportability-and-eligibility",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 9776,
+        "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+        "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 9854,
+        "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+        "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "evidence-chain-variant-to-benefit",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 9943,
+        "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+        "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 10519,
+        "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+        "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "reduction-is-not-regression",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 7734,
+        "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+        "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 7796,
+        "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+        "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "cross-trial-comparison",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 9681,
+        "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+        "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 9890,
+        "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+        "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    }
+  ],
+  "noNewOrdinaryGrades": true,
+  "laterSurveillanceReferenceSeparatelyAssessed": true
+}

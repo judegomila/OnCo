@@ -1,0 +1,2418 @@
+{
+  "sourceFirstUnits": 62,
+  "canonicalTeachingRequirements": 54,
+  "directConstructionTeachingRequirements": 32,
+  "proofs": [
+    {
+      "id": "P32-D01",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Conditioning defines a group and does not establish causation; the conditional-probability ratio requires a nonzero conditioning probability.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "“Half had a response” is incomplete until the counted group is named. The numerator counts observations meeting the event rule; the denominator identifies the relevant group or observation amount. Conditional probability P(A | B) means the probability of A among those satisfying B, with P(A | B) = P(A and B)/P(B) when P(B) is positive. It is undefined if that conditioning probability is zero. “Given” does not mean “caused by”, and the probability of a positive test among people with disease differs from the probability of disease among people with a positive test. People, lesions, blood draws and wells supply different denominators. Events per person-time are a rate, not a simple probability; repeated samples do not become independent patients. A group defined by treatment response may also be selected by underlying biology, so a conditional frequency does not show that the treatment caused the difference. A changed proportion needs its reference proportion attached, because percentages and percentage points answer different questions.",
+          "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D02",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The observation unit, person-time rate and incomplete-follow-up risk question are distinct.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "“Half had a response” is incomplete until the counted group is named. The numerator counts observations meeting the event rule; the denominator identifies the relevant group or observation amount. Conditional probability P(A | B) means the probability of A among those satisfying B, with P(A | B) = P(A and B)/P(B) when P(B) is positive. It is undefined if that conditioning probability is zero. “Given” does not mean “caused by”, and the probability of a positive test among people with disease differs from the probability of disease among people with a positive test. People, lesions, blood draws and wells supply different denominators. Events per person-time are a rate, not a simple probability; repeated samples do not become independent patients. A group defined by treatment response may also be selected by underlying biology, so a conditional frequency does not show that the treatment caused the difference. A changed proportion needs its reference proportion attached, because percentages and percentage points answer different questions.",
+          "passageSha256": "b529c01f459defe1f44f37805311d483fc6296a882df1b14e3f42a60ff862692",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        },
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "In a separate complete fictional cohort of 100 people, twenty recur and five of those have brain involvement. Brain involvement is 5/20 = 25% among those with recurrence and 5/100 = 5% in the original cohort. Neither is a personal forecast. In another example with forty enrolled, thirty treated, twenty evaluable and eight responses, 8/20 = 40% describes the evaluable group, whereas 8/40 = 20% describes observed responders among everyone enrolled without establishing the other outcomes. Incomplete follow-up also means recorded events divided by enrolment may not estimate risk at a chosen time; survival or competing-risk methods address defined questions under their assumptions. Safety and efficacy tables can use different analysis sets, and biomarker subgroups or later landmarks change who contributes. Multiple reports from the same participants add no independent people. Exclusion because progression prevented assessment can itself affect interpretation.",
+          "passageSha256": "3f2aa6dc52f90345bd90840a717dbacc0d9c78390b024e47b87ece533dd72f14",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D03",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The same five observed responses appear among 20 enrolled, 14 treated and 10 scan-evaluable people, giving 25%, approximately 35.7% and 50%.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "A fictional study enrols twenty people, six never receive the product, fourteen are treated, ten have evaluable scans and five meet the response rule. The observed response proportions are 5/20 = 25% among enrolled people, 5/14, about 35.7%, among treated people, and 5/10 = 50% among those with evaluable scans. The scan-evaluable group is nested within the treated group, which is nested within enrolment. Five other evaluable scans did not meet the response rule; four treated people lack evaluable scans and six were untreated, with no response outcomes supplied for those groups. Calling them confirmed nonresponders would add an assumption. A protocol may classify missing assessments as nonresponse, but that rule and its sensitivity analyses should be reported explicitly.",
+          "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D04",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Four treated people without evaluable scans and six untreated people are separate groups with no supplied response outcome.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "A fictional study enrols twenty people, six never receive the product, fourteen are treated, ten have evaluable scans and five meet the response rule. The observed response proportions are 5/20 = 25% among enrolled people, 5/14, about 35.7%, among treated people, and 5/10 = 50% among those with evaluable scans. The scan-evaluable group is nested within the treated group, which is nested within enrolment. Five other evaluable scans did not meet the response rule; four treated people lack evaluable scans and six were untreated, with no response outcomes supplied for those groups. Calling them confirmed nonresponders would add an assumption. A protocol may classify missing assessments as nonresponse, but that rule and its sensitivity analyses should be reported explicitly.",
+          "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D05",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Five evaluable scans did not meet the response rule; all rows retain the same five responding people.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "A fictional study enrols twenty people, six never receive the product, fourteen are treated, ten have evaluable scans and five meet the response rule. The observed response proportions are 5/20 = 25% among enrolled people, 5/14, about 35.7%, among treated people, and 5/10 = 50% among those with evaluable scans. The scan-evaluable group is nested within the treated group, which is nested within enrolment. Five other evaluable scans did not meet the response rule; four treated people lack evaluable scans and six were untreated, with no response outcomes supplied for those groups. Calling them confirmed nonresponders would add an assumption. A protocol may classify missing assessments as nonresponse, but that rule and its sensitivity analyses should be reported explicitly.",
+          "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D06",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Observed responder fractions do not establish a protocol analysis set or silently recode unknown outcomes as confirmed nonresponse.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "A fictional study enrols twenty people, six never receive the product, fourteen are treated, ten have evaluable scans and five meet the response rule. The observed response proportions are 5/20 = 25% among enrolled people, 5/14, about 35.7%, among treated people, and 5/10 = 50% among those with evaluable scans. The scan-evaluable group is nested within the treated group, which is nested within enrolment. Five other evaluable scans did not meet the response rule; four treated people lack evaluable scans and six were untreated, with no response outcomes supplied for those groups. Calling them confirmed nonresponders would add an assumption. A protocol may classify missing assessments as nonresponse, but that rule and its sensitivity analyses should be reported explicitly.",
+          "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D07",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The three sets are nested; the chart uses an absolute common count scale and equal-sized person slots rather than normalized percentage bars.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "A fictional study enrols twenty people, six never receive the product, fourteen are treated, ten have evaluable scans and five meet the response rule. The observed response proportions are 5/20 = 25% among enrolled people, 5/14, about 35.7%, among treated people, and 5/10 = 50% among those with evaluable scans. The scan-evaluable group is nested within the treated group, which is nested within enrolment. Five other evaluable scans did not meet the response rule; four treated people lack evaluable scans and six were untreated, with no response outcomes supplied for those groups. Calling them confirmed nonresponders would add an assumption. A protocol may classify missing assessments as nonresponse, but that rule and its sensitivity analyses should be reported explicitly.",
+          "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": "Nested groups are explicit in the field. The shared 0-to-20 count axis and equal person-slot geometry are verified native drawing conventions, not an additional clinical estimate or a registered graph image.",
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D08",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Changing the counted set is a fictional denominator comparison, not response improvement over time, a RECIST rule or clinical benefit.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "A fictional study enrols twenty people, six never receive the product, fourteen are treated, ten have evaluable scans and five meet the response rule. The observed response proportions are 5/20 = 25% among enrolled people, 5/14, about 35.7%, among treated people, and 5/10 = 50% among those with evaluable scans. The scan-evaluable group is nested within the treated group, which is nested within enrolment. Five other evaluable scans did not meet the response rule; four treated people lack evaluable scans and six were untreated, with no response outcomes supplied for those groups. Calling them confirmed nonresponders would add an assumption. A protocol may classify missing assessments as nonresponse, but that rule and its sensitivity analyses should be reported explicitly.",
+          "passageSha256": "5cfcb59fc7973464b3bd43c63c23cf6a1bc70dfa7fc5d81cfc09e5bf3c144673",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D09",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The separate complete-cohort brain-involvement fractions are 5/20=25% and 5/100=5%; the 8/20 scan exercise gives 40% without resolving other outcomes.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "denominators-and-conditional-probability",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "a57033b302467661d963220ec072aa5ea6a13a9fba0ee3a59300cd69bbcb39f5",
+          "supportingExcerpt": "In a separate complete fictional cohort of 100 people, twenty recur and five of those have brain involvement. Brain involvement is 5/20 = 25% among those with recurrence and 5/100 = 5% in the original cohort. Neither is a personal forecast. In another example with forty enrolled, thirty treated, twenty evaluable and eight responses, 8/20 = 40% describes the evaluable group, whereas 8/40 = 20% describes observed responders among everyone enrolled without establishing the other outcomes. Incomplete follow-up also means recorded events divided by enrolment may not estimate risk at a chosen time; survival or competing-risk methods address defined questions under their assumptions. Safety and efficacy tables can use different analysis sets, and biomarker subgroups or later landmarks change who contributes. Multiple reports from the same participants add no independent people. Exclusion because progression prevented assessment can itself affect interpretation.",
+          "passageSha256": "3f2aa6dc52f90345bd90840a717dbacc0d9c78390b024e47b87ece533dd72f14",
+          "recordSha256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "what-if-2026-pdf",
+        "consort-explanation",
+        "consort-randomized",
+        "consort-missing",
+        "consort-analysed"
+      ],
+      "sourceScope": "Two complete textbook PDF text pages distinguish conditional association from intervention. Sixteen acknowledged CONSORT item blocks cover participant flow, outcome-specific denominators, missing-data assumptions and sensitivity analyses. The cohorts are fictional; arithmetic and equal-count slot construction are separately checked. The nonzero-denominator rule and rate/probability distinction are mathematical definitions, not empirical response estimates.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L01",
+      "family": "lead-time-bias",
+      "requirement": "In the same fictional course, death stays at year 6 while detection moves from year 4 to year 3; recorded survival changes from two to three years.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "lead-time-bias",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "96bb3811644b018569964ef931be3568ae20e06857f1604ce0577c79237d76b7",
+          "supportingExcerpt": "Lead time is the interval between defined earlier and later detection events. Lead-time bias occurs when that timing difference is mistaken for a better outcome. In a fictional course, detection at year 4 and death at year 6 gives two years from diagnosis. Moving detection to year 3 with death still at year 6 gives three recorded years without adding life. Similarly, labelling post-treatment recurrence at a blood signal before imaging confirmation can mechanically lengthen survival measured from recurrence. Align the endpoint, qualifying event and clock origin. Ten months of detection lead time is not ten added months of life. Earlier effective intervention could help, but its benefit needs separate evidence; correcting the clock alone does not solve selection, confounding or missing follow-up.",
+          "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+          "recordSha256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-bias",
+        "fda-ctdna-2024-pdf",
+        "ctrak",
+        "rosselli",
+        "givio"
+      ],
+      "sourceScope": "Seven complete NCI blocks explain lead-time, length and overdiagnosis distinctions. Four dated November 2024 FDA PDF text pages cover randomized ctDNA strategy/outcome designs. The c-TRAK TN, Rosselli and GIVIO returned abstracts were read completely. Only Rosselli reported earlier detection; GIVIO did not. These historical trial scopes do not certify modern monitoring policies. Timeline arithmetic is fictional and the stopwatch is notation.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L02",
+      "family": "lead-time-bias",
+      "requirement": "The additional recorded year moves only the measurement origin and supplies no evidence of longer life or benefit from earlier treatment.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "lead-time-bias",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "96bb3811644b018569964ef931be3568ae20e06857f1604ce0577c79237d76b7",
+          "supportingExcerpt": "Lead time is the interval between defined earlier and later detection events. Lead-time bias occurs when that timing difference is mistaken for a better outcome. In a fictional course, detection at year 4 and death at year 6 gives two years from diagnosis. Moving detection to year 3 with death still at year 6 gives three recorded years without adding life. Similarly, labelling post-treatment recurrence at a blood signal before imaging confirmation can mechanically lengthen survival measured from recurrence. Align the endpoint, qualifying event and clock origin. Ten months of detection lead time is not ten added months of life. Earlier effective intervention could help, but its benefit needs separate evidence; correcting the clock alone does not solve selection, confounding or missing follow-up.",
+          "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+          "recordSha256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-bias",
+        "fda-ctdna-2024-pdf",
+        "ctrak",
+        "rosselli",
+        "givio"
+      ],
+      "sourceScope": "Seven complete NCI blocks explain lead-time, length and overdiagnosis distinctions. Four dated November 2024 FDA PDF text pages cover randomized ctDNA strategy/outcome designs. The c-TRAK TN, Rosselli and GIVIO returned abstracts were read completely. Only Rosselli reported earlier detection; GIVIO did not. These historical trial scopes do not certify modern monitoring policies. Timeline arithmetic is fictional and the stopwatch is notation.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L03",
+      "family": "lead-time-bias",
+      "requirement": "The aligned linear time scales and symbolic stopwatch illustrate an interval rather than a time-of-day reading.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "lead-time-bias",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "96bb3811644b018569964ef931be3568ae20e06857f1604ce0577c79237d76b7",
+          "supportingExcerpt": "Lead time is the interval between defined earlier and later detection events. Lead-time bias occurs when that timing difference is mistaken for a better outcome. In a fictional course, detection at year 4 and death at year 6 gives two years from diagnosis. Moving detection to year 3 with death still at year 6 gives three recorded years without adding life. Similarly, labelling post-treatment recurrence at a blood signal before imaging confirmation can mechanically lengthen survival measured from recurrence. Align the endpoint, qualifying event and clock origin. Ten months of detection lead time is not ten added months of life. Earlier effective intervention could help, but its benefit needs separate evidence; correcting the clock alone does not solve selection, confounding or missing follow-up.",
+          "passageSha256": "a184da277c567b5c7daefdd33e246683e24b22743abd03ab3cd3ff9c9892d06e",
+          "recordSha256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-bias",
+        "fda-ctdna-2024-pdf",
+        "ctrak",
+        "rosselli",
+        "givio"
+      ],
+      "sourceScope": "Seven complete NCI blocks explain lead-time, length and overdiagnosis distinctions. Four dated November 2024 FDA PDF text pages cover randomized ctDNA strategy/outcome designs. The c-TRAK TN, Rosselli and GIVIO returned abstracts were read completely. Only Rosselli reported earlier detection; GIVIO did not. These historical trial scopes do not certify modern monitoring policies. Timeline arithmetic is fictional and the stopwatch is notation.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": "The field carries both exact fictional intervals and the unchanged outcome date. Stopwatch hands are symbolic native-art notation; no time-of-day claim or graph image is added.",
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L04",
+      "family": "lead-time-bias",
+      "requirement": "Lead-time bias, length bias and overdiagnosis are distinct; screening magnitudes do not automatically transfer to molecular monitoring.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "lead-time-bias",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 3,
+          "fieldSha256": "96bb3811644b018569964ef931be3568ae20e06857f1604ce0577c79237d76b7",
+          "supportingExcerpt": "Length bias favours conditions with longer detectable preclinical periods. Overdiagnosis means detecting disease that would not have caused clinical harm during the person's lifetime. Neither is another name for lead-time bias. Screening examples explain the distinctions but cannot establish their magnitude in post-treatment molecular monitoring.",
+          "passageSha256": "27d75a55a377cd55aaa3caa0c76d1d6e7a94e62a4b00ce6ad7688d25d6ed92b5",
+          "recordSha256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-bias",
+        "fda-ctdna-2024-pdf",
+        "ctrak",
+        "rosselli",
+        "givio"
+      ],
+      "sourceScope": "Seven complete NCI blocks explain lead-time, length and overdiagnosis distinctions. Four dated November 2024 FDA PDF text pages cover randomized ctDNA strategy/outcome designs. The c-TRAK TN, Rosselli and GIVIO returned abstracts were read completely. Only Rosselli reported earlier detection; GIVIO did not. These historical trial scopes do not certify modern monitoring policies. Timeline arithmetic is fictional and the stopwatch is notation.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L05",
+      "family": "lead-time-bias",
+      "requirement": "A strategy comparison needs a common origin, intended actions, outcomes and harms, including all assigned people rather than detectable signals alone.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "lead-time-bias",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 4,
+          "fieldSha256": "96bb3811644b018569964ef931be3568ae20e06857f1604ce0577c79237d76b7",
+          "supportingExcerpt": "A monitoring strategy includes its schedule, positive-result rule and resulting action. Comparing that strategy with a meaningful alternative from a common origin, such as randomisation, can assess clinical outcomes and harms. Counting all assigned participants avoids selecting only those with detectable earlier signals. Analysis must also address when groups entered, how follow-up ended, whether positive tests triggered extra imaging and whether people without prior detection were omitted. c-TRAK TN tested a specific blood-surveillance and intervention design; its detection and feasibility findings do not establish a beneficial intervention window for every early signal. A fictional contrast of median survival of 24 months after blood detection versus 18 after imaging detection, without a common-origin comparison, cannot show that testing saves lives. Some or all of the difference could arise from the earlier clock or other group differences.",
+          "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+          "recordSha256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-bias",
+        "fda-ctdna-2024-pdf",
+        "ctrak",
+        "rosselli",
+        "givio"
+      ],
+      "sourceScope": "Seven complete NCI blocks explain lead-time, length and overdiagnosis distinctions. Four dated November 2024 FDA PDF text pages cover randomized ctDNA strategy/outcome designs. The c-TRAK TN, Rosselli and GIVIO returned abstracts were read completely. Only Rosselli reported earlier detection; GIVIO did not. These historical trial scopes do not certify modern monitoring policies. Timeline arithmetic is fictional and the stopwatch is notation.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L06",
+      "family": "lead-time-bias",
+      "requirement": "A specific surveillance/intervention feasibility result does not establish a beneficial window for every earlier signal; the later surveillance cross-reference has its own historical scope.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "The specific later surveillance cross-reference is absent; the c-TRAK feasibility caution is present.",
+      "laterOnlyClause": "The surveillance cross-reference overstates the plural result: only Rosselli reported earlier detection. The canonical field already distinguishes it from GIVIO.",
+      "evidence": [
+        {
+          "recordId": "lead-time-bias",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 4,
+          "fieldSha256": "96bb3811644b018569964ef931be3568ae20e06857f1604ce0577c79237d76b7",
+          "supportingExcerpt": "A monitoring strategy includes its schedule, positive-result rule and resulting action. Comparing that strategy with a meaningful alternative from a common origin, such as randomisation, can assess clinical outcomes and harms. Counting all assigned participants avoids selecting only those with detectable earlier signals. Analysis must also address when groups entered, how follow-up ended, whether positive tests triggered extra imaging and whether people without prior detection were omitted. c-TRAK TN tested a specific blood-surveillance and intervention design; its detection and feasibility findings do not establish a beneficial intervention window for every early signal. A fictional contrast of median survival of 24 months after blood detection versus 18 after imaging detection, without a common-origin comparison, cannot show that testing saves lives. Some or all of the difference could arise from the earlier clock or other group differences.",
+          "passageSha256": "4b9e6efeab260f618dffa9e124e21485a5b491680d1da2026be8a8c5a59e6174",
+          "recordSha256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b"
+        },
+        {
+          "recordId": "lead-time-bias",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 5,
+          "fieldSha256": "96bb3811644b018569964ef931be3568ae20e06857f1604ce0577c79237d76b7",
+          "supportingExcerpt": "The same timing distinction extends beyond the prostate-screening context of this record. Historical breast-cancer surveillance trials illustrate why strategy and outcome must stay together. Rosselli Del Turco and colleagues' 1994 trial enrolled 1,243 surgically treated patients with unilateral invasive breast cancer and no metastases. Adding six-monthly chest radiographs and bone scans detected more isolated intrathoracic and bone metastases, 112 versus 71, and the report described earlier detection of recurrences in that group; five-year relapse-free survival, which stops at detection, was significantly lower with intensive follow-up, while five-year mortality was 18.6% versus 19.5%, with no mortality improvement reported. The separate GIVIO trial enrolled 1,320 women and reported no overall-survival or quality-of-life difference, and no significant difference in time to recurrence detection. Thus the trials should not both be described as showing earlier detection: only the first reported it. Their results do not establish equivalence or the effects of modern imaging and treatment, and a nonsignificant comparison is not proof of exactly zero benefit.",
+          "passageSha256": "a73097557fe1fb90a34b5465c4d858ec3585be5040b27952089dd7635eb7e43f",
+          "recordSha256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-bias",
+        "fda-ctdna-2024-pdf",
+        "ctrak",
+        "rosselli",
+        "givio"
+      ],
+      "sourceScope": "Seven complete NCI blocks explain lead-time, length and overdiagnosis distinctions. Four dated November 2024 FDA PDF text pages cover randomized ctDNA strategy/outcome designs. The c-TRAK TN, Rosselli and GIVIO returned abstracts were read completely. Only Rosselli reported earlier detection; GIVIO did not. These historical trial scopes do not certify modern monitoring policies. Timeline arithmetic is fictional and the stopwatch is notation.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G01",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "The five equal-status questions identify population, intervention, outcome with units and clock, comparison, and uncertainty.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Read a graph as an answer to a question before interpreting its shape. Establish who or what contributes independent observations, what intervention was given and when, which outcome and units the axes show, what baseline or control supplies the comparison, and what uncertainty or missing information remains. Entry criteria, dose, measurement site, time origin and follow-up can change the answer. A whole product and one component are different interventions; cell activity, tumour size, recurrence and survival are different outcomes. A mouse-volume graph cannot become a patient-survival result because the plotted separation is large. This five-pass reading habit is a teaching synthesis, not a score certifying a study; an explicitly unreported independent sample count remains useful information.",
+          "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "superplots",
+        "superplots-pmc",
+        "consort-analysed"
+      ],
+      "sourceScope": "The complete SuperPlots abstract and nine targeted full HTML blocks support independent experiments, nested observations and defined error bars. Five CONSORT analysis blocks cover outcome estimates and precision. Axis relations are mathematical definitions; the five-pass organization and miniature plots are teaching synthesis, not empirical validation of a study or claim that five answers ensure trustworthiness.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G02",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "Three tubes from one donor remain one donor; technical repeats do not create independent people.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+          "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "superplots",
+        "superplots-pmc",
+        "consort-analysed"
+      ],
+      "sourceScope": "The complete SuperPlots abstract and nine targeted full HTML blocks support independent experiments, nested observations and defined error bars. Five CONSORT analysis blocks cover outcome estimates and precision. Axis relations are mathematical definitions; the five-pass organization and miniature plots are teaching synthesis, not empirical validation of a study or claim that five answers ensure trustworthiness.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G03",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "An empty observation card represents missing information rather than a measured zero.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+          "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "superplots",
+        "superplots-pmc",
+        "consort-analysed"
+      ],
+      "sourceScope": "The complete SuperPlots abstract and nine targeted full HTML blocks support independent experiments, nested observations and defined error bars. Five CONSORT analysis blocks cover outcome estimates and precision. Axis relations are mathematical definitions; the five-pass organization and miniature plots are teaching synthesis, not empirical validation of a study or claim that five answers ensure trustworthiness.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G04",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "The five panels are schematic reading prompts without invented study data or causal progression; completing the questions does not certify trustworthiness.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Read a graph as an answer to a question before interpreting its shape. Establish who or what contributes independent observations, what intervention was given and when, which outcome and units the axes show, what baseline or control supplies the comparison, and what uncertainty or missing information remains. Entry criteria, dose, measurement site, time origin and follow-up can change the answer. A whole product and one component are different interventions; cell activity, tumour size, recurrence and survival are different outcomes. A mouse-volume graph cannot become a patient-survival result because the plotted separation is large. This five-pass reading habit is a teaching synthesis, not a score certifying a study; an explicitly unreported independent sample count remains useful information.",
+          "passageSha256": "35eccec72edad3c0161137bf06fea4bc254b9f781f80499d434bc2174cf456e8",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "superplots",
+        "superplots-pmc",
+        "consort-analysed"
+      ],
+      "sourceScope": "The complete SuperPlots abstract and nine targeted full HTML blocks support independent experiments, nested observations and defined error bars. Five CONSORT analysis blocks cover outcome estimates and precision. Axis relations are mathematical definitions; the five-pass organization and miniature plots are teaching synthesis, not empirical validation of a study or claim that five answers ensure trustworthiness.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": "The field names the five-pass teaching synthesis and denies certification. Miniature plot geometry and equal-status panel layout are schematic notation, checked in the full native views.",
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G05",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "Axes, linear versus log spacing, independent observations, standard deviation, standard error and confidence-interval definitions change interpretation.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+          "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "superplots",
+        "superplots-pmc",
+        "consort-analysed"
+      ],
+      "sourceScope": "The complete SuperPlots abstract and nine targeted full HTML blocks support independent experiments, nested observations and defined error bars. Five CONSORT analysis blocks cover outcome estimates and precision. Axis relations are mathematical definitions; the five-pass organization and miniature plots are teaching synthesis, not empirical validation of a study or claim that five answers ensure trustworthiness.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G06",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "The worked and practice examples keep four animals per group, twenty wells from one animal, and twelve measurements from three donors distinct.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+          "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        },
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "In a fictional animal experiment, four independent animals contribute to each group. Both groups start with average tumour volume 100 cubic millimetres; at day 28, control averages 1,000 and treated 300. The treated average is 70% below control but three times its starting size: reduced growth relative to control, rather than shrinkage below baseline. Twenty wells from one animal would still represent one independent animal. For a Kaplan-Meier curve, the same reading habit requires event definition, starting clock, censoring and numbers still at risk. A flat late tail based on few observations cannot support a precise late estimate simply because it looks stable.",
+          "passageSha256": "86cfa34e58f2111db204e27780c46563a5c3e7f0566ccef8144a571f8dc57036",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "superplots",
+        "superplots-pmc",
+        "consort-analysed"
+      ],
+      "sourceScope": "The complete SuperPlots abstract and nine targeted full HTML blocks support independent experiments, nested observations and defined error bars. Five CONSORT analysis blocks cover outcome estimates and precision. Axis relations are mathematical definitions; the five-pass organization and miniature plots are teaching synthesis, not empirical validation of a study or claim that five answers ensure trustworthiness.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R01",
+      "family": "population-vs-individual-risk",
+      "requirement": "Twenty events among 100 fictional people receiving the same treatment after complete five-year follow-up describe the defined group frequency.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+          "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-prognosis",
+        "calibration",
+        "calibration-html",
+        "tripod-cluster-html"
+      ],
+      "sourceScope": "Four complete NCI prognosis blocks, the calibration abstract and four complete calibration-method blocks support group frequencies, context and calibration/discrimination distinctions. Six targeted TRIPOD-Cluster blocks distinguish independent evaluation and transfer across settings. The 20% observed cohort and separate 10% prediction example are fictional premises, not personal forecasts.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R02",
+      "family": "population-vs-individual-risk",
+      "requirement": "The sorted event dots allow counting and do not identify which person will later experience an event.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+          "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-prognosis",
+        "calibration",
+        "calibration-html",
+        "tripod-cluster-html"
+      ],
+      "sourceScope": "Four complete NCI prognosis blocks, the calibration abstract and four complete calibration-method blocks support group frequencies, context and calibration/discrimination distinctions. Six targeted TRIPOD-Cluster blocks distinguish independent evaluation and transfer across settings. The 20% observed cohort and separate 10% prediction example are fictional premises, not personal forecasts.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": "The field states that the group rate does not identify a person. Sorting the twenty dots for counting is the native illustration convention, not a model that identifies people.",
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R03",
+      "family": "population-vs-individual-risk",
+      "requirement": "A group proportion is not an individual fate or a fractional event inside a person.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+          "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-prognosis",
+        "calibration",
+        "calibration-html",
+        "tripod-cluster-html"
+      ],
+      "sourceScope": "Four complete NCI prognosis blocks, the calibration abstract and four complete calibration-method blocks support group frequencies, context and calibration/discrimination distinctions. Six targeted TRIPOD-Cluster blocks distinguish independent evaluation and transfer across settings. The 20% observed cohort and separate 10% prediction example are fictional premises, not personal forecasts.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R04",
+      "family": "population-vs-individual-risk",
+      "requirement": "An individual model estimate still needs relevant inputs, setting, calibration and a defined horizon.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "Population risk describes a defined group's outcomes, such as first recurrence by five years after surgery among people receiving specified care. An individual prediction applies a model and assumptions to one person's characteristics. Neither precise printing nor more biomarkers establishes that the estimate fits the situation. The model may omit relevant biology, use imperfect measurements or reflect another treatment era. Calibration asks whether groups assigned similar probabilities experience approximately the corresponding outcome frequencies; discrimination asks whether the model ranks outcomes well. Good ranking does not ensure accurate probabilities. Evaluation outside the development data is important, but performance can still vary by hospital, treatment context or subgroup. Model name and version, required inputs, missing-value rules, population, treatment, endpoint and horizon determine what the probability means, with uncertainty around performance measures.",
+          "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-prognosis",
+        "calibration",
+        "calibration-html",
+        "tripod-cluster-html"
+      ],
+      "sourceScope": "Four complete NCI prognosis blocks, the calibration abstract and four complete calibration-method blocks support group frequencies, context and calibration/discrimination distinctions. Six targeted TRIPOD-Cluster blocks distinguish independent evaluation and transfer across settings. The 20% observed cohort and separate 10% prediction example are fictional premises, not personal forecasts.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R05",
+      "family": "population-vs-individual-risk",
+      "requirement": "The separate 10%-prediction example assesses about 10 events per 100 comparable independently evaluated people; it is separate from the 20% observed cohort.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+          "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-prognosis",
+        "calibration",
+        "calibration-html",
+        "tripod-cluster-html"
+      ],
+      "sourceScope": "Four complete NCI prognosis blocks, the calibration abstract and four complete calibration-method blocks support group frequencies, context and calibration/discrimination distinctions. Six targeted TRIPOD-Cluster blocks distinguish independent evaluation and transfer across settings. The 20% observed cohort and separate 10% prediction example are fictional premises, not personal forecasts.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R06",
+      "family": "population-vs-individual-risk",
+      "requirement": "Discrimination and calibration differ; external validation in one setting does not certify every hospital or subgroup.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "Population risk describes a defined group's outcomes, such as first recurrence by five years after surgery among people receiving specified care. An individual prediction applies a model and assumptions to one person's characteristics. Neither precise printing nor more biomarkers establishes that the estimate fits the situation. The model may omit relevant biology, use imperfect measurements or reflect another treatment era. Calibration asks whether groups assigned similar probabilities experience approximately the corresponding outcome frequencies; discrimination asks whether the model ranks outcomes well. Good ranking does not ensure accurate probabilities. Evaluation outside the development data is important, but performance can still vary by hospital, treatment context or subgroup. Model name and version, required inputs, missing-value rules, population, treatment, endpoint and horizon determine what the probability means, with uncertainty around performance measures.",
+          "passageSha256": "25d0a2ba48fe4099f25f6a29289d3bccebde60b2fe72319410a58484877c6e0e",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        },
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "A model that ranks outcomes well at Hospital A may need evaluation at Hospital B before its printed probabilities can be trusted there, particularly if treatment and follow-up differ. Relevant calibration, outcome definitions, horizon, inputs and uncertainty matter. A post-treatment test cannot simply replace a model's required pretreatment input, or vice versa. Risk under current care is also different from benefit from changing care: outcome prediction alone does not estimate a treatment effect. An uncertain but appropriately evaluated estimate can help a discussion without promising an outcome. A confidence interval for a group parameter is not a range of individual futures, and a narrow subgroup may contain too little information for precise personalisation.",
+          "passageSha256": "ed21ebbc13026a45fe25dc6aa2754ea0057808dc7e8c58f6e21e32d87a8615b8",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-prognosis",
+        "calibration",
+        "calibration-html",
+        "tripod-cluster-html"
+      ],
+      "sourceScope": "Four complete NCI prognosis blocks, the calibration abstract and four complete calibration-method blocks support group frequencies, context and calibration/discrimination distinctions. Six targeted TRIPOD-Cluster blocks distinguish independent evaluation and transfer across settings. The 20% observed cohort and separate 10% prediction example are fictional premises, not personal forecasts.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R07",
+      "family": "population-vs-individual-risk",
+      "requirement": "Multiplying an observed risk by unrelated hazard ratios does not validate a personal probability or a treatment effect.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "population-versus-individual-risk",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a9d542410de72fa6514d162c24d24f6e2a9f84b65463961bf566de6bc140672f",
+          "supportingExcerpt": "In a fictional fully followed cohort of 100 people, twenty events by five years give a group proportion of 20%. That does not mean each person experiences one fifth of an event or identify who will have it. Suppose a model assigns 10% risk to a particular profile. About ten events among 100 comparable people in an informative independent evaluation would support calibration near that prediction, without certifying every subgroup or a different treatment sequence. Multiplying the cohort's 20% by a published marker hazard ratio and a treatment hazard ratio does not produce a validated personal probability. The ratios may come from different populations, adjusted models, endpoints and clocks, and a hazard ratio is not a fixed-time risk ratio. These examples are invented and supply no personal prognosis.",
+          "passageSha256": "acb6cc8238a0bbd8f7557ec4bfa3a21f3316b21e04ca332e8f47f3e3966edf14",
+          "recordSha256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "nci-prognosis",
+        "calibration",
+        "calibration-html",
+        "tripod-cluster-html"
+      ],
+      "sourceScope": "Four complete NCI prognosis blocks, the calibration abstract and four complete calibration-method blocks support group frequencies, context and calibration/discrimination distinctions. Six targeted TRIPOD-Cluster blocks distinguish independent evaluation and transfer across settings. The 20% observed cohort and separate 10% prediction example are fictional premises, not personal forecasts.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T01",
+      "family": "transportability-and-eligibility",
+      "requirement": "Random treatment assignment within a sample differs from sampling the target population and from actual participation among eligible people.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Eligibility asks whether someone meets protocol entry rules. Transportability asks whether a treatment-effect estimate can extend to a specified target population or setting. Randomisation assigns treatment within an enrolled sample; it does not randomly select that sample from everyone who might receive treatment. Eligible, invited, enrolled and followed people can differ. First specify the target population and align disease, treatment history, intervention and background care, comparator, endpoint and clock. A change of sequence or comparator may change the question itself. A prognostic factor predicts outcomes, while an effect modifier changes a treatment contrast on a specified scale. Even a constant relative effect can yield different absolute benefits when baseline risks differ. A marker or cancer label shared between heavily pretreated metastatic and early postoperative settings does not bridge differences in biology, competing risks, tolerance and endpoints.",
+          "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "transport",
+        "transport-v1-html",
+        "transport-published-html",
+        "nci-eligibility"
+      ],
+      "sourceScope": "The published Dahabreh abstract, thirteen targeted v1 HTML blocks and eight published-report blocks are kept separate. They address consistency, exchangeability, treatment/participation positivity and overlap. Published HTML text drops inline formula symbols; its prose is used for prose assumptions, while the v1 text is separately inspected. Six NCI blocks address protocol criteria and study-team assessment. The minus-10/minus-7 arithmetic is conditional and fictional.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T02",
+      "family": "transportability-and-eligibility",
+      "requirement": "The fictional effect is a treatment-minus-control recurrence risk difference at three years from random assignment, with subgroup contrasts of minus 5 and minus 15 percentage points.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+          "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "transport",
+        "transport-v1-html",
+        "transport-published-html",
+        "nci-eligibility"
+      ],
+      "sourceScope": "The published Dahabreh abstract, thirteen targeted v1 HTML blocks and eight published-report blocks are kept separate. They address consistency, exchangeability, treatment/participation positivity and overlap. Published HTML text drops inline formula symbols; its prose is used for prose assumptions, while the v1 text is separately inspected. Six NCI blocks address protocol criteria and study-team assessment. The minus-10/minus-7 arithmetic is conditional and fictional.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T03",
+      "family": "transportability-and-eligibility",
+      "requirement": "A 50/50 trial mixture gives minus 10 points; an 80/20 target gives minus 7 only if the subgroup effects transport and relevant differences are addressed.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+          "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "transport",
+        "transport-v1-html",
+        "transport-published-html",
+        "nci-eligibility"
+      ],
+      "sourceScope": "The published Dahabreh abstract, thirteen targeted v1 HTML blocks and eight published-report blocks are kept separate. They address consistency, exchangeability, treatment/participation positivity and overlap. Published HTML text drops inline formula symbols; its prose is used for prose assumptions, while the v1 text is separately inspected. Six NCI blocks address protocol criteria and study-team assessment. The minus-10/minus-7 arithmetic is conditional and fictional.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T04",
+      "family": "transportability-and-eligibility",
+      "requirement": "A missing relevant third group leaves its effect unknown; weighting cannot create overlap or validate sufficient bridging variables.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+          "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "transport",
+        "transport-v1-html",
+        "transport-published-html",
+        "nci-eligibility"
+      ],
+      "sourceScope": "The published Dahabreh abstract, thirteen targeted v1 HTML blocks and eight published-report blocks are kept separate. They address consistency, exchangeability, treatment/participation positivity and overlap. Published HTML text drops inline formula symbols; its prose is used for prose assumptions, while the v1 text is separately inspected. Six NCI blocks address protocol criteria and study-team assessment. The minus-10/minus-7 arithmetic is conditional and fictional.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T05",
+      "family": "transportability-and-eligibility",
+      "requirement": "The conditional weighted estimate proves neither eligibility nor enrollment nor personal benefit.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+          "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        },
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Protocol eligibility can depend on disease, prior treatment, organ function, safety history and assay definitions, and needs study-team confirmation. Meeting criteria guarantees neither benefit, enrolment nor an available slot. If a fictional trial allows older adults but enrols almost nobody with a particular organ limitation, matching its age rule does not establish its average effect for that group. Actual representation, safety data, treatment context, overlap and the assumptions bridging populations remain necessary, with follow-up, harms and uncertainty considered. No universal similarity score certifies that bridge. An adjusted estimate is not automatically established, and even a well-supported population effect is not a person's guaranteed outcome. The examples here are fictional and provide no actual eligibility or access determination.",
+          "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "transport",
+        "transport-v1-html",
+        "transport-published-html",
+        "nci-eligibility"
+      ],
+      "sourceScope": "The published Dahabreh abstract, thirteen targeted v1 HTML blocks and eight published-report blocks are kept separate. They address consistency, exchangeability, treatment/participation positivity and overlap. Published HTML text drops inline formula symbols; its prose is used for prose assumptions, while the v1 text is separately inspected. Six NCI blocks address protocol criteria and study-team assessment. The minus-10/minus-7 arithmetic is conditional and fictional.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T06",
+      "family": "transportability-and-eligibility",
+      "requirement": "Comparable treatment definitions, data, overlap, measured differences and exchangeability assumptions are required; adjustment cannot remove an unmeasured effect modifier.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+          "passageSha256": "8f87bc181fba55e1a6cc4433908862ba3a3768e041a7936295eea03bb10fdcb1",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        },
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Protocol eligibility can depend on disease, prior treatment, organ function, safety history and assay definitions, and needs study-team confirmation. Meeting criteria guarantees neither benefit, enrolment nor an available slot. If a fictional trial allows older adults but enrols almost nobody with a particular organ limitation, matching its age rule does not establish its average effect for that group. Actual representation, safety data, treatment context, overlap and the assumptions bridging populations remain necessary, with follow-up, harms and uncertainty considered. No universal similarity score certifies that bridge. An adjusted estimate is not automatically established, and even a well-supported population effect is not a person's guaranteed outcome. The examples here are fictional and provide no actual eligibility or access determination.",
+          "passageSha256": "fa0c23dab7ca7f58b548cea1338e4b30ea056e711400619f66dfdb48f3c74134",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "transport",
+        "transport-v1-html",
+        "transport-published-html",
+        "nci-eligibility"
+      ],
+      "sourceScope": "The published Dahabreh abstract, thirteen targeted v1 HTML blocks and eight published-report blocks are kept separate. They address consistency, exchangeability, treatment/participation positivity and overlap. Published HTML text drops inline formula symbols; its prose is used for prose assumptions, while the v1 text is separately inspected. Six NCI blocks address protocol criteria and study-team assessment. The minus-10/minus-7 arithmetic is conditional and fictional.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T07",
+      "family": "transportability-and-eligibility",
+      "requirement": "Prognosis and treatment-effect modification differ; baseline risk and the stated absolute or relative effect scale matter.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "trial-population-transportability",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "089330cf102eb2f3188e9bfacc220ad9acf347f183c35949d7a103da4d6105a9",
+          "supportingExcerpt": "Eligibility asks whether someone meets protocol entry rules. Transportability asks whether a treatment-effect estimate can extend to a specified target population or setting. Randomisation assigns treatment within an enrolled sample; it does not randomly select that sample from everyone who might receive treatment. Eligible, invited, enrolled and followed people can differ. First specify the target population and align disease, treatment history, intervention and background care, comparator, endpoint and clock. A change of sequence or comparator may change the question itself. A prognostic factor predicts outcomes, while an effect modifier changes a treatment contrast on a specified scale. Even a constant relative effect can yield different absolute benefits when baseline risks differ. A marker or cancer label shared between heavily pretreated metastatic and early postoperative settings does not bridge differences in biology, competing risks, tolerance and endpoints.",
+          "passageSha256": "4ed6e2f9cbb5955fce18decd29d5b9a5b916f9b74764ee6e222d6f895d6924bb",
+          "recordSha256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "transport",
+        "transport-v1-html",
+        "transport-published-html",
+        "nci-eligibility"
+      ],
+      "sourceScope": "The published Dahabreh abstract, thirteen targeted v1 HTML blocks and eight published-report blocks are kept separate. They address consistency, exchangeability, treatment/participation positivity and overlap. Published HTML text drops inline formula symbols; its prose is used for prose assumptions, while the v1 text is separately inspected. Six NCI blocks address protocol criteria and study-team assessment. The minus-10/minus-7 arithmetic is conditional and fictional.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V01",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "The fictional sequence finding is supported while activating interpretation and growth dependence remain unestablished.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+          "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "functional-variant",
+        "functional-variant-html",
+        "escat",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The complete Brnich abstract and six full targeted HTML blocks verify assay construct, cDNA/splicing and function-specific limits in variant classification. The complete ESCAT abstract keeps relevant human, adjacent clinical and preclinical evidence distinct. Dated FDA endpoint passages retain the prior checkpoint's four-page depth. The supported-observation/untested-bridge map is explicit fictional inference, not a mandatory experimental sequence, target-engagement result or treatment claim.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V02",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "A lower pathway signal with unchanged cell growth is a biochemical observation in the model, not demonstrated growth dependence.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+          "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "functional-variant",
+        "functional-variant-html",
+        "escat",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The complete Brnich abstract and six full targeted HTML blocks verify assay construct, cDNA/splicing and function-specific limits in variant classification. The complete ESCAT abstract keeps relevant human, adjacent clinical and preclinical evidence distinct. Dated FDA endpoint passages retain the prior checkpoint's four-page depth. The supported-observation/untested-bridge map is explicit fictional inference, not a mandatory experimental sequence, target-engagement result or treatment claim.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V03",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "The observation alone verifies neither intended-target action nor matched clinical benefit; unchanged growth does not settle every drug effect.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+          "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        },
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "Each claim needs its own measurement. Sequence identity, specimen, assay version, controls and interpretation establish what was tested. Altered-transcript proportion, normalised protein activity, cell growth at a defined exposure and participant response rate have different units and meanings; combining them into one score can hide those differences. Target engagement is separate from downstream change, cancer-cell death, tumour response and survival. At the clinical step, disease, biomarker, treatment setting and comparator must match the claim, with outcome definition, follow-up, harms and uncertainty retained. A biochemical signal alone does not establish clinical benefit, eligibility, availability or an individual's outcome. The model above is fictional, and the FDA's dated 2018 endpoint guidance is used for these outcome distinctions.",
+          "passageSha256": "e5de20286a07d3c7b32f5f2d8b266a6090a0528c0e81fb947b2920950a5f7abe",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "functional-variant",
+        "functional-variant-html",
+        "escat",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The complete Brnich abstract and six full targeted HTML blocks verify assay construct, cDNA/splicing and function-specific limits in variant classification. The complete ESCAT abstract keeps relevant human, adjacent clinical and preclinical evidence distinct. Dated FDA endpoint passages retain the prior checkpoint's four-page depth. The supported-observation/untested-bridge map is explicit fictional inference, not a mandatory experimental sequence, target-engagement result or treatment claim.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V04",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Solid and dashed cards distinguish observations and inference gaps; their order organizes questions rather than prescribing compulsory experiment steps.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+          "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "functional-variant",
+        "functional-variant-html",
+        "escat",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The complete Brnich abstract and six full targeted HTML blocks verify assay construct, cDNA/splicing and function-specific limits in variant classification. The complete ESCAT abstract keeps relevant human, adjacent clinical and preclinical evidence distinct. Dated FDA endpoint passages retain the prior checkpoint's four-page depth. The supported-observation/untested-bridge map is explicit fictional inference, not a mandatory experimental sequence, target-engagement result or treatment claim.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": "The field explicitly rejects a mandatory experimental sequence. Solid and dashed outlines are native notation for the same supported observations and gaps.",
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V05",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "The qualitative fictional map supplies no actual variant, product, patient claim, exposure, effect size or clinical estimate.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+          "passageSha256": "fe4853a4be954cd5ad65a8101db55ea0dcc4d5e1469d20cb9c2418c556503a58",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        },
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "Each claim needs its own measurement. Sequence identity, specimen, assay version, controls and interpretation establish what was tested. Altered-transcript proportion, normalised protein activity, cell growth at a defined exposure and participant response rate have different units and meanings; combining them into one score can hide those differences. Target engagement is separate from downstream change, cancer-cell death, tumour response and survival. At the clinical step, disease, biomarker, treatment setting and comparator must match the claim, with outcome definition, follow-up, harms and uncertainty retained. A biochemical signal alone does not establish clinical benefit, eligibility, availability or an individual's outcome. The model above is fictional, and the FDA's dated 2018 endpoint guidance is used for these outcome distinctions.",
+          "passageSha256": "e5de20286a07d3c7b32f5f2d8b266a6090a0528c0e81fb947b2920950a5f7abe",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "functional-variant",
+        "functional-variant-html",
+        "escat",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The complete Brnich abstract and six full targeted HTML blocks verify assay construct, cDNA/splicing and function-specific limits in variant classification. The complete ESCAT abstract keeps relevant human, adjacent clinical and preclinical evidence distinct. Dated FDA endpoint passages retain the prior checkpoint's four-page depth. The supported-observation/untested-bridge map is explicit fictional inference, not a mandatory experimental sequence, target-engagement result or treatment claim.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V06",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Functional assays must fit the mechanism; protein-only constructs can miss RNA processing and a normal measured function does not establish all relevant functions.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "Expression and controlled functional evidence for the exact alteration can strengthen a biological interpretation; another alteration in the same gene may behave differently. Perturbation with rescue or complementary controls can test dependence, because an active pathway need not be necessary for growth. A drug-effect claim needs relevant exposure and evidence that the compound reaches and interacts with its intended target; other drug actions or failure to reach tumour remain possible. Activation, loss of function and high protein abundance do not all imply that inhibiting the named protein will help. Other cells, parallel pathways and treatment history can change that hypothesis. A protein-only construct may miss RNA-processing effects, so a normal assay is not proof that a variant is harmless. Brnich's functional-classification recommendations address assay relevance; Mateo's actionability framework separately distinguishes relevant human, adjacent clinical and preclinical evidence. Neither framework turns pathogenicity into drug sensitivity or an evidence grade into treatment access. Repeated predictions may share data or assumptions and are not independent experiments.",
+          "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "functional-variant",
+        "functional-variant-html",
+        "escat",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The complete Brnich abstract and six full targeted HTML blocks verify assay construct, cDNA/splicing and function-specific limits in variant classification. The complete ESCAT abstract keeps relevant human, adjacent clinical and preclinical evidence distinct. Dated FDA endpoint passages retain the prior checkpoint's four-page depth. The supported-observation/untested-bridge map is explicit fictional inference, not a mandatory experimental sequence, target-engagement result or treatment claim.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V07",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Pathogenicity, cancer drug sensitivity, clinical evidence and access differ; shared annotations are not automatically independent experiments.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "measurement-to-benefit-evidence",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "e6b8f45783201096196c305ffdd1aaa637d5f72c21622750feb9ca836c971bdd",
+          "supportingExcerpt": "Expression and controlled functional evidence for the exact alteration can strengthen a biological interpretation; another alteration in the same gene may behave differently. Perturbation with rescue or complementary controls can test dependence, because an active pathway need not be necessary for growth. A drug-effect claim needs relevant exposure and evidence that the compound reaches and interacts with its intended target; other drug actions or failure to reach tumour remain possible. Activation, loss of function and high protein abundance do not all imply that inhibiting the named protein will help. Other cells, parallel pathways and treatment history can change that hypothesis. A protein-only construct may miss RNA-processing effects, so a normal assay is not proof that a variant is harmless. Brnich's functional-classification recommendations address assay relevance; Mateo's actionability framework separately distinguishes relevant human, adjacent clinical and preclinical evidence. Neither framework turns pathogenicity into drug sensitivity or an evidence grade into treatment access. Repeated predictions may share data or assumptions and are not independent experiments.",
+          "passageSha256": "c3764456a994bae7f4ab8054c72b94705ff2b70e9cf44da45021049bee2b6904",
+          "recordSha256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "functional-variant",
+        "functional-variant-html",
+        "escat",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The complete Brnich abstract and six full targeted HTML blocks verify assay construct, cDNA/splicing and function-specific limits in variant classification. The complete ESCAT abstract keeps relevant human, adjacent clinical and preclinical evidence distinct. Dated FDA endpoint passages retain the prior checkpoint's four-page depth. The supported-observation/untested-bridge map is explicit fictional inference, not a mandatory experimental sequence, target-engagement result or treatment claim.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F01",
+      "family": "reduction-is-not-regression",
+      "requirement": "The fictional control and treated volumes both start at 100 mm3; at day 28 the control is 1000 and treated 300 mm3.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "growth-rate-inhibition",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "supportingExcerpt": "Growth-rate-corrected metrics in this record concern dividing-cell assays. The following fictional tumour-volume examples teach the broader distinction between growth reduction and regression; clinical RECIST assessment uses its own lesion-diameter rules. A tumour smaller than control has not necessarily shrunk below its own starting size. In a fictional comparison, both start at 100 cubic millimetres; at day 28, control is 1,000 and treated 300. Changes from start are +900 and +200 cubic millimetres. The treated value is (1,000 - 300)/1,000 = 70% below control but three times its own start, a 200% increase rather than a 300% increase. These are invented representative values, not individual observations or a statistical treatment-effect estimate. Real studies need distributions, independent units, allocation, missing observations and uncertainty. For a percentage labelled tumour growth inhibition, recover the paper's actual calculation and reference before quoting it; the fictional 70% above compares final volumes. Slower growth does not by itself identify cell death, and statistical regression is a different meaning of the word.",
+          "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+          "recordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "recist-2009",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The fictional volumes and both reference calculations are independently recomputed. RECIST PDF text pages 1/5/6/9/10 and FDA 2018 PDF text pages 1/10/12/13 reuse verified prior capture hashes at that recorded scope; they are not fresh or whole-document reads. Existing growth-rate metric claims outside the scoped volume requirements retain their prior source depth.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F02",
+      "family": "reduction-is-not-regression",
+      "requirement": "The treated volume is 70% below the concurrent control and three times its own starting size, a 200% increase rather than regression.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "growth-rate-inhibition",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "supportingExcerpt": "Growth-rate-corrected metrics in this record concern dividing-cell assays. The following fictional tumour-volume examples teach the broader distinction between growth reduction and regression; clinical RECIST assessment uses its own lesion-diameter rules. A tumour smaller than control has not necessarily shrunk below its own starting size. In a fictional comparison, both start at 100 cubic millimetres; at day 28, control is 1,000 and treated 300. Changes from start are +900 and +200 cubic millimetres. The treated value is (1,000 - 300)/1,000 = 70% below control but three times its own start, a 200% increase rather than a 300% increase. These are invented representative values, not individual observations or a statistical treatment-effect estimate. Real studies need distributions, independent units, allocation, missing observations and uncertainty. For a percentage labelled tumour growth inhibition, recover the paper's actual calculation and reference before quoting it; the fictional 70% above compares final volumes. Slower growth does not by itself identify cell death, and statistical regression is a different meaning of the word.",
+          "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+          "recordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "recist-2009",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The fictional volumes and both reference calculations are independently recomputed. RECIST PDF text pages 1/5/6/9/10 and FDA 2018 PDF text pages 1/10/12/13 reuse verified prior capture hashes at that recorded scope; they are not fresh or whole-document reads. Existing growth-rate metric claims outside the scoped volume requirements retain their prior source depth.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F03",
+      "family": "reduction-is-not-regression",
+      "requirement": "The illustration is fictional and not to scale; slower relative growth alone establishes neither cell death, eradication, clinical response category nor benefit.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "growth-rate-inhibition",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "supportingExcerpt": "Growth-rate-corrected metrics in this record concern dividing-cell assays. The following fictional tumour-volume examples teach the broader distinction between growth reduction and regression; clinical RECIST assessment uses its own lesion-diameter rules. A tumour smaller than control has not necessarily shrunk below its own starting size. In a fictional comparison, both start at 100 cubic millimetres; at day 28, control is 1,000 and treated 300. Changes from start are +900 and +200 cubic millimetres. The treated value is (1,000 - 300)/1,000 = 70% below control but three times its own start, a 200% increase rather than a 300% increase. These are invented representative values, not individual observations or a statistical treatment-effect estimate. Real studies need distributions, independent units, allocation, missing observations and uncertainty. For a percentage labelled tumour growth inhibition, recover the paper's actual calculation and reference before quoting it; the fictional 70% above compares final volumes. Slower growth does not by itself identify cell death, and statistical regression is a different meaning of the word.",
+          "passageSha256": "627b2414fb3772b059341f151a417cb9f814227a6a3a5afd519760910dbeb15d",
+          "recordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c"
+        },
+        {
+          "recordId": "growth-rate-inhibition",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "supportingExcerpt": "In another fictional example, a tumour starts at 100 cubic millimetres and later measures 60 while control measures 300. It is 40% below its own start, supporting regression under this volume assessment, and 80% below the concurrent control. These percentages answer different questions. Neither supplies a RECIST response category, complete eradication or patient benefit. Shrinkage can leave measurable disease, and disappearance on a scan does not prove eradication. Duration, other disease sites, harms and clinical outcomes still need assessment. The volume examples are fictional; RECIST clinical criteria and the FDA's December 2018 outcome guidance address separate measurement and interpretation frameworks.",
+          "passageSha256": "9e4be6ab30d14f346e4179cdd981958b958f09f908ba7cf358ee257004d78aee",
+          "recordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "recist-2009",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The fictional volumes and both reference calculations are independently recomputed. RECIST PDF text pages 1/5/6/9/10 and FDA 2018 PDF text pages 1/10/12/13 reuse verified prior capture hashes at that recorded scope; they are not fresh or whole-document reads. Existing growth-rate metric claims outside the scoped volume requirements retain their prior source depth.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": "The fields stipulate invented representative values and deny mechanism or clinical-response inference. The not-to-scale illustration is not registered as a canonical image.",
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F04",
+      "family": "reduction-is-not-regression",
+      "requirement": "Mouse tumor-volume percentages cannot be inserted into RECIST selected-lesion diameter rules.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "growth-rate-inhibition",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "supportingExcerpt": "Clinical RECIST assessment uses a sum of selected lesion diameters, with rules for lymph nodes, non-target disease and new lesions. A mouse-volume percentage in cubic millimetres cannot be inserted into a diameter threshold measured in millimetres. Partial response compares with baseline; target-lesion progression compares with the smallest previous sum, commonly called the nadir, and applies its specified thresholds. Overall response also considers the rest of the disease, so one shrinking lesion does not make the person an overall responder. Cell number, metabolic activity and target-cell death are also distinct readouts, not interchangeable tumour-size measurements. The measured object, units, time, reference, calculation, controls and excluded observations determine what a reduction means.",
+          "passageSha256": "d833a2bd0e008dc86e572da8c0926f7a677dafc96197254eff08ebc724f5d3a1",
+          "recordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "recist-2009",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The fictional volumes and both reference calculations are independently recomputed. RECIST PDF text pages 1/5/6/9/10 and FDA 2018 PDF text pages 1/10/12/13 reuse verified prior capture hashes at that recorded scope; they are not fresh or whole-document reads. Existing growth-rate metric claims outside the scoped volume requirements retain their prior source depth.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F05",
+      "family": "reduction-is-not-regression",
+      "requirement": "Baseline response, smallest-previous-sum progression and overall disease assessment are distinct reference rules.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "growth-rate-inhibition",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "supportingExcerpt": "Clinical RECIST assessment uses a sum of selected lesion diameters, with rules for lymph nodes, non-target disease and new lesions. A mouse-volume percentage in cubic millimetres cannot be inserted into a diameter threshold measured in millimetres. Partial response compares with baseline; target-lesion progression compares with the smallest previous sum, commonly called the nadir, and applies its specified thresholds. Overall response also considers the rest of the disease, so one shrinking lesion does not make the person an overall responder. Cell number, metabolic activity and target-cell death are also distinct readouts, not interchangeable tumour-size measurements. The measured object, units, time, reference, calculation, controls and excluded observations determine what a reduction means.",
+          "passageSha256": "d833a2bd0e008dc86e572da8c0926f7a677dafc96197254eff08ebc724f5d3a1",
+          "recordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "recist-2009",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The fictional volumes and both reference calculations are independently recomputed. RECIST PDF text pages 1/5/6/9/10 and FDA 2018 PDF text pages 1/10/12/13 reuse verified prior capture hashes at that recorded scope; they are not fresh or whole-document reads. Existing growth-rate metric claims outside the scoped volume requirements retain their prior source depth.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F06",
+      "family": "reduction-is-not-regression",
+      "requirement": "In the separate 100-to-60 example versus a 300 control, the 40% own-baseline decline and 80% below-control contrast answer different questions.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "growth-rate-inhibition",
+          "version": "proposal-support-bodies-31-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "a9323304fe63cd5e7303e613a34b2b96e553c0de6f1bb6028c39fe33e8cfc0d9",
+          "supportingExcerpt": "In another fictional example, a tumour starts at 100 cubic millimetres and later measures 60 while control measures 300. It is 40% below its own start, supporting regression under this volume assessment, and 80% below the concurrent control. These percentages answer different questions. Neither supplies a RECIST response category, complete eradication or patient benefit. Shrinkage can leave measurable disease, and disappearance on a scan does not prove eradication. Duration, other disease sites, harms and clinical outcomes still need assessment. The volume examples are fictional; RECIST clinical criteria and the FDA's December 2018 outcome guidance address separate measurement and interpretation frameworks.",
+          "passageSha256": "9e4be6ab30d14f346e4179cdd981958b958f09f908ba7cf358ee257004d78aee",
+          "recordSha256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "recist-2009",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The fictional volumes and both reference calculations are independently recomputed. RECIST PDF text pages 1/5/6/9/10 and FDA 2018 PDF text pages 1/10/12/13 reuse verified prior capture hashes at that recorded scope; they are not fresh or whole-document reads. Existing growth-rate metric claims outside the scoped volume requirements retain their prior source depth.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C01",
+      "family": "cross-trial-comparison",
+      "requirement": "The fictional subgroup fractions are A 40/80 and 4/20, B 12/20 and 24/80; the studies have opposite 80/20 baseline mixtures.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "cross-trial-comparison",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "supportingExcerpt": "Two fictional single-arm studies each enrol 100 people with the same response definition, assessment period and complete denominator. In the favourable baseline group, A has 40 responses among 80 people (50%) and B has 12 among 20 (60%). In the other group, A has 4/20 (20%) and B 24/80 (30%). Overall, A has 44% response and B 36%, despite B's higher rate in both groups. A enrolled an 80/20 mixture of the two groups, while B enrolled 20/80. Composition reverses the headline ranking. This arithmetic does not establish that B is superior: people were not randomised between studies, and one measured feature cannot resolve every difference.",
+          "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+          "recordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "indirect-comparison",
+        "cochrane-11",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The resolved Bucher abstract and eight complete Cochrane network-method paragraphs reuse their exact prior captures and declared depth. Four prior FDA endpoint PDF text pages retain their dated scope. Every subgroup fraction, mixture and pooled count is recomputed from fictional premises. Neither the reversal nor one-variable adjustment identifies treatment superiority.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C02",
+      "family": "cross-trial-comparison",
+      "requirement": "Adding response counts gives A 44/100 versus B 36/100, reversing the within-group ranking through composition.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "cross-trial-comparison",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "supportingExcerpt": "Two fictional single-arm studies each enrol 100 people with the same response definition, assessment period and complete denominator. In the favourable baseline group, A has 40 responses among 80 people (50%) and B has 12 among 20 (60%). In the other group, A has 4/20 (20%) and B 24/80 (30%). Overall, A has 44% response and B 36%, despite B's higher rate in both groups. A enrolled an 80/20 mixture of the two groups, while B enrolled 20/80. Composition reverses the headline ranking. This arithmetic does not establish that B is superior: people were not randomised between studies, and one measured feature cannot resolve every difference.",
+          "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+          "recordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "indirect-comparison",
+        "cochrane-11",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The resolved Bucher abstract and eight complete Cochrane network-method paragraphs reuse their exact prior captures and declared depth. Four prior FDA endpoint PDF text pages retain their dated scope. Every subgroup fraction, mixture and pooled count is recomputed from fictional premises. Neither the reversal nor one-variable adjustment identifies treatment superiority.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C03",
+      "family": "cross-trial-comparison",
+      "requirement": "Neither the reversal nor adjustment for one measured feature establishes treatment superiority or removes between-study confounding.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "cross-trial-comparison",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "supportingExcerpt": "Two fictional single-arm studies each enrol 100 people with the same response definition, assessment period and complete denominator. In the favourable baseline group, A has 40 responses among 80 people (50%) and B has 12 among 20 (60%). In the other group, A has 4/20 (20%) and B 24/80 (30%). Overall, A has 44% response and B 36%, despite B's higher rate in both groups. A enrolled an 80/20 mixture of the two groups, while B enrolled 20/80. Composition reverses the headline ranking. This arithmetic does not establish that B is superior: people were not randomised between studies, and one measured feature cannot resolve every difference.",
+          "passageSha256": "ffa464e5f0298128afcd4e2f5d5acdb0ef1d5563f843af8d2174d38058b8a0f4",
+          "recordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "indirect-comparison",
+        "cochrane-11",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The resolved Bucher abstract and eight complete Cochrane network-method paragraphs reuse their exact prior captures and declared depth. Four prior FDA endpoint PDF text pages retain their dated scope. Every subgroup fraction, mixture and pooled count is recomputed from fictional premises. Neither the reversal nor one-variable adjustment identifies treatment superiority.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C04",
+      "family": "cross-trial-comparison",
+      "requirement": "A formal indirect comparison preserves within-trial treatment contrasts and needs an appropriate common comparator and compatible populations.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "cross-trial-comparison",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "supportingExcerpt": "A higher percentage in one paper is a reason to examine its study, rather than proof that its treatment is better. Randomisation protects comparisons within a trial, not between separately conducted trials. Comparing their experimental arms discards that protection. Disease burden, biomarker assay and threshold, prior treatment, background care, dose, endpoint rules, analysis population and follow-up can differ. Formal indirect comparison through a common comparator preserves each trial's treatment-versus-control contrast but still requires compatible questions and methods. Pooling active arms across trials is prone to bias, and even an adjusted indirect estimate remains less secure than a suitable direct comparison (Bucher and colleagues, 1997). Network meta-analysis adds a transitivity assumption: important effect modifiers must be sufficiently comparable across the network. A shared drug name or statistical agreement cannot establish that unmeasured compatibility. Similar endpoint labels can hide different definitions: a clinical benefit rate may include different durations of stable disease. Adjustment for measured differences does not remove every bias, and lower hazard ratios against different comparators cannot automatically rank treatments.",
+          "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+          "recordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "indirect-comparison",
+        "cochrane-11",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The resolved Bucher abstract and eight complete Cochrane network-method paragraphs reuse their exact prior captures and declared depth. Four prior FDA endpoint PDF text pages retain their dated scope. Every subgroup fraction, mixture and pooled count is recomputed from fictional premises. Neither the reversal nor one-variable adjustment identifies treatment superiority.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C05",
+      "family": "cross-trial-comparison",
+      "requirement": "Network transitivity concerns effect modifiers and compatible dose, care, population and methods; statistical agreement alone cannot certify compatibility.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "cross-trial-comparison",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "supportingExcerpt": "A higher percentage in one paper is a reason to examine its study, rather than proof that its treatment is better. Randomisation protects comparisons within a trial, not between separately conducted trials. Comparing their experimental arms discards that protection. Disease burden, biomarker assay and threshold, prior treatment, background care, dose, endpoint rules, analysis population and follow-up can differ. Formal indirect comparison through a common comparator preserves each trial's treatment-versus-control contrast but still requires compatible questions and methods. Pooling active arms across trials is prone to bias, and even an adjusted indirect estimate remains less secure than a suitable direct comparison (Bucher and colleagues, 1997). Network meta-analysis adds a transitivity assumption: important effect modifiers must be sufficiently comparable across the network. A shared drug name or statistical agreement cannot establish that unmeasured compatibility. Similar endpoint labels can hide different definitions: a clinical benefit rate may include different durations of stable disease. Adjustment for measured differences does not remove every bias, and lower hazard ratios against different comparators cannot automatically rank treatments.",
+          "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+          "recordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "indirect-comparison",
+        "cochrane-11",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The resolved Bucher abstract and eight complete Cochrane network-method paragraphs reuse their exact prior captures and declared depth. Four prior FDA endpoint PDF text pages retain their dated scope. Every subgroup fraction, mixture and pooled count is recomputed from fictional premises. Neither the reversal nor one-variable adjustment identifies treatment superiority.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C06",
+      "family": "cross-trial-comparison",
+      "requirement": "Clinical endpoint, denominator, clock, comparator and follow-up differences prevent automatic rankings, including external survival contrasts.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Unchanged teaching; link and routing differences do not add scientific claims.",
+      "laterOnlyClause": null,
+      "evidence": [
+        {
+          "recordId": "cross-trial-comparison",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "supportingExcerpt": "A higher percentage in one paper is a reason to examine its study, rather than proof that its treatment is better. Randomisation protects comparisons within a trial, not between separately conducted trials. Comparing their experimental arms discards that protection. Disease burden, biomarker assay and threshold, prior treatment, background care, dose, endpoint rules, analysis population and follow-up can differ. Formal indirect comparison through a common comparator preserves each trial's treatment-versus-control contrast but still requires compatible questions and methods. Pooling active arms across trials is prone to bias, and even an adjusted indirect estimate remains less secure than a suitable direct comparison (Bucher and colleagues, 1997). Network meta-analysis adds a transitivity assumption: important effect modifiers must be sufficiently comparable across the network. A shared drug name or statistical agreement cannot establish that unmeasured compatibility. Similar endpoint labels can hide different definitions: a clinical benefit rate may include different durations of stable disease. Adjustment for measured differences does not remove every bias, and lower hazard ratios against different comparators cannot automatically rank treatments.",
+          "passageSha256": "547f1ac02527360edb355af97f742ec07b04e5270fd3be76df2e72fb297b3329",
+          "recordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa"
+        },
+        {
+          "recordId": "cross-trial-comparison",
+          "version": "proposal-support-bodies-31-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "4211d7a43cc4d0a8e3db15aeffc7b4e697f355bd66e19839e76d68c2de8f433c",
+          "supportingExcerpt": "A fictional vaccine report of 90% recurrence-free at two years in selected postoperative patients cannot be ranked against 30% objective response in a different advanced-disease drug study. Immune response, pathological response, imaging response and survival are different outcomes in different settings. A comparative effect estimate needs a shared clinical question and defensible design. For time-to-event results, align the event definition, origin, assessment schedule, cutoff and follow-up as well as population and care. FDA's December 2018 endpoint guidance warns that external survival comparisons can reflect selection, imaging and supportive-care differences. Neither fictional example certifies an actual indirect comparison.",
+          "passageSha256": "0a82d94ac5b321277feae672368e8214722835b58930d5502c2b1ea86d57bb7c",
+          "recordSha256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "indirect-comparison",
+        "cochrane-11",
+        "fda-endpoints-2018"
+      ],
+      "sourceScope": "The resolved Bucher abstract and eight complete Cochrane network-method paragraphs reuse their exact prior captures and declared depth. Four prior FDA endpoint PDF text pages retain their dated scope. Every subgroup fraction, mixture and pooled count is recomputed from fictional premises. Neither the reversal nor one-variable adjustment identifies treatment superiority.",
+      "semanticAssessment": "Coordinator comparison of the complete source context and named fields. Field hashing and exact reader containment establish stored passages separately from this semantic judgment. Fictional premises and drawing conventions do not certify empirical effects or approvals.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    }
+  ],
+  "constructionChecks": [
+    {
+      "id": "P32-K01",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    },
+    {
+      "id": "P32-K02",
+      "family": "lead-time-bias",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    },
+    {
+      "id": "P32-K03",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    },
+    {
+      "id": "P32-K04",
+      "family": "population-vs-individual-risk",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    },
+    {
+      "id": "P32-K05",
+      "family": "transportability-and-eligibility",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    },
+    {
+      "id": "P32-K06",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    },
+    {
+      "id": "P32-K07",
+      "family": "reduction-is-not-regression",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    },
+    {
+      "id": "P32-K08",
+      "family": "cross-trial-comparison",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete body and parent reading, pinned identities, sixteen whole native views, private generator reproduction and explicit approval limits."
+    }
+  ],
+  "pendingDependentUnits": 20,
+  "directPendingDependentUnits": 12,
+  "mainCredit": 0,
+  "liveCredit": 0
+}

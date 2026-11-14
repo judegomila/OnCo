@@ -1,0 +1,1089 @@
+{
+  "slots": 72,
+  "available": 2,
+  "EnglishFallbacks": 70,
+  "reviews": [
+    {
+      "id": "denominators-and-conditional-probability",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lead-time-bias",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graph-reading",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "cross-trial-comparison",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "confidence-interval",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "preclinical",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    }
+  ],
+  "longSummaryCaches": [
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "denominators-and-conditional-probability",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "lead-time-bias",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "confidence-interval",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "preclinical",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    }
+  ],
+  "storedLongCaches": 0,
+  "acceptedLongCaches": 0,
+  "selectedValuesReadTwiceAndUnchanged": true,
+  "languageReviewStampsChanged": 0,
+  "shortTextsChanged": 0,
+  "summaryTextsChanged": 0,
+  "independentLanguageAcceptance": false,
+  "ordinaryLayerRestored": true
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "sourceId": "what-if-2026-pdf",
+    "pdfPage": 19,
+    "pageTextSHA256": "caed18b26bacb8663bd7067d1f28e73624634f3a40f557d88156524fd33763f2",
+    "captureSHA256": "a1067af923e9156bb95fbe4b0d18699bd0723e9c902bdc74465cf7782820b1b5",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:00:38.062456+00:00"
+  },
+  {
+    "sourceId": "what-if-2026-pdf",
+    "pdfPage": 20,
+    "pageTextSHA256": "879db119bc7114a55a6ee162392e188834103d5fa3f1994a7a38b6ab06545c69",
+    "captureSHA256": "a1067af923e9156bb95fbe4b0d18699bd0723e9c902bdc74465cf7782820b1b5",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:00:38.062581+00:00"
+  },
+  {
+    "sourceId": "fda-ctdna-2024-pdf",
+    "pdfPage": 1,
+    "pageTextSHA256": "53dcf173ae1a40f89cddf4c0b0582d4f55cd9f320f4e70b8d7f2b8692bf57b87",
+    "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:01:45.652116+00:00"
+  },
+  {
+    "sourceId": "fda-ctdna-2024-pdf",
+    "pdfPage": 6,
+    "pageTextSHA256": "3e3da2bca74ab765c1b2cca46249159854f2ad06593092873403faa28c233e49",
+    "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:01:45.652236+00:00"
+  },
+  {
+    "sourceId": "fda-ctdna-2024-pdf",
+    "pdfPage": 8,
+    "pageTextSHA256": "86342da809b5aebf90e550885c68a4e242b32b4e7f97ceaa517ce76f4b663b49",
+    "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:01:45.652243+00:00"
+  },
+  {
+    "sourceId": "fda-ctdna-2024-pdf",
+    "pdfPage": 7,
+    "pageTextSHA256": "68da86fdc30acfdc5a69773424db10321052e30c034cb632563ca348ab27715d",
+    "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:02:43.012520+00:00"
+  }
+]

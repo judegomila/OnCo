@@ -1,0 +1,1614 @@
+{
+  "frozenAtUTC": "2026-11-14T19:52:57.918285+00:00",
+  "baseCommit": "4057e5537d4247b897119c96d4991377f2fae279",
+  "selection": "All nineteen newly assigned full bodies, one fully read prior-support brief, all eight later embedding lessons, seven complete original-to-later diffs, one whole-byte-identical original reuse, and sixteen fresh whole native views.",
+  "priorGoalContextKnown": true,
+  "blindIndependentInventoryClaimed": false,
+  "frozenBeforeFreshCanonicalCapture": true,
+  "sourceFirstUnits": [
+    {
+      "id": "P32-D01",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Conditioning defines a group and does not establish causation; the conditional-probability ratio requires a nonzero conditioning probability.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "The vertical bar means",
+      "sourceExcerptSHA256": "e6399640f83a94203a757be34693daab3abb05c069e26df24f3e16a03aa43c63",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D02",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The observation unit, person-time rate and incomplete-follow-up risk question are distinct.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "People, lesions, blood draws",
+      "sourceExcerptSHA256": "84352d1659f41a1e0813bfe8376448e136c0b4776bd24211392aa50a4fd71ee8",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D03",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The same five observed responses appear among 20 enrolled, 14 treated and 10 scan-evaluable people, giving 25%, approximately 35.7% and 50%.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A fictional study enrolls twenty",
+      "sourceExcerptSHA256": "1a72c83f1e675d3e9c6035d848e584a7a64496254959a34583c4aad13b44ac59",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D04",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Four treated people without evaluable scans and six untreated people are separate groups with no supplied response outcome.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Four treated people lack",
+      "sourceExcerptSHA256": "8f0616bfec0ba795a2072320a2e40602a18b04abea7295fbbbcc0b75926111fa",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D05",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Five evaluable scans did not meet the response rule; all rows retain the same five responding people.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Five other evaluable scans",
+      "sourceExcerptSHA256": "72e5eb7460ca302ac2222ea349be5a22d288c3cb3a50751bc5a7443e23e95d9b",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D06",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Observed responder fractions do not establish a protocol analysis set or silently recode unknown outcomes as confirmed nonresponse.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A protocol may define",
+      "sourceExcerptSHA256": "d206b64dcd76d392e2b8633401c6d3b49f04fa1cbfae7624cfad4e6d13cb905d",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D07",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The three sets are nested; the chart uses an absolute common count scale and equal-sized person slots rather than normalized percentage bars.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Scan-evaluable people are a subset",
+      "sourceExcerptSHA256": "686331c06376db0d82ed58befed21314721d2fc3b1d72bd0fe0ef20db61a0300",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D08",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Changing the counted set is a fictional denominator comparison, not response improvement over time, a RECIST rule or clinical benefit.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Fictional data: the same five",
+      "sourceExcerptSHA256": "2ff5cfa15beb3c60debee53cd7b63b33b2462838b3c481d5be2db7e1cc0be691",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-D09",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "The separate complete-cohort brain-involvement fractions are 5/20=25% and 5/100=5%; the 8/20 scan exercise gives 40% without resolving other outcomes.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "twenty have recurrence",
+      "sourceExcerptSHA256": "cbf727861158c152eb0583056e44def5a66b30fa7127654ad3bdd76dc2294362",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K01",
+      "family": "denominators-and-conditional-probability",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+          "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+          "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L01",
+      "family": "lead-time-bias",
+      "requirement": "In the same fictional course, death stays at year 6 while detection moves from year 4 to year 3; recorded survival changes from two to three years.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "conventional detection occurs in year 4",
+      "sourceExcerptSHA256": "fe73b1dbf9098a684823384d9016c2af7568133f7b11a6e7c10fda688bb2fa06",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "assignedBodyIndex": "associated-brief",
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L02",
+      "family": "lead-time-bias",
+      "requirement": "The additional recorded year moves only the measurement origin and supplies no evidence of longer life or benefit from earlier treatment.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "The extra recorded year",
+      "sourceExcerptSHA256": "94c630409311d1a874a069bf9fd07aeb2c90e73c7dd5ba75b20641208152f8da",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "assignedBodyIndex": "associated-brief",
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L03",
+      "family": "lead-time-bias",
+      "requirement": "The aligned linear time scales and symbolic stopwatch illustrate an interval rather than a time-of-day reading.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "The stopwatch is a symbol",
+      "sourceExcerptSHA256": "024c0bf9e9e29a26bc50bfb9c685d7abfad4d99d823c71dd552cc60ef82fa42c",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "assignedBodyIndex": "associated-brief",
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L04",
+      "family": "lead-time-bias",
+      "requirement": "Lead-time bias, length bias and overdiagnosis are distinct; screening magnitudes do not automatically transfer to molecular monitoring.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Length bias",
+      "sourceExcerptSHA256": "6486e99716fcf792801ce4014488ee51cd534783ad3537e82cfe9148c61741e9",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L05",
+      "family": "lead-time-bias",
+      "requirement": "A strategy comparison needs a common origin, intended actions, outcomes and harms, including all assigned people rather than detectable signals alone.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A randomized design can use",
+      "sourceExcerptSHA256": "a9d46422937e12cd9b6024dc39399f2aea83036e1e53330e3a3a4df281ace0e4",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-L06",
+      "family": "lead-time-bias",
+      "requirement": "A specific surveillance/intervention feasibility result does not establish a beneficial window for every earlier signal; the later surveillance cross-reference has its own historical scope.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "c-TRAK TN tested",
+      "sourceExcerptSHA256": "ff50d0de77b73542f6f37d55629e50648bee2e4997c64bcdc728c2396c293ade",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K02",
+      "family": "lead-time-bias",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+          "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+          "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G01",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "The five equal-status questions identify population, intervention, outcome with units and clock, comparison, and uncertainty.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "checking its population, intervention",
+      "sourceExcerptSHA256": "72578284eb181c7fd61de4f871943df98db2ed9437918c0e8f1613c064c6c918",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "assignedBodyIndex": 3,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G02",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "Three tubes from one donor remain one donor; technical repeats do not create independent people.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Three samples from one donor",
+      "sourceExcerptSHA256": "5f361ab0d31d4ea559b67c1b080d7ece900d7e60c64f18c2b5fd1cd30754728a",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "assignedBodyIndex": 3,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G03",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "An empty observation card represents missing information rather than a measured zero.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "the empty card means missing",
+      "sourceExcerptSHA256": "a63b2827282339af5c8daaba54800aa92677b45ceecfb5576c2b9d79dd4f28b3",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "assignedBodyIndex": 3,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G04",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "The five panels are schematic reading prompts without invented study data or causal progression; completing the questions does not certify trustworthiness.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "the miniature plots are schematic icons",
+      "sourceExcerptSHA256": "4cb843f3fbcd12e5da7f33b3f6708a1d1e40069386cc00d1c3c562badc7f9f69",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "assignedBodyIndex": 3,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G05",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "Axes, linear versus log spacing, independent observations, standard deviation, standard error and confidence-interval definitions change interpretation.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A standard deviation describes",
+      "sourceExcerptSHA256": "ba7f21cd005cef45349d9d35ebe0aac4d924135a343079d083afdf6a2fa79db4",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-G06",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "The worked and practice examples keep four animals per group, twenty wells from one animal, and twelve measurements from three donors distinct.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "three independent donors, not twelve",
+      "sourceExcerptSHA256": "0c6af6a04169607db9a3d2641b222aab903de9a5e97f02b6b1dfde241c9ccd95",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K03",
+      "family": "reading-a-graph-in-five-passes",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "cf8c7de639c77947cb7cf2baf09527d5cb76db9ac1360f9f012d871079a97b62",
+          "gitBlob": "984aa06ba7685af7a54221bd4f81d22517db969a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e704abde13d84d64af4a3bf6155d97ae8da7d61d845054021d21b1a74fb30e30",
+          "gitBlob": "6d4c1a5dd7d33a60229d46e9e2b53f6bb26b80c2"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R01",
+      "family": "population-vs-individual-risk",
+      "requirement": "Twenty events among 100 fictional people receiving the same treatment after complete five-year follow-up describe the defined group frequency.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "fully followed cohort of one hundred",
+      "sourceExcerptSHA256": "0594d828c3aec15903a33c346ba48b1d1f696dbe48f7ec411156b325e36cf3b3",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "assignedBodyIndex": 5,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R02",
+      "family": "population-vs-individual-risk",
+      "requirement": "The sorted event dots allow counting and do not identify which person will later experience an event.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "20 event dots sorted for counting",
+      "sourceExcerptSHA256": "79336ecde189a25a63427fb8d4d7979d0e4b00f0ffa035072fcf0c56f3476242",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "assignedBodyIndex": 5,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R03",
+      "family": "population-vs-individual-risk",
+      "requirement": "A group proportion is not an individual fate or a fractional event inside a person.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "one fifth of an event",
+      "sourceExcerptSHA256": "42bd39a7e54a1ed4c49ddae65cc14ec60d63df2c551742e7177cf48c92da4b0d",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "assignedBodyIndex": 5,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R04",
+      "family": "population-vs-individual-risk",
+      "requirement": "An individual model estimate still needs relevant inputs, setting, calibration and a defined horizon.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "model-based estimate still needs",
+      "sourceExcerptSHA256": "4ebe08acb23ba87b0f0f4efacb19e5a5f0ce07e0cc9da628f52d8a8bef651e49",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "assignedBodyIndex": 5,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R05",
+      "family": "population-vs-individual-risk",
+      "requirement": "The separate 10%-prediction example assesses about 10 events per 100 comparable independently evaluated people; it is separate from the 20% observed cohort.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A model assigns a 10%",
+      "sourceExcerptSHA256": "987c1d7b1af5e70d4caeda2e2faa3e70eaf82ee12242fd3efa8374df5183bf41",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R06",
+      "family": "population-vs-individual-risk",
+      "requirement": "Discrimination and calibration differ; external validation in one setting does not certify every hospital or subgroup.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Good ranking does not guarantee",
+      "sourceExcerptSHA256": "caa4b29c9421d6c89118837b1d0f490af9bdb53245284e18a2db064213586105",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-R07",
+      "family": "population-vs-individual-risk",
+      "requirement": "Multiplying an observed risk by unrelated hazard ratios does not validate a personal probability or a treatment effect.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "This does not produce a validated personal probability",
+      "sourceExcerptSHA256": "3b8c85fb137b68f9365530185ac18e44aaf007765eca9cc8a8ac68c878601e54",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K04",
+      "family": "population-vs-individual-risk",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+          "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T01",
+      "family": "transportability-and-eligibility",
+      "requirement": "Random treatment assignment within a sample differs from sampling the target population and from actual participation among eligible people.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "It does not randomly select participants",
+      "sourceExcerptSHA256": "d6782c519ae2c5a107434a827698e0d1e6c02205a640457b7b766beeb4728f4e",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T02",
+      "family": "transportability-and-eligibility",
+      "requirement": "The fictional effect is a treatment-minus-control recurrence risk difference at three years from random assignment, with subgroup contrasts of minus 5 and minus 15 percentage points.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "recurrence by three years from assignment",
+      "sourceExcerptSHA256": "b395ec58779cb616de0c34172f7498c4c073f0d81eea742ff6a1a67a01a42310",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "assignedBodyIndex": 7,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T03",
+      "family": "transportability-and-eligibility",
+      "requirement": "A 50/50 trial mixture gives minus 10 points; an 80/20 target gives minus 7 only if the subgroup effects transport and relevant differences are addressed.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "0.8 × (−5) + 0.2 × (−15) = −7",
+      "sourceExcerptSHA256": "7487aac9de77732af4e8335c5b2feb977ebb71daa9889aee65a5059944e9c5a2",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "assignedBodyIndex": 7,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T04",
+      "family": "transportability-and-eligibility",
+      "requirement": "A missing relevant third group leaves its effect unknown; weighting cannot create overlap or validate sufficient bridging variables.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "weighting cannot invent its treatment response",
+      "sourceExcerptSHA256": "daddd6f656432a0f412715c44884d2122d75c9db1a5d22a1b938b8612a6c026d",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "assignedBodyIndex": 7,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T05",
+      "family": "transportability-and-eligibility",
+      "requirement": "The conditional weighted estimate proves neither eligibility nor enrollment nor personal benefit.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Protocol eligibility requires its own assessment",
+      "sourceExcerptSHA256": "1b36ecb737155137478f4d28ea5af42a11a4c49c2776eed7223367c042e9096f",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "assignedBodyIndex": 7,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T06",
+      "family": "transportability-and-eligibility",
+      "requirement": "Comparable treatment definitions, data, overlap, measured differences and exchangeability assumptions are required; adjustment cannot remove an unmeasured effect modifier.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "not fully established by a tidy adjusted plot",
+      "sourceExcerptSHA256": "eaa37953c6c265481e9d30ed71e7046516bd70978119112aea884db66d205df0",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-T07",
+      "family": "transportability-and-eligibility",
+      "requirement": "Prognosis and treatment-effect modification differ; baseline risk and the stated absolute or relative effect scale matter.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "The effect scale belongs",
+      "sourceExcerptSHA256": "86b6b230d55508c096520441d4bc225d41f91e90f3397ceae3dfa26ebab86cca",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K05",
+      "family": "transportability-and-eligibility",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+          "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+          "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V01",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "The fictional sequence finding is supported while activating interpretation and growth dependence remain unestablished.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "sequence supported; activating interpretation untested",
+      "sourceExcerptSHA256": "4d021142fc7de091f3bd8bc473c2d95b7ec31ca7a00d0d540e34cc5615bc4ccf",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "assignedBodyIndex": 11,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V02",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "A lower pathway signal with unchanged cell growth is a biochemical observation in the model, not demonstrated growth dependence.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "drug lowers a pathway signal while growth is unchanged",
+      "sourceExcerptSHA256": "4477c3a7f3e6037ff1883ef22c69d1accb7230da5e901be0496890b06f0f7394",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "assignedBodyIndex": 11,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V03",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "The observation alone verifies neither intended-target action nor matched clinical benefit; unchanged growth does not settle every drug effect.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "does not by itself verify action on the intended target",
+      "sourceExcerptSHA256": "651974a2a1b8c8cbcfff063650d6368190aba8f3e3e0caaadbfc85a580dd966c",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "assignedBodyIndex": 11,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V04",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Solid and dashed cards distinguish observations and inference gaps; their order organizes questions rather than prescribing compulsory experiment steps.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "not a mandatory experimental sequence",
+      "sourceExcerptSHA256": "3fd9ddb8b31855bfc168cba7fe04c0671fe270cfe840e35752f53e4b567bb5f3",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "assignedBodyIndex": 11,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V05",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "The qualitative fictional map supplies no actual variant, product, patient claim, exposure, effect size or clinical estimate.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "No variant, product or patient claim",
+      "sourceExcerptSHA256": "1b0aabcf3b3571488020e7043a07dfb5a19adbdde31506971ee31d1a365f4fc0",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "assignedBodyIndex": 11,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V06",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Functional assays must fit the mechanism; protein-only constructs can miss RNA processing and a normal measured function does not establish all relevant functions.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "may miss a variant's effects on",
+      "sourceExcerptSHA256": "78d4cefb181e85939ff472a3e7393de689f479d29f8b58d60f5a5b30ec20b551",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-V07",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Pathogenicity, cancer drug sensitivity, clinical evidence and access differ; shared annotations are not automatically independent experiments.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "causing disease and predicting a treatment response",
+      "sourceExcerptSHA256": "385cb7628f90676db3c7fcd8cdf032ac9cc6fb98403da8efcebf243e63dad2c2",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K06",
+      "family": "evidence-chain-variant-to-benefit",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+          "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+          "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F01",
+      "family": "reduction-is-not-regression",
+      "requirement": "The fictional control and treated volumes both start at 100 mm3; at day 28 the control is 1000 and treated 300 mm3.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "control and treated both start at 100",
+      "sourceExcerptSHA256": "07cae0190b2de9429d2ed468795b2484c7396e4fd5f367242b6ea0edff5f8d94",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "assignedBodyIndex": 16,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F02",
+      "family": "reduction-is-not-regression",
+      "requirement": "The treated volume is 70% below the concurrent control and three times its own starting size, a 200% increase rather than regression.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "a 200% increase",
+      "sourceExcerptSHA256": "9a841c2c2a11e3adfcc157eec7c1b7ca7560707d749c0589b4d7ab29e6339db2",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "assignedBodyIndex": 16,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F03",
+      "family": "reduction-is-not-regression",
+      "requirement": "The illustration is fictional and not to scale; slower relative growth alone establishes neither cell death, eradication, clinical response category nor benefit.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "the drawing is not to scale",
+      "sourceExcerptSHA256": "5941b74f4c180bb23d8b14c622f041e9c9f075aaaacc52facab7b1aba85d8941",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "assignedBodyIndex": 16,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F04",
+      "family": "reduction-is-not-regression",
+      "requirement": "Mouse tumor-volume percentages cannot be inserted into RECIST selected-lesion diameter rules.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Cubic millimeters and millimeters measure different quantities",
+      "sourceExcerptSHA256": "2b57fcce2e6ada77980b1a13254e4d8d32fda6d9cdbd2419b209f10ef8da07fe",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F05",
+      "family": "reduction-is-not-regression",
+      "requirement": "Baseline response, smallest-previous-sum progression and overall disease assessment are distinct reference rules.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A decrease in one lesion",
+      "sourceExcerptSHA256": "f8e104a90c28acce939f93e45023dd6224b2504cfed3447650ca9d303021a176",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-F06",
+      "family": "reduction-is-not-regression",
+      "requirement": "In the separate 100-to-60 example versus a 300 control, the 40% own-baseline decline and 80% below-control contrast answer different questions.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "The treated tumor is 40% below its own start",
+      "sourceExcerptSHA256": "a6b9cb2086596ff03e65d5e7f7f3cadffee8a44c789e40774806e1512ce7f64f",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K07",
+      "family": "reduction-is-not-regression",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "ba014a251afb28ce3f9ce8d0915aa416020df325b1464938a2542858900525ec",
+          "gitBlob": "b294ed592618659687f615181b0fe1940d8b2098"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "9549230e7ba9b58a761e6bb44c7295180653a092b32b6004ffd59519222290eb",
+          "gitBlob": "000eb908918d0efd6633a953f5fa4a0da090953d"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C01",
+      "family": "cross-trial-comparison",
+      "requirement": "The fictional subgroup fractions are A 40/80 and 4/20, B 12/20 and 24/80; the studies have opposite 80/20 baseline mixtures.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "40/80 = 50%",
+      "sourceExcerptSHA256": "1133ce4fce5e75e295457b487ffefc4c2f270561ef6709376f40f59b24fd8d48",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "assignedBodyIndex": 18,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C02",
+      "family": "cross-trial-comparison",
+      "requirement": "Adding response counts gives A 44/100 versus B 36/100, reversing the within-group ranking through composition.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "44/100 = 44%",
+      "sourceExcerptSHA256": "a57a525ef3d5877a03dba056e6e0f6bd37415a63915f92da94753615cf30e42f",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "assignedBodyIndex": 18,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C03",
+      "family": "cross-trial-comparison",
+      "requirement": "Neither the reversal nor adjustment for one measured feature establishes treatment superiority or removes between-study confounding.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "This arithmetic does **not** establish that B is better",
+      "sourceExcerptSHA256": "79e90d687937034bb578b7e271a314731fe2dafb294840eb369b3e44e396b66b",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "assignedBodyIndex": 18,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C04",
+      "family": "cross-trial-comparison",
+      "requirement": "A formal indirect comparison preserves within-trial treatment contrasts and needs an appropriate common comparator and compatible populations.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "retaining each trial's treatment-versus-control contrast",
+      "sourceExcerptSHA256": "b8963a515be7eaa03308d5ba16dbaf1427b340f0659443f6f7617f38cb08ed70",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C05",
+      "family": "cross-trial-comparison",
+      "requirement": "Network transitivity concerns effect modifiers and compatible dose, care, population and methods; statistical agreement alone cannot certify compatibility.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "transitivity",
+      "sourceExcerptSHA256": "eaa6b347bc9896529887c20c5ba1f331312d84667213cd6b59777fec8299e242",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-C06",
+      "family": "cross-trial-comparison",
+      "requirement": "Clinical endpoint, denominator, clock, comparator and follow-up differences prevent automatic rankings, including external survival contrasts.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "externally controlled survival contrasts",
+      "sourceExcerptSHA256": "d5432143eb7f13c392da2896eee008b2f736652d2dcc76344884519bdd6978e5",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "assignedBodyIndex": null,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P32-K08",
+      "family": "cross-trial-comparison",
+      "requirement": "Native figure text, fictional labels, theme content and matching parent captions are checked at both pinned identities. Render conventions and historical creation/review claims grant no expert, accessibility, causal or clinical credit.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+          "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+          "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7"
+        }
+      ],
+      "canonicalEvidence": null,
+      "scientificCredit": 0,
+      "independentAcceptance": false
+    }
+  ],
+  "counts": {
+    "total": 62,
+    "scientificOrPremiseBacked": 54,
+    "directConstructionTeaching": 32,
+    "constructionBoundary": 8
+  },
+  "mainCredit": 0,
+  "liveCredit": 0
+}

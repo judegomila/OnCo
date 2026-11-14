@@ -1,0 +1,315 @@
+{
+  "arithmeticChecks": [
+    {
+      "calculation": "5/20",
+      "result": "1/4",
+      "expected": "1/4",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "5/14",
+      "result": "5/14",
+      "expected": "5/14",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "5/10",
+      "result": "1/2",
+      "expected": "1/2",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "5/20 recurrence subset",
+      "result": "1/4",
+      "expected": "1/4",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "5/100 complete cohort",
+      "result": "1/20",
+      "expected": "1/20",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "8/20 scan-evaluable",
+      "result": "2/5",
+      "expected": "2/5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "8/40 enrolled",
+      "result": "1/5",
+      "expected": "1/5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "20/100 five-year group",
+      "result": "1/5",
+      "expected": "1/5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "10/100 separate calibration premise",
+      "result": "1/10",
+      "expected": "1/10",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "40/80",
+      "result": "1/2",
+      "expected": "1/2",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "4/20",
+      "result": "1/5",
+      "expected": "1/5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "12/20",
+      "result": "3/5",
+      "expected": "3/5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "24/80",
+      "result": "3/10",
+      "expected": "3/10",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "20 enrolled - 14 treated",
+      "result": "6",
+      "expected": "6",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "14 treated - 10 evaluable",
+      "result": "4",
+      "expected": "4",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "10 evaluable - 5 responses",
+      "result": "5",
+      "expected": "5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "6 - 4 years",
+      "result": "2",
+      "expected": "2",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "6 - 3 years",
+      "result": "3",
+      "expected": "3",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "0.5*(-5)+0.5*(-15)",
+      "result": "-10",
+      "expected": "-10",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "0.8*(-5)+0.2*(-15)",
+      "result": "-7",
+      "expected": "-7",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "(1000-300)/1000",
+      "result": "7/10",
+      "expected": "7/10",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "300/100",
+      "result": "3",
+      "expected": "3",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "(300-100)/100",
+      "result": "2",
+      "expected": "2",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "(100-60)/100",
+      "result": "2/5",
+      "expected": "2/5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "(300-60)/300",
+      "result": "4/5",
+      "expected": "4/5",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "40+4 responses",
+      "result": "44",
+      "expected": "44",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "12+24 responses",
+      "result": "36",
+      "expected": "36",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "0.8*0.5+0.2*0.2",
+      "result": "11/25",
+      "expected": "11/25",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "0.2*0.6+0.8*0.3",
+      "result": "9/25",
+      "expected": "9/25",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    }
+  ],
+  "arithmeticCheckCount": 29,
+  "portableCodeSHA256": "b7b5de061b73c7a2dd32a7f9c7b8687bf8d2e7e1b14800204d75c658ea2e5373",
+  "portableCodeExtraction": "Only the reviewed standalone Python before the production-specification boundary was run. No multipart body or private referenced path was executed.",
+  "generatorReproduction": [
+    {
+      "name": "analysis-population-denominators-v1-light.svg",
+      "bytes": 11341,
+      "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "exactPinnedBytesReproduced": true
+    },
+    {
+      "name": "analysis-population-denominators-v1-dark.svg",
+      "bytes": 11340,
+      "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "exactPinnedBytesReproduced": true
+    }
+  ],
+  "denominatorRows": [
+    {
+      "row": "enrolled",
+      "people": 20,
+      "categories": {
+        "observed-response": 5,
+        "evaluable-rule-not-met": 5,
+        "treated-no-evaluable-scan": 4,
+        "not-treated": 6
+      },
+      "responders": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ]
+    },
+    {
+      "row": "treated",
+      "people": 14,
+      "categories": {
+        "observed-response": 5,
+        "evaluable-rule-not-met": 5,
+        "treated-no-evaluable-scan": 4
+      },
+      "responders": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ]
+    },
+    {
+      "row": "evaluable",
+      "people": 10,
+      "categories": {
+        "observed-response": 5,
+        "evaluable-rule-not-met": 5
+      },
+      "responders": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05"
+      ]
+    }
+  ],
+  "groupGrid": {
+    "people": 100,
+    "eventDots": 20,
+    "otherDots": 80,
+    "sortedForCountingNotIdentity": true
+  },
+  "themeGeometry": [
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true
+    }
+  ],
+  "pngPixelPerfectEquivalenceClaimed": false,
+  "sourceBytesChanged": false,
+  "clinicalOrInferentialEffectEstablished": false
+}

@@ -1,0 +1,693 @@
+{
+  "version": "proposal-reasoning-tools-asset-summary-consumers-2026-11-14",
+  "state": "Current short-summary states; no text or language-review changes; not graph entities.",
+  "records": [
+    {
+      "id": "denominators-and-conditional-probability-es",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (es)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-es",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (es)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-es",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (es)",
+      "canonicalRecordId": "graph-reading",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-es",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (es)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-es",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (es)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-es",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (es)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-es",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (es)",
+      "canonicalRecordId": "preclinical",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-es",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (es)",
+      "canonicalRecordId": "calibration",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-zh",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (zh)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-zh",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (zh)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-zh",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (zh)",
+      "canonicalRecordId": "graph-reading",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-zh",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (zh)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-zh",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (zh)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-zh",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (zh)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-zh",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (zh)",
+      "canonicalRecordId": "preclinical",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-zh",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (zh)",
+      "canonicalRecordId": "calibration",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-pt",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (pt)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-pt",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (pt)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-pt",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (pt)",
+      "canonicalRecordId": "graph-reading",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-pt",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (pt)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-pt",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (pt)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-pt",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (pt)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-pt",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (pt)",
+      "canonicalRecordId": "preclinical",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-pt",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (pt)",
+      "canonicalRecordId": "calibration",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-hi",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (hi)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-hi",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (hi)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-hi",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (hi)",
+      "canonicalRecordId": "graph-reading",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-hi",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (hi)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-hi",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (hi)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-hi",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (hi)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-hi",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (hi)",
+      "canonicalRecordId": "preclinical",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-hi",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (hi)",
+      "canonicalRecordId": "calibration",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-fr",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (fr)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-fr",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (fr)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-fr",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (fr)",
+      "canonicalRecordId": "graph-reading",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-fr",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (fr)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-fr",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (fr)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-fr",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (fr)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-fr",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (fr)",
+      "canonicalRecordId": "preclinical",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-fr",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (fr)",
+      "canonicalRecordId": "calibration",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-de",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (de)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-de",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (de)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-de",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (de)",
+      "canonicalRecordId": "graph-reading",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-de",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (de)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-de",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (de)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-de",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (de)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-de",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (de)",
+      "canonicalRecordId": "preclinical",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-de",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (de)",
+      "canonicalRecordId": "calibration",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-ja",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (ja)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-ja",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ja)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ja",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ja)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-ja",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (ja)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ja",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ja)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-ja",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (ja)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-ja",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (ja)",
+      "canonicalRecordId": "preclinical",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-ja",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (ja)",
+      "canonicalRecordId": "calibration",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-ar",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (ar)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-ar",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (ar)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ar",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ar)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-ar",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (ar)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-ar",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (ar)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-ar",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (ar)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-ar",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (ar)",
+      "canonicalRecordId": "preclinical",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-ar",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (ar)",
+      "canonicalRecordId": "calibration",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "denominators-and-conditional-probability-simple",
+      "kind": "reader-summary-entry",
+      "name": "Denominators and conditional probability (simple)",
+      "canonicalRecordId": "denominators-and-conditional-probability",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "lead-time-bias-simple",
+      "kind": "reader-summary-entry",
+      "name": "Lead time, and lead-time bias (simple)",
+      "canonicalRecordId": "lead-time-bias",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-simple",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (simple)",
+      "canonicalRecordId": "graph-reading",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "population-versus-individual-risk-simple",
+      "kind": "reader-summary-entry",
+      "name": "Population versus individual risk (simple)",
+      "canonicalRecordId": "population-versus-individual-risk",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "cross-trial-comparison-simple",
+      "kind": "reader-summary-entry",
+      "name": "Cross-trial comparison (simple)",
+      "canonicalRecordId": "cross-trial-comparison",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "confidence-interval-simple",
+      "kind": "reader-summary-entry",
+      "name": "Confidence interval (simple)",
+      "canonicalRecordId": "confidence-interval",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "preclinical-simple",
+      "kind": "reader-summary-entry",
+      "name": "Preclinical (simple)",
+      "canonicalRecordId": "preclinical",
+      "language": "simple",
+      "available": true,
+      "text": "Laboratory and other model studies can help explain a treatment and guide human studies. A model response does not establish benefit for patients."
+    },
+    {
+      "id": "calibration-simple",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (simple)",
+      "canonicalRecordId": "calibration",
+      "language": "simple",
+      "available": true,
+      "text": "A risk estimate needs checking against what actually happens over the same time. A correct overall average can hide errors in lower- and higher-risk groups."
+    }
+  ],
+  "sources": [
+    {
+      "language": "es",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "zh",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "pt",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "hi",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "fr",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "de",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "ja",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "ar",
+      "selectedEntriesSha256": "f3ec0b42d9c86b082ff099605cedf82328d5c644149d9a47f689101b64cc8914"
+    },
+    {
+      "language": "simple",
+      "selectedEntriesSha256": "d01bf3fdcf45f7f07ab05c0604a1028c5982bc5a24d073e0a2dbf41fc1303915"
+    }
+  ],
+  "committedDataHead": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1"
+}

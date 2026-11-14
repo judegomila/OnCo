@@ -1,0 +1,40 @@
+{
+  "findings": [
+    {
+      "id": "P32-F01",
+      "finding": "The enrolled, treated and scan-evaluable rows contain the same five responses; unknown treated scans and untreated people are different groups.",
+      "disposition": "All native IDs/categories and 29 arithmetic checks pass; both public generator outputs exactly reproduce both pinned themes. The existing root field preserves these distinctions."
+    },
+    {
+      "id": "P32-F02",
+      "finding": "The 600-byte earlier-detection brief directly specifies a scientific comparison.",
+      "disposition": "Explicit supporting-to-teaching reassessment under the same full-body criterion as the seven other scientific briefs; earlier complete decision retained."
+    },
+    {
+      "id": "P32-F03",
+      "finding": "Three main teaching owners exist only in PR371.",
+      "disposition": "Exact actual peer fields and live unchanged head are retained with twenty proposal-only units, twelve of them direct construction units. No root duplicate or integration credit."
+    },
+    {
+      "id": "P32-F04",
+      "finding": "The later surveillance cross-reference generalizes earlier detection to both historical trials.",
+      "disposition": "Two freshly resolved and fully read abstracts confirm earlier detection in Rosselli only. The canonical field already carries the correction; original/later scopes remain separate."
+    },
+    {
+      "id": "P32-F05",
+      "finding": "Source metadata differs in collective-author order, print/online year, JAMA title detail and a legacy DOI response.",
+      "disposition": "All differences explicitly recorded. No remembered identifier or absent author metadata is promoted to a new citation or fact."
+    },
+    {
+      "id": "P32-F06",
+      "finding": "The denominator SVGs use CSS custom properties unsupported by the private rasterizer.",
+      "disposition": "Only private render copies substitute the declared palette. All sixteen themes are viewed whole; browser behavior, contrast and accessibility are not certified."
+    },
+    {
+      "id": "P32-F07",
+      "finding": "A diagnostic preview output was truncated and two private helper assumptions failed.",
+      "disposition": "Truncated previews received no reading credit. Complete bounded source blocks were subsequently read and acknowledged. Metadata comparisons were corrected to retain collective authors, online/print dates and documented JAMA details rather than flattening differences."
+    }
+  ],
+  "independentAcceptance": false
+}

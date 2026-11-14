@@ -1,0 +1,619 @@
+{
+  "decisions": [
+    {
+      "index": 0,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-D03",
+        "P32-D04",
+        "P32-D05",
+        "P32-D06",
+        "P32-D07",
+        "P32-D08"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 52817,
+          "sha256": "33098e9122dca10505b7e6bf4d7911af87bc17a6c38170b6587293c39ef09e56",
+          "gitBlob": "ef1c8eeb64e1c3fbcebdaf8c8d682de302be0463"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 52817,
+          "sha256": "33098e9122dca10505b7e6bf4d7911af87bc17a6c38170b6587293c39ef09e56",
+          "gitBlob": "ef1c8eeb64e1c3fbcebdaf8c8d682de302be0463"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 1,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-next-gap-096-independent-task-fit.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-next-gap-096-independent-task-fit.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 6640,
+          "sha256": "e445f8d6f52a56b25943a0f7ebabb716ad0b608b2437963b7103d6b5079d7198",
+          "gitBlob": "1a2928453812b8fe3639224413b8fc233ee42ee1"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-next-gap-096-independent-task-fit.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 6640,
+          "sha256": "e445f8d6f52a56b25943a0f7ebabb716ad0b608b2437963b7103d6b5079d7198",
+          "gitBlob": "1a2928453812b8fe3639224413b8fc233ee42ee1"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 2,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1373,
+          "sha256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+          "gitBlob": "a91bdebcb019fa362508af0cb881d188a89edf51"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1373,
+          "sha256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+          "gitBlob": "a91bdebcb019fa362508af0cb881d188a89edf51"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 3,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/five-questions-for-a-graph.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-G01",
+        "P32-G02",
+        "P32-G03",
+        "P32-G04"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/five-questions-for-a-graph.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 2943,
+          "sha256": "9c5d7253ec1c74c636f8dbcf99460eeeec3f253bed5abec5c368dd8b050487bb",
+          "gitBlob": "edd303a2c5aae498e781fe82b2e5fb3fb9b4cd73"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/five-questions-for-a-graph.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 2943,
+          "sha256": "9c5d7253ec1c74c636f8dbcf99460eeeec3f253bed5abec5c368dd8b050487bb",
+          "gitBlob": "edd303a2c5aae498e781fe82b2e5fb3fb9b4cd73"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 4,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4761,
+          "sha256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+          "gitBlob": "3934aa980bd6a82b63b91b6c7d090cd0d20a1e01"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4761,
+          "sha256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+          "gitBlob": "3934aa980bd6a82b63b91b6c7d090cd0d20a1e01"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 5,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-R01",
+        "P32-R02",
+        "P32-R03",
+        "P32-R04"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1813,
+          "sha256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+          "gitBlob": "788214003c8133f3c94115bd5e4035b3c572c96c"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1813,
+          "sha256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+          "gitBlob": "788214003c8133f3c94115bd5e4035b3c572c96c"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 6,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4816,
+          "sha256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+          "gitBlob": "d581d1e4ec34ee0ded8d126a2a482b88cc0f646e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4816,
+          "sha256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+          "gitBlob": "d581d1e4ec34ee0ded8d126a2a482b88cc0f646e"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 7,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-T02",
+        "P32-T03",
+        "P32-T04",
+        "P32-T05"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1982,
+          "sha256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+          "gitBlob": "881910f224075c6c03e0b3f37e84a0fba58ee96a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1982,
+          "sha256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+          "gitBlob": "881910f224075c6c03e0b3f37e84a0fba58ee96a"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 8,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/next-gap-024-combined19-current-owner-task-fit-continuity.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/next-gap-024-combined19-current-owner-task-fit-continuity.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 7760,
+          "sha256": "216355febb2b31b6efd78b604099c9dab47f34f2b12cdc9727b2221f22b26566",
+          "gitBlob": "68212699bd4d480d299c782f42bf74d1e1e21878"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/next-gap-024-combined19-current-owner-task-fit-continuity.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 7760,
+          "sha256": "216355febb2b31b6efd78b604099c9dab47f34f2b12cdc9727b2221f22b26566",
+          "gitBlob": "68212699bd4d480d299c782f42bf74d1e1e21878"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 9,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 7929,
+          "sha256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b",
+          "gitBlob": "59f7897f1995951656b4e07d5b900e547213a035"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 7929,
+          "sha256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b",
+          "gitBlob": "59f7897f1995951656b4e07d5b900e547213a035"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 10,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4087,
+          "sha256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+          "gitBlob": "6a4f7f716dda259feb7ad32a199c7a981eb220e6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4087,
+          "sha256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+          "gitBlob": "6a4f7f716dda259feb7ad32a199c7a981eb220e6"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 11,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-V01",
+        "P32-V02",
+        "P32-V03",
+        "P32-V04",
+        "P32-V05"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1023,
+          "sha256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+          "gitBlob": "76f926ef2d5b23f2f029d45a4ba0bbc6821e12fc"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1023,
+          "sha256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+          "gitBlob": "76f926ef2d5b23f2f029d45a4ba0bbc6821e12fc"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 12,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-167-teaching-route-current-owner-continuity-2026-10-15.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-167-teaching-route-current-owner-continuity-2026-10-15.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 11038,
+          "sha256": "5750493b94c4d6b2ef72bd6cd6d113cbbb0b4ea9e1f05bdb4959e0d54c13f962",
+          "gitBlob": "298015f8f4a4afc3ee57abd2a76f1012fbccaa15"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-167-teaching-route-current-owner-continuity-2026-10-15.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 11038,
+          "sha256": "5750493b94c4d6b2ef72bd6cd6d113cbbb0b4ea9e1f05bdb4959e0d54c13f962",
+          "gitBlob": "298015f8f4a4afc3ee57abd2a76f1012fbccaa15"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 13,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-244-independent-owner-review.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-244-independent-owner-review.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 13324,
+          "sha256": "00ccf40b013ad9d3f2a61c07ed07f25397acee630c7cdff4ae9aa92c2524c767",
+          "gitBlob": "b5126370be319b6232bfa391038bc6701bdc290d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-244-independent-owner-review.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 13324,
+          "sha256": "00ccf40b013ad9d3f2a61c07ed07f25397acee630c7cdff4ae9aa92c2524c767",
+          "gitBlob": "b5126370be319b6232bfa391038bc6701bdc290d"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 14,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-284-independent-new-owner-task-fit.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-284-independent-new-owner-task-fit.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 9330,
+          "sha256": "ed7ddb89399e99df10ef7bec641f43f69dd5079ca0a2274424f30148551e21fe",
+          "gitBlob": "863f896b2d68b317d415067e21cd4969175587e6"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-284-independent-new-owner-task-fit.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 9330,
+          "sha256": "ed7ddb89399e99df10ef7bec641f43f69dd5079ca0a2274424f30148551e21fe",
+          "gitBlob": "863f896b2d68b317d415067e21cd4969175587e6"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 15,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "review-custody-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 18447,
+          "sha256": "a9b5c7ac6668f543c51aa14bd885c49c82835198179b52e722c905c3cef61112",
+          "gitBlob": "a3c1bc52df93a52d6942beec9d86cd6ee677db46"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 18447,
+          "sha256": "a9b5c7ac6668f543c51aa14bd885c49c82835198179b52e722c905c3cef61112",
+          "gitBlob": "a3c1bc52df93a52d6942beec9d86cd6ee677db46"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 16,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/reduction-versus-regression.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-F01",
+        "P32-F02",
+        "P32-F03"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/reduction-versus-regression.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 4512,
+          "sha256": "ce975780fe61d44a2a03fc60e9b7aeae42590a42efec7263faf503a1e872ae40",
+          "gitBlob": "0099474347f7ce754859fa3c4c78408e8f4b0495"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/reduction-versus-regression.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 4512,
+          "sha256": "ce975780fe61d44a2a03fc60e9b7aeae42590a42efec7263faf503a1e872ae40",
+          "gitBlob": "0099474347f7ce754859fa3c4c78408e8f4b0495"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 17,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+      "scope": "supporting",
+      "priorScope": "unclassified",
+      "role": "authoring-provenance-support",
+      "reason": "The complete body records review or authoring custody. Its embedded captions and scientific assertions remain mapped dependencies, without support coverage points, independent review or approval credit.",
+      "requirements": [],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 2943,
+          "sha256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+          "gitBlob": "fc5e8ffbf6d48afce62163086b8ea474a9379743"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 2943,
+          "sha256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+          "gitBlob": "fc5e8ffbf6d48afce62163086b8ea474a9379743"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 18,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt",
+      "scope": "teaching",
+      "priorScope": "unclassified",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-C01",
+        "P32-C02",
+        "P32-C03"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1634,
+          "sha256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+          "gitBlob": "cff239e9282aef320adad835e2bf7f4fa31ecfd3"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1634,
+          "sha256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+          "gitBlob": "cff239e9282aef320adad835e2bf7f4fa31ecfd3"
+        }
+      ],
+      "explicitRoleCorrection": false,
+      "priorRoleRetainedInPacket": false,
+      "supportCoverageCredit": 0
+    },
+    {
+      "index": 19,
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "scope": "teaching",
+      "priorScope": "supporting",
+      "role": "scientific-construction-brief-or-portable-recipe",
+      "reason": "The complete body directly specifies scientific comparisons, fictional values or inference boundaries. Native construction and wider parent teaching are separately identified.",
+      "requirements": [
+        "P32-L01",
+        "P32-L02",
+        "P32-L03"
+      ],
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 600,
+          "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+          "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+          "priorAssetScope": "supporting",
+          "identityVerifiedAgainstCurrentPinnedLedger": true
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 600,
+          "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+          "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+          "priorAssetScope": "supporting",
+          "identityVerifiedAgainstCurrentPinnedLedger": true
+        }
+      ],
+      "explicitRoleCorrection": true,
+      "priorRoleRetainedInPacket": true,
+      "supportCoverageCredit": 0
+    }
+  ],
+  "initiallyUnclassifiedPaths": 19,
+  "additionalPreviouslySupportingPath": 1,
+  "assessedPaths": 20,
+  "assessedVersionEntries": 40,
+  "newTeachingFromUnclassifiedPerPin": 7,
+  "newSupportingFromUnclassifiedPerPin": 12,
+  "priorSupportingReclassifiedToTeachingPerPin": 1,
+  "netTeachingIncreasePerPin": 8,
+  "netSupportingIncreasePerPin": 11,
+  "ordinaryLessonGradesChanged": 0,
+  "scopeIsNotScientificOrOwnerApproval": true
+}

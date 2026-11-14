@@ -1,0 +1,74 @@
+[
+  {
+    "sourceId": "recist-2009",
+    "url": "https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf",
+    "captureSHA256": "baa2568abb1b41c23a943d34b7143e5fa4c9762857728c4af3bce85bfd47bae0",
+    "bytes": 778830,
+    "reuseOfDeclaredPriorReading": true,
+    "freshReadThisCohort": false,
+    "wholeDocumentRead": false,
+    "priorPublicPacket": "research/education-coverage-2026-11-08/endpoint-construction-assets-2026-11-14",
+    "depth": {
+      "pdfTextPages": [
+        1,
+        5,
+        6,
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "sourceId": "fda-endpoints-2018",
+    "url": "https://www.fda.gov/media/71195/download",
+    "captureSHA256": "811f805c74540541e69ce3b173eb028f0d7db213898a7cc0288a7bc67285a4dd",
+    "bytes": 149478,
+    "reuseOfDeclaredPriorReading": true,
+    "freshReadThisCohort": false,
+    "wholeDocumentRead": false,
+    "priorPublicPacket": "research/education-coverage-2026-11-08/endpoint-construction-assets-2026-11-14",
+    "depth": {
+      "pdfTextPages": [
+        1,
+        10,
+        12,
+        13
+      ]
+    }
+  },
+  {
+    "sourceId": "indirect-comparison",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9250266+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+    "captureSHA256": "db63e9bb1d200375626aad111b4c311240b0ba9b5f165e5d5ad5293b04dae28d",
+    "bytes": 5033,
+    "reuseOfDeclaredPriorReading": true,
+    "freshReadThisCohort": false,
+    "wholeDocumentRead": false,
+    "priorPublicPacket": "research/education-coverage-2026-11-08/study-design-construction-assets-2026-11-14",
+    "depth": {
+      "completeReturnedAbstract": true
+    }
+  },
+  {
+    "sourceId": "cochrane-11",
+    "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-11",
+    "captureSHA256": "d5ad89e0876cb92c7405e0e4ea4bf81a84140e5f3f10fc76eedcdd1fb9364c9b",
+    "bytes": 248946,
+    "reuseOfDeclaredPriorReading": true,
+    "freshReadThisCohort": false,
+    "wholeDocumentRead": false,
+    "priorPublicPacket": "research/education-coverage-2026-11-08/study-design-construction-assets-2026-11-14",
+    "depth": {
+      "paragraphs": [
+        81,
+        92,
+        93,
+        94,
+        95,
+        97,
+        98,
+        100
+      ]
+    }
+  }
+]

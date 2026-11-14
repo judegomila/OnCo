@@ -1,0 +1,80 @@
+[
+  {
+    "sourceId": "consort-explanation",
+    "abstractPresent": false,
+    "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fullAbstractReadAfterIntactOutput": false,
+    "noAbstractIsNotAbstractReading": true,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384200+00:00"
+  },
+  {
+    "sourceId": "superplots",
+    "abstractPresent": true,
+    "abstractRawSHA256": "18bb578d2b789cc247b16e6a1df020e3b222d8367cb410019f5ec410d1ecd55c",
+    "fullAbstractReadAfterIntactOutput": true,
+    "noAbstractIsNotAbstractReading": false,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384321+00:00"
+  },
+  {
+    "sourceId": "calibration",
+    "abstractPresent": true,
+    "abstractRawSHA256": "005d79e4d7db9343f9a3f21764a024e5116df539ba2ec2c2327427ff95293e89",
+    "fullAbstractReadAfterIntactOutput": true,
+    "noAbstractIsNotAbstractReading": false,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384325+00:00"
+  },
+  {
+    "sourceId": "tripod-cluster",
+    "abstractPresent": false,
+    "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fullAbstractReadAfterIntactOutput": false,
+    "noAbstractIsNotAbstractReading": true,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384327+00:00"
+  },
+  {
+    "sourceId": "transport",
+    "abstractPresent": true,
+    "abstractRawSHA256": "26f0a8ba196df86f8d8f463a44a414cb485df9739018dc814a36e533fcdd7108",
+    "fullAbstractReadAfterIntactOutput": true,
+    "noAbstractIsNotAbstractReading": false,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384330+00:00"
+  },
+  {
+    "sourceId": "functional-variant",
+    "abstractPresent": true,
+    "abstractRawSHA256": "82f1f9601d718c59f9491546fc4ee2a7541911d457730a4ee911de7f2532a3e4",
+    "fullAbstractReadAfterIntactOutput": true,
+    "noAbstractIsNotAbstractReading": false,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384333+00:00"
+  },
+  {
+    "sourceId": "escat",
+    "abstractPresent": true,
+    "abstractRawSHA256": "d465f6d08ea473e88749247d86c30c1f6c23d914ec36d85e67e2ee6b1f8fffb5",
+    "fullAbstractReadAfterIntactOutput": true,
+    "noAbstractIsNotAbstractReading": false,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384335+00:00"
+  },
+  {
+    "sourceId": "ctrak",
+    "abstractPresent": true,
+    "abstractRawSHA256": "bd1f48cf9bd37795d126e912544e5e013c78dff034e79fea7eee894874cdcfb5",
+    "fullAbstractReadAfterIntactOutput": true,
+    "noAbstractIsNotAbstractReading": false,
+    "acknowledgedAtUTC": "2026-11-14T19:58:36.384340+00:00"
+  },
+  {
+    "sourceId": "rosselli",
+    "abstractPresent": true,
+    "abstractRawSHA256": "75241d540270c4feeae6908e88386721ae74a71876863dfc684ffe4695875442",
+    "fullAbstractReadAfterIntactOutput": true,
+    "acknowledgedAtUTC": "2026-11-14T20:06:19.135363+00:00"
+  },
+  {
+    "sourceId": "givio",
+    "abstractPresent": true,
+    "abstractRawSHA256": "1c84b21de75343e0b9607eacfed12555d3e8196ddf9fea8980cdfe985bd2dd03",
+    "fullAbstractReadAfterIntactOutput": true,
+    "acknowledgedAtUTC": "2026-11-14T20:06:19.135477+00:00"
+  }
+]

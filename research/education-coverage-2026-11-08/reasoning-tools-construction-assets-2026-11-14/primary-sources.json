@@ -1,0 +1,1793 @@
+{
+  "identities": [
+    {
+      "sourceId": "consort-explanation",
+      "title": "CONSORT 2025 explanation and elaboration: updated guideline for reporting randomised trials.",
+      "authors": "Hopewell S, Chan AW, Collins GS, Hróbjartsson A, Moher D, Schulz KF, Tunn R, Aggarwal R, Berkwits M, Berlin JA, Bhandari N, Butcher NJ, Campbell MK, Chidebe RCW, Elbourne D, Farmer A, Fergusson DA, Golub RM, Goodman SN, Hoffmann TC, Ioannidis JPA, Kahan BC, Knowles RL, Lamb SE, Lewis S, Loder E, Offringa M, Ravaud P, Richards DP, Rockhold FW, Schriger DL, Siegfried NL, Staniszewska S, Taylor RS, Thabane L, Torgerson D, Vohra S, White IR, Boutron I.",
+      "year": "2025",
+      "doi": "10.1136/bmj-2024-081124",
+      "pmid": "40228832",
+      "pmcid": "PMC11995452",
+      "reading": {
+        "sourceId": "consort-explanation",
+        "abstractPresent": false,
+        "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fullAbstractReadAfterIntactOutput": false,
+        "noAbstractIsNotAbstractReading": true,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384200+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "superplots",
+      "title": "SuperPlots: Communicating reproducibility and variability in cell biology.",
+      "authors": "Lord SJ, Velle KB, Mullins RD, Fritz-Laylin LK.",
+      "year": "2020",
+      "doi": "10.1083/jcb.202001064",
+      "pmid": "32346721",
+      "pmcid": "PMC7265319",
+      "reading": {
+        "sourceId": "superplots",
+        "abstractPresent": true,
+        "abstractRawSHA256": "18bb578d2b789cc247b16e6a1df020e3b222d8367cb410019f5ec410d1ecd55c",
+        "fullAbstractReadAfterIntactOutput": true,
+        "noAbstractIsNotAbstractReading": false,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384321+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "calibration",
+      "title": "Calibration: the Achilles heel of predictive analytics.",
+      "authors": "Van Calster B, McLernon DJ, van Smeden M, Wynants L, Steyerberg EW, Topic Group ‘Evaluating diagnostic tests and prediction models’ of the STRATOS initiative.",
+      "year": "2019",
+      "doi": "10.1186/s12916-019-1466-7",
+      "pmid": "31842878",
+      "pmcid": "PMC6912996",
+      "reading": {
+        "sourceId": "calibration",
+        "abstractPresent": true,
+        "abstractRawSHA256": "005d79e4d7db9343f9a3f21764a024e5116df539ba2ec2c2327427ff95293e89",
+        "fullAbstractReadAfterIntactOutput": true,
+        "noAbstractIsNotAbstractReading": false,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384325+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "tripod-cluster",
+      "title": "Transparent reporting of multivariable prediction models developed or validated using clustered data (TRIPOD-Cluster): explanation and elaboration.",
+      "authors": "Debray TPA, Collins GS, Riley RD, Snell KIE, Van Calster B, Reitsma JB, Moons KGM.",
+      "year": "2023",
+      "doi": "10.1136/bmj-2022-071058",
+      "pmid": "36750236",
+      "pmcid": "PMC9903176",
+      "reading": {
+        "sourceId": "tripod-cluster",
+        "abstractPresent": false,
+        "abstractRawSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fullAbstractReadAfterIntactOutput": false,
+        "noAbstractIsNotAbstractReading": true,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384327+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "transport",
+      "title": "Study Designs for Extending Causal Inferences From a Randomized Trial to a Target Population.",
+      "authors": "Dahabreh IJ, Haneuse SJA, Robins JM, Robertson SE, Buchanan AL, Stuart EA, Hernán MA.",
+      "year": "2021",
+      "doi": "10.1093/aje/kwaa270",
+      "pmid": "33324969",
+      "pmcid": "PMC8536837",
+      "reading": {
+        "sourceId": "transport",
+        "abstractPresent": true,
+        "abstractRawSHA256": "26f0a8ba196df86f8d8f463a44a414cb485df9739018dc814a36e533fcdd7108",
+        "fullAbstractReadAfterIntactOutput": true,
+        "noAbstractIsNotAbstractReading": false,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384330+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "functional-variant",
+      "title": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+      "authors": "Brnich SE, Abou Tayoun AN, Couch FJ, Cutting GR, Greenblatt MS, Heinen CD, Kanavy DM, Luo X, McNulty SM, Starita LM, Tavtigian SV, Wright MW, Harrison SM, Biesecker LG, Berg JS, Clinical Genome Resource Sequence Variant Interpretation Working Group.",
+      "year": "2019",
+      "doi": "10.1186/s13073-019-0690-2",
+      "pmid": "31892348",
+      "pmcid": "PMC6938631",
+      "reading": {
+        "sourceId": "functional-variant",
+        "abstractPresent": true,
+        "abstractRawSHA256": "82f1f9601d718c59f9491546fc4ee2a7541911d457730a4ee911de7f2532a3e4",
+        "fullAbstractReadAfterIntactOutput": true,
+        "noAbstractIsNotAbstractReading": false,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384333+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "escat",
+      "title": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+      "authors": "Mateo J, Chakravarty D, Dienstmann R, Jezdic S, Gonzalez-Perez A, Lopez-Bigas N, Ng CKY, Bedard PL, Tortora G, Douillard JY, Van Allen EM, Schultz N, Swanton C, André F, Pusztai L.",
+      "year": "2018",
+      "doi": "10.1093/annonc/mdy263",
+      "pmid": "30137196",
+      "pmcid": "PMC6158764",
+      "reading": {
+        "sourceId": "escat",
+        "abstractPresent": true,
+        "abstractRawSHA256": "d465f6d08ea473e88749247d86c30c1f6c23d914ec36d85e67e2ee6b1f8fffb5",
+        "fullAbstractReadAfterIntactOutput": true,
+        "noAbstractIsNotAbstractReading": false,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384335+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "ctrak",
+      "title": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer.",
+      "authors": "Turner NC, Swift C, Jenkins B, Kilburn L, Coakley M, Beaney M, Fox L, Goddard K, Garcia-Murillas I, Proszek P, Hall P, Harper-Wynne C, Hickish T, Kernaghan S, Macpherson IR, Okines AFC, Palmieri C, Perry S, Randle K, Snowdon C, Stobart H, Wardley AM, Wheatley D, Waters S, Winter MC, Hubank M, Allen SD, Bliss JM, c-TRAK TN investigators.",
+      "year": "2023",
+      "doi": "10.1016/j.annonc.2022.11.005",
+      "pmid": "36423745",
+      "pmcid": null,
+      "reading": {
+        "sourceId": "ctrak",
+        "abstractPresent": true,
+        "abstractRawSHA256": "bd1f48cf9bd37795d126e912544e5e013c78dff034e79fea7eee894874cdcfb5",
+        "fullAbstractReadAfterIntactOutput": true,
+        "noAbstractIsNotAbstractReading": false,
+        "acknowledgedAtUTC": "2026-11-14T19:58:36.384340+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "rosselli",
+      "title": "Intensive diagnostic follow-up after treatment of primary breast cancer. A randomized trial. National Research Council Project on Breast Cancer follow-up.",
+      "authors": "Rosselli Del Turco M, Palli D, Cariddi A, Ciatto S, Pacini P, Distante V.",
+      "year": "1994",
+      "doi": "10.1001/jama.271.20.1593",
+      "pmid": "7848404",
+      "pmcid": null,
+      "reading": {
+        "sourceId": "rosselli",
+        "abstractPresent": true,
+        "abstractRawSHA256": "75241d540270c4feeae6908e88386721ae74a71876863dfc684ffe4695875442",
+        "fullAbstractReadAfterIntactOutput": true,
+        "acknowledgedAtUTC": "2026-11-14T20:06:19.135363+00:00"
+      },
+      "wholePaperRead": false
+    },
+    {
+      "sourceId": "givio",
+      "title": "Impact of follow-up testing on survival and health-related quality of life in breast cancer patients. A multicenter randomized controlled trial. The GIVIO Investigators.",
+      "authors": null,
+      "year": "1994",
+      "doi": "10.1001/jama.1994.03510440047031",
+      "pmid": "8182811",
+      "pmcid": null,
+      "reading": {
+        "sourceId": "givio",
+        "abstractPresent": true,
+        "abstractRawSHA256": "1c84b21de75343e0b9607eacfed12555d3e8196ddf9fea8980cdfe985bd2dd03",
+        "fullAbstractReadAfterIntactOutput": true,
+        "acknowledgedAtUTC": "2026-11-14T20:06:19.135477+00:00"
+      },
+      "wholePaperRead": false
+    }
+  ],
+  "identityChecks": {
+    "checks": [
+      {
+        "sourceId": "consort-explanation",
+        "queriedDOI": "10.1136/bmj-2024-081124",
+        "CrossrefCanonicalDOI": "10.1136/bmj-2024-081124",
+        "pmid": "40228832",
+        "pmcid": "PMC11995452",
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2025",
+        "CrossrefPublicationDates": {
+          "published-online": [
+            2025,
+            4,
+            14
+          ],
+          "published": [
+            2025,
+            4,
+            14
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "superplots",
+        "queriedDOI": "10.1083/jcb.202001064",
+        "CrossrefCanonicalDOI": "10.1083/jcb.202001064",
+        "pmid": "32346721",
+        "pmcid": "PMC7265319",
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2020",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            2020,
+            6,
+            1
+          ],
+          "published-online": [
+            2020,
+            4,
+            28
+          ],
+          "published": [
+            2020,
+            4,
+            28
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "calibration",
+        "queriedDOI": "10.1186/s12916-019-1466-7",
+        "CrossrefCanonicalDOI": "10.1186/s12916-019-1466-7",
+        "pmid": "31842878",
+        "pmcid": "PMC6912996",
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": true,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2019",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            2019,
+            12
+          ],
+          "published-online": [
+            2019,
+            12,
+            16
+          ],
+          "published": [
+            2019,
+            12
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "tripod-cluster",
+        "queriedDOI": "10.1136/bmj-2022-071058",
+        "CrossrefCanonicalDOI": "10.1136/bmj-2022-071058",
+        "pmid": "36750236",
+        "pmcid": "PMC9903176",
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2023",
+        "CrossrefPublicationDates": {
+          "published-online": [
+            2023,
+            2,
+            7
+          ],
+          "published": [
+            2023,
+            2,
+            7
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "transport",
+        "queriedDOI": "10.1093/aje/kwaa270",
+        "CrossrefCanonicalDOI": "10.1093/aje/kwaa270",
+        "pmid": "33324969",
+        "pmcid": "PMC8536837",
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2021",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            2021,
+            8,
+            1
+          ],
+          "published-online": [
+            2020,
+            12,
+            16
+          ],
+          "published": [
+            2020,
+            12,
+            16
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [
+          "The published transport article was online in December 2020 and printed in 2021; the May 2019 preprint is separate."
+        ],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "functional-variant",
+        "queriedDOI": "10.1186/s13073-019-0690-2",
+        "CrossrefCanonicalDOI": "10.1186/s13073-019-0690-2",
+        "pmid": "31892348",
+        "pmcid": "PMC6938631",
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": true,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2019",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            2020,
+            12
+          ],
+          "published-online": [
+            2019,
+            12,
+            31
+          ],
+          "published": [
+            2019,
+            12,
+            31
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [
+          "Brnich was online in 2019 and appears in the 2020 collection; both dates are retained."
+        ],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "escat",
+        "queriedDOI": "10.1093/annonc/mdy263",
+        "CrossrefCanonicalDOI": "10.1093/annonc/mdy263",
+        "pmid": "30137196",
+        "pmcid": "PMC6158764",
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2018",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            2018,
+            9
+          ],
+          "published": [
+            2018,
+            9
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "ctrak",
+        "queriedDOI": "10.1016/j.annonc.2022.11.005",
+        "CrossrefCanonicalDOI": "10.1016/j.annonc.2022.11.005",
+        "pmid": "36423745",
+        "pmcid": null,
+        "fullNormalizedTitleAgrees": true,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "2023",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            2023,
+            2
+          ],
+          "published": [
+            2023,
+            2
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "rosselli",
+        "queriedDOI": "10.1001/jama.271.20.1593",
+        "CrossrefCanonicalDOI": "10.1001/jama.1994.03510440053032",
+        "pmid": "7848404",
+        "pmcid": null,
+        "fullNormalizedTitleAgrees": false,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": true,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": null,
+        "EuropePMCYear": "1994",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            1994,
+            5,
+            25
+          ],
+          "published": [
+            1994,
+            5,
+            25
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [
+          "Crossref accepts the legacy JAMA DOI query and returns a canonical DOI with matching core title, volume, issue, starting page, year and named-author family.",
+          "Crossref has a shorter core title; Europe PMC appends trial and collective-author details."
+        ],
+        "wholeTextOrRetractionClearanceInferred": false
+      },
+      {
+        "sourceId": "givio",
+        "queriedDOI": "10.1001/jama.1994.03510440047031",
+        "CrossrefCanonicalDOI": "10.1001/jama.1994.03510440047031",
+        "pmid": "8182811",
+        "pmcid": null,
+        "fullNormalizedTitleAgrees": false,
+        "coreTitleAndBibliographicCoordinatesAgree": true,
+        "firstNamedAuthorAgrees": null,
+        "collectiveAuthorPrecedesNamedAuthors": false,
+        "authorMetadataLimit": "Europe PMC omits authorString and names the GIVIO Investigators in the title; Crossref supplies P. Ghezzi.",
+        "EuropePMCYear": "1994",
+        "CrossrefPublicationDates": {
+          "published-print": [
+            1994,
+            5,
+            25
+          ],
+          "published": [
+            1994,
+            5,
+            25
+          ]
+        },
+        "printOrOnlineYearAgrees": true,
+        "metadataDispositions": [
+          "Crossref has a shorter core title; Europe PMC appends trial and collective-author details."
+        ],
+        "wholeTextOrRetractionClearanceInferred": false
+      }
+    ],
+    "distinctPublicationsResolved": 10,
+    "primaryAssignedPublicationIdentities": 8,
+    "supplementalHistoricalSurveillanceIdentities": 2,
+    "allUsedIdentifiersResolvedBeforeUse": true,
+    "metadataDifferencesExplicit": true,
+    "claimsRestrictedToReadText": true
+  },
+  "paragraphReading": [
+    {
+      "sourceId": "consort-randomized",
+      "paragraph": 7,
+      "tag": "h2",
+      "paragraphSHA256": "371bf7456e2da61012cf570e2b5eba3e64d4bca6b93c068d26e3da2627758b61",
+      "captureSHA256": "69a9787115269edd07d2888562d9414a1dcdb00da9a548469bc187a419387fcf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.412317+00:00"
+    },
+    {
+      "sourceId": "consort-randomized",
+      "paragraph": 14,
+      "tag": "p",
+      "paragraphSHA256": "11b2c538a0252e1dc082213b9a6c68b39e62b8fad23ecd60215f5abc6188ccf1",
+      "captureSHA256": "69a9787115269edd07d2888562d9414a1dcdb00da9a548469bc187a419387fcf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.412429+00:00"
+    },
+    {
+      "sourceId": "consort-randomized",
+      "paragraph": 15,
+      "tag": "p",
+      "paragraphSHA256": "6778959e1536b7bad3eb87cc49d7bef385f54613f532061619524402f29f944a",
+      "captureSHA256": "69a9787115269edd07d2888562d9414a1dcdb00da9a548469bc187a419387fcf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.412432+00:00"
+    },
+    {
+      "sourceId": "consort-randomized",
+      "paragraph": 16,
+      "tag": "p",
+      "paragraphSHA256": "40f58ee63106f7348f852f45771ed6b3301df56ffbb4e2c56554ebeb1ac115f5",
+      "captureSHA256": "69a9787115269edd07d2888562d9414a1dcdb00da9a548469bc187a419387fcf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.412434+00:00"
+    },
+    {
+      "sourceId": "consort-randomized",
+      "paragraph": 17,
+      "tag": "p",
+      "paragraphSHA256": "6542a044930b84d43b3ab7c3fc8871f2db4143817b1a4d535963d6bfbea6b4a9",
+      "captureSHA256": "69a9787115269edd07d2888562d9414a1dcdb00da9a548469bc187a419387fcf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.412435+00:00"
+    },
+    {
+      "sourceId": "consort-randomized",
+      "paragraph": 18,
+      "tag": "p",
+      "paragraphSHA256": "4d3b213c291b6679df59706b18c6119d526ab5be77f80d32371e382b3e977a9a",
+      "captureSHA256": "69a9787115269edd07d2888562d9414a1dcdb00da9a548469bc187a419387fcf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.412437+00:00"
+    },
+    {
+      "sourceId": "consort-missing",
+      "paragraph": 15,
+      "tag": "p",
+      "paragraphSHA256": "53f49ef5f83e4f4043140eb5024254e837ffa22e6b628b3d2ab4c438c2d38ed8",
+      "captureSHA256": "ef2d712a65e541fb277652b5c98e897ad344d0f9c5997faf36a9cd39f36b750d",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.431486+00:00"
+    },
+    {
+      "sourceId": "consort-missing",
+      "paragraph": 16,
+      "tag": "p",
+      "paragraphSHA256": "1513ef6ca2f010aa22b445c02e98e7399e5d177f99e9fb92579ba459899c922d",
+      "captureSHA256": "ef2d712a65e541fb277652b5c98e897ad344d0f9c5997faf36a9cd39f36b750d",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.431591+00:00"
+    },
+    {
+      "sourceId": "consort-missing",
+      "paragraph": 17,
+      "tag": "p",
+      "paragraphSHA256": "6c43493b10f376325941f7804972f2b8ac3cfa10753277fba192cfc685046e75",
+      "captureSHA256": "ef2d712a65e541fb277652b5c98e897ad344d0f9c5997faf36a9cd39f36b750d",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.431595+00:00"
+    },
+    {
+      "sourceId": "consort-missing",
+      "paragraph": 18,
+      "tag": "p",
+      "paragraphSHA256": "62026bc26f7d107ff4a1abd16b16dee631d9203297759d2e3234d5860bc6d61f",
+      "captureSHA256": "ef2d712a65e541fb277652b5c98e897ad344d0f9c5997faf36a9cd39f36b750d",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.431596+00:00"
+    },
+    {
+      "sourceId": "consort-missing",
+      "paragraph": 19,
+      "tag": "p",
+      "paragraphSHA256": "e735fb0e284513b9524aeeaf8ea058f1c8b548f184dbe9e85aed1b4c72e4ee9f",
+      "captureSHA256": "ef2d712a65e541fb277652b5c98e897ad344d0f9c5997faf36a9cd39f36b750d",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.431598+00:00"
+    },
+    {
+      "sourceId": "consort-analysed",
+      "paragraph": 17,
+      "tag": "p",
+      "paragraphSHA256": "8fb61b55c627cbef6ea0ee54832c43a85244797cf7f6e2ab3ab1cb8ac4c9d929",
+      "captureSHA256": "54ceac6577ba59b788f0ea6bdeff0cb10e1c42a5851020a2f3751c13d8a4559c",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.450174+00:00"
+    },
+    {
+      "sourceId": "consort-analysed",
+      "paragraph": 18,
+      "tag": "p",
+      "paragraphSHA256": "7e861e43db8434400879f8be972f1cad6dcc30c608ea694ba2e9cf05dc7cc11d",
+      "captureSHA256": "54ceac6577ba59b788f0ea6bdeff0cb10e1c42a5851020a2f3751c13d8a4559c",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.450268+00:00"
+    },
+    {
+      "sourceId": "consort-analysed",
+      "paragraph": 19,
+      "tag": "p",
+      "paragraphSHA256": "afaa8b96b359241acc7e1cf04806d31d53cf327153c5f444179db6425cb733bf",
+      "captureSHA256": "54ceac6577ba59b788f0ea6bdeff0cb10e1c42a5851020a2f3751c13d8a4559c",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.450271+00:00"
+    },
+    {
+      "sourceId": "consort-analysed",
+      "paragraph": 20,
+      "tag": "p",
+      "paragraphSHA256": "ded338b3ce6861ef1050fda95bd6de1e6a21e4e480fc72b10677aef87d6f86d3",
+      "captureSHA256": "54ceac6577ba59b788f0ea6bdeff0cb10e1c42a5851020a2f3751c13d8a4559c",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.450273+00:00"
+    },
+    {
+      "sourceId": "consort-analysed",
+      "paragraph": 21,
+      "tag": "p",
+      "paragraphSHA256": "c4e44f98ff6d52317f643c62eca0e7a4e25c1d042c3d42e7d6f587647d90446e",
+      "captureSHA256": "54ceac6577ba59b788f0ea6bdeff0cb10e1c42a5851020a2f3751c13d8a4559c",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:34.450274+00:00"
+    },
+    {
+      "sourceId": "functional-variant-html",
+      "paragraph": 74,
+      "tag": "p",
+      "paragraphSHA256": "fb365f30b3041938854c7e5650813215d2a6178732b28953f2ea723b8ae8aade",
+      "captureSHA256": "fe8ddae33b388cf151331871913d1593e6a33d74d99a6c3752491ba47e154986",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.393783+00:00"
+    },
+    {
+      "sourceId": "functional-variant-html",
+      "paragraph": 79,
+      "tag": "p",
+      "paragraphSHA256": "93fd60632a9877b3ff9152884220c33e722c9065592df63d9725f351121f9a89",
+      "captureSHA256": "fe8ddae33b388cf151331871913d1593e6a33d74d99a6c3752491ba47e154986",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.393890+00:00"
+    },
+    {
+      "sourceId": "functional-variant-html",
+      "paragraph": 81,
+      "tag": "p",
+      "paragraphSHA256": "1f832f93a2ea98952e6a0718fc77dfcffa4a393b88c2525af8e73a30d25eeb98",
+      "captureSHA256": "fe8ddae33b388cf151331871913d1593e6a33d74d99a6c3752491ba47e154986",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.393894+00:00"
+    },
+    {
+      "sourceId": "functional-variant-html",
+      "paragraph": 82,
+      "tag": "p",
+      "paragraphSHA256": "154fc2c1eda87a6b8830810ac0b92025bc3bbb1a2ff0880521697f2bb1f48283",
+      "captureSHA256": "fe8ddae33b388cf151331871913d1593e6a33d74d99a6c3752491ba47e154986",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.393895+00:00"
+    },
+    {
+      "sourceId": "functional-variant-html",
+      "paragraph": 91,
+      "tag": "p",
+      "paragraphSHA256": "3b03fe9ef8b007918c84f121ce3e25b945eaa936204e73408440beb969be043d",
+      "captureSHA256": "fe8ddae33b388cf151331871913d1593e6a33d74d99a6c3752491ba47e154986",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.393897+00:00"
+    },
+    {
+      "sourceId": "functional-variant-html",
+      "paragraph": 92,
+      "tag": "p",
+      "paragraphSHA256": "04798f915fb799f3f5ef03123f6feaf0fd6835ab8d74cd9d1bd095135d5c3a26",
+      "captureSHA256": "fe8ddae33b388cf151331871913d1593e6a33d74d99a6c3752491ba47e154986",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.393899+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 37,
+      "tag": "p",
+      "paragraphSHA256": "5a5e736224ce7a905dcf3518bcedf69b05a0067c71a537f8645ef93e2b83277e",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.412153+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 38,
+      "tag": "p",
+      "paragraphSHA256": "9aa0fb064aa9ea68b3610e9b293c73f386565dc802cf9184ba4c8ac28ae67d61",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.412249+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 41,
+      "tag": "p",
+      "paragraphSHA256": "7a0c05d858959f420945330d2c303d0d2015e52530e754b3a918607589bdbb79",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.412252+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 42,
+      "tag": "p",
+      "paragraphSHA256": "a1a12fc3eb43cbd9e50a4514529ae62bb688b1139a1ce4691bbf45fe3dc8df2b",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.412254+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 44,
+      "tag": "p",
+      "paragraphSHA256": "76cfed03aa91071a78bb429c454bcd707595813619ae1e0c52ec9dc065fffa21",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.412256+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 45,
+      "tag": "p",
+      "paragraphSHA256": "61f1132d8b1a2d45f17caae6275c23c756d9b63eb3e75afe1b59785da6eb1992",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T19:59:50.412257+00:00"
+    },
+    {
+      "sourceId": "calibration-html",
+      "paragraph": 42,
+      "tag": "p",
+      "paragraphSHA256": "32b9d47276574ca4efef0156bd36b1480c2600ea078890db42a93e93b7915010",
+      "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.879825+00:00"
+    },
+    {
+      "sourceId": "calibration-html",
+      "paragraph": 47,
+      "tag": "p",
+      "paragraphSHA256": "37703367d9126871e3696d70e92d6e15f4b64c225a3700c9e17489dddee207da",
+      "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.879923+00:00"
+    },
+    {
+      "sourceId": "calibration-html",
+      "paragraph": 53,
+      "tag": "p",
+      "paragraphSHA256": "3a1647202306b9b59fd88e75d6f1a67049fb1e5adbec3590826645c69cd2857a",
+      "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.879927+00:00"
+    },
+    {
+      "sourceId": "calibration-html",
+      "paragraph": 57,
+      "tag": "p",
+      "paragraphSHA256": "9b55f6d17e8e921a1ede3732cf11f42411526639c983e6e9239dae2adf5f371b",
+      "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.879930+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 50,
+      "tag": "p",
+      "paragraphSHA256": "87bce909d10cf78a37f952fa1c445f7c30b7d3335ecfaf9f6c61d559ff3ed7c0",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.898004+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 54,
+      "tag": "p",
+      "paragraphSHA256": "36098a916becfb3fd5c1ebe746a73361b8ec395f974a29a3e7eaeba99a2d7bb5",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.898090+00:00"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "paragraph": 55,
+      "tag": "p",
+      "paragraphSHA256": "bd295b0b127910f101766b914fda89e5af9c0251307efd23709929ccc39049f9",
+      "captureSHA256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.898093+00:00"
+    },
+    {
+      "sourceId": "tripod-cluster-html",
+      "paragraph": 48,
+      "tag": "p",
+      "paragraphSHA256": "0bb51bbb21fb92ac38e99831c43a36328b21e0c877037485317e92bcf843fe1d",
+      "captureSHA256": "d29be00bf8801c8e12f58f5155b71df9d8c2c72f6f33f42fc24bbfae68e7b911",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.915529+00:00"
+    },
+    {
+      "sourceId": "tripod-cluster-html",
+      "paragraph": 49,
+      "tag": "p",
+      "paragraphSHA256": "747adbd1ede5a449a11a6c2b1f3bb734feff69f38a14a76332e483e6599bf385",
+      "captureSHA256": "d29be00bf8801c8e12f58f5155b71df9d8c2c72f6f33f42fc24bbfae68e7b911",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.915622+00:00"
+    },
+    {
+      "sourceId": "tripod-cluster-html",
+      "paragraph": 52,
+      "tag": "p",
+      "paragraphSHA256": "2fda491ccf87150895c657fec8abae7a8e464414d70e8fd1f6d97cc577a65f58",
+      "captureSHA256": "d29be00bf8801c8e12f58f5155b71df9d8c2c72f6f33f42fc24bbfae68e7b911",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.915625+00:00"
+    },
+    {
+      "sourceId": "tripod-cluster-html",
+      "paragraph": 57,
+      "tag": "p",
+      "paragraphSHA256": "a42c4141cfdd5c4ee6c0de7191ce6b82a12abe661a64da08dd124895bc67f98c",
+      "captureSHA256": "d29be00bf8801c8e12f58f5155b71df9d8c2c72f6f33f42fc24bbfae68e7b911",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.915627+00:00"
+    },
+    {
+      "sourceId": "tripod-cluster-html",
+      "paragraph": 58,
+      "tag": "p",
+      "paragraphSHA256": "e4405c4fb7dc72f22af9ec2819d4a5366c37797a832af436585a8517baef8c02",
+      "captureSHA256": "d29be00bf8801c8e12f58f5155b71df9d8c2c72f6f33f42fc24bbfae68e7b911",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.915629+00:00"
+    },
+    {
+      "sourceId": "tripod-cluster-html",
+      "paragraph": 60,
+      "tag": "p",
+      "paragraphSHA256": "3f02379fa8cd74c60a9c3b4d882128fd6da722896b8bf8c6c64616ca2c8b1d27",
+      "captureSHA256": "d29be00bf8801c8e12f58f5155b71df9d8c2c72f6f33f42fc24bbfae68e7b911",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:17.915631+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 2,
+      "tag": null,
+      "paragraphSHA256": "592a5585b5eeddc02cce794ae9a6963ce0f394e38a00df4cb45100c4bd02e750",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617597+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 3,
+      "tag": "h1",
+      "paragraphSHA256": "3d41be9a3d6bfce8f268d1e518628baf2c11f0ae5515e9cd6f2571d395b4c8b2",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617710+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 5,
+      "tag": "p",
+      "paragraphSHA256": "1789ad0217c22f8fa5f3936df0672d41376352c42cb14b6dca64523be9cd8a2f",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617714+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 10,
+      "tag": "p",
+      "paragraphSHA256": "03a668fccc47203a9038d9bd03bd3435176263bb0bc929903889cd24cc1c3c4c",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617716+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 36,
+      "tag": "h3",
+      "paragraphSHA256": "5465520329afad065d1f9ed1810d5a3f33d37d0e6d704797544d9caa8a9a89f9",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617719+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 38,
+      "tag": "p",
+      "paragraphSHA256": "37217e10536f3274e676606bbd23d9035805331b2f78230252044b0991064af6",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617721+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 39,
+      "tag": "p",
+      "paragraphSHA256": "356da5f70db09b5360c9945afb264062f056a059083feb6f1acb0e5bdcc384f3",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617723+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 40,
+      "tag": "p",
+      "paragraphSHA256": "0ffaf39ccc24a69cffcb864b328afd83b4498f0de086c0e97dc5dc7e4739b974",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617725+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 41,
+      "tag": "p",
+      "paragraphSHA256": "2f1e09a1c417339416ee3ed4d7a14d3e03aff23e0728132e192608cdf1a668ff",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617727+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 42,
+      "tag": "p",
+      "paragraphSHA256": "88bba404008d34e075d717be7911d9167aa3b50395fc757f9a2188168694dde7",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617729+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 43,
+      "tag": "p",
+      "paragraphSHA256": "e30359a27d3c782c8c8935f0cb668f24e17ee8598b914179035b90dc810f0756",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617731+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 44,
+      "tag": "h3",
+      "paragraphSHA256": "a2e9c74c2bb428426f844569b05df2a8b011d36a7aba6344f3f77894a56c9e9a",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617734+00:00"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "paragraph": 45,
+      "tag": "p",
+      "paragraphSHA256": "e2dd5a828e0afd969e74a8915a1e7cf33aca8486b2264067ab3382d9bbe0ed8a",
+      "captureSHA256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.617736+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 41,
+      "tag": "p",
+      "paragraphSHA256": "18e87231930d62211ce1303b1e0e91fc82d78455ee83dd3e9b184242e071f8a6",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636061+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 70,
+      "tag": "p",
+      "paragraphSHA256": "461fadb24b6cb97e6cc62882ff1e52096b10702b8f1c45f6483d7a98a717497e",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636160+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 71,
+      "tag": "p",
+      "paragraphSHA256": "33101c37f2a51bc7651b6676a50d3dc229815bdf0936c95a3ba9cad478f6b84d",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636164+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 72,
+      "tag": "p",
+      "paragraphSHA256": "26a107fdd4705e606937a893a023b6a05cceb98d8f40bbc7441a4660b3b430a1",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636167+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 73,
+      "tag": "p",
+      "paragraphSHA256": "7c2c31fb139912978f0a59bc2647f228879da1d90c2b2e3fee435ef824a8bdcd",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636169+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 74,
+      "tag": "p",
+      "paragraphSHA256": "6c3dc3640142ceaecb23c20be5d3200367cf6610cfc0ce2c41f06cacf858104a",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636172+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 75,
+      "tag": "p",
+      "paragraphSHA256": "cbf2736016843bd8b1ab4bada6e7dc388b265e07b15753778e4ce282d3689188",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636174+00:00"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "paragraph": 78,
+      "tag": "p",
+      "paragraphSHA256": "f4765cab7b7086117e9b42019724cfaee2a5556be5f46d282ebf4f277727039e",
+      "captureSHA256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.636176+00:00"
+    },
+    {
+      "sourceId": "nci-prognosis",
+      "paragraph": 25,
+      "tag": "p",
+      "paragraphSHA256": "10fb298d7f1aea89b4f9ebdf2816f01f7a93c0b2f9f876661f20d66e20a0b820",
+      "captureSHA256": "d796393f367c16c0d352e0cf98eb921d6847a92e2edc07fef5f362b5e49f007f",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.653657+00:00"
+    },
+    {
+      "sourceId": "nci-prognosis",
+      "paragraph": 30,
+      "tag": "p",
+      "paragraphSHA256": "f7a82ac883ab4d2366a7e6d6a0b73aeb94608f1d564cacedac4f6701d171863f",
+      "captureSHA256": "d796393f367c16c0d352e0cf98eb921d6847a92e2edc07fef5f362b5e49f007f",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.653763+00:00"
+    },
+    {
+      "sourceId": "nci-prognosis",
+      "paragraph": 31,
+      "tag": "p",
+      "paragraphSHA256": "a151cda5025551d66c7396315a3ca54b66aa6afd147d365b4e128467972fb6d8",
+      "captureSHA256": "d796393f367c16c0d352e0cf98eb921d6847a92e2edc07fef5f362b5e49f007f",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.653768+00:00"
+    },
+    {
+      "sourceId": "nci-prognosis",
+      "paragraph": 36,
+      "tag": "p",
+      "paragraphSHA256": "b3f0f000f635f52d2c73e49111c6a77bd90e0ec35cb792db04766dfa8755f407",
+      "captureSHA256": "d796393f367c16c0d352e0cf98eb921d6847a92e2edc07fef5f362b5e49f007f",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:59.653771+00:00"
+    },
+    {
+      "sourceId": "nci-bias",
+      "paragraph": 8,
+      "tag": "p",
+      "paragraphSHA256": "329745bb4f349268b8ad9261a769f3c2c3eda73ec8863bb70f8ddf60a0a2bc5e",
+      "captureSHA256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.613839+00:00"
+    },
+    {
+      "sourceId": "nci-bias",
+      "paragraph": 9,
+      "tag": "p",
+      "paragraphSHA256": "96bc239584fbd21ccfab341dd9bd663aec8e1b0e68309f32650d8c4a37b376d3",
+      "captureSHA256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.613934+00:00"
+    },
+    {
+      "sourceId": "nci-bias",
+      "paragraph": 10,
+      "tag": "p",
+      "paragraphSHA256": "df0d1285e98990d4c8bfa6bfe68598012d44732323116e43d439257a03c2128b",
+      "captureSHA256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.613938+00:00"
+    },
+    {
+      "sourceId": "nci-bias",
+      "paragraph": 18,
+      "tag": "p",
+      "paragraphSHA256": "08dde51987537fd7e43c0b647aa7daeacb97e67e4f44a0a61a67478004fc696e",
+      "captureSHA256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.613941+00:00"
+    },
+    {
+      "sourceId": "nci-bias",
+      "paragraph": 19,
+      "tag": "p",
+      "paragraphSHA256": "0a54e36cbb74cd604d60e53a1bfb16cc52d473854ff7d2d6a14dbca92e3eff79",
+      "captureSHA256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.613944+00:00"
+    },
+    {
+      "sourceId": "nci-bias",
+      "paragraph": 20,
+      "tag": "p",
+      "paragraphSHA256": "e852d6d3b66f562ad3e83b8752143bc1b0d30372b42de98acba3a1c1ebeccc40",
+      "captureSHA256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.613948+00:00"
+    },
+    {
+      "sourceId": "nci-bias",
+      "paragraph": 26,
+      "tag": "p",
+      "paragraphSHA256": "2c34e160338d195f3b21fa1e1c5849d9339b615c62f3e2c212fcce6dd26911b5",
+      "captureSHA256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.613951+00:00"
+    },
+    {
+      "sourceId": "nci-eligibility",
+      "paragraph": 56,
+      "tag": "p",
+      "paragraphSHA256": "d682200d9574e72cfe0cdd57fa46cda31d5ae39ea2b48df157aa5d5b6f8e6099",
+      "captureSHA256": "547e4f161a9c662b636a06cb020baf1ff0c893ac1d282e464ddae5050fb89aaa",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.633511+00:00"
+    },
+    {
+      "sourceId": "nci-eligibility",
+      "paragraph": 57,
+      "tag": "p",
+      "paragraphSHA256": "3603147d008980e11648ecf14ad11dd57641884084da50bc65dbacd25542f9c3",
+      "captureSHA256": "547e4f161a9c662b636a06cb020baf1ff0c893ac1d282e464ddae5050fb89aaa",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.633612+00:00"
+    },
+    {
+      "sourceId": "nci-eligibility",
+      "paragraph": 64,
+      "tag": "p",
+      "paragraphSHA256": "809bdb6bb970d85739f887e843f9e2dcd1213bd0bfd651ed141b9d8022cb4f5e",
+      "captureSHA256": "547e4f161a9c662b636a06cb020baf1ff0c893ac1d282e464ddae5050fb89aaa",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.633617+00:00"
+    },
+    {
+      "sourceId": "nci-eligibility",
+      "paragraph": 65,
+      "tag": "p",
+      "paragraphSHA256": "507294bcbadcb337fb5154326ef943326301f08740ffc560900fde545e0193a7",
+      "captureSHA256": "547e4f161a9c662b636a06cb020baf1ff0c893ac1d282e464ddae5050fb89aaa",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.633620+00:00"
+    },
+    {
+      "sourceId": "nci-eligibility",
+      "paragraph": 66,
+      "tag": "p",
+      "paragraphSHA256": "03a2d3355a4b90fd5666335703d6b34d531bd805c08198be4096774039ce281b",
+      "captureSHA256": "547e4f161a9c662b636a06cb020baf1ff0c893ac1d282e464ddae5050fb89aaa",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.633624+00:00"
+    },
+    {
+      "sourceId": "nci-eligibility",
+      "paragraph": 67,
+      "tag": "p",
+      "paragraphSHA256": "7b04d61715be4ab26afa0a735b4c8cdba822ef67d74b269c2cd238322610f6a2",
+      "captureSHA256": "547e4f161a9c662b636a06cb020baf1ff0c893ac1d282e464ddae5050fb89aaa",
+      "readInFullAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.633627+00:00"
+    }
+  ],
+  "pdfReading": [
+    {
+      "sourceId": "what-if-2026-pdf",
+      "pdfPage": 19,
+      "pageTextSHA256": "caed18b26bacb8663bd7067d1f28e73624634f3a40f557d88156524fd33763f2",
+      "captureSHA256": "a1067af923e9156bb95fbe4b0d18699bd0723e9c902bdc74465cf7782820b1b5",
+      "pdfTextReadAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:38.062456+00:00"
+    },
+    {
+      "sourceId": "what-if-2026-pdf",
+      "pdfPage": 20,
+      "pageTextSHA256": "879db119bc7114a55a6ee162392e188834103d5fa3f1994a7a38b6ab06545c69",
+      "captureSHA256": "a1067af923e9156bb95fbe4b0d18699bd0723e9c902bdc74465cf7782820b1b5",
+      "pdfTextReadAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:00:38.062581+00:00"
+    },
+    {
+      "sourceId": "fda-ctdna-2024-pdf",
+      "pdfPage": 1,
+      "pageTextSHA256": "53dcf173ae1a40f89cddf4c0b0582d4f55cd9f320f4e70b8d7f2b8692bf57b87",
+      "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+      "pdfTextReadAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.652116+00:00"
+    },
+    {
+      "sourceId": "fda-ctdna-2024-pdf",
+      "pdfPage": 6,
+      "pageTextSHA256": "3e3da2bca74ab765c1b2cca46249159854f2ad06593092873403faa28c233e49",
+      "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+      "pdfTextReadAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.652236+00:00"
+    },
+    {
+      "sourceId": "fda-ctdna-2024-pdf",
+      "pdfPage": 8,
+      "pageTextSHA256": "86342da809b5aebf90e550885c68a4e242b32b4e7f97ceaa517ce76f4b663b49",
+      "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+      "pdfTextReadAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:01:45.652243+00:00"
+    },
+    {
+      "sourceId": "fda-ctdna-2024-pdf",
+      "pdfPage": 7,
+      "pageTextSHA256": "68da86fdc30acfdc5a69773424db10321052e30c034cb632563ca348ab27715d",
+      "captureSHA256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e",
+      "pdfTextReadAfterIntactOutput": true,
+      "wholeDocumentRead": false,
+      "acknowledgedAtUTC": "2026-11-14T20:02:43.012520+00:00"
+    }
+  ],
+  "inheritedSources": [
+    {
+      "sourceId": "recist-2009",
+      "url": "https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf",
+      "captureSHA256": "baa2568abb1b41c23a943d34b7143e5fa4c9762857728c4af3bce85bfd47bae0",
+      "bytes": 778830,
+      "reuseOfDeclaredPriorReading": true,
+      "freshReadThisCohort": false,
+      "wholeDocumentRead": false,
+      "priorPublicPacket": "research/education-coverage-2026-11-08/endpoint-construction-assets-2026-11-14",
+      "depth": {
+        "pdfTextPages": [
+          1,
+          5,
+          6,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "sourceId": "fda-endpoints-2018",
+      "url": "https://www.fda.gov/media/71195/download",
+      "captureSHA256": "811f805c74540541e69ce3b173eb028f0d7db213898a7cc0288a7bc67285a4dd",
+      "bytes": 149478,
+      "reuseOfDeclaredPriorReading": true,
+      "freshReadThisCohort": false,
+      "wholeDocumentRead": false,
+      "priorPublicPacket": "research/education-coverage-2026-11-08/endpoint-construction-assets-2026-11-14",
+      "depth": {
+        "pdfTextPages": [
+          1,
+          10,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "sourceId": "indirect-comparison",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9250266+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "captureSHA256": "db63e9bb1d200375626aad111b4c311240b0ba9b5f165e5d5ad5293b04dae28d",
+      "bytes": 5033,
+      "reuseOfDeclaredPriorReading": true,
+      "freshReadThisCohort": false,
+      "wholeDocumentRead": false,
+      "priorPublicPacket": "research/education-coverage-2026-11-08/study-design-construction-assets-2026-11-14",
+      "depth": {
+        "completeReturnedAbstract": true
+      }
+    },
+    {
+      "sourceId": "cochrane-11",
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-11",
+      "captureSHA256": "d5ad89e0876cb92c7405e0e4ea4bf81a84140e5f3f10fc76eedcdd1fb9364c9b",
+      "bytes": 248946,
+      "reuseOfDeclaredPriorReading": true,
+      "freshReadThisCohort": false,
+      "wholeDocumentRead": false,
+      "priorPublicPacket": "research/education-coverage-2026-11-08/study-design-construction-assets-2026-11-14",
+      "depth": {
+        "paragraphs": [
+          81,
+          92,
+          93,
+          94,
+          95,
+          97,
+          98,
+          100
+        ]
+      }
+    }
+  ],
+  "captures": [
+    {
+      "sourceId": "calibration-crossref",
+      "url": "https://api.crossref.org/works/10.1186%2Fs12916-019-1466-7",
+      "capturedAtUTC": "2026-11-14T19:55:09.312456+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1186%2Fs12916-019-1466-7",
+      "contentType": "application/json",
+      "bytes": 21398,
+      "sha256": "35643cbf05c3ec3639a18b8745da4e8b778d92f801d7571fc2d8420a87dc3b26"
+    },
+    {
+      "sourceId": "calibration-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs12916-019-1466-7%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:09.051177+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1186%2Fs12916-019-1466-7%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 8290,
+      "sha256": "d80e689ec14a46cafd1126c3e73a058cda9c55d76a177bbd97d7b5fad3372605"
+    },
+    {
+      "sourceId": "calibration-html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912996/",
+      "capturedAtUTC": "2026-11-14T19:57:50.735990+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6912996/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 168447,
+      "sha256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf"
+    },
+    {
+      "sourceId": "consort-analysed",
+      "url": "https://www.consort-spirit.org/item-26-numbers-analysed",
+      "capturedAtUTC": "2026-11-14T19:55:27.374931+00:00",
+      "status": 200,
+      "finalURL": "https://www.consort-spirit.org/item-26-numbers-analysed",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 614373,
+      "sha256": "54ceac6577ba59b788f0ea6bdeff0cb10e1c42a5851020a2f3751c13d8a4559c"
+    },
+    {
+      "sourceId": "consort-explanation-crossref",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj-2024-081124",
+      "capturedAtUTC": "2026-11-14T19:55:08.419949+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj-2024-081124",
+      "contentType": "application/json",
+      "bytes": 82096,
+      "sha256": "c11faec4505f864d3e3399ca96e4a8afac51d99d24725128cc0a050d68cf0bd5"
+    },
+    {
+      "sourceId": "consort-explanation-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2024-081124%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:08.419883+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2024-081124%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 17263,
+      "sha256": "c66cbb85072fb4f906cf04cac930d524633bccacc5e2eba09fc51f87281a99db"
+    },
+    {
+      "sourceId": "consort-missing",
+      "url": "https://www.consort-spirit.org/item21c-missingdata",
+      "capturedAtUTC": "2026-11-14T19:55:27.228092+00:00",
+      "status": 200,
+      "finalURL": "https://www.consort-spirit.org/item21c-missingdata",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 621256,
+      "sha256": "ef2d712a65e541fb277652b5c98e897ad344d0f9c5997faf36a9cd39f36b750d"
+    },
+    {
+      "sourceId": "consort-randomized",
+      "url": "https://www.consort-spirit.org/item-22a-randomized",
+      "capturedAtUTC": "2026-11-14T19:55:27.062622+00:00",
+      "status": 200,
+      "finalURL": "https://www.consort-spirit.org/item-22a-randomized",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 608544,
+      "sha256": "69a9787115269edd07d2888562d9414a1dcdb00da9a548469bc187a419387fcf"
+    },
+    {
+      "sourceId": "ctrak-crossref",
+      "url": "https://api.crossref.org/works/10.1016%2Fj.annonc.2022.11.005",
+      "capturedAtUTC": "2026-11-14T19:55:26.775825+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1016%2Fj.annonc.2022.11.005",
+      "contentType": "application/json",
+      "bytes": 15857,
+      "sha256": "0083e5963148dff0fa54674fbaa746abe363c2245e1afebd40a3ad97bfb9f2d4"
+    },
+    {
+      "sourceId": "ctrak-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.annonc.2022.11.005%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:26.663740+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.annonc.2022.11.005%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 15896,
+      "sha256": "2fcf11126cc4762ef320ba4ef54ce73425e724eae3b1c1170e4c6397f664e9c1"
+    },
+    {
+      "sourceId": "escat-crossref",
+      "url": "https://api.crossref.org/works/10.1093%2Fannonc%2Fmdy263",
+      "capturedAtUTC": "2026-11-14T19:57:51.610320+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1093%2Fannonc%2Fmdy263",
+      "contentType": "application/json",
+      "bytes": 24238,
+      "sha256": "9fbf31bc0f02e1b22d38096300079dbe74f27207851f7b6251a77d9e25b2af35"
+    },
+    {
+      "sourceId": "escat-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30137196+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:16.849244+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30137196+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 13780,
+      "sha256": "c771b1deb219588d3f2be1d441ac5a8ede4b9e2e66e0e65abb0718e497b8724f"
+    },
+    {
+      "sourceId": "fda-ctdna-2024-pdf",
+      "url": "https://www.fda.gov/media/183874/download",
+      "capturedAtUTC": "2026-11-14T19:57:51.074818+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/183874/download",
+      "contentType": "application/pdf",
+      "bytes": 310689,
+      "sha256": "4d978a73e7f5bc3f1c57235f85271c98f83c571cd6c44e0e87172f7f2a89ec4e"
+    },
+    {
+      "sourceId": "functional-variant-crossref",
+      "url": "https://api.crossref.org/works/10.1186%2Fs13073-019-0690-2",
+      "capturedAtUTC": "2026-11-14T19:57:51.596944+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1186%2Fs13073-019-0690-2",
+      "contentType": "application/json",
+      "bytes": 26416,
+      "sha256": "ec051011916c6c9ab35b407cded245d8d2ca4254f84c42f3f7d7fa75aec6c186"
+    },
+    {
+      "sourceId": "functional-variant-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC6938631&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:10.531907+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC6938631&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 15054,
+      "sha256": "3a7d89fcbb12524684b802826fda53292fdcfb5860cb80c54907bc92415ad791"
+    },
+    {
+      "sourceId": "functional-variant-html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/",
+      "capturedAtUTC": "2026-11-14T19:55:28.797800+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 210170,
+      "sha256": "fe8ddae33b388cf151331871913d1593e6a33d74d99a6c3752491ba47e154986"
+    },
+    {
+      "sourceId": "givio-crossref",
+      "url": "https://api.crossref.org/works/10.1001%2Fjama.1994.03510440047031",
+      "capturedAtUTC": "2026-11-14T20:07:16.903166+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1001%2Fjama.1994.03510440047031",
+      "contentType": "application/json",
+      "bytes": 1888,
+      "sha256": "473ad8d8ddb3d2ca0e213a9086b26b3666a02c3509abc70166e702e900226fe4"
+    },
+    {
+      "sourceId": "givio-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8182811+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T20:01:45.746088+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8182811+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6832,
+      "sha256": "233109006e01ae11d7304d74ef55904611a964d08927d890fcd0623fb0b95e58"
+    },
+    {
+      "sourceId": "nci-bias",
+      "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean",
+      "capturedAtUTC": "2026-11-14T19:55:27.765395+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 50173,
+      "sha256": "80a2534a2609f29f23a13b1bc6994e322d72567c571a741fb11e4f52f0ede573"
+    },
+    {
+      "sourceId": "nci-eligibility",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps",
+      "capturedAtUTC": "2026-11-14T19:57:51.269449+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/research/participate/clinical-trials-search/steps",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 55809,
+      "sha256": "547e4f161a9c662b636a06cb020baf1ff0c893ac1d282e464ddae5050fb89aaa"
+    },
+    {
+      "sourceId": "nci-prognosis",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis",
+      "capturedAtUTC": "2026-11-14T19:55:27.517816+00:00",
+      "status": 200,
+      "finalURL": "https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 48944,
+      "sha256": "d796393f367c16c0d352e0cf98eb921d6847a92e2edc07fef5f362b5e49f007f"
+    },
+    {
+      "sourceId": "rosselli-crossref",
+      "url": "https://api.crossref.org/works/10.1001%2Fjama.271.20.1593",
+      "capturedAtUTC": "2026-11-14T20:07:16.902915+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1001/jama.1994.03510440053032",
+      "contentType": "application/json",
+      "bytes": 1824,
+      "sha256": "7669d33e67ced57a7012bce212b7241a09000e3c7f1d37d50852350f2679f19e"
+    },
+    {
+      "sourceId": "rosselli-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7848404+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T20:01:45.746358+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A7848404+AND+SRC%3AMED&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 7114,
+      "sha256": "47a87c0df9fd61f02004056ecb5141510de87d3658f8ed2a56e2c3d9436e6499"
+    },
+    {
+      "sourceId": "superplots-crossref",
+      "url": "https://api.crossref.org/works/10.1083%2Fjcb.202001064",
+      "capturedAtUTC": "2026-11-14T19:55:08.822672+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1083%2Fjcb.202001064",
+      "contentType": "application/json",
+      "bytes": 10700,
+      "sha256": "de82fb3158a3d70b8a8cd6c84db352881e68cbf021cd76b75899873388415ef3"
+    },
+    {
+      "sourceId": "superplots-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1083%2Fjcb.202001064%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:08.419591+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1083%2Fjcb.202001064%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5471,
+      "sha256": "9a0cf183cd9a655185b515d637c87a132a6e8d275dafe5b8b75e33905d16af24"
+    },
+    {
+      "sourceId": "superplots-html",
+      "url": "https://rupress.org/jcb/article/219/6/e202001064/151674/SuperPlots-Communicating-reproducibility-and",
+      "capturedAtUTC": "2026-11-14T19:55:29.161373+00:00",
+      "status": 403,
+      "error": "HTTP Error 403: Forbidden",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5823,
+      "sha256": "3716ea0830f876689d135bfbba4bcc02ace50f74b68f8d8fd613fd7479033a88"
+    },
+    {
+      "sourceId": "superplots-pmc",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7265319/",
+      "capturedAtUTC": "2026-11-14T19:57:50.735701+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7265319/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 150572,
+      "sha256": "0ecd48f357c1816af575f3e426fa118e7afe7d2f1ee2b10f3647c0b4a7e1ec31"
+    },
+    {
+      "sourceId": "transport-crossref",
+      "url": "https://api.crossref.org/works/10.1093%2Faje%2Fkwaa270",
+      "capturedAtUTC": "2026-11-14T19:57:51.303277+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1093%2Faje%2Fkwaa270",
+      "contentType": "application/json",
+      "bytes": 17189,
+      "sha256": "e0cd56e985dbec2612c7f4bada4c0ba36de1e9b3265d19397a3b7651eb8cf78b"
+    },
+    {
+      "sourceId": "transport-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC8536837&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:09.902190+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMCID%3APMC8536837&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 5353,
+      "sha256": "420b5a7b49985bffc0d00edc991544a300656d3de7f3f38774bb243602175f9c"
+    },
+    {
+      "sourceId": "transport-published-html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8536837/",
+      "capturedAtUTC": "2026-11-14T19:55:28.552434+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8536837/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 211975,
+      "sha256": "d7cfdf1f6fc42ccfa98b6032c8076d05922d972cf39bc41874a92de1a48f7692"
+    },
+    {
+      "sourceId": "transport-v1-html",
+      "url": "https://arxiv.org/html/1905.07764v1",
+      "capturedAtUTC": "2026-11-14T19:55:28.380134+00:00",
+      "status": 200,
+      "finalURL": "https://arxiv.org/html/1905.07764v1",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 311562,
+      "sha256": "f622fbc94cdc704b6bd772fe0654d9e9a4ceb2542ee01249860e85813ddfea57"
+    },
+    {
+      "sourceId": "tripod-cluster-crossref",
+      "url": "https://api.crossref.org/works/10.1136%2Fbmj-2022-071058",
+      "capturedAtUTC": "2026-11-14T19:55:09.609391+00:00",
+      "status": 200,
+      "finalURL": "https://api.crossref.org/works/10.1136%2Fbmj-2022-071058",
+      "contentType": "application/json",
+      "bytes": 30810,
+      "sha256": "b36f0ee560c0e062cae158112a2d72e62d778c3f1ad436b9c098f3c341fc2589"
+    },
+    {
+      "sourceId": "tripod-cluster-epmc",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2022-071058%22&format=json&resultType=core&pageSize=10",
+      "capturedAtUTC": "2026-11-14T19:55:09.400328+00:00",
+      "status": 200,
+      "finalURL": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1136%2Fbmj-2022-071058%22&format=json&resultType=core&pageSize=10",
+      "contentType": "application/json;charset=UTF-8",
+      "bytes": 6116,
+      "sha256": "c6d2867793b2b068b74ff9b21bf73adede20b303bfb4c68606a9a2e561bc0b51"
+    },
+    {
+      "sourceId": "tripod-cluster-html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9903176/",
+      "capturedAtUTC": "2026-11-14T19:57:50.736110+00:00",
+      "status": 200,
+      "finalURL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9903176/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 600903,
+      "sha256": "d29be00bf8801c8e12f58f5155b71df9d8c2c72f6f33f42fc24bbfae68e7b911"
+    },
+    {
+      "sourceId": "what-if-2026-pdf",
+      "url": "https://miguelhernan.org/s/hernanrobins_WhatIf_19aug26.pdf",
+      "capturedAtUTC": "2026-11-14T19:57:51.011421+00:00",
+      "status": 200,
+      "finalURL": "https://static1.squarespace.com/static/675db8b0dd37046447128f5f/t/6a86cf7ecfcb6b4ca8eea5cb/1787219838424/hernanrobins_WhatIf_19aug26.pdf",
+      "contentType": "application/pdf",
+      "bytes": 11315465,
+      "sha256": "a1067af923e9156bb95fbe4b0d18699bd0723e9c902bdc74465cf7782820b1b5"
+    },
+    {
+      "sourceId": "what-if-landing",
+      "url": "https://miguelhernan.org/whatifbook",
+      "capturedAtUTC": "2026-11-14T19:55:27.863574+00:00",
+      "status": 200,
+      "finalURL": "https://miguelhernan.org/whatifbook",
+      "contentType": "text/html;charset=utf-8",
+      "bytes": 744701,
+      "sha256": "b8fc21fd9fe9f71255a061f265c36627de7b73949277bbb1a823eb98289a05fe"
+    }
+  ],
+  "completeReturnedAbstractsRead": 8,
+  "acknowledgedHTMLBlocks": 79,
+  "completeFreshPDFTextPages": 6,
+  "wholeDocumentsRead": 0,
+  "identityIsNotEntailment": true,
+  "newElicitResults": 0,
+  "directElicitToolCallable": false,
+  "limits": [
+    "Only the eight complete returned abstracts, 79 acknowledged HTML blocks and six complete PDF text pages have fresh reading credit. The arXiv abstract is a separately acknowledged HTML block, not an additional publication.",
+    "Four prior sources reuse exact private capture hashes and their earlier depth: RECIST, FDA 2018 endpoints, Bucher and eight Cochrane blocks. No fresh or whole-document reading is inferred.",
+    "The SuperPlots publisher route returned a challenge; the legal PMC article was read instead. No challenge was bypassed.",
+    "Published transport HTML omits inline mathematical symbols in text extraction; its prose assumptions and the separate v1 text are distinguished.",
+    "Crossref lists consortium authors before named authors on two records. Print/online years, the shorter JAMA titles, the accepted legacy Rosselli DOI query, and absent GIVIO authorString are explicitly reconciled.",
+    "Untested claim-map bridges and all numerical examples remain premise-backed teaching, not empirical clinical results. Retained legacy assertions outside the named requirements are not recertified."
+  ]
+}

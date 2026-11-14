@@ -1,0 +1,109 @@
+{
+  "reads": [
+    {
+      "id": "denominators-and-conditional-probability",
+      "version": "root",
+      "recordSHA256": "c5b5b0652b7d67e8fa9d2c6ad240d19b322988f7e492eb933cbd4520ed937319",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:55:47.894144+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "lead-time-bias",
+      "version": "root",
+      "recordSHA256": "31d0349eb98e08728460ca1511f2c1c0d610c1f68d9d0ac2a84459fe7828d00b",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:55:55.999217+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "graph-reading",
+      "version": "root",
+      "recordSHA256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:00.764305+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "population-versus-individual-risk",
+      "version": "root",
+      "recordSHA256": "08d306cbc04e40edf940316187602d4359fec38e92c794b2db6069e771aa729f",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:08.873113+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "cross-trial-comparison",
+      "version": "root",
+      "recordSHA256": "76cc1a45e415ccc231a4bfcba71b0ca6fdeedb15d2c905c5135d0e7882a708fa",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:15.813894+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "trial-population-transportability",
+      "version": "371",
+      "recordSHA256": "df0986635288133b0b3d95624f0250ba214d8fc340bd888c1813add44db23083",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:23.739469+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "measurement-to-benefit-evidence",
+      "version": "371",
+      "recordSHA256": "297c601a313a7f7136de949c5ee85d4547369a4aa6c934ac0a4768bc3f5510ff",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:29.159646+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "growth-rate-inhibition",
+      "version": "371",
+      "recordSHA256": "8161cc71e75bb03bb1eb62573c98ad259ce564a1a98327bb4aa2cf27ee7e316c",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:39.039188+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "confidence-interval",
+      "version": "root",
+      "recordSHA256": "bc7de8cc09660623dcd28e9c34e6363140d0eb1bf323b298cca8f1096a049116",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:43.785689+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "preclinical",
+      "version": "root",
+      "recordSHA256": "b4683502ecd69eecfa851df5cacf615435e9d6c192c6d5030e06fc7e5e031167",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:48.931947+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "calibration",
+      "version": "root",
+      "recordSHA256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:54.156782+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "functional-variant-evidence",
+      "version": "371",
+      "recordSHA256": "bf62dddd65d5c06927c7b9ef891a9e49f397db8c3dc7cde8fd084f4cf8c49848",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:56:59.424918+00:00",
+      "wholeRecordScientificRecertification": false
+    },
+    {
+      "id": "drug-target-engagement",
+      "version": "371",
+      "recordSHA256": "230fad2ffc7281a51a635c10e5bf868ba29d9e48382275f3195ccd320765d010",
+      "fullRecordReadAfterIntactOutput": true,
+      "acknowledgedAtUTC": "2026-11-14T19:57:24.261977+00:00",
+      "wholeRecordScientificRecertification": false
+    }
+  ],
+  "wholeRecordScientificRecertification": false
+}

@@ -1,0 +1,322 @@
+{
+  "version": "proposal-support-bodies-31-peer",
+  "draft": 371,
+  "head": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+  "sourceSnapshot": "pr-371",
+  "state": "Five actual frozen peer records, read completely; live head rechecked unchanged/open/draft/unmerged. No peer field edits or root integration.",
+  "records": [
+    {
+      "id": "trial-population-transportability",
+      "kind": "term",
+      "name": "Transporting trial evidence to another population",
+      "aka": [
+        "clinical trial transportability",
+        "trial generalizability",
+        "eligibility and target population"
+      ],
+      "tldr": "A trial result describes the people and setting studied. Applying it elsewhere requires checking the differences that could change benefit or harm.",
+      "summary": "A primary methodological framework used trial-participation propensity scores to assess similarity between trial participants and a target population. Its worked example was outside oncology; it provides a way to examine generalizability, not a validated cancer-treatment matching rule. Weighting measured characteristics depends on assumptions and sufficient overlap. Disease, treatment setting, prior therapy and other possible effect modifiers still matter, and an average trial effect is not an individual forecast.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Primary framework for trial generalizability (2011)",
+          "url": "https://doi.org/10.1111/j.1467-985X.2010.00673.x"
+        },
+        {
+          "label": "Study Designs for Extending Causal Inferences From a Randomized Trial to a Target Population.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8536837/"
+        },
+        {
+          "label": "Dahabreh and colleagues: transportability methods, May 2019 v1",
+          "url": "https://arxiv.org/pdf/1905.07764"
+        },
+        {
+          "label": "NCI: finding a trial and checking eligibility",
+          "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
+        },
+        {
+          "label": "OncoGuide: transportability-and-eligibility (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "external-validation",
+        "subgroup-analysis",
+        "confounding-by-indication"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Eligibility asks whether someone meets protocol entry rules. Transportability asks whether a treatment-effect estimate can extend to a specified target population or setting. Randomisation assigns treatment within an enrolled sample; it does not randomly select that sample from everyone who might receive treatment. Eligible, invited, enrolled and followed people can differ. First specify the target population and align disease, treatment history, intervention and background care, comparator, endpoint and clock. A change of sequence or comparator may change the question itself. A prognostic factor predicts outcomes, while an effect modifier changes a treatment contrast on a specified scale. Even a constant relative effect can yield different absolute benefits when baseline risks differ. A marker or cancer label shared between heavily pretreated metastatic and early postoperative settings does not bridge differences in biology, competing risks, tolerance and endpoints.",
+        "Standardisation can combine subgroup effects in the proportions found in a target population; weighting can make trial observations represent that mixture. Both require appropriate trial and target data, comparable well-defined treatments, measurement of relevant differences and informative overlap. Weighting cannot invent a response for an absent target profile or remove an unmeasured effect modifier. In a fictional randomised trial measuring recurrence by three years from assignment, subgroup risk differences are -5 and -15 percentage points. A 50/50 mixture averages -10 points. An 80/20 target mixture would give 0.8 × (-5) + 0.2 × (-15) = -7 points only if those effects transport and relevant differences have been addressed. A missing third group leaves its contribution unresolved. The arithmetic illustrates an assumption; it establishes neither transportability, eligibility nor an individual's benefit.",
+        "Protocol eligibility can depend on disease, prior treatment, organ function, safety history and assay definitions, and needs study-team confirmation. Meeting criteria guarantees neither benefit, enrolment nor an available slot. If a fictional trial allows older adults but enrols almost nobody with a particular organ limitation, matching its age rule does not establish its average effect for that group. Actual representation, safety data, treatment context, overlap and the assumptions bridging populations remain necessary, with follow-up, harms and uncertainty considered. No universal similarity score certifies that bridge. An adjusted estimate is not automatically established, and even a well-supported population effect is not a person's guaranteed outcome. The examples here are fictional and provide no actual eligibility or access determination."
+      ],
+      "category": "Trials"
+    },
+    {
+      "id": "measurement-to-benefit-evidence",
+      "kind": "term",
+      "name": "Evidence from measurement to patient benefit",
+      "aka": [],
+      "tldr": "A reliable measurement, a biological explanation and a useful treatment decision each need evidence. This map helps readers identify which part of a claim has actually been tested.",
+      "summary": "A useful reading framework follows the observation through its interpretation, mechanism, intervention and patient outcome. These are questions to examine, not a mandatory experimental sequence. An accurate assay can measure a marker that does not predict treatment benefit; a compound can bind a protein without proving that its effect depends on that protein. A model can reproduce an experiment without predicting an outcome in people. Each linked concept identifies a different evidence boundary and the source supporting it.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "FDA: biomarkers, roles and qualification",
+          "url": "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification"
+        },
+        {
+          "label": "Cellular target-engagement study (2013)",
+          "url": "https://doi.org/10.1126/science.1233606"
+        },
+        {
+          "label": "Clinical actionability framework (2018)",
+          "url": "https://doi.org/10.1093/annonc/mdy263"
+        },
+        {
+          "label": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/"
+        },
+        {
+          "label": "A framework to rank genomic alterations as targets for cancer precision medicine: the ESMO Scale for Clinical Actionability of molecular Targets (ESCAT).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30137196/"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: evidence-chain-variant-to-benefit (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "antigen-expression-and-response",
+        "binding-site-barrier",
+        "antibody-internalization-trafficking",
+        "lysosomal-payload-egress",
+        "drug-target-engagement",
+        "experimental-versus-clinical-exposure",
+        "prognostic-versus-predictive-biomarkers",
+        "functional-variant-evidence",
+        "blood-cell-variants-liquid-biopsy",
+        "ctdna-shedding-negative-results",
+        "detection-versus-quantification",
+        "finite-molecule-sampling",
+        "tumor-informed-assay-design",
+        "biomarker-qualification-context",
+        "test-agreement-versus-accuracy",
+        "growth-rate-inhibition",
+        "cytostasis-versus-cell-death",
+        "on-target-drug-validation",
+        "model-context-of-use",
+        "confounding-by-indication",
+        "immortal-time-bias",
+        "target-trial-emulation",
+        "competing-risks",
+        "trial-population-transportability",
+        "biomarker-cutpoint-selection",
+        "decision-curve-net-benefit",
+        "inconclusive-and-negative-evidence",
+        "analytical-vs-clinical-validation",
+        "cancer-drivers-vs-actionable"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A variant-based treatment claim contains several separate claims: the sequence finding is real, it changes biology, that biology creates a relevant drug response, and treatment improves outcomes in people. This is a way to examine evidence, not a mandatory experimental sequence or a claim that every effective medicine starts with a mutation. Consider a fictional report with a supported sequence change relative to a reference, an untested activating prediction, a lower pathway signal after drug exposure, unchanged cell growth and no matched clinical comparison. Variant calling supports the sequence observation; effect prediction supplies a hypothesis. The experiment shows a biochemical drug effect under its conditions, not verified action on the intended target, growth dependence or patient benefit. Unchanged growth also does not settle every possible drug effect; exposure, timing and assay sensitivity matter. No exposure value or clinical effect size follows from these qualitative observations.",
+        "Expression and controlled functional evidence for the exact alteration can strengthen a biological interpretation; another alteration in the same gene may behave differently. Perturbation with rescue or complementary controls can test dependence, because an active pathway need not be necessary for growth. A drug-effect claim needs relevant exposure and evidence that the compound reaches and interacts with its intended target; other drug actions or failure to reach tumour remain possible. Activation, loss of function and high protein abundance do not all imply that inhibiting the named protein will help. Other cells, parallel pathways and treatment history can change that hypothesis. A protein-only construct may miss RNA-processing effects, so a normal assay is not proof that a variant is harmless. Brnich's functional-classification recommendations address assay relevance; Mateo's actionability framework separately distinguishes relevant human, adjacent clinical and preclinical evidence. Neither framework turns pathogenicity into drug sensitivity or an evidence grade into treatment access. Repeated predictions may share data or assumptions and are not independent experiments.",
+        "Each claim needs its own measurement. Sequence identity, specimen, assay version, controls and interpretation establish what was tested. Altered-transcript proportion, normalised protein activity, cell growth at a defined exposure and participant response rate have different units and meanings; combining them into one score can hide those differences. Target engagement is separate from downstream change, cancer-cell death, tumour response and survival. At the clinical step, disease, biomarker, treatment setting and comparator must match the claim, with outcome definition, follow-up, harms and uncertainty retained. A biochemical signal alone does not establish clinical benefit, eligibility, availability or an individual's outcome. The model above is fictional, and the FDA's dated 2018 endpoint guidance is used for these outcome distinctions."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "growth-rate-inhibition",
+      "kind": "term",
+      "name": "Growth-rate correction in drug-response assays",
+      "aka": [
+        "GR metrics",
+        "growth rate inhibition metrics",
+        "GR50",
+        "GRmax"
+      ],
+      "tldr": "Two cell cultures can appear differently sensitive to a drug because they divide at different speeds. Growth-rate measures account for divisions during the experiment when comparing drug effects.",
+      "summary": "The primary growth-rate inhibition study showed that conventional concentration-response metrics can depend on how many cell divisions occur during an assay. It developed corrected measures using initial measurements and the treated and untreated cell populations. These measures help interpret experiments in dividing cells under the method's assumptions; they do not remove exposure, measurement or model-context limitations, and they are not predictions of treatment benefit in a person.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "Primary growth-rate inhibition metrics study (2016)",
+          "url": "https://doi.org/10.1038/nmeth.3853"
+        },
+        {
+          "label": "RECIST 1.1: original response-assessment guideline",
+          "url": "https://recist.eortc.org/recist/wp-content/uploads/sites/14/2025/12/RECISTGuidelines.pdf"
+        },
+        {
+          "label": "FDA: oncology clinical-trial endpoints (2018)",
+          "url": "https://www.fda.gov/media/71195/download"
+        },
+        {
+          "label": "OncoGuide: reduction-is-not-regression (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "drug-response-sensitivity",
+        "cytostasis-versus-cell-death",
+        "experimental-versus-clinical-exposure"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Growth-rate-corrected metrics in this record concern dividing-cell assays. The following fictional tumour-volume examples teach the broader distinction between growth reduction and regression; clinical RECIST assessment uses its own lesion-diameter rules. A tumour smaller than control has not necessarily shrunk below its own starting size. In a fictional comparison, both start at 100 cubic millimetres; at day 28, control is 1,000 and treated 300. Changes from start are +900 and +200 cubic millimetres. The treated value is (1,000 - 300)/1,000 = 70% below control but three times its own start, a 200% increase rather than a 300% increase. These are invented representative values, not individual observations or a statistical treatment-effect estimate. Real studies need distributions, independent units, allocation, missing observations and uncertainty. For a percentage labelled tumour growth inhibition, recover the paper's actual calculation and reference before quoting it; the fictional 70% above compares final volumes. Slower growth does not by itself identify cell death, and statistical regression is a different meaning of the word.",
+        "Clinical RECIST assessment uses a sum of selected lesion diameters, with rules for lymph nodes, non-target disease and new lesions. A mouse-volume percentage in cubic millimetres cannot be inserted into a diameter threshold measured in millimetres. Partial response compares with baseline; target-lesion progression compares with the smallest previous sum, commonly called the nadir, and applies its specified thresholds. Overall response also considers the rest of the disease, so one shrinking lesion does not make the person an overall responder. Cell number, metabolic activity and target-cell death are also distinct readouts, not interchangeable tumour-size measurements. The measured object, units, time, reference, calculation, controls and excluded observations determine what a reduction means.",
+        "In another fictional example, a tumour starts at 100 cubic millimetres and later measures 60 while control measures 300. It is 40% below its own start, supporting regression under this volume assessment, and 80% below the concurrent control. These percentages answer different questions. Neither supplies a RECIST response category, complete eradication or patient benefit. Shrinkage can leave measurable disease, and disappearance on a scan does not prove eradication. Duration, other disease sites, harms and clinical outcomes still need assessment. The volume examples are fictional; RECIST clinical criteria and the FDA's December 2018 outcome guidance address separate measurement and interpretation frameworks."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "functional-variant-evidence",
+      "kind": "term",
+      "name": "Functional evidence for a sequence variant",
+      "aka": [
+        "variant functional assay evidence",
+        "PS3 and BS3 functional evidence"
+      ],
+      "tldr": "A functional assay tests what a genetic change does in a particular system. The result needs to fit the question about disease, and it does not automatically identify a useful treatment.",
+      "summary": "ClinGen's primary recommendations for functional variant evidence evaluate disease mechanism, assay relevance, assay validation and the evidence for an individual variant. An abnormal assay result needs controls and evidence that the measured function is relevant to the disease mechanism. The PS3/BS3 framework concerns sequence-variant interpretation; it is not a cancer-drug actionability score. Treatment claims require evidence for the exact alteration, disease and intervention context.",
+      "asOf": "2026-11-08",
+      "links": [
+        {
+          "label": "ClinGen functional-evidence recommendations (2019)",
+          "url": "https://doi.org/10.1186/s13073-019-0690-2"
+        },
+        {
+          "label": "Clinical actionability framework (2018)",
+          "url": "https://doi.org/10.1093/annonc/mdy263"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "vus",
+        "cancer-drivers-vs-actionable",
+        "on-target-drug-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [],
+      "category": "Genomics & genetics"
+    },
+    {
+      "id": "drug-target-engagement",
+      "kind": "term",
+      "name": "Drug target engagement",
+      "aka": [
+        "cellular target engagement",
+        "CETSA",
+        "cellular thermal shift assay"
+      ],
+      "tldr": "Target engagement asks whether a drug reaches and interacts with its intended target in the tested setting. The effect on the cell and the benefit of treatment need their own measurements.",
+      "summary": "The cellular thermal shift assay introduced a way to assess drug-associated changes in protein stability in cells and tissues as evidence of target engagement. The original work examined binding, transport, activation and resistance in defined systems. Engagement evidence must be interpreted within the assay used. It does not by itself demonstrate that the target is required for cancer-cell survival or that the drug's cellular effect is caused by acting on that target.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Genetic validation of drug mechanisms (2019)",
+          "url": "https://doi.org/10.1126/scitranslmed.aaw8412"
+        },
+        {
+          "label": "Primary cellular thermal shift assay study (2013)",
+          "url": "https://doi.org/10.1126/science.1233606"
+        },
+        {
+          "label": "Ball et al., isothermal shift assay in lysates and cells (2020)",
+          "url": "https://doi.org/10.1038/s42003-020-0795-6"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "on-target-drug-validation",
+        "experimental-versus-clinical-exposure",
+        "functional-variant-evidence"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Target engagement and the evidence ladder. Target engagement asks whether a compound interacts with its intended target in the relevant system. Binding to a purified protein does not show that the compound enters the cell or reaches its target in a tumour, and engagement is also not a change in the target's function, a downstream effect or clinical benefit. Each question needs its own measurement: engagement first, then a measured biological effect, then a check of the causal explanation with controls, then clinical evidence.",
+        "Reading a thermal-shift result. The cellular thermal shift assay was introduced to evaluate drug binding to target proteins in cells and tissue samples through ligand-induced thermal stabilisation (Martinez Molina et al. 2013). The readout is the soluble target signal remaining after heating, plotted either against temperature at a fixed compound concentration or against concentration at a fixed temperature, so degrees Celsius and concentration units sit on different axes and the two designs ask different bounded questions. A shift of the compound curve against a matched control supports engagement under those conditions; indirect stability or protein-complex effects can also change the signal, so it is not an inhibition or occupancy percentage, and no universal shift cut-off is given here. The heated aliquots are consumed, so a record should carry the compound, concentration, exposure time, temperature series, cell or tissue system and controls. In an isothermal-shift study with a pan-kinase inhibitor, a large share of non-kinase proteins shifted in cells, which the authors read as in-cell profiling being more likely than lysate profiling to identify indirect binding targets; they recommend lysate profiling to identify targets and in-cell profiling to verify intracellular engagement (Ball et al. 2020).",
+        "Probes and medicines. Chemical probes are judged by potency, known selectivity and proven mechanism for the question asked, and the numerical criteria published for them belong to a consortium and target class (Arrowsmith et al. 2015; Workman and Collins 2010); a probe is a research starting point and not evidence of a usable medicine.",
+        "Record the named target and its detectability, baseline thermal behaviour, compound exposure, sample system and controls. In a temperature series, temperature changes while concentration is held fixed; in a concentration series, the selected temperature stays fixed. The output is soluble target signal, with different x-axis units in those two designs. Heated aliquots are consumed. An indirect stability change or protein-complex effect can alter the result, and neither a universal shift threshold nor a direct occupancy percentage follows from the plot."
+      ],
+      "category": "Methods and models"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "registeredRootIds": [
+    "denominators-and-conditional-probability",
+    "lead-time-bias",
+    "graph-reading",
+    "population-versus-individual-risk",
+    "cross-trial-comparison",
+    "confidence-interval",
+    "preclinical",
+    "calibration"
+  ],
+  "actualPeerIds": [
+    "trial-population-transportability",
+    "measurement-to-benefit-evidence",
+    "growth-rate-inhibition",
+    "functional-variant-evidence",
+    "drug-target-engagement"
+  ],
+  "peerHeads": [
+    {
+      "pr": 369,
+      "url": "https://github.com/judegomila/OnCo/pull/369",
+      "head": "baf8dccc3002944e5d0fc0460c5fb1b3066b49c5",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "mergedAt": null,
+      "verifiedAtUTC": "2026-11-14T19:54:23.609Z"
+    },
+    {
+      "pr": 371,
+      "url": "https://github.com/judegomila/OnCo/pull/371",
+      "head": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "mergedAt": null,
+      "verifiedAtUTC": "2026-11-14T19:54:23.611Z"
+    },
+    {
+      "pr": 373,
+      "url": "https://github.com/judegomila/OnCo/pull/373",
+      "head": "433fd33c4a377323ad826950165204ced7ebcddb",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "mergedAt": null,
+      "verifiedAtUTC": "2026-11-14T19:54:23.611Z"
+    }
+  ],
+  "completeRootReads": 8,
+  "completePeerReads": 5,
+  "metadataOnlyOtherRootCandidates": 15,
+  "metadataOnlyOtherPeerCandidates": 1,
+  "changedRootOwners": [],
+  "newOwners": 0,
+  "newAliases": 0,
+  "newRelations": 0,
+  "rootAbsenceDoesNotImplyNewIdentity": true
+}

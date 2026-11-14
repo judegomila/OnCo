@@ -1,0 +1,312 @@
+{
+  "checks": [
+    {
+      "sourceId": "consort-explanation",
+      "queriedDOI": "10.1136/bmj-2024-081124",
+      "CrossrefCanonicalDOI": "10.1136/bmj-2024-081124",
+      "pmid": "40228832",
+      "pmcid": "PMC11995452",
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2025",
+      "CrossrefPublicationDates": {
+        "published-online": [
+          2025,
+          4,
+          14
+        ],
+        "published": [
+          2025,
+          4,
+          14
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "superplots",
+      "queriedDOI": "10.1083/jcb.202001064",
+      "CrossrefCanonicalDOI": "10.1083/jcb.202001064",
+      "pmid": "32346721",
+      "pmcid": "PMC7265319",
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2020",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          2020,
+          6,
+          1
+        ],
+        "published-online": [
+          2020,
+          4,
+          28
+        ],
+        "published": [
+          2020,
+          4,
+          28
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "calibration",
+      "queriedDOI": "10.1186/s12916-019-1466-7",
+      "CrossrefCanonicalDOI": "10.1186/s12916-019-1466-7",
+      "pmid": "31842878",
+      "pmcid": "PMC6912996",
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": true,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2019",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          2019,
+          12
+        ],
+        "published-online": [
+          2019,
+          12,
+          16
+        ],
+        "published": [
+          2019,
+          12
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "tripod-cluster",
+      "queriedDOI": "10.1136/bmj-2022-071058",
+      "CrossrefCanonicalDOI": "10.1136/bmj-2022-071058",
+      "pmid": "36750236",
+      "pmcid": "PMC9903176",
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2023",
+      "CrossrefPublicationDates": {
+        "published-online": [
+          2023,
+          2,
+          7
+        ],
+        "published": [
+          2023,
+          2,
+          7
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "transport",
+      "queriedDOI": "10.1093/aje/kwaa270",
+      "CrossrefCanonicalDOI": "10.1093/aje/kwaa270",
+      "pmid": "33324969",
+      "pmcid": "PMC8536837",
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2021",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          2021,
+          8,
+          1
+        ],
+        "published-online": [
+          2020,
+          12,
+          16
+        ],
+        "published": [
+          2020,
+          12,
+          16
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [
+        "The published transport article was online in December 2020 and printed in 2021; the May 2019 preprint is separate."
+      ],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "functional-variant",
+      "queriedDOI": "10.1186/s13073-019-0690-2",
+      "CrossrefCanonicalDOI": "10.1186/s13073-019-0690-2",
+      "pmid": "31892348",
+      "pmcid": "PMC6938631",
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": true,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2019",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          2020,
+          12
+        ],
+        "published-online": [
+          2019,
+          12,
+          31
+        ],
+        "published": [
+          2019,
+          12,
+          31
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [
+        "Brnich was online in 2019 and appears in the 2020 collection; both dates are retained."
+      ],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "escat",
+      "queriedDOI": "10.1093/annonc/mdy263",
+      "CrossrefCanonicalDOI": "10.1093/annonc/mdy263",
+      "pmid": "30137196",
+      "pmcid": "PMC6158764",
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2018",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          2018,
+          9
+        ],
+        "published": [
+          2018,
+          9
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "ctrak",
+      "queriedDOI": "10.1016/j.annonc.2022.11.005",
+      "CrossrefCanonicalDOI": "10.1016/j.annonc.2022.11.005",
+      "pmid": "36423745",
+      "pmcid": null,
+      "fullNormalizedTitleAgrees": true,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "2023",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          2023,
+          2
+        ],
+        "published": [
+          2023,
+          2
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "rosselli",
+      "queriedDOI": "10.1001/jama.271.20.1593",
+      "CrossrefCanonicalDOI": "10.1001/jama.1994.03510440053032",
+      "pmid": "7848404",
+      "pmcid": null,
+      "fullNormalizedTitleAgrees": false,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": true,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": null,
+      "EuropePMCYear": "1994",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          1994,
+          5,
+          25
+        ],
+        "published": [
+          1994,
+          5,
+          25
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [
+        "Crossref accepts the legacy JAMA DOI query and returns a canonical DOI with matching core title, volume, issue, starting page, year and named-author family.",
+        "Crossref has a shorter core title; Europe PMC appends trial and collective-author details."
+      ],
+      "wholeTextOrRetractionClearanceInferred": false
+    },
+    {
+      "sourceId": "givio",
+      "queriedDOI": "10.1001/jama.1994.03510440047031",
+      "CrossrefCanonicalDOI": "10.1001/jama.1994.03510440047031",
+      "pmid": "8182811",
+      "pmcid": null,
+      "fullNormalizedTitleAgrees": false,
+      "coreTitleAndBibliographicCoordinatesAgree": true,
+      "firstNamedAuthorAgrees": null,
+      "collectiveAuthorPrecedesNamedAuthors": false,
+      "authorMetadataLimit": "Europe PMC omits authorString and names the GIVIO Investigators in the title; Crossref supplies P. Ghezzi.",
+      "EuropePMCYear": "1994",
+      "CrossrefPublicationDates": {
+        "published-print": [
+          1994,
+          5,
+          25
+        ],
+        "published": [
+          1994,
+          5,
+          25
+        ]
+      },
+      "printOrOnlineYearAgrees": true,
+      "metadataDispositions": [
+        "Crossref has a shorter core title; Europe PMC appends trial and collective-author details."
+      ],
+      "wholeTextOrRetractionClearanceInferred": false
+    }
+  ],
+  "distinctPublicationsResolved": 10,
+  "primaryAssignedPublicationIdentities": 8,
+  "supplementalHistoricalSurveillanceIdentities": 2,
+  "allUsedIdentifiersResolvedBeforeUse": true,
+  "metadataDifferencesExplicit": true,
+  "claimsRestrictedToReadText": true
+}

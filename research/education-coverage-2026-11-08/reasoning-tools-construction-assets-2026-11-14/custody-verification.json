@@ -1,0 +1,3027 @@
+{
+  "totalAssignedAndAssociatedVersionEntries": 88,
+  "assessedBodyVersionEntries": 40,
+  "remainingAssociatedEntries": 48,
+  "allPinnedIdentitiesVerified": true,
+  "publicCitationInstances": 73,
+  "publicInstancesMatchingAnyPin": 56,
+  "publicCitations": [
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "06c901ba18e7c2418ebcfc5e2ed24023e8e711547233e135641597d9738e3ee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "claimedSHA256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "9f8922ae70e0137f8f0816d178b6dd5da9fba2f37e9e1ef1c61b5854fcab4190",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "claimedSHA256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "b1c1763f6df51b0e8ff596ead5a7abcc3a5762b1d9714db31924db7b412b725c",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "claimedSHA256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "058f804c2eeb2481ee03176d4b95fe60a1e5addcbce954722a23193cd1c72285",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "claimedSHA256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "565417eee79552e5eaafb992d07aa85a5f43f7a86fe49275720f44d97d37c22b",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "claimedSHA256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "d409f91072600492f466b4e8be1015c021d6ea68c4daa4885ffbb1b7e133a206",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "claimedSHA256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "fb7939156bf41ba5914a1a6d4cd4b8725a859b02829b1eec333b04f8782fac37",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "claimedSHA256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "c90555ce9f3122133175bc96a30a1dc07ec95b951cd006bfa0f5ce6f719631c7",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+      "claimedSHA256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "06c901ba18e7c2418ebcfc5e2ed24023e8e711547233e135641597d9738e3ee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+      "claimedSHA256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "9f8922ae70e0137f8f0816d178b6dd5da9fba2f37e9e1ef1c61b5854fcab4190",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "claimedSHA256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "b1c1763f6df51b0e8ff596ead5a7abcc3a5762b1d9714db31924db7b412b725c",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "claimedSHA256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "058f804c2eeb2481ee03176d4b95fe60a1e5addcbce954722a23193cd1c72285",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+      "claimedSHA256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "565417eee79552e5eaafb992d07aa85a5f43f7a86fe49275720f44d97d37c22b",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "claimedSHA256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "d409f91072600492f466b4e8be1015c021d6ea68c4daa4885ffbb1b7e133a206",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "claimedSHA256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "fb7939156bf41ba5914a1a6d4cd4b8725a859b02829b1eec333b04f8782fac37",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt",
+      "claimedSHA256": "33098e9122dca10505b7e6bf4d7911af87bc17a6c38170b6587293c39ef09e56",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "06c901ba18e7c2418ebcfc5e2ed24023e8e711547233e135641597d9738e3ee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "9f8922ae70e0137f8f0816d178b6dd5da9fba2f37e9e1ef1c61b5854fcab4190",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "b1c1763f6df51b0e8ff596ead5a7abcc3a5762b1d9714db31924db7b412b725c",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "058f804c2eeb2481ee03176d4b95fe60a1e5addcbce954722a23193cd1c72285",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "565417eee79552e5eaafb992d07aa85a5f43f7a86fe49275720f44d97d37c22b",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "d409f91072600492f466b4e8be1015c021d6ea68c4daa4885ffbb1b7e133a206",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "fb7939156bf41ba5914a1a6d4cd4b8725a859b02829b1eec333b04f8782fac37",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+      "claimedSHA256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "c90555ce9f3122133175bc96a30a1dc07ec95b951cd006bfa0f5ce6f719631c7",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+      "claimedSHA256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "06c901ba18e7c2418ebcfc5e2ed24023e8e711547233e135641597d9738e3ee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "claimedSHA256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+      ],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "6b7d13dda14a25914d01b3f66541566d6e5dce647c92fe95cc0387d6fa14cee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json",
+      "claimedSHA256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "058f804c2eeb2481ee03176d4b95fe60a1e5addcbce954722a23193cd1c72285",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "claimedSHA256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "565417eee79552e5eaafb992d07aa85a5f43f7a86fe49275720f44d97d37c22b",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "d409f91072600492f466b4e8be1015c021d6ea68c4daa4885ffbb1b7e133a206",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "fb7939156bf41ba5914a1a6d4cd4b8725a859b02829b1eec333b04f8782fac37",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+      "claimedSHA256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "c90555ce9f3122133175bc96a30a1dc07ec95b951cd006bfa0f5ce6f719631c7",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+      "claimedSHA256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "d7703fcff19941214750c4e66f915548cb1b109d7cb822e28885fd3d33bbe3d5",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "4fba8494a0c78510f3afb7c02d45cb697dbfa2c7e9a2491ebebb417a306fc106",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "81a05fc7ce000d80453f04155632690e2bb577c48eef852646d1210385cf0e54",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "1472ed8b51987c0b67530af4e745ae394ecfb621c0c1c19816d1c1c101fc0c02",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "9c5bd16fa21d43fcb234e193f5b31afb664a33aa5b53d441b6fbaeb3cfecac3a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "2ca8d09c4ac8e524625f15bd042dbd533895b34e474dc363d67ae5e836206e5a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+      "claimedSHA256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "69202be853f0b4be29a4fc26a2b353553711483095c3ddd596f96a59eb5180b2",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+      "claimedSHA256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "06c901ba18e7c2418ebcfc5e2ed24023e8e711547233e135641597d9738e3ee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "9f8922ae70e0137f8f0816d178b6dd5da9fba2f37e9e1ef1c61b5854fcab4190",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "b1c1763f6df51b0e8ff596ead5a7abcc3a5762b1d9714db31924db7b412b725c",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "058f804c2eeb2481ee03176d4b95fe60a1e5addcbce954722a23193cd1c72285",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "565417eee79552e5eaafb992d07aa85a5f43f7a86fe49275720f44d97d37c22b",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "d409f91072600492f466b4e8be1015c021d6ea68c4daa4885ffbb1b7e133a206",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt",
+      "claimedSHA256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "fb7939156bf41ba5914a1a6d4cd4b8725a859b02829b1eec333b04f8782fac37",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+      "claimedSHA256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "c90555ce9f3122133175bc96a30a1dc07ec95b951cd006bfa0f5ce6f719631c7",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "06c901ba18e7c2418ebcfc5e2ed24023e8e711547233e135641597d9738e3ee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "claimedSHA256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "9f8922ae70e0137f8f0816d178b6dd5da9fba2f37e9e1ef1c61b5854fcab4190",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "claimedSHA256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "b1c1763f6df51b0e8ff596ead5a7abcc3a5762b1d9714db31924db7b412b725c",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "claimedSHA256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "058f804c2eeb2481ee03176d4b95fe60a1e5addcbce954722a23193cd1c72285",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "claimedSHA256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "565417eee79552e5eaafb992d07aa85a5f43f7a86fe49275720f44d97d37c22b",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt",
+      "claimedSHA256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "d409f91072600492f466b4e8be1015c021d6ea68c4daa4885ffbb1b7e133a206",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+      "claimedSHA256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "fb7939156bf41ba5914a1a6d4cd4b8725a859b02829b1eec333b04f8782fac37",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "claimedSHA256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "c90555ce9f3122133175bc96a30a1dc07ec95b951cd006bfa0f5ce6f719631c7",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "claimedSHA256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "06c901ba18e7c2418ebcfc5e2ed24023e8e711547233e135641597d9738e3ee1",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "claimedSHA256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+      "matchesPinnedRefs": [],
+      "kind": "owner-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "9f8922ae70e0137f8f0816d178b6dd5da9fba2f37e9e1ef1c61b5854fcab4190",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "claimedSHA256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "b1c1763f6df51b0e8ff596ead5a7abcc3a5762b1d9714db31924db7b412b725c",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "claimedSHA256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "7b14634723ddbd1b5ea04f11a80e619a5cac035bf0b14aba8929e35718cb1592",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "9517f2d76e61fa18d2bc417456d0bba179543155b06dc0723c11d25ce1d80413",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "b456ca2050863fd810a7488a5d73655ca22a00eebed71adacd3ed0060d0ad443",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "058f804c2eeb2481ee03176d4b95fe60a1e5addcbce954722a23193cd1c72285",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "claimedSHA256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "565417eee79552e5eaafb992d07aa85a5f43f7a86fe49275720f44d97d37c22b",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt",
+      "claimedSHA256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "d409f91072600492f466b4e8be1015c021d6ea68c4daa4885ffbb1b7e133a206",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+      "claimedSHA256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "fb7939156bf41ba5914a1a6d4cd4b8725a859b02829b1eec333b04f8782fac37",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "claimedSHA256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "c90555ce9f3122133175bc96a30a1dc07ec95b951cd006bfa0f5ce6f719631c7",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "claimedSHA256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "5e13f6dccb52757e043b1a2a4142ec2241b091673abd95674d175a4c5ad89a73",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "1b88da80aae7508d47e785a04cb52680269cce9a6a3311078ba1d1c35ae47f54",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "68a3dd25c35f7fcd2f6c299ed0c4c3dd1594f8b65166bdc62a2f5387bc0a4efc",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "944a55fb3f85a6690093a778a4273a37603d8989363fc1aeb9e889bb6f6825ee",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+      "claimedSHA256": "488ee2942bdea78591a22db39c8b4f1c9afba17227b311ffc9952578825e38b1",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "2afe84cef4a68396afad69a38e7f9e066f377189065823bbd56a1710801e0b91",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchesPinnedRefs": [],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "ad93b05065afc0de84e69a28f8299b1d7ba764b11e4da51f3b460caa893c304e",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "22045072e33b2529c873b1fc9665f563526acc70c7fda42d53d30502a7806a63",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "076ce6e7980d0bec64c5ad512c6b4b80964c35b55f71139ec63accd646323851",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "ff8541a08498fdaf11fe5d93dffa86bfa61d89b49e407fd9b59cc2a35f6e15a6",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchesPinnedRefs": [
+        "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "c96896452386202405c435aa161bc5047919337a"
+      ],
+      "kind": "path-hash"
+    }
+  ],
+  "additionalPublicIdentityChecks": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "exists": true,
+      "bytes": 8195,
+      "sha256": "06c4405fb74040acf165a8e08767a72f1ee1fbd12bd77f588081fc66e0ac8ee8",
+      "gitBlob": "77ae085bac41ba73bc9207e9693c0f72fa6ad3a5",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md",
+      "exists": true,
+      "bytes": 8420,
+      "sha256": "efb1107a978f7bcd14c3bd8a2618c0a6214c3f1d807e2b662c8b16ee29f3d1bc",
+      "gitBlob": "3000522c5f2e775e737fb618f8e526ae11afacc3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "exists": true,
+      "bytes": 7746,
+      "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "gitBlob": "977e330ae9aa5ddd65eb53d306a61925315e4218",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg",
+      "exists": true,
+      "bytes": 7746,
+      "sha256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "gitBlob": "977e330ae9aa5ddd65eb53d306a61925315e4218",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "exists": true,
+      "bytes": 7746,
+      "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "gitBlob": "3941beee8dd67e451ac3bb6a07844aea35f44037",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg",
+      "exists": true,
+      "bytes": 7746,
+      "sha256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "gitBlob": "3941beee8dd67e451ac3bb6a07844aea35f44037",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "exists": true,
+      "bytes": 600,
+      "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "exists": true,
+      "bytes": 600,
+      "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+      "exists": true,
+      "bytes": 1373,
+      "sha256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+      "gitBlob": "a91bdebcb019fa362508af0cb881d188a89edf51",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json",
+      "exists": true,
+      "bytes": 1373,
+      "sha256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+      "gitBlob": "a91bdebcb019fa362508af0cb881d188a89edf51",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+      "exists": true,
+      "bytes": 8928,
+      "sha256": "502c36e31d0e032bfbd8ede406762bbd8ee2d6d32ad6aa4cd93245f0f3caf5da",
+      "gitBlob": "0fc1f241654ddce9f7b9c256a4d26bd5c4bbdfb0",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md",
+      "exists": true,
+      "bytes": 9319,
+      "sha256": "145b80fdacd344cac708e2ae592b90ed5d29e4571d61068367bc4becf3c9a068",
+      "gitBlob": "a2c9b5373f204ba1eedfaca0535f0dd06193d1e2",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "exists": true,
+      "bytes": 11341,
+      "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "gitBlob": "cb0984e5708635921b3644b964728c350c43a6e5",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg",
+      "exists": true,
+      "bytes": 11341,
+      "sha256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "gitBlob": "cb0984e5708635921b3644b964728c350c43a6e5",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "exists": true,
+      "bytes": 11340,
+      "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "gitBlob": "2a6994cbd6df7d75d529c252ddd5b7c01c72b197",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg",
+      "exists": true,
+      "bytes": 11340,
+      "sha256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "gitBlob": "2a6994cbd6df7d75d529c252ddd5b7c01c72b197",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt",
+      "exists": true,
+      "bytes": 52817,
+      "sha256": "33098e9122dca10505b7e6bf4d7911af87bc17a6c38170b6587293c39ef09e56",
+      "gitBlob": "ef1c8eeb64e1c3fbcebdaf8c8d682de302be0463",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt",
+      "exists": true,
+      "bytes": 52817,
+      "sha256": "33098e9122dca10505b7e6bf4d7911af87bc17a6c38170b6587293c39ef09e56",
+      "gitBlob": "ef1c8eeb64e1c3fbcebdaf8c8d682de302be0463",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "exists": true,
+      "bytes": 9943,
+      "sha256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+      "gitBlob": "c7d6893fda0fbe1075262160334e6d9d5dfd90f1",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md",
+      "exists": true,
+      "bytes": 10519,
+      "sha256": "91c9dc909a260d886432f0599c8c5920ce7266c753c9fe30b87513b8817fdf52",
+      "gitBlob": "dbd246986392ea3e9e6fbca78400576bb50edc75",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "exists": true,
+      "bytes": 3254,
+      "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "gitBlob": "166d56c5d95e968edd74b90999912c40dba56d0a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg",
+      "exists": true,
+      "bytes": 3254,
+      "sha256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "gitBlob": "166d56c5d95e968edd74b90999912c40dba56d0a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "exists": true,
+      "bytes": 3254,
+      "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "gitBlob": "ee504749e918582232f8a66b753e4a6287952846",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg",
+      "exists": true,
+      "bytes": 3254,
+      "sha256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "gitBlob": "ee504749e918582232f8a66b753e4a6287952846",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+      "exists": true,
+      "bytes": 1023,
+      "sha256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "gitBlob": "76f926ef2d5b23f2f029d45a4ba0bbc6821e12fc",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt",
+      "exists": true,
+      "bytes": 1023,
+      "sha256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "gitBlob": "76f926ef2d5b23f2f029d45a4ba0bbc6821e12fc",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+      "exists": true,
+      "bytes": 4087,
+      "sha256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "gitBlob": "6a4f7f716dda259feb7ad32a199c7a981eb220e6",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json",
+      "exists": true,
+      "bytes": 4087,
+      "sha256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "gitBlob": "6a4f7f716dda259feb7ad32a199c7a981eb220e6",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json",
+      "exists": true,
+      "bytes": 7929,
+      "sha256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b",
+      "gitBlob": "59f7897f1995951656b4e07d5b900e547213a035",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json",
+      "exists": true,
+      "bytes": 7929,
+      "sha256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b",
+      "gitBlob": "59f7897f1995951656b4e07d5b900e547213a035",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "exists": true,
+      "bytes": 9681,
+      "sha256": "828094fb2aa8d7b00895bc573789a7679f2841bb07b53331dbbe6eca4da955e0",
+      "gitBlob": "3d67f969042613e0f7f2584539766b9d778adb87",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md",
+      "exists": true,
+      "bytes": 9890,
+      "sha256": "e6ed30091732c34ef31cbb4161dd964ec75b70896e57b47bd34acd66bd8e0af9",
+      "gitBlob": "22f50ab98126f6f018279a8eb5ee9a93693740f7",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "gitBlob": "ce0645a0aa19b878e922c9e814d8912623c20282",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg",
+      "exists": true,
+      "bytes": 6075,
+      "sha256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "gitBlob": "6f7f8afd983fe14bc43fb2f79807febad6effc5a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt",
+      "exists": true,
+      "bytes": 1634,
+      "sha256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+      "gitBlob": "cff239e9282aef320adad835e2bf7f4fa31ecfd3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt",
+      "exists": true,
+      "bytes": 1634,
+      "sha256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+      "gitBlob": "cff239e9282aef320adad835e2bf7f4fa31ecfd3",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+      "exists": true,
+      "bytes": 2943,
+      "sha256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+      "gitBlob": "fc5e8ffbf6d48afce62163086b8ea474a9379743",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json",
+      "exists": true,
+      "bytes": 2943,
+      "sha256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+      "gitBlob": "fc5e8ffbf6d48afce62163086b8ea474a9379743",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "exists": true,
+      "bytes": 9263,
+      "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+      "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md",
+      "exists": true,
+      "bytes": 9263,
+      "sha256": "360e85a256e89ab45e64b8624b096599c6c72b631b2bc032230eb37a74a09eaa",
+      "gitBlob": "10ecd7bd1c2af8d185c9688d774209053f4f09a6",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "exists": true,
+      "bytes": 11885,
+      "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "gitBlob": "6e0e9dc1db602a9f12a625bc1091c5b959f9e5fa",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg",
+      "exists": true,
+      "bytes": 11885,
+      "sha256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "gitBlob": "6e0e9dc1db602a9f12a625bc1091c5b959f9e5fa",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "exists": true,
+      "bytes": 11885,
+      "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "gitBlob": "8fc13cce835fb5d191a6adfd76cba85d31fc6f04",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg",
+      "exists": true,
+      "bytes": 11885,
+      "sha256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "gitBlob": "8fc13cce835fb5d191a6adfd76cba85d31fc6f04",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt",
+      "exists": true,
+      "bytes": 1813,
+      "sha256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+      "gitBlob": "788214003c8133f3c94115bd5e4035b3c572c96c",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt",
+      "exists": true,
+      "bytes": 1813,
+      "sha256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+      "gitBlob": "788214003c8133f3c94115bd5e4035b3c572c96c",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+      "exists": true,
+      "bytes": 4761,
+      "sha256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+      "gitBlob": "3934aa980bd6a82b63b91b6c7d090cd0d20a1e01",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json",
+      "exists": true,
+      "bytes": 4761,
+      "sha256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+      "gitBlob": "3934aa980bd6a82b63b91b6c7d090cd0d20a1e01",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "exists": true,
+      "bytes": 9776,
+      "sha256": "1a5c49f815d7d79d6f4c7864e7d0bfb893d1702e3b9fdd7b8e0f682c3aa98876",
+      "gitBlob": "36fc482511ef8d479ec94a2e219eb4ab26fea0dc",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md",
+      "exists": true,
+      "bytes": 9854,
+      "sha256": "eed7b460b27280749a702247c759d51c9b4e7188e86b2602ac37f4262f119791",
+      "gitBlob": "788d409113f3e6c96a1babcdd94827b7f408bb08",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "exists": true,
+      "bytes": 4351,
+      "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "gitBlob": "8d424427dfccb571dde39432a0a05729e1e60a04",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg",
+      "exists": true,
+      "bytes": 4351,
+      "sha256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "gitBlob": "8d424427dfccb571dde39432a0a05729e1e60a04",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "exists": true,
+      "bytes": 4351,
+      "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "gitBlob": "156c26b5fc64bf5ef4d7144e26587aa01801c1f2",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg",
+      "exists": true,
+      "bytes": 4351,
+      "sha256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "gitBlob": "156c26b5fc64bf5ef4d7144e26587aa01801c1f2",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt",
+      "exists": true,
+      "bytes": 1982,
+      "sha256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+      "gitBlob": "881910f224075c6c03e0b3f37e84a0fba58ee96a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt",
+      "exists": true,
+      "bytes": 1982,
+      "sha256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+      "gitBlob": "881910f224075c6c03e0b3f37e84a0fba58ee96a",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+      "exists": true,
+      "bytes": 4816,
+      "sha256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+      "gitBlob": "d581d1e4ec34ee0ded8d126a2a482b88cc0f646e",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json",
+      "exists": true,
+      "bytes": 4816,
+      "sha256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+      "gitBlob": "d581d1e4ec34ee0ded8d126a2a482b88cc0f646e",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+      "exists": true,
+      "bytes": 18447,
+      "sha256": "a9b5c7ac6668f543c51aa14bd885c49c82835198179b52e722c905c3cef61112",
+      "gitBlob": "a3c1bc52df93a52d6942beec9d86cd6ee677db46",
+      "identityOnly": true
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/peer-reviews/next-gap-285-independent-new-owner-task-fit.json",
+      "exists": true,
+      "bytes": 18447,
+      "sha256": "a9b5c7ac6668f543c51aa14bd885c49c82835198179b52e722c905c3cef61112",
+      "gitBlob": "a3c1bc52df93a52d6942beec9d86cd6ee677db46",
+      "identityOnly": true
+    }
+  ],
+  "unpairedHashClaims": [
+    {
+      "bodyIndex": 0,
+      "pointerSHA256": "e10e4c7f66ae576c79a3ca7e25da918e792d81660887ba95eb017f9d4e058a46",
+      "claimedSHA256": "3cb38a548ac0389394d8a92f73d50f95a73d3fe92e2d664a3cb853f63a52e075",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "0cc2ca9e1121d6b6f7bee5ab6b340c063c1f4bb337d02a20d9dd29833dfe7021",
+      "claimedSHA256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "af46e8868fc5f1af5f073682d6a478d028ed2bdfc8aa34248bfc36b30f0a8a6f",
+      "claimedSHA256": "3dbb72361eebf6a50a05517df7d8535f966014bd02731d874eb5e8fd9f76c04d",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "1ac0bc165cea4084fb0ad434fe9229b0ec9584e7164f54e1ab29996c8ddea1c7",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "c5bb30a507f13017bea86f36312c9c2f253001048715a8d733262954a76901c6",
+      "claimedSHA256": "8eea6f4ca8d68b16307bd15514737a4ef728184eb63b8fe1b8ad9cb33f4c5ab7",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "be24b45daf2b325f392d9bc24f04298c23d1e185e9642d4cb9b3e4481a0ca6c2",
+      "claimedSHA256": "3082f086c7788dd4e809e6de317ef0aae3537bbfb0601142edbb3ad63086f569",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "f8e3d3aef6e2a86083eb433f2959a3b7bfa514642bff06cc65fd1ab5567d09f6",
+      "claimedSHA256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "915e39fa169cd29a90300f1f7fcf1d04be964d8f2f8edd489beab1f4f99136bf",
+      "claimedSHA256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "bbdf52dbbbc6eabd9ef72b5ccb3c3915a62a4ede2181bd12f1bb6b8429f97b8a",
+      "claimedSHA256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 1,
+      "pointerSHA256": "41fb6fec4b647a018e4c46277d82d32ea27a7ad65e5a6e45e1b3c6729200f397",
+      "claimedSHA256": "30523ca97ce870079ebed5aae7986a4107a4ce8121388986088d08a1b6c0de8f",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1-provenance.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 2,
+      "pointerSHA256": "8fabea65cab0a5e853d70ef7cb08f8d48f4d80f0367d07826dcc7d3af1fcbec0",
+      "claimedSHA256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 2,
+      "pointerSHA256": "59f96b07ccde4f6292f5ad3242c46f6cb97dd07bc9fcc6b52514370b5a121651",
+      "claimedSHA256": "c22c0502ab742ae04fb84a0733481eed87d935aec1050f264c1eaedc7b5c784c",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 2,
+      "pointerSHA256": "b974833baa8452748ea6634382d3115b0944f0bcf33a9b57afab8b382b43738f",
+      "claimedSHA256": "2569770be455c523a731c666d3e71f72b27f75cc6dde9c63c4c5f134c528229f",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "b5f4ef2f949f50f90ad3507bc030b1e34843ff0792413d2a56cf3c0c05e75c79",
+      "claimedSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "c1e7f38e957b924e937ab9b7404047464ba275728c53371367c06919d13f34a1",
+      "claimedSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "4f1ffb37edc359fafe16b5692f50ef3a7f2fa199effceee7a90cd1101854e002",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "74cc1c0cd149ff1f16661fb95c9dfecc3d8ca03c04077c50e03fbe2019894193",
+      "claimedSHA256": "68dba1eecda749389d351b41ed518c225ac642146b0c3b565e43d46b336ac7ea",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "d7111c5c540cff21ee148baa3c457be492e68d60dc0e4154342b9942ebe5c6fc",
+      "claimedSHA256": "f139a933739ee37a7599de9e85aab8afb06566b7ac20bc6de1f7fae957188d1f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 4,
+      "pointerSHA256": "eeb4ff02895b4bf1d137ee72d4af35f9b2493610065298031153fb016d3229be",
+      "claimedSHA256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "b5f4ef2f949f50f90ad3507bc030b1e34843ff0792413d2a56cf3c0c05e75c79",
+      "claimedSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "c1e7f38e957b924e937ab9b7404047464ba275728c53371367c06919d13f34a1",
+      "claimedSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "4f1ffb37edc359fafe16b5692f50ef3a7f2fa199effceee7a90cd1101854e002",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "74cc1c0cd149ff1f16661fb95c9dfecc3d8ca03c04077c50e03fbe2019894193",
+      "claimedSHA256": "f0af3c30c634132d13464dc37d6c8a7c1fe9027a4daba21253f96e8fd07a4854",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "d7111c5c540cff21ee148baa3c457be492e68d60dc0e4154342b9942ebe5c6fc",
+      "claimedSHA256": "c83922fedbbf92f4d08b889db19692e6dd4d7a275e8879d05a65440aa7282ed6",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 6,
+      "pointerSHA256": "eeb4ff02895b4bf1d137ee72d4af35f9b2493610065298031153fb016d3229be",
+      "claimedSHA256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "0cc2ca9e1121d6b6f7bee5ab6b340c063c1f4bb337d02a20d9dd29833dfe7021",
+      "claimedSHA256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "af46e8868fc5f1af5f073682d6a478d028ed2bdfc8aa34248bfc36b30f0a8a6f",
+      "claimedSHA256": "3cb38a548ac0389394d8a92f73d50f95a73d3fe92e2d664a3cb853f63a52e075",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "aad7211066cc31dcfa0a299c237eb627d748122bb4e4342ceecc5547b0819d92",
+      "claimedSHA256": "47b92f1ec5dcaeeb6eb29c77dfa91ae72cd5cf2a7bba0c67e026aee419fb5e32",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "2c963a24f157784829a3ba9bc5829552814b5f7f71ae305d2e6347a35c9cc2e1",
+      "claimedSHA256": "72ff3aa46777ebb7fb5284d19a9357205fd1a1128965595504f86f51992f56f5",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "6e602aa0100724e220cf76e31846b9901652f1e141f832b1f8164d2c1025fa55",
+      "claimedSHA256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "be24b45daf2b325f392d9bc24f04298c23d1e185e9642d4cb9b3e4481a0ca6c2",
+      "claimedSHA256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "f8e3d3aef6e2a86083eb433f2959a3b7bfa514642bff06cc65fd1ab5567d09f6",
+      "claimedSHA256": "7d4bc4d8ad540462693f86c9f92c0bcbbe76aa3e7a3d6e59333927640a48eb19",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "915e39fa169cd29a90300f1f7fcf1d04be964d8f2f8edd489beab1f4f99136bf",
+      "claimedSHA256": "ef3c41ecb5ece04efe51dc3b2cebcfa6fd785e41701132cbcf852d37f2956869",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/analysis-population-denominators-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "bbdf52dbbbc6eabd9ef72b5ccb3c3915a62a4ede2181bd12f1bb6b8429f97b8a",
+      "claimedSHA256": "33098e9122dca10505b7e6bf4d7911af87bc17a6c38170b6587293c39ef09e56",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/analysis-population-denominators-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "f0e9ea2bca4e2cd139a8508ae6b35d861c5e41f8a0fe3aa0964099bdd8cfe860",
+      "claimedSHA256": "bf84af0749620883598447a3a957ffbc5219f8ee48b24844d35640f89f880cb6",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "3898e8f551753173a9784b9033e3fa0b910acf398e41242aff9ef36597c5b800",
+      "claimedSHA256": "72f3b887ef925170d8644c5d8c80bb348c2119c5ea88043f7c83743468361ec4",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 8,
+      "pointerSHA256": "38ab8e1b623bbeff43a2816d4a34a2c6d94438f758ff8b9a80e9288d9aa487a1",
+      "claimedSHA256": "ffd535f91417c27b8ca71335dbe7ccf2dc5c4b78d63a83b22ae9afbe5670e50d",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "0cc2ca9e1121d6b6f7bee5ab6b340c063c1f4bb337d02a20d9dd29833dfe7021",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "6963947a07f4c2b73ef8b592ec92ae70662f07cab1ed33483dfa15c13fd549c6",
+      "claimedSHA256": "5913483e61df6aed411e68bea49bcab682f973879c5e2486a8c037faccd88229",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "833086de6655ab5dc666b82a47d7716437c5ef3105fad1123247f8863e4e9609",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "af46e8868fc5f1af5f073682d6a478d028ed2bdfc8aa34248bfc36b30f0a8a6f",
+      "claimedSHA256": "ab8ead48b7b4a913e9b41abea00f119d3d17bec79f295fabaadc35e275ec3d91",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "be24b45daf2b325f392d9bc24f04298c23d1e185e9642d4cb9b3e4481a0ca6c2",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "f8e3d3aef6e2a86083eb433f2959a3b7bfa514642bff06cc65fd1ab5567d09f6",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "915e39fa169cd29a90300f1f7fcf1d04be964d8f2f8edd489beab1f4f99136bf",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "bbdf52dbbbc6eabd9ef72b5ccb3c3915a62a4ede2181bd12f1bb6b8429f97b8a",
+      "claimedSHA256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "41fb6fec4b647a018e4c46277d82d32ea27a7ad65e5a6e45e1b3c6729200f397",
+      "claimedSHA256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "3e9650491bb73f4bcc5ce63f0124f50e7062c285260e00f3dd7f7e4def3ad564",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "b3263efd3b34918c2a47d61c1bfda9aeacaef065cdd223e22220aea70e4961ae",
+      "claimedSHA256": "93e17200e630ec2e66881f680a8d07b390b46949d3b0248236d679ce1bcb16b2",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "959def8380a106449b3d17e10dc39e3aba6ddbbce075dad7849649bc35daaf76",
+      "claimedSHA256": "53deea4026a93ddc98624ff885986bd5fe72c66d6ea1495c763bdc04246266e3",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "581ad8cc506ff295062c7e684a2c6b3e80eb81ed66373b75e28a1cafa3b7e366",
+      "claimedSHA256": "0ca1185bf9a8ce5d43956146760b20516b28ce3b37c5203dae90e667fc73d6e4",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "511112be73fe1762b3c60ae6b94b64760ed576d2522df9be8836836a3c8b539e",
+      "claimedSHA256": "f3e517dc4e4d5de589a4e82cc74fd8938928112072c290c5b025a7f115d7965a",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "35a3ec42f1791725b6b40a0b725398d4f149a58becfafd5ce81fb7771a32c342",
+      "claimedSHA256": "1d7a491b67c695acffbd37cca9caa4502619dcb1825da1abdd840628b77b4afb",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "723ebd0b769a7ede0b9795a44cf4d8666a4611fb5c48e74295e20f84b5c8fd9a",
+      "claimedSHA256": "f9917b1c8006fa05e11e1076fc389a486fd74ad87dbe4857e9e935ffd66c916d",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 9,
+      "pointerSHA256": "257e519e6bbffab86198832617a7fed47da3466b0ca3130298b80e7b6f16d2f3",
+      "claimedSHA256": "c9f8d43f729eccb2adc5684516f151164cd41bd6197a7e454dc944f036e3dfab",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 10,
+      "pointerSHA256": "4d0115c49055cfad4f8e77d66c78ed799b65f9831497168162f8fb0b2a85be12",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 10,
+      "pointerSHA256": "5869df22042e36fdec52253d14db6a326c96e50c987dea7607ec1231fb6d4ad2",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 10,
+      "pointerSHA256": "f59242d9a0edf648db327abf5f9c1b579273e517798a5bd9d7e0e5adac7ef2b7",
+      "claimedSHA256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 10,
+      "pointerSHA256": "2e89bd51a6e0d2d3296650be18527624f2d264f5b1dc3ecf403aa46d7d937c52",
+      "claimedSHA256": "82af9cc5503eebed50bfb602558b6e273d86fce43474bc702a32f2c3e6e737f3",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "0cc2ca9e1121d6b6f7bee5ab6b340c063c1f4bb337d02a20d9dd29833dfe7021",
+      "claimedSHA256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "a82f1c3be357f733ee1605c31cd47e29a29d53b1c5a06278fa0c059bb3dc8b35",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "af46e8868fc5f1af5f073682d6a478d028ed2bdfc8aa34248bfc36b30f0a8a6f",
+      "claimedSHA256": "ab8ead48b7b4a913e9b41abea00f119d3d17bec79f295fabaadc35e275ec3d91",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "aad7211066cc31dcfa0a299c237eb627d748122bb4e4342ceecc5547b0819d92",
+      "claimedSHA256": "631bbef79db899e3c446e546b6bd9901dadf06191551217b8196aab9b456387b",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-independent-owner-review.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "2c963a24f157784829a3ba9bc5829552814b5f7f71ae305d2e6347a35c9cc2e1",
+      "claimedSHA256": "ebef57ee4c8c1499b9dbb8230457b3f9fabda200eedbe240aa9e4b957f319e23",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "be24b45daf2b325f392d9bc24f04298c23d1e185e9642d4cb9b3e4481a0ca6c2",
+      "claimedSHA256": "bdcd89824df711613e5367c6c0c78829945be461b8b3a77c633cb86e269edf6e",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "f8e3d3aef6e2a86083eb433f2959a3b7bfa514642bff06cc65fd1ab5567d09f6",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "915e39fa169cd29a90300f1f7fcf1d04be964d8f2f8edd489beab1f4f99136bf",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "bbdf52dbbbc6eabd9ef72b5ccb3c3915a62a4ede2181bd12f1bb6b8429f97b8a",
+      "claimedSHA256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "41fb6fec4b647a018e4c46277d82d32ea27a7ad65e5a6e45e1b3c6729200f397",
+      "claimedSHA256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "26ca766f2d97c1f136821f97ae46a88f3e0f7138ea2290ed68f1676011f909f1",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "9b7ca86130d1c4c31c742e4e5ab2b61e2b0042dfc84fded121d53f662d8508d8",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "ff2b5bd17762ffdd8e278a6f0d5db55ae89e465e541cf74082450c3dd559b02d",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "7ab7802c1a01811383dea19a419f9a739213f8f6a2998a155c83ed025609f3ed",
+      "claimedSHA256": "98b922274edc190e1e9a1f30f656a1224008b9784ac172d677eb5c7f8a58043d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "a3daa755ba7b07479c7c8b7b1593177b5f1d4ab2d152b6669f704a2d6c0d47bf",
+      "claimedSHA256": "ee7835988fe85706a0c8494b085b8d24291b7fc0967339f3daf540e65f8d6790",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/observations-and-untested-benefit-bridges-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "ff76399f6b0d071a84ba32161627098f76b42342245aad25aab69dfa1ca9b685",
+      "claimedSHA256": "8092de40c182fe9b857b06a1bb00a3ebe07802170b8cc9dccb6341259da9bc1d",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "cc3a58e2a5e9a0ebb6932737842bec3e827f9ee66944da30808cee87465fde9c",
+      "claimedSHA256": "534d6fccbc0cad47fbc96e42a79f869b9ff809aa034bf562d0e20b7b1d546843",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/observations-and-untested-benefit-bridges-v1-provenance.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "0800d5b95eaa488b44b99299a53c1e3bdb3662dde75ef6e61cd5121507a407da",
+      "claimedSHA256": "a4dbd0840119e3e9bdd3046d59c71245bccf08979f0752cbf79a7f86e5b005a4",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 12,
+      "pointerSHA256": "00ed8a66a03a3a8d4c6fdcec5204e9c4f9d3563d50bc42cb020f503b212c3140",
+      "claimedSHA256": "b02d00375b6201e80284a23550210ec6b49b803bc6e6ffca44002529f9690813",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "0cc2ca9e1121d6b6f7bee5ab6b340c063c1f4bb337d02a20d9dd29833dfe7021",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "6963947a07f4c2b73ef8b592ec92ae70662f07cab1ed33483dfa15c13fd549c6",
+      "claimedSHA256": "d7f50abe80ba8c2f8f4c2cae28fa42b3d15f4fc80d05117bbc4b7f66dbb808b3",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "833086de6655ab5dc666b82a47d7716437c5ef3105fad1123247f8863e4e9609",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "0348a4f00ccd54bbade060d58e5295b22c05d50359b45ed618339f6016ea6b13",
+      "claimedSHA256": "390dd0365b687a50716b14c8dcbc26a397639daa2a8aa7628ee0c0b56a8137b2",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "af46e8868fc5f1af5f073682d6a478d028ed2bdfc8aa34248bfc36b30f0a8a6f",
+      "claimedSHA256": "390dd0365b687a50716b14c8dcbc26a397639daa2a8aa7628ee0c0b56a8137b2",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "420b0322677c3060861d12a263878e2512f15d6123421aaf945edb98e01e9e77",
+      "claimedSHA256": "da2c095038ba69b5afcab3bc804f2adba93148e00707bd973235e6ba0949d6e1",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "be24b45daf2b325f392d9bc24f04298c23d1e185e9642d4cb9b3e4481a0ca6c2",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "f8e3d3aef6e2a86083eb433f2959a3b7bfa514642bff06cc65fd1ab5567d09f6",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "915e39fa169cd29a90300f1f7fcf1d04be964d8f2f8edd489beab1f4f99136bf",
+      "claimedSHA256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "bbdf52dbbbc6eabd9ef72b5ccb3c3915a62a4ede2181bd12f1bb6b8429f97b8a",
+      "claimedSHA256": "aa47da737b2f0bc1b243854a575c195bf70a4df70af8468b7faa20bd39c5c0b9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1-provenance.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "41fb6fec4b647a018e4c46277d82d32ea27a7ad65e5a6e45e1b3c6729200f397",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "3e9650491bb73f4bcc5ce63f0124f50e7062c285260e00f3dd7f7e4def3ad564",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "4ae79aae9d51552c7861e1a80975c0bacbd803febb9418e074b6af6882b24943",
+      "claimedSHA256": "4e698413d4639820a2b734ddfb8e0e293e4e4fd25606b406279fe572a2277a3f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "112271ab3ba4e51b13d437dfe5d617be78277021a4d26def68f1c0c57f147636",
+      "claimedSHA256": "be7258d09803512d4357ec75724ac9ad7613233c05ffd7f425404da81e026557",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "1c3c619a3afb6814c8ca0e7c6054ae5be3df7755f14831fa064719114f7e1c12",
+      "claimedSHA256": "8abfb9874167decdaf39e3cc959e1f9d157e66871442f132e011dc674c499b43",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "4dc620e1daffe740c50f20004a1d657e8a70b66ce1af42f856fd24469158bebc",
+      "claimedSHA256": "da2c095038ba69b5afcab3bc804f2adba93148e00707bd973235e6ba0949d6e1",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "130bc94a65031943674e6d443cf8ed492508c464b2d9d7f4ec03a2e442afbd1e",
+      "claimedSHA256": "6c834b9ea7b5b7d3f14effe235a72f50e51c5423d3387b4b9d0740a547999319",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "64d2eead4caaf85ae58d918b815ed820e4a0fc9b477ce1687db7b0f344a791e2",
+      "claimedSHA256": "9ad12101261c09efd76351819d3177a070a9f8f7e24d4ec00387bdf3410e2510",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "5584bd129c62eab6f6f5d49b3d5e53bb7e0b5d92a8dffe56ce570f6be76ded89",
+      "claimedSHA256": "fd002ed17789763b8d953ba57119338a4832f1939efff65339025191378caf61",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "8e2e5c9454de17a007c2bba7327b9fa381e84c384b803f93277156b1240bb639",
+      "claimedSHA256": "e8278927d76cfd8dce70e93e6f6f6d94451c98add641f931338df8c336934b6d",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "db487d61da13b5970e6016d254663c7269862247439aa2c21f3bab7a5eb7a661",
+      "claimedSHA256": "22b03d98c34ff09d18d1e94c20b1922a5f29752b656622249e62763f6c00fb45",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "6f8bfaa361391842cc6e949c54d4e48de06c092c55b8ccfe15940c3a58962c28",
+      "claimedSHA256": "4c3d5be8e6bf06c49df633f890268199676b8b3c8a6916d3acf5eb72e9821376",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "aa5a4804661760f7985c92aae643cf70323b3d074ab77454c792d661989709f4",
+      "claimedSHA256": "4f1ee09005a43d50033aefdd54bf2624647fd742c16b9c1058ef43cd9e7e3d30",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "60d7adc5af05396c8ca5424ce86a93c5086678cae0a8ef339d31ae67c2803959",
+      "claimedSHA256": "5dae3f8aa2e03ae8d3a04b1e07b391af0ad0bd7927c193eae6943a660ec51b63",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "75bd9871cfeb0f775ae14de6ab59271f85e479098d9a054994f2fdeed67b2d60",
+      "claimedSHA256": "1c9bfff5839e00708df718f6efa6e92d11d2ab219a50d49e7ecf0064fbfe282d",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 13,
+      "pointerSHA256": "4503501a06c6bf8bed9639d80ac7d9e658187f27bbc752655f0d806b762345fa",
+      "claimedSHA256": "ebc4b9c3a64d78ec076124424b614fbd0bc7a39695f6b11ceee6e706e3ce3013",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "0cc2ca9e1121d6b6f7bee5ab6b340c063c1f4bb337d02a20d9dd29833dfe7021",
+      "claimedSHA256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "af46e8868fc5f1af5f073682d6a478d028ed2bdfc8aa34248bfc36b30f0a8a6f",
+      "claimedSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "9d8a92768939fab438c93a2849ea199877fb8f60761d52e549f7ee7856fac0c0",
+      "claimedSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "4f1ffb37edc359fafe16b5692f50ef3a7f2fa199effceee7a90cd1101854e002",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "74cc1c0cd149ff1f16661fb95c9dfecc3d8ca03c04077c50e03fbe2019894193",
+      "claimedSHA256": "68dba1eecda749389d351b41ed518c225ac642146b0c3b565e43d46b336ac7ea",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "07d4696ce202a65657bcc0288a54b36a8f54da7492870b33c6d0dc80113a5961",
+      "claimedSHA256": "f139a933739ee37a7599de9e85aab8afb06566b7ac20bc6de1f7fae957188d1f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "e42b8a12b9f98055344ab46b6b6c6a724aa85d717885817e6074be33ba350c4e",
+      "claimedSHA256": "57a686b06ec8d1251db0da85bf54c4d75ee0dcd003db941e5f1d1be210c6056b",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "be24b45daf2b325f392d9bc24f04298c23d1e185e9642d4cb9b3e4481a0ca6c2",
+      "claimedSHA256": "6513226a0d103f4b8de4cbdda6df6bf976e0d5d926061cde2f07897b73c4ee8f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "f8e3d3aef6e2a86083eb433f2959a3b7bfa514642bff06cc65fd1ab5567d09f6",
+      "claimedSHA256": "0e43cf567de8c7338681a3911a19c887d12fdcad475137b7983a3c9ed8f5e929",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "915e39fa169cd29a90300f1f7fcf1d04be964d8f2f8edd489beab1f4f99136bf",
+      "claimedSHA256": "bf7b33804bc86af2ac1e9365f81b4974dd0a6797d2a7e2ae9a693e0fcee75b2f",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/group-frequency-and-unnamed-person-v1-provenance.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "bbdf52dbbbc6eabd9ef72b5ccb3c3915a62a4ede2181bd12f1bb6b8429f97b8a",
+      "claimedSHA256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "41fb6fec4b647a018e4c46277d82d32ea27a7ad65e5a6e45e1b3c6729200f397",
+      "claimedSHA256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/group-frequency-and-unnamed-person-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 14,
+      "pointerSHA256": "25e8e150649e8716e3d42a65f39ebe72ba2ae3825078016efef70f71f7c1f930",
+      "claimedSHA256": "ae9d4cedd9bd90d230cce332ac705f939822c532dafc502d325a30f16288da77",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "0cc2ca9e1121d6b6f7bee5ab6b340c063c1f4bb337d02a20d9dd29833dfe7021",
+      "claimedSHA256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "9f69dc3ab7b2f2feee13dff7733ad2503239f5162343e5852c7b383ecb07946e",
+      "claimedSHA256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "096bfe3ac1ea4fb9c35a43e649e8b8ce044c2049355d90422792b51c6dfffafe",
+      "claimedSHA256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "af46e8868fc5f1af5f073682d6a478d028ed2bdfc8aa34248bfc36b30f0a8a6f",
+      "claimedSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "9d8a92768939fab438c93a2849ea199877fb8f60761d52e549f7ee7856fac0c0",
+      "claimedSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "4f1ffb37edc359fafe16b5692f50ef3a7f2fa199effceee7a90cd1101854e002",
+      "claimedSHA256": "5437bba4182b053b4709fa97b150449ddee944e2c2f8b11b7da4bec68d248c96",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "74cc1c0cd149ff1f16661fb95c9dfecc3d8ca03c04077c50e03fbe2019894193",
+      "claimedSHA256": "f0af3c30c634132d13464dc37d6c8a7c1fe9027a4daba21253f96e8fd07a4854",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "07d4696ce202a65657bcc0288a54b36a8f54da7492870b33c6d0dc80113a5961",
+      "claimedSHA256": "adfbec79db7ca759f1df6b5ccada039cf0f1d1309110aa398cf5f8436daca36d",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "e42b8a12b9f98055344ab46b6b6c6a724aa85d717885817e6074be33ba350c4e",
+      "claimedSHA256": "dcfa4e8dc36998d6f2a07d7e0c0189db27637fef7048bc1602aafe9f989389ef",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "031e498812b98354cfd53fe702ae9aa4583eec45f2c306f9f82c633e9d1c7b08",
+      "claimedSHA256": "488ee2942bdea78591a22db39c8b4f1c9afba17227b311ffc9952578825e38b1",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "f57fa07c470046cd840285803b0bdb5446668848ce5d34676ccc6dc99208474f",
+      "claimedSHA256": "488ee2942bdea78591a22db39c8b4f1c9afba17227b311ffc9952578825e38b1",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "30cfe31f56c1cd92fb581a1706d2b330fd3ccc9cb97717b980050f97f4789744",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "59cf0c4230907ea74a4096157b8566442cc56f3d431bb10a2caae9f88f568d0f",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "aa9735a740f4fbe4c0f1b2c73826ef354e14ef60fc1b02de7ac6e91330e1dd75",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "be24b45daf2b325f392d9bc24f04298c23d1e185e9642d4cb9b3e4481a0ca6c2",
+      "claimedSHA256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "f8e3d3aef6e2a86083eb433f2959a3b7bfa514642bff06cc65fd1ab5567d09f6",
+      "claimedSHA256": "656fdc9e4ce5f1c0e85ea14135939d80703af72f70b6587cee85b3ea8796c77b",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "915e39fa169cd29a90300f1f7fcf1d04be964d8f2f8edd489beab1f4f99136bf",
+      "claimedSHA256": "d8043588a38dfbe48976259df8771138b17e860d9580d3eb4bf63f11a715c25e",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/mixture-weighting-and-missing-overlap-v1-provenance.json"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "bbdf52dbbbc6eabd9ef72b5ccb3c3915a62a4ede2181bd12f1bb6b8429f97b8a",
+      "claimedSHA256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "41fb6fec4b647a018e4c46277d82d32ea27a7ad65e5a6e45e1b3c6729200f397",
+      "claimedSHA256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/mixture-weighting-and-missing-overlap-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "0c9ce19f03ec1c675442e7c3ab8866807320cb2f35c622c61d977a5ab0e92fda",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "392725cea81f5bb1740b32352997c784b36292c00bd70d06287d8917e04bf459",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "4fd097707afcf8c03372cd420b7f8192a7ad3d822ab3bbfdd65ba51d25038f90",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "25e8e150649e8716e3d42a65f39ebe72ba2ae3825078016efef70f71f7c1f930",
+      "claimedSHA256": "4351889e9d56c5933413c65070e644b2c113fc7ec39ba080a631f3af2010e458",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "f4fa3fdf8e46eacbf149d26dfde02deb647a6eb5796bf7283bbc4eee678b6b41",
+      "claimedSHA256": "c83922fedbbf92f4d08b889db19692e6dd4d7a275e8879d05a65440aa7282ed6",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "38e8a0152dcd894e7a363dfbd02c55636ae39b72b9c782973b01c2f9e1a2fe55",
+      "claimedSHA256": "e17cbd9e75730c7802801d5de5cff91f36bb6b44080e88878f7d9f72ecb6853f",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "55979a9779168c636e09055f4f56b2d194c432e5ce65815fe47eb0a1668d65ec",
+      "claimedSHA256": "488ee2942bdea78591a22db39c8b4f1c9afba17227b311ffc9952578825e38b1",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "cfee240f6d8fd9e78ead75f3c135dd65388d27e0705b6343c11b45908b4b7aec",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "89689e7d6e7c1561b63243bb2937bad8849e756072bb578769d17c71df43bfde",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "69c876310bc7d206a41c56b01def260c762f9a1e5c506371358bf87bdbd3111c",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "22d85dcac4ae75dc5a184bb417cd0cb6ce944e95712df709a8ab5aef7547790d",
+      "claimedSHA256": "384b8cbf9dce80592db1a03435645aca3ba9aa1935636bc1766fb48c60d144e6",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 15,
+      "pointerSHA256": "6fca17af64a5b21ea3a49214146f5624c38f3ccc12708271386a7374dabaae13",
+      "claimedSHA256": "adfbec79db7ca759f1df6b5ccada039cf0f1d1309110aa398cf5f8436daca36d",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "71a3d9782a372f05c5a901d2a5ab38aca0aa0b61781214a63504b0c6b4ac614d",
+      "claimedSHA256": "390dd0365b687a50716b14c8dcbc26a397639daa2a8aa7628ee0c0b56a8137b2",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "4deb10dae5dcd8276f457a19b42b562bc1d36192c5d25915a7473b0c1d823594",
+      "claimedSHA256": "da2c095038ba69b5afcab3bc804f2adba93148e00707bd973235e6ba0949d6e1",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "835b4ed1e76ea067dc4f88cf601080737fddef910af664aeb260ce71e89b0e0b",
+      "claimedSHA256": "4d144f49b81a7a54e807baf6770c92c54fee4e2a8704a9e481cde20c4b8aa751",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "6963947a07f4c2b73ef8b592ec92ae70662f07cab1ed33483dfa15c13fd549c6",
+      "claimedSHA256": "d7f50abe80ba8c2f8f4c2cae28fa42b3d15f4fc80d05117bbc4b7f66dbb808b3",
+      "matchingAssignedOrAssociatedPaths": [],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "f59242d9a0edf648db327abf5f9c1b579273e517798a5bd9d7e0e5adac7ef2b7",
+      "claimedSHA256": "ee08e75546ebe4b695c41a277a993637214b7d6a2fcad260e68e82bc5ff45511",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/within-group-rates-and-mixture-reversal-b10-v1.txt"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "5cd3a0056bbfde50628bbbce4a6f1772eb3c6e99898e36bb39ef2be95191ae22",
+      "claimedSHA256": "70c111989b5b9a6970f4d368eaaf01af53c5c1b6675e2ac404d3e25c1e7805d9",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-light.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    },
+    {
+      "bodyIndex": 17,
+      "pointerSHA256": "f986fa8d03081458c5d8fcfd06e979a98a32faedb4d535e04060ec6752b8c442",
+      "claimedSHA256": "cff180fe4bbd587b827799e608177f658001e90c5849fd9a45d6c4b377a93950",
+      "matchingAssignedOrAssociatedPaths": [
+        "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/within-group-rates-and-mixture-reversal-b10-v1-dark.svg"
+      ],
+      "scope": "Unpaired historical seals do not establish current bytes, execution, creator identity or approval."
+    }
+  ],
+  "privateReferenceInstances": 73,
+  "privateReferences": [
+    {
+      "bodyIndex": 4,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 4,
+      "referenceSHA256": "3c952f809a9246c6bce5c76359151fc0322513c858139825aede99bc1e3b4deb",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 4,
+      "referenceSHA256": "62d21468ca533b6d1cda2403578aac58e9f2a8c1c153f22636bd7d3978dd1af7",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 4,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 4,
+      "referenceSHA256": "3c952f809a9246c6bce5c76359151fc0322513c858139825aede99bc1e3b4deb",
+      "claimedSHA256": "d4a0b6ba3d1bfd7f34594554f8285dca492f86bef31327286b417b26458c7654",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 4,
+      "referenceSHA256": "62d21468ca533b6d1cda2403578aac58e9f2a8c1c153f22636bd7d3978dd1af7",
+      "claimedSHA256": "19107d46b0b72d9a708ad236c468d2a726e5d5dea3f4e78f1763465c4e3392bd",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 5,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 6,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 6,
+      "referenceSHA256": "4e6bfea077966d10b13fffa436fb746c96b6537c6a3d318045d75b7baed49823",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 6,
+      "referenceSHA256": "a2b6f1702d10a544b417a70d48fe61856446fc2b78c78cf29f388a397a5d3c2b",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 6,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 6,
+      "referenceSHA256": "4e6bfea077966d10b13fffa436fb746c96b6537c6a3d318045d75b7baed49823",
+      "claimedSHA256": "ea187122b59b620f2b0844261c382c174066123f1df8e1db519b0abcea37abff",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 6,
+      "referenceSHA256": "a2b6f1702d10a544b417a70d48fe61856446fc2b78c78cf29f388a397a5d3c2b",
+      "claimedSHA256": "66adfbd734e460f1dd89d4994d37d55ef2d3875d3acefb80c2ffe64eeecdb013",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 7,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 8,
+      "referenceSHA256": "d1eba81264d4a5793466d9a16bc457aef3024142e673bab6389602163c963a1c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 8,
+      "referenceSHA256": "6972276fc2ce9fc527890218da184e08a0d45909960dc9267ecd4b5d75596659",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 8,
+      "referenceSHA256": "ce66096460d5ec9ee5361d7cf2bfcb6b13984e09b56ba9eeb6738fbc10914117",
+      "claimedSHA256": "47b92f1ec5dcaeeb6eb29c77dfa91ae72cd5cf2a7bba0c67e026aee419fb5e32",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 8,
+      "referenceSHA256": "0c0de35b14c7b67eb9b807df6d6f17a6b8730f7b1a21995b745f57130fe85f65",
+      "claimedSHA256": "72ff3aa46777ebb7fb5284d19a9357205fd1a1128965595504f86f51992f56f5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 8,
+      "referenceSHA256": "31c98b054fc1cfe7d6a366510f0e803c143413316400e000362b6119509e9199",
+      "claimedSHA256": "344e4befb136eb3b44a0a66ff2b480d7b68ef5271e351c4b40e5517dd9f00aa8",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "6ac044fed312282ff116aa87ab5be48c2a33af0c8114c180fa48f74b44bc2c72",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "6ac044fed312282ff116aa87ab5be48c2a33af0c8114c180fa48f74b44bc2c72",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "d89cf06757456959dbf34c4be0e6ca3c8b462a13fcec9667fbd275c12bdd4284",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "d89cf06757456959dbf34c4be0e6ca3c8b462a13fcec9667fbd275c12bdd4284",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "f6b38c8413a9b8b212a06dd96635a8e4b1041177dbce3be4c13b5545f3e8f60e",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "0db0d752c9bd9ac288c06460a3425486fe9ea0d1f4cec34ad4ad6ec18fd5da47",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "d89cf06757456959dbf34c4be0e6ca3c8b462a13fcec9667fbd275c12bdd4284",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "4827adeee964b7e8d7317d825cc6a0b05222cfe4afa26a8271d1ae64018938c7",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "28af7ef92da8581d10571dcbb1fd5a9e759b012fb88a5e0907caf734f7a50d38",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "7a43a2fd6801ec80c86d67fd212a655f3ccd003a8dd66bdbb59d8704c33ec6ca",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "28af7ef92da8581d10571dcbb1fd5a9e759b012fb88a5e0907caf734f7a50d38",
+      "claimedSHA256": "0ca1185bf9a8ce5d43956146760b20516b28ce3b37c5203dae90e667fc73d6e4",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 9,
+      "referenceSHA256": "7a43a2fd6801ec80c86d67fd212a655f3ccd003a8dd66bdbb59d8704c33ec6ca",
+      "claimedSHA256": "f3e517dc4e4d5de589a4e82cc74fd8938928112072c290c5b025a7f115d7965a",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 10,
+      "referenceSHA256": "6ac044fed312282ff116aa87ab5be48c2a33af0c8114c180fa48f74b44bc2c72",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 11,
+      "referenceSHA256": "6ac044fed312282ff116aa87ab5be48c2a33af0c8114c180fa48f74b44bc2c72",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "337c7c5eb4f6382f6fca1473a74a169ab79180fd5b6fd475d8dea06ed2cdbdec",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "6ac044fed312282ff116aa87ab5be48c2a33af0c8114c180fa48f74b44bc2c72",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "6ac044fed312282ff116aa87ab5be48c2a33af0c8114c180fa48f74b44bc2c72",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "d89cf06757456959dbf34c4be0e6ca3c8b462a13fcec9667fbd275c12bdd4284",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "6ac044fed312282ff116aa87ab5be48c2a33af0c8114c180fa48f74b44bc2c72",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "d89cf06757456959dbf34c4be0e6ca3c8b462a13fcec9667fbd275c12bdd4284",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "f6b38c8413a9b8b212a06dd96635a8e4b1041177dbce3be4c13b5545f3e8f60e",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "0db0d752c9bd9ac288c06460a3425486fe9ea0d1f4cec34ad4ad6ec18fd5da47",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 12,
+      "referenceSHA256": "f590d6e4d05e250c778ca78addf7c4600cb78e04dfa424165520d2bc04abcede",
+      "claimedSHA256": "ebef57ee4c8c1499b9dbb8230457b3f9fabda200eedbe240aa9e4b957f319e23",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "0d189bc4ce184ae01875b048ca5970c73937218642c5bc7558d2248aadc4e65f",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "4571c1fbc48d4133ba29af0713efab7b1721c77ecbe28f62af4c74888c4a631a",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "05d95170c66c8a3940b163873cf067b9680d7f8ea2a33df96728c48ed0a8fd98",
+      "claimedSHA256": "6c834b9ea7b5b7d3f14effe235a72f50e51c5423d3387b4b9d0740a547999319",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "fb6e457b7610a6f53eab73ee4ed105621809bf397485a441646d9ba3e99e3f7d",
+      "claimedSHA256": "9ad12101261c09efd76351819d3177a070a9f8f7e24d4ec00387bdf3410e2510",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "e5d43b06fe820b991289ec1b292556330d9ea177d024ad9b23dd801cd6f8bb6e",
+      "claimedSHA256": "fd002ed17789763b8d953ba57119338a4832f1939efff65339025191378caf61",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "c3e0c0632d0a52e095c530ac00cf6ccf2f72c74fb1f5ba8edd91afd52fc2b445",
+      "claimedSHA256": "e8278927d76cfd8dce70e93e6f6f6d94451c98add641f931338df8c336934b6d",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "e6c365b4314759f31223f57b3ef841e3ba139dac8f50956ed7a29be464b843cf",
+      "claimedSHA256": "22b03d98c34ff09d18d1e94c20b1922a5f29752b656622249e62763f6c00fb45",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "1916344365783c3c1dd1f34a5974f3dccefed704ac5d420c56af456d53cc3170",
+      "claimedSHA256": "4c3d5be8e6bf06c49df633f890268199676b8b3c8a6916d3acf5eb72e9821376",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "2eff0ee0d2e9a8173cc5c34e08670b1d5c03b81881d582d7af1aef00e4893815",
+      "claimedSHA256": "4f1ee09005a43d50033aefdd54bf2624647fd742c16b9c1058ef43cd9e7e3d30",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "c091a97f0d5f171c80aefccfc656e4396228e06349ecd12e46bd9a40fcd5a701",
+      "claimedSHA256": "5dae3f8aa2e03ae8d3a04b1e07b391af0ad0bd7927c193eae6943a660ec51b63",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "0ff1a28d18a2e8576de0bd2206a4b77be2a75cfa0a99cb3e8bfc386ca413532f",
+      "claimedSHA256": "1c9bfff5839e00708df718f6efa6e92d11d2ab219a50d49e7ecf0064fbfe282d",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 13,
+      "referenceSHA256": "0d406e5019d405501c63f6b41f0b1015448a43536ae90c84250b02bbca3d54e8",
+      "claimedSHA256": "ebc4b9c3a64d78ec076124424b614fbd0bc7a39695f6b11ceee6e706e3ce3013",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 14,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 14,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 14,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 14,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 14,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 15,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 15,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 15,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 15,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 15,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 15,
+      "referenceSHA256": "1c4ad66ad451e56b26158a6dc7b61052aa1925543398108853a4311b230c0ce5",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 15,
+      "referenceSHA256": "c923a9d7888e48dee977d899cf150c73c792e36635868dbe6c73a5565aa13e00",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 16,
+      "referenceSHA256": "717b5b2b397646f4040da8fa157804f81f8b3917a6800ab119dc2eaaeda2889e",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 16,
+      "referenceSHA256": "abd56e2fac4e95c565de77ad1f1e0fbd06ee4d971ec2c095772e2c9460eafa59",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 17,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    },
+    {
+      "bodyIndex": 18,
+      "referenceSHA256": "6a34fbbc8c2af0f4d250a2ee62e3ae43a2717d54736fa4dbdb9edf30391f033c",
+      "privateReferenceNotFollowed": true
+    }
+  ],
+  "privateReferencesNeverFollowed": true,
+  "historicalCreatorNativeBrowserAndApprovalClaimsNotCertified": true,
+  "approvalCredit": 0
+}

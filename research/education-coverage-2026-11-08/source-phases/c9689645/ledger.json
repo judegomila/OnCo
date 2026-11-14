@@ -816,6 +816,21 @@
       "version": "proposal-study-design-asset-summary-consumers-2026-11-14",
       "state": "126 actual current short-summary states: fourteen existing Simple texts and 112 explicit English fallbacks. All selected table values/review marks/long-summary loaders unchanged; no native-language acceptance.",
       "recordSnapshotSha256": "1642b4b52930eb30e07be9272808aed637124a322dac5821268f267f4844b0fd"
+    },
+    {
+      "version": "proposal-support-bodies-31-root",
+      "state": "Eight current registered root records, read completely and unchanged. No field, alias, relation, date, summary or registration edit.",
+      "recordSnapshotSha256": "fe8fedce4019814fd5bbb9a7f71192413387c4150b3596919f558ae62fc6cbcf"
+    },
+    {
+      "version": "proposal-support-bodies-31-peer",
+      "state": "Five actual frozen peer records, read completely; live head rechecked unchanged/open/draft/unmerged. No peer field edits or root integration.",
+      "recordSnapshotSha256": "f12b841e11a68a707b81d76df2e6751c5ad0508c7d8f7496fcc68e0f6746fe08"
+    },
+    {
+      "version": "proposal-reasoning-tools-asset-summary-consumers-2026-11-14",
+      "state": "Current short-summary states; no text or language-review changes; not graph entities.",
+      "recordSnapshotSha256": "12417453497bbd6ce2549ec6fe41f2ef1e1ba82a96a2b0d6bde326446c7e96da"
     }
   ],
   "sourcePhases": [],
@@ -823,18 +838,18 @@
     {
       "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
       "totalAssets": 1888,
-      "teachingAssets": 946,
-      "supportingAssets": 287,
-      "unclassifiedAssets": 655,
-      "unresolvedAssets": 703
+      "teachingAssets": 954,
+      "supportingAssets": 298,
+      "unclassifiedAssets": 636,
+      "unresolvedAssets": 684
     },
     {
       "guideRef": "c96896452386202405c435aa161bc5047919337a",
       "totalAssets": 1888,
-      "teachingAssets": 945,
-      "supportingAssets": 287,
-      "unclassifiedAssets": 656,
-      "unresolvedAssets": 704
+      "teachingAssets": 953,
+      "supportingAssets": 298,
+      "unclassifiedAssets": 637,
+      "unresolvedAssets": 685
     }
   ],
   "stats": {

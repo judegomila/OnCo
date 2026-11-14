@@ -1,0 +1,88 @@
+{
+  "reassessedSupportingBrief": {
+    "index": 19,
+    "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+    "versions": [
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 600,
+        "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+        "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+        "priorAssetScope": "supporting",
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      {
+        "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 600,
+        "sha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+        "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+        "priorAssetScope": "supporting",
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      }
+    ],
+    "versionsByteIdentical": true
+  },
+  "earlierCompleteDecisions": [
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+      "bytes": 600,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "supporting",
+      "review": {
+        "status": "reviewed",
+        "auditor": "Coordinator full-body support disposition",
+        "checkedAt": "2026-11-11",
+        "rationale": "Fictional earlier-detection construction brief with unchanged death date. Its arithmetic does not show a screening benefit. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg.",
+        "sectionHashes": [
+          "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b"
+        ],
+        "points": []
+      },
+      "sourceSha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "bodyRole": "mixed authoring and scientific construction",
+      "scopeReview": {
+        "auditor": "Coordinator full-body role review; no expert, owner or learner sign-off",
+        "checkedAt": "2026-11-11",
+        "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+        "rationale": "Fictional earlier-detection construction brief with unchanged death date. Its arithmetic does not show a screening benefit. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg."
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+      "bytes": 600,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/prompts/earlier-detection-same-outcome-date-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "supporting",
+      "review": {
+        "status": "reviewed",
+        "auditor": "Coordinator full-body support disposition",
+        "checkedAt": "2026-11-11",
+        "rationale": "Fictional earlier-detection construction brief with unchanged death date. Its arithmetic does not show a screening benefit. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg.",
+        "sectionHashes": [
+          "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b"
+        ],
+        "points": []
+      },
+      "sourceSha256": "befa088ad82842385f642ba46731309756e84641a6450eb4169ab35532ce509b",
+      "bodyRole": "mixed authoring and scientific construction",
+      "scopeReview": {
+        "auditor": "Coordinator full-body role review; no expert, owner or learner sign-off",
+        "checkedAt": "2026-11-11",
+        "gitBlob": "28cc7ce458e449cad9d6398a122a19b9f08e3207",
+        "rationale": "Fictional earlier-detection construction brief with unchanged death date. Its arithmetic does not show a screening benefit. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-dark.svg, wiki/education/concepts/evidence-and-statistics/reasoning-tools/images/earlier-detection-same-outcome-date-v1-light.svg."
+      }
+    }
+  ],
+  "earlierPacketBytesUntouched": true
+}

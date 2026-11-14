@@ -1,0 +1,270 @@
+{
+  "captures": [
+    {
+      "sourceId": "altman-cutpoint-crossref",
+      "status": 200,
+      "bytes": 2269,
+      "sha256": "b6d5a0f045a48edd86d0ac8eaf25054993c2c6a0995fdc2a33854dad3a8e202b",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "altman-cutpoint-epmc",
+      "status": 200,
+      "bytes": 3514,
+      "sha256": "6b59c37d6f5b5b898a31ea1cb71c958cbe761f8b67e08b998af9b3a9ded4d002",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "altman-dichotomy-bioc-json",
+      "status": 200,
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "disposition": "explicit-NCBI-error-not-publication",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "altman-dichotomy-bmj-html",
+      "status": 404,
+      "bytes": 44357,
+      "sha256": "237447c061d13eefa5ca5344c505c564fd49345f337c113286d65f42232a7067",
+      "disposition": "HTTP-access-failure",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "altman-dichotomy-crossref",
+      "status": 200,
+      "bytes": 2393,
+      "sha256": "3d58be7e104c5d3278da2b1328d8008307833cd1d67c5ce6989f6d814e191c94",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "altman-dichotomy-epmc",
+      "status": 200,
+      "bytes": 3301,
+      "sha256": "60f2d3fd56fe92dbfb0ad845bd6be2513f34fef0b4af2170d9e6efc631e07f2f",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "altman-dichotomy-html",
+      "status": 200,
+      "bytes": 21472,
+      "sha256": "63d69739363a3b8e03dbbe7ca6a29acee9538e2822bc5a959c1c155c697f153a",
+      "disposition": "challenge-page-not-publication",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "bh-author-pdf",
+      "status": 200,
+      "bytes": 1358125,
+      "sha256": "f3f7e2352a941403e812b7b5afee6094c9a31002d725dfcc25fc60ca3c240eab",
+      "disposition": "scanned-primary-PDF-five-native-pages-read-no-text-layer",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "bh-crossref",
+      "status": 200,
+      "bytes": 7792,
+      "sha256": "638ca7954181a05c32f48cb70b4a5785165ce857255e2dfd7aacce632dc6c6ac",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "bh-epmc",
+      "status": 200,
+      "bytes": 205,
+      "sha256": "2639bebaa750a1c65d74198b397b12cc69791441c84de1dd68f33107bae6bda9",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "by-crossref",
+      "status": 200,
+      "bytes": 12718,
+      "sha256": "ea7e2569fc7d5e52255d766740874a4c87ae995d1dcaf1e04d4cc0b17a76a60c",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "by-epmc",
+      "status": 200,
+      "bytes": 193,
+      "sha256": "6f986a2b54950c12a9a8a1e5cdf68b500ed2595d77af27357b53d4b41ac80b7d",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "by-publisher-html",
+      "status": 200,
+      "bytes": 1160,
+      "sha256": "05e1e43b512f59330405c9649b2495962ec3b49458b793f9596570fe071e5505",
+      "disposition": "challenge-wrapper-not-publication",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "calibration-crossref",
+      "status": 200,
+      "bytes": 21398,
+      "sha256": "35643cbf05c3ec3639a18b8745da4e8b778d92f801d7571fc2d8420a87dc3b26",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "calibration-epmc",
+      "status": 200,
+      "bytes": 8290,
+      "sha256": "1740dd2d8badc61306ff9b2192f433e12fcbb18fbe06410b8976b3e565c80747",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "calibration-html",
+      "status": 200,
+      "bytes": 168447,
+      "sha256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+      "disposition": "exact-prior-body-capture-reused-no-fresh-retrieval",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "cutoff-finder-crossref",
+      "status": 200,
+      "bytes": 14148,
+      "sha256": "c92e7e88b5599e47820825ba9e3e011568b3a2cbee3547046436da657fdaa479",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "cutoff-finder-epmc",
+      "status": 200,
+      "bytes": 6946,
+      "sha256": "23d0cc73367f19c33764f9f1cc925ed9db15be46edf86ca5d7c54ba801858d06",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "cutoff-finder-html",
+      "status": 200,
+      "bytes": 180614,
+      "sha256": "595540fddfb2057642f3a5bcc70d7efd85c1a16e8d72316a937965895eb4c3f9",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "fda-diagnostic-html",
+      "status": 200,
+      "bytes": 145266,
+      "sha256": "a3776eaaa0edcba2a8b4dc0fdf9494fc94c0be3ca5dd6475fa7535093ef60daa",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "fda-diagnostic-pdf",
+      "status": 200,
+      "bytes": 344921,
+      "sha256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "hanley-crossref",
+      "status": 200,
+      "bytes": 1991,
+      "sha256": "68101fe7be1dea801533659a371ea08f102e0d18f11e316061c27563a0881a45",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "hanley-epmc",
+      "status": 200,
+      "bytes": 3388,
+      "sha256": "829d8d06d87ec2ec15165bfc1c2d73ac1b7b204f17041fadaadba2fc91f377f2",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "r-padjust-html",
+      "status": 200,
+      "bytes": 11257,
+      "sha256": "6f94e1865b7ffdea6a8018cf6a84b6891798ecc568cea661e97ebaae533059b6",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "riley-crossref",
+      "status": 200,
+      "bytes": 15215,
+      "sha256": "869dd581c77154c0ccf4430a79198dd49ddaa4f83b105a1e40e9133b7321967c",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "riley-epmc",
+      "status": 200,
+      "bytes": 6624,
+      "sha256": "d50e167595c9894e96655d5ce6c5619e21b33357cf74823978cfcaf395ac726f",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "riley-html",
+      "status": 200,
+      "bytes": 370562,
+      "sha256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "tripod-ai-crossref",
+      "status": 200,
+      "bytes": 27043,
+      "sha256": "94cc7e06de87feb43b4e0e0ea0f5ca3d16310725aae7e92581c58f34516f2d6e",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "tripod-ai-epmc",
+      "status": 200,
+      "bytes": 17755,
+      "sha256": "46b4c8e08e24a06ffcd0b5a0c3be89e2457a82c9c3cd1b94d8872256fccd888f",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "tripod-ai-html",
+      "status": 200,
+      "bytes": 468777,
+      "sha256": "d430b1f7468734aa161b094afcaa1320d9099e4ea2e3387a665c435b245dd9f4",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "uno-crossref",
+      "status": 200,
+      "bytes": 8441,
+      "sha256": "19ac1350fafb865d9f017386ac0e6a0146fc0099e10f09f9ca08e5ff561a45ca",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "uno-epmc",
+      "status": 200,
+      "bytes": 6372,
+      "sha256": "647e293377483bb1a5318e3867090678e9edecd3ad23654cacfd7e65685068e4",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    },
+    {
+      "sourceId": "uno-html",
+      "status": 200,
+      "bytes": 258722,
+      "sha256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+      "disposition": "captured-primary-or-registry-response",
+      "rawCapturePreserved": true
+    }
+  ],
+  "challengeOrErrorBodiesNeverUsedAsPublicationEvidence": true,
+  "automaticParagraphExtractionIsNotReadingCredit": true
+}

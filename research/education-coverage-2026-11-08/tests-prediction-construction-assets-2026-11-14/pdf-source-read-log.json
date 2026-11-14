@@ -1,0 +1,101 @@
+[
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 1,
+    "pageTextSHA256": "759138e973a24488de1f80bdda7f242a012a52209903610fe1b7e5100140457a",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.753225+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 7,
+    "pageTextSHA256": "72d9305071fd391f6c19a75f756e378c596faf915e3122fb4f9ababfbb9bbb97",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.753361+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 8,
+    "pageTextSHA256": "609c6c5767b1d707dbb7eb6f208629ba32631408873bd5efe29900789de594cb",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.753367+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 6,
+    "pageTextSHA256": "94fa48679904e3d14763e7c34253ca0eb025f5022fab4912b60b812c2b030247",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:59.352569+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 9,
+    "pageTextSHA256": "7c612a77e43d2f5067ead9b4bd90c0add06f2101fc713b868858638f440f4597",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:59.352718+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 11,
+    "pageTextSHA256": "0e3e497ffe299bc6947c721268ac2e1c86266537e57a791895a8e23a143e7723",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:59.352731+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 15,
+    "pageTextSHA256": "79b038b190a9825bc09d43ffaa08d1f7ae4dee00055036d0b40b5b31d415d535",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:51:53.190670+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 16,
+    "pageTextSHA256": "abd3edf43555d3b65e23299c5ed2cf677af1368beb0924e0cca4c76c827e7111",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:51:53.190788+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 17,
+    "pageTextSHA256": "373f6516962768331e9afb73fabc9696fdbb03000e0900459e1eeaa973cf1977",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:51:53.210997+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 18,
+    "pageTextSHA256": "9a61848c348ea75cfcb2a2463e538031dc11d4cde7cf5b85921d44339ce7aba0",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:51:53.211110+00:00"
+  },
+  {
+    "sourceId": "fda-diagnostic-pdf",
+    "pdfPage": 34,
+    "pageTextSHA256": "a8dfda1e651a4a3f30f4d9af2d7e782c5422e4531d247dc7e81690ed6e57fa9c",
+    "captureSHA256": "4a5c66b8a05cdd71d0abc68d528c0f225a5382be9908a6517749ed030551bd0b",
+    "pdfTextReadAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:51:53.211118+00:00"
+  }
+]

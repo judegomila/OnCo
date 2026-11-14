@@ -1,0 +1,612 @@
+{
+  "version": "proposal-tests-prediction-asset-summary-consumers-2026-11-14",
+  "state": "Current short-summary states; no text or language-review changes; not graph entities.",
+  "records": [
+    {
+      "id": "ppv-es",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (es)",
+      "canonicalRecordId": "ppv",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-es",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (es)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-es",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (es)",
+      "canonicalRecordId": "roc-auc",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-es",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (es)",
+      "canonicalRecordId": "concordance-index",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-es",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (es)",
+      "canonicalRecordId": "calibration",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-es",
+      "kind": "reader-summary-entry",
+      "name": "External validation (es)",
+      "canonicalRecordId": "external-validation",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-es",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (es)",
+      "canonicalRecordId": "graph-reading",
+      "language": "es",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-zh",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (zh)",
+      "canonicalRecordId": "ppv",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-zh",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (zh)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-zh",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (zh)",
+      "canonicalRecordId": "roc-auc",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-zh",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (zh)",
+      "canonicalRecordId": "concordance-index",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-zh",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (zh)",
+      "canonicalRecordId": "calibration",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-zh",
+      "kind": "reader-summary-entry",
+      "name": "External validation (zh)",
+      "canonicalRecordId": "external-validation",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-zh",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (zh)",
+      "canonicalRecordId": "graph-reading",
+      "language": "zh",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-pt",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (pt)",
+      "canonicalRecordId": "ppv",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-pt",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (pt)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-pt",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (pt)",
+      "canonicalRecordId": "roc-auc",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-pt",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (pt)",
+      "canonicalRecordId": "concordance-index",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-pt",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (pt)",
+      "canonicalRecordId": "calibration",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-pt",
+      "kind": "reader-summary-entry",
+      "name": "External validation (pt)",
+      "canonicalRecordId": "external-validation",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-pt",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (pt)",
+      "canonicalRecordId": "graph-reading",
+      "language": "pt",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-hi",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (hi)",
+      "canonicalRecordId": "ppv",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-hi",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (hi)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-hi",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (hi)",
+      "canonicalRecordId": "roc-auc",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-hi",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (hi)",
+      "canonicalRecordId": "concordance-index",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-hi",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (hi)",
+      "canonicalRecordId": "calibration",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-hi",
+      "kind": "reader-summary-entry",
+      "name": "External validation (hi)",
+      "canonicalRecordId": "external-validation",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-hi",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (hi)",
+      "canonicalRecordId": "graph-reading",
+      "language": "hi",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-fr",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (fr)",
+      "canonicalRecordId": "ppv",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-fr",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (fr)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-fr",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (fr)",
+      "canonicalRecordId": "roc-auc",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-fr",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (fr)",
+      "canonicalRecordId": "concordance-index",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-fr",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (fr)",
+      "canonicalRecordId": "calibration",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-fr",
+      "kind": "reader-summary-entry",
+      "name": "External validation (fr)",
+      "canonicalRecordId": "external-validation",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-fr",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (fr)",
+      "canonicalRecordId": "graph-reading",
+      "language": "fr",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-de",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (de)",
+      "canonicalRecordId": "ppv",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-de",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (de)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-de",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (de)",
+      "canonicalRecordId": "roc-auc",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-de",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (de)",
+      "canonicalRecordId": "concordance-index",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-de",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (de)",
+      "canonicalRecordId": "calibration",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-de",
+      "kind": "reader-summary-entry",
+      "name": "External validation (de)",
+      "canonicalRecordId": "external-validation",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-de",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (de)",
+      "canonicalRecordId": "graph-reading",
+      "language": "de",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-ja",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (ja)",
+      "canonicalRecordId": "ppv",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-ja",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (ja)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-ja",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (ja)",
+      "canonicalRecordId": "roc-auc",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-ja",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (ja)",
+      "canonicalRecordId": "concordance-index",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-ja",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (ja)",
+      "canonicalRecordId": "calibration",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-ja",
+      "kind": "reader-summary-entry",
+      "name": "External validation (ja)",
+      "canonicalRecordId": "external-validation",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ja",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ja)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ja",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-ar",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (ar)",
+      "canonicalRecordId": "ppv",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "false-discovery-rate-ar",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (ar)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "roc-auc-ar",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (ar)",
+      "canonicalRecordId": "roc-auc",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "concordance-index-ar",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (ar)",
+      "canonicalRecordId": "concordance-index",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "calibration-ar",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (ar)",
+      "canonicalRecordId": "calibration",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "external-validation-ar",
+      "kind": "reader-summary-entry",
+      "name": "External validation (ar)",
+      "canonicalRecordId": "external-validation",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-ar",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (ar)",
+      "canonicalRecordId": "graph-reading",
+      "language": "ar",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "ppv-simple",
+      "kind": "reader-summary-entry",
+      "name": "Positive predictive value (PPV) (simple)",
+      "canonicalRecordId": "ppv",
+      "language": "simple",
+      "available": true,
+      "text": "Among people with a positive result, how many really meet the condition being tested? The answer depends on the test and the population."
+    },
+    {
+      "id": "false-discovery-rate-simple",
+      "kind": "reader-summary-entry",
+      "name": "False discovery rate (simple)",
+      "canonicalRecordId": "false-discovery-rate",
+      "language": "simple",
+      "available": true,
+      "text": "A multiple-testing rule limits the expected share of false findings among selected results under stated assumptions. It does not tell you which individual finding is false."
+    },
+    {
+      "id": "roc-auc-simple",
+      "kind": "reader-summary-entry",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC (simple)",
+      "canonicalRecordId": "roc-auc",
+      "language": "simple",
+      "available": true,
+      "text": "A score can put people in the right order while getting their numerical risks wrong. Good ranking alone does not show that using the score helps patients."
+    },
+    {
+      "id": "concordance-index-simple",
+      "kind": "reader-summary-entry",
+      "name": "C-index (concordance index), Harrell's and Uno's (simple)",
+      "canonicalRecordId": "concordance-index",
+      "language": "simple",
+      "available": true,
+      "text": "This measure checks whether predicted risk order matches observed event order. Unknown later outcomes need suitable handling."
+    },
+    {
+      "id": "calibration-simple",
+      "kind": "reader-summary-entry",
+      "name": "Calibration: reliability diagrams and the Brier score (simple)",
+      "canonicalRecordId": "calibration",
+      "language": "simple",
+      "available": true,
+      "text": "A risk estimate needs checking against what actually happens over the same time. A correct overall average can hide errors in lower- and higher-risk groups."
+    },
+    {
+      "id": "external-validation-simple",
+      "kind": "reader-summary-entry",
+      "name": "External validation (simple)",
+      "canonicalRecordId": "external-validation",
+      "language": "simple",
+      "available": false,
+      "text": null
+    },
+    {
+      "id": "graph-reading-simple",
+      "kind": "reader-summary-entry",
+      "name": "Reading scientific graphs (simple)",
+      "canonicalRecordId": "graph-reading",
+      "language": "simple",
+      "available": false,
+      "text": null
+    }
+  ],
+  "sources": [
+    {
+      "language": "es",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "zh",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "pt",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "hi",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "fr",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "de",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "ja",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "ar",
+      "selectedEntriesSha256": "5fab5a5b4cb69ed5b8f449662e54832272d13260c54b678b326e661fdc0af3ce"
+    },
+    {
+      "language": "simple",
+      "selectedEntriesSha256": "608c00d8848a6c1407cac011ef829a4df6f56a36501e6ad07487e112940023ca"
+    }
+  ],
+  "committedDataHead": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1"
+}

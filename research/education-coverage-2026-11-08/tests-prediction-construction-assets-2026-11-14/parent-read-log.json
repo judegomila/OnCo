@@ -1,0 +1,299 @@
+{
+  "completeLaterParents": 5,
+  "originalWholeByteIdentityReuses": 2,
+  "completeOriginalToLaterNonemptyDiffs": 3,
+  "acknowledgedSpans": [
+    {
+      "index": 0,
+      "parent": "ppv-and-base-rates",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 9232,
+      "spanSHA256": "f4d9e7c126a3f3eb19068f5622723940baf74ad4d28131e79df5b39e926ef14e",
+      "spanUTF8Bytes": 6012,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:17.810535+00:00"
+    },
+    {
+      "index": 1,
+      "parent": "ppv-and-base-rates",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 9232,
+      "totalChars": 9232,
+      "spanSHA256": "67b6a00a1116927e3a08768ae0db0a27174867d0c84a2dedc0eabe5b14b29a68",
+      "spanUTF8Bytes": 3242,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:17.810638+00:00"
+    },
+    {
+      "index": 2,
+      "parent": "ppv-and-base-rates",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 2032,
+      "totalChars": 2032,
+      "spanSHA256": "210ccdc64d604cf20967476041161b433f59af036f40b12a80ada3d72a9b08d2",
+      "spanUTF8Bytes": 2032,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:17.810641+00:00"
+    },
+    {
+      "index": 3,
+      "parent": "thresholds-and-cutpoints",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 7589,
+      "spanSHA256": "f8728b4e9e3d6095009559423ddfa33306e58a7aa4a2ccca2858a0dfb6aac942",
+      "spanUTF8Bytes": 6036,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:30.825581+00:00"
+    },
+    {
+      "index": 4,
+      "parent": "thresholds-and-cutpoints",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 7589,
+      "totalChars": 7589,
+      "spanSHA256": "22debc1c8d531e94c3a80a36a1b59ca4e55354248cfc40c31be3e8915aff3044",
+      "spanUTF8Bytes": 1589,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:30.825689+00:00"
+    },
+    {
+      "index": 5,
+      "parent": "false-discovery-rate",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 6822,
+      "spanSHA256": "52db4588c6059624016cff1916a76bd713005aba69f22dfa45d4b9c797f6f57f",
+      "spanUTF8Bytes": 6021,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:30.825692+00:00"
+    },
+    {
+      "index": 6,
+      "parent": "false-discovery-rate",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 6822,
+      "totalChars": 6822,
+      "spanSHA256": "a5a25a6a129ad2e13e76cd96b654d957a49597e982f91124b845ad9c1f5e058d",
+      "spanUTF8Bytes": 822,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:39.597875+00:00"
+    },
+    {
+      "index": 7,
+      "parent": "false-discovery-rate",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 890,
+      "totalChars": 890,
+      "spanSHA256": "9c15b814eb253237d90394575f2e9306a0403fd78349ffb5919aacedaff97f78",
+      "spanUTF8Bytes": 890,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:39.597983+00:00"
+    },
+    {
+      "index": 8,
+      "parent": "auc-and-c-index",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 7276,
+      "spanSHA256": "f8d2407a1989a4abdc6b1d635a1b8b670f2cbd20f68f6b4ea9d00cee3cafe98a",
+      "spanUTF8Bytes": 6012,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:30:39.597989+00:00"
+    },
+    {
+      "index": 9,
+      "parent": "auc-and-c-index",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 7276,
+      "totalChars": 7276,
+      "spanSHA256": "1d4d3bddd8c067d63850b2a277e48246a168f5ac77e4ac994dbb43821a85f7aa",
+      "spanUTF8Bytes": 1276,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:31:20.067696+00:00"
+    },
+    {
+      "index": 10,
+      "parent": "calibration",
+      "kind": "later-parent",
+      "startChar": 0,
+      "endChar": 6000,
+      "totalChars": 7365,
+      "spanSHA256": "fc312008969c0eaa7cd0b789b8303203b9599c3511b0c886e28938f98f043ae9",
+      "spanUTF8Bytes": 6000,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:31:20.067798+00:00"
+    },
+    {
+      "index": 11,
+      "parent": "calibration",
+      "kind": "later-parent",
+      "startChar": 6000,
+      "endChar": 7365,
+      "totalChars": 7365,
+      "spanSHA256": "485170cce1168792698e08584b4e49a343cbffac13c90f1d25abe0ffc42f1339",
+      "spanUTF8Bytes": 1365,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:31:20.067801+00:00"
+    },
+    {
+      "index": 12,
+      "parent": "calibration",
+      "kind": "original-to-later-diff",
+      "startChar": 0,
+      "endChar": 994,
+      "totalChars": 994,
+      "spanSHA256": "14d8651ad699d227612ea4d40b8b75f35768eae352b28873209966e0e7e2a5c2",
+      "spanUTF8Bytes": 994,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:31:41.592098+00:00"
+    },
+    {
+      "index": 13,
+      "parent": "ranking-calibration-dark-call",
+      "kind": "associated-complete-brief-with-prior-support-role",
+      "startChar": 0,
+      "endChar": 540,
+      "totalChars": 540,
+      "spanSHA256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26",
+      "spanUTF8Bytes": 540,
+      "readIntact": true,
+      "acknowledgedAtUTC": "2026-11-14T20:31:41.592216+00:00"
+    }
+  ],
+  "parents": [
+    {
+      "parent": "ppv-and-base-rates",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 8981,
+        "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+        "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 9254,
+        "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+        "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "thresholds-and-cutpoints",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 7625,
+        "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+        "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 7625,
+        "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+        "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": true,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "false-discovery-rate",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 6831,
+        "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+        "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 6843,
+        "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+        "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "auc-and-c-index",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 7288,
+        "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+        "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 7288,
+        "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+        "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": true,
+      "newOrdinaryGrade": false
+    },
+    {
+      "parent": "calibration",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+      "original": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "bytes": 7287,
+        "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+        "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "later": {
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "bytes": 7365,
+        "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+        "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046",
+        "priorAssetScope": null,
+        "identityVerifiedAgainstCurrentPinnedLedger": true
+      },
+      "wholeBytesIdentical": false,
+      "newOrdinaryGrade": false
+    }
+  ],
+  "additionalPaletteContextBytes": 540,
+  "noNewOrdinaryGrades": true
+}

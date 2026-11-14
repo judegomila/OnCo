@@ -1,0 +1,401 @@
+{
+  "anchors": [
+    {
+      "unit": "P33-P01",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P02",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P03",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P04",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P04",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P05",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P06",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P06",
+      "recordId": "graph-reading",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P07",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P08",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P09",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P10",
+      "recordId": "ppv",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-P10",
+      "recordId": "external-validation",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "dd1a63ca12e478f2b1af31a25b11556fec279863daa858b4af1aa746cf2dfb76",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F01",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F02",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F02",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F03",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F04",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F05",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F05",
+      "recordId": "false-discovery-rate",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "75ce7dd3cdc98174acbd74b7bd009efad5f4ae58ea96aec5834d9cbd6dc92d19",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F06",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-F07",
+      "recordId": "false-discovery-rate",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "2911da86e235b7ec18432d9f45543694e1ba71e6c15ffc32a871d091b1a40112",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A01",
+      "recordId": "roc-auc",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A02",
+      "recordId": "roc-auc",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A03",
+      "recordId": "roc-auc",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A03",
+      "recordId": "roc-auc",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A04",
+      "recordId": "concordance-index",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "dad07db65a7654a56f3ed523ea293c6171882a7b338a81082d4da0945c3104d7",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A04",
+      "recordId": "roc-auc",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A05",
+      "recordId": "concordance-index",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "dad07db65a7654a56f3ed523ea293c6171882a7b338a81082d4da0945c3104d7",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A06",
+      "recordId": "roc-auc",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A07",
+      "recordId": "concordance-index",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "981e84c8b72d0ebc7e3a21069776931d0777b61af645936df1f355ee17762167",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A07",
+      "recordId": "concordance-index",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "bcb123a0085cc4bae8995400826e52d2fee5dbab0a6f6ac95ad056d51319d0ad",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A07",
+      "recordId": "roc-auc",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A08",
+      "recordId": "roc-auc",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A08",
+      "recordId": "roc-auc",
+      "field": "summary",
+      "index": null,
+      "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-A08",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C01",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C02",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C02",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C03",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C04",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C05",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C06",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C06",
+      "recordId": "graph-reading",
+      "field": "notes",
+      "index": 1,
+      "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C07",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C08",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "6e7785d45138b4a631d522420cb7334c95aae7d324f01f2fc89b0e099aa33235",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C08",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C09",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 0,
+      "passageSha256": "6e7785d45138b4a631d522420cb7334c95aae7d324f01f2fc89b0e099aa33235",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    },
+    {
+      "unit": "P33-C09",
+      "recordId": "calibration",
+      "field": "notes",
+      "index": 2,
+      "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+      "whitespaceNormalizedDecodedReaderContainment": true
+    }
+  ],
+  "count": 49,
+  "allPass": true,
+  "rootOnly": true,
+  "peerContainmentDoesNotEstablishRootIntegration": true,
+  "hostedBrowserOrHydrationCheck": false
+}

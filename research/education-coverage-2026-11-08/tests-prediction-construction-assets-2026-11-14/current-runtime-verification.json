@@ -1,0 +1,14 @@
+{
+  "auditBaseCommit": "7a250df0b0482ada5ac2755c80ebfa70e315debe",
+  "lastDataCommit": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1",
+  "graphRecords": 23091,
+  "canonicalGraphChanges": 0,
+  "allGraphFingerprintsMatchGatedRuntime": true,
+  "codeDataPublicAndConsumersIdenticalToLastGatedData": true,
+  "selectedRootRecordsUnchanged": true,
+  "validationInheritedByExactIdentity": true,
+  "newFullGateRun": false,
+  "newAPIGeneration": false,
+  "newBuild": false,
+  "sourceOfGates": "research/education-coverage-2026-11-08/study-design-construction-assets-2026-11-14/validation.json"
+}

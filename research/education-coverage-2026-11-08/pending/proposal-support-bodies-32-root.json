@@ -1,0 +1,486 @@
+{
+  "version": "proposal-support-bodies-32-root",
+  "draft": 375,
+  "committedDataHead": "22f688261c6e35836d7b4fe2a0a46e814a4e04f1",
+  "auditBaseCommit": "7a250df0b0482ada5ac2755c80ebfa70e315debe",
+  "state": "Seven current registered root records, read completely and unchanged. No field, alias, relation, date, summary or registration edit.",
+  "records": [
+    {
+      "id": "ppv",
+      "kind": "term",
+      "name": "Positive predictive value (PPV)",
+      "aka": [],
+      "tldr": "Positive predictive value is the fraction of positive results that match the reference condition rather than being false positive calls. It depends on prevalence and the test's actual performance.",
+      "summary": "Positive predictive value is the proportion of positive test calls that meet a specified reference condition: true positives divided by true plus false positives. A positive result can be a true positive or a false positive; a false positive is a positive call in someone without that reference condition. Negative predictive value uses negative calls as its denominator. These differ from sensitivity and specificity, which start with reference-condition groups. The population base rate, reference standard, threshold and actual assay performance determine how the fractions should be interpreted.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values"
+        },
+        {
+          "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+          "url": "https://www.fda.gov/media/71147/download"
+        }
+      ],
+      "tags": [],
+      "related": [],
+      "cancers": [],
+      "sections": [],
+      "technologies": [
+        "mced"
+      ],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+        "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+        "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+        "Fictional examples hold sensitivity at 90 per cent and specificity at 95 per cent to isolate the base rate, with complete reference assessment and no indeterminate tests. Among 1,000 people with condition prevalence 10 per cent, 100 have the condition: 90 test positive, while 45 of the 900 without it test positive. PPV is 90/(90 + 45), about 67 per cent. At 2 per cent prevalence, 20 have the condition: 18 test positive and 49 of the other 980 test positive. PPV is 18/(18 + 49), about 27 per cent. The same assumed sensitivity and specificity therefore yield very different positive-call fractions. Actual performance can also change across populations. A negative test retains its detection limits, specimen timing and pretest context rather than guaranteeing absence of disease."
+      ],
+      "category": "Diagnostics & imaging"
+    },
+    {
+      "id": "false-discovery-rate",
+      "kind": "term",
+      "name": "False discovery rate",
+      "aka": [
+        "FDR",
+        "Benjamini-Hochberg procedure",
+        "BH procedure",
+        "q-value",
+        "FDR-adjusted p-value"
+      ],
+      "tldr": "The false discovery rate is the expected fraction of false findings among the findings a procedure selects, counted as zero when nothing is selected; it describes the shortlist as a set, not any one result.",
+      "summary": "False discovery rate is the expected proportion of false rejections among all rejections made by a multiple-testing procedure, taking the proportion as zero when none are made. It describes repeated use of that procedure under its assumptions. It is not the probability that each selected finding is false, a guaranteed false fraction in one list or evidence of biological importance or patient benefit.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Benjamini and Hochberg: controlling the false discovery rate (Journal of the Royal Statistical Society B 1995)",
+          "url": "https://doi.org/10.1111/j.2517-6161.1995.tb02031.x"
+        },
+        {
+          "label": "Benjamini and Yekutieli: false discovery rate control under dependency (Annals of Statistics 2001)",
+          "url": "https://doi.org/10.1214/aos/1013699998"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "p-value",
+        "statistical-significance",
+        "ppv",
+        "preclinical",
+        "prespecified-vs-post-hoc"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Write V for false rejections and R for all rejections: the false discovery proportion is V/R, defined as zero when R is zero, and FDR is its expectation. Family-wise error is the probability of at least one false rejection; the two coincide when every null hypothesis is true but generally differ otherwise. Benjamini-Hochberg sorts all m valid p-values, compares rank i with (i/m)q, finds the largest passing rank and selects everything through it. The original control result assumes independence; positive-dependence extensions and procedures for broader dependence have their own conditions. Correlation is not permission to ignore the procedure's assumptions.",
+        "Fictional Benjamini-Hochberg examples use target q = 0.05. For five sorted p-values 0.001, 0.008, 0.026, 0.080 and 0.200, rank bounds are 0.01, 0.02, 0.03, 0.04 and 0.05; rank 3 is the largest passing rank, selecting the first three. For three values 0.018, 0.030 and 0.060, bounds are about 0.0167, 0.0333 and 0.05; rank 1 fails its individual comparison but rank 2 passes, so the first two are selected. Do not stop at the first failure. The two illustrative plots use different labelled vertical ranges and test counts. Selection assigns neither finding a five per cent false probability.",
+        "Keep the complete hypothesis family and valid p-values, target, procedure and dependence assumptions, then report the selected set or adjusted values under that method. Correcting separate families and combining their hits does not automatically control the combined list. Q-values and adjusted p-values can name different calculations, so identify the actual method. Gene-, peptide- and protein-level identification claims also have different units; control at one level does not automatically transfer to another. The fraction of diagnostic positive calls that are false, one minus PPV, is a different quantity from the expected false-rejection fraction of a multiple-testing procedure. Omics selection prioritizes further investigation; it does not identify which hit is false or establish clinical utility."
+      ],
+      "category": "Methods and models"
+    },
+    {
+      "id": "roc-auc",
+      "kind": "term",
+      "name": "ROC-AUC, PR-AUC and time-dependent AUC",
+      "aka": [
+        "ROC-AUC",
+        "AUROC",
+        "ROC curve",
+        "area under the ROC curve",
+        "PR-AUC",
+        "AUPRC",
+        "precision-recall curve",
+        "average precision",
+        "time-dependent AUC",
+        "AUC(t)"
+      ],
+      "tldr": "ROC-AUC measures how a score orders cases and non-cases across thresholds. Ranking, calibrated probabilities and useful treatment decisions are separate questions.",
+      "summary": "A receiver operating characteristic curve plots sensitivity against one minus specificity across thresholds for a defined binary condition. Its area measures case versus non-case ranking; with the stated convention, tied scores receive half credit. An area of 0.5 represents chance ordering and 1 perfect ordering in those data. AUC is not the proportion of individual predictions that are correct, and it does not establish calibrated probabilities or a useful decision threshold.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Receiver_operating_characteristic",
+      "links": [
+        {
+          "label": "Wikipedia: precision and recall",
+          "url": "https://en.wikipedia.org/wiki/Precision_and_recall"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Receiver_operating_characteristic"
+        },
+        {
+          "label": "The meaning and use of the area under a receiver operating characteristic (ROC) curve.",
+          "url": "https://doi.org/10.1148/radiology.143.1.7063747"
+        },
+        {
+          "label": "Receiver Operating Characteristic Curve in Diagnostic Test Assessment",
+          "url": "https://doi.org/10.1097/JTO.0b013e3181ec173d"
+        },
+        {
+          "label": "On the C-statistics for evaluating overall adequacy of risk prediction procedures with censored survival data.",
+          "url": "https://doi.org/10.1002/sim.4154"
+        },
+        {
+          "label": "Evaluation of clinical prediction models (part 2): how to undertake an external validation study.",
+          "url": "https://doi.org/10.1136/bmj-2023-074820"
+        },
+        {
+          "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+          "url": "https://www.fda.gov/media/71147/download"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "concordance-index",
+        "calibration",
+        "accuracy-f1",
+        "biomarker"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Fictional case scores are 0.9 and 0.6; non-case scores are 0.7 and 0.2. Three of four case/non-case pairs have the higher case score, giving AUC 0.75, also the area under the stepped ROC curve. Squaring these positive scores preserves their ordering and AUC while changing their numerical probability values. The example therefore separates ranking from calibration. Half-credit for tied scores is an explicit convention; an observed AUC is an estimate with uncertainty, not a personal prediction guarantee.",
+        "Time-dependent AUC requires a named horizon, event-by-time cases, event-free controls and appropriate handling of incomplete follow-up. It is not interchangeable with a differently defined survival C-index. Evaluate locked predictions against reference outcomes on independent data, retain the estimator, uncertainty, case mix and censoring method, and examine relevant subgroups. Training-only performance and changed outcome definitions can mislead. Discrimination can change with population heterogeneity; it establishes neither calibrated risks, false-call consequences nor benefit from model-guided care.",
+        "ROC-AUC and precision-recall area summarize different features. In a thought experiment that changes prevalence while holding the case and non-case score distributions fixed, sensitivity and specificity at each threshold, and thus the ROC curve, stay fixed while precision changes. Actual population shifts can change those conditional distributions too, so ROC-AUC is not universally immune to case mix. A precision-recall curve can be informative for rare positive outcomes without being a universally superior summary for every task.",
+        "Not the pharmacokinetic AUC: in pharmacology 'AUC' also names the area under a drug concentration-time curve, a measure of exposure, which is unrelated to the area under a ROC or precision-recall curve (FDA clinical pharmacology labelling guidance lists AUC among exposure measures).",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/roc-auc-pr-auc."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "concordance-index",
+      "kind": "term",
+      "name": "C-index (concordance index), Harrell's and Uno's",
+      "aka": [
+        "C-index",
+        "concordance index",
+        "Harrell's C-index",
+        "Harrell's C",
+        "Uno's C-index",
+        "Uno's C",
+        "C-statistic",
+        "pooled C-index",
+        "stratified C-index",
+        "within-type C-index"
+      ],
+      "tldr": "A concordance measure checks whether predicted ordering agrees with observed outcome ordering. Survival versions must specify how follow-up and censoring are handled.",
+      "summary": "A survival C-index assesses whether a person predicted at higher risk experiences the event earlier in informative pairs. The estimand, follow-up horizon, handling of ties, comparable pairs and censoring assumptions matter. Harrell-style observed-pair estimates can depend on the censoring distribution. Uno and colleagues proposed a censoring-adjusted concordance estimator under stated assumptions. Neither version establishes calibrated probabilities or removes every source of follow-up bias.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Harrell et al., Evaluating the yield of medical tests (JAMA 1982)",
+          "url": "https://doi.org/10.1001/jama.1982.03320430047030"
+        },
+        {
+          "label": "Uno et al., On the C-statistics for evaluating overall adequacy of risk prediction procedures with censored survival data (Statistics in Medicine 2011)",
+          "url": "https://doi.org/10.1002/sim.4154"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "censoring-and-events",
+        "calibration",
+        "time-dependent-auc",
+        "hazard-ratio",
+        "organ-of-origin-signal"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Uno's 2011 method targets concordance within a prespecified follow-up period. Its basic derivation assumes censoring is independent of event time and predictors. It weights usable event pairs by the inverse square of the estimated probability of remaining uncensored at the earlier event time; that probability is estimated from the censoring distribution. This is not a claim that any amount or cause of missing follow-up is repaired, or that censoring always biases an unadjusted C-index upward. State the estimator, horizon and assumptions with its uncertainty.",
+        "Fictional survival scores predict earlier events at higher values. A has score 0.8 and an event at month 2; C has score 0.5 and an event at month 4, so their order is concordant. B has score 0.2 and is censored at month 1, leaving B's later event order relative to A or C unknown. B cannot be called event-free at month 4. Censoring does not automatically make a person a control, and a censored observation can still contribute to other informative comparisons when its timing permits.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/c-index."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "calibration",
+      "kind": "term",
+      "name": "Calibration: reliability diagrams and the Brier score",
+      "aka": [
+        "model calibration",
+        "calibrated probabilities",
+        "reliability diagram",
+        "reliability diagrams",
+        "calibration curve",
+        "Brier score",
+        "integrated Brier score",
+        "IBS",
+        "miscalibration",
+        "bootstrap-calibrated reliability"
+      ],
+      "tldr": "Calibration checks whether predicted probabilities match observed frequencies for the same population, outcome and time horizon. Correct ranking or a correct overall average is insufficient.",
+      "summary": "Calibration compares predicted probabilities with observed outcome frequencies in a defined population and time horizon. A model can rank people well while overstating their risks. Calibration curves and suitable summaries assess agreement with uncertainty. The Brier score averages squared differences between predicted probabilities and individual binary outcomes; it assesses overall prediction error rather than calibration alone. Incomplete follow-up and competing events need methods matched to the predicted outcome.",
+      "asOf": "2026-11-11",
+      "wikipedia": "https://en.wikipedia.org/wiki/Calibration_(statistics)",
+      "links": [
+        {
+          "label": "Wikipedia: Brier score",
+          "url": "https://en.wikipedia.org/wiki/Brier_score"
+        },
+        {
+          "label": "Graf et al., Assessment and comparison of prognostic classification schemes for survival data (Statistics in Medicine 1999)",
+          "url": "https://doi.org/10.1002/(SICI)1097-0258(19990915/30)18:17/18<2529::AID-SIM274>3.0.CO;2-5"
+        },
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Calibration_(statistics)"
+        },
+        {
+          "label": "Calibration: the Achilles heel of predictive analytics.",
+          "url": "https://doi.org/10.1186/s12916-019-1466-7"
+        },
+        {
+          "label": "Evaluation of clinical prediction models (part 2): how to undertake an external validation study.",
+          "url": "https://doi.org/10.1136/bmj-2023-074820"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "concordance-index",
+        "roc-auc",
+        "external-validation",
+        "uncertainty-quantification"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Compare predicted and observed frequencies across risk groups or a flexible calibration curve, with finite-sample uncertainty. Calibration-in-the-large compares the average prediction with the overall outcome rate. Under the named calibration model, slope below 1 suggests predictions that are too extreme and above 1 insufficient spread; intercept near 0 and slope near 1 still do not guarantee agreement everywhere on a flexible curve. A constant prediction can match average risk without ranking anyone. Conversely, high discrimination does not establish probability accuracy.",
+        "Two fictional 100-person groups have complete five-year outcomes. Predicting 20 and 40 per cent when 10 and 30 events occur preserves their group order but predicts 60 events instead of 40. In a second independent example, predictions of 10 and 50 per cent with 20 and 40 events give 60 predicted and 60 observed overall, or 30 per cent of 200, while both group predictions remain wrong. These invented comparisons illustrate distinct failures; they do not forecast a particular patient's outcome.",
+        "Retain predictions stored before outcomes, model and assay versions, endpoint, target population, treatment era and horizon. Compare frequencies at the same time using a calibration curve or named summary and uncertainty. Treating people censored before the horizon as event-free can mislead; account for incomplete follow-up and relevant competing events. Changed eligibility, care or baseline outcome frequency can change calibration, and an updated model needs evaluation. Checking only an overall average or displaying a narrow numerical range establishes little about model or input uncertainty. Calibration neither identifies which individual will have an event nor establishes benefit from acting on the model.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/calibration."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "external-validation",
+      "kind": "term",
+      "name": "External validation",
+      "aka": [
+        "external validation",
+        "externally validated",
+        "external cohort",
+        "independent cohort",
+        "independent validation",
+        "external test set",
+        "generalisability",
+        "generalizability"
+      ],
+      "tldr": "External evaluation estimates model performance on data not used to develop or tune it. The patients, setting and methods determine which transportability question it addresses; it does not by itself establish useful clinical decisions.",
+      "summary": "External evaluation applies an existing model to data outside its development and compares predictions with observed outcomes. The TRIPOD-Cluster explanation includes later-period data collected by the same investigators as well as data from another hospital, country or care setting. A different platform is not a universal requirement. Apparent performance uses the development data and can be optimistic. Internal validation with resampling can estimate optimism and performance for new people from the same source population; it is evidence about a different question, rather than no result. External evaluation quantifies performance and its uncertainty instead of conferring a universal pass or fail. Keep the locked method, population, outcome, follow-up and differences from development visible.",
+      "asOf": "2026-11-12",
+      "wikipedia": "https://en.wikipedia.org/wiki/External_validity",
+      "links": [
+        {
+          "label": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/External_validity"
+        },
+        {
+          "label": "Debray et al.: TRIPOD-Cluster explanation, development and evaluation (2023)",
+          "url": "https://doi.org/10.1136/bmj-2022-071058"
+        },
+        {
+          "label": "Michiels et al.: repeated-split reanalysis of seven microarray prognosis studies (2005)",
+          "url": "https://doi.org/10.1016/S0140-6736(05)17866-0"
+        }
+      ],
+      "tags": [
+        "cansim-terms"
+      ],
+      "related": [
+        "idea-tr2-ai-external-validation-registry",
+        "idea-data-multisite-validation-precondition",
+        "cancer-ai-vocabulary"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [
+        "train-test-discipline",
+        "domain-adaptation",
+        "calibration",
+        "analytical-vs-clinical-validation"
+      ],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Follow the people behind a performance plot: eligibility, selection, care, sample quality, failures and missing outcomes. Identify every variable-selection, preprocessing and threshold choice and whether outcomes were known when those choices were made. Good performance on ideal specimens or the development patients may not describe practice. External evaluation uses data outside development, which can differ in hospital, calendar period, handling or care. The data and evaluation need to be independent of the tuning decisions; a new company logo supplies no such guarantee.",
+        "Two fictional slides illustrate the boundary. Slide A uses Hospital A patients and their known outcomes to select variables and a threshold, then reports performance on those same A patients. That is apparent performance; repeating the computation can check reproducibility without providing a new independent population test. Slide B fixes preprocessing, variables and threshold using A before applying the locked method to separate Hospital B patients. It reports B performance and the failed-test denominator, with no B outcomes fed back into tuning. This supports evaluation outside development, while suitable population, uncertainty, calibration and usefulness of clinical decisions remain separate questions. The patient icons are schematic and neither slide supplies a measured performance value.",
+        "Michiels and colleagues reanalysed the seven largest published microarray cancer-prognosis studies in their 2005 report using multiple random training and evaluation sets. They found unstable gene signatures and overoptimistic published estimates; five of the seven did not classify patients better than chance. That historical result supports retaining the entire selection and evaluation process, not a conclusion that every molecular model fails or that this one analysis establishes a universal validation method.",
+        "A model evaluated at a second hospital may still address advanced treated disease rather than the proposed postoperative use. Discrimination asks whether outcomes are ranked usefully; calibration asks whether stated probabilities agree with observed frequencies in comparable groups. Good ranking can coexist with inflated risk estimates, and good prognostic probabilities do not establish benefit from a treatment printed beside them. There is no single performance cutoff that makes every decision appropriate. If unchanged Hospital A samples are rerun, request an evaluation set held out from every tuning choice, a locked method, target population and outcome, all failure denominators and uncertainty. Internal resampling and independent external evaluation answer different performance questions; neither name alone is a clinical-use verdict.",
+        "Listed in the CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme; CanSim page path /terms/external-validation."
+      ],
+      "provenance": {
+        "editedBy": "OnCo CanSim terms wave (Wikipedia summaries, standards and project pages, GDC and FDA pages, Europe PMC)",
+        "editedOn": "2026-09-24",
+        "note": "CanSim terms map 1.0.0 (docs/onco/terms.json, generated 2026-09-24), CC BY 4.0, attribution: CanSim project, an open, public-data-first cancer foundation-model programme"
+      },
+      "category": "Methods and models"
+    },
+    {
+      "id": "graph-reading",
+      "kind": "term",
+      "name": "Reading scientific graphs",
+      "aka": [
+        "graph reading",
+        "figure reading",
+        "five-pass graph reading"
+      ],
+      "tldr": "Read a graph with its caption and methods: identify who was measured, what changed, the outcome, the comparison and the uncertainty. A visible pattern does not supply those missing details.",
+      "summary": "A scientific graph needs its caption and methods to identify the population, independent measurement unit, intervention, outcome, comparison and uncertainty. Axis scale, baseline and time origin can change what a visible difference means. Biological units and repeated technical measurements must remain distinct, and different error bars describe different quantities. A plotted association, growth reduction or late survival plateau requires its own interpretation before any claim about causality or patient benefit.",
+      "asOf": "2026-11-10",
+      "links": [
+        {
+          "label": "SuperPlots: Communicating reproducibility and variability in cell biology.",
+          "url": "https://doi.org/10.1083/jcb.202001064"
+        },
+        {
+          "label": "NIST: graphical techniques",
+          "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda33.htm"
+        },
+        {
+          "label": "CONSORT 2025: reporting randomized trials",
+          "url": "https://www.bmj.com/content/389/bmj-2024-081123"
+        },
+        {
+          "label": "OncoGuide: reading-a-graph-in-five-passes (pinned teaching source)",
+          "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "confidence-interval",
+        "hazard-ratio",
+        "kaplan-meier-curve"
+      ],
+      "cancers": [],
+      "sections": [
+        "drug-discovery"
+      ],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "Read a graph as an answer to a question before interpreting its shape. Establish who or what contributes independent observations, what intervention was given and when, which outcome and units the axes show, what baseline or control supplies the comparison, and what uncertainty or missing information remains. Entry criteria, dose, measurement site, time origin and follow-up can change the answer. A whole product and one component are different interventions; cell activity, tumour size, recurrence and survival are different outcomes. A mouse-volume graph cannot become a patient-survival result because the plotted separation is large. This five-pass reading habit is a teaching synthesis, not a score certifying a study; an explicitly unreported independent sample count remains useful information.",
+        "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+        "In a fictional animal experiment, four independent animals contribute to each group. Both groups start with average tumour volume 100 cubic millimetres; at day 28, control averages 1,000 and treated 300. The treated average is 70% below control but three times its starting size: reduced growth relative to control, rather than shrinkage below baseline. Twenty wells from one animal would still represent one independent animal. For a Kaplan-Meier curve, the same reading habit requires event definition, starting clock, censoring and numbers still at risk. A flat late tail based on few observations cannot support a precise late estimate simply because it looks stable."
+      ],
+      "provenance": {
+        "editedBy": "OnCo education audit",
+        "editedOn": "2026-11-10"
+      },
+      "category": "Methods and models"
+    }
+  ]
+}

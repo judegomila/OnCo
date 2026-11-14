@@ -1,0 +1,391 @@
+{
+  "publications": [
+    {
+      "sourceId": "hanley",
+      "intendedIdentifier": "10.1148/radiology.143.1.7063747",
+      "resolvedDOI": "10.1148/radiology.143.1.7063747",
+      "crossrefTitle": "The meaning and use of the area under a receiver operating characteristic (ROC) curve.",
+      "europePMCTitle": "The meaning and use of the area under a receiver operating characteristic (ROC) curve.",
+      "firstNamedCrossrefAuthor": "Hanley",
+      "europePMCAuthorString": "Hanley JA, McNeil BJ.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            1982,
+            4
+          ]
+        ]
+      },
+      "crossrefOnline": null,
+      "crossrefPrint": {
+        "date-parts": [
+          [
+            1982,
+            4
+          ]
+        ]
+      },
+      "europePMCYear": "1982",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "uno",
+      "intendedIdentifier": "10.1002/sim.4154",
+      "resolvedDOI": "10.1002/sim.4154",
+      "crossrefTitle": "On the C‐statistics for evaluating overall adequacy of risk prediction procedures with censored survival data",
+      "europePMCTitle": "On the C-statistics for evaluating overall adequacy of risk prediction procedures with censored survival data.",
+      "firstNamedCrossrefAuthor": "Uno",
+      "europePMCAuthorString": "Uno H, Cai T, Pencina MJ, D'Agostino RB, Wei LJ.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            2011,
+            1,
+            13
+          ]
+        ]
+      },
+      "crossrefOnline": {
+        "date-parts": [
+          [
+            2011,
+            1,
+            13
+          ]
+        ]
+      },
+      "crossrefPrint": {
+        "date-parts": [
+          [
+            2011,
+            5,
+            10
+          ]
+        ]
+      },
+      "europePMCYear": "2011",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "bh",
+      "intendedIdentifier": "10.1111/j.2517-6161.1995.tb02031.x",
+      "resolvedDOI": "10.1111/j.2517-6161.1995.tb02031.x",
+      "crossrefTitle": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+      "europePMCTitle": null,
+      "firstNamedCrossrefAuthor": "Benjamini",
+      "europePMCAuthorString": null,
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            1995,
+            1,
+            1
+          ]
+        ]
+      },
+      "crossrefOnline": {
+        "date-parts": [
+          [
+            2018,
+            12,
+            5
+          ]
+        ]
+      },
+      "crossrefPrint": {
+        "date-parts": [
+          [
+            1995,
+            1,
+            1
+          ]
+        ]
+      },
+      "europePMCYear": null,
+      "europePMCHitCount": 0,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": true,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "by",
+      "intendedIdentifier": "10.1214/aos/1013699998",
+      "resolvedDOI": "10.1214/aos/1013699998",
+      "crossrefTitle": "The control of the false discovery rate in multiple testing under dependency",
+      "europePMCTitle": null,
+      "firstNamedCrossrefAuthor": "Benjamini",
+      "europePMCAuthorString": null,
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            2001,
+            8,
+            1
+          ]
+        ]
+      },
+      "crossrefOnline": null,
+      "crossrefPrint": {
+        "date-parts": [
+          [
+            2001,
+            8,
+            1
+          ]
+        ]
+      },
+      "europePMCYear": null,
+      "europePMCHitCount": 0,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": true,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "calibration",
+      "intendedIdentifier": "10.1186/s12916-019-1466-7",
+      "resolvedDOI": "10.1186/s12916-019-1466-7",
+      "crossrefTitle": "Calibration: the Achilles heel of predictive analytics",
+      "europePMCTitle": "Calibration: the Achilles heel of predictive analytics.",
+      "firstNamedCrossrefAuthor": "Van Calster",
+      "europePMCAuthorString": "Van Calster B, McLernon DJ, van Smeden M, Wynants L, Steyerberg EW, Topic Group ‘Evaluating diagnostic tests and prediction models’ of the STRATOS initiative.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "crossrefOnline": {
+        "date-parts": [
+          [
+            2019,
+            12,
+            16
+          ]
+        ]
+      },
+      "crossrefPrint": {
+        "date-parts": [
+          [
+            2019,
+            12
+          ]
+        ]
+      },
+      "europePMCYear": "2019",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [
+        "On behalf of Topic Group ‘Evaluating diagnostic tests and prediction models’ of the STRATOS initiative"
+      ],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "riley",
+      "intendedIdentifier": "10.1136/bmj-2023-074820",
+      "resolvedDOI": "10.1136/bmj-2023-074820",
+      "crossrefTitle": "Evaluation of clinical prediction models (part 2): how to undertake an external validation study",
+      "europePMCTitle": "Evaluation of clinical prediction models (part 2): how to undertake an external validation study.",
+      "firstNamedCrossrefAuthor": "Riley",
+      "europePMCAuthorString": "Riley RD, Archer L, Snell KIE, Ensor J, Dhiman P, Martin GP, Bonnett LJ, Collins GS.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            15
+          ]
+        ]
+      },
+      "crossrefOnline": {
+        "date-parts": [
+          [
+            2024,
+            1,
+            15
+          ]
+        ]
+      },
+      "crossrefPrint": null,
+      "europePMCYear": "2024",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "tripod-ai",
+      "intendedIdentifier": "10.1136/bmj-2023-078378",
+      "resolvedDOI": "10.1136/bmj-2023-078378",
+      "crossrefTitle": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+      "europePMCTitle": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods.",
+      "firstNamedCrossrefAuthor": "Collins",
+      "europePMCAuthorString": "Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, Ghassemi M, Liu X, Reitsma JB, van Smeden M, Boulesteix AL, Camaradou JC, Celi LA, Denaxas S, Denniston AK, Glocker B, Golub RM, Harvey H, Heinze G, Hoffman MM, Kengne AP, Lam E, Lee N, Loder EW, Maier-Hein L, Mateen BA, McCradden MD, Oakden-Rayner L, Ordish J, Parnell R, Rose S, Singh K, Wynants L, Logullo P.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            16
+          ]
+        ]
+      },
+      "crossrefOnline": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            16
+          ]
+        ]
+      },
+      "crossrefPrint": null,
+      "europePMCYear": "2024",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "altman-cutpoint",
+      "intendedIdentifier": "10.1093/jnci/86.11.829",
+      "resolvedDOI": "10.1093/jnci/86.11.829",
+      "crossrefTitle": "Dangers of Using \"Optimal\" Cutpoints in the Evaluation of Prognostic Factors",
+      "europePMCTitle": "Dangers of using \"optimal\" cutpoints in the evaluation of prognostic factors.",
+      "firstNamedCrossrefAuthor": "Altman",
+      "europePMCAuthorString": "Altman DG, Lausen B, Sauerbrei W, Schumacher M.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            1994,
+            6,
+            1
+          ]
+        ]
+      },
+      "crossrefOnline": null,
+      "crossrefPrint": {
+        "date-parts": [
+          [
+            1994,
+            6,
+            1
+          ]
+        ]
+      },
+      "europePMCYear": "1994",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "altman-dichotomy",
+      "intendedIdentifier": "PMC1458573",
+      "resolvedDOI": "10.1136/bmj.332.7549.1080",
+      "crossrefTitle": "The cost of dichotomising continuous variables",
+      "europePMCTitle": "The cost of dichotomising continuous variables.",
+      "firstNamedCrossrefAuthor": "Altman",
+      "europePMCAuthorString": "Altman DG, Royston P.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            2006,
+            5,
+            4
+          ]
+        ]
+      },
+      "crossrefOnline": {
+        "date-parts": [
+          [
+            2006,
+            5,
+            4
+          ]
+        ]
+      },
+      "crossrefPrint": {
+        "date-parts": [
+          [
+            2006,
+            5,
+            6
+          ]
+        ]
+      },
+      "europePMCYear": "2006",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    },
+    {
+      "sourceId": "cutoff-finder",
+      "intendedIdentifier": "10.1371/journal.pone.0051862",
+      "resolvedDOI": "10.1371/journal.pone.0051862",
+      "crossrefTitle": "Cutoff Finder: A Comprehensive and Straightforward Web Application Enabling Rapid Biomarker Cutoff Optimization",
+      "europePMCTitle": "Cutoff Finder: a comprehensive and straightforward Web application enabling rapid biomarker cutoff optimization.",
+      "firstNamedCrossrefAuthor": "Budczies",
+      "europePMCAuthorString": "Budczies J, Klauschen F, Sinn BV, Győrffy B, Schmitt WD, Darb-Esfahani S, Denkert C.",
+      "crossrefPublished": {
+        "date-parts": [
+          [
+            2012,
+            12,
+            14
+          ]
+        ]
+      },
+      "crossrefOnline": {
+        "date-parts": [
+          [
+            2012,
+            12,
+            14
+          ]
+        ]
+      },
+      "crossrefPrint": null,
+      "europePMCYear": "2012",
+      "europePMCHitCount": 1,
+      "normalizedCoreTitlesAgree": true,
+      "europePMCAbsenceIsNotIdentifierFailure": false,
+      "crossrefCollectiveAuthors": [],
+      "crossrefUpdateTo": null,
+      "exhaustiveCorrectionOrRetractionSearchClaimed": false
+    }
+  ],
+  "identifierIdentityIsNotClaimEntailment": true,
+  "metadataCaveats": [
+    "BH has a 1995 print date and retrospective 2018 online date; the 1995 article identity is retained.",
+    "Van Calster's Crossref record begins with a collective author; the first named author is retained separately.",
+    "BH and BY are absent from this Europe PMC DOI search but resolve through Crossref.",
+    "Altman 2006 was resolved from its supplied PMCID and independently checked DOI; its failed bodies and absent abstract remain unread."
+  ]
+}

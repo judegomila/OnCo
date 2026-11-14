@@ -1,0 +1,31 @@
+{
+  "rootOwnerEdits": 0,
+  "newCanonicalIds": 0,
+  "newAliases": 0,
+  "newRelations": 0,
+  "newRegistrations": 0,
+  "shortOrLongSummaryTextChanges": 0,
+  "asOfChanges": 0,
+  "actualPeerFieldsChanged": false,
+  "unappliedNewFieldProposals": [
+    {
+      "id": "P33-RC01",
+      "recordId": "sensitivity-specificity",
+      "field": "tldr",
+      "before": "Sensitivity is the share of people with the disease a test catches; specificity is the share of healthy people it correctly clears. No test scores 100% on both, and for screening the trade-off decides how many false alarms you get.",
+      "after": "At a stated threshold, sensitivity is the fraction of reference-condition cases called positive, and specificity is the fraction of reference non-cases called negative. Study estimates carry uncertainty and can change across populations.",
+      "beforeSha256": "384d2ac1e6b7d66abceea6c1065645e68bc812e59187975fab54a79d47cfffc4",
+      "afterSha256": "faf4072ddd2f611e47b23f715a553a22e0d9b8e2638b48a17de3a125f873e41c",
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourcePages": [
+        7,
+        8
+      ],
+      "applied": false,
+      "scope": "Adjacent retained lead correction; no original summary or dated fields are recertified."
+    }
+  ],
+  "reason": "Existing root and true peer owners carry the scoped scientific teaching. Two source-art layout units remain partial rather than being silently promoted to canonical representation. No new duplicate, review-date-only change or art-registration claim is made. The adjacent sensitivity/specificity lead requires a separately checked correction."
+}

@@ -1,0 +1,1103 @@
+{
+  "frozenAtUTC": "2026-11-14T20:35:00.522938+00:00",
+  "baseCommit": "7a250df0b0482ada5ac2755c80ebfa70e315debe",
+  "sourceFirstUnits": [
+    {
+      "id": "P33-P01",
+      "family": "ppv-and-base-rates",
+      "requirement": "Sensitivity, specificity, PPV and NPV condition on different reference-status or test-result groups.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Use a defined **reference standard**",
+      "sourceExcerptSHA256": "c190f6a3428b697d88ed76f9791e4d59acc34530394fa81903fbce9a86d75a56",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P02",
+      "family": "ppv-and-base-rates",
+      "requirement": "At 10% prevalence in 1000 fictional people, TP/FN/FP/TN are 80/20/90/810; PPV is 80/170, about 47.1%, and NPV 810/830, about 97.6%.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "80 true positives",
+      "sourceExcerptSHA256": "e424bba0f4f23ccd730cf79215fd155175d1f1898f1813c9a732a514b70ea002",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P03",
+      "family": "ppv-and-base-rates",
+      "requirement": "At 50% prevalence under the same stipulated performance, the four counts are 400/100/50/450; PPV is 400/450, about 88.9%, and NPV 450/550, about 81.8%.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "400 true positives",
+      "sourceExcerptSHA256": "2c4ae147534224fe19b93b03504b3cb931cb4ace59c9e5b85a1062f1658ed0a1",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P04",
+      "family": "ppv-and-base-rates",
+      "requirement": "The 80% sensitivity and 90% specificity are held fictional assumptions, not a guarantee across populations or a borrowed personal posterior.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Real populations can change sensitivity",
+      "sourceExcerptSHA256": "bbfe4a12a90a9aee3e6304c8905b69b01aa34a90c1374ee23531d5e7f45b1903",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P05",
+      "family": "ppv-and-base-rates",
+      "requirement": "The positive-call pool regroups the same people and adds no participants; sensitivity and PPV use the same TP numerator but different denominators.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "regroups the same positive people",
+      "sourceExcerptSHA256": "471380ce00688014a470cb66f5331e6a5b251387f7e6b78f5981a55bfccd8671",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P06",
+      "family": "ppv-and-base-rates",
+      "requirement": "All six plotted count bars use a common zero-based 0-to-1000 count scale; displayed conditional percentages do not normalize the bars.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Shared-scale count bars",
+      "sourceExcerptSHA256": "aa5e65bc5d4cc029a7237b3672cf8dff092284beb6e2aa4559dcd1ccf4da94d2",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P07",
+      "family": "ppv-and-base-rates",
+      "requirement": "Each fictional person has one test and reference assessment, with no missing or indeterminate results; the scenario does not resolve real missing outcomes.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "complete reference assessment and no indeterminate results",
+      "sourceExcerptSHA256": "19a9f380b35b5392260fb9c49a2111e9fb3d716ec66c2e325cec6850a457cb3f",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P08",
+      "family": "ppv-and-base-rates",
+      "requirement": "Agreement without an established reference condition is separate from diagnostic correctness, treatment prediction and benefit from acting.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Agreement is not proof",
+      "sourceExcerptSHA256": "c67c2315dab7d09618f85bd1e1f715b794b85ee875615e32938921321c1bcd2d",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P09",
+      "family": "ppv-and-base-rates",
+      "requirement": "The separate 5%-prevalence exercise gives 40 true positives and 95 false positives, PPV 40/135, approximately 29.6%.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "40/(40 + 95)",
+      "sourceExcerptSHA256": "ef5d47a30254a78c35990a19813f1a94e2534ea0126882cf37191e6166295b64",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P10",
+      "family": "ppv-and-base-rates",
+      "requirement": "Version, threshold, condition definition, reference verification and uncertainty determine performance; selective verification or an imperfect comparator can mislead.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Verifying mainly positive results",
+      "sourceExcerptSHA256": "048f403dbd8328be323a9267a3c99e1af8aa67f636760fb2423a47fb431f4392",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "1a9930faa8d413f58e79f3c81760ab6ef231f6a4c54b607f6da89eb2119c67b6",
+          "gitBlob": "9d32733762a18a738b006b54f9daaa8853fbb65d"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/ppv-and-base-rates.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "3e731534d40835f24bf055002b07976422c68281cd9ba72a6c4a3fc5c6419efa",
+          "gitBlob": "33e7ac63ddf5e33fb3590b8e60715daaa24118bb"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-K01",
+      "family": "ppv-and-base-rates",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T01",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Analytical, diagnostic, study-entry and treatment-action thresholds answer separate questions.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "An assay's detection limit",
+      "sourceExcerptSHA256": "cdfe982d72cbc41ae922f61a983749ecacb00593c04a6e6de1072199d485dc92",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T02",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Four reference-present scores 0.20/0.55/0.75/0.90 and six absent scores 0.10/0.25/0.35/0.45/0.60/0.80 keep fixed coordinates and classes.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "0.20, 0.55, 0.75 and 0.90",
+      "sourceExcerptSHA256": "328f5e0ff353f8fc752544150e8ac1d9f27f4a1c57a20762558140d451c4cc19",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T03",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "The >=0.7 rule produces TP/FP/FN/TN 2/1/2/5 and the >=0.4 rule 3/3/1/3, with their stated sensitivity, specificity and PPV.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Positive at score ≥0.7",
+      "sourceExcerptSHA256": "ea96296f5f5874fa560aca01fadc758a6178ec5aba17b13c23f44ac95f2ab78c",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T04",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "The exact positive direction and equality rule, units and missing-result handling belong to the threshold; the plotted samples do not fall exactly on a boundary.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "with equality included",
+      "sourceExcerptSHA256": "053e86bcd650989e4f8a1e30715178ad07f302ae7bdd1067cfc4ba20d197619c",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T05",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Lowering the line finds one additional affected sample and adds two false positives, without proving a better treatment decision or validated universal cutoff.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "finds one more affected sample",
+      "sourceExcerptSHA256": "6338ac27534e841105077cea88883eed9b840b9c00227482cb67cd82f602a19b",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T06",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Choosing a best cutpoint on the same outcomes can exaggerate performance; lock the rule and evaluate it independently.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Lock the rule",
+      "sourceExcerptSHA256": "47777e8077c049802931116d03ff6c14fe5772d237c75db4caa151d11b94ef45",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T07",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Categorization does not create binary biology or platform equivalence; decision consequences and uncertainty remain separate.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A value just across the line",
+      "sourceExcerptSHA256": "600544f7e85be2fbf5ab6d3b103fa5d076a9056401c3358d90b4239549d17b37",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/thresholds-and-cutpoints.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "745d14400aa348e9d72672a23c64d75dcf5b9f7b533dc45c881ecc8111c5ad21",
+          "gitBlob": "e083d0faacc3775ab20da6d6caea63bffb3b7e0e"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-K02",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F01",
+      "family": "false-discovery-rate",
+      "requirement": "FDR is the expected false-discovery proportion V/R, defined as zero when R=0; it differs from FWER except under the complete null.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "zero when no findings are selected",
+      "sourceExcerptSHA256": "1272a43c43241c12d7321ebc6bf5de970ec2ed8ddfa2894f253c77a5dcafee93",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+          "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+          "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F02",
+      "family": "false-discovery-rate",
+      "requirement": "BH sorts all m valid p-values, finds the largest rank satisfying p_i <= (i/m)q and selects every rank through it; the rule does not stop at the first failure.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "largest passing rank",
+      "sourceExcerptSHA256": "891e540cc3e46dc62b1e435bca3d418de0c34a59aba4899839e660730b768795",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+          "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+          "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F03",
+      "family": "false-discovery-rate",
+      "requirement": "The five-value toy list at q=0.05 has comparison values .01/.02/.03/.04/.05 and selects ranks 1 through 3.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "0.001, 0.008, 0.026, 0.080 and 0.200",
+      "sourceExcerptSHA256": "3803c342a7f945946b12fec1cb3af23692c7c22dd9abf794a00084645e519b30",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+          "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+          "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F04",
+      "family": "false-discovery-rate",
+      "requirement": "The three-value toy list selects ranks 1 and 2, although rank 1 fails its own comparison; the plots have separately labelled linear vertical scales.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "0.018, 0.030 and 0.060",
+      "sourceExcerptSHA256": "966207f88a8c77d0fad9941613240774019e076d77ee7edfd47b29a812aab2b9",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+          "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+          "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F05",
+      "family": "false-discovery-rate",
+      "requirement": "Selected points are not individually verified truths, and a target expected fraction is not a fixed realized false fraction or per-hit probability.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "each has a 5% probability",
+      "sourceExcerptSHA256": "12812984fb57842fc64ba83fe5c0cb8697a7d7c543671222bf345e49ebd3091f",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+          "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+          "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F06",
+      "family": "false-discovery-rate",
+      "requirement": "The original independence and later specified dependence conditions remain scoped; the toy plot supplies no general correlated-gene guarantee.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Correlated genes are not permission",
+      "sourceExcerptSHA256": "1a75ca8494dfe72d7fc6467e125b0b70c62de6b61130e041678ac551576e7959",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+          "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+          "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F07",
+      "family": "false-discovery-rate",
+      "requirement": "Test family, adjusted-value definition and peptide/protein/gene unit matter; a diagnostic false-positive-call fraction is separate from BH control.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "different calculations",
+      "sourceExcerptSHA256": "6445512a7a972c49cf51cc6d7055b31c8d7c44fd969273850eb3f31537168d99",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "8787ccd7532f6534c024e27ffa2ee7d5228cc837db8782800e381b3cdc28412f",
+          "gitBlob": "922e0c99ac574e30b1bd9ad0350c4898916aca2a"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/false-discovery-rate.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "34b4f58c41939f19c8532f9279c16d0462b4d073106fcefc79fe5714382c07d1",
+          "gitBlob": "0f94e81dd62be5f84125ee9c176e9a1c1b98ad48"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-K03",
+      "family": "false-discovery-rate",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A01",
+      "family": "auc-and-c-index",
+      "requirement": "Binary ROC plots sensitivity against 1-specificity across thresholds; pairwise AUC gives half credit to ties, with chance .5 and perfect ordering 1 under the convention.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "giving half credit to a tie",
+      "sourceExcerptSHA256": "521744217f4a38721862b2277b8dde64f9ee35e406490676118227227e7a9403",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A02",
+      "family": "auc-and-c-index",
+      "requirement": "Fictional cases .9/.6 and noncases .7/.2 yield three correct rankings among four case/noncase pairs, AUC .75.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "0.9 and 0.6",
+      "sourceExcerptSHA256": "e490ec222693d35b3b819a7284c4b028030ba5a1118e74ebcc9ce70eba024745",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A03",
+      "family": "auc-and-c-index",
+      "requirement": "Thresholds on those same scores yield vertices (0,0),(0,.5),(.5,.5),(.5,1),(1,1) and area .75; no extra people or curve smoothing supplies the area.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "an exact stepped ROC curve",
+      "sourceExcerptSHA256": "0cdb5e88bb7c88a721bcd2eaf1a22ccf6a9790338964182907a740380c4481b1",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A04",
+      "family": "auc-and-c-index",
+      "requirement": "The separate A-event-at-2/B-censored-at-1 scene leaves the later event order unknown and does not calculate survival concordance from binary ROC data.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "B’s observation ends at month 1",
+      "sourceExcerptSHA256": "a7d7c921246cf94e03a4dcb03968b8be19262f23f63b4cc2e86d91f77e61677b",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A05",
+      "family": "auc-and-c-index",
+      "requirement": "The table's A versus C event order is known and concordant; comparisons with B remain unknown, without treating all censored people as controls or discarding them from every possible comparison.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "A versus C has known event order",
+      "sourceExcerptSHA256": "d252b34e6dfaf8097c0fa1c6a5f912b3f2bec05b58e311ac78fa5df6fb3ed10d",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A06",
+      "family": "auc-and-c-index",
+      "requirement": "Squaring these positive scores preserves ranking and AUC while changing values that would require separate probability calibration.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Squaring all four positive scores",
+      "sourceExcerptSHA256": "639bc6b130bc3ff6bb9ed8867b06c6dd11276655b4b290fc614db901187fa287",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A07",
+      "family": "auc-and-c-index",
+      "requirement": "Named Harrell/Uno estimators, horizon, comparable pairs, censoring and assumptions define the survival question; time-specific AUC is a separate target.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "censoring distribution",
+      "sourceExcerptSHA256": "ef23901475dcc537d8704e4c2cd375e8b977f8a87270d94321422ed997506140",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A08",
+      "family": "auc-and-c-index",
+      "requirement": "Ranking alone establishes neither probability calibration, a useful action threshold nor clinical benefit.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "does not establish good calibration",
+      "sourceExcerptSHA256": "4b7a9c552f537126ea16272a30a1a59be0a1d8bdfa0d162b392005332cb31ed6",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/auc-and-c-index.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "92355045d47666c7ea5937f67312cb91ad9056f13eafcac6e0ed69880f3a0f29",
+          "gitBlob": "cd9c4260c8a7c1f379049d45072433fdecb31b95"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-K04",
+      "family": "auc-and-c-index",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C01",
+      "family": "calibration",
+      "requirement": "Both illustrative comparisons use groups of 100 with the same event definition and complete five-year follow-up.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Two equally sized fictional groups",
+      "sourceExcerptSHA256": "ab84ee1a0350c68fde9af3e5f038d6c33403ed5f2e79873bc14c5a13d1930ef6",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C02",
+      "family": "calibration",
+      "requirement": "The older cartoon's observed 10/100 and 30/100 versus predicted 20/100 and 40/100 show group ordering with overstated risks; they do not measure an individual AUC.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "The groups are ordered correctly",
+      "sourceExcerptSHA256": "36c293ef56e8872c347835dea36b5c99595864534618683a22e4746458050a73",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C03",
+      "family": "calibration",
+      "requirement": "The v2 first example gives 60 expected events versus 40 observed, with the same 20/10 and 40/30 group percentages.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "20 + 40 = 60",
+      "sourceExcerptSHA256": "2a4a10cc352341346eba9f1be0d2429d4dbe8f17e01fb9535d4ed3817f41b820",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C04",
+      "family": "calibration",
+      "requirement": "The separate second example predicts 10/50% and observes 20/40%, giving equal totals of 60 and average .30 while both group predictions remain wrong.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Predicted and observed totals are both 60",
+      "sourceExcerptSHA256": "e91af1306bf9586ac34385eab3abc5f563b0138ab41bf17e1ceba3c01d0dce5f",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C05",
+      "family": "calibration",
+      "requirement": "The two scenarios are separate fictional examples, not successive measurements, a recalibration result or measured validation.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Second, 60 expected",
+      "sourceExcerptSHA256": "2a9ed0c1c3ab2645ad2083b6d993a3fbee3a3b0f9fdaa4eb33a086a7b76c2121",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C06",
+      "family": "calibration",
+      "requirement": "The current v2 bars use matching zero-based 0-to-50% scales, exact eight values, unstacked predicted/observed bars and no invented uncertainty.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "Two aligned fictional charts",
+      "sourceExcerptSHA256": "2f6cb72e1663098a0ddf6e30d5c8e078faf4551ad6e6ddcbee8ff340c3cca7c6",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C07",
+      "family": "calibration",
+      "requirement": "Probability agreement across comparable observations does not identify the person who will have an event or show benefit from model-guided treatment.",
+      "directConstructionTeaching": true,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "it cannot say which person will recur",
+      "sourceExcerptSHA256": "60ca634b38546a06ab2f6bf97d6da061f993858ed581d1899c991e1ef2e3c7c3",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C08",
+      "family": "calibration",
+      "requirement": "Calibration-in-the-large, a specified intercept/slope model and a flexible curve assess different agreement properties; finite samples, censoring and competing events require suitable estimation.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "slope below one",
+      "sourceExcerptSHA256": "dff0137f4236d08746fd8d445a9d6f517c8255188819ee22d17e3196dae9fbf6",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C09",
+      "family": "calibration",
+      "requirement": "Changing context can change calibration; model updating needs evaluation, and a constant probability can match the mean without ranking people.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "scientific-or-premise-backed-teaching",
+      "sourceExcerpt": "updated version needs evaluation",
+      "sourceExcerptSHA256": "a368c282c1406d6235c824aa5eac8f8069d09c2a8e3b85c08c18ccade8d64ad8",
+      "parentVersions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "sha256": "56aaa56a3fc91c8cc74f4e5bdec9200f2bcdc81136977731a6e2518cf18dd4d8",
+          "gitBlob": "3fecbcd52f69df71dc380b7902d664f07319724f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/calibration.md",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "sha256": "6c05128cb27080d30a5db7fb790fd47e71f5ceb03409da2ad55d0961324aa583",
+          "gitBlob": "c92dbddfad01adc8fbc9d8a0966d83aa681de046"
+        }
+      ],
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-K05",
+      "family": "calibration",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-K06",
+      "family": "calibration-source-iterations",
+      "requirement": "The two old landscape PNGs and their original prompt retain the first illustration, while the pinned parent embeds the later two-example v2 pair. Preserve old source iterations without calling them the current embedded art.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false
+    }
+  ],
+  "priorGoalContextKnown": true,
+  "independentBlindInventoryClaimed": false,
+  "frozenBeforeFreshCanonicalCapture": true,
+  "counts": {
+    "total": 47,
+    "scientificOrPremiseBacked": 41,
+    "directConstructionTeaching": 26,
+    "constructionBoundary": 6
+  },
+  "scope": "Fifteen fully read assigned text bodies, the two assigned old PNGs, five complete later parents, two original whole-byte reuses, three full original differences, the complete 540-byte palette-only context call and ten freshly viewed current native variants. No source query, arithmetic execution or fresh canonical read has occurred in this cohort.",
+  "mainCredit": 0,
+  "liveCredit": 0
+}

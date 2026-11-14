@@ -1,0 +1,385 @@
+{
+  "arithmeticChecks": [
+    {
+      "calculation": "base-rate-10 TP/FN/FP/TN",
+      "result": "(80, 20, 90, 810)",
+      "expected": "(80, 20, 90, 810)",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-10 total",
+      "result": "1000",
+      "expected": "1000",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-10 positive-call regrouping",
+      "result": "170",
+      "expected": "170",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-10 PPV exact",
+      "result": "8/17",
+      "expected": "8/17",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-10 NPV exact",
+      "result": "81/83",
+      "expected": "81/83",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-10 PPV rounded",
+      "result": "47.1%",
+      "expected": "47.1%",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-10 NPV rounded",
+      "result": "97.6%",
+      "expected": "97.6%",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-50 TP/FN/FP/TN",
+      "result": "(400, 100, 50, 450)",
+      "expected": "(400, 100, 50, 450)",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-50 total",
+      "result": "1000",
+      "expected": "1000",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-50 positive-call regrouping",
+      "result": "450",
+      "expected": "450",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-50 PPV exact",
+      "result": "8/9",
+      "expected": "8/9",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-50 NPV exact",
+      "result": "9/11",
+      "expected": "9/11",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-50 PPV rounded",
+      "result": "88.9%",
+      "expected": "88.9%",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "base-rate-50 NPV rounded",
+      "result": "81.8%",
+      "expected": "81.8%",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "5% prevalence TP/FP",
+      "result": "(40, 95)",
+      "expected": "(40, 95)",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "5% prevalence PPV",
+      "result": "8/27",
+      "expected": "8/27",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "cutoff 7/10 TP/FP/FN/TN",
+      "result": "(2, 1, 2, 5)",
+      "expected": "(2, 1, 2, 5)",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "cutoff 7/10 sensitivity/specificity/PPV",
+      "result": "(Fraction(1, 2), Fraction(5, 6), Fraction(2, 3))",
+      "expected": "(Fraction(1, 2), Fraction(5, 6), Fraction(2, 3))",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "cutoff 2/5 TP/FP/FN/TN",
+      "result": "(3, 3, 1, 3)",
+      "expected": "(3, 3, 1, 3)",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "cutoff 2/5 sensitivity/specificity/PPV",
+      "result": "(Fraction(3, 4), Fraction(1, 2), Fraction(1, 2))",
+      "expected": "(Fraction(3, 4), Fraction(1, 2), Fraction(1, 2))",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "threshold lower finds/adds",
+      "result": "(1, 2)",
+      "expected": "(1, 2)",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "boundary equality called positive",
+      "result": "True",
+      "expected": "True",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "no plotted threshold ties",
+      "result": "False",
+      "expected": "False",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "BH .001,.008,.026,.080,.200 largest passing rank",
+      "result": "3",
+      "expected": "3",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "BH .018,.030,.060 largest passing rank",
+      "result": "2",
+      "expected": "2",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "BH three-test rank 1 fails own comparison",
+      "result": "True",
+      "expected": "True",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "binary four-pair concordance",
+      "result": "3",
+      "expected": "3",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "binary AUC",
+      "result": "3/4",
+      "expected": "3/4",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "explicit half-credit tie convention",
+      "result": "1/2",
+      "expected": "1/2",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "ROC vertices",
+      "result": "[(Fraction(0, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 2)), (Fraction(1, 2), Fraction(1, 2)), (Fraction(1, 2), Fraction(1, 1)), (Fraction(1, 1), Fraction(1, 1))]",
+      "expected": "[(Fraction(0, 1), Fraction(0, 1)), (Fraction(0, 1), Fraction(1, 2)), (Fraction(1, 2), Fraction(1, 2)), (Fraction(1, 2), Fraction(1, 1)), (Fraction(1, 1), Fraction(1, 1))]",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "ROC trapezoid area",
+      "result": "3/4",
+      "expected": "3/4",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "squared positive scores preserve all rankings",
+      "result": "[True, True, False, True]",
+      "expected": "[True, True, False, True]",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "survival A/C order",
+      "result": "(True, True)",
+      "expected": "(True, True)",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "B censored before both known events",
+      "result": "True",
+      "expected": "True",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "calibration first expected events",
+      "result": "60",
+      "expected": "60",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "calibration first observed events",
+      "result": "40",
+      "expected": "40",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "calibration second expected events",
+      "result": "60",
+      "expected": "60",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "calibration second observed events",
+      "result": "60",
+      "expected": "60",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "calibration second average",
+      "result": "3/10",
+      "expected": "3/10",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "calibration second group errors",
+      "result": "(Fraction(-1, 10), Fraction(1, 10))",
+      "expected": "(Fraction(-1, 10), Fraction(1, 10))",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    },
+    {
+      "calculation": "312px PPV predicted font size",
+      "result": "13",
+      "expected": "13",
+      "passed": true,
+      "fictionalOrMathematicalPremise": true
+    }
+  ],
+  "arithmeticCheckCount": 41,
+  "bhExamples": [
+    {
+      "pValues": [
+        ".001",
+        ".008",
+        ".026",
+        ".080",
+        ".200"
+      ],
+      "bounds": [
+        "1/100",
+        "1/50",
+        "3/100",
+        "1/25",
+        "1/20"
+      ],
+      "largestPassingRank": 3,
+      "selectedRanks": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "pValues": [
+        ".018",
+        ".030",
+        ".060"
+      ],
+      "bounds": [
+        "1/60",
+        "1/30",
+        "1/20"
+      ],
+      "largestPassingRank": 2,
+      "selectedRanks": [
+        1,
+        2
+      ]
+    }
+  ],
+  "themeGeometry": [
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/positive-calls-and-base-rates-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true,
+      "lightSHA256": "4e1493e76f14a217b0113175fa9f5315ee71014a73659920a023d4854f28f542",
+      "darkSHA256": "51d81d6c2dbaf378ce7f9e8a87b39d9646d9976420adb40e7f006a2afc02fc68"
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/fixed-scores-moving-cutpoints-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true,
+      "lightSHA256": "4dfa12f7cb6da71bc4c51f09d55e1089f7f5619e03900a58e4f2eaf6fb559e02",
+      "darkSHA256": "c087ae5e4cebd2dcfed6300bf42da82a20bb3d639b09e2f4de6a81f11054e04c"
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranked-p-values-and-step-up-selection-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true,
+      "lightSHA256": "95540b30a9aa9d0b6e8e3e839721a8c68c8b581b0c0687fc30b6677fc38eb8ef",
+      "darkSHA256": "7e85285a6e0be5564d8671454898ada0573022430c081e5861565387038a4a28"
+    },
+    {
+      "light": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-light.svg",
+      "dark": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/observed-pairs-roc-and-censored-order-v1-dark.svg",
+      "selectedGeometryAndTextEqual": true,
+      "lightSHA256": "640d1df1ecc25c2f585fb239155da7ea53ffc6870477650cf21dede9d268bbd5",
+      "darkSHA256": "284764d3b08fd980ea0648b9721a3f679f37397dc4ac6203a796ad4a34e6bb92"
+    }
+  ],
+  "portableSource": {
+    "codeSHA256": "e316055155e22e42573002858cb11aeb13241f63acf1dea9794704e73c3b7262",
+    "dataSHA256": "8b299767054cacbd2607d6118877b704f871c7c1c2f8c55107efd897146a2746",
+    "codeSyntaxParsed": true,
+    "sourceCodeExecuted": false,
+    "generatedFilesReproduced": 0,
+    "executionUnavailableBecause": [
+      "matplotlib",
+      "numpy"
+    ],
+    "currentPython": "3.14.5",
+    "currentArialSHA256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+    "declaredArialSHA256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+    "fontMatch": true,
+    "multifileBodyExecuted": false,
+    "referencedPrivatePathsFollowed": false
+  },
+  "mobileFontCalculationIsPredictionOnly": true,
+  "pngPixelPerfectEquivalenceClaimed": false,
+  "nativeArtRegisteredInGraph": false,
+  "sourceBytesChanged": false,
+  "clinicalEffectEstablished": false
+}

@@ -1,0 +1,72 @@
+{
+  "partlyRepresentedUnits": [
+    "P33-P06",
+    "P33-C06"
+  ],
+  "unmergedPeerDependentUnits": [
+    "P33-T01",
+    "P33-T02",
+    "P33-T03",
+    "P33-T04",
+    "P33-T05",
+    "P33-T06",
+    "P33-T07"
+  ],
+  "sourceDepthLimits": [
+    "Six complete returned abstracts, 52 acknowledged HTML blocks, eleven complete FDA PDF text pages and five complete BH native scan pages have reading credit. No whole paper or guidance is claimed.",
+    "Calibration HTML reuses the exact earlier capture hash; six paragraphs are newly read here, with no fresh retrieval claim.",
+    "The BY publisher response is an Incapsula challenge wrapper. The Altman PMC response is a challenge, its BMJ route is 404, and NCBI BioC returns an explicit error page. No challenge was bypassed, and extracted error-page blocks earn no reading credit.",
+    "The BH scan has no extractable text layer. Five full native page images were read; no OCR output or appendix-proof reading is claimed.",
+    "The portable PPV Python source was syntax-parsed but not executed because Matplotlib and NumPy are absent in this interpreter. No installation or exact-output reproduction is claimed.",
+    "Source-specific common count/rate axis constructions are verified in the native art but are only partly represented in canonical text. No image is registered in the graph.",
+    "Retained record assertions outside named teaching fields are not recertified. No clinical decision, main/live, expert, learner, owner or language acceptance is granted."
+  ],
+  "items": [
+    {
+      "id": "P33-A01",
+      "subject": "Seven cutpoint units depend on actual unmerged PR371 fields",
+      "status": "unmerged-contributor-dependency",
+      "action": "The frozen cutoff owner and current live head agree. Four direct construction units receive no root integration credit."
+    },
+    {
+      "id": "P33-A02",
+      "subject": "P33-P06 and P33-C06 source-specific layouts",
+      "status": "partial-canonical-representation",
+      "action": "The native count and rate scales are verified, but exact drawing constructions are not stored in canonical fields. Generic graph-reading guidance and numerical premises are preserved. No figure-registration or complete-field claim is made."
+    },
+    {
+      "id": "P33-A03",
+      "subject": "Retained sensitivity/specificity universal lead",
+      "status": "adjacent-correction-proposed",
+      "action": "The lead asserts that no test scores 100% on both. FDA describes study estimates and uncertainty, not this universal prohibition. RC01 supplies exact before/after fields; it is not applied or credited."
+    },
+    {
+      "id": "P33-A04",
+      "subject": "Current versus older calibration art",
+      "status": "source-iteration-boundary",
+      "action": "Retain both old landscape PNGs and their original prompt as teaching sources, while the pinned parent embeds the v2 two-example pair."
+    },
+    {
+      "id": "P33-A05",
+      "subject": "Portable generator execution and native product verification",
+      "status": "unperformed-execution-and-product-review",
+      "action": "Missing existing libraries prevent a fresh exact-output recipe run. Native source values and selected SVG geometry are checked. No install, hosted browser, mobile, accessibility, pixel-perfect PNG comparison or independent acceptance is claimed."
+    },
+    {
+      "id": "P33-A06",
+      "subject": "Cutpoint equality wording",
+      "status": "source-art-wording-note",
+      "action": "The footer says right of the line while the explicit positive rule includes equality. No plotted sample equals either boundary; retain the exact >= rule."
+    },
+    {
+      "id": "P33-A07",
+      "subject": "Unread Altman bodies and BY wrapper",
+      "status": "source-depth-boundary",
+      "action": "Identities and available abstracts are separate from body access. The cutoff claim is supported by the read Cutoff Finder passages, with no inherited Altman body reading or BY proof claim."
+    }
+  ],
+  "ordinaryScientificResidualsUnchanged": true,
+  "mainCredit": 0,
+  "liveCredit": 0,
+  "independentExpertOwnerLearnerLanguageAcceptance": false
+}

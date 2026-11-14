@@ -1,0 +1,73 @@
+{
+  "version": "proposal-support-bodies-32-peer",
+  "draft": 371,
+  "head": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+  "sourceSnapshot": "pr-371",
+  "state": "One actual frozen peer owner, read completely; current live head unchanged/open/draft/unmerged. No peer field edits or root integration.",
+  "records": [
+    {
+      "id": "biomarker-cutpoint-selection",
+      "kind": "term",
+      "name": "Biomarker cutoff selection and validation",
+      "aka": [
+        "biomarker cutpoint selection",
+        "data-derived biomarker threshold",
+        "optimal biomarker cutoff"
+      ],
+      "tldr": "The threshold used to call a test positive is part of the test's evidence. A cutoff selected because it looked best in one dataset needs evaluation beyond that same dataset.",
+      "summary": "The primary Cutoff Finder study demonstrated methods that optimize biomarker thresholds against distributions, outcomes or survival. Such an optimized split is a discovery result. Its performance must retain the selection procedure and be assessed with appropriate independent evaluation before a clinical rule is claimed. The assay scale and intended decision also matter: a threshold chosen for one drug or purpose is not automatically transferable to another.",
+      "asOf": "2026-11-11",
+      "links": [
+        {
+          "label": "Primary biomarker cutoff-optimization methods (2012)",
+          "url": "https://doi.org/10.1371/journal.pone.0051862"
+        },
+        {
+          "label": "FDA: reporting results of diagnostic-test studies",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+        },
+        {
+          "label": "Dichotomizing continuous predictors in multiple regression: a bad idea",
+          "url": "https://doi.org/10.1002/sim.2331"
+        },
+        {
+          "label": "CLSI: harmonized analytical terminology",
+          "url": "https://htd.clsi.org/listterms.asp?button=Submit"
+        },
+        {
+          "label": "FDA: statistical guidance for reporting diagnostic-test studies",
+          "url": "https://www.fda.gov/media/71147/download"
+        }
+      ],
+      "tags": [],
+      "related": [
+        "biomarker",
+        "prognostic-versus-predictive-biomarkers",
+        "data-leakage",
+        "external-validation"
+      ],
+      "cancers": [],
+      "sections": [],
+      "technologies": [],
+      "targets": [],
+      "drugs": [],
+      "companies": [],
+      "institutions": [],
+      "pathways": [],
+      "terms": [],
+      "trials": [],
+      "people": [],
+      "bottlenecks": [],
+      "keyPapers": [],
+      "journals": [],
+      "dependsOn": [],
+      "notes": [
+        "A cutpoint applies a category rule to a continuous measurement. Analytical thresholds concern detection or quantitation; diagnostic thresholds classify a defined reference condition; protocol entry cutoffs determine eligibility; treatment-selection thresholds require evidence for an action. Detectable, quantifiable, positive and actionable are separate claims. Categorizing a continuous score does not make biology binary or imply a sharp switch across the line. Nor are cutoffs automatically interchangeable across assays, scales, model versions, drugs or intended uses.",
+        "Keep continuous measurements, reference outcomes, intended action, exact cutoff, units, direction, boundary equality, missing-result handling and assay or model version. Report counts and performance uncertainty. In a fixed fully assessed dataset where higher scores are positive, lowering the cutoff cannot lose an existing positive call, but may find extra cases and add false calls; performance can stay unchanged across an empty score range. Selecting the most favourable outcome-based cutoff can exaggerate separation and discard continuous information. Disclose the search, lock the rule and independently evaluate it in a relevant population for the intended action. Statistical separation alone does not establish clinical benefit.",
+        "Fictional scores for four reference-affected samples are 0.20, 0.55, 0.75 and 0.90; six unaffected samples have 0.10, 0.25, 0.35, 0.45, 0.60 and 0.80. Count equality as positive. At score at least 0.7: TP 2, FP 1, FN 2, TN 5, giving sensitivity 50 per cent, specificity 83.3 per cent and PPV 66.7 per cent. At least 0.4: TP 3, FP 3, FN 1, TN 3, giving sensitivity 75 per cent, specificity 50 per cent and PPV 50 per cent. Lowering this cutoff finds one additional affected sample and creates two additional false calls; sensitivity alone does not choose the better clinical action.",
+        "A mathematical optimization is only as appropriate as its stated objective and error costs. Using the same fictional counts, stipulate cost 5 for a missed case and 1 for a false call: the 0.7 rule costs 11 units and the 0.4 rule 8. Reverse the emphasis to costs 1 and 10, and the totals become 12 and 31. The preferred rule changes without changing any test result. These invented costs are not clinical valuations; actual decisions require relevant benefits, harms and evidence, not a universal mathematical maximum."
+      ],
+      "category": "Biomarkers"
+    }
+  ]
+}

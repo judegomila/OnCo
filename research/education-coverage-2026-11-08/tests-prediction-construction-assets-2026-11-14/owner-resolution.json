@@ -1,0 +1,64 @@
+{
+  "registeredRootIds": [
+    "ppv",
+    "false-discovery-rate",
+    "roc-auc",
+    "concordance-index",
+    "calibration",
+    "external-validation",
+    "graph-reading"
+  ],
+  "actualPeerIds": [
+    "biomarker-cutpoint-selection"
+  ],
+  "peerHeads": [
+    {
+      "pr": 369,
+      "head": "baf8dccc3002944e5d0fc0460c5fb1b3066b49c5",
+      "state": "open",
+      "draft": false,
+      "merged": false,
+      "snapshotMatchesLiveHead": true,
+      "checkedAtUTC": "2026-11-14T20:45:12.312Z"
+    },
+    {
+      "pr": 371,
+      "head": "777023cf804d6a129cb8ddfac4c6f4aedf85e529",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "snapshotMatchesLiveHead": true,
+      "checkedAtUTC": "2026-11-14T20:45:12.312Z"
+    },
+    {
+      "pr": 373,
+      "head": "433fd33c4a377323ad826950165204ced7ebcddb",
+      "state": "open",
+      "draft": true,
+      "merged": false,
+      "snapshotMatchesLiveHead": true,
+      "checkedAtUTC": "2026-11-14T20:45:12.312Z"
+    }
+  ],
+  "completeRootReads": 8,
+  "completePeerReads": 2,
+  "unusedFullRootContextReads": [
+    "sensitivity-specificity"
+  ],
+  "unusedFullPeerContextReads": [
+    "test-agreement-versus-accuracy"
+  ],
+  "metadataOnlyOtherRootCandidates": [
+    "p-value",
+    "gamma-probes-dose-calibrators",
+    "mrna-protein-concordance"
+  ],
+  "metadataOnlyOtherPeerCandidates": [
+    "external-validation"
+  ],
+  "changedRootOwners": [],
+  "newOwners": 0,
+  "newAliases": 0,
+  "newRelations": 0,
+  "rootAbsenceDoesNotImplyNewIdentity": true
+}

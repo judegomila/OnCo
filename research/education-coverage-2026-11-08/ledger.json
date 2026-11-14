@@ -831,6 +831,21 @@
       "version": "proposal-reasoning-tools-asset-summary-consumers-2026-11-14",
       "state": "Current short-summary states; no text or language-review changes; not graph entities.",
       "recordSnapshotSha256": "12417453497bbd6ce2549ec6fe41f2ef1e1ba82a96a2b0d6bde326446c7e96da"
+    },
+    {
+      "version": "proposal-support-bodies-32-root",
+      "state": "Seven current registered root records, read completely and unchanged. No field, alias, relation, date, summary or registration edit.",
+      "recordSnapshotSha256": "8f2c58580b351ddd049b2f5ec407c5fa0f65f959982ebdb5b031722ddca5925f"
+    },
+    {
+      "version": "proposal-support-bodies-32-peer",
+      "state": "One actual frozen peer owner, read completely; current live head unchanged/open/draft/unmerged. No peer field edits or root integration.",
+      "recordSnapshotSha256": "0f170e1765da1196567476b4c2636db8dc015c4c15cb7997b935b438631626ba"
+    },
+    {
+      "version": "proposal-tests-prediction-asset-summary-consumers-2026-11-14",
+      "state": "Current short-summary states; no text or language-review changes; not graph entities.",
+      "recordSnapshotSha256": "597c61fe059363edde4c9a98d161eccdd2177ec64d3a22b1705437ac4a777d6a"
     }
   ],
   "sourcePhases": [
@@ -848,18 +863,18 @@
     {
       "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
       "totalAssets": 1888,
-      "teachingAssets": 954,
-      "supportingAssets": 298,
-      "unclassifiedAssets": 636,
-      "unresolvedAssets": 684
+      "teachingAssets": 963,
+      "supportingAssets": 306,
+      "unclassifiedAssets": 619,
+      "unresolvedAssets": 670
     },
     {
       "guideRef": "c96896452386202405c435aa161bc5047919337a",
       "totalAssets": 1888,
-      "teachingAssets": 953,
-      "supportingAssets": 298,
-      "unclassifiedAssets": 637,
-      "unresolvedAssets": 685
+      "teachingAssets": 962,
+      "supportingAssets": 306,
+      "unclassifiedAssets": 620,
+      "unresolvedAssets": 671
     }
   ],
   "stats": {

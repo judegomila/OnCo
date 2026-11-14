@@ -1,0 +1,67 @@
+[
+  {
+    "sourceId": "bh-author-pdf",
+    "sourcePDFSHA256": "f3f7e2352a941403e812b7b5afee6094c9a31002d725dfcc25fc60ca3c240eab",
+    "pdfPage": 2,
+    "printedPage": 289,
+    "imageSHA256": "9af0610b3f592a547ed48d80733843877219fb7e6886380e6892bae591ed38e5",
+    "completePageViewedAndRead": true,
+    "renderLongEdgePixels": 1900,
+    "textLayerAbsent": true,
+    "OCRClaimed": false,
+    "wholePaperRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:04.368204+00:00"
+  },
+  {
+    "sourceId": "bh-author-pdf",
+    "sourcePDFSHA256": "f3f7e2352a941403e812b7b5afee6094c9a31002d725dfcc25fc60ca3c240eab",
+    "pdfPage": 3,
+    "printedPage": 290,
+    "imageSHA256": "33060344161d1571a732527808c971e77653bb0c2d4f0d1fe170c3ab7f4c03c2",
+    "completePageViewedAndRead": true,
+    "renderLongEdgePixels": 1900,
+    "textLayerAbsent": true,
+    "OCRClaimed": false,
+    "wholePaperRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:04.368575+00:00"
+  },
+  {
+    "sourceId": "bh-author-pdf",
+    "sourcePDFSHA256": "f3f7e2352a941403e812b7b5afee6094c9a31002d725dfcc25fc60ca3c240eab",
+    "pdfPage": 4,
+    "printedPage": 291,
+    "imageSHA256": "513b44b374964f7accf402f9ed13cc10e6a4ee0a2278bcc51a10b7601f175b5f",
+    "completePageViewedAndRead": true,
+    "renderLongEdgePixels": 1900,
+    "textLayerAbsent": true,
+    "OCRClaimed": false,
+    "wholePaperRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:04.368722+00:00"
+  },
+  {
+    "sourceId": "bh-author-pdf",
+    "sourcePDFSHA256": "f3f7e2352a941403e812b7b5afee6094c9a31002d725dfcc25fc60ca3c240eab",
+    "pdfPage": 5,
+    "printedPage": 292,
+    "imageSHA256": "6b1929859d03ff490650853366c9129b5fe8f2bc4d254b991809202e87b27510",
+    "completePageViewedAndRead": true,
+    "renderLongEdgePixels": 1900,
+    "textLayerAbsent": true,
+    "OCRClaimed": false,
+    "wholePaperRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:04.368915+00:00"
+  },
+  {
+    "sourceId": "bh-author-pdf",
+    "sourcePDFSHA256": "f3f7e2352a941403e812b7b5afee6094c9a31002d725dfcc25fc60ca3c240eab",
+    "pdfPage": 6,
+    "printedPage": 293,
+    "imageSHA256": "44e5d3a5380f35ac33aed24db1889f4013dc7f9fe574603852871f789690194d",
+    "completePageViewedAndRead": true,
+    "renderLongEdgePixels": 1900,
+    "textLayerAbsent": true,
+    "OCRClaimed": false,
+    "wholePaperRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:04.369062+00:00"
+  }
+]

@@ -1,0 +1,955 @@
+{
+  "slots": 63,
+  "available": 5,
+  "EnglishFallbacks": 58,
+  "reviews": [
+    {
+      "id": "ppv",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "false-discovery-rate",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "roc-auc",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "concordance-index",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "external-validation",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    },
+    {
+      "id": "graph-reading",
+      "namedReviewedLanguages": [],
+      "marks": [
+        {
+          "lang": "es",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "zh",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "pt",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "hi",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "fr",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "de",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ja",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        },
+        {
+          "lang": "ar",
+          "mark": {
+            "text": "EN",
+            "title": "No translation yet; showing English. Propose one via Suggest an edit.",
+            "tone": "muted"
+          }
+        }
+      ]
+    }
+  ],
+  "longSummaryCaches": [
+    {
+      "id": "ppv",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "ppv",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "ppv",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "ppv",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "ppv",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "ppv",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "ppv",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "ppv",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "false-discovery-rate",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "roc-auc",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "concordance-index",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "calibration",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "external-validation",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "es",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "zh",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "pt",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "hi",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "fr",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "de",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "ja",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    },
+    {
+      "id": "graph-reading",
+      "language": "ar",
+      "stored": false,
+      "storedSHA256": null,
+      "sourceHash": null,
+      "accepted": false
+    }
+  ],
+  "storedLongCaches": 0,
+  "acceptedLongCaches": 0,
+  "selectedValuesReadTwiceAndUnchanged": true,
+  "languageReviewStampsChanged": 0,
+  "shortTextsChanged": 0,
+  "summaryTextsChanged": 0,
+  "independentLanguageAcceptance": false,
+  "ordinaryLayerRestored": true
+}

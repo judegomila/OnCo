@@ -1,0 +1,1851 @@
+{
+  "sourceFirstUnits": 47,
+  "canonicalTeachingRequirements": 41,
+  "fullyFieldRepresentedRequirements": 39,
+  "partlyFieldRepresentedNativeLayoutRequirements": 2,
+  "directConstructionTeachingRequirements": 26,
+  "proofs": [
+    {
+      "id": "P33-P01",
+      "family": "ppv-and-base-rates",
+      "requirement": "Sensitivity, specificity, PPV and NPV condition on different reference-status or test-result groups.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+          "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The four explicit formulas condition on the correct reference or test-result groups.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P02",
+      "family": "ppv-and-base-rates",
+      "requirement": "At 10% prevalence in 1000 fictional people, TP/FN/FP/TN are 80/20/90/810; PPV is 80/170, about 47.1%, and NPV 810/830, about 97.6%.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The note carries all four 10% counts and both conditional fractions; independent arithmetic matches the native labels.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P03",
+      "family": "ppv-and-base-rates",
+      "requirement": "At 50% prevalence under the same stipulated performance, the four counts are 400/100/50/450; PPV is 400/450, about 88.9%, and NPV 450/550, about 81.8%.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The note carries all four 50% counts and both rounded predictive values; independent arithmetic reconstructs the denominators.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P04",
+      "family": "ppv-and-base-rates",
+      "requirement": "The 80% sensitivity and 90% specificity are held fictional assumptions, not a guarantee across populations or a borrowed personal posterior.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        },
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+          "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The note labels fixed performance as fictional and explicitly allows actual population-dependent performance.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P05",
+      "family": "ppv-and-base-rates",
+      "requirement": "The positive-call pool regroups the same people and adds no participants; sensitivity and PPV use the same TP numerator but different denominators.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Separate the index-test result from a defined reference condition. Sensitivity is TP/(TP+FN), the positive fraction among reference cases; specificity is TN/(TN+FP), the negative fraction among reference non-cases. PPV is TP/(TP+FP), the reference-case fraction among positive calls; NPV is TN/(TN+FN), the reference-noncase fraction among negative calls. Base rate means prevalence of that reference condition in the intended tested population. Regrouping the same people by positive calls changes a denominator without adding participants.",
+          "passageSha256": "3ff6cffc5cb2b5ed37e477534612c58b59065d82ff18f0eda8037a5e3780a09c",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The note states that positive-call regrouping changes a denominator without adding participants.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P06",
+      "family": "ppv-and-base-rates",
+      "requirement": "All six plotted count bars use a common zero-based 0-to-1000 count scale; displayed conditional percentages do not normalize the bars.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        },
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+          "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "partial-source-layout-not-canonical",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The count premises and general linear-axis reading rule are stored, but the exact six-bar 0-to-1000 construction is verified only in source art and is not stated in a canonical field.",
+      "artifactConstructionBoundary": "The six 0-to-1000 bars are independently checked source drawing geometry. This exact construction is not claimed to appear in the graph reader.",
+      "remainingCanonicalTeaching": [
+        "The six 0-to-1000 bars are independently checked source drawing geometry. This exact construction is not claimed to appear in the graph reader."
+      ],
+      "sourceNativeLayoutVerified": true,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P07",
+      "family": "ppv-and-base-rates",
+      "requirement": "Each fictional person has one test and reference assessment, with no missing or indeterminate results; the scenario does not resolve real missing outcomes.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The note explicitly stipulates complete reference assessment and no indeterminate results; it does not repair missing outcomes in real studies.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P08",
+      "family": "ppv-and-base-rates",
+      "requirement": "Agreement without an established reference condition is separate from diagnostic correctness, treatment prediction and benefit from acting.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+          "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The note separates percent agreement from established condition status and denies treatment-benefit or surgery-omission inference.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P09",
+      "family": "ppv-and-base-rates",
+      "requirement": "The separate 5%-prevalence exercise gives 40 true positives and 95 false positives, PPV 40/135, approximately 29.6%.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Fictional groups each contain 1,000 people, with complete reference assessment, no indeterminate results and assumed sensitivity 80 per cent and specificity 90 per cent. At 10 per cent prevalence there are TP 80, FN 20, FP 90 and TN 810: PPV is 80/170, about 47.1 per cent, and NPV 810/830, about 97.6 per cent. At 50 per cent prevalence the counts are 400, 100, 50 and 450: PPV is 88.9 and NPV 81.8 per cent. At 5 per cent prevalence there are 40 true and 95 false positive calls, giving PPV 29.6 per cent. The examples hold performance fixed to isolate base rate; real populations can change performance too. High NPV can coexist with missed cases and is not a universal absence-of-disease guarantee.",
+          "passageSha256": "6a93dc8922556664676ba6576ba91a30b102680587a4c85336659809d894c667",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The note gives 40 true and 95 false calls with PPV 29.6%; the exact fraction independently recomputes.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-P10",
+      "family": "ppv-and-base-rates",
+      "requirement": "Version, threshold, condition definition, reference verification and uncertainty determine performance; selective verification or an imperfect comparator can mislead.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "ppv",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "d78dbc0b6ea0c8df3743bdee31e7ec5227386f75fa6672aaf1e91fc73b2c5aa2",
+          "supportingExcerpt": "Use test results and suitable independent reference outcomes in the intended population. Keep the locked threshold, condition definition, assay version, all four counts, confidence intervals and handling of missing or indeterminate results. Verifying only positive calls, using an imperfect comparator or borrowing another population's prevalence can mislead. Without a reference that establishes the condition, positive and negative percent agreement may be the appropriate descriptions; agreement does not prove either method correct. Imaging and pathological response are different assessments, so a comparison needs the population, regimen, definition, timing and surgical reference. Accuracy alone establishes neither treatment benefit nor safe surgery omission, and population fractions are not automatic personal probabilities.",
+          "passageSha256": "c69563670a673a77ddea0a0e375f58fdb093a7eb99f341731e1f8b95609b3db0",
+          "recordSha256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93"
+        },
+        {
+          "recordId": "external-validation",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "42d852f1c799884d6a44de160548d119c60085691d6e5ebf89d73df3545f20c7",
+          "supportingExcerpt": "Follow the people behind a performance plot: eligibility, selection, care, sample quality, failures and missing outcomes. Identify every variable-selection, preprocessing and threshold choice and whether outcomes were known when those choices were made. Good performance on ideal specimens or the development patients may not describe practice. External evaluation uses data outside development, which can differ in hospital, calendar period, handling or care. The data and evaluation need to be independent of the tuning decisions; a new company logo supplies no such guarantee.",
+          "passageSha256": "dd1a63ca12e478f2b1af31a25b11556fec279863daa858b4af1aa746cf2dfb76",
+          "recordSha256": "831a2dc7dec1160795cc77aafa5624f008698c6a8266204c40c4ba1891836199"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "fda-diagnostic-pdf"
+      ],
+      "sourceScope": "Eleven complete PDF text pages of FDA's dated 13 March 2007 nonbinding diagnostic-test guidance cover reference status, performance estimates, uncertainty, incomplete verification and equivocal results. The 80/90 performance values and prevalence scenarios are invented premises; all counts and fractions are independently recomputed. The glossary likelihood-ratio wording is not used. No current clinical policy or individual posterior is inferred.",
+      "semanticAssessment": "The field names population, locked threshold, version, reference outcomes, incomplete verification and uncertainty; the context field requires independence from tuning.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T01",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Analytical, diagnostic, study-entry and treatment-action thresholds answer separate questions.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "A cutpoint applies a category rule to a continuous measurement. Analytical thresholds concern detection or quantitation; diagnostic thresholds classify a defined reference condition; protocol entry cutoffs determine eligibility; treatment-selection thresholds require evidence for an action. Detectable, quantifiable, positive and actionable are separate claims. Categorizing a continuous score does not make biology binary or imply a sharp switch across the line. Nor are cutoffs automatically interchangeable across assays, scales, model versions, drugs or intended uses.",
+          "passageSha256": "6c10b9fe0a04be1d650c38831b830a9b40c4a1e77ff2ae726a9d3d5eb0944a1f",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "fda-diagnostic-pdf",
+        "cutoff-finder",
+        "cutoff-finder-html"
+      ],
+      "sourceScope": "Cutoff Finder's complete abstract and three targeted full paragraphs explicitly describe optimization, multiplicity, overestimation and subsequent evaluation of a predefined cutoff. The FDA passages supply reference-condition and reporting context. Threshold categories, boundary equality and monotonic reclassification are definitions or stipulated mathematical rules. Altman 1994 and 2006 identities resolve, but neither returned an abstract and their bodies were not read; they earn no claim verification here.",
+      "semanticAssessment": "The peer note distinguishes detection/quantitation, condition classification, eligibility and treatment-action thresholds.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T02",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Four reference-present scores 0.20/0.55/0.75/0.90 and six absent scores 0.10/0.25/0.35/0.45/0.60/0.80 keep fixed coordinates and classes.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Fictional scores for four reference-affected samples are 0.20, 0.55, 0.75 and 0.90; six unaffected samples have 0.10, 0.25, 0.35, 0.45, 0.60 and 0.80. Count equality as positive. At score at least 0.7: TP 2, FP 1, FN 2, TN 5, giving sensitivity 50 per cent, specificity 83.3 per cent and PPV 66.7 per cent. At least 0.4: TP 3, FP 3, FN 1, TN 3, giving sensitivity 75 per cent, specificity 50 per cent and PPV 50 per cent. Lowering this cutoff finds one additional affected sample and creates two additional false calls; sensitivity alone does not choose the better clinical action.",
+          "passageSha256": "0acb14b3ed8ef4642adec284d4069daea7e4fc15818c38abf881eb7a8d0a350f",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "fda-diagnostic-pdf",
+        "cutoff-finder",
+        "cutoff-finder-html"
+      ],
+      "sourceScope": "Cutoff Finder's complete abstract and three targeted full paragraphs explicitly describe optimization, multiplicity, overestimation and subsequent evaluation of a predefined cutoff. The FDA passages supply reference-condition and reporting context. Threshold categories, boundary equality and monotonic reclassification are definitions or stipulated mathematical rules. Altman 1994 and 2006 identities resolve, but neither returned an abstract and their bodies were not read; they earn no claim verification here.",
+      "semanticAssessment": "The peer note gives every fixed score and class; the native scenes retain those exact sample coordinates.",
+      "artifactConstructionBoundary": "Fixed sample coordinates and class marks are source-art notation, checked separately from the field's complete score list.",
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": true,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T03",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "The >=0.7 rule produces TP/FP/FN/TN 2/1/2/5 and the >=0.4 rule 3/3/1/3, with their stated sensitivity, specificity and PPV.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Fictional scores for four reference-affected samples are 0.20, 0.55, 0.75 and 0.90; six unaffected samples have 0.10, 0.25, 0.35, 0.45, 0.60 and 0.80. Count equality as positive. At score at least 0.7: TP 2, FP 1, FN 2, TN 5, giving sensitivity 50 per cent, specificity 83.3 per cent and PPV 66.7 per cent. At least 0.4: TP 3, FP 3, FN 1, TN 3, giving sensitivity 75 per cent, specificity 50 per cent and PPV 50 per cent. Lowering this cutoff finds one additional affected sample and creates two additional false calls; sensitivity alone does not choose the better clinical action.",
+          "passageSha256": "0acb14b3ed8ef4642adec284d4069daea7e4fc15818c38abf881eb7a8d0a350f",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "fda-diagnostic-pdf",
+        "cutoff-finder",
+        "cutoff-finder-html"
+      ],
+      "sourceScope": "Cutoff Finder's complete abstract and three targeted full paragraphs explicitly describe optimization, multiplicity, overestimation and subsequent evaluation of a predefined cutoff. The FDA passages supply reference-condition and reporting context. Threshold categories, boundary equality and monotonic reclassification are definitions or stipulated mathematical rules. Altman 1994 and 2006 identities resolve, but neither returned an abstract and their bodies were not read; they earn no claim verification here.",
+      "semanticAssessment": "The peer note states both complete four-count tables and their sensitivity, specificity and predictive values.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T04",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "The exact positive direction and equality rule, units and missing-result handling belong to the threshold; the plotted samples do not fall exactly on a boundary.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Keep continuous measurements, reference outcomes, intended action, exact cutoff, units, direction, boundary equality, missing-result handling and assay or model version. Report counts and performance uncertainty. In a fixed fully assessed dataset where higher scores are positive, lowering the cutoff cannot lose an existing positive call, but may find extra cases and add false calls; performance can stay unchanged across an empty score range. Selecting the most favourable outcome-based cutoff can exaggerate separation and discard continuous information. Disclose the search, lock the rule and independently evaluate it in a relevant population for the intended action. Statistical separation alone does not establish clinical benefit.",
+          "passageSha256": "a5acd2ac6eda25034d0dc0cd3359c043057e5a3cc5727521c3bb4df3cdbb7c44",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        },
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Fictional scores for four reference-affected samples are 0.20, 0.55, 0.75 and 0.90; six unaffected samples have 0.10, 0.25, 0.35, 0.45, 0.60 and 0.80. Count equality as positive. At score at least 0.7: TP 2, FP 1, FN 2, TN 5, giving sensitivity 50 per cent, specificity 83.3 per cent and PPV 66.7 per cent. At least 0.4: TP 3, FP 3, FN 1, TN 3, giving sensitivity 75 per cent, specificity 50 per cent and PPV 50 per cent. Lowering this cutoff finds one additional affected sample and creates two additional false calls; sensitivity alone does not choose the better clinical action.",
+          "passageSha256": "0acb14b3ed8ef4642adec284d4069daea7e4fc15818c38abf881eb7a8d0a350f",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "fda-diagnostic-pdf",
+        "cutoff-finder",
+        "cutoff-finder-html"
+      ],
+      "sourceScope": "Cutoff Finder's complete abstract and three targeted full paragraphs explicitly describe optimization, multiplicity, overestimation and subsequent evaluation of a predefined cutoff. The FDA passages supply reference-condition and reporting context. Threshold categories, boundary equality and monotonic reclassification are definitions or stipulated mathematical rules. Altman 1994 and 2006 identities resolve, but neither returned an abstract and their bodies were not read; they earn no claim verification here.",
+      "semanticAssessment": "The peer note explicitly retains direction, equality, units and missing-result handling; arithmetic confirms no drawn score equals either cutoff.",
+      "artifactConstructionBoundary": "The footer says right of the line, while the explicit header and stored rule include equality. No toy sample lies on either cutoff; the boundary rule remains >=.",
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": true,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T05",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Lowering the line finds one additional affected sample and adds two false positives, without proving a better treatment decision or validated universal cutoff.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Keep continuous measurements, reference outcomes, intended action, exact cutoff, units, direction, boundary equality, missing-result handling and assay or model version. Report counts and performance uncertainty. In a fixed fully assessed dataset where higher scores are positive, lowering the cutoff cannot lose an existing positive call, but may find extra cases and add false calls; performance can stay unchanged across an empty score range. Selecting the most favourable outcome-based cutoff can exaggerate separation and discard continuous information. Disclose the search, lock the rule and independently evaluate it in a relevant population for the intended action. Statistical separation alone does not establish clinical benefit.",
+          "passageSha256": "a5acd2ac6eda25034d0dc0cd3359c043057e5a3cc5727521c3bb4df3cdbb7c44",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        },
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Fictional scores for four reference-affected samples are 0.20, 0.55, 0.75 and 0.90; six unaffected samples have 0.10, 0.25, 0.35, 0.45, 0.60 and 0.80. Count equality as positive. At score at least 0.7: TP 2, FP 1, FN 2, TN 5, giving sensitivity 50 per cent, specificity 83.3 per cent and PPV 66.7 per cent. At least 0.4: TP 3, FP 3, FN 1, TN 3, giving sensitivity 75 per cent, specificity 50 per cent and PPV 50 per cent. Lowering this cutoff finds one additional affected sample and creates two additional false calls; sensitivity alone does not choose the better clinical action.",
+          "passageSha256": "0acb14b3ed8ef4642adec284d4069daea7e4fc15818c38abf881eb7a8d0a350f",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "fda-diagnostic-pdf",
+        "cutoff-finder",
+        "cutoff-finder-html"
+      ],
+      "sourceScope": "Cutoff Finder's complete abstract and three targeted full paragraphs explicitly describe optimization, multiplicity, overestimation and subsequent evaluation of a predefined cutoff. The FDA passages supply reference-condition and reporting context. Threshold categories, boundary equality and monotonic reclassification are definitions or stipulated mathematical rules. Altman 1994 and 2006 identities resolve, but neither returned an abstract and their bodies were not read; they earn no claim verification here.",
+      "semanticAssessment": "The peer note states the one-extra-case/two-extra-false-call trade-off and separates it from choosing a clinical action.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T06",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Choosing a best cutpoint on the same outcomes can exaggerate performance; lock the rule and evaluate it independently.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Keep continuous measurements, reference outcomes, intended action, exact cutoff, units, direction, boundary equality, missing-result handling and assay or model version. Report counts and performance uncertainty. In a fixed fully assessed dataset where higher scores are positive, lowering the cutoff cannot lose an existing positive call, but may find extra cases and add false calls; performance can stay unchanged across an empty score range. Selecting the most favourable outcome-based cutoff can exaggerate separation and discard continuous information. Disclose the search, lock the rule and independently evaluate it in a relevant population for the intended action. Statistical separation alone does not establish clinical benefit.",
+          "passageSha256": "a5acd2ac6eda25034d0dc0cd3359c043057e5a3cc5727521c3bb4df3cdbb7c44",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        },
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "summary",
+          "index": null,
+          "fieldSha256": "9e548d71874765f7a2ea36390b5e141b8fbc632794b9ae754ea27a84ccd02775",
+          "supportingExcerpt": "The primary Cutoff Finder study demonstrated methods that optimize biomarker thresholds against distributions, outcomes or survival. Such an optimized split is a discovery result. Its performance must retain the selection procedure and be assessed with appropriate independent evaluation before a clinical rule is claimed. The assay scale and intended decision also matter: a threshold chosen for one drug or purpose is not automatically transferable to another.",
+          "passageSha256": "8fdef183224693e77102e4e5f7e6688c34a8850d5ea002311d37f6db00a4af34",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "fda-diagnostic-pdf",
+        "cutoff-finder",
+        "cutoff-finder-html"
+      ],
+      "sourceScope": "Cutoff Finder's complete abstract and three targeted full paragraphs explicitly describe optimization, multiplicity, overestimation and subsequent evaluation of a predefined cutoff. The FDA passages supply reference-condition and reporting context. Threshold categories, boundary equality and monotonic reclassification are definitions or stipulated mathematical rules. Altman 1994 and 2006 identities resolve, but neither returned an abstract and their bodies were not read; they earn no claim verification here.",
+      "semanticAssessment": "The peer note requires disclosure, a locked rule and independent evaluation after outcome-based selection; Cutoff Finder's Discussion supplies the stated methodological support.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-T07",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Categorization does not create binary biology or platform equivalence; decision consequences and uncertainty remain separate.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "A cutpoint applies a category rule to a continuous measurement. Analytical thresholds concern detection or quantitation; diagnostic thresholds classify a defined reference condition; protocol entry cutoffs determine eligibility; treatment-selection thresholds require evidence for an action. Detectable, quantifiable, positive and actionable are separate claims. Categorizing a continuous score does not make biology binary or imply a sharp switch across the line. Nor are cutoffs automatically interchangeable across assays, scales, model versions, drugs or intended uses.",
+          "passageSha256": "6c10b9fe0a04be1d650c38831b830a9b40c4a1e77ff2ae726a9d3d5eb0944a1f",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        },
+        {
+          "recordId": "biomarker-cutpoint-selection",
+          "version": "proposal-support-bodies-32-peer",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "59f6f00aede4f26a06a81e51d39b9373c25abf9ee27d052fccca617972f841cd",
+          "supportingExcerpt": "Keep continuous measurements, reference outcomes, intended action, exact cutoff, units, direction, boundary equality, missing-result handling and assay or model version. Report counts and performance uncertainty. In a fixed fully assessed dataset where higher scores are positive, lowering the cutoff cannot lose an existing positive call, but may find extra cases and add false calls; performance can stay unchanged across an empty score range. Selecting the most favourable outcome-based cutoff can exaggerate separation and discard continuous information. Disclose the search, lock the rule and independently evaluate it in a relevant population for the intended action. Statistical separation alone does not establish clinical benefit.",
+          "passageSha256": "a5acd2ac6eda25034d0dc0cd3359c043057e5a3cc5727521c3bb4df3cdbb7c44",
+          "recordSha256": "b035c30525cd2f10c6ea025deb1b25602ac72afa0df56876e28ad53aba849f10"
+        }
+      ],
+      "status": "represented-in-actual-unmerged-peer-fields",
+      "requiresActualUnmergedContributorFields": true,
+      "sourceIds": [
+        "fda-diagnostic-pdf",
+        "cutoff-finder",
+        "cutoff-finder-html"
+      ],
+      "sourceScope": "Cutoff Finder's complete abstract and three targeted full paragraphs explicitly describe optimization, multiplicity, overestimation and subsequent evaluation of a predefined cutoff. The FDA passages supply reference-condition and reporting context. Threshold categories, boundary equality and monotonic reclassification are definitions or stipulated mathematical rules. Altman 1994 and 2006 identities resolve, but neither returned an abstract and their bodies were not read; they earn no claim verification here.",
+      "semanticAssessment": "The peer note separates a categorical rule from binary biology and assay/drug/intended-use transfer.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F01",
+      "family": "false-discovery-rate",
+      "requirement": "FDR is the expected false-discovery proportion V/R, defined as zero when R=0; it differs from FWER except under the complete null.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Write V for false rejections and R for all rejections: the false discovery proportion is V/R, defined as zero when R is zero, and FDR is its expectation. Family-wise error is the probability of at least one false rejection; the two coincide when every null hypothesis is true but generally differ otherwise. Benjamini-Hochberg sorts all m valid p-values, compares rank i with (i/m)q, finds the largest passing rank and selects everything through it. The original control result assumes independence; positive-dependence extensions and procedures for broader dependence have their own conditions. Correlation is not permission to ignore the procedure's assumptions.",
+          "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "bh",
+        "bh-author-pdf",
+        "by",
+        "r-padjust-html"
+      ],
+      "sourceScope": "The complete BH and BY Crossref abstracts were read. Five complete native scan pages of BH (PDF 2–6, printed 289–293) verify the definition, zero-rejection convention, step-up rule and original independence theorem; the appendix proof and whole paper were not read. Six complete official R manual blocks retain the BY modification and dependence scope. The BY publisher body is a challenge wrapper, not a paper. The toy selections are exact arithmetic, not measured false fractions.",
+      "semanticAssessment": "The note defines V/R with zero when R is zero and distinguishes its expectation from family-wise error.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F02",
+      "family": "false-discovery-rate",
+      "requirement": "BH sorts all m valid p-values, finds the largest rank satisfying p_i <= (i/m)q and selects every rank through it; the rule does not stop at the first failure.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Write V for false rejections and R for all rejections: the false discovery proportion is V/R, defined as zero when R is zero, and FDR is its expectation. Family-wise error is the probability of at least one false rejection; the two coincide when every null hypothesis is true but generally differ otherwise. Benjamini-Hochberg sorts all m valid p-values, compares rank i with (i/m)q, finds the largest passing rank and selects everything through it. The original control result assumes independence; positive-dependence extensions and procedures for broader dependence have their own conditions. Correlation is not permission to ignore the procedure's assumptions.",
+          "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        },
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Fictional Benjamini-Hochberg examples use target q = 0.05. For five sorted p-values 0.001, 0.008, 0.026, 0.080 and 0.200, rank bounds are 0.01, 0.02, 0.03, 0.04 and 0.05; rank 3 is the largest passing rank, selecting the first three. For three values 0.018, 0.030 and 0.060, bounds are about 0.0167, 0.0333 and 0.05; rank 1 fails its individual comparison but rank 2 passes, so the first two are selected. Do not stop at the first failure. The two illustrative plots use different labelled vertical ranges and test counts. Selection assigns neither finding a five per cent false probability.",
+          "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "bh",
+        "bh-author-pdf",
+        "by",
+        "r-padjust-html"
+      ],
+      "sourceScope": "The complete BH and BY Crossref abstracts were read. Five complete native scan pages of BH (PDF 2–6, printed 289–293) verify the definition, zero-rejection convention, step-up rule and original independence theorem; the appendix proof and whole paper were not read. Six complete official R manual blocks retain the BY modification and dependence scope. The BY publisher body is a challenge wrapper, not a paper. The toy selections are exact arithmetic, not measured false fractions.",
+      "semanticAssessment": "The note states largest passing rank and selection of all earlier ranks, including the warning against stopping at the first failure.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F03",
+      "family": "false-discovery-rate",
+      "requirement": "The five-value toy list at q=0.05 has comparison values .01/.02/.03/.04/.05 and selects ranks 1 through 3.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Fictional Benjamini-Hochberg examples use target q = 0.05. For five sorted p-values 0.001, 0.008, 0.026, 0.080 and 0.200, rank bounds are 0.01, 0.02, 0.03, 0.04 and 0.05; rank 3 is the largest passing rank, selecting the first three. For three values 0.018, 0.030 and 0.060, bounds are about 0.0167, 0.0333 and 0.05; rank 1 fails its individual comparison but rank 2 passes, so the first two are selected. Do not stop at the first failure. The two illustrative plots use different labelled vertical ranges and test counts. Selection assigns neither finding a five per cent false probability.",
+          "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "bh",
+        "bh-author-pdf",
+        "by",
+        "r-padjust-html"
+      ],
+      "sourceScope": "The complete BH and BY Crossref abstracts were read. Five complete native scan pages of BH (PDF 2–6, printed 289–293) verify the definition, zero-rejection convention, step-up rule and original independence theorem; the appendix proof and whole paper were not read. Six complete official R manual blocks retain the BY modification and dependence scope. The BY publisher body is a challenge wrapper, not a paper. The toy selections are exact arithmetic, not measured false fractions.",
+      "semanticAssessment": "The note carries all five p-values, all five bounds and selection through rank three.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F04",
+      "family": "false-discovery-rate",
+      "requirement": "The three-value toy list selects ranks 1 and 2, although rank 1 fails its own comparison; the plots have separately labelled linear vertical scales.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Fictional Benjamini-Hochberg examples use target q = 0.05. For five sorted p-values 0.001, 0.008, 0.026, 0.080 and 0.200, rank bounds are 0.01, 0.02, 0.03, 0.04 and 0.05; rank 3 is the largest passing rank, selecting the first three. For three values 0.018, 0.030 and 0.060, bounds are about 0.0167, 0.0333 and 0.05; rank 1 fails its individual comparison but rank 2 passes, so the first two are selected. Do not stop at the first failure. The two illustrative plots use different labelled vertical ranges and test counts. Selection assigns neither finding a five per cent false probability.",
+          "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "bh",
+        "bh-author-pdf",
+        "by",
+        "r-padjust-html"
+      ],
+      "sourceScope": "The complete BH and BY Crossref abstracts were read. Five complete native scan pages of BH (PDF 2–6, printed 289–293) verify the definition, zero-rejection convention, step-up rule and original independence theorem; the appendix proof and whole paper were not read. Six complete official R manual blocks retain the BY modification and dependence scope. The BY publisher body is a challenge wrapper, not a paper. The toy selections are exact arithmetic, not measured false fractions.",
+      "semanticAssessment": "The note carries the three-value counterexample and separate plot ranges; rank one fails its own comparison but remains selected through rank two.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F05",
+      "family": "false-discovery-rate",
+      "requirement": "Selected points are not individually verified truths, and a target expected fraction is not a fixed realized false fraction or per-hit probability.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Fictional Benjamini-Hochberg examples use target q = 0.05. For five sorted p-values 0.001, 0.008, 0.026, 0.080 and 0.200, rank bounds are 0.01, 0.02, 0.03, 0.04 and 0.05; rank 3 is the largest passing rank, selecting the first three. For three values 0.018, 0.030 and 0.060, bounds are about 0.0167, 0.0333 and 0.05; rank 1 fails its individual comparison but rank 2 passes, so the first two are selected. Do not stop at the first failure. The two illustrative plots use different labelled vertical ranges and test counts. Selection assigns neither finding a five per cent false probability.",
+          "passageSha256": "5bf267fa6ecc9748b4221eade572168c2cf0e17cd481902dc024e69b8930566d",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        },
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "summary",
+          "index": null,
+          "fieldSha256": "65150430a9430be797d60760219056a087366d7d8974e3d34000fd29fd9073b2",
+          "supportingExcerpt": "False discovery rate is the expected proportion of false rejections among all rejections made by a multiple-testing procedure, taking the proportion as zero when none are made. It describes repeated use of that procedure under its assumptions. It is not the probability that each selected finding is false, a guaranteed false fraction in one list or evidence of biological importance or patient benefit.",
+          "passageSha256": "75ce7dd3cdc98174acbd74b7bd009efad5f4ae58ea96aec5834d9cbd6dc92d19",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "bh",
+        "bh-author-pdf",
+        "by",
+        "r-padjust-html"
+      ],
+      "sourceScope": "The complete BH and BY Crossref abstracts were read. Five complete native scan pages of BH (PDF 2–6, printed 289–293) verify the definition, zero-rejection convention, step-up rule and original independence theorem; the appendix proof and whole paper were not read. Six complete official R manual blocks retain the BY modification and dependence scope. The BY publisher body is a challenge wrapper, not a paper. The toy selections are exact arithmetic, not measured false fractions.",
+      "semanticAssessment": "The definition and example deny a per-hit false probability and a fixed false fraction in one realized list.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F06",
+      "family": "false-discovery-rate",
+      "requirement": "The original independence and later specified dependence conditions remain scoped; the toy plot supplies no general correlated-gene guarantee.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Write V for false rejections and R for all rejections: the false discovery proportion is V/R, defined as zero when R is zero, and FDR is its expectation. Family-wise error is the probability of at least one false rejection; the two coincide when every null hypothesis is true but generally differ otherwise. Benjamini-Hochberg sorts all m valid p-values, compares rank i with (i/m)q, finds the largest passing rank and selects everything through it. The original control result assumes independence; positive-dependence extensions and procedures for broader dependence have their own conditions. Correlation is not permission to ignore the procedure's assumptions.",
+          "passageSha256": "b69fbbca73e4ddb87f05cefd7c5fcfe680d28e73f490d1641be5cd5d15d761e4",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "bh",
+        "bh-author-pdf",
+        "by",
+        "r-padjust-html"
+      ],
+      "sourceScope": "The complete BH and BY Crossref abstracts were read. Five complete native scan pages of BH (PDF 2–6, printed 289–293) verify the definition, zero-rejection convention, step-up rule and original independence theorem; the appendix proof and whole paper were not read. Six complete official R manual blocks retain the BY modification and dependence scope. The BY publisher body is a challenge wrapper, not a paper. The toy selections are exact arithmetic, not measured false fractions.",
+      "semanticAssessment": "The note retains original independence and separately qualified dependence extensions; no generic correlation guarantee is made.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-F07",
+      "family": "false-discovery-rate",
+      "requirement": "Test family, adjusted-value definition and peptide/protein/gene unit matter; a diagnostic false-positive-call fraction is separate from BH control.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "false-discovery-rate",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "37c5d6fc254e57e373321a55e0d5a99eecdb4bde505bb0b5e7f31a0be75146b7",
+          "supportingExcerpt": "Keep the complete hypothesis family and valid p-values, target, procedure and dependence assumptions, then report the selected set or adjusted values under that method. Correcting separate families and combining their hits does not automatically control the combined list. Q-values and adjusted p-values can name different calculations, so identify the actual method. Gene-, peptide- and protein-level identification claims also have different units; control at one level does not automatically transfer to another. The fraction of diagnostic positive calls that are false, one minus PPV, is a different quantity from the expected false-rejection fraction of a multiple-testing procedure. Omics selection prioritizes further investigation; it does not identify which hit is false or establish clinical utility.",
+          "passageSha256": "2911da86e235b7ec18432d9f45543694e1ba71e6c15ffc32a871d091b1a40112",
+          "recordSha256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "bh",
+        "bh-author-pdf",
+        "by",
+        "r-padjust-html"
+      ],
+      "sourceScope": "The complete BH and BY Crossref abstracts were read. Five complete native scan pages of BH (PDF 2–6, printed 289–293) verify the definition, zero-rejection convention, step-up rule and original independence theorem; the appendix proof and whole paper were not read. Six complete official R manual blocks retain the BY modification and dependence scope. The BY publisher body is a challenge wrapper, not a paper. The toy selections are exact arithmetic, not measured false fractions.",
+      "semanticAssessment": "The note retains family, procedure, dependence and identification level, while distinguishing diagnostic false-call fraction from multiple-testing expectation.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A01",
+      "family": "auc-and-c-index",
+      "requirement": "Binary ROC plots sensitivity against 1-specificity across thresholds; pairwise AUC gives half credit to ties, with chance .5 and perfect ordering 1 under the convention.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "summary",
+          "index": null,
+          "fieldSha256": "8356dcd5921aa7e5ba686bc579ef7a2ea37ee93e753b7c59a2d923c813dd8220",
+          "supportingExcerpt": "A receiver operating characteristic curve plots sensitivity against one minus specificity across thresholds for a defined binary condition. Its area measures case versus non-case ranking; with the stated convention, tied scores receive half credit. An area of 0.5 represents chance ordering and 1 perfect ordering in those data. AUC is not the proportion of individual predictions that are correct, and it does not establish calibrated probabilities or a useful decision threshold.",
+          "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The summary defines ROC axes, ranking interpretation and explicit tie convention; it denies interpreting AUC as individual accuracy.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A02",
+      "family": "auc-and-c-index",
+      "requirement": "Fictional cases .9/.6 and noncases .7/.2 yield three correct rankings among four case/noncase pairs, AUC .75.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "b27241ae4f542bdeda7290a28b1e60c9ea1b136750a2e5a97c10d18046e9a6f0",
+          "supportingExcerpt": "Fictional case scores are 0.9 and 0.6; non-case scores are 0.7 and 0.2. Three of four case/non-case pairs have the higher case score, giving AUC 0.75, also the area under the stepped ROC curve. Squaring these positive scores preserves their ordering and AUC while changing their numerical probability values. The example therefore separates ranking from calibration. Half-credit for tied scores is an explicit convention; an observed AUC is an estimate with uncertainty, not a personal prediction guarantee.",
+          "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The note carries the four scores and three-of-four ranking calculation.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A03",
+      "family": "auc-and-c-index",
+      "requirement": "Thresholds on those same scores yield vertices (0,0),(0,.5),(.5,.5),(.5,1),(1,1) and area .75; no extra people or curve smoothing supplies the area.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "b27241ae4f542bdeda7290a28b1e60c9ea1b136750a2e5a97c10d18046e9a6f0",
+          "supportingExcerpt": "Fictional case scores are 0.9 and 0.6; non-case scores are 0.7 and 0.2. Three of four case/non-case pairs have the higher case score, giving AUC 0.75, also the area under the stepped ROC curve. Squaring these positive scores preserves their ordering and AUC while changing their numerical probability values. The example therefore separates ranking from calibration. Half-credit for tied scores is an explicit convention; an observed AUC is an estimate with uncertainty, not a personal prediction guarantee.",
+          "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        },
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "summary",
+          "index": null,
+          "fieldSha256": "8356dcd5921aa7e5ba686bc579ef7a2ea37ee93e753b7c59a2d923c813dd8220",
+          "supportingExcerpt": "A receiver operating characteristic curve plots sensitivity against one minus specificity across thresholds for a defined binary condition. Its area measures case versus non-case ranking; with the stated convention, tied scores receive half credit. An area of 0.5 represents chance ordering and 1 perfect ordering in those data. AUC is not the proportion of individual predictions that are correct, and it does not establish calibrated probabilities or a useful decision threshold.",
+          "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The stored scores, ROC definition and stepped area permit exact reconstruction of the five vertices; the native vertex geometry is independently checked as source notation.",
+      "artifactConstructionBoundary": "The complete stepped vertices are reconstructed from the stored scores and verified native labels; no original figure is registered as a graph image.",
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": true,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A04",
+      "family": "auc-and-c-index",
+      "requirement": "The separate A-event-at-2/B-censored-at-1 scene leaves the later event order unknown and does not calculate survival concordance from binary ROC data.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "concordance-index",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "478200e27637664aca78463e548660157ed4d0a45078a1a64872dae80f0894e7",
+          "supportingExcerpt": "Fictional survival scores predict earlier events at higher values. A has score 0.8 and an event at month 2; C has score 0.5 and an event at month 4, so their order is concordant. B has score 0.2 and is censored at month 1, leaving B's later event order relative to A or C unknown. B cannot be called event-free at month 4. Censoring does not automatically make a person a control, and a censored observation can still contribute to other informative comparisons when its timing permits.",
+          "passageSha256": "dad07db65a7654a56f3ed523ea293c6171882a7b338a81082d4da0945c3104d7",
+          "recordSha256": "f07d5c3da9344814c8b5b3754f27718a6050b3338e643b2080b322556dbad98c"
+        },
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "b27241ae4f542bdeda7290a28b1e60c9ea1b136750a2e5a97c10d18046e9a6f0",
+          "supportingExcerpt": "Time-dependent AUC requires a named horizon, event-by-time cases, event-free controls and appropriate handling of incomplete follow-up. It is not interchangeable with a differently defined survival C-index. Evaluate locked predictions against reference outcomes on independent data, retain the estimator, uncertainty, case mix and censoring method, and examine relevant subgroups. Training-only performance and changed outcome definitions can mislead. Discrimination can change with population heterogeneity; it establishes neither calibrated risks, false-call consequences nor benefit from model-guided care.",
+          "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The survival note explicitly leaves B's later order unknown and the ROC note separates the survival and binary targets.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A05",
+      "family": "auc-and-c-index",
+      "requirement": "The table's A versus C event order is known and concordant; comparisons with B remain unknown, without treating all censored people as controls or discarding them from every possible comparison.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "concordance-index",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "478200e27637664aca78463e548660157ed4d0a45078a1a64872dae80f0894e7",
+          "supportingExcerpt": "Fictional survival scores predict earlier events at higher values. A has score 0.8 and an event at month 2; C has score 0.5 and an event at month 4, so their order is concordant. B has score 0.2 and is censored at month 1, leaving B's later event order relative to A or C unknown. B cannot be called event-free at month 4. Censoring does not automatically make a person a control, and a censored observation can still contribute to other informative comparisons when its timing permits.",
+          "passageSha256": "dad07db65a7654a56f3ed523ea293c6171882a7b338a81082d4da0945c3104d7",
+          "recordSha256": "f07d5c3da9344814c8b5b3754f27718a6050b3338e643b2080b322556dbad98c"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The survival note carries the known A/C order and explains why early censoring neither establishes a control nor makes every censored comparison unusable.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A06",
+      "family": "auc-and-c-index",
+      "requirement": "Squaring these positive scores preserves ranking and AUC while changing values that would require separate probability calibration.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "b27241ae4f542bdeda7290a28b1e60c9ea1b136750a2e5a97c10d18046e9a6f0",
+          "supportingExcerpt": "Fictional case scores are 0.9 and 0.6; non-case scores are 0.7 and 0.2. Three of four case/non-case pairs have the higher case score, giving AUC 0.75, also the area under the stepped ROC curve. Squaring these positive scores preserves their ordering and AUC while changing their numerical probability values. The example therefore separates ranking from calibration. Half-credit for tied scores is an explicit convention; an observed AUC is an estimate with uncertainty, not a personal prediction guarantee.",
+          "passageSha256": "c02ca6deb01857920ceb3b3ccd48bc8b63c39be8137c78b2c1b4d18b68f3d47f",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The ROC note states that squaring these positive scores preserves order while changing probability values.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A07",
+      "family": "auc-and-c-index",
+      "requirement": "Named Harrell/Uno estimators, horizon, comparable pairs, censoring and assumptions define the survival question; time-specific AUC is a separate target.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "concordance-index",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "478200e27637664aca78463e548660157ed4d0a45078a1a64872dae80f0894e7",
+          "supportingExcerpt": "Uno's 2011 method targets concordance within a prespecified follow-up period. Its basic derivation assumes censoring is independent of event time and predictors. It weights usable event pairs by the inverse square of the estimated probability of remaining uncensored at the earlier event time; that probability is estimated from the censoring distribution. This is not a claim that any amount or cause of missing follow-up is repaired, or that censoring always biases an unadjusted C-index upward. State the estimator, horizon and assumptions with its uncertainty.",
+          "passageSha256": "981e84c8b72d0ebc7e3a21069776931d0777b61af645936df1f355ee17762167",
+          "recordSha256": "f07d5c3da9344814c8b5b3754f27718a6050b3338e643b2080b322556dbad98c"
+        },
+        {
+          "recordId": "concordance-index",
+          "version": "proposal-support-bodies-32-root",
+          "field": "summary",
+          "index": null,
+          "fieldSha256": "51ccc7b9983cd21686021df0b3043f89bbfad154bcfe72bcb0507a40fe829fb6",
+          "supportingExcerpt": "A survival C-index assesses whether a person predicted at higher risk experiences the event earlier in informative pairs. The estimand, follow-up horizon, handling of ties, comparable pairs and censoring assumptions matter. Harrell-style observed-pair estimates can depend on the censoring distribution. Uno and colleagues proposed a censoring-adjusted concordance estimator under stated assumptions. Neither version establishes calibrated probabilities or removes every source of follow-up bias.",
+          "passageSha256": "bcb123a0085cc4bae8995400826e52d2fee5dbab0a6f6ac95ad056d51319d0ad",
+          "recordSha256": "f07d5c3da9344814c8b5b3754f27718a6050b3338e643b2080b322556dbad98c"
+        },
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "b27241ae4f542bdeda7290a28b1e60c9ea1b136750a2e5a97c10d18046e9a6f0",
+          "supportingExcerpt": "Time-dependent AUC requires a named horizon, event-by-time cases, event-free controls and appropriate handling of incomplete follow-up. It is not interchangeable with a differently defined survival C-index. Evaluate locked predictions against reference outcomes on independent data, retain the estimator, uncertainty, case mix and censoring method, and examine relevant subgroups. Training-only performance and changed outcome definitions can mislead. Discrimination can change with population heterogeneity; it establishes neither calibrated risks, false-call consequences nor benefit from model-guided care.",
+          "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The C-index fields name target, horizon, comparable pairs, independence and the inverse-square censoring weights; ROC notes separate time-specific AUC.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-A08",
+      "family": "auc-and-c-index",
+      "requirement": "Ranking alone establishes neither probability calibration, a useful action threshold nor clinical benefit.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "b27241ae4f542bdeda7290a28b1e60c9ea1b136750a2e5a97c10d18046e9a6f0",
+          "supportingExcerpt": "Time-dependent AUC requires a named horizon, event-by-time cases, event-free controls and appropriate handling of incomplete follow-up. It is not interchangeable with a differently defined survival C-index. Evaluate locked predictions against reference outcomes on independent data, retain the estimator, uncertainty, case mix and censoring method, and examine relevant subgroups. Training-only performance and changed outcome definitions can mislead. Discrimination can change with population heterogeneity; it establishes neither calibrated risks, false-call consequences nor benefit from model-guided care.",
+          "passageSha256": "da0744b98b065bce2f298e67af98ad064d8f87182f65d908138807001f1b6271",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        },
+        {
+          "recordId": "roc-auc",
+          "version": "proposal-support-bodies-32-root",
+          "field": "summary",
+          "index": null,
+          "fieldSha256": "8356dcd5921aa7e5ba686bc579ef7a2ea37ee93e753b7c59a2d923c813dd8220",
+          "supportingExcerpt": "A receiver operating characteristic curve plots sensitivity against one minus specificity across thresholds for a defined binary condition. Its area measures case versus non-case ranking; with the stated convention, tied scores receive half credit. An area of 0.5 represents chance ordering and 1 perfect ordering in those data. AUC is not the proportion of individual predictions that are correct, and it does not establish calibrated probabilities or a useful decision threshold.",
+          "passageSha256": "00f391b3a8b8edc30a014fc433929e1a66eb92f6a9fb75a4c460f1a897376a9c",
+          "recordSha256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce"
+        },
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Retain predictions stored before outcomes, model and assay versions, endpoint, target population, treatment era and horizon. Compare frequencies at the same time using a calibration curve or named summary and uncertainty. Treating people censored before the horizon as event-free can mislead; account for incomplete follow-up and relevant competing events. Changed eligibility, care or baseline outcome frequency can change calibration, and an updated model needs evaluation. Checking only an overall average or displaying a narrow numerical range establishes little about model or input uncertainty. Calibration neither identifies which individual will have an event nor establishes benefit from acting on the model.",
+          "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "hanley",
+        "uno",
+        "uno-html",
+        "tripod-ai-html",
+        "riley-html"
+      ],
+      "sourceScope": "The complete Hanley–McNeil and Uno abstracts were read. Thirteen complete Uno HTML blocks include the target horizon, random-censoring assumption, inverse-square weighting formula and stated extension limits. Four TRIPOD+AI and twenty Riley blocks distinguish discrimination, calibration, evaluation and suitable follow-up methods. These are targeted readings, not whole-paper claims. Four-pair AUC and fictional censoring examples are mathematical constructions.",
+      "semanticAssessment": "The fields separately deny calibration, action-threshold and model-guided benefit conclusions from discrimination.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C01",
+      "family": "calibration",
+      "requirement": "Both illustrative comparisons use groups of 100 with the same event definition and complete five-year follow-up.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Two fictional 100-person groups have complete five-year outcomes. Predicting 20 and 40 per cent when 10 and 30 events occur preserves their group order but predicts 60 events instead of 40. In a second independent example, predictions of 10 and 50 per cent with 20 and 40 events give 60 predicted and 60 observed overall, or 30 per cent of 200, while both group predictions remain wrong. These invented comparisons illustrate distinct failures; they do not forecast a particular patient's outcome.",
+          "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The note stipulates fictional 100-person groups and complete five-year outcomes.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C02",
+      "family": "calibration",
+      "requirement": "The older cartoon's observed 10/100 and 30/100 versus predicted 20/100 and 40/100 show group ordering with overstated risks; they do not measure an individual AUC.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Two fictional 100-person groups have complete five-year outcomes. Predicting 20 and 40 per cent when 10 and 30 events occur preserves their group order but predicts 60 events instead of 40. In a second independent example, predictions of 10 and 50 per cent with 20 and 40 events give 60 predicted and 60 observed overall, or 30 per cent of 200, while both group predictions remain wrong. These invented comparisons illustrate distinct failures; they do not forecast a particular patient's outcome.",
+          "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        },
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Retain predictions stored before outcomes, model and assay versions, endpoint, target population, treatment era and horizon. Compare frequencies at the same time using a calibration curve or named summary and uncertainty. Treating people censored before the horizon as event-free can mislead; account for incomplete follow-up and relevant competing events. Changed eligibility, care or baseline outcome frequency can change calibration, and an updated model needs evaluation. Checking only an overall average or displaying a narrow numerical range establishes little about model or input uncertainty. Calibration neither identifies which individual will have an event nor establishes benefit from acting on the model.",
+          "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The note carries the old cartoon's first comparison and preserves group order; the scope note avoids a measured individual AUC claim.",
+      "artifactConstructionBoundary": "The older landscape PNGs are standalone source iterations, not the current parent embeds. Their group order is not an individual AUC estimate.",
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": true,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C03",
+      "family": "calibration",
+      "requirement": "The v2 first example gives 60 expected events versus 40 observed, with the same 20/10 and 40/30 group percentages.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Two fictional 100-person groups have complete five-year outcomes. Predicting 20 and 40 per cent when 10 and 30 events occur preserves their group order but predicts 60 events instead of 40. In a second independent example, predictions of 10 and 50 per cent with 20 and 40 events give 60 predicted and 60 observed overall, or 30 per cent of 200, while both group predictions remain wrong. These invented comparisons illustrate distinct failures; they do not forecast a particular patient's outcome.",
+          "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The first fictional comparison explicitly totals 60 expected and 40 observed events.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C04",
+      "family": "calibration",
+      "requirement": "The separate second example predicts 10/50% and observes 20/40%, giving equal totals of 60 and average .30 while both group predictions remain wrong.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Two fictional 100-person groups have complete five-year outcomes. Predicting 20 and 40 per cent when 10 and 30 events occur preserves their group order but predicts 60 events instead of 40. In a second independent example, predictions of 10 and 50 per cent with 20 and 40 events give 60 predicted and 60 observed overall, or 30 per cent of 200, while both group predictions remain wrong. These invented comparisons illustrate distinct failures; they do not forecast a particular patient's outcome.",
+          "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The second comparison explicitly gives all four rates, equal totals and the 30% average despite group errors.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C05",
+      "family": "calibration",
+      "requirement": "The two scenarios are separate fictional examples, not successive measurements, a recalibration result or measured validation.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Two fictional 100-person groups have complete five-year outcomes. Predicting 20 and 40 per cent when 10 and 30 events occur preserves their group order but predicts 60 events instead of 40. In a second independent example, predictions of 10 and 50 per cent with 20 and 40 events give 60 predicted and 60 observed overall, or 30 per cent of 200, while both group predictions remain wrong. These invented comparisons illustrate distinct failures; they do not forecast a particular patient's outcome.",
+          "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The note calls the second example independent and both comparisons invented; neither is a measured before/after update.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C06",
+      "family": "calibration",
+      "requirement": "The current v2 bars use matching zero-based 0-to-50% scales, exact eight values, unstacked predicted/observed bars and no invented uncertainty.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Two fictional 100-person groups have complete five-year outcomes. Predicting 20 and 40 per cent when 10 and 30 events occur preserves their group order but predicts 60 events instead of 40. In a second independent example, predictions of 10 and 50 per cent with 20 and 40 events give 60 predicted and 60 observed overall, or 30 per cent of 200, while both group predictions remain wrong. These invented comparisons illustrate distinct failures; they do not forecast a particular patient's outcome.",
+          "passageSha256": "f75223430579de1fd3879a520e8cba4d4936b9e3ba7023712190049b66db6cec",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        },
+        {
+          "recordId": "graph-reading",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 1,
+          "fieldSha256": "3f65dd924865586ab9d163557bf9a6eb336040196de938d490a0fc670426d979",
+          "supportingExcerpt": "Biological replicates are independent units relevant to the question, such as donors or animals. Technical repeats measure the same material again: three tubes or ten wells from one donor still represent one donor. Twelve measurements from three donors therefore require an analysis that accounts for repeated measurements, rather than treating all twelve as independent people. Error bars must be defined. Standard deviation describes observation variability, standard error concerns precision of an estimated mean, and a confidence interval follows a specified procedure and assumptions. On logarithmic axes equal distances represent equal ratios; on linear axes they represent equal differences. A truncated axis may emphasise a small difference, so read the numbers as well as the shape. Missing observations are not measured zeros, and a complete caption does not substitute for sound methods.",
+          "passageSha256": "8118c299a7ef6744831e0fd9c39662ef34c686388d5012eb910ad42eee637aae",
+          "recordSha256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a"
+        }
+      ],
+      "status": "partial-source-layout-not-canonical",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The eight rate values and general scale-reading rule are stored, but the exact unstacked 0-to-50% drawing construction remains in native source art rather than a canonical field.",
+      "artifactConstructionBoundary": "Matching zero-based 0-to-50% axes and unstacked bars are verified source-art conventions; they are not claimed as a canonical figure. Pixel-perfect PNG recoloring or geometry equality is unverified.",
+      "remainingCanonicalTeaching": [
+        "Matching zero-based 0-to-50% axes and unstacked bars are verified source-art conventions; they are not claimed as a canonical figure. Pixel-perfect PNG recoloring or geometry equality is unverified."
+      ],
+      "sourceNativeLayoutVerified": true,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C07",
+      "family": "calibration",
+      "requirement": "Probability agreement across comparable observations does not identify the person who will have an event or show benefit from model-guided treatment.",
+      "directConstructionTeaching": true,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Retain predictions stored before outcomes, model and assay versions, endpoint, target population, treatment era and horizon. Compare frequencies at the same time using a calibration curve or named summary and uncertainty. Treating people censored before the horizon as event-free can mislead; account for incomplete follow-up and relevant competing events. Changed eligibility, care or baseline outcome frequency can change calibration, and an updated model needs evaluation. Checking only an overall average or displaying a narrow numerical range establishes little about model or input uncertainty. Calibration neither identifies which individual will have an event nor establishes benefit from acting on the model.",
+          "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The note denies person identification and benefit from acting on the model.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C08",
+      "family": "calibration",
+      "requirement": "Calibration-in-the-large, a specified intercept/slope model and a flexible curve assess different agreement properties; finite samples, censoring and competing events require suitable estimation.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Compare predicted and observed frequencies across risk groups or a flexible calibration curve, with finite-sample uncertainty. Calibration-in-the-large compares the average prediction with the overall outcome rate. Under the named calibration model, slope below 1 suggests predictions that are too extreme and above 1 insufficient spread; intercept near 0 and slope near 1 still do not guarantee agreement everywhere on a flexible curve. A constant prediction can match average risk without ranking anyone. Conversely, high discrimination does not establish probability accuracy.",
+          "passageSha256": "6e7785d45138b4a631d522420cb7334c95aae7d324f01f2fc89b0e099aa33235",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        },
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Retain predictions stored before outcomes, model and assay versions, endpoint, target population, treatment era and horizon. Compare frequencies at the same time using a calibration curve or named summary and uncertainty. Treating people censored before the horizon as event-free can mislead; account for incomplete follow-up and relevant competing events. Changed eligibility, care or baseline outcome frequency can change calibration, and an updated model needs evaluation. Checking only an overall average or displaying a narrow numerical range establishes little about model or input uncertainty. Calibration neither identifies which individual will have an event nor establishes benefit from acting on the model.",
+          "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The fields distinguish mean calibration, slope/intercept model and flexible curves with uncertainty, censoring and competing-event qualifications.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    },
+    {
+      "id": "P33-C09",
+      "family": "calibration",
+      "requirement": "Changing context can change calibration; model updating needs evaluation, and a constant probability can match the mean without ranking people.",
+      "directConstructionTeaching": false,
+      "versionApplicability": [
+        "original",
+        "later"
+      ],
+      "originalScope": "Both parents carry the same teaching; complete differences are navigation/link changes only.",
+      "evidence": [
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 0,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Compare predicted and observed frequencies across risk groups or a flexible calibration curve, with finite-sample uncertainty. Calibration-in-the-large compares the average prediction with the overall outcome rate. Under the named calibration model, slope below 1 suggests predictions that are too extreme and above 1 insufficient spread; intercept near 0 and slope near 1 still do not guarantee agreement everywhere on a flexible curve. A constant prediction can match average risk without ranking anyone. Conversely, high discrimination does not establish probability accuracy.",
+          "passageSha256": "6e7785d45138b4a631d522420cb7334c95aae7d324f01f2fc89b0e099aa33235",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        },
+        {
+          "recordId": "calibration",
+          "version": "proposal-support-bodies-32-root",
+          "field": "notes",
+          "index": 2,
+          "fieldSha256": "bdf0e7b632d60c4acc159ed3a08e9db2d3df3ba9c13bc0c130457bd91440be2b",
+          "supportingExcerpt": "Retain predictions stored before outcomes, model and assay versions, endpoint, target population, treatment era and horizon. Compare frequencies at the same time using a calibration curve or named summary and uncertainty. Treating people censored before the horizon as event-free can mislead; account for incomplete follow-up and relevant competing events. Changed eligibility, care or baseline outcome frequency can change calibration, and an updated model needs evaluation. Checking only an overall average or displaying a narrow numerical range establishes little about model or input uncertainty. Calibration neither identifies which individual will have an event nor establishes benefit from acting on the model.",
+          "passageSha256": "488e25abe55e72a294961eddcb1042a79a03e9aff6a9f44acaf24dc8fe4258e3",
+          "recordSha256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9"
+        }
+      ],
+      "status": "represented-in-registered-local-root",
+      "requiresActualUnmergedContributorFields": false,
+      "sourceIds": [
+        "calibration",
+        "calibration-html",
+        "riley-html",
+        "tripod-ai-html"
+      ],
+      "sourceScope": "The complete calibration abstract and six complete method paragraphs were read from the exact previously captured article body; no fresh retrieval is claimed for that body. Twenty fresh Riley and four TRIPOD+AI blocks cover calibration curves, summaries, uncertainty, incomplete follow-up, competing events and changing contexts. The two 100-person comparisons are separate fictional premises. Correct group ordering is not a measured individual AUC, and no clinical benefit follows.",
+      "semanticAssessment": "The fields retain contextual drift, renewed evaluation and the mathematical distinction between a constant average and ranking.",
+      "artifactConstructionBoundary": null,
+      "remainingCanonicalTeaching": [],
+      "sourceNativeLayoutVerified": false,
+      "mainCredit": 0,
+      "liveCredit": 0,
+      "independentAcceptance": false
+    }
+  ],
+  "constructionChecks": [
+    {
+      "id": "P33-K01",
+      "family": "ppv-and-base-rates",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete text/context reads, both pinned identities, twelve whole native views, 41 independent arithmetic checks, four SVG geometry/text comparisons and explicit execution/approval limits."
+    },
+    {
+      "id": "P33-K02",
+      "family": "thresholds-and-cutpoints",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete text/context reads, both pinned identities, twelve whole native views, 41 independent arithmetic checks, four SVG geometry/text comparisons and explicit execution/approval limits."
+    },
+    {
+      "id": "P33-K03",
+      "family": "false-discovery-rate",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete text/context reads, both pinned identities, twelve whole native views, 41 independent arithmetic checks, four SVG geometry/text comparisons and explicit execution/approval limits."
+    },
+    {
+      "id": "P33-K04",
+      "family": "auc-and-c-index",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete text/context reads, both pinned identities, twelve whole native views, 41 independent arithmetic checks, four SVG geometry/text comparisons and explicit execution/approval limits."
+    },
+    {
+      "id": "P33-K05",
+      "family": "calibration",
+      "requirement": "Full body, caption, native values, theme content and declared construction/creator/review boundaries are checked separately from canonical scientific representation and approvals.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete text/context reads, both pinned identities, twelve whole native views, 41 independent arithmetic checks, four SVG geometry/text comparisons and explicit execution/approval limits."
+    },
+    {
+      "id": "P33-K06",
+      "family": "calibration-source-iterations",
+      "requirement": "The two old landscape PNGs and their original prompt retain the first illustration, while the pinned parent embeds the later two-example v2 pair. Preserve old source iterations without calling them the current embedded art.",
+      "directConstructionTeaching": false,
+      "inventoryTier": "construction-and-review-boundary",
+      "scientificCredit": 0,
+      "canonicalEvidence": null,
+      "independentAcceptance": false,
+      "status": "construction-context-reviewed",
+      "basis": "Complete text/context reads, both pinned identities, twelve whole native views, 41 independent arithmetic checks, four SVG geometry/text comparisons and explicit execution/approval limits."
+    }
+  ],
+  "pendingDependentUnits": 7,
+  "directPendingDependentUnits": 4,
+  "mainCredit": 0,
+  "liveCredit": 0
+}

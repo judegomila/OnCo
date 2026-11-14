@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "README.md",
-      "sha256": "897474f2940b514306b30a11286cfbb26f655593a6586ec3730e59fb38fa03b3"
+      "sha256": "7f1ee7166e05824fa0b9407c5795092fcb7f953e0b2e63a1586684630cf2520a"
     },
     {
       "path": "access-completion-2026-11-09/capture-manifest.json",
@@ -1296,7 +1296,7 @@
     },
     {
       "path": "candidates.json",
-      "sha256": "b7d953f55b1ce1d020bdc14267f66f88e4fc94cd752879fa6d01b095543e4b8c"
+      "sha256": "4f66da449bd2bf8b710e2d60a886332537031fdbda2ea1c4281cd486f8d7e89b"
     },
     {
       "path": "cell-control-primary/capture-manifest.json",
@@ -3564,7 +3564,7 @@
     },
     {
       "path": "ledger.json",
-      "sha256": "edc5451af3bf8e62fb22574c89f21d56a2dd8438a718c4aa1d8dad9c3f12ee51"
+      "sha256": "5609821660c5df66d29d9a94fa1867280708dd21a6ff8b80187e36403d26d79c"
     },
     {
       "path": "literature-dispositions.json",
@@ -4244,7 +4244,7 @@
     },
     {
       "path": "open-dependencies.json",
-      "sha256": "f1ecff8a5c03e82566a81faf4c1e6efe7bbbd4e46f5c1c1bf4534ea1bf3829e1"
+      "sha256": "284c0d4c760aefc4e9ade083964cf90ba47fe51f5cf2dad4f52cdc92bfb36eb0"
     },
     {
       "path": "open-items.json",
@@ -4252,7 +4252,7 @@
     },
     {
       "path": "open-source-assets.json",
-      "sha256": "296de8381a0fcec892dcecf1ccb4bf27971534625f2583115514ed265150928d"
+      "sha256": "ae18739b1c0a876b948112e3e33e279a04c1ec97d4e8f895e6ae0391343ccf54"
     },
     {
       "path": "original-mrd-and-pathways-2026-11-13/README.md",
@@ -5063,6 +5063,14 @@
       "sha256": "a731691155778b99c8b3fbb05dc4d6a94f2c5d6811166cbe2eb887868b0324b0"
     },
     {
+      "path": "pending/proposal-support-bodies-32-peer.json",
+      "sha256": "63b6e0de536cd7d6e000c6b41113f07357e76f7e9b6a0447a0864e8b087b3f7b"
+    },
+    {
+      "path": "pending/proposal-support-bodies-32-root.json",
+      "sha256": "3e0cd2b621f83c955e2a251fbe02f4345392c584d4de6a1ecb3238601af26a6b"
+    },
+    {
       "path": "pending/proposal-surface-targeting-root.json",
       "sha256": "6fa695415af564250404696bdae4cdf287f573e37336782169bee5dd8bfda96f"
     },
@@ -5093,6 +5101,10 @@
     {
       "path": "pending/proposal-test-vendor-guides-summary-consumers.json",
       "sha256": "d474a76f6d0d7f0b86e7015216056f341351fd85cee18fc11a0d87237e6cea7e"
+    },
+    {
+      "path": "pending/proposal-tests-prediction-asset-summary-consumers-2026-11-14.json",
+      "sha256": "3d01c1276318ecd393e77bdc90b4e18b678070ebb1f4011e7d9704c65e33a762"
     },
     {
       "path": "pending/proposal-therapeutic.json",
@@ -5424,7 +5436,7 @@
     },
     {
       "path": "progress.md",
-      "sha256": "889c7cfe1e3cedece802d76542f7fee1d9d64ce4fb9fcf1768e362e4d1ab5006"
+      "sha256": "df4b44e9e5bea225210eff50da07a191d729e7f428798ca6df8290733adf943a"
     },
     {
       "path": "quality-control-and-peptide-construction-2026-11-14/README.md",
@@ -7936,7 +7948,7 @@
     },
     {
       "path": "source-assets.json",
-      "sha256": "02c122f7452ed929715279cc261dc0e3efe1dab6e763bb38b6255994cdd2f606"
+      "sha256": "bfa9ab497b030c12135cf76000246385964377b90b4942f16c35c2c62fcd59f3"
     },
     {
       "path": "source-checkout-isolation-2026-11-09.json",
@@ -7944,11 +7956,11 @@
     },
     {
       "path": "source-phases/c9689645/README.md",
-      "sha256": "eb1b9accba5b2df43e518cc0a0a87427f4d13db09b3803e0b5c748dfaa06789f"
+      "sha256": "56e04de063b5a548f8876387f39033034331db794c2155ace1e2d37f55fccb6b"
     },
     {
       "path": "source-phases/c9689645/candidates.json",
-      "sha256": "b6a5f0f5bead7de9959a6e8a6bb33ac470247600471c56546d5e5c7aabfa1dad"
+      "sha256": "bd0965bdb8d7f767ba8c330425ef23ce38d28a39844474dfc5a72aa6447207b2"
     },
     {
       "path": "source-phases/c9689645/capture-manifest.json",
@@ -7964,11 +7976,11 @@
     },
     {
       "path": "source-phases/c9689645/ledger.json",
-      "sha256": "a91193840fd4c5ce4a3514ddf371f28830dbfca8718783dd2be9be9541eb30c4"
+      "sha256": "d9ca914bb69cea46dcfd2a65e3cf1938cf2d066aae088059e9769c08bd847a85"
     },
     {
       "path": "source-phases/c9689645/open-dependencies.json",
-      "sha256": "2cb9a27e46607bacf087e28172c829208684eeee4e39dd5eb1a685db65974e8d"
+      "sha256": "78a452de38c915dfb6e4f5115626f9f35b1a67a8a0a03966f58e2f0f24b068c0"
     },
     {
       "path": "source-phases/c9689645/open-items.json",
@@ -7976,7 +7988,7 @@
     },
     {
       "path": "source-phases/c9689645/open-source-assets.json",
-      "sha256": "296de8381a0fcec892dcecf1ccb4bf27971534625f2583115514ed265150928d"
+      "sha256": "ae18739b1c0a876b948112e3e33e279a04c1ec97d4e8f895e6ae0391343ccf54"
     },
     {
       "path": "source-phases/c9689645/publication-identities.json",
@@ -8917,6 +8929,170 @@
     {
       "path": "test-vendor-guides-2026-11-12/zero-change-replay.json",
       "sha256": "6bc9e2ce49da96c97846071f1dc3c1d0beee21e83f24300f2234816d0f71051f"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/README.md",
+      "sha256": "acd6172ff6b1e7d5de14405a98631722a9b41ed2c92ab222ca8254535ee1355f"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/abstract-read-log.json",
+      "sha256": "da706264516f47f3f93b35a161f631cb13e304314177c7d34855023eb2710275"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/adjacent-queue.json",
+      "sha256": "fc1879eecd7b06147ad248f2036f3c3250ec110130d40cf69533ade0c0501839"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/aggregate.json",
+      "sha256": "94b8f93988130b767aa193978053d959bfadfe3643fffbbdfa4958bb2b06552d"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/arithmetic.json",
+      "sha256": "6acd8ce1aafb658c2ce888d717dbd2afd75ec428e471fa3dbcb6a8d9b6252391"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/asset-classification.json",
+      "sha256": "8315eb564acb443215374f75f2d8a5be73a9fda12a63f927412613a6882f03ba"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/batch-summary.json",
+      "sha256": "2173e9af71a261642302b467f9ddf17419f04c84d42fcc11ba66b04772e8a0bc"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/canonical-read-log.json",
+      "sha256": "ad6f280cbadf8bc836e983df3bab126b8855a7cb0f87fa1cdb02cea222f09f75"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/capture-hashes.json",
+      "sha256": "653b38c107d5c8d3eee5d21f35932b18fe1d7ba7f4b5602ea30c7e58705d7ea5"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/context-verification.json",
+      "sha256": "7b85ad3b80fd8cb56212628785fbc054011c2fadfac4a84e1c36eb69f8e95bf6"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/coverage-proofs.json",
+      "sha256": "ecdb7a67b61213fec252e093531530d641aa1dc72b30dcc90277c123ad19f03c"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/current-runtime-verification.json",
+      "sha256": "333a1db98f606176296b629896a5ea12420a0babdec0452840f4d6b4e0ca0df4"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/custody-verification.json",
+      "sha256": "7b85ad3b80fd8cb56212628785fbc054011c2fadfac4a84e1c36eb69f8e95bf6"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/field-verification.json",
+      "sha256": "569cf563f2640a51d34ab7e0e95bd166fa4f4bc08ff0250be7a799e43d7cdefb"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/full-read-log.json",
+      "sha256": "c137b38c1a129effb629dd268a11cb4b601ad64c236bdf032622e4a9a31d0f6c"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/learning-requirements.json",
+      "sha256": "3393712317d6a918cb030df306a45efe0812573bd1c9a40c03f624179db3c9fa"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/native-view-review.json",
+      "sha256": "8ea905c2ac12f70bf5c1d698bff6ee93b1297ada90284bd7a26d251e486ceb99"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/owner-resolution.json",
+      "sha256": "ae0d94b152c1b3a4135108302c89d7e8374edc792e73a449c590141c56afa914"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/parent-read-log.json",
+      "sha256": "fb10f828d89d629455abdef9f57619e50c34f7cd8268d5b21bc243c43991f2f8"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/pdf-source-read-log.json",
+      "sha256": "8d33b7603501c8709850411856d815e59c75a2da0c6c2a9f22501bfa18c04ea4"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/peer-state-verification.json",
+      "sha256": "78cad27a209e92c645ef3b29b4ab3c29680271b0daa400526770cdd20d48853f"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/primary-sources.json",
+      "sha256": "f49ff0419b8b26cfad6ffd68536029fb67b7bfe5dfaf746bf70a49a7806209c5"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/prior-artifact-preservation.json",
+      "sha256": "cecbccbd35bd27dc71d8c7dca2340cf7b1416a3e686a9670353e4207fd6579f2"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/prior-field-rebases.json",
+      "sha256": "f4120e03c47dbdb249c90e2f792551efbeeb716cec28e98782feecf39a3a3d6c"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/reader-anchor-checks.json",
+      "sha256": "b8a1e16e717f07eddef088aad3226d45ebe066af9969e1b26f48bf9cd5c0b0af"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/reader-verification.json",
+      "sha256": "2f3574cdee00d34a4413ae14926c58fe54bfe544c77e0c58a1d20e8615ae926a"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/record-changes.json",
+      "sha256": "41c2a1c6a967758352d51fca3111ef66d8b3b492c31df8b1838d1a71b7f4d9e1"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/remaining-gaps.json",
+      "sha256": "1f3ff66e1fa0a9fd7b2d1a6d9fda037feb4d8f9ed4448c3cfb5ba6bb22d993f5"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/render-receipts.json",
+      "sha256": "e167a8908a2dd62eee54ded5a14f2d2d54a416567065aafca4ecd0fd3281e727"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/review-findings.json",
+      "sha256": "194674e9e780589e470b2aa5a579525a7d80f5a68cbc841371fe51b344cfd589"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/role-history.json",
+      "sha256": "6b80b9acf8ab2fd00a51dae9f460ef598c738a0a3ebdb1e59964d843a5269028"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/source-asset-actions.json",
+      "sha256": "3ec6b5b5b25326e111e011debcd9973d046b1ceceea5892715fd2ccdf1a6af9c"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/source-capture-dispositions.json",
+      "sha256": "ba5c890ed482452f892b6571d873fc655263c276551d06e2d4de41f6884f8551"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/source-first-inventory.json",
+      "sha256": "24c9de27cf599aaf5fab24b412f46c7f6150dacbeda7f5ec8482063594ca238a"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/source-identity-verification.json",
+      "sha256": "aa613348c5f45612eaf88e15aec3fff50fc84711a99ed98007432a24ff479529"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/source-pdf-image-read-log.json",
+      "sha256": "b2fc77ac83b05e56d8febd8e0c5cf83655b130c109f7afeb94d220fe8516e6b0"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/source-read-log.json",
+      "sha256": "0109c6f1deab0b847aa92d614dc99bb19d0d4ce0245fa249c7f98675bb503db3"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/source-reading.json",
+      "sha256": "0b18eab57fffac9da6603ea49fd3e96f573db14c0caccd5af86ba76e45915d57"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/summary-consumer-verification.json",
+      "sha256": "a6fd7cac58c159c1ac010173de2c7a2e601579e18310074b7858418ecde7fb6d"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/validation.json",
+      "sha256": "137e1547bb795bec8b502c9fd0e38ce63f696b51ee69df043eff67e54b887e5d"
+    },
+    {
+      "path": "tests-prediction-construction-assets-2026-11-14/zero-change-replay.json",
+      "sha256": "3638a83d7ddc1e40860275f306e2279a8eb37942dbd3e25964222f85fc73aa51"
     },
     {
       "path": "therapeutic-primary/access-limitations.json",

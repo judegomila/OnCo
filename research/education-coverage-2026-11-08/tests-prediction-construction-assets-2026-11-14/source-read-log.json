@@ -1,0 +1,522 @@
+[
+  {
+    "sourceId": "uno-html",
+    "paragraph": 33,
+    "tag": "p",
+    "paragraphSHA256": "dde872ed28d668c5a2881ae5b20bcadec1983b9e7b02fba83ebf6ccdb57bc85e",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:47:56.147614+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 34,
+    "tag": "p",
+    "paragraphSHA256": "3fdceb505b9e08e6209a0275a81307c041879f8d363120cf288644d90be65465",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:47:56.147735+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 36,
+    "tag": "p",
+    "paragraphSHA256": "5a1dcbeaa368d7fa246392de9e73834c0804eaf79ccdc91d5b93e9dc232d49da",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:47:56.147739+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 38,
+    "tag": "p",
+    "paragraphSHA256": "cfe18920400a7902dc888097b22e6a500a9875a1bba49e104d00f7bead64fbd4",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:47:56.147740+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 39,
+    "tag": "p",
+    "paragraphSHA256": "4a1cd3c95fbfdd535d31a54d82fc3b3db522c294d2abb295d0344879e4c4e96d",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:47:56.147742+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 41,
+    "tag": "p",
+    "paragraphSHA256": "17c6db662251dd865db8f35a509c699bfbdba25953d8cf1c85d67cef17188b0c",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:47:56.147743+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 49,
+    "tag": "p",
+    "paragraphSHA256": "559bc3150831cdf376b248476b4e0972cf76d221da72ef525c30882ee72d880f",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.918914+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 50,
+    "tag": "tr",
+    "paragraphSHA256": "7a7adffa1eb9ddb8821ee9fe3eb1a84edafd7964d6658126a98cebb9a36cdb74",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.919042+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 51,
+    "tag": "p",
+    "paragraphSHA256": "19a0ebd3f7c32af2e5433cc613b1cb2dd350b8511e11f03f118995ac119ef243",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.919046+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 52,
+    "tag": "p",
+    "paragraphSHA256": "86f95a31dd02fc2d1f92bf5f31a983d9fa6d452c6b4feca10d28542624b4fbc7",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.919048+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 53,
+    "tag": "tr",
+    "paragraphSHA256": "fefd5a0fc6b993ba23321c6fe748a0a7ace6bf11dd0254c65f95d903b010b0a0",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.919050+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 54,
+    "tag": "p",
+    "paragraphSHA256": "b8b353bd0d19b2b045e02ce8432000205719d40c46e512fc26b43ba290ed6f7a",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.919052+00:00"
+  },
+  {
+    "sourceId": "uno-html",
+    "paragraph": 214,
+    "tag": "p",
+    "paragraphSHA256": "3d4436b95a525c96a0a9f437a39d1dddc507b6308b9eb9637e3d7866264edde0",
+    "captureSHA256": "d82fbbd7600654db037133ec4464ccfe4517b6d7cab1efb1393dbd175a658129",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.919053+00:00"
+  },
+  {
+    "sourceId": "calibration-html",
+    "paragraph": 42,
+    "tag": "p",
+    "paragraphSHA256": "32b9d47276574ca4efef0156bd36b1480c2600ea078890db42a93e93b7915010",
+    "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.939840+00:00"
+  },
+  {
+    "sourceId": "calibration-html",
+    "paragraph": 47,
+    "tag": "p",
+    "paragraphSHA256": "37703367d9126871e3696d70e92d6e15f4b64c225a3700c9e17489dddee207da",
+    "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.939959+00:00"
+  },
+  {
+    "sourceId": "calibration-html",
+    "paragraph": 51,
+    "tag": "p",
+    "paragraphSHA256": "b8d6da4e2a69e005cfaba257ee440595585bf42b7310bfd16c7450b403e6f319",
+    "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.939963+00:00"
+  },
+  {
+    "sourceId": "calibration-html",
+    "paragraph": 52,
+    "tag": "p",
+    "paragraphSHA256": "de2e38873a89b4d386c28e48e793cf07627d9965ca8f53c1b95742ea5fe20358",
+    "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.939965+00:00"
+  },
+  {
+    "sourceId": "r-padjust-html",
+    "paragraph": 15,
+    "tag": "p",
+    "paragraphSHA256": "e1c5a3869a9dd16d999d93a376bdbf64538156dfe260a3eb6f1abe6b7d316c28",
+    "captureSHA256": "6f94e1865b7ffdea6a8018cf6a84b6891798ecc568cea661e97ebaae533059b6",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.960327+00:00"
+  },
+  {
+    "sourceId": "r-padjust-html",
+    "paragraph": 16,
+    "tag": "p",
+    "paragraphSHA256": "e61f0a4f50c07b51dcfe7ab6496fc9a305d9a2e9310516d2b807ba826056717c",
+    "captureSHA256": "6f94e1865b7ffdea6a8018cf6a84b6891798ecc568cea661e97ebaae533059b6",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.960434+00:00"
+  },
+  {
+    "sourceId": "r-padjust-html",
+    "paragraph": 17,
+    "tag": "p",
+    "paragraphSHA256": "bf0d700750b9aa4702942d58d9910c33df5dc7d0ada321a7cecc49feb8b1b8fb",
+    "captureSHA256": "6f94e1865b7ffdea6a8018cf6a84b6891798ecc568cea661e97ebaae533059b6",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.960437+00:00"
+  },
+  {
+    "sourceId": "r-padjust-html",
+    "paragraph": 18,
+    "tag": "p",
+    "paragraphSHA256": "f7a549057148f43ba8323bb9deb62ed7bc30a0f1f8dc015ea324524c48245f21",
+    "captureSHA256": "6f94e1865b7ffdea6a8018cf6a84b6891798ecc568cea661e97ebaae533059b6",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.960439+00:00"
+  },
+  {
+    "sourceId": "r-padjust-html",
+    "paragraph": 19,
+    "tag": "p",
+    "paragraphSHA256": "a43a470de0963c63323468d516ce0e113f0f18e6085bc78d891c23e91fa3379c",
+    "captureSHA256": "6f94e1865b7ffdea6a8018cf6a84b6891798ecc568cea661e97ebaae533059b6",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.960441+00:00"
+  },
+  {
+    "sourceId": "r-padjust-html",
+    "paragraph": 20,
+    "tag": "p",
+    "paragraphSHA256": "e97ebf7daa01c15032fd64cae7a7663f89a576810d24e7fffe3d076c3db4d54e",
+    "captureSHA256": "6f94e1865b7ffdea6a8018cf6a84b6891798ecc568cea661e97ebaae533059b6",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:48:04.960443+00:00"
+  },
+  {
+    "sourceId": "calibration-html",
+    "paragraph": 53,
+    "tag": "p",
+    "paragraphSHA256": "3a1647202306b9b59fd88e75d6f1a67049fb1e5adbec3590826645c69cd2857a",
+    "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:04.442455+00:00"
+  },
+  {
+    "sourceId": "calibration-html",
+    "paragraph": 57,
+    "tag": "p",
+    "paragraphSHA256": "9b55f6d17e8e921a1ede3732cf11f42411526639c983e6e9239dae2adf5f371b",
+    "captureSHA256": "d19e6cdbbe5903905e629e3deb25f8b3e155675d944fe3b6d09253492a729ccf",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:04.442566+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 34,
+    "tag": "p",
+    "paragraphSHA256": "46e335c79807fbef7cd659ee44546f0b0596601ab72f6e754e2d32a1e9f34612",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479764+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 35,
+    "tag": "p",
+    "paragraphSHA256": "a086148d673fa03368a158bd983bdb6fa577d108cff45737503d3bdf1bff70ea",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479896+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 36,
+    "tag": "p",
+    "paragraphSHA256": "813c9570042f3242a38840e6a41cf03f07db08fce2676099c27bc88a23c4ba73",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479900+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 37,
+    "tag": "p",
+    "paragraphSHA256": "429cb6a62eb2ef5277c1d047637e2095da321ffc41bee4d5a8a6aae680ae8e1b",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479902+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 67,
+    "tag": "p",
+    "paragraphSHA256": "b44fc6c0b525a0aadc537b3540bd6ee574b83c536bad934cf527130f5c0dfa21",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479905+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 89,
+    "tag": "p",
+    "paragraphSHA256": "08fcb6e9eb4c608dd201655652d5605ddedc9f57de160bc34cfcec7be6f1f53a",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479907+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 92,
+    "tag": "p",
+    "paragraphSHA256": "90c30c6b4b79b55c47b40292d30e4da5fd149ab37435cdbbc6b20385147e6b13",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479908+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 99,
+    "tag": "p",
+    "paragraphSHA256": "4c81e27f3efde05ead993331596695e2c0d2f4c2a2335d6460a03f8f0d2c6db5",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:49:41.479910+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 110,
+    "tag": "p",
+    "paragraphSHA256": "b59bb933e02b2fccc0928b845495880a34bf376527d317c85c065d98aa643a1f",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.709103+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 111,
+    "tag": "p",
+    "paragraphSHA256": "9f39f0a642d3947d8d1e18ead5fc0854fe67170bbd8aec959c896fc7270a9f98",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.709230+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 112,
+    "tag": "p",
+    "paragraphSHA256": "aa1d6f34fa98a8a1056919e2eb883e13a2e854b33975647edb40ef8b69e5a694",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.709234+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 113,
+    "tag": "p",
+    "paragraphSHA256": "71ceaec4cfabe667f5177c35d190f56f8badc54658eb8d638c6ba19add015fa5",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.709237+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 117,
+    "tag": "p",
+    "paragraphSHA256": "b191976bb60a25aafa55d6d3b8455271001c4fc88d120f00a3a98cb5901b1f5e",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.709239+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 119,
+    "tag": "p",
+    "paragraphSHA256": "4c4c0974b6a66552ec160ae62a4c5513a270ac95f87a96c3f72f47e37d17a90b",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.709242+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 121,
+    "tag": "p",
+    "paragraphSHA256": "1812c221f75d01c7f19614595d48d7d02067fe3dc6a151d4bb10ec1f92f3b10a",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.709244+00:00"
+  },
+  {
+    "sourceId": "tripod-ai-html",
+    "paragraph": 112,
+    "tag": "p",
+    "paragraphSHA256": "d783d154bbae45c5c06f555d8ea70261d869ee8af800e79e3480e75b3804b4a4",
+    "captureSHA256": "d430b1f7468734aa161b094afcaa1320d9099e4ea2e3387a665c435b245dd9f4",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.729829+00:00"
+  },
+  {
+    "sourceId": "tripod-ai-html",
+    "paragraph": 118,
+    "tag": "p",
+    "paragraphSHA256": "ed9ff0b2057c1828df66384d362baaf7fd54870137c04ccbe866f3fe9b51c565",
+    "captureSHA256": "d430b1f7468734aa161b094afcaa1320d9099e4ea2e3387a665c435b245dd9f4",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.729944+00:00"
+  },
+  {
+    "sourceId": "tripod-ai-html",
+    "paragraph": 132,
+    "tag": "p",
+    "paragraphSHA256": "0127d5ecad0ca791ca4d582090f6be4e30674b2606f68cfa2eb4ae49af4a9f11",
+    "captureSHA256": "d430b1f7468734aa161b094afcaa1320d9099e4ea2e3387a665c435b245dd9f4",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.729948+00:00"
+  },
+  {
+    "sourceId": "tripod-ai-html",
+    "paragraph": 140,
+    "tag": "p",
+    "paragraphSHA256": "018ed9ce8f738b5c09c09482219f6005ece826b95743c2d571a61a9824977d80",
+    "captureSHA256": "d430b1f7468734aa161b094afcaa1320d9099e4ea2e3387a665c435b245dd9f4",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:50:04.729950+00:00"
+  },
+  {
+    "sourceId": "cutoff-finder-html",
+    "paragraph": 43,
+    "tag": "p",
+    "paragraphSHA256": "b9c72d90476f935d25e147faa823f0b615b2e0ac8f80119a885350bf0ae1e18f",
+    "captureSHA256": "595540fddfb2057642f3a5bcc70d7efd85c1a16e8d72316a937965895eb4c3f9",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:55:59.597058+00:00"
+  },
+  {
+    "sourceId": "cutoff-finder-html",
+    "paragraph": 44,
+    "tag": "p",
+    "paragraphSHA256": "2ec736f261f7476b798572dad288da06350812f29b219b15c81f5a1986170c8c",
+    "captureSHA256": "595540fddfb2057642f3a5bcc70d7efd85c1a16e8d72316a937965895eb4c3f9",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:55:59.597169+00:00"
+  },
+  {
+    "sourceId": "cutoff-finder-html",
+    "paragraph": 127,
+    "tag": "p",
+    "paragraphSHA256": "03cc82f35b36dbdddf423b370a717562e0244e1a36ac62585c4e55e1ce5e2719",
+    "captureSHA256": "595540fddfb2057642f3a5bcc70d7efd85c1a16e8d72316a937965895eb4c3f9",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:55:59.597173+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 149,
+    "tag": "p",
+    "paragraphSHA256": "093038df2adc73485131e702561f20b2122f2d03aca4c112ddc9f0e76a20765c",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:58:54.625823+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 150,
+    "tag": "h3",
+    "paragraphSHA256": "693c932881d0bb271b1c15c6e0277390b2bd529cf852c3e73444efb1a93b83a9",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:58:54.625943+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 151,
+    "tag": "p",
+    "paragraphSHA256": "983906e55fff217ae0e760ea534c0e7a51170c4e6f09590fb9bbe80811a57224",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:58:54.625947+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 152,
+    "tag": "h2",
+    "paragraphSHA256": "26201645fb14d83d4f7ae7385e5c4ef2e8411313b311d178ce54c0eb65a1bd9b",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:58:54.625950+00:00"
+  },
+  {
+    "sourceId": "riley-html",
+    "paragraph": 153,
+    "tag": "p",
+    "paragraphSHA256": "af7c578ee437c2c63f805e9c7d1881df691f640d980bd70142f37014c88450ca",
+    "captureSHA256": "56c0e522de0d83a39c7066e2d2b6930747fad0c19d64a5d10cd2504ace862643",
+    "readInFullAfterIntactOutput": true,
+    "wholeDocumentRead": false,
+    "acknowledgedAtUTC": "2026-11-14T20:58:54.625953+00:00"
+  }
+]

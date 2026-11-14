@@ -110,89 +110,34 @@
     "problem": "authoring-body-28-02-SB28-004: residual gaps remain"
   },
   {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
     "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-08-P33-P06: partial"
   },
   {
     "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
     "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-08-P33-P06: residual gaps remain"
   },
   {
     "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
     "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-12-P33-C06: partial"
+  },
+  {
+    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+    "problem": "authoring-body-32-12-P33-C06: residual gaps remain"
   },
   {
     "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
     "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-13-P33-C06: partial"
   },
   {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
     "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
-    "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-13-P33-C06: residual gaps remain"
   },
   {
     "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcc-v1-dark.png",
@@ -3720,89 +3665,34 @@
     "problem": "authoring-body-28-02-SB28-004: residual gaps remain"
   },
   {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
     "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-08-P33-P06: partial"
   },
   {
     "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
     "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-08-P33-P06: residual gaps remain"
   },
   {
     "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
     "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-12-P33-C06: partial"
+  },
+  {
+    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+    "guideRef": "c96896452386202405c435aa161bc5047919337a",
+    "problem": "authoring-body-32-12-P33-C06: residual gaps remain"
   },
   {
     "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
     "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-13-P33-C06: partial"
   },
   {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
     "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
-  },
-  {
-    "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
-    "guideRef": "c96896452386202405c435aa161bc5047919337a",
-    "problem": "Source asset has no scope disposition"
+    "problem": "authoring-body-32-13-P33-C06: residual gaps remain"
   },
   {
     "path": "wiki/education/concepts/immunology/antibodies-and-b-cells/images/antibody-coating-adcc-v1-dark.png",

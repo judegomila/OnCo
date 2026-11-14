@@ -1,0 +1,73 @@
+{
+  "checks": [
+    {
+      "id": "ppv",
+      "file": "ppv.html",
+      "sha256": "17c30c5c7350452da094b46732bd0759c7c670dbef225be0ad962ffc9761c02a",
+      "bytes": 55036,
+      "recordSHA256": "28daa1c47a1a34fdac4f5e6870628c0fd1163d8c2e12b0f3b2cd5f8bd0b13c93",
+      "actualRegisteredRootReader": true,
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "false-discovery-rate",
+      "file": "false-discovery-rate.html",
+      "sha256": "ebffd4e93a07b6cfebc0d27324bc3a6cdfcc84d835093e5d957ab9d140dcd05c",
+      "bytes": 22309,
+      "recordSHA256": "e2570b64a7909c26fb1b6ea6253929704106fc760a6b25d651b34de46742ee2a",
+      "actualRegisteredRootReader": true,
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "roc-auc",
+      "file": "roc-auc.html",
+      "sha256": "e36c1ee70e46ab4575a41fc05b351223514e8ed2ee4cf89156f00c64b22dbc48",
+      "bytes": 28686,
+      "recordSHA256": "8062b3355bddd8d244fd9ee24de4ae008da09e61eecbfb387fc51fb05c98f4ce",
+      "actualRegisteredRootReader": true,
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "concordance-index",
+      "file": "concordance-index.html",
+      "sha256": "7c99da506af6a374c68951046a815b8484de47c2f9310c5ccb39ac12a34f3163",
+      "bytes": 26201,
+      "recordSHA256": "f07d5c3da9344814c8b5b3754f27718a6050b3338e643b2080b322556dbad98c",
+      "actualRegisteredRootReader": true,
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "calibration",
+      "file": "calibration.html",
+      "sha256": "4bc9d309e87e7fce0325ad4220ef29f16a2d8ce1c327b835ce5890814134cee3",
+      "bytes": 27298,
+      "recordSHA256": "892aa529d55aeeae7fb12c66ceeb4cc34e5d08464c46f29cc94f4e9d805e02f9",
+      "actualRegisteredRootReader": true,
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "external-validation",
+      "file": "external-validation.html",
+      "sha256": "1983ac668d0d3120cecfabe1278d2c407fe678f0fe725807d40099f6546b3390",
+      "bytes": 29848,
+      "recordSHA256": "831a2dc7dec1160795cc77aafa5624f008698c6a8266204c40c4ba1891836199",
+      "actualRegisteredRootReader": true,
+      "allSourceLinksPresent": true
+    },
+    {
+      "id": "graph-reading",
+      "file": "graph-reading.html",
+      "sha256": "56ac23e36a2ff5b167f1d722a0d582bb6428af75a6b76635abb9fd65870a3a6d",
+      "bytes": 26220,
+      "recordSHA256": "8e34579ce5bd30d3ebac7debbd39cde505d75604f3763bf815e3ee317e1c923a",
+      "actualRegisteredRootReader": true,
+      "allSourceLinksPresent": true
+    }
+  ],
+  "actualRegisteredRootReaders": 7,
+  "selectedSchemaParses": 8,
+  "peerReadersRendered": 0,
+  "peerFieldsRemainUnmerged": true,
+  "ordinaryLayerRestored": true,
+  "hostedBrowserHydrationAccessibilityOrIndependentAcceptance": false
+}

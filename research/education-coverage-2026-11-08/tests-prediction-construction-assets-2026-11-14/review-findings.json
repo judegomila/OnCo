@@ -1,0 +1,50 @@
+{
+  "findings": [
+    {
+      "id": "P33-F01",
+      "finding": "All 17 path pairs are byte-identical across the pins; the two old PNGs are not the current parent embeds.",
+      "disposition": "Separate source iterations, both native variants fully viewed, with no current-embed substitution."
+    },
+    {
+      "id": "P33-F02",
+      "finding": "The typography edit repeats the complete quantitative two-example specification.",
+      "disposition": "Teaching under the same whole-content rule as other scientific briefs. The separate 540-byte palette-only context call retains its earlier support scope."
+    },
+    {
+      "id": "P33-F03",
+      "finding": "BH must select through the largest passing rank, even when an earlier rank fails its own comparison.",
+      "disposition": "Verified from five complete scan pages, the abstracts and exact fictional arithmetic; no per-hit probability or general dependence guarantee."
+    },
+    {
+      "id": "P33-F04",
+      "finding": "Two native layout units lack exact canonical drawing text.",
+      "disposition": "P33-P06 and C06 stay partial. No artificial field-completeness or original-art registration claim."
+    },
+    {
+      "id": "P33-F05",
+      "finding": "The PPV portable source requires unavailable plotting libraries.",
+      "disposition": "Source parsed and data recomputed without executing it or installing packages. Actual Arial hash matches the declared input, which does not prove generator reproduction."
+    },
+    {
+      "id": "P33-F06",
+      "finding": "The sensitivity/specificity context lead makes an unsupported universal performance assertion.",
+      "disposition": "Exact adjacent correction proposal RC01 is held and earns no implementation credit; other retained clinical assertions are not recertified."
+    },
+    {
+      "id": "P33-F07",
+      "finding": "A broad bare-ROC metadata search and diagnostic preview outputs were overinclusive or truncated.",
+      "disposition": "Initial census retained, regex corrected to word boundaries, and all actual record and source reads separately acknowledged from intact bounded output. No truncated preview receives reading credit."
+    },
+    {
+      "id": "P33-F08",
+      "finding": "The FDA 2007 glossary text appears to reverse the likelihood-ratio labels.",
+      "disposition": "Only the PPV/NPV, condition-status and prevalence definitions on that page are used; no likelihood-ratio claim is adopted or corrected here."
+    },
+    {
+      "id": "P33-F09",
+      "finding": "A PDF acknowledgment command initially used the worktree instead of the private packet directory.",
+      "disposition": "It wrote no log; the same already-read pages were subsequently acknowledged in the intended packet. Prior packet files were not touched."
+    }
+  ],
+  "independentAcceptance": false
+}

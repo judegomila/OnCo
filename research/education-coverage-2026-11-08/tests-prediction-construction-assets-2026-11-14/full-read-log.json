@@ -1,0 +1,385 @@
+{
+  "textBodies": 15,
+  "versionEntries": 30,
+  "originalFullReads": 15,
+  "laterWholeByteIdentityReuses": 15,
+  "acknowledgedSpans": 22,
+  "completeTextBodyBytes": 81492,
+  "rows": [
+    {
+      "index": 0,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 6153,
+          "sha256": "7e3e9bc5c9b2f9cf61df3c765c18e528d3437b25d42eef70e6d7e82316431c48",
+          "gitBlob": "c9e32536760aab0b071670b13b964c90b80fcff0"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 6153,
+          "sha256": "7e3e9bc5c9b2f9cf61df3c765c18e528d3437b25d42eef70e6d7e82316431c48",
+          "gitBlob": "c9e32536760aab0b071670b13b964c90b80fcff0"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 2,
+      "byteCoverage": 6153,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 1,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 8821,
+          "sha256": "3ba093da6187ab57d356020c48fde15533f63bba990837b9432a8062e0c8c457",
+          "gitBlob": "a700e161eff919599688675a008dc0f17e9d41c9"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 8821,
+          "sha256": "3ba093da6187ab57d356020c48fde15533f63bba990837b9432a8062e0c8c457",
+          "gitBlob": "a700e161eff919599688675a008dc0f17e9d41c9"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 2,
+      "byteCoverage": 8821,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 2,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 3056,
+          "sha256": "2dd5a9b0ab7a4142880aba12967ccf9cba9104aa323ee2b7fed2b44d53910b08",
+          "gitBlob": "3a001e2740445529097d627edda0370328cf6d91"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 3056,
+          "sha256": "2dd5a9b0ab7a4142880aba12967ccf9cba9104aa323ee2b7fed2b44d53910b08",
+          "gitBlob": "3a001e2740445529097d627edda0370328cf6d91"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 3056,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 3,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1138,
+          "sha256": "edfda6c1a44d95832e9bd8b65b4d25fd1940e90f8bcb62ae8c3ea5d6caea315c",
+          "gitBlob": "2a7b40029a322b52dab7a20699dc3ca36c39cc30"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1138,
+          "sha256": "edfda6c1a44d95832e9bd8b65b4d25fd1940e90f8bcb62ae8c3ea5d6caea315c",
+          "gitBlob": "2a7b40029a322b52dab7a20699dc3ca36c39cc30"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 1138,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 4,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 10239,
+          "sha256": "3fa6d4defce32afc2c7d2569d44d0b168ab0dc6cbb5c2858c65287fc09eff4b9",
+          "gitBlob": "fd52b23846bdf389eb9da6dd5c3a9e9eefcb8e44"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 10239,
+          "sha256": "3fa6d4defce32afc2c7d2569d44d0b168ab0dc6cbb5c2858c65287fc09eff4b9",
+          "gitBlob": "fd52b23846bdf389eb9da6dd5c3a9e9eefcb8e44"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 2,
+      "byteCoverage": 10239,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 5,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 8795,
+          "sha256": "d8b43e3e631f389361bccf33467d95b970152e7699fc3cba9c3fab0f75eb50b3",
+          "gitBlob": "c7ef4ff53f16efc63bcec87335779309003e8eff"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 8795,
+          "sha256": "d8b43e3e631f389361bccf33467d95b970152e7699fc3cba9c3fab0f75eb50b3",
+          "gitBlob": "c7ef4ff53f16efc63bcec87335779309003e8eff"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 2,
+      "byteCoverage": 8795,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 6,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 2949,
+          "sha256": "8b68ea5c6ba2554ffd1a3221c9ff588eff9060b3f6c81d8c1ee2617fbcb65625",
+          "gitBlob": "a2b88df087c2940895d35fbf8ffb4887e95198d2"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 2949,
+          "sha256": "8b68ea5c6ba2554ffd1a3221c9ff588eff9060b3f6c81d8c1ee2617fbcb65625",
+          "gitBlob": "a2b88df087c2940895d35fbf8ffb4887e95198d2"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 2949,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 7,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1159,
+          "sha256": "82cacdc6ae6127ebb2498f9c808285e741f6e80a5a50dcd337707a1154f7637f",
+          "gitBlob": "66e3ad5b828c263ba798b7f472c31d26c4824ade"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1159,
+          "sha256": "82cacdc6ae6127ebb2498f9c808285e741f6e80a5a50dcd337707a1154f7637f",
+          "gitBlob": "66e3ad5b828c263ba798b7f472c31d26c4824ade"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 1159,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 8,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 16569,
+          "sha256": "856f29c50239fe42772a3cf24399ee760313d9c83d9ac9a6a70258583cef7a6f",
+          "gitBlob": "35fde0b772c3e8983c07c4d312755fcf6be19b03"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 16569,
+          "sha256": "856f29c50239fe42772a3cf24399ee760313d9c83d9ac9a6a70258583cef7a6f",
+          "gitBlob": "35fde0b772c3e8983c07c4d312755fcf6be19b03"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 3,
+      "byteCoverage": 16569,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 9,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 9319,
+          "sha256": "eed890ce0b20ce39849da2f2de042af6aa23e45ad0309dfdda12fcedc3d4d046",
+          "gitBlob": "16d0dab79093e10503d10a5bb822ffcb443d7f3f"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 9319,
+          "sha256": "eed890ce0b20ce39849da2f2de042af6aa23e45ad0309dfdda12fcedc3d4d046",
+          "gitBlob": "16d0dab79093e10503d10a5bb822ffcb443d7f3f"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 2,
+      "byteCoverage": 9319,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 10,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 3012,
+          "sha256": "853869add162b3fec4587d30fef06ef183cea5212ab961515fd03c52e114e193",
+          "gitBlob": "59a9c54f4d3e40bcf87d094a8e4df5d56fb86106"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 3012,
+          "sha256": "853869add162b3fec4587d30fef06ef183cea5212ab961515fd03c52e114e193",
+          "gitBlob": "59a9c54f4d3e40bcf87d094a8e4df5d56fb86106"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 3012,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 11,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1172,
+          "sha256": "d5fea464bc01594243de5e813af93357e02f620c7360d398ae2a0b58de035f88",
+          "gitBlob": "c4f2a519821a5dac1dac0e52252542d18b715273"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1172,
+          "sha256": "d5fea464bc01594243de5e813af93357e02f620c7360d398ae2a0b58de035f88",
+          "gitBlob": "c4f2a519821a5dac1dac0e52252542d18b715273"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 1172,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 12,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 1628,
+          "sha256": "b4ed071f48eac26220d89264455c418cc3df9c819054e4465fe3eb3906b47188",
+          "gitBlob": "7de902c69a3632c5df66539958c2abaa92906ece"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 1628,
+          "sha256": "b4ed071f48eac26220d89264455c418cc3df9c819054e4465fe3eb3906b47188",
+          "gitBlob": "7de902c69a3632c5df66539958c2abaa92906ece"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 1628,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 13,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 3566,
+          "sha256": "71b19881c961718ee35d3a17cb605bbbe4cfef2436a8d869da54e5c049ad4430",
+          "gitBlob": "689d34cf212a6b64bd9bde37f54429ffff2c41cf"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 3566,
+          "sha256": "71b19881c961718ee35d3a17cb605bbbe4cfef2436a8d869da54e5c049ad4430",
+          "gitBlob": "689d34cf212a6b64bd9bde37f54429ffff2c41cf"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 3566,
+      "scientificRoleOrClaimAcceptance": false
+    },
+    {
+      "index": 14,
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+      "versions": [
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+          "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+          "bytes": 3916,
+          "sha256": "1e68c0d3dbb47a4471379ddb166dd240d306309963d08bb316bdea17e5a9e0e5",
+          "gitBlob": "d3429f1f7d17b970c925df0b1566deae7eda3887"
+        },
+        {
+          "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+          "guideRef": "c96896452386202405c435aa161bc5047919337a",
+          "bytes": 3916,
+          "sha256": "1e68c0d3dbb47a4471379ddb166dd240d306309963d08bb316bdea17e5a9e0e5",
+          "gitBlob": "d3429f1f7d17b970c925df0b1566deae7eda3887"
+        }
+      ],
+      "fullOriginalBodyRead": true,
+      "identicalLaterBodyReusedByWholeByteIdentity": true,
+      "acknowledgedSpanCount": 1,
+      "byteCoverage": 3916,
+      "scientificRoleOrClaimAcceptance": false
+    }
+  ]
+}

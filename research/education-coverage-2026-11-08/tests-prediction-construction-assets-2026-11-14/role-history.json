@@ -1,0 +1,584 @@
+{
+  "previouslyClassifiedPaletteContextEntries": [
+    {
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "item": {
+        "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+        "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+        "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+        "bytes": 540,
+        "format": ".txt",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+        "suggestedRole": "provenance-or-authoring-support",
+        "scope": "supporting",
+        "review": {
+          "status": "reviewed",
+          "auditor": "Coordinator full-body support disposition",
+          "checkedAt": "2026-11-11",
+          "rationale": "Palette edit shared with another image. Ticks and line-preservation instructions are not proof of the actual recycling scene geometry. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-dark.png, wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-light.png.",
+          "sectionHashes": [
+            "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+          ],
+          "points": []
+        },
+        "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26",
+        "bodyRole": "authoring/provenance",
+        "scopeReview": {
+          "auditor": "Coordinator full-body role review; no expert, owner or learner sign-off",
+          "checkedAt": "2026-11-11",
+          "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+          "rationale": "Palette edit shared with another image. Ticks and line-preservation instructions are not proof of the actual recycling scene geometry. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-dark.png, wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-light.png."
+        }
+      }
+    },
+    {
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "item": {
+        "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+        "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+        "guideRef": "c96896452386202405c435aa161bc5047919337a",
+        "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+        "bytes": 540,
+        "format": ".txt",
+        "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-dark-call.txt",
+        "suggestedRole": "provenance-or-authoring-support",
+        "scope": "supporting",
+        "review": {
+          "status": "reviewed",
+          "auditor": "Coordinator full-body support disposition",
+          "checkedAt": "2026-11-11",
+          "rationale": "Palette edit shared with another image. Ticks and line-preservation instructions are not proof of the actual recycling scene geometry. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-dark.png, wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-light.png.",
+          "sectionHashes": [
+            "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26"
+          ],
+          "points": []
+        },
+        "sourceSha256": "41a84eb29c29deaddbabfc0a78c0d58227fb11f3bb4a814e01709c157e2cfc26",
+        "bodyRole": "authoring/provenance",
+        "scopeReview": {
+          "auditor": "Coordinator full-body role review; no expert, owner or learner sign-off",
+          "checkedAt": "2026-11-11",
+          "gitBlob": "d88408dae9d69294e0f93bb7c32a12041f83f52c",
+          "rationale": "Palette edit shared with another image. Ticks and line-preservation instructions are not proof of the actual recycling scene geometry. No points are earned by a prompt, citation presence, model/agent claim or support-role decision. Scientific dependencies: wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-dark.png, wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-v2-light.png."
+        }
+      }
+    }
+  ],
+  "paletteBodyBytes": 540,
+  "paletteContextReReadInFull": true,
+  "priorSupportingScopeRetained": true,
+  "earlierCompleteAssignedDecisions": [
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "c9e32536760aab0b071670b13b964c90b80fcff0",
+      "bytes": 6153,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "c9e32536760aab0b071670b13b964c90b80fcff0",
+      "bytes": 6153,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/comparison-next-gap-006-current-owner-continuity.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "a700e161eff919599688675a008dc0f17e9d41c9",
+      "bytes": 8821,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "a700e161eff919599688675a008dc0f17e9d41c9",
+      "bytes": 8821,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-independent-owner-review.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "3a001e2740445529097d627edda0370328cf6d91",
+      "bytes": 3056,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "3a001e2740445529097d627edda0370328cf6d91",
+      "bytes": 3056,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1-provenance.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "2a7b40029a322b52dab7a20699dc3ca36c39cc30",
+      "bytes": 1138,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "2a7b40029a322b52dab7a20699dc3ca36c39cc30",
+      "bytes": 1138,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/fixed-scores-moving-cutpoints-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "fd52b23846bdf389eb9da6dd5c3a9e9eefcb8e44",
+      "bytes": 10239,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "fd52b23846bdf389eb9da6dd5c3a9e9eefcb8e44",
+      "bytes": 10239,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/next-gap-090-combined19-current-owner-task-fit-continuity.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "c7ef4ff53f16efc63bcec87335779309003e8eff",
+      "bytes": 8795,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "c7ef4ff53f16efc63bcec87335779309003e8eff",
+      "bytes": 8795,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-independent-owner-review.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "a2b88df087c2940895d35fbf8ffb4887e95198d2",
+      "bytes": 2949,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "a2b88df087c2940895d35fbf8ffb4887e95198d2",
+      "bytes": 2949,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1-provenance.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "66e3ad5b828c263ba798b7f472c31d26c4824ade",
+      "bytes": 1159,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "66e3ad5b828c263ba798b7f472c31d26c4824ade",
+      "bytes": 1159,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/observed-pairs-roc-and-censored-order-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "35fde0b772c3e8983c07c4d312755fcf6be19b03",
+      "bytes": 16569,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "35fde0b772c3e8983c07c4d312755fcf6be19b03",
+      "bytes": 16569,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/positive-calls-and-base-rates-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "16d0dab79093e10503d10a5bb822ffcb443d7f3f",
+      "bytes": 9319,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "16d0dab79093e10503d10a5bb822ffcb443d7f3f",
+      "bytes": 9319,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-independent-owner-review.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "59a9c54f4d3e40bcf87d094a8e4df5d56fb86106",
+      "bytes": 3012,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "59a9c54f4d3e40bcf87d094a8e4df5d56fb86106",
+      "bytes": 3012,
+      "format": ".json",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1-provenance.json",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "c4f2a519821a5dac1dac0e52252542d18b715273",
+      "bytes": 1172,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "c4f2a519821a5dac1dac0e52252542d18b715273",
+      "bytes": 1172,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranked-p-values-and-step-up-selection-v1.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "7de902c69a3632c5df66539958c2abaa92906ece",
+      "bytes": 1628,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "7de902c69a3632c5df66539958c2abaa92906ece",
+      "bytes": 1628,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2-light-call.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "689d34cf212a6b64bd9bde37f54429ffff2c41cf",
+      "bytes": 3566,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "689d34cf212a6b64bd9bde37f54429ffff2c41cf",
+      "bytes": 3566,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration-v2.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "d3429f1f7d17b970c925df0b1566deae7eda3887",
+      "bytes": 3916,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "d3429f1f7d17b970c925df0b1566deae7eda3887",
+      "bytes": 3916,
+      "format": ".txt",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/prompts/ranking-and-calibration.txt",
+      "suggestedRole": "provenance-or-authoring-support",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "062a26a104a7f1888922b4b7dd4ac9cdaba23fbf",
+      "bytes": 1469947,
+      "format": ".png",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
+      "suggestedRole": "visual-teaching-candidate",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "062a26a104a7f1888922b4b7dd4ac9cdaba23fbf",
+      "bytes": 1469947,
+      "format": ".png",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-dark.png",
+      "suggestedRole": "visual-teaching-candidate",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "7510db6be8053b64708b6c6c037ab1ea564a35ab:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
+      "guideRef": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+      "gitBlob": "246edd05810ce7128a4ec4feede86c33ed609e23",
+      "bytes": 1479239,
+      "format": ".png",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
+      "suggestedRole": "visual-teaching-candidate",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    },
+    {
+      "id": "c96896452386202405c435aa161bc5047919337a:wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
+      "path": "wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
+      "guideRef": "c96896452386202405c435aa161bc5047919337a",
+      "gitBlob": "246edd05810ce7128a4ec4feede86c33ed609e23",
+      "bytes": 1479239,
+      "format": ".png",
+      "sourceURL": "https://github.com/jasonLaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/tests-and-prediction/images/ranking-and-calibration-light.png",
+      "suggestedRole": "visual-teaching-candidate",
+      "scope": "unclassified",
+      "review": {
+        "status": "unreviewed",
+        "points": []
+      }
+    }
+  ],
+  "earlierPacketBytesUntouched": true
+}

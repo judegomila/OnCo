@@ -1,4 +1,4 @@
-# Change proposals 2026-11-13
+# Change proposals 2026-11-14
 
 Drafted by scripts/propose-updates.ts from: factcheck 2026-11-09, trialChanges 2026-11-09, fda 2026-11-11, regional 2026-11-11.
 
@@ -1762,7 +1762,6 @@ Review each line against its source. Apply by editing the file named; nothing in
   - proposed: add phase 3 trial NCT04543617 for Tiragolumab with status completed
   - evidence: A phase 3 study of Tiragolumab moved from ACTIVE_NOT_RECRUITING to COMPLETED (detected 2026-09-17). ([source](https://clinicaltrials.gov/study/NCT04543617))
 
-## EMA rows decided without a person (2 written, 0 already on main)
+## EMA rows decided without a person (0 written, 2 already on main)
 
-- vedolizumab: EU approved 2014 ("Authorised: This medicine is authorised for use in the European Union", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio))
-- mangafodipir: EU withdrawn 2012 ("Withdrawn: This medicine's authorisation has been withdrawn", [source](https://www.ema.europa.eu/en/medicines/human/EPAR/teslascan))
+None this run.

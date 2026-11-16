@@ -1,0 +1,26 @@
+{
+  "checkedOn": "2026-11-08",
+  "validate": "pass, 22715 entities",
+  "typecheck": "pass",
+  "lint": "zero errors, seven existing warnings",
+  "fullSuite": {
+    "filesPassed": 281,
+    "testsPassed": 2813,
+    "testsSkipped": 2
+  },
+  "resolvedFailure": "Initial full run failed two existing side-data assertions because the new POLR2A target lacked a GeneXref entry. The HGNC-derived entry was added; the 8-test file and a complete second full suite pass. No assertion or floor was changed.",
+  "retrieval": {
+    "extractiveRecall": 0.4309,
+    "rubric": 0.6875,
+    "questions": 100,
+    "unchangedRecallFloor": 0.4275,
+    "unchangedRubricFloor": 0.66
+  },
+  "dedupe": "same nine existing groups; no DOI/PMID duplicate group",
+  "render": "39 dated source-bearing server-rendered owners checked; nine changed narratives/notes read.",
+  "scope": "32 new records (31 original concepts plus POLR2A target), seven existing owners; no overlaps with draft #375. Existing exatecan id retained with a cited concept owner after retiring its unverified family comparison row.",
+  "build": "Known baseline extra GRAPH_JSON map-route export prevents a complete Next build. Separate product draft #376 fixes it; no build or deployment of the combined drafts is claimed.",
+  "approval": "Draft awaiting maintainer issue triage and required review; no expert or advocate sign-off.",
+  "secretScan": "gitleaks 8.24.3 staged scan: no leaks",
+  "changedFileLint": "all eight changed data files pass with no warnings"
+}

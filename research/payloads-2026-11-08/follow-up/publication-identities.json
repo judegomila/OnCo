@@ -1,0 +1,618 @@
+[
+  {
+    "pmid": "42089685",
+    "doi": "10.1111/cts.70569",
+    "title": "Clinical Pharmacology and Translational Science Considerations in the Development of Dual-Payload Antibody Drug Conjugates.",
+    "authors": "Ravenstijn P, Kakinuma T, Hamed S, Kadokura T, Okada Y, Poondru S.",
+    "firstPublicationDate": "2026-05-01",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "Review/perspective read for bioanalysis and translation questions; not an experimental clinical-benefit result.",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "41591991",
+    "doi": "10.1158/1078-0432.ccr-25-3321",
+    "title": "Payload Diversification Overcomes Resistance and Guides Sequential Antibody-Drug Conjugate Therapy in Breast Cancer.",
+    "authors": "Rampa DR, Seo M, Ogata N, Yang Z, Sridhar N, Fujii T, Wannaphut C, Maynard JA, Tsuchikama K, Sledge GW, Ueno NT, Lee J.",
+    "firstPublicationDate": "2026-04-01",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "41121984",
+    "doi": "10.1158/1535-7163.mct-25-0271",
+    "title": "A Novel Dual-Payload ADC Platform Integrating Exatecan and Triptolide to Enhance Antitumor Efficacy and Overcome Resistance.",
+    "authors": "Ren P, Guan M, Tang J, Yin S, Qi L, Yue J, Li Z, Fan X, Lei G, Zuo T, Chen J, Xu Y, Ke X, Zhao Y.",
+    "firstPublicationDate": "2026-04-01",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "41548044",
+    "doi": "10.1111/cas.70319",
+    "title": "Therapeutic Strategies to Overcome Payload Resistance of Trastuzumab Deruxtecan in HER2-Positive Cancers.",
+    "authors": "Murase Y, Nanjo S, Arai S, Kondo S, Koba H, Liu Y, Fukuda K, Sato S, Kinoshita J, Inaki N, Ueda T, Nomura S, Tambo Y, Shimizu T, Horie M, Maeda D, Wong RW, Hosomichi K, Kobayashi T, Watanabe S, Yamamura K, Ohkura N, Abo M, Yano S.",
+    "firstPublicationDate": "2026-01-17",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "41414896",
+    "doi": "10.1021/acs.jmedchem.5c02706",
+    "title": "Discovery and Preclinical Evaluation of PBX-7016, a Methylenedioxy-Camptothecin Payload for Antibody-Drug Conjugates with Enhanced Therapeutic Potential.",
+    "authors": "Chun Y, Lee BS, Kweon S, Han H, Shin S, Lee J, Kim W, Cho J, Yoo B, Yoon J, Yang S, Jung DY, Mathi GR.",
+    "firstPublicationDate": "2025-12-19",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "39745368",
+    "doi": "10.1158/1078-0432.ccr-24-2771",
+    "title": "TOP1 Mutations and Cross-Resistance to Antibody-Drug Conjugates in Patients with Metastatic Breast Cancer.",
+    "authors": "Abelman RO, Wu B, Barnes H, Medford A, Norden B, Putur A, Bitman E, Thant W, Liu T, Weipert C, Fell G, Spring LM, Wander SA, Moy B, Vidula N, Isakoff SJ, Varkaris A, Juric D, Corcoran RB, Ellisen LW, Bardia A.",
+    "firstPublicationDate": "2025-05-01",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "40029253",
+    "doi": "10.1158/1078-0432.ccr-24-2449",
+    "title": "XMT-2056, a HER2-Directed STING Agonist Antibody-Drug Conjugate, Induces Innate Antitumor Immune Responses by Acting on Cancer Cells and Tumor-Resident Immune Cells.",
+    "authors": "Bukhalid RA, Duvall JR, Lancaster K, Catcott KC, Malli Cetinbas N, Monnell T, Routhier C, Thomas JD, Bentley KW, Collins SD, Collins SD, Ditty E, Eitas TK, Kelleher EW, Shaw P, Soomer-James J, Ter-Ovanesyan E, Xu L, Zurita J, Toader D, Damelin M, Lowinger TB.",
+    "firstPublicationDate": "2025-05-01",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "39564769",
+    "doi": "10.1158/1535-7163.mct-24-0266",
+    "title": "Novel Amanitin-Based Antibody-Drug Conjugates Targeting TROP2 for the Treatment of Pancreatic Cancer.",
+    "authors": "Papacharisi E, Braun AC, Vranic M, Pahl AM, Hechler T.",
+    "firstPublicationDate": "2025-04-01",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "39874630",
+    "doi": "10.1016/j.ejmech.2025.117305",
+    "title": "Exploiting synthetic lethality in PDAC with antibody drug conjugates and ATR inhibition.",
+    "authors": "Li T, Yu X, Wan X, Liu J, Zheng J, Sun Z, Zhao Y, Chen J, Chen H, Yang Y, Jiang B.",
+    "firstPublicationDate": "2025-01-20",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "39449023",
+    "doi": "10.1186/s12964-024-01893-3",
+    "title": "Immunomodulatory effects of trastuzumab deruxtecan through the cGAS-STING pathway in gastric cancer cells.",
+    "authors": "Oh KS, Nam AR, Bang JH, Jeong Y, Choo SY, Kim HJ, Lee SI, Kim JM, Yoon J, Kim TY, Oh DY.",
+    "firstPublicationDate": "2024-10-24",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "39235949",
+    "doi": "10.1021/acs.jmedchem.4c00804",
+    "title": "Discovery and Evaluation of TLR-Targeted Immune Agonists.",
+    "authors": "Chernyak N, Bhagwat B, Naravula S, Chen Y, Solban N, Zhang F, Kofman E, Raoufi F, Dang X, Bao J, Tomazela D, Baily M, Geierstanger B, Flygare JA, Han JH, Willingham A, Seganish WM.",
+    "firstPublicationDate": "2024-09-05",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "37227187",
+    "doi": "10.1158/1078-0432.ccr-23-0536",
+    "title": "Targeting Replication Stress and Chemotherapy Resistance with a Combination of Sacituzumab Govitecan and Berzosertib: A Phase I Clinical Trial.",
+    "authors": "Abel ML, Takahashi N, Peer C, Redon CE, Nichols S, Vilimas R, Lee MJ, Lee S, Shelat M, Kattappuram R, Sciuto L, Pinkiert D, Graham C, Butcher D, Karim B, Sharma AK, Malin J, Kumar R, Schultz CW, Goyal S, Del Rivero J, Krishnamurthy M, Upadhyay D, Schroeder B, Sissung T, Tyagi M, Kim J, Pommier Y, Aladjem M, Raffeld M, Figg WD, Trepel J, Xi L, Desai P, Thomas A.",
+    "firstPublicationDate": "2023-09-01",
+    "publicationTypes": [
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "36693125",
+    "doi": "10.1158/2159-8290.cd-22-1368",
+    "title": "Antibody-Exatecan Conjugates with a Novel Self-immolative Moiety Overcome Resistance in Colon and Lung Cancer.",
+    "authors": "Weng W, Meng T, Zhao Q, Shen Y, Fu G, Shi J, Zhang Y, Wang Z, Wang M, Pan R, Ma L, Chen C, Wang L, Zhou B, Zhang H, Pu J, Zhang J, Hu YP, Hua G, Qian Y, Liu SH, Hu W, Meng X.",
+    "firstPublicationDate": "2023-04-01",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "36129967",
+    "doi": "10.1158/2326-6066.cir-21-0722",
+    "title": "Preclinical Characterization and Phase I Study of an Anti-HER2-TLR7 Immune-Stimulator Antibody Conjugate in Patients with HER2+ Malignancies.",
+    "authors": "Janku F, Han SW, Doi T, Amatu A, Ajani JA, Kuboki Y, Cortez A, Cellitti SE, Mahling PC, Subramanian K, Schoenfeld HA, Choi SM, Iaconis LA, Lee LH, Pelletier MR, Dranoff G, Askoxylakis V, Siena S.",
+    "firstPublicationDate": "2022-12-01",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Multicenter Study",
+      "Clinical Trial, Phase I",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "35439320",
+    "doi": "10.1158/1535-7163.mct-21-1000",
+    "title": "TOP1-DNA Trapping by Exatecan and Combination Therapy with ATR Inhibitor.",
+    "authors": "Jo U, Murai Y, Agama KK, Sun Y, Saha LK, Yang X, Arakawa Y, Gayle S, Jones K, Paralkar V, Sundaram RK, Van Doorn J, Vasquez JC, Bindra RS, Choi WS, Pommier Y.",
+    "firstPublicationDate": "2022-07-01",
+    "publicationTypes": [
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "34112795",
+    "doi": "10.1038/s41467-021-23793-7",
+    "title": "Antibody-drug conjugates with dual payloads for combating breast tumor heterogeneity and drug resistance.",
+    "authors": "Yamazaki CM, Yamaguchi A, Anami Y, Xiong W, Otani Y, Lee J, Ueno NT, Zhang N, An Z, Tsuchikama K.",
+    "firstPublicationDate": "2021-06-10",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "33298585",
+    "doi": "10.1158/1535-7163.mct-20-0287",
+    "title": "HDP-101, an Anti-BCMA Antibody-Drug Conjugate, Safely Delivers Amanitin to Induce Cell Death in Proliferating and Resting Multiple Myeloma Cells.",
+    "authors": "Figueroa-Vazquez V, Ko J, Breunig C, Baumann A, Giesen N, Pálfi A, Müller C, Lutz C, Hechler T, Kulke M, Müller-Tidow C, Krämer A, Goldschmidt H, Pahl A, Raab MS.",
+    "firstPublicationDate": "2020-12-09",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "30804480",
+    "doi": "10.1038/s41565-019-0381-6",
+    "title": "Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer.",
+    "authors": "Xu J, Liu Y, Li Y, Wang H, Stewart S, Van der Jeught K, Agarwal P, Zhang Y, Liu S, Zhao G, Wan J, Lu X, He X.",
+    "firstPublicationDate": "2019-02-25",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "27912061",
+    "doi": "10.1016/j.cell.2016.11.022",
+    "title": "Tumor Interferon Signaling Regulates a Multigenic Resistance Program to Immune Checkpoint Blockade.",
+    "authors": "Benci JL, Xu B, Qiu Y, Wu TJ, Dada H, Twyman-Saint Victor C, Cucolo L, Lee DSM, Pauken KE, Huang AC, Gangadhar TC, Amaravadi RK, Schuchter LM, Feldman MD, Ishwaran H, Vonderheide RH, Maity A, Wherry EJ, Minn AJ.",
+    "firstPublicationDate": "2016-12-01",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "25901683",
+    "doi": "10.1038/nature14418",
+    "title": "TP53 loss creates therapeutic vulnerability in colorectal cancer.",
+    "authors": "Liu Y, Zhang X, Han C, Wan G, Huang X, Ivan C, Jiang D, Rodriguez-Aguayo C, Lopez-Berestein G, Rao PH, Maru DM, Pahl A, He X, Sood AK, Ellis LM, Anderl J, Lu X.",
+    "firstPublicationDate": "2015-04-22",
+    "publicationTypes": [
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "25269479",
+    "doi": "10.1158/0008-5472.can-13-3369",
+    "title": "ATR inhibitors VE-821 and VX-970 sensitize cancer cells to topoisomerase i inhibitors by disabling DNA replication initiation and fork elongation responses.",
+    "authors": "Jossé R, Martin SE, Guha R, Ormanoglu P, Pfister TD, Reaper PM, Barnes CS, Jones J, Charlton P, Pollard JR, Morris J, Doroshow JH, Pommier Y.",
+    "firstPublicationDate": "2014-09-30",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "22927417",
+    "doi": "10.1073/pnas.1205943109",
+    "title": "Putative DNA/RNA helicase Schlafen-11 (SLFN11) sensitizes cancer cells to DNA-damaging agents.",
+    "authors": "Zoppoli G, Regairaz M, Leo E, Reinhold WC, Varma S, Ballestrero A, Doroshow JH, Pommier Y.",
+    "firstPublicationDate": "2012-08-27",
+    "publicationTypes": [
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "16983112",
+    "doi": "10.1200/jco.2006.07.0201",
+    "title": "Randomized phase III study of exatecan and gemcitabine compared with gemcitabine alone in untreated advanced pancreatic cancer.",
+    "authors": "Abou-Alfa GK, Letourneau R, Harker G, Modiano M, Hurwitz H, Tchekmedyian NS, Feit K, Ackerman J, De Jager RL, Eckhardt SG, O'Reilly EM.",
+    "firstPublicationDate": "2006-09-01",
+    "publicationTypes": [
+      "Clinical Trial, Phase III",
+      "Research Support, Non-U.S. Gov't",
+      "Randomized Controlled Trial",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "16495352",
+    "doi": "10.1093/toxsci/kfj141",
+    "title": "Molecular characterization and inhibition of amanitin uptake into human hepatocytes.",
+    "authors": "Letschert K, Faulstich H, Keller D, Keppler D.",
+    "firstPublicationDate": "2006-02-22",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "11805306",
+    "doi": "10.1073/pnas.251664698",
+    "title": "Structural basis of transcription: alpha-amanitin-RNA polymerase II cocrystal at 2.8 A resolution.",
+    "authors": "Bushnell DA, Cramer P, Kornberg RD.",
+    "firstPublicationDate": "2002-01-22",
+    "publicationTypes": [
+      "Research Support, U.S. Gov't, P.H.S.",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "named-primary-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "36543156",
+    "doi": "10.1002/ajmg.a.63092",
+    "title": "Correction to \"Posterior fossa ependymoma in neurodevelopmental syndrome caused by a de novo germline pathogenic POLR2A variant\".",
+    "authors": null,
+    "firstPublicationDate": "2022-12-21",
+    "publicationTypes": [
+      "Published Erratum",
+      "correction"
+    ],
+    "abstractRead": false,
+    "disposition": "Correction to a neurodevelopmental-syndrome report; outside adopted ADC claims.",
+    "capture": "correction-retraction-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "33568521",
+    "doi": "10.1126/scitranslmed.abc6894",
+    "title": "Targeted immunotherapy for HER2-low breast cancer with 17p loss.",
+    "authors": "Li Y, Sun Y, Kulke M, Hechler T, Van der Jeught K, Dong T, He B, Miller KD, Radovich M, Schneider BP, Pahl A, Zhang X, Lu X.",
+    "firstPublicationDate": "2021-02-01",
+    "publicationTypes": [
+      "Retracted Publication",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": false,
+    "disposition": "Indexed as a retracted publication; excluded from positive evidence.",
+    "capture": "correction-retraction-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "31953520",
+    "doi": "10.1038/s41565-020-0635-3",
+    "title": "Author Correction: Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer.",
+    "authors": "Xu J, Liu Y, Li Y, Wang H, Stewart S, Van der Jeught K, Agarwal P, Zhang Y, Liu S, Zhao G, Wan J, Lu X, He X.",
+    "firstPublicationDate": "2020-04-01",
+    "publicationTypes": [
+      "Published Erratum"
+    ],
+    "abstractRead": true,
+    "disposition": "Identity resolved and substantive publisher correction body read; no corrected-figure quantitative reanalysis claimed.",
+    "capture": "correction-retraction-europepmc.json",
+    "checkedOn": "2026-11-08",
+    "publisherNoticeBodyRead": true
+  },
+  {
+    "pmid": "32300826",
+    "doi": "10.1007/s00204-020-02735-0",
+    "title": "Correction to: In vitro mechanistic studies on α-amanitin and its putative antidotes.",
+    "authors": "Rodrigues DF, Pires das Neves R, Carvalho ATP, Lourdes Bastos M, Costa VM, Carvalho F.",
+    "firstPublicationDate": "2020-06-01",
+    "publicationTypes": [
+      "Published Erratum"
+    ],
+    "abstractRead": false,
+    "disposition": "Poisoning/antidote assay correction; no new ADC claim adopted.",
+    "capture": "correction-retraction-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "30349055",
+    "doi": "10.1038/s41467-018-06811-z",
+    "title": "Heterozygous deletion of chromosome 17p renders prostate cancer vulnerable to inhibition of RNA polymerase II.",
+    "authors": "Li Y, Liu Y, Xu H, Jiang G, Van der Jeught K, Fang Y, Zhou Z, Zhang L, Frieden M, Wang L, Luo Z, Radovich M, Schneider BP, Deng Y, Liu Y, Huang K, He B, Wang J, He X, Zhang X, Ji G, Lu X.",
+    "firstPublicationDate": "2018-10-22",
+    "publicationTypes": [
+      "Retracted Publication",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "abstractRead": true,
+    "disposition": "Indexed as a retracted publication; excluded from positive evidence.",
+    "capture": "correction-retraction-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "30837690",
+    "doi": "10.1038/s41565-019-0417-y",
+    "title": "Publisher Correction: Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer.",
+    "authors": "Xu J, Liu Y, Li Y, Wang H, Stewart S, Van der Jeught K, Agarwal P, Zhang Y, Liu S, Zhao G, Wan J, Lu X, He X.",
+    "firstPublicationDate": "2019-05-01",
+    "publicationTypes": [
+      "Published Erratum"
+    ],
+    "abstractRead": true,
+    "disposition": "Identity resolved and substantive publisher correction body read; no corrected-figure quantitative reanalysis claimed.",
+    "capture": "correction-retraction-europepmc.json",
+    "checkedOn": "2026-11-08",
+    "publisherNoticeBodyRead": true
+  },
+  {
+    "pmid": "7031659",
+    "doi": "10.1073/pnas.78.11.6729",
+    "title": "Prolactin induces release of a factor from membranes capable of stimulating beta-casein gene transcription in isolated mammary cell nuclei.",
+    "authors": "Teyssot B, Houdebine LM, Djiane J.",
+    "firstPublicationDate": "1981-11-01",
+    "publicationTypes": [
+      "Retracted Publication",
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": false,
+    "disposition": "Historical prolactin/transcription report; outside adopted oncology-conjugate claims.",
+    "capture": "correction-retraction-europepmc.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "41984934",
+    "doi": "10.1126/scitranslmed.aeh3593",
+    "title": "Retraction of the Research Article \"Targeted immunotherapy for HER2-low breast cancer with 17p loss\".",
+    "authors": "Vinson V, Smith O.",
+    "firstPublicationDate": "2026-04-15",
+    "publicationTypes": [
+      "Journal Article",
+      "Retraction Notice"
+    ],
+    "abstractRead": false,
+    "disposition": "Retraction notice resolved and original MED retraction linkage verified; publisher notice body returned 403, so no reason/body claim adopted.",
+    "capture": "additional-identities.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "34433970",
+    "doi": "10.1038/s41586-021-03664-3",
+    "title": "Author Correction: TP53 loss creates therapeutic vulnerability in colorectal cancer.",
+    "authors": "Liu Y, Zhang X, Han C, Wan G, Huang X, Ivan C, Jiang D, Rodriguez-Aguayo C, Lopez-Berestein G, Rao PH, Maru DM, Pahl A, He X, Sood AK, Ellis LM, Anderl J, Lu X.",
+    "firstPublicationDate": "2021-09-01",
+    "publicationTypes": [
+      "Published Erratum"
+    ],
+    "abstractRead": false,
+    "disposition": "Identity resolved and substantive publisher correction body read; no corrected-figure quantitative reanalysis claimed.",
+    "capture": "additional-identities.json",
+    "checkedOn": "2026-11-08",
+    "publisherNoticeBodyRead": true
+  },
+  {
+    "pmid": "27026201",
+    "doi": "10.1158/1078-0432.ccr-15-2822",
+    "title": "DS-8201a, A Novel HER2-Targeting ADC with a Novel DNA Topoisomerase I Inhibitor, Demonstrates a Promising Antitumor Efficacy with Differentiation from T-DM1.",
+    "authors": "Ogitani Y, Aida T, Hagihara K, Yamaguchi J, Ishii C, Harada N, Soma M, Okamoto H, Oitate M, Arakawa S, Hirai T, Atsumi R, Nakada T, Hayakawa I, Abe Y, Agatsuma T.",
+    "firstPublicationDate": "2016-03-29",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "additional-identities.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "37828728",
+    "doi": "10.1158/1535-7163.mct-23-0359",
+    "title": "Design and Evaluation of Phosphonamidate-Linked Exatecan Constructs for Highly Loaded, Stable, and Efficacious Antibody-Drug Conjugates.",
+    "authors": "Schmitt S, Machui P, Mai I, Herterich S, Wunder S, Cyprys P, Gerlach M, Ochtrop P, Hackenberger CPR, Schumacher D, Helma J, Vogl AM, Kasper MA.",
+    "firstPublicationDate": "2024-02-01",
+    "publicationTypes": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "elicit-primary-followups.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "31620223",
+    "doi": "10.1021/acsmedchemlett.9b00301",
+    "title": "Synthesis and Evaluation of Camptothecin Antibody-Drug Conjugates.",
+    "authors": "Li W, Veale KH, Qiu Q, Sinkevicius KW, Maloney EK, Costoplus JA, Lau J, Evans HL, Setiady Y, Ab O, Abbott SM, Lee J, Wisitpitthaya S, Skaletskaya A, Wang L, Keating TA, Chari RVJ, Widdison WC.",
+    "firstPublicationDate": "2019-09-06",
+    "publicationTypes": [
+      "rapid-communication",
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "elicit-primary-followups.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "26921341",
+    "doi": "10.1158/0008-5472.can-15-1795",
+    "title": "Intracellular Released Payload Influences Potency and Bystander-Killing Effects of Antibody-Drug Conjugates in Preclinical Models.",
+    "authors": "Li F, Emmerton KK, Jonas M, Zhang X, Miyamoto JB, Setter JR, Nicholas ND, Okeley NM, Lyon RP, Benjamin DR, Law CL.",
+    "firstPublicationDate": "2016-02-26",
+    "publicationTypes": [
+      "Journal Article"
+    ],
+    "abstractRead": true,
+    "disposition": "available primary abstract read; adopted only within named experimental/clinical scope",
+    "capture": "elicit-primary-followups.json",
+    "checkedOn": "2026-11-08"
+  },
+  {
+    "pmid": "42414292",
+    "doi": "10.1038/s41467-026-74720-7",
+    "title": "Retraction Note: Heterozygous deletion of chromosome 17p renders prostate cancer vulnerable to inhibition of RNA polymerase II.",
+    "authors": "Li Y, Liu Y, Xu H, Jiang G, Van der Jeught K, Fang Y, Zhou Z, Zhang L, Frieden M, Wang L, Luo Z, Radovich M, Schneider BP, Deng Y, Liu Y, Huang K, Bin He, Wang J, He X, Zhang X, Ji G, Lu X.",
+    "firstPublicationDate": "2026-07-07",
+    "publicationTypes": [
+      "Retraction of Publication",
+      "Journal Article",
+      "Retraction Notice"
+    ],
+    "abstractRead": false,
+    "disposition": "Retraction identity resolved and substantive publisher notice read; report excluded from positive evidence.",
+    "capture": "prostate-retraction-identity.json",
+    "checkedOn": "2026-11-08",
+    "publisherNoticeBodyRead": true
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "queries": [
+    {
+      "id": "semantic-exemplar-identifiers",
+      "params": {
+        "filter.ids": "NCT05514717,NCT07529782,NCT04879043,NCT05511844,NCT05954143,NCT03595059,NCT04460456,NCT05070247,NCT05091528,NCT06934889,NCT04278144,NCT06419634"
+      }
+    },
+    {
+      "id": "dual-ddr",
+      "params": {
+        "query.intr": "CLIO-8221 OR CBB-120 OR LY5775377 OR KH815"
+      }
+    },
+    {
+      "id": "novel-payload-programs",
+      "params": {
+        "query.intr": "HDP-101 OR ABBV-155 OR ORM-5029 OR ORM-6151 OR XMT-2056 OR TAK-500 OR BDC-1001 OR SBT6050"
+      }
+    }
+  ]
+}

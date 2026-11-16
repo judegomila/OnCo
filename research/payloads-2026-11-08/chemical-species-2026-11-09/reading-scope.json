@@ -1,0 +1,210 @@
+{
+  "scope": "Claims rely on the stated reading depth. Available raw bytes do not imply the entire document was read.",
+  "sources": [
+    {
+      "file": "kadcyla-label-current.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description and mechanism",
+        "Selected clinical pharmacology: distinct analytes and P-gp",
+        "Selected highlights: liver, platelet and neuropathy risks"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "zynlonta-label-current.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description, mechanism and selected transporter statements",
+        "Selected warning highlights: effusions/oedema, marrow, liver and skin risks"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "elahere-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description, mechanism and selected transporter statements",
+        "Selected ocular-toxicity warning"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "blenrep-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description, mechanism and selected transporter statements",
+        "Selected ocular warning and combination safety highlights"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "sacituzumab-govitecan-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description and mechanism",
+        "Neutropenia/diarrhoea warning and reduced-UGT1A1 highlights"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "datopotamab-deruxtecan-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description and mechanism",
+        "Selected exposure-response and adverse-reaction highlights"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "trastuzumab-deruxtecan-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description and mechanism",
+        "Selected exposure-response, transporter and adverse-reaction highlights"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "brentuximab-vedotin-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description and mechanism",
+        "Selected monotherapy and combination adverse-reaction highlights"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "gemtuzumab-ozogamicin-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description and mechanism",
+        "Selected liver-injury warning and adverse-reaction highlights"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "inotuzumab-ozogamicin-label.html",
+      "readingDepth": "selected-label-sections",
+      "sections": [
+        "Description and mechanism",
+        "Selected liver-injury warning and adverse-reaction highlights"
+      ],
+      "limit": "Not a review of every indication, regimen, preparation instruction, contraindication or safety detail."
+    },
+    {
+      "file": "fulltext-dxd-bystander.xml",
+      "readingDepth": "selected-full-text-sections",
+      "sections": [
+        "Methods: distribution coefficient and artificial-membrane assays",
+        "Results: exact compared species and local/distant tumour controls"
+      ]
+    },
+    {
+      "file": "fulltext-skb264.xml",
+      "readingDepth": "selected-full-text-sections",
+      "sections": [
+        "Introduction: T030, KL610023 and TL033 identities",
+        "Methods: composition and source materials",
+        "Results: structure, chromatography and TOP1 DNA-relaxation assay"
+      ]
+    },
+    {
+      "file": "fulltext-abc-final.xml",
+      "readingDepth": "selected-full-text-sections",
+      "sections": [
+        "Methods: paired-cell screen and confirmatory transfected-cell assays",
+        "Results: ABCB1/ABCG2/ABCC1 responses and free MMAF",
+        "Discussion: SG3199, chemical-species and clinical extrapolation limits"
+      ]
+    },
+    {
+      "file": "fulltext-sg3199.xml",
+      "readingDepth": "selected-full-text-sections",
+      "sections": [
+        "Results: cell-panel, DNA-repair and multidrug-resistance experiments",
+        "Methods: cell lines and cytotoxicity procedures"
+      ]
+    },
+    {
+      "file": "fulltext-dm21.xml",
+      "readingDepth": "selected-full-text-sections",
+      "sections": [
+        "Selected main-body passages: chemical design, thiol and S-methyl products, co-culture methods and metabolite identification"
+      ]
+    },
+    {
+      "file": "elicit-rank-3-crossref.json",
+      "readingDepth": "complete-returned-Crossref-abstract-and-identity",
+      "limit": "Conference evidence; not an independently verified full clinical report."
+    },
+    {
+      "file": "dm21-canonical-meeting-crossref.json",
+      "readingDepth": "complete-returned-Crossref-abstract-and-identity",
+      "limit": "Conference evidence; not an independently verified full clinical report."
+    },
+    {
+      "file": "elicit-rank-8-crossref.json",
+      "readingDepth": "complete-returned-Crossref-abstract-and-identity",
+      "limit": "Conference evidence; not an independently verified full clinical report."
+    },
+    {
+      "file": "elicit-rank-11-crossref.json",
+      "readingDepth": "complete-returned-Crossref-abstract-and-identity",
+      "limit": "Conference evidence; not an independently verified full clinical report."
+    }
+  ],
+  "failedRequests": [
+    {
+      "file": "elahere-ema-assessment.pdf",
+      "url": "https://www.ema.europa.eu/en/documents/assessment-report/elahere-epar-public-assessment-report_en.pdf",
+      "capturedAt": "2026-11-10T01:03:20.394181+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "file": "elahere-fda-chemistry.pdf",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2022/761310Orig1s000ChemR.pdf",
+      "capturedAt": "2026-11-10T01:03:20.869001+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "kadcyla-label.pdf",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125427s125lbl.pdf",
+      "capturedAt": "2026-11-10T01:05:07.745453+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "elahere-label.pdf",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/761310Origs005lbl.pdf",
+      "capturedAt": "2026-11-10T01:05:08.020284+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "zynlonta-label.pdf",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761196s012lbl.pdf",
+      "capturedAt": "2026-11-10T01:05:08.200481+00:00",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "file": "fulltext-cl2a.xml",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10766325/fullTextXML",
+      "capturedAt": "2026-11-10T01:08:08.045810+00:00",
+      "error": "HTTP Error 500: "
+    },
+    {
+      "file": "maytansinoid-linker-meeting.html",
+      "url": "https://aacrjournals.org/mct/article/6/11_Supplement/A86/240727/Linker-selection-in-antibody-maytansinoid",
+      "capturedAt": "2026-11-10T01:13:46.741752+00:00",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "excludedSPAs": [],
+  "identitySafeguards": [
+    "PMID31620223 resolves to the camptothecin-conjugate paper; PMID31620224 resolves to the separate peptide-maytansinoid paper. Both are valid and were not interchanged.",
+    "The 2015 polyacetal Fleximer-vinca paper is not the 2021 Dolaflexin-AF-HPA paper.",
+    "Substrate behaviour is not transporter inhibition. Free MMAF is not cys-mcMMAF; free DM1 is not Lys-MCC-DM1.",
+    "Label BCRP and confirmatory-cell ABCG2 statements for SG3199 are retained with their differing contexts.",
+    "The source discussion has a gemtuzumab-vedotin naming error; it was not propagated.",
+    "The CL2A abstract contains mathematical less-than signs. Raw text was re-read after a broad tag-stripping helper obscured part of an intermediate display. The original capture was unchanged."
+  ]
+}

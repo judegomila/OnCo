@@ -1,0 +1,2549 @@
+{
+  "version": "6.9",
+  "hitCount": 5,
+  "request": {
+    "queryString": "TITLE:\"MORAb-202\" AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33756060",
+        "source": "MED",
+        "pmid": "33756060",
+        "pmcid": "PMC8177789",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8177789"
+          ]
+        },
+        "doi": "10.1111/cas.14898",
+        "title": "Antibody-drug conjugate MORAb-202 exhibits long-lasting antitumor efficacy in TNBC PDx models.",
+        "authorString": "Furuuchi K, Rybinski K, Fulmer J, Moriyama T, Drozdowski B, Soto A, Fernando S, Wilson K, Milinichik A, Dula ML, Tanaka K, Cheng X, Albone E, Uenaka T.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Furuuchi K",
+              "lastName": "Furuuchi",
+              "firstName": "Keiji",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2810-6283"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rybinski K",
+              "lastName": "Rybinski",
+              "firstName": "Katherine",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fulmer J",
+              "lastName": "Fulmer",
+              "firstName": "James",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Moriyama T",
+              "lastName": "Moriyama",
+              "firstName": "Tomoyuki",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tsukuba Research Laboratory, Eisai, Co. Ltd, Tsukuba, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Drozdowski B",
+              "lastName": "Drozdowski",
+              "firstName": "Brian",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Soto A",
+              "lastName": "Soto",
+              "firstName": "Allis",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fernando S",
+              "lastName": "Fernando",
+              "firstName": "Shawn",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilson K",
+              "lastName": "Wilson",
+              "firstName": "Kerrianne",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Milinichik A",
+              "lastName": "Milinichik",
+              "firstName": "Andrew",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dula ML",
+              "lastName": "Dula",
+              "firstName": "Mary Lou",
+              "initials": "ML",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tanaka K",
+              "lastName": "Tanaka",
+              "firstName": "Keigo",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Tsukuba Research Laboratory, Eisai, Co. Ltd, Tsukuba, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng X",
+              "lastName": "Cheng",
+              "firstName": "Xin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Albone E",
+              "lastName": "Albone",
+              "firstName": "Earl",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Uenaka T",
+              "lastName": "Uenaka",
+              "firstName": "Toshimitsu",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2810-6283"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "112",
+          "journalIssueId": 3182148,
+          "dateOfPublication": "2021 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Cancer Sci",
+            "title": "Cancer science",
+            "essn": "1349-7006",
+            "issn": "1347-9032",
+            "nlmid": "101168776",
+            "isoabbreviation": "Cancer Sci"
+          },
+          "printPublicationDate": "2021-06-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "2467-2480",
+        "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc, Exton, PA, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Primates"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ketones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Vesicular Transport Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Survival",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Triple Negative Breast Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Patient-Specific Modeling"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyether Polyketides"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Bystander effect",
+            "Serum Biomarker",
+            "Folate Receptor Alpha",
+            "Triple-negative Breast Cancer",
+            "Antibody-drug Conjugate",
+            "Fra",
+            "Target Engagement"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "RABEP2 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Furans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Ketones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Vesicular Transport Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "eribulin",
+              "registryNumber": "LR24G6354G"
+            },
+            {
+              "name": "farletuzumab",
+              "registryNumber": "2O09BG0OWA"
+            },
+            {
+              "name": "MORAb-202",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Polyether Polyketides",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1111/cas.14898"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8177789"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8177789?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 32,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-06-10",
+        "dateOfCreation": "2021-03-23",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2021-05-01",
+        "firstPublicationDate": "2021-05-01",
+        "firstIndexDate": "2021-03-24",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "d781630ebe7e48c014440fd596a5a089ea3855c3226df50072282dbd829543be",
+          "characters": 1027
+        }
+      },
+      {
+        "id": "34185411",
+        "source": "MED",
+        "pmid": "34185411",
+        "pmcid": "PMC8167866",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8167866"
+          ]
+        },
+        "doi": "10.1002/ctm2.454",
+        "title": "Folate receptor α increases chemotherapy resistance through stabilizing MDM2 in cooperation with PHB2 that is overcome by MORAb-202 in gastric cancer.",
+        "authorString": "Sakai H, Kawakami H, Teramura T, Onodera Y, Somers E, Furuuchi K, Uenaka T, Kato R, Nakagawa K.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Sakai H",
+              "lastName": "Sakai",
+              "firstName": "Hitomi",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Kindai University Faculty of Medicine, Osaka-Sayama, Osaka, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kawakami H",
+              "lastName": "Kawakami",
+              "firstName": "Hisato",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3280-4850"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Kindai University Faculty of Medicine, Osaka-Sayama, Osaka, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Teramura T",
+              "lastName": "Teramura",
+              "firstName": "Takeshi",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5310-4749"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cell Biology for Regenerative Medicine, Institute of Advanced Clinical Medicine, Kindai University Faculty of Medicine, Osaka-Sayama, Osaka, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Onodera Y",
+              "lastName": "Onodera",
+              "firstName": "Yuta",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0152-6560"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Cell Biology for Regenerative Medicine, Institute of Advanced Clinical Medicine, Kindai University Faculty of Medicine, Osaka-Sayama, Osaka, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Somers E",
+              "lastName": "Somers",
+              "firstName": "Elizabeth",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "AD Franchise Special Mission, Eisai Inc., Woodcliff Lake, New Jersey, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Furuuchi K",
+              "lastName": "Furuuchi",
+              "firstName": "Keiji",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc., Exton, Pennsylvania, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Uenaka T",
+              "lastName": "Uenaka",
+              "firstName": "Toshimitsu",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Epochal Precision Anti-Cancer Therapeutics (EPAT), Eisai Inc., Exton, Pennsylvania, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kato R",
+              "lastName": "Kato",
+              "firstName": "Ryoji",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Kindai University Faculty of Medicine, Osaka-Sayama, Osaka, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nakagawa K",
+              "lastName": "Nakagawa",
+              "firstName": "Kazuhiko",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medical Oncology, Kindai University Faculty of Medicine, Osaka-Sayama, Osaka, Japan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0152-6560"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3280-4850"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5310-4749"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "11",
+          "journalIssueId": 3181020,
+          "dateOfPublication": "2021 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Clin Transl Med",
+            "title": "Clinical and translational medicine",
+            "essn": "2001-1326",
+            "issn": "2001-1326",
+            "nlmid": "101597971",
+            "isoabbreviation": "Clin Transl Med"
+          },
+          "printPublicationDate": "2021-06-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "e454",
+        "affiliation": "Department of Medical Oncology, Kindai University Faculty of Medicine, Osaka-Sayama, Osaka, Japan.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Inbred BALB C"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Nude"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Stomach Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ketones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proteome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prognosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Survival Rate"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Apoptosis"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Neoplastic",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Resistance, Neoplasm",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Proto-Oncogene Proteins c-mdm2",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Folate Receptor 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Transcriptome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Biomarkers, Tumor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxaliplatin",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prohibitins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Gastric cancer",
+            "MDM2",
+            "Antibody-drug Conjugate",
+            "Folate Receptor Α (Folrα)"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Furans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Ketones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proteome",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Folate Receptor 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "FOLR1 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "oxaliplatin",
+              "registryNumber": "04ZR38536J"
+            },
+            {
+              "name": "Biomarkers, Tumor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Proto-Oncogene Proteins c-mdm2",
+              "registryNumber": "EC 2.3.2.27"
+            },
+            {
+              "name": "MDM2 protein, human",
+              "registryNumber": "EC 2.3.2.27"
+            },
+            {
+              "name": "Prohibitins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "PHB2 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "MORAb-202",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ctm2.454"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/ctm2.454"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8167866"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8167866?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "cellosaurus",
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2022-02-08",
+        "dateOfCreation": "2021-06-29",
+        "dateOfRevision": "2024-04-02",
+        "firstPublicationDate": "2021-06-01",
+        "firstIndexDate": "2021-06-30",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "087f7188fa598910d617703bed9087377ce2c1bdc07be8e4c0126391e29b3012",
+          "characters": 2100
+        }
+      },
+      {
+        "id": "33535554",
+        "source": "MED",
+        "pmid": "33535554",
+        "pmcid": "PMC7930947",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7930947"
+          ]
+        },
+        "doi": "10.3390/antib10010006",
+        "title": "Novel Anti-FOLR1 Antibody-Drug Conjugate MORAb-202 in Breast Cancer and Non-Small Cell Lung Cancer Cells.",
+        "authorString": "Matsunaga Y, Yamaoka T, Ohba M, Miura S, Masuda H, Sangai T, Takimoto M, Nakamura S, Tsurutani J.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Matsunaga Y",
+              "lastName": "Matsunaga",
+              "firstName": "Yuki",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8290-9992"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Surgical Oncology, School of Medicine, Showa University, 1-5-8 Hatanodai, Shinagawa-ku, Tokyo 142-8666, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yamaoka T",
+              "lastName": "Yamaoka",
+              "firstName": "Toshimitsu",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6182-6047"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Advanced Cancer Translational Research Institute, Showa University, 1-5-8 Hatanodai, Shinagawa-ku, Tokyo 142-8555, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ohba M",
+              "lastName": "Ohba",
+              "firstName": "Motoi",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Advanced Cancer Translational Research Institute, Showa University, 1-5-8 Hatanodai, Shinagawa-ku, Tokyo 142-8555, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miura S",
+              "lastName": "Miura",
+              "firstName": "Sakiko",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, School of Medicine, Showa University, Tokyo 142-8666, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Masuda H",
+              "lastName": "Masuda",
+              "firstName": "Hiroko",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Surgical Oncology, School of Medicine, Showa University, 1-5-8 Hatanodai, Shinagawa-ku, Tokyo 142-8666, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sangai T",
+              "lastName": "Sangai",
+              "firstName": "Takafumi",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2052-0479"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast and Thyroid Surgery, School of Medicine, Kitasato University, Kanagawa 252-0375, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Takimoto M",
+              "lastName": "Takimoto",
+              "firstName": "Masafumi",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, School of Medicine, Showa University, Tokyo 142-8666, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nakamura S",
+              "lastName": "Nakamura",
+              "firstName": "Seigo",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast Surgical Oncology, School of Medicine, Showa University, 1-5-8 Hatanodai, Shinagawa-ku, Tokyo 142-8666, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tsurutani J",
+              "lastName": "Tsurutani",
+              "firstName": "Junji",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Advanced Cancer Translational Research Institute, Showa University, 1-5-8 Hatanodai, Shinagawa-ku, Tokyo 142-8555, Japan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6182-6047"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8290-9992"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2052-0479"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "10",
+          "journalIssueId": 3105609,
+          "dateOfPublication": "2021 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Antibodies (Basel)",
+            "title": "Antibodies (Basel, Switzerland)",
+            "essn": "2073-4468",
+            "issn": "2073-4468",
+            "nlmid": "101587489",
+            "isoabbreviation": "Antibodies (Basel)"
+          },
+          "printPublicationDate": "2021-02-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "6",
+        "affiliation": "Department of Breast Surgical Oncology, School of Medicine, Showa University, 1-5-8 Hatanodai, Shinagawa-ku, Tokyo 142-8666, Japan.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Breast cancer",
+            "Non-small cell lung cancer",
+            "Eribulin",
+            "Folr1",
+            "Morab-202"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.mdpi.com/2073-4468/10/1/6/pdf?version=1612448792"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3390/antib10010006"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7930947"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7930947?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 16,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct",
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2021-02-04",
+        "dateOfRevision": "2021-03-05",
+        "electronicPublicationDate": "2021-02-01",
+        "firstPublicationDate": "2021-02-01",
+        "firstIndexDate": "2021-02-04",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "e41cb74d72dd0764f6c673589e274e88de79fd95317612c01351c263826d6387",
+          "characters": 1450
+        }
+      },
+      {
+        "id": "33926914",
+        "source": "MED",
+        "pmid": "33926914",
+        "doi": "10.1158/1078-0432.ccr-20-4740",
+        "title": "First-in-Human Phase 1 Study of MORAb-202, an Antibody-Drug Conjugate Comprising Farletuzumab Linked to Eribulin Mesylate, in Patients with Folate Receptor-α-Positive Advanced Solid Tumors.",
+        "authorString": "Shimizu T, Fujiwara Y, Yonemori K, Koyama T, Sato J, Tamura K, Shimomura A, Ikezawa H, Nomoto M, Furuuchi K, Nakajima R, Miura T, Yamamoto N.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Shimizu T",
+              "lastName": "Shimizu",
+              "firstName": "Toshio",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6632-0638"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Experimental Therapeutics, National Cancer Center Hospital, Tokyo, Japan. tosshimi@ncc.go.jp."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fujiwara Y",
+              "lastName": "Fujiwara",
+              "firstName": "Yutaka",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6981-0800"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Experimental Therapeutics, National Cancer Center Hospital, Tokyo, Japan."
+                  },
+                  {
+                    "affiliation": "Department of Respiratory Medicine, Mitsui Memorial Hospital, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yonemori K",
+              "lastName": "Yonemori",
+              "firstName": "Kan",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7624-7611"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Experimental Therapeutics, National Cancer Center Hospital, Tokyo, Japan."
+                  },
+                  {
+                    "affiliation": "Department of Breast and Medical Oncology, National Cancer Center Hospital, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Koyama T",
+              "lastName": "Koyama",
+              "firstName": "Takafumi",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5807-8458"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Experimental Therapeutics, National Cancer Center Hospital, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sato J",
+              "lastName": "Sato",
+              "firstName": "Jun",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9249-6522"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Experimental Therapeutics, National Cancer Center Hospital, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tamura K",
+              "lastName": "Tamura",
+              "firstName": "Kenji",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3514-9927"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast and Medical Oncology, National Cancer Center Hospital, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shimomura A",
+              "lastName": "Shimomura",
+              "firstName": "Akihiko",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Breast and Medical Oncology, National Cancer Center Hospital, Tokyo, Japan."
+                  },
+                  {
+                    "affiliation": "Department of Breast and Medical Oncology, Center Hospital of the National Center for Global Health and Medicine, Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ikezawa H",
+              "lastName": "Ikezawa",
+              "firstName": "Hiroki",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eisai Co., Ltd., Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nomoto M",
+              "lastName": "Nomoto",
+              "firstName": "Maiko",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eisai Co., Ltd., Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Furuuchi K",
+              "lastName": "Furuuchi",
+              "firstName": "Keiji",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eisai Inc., Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nakajima R",
+              "lastName": "Nakajima",
+              "firstName": "Ryo",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eisai Inc., Woodcliff Lake, New Jersey."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miura T",
+              "lastName": "Miura",
+              "firstName": "Takuma",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0008-4256-6156"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Eisai Co., Ltd., Tokyo, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yamamoto N",
+              "lastName": "Yamamoto",
+              "firstName": "Noboru",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-0787-2851"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Experimental Therapeutics, National Cancer Center Hospital, Tokyo, Japan."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5807-8458"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6632-0638"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6981-0800"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9249-6522"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-0787-2851"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3514-9927"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7624-7611"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0008-4256-6156"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "14",
+          "volume": "27",
+          "journalIssueId": 3203473,
+          "dateOfPublication": "2021 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Clin Cancer Res",
+            "title": "Clinical cancer research : an official journal of the American Association for Cancer Research",
+            "essn": "1557-3265",
+            "issn": "1078-0432",
+            "nlmid": "9502500",
+            "isoabbreviation": "Clin Cancer Res"
+          },
+          "printPublicationDate": "2021-07-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "3905-3915",
+        "affiliation": "Department of Experimental Therapeutics, National Cancer Center Hospital, Tokyo, Japan. tosshimi@ncc.go.jp.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Clinical Trial, Phase I",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Eisai",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ketones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasm Staging"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Retrospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Folate Receptor 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AN",
+                    "qualifierName": "analysis"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyether Polyketides"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Furans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Ketones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Folate Receptor 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "eribulin",
+              "registryNumber": "LR24G6354G"
+            },
+            {
+              "name": "farletuzumab",
+              "registryNumber": "2O09BG0OWA"
+            },
+            {
+              "name": "MORAb-202",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Polyether Polyketides",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/1078-0432.CCR-20-4740"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 93,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2022-03-31",
+        "dateOfCreation": "2021-04-30",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2021-04-29",
+        "firstPublicationDate": "2021-04-29",
+        "firstIndexDate": "2021-05-01",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "b074ecb6c0b8d67c859036bf79fd6180a51350e537ba42517b6abf79f3a09f91",
+          "characters": 1905
+        }
+      },
+      {
+        "id": "30262588",
+        "source": "MED",
+        "pmid": "30262588",
+        "doi": "10.1158/1535-7163.mct-17-1215",
+        "title": "MORAb-202, an Antibody-Drug Conjugate Utilizing Humanized Anti-human FRα Farletuzumab and the Microtubule-targeting Agent Eribulin, has Potent Antitumor Activity.",
+        "authorString": "Cheng X, Li J, Tanaka K, Majumder U, Milinichik AZ, Verdi AC, Maddage CJ, Rybinski KA, Fernando S, Fernando D, Kuc M, Furuuchi K, Fang F, Uenaka T, Grasso L, Albone EF.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cheng X",
+              "lastName": "Cheng",
+              "firstName": "Xin",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry Discovery, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li J",
+              "lastName": "Li",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Translational Chemistry, Eisai AiM Institute, Eisai Inc., Andover, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tanaka K",
+              "lastName": "Tanaka",
+              "firstName": "Keigo",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry Research, Eisai Co. Ltd., Tsukuba-Shi, Ibaraki, Japan."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Majumder U",
+              "lastName": "Majumder",
+              "firstName": "Utpal",
+              "initials": "U",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Discovery Chemistry, Eisai AiM Institute, Eisai Inc., Andover, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Milinichik AZ",
+              "lastName": "Milinichik",
+              "firstName": "Andrew Z",
+              "initials": "AZ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry Discovery, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Verdi AC",
+              "lastName": "Verdi",
+              "firstName": "Arielle C",
+              "initials": "AC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry Discovery, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maddage CJ",
+              "lastName": "Maddage",
+              "firstName": "Christopher J",
+              "initials": "CJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Preclinical Development, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rybinski KA",
+              "lastName": "Rybinski",
+              "firstName": "Katherine A",
+              "initials": "KA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Preclinical Development, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fernando S",
+              "lastName": "Fernando",
+              "firstName": "Shawn",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioanalytical Development, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fernando D",
+              "lastName": "Fernando",
+              "firstName": "Danielle",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioanalytical Development, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kuc M",
+              "lastName": "Kuc",
+              "firstName": "Megan",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Bioanalytical Development, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Furuuchi K",
+              "lastName": "Furuuchi",
+              "firstName": "Keiji",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Preclinical Development, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fang F",
+              "lastName": "Fang",
+              "firstName": "Frank",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Translational Chemistry, Eisai AiM Institute, Eisai Inc., Andover, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Uenaka T",
+              "lastName": "Uenaka",
+              "firstName": "Toshimitsu",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Preclinical Development, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Grasso L",
+              "lastName": "Grasso",
+              "firstName": "Luigi",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Discovery Research, Morphotek Inc., Exton, Pennsylvania."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Albone EF",
+              "lastName": "Albone",
+              "firstName": "Earl F",
+              "initials": "EF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Biochemistry Discovery, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania. ealbone@morphotek.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1768-9548"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "17",
+          "journalIssueId": 2756299,
+          "dateOfPublication": "2018 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Mol Cancer Ther",
+            "title": "Molecular cancer therapeutics",
+            "essn": "1538-8514",
+            "issn": "1535-7163",
+            "nlmid": "101132535",
+            "isoabbreviation": "Mol Cancer Ther"
+          },
+          "printPublicationDate": "2018-12-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "2665-2675",
+        "affiliation": "Department of Biochemistry Discovery, Oncology Biologics Laboratories, Oncology Business Group, Eisai Inc, Exton, Pennsylvania.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Eisai, Inc",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Microtubules",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, SCID"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyethylene Glycols",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Ketones",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Furans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Treatment Outcome"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Death",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Folate Receptor 1",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal, Humanized",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Polyether Polyketides"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Furans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Ketones",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Folate Receptor 1",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal, Humanized",
+              "registryNumber": "0"
+            },
+            {
+              "name": "eribulin",
+              "registryNumber": "LR24G6354G"
+            },
+            {
+              "name": "farletuzumab",
+              "registryNumber": "2O09BG0OWA"
+            },
+            {
+              "name": "Polyethylene Glycols",
+              "registryNumber": "3WJQ0SDW1A"
+            },
+            {
+              "name": "MORAb-202",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Polyether Polyketides",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/1535-7163.MCT-17-1215"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 75,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-09-10",
+        "dateOfCreation": "2018-09-29",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2018-09-27",
+        "firstPublicationDate": "2018-09-27",
+        "firstIndexDate": "2018-09-29",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "30a8206a12b7572c38241f923aee977a0b5cdbd99e11c6db4106890844e863ba",
+          "characters": 1580
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "8e3328bbf9aa57103043664def079a225169ef126b869561a4001e03e9986ab1",
+    "sourceBytes": 50438,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

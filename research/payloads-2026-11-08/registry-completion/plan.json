@@ -1,0 +1,10 @@
+{
+  "queries": [
+    {
+      "id": "mcl1-trial",
+      "params": {
+        "filter.ids": "NCT06563804"
+      }
+    }
+  ]
+}

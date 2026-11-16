@@ -1,0 +1,661 @@
+[
+  {
+    "conceptId": "next-generation-adc-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Yamazaki et al., dual-payload conjugates in breast cancer models (2021)",
+        "url": "https://doi.org/10.1038/s41467-021-23793-7",
+        "resolvedTitle": "Antibody-drug conjugates with dual payloads for combating breast tumor heterogeneity and drug resistance.",
+        "doi": "10.1038/s41467-021-23793-7",
+        "pmid": "34112795",
+        "capture": "primary/dual.json"
+      },
+      {
+        "label": "Carlino et al., Gq/11 inhibitor conjugate phase 1 study (2026)",
+        "url": "https://doi.org/10.1038/s41591-026-04518-z",
+        "resolvedTitle": "An anti-PMEL antibody-drug conjugate with a G<sub>q/1</sub><sub>1</sub> inhibitor payload in GNAQ/GNA11-mutant melanomas: a phase 1 trial.",
+        "doi": "10.1038/s41591-026-04518-z",
+        "pmid": "42443515",
+        "capture": "primary/gq11.json"
+      },
+      {
+        "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/",
+        "resolvedTitle": "Dolaflexin: A Novel Antibody-Drug Conjugate Platform Featuring High Drug Loading and a Controlled Bystander Effect.",
+        "doi": "10.1158/1535-7163.mct-20-0166",
+        "pmid": "33722857",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      },
+      {
+        "label": "XMT-1536 preclinical composition and NaPi2b-directed models (2021)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33722858/",
+        "resolvedTitle": "The Dolaflexin-based Antibody-Drug Conjugate XMT-1536 Targets the Solid Tumor Lineage Antigen SLC34A2/NaPi2b.",
+        "doi": "10.1158/1535-7163.mct-20-0183",
+        "pmid": "33722858",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      },
+      {
+        "label": "IMGC936 with DM21-C: preclinical studies (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35511740/",
+        "resolvedTitle": "Preclinical Evaluation of IMGC936, a Next-Generation Maytansinoid-based Antibody-drug Conjugate Targeting ADAM9-expressing Tumors.",
+        "doi": "10.1158/1535-7163.mct-21-0915",
+        "pmid": "35511740",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "transcription-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "HDP-101 in proliferating and resting myeloma models (2021)",
+        "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287",
+        "resolvedTitle": "HDP-101, an Anti-BCMA Antibody-Drug Conjugate, Safely Delivers Amanitin to Induce Cell Death in Proliferating and Resting Multiple Myeloma Cells.",
+        "doi": "10.1158/1535-7163.mct-20-0287",
+        "pmid": "33298585",
+        "capture": "primary/amanitin.json"
+      },
+      {
+        "label": "Hayashi et al., CD26-directed triptolide conjugate (2019)",
+        "url": "https://doi.org/10.3390/cancers11081138",
+        "resolvedTitle": "Novel Antibody-Drug Conjugate with Anti-CD26 Humanized Monoclonal Antibody and Transcription Factor IIH (TFIIH) Inhibitor, Triptolide, Inhibits Tumor Growth via Impairing mRNA Synthesis.",
+        "doi": "10.3390/cancers11081138",
+        "pmid": "31398954",
+        "capture": "primary/triptolide.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "amanitin-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "HDP-101 preclinical study (2021)",
+        "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287",
+        "resolvedTitle": "HDP-101, an Anti-BCMA Antibody-Drug Conjugate, Safely Delivers Amanitin to Induce Cell Death in Proliferating and Resting Multiple Myeloma Cells.",
+        "doi": "10.1158/1535-7163.mct-20-0287",
+        "pmid": "33298585",
+        "capture": "primary/amanitin.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT04879043",
+        "url": "https://clinicaltrials.gov/study/NCT04879043"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "triptolide-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Hayashi et al., Y-TR1 transcription-inhibitor conjugate (2019)",
+        "url": "https://doi.org/10.3390/cancers11081138",
+        "resolvedTitle": "Novel Antibody-Drug Conjugate with Anti-CD26 Humanized Monoclonal Antibody and Transcription Factor IIH (TFIIH) Inhibitor, Triptolide, Inhibits Tumor Growth via Impairing mRNA Synthesis.",
+        "doi": "10.3390/cancers11081138",
+        "pmid": "31398954",
+        "capture": "primary/triptolide.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "spliceosome-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Puthenveetil et al., splicing inhibitors as conjugate payloads (2016)",
+        "url": "https://doi.org/10.1021/acs.bioconjchem.6b00291",
+        "resolvedTitle": "Natural Product Splicing Inhibitors: A New Class of Antibody-Drug Conjugate (ADC) Payloads.",
+        "doi": "10.1021/acs.bioconjchem.6b00291",
+        "pmid": "27412791",
+        "capture": "primary/splicing.json"
+      },
+      {
+        "label": "Site-specific thailanstatin conjugates (2017)",
+        "url": "https://doi.org/10.1371/journal.pone.0178452",
+        "resolvedTitle": "Multivalent peptidic linker enables identification of preferred sites of conjugation for a potent thialanstatin antibody drug conjugate.",
+        "doi": "10.1371/journal.pone.0178452",
+        "pmid": "28558059",
+        "capture": "primary/splicing-site.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "cdk-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Cetuximab-SNS-032 in breast cancer models (2024)",
+        "url": "https://doi.org/10.1158/1078-0432.CCR-23-3110",
+        "resolvedTitle": "Anti-EGFR Antibody-Drug Conjugate Carrying an Inhibitor Targeting CDK Restricts Triple-Negative Breast Cancer Growth.",
+        "doi": "10.1158/1078-0432.ccr-23-3110",
+        "pmid": "38772416",
+        "capture": "primary/cdk.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "ddr-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "CLIO-8221 phase 1/2 trial-design abstract (2026)",
+        "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162",
+        "resolvedTitle": "Phase 1/2 study of CLIO-8221, a HER2-targeted, dual-payload exatecan and ATR inhibitor antibody-drug conjugate (ADC) in patients with advanced HER2-expressing solid tumors.",
+        "doi": "10.1200/jco.2026.44.16_suppl.tps3162",
+        "pmid": null,
+        "capture": "primary/clio-abstract-crossref.json"
+      },
+      {
+        "label": "Azenosertib plus conjugates: a separate-drug combination study (2026)",
+        "url": "https://doi.org/10.1016/j.isci.2026.116390",
+        "resolvedTitle": "The WEE1 inhibitor azenosertib broadly enhances efficacy of antibody-drug conjugates with topoisomerase I and microtubule inhibitor payloads.",
+        "doi": "10.1016/j.isci.2026.116390",
+        "pmid": "42338483",
+        "capture": "primary/ddr.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "atr-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "CLIO-8221 trial-design abstract (2026)",
+        "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162",
+        "resolvedTitle": "Phase 1/2 study of CLIO-8221, a HER2-targeted, dual-payload exatecan and ATR inhibitor antibody-drug conjugate (ADC) in patients with advanced HER2-expressing solid tumors.",
+        "doi": "10.1200/jco.2026.44.16_suppl.tps3162",
+        "pmid": null,
+        "capture": "primary/clio-abstract-crossref.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT07300943",
+        "url": "https://clinicaltrials.gov/study/NCT07300943"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "nampt-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Karpov et al., NAMPT inhibitors as conjugate payloads (2018)",
+        "url": "https://doi.org/10.1021/acsmedchemlett.8b00254",
+        "resolvedTitle": "Nicotinamide Phosphoribosyltransferase Inhibitor as a Novel Payload for Antibody-Drug Conjugates.",
+        "doi": "10.1021/acsmedchemlett.8b00254",
+        "pmid": "30128077",
+        "capture": "primary/nampt.json"
+      },
+      {
+        "label": "Ruedas et al., NAMPT payload optimization (2026)",
+        "url": "https://doi.org/10.1021/acsbiomedchemau.6c00047",
+        "resolvedTitle": "Physicochemical and Metabolic Optimization of NAMPT Inhibitors Enables Effective Antibody-Drug Conjugates for Liquid and Solid Tumors.",
+        "doi": "10.1021/acsbiomedchemau.6c00047",
+        "pmid": "42631027",
+        "capture": "primary/nampt-2026.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "bcl-xl-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Judd et al., BCL-XL inhibitor conjugates (2024)",
+        "url": "https://doi.org/10.1126/sciadv.ado7120",
+        "resolvedTitle": "BCL-X<sub>L</sub>-targeting antibody-drug conjugates are active in preclinical models and mitigate on-mechanism toxicity of small-molecule inhibitors.",
+        "doi": "10.1126/sciadv.ado7120",
+        "pmid": "39365864",
+        "capture": "primary/bclxl.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT03595059",
+        "url": "https://clinicaltrials.gov/study/NCT03595059"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "mcl1-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Maragno et al., S227928 preclinical ASH abstract (2024)",
+        "url": "https://doi.org/10.1182/blood-2024-210048",
+        "resolvedTitle": "S227928: A Novel Anti-CD74 ADC with MCL-1 Inhibitor Payload for the Treatment of Acute Myeloid Leukemia (AML) and Other Hematologic Malignancies",
+        "doi": "10.1182/blood-2024-210048",
+        "pmid": null,
+        "capture": "primary/mcl1-crossref.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT06563804",
+        "url": "https://clinicaltrials.gov/study/NCT06563804"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "hdac-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Cini et al., antibody delivery of an HDAC inhibitor (2018)",
+        "url": "https://doi.org/10.1039/c7sc05266a",
+        "resolvedTitle": "Antibody drug conjugates (ADCs) charged with HDAC inhibitor for targeted epigenetic modulation.",
+        "doi": "10.1039/c7sc05266a",
+        "pmid": "30288233",
+        "capture": "primary/hdac.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "gspt1-degrader-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Palacino et al., ORM-5029 preclinical abstract (2022)",
+        "url": "https://doi.org/10.1158/1538-7445.AM2022-3933",
+        "resolvedTitle": "Abstract 3933: ORM-5029: A first-in-class targeted protein degradation therapy using antibody neodegrader conjugate (AnDC) for HER2-expressing breast cancer",
+        "doi": "10.1158/1538-7445.am2022-3933",
+        "pmid": null,
+        "capture": "primary/gspt1-abstract-crossref.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT05511844",
+        "url": "https://clinicaltrials.gov/study/NCT05511844"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT06419634",
+        "url": "https://clinicaltrials.gov/study/NCT06419634"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "brd4-degrader-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Dragovich et al., antibody delivery of BRD4 degraders, part 2 (2021)",
+        "url": "https://doi.org/10.1021/acs.jmedchem.0c01846",
+        "resolvedTitle": "Antibody-Mediated Delivery of Chimeric BRD4 Degraders. Part 2: Improvement of In Vitro Antiproliferation Activity and In Vivo Antitumor Efficacy.",
+        "doi": "10.1021/acs.jmedchem.0c01846",
+        "pmid": "33596073",
+        "capture": "primary/brd4.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "kif11-degrader-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Feng et al., KIF11 degrader conjugate, ASCO abstract (2025)",
+        "url": "https://doi.org/10.1200/JCO.2025.43.16_suppl.3092",
+        "resolvedTitle": "A first-in-class KIF11 degrader antibody conjugate (DAC) as a potential therapy targeting a broad spectrum of cancers.",
+        "doi": "10.1200/jco.2025.43.16_suppl.3092",
+        "pmid": null,
+        "capture": "primary/kif11-abstract-crossref.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "ksp-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Lerchen et al., pyrrole-based KSP inhibitor conjugates (2018)",
+        "url": "https://doi.org/10.1002/anie.201807619",
+        "resolvedTitle": "Antibody-Drug Conjugates with Pyrrole-Based KSP Inhibitors as the Payload Class.",
+        "doi": "10.1002/anie.201807619",
+        "pmid": "30180286",
+        "capture": "primary/ksp-primary.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "sting-agonist-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "XMT-2056 preclinical pharmacology (2025)",
+        "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449",
+        "resolvedTitle": "XMT-2056, a HER2-Directed STING Agonist Antibody-Drug Conjugate, Induces Innate Antitumor Immune Responses by Acting on Cancer Cells and Tumor-Resident Immune Cells.",
+        "doi": "10.1158/1078-0432.ccr-24-2449",
+        "pmid": "40029253",
+        "capture": "primary/sting.json"
+      },
+      {
+        "label": "STING agonist conjugate platform development (2023)",
+        "url": "https://doi.org/10.1021/acs.jmedchem.3c00907",
+        "resolvedTitle": "Discovery and Optimization of a STING Agonist Platform for Application in Antibody Drug Conjugates.",
+        "doi": "10.1021/acs.jmedchem.3c00907",
+        "pmid": "37486969",
+        "capture": "primary/sting-platform.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT05514717",
+        "url": "https://clinicaltrials.gov/study/NCT05514717"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "tlr-agonist-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Ackerman et al., immune-stimulating conjugates (2021)",
+        "url": "https://doi.org/10.1038/s43018-020-00136-x",
+        "resolvedTitle": "Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumor immunity.",
+        "doi": "10.1038/s43018-020-00136-x",
+        "pmid": "35121890",
+        "capture": "primary/tlr.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT04278144",
+        "url": "https://clinicaltrials.gov/study/NCT04278144"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT05954143",
+        "url": "https://clinicaltrials.gov/study/NCT05954143"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT04460456",
+        "url": "https://clinicaltrials.gov/study/NCT04460456"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT05091528",
+        "url": "https://clinicaltrials.gov/study/NCT05091528"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "gq11-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "DYP688 phase 1 clinical study (2026)",
+        "url": "https://doi.org/10.1038/s41591-026-04518-z",
+        "resolvedTitle": "An anti-PMEL antibody-drug conjugate with a G<sub>q/1</sub><sub>1</sub> inhibitor payload in GNAQ/GNA11-mutant melanomas: a phase 1 trial.",
+        "doi": "10.1038/s41591-026-04518-z",
+        "pmid": "42443515",
+        "capture": "primary/gq11.json"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT05415072",
+        "url": "https://clinicaltrials.gov/study/NCT05415072"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "pi3k-pikk-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Cai et al., HMPL-A580 preclinical AACR abstract (2026)",
+        "url": "https://doi.org/10.1158/1538-7445.AM2026-4549",
+        "resolvedTitle": "Abstract 4549: Discovery of HMPL-A580, a first-in-class antibody-targeted therapy conjugate (ATTC) of a novel PI3K/PIKK inhibitor payload linked to an anti-EGFR antibody",
+        "doi": "10.1158/1538-7445.am2026-4549",
+        "pmid": null,
+        "capture": "primary/pi3k-abstract-crossref.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "anthracycline-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "uPAR-directed anthracycline conjugate in pancreatic cancer models (2025)",
+        "url": "https://doi.org/10.1126/sciadv.adq0513",
+        "resolvedTitle": "Targeting uPAR with an antibody-drug conjugate suppresses tumor growth and reshapes the immune landscape in pancreatic cancer models.",
+        "doi": "10.1126/sciadv.adq0513",
+        "pmid": "39823326",
+        "capture": "primary/anthracycline.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "eribulin-payload",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "MORAb-202 in breast cancer models (2021)",
+        "url": "https://doi.org/10.1111/cas.14898",
+        "resolvedTitle": "Antibody-drug conjugate MORAb-202 exhibits long-lasting antitumor efficacy in TNBC PDx models.",
+        "doi": "10.1111/cas.14898",
+        "pmid": "33756060",
+        "capture": "primary/eribulin.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "tubulysin-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Tubulysin conjugation site, stability and efficacy study (2025)",
+        "url": "https://doi.org/10.1002/open.202400522",
+        "resolvedTitle": "The Impact of Conjugation Mode and Site on Tubulysin Antibody-Drug-Conjugate Efficacy and Stability.",
+        "doi": "10.1002/open.202400522",
+        "pmid": "40434212",
+        "capture": "primary/tubulysin.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "hemiasterlin-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Discovery of STRO-002 and its hemiasterlin payload (2023)",
+        "url": "https://doi.org/10.1158/1535-7163.MCT-22-0322",
+        "resolvedTitle": "Discovery of STRO-002, a Novel Homogeneous ADC Targeting Folate Receptor Alpha, for the Treatment of Ovarian and Endometrial Cancers.",
+        "doi": "10.1158/1535-7163.mct-22-0322",
+        "pmid": "36459691",
+        "capture": "primary/hemiasterlin-select.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "cryptophycin-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Lai et al., cryptophycin-55/52 antibody conjugates (2020)",
+        "url": "https://doi.org/10.1016/j.ejmech.2020.112364",
+        "resolvedTitle": "Cryptophycin-55/52 based antibody-drug conjugates: Synthesis, efficacy, and mode of action studies.",
+        "doi": "10.1016/j.ejmech.2020.112364",
+        "pmid": "32402935",
+        "capture": "primary/cryptophycin.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "ign-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "IGN DNA-binding and catabolite mechanism study (2019)",
+        "url": "https://doi.org/10.1021/acs.molpharmaceut.9b00675",
+        "resolvedTitle": "Antibody-Drug Conjugates with Indolinobenzodiazepine Dimer Payloads: DNA-Binding Mechanism of Indolinobenzodiazepine Dimer Catabolites in Target Cancer Cells.",
+        "doi": "10.1021/acs.molpharmaceut.9b00675",
+        "pmid": "31742408",
+        "capture": "primary/ign.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "pdd-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Andriollo et al., sequence-selective PDD payload (2025)",
+        "url": "https://doi.org/10.1039/d4md01040j",
+        "resolvedTitle": "A novel DNA sequence-selective, guanine mono-alkylating ADC payload suitable for solid tumour treatment.",
+        "doi": "10.1039/d4md01040j",
+        "pmid": "40352674",
+        "capture": "primary/pdd.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "protein-alkylator-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Mysliwy et al., PA289 preclinical AACR abstract (2025)",
+        "url": "https://doi.org/10.1158/1538-7445.AM2025-1579",
+        "resolvedTitle": "Abstract 1579: PA289, a prodrug linker-payload with a novel mechanism of action for the development of antibody drug conjugates",
+        "doi": "10.1158/1538-7445.am2025-1579",
+        "pmid": null,
+        "capture": "primary/pa289-crossref.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "proteasome-inhibitor-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Carfilzomib conjugates and lysosomal inactivation (2019)",
+        "url": "https://doi.org/10.1124/dmd.119.086595",
+        "resolvedTitle": "Carfilzomib Is Not an Appropriate Payload of Antibody-Drug Conjugates Due to Rapid Inactivation by Lysosomal Enzymes.",
+        "doi": "10.1124/dmd.119.086595",
+        "pmid": "31072822",
+        "capture": "primary/proteasome-failure.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "ferroptosis-conjugate-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "FGFR4 conjugate carrying sulfasalazine (2025)",
+        "url": "https://doi.org/10.1016/j.isci.2025.113718",
+        "resolvedTitle": "Development of the FGFR4-ADC bearing the ferroptosis inducer sulfasalazine for hepatocellular carcinoma.",
+        "doi": "10.1016/j.isci.2025.113718",
+        "pmid": "41210985",
+        "capture": "primary/ferroptosis-fgfr4.json"
+      },
+      {
+        "label": "Antibody nanogel delivery of a ferroptosis inducer (2024)",
+        "url": "https://doi.org/10.1016/j.chembiol.2024.10.014",
+        "resolvedTitle": "Therapeutic induction of ferroptosis in tumors using PD-L1 targeting antibody nanogel conjugates.",
+        "doi": "10.1016/j.chembiol.2024.10.014",
+        "pmid": "39603241",
+        "capture": "primary/ferroptosis.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "protein-toxin-payloads",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "DeBouganin conjugates and fusion proteins in resistant cells (2016)",
+        "url": "https://doi.org/10.3390/molecules21121741",
+        "resolvedTitle": "DeBouganin Diabody Fusion Protein Overcomes Drug Resistance to ADCs Comprised of Anti-Microtubule Agents.",
+        "doi": "10.3390/molecules21121741",
+        "pmid": "27999336",
+        "capture": "primary/protein-toxin.json"
+      }
+    ],
+    "owner": "src/data/adc-payload-frontier.ts"
+  },
+  {
+    "conceptId": "af-hpa",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "Dolaflexin: AF-HPA and auristatin F in preclinical models (2021)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33722857/",
+        "resolvedTitle": "Dolaflexin: A Novel Antibody-Drug Conjugate Platform Featuring High Drug Loading and a Controlled Bystander Effect.",
+        "doi": "10.1158/1535-7163.mct-20-0166",
+        "pmid": "33722857",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      },
+      {
+        "label": "XMT-1536 preclinical composition and NaPi2b-directed models (2021)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33722858/",
+        "resolvedTitle": "The Dolaflexin-based Antibody-Drug Conjugate XMT-1536 Targets the Solid Tumor Lineage Antigen SLC34A2/NaPi2b.",
+        "doi": "10.1158/1535-7163.mct-20-0183",
+        "pmid": "33722858",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      },
+      {
+        "label": "Polyacetal Fleximer with a vinca derivative, a distinct platform (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26113086/",
+        "resolvedTitle": "A Polymer-Based Antibody-Vinca Drug Conjugate Platform: Characterization and Preclinical Efficacy.",
+        "doi": "10.1158/0008-5472.can-15-0129",
+        "pmid": "26113086",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      }
+    ]
+  },
+  {
+    "conceptId": "dm21-c-maytansinoid-system",
+    "disposition": "new-concept",
+    "sources": [
+      {
+        "label": "IMGC936 with DM21-C: preclinical studies (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35511740/",
+        "resolvedTitle": "Preclinical Evaluation of IMGC936, a Next-Generation Maytansinoid-based Antibody-drug Conjugate Targeting ADAM9-expressing Tumors.",
+        "doi": "10.1158/1535-7163.mct-21-0915",
+        "pmid": "35511740",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      },
+      {
+        "label": "Peptide-cleavable self-immolative maytansinoid conjugates (2019)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31620224/",
+        "resolvedTitle": "Peptide-Cleavable Self-immolative Maytansinoid Antibody-Drug Conjugates Designed To Provide Improved Bystander Killing.",
+        "doi": "10.1021/acsmedchemlett.9b00310",
+        "pmid": "31620224",
+        "capture": "chemical-species-2026-11-09/publication-identities.json"
+      },
+      {
+        "label": "AACR 2019 abstract 538: DM21-C and DM51, conference evidence",
+        "url": "https://doi.org/10.1158/1538-7445.AM2019-538",
+        "resolvedTitle": "Abstract 538: LC-MS based catabolite identification study of an ADC with DM21-C, a novel maytansinoid linker-payload",
+        "doi": "10.1158/1538-7445.am2019-538",
+        "capture": "chemical-species-2026-11-09/reading-scope.json",
+        "evidence": "conference abstract"
+      },
+      {
+        "label": "IMGC936 registry NCT04622774, last update 15 January 2025",
+        "url": "https://clinicaltrials.gov/study/NCT04622774",
+        "nct": "NCT04622774",
+        "capture": "chemical-species-2026-11-09/registry-observations.json"
+      }
+    ]
+  }
+]

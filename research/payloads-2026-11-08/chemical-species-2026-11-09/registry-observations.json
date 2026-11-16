@@ -1,0 +1,115 @@
+{
+  "semanticElicitNctIdentifiers": [],
+  "records": [
+    {
+      "nct": "NCT05527184",
+      "title": "First in Human Study of IMGN151 in Recurrent Gynaecological Cancers",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-02-20",
+      "phase": [
+        "PHASE1"
+      ],
+      "enrolment": {
+        "count": 256,
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "file": "registry-NCT05527184.json",
+      "sha256": "c0c3e39d7083e80fbe225eb81405938e3dbc7ed546de0d62df750976db86c16e",
+      "source": "https://clinicaltrials.gov/study/NCT05527184",
+      "limit": "Overall registry state does not establish sponsor programme activity, local access, clinical benefit or an approved product."
+    },
+    {
+      "nct": "NCT03013933",
+      "title": "Brentuximab Vedotin, Cyclosporine, and Verapamil Hydrochloride in Treating Patients With Relapsed or Refractory Hodgkin Lymphoma",
+      "status": "COMPLETED",
+      "lastUpdatePosted": "2024-02-22",
+      "phase": [
+        "PHASE1"
+      ],
+      "enrolment": {
+        "count": 29,
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "file": "registry-NCT03013933.json",
+      "sha256": "d200c6817c7ec69d318309a817852050ec8192bfb5cd4a6265c8d02e5b774980",
+      "source": "https://clinicaltrials.gov/study/NCT03013933",
+      "limit": "Overall registry state does not establish sponsor programme activity, local access, clinical benefit or an approved product."
+    },
+    {
+      "nct": "NCT04622774",
+      "title": "First-in-Human Study of IMGC936 in Participants With Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "lastUpdatePosted": "2025-01-15",
+      "phase": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "enrolment": {
+        "count": 56,
+        "type": "ACTUAL"
+      },
+      "hasResults": true,
+      "file": "registry-NCT04622774.json",
+      "sha256": "65facd3c8e1209f6e3f01ffe7b1a5c8414284c3882eb3fab3a565e562e0456e5",
+      "source": "https://clinicaltrials.gov/study/NCT04622774",
+      "limit": "Overall registry state does not establish sponsor programme activity, local access, clinical benefit or an approved product."
+    },
+    {
+      "nct": "NCT06723236",
+      "title": "A Study of MGC028 in Participants With Advanced Solid Tumors",
+      "status": "RECRUITING",
+      "lastUpdatePosted": "2026-04-27",
+      "phase": [
+        "PHASE1"
+      ],
+      "enrolment": {
+        "count": 124,
+        "type": "ESTIMATED"
+      },
+      "hasResults": false,
+      "file": "registry-NCT06723236.json",
+      "sha256": "54c3aefa5fa61aa697d20678c8f582406afb38e6cb2f3e70b4835c9a54d37bab",
+      "source": "https://clinicaltrials.gov/study/NCT06723236",
+      "limit": "Overall registry state does not establish sponsor programme activity, local access, clinical benefit or an approved product."
+    },
+    {
+      "nct": "NCT03319628",
+      "title": "First-in-Human Study of XMT-1536 in Cancers Likely to Express NaPi2b",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2023-11-13",
+      "phase": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "enrolment": {
+        "count": 523,
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "file": "registry-NCT03319628.json",
+      "sha256": "cb555b17dbb303bc0c0960d34be787a29758567f0a5ee8d87622bcf3f5dcc63f",
+      "source": "https://clinicaltrials.gov/study/NCT03319628",
+      "limit": "Overall registry state does not establish sponsor programme activity, local access, clinical benefit or an approved product."
+    },
+    {
+      "nct": "NCT02277717",
+      "title": "First-in-human Study With the Antibody-drug Conjugate SYD985 to Evaluate Safety and Efficacy in Cancer Patients",
+      "status": "COMPLETED",
+      "lastUpdatePosted": "2023-08-14",
+      "phase": [
+        "PHASE1"
+      ],
+      "enrolment": {
+        "count": 185,
+        "type": "ACTUAL"
+      },
+      "hasResults": false,
+      "file": "registry-NCT02277717.json",
+      "sha256": "5baf77dc0e55c0d03e9a3e68695f8f8fc294165a9466ef96dabeb51b3403832d",
+      "source": "https://clinicaltrials.gov/study/NCT02277717",
+      "limit": "Overall registry state does not establish sponsor programme activity, local access, clinical benefit or an approved product."
+    }
+  ]
+}

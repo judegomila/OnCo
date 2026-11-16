@@ -1,0 +1,491 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1021/acs.jmedchem.3c00907",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "37486969",
+        "source": "MED",
+        "pmid": "37486969",
+        "pmcid": "PMC10424177",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10424177"
+          ]
+        },
+        "doi": "10.1021/acs.jmedchem.3c00907",
+        "title": "Discovery and Optimization of a STING Agonist Platform for Application in Antibody Drug Conjugates.",
+        "authorString": "Duvall JR, Thomas JD, Bukhalid RA, Catcott KC, Bentley KW, Collins SD, Eitas T, Jones BD, Kelleher EW, Lancaster K, Protopopova M, Ray SS, Ter-Ovanesyan E, Xu L, Yang L, Zurita J, Damelin M, Toader D, Lowinger TB.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Duvall JR",
+              "lastName": "Duvall",
+              "firstName": "Jeremy R",
+              "initials": "JR",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-9897-7924"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thomas JD",
+              "lastName": "Thomas",
+              "firstName": "Joshua D",
+              "initials": "JD",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2974-8226"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bukhalid RA",
+              "lastName": "Bukhalid",
+              "firstName": "Raghida A",
+              "initials": "RA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Catcott KC",
+              "lastName": "Catcott",
+              "firstName": "Kalli C",
+              "initials": "KC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1941-0678"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bentley KW",
+              "lastName": "Bentley",
+              "firstName": "Keith W",
+              "initials": "KW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Collins SD",
+              "lastName": "Collins",
+              "firstName": "Scott D",
+              "initials": "SD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Eitas T",
+              "lastName": "Eitas",
+              "firstName": "Timothy",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jones BD",
+              "lastName": "Jones",
+              "firstName": "Brian D",
+              "initials": "BD",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kelleher EW",
+              "lastName": "Kelleher",
+              "firstName": "Eugene W",
+              "initials": "EW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lancaster K",
+              "lastName": "Lancaster",
+              "firstName": "Kelly",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Protopopova M",
+              "lastName": "Protopopova",
+              "firstName": "Marina",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ray SS",
+              "lastName": "Ray",
+              "firstName": "Soumya S",
+              "initials": "SS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "3-Dimensional Consulting, 134 Franklin Avenue, Quincy, Massachusetts 02170, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ter-Ovanesyan E",
+              "lastName": "Ter-Ovanesyan",
+              "firstName": "Elena",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xu L",
+              "lastName": "Xu",
+              "firstName": "Ling",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang L",
+              "lastName": "Yang",
+              "firstName": "Liping",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zurita J",
+              "lastName": "Zurita",
+              "firstName": "Jeffrey",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Damelin M",
+              "lastName": "Damelin",
+              "firstName": "Marc",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Toader D",
+              "lastName": "Toader",
+              "firstName": "Dorin",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lowinger TB",
+              "lastName": "Lowinger",
+              "firstName": "Timothy B",
+              "initials": "TB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1941-0678"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2974-8226"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-9897-7924"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "related_data",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "15",
+          "volume": "66",
+          "journalIssueId": 3613109,
+          "dateOfPublication": "2023 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "J Med Chem",
+            "title": "Journal of medicinal chemistry",
+            "essn": "1520-4804",
+            "issn": "0022-2623",
+            "nlmid": "9716531",
+            "isoabbreviation": "J Med Chem"
+          },
+          "printPublicationDate": "2023-08-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "10715-10733",
+        "affiliation": "Mersana Therapeutics, Inc., 840 Memorial Drive, Cambridge, Massachusetts 02139, United States.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.jmedchem.3c00907"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10424177"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10424177?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 53,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "Y",
+        "dbCrossReferenceList": {
+          "dbName": [
+            "CHEMBL",
+            "PDB"
+          ]
+        },
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "pdb"
+          ]
+        },
+        "dateOfCompletion": "2023-08-11",
+        "dateOfCreation": "2023-07-24",
+        "dateOfRevision": "2026-09-21",
+        "electronicPublicationDate": "2023-07-24",
+        "firstPublicationDate": "2023-07-24",
+        "firstIndexDate": "2023-07-24",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "cbb365348ad0c41857b15114cef711ce473c6f77818c2739617cca84a7b15329",
+          "characters": 996
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "c41586f9328b611bb640ca60cb387a88e692a5eb23ad61d55969fa60fde38115",
+    "sourceBytes": 9650,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

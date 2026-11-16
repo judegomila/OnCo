@@ -1,0 +1,1686 @@
+{
+  "version": "6.9",
+  "hitCount": 4,
+  "request": {
+    "queryString": "TITLE:\"indolinobenzodiazepine\" AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "31742408",
+        "source": "MED",
+        "pmid": "31742408",
+        "doi": "10.1021/acs.molpharmaceut.9b00675",
+        "title": "Antibody-Drug Conjugates with Indolinobenzodiazepine Dimer Payloads: DNA-Binding Mechanism of Indolinobenzodiazepine Dimer Catabolites in Target Cancer Cells.",
+        "authorString": "Singh R, Reid EE, Harris L, Salomon PL, Miller ML, Chari RVJ, Keating TA.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Singh R",
+              "lastName": "Singh",
+              "firstName": "Rajeeva",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1537-6209"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reid EE",
+              "lastName": "Reid",
+              "firstName": "Emily E",
+              "initials": "EE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harris L",
+              "lastName": "Harris",
+              "firstName": "Luke",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salomon PL",
+              "lastName": "Salomon",
+              "firstName": "Paulin L",
+              "initials": "PL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miller ML",
+              "lastName": "Miller",
+              "firstName": "Michael L",
+              "initials": "ML",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3762-3319"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chari RVJ",
+              "lastName": "Chari",
+              "firstName": "Ravi V J",
+              "initials": "RVJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Keating TA",
+              "lastName": "Keating",
+              "firstName": "Thomas A",
+              "initials": "TA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1537-6209"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3762-3319"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "17",
+          "journalIssueId": 2897871,
+          "dateOfPublication": "2020 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Mol Pharm",
+            "title": "Molecular pharmaceutics",
+            "essn": "1543-8392",
+            "issn": "1543-8384",
+            "nlmid": "101197791",
+            "isoabbreviation": "Mol Pharm"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "50-58",
+        "affiliation": "ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Imines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrroles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzodiazepines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Indoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "DNA Adducts",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oligonucleotides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Dimerization"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme-Linked Immunospot Assay"
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "DNA",
+            "ELISA",
+            "Mechanism",
+            "Nuclease",
+            "Micrococcal nuclease",
+            "DNase I",
+            "Imine",
+            "Pbd",
+            "Adc",
+            "Diimine",
+            "Adduct",
+            "Ign",
+            "Duplex Oligonucleotide",
+            "Hairpin Oligonucleotide",
+            "Indolinobenzodiazepine Dimer",
+            "Monoimine"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "pyrrolo(2,1-c)(1,4)benzodiazepine",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA",
+              "registryNumber": "9007-49-2"
+            },
+            {
+              "name": "Indoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oligonucleotides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pyrroles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Imines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "DNA Adducts",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzodiazepines",
+              "registryNumber": "12794-10-4"
+            },
+            {
+              "name": "indoline",
+              "registryNumber": "6DPT9AB2NK"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.molpharmaceut.9b00675"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.molpharmaceut.9b00675"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2020-11-13",
+        "dateOfCreation": "2019-11-20",
+        "dateOfRevision": "2020-11-13",
+        "electronicPublicationDate": "2019-12-03",
+        "firstPublicationDate": "2019-12-03",
+        "firstIndexDate": "2019-11-20",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "26106c6edd44ea545d6fe308ee0fb1cfa417761bb989d4966097704bbde2a9b5",
+          "characters": 1516
+        }
+      },
+      {
+        "id": "31413805",
+        "source": "MED",
+        "pmid": "31413805",
+        "pmcid": "PMC6691565",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6691565"
+          ]
+        },
+        "doi": "10.1021/acsmedchemlett.9b00240",
+        "title": "Effect of Linker Stereochemistry on the Activity of Indolinobenzodiazepine Containing Antibody-Drug Conjugates (ADCs).",
+        "authorString": "Reid EE, Archer KE, Shizuka M, Wilhelm A, Yoder NC, Bai C, Fishkin NE, Harris L, Maloney EK, Salomon P, Hong E, Wu R, Ab O, Jin S, Lai KC, Sikka S, Chari RVJ, Miller ML.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Reid EE",
+              "lastName": "Reid",
+              "firstName": "Emily E",
+              "initials": "EE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Archer KE",
+              "lastName": "Archer",
+              "firstName": "Katie E",
+              "initials": "KE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shizuka M",
+              "lastName": "Shizuka",
+              "firstName": "Manami",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilhelm A",
+              "lastName": "Wilhelm",
+              "firstName": "Alan",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yoder NC",
+              "lastName": "Yoder",
+              "firstName": "Nicholas C",
+              "initials": "NC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bai C",
+              "lastName": "Bai",
+              "firstName": "Chen",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fishkin NE",
+              "lastName": "Fishkin",
+              "firstName": "Nathan E",
+              "initials": "NE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harris L",
+              "lastName": "Harris",
+              "firstName": "Luke",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maloney EK",
+              "lastName": "Maloney",
+              "firstName": "Erin K",
+              "initials": "EK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salomon P",
+              "lastName": "Salomon",
+              "firstName": "Paulin",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hong E",
+              "lastName": "Hong",
+              "firstName": "Erica",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wu R",
+              "lastName": "Wu",
+              "firstName": "Rui",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ab O",
+              "lastName": "Ab",
+              "firstName": "Olga",
+              "initials": "O",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jin S",
+              "lastName": "Jin",
+              "firstName": "Shan",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lai KC",
+              "lastName": "Lai",
+              "firstName": "Katharine C",
+              "initials": "KC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sikka S",
+              "lastName": "Sikka",
+              "firstName": "Surina",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chari RVJ",
+              "lastName": "Chari",
+              "firstName": "Ravi V J",
+              "initials": "RVJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miller ML",
+              "lastName": "Miller",
+              "firstName": "Michael L",
+              "initials": "ML",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "10",
+          "journalIssueId": 2848977,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "ACS Med Chem Lett",
+            "title": "ACS medicinal chemistry letters",
+            "essn": "1948-5875",
+            "issn": "1948-5875",
+            "nlmid": "101521073",
+            "isoabbreviation": "ACS Med Chem Lett"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "1193-1197",
+        "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "rapid-communication",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "ImmunoGen, Inc",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acsmedchemlett.9b00240"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6691565"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6691565?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acsmedchemlett.9b00240"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 11,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2019-08-16",
+        "dateOfRevision": "2020-09-28",
+        "electronicPublicationDate": "2019-07-10",
+        "firstPublicationDate": "2019-07-10",
+        "firstIndexDate": "2019-08-16",
+        "fullTextReceivedDate": "2025-02-03",
+        "embargoDate": "2020-08-08",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "eb71609c5defd844cc6b663d323b43417b36ae15b9ac6faff89dbc1b64ae00d5",
+          "characters": 687
+        }
+      },
+      {
+        "id": "31413807",
+        "source": "MED",
+        "pmid": "31413807",
+        "pmcid": "PMC6691681",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6691681"
+          ]
+        },
+        "doi": "10.1021/acsmedchemlett.9b00254",
+        "title": "Synthesis of Highly Potent N-10 Amino-Linked DNA-Alkylating Indolinobenzodiazepine Antibody-Drug Conjugates (ADCs).",
+        "authorString": "Archer KE, Reid EE, Shizuka M, Woods J, Harris L, Maloney EK, Bartle LM, Ab O, Wilhelm A, Setiady Y, Ponte JF, Singh R, Keating TA, Chari RVJ, Miller ML.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Archer KE",
+              "lastName": "Archer",
+              "firstName": "Katie E",
+              "initials": "KE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reid EE",
+              "lastName": "Reid",
+              "firstName": "Emily E",
+              "initials": "EE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shizuka M",
+              "lastName": "Shizuka",
+              "firstName": "Manami",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Woods J",
+              "lastName": "Woods",
+              "firstName": "James",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harris L",
+              "lastName": "Harris",
+              "firstName": "Luke",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maloney EK",
+              "lastName": "Maloney",
+              "firstName": "Erin K",
+              "initials": "EK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bartle LM",
+              "lastName": "Bartle",
+              "firstName": "Laura M",
+              "initials": "LM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ab O",
+              "lastName": "Ab",
+              "firstName": "Olga",
+              "initials": "O",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilhelm A",
+              "lastName": "Wilhelm",
+              "firstName": "Alan",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Setiady Y",
+              "lastName": "Setiady",
+              "firstName": "Yulius",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ponte JF",
+              "lastName": "Ponte",
+              "firstName": "Jose F",
+              "initials": "JF",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Singh R",
+              "lastName": "Singh",
+              "firstName": "Rajeeva",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Keating TA",
+              "lastName": "Keating",
+              "firstName": "Thomas A",
+              "initials": "TA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chari RVJ",
+              "lastName": "Chari",
+              "firstName": "Ravi V J",
+              "initials": "RVJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miller ML",
+              "lastName": "Miller",
+              "firstName": "Michael L",
+              "initials": "ML",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "8",
+          "volume": "10",
+          "journalIssueId": 2848977,
+          "dateOfPublication": "2019 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "ACS Med Chem Lett",
+            "title": "ACS medicinal chemistry letters",
+            "essn": "1948-5875",
+            "issn": "1948-5875",
+            "nlmid": "101521073",
+            "isoabbreviation": "ACS Med Chem Lett"
+          },
+          "printPublicationDate": "2019-08-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "1211-1215",
+        "affiliation": "ImmunoGen, Inc., 830 Winter Street, Waltham, Massachusetts 02451, United States.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "rapid-communication",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "ImmunoGen Inc.",
+              "orderIn": 0
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acsmedchemlett.9b00254"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6691681"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6691681?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acsmedchemlett.9b00254"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 9,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2019-08-16",
+        "dateOfRevision": "2020-09-28",
+        "electronicPublicationDate": "2019-07-22",
+        "firstPublicationDate": "2019-07-22",
+        "firstIndexDate": "2019-08-16",
+        "fullTextReceivedDate": "2025-02-03",
+        "embargoDate": "2020-08-08",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "7dda4a0b05779028fc4105ca3f7bae8d65a288a5b4e8fb6cdea56848a8164d4f",
+          "characters": 676
+        }
+      },
+      {
+        "id": "31747250",
+        "source": "MED",
+        "pmid": "31747250",
+        "doi": "10.1021/acs.bioconjchem.9b00777",
+        "title": "Site-Specific Conjugation of the Indolinobenzodiazepine DGN549 to Antibodies Affords Antibody-Drug Conjugates with an Improved Therapeutic Index as Compared with Lysine Conjugation.",
+        "authorString": "Bai C, Reid EE, Wilhelm A, Shizuka M, Maloney EK, Laleau R, Harvey L, Archer KE, Vitharana D, Adams S, Kovtun Y, Miller ML, Chari R, Keating TA, Yoder NC.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bai C",
+              "lastName": "Bai",
+              "firstName": "Chen",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reid EE",
+              "lastName": "Reid",
+              "firstName": "Emily E",
+              "initials": "EE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wilhelm A",
+              "lastName": "Wilhelm",
+              "firstName": "Alan",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shizuka M",
+              "lastName": "Shizuka",
+              "firstName": "Manami",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Maloney EK",
+              "lastName": "Maloney",
+              "firstName": "Erin K",
+              "initials": "EK",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Laleau R",
+              "lastName": "Laleau",
+              "firstName": "Rassol",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Harvey L",
+              "lastName": "Harvey",
+              "firstName": "Lauren",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Archer KE",
+              "lastName": "Archer",
+              "firstName": "Katie E",
+              "initials": "KE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vitharana D",
+              "lastName": "Vitharana",
+              "firstName": "Dilrukshi",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Adams S",
+              "lastName": "Adams",
+              "firstName": "Sharlene",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kovtun Y",
+              "lastName": "Kovtun",
+              "firstName": "Yelena",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miller ML",
+              "lastName": "Miller",
+              "firstName": "Michael L",
+              "initials": "ML",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3762-3319"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chari R",
+              "lastName": "Chari",
+              "firstName": "Ravi",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Keating TA",
+              "lastName": "Keating",
+              "firstName": "Thomas A",
+              "initials": "TA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yoder NC",
+              "lastName": "Yoder",
+              "firstName": "Nicholas C",
+              "initials": "NC",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1151-0156"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1151-0156"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3762-3319"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "31",
+          "journalIssueId": 2902063,
+          "dateOfPublication": "2020 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2020,
+          "journal": {
+            "medlineAbbreviation": "Bioconjug Chem",
+            "title": "Bioconjugate chemistry",
+            "essn": "1520-4812",
+            "issn": "1043-1802",
+            "nlmid": "9010319",
+            "isoabbreviation": "Bioconjug Chem"
+          },
+          "printPublicationDate": "2020-01-01"
+        },
+        "pubYear": "2020",
+        "pageInfo": "93-103",
+        "affiliation": "Science, Technology, and Translation , ImmunoGen, Inc. , 830 Winter Street , Waltham , Massachusetts 02451 , United States.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, SCID"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Benzodiazepines",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Lysine",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents, Alkylating",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents, Immunological",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Therapeutic Index"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Oxindoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents, Alkylating",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Benzodiazepines",
+              "registryNumber": "12794-10-4"
+            },
+            {
+              "name": "Lysine",
+              "registryNumber": "K3Z4F929H6"
+            },
+            {
+              "name": "Antineoplastic Agents, Immunological",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Oxindoles",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://pubs.acs.org/doi/pdf/10.1021/acs.bioconjchem.9b00777"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.bioconjchem.9b00777"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 25,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-02-04",
+        "dateOfCreation": "2019-11-21",
+        "dateOfRevision": "2021-02-04",
+        "electronicPublicationDate": "2019-12-10",
+        "firstPublicationDate": "2019-12-10",
+        "firstIndexDate": "2019-11-21",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "f09e8c87202190160fcf968af74aa8e63ec8c2d91c02bea74d71d1298103e80c",
+          "characters": 1391
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "c00224ec6457b53c56d8559aaa6dc2c8d09c7714f2e1244bc20aa76773e81ff1",
+    "sourceBytes": 33758,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

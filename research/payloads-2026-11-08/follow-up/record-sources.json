@@ -1,0 +1,439 @@
+[
+  {
+    "recordId": "dual-payload-adc",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "tldr",
+      "summary",
+      "links",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "Yamazaki et al., Antibody-drug conjugates with dual payloads for combating breast tumour heterogeneity and drug resistance (Nature Communications 2021)",
+        "url": "https://doi.org/10.1038/s41467-021-23793-7"
+      },
+      {
+        "label": "Publisher abstract",
+        "url": "https://doi.org/10.1158/1538-7445.am2026-6928"
+      },
+      {
+        "label": "Publisher abstract",
+        "url": "https://doi.org/10.1158/1535-7163.targ-25-a124"
+      },
+      {
+        "label": "Publisher abstract",
+        "url": "https://doi.org/10.1158/1538-7445.am2026-4438"
+      },
+      {
+        "label": "Publisher abstract",
+        "url": "https://doi.org/10.1158/1557-3265.d32026-a014"
+      },
+      {
+        "label": "CLIO-8221 phase 1/2 trial-design abstract (2026)",
+        "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.TPS3162"
+      },
+      {
+        "label": "Spycher et al.: dual TOP1 payloads with different bystander properties, AACR abstract (2024)",
+        "url": "https://doi.org/10.1158/1538-7445.AM2024-2600"
+      },
+      {
+        "label": "Ren et al.: sequential-release exatecan/triptolide conjugates in preclinical models",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41121984/"
+      },
+      {
+        "label": "Abel et al.: separate sacituzumab govitecan and berzosertib phase 1 regimen",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37227187/"
+      },
+      {
+        "label": "Ravenstijn et al.: dual-payload clinical pharmacology perspective (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42089685/"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "immune-stimulating-adc",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "tldr",
+      "summary",
+      "status",
+      "links",
+      "notes",
+      "principle",
+      "strengths",
+      "limitations"
+    ],
+    "sources": [
+      {
+        "label": "Ackerman et al., Immune-stimulating antibody conjugates elicit robust myeloid activation and durable antitumour immunity (Nature Cancer 2020)",
+        "url": "https://doi.org/10.1038/s43018-020-00136-x"
+      },
+      {
+        "label": "XMT-2056 preclinical study (2025)",
+        "url": "https://doi.org/10.1158/1078-0432.CCR-24-2449"
+      },
+      {
+        "label": "XMT-2056 trial: terminated",
+        "url": "https://clinicaltrials.gov/study/NCT05514717"
+      },
+      {
+        "label": "TAK-500 trial: terminated",
+        "url": "https://clinicaltrials.gov/study/NCT05070247"
+      },
+      {
+        "label": "BDC-1001 trial: terminated",
+        "url": "https://clinicaltrials.gov/study/NCT04278144"
+      },
+      {
+        "label": "Chernyak et al.: TLR-agonist conjugate uptake and myeloid-cell experiments (2024)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39235949/"
+      },
+      {
+        "label": "Janku et al.: NJH395 preclinical and phase 1 non-breast cohort (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36129967/"
+      },
+      {
+        "label": "Oh et al.: T-DXd immune effects in gastric cancer models (2024)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39449023/"
+      },
+      {
+        "label": "Benci et al.: prolonged interferon signaling and checkpoint-resistance programs (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27912061/"
+      },
+      {
+        "label": "BDC-1001 breast-cancer phase 2 registry: terminated",
+        "url": "https://clinicaltrials.gov/study/NCT05954143"
+      },
+      {
+        "label": "SBT6050 combination registry: terminated",
+        "url": "https://clinicaltrials.gov/study/NCT05091528"
+      },
+      {
+        "label": "SBT6050 first-in-human registry: unknown status",
+        "url": "https://clinicaltrials.gov/study/NCT04460456"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "polr2a",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "id",
+      "kind",
+      "name",
+      "aka",
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "tags",
+      "related",
+      "cancers",
+      "sections",
+      "technologies",
+      "targets",
+      "drugs",
+      "companies",
+      "institutions",
+      "pathways",
+      "terms",
+      "trials",
+      "people",
+      "bottlenecks",
+      "keyPapers",
+      "journals",
+      "dependsOn",
+      "notes",
+      "symbol",
+      "role",
+      "sources",
+      "specificitySources",
+      "hgnc",
+      "ensembl",
+      "uniprot",
+      "entrez",
+      "biology",
+      "whereFound",
+      "targetClass",
+      "prevalence"
+    ],
+    "sources": [
+      {
+        "label": "HGNC: independently resolved POLR2A identity and gene location",
+        "url": "https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:9187"
+      },
+      {
+        "label": "Bushnell et al.: RNA polymerase II/amanitin structural study (2002)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11805306/"
+      },
+      {
+        "label": "Liu et al.: colorectal POLR2A dosage study (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25901683/"
+      },
+      {
+        "label": "Author correction to the colorectal study (2021)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34433970/"
+      },
+      {
+        "label": "Xu et al.: POLR2A siRNA nanoparticles in TNBC models (2019)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30804480/"
+      },
+      {
+        "label": "Publisher correction to the TNBC study (2019)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30837690/"
+      },
+      {
+        "label": "Author correction to the TNBC study (2020)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31953520/"
+      },
+      {
+        "label": "Retraction notice for a separate HER2-low/17p-loss study (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41984934/"
+      },
+      {
+        "label": "Letschert et al.: amatoxin uptake into human hepatocytes (2006)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+      },
+      {
+        "label": "Retraction notice for the separate prostate/17p-loss report (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42414292/"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "payload",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "tldr",
+      "summary",
+      "links",
+      "notes"
+    ],
+    "sources": [
+      {
+        "label": "FDA: clinical pharmacology considerations for cytotoxic antibody-drug conjugates (2024)",
+        "url": "https://www.fda.gov/media/155997/download"
+      },
+      {
+        "label": "Li et al.: released payload and bystander effects in preclinical models (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26921341/"
+      },
+      {
+        "label": "Ravenstijn et al.: dual-payload translational considerations (2026 perspective)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42089685/"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "topoisomerase-i-payloads",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "drugs",
+      "notes"
+    ],
+    "sources": [
+      {
+        "label": "Jo et al.: exatecan TOP1-DNA trapping and ATR-combination models (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35439320/"
+      },
+      {
+        "label": "Weng et al.: traceless antibody-exatecan resistant-model studies (2023)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+      },
+      {
+        "label": "Murase et al.: efflux-mediated T-DXd resistance in gastric/lung models (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41548044/"
+      },
+      {
+        "label": "Abelman et al.: selected patient TOP1 mutations and functional studies (2025)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39745368/"
+      },
+      {
+        "label": "Exploratory retrospective TOP1-alteration conference abstract (2026)",
+        "url": "https://doi.org/10.1200/JCO.2026.44.16_suppl.e15044"
+      },
+      {
+        "label": "Chun et al.: PBX-7016 preclinical medicinal-chemistry study (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41414896/"
+      },
+      {
+        "label": "Zoppoli et al.: SLFN11 and DNA-damaging drug response (2012)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22927417/"
+      },
+      {
+        "label": "Ogitani et al.: local bystander and distant-tumor controls (2016)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27166974/"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "exatecan",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "name",
+      "aka",
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "related",
+      "drugs",
+      "notes"
+    ],
+    "sources": [
+      {
+        "label": "PubChem: independently resolved exatecan chemical identity",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/151115"
+      },
+      {
+        "label": "Abou-Alfa et al.: exatecan/gemcitabine versus gemcitabine randomized trial (2006)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16983112/"
+      },
+      {
+        "label": "Jo et al.: exatecan TOP1-DNA trapping and experimental combinations (2022)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35439320/"
+      },
+      {
+        "label": "Weng et al.: antibody-exatecan conjugates in resistant models (2023)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36693125/"
+      },
+      {
+        "label": "Schmitt et al.: phosphonamidate-linked exatecan constructs (2023)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37828728/"
+      },
+      {
+        "label": "Li et al.: distinct camptothecin derivatives and released species (2019)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31620223/"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "transcription-inhibitor-payloads",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "links",
+      "targets",
+      "notes"
+    ],
+    "sources": [
+      {
+        "label": "HDP-101 in proliferating and resting myeloma models (2021)",
+        "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287"
+      },
+      {
+        "label": "Hayashi et al., CD26-directed triptolide conjugate (2019)",
+        "url": "https://doi.org/10.3390/cancers11081138"
+      },
+      {
+        "label": "Bushnell et al.: amanitin/RNA polymerase II structural study (2002)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11805306/"
+      },
+      {
+        "label": "Liu et al.: POLR2A dosage hypothesis in colorectal models (2015)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25901683/"
+      },
+      {
+        "label": "Xu et al.: POLR2A siRNA nanoparticles in TNBC models (2019)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30804480/"
+      },
+      {
+        "label": "Author correction to the colorectal POLR2A report (2021)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34433970/"
+      },
+      {
+        "label": "Publisher correction to the TNBC nanoparticle report (2019)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30837690/"
+      },
+      {
+        "label": "Author correction to the TNBC nanoparticle report (2020)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31953520/"
+      },
+      {
+        "label": "Retraction notice for a separate HER2-low/17p-loss report (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41984934/"
+      },
+      {
+        "label": "Letschert et al.: amatoxin transport in cells and human hepatocytes (2006)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+      },
+      {
+        "label": "Retraction notice for the separate prostate/17p-loss report (2026)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42414292/"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "amanitin-payloads",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "links",
+      "targets",
+      "notes"
+    ],
+    "sources": [
+      {
+        "label": "HDP-101 preclinical study (2021)",
+        "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287"
+      },
+      {
+        "label": "ClinicalTrials.gov: NCT04879043",
+        "url": "https://clinicaltrials.gov/study/NCT04879043"
+      },
+      {
+        "label": "Papacharisi et al.: TROP2 amanitin-conjugate preclinical study (2025)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39564769/"
+      },
+      {
+        "label": "Letschert et al.: human-hepatocyte amatoxin transport (2006)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16495352/"
+      },
+      {
+        "label": "HDP-101 Chinese phase 1 study and source eligibility discrepancy",
+        "url": "https://clinicaltrials.gov/study/NCT07529782"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  },
+  {
+    "recordId": "pamlectabart-tismanitin",
+    "state": "Draft #369; not merged or deployed",
+    "fieldsChangedFromPriorCheckpoint": [
+      "tldr",
+      "summary",
+      "asOf",
+      "links",
+      "notes",
+      "mechanism"
+    ],
+    "sources": [
+      {
+        "label": "Figueroa-Vazquez et al.: HDP-101 proliferating/resting myeloma preclinical study",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33298585/"
+      },
+      {
+        "label": "HDP-101 phase 1/2 registry, checked November 2026",
+        "url": "https://clinicaltrials.gov/study/NCT04879043"
+      },
+      {
+        "label": "HDP-101 Chinese phase 1 registry, including conflicting age fields",
+        "url": "https://clinicaltrials.gov/study/NCT07529782"
+      }
+    ],
+    "scope": "Named conceptual and source corrections; no expert sign-off or whole-world program census."
+  }
+]

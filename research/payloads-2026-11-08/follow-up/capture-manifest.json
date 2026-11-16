@@ -1,0 +1,122 @@
+[
+  {
+    "fileName": "additional-identities.json",
+    "bytes": 36943,
+    "sha256": "833330e39f41124d1593bfa88ec88522108938744b683c22872ac1137baab265",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "correction-retraction-europepmc.json",
+    "bytes": 57027,
+    "sha256": "77eeefafe227121c3372293a09c8640a7272e3fc0141cff53b684cfde1d8cd95",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "crossref-1538-7445.am2024-2600.json",
+    "bytes": 7986,
+    "sha256": "80f3c4f39c981cd111108d0feb811aa4ca7f2e264ece3e04c955eadc24ffad9e",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "crossref-jco.2026.44.16_suppl.e15044.json",
+    "bytes": 6041,
+    "sha256": "8298f1e4c4df781494125db12feb94f0f93c57d34ad2cf329cd849dd6fdb5b7b",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "crossref-jco.2026.44.16_suppl.tps3162.json",
+    "bytes": 9330,
+    "sha256": "475975e02525ca4c7d00bde3d603eddc3bea8a64ff149e81db5752652d747a06",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "elicit-primary-followups.json",
+    "bytes": 26169,
+    "sha256": "a2a14dbd1dd9103377894cbf674a8bb3d2efa3eccf07393b6b776c82fd216fc9",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "exatecan-pubchem.json",
+    "bytes": 3129,
+    "sha256": "05a182c95e68945a5e069fe075861525063fa6d4d5f9d7885bd130f94d1595fe",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "named-primary-europepmc.json",
+    "bytes": 283956,
+    "sha256": "127e3045100569e5e67708ec532853c6ca6ef767bafb005d80c20d5cfd8b5351",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "njh395-registry.json",
+    "bytes": 956,
+    "sha256": "d90da00e0e7271f50c2f42b3c2f7ea2225c824fbae6940ec1aad30665cd79ca2",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "notice-30837690.html",
+    "bytes": 244529,
+    "sha256": "2f4d6f2b650d44ad81e874f5c559e3241349cbe280774deeace3a794202d7882",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "notice-30837690.txt",
+    "bytes": 7631,
+    "sha256": "21240ab5f51e17f86c36603f6581b008c0ea414322d4e01060cdddf74be1a2fb",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "notice-31953520.html",
+    "bytes": 244950,
+    "sha256": "a4cc0083b6895eb3f40ae06cd8d15e2a935ac4c4d501ad3123f478571095ad47",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "notice-31953520.txt",
+    "bytes": 7570,
+    "sha256": "a0d8c476153557500b85875c2b65ed5bc08cb64e44f4752e262edc6bc7f2872a",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "notice-34433970.html",
+    "bytes": 255484,
+    "sha256": "659ca437a56d6afb0eae74061eb548230df4f02f5a13c0b2af927f97f8fe984b",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "notice-34433970.txt",
+    "bytes": 8713,
+    "sha256": "1b3012b38c85674e48198a119c6482bc2594c0bbcfb823aa901667b94a0c4ede",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "notice-access-receipts.json",
+    "bytes": 963,
+    "sha256": "d43a0da3934c16284685a7cd8d5797952a03145c8ce985f6c61fd82bb7e84a4c",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "polr2a-hgnc.json",
+    "bytes": 1150,
+    "sha256": "57e2163eb2a122d13861e40ea7d8103e49e2dcfee699b2dcbd81f5c70f15041a",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "prostate-retraction-identity.json",
+    "bytes": 10424,
+    "sha256": "cf45053803073b1f195b2f14f1e01997d5b085c3b4059f82d6faad98ad06a87d",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "prostate-retraction-notice.html",
+    "bytes": 264446,
+    "sha256": "703ff6ef637ac2c9a4b8f4a2943458c5cec183f518268e9a1a7641e11caed0a1",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  },
+  {
+    "fileName": "prostate-retraction-notice.txt",
+    "bytes": 10395,
+    "sha256": "1f38ebbcec75b54ad4baedbb0251d5500a14ac37fdd33ab39b3d55f0013d43da",
+    "retention": "Exact capture/reading file outside public checkout; no article, abstract or notice body republished."
+  }
+]

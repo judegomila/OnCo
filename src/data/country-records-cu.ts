@@ -119,7 +119,7 @@ const papers: PaperInput[] = [
     whatItMeans: "The main evidence for Cuba's lung cancer vaccine: well tolerated, with a survival gain that depends on how the analysis is done and that was clearest in patients who completed the induction doses.",
     caveats: ["The standard primary comparison was not statistically significant.", "The per-protocol benefit excludes patients who stopped early, which can favour the vaccine arm.", "Control patients received supportive care only, not an active maintenance treatment."],
     institutions: ["inor-cuba"], companies: ["cimab"], cancers: ["nsclc"], targets: ["egfr"],
-    links: [doi("10.1158/1078-0432.CCR-15-0855", "Clin Cancer Res 2016"), pubmed("26927662")] }),
+    drugs: ["cimavax-egf"], links: [doi("10.1158/1078-0432.CCR-15-0855", "Clin Cancer Res 2016"), pubmed("26927662")] }),
 
   p({ id: "paper-alfonso-racotumomab-maintenance-nsclc-ccr-2014", name: "Racotumomab-alum vaccine as switch maintenance in advanced non-small cell lung cancer: a randomised placebo-controlled trial",
     journal: "Clinical Cancer Research", year: 2014, doi: "10.1158/1078-0432.CCR-13-1674", pmid: "24788102", authors: "Alfonso S, Valdés-Zayas A, Santiesteban ER, et al.", paperType: "rct", participants: 176,
@@ -133,7 +133,7 @@ const papers: PaperInput[] = [
     whatItMeans: "A second Cuban therapeutic vaccine for lung cancer with randomised evidence of a modest survival gain, in a setting where few patients received further treatment at progression.",
     caveats: ["Only five patients per group received further anticancer therapy at progression, which differs from current practice where immunotherapy and later lines are standard.", "The authors describe it as a preliminary estimate of efficacy."],
     institutions: ["inor-cuba", "cencec-cuba"], companies: ["cimab"], cancers: ["nsclc"],
-    links: [doi("10.1158/1078-0432.CCR-13-1674", "Clin Cancer Res 2014"), pubmed("24788102")] }),
+    drugs: ["racotumomab"], links: [doi("10.1158/1078-0432.CCR-13-1674", "Clin Cancer Res 2014"), pubmed("24788102")] }),
 
   p({ id: "paper-solomon-nimotuzumab-high-grade-glioma-bmc-cancer-2013", name: "Nimotuzumab or placebo with radiotherapy for high-grade glioma: a Cuban randomised double-blind trial",
     journal: "BMC Cancer", year: 2013, doi: "10.1186/1471-2407-13-299", pmid: "23782513", authors: "Solomón MT, Selva JC, Figueredo J, et al.", paperType: "rct", participants: 70,
@@ -171,11 +171,12 @@ const RCP_VAXIRA = "https://www.cecmed.cu/registro/rcp/biologicos/vaxirar-racotu
  * Cuba's two registered lung cancer vaccines, written on 16 November 2026 from CECMED's own registration entries and
  * their summaries of product characteristics (PDF text, in Spanish) and from the abstracts of the two randomised trials,
  * whose DOIs were resolved through Europe PMC before any figure was used. Neither is approved by the FDA or the EMA;
- * `approvals` says Cuba only, because no other regulator's entry was read.
+ * `approvals` says Cuba only, because no other regulator's entry was read, and `status` is "established", as it is for
+ * nimotuzumab, because the corpus keeps "approved" for products with a United States or European verdict.
  */
 const drugs: DrugInput[] = [
   { id: "cimavax-egf", kind: "drug", asOf: "2026-11-16", name: "CIMAvax-EGF", aka: ["CIMAvax", "EGF vaccine", "rhEGF-rP64K conjugate vaccine"], brand: "CIMAvax-EGF",
-    modality: "Therapeutic cancer vaccine: recombinant human EGF conjugated to a carrier protein, with Montanide ISA 51 adjuvant, intramuscular", status: "approved",
+    modality: "Therapeutic cancer vaccine: recombinant human EGF conjugated to a carrier protein, with Montanide ISA 51 adjuvant, intramuscular", status: "established",
     mechanism: "Makes the body produce antibodies against its own epidermal growth factor (EGF), lowering EGF in the blood so that less of it reaches the EGF receptor on tumour cells. It does not target the tumour cell directly.",
     tldr: "CIMAvax-EGF is a Cuban vaccine for advanced non-small cell lung cancer, given after chemotherapy to make the body block a growth signal the tumour uses. It has been registered in Cuba since 2008. In its phase III trial the survival gain was significant only in patients who completed the first four doses, and it is not approved in the United States or the European Union.",
     summary: "CIMAvax-EGF was developed at the Centro de Inmunología Molecular in Havana, which holds its registration. It is recombinant human epidermal growth factor chemically conjugated to the recombinant carrier protein rP64K and emulsified with the adjuvant Montanide ISA 51 VG; the vaccine is intended to induce antibodies against the patient's own EGF that block its binding to the EGF receptor. Cuba's regulator CECMED lists it under registration number B-08-063-L03, entered on 12 June 2008, for patients with advanced (stage IIIB or IV) non-small cell lung cancer.\n\nIn the Cuban phase III trial, 405 patients with stage IIIB or IV disease were randomised four to six weeks after first-line chemotherapy to the vaccine or to best supportive care. Median survival was 10.83 months with the vaccine and 8.86 months without (hazard ratio 0.82, P = 0.100 by the standard log-rank test; P = 0.04 by a weighted log-rank test applied after the hazards proved non-proportional). Among patients who received at least four doses it was 12.43 against 9.43 months (hazard ratio 0.77, P = 0.036), and 14.66 months in vaccinated patients with a high EGF concentration at baseline. The trial compared the vaccine with supportive care, not with a placebo or with the maintenance and immunotherapy treatments now standard elsewhere. A phase 1/2 trial sponsored by Roswell Park in the United States combines it with nivolumab or pembrolizumab (NCT02955290).",
@@ -193,7 +194,7 @@ const drugs: DrugInput[] = [
       { label: "ClinicalTrials.gov: NCT02955290, CIMAvax with anti-PD-1 therapy (Roswell Park)", url: "https://clinicaltrials.gov/study/NCT02955290" },
     ] },
   { id: "racotumomab", kind: "drug", asOf: "2026-11-16", name: "Racotumomab", aka: ["Racotumomab-alum"], brand: "Vaxira",
-    modality: "Therapeutic cancer vaccine: anti-idiotype monoclonal antibody adsorbed on aluminium hydroxide, intradermal", status: "approved",
+    modality: "Therapeutic cancer vaccine: anti-idiotype monoclonal antibody adsorbed on aluminium hydroxide, intradermal", status: "established",
     mechanism: "An anti-idiotype antibody that mimics NeuGcGM3, a ganglioside found on tumour cells, so that the patient's immune system makes antibodies against the ganglioside itself.",
     tldr: "Racotumomab (Vaxira) is a Cuban vaccine for advanced non-small cell lung cancer, given after first-line treatment to patients whose cancer has responded or held steady. In a placebo-controlled trial of 176 patients it lengthened median survival from 6.8 to 8.2 months. It is registered in Cuba and is not approved in the United States or the European Union.",
     summary: "Racotumomab is an anti-idiotype vaccine targeting the tumour-associated ganglioside NeuGcGM3, formulated with aluminium hydroxide (racotumomab-alum) and made by the Centro de Inmunología Molecular in Havana, which holds its registration. Cuba's regulator CECMED lists Vaxira under registration number B-25-015-L03, with an inscription date of 26 May 2025, for patients with advanced (stage IIIB or IV) non-small cell lung cancer who have an objective response or stable disease after first-line treatment, as switch maintenance. OnCo did not read the earlier Cuban registration under which the vaccine was used before that entry, so no earlier date is given.\n\nIn a randomised, multicentre, placebo-controlled trial, 176 patients with stage IIIB or IV disease and at least stable disease after first-line chemotherapy received racotumomab-alum (87) or placebo (89). Median overall survival was 8.23 against 6.80 months (hazard ratio 0.63, 95% CI 0.46 to 0.87, P = 0.004) and median progression-free survival 5.33 against 3.90 months (hazard ratio 0.73, 95% CI 0.53 to 0.99, P = 0.039). The authors called the trial a preliminary estimate of efficacy; only five patients in each group had further anticancer treatment at progression, which is far from current practice elsewhere.",

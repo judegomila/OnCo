@@ -130495,38 +130495,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
   ],
   "sarah-sirvenib": [
     {
-      "nct": "NCT01135056",
-      "source": "https://clinicaltrials.gov/study/NCT01135056",
-      "fetchedAt": "2026-11-16T21:35:24.299Z",
-      "studySha256": "375eb6a2548e52219122c169b393430e571dd1d42c873eebc9667e488cab9ba5",
-      "overallStatus": "UNKNOWN",
-      "lastUpdatePosted": "2018-04-24",
-      "leadSponsor": "Singapore General Hospital",
-      "collaboratorCount": 4,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 360,
-      "enrolmentType": "ACTUAL",
-      "siteCount": 29,
-      "recruitingSiteCount": 0,
-      "countries": [
-        "Brunei",
-        "Burma",
-        "China",
-        "Indonesia",
-        "Malaysia",
-        "Mongolia",
-        "New Zealand",
-        "Philippines",
-        "Singapore",
-        "South Korea",
-        "Taiwan",
-        "Thailand"
-      ]
-    },
-    {
       "nct": "NCT01482442",
       "source": "https://clinicaltrials.gov/study/NCT01482442",
       "fetchedAt": "2026-10-07T16:52:28.000Z",

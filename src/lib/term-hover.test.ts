@@ -113,7 +113,7 @@ describe("corpus auto-linking", () => {
     const exact = entityPatterns().filter((p) => p.exact).map((p) => p.pattern);
     expect(exact).toContain("FIT");
     // Every exact pattern is a name in capitals, or a coined single word whose capitals are part of it.
-    expect(exact.filter((s) => !/^(?=(?:[^A-Z]*[A-Z]){2})[A-Z0-9-]+$/.test(s) && !/^[A-Za-z-]*[a-z][A-Za-z-]*[A-Z][A-Za-z-]*$/.test(s))).toEqual([]);
+    expect(exact.filter((s) => !/^(?=(?:[^A-Z]*[A-Z]){2})[A-Z-]+$/.test(s) && !/^[A-Za-z-]*[a-z][A-Za-z-]*[A-Z][A-Za-z-]*$/.test(s))).toEqual([]);
     // A name with lower case and no inner capital keeps matching in any case.
     expect(entityPatterns().find((p) => p.pattern === "HER2-low")?.exact).toBeUndefined();
   });
@@ -127,7 +127,10 @@ describe("corpus auto-linking", () => {
     expect(named("Doctors select patients for surgery.").some(([, l]) => l === "SELECT")).toBe(false);
     expect(named("SELECT tested lenvatinib.")).toContainEqual(["SELECT", "SELECT"]);
     const exact = new Set(entityPatterns().filter((p) => p.exact).map((p) => p.pattern));
-    for (const name of ["PLATINUM", "SELECT", "KEYNOTE-522"]) expect(exact, name).toContain(name);
+    for (const name of ["PLATINUM", "SELECT"]) expect(exact, name).toContain(name);
+    // A name with a digit is never an ordinary word, so it links in any case.
+    for (const text of ["Trop2 is the target.", "trop2 is the target.", "TROP2 is the target."]) expect(named(text), text).toContainEqual([text.slice(0, 5), "TROP2"]);
+    expect([...exact].filter((s) => /\d/.test(s))).toEqual([]);
     // A real acronym still links, and written wholly in capitals a coined name still links too.
     expect(named("PFS was longer on the new drug.").map(([w]) => w)).toContain("PFS");
     expect(named("CCRCC is the commonest kind.").map(([w]) => w)).toContain("CCRCC");

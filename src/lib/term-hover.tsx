@@ -23,11 +23,12 @@ const SHORT_OK = new Set(["os", "1l", "2l", "3l"]);
  * A name written entirely in capitals links only where the text writes it with its capitals. The matcher is otherwise
  * case-insensitive, and many such names are also ordinary words: "HAS" (France's Haute Autorité de Santé) linked every
  * "has" on the site, MUST, FIT and LET did the same for "must", "fit" and "let", and the trial names PLATINUM, SELECT,
- * RADICAL, CONFIRM and DIRECT linked "platinum chemotherapy", "select patients" and the rest. At least two capitals, and
- * digits and hyphens are allowed, so "KEYNOTE-522" counts. See `exact` in entity-matcher for what the text
+ * RADICAL, CONFIRM and DIRECT linked "platinum chemotherapy", "select patients" and the rest. At least two capitals;
+ * hyphens are allowed. A name with a digit ("TROP2", "CD79A", "KEYNOTE-522") cannot be an ordinary word, so it keeps
+ * matching in any case, and "Trop2", "CD79a" and "Smad4" still link. See `exact` in entity-matcher for what the text
  * has to show.
  */
-const CAPITALS = /^(?=(?:[^A-Z]*[A-Z]){2})[A-Z0-9-]+$/;
+const CAPITALS = /^(?=(?:[^A-Z]*[A-Z]){2})[A-Z-]+$/;
 /**
  * A single word of letters with a capital after a lower-case letter ("ReSPECT", "ctDNA", "BrECADD") is a coined name
  * whose capitals are part of it, and it follows the same rule: "ReSPECT" otherwise matches every "respect". One with a

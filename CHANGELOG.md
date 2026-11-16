@@ -7,9 +7,19 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 16 November 2026
+- Glossary links now respect capitals, so ordinary words such as platinum, select, open and decision no longer link to trials and acronyms that share their spelling, about twelve thousand false links fewer; with the weekly refresh of trial counts, universe lists, logos, the fact check and two EU register rows
+- Names with a digit link in any case again, and the ordinary words "verify" and "alliance" stop linking
 - Eighty more countries get deep dives researched by agents and checked claim by claim by a second agent, the menu shows one Countries entry instead of a line per country, Ask reads first any medicine a question names by name or brand, and the ivonescimab record now states that the FDA issued a complete response letter, announced on 15 November 2026
+- Names in capitals of any length link only where written in capitals, and bracket qualifiers in record names stop linking ordinary words
 - Ivonescimab: the FDA issued a complete response letter on the US application, announced 15 November 2026
+- Vedolizumab gets its EU approval row, read from the EMA register, and one RP-6306 trial loses a subtype link its text does not support
+- chore: render this week's issue to public/newsletter/
+- chore: weekly fact check, audit, and provenance refresh
+- chore: refresh public/votes.json from Discussions reactions
+- chore: propose this week's landmark oncology papers for review
+- chore: refresh trial counts from ClinicalTrials.gov
 - chore: draft change proposals that need review (#411)
+- chore: EU regional rows read from the EMA register pages
 
 ### 15 November 2026
 - chore: draft change proposals that need review (#410)
@@ -40,6 +50,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Newsweek 2026 oncology ranks corrected against the published list, and unsourced superlatives removed from the ranked records
 - Glossary links no longer fire on ordinary words such as has, cure, prior and bleeding, and the care protocols now list the supportive medicines their steps name, so each medicine's page shows the protocols that use it
 - The care protocols now list the everyday medicines their own steps name, so 40 of the 43 medicines added in the November supportive care fill show the protocols that use them: blood thinners on the clot and endoscopy protocols, anti-sickness drugs, opioids, antibiotics, antivirals and the immune-toxicity rescue drugs
+- Glossary acronyms of two to five capital letters now link only where the text writes them in capitals, so "has", "must", "fit" and "let" stop linking to HAS, MUST, FIT and LET
 - Glossary links no longer fire on ordinary words: "has" stops linking to health technology assessment, and 57 other aliases that named something else leave the hover matcher or are qualified
 - Forty-three everyday medicines the care protocols name now have records (blood thinners, anti-sickness drugs, pain relief, antibiotics and antivirals among them), with three line types and thirteen glossary terms; and three China approvals now rest on the makers' own exchange announcements, with two indications corrected
 - The availability table says each payer once and keeps its rows short on a phone
@@ -136,6 +147,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - A new record kind for care protocols: how a part of cancer care is carried out, step by step, each step with its reason, its source and the grade the source gives it
 - Every country in GLOBOCAN has a page: 144 automatic country pages beside the 39 deep dives, France's overseas departments on the France page, and a filterable list of every country on /countries/
 - chore: weekly citation link check (#392)
+- chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE)
 - chore: check regional approvals against the EMA register (#390)
 - chore: refresh FDA approvals feed (OCE notifications, openFDA drugsfda) (#389)
 - chore: draft change proposals that need review (#388)
@@ -154,6 +166,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Redirect the retired drug ids and the moved nonprofits' company routes
 - Merge GFH375 with VS-7375 and AZD0120 with GC012F, and move ten nonprofits from company to institution records
 - Classifier patterns read whole words: antagonists are no longer agonists, benzimidazoles no longer IMiDs
+- chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links)
 - chore: draft change proposals that need review (#385)
 - chore: EU regional rows read from the EMA register pages (#384)
 

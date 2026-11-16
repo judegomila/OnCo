@@ -18,7 +18,7 @@ describe("mechanism evidence presentation", () => {
     const html = renderToStaticMarkup(createElement(PathwayDiagram, { p: pathway }));
     expect(html).toContain("Hypothesis: Input A activates Output B");
     expect(html).toContain("<details");
-    expect(html).toContain("Relationship evidence and context");
+    expect(html).toContain("The studies behind the marked links");
     expect(html).toContain("A fictional experimental system");
     expect(html).toContain('href="https://example.org/method"');
     expect(html).toContain("This example does not establish patient benefit.");
@@ -28,6 +28,6 @@ describe("mechanism evidence presentation", () => {
     const html = renderToStaticMarkup(createElement(PathwayDiagram, { p: fixture() }));
     expect(html).toContain("Input A activates Output B");
     expect(html).not.toContain("Hypothesis:");
-    expect(html).not.toContain("Relationship evidence and context");
+    expect(html).not.toContain("The studies behind the marked links");
   });
 });

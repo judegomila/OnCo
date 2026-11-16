@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 import Link from "next/link";
 import type { PathwayDiagramView } from "@/lib/pathway-products";
-import { mechanismEvidenceLabel, supportsPathIllustration } from "@/lib/mechanism-evidence";
+import { mechanismEvidenceLabel, mechanismEvidenceMark, supportsPathIllustration } from "@/lib/mechanism-evidence";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 
 /** A rim in the card colour behind small labels, so an edge running under one does not strike through it. */
@@ -99,7 +99,8 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
       <>
         <div className="font-medium leading-snug">{qualifier && `${qualifier}: `}{a?.label} {e.type === "inhibits" ? "inhibits" : "activates"} {b?.label}</div>
         <p className="mt-1 text-muted leading-snug">
-          {e.evidence?.length ? e.evidence.map(item => `${item.context}: ${item.statement}`).join(" ") : e.type === "inhibits" ? "A brake: the first switches the second off or holds it down." : "A relay: the first switches the second on."}
+          {e.type === "inhibits" ? "A brake: the first switches the second off or holds it down." : "A relay: the first switches the second on."}
+          {!!e.evidence?.length && " The study behind this link is listed under the diagram."}
           {isEscape && ` With ${product?.name} selected this is an escape route: it feeds the pathway below the block.`}
           {blocked && ` ${product?.name} sits on this step, so the signal stops here.`}
         </p>
@@ -152,7 +153,8 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
                   {/* Beside a vertical run, above (escape) or below (blocked) a horizontal one. */}
                   {isEscape && <text x={vertical ? mx + 6 : mx} y={vertical ? my + 3 : my - 6} textAnchor={vertical ? "start" : "middle"} className="fill-amber-600 stroke-card pointer-events-none" style={{ fontSize: 10, fontWeight: 600, ...HALO }}>escape</text>}
                   {blocked && <text x={vertical ? mx + 6 : mx} y={vertical ? my + 3 : my + 13} textAnchor={vertical ? "start" : "middle"} className="fill-accent stroke-card pointer-events-none" style={{ fontSize: 10, fontWeight: 600, ...HALO }}>blocked</text>}
-                  {qualifier && <text x={vertical ? mx + 6 : mx} y={vertical ? my + 3 : my - 6} textAnchor={vertical ? "start" : "middle"} className="fill-muted stroke-card pointer-events-none" style={{ fontSize: 10, ...HALO }}>context</text>}
+                  {/* The escape and blocked marks take the same spot and say more, so the evidence mark gives way to them. */}
+                  {qualifier && !isEscape && !blocked && <text x={vertical ? mx + 6 : mx} y={vertical ? my + 3 : my - 6} textAnchor={vertical ? "start" : "middle"} className="fill-muted stroke-card pointer-events-none" style={{ fontSize: 10, ...HALO }}>{mechanismEvidenceMark(e)}</text>}
                 </g>
               );
             })}
@@ -197,13 +199,14 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
       </div>
       {view.edges.some(edge => edge.evidence?.length) && (
         <details className="border-t border-border px-4 py-3 text-sm">
-          <summary className="min-h-11 cursor-pointer py-3 font-medium">Relationship evidence and context</summary>
+          <summary className="min-h-11 cursor-pointer py-3 font-medium">The studies behind the marked links</summary>
+          <p className="text-muted max-w-3xl">Most arrows here are the textbook relay. Where a link is marked, this is the experiment it rests on, what was studied and what that does not show.</p>
           <ul className="mt-3 space-y-4">
             {view.edges.flatMap((edge, i) => (edge.evidence ?? []).map((item, j) => (
               <li key={`${i}-${j}`}>
                 <div className="font-medium">{mechanismEvidenceLabel({ evidence: [item] })}: {byId.get(edge.from)?.label ?? edge.from} → {byId.get(edge.to)?.label ?? edge.to}</div>
                 <p className="mt-1">{item.statement}</p>
-                <p className="mt-1 text-muted">Context: {item.context}</p>
+                <p className="mt-1 text-muted"><span title="The organism, cells, conditions or people the statement applies to">What was studied:</span> {item.context}</p>
                 {item.limitation && <p className="mt-1 text-muted">{item.limitation}</p>}
                 <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1">
                   {item.sources.map(source => <li key={source.url}><a href={source.url} className="inline-flex min-h-11 items-center underline underline-offset-2 break-words">{source.label}</a></li>)}
@@ -223,11 +226,10 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
           </div>
           <p className="mt-1 text-muted">
             Hits <span className="text-foreground">{hitLabels.join(", ")}</span>.
-            {view.edges.some(edge => edge.evidence?.length)
-              ? <> Relationship sources retain the studied contexts; target highlighting illustrates connections.</>
-              : escapeSources.length > 0
+            {escapeSources.length > 0
               ? <> Known escape routes feed the pathway below the block via <span className="text-foreground">{escapeSources.join(", ")}</span>; this is why single agents fail and vertical or parallel combinations are used.</>
               : <> No bypass inputs are drawn downstream of this block in this diagram.</>}
+            {view.edges.some(edge => !supportsPathIllustration(edge)) && <> A link marked as a hypothesis or as coming from a model is not lit up: the highlighting follows only the established relay.</>}
           </p>
           {view.interventions.length > 0 && (
             <p className="mt-1 text-xs text-muted">Countermeasures listed for this pathway: {view.interventions.slice(0, 3).join("; ")}{view.interventions.length > 3 ? "; …" : ""}</p>

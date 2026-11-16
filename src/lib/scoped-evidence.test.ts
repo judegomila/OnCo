@@ -52,6 +52,15 @@ describe("scoped evidence contracts", () => {
     expect(mechanismEvidenceLabel(result)).toBe("Hypothesis");
     expect(supportsPathIllustration(result)).toBe(false);
     expect(supportsPathIllustration({})).toBe(true);
+    // A link seen in a cited experiment is better supported than the unsourced relay, so it still carries the
+    // blocked and escape-route highlighting; a model-derived one does not.
+    const item = edge.evidence![0];
+    expect(supportsPathIllustration({ evidence: [{ ...item, basis: "observed" }] })).toBe(true);
+    expect(supportsPathIllustration({ evidence: [{ ...item, basis: "observed" }, { ...item, basis: "model-derived" }] })).toBe(false);
+    // The real case: the sourced RAF to MEK link must not stop a RAS inhibitor from lighting up MEK and ERK.
+    const ras = graph().must("ras-mapk");
+    if (ras.kind !== "pathway") throw new Error("Expected a pathway");
+    expect(pathwayView(ras).edges.filter(e => e.evidence?.length).every(supportsPathIllustration)).toBe(true);
   });
 
   it("leaves older drug, edge and trial records valid without adding empty evidence defaults", () => {

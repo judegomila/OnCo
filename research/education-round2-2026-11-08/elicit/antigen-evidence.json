@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T21:06:36.424Z",
+  "request": {
+    "query": "Which primary studies distinguish predicted peptide-HLA binding, natural tumor peptide presentation by immunopeptidomics, and T-cell recognition, including immunodominance, epitope spreading and cross-reactivity?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-287161135",
+        "title": "From prediction to precision: how immunopeptidomics advances neoantigen discovery.",
+        "authors": [
+          "I. E. Shapiro",
+          "M. Bassani-Sternberg"
+        ],
+        "year": 2026,
+        "abstract": null,
+        "doi": "10.1016/j.trecan.2026.02.003",
+        "pmid": "41927395",
+        "venue": "Trends in Cancer",
+        "citedByCount": 9,
+        "urls": [
+          "https://doi.org/10.1016/j.trecan.2026.02.003"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.trecan.2026.02.003"
+      },
+      {
+        "elicitId": "ss-247957205",
+        "title": "The Importance of Being Presented: Target Validation by Immunopeptidomics for Epitope-Specific Immunotherapies",
+        "authors": [
+          "Jonas P. Becker",
+          "A. Riemer"
+        ],
+        "year": 2022,
+        "abstract": "Presentation of tumor-specific or tumor-associated peptides by HLA class I molecules to CD8+ T cells is the foundation of epitope-centric cancer immunotherapies. While often in silico HLA binding predictions or in vitro immunogenicity assays are utilized to select candidates, mass spectrometry-based immunopeptidomics is currently the only method providing a direct proof of actual cell surface presentation. Despite much progress in the last decade, identification of such HLA-presented peptides remains challenging. Here we review typical workflows and current developments in the field of immunopeptidomics, highlight the challenges which remain to be solved and emphasize the importance of direct target validation for clinical immunotherapy development.",
+        "doi": "10.3389/fimmu.2022.883989",
+        "pmid": "35464395",
+        "venue": "Frontiers in Immunology",
+        "citedByCount": 53,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fimmu.2022.883989/pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.883989/pdf"
+      },
+      {
+        "elicitId": "ss-50776322",
+        "title": "Predicting Antigen Presentation—What Could We Learn From a Million Peptides?",
+        "authors": [
+          "D. Gfeller",
+          "M. Bassani-Sternberg"
+        ],
+        "year": 2018,
+        "abstract": "Antigen presentation lies at the heart of immune recognition of infected or malignant cells. For this reason, important efforts have been made to predict which peptides are more likely to bind and be presented by the human leukocyte antigen (HLA) complex at the surface of cells. These predictions have become even more important with the advent of next-generation sequencing technologies that enable researchers and clinicians to rapidly determine the sequences of pathogens (and their multiple variants) or identify non-synonymous genetic alterations in cancer cells. Here, we review recent advances in predicting HLA binding and antigen presentation in human cells. We argue that the very large amount of high-quality mass spectrometry data of eluted (mainly self) HLA ligands generated in the last few years provides unprecedented opportunities to improve our ability to predict antigen presentation and learn new properties of HLA molecules, as demonstrated in many recent studies of naturally presented HLA-I ligands. Although major challenges still lie on the road toward the ultimate goal of predicting immunogenicity, these experimental and computational developments will facilitate screening of putative epitopes, which may eventually help decipher the rules governing T cell recognition.",
+        "doi": "10.3389/fimmu.2018.01716",
+        "pmid": "30090105",
+        "venue": "Frontiers in Immunology",
+        "citedByCount": 166,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fimmu.2018.01716/pdf",
+          "https://iris.unil.ch/bitstreams/35759f8f-e40e-478e-b154-ce2df5bc56dc/download"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fimmu.2018.01716/pdf"
+      },
+      {
+        "elicitId": "ss-5111781",
+        "title": "MHC class I‐restricted epitope spreading in the context of tumor rejection following vaccination with a single immunodominant CTL epitope",
+        "authors": [
+          "K. El-Shami",
+          "B. Tirosh",
+          "Erez Bar-Haim",
+          "L. Carmon",
+          "E. Vadai",
+          "M. Fridkin",
+          "M. Feldman",
+          "L. Eisenbach"
+        ],
+        "year": 1999,
+        "abstract": "Epitope spreading is a process whereby epitopes distinct from and non‐cross‐reactive with an inducing epitope become targets of an evolving immune response. This phenomenon has been associated most notably with the progression of naturally occurring or experimentally induced chronic autoimmune diseases. We have investigated the potential occurrence of epitope spreading in the context of antitumor cytotoxic T cell (CTL) responses using chicken ovalbumin (OVA) as a model antigen. Our results indicate that following rejection of OVA‐expressing EG.7 tumor cells effectuated by a CTL response which is induced against the MHC class I‐restricted immunodominant epitope OVA257 – 264, there occurs intramolecular diversification of the CTL response to two additional OVA‐derived epitopes, OVA176 – 183 and OVA55 – 62, as well as intermolecular spreading to other endogenous tumor‐derived determinants. It seems that CTL‐mediated tumor cell destruction in vivo favors cross‐presentation of additional epitopes with the consequent activation of additional tumor‐reactive lymphocytes. The process of epitope spreading in that context has obvious important implications for the design of antigen‐specific antitumor immunotherapies.",
+        "doi": "10.1002/(SICI)1521-4141(199910)29:10<3295::AID-IMMU3295>3.0.CO;2-N",
+        "pmid": "10540341",
+        "venue": "European Journal of Immunology",
+        "citedByCount": 99,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-293935560",
+        "title": "Functional Immunopeptidomics by Characterizing Immunopeptides Against HLAs, TCRs, and Antibodies",
+        "authors": [
+          "Hong-Yi Liu",
+          "Effram Wei",
+          "Ying-Wei Hu",
+          "Yue-Fan Wang",
+          "Zhen-Yu Sun",
+          "Hui Zhang"
+        ],
+        "year": 2026,
+        "abstract": "Abstract Target-directed immunotherapies, including TCR-T cell therapies, targeted antibody therapy, and therapeutic vaccines, rely on the identification of tumor-specific antigens (TSAs). However, classical immunopeptidomics is severely constrained by an inability to distinguish passively presented self-ligands of HLAs from functionally recognized by T cells. To resolve these challenges, we developed immunopeptidomics for receptor-associated antigens, a platform capable of sequentially isolating immunopeptidome and their functions with immune cell receptors from a single clinical tissue specimen. Applied to a cohort of 30 renal cell carcinoma (RCC) specimens (18 primary tumors and 12 paired normal adjacent tissues), this approach generated expansive presentation maps encompassing 38,848 unique HLA-I and 26,961 unique HLA-II peptides. Functional receptor captures (IgG- and TCR-bound) achieved up to 5.3-fold higher tumor-specific peptide (TSP) purity ratios compared to direct baseline HLA isolation. Furthermore, cross-fractional co-identification validated recurrent, high-priority unmutated targets (NNMT, TMBIM6, RPL3, VIM, and ENPP3) alongside tumor-specific phosphopeptide hubs and macrophage-restricted N-glycopeptides (CD68). Integrating companion global proteomics uncovered a fundamental regulatory divergence between MHC classes: HLA-I presentation throughput scales linearly (R = 0.883) via a STAT1-orchestrated transcriptional program driving the antigen presentation machinery (APM), whereas HLA-II presentation is uncoupled from parental protein abundance (R = 0.302) due to asynchronous downstream endolysosomal processing and proteolytic over-cleavage kinetics. Together, this platform establishes a micro-input framework that unifies physical presentation with native functional characterization and microenvironmental regulation to accelerate target discovery in low-TMB human cancers.",
+        "doi": "10.21203/rs.3.rs-11040221/v1",
+        "pmid": "42926996",
+        "venue": "Research Square",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.researchsquare.com/article/rs-11040221/latest.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.researchsquare.com/article/rs-11040221/latest.pdf"
+      },
+      {
+        "elicitId": "ss-90844014",
+        "title": "Abstract PL02-02: Immunopeptidomics: Accelerating the development of personalized cancer immunotherapy",
+        "authors": [
+          "M. Bassani-Sternberg",
+          "Chloé Chong",
+          "F. Marino",
+          "Hui-Song Pak",
+          "D. Gfeller",
+          "Markus Müller",
+          "G. Coukos"
+        ],
+        "year": 2018,
+        "abstract": "Cancer immunotherapy amplifies the inherent capacity of cytotoxic T cells to eliminate tumor cells by recognizing human leukocyte antigen-binding peptides (HLAp) presented specifically on tumors but not on normal cells. Recent data show that recognition of mutated neoantigens plays a key role. Currently, mass spectrometry (MS) is the only unbiased methodology to comprehensively uncover the repertoire of HLAp presented in vivo. Recently, we have developed an in-depth MS-based immunopeptidomics approach combined with exome sequencing analysis to directly identify neoantigens from human melanoma tumors (Bassani-Sternberg et al., Nat Commun 2016). This approach is not feasible for substantial number of patients for whom not enough tissue material is available. So far, the discovery of neoantigens relies mainly on prediction-based interrogation of the \"mutanome.\" In a proof-of-concept study we showed that incorporation of deconvoluted HLAp data in ligand prediction algorithms can improve their accuracy (Bassani-Sternberg and Gfeller, J Immunol 2016). In addition, we assembled a comprehensive HLAp database in term of number of peptides and diversity of HLA-I molecules. We showed that by taking advantage of co-occurring HLA-I alleles, we can rapidly and accurately identify HLA-I binding motifs and map them to their corresponding alleles without any a priori knowledge of HLA-I binding specificity. Our novel and scalable approach uncovers new motifs for several alleles that up to now had no known ligands. HLA-ligand predictors trained on such data substantially improve neoantigen predictions in four melanoma and two lung cancer patients, indicating that unbiased HLAp data are ideal for in silico identification of neoantigens (Bassani-Sternberg et al., PLOS Comp Biol 2017). Furthermore, our immunopeptidomics database revealed hotspots that are sub-sequences of proteins frequently presented. We introduce two immunopeptidomics MS-based features to guide prioritization of neoantigens: the number of peptides matching a protein in our database and the overlap of the predicted wild-type peptide with other peptides in our database. We show as a proof of concept that our immunopeptidomics MS-based features improved neoantigen prioritization by up to 50% (Mueller et al., submitted). Overall, our work shows that, in addition to providing huge training data to improve the HLA binding prediction, immunopeptidomics also captures other aspects of the natural in vivo presentation that significantly improve prediction of clinically relevant neoantigens. Citation Format: Michal Bassani-Sternberg, Chloe Chong, Fabio Marino, HuiSong Pak, David Gfeller, Markus Muller, George Coukos. Immunopeptidomics: Accelerating the development of personalized cancer immunotherapy [abstract]. In: Proceedings of the AACR-NCI-EORTC International Conference: Molecular Targets and Cancer Therapeutics; 2017 Oct 26-30; Philadelphia, PA. Philadelphia (PA): AACR; Mol Cancer Ther 2018;17(1 Suppl):Abstract nr PL02-02.",
+        "doi": "10.1158/1535-7163.TARG-17-PL02-02",
+        "pmid": null,
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-255543640",
+        "title": "Contemplating immunopeptidomes to better predict them.",
+        "authors": [
+          "D. Gfeller",
+          "Yan Liu",
+          "Julien Racle"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/j.smim.2022.101708",
+        "pmid": "36621290",
+        "venue": "Seminars in Immunology",
+        "citedByCount": 25,
+        "urls": [
+          "https://iris.unil.ch/bitstreams/0df20475-e971-454c-9952-7edc3479fddb/download",
+          "https://doi.org/10.1016/j.smim.2022.101708"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://iris.unil.ch/bitstreams/0df20475-e971-454c-9952-7edc3479fddb/download"
+      },
+      {
+        "elicitId": "ss-34186844",
+        "title": "Immunodominance in major histocompatibility complex class I-restricted T lymphocyte responses.",
+        "authors": [
+          "J. Yewdell",
+          "J. Bennink"
+        ],
+        "year": 1999,
+        "abstract": "Of the many thousands of peptides encoded by a complex foreign antigen that can potentially be presented to CD8+ T cells (TCD8+), only a small fraction induce measurable responses in association with any given major histocompatibility complex class I allele. To design vaccines that elicit optimal TCD8+ responses, a thorough understanding of this phenomenon, known as immunodominance, is imperative. Here we review recent progress in unraveling the molecular and cellular basis for immunodominance. Of foremost importance is peptide binding to class I molecules; only approximately 1/200 of potential determinants bind at greater than the threshold affinity (Kd > 500 nM) associated with immunogenicity. Limitations in the TCD8+ repertoire render approximately half of these peptides nonimmunogenic, and inefficient antigen processing further thins the ranks by approximately four fifths. As a result, only approximately 1/2000 of the peptides in a foreign antigen expressed by an appropriate antigen presenting cell achieve immunodominant status with a given class I allele. A roughly equal fraction of peptides have subdominant status, i.e. they induce weak-to-nondetectable primary TCD8+ responses in the context of their natural antigen. Subdominant determinants may be expressed at or above levels of immunodominant determinants, at least on antigen presenting cells in vitro. The immunogenicity of subdominant determinants is often limited by immunodomination: suppression mediated by TCD8+ specific for immunodominant determinants. Immunodomination is a central feature of TCD8+ responses, as it even occurs among clones responding to the same immunodominant determinant. Little is known about how immunodominant and subdominant determinants are distinguished by the TCD8+ repertoire, or how (and why) immunodomination occurs, but new tools are available to address these questions.",
+        "doi": "10.1146/ANNUREV.IMMUNOL.17.1.51",
+        "pmid": "10358753",
+        "venue": "Annual Review of Immunology",
+        "citedByCount": 1094,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-652571",
+        "title": "‘Hotspots’ of Antigen Presentation Revealed by Human Leukocyte Antigen Ligandomics for Neoantigen Prioritization",
+        "authors": [
+          "Markus Müller",
+          "D. Gfeller",
+          "G. Coukos",
+          "M. Bassani-Sternberg"
+        ],
+        "year": 2017,
+        "abstract": "The remarkable clinical efficacy of the immune checkpoint blockade therapies has motivated researchers to discover immunogenic epitopes and exploit them for personalized vaccines. Human leukocyte antigen (HLA)-binding peptides derived from processing and presentation of mutated proteins are one of the leading targets for T-cell recognition of cancer cells. Currently, most studies attempt to identify neoantigens based on predicted affinity to HLA molecules, but the performance of such prediction algorithms is rather poor for rare HLA class I alleles and for HLA class II. Direct identification of neoantigens by mass spectrometry (MS) is becoming feasible; however, it is not yet applicable to most patients and lacks sensitivity. In an attempt to capitalize on existing immunopeptidomics data and extract information that could complement HLA-binding prediction, we first compiled a large HLA class I and class II immunopeptidomics database across dozens of cell types and HLA allotypes and detected hotspots that are subsequences of proteins frequently presented. About 3% of the peptidome was detected in both class I and class II. Based on the gene ontology of their source proteins and the peptide’s length, we propose that their processing may partake by the cellular class II presentation machinery. Our database captures the global nature of the in vivo peptidome averaged over many HLA alleles, and therefore, reflects the propensity of peptides to be presented on HLA complexes, which is complementary to the existing neoantigen prediction features such as binding affinity and stability or RNA abundance. We further introduce two immunopeptidomics MS-based features to guide prioritization of neoantigens: the number of peptides matching a protein in our database and the overlap of the predicted wild-type peptide with other peptides in our database. We show as a proof of concept that our immunopeptidomics MS-based features improved neoantigen prioritization by up to 50%. Overall, our work shows that, in addition to providing huge training data to improve the HLA binding prediction, immunopeptidomics also captures other aspects of the natural in vivo presentation that significantly improve prediction of clinically relevant neoantigens.",
+        "doi": "10.3389/fimmu.2017.01367",
+        "pmid": "29104575",
+        "venue": "Frontiers in Immunology",
+        "citedByCount": 87,
+        "urls": [
+          "https://www.frontiersin.org/articles/10.3389/fimmu.2017.01367/pdf",
+          "https://iris.unil.ch/bitstreams/88f83042-53c8-4b77-922c-a8cfaec34dfa/download"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.frontiersin.org/articles/10.3389/fimmu.2017.01367/pdf"
+      },
+      {
+        "elicitId": "ss-22432384",
+        "title": "Positional Scanning-Synthetic Peptide Library-Based Analysis of Self- and Pathogen-Derived Peptide Cross-Reactivity with Tumor-Reactive Melan-A-Specific CTL1",
+        "authors": [
+          "Verena Rubio-Godoy",
+          "V. Dutoit",
+          "Ying-Dong Zhao",
+          "R. Simon",
+          "P. Guillaume",
+          "R. Houghten",
+          "P. Romero",
+          "J. Cerottini",
+          "C. Pinilla",
+          "D. Valmori"
+        ],
+        "year": 2002,
+        "abstract": "Synthetic combinatorial peptide libraries in positional scanning format (PS-SCL) have recently emerged as a useful tool for the analysis of T cell recognition. This includes identification of potentially cross-reactive sequences of self or pathogen origin that could be relevant for the understanding of TCR repertoire selection and maintenance, as well as of the cross-reactive potential of Ag-specific immune responses. In this study, we have analyzed the recognition of sequences retrieved by using a biometric analysis of the data generated by screening a PS-SCL with a tumor-reactive CTL clone specific for an immunodominant peptide from the melanocyte differentiation and tumor-associated Ag Melan-A. We found that 39% of the retrieved peptides were recognized by the CTL clone used for PS-SCL screening. The proportion of peptides recognized was higher among those with both high predicted affinity for the HLA-A2 molecule and high predicted stimulatory score. Interestingly, up to 94% of the retrieved peptides were cross-recognized by other Melan-A-specific CTL. Cross-recognition was at least partially focused, as some peptides were cross-recognized by the majority of CTL. Importantly, stimulation of PBMC from melanoma patients with the most frequently recognized peptides elicited the expansion of heterogeneous CD8+ T cell populations, one fraction of which cross-recognized Melan-A. Together, these results underline the high predictive value of PS-SCL for the identification of sequences cross-recognized by Ag-specific T cells.",
+        "doi": "10.4049/jimmunol.169.10.5696",
+        "pmid": "12421949",
+        "venue": "Journal of Immunology",
+        "citedByCount": 63,
+        "urls": [
+          "https://journals.aai.org/jimmunol/article-pdf/169/10/5696/1151789/5696.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://journals.aai.org/jimmunol/article-pdf/169/10/5696/1151789/5696.pdf"
+      },
+      {
+        "elicitId": "ss-8032628",
+        "title": "Understanding Prediction Systems for HLA-Binding Peptides and T-Cell Epitope Identification",
+        "authors": [
+          "Liwen You",
+          "Ping Zhang",
+          "M. Bodén",
+          "V. Brusic"
+        ],
+        "year": 2007,
+        "abstract": "Peptide binding to HLA molecules is a critical step in induction and regulation of T-cell mediated immune responses. Because of combinatorial complexity of immune responses, systematic studies require combination of computational methods and experimentation. Most of available computational predictions are based on discriminating binders from non-binders based on use of suitable prediction thresholds. We compared four state-of-the-art binding affinity prediction models and found that nonlinear models show better performance than linear models. A comprehensive analysis of HLA binders (A*0101, A*0201, A*0301, A*1101, A*2402, B*0702, B*0801 and B*1501) showed that non-linear predictors predict peptide binding affinity with high accuracy. The analysis of known T-cell epitopes of survivin and known HIV T-cell epitopes showed lack of correlation between binding affinity and immunogenicity of HLA-presented peptides. T-cell epitopes, therefore, can not be directly determined from binding affinities by simple selection of the highest affinity binders.",
+        "doi": "10.1007/978-3-540-75286-8_32",
+        "pmid": null,
+        "venue": "Pattern Recognition in Bioinformatics",
+        "citedByCount": 8,
+        "urls": [
+          "https://link.springer.com/content/pdf/10.1007/978-3-540-75286-8_32.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://link.springer.com/content/pdf/10.1007/978-3-540-75286-8_32.pdf"
+      },
+      {
+        "elicitId": "ss-25528320",
+        "title": "Identification of New Epitopes from Four Different Tumor-Associated Antigens: Recognition of Naturally Processed Epitopes Correlates with HLA-A∗0201-Binding Affinity1",
+        "authors": [
+          "E. Keogh",
+          "J. Fikes",
+          "S. Southwood",
+          "E. Celis",
+          "R. Chesnut",
+          "A. Sette"
+        ],
+        "year": 2001,
+        "abstract": "Forty-two wild-type and analogue peptides derived from p53, carcinoembryonic Ag, Her2/neu, and MAGE2/3 were screened for their capacity to induce CTLs, in vitro, capable of recognizing tumor target lines. All the peptides bound HLA-A*0201 and two or more additional A2 supertype alleles with an IC50 of 500 nM or less. A total of 20 of 22 wild-type and 9 of 12 single amino acid substitution analogues were found to be immunogenic in primary in vitro CTL induction assays, using normal PBMCs and GM-CSF/IL-4-induced dendritic cells. These results suggest that peripheral T cell tolerance does not prevent, in this system, induction of CTL responses against tumor-associated Ag peptides, and confirm that an HLA class I affinity of 500 nM or less is associated with CTL epitope immunogenicity. CTLs generated by 13 of 20 of the wild-type epitopes, 6 of 9 of the single, and 2 of 5 of the double substitution analogues tested recognized epitopes generated by endogenous processing of tumor-associated Ags and expressed by HLA-matched cancer cell lines. Further analysis revealed that recognition of naturally processed Ag was correlated with high HLA-A2.1-binding affinity (IC50 = 200 nM or less; p = 0.008), suggesting that high binding affinity epitopes are frequently generated and can be recognized as a result of natural Ag processing. These results have implications for the development of cancer vaccines, in particular, and for the process of epitope selection in general.",
+        "doi": "10.4049/jimmunol.167.2.787",
+        "pmid": "11441084",
+        "venue": "Journal of Immunology",
+        "citedByCount": 151,
+        "urls": [
+          "https://journals.aai.org/jimmunol/article-pdf/167/2/787/1131899/787.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://journals.aai.org/jimmunol/article-pdf/167/2/787/1131899/787.pdf"
+      },
+      {
+        "elicitId": "ss-261817562",
+        "title": "CROSSDOME: AN INTERACTIVE R PACKAGE TO PREDICT T-CELL CROSS-REACTIVITY RISK ON IMMUNOPEPTIDOMICS DATABASES",
+        "authors": [
+          "André Fonseca"
+        ],
+        "year": 2022,
+        "abstract": "Background T cell-based immunotherapy is unquestionably a promising strategy against cancer. Regardless, the efficacy of T-cell therapies depends on mitigating off-target effects during the treatment. Off-target toxicity is associated with T-cell cross-reactivity (CR), i",
+        "doi": null,
+        "pmid": null,
+        "venue": null,
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-232482783",
+        "title": "Integral use of immunopeptidomics and immunoinformatics for the characterization of antigen presentation and rational identification of BoLA-DR-presented peptides and epitopes",
+        "authors": [
+          "A. Fisch",
+          "Birkir Reynisson",
+          "L. Benedictus",
+          "A. Nicastri",
+          "Deepali Vasoya",
+          "I. Morrison",
+          "S. Buus",
+          "B. R. Ferreira",
+          "I. K. F. de Miranda Santos",
+          "N. Ternette",
+          "T. Connelley",
+          "M. Nielsen"
+        ],
+        "year": 2020,
+        "abstract": "Key Points MS immunopeptidomics and motif are characterized for seven prevalent BoLA-DRB3 molecules. NetBoLAIIpan is a pan-specific predictor for BoLA-DRB3 Ag presentation. NetBoLAIIpan demonstrated unprecedented CD4 T cell epitope prediction performance. MHC peptide binding and presentation is the most selective event defining the landscape of T cell epitopes. Consequently, understanding the diversity of MHC alleles in a given population and the parameters that define the set of ligands that can be bound and presented by each of these alleles (the immunopeptidome) has an enormous impact on our capacity to predict and manipulate the potential of protein Ags to elicit functional T cell responses. Liquid chromatography–mass spectrometry analysis of MHC-eluted ligand data has proven to be a powerful technique for identifying such peptidomes, and methods integrating such data for prediction of Ag presentation have reached a high level of accuracy for both MHC class I and class II. In this study, we demonstrate how these techniques and prediction methods can be readily extended to the bovine leukocyte Ag class II DR locus (BoLA-DR). BoLA-DR binding motifs were characterized by eluted ligand data derived from bovine cell lines expressing a range of DRB3 alleles prevalent in Holstein–Friesian populations. The model generated (NetBoLAIIpan, available as a Web server at www.cbs.dtu.dk/services/NetBoLAIIpan) was shown to have unprecedented predictive power to identify known BoLA-DR–restricted CD4 epitopes. In summary, the results demonstrate the power of an integrated approach combining advanced mass spectrometry peptidomics with immunoinformatics for characterization of the BoLA-DR Ag presentation system and provide a prediction tool that can be used to assist in rational evaluation and selection of bovine CD4 T cell epitopes.",
+        "doi": "10.1101/2020.12.14.422738",
+        "pmid": "33789985",
+        "venue": "Journal of Immunology",
+        "citedByCount": 33,
+        "urls": [
+          "https://www.biorxiv.org/content/biorxiv/early/2020/12/15/2020.12.14.422738.full.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.biorxiv.org/content/biorxiv/early/2020/12/15/2020.12.14.422738.full.pdf"
+      },
+      {
+        "elicitId": "ss-88840465",
+        "title": "The future of the immunopeptidome in health and disease: a comprehensive analysis of naturally processed ligand data",
+        "authors": [
+          "K. Vaughan",
+          "E. Caron",
+          "Bjoern Peters",
+          "A. Sette"
+        ],
+        "year": 2016,
+        "abstract": "The promise of big data (‘OMICS’) in fundamental and translational science is clear. In this respect, high-throughput analysis of HLA class I and II associated immunopeptidomes by mass spectrometry is an important tool to establish T cell response repertoires in the context of disease. The last decade has seen tremendous growth in the breadth and number of these studies. The time is therefore ideal for initial assessment of these data as a whole. For this, we made use of all naturally eluted peptide data captured to date within the IEDB, representing more than 100,000 class I and II peptides. The goal of this analysis was to compare and contrast the overall nature of naturally eluted peptides (NP) from several standpoints, including molecular and biological function, sub-cellular location and protein class. Further, we investigated the extent to which the NP data overlap with existing T cell epitope data, MHC binding data, as well as output from class I and II prediction algorithms. The comprehensive collection of NP data will allow us to examine and bench mark the correlation with independently determined immunological response and MHC binding, and might also be useful to develop novel methods for the identification of optimal target antigens and for epitope prediction. These data support the potential value of immunopeptidomics in understanding T cell immunity.",
+        "doi": "10.4049/jimmunol.196.supp.46.4",
+        "pmid": null,
+        "venue": "Journal of Immunology",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      }
+    ],
+    "warnings": []
+  }
+}

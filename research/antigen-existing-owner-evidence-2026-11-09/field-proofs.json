@@ -1,0 +1,54 @@
+[
+  {
+    "id": "R50",
+    "sourcePath": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+    "requirement": "Peptide-HLA binding, presentation (recovery) and TCR recognition are different claims; evidence table (prediction, binding, immunopeptidomics, multimer, natural target)",
+    "origin": "pinned-teaching",
+    "recordId": "binding-presentation-recognition",
+    "version": "draft-373",
+    "field": "notes",
+    "fieldSha256": "ae1f8436f6c03d0f4568d7a3db7d85c8d3323c7f1e99cb021b3b11f38cd2914d",
+    "supportingExcerpt": "Peptide-to-HLA binding and TCR-to-peptide-HLA binding are different contacts. Evidence maps to claims: a binding prediction supports a model estimate for one exact peptide and alle",
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "R51",
+    "sourcePath": "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+    "requirement": "Immunopeptidome (biological set) versus recovered list; whole-lysate compartments; mixed-tissue origin; intensity not copies; fictional 800 versus 1,200 counts",
+    "origin": "pinned-teaching",
+    "recordId": "immunopeptidome",
+    "version": "draft-373",
+    "field": "notes",
+    "fieldSha256": "91da2d80d6c232c5757528a377f227e7c09f3dc94e62530d284619cb86c2e307",
+    "supportingExcerpt": "The immunopeptidome is a biological repertoire in a defined cell population and context; an immunopeptidomics list is a method-dependent subset recovered and identified from a samp",
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "R52",
+    "sourcePath": "wiki/education/concepts/immunology/antigen-presentation/neoantigen.md",
+    "requirement": "Neoantigen candidate evidence ladder (sequence, prediction, recovered peptide, natural recognition); splice and frameshift sources",
+    "origin": "pinned-teaching",
+    "recordId": "neoantigen",
+    "version": "draft-373",
+    "field": "notes",
+    "fieldSha256": "83c841ad54865bfa4e4a061440237be5ce2a0a2b13274b8624e63a8a8dff433b",
+    "supportingExcerpt": "Evidence for a candidate climbs through separate levels: a sampled tumour-specific alteration (is the altered message expressed?), a matched binding prediction (is it naturally pro",
+    "status": "covered-draft",
+    "remaining": []
+  },
+  {
+    "id": "R53",
+    "sourcePath": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+    "requirement": "Central and peripheral tolerance as mechanisms; receptor cross-reactivity (titin); sequence similarity versus receptor specificity; invented 5/28/70/90 versus 3/18/61/86 per cent loaded-peptide series",
+    "origin": "pinned-teaching",
+    "recordId": "self-similarity-immune-recognition",
+    "version": "draft-373",
+    "field": "notes",
+    "fieldSha256": "c2ab19852443dbd31e65d5855fb5821fe295d0f442bcf1b62208ea025a741a35",
+    "supportingExcerpt": "Central and peripheral tolerance include distinct mechanisms. Kisielow and colleagues demonstrated deletion of self-reactive developing cells in an H-Y-receptor transgenic mouse mo",
+    "status": "covered-draft",
+    "remaining": []
+  }
+]

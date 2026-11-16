@@ -507,6 +507,10 @@ describe("Ask OnCo end to end", () => {
     // (ask.ts namedDrugs). Measured 0.4343 with it (scripts/ask-recall.ts); proc-80 and who-74 gain, no question loses;
     // the rubric is 0.6825 before and after; the pipeline benchmark and both natural sets are unchanged.
     { date: "2026-11-11", recall: 0.4343, note: "country deep dives waves 5 to 12 (0.4259 alone) plus a named medicine placed first; extractive rubric 0.6825" },
+    // 16 Nov 2026, a contributor's teaching-concept batch (pull requests 417, 418, 420 and the data of 375: 215 new
+    // records and about 530 revised). No ranking change and no floor change. The rubric falls from 0.6825 and stays
+    // above its 0.66 floor; which rewritten answers lost rubric points has not been traced question by question.
+    { date: "2026-11-16", recall: 0.4365, note: "contributor teaching-concept batch merged; extractive rubric 0.6715; both floors unchanged" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

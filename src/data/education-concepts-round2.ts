@@ -321,19 +321,19 @@ export const educationRound2: TermInput[] = [
     "url": "https://doi.org/10.1126/science.274.5284.94"
   },
   {
-    "label": "PubMed 26324409",
+    "label": "Ruggiero et al., High-resolution analysis of the human T-cell receptor repertoire (Nat Commun 2015)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/26324409/"
   },
   {
-    "label": "PubMed 24952902",
+    "label": "Han et al., Linking T-cell receptor sequence to functional phenotype at the single-cell level (Nat Biotechnol 2014)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/24952902/"
   },
   {
-    "label": "PubMed 31359002",
+    "label": "Yost et al., Clonal replacement of tumor-specific T cells following PD-1 blockade (Nat Med 2019)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/31359002/"
   },
   {
-    "label": "PubMed 22365666",
+    "label": "den Braber et al., Maintenance of peripheral naive T cells is sustained by thymus output in mice but not humans (Immunity 2012)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/22365666/"
   },
   {
@@ -629,15 +629,15 @@ export const educationRound2: TermInput[] = [
     "url": "https://doi.org/10.1084/jem.192.8.1105"
   },
   {
-    "label": "PubMed 18641351",
+    "label": "Kotturi et al., Naive precursor frequencies and MHC binding rather than the degree of epitope diversity shape CD8+ T cell immunodominance (J Immunol 2008)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/18641351/"
   },
   {
-    "label": "PubMed 21367907",
+    "label": "Schmidt et al., Immunodominance of HLA-A2-restricted hepatitis C virus-specific CD8+ T cell responses is linked to naive-precursor frequency (J Virol 2011)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/21367907/"
   },
   {
-    "label": "PubMed 33038342",
+    "label": "Wells et al., Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction (Cell 2020)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33038342/"
   }
 ],
@@ -667,11 +667,11 @@ export const educationRound2: TermInput[] = [
     "url": "https://doi.org/10.1038/s41591-020-01206-4"
   },
   {
-    "label": "PubMed 33479501",
+    "label": "Hu et al., Personal neoantigen vaccines induce persistent memory T cell responses and epitope spreading in patients with melanoma (Nat Med 2021)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33479501/"
   },
   {
-    "label": "PubMed 28678778",
+    "label": "Ott et al., An immunogenic personal neoantigen vaccine for patients with melanoma (Nature 2017)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/28678778/"
   }
 ],

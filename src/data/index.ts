@@ -15,6 +15,7 @@ import { companies } from "./companies";
 import { institutions } from "./institutions";
 import { pathways } from "./pathways";
 import { terms } from "./terms";
+import { evidenceBridges } from "./evidence-bridges";
 import { trials } from "./trials";
 import { pairings } from "./pairings";
 import { roadmaps } from "./roadmaps";
@@ -422,6 +423,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...institutions,
   ...pathways,
   ...terms,
+  ...evidenceBridges,
   ...trials,
   ...pairings,
   ...roadmaps,

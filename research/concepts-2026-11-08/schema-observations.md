@@ -1,0 +1,15 @@
+# Schema observations from the concept pass
+
+Checked 8 November 2026 against OnCo `0f8ebc2569e2dcb023364d8cb6971186f11f59ab`. These are design questions for a later proposal. This contribution adds educational content using the existing `TermInput` and graph relations; it changes no schema or product behavior.
+
+The corpus already has substantial structure. [Biomarker thresholds](https://github.com/judegomila/OnCo/blob/0f8ebc2569e2dcb023364d8cb6971186f11f59ab/src/lib/schema.ts#L563) retain drug, cancer, regulator, source and current/historic/withdrawn status. [Biomarker readouts](https://github.com/judegomila/OnCo/blob/0f8ebc2569e2dcb023364d8cb6971186f11f59ab/src/lib/schema.ts#L604) retain measurement, scoring rule, tests, assays and companion diagnostics. [The assay registry](https://github.com/judegomila/OnCo/blob/0f8ebc2569e2dcb023364d8cb6971186f11f59ab/src/data/assays.ts) retains platform, analyte, cutoff, regulatory category, related records, notes and a source. A proposal should extend those owners rather than replace them.
+
+| Distinction surfaced by the new concepts | What the inspected types currently represent | Candidate follow-up, if structured queries need it |
+|---|---|---|
+| A biomarker's role depends on its intended use | `BiomarkerSchema` represents a readout and label-derived selection thresholds; the general explanatory content can describe prognosis, prediction and utility in prose | A source-backed role claim scoped to assay, disease, intervention, population and intended use, with evidence type. Avoid one global `predictive: true` flag |
+| Detection and quantification depend on sample and workflow conditions | `Assay` has platform, analyte, cutoff and notes, but no dedicated versioned performance-claim shape for specimen/input, LoD/LoQ conditions and calling rule | Versioned analytical-performance claims, retaining units, specimen/input and source. Keep a clinical positivity threshold distinct from an analytical detection limit |
+| A model or mechanism is supported within a tested setting | `TechnologySchema` has principle, strengths and limitations; `TermSchema` provides educational explanation through the shared base content | Experimental-evidence rows that retain model system, perturbation, exposure/readout, endpoint and source. A cell-line or mouse result should remain distinguishable from a clinical comparison |
+
+The existing fields can already preserve these distinctions as sourced prose. A new schema is justified only when a concrete reader or query needs to compare them without losing context. Examples are finding the conditions behind a claimed detection limit, or separating a functional assay result from evidence that selecting treatment on that result improves outcomes. Unknown conditions should remain unknown rather than being inferred from a product name.
+
+The [new concept inventory](record-inventory.json) and [source-to-record ledger](sources.json) supply candidate examples for such a proposal. Their educational classifications are not new evidence grades or clinical certification. No approval or effectiveness status should be inferred from these schema observations.

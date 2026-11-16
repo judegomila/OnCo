@@ -148,11 +148,25 @@ export const cansimMethodsTerms: TermInput[] = [
     tldr: "Leakage is when information from the test data reaches the model during training, through a scaler fitted on all samples, a patient split across folds or a benchmark that appeared in the pretraining set, making the model look better than it is.",
     summary: "In statistics and machine learning, leakage is the use of information during training that would not be available at prediction time, which produces overly optimistic performance estimates (Wikipedia). Common cancer-data forms are normalising or selecting genes on the full cohort before splitting, duplicated patients across TCGA and cBioPortal studies, and benchmark contamination, where a foundation model's pretraining corpus contained the public test set (TCGA slides or profiles), so that its downstream score is partly recall.",
     terms: ["cross-validation", "train-test-discipline", "batch-effects", "leaderboard-benchmark"] }),
-  t({ id: "external-validation", name: "External validation", category: M, aka: ["external validation", "externally validated", "external cohort", "independent cohort", "independent validation", "external test set", "generalisability", "generalizability"],
+  t({ id: "external-validation", asOf: "2026-11-10", name: "External validation", category: M, aka: ["external validation", "externally validated", "external cohort", "independent cohort", "independent validation", "external test set", "generalisability", "generalizability"],
     wikipedia: W("External_validity"), cansim: "/terms/external-validation",
-    tldr: "External validation tests a model on patients from a different hospital, country or platform than it was trained on; it is the only evidence that a result travels.",
-    summary: "External validity is the extent to which a study's conclusions generalise to other situations, people and times (Wikipedia). For a prognostic model that means an independent cohort, ideally collected by other people on another platform: TCGA-trained survival models are routinely tested on METABRIC, and the concordance index typically falls, sometimes to chance. A model with no external validation has an internal estimate, not a result, and several OnCo ideas argue that multi-site validation should precede clinical use.",
-    terms: ["train-test-discipline", "domain-adaptation", "calibration", "analytical-vs-clinical-validation"], related: ["idea-tr2-ai-external-validation-registry", "idea-data-multisite-validation-precondition"] }),
+    tldr: "External validation evaluates a developed model in participant data that were not used to develop it. It shows how the model performs in that evaluation setting.",
+    summary: "The original TRIPOD reporting framework distinguishes internal validation within development data from evaluation in other participant data. External studies can use a later time period, another institution or a different population; these test different degrees of transfer. The original model's predictions are compared with observed outcomes, with discrimination, calibration and uncertainty reported for the task. Internal validation remains evidence within its scope. An external evaluation does not guarantee performance in every setting or show that using the model improves patient outcomes. Riley and colleagues define external validation as evaluating a model's predictive performance in a different but relevant dataset that was not used in its development, and advise examining overall fit, calibration and discrimination in the overall population and, ideally, in key subgroups. They separate reproducibility, where the validation data come from a similar population and setting and where internal methods such as cross-validation and bootstrapping also apply, from transportability, where the setting is intentionally different (BMJ 2024).",
+    links: [
+  {
+    "label": "TRIPOD: prediction-model development and validation reporting (2015)",
+    "url": "https://doi.org/10.1038/bjc.2014.639"
+  },
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/External_validity"
+  },
+  {
+    "label": "Riley et al., Evaluation of clinical prediction models (part 2): how to undertake an external validation study (BMJ 2024)",
+    "url": "https://doi.org/10.1136/bmj-2023-074820"
+  }
+],
+    terms: ["train-test-discipline", "domain-adaptation", "calibration", "analytical-vs-clinical-validation"], related: ["idea-tr2-ai-external-validation-registry", "idea-data-multisite-validation-precondition", "trial-population-transportability", "model-context-of-use", "biomarker-cutpoint-selection"] }),
   t({ id: "concordance-index", name: "C-index (concordance index), Harrell's and Uno's", category: M, aka: ["C-index", "concordance index", "Harrell's C-index", "Harrell's C", "Uno's C-index", "Uno's C", "C-statistic", "pooled C-index", "stratified C-index", "within-type C-index"],
     links: [{ label: "Harrell et al., Evaluating the yield of medical tests (JAMA 1982)", url: DOI("10.1001/jama.1982.03320430047030") }, { label: "Uno et al., On the C-statistics for evaluating overall adequacy of risk prediction procedures with censored survival data (Statistics in Medicine 2011)", url: DOI("10.1002/sim.4154") }], cansim: "/terms/c-index",
     tldr: "The C-index is the fraction of patient pairs in which the model ranked the patient who had the event sooner as higher risk; 0.5 is a coin toss and 1.0 is perfect ranking.",

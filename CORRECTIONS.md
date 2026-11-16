@@ -51,6 +51,14 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-11-10
+
+### Evidence interpretation and worked examples
+
+- **Absence of evidence:** corrected an inverted double negative. A documented search without an exact-variant drug-response report establishes neither resistance nor benefit. Nonsignificance, equivalence and non-inferiority retain their distinct hypotheses, assumptions and margins.
+- **Measurements and transport:** connected notes now distinguish variant evidence, pathway signals, dependence, engagement and clinical outcomes; tumour-volume examples retain their different scope from cell-assay growth-rate metrics and RECIST. Trial eligibility, transport assumptions and individual prediction remain separate. Repeated batch examples are consolidated without dropping unique teaching or earlier links.
+- **Source identity:** newly cached DOIs were individually resolved. The shared cache date is preserved; it does not claim every citation was freshly checked.
+
 ## 2026-11-08
 
 ### Antibody-conjugate payload mechanisms
@@ -61,6 +69,14 @@ Every factual correction to the OnCo corpus, newest first. Format: date · entit
 | 2026-11-08 | [Dual-payload conjugates](/technologies/dual-payload-adc/) | Said a tumor cannot escape resistance and listed delayed resistance as an established strength | Primary dual-payload model study and CLIO-8221 trial-design abstract | Describes co-delivery as a strategy; requires construct-specific evidence for resistance and human benefit |
 | 2026-11-08 | [Degrader conjugates](/technologies/degrader-antibody-conjugate/) | Called degrader payloads non-cytotoxic, claimed lower potency as a class and described intracellular delivery as solved | BRD4 primary study, ORM-5029 primary abstract, direct trial records | Removes class-wide potency and safety assumptions; links distinct GSPT1, BRD4 and KIF11 concepts and records terminated clinical trials |
 | 2026-11-08 | [Immune-stimulating conjugates](/technologies/immune-stimulating-adc/) | Described delivery only to myeloid cells and named clinical examples without current trial lifecycle context | Raw TLR and STING primary abstracts and ClinicalTrials.gov records | Separates construct-specific cancer-cell and immune-cell activity and identifies terminated example studies |
+
+### Evidence interpretation found during the education-concept audit
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-08 | [Biomarker](/terms/biomarker/) | Implied that biomarker selection spares excluded patients a useless drug and that a validated test thereby becomes a companion diagnostic | Public curriculum crosswalk; FDA biomarker and companion-diagnostic definitions and Ballman's predictive-biomarker methodology checked at source | Describes the biomarker roles and their context; selection does not guarantee benefit or universally exclude it. Companion diagnostics retain their specific regulatory purpose |
+| 2026-11-08 | [Actionable genomic biomarkers](/terms/cancer-drivers-vs-actionable/) | Said a genomic match directly changes what a patient is offered, conflating evidence of actionability with eligibility and access | ESCAT framework and ClinGen functional-evidence recommendations, resolved through Europe PMC and abstracts read | Retains exact alteration, disease, intervention and evidence tier; separates biological function, treatment evidence and access |
+| 2026-11-08 | [External validation](/terms/external-validation/) | Called an internal estimate "not a result" and implied external evaluation required another hospital, country or platform | Original TRIPOD statement, prediction-model studies section | Internal validation is evidence within its scope; external validation can also be temporal, and any evaluation retains its population, task and limitations |
 
 ## 2026-11-04
 

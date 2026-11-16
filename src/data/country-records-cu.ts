@@ -1,4 +1,4 @@
-import type { CompanyInput, EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
+import type { CompanyInput, DrugInput, EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
 
 /**
  * Cuba: the public bodies, the state industry group and the papers behind /countries/cu/ (wave 7) that the corpus did
@@ -164,5 +164,52 @@ const papers: PaperInput[] = [
     links: [doi("10.37757/mr2009v11.n3.2", "MEDICC Rev 2009"), pubmed("21483299")] }),
 ];
 
+const RCP_CIMAVAX = "https://www.cecmed.cu/registro/rcp/biologicos/cimavaxr-egf-conjugado-quimico-factor-crecimiento-epidermico-humano";
+const RCP_VAXIRA = "https://www.cecmed.cu/registro/rcp/biologicos/vaxirar-racotumomab";
+
+/**
+ * Cuba's two registered lung cancer vaccines, written on 16 November 2026 from CECMED's own registration entries and
+ * their summaries of product characteristics (PDF text, in Spanish) and from the abstracts of the two randomised trials,
+ * whose DOIs were resolved through Europe PMC before any figure was used. Neither is approved by the FDA or the EMA;
+ * `approvals` says Cuba only, because no other regulator's entry was read.
+ */
+const drugs: DrugInput[] = [
+  { id: "cimavax-egf", kind: "drug", asOf: "2026-11-16", name: "CIMAvax-EGF", aka: ["CIMAvax", "EGF vaccine", "rhEGF-rP64K conjugate vaccine"], brand: "CIMAvax-EGF",
+    modality: "Therapeutic cancer vaccine: recombinant human EGF conjugated to a carrier protein, with Montanide ISA 51 adjuvant, intramuscular", status: "approved",
+    mechanism: "Makes the body produce antibodies against its own epidermal growth factor (EGF), lowering EGF in the blood so that less of it reaches the EGF receptor on tumour cells. It does not target the tumour cell directly.",
+    tldr: "CIMAvax-EGF is a Cuban vaccine for advanced non-small cell lung cancer, given after chemotherapy to make the body block a growth signal the tumour uses. It has been registered in Cuba since 2008. In its phase III trial the survival gain was significant only in patients who completed the first four doses, and it is not approved in the United States or the European Union.",
+    summary: "CIMAvax-EGF was developed at the Centro de Inmunología Molecular in Havana, which holds its registration. It is recombinant human epidermal growth factor chemically conjugated to the recombinant carrier protein rP64K and emulsified with the adjuvant Montanide ISA 51 VG; the vaccine is intended to induce antibodies against the patient's own EGF that block its binding to the EGF receptor. Cuba's regulator CECMED lists it under registration number B-08-063-L03, entered on 12 June 2008, for patients with advanced (stage IIIB or IV) non-small cell lung cancer.\n\nIn the Cuban phase III trial, 405 patients with stage IIIB or IV disease were randomised four to six weeks after first-line chemotherapy to the vaccine or to best supportive care. Median survival was 10.83 months with the vaccine and 8.86 months without (hazard ratio 0.82, P = 0.100 by the standard log-rank test; P = 0.04 by a weighted log-rank test applied after the hazards proved non-proportional). Among patients who received at least four doses it was 12.43 against 9.43 months (hazard ratio 0.77, P = 0.036), and 14.66 months in vaccinated patients with a high EGF concentration at baseline. The trial compared the vaccine with supportive care, not with a placebo or with the maintenance and immunotherapy treatments now standard elsewhere. A phase 1/2 trial sponsored by Roswell Park in the United States combines it with nivolumab or pembrolizumab (NCT02955290).",
+    dosing: { route: "Intramuscular", schedule: "One dose of cyclophosphamide 200 mg/m2, then three days later four doses of the vaccine 14 days apart, then monthly; each dose is four injections at different sites (CECMED summary of product characteristics, text of 6 October 2017)" },
+    toxicity: [{ event: "Injection-site reactions; flushing, chills, tremor, headache, nausea, vomiting, fever", note: "The CECMED summary describes most adverse events as mild or moderate across more than 1,000 patients in 13 trials, and says severe systemic reactions can occur and respond to antihistamines, antipyretics and analgesics." }],
+    approvals: [{ region: "Cuba (CECMED)", year: 2008, indication: "Advanced (stage IIIB or IV) non-small cell lung cancer", note: "Registration number B-08-063-L03, entered 12 June 2008; holder Centro de Inmunología Molecular. CECMED summary of product characteristics: \"CIMAvax®-EGF está indicado en pacientes con cáncer de pulmón de células no pequeñas, en estadios avanzados (IIIb / IV).\" " + RCP_CIMAVAX }],
+    regulatoryEvents: [{ date: "2008-06-12", type: "approval", region: "Cuba", note: "CECMED registration B-08-063-L03 entered for advanced non-small cell lung cancer (date of inscription in the summary of product characteristics)", source: RCP_CIMAVAX }],
+    notes: ["Not approved by the FDA or the EMA. Registrations in other countries are reported in the press and were not read from a regulator's own page, so none is listed."],
+    targets: [], cancers: ["nsclc"], companies: ["cimab"], institutions: ["cecmed"], trials: [],
+    keyPapers: ["paper-rodriguez-cimavax-egf-phase3-nsclc-ccr-2016"],
+    tags: ["cuba", "cancer-vaccine"],
+    links: [
+      { label: "CECMED: registration entry and summary of product characteristics for CIMAvax-EGF (in Spanish)", url: RCP_CIMAVAX },
+      doi("10.1158/1078-0432.CCR-15-0855", "Rodriguez et al., phase III trial of CIMAvax-EGF in advanced NSCLC (Clin Cancer Res 2016)"),
+      { label: "ClinicalTrials.gov: NCT02955290, CIMAvax with anti-PD-1 therapy (Roswell Park)", url: "https://clinicaltrials.gov/study/NCT02955290" },
+    ] },
+  { id: "racotumomab", kind: "drug", asOf: "2026-11-16", name: "Racotumomab", aka: ["Racotumomab-alum"], brand: "Vaxira",
+    modality: "Therapeutic cancer vaccine: anti-idiotype monoclonal antibody adsorbed on aluminium hydroxide, intradermal", status: "approved",
+    mechanism: "An anti-idiotype antibody that mimics NeuGcGM3, a ganglioside found on tumour cells, so that the patient's immune system makes antibodies against the ganglioside itself.",
+    tldr: "Racotumomab (Vaxira) is a Cuban vaccine for advanced non-small cell lung cancer, given after first-line treatment to patients whose cancer has responded or held steady. In a placebo-controlled trial of 176 patients it lengthened median survival from 6.8 to 8.2 months. It is registered in Cuba and is not approved in the United States or the European Union.",
+    summary: "Racotumomab is an anti-idiotype vaccine targeting the tumour-associated ganglioside NeuGcGM3, formulated with aluminium hydroxide (racotumomab-alum) and made by the Centro de Inmunología Molecular in Havana, which holds its registration. Cuba's regulator CECMED lists Vaxira under registration number B-25-015-L03, with an inscription date of 26 May 2025, for patients with advanced (stage IIIB or IV) non-small cell lung cancer who have an objective response or stable disease after first-line treatment, as switch maintenance. OnCo did not read the earlier Cuban registration under which the vaccine was used before that entry, so no earlier date is given.\n\nIn a randomised, multicentre, placebo-controlled trial, 176 patients with stage IIIB or IV disease and at least stable disease after first-line chemotherapy received racotumomab-alum (87) or placebo (89). Median overall survival was 8.23 against 6.80 months (hazard ratio 0.63, 95% CI 0.46 to 0.87, P = 0.004) and median progression-free survival 5.33 against 3.90 months (hazard ratio 0.73, 95% CI 0.53 to 0.99, P = 0.039). The authors called the trial a preliminary estimate of efficacy; only five patients in each group had further anticancer treatment at progression, which is far from current practice elsewhere.",
+    dosing: { route: "Intradermal", schedule: "Five doses of 1 mg 14 days apart, then every 28 days; each dose is four 0.25 mL injections at different sites (CECMED summary of product characteristics, text of 12 May 2025)" },
+    toxicity: [{ event: "Injection-site reaction; headache, myalgia, dyspnoea, malaise, fever, chills", note: "From pooled data on 473 patients in five trials in the CECMED summary; the trial report names burning and pain at the injection site, bone pain and asthenia as the most common adverse events." }],
+    approvals: [{ region: "Cuba (CECMED)", year: 2025, indication: "Advanced (stage IIIB or IV) non-small cell lung cancer with an objective response or stable disease after first-line treatment (switch maintenance)", note: "Registration number B-25-015-L03, inscription date 26 May 2025; holder Centro de Inmunología Molecular. CECMED summary of product characteristics: \"Para el tratamiento de pacientes portadores de carcinoma de pulmón de células no pequeñas (CPCNP), en estadíos avanzados (III b ó IV), con respuesta clínica objetiva o enfermedad estable después de tratamiento oncoespecífico de primera línea de quimioterapia-radioterapia (mantenimiento de cambio).\" The year is that of the current entry; an earlier Cuban registration was not read. " + RCP_VAXIRA }],
+    regulatoryEvents: [{ date: "2025-05-26", type: "approval", region: "Cuba", note: "CECMED registration B-25-015-L03 entered for switch maintenance in advanced non-small cell lung cancer (date of inscription in the summary of product characteristics); the vaccine was in use in Cuba before this entry under a registration OnCo has not read", source: RCP_VAXIRA }],
+    notes: ["Not approved by the FDA or the EMA. Registrations in other countries are reported in the press and were not read from a regulator's own page, so none is listed."],
+    targets: [], cancers: ["nsclc"], companies: ["cimab"], institutions: ["cecmed"], trials: [],
+    keyPapers: ["paper-alfonso-racotumomab-maintenance-nsclc-ccr-2014"],
+    tags: ["cuba", "cancer-vaccine"],
+    links: [
+      { label: "CECMED: registration entry and summary of product characteristics for Vaxira (racotumomab) (in Spanish)", url: RCP_VAXIRA },
+      doi("10.1158/1078-0432.CCR-13-1674", "Alfonso et al., randomised trial of racotumomab-alum in advanced NSCLC (Clin Cancer Res 2014)"),
+    ] },
+];
+
 /** Cuba: the records behind /countries/cu/ (wave 7) that the corpus did not hold. */
-export const recordsCU: EntityInput[] = [...institutions, ...companies, ...papers];
+export const recordsCU: EntityInput[] = [...institutions, ...companies, ...papers, ...drugs];

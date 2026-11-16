@@ -106,21 +106,80 @@ const NEPC = "prostate-nepc";
 export const prostateGlossaryTerms: TermInput[] = [
 
   // ---------------------------------------------------------------- the screening argument
-  { id: "lead-time-bias", kind: "term", asOf, tags, name: "Lead time, and lead-time bias", category: "Epidemiology & prevention", wikipedia: W("Lead_time_bias"),
+  { id: "lead-time-bias", kind: "term", asOf: "2026-11-10", tags, name: "Lead time, and lead-time bias", category: "Epidemiology & prevention", wikipedia: W("Lead_time_bias"),
     aka: ["lead time", "lead-time", "lead time bias", "screening lead time", "lead time in prostate cancer screening"],
-    tldr: "Finding a cancer earlier means you know about it for longer, even if nothing you do changes the day you die. That extra stretch of knowing is called the lead time, and lead-time bias is the mistake of counting it as extra life. It is the single biggest reason survival figures make screening look better than it is.",
-    summary: "Lead time is the interval between the moment a screening test finds a cancer and the moment that cancer would have been diagnosed because it caused symptoms. Lead-time bias is what happens when survival is measured from diagnosis: a man whose cancer is found five years earlier appears to survive five years longer even if the date of his death is unchanged. It is why survival from diagnosis is close to useless as a measure of whether a screening programme works, and why randomised screening trials report mortality in the whole invited population instead.\n\nProstate cancer has the longest lead time of any common cancer, and the honest figure is a range rather than a number. Draisma and Etzioni ran three independently built models of prostate cancer progression and detection, all calibrated to Surveillance, Epidemiology, and End Results incidence in United States men aged 54 to 80 between 1985 and 2000. Among screen-detected cancers that would have surfaced in the man's lifetime, mean lead time was 5.4 to 6.9 years across the three models; the original MISCAN model fitted instead to the Rotterdam section of the European screening trial gave 7.9 years. Published estimates before that work spanned 3 to 12 years. The three models agreed closely with each other for any single definition of lead time and disagreed substantially across definitions, which is the paper's real finding: the number is a property of the question, not of the disease.\n\nThe consequence is practical. Lead time is what generates overdiagnosis: if the lead time is longer than the man's remaining life, the cancer would never have troubled him, and the same modelling put overdiagnosis at 23 to 42 percent of screen-detected cancers in the United States calibration and 66 percent in the Rotterdam one. It is also why the 2018 United States task force statement expresses benefit as deaths and metastatic cases prevented per 1,000 men screened over about 13 years rather than as a survival rate, and why the two 2009 randomised trials, ERSPC and PLCO, are the evidence rather than any registry series.",
+    tldr: "Finding a cancer earlier starts the survival clock sooner, even if the date of death does not change. Counting that extra time as longer life is lead-time bias. Survival measured from diagnosis alone cannot establish that screening saves lives.",
+    summary: "Lead time is the interval between the moment a screening test finds a cancer and the moment that cancer would have been diagnosed because it caused symptoms. Lead-time bias is what happens when survival is measured from diagnosis: a man whose cancer is found five years earlier appears to survive five years longer even if the date of his death is unchanged. It is why survival from diagnosis is unreliable on its own as a measure of whether a screening programme works, and why randomised screening trials report mortality in the whole invited population instead.\n\nFor prostate-specific antigen screening, estimated lead time depends on the definition and population. The following numbers are model estimates from specified settings, not a ranking of lead times across cancers. Draisma and Etzioni ran three independently built models of prostate cancer progression and detection, all calibrated to Surveillance, Epidemiology, and End Results incidence in United States men aged 54 to 80 between 1985 and 2000. Among screen-detected cancers that would have surfaced in the man's lifetime, mean lead time was 5.4 to 6.9 years across the three models; the original MISCAN model fitted instead to the Rotterdam section of the European screening trial gave 7.9 years. Published estimates before that work spanned 3 to 12 years. The three models agreed closely with each other for any single definition of lead time and disagreed substantially across definitions, which is the paper's real finding: the number is a property of the question, not of the disease.\n\nThe consequence is practical. Lead time is what generates overdiagnosis: if the lead time is longer than the man's remaining life, the cancer would never have troubled him, and the same modelling put overdiagnosis at 23 to 42 percent of screen-detected cancers in the United States calibration and 66 percent in the Rotterdam one. It is also why the 2018 United States task force statement expresses benefit as deaths and metastatic cases prevented per 1,000 men screened over about 13 years rather than as a survival rate, and why the two 2009 randomised trials, ERSPC and PLCO, are the evidence rather than any registry series.",
     cancers: [PROSTATE, LOW_RISK, INTERMEDIATE_RISK],
     terms: ["overdiagnosis", "overtreatment", "number-needed-to-screen", "screening", "psa"],
-    related: ["overdiagnosis", "number-needed-to-screen", "overtreatment", "paper-draisma-lead-time-overdiagnosis-psa-jnci-2009", "prostate-screening-psa-mri"],
+    related: [
+  "overdiagnosis",
+  "number-needed-to-screen",
+  "overtreatment",
+  "paper-draisma-lead-time-overdiagnosis-psa-jnci-2009",
+  "prostate-screening-psa-mri",
+  "ctdna-monitoring-lead-time"
+],
     sections: ["early-detection", "prevention"],
     keyPapers: ["paper-draisma-lead-time-overdiagnosis-psa-jnci-2009", "paper-welch-albertsen-psa-era-diagnosis-treatment-jnci-2009", "paper-schroder-erspc-screening-mortality-nejm-2009"],
     bottlenecks: ["b-overdiagnosis", "b-early-detection", "b-trial-design"],
-    links: [SRC.draisma, SRC.welch, SRC.uspstf2018, SRC.erspc2009],
+    links: [
+  {
+    "label": "Draisma et al., Journal of the National Cancer Institute 2009: lead time and overdiagnosis in prostate-specific antigen screening, importance of methods and context",
+    "url": "https://doi.org/10.1093/jnci/djp001"
+  },
+  {
+    "label": "Welch and Albertsen, Journal of the National Cancer Institute 2009: prostate cancer diagnosis and treatment after the introduction of prostate-specific antigen screening, 1986 to 2005",
+    "url": "https://doi.org/10.1093/jnci/djp278"
+  },
+  {
+    "label": "US Preventive Services Task Force, JAMA 2018: screening for prostate cancer, recommendation statement",
+    "url": "https://doi.org/10.1001/jama.2018.3710"
+  },
+  {
+    "label": "Schroder et al., New England Journal of Medicine 2009 (ERSPC): screening and prostate cancer mortality in a randomised European study",
+    "url": "https://doi.org/10.1056/nejmoa0810084"
+  },
+  {
+    "label": "NCI: screening statistics and lead-time bias",
+    "url": "https://www.cancer.gov/about-cancer/screening/research/what-screening-statistics-mean"
+  },
+  {
+    "label": "FDA: ctDNA in curative-intent drug development (2024)",
+    "url": "https://www.fda.gov/media/183874/download"
+  },
+  {
+    "label": "Results of the c-TRAK TN trial: a clinical trial utilising ctDNA mutation tracking to detect molecular residual disease and trigger intervention in patients with moderate- and high-risk early-stage triple-negative breast cancer.",
+    "url": "https://doi.org/10.1016/j.annonc.2022.11.005"
+  },
+  {
+    "label": "OncoGuide: lead-time-bias (pinned teaching source)",
+    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md"
+  },
+  {
+    "label": "Rosselli Del Turco et al., JAMA 1994: intensive diagnostic follow-up",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7848404/"
+  },
+  {
+    "label": "GIVIO Investigators, JAMA 1994: follow-up testing",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8182811/"
+  },
+  {
+    "label": "Assessment of Molecular Relapse Detection in Early-Stage Breast Cancer",
+    "url": "https://doi.org/10.1001/jamaoncol.2019.1838"
+  }
+],
     notes: [
-      "Why a five-year survival rate cannot settle a screening argument. Three biases push it up without anyone living longer: lead-time bias, because the clock starts earlier; length bias, because a test that samples the population at intervals preferentially catches slow-growing cancers that sit around waiting to be found; and overdiagnosis, because cancers that would never have surfaced are added to the numerator of survivors. All three run in the same direction. Mortality in a randomised invited population is immune to all three, which is why it is the endpoint the trials used.",
-      "Lead time is not the same as overdiagnosis, although the two are produced by the same mechanism. Lead time is how much earlier the diagnosis came. Overdiagnosis is the case where the lead time exceeded the rest of the man's life, so the diagnosis never needed to come at all. A long lead time with a long life left is exactly what screening is for.",
-    ] },
+  "Why a five-year survival rate cannot settle a screening argument. Three biases push it up without anyone living longer: lead-time bias, because the clock starts earlier; length bias, because a test that samples the population at intervals preferentially catches slow-growing cancers that sit around waiting to be found; and overdiagnosis, because cancers that would never have surfaced are added to the numerator of survivors. All three run in the same direction. Mortality in a randomised invited population is immune to all three, which is why it is the endpoint the trials used.",
+  "Lead time is not the same as overdiagnosis, although the two are produced by the same mechanism. Lead time is how much earlier the diagnosis came. Overdiagnosis is the case where the lead time exceeded the rest of the man's life, so the diagnosis never needed to come at all. A long lead time with a long life left is exactly what screening is for.",
+  "Lead time is the interval between defined earlier and later detection events. Lead-time bias occurs when that timing difference is mistaken for a better outcome. In a fictional course, detection at year 4 and death at year 6 gives two years from diagnosis. Moving detection to year 3 with death still at year 6 gives three recorded years without adding life. Similarly, labelling post-treatment recurrence at a blood signal before imaging confirmation can mechanically lengthen survival measured from recurrence. Align the endpoint, qualifying event and clock origin. Ten months of detection lead time is not ten added months of life. Earlier effective intervention could help, but its benefit needs separate evidence; correcting the clock alone does not solve selection, confounding or missing follow-up.",
+  "Length bias favours conditions with longer detectable preclinical periods. Overdiagnosis means detecting disease that would not have caused clinical harm during the person's lifetime. Neither is another name for lead-time bias. Screening examples explain the distinctions but cannot establish their magnitude in post-treatment molecular monitoring.",
+  "A monitoring strategy includes its schedule, positive-result rule and resulting action. Comparing that strategy with a meaningful alternative from a common origin, such as randomisation, can assess clinical outcomes and harms. Counting all assigned participants avoids selecting only those with detectable earlier signals. Analysis must also address when groups entered, how follow-up ended, whether positive tests triggered extra imaging and whether people without prior detection were omitted. c-TRAK TN tested a specific blood-surveillance and intervention design; its detection and feasibility findings do not establish a beneficial intervention window for every early signal. A fictional contrast of median survival of 24 months after blood detection versus 18 after imaging detection, without a common-origin comparison, cannot show that testing saves lives. Some or all of the difference could arise from the earlier clock or other group differences.",
+  "The same timing distinction extends beyond the prostate-screening context of this record. Historical breast-cancer surveillance trials illustrate why strategy and outcome must stay together. Rosselli Del Turco and colleagues' 1994 trial enrolled 1,243 surgically treated patients with unilateral invasive breast cancer and no metastases. Adding six-monthly chest radiographs and bone scans detected more isolated intrathoracic and bone metastases, 112 versus 71, and the report described earlier detection of recurrences in that group; five-year relapse-free survival, which stops at detection, was significantly lower with intensive follow-up, while five-year mortality was 18.6% versus 19.5%, with no mortality improvement reported. The separate GIVIO trial enrolled 1,320 women and reported no overall-survival or quality-of-life difference, and no significant difference in time to recurrence detection. Thus the trials should not both be described as showing earlier detection: only the first reported it. Their results do not establish equivalence or the effects of modern imaging and treatment, and a nonsignificant comparison is not proof of exactly zero benefit.",
+  "In ctDNA monitoring studies, measured lead time is the date of a defined later event minus the date of the first qualifying positive blood sample, and it is conditional: a median over people with both an earlier positive and a later recurrence leaves out recurrences with no earlier positive, and people who are positive but have not yet recurred are censored. In a prospective breast-cancer study with blood taken every 3 months in the first year and every 6 months after, detection preceded clinical relapse by a median of 10.7 months (95% CI 8.1 to 19.1) in a combined cohort of 144, and brain-only relapse was detected in 1 of 6 patients (Garcia-Murillas 2019). Because draws and scans are both intermittent, the gap begins at an observed draw and cannot locate biological onset, and an earlier signal shows earlier detection and not longer survival, which is the lead-time bias problem.",
+  "State how lead time was estimated. A simple median of completed positive-to-recurrence intervals is conditional on that selected group; a time-to-event analysis can also incorporate censored follow-up. People without a prior positive and people positive without a later recurrence therefore need explicit dispositions under the study definition. They are not automatically zero-month, infinite or missing intervals interchangeable across studies.",
+  "A fictional timing problem illustrates why group entry matters: if a group is defined by a blood-positive result at month 6, its members had to remain observable until that result. Assigning their earlier follow-up to the positive group can create immortal-time bias. A prespecified landmark or a time-varying exposure analysis addresses different timing questions; the comparison must state its origin, eligibility and handling of later events. This is a study-design reading rule, not evidence that a surveillance policy improves outcomes."
+] },
 
   { id: "overtreatment", kind: "term", asOf, tags, name: "Overtreatment", category: "Epidemiology & prevention", wikipedia: W("Unnecessary_health_care"),
     aka: ["over-treatment", "overtreatment of prostate cancer", "unnecessary treatment", "treatment of overdiagnosed cancer"],
@@ -157,20 +216,23 @@ export const prostateGlossaryTerms: TermInput[] = [
       "The number needed to diagnose is the overdiagnosis cost in the same units as the benefit. ERSPC's fall from 48 extra cases treated at 9 years to 18 extra diagnoses at 16 years is not a change in the disease; it is the benefit catching up with a harm that was banked at the start.",
     ] },
 
-  { id: "other-cause-mortality", kind: "term", asOf, tags, name: "Other-cause mortality", category: "Endpoints",
+  { id: "other-cause-mortality", kind: "term", asOf: "2026-11-12", tags, name: "Other-cause mortality", category: "Endpoints",
     aka: ["death from other causes", "competing mortality", "non-cancer mortality", "competing risk of death", "other cause mortality"],
     tldr: "Dying of something that is not the cancer. In prostate cancer most men do, which makes it the outcome that decides how much any treatment can possibly help. It is also where the inequality that survives equal cancer care shows up, and almost no cancer service measures it.",
-    summary: "Other-cause mortality is death from any cause other than the disease under study, counted as a competing risk: once a man has died of a heart attack he can no longer die of prostate cancer, so the two are not independent and cannot be estimated with an ordinary Kaplan-Meier curve. The correct handling is a cumulative incidence function with a Fine and Gray subdistribution hazard, which is what the prostate literature reports as a subdistribution hazard ratio. Prostate cancer has an unusually strong competing-risk structure: the disease is common, slow, and diagnosed at a median age at which other causes of death are already the majority, so other-cause mortality sets a ceiling on how much benefit any prostate cancer treatment can deliver.\n\nIt carries the equity finding, which is why it has an entry here. Dess and Spratt assembled individual patient data on men with clinical T1 to T4, N0 to N1, M0 prostate cancer from three cohorts with progressively tighter control of access to care: the Surveillance, Epidemiology, and End Results registry (296,273 men), five equal-access Veterans Affairs medical centres (3,972 men, all treated surgically) and four pooled National Cancer Institute randomised radiotherapy trials (5,854 men), with inverse probability weighting for demographic, cancer and treatment differences. Prostate cancer-specific mortality in Black men fell from an age-adjusted subdistribution hazard ratio of 1.30 in the registry to 1.09 after weighting, was not significantly different in the equal-access surgical cohort (0.85), and was significantly lower in the randomised trial cohort (0.81). Other-cause mortality stayed significantly higher in two of the three: 1.30 in the weighted registry cohort and 1.17 in the weighted trial cohort.\n\nWhat that means operationally. Once treatment and access are equalised, the excess prostate cancer death largely disappears and the excess death from everything else does not. A prostate cancer service that measures only cancer-specific mortality has therefore made itself blind to the larger surviving gap, in a population it sees regularly for years and treats with androgen deprivation, a therapy that worsens metabolic and bone health. The caveats belong with the finding: these are United States cohorts with a United States access gradient, the analysis is retrospective despite the weighting, and it addresses mortality after diagnosis at a given stage rather than the higher incidence and younger age at presentation in Black men.",
+    summary: "Other-cause mortality is death from causes other than the disease under study. For disease-specific death, a different cause of death is a competing event: it prevents that disease-specific death from subsequently occurring. Mutual exclusivity of observed first events does not itself prove statistical dependence of latent event times. Cumulative incidence describes disease-specific event probability in the presence of competing causes; Aalen-Johansen estimates its curve. Cause-specific Cox and Fine-Gray regression address different hazards, and neither hazard ratio is the probability itself. The clinical importance depends on the population, follow-up and endpoint.\n\nIt carries the equity finding, which is why it has an entry here. Dess and Spratt assembled individual patient data on men with clinical T1 to T4, N0 to N1, M0 prostate cancer from three cohorts with progressively tighter control of access to care: the Surveillance, Epidemiology, and End Results registry (296,273 men), five equal-access Veterans Affairs medical centres (3,972 men, all treated surgically) and four pooled National Cancer Institute randomised radiotherapy trials (5,854 men), with inverse probability weighting for demographic, cancer and treatment differences. Prostate cancer-specific mortality in Black men fell from an age-adjusted subdistribution hazard ratio of 1.30 in the registry to 1.09 after weighting, was not significantly different in the equal-access surgical cohort (0.85), and was significantly lower in the randomised trial cohort (0.81). Other-cause mortality stayed significantly higher in two of the three: 1.30 in the weighted registry cohort and 1.17 in the weighted trial cohort.\n\nWhat that means operationally. Once treatment and access are equalised, the excess prostate cancer death largely disappears and the excess death from everything else does not. A prostate cancer service that measures only cancer-specific mortality has therefore made itself blind to the larger surviving gap, in a population it sees regularly for years and treats with androgen deprivation, a therapy that worsens metabolic and bone health. The caveats belong with the finding: these are United States cohorts with a United States access gradient, the analysis is retrospective despite the weighting, and it addresses mortality after diagnosis at a given stage rather than the higher incidence and younger age at presentation in Black men.",
     cancers: [PROSTATE, LOW_RISK, INTERMEDIATE_RISK, HIGH_RISK, MHSPC, NMCRPC],
     terms: ["hazard-ratio", "adt", "quality-of-life", "overtreatment", "screening"],
     related: ["idea-prostate-other-cause-mortality-as-a-reported-service-outcome", "paper-dess-black-race-prostate-mortality-jama-oncol-2019", "hazard-ratio", "treatment-induced-bone-loss"],
     sections: ["supportive-care", "hormonal", "early-detection"],
     keyPapers: ["paper-dess-black-race-prostate-mortality-jama-oncol-2019", "paper-bill-axelson-spcg-4-29-year-nejm-2018", "paper-wilt-pivot-prostatectomy-observation-nejm-2017"],
     bottlenecks: ["b-survivorship", "b-aging-comorbidity", "b-global-access", "b-trial-diversity"],
-    links: [SRC.dess, SRC.uspstf2018],
+    links: [SRC.dess, SRC.uspstf2018,
+    {"label":"Austin, Lee and Fine, 2016: competing-risk analysis","url":"https://pubmed.ncbi.nlm.nih.gov/26858290/"},
+    {"label":"Therneau, Crowson and Atkinson, September 2026: competing risks and Aalen-Johansen","url":"https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf"}
+  ],
     notes: [
-      "Why competing risks need their own arithmetic. Censoring a man who died of a heart attack as though he were simply lost to follow-up assumes he could still have died of prostate cancer later, which he could not. The cumulative incidence function and the subdistribution hazard ratio keep the competing deaths in the denominator, which is why prostate papers report subdistribution hazard ratios rather than plain hazard ratios for cancer-specific death.",
-      "It is also the reason localised treatment trials disagree. SPCG-4, which recruited clinically detected disease, showed a substantial benefit from prostatectomy at 29 years; PIVOT, in a largely screen-detected population where competing mortality dominated, found no significant difference at 19.5 years. The treatment was similar; the competing risk was not.",
+      "Competing events and ordinary loss to follow-up are different. Cumulative incidence estimates the probability of the chosen cause before a competing event, using event-free survival in each increment. Fine-Gray is a regression model for a subdistribution hazard; it is not the cumulative-incidence estimator. Cause-specific Cox can instead remove competing events from its event-free risk set. Read the event definition, time horizon and fitted model before interpreting a hazard ratio as risk.",
+      "Competing mortality is one issue when comparing localised-treatment studies, but a difference between trial results cannot be attributed to it alone. Population, detection setting, treatment, follow-up and statistical uncertainty also need examination. This record does not establish a single causal explanation for differences between SPCG-4 and PIVOT.",
       "For an individual man, the practical version of this word is his own health apart from the cancer. It is the reason a guideline talks about life expectancy and comorbidity before it talks about grade group, and the reason watchful waiting exists as a plan distinct from active surveillance.",
     ] },
 
@@ -229,26 +291,60 @@ export const prostateGlossaryTerms: TermInput[] = [
       "The reason this word appears on a prostate page at all: it explains the shape of the disease's genome, which in turn explains two clinical facts a patient may meet. Immunotherapy generally does not work here, because there are too few mutations to make neoantigens. And the targeted drugs that do work are aimed at the hormone axis and at DNA repair, not at the kinases that dominate targeted therapy in other cancers.",
     ] },
 
-  { id: "genome-wide-loss-of-heterozygosity", kind: "term", asOf, tags, name: "Genome-wide loss of heterozygosity (gLOH)", category: "Genomics & genetics", wikipedia: W("Loss_of_heterozygosity"),
+  { id: "genome-wide-loss-of-heterozygosity", kind: "term", asOf:"2026-11-10", tags, name: "Genome-wide loss of heterozygosity (gLOH)", category: "Genomics & genetics", wikipedia: W("Loss_of_heterozygosity"),
     aka: ["gLOH", "genomic LOH", "LOH score", "genome-wide LOH", "LOH-high", "genomic scar score"],
-    tldr: "A score for how much of a tumour's genome has lost one of its two parental copies. A high score is a scar left behind by a broken DNA repair system, and is used as a rough sign that a PARP inhibitor might work. It is a measure of damage already done, not of the fault that caused it.",
-    summary: "Every cell carries two copies of most of its genome, one from each parent. Loss of heterozygosity is the loss of one of those copies at a locus; genome-wide loss of heterozygosity is the percentage of the interrogated genome showing it, computed from a targeted next-generation sequencing panel. It is one of the genomic scar measures of homologous recombination deficiency: a cell that cannot repair double-strand breaks accurately falls back on error-prone mechanisms, and the accumulated result is large stretches of single-copy genome. Because it measures the consequence rather than the cause, it can be raised by faults the panel does not sequence, and can be normal in a tumour that has only recently lost repair capacity.\n\nThe threshold is set by the assay, not by biology, and it is a continuous score cut into two boxes. ARIEL2 part 1 prespecified 14 percent or more as loss-of-heterozygosity high in ovarian carcinoma; that cut point was derived and validated for one assay in one disease and does not transfer unchanged. Pan-cancer work from the same platform showed that biallelic BRCA1 and BRCA2 alterations are associated with elevated genome-wide loss of heterozygosity across many tumour types while monoallelic alterations are not (Sokol 2020), and that the association extends beyond BRCA to a core set of homologous recombination repair genes including BARD1, PALB2, FANCC, RAD51C and RAD51D, particularly in breast, ovarian, pancreatic and prostate cancer, with an independent contribution from TP53 loss (Westphalen 2022).\n\nIn prostate cancer it is the number that shows the homologous recombination repair gene list is not one biomarker. Across 3,476 clinically advanced prostate tumours profiled in routine practice, BRCA1, BRCA2, ATR and FANCA alterations were associated with high genome-wide loss of heterozygosity, whereas CDK12-altered tumours, about 6 percent of the disease, were infrequently loss-of-heterozygosity high (Chung 2019). CDK12 is on the gene list that qualifies men for PARP inhibitors in several licences, and by this measure those tumours are not homologous recombination deficient in the sense a PARP inhibitor needs. That, together with TRITON3's hazard ratio of 0.95 in the ATM subgroup against 11.2 versus 6.4 months in the BRCA subgroup, is why the gene list is increasingly read gene by gene rather than as a single qualifying category.",
+    tldr: "This assay-defined score summarizes genomic regions that lost previously different allelic information. It can reflect a past repair defect, including changes that preserve total DNA copy count.",
+    summary: "Loss of heterozygosity means loss of previously distinct allelic information at a locus. It can accompany copy loss or occur with a copy-neutral allelic change; tumor purity and ploidy complicate inference. Genome-wide loss of heterozygosity summarizes affected interrogated regions according to the assay’s definition. It is studied as a genomic scar associated with some homologous-recombination-repair defects, rather than a direct measurement of present repair function.\n\nThe threshold belongs to the assay and setting. ARIEL2 part 1 prespecified 14 percent or more as LOH high in its ovarian-cancer analysis; this does not establish a universal cutoff. Pan-cancer studies found elevated gLOH associated with biallelic BRCA1/2 alterations and with a core set of other repair-gene alterations, with effects differing by cancer context. Monoallelic calls and an HRR-gene-list label are not interchangeable with those findings. TP53 loss was independently associated with gLOH in the Westphalen analysis.\n\nIn 3,476 prostate tumors, Chung and colleagues found BRCA1/2, ATR and FANCA alterations associated with high gLOH, while CDK12-altered tumors, about 6 percent of that cohort, were infrequently gLOH high. The study did not correlate these findings with clinical outcomes. Such associations support gene-specific biological questions; they do not establish an individual patient’s drug benefit or current treatment eligibility.",
     cancers: [PROSTATE, MCRPC, MHSPC],
     terms: ["hrd", "synthetic-lethality", "ngs", "msi", "tmb"],
     pathways: ["homologous-recombination-repair"],
     targets: ["brca", "atm", "cdk12", "tp53"],
     drugs: ["olaparib", "rucaparib", "niraparib", "talazoparib"],
-    related: ["hrd", "homologous-recombination-repair", "chromoplexy", "paper-chung-comprehensive-genomic-profiling-prostate-jco-po-2019", "paper-fizazi-triton3-rucaparib-nejm-2023"],
+    related: ["hrd","homologous-recombination-repair","chromoplexy","paper-chung-comprehensive-genomic-profiling-prostate-jco-po-2019","paper-fizazi-triton3-rucaparib-nejm-2023","alleles-and-zygosity","vaf"],
     technologies: ["ngs", "parp-inhibitor", "liquid-biopsy"],
     sections: ["diagnostics", "targeted-therapy"],
     keyPapers: ["paper-chung-comprehensive-genomic-profiling-prostate-jco-po-2019", "paper-abida-triton2-rucaparib-brca-jco-2020", "paper-fizazi-triton3-rucaparib-nejm-2023"],
     bottlenecks: ["b-biomarker-validation", "b-resistance", "b-regulatory-fragmentation"],
-    links: [SRC.chung, SRC.sokol, SRC.westphalen, SRC.ariel2, SRC.abida],
+    links: [
+  {
+    "label": "Chung et al., JCO Precision Oncology 2019: prospective comprehensive genomic profiling of 3,476 primary and metastatic prostate tumours",
+    "url": "https://doi.org/10.1200/po.18.00283"
+  },
+  {
+    "label": "Sokol et al., JCO Precision Oncology 2020: pan-cancer analysis of BRCA1 and BRCA2 genomic alterations and their association with genomic instability as measured by genome-wide loss of heterozygosity",
+    "url": "https://doi.org/10.1200/po.19.00345"
+  },
+  {
+    "label": "Westphalen et al., Clinical Cancer Research 2022: pan-cancer analysis of homologous recombination repair-associated gene alterations and genome-wide loss-of-heterozygosity score",
+    "url": "https://doi.org/10.1158/1078-0432.ccr-21-2096"
+  },
+  {
+    "label": "Swisher et al., Lancet Oncology 2017 (ARIEL2 part 1): rucaparib in relapsed, platinum-sensitive high-grade ovarian carcinoma",
+    "url": "https://doi.org/10.1016/s1470-2045(16)30559-9"
+  },
+  {
+    "label": "Abida et al., Journal of Clinical Oncology 2020 (TRITON2): rucaparib in men with metastatic castration-resistant prostate cancer harbouring a BRCA1 or BRCA2 alteration",
+    "url": "https://doi.org/10.1200/jco.20.01035"
+  },
+  {
+    "label": "Allele-specific genomic data elucidate the role of somatic gain and copy-number neutral loss of heterozygosity in cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34731645/"
+  },
+  {
+    "label": "Absolute quantification of somatic DNA alterations in human cancer.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22544022/"
+  },
+  {
+    "label": "FACETS allele-specific copy-state method (Shen and Seshan, 2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27270079/"
+  }
+],
     notes: [
-      "Scar, not cause. A genomic scar score says the repair pathway was broken for long enough to leave a mark. It does not say which gene broke, and it does not say the pathway is still broken now: a tumour that has restored BRCA function by a reversion mutation, the commonest route to PARP inhibitor resistance, keeps its high score and loses its sensitivity.",
-      "Whose threshold. There is no single agreed cut point for gLOH-high across assays or across cancers. ARIEL2 part 1's prespecified 14 percent was set for one next-generation sequencing assay in ovarian carcinoma. Any gLOH result should be read with the name of the assay attached, and a result near the threshold should be treated as what it is, a continuous number cut arbitrarily in two.",
-      "In prostate practice, tumour sequencing and germline testing answer different questions and both are needed: TRITON2 found similar objective response rates for germline and somatic BRCA alterations, which is why a normal blood test for an inherited fault does not rule out a targetable tumour.",
-    ] },
+  "A scar is different from a present functional defect. gLOH does not by itself establish which repair gene is affected, whether both alleles are inactivated, or whether repair remains impaired. A tumour can retain an earlier genomic scar after its functional state changes.",
+  "There is no single gLOH-high cutoff across assays and cancers. ARIEL2 part 1 used a prespecified assay threshold in ovarian carcinoma. Preserve the assay, specimen and reporting context, including uncertainty near a categorical threshold.",
+  "Tumour sequencing and clinical hereditary testing answer different questions. The historical TRITON2 study reported similar objective response rates in germline- and somatic-BRCA groups in its enrolled prostate-cancer population; that result is not a current treatment-access rule or evidence that a negative hereditary assay excludes acquired tumour variants.",
+  "A local LOH state and a genome-wide LOH score have different scope. In an idealised informative A/B region, 1+1 and 2+0 both total two copies, but only 2+0 loses one sequence version. A total-copy profile alone cannot distinguish them. Allele-aware inputs and purity/ploidy assumptions constrain the call; a genome-wide score does not identify the retained sequence, phase a mutation or directly measure current gene function."
+] },
 
   { id: "polygenic-risk-score", kind: "term", asOf, tags, name: "Polygenic risk score (PRS)", category: "Genomics & genetics", wikipedia: W("Polygenic_score"),
     aka: ["PRS", "polygenic score", "genetic risk score", "GRS", "SNP risk score", "polygenic risk score prostate"],

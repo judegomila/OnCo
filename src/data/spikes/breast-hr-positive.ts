@@ -13,7 +13,7 @@ const NCCN = "https://www.nccn.org/guidelines/guidelines-detail?category=1&id=14
 
 const t = (x: Omit<TrialInput, "kind" | "asOf">): TrialInput => ({ kind: "trial", asOf, ...x });
 const d = (x: Omit<DrugInput, "kind" | "asOf">): DrugInput => ({ kind: "drug", asOf, ...x });
-const term = (x: Omit<TermInput, "kind" | "asOf">): TermInput => ({ kind: "term", asOf, ...x });
+const term = (x: Omit<TermInput, "kind" | "asOf"> & { asOf?: string }): TermInput => ({ kind: "term", asOf, ...x });
 const pair = (x: Omit<PairingInput, "kind" | "asOf">): PairingInput => ({ kind: "pairing", asOf, ...x });
 const idea = (x: Omit<IdeaInput, "kind" | "asOf">): IdeaInput => ({ kind: "idea", asOf, ...x });
 
@@ -330,10 +330,67 @@ const terms: TermInput[] = [
     tldr: "When hormone therapy stops controlling a hormone-driven breast cancer, either quickly (primary) or after years (acquired).",
     summary: "Primary resistance: relapse within 2 years of adjuvant ET or progression within 6 months of first-line metastatic ET. Secondary: later relapse or progression. Mechanisms: ESR1 mutations, PI3K/AKT/mTOR activation, cyclin D1/CDK4 amplification, RB loss, FGFR1 amplification, HER2 activation, lineage plasticity. Determines eligibility for INAVO120-type regimens (relapse on/within 12 months of adjuvant ET).",
     targets: ["estrogen-receptor", "pik3ca", "cdk4-6"], cancers: ["breast-hr-positive"], links: [{ label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Hormone_therapy_(oncology)" }] }),
-  term({ id: "ovarian-function-suppression", wikipediaChecked: "2026-09-22", links: [{ label: "NCI Dictionary of Cancer Terms: ovarian suppression", url: "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ovarian-suppression" }], name: "Ovarian function suppression (OFS)", category: "Clinical",
+  term({ id: "ovarian-function-suppression", wikipediaChecked: "2026-09-22", links: [
+  {
+    "label": "NCI Dictionary of Cancer Terms: ovarian suppression",
+    "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ovarian-suppression"
+  },
+  {
+    "label": "Su et al., ASCO fertility-preservation guideline update (2025)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40106739/"
+  },
+  {
+    "label": "Moore et al., POEMS ovarian-protection trial (2015)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25738668/"
+  },
+  {
+    "label": "Moore et al., POEMS final analysis (2019)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30371800/"
+  },
+  {
+    "label": "Del Mastro et al., PROMISE-GIM6 (2011)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21771987/"
+  },
+  {
+    "label": "Lambertini et al., individual-patient meta-analysis (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29718793/"
+  },
+  {
+    "label": "Belchetz et al., continuous and intermittent GnRH in rhesus monkeys (1978)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/100883/"
+  },
+  {
+    "label": "ZOLADEX prescribing information, 3.6 mg formulation (DailyMed)",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3"
+  },
+  {
+    "label": "Stamatiades and Kaiser, gonadotropin regulation by pulsatile GnRH (2018 review)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5812824/"
+  },
+  {
+    "label": "NCI: female fertility and cancer",
+    "url": "https://www.cancer.gov/about-cancer/treatment/side-effects/fertility-women"
+  },
+  {
+    "label": "Arecco et al., protecting ovarian function before and during chemotherapy (2021 review)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34575299/"
+  }
+], name: "Ovarian function suppression (OFS)", category: "Clinical",
     tldr: "Temporarily switching off the ovaries with injections (or removing them) so a premenopausal woman's cancer is starved of oestrogen.",
     summary: "GnRH agonists (goserelin, leuprolide), oophorectomy, or ovarian irradiation. SOFT/TEXT established OFS + aromatase inhibitor for higher-risk premenopausal women; absolute benefit is largest in those under 35 or needing chemotherapy. Required for aromatase inhibitors in premenopausal women, and the likely explanation for chemotherapy's benefit in premenopausal RxPONDER patients.",
-    drugs: ["goserelin", "exemestane", "tamoxifen"], cancers: ["breast-hr-positive"], trials: ["soft-text", "rxponder"] }),
+    drugs: ["goserelin", "exemestane", "tamoxifen"], cancers: ["breast-hr-positive"], trials: ["soft-text", "rxponder"] ,
+"notes": [
+  "Temporary ovarian suppression during chemotherapy aims to reduce chemotherapy-induced ovarian insufficiency. It is a different use from ovarian suppression as endocrine treatment of hormone-receptor-positive cancer. Pulsatile hypothalamic gonadotropin-releasing hormone normally signals to the pituitary to release follicle-stimulating and luteinising hormones. The goserelin label describes a transient initial rise in oestrogen in women with breast cancer, followed by pituitary down-regulation with continued agonist exposure and suppression of ovarian hormone production. The 3.6 mg formulation uses a 28-day schedule in its label; this is a product description, not a schedule for every agonist or indication. It usually stops ovulation and menstruation during use, but does not ensure contraception. Hormone levels generally return after stopping, while chemotherapy-related ovarian injury can still prevent recovery. The classical Belchetz experiments compared continuous and intermittent GnRH delivery in rhesus monkeys; they established a pattern-dependent pituitary response rather than a breast-cancer treatment effect. The mechanism of ovarian protection during chemotherapy remains unsettled, so quieter ovaries do not guarantee preserved eggs or future pregnancy.",
+  "Keep each trial's endpoint, population and missing data visible. POEMS/SWOG S0230 randomised 257 premenopausal women with operable hormone-receptor-negative breast cancer. Among 135 with complete primary-endpoint data, ovarian failure at two years was 8% with goserelin and 22% without, odds ratio 0.30 (95% confidence interval 0.09 to 0.97); failure meant no menses in the preceding six months and postmenopausal FSH. Missing data weaken interpretation. The final analysis included 218 eligible and evaluable participants and reported five-year cumulative incidence of at least one pregnancy of 23.1% versus 12.2%. The disease-free-survival hazard ratio was 0.55 (95% confidence interval 0.27 to 1.10; P = 0.09). This secondary analysis did not establish a survival benefit, equivalence or an individual safety guarantee.",
+  "PROMISE-GIM6 randomised 281 premenopausal women with stage I to III breast cancer. Triptorelin began at least one week before chemotherapy and was given every four weeks for its duration in that trial. Early menopause, defined by absent menstrual recovery and postmenopausal FSH and oestradiol one year after chemotherapy, occurred in 8.9% versus 25.9%, odds ratio 0.28 (95% confidence interval 0.14 to 0.59). Lambertini and colleagues' individual-patient meta-analysis included 873 participants from five trials: premature ovarian insufficiency was 14.1% versus 30.9%, adjusted odds ratio 0.38 (95% confidence interval 0.26 to 0.57); at least one later pregnancy was reported by 10.3% versus 5.5%. The adjusted disease-free-survival hazard ratio was 1.01 (95% confidence interval 0.72 to 1.42). Those pooled results are not specific to triple-negative disease and do not prove absence of harm.",
+  "The 2025 ASCO fertility-preservation guideline says a GnRH agonist may be offered as an adjunct to females with breast cancer and should not replace established preservation methods such as egg, embryo or ovarian-tissue cryopreservation. The trials above compared chemotherapy with or without an agonist, not an agonist against freezing. Lower ovarian-failure rates therefore do not guarantee pregnancy. Menstrual suppression during treatment is not proof of permanent ovarian failure, and returning periods do not establish normal ovarian reserve or fertility. Early menopause also has consequences beyond fertility. NCI describes hot flushes, vaginal dryness and loss of libido, and longer-term bone loss and cardiovascular concerns with primary ovarian insufficiency. Reproductive assessment and the cancer-treatment indication are separate questions. Discussing preservation before cancer-directed treatment can preserve options; the guideline also addresses post-treatment preservation for people who did not undergo it earlier or stored insufficient material. Treatment-induced loss of ovarian function is not established by amenorrhoea during temporary suppression alone. The ovarian-failure proportions in these comparisons fell by roughly half or more relative to their comparison groups; that describes a named failure endpoint, not the probability of pregnancy or a comparison with freezing.",
+  "Chemotherapy can damage ovarian follicles containing immature eggs. NCI identifies alkylating agents as a high-risk group and describes risk as depending on age, baseline fertility, treatment type, dose and duration. Primary ovarian insufficiency can include intermittent ovulation or occasional periods; it should not be equated automatically with permanent sterility. Arecco and colleagues' 2021 review describes reduced recruitment of follicles and reduced ovarian perfusion as proposed explanations for protection by GnRH agonists, while noting that the mechanism is not fully clear. The clinical comparisons do not establish which mechanism caused the observed difference."
+],
+"related": [
+  "ovarian-function-after-chemotherapy"
+],
+"asOf": "2026-11-11"
+}),
   term({ id: "late-recurrence", wikipedia: W("Relapse"), links: [{ label: "Pan et al., 20-year risks of breast cancer recurrence after stopping endocrine therapy at 5 years (NEJM 2017)", url: "https://doi.org/10.1056/NEJMoa1701830" }], name: "Late recurrence", category: "Clinical",
     tldr: "Hormone-driven breast cancer can come back 10 or even 20 years after treatment, unlike most cancers, which is why hormone therapy lasts so long.",
     summary: "About half of recurrences in HR+ disease occur after year 5; risk continues at 1-2% per year to year 20 (EBCTCG, Pan 2017), driven by tumour size and nodal status. Motivates extended endocrine therapy (ATLAS, aTTom, MA.17), adjuvant CDK4/6 inhibitors for high-risk disease, and research into dormancy, ctDNA surveillance, and late-recurrence prediction assays (Breast Cancer Index).",

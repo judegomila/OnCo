@@ -11,7 +11,7 @@ const asOf = "2026-09-08";
 
 type T = Omit<TechnologyInput, "kind" | "asOf"> & { asOf?: string };
 type C = Omit<CompanyInput, "kind" | "asOf">;
-type M = Omit<TermInput, "kind" | "asOf">;
+type M = Omit<TermInput, "kind" | "asOf"> & { asOf?: string };
 const t = (x: T): TechnologyInput => ({ kind: "technology", asOf, ...x, tags: ["supporting", ...(x.tags ?? [])] });
 const c = (x: C): CompanyInput => ({ kind: "company", asOf, tags: ["supporting"], ...x });
 const m = (x: M): TermInput => ({ kind: "term", asOf, ...x });
@@ -40,14 +40,46 @@ const technologies: TechnologyInput[] = [
     technologies: ["closed-automated-cell-manufacturing", "car-t"], companies: ["cellares", "galapagos"],
   }),
   t({
-    id: "viral-vector-manufacturing", dependsOn: ["plasmid-dna-manufacturing"], links: [{ label: "FDA guidance: chemistry, manufacturing and control information for human gene therapy INDs", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug" }], name: "Viral vector manufacturing (lentiviral, retroviral, AAV)", sections: ["cell-therapy", "drug-discovery"], status: "established",
+    id: "viral-vector-manufacturing", dependsOn: ["plasmid-dna-manufacturing"], links: [
+  {
+    "label": "FDA guidance: chemistry, manufacturing and control information for human gene therapy INDs",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug"
+  },
+  {
+    "label": "Testing of Retroviral Vector-Based Human Gene Therapy Products for Replication Competent Retrovirus During Product Manufacture and Patient Follow-up: guidance for industry, January 2020",
+    "url": "https://www.fda.gov/media/113790/download"
+  },
+  {
+    "label": "Effect of genome size on AAV vector packaging.",
+    "url": "https://doi.org/10.1038/mt.2009.255"
+  },
+  {
+    "label": "Nucleotide sequence and organization of the adeno-associated virus 2 genome.",
+    "url": "https://doi.org/10.1128/jvi.45.2.555-564.1983"
+  },
+  {
+    "label": "Adeno-Associated Virus (AAV) as a Vector for Gene Therapy.",
+    "url": "https://doi.org/10.1007/s40259-017-0234-5"
+  },
+  {
+    "label": "Clinical use of lentiviral vectors.",
+    "url": "https://doi.org/10.1038/s41375-018-0106-0"
+  }
+], name: "Viral vector manufacturing (lentiviral, retroviral, AAV)", sections: ["cell-therapy", "drug-discovery"], status: "established",
     tldr: "Producing the engineered viruses that carry a CAR gene into T cells. Viral vector manufacturing is a long-standing bottleneck for cell and gene therapy.",
-    summary: "Lentiviral vectors for CAR-T are made by transient transfection of HEK293 cells with plasmid DNA, or increasingly by stable producer cell lines; AAV serves in vivo gene therapy. Capacity shortages in 2018-2022 delayed trials; large CDMOs (Lonza, Thermo Fisher, Charles River, Oxford Biomedica) and in-house plants (Kite, Novartis, BMS) have since expanded. Titre, empty-capsid ratio, and cost per dose are the quality and economic levers.",
+    summary: "Lentiviral vectors for CAR-T are made by transient transfection of HEK293 cells with plasmid DNA, or increasingly by stable producer cell lines; AAV serves in vivo gene therapy. Capacity shortages in 2018-2022 delayed trials; large CDMOs (Lonza, Thermo Fisher, Charles River, Oxford Biomedica) and in-house plants (Kite, Novartis, BMS) have since expanded. Titre, empty-capsid ratio, and cost per dose are the quality and economic levers. Retroviral and lentiviral lots are also tested for replication-competent virus during manufacture and again in patient follow-up, under FDA guidance of January 2020. A vector's capacity is a manufacturing constraint too. The AAV2 genome is a single-stranded DNA of 4,675 nucleotides (Srivastava and colleagues, 1983), a review gives about 4.8 kb for AAV genomes and about 3.3 kb of capacity for self-complementary designs (Naso and colleagues), and these are sizes of the genomes and designs named, not a universal packaging limit. In one laboratory study of plasmid-encoded AAV2, AAV5 and AAV8 vectors of 4.7 to 8.7 kb, packaged genomes never exceeded 5.2 kb, genomes from plasmids over 5 kb were heterogeneous and truncated at the 5' end, and reporter expression at high multiplicity of infection was substantially lower than from genomes under 5 kb (Wu and colleagues, 2010).",
     principle: "Packaging and transfer plasmids co-transfected into producer cells; harvested particles are purified by chromatography and tested for titre, potency, and replication competence.",
     strengths: ["Mature quality systems", "Stable producer lines lowering cost"],
     limitations: ["Long lead times and high cost", "Batch variability", "Plasmid supply dependency"],
     technologies: ["car-t", "plasmid-dna-manufacturing"], companies: ["lonza", "oxford-biomedica", "thermo-fisher", "charles-river"],
-  }),
+
+"asOf": "2026-11-09",
+"related": [
+  "aav-vector",
+  "lentiviral-vector",
+  "transposon"
+]
+}),
   t({
     id: "plasmid-dna-manufacturing", links: [{ label: "FDA guidance: chemistry, manufacturing and control information for human gene therapy INDs", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/chemistry-manufacturing-and-control-cmc-information-human-gene-therapy-investigational-new-drug" }], name: "Plasmid DNA and mRNA raw-material manufacturing", sections: ["cell-therapy", "immunotherapy"], status: "established",
     tldr: "Plasmid DNA and mRNA raw materials are the DNA templates and enzymes behind viral vectors and mRNA vaccines. They are invisible to patients but decisive for supply.",
@@ -91,14 +123,56 @@ const technologies: TechnologyInput[] = [
 
   // ---- Sequencing and omics platforms ----
   t({
-    id: "long-read-sequencing", machineFamily: "laboratory", links: [{ label: "Logsdon et al., Long-read human genome sequencing and its applications (Nature Reviews Genetics 2020)", url: "https://doi.org/10.1038/s41576-020-0236-x" }], name: "Long-read sequencing (PacBio, Oxford Nanopore)", sections: ["diagnostics", "drug-discovery"], status: "established",
-    tldr: "Long-read sequencing (PacBio HiFi, Oxford Nanopore) reads single DNA molecules in stretches of thousands of bases, so rearrangements, repeat expansions, gene fusions and methylation appear in one run where short-read machines miss them. Nanopore can classify a brain tumour during surgery in under an hour; throughput per dollar still trails the largest short-read instruments.",
-    summary: "PacBio HiFi and Oxford Nanopore reads span kilobases, resolving structural variants, phasing, repeat expansions, and base modifications in one run. In oncology: rapid intraoperative methylation classification of brain tumours (nanopore, under an hour), fusion detection, and complex rearrangement mapping. Cost per genome is approaching short-read levels; accuracy is now clinical-grade for HiFi.",
-    principle: "Single-molecule real-time fluorescence (PacBio) or ionic current through a protein nanopore (ONT) reads native or circular-consensus molecules without amplification.",
-    strengths: ["Structural variants and methylation natively", "Fast, portable (nanopore)"],
-    limitations: ["Higher per-base error historically (improving)", "Lower throughput per dollar than the largest short-read instruments"],
+    id: "long-read-sequencing", machineFamily: "laboratory", links: [
+  {
+    "label": "Logsdon et al., Long-read human genome sequencing and its applications (Nature Reviews Genetics 2020)",
+    "url": "https://doi.org/10.1038/s41576-020-0236-x"
+  },
+  {
+    "label": "A genomic sequencing protocol that yields a positive display of 5-methylcytosine residues in individual DNA strands.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1542678/"
+  },
+  {
+    "label": "Detecting DNA cytosine methylation using nanopore sequencing.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28218898/"
+  },
+  {
+    "label": "Genome-wide detection of cytosine methylation by single molecule real-time sequencing.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33495335/"
+  },
+  {
+    "label": "Jain et al.: ultra-long reads in the GM12878 reference-genome experiment (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29431738/"
+  }
+], name: "Long-read sequencing (PacBio, Oxford Nanopore)", sections: ["diagnostics", "drug-discovery"], status: "established",
+    tldr: "Long reads connect extended sequence information; chemical-mark detection requires a separately specified workflow.",
+    summary: "Long-read sequencing can connect variants, repeats and rearrangement boundaries on extended molecules. DNA methylation is a chemical feature requiring native-signal inference or an appropriate conversion workflow. Long sequence alone does not establish that modification analysis occurred. Preparation, molecule integrity, supported caller and controls constrain the result; neither sequence nor a methylation fraction alone establishes gene function or treatment benefit.",
+    principle: "Connect extended molecule sequences; infer specified DNA marks only from a supported native-signal model or conversion-based workflow.",
+    strengths: [
+  "Extended sequence connections and phasing evidence",
+  "Modification information when supported by the exact workflow"
+],
+    limitations: [
+  "Input integrity and usable site coverage",
+  "Preparation and caller-specific detection limits",
+  "Clinical use requires intended-use validation"
+],
     technologies: ["wes-wgs", "methylation-profiling"], companies: ["pacbio", "oxford-nanopore"],
-  }),
+
+"notes": [
+  "Long sequence connections and chemical-mark detection require separately specified workflows. Nanopore methylation inference uses native current signals and a trained modification model; ordinary sequence letters alone do not supply that analysis. Source: Simpson et al., 2017 method experiment, https://pubmed.ncbi.nlm.nih.gov/28218898/.",
+  "Bisulfite conversion encodes methylation information before amplification; ordinary amplification of unconverted DNA does not faithfully preserve original methylation marks. The original bisulfite method tested defined genomic sequences, rather than clinical treatment selection. Source: Frommer et al., 1992, https://pubmed.ncbi.nlm.nih.gov/1542678/.",
+  "Fictional methylation exercise: eight called methylated molecules among ten usable molecules at one site gives 80%. That fraction does not establish 80% cancer cells or 80% gene silencing. Retain site, usable-molecule denominator, calling uncertainty and specimen mixture.",
+  "Long reads can span repeats, rearrangement boundaries and nearby variants, supporting phasing; the human reference-genome experiment did not establish universal clinical detection in every tumour.",
+  "DNA methylation is a chemical modification, not a change in base sequence; detection needs a specific workflow.",
+  "Native nanopore current with a trained modification caller (Simpson 2017), SMRT polymerase kinetics with a validated model (Tse 2021) and bisulfite conversion (Frommer 1992) detect marks differently; a long-read report does not imply a modification analysis.",
+  "Ordinary amplification of unconverted DNA copies sequence without faithfully copying native marks; conversion encodes chemical state before amplification.",
+  "Long read and methylation assay are independent capabilities; a long RNA or cDNA read does not measure tumour DNA methylation.",
+  "Eight of ten usable molecules called methylated at one site is 80% of those molecules; it is not 80% malignant cells or 80% gene silencing; per-molecule confidence differs from a fraction across molecules.",
+  "Record the molecule type and integrity, aliquot used, library preparation, sequence and modification callers, and any retained native signals. Report sequence length separately from modification confidence or site fraction. Fragmentation, unsupported models, amplification and conversion failure have different effects. Input requirements, usable-site filters and intended-use validation belong to the exact assay."
+],
+"asOf": "2026-11-15"
+}),
   t({
     id: "next-gen-short-read-platforms", machineFamily: "laboratory", links: [{ label: "Almogy et al., Cost-efficient whole-genome sequencing using mostly natural sequencing-by-synthesis chemistry (Ultima Genomics, bioRxiv 2022)", url: "https://doi.org/10.1101/2022.05.29.493900" }], name: "New short-read sequencing platforms", sections: ["diagnostics"], status: "emerging",
     tldr: "New short-read sequencing platforms from Ultima Genomics, Element Biosciences, Roche and MGI compete with Illumina by cutting the cost per gigabase, with Ultima claiming a genome under 100 dollars. Cheaper reads make whole-genome tumour-normal sequencing and deep ctDNA testing affordable in principle, but clinical assays must be revalidated and Illumina's installed base still dominates.",
@@ -209,7 +283,10 @@ const technologies: TechnologyInput[] = [
 
   // ---- Biobanking and reference labs ----
   t({
-    id: "biobanking", links: [{ label: "NCI Best Practices for Biospecimen Resources", url: "https://biospecimens.cancer.gov/bestpractices/" }], name: "Biobanking and tissue procurement", sections: ["drug-discovery", "diagnostics"], status: "established",
+    notes:["For research planning, distinguish a hard dependency from a scheduling preference. A hard dependency is an input, permission or required check without which the named step cannot proceed under its stated rules; a preference is an order the team would like. Reversibility is a different question. A mandatory analysis can be revisable, while an optional experiment can consume irreplaceable tissue. Copies of a DNA or RNA dataset can inform different target searches, but copying data does not replace the physical specimen, permission to use it or separate product validation.","In a fictional worksheet, Lab A accepts existing DNA and RNA data, their quality report and permitted reuse for candidate ranking. It needs neither new tissue nor Lab B's result. Lab B has confirmed that the preparation and selected region of an archived formalin-fixed, paraffin-embedded block fit its protein-localisation study; it requires four sections. The custodian has identified six research sections after protecting diagnostic needs, but release is unconfirmed. A joint meeting after both reports is a scheduling preference, not an input either lab requires.","Under those invented constraints, Lab A can start while the team asks the custodian about Lab B's release. The inquiry uses no tissue. Cutting and consuming four sections requires release and the agreed specimen requirements to remain satisfied; consumed material is not restored by returning the block. Six minus four leaves two sections in this exercise, without predicting assay yield, successful analysis or future adequacy. A fixed block does not establish a viable-cell input. Preserve original data, record use and keep permission, input acceptance and an informative result separate.","Candidate-ranking data do not establish an accessible surface protein or a clinically useful product. Surface-target research still needs localisation, accessibility and normal-tissue assessment; T-cell receptor sequences still need functional specificity testing. A target-specific experiment needs a defined question and target. A product-specific potency or safety test needs the actual candidate being tested, and batch release needs a defined manufacturing process and its quality requirements. Process development and documentation can overlap, so a planning diagram supplies no universal order for all safety and manufacturing work. No product, combination comparison or clinical administration plan is supplied by the fictional two-laboratory worksheet."],
+    asOf:"2026-11-11",
+
+    id: "biobanking", links: [{"label":"NCI Best Practices for Biospecimen Resources","url":"https://biospecimens.cancer.gov/bestpractices/"},{"label":"NCI: technical and operational biospecimen practices, handling and inventory overview","url":"https://dctd.cancer.gov/data-tools-biospecimens/biospecimens-biobanks/resources/best-practices/biospecimen-resources/technical-operational"},{"label":"FDA: distinct manufacturing and clinical-protocol information for an IND","url":"https://www.fda.gov/drugs/types-applications/investigational-new-drug-application-ind"},{"label":"Kula et al.: functional T-Scan antigen-discovery experiments (2019)","url":"https://pubmed.ncbi.nlm.nih.gov/31398327/"}], name: "Biobanking and tissue procurement", sections: ["drug-discovery", "diagnostics"], status: "established",
     tldr: "Freezers full of consented tumour samples with matched clinical data, which every biomarker and drug programme depends on.",
     summary: "Academic biobanks (MD Anderson, Mayo, UK Biobank for germline, Karolinska, Hartwig for WGS), commercial procurement (Discovery Life Sciences, Indivumed, BioIVT, Precision for Medicine, iSpecimen marketplace), and living biobanks of organoids and PDX (Hubrecht Organoid Technology, Champions Oncology, HCMI) supply tissue, blood, and models for target validation and diagnostic development. Consent breadth, annotation depth, and pre-analytic standardisation determine value.",
     principle: "Consented collection at surgery or biopsy, controlled fixation or snap-freezing, LIMS tracking, and linked de-identified clinical follow-up.",
@@ -322,21 +399,23 @@ const technologies: TechnologyInput[] = [
     technologies: ["car-t", "cell-therapy-cold-chain"], companies: ["terumo-bct", "fresenius-kabi"],
   }),
   t({
-    id: "cell-therapy-cold-chain", links: [{ label: "FDA guidance: considerations for the development of CAR T cell products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products" }], name: "Cryopreservation and cell-therapy cold chain", sections: ["cell-therapy"], status: "established",
-    tldr: "Freezing cells at minus 150 degrees and shipping them in liquid-nitrogen 'dry shippers' with tracking, so a living drug arrives alive and matched to the right patient.",
-    summary: "Cryoport, BioLife Solutions (CryoStor media, evo shippers), Cryoport's CRYOPDP, World Courier (Cencora), and Marken (UPS) provide validated cryogenic logistics with temperature and location telemetry; chain-of-identity and chain-of-custody software (Vineti, TrakCel, Ori, Kite's Konnect) links apheresis, manufacturing, and infusion. Failures here are rare but catastrophic for an individualised product.",
-    principle: "Controlled-rate freezing in DMSO-based media, storage below -150°C in vapour-phase nitrogen, and GPS/temperature-logged dry shippers with digital identity verification at each hand-off.",
-    strengths: ["Enables centralised manufacturing across continents", "Full audit trail"],
-    limitations: ["Cost per shipment", "Cryo-injury reduces viability", "Dependence on a few specialist couriers"],
+    asOf:"2026-11-09", notes:["The labels captured on 9 November 2026 illustrate why a single temperature or formulation is misleading. YESCARTA describes 5% DMSO with 2.5% human albumin, whereas KYMRIAH describes 7.5% (v/v) DMSO. These are particular labelled formulations, not a general recipe for other cells, research specimens, RNA or carrier products.","The captured YESCARTA section 16 distinguishes shipment at minus 150 degrees Celsius or colder from storage at minus 120 degrees or colder, and describes bounded transfers and a one-time minus 80 degrees plus or minus 10 degrees storage option for up to 90 days without exceeding expiry. Its transfer restrictions matter. KYMRIAH section 16 specifies monitored storage at minus 120 degrees or colder and its own transport provisions. Consult the complete current label and product procedures; these examples do not authorise an unlisted excursion or an improvised thaw/rest schedule.","In a fictional input of 100 million viable cells, 80 million cells are recovered after processing and 72 million of those are live. Recovered-cell viability is 72/80, or 90%, while viable recovery relative to input is 72/100, or 72%. The missing 20 million are not silently included among tested recovered cells. Neither fraction measures the intended biological activity or establishes a release threshold.","Panch's 2019 retrospective single-centre analysis covered 158 autologous CAR T-cell products from six trials and additional donor experiments. It did not detect differences in selected manufacturing or clinical measures under its tested conditions, while molecular and cellular changes were observed. This does not demonstrate universal equivalence of fresh and frozen material or interchangeability of starting-material and final-product freezing.","Wang's 2019 work concerns an in vitro post-thaw potency assay for a particular third-generation CD19 CAR T-cell preparation. Assay recovery or rest conditions are not instructions to change clinical preparation or infusion. Preserve sampling time, denominator, cell composition and intended test when comparing results.","Research banking and clinical cell-product storage have different intended uses and acceptance requirements. An excursion requires documented investigation, relevant stability evidence and a disposition by the authorised programme. Identity records, custody records, temperature logs, test samples and final-product decisions remain distinct."], related:["chain-of-identity-and-custody","ex-vivo-cell-expansion","cell-manufacturing-outcomes"],
+    id: "cell-therapy-cold-chain", links: [{"label":"FDA guidance: considerations for the development of CAR T cell products","url":"https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"},{"label":"DailyMed: YESCARTA label captured 9 November 2026, sections 11 and 16","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9b70606e-b99c-4272-a0f1-b5523cce0c59"},{"label":"DailyMed: KYMRIAH label captured 9 November 2026, sections 11 and 16","url":"https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aad3ba54-dfd3-4cb3-9e2b-c5ef89559189"},{"label":"Mazur, 1963: water movement and intracellular freezing","url":"https://pubmed.ncbi.nlm.nih.gov/14085017/"},{"label":"Panch et al., 2019: scoped fresh/frozen CAR T-cell comparisons","url":"https://pubmed.ncbi.nlm.nih.gov/31178392/"},{"label":"Wang et al., 2019: post-thaw assay conditions for one CAR T-cell preparation","url":"https://pubmed.ncbi.nlm.nih.gov/30910382/"}], name: "Cryopreservation and cell-therapy cold chain", sections: ["cell-therapy"], status: "established",
+    tldr: "Freezing, storage, shipping and thawing can preserve cells for later use. The validated conditions and checks belong to the particular cell product.",
+    summary: "Cryopreservation manages cooling, water movement, ice formation, concentrated solutes and warming injury; it does not literally stop all molecular motion. Cryoprotectant formulation, exposure, freezing, storage, transport, thawing and permitted holding times form a defined process. Some materials are handled fresh. A temperature log documents conditions, while stability evidence and the quality system determine the consequences of a deviation. Neither a shipper nor a barcode guarantees viable, functional material or the correct recipient.",
+    principle: "Validate preservation and transport for the specified material and intended use; distinguish documented handling, recovered-cell viability, input-relative recovery and biological activity.",
+    strengths: ["Can separate collection, manufacture and administration in a validated workflow","Supports banking and transport when the particular material remains suitable under demonstrated conditions"],
+    limitations: ["Freezing, warming and cryoprotectant exposure can change cell recovery, state or function","Conditions and permitted excursions cannot be transferred between products without evidence","Traceability and temperature records do not replace quality assessment or authorised disposition"],
     technologies: ["car-t", "apheresis-starting-material", "cell-therapy-orchestration-software"], companies: ["cryoport", "biolife-solutions"],
   }),
   t({
-    id: "cell-therapy-orchestration-software", links: [{ label: "FDA guidance: considerations for the development of CAR T cell products", url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products" }], name: "Cell-therapy orchestration and chain-of-identity software", sections: ["cell-therapy", "ai-computation"], status: "established",
-    tldr: "Scheduling and tracking software that makes sure each patient's cells come back to that patient, on time.",
-    summary: "Platforms from Vineti (acquired by Ori Biotech 2023), TrakCel, Title21, and sponsors' own portals (Novartis CellChain, Kite Konnect, BMS Cell Therapy 360) coordinate slot booking, apheresis, courier pickup, manufacturing status, and infusion, with barcoded chain-of-identity. They are required by regulators for commercial autologous products and are a prerequisite for scaling to thousands of patients per year.",
-    principle: "Orchestration software is a workflow engine with unique patient and product identifiers, integrations to hospital, courier, and manufacturing systems, and audit logs for regulators.",
-    strengths: ["Eliminates mix-ups", "Real-time visibility for treating teams"],
-    limitations: ["Each sponsor has its own portal, burdening hospitals", "Integration cost"],
+    asOf:"2026-11-09", notes:["Chain of identity concerns the association between source, materials, product and intended recipient. Chain of custody concerns guardianship, handoffs, times and relevant handling conditions. A temperature trace is handling evidence; an HLA result is a biological measurement. Neither substitutes for the complete recipient/material relationship or the quality decision.","A collection can branch into separate processing lots, doses and test samples. Retain parent links and the construct version when a process changes. A single-recipient branching example does not define every donor-bank or multi-recipient workflow; validate the actual product relationships.","FDA's January 2024 CAR T-cell guidance describes documented labelling and tracking from collection through administration, unique-identifier recommendations for autologous products, and independent bedside patient/label checks. Compliance is assessed against applicable requirements and a controlled process, not the presence of a particular vendor's portal.","A completed software workflow is not a potency result, a stability conclusion, an authorised lot disposition or a patient eligibility decision. Discrepancies need reconciliation and investigation; a reported excursion does not determine its own clinical significance."], related:["chain-of-identity-and-custody","cell-manufacturing-outcomes"],
+    id: "cell-therapy-orchestration-software", links: [{"label":"FDA guidance: considerations for the development of CAR T cell products","url":"https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-development-chimeric-antigen-receptor-car-t-cell-products"},{"label":"FDA: CAR T-cell development guidance, January 2024","url":"https://www.fda.gov/media/156896/download"},{"label":"ICCBBA: Chain of Identity standard ST-028, version 1.1.0 (June 2025)","url":"https://iccbba.org/wp-content/uploads/2025/08/1a7593_0aa7a5f7202c4b43be4cc11bcd2048ef.pdf"},{"label":"ICCBBA: single-patient collection examples IG-050, version 1.0.0 (December 2023)","url":"https://iccbba.org/wp-content/uploads/2025/08/1a7593_badfaf3c48d443f78006340096a671e0.pdf"}], name: "Cell-therapy orchestration and chain-of-identity software", sections: ["cell-therapy", "ai-computation"], status: "established",
+    tldr: "Scheduling and tracking software can support a cell therapy's collection, manufacture, transport and treatment records. It helps teams follow the workflow and investigate problems.",
+    summary: "Orchestration systems can coordinate appointments, inventory, material identifiers, handoffs, manufacturing status and clinical scheduling. Their records must preserve the actual source, material, construct, lot, sample, dose and intended-recipient relationships. Software supports a controlled workflow; it does not by itself eliminate mix-ups, deliver on-time treatment or establish product quality. FDA's traceability requirements and recommendations do not require the named commercial platforms previously listed here.",
+    principle: "Maintain controlled, reconcilable records across the actual workflow, with identifiers and recorded handoffs supporting separate identity and quality decisions.",
+    strengths: ["Can make status, handoffs and scheduling information available to responsible teams","Can support reconciliation, traceability and investigation when records and interfaces are controlled"],
+    limitations: ["Incorrect inputs or broken links can propagate across connected systems","A recorded handoff or barcode does not establish identity, acceptable quality or clinical readiness","Workflow design, access controls, integration and contingency arrangements need evaluation"],
     technologies: ["car-t", "cell-therapy-cold-chain"],
   }),
   t({
@@ -357,7 +436,7 @@ const technologies: TechnologyInput[] = [
   "Different questions. Sterility and potency are separate attributes with separate tests, and a passing potency result is a quality finding, not a clinical response rate. Inference lesson: a lot with high viability and receptor expression whose target-specific killing falls below its predefined criterion is not rescued by the two passing tests, and the failure is investigated under the controlled process."
 ],
     id: "cell-therapy-release-testing",
-    related: ["immune-cytotoxicity-assays", "chemistry-manufacturing-controls", "certificate-of-analysis", "manufacturing-process-comparability", "vein-to-vein-time"], asOf: "2026-11-10", links: [
+    related: ["immune-cytotoxicity-assays", "chemistry-manufacturing-controls", "certificate-of-analysis", "manufacturing-process-comparability", "vein-to-vein-time", "good-manufacturing-practice", "batch-release"], asOf: "2026-11-10", links: [
   {
     "label": "FDA: Potency Assurance for Cellular and Gene Therapy Products, final guidance (November 2026)",
     "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products"
@@ -385,7 +464,7 @@ const technologies: TechnologyInput[] = [
   {
     "label": "FDA: Potency Assurance (December 2023 draft, historical)",
     "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/potency-assurance-cellular-and-gene-therapy-products"
-  }
+  }, {"label": "FDA: potency tests (January 2011, superseded; historical activity and clinical-effectiveness discussion)", "url": "https://www.fda.gov/media/79856/download"}
 ], name: "Cell-therapy release and potency testing", sections: ["cell-therapy"], status: "established",
     tldr: "A cell-product lot is checked against specified quality requirements before its disposition. Identity, live-cell measures and biological activity answer different questions about that lot.",
     summary: "FDA's final potency-assurance guidance describes a product-specific strategy spanning manufacturing design, controls, materials, in-process testing and lot-release assays. CAR T-cell guidance separately discusses safety, identity, quality, purity and potency measurements. A viability result or marker-expression result is not automatically equivalent to a functional bioassay. Assay choice and acceptance criteria depend on the product and development context. Passing a release specification is distinct from estimating clinical benefit in a patient.",
@@ -393,7 +472,8 @@ const technologies: TechnologyInput[] = [
     strengths: ["Defines checkable quality requirements", "Supports product-specific quality decisions"],
     limitations: ["Testing and sample availability can constrain release", "Relationship to clinical outcomes needs product-specific evidence", "Sampling uses a portion of the lot"],
     technologies: ["car-t", "closed-automated-cell-manufacturing", "flow-cytometry-mrd"], companies: ["charles-river", "becton-dickinson"],
-  }),
+
+}),
   t({
     id: "allogeneic-cell-banking", links: [{ label: "21 CFR Part 1271: human cells, tissues, and cellular and tissue-based products", url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-L/part-1271" }], name: "Allogeneic donor and iPSC master cell banks", sections: ["cell-therapy"], status: "emerging",
     tldr: "Making cell therapies from a healthy donor or stem-cell line in advance, so patients get an off-the-shelf product instead of waiting weeks.",
@@ -995,9 +1075,38 @@ const terms: TermInput[] = [
     summary: "Blinded independent central review (BICR) means having outside radiologists who do not know the treatment assignment re-read every scan in a trial. Regulators expect it for PFS and ORR endpoints in open-label trials to remove investigator bias, and it is delivered by imaging core labs. Discordance between local and central reads is common and changes event counts, which is why the practice matters for how trial results are interpreted. The term is linked to the Imaging core labs and central review technology and to the endpoint terms RECIST, Progression-free survival (PFS) and Objective response rate (ORR), and it is referenced by the terms Blinded trial and Blinding (double-blind, open-label, placebo-controlled) as one of the ways bias is controlled when full blinding is not possible.",
     technologies: ["imaging-core-labs"], terms: ["recist", "pfs", "orr"], links: [{ label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Blinded_experiment" }] }),
   m({ id: "cdmo", wikipedia: "https://en.wikipedia.org/wiki/Contract_development_and_manufacturing_organization", name: "CDMO (contract development and manufacturing organisation)", category: "Pharmacology",
-    tldr: "A company that makes drugs for other companies. Most ADCs, biologics, and cell therapies are made by a handful of them.",
-    summary: "A CDMO, or contract development and manufacturing organisation, is a company that makes drugs for other companies, and most ADCs, biologics and cell therapies are made by a handful of them. Capacity, containment for highly potent ADC payloads and regulatory track record at CDMOs such as Lonza, WuXi, Samsung Biologics and Catalent set the timelines for the whole field. Geopolitical measures, notably the US BIOSECURE Act of 2024 to 2025, are reshaping sourcing away from China-based sites. The term is linked to the technologies ADC bioconjugation manufacturing (CDMOs), Viral vector manufacturing (lentiviral, retroviral, AAV) and Sterile fill-finish and lyophilisation, and to the related term BIOSECURE Act. It is referenced by the company records for Lonza and OXB (Oxford Biomedica).",
-    technologies: ["adc-cdmo-manufacturing", "viral-vector-manufacturing", "sterile-fill-finish"], related: ["biosecure-act"], links: [{ label: "Wikipedia", url: "https://en.wikipedia.org/wiki/Contract_development_and_manufacturing_organization" }] }),
+    tldr: "A contract organisation carries out agreed work developing or making medicines for a client. Its service label does not show which tasks, quality evidence or responsibilities an agreement covers.",
+    summary: "A contract development and manufacturing organisation performs agreed development or manufacturing work for a client. Its scope may include process development, synthesis, formulation, filling or analytical testing; a service label alone does not say which activities an agreement covers.\n\nThe US FDA's November 2016 quality-agreement guidance addresses commercial drug manufacture and recommends documenting each party's activities. The owner's quality unit approves or rejects contracted products or services, and the contract facility retains its own applicable current good manufacturing practice responsibilities. An agreement cannot delegate statutory responsibilities. Investigational material is outside the guidance's explicit scope, although FDA describes quality agreements as useful in research and development. Contractor experience, a contract or a passing identity result does not by itself establish release, authorisation or clinical benefit for a product.",
+    technologies: ["adc-cdmo-manufacturing", "viral-vector-manufacturing", "sterile-fill-finish"], related: [
+  "biosecure-act",
+  "binder-discovery",
+  "peptide-synthesis-spps",
+  "batch-release",
+  "platform-vs-personalized-components",
+  "good-manufacturing-practice"
+], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Contract_development_and_manufacturing_organization"
+  },
+  {
+    "label": "FDA: contract manufacturing arrangements for drugs, quality agreements (November 2016)",
+    "url": "https://www.fda.gov/media/86193/download"
+  },
+  {
+    "label": "ICH Q10: pharmaceutical quality system (April 2009), section 2.7",
+    "url": "https://www.fda.gov/media/71553/download"
+  }
+] ,
+"asOf": "2026-11-14",
+"notes": [
+  "Scope must be read from the contract. A partner may develop a process, synthesise a molecule, formulate it, fill vials or run analytical testing, and a service label does not show which of these a contract covers. FDA's November 2016 quality-agreement guidance treats owner and contract facility as both responsible for CGMP and says contract analytical laboratories are covered.",
+  "The agreement assigns activities but cannot contract away responsibilities. FDA states that quality agreements cannot be used to delegate statutory or regulatory CGMP responsibilities. The guidance is written for commercial manufacture and does not explicitly cover investigational material, though FDA believes quality agreements can be valuable in research and development arrangements. ICH Q10 section 2.7 extends the quality system to outsourced activities, with the pharmaceutical company ultimately responsible.",
+  "Handoff inference. A controlled handoff connects the approved design version to materials, records and the resulting lot. If a contractor proposes an edit and supplies a passing identity result on the revised lot, the missing items are the authorised version and approval of the edit, assessment of affected product properties and the full quality package. Identity alone does not show activity, authorisation or benefit, and sharing a contractor does not establish comparability.",
+  "A contractor's experience or a facility's track record does not establish release of a particular lot, and manufacturing acceptance, clinical-program authorisation and efficacy are separate questions.",
+      "Before treating a supplier proposal as a production plan, identify the contracted site and operations, authorised construct version, material handoffs, rights to use the required process and formulation, named assays and acceptance criteria, quality documentation, timing, and storage and transport conditions. These are planning questions, not proof that a named supplier has capacity, permission or a releasable lot. FDA's 2016 guidance separates quality agreements from general commercial terms; it has the commercial-manufacturing scope described above."
+]
+}),
   m({ id: "biosecure-act", wikipedia: "https://en.wikipedia.org/wiki/Biosecure_Act", name: "BIOSECURE Act", category: "Regulatory",
     tldr: "Proposed US legislation restricting federally funded work with certain Chinese biotech service companies, which would affect where ADCs and sequencing get done.",
     summary: "The BIOSECURE Act is proposed US legislation that would restrict federally funded work with certain Chinese biotechnology service companies, affecting where ADCs are made and where sequencing is done. It passed the House in 2024 and was reintroduced in 2025, naming WuXi AppTec, WuXi Biologics, BGI, MGI and Complete Genomics, and sponsors are already diversifying their CDMO and sequencing supply in anticipation. Its status should be verified before it is cited as law. The term is linked to the companies WuXi XDC and MGI Tech, to the technologies ADC bioconjugation manufacturing (CDMOs) and New short-read sequencing platforms, and to the related term CDMO (contract development and manufacturing organisation), each of which references it in turn.",

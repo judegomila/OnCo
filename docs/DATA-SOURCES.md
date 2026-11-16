@@ -404,3 +404,15 @@ a file you can compute from, which is the difference between quoting a summary a
   turned out to answer 404; the live address drops the leading "guidance-on-". Attachments live on
   `assets.publishing.service.gov.uk`, which is never blocked, and `pdftotext -layout` reads them cleanly, which is
   how the paragraph numbers in that guidance were quoted.
+
+## NCI Dictionary definitions behind the page shell
+
+Checked 10 November 2026 during the education audit. A dictionary page can return a JavaScript shell while
+NCI's public Glossary API supplies the definition as raw JSON. The official contract is
+`https://webapis.cancer.gov/glossary/v1/swagger/v1/swagger.json`. For example,
+`https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/ex-vivo` returns the term identity and
+`definition.text`. Check `dictionary`, `audience`, `language`, `prettyUrlName` and `termName`, and retain the
+response hash and retrieval time. The ex vivo, in vitro and in vivo entries were retrieved and read this way.
+Keep the dictionary's scope explicit: its ex vivo entry describes a medical procedure with a return step;
+laboratory authors also use ex vivo for removed living material that is studied without being returned.
+This access check does not change the licence inventory above.

@@ -327,9 +327,13 @@ describe("Ask OnCo end to end", () => {
     expect(a.entities[0].id).toBe("tnbc");
     expect(a.sources[0].id).toBe("tnbc");
     expect(a.sentences[0].cite).toBe(1);
-    expect(a.sentences[0].text).toMatch(/lacks the three receptors \(oestrogen, progesterone, HER2\)/);
+    // Negative categories are assay interpretations, not proof of zero receptor molecules.
+    // The old assertion required that inaccurate absence claim. Keep the diagnostic
+    // threshold, named receptors and citation checks while enforcing the distinction.
+    expect(a.sentences[0].text).toMatch(/classified as oestrogen receptor-negative, progesterone receptor-negative and HER2-negative/);
     const text = answerText(a).toLowerCase();
-    for (const must of ["oestrogen", "progesterone", "her2", "er <1%", "pr <1%"]) expect(text).toContain(must);
+    for (const must of ["oestrogen", "progesterone", "her2", "er and pr nuclear staining below 1 percent", "ihc/ish algorithm"]) expect(text).toContain(must);
+    expect(text).toContain("negative test categories do not mean that every receptor molecule is absent");
     expect(a.followUps).toContain("How is TNBC treated?");
     expect(a.method).toMatch(/nothing is generated/);
     expect(a.readMore.some((r) => r.href === "/cancers/tnbc/")).toBe(true);

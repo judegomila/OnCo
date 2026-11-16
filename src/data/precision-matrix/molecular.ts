@@ -397,7 +397,7 @@ export const rows: PrecisionRow[] = [
       text: "Fewer people given immunotherapy on a number that does not predict response in their cancer, and fewer missed because their panel scored them just below a line.",
       outcome: "plausible",
     },
-    oversold: "A single cut-off of 10 mutations per megabase is used across solid tumours, while high-TMB breast, prostate and brain tumours responded 15.3 per cent of the time in a pooled analysis, and in MyPathway tumours between 10 and 16 responded in 1 of 48.",
+    oversold: "The earlier accelerated U.S. tumour-agnostic approval used a cut-off of 10 mutations per megabase. That historical rule does not make assays or populations interchangeable: high-TMB breast, prostate and brain tumours responded 15.3 per cent of the time in one pooled analysis, and in MyPathway tumours between 10 and 16 responded in 1 of 48. Those study-specific figures retain their original cutoffs.",
     relatedIds: ["keynote-158", "mypathway", "pembrolizumab", "foundationone-cdx", "paper-marabelle-keynote-158-tmb-lancet-oncol-2020", "paper-mcgrail-tmb-pan-cancer-response-ann-oncol-2021", "paper-gandara-blood-tmb-atezolizumab-nat-med-2018"],
   },
   {

@@ -1,0 +1,664 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T18:10:25.270Z",
+  "request": {
+    "query": "Antibody drug conjugates with Gq/11 inhibitors SDZ475 DYP688, PI3K PIKK kinase inhibitor payloads HMPL-A580, pyridinobenzodiazepines PDD, protein alkylator PA289 and ferroptosis inducer payloads",
+    "searchMode": "semantic",
+    "maxResults": 20,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-274620410",
+        "title": "Abstract IA022: DYP688, a first-in-class PMEL17-targeted antibody drug conjugate delivering a Gq/11-specific inhibitor for the treatment of metastatic uveal melanoma",
+        "authors": [
+          "Josephzore Wk",
+          "Joseph A. D'Alessio",
+          "P. Yerramilli-Rao",
+          "J. Blankenship",
+          "Kathrin Buntin",
+          "Matthew T. Burger",
+          "Zhuoliang Chen",
+          "Y. Cho",
+          "John Davis",
+          "N. Ebel",
+          "Jochen Eisfeld",
+          "Anne Haberkorn",
+          "Dominik Hainzl",
+          "Keith A. Hoffmaster",
+          "Matthias Napp",
+          "Dominik Pistorius",
+          "V. Rauniyar",
+          "Aimee Reynolds",
+          "Vincent Romanet",
+          "Christian Schnell",
+          "Katherine Seiss",
+          "William R. Tschantz",
+          "Susanne Wieland-Berghausen",
+          "Laurin Wimmer",
+          "Kuno Wuersch",
+          "Alan Zhang",
+          "Eusebio Manchado"
+        ],
+        "year": 2024,
+        "doi": "10.1158/1538-8514.cancerchem24-ia022",
+        "pmid": null,
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3cd8985fd1409bad645b3da996e2c45e01d2ec0a38a3f37aaa2a5dbab713d230",
+          "characters": 2479
+        }
+      },
+      {
+        "elicitId": "ss-290146941",
+        "title": "An anti-PMEL antibody−drug conjugate with a Gq/11 inhibitor payload in GNAQ/GNA11-mutant melanomas: a phase 1 trial",
+        "authors": [
+          "Matteo S. Carlino",
+          "Ellen Kapiteijn",
+          "S. Piperno-Neumann",
+          "R. Sullivan",
+          "Richard D. Carvajal",
+          "R. Dummer",
+          "Tanja Gromke",
+          "J. Hassel",
+          "Damien Kee",
+          "E. Ramelyte",
+          "A. Shoushtari",
+          "Alexander Z. Wei",
+          "A. Enk",
+          "Eleanor E. Handel",
+          "Kamaneh Montazeri",
+          "Jorge Ramon-Patino",
+          "Heike Richly",
+          "M. Rodrigues",
+          "Shahneen Sandhu",
+          "J. Smithy",
+          "F. Speetjens",
+          "Pedro Milanez-Almeida",
+          "A. Chaudhury",
+          "Keith A. Hoffmaster",
+          "M. Ising",
+          "J. Otero",
+          "T. Ramkumar",
+          "Aimee Reynolds",
+          "Sherif Sharaby",
+          "L. Werner",
+          "P. Yerramilli-Rao",
+          "E. Calvo"
+        ],
+        "year": 2026,
+        "doi": "10.1038/s41591-026-04518-z",
+        "pmid": "42443515",
+        "venue": "Nature Medicine",
+        "citedByCount": 2,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13577922/pdf/41591_2026_Article_4518.pdf",
+          "https://www.nature.com/articles/s41591-026-04518-z.pdf"
+        ],
+        "studyTypeTags": [
+          "RCT"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41591-026-04518-z.pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3034cb2dc7c695f285351f6077c0821645ccc4975375a057a7ef9378607b3a60",
+          "characters": 1556
+        }
+      },
+      {
+        "elicitId": "ss-287168180",
+        "title": "Abstract 4549: Discovery of HMPL-A580, a first-in-class antibody-targeted therapy conjugate (ATTC) of a novel PI3K/PIKK inhibitor payload linked to an anti-EGFR antibody",
+        "authors": [
+          "Yu Cai",
+          "Xiang Chen",
+          "Shishuang Chen",
+          "Na Yang",
+          "Yan Xu",
+          "Hui Yu",
+          "S. Fan",
+          "Hai-Bing Yang",
+          "Min Cheng",
+          "Nelson K. L. Ng",
+          "Jianlin He",
+          "Shaohu Shen",
+          "Wei-Gang He",
+          "Wei Shao",
+          "Xiaoming Dai",
+          "Ya-Jing Bai",
+          "Yizhen Yang",
+          "Lin-Fang Wang",
+          "Jian Wang",
+          "Weihan Zhang",
+          "Yongxin Ren",
+          "Guang-Xiu Dai",
+          "Michael M. Shi",
+          "W. Su"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1538-7445.am2026-4549",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "b5555db15073c5950c4eee8734249677fccb059aa6d216e10205820aabcbdc4c",
+          "characters": 3359
+        }
+      },
+      {
+        "elicitId": "ss-81846657",
+        "title": "Abstract 736: Pyridinobenzodiazepines (PDDs): A new class of sequence-selective DNA mono-alkylating ADC payloads with low hydrophobicity",
+        "authors": [
+          "N. Veillard",
+          "P. Andriollo",
+          "Julia Mantaj",
+          "Keith R. Fox",
+          "K. Rahman",
+          "George Procopiou",
+          "Francesco Cascio",
+          "David B. Corcoran",
+          "Ilona Pysz",
+          "P. Cooper",
+          "S. Shnyder",
+          "Yawen Ju",
+          "Edwin Tan",
+          "William M. Schopperle",
+          "Paul Jackson",
+          "David E. Thurston"
+        ],
+        "year": 2018,
+        "doi": "10.1158/1538-7445.AM2018-736",
+        "pmid": null,
+        "venue": "Experimental and Molecular Therapeutics",
+        "citedByCount": 5,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3d3cfdd5ba6bd263777cda4e8913ccfdcb3ca1f145e9d91132f99c8f06656031",
+          "characters": 3457
+        }
+      },
+      {
+        "elicitId": "ss-203888561",
+        "title": "CHAPTER 16. Pyridinobenzodiazepines (PDDs) as Sequence-selective DNA Mono-alkylating Antibody–Drug Conjugate (ADC) Payloads",
+        "authors": [
+          "N. Veillard",
+          "Francesco Cascio",
+          "P. Jackson",
+          "D. Thurston"
+        ],
+        "year": 2019,
+        "doi": "10.1039/9781788012898-00349",
+        "pmid": null,
+        "venue": "Cytotoxic Payloads for Antibody–Drug Conjugates",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "5d0bddda95c2765f005a333fc82bcbae15a6a7eda2f73aaa8bbba8b264cc121b",
+          "characters": 1308
+        }
+      },
+      {
+        "elicitId": "ss-278966926",
+        "title": "A first-in-human study of DYP688, an antibody drug conjugate delivering a direct Gq/11 inhibitor, in patients with metastatic uveal melanoma (MUM) and other GNAQ/11 mutant melanomas.",
+        "authors": [
+          "M. Carlino",
+          "R. Dummer",
+          "Tanja Gromke",
+          "J. Hassel",
+          "E. Kapiteijn",
+          "Damien Kee",
+          "S. Piperno-Neumann",
+          "E. Ramelyte",
+          "A. Shoushtari",
+          "R. Sullivan",
+          "Alexander Z. Wei",
+          "A. Duggan",
+          "M. Ising",
+          "Pedro Milanez-Almeida",
+          "T. Ramkumar",
+          "Aimee Reynolds",
+          "Sherif Sharaby",
+          "P. Yerramilli-Rao",
+          "E. Calvo"
+        ],
+        "year": 2025,
+        "doi": "10.1200/jco.2025.43.16_suppl.9509",
+        "pmid": null,
+        "venue": "Journal of Clinical Oncology",
+        "citedByCount": 5,
+        "urls": [
+          "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2025.43.16_suppl.9509"
+        ],
+        "studyTypeTags": [
+          "RCT"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2025.43.16_suppl.9509",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "ea8f0cee13ac2bc4292abe48bddbc84ae00982eb4df6402f12c7ba73569b9f44",
+          "characters": 2843
+        }
+      },
+      {
+        "elicitId": "ss-277991986",
+        "title": "Abstract 1579: PA289, a prodrug linker-payload with a novel mechanism of action for the development of antibody drug conjugates",
+        "authors": [
+          "J. Mysliwy",
+          "J. Deckert",
+          "A. Lodge",
+          "J. Thirlway",
+          "James Stephenson",
+          "Patrick Higgs",
+          "Daniel J. Williamson",
+          "R. J. Lutz"
+        ],
+        "year": 2025,
+        "doi": "10.1158/1538-7445.am2025-1579",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "cb388873b5f5aad35e4bbfee014bbe02b97e2db5d53e3af22910d0899ad70bc9",
+          "characters": 3163
+        }
+      },
+      {
+        "elicitId": "ss-276956260",
+        "title": "A novel DNA sequence-selective, guanine mono-alkylating ADC payload suitable for solid tumour treatment",
+        "authors": [
+          "P. Andriollo",
+          "Daniella M. di Mascio",
+          "Paul Jackson",
+          "Md Mahbub Hasan",
+          "Ilona Pysz-Hosey",
+          "George Procopiou",
+          "Keith R. Fox",
+          "K. Rahman",
+          "David E. Thurston"
+        ],
+        "year": 2025,
+        "doi": "10.1039/d4md01040j",
+        "pmid": "40352674",
+        "venue": "RSC Medicinal Chemistry",
+        "citedByCount": 1,
+        "urls": [
+          "https://kclpure.kcl.ac.uk/ws/files/328854392/d4md01040j_1_.pdf",
+          "https://pubs.rsc.org/en/content/articlepdf/2025/md/d4md01040j"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://pubs.rsc.org/en/content/articlepdf/2025/md/d4md01040j",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "bf445a22aa3af0cb00fc8f9288e7892a5e075eebab5cf15f5912c831ae4e4b27",
+          "characters": 1249
+        }
+      },
+      {
+        "elicitId": "ss-79265171",
+        "title": "Antibody-Drug Conjugates",
+        "authors": [
+          "K. Miura"
+        ],
+        "year": 2017,
+        "doi": "10.4264/NUMA.76.1_15",
+        "pmid": null,
+        "venue": "Journal of Nihon University Medical Association",
+        "citedByCount": 0,
+        "urls": [
+          "https://www.jstage.jst.go.jp/article/numa/76/1/76_15/_pdf",
+          "https://doi.org/10.4264/numa.76.1_15"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://www.jstage.jst.go.jp/article/numa/76/1/76_15/_pdf",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "f5b042635a4b73049589270f7ffc7df1130a2429762b645bc2d00c1c5fc98034",
+          "characters": 666
+        }
+      },
+      {
+        "elicitId": "ss-287195820",
+        "title": "Abstract 1712: PA289: A first-in-class prodrug payload with a novel mechanism of action and favorable efficacy/safety profile",
+        "authors": [
+          "Alicja Turska",
+          "Marc Lee",
+          "Bryony Moss",
+          "Yong Yi",
+          "Iris Britwum",
+          "S. Barton",
+          "Zoë H. Jukes",
+          "Toni A Pringle",
+          "A. Lodge",
+          "J. Mysliwy",
+          "J. Deckert",
+          "R. J. Lutz"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1538-7445.am2026-1712",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "f3c1374a5c0abd22da61474d5b7994d0b1ff4dd5160b9d646d202a42f71943a4",
+          "characters": 3281
+        }
+      },
+      {
+        "elicitId": "ss-251696378",
+        "title": "Payloads for Antibody–Drug Conjugates",
+        "authors": [
+          "William R. F. Goundry",
+          "J. Parker"
+        ],
+        "year": 2022,
+        "doi": "10.1021/acs.oprd.2c00227",
+        "pmid": null,
+        "venue": "Organic Process Research &amp; Development",
+        "citedByCount": 16,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "4635475af4fa99af8ed8c2d2352983078faa50a067764e44c6b55b2cb3abb8d0",
+          "characters": 1928
+        }
+      },
+      {
+        "elicitId": "ss-216072635",
+        "title": "The Resurgence of Antibody Drug Conjugates in Cancer Therapeutics: Novel Targets and Payloads.",
+        "authors": [
+          "V. Boni",
+          "Manish R. Sharma",
+          "A. Patnaik"
+        ],
+        "year": 2020,
+        "doi": "10.1200/edbk_281107",
+        "pmid": "32315240",
+        "venue": "American Society of Clinical Oncology educational book. American Society of Clinical Oncology. Annual Meeting",
+        "citedByCount": 62,
+        "urls": [
+          "https://ascopubs.org/doi/pdfdirect/10.1200/EDBK_281107"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://ascopubs.org/doi/pdfdirect/10.1200/EDBK_281107",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "3edee9b191595d43ce2a00e76dbb2ac6ab87f511a180349b2ae472238f748d7f",
+          "characters": 1819
+        }
+      },
+      {
+        "elicitId": "ss-287175567",
+        "title": "Abstract 4445: Diverse ADC novel payloads, comprehensive screening and evaluation platform",
+        "authors": [
+          "Ying Meng",
+          "Qian Wang",
+          "M. Kang",
+          "Xuan Qiao",
+          "Chanrui Wang",
+          "Yixiao Zhao",
+          "Jia-Ren Lin",
+          "Jiamei Zhao",
+          "Li Li",
+          "Tie-Jun Bing"
+        ],
+        "year": 2026,
+        "doi": "10.1158/1538-7445.am2026-4445",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "6322c76ea012051f600bab8fe77f9523937d9064fe5b1d1703db3c27fead2a30",
+          "characters": 2215
+        }
+      },
+      {
+        "elicitId": "ss-212876783",
+        "title": "Abstract C030: A new low potency DNA guanine monoalkylating ADC payload with enhancedin vivotolerability",
+        "authors": [
+          "N. Veillard",
+          "P. Andriollo",
+          "Francesco Cascio",
+          "P. Jackson",
+          "D. Thurston"
+        ],
+        "year": 2019,
+        "doi": "10.1158/1535-7163.TARG-19-C030",
+        "pmid": null,
+        "venue": "Therapeutic Agents: Biological",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "43e2c6b60b447e475d4a9a8321ef9df540c06a5ce410e61bd13a7a9e8e2c0af0",
+          "characters": 2694
+        }
+      },
+      {
+        "elicitId": "ss-8387881",
+        "title": "Antibody–drug conjugates: an emerging modality for the treatment of cancer",
+        "authors": [
+          "M. Leal",
+          "P. Sapra",
+          "S. Hurvitz",
+          "P. Senter",
+          "A. Wahl",
+          "M. Schutten",
+          "Dhaval K. Shah",
+          "N. Haddish-Berhane",
+          "O. Kabbarah"
+        ],
+        "year": 2014,
+        "doi": "10.1111/nyas.12499",
+        "pmid": "25123209",
+        "venue": "Annals of the New York Academy of Sciences",
+        "citedByCount": 72,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/nyas.12499"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/nyas.12499",
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "9396271f60e3f016de0eec94062c3d3ecd5e5aa9f98cd1603d922751523de450",
+          "characters": 692
+        }
+      },
+      {
+        "elicitId": "ss-3676204",
+        "title": "Antibody-Drug Conjugates",
+        "authors": [
+          "L. Ducry"
+        ],
+        "year": 2013,
+        "doi": "10.1007/978-1-62703-541-5",
+        "pmid": null,
+        "venue": "Methods in Molecular Biology",
+        "citedByCount": 287,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "498bfcd72cf867a449cc835730d8bdb3b0e967923b43be2593df6c13dae9e15c",
+          "characters": 200
+        }
+      },
+      {
+        "elicitId": "ss-253231661",
+        "title": "The first ADC bearing the ferroptosis inducer RSL3 as a payload with conservation of the fragile electrophilic warhead.",
+        "authors": [
+          "K. Nguyen",
+          "L. Conilh",
+          "P. Falson",
+          "C. Dumontet",
+          "A. Boumendjel"
+        ],
+        "year": 2022,
+        "abstract": null,
+        "doi": "10.1016/j.ejmech.2022.114863",
+        "pmid": "36334452",
+        "venue": "European journal of medicinal chemistry",
+        "citedByCount": 33,
+        "urls": [
+          "https://ars.els-cdn.com/content/image/1-s2.0-S0223523422007656-ga1_lrg.jpg"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://ars.els-cdn.com/content/image/1-s2.0-S0223523422007656-ga1_lrg.jpg"
+      },
+      {
+        "elicitId": "ss-249730799",
+        "title": "Abstract 1749: A new class of DNA sequence-selective G-A cross-linking antibody-drug conjugate (ADC) payloads",
+        "authors": [
+          "George Procopiou",
+          "P. Jackson",
+          "Daniella M. di Mascio",
+          "Jennifer L. Auer",
+          "P. Andriollo",
+          "Ilona Pysz",
+          "K. M. Rahman",
+          "K. Fox",
+          "D. Thurston"
+        ],
+        "year": 2022,
+        "doi": "10.1158/1538-7445.am2022-1749",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "7eeabcefa57c5c381bd4032968f4354d33151b03cb7007fafae8064752b74986",
+          "characters": 3233
+        }
+      },
+      {
+        "elicitId": "ss-271481670",
+        "title": "Antibody-drug conjugates for targeted cancer therapy: Recent advances in potential payloads.",
+        "authors": [
+          "Mei-Yang Xi",
+          "Jingjing Zhu",
+          "Fengxia Zhang",
+          "Hua-Liang Shen",
+          "Jianhui Chen",
+          "Ziyan Xiao",
+          "Yang Huang Fu",
+          "Chun-Lei Wu",
+          "Hao-Peng Sun",
+          "Gang Xia"
+        ],
+        "year": 2024,
+        "abstract": null,
+        "doi": "10.1016/j.ejmech.2024.116709",
+        "pmid": "39068862",
+        "venue": "European journal of medicinal chemistry",
+        "citedByCount": 44,
+        "urls": [
+          "https://doi.org/10.7270/q2dj5mbp"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.7270/q2dj5mbp"
+      },
+      {
+        "elicitId": "ss-277987004",
+        "title": "Abstract 6739: Antibody-drug conjugates with novel payloads are enabled by an ultra-high DAR platform",
+        "authors": [
+          "E. Lecky",
+          "Adam Voelker",
+          "I. Ranieri",
+          "Andrew Kassick",
+          "Cassandra Crihfield",
+          "Christopher Fried",
+          "Dorien E. Carpenter",
+          "David Wilson",
+          "Robert Fryberger",
+          "Jingyi Li",
+          "Amanda Mincey",
+          "Matthew Cummings",
+          "Alex Toker",
+          "Krzysztof Matyjaszewski",
+          "A. Simakova",
+          "Laura E. Benjamin"
+        ],
+        "year": 2025,
+        "doi": "10.1158/1538-7445.am2025-6739",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "fbfae9a03be002aa106c32f862a6209f2ecbd4911c8a035eb313e9e95fdac382",
+          "characters": 2463
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "6218bfb53b2dc09ddfaec16e09bb6095ccd0c327885823d5cb0b18d5cfc3255d",
+    "sourceBytes": 56807,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

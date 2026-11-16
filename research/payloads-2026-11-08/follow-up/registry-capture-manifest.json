@@ -1,0 +1,31 @@
+{
+  "source": "ClinicalTrials.gov API v2",
+  "complete": true,
+  "queries": [
+    {
+      "id": "named-payload-programs-and-semantic-identifiers",
+      "params": {
+        "filter.ids": "NCT04879043,NCT07529782,NCT05514717,NCT05070247,NCT04278144,NCT05954143,NCT05091528,NCT04460456,NCT00915681"
+      },
+      "complete": true,
+      "pages": 1,
+      "retrievedCount": 9,
+      "totalCount": 9
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "named-payload-programs-and-semantic-identifiers/page-0001.json",
+      "url": "https://clinicaltrials.gov/api/v2/studies?filter.ids=NCT04879043%2CNCT07529782%2CNCT05514717%2CNCT05070247%2CNCT04278144%2CNCT05954143%2CNCT05091528%2CNCT04460456%2CNCT00915681&format=json&pageSize=100&countTotal=true",
+      "retrievedAt": "2026-11-09T05:55:13.280359+00:00",
+      "bytes": 535429,
+      "sha256": "0056f5dc988a6dc4e9788ecbe23bc8d59d8e4a55c8827b3c8410e2234ff92f5a"
+    }
+  ],
+  "uniqueRecords": 9,
+  "statuses": {
+    "TERMINATED": 6,
+    "UNKNOWN": 1,
+    "RECRUITING": 2
+  }
+}

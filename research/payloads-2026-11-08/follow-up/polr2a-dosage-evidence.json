@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-09T05:52:06.362Z",
+  "request": {
+    "query": "Which primary studies or retraction/correction notices test POLR2A copy-number collateral vulnerability, amanitin antibody conjugates and normal-tissue uptake, distinguishing TP53 deletion from mutation and nanoparticle siRNA from an ADC?",
+    "searchMode": "semantic",
+    "maxResults": 10,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-216343373",
+        "title": "Abstract P3-10-19: Precise targeting of POLR2A for treating triple negative breast cancer with Chr17p loss",
+        "authors": [
+          "Xiong-Bin Lu",
+          "Yu-Jing Li",
+          "Yi-Fan Sun",
+          "Kevin Van der Jeught",
+          "Michael Kulke",
+          "Pahl Andreas",
+          "Xin-Na Zhang",
+          "Xiao-Ming He",
+          "Chi Zhang"
+        ],
+        "year": 2020,
+        "doi": "10.1158/1538-7445.sabcs19-p3-10-19",
+        "pmid": null,
+        "venue": "Poster Session Abstracts",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "062654d764600f2c326a4587af4456d7e059c80a391328beacc745beebfb7e96",
+          "characters": 3734
+        }
+      },
+      {
+        "elicitId": "ss-58068857",
+        "title": "Abstract 2633: TP53 loss creates therapeutic vulnerability in cancer",
+        "authors": [
+          "Yun-Hua Liu",
+          "Xiong-Bin Lu"
+        ],
+        "year": 2014,
+        "doi": "10.1158/1538-7445.AM2014-2633",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "9cfe167069720bd772f94ca8d6d5265f92d2f1f997eee7b3d27364c7824b2e14",
+          "characters": 1452
+        }
+      },
+      {
+        "elicitId": "ss-210671528",
+        "title": "Author Correction: Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer",
+        "authors": [
+          "Jiangsheng Xu",
+          "Yunhua Liu",
+          "Yujing Li",
+          "Hai Wang",
+          "Samantha Stewart",
+          "Kevin Van der Jeught",
+          "P. Agarwal",
+          "Yuntian Zhang",
+          "Sheng Liu",
+          "Gang Zhao",
+          "J. Wan",
+          "Xiongbin Lu",
+          "Xiaoming He"
+        ],
+        "year": 2020,
+        "doi": "10.1038/s41565-020-0635-3",
+        "pmid": "31953520",
+        "venue": "Nature Nanotechnology",
+        "citedByCount": 2,
+        "urls": [
+          "https://www.nature.com/articles/s41565-020-0635-3.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41565-020-0635-3.pdf",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "099788261dd09e0846ae240a1f1daa0655b2d847562bd9d6f18ce04249d7d594",
+          "characters": 101
+        }
+      },
+      {
+        "elicitId": "ss-208455069",
+        "title": "HDP-101, a Novel BCMA-targeted Antibody Conjugated to α-Amanitin, is Active against Myeloma with Preferential Efficacy against Pre-clinical Models of Deletion 17p",
+        "authors": [
+          "Ram K. Singh",
+          "Richard J. Jones",
+          "F. Shirazi",
+          "Samuel Hong",
+          "Hua Wang",
+          "Jie Wan",
+          "Isere Kuitase",
+          "A. Pahl",
+          "R. Orlowski"
+        ],
+        "year": 2019,
+        "doi": "10.1016/j.clml.2019.09.253",
+        "pmid": null,
+        "venue": "Clinical Lymphoma, Myeloma & Leukemia",
+        "citedByCount": 10,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "not-returned",
+          "sha256": null,
+          "characters": 0
+        }
+      },
+      {
+        "elicitId": "ss-86624147",
+        "title": "HDP101, a Novel B-Cell Maturation Antigen (BCMA)-Targeted Antibody Conjugated to α-Amanitin, Is Active Against Myeloma with Preferential Efficacy Against Pre-Clinical Models of Deletion 17p",
+        "authors": [
+          "Ram K. Singh",
+          "Richard J. Jones",
+          "Samuel Hong",
+          "F. Shirazi",
+          "Hua Wang",
+          "I. Kuiatse",
+          "A. Pahl",
+          "R. Orlowski"
+        ],
+        "year": 2018,
+        "doi": "10.1182/BLOOD-2018-99-118412",
+        "pmid": null,
+        "venue": "Blood",
+        "citedByCount": 18,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "e795991a7fb98728e95043ea981b33b672fd4753c6c8ac8905e015ecd8625744",
+          "characters": 5073
+        }
+      },
+      {
+        "elicitId": "ss-228921495",
+        "title": "A First in Human Study Planned to Evaluate Hdp-101, an Anti-BCMA Amanitin Antibody-Drug Conjugate with a New Payload and a New Mode of Action, in Multiple Myeloma",
+        "authors": [
+          "A. Strassz",
+          "M. Raab",
+          "R. Orlowski",
+          "Michael Kulke",
+          "G. Schiedner",
+          "A. Pahl"
+        ],
+        "year": 2020,
+        "doi": "10.1182/BLOOD-2020-142285",
+        "pmid": null,
+        "venue": "Blood",
+        "citedByCount": 17,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "11dee5c1ac96aa4f1ae722e0e41741080e141ba5ea6470c9b4321fe6883c6b28",
+          "characters": 5894
+        }
+      },
+      {
+        "elicitId": "ss-288419322",
+        "title": "TP53 loss creates therapeutic vulnerability in colorectal cancer",
+        "authors": [
+          "Yun-Hua Liu",
+          "Xin-Na Zhang",
+          "Cecil Han",
+          "Guohui Wan",
+          "Xingxu Huang",
+          "Cristina Ivan",
+          "Dahai Jiang",
+          "C. Rodríguez-Aguayo",
+          "G. Lopez-Berestein",
+          "P. Rao",
+          "D. Maru",
+          "Andreas M. Pahl",
+          "Xiao-Ming He",
+          "Anil K. Sood",
+          "Lee M. Ellis",
+          "Jan Anderl",
+          "Xiongbin Lu"
+        ],
+        "year": 2015,
+        "doi": "10.1038/nature14418",
+        "pmid": "25901683",
+        "venue": "Nature",
+        "citedByCount": 24,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/4417759"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/4417759",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "c2b650b67c6dd67172af10b661df01537ea6d71c0f8f1a75a7842a7e5d716582",
+          "characters": 1798
+        }
+      },
+      {
+        "elicitId": "ss-4404714",
+        "title": "Cancer: An essential passenger with p53",
+        "authors": [
+          "J. Bradner"
+        ],
+        "year": 2015,
+        "doi": "10.1038/nature14390",
+        "pmid": "25901678",
+        "venue": "Nature",
+        "citedByCount": 17,
+        "urls": [
+          "https://www.nature.com/articles/nature14390.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/nature14390.pdf",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "20775462544c709f17f6a2725e41b3a83949898a88c4cc194f6816104729991d",
+          "characters": 1247
+        }
+      },
+      {
+        "elicitId": "ss-73472227",
+        "title": "Precise targeting of POLR2A as a therapeutic strategy for human triple negative breast cancer",
+        "authors": [
+          "Jiang-Sheng Xu",
+          "Yun-Hua Liu",
+          "Yu-Jing Li",
+          "Hai Wang",
+          "Samantha Stewart",
+          "Kevin Van der Jeught",
+          "P. Agarwal",
+          "Yun-Tian Zhang",
+          "Sheng Liu",
+          "Gang Zhao",
+          "J. Wan",
+          "Xiong-Bin Lu",
+          "Xiao-Ming He"
+        ],
+        "year": 2019,
+        "doi": "10.1038/s41565-019-0381-6",
+        "pmid": "30804480",
+        "venue": "Nature Nanotechnology",
+        "citedByCount": 133,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/6449187"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/6449187",
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "8f74029e0115851f2abd881ec6ee3140beea9362c557bea3cb45e4a9f54aaa16",
+          "characters": 1202
+        }
+      },
+      {
+        "elicitId": "ss-272785867",
+        "title": "Abstract B156: TP53 loss creates therapeutic vulnerability in colorectal cancer",
+        "authors": [
+          "Yun-Hua Liu",
+          "Xiongbin Lu"
+        ],
+        "year": 2015,
+        "doi": "10.1158/1535-7163.TARG-15-B156",
+        "pmid": null,
+        "venue": "Molecular Cancer Therapeutics",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null,
+        "abstractRetention": {
+          "status": "outside-public-checkout",
+          "sha256": "d820bdf97629607081e14d67258876096d189d2a7244de6ff4e743865f574789",
+          "characters": 2221
+        }
+      }
+    ],
+    "warnings": []
+  },
+  "custody": {
+    "representation": "metadata-only",
+    "rawCaptureSha256": "c902dc7e4339c522bfda0df1cdf91c7c3218a30f813c1b5450a33556434515bf",
+    "rawBytes": 30850,
+    "excludedFields": [
+      "response.papers[].abstract"
+    ],
+    "rawLocation": "Exact original response retained outside public checkout; bodies excluded in full, not edited quotations."
+  }
+}

@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 16 November 2026
+- Antibody-drug conjugate payloads get deeper coverage from a contributor: 34 new records and 31 supplemented ones that keep free drugs, attached linker-drugs and released forms apart, each measurement with its experiment and source
 - Glossary links now respect capitals, so ordinary words such as platinum, select, open and decision no longer link to trials and acronyms that share their spelling, about twelve thousand false links fewer; with the weekly refresh of trial counts, universe lists, logos, the fact check and two EU register rows
 - Names with a digit link in any case again, and the ordinary words "verify" and "alliance" stop linking
 - Eighty more countries get deep dives researched by agents and checked claim by claim by a second agent, the menu shows one Countries entry instead of a line per country, Ask reads first any medicine a question names by name or brand, and the ivonescimab record now states that the FDA issued a complete response letter, announced on 15 November 2026
@@ -146,6 +147,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Three care protocols read from their guidelines: accessing and caring for an implanted port, chemotherapy leaking out of the vein by drug class, and the first hour of suspected neutropenic sepsis
 - A new record kind for care protocols: how a part of cancer care is carried out, step by step, each step with its reason, its source and the grade the source gives it
 - Every country in GLOBOCAN has a page: 144 automatic country pages beside the 39 deep dives, France's overseas departments on the France page, and a filterable list of every country on /countries/
+- Clarify conjugate sensing, redesign and transcription evidence
 - chore: weekly citation link check (#392)
 - chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE)
 - chore: check regional approvals against the EMA register (#390)
@@ -171,6 +173,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#384)
 
 ### 9 November 2026
+- Distinguish ADC chemical species and add tubulin cargo designs
 - chore: weekly fact check, audit, and provenance refresh (#383)
 - chore: render this week's issue to public/newsletter/ (#382)
 - chore: refresh public/votes.json from Discussions reactions (#381)
@@ -179,6 +182,9 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#377)
 
 ### 8 November 2026
+- Explain dose coupling in fixed-composition dual-payload conjugates
+- Clarify payload identities and evidence scopes
+- Expand sourced antibody-conjugate payload concepts beyond TOP1
 - chore: draft change proposals that need review (#367)
 - chore: EU regional rows read from the EMA register pages (#366)
 

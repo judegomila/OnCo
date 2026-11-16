@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/trials",
+  "retrievedAt": "2026-11-08T18:06:46.680Z",
+  "request": {
+    "query": "Antibody conjugates carrying non-topoisomerase payloads: amanitin HDP-101, BCL-XL ABBV-155, degrader ORM-5029 ORM-6151, STING agonist XMT-2056 TAK-500, TLR agonist BDC-1001 SBT6050",
+    "searchMode": "semantic",
+    "maxResults": 25
+  },
+  "response": {
+    "trials": [
+      {
+        "nctId": "NCT05514717",
+        "title": "A Study of XMT-2056 in Advanced/Recurrent Solid Tumors That Express HER2",
+        "summary": "Status: TERMINATED\n\nSummary\n\nThe first-in-human (FIH) study of XMT-2056 is a Phase 1, open-label study of XMT-2056 in previously treated patients with advanced/recurrent solid tumors expressing HER2. The XMT-2056 monotherapy trial will consist of dose escalation (DES) and expansion (EXP) parts.\n\nDES will be the dose-finding portion of the study to assess the safety and tolerability of XMT-2056 and determine the maximum tolerated dose (MTD) and/or Recommended Phase 2 Dose (RP2D). The RP2D will be determined based on the totality of the clinical data, including safety and preliminary anti-tumor effect, PK, and relevant biomarker data.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- United States\n\n14 sites\n\nOutcomes\n\nPrimary Outcomes\n\nFrequency of dose-limiting toxicities (DLTs) associated with XMT-2056 during the first cycle of treatment (Dose Escalation)\n\nIncidence of adverse events (Dose Escalation and Dose Expansion)\n\nObjective Response Rate (ORR) (Dose Expansion)\n\nSecondary Outcomes\n\nObjective Response Rate (ORR) (Dose Escalation)\n\nDuration of response (DOR) (Dose Escalation and Dose Expansion)\n\nDisease control rate (DCR) (Dose Escalation and Dose Expansion)\n\nTime of maximum observed plasma concentration of XMT-2056 (Tmax) (Dose Escalation and Dose Expansion)\n\nMaximum observed plasma concentration of XMT-2056 (Cmax) (Dose Escalation and Dose Expansion)\n\nArea under the concentration-time curve of XMT-2056 (AUC) (Dose Escalation and Dose Expansion)\n\nSystemic clearance of XMT-2056 (Dose Escalation and Dose Expansion)\n\nApparent terminal elimination of half-life of XMT-2056 (Dose Escalation and Dose Expansion)\n\nVolume of Distribution (Dose Escalation and Dose Expansion)\n\nTrough concentration of XMT-2056 (Ctrough) (Dose Escalation and Dose Expansion)\n\nSerum samples for analysis of XMT-2056 antidrug and neutralizing antibodies (ADA/nAb) (Dose Escalation and Dose Expansion)\n\nInterventions\n\nXMT-2056\n\nType: Drug\n\nDescription: XMT-2056 will be administered through a vein in your arm or port catheter (intravenously)\n\nArms: XMT-2056",
+        "url": "https://clinicaltrials.gov/study/NCT05514717",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 57,
+        "conditions": [
+          "HER2-positive Breast Cancer",
+          "HER2-positive Gastric Cancer",
+          "HER2-positive Non-Small Cell Lung Cancer",
+          "HER2-positive Colorectal Cancer",
+          "HER2-positive Tumors",
+          "HER2 Low Breast Cancer"
+        ],
+        "interventions": [
+          "XMT-2056"
+        ],
+        "leadSponsor": "Day One Biopharmaceuticals, Inc.",
+        "startDate": "2023-01-24",
+        "primaryCompletionDate": "2026-05-22",
+        "completionDate": "2026-05-22",
+        "hasResults": false,
+        "lastUpdatedYear": 2026
+      },
+      {
+        "nctId": "NCT07529782",
+        "title": "Study to Assess Safety and Efficacy of HDP-101 in Chinese Patients With Relapsed or Refractory Multiple Myeloma",
+        "summary": "Status: RECRUITING\n\nSummary\n\nThis study is a 2-part study with a dose-escalation part and a dose-expansion part. The aim of the dose-escalation part is to determine the maximum tolerated dose (MTD) and/or establish the recommended Phase 2 dose (RP2D) in the Chinese population, in order to select the treatment dose for the dose-expansion part. The dose-escalation part will be followed by the dose-expansion part once the MTD(s) and/or RP2D of HDP-101 monotherapy in the Chinese population have been determined. The dose-expansion part of the study is intended to collect preliminary evidence of antitumor activity and to confirm the safety of the HDP-101 as monotherapy in Chinese patients with r/r MM.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1\n\nEligibility\n\n- Age: Maximum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- China\n\n5 sites\n\nOutcomes\n\nPrimary Outcomes\n\nNumber of patients who experience a dose-limiting toxicity (DLT) during the first cycle of treatment.\n\nSecondary Outcomes\n\nNumber of patients with serious and non-serious adverse events\n\nObjective response rate (ORR)\n\nMinimal residual disease (MRD) negativity rate\n\nProgression-free survival (PFS)\n\nDuration of response (DOR)\n\nTime to objective response (TOR)\n\nOverall survival (OS)\n\nInterventions\n\nHDP-101\n\nType: Drug\n\nDescription: HDP-101 is available as lyophilized white powder for preparation of infusion.\n\nArms: HDP-101",
+        "url": "https://clinicaltrials.gov/study/NCT07529782",
+        "overallStatus": "RECRUITING",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 15,
+        "conditions": [
+          "Multiple Myeloma and Other Plasma Cell Neoplasms"
+        ],
+        "interventions": [
+          "HDP-101"
+        ],
+        "leadSponsor": "Hangzhou Zhongmei Huadong Pharmaceutical Co., Ltd.",
+        "startDate": "2026-03-17",
+        "primaryCompletionDate": "2026-06-30",
+        "completionDate": "2026-12-31",
+        "hasResults": false,
+        "lastUpdatedYear": 2026
+      },
+      {
+        "nctId": "NCT04879043",
+        "title": "Study to Assess Safety of HDP-101 in Patients With Relapsed Refractory Multiple Myeloma",
+        "summary": "Status: RECRUITING\n\nSummary\n\nThe study will consists of two parts: a Part 1 dose escalation phase and a Part 2a expansion phase for safety, tolerability, PK, PD, and clinical activity testing. The study will enroll subjects with relapsed/refractory MM or other plasma cell disorders expressing BCMA. An adaptive 2-parameter Bayesian logistic regression model (BLRM) for dose-escalation with overdose control will be used in the dose-escalation phase for determination of the MTD or the RP2D. Dose-expansion phase of the study aims to collect preliminary evidence of antitumor activity and to confirm the safety of the HDP-101 as a monotherapy.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1, PHASE2\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- Germany\n\n- Hungary\n\n- Poland\n\n- Romania\n\n- United States\n\n24 sites\n\nOutcomes\n\nPrimary Outcomes\n\nNumber of patients who experience dose-limiting toxicity (DLT) during the first cycle of treatment - Part 1 as defined in Clinical Study Protocol\n\nObjective response rate (ORR)\n\nSecondary Outcomes\n\nAssess the safety and tolerability of HDP-101\n\nTo assess the anticancer activity of HDP-101 in terms of time-to-event (TTE)\n\nInterventions\n\nHDP-101\n\nType: Drug\n\nDescription: HDP-101 is available as lyophilized white powder for preparation of infusion.\n\nArms: HDP-101",
+        "url": "https://clinicaltrials.gov/study/NCT04879043",
+        "overallStatus": "RECRUITING",
+        "phase": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 78,
+        "conditions": [
+          "Multiple Myeloma",
+          "Plasma Cell Disorder"
+        ],
+        "interventions": [
+          "HDP-101"
+        ],
+        "leadSponsor": "Heidelberg Pharma AG",
+        "startDate": "2022-02-07",
+        "primaryCompletionDate": "2028-03",
+        "completionDate": "2028-09",
+        "hasResults": false,
+        "lastUpdatedYear": 2026
+      },
+      {
+        "nctId": "NCT05511844",
+        "title": "Study of ORM-5029 in Subjects With HER2-Expressing Advanced Solid Tumors",
+        "summary": "Status: TERMINATED\n\nSummary\n\nThis is a Phase 1 first-in-human study of ORM-5029 in participants with HER2-expressing advanced solid tumors. The study consists of two parts: a Part 1 Dose Escalation and Part 2 Dose Expansion.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- United States\n\n11 sites\n\nOutcomes\n\nPrimary Outcomes\n\nDetermination of Maximum Tolerated Dose (MTD) and Expansion Dose Level (EDL) [Dose Escalation Only]\n\nIncidence of Adverse Events (AEs)\n\nDefine the Objective Response Rate (ORR) of ORM-5029 based on Response Evaluation Criteria In Solid Tumors (RECIST) 1.1 [Dose Expansion Only]\n\nDefine the Duration of Response (DOR) of ORM-5029 based on Response Evaluation Criteria In Solid Tumors (RECIST) 1.1 [Dose Expansion Only]\n\nSecondary Outcomes\n\nAssess pharmacokinetic (PK) parameters including area under the concentration versus time curve from time 0 hours to the last quantifiable concentration (AUC0-last) and from time 0 hours to infinity (AUC0-inf)\n\nAssess maximum plasma and serum drug concentration (Cmax)\n\nDefine time to Cmax (Tmax)\n\nAccess pharmacokinetic (PK) parameters including terminal rate consent and terminal elimination half-life (t1/2)\n\nDefine Clinical Benefit Rate (CBR) of ORM-5029 based on RECIST 1.1\n\nDefine Time to Response (TTR) of ORM-5029 based on RECIST 1.1\n\nDefine Duration of Response (DOR) of ORM-5029 based on RECIST 1.1 [Dose Escalation Only]\n\nAssess Progression-free survival (PFS) of ORM-5029 based on RECIST 1.1\n\nAssess overall survival (OS)\n\nIncidence of anti-drug antibody (ADA) against ORM-5029\n\nInterventions\n\nORM-5029\n\nType: Drug\n\nDescription: Intravenous infusion\n\nArms: Part 1 Dose Escalation, Part 2 Dose Expansion",
+        "url": "https://clinicaltrials.gov/study/NCT05511844",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 25,
+        "conditions": [
+          "HER2-positive Breast Cancer",
+          "HER-2 Protein Overexpression",
+          "HER-2 Gene Amplification",
+          "HER2 Gene Mutation"
+        ],
+        "interventions": [
+          "ORM-5029"
+        ],
+        "leadSponsor": "Orum Therapeutics USA, Inc.",
+        "startDate": "2022-10-03",
+        "primaryCompletionDate": "2025-06-02",
+        "completionDate": "2025-06-02",
+        "hasResults": false,
+        "lastUpdatedYear": 2025
+      },
+      {
+        "nctId": "NCT05954143",
+        "title": "Trial of BDC-1001 +/- Pertuzumab in Subjects With HER2-Positive Metastatic Breast Cancer",
+        "summary": "Status: TERMINATED\n\nResults: Available\n\nSummary\n\nEligible subjects will be randomly assigned in a 1:1 ratio to receive BDC-1001 as a single agent or BDC-1001 in combination with pertuzumab. Within each treatment arm, a Simon 2-stage design will be applied. Subjects will receive study treatment (i.e., BDC-1001 or BDC-1001 in combination with pertuzumab) for up to 24 months after Cycle 1 Day 1 (C1D1), until disease progression, unacceptable toxicity, or withdrawal for any reason.\n\nBolt amended the protocol to transition any subjects still receiving BDC-1001 to continue receiving BDC-1001 in the Maintenance Phase. Subjects remaining on BDC-1001 will continue to receive BDC-1001 until a criterion for discontinuation has been met.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE2\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- Spain\n\n- United States\n\n4 sites\n\nOutcomes\n\nPrimary Outcomes\n\nObjective Response Rate (ORR) Per RECIST v1.1 as Assessed by Investigator\n\nSecondary Outcomes\n\nDuration of Response (DOR) Per RECIST v1.1 as Assessed by Investigator\n\nDisease Control Rate (DCR) Per RECIST v1.1 as Assessed by Investigator\n\nProgression-Free Survival (PFS) Per RECIST 1.1 as Assessed by Investigator\n\nOverall Survival (OS)\n\nNumber of Participants With at Least 1 Treatment Emergent Adverse Event (TEAE)\n\nNumber of Participants Who Had Any Treatment Emergent Adverse Event (TEAE) Related to Study Treatment\n\nNumber of Participants With Any Treatment Emergent Serious Adverse Event (SAE) Related to Study Treatment\n\nInterventions\n\nBDC-1001\n\nType: Drug\n\nDescription: BDC-1001 is an immune-stimulating antibody conjugate (ISAC) designed to be delivered systemically (intravenously) and act locally by targeting HER2-expressing tumors and related metastatic disease for destruction by the innate and adaptive immune systems. BDC-1001 consists of an investigational biosimilar of the humanized monoclonal antibody (mAb) trastuzumab that is chemically conjugated to a toll-like receptor (TLR)7/8 agonist (payload) with an intervening non-cleavable, cell membrane impermeable linker.\n\nArms: BDC-1001 Single Agent, BDC-1001 in Combination With Pertuzumab\n\nPertuzumab\n\nType: Drug\n\nDescription: Pertuzumab is a monoclonal antibody that targets HER2 and prevents dimerization of HER2 with other members of the HER family (HER1, HER3, and HER4), thereby blocking ligand-activated downstream signaling.\n\nArms: BDC-1001 in Combination With Pertuzumab\n\nOther Names: Perjeta®",
+        "url": "https://clinicaltrials.gov/study/NCT05954143",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 11,
+        "conditions": [
+          "Metastatic Breast Cancer",
+          "HER2-positive Breast Cancer"
+        ],
+        "interventions": [
+          "BDC-1001",
+          "Pertuzumab"
+        ],
+        "leadSponsor": "Bolt Biotherapeutics, Inc.",
+        "startDate": "2023-11-30",
+        "primaryCompletionDate": "2024-09-20",
+        "completionDate": "2024-09-25",
+        "hasResults": true,
+        "lastUpdatedYear": 2025
+      },
+      {
+        "nctId": "NCT03595059",
+        "title": "A Study With ABBV-155 Alone and in Combination With Taxane Therapy in Adults With Relapsed and/or Refractory Solid Tumors",
+        "summary": "Status: COMPLETED\n\nSummary\n\nThe Escalation cohorts (Part 1) have been completed. The expansion cohorts (Part 2) are open to enrollment.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- Australia\n\n- Canada\n\n- Israel\n\n- Japan\n\n- Netherlands\n\n- Puerto Rico\n\n- South Korea\n\n- Spain\n\n- Taiwan\n\n- United States\n\n40 sites\n\nOutcomes\n\nPrimary Outcomes\n\nMTD and/or RPTD of ABBV-155\n\nOverall Response Rate (ORR)\n\nSecondary Outcomes\n\nNumber of Participants with Adverse Events (AE)\n\nDuration of Response (DOR)\n\nRate of Complete Response (CR)\n\nProgression-Free Survival (PFS)\n\nOverall Survival (OS)\n\nCmax of ABBV-155\n\nTmax of ABBV-155\n\nTerminal Phase Elimination Rate constant of ABBV-155\n\nAUCt of ABBV-155\n\nAUCinf of ABBV-155\n\nQTcF Change from Baseline\n\nt1/2 of ABBV-155\n\nInterventions\n\nABBV-155\n\nType: Drug\n\nDescription: Intravenous (IV) Infusion\n\nArms: Escalation 1a: ABBV-155, Escalation 1b: ABBV-155 + paclitaxel or docetaxel, Expansion 2a: ABBV-155 in SCLC, Expansion 2b: ABBV-155 + docetaxel in NSCLC, Expansion 2b: ABBV-155 + paclitaxel in Breast Cancer\n\nPaclitaxel\n\nType: Drug\n\nDescription: Intravenous (IV) Infusion\n\nArms: Escalation 1b: ABBV-155 + paclitaxel or docetaxel, Expansion 2b: ABBV-155 + paclitaxel in Breast Cancer\n\nDocetaxel\n\nType: Drug\n\nDescription: Intravenous (IV) Infusion\n\nArms: Escalation 1b: ABBV-155 + paclitaxel or docetaxel, Expansion 2b: ABBV-155 + docetaxel in NSCLC",
+        "url": "https://clinicaltrials.gov/study/NCT03595059",
+        "overallStatus": "COMPLETED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 168,
+        "conditions": [
+          "Advanced Solid Tumors"
+        ],
+        "interventions": [
+          "ABBV-155",
+          "Paclitaxel",
+          "Docetaxel"
+        ],
+        "leadSponsor": "AbbVie",
+        "startDate": "2018-07-13",
+        "primaryCompletionDate": "2025-09-12",
+        "completionDate": "2025-09-12",
+        "hasResults": false,
+        "lastUpdatedYear": 2025
+      },
+      {
+        "nctId": "NCT04460456",
+        "title": "A Study of SBT6050 Alone and in Combination With PD-1 Inhibitors in Subjects With Advanced HER2 Expressing Solid Tumors",
+        "summary": "Status: UNKNOWN\n\nSummary\n\nThis study has 5 parts. Part 1 will evaluate the safety, tolerability, and activity of escalating doses of SBT6050 to estimate the maximum tolerated dose (MTD) and determine the dose recommended for Part 2. Part 2 of the study will further evaluate SBT6050 in select HER2 expressing or amplified advanced malignancies.\n\nPart 3 will evaluate the safety, tolerability, and activity of escalating doses of SBT6050 in combination with pembrolizumab to estimate the MTD and determine the dose recommended for Part 4. Part 4 of the study will further evaluate SBT6050 in combination with pembrolizumab in select HER2 expressing or amplified advanced malignancies.\n\nPart 5 of the study will evaluate the safety, tolerability, and activity of SBT6050 in combination with cemiplimab in select HER2 expressing or amplified advanced malignancies.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- Australia\n\n- South Korea\n\n- United States\n\n12 sites\n\nOutcomes\n\nPrimary Outcomes\n\nThe proportion of subjects experiencing dose limiting toxicities\n\nThe incidence and severity of adverse events (AEs) and serious adverse events\n\nObjective response rate, defined as confirmed Complete Response (CR) or Partial Response (PR)\n\nDuration of response, defined as the time from date of first response (CR or PR)\n\nSecondary Outcomes\n\nObjective response rate, defined as confirmed Complete Response (CR) or Partial Response (PR)\n\nDuration of response, defined as the time from date of first response (CR or PR)\n\nDisease control rate, defined as CR, PR, or stable disease for at least 6 months\n\nEstimates of selected pharmacokinetics (PK ) parameters for SBT6050\n\nIncidence of antidrug antibodies (ADA) to SBT6050\n\nProgression free survival\n\nInterventions\n\nSBT6050\n\nType: Drug\n\nDescription: Escalating doses of SBT6050 in Part 1 and recommended dose in Part 2\n\nArms: SBT6050 Monotherapy, SBT6050 and cemiplimab, SBT6050 and pembrolizumab\n\npembrolizumab\n\nType: Drug\n\nDescription: 400 mg IV\n\nArms: SBT6050 and pembrolizumab\n\nCemiplimab\n\nType: Drug\n\nDescription: 350 mg IV\n\nArms: SBT6050 and cemiplimab",
+        "url": "https://clinicaltrials.gov/study/NCT04460456",
+        "overallStatus": "UNKNOWN",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 58,
+        "conditions": [
+          "HER2 Positive Solid Tumors"
+        ],
+        "interventions": [
+          "SBT6050",
+          "pembrolizumab",
+          "Cemiplimab"
+        ],
+        "leadSponsor": "Silverback Therapeutics",
+        "startDate": "2020-07-27",
+        "primaryCompletionDate": "2022-12",
+        "completionDate": "2022-12",
+        "hasResults": false,
+        "lastUpdatedYear": 2022
+      },
+      {
+        "nctId": "NCT05070247",
+        "title": "A Study of TAK-500 With or Without Pembrolizumab in Adults With Select Locally Advanced or Metastatic Solid Tumors",
+        "summary": "Status: TERMINATED\n\nResults: Available\n\nSummary\n\nThe drug being tested in this study is called TAK-500. The study will evaluate the safety, tolerability, pharmacokinetics (PK), pharmacodynamics, and preliminary antitumor activity of TAK-500 when used as a single agent (SA) and in combination with pembrolizumab in participants with locally advanced or metastatic solid tumors.\n\nThe study will be conducted in 2 phases: Dose Escalation and Dose Expansion Phase. The study will enroll approximately 313 participants (approximately 82 in the Dose Escalation Phase and approximately 231 in Dose Expansion Phase). The dose escalation phase will determine the recommended dose of TAK-500 along with the combination agents for the dose expansion phase. All the participants will be assigned to one of the 9 arms:\n\n* Dose Escalation: TAK-500 Single Agent (SA)\n\n* Dose Escalation: TAK-500 + Pembrolizumab\n\n* Dose Expansion: 2L NSCLC: TAK-500 recommended dose 1 for expansion (RDE 1) + Pembrolizumab\n\n* Dose Expansion: 2L NSCLC: TAK-500 recommended dose 2 for expansion (RDE 2) + Pembrolizumab\n\n* Dose Expansion: 3L NSCLC: TAK-500 (RDE 1) SA\n\n* Dose Expansion: 3L NSCLC: TAK-500 (RDE 2) SA\n\n* Dose Expansion: 2L Pancreatic Adenocarcinoma: TAK-500 (RDE 1) + Pembrolizumab\n\n* Dose Expansion: 2L Pancreatic Adeno: TAK-500 (RDE 1) SA\n\n* Dose Expansion: 3L RCC: TAK-500 (RDE 1) + Pembrolizumab\n\nThis multi-center trial will be conducted globally. Participants with demonstrated clinical benefit may continue treatment beyond 1 year if approved by the sponsor.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1, PHASE2\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- United States\n\n12 sites\n\nOutcomes\n\nPrimary Outcomes\n\nDose Escalation: Number of Participants Reporting One or More Treatment-emergent Adverse Events (TEAEs)\n\nDose Escalation: Number of Participants With Grade 3 or Higher TEAEs\n\nDose Escalation: Number of Participants With Dose Limiting Toxicities (DLTs)\n\nDose Escalation: Number of Participants Reporting One or More Treatment-emergent Serious Adverse Events (SAEs)\n\nDose Escalation: Number of Participants With One or More TEAEs Leading to Dose Modifications and Treatment Discontinuations\n\nDose Expansion: Overall Response Rate (ORR)\n\nSecondary Outcomes\n\nDose Escalation: Cmax: Maximum Serum Concentration for TAK-500\n\nDose Escalation: Tmax: Time to Reach the Maximum Serum Concentration (Cmax) for TAK-500\n\nDose Escalation: AUCt: Area Under the Serum Concentration-time Curve From Time 0 to Time t for TAK-500\n\nDose Escalation: AUCinf: Area Under the Serum Concentration-time Curve From Time 0 to Infinity for TAK-500\n\nDose Escalation: t1/2: Terminal Disposition Phase Half-life for TAK-500\n\nDose Escalation: CL: Total Clearance After Intravenous Administration for TAK-500\n\nDose Escalation: Vss: Volume of Distribution at Steady State After Intravenous Administration for TAK-500\n\nDose Escalation: Changes in Intratumoral Tumor Cell Infiltration\n\nDose Escalation: Number of Participants With Positive Anti-drug Antibody (ADA) (Acquired Immunogenicity)\n\nDose Escalation: Overall Response Rate (ORR)\n\nDose Escalation: Disease Control Rate (DCR)\n\nDose Escalation: Duration of Response (DOR)\n\nDose Escalation: Time to Response (TTR)\n\nDose Expansion: Progression Free Survival (PFS)\n\nDose Expansion: Overall Survival (OS)\n\nDose Expansion: Number of Participants Reporting One or More Treatment-emergent Adverse Events (TEAEs)\n\nDose Expansion: Number of Participants With Grade 3 or Higher TEAEs\n\nDose Expansion: Number of Participants With Dose Limiting Toxicities (DLTs)\n\nDose Expansion: Number of Participants Reporting One or More Treatment-emergent SAEs\n\nDose Expansion: Number of Participants With One or More TEAEs Leading to Dose Modifications and Treatment Discontinuations\n\nInterventions\n\nTAK-500\n\nType: Drug\n\nDescription: TAK-500 IV infusion.\n\nArms: Combination Dose Escalation: TAK 500 24 µg/kg + Pembrolizumab + 2 DEX, Combination Dose Escalation: TAK-500 16 µg/kg + Pembrolizumab + 1 TOCI, Combination Dose Escalation: TAK-500 40 µg/kg + Pembrolizumab + 2 DEX, Combination Dose Escalation: TAK-500 8 µg/kg + 1 TOCI + Pembrolizumab, Dose Expansion: TAK-500, Single Agent Dose Escalation: TAK-500 16 µg/kg, Single Agent Dose Escalation: TAK-500 16 µg/kg + 1 DEX, Single Agent Dose Escalation: TAK-500 16 µg/kg + 1 TOCI, Single Agent Dose Escalation: TAK-500 16 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 24 µg/kg + 1 TOCI, Single Agent Dose Escalation: TAK-500 24 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 40 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 60 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 8 µg/kg, Single Agent Dose Escalation: TAK-500 8 µg/kg + 1 TOCI\n\nPembrolizumab\n\nType: Drug\n\nDescription: Pembrolizumab IV infusion.\n\nArms: Combination Dose Escalation: TAK 500 24 µg/kg + Pembrolizumab + 2 DEX, Combination Dose Escalation: TAK-500 16 µg/kg + Pembrolizumab + 1 TOCI, Combination Dose Escalation: TAK-500 40 µg/kg + Pembrolizumab + 2 DEX, Combination Dose Escalation: TAK-500 8 µg/kg + 1 TOCI + Pembrolizumab\n\nTocilizumab\n\nType: Drug\n\nDescription: Tocilizumab IV infusion.\n\nArms: Combination Dose Escalation: TAK-500 16 µg/kg + Pembrolizumab + 1 TOCI, Combination Dose Escalation: TAK-500 8 µg/kg + 1 TOCI + Pembrolizumab, Single Agent Dose Escalation: TAK-500 16 µg/kg + 1 TOCI, Single Agent Dose Escalation: TAK-500 24 µg/kg + 1 TOCI, Single Agent Dose Escalation: TAK-500 8 µg/kg + 1 TOCI\n\nDexamethasone\n\nType: Drug\n\nDescription: Dexamethasone IV infusion.\n\nArms: Combination Dose Escalation: TAK 500 24 µg/kg + Pembrolizumab + 2 DEX, Combination Dose Escalation: TAK-500 40 µg/kg + Pembrolizumab + 2 DEX, Single Agent Dose Escalation: TAK-500 16 µg/kg + 1 DEX, Single Agent Dose Escalation: TAK-500 16 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 24 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 40 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 60 µg/kg + 2 DEX\n\nDexamethasone\n\nType: Drug\n\nDescription: Dexamethasone tablet.\n\nArms: Combination Dose Escalation: TAK 500 24 µg/kg + Pembrolizumab + 2 DEX, Combination Dose Escalation: TAK-500 40 µg/kg + Pembrolizumab + 2 DEX, Single Agent Dose Escalation: TAK-500 16 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 24 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 40 µg/kg + 2 DEX, Single Agent Dose Escalation: TAK-500 60 µg/kg + 2 DEX",
+        "url": "https://clinicaltrials.gov/study/NCT05070247",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 61,
+        "conditions": [
+          "Pancreatic Cancer",
+          "Hepatocellular Cancer",
+          "Mesothelioma",
+          "Breast Cancer",
+          "Gastric Cancer",
+          "Esophageal Cancer",
+          "Nasopharyngeal Cancer",
+          "Kidney Cancer",
+          "Squamous Cell Cancer of Head and Neck (SCCHN)",
+          "Non-small Cell Lung Cancer (NSCLC), Non-squamous"
+        ],
+        "interventions": [
+          "TAK-500",
+          "Pembrolizumab",
+          "Tocilizumab",
+          "Dexamethasone",
+          "Dexamethasone"
+        ],
+        "leadSponsor": "Takeda",
+        "startDate": "2022-04-14",
+        "primaryCompletionDate": "2025-01-06",
+        "completionDate": "2025-01-06",
+        "hasResults": true,
+        "lastUpdatedYear": 2026
+      },
+      {
+        "nctId": "NCT05091528",
+        "title": "A Safety and Activity Study of SBT6050 in Combination With Other HER2-directed Therapies for HER2-positive Cancers",
+        "summary": "Status: TERMINATED\n\nResults: Available\n\nSummary\n\nThis study is designed to assess the safety and preliminary activity of SBT6050 in combination with trastuzumab deruxtecan (Part 1) or tucatinib plus trastuzumab +/- capecitabine (Part 2). Participants will be enrolled into each Arm based on cancer diagnosis and prior therapies.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1, PHASE2\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- United States\n\n1 sites\n\nOutcomes\n\nPrimary Outcomes\n\nProportion of Participants With Dose Limiting Toxicities\n\nNumber of Participants With Treatment-emergent Adverse Events\n\nNumber of Participants With Laboratory Abnormalities\n\nNumber of Participants With an Objective Response Rate\n\nSecondary Outcomes\n\nNumber of Participants With Treatment-emergent Adverse Events\n\nNumber of Participants With an Objective Response Rate\n\nDuration of Response for Participants With an Objective Response Rate\n\nProportion of Participants With Clinical Benefit Rate\n\nInterventions\n\nSBT6050\n\nType: Drug\n\nDescription: Dose range of 0.45 to 0.6 mg/kg by subcutaneous (SC) injection in 21-day cycles\n\nArms: SBT6050 + T-DXd (5.4 mg/kg), SBT6050 + T-DXd (6.4 mg/kg), SBT6050 + Tucatinib + Trastuzumab, SBT6050 + Tucatinib + Trastuzumab + Capecitabine\n\ntrastuzumab deruxtecan\n\nType: Drug\n\nDescription: 5.4 mg/kg by intravenous (IV) infusion in 21-day cycles\n\nArms: SBT6050 + T-DXd (5.4 mg/kg)\n\nOther Names: ENHERTU\n\ntucatinib\n\nType: Drug\n\nDescription: 300 mg by mouth (PO) twice daily (BID)\n\nArms: SBT6050 + Tucatinib + Trastuzumab, SBT6050 + Tucatinib + Trastuzumab + Capecitabine\n\nOther Names: TUKYSA\n\ntrastuzumab\n\nType: Drug\n\nDescription: 8 mg/kg loading dose (first dose), then 6 mg/kg maintenance dose (subsequent doses) IV infusion in 21-day cycles\n\nArms: SBT6050 + Tucatinib + Trastuzumab, SBT6050 + Tucatinib + Trastuzumab + Capecitabine\n\nOther Names: HERCEPTIN\n\ncapecitabine\n\nType: Drug\n\nDescription: 1000 mg/m2 PO BID for 14 days of each 21-day cycle\n\nArms: SBT6050 + Tucatinib + Trastuzumab + Capecitabine\n\nOther Names: XELODA\n\ntrastuzumab deruxtecan\n\nType: Drug\n\nDescription: 6.4 mg/kg by IV infusion in 21-day cycles\n\nArms: SBT6050 + T-DXd (6.4 mg/kg)\n\nOther Names: ENHERTU",
+        "url": "https://clinicaltrials.gov/study/NCT05091528",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 2,
+        "conditions": [
+          "HER2-positive Breast Cancer",
+          "HER2-positive Gastric Cancer",
+          "HER2-positive Colorectal Cancer",
+          "HER2-expressing Non-small Cell Lung Cancer"
+        ],
+        "interventions": [
+          "SBT6050",
+          "trastuzumab deruxtecan",
+          "tucatinib",
+          "trastuzumab",
+          "capecitabine",
+          "trastuzumab deruxtecan"
+        ],
+        "leadSponsor": "Silverback Therapeutics",
+        "startDate": "2022-02-08",
+        "primaryCompletionDate": "2022-07-07",
+        "completionDate": "2022-07-07",
+        "hasResults": true,
+        "lastUpdatedYear": 2022
+      },
+      {
+        "nctId": "NCT06934889",
+        "title": "Study of ABBV-637 or ABBV-155 With ERAS-801 for People With Glioblastoma",
+        "summary": "Status: RECRUITING\n\nSummary\n\nStage 1 will run first, during which patients will be randomized to either Cohort A or B if recurrent GBM, and Cohort C or D if newly diagnosed. After these 4 cohorts are complete, and if the combinations have been safe and tolerable, the combination will be further evaluated in Stage 2.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- United States\n\n11 sites\n\nOutcomes\n\nPrimary Outcomes\n\nDose limiting toxicity (DLT)\n\nSecondary Outcomes\n\nOverall survival\n\nProgression-free survival (PFS)\n\nInterventions\n\nERAS-801\n\nType: Drug\n\nDescription: will be administered orally at the assigned dose once daily starting on Cycle 1 Day 1.\n\nArms: Cohort A (Recurrent), Cohort B (Recurrent)\n\nABBV-637\n\nType: Drug\n\nDescription: will be administered intravenously over one hour (+/- 10 min) once every 28 days on the first day of the new cycle.\n\nArms: Cohort A (Recurrent), Cohort C (Newly Diagnosed)\n\nABBV-155\n\nType: Drug\n\nDescription: will be administered intravenously over at least 30 minutes once every 21 days on the first day of the new cycle.\n\nArms: Cohort B (Recurrent), Cohort D (Newly Diagnosed)\n\nTemozolomide\n\nType: Drug\n\nDescription: Temozolomide will be continued for 6 cycles after radiation.\n\nArms: Cohort C (Newly Diagnosed), Cohort D (Newly Diagnosed)\n\nRadiotherapy\n\nType: Radiation\n\nDescription: will be given as per standard of care radiation for GBM\n\nArms: Cohort C (Newly Diagnosed), Cohort D (Newly Diagnosed)",
+        "url": "https://clinicaltrials.gov/study/NCT06934889",
+        "overallStatus": "RECRUITING",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 60,
+        "conditions": [
+          "Glioblastoma",
+          "Gliosarcoma"
+        ],
+        "interventions": [
+          "ERAS-801",
+          "ABBV-637",
+          "ABBV-155",
+          "Temozolomide",
+          "Radiotherapy"
+        ],
+        "leadSponsor": "Memorial Sloan Kettering Cancer Center",
+        "startDate": "2025-04-07",
+        "primaryCompletionDate": "2028-04",
+        "completionDate": "2028-04",
+        "hasResults": false,
+        "lastUpdatedYear": 2026
+      },
+      {
+        "nctId": "NCT04278144",
+        "title": "A First-in-human Study Using BDC-1001 as a Single Agent and in Combination With Nivolumab in Advanced HER2-Expressing Solid Tumors",
+        "summary": "Status: TERMINATED\n\nSummary\n\nThis study has four parts. Part 1 is a dose escalation of BDC-1001 as a single agent to determine the maximum tolerated dose (MTD), recommended Phase 2 dose (RP2D), or maximum protocol dose (MPD) recommended for Part 3. In Part 3, the selected dose will be administered as monotherapy to patients with selected advanced malignancies. Part 2 is a dose escalation of BDC-1001 in combination with nivolumab to determine the maximum tolerated dose (MTD), recommended Phase 2 dose (RP2D), or maximum protocol dose (MPD) recommended for Part 4. In Part 4, the selected dose will be administered in combination with nivolumab to patients with selected advanced malignancies.\n\nBolt amended the protocol to transition any subjects still receiving BDC-1001 to continue receiving BDC-1001 in the Maintenance Phase. Subjects remaining on BDC-1001 will continue to receive BDC-1001 until a criterion for discontinuation has been met.\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1, PHASE2\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- France\n\n- South Korea\n\n- Spain\n\n- United States\n\n21 sites\n\nOutcomes\n\nPrimary Outcomes\n\nIncidence of adverse events (AEs) and serious adverse events (SAEs)\n\nIncidence and nature of dose-limiting toxicities (DLTs)\n\nIncidence of potential-immune related toxicities\n\nMaximum tolerable dose (MTD) or a tolerated dose below MTD\n\nObjective response rate (ORR) of confirmed complete or partial responses (CR, PR)\n\nSecondary Outcomes\n\nPK (Cmax) of BDC-1001\n\nPK (Cmin) of BDC-1001\n\nPK (AUC0-t) of BDC-1001\n\nPK (AUC0-inf) of BDC-1001\n\nPK (CL) of BDC-1001\n\nPK (Vz) of BDC-1001\n\nPK (t1/2) of BDC-1001\n\nObjective response rate (ORR) using RECIST 1.1\n\nDuration of response (DOR)\n\nDisease control rate (DCR) of confirmed CR, PR, or stable disease (SD) lasting 4 or more weeks\n\nProgression Free Survival (PFS)\n\nIncidence of anti-BDC-1001 antibodies\n\nIncidence of adverse events (AEs) and serious adverse events (SAEs)\n\nIncidence of potential-immune related toxicities\n\nInterventions\n\nBDC-1001\n\nType: Drug\n\nDescription: Immune stimulating antibody conjugate (ISAC), consisting of an anti-HER2 monoclonal antibody conjugated to a TLR 7/8 dual agonist\n\nArms: Combination BDC-1001 plus nivolumab, Single agent BDC-1001\n\nNivolumab\n\nType: Drug\n\nDescription: Programmed death receptor-1 (PD 1)-blocking antibody\n\nArms: Combination BDC-1001 plus nivolumab\n\nOther Names: Opdivo",
+        "url": "https://clinicaltrials.gov/study/NCT04278144",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1",
+          "PHASE2"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 175,
+        "conditions": [
+          "HER2-positive Solid Tumors",
+          "HER2-positive Breast Cancer",
+          "HER2-positive Colorectal Cancer",
+          "HER2-positive Gastroesophageal Cancer",
+          "HER2-positive Endometrial Cancer"
+        ],
+        "interventions": [
+          "BDC-1001",
+          "Nivolumab"
+        ],
+        "leadSponsor": "Bolt Biotherapeutics, Inc.",
+        "startDate": "2020-02-24",
+        "primaryCompletionDate": "2024-12-10",
+        "completionDate": "2025-02-14",
+        "hasResults": false,
+        "lastUpdatedYear": 2025
+      },
+      {
+        "nctId": "NCT06419634",
+        "title": "Study of BMS-986497 (ORM-6151) as a Monotherapy, in Double and Triple Combination With Azacitidine and Venetoclax in Participants With Relapsed or Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+        "summary": "Status: TERMINATED\n\nSummary\n\nThe purpose of this study is to assess the safety, tolerability, drug levels, drug efficacy and determine the recommended dose of BMS-986497 as a monotherapy, in double combination with Azacitidine and in triple combination with Azacitidine and Venetoclax in participants with relapsed or refractory acute myeloid leukemia (AML) or myelodysplastic syndrome (MDS).\n\n- Study Type: INTERVENTIONAL\n\n- Phase: PHASE1\n\nEligibility\n\n- Age: Minimum: 18 Years\n\n- Sex: ALL\n\n- Accepts Healthy Volunteers: No\n\nEligibility Criteria\n\nLocations\n\n- Canada\n\n- Spain\n\n- United States\n\n10 sites\n\nOutcomes\n\nPrimary Outcomes\n\nIncidence of dose-limiting toxicities (DLTs)\n\nIncidence of treatment-emergent adverse events (TEAEs)\n\nDetermine the Recommended Phase 2 Dose (RP2D) of BMS-986497 as Monotherapy\n\nRP2D of BMS-986497 as Combination Therapy\n\nRP2D of BMS-986497 as Triple Combination Therapy\n\nSecondary Outcomes\n\nMaximum concentration (Cmax)\n\nTime to reach Cmax (Tmax)\n\nArea under the curve from time 0 to last quantifiable concentration (AUC0-last)\n\nOverall response rate (ORR)\n\nDuration of response (DoR)\n\nBest overall response (BOR)\n\nComplete remission (CR)\n\nComplete remission with incomplete hematologic recovery (Cri)\n\nComplete remission with partial hematologic recovery (CRh) rate\n\nEvent-free survival (EFS)\n\nTransition rate to allogeneic hematopoietic stem cell transplantation (HSCT)\n\nIncidence of Anti-drug antibody (ADA) against BMS-986497\n\nInterventions\n\nBMS-986497\n\nType: Drug\n\nDescription: Specified dose on specified days\n\nArms: Part 1: Dose Escalation BMS-986497 (Monotherapy), Part 2, Cohort A: Dose Expansion BMS-986497 (Combination Therapy), Part 2, Cohort B: Dose Expansion BMS-986497 (Triple Combination Therapy)\n\nOther Names: ORM-6151\n\nAzacitidine\n\nType: Drug\n\nDescription: Specified dose on specified days\n\nArms: Part 2, Cohort A: Dose Expansion BMS-986497 (Combination Therapy), Part 2, Cohort B: Dose Expansion BMS-986497 (Triple Combination Therapy)\n\nVenetoclax\n\nType: Drug\n\nDescription: Specified dose on specified days\n\nArms: Part 2, Cohort B: Dose Expansion BMS-986497 (Triple Combination Therapy)",
+        "url": "https://clinicaltrials.gov/study/NCT06419634",
+        "overallStatus": "TERMINATED",
+        "phase": [
+          "PHASE1"
+        ],
+        "studyType": "INTERVENTIONAL",
+        "enrollmentCount": 34,
+        "conditions": [
+          "Acute Myeloid Leukemia",
+          "Myelodysplastic Syndrome"
+        ],
+        "interventions": [
+          "BMS-986497",
+          "Azacitidine",
+          "Venetoclax"
+        ],
+        "leadSponsor": "Bristol-Myers Squibb",
+        "startDate": "2024-05-29",
+        "primaryCompletionDate": "2026-08-28",
+        "completionDate": "2026-08-28",
+        "hasResults": false,
+        "lastUpdatedYear": 2026
+      }
+    ],
+    "warnings": []
+  }
+}

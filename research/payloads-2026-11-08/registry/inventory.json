@@ -1,0 +1,782 @@
+[
+  {
+    "nctId": "NCT03595059",
+    "title": "A Study With ABBV-155 Alone and in Combination With Taxane Therapy in Adults With Relapsed and/or Refractory Solid Tumors",
+    "status": "COMPLETED",
+    "lastUpdate": {
+      "date": "2025-12-10",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 168,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2018-07-13",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2025-09-12",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Advanced Solid Tumors"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "ABBV-155",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Paclitaxel",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Docetaxel",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT04278144",
+    "title": "A First-in-human Study Using BDC-1001 as a Single Agent and in Combination With Nivolumab in Advanced HER2-Expressing Solid Tumors",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2025-09-15",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 175,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2020-02-24",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2024-12-10",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "HER2-positive Solid Tumors",
+      "HER2-positive Breast Cancer",
+      "HER2-positive Colorectal Cancer",
+      "HER2-positive Gastroesophageal Cancer",
+      "HER2-positive Endometrial Cancer"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "BDC-1001",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Nivolumab",
+        "otherNames": [
+          "Opdivo"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT04460456",
+    "title": "A Study of SBT6050 Alone and in Combination With PD-1 Inhibitors in Subjects With Advanced HER2 Expressing Solid Tumors",
+    "status": "UNKNOWN",
+    "lastUpdate": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 58,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2020-07-27",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2022-12",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "HER2 Positive Solid Tumors"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "SBT6050",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "pembrolizumab",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Cemiplimab",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT04879043",
+    "title": "Study to Assess Safety of HDP-101 in Patients With Relapsed Refractory Multiple Myeloma",
+    "status": "RECRUITING",
+    "lastUpdate": {
+      "date": "2026-09-17",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 78,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2022-02-07",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2028-03",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Multiple Myeloma",
+      "Plasma Cell Disorder"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "HDP-101",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT05070247",
+    "title": "A Study of TAK-500 With or Without Pembrolizumab in Adults With Select Locally Advanced or Metastatic Solid Tumors",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2026-01-22",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 61,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2022-04-14",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2025-01-06",
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "conditions": [
+      "Pancreatic Cancer",
+      "Hepatocellular Cancer",
+      "Mesothelioma",
+      "Breast Cancer",
+      "Gastric Cancer",
+      "Esophageal Cancer",
+      "Nasopharyngeal Cancer",
+      "Kidney Cancer",
+      "Squamous Cell Cancer of Head and Neck (SCCHN)",
+      "Non-small Cell Lung Cancer (NSCLC), Non-squamous"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "TAK-500",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Pembrolizumab",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Tocilizumab",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Dexamethasone",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Dexamethasone",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT05091528",
+    "title": "A Safety and Activity Study of SBT6050 in Combination With Other HER2-directed Therapies for HER2-positive Cancers",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2022-08-18",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 2,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2022-02-08",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2022-07-07",
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "conditions": [
+      "HER2-positive Breast Cancer",
+      "HER2-positive Gastric Cancer",
+      "HER2-positive Colorectal Cancer",
+      "HER2-expressing Non-small Cell Lung Cancer"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "SBT6050",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "trastuzumab deruxtecan",
+        "otherNames": [
+          "ENHERTU"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "tucatinib",
+        "otherNames": [
+          "TUKYSA"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "trastuzumab",
+        "otherNames": [
+          "HERCEPTIN"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "capecitabine",
+        "otherNames": [
+          "XELODA"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "trastuzumab deruxtecan",
+        "otherNames": [
+          "ENHERTU"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT05511844",
+    "title": "Study of ORM-5029 in Subjects With HER2-Expressing Advanced Solid Tumors",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2025-07-04",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 25,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2022-10-03",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2025-06-02",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "HER2-positive Breast Cancer",
+      "HER-2 Protein Overexpression",
+      "HER-2 Gene Amplification",
+      "HER2 Gene Mutation"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "ORM-5029",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT05514717",
+    "title": "A Study of XMT-2056 in Advanced/Recurrent Solid Tumors That Express HER2",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2026-06-18",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 57,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2023-01-24",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2026-05-22",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "HER2-positive Breast Cancer",
+      "HER2-positive Gastric Cancer",
+      "HER2-positive Non-Small Cell Lung Cancer",
+      "HER2-positive Colorectal Cancer",
+      "HER2-positive Tumors",
+      "HER2 Low Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "XMT-2056",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT05954143",
+    "title": "Trial of BDC-1001 +/- Pertuzumab in Subjects With HER2-Positive Metastatic Breast Cancer",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2025-11-20",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 11,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2023-11-30",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2024-09-20",
+      "type": "ACTUAL"
+    },
+    "hasResults": true,
+    "conditions": [
+      "Metastatic Breast Cancer",
+      "HER2-positive Breast Cancer"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "BDC-1001",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Pertuzumab",
+        "otherNames": [
+          "Perjeta®"
+        ]
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT06419634",
+    "title": "Study of BMS-986497 (ORM-6151) as a Monotherapy, in Double and Triple Combination With Azacitidine and Venetoclax in Participants With Relapsed or Refractory Acute Myeloid Leukemia or Myelodysplastic Syndrome",
+    "status": "TERMINATED",
+    "lastUpdate": {
+      "date": "2026-10-01",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 34,
+      "type": "ACTUAL"
+    },
+    "start": {
+      "date": "2024-05-29",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2026-08-28",
+      "type": "ACTUAL"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Acute Myeloid Leukemia",
+      "Myelodysplastic Syndrome"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "BMS-986497",
+        "otherNames": [
+          "ORM-6151"
+        ]
+      },
+      {
+        "type": "DRUG",
+        "name": "Azacitidine",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Venetoclax",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT06885645",
+    "title": "First-In-Human Study in Participants With Advanced Solid Tumors",
+    "status": "NOT_YET_RECRUITING",
+    "lastUpdate": {
+      "date": "2025-04-03",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 30,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2025-04-30",
+      "type": "ESTIMATED"
+    },
+    "primaryCompletion": {
+      "date": "2027-06-30",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Advanced Solid Tumors"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "KH815 for injection",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "dual-ddr"
+    ],
+    "sourcePages": [
+      "dual-ddr/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT06934889",
+    "title": "Study of ABBV-637 or ABBV-155 With ERAS-801 for People With Glioblastoma",
+    "status": "RECRUITING",
+    "lastUpdate": {
+      "date": "2026-09-09",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 60,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2025-04-07",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2028-04",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Glioblastoma",
+      "Gliosarcoma"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "ERAS-801",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "ABBV-637",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "ABBV-155",
+        "otherNames": []
+      },
+      {
+        "type": "DRUG",
+        "name": "Temozolomide",
+        "otherNames": []
+      },
+      {
+        "type": "RADIATION",
+        "name": "Radiotherapy",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT07300943",
+    "title": "Study in Advanced Solid Tumor Patients",
+    "status": "RECRUITING",
+    "lastUpdate": {
+      "date": "2026-05-01",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1",
+      "PHASE2"
+    ],
+    "enrollment": {
+      "count": 306,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2026-03-19",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2027-12-31",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Advanced Solid Tumor"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "CLIO-8221",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "dual-ddr"
+    ],
+    "sourcePages": [
+      "dual-ddr/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  },
+  {
+    "nctId": "NCT07529782",
+    "title": "Study to Assess Safety and Efficacy of HDP-101 in Chinese Patients With Relapsed or Refractory Multiple Myeloma",
+    "status": "RECRUITING",
+    "lastUpdate": {
+      "date": "2026-04-14",
+      "type": "ACTUAL"
+    },
+    "studyType": "INTERVENTIONAL",
+    "phases": [
+      "PHASE1"
+    ],
+    "enrollment": {
+      "count": 15,
+      "type": "ESTIMATED"
+    },
+    "start": {
+      "date": "2026-03-17",
+      "type": "ACTUAL"
+    },
+    "primaryCompletion": {
+      "date": "2026-06-30",
+      "type": "ESTIMATED"
+    },
+    "hasResults": false,
+    "conditions": [
+      "Multiple Myeloma and Other Plasma Cell Neoplasms"
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "HDP-101",
+        "otherNames": []
+      }
+    ],
+    "queries": [
+      "semantic-exemplar-identifiers",
+      "novel-payload-programs"
+    ],
+    "sourcePages": [
+      "semantic-exemplar-identifiers/page-0001.json",
+      "novel-payload-programs/page-0001.json"
+    ],
+    "disposition": "not-yet-reviewed"
+  }
+]

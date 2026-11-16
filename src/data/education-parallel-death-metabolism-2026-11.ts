@@ -12,27 +12,27 @@ export const educationParallelDeathMetabolism: TermInput[] = [
     "summary": "The unfolded protein response has distinct outputs. IRE1-dependent processing of XBP1 RNA produces a potent transcriptional regulator; total XBP1 message and its spliced fraction are different measurements. PERK phosphorylates eIF2alpha and can reduce translation initiation. ER stress also promotes ATF6 proteolysis, releasing a fragment that acts in the nucleus. These findings come from molecular and cell experiments. Branch activity, adaptation, survival dependence and treatment benefit require separate evidence. Specify branch, timing, total protein or RNA controls and direct growth and death measurements.",
     "links": [
       {
-        "label": "Primary source, PMID 11779464",
+        "label": "Yoshida et al., XBP1 mRNA is induced by ATF6 and spliced by IRE1 in response to ER stress to produce a highly active transcription factor (Cell 2001)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/11779464/"
       },
       {
-        "label": "Primary source, PMID 9930704",
+        "label": "Harding et al., Protein translation and folding are coupled by an endoplasmic-reticulum-resident kinase (Nature 1999)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/9930704/"
       },
       {
-        "label": "Primary source, PMID 10564271",
+        "label": "Haze et al., Mammalian transcription factor ATF6 is synthesized as a transmembrane protein and activated by proteolysis in response to endoplasmic reticulum stress (Mol Biol Cell 1999)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/10564271/"
       },
       {
-        "label": "Source identity and scope, PMID 22116877",
+        "label": "Walter et al., The unfolded protein response: from stress pathway to homeostatic regulation (Science 2011)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/22116877/"
       },
       {
-        "label": "Source identity and scope, PMID 11821395",
+        "label": "Chen et al., The luminal domain of ATF6 senses endoplasmic reticulum (ER) stress and causes translocation of ATF6 from the ER to the Golgi (J Biol Chem 2002)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/11821395/"
       },
       {
-        "label": "Source identity and scope, PMID 24670641",
+        "label": "Chen et al., XBP1 promotes triple-negative breast cancer by controlling the HIF1α pathway (Nature 2014)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/24670641/"
       }
     ],
@@ -53,19 +53,19 @@ export const educationParallelDeathMetabolism: TermInput[] = [
     "summary": "AMP-activated protein kinase responds to cellular energy state. Structural and biochemical experiments showed that ADP binding protects activating phosphorylation without the direct allosteric activation supplied by AMP. In cancer-model experiments during energy stress, AMPK supported NADPH maintenance through changes in fatty-acid metabolism and prolonged survival. Thus activation cannot be read as a universal cancer-killing signal. Preserve the model, energy conditions, timing, perturbation controls and separate measurements of growth and death. A phosphorylation signal does not establish selective drug action or patient benefit.",
     "links": [
       {
-        "label": "Primary source, PMID 21399626",
+        "label": "Xiao et al., Structure of mammalian AMPK and its regulation by ADP (Nature 2011)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/21399626/"
       },
       {
-        "label": "Primary source, PMID 22660331",
+        "label": "Jeon et al., AMPK regulates NADPH homeostasis to promote tumour cell survival during energy stress (Nature 2012)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/22660331/"
       },
       {
-        "label": "Source identity and scope, PMID 16054095",
+        "label": "Hawley et al., Calmodulin-dependent protein kinase kinase-beta is an alternative upstream kinase for AMP-activated protein kinase (Cell Metab 2005)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/16054095/"
       },
       {
-        "label": "Source identity and scope, PMID 18439900",
+        "label": "Gwinn et al., AMPK phosphorylation of raptor mediates a metabolic checkpoint (Mol Cell 2008)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/18439900/"
       }
     ],
@@ -86,23 +86,23 @@ export const educationParallelDeathMetabolism: TermInput[] = [
     "summary": "Hydrogen-peroxide reporters such as HyPer and HyPer7 measure specified oxidation responses in defined experimental settings. Reporter sensitivity, pH response, compartment and timing affect interpretation. A probe signal is not a universal concentration of all reactive oxygen species or proof of a death mechanism. In matrix-detached mammary epithelial models, antioxidant treatment restored energy production and supported survival. Oncogene-driven mouse experiments also linked NRF2 detoxification to tumour development. These model results do not justify a supplement recommendation. General oxidation, iron-dependent lipid damage, death and clinical benefit are separate claims.",
     "links": [
       {
-        "label": "Primary source, PMID 16554833",
+        "label": "Belousov et al., Genetically encoded fluorescent indicator for intracellular hydrogen peroxide (Nat Methods 2006)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/16554833/"
       },
       {
-        "label": "Primary source, PMID 32130885",
+        "label": "Pak et al., Ultrasensitive Genetically Encoded Indicator for Hydrogen Peroxide Identifies Roles for the Oxidant in Cell Migration and Mitochondrial Function (Cell Metab 2020)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/32130885/"
       },
       {
-        "label": "Primary source, PMID 19693011",
+        "label": "Schafer et al., Antioxidant and oncogene rescue of metabolic defects caused by loss of matrix attachment (Nature 2009)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/19693011/"
       },
       {
-        "label": "Primary source, PMID 21734707",
+        "label": "DeNicola et al., Oncogene-induced Nrf2 transcription promotes ROS detoxification and tumorigenesis (Nature 2011)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/21734707/"
       },
       {
-        "label": "Source identity and scope, PMID 22632970",
+        "label": "Dixon et al., Ferroptosis: an iron-dependent form of nonapoptotic cell death (Cell 2012)",
         "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/"
       }
     ],
@@ -123,11 +123,11 @@ export const educationParallelDeathMetabolism: TermInput[] = [
     "summary": "Extracellular flux methods estimate respiratory and glycolytic contributions to energy production under defined assumptions. A respiratory message, measured oxygen use, calculated energy output and dependence for survival are distinct claims. Normalisation, fuel, viable-cell input, collection time and the specified method version belong with a result. Electron transport, proton pumping, return through ATP synthase and uncoupling are distinct steps. The mitochondrial matrix and intermembrane space locate the two sides of the inner membrane; naming these compartments does not supply a universal conversion ratio.",
     "links": [
   {
-    "label": "Source identity and scope, PMID 26709455",
+    "label": "Mookerjee et al., Measurement and Analysis of Extracellular Acid Production to Determine Glycolytic Rate (J Vis Exp 2015)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/26709455/"
   },
   {
-    "label": "Source identity and scope, PMID 28270511",
+    "label": "Mookerjee et al., Quantifying intracellular rates of glycolytic and oxidative ATP production and consumption using extracellular flux measurements (J Biol Chem 2017)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/28270511/"
   },
   {

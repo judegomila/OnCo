@@ -538,7 +538,7 @@ const raw: TrialInput[] = [
       "url": "https://clinicaltrials.gov/study/NCT04395989"
     },
     {
-      "label": "Primary randomised report: PMID 38211606",
+      "label": "Fan et al., Optimising first-line subtyping-based therapy in triple-negative breast cancer (FUTURE-SUPER): a multi-cohort, randomised, phase 2 trial (Lancet Oncol 2024)",
       "url": "https://pubmed.ncbi.nlm.nih.gov/38211606/"
     }
   ],

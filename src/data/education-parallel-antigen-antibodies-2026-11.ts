@@ -44,8 +44,7 @@ export const educationAntigenAntibodiesTerms: TermInput[] = [
   }
 ],
     "notes": [
-  "Evidence tiers: Clynes 2000 and Gül 2014 are mouse studies; Diebolder 2014 is a cell and biochemical study. Read from the Europe PMC abstracts on 9 November 2026; the textbook chapter the teaching source cites (Janeway, Immunobiology) refused scripted access and was not opened.",
-  "Teaching source: the Oncoguide concept page on antibody-guided effector mechanisms, read at pinned commits 7510db6 and c968964 (teaching text unchanged between them).",
+  "Evidence tiers: Clynes 2000 and Gül 2014 are mouse studies; Diebolder 2014 is a cell and biochemical study. Read from the Europe PMC abstracts on 9 November 2026; a textbook chapter on the same mechanisms (Janeway, Immunobiology) refused scripted access and was not opened, so nothing here rests on it.",
   "In the NK-cell route, the Fc receptor sits on the NK-cell membrane and meets Fc exposed on the antibody-coated target. Fab tips recognise the target antigen. Granules are released into the space between the cells while the NK cell remains outside; this is different from engulfment. The NK-cell example does not make ADCC an exclusive name for one cell type.",
   "For whole-cell ADCP, distinguish the phagocyte's boundary and nucleus from the target. A completed whole-target uptake schematic places the coated target, including its nucleus, inside a separate closed phagosome; the phagocyte's own nucleus stays outside that compartment. Contact or a fluorescent fragment does not demonstrate whole-cell internalisation. Gül and colleagues' mouse live-cell imaging separated fragment sampling, whole-cell phagocytosis and later degradation; these are different observations.",
   "A completed membrane-attack pore crosses the two leaflets of one lipid bilayer, connecting the outside of a target cell with its interior. It is different from complement deposited on the surface. Serna and colleagues assembled purified human complement proteins on liposomes and studied functional pores by cryo-electron microscopy and dye release; they distinguished complete pores from assembly precursors that can insert without spanning the bilayer. A single sketched IgG or a drawn pore-subunit count is not an activation requirement or a measured molecular stoichiometry.",
@@ -107,7 +106,7 @@ export const educationAntigenAntibodiesTerms: TermInput[] = [
   }
 ],
     "notes": [
-  "Textbook-level structure (chains, Fab, Fc, hinge) is taught in the Oncoguide page from Janeway's Immunobiology and an NCI page; the Bookshelf chapters refused scripted access on 9 November 2026 and were not opened, so only the Nimmerjahn abstract is checked here.",
+  "Janeway's Immunobiology on the NCBI Bookshelf refused scripted access on 9 November 2026 and was not opened. The structure described here (chains, Fab, Fc, hinge) rests on the Vidarsson 2014 review, read directly, and the Nimmerjahn abstract.",
   "The pembrolizumab example appears in the isotypes record.",
   "Additional source check: the Structure and Fc-interaction sections of the accessible Vidarsson 2014 review were read directly. They describe two heavy and two light chains, variable and constant domains, Fab/Fc and hinge anatomy, subclass differences and FcRn interactions. This is review evidence, separate from the mouse and biochemical primary experiments."
 ],

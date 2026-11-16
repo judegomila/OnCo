@@ -330,10 +330,6 @@ export const trialDesignTerms: TermInput[] = [
         "url": "https://doi.org/10.1186/1471-2288-13-152"
       },
       {
-        "label": "OncoGuide: kaplan-meier (pinned teaching source)",
-        "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/kaplan-meier.md"
-      },
-      {
         "label": "Therneau, Crowson and Atkinson: multi-state models and competing risks (September 2026)",
         "url": "https://cran.r-project.org/web/packages/survival/vignettes/compete.pdf"
       },
@@ -447,10 +443,6 @@ export const trialDesignTerms: TermInput[] = [
   {
     "label": "Confidence intervals for the number needed to treat.",
     "url": "https://doi.org/10.1136/bmj.317.7168.1309"
-  },
-  {
-    "label": "OncoGuide: absolute-relative-risk-and-nnt (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/absolute-relative-risk-and-nnt.md"
   }
 ],
     tldr: "For a harmful outcome, absolute benefit is the comparison group's risk minus the treatment group's risk at a stated time. Relative risk divides treatment risk by comparison risk. Neither measure identifies who benefits or settles the balance of benefit and harm.",
@@ -558,14 +550,6 @@ export const trialDesignTerms: TermInput[] = [
       {
         "label": "FDA approval summary: lurbinectedin, 2021",
         "url": "https://doi.org/10.1158/1078-0432.CCR-20-3901"
-      },
-      {
-        "label": "OncoGuide: surrogate-endpoints (pinned teaching source)",
-        "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/surrogate-endpoints.md"
-      },
-      {
-        "label": "OncoGuide: fictional people and randomized treatment comparisons",
-        "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/images/prompts/people-and-randomized-treatment-effects-v1.txt"
       }
     ],
     tldr: "A surrogate endpoint only deserves trust if trials have shown that moving it moves the outcome that matters, in that disease and for that kind of drug; some stand-ins have passed that test, several have not, and the record differs endpoint by endpoint.",

@@ -153,10 +153,6 @@ export const prostateGlossaryTerms: TermInput[] = [
     "url": "https://doi.org/10.1016/j.annonc.2022.11.005"
   },
   {
-    "label": "OncoGuide: lead-time-bias (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/lead-time-bias.md"
-  },
-  {
     "label": "Rosselli Del Turco et al., JAMA 1994: intensive diagnostic follow-up",
     "url": "https://pubmed.ncbi.nlm.nih.gov/7848404/"
   },

@@ -441,27 +441,27 @@ export const mechanicsPathways: PathwayInput[] = [
     "url": "https://doi.org/10.1038/s41573-021-00371-6"
   },
   {
-    "label": "Source identity and scope, PMID 6305978",
+    "label": "Hershko et al., Components of ubiquitin-protein ligase system. Resolution, affinity purification, and role in protein breakdown (J Biol Chem 1983)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/6305978/"
   },
   {
-    "label": "Source identity and scope, PMID 3031653",
+    "label": "Hershko et al., Ubiquitin-aldehyde: a general inhibitor of ubiquitin-recycling processes (Proc Natl Acad Sci U S A 1987)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/3031653/"
   },
   {
-    "label": "Source identity and scope, PMID 28421184",
+    "label": "Snoberger et al., The Proteasomal ATPases Use a Slow but Highly Processive Strategy to Unfold Proteins (Front Mol Biosci 2017)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/28421184/"
   },
   {
-    "label": "Source identity and scope, PMID 19345192",
+    "label": "Xu et al., Quantitative proteomics reveals the function of unconventional ubiquitin chains in proteasomal degradation (Cell 2009)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/19345192/"
   },
   {
-    "label": "Source identity and scope, PMID 15282312",
+    "label": "Kobayashi et al., Oxidative stress sensor Keap1 functions as an adaptor for Cul3-based E3 ligase to regulate proteasomal degradation of Nrf2 (Mol Cell Biol 2004)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/15282312/"
   },
   {
-    "label": "Source identity and scope, PMID 15958804",
+    "label": "Richardson et al., Bortezomib or high-dose dexamethasone for relapsed multiple myeloma (N Engl J Med 2005)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/15958804/"
   },
 
@@ -665,7 +665,7 @@ export const mechanicsPathways: PathwayInput[] = [
     "url": "https://doi.org/10.1038/nrc.2016.89"
   },
   {
-    "label": "Source identity and scope, PMID 19041766",
+    "label": "Radhakrishnan et al., Switch-like control of SREBP-2 transport triggered by small changes in ER cholesterol: a delicate balance (Cell Metab 2008)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/19041766/"
   },
   {

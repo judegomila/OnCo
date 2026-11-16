@@ -38,10 +38,6 @@ export const evidenceBridges: TermInput[] = [
   {
     "label": "FDA: oncology clinical-trial endpoints (2018)",
     "url": "https://www.fda.gov/media/71195/download"
-  },
-  {
-    "label": "OncoGuide: evidence-chain-variant-to-benefit (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/evidence-chain-variant-to-benefit.md"
   }
 ],
 
@@ -304,10 +300,6 @@ export const evidenceBridges: TermInput[] = [
   {
     "label": "FDA: oncology clinical-trial endpoints (2018)",
     "url": "https://www.fda.gov/media/71195/download"
-  },
-  {
-    "label": "OncoGuide: reduction-is-not-regression (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reduction-is-not-regression.md"
   }
 ],
 
@@ -460,10 +452,6 @@ export const evidenceBridges: TermInput[] = [
   {
     "label": "NCI: finding a trial and checking eligibility",
     "url": "https://www.cancer.gov/research/participate/clinical-trials-search/steps"
-  },
-  {
-    "label": "OncoGuide: transportability-and-eligibility (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/transportability-and-eligibility.md"
   }
 ],
 
@@ -538,10 +526,6 @@ export const evidenceBridges: TermInput[] = [
   {
     "label": "Recommendations for application of the functional evidence PS3/BS3 criterion using the ACMG/AMP sequence variant interpretation framework.",
     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/"
-  },
-  {
-    "label": "OncoGuide: absence-of-evidence (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/biomarkers/absence-of-evidence.md"
   }
 ],
 

@@ -335,11 +335,11 @@ const pathways: PathwayInput[] = [
 ],
     links: [
   {
-    "label": "Primary source, PMID 17534139",
+    "label": "Kimura et al., Dissection of the autophagosome maturation process by a novel reporter protein, tandem fluorescent-tagged LC3 (Autophagy 2007)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/17534139/"
   },
   {
-    "label": "Primary source, PMID 31120501",
+    "label": "Karasic et al., Effect of Gemcitabine and nab-Paclitaxel With or Without Hydroxychloroquine on Patients With Advanced Pancreatic Cancer: A Phase 2 Randomized Clinical Trial (JAMA Oncol 2019)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/31120501/"
   },
   {
@@ -347,23 +347,23 @@ const pathways: PathwayInput[] = [
     "url": "https://doi.org/10.1038/s41586-020-2229-5"
   },
   {
-    "label": "Source identity and scope, PMID 33634751",
+    "label": "Klionsky et al., Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)1 (Autophagy 2021)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33634751/"
   },
   {
-    "label": "Source identity and scope, PMID 29362479",
+    "label": "Galluzzi et al., Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018 (Cell Death Differ 2018)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
   },
   {
-    "label": "Source identity and scope, PMID 33584716",
+    "label": "Plaza-Zabala et al., Assessing Autophagy in Microglia: A Two-Step Model to Determine Autophagosome Formation, Degradation, and Net Turnover (Front Immunol 2020)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33584716/"
   },
   {
-    "label": "Source identity and scope, PMID 19250911",
+    "label": "Kirkin et al., A role for NBR1 in autophagosomal degradation of ubiquitinated substrates (Mol Cell 2009)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/19250911/"
   },
   {
-    "label": "Source identity and scope, PMID 19258318",
+    "label": "Ganley et al., ULK1.ATG13.FIP200 complex mediates mTOR signaling and is essential for autophagy (J Biol Chem 2009)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/19258318/"
   },
   {
@@ -445,23 +445,23 @@ const pathways: PathwayInput[] = [
     "url": "https://doi.org/10.1038/nature23007"
   },
   {
-    "label": "Source identity and scope, PMID 22632970",
+    "label": "Dixon et al., Ferroptosis: an iron-dependent form of nonapoptotic cell death (Cell 2012)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/"
   },
   {
-    "label": "Source identity and scope, PMID 27506793",
+    "label": "Yang et al., Peroxidation of polyunsaturated fatty acids by lipoxygenases drives ferroptosis (Proc Natl Acad Sci U S A 2016)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/27506793/"
   },
   {
-    "label": "Source identity and scope, PMID 24439385",
+    "label": "Yang et al., Regulation of ferroptotic cancer cell death by GPX4 (Cell 2014)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/24439385/"
   },
   {
-    "label": "Source identity and scope, PMID 31634900",
+    "label": "Bersuker et al., The CoQ oxidoreductase FSP1 acts parallel to GPX4 to inhibit ferroptosis (Nature 2019)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/31634900/"
   },
   {
-    "label": "Source identity and scope, PMID 29362479",
+    "label": "Galluzzi et al., Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018 (Cell Death Differ 2018)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
   },
 
@@ -544,11 +544,11 @@ const pathways: PathwayInput[] = [
 ],
     links: [
   {
-    "label": "Primary source, PMID 31675495",
+    "label": "Gorgoulis et al., Cellular Senescence: Defining a Path Forward (Cell 2019)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/31675495/"
   },
   {
-    "label": "Primary source, PMID 29258294",
+    "label": "Milanovic et al., Senescence-associated reprogramming promotes cancer stemness (Nature 2018)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29258294/"
   },
   {
@@ -556,19 +556,19 @@ const pathways: PathwayInput[] = [
     "url": "https://doi.org/10.1038/s41571-022-00668-4"
   },
   {
-    "label": "Source identity and scope, PMID 29362479",
+    "label": "Galluzzi et al., Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018 (Cell Death Differ 2018)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
   },
   {
-    "label": "Source identity and scope, PMID 39121846",
+    "label": "Ogrodnik et al., Guidelines for minimal information on cellular senescence experimentation in vivo (Cell 2024)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/39121846/"
   },
   {
-    "label": "Source identity and scope, PMID 19053174",
+    "label": "Coppé et al., Senescence-associated secretory phenotypes reveal cell-nonautonomous functions of oncogenic RAS and the p53 tumor suppressor (PLoS Biol 2008)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/19053174/"
   },
   {
-    "label": "Source identity and scope, PMID 25499914",
+    "label": "Demaria et al., An essential role for senescent cells in optimal wound healing through secretion of PDGF-AA (Dev Cell 2014)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/25499914/"
   }
 ],
@@ -1227,15 +1227,15 @@ const terms: TermInput[] = [
     "url": "https://en.wikipedia.org/wiki/Warburg_effect_(oncology)"
   },
   {
-    "label": "Source identity and scope, PMID 19460998",
+    "label": "Vander Heiden et al., Understanding the Warburg effect: the metabolic requirements of cell proliferation (Science 2009)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/19460998/"
   },
   {
-    "label": "Source identity and scope, PMID 26853473",
+    "label": "Hensley et al., Metabolic Heterogeneity in Human Lung Tumors (Cell 2016)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/26853473/"
   },
   {
-    "label": "Source identity and scope, PMID 25449966",
+    "label": "Mookerjee et al., The contributions of respiration and glycolysis to extracellular acid production (Biochim Biophys Acta 2015)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/25449966/"
   }
 ] ,

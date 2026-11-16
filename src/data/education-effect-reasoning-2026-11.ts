@@ -29,10 +29,6 @@ export const educationEffectReasoningTerms: TermInput[] = [
   {
     "label": "Hernan and Robins: Causal Inference: What If",
     "url": "https://miguelhernan.org/whatifbook"
-  },
-  {
-    "label": "OncoGuide: odds-ratio (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/odds-ratio.md"
   }
 ],
     "related": [
@@ -78,10 +74,6 @@ export const educationEffectReasoningTerms: TermInput[] = [
   {
     "label": "FDA: oncology clinical-trial endpoints (2018)",
     "url": "https://www.fda.gov/media/71195/download"
-  },
-  {
-    "label": "OncoGuide: cross-trial-comparison (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/cross-trial-comparison.md"
   }
 ],
     "related": [
@@ -126,10 +118,6 @@ export const educationEffectReasoningTerms: TermInput[] = [
   {
     "label": "FDA: oncology clinical-trial endpoints (2018)",
     "url": "https://www.fda.gov/media/71195/download"
-  },
-  {
-    "label": "OncoGuide: denominators-and-conditional-probability (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/denominators-and-conditional-probability.md"
   }
 ],
     "related": [
@@ -163,7 +151,7 @@ export const educationEffectReasoningTerms: TermInput[] = [
     "tldr": "A group event frequency does not determine one person's future. A personal probability estimate needs a suitable model, relevant inputs and evaluation in the setting where it will be used.",
     "summary": "An observed group frequency describes a specified outcome, population, treatment context and time horizon. A probability estimate for an individual adds a prediction model and relevant inputs, with uncertainty. Ranking people well does not establish accurate probabilities, and performance in one hospital, subgroup or treatment era does not establish performance elsewhere. A model predicting outcomes under existing care also does not automatically estimate the benefit of changing that care.",
     "asOf": "2026-11-12",
-    "links": [{"label":"NCI: understanding cancer prognosis","url":"https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"},{"label":"TRIPOD-Cluster: model evaluation across settings","url":"https://www.bmj.com/content/380/bmj-2022-071058"},{"label":"Hernan and Robins: Causal Inference: What If","url":"https://miguelhernan.org/whatifbook"},{"label":"OncoGuide: population-vs-individual-risk (pinned teaching source)","url":"https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/population-vs-individual-risk.md"},{"label":"Collins et al.: TRIPOD+AI prediction-model reporting guidance (2024)","url":"https://doi.org/10.1136/bmj-2023-078378"},{"label":"ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)","url":"https://www.fda.gov/media/148473/download"}],
+    "links": [{"label":"NCI: understanding cancer prognosis","url":"https://www.cancer.gov/about-cancer/diagnosis-staging/prognosis"},{"label":"TRIPOD-Cluster: model evaluation across settings","url":"https://www.bmj.com/content/380/bmj-2022-071058"},{"label":"Hernan and Robins: Causal Inference: What If","url":"https://miguelhernan.org/whatifbook"},{"label":"Collins et al.: TRIPOD+AI prediction-model reporting guidance (2024)","url":"https://doi.org/10.1136/bmj-2023-078378"},{"label":"ICH E9(R1): estimands, intercurrent events and sensitivity analysis (May 2021)","url":"https://www.fda.gov/media/148473/download"}],
     "related": [
       "confidence-interval",
       "hazard-ratio",
@@ -203,10 +191,6 @@ export const educationEffectReasoningTerms: TermInput[] = [
   {
     "label": "CONSORT 2025: reporting randomized trials",
     "url": "https://www.bmj.com/content/389/bmj-2024-081123"
-  },
-  {
-    "label": "OncoGuide: reading-a-graph-in-five-passes (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/reasoning-tools/reading-a-graph-in-five-passes.md"
   }
 ],
     "related": [

@@ -757,18 +757,6 @@ export const educationRound2: TermInput[] = [
   {
     "label": "FDA: oncology clinical-trial endpoints (2018)",
     "url": "https://www.fda.gov/media/71195/download"
-  },
-  {
-    "label": "OncoGuide: immunogenicity-vs-efficacy (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy.md"
-  },
-  {
-    "label": "OncoGuide: positive immune assay, recurrence and combined-treatment attribution",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/guides/personalized-cancer-vaccine/08-dosing-and-measuring-response.md#worked-example-a-positive-assay-and-a-recurrence"
-  },
-  {
-    "label": "OncoGuide: receptor changes and tumour-DNA attribution",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/guides/how-the-immune-system-fights-cancer/08-measure-a-response.md#try-it"
   }
 ],
     related: [

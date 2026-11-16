@@ -562,51 +562,51 @@ export const termsBasics: TermInput[] = [
 "asOf": "2026-11-09",
 "links": [
   {
-    "label": "Primary source, PMID 11326099",
+    "label": "Wei et al., Proapoptotic BAX and BAK: a requisite gateway to mitochondrial dysfunction and death (Science 2001)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/11326099/"
   },
   {
-    "label": "Primary source, PMID 17187072",
+    "label": "Obeid et al., Calreticulin exposure dictates the immunogenicity of cancer cell death (Nat Med 2007)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/17187072/"
   },
   {
-    "label": "Source identity and scope, PMID 8689682",
+    "label": "Liu et al., Induction of apoptotic program in cell-free extracts: requirement for dATP and cytochrome c (Cell 1996)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/8689682/"
   },
   {
-    "label": "Source identity and scope, PMID 9727492",
+    "label": "Li et al., Cleavage of BID by caspase 8 mediates the mitochondrial damage in the Fas pathway of apoptosis (Cell 1998)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/9727492/"
   },
   {
-    "label": "Source identity and scope, PMID 29362479",
+    "label": "Galluzzi et al., Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018 (Cell Death Differ 2018)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
   },
   {
-    "label": "Source identity and scope, PMID 24355989",
+    "label": "Czabotar et al., Control of apoptosis by the BCL-2 protein family: implications for physiology and therapy (Nat Rev Mol Cell Biol 2014)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/24355989/"
   },
   {
-    "label": "Source identity and scope, PMID 11782314",
+    "label": "Scorrano et al., A distinct pathway remodels mitochondrial cristae and mobilizes cytochrome c during apoptosis (Dev Cell 2002)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/11782314/"
   },
   {
-    "label": "Source identity and scope, PMID 23291630",
+    "label": "Souers et al., ABT-199, a potent and selective BCL-2 inhibitor, achieves antitumor activity while sparing platelets (Nat Med 2013)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/23291630/"
   },
   {
-    "label": "Source identity and scope, PMID 32209603",
+    "label": "Galluzzi et al., Consensus guidelines for the definition, detection and interpretation of immunogenic cell death (J Immunother Cancer 2020)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
   },
   {
-    "label": "Source identity and scope, PMID 22632970",
+    "label": "Dixon et al., Ferroptosis: an iron-dependent form of nonapoptotic cell death (Cell 2012)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/22632970/"
   },
   {
-    "label": "Source identity and scope, PMID 29258294",
+    "label": "Milanovic et al., Senescence-associated reprogramming promotes cancer stemness (Nature 2018)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29258294/"
   },
   {
-    "label": "Source identity and scope, PMID 24439385",
+    "label": "Yang et al., Regulation of ferroptotic cancer cell death by GPX4 (Cell 2014)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/24439385/"
   }
 ],
@@ -630,19 +630,19 @@ export const termsBasics: TermInput[] = [
 "asOf": "2026-11-09",
 "links": [
   {
-    "label": "Primary source, PMID 29362479",
+    "label": "Galluzzi et al., Molecular mechanisms of cell death: recommendations of the Nomenclature Committee on Cell Death 2018 (Cell Death Differ 2018)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/29362479/"
   },
   {
-    "label": "Primary source, PMID 32209603",
+    "label": "Galluzzi et al., Consensus guidelines for the definition, detection and interpretation of immunogenic cell death (J Immunother Cancer 2020)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/32209603/"
   },
   {
-    "label": "Source identity and scope, PMID 22265413",
+    "label": "Sun et al., Mixed lineage kinase domain-like protein mediates necrosis signaling downstream of RIP3 kinase (Cell 2012)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/22265413/"
   },
   {
-    "label": "Source identity and scope, PMID 12110890",
+    "label": "Scaffidi et al., Release of chromatin protein HMGB1 by necrotic cells triggers inflammation (Nature 2002)",
     "url": "https://pubmed.ncbi.nlm.nih.gov/12110890/"
   }
 ],
@@ -1020,7 +1020,7 @@ export const termsBasics: TermInput[] = [
   t({
     id: "biomarker", name: "Biomarker", category: CLINIC, asOf: "2026-11-08",
     aka: ["biomarkers", "marker", "markers", "molecular marker", "molecular markers", "predictive biomarker", "predictive biomarkers", "prognostic biomarker", "prognostic biomarkers", "biomarker-positive", "biomarker-negative", "biomarker-selected", "biomarker-driven", "biomarker-defined"],
-    tldr: "A measurable feature of the body or tumour that helps describe a biological process, a disease or a response to an intervention. Its meaning depends on what was measured and how the result is being used.",
+    tldr: "Anything measurable in the body or tumour that tells you something useful: what kind of cancer it is, how it is likely to behave, or which drug is likely to work.",
     summary: "FDA distinguishes susceptibility or risk, diagnostic, monitoring, prognostic, predictive, response and safety biomarker roles. One marker can serve more than one role, but evidence for one use does not establish the others. A prognostic association describes an outcome; a predictive claim concerns differences in treatment effect and needs comparative evidence. A positive marker does not guarantee benefit, and a negative result does not universally exclude it. The specimen, assay, cutoff, disease and intended use belong with the claim; a companion diagnostic has a specific regulatory purpose.",
     wikipedia: W("Biomarker_(medicine)"),
     links: [{ label: "FDA: biomarker roles and qualification", url: "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification" }, { label: "Ballman: predictive or prognostic biomarkers (2015)", url: "https://doi.org/10.1200/JCO.2015.63.3651" }, { label: "FDA: companion diagnostics", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics" }],
@@ -2069,10 +2069,6 @@ export const termsBasics: TermInput[] = [
   {
     "label": "Greenland et al., 2016: statistical tests and confidence-interval interpretation",
     "url": "https://doi.org/10.1007/s10654-016-0149-3"
-  },
-  {
-    "label": "OncoGuide: confidence-interval (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/confidence-interval.md"
   }
 ],
 "notes": [
@@ -2103,10 +2099,6 @@ export const termsBasics: TermInput[] = [
   {
     "label": "FDA: multiple endpoints in clinical trials (2022)",
     "url": "https://www.fda.gov/media/162416/download"
-  },
-  {
-    "label": "OncoGuide: p-values-and-multiple-testing (pinned teaching source)",
-    "url": "https://github.com/jasonlaster/oncoguide/blob/c96896452386202405c435aa161bc5047919337a/wiki/education/concepts/evidence-and-statistics/effect-measures/p-values-and-multiple-testing.md"
   }
 ],
 "notes": [

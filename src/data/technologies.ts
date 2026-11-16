@@ -338,13 +338,45 @@ export const technologies: TechnologyInput[] = [
     limitations: ["Mouse stroma replaces human", "Months to establish; cost"], links: [{ label: "Wikipedia", url: W("Patient_derived_xenograft") }], companies: ["certis-oncology-solutions"],
   },
   {
-    id: "proteomics", kind: "technology", name: "Proteomics & phosphoproteomics", sections: ["diagnostics", "drug-discovery"], status: "emerging", asOf, wikipedia: W("Proteomics"),
-    tldr: "Measuring the proteins in a tumour, which is what drugs actually hit, rather than the genes that encode them.",
-    summary: "Proteomics measures the proteins and phosphorylation sites in a tumour directly, using liquid chromatography tandem mass spectrometry with isobaric labelling to quantify thousands of proteins and phosphosites at once. Mass-spectrometry proteomics (CPTAC) reveals pathway activity and ADC target abundance that transcript levels do not predict, since RNA and protein levels often disagree. Quantitative IHC and mass-spec assays of HER2 and TROP2 aim to improve ADC patient selection by measuring the actual antigen the drug binds rather than a proxy. Throughput and standardisation remain the barriers to routine clinical use, and it is still open whether protein-level selection will outperform established IHC scoring in trials. For a newcomer, proteomics measures what drugs actually hit, the proteins, rather than the genes that encode them.",
-    principle: "Liquid chromatography tandem mass spectrometry with isobaric labelling quantifies proteins and phosphosites.",
-    strengths: ["Direct measurement of drug targets and signalling"],
-    limitations: ["Throughput and standardisation"], companies: ["elucidate-bio", "acrivon-therapeutics", "biodesix", "helio-genomics", "nonagen-bioscience", "omanta", "oncohost"], links: [{ label: "Wikipedia", url: W("Proteomics") }],
+    id: "proteomics",
+    related: ["targeted-proteomics-quantification", "tissue-preparation-assay-fit", "rppa", "binder-affinity-epitope-developability"], kind: "technology", name: "Proteomics & phosphoproteomics", sections: ["diagnostics", "drug-discovery"], status: "emerging", asOf: "2026-11-10", wikipedia: W("Proteomics"),
+    tldr: "These methods measure proteins or selected signals derived from them. Some also measure chemical modifications, which need to be interpreted separately from protein amount.",
+    summary: "Mass-spectrometry and antibody-based methods measure different protein-derived signals under defined workflows. A primary yeast study measured protein expression alongside phosphorylation and showed why a changed phosphopeptide signal can reflect protein abundance as well as phosphorylation. That methodological result is not a validated cancer-treatment rule. Targeted plasma-protein assays likewise require evidence about recovery, calibration and quantitative range. A protein measurement, modification-site signal, functional pathway dependence and prediction of treatment benefit are distinct claims. Beausoleil and colleagues introduced the Ascore, a probability-based score for how likely a phosphorylation site is correctly localised from site-determining ions in tandem mass spectra, alongside a target-decoy measure of dataset error (2006). In yeast, 25 per cent of seemingly differential phosphopeptides were attributable to changes in protein expression once phosphopeptide ratios were calibrated by protein levels (Wu and colleagues, 2011). In human ovarian tumour and breast cancer xenograft tissue collected without vascular interruption, rapid phosphorylation changes were seen in up to 24 per cent of the phosphoproteome after defined ischaemic intervals, while the global proteome and most of more than 25,000 quantified phosphosites were unchanged after 60 minutes; phosphopeptides in that study were enriched by immobilised metal (Fe3+) affinity chromatography before analysis (Mertins and colleagues, 2014).",
+    principle: "Measure protein-derived peptide or antibody signals, retaining assay specificity, preparation, calibration and the distinction between protein amount and modification state.",
+    strengths: ["Measures protein-derived abundance and modification signals"],
+    limitations: ["Throughput and standardisation"], companies: ["elucidate-bio", "acrivon-therapeutics", "biodesix", "helio-genomics", "nonagen-bioscience", "omanta", "oncohost"], links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Proteomics"
   },
+  {
+    "label": "Correct interpretation of comprehensive phosphorylation dynamics requires normalization by protein expression changes.",
+    "url": "https://doi.org/10.1074/mcp.m111.009654"
+  },
+  {
+    "label": "Multi-site assessment of the precision and reproducibility of multiple reaction monitoring-based measurements of proteins in plasma.",
+    "url": "https://doi.org/10.1038/nbt.1546"
+  },
+  {
+    "label": "A reverse phase protein array based phospho-antibody characterization approach and its applicability for clinical derived tissue specimens.",
+    "url": "https://doi.org/10.1038/s41598-022-26715-9"
+  },
+  {
+    "label": "Beausoleil et al., A probability-based approach for high-throughput protein phosphorylation analysis and site localization (Nature Biotechnology 2006)",
+    "url": "https://doi.org/10.1038/nbt1240"
+  },
+  {
+    "label": "Mertins et al., Ischemia in tumors induces early and sustained phosphorylation changes in stress kinase pathways but does not affect global protein levels (Molecular and Cellular Proteomics 2014)",
+    "url": "https://doi.org/10.1074/mcp.M113.036392"
+  }
+],
+
+"notes": [
+  "Reading guide (OnCo inference). Kinases add phosphate and phosphatases remove it, as the existing phosphorylation record states, and a larger phosphopeptide signal is not a universal sign of greater activity. Enrichment changes what is recovered, so a phosphopeptide sample is not an unbiased count of all proteins. Site localisation is separate from peptide identification and carries its own confidence. A phosphopeptide intensity reflects the source-protein amount, the modified fraction and recovery, so intensity or fold change is not occupancy. A set of supported sites can inform a pathway hypothesis; it does not measure the pathway's rate, prove dependence or show benefit from a drug, and a kinase inferred from a pattern is not measured causality.",
+  "Fictional worked example with independent arithmetic. Parent-protein signal rises from 100 to 200 and phosphopeptide signal from 20 to 40, each on its own assay scale: 200 / 100 = 2 and 40 / 20 = 2, so the protein-adjusted relative change is 2 / 2 = 1. The raw 20 / 100 = 0.2 is not the fraction of protein molecules carrying the site, because recovery and response factors differ between the assays, and no activation or kinase-causality conclusion follows. A twofold phosphopeptide rise with a twofold parent-protein rise therefore does not show doubled activation.",
+  "Assay card in words (a reading guide). Measures and method: enriched phosphorylated peptides, identified sites and quantitative comparisons. Input and tissue cost: a protein extract with recorded collection and preservation; preparation consumes material, and enrichment may need more input than the companion total-protein assay. Output and units: phosphopeptide or site identifiers, localisation scores and relative intensities or ratios, with occupancy percentages only when specifically supported. Thresholds: separate identification error controls, localisation criteria and quantitative limits for the exact workflow. Failure modes: handling-induced change, incomplete recovery, ambiguous sites, low signal and unmeasured parent-protein change. Limits: no automatic activation, enzyme-of-origin, dependency or drug-benefit conclusion. Validation context: check reproducibility, timing controls and site-specific evidence."
+]
+},
   {
     id: "methylation-profiling", related: ["cfdna-methylation-testing", "cns-tumour-methylation-classifier"], kind: "technology", name: "DNA methylation profiling", sections: ["diagnostics", "early-detection"], status: "established", asOf, wikipedia: W("DNA_methylation"),
     tldr: "Reading chemical tags on DNA that reveal a cell's identity, used to classify brain tumours and to detect cancer in blood.",
@@ -1113,15 +1145,44 @@ export const technologies: TechnologyInput[] = [
     links: [{ label: "Wikipedia", url: W("Spatial_transcriptomics") }],
   },
   {
-    id: "imaging-mass-cytometry", companies: ["navignostics", "ionpath"], kind: "technology", name: "Imaging mass cytometry", sections: ["diagnostics"], status: "emerging", asOf, wikipedia: W("Mass_cytometry"),
+    id: "imaging-mass-cytometry",
+    related: ["cell-segmentation", "proteomics", "tissue-preparation-assay-fit"], companies: ["navignostics", "ionpath"], kind: "technology", name: "Imaging mass cytometry", sections: ["diagnostics"], status: "emerging", asOf: "2026-11-10", wikipedia: W("Mass_cytometry"),
     tldr: "A way to stain a tumour slice for dozens of proteins at once using metal-tagged antibodies read by a mass spectrometer, giving a detailed map of which cells are where.",
-    summary: "Imaging mass cytometry (Standard BioTools Hyperion) and multiplexed ion beam imaging (MIBI) label antibodies with rare-earth metal isotopes instead of fluorophores, then ablate the tissue pixel by pixel and read the metals by mass spectrometry. Forty or more markers can be measured on one section without spectral overlap, letting researchers phenotype immune and tumour cells in place and quantify their spatial relationships.",
-    principle: "Metal-isotope-tagged antibodies bind the section; a laser or ion beam vaporises each pixel and time-of-flight mass spectrometry counts the isotopes, building one image per marker.",
-    strengths: ["Forty-plus markers on one section","No autofluorescence or spectral overlap","Quantitative per-cell protein levels"],
+    summary: "The original imaging mass cytometry method combined metal-tagged antibodies with laser ablation and mass cytometry to map marker signals in tumor sections. Multiplexed ion beam imaging is a related approach that uses secondary ion mass spectrometry; the acquisition methods are distinct. Assigning tissue signals to individual cells also requires image analysis. Marker selection, antibody performance and segmentation affect what a reported cell profile means; a spatial association does not by itself establish a cellular mechanism or treatment response. The original imaging mass cytometry paper coupled immunohistochemical and immunocytochemical staining with high-resolution laser ablation to CyTOF mass cytometry, imaging 32 proteins and modifications at subcellular resolution in human breast cancer samples, with more than 100 markers possible given further isotopes; mass cytometry had previously been applied only to cell suspensions (Giesen and colleagues, 2014). Spillover between channels is reduced compared with dye-based flow cytometry but still exists, and a bead-based compensation workflow was developed to estimate and correct it in suspension and imaging mass cytometry, reducing the risk of reporting cell phenotype artefacts (Chevrier and colleagues, 2018).",
+    principle: "Imaging mass cytometry reads laser-ablated metal-tagged antibody signals from tissue; related ion-beam methods use a distinct acquisition approach.",
+    strengths: ["Multiple markers localized on one tissue section", "Preserves spatial marker information", "Supports cell profiling when staining and segmentation are validated"],
     limitations: ["Slow acquisition and small fields of view","Expensive instruments","Research use only"],
     technologies: ["single-cell-spatial"],
-    links: [{ label: "Wikipedia", url: W("Mass_cytometry") }],
+    links: [
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mass_cytometry"
   },
+  {
+    "label": "Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry.",
+    "url": "https://doi.org/10.1038/nmeth.2869"
+  },
+  {
+    "label": "Multiplexed ion beam imaging of human breast tumors.",
+    "url": "https://doi.org/10.1038/nm.3488"
+  },
+  {
+    "label": "Whole-cell segmentation of tissue images with human-level performance using large-scale data annotation and deep learning.",
+    "url": "https://doi.org/10.1038/s41587-021-01094-0"
+  },
+  {
+    "label": "Chevrier et al., Compensation of Signal Spillover in Suspension and Imaging Mass Cytometry (Cell Systems 2018)",
+    "url": "https://doi.org/10.1016/j.cels.2018.02.010"
+  }
+],
+
+"notes": [
+  "Reading guide (OnCo inference). The antibody panel selects what can be measured, so imaging mass cytometry is not untargeted proteomics. Laser ablation removes the sampled material, so the scanned region is consumed. Spatial proximity between marker-defined cells is a measured arrangement, not functional interaction, killing or patient benefit. Suspension mass cytometry shares the detection principle but loses the original arrangement.",
+  "Fictional worked example. A panel reports a rare double-positive cell population while one marker is extremely bright in a neighbouring mass channel. Before calling a new cell state, inspect channel interference and staining controls and overlay the cell boundaries, because spillover or a merged boundary can create apparent coexpression; even a corrected pattern still needs biological interpretation.",
+  "Figure reading (toy grid, light and dark renders agree): a stained section is sampled address by address, the address x2,y1 is recorded and material is removed; the channels for marker A (blue) and marker B (rose) are rebuilt on one grid, with the outlined tile at the same x2,y1 address in both; estimated cell borders need checking; and suspension cells lose this arrangement. Only selected markers are shown and nothing guarantees segmentation.",
+  "Assay card in words (a reading guide). Input and tissue cost: a compatible tissue section and a validated panel; ablation consumes the scanned region, and field choice and section area limit sampling. Output and units: metal-signal images, per-pixel or per-cell channel values, cell counts, densities per square millimetre and distances in micrometres; signals are not automatically absolute molecule counts. Controls: antibody validation and titration, positive and negative material, interference controls, instrument checks and boundary overlays. Thresholds: explicit marker, phenotype and spatial rules, with no universal immune-response cutoff. Failure modes: channel interference, weak staining, acquisition artefacts, unrepresentative fields, wrong boundaries and inconsistent analysis batches. Cannot tell you: unmeasured proteins, living-cell dynamics, antigen specificity, killing or benefit. Validation context: the panel and pipeline need technical validation."
+]
+},
   {
     id: "multiplex-immunofluorescence", companies: ["navignostics", "vicinity-bio", "strand-ai"], kind: "technology", name: "Multiplex immunofluorescence", sections: ["diagnostics"], status: "established", asOf, wikipedia: W("Immunofluorescence"),
     tldr: "Staining one tumour slide for several proteins in different colours, then using software to count immune and cancer cells and measure how close they are.",

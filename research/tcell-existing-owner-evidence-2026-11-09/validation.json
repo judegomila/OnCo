@@ -1,0 +1,29 @@
+{
+  "checkedOn": "2026-11-09",
+  "baseline": "1329c14243c52b30fab3459bb0c68eadb63bdd8b",
+  "validate": {
+    "entities": 22719,
+    "status": "pass"
+  },
+  "typecheck": "pass",
+  "focusedLint": "pass",
+  "fullSuite": {
+    "files": 281,
+    "testsPassed": 2813,
+    "testsSkipped": 2,
+    "durationSeconds": 94.25
+  },
+  "renderedEntityDetailRecords": 45,
+  "requirementPassagesInActualBody": 10,
+  "changedOwners": [
+    "tcr-repertoire-clonality",
+    "immunodominance",
+    "epitope-spreading"
+  ],
+  "sourceAndArrayPreservation": "Actual pre-change graph equals pinned 45-owner snapshot. Only notes, links and asOf differ at the three owners. Every previous array item is preserved.",
+  "productionBuild": "Not rerun for this notes-only follow-up. Prior draft records an unchanged GRAPH_JSON named-page-export failure; the same export remains in current source. No bypass or product change is introduced.",
+  "currentNamedPageExportLines": [
+    12
+  ],
+  "scope": "No browser hydration/responsive/hosted-preview claim. No new record, module registration, merge or deploy."
+}

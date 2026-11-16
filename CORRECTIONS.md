@@ -2,6 +2,38 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-11-10
+
+### Immunogenicity and clinical efficacy
+
+- **Exercise scope:** the linked fictional exercise supplies a receptor-repertoire change alongside a tumour-DNA result. It does not supply a tumour sequence match or a positive peptide test. The corrected account separates specificity, function, attribution and detection limits without adding those facts.
+- **Evidence boundaries:** connected notes retain assay preparation, natural tumour recognition, clinical comparisons, harms and uncertainty. An immune result can justify further investigation without settling added clinical benefit. Repeated batch material is consolidated; existing links remain. A newly cached DOI was individually resolved without updating the broader cache date.
+
+## 2026-11-09
+
+### Manufacturing clocks, release evidence and reader summaries
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-09 | [Cell-therapy release and potency testing](/technologies/cell-therapy-release-testing/) | Existing summaries did not retain the distinct identity, vector-copy denominator and limited-shelf-life sterility settings; simplified English said passing checks meant a batch was safe | Selected raw FDA CAR T-cell, gene-therapy CMC and November 2026 final potency-assurance passages, then actual consumer-table review | Adds product-specific measurement and function distinctions, scopes continuing sterility testing, and removes the blanket safety assurance from simplified and translated summaries |
+| 2026-11-09 | [Vein-to-vein time](/terms/vein-to-vein-time/) | The English clock definition needed event/denominator detail, while eight translations and simplified English still gave three to six weeks as a general wait | Manufacturing guidance, existing cohort-scoped evidence, rendered body and all loaded summary tables | Defines collection-to-infusion separately from culture and other clocks; retains non-infusion and bridging context; updates all nine alternative summaries without a universal duration |
+
+## 2026-11-08
+
+### Evidence boundaries in immune assays and manufacturing
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-08 | [Neoantigen](/terms/neoantigen/) | Said a tumor-derived sequence change was something the immune system had never seen and could attack without harming normal cells | Native-tumor immunopeptidomics and the neoantigen-prediction consortium, resolved through Europe PMC and abstracts read | Removes the blanket safety assurance; distinguishes candidate sequence, natural presentation, immune recognition and clinical benefit |
+| 2026-11-08 | [Antigen presentation and immune editing](/pathways/antigen-presentation-immunoediting/) | Said T-cell engagers bypass MHC entirely, while the next line named peptide-HLA-directed formats | Existing intervention rows compared with primary binding/recognition and surface-antigen engager studies | Scopes MHC-independent recognition to surface-antigen-directed formats, retains peptide-HLA dependence for the other formats and separates recognition from killing in the TL;DR |
+| 2026-11-08 | [Vein-to-vein time](/terms/vein-to-vein-time/) | Presented typical waiting periods and a cross-trial timing comparison as a general explanation of outcomes, without retaining study-specific definitions | UK National CAR T Panel retrospective report and FDA manufacturing guidance | Defines the interval and separate outcomes; notes that the report's manufacturing-failure category includes out-of-specification product, and does not infer an individual's access or benefit |
+| 2026-11-08 | [Imaging mass cytometry](/technologies/imaging-mass-cytometry/) | Combined laser-based imaging mass cytometry and ion-beam imaging without distinguishing acquisition, and described per-cell protein amounts without qualifying signal assignment | Original imaging mass cytometry and MIBI papers and the Mesmer segmentation study | Names the distinct acquisition approaches and explains antibody and cell-segmentation validation |
+| 2026-11-08 | [Cell-therapy release and potency testing](/technologies/cell-therapy-release-testing/) | The diagram treated HLA as universal lot identity, cytokine secretion as proof of killing, fixed turnaround times as general rules and potency assays as broadly poor clinical predictors | Rendered-page review against FDA CAR T-cell development and final potency-assurance guidance | Replaces those claims with product-specific assay, identity, sampling and interpretation wording; diagram geometry is unchanged |
+| 2026-11-08 | [Flow cytometry](/terms/flow-cytometry/) | Described the platform through surface markers and gave an MRD sensitivity range without retaining a particular validated assay | Primary intracellular-cytokine, assay-validation and cytotoxicity method studies | Separates immunophenotyping from functional readouts and removes the unqualified platform-wide performance figure |
+| 2026-11-08 | [Sample preanalytics](/technologies/preanalytics-sample-stabilisation/) | Combined named preservation products and a numerical fixation window in a general specimen explanation without keeping the downstream assay scope | Paired fixed/frozen studies, the NCI preanalytical-variables study and biospecimen best practices | Uses documented, assay-specific preparation and validation rather than a universal handling rule |
+| 2026-11-08 | [Proteomics and phosphoproteomics](/technologies/proteomics/) | Described protein and signalling measurements as direct drug-target information without separating abundance, modification and functional dependence | Protein-normalized phosphoproteomics experiments and multilaboratory targeted-assay validation | Distinguishes protein-derived signals, modification state, functional claims and clinical prediction; retains the normalization study's yeast setting |
+| 2026-11-08 | [Reverse-phase protein arrays](/terms/rppa/) | Called RPPA the only pan-cancer protein data at scale and presented a broad panel count as a platform definition | Original RPPA study and phospho-antibody characterization experiments | Removes the exclusive claim and fixed panel size; explains sample lysates, antibody specificity and controls |
+
 ## 2026-11-04
 
 ### Corrections found by the November 2026 gap census

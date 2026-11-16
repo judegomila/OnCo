@@ -442,7 +442,7 @@ export const simpleJ: Record<string, string> = {
   "gvhd": "Graft-versus-host disease is when donor immune cells attack the patient's skin, gut and liver after a transplant, while the same cells also hunt down leftover leukaemia.",
   "lymphodepletion": "Lymphodepletion is a short course of chemotherapy given before a CAR-T infusion to clear out the patient's own lymphocytes, making room for the engineered cells to expand.",
   "bridging-therapy": "Bridging therapy keeps a fast-growing cancer in check during the weeks between deciding on CAR-T or transplant and actually receiving it.",
-  "vein-to-vein-time": "Vein-to-vein time is the number of days from collecting a patient's cells for CAR-T to infusing the finished product, typically three to six weeks.",
+  "vein-to-vein-time": "Vein-to-vein time is the wait from collecting a person's cells to infusing the cell product made from them. Transport, manufacture, testing and treatment scheduling can all take time.",
   "antigen-escape": "Antigen escape is when a cancer treated with a drug aimed at one surface marker survives by shedding that marker, so the drug has nothing to grab.",
   "t-cell-exhaustion-term": "T-cell exhaustion is when immune cells that have fought too long become sluggish and unable to kill, limiting both natural immunity and how long CAR-T cells keep working.",
   "prrt-term": "PRRT is a radioactive drug for neuroendocrine tumours, a small peptide that homes to a receptor on the tumour cells and carries radiation that destroys them from within.",

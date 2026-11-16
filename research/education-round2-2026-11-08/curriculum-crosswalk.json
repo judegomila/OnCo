@@ -1,0 +1,848 @@
+{
+  "oncoBaselineCommit": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "oncoguideCommit": "7510db6be8053b64708b6c6c037ab1ea564a35ab",
+  "metadataOnly": true,
+  "items": [
+    {
+      "group": "Immune-response measurements",
+      "lessonTitle": "ELISpot (enzyme-linked immunospot)",
+      "lessonPath": "wiki/education/concepts/measurement/immune-monitoring/elispot.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/immune-monitoring/elispot.md",
+      "lessonSha256": "879215797eba9f1dd759cb18a254619ac7d0c97c549c69b8ffee73939cae3e9b",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "elispot"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "flow-cytometry",
+        "clonality-testing",
+        "cell-therapy-release-testing"
+      ]
+    },
+    {
+      "group": "Immune-response measurements",
+      "lessonTitle": "Intracellular cytokine staining",
+      "lessonPath": "wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/immune-monitoring/intracellular-cytokine-staining.md",
+      "lessonSha256": "644fcdf708e2672038e45b2609a23dfdb0f01e9c3e84a78cede3d2aafba63143",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "intracellular-cytokine-staining"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "flow-cytometry",
+        "clonality-testing",
+        "cell-therapy-release-testing"
+      ]
+    },
+    {
+      "group": "Immune-response measurements",
+      "lessonTitle": "Peptide–HLA multimer staining",
+      "lessonPath": "wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/immune-monitoring/peptide-hla-multimer-staining.md",
+      "lessonSha256": "0fc3aad77fa874ccc12523db66fe6fbadb7149318744b0a8853086267d0b5f48",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "peptide-hla-multimer-staining"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "flow-cytometry",
+        "clonality-testing",
+        "cell-therapy-release-testing"
+      ]
+    },
+    {
+      "group": "Immune-response measurements",
+      "lessonTitle": "Functional cytotoxicity assays",
+      "lessonPath": "wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/immune-monitoring/functional-cytotoxicity-assays.md",
+      "lessonSha256": "51f939f5e408bb11c6b949764465ab71fcdeccfca76e007d95ec002a6aabfc42",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "immune-cytotoxicity-assays"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "flow-cytometry",
+        "clonality-testing",
+        "cell-therapy-release-testing"
+      ]
+    },
+    {
+      "group": "Immune-response measurements",
+      "lessonTitle": "T-cell receptor sequencing",
+      "lessonPath": "wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/immune-monitoring/tcr-sequencing.md",
+      "lessonSha256": "8eeb0f9e13014057a89873ec4c5bc90e9fbba3213f64f02b1538f63bf7109b27",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "tcr-repertoire-sequencing"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "flow-cytometry",
+        "clonality-testing",
+        "cell-therapy-release-testing"
+      ]
+    },
+    {
+      "group": "Immune-response measurements",
+      "lessonTitle": "T-cell receptor clonality metrics",
+      "lessonPath": "wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/immune-monitoring/tcr-clonality-metrics.md",
+      "lessonSha256": "1b6eab7ff190df9321fc9fc8e862fc31e6618d0d45f16d8680668cd416a94b72",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "tcr-repertoire-clonality"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "flow-cytometry",
+        "clonality-testing",
+        "cell-therapy-release-testing"
+      ]
+    },
+    {
+      "group": "Immune-response measurements",
+      "lessonTitle": "Peripheral blood mononuclear cells",
+      "lessonPath": "wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/immune-monitoring/peripheral-blood-mononuclear-cells.md",
+      "lessonSha256": "e95036068c333a6fad9d8422c00e797b44578b7a022a76254e6dcec967622586",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "pbmc-specimens"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "flow-cytometry",
+        "clonality-testing",
+        "cell-therapy-release-testing"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Binding, presentation and recognition",
+      "lessonPath": "wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/antigen-presentation/binding-presentation-and-recognition.md",
+      "lessonSha256": "c174fc4bae52cd6178fa1ca609e1b57279b3af46600a2b0dcf740961b61284a4",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "binding-presentation-recognition"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Immunopeptidome: the biological display repertoire",
+      "lessonPath": "wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/antigen-presentation/immunopeptidome.md",
+      "lessonSha256": "52a6d70c081bc45851790a71f4e42f4a64aa81370a7479c17a8c510ea45fe4ab",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "immunopeptidome"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Immunopeptidomics",
+      "lessonPath": "wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/proteins-and-spatial/immunopeptidomics.md",
+      "lessonSha256": "ada0888a1267c93440d3cbf3edbbad5f6560027672e568d7dd92455d1a3fa6da",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "immunopeptidomics"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Binding prediction",
+      "lessonPath": "wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/computational-analysis/binding-prediction.md",
+      "lessonSha256": "b74f1983b4d6100eb4f7c3750b12681da41035b8d841b7cf187da729d5dc455c",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "peptide-hla-binding-prediction"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Immunodominance",
+      "lessonPath": "wiki/education/concepts/immunology/t-cells/immunodominance.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/immunodominance.md",
+      "lessonSha256": "f4ff1b9fd70fe77d01603fb76b827e5b779a6f3c02f1b56ae51d84371cd35d6e",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "immunodominance"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Epitope spreading",
+      "lessonPath": "wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/t-cells/epitope-spreading.md",
+      "lessonSha256": "e818eaaca97e1d9090eb04df6e91aed6af0673894b5f470368d40e74f6e8a822",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "epitope-spreading"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Self-similarity and tolerance",
+      "lessonPath": "wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/immunology/antigen-presentation/self-similarity-and-tolerance.md",
+      "lessonSha256": "dda08915aab1b127bba50d0b0ea3897a2cd417dc91a0469aa8772d8f0ac8b4eb",
+      "coverage": "partial",
+      "recordIds": [
+        "self-similarity-immune-recognition"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": "Cross-recognition evidence added; a comprehensive central/peripheral tolerance account remains outside this patch.",
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Antigen selection to immune effect",
+      "lessonTitle": "Immunogenicity versus efficacy",
+      "lessonPath": "wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/evidence-and-statistics/endpoints/immunogenicity-vs-efficacy.md",
+      "lessonSha256": "dc80f15c889d1dc50516b2885c5463ccf214c495edfd1306d7ee9b379645b886",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "immunogenicity-versus-efficacy"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antigen-presentation-immunoediting",
+        "neoantigen",
+        "hla-a-02-01",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Specimen fitness and finite tissue",
+      "lessonTitle": "Fixed, fresh-frozen and viable tissue: different kinds of input",
+      "lessonPath": "wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/ffpe-vs-fresh-frozen-vs-viable.md",
+      "lessonSha256": "34ed49b42b9037f3fa363ce05219deab417edef102838540f8bf502af91b9b95",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "tissue-preparation-assay-fit"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "preanalytics-sample-stabilisation",
+        "tumour-purity"
+      ]
+    },
+    {
+      "group": "Specimen fitness and finite tissue",
+      "lessonTitle": "Tissue is non-renewable: planning a finite specimen budget",
+      "lessonPath": "wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/tissue-is-non-renewable.md",
+      "lessonSha256": "b7ac99552daa97c4910f0a8db250ed4b2babf2e2697486f831775ee5e62fe2d6",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "finite-tissue-budget"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "preanalytics-sample-stabilisation",
+        "tumour-purity"
+      ]
+    },
+    {
+      "group": "Specimen fitness and finite tissue",
+      "lessonTitle": "RNA integrity",
+      "lessonPath": "wiki/education/concepts/measurement/specimens/rna-integrity.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/rna-integrity.md",
+      "lessonSha256": "fb0a7e3bafb45693cf35c522654c0eda69e91c02f0364c307f0ca96b4a9ea3e3",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "rna-integrity"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "preanalytics-sample-stabilisation",
+        "tumour-purity"
+      ]
+    },
+    {
+      "group": "Specimen fitness and finite tissue",
+      "lessonTitle": "Surgical resection specimen: a tissue map with boundaries",
+      "lessonPath": "wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/specimens/surgical-resection-specimen.md",
+      "lessonSha256": "dae8e6e5ea202f1895bf4a4443be0d0b1c1bfb10b25860aaf1f9ac3cbebbb3d7",
+      "coverage": "partial",
+      "recordIds": [
+        "specimen-provenance"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": "Provenance and derivative-sample traceability added; comprehensive surgical orientation, margins and resection-handling guidance remain outside this patch.",
+      "baselineOwnersReviewed": [
+        "preanalytics-sample-stabilisation",
+        "tumour-purity"
+      ]
+    },
+    {
+      "group": "RNA and vaccine construct engineering",
+      "lessonTitle": "mRNA construct anatomy",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/mrna-construct-anatomy.md",
+      "lessonSha256": "54dcc7421ddd085a5a49e83b015451ebb64559674ca8ffdd909790cd1bb78c88",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "mrna-construct-anatomy"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "mrna-lnp-manufacturing",
+        "plasmid-dna-manufacturing",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "RNA and vaccine construct engineering",
+      "lessonTitle": "Codon optimization",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/codon-optimization.md",
+      "lessonSha256": "674fbb183a5dd728d16247730ba8337d485b7b319e5c6fc8535abc904bbd1b53",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "codon-optimization"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "mrna-lnp-manufacturing",
+        "plasmid-dna-manufacturing",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "RNA and vaccine construct engineering",
+      "lessonTitle": "Modified nucleosides in mRNA",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/modified-nucleosides.md",
+      "lessonSha256": "64ced29e02ecad52e1b2f44b80875f9e28a79c518d6f7ac6d0b44b40fc2bea9b",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "modified-rna-nucleosides"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "mrna-lnp-manufacturing",
+        "plasmid-dna-manufacturing",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "RNA and vaccine construct engineering",
+      "lessonTitle": "In vitro transcription",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/in-vitro-transcription.md",
+      "lessonSha256": "b5b1a3375d52f4a551ef46fa29f2ace0d543eab9b4d602af862a5c55ccc72e71",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "in-vitro-transcription"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "mrna-lnp-manufacturing",
+        "plasmid-dna-manufacturing",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "RNA and vaccine construct engineering",
+      "lessonTitle": "Double-stranded RNA impurities and purification",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/dsrna-impurities-and-purification.md",
+      "lessonSha256": "36d465ceb1f72dfdd2731e1ebb587b0e73134f2515f23a5e48055a94e349aa88",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "dsrna-impurities"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "mrna-lnp-manufacturing",
+        "plasmid-dna-manufacturing",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "RNA and vaccine construct engineering",
+      "lessonTitle": "Multi-epitope constructs",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/nucleic-acid-design/multi-epitope-constructs.md",
+      "lessonSha256": "3e01bc1c60ffff921c8a360840de79dc08a43991e576fb176948ec253002effb",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "multi-epitope-constructs"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "mrna-lnp-manufacturing",
+        "plasmid-dna-manufacturing",
+        "neoantigen-mrna-vaccine"
+      ]
+    },
+    {
+      "group": "Recognition modules and targeting layers",
+      "lessonTitle": "A binder as a targeting module",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/binders/binder-as-a-targeting-module.md",
+      "lessonSha256": "6001b03705aabf3319d65dcf8aed174f0901ca2db7a86c54fed0b82137813e7b",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "binder-targeting-module"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antibody",
+        "epitope",
+        "in-vivo-car-t"
+      ]
+    },
+    {
+      "group": "Recognition modules and targeting layers",
+      "lessonTitle": "Binder profiles: affinity, epitope and developability",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/binders/affinity-epitope-and-developability.md",
+      "lessonSha256": "4ff78d5a39741c21e1de951289f868ebfc56f765ca798d9f3f12581f94259acf",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "binder-affinity-epitope-developability"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antibody",
+        "epitope",
+        "in-vivo-car-t"
+      ]
+    },
+    {
+      "group": "Recognition modules and targeting layers",
+      "lessonTitle": "Why binder performance depends on the format",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/binders/format-constraints-on-binders.md",
+      "lessonSha256": "2d51bc89926533de2f3a70c6091820b580eb14684551e803926cd5d8490db874",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "binder-format-constraints"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antibody",
+        "epitope",
+        "in-vivo-car-t"
+      ]
+    },
+    {
+      "group": "Recognition modules and targeting layers",
+      "lessonTitle": "Single-chain variable fragments and single-domain nanobodies",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/binders/scfv-and-vhh-nanobodies.md",
+      "lessonSha256": "37f3ddf4fe8c26d6b87f10c084de88355e19e7e575d0d5966cc27742caa10af9",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "scfv-vhh-formats"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antibody",
+        "epitope",
+        "in-vivo-car-t"
+      ]
+    },
+    {
+      "group": "Recognition modules and targeting layers",
+      "lessonTitle": "Delivery targeting versus cancer targeting",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/delivery-vehicles/delivery-targeting-vs-cancer-targeting.md",
+      "lessonSha256": "f0b8f5576f4580e78ff55dc3963c7dda6430a565ec26cff4706670ee84fe554b",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "delivery-target-versus-therapeutic-target"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "antibody",
+        "epitope",
+        "in-vivo-car-t"
+      ]
+    },
+    {
+      "group": "Manufacturing evidence and quality",
+      "lessonTitle": "Chemistry, manufacturing and controls: the product evidence",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/chemistry-manufacturing-and-controls.md",
+      "lessonSha256": "597266b8cb269fe5a3c048331ba8745ac6db5b4e99dd5189f36f1f0c4728667e",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "chemistry-manufacturing-controls"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "cell-therapy-release-testing",
+        "car-t-manufacturing-process",
+        "vein-to-vein-time",
+        "pharmaceutical-gmp-inspections",
+        "biosimilar-manufacturing"
+      ]
+    },
+    {
+      "group": "Manufacturing evidence and quality",
+      "lessonTitle": "Certificate of analysis: reading a lot report",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/certificate-of-analysis.md",
+      "lessonSha256": "1216a5c970dcbaeea254e01cb85802081071346f3f4737114b9d4698a263f8f2",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "certificate-of-analysis"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "cell-therapy-release-testing",
+        "car-t-manufacturing-process",
+        "vein-to-vein-time",
+        "pharmaceutical-gmp-inspections",
+        "biosimilar-manufacturing"
+      ]
+    },
+    {
+      "group": "Manufacturing evidence and quality",
+      "lessonTitle": "Manufacturing comparability",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/manufacturing-comparability.md",
+      "lessonSha256": "a67848c774ccac46b25cd41942d853d701ed52b8427674f647b6a55d7443a587",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "manufacturing-process-comparability"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "cell-therapy-release-testing",
+        "car-t-manufacturing-process",
+        "vein-to-vein-time",
+        "pharmaceutical-gmp-inspections",
+        "biosimilar-manufacturing"
+      ]
+    },
+    {
+      "group": "Manufacturing evidence and quality",
+      "lessonTitle": "Potency assays",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/cmc-and-quality/potency-assays.md",
+      "lessonSha256": "290e7007e651c76397c8c1ac2a24d4013700cd89abfbf74f488d1bcaa072c0ff",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "cell-therapy-release-testing"
+      ],
+      "recordFiles": [
+        "src/data/supporting.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "cell-therapy-release-testing",
+        "car-t-manufacturing-process",
+        "vein-to-vein-time",
+        "pharmaceutical-gmp-inspections",
+        "biosimilar-manufacturing"
+      ]
+    },
+    {
+      "group": "Manufacturing evidence and quality",
+      "lessonTitle": "Chain of identity and custody",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/chain-of-identity-and-custody.md",
+      "lessonSha256": "24313004b5ad002f45251bd8fb9e91dee1d19c1d36e5c3ac1e7a5306a2c8d44f",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "vein-to-vein-time"
+      ],
+      "recordFiles": [
+        "src/data/terms-jargon.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "cell-therapy-release-testing",
+        "car-t-manufacturing-process",
+        "vein-to-vein-time",
+        "pharmaceutical-gmp-inspections",
+        "biosimilar-manufacturing"
+      ]
+    },
+    {
+      "group": "Manufacturing evidence and quality",
+      "lessonTitle": "Manufacturing failure and out-of-specification product",
+      "lessonPath": "wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/engineering-and-manufacturing/cell-manufacturing/manufacturing-failure-and-out-of-specification-product.md",
+      "lessonSha256": "9e053ff85f7759e4ceceecc5204649b6e16b08b342e47b0a865ef88958819479",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "vein-to-vein-time"
+      ],
+      "recordFiles": [
+        "src/data/terms-jargon.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "cell-therapy-release-testing",
+        "car-t-manufacturing-process",
+        "vein-to-vein-time",
+        "pharmaceutical-gmp-inspections",
+        "biosimilar-manufacturing"
+      ]
+    },
+    {
+      "group": "Spatial and protein readout interpretation",
+      "lessonTitle": "Cell segmentation",
+      "lessonPath": "wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/proteins-and-spatial/cell-segmentation.md",
+      "lessonSha256": "118a1310b12c76fe392c608918f1dcceb355db597ff91e247e54535f8dfc8462",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "cell-segmentation"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "proteomics",
+        "imaging-mass-cytometry",
+        "spatial-transcriptomics",
+        "rppa"
+      ]
+    },
+    {
+      "group": "Spatial and protein readout interpretation",
+      "lessonTitle": "Phosphoproteomics",
+      "lessonPath": "wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/proteins-and-spatial/phosphoproteomics.md",
+      "lessonSha256": "8afaeed97f6e1e34150a4f07ce1e4619d893ab2f67648d8a77cc164d0be5202d",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "proteomics"
+      ],
+      "recordFiles": [
+        "src/data/technologies.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "proteomics",
+        "imaging-mass-cytometry",
+        "spatial-transcriptomics",
+        "rppa"
+      ]
+    },
+    {
+      "group": "Spatial and protein readout interpretation",
+      "lessonTitle": "Targeted proteomics and limits of quantification",
+      "lessonPath": "wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/proteins-and-spatial/targeted-proteomics-and-loq.md",
+      "lessonSha256": "9055233d7675f407951401d3d8b33b32cd08ef79a78bdd1e76a21b1f17623036",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "targeted-proteomics-quantification"
+      ],
+      "recordFiles": [
+        "src/data/education-concepts-round2.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "proteomics",
+        "imaging-mass-cytometry",
+        "spatial-transcriptomics",
+        "rppa"
+      ]
+    },
+    {
+      "group": "Spatial and protein readout interpretation",
+      "lessonTitle": "Imaging mass cytometry",
+      "lessonPath": "wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/proteins-and-spatial/imaging-mass-cytometry.md",
+      "lessonSha256": "193a9c8eef0f2e8de55df54a438fb5da334bc77e5f280e1acf8e82fb668c6935",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "imaging-mass-cytometry"
+      ],
+      "recordFiles": [
+        "src/data/technologies.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "proteomics",
+        "imaging-mass-cytometry",
+        "spatial-transcriptomics",
+        "rppa"
+      ]
+    },
+    {
+      "group": "Spatial and protein readout interpretation",
+      "lessonTitle": "Reverse-phase protein arrays (RPPA)",
+      "lessonPath": "wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "lessonURL": "https://github.com/jasonLaster/oncoguide/blob/7510db6be8053b64708b6c6c037ab1ea564a35ab/wiki/education/concepts/measurement/proteins-and-spatial/rppa.md",
+      "lessonSha256": "465766d137d2ff31a94b34b514d9c219a435716f624ae23179f3a6383c134302",
+      "coverage": "focused distinction added or deepened",
+      "recordIds": [
+        "rppa"
+      ],
+      "recordFiles": [
+        "src/data/terms-cansim-oncology.ts"
+      ],
+      "remainingGap": null,
+      "baselineOwnersReviewed": [
+        "proteomics",
+        "imaging-mass-cytometry",
+        "spatial-transcriptomics",
+        "rppa"
+      ]
+    }
+  ]
+}

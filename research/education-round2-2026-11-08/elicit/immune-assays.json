@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T21:06:33.213Z",
+  "request": {
+    "query": "Which primary assay-development and interlaboratory validation studies distinguish ELISpot cytokine secretion, intracellular cytokine staining, peptide-MHC multimer binding, functional target-cell cytotoxicity, and TCR repertoire clonality?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-29928190",
+        "title": "New Methods for Assessing T-Cell Responses",
+        "authors": [
+          "N. Bercovici",
+          "M. Duffour",
+          "S. Agrawal",
+          "M. Salcedo",
+          "J. Abastado"
+        ],
+        "year": 2000,
+        "abstract": "sensitive or provide more information than previously used assays. Importantly, some of these new techniques allow direct ex vivo analysis of T cells without in vitro amplification, thus providing a more accurate picture of the in vivo immune response. In this review, we describe some of the most widely used techniques for immune monitoring of specific T-cell responses. These various assays can be schematically divided into functional assays, which measure the secretion of a particular cytokine (ELISPOT and intracellular cytokines); assays which assess the specificity of the T cells irrespective of their functionality and which are based on structural features of the TCR (tetramers and immunoscope); and assays aimed at detecting T-cell precursors by amplifying cells that proliferate in response to antigenic stimulation. The sensitivity and immunological relevance of these various methods are discussed. Major findings and future applications in basic and clinical immunology are also presented.",
+        "doi": "10.1128/CDLI.7.6.859-864.2000",
+        "pmid": "11063487",
+        "venue": "Clinical Diagnostic Laboratory Immunology",
+        "citedByCount": 73,
+        "urls": [
+          "https://doi.org/10.1128/cdli.7.6.859-864.2000"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1128/cdli.7.6.859-864.2000"
+      },
+      {
+        "elicitId": "ss-2192778",
+        "title": "Precision and linearity targets for validation of an IFNγ ELISPOT, cytokine flow cytometry, and tetramer assay using CMV peptides",
+        "authors": [
+          "H. Maecker",
+          "Jeffrey Hassler",
+          "J. Payne",
+          "Amanda N Summers",
+          "Karrie Comatas",
+          "M. Ghanayem",
+          "M. Morse",
+          "T. Clay",
+          "H. Lyerly",
+          "Sonny Bhatia",
+          "S. Ghanekar",
+          "V. Maino",
+          "Corazon delaRosa",
+          "M. L. Disis"
+        ],
+        "year": 2008,
+        "abstract": "BackgroundSingle-cell assays of immune function are increasingly used to monitor T cell responses in immunotherapy clinical trials. Standardization and validation of such assays are therefore important to interpretation of the clinical trial data. Here we assess the levels of intra-assay, inter-assay, and inter-operator precision, as well as linearity, of CD8+ T cell IFNγ-based ELISPOT and cytokine flow cytometry (CFC), as well as tetramer assays.ResultsPrecision was measured in cryopreserved PBMC with a low, medium, or high response level to a CMV pp65 peptide or peptide mixture. Intra-assay precision was assessed using 6 replicates per assay; inter-assay precision was assessed by performing 8 assays on different days; and inter-operator precision was assessed using 3 different operators working on the same day. Percent CV values ranged from 4% to 133% depending upon the assay and response level. Linearity was measured by diluting PBMC from a high responder into PBMC from a non-responder, and yielded R2 values from 0.85 to 0.99 depending upon the assay and antigen.ConclusionThese data provide target values for precision and linearity of single-cell assays for those wishing to validate these assays in their own laboratories. They also allow for comparison of the precision and linearity of ELISPOT, CFC, and tetramer across a range of response levels. There was a trend toward tetramer assays showing the highest precision, followed closely by CFC, and then ELISPOT; while all three assays had similar linearity. These findings are contingent upon the use of optimized protocols for each assay.",
+        "doi": "10.1186/1471-2172-9-9",
+        "pmid": "18366814",
+        "venue": "BMC Immunology",
+        "citedByCount": 74,
+        "urls": [
+          "https://bmcimmunol.biomedcentral.com/counter/pdf/10.1186/1471-2172-9-9"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://bmcimmunol.biomedcentral.com/counter/pdf/10.1186/1471-2172-9-9"
+      },
+      {
+        "elicitId": "ss-36578415",
+        "title": "Methods for quantitating antigen-specific T cell responses using functional assays in rhesus macaques.",
+        "authors": [
+          "R. Amara"
+        ],
+        "year": 2009,
+        "abstract": "Ex vivo enumeration of the absolute frequencies of antigen-specific T cells is key for evaluating the immunogenicity of T cell-based vaccines. Currently there are three methods that are widely used to quantify cellular immune responses: Enzyme-Linked Immuno Spot assay (ELISpot), Intracellular Cytokine Staining assay (ICS) and Tetramer assay. These three different assays offer different information. In this chapter, I discuss the two functional assays, ELISpot and ICS. The ELISpot and ICS assays use short term in vitro stimulation to assay the frequency and cytokine expression profiles of responding cells. The ELISpot assay scores spots of captured cytokine produced by individual cells whereas, ICS uses flow cytometry to profile individual cells for surface markers and the production of cytokines.",
+        "doi": "10.1007/978-1-59745-170-3_28",
+        "pmid": "19020841",
+        "venue": "Methods in molecular biology",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 4,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-30745948",
+        "title": "CTL ELISPOT assay.",
+        "authors": [
+          "E. Ranieri",
+          "I. Popescu",
+          "M. Gigante"
+        ],
+        "year": 2014,
+        "abstract": "Enzyme-linked immune absorbent spot (Elispot) is a quantitative method for measuring relevant parameters of T cell activation. The sensitivity of Elispot allows the detection of low-frequency antigen-specific T cells that secrete cytokines and effector molecules, such as granzyme B and perforin. Cytotoxic T cell (CTL) studies have taken advantage with this high-throughput technology by providing insights into quantity and immune kinetics. Accuracy, sensitivity, reproducibility, and robustness of Elispot resulted in a wide range of applications in research as well as in diagnostic field. Actually, CTL monitoring by Elispot is a gold standard for the evaluation of antigen-specific T cell immunity in clinical trials and vaccine candidates where the ability to detect rare antigen-specific T cells is of relevance for immune diagnostic. The most utilized Elispot assay is the interferon-gamma (IFN-γ) test, a marker for CD8(+) CTL activation, but Elispot can also be used to distinguish different subsets of activated T cells by using other cytokines such as T-helper (Th) 1-type cells (characterized by the production of IFN-γ, IL-2, IL-6, IL-12, IL-21, and TNF-α), Th2 (producing cytokines like IL-4, IL-5, IL-10, and IL-13), and Th17 (IL-17) cells. The reliability of Elispot-generated data, by the evaluation of T cell frequency recognizing individual antigen/peptide, is the core of this method currently applied widely to investigate specific immune responses in cancer, infections, allergies, and autoimmune diseases. The Elispot assay is competing with other methods measuring single-cell cytokine production, e.g., intracellular cytokine by FACS or Miltenyi cytokine secretion assay. Other types of lymphocyte frequency and function assays include limiting dilution assay (LDA), cytotoxic T cell assay (CTL), and tetramer staining. Compared with respect to sensitivity the Elispot assay is outranking other methods to define frequency of antigen-specific lymphocytes. The method described herein would like to offer helpful and clear protocols for researchers that apply Elispot. IFN-γ and perforin Elispot assays are described.",
+        "doi": "10.1007/978-1-4939-1158-5_6",
+        "pmid": "25149304",
+        "venue": "Methods in molecular biology",
+        "citedByCount": 34,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 4,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-13018398",
+        "title": "Quantification and characterization of specific T-cells by antigen-specific cytokine production using ELISPOT assay or intracellular cytokine staining.",
+        "authors": [
+          "A. Letsch",
+          "C. Scheibenbogen"
+        ],
+        "year": 2003,
+        "abstract": null,
+        "doi": "10.1016/S1046-2023(03)00124-5",
+        "pmid": "12957572",
+        "venue": "Methods",
+        "citedByCount": 101,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-13584501",
+        "title": "Measurement of cytokine release at the single cell level using the ELISPOT assay.",
+        "authors": [
+          "J. Cox",
+          "G. Ferrari",
+          "S. Janetzki"
+        ],
+        "year": 2006,
+        "abstract": null,
+        "doi": "10.1016/J.YMETH.2005.11.006",
+        "pmid": "16473524",
+        "venue": "Methods",
+        "citedByCount": 111,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-26044620",
+        "title": "Evaluation of the Interlaboratory Concordance in Quantification of Human Immunodeficiency Virus-Specific T Cells with a Gamma Interferon Enzyme-Linked Immunospot Assay",
+        "authors": [
+          "A. Samri",
+          "C. Durier",
+          "Alejandra Urrutia",
+          "I. Sánchez",
+          "H. Gahéry-Ségard",
+          "S. Imbart",
+          "M. Sinet",
+          "E. Tartour",
+          "J. Aboulker",
+          "B. Autran",
+          "A. Venet"
+        ],
+        "year": 2006,
+        "abstract": "ABSTRACT The gamma interferon (IFN-γ) enzyme-linked immunospot (ELISPOT) assay is a reference method for the ex vivo monitoring of antigen-specific T cells and a primary tool for assessing clinical trials of human immunodeficiency virus (HIV) or cancer vaccines. Four experienced laboratories in Paris compared their results with this method by exchanging frozen blood samples from eight HIV-seronegative and eight HIV-seropositive subjects. Each laboratory measured the IFN-γ-producing cells specific for HIV, Epstein-Barr virus, cytomegalovirus, and influenza using the same set of peptides and the same ELISPOT reader but its own ELISPOT technique. The cutoff values for positive responses (50 or 100 spot-forming cells/106 peripheral blood mononuclear cells over background) were consistent with the binomial statistic criterion. The global qualitative concordance, as assessed by the kappa index, ranged from 0.38 to 0.92, that is, moderate to excellent, and was better for non-HIV 9-mer peptide pools than for HIV 15-mer peptide pools. The interlaboratory coefficient of variation for the frequency of virus-specific T cells was 18.7% (data are expressed on a log scale). Clustering analysis of HIV-positive subjects showed qualitative agreement for ELISPOT results from all four laboratories. Overall, the good interlaboratory qualitative concordance of IFN-γ ELISPOT assays with only the peptide source and ELISPOT reader in common suggests that a qualitative comparison of interlaboratory findings is feasible. Nonetheless, a single set of standard operating procedures should be used in multicenter trials to improve standardization.",
+        "doi": "10.1128/CVI.00387-05",
+        "pmid": "16760328",
+        "venue": "Clinical and Vaccine Immunology",
+        "citedByCount": 30,
+        "urls": [
+          "https://doi.org/10.1128/cvi.00387-05"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1128/cvi.00387-05"
+      },
+      {
+        "elicitId": "ss-26219817",
+        "title": "ELISpot for measuring human immune responses to vaccines",
+        "authors": [
+          "M. Slota",
+          "Jong-Baeck Lim",
+          "Y. Dang",
+          "M. Disis"
+        ],
+        "year": 2011,
+        "abstract": "The enzyme-linked immunosorbent spot (ELISpot) assay is one of the most commonly used methods to measure antigen-specific T cells in both mice and humans. Some of the primary reasons for the popularity of the method are that ELISpot is highly quantitative, can measure a broad range of magnitudes of response and is capable of assessing critical cellular immune-related activities such as IFN-γ secretion and granzyme B release. Furthermore, ELISpot is adaptable not only to the evaluation of a variety of T-cell functions, but also to B cells and innate immune cells. It is no wonder that ELISpot has evolved from a research tool to a clinical assay. Recent Phase I and II studies of cancer vaccines, tested in a variety of malignancies, have suggested that ELISpot may be a useful biomarker assay to predict clinical benefit after therapeutic immune modulation. This article will discuss the most common applications of ELISpot, overview the efforts that have been undertaken to standardize the assay and apply the method in the analysis of human clinical trials, and describe some important steps in the process of developing a clinical-grade ELISpot.",
+        "doi": "10.1586/erv.10.169",
+        "pmid": "21434798",
+        "venue": "Expert Review of Vaccines",
+        "citedByCount": 170,
+        "urls": [
+          "https://ir.ymlib.yonsei.ac.kr/handle/22282913/94218"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://ir.ymlib.yonsei.ac.kr/handle/22282913/94218"
+      },
+      {
+        "elicitId": "ss-4673958",
+        "title": "ELISPOT and intracellular cytokine staining: novel assays for quantifying T cell responses in the chicken.",
+        "authors": [
+          "M. Ariaans",
+          "P. M. V. D. Haar",
+          "J. Lowenthal",
+          "W. Eden",
+          "E. Hensen",
+          "L. Vervelde"
+        ],
+        "year": 2008,
+        "abstract": null,
+        "doi": "10.1016/j.dci.2008.05.007",
+        "pmid": "18579202",
+        "venue": "Developmental and Comparative Immunology",
+        "citedByCount": 55,
+        "urls": [
+          "https://linkinghub.elsevier.com/science/article/pii/S0145305X08001122"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://linkinghub.elsevier.com/science/article/pii/S0145305X08001122"
+      },
+      {
+        "elicitId": "ss-6425978",
+        "title": "A systematic comparison of methods to measure HIV-1 specific CD8 T cells.",
+        "authors": [
+          "Yue Sun",
+          "E. Iglesias",
+          "A. Samri",
+          "G. Kamkamidze",
+          "T. Decoville",
+          "G. Carcelain",
+          "B. Autran"
+        ],
+        "year": 2003,
+        "abstract": null,
+        "doi": "10.1016/S0022-1759(02)00328-9",
+        "pmid": "12505709",
+        "venue": "JIM - Journal of Immunological Methods",
+        "citedByCount": 131,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-1218100",
+        "title": "Development and Use of Multimeric Major Histocompatibility Complex Molecules",
+        "authors": [
+          "T. Greten",
+          "J. Schneck"
+        ],
+        "year": 2002,
+        "abstract": "Enumeration and analysis of antigen-specific T cells play a central role in cellular immunology. While many methodologies have been established for the analysis of humoral responses, until recently the direct analysis of antigen-specific T-cell responses was extremely difficult. Difficulty in analyzing T cells was partially due to the fact that T lymphocytes recognize cell surface peptide-major histocompatibility complex (MHC) complexes and also due to the intrinsic low affinity of T-cell receptors (TCR) for cognate ligand. In this review, we discuss some new methodologies for visualizing antigen-specific T cells and how they have impacted our understanding of cellular immune responses. In the past, several methods were used to quantitate antigenspecific T-cell responses. Traditionally, these assays were functional assays, dependent on the proliferation or lytic activity of antigen-specific T cells in vitro. To improve the sensitivity of these assays, it was necessary to expand the population of antigen-specific T cells in vitro before measuring effector functions, such as cytolysis, proliferative responses, or cytokine release. Serial limiting-dilution assays (LDA) were the old “gold standard” for quantitative analysis of antigen-specific cytotoxic T lymphocytes (CTL) (19). This assay depended on the ability of antigen-specific T cells to survive, function, and proliferate in vitro upon stimulation. Therefore, the number of antigen-specific CTL determined by LDA significantly underestimated the true number of antigen-specific CTL and also lacked further detailed information about the characteristics of antigen-specific CD8 T cells in vivo. Recently, new assays based on cytokine induction and/or release have been developed. These assays do not require in vitro proliferation of antigen-specific T cells but do depend on peptide-induced production of cytokines. Cytokine production can be detected in an ELISPOT assay (34), intracellularly (29, 31), or captured on the cell surface (8) and analyzed by flow cytometry. Analysis for cytokine-producing cells has influenced our estimate of antigen-specific T-cell precursor frequency. While these methods have been useful in visualizing cells on the basis of effector cytokine release, there is also a skewing that occurs depending on which cytokine is being assayed that is not present if one can visualize T cells solely based on TCR specificity. In addition, due to technical aspects of the assays, one cannot keep cells alive for additional studies after ELISPOT assay or intracellular cytokine staining. Anticlonotypic TCR-specific antibodies have also been useful in analyzing the antigen-specific T-cell response in vivo.",
+        "doi": "10.1128/CDLI.9.2.216-220.2002",
+        "pmid": "11874855",
+        "venue": "Clinical and Vaccine Immunology",
+        "citedByCount": 20,
+        "urls": [
+          "https://doi.org/10.1128/cdli.9.2.216-220.2002"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1128/cdli.9.2.216-220.2002"
+      },
+      {
+        "elicitId": "ss-31010312",
+        "title": "Harmonization of the intracellular cytokine staining assay",
+        "authors": [
+          "M. Welters",
+          "C. Gouttefangeas",
+          "T. Ramwadhdoebé",
+          "A. Letsch",
+          "C. Ottensmeier",
+          "C. Britten",
+          "S. van der Burg"
+        ],
+        "year": 2012,
+        "abstract": "Active immunotherapy for cancer is an accepted treatment modality aiming to reinforce the T-cell response to cancer. T-cell reactivity is measured by various assays and used to guide the clinical development of immunotherapeutics. However, data obtained across different institutions may vary substantially making comparative conclusions difficult. The Cancer Immunotherapy Immunoguiding Program organizes proficiency panels to identify key parameters influencing the outcome of commonly used T-cell assays followed by harmonization. Our successes with IFNγ-ELISPOT and peptide HLA multimer analysis have led to the current study on intracellular cytokine staining (ICS). We report the results of three successive panels evaluating this assay. At the beginning, 3 out of 9 participants (33 %) were able to detect >6 out of 8 known virus-specific T-cell responses in peripheral blood of healthy individuals. This increased to 50 % of the laboratories in the second phase. The reported percentages of cytokine-producing T cells by the different laboratories were highly variable with coefficients of variation well over 60 %. Variability could partially be explained by protocol-related differences in background cytokine production leading to sub-optimal signal-to-noise ratios. The large number of protocol variables prohibited identification of prime guidelines to harmonize the assays. In addition, the gating strategy used to identify reactive T cells had a major impact on assay outcome. Subsequent harmonization of the gating strategy considerably reduced the variability within the group of participants. In conclusion, we propose that first basic guidelines should be applied for gating in ICS experiments before harmonizing assay protocol variables.",
+        "doi": "10.1007/s00262-012-1282-9",
+        "pmid": "22714399",
+        "venue": "Cancer Immunology and Immunotherapy",
+        "citedByCount": 51,
+        "urls": [
+          "https://link.springer.com/content/pdf/10.1007/s00262-012-1282-9.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://link.springer.com/content/pdf/10.1007/s00262-012-1282-9.pdf"
+      },
+      {
+        "elicitId": "ss-81780454",
+        "title": "Validation of an ELISPOT Based T cell Biomarker Assay for Monitoring Effects of Immune Modulating Agent (132.3)",
+        "authors": [
+          "Danika Wullner",
+          "E. Yue",
+          "S. Swanson",
+          "V. Jawa"
+        ],
+        "year": 2007,
+        "abstract": "Enzyme linked immunospot (ELISPOT) assays are widely used for detection of rare antigen specific cytokine producing T cells. These T cells are present in circulation during an infection or vaccination. A quantitative assessment of immunogen specific T cell responses may prove to be a meaningful surrogate marker of functional immunity in patients. To be an effective biomarker assay in a clinical trial evaluation, the assay needs to be evaluated in terms of its robustness and precision. This study describes the steps towards validating a T cell ELISPOT assay.\n\nValidation experiments included assessment of variability during cell harvest and freezing procedures, and shipping and handling of cells from clinical site to the laboratory. A variability of below 5% (cell viability and cell count) and 9.3% was observed in ELISPOT counts throughout shipping experiments. A series of mitogens were screened to select the appropriate positive control for T cell activation. PHA and tetanus were selected as positive controls based on the consistently high spot counts in the ELISPOT. An increase in variability was observed with an increase in concentration of cells added to the ELISPOT wells. The optimal cell number to be plated was set at 300,000 cells/ well. Inter and intra assay variability was less than 20% for a PHA mitogen stimulated control. Analysis of variability results enabled the development of cut point for each stimulant. This was helpful in setting criterions for an actual response over false positives/negatives. Based on these validation results, a reliable ELISPOT assay was developed to quantify antigen specific T cell immunity and consequently used as a biomarker for monitoring the effects of immunomodulatory drugs.",
+        "doi": "10.4049/jimmunol.178.supp.132.3",
+        "pmid": null,
+        "venue": "Journal of Immunology",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-265535788",
+        "title": "Validation of a double-color ELISpot assay of IFN-γ and IL-4 production in human peripheral blood mononuclear cells.",
+        "authors": [
+          "F. Dapporto",
+          "Domiziana De Tommaso",
+          "Camilla Marrocco",
+          "Pietro Piu",
+          "Claudia Semplici",
+          "Giulia Fantoni",
+          "I. Ferrigno",
+          "G. Piccini",
+          "M. Monti",
+          "Francesca Vanni",
+          "Ilaria Razzano",
+          "I. Manini",
+          "E. Montomoli",
+          "A. Manenti"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/j.jim.2023.113588",
+        "pmid": "38040193",
+        "venue": "JIM - Journal of Immunological Methods",
+        "citedByCount": 4,
+        "urls": [
+          "https://doi.org/10.1016/j.jim.2023.113588"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://doi.org/10.1016/j.jim.2023.113588"
+      },
+      {
+        "elicitId": "ss-13786920",
+        "title": "QUALITY ASSURANCE OF INTRACELLULAR CYTOKINE STAINING ASSAYS: ANALYSIS OF MULTIPLE ROUNDS OF PROFICIENCY TESTING",
+        "authors": [
+          "M. Jaimes",
+          "Holden T. Maecker",
+          "Ming Yan",
+          "Vernon C. Maino",
+          "M. Hanley",
+          "Angela Greer",
+          "J. Darden",
+          "M. D'Souza"
+        ],
+        "year": 2010,
+        "abstract": null,
+        "doi": "10.1016/j.jim.2010.08.004",
+        "pmid": "20727897",
+        "venue": "JIM - Journal of Immunological Methods",
+        "citedByCount": 42,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/3003767"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 3,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/3003767"
+      }
+    ],
+    "warnings": []
+  }
+}

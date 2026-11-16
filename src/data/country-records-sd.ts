@@ -183,7 +183,7 @@ const papers: PaperInput[] = [
     institutions: ["rick-khartoum-oncology-hospital", "nci-university-of-gezira"], cancers: ["childhood-cancers"],
     links: [doi("10.1200/GO.24.00144", "JCO Glob Oncol 2024"), pubmed("38959450")] }),
 
-  p({ id: "paper-ahmed-armed-conflict-cancer-care-sudan-jcogo-2025", name: "How Sudan's war moved cancer patients to peripheral oncology centres",
+  p({ id: "paper-ahmed-armed-conflict-cancer-care-sudan-jcogo-2025", name: "Sudan's war and cancer care: the move of patients to peripheral oncology centres",
     journal: "JCO Global Oncology", year: 2025, doi: "10.1200/GO-24-00568", pmid: "40466016", authors: "Ahmed Y, Karadawi N, Abubaker M, Mustafa A", paperType: "observational",
     tldr: "A 2025 analysis reports quantitative data on the surge of patients at peripheral centres such as the East Oncology Centre and the White Nile Cancer Centre after Khartoum's cancer services collapsed, alongside critical shortages of supplies.",
     summary: "Published as \"Impact of Armed Conflict on Cancer Care in Sudan: Challenges and Strategic Responses\". The authors analyse the collapse of oncology services after 15 April 2023, the redistribution of patients to peripheral oncology centres, the strain on those centres, the disruption of supply chains and the displacement of health workers, and the lack of global attention to Sudan compared with other conflicts.",

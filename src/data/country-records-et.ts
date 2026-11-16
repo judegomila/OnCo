@@ -132,7 +132,7 @@ const papers: PaperInput[] = [
     institutions: ["addis-ababa-city-cancer-registry"], cancers: ["breast-cancer", "colorectal"],
     links: [doi("10.1200/JGO.17.00175", "J Glob Oncol 2018"), pubmed("30241262")] }),
 
-  p({ id: "paper-eregata-ethiopia-ehsp-revision-hsr-2020", name: "How Ethiopia revised its essential health services package in 2019",
+  p({ id: "paper-eregata-ethiopia-ehsp-revision-hsr-2020", name: "Ethiopia's 2019 revision of its essential health services package: process and methods",
     journal: "Health Systems & Reform", year: 2020, doi: "10.1080/23288604.2020.1829313", pmid: "33300838", authors: "Eregata GT, Hailu A, Geletu ZA, et al.", paperType: "methods",
     tldr: "Ethiopia's 2019 revision of its essential health services package ranked 1,018 interventions using seven criteria, including cost-effectiveness and financial risk protection, and made 570 of them free of charge.",
     summary: "Published as \"Revision of the Ethiopian Essential Health Service Package: An Explication of the Process and Methods Used\". It describes the process the Ministry of Health followed in 2019: 35 consultative workshops with experts and the public to define scope, list interventions, agree criteria, gather evidence and compare interventions.",

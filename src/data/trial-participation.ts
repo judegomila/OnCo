@@ -75047,29 +75047,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       ]
     }
   ],
-  "nct07432399": [
-    {
-      "nct": "NCT07432399",
-      "source": "https://clinicaltrials.gov/study/NCT07432399",
-      "fetchedAt": "2026-10-07T16:55:44.977Z",
-      "studySha256": "20ce828d4f7c3bc490a032b2fbd2acac4baea5ef41ce9e488e2e4d2a49a154c2",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-03-06",
-      "leadSponsor": "Institute of Oncology Ljubljana",
-      "collaboratorCount": 0,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 100,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 1,
-      "recruitingSiteCount": 1,
-      "countries": [
-        "Slovenia"
-      ]
-    }
-  ],
   "nct07473128": [
     {
       "nct": "NCT07473128",
@@ -77426,29 +77403,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "Denmark"
-      ]
-    }
-  ],
-  "nct07443475": [
-    {
-      "nct": "NCT07443475",
-      "source": "https://clinicaltrials.gov/study/NCT07443475",
-      "fetchedAt": "2026-10-07T16:55:45.930Z",
-      "studySha256": "42689caf3396c48bf18cfe5b29f5f713e551443f150c6eb8987dda013aa6042d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-03-02",
-      "leadSponsor": "Institute of Oncology Ljubljana",
-      "collaboratorCount": 0,
-      "minimumAge": "18 Years",
-      "sex": "FEMALE",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 13,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 1,
-      "recruitingSiteCount": 1,
-      "countries": [
-        "Slovenia"
       ]
     }
   ],
@@ -109251,45 +109205,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "Turkey (Türkiye)",
         "United Kingdom",
-        "United States"
-      ]
-    }
-  ],
-  "nct05491525": [
-    {
-      "nct": "NCT05491525",
-      "source": "https://clinicaltrials.gov/study/NCT05491525",
-      "fetchedAt": "2026-10-07T16:53:43.406Z",
-      "studySha256": "cf051d080a01235a21886349067eb5ee1758ccfe4166db406bb6be18ad442126",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-06-15",
-      "leadSponsor": "Urovant Sciences GmbH",
-      "collaboratorCount": 1,
-      "minimumAge": "2 Years",
-      "maximumAge": "17 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 71,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 38,
-      "recruitingSiteCount": 32,
-      "countries": [
-        "Belgium",
-        "Canada",
-        "Croatia",
-        "Denmark",
-        "Georgia",
-        "Jordan",
-        "Latvia",
-        "Lithuania",
-        "Malaysia",
-        "Philippines",
-        "Poland",
-        "Romania",
-        "Serbia",
-        "Slovakia",
-        "Turkey (Türkiye)",
         "United States"
       ]
     }

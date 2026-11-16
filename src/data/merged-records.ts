@@ -167,6 +167,7 @@ export const MERGED_RECORDS: readonly MergedRecord[] = [
   { retired: "idea-acc-prehabilitation-older-surgery", survivor: "idea-bio2-prehabilitation-standard", kind: "idea", merged: "2026-10-26", reason: "Same proposal under two ids: multimodal prehabilitation before major cancer surgery as standard; the retired record restricted it to patients over 70, and the survivor carries the PREHAB trial and the grading" },
   { retired: "vs-7375", survivor: "gfh375", kind: "drug", merged: "2026-11-10", reason: "One KRAS G12D inhibitor: Verastem Form 8-K exhibit, 8 January 2026, \"VS-7375, known as GFH375 in China\"" },
   { retired: "gc012f", survivor: "azd0120", kind: "drug", merged: "2026-11-10", reason: "One BCMA and CD19 dual CAR-T: AstraZeneca Form 6-K, 25 April 2024, \"AZD0120 (formerly GC012F)\"" },
+  { retired: "nct07432399", survivor: "nct06923787", kind: "trial", merged: "2026-11-16", reason: "ClinicalTrials.gov lists NCT07432399 as an alias of NCT06923787 (API v2, nctIdAliases, read 16 November 2026): one study, the PILDI trial of the Institute of Oncology Ljubljana, registered twice; both records were registry ingests" },
 ];
 
 /* merge:supplements */
@@ -254,4 +255,5 @@ export const MERGE_SUPPLEMENTS: readonly MergeSupplement[] = [
   { id: "idea-bio2-prehabilitation-standard", kind: "idea", cancers: ["gastric"], sections: ["rejuvenation"], bottlenecks: ["b-aging-comorbidity","b-surgery-radiation-innovation"], links: [{"label":"Bottleneck evidence (Older and multimorbid patients are excluded and undertreated): Mohile et al., Evaluation of geriatric assessment and management on toxic effects of cancer treatment (GAP70+, Lancet 2021)","url":"https://doi.org/10.1016/S0140-6736(21)01789-X"}] },
   { id: "gfh375", kind: "drug", cancers: ["colorectal"], companies: ["verastem"], trials: ["nct07659782","nct07659795","nct07644559","nct07020221"], links: [{"label":"ClinicalTrials.gov: trials of VS-7375","url":"https://clinicaltrials.gov/search?intr=VS-7375"}] },
   { id: "azd0120", kind: "drug", companies: ["gracell-biotechnologies"], trials: ["nct06235229"], links: [{"label":"ClinicalTrials.gov: trials of GC012F","url":"https://clinicaltrials.gov/search?intr=GC012F"}] },
+  { id: "nct06923787", kind: "trial", drugs: ["dexamethasone"], links: [{"label":"ClinicalTrials.gov NCT07432399","url":"https://clinicaltrials.gov/study/NCT07432399"}] },
 ];

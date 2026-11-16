@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState, type MouseEvent } from "react";
 import Link from "next/link";
 import type { PathwayDiagramView } from "@/lib/pathway-products";
+import { mechanismEvidenceLabel, supportsPathIllustration } from "@/lib/mechanism-evidence";
 import { STATUS_LABEL, statusClass } from "@/lib/text";
 
 /** A rim in the card colour behind small labels, so an edge running under one does not strike through it. */
@@ -45,11 +46,11 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
       const q = [...hit];
       while (q.length) {
         const cur = q.pop()!;
-        for (const e of view.edges) if (e.from === cur && e.type === "activates" && !downstream.has(e.to) && !hit.has(e.to)) { downstream.add(e.to); q.push(e.to); }
+        for (const e of view.edges) if (supportsPathIllustration(e) && e.from === cur && e.type === "activates" && !downstream.has(e.to) && !hit.has(e.to)) { downstream.add(e.to); q.push(e.to); }
       }
     }
     const escapes = new Set<number>();
-    if (hit.size) view.edges.forEach((e, i) => { if (e.type === "activates" && downstream.has(e.to) && !hit.has(e.from) && !downstream.has(e.from)) escapes.add(i); });
+    if (hit.size) view.edges.forEach((e, i) => { if (supportsPathIllustration(e) && e.type === "activates" && downstream.has(e.to) && !hit.has(e.from) && !downstream.has(e.from)) escapes.add(i); });
     return { hit, downstream, escapes };
   }, [product, view.edges]);
 
@@ -92,12 +93,13 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
     const e = view.edges[hover.i];
     if (!e) return null;
     const a = byId.get(e.from), b = byId.get(e.to);
-    const isEscape = escapes.has(hover.i), blocked = !!product && hit.has(e.from) && e.type === "activates";
+    const isEscape = escapes.has(hover.i), blocked = supportsPathIllustration(e) && !!product && hit.has(e.from) && e.type === "activates";
+    const qualifier = mechanismEvidenceLabel(e);
     return (
       <>
-        <div className="font-medium leading-snug">{a?.label} {e.type === "inhibits" ? "inhibits" : "activates"} {b?.label}</div>
+        <div className="font-medium leading-snug">{qualifier && `${qualifier}: `}{a?.label} {e.type === "inhibits" ? "inhibits" : "activates"} {b?.label}</div>
         <p className="mt-1 text-muted leading-snug">
-          {e.type === "inhibits" ? "A brake: the first switches the second off or holds it down." : "A relay: the first switches the second on."}
+          {e.evidence?.length ? e.evidence.map(item => `${item.context}: ${item.statement}`).join(" ") : e.type === "inhibits" ? "A brake: the first switches the second off or holds it down." : "A relay: the first switches the second on."}
           {isEscape && ` With ${product?.name} selected this is an escape route: it feeds the pathway below the block.`}
           {blocked && ` ${product?.name} sits on this step, so the signal stops here.`}
         </p>
@@ -132,14 +134,15 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
               const inhibit = e.type === "inhibits";
               const isEscape = escapes.has(i);
               const dimmed = !!product && !isEscape && !hit.has(e.from) && !hit.has(e.to) && !downstream.has(e.to);
-              const blocked = !!product && hit.has(e.from) && e.type === "activates";
+              const blocked = supportsPathIllustration(e) && !!product && hit.has(e.from) && e.type === "activates";
+              const qualifier = mechanismEvidenceLabel(e);
               const hovered = hover?.kind === "edge" && hover.i === i;
               const cls = isEscape ? "text-amber-500" : inhibit ? "text-rose-500" : blocked ? "text-accent" : hovered ? "text-foreground" : "text-foreground/60";
               const { d, mx, my } = route, vertical = route.dir === "v";
               const from = byId.get(e.from)?.label ?? e.from, to = byId.get(e.to)?.label ?? e.to;
               return (
                 <g key={i} className={`transition-opacity ${dimmed && !hovered ? "opacity-20" : ""}`}>
-                  <title>{`${from} ${inhibit ? "inhibits" : "activates"} ${to}`}</title>
+                  <title>{`${qualifier ? `${qualifier}: ` : ""}${from} ${inhibit ? "inhibits" : "activates"} ${to}`}</title>
                   <path d={d} fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth={isEscape ? 2.6 : blocked ? 2.2 : hovered ? 2.4 : 1.6}
                     strokeDasharray={inhibit ? "5 4" : blocked ? "2 5" : undefined} className={cls}
                     markerEnd={inhibit ? `url(#bar-${view.id})` : `url(#arrow-${view.id})`} />
@@ -149,6 +152,7 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
                   {/* Beside a vertical run, above (escape) or below (blocked) a horizontal one. */}
                   {isEscape && <text x={vertical ? mx + 6 : mx} y={vertical ? my + 3 : my - 6} textAnchor={vertical ? "start" : "middle"} className="fill-amber-600 stroke-card pointer-events-none" style={{ fontSize: 10, fontWeight: 600, ...HALO }}>escape</text>}
                   {blocked && <text x={vertical ? mx + 6 : mx} y={vertical ? my + 3 : my + 13} textAnchor={vertical ? "start" : "middle"} className="fill-accent stroke-card pointer-events-none" style={{ fontSize: 10, fontWeight: 600, ...HALO }}>blocked</text>}
+                  {qualifier && <text x={vertical ? mx + 6 : mx} y={vertical ? my + 3 : my - 6} textAnchor={vertical ? "start" : "middle"} className="fill-muted stroke-card pointer-events-none" style={{ fontSize: 10, ...HALO }}>context</text>}
                 </g>
               );
             })}
@@ -191,6 +195,25 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
           )}
         </div>
       </div>
+      {view.edges.some(edge => edge.evidence?.length) && (
+        <details className="border-t border-border px-4 py-3 text-sm">
+          <summary className="min-h-11 cursor-pointer py-3 font-medium">Relationship evidence and context</summary>
+          <ul className="mt-3 space-y-4">
+            {view.edges.flatMap((edge, i) => (edge.evidence ?? []).map((item, j) => (
+              <li key={`${i}-${j}`}>
+                <div className="font-medium">{mechanismEvidenceLabel({ evidence: [item] })}: {byId.get(edge.from)?.label ?? edge.from} → {byId.get(edge.to)?.label ?? edge.to}</div>
+                <p className="mt-1">{item.statement}</p>
+                <p className="mt-1 text-muted">Context: {item.context}</p>
+                {item.limitation && <p className="mt-1 text-muted">{item.limitation}</p>}
+                <ul className="mt-1 flex flex-wrap gap-x-4 gap-y-1">
+                  {item.sources.map(source => <li key={source.url}><a href={source.url} className="inline-flex min-h-11 items-center underline underline-offset-2 break-words">{source.label}</a></li>)}
+                </ul>
+                <p className="mt-1 text-xs text-muted">Checked {item.checkedOn}{item.sourceVersion && ` · ${item.sourceVersion}`}</p>
+              </li>
+            )))}
+          </ul>
+        </details>
+      )}
       {product && (
         <div className="px-4 py-3 border-t border-border text-sm">
           <div className="flex flex-wrap items-center gap-2">
@@ -200,7 +223,9 @@ export function PathwayDiagramInteractive({ view, large = false }: { view: Pathw
           </div>
           <p className="mt-1 text-muted">
             Hits <span className="text-foreground">{hitLabels.join(", ")}</span>.
-            {escapeSources.length > 0
+            {view.edges.some(edge => edge.evidence?.length)
+              ? <> Relationship sources retain the studied contexts; target highlighting illustrates connections.</>
+              : escapeSources.length > 0
               ? <> Known escape routes feed the pathway below the block via <span className="text-foreground">{escapeSources.join(", ")}</span>; this is why single agents fail and vertical or parallel combinations are used.</>
               : <> No bypass inputs are drawn downstream of this block in this diagram.</>}
           </p>

@@ -7,11 +7,18 @@ import { Container, GroupKicker, PageHeader } from "@/components/ui";
 import { EntityBrowser, type BrowserRow, type ColDef, type FacetDef } from "@/components/EntityBrowser";
 import { assays } from "@/data/assays";
 import { biomarkers } from "@/data/biomarkers";
+import { RegulatoryClaims } from "@/components/ScopedEvidence";
 
 export const metadata: Metadata = pageMeta({ title: "Companion diagnostics and assays", description: "Every companion diagnostic and key assay with its cut-off: PD-L1 CPS and TPS, HER2 IHC and ISH, EGFR, KRAS, BRAF, ALK, MSI, TMB, HRD, FLT3, FOLR1, CLDN18.2 and the multi-gene panels, linked to the drugs and cancers they gate.", path: "/assays/" });
 
 const PLATFORM_TIPS: Record<string, string> = { IHC: "Immunohistochemistry: antibody staining scored by a pathologist.", "FISH/ISH": "In situ hybridisation: counts gene copies or breaks in the nucleus.", PCR: "Polymerase chain reaction for a fixed list of mutations; fast, cheap, narrow.", "NGS tissue": "Next-generation sequencing of a tumour sample across many genes.", "NGS plasma": "Sequencing of circulating tumour DNA from blood (liquid biopsy).", "Gene expression": "RNA-based signature scored as a continuous risk number.", "Germline NGS": "Sequencing of inherited DNA from blood or saliva.", Imaging: "A PET tracer or other imaging read-out used to select patients." };
-const REG_TIPS: Record<string, string> = { "FDA CDx": "Approved by the FDA as a companion diagnostic named in a drug label.", "FDA cleared": "Cleared by the FDA but not as a required companion test.", "CE-IVD": "CE-marked for in vitro diagnostic use in Europe.", LDT: "Laboratory-developed test run under CLIA; not FDA-approved as a device.", "Breakthrough device": "FDA breakthrough designation; approval pending." };
+const REG_TIPS: Record<string, string> = {
+  "FDA CDx": "This record lists a companion-diagnostic use. Check the subject, disease, therapy, specimen and decision rule for the applicable scope.",
+  "FDA cleared": "Recorded FDA clearance. The device's intended use determines what the clearance covers.",
+  "CE-IVD": "Conformity marking for a specified in vitro diagnostic use; individual benefit does not follow from this label.",
+  LDT: "A development/origin label for a laboratory test. Laboratory certification and product authorization are separate claims.",
+  "Breakthrough device": "An FDA development designation; it does not itself authorize marketing.",
+};
 
 export default function AssaysPage() {
   const g = graph();
@@ -39,19 +46,19 @@ export default function AssaysPage() {
   });
   const facets: FacetDef[] = [
     { key: "platform", label: "Platform", searchable: false, width: "w-44" },
-    { key: "regulatory", label: "Status", searchable: false, width: "w-48", order: ["FDA CDx", "FDA cleared", "CE-IVD", "Breakthrough device", "LDT"] },
+    { key: "regulatory", label: "Record label", searchable: false, width: "w-48", order: ["FDA CDx", "FDA cleared", "CE-IVD", "Breakthrough device", "LDT"] },
     { key: "target", label: "Target", width: "w-48" },
     { key: "cancer", label: "Cancer", width: "w-52" },
   ];
   const columns: ColDef[] = [
     { key: "platform", label: "Platform", sortable: true, valueTips: PLATFORM_TIPS },
     { key: "analyte", label: "Analyte", hide: "hidden md:table-cell" },
-    { key: "cutoff", label: "Cut-off that gates therapy", tip: "The threshold or positivity rule from the label or the trial that set it." },
-    { key: "drugs", label: "Gates", hide: "hidden sm:table-cell", tip: "Products whose use depends on this test." },
+    { key: "cutoff", label: "Recorded rule", tip: "The threshold or positivity rule retained on this record. Read the intended use for the applicable disease and therapy." },
+    { key: "drugs", label: "Linked therapies", hide: "hidden sm:table-cell", tip: "Treatments linked to this assay record; the applicable intended use defines the selection rule." },
     { key: "cancers", label: "Cancers", hide: "hidden lg:table-cell" },
     { key: "targets", label: "Target dossier", hide: "hidden xl:table-cell" },
-    { key: "regulatory", label: "Status", sortable: true, valueTips: REG_TIPS, hide: "hidden md:table-cell" },
-    { key: "approved", label: "First approved", sortable: true, numeric: true, hide: "hidden lg:table-cell", tip: "Year of first FDA companion-diagnostic approval, where read from the FDA list; blank is unrecorded, not unapproved." },
+    { key: "regulatory", label: "Record label", sortable: true, valueTips: REG_TIPS, hide: "hidden md:table-cell" },
+    { key: "approved", label: "Recorded year", sortable: true, numeric: true, hide: "hidden lg:table-cell", tip: "The approval year retained on this record. A specific use or supplement can have a different date; blank means unrecorded." },
     { key: "biomarkers", label: "Tumour-board biomarker", hide: "hidden xl:table-cell", tip: "The matching entries in the tumour-board biomarker list." },
     { key: "source", label: "Source", hide: "hidden xl:table-cell" },
   ];
@@ -59,15 +66,20 @@ export default function AssaysPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Companion diagnostics and assays"
-        lede={`Cut-offs gate every biomarker-selected drug: PD-L1 CPS 10, HER2 IHC 1+ or 2+, MSI-high, TMB 10 and the rest. ${assays.length} assays (${cdx} FDA companion diagnostics) with vendor, platform, analyte, the exact threshold, the products and cancers they gate, and the tumour-board biomarker they correspond to.`} />
+        lede={`${assays.length} assays with vendor, platform, analyte and recorded selection rules; ${cdx} rows carry the FDA CDx label. Read each intended use for the applicable disease, therapy, specimen and decision rule. A record label alone does not establish the complete regulatory scope.`} />
       <Container className="pb-16">
         <EntityBrowser rows={rows} facets={facets} columns={columns} noun="assays" hideStatus defaultSort={{ key: "name", dir: 1 }} />
+        {assays.some(a => a.regulatoryClaims?.length) && <section className="mt-8 space-y-6" aria-labelledby="scoped-assay-uses">
+          <h2 id="scoped-assay-uses" className="font-medium text-xl">Regulatory claims and intended uses</h2>
+          <p className="text-sm text-muted max-w-3xl">A status label does not give the complete subject or intended use. The observations below retain the separately sourced scopes available here; other uses remain with the product and treatment labels.</p>
+          {assays.filter(a => a.regulatoryClaims?.length).map(a => <div key={a.id} className="card p-4 scroll-mt-28" id={a.id}><RegulatoryClaims claims={a.regulatoryClaims!} /></div>)}
+        </section>}
         <div className="grid gap-4 md:grid-cols-3 mt-8 text-sm">
           <div className="card p-4"><div className="kicker mb-1">Back to the biomarker matrix</div><p className="text-muted">Tick the biomarkers a report shows on the <Link className="underline" href="/tumor-board/">tumour board</Link> to see matched options; see how common each target is per cancer on the <Link className="underline" href="/prevalence/">prevalence matrix</Link>.</p></div>
-          <div className="card p-4"><div className="kicker mb-1">Read the cut-off, not just the name</div><p className="text-muted">The same analyte gates different drugs at different thresholds (PD-L1 TPS 1% versus 50%; HER2 3+ versus low). A positive result on one assay is not a positive result on another; SP142 and 22C3 are the classic example.</p></div>
-          <div className="card p-4"><div className="kicker mb-1">Primary source</div><p className="text-muted">The FDA list of cleared or approved companion diagnostic devices is the reference for every FDA CDx row; cut-offs are quoted from labels and trials. Corrections welcome via <Link className="underline" href="/suggest/">suggest an edit</Link>.</p></div>
+          <div className="card p-4"><div className="kicker mb-1">Read the cut-off, not just the name</div><p className="text-muted">One analyte can have different treatment-specific rules, such as PD-L1 TPS 1% versus 50%. Results from different assays are not automatically interchangeable; the scoring method, specimen and clinical setting matter.</p></div>
+          <div className="card p-4"><div className="kicker mb-1">Primary source</div><p className="text-muted">Use the FDA companion-diagnostic list and the linked product labels to check the exact device and intended use. Record labels and years summarize the retained entries. Corrections welcome via <Link className="underline" href="/suggest/">suggest an edit</Link>.</p></div>
         </div>
-        <div className="sr-only">{assays.map((a) => <span key={a.id} id={a.id}>{a.name}</span>)}</div>
+        <div className="sr-only">{assays.filter(a => !a.regulatoryClaims?.length).map((a) => <span key={a.id} id={a.id}>{a.name}</span>)}</div>
       </Container>
     </>
   );

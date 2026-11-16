@@ -9,20 +9,42 @@ let cached: Matcher<TermRef> | null = null;
 /** Kinds whose names are linked in prose. Glossary terms first so they win ties with equal-length names. */
 const KINDS_LINKED = ["term", "drug", "target", "technology", "cancer", "pathway", "trial", "company", "institution", "bottleneck", "journal", "person"] as const;
 /** Ordinary words that are also record names or aliases; never auto-linked. */
-const STOP = new Set(["cancer", "cell", "cells", "blood", "brain", "skin", "bone", "liver", "lung", "breast", "colon", "the", "and", "for", "with", "science", "nature", "cell press", "target", "trial", "study", "group", "center", "centre", "institute", "hospital", "university", "foundation", "society", "china", "japan", "europe", "united states", "other", "vision", "destiny", "ascent", "monarch", "paradigm", "checkmate", "keynote", "impassion", "javelin", "pacific", "aurora", "orbit", "spotlight", "minimal", "response", "correct", "prime", "opus", "coin", "crystal", "challenge", "focus", "niche", "impact", "card", "transform", "precision"]);
+const STOP = new Set(["cancer", "cell", "cells", "blood", "brain", "skin", "bone", "liver", "lung", "breast", "colon", "the", "and", "for", "with", "science", "nature", "cell press", "target", "trial", "study", "group", "center", "centre", "institute", "hospital", "university", "foundation", "society", "china", "japan", "europe", "united states", "other", "vision", "destiny", "ascent", "monarch", "paradigm", "checkmate", "keynote", "impassion", "javelin", "pacific", "aurora", "orbit", "spotlight", "minimal", "response", "correct", "prime", "opus", "coin", "crystal", "challenge", "focus", "niche", "impact", "card", "transform", "precision",
+  // Taken from the brackets of record names, where they qualify rather than abbreviate: "Depth of invasion (DOI)" linked
+  // the DOI of every paper, which is what DOI means everywhere else in the corpus; "Balkan Regional Centre (oncology)",
+  // "Neuroblastoma (paediatric)", "... lesions (precursor)" and "Primary mediastinal (thymic) ..." linked those words.
+  // The journal named "Oncology" is the same case as "science" and "nature" above.
+  "doi", "oncology", "paediatric", "precursor", "thymic"]);
 
 /** Two-letter glossary aliases worth linking despite the length floor: overall survival and lines of therapy. */
 const SHORT_OK = new Set(["os", "1l", "2l", "3l"]);
 
 /**
- * An acronym of two to five capital letters links only where the text writes it in capitals. The matcher is otherwise
- * case-insensitive, and these acronyms are also ordinary words: "HAS" (France's Haute Autorité de Santé) linked every
- * "has" on the site, and MUST, FIT, LET, PIN, ETC, BEST, CARE and OPEN did the same for "must", "fit", "let" and the rest.
+ * A name written entirely in capitals links only where the text writes it with its capitals. The matcher is otherwise
+ * case-insensitive, and many such names are also ordinary words: "HAS" (France's Haute Autorité de Santé) linked every
+ * "has" on the site, MUST, FIT and LET did the same for "must", "fit" and "let", and the trial names PLATINUM, SELECT,
+ * RADICAL, CONFIRM and DIRECT linked "platinum chemotherapy", "select patients" and the rest. At least two capitals, and
+ * digits and hyphens are allowed, so "KEYNOTE-522" counts. See `exact` in entity-matcher for what the text
+ * has to show.
  */
-const ACRONYM = /^[A-Z]{2,5}$/;
+const CAPITALS = /^(?=(?:[^A-Z]*[A-Z]){2})[A-Z0-9-]+$/;
+/**
+ * A single word of letters with a capital after a lower-case letter ("ReSPECT", "ctDNA", "BrECADD") is a coined name
+ * whose capitals are part of it, and it follows the same rule: "ReSPECT" otherwise matches every "respect". One with a
+ * digit ("anti-PD-1", "eIF4A") cannot be an ordinary word, so it keeps matching in any case.
+ */
+const COINED = /^[A-Za-z-]*[a-z][A-Za-z-]*[A-Z][A-Za-z-]*$/;
+const exactCase = (s: string) => CAPITALS.test(s) || COINED.test(s);
 
-/** Bracketed abbreviation in a record name: "Progression-free survival (PFS)" gives "PFS". */
-const abbrOf = (name: string) => name.match(/\(([A-Za-z0-9\-/ ]{2,12})\)/)?.[1];
+/**
+ * Bracketed abbreviation in a record name: "Progression-free survival (PFS)" gives "PFS". A single capitalised word in
+ * brackets is a qualifier, not an abbreviation: "(England)", "(Scotland)", "(Australia)", "(Alcohol)" and "(Oral)" took
+ * those ordinary words with them, so every "England" on the site linked to the Cancer Drugs Fund.
+ */
+const abbrOf = (name: string) => {
+  const a = name.match(/\(([A-Za-z0-9\-/ ]{2,12})\)/)?.[1];
+  return a && !/^[A-Z][a-z]+$/.test(a) ? a : undefined;
+};
 
 /** Name and alias patterns for every linkable record, deduplicated (glossary terms win on ties). */
 export function entityPatterns(): Array<{ pattern: string; ref: TermRef; exact?: boolean }> {
@@ -34,7 +56,9 @@ export function entityPatterns(): Array<{ pattern: string; ref: TermRef; exact?:
   for (const k of KINDS_LINKED) if (k !== "term") for (const t of g.kind(k)) for (const s of [t.name, abbrOf(t.name), ...t.aka]) if (s) owned.add(s.toLowerCase());
   for (const k of KINDS_LINKED) for (const t of g.kind(k)) {
     const ref: TermRef = { id: t.id, name: t.name, tldr: t.tldr, route: routeFor(t), kind: t.kind };
-    const base = t.name.replace(/\s*\(.*?\)\s*$/, "").trim();
+    // A trailing bracket is dropped only where a space sets it apart: "del(5q)" is the name, and dropping its bracket
+    // left "del", which linked the Spanish and Italian word ("Control del Cáncer") and DEL, DNA-encoded libraries.
+    const base = t.name.replace(/\s+\(.*?\)\s*$/, "").trim();
     let abbr = abbrOf(t.name);
     // A lower-case parenthetical is a qualifier, not an abbreviation ("(melanoma)", "(myeloma)", "(disulfide)").
     if (k === "term" && abbr && (/^[a-z ]+$/.test(abbr) || owned.has(abbr.toLowerCase()))) abbr = undefined;
@@ -52,11 +76,18 @@ export function entityPatterns(): Array<{ pattern: string; ref: TermRef; exact?:
       if (!s || (s.length < min && !(k === "term" && SHORT_OK.has(s.toLowerCase()))) || /^\d+$/.test(s) || STOP.has(s.toLowerCase())) continue;
       // Short all-lower-case words from non-glossary kinds are usually ordinary words; skip them.
       if (k !== "term" && /^[a-z]+$/.test(s) && s.length < 6) continue;
-      entries.push(ACRONYM.test(s) ? { pattern: s, ref, exact: true } : { pattern: s, ref });
+      entries.push(exactCase(s) ? { pattern: s, ref, exact: true } : { pattern: s, ref });
     }
   }
-  const seen = new Set<string>();
-  return entries.filter(({ pattern }) => { const key = pattern.toLowerCase(); if (seen.has(key)) return false; seen.add(key); return true; });
+  // A case-insensitive pattern covers every spelling, so it shadows any later one with the same letters. One that needs
+  // its capitals shadows only the same spelling, or it would silently take the ordinary word's link away too.
+  const loose = new Set<string>(), strict = new Set<string>();
+  return entries.filter(({ pattern, exact }) => {
+    const low = pattern.toLowerCase();
+    if (loose.has(low) || (exact && strict.has(pattern))) return false;
+    if (exact) strict.add(pattern); else loose.add(low);
+    return true;
+  });
 }
 
 function matcher(): Matcher<TermRef> {

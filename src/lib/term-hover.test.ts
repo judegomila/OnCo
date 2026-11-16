@@ -43,6 +43,19 @@ describe("entity matcher", () => {
     expect(found("Trastuzumab, then trastuzumab.")).toEqual(["Trastuzumab"]); // other entries stay case-insensitive
   });
 
+  it("finds an exact entry written wholly in capitals, prefers the exact spelling, and gives the same words to one record", () => {
+    const m3 = buildMatcher<Ref>([
+      { pattern: "ReSPECT", ref: { id: "respect-process" }, exact: true },
+      { pattern: "pRCC", ref: { id: "papillary-rcc" }, exact: true },
+      { pattern: "PRCC", ref: { id: "prcc-gene" }, exact: true },
+    ]);
+    const found = (text: string) => findMatches(m3, text, { key: (r) => r.id }).map((h) => [h.ref.id, text.slice(h.start, h.end)]);
+    expect(found("Respect and respect, then RESPECT.")).toEqual([["respect-process", "RESPECT"]]);
+    expect(found("The PRCC gene, then pRCC.")).toEqual([["prcc-gene", "PRCC"], ["papillary-rcc", "pRCC"]]);
+    // The second "PRCC" is the gene again, already linked; it does not become a link to papillary RCC.
+    expect(found("PRCC and PRCC.")).toEqual([["prcc-gene", "PRCC"]]);
+  });
+
   it("scan reports every boundary-valid occurrence including overlaps", () => {
     expect(scan(m, "HER2-low").map((h) => h.ref.id).sort()).toEqual(["her2-low"]);
     expect(scan(m, "HER2 low").map((h) => h.ref.id)).toEqual(["her2"]);
@@ -99,9 +112,48 @@ describe("corpus auto-linking", () => {
     expect(labels("Screening used the MUST tool, a FIT, and protons with a high LET.")).toEqual(expect.arrayContaining(["MUST", "FIT", "LET"]));
     const exact = entityPatterns().filter((p) => p.exact).map((p) => p.pattern);
     expect(exact).toContain("FIT");
-    expect(exact.every((s) => /^[A-Z]{2,5}$/.test(s))).toBe(true);
-    // A mixed-case or longer name keeps matching in any case.
+    // Every exact pattern is a name in capitals, or a coined single word whose capitals are part of it.
+    expect(exact.filter((s) => !/^(?=(?:[^A-Z]*[A-Z]){2})[A-Z0-9-]+$/.test(s) && !/^[A-Za-z-]*[a-z][A-Za-z-]*[A-Z][A-Za-z-]*$/.test(s))).toEqual([]);
+    // A name with lower case and no inner capital keeps matching in any case.
     expect(entityPatterns().find((p) => p.pattern === "HER2-low")?.exact).toBeUndefined();
+  });
+
+  it("links a name in capitals of any length only where it is written in capitals", () => {
+    const named = (text: string) => termMarks(text, 12).map((mk) => [text.slice(mk.s, mk.e), mk.label]);
+    const platinum = (l: string) => l.startsWith("The PLATINUM Trial");
+    expect(named("Second-line platinum chemotherapy is standard.").some(([, l]) => platinum(l))).toBe(false);
+    expect(named("Platinum chemotherapy is standard.").some(([, l]) => platinum(l))).toBe(false);
+    expect(named("The PLATINUM trial randomised patients with BRCA-associated disease.").some(([w, l]) => w === "PLATINUM" && platinum(l))).toBe(true);
+    expect(named("Doctors select patients for surgery.").some(([, l]) => l === "SELECT")).toBe(false);
+    expect(named("SELECT tested lenvatinib.")).toContainEqual(["SELECT", "SELECT"]);
+    const exact = new Set(entityPatterns().filter((p) => p.exact).map((p) => p.pattern));
+    for (const name of ["PLATINUM", "SELECT", "KEYNOTE-522"]) expect(exact, name).toContain(name);
+    // A real acronym still links, and written wholly in capitals a coined name still links too.
+    expect(named("PFS was longer on the new drug.").map(([w]) => w)).toContain("PFS");
+    expect(named("CCRCC is the commonest kind.").map(([w]) => w)).toContain("CCRCC");
+  });
+
+  it("does not take an ordinary word from a bracket or a coined name", () => {
+    const words = (text: string) => termMarks(text, 12).map((mk) => [text.slice(mk.s, mk.e), mk.label]);
+    // "(England)", "(Scotland)", "(Australia)", "(Alcohol)" and "(Oral)" are qualifiers in record names, not abbreviations.
+    const prose = "England, Scotland and Australia screen for it; alcohol and oral tobacco raise the risk. Oral therapy followed.";
+    const hits = words(prose).map(([w]) => w.toLowerCase());
+    for (const w of ["england", "scotland", "australia", "alcohol", "oral"]) expect(hits, w).not.toContain(w);
+    // Lower-case qualifiers in brackets ("Neuroblastoma (paediatric)", "Balkan Regional Centre (oncology)") are not names.
+    const plain = words("Paediatric oncology teams treat precursor and thymic lesions.").map(([w]) => w.toLowerCase());
+    for (const w of ["paediatric", "oncology", "precursor", "thymic"]) expect(plain, w).not.toContain(w);
+    // A bracketed abbreviation obeys the capitals rule.
+    expect(entityPatterns().find((p) => p.pattern === "PFS")?.exact).toBe(true);
+    // "DOI" in this corpus is a paper's identifier, so the one from "Depth of invasion (DOI)" links nothing, in any case;
+    // the term still links by its name.
+    for (const t of ["Matched by DOI alone.", "See doi:10.1000/182 for the paper."]) expect(words(t)).toEqual([]);
+    expect(words("Depth of invasion predicts nodal spread.").map(([w]) => w)).toContain("Depth of invasion");
+    // "del(5q)" keeps its bracket; "del" alone is the Spanish and Italian word.
+    expect(words("Instituto Nacional del Cáncer").map(([w]) => w)).not.toContain("del");
+    expect(words("Patients with del(5q) respond to lenalidomide.").map(([w]) => w)).toContain("del(5q)");
+    // A coined name keeps its capitals: "ReSPECT" is the emergency care plan, "respect" is not.
+    expect(words("Staff respect the patient's wishes.").map(([w]) => w.toLowerCase())).not.toContain("respect");
+    expect(words("She agreed a ReSPECT plan with her doctor.").map(([w]) => w)).toContain("ReSPECT");
   });
 
   it("does not link an ordinary word through an alias that names something else", () => {

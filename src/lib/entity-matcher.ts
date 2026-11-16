@@ -2,15 +2,20 @@
  * Aho-Corasick matcher for entity names in prose. Builds one automaton over every name and alias
  * (lower-cased) and scans a paragraph once, instead of running thousands of regular expressions.
  *
- * Match rules: case-insensitive unless an entry is marked `exact` (then the text must match the pattern's case, so the
- * acronym "HAS" is not found in the word "has"); a hit must sit on word boundaries (no letter, digit or hyphen on either
+ * Match rules: case-insensitive unless an entry is marked `exact`. Then the text must either match the pattern's case or
+ * be written wholly in capitals, so the acronym "HAS" is not found in "has" or "Has", nor the trial PLATINUM in
+ * "platinum", while "CCRCC" still finds "ccRCC". Where two patterns share their letters ("PRCC", the gene, and "pRCC",
+ * papillary renal cell carcinoma), the one the text spells exactly wins, and the words link to one thing only: if
+ * that thing is already linked earlier in the paragraph, the other does not take the words instead. A hit must sit on word boundaries (no letter, digit or hyphen on either
  * side, so "HER2" does not fire inside "HER2-low", and "PD-1" does not fire inside "PD-L1"); when hits
  * overlap the leftmost one wins, and among hits starting at the same place the longest wins, so
  * "HER2-low" beats "HER2". Pure and browser-safe.
  */
 
-export type MatchEntry<T> = { pattern: string; ref: T; /** Match only in the pattern's own case. */ exact?: boolean };
-export type Match<T> = { start: number; end: number; ref: T; pattern: string };
+export type MatchEntry<T> = { pattern: string; ref: T; /** Match only where the text shows the pattern's capitals. */ exact?: boolean };
+export type Match<T> = { start: number; end: number; ref: T; pattern: string; /** An exact pattern the text spells in its own case. */ cased?: boolean };
+
+const LOWER = /\p{Ll}/u;
 
 type Node = { next: Map<string, number>; fail: number; out: number[] };
 
@@ -61,7 +66,11 @@ export function scan<T>(m: Matcher<T>, text: string): Match<T>[] {
       const e = m.entries[ei];
       const start = i - e.pattern.length + 1, end = i + 1;
       if (isWordChar(src[start - 1]) || isWordChar(src[end])) continue;
-      if (e.exact && text.slice(start, end) !== e.pattern) continue;
+      if (e.exact) {
+        const written = text.slice(start, end);
+        if (written === e.pattern) { hits.push({ start, end, ref: e.ref, pattern: e.pattern, cased: true }); continue; }
+        if (LOWER.test(written)) continue;
+      }
       hits.push({ start, end, ref: e.ref, pattern: e.pattern });
     }
   }
@@ -73,12 +82,15 @@ export function scan<T>(m: Matcher<T>, text: string): Match<T>[] {
  * refs for which `skip` returns true, capped at `max`.
  */
 export function findMatches<T>(m: Matcher<T>, text: string, opts: { key: (ref: T) => string; skip?: (ref: T) => boolean; max?: number } ): Match<T>[] {
-  const all = scan(m, text).filter((h) => !opts.skip?.(h.ref)).sort((a, b) => a.start - b.start || b.end - a.end);
+  const all = scan(m, text).filter((h) => !opts.skip?.(h.ref)).sort((a, b) => a.start - b.start || b.end - a.end || Number(!!b.cased) - Number(!!a.cased));
   const out: Match<T>[] = [];
   const seen = new Set<string>();
-  let pos = 0;
+  let pos = 0, prev: Match<T> | undefined;
   for (const h of all) {
-    if (h.start < pos) continue;
+    // Only the best of several patterns on the same words is considered.
+    const same = prev && prev.start === h.start && prev.end === h.end;
+    prev = h;
+    if (same || h.start < pos) continue;
     const k = opts.key(h.ref);
     if (seen.has(k)) continue;
     seen.add(k);

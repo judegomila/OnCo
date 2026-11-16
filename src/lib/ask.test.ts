@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import MiniSearch from "minisearch";
-import { answerText, composeAnswer, recordFromEntity, retrieveIds, sentences, type AskRecord } from "./ask";
+import { answerText, composeAnswer, namedDrugs, namedLookup, recordFromEntity, retrieveIds, sentences, type AskRecord } from "./ask";
 import { benchmark, scoreAnswer } from "@/data/benchmark";
 import { askEval, askEvalNew, scoreAskEval } from "@/data/ask-eval";
 import { graph } from "./graph";
@@ -57,6 +57,39 @@ describe("composeAnswer (extractive fallback)", () => {
 
   it("returns no sentences for no records", () => {
     expect(composeAnswer("anything", []).sentences).toEqual([]);
+  });
+});
+
+describe("retrieveIds: a medicine the question names comes first", () => {
+  const lookup = namedLookup([
+    { id: "trastuzumab-deruxtecan", kind: "drug", name: "Trastuzumab deruxtecan", aka: "Enhertu" },
+    { id: "sacituzumab-govitecan", kind: "drug", name: "Sacituzumab govitecan", aliases: ["Trodelvy", "SG"] },
+    { id: "inhibitor", kind: "term", name: "Inhibitor" },
+    { id: "car-t", kind: "technology", name: "CAR-T" },
+    { id: "rejoice-ovarian01", kind: "trial", name: "REJOICE-Ovarian01", aka: "Enhertu" },
+  ]);
+  const lex = (...ids: string[]) => ids.map((id) => ({ id }));
+
+  it("pins a medicine named by its brand, ahead of better-fused records", () => {
+    const q = "What should I ask before starting an ADC such as Enhertu?";
+    const ids = retrieveIds(lex("masked-adc", "dxd", "adc-cdmo", "trastuzumab-deruxtecan"), lex("dxd", "rejoice-ovarian01", "masked-adc"), 3, { question: q, lookup });
+    expect(ids[0]).toBe("trastuzumab-deruxtecan");
+    expect(ids).toHaveLength(3);
+    expect(retrieveIds(lex("masked-adc", "dxd", "adc-cdmo", "trastuzumab-deruxtecan"), lex("dxd", "rejoice-ovarian01", "masked-adc"), 3)).not.toContain("trastuzumab-deruxtecan");
+  });
+
+  it("matches the generic name and brand word for word, ignoring case and hyphens", () => {
+    expect(namedDrugs("Is TRODELVY approved?", lex("sacituzumab-govitecan"), lookup)).toEqual(["sacituzumab-govitecan"]);
+    expect(namedDrugs("sacituzumab-govitecan dosing", lex("sacituzumab-govitecan"), lookup)).toEqual(["sacituzumab-govitecan"]);
+    expect(namedDrugs("Enhertus are", lex("trastuzumab-deruxtecan"), lookup)).toEqual([]);
+  });
+
+  it("does not pin a generic word, a short alias, a non-medicine, or a medicine outside the word search's top twelve", () => {
+    expect(namedDrugs("Which menin inhibitor is approved?", lex("inhibitor"), lookup)).toEqual([]);
+    expect(namedDrugs("Is SG approved?", lex("sacituzumab-govitecan"), lookup)).toEqual([]);
+    expect(namedDrugs("How does CAR-T work, compared with Enhertu?", lex("car-t", "rejoice-ovarian01"), lookup)).toEqual([]);
+    const deep = [...Array.from({ length: 12 }, (_, i) => `x${i}`), "trastuzumab-deruxtecan"];
+    expect(namedDrugs("Enhertu", lex(...deep), lookup)).toEqual([]);
   });
 });
 
@@ -460,6 +493,16 @@ describe("Ask OnCo end to end", () => {
     // 26 Oct 2026, the precision follow-ups: one duplicate paper record and seven duplicate idea records retired into
     // their survivors. Measured immediately before and after at the same figures.
     { date: "2026-10-26", recall: 0.4301, note: "Paganetti RBE review and seven protocol-upgrade idea duplicates merged; extractive rubric 0.6925, both unchanged by the merge" },
+    // 11 Nov 2026, country deep dives waves 5 to 12 (80 countries, about 1,000 records). Measured 0.4259, below the
+    // floor, with no country record in any question's top six: the new records shifted word and concept weights by
+    // near-tie amounts, and two expected records each slipped one place out of the six. In proc-80 ("before starting
+    // an ADC such as Enhertu") trastuzumab deruxtecan went from 12th to 13th in the concept list (0.145 against
+    // 0.146); in tnbc-01 sacituzumab govitecan lost its place to an idea that moved from 13th to 12th in the word list.
+    // No record ranked for a wrong reason and no duplicate or missing alias was found, so it was fixed in the ranking:
+    // a medicine the question names by name or brand, found in the word search's top twelve, is placed first
+    // (ask.ts namedDrugs). Measured 0.4343 with it (scripts/ask-recall.ts); proc-80 and who-74 gain, no question loses;
+    // the rubric is 0.6825 before and after; the pipeline benchmark and both natural sets are unchanged.
+    { date: "2026-11-11", recall: 0.4343, note: "country deep dives waves 5 to 12 (0.4259 alone) plus a named medicine placed first; extractive rubric 0.6825" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [
@@ -470,6 +513,9 @@ describe("Ask OnCo end to end", () => {
     // competing with the strong one for the same question. Measured 0.4326 and 0.6900 (scripts/ask-recall.ts), so
     // the floor moves to the measurement minus 0.005 as the note above this table asks. docs/BREAST-QA.md.
     { date: "2026-09-25", recall: 0.4275, rubric: 0.66, change: "breast family review: duplicated base lines folded into the receptor spikes (measured 0.4326, rubric 0.6900)" },
+    // Raised by a ranking change (ask.ts namedDrugs): measured 0.4343 and 0.6825, so recall moves to the measurement
+    // minus 0.005; the rubric floor stays where it is, below the measurement.
+    { date: "2026-11-11", recall: 0.4293, rubric: 0.66, change: "a medicine the question names placed first in retrieval (measured 0.4343, rubric 0.6825)" },
   ];
 
   it("only ever raises the extractive floor", () => {
@@ -488,11 +534,13 @@ describe("Ask OnCo end to end", () => {
     const g = graph();
     // The browser's index build and Ask's word search (search-client.ts askLexical), so this measures what /ask/ runs.
     const ms = new MiniSearch<SearchDoc>(SEARCH_INDEX_OPTIONS);
-    ms.addAll(searchDocs());
+    const docs = searchDocs();
+    ms.addAll(docs);
+    const lookup = namedLookup(docs);
     const sem = buildSemanticIndex(semanticDocs());
     let score = 0, recall = 0;
     for (const q of benchmark) {
-      const ids = retrieveIds(askLexical(ms, q.question, 12).map((id) => ({ id })), semanticSearch(sem, q.question, 12), 6);
+      const ids = retrieveIds(askLexical(ms, q.question, 12).map((id) => ({ id })), semanticSearch(sem, q.question, 12), 6, { question: q.question, lookup });
       const records = ids.map((id) => { const e = g.must(id); return recordFromEntity(e, routeFor(e)); });
       score += scoreAnswer(q, answerText(composeAnswer(q.question, records))).score;
       recall += q.entities.length ? q.entities.filter((id) => ids.includes(id)).length / q.entities.length : 1;

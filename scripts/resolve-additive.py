@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Resolve conflicts where both sides only add lines: nav entries, i18n entries, registrations.
 
-Every country page appends one line to the same place in nav.ts, eight i18n files, RouteIcon.tsx and the data
-index, so two country branches always conflict there and both sides are always right. This keeps both, HEAD
+Every country page appends one line to the same place in src/lib/country-pages.ts and the data index (it used to be
+nav.ts, eight i18n files and RouteIcon.tsx too), so two country branches always conflict there and both sides are
+always right. This keeps both, HEAD
 first, and refuses any hunk where a side deleted or changed a line rather than adding one.
 """
 import re, sys

@@ -2225,7 +2225,7 @@ export const tldr_zh: Record<string, string> = {
   "niche-2": "在NICHE-2中，术前四周的免疫治疗清除了大多数错配修复缺陷型结肠癌，三年后无人复发。",
   "nicholas-turner": "乳腺癌研究者，将ctDNA转化为选择治疗的工具，领导了SERENA-6和CAPItello-291。",
   "nicoletta-colombo": "领导了KEYNOTE-826，该试验使pembrolizumab联合化疗成为复发或转移性宫颈癌的一线标准治疗。",
-  "noi-budapest": "匈牙利的国家癌症研究所，设有国家癌症登记处，并拥有一个领先的乳腺近距离放射治疗项目。",
+  "noi-budapest": "匈牙利位于布达佩斯的国家癌症研究所，负责治疗罕见癌症，并运营国家癌症登记处。",
   "nordic-lymphoma-group": "由丹麦、芬兰、挪威、瑞典和冰岛组成的淋巴瘤临床试验网络，以套细胞淋巴瘤的北欧方案最为著名。",
   "northwell-cancer-institute": "纽约州最大医疗系统的癌症服务机构，延续着 Feinstein Institutes 由 Kanti Rai 开创的慢性淋巴细胞白血病研究传统。",
   novocure: "Novocure 生产 Optune 肿瘤电场治疗设备，已获批用于胶质母细胞瘤、肺癌、间皮瘤以及（2026年）胰腺癌。",

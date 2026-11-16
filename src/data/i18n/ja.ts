@@ -2147,7 +2147,7 @@ export const tldr_ja: Record<string, string> = {
   "niche-2": "NICHE-2では、手術前の4週間の免疫療法によってミスマッチ修復機能欠損型の結腸がんの大半が消失し、3年後に再発した人は一人もいなかった。",
   "nicholas-turner": "ctDNAを治療選択のツールに変えた乳がん研究者で、SERENA-6とCAPItello-291を主導した。",
   "nicoletta-colombo": "KEYNOTE-826を主導し、pembrolizumabと化学療法の併用を再発または転移性子宮頸がんの一次標準治療にした。",
-  "noi-budapest": "ハンガリーの国立がん研究所。国のがん登録を担い、乳がんの近接照射療法で先進的なプログラムを持つ。",
+  "noi-budapest": "ブダペストにあるハンガリーの国立がん研究所。希少がんの治療を担い、国のがん登録を運営する。",
   "nordic-lymphoma-group": "デンマーク、フィンランド、ノルウェー、スウェーデン、アイスランドのリンパ腫臨床試験ネットワーク。マントル細胞リンパ腫の北欧レジメンで最もよく知られる。",
   "northwell-cancer-institute": "ニューヨーク州最大の医療システムのがん部門。Kanti Rai が築いた Feinstein Institutes の CLL 研究の伝統を受け継ぐ。",
   novocure: "Novocure は腫瘍治療電場装置 Optune を製造しており、膠芽腫、肺がん、中皮腫、そして（2026年）膵がんで承認されている。",

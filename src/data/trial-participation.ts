@@ -77406,6 +77406,29 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       ]
     }
   ],
+  "nct07443475": [
+    {
+      "nct": "NCT05916690",
+      "source": "https://clinicaltrials.gov/study/NCT05916690",
+      "fetchedAt": "2026-11-16T21:35:24.299Z",
+      "studySha256": "d80b0be78ca073cbd16d667bb7b4db59d7519739370647d24357f8a1a5397a91",
+      "overallStatus": "UNKNOWN",
+      "lastUpdatePosted": "2024-01-19",
+      "leadSponsor": "Institute of Oncology Ljubljana",
+      "collaboratorCount": 0,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "healthyVolunteers": false,
+      "hasEligibility": true,
+      "enrolment": 20,
+      "enrolmentType": "ESTIMATED",
+      "siteCount": 1,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "Slovenia"
+      ]
+    }
+  ],
   "nct05395962": [
     {
       "nct": "NCT05395962",
@@ -79094,41 +79117,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     }
   ],
   "espac-3": [
-    {
-      "nct": "NCT00058201",
-      "source": "https://clinicaltrials.gov/study/NCT00058201",
-      "fetchedAt": "2026-10-07T16:51:53.090Z",
-      "studySha256": "f1c348d812d9b92b49c11c42f451f75c5db407c97868506fe7803d50abdc137f",
-      "overallStatus": "COMPLETED",
-      "lastUpdatePosted": "2013-12-18",
-      "leadSponsor": "Royal Liverpool University Hospital",
-      "collaboratorCount": 2,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 1030,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 27,
-      "recruitingSiteCount": 0,
-      "countries": [
-        "Australia",
-        "Canada",
-        "Czechia",
-        "Finland",
-        "France",
-        "Germany",
-        "Greece",
-        "Hungary",
-        "Italy",
-        "Japan",
-        "Sweden",
-        "Switzerland",
-        "United Kingdom"
-      ]
-    }
-  ],
-  "espac-4": [
     {
       "nct": "NCT00058201",
       "source": "https://clinicaltrials.gov/study/NCT00058201",
@@ -130483,6 +130471,38 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     }
   ],
   "sarah-sirvenib": [
+    {
+      "nct": "NCT01135056",
+      "source": "https://clinicaltrials.gov/study/NCT01135056",
+      "fetchedAt": "2026-11-16T21:35:24.299Z",
+      "studySha256": "375eb6a2548e52219122c169b393430e571dd1d42c873eebc9667e488cab9ba5",
+      "overallStatus": "UNKNOWN",
+      "lastUpdatePosted": "2018-04-24",
+      "leadSponsor": "Singapore General Hospital",
+      "collaboratorCount": 4,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "healthyVolunteers": false,
+      "hasEligibility": true,
+      "enrolment": 360,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 29,
+      "recruitingSiteCount": 0,
+      "countries": [
+        "Brunei",
+        "Burma",
+        "China",
+        "Indonesia",
+        "Malaysia",
+        "Mongolia",
+        "New Zealand",
+        "Philippines",
+        "Singapore",
+        "South Korea",
+        "Taiwan",
+        "Thailand"
+      ]
+    },
     {
       "nct": "NCT01482442",
       "source": "https://clinicaltrials.gov/study/NCT01482442",

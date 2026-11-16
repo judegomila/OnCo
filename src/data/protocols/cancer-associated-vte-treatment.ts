@@ -29,7 +29,7 @@ export const cancerAssociatedVteTreatment = protocol({
   tldr: "Clots in a leg vein or the lungs are common in cancer. They are treated with blood thinners, either daily injections (low-molecular-weight heparin) or tablets (such as apixaban, rivaroxaban or edoxaban), usually for at least six months and often while the cancer is active. Tablets suit most people, but injections may be safer with some stomach, bowel or bladder cancers and some cancer drugs.",
   simple: "A clot in someone with cancer is treated with blood thinners, as injections or tablets, usually for six months or more. Your team picks the one that is safest with your cancer and your other medicines.",
   summary: "ITAC (2022) recommends LMWH for initial treatment when creatinine clearance is at least 30 mL/min (1A), or rivaroxaban or apixaban from the start, or edoxaban after at least 5 days of parenteral anticoagulation, in patients not at high risk of gastrointestinal or genitourinary bleeding (1A). For maintenance, LMWH is preferred over vitamin K antagonists (1A) and DOACs are recommended in the absence of strong drug interactions or impaired gastrointestinal absorption (1A), with caution in gastrointestinal, especially upper gastrointestinal, cancers. Treat for at least 6 months (1A); after 6 months, continue or stop by individual assessment of benefit and risk and cancer activity (guidance). ASCO (2023) is concordant: LMWH, edoxaban, rivaroxaban or apixaban for at least 6 months, preferred over VKAs (strong, high-quality evidence), noting less recurrence but more clinically relevant non-major bleeding with factor Xa inhibitors and checking drug interactions first.\n\nNICE NG158 (2020) differs on emphasis and duration: it suggests considering a DOAC first and, if unsuitable, LMWH alone or with a VKA, and gives 3 to 6 months then review, saying evidence on duration in active cancer is very limited. ASH (2021, abstract) makes conditional recommendations for LMWH or DOAC initially, a DOAC for short-term treatment and LMWH or DOAC long term. ITAC treats incidental clots like symptomatic ones. For special situations ITAC gives guidance, not graded evidence: full-dose anticoagulation if platelets are above 50 x 10^9/L without bleeding, case-by-case below that; unfractionated heparin then early VKA, or anti-Xa-adjusted LMWH, when creatinine clearance is below 30 mL/min; LMWH or DOAC with a brain tumour (2A); LMWH in pregnancy. For recurrence on treatment, increase LMWH by 20 to 25% or switch class (guidance). Vena cava filters only when anticoagulation is contraindicated or a PE recurs despite optimal treatment (guidance).",
-  asOf: "2026-11-11",
+  asOf: "2026-11-16",
   setting: {
     who: ["doctor", "pharmacist", "nurse"],
     where: ["acute-oncology-service", "emergency-department", "ward", "outpatient-clinic"],
@@ -197,7 +197,11 @@ export const cancerAssociatedVteTreatment = protocol({
       accessed: "2026-11-11",
     },
   ],
-  drugs: ["apixaban", "rivaroxaban", "edoxaban", "warfarin"],
+  // Enoxaparin and dalteparin are the two heparins this protocol's own source names: the 2022 ITAC guideline (Lancet Oncol,
+  // read in full through Europe PMC, PMC9236567, on 16 November 2026) says "When a twice-per-day regimen is required, only
+  // enoxaparin (1 mg/kg, twice-daily) can be used" and gives dalteparin, at its doses, as the heparin of the CARAVAGGIO and
+  // CASTA-DIVA trials. Tinzaparin appears only in its reference list, so it is not linked.
+  drugs: ["apixaban", "rivaroxaban", "edoxaban", "warfarin", "enoxaparin", "dalteparin"],
   technologies: ["cancer-associated-thrombosis"],
   terms: ["vte", "thrombocytopenia"],
   related: ["catheter-related-thrombosis-in-cancer"],

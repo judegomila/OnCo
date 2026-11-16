@@ -73,7 +73,7 @@ const trials: TrialInput[] = [
   t({ id: "harmoni-3", technologies: ["bispecific-antibody", "checkpoint-inhibitor"], name: "HARMONi-3", nct: "NCT05899608", phase: "3", status: "mixed", yearReported: 2026, sponsor: "Summit Therapeutics",
     setting: "First-line metastatic squamous and non-squamous NSCLC, global: ivonescimab + chemotherapy vs pembrolizumab + chemotherapy",
     tldr: "The global test of whether ivonescimab plus chemotherapy beats the Keytruda-chemotherapy standard. An interim look in May 2026 fell short on progression; final results are due later in 2026.",
-    summary: "Interim analysis (May 2026) did not reach statistical significance for PFS; the company expects final PFS and interim OS readouts in 2026. The FDA has set a PDUFA date of 14 November 2026 for a separate BLA based on HARMONi (EGFR-mutant, post-TKI), where the Western-subgroup OS hazard ratio improved to 0.76 without statistical significance.",
+    summary: "Interim analysis (May 2026) did not reach statistical significance for PFS; the company expects final PFS and interim OS readouts in 2026. A separate BLA based on HARMONi (EGFR-mutant, post-TKI), where the Western-subgroup OS hazard ratio improved to 0.76 without statistical significance, received an FDA complete response letter, announced by Summit on 15 November 2026, because overall survival was not statistically significantly improved.",
     result: "Interim PFS not statistically significant (May 2026); final readouts pending.",
     drugs: ["ivonescimab", "pembrolizumab"], cancers: ["nsclc", "pdl1-high-nsclc"], links: [ct("NCT05899608"), { label: "Fierce Pharma on HARMONi OS update", url: "https://www.fiercepharma.com/pharma/summit-therapeutics-updates-ivonescimab-survival-data-ahead-fda-decision-date" }] }),
   t({ id: "herthena-lung02", technologies: ["adc"], name: "HERTHENA-Lung02", nct: "NCT05338970", phase: "3", status: "mixed", yearReported: 2025, sponsor: "Daiichi Sankyo / Merck",
@@ -305,7 +305,7 @@ const spike: Spike = {
       "Amivantamab + lazertinib is the first regimen to beat osimertinib on overall survival (MARIPOSA, HR 0.75; 3-year survival 60% vs 51%; median not reached vs 36.7 months).",
       "Perioperative chemo-immunotherapy improves survival in resectable disease (CheckMate 816, KEYNOTE-671).",
       "Twelve targetable drivers each have an approved matched therapy; two oral HER2 TKIs (zongertinib, sevabertinib) arrived in 2025-26.",
-      "First-in-class bispecific ivonescimab beat pembrolizumab on PFS and OS in China; the US decision (PDUFA 14 Nov 2026) hinges on HARMONi.",
+      "First-in-class bispecific ivonescimab beat pembrolizumab on PFS and OS in China; the FDA declined the US application based on HARMONi with a complete response letter in November 2026, citing no statistically significant overall survival improvement.",
       "5-year survival with pembrolizumab in PD-L1-high disease is 31.9% in the KEYNOTE-024 five-year analysis, against 16.3% with platinum chemotherapy in the same trial.",
     ],
     history: [

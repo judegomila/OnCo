@@ -78,7 +78,7 @@ export async function answerQuestion(question: string, deps: AskDeps): Promise<A
 
   deps.onStep?.("Finding records");
   const lexical = deps.lexical(question, 12), concept = deps.concept(question, 12);
-  const retrieved = retrieveIds(lexical.map((id) => ({ id })), concept.map((id) => ({ id })), ASK_FETCH);
+  const retrieved = retrieveIds(lexical.map((id) => ({ id })), concept.map((id) => ({ id })), ASK_FETCH, { question, lookup: (id) => { const en = byId.get(id); return en && { kind: en.kind, names: [en.name, ...en.aliases] }; } });
 
   // Candidates for the primary record: what the question named, then the curated pair's records.
   type Cand = { entry: AskIndexEntry; strong: boolean; order: number; fromPair?: boolean };

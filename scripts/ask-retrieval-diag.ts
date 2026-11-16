@@ -15,7 +15,7 @@
 import MiniSearch from "minisearch";
 import { benchmark, scoreAnswer } from "../src/data/benchmark";
 import { askEval, askEvalNew, scoreAskEval } from "../src/data/ask-eval";
-import { answerText, composeAnswer, recordFromEntity, retrieveIds } from "../src/lib/ask";
+import { answerText, composeAnswer, namedLookup, recordFromEntity, retrieveIds } from "../src/lib/ask";
 import { graph } from "../src/lib/graph";
 import { routeFor } from "../src/lib/kinds";
 import { searchDocs, type SearchDoc } from "../src/lib/search-index";
@@ -35,7 +35,9 @@ const g = graph();
 const ms = new MiniSearch<SearchDoc>(SEARCH_INDEX_OPTIONS);
 const EXCLUDE = process.env.EXCLUDE; // A tag to leave out of both indexes (EXCLUDE=wave4), to attribute a recall change to one wave.
 const skip = (id: string) => !!EXCLUDE && !!g.get(id)?.tags.includes(EXCLUDE);
-ms.addAll(searchDocs().filter((d) => !skip(d.id)));
+const searchDocsAll = searchDocs().filter((d) => !skip(d.id));
+ms.addAll(searchDocsAll);
+const lookup = namedLookup(searchDocsAll);
 const docs = semanticDocs().filter((d) => !skip(d.id));
 const sem = buildSemanticIndex(docs);
 const weightOf = new Map(docs.map((d) => [d.id, d.weight ?? 1]));
@@ -49,7 +51,7 @@ for (const q of benchmark) {
   const lex = lexAll.slice(0, 12);
   const semAll = semanticSearch(sem, q.question, 60);
   const semTop = semAll.slice(0, 12);
-  const ids = retrieveIds(lex, semTop, 6);
+  const ids = retrieveIds(lex, semTop, 6, { question: q.question, lookup });
   const records = ids.map((id) => { const e = g.must(id); return recordFromEntity(e, routeFor(e)); });
   const s = scoreAnswer(q, answerText(composeAnswer(q.question, records))).score;
   const hit = q.entities.filter((id) => ids.includes(id));

@@ -169,6 +169,86 @@ import { recordsRO } from "./country-records-ro";
 import { recordsMY } from "./country-records-my";
 import { recordsDZ } from "./country-records-dz";
 import { recordsTW } from "./country-records-tw";
+import { recordsBE } from "./country-records-be";
+import { recordsMA } from "./country-records-ma";
+import { recordsIQ } from "./country-records-iq";
+import { recordsPE } from "./country-records-pe";
+import { recordsMM } from "./country-records-mm";
+import { recordsCL } from "./country-records-cl";
+import { recordsPT } from "./country-records-pt";
+import { recordsGR } from "./country-records-gr";
+import { recordsKE } from "./country-records-ke";
+import { recordsCZ } from "./country-records-cz";
+import { recordsSD } from "./country-records-sd";
+import { recordsCD } from "./country-records-cd";
+import { recordsHU } from "./country-records-hu";
+import { recordsAT } from "./country-records-at";
+import { recordsTZ } from "./country-records-tz";
+import { recordsUZ } from "./country-records-uz";
+import { recordsSA } from "./country-records-sa";
+import { recordsUG } from "./country-records-ug";
+import { recordsVE } from "./country-records-ve";
+import { recordsLK } from "./country-records-lk";
+import { recordsGH } from "./country-records-gh";
+import { recordsDK } from "./country-records-dk";
+import { recordsNP } from "./country-records-np";
+import { recordsKZ } from "./country-records-kz";
+import { recordsEC } from "./country-records-ec";
+import { recordsCU } from "./country-records-cu";
+import { recordsYE } from "./country-records-ye";
+import { recordsBY } from "./country-records-by";
+import { recordsRS } from "./country-records-rs";
+import { recordsSY } from "./country-records-sy";
+import { recordsAF } from "./country-records-af";
+import { recordsBG } from "./country-records-bg";
+import { recordsNO } from "./country-records-no";
+import { recordsFI } from "./country-records-fi";
+import { recordsKP } from "./country-records-kp";
+import { recordsKH } from "./country-records-kh";
+import { recordsIE } from "./country-records-ie";
+import { recordsZW } from "./country-records-zw";
+import { recordsAO } from "./country-records-ao";
+import { recordsTN } from "./country-records-tn";
+import { recordsSK } from "./country-records-sk";
+import { recordsNZ } from "./country-records-nz";
+import { recordsHR } from "./country-records-hr";
+import { recordsMZ } from "./country-records-mz";
+import { recordsMW } from "./country-records-mw";
+import { recordsMG } from "./country-records-mg";
+import { recordsDO } from "./country-records-do";
+import { recordsGT } from "./country-records-gt";
+import { recordsCI } from "./country-records-ci";
+import { recordsSG } from "./country-records-sg";
+import { recordsTD } from "./country-records-td";
+import { recordsLB } from "./country-records-lb";
+import { recordsBO } from "./country-records-bo";
+import { recordsZM } from "./country-records-zm";
+import { recordsPR } from "./country-records-pr";
+import { recordsUY } from "./country-records-uy";
+import { recordsLT } from "./country-records-lt";
+import { recordsNE } from "./country-records-ne";
+import { recordsCM } from "./country-records-cm";
+import { recordsGE } from "./country-records-ge";
+import { recordsAZ } from "./country-records-az";
+import { recordsBA } from "./country-records-ba";
+import { recordsHT } from "./country-records-ht";
+import { recordsSN } from "./country-records-sn";
+import { recordsSI } from "./country-records-si";
+import { recordsML } from "./country-records-ml";
+import { recordsPG } from "./country-records-pg";
+import { recordsBF } from "./country-records-bf";
+import { recordsCR } from "./country-records-cr";
+import { recordsPY } from "./country-records-py";
+import { recordsRW } from "./country-records-rw"; // wave 12
+import { recordsGN } from "./country-records-gn"; // wave 12
+import { recordsMD } from "./country-records-md"; // wave 12
+import { recordsLV } from "./country-records-lv"; // wave 12
+import { recordsHN } from "./country-records-hn"; // wave 12
+import { recordsAM } from "./country-records-am"; // wave 12
+import { recordsSO } from "./country-records-so"; // wave 12
+import { recordsJO } from "./country-records-jo"; // wave 12
+import { recordsSV } from "./country-records-sv"; // wave 12
+import { recordsPA } from "./country-records-pa"; // wave 12
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
@@ -447,6 +527,14 @@ const RAW_INPUTS: EntityInput[] = [
   ...recordsAU, ...recordsES, ...recordsBR, ...recordsSE, ...recordsCH,
   ...recordsID, ...recordsPK, ...recordsTR, ...recordsBD, ...recordsIR, ...recordsMX, ...recordsEG, ...recordsPL, ...recordsNG, ...recordsTH,
   ...recordsVN, ...recordsPH, ...recordsET, ...recordsZA, ...recordsCO, ...recordsAR, ...recordsUA, ...recordsRO, ...recordsMY, ...recordsDZ, ...recordsTW,
+  ...recordsBE, ...recordsMA, ...recordsIQ, ...recordsPE, ...recordsMM, ...recordsCL, ...recordsPT, ...recordsGR, ...recordsKE, ...recordsCZ,
+  ...recordsSD, ...recordsCD, ...recordsHU, ...recordsAT, ...recordsTZ, ...recordsUZ, ...recordsSA, ...recordsUG, ...recordsVE, ...recordsLK,
+  ...recordsGH, ...recordsDK, ...recordsNP, ...recordsKZ, ...recordsEC, ...recordsCU, ...recordsYE, ...recordsBY, ...recordsRS, ...recordsSY,
+  ...recordsAF, ...recordsBG, ...recordsNO, ...recordsFI, ...recordsKP, ...recordsKH, ...recordsIE, ...recordsZW, ...recordsAO, ...recordsTN,
+  ...recordsSK, ...recordsNZ, ...recordsHR, ...recordsMZ, ...recordsMW, ...recordsMG, ...recordsDO, ...recordsGT, ...recordsCI, ...recordsSG,
+  ...recordsTD, ...recordsLB, ...recordsBO, ...recordsZM, ...recordsPR, ...recordsUY, ...recordsLT, ...recordsNE, ...recordsCM, ...recordsGE,
+  ...recordsAZ, ...recordsBA, ...recordsHT, ...recordsSN, ...recordsSI, ...recordsML, ...recordsPG, ...recordsBF, ...recordsCR, ...recordsPY,
+  ...recordsRW, ...recordsGN, ...recordsMD, ...recordsLV, ...recordsHN, ...recordsAM, ...recordsSO, ...recordsJO, ...recordsSV, ...recordsPA, // wave 12
   ...china,
   ...approvedWave1,
   ...targetsWave1,

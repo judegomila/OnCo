@@ -73,7 +73,11 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // (src/data/institutions/countries-2026-11-*.ts: national cancer centres, radiotherapy centres, registries, regulators
   // and payers) and the Newsweek 2026 ranked hospitals OnCo did not hold. Each is an institution page that should name
   // the people who lead it, the kind this gauge asks about, so the denominator grows and the score falls; no target changed.
-  { id: "institution-people", total: 1743, label: "Institutions with people" },
+  // 1,743 to 2,074 on 12 November 2026: the country deep dives of waves 5 to 12 (80 countries, PR #395) merged with
+  // main, adding the registries, ministries, insurers, regulators and cancer centres each page rests on. Each is an
+  // institution page that should name the people who lead it, the kind this gauge asks about, so the denominator
+  // grows and the score falls; no target changed.
+  { id: "institution-people", total: 2074, label: "Institutions with people" },
   { id: "people-papers", total: 1567, label: "People with papers, or in a role that produces none" },
   // 45 to 55 on 4 November 2026: the rejuvenation front's agenda bottlenecks and, last, the residual disease bottleneck
   // (src/data/spikes/breast-residual-subclones.ts). Each is a bottleneck that ideas are meant to attack, the kind this
@@ -90,7 +94,10 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // and the drugs added by the startup monitors and the coverage lists. They are drugs and targets, which is what this
   // gauge asks about, so the denominator grows; their Europe PMC snapshots come with the next fetch:research run.
   { id: "papers-snapshot", total: 4561, label: "Drugs, targets, cancers and technologies with a Europe PMC snapshot" },
-  { id: "citations", total: 2419, label: "Key papers with a citation count" },
+  // 2,419 to 3,094 on 11 November 2026: the papers behind the country deep dives (registry reports, screening and
+  // survival studies) and the rounds since the last recording. They are key papers, the kind this gauge asks about,
+  // so the denominator grows; their counts come from the Europe PMC fetch run in the same change.
+  { id: "citations", total: 3094, label: "Key papers with a citation count" },
   // 11 November 2026: the supportive care gap round (src/data/supportive-care-gaps-2026-11.ts) added 43 medicines used in cancer
   // care (anticoagulants, antiemetics, opioids, antibiotics, anaesthetics). They are approved products, the kind these gauges ask
   // about, so the denominators grow with them; no target changed.
@@ -101,7 +108,9 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // 3,154 to 3,675 on 12 November 2026: the institutions for the countries that held fewer than three
   // (src/data/institutions/countries-2026-11-*.ts) and the Newsweek 2026 ranked hospitals OnCo did not hold. They are
   // institutions, the kind this gauge asks about, so the denominator grows; no target changed.
-  { id: "logos", total: 3675, label: "Companies, institutions and collections with a logo" },
+  // 3,675 to 4,007 on 12 November 2026: the institutions of the 80 country deep dives (PR #395) merged with main.
+  // They are institutions, the kind this gauge asks about, so the denominator grows; no target changed.
+  { id: "logos", total: 4007, label: "Companies, institutions and collections with a logo" },
   { id: "completeness", total: 22, label: "External denominators at least half covered" },
 ];
 

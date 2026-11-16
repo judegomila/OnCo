@@ -78,8 +78,7 @@ const institutions: InstitutionInput[] = [
     tldr: "A cancer hospital in Santo Domingo with radiotherapy machines, at the address the Dominican League Against Cancer gives as its home. It is a separate institution from the National Cancer Institute nearby.",
     summary: "UICC's member page for the Liga Dominicana Contra el Cáncer, a full member, gives the league's address as the Instituto de Oncología Dr Heriberto Pieter, Calle Bernardo Correa y Cidrón No 1, Santo Domingo. IAEA DIRAC lists the institute in Santo Domingo with two linear accelerators, one brachytherapy unit and two CT scanners (entry last updated 2018). The National Cancer Institute (INCART) is a separate public institute on the same avenue; DIRAC lists it as its own centre. Coordinates are DIRAC's.",
     programs: ["Radiotherapy (two linear accelerators and brachytherapy in IAEA DIRAC)"],
-    // TODO: re-link incart-dominican-republic (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["iaea"],
+    institutions: ["incart-dominican-republic", "iaea"],
     links: [{ label: "UICC: Liga Dominicana Contra el Cáncer (member page, address)", url: UICC_DO_LIGA }, DIRAC] }),
 
   i({ id: "iorc-santiago-dominican-republic", name: "Instituto Oncológico Regional del Cibao", aka: ["IORC", "Regional Oncology Institute of Cibao", "Patronato Cibaeño Contra el Cáncer", "Centro de Radioterapia IORC"],
@@ -95,7 +94,7 @@ const institutions: InstitutionInput[] = [
     tldr: "The public body that runs the Dominican Republic's public hospitals. It runs a free programme that checks for breast, cervical and prostate cancer at ten public hospitals, including the National Cancer Institute.",
     summary: "The Servicio Nacional de Salud was created on 16 July 2015 by Law 123-15 as a public body with its own legal personality, attached to the Ministry of Public Health and Social Assistance, to run the network of regional public health services. Its Programa Detección de Cáncer de Mama, Cervicouterino y Próstata offers free laboratory tests, imaging, gynaecology and oncology consultations, biopsy and treatment where cancer is confirmed, for women aged 40 and over (breast), women aged 25 to 60 (cervix) and men aged 40 and over (prostate) who have lived for six months in a province with a participating hospital. The ten listed hospitals include INCART in the Distrito Nacional, Hospital Presidente Estrella Ureña in Santiago and Hospital Jaime Mota in Barahona. The coordinates are an approximate Santo Domingo city point.",
     programs: ["Programa Detección de Cáncer de Mama, Cervicouterino y Próstata (ten hospitals)"],
-    // TODO: re-link incart-dominican-republic, sisalril-dominican-republic (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["incart-dominican-republic", "sisalril-dominican-republic"],
     cancers: ["breast-cancer", "cervical", "prostate"],
     links: [
       { label: "SNS: who we are (Law 123-15)", url: "https://sns.gob.do/sobre-nosotros/quienes-somos/" },
@@ -128,8 +127,7 @@ const institutions: InstitutionInput[] = [
     tldr: "A cancer hospital in Guatemala City run by the National League Against Cancer, a charity that also keeps a national cancer registry. Under an agreement with the Ministry of Health it treats patients sent from public hospitals.",
     summary: "UICC's member page says the Liga Nacional Contra el Cáncer was founded in 1953 and is financed by donations, charges to patients who can pay, and an annual allocation from the Ministry of Public Health; it runs its hospital, the Instituto de Cancerología Dr. Bernardo del Valle S. (INCAN), from 1957, a Department of National Cancer Registry from 1975, and prevention and education through PIENSA from 1996. In February 2022 the Ministry (MSPAS) and the Liga signed an agreement for INCAN to treat at least 3,500 cancer patients referred by national hospitals that year, against 1,600 in 2021, covering chemotherapy, radiotherapy, surgery, minor procedures, biopsies and outpatient follow-up (AGN). IAEA DIRAC lists the Liga Nacional Contra el Cáncer at 6a avenida \"A\" 6-58, zona 11, with three linear accelerators, two brachytherapy units and a CT scanner (entry last updated 2023). Coordinates are DIRAC's.",
     programs: ["Chemotherapy, radiotherapy and surgery for patients referred from public hospitals (MSPAS agreement)", "Radiotherapy (three linear accelerators and brachytherapy in IAEA DIRAC)", "Department of National Cancer Registry (from 1975)", "PIENSA prevention and education (from 1996)"],
-    // TODO: re-link unop-guatemala (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["igss-guatemala", "hospital-roosevelt-guatemala", "iaea"],
+    institutions: ["unop-guatemala", "igss-guatemala", "hospital-roosevelt-guatemala", "iaea"],
     links: [
       { label: "UICC: Liga Nacional Contra el Cáncer Guatemala (member page)", url: UICC_GT_LIGA },
       { label: "AGN: agreement for INCAN to treat patients referred by national hospitals (February 2022)", url: AGN_INCAN },
@@ -149,8 +147,7 @@ const institutions: InstitutionInput[] = [
     tldr: "A public referral hospital in Guatemala City that treats people sent from departmental and regional hospitals across the country free of charge.",
     summary: "Hospital Roosevelt's own history says construction began in 1944, with support from the United States government, and finished in 1955, and that a radioisotope laboratory opened in 1962 with a cobalt-60 unit among the donated equipment. It describes itself as receiving patients from the capital and referred from departmental and regional hospitals across the country, providing specialised medical and hospital services free of charge in internal medicine, surgery, gynaecology, paediatrics, ophthalmology and other subspecialties. ClinicalTrials.gov lists Hospital Roosevelt as a Guatemala City site of the HERA trial of trastuzumab after surgery for HER2-positive breast cancer. Coordinates are Nominatim's.",
     programs: ["Free public specialist care for patients referred from across Guatemala"],
-    // TODO: re-link unop-guatemala (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["incan-guatemala"],
+    institutions: ["unop-guatemala", "incan-guatemala"],
     links: [{ label: "Hospital Roosevelt: history", url: "https://hospitalroosevelt.gob.gt/historia/" }, ct("NCT00045032")] }),
 
   i({ id: "grupo-medico-angeles-guatemala", name: "Grupo Médico Ángeles (Guatemala)", aka: ["Grupo Angeles", "Grupo Medico Angeles", "Angeles Medical Group, Guatemala"],
@@ -175,8 +172,7 @@ const institutions: InstitutionInput[] = [
     tldr: "Honduras's Ministry of Health. It runs the public hospitals, keeps a cancer information portal for the public, and works with the children's cancer foundation, which treats children free of charge in public hospitals.",
     summary: "The Secretaría de Salud runs Honduras's public health system and administers Hospital Escuela under its 1977 agreement with the National Autonomous University of Honduras. Its cancer portal explains prevention, staging and spread in plain language and lists the Fundación Hondureña para el Niño con Cáncer among its partners; the foundation says it leads the country's work on childhood cancer together with the Ministry. Health products are regulated by a separate agency, ARSA. The coordinates are an approximate Tegucigalpa city point.",
     programs: ["Cancer information portal", "Public hospital network, including Hospital Escuela and Hospital General San Felipe"],
-    // TODO: re-link arsa-honduras (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["hospital-escuela-honduras", "hospital-san-felipe-honduras", "fhnc-honduras", "centro-cancer-emma-romero-de-callejas", "liga-contra-el-cancer-honduras"],
+    institutions: ["arsa-honduras", "hospital-escuela-honduras", "hospital-san-felipe-honduras", "fhnc-honduras", "centro-cancer-emma-romero-de-callejas", "liga-contra-el-cancer-honduras"],
     links: [{ label: "SESAL: cancer portal", url: SESAL_CANCER }, { label: "Hospital Escuela: history", url: "https://hospitalescuela.hn/historia-el-hospital/" }, { label: "FHNC: our beginning", url: FHNC_HISTORY }] }),
 
   i({ id: "hospital-escuela-honduras", name: "Hospital Escuela (Tegucigalpa)", aka: ["Hospital Escuela Universitario", "HEU", "University Teaching Hospital, Tegucigalpa"],
@@ -265,7 +261,7 @@ const institutions: InstitutionInput[] = [
     tldr: "Panama's Ministry of Health, which runs public health centres and national campaigns, including cancer prevention events each October.",
     summary: "The Ministerio de Salud sets Panama's national health policy and runs public health centres; the Instituto Oncológico Nacional and the Caja de Seguro Social, held as separate records, provide public cancer care. In October 2026 it held an academic day on cancer prevention through healthy lifestyles as part of the month's awareness activities. The coordinates are an approximate Panama City point.",
     programs: ["National cancer awareness and prevention activities (October)"],
-    // TODO: re-link ion-panama, css-panama (defined in the country deep dive, PR #395) once it merges.
+    institutions: ["ion-panama", "css-panama"],
     links: [{ label: "MINSA: home page", url: "https://www.minsa.gob.pa/" }, { label: "MINSA: cancer prevention through healthy lifestyles (October 2026)", url: "https://www.minsa.gob.pa/centro-de-prensa/noticias/minsa-impulsa-la-prevencion-del-cancer-desde-los-habitos-de-vida" }] }),
 
   i({ id: "chop-panama", name: "Centro Hemato Oncológico Panamá (CHOP)", aka: ["CHOP", "Centro Hemato Oncologico Panama", "Centro Hemato Oncologico Paitilla"],
@@ -273,8 +269,7 @@ const institutions: InstitutionInput[] = [
     tldr: "A group of cancer and blood specialists in Panama City, working since 1994, that has taken part in international trials of lymphoma, breast, stomach and lung cancer medicines.",
     summary: "CHOP describes itself as a group of oncologists, haematologists and allied specialists who have treated patients with cancer and blood diseases since 1994, with about 25 doctors across medical oncology, haematology, paediatric haematology, radiation oncology, palliative care, psycho-oncology, nutrition and geriatrics, four clinics, and a branch at The Panama Clinic, where it works on a bone marrow transplant programme. Its research page lists closed protocols including GOYA (diffuse large B-cell lymphoma), GATSBY (gastric cancer), OAK (lung cancer), TASQ 10 (metastatic prostate cancer), MARIANNE and KAMILA (HER2-positive breast cancer). ClinicalTrials.gov lists it as a Panama City site of GOYA and OAK. The coordinates are an approximate Panama City point.",
     programs: ["Medical oncology, haematology and radiation oncology", "Bone marrow transplant programme at The Panama Clinic", "Clinical trial site"],
-    // TODO: re-link ion-panama (defined in the country deep dive, PR #395) once it merges.
-    institutions: ["the-panama-clinic"],
+    institutions: ["ion-panama", "the-panama-clinic"],
     links: [{ label: "CHOP: home page", url: "https://www.chop.com.pa/" }, { label: "CHOP: research protocols", url: CHOP_RESEARCH }, ct("NCT01287741"), ct("NCT02008227")] }),
 
   i({ id: "the-panama-clinic", name: "The Panama Clinic", aka: ["Hospital The Panama Clinic"],
@@ -506,15 +501,15 @@ export const institutionsCountriesAmericas: InstitutionInput[] = institutions;
 /** Existing record id to the new institution ids it should list (applied in src/data/index.ts). */
 export const countriesAmericasBacklinks: Record<string, string[]> = {
   // In-country records another file owns.
-  // TODO: incart-dominican-republic is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "incart-dominican-republic": ["sns-dominican-republic", "heriberto-pieter-oncology-institute"],
-  // TODO: sisalril-dominican-republic is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "sisalril-dominican-republic": ["sns-dominican-republic"],
-  // TODO: unop-guatemala is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "unop-guatemala": ["incan-guatemala", "hospital-roosevelt-guatemala"],
-  // TODO: arsa-honduras is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "arsa-honduras": ["sesal-honduras"],
-  // TODO: ion-panama is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "ion-panama": ["minsa-panama", "chop-panama"],
-  // TODO: css-panama is defined in the country deep dive (PR #395, src/data/country-records-*.ts). Once it merges, restore: "css-panama": ["minsa-panama"],
+  "incart-dominican-republic": ["sns-dominican-republic", "heriberto-pieter-oncology-institute"],
+  "sisalril-dominican-republic": ["sns-dominican-republic"],
+  "unop-guatemala": ["incan-guatemala", "hospital-roosevelt-guatemala"],
+  "arsa-honduras": ["sesal-honduras"],
+  "ion-panama": ["minsa-panama", "chop-panama"],
+  "css-panama": ["minsa-panama"],
   // The SNS runs the country's free breast, cervical and prostate cancer detection programme for set age groups
-  // (its programme page, linked on the record), so it is listed on the national screening programmes page. This is its
-  // inbound link until INCART and SISALRIL, which link to it, arrive with the country deep dive (PR #395).
+  // (its programme page, linked on the record), so it is listed on the national screening programmes page. INCART and
+  // SISALRIL, from the country deep dive, list it as well (above).
   "national-screening-programmes": ["sns-dominican-republic"],
   // IAEA DIRAC lists every radiotherapy operator below.
   iaea: [

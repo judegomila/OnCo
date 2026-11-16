@@ -15,8 +15,8 @@ import { cdx } from "./biomarker-readouts";
 
 export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
   "alk-fusion": [
-    cdx("Ventana ALK (D5F3) CDx Assay", "Ventana Medical Systems, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["crizotinib"], "P140025 (06/12/2015)"),
-    cdx("Ventana ALK (D5F3) CDx Assay", "Ventana Medical Systems, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["ceritinib"], "P140025/S005 (05/26/2017)"),
+    cdx("Ventana ALK (D5F3) CDx Assay", "Ventana Medical Systems, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["crizotinib"], "P140025 (06/12/2015)", "roche-genentech"),
+    cdx("Ventana ALK (D5F3) CDx Assay", "Ventana Medical Systems, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["ceritinib"], "P140025/S005 (05/26/2017)", "roche-genentech"),
     cdx("Vysis ALK Break Apart FISH Probe Kit", "Abbott Molecular Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["brigatinib"], "P110012/S020 (05/22/2020)", "abbott"),
     cdx("FoundationOne CDx", "Foundation Medicine Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["brigatinib"], "P170019/S023 (06/30/2021)", "foundation-medicine"),
   ],
@@ -45,7 +45,7 @@ export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
   "egfr-exon-19-deletion": [
     cdx("Guardant360® Liquid CDx", "Guardant Health, Inc.", "Non-small cell lung cancer (NSCLC) - Plasma", ["osimertinib"], "P250027 (05/19/2026)", "guardant-health"),
     cdx("therascreen EGFR RGQ PCR Kit", "Qiagen Manchester, Ltd.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["gefitinib"], "P120022/S001 (07/10/2015)", "qiagen"),
-    cdx("ONCO/Reveal Dx Lung & Colon Cancer Assay (O/RDx-LCCA)", "Pillar Biosciences, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["erlotinib","osimertinib","gefitinib","afatinib","dacomitinib","lazertinib"], "P200011 (07/30/2021)"),
+    cdx("ONCO/Reveal Dx Lung & Colon Cancer Assay (O/RDx-LCCA)", "Pillar Biosciences, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["erlotinib","osimertinib","gefitinib","afatinib","dacomitinib","lazertinib"], "P200011 (07/30/2021)", "pillar-biosciences"),
     cdx("MI Cancer Seek", "Caris Life Sciences", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["erlotinib","osimertinib","gefitinib","afatinib","dacomitinib","lazertinib"], "P240010 (11/05/2024)", "caris"),
   ],
   "egfr-exon-20-insertion": [
@@ -58,23 +58,23 @@ export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
     cdx("Guardant360® Liquid CDx", "Guardant Health, Inc.", "Breast Cancer - Plasma", ["imlunestrant"], "P250027 (05/19/2026)", "guardant-health"),
   ],
   "ezh2-y646-mutation": [
-    cdx("cobas EZH2 Mutation Test", "Roche Molecular Systems, Inc.", "Follicular Lymphoma Tumor - Tissue", ["tazemetostat"], "P200014 (06/18/2020)"),
+    cdx("cobas EZH2 Mutation Test", "Roche Molecular Systems, Inc.", "Follicular Lymphoma Tumor - Tissue", ["tazemetostat"], "P200014 (06/18/2020)", "roche-genentech"),
   ],
   "her2-ihc-3-plus": [
     cdx("HercepTest", "Dako Denmark A/S", "Breast Cancer - Tissue", ["pertuzumab"], "P980018/S015 (06/08/2012)", "agilent"),
     cdx("HercepTest", "Dako Denmark A/S", "Breast Cancer - Tissue", ["trastuzumab-emtansine"], "P980018/S016 (02/22/2013)", "agilent"),
     cdx("InSite Her-2/neu (CB11) Monoclonal Antibody", "Biogenex Laboratories, Inc.", "Breast Cancer - Tissue", ["trastuzumab"], "P040030 (12/22/2004)"),
-    cdx("PATHWAY anti-Her2/neu (4B5) Rabbit Monoclonal Primary Antibody", "Ventana Medical Systems, Inc.", "Breast Cancer - Tissue", ["trastuzumab-emtansine"], "P990081/S039 (05/03/2019)"),
+    cdx("PATHWAY anti-Her2/neu (4B5) Rabbit Monoclonal Primary Antibody", "Ventana Medical Systems, Inc.", "Breast Cancer - Tissue", ["trastuzumab-emtansine"], "P990081/S039 (05/03/2019)", "roche-genentech"),
   ],
   "her2-ish-amplified": [
-    cdx("VENTANA HER2 Dual ISH DNA Probe Cocktail", "Ventana Medical Systems, Inc.", "Gastroesophageal adenocarcinoma (GEA: gastric, gastroesophageal junction, and esophageal adenocarcinoma)", ["zanidatamab"], "P190031/S016 (08/25/2026)"),
+    cdx("VENTANA HER2 Dual ISH DNA Probe Cocktail", "Ventana Medical Systems, Inc.", "Gastroesophageal adenocarcinoma (GEA: gastric, gastroesophageal junction, and esophageal adenocarcinoma)", ["zanidatamab"], "P190031/S016 (08/25/2026)", "roche-genentech"),
     cdx("FoundationOne CDx", "Foundation Medicine, Inc.", "Breast Cancer - Tissue", ["trastuzumab"], "P170019 (11/30/2017)", "foundation-medicine"),
     cdx("FoundationOne CDx", "Foundation Medicine, Inc.", "Breast Cancer - Tissue", ["pertuzumab"], "P170019 (11/30/2017)", "foundation-medicine"),
     cdx("FoundationOne CDx", "Foundation Medicine, Inc.", "Breast Cancer - Tissue", ["trastuzumab-emtansine"], "P170019 (11/30/2017)", "foundation-medicine"),
     cdx("HER2 CISH pharmDx Kit", "Dako Denmark A/S", "Breast Cancer - Tissue", ["trastuzumab"], "P100024 (11/30/2011)", "agilent"),
     cdx("HER2 FISH pharmDx Kit", "Dako Denmark A/S", "Breast Cancer - Tissue", ["pertuzumab"], "P040005/S006 (06/08/2012)", "agilent"),
     cdx("HER2 FISH pharmDx Kit", "Dako Denmark A/S", "Breast Cancer - Tissue", ["trastuzumab-emtansine"], "P040005/S009 (02/22/2013)", "agilent"),
-    cdx("INFORM HER-2/neu", "Ventana Medical Systems, Inc.", "Breast Cancer - Tissue", ["trastuzumab"], "P940004 (12/30/1997)"),
+    cdx("INFORM HER-2/neu", "Ventana Medical Systems, Inc.", "Breast Cancer - Tissue", ["trastuzumab"], "P940004 (12/30/1997)", "roche-genentech"),
     cdx("SPOT-LIGHT HER2 CISH Kit", "Life Technologies Corporation", "Breast Cancer - Tissue", ["trastuzumab"], "P050040 (07/01/2008)", "thermo-fisher"),
   ],
   "her2-mutation": [
@@ -97,8 +97,8 @@ export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
     cdx("MI Cancer Seek (MCS)", "Caris Life Sciences", "Breast Cancer - Tissue", ["alpelisib"], "P240010 (11/05/2024)", "caris"),
   ],
   "ras-wild-type": [
-    cdx("cobas KRAS Mutation Test", "Roche Molecular Systems, Inc.", "Colorectal Cancer - Tissue", ["cetuximab"], "P140023 (05/07/2015)"),
-    cdx("cobas KRAS Mutation Test", "Roche Molecular Systems, Inc.", "Colorectal Cancer - Tissue", ["panitumumab"], "P140023 (05/07/2015)"),
+    cdx("cobas KRAS Mutation Test", "Roche Molecular Systems, Inc.", "Colorectal Cancer - Tissue", ["cetuximab"], "P140023 (05/07/2015)", "roche-genentech"),
+    cdx("cobas KRAS Mutation Test", "Roche Molecular Systems, Inc.", "Colorectal Cancer - Tissue", ["panitumumab"], "P140023 (05/07/2015)", "roche-genentech"),
     cdx("xT CDx", "Tempus Labs, Inc.", "Colorectal Cancer (CRC) - Tissue (Matching Blood/Saliva)", ["cetuximab"], "P210011 (04/28/2023)", "tempus"),
     cdx("xT CDx", "Tempus Labs, Inc.", "Colorectal Cancer (CRC) - Tissue (Matching Blood/Saliva)", ["panitumumab"], "P210011 (04/28/2023)", "tempus"),
   ],

@@ -1,11 +1,11 @@
 {
- "checked": "2026-11-04",
+ "checked": "2026-11-11",
  "source": {
   "label": "CIViC: accepted assertions",
   "url": "https://civicdb.org/assertions/home"
  },
  "method": "CIViC GraphQL API (https://civicdb.org/api/graphql): every assertion with status accepted, the curated summary claims (predictive, diagnostic, prognostic, oncogenic, predisposing) built from several evidence items, with AMP/ASCO/CAP tier where given. One item per assertion: molecular profile, genes, disease and therapies. CC0 1.0.",
- "total": 164,
+ "total": 186,
  "licence": "CC0 1.0",
  "items": [
   {
@@ -2053,6 +2053,19 @@
    "therapies": []
   },
   {
+   "id": 215,
+   "name": "AID215",
+   "url": "https://civicdb.org/assertions/215/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_ONCOGENIC",
+   "profile": "EZH2 Y646N",
+   "genes": [
+    "EZH2"
+   ],
+   "disease": "Follicular Lymphoma",
+   "therapies": []
+  },
+  {
    "id": 217,
    "name": "AID217",
    "url": "https://civicdb.org/assertions/217/summary",
@@ -2080,6 +2093,19 @@
     "ATF1"
    ],
    "disease": "Clear Cell Sarcoma",
+   "therapies": []
+  },
+  {
+   "id": 221,
+   "name": "AID221",
+   "url": "https://civicdb.org/assertions/221/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_ONCOGENIC",
+   "profile": "MET Splice Site (c.3028+1G>T)",
+   "genes": [
+    "MET"
+   ],
+   "disease": "Lung Non-small Cell Carcinoma",
    "therapies": []
   },
   {
@@ -2112,6 +2138,22 @@
    "therapies": []
   },
   {
+   "id": 226,
+   "name": "AID226",
+   "url": "https://civicdb.org/assertions/226/summary",
+   "type": "PREDICTIVE",
+   "significance": "SENSITIVITYRESPONSE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "MET Splice Site (c.3028+1G>T)",
+   "genes": [
+    "MET"
+   ],
+   "disease": "Lung Non-small Cell Carcinoma",
+   "therapies": [
+    "Capmatinib"
+   ]
+  },
+  {
    "id": 227,
    "name": "AID227",
    "url": "https://civicdb.org/assertions/227/summary",
@@ -2137,6 +2179,32 @@
     "VGLL2"
    ],
    "disease": "Spindle Cell Rhabdomyosarcoma",
+   "therapies": []
+  },
+  {
+   "id": 230,
+   "name": "AID230",
+   "url": "https://civicdb.org/assertions/230/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_ONCOGENIC",
+   "profile": "EZH2 A682G",
+   "genes": [
+    "EZH2"
+   ],
+   "disease": "Follicular Lymphoma",
+   "therapies": []
+  },
+  {
+   "id": 232,
+   "name": "AID232",
+   "url": "https://civicdb.org/assertions/232/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_ONCOGENIC",
+   "profile": "EZH2 A692V",
+   "genes": [
+    "EZH2"
+   ],
+   "disease": "Follicular Lymphoma",
    "therapies": []
   },
   {
@@ -2182,6 +2250,19 @@
    "therapies": []
   },
   {
+   "id": 236,
+   "name": "AID236",
+   "url": "https://civicdb.org/assertions/236/summary",
+   "type": "ONCOGENIC",
+   "significance": "UNCERTAIN_SIGNIFICANCE",
+   "profile": "MET Splice Site (c.2999_3028+4del)",
+   "genes": [
+    "MET"
+   ],
+   "disease": "Lung Non-small Cell Carcinoma",
+   "therapies": []
+  },
+  {
    "id": 237,
    "name": "AID237",
    "url": "https://civicdb.org/assertions/237/summary",
@@ -2193,6 +2274,22 @@
    ],
    "disease": "Systemic Mastocytosis",
    "therapies": []
+  },
+  {
+   "id": 240,
+   "name": "AID240",
+   "url": "https://civicdb.org/assertions/240/summary",
+   "type": "PREDICTIVE",
+   "significance": "SENSITIVITYRESPONSE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "MET Splice Site (c.2999_3028+4del)",
+   "genes": [
+    "MET"
+   ],
+   "disease": "Lung Non-small Cell Carcinoma",
+   "therapies": [
+    "Capmatinib"
+   ]
   },
   {
    "id": 243,
@@ -2275,6 +2372,35 @@
    "therapies": []
   },
   {
+   "id": 271,
+   "name": "AID271",
+   "url": "https://civicdb.org/assertions/271/summary",
+   "type": "ONCOGENIC",
+   "significance": "UNCERTAIN_SIGNIFICANCE",
+   "profile": "FGFR3 V555M",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
+   "id": 273,
+   "name": "AID273",
+   "url": "https://civicdb.org/assertions/273/summary",
+   "type": "PREDICTIVE",
+   "significance": "SENSITIVITYRESPONSE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "EGFR L858R",
+   "genes": [
+    "EGFR"
+   ],
+   "disease": "Lung Non-small Cell Carcinoma",
+   "therapies": [
+    "Dacomitinib"
+   ]
+  },
+  {
    "id": 277,
    "name": "AID277",
    "url": "https://civicdb.org/assertions/277/summary",
@@ -2284,7 +2410,7 @@
    "genes": [
     "ERBB2"
    ],
-   "disease": "Lung Non-small Cell Carcinoma",
+   "disease": "Cancer",
    "therapies": []
   },
   {
@@ -2298,6 +2424,19 @@
     "ERBB2"
    ],
    "disease": "Lung Non-small Cell Carcinoma",
+   "therapies": []
+  },
+  {
+   "id": 280,
+   "name": "AID280",
+   "url": "https://civicdb.org/assertions/280/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_ONCOGENIC",
+   "profile": "KRAS A146P",
+   "genes": [
+    "KRAS"
+   ],
+   "disease": "Colorectal Cancer",
    "therapies": []
   },
   {
@@ -2327,12 +2466,102 @@
    "therapies": []
   },
   {
+   "id": 288,
+   "name": "AID288",
+   "url": "https://civicdb.org/assertions/288/summary",
+   "type": "PREDICTIVE",
+   "significance": "SENSITIVITYRESPONSE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "IDH1 R132H",
+   "genes": [
+    "IDH1"
+   ],
+   "disease": "Acute Myeloid Leukemia",
+   "therapies": [
+    "Ivosidenib"
+   ]
+  },
+  {
+   "id": 291,
+   "name": "AID291",
+   "url": "https://civicdb.org/assertions/291/summary",
+   "type": "PREDICTIVE",
+   "significance": "RESISTANCE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "KRAS G12C",
+   "genes": [
+    "KRAS"
+   ],
+   "disease": "Colorectal Cancer",
+   "therapies": [
+    "Cetuximab"
+   ]
+  },
+  {
+   "id": 295,
+   "name": "AID295",
+   "url": "https://civicdb.org/assertions/295/summary",
+   "type": "PREDICTIVE",
+   "significance": "RESISTANCE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "KRAS G12C",
+   "genes": [
+    "KRAS"
+   ],
+   "disease": "Colorectal Cancer",
+   "therapies": [
+    "Panitumumab"
+   ]
+  },
+  {
    "id": 299,
    "name": "AID299",
    "url": "https://civicdb.org/assertions/299/summary",
    "type": "ONCOGENIC",
    "significance": "BENIGN",
    "profile": "FGFR3 G65R",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
+   "id": 300,
+   "name": "AID300",
+   "url": "https://civicdb.org/assertions/300/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_BENIGN",
+   "profile": "FGFR3 R805Q",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
+   "id": 301,
+   "name": "AID301",
+   "url": "https://civicdb.org/assertions/301/summary",
+   "type": "PREDICTIVE",
+   "significance": "SENSITIVITYRESPONSE",
+   "ampLevel": "TIER_I_LEVEL_A",
+   "profile": "IDH1 R132H",
+   "genes": [
+    "IDH1"
+   ],
+   "disease": "Acute Myeloid Leukemia",
+   "therapies": [
+    "Olutasidenib"
+   ]
+  },
+  {
+   "id": 302,
+   "name": "AID302",
+   "url": "https://civicdb.org/assertions/302/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_BENIGN",
+   "profile": "FGFR3 A500T",
    "genes": [
     "FGFR3"
    ],
@@ -2353,6 +2582,32 @@
    "therapies": []
   },
   {
+   "id": 304,
+   "name": "AID304",
+   "url": "https://civicdb.org/assertions/304/summary",
+   "type": "ONCOGENIC",
+   "significance": "BENIGN",
+   "profile": "FGFR3 T450M",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
+   "id": 307,
+   "name": "AID307",
+   "url": "https://civicdb.org/assertions/307/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_ONCOGENIC",
+   "profile": "FGFR3 N540K",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
    "id": 310,
    "name": "AID310",
    "url": "https://civicdb.org/assertions/310/summary",
@@ -2363,6 +2618,58 @@
     "H3C2"
    ],
    "disease": "Diffuse Midline Glioma, H3 K27-altered",
+   "therapies": []
+  },
+  {
+   "id": 311,
+   "name": "AID311",
+   "url": "https://civicdb.org/assertions/311/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_BENIGN",
+   "profile": "FGFR3 R238Q",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
+   "id": 314,
+   "name": "AID314",
+   "url": "https://civicdb.org/assertions/314/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_BENIGN",
+   "profile": "FGFR3 S187Y",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
+   "id": 315,
+   "name": "AID315",
+   "url": "https://civicdb.org/assertions/315/summary",
+   "type": "ONCOGENIC",
+   "significance": "LIKELY_BENIGN",
+   "profile": "FGFR3 H274Y",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
+   "therapies": []
+  },
+  {
+   "id": 316,
+   "name": "AID316",
+   "url": "https://civicdb.org/assertions/316/summary",
+   "type": "ONCOGENIC",
+   "significance": "UNCERTAIN_SIGNIFICANCE",
+   "profile": "FGFR3 Y647C",
+   "genes": [
+    "FGFR3"
+   ],
+   "disease": "Cancer",
    "therapies": []
   },
   {

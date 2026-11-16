@@ -6,9 +6,20 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 16 November 2026
+- Eighty more countries get deep dives researched by agents and checked claim by claim by a second agent, the menu shows one Countries entry instead of a line per country, Ask reads first any medicine a question names by name or brand, and the ivonescimab record now states that the FDA issued a complete response letter, announced on 15 November 2026
+- Ivonescimab: the FDA issued a complete response letter on the US application, announced 15 November 2026
+- chore: draft change proposals that need review (#411)
+
+### 15 November 2026
+- chore: draft change proposals that need review (#410)
+
+### 14 November 2026
+- chore: draft change proposals that need review (#409)
+
 ### 13 November 2026
 - The search health check now keeps a bounded cache, so it needs under 1.5 GB of memory instead of nearly 3 GB and keeps passing as the corpus grows
-- 269 cancer institutions for under-covered countries, from national centres and radiotherapy units to registries, regulators and payers, and oncology hospital ranks checked against the published Newsweek 2026 list, which corrects several ranks and removes three that the list does not contain
+- chore: draft change proposals that need review (#407)
 
 ### 12 November 2026
 - Search health audit holds a bounded word cache, so the gate fits in memory as the corpus grows
@@ -16,6 +27,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Logo gauge counts the new institutions
 - Ask finds the brachytherapy page and trastuzumab deruxtecan again
 - Country institutions stand on their own until the country deep dives arrive
+- Menu: one Countries entry instead of a line per country deep dive
 - Drug pages answer whether a medicine is available in your country, with approval, who pays and help with the cost, and country and institution pages list the trials recruiting there, counted only where that site's own registry status says recruiting
 - chore: refresh pulse, abstract and citation snapshots (#405)
 - chore: weekly roadmap registry check (public/roadmap-watch.json)
@@ -48,6 +60,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - The protocols index pages its table now that there are more than sixty, and a similar page no longer repeats a protocol the page already lists
 - Two pairs of care protocols written in parallel now read as one each, and neighbouring protocols point at each other
 - Eighteen supportive care and survivorship protocols: diarrhoea, nausea, skin, eyes, hair, fatigue, exercise, pain, lymphoedema, distress, sleep, sex, hot flushes and survivorship care plans
+- Ask: a medicine the question names by name or brand is read first
 - Three protocol-upgrade ideas from the pharmacy and vascular access protocols: carboplatin GFR estimate outcomes, vesicants through midlines, and central line discard volume
 - Nineteen more care protocols for radiotherapy, radiation safety, biopsies and scans, and ten protocol upgrades
 - Protocol for central line and port care in the community and at home
@@ -57,6 +70,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Protocol for central line and port removal
 - Protocol for midline catheters in cancer care
 - Protocol for ambulatory chemotherapy pumps at home; insertion protocol no longer links the tip-location record
+- Country deep dives: keep the merged waves inside their tests
 - Protocols: blood thinners around surgery, anti-VEGF drugs before and after operations, sentinel node tracers and blue dye, and lowering the risk of arm lymphoedema
 - Protocol: enhanced recovery after radical cystectomy, from the EAU 2026 bladder cancer guideline with the ERAS Society guideline and its 2025 surgeons' update
 - Protocols: enhanced recovery after oesophagectomy, gastrectomy, Whipple, cytoreduction with HIPEC and head and neck free flap surgery; syringe drivers, pleural catheter drainage at home and malignant ascites
@@ -90,16 +104,32 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Three proposals to test practices the protocols found unmeasured: video second checks before chemotherapy at home, closed-system transfer devices, and antiseptic caps on long-term lines; linked from their protocols
 - Protocol for oral anticancer medicines at home: prescribing, teaching, adherence support and safe handling
 - Protocol for choosing a venous access device for anticancer treatment
+- Country deep dives, wave 10: pages for Chad, Lebanon, Bolivia, Zambia, Puerto Rico, Uruguay, Lithuania, Niger, Cameroon and Georgia
+- Ten more places read from their own sources: registries, payers, regulators and screening for Chad, Lebanon, Bolivia, Zambia, Puerto Rico, Uruguay, Lithuania, Niger, Cameroon and Georgia
 - Protocol for intrathecal chemotherapy safety and giving vinca alkaloids only from a minibag
 - Care protocols for checkpoint inhibitor skin reactions and infection prevention after CAR T-cell therapy
+- feat: country pages for Afghanistan, Bulgaria, Norway, Finland, North Korea, Cambodia, Ireland, Zimbabwe, Angola and Tunisia
+- Ten more countries read from their own sources: Afghanistan, Bulgaria, Norway, Finland, North Korea, Cambodia, Ireland, Zimbabwe, Angola and Tunisia
 - Hazardous drug protocol: plain wording for USP chapter 800 so the page renders it as written
+- Country deep dives, wave 9: pages for Slovakia, New Zealand, Croatia, Mozambique, Malawi, Madagascar, the Dominican Republic, Guatemala, Côte d'Ivoire and Singapore
+- Ten more countries read from their own sources: registries, payers, regulators and screening for Slovakia, New Zealand, Croatia, Mozambique, Malawi, Madagascar, the Dominican Republic, Guatemala, Côte d'Ivoire and Singapore
+- Country pages for Azerbaijan, Bosnia and Herzegovina, Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica and Paraguay, listed in the navigation in every language
+- Ten more countries read from their own sources: registries, payers, regulators, screening and radiotherapy for Azerbaijan, Bosnia and Herzegovina, Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica and Paraguay
 - Protocol for safe handling of hazardous anticancer drugs where they are given: protective equipment, closed systems, spills, waste and body fluids
 - Care protocols for tumour lysis syndrome and bispecific antibody step-up dosing
+- feat: country deep dives for Rwanda, Guinea, Moldova, Latvia, Honduras, Armenia, Somalia, Jordan, El Salvador and Panama
+- Ten more countries read from their own sources: Rwanda, Guinea, Moldova, Latvia, Honduras, Armenia, Somalia, Jordan, El Salvador and Panama
 - Protocol for PICC and tunnelled central line care: dressings, cleaning the connector, flushing and living with the line
+- Country deep dives, wave 5: pages for Belgium, Morocco, Iraq, Peru, Myanmar, Chile, Portugal, Greece, Kenya and Czechia
+- Ten more countries read from their own sources: registries, payers, regulators and screening for Belgium, Morocco, Iraq, Peru, Myanmar, Chile, Portugal, Greece, Kenya and Czechia
 - Protocol for a suspected central line infection in a person with cancer: paired cultures, first antibiotics, and removing or keeping the line
 - Ten care protocols for oncological emergencies, immunotherapy side effects and CAR T-cell toxicity
 - Protocols for treating a blood clot in a person with cancer, and for a clot around a central line
 - Protocols for infusion and allergic reactions during anticancer treatment, and for premedication before taxanes, antibodies and other reaction-prone drugs
+- Country deep dives, wave 6: pages for Sudan, the Democratic Republic of the Congo, Hungary, Austria, Tanzania, Uzbekistan, Saudi Arabia, Uganda, Venezuela and Sri Lanka
+- Ten more countries read from their own sources: registries, payers, regulators and screening for Sudan, the Democratic Republic of the Congo, Hungary, Austria, Tanzania, Uzbekistan, Saudi Arabia, Uganda, Venezuela and Sri Lanka
+- Country deep dives, wave 7: pages for Ghana, Denmark, Nepal, Kazakhstan, Ecuador, Cuba, Yemen, Belarus, Serbia and Syria
+- Ten more countries read from their own sources: registries, payers, regulators and screening for Ghana, Denmark, Nepal, Kazakhstan, Ecuador, Cuba, Yemen, Belarus, Serbia and Syria
 - Protocols for DPD testing before fluorouracil and capecitabine, for prescribing and pharmacy verification of anticancer treatment, and for the checks at the chair before it is given
 - Outperform Cancer is no longer called a nonprofit, since neither its site nor the IRS says so; it is now typed as media and education. The Chan Zuckerberg Initiative is shown as both a research institute and a philanthropy, with its own account of its structure
 - Three care protocols read from their guidelines: accessing and caring for an implanted port, chemotherapy leaking out of the vein by drug class, and the first hour of suspected neutropenic sepsis

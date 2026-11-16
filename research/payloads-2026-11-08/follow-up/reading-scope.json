@@ -1,0 +1,16 @@
+{
+  "checkedOn": "2026-11-08",
+  "dateContext": "Local review date America/Los_Angeles; provider retrieval timestamps retained in UTC.",
+  "scope": "Named primary abstracts, three substantive correction notices, a substantive prostate retraction notice, Crossref-deposited conference abstracts, HGNC/PubChem identities and direct registry captures. No unseen full research manuscript or expert sign-off claimed.",
+  "accessLimits": [
+    "First AACR Crossref request returned 429; a later single request succeeded and its deposited abstract was read.",
+    "HER2-low breast retraction notice body returned 403; MED identity/retraction linkage verified, without an assertion about its reason."
+  ],
+  "reusedSource": [
+    "FDA 2024 ADC guidance and Ogitani 2016 local/distant bystander experiment were independently captured/read in the systematic therapeutic checkpoint; no new clinical-use rule inferred."
+  ],
+  "sourceConflict": "Chinese HDP-101 structured maximumAge=18 Years conflicts with inclusion text age at least 18. Both are retained in the source observation; no preferred value invented.",
+  "xrefGeneration": "POLR2A GeneXref data are generated from the exact HGNC symbol response using the same fields as scripts/fetch-xrefs.ts. Only the new entry was added; the global bulk-generation date and other targets are unchanged.",
+  "comparisonRegistry": "The exatecan-family row had collapsed derivative identities and unverified shared properties. Its canonical id now has a cited concept owner, with measurements left unspecified. Existing derivative links remain at the TOP1 class; this does not validate older inferred chemical component mappings.",
+  "remaining": "Legacy modular rules still map brengitecan/Ed-04 to the parent exatecan component id; this is an explicit product follow-up for exact chemical identity, not resolved by adding prose."
+}

@@ -1,0 +1,1252 @@
+[
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-2089779",
+    "doi": "10.1124/pr.114.009373",
+    "pmid": "26589413",
+    "title": "Antibody Drug Conjugates for Cancer Therapy",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-79265171",
+    "doi": "10.4264/NUMA.76.1_15",
+    "pmid": null,
+    "title": "Antibody-Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-22283497",
+    "doi": "10.1007/978-1-62703-541-5_4",
+    "pmid": "23913141",
+    "title": "Antibody-drug conjugate payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-271481670",
+    "doi": "10.1016/j.ejmech.2024.116709",
+    "pmid": "39068862",
+    "title": "Antibody-drug conjugates for targeted cancer therapy: Recent advances in potential payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-251651157",
+    "doi": "10.31083/j.fbl2708240",
+    "pmid": "36042167",
+    "title": "More than Toxins-Current Prospects in Designing the Next Generation of Antibody Drug Conjugates.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-247106166",
+    "doi": "10.2174/1568009622666220224110538",
+    "pmid": "35209819",
+    "title": "Antibody-Drug Conjugate Targets, Drugs and Linkers.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-251696378",
+    "doi": "10.1021/acs.oprd.2c00227",
+    "pmid": null,
+    "title": "Payloads for Antibody–Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-261248459",
+    "doi": "10.1016/S1470-2045(16)30030-4",
+    "pmid": "27299281",
+    "title": "Antibody–drug conjugates for cancer therapy",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-13975956",
+    "doi": "10.1007/s10529-016-2160-x",
+    "pmid": "27334710",
+    "title": "Antibody drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-269837432",
+    "doi": "10.1038/s41557-024-01507-y",
+    "pmid": "38760431",
+    "title": "Homogeneous multi-payload antibody–drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-3676204",
+    "doi": "10.1007/978-1-62703-541-5",
+    "pmid": null,
+    "title": "Antibody-Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-216072635",
+    "doi": "10.1200/edbk_281107",
+    "pmid": "32315240",
+    "title": "The Resurgence of Antibody Drug Conjugates in Cancer Therapeutics: Novel Targets and Payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-20797495",
+    "doi": "10.2174/1568026615666141208111253",
+    "pmid": "25487009",
+    "title": "Natural products as exquisitely potent cytotoxic payloads for antibody- drug conjugates.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-260395343",
+    "doi": "10.14229/jadc.2023.01.05.001",
+    "pmid": null,
+    "title": "Advances in the Development of Dual-Drug Antibody Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-25271624",
+    "doi": "10.1097/PPO.0b013e318172d704",
+    "pmid": "18536555",
+    "title": "Antibody-Drug Conjugates for Cancer Therapy",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-269535904",
+    "doi": "10.1158/1538-7445.sabcs23-po5-27-10",
+    "pmid": null,
+    "title": "Abstract PO5-27-10: Next generation antibody drug conjugates: Multi-payload conjugates targeting multiple mechanisms of cell killing",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-8387881",
+    "doi": "10.1111/nyas.12499",
+    "pmid": "25123209",
+    "title": "Antibody–drug conjugates: an emerging modality for the treatment of cancer",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-41638381",
+    "doi": "10.1016/j.cbpa.2009.03.023",
+    "pmid": "19414278",
+    "title": "Potent antibody drug conjugates for cancer therapy.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-282269747",
+    "doi": "10.1007/s11912-025-01713-y",
+    "pmid": "41123838",
+    "title": "Chemotherapeutic Drug—Antibody Conjugates (ChemoBodies): Recent Advances and Future Directions",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "completion-check.json",
+    "elicitId": "ss-1407864",
+    "doi": "10.1016/j.jconrel.2012.01.026",
+    "pmid": "22306430",
+    "title": "Antibody-drug conjugates: basic concepts, examples and future perspectives.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-206520173",
+    "doi": "10.1021/acs.bioconjchem.6b00291",
+    "pmid": "27412791",
+    "title": "Natural Product Splicing Inhibitors: A New Class of Antibody-Drug Conjugate (ADC) Payloads.",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-203897406",
+    "doi": "10.1039/9781788012898-00364",
+    "pmid": null,
+    "title": "CHAPTER 17. Splicing Inhibitors as Antibody–Drug Conjugate (ADC) Payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-52313689",
+    "doi": "10.1158/1535-7163.MCT-18-0643",
+    "pmid": "30242091",
+    "title": "Targeted Delivery of Cytotoxic NAMPT Inhibitors Using Antibody–Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-106390906",
+    "doi": "10.1002/ANGE.201807619",
+    "pmid": null,
+    "title": "Antikörper‐Wirkstoff‐Konjugate mit Pyrrol‐basierten KSP‐Inhibitoren als Payload‐Klasse",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-249350301",
+    "doi": "10.1021/acs.bioconjchem.2c00178",
+    "pmid": "35658441",
+    "title": "A Novel NAMPT Inhibitor-Based Antibody–Drug Conjugate Payload Class for Cancer Therapy",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-80361116",
+    "doi": "10.1093/annonc/mdy046.019",
+    "pmid": null,
+    "title": "38INKinesin spindle protein inhibitors as novel payload class for ADCs",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-106031194",
+    "doi": "10.1002/ANIE.201810987",
+    "pmid": null,
+    "title": "Inside Cover: Antibody–Drug Conjugates with Pyrrole‐Based KSP Inhibitors as the Payload Class (Angew. Chem. Int. Ed. 46/2018)",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-81962760",
+    "doi": "10.1158/1538-7445.AM2018-930",
+    "pmid": null,
+    "title": "Abstract 930: Targeted delivery of cytotoxic NAMPT inhibitors using antibody-drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-411843",
+    "doi": "10.1042/BSR20150089",
+    "pmid": "26182432",
+    "title": "Antibody–drug conjugates as novel anti-cancer chemotherapeutics",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-104840473",
+    "doi": "10.1002/ANGE.201810987",
+    "pmid": null,
+    "title": "Innentitelbild: Antikörper‐Wirkstoff‐Konjugate mit Pyrrol‐basierten KSP‐Inhibitoren als Payload‐Klasse (Angew. Chem. 46/2018)",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-288430758",
+    "doi": "10.1371/journal.pone.0178452",
+    "pmid": "28558059",
+    "title": "Multivalent peptidic linker enables identification of preferred sites of conjugation for a potent thialanstatin antibody drug conjugate",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-225432686",
+    "doi": "10.1158/1538-7445.am2020-2907",
+    "pmid": null,
+    "title": "Abstract 2907: Identification and optimization of a novel NAMPT inhibitor-based ADC payload class for cancer therapy",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-278009460",
+    "doi": "10.1158/1538-7445.am2025-1162",
+    "pmid": null,
+    "title": "Abstract 1162: In silico optimized NAMPT inhibitor for targeted delivery by antibody drug conjugates as novel therapeutic modality for treatment of liquid and solid malignancies",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-219265853",
+    "doi": "10.1158/1538-7445.AM2019-983",
+    "pmid": null,
+    "title": "Abstract 983: Antibody-drug conjugates of NAMPT inhibitors: Discovery, optimization, and preclinical characterization",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-231305902",
+    "doi": "10.1021/acs.joc.0c02643",
+    "pmid": "33417458",
+    "title": "Design, Synthesis, and Biological Investigation of Thailanstatin A and Spliceostatin D Analogues Containing Tetrahydropyran, Tetrahydrooxazine, and Fluorinated Structural Motifs.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-255967333",
+    "doi": "10.1186/s13045-022-01397-y",
+    "pmid": "36650546",
+    "title": "Payload diversification: a key step in the development of antibody–drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-290162708",
+    "doi": "10.1021/acsbiomedchemau.6c00047",
+    "pmid": "42631027",
+    "title": "Physicochemical and Metabolic Optimization of NAMPT Inhibitors Enables Effective Antibody–Drug Conjugates for Liquid and Solid Tumors",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-52156208",
+    "doi": "10.1002/anie.201807619",
+    "pmid": "30180286",
+    "title": "Antibody-Drug Conjugates with Pyrrole-Based KSP Inhibitors as the Payload Class.",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-90990075",
+    "doi": "10.1055/S-0035-1556257",
+    "pmid": null,
+    "title": "The process of designing and developing spliceostatin class of splicing inhibitors as payloads for antibody drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-52046185",
+    "doi": "10.1021/acsmedchemlett.8b00254",
+    "pmid": "30128077",
+    "title": "Nicotinamide Phosphoribosyltransferase Inhibitor as a Novel Payload for Antibody–Drug Conjugates",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-19353681",
+    "doi": "10.1016/j.vascn.2011.07.005",
+    "pmid": "21843648",
+    "title": "Antibody drug conjugates - Trojan horses in the war on cancer.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-80466445",
+    "doi": "10.1158/1538-7445.AM2017-46",
+    "pmid": null,
+    "title": "Abstract 46: Preclinical activity of novel antibody-drug conjugates with pyrrole-based kinesin spindle protein inhibitors targeting different tumor antigens",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-28934316",
+    "doi": "10.1021/np300913h",
+    "pmid": "23517093",
+    "title": "Genomics-Guided Discovery of Thailanstatins A, B and C as Pre-mRNA Splicing Inhibitors and Antiproliferative Agents from Burkholderia thailandensis MSMB43",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-273124578",
+    "doi": "10.1126/sciadv.ado7120",
+    "pmid": "39365864",
+    "title": "BCL-XL–targeting antibody-drug conjugates are active in preclinical models and mitigate on-mechanism toxicity of small-molecule inhibitors",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-282269747",
+    "doi": "10.1007/s11912-025-01713-y",
+    "pmid": "41123838",
+    "title": "Chemotherapeutic Drug—Antibody Conjugates (ChemoBodies): Recent Advances and Future Directions",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-79770291",
+    "doi": "10.1158/1538-7445.AM2017-3234",
+    "pmid": null,
+    "title": "Abstract 3234: Development of potent and selective antibody-drug conjugates with pyrrole-based KSP inhibitors as novel payload class",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-79265171",
+    "doi": "10.4264/NUMA.76.1_15",
+    "pmid": null,
+    "title": "Antibody-Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-216072635",
+    "doi": "10.1200/edbk_281107",
+    "pmid": "32315240",
+    "title": "The Resurgence of Antibody Drug Conjugates in Cancer Therapeutics: Novel Targets and Payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-288060587",
+    "doi": "10.1016/j.jmb.2026.169841",
+    "pmid": "42092629",
+    "title": "Molecular Determinants of Response and Rational Drug Combinations for Antibody-Drug Conjugates (ADCs) with Topoisomerase I (TOP1) Inhibitor payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "emerging-families.json",
+    "elicitId": "ss-199076496",
+    "doi": "10.1039/9781788012898-00166",
+    "pmid": null,
+    "title": "CHAPTER 8. Topoisomerase Inhibitors as Antibody–Drug Conjugate (ADC) Payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-274620410",
+    "doi": "10.1158/1538-8514.cancerchem24-ia022",
+    "pmid": null,
+    "title": "Abstract IA022: DYP688, a first-in-class PMEL17-targeted antibody drug conjugate delivering a Gq/11-specific inhibitor for the treatment of metastatic uveal melanoma",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-290146941",
+    "doi": "10.1038/s41591-026-04518-z",
+    "pmid": "42443515",
+    "title": "An anti-PMEL antibody−drug conjugate with a Gq/11 inhibitor payload in GNAQ/GNA11-mutant melanomas: a phase 1 trial",
+    "disposition": "primary-source-used",
+    "existingEntity": "paper-nct05415072-nat-med-2026",
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-287168180",
+    "doi": "10.1158/1538-7445.am2026-4549",
+    "pmid": null,
+    "title": "Abstract 4549: Discovery of HMPL-A580, a first-in-class antibody-targeted therapy conjugate (ATTC) of a novel PI3K/PIKK inhibitor payload linked to an anti-EGFR antibody",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-81846657",
+    "doi": "10.1158/1538-7445.AM2018-736",
+    "pmid": null,
+    "title": "Abstract 736: Pyridinobenzodiazepines (PDDs): A new class of sequence-selective DNA mono-alkylating ADC payloads with low hydrophobicity",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-203888561",
+    "doi": "10.1039/9781788012898-00349",
+    "pmid": null,
+    "title": "CHAPTER 16. Pyridinobenzodiazepines (PDDs) as Sequence-selective DNA Mono-alkylating Antibody–Drug Conjugate (ADC) Payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-278966926",
+    "doi": "10.1200/jco.2025.43.16_suppl.9509",
+    "pmid": null,
+    "title": "A first-in-human study of DYP688, an antibody drug conjugate delivering a direct Gq/11 inhibitor, in patients with metastatic uveal melanoma (MUM) and other GNAQ/11 mutant melanomas.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-277991986",
+    "doi": "10.1158/1538-7445.am2025-1579",
+    "pmid": null,
+    "title": "Abstract 1579: PA289, a prodrug linker-payload with a novel mechanism of action for the development of antibody drug conjugates",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-276956260",
+    "doi": "10.1039/d4md01040j",
+    "pmid": "40352674",
+    "title": "A novel DNA sequence-selective, guanine mono-alkylating ADC payload suitable for solid tumour treatment",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-79265171",
+    "doi": "10.4264/NUMA.76.1_15",
+    "pmid": null,
+    "title": "Antibody-Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-287195820",
+    "doi": "10.1158/1538-7445.am2026-1712",
+    "pmid": null,
+    "title": "Abstract 1712: PA289: A first-in-class prodrug payload with a novel mechanism of action and favorable efficacy/safety profile",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-251696378",
+    "doi": "10.1021/acs.oprd.2c00227",
+    "pmid": null,
+    "title": "Payloads for Antibody–Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-216072635",
+    "doi": "10.1200/edbk_281107",
+    "pmid": "32315240",
+    "title": "The Resurgence of Antibody Drug Conjugates in Cancer Therapeutics: Novel Targets and Payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-287175567",
+    "doi": "10.1158/1538-7445.am2026-4445",
+    "pmid": null,
+    "title": "Abstract 4445: Diverse ADC novel payloads, comprehensive screening and evaluation platform",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-212876783",
+    "doi": "10.1158/1535-7163.TARG-19-C030",
+    "pmid": null,
+    "title": "Abstract C030: A new low potency DNA guanine monoalkylating ADC payload with enhancedin vivotolerability",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-8387881",
+    "doi": "10.1111/nyas.12499",
+    "pmid": "25123209",
+    "title": "Antibody–drug conjugates: an emerging modality for the treatment of cancer",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-3676204",
+    "doi": "10.1007/978-1-62703-541-5",
+    "pmid": null,
+    "title": "Antibody-Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-253231661",
+    "doi": "10.1016/j.ejmech.2022.114863",
+    "pmid": "36334452",
+    "title": "The first ADC bearing the ferroptosis inducer RSL3 as a payload with conservation of the fragile electrophilic warhead.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-249730799",
+    "doi": "10.1158/1538-7445.am2022-1749",
+    "pmid": null,
+    "title": "Abstract 1749: A new class of DNA sequence-selective G-A cross-linking antibody-drug conjugate (ADC) payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-271481670",
+    "doi": "10.1016/j.ejmech.2024.116709",
+    "pmid": "39068862",
+    "title": "Antibody-drug conjugates for targeted cancer therapy: Recent advances in potential payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "expanded-frontier.json",
+    "elicitId": "ss-277987004",
+    "doi": "10.1158/1538-7445.am2025-6739",
+    "pmid": null,
+    "title": "Abstract 6739: Antibody-drug conjugates with novel payloads are enabled by an ultra-high DAR platform",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-259777474",
+    "doi": "10.1158/1538-7445.am2023-1542",
+    "pmid": null,
+    "title": "Abstract 1542: Generation of an antibody-drug conjugate-optimized TLR 7/8 agonist payload",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-264894440",
+    "doi": "10.1136/jitc-2023-sitc2023.1114",
+    "pmid": null,
+    "title": "1114 Targeted delivery of a potent STING agonist payload via an antibody drug conjugate drives robust antitumor activity in preclinical models",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-271922405",
+    "doi": "10.1021/acs.jmedchem.4c01384",
+    "pmid": "39172064",
+    "title": "Design and Optimization of Selectivity-Tunable Toll-like Receptor 7/8 Agonists as Novel Antibody-Drug Conjugate Payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-282570528",
+    "doi": "10.1158/1535-7163.MCT-25-0108",
+    "pmid": "41159384",
+    "title": "Targeted Delivery of a Potent STING Agonist Payload via an Antibody–Drug Conjugate Drives Robust Antitumor Activity in Preclinical Models",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-272426035",
+    "doi": "10.1021/acs.jmedchem.4c00804",
+    "pmid": "39235949",
+    "title": "Discovery and Evaluation of TLR-Targeted Immune Agonists.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-274913190",
+    "doi": "10.1021/acsmedchemlett.4c00463",
+    "pmid": "39811121",
+    "title": "Structure-Based Design of Novel TLR7/8 Agonist Payloads Enabling an Immunomodulatory Conjugate Approach.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-255967333",
+    "doi": "10.1186/s13045-022-01397-y",
+    "pmid": "36650546",
+    "title": "Payload diversification: a key step in the development of antibody–drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-277984402",
+    "doi": "10.1158/1538-7445.am2025-6754",
+    "pmid": null,
+    "title": "Abstract 6754: A payload screening and ADC evaluation platform for STING agonist antibody drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-287175567",
+    "doi": "10.1158/1538-7445.am2026-4445",
+    "pmid": null,
+    "title": "Abstract 4445: Diverse ADC novel payloads, comprehensive screening and evaluation platform",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-231954518",
+    "doi": "10.1021/acs.jmedchem.0c01845",
+    "pmid": "33596065",
+    "title": "Antibody-Mediated Delivery of Chimeric BRD4 Degraders. Part 1: Exploration of Antibody Linker, Payload Loading, and Payload Molecular Properties.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-278452670",
+    "doi": "10.1016/j.tips.2025.04.002",
+    "pmid": "40345868",
+    "title": "Molecular glue meets antibody: next-generation antibody-drug conjugates.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-265293926",
+    "doi": "10.1016/bs.pmch.2023.10.001",
+    "pmid": "37981349",
+    "title": "Antibody drug conjugates beyond cytotoxic payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-264906689",
+    "doi": "10.1136/jitc-2023-sitc2023.1161",
+    "pmid": null,
+    "title": "1161 Development of TLR7- and STING-conjugatable agonists for immunostimulatory ADC-based cancer therapies",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-256022655",
+    "doi": "10.3390/molecules28030917",
+    "pmid": "36770585",
+    "title": "Site-Specific Antibody Conjugation with Payloads beyond Cytotoxins",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-272401479",
+    "doi": "10.1021/acs.jmedchem.4c01289",
+    "pmid": "39231796",
+    "title": "The New Frontier: Merging Molecular Glue Degrader and Antibody-Drug Conjugate Modalities To Overcome Strategic Challenges.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-237747872",
+    "doi": "10.1158/1538-7445.AM2021-1738",
+    "pmid": null,
+    "title": "Abstract 1738: XMT-2056, a well-tolerated, Immunosynthen-based STING-agonist antibody-drug conjugate which induces anti-tumor immune activity",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-257567217",
+    "doi": "10.2139/ssrn.4379817",
+    "pmid": "37217025",
+    "title": "Generation and structure-activity relationships of novel imidazo-thienopyridine based TLR7 agonists: application as payloads for immunostimulatory antibody drug-conjugates.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-249716544",
+    "doi": "10.1158/1538-7445.am2022-5616",
+    "pmid": null,
+    "title": "Abstract 5616: Tumor-targeted immune activation via a site-specific TLR7-agonist antibody-drug conjugate",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-257965097",
+    "doi": "10.1158/1538-7445.am2023-2640",
+    "pmid": null,
+    "title": "Abstract 2640: An innovative site-specific dual-payload antibody drug conjugate (dpADC) combining a novel Topo1 inhibitor and an immune agonist delivers a strong immunogenic cell death (ICD) and antitumor response in vitro and in vivo",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-251651157",
+    "doi": "10.31083/j.fbl2708240",
+    "pmid": "36042167",
+    "title": "More than Toxins-Current Prospects in Designing the Next Generation of Antibody Drug Conjugates.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-259716698",
+    "doi": "10.1016/j.apsb.2023.06.015",
+    "pmid": "37799390",
+    "title": "Antibody–drug conjugates: Recent advances in payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-271481670",
+    "doi": "10.1016/j.ejmech.2024.116709",
+    "pmid": "39068862",
+    "title": "Antibody-drug conjugates for targeted cancer therapy: Recent advances in potential payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-248513978",
+    "doi": "10.1039/d2cs00141a",
+    "pmid": "35506708",
+    "title": "Degrader-antibody conjugates.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-225394703",
+    "doi": "10.1158/1538-7445.am2020-6706",
+    "pmid": null,
+    "title": "Abstract 6706: Systemic administration of STING agonist antibody-drug conjugates elicit potent anti-tumor immune responses with minimal induction of circulating cytokines",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "immune-ddr-degrader.json",
+    "elicitId": "ss-278884564",
+    "doi": "10.1021/acs.jmedchem.5c00264",
+    "pmid": "40411528",
+    "title": "Discovery and Characterization of a First-in-Class LIV1-TLR7/8 Immunomodulatory Conjugate with Robust Myeloid Activation and Antitumor Activity",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-52313689",
+    "doi": "10.1158/1535-7163.MCT-18-0643",
+    "pmid": "30242091",
+    "title": "Targeted Delivery of Cytotoxic NAMPT Inhibitors Using Antibody–Drug Conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-52046185",
+    "doi": "10.1021/acsmedchemlett.8b00254",
+    "pmid": "30128077",
+    "title": "Nicotinamide Phosphoribosyltransferase Inhibitor as a Novel Payload for Antibody–Drug Conjugates",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-225434003",
+    "doi": "10.1158/1538-7445.am2020-1807",
+    "pmid": null,
+    "title": "Abstract 1807: Anti-tumor activity of a novel structural class of NAMPT inhibitor-based ADCs in models of hematologic and solid tumor indications",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-81962760",
+    "doi": "10.1158/1538-7445.AM2018-930",
+    "pmid": null,
+    "title": "Abstract 930: Targeted delivery of cytotoxic NAMPT inhibitors using antibody-drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-278009460",
+    "doi": "10.1158/1538-7445.am2025-1162",
+    "pmid": null,
+    "title": "Abstract 1162: In silico optimized NAMPT inhibitor for targeted delivery by antibody drug conjugates as novel therapeutic modality for treatment of liquid and solid malignancies",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-225432686",
+    "doi": "10.1158/1538-7445.am2020-2907",
+    "pmid": null,
+    "title": "Abstract 2907: Identification and optimization of a novel NAMPT inhibitor-based ADC payload class for cancer therapy",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-249350301",
+    "doi": "10.1021/acs.bioconjchem.2c00178",
+    "pmid": "35658441",
+    "title": "A Novel NAMPT Inhibitor-Based Antibody–Drug Conjugate Payload Class for Cancer Therapy",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-219265853",
+    "doi": "10.1158/1538-7445.AM2019-983",
+    "pmid": null,
+    "title": "Abstract 983: Antibody-drug conjugates of NAMPT inhibitors: Discovery, optimization, and preclinical characterization",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-80361116",
+    "doi": "10.1093/annonc/mdy046.019",
+    "pmid": null,
+    "title": "38INKinesin spindle protein inhibitors as novel payload class for ADCs",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-285664281",
+    "doi": "10.1016/j.ejmech.2026.118691",
+    "pmid": "41707282",
+    "title": "GD2-directed NAMPT inhibition using antibody-drug conjugates in neuroblastoma.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-290162708",
+    "doi": "10.1021/acsbiomedchemau.6c00047",
+    "pmid": "42631027",
+    "title": "Physicochemical and Metabolic Optimization of NAMPT Inhibitors Enables Effective Antibody–Drug Conjugates for Liquid and Solid Tumors",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-80466445",
+    "doi": "10.1158/1538-7445.AM2017-46",
+    "pmid": null,
+    "title": "Abstract 46: Preclinical activity of novel antibody-drug conjugates with pyrrole-based kinesin spindle protein inhibitors targeting different tumor antigens",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-106390906",
+    "doi": "10.1002/ANGE.201807619",
+    "pmid": null,
+    "title": "Antikörper‐Wirkstoff‐Konjugate mit Pyrrol‐basierten KSP‐Inhibitoren als Payload‐Klasse",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-79770291",
+    "doi": "10.1158/1538-7445.AM2017-3234",
+    "pmid": null,
+    "title": "Abstract 3234: Development of potent and selective antibody-drug conjugates with pyrrole-based KSP inhibitors as novel payload class",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-198300344",
+    "doi": "10.1158/1538-7445.SABCS18-4825",
+    "pmid": null,
+    "title": "Abstract 4825: Preclinical characterization of BAY-924, a first in class ADC targeting CXCR5-positive B-cell malignancies, with a KSP inhibitor as novel payload",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-255967333",
+    "doi": "10.1186/s13045-022-01397-y",
+    "pmid": "36650546",
+    "title": "Payload diversification: a key step in the development of antibody–drug conjugates",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-52156208",
+    "doi": "10.1002/anie.201807619",
+    "pmid": "30180286",
+    "title": "Antibody-Drug Conjugates with Pyrrole-Based KSP Inhibitors as the Payload Class.",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-246723929",
+    "doi": "10.1080/2162402X.2022.2037216",
+    "pmid": "35154909",
+    "title": "Antibody–drug conjugates harboring a kinesin spindle protein inhibitor with immunostimulatory properties",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-237518461",
+    "doi": "10.1101/2021.09.13.460066",
+    "pmid": null,
+    "title": "Addressing Enzymatic-Independent Tumor-Promoting Function of NAMPT via PROTAC-Mediated Degradation",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-207365400",
+    "doi": "10.1016/j.pharmthera.2015.02.004",
+    "pmid": "25709099",
+    "title": "Inhibition of nicotinamide phosphoribosyltransferase (NAMPT) as a therapeutic strategy in cancer.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-259355855",
+    "doi": "10.1016/j.ejmech.2023.115607",
+    "pmid": "37413882",
+    "title": "Recent advances of targeting nicotinamide phosphoribosyltransferase (NAMPT) for cancer drug discovery.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-88947101",
+    "doi": "10.1158/1538-7445.AM2016-2973",
+    "pmid": null,
+    "title": "Abstract 2973: CD269 - A promising target for amanitin based ADCs",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-273124578",
+    "doi": "10.1126/sciadv.ado7120",
+    "pmid": "39365864",
+    "title": "BCL-XL–targeting antibody-drug conjugates are active in preclinical models and mitigate on-mechanism toxicity of small-molecule inhibitors",
+    "disposition": "primary-source-used",
+    "existingEntity": null,
+    "reason": "Resolved primary abstract supports a concept."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-283917361",
+    "doi": "10.1080/10428194.2025.2571199",
+    "pmid": "41401031",
+    "title": "NAMPT inhibition uncovers therapeutic vulnerabilities to venetoclax and chemotherapy in acute myelogenous leukemia",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-253268152",
+    "doi": "10.1016/j.chembiol.2022.10.007",
+    "pmid": "36323324",
+    "title": "Addressing the Enzyme-independent tumor-promoting function of NAMPT via PROTAC-mediated degradation.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-199076496",
+    "doi": "10.1039/9781788012898-00166",
+    "pmid": null,
+    "title": "CHAPTER 8. Topoisomerase Inhibitors as Antibody–Drug Conjugate (ADC) Payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-216072635",
+    "doi": "10.1200/edbk_281107",
+    "pmid": "32315240",
+    "title": "The Resurgence of Antibody Drug Conjugates in Cancer Therapeutics: Novel Targets and Payloads.",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-203897406",
+    "doi": "10.1039/9781788012898-00364",
+    "pmid": null,
+    "title": "CHAPTER 17. Splicing Inhibitors as Antibody–Drug Conjugate (ADC) Payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-199073451",
+    "doi": "10.1039/9781788012898-00461",
+    "pmid": null,
+    "title": "CHAPTER 22. The Future of Antibody–Drug Conjugate (ADC) Payloads",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  },
+  {
+    "query": "mechanisms.json",
+    "elicitId": "ss-289548704",
+    "doi": "10.1172/JCI200438",
+    "pmid": "42348027",
+    "title": "Genotoxic antibody-drug conjugates combined with BCL-XL inhibitors enhance therapeutic efficacy in metastatic castration-resistant prostate cancer",
+    "disposition": "discovery-only-not-used",
+    "existingEntity": null,
+    "reason": "Not used to support new facts. Reviews, standalone-drug studies and separate-drug combinations do not by themselves establish an attached payload."
+  }
+]

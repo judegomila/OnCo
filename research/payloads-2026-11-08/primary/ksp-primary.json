@@ -1,0 +1,435 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:30180286 AND SRC:MED",
+    "internalQuery": "EXT_ID:30180286 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30180286",
+        "source": "MED",
+        "pmid": "30180286",
+        "doi": "10.1002/anie.201807619",
+        "title": "Antibody-Drug Conjugates with Pyrrole-Based KSP Inhibitors as the Payload Class.",
+        "authorString": "Lerchen HG, Wittrock S, Stelte-Ludwig B, Sommer A, Berndt S, Griebenow N, Rebstock AS, Johannes S, Cancho-Grande Y, Mahlert C, Greven S, Terjung C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Lerchen HG",
+              "lastName": "Lerchen",
+              "firstName": "Hans-Georg",
+              "initials": "HG",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8746-9554"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wittrock S",
+              "lastName": "Wittrock",
+              "firstName": "Sven",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Berlin, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Stelte-Ludwig B",
+              "lastName": "Stelte-Ludwig",
+              "firstName": "Beatrix",
+              "initials": "B",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sommer A",
+              "lastName": "Sommer",
+              "firstName": "Anette",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1576-3110"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Berlin, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Berndt S",
+              "lastName": "Berndt",
+              "firstName": "Sandra",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Berlin, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Griebenow N",
+              "lastName": "Griebenow",
+              "firstName": "Nils",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG Animal Health, Lead Discovery, Monheim, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rebstock AS",
+              "lastName": "Rebstock",
+              "firstName": "Anne-Sophie",
+              "initials": "AS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG Crop Science, Lyon, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Johannes S",
+              "lastName": "Johannes",
+              "firstName": "Sarah",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cancho-Grande Y",
+              "lastName": "Cancho-Grande",
+              "firstName": "Yolanda",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mahlert C",
+              "lastName": "Mahlert",
+              "firstName": "Christoph",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Greven S",
+              "lastName": "Greven",
+              "firstName": "Simone",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Terjung C",
+              "lastName": "Terjung",
+              "firstName": "Carsten",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8746-9554"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1576-3110"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "46",
+          "volume": "57",
+          "journalIssueId": 2746025,
+          "dateOfPublication": "2018 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Angew Chem Int Ed Engl",
+            "title": "Angewandte Chemie (International ed. in English)",
+            "essn": "1521-3773",
+            "issn": "1433-7851",
+            "nlmid": "0370543",
+            "isoabbreviation": "Angew Chem Int Ed Engl"
+          },
+          "printPublicationDate": "2018-11-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "15243-15247",
+        "affiliation": "Bayer AG R&D Pharmaceuticals, Aprather Weg 18a, 42113, Wuppertal, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrroles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Discovery"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Kinesins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cytotoxicity",
+            "Cancer",
+            "drug discovery",
+            "Bioconjugate",
+            "Adc"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pyrroles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "KIF11 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Kinesins",
+              "registryNumber": "EC 3.6.4.4"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1002/anie.201807619"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 29,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2019-09-02",
+        "dateOfCreation": "2018-09-05",
+        "dateOfRevision": "2021-12-04",
+        "electronicPublicationDate": "2018-10-15",
+        "firstPublicationDate": "2018-10-15",
+        "firstIndexDate": "2018-09-05",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "a3c445acc6d076b213b5fba72a793963ca7220db989846de698ae5ee849287cd",
+          "characters": 985
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "d46f8385ac408e686bd0f5fc59f4a96dcc3279d606e2378cea4e9dd1d146d79d",
+    "sourceBytes": 7820,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

@@ -1,0 +1,3079 @@
+{
+  "version": "6.9",
+  "hitCount": 10,
+  "nextCursorMark": "AoIIPwmMqigzNDU1ODI0Ng==",
+  "nextPageUrl": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Targeting+uPAR%22+AND+SRC%3AMED&cursorMark=AoIIPwmMqigzNDU1ODI0Ng%3D%3D&resultType=core&pageSize=8&format=json",
+  "request": {
+    "queryString": "TITLE:\"Targeting uPAR\" AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42104881",
+        "source": "MED",
+        "pmid": "42104881",
+        "doi": "10.1158/2159-8290.cd-rw2026-048",
+        "title": "Targeting uPAR-Positive Tumor and Stroma Enhances CAR T-Cell Efficacy.",
+        "journalInfo": {
+          "issue": "6",
+          "volume": "16",
+          "journalIssueId": 4203634,
+          "dateOfPublication": "2026 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Cancer Discov",
+            "title": "Cancer discovery",
+            "essn": "2159-8290",
+            "issn": "2159-8274",
+            "nlmid": "101561693",
+            "isoabbreviation": "Cancer Discov"
+          },
+          "printPublicationDate": "2026-06-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "OF1",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/2159-8290.CD-RW2026-048"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 0,
+        "hasReferences": "N",
+        "hasTextMinedTerms": "N",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2026-05-09",
+        "dateOfRevision": "2026-06-01",
+        "firstPublicationDate": "2026-06-01",
+        "firstIndexDate": "2026-05-13",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "39823326",
+        "source": "MED",
+        "pmid": "39823326",
+        "pmcid": "PMC11740940",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11740940"
+          ]
+        },
+        "doi": "10.1126/sciadv.adq0513",
+        "title": "Targeting uPAR with an antibody-drug conjugate suppresses tumor growth and reshapes the immune landscape in pancreatic cancer models.",
+        "authorString": "Metrangolo V, Blomquist MH, Dutta A, Gårdsvoll H, Krigslund O, Nørregaard KS, Jürgensen HJ, Ploug M, Flick MJ, Behrendt N, Engelholm LH.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Metrangolo V",
+              "lastName": "Metrangolo",
+              "firstName": "Virginia",
+              "initials": "V",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1479-8581"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  },
+                  {
+                    "affiliation": "Biotech Research & Innovation Centre (BRIC), Faculty of Health and Medical Sciences, University of Copenhagen, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Blomquist MH",
+              "lastName": "Blomquist",
+              "firstName": "Michaela Hansen",
+              "initials": "MH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-6834-6743"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dutta A",
+              "lastName": "Dutta",
+              "firstName": "Ananya",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8287-8970"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, Duke University, Durham, NC 27710, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gårdsvoll H",
+              "lastName": "Gårdsvoll",
+              "firstName": "Henrik",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0691-3567"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Krigslund O",
+              "lastName": "Krigslund",
+              "firstName": "Oliver",
+              "initials": "O",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4032-0426"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Nørregaard KS",
+              "lastName": "Nørregaard",
+              "firstName": "Kirstine Sandal",
+              "initials": "KS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1299-0991"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jürgensen HJ",
+              "lastName": "Jürgensen",
+              "firstName": "Henrik Jessen",
+              "initials": "HJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4405-2307"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ploug M",
+              "lastName": "Ploug",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-2215-4265"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  },
+                  {
+                    "affiliation": "Biotech Research & Innovation Centre (BRIC), Faculty of Health and Medical Sciences, University of Copenhagen, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Flick MJ",
+              "lastName": "Flick",
+              "firstName": "Matthew J",
+              "initials": "MJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5034-3162"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine and the UNC Blood Research Center, University of North Carolina, Chapel Hill, NC 27599, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Behrendt N",
+              "lastName": "Behrendt",
+              "firstName": "Niels",
+              "initials": "N",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1833-3922"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  },
+                  {
+                    "affiliation": "Biotech Research & Innovation Centre (BRIC), Faculty of Health and Medical Sciences, University of Copenhagen, DK-2200 Copenhagen, Denmark."
+                  },
+                  {
+                    "affiliation": "Department of Clinical Medicine, Faculty of Health and Medical Sciences, University of Copenhagen, GK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Engelholm LH",
+              "lastName": "Engelholm",
+              "firstName": "Lars H",
+              "initials": "LH",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6616-1232"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark."
+                  },
+                  {
+                    "affiliation": "Biotech Research & Innovation Centre (BRIC), Faculty of Health and Medical Sciences, University of Copenhagen, DK-2200 Copenhagen, Denmark."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-6834-6743"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1299-0991"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1479-8581"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4032-0426"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5034-3162"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6616-1232"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8287-8970"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0691-3567"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1833-3922"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-2215-4265"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4405-2307"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "11",
+          "journalIssueId": 3887864,
+          "dateOfPublication": "2025 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "Sci Adv",
+            "title": "Science advances",
+            "essn": "2375-2548",
+            "issn": "2375-2548",
+            "nlmid": "101653440",
+            "isoabbreviation": "Sci Adv"
+          },
+          "printPublicationDate": "2025-01-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "eadq0513",
+        "affiliation": "The Finsen Laboratory, Rigshospitalet, DK-2200 Copenhagen, Denmark.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "U01 HL143403",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "U01 CA274304",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Carcinoma, Pancreatic Ductal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Pancreatic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Receptors, Urokinase Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Urokinase Plasminogen Activator",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/sciadv.adq0513"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11740940"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11740940?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 15,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "uniprot"
+          ]
+        },
+        "dateOfCompletion": "2025-05-01",
+        "dateOfCreation": "2025-01-17",
+        "dateOfRevision": "2026-10-24",
+        "electronicPublicationDate": "2025-01-17",
+        "firstPublicationDate": "2025-01-17",
+        "firstIndexDate": "2025-01-18",
+        "fullTextReceivedDate": "2025-01-21",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "2290de862dc47ac525095ef8d981b63cddf04d50ed078cbb32cad1f2b6d79820",
+          "characters": 1229
+        }
+      },
+      {
+        "id": "37876962",
+        "source": "MED",
+        "pmid": "37876962",
+        "pmcid": "PMC10593477",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC10593477"
+          ]
+        },
+        "doi": "10.3389/fonc.2023.1194972",
+        "title": "Human antibody V<sub>H</sub> domains targeting uPAR as candidate therapeutics for cancers.",
+        "authorString": "Chu X, Li W, Hines MG, Lyakhov I, Mellors JW, Dimitrov DS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Chu X",
+              "lastName": "Chu",
+              "firstName": "Xiaojie",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2745-004X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Antibody Therapeutics, Division of Infectious Diseases, Department of Medicine, University of Pittsburgh Medical School, Pittsburgh, PA, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li W",
+              "lastName": "Li",
+              "firstName": "Wei",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Antibody Therapeutics, Division of Infectious Diseases, Department of Medicine, University of Pittsburgh Medical School, Pittsburgh, PA, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hines MG",
+              "lastName": "Hines",
+              "firstName": "Margaret G",
+              "initials": "MG",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Antibody Therapeutics, Division of Infectious Diseases, Department of Medicine, University of Pittsburgh Medical School, Pittsburgh, PA, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lyakhov I",
+              "lastName": "Lyakhov",
+              "firstName": "Ilya",
+              "initials": "I",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Comp IL, LLC, Carnegie, PA, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mellors JW",
+              "lastName": "Mellors",
+              "firstName": "John W",
+              "initials": "JW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Antibody Therapeutics, Division of Infectious Diseases, Department of Medicine, University of Pittsburgh Medical School, Pittsburgh, PA, United States."
+                  },
+                  {
+                    "affiliation": "Abound Bio, Pittsburgh, PA, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dimitrov DS",
+              "lastName": "Dimitrov",
+              "firstName": "Dimiter S",
+              "initials": "DS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Center for Antibody Therapeutics, Division of Infectious Diseases, Department of Medicine, University of Pittsburgh Medical School, Pittsburgh, PA, United States."
+                  },
+                  {
+                    "affiliation": "Abound Bio, Pittsburgh, PA, United States."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2745-004X"
+            }
+          ]
+        },
+        "journalInfo": {
+          "volume": "13",
+          "journalIssueId": 3497087,
+          "dateOfPublication": "2023 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2023,
+          "journal": {
+            "medlineAbbreviation": "Front Oncol",
+            "title": "Frontiers in oncology",
+            "essn": "2234-943X",
+            "issn": "2234-943X",
+            "nlmid": "101568867",
+            "isoabbreviation": "Front Oncol"
+          },
+          "printPublicationDate": "2023-01-01"
+        },
+        "pubYear": "2023",
+        "pageInfo": "1194972",
+        "affiliation": "Center for Antibody Therapeutics, Division of Infectious Diseases, Department of Medicine, University of Pittsburgh Medical School, Pittsburgh, PA, United States.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "brief-report",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cancer",
+            "Therapeutic antibody",
+            "Vh Domain",
+            "Dbte (Domain Based Bispecific T Cell Engager)",
+            "Human Upar"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fonc.2023.1194972"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10593477"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC10593477?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 7,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "N",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCreation": "2023-10-25",
+        "dateOfRevision": "2023-10-26",
+        "electronicPublicationDate": "2023-10-09",
+        "firstPublicationDate": "2023-10-09",
+        "firstIndexDate": "2023-10-25",
+        "fullTextReceivedDate": "2023-10-26",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "d42e6ae127811869e4cc06ee5a71ce41848e30ec80a60d40f4952530e26e5965",
+          "characters": 717
+        }
+      },
+      {
+        "id": "35613265",
+        "source": "MED",
+        "pmid": "35613265",
+        "pmcid": "PMC9132454",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9132454"
+          ]
+        },
+        "doi": "10.1126/sciadv.abn3774",
+        "title": "Therapeutic strategies targeting uPAR potentiate anti-PD-1 efficacy in diffuse-type gastric cancer.",
+        "authorString": "Qin L, Wang L, Zhang J, Zhou H, Yang Z, Wang Y, Cai W, Wen F, Jiang X, Jiang X, Zhang T, Ye H, Long B, Qin J, Shi W, Guan X, Yu Z, Yang J, Wang Q, Jiao Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Qin L",
+              "lastName": "Qin",
+              "firstName": "Long",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9995-7176"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cuiying Biomedical Research Center, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang L",
+              "lastName": "Wang",
+              "firstName": "Long",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4200-6710"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang J",
+              "lastName": "Zhang",
+              "firstName": "Junchang",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5110-9546"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhou H",
+              "lastName": "Zhou",
+              "firstName": "Huinian",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-0727-463X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang Z",
+              "lastName": "Yang",
+              "firstName": "Zhiliang",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lanzhou Huazhitiancheng Biotechnologies Co., Ltd, Lanzhou, Gansu 730000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Y",
+              "lastName": "Wang",
+              "firstName": "Yan",
+              "initials": "Y",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8345-2819"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lanzhou Huazhitiancheng Biotechnologies Co., Ltd, Lanzhou, Gansu 730000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cai W",
+              "lastName": "Cai",
+              "firstName": "Weiwen",
+              "initials": "W",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wen F",
+              "lastName": "Wen",
+              "firstName": "Fei",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang X",
+              "lastName": "Jiang",
+              "firstName": "Xiangyan",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2685-2899"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang X",
+              "lastName": "Jiang",
+              "firstName": "Xiangyan",
+              "initials": "X",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0006-1950-9271"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang T",
+              "lastName": "Zhang",
+              "firstName": "Tiansheng",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lanzhou Huazhitiancheng Biotechnologies Co., Ltd, Lanzhou, Gansu 730000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ye H",
+              "lastName": "Ye",
+              "firstName": "Huili",
+              "initials": "H",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1994-2327"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cuiying Biomedical Research Center, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Long B",
+              "lastName": "Long",
+              "firstName": "Bo",
+              "initials": "B",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5632-5125"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qin J",
+              "lastName": "Qin",
+              "firstName": "Junjie",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cuiying Biomedical Research Center, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi W",
+              "lastName": "Shi",
+              "firstName": "Wengui",
+              "initials": "W",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1039-3576"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cuiying Biomedical Research Center, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Guan X",
+              "lastName": "Guan",
+              "firstName": "Xiaoying",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yu Z",
+              "lastName": "Yu",
+              "firstName": "Zeyuan",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang J",
+              "lastName": "Yang",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5414-2141"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cuiying Biomedical Research Center, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang Q",
+              "lastName": "Wang",
+              "firstName": "Qi",
+              "initials": "Q",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8898-8508"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lanzhou Huazhitiancheng Biotechnologies Co., Ltd, Lanzhou, Gansu 730000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiao Z",
+              "lastName": "Jiao",
+              "firstName": "Zuoyi",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1942-0905"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Cuiying Biomedical Research Center, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  },
+                  {
+                    "affiliation": "Department of General Surgery, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5414-2141"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8345-2819"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8898-8508"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9995-7176"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1994-2327"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2685-2899"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5110-9546"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5632-5125"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-0727-463X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1039-3576"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1942-0905"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4200-6710"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0004-6977-6349"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0006-1950-9271"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "21",
+          "volume": "8",
+          "journalIssueId": 3363698,
+          "dateOfPublication": "2022 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "Sci Adv",
+            "title": "Science advances",
+            "essn": "2375-2548",
+            "issn": "2375-2548",
+            "nlmid": "101653440",
+            "isoabbreviation": "Sci Adv"
+          },
+          "printPublicationDate": "2022-05-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "eabn3774",
+        "affiliation": "Cuiying Biomedical Research Center, Lanzhou University Second Hospital, Lanzhou, Gansu 730030, China.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Stomach Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Urokinase-Type Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Receptors, Urokinase Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Programmed Cell Death 1 Receptor",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents, Immunological",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Urokinase-Type Plasminogen Activator",
+              "registryNumber": "EC 3.4.21.73"
+            },
+            {
+              "name": "Receptors, Urokinase Plasminogen Activator",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Programmed Cell Death 1 Receptor",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antineoplastic Agents, Immunological",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.science.org/doi/pdf/10.1126/sciadv.abn3774?download=true"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1126/sciadv.abn3774"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9132454"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9132454?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 35,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2022-05-27",
+        "dateOfCreation": "2022-05-25",
+        "dateOfRevision": "2023-02-06",
+        "electronicPublicationDate": "2022-05-25",
+        "firstPublicationDate": "2022-05-25",
+        "firstIndexDate": "2022-05-26",
+        "fullTextReceivedDate": "2022-06-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "64e05d4fcccbd9e44566452fbb458d112c765abf4fff881a9ec7dee5dbfaf17b",
+          "characters": 1075
+        }
+      },
+      {
+        "id": "34408417",
+        "source": "MED",
+        "pmid": "34408417",
+        "pmcid": "PMC8367088",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC8367088"
+          ]
+        },
+        "doi": "10.2147/ijn.s315619",
+        "title": "Development of AE147 Peptide-Conjugated Nanocarriers for Targeting uPAR-Overexpressing Cancer Cells.",
+        "authorString": "Park JY, Shin Y, Won WR, Lim C, Kim JC, Kang K, Husni P, Lee ES, Youn YS, Oh KT.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Park JY",
+              "lastName": "Park",
+              "firstName": "June Yong",
+              "initials": "JY",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shin Y",
+              "lastName": "Shin",
+              "firstName": "Yuseon",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Won WR",
+              "lastName": "Won",
+              "firstName": "Woong Roeck",
+              "initials": "WR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lim C",
+              "lastName": "Lim",
+              "firstName": "Chaemin",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  },
+                  {
+                    "affiliation": "Center for Nanotechnology in Drug Delivery and Division of Molecular Pharmaceutics, Eshelman School of Pharmacy, University of North Carolina at Chapel Hill, Chapel Hill, NC, 27599, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kim JC",
+              "lastName": "Kim",
+              "firstName": "Jae Chang",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kang K",
+              "lastName": "Kang",
+              "firstName": "Kioh",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Husni P",
+              "lastName": "Husni",
+              "firstName": "Patihul",
+              "initials": "P",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8448-0491"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lee ES",
+              "lastName": "Lee",
+              "firstName": "Eun Seong",
+              "initials": "ES",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Biotechnology, The Catholic University of Korea, Bucheon, Gyeonggi-do, 14662, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Youn YS",
+              "lastName": "Youn",
+              "firstName": "Yu Seok",
+              "initials": "YS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9099-9230"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Sungkyunkwan University, Suwon, Gyeonggi-do, 16419, Republic of Korea."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Oh KT",
+              "lastName": "Oh",
+              "firstName": "Kyung Taek",
+              "initials": "KT",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4379-7238"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  },
+                  {
+                    "affiliation": "College of Pharmacy, Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8448-0491"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9099-9230"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4379-7238"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "16",
+          "journalIssueId": 3092260,
+          "dateOfPublication": "2021 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Int J Nanomedicine",
+            "title": "International journal of nanomedicine",
+            "essn": "1178-2013",
+            "issn": "1176-9114",
+            "nlmid": "101263847",
+            "isoabbreviation": "Int J Nanomedicine"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "5437-5449",
+        "affiliation": "Department of Global Innovative Drugs, The Graduate School of Chung-Ang University, Dongjak-gu, Seoul, 06974, Republic of Korea.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Neoplasms"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peptides"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Signal Transduction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Distribution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Urokinase-Type Plasminogen Activator"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Receptors, Urokinase Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Liposome",
+            "Urokinase-type plasminogen activator",
+            "metastatic tumor",
+            "Circulating Tumor Cell",
+            "Tumor-targeting Ligand"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Peptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Urokinase-Type Plasminogen Activator",
+              "registryNumber": "EC 3.4.21.73"
+            },
+            {
+              "name": "Receptors, Urokinase Plasminogen Activator",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.2147/IJN.S315619"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8367088"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8367088?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 18,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-11-24",
+        "dateOfCreation": "2021-08-19",
+        "dateOfRevision": "2022-04-25",
+        "electronicPublicationDate": "2021-08-12",
+        "firstPublicationDate": "2021-08-12",
+        "firstIndexDate": "2021-08-20",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "644772f18dabaee6a82ac5181dbd448cd95421c99413fbe6b0040e2da05338b6",
+          "characters": 1387
+        }
+      },
+      {
+        "id": "30873379",
+        "source": "MED",
+        "pmid": "30873379",
+        "pmcid": "PMC6400983",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6400983"
+          ]
+        },
+        "doi": "10.3389/fonc.2019.00080",
+        "title": "Targeting uPAR by CRISPR/Cas9 System Attenuates Cancer Malignancy and Multidrug Resistance.",
+        "authorString": "Wang K, Xing ZH, Jiang QW, Yang Y, Huang JR, Yuan ML, Wei MN, Li Y, Wang ST, Liu K, Shi Z.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang K",
+              "lastName": "Wang",
+              "firstName": "Kun",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xing ZH",
+              "lastName": "Xing",
+              "firstName": "Zi-Hao",
+              "initials": "ZH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Jiang QW",
+              "lastName": "Jiang",
+              "firstName": "Qi-Wei",
+              "initials": "QW",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yang Y",
+              "lastName": "Yang",
+              "firstName": "Yang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huang JR",
+              "lastName": "Huang",
+              "firstName": "Jia-Rong",
+              "initials": "JR",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yuan ML",
+              "lastName": "Yuan",
+              "firstName": "Meng-Ling",
+              "initials": "ML",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei MN",
+              "lastName": "Wei",
+              "firstName": "Meng-Ning",
+              "initials": "MN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Li Y",
+              "lastName": "Li",
+              "firstName": "Yao",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wang ST",
+              "lastName": "Wang",
+              "firstName": "Sheng-Te",
+              "initials": "ST",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Liu K",
+              "lastName": "Liu",
+              "firstName": "Kun",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shi Z",
+              "lastName": "Shi",
+              "firstName": "Zhi",
+              "initials": "Z",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8328-0305"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8328-0305"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "volume": "9",
+          "journalIssueId": 2778731,
+          "dateOfPublication": "2019 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2019,
+          "journal": {
+            "medlineAbbreviation": "Front Oncol",
+            "title": "Frontiers in oncology",
+            "essn": "2234-943X",
+            "issn": "2234-943X",
+            "nlmid": "101568867",
+            "isoabbreviation": "Front Oncol"
+          },
+          "printPublicationDate": "2019-01-01"
+        },
+        "pubYear": "2019",
+        "pageInfo": "80",
+        "affiliation": "Guangdong Provincial Key Laboratory of Bioengineering Medicine, Department of Cell Biology and Institute of Biomedicine, College of Life Science and Technology, Jinan University, National Engineering Research Center of Genetic Medicine, Guangzhou, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Drug resistance",
+            "Cancer",
+            "Malignancy",
+            "uPAR",
+            "Crispr/cas9"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://www.frontiersin.org/articles/10.3389/fonc.2019.00080/pdf"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.3389/fonc.2019.00080"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6400983"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6400983?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2019-03-16",
+        "dateOfRevision": "2020-10-01",
+        "electronicPublicationDate": "2019-02-27",
+        "firstPublicationDate": "2019-02-27",
+        "firstIndexDate": "2019-03-16",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "52a9be1e0b1a9df2bf833c37a028d193061a611a36a828719a9f6cd302d9743f",
+          "characters": 726
+        }
+      },
+      {
+        "id": "23400595",
+        "source": "MED",
+        "pmid": "23400595",
+        "pmcid": "PMC3618559",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC3618559"
+          ]
+        },
+        "doi": "10.1158/0008-5472.can-12-3526",
+        "title": "Targeting uPAR with antagonistic recombinant human antibodies in aggressive breast cancer.",
+        "authorString": "LeBeau AM, Duriseti S, Murphy ST, Pepin F, Hann B, Gray JW, VanBrocklin HF, Craik CS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "LeBeau AM",
+              "lastName": "LeBeau",
+              "firstName": "Aaron M",
+              "initials": "AM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pharmaceutical Chemistry, UCSF Helen Diller Family Comprehensive Cancer Research Center, University of California, San Francisco, San Francisco, CA 94143, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Duriseti S",
+              "lastName": "Duriseti",
+              "firstName": "Sai",
+              "initials": "S"
+            },
+            {
+              "fullName": "Murphy ST",
+              "lastName": "Murphy",
+              "firstName": "Stephanie T",
+              "initials": "ST"
+            },
+            {
+              "fullName": "Pepin F",
+              "lastName": "Pepin",
+              "firstName": "Francois",
+              "initials": "F"
+            },
+            {
+              "fullName": "Hann B",
+              "lastName": "Hann",
+              "firstName": "Byron",
+              "initials": "B"
+            },
+            {
+              "fullName": "Gray JW",
+              "lastName": "Gray",
+              "firstName": "Joe W",
+              "initials": "JW"
+            },
+            {
+              "fullName": "VanBrocklin HF",
+              "lastName": "VanBrocklin",
+              "firstName": "Henry F",
+              "initials": "HF"
+            },
+            {
+              "fullName": "Craik CS",
+              "lastName": "Craik",
+              "firstName": "Charles S",
+              "initials": "CS"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "7",
+          "volume": "73",
+          "journalIssueId": 2026247,
+          "dateOfPublication": "2013 Apr",
+          "monthOfPublication": 4,
+          "yearOfPublication": 2013,
+          "journal": {
+            "medlineAbbreviation": "Cancer Res",
+            "title": "Cancer research",
+            "essn": "1538-7445",
+            "issn": "0008-5472",
+            "nlmid": "2984705R",
+            "isoabbreviation": "Cancer Res"
+          },
+          "printPublicationDate": "2013-04-01"
+        },
+        "pubYear": "2013",
+        "pageInfo": "2070-2081",
+        "affiliation": "Department of Pharmaceutical Chemistry, UCSF Helen Diller Family Comprehensive Cancer Research Center, University of California, San Francisco, San Francisco, CA 94143, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA128765",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "T32 GM008284-25",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P01 CA072006",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "T32 GM008284",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "U54 CA112970",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "P50 GM082250",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P50 CA 58207",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P50 CA058207",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "U54 CA 112970",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tumor Cells, Cultured"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Nude"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Breast Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "IM",
+                    "qualifierName": "immunology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PC",
+                    "qualifierName": "prevention & control"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Indium Radioisotopes"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Estrogen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Progesterone",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Recombinant Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "RNA, Messenger",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antibodies, Monoclonal",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoenzyme Techniques"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Surface Plasmon Resonance"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Longitudinal Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reverse Transcriptase Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Gene Expression Regulation, Neoplastic"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Image Processing, Computer-Assisted"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Urokinase-Type Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Urokinase Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Real-Time Polymerase Chain Reaction"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Erb-b2 Receptor Tyrosine Kinases",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "RNA, Messenger",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Estrogen",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Progesterone",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Antibodies, Monoclonal",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Recombinant Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Indium Radioisotopes",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Urokinase-Type Plasminogen Activator",
+              "registryNumber": "EC 3.4.21.73"
+            },
+            {
+              "name": "Receptors, Urokinase Plasminogen Activator",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Erb-b2 Receptor Tyrosine Kinases",
+              "registryNumber": "EC 2.7.10.1"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3618559"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/0008-5472.CAN-12-3526"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3618559"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC3618559?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/0008-5472.can-12-3526"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 69,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS443500",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2013-06-25",
+        "dateOfCreation": "2013-02-13",
+        "dateOfRevision": "2026-01-28",
+        "electronicPublicationDate": "2013-02-11",
+        "firstPublicationDate": "2013-02-11",
+        "firstIndexDate": "2013-02-13",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "97c430c9268a9af8fed49dde7bcfd3d30f131d54d77ca77f7f7d3c029807dc37",
+          "characters": 1488
+        }
+      },
+      {
+        "id": "26603218",
+        "source": "MED",
+        "pmid": "26603218",
+        "pmcid": "PMC5110119",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5110119"
+          ]
+        },
+        "doi": "10.1021/acs.bioconjchem.5b00531",
+        "title": "Isothiocyanate-Functionalized Bifunctional Chelates and fac-[M(I)(CO)3](+) (M = Re, (99m)Tc) Complexes for Targeting uPAR in Prostate Cancer.",
+        "authorString": "Kasten BB, Ma X, Cheng K, Bu L, Slocumb WS, Hayes TR, Trabue S, Cheng Z, Benny PD.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Kasten BB",
+              "lastName": "Kasten",
+              "firstName": "Benjamin B",
+              "initials": "BB"
+            },
+            {
+              "fullName": "Ma X",
+              "lastName": "Ma",
+              "firstName": "Xiaowei",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Nuclear Medicine, Xijing Hospital, Fourth Military Medical University , Xi'an, Shaanxi 710032, China."
+                  },
+                  {
+                    "affiliation": "Molecular Imaging Program at Stanford (MIPS), Department of Radiology, Bio-X Program and Canary Center at Stanford for Cancer Early Detection, Stanford University , Stanford, California 94305, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng K",
+              "lastName": "Cheng",
+              "firstName": "Kai",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Imaging Program at Stanford (MIPS), Department of Radiology, Bio-X Program and Canary Center at Stanford for Cancer Early Detection, Stanford University , Stanford, California 94305, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Bu L",
+              "lastName": "Bu",
+              "firstName": "Lihong",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Imaging Program at Stanford (MIPS), Department of Radiology, Bio-X Program and Canary Center at Stanford for Cancer Early Detection, Stanford University , Stanford, California 94305, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Slocumb WS",
+              "lastName": "Slocumb",
+              "firstName": "Winston S",
+              "initials": "WS"
+            },
+            {
+              "fullName": "Hayes TR",
+              "lastName": "Hayes",
+              "firstName": "Thomas R",
+              "initials": "TR"
+            },
+            {
+              "fullName": "Trabue S",
+              "lastName": "Trabue",
+              "firstName": "Steven",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "United States Department of Agriculture, National Soil Tilth Laboratory , Ames, Iowa 50011, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cheng Z",
+              "lastName": "Cheng",
+              "firstName": "Zhen",
+              "initials": "Z",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Molecular Imaging Program at Stanford (MIPS), Department of Radiology, Bio-X Program and Canary Center at Stanford for Cancer Early Detection, Stanford University , Stanford, California 94305, United States."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Benny PD",
+              "lastName": "Benny",
+              "firstName": "Paul D",
+              "initials": "PD"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "27",
+          "journalIssueId": 2365580,
+          "dateOfPublication": "2016 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2016,
+          "journal": {
+            "medlineAbbreviation": "Bioconjug Chem",
+            "title": "Bioconjugate chemistry",
+            "essn": "1520-4812",
+            "issn": "1043-1802",
+            "nlmid": "9010319",
+            "isoabbreviation": "Bioconjug Chem"
+          },
+          "printPublicationDate": "2016-01-01"
+        },
+        "pubYear": "2016",
+        "pageInfo": "130-142",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "T32 GM008336",
+              "orderIn": 0
+            },
+            {
+              "agency": "U.S. Department of Energy",
+              "grantId": "DE-SC0008397",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of General Medical Sciences",
+              "grantId": "T32 GM008336",
+              "orderIn": 0
+            },
+            {
+              "agency": "NINDS NIH HHS",
+              "acronym": "NS",
+              "grantId": "T32 NS048039",
+              "orderIn": 0
+            },
+            {
+              "agency": "Congressionally Directed Medical Research Programs",
+              "grantId": "W81XWH1510321",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, Nude"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prostatic Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Technetium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Rhenium",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Organotechnetium Compounds",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peptides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Chelating Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Radiopharmaceuticals",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Xenograft Model Antitumor Assays"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Tissue Distribution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Receptors, Urokinase Plasminogen Activator",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Molecular Targeted Therapy",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "MT",
+                    "qualifierName": "methods"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Peptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Technetium",
+              "registryNumber": "7440-26-8"
+            },
+            {
+              "name": "Chelating Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Radiopharmaceuticals",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Rhenium",
+              "registryNumber": "7440-15-5"
+            },
+            {
+              "name": "Organotechnetium Compounds",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Receptors, Urokinase Plasminogen Activator",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Unpaywall",
+              "url": "https://europepmc.org/articles/pmc5110119?pdf=render"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.bioconjchem.5b00531"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5110119"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5110119?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1021/acs.bioconjchem.5b00531"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 8,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS825429",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2017-11-07",
+        "dateOfCreation": "2015-11-26",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2015-12-30",
+        "firstPublicationDate": "2015-12-30",
+        "firstIndexDate": "2015-11-26",
+        "fullTextReceivedDate": "2025-02-05",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "6a473c7ce127b491abe89b312574db7b76f07ecf0e3db184895b30f4b19bc1ac",
+          "characters": 1862
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "7f3b65d553fe3efbb3e81bf118f7df868c3325d5b7acf41d5e8f87e709bfa553",
+    "sourceBytes": 64432,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

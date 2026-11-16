@@ -1,0 +1,509 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"HDP-101\" AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33298585",
+        "source": "MED",
+        "pmid": "33298585",
+        "doi": "10.1158/1535-7163.mct-20-0287",
+        "title": "HDP-101, an Anti-BCMA Antibody-Drug Conjugate, Safely Delivers Amanitin to Induce Cell Death in Proliferating and Resting Multiple Myeloma Cells.",
+        "authorString": "Figueroa-Vazquez V, Ko J, Breunig C, Baumann A, Giesen N, Pálfi A, Müller C, Lutz C, Hechler T, Kulke M, Müller-Tidow C, Krämer A, Goldschmidt H, Pahl A, Raab MS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Figueroa-Vazquez V",
+              "lastName": "Figueroa-Vazquez",
+              "firstName": "Vianihuini",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, University of Heidelberg, Heidelberg, Germany."
+                  },
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ko J",
+              "lastName": "Ko",
+              "firstName": "Jonathan",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, University of Heidelberg, Heidelberg, Germany."
+                  },
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Breunig C",
+              "lastName": "Breunig",
+              "firstName": "Christian",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6731-5168"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg Pharma Research GmbH, Ladenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Baumann A",
+              "lastName": "Baumann",
+              "firstName": "Anja",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, University of Heidelberg, Heidelberg, Germany."
+                  },
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giesen N",
+              "lastName": "Giesen",
+              "firstName": "Nicola",
+              "initials": "N",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, University of Heidelberg, Heidelberg, Germany."
+                  },
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pálfi A",
+              "lastName": "Pálfi",
+              "firstName": "Anikó",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg Pharma Research GmbH, Ladenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Müller C",
+              "lastName": "Müller",
+              "firstName": "Christoph",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8181-0923"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg Pharma Research GmbH, Ladenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lutz C",
+              "lastName": "Lutz",
+              "firstName": "Christian",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg Pharma Research GmbH, Ladenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hechler T",
+              "lastName": "Hechler",
+              "firstName": "Torsten",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1000-8407"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg Pharma Research GmbH, Ladenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kulke M",
+              "lastName": "Kulke",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg Pharma Research GmbH, Ladenburg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Müller-Tidow C",
+              "lastName": "Müller-Tidow",
+              "firstName": "Carsten",
+              "initials": "C",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7166-5232"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Krämer A",
+              "lastName": "Krämer",
+              "firstName": "Alwin",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, University of Heidelberg, Heidelberg, Germany."
+                  },
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goldschmidt H",
+              "lastName": "Goldschmidt",
+              "firstName": "Hartmut",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  },
+                  {
+                    "affiliation": "National Center of Tumor Diseases (NCT), Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Pahl A",
+              "lastName": "Pahl",
+              "firstName": "Andreas",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg Pharma Research GmbH, Ladenburg, Germany. m.raab@dkfz.de andreas.pahl@hdpharma.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Raab MS",
+              "lastName": "Raab",
+              "firstName": "Marc S",
+              "initials": "MS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, University of Heidelberg, Heidelberg, Germany. m.raab@dkfz.de andreas.pahl@hdpharma.com."
+                  },
+                  {
+                    "affiliation": "Department of Internal Medicine V, Heidelberg University Hospital, Heidelberg, Germany."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1000-8407"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6731-5168"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7166-5232"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8181-0923"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "2",
+          "volume": "20",
+          "journalIssueId": 3108062,
+          "dateOfPublication": "2021 Feb",
+          "monthOfPublication": 2,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Mol Cancer Ther",
+            "title": "Molecular cancer therapeutics",
+            "essn": "1538-8514",
+            "issn": "1535-7163",
+            "nlmid": "101132535",
+            "isoabbreviation": "Mol Cancer Ther"
+          },
+          "printPublicationDate": "2021-02-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "367-378",
+        "affiliation": "Clinical Cooperation Unit Molecular Hematology/Oncology, German Cancer Research Center (DKFZ) and Department of Internal Medicine V, University of Heidelberg, Heidelberg, Germany.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Heidelberg Pharma Research GmbH",
+              "grantId": "D.10062038",
+              "orderIn": 0
+            },
+            {
+              "agency": "Dietmar Hopp Foundation",
+              "grantId": "1DH1911364",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice, SCID"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Multiple Myeloma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Disease Models, Animal"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Amanitins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Enzyme Inhibitors",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Death",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Proliferation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Enzyme Inhibitors",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Amanitins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1158/1535-7163.MCT-20-0287"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 70,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-10-19",
+        "dateOfCreation": "2020-12-10",
+        "dateOfRevision": "2021-10-19",
+        "electronicPublicationDate": "2020-12-09",
+        "firstPublicationDate": "2020-12-09",
+        "firstIndexDate": "2020-12-11",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "656bb419a133853a51e0e15f46ba52a23a4dba92ca8008adfc12780ab25eb849",
+          "characters": 1053
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "c373f2cf5bf88f31a01a4532f80c37a23941e1e8b2d7f09e68bd662d91b14630",
+    "sourceBytes": 10331,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

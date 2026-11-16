@@ -121,7 +121,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   camrelizumab: { US: UR("CRLs May 2024, Mar 2025 (with rivoceranib, HCC); resubmission"), CN: A(2019, NMPA, "cHL (May 2019); multiple indications"), EU: NF() },
   "camrelizumab-rivoceranib": { US: UR("Third CRL 10 Jul 2026 for 1L HCC"), CN: A(2023, NMPA, "1L unresectable HCC (Jan 2023)") },
   cadonilimab: { US: NF("Akeso has not filed ex-China"), CN: A(2022, NMPA, "Recurrent/metastatic cervical (Jun 2022); 1L gastric (Sep 2024)") },
-  ivonescimab: { US: UR("Summit BLA for EGFR-mutant NSCLC post-TKI; PDUFA Nov 2026 (HARMONi-3 interim PFS miss noted)"), EU: NF("No MAA announced"), CN: A(2024, NMPA, "EGFR-mutant NSCLC after TKI (May 2024); 1L PD-L1+ NSCLC (Apr 2025)") },
+  ivonescimab: { US: R(2026, "Complete response letter announced 15 Nov 2026 on Summit's BLA for EGFR-mutant NSCLC after TKI (HARMONi): no statistically significant overall survival improvement", "https://www.sec.gov/Archives/edgar/data/1599298/000159929826000092/ivonescimabcrlscenariopr.htm"), EU: NF("No MAA announced"), CN: A(2024, NMPA, "EGFR-mutant NSCLC after TKI (May 2024); 1L PD-L1+ NSCLC (Apr 2025)") },
   fianlimab: { US: UR("Phase 3 in melanoma missed primary endpoint 2026") },
   cosibelimab: { US: A(2024, undefined, "Unloxcyt, cutaneous SCC (Dec 2024)") },
   penpulimab: { US: A(2025, undefined, "Non-keratinising NPC (Apr 2025)"), CN: A(2021, NMPA, "Akeso; cHL (Aug 2021), later NPC and NSCLC") },

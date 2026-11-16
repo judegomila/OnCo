@@ -1,0 +1,1587 @@
+{
+  "state": "Implemented on the open product draft; not merged or deployed",
+  "surfaces": [
+    {
+      "surface": "Drug/test reader and assay use observations",
+      "fields": [
+        "regulatoryClaims",
+        "conjugateComposition"
+      ],
+      "verification": "Two separately scoped 22C3 uses; both CLIO cargos; T-DM1 3.5 mean and plasma-context species; distinct dates stay visible; identical nested citations share their containing citation."
+    },
+    {
+      "surface": "Trial participation reader",
+      "fields": [
+        "facilities",
+        "cohortObservations"
+      ],
+      "verification": "Named registry facility without a posted status; missing status remains unknown. Fictional tests distinguish measured zero slots from no reported slots. Native disclosure keyboard behavior checked."
+    },
+    {
+      "surface": "Concept search and Ask",
+      "fields": [
+        "regulatoryClaims",
+        "conjugateComposition",
+        "edge evidence",
+        "facilities",
+        "cohortObservations"
+      ],
+      "verification": "Atomic scoped passages retain subject/context/date; separate similar claims are not collapsed by approximate deduplication. Scoped claims prevent a global no-approval verdict. Cargo bundles appear in mechanism/comparison answers; named trial access remains distinct from overall status."
+    },
+    {
+      "surface": "Composition engine",
+      "fields": [
+        "conjugateComposition"
+      ],
+      "verification": "Both cargos are one bundle, not two single-cargo grid entries. Delivery targets are explicit. Missing classes/loading stay unresolved, and the single sourced mean is exact."
+    },
+    {
+      "surface": "JSON and Markdown context",
+      "fields": [
+        "all new optional fields"
+      ],
+      "verification": "JSON retains structured source data; Markdown includes scoped observations as JSON with dates and source URLs. Final exported checks recorded separately."
+    }
+  ],
+  "limits": [
+    "The original assay category/year filters remain summaries of the retained registry fields; detailed intended-use observations are separate. This does not revalidate all inherited assay data.",
+    "Alternative renderings such as CSV and RDF are not claimed to carry every observation property; full scoped data are in entity JSON and Markdown.",
+    "The esophageal 22C3 use review remains open in the content audit.",
+    "Expert review, upstream-accessible preview and owner approval remain pending.",
+    "Legacy derivative and explicitly joined dual-cargo rules are corrected in the follow-up receipt; all possible legacy prose composition is not certified."
+  ],
+  "tests": {
+    "fullFiles": 285,
+    "fullPassed": 2833,
+    "existingSkipped": 2,
+    "finalFocusedPassed": 47,
+    "extractiveRecallRounded": 0.4309,
+    "extractiveRubricRounded": 0.69,
+    "benchmarkQuestions": 100,
+    "floorChanged": false
+  },
+  "visual": {
+    "captures": 50,
+    "viewports": [
+      320,
+      393,
+      1440,
+      1920
+    ],
+    "matchingScrollPositions": true,
+    "newObservationGroupsOverflowing": 0,
+    "nativeDisclosureChecks": [
+      {
+        "label": "mobile",
+        "viewport": 393,
+        "opened": true,
+        "width": 312,
+        "height": 44,
+        "display": "list-item",
+        "outline": "rgb(248, 113, 113) solid 2px",
+        "details": {
+          "x": 33,
+          "right": 345
+        },
+        "text": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+        "closedAfterSpace": true
+      },
+      {
+        "label": "reflow",
+        "viewport": 320,
+        "opened": true,
+        "width": 239,
+        "height": 64,
+        "display": "list-item",
+        "outline": "rgb(248, 113, 113) solid 2px",
+        "details": {
+          "x": 33,
+          "right": 272
+        },
+        "text": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+        "closedAfterSpace": true
+      },
+      {
+        "label": "desktop",
+        "viewport": 1440,
+        "opened": true,
+        "width": 858,
+        "height": 44,
+        "display": "list-item",
+        "outline": "rgb(248, 113, 113) solid 2px",
+        "details": {
+          "x": 113.5,
+          "right": 971.5
+        },
+        "text": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+        "closedAfterSpace": true
+      },
+      {
+        "label": "wide",
+        "viewport": 1920,
+        "opened": true,
+        "width": 858,
+        "height": 44,
+        "display": "list-item",
+        "outline": "rgb(248, 113, 113) solid 2px",
+        "details": {
+          "x": 353.5,
+          "right": 1211.5
+        },
+        "text": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+        "closedAfterSpace": true
+      }
+    ],
+    "existingWholeDocumentOverflow": [
+      {
+        "viewport": 1440,
+        "page": "assays",
+        "state": "before",
+        "pixels": 387
+      },
+      {
+        "viewport": 1440,
+        "page": "assays",
+        "state": "after",
+        "pixels": 324
+      },
+      {
+        "viewport": 1920,
+        "page": "assays",
+        "state": "before",
+        "pixels": 147
+      },
+      {
+        "viewport": 1920,
+        "page": "assays",
+        "state": "after",
+        "pixels": 84
+      }
+    ],
+    "exportedPageChecks": {
+      "scope": "Current webpack static export on loopback; no deployment",
+      "rows": [
+        {
+          "label": "mobile",
+          "page": "clio",
+          "route": "/drugs/clio-8221/",
+          "viewport": 393,
+          "usableWidth": 378,
+          "docWidth": 389,
+          "group": {
+            "x": 16,
+            "y": 176.28125,
+            "width": 346,
+            "height": 979.09375,
+            "right": 362,
+            "bottom": 1155.375
+          },
+          "links": [
+            {
+              "box": {
+                "x": 16,
+                "y": 196.28125,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 240.28125
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 323.828125,
+                "width": 222.921875,
+                "height": 44,
+                "right": 238.921875,
+                "bottom": 367.828125
+              },
+              "text": "Topoisomerase-I inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 683.375,
+                "width": 152.40625,
+                "height": 44,
+                "right": 168.40625,
+                "bottom": 727.375
+              },
+              "text": "ATR and CHK1 inhibitors"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 755.375,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 799.375
+              },
+              "text": "ATR"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1111.375,
+                "width": 304.5625,
+                "height": 44,
+                "right": 320.5625,
+                "bottom": 1155.375
+              },
+              "text": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)"
+            }
+          ],
+          "text": "Delivery target\nHER2\nExatecan\n\nsmall molecule \u00b7 TOP1 inhibitor payload\n\nPayload class\nTopoisomerase-I inhibitor payloads\nPayload molecular targets\nTopoisomerase I (TOP1)\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nBerzosertib\n\nsmall molecule \u00b7 ATR inhibitor payload\n\nPayload class\nATR and CHK1 inhibitors\nPayload molecular targets\nATR\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nTwo reported attached agents on one HER2-directed construct. This is not co-administration of separate drugs. No component loading, ratio, exposure or clinical benefit is inferred.\n\nChecked 2026-11-08.\n\nCLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "mobile",
+          "page": "dm1",
+          "route": "/drugs/trastuzumab-emtansine/",
+          "viewport": 393,
+          "usableWidth": 378,
+          "docWidth": 389,
+          "group": {
+            "x": 16,
+            "y": 175.984375,
+            "width": 346,
+            "height": 836,
+            "right": 362,
+            "bottom": 1011.984375
+          },
+          "links": [
+            {
+              "box": {
+                "x": 16,
+                "y": 195.984375,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 239.984375
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 255.984375,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 299.984375
+              },
+              "text": "DM1"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 367.984375,
+                "width": 163.296875,
+                "height": 44,
+                "right": 179.296875,
+                "bottom": 411.984375
+              },
+              "text": "Tubulin inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 967.984375,
+                "width": 318.78125,
+                "height": 44,
+                "right": 334.78125,
+                "bottom": 1011.984375
+              },
+              "text": "KADCYLA prescribing information: sections 11, 12.1 and 12.3"
+            }
+          ],
+          "text": "Delivery target\nHER2\nDM1\n\nsmall molecule \u00b7 Tubulin binding and microtubule inhibition\n\nPayload class\nTubulin inhibitor payloads\nPayload molecular targets\nTubulin\nAttached species\nMCC-DM1 (emtansine), covalently linked to trastuzumab\nReleased species\nMCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nLys-MCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nDM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nMean loading\n3.5 payload molecules per antibody. Average in the labeled product description; the label does not give a complete loading distribution.\n\nDelivery antigen, attached DM1 moiety, observed catabolites and average loading retain separate source scopes. No exposure or component ratio is inferred from this mean.\n\nChecked 2026-11-08.\n\nKADCYLA prescribing information: sections 11, 12.1 and 12.3",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "mobile",
+          "page": "assay-product",
+          "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+          "viewport": 393,
+          "usableWidth": 378,
+          "docWidth": 389,
+          "group": {
+            "x": 16,
+            "y": 175.65625,
+            "width": 346,
+            "height": 1058.1875,
+            "right": 362,
+            "bottom": 1233.84375
+          },
+          "links": [
+            {
+              "box": {
+                "x": 16,
+                "y": 430.75,
+                "width": 173.609375,
+                "height": 44,
+                "right": 189.609375,
+                "bottom": 474.75
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 498.75,
+                "width": 99.765625,
+                "height": 44,
+                "right": 115.765625,
+                "bottom": 542.75
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 650.75,
+                "width": 346,
+                "height": 44,
+                "right": 362,
+                "bottom": 694.75
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 969.84375,
+                "width": 173.609375,
+                "height": 44,
+                "right": 189.609375,
+                "bottom": 1013.84375
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1037.84375,
+                "width": 76.609375,
+                "height": 44,
+                "right": 92.609375,
+                "bottom": 1081.84375
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1189.84375,
+                "width": 346,
+                "height": 44,
+                "right": 362,
+                "bottom": 1233.84375
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "mobile",
+          "page": "trial",
+          "route": "/trials/bl-b01d1-307/",
+          "viewport": 393,
+          "usableWidth": 378,
+          "docWidth": 389,
+          "group": {
+            "x": 33,
+            "y": 176.203125,
+            "width": 312,
+            "height": 44,
+            "right": 345,
+            "bottom": 220.203125
+          },
+          "links": [],
+          "text": "Named facilities in this registry capture (1)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)",
+          "openedAfterEnter": true,
+          "openText": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+          "closedAfterSpace": true,
+          "summary": {
+            "height": 44,
+            "display": "list-item",
+            "outline": "rgb(214, 51, 108) solid 2px"
+          }
+        },
+        {
+          "label": "mobile",
+          "page": "assay-list",
+          "route": "/assays/",
+          "viewport": 393,
+          "usableWidth": 378,
+          "docWidth": 389,
+          "group": {
+            "x": 33,
+            "y": 176.234375,
+            "width": 312,
+            "height": 1118.1875,
+            "right": 345,
+            "bottom": 1294.421875
+          },
+          "links": [
+            {
+              "box": {
+                "x": 33,
+                "y": 451.328125,
+                "width": 173.609375,
+                "height": 44,
+                "right": 206.609375,
+                "bottom": 495.328125
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 519.328125,
+                "width": 99.765625,
+                "height": 44,
+                "right": 132.765625,
+                "bottom": 563.328125
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 671.328125,
+                "width": 312,
+                "height": 44,
+                "right": 345,
+                "bottom": 715.328125
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 1030.421875,
+                "width": 173.609375,
+                "height": 44,
+                "right": 206.609375,
+                "bottom": 1074.421875
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 1098.421875,
+                "width": 76.609375,
+                "height": 44,
+                "right": 109.609375,
+                "bottom": 1142.421875
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 1250.421875,
+                "width": 312,
+                "height": 44,
+                "right": 345,
+                "bottom": 1294.421875
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "reflow",
+          "page": "clio",
+          "route": "/drugs/clio-8221/",
+          "viewport": 320,
+          "usableWidth": 305,
+          "docWidth": 308,
+          "group": {
+            "x": 16,
+            "y": 175.578125,
+            "width": 273,
+            "height": 999.09375,
+            "right": 289,
+            "bottom": 1174.671875
+          },
+          "links": [
+            {
+              "box": {
+                "x": 16,
+                "y": 195.578125,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 239.578125
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 323.125,
+                "width": 222.921875,
+                "height": 44,
+                "right": 238.921875,
+                "bottom": 367.125
+              },
+              "text": "Topoisomerase-I inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 682.671875,
+                "width": 152.40625,
+                "height": 44,
+                "right": 168.40625,
+                "bottom": 726.671875
+              },
+              "text": "ATR and CHK1 inhibitors"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 754.671875,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 798.671875
+              },
+              "text": "ATR"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1130.671875,
+                "width": 273,
+                "height": 44,
+                "right": 289,
+                "bottom": 1174.671875
+              },
+              "text": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)"
+            }
+          ],
+          "text": "Delivery target\nHER2\nExatecan\n\nsmall molecule \u00b7 TOP1 inhibitor payload\n\nPayload class\nTopoisomerase-I inhibitor payloads\nPayload molecular targets\nTopoisomerase I (TOP1)\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nBerzosertib\n\nsmall molecule \u00b7 ATR inhibitor payload\n\nPayload class\nATR and CHK1 inhibitors\nPayload molecular targets\nATR\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nTwo reported attached agents on one HER2-directed construct. This is not co-administration of separate drugs. No component loading, ratio, exposure or clinical benefit is inferred.\n\nChecked 2026-11-08.\n\nCLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "reflow",
+          "page": "dm1",
+          "route": "/drugs/trastuzumab-emtansine/",
+          "viewport": 320,
+          "usableWidth": 305,
+          "docWidth": 308,
+          "group": {
+            "x": 16,
+            "y": 175.796875,
+            "width": 273,
+            "height": 936,
+            "right": 289,
+            "bottom": 1111.796875
+          },
+          "links": [
+            {
+              "box": {
+                "x": 16,
+                "y": 195.796875,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 239.796875
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 255.796875,
+                "width": 44,
+                "height": 44,
+                "right": 60,
+                "bottom": 299.796875
+              },
+              "text": "DM1"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 367.796875,
+                "width": 163.296875,
+                "height": 44,
+                "right": 179.296875,
+                "bottom": 411.796875
+              },
+              "text": "Tubulin inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1067.796875,
+                "width": 273,
+                "height": 44,
+                "right": 289,
+                "bottom": 1111.796875
+              },
+              "text": "KADCYLA prescribing information: sections 11, 12.1 and 12.3"
+            }
+          ],
+          "text": "Delivery target\nHER2\nDM1\n\nsmall molecule \u00b7 Tubulin binding and microtubule inhibition\n\nPayload class\nTubulin inhibitor payloads\nPayload molecular targets\nTubulin\nAttached species\nMCC-DM1 (emtansine), covalently linked to trastuzumab\nReleased species\nMCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nLys-MCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nDM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nMean loading\n3.5 payload molecules per antibody. Average in the labeled product description; the label does not give a complete loading distribution.\n\nDelivery antigen, attached DM1 moiety, observed catabolites and average loading retain separate source scopes. No exposure or component ratio is inferred from this mean.\n\nChecked 2026-11-08.\n\nKADCYLA prescribing information: sections 11, 12.1 and 12.3",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "reflow",
+          "page": "assay-product",
+          "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+          "viewport": 320,
+          "usableWidth": 305,
+          "docWidth": 308,
+          "group": {
+            "x": 16,
+            "y": 175.78125,
+            "width": 273,
+            "height": 1158.1875,
+            "right": 289,
+            "bottom": 1333.96875
+          },
+          "links": [
+            {
+              "box": {
+                "x": 16,
+                "y": 470.875,
+                "width": 173.609375,
+                "height": 44,
+                "right": 189.609375,
+                "bottom": 514.875
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 538.875,
+                "width": 99.765625,
+                "height": 44,
+                "right": 115.765625,
+                "bottom": 582.875
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 690.875,
+                "width": 273,
+                "height": 44,
+                "right": 289,
+                "bottom": 734.875
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1049.96875,
+                "width": 173.609375,
+                "height": 44,
+                "right": 189.609375,
+                "bottom": 1093.96875
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1117.96875,
+                "width": 76.609375,
+                "height": 44,
+                "right": 92.609375,
+                "bottom": 1161.96875
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 16,
+                "y": 1289.96875,
+                "width": 273,
+                "height": 44,
+                "right": 289,
+                "bottom": 1333.96875
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "reflow",
+          "page": "trial",
+          "route": "/trials/bl-b01d1-307/",
+          "viewport": 320,
+          "usableWidth": 305,
+          "docWidth": 308,
+          "group": {
+            "x": 33,
+            "y": 176.4375,
+            "width": 239,
+            "height": 64,
+            "right": 272,
+            "bottom": 240.4375
+          },
+          "links": [],
+          "text": "Named facilities in this registry capture (1)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)",
+          "openedAfterEnter": true,
+          "openText": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+          "closedAfterSpace": true,
+          "summary": {
+            "height": 64,
+            "display": "list-item",
+            "outline": "rgb(214, 51, 108) solid 2px"
+          }
+        },
+        {
+          "label": "reflow",
+          "page": "assay-list",
+          "route": "/assays/",
+          "viewport": 320,
+          "usableWidth": 305,
+          "docWidth": 308,
+          "group": {
+            "x": 33,
+            "y": 176.109375,
+            "width": 239,
+            "height": 1278.1875,
+            "right": 272,
+            "bottom": 1454.296875
+          },
+          "links": [
+            {
+              "box": {
+                "x": 33,
+                "y": 511.203125,
+                "width": 173.609375,
+                "height": 44,
+                "right": 206.609375,
+                "bottom": 555.203125
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 579.203125,
+                "width": 99.765625,
+                "height": 44,
+                "right": 132.765625,
+                "bottom": 623.203125
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 751.203125,
+                "width": 239,
+                "height": 44,
+                "right": 272,
+                "bottom": 795.203125
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 1170.296875,
+                "width": 173.609375,
+                "height": 44,
+                "right": 206.609375,
+                "bottom": 1214.296875
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 1238.296875,
+                "width": 76.609375,
+                "height": 44,
+                "right": 109.609375,
+                "bottom": 1282.296875
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 33,
+                "y": 1410.296875,
+                "width": 239,
+                "height": 44,
+                "right": 272,
+                "bottom": 1454.296875
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "desktop",
+          "page": "clio",
+          "route": "/drugs/clio-8221/",
+          "viewport": 1440,
+          "usableWidth": 1425,
+          "docWidth": 1425,
+          "group": {
+            "x": 96.5,
+            "y": 176,
+            "width": 892,
+            "height": 859.09375,
+            "right": 988.5,
+            "bottom": 1035.09375
+          },
+          "links": [
+            {
+              "box": {
+                "x": 96.5,
+                "y": 196,
+                "width": 44,
+                "height": 44,
+                "right": 140.5,
+                "bottom": 240
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 323.546875,
+                "width": 222.921875,
+                "height": 44,
+                "right": 319.421875,
+                "bottom": 367.546875
+              },
+              "text": "Topoisomerase-I inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 643.09375,
+                "width": 152.40625,
+                "height": 44,
+                "right": 248.90625,
+                "bottom": 687.09375
+              },
+              "text": "ATR and CHK1 inhibitors"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 715.09375,
+                "width": 44,
+                "height": 44,
+                "right": 140.5,
+                "bottom": 759.09375
+              },
+              "text": "ATR"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 991.09375,
+                "width": 304.5625,
+                "height": 44,
+                "right": 401.0625,
+                "bottom": 1035.09375
+              },
+              "text": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)"
+            }
+          ],
+          "text": "Delivery target\nHER2\nExatecan\n\nsmall molecule \u00b7 TOP1 inhibitor payload\n\nPayload class\nTopoisomerase-I inhibitor payloads\nPayload molecular targets\nTopoisomerase I (TOP1)\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nBerzosertib\n\nsmall molecule \u00b7 ATR inhibitor payload\n\nPayload class\nATR and CHK1 inhibitors\nPayload molecular targets\nATR\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nTwo reported attached agents on one HER2-directed construct. This is not co-administration of separate drugs. No component loading, ratio, exposure or clinical benefit is inferred.\n\nChecked 2026-11-08.\n\nCLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "desktop",
+          "page": "dm1",
+          "route": "/drugs/trastuzumab-emtansine/",
+          "viewport": 1440,
+          "usableWidth": 1425,
+          "docWidth": 1425,
+          "group": {
+            "x": 96.5,
+            "y": 175.71875,
+            "width": 892,
+            "height": 616,
+            "right": 988.5,
+            "bottom": 791.71875
+          },
+          "links": [
+            {
+              "box": {
+                "x": 96.5,
+                "y": 195.71875,
+                "width": 44,
+                "height": 44,
+                "right": 140.5,
+                "bottom": 239.71875
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 255.71875,
+                "width": 44,
+                "height": 44,
+                "right": 140.5,
+                "bottom": 299.71875
+              },
+              "text": "DM1"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 347.71875,
+                "width": 163.296875,
+                "height": 44,
+                "right": 259.796875,
+                "bottom": 391.71875
+              },
+              "text": "Tubulin inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 747.71875,
+                "width": 318.78125,
+                "height": 44,
+                "right": 415.28125,
+                "bottom": 791.71875
+              },
+              "text": "KADCYLA prescribing information: sections 11, 12.1 and 12.3"
+            }
+          ],
+          "text": "Delivery target\nHER2\nDM1\n\nsmall molecule \u00b7 Tubulin binding and microtubule inhibition\n\nPayload class\nTubulin inhibitor payloads\nPayload molecular targets\nTubulin\nAttached species\nMCC-DM1 (emtansine), covalently linked to trastuzumab\nReleased species\nMCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nLys-MCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nDM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nMean loading\n3.5 payload molecules per antibody. Average in the labeled product description; the label does not give a complete loading distribution.\n\nDelivery antigen, attached DM1 moiety, observed catabolites and average loading retain separate source scopes. No exposure or component ratio is inferred from this mean.\n\nChecked 2026-11-08.\n\nKADCYLA prescribing information: sections 11, 12.1 and 12.3",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "desktop",
+          "page": "assay-product",
+          "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+          "viewport": 1440,
+          "usableWidth": 1425,
+          "docWidth": 1425,
+          "group": {
+            "x": 96.5,
+            "y": 176.3125,
+            "width": 892,
+            "height": 859.09375,
+            "right": 988.5,
+            "bottom": 1035.40625
+          },
+          "links": [
+            {
+              "box": {
+                "x": 96.5,
+                "y": 331.859375,
+                "width": 173.609375,
+                "height": 44,
+                "right": 270.109375,
+                "bottom": 375.859375
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 399.859375,
+                "width": 99.765625,
+                "height": 44,
+                "right": 196.265625,
+                "bottom": 443.859375
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 551.859375,
+                "width": 432.078125,
+                "height": 44,
+                "right": 528.578125,
+                "bottom": 595.859375
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 771.40625,
+                "width": 173.609375,
+                "height": 44,
+                "right": 270.109375,
+                "bottom": 815.40625
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 839.40625,
+                "width": 76.609375,
+                "height": 44,
+                "right": 173.109375,
+                "bottom": 883.40625
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 96.5,
+                "y": 991.40625,
+                "width": 432.078125,
+                "height": 44,
+                "right": 528.578125,
+                "bottom": 1035.40625
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "desktop",
+          "page": "trial",
+          "route": "/trials/bl-b01d1-307/",
+          "viewport": 1440,
+          "usableWidth": 1425,
+          "docWidth": 1425,
+          "group": {
+            "x": 113.5,
+            "y": 176.140625,
+            "width": 858,
+            "height": 44,
+            "right": 971.5,
+            "bottom": 220.140625
+          },
+          "links": [],
+          "text": "Named facilities in this registry capture (1)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)",
+          "openedAfterEnter": true,
+          "openText": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+          "closedAfterSpace": true,
+          "summary": {
+            "height": 44,
+            "display": "list-item",
+            "outline": "rgb(214, 51, 108) solid 2px"
+          }
+        },
+        {
+          "label": "desktop",
+          "page": "assay-list",
+          "route": "/assays/",
+          "viewport": 1440,
+          "usableWidth": 1425,
+          "docWidth": 1425,
+          "group": {
+            "x": 113.5,
+            "y": 175.671875,
+            "width": 1198,
+            "height": 819.09375,
+            "right": 1311.5,
+            "bottom": 994.765625
+          },
+          "links": [
+            {
+              "box": {
+                "x": 113.5,
+                "y": 311.21875,
+                "width": 173.609375,
+                "height": 44,
+                "right": 287.109375,
+                "bottom": 355.21875
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 113.5,
+                "y": 379.21875,
+                "width": 99.765625,
+                "height": 44,
+                "right": 213.265625,
+                "bottom": 423.21875
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 113.5,
+                "y": 531.21875,
+                "width": 432.078125,
+                "height": 44,
+                "right": 545.578125,
+                "bottom": 575.21875
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 113.5,
+                "y": 730.765625,
+                "width": 173.609375,
+                "height": 44,
+                "right": 287.109375,
+                "bottom": 774.765625
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 113.5,
+                "y": 798.765625,
+                "width": 76.609375,
+                "height": 44,
+                "right": 190.109375,
+                "bottom": 842.765625
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 113.5,
+                "y": 950.765625,
+                "width": 432.078125,
+                "height": 44,
+                "right": 545.578125,
+                "bottom": 994.765625
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "wide",
+          "page": "clio",
+          "route": "/drugs/clio-8221/",
+          "viewport": 1920,
+          "usableWidth": 1905,
+          "docWidth": 1905,
+          "group": {
+            "x": 336.5,
+            "y": 176,
+            "width": 892,
+            "height": 859.09375,
+            "right": 1228.5,
+            "bottom": 1035.09375
+          },
+          "links": [
+            {
+              "box": {
+                "x": 336.5,
+                "y": 196,
+                "width": 44,
+                "height": 44,
+                "right": 380.5,
+                "bottom": 240
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 323.546875,
+                "width": 222.921875,
+                "height": 44,
+                "right": 559.421875,
+                "bottom": 367.546875
+              },
+              "text": "Topoisomerase-I inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 643.09375,
+                "width": 152.40625,
+                "height": 44,
+                "right": 488.90625,
+                "bottom": 687.09375
+              },
+              "text": "ATR and CHK1 inhibitors"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 715.09375,
+                "width": 44,
+                "height": 44,
+                "right": 380.5,
+                "bottom": 759.09375
+              },
+              "text": "ATR"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 991.09375,
+                "width": 304.5625,
+                "height": 44,
+                "right": 641.0625,
+                "bottom": 1035.09375
+              },
+              "text": "CLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)"
+            }
+          ],
+          "text": "Delivery target\nHER2\nExatecan\n\nsmall molecule \u00b7 TOP1 inhibitor payload\n\nPayload class\nTopoisomerase-I inhibitor payloads\nPayload molecular targets\nTopoisomerase I (TOP1)\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nBerzosertib\n\nsmall molecule \u00b7 ATR inhibitor payload\n\nPayload class\nATR and CHK1 inhibitors\nPayload molecular targets\nATR\nReleased species\nNot recorded here\nMean loading\nNot recorded here\n\nAgent identity is reported in a trial-design abstract. The exact released species, per-component loading and human efficacy are not established by this description.\n\nTwo reported attached agents on one HER2-directed construct. This is not co-administration of separate drugs. No component loading, ratio, exposure or clinical benefit is inferred.\n\nChecked 2026-11-08.\n\nCLIO-8221 phase 1/2 trial-design abstract (ASCO 2026)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "wide",
+          "page": "dm1",
+          "route": "/drugs/trastuzumab-emtansine/",
+          "viewport": 1920,
+          "usableWidth": 1905,
+          "docWidth": 1905,
+          "group": {
+            "x": 336.5,
+            "y": 175.71875,
+            "width": 892,
+            "height": 616,
+            "right": 1228.5,
+            "bottom": 791.71875
+          },
+          "links": [
+            {
+              "box": {
+                "x": 336.5,
+                "y": 195.71875,
+                "width": 44,
+                "height": 44,
+                "right": 380.5,
+                "bottom": 239.71875
+              },
+              "text": "HER2"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 255.71875,
+                "width": 44,
+                "height": 44,
+                "right": 380.5,
+                "bottom": 299.71875
+              },
+              "text": "DM1"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 347.71875,
+                "width": 163.296875,
+                "height": 44,
+                "right": 499.796875,
+                "bottom": 391.71875
+              },
+              "text": "Tubulin inhibitor payloads"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 747.71875,
+                "width": 318.78125,
+                "height": 44,
+                "right": 655.28125,
+                "bottom": 791.71875
+              },
+              "text": "KADCYLA prescribing information: sections 11, 12.1 and 12.3"
+            }
+          ],
+          "text": "Delivery target\nHER2\nDM1\n\nsmall molecule \u00b7 Tubulin binding and microtubule inhibition\n\nPayload class\nTubulin inhibitor payloads\nPayload molecular targets\nTubulin\nAttached species\nMCC-DM1 (emtansine), covalently linked to trastuzumab\nReleased species\nMCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nLys-MCC-DM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nDM1: The label reports detection at low levels in human plasma; this observation does not specify the amount reaching a tumor cell.\nMean loading\n3.5 payload molecules per antibody. Average in the labeled product description; the label does not give a complete loading distribution.\n\nDelivery antigen, attached DM1 moiety, observed catabolites and average loading retain separate source scopes. No exposure or component ratio is inferred from this mean.\n\nChecked 2026-11-08.\n\nKADCYLA prescribing information: sections 11, 12.1 and 12.3",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "wide",
+          "page": "assay-product",
+          "route": "/drugs/dako-pd-l1-22c3-pharmdx/",
+          "viewport": 1920,
+          "usableWidth": 1905,
+          "docWidth": 1905,
+          "group": {
+            "x": 336.5,
+            "y": 176.3125,
+            "width": 892,
+            "height": 859.09375,
+            "right": 1228.5,
+            "bottom": 1035.40625
+          },
+          "links": [
+            {
+              "box": {
+                "x": 336.5,
+                "y": 331.859375,
+                "width": 173.609375,
+                "height": 44,
+                "right": 510.109375,
+                "bottom": 375.859375
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 399.859375,
+                "width": 99.765625,
+                "height": 44,
+                "right": 436.265625,
+                "bottom": 443.859375
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 551.859375,
+                "width": 432.078125,
+                "height": 44,
+                "right": 768.578125,
+                "bottom": 595.859375
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 771.40625,
+                "width": 173.609375,
+                "height": 44,
+                "right": 510.109375,
+                "bottom": 815.40625
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 839.40625,
+                "width": 76.609375,
+                "height": 44,
+                "right": 413.109375,
+                "bottom": 883.40625
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 336.5,
+                "y": 991.40625,
+                "width": 432.078125,
+                "height": 44,
+                "right": 768.578125,
+                "bottom": 1035.40625
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(245, 244, 238)",
+          "mutedColor": "rgb(91, 101, 94)"
+        },
+        {
+          "label": "wide",
+          "page": "trial",
+          "route": "/trials/bl-b01d1-307/",
+          "viewport": 1920,
+          "usableWidth": 1905,
+          "docWidth": 1905,
+          "group": {
+            "x": 353.5,
+            "y": 176.140625,
+            "width": 858,
+            "height": 44,
+            "right": 1211.5,
+            "bottom": 220.140625
+          },
+          "links": [],
+          "text": "Named facilities in this registry capture (1)",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)",
+          "openedAfterEnter": true,
+          "openText": "Named facilities in this registry capture (1)\nFudan University Shanghai Cancer Center \u00b7 Shanghai, Shanghai Municipality, China\n\nFacility status: not stated.\n\nFrom the registry record read 2026-11-09. A facility status does not establish cohort or slot availability.",
+          "closedAfterSpace": true,
+          "summary": {
+            "height": 44,
+            "display": "list-item",
+            "outline": "rgb(214, 51, 108) solid 2px"
+          }
+        },
+        {
+          "label": "wide",
+          "page": "assay-list",
+          "route": "/assays/",
+          "viewport": 1920,
+          "usableWidth": 1905,
+          "docWidth": 1905,
+          "group": {
+            "x": 353.5,
+            "y": 175.671875,
+            "width": 1198,
+            "height": 819.09375,
+            "right": 1551.5,
+            "bottom": 994.765625
+          },
+          "links": [
+            {
+              "box": {
+                "x": 353.5,
+                "y": 311.21875,
+                "width": 173.609375,
+                "height": 44,
+                "right": 527.109375,
+                "bottom": 355.21875
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 353.5,
+                "y": 379.21875,
+                "width": 99.765625,
+                "height": 44,
+                "right": 453.265625,
+                "bottom": 423.21875
+              },
+              "text": "Pembrolizumab"
+            },
+            {
+              "box": {
+                "x": 353.5,
+                "y": 531.21875,
+                "width": 432.078125,
+                "height": 44,
+                "right": 785.578125,
+                "bottom": 575.21875
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            },
+            {
+              "box": {
+                "x": 353.5,
+                "y": 730.765625,
+                "width": 173.609375,
+                "height": 44,
+                "right": 527.109375,
+                "bottom": 774.765625
+              },
+              "text": "Non-small-cell lung cancer"
+            },
+            {
+              "box": {
+                "x": 353.5,
+                "y": 798.765625,
+                "width": 76.609375,
+                "height": 44,
+                "right": 430.109375,
+                "bottom": 842.765625
+              },
+              "text": "Cemiplimab"
+            },
+            {
+              "box": {
+                "x": 353.5,
+                "y": 950.765625,
+                "width": 432.078125,
+                "height": 44,
+                "right": 785.578125,
+                "bottom": 994.765625
+              },
+              "text": "FDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows"
+            }
+          ],
+          "text": "PD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe listed tissue companion-diagnostic use in non-small-cell lung cancer for pembrolizumab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies the specified assay/use under P150013, updated by P150013/S012. This does not establish laboratory certification or individual benefit.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nPembrolizumab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 1%\n\nChecked 2026-11-08. P150013/S012.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows\nPD-L1 IHC 22C3 pharmDx \u00b7 marketing authorization\n\nproduct \u00b7 FDA \u00b7 United States\n\nThe separately listed tissue companion-diagnostic use in non-small-cell lung cancer for cemiplimab. The corresponding treatment label retains the complete clinical setting and eligibility requirements.\n\nFDA's companion-diagnostic list identifies this use under P150013/S021. Sharing the assay does not make its treatment-specific decision rule interchangeable with the pembrolizumab rule.\n\nDisease\nNon-small-cell lung cancer\nTherapy\nCemiplimab\nSpecimen\nTissue\nDecision rule\nPD-L1 Tumor Proportion Score at least 50%\n\nChecked 2026-11-08. P150013/S021.\n\nFDA: authorized companion diagnostic devices, PD-L1 IHC 22C3 pharmDx rows",
+          "color": "rgb(27, 31, 28)",
+          "background": "rgb(252, 251, 248)",
+          "mutedColor": "rgb(91, 101, 94)"
+        }
+      ]
+    },
+    "measuredContrasts": [
+      {
+        "background": "rgb(245, 244, 238)",
+        "bodyColor": "rgb(27, 31, 28)",
+        "mutedColor": "rgb(91, 101, 94)",
+        "mutedContrast": 5.5
+      },
+      {
+        "background": "rgb(252, 251, 248)",
+        "bodyColor": "rgb(27, 31, 28)",
+        "mutedColor": "rgb(91, 101, 94)",
+        "mutedContrast": 5.85
+      }
+    ]
+  },
+  "implementationSha256": {
+    "src/components/ScopedEvidence.tsx": "72aa93ca40ef1fb27b9854150d07f41cb7d7adcdb55396494ffb65414b7d0be8",
+    "src/components/TrialParticipation.tsx": "1b53858de6c549f506d5fa9493aaa9fdad2b1c15e0cee31b7d169bdc3a5796af",
+    "src/app/assays/page.tsx": "ab3fa1852104bd2c839350fb6c6a37f6a57830bb35a4efc1549713f06377b57b",
+    "src/components/EntityDetail.tsx": "7c460c7543e60fbdfb6f4b01a8dddcadcf5d5d89b1a3fcc38f29c27dcf0466f4",
+    "src/lib/scoped-evidence-text.ts": "178e8ff6694054ac6a8ff9708f8307228ae576a4acbba8f130b695f72b8f6ede",
+    "src/lib/semantic-docs.ts": "58712239d3154ed48c7c86e111fa81e3798dac29f51b07c0f63eb20f18de0eb0",
+    "src/lib/ask.ts": "88bd5a8271fb0eeb16cd2758743cc6f1f3c9799901a3607d8e0a261e05f6c1e4",
+    "src/lib/ask-compose.ts": "155c2283f23d3340298a79027e606dc84c81226094c0c17bdb962239f3efd207",
+    "src/lib/modular.ts": "f220ed3d285e9d0ccae7c74be441176e4422ec113c33565d9775f72c98971460",
+    "scripts/build-context.ts": "07e3f4c4cd378e2c0dba3fcb5e62cca4f99b317c40c3cb576eba40cf99d261c8",
+    "src/data/assay-regulatory-claims.ts": "4be7fc760b27527fabe51b207a5321db454fa945b705634069759164c30551b8"
+  },
+  "legacyFollowUp": "legacy-identity-consumer-verification.json"
+}

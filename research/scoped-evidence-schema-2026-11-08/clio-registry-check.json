@@ -1,0 +1,15 @@
+{
+  "nct": "NCT07300943",
+  "source": "https://clinicaltrials.gov/api/v2/studies/NCT07300943?fields=NCTId%2CBriefTitle%2COfficialTitle%2CAcronym%2CprotocolSection.statusModule%2CprotocolSection.descriptionModule%2CprotocolSection.conditionsModule%2CprotocolSection.sponsorCollaboratorsModule.leadSponsor%2CprotocolSection.sponsorCollaboratorsModule.collaborators%2CprotocolSection.designModule%2CprotocolSection.armsInterventionsModule%2CprotocolSection.outcomesModule%2CprotocolSection.eligibilityModule%2CLocationFacility%2CLocationStatus%2CLocationCity%2CLocationState%2CLocationZip%2CLocationCountry%2CLocationGeoPoint&format=json",
+  "fetchedAt": "2026-11-09T02:08:44.860Z",
+  "rawResponseSha256": "76f51759b5fc623627fd9f4f1d6099c49fc9e6a24c37667451af499f681ae85c",
+  "responseStudySha256": "76f51759b5fc623627fd9f4f1d6099c49fc9e6a24c37667451af499f681ae85c",
+  "retainedStudySha256": "76f51759b5fc623627fd9f4f1d6099c49fc9e6a24c37667451af499f681ae85c",
+  "overallStatus": "RECRUITING",
+  "lastUpdate": "2026-05-01",
+  "countries": [
+    "United States",
+    "Australia"
+  ],
+  "scope": "Registry identity and development context only; no site/cohort slot availability or outcome inferred."
+}

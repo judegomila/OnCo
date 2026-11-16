@@ -1,0 +1,55 @@
+src/data/country-records-by.ts
+  ai_agent 218
+src/data/country-records-ug.ts
+  ai_agent 165
+src/data/country-records-rs.ts
+  ai_agent 128
+src/data/country-records-cd.ts
+  ai_agent 190
+src/data/country-records-np.ts
+  ai_agent 175
+src/data/country-records-at.ts
+  ai_agent 158
+src/data/country-records-ye.ts
+  ai_agent 154
+src/data/ivermectin.ts
+  ai_agent 217
+src/data/country-records-ne.ts
+  ai_agent 126,140
+src/data/key-papers/solid-tumours.ts
+  ai_agent 236
+src/data/country-records-sd.ts
+  ai_agent 186
+src/data/country-records-tz.ts
+  ai_agent 204
+src/data/country-records-zm.ts
+  ai_agent 112,224
+src/data/key-papers/prevention-detection-biology.ts
+  ai_agent 353,363
+src/data/key-papers/blood-immune-cell.ts
+  ai_agent 541
+src/data/key-papers/virotherapy.ts
+  ai_agent 115,157,419
+src/data/country-records-cm.ts
+  ai_agent 188,230
+src/data/country-records-gh.ts
+  ai_agent 141,155,182
+src/data/country-records-ge.ts
+  ai_agent 157,199
+src/data/country-records-lk.ts
+  ai_agent 201
+src/data/country-records-sa.ts
+  ai_agent 168
+src/data/country-records-mg.ts
+  ai_agent 16
+src/data/country-records-et.ts
+  ai_agent 135
+src/data/country-records-lb.ts
+  ai_agent 95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "19050aba4b5a107da52c4db23bb860d469548525",
+  "prompts": {}
+}

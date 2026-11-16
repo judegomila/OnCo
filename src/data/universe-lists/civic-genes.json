@@ -1,13 +1,13 @@
 {
- "checked": "2026-11-04",
+ "checked": "2026-11-11",
  "source": {
   "label": "CIViC: genes with accepted clinical evidence (levels A and B)",
   "url": "https://civicdb.org/features/home"
  },
  "method": "CIViC GraphQL API (https://civicdb.org/api/graphql): every accepted evidence item, grouped by the gene of its molecular profile (a gene feature, or each named partner gene of a fusion feature); one item per gene, with its accepted evidence count and the count at each evidence level (A validated to E inferential); kept when at least one item is level A (validated) or B (clinical evidence). Fusions count for both partner genes. CIViC content is CC0 1.0; cite Griffith et al., Nat Genet 2017.",
  "total": 349,
- "genesAnyLevel": 535,
- "evidenceItems": 4974,
+ "genesAnyLevel": 536,
+ "evidenceItems": 4989,
  "licence": "CC0 1.0",
  "items": [
   {
@@ -62,11 +62,11 @@
    "name": "BRAF",
    "id": 5,
    "url": "https://civicdb.org/features/5/summary",
-   "evidence": 260,
+   "evidence": 261,
    "levels": {
     "A": 12,
     "B": 122,
-    "C": 64,
+    "C": 65,
     "D": 58,
     "E": 4
    }
@@ -176,12 +176,12 @@
    "name": "FGFR3",
    "id": 23,
    "url": "https://civicdb.org/features/23/summary",
-   "evidence": 70,
+   "evidence": 72,
    "levels": {
     "A": 1,
     "B": 6,
     "C": 9,
-    "D": 54
+    "D": 56
    }
   },
   {
@@ -224,11 +224,11 @@
    "name": "FGFR1",
    "id": 1885,
    "url": "https://civicdb.org/features/1885/summary",
-   "evidence": 50,
+   "evidence": 51,
    "levels": {
     "A": 3,
     "B": 21,
-    "C": 8,
+    "C": 9,
     "D": 17,
     "E": 1
    }
@@ -273,9 +273,9 @@
    "name": "RET",
    "id": 42,
    "url": "https://civicdb.org/features/42/summary",
-   "evidence": 46,
+   "evidence": 47,
    "levels": {
-    "A": 8,
+    "A": 9,
     "B": 15,
     "C": 11,
     "D": 12
@@ -412,6 +412,18 @@
    }
   },
   {
+   "name": "FGFR2",
+   "id": 22,
+   "url": "https://civicdb.org/features/22/summary",
+   "evidence": 28,
+   "levels": {
+    "A": 3,
+    "B": 8,
+    "C": 12,
+    "D": 5
+   }
+  },
+  {
    "name": "MLH1",
    "id": 3532,
    "url": "https://civicdb.org/features/3532/summary",
@@ -429,18 +441,6 @@
    "levels": {
     "B": 2,
     "D": 26
-   }
-  },
-  {
-   "name": "FGFR2",
-   "id": 22,
-   "url": "https://civicdb.org/features/22/summary",
-   "evidence": 27,
-   "levels": {
-    "A": 3,
-    "B": 8,
-    "C": 11,
-    "D": 5
    }
   },
   {
@@ -2497,6 +2497,15 @@
    }
   },
   {
+   "name": "FGF19",
+   "id": 7909,
+   "url": "https://civicdb.org/features/7909/summary",
+   "evidence": 2,
+   "levels": {
+    "B": 2
+   }
+  },
+  {
    "name": "FOXL2",
    "id": 72,
    "url": "https://civicdb.org/features/72/summary",
@@ -3031,15 +3040,6 @@
    "name": "FGF13",
    "id": 1883,
    "url": "https://civicdb.org/features/1883/summary",
-   "evidence": 1,
-   "levels": {
-    "B": 1
-   }
-  },
-  {
-   "name": "FGF19",
-   "id": 7909,
-   "url": "https://civicdb.org/features/7909/summary",
    "evidence": 1,
    "levels": {
     "B": 1

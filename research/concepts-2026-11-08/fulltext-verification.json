@@ -1,0 +1,55 @@
+{
+  "checkedOn": "2026-11-08",
+  "captures": [
+    {
+      "id": "cutoff-finder",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0051862",
+      "sha256": "727694979ba6a92f3a58d5d1a71a369232b0dd9833315369a43a00acb876f6ae",
+      "fetchedAt": "2026-11-08T18:56:22.554168+00:00",
+      "size": 189447,
+      "verifiedSections": [
+        "Introduction: cutoff optimization and multiple testing",
+        "Discussion: two-step cutoff selection and predefined-cutoff validation"
+      ],
+      "rawFullTextDistributed": false
+    },
+    {
+      "id": "exposure",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5511563/",
+      "sha256": "59a4b59810a6fed402c56d77943731acbe7b12caeb6cdc6cd06df5ccb8c9651b",
+      "fetchedAt": "2026-11-08T18:56:22.979267+00:00",
+      "size": 334234,
+      "verifiedSections": [
+        "Discussion: total versus free drug, protein binding, PK/PD timing"
+      ],
+      "rawFullTextDistributed": false
+    },
+    {
+      "id": "target-trial",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4832051/",
+      "sha256": "2fab83d955f9ad7ec7f18f7ba6c56ef160599494aec06ec19d099bb21e7dce0c",
+      "fetchedAt": "2026-11-08T18:59:19.292818+00:00",
+      "size": 180594,
+      "verifiedSections": [
+        "Table 1: target trial protocol",
+        "Assignment procedures: exchangeability and missing confounders"
+      ],
+      "rawFullTextDistributed": false
+    },
+    {
+      "id": "prediction-validation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4454817/",
+      "sha256": "ea8f6bbab670e3e83f80ab34f071927547c5f21abf38d302bfb91090d644a918",
+      "fetchedAt": "2026-11-08T18:59:19.697280+00:00",
+      "size": 213099,
+      "verifiedSections": [
+        "Prediction model studies: internal validation and temporal/geographic external validation"
+      ],
+      "rawFullTextDistributed": false
+    }
+  ],
+  "accessFailures": [
+    "NCBI BioC returned HTTP 429; Europe PMC fullTextXML returned HTTP 500. Publisher HTML or NCBI article HTML was then read successfully for the four listed papers.",
+    "Altman 1994 optimal-cutpoint paper, Altman/Bland 1995 absence editorial, and Fine/Gray 1999: identifiers resolved but no usable abstract/full text inspected; not used for new claims."
+  ]
+}

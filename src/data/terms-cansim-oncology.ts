@@ -18,7 +18,7 @@ const provenance = { editedBy: "OnCo CanSim terms wave (Wikipedia summaries, sta
 export const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 export const DOI = (d: string) => `https://doi.org/${d}`;
 
-type T = Omit<TermInput, "kind" | "asOf" | "provenance" | "tags"> & { cansim?: string };
+type T = Omit<TermInput, "kind" | "asOf" | "provenance" | "tags"> & { cansim?: string; asOf?: string };
 /** Term with the CanSim attribution note and a link back to the hub term, so no record is an orphan. */
 export const cansimTerm = (x: T): TermInput => {
   const { cansim, ...rest } = x;
@@ -102,11 +102,12 @@ export const cansimOncologyTerms: TermInput[] = [
     tldr: "Pharmacogenomics studies how a person's genes, and a tumour's genes, change the way drugs work or cause harm.",
     summary: "Pharmacogenomics, abbreviated PGx, is the study of the role of the genome in drug response, combining pharmacology and genomics to ask how a patient's genetic makeup affects their reaction to drugs (Wikipedia). In oncology it covers both inherited variants that govern toxicity (DPYD and fluoropyrimidines, TPMT and thiopurines) and the tumour's somatic alterations that predict sensitivity, the basis of cell-line drug-response prediction.",
     technologies: ["oncology-pharmacogenomics"], terms: ["drug-response-sensitivity", "cancer-drivers-vs-actionable"] }),
-  t({ id: "drug-response-sensitivity", name: "Drug response and drug sensitivity (IC50, AUC)", category: BM, aka: ["drug sensitivity", "drug response prediction", "cell-line drug sensitivity", "IC50", "half maximal inhibitory concentration", "dose-response AUC", "area under the dose-response curve", "GI50", "AAC"],
-    wikipedia: W("IC50"), links: [{ label: "Yang et al., GDSC: a resource for therapeutic biomarker discovery in cancer cells (Nucleic Acids Research 2013)", url: DOI("10.1093/nar/gks1111") }], cansim: "/terms/drug-response",
-    tldr: "Drug sensitivity is how strongly a tumour or cell line is held back by a compound; it is summarised by the concentration that halves growth (IC50) or by the area under the whole dose-response curve.",
-    summary: "The half maximal inhibitory concentration, IC50, measures the potency of a substance in inhibiting a biological function, the amount needed to inhibit a process by half in vitro (Wikipedia). Cell-line screens such as GDSC and CTRP report IC50, GI50 and the area under (or above) the dose-response curve for hundreds of drugs across hundreds of lines. The readouts are not interchangeable: different viability assays (CellTiter-Glo versus Syto60) and different summary statistics are a known source of disagreement between datasets.",
-    terms: ["pharmacogenomics-term", "cell-lines-as-proxy"], related: ["depmap"] }),
+  t({ id: "drug-response-sensitivity", asOf: "2026-11-08", name: "Drug response and drug sensitivity (IC50, AUC)", category: BM, aka: ["drug sensitivity", "drug response prediction", "cell-line drug sensitivity", "IC50", "half maximal inhibitory concentration", "dose-response AUC", "area under the dose-response curve", "GI50", "AAC"],
+    wikipedia: W("IC50"), cansim: "/terms/drug-response",
+    tldr: "Drug sensitivity describes how a measured response changes with drug concentration. The assay, timing and comparison determine what a reported IC50 or response-curve area means.",
+    summary: "IC50 is the concentration producing half of a defined inhibitory effect; it does not inherently mean half the cells died. A response-curve area also depends on the tested concentration range and readout. Primary experiments show that cell division rate and changes in ATP per cell can alter apparent potency. Initial cell number, untreated growth, exposure duration and measurement method help separate growth arrest, cell loss and metabolic change. Laboratory sensitivity still needs an exposure and model-context comparison before it supports a claim about treatment in people.",
+    links: [{ label: "Yang et al., GDSC: a resource for therapeutic biomarker discovery in cancer cells (Nucleic Acids Research 2013)", url: DOI("10.1093/nar/gks1111") }, { label: "Growth-rate inhibition metrics (2016)", url: DOI("10.1038/nmeth.3853") }, { label: "Cell count versus ATP and MTS measurements (2013)", url: DOI("10.1371/journal.pone.0063583") }, { label: "Clinically relevant concentrations for nonclinical studies (2017)", url: DOI("10.1158/1078-0432.CCR-16-3083") }],
+    terms: ["pharmacogenomics-term", "cell-lines-as-proxy"], related: ["depmap", "growth-rate-inhibition", "cytostasis-versus-cell-death", "experimental-versus-clinical-exposure", "model-context-of-use"] }),
   t({ id: "cell-lines-as-proxy", name: "Cell lines as a proxy for patients", category: BIO, aka: ["cell lines as a patient proxy", "cancer cell lines", "immortalised cell line", "immortalized cell line", "cell line model"],
     wikipedia: W("Immortalised_cell_line"), links: [{ label: "Barretina et al., The Cancer Cell Line Encyclopedia (Nature 2012)", url: DOI("10.1038/nature11003") }], cansim: "/terms/cell-lines-as-patient-proxy",
     tldr: "Cancer cell lines are tumour cells grown indefinitely in the laboratory; they are convenient for drug testing but only imperfectly stand in for a patient's tumour.",
@@ -122,11 +123,40 @@ export const cansimOncologyTerms: TermInput[] = [
     tldr: "A copy number alteration is a stretch of DNA that a tumour has gained extra copies of or lost, from a single gene to a whole chromosome arm.",
     summary: "Copy number variation is a form of structural variation in which sections of the genome are duplicated or deleted (Wikipedia); in tumours the acquired form is called a somatic copy number alteration. Arm-level and focal events are called from arrays or sequencing, and GISTIC2.0 is the standard method for finding regions amplified or deleted more often than chance across a cohort. CNA is one of TCGA's core data types and a modality in most multi-omic models.",
     terms: ["co-amplification", "gistic"], technologies: ["wes-wgs"] }),
-  t({ id: "cancer-drivers-vs-actionable", name: "Actionable genomic biomarkers", category: BM, aka: ["actionable genomic biomarkers", "actionable alteration", "actionable alterations", "actionable mutation", "actionable mutations", "actionable biomarker", "clinically actionable"],
+  t({ id: "cancer-drivers-vs-actionable", asOf: "2026-11-11", name: "Actionable genomic biomarkers", category: BM, aka: ["actionable genomic biomarkers", "actionable alteration", "actionable alterations", "actionable mutation", "actionable mutations", "actionable biomarker", "clinically actionable"],
     wikipedia: W("Personalized_medicine"), cansim: "/terms/actionable-genomic-biomarkers",
-    tldr: "An actionable alteration is a change in a tumour's DNA that maps directly to an approved or investigational drug, so finding it changes what the patient is offered.",
-    summary: "Precision or personalised medicine tailors decisions to the patient's predicted response based on molecular features (Wikipedia). In oncology a genomic alteration is called actionable when an approved drug, a guideline recommendation or an open trial is tied to it; OncoKB and CIViC grade the evidence in tiers. Actionability is narrower than being a driver: many drivers have no drug, and some drug targets (HER2 amplification) are actionable regardless of driver status.",
-    terms: ["driver-mutation", "biomarker"], related: ["oncokb", "civic"], technologies: ["cgp"] }),
+    tldr: "An actionable genomic finding has evidence relevant to a treatment decision in a specified setting. The exact alteration, cancer type and strength of treatment evidence matter.",
+    summary: "Biological function, contribution to cancer growth and evidence of treatment benefit are different claims. ESCAT ranks genomic targets by clinical evidence, distinguishing routine-use evidence from investigational, other-disease and preclinical findings. An abnormal functional assay does not establish drug benefit, and a gene-level match does not make every variant equivalent. Actionability should retain the alteration, disease, intervention and evidence tier. Trial eligibility, access and an individual's treatment decision require additional information.",
+    links: [
+  {
+    "label": "ESMO clinical actionability framework (2018)",
+    "url": "https://doi.org/10.1093/annonc/mdy263"
+  },
+  {
+    "label": "ClinGen functional variant evidence recommendations (2019)",
+    "url": "https://doi.org/10.1186/s13073-019-0690-2"
+  },
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Personalized_medicine"
+  },
+  {
+    "label": "OncoKB: therapeutic levels of evidence",
+    "url": "https://www.oncokb.org/content/files/levelOfEvidence/V2/LevelsOfEvidence.pdf"
+  },
+  {
+    "label": "fda-cdx",
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/companion-diagnostics"
+  }
+],
+    terms: ["driver-mutation", "biomarker"], related: ["oncokb", "civic", "vus", "functional-variant-evidence", "measurement-to-benefit-evidence"], technologies: ["cgp"] ,
+"notes": [
+  "Clinical actionability connects a reliable finding to a specified decision in a particular cancer and treatment setting. A pathogenic variant, a cancer driver, target engagement, tumour response and longer survival are different claims. Ask whether actionable means worth studying, matched to a trial or supported for standard care; an evidence tier is not an individual response probability. Measurement reliability, clinical meaning and benefit from the resulting decision each need evidence.",
+  "The original 2018 ESCAT framework has six tiers: I, targets ready for routine clinical decisions; II, investigational targets with likely benefit requiring additional data; III, benefit in another tumour type or a similar target; IV, preclinical evidence; V, evidence for co-targeting approaches; and X, lack of evidence for actionability. Preserve any subtier and assessment date. Tier V does not endorse an arbitrary combination, and tier X describes the available evidence rather than proving that a target can never become useful.",
+  "The OncoKB therapeutic-level definitions distinguish level 1, an FDA-recognized biomarker for an approved drug in that indication; 2, a standard-care biomarker recommended by professional guidelines for an approved drug in that indication; 3A, compelling clinical evidence in that indication; 3B, standard-care or investigational evidence in another indication; and 4, compelling biological evidence. Resistance is separate: R1 is a standard-care resistance biomarker for an approved drug in that indication, while R2 is compelling clinical resistance evidence. These are framework definitions, not a current list of available therapies.",
+  "Keep the framework, version or assessment date, exact alteration, drug, disease and supporting evidence together. There is no automatic numerical conversion between ESCAT and OncoKB. In a fictional report labelled OncoKB 3B, evidence in another indication does not establish standard treatment for the current tumour. Check the actual label or protocol, assay intended use, treatment line, prior therapy, formulation, safety and access. A therapy-linked companion diagnostic and a biologically similar research assay are not automatically interchangeable."
+]
+}),
   t({ id: "mrna-protein-concordance", targets: ["e2f7", "dclk1", "dnajc12"], name: "mRNA to protein concordance", category: BIO, aka: ["mRNA-protein concordance", "mRNA protein concordance", "transcript-protein correlation", "mRNA-protein correlation", "proteogenomic concordance"],
     wikipedia: W("Proteogenomics"), cansim: "/terms/mrna-protein-concordance",
     tldr: "mRNA to protein concordance is how well the amount of a gene's messenger RNA tracks the amount of the protein it codes for; for many genes it tracks poorly.",
@@ -306,11 +336,48 @@ export const cansimOncologyTerms: TermInput[] = [
     tldr: "A research use only label means a test, reagent or model has not been validated or cleared for making decisions about a patient and must not be used that way.",
     summary: "The FDA's 2013 guidance describes in vitro diagnostic products labelled for research use only as products in the laboratory research phase of development, not intended for clinical diagnostic use, and sets out what manufacturers may and may not do when distributing them. The label travels with research models and datasets: a prediction shown as research only is not a clinical result, and a site that publishes such models has to say so on every page.",
     terms: ["samd", "analytical-vs-clinical-validation"] }),
-  t({ id: "analytical-vs-clinical-validation", name: "Analytical versus clinical validation", category: BM, aka: ["analytical validation", "clinical validation", "analytical validity", "clinical validity", "clinical utility", "validation of a biomarker test"],
-    wikipedia: W("Biomarker_(medicine)"), links: [{ label: "FDA: Software as a Medical Device (SaMD)", url: "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd" }], cansim: "/terms/clinical-vs-analytical-validation",
-    tldr: "Analytical validation shows a test measures what it claims, reliably; clinical validation shows the measurement actually predicts the patient outcome it is meant to.",
-    summary: "A biomarker in medicine is a measurable indicator of the presence or severity of a disease state (Wikipedia). Before it is used, a test must show analytical validity (accuracy, precision, reproducibility of the measurement itself) and clinical validity (that the result relates to the clinical condition or outcome in the intended population), and ideally clinical utility, that acting on it improves outcomes. For an AI model the same ladder applies: reproducible outputs on fixed inputs, then discrimination and calibration on external cohorts, then a trial of using it.",
-    terms: ["external-validation", "calibration", "samd", "biomarker"] }),
+  t({ id: "analytical-vs-clinical-validation", asOf: "2026-11-10", name: "Analytical versus clinical validation", category: BM, aka: ["analytical validation", "clinical validation", "analytical validity", "clinical validity", "clinical utility", "validation of a biomarker test"],
+    wikipedia: W("Biomarker_(medicine)"), links: [
+  {
+    "label": "FDA: Software as a Medical Device (SaMD)",
+    "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+  },
+  {
+    "label": "FDA: diagnostic-test study interpretation",
+    "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/statistical-guidance-reporting-results-studies-evaluating-diagnostic-tests-guidance-industry-and-fda"
+  },
+  {
+    "label": "DYNAMIC randomized ctDNA-guided treatment strategy (2022)",
+    "url": "https://doi.org/10.1056/NEJMoa2200075"
+  },
+  {
+    "label": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Biomarker_(medicine)"
+  },
+  {
+    "label": "MedlinePlus Genetics: judging a valid and useful test",
+    "url": "https://medlineplus.gov/genetics/understanding/testing/validtest/"
+  },
+  {
+    "label": "FDA: Use of Circulating Tumor DNA for Curative-Intent Solid Tumor Drug Development (guidance)",
+    "url": "https://www.fda.gov/media/183874/download"
+  },
+  {
+    "label": "Riley et al., Evaluation of clinical prediction models (part 2): how to undertake an external validation study (BMJ 2024)",
+    "url": "https://doi.org/10.1136/bmj-2023-074820"
+  }
+], cansim: "/terms/clinical-vs-analytical-validation",
+    tldr: "Analytical validity concerns the measurement. Clinical validity concerns its relationship to a clinical condition or outcome, and clinical utility concerns the consequences of using it for a decision.",
+    summary: "Repeatability or detection accuracy does not establish that a test predicts an outcome, and an outcome association does not establish benefit from acting on the result. These questions depend on the assay version, specimen, population and intended use. Clinical utility can be studied by comparing decision strategies: DYNAMIC randomized people with stage II colon cancer to ctDNA-guided or standard management and evaluated chemotherapy use and recurrence-free survival. That design illustrates evidence about a particular strategy; it does not validate every residual-disease test or treatment change. Prediction-model validation and a study of model-guided care also answer different questions. MedlinePlus Genetics describes analytical validity as how well a test detects whether a specific genetic variant is present or absent, clinical validity as how well the variant relates to the presence, absence or risk of a disease, and clinical utility as whether the test provides helpful information about diagnosis, treatment, management or prevention. Laboratory certification under CLIA standards is designed to ensure analytical validity and does not address clinical validity or clinical utility. FDA guidance on circulating tumour DNA in curative-intent solid tumour drug development says analytical validation ensures that an assay measures the intended analytes in the intended tumour type and establishes its performance characteristics, and that pre-analytical factors such as sample collection, storage and handling should be controlled because they affect sensitivity and specificity. The same guidance says the evidence for clinical validity or clinical utility of ctDNA varies across malignancies and patient populations, and that a trial in which a minimal residual disease result guides de-escalation of treatment should be randomised. A prediction model is judged on overall fit, calibration and discrimination, so separating risk groups well does not by itself give accurate individual probabilities (Riley and colleagues, 2024); an outcome association also does not show who benefits from a treatment, which is a separate comparison of strategies.",
+    terms: ["external-validation", "calibration", "samd", "biomarker"], related: ["measurement-to-benefit-evidence", "detection-versus-quantification", "test-agreement-versus-accuracy", "biomarker-qualification-context", "decision-curve-net-benefit"] ,
+"notes": [
+  "Reading guide (OnCo inference built on the definitions above): a test-guided strategy is the test, its result rule, the action taken and the care setting taken together, and its utility is judged against a defined alternative using outcomes and harms. Measurement evidence (repeat readings of a spiked target), meaning evidence (a result followed by a later outcome) and use evidence (the strategy compared with an alternative) are three separate questions, and an answer to one is not an answer to another.",
+  "Evidence table in words. Does it measure correctly? Inspect reference specimens, repeats, background, input range and failures; the tempting overread is that reliable measurement must predict benefit. Does the result mean something clinically? Inspect an appropriate population, endpoint, follow-up and independent validation; the tempting overread is that association means the proposed intervention works. Does acting on it help? Inspect a defined decision strategy against a comparator with meaningful outcomes and harms; the tempting overread is that a changed decision must be improved care.",
+  "Fictional worked example. A blood test detects a spiked target reproducibly, and in a separate cohort more recurrences follow positive calls. No study compares starting Drug A after a positive call with a specified alternative, so the utility of the Drug A strategy is unsupported: the first finding supports analytical performance and the second a scoped clinical association, and neither tests whether the action helps more than it harms.",
+  "Figure reading (fictional example, light and dark renders agree): three parallel panels ask whether the test measures (a spiked target and repeat readings), what its result is associated with (a result followed by a later outcome) and whether the strategy helps (positive result then Drug A against a defined alternative, with both outcome boxes unanswered and outcomes and harms not compared). The empty boxes mark the missing comparison; they are not a validation ladder or a treatment recommendation.",
+  "Lead time (an inference that applies the existing lead-time-bias record, which is framed for screening): a blood result that anticipates recurrence earlier lengthens how long a person knows about the disease even if the date of the outcome does not change, so benefit needs a comparison of outcomes with and without acting early, measured on the same clock."
+]
+}),
 
   // ---- Genome and identifier standards ----
   t({ id: "hgnc-symbol", name: "HGNC gene symbol", category: GEN, aka: ["HGNC symbol", "HGNC gene symbol", "approved gene symbol", "official gene symbol", "gene symbol", "HGNC id", "HGNC ID"],

@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T18:39:02.410Z",
+  "request": {
+    "query": "Which primary methodological studies establish confounding by indication, immortal-time bias, competing risk analysis, transportability of trial evidence, biomarker cutoff selection bias, decision curve analysis, and interpretation of nonsignificant results in oncology?",
+    "searchMode": "semantic",
+    "maxResults": 20,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-19992073",
+        "title": "A most stubborn bias: No adjustment method fully resolves confounding by indication in observational studies",
+        "authors": [
+          "J. Bosco",
+          "R. Silliman",
+          "S. Thwin",
+          "A. Geiger",
+          "D. Buist",
+          "M. Prout",
+          "M. U. Yood",
+          "R. Haque",
+          "Feifei Wei",
+          "T. Lash"
+        ],
+        "year": 2009,
+        "abstract": null,
+        "doi": "10.1016/j.jclinepi.2009.03.001",
+        "pmid": "19457638",
+        "venue": "Journal of Clinical Epidemiology",
+        "citedByCount": 387,
+        "urls": [
+          "https://europepmc.org/articles/pmc2789188?pdf=render"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://europepmc.org/articles/pmc2789188?pdf=render"
+      },
+      {
+        "elicitId": "ss-3849522",
+        "title": "Methodological issues in observational studies and non-randomized controlled trials in oncology in the era of big data.",
+        "authors": [
+          "Shiro Tanaka",
+          "Sachiko Tanaka",
+          "Koji Kawakami"
+        ],
+        "year": 2015,
+        "abstract": "Non-randomized controlled trials, cohort studies and database studies are appealing study designs when there are urgent needs for safety data, outcomes of interest are rare, generalizability is a matter of concern, or randomization is not feasible. This paper reviews four typical case studies from methodological viewpoints and clarifies how to minimize bias in observational studies in oncology. In summary, researchers planning observational studies should be cautious of selection of appropriate databases, validity of algorithms for identifying outcomes, comparison with incident users or self-control, rigorous collection of information on potential confounders and reporting details of subject selection. Further, a careful study protocol and statistical analysis plan are also necessary.",
+        "doi": "10.1093/jjco/hyu220",
+        "pmid": "25589456",
+        "venue": "Japanese Journal of Clinical Oncology",
+        "citedByCount": 36,
+        "urls": [
+          "https://academic.oup.com/jjco/article-pdf/45/4/323/2697330/hyu220.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://academic.oup.com/jjco/article-pdf/45/4/323/2697330/hyu220.pdf"
+      },
+      {
+        "elicitId": "ss-280916573",
+        "title": "Immortal time bias tends to be more pronounced in methodological studies than in empirical studies: A meta-epidemiological study.",
+        "authors": [
+          "Xia Zhang",
+          "Jia-Yue Xu",
+          "Qiao He",
+          "Yu-Ning Wang",
+          "Shuangyi Xie",
+          "Xiao-Xing Zhang",
+          "Kang Zou",
+          "Wen Wang",
+          "Xin Sun"
+        ],
+        "year": 2025,
+        "abstract": null,
+        "doi": "10.1016/j.jclinepi.2025.111936",
+        "pmid": "40865584",
+        "venue": "Journal of Clinical Epidemiology",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-22725086",
+        "title": "Assessing treatment effects in older breast cancer patients: systematic review of observational research methods.",
+        "authors": [
+          "N. A. Glas",
+          "M. Kiderlen",
+          "A. Craen",
+          "M. Hamaker",
+          "J. Portielje",
+          "C. V. D. Velde",
+          "G. Liefers",
+          "E. Bastiaannet"
+        ],
+        "year": 2015,
+        "abstract": null,
+        "doi": "10.1016/j.ctrv.2014.12.014",
+        "pmid": "25604065",
+        "venue": "Cancer Treatment Reviews",
+        "citedByCount": 17,
+        "urls": [],
+        "studyTypeTags": [
+          "Review",
+          "Systematic Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-49894926",
+        "title": "Immortal Time Bias in Observational Studies of Time-to-Event Outcomes",
+        "authors": [
+          "P. Agarwal",
+          "E. Moshier",
+          "Meng Ru",
+          "N. Ohri",
+          "R. Ennis",
+          "K. Rosenzweig",
+          "M. Mazumdar"
+        ],
+        "year": 2018,
+        "abstract": "The objectives of this study are to illustrate the effects of immortal time bias (ITB) using an oncology outcomes database and quantify through simulations the magnitude and direction of ITB when different analytical techniques are used. A cohort of 11 626 women who received neoadjuvant chemotherapy and underwent mastectomy with pathologically positive lymph nodes were accrued from the National Cancer Database (2004-2008). Standard Cox regression, time-dependent (TD), and landmark models were used to compare overall survival in patients who did or did not receive postmastectomy radiation therapy (PMRT). Simulation studies showing ways to reduce the effect of ITB indicate that TD exposures should be included as variables in hazard-based analyses. Standard Cox regression models comparing overall survival in patients who did and did not receive PMRT showed a significant treatment effect (hazard ratio [HR]: 0.93, 95% confidence interval [CI]: 0.88-0.99). Time-dependent and landmark methods estimated no treatment effect with HR: 0.97, 95% CI: 0.92 to 1.03 and HR: 0.98, 95% CI, 0.92 to 1.04, respectively. In our simulation studies, the standard Cox regression model significantly overestimated treatment effects when no effect was present. Estimates of TD models were closest to the true treatment effect. Landmark model results were highly dependent on landmark timing. Appropriate statistical approaches that account for ITB are critical to minimize bias when examining relationships between receipt of PMRT and survival.",
+        "doi": "10.1177/1073274818789355",
+        "pmid": "30021466",
+        "venue": "Cancer Control: Journal of the Moffitt Cancer Cente",
+        "citedByCount": 90,
+        "urls": [
+          "https://doi.org/10.1177/1073274818789355"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1177/1073274818789355"
+      },
+      {
+        "elicitId": "ss-24324551",
+        "title": "Immortal time bias in pharmaco-epidemiology.",
+        "authors": [
+          "S. Suissa"
+        ],
+        "year": 2008,
+        "abstract": "Immortal time is a span of cohort follow-up during which, because of exposure definition, the outcome under study could not occur. Bias from immortal time was first identified in the 1970s in epidemiology in the context of cohort studies of the survival benefit of heart transplantation. It recently resurfaced in pharmaco-epidemiology, with several observational studies reporting that various medications can be extremely effective at reducing morbidity and mortality. These studies, while using different cohort designs, all involved some form of immortal time and the corresponding bias. In this paper, the author describes various cohort study designs leading to this bias, quantifies its magnitude under different survival distributions, and illustrates it by using data from a cohort of lung cancer patients. The author shows that for time-based, event-based, and exposure-based cohort definitions, the bias in the rate ratio resulting from misclassified or excluded immortal time increases proportionately to the duration of immortal time. The bias is more pronounced with a decreasing hazard function for the outcome event, as illustrated with the Weibull distribution compared with a constant hazard from the exponential distribution. In conclusion, observational studies of drug benefit in which computerized databases are used must be designed and analyzed properly to avoid immortal time bias.",
+        "doi": "10.1093/AJE/KWM324",
+        "pmid": "18056625",
+        "venue": "American Journal of Epidemiology",
+        "citedByCount": 1765,
+        "urls": [
+          "https://academic.oup.com/aje/article-pdf/167/4/492/633891/kwm324.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://academic.oup.com/aje/article-pdf/167/4/492/633891/kwm324.pdf"
+      },
+      {
+        "elicitId": "ss-232229155",
+        "title": "Clinical oncology research; Review on contemporary methodology standards.",
+        "authors": [
+          "Mohamed Mahmood Nasr",
+          "M. Nasr",
+          "Lamia H. Shehata"
+        ],
+        "year": 2021,
+        "abstract": null,
+        "doi": "10.1016/j.currproblcancer.2021.100725",
+        "pmid": "33715867",
+        "venue": "Current Problems in Cancer",
+        "citedByCount": 3,
+        "urls": [],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-291678466",
+        "title": "Immortal time bias reproduces the reported survival benefit of conversion surgery in stage IV gastric cancer: a simulation study",
+        "authors": [
+          "B. K. Sah",
+          "C. Li",
+          "J. Li",
+          "Z. Zhu"
+        ],
+        "year": 2026,
+        "abstract": "Background Conversion surgery for stage IV gastric cancer is supported by a pooled overall survival hazard ratio of 0.36 (95% confidence interval 0.32-0.40) and, in the largest international cohort, median survival of 36.7 versus 12.5-13.8 months on chemotherapy. Survival is measured from diagnosis; the median diagnosis-to-gastrectomy interval is 124 days, which patients must survive to be counted surgical. Methods We simulated cohorts of 3,177 stage IV gastric cancer patients from published parameters: background median survival 14.5 months; median diagnosis-to-surgery interval 124 days (category-specific 92-174 days). Surgery had no effect (true hazard ratio 1.00 by construction). Data were analysed as the literature analyses them (exposure fixed at baseline, follow-up from diagnosis), and by time-varying Cox and landmark analysis. Confounding by indication was added in a second scenario. Results Under immortal time bias alone the naive analysis returned a hazard ratio of 0.794 (95% simulation interval 0.743-0.851), median survival 16.8 versus 12.8 months. Time-varying Cox recovered 1.000 and landmark analysis 1.000-1.004. Bias scaled with the interval: 0.849 at 92 days, 0.715 at 174 days. Adding confounding, the naive estimate fell to 0.601 (0.560-0.644) at strength 0.5 and 0.356 (0.323-0.385) at strength 1.5, overlapping the published estimate; median survival 21.9 versus 8.7 months. Correcting immortal time alone left residual bias (hazard ratio 0.439). Conclusions The reported survival advantage of conversion surgery is reproducible where the operation does nothing; published estimates cannot distinguish benefit from bias. Resolving this requires individual patient data analysed with methods that assign person-time correctly, or completion of JCOG2301.",
+        "doi": "10.64898/2026.09.01.26361986",
+        "pmid": null,
+        "venue": "medRxiv",
+        "citedByCount": 0,
+        "urls": [
+          "https://doi.org/10.64898/2026.09.01.26361986"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.64898/2026.09.01.26361986"
+      },
+      {
+        "elicitId": "ss-256290276",
+        "title": "A systematic review of methodological considerations in time to diagnosis and treatment in colorectal cancer research.",
+        "authors": [
+          "A. Drosdowsky",
+          "Karen E. Lamb",
+          "R. Bergin",
+          "Lucy Boyd",
+          "Kristi M. Milley",
+          "M. IJzerman",
+          "J. Emery"
+        ],
+        "year": 2023,
+        "abstract": null,
+        "doi": "10.1016/j.canep.2023.102323",
+        "pmid": "36701982",
+        "venue": "Cancer Epidemiology",
+        "citedByCount": 15,
+        "urls": [
+          "https://www.sciencedirect.com/science/article/pii/S1877782123000036"
+        ],
+        "studyTypeTags": [
+          "Review",
+          "Systematic Review"
+        ],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://www.sciencedirect.com/science/article/pii/S1877782123000036"
+      },
+      {
+        "elicitId": "ss-232209428",
+        "title": "Understanding and identifying immortal-time bias in surgical health services research: An example using surgical resection of stage IV breast cancer.",
+        "authors": [
+          "Bradford E. Jackson",
+          "R. Greenup",
+          "P. Strassle",
+          "A. Deal",
+          "Christopher D. Baggett",
+          "J. Lund",
+          "K. Reeder-Hayes"
+        ],
+        "year": 2021,
+        "abstract": null,
+        "doi": "10.1016/j.suronc.2021.101539",
+        "pmid": "33706057",
+        "venue": "Surgical oncology",
+        "citedByCount": 14,
+        "urls": [
+          "https://doi.org/10.17615/9p3z-ce07"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.17615/9p3z-ce07"
+      },
+      {
+        "elicitId": "ss-287686245",
+        "title": "Risk Prediction in Cardio-Oncology: Conceptual and Methodological Considerations",
+        "authors": [
+          "J. Sen",
+          "Eitan Amir",
+          "P. Austin",
+          "T. Marwick",
+          "Chris McIntosh",
+          "P. Thavendiranathan",
+          "H. Abdel-Qadir"
+        ],
+        "year": 2026,
+        "abstract": null,
+        "doi": "10.1016/j.jaccao.2026.01.006",
+        "pmid": "42017562",
+        "venue": "JACC CardioOncology",
+        "citedByCount": 3,
+        "urls": [
+          "https://doi.org/10.1016/j.jaccao.2026.01.006"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://doi.org/10.1016/j.jaccao.2026.01.006"
+      },
+      {
+        "elicitId": "ss-247408129",
+        "title": "Immortal-time bias in older vs younger age groups: a simulation study with application to a population-based cohort of patients with colon cancer",
+        "authors": [
+          "S. Pilleron",
+          "C. Maringe",
+          "E. Morris",
+          "C. Leyrat"
+        ],
+        "year": 2022,
+        "abstract": "Background In observational studies, the risk of immortal-time bias (ITB) increases with the likelihood of early death, itself increasing with age. We investigated how age impacts the magnitude of ITB when estimating the effect of surgery on 1-year overall survival (OS) in patients with Stage IV colon cancer aged 50–74 and 75–84 in England. Methods Using simulations, we compared estimates from a time-fixed exposure model to three statistical methods addressing ITB: time-varying exposure, delayed entry and landmark methods. We then estimated the effect of surgery on OS using a population-based cohort of patients from the CORECT-R resource and conducted the analysis using the emulated target trial framework. Results In simulations, the magnitude of ITB was larger among older patients when their probability of early death increased or treatment was delayed. The bias was corrected using the methods addressing ITB. When applied to CORECT-R data, these methods yielded a smaller effect of surgery than the time-fixed exposure approach but effects were similar in both age groups. Conclusion ITB must be addressed in all longitudinal studies, particularly, when investigating the effect of exposure on an outcome in different groups of people (e.g., age groups) with different distributions of exposure and outcomes.",
+        "doi": "10.1038/s41416-023-02187-0",
+        "pmid": "36759725",
+        "venue": "British Journal of Cancer",
+        "citedByCount": 15,
+        "urls": [
+          "https://researchonline.lshtm.ac.uk/id/eprint/4671016/1/Pilleron-etal-2023-Immortal-time-bias-in-older-vs-younger-age-groups.pdf",
+          "https://www.medrxiv.org/content/medrxiv/early/2022/03/13/2022.03.11.22272268.full.pdf",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10070415/pdf/41416_2023_Article_2187.pdf",
+          "https://www.nature.com/articles/s41416-023-02187-0.pdf"
+        ],
+        "studyTypeTags": [
+          "Longitudinal"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41416-023-02187-0.pdf"
+      },
+      {
+        "elicitId": "ss-22048769",
+        "title": "Studying the Effects of Nonindicated Medications on Cancer: Etiologic versus Action-Focused Analysis of Epidemiologic Data",
+        "authors": [
+          "J. W. Jackson",
+          "X. García-Albéniz"
+        ],
+        "year": 2018,
+        "abstract": "The study of nonindicated medications on cancer outcomes is challenged by potential time-related biases. The literature has strongly advocated for treating the exposure as time-varying and summarizing the outcomes through a dose–response model (an etiologic-focused analysis). An alternative is to refashion the data to resemble a hypothetical randomized trial of drug use (an action-focused analysis). To our knowledge, their relative treatment of time-related bias and aspects of interpretation have not been compared. In this commentary, using the study of metformin use on colorectal cancer risk by Bradley and colleagues (2018) as motivation, we compare the etiologic versus action-focused analysis of epidemiologic data. We examine their treatment of immortal person-time, time-varying confounding, selection bias, and the biological and clinical relevance of their results. In doing so, we aim to establish areas of common ground and points of departure that can guide future observational studies of medications on cancer risk, recurrence, and survival. Cancer Epidemiol Biomarkers Prev; 27(5); 520–4. ©2018 AACR. See related article by Bradley et al., p. 525",
+        "doi": "10.1158/1055-9965.EPI-17-0862",
+        "pmid": "29716926",
+        "venue": "Cancer Epidemiology, Biomarkers and Prevention",
+        "citedByCount": 7,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-251693985",
+        "title": "The timing, the treatment, the question: Comparison of epidemiologic approaches to minimize immortal time bias in real-world data using a surgical oncology example",
+        "authors": [
+          "E. Duchesneau",
+          "Bradford E. Jackson",
+          "Michael A. Webster-Clark",
+          "J. Lund",
+          "K. Reeder-Hayes",
+          "A. Nápoles",
+          "P. Strassle"
+        ],
+        "year": 2022,
+        "abstract": "Background: Studies evaluating the effects of cancer treatments are prone to immortal time bias that, if unaddressed, can lead to treatments appearing more beneficial than they are. Methods: To demonstrate the impact of immortal time bias, we compared results across several analytic approaches (dichotomous exposure, dichotomous exposure excluding immortal time, time-varying exposure, landmark analysis, clone-censor-weight method), using surgical resection among women with metastatic breast cancer as an example. All adult women diagnosed with incident metastatic breast cancer from 2013-2016 in the National Cancer Database were included. To quantify immortal time bias, we also conducted a simulation study where the “true” relationship between surgical resection and mortality was known. Results: 24,329 women (median age 61, IQR 51-71) were included, and 24% underwent surgical resection. The largest association between resection and mortality was observed when using a dichotomized exposure (HR=0.54, 95% CI=0.51-0.57), followed by dichotomous with exclusion of immortal time (HR=0.62, 95% CI=0.59-0.65). Results from the time-varying exposure, landmark, and clone-censor-weight method analyses were closer to the null (HRs=0.67-0.84). Results from the plasmode simulation found that the time-varying exposure, landmark, and clone-censor-weight method models all produced unbiased HRs (bias −0.003 to 0.016). Both standard dichotomous exposure (HR=0.84, bias −0.177) and dichotomous with exclusion of immortal time (HR=0.93, bias −0.074) produced meaningfully biased estimates. Conclusions: Researchers should use time-varying exposures with a treatment assessment window or the clone-censor-weight method when immortal time is present. Impact: Using methods that appropriately account for immortal time will improve evidence and decision-making from research using real-world data.",
+        "doi": "10.1158/1055-9965.EPI-22-0495",
+        "pmid": "35984990",
+        "venue": "Cancer Epidemiology, Biomarkers and Prevention",
+        "citedByCount": 46,
+        "urls": [
+          "https://doi.org/10.1158/1055-9965.epi-22-0495"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://doi.org/10.1158/1055-9965.epi-22-0495"
+      },
+      {
+        "elicitId": "ss-199026521",
+        "title": "Analytical Methods for Observational Data to Generate Hypotheses and Inform Clinical Decisions.",
+        "authors": [
+          "T. DeWees",
+          "C. Vargas",
+          "M. Golafshar",
+          "W. Harmsen",
+          "A. Dueck"
+        ],
+        "year": 2019,
+        "abstract": null,
+        "doi": "10.1016/J.SEMRADONC.2019.05.003",
+        "pmid": "31472731",
+        "venue": "Seminars in Radiation Oncology",
+        "citedByCount": 2,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-290310263",
+        "title": "Prescription time-distribution matching and immortal time bias: promise, failure modes, and time-aware alternatives",
+        "authors": [
+          "M. Karim"
+        ],
+        "year": 2026,
+        "abstract": "Immortal time bias remains common in observational studies of treatments started after cohort entry, yet its source is often mischaracterized as the immortal interval rather than the design choices that misalign eligibility, assignment, and follow-up. This review is timely because prescription time-distribution matching (PTDM) is still used as a correction despite recent mathematical, simulation, and applied critiques.\n\nImmortal time bias arises through misclassification or selection. PTDM can remove visible misclassified person-time, but its exclusion rule can drop controls whose pseudo-treatment dates exceed follow-up, producing left truncation, loss of representativeness, and even reversal of estimated effects. Iterative time-distribution matching reduces this exclusion but can retain residual left-truncation artifacts. Time-dependent Cox models, sequential designs, clone-censor-weight emulation, nested case–control sampling, and competing-risk estimators provide more transparent, time-aware alternatives.\n\nPTDM should not be a default primary analysis. Studies should declare time zero, report grace periods and excluded person-time, and, where longitudinal data permit, benchmark PTDM-type analyses against time-varying or target-trial approaches. No single method dominates: relative performance depends on the data structure, the longitudinal information available, the target estimand, and each method's assumptions.",
+        "doi": "10.1097/pxh.0000000000000080",
+        "pmid": null,
+        "venue": "Current Opinion in Epidemiology and Public Health",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [
+          "Review",
+          "Longitudinal"
+        ],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-3781956",
+        "title": "Examining Bias in Studies of Statin Treatment and Survival in Patients With Cancer",
+        "authors": [
+          "L. Emilsson",
+          "X. García-Albéniz",
+          "R. Logan",
+          "E. Caniglia",
+          "M. Kalager",
+          "M. Hernán"
+        ],
+        "year": 2017,
+        "abstract": "Importance Patients with cancer who use statins appear to have a substantially better survival than nonusers in observational studies. However, this inverse association between statin use and mortality may be due to selection bias and immortal-time bias. Objective To emulate a randomized trial of statin therapy initiation that is free of selection bias and immortal-time bias. Design, Setting, and Participants We used observational data on 17 372 patients with cancer from the Surveillance, Epidemiology, and End Results (SEER)-Medicare database (2007-2009) with complete follow-up until 2011. The SEER-Medicare database links 17 US cancer registries and claims files from Medicare and Medicaid in 12 US states. We included individuals with a new diagnosis of colorectal, breast, prostate, or bladder cancer who had not been prescribed statins for at least 6 months before the cancer diagnosis. Individuals were duplicated, and each replicate was assigned to either the strategy “statin therapy initiation within 6 months after diagnosis” or “no statin therapy initiation.” Replicates were censored when they stopped following their assigned strategy, and the potential selection bias was adjusted for via inverse-probability weighting. Hazard ratios (HRs), cumulative incidences, and risk differences were calculated for all-cause mortality and cancer-specific mortality. We then compared our estimates with those obtained using the same analytic approaches used in previous observational studies. Exposures Statin therapy initiation within 6 months after cancer diagnosis. Main Outcomes and Measures Cancer-specific and all-cause mortality using SEER-Medicare data and data from previous studies. Results Of the 17 372 patients whose data were analyzed, 8440 (49%) were men, and 8932 (51%) were women (mean [SD] age, 76.4 [7.4] years; range, 66-115 years). The adjusted HR (95% CI) comparing statin therapy initiation vs no initiation was 1.00 (0.88-1.15) for cancer-specific mortality and 1.07 (0.93-1.21) for overall mortality. Cumulative incidence curves for both groups were almost overlapping (the risk difference never exceeded 0.8%). In contrast, the methods used by prior studies resulted in an inverse association between statin use and mortality (pooled hazard ratio 0.69). Conclusion and Relevance After using methods that are not susceptible to selection bias from prevalent users and to immortal time bias, we found that initiation of therapy with statins within 6 months after cancer diagnosis did not appear to improve 3-year cancer-specific or overall survival.",
+        "doi": "10.1001/jamaoncol.2017.2752",
+        "pmid": "28822996",
+        "venue": "JAMA Oncology",
+        "citedByCount": 182,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/5790310"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/5790310"
+      },
+      {
+        "elicitId": "ss-3705494",
+        "title": "Immortal‐time bias: a crucial yet overlooked confounder in urological research",
+        "authors": [
+          "S. Fletcher",
+          "P. Gild",
+          "Q. Trinh"
+        ],
+        "year": 2017,
+        "abstract": "The measurement of treatment effect through observational studies has become commonplace in the medical literature. These cohort studies provide valuable data on outcomes that can be difficult to assess in randomized controlled trials, such as long-term mortality. Accurate interpretation of observational data, however, requires accounting for potential confounders of study design, including the immortal-time bias. In this issue of BJUI, Wallis et al. [1] show how accounting for this bias can influence the measured effect of cumulative testosterone exposure on mortality. The implications of their findings extend to several other studies, whose designs may also be subject to immortal-time bias.",
+        "doi": "10.1111/bju.13966",
+        "pmid": "29206353",
+        "venue": "BJU International",
+        "citedByCount": 1,
+        "urls": [
+          "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bju.13966"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/bju.13966"
+      },
+      {
+        "elicitId": "ss-22618158",
+        "title": "Immortal time bias: a frequently unrecognized threat to validity in the evaluation of postoperative radiotherapy.",
+        "authors": [
+          "Henry S. Park",
+          "C. Gross",
+          "D. Makarov",
+          "James B. Yu"
+        ],
+        "year": 2012,
+        "abstract": null,
+        "doi": "10.1016/j.ijrobp.2011.10.025",
+        "pmid": "22342097",
+        "venue": "International Journal of Radiation Oncology, Biology, Physics",
+        "citedByCount": 160,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-3916455",
+        "title": "Immortal time bias in pharmacoepidemiological studies on cancer patient survival: empirical illustration for beta-blocker use in four cancers with different prognosis",
+        "authors": [
+          "J. Weberpals",
+          "L. Jansen",
+          "M. V. van Herk-Sukel",
+          "J. Kuiper",
+          "M. Aarts",
+          "P. Vissers",
+          "H. Brenner"
+        ],
+        "year": 2017,
+        "abstract": "Immortal time bias (ITB) is still seen frequently in medical literature. However, not much is known about this bias in the field of cancer (pharmaco-)epidemiology. In context of a hypothetical beneficial beta-blocker use among cancer patients, we aimed to demonstrate the magnitude of ITB among 9876 prostate, colorectal, lung and pancreatic cancer patients diagnosed between 1998 and 2011, which were selected from a database linkage of the Netherlands Cancer Registry and the PHARMO Database Network. Hazard ratios (HR) and 95% confidence intervals from three ITB scenarios, defining exposure at a defined point after diagnosis (model 1), at any point after diagnosis (model 2) and as multiple exposures after diagnosis (model 3), were calculated to investigate the association between beta-blockers and cancer prognosis using Cox proportional hazards regression. Results were compared to unbiased estimates derived from the Mantel-Byar model. Ignoring ITB led to substantial smaller HRs for beta-blocker use proposing a significant protective association in all cancer types [e.g. HR 0.18 (0.07-0.43) for pancreatic cancer in model 1], whereas estimates derived from the Mantel-Byar model were mainly suggesting no association [e.g. HR 1.10 (0.84-1.44)]. The magnitude of bias was consistently larger among cancer types with worse prognosis [overall median HR differences between all scenarios in model 1 and Mantel-Byar model of 0.56 (prostate), 0.72 (colorectal), 0.77 (lung) and 0.85 (pancreas)]. In conclusion, ITB led to spurious beneficial associations of beta-blocker use among cancer patients. The magnitude of ITB depends on the duration of excluded immortal time and the prognosis of each cancer.",
+        "doi": "10.1007/s10654-017-0304-5",
+        "pmid": "28864947",
+        "venue": "European Journal of Epidemiology",
+        "citedByCount": 43,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      }
+    ],
+    "warnings": []
+  }
+}

@@ -1,29 +1,36 @@
 import type { ChemicalPropertyObservation } from "@/lib/scoped-evidence";
 import { ObservationSources } from "./ScopedEvidence";
 
-const endpoint: Record<ChemicalPropertyObservation["property"], string> = {
-  "chemical-identity": "Chemical identity",
-  release: "Release and processing",
-  "membrane-access": "Membrane access",
-  "bystander-killing": "Bystander killing",
-  "transporter-substrate": "Transporter substrate",
-  "transporter-inhibition": "Transporter inhibition",
-  "conjugate-loading": "Named conjugate loading",
+/** What was measured, in a reader's words first; the laboratory's term is the tooltip. */
+const endpoint: Record<ChemicalPropertyObservation["property"], [plain: string, precise: string]> = {
+  "chemical-identity": ["Which chemical it is", "Chemical identity"],
+  release: ["How it is released", "Release and processing"],
+  "membrane-access": ["Crossing cell membranes", "Membrane access (permeability)"],
+  "bystander-killing": ["Effect on neighbouring cells", "Bystander killing"],
+  "transporter-substrate": ["Pumped out by cells", "Transporter substrate (efflux)"],
+  "transporter-inhibition": ["Blocking a cell pump", "Transporter inhibition"],
+  "conjugate-loading": ["Drug molecules per antibody", "Conjugate loading (drug-to-antibody ratio) of the named product"],
+};
+
+const evidenceType: Record<ChemicalPropertyObservation["evidenceType"], string> = {
+  experimental: "from an experiment",
+  "label-stated": "stated on the product label",
+  "conference-abstract": "from a conference abstract",
 };
 
 export function ChemicalEvidence({ id, name, observations }: { id: string; name: string; observations: readonly ChemicalPropertyObservation[] }) {
-  return <details id={`chemical-evidence-${id}`} className="border-b border-border py-3">
-    <summary className="cursor-pointer font-medium">{name}: species and evidence</summary>
-    {observations.length ? <ul className="mt-3 space-y-4 text-sm">
+  return <details id={`chemical-evidence-${id}`} className="border-b border-border py-3 scroll-mt-28">
+    <summary className="cursor-pointer font-medium">{name}: what was measured, and on which chemical</summary>
+    {observations.length ? <ul className="mt-3 space-y-4 text-sm max-w-3xl">
       {observations.map((observation, i) => <li key={i}>
-        <p><strong>{observation.species.name}</strong> · {endpoint[observation.property]} · {observation.evidenceType.replaceAll("-", " ")}</p>
+        <p><strong>{observation.species.name}</strong> · <span title={endpoint[observation.property][1]}>{endpoint[observation.property][0]}</span> · {evidenceType[observation.evidenceType]}</p>
         <p>{observation.statement}</p>
-        {observation.conjugate && <p>Conjugate: {observation.conjugate.name}</p>}
-        {observation.transporters && <p>Transporters: {observation.transporters.join(", ")}</p>}
-        <p className="text-muted">Context: {observation.context} Method: {observation.method}</p>
+        {observation.conjugate && <p>Product: {observation.conjugate.name}</p>}
+        {observation.transporters && <p><span title="Transporters: proteins that carry a drug out of, or into, a cell">Cell pumps tested:</span> {observation.transporters.join(", ")}</p>}
+        <p className="text-muted">Where: {observation.context} How: {observation.method}</p>
         {observation.limitation && <p className="text-muted">{observation.limitation}</p>}
         <ObservationSources observation={observation} />
       </li>)}
-    </ul> : <p className="mt-3 text-sm text-muted">No observation is recorded for a specified chemical species and assay. This does not mean a negative result.</p>}
+    </ul> : <p className="mt-3 text-sm text-muted">Not recorded here. OnCo has not yet added a sourced measurement that names the exact chemical and the test. That is a gap in our records. It does not mean the answer is no.</p>}
   </details>;
 }

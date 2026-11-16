@@ -66,9 +66,9 @@ describe("chemical species and experimental observations", () => {
 
   it("keeps absent observations unknown and indexes an explicitly named canonical species", () => {
     expect(readChemicalObservations({})).toEqual([]);
-    expect(chemicalEvidenceSummary([], ["membrane-access"])).toBe("Not recorded for a specified species and assay.");
+    expect(chemicalEvidenceSummary([], ["membrane-access"])).toBe("Not recorded here");
     const html = renderToStaticMarkup(createElement(ChemicalEvidence, { id: "missing-example", name: "Example", observations: [] }));
-    expect(html).toContain("This does not mean a negative result.");
+    expect(html).toContain("It does not mean the answer is no.");
     const term = TermSchema.parse({ id: "example-chemical-term", kind: "term", name: "Example term", category: "Examples", asOf: "2026-11-09", tldr: "A fictional term.", summary: "A fictional term.", chemicalObservations: [{ ...observation, species: { name: "Specified species", entityId: "dm1" }, conjugate: { name: "Specified conjugate", entityId: "trastuzumab-emtansine" } }] });
     expect(outgoing(term)).toContainEqual(["dm1", "chemical-species"]);
     expect(outgoing(term)).toContainEqual(["trastuzumab-emtansine", "chemical-conjugate"]);

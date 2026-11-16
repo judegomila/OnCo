@@ -411,7 +411,7 @@ function kindTabs(e: Entity): Tab[] {
             {!e.conjugateComposition && <Field label="Payload">{e.payload}</Field>}
             <Field label="Linker">{e.linker}</Field>
           </div>
-          {e.conjugateComposition && <Block title="Conjugate composition"><ConjugateComposition composition={e.conjugateComposition} /></Block>}
+          {e.conjugateComposition && <Block title="What it is made of"><ConjugateComposition composition={e.conjugateComposition} /></Block>}
           {e.dosing && <div className="mt-6"><DosingCard drug={e} /></div>}
           <ReadoutsForDrug drugId={e.id} />
           {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2"><TL text="Companion diagnostics" /></div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
@@ -421,7 +421,7 @@ function kindTabs(e: Entity): Tab[] {
           <DrugAvailability drug={e} />
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length || e.regulatoryClaims?.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length || e.regulatoryClaims?.length, content: (<>
-          {!!e.regulatoryClaims?.length && <Block title="Regulatory claims and intended uses"><RegulatoryClaims claims={e.regulatoryClaims} /></Block>}
+          {!!e.regulatoryClaims?.length && <Block title="What each approval covers"><RegulatoryClaims claims={e.regulatoryClaims} /></Block>}
           {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
           {e.approvals.length > 0 && <Block title="Approvals"><ScrollRow className="-mx-4 px-4"><table className="onco" lang="en"><thead><tr><th>Region</th><th>Year</th><th>Indication</th></tr></thead>
             <tbody>{e.approvals.map((a, i) => <tr key={i}><td>{a.region}</td><td className="tabular-nums">{a.year}</td><td>{a.indication}{a.note && <span className="text-muted"> · {a.note}</span>}</td></tr>)}</tbody></table></ScrollRow></Block>}

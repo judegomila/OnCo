@@ -12,7 +12,7 @@ import { StaticTable, type StaticColumn, type StaticRow } from "@/components/fil
 import { ChemicalEvidence } from "@/components/ChemicalEvidence";
 import { chemicalEvidenceSummary, readChemicalObservations } from "@/lib/chemical-observations";
 
-export const metadata: Metadata = pageMeta({ title: "Payloads and linkers", description: "Selected ADC payload and linker examples, with chemical species, study context, named product loading and sources.", path: "/payloads/" });
+export const metadata: Metadata = pageMeta({ title: "Payloads and linkers", description: "The cell-killing drugs carried by antibody-drug conjugates and the linkers that hold them: what each one does, what has been measured on the exact chemical, how many are attached in named products, and the sources.", path: "/payloads/" });
 
 /** Link a registry row to its glossary page with a hover explanation. */
 function Obj({ id, children, className = "" }: { id: string; children: React.ReactNode; className?: string }) {
@@ -26,10 +26,10 @@ const PAYLOAD_COLUMNS: StaticColumn[] = [
   { key: "payload", label: "Payload", className: "min-w-[140px]" },
   { key: "class", label: "Class", filterable: true, className: "text-muted" },
   { key: "mechanism", label: "Mechanism", className: "text-muted max-w-xs" },
-  { key: "bystander", label: "Membrane and bystander evidence", className: "text-muted max-w-xs" },
-  { key: "efflux", label: "Transporter evidence", className: "text-muted max-w-xs" },
-  { key: "dar", label: "Named loading examples", className: "text-muted max-w-xs" },
-  { key: "toxicities", label: "Product safety context", className: "text-muted max-w-xs" },
+  { key: "bystander", label: "Reaching neighbouring cells", className: "text-muted max-w-xs", tip: "Membrane access and bystander killing: whether the released chemical was shown to cross cell membranes, or to affect nearby cells that lack the target, in the experiment named." },
+  { key: "efflux", label: "Pumped out by cells", className: "text-muted max-w-xs", tip: "Transporter (efflux) evidence: whether the named chemical was shown to be carried out of cells by a pump such as P-gp or BCRP, or to block one. Being pumped and blocking a pump are different findings." },
+  { key: "dar", label: "Drug molecules per antibody", className: "text-muted max-w-xs", tip: "The drug-to-antibody ratio (DAR) reported for a named product or preparation. It describes that product, not the payload in general." },
+  { key: "toxicities", label: "Side effects of the named products", className: "text-muted max-w-xs", tip: "Side effects reported for the whole named product. They are not a property of the payload alone: the antibody, the linker and the dose all contribute." },
   { key: "products", label: "Products", className: "min-w-[180px]" },
 ];
 
@@ -52,12 +52,12 @@ export default function PayloadsPage() {
   return (
     <>
       <PageHeader kicker={<GroupKicker id="intel" />} title="Payloads and linkers"
-        lede="Compare the exact chemical released by an antibody-drug conjugate, the way it was tested and the whole product carrying it. A free payload, its linked form and its metabolites can have different properties." />
+        lede="An antibody-drug conjugate is an antibody that carries a cell-killing drug, the payload, joined to it by a linker. This page compares the payloads and linkers in use. The free drug, the form attached to the antibody and the forms the body breaks it into can behave differently, so each measurement names the exact chemical it was made on and how it was tested." />
       <Container className="pb-16">
         <h2 className="text-xl font-semibold mb-3">Payloads</h2>
         <StaticTable rows={payloadRows} columns={PAYLOAD_COLUMNS} noun="payloads" url />
-        <p className="text-xs text-muted mt-2">These are selected examples. Open the species and evidence entries for methods, limitations and sources. Missing observations mean that a specified measurement is not recorded.</p>
-        <h2 className="text-xl font-semibold mt-8 mb-3">Species and evidence</h2>
+        <p className="text-xs text-muted mt-2 max-w-3xl">These are selected examples, not every payload. Each entry in the table links to the measurement behind it, with its method, its limits and its source. &ldquo;Not recorded here&rdquo; marks a gap in OnCo&apos;s records: no sourced measurement has been added yet. It does not mean the answer is no.</p>
+        <h2 className="text-xl font-semibold mt-8 mb-3">The measurements behind the table</h2>
         {payloads.map(payload => <ChemicalEvidence key={payload.id} id={payload.id} name={payload.name} observations={observations.get(payload.id)!} />)}
 
         <h2 className="text-xl font-semibold mt-12 mb-3">Linkers</h2>
@@ -77,7 +77,7 @@ export default function PayloadsPage() {
             </tbody>
           </table>
         </div>
-        <p className="text-xs text-muted mt-6 max-w-3xl">Bystander killing also depends on release, exposure and neighbouring-cell sensitivity. Transporter substrate and transporter inhibition are different endpoints. Keep differing source findings with their methods; no family-wide resistance or clinical selection rule follows from one assay.</p>
+        <p className="text-xs text-muted mt-6 max-w-3xl">Whether a conjugate affects neighbouring cells depends on more than the payload: how the drug is released, how much reaches the tissue and how sensitive the nearby cells are all matter. Being pumped out of a cell and blocking the pump are different findings. Where two studies disagree, both are kept with their methods. One laboratory result does not show how a whole family of payloads behaves, or who a treatment suits.</p>
       </Container>
     </>
   );

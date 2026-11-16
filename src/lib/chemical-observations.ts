@@ -22,5 +22,5 @@ export function queryChemicalObservations(observations: readonly ChemicalPropert
 
 export function chemicalEvidenceSummary(observations: readonly ChemicalPropertyObservation[], properties: readonly ChemicalPropertyObservation["property"][]) {
   const selected = observations.filter(observation => properties.includes(observation.property));
-  return selected.length ? selected.map(observation => `${observation.conjugate ? `${observation.conjugate.name}: ` : ""}${observation.species.name}: ${observation.statement}`).join(" ") : "Not recorded for a specified species and assay.";
+  return selected.length ? selected.map(observation => `${observation.conjugate ? `${observation.conjugate.name}: ` : ""}${observation.species.name}: ${observation.statement}`).join(" ") : "Not recorded here";
 }

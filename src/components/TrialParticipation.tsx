@@ -48,16 +48,16 @@ export function TrialParticipation({ t }: { t: Trial }) {
               <Row label="Registry updated">{p.lastUpdatePosted}</Row>
             </dl>
             {p.facilities !== undefined && <details>
-              <summary className="cursor-pointer min-h-11 py-3 underline">Named facilities in this registry capture ({p.facilities.length})</summary>
+              <summary className="cursor-pointer min-h-11 py-3 underline">Hospitals and sites named on the registry ({p.facilities.length})</summary>
               {p.facilities.length ? <ul className="space-y-2">{p.facilities.map((f, i) => <li key={i}>
                 <span className="font-medium">{f.facility ?? "Facility name not stated"}</span>
                 {[f.city, f.state, f.country].filter(Boolean).length > 0 && <span> · {[f.city, f.state, f.country].filter(Boolean).join(", ")}</span>}
                 <p>Facility status: {f.status ? f.status.toLowerCase().replaceAll("_", " ") : "not stated"}.</p>
-              </li>)}</ul> : <p>No facilities were returned in this capture.</p>}
-              <p className="text-xs text-muted">From the registry record read {p.fetchedAt.slice(0, 10)}. A facility status does not establish cohort or slot availability.</p>
+              </li>)}</ul> : <p>The registry record named no sites when it was read.</p>}
+              <p className="text-xs text-muted">From the registry record read {p.fetchedAt.slice(0, 10)}. A site listed as recruiting may still have no place in the part of the trial that fits you; ask the study team.</p>
             </details>}
             {!!p.cohortObservations?.length && <section className="space-y-3">
-              <h3 className="font-medium">Separately reported cohort availability</h3>
+              <h3 className="font-medium">Places reported for a named group at a named site</h3>
               {p.cohortObservations.map((c, i) => <div key={i}>
                 <p>{c.facility} · {c.cohort}: {c.availability.replaceAll("-", " ")}. {c.availableSlots === undefined ? "Slots not stated." : `${c.availableSlots} slots reported.`}</p>
                 {c.note && <p>{c.note}</p>}<ObservationSources observation={c} />

@@ -1493,7 +1493,7 @@ export const companyPipelineGapTrials: TrialInput[] = [
     setting: "Phase I Study of the PKMYT1 Inhibitor RP-6306 in Combination With Carboplatin and Paclitaxel for the Treatment of Recurrent TP53 Ovarian and Uterine Cancer",
     tldr: "A phase 1 trial of Lunresertib run by University Health Network, Toronto, active and no longer recruiting.",
     summary: "Phase 1 Study of RP-6306 With Carboplatin and Paclitaxel in TP53 Ovarian and Uterine Cancer is a phase 1 interventional study registered as NCT06107868 by University Health Network, Toronto, with 6 participants planned, started 2024-03-20. Conditions recorded: Recurrent Ovarian Cancer, Recurrent Uterine Cancer, Metastatic Cancer and Advanced Cancer. Interventions recorded: RP-6306, Carboplatin and Paclitaxel.",
-    drugs: ["lunresertib"], cancers: ["ovarian","endometrial","metastatic-cancer", "advanced-recurrent-endometrial-cancer", "endometrial-p53-abnormal"], companies: ["repare-therapeutics","debiopharm"],
+    drugs: ["lunresertib"], cancers: ["ovarian","endometrial","metastatic-cancer", "endometrial-p53-abnormal"], companies: ["repare-therapeutics","debiopharm"],
     links: [{ label: "ClinicalTrials.gov NCT06107868", url: "https://clinicaltrials.gov/study/NCT06107868" }] },
   { id: "nct06232408", kind: "trial", name: "LIONS (PLK4 Inhibitor in Advanced Solid Tumors)", nct: "NCT06232408", phase: "1", status: "historic", sponsor: "Repare Therapeutics", enrolled: 29, asOf, tags: trialTags,
     setting: "Phase 1 Trial of the Safety, Pharmacokinetics, Pharmacodynamics, and Preliminary Clinical Activity of RP-1664 in Participants With Advanced Solid Tumors",

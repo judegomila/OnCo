@@ -75047,6 +75047,29 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       ]
     }
   ],
+  "nct07432399": [
+    {
+      "nct": "NCT07432399",
+      "source": "https://clinicaltrials.gov/study/NCT07432399",
+      "fetchedAt": "2026-10-07T16:55:44.977Z",
+      "studySha256": "20ce828d4f7c3bc490a032b2fbd2acac4baea5ef41ce9e488e2e4d2a49a154c2",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-03-06",
+      "leadSponsor": "Institute of Oncology Ljubljana",
+      "collaboratorCount": 0,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "healthyVolunteers": false,
+      "hasEligibility": true,
+      "enrolment": 100,
+      "enrolmentType": "ESTIMATED",
+      "siteCount": 1,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "Slovenia"
+      ]
+    }
+  ],
   "nct07473128": [
     {
       "nct": "NCT07473128",

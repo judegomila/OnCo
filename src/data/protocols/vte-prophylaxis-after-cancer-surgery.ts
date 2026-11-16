@@ -166,6 +166,7 @@ export const vteProphylaxisAfterCancerSurgery = protocol({
     },
   ],
   cancers: ["colorectal", "ovarian", "endometrial", "gastric", "pancreatic"],
+  drugs: ["apixaban", "rivaroxaban"],
   technologies: ["cancer-associated-thrombosis"],
   terms: ["vte"],
   related: [],

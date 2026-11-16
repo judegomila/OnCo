@@ -176,7 +176,7 @@ export const anticoagulantsAndAntiplateletsBeforeEndoscopy = protocol({
       accessed: "2026-11-11",
     },
   ],
-  drugs: ["aspirin"],
+  drugs: ["aspirin", "apixaban", "rivaroxaban", "edoxaban", "warfarin"],
   technologies: ["cancer-associated-thrombosis", "endoscopic-resection"],
   terms: ["endoscopy", "colonoscopy", "vte"],
   related: ["antithrombotic-interruption-around-surgery"],

@@ -311,6 +311,7 @@ export const ja: UiDict = {
   "l.Payload": "ペイロード",
   "l.Linker": "リンカー",
   "l.Where it is approved": "承認されている地域",
+  "l.Is this drug available in my country?": "この薬は私の国で使えますか？",
   "l.Approvals": "承認",
   "l.Region": "地域",
   "l.Year": "年",

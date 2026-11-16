@@ -221,6 +221,7 @@ export const syringeDriverContinuousSubcutaneousInfusion = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["cyclizine"],
   technologies: ["syringe-drivers", "hospice-end-of-life"],
   terms: ["last-days-of-life-care"],
   related: ["care-in-the-last-days-of-life", "strong-opioids-for-cancer-pain", "opioid-switching-and-conversion"],

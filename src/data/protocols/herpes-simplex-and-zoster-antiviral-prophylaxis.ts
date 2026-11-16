@@ -145,7 +145,7 @@ export const herpesSimplexAndZosterAntiviralProphylaxis = protocol({
   ],
   institutions: ["asco"],
   cancers: ["aml", "all-leukemia", "multiple-myeloma", "cll"],
-  drugs: ["bortezomib", "idelalisib"],
+  drugs: ["bortezomib", "idelalisib", "valaciclovir"],
   technologies: ["allogeneic-hsct", "autologous-stem-cell-transplant"],
   related: ["lymphoma-tx-pjp-and-infection-prophylaxis"],
   sections: ["supportive-care"],

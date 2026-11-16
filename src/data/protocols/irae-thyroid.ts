@@ -154,7 +154,7 @@ export const iraeThyroid = protocol({
     "The guidelines disagree on whether to treat a raised TSH (4 to 10 mIU/L) with a normal free T4, and on the levothyroxine starting dose; no trial compares the approaches in people on immunotherapy.",
     "Recovery is uncommon and the proportion of transient versus permanent hypothyroidism cannot be defined from the studies ESE reviewed.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "levothyroxine"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["immune-endocrinopathy", "irae"],

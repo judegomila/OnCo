@@ -75,9 +75,10 @@ import { roadmapStorySteps } from "@/lib/roadmap-story";
 import { defaultOpen, eraBody, eraCounts, roadmapFile, WATCH_PAGE, watchRows } from "@/lib/roadmap-eras";
 import { RoadmapEra, RoadmapWatchMore, WatchRowView } from "./RoadmapEras";
 import structureIndex from "../../public/structures/index.json";
-import { RegionStrip } from "./RegionMatrix";
+import { DrugAvailability } from "./DrugAvailability";
+import { InstitutionTrialsHere } from "./TrialsHere";
+import { recruitingAt } from "@/lib/trials-here";
 import { RegistryCheck } from "./RegistryCheck";
-import { regionalApprovals } from "@/data/regional-approvals";
 import { CancerIcon } from "./CancerIcon";
 import { YearEvents, YearNav, YearStats } from "./YearRecord";
 import { ResearchOutput } from "./ResearchOutput";
@@ -413,7 +414,8 @@ function kindTabs(e: Entity): Tab[] {
           {assaysForDrug(e.id).length > 0 && <div className="mt-6"><div className="kicker mb-2"><TL text="Companion diagnostics" /></div><ul className="text-sm space-y-1">{assaysForDrug(e.id).map((a) => <li key={a.id}><Link className="font-medium hover:underline" href={`/assays/#${a.id}`}>{a.name}</Link> <span className="text-muted">· {a.cutoff}</span></li>)}</ul></div>}
           {(coverageUs[e.id] || coverageUk[e.id]) && <div className="mt-6 grid gap-4 md:grid-cols-2">{coverageUs[e.id] && <CoverageUsCard drugId={e.id} />}{coverageUk[e.id] && <CoverageUkCard drugId={e.id} />}</div>}
           <div className="mt-6 space-y-4"><ExclusivityPanel drugId={e.id} /><DealsPanel id={e.id} /><CatalystsPanel id={e.id} /></div>
-          {regionalApprovals[e.id] && <div className="mt-6"><div className="kicker mb-2"><TL text="Where it is approved" /></div><RegionStrip row={regionalApprovals[e.id]} /><p className="text-xs text-muted mt-1"><Link className="underline" href="/regulatory/regions/">Compare all products across the US, EU, UK, Japan, China and Australia →</Link></p></div>}
+          {/* Replaces the seven-region strip: the same regional rows, plus who pays, help with the cost, the WHO list and the country pages that name the drug. */}
+          <DrugAvailability drug={e} />
         </>),
         ...(e.approvals.length || e.regulatoryEvents.length ? [{ id: "approvals", label: "Regulatory", count: e.regulatoryEvents.length || e.approvals.length, content: (<>
           {e.regulatoryEvents.length > 0 && <RegulatoryTimeline events={e.regulatoryEvents} />}
@@ -466,6 +468,8 @@ function kindTabs(e: Entity): Tab[] {
           </div>
         </>),
         ...(e.programs.length ? [{ id: "programmes", label: "Programmes", count: e.programs.length, content: <Bullets items={e.programs} linked={(t) => withTermHovers(t, { skipId: e.id })} /> }] : []),
+        // Derived from the registry's site lists (src/lib/trials-here.ts), not typed on the record.
+        ...(recruitingAt(e.id).length ? [{ id: "recruiting", label: "Trials recruiting here", count: recruitingAt(e.id).length, content: <InstitutionTrialsHere id={e.id} name={e.name} /> }] : []),
         ...peopleTab([...(g.incoming(e.id).get("person") ?? []), ...e.people.map((id) => g.must(id))]),
       ];
     }

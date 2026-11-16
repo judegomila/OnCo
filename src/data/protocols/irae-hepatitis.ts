@@ -143,7 +143,7 @@ export const iraeHepatitis = protocol({
     "SITC's hepatitis section does not say whether to stop the checkpoint inhibitor permanently after grade 3 hepatitis; AASLD does, and the ASCO hepatitis table was not read, so the guidelines' positions on re-challenge after grade 3 hepatitis are not compared here.",
     "No randomised trial of second-line treatment for steroid-refractory immune hepatitis was found among the sources read.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "prednisone", "methylprednisolone"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "prednisone", "methylprednisolone", "infliximab", "mycophenolate"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["irae"],

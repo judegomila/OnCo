@@ -135,7 +135,7 @@ export const iraeMyocarditis = protocol({
     "No randomised trial of any treatment for checkpoint inhibitor myocarditis was found among the sources read; the evidence for early steroids is one retrospective study of 126 patients, and the second-line agents rest on case series (LE: 4).",
     "Whether routine troponin screening during treatment changes outcomes is unknown; SITC says there is no evidence that it does in patients without symptoms.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "methylprednisolone", "alemtuzumab"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "methylprednisolone", "alemtuzumab", "infliximab", "mycophenolate"],
   technologies: ["checkpoint-inhibitor", "cardiac-biomarker-monitoring"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["myocarditis", "irae"],

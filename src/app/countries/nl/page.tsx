@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -110,7 +111,7 @@ export default function NetherlandsPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#registry", "The registry"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#doing", "What it does differently"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#registry", "The registry"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#doing", "What it does differently"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">Registry figures in the cards; GLOBOCAN {GLOBOCAN.year} estimates in the table</span>}>
@@ -163,6 +164,8 @@ export default function NetherlandsPage() {
             </div>
           )}
         </Section>
+
+        <CountryTrialsSection iso2="NL" />
 
         <Section id="institutions" title="The institutions">
           <Grid items={institutions} />

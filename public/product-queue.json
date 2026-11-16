@@ -13,16 +13,16 @@
     "why": "80 more country deep dives (agent-researched, each fact-checked by a second agent), plus country nav in its own file and the Ask named-medicine rule",
     "pr": "https://github.com/judegomila/OnCo/pull/395",
     "preview": "",
-    "files": 448,
+    "files": 458,
     "proposed": "2026-11-11",
     "state": "waiting"
   },
   {
-    "branch": "product/cross-links-2026-11",
-    "why": "drug availability by country, and trials recruiting here on country and institution pages",
-    "pr": "https://github.com/judegomila/OnCo/pull/397",
+    "branch": "product/glossary-case-sensitive-acronyms",
+    "why": "glossary acronyms match only in capitals",
+    "pr": "https://github.com/judegomila/OnCo/pull/400",
     "preview": "",
-    "files": 42,
+    "files": 3,
     "proposed": "2026-11-12",
     "state": "waiting"
   }

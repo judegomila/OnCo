@@ -343,6 +343,7 @@ export const EN = {
   "l.Payload": "Payload",
   "l.Linker": "Linker",
   "l.Where it is approved": "Where it is approved",
+  "l.Is this drug available in my country?": "Is this drug available in my country?",
   "l.Approvals": "Approvals",
   "l.Region": "Region",
   "l.Year": "Year",

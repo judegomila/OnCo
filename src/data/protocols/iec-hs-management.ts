@@ -165,7 +165,7 @@ export const iecHsManagement = protocol({
     "The ASTCT diagnostic table (Table 1) and Figure 3 drawing were read as text and legend only; the figure image itself was not read.",
     "Whether the same framework applies after bispecific T-cell engagers is named as future research by the ASTCT panel.",
   ],
-  drugs: ["dexamethasone", "methylprednisolone", "ruxolitinib", "etoposide", "emapalumab"],
+  drugs: ["dexamethasone", "methylprednisolone", "ruxolitinib", "etoposide", "emapalumab", "anakinra"],
   technologies: ["car-t"],
   institutions: ["sitc"],
   terms: ["crs", "cytopenias"],

@@ -126,7 +126,7 @@ export const chemotherapyInducedPeripheralNeuropathyAssessmentAndPrevention = pr
   ],
   institutions: ["asco"],
   technologies: ["frozen-gloves-compression-taxane", "limb-cryocompression-devices"],
-  drugs: ["paclitaxel", "nab-paclitaxel", "docetaxel", "oxaliplatin", "vincristine", "bortezomib"],
+  drugs: ["paclitaxel", "nab-paclitaxel", "docetaxel", "oxaliplatin", "vincristine", "bortezomib", "duloxetine"],
   terms: ["peripheral-neuropathy"],
   sections: ["supportive-care"],
   tags: ["protocol", "neuropathy", "supportive-care"],

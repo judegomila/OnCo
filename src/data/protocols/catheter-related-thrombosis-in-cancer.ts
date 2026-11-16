@@ -136,6 +136,7 @@ export const catheterRelatedThrombosisInCancer = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["apixaban", "rivaroxaban", "edoxaban"],
   technologies: ["implanted-ports", "picc-lines", "cancer-associated-thrombosis"],
   terms: ["vte", "central-venous-access"],
   related: ["cancer-associated-vte-treatment", "implanted-port-access-and-care"],

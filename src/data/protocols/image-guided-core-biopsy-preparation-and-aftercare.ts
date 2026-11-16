@@ -205,7 +205,7 @@ export const imageGuidedCoreBiopsyPreparationAndAftercare = protocol({
   ],
   technologies: ["vacuum-assisted-breast-biopsy", "ultrasound", "ct"],
   cancers: ["breast-cancer", "hcc"],
-  drugs: [],
+  drugs: ["warfarin"],
   terms: ["core-needle-biopsy", "biopsy"],
   related: ["anticoagulants-and-antiplatelets-before-endoscopy"],
   upgrades: [],

@@ -179,7 +179,7 @@ export const handFootSyndromePreventionAndDoseModification = protocol({
     "Dose rules for multikinase inhibitors other than regorafenib (sorafenib, cabozantinib, lenvatinib, sunitinib) were not read here; each drug's own label sets them.",
     "The Western guideline recommendations on topical steroids are known here only as the Japanese review reports them.",
   ],
-  drugs: ["capecitabine", "capox", "pegylated-liposomal-doxorubicin", "sorafenib", "regorafenib", "cabozantinib", "lenvatinib", "sunitinib", "tegafur-gimeracil-oteracil"],
+  drugs: ["capecitabine", "capox", "pegylated-liposomal-doxorubicin", "sorafenib", "regorafenib", "cabozantinib", "lenvatinib", "sunitinib", "tegafur-gimeracil-oteracil", "urea-cream", "lidocaine"],
   technologies: ["vitamin-b6-pyridoxine"],
   related: ["celecoxib"],
   terms: ["hand-foot-syndrome"],

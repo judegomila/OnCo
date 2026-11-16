@@ -311,6 +311,7 @@ export const de: UiDict = {
   "l.Payload": "Wirkstofffracht",
   "l.Linker": "Linker",
   "l.Where it is approved": "Wo es zugelassen ist",
+  "l.Is this drug available in my country?": "Ist dieses Medikament in meinem Land verfügbar?",
   "l.Approvals": "Zulassungen",
   "l.Region": "Region",
   "l.Year": "Jahr",

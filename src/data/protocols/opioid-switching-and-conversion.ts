@@ -176,7 +176,7 @@ export const opioidSwitchingAndConversion = protocol({
       accessed: "2026-11-11",
     },
   ],
-  drugs: ["fentanyl"],
+  drugs: ["fentanyl", "morphine", "oxycodone"],
   technologies: ["pain-management", "syringe-drivers"],
   terms: [],
   related: ["strong-opioids-for-cancer-pain"],

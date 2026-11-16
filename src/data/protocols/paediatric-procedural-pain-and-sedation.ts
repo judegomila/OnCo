@@ -141,6 +141,7 @@ export const paediatricProceduralPainAndSedation = protocol({
   institutions: ["nice", "who"],
   companies: ["childrens-oncology-group"],
   cancers: ["childhood-cancers", "all-leukemia"],
+  drugs: ["ketamine", "midazolam", "propofol"],
   technologies: ["implanted-ports"],
   terms: ["intrathecal-therapy"],
   related: ["hand-hygiene-in-cancer-care", "implanted-port-access-and-care"],

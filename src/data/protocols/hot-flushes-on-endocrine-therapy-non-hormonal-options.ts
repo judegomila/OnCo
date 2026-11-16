@@ -156,7 +156,7 @@ export const hotFlushesOnEndocrineTherapyNonHormonalOptions = protocol({
   ],
   institutions: ["nice", "asco", "ontario-health-cancer-care-ontario"],
   technologies: ["endocrine-therapy", "androgen-deprivation", "menopause-after-cancer-treatment", "acupuncture-hot-flushes", "hypnosis-cancer-care"],
-  drugs: ["elinzanetant", "tamoxifen", "letrozole", "anastrozole", "exemestane", "goserelin", "leuprolide", "megestrol-progestins"],
+  drugs: ["elinzanetant", "tamoxifen", "letrozole", "anastrozole", "exemestane", "goserelin", "leuprolide", "megestrol-progestins", "venlafaxine", "gabapentin", "cyproterone"],
   cancers: ["breast-hr-positive", "prostate"],
   terms: ["hot-flushes-on-hormone-therapy", "aromatase-inhibitor", "adt", "menopause-after-chemotherapy-breast"],
   sections: ["supportive-care"],

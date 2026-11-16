@@ -204,7 +204,7 @@ export const diagnosticBronchoscopyAndEbusPreparation = protocol({
     },
   ],
   technologies: ["robotic-bronchoscopy"],
-  drugs: [],
+  drugs: ["midazolam", "propofol", "lidocaine", "glycopyrronium"],
   cancers: ["lung-cancer"],
   terms: ["bronchoscopy", "ebus-tbna"],
   related: ["anticoagulants-and-antiplatelets-before-endoscopy"],

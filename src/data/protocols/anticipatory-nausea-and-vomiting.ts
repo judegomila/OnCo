@@ -119,6 +119,7 @@ export const anticipatoryNauseaAndVomiting = protocol({
     "How many people are offered behavioural therapy, and who delivers it, has not been measured in any source read.",
   ],
   institutions: ["mascc", "esmo"],
+  drugs: ["midazolam"],
   technologies: ["antiemetic-therapy", "relaxation-guided-imagery", "hypnosis-cancer-care"],
   related: ["antiemetic-prophylaxis-by-emetic-risk"],
   sections: ["supportive-care"],

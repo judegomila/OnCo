@@ -170,7 +170,7 @@ export const nauseaAndVomitingInAdvancedCancer = protocol({
   ],
   institutions: ["mascc", "esmo"],
   technologies: ["palliative-care", "syringe-drivers"],
-  drugs: ["dexamethasone"],
+  drugs: ["dexamethasone", "metoclopramide", "haloperidol", "levomepromazine", "cyclizine"],
   terms: ["qt-prolongation"],
   bottlenecks: ["b-palliative"],
   related: ["antiemetic-therapy", "octreotide-lanreotide", "anticipatory-nausea-and-vomiting", "antiemetic-prophylaxis-by-emetic-risk"],

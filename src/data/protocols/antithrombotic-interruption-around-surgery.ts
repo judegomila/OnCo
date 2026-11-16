@@ -199,7 +199,7 @@ export const antithromboticInterruptionAroundSurgery = protocol({
     },
   ],
   cancers: [],
-  drugs: ["aspirin"],
+  drugs: ["aspirin", "warfarin"],
   technologies: ["cancer-associated-thrombosis"],
   terms: ["biopsy", "core-needle-biopsy"],
   related: ["vte-prophylaxis-after-cancer-surgery", "routine-preoperative-tests", "anticoagulants-and-antiplatelets-before-endoscopy"],

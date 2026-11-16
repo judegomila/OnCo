@@ -171,6 +171,7 @@ export const suspectedCentralLineInfection = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["urokinase"],
   technologies: ["implanted-ports", "picc-lines", "catheter-lock-solutions"],
   terms: ["central-venous-access", "febrile-neutropenia"],
   related: ["febrile-neutropenia-first-hour", "implanted-port-access-and-care", "catheter-related-thrombosis-in-cancer"],

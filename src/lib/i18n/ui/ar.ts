@@ -311,6 +311,7 @@ export const ar: UiDict = {
   "l.Payload": "الحمولة",
   "l.Linker": "الرابط",
   "l.Where it is approved": "أين هو معتمد",
+  "l.Is this drug available in my country?": "هل هذا الدواء متاح في بلدي؟",
   "l.Approvals": "الموافقات",
   "l.Region": "المنطقة",
   "l.Year": "السنة",

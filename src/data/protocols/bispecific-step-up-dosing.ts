@@ -150,7 +150,7 @@ export const bispecificStepUpDosing = protocol({
     "The most detailed source, the 2026 European Delphi consensus, was funded by Pfizer and its panel members were paid honoraria; no independent source of the same detail was found.",
     "No randomised comparison of inpatient and outpatient step-up dosing was found.",
   ],
-  drugs: ["teclistamab", "elranatamab", "linvoseltamab", "talquetamab", "glofitamab", "epcoritamab", "mosunetuzumab", "tocilizumab", "dexamethasone", "human-normal-immunoglobulin"],
+  drugs: ["teclistamab", "elranatamab", "linvoseltamab", "talquetamab", "glofitamab", "epcoritamab", "mosunetuzumab", "tocilizumab", "dexamethasone", "human-normal-immunoglobulin", "anakinra"],
   technologies: ["bispecific-antibody"],
   cancers: ["multiple-myeloma"],
   terms: ["crs", "icans", "lymphoma-tx-bispecific-step-up", "lymphoma-tx-immunoglobulin-replacement"],

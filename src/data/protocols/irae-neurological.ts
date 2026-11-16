@@ -141,7 +141,7 @@ export const iraeNeurological = protocol({
     "There are no randomised trials in checkpoint inhibitor neurological toxicity; SITC's LE: 1 grades rest on evidence from the same diseases outside immunotherapy.",
     "Whether a checkpoint inhibitor can ever be restarted after myasthenia gravis, encephalitis or Guillain-Barré syndrome is not addressed beyond SITC's permanent discontinuation for Guillain-Barré and grade 3 to 4 myasthenia.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "methylprednisolone", "human-normal-immunoglobulin", "rituximab"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "methylprednisolone", "human-normal-immunoglobulin", "rituximab", "gabapentin", "duloxetine"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["irae"],

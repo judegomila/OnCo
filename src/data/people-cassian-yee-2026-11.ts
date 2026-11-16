@@ -114,7 +114,7 @@ export const cassianYeeInstitutions: InstitutionInput[] = [
     programs: ["Career Award in Biomedical Sciences", "Clinical Scientist Award in Translational Research"],
     links: [{ label: "Burroughs Wellcome Fund website", url: "https://www.bwfund.org/" }, { label: "Burroughs Wellcome Fund, Our history", url: "https://www.bwfund.org/about/history/" }, { label: "Burroughs Wellcome Fund, About", url: "https://www.bwfund.org/about/" }],
     tags: ["funder", "foundation"] }),
-  inst({ id: "rice-university", name: "Rice University", aka: ["William Marsh Rice University", "Rice"], institutionType: "university", city: "Houston", country: "US", lat: 29.717, lng: -95.402, website: "https://www.rice.edu",
+  inst({ id: "rice-university", name: "Rice University", aka: ["William Marsh Rice University"], institutionType: "university", city: "Houston", country: "US", lat: 29.717, lng: -95.402, website: "https://www.rice.edu",
     tldr: "A private research university in Houston that works with the Texas Medical Center, including on cancer immunotherapy with MD Anderson.",
     summary: "Rice University is on a 300-acre campus in Houston, Texas; it opened as the Rice Institute on 23 September 1912 and was renamed William Marsh Rice University on 1 July 1960 (Rice University, About). The university describes partnerships with local industry and the Texas Medical Center (Rice University, About). Its faculty collaborate with MD Anderson Cancer Center through an immunotherapy consortium that the MD Anderson profile of Cassian Yee lists as founded in 2018.",
     institutions: ["md-anderson"],

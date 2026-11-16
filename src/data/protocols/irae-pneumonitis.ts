@@ -144,7 +144,7 @@ export const iraePneumonitis = protocol({
     "SITC names an ECOG-ACRIN trial comparing IVIG with infliximab for steroid-refractory pneumonitis; its result was not looked for here, and no randomised evidence on second-line treatment was read.",
     "Guidelines differ on whether steroid courses for pneumonitis need Pneumocystis prophylaxis; SITC asks for counselling, the Chinese consensus limits prophylaxis to 20 mg a day for more than 6 weeks, and the ASCO and ESMO positions were not read.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "dostarlimab", "tremelimumab", "avelumab", "prednisone", "cyclophosphamide", "tocilizumab", "methylprednisolone"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "dostarlimab", "tremelimumab", "avelumab", "prednisone", "cyclophosphamide", "tocilizumab", "methylprednisolone", "infliximab", "mycophenolate"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["pneumonitis", "irae"],

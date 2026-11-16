@@ -120,7 +120,7 @@ export const iraeSkin = protocol({
     "SITC gives no steroid doses specific to severe skin reactions, and none of the sources read sets out burns-unit or intensive care management of SJS/TEN; those steps are not written here.",
     "The 2024 Chinese expert consensus on checkpoint inhibitor skin reactions is listed in Europe PMC without open full text and was not read.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "rituximab"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "rituximab", "infliximab"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["irae"],

@@ -152,6 +152,7 @@ export const palliativeSedation = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["midazolam", "levomepromazine", "propofol"],
   technologies: ["syringe-drivers", "palliative-care"],
   terms: ["palliative-sedation", "last-days-of-life-care"],
   related: ["care-in-the-last-days-of-life"],

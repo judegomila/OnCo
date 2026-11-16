@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -93,7 +94,7 @@ export default function UnitedStatesPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#paying", "Who pays"], ["#regulator", "The FDA"], ["#coverage", "Coverage is not approval"], ["#machine", "The research machine"], ["#disparities", "Disparities"], ["#institutions", "Institutions"], ["#network", "Trial network"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#paying", "Who pays"], ["#regulator", "The FDA"], ["#coverage", "Coverage is not approval"], ["#machine", "The research machine"], ["#disparities", "Disparities"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#network", "Trial network"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">GLOBOCAN {GLOBOCAN.year} estimates, rendered from the corpus data file</span>}>
@@ -153,6 +154,8 @@ export default function UnitedStatesPage() {
         <Section id="disparities" title="Disparities, with their cohorts">
           <Cards cards={US_DISPARITIES} />
         </Section>
+
+        <CountryTrialsSection iso2="US" />
 
         <Section id="institutions" title="Institutions, centres and funders" aside={<span className="text-sm text-muted">{allInstitutions} United States institutions in the corpus · <Link href="/institutions/" className="underline">map and ranking</Link></span>}>
           <Grid items={institutions} />

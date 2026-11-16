@@ -144,7 +144,7 @@ export const hepatitisBScreeningAndReactivationProphylaxis = protocol({
   ],
   institutions: ["asco"],
   cancers: ["non-hodgkin-lymphoma", "dlbcl", "cll"],
-  drugs: ["rituximab", "obinutuzumab"],
+  drugs: ["rituximab", "obinutuzumab", "tenofovir"],
   technologies: ["allogeneic-hsct", "autologous-stem-cell-transplant"],
   terms: ["hbv-hcv", "lymphoma-tx-hepatitis-b-reactivation"],
   related: ["lymphoma-tx-hepatitis-b-reactivation"],

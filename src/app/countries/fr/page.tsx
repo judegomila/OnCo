@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -108,7 +109,7 @@ export default function FrancePage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#registry", "How France counts"], ["#overseas", "Overseas departments"], ["#screening", "Screening"], ["#paying", "Paying for care"], ["#assessment", "Assessment and price"], ["#regulator", "Licensing and early access"], ["#doing", "What France does differently"], ["#research", "Research and trials"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#registry", "How France counts"], ["#overseas", "Overseas departments"], ["#screening", "Screening"], ["#paying", "Paying for care"], ["#assessment", "Assessment and price"], ["#regulator", "Licensing and early access"], ["#doing", "What France does differently"], ["#research", "Research and trials"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">French national figures in the cards; GLOBOCAN {GLOBOCAN.year} estimates in the table</span>}>
@@ -168,6 +169,8 @@ export default function FrancePage() {
             </div>
           )}
         </Section>
+
+        <CountryTrialsSection iso2="FR" />
 
         <Section id="institutions" title="The institutions">
           <Grid items={institutions} />

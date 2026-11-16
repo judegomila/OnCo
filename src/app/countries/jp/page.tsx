@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -146,7 +147,7 @@ export default function JapanPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#screening", "Screening"], ["#paying", "Paying for care"], ["#regulator", "Regulator and the drug lag"], ["#doing", "What Japan does"], ["#divergence", "Where the evidence diverges"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#screening", "Screening"], ["#paying", "Paying for care"], ["#regulator", "Regulator and the drug lag"], ["#doing", "What Japan does"], ["#divergence", "Where the evidence diverges"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#companies", "Companies"], ["#trials", "Trials and papers"], ["#people", "People"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">Japan&apos;s own registry first; GLOBOCAN {GLOBOCAN.year} for comparison</span>}>
@@ -224,6 +225,8 @@ export default function JapanPage() {
         <Section id="divergence" title="Where Japanese evidence diverges from Western practice" aside={<span className="text-sm text-muted">Read this before reading a Japanese trial on another page</span>}>
           <Cards cards={JP_DIVERGENCE} />
         </Section>
+
+        <CountryTrialsSection iso2="JP" />
 
         <Section id="institutions" title="Research institutions and cancer centres" aside={<span className="text-sm text-muted">{allInstitutions} Japanese institutions in the corpus · <Link href="/institutions/" className="underline">map and ranking</Link></span>}>
           <Grid items={institutions} />

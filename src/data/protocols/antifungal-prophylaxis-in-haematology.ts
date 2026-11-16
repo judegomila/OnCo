@@ -161,6 +161,7 @@ export const antifungalProphylaxisInHaematology = protocol({
   institutions: ["asco"],
   companies: ["childrens-oncology-group"],
   cancers: ["aml", "all-leukemia", "childhood-cancers"],
+  drugs: ["posaconazole"],
   technologies: ["allogeneic-hsct", "autologous-stem-cell-transplant", "car-t"],
   terms: ["neutropenia", "lymphoma-tx-pjp-and-infection-prophylaxis"],
   related: ["paediatric-fever-and-neutropenia", "antibacterial-prophylaxis-in-neutropenia", "neutropenic-precautions-and-daily-life", "vincristine", "venetoclax"],

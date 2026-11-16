@@ -242,6 +242,7 @@ export const radiationDermatitisSkinCare = protocol({
     },
   ],
   cancers: ["breast-cancer", "head-and-neck"],
+  drugs: ["mometasone"],
   technologies: ["photobiomodulation-mucositis"],
   terms: ["radiation-dermatitis", "radiotherapy"],
   related: ["breast-radiotherapy-positioning-and-setup"],

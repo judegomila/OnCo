@@ -120,7 +120,7 @@ export const neratinibDiarrhoeaProphylaxisAndDoseEscalation = protocol({
   cancers: ["breast-her2-positive"],
   companies: ["puma-biotechnology"],
   technologies: ["her2-tyrosine-kinase-inhibitors"],
-  drugs: ["neratinib"],
+  drugs: ["neratinib", "loperamide"],
   trials: ["nala"],
   terms: ["ctcae-grading"],
   related: ["treatment-induced-diarrhoea-grading-and-management", "capecitabine"],

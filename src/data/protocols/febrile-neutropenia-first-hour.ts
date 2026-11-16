@@ -209,6 +209,7 @@ export const febrileNeutropeniaFirstHour = protocol({
     "The MASCC score has not been validated in people having chemotherapy combined with immune checkpoint inhibitors (MASCC 2026), and SEOM says CISNE must not be used in haematological cancers or lymphoma.",
   ],
   institutions: ["nice", "asco", "mascc"],
+  drugs: ["piperacillin-tazobactam"],
   technologies: ["implanted-ports", "picc-lines"],
   terms: ["febrile-neutropenia", "neutropenia", "central-venous-access", "neutropenic-sepsis-breast-chemotherapy"],
   sections: ["supportive-care"],

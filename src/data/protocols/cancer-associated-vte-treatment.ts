@@ -197,6 +197,7 @@ export const cancerAssociatedVteTreatment = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["apixaban", "rivaroxaban", "edoxaban", "warfarin"],
   technologies: ["cancer-associated-thrombosis"],
   terms: ["vte", "thrombocytopenia"],
   related: ["catheter-related-thrombosis-in-cancer"],

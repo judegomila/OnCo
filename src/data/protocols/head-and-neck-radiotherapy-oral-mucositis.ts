@@ -205,6 +205,7 @@ export const headAndNeckRadiotherapyOralMucositis = protocol({
     },
   ],
   cancers: ["head-and-neck", "oral-cavity-cancer", "oropharyngeal-cancer"],
+  drugs: ["morphine"],
   technologies: ["photobiomodulation-mucositis", "honey-radiation-mucositis", "glutamine-mucositis-neuropathy"],
   terms: ["mucositis"],
   related: ["idea-moon-mucositis-taste-programme", "head-and-neck-radiotherapy-dental-assessment-osteoradionecrosis", "oral-mucositis-prevention-and-oral-care"],

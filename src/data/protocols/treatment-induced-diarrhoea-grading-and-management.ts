@@ -164,7 +164,7 @@ export const treatmentInducedDiarrhoeaGradingAndManagement = protocol({
   ],
   institutions: ["nci", "mascc", "esmo"],
   technologies: ["probiotics-treatment-diarrhoea", "bowel-after-pelvic-radiotherapy"],
-  drugs: ["fluorouracil", "capecitabine", "irinotecan", "sacituzumab-govitecan", "idelalisib", "pertuzumab", "panitumumab", "cetuximab", "sorafenib"],
+  drugs: ["fluorouracil", "capecitabine", "irinotecan", "sacituzumab-govitecan", "idelalisib", "pertuzumab", "panitumumab", "cetuximab", "sorafenib", "loperamide"],
   terms: ["ctcae-grading", "immune-colitis", "febrile-neutropenia"],
   related: ["irinotecan-early-cholinergic-syndrome-and-late-diarrhoea", "neratinib-diarrhoea-prophylaxis-and-dose-escalation", "octreotide-lanreotide", "febrile-neutropenia-first-hour"],
   sections: ["supportive-care"],

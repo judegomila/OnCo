@@ -229,7 +229,7 @@ export const oralMucositisPreventionAndOralCare = protocol({
   ],
   institutions: ["mascc"],
   technologies: ["oral-cryotherapy-mucositis", "photobiomodulation-mucositis"],
-  drugs: ["fluorouracil", "melphalan"],
+  drugs: ["fluorouracil", "melphalan", "morphine"],
   terms: ["mucositis"],
   cancers: ["head-and-neck"],
   related: ["palifermin", "head-and-neck-radiotherapy-oral-mucositis", "paediatric-oral-mucositis-prevention", "bleeding-precautions-when-platelets-are-low", "head-and-neck-radiotherapy-dental-assessment-osteoradionecrosis"],

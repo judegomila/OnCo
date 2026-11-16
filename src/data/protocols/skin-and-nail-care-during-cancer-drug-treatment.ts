@@ -171,7 +171,7 @@ export const skinAndNailCareDuringCancerDrugTreatment = protocol({
       accessed: "2026-11-11",
     },
   ],
-  drugs: ["cetuximab", "panitumumab", "erlotinib", "gefitinib", "afatinib", "capecitabine", "fluorouracil"],
+  drugs: ["cetuximab", "panitumumab", "erlotinib", "gefitinib", "afatinib", "capecitabine", "fluorouracil", "doxycycline", "minocycline"],
   terms: ["hand-foot-syndrome", "rash-skin-toxicity"],
   related: ["sun-protection-during-and-after-cancer-treatment"],
   gaps: [

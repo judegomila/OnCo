@@ -149,7 +149,7 @@ export const vteRiskAssessmentAndThromboprophylaxisAmbulatory = protocol({
   ],
   institutions: ["nice", "asco", "esmo"],
   technologies: ["cancer-associated-thrombosis"],
-  drugs: ["aspirin"],
+  drugs: ["aspirin", "apixaban", "rivaroxaban"],
   terms: ["vte"],
   cancers: ["pancreatic", "multiple-myeloma"],
   related: ["thalidomide", "lenalidomide", "pomalidomide"],

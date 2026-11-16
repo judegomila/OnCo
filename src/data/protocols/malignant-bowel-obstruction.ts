@@ -150,7 +150,7 @@ export const malignantBowelObstruction = protocol({
     "No randomised trial has shown that surgery helps people with malignant bowel obstruction from gynaecological or colorectal cancer; a Cochrane review of 43 mostly retrospective studies could not conclude.",
     "No UK national guideline on malignant bowel obstruction was read.",
   ],
-  drugs: ["octreotide-lanreotide", "dexamethasone"],
+  drugs: ["octreotide-lanreotide", "dexamethasone", "haloperidol", "metoclopramide", "hyoscine"],
   technologies: ["enteral-parenteral-nutrition", "palliative-care", "ct", "self-expanding-metal-stents"],
   cancers: ["colorectal", "ovarian"],
   institutions: ["mascc"],

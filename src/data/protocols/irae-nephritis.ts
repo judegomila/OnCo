@@ -130,7 +130,7 @@ export const iraeNephritis = protocol({
     "The ASCO 2021 guideline was read only as its abstract and its renal table is not compared here.",
     "No source read gives a steroid dose or duration for immune-related nephritis that rests on more than observational data; ADQI states that the optimal dosing and duration remain uncertain.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "infliximab", "mycophenolate"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["irae", "rechallenge"],

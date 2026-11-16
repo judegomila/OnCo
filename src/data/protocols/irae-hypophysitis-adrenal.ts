@@ -144,7 +144,7 @@ export const iraeHypophysitisAdrenal = protocol({
     "No trial read here tests whether high-dose steroids change pituitary recovery; ESE cites a retrospective study in which patients given high doses had shorter survival, and says it is unclear whether the steroids or a worse prognosis explain it.",
     "Routine screening for cortisol deficiency during treatment (how often to test morning cortisol) differs between centres; the guidelines read here set the thyroid testing interval but not a cortisol interval.",
   ],
-  drugs: ["ipilimumab", "nivolumab", "pembrolizumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "hydrocortisone"],
+  drugs: ["ipilimumab", "nivolumab", "pembrolizumab", "atezolizumab", "durvalumab", "cemiplimab", "tremelimumab", "avelumab", "dostarlimab", "hydrocortisone", "levothyroxine"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["immune-endocrinopathy", "irae"],

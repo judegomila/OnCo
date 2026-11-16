@@ -239,6 +239,7 @@ export const boneMarrowAspirateAndTrephineBiopsy = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["lidocaine"],
   technologies: ["bone-marrow-biopsy-devices", "music-therapy-cancer"],
   cancers: ["multiple-myeloma", "aml", "mds", "myeloproliferative-neoplasms"],
   terms: ["bone-marrow", "biopsy"],

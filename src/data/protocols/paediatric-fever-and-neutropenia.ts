@@ -201,6 +201,7 @@ export const paediatricFeverAndNeutropenia = protocol({
   institutions: ["nice"],
   companies: ["childrens-oncology-group"],
   cancers: ["childhood-cancers", "all-leukemia", "aml"],
+  drugs: ["piperacillin-tazobactam"],
   technologies: ["allogeneic-hsct", "implanted-ports"],
   terms: ["febrile-neutropenia", "neutropenia", "central-venous-access"],
   related: ["febrile-neutropenia-first-hour"],

@@ -132,6 +132,7 @@ export const chronicPainInCancerSurvivors = protocol({
     "The JSPC statement is a national consensus; its recommendations draw on studies mostly from other countries and on expert agreement.",
   ],
   institutions: ["asco", "esmo"],
+  drugs: ["duloxetine"],
   technologies: ["pain-management", "acupuncture-aromatase-inhibitor-arthralgia", "cbt-fatigue-distress", "exercise-oncology", "hypnosis-cancer-care", "massage-therapy-cancer", "reflexology-cancer"],
   terms: ["peripheral-neuropathy"],
   related: ["chemotherapy-induced-peripheral-neuropathy-assessment-and-prevention", "exercise-during-and-after-cancer-treatment"],

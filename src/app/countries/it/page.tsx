@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageMeta } from "@/lib/seo";
 import { graph } from "@/lib/graph";
 import { routeFor, type Entity, type Kind } from "@/lib/schema";
+import { CountryTrialsSection } from "@/components/TrialsHere";
 import { Container, EntityCard, GroupKicker, PageHeader, Section } from "@/components/ui";
 import { GLOBOCAN, sitesForCountry } from "@/lib/globocan";
 import { countryExtras } from "@/data/country-extras";
@@ -126,7 +127,7 @@ export default function ItalyPage() {
       />
       <Container className="pb-16">
         <nav aria-label="Sections" className="flex flex-wrap gap-2 text-sm">
-          {[["#profile", "Cancer profile"], ["#registry", "The registry"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#doing", "What Italy does differently"], ["#trials", "Trials"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
+          {[["#profile", "Cancer profile"], ["#registry", "The registry"], ["#paying", "Paying for care"], ["#regulator", "Regulator"], ["#doing", "What Italy does differently"], ["#trials", "Trials"], ["#recruiting", "Recruiting here"], ["#institutions", "Institutions"], ["#corpus", "In the corpus"], ["#gaps", "Gaps"]].map(([h, l]) => <a key={h} href={h} className="chip hover:bg-surface">{l}</a>)}
         </nav>
 
         <Section id="profile" title="Cancer profile" aside={<span className="text-sm text-muted">Italian registry projections in the cards; GLOBOCAN {GLOBOCAN.year} estimates in the second table</span>}>
@@ -176,6 +177,8 @@ export default function ItalyPage() {
             <p className="mt-3 text-xs text-muted">Interventional studies with the condition query <code>cancer</code> and at least one site in Italy, grouped by start date; the industry column counts studies whose lead sponsor ClinicalTrials.gov classes as industry. The all-years total on the same query was {IT_TRIAL_TOTAL.toLocaleString("en-GB")}. Since 2023 trials in the European Union are registered in CTIS and many academic ones never reach ClinicalTrials.gov, so this undercounts Italian academic research. Method and query in <code>src/data/country-it.ts</code>; re-runnable against the <a href="https://clinicaltrials.gov/data-api/api" className="underline" rel="noopener">ClinicalTrials.gov API v2</a>.</p>
           </div>
         </Section>
+
+        <CountryTrialsSection iso2="IT" />
 
         <Section id="institutions" title="The institutions">
           <Grid items={institutions} />

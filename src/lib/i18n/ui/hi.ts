@@ -311,6 +311,7 @@ export const hi: UiDict = {
   "l.Payload": "पेलोड",
   "l.Linker": "लिंकर",
   "l.Where it is approved": "कहाँ मंज़ूर है",
+  "l.Is this drug available in my country?": "क्या यह दवा मेरे देश में उपलब्ध है?",
   "l.Approvals": "मंज़ूरियाँ",
   "l.Region": "क्षेत्र",
   "l.Year": "वर्ष",

@@ -311,6 +311,7 @@ export const pt: UiDict = {
   "l.Payload": "Carga",
   "l.Linker": "Ligante",
   "l.Where it is approved": "Onde está aprovado",
+  "l.Is this drug available in my country?": "Este medicamento está disponível no meu país?",
   "l.Approvals": "Aprovações",
   "l.Region": "Região",
   "l.Year": "Ano",

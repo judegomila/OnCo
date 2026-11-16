@@ -154,7 +154,7 @@ export const icansGradingAndManagement = protocol({
     "European product information (SmPC) driving and proximity advice was not read for this page; the US position is from the FDA communication, not from the labels themselves.",
     "No randomised trial read here tests steroid dose or timing for ICANS.",
   ],
-  drugs: ["dexamethasone", "tocilizumab", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel"],
+  drugs: ["dexamethasone", "tocilizumab", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel", "levetiracetam"],
   technologies: ["car-t"],
   institutions: ["sitc"],
   terms: ["icans", "lymphoma-tx-crs-icans"],

@@ -147,6 +147,7 @@ export const centralLineOcclusionManagement = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["alteplase", "urokinase"],
   technologies: ["picc-lines", "implanted-ports", "catheter-lock-solutions", "huber-needles-port-access"],
   terms: ["central-venous-access", "vte"],
   related: ["catheter-related-thrombosis-in-cancer", "picc-and-tunnelled-line-care", "implanted-port-access-and-care"],

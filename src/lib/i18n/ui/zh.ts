@@ -311,6 +311,7 @@ export const zh: UiDict = {
   "l.Payload": "载荷",
   "l.Linker": "连接子",
   "l.Where it is approved": "获批地区",
+  "l.Is this drug available in my country?": "这种药在我所在的国家可以获得吗？",
   "l.Approvals": "批准情况",
   "l.Region": "地区",
   "l.Year": "年份",

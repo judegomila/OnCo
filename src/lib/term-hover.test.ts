@@ -103,4 +103,18 @@ describe("corpus auto-linking", () => {
     // A mixed-case or longer name keeps matching in any case.
     expect(entityPatterns().find((p) => p.pattern === "HER2-low")?.exact).toBeUndefined();
   });
+
+  it("does not link an ordinary word through an alias that names something else", () => {
+    // "HAS" on the HTA glossary entry linked the word "has" on about 5,000 pages to health technology assessment;
+    // HAS is France's Haute Autorité de Santé, which has its own record. The rest are aliases that named a
+    // different thing (a regimen, a tool, another meaning of the acronym) or an ordinary word no case rule protects.
+    // Matching is case-insensitive for these, so each is checked lower-cased: the pattern must be gone, not only re-cased.
+    const byPattern = new Map(entityPatterns().map((p) => [p.pattern.toLowerCase(), p.ref]));
+    for (const word of ["has", "prior", "protocol", "approval", "compliance", "powered", "cure", "median", "bleeding", "toxic", "sensitivity", "responding", "philadelphia", "tax", "combat", "same", "access", "edge", "rice", "concept", "spring", "relief", "pulse", "killer"]) {
+      expect(byPattern.get(word)?.name, word).toBeUndefined();
+    }
+    // PCI now links to prophylactic cranial irradiation, the sense the corpus uses, not the peritoneal cancer index.
+    expect(byPattern.get("pci")?.route).toBe("/terms/pci-term/");
+    expect(termMarks("The trial has reported.", 4)).toEqual([]);
+  });
 });

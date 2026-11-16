@@ -169,7 +169,7 @@ export const paediatricChemotherapyNauseaVomitingPrevention = protocol({
     "No recommendation could be made for treating anticipatory sickness once it has started.",
     "Several recommendations wrap across the grade column of the COG PDF; their grades were read from the layout text and they carry no quote.",
   ],
-  drugs: ["ondansetron", "granisetron", "palonosetron", "aprepitant", "dexamethasone", "cisplatin"],
+  drugs: ["ondansetron", "granisetron", "palonosetron", "aprepitant", "dexamethasone", "cisplatin", "metoclopramide"],
   cancers: ["childhood-cancers"],
   technologies: ["antiemetic-therapy"],
   companies: ["childrens-oncology-group"],

@@ -117,7 +117,7 @@ export const neutropenicEnterocolitis = protocol({
     "Children are not covered: a 2022 review of typhlitis in children with cancer (Pediatric Infectious Disease Journal) was found but not read, and paediatric oncology groups may differ.",
     "The ultrasound threshold for bowel wall thickening (over 4 mm across more than 30 mm) is a proposed definition that, as AGIHO notes, describes disease at a late stage.",
   ],
-  drugs: ["cytarabine", "filgrastim"],
+  drugs: ["cytarabine", "filgrastim", "piperacillin-tazobactam"],
   cancers: ["aml", "all-leukemia"],
   terms: ["febrile-neutropenia", "neutropenia"],
   related: ["febrile-neutropenia-first-hour"],

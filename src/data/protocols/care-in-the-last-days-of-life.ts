@@ -230,6 +230,7 @@ export const careInTheLastDaysOfLife = protocol({
       accessed: "2026-11-11",
     },
   ],
+  drugs: ["hyoscine"],
   technologies: ["syringe-drivers", "palliative-care"],
   terms: ["last-days-of-life-care", "palliative-sedation", "advance-care-planning", "respect-process"],
   related: ["strong-opioids-for-cancer-pain", "palliative-sedation-for-refractory-suffering"],

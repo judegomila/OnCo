@@ -137,7 +137,7 @@ export const sentinelNodeTracersAndBlueDyeSafety = protocol({
     { key: "eanm-snmmi-2013", label: "The EANM and SNMMI practice guideline for lymphoscintigraphy and sentinel node localization in breast cancer (Eur J Nucl Med Mol Imaging 2013)", publisher: "EANM and SNMMI", year: 2013, url: "https://doi.org/10.1007/s00259-013-2544-2", doi: "10.1007/s00259-013-2544-2", read: "not-reachable", accessed: "2026-11-11" },
   ],
   cancers: [],
-  drugs: ["isosulfan-blue", "tilmanocept-tc99m", "technetium-sulfur-colloid"],
+  drugs: ["isosulfan-blue", "tilmanocept-tc99m", "technetium-sulfur-colloid", "lidocaine"],
   technologies: ["sentinel-node", "magnetic-sentinel-node-tracer"],
   terms: ["sentinel-lymph-node-biopsy"],
   related: ["surgical-site-infection-prevention"],

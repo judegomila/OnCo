@@ -178,7 +178,7 @@ export const crsGradingAndManagement = protocol({
     "The tocilizumab dose and maximum per dose are product-label matters (SmPC or US prescribing information), which were not read for this page; SITC mentions 8 mg/kg only in describing a trial algorithm.",
     "How much steroid for CRS affects CAR T-cell efficacy is uncertain; SITC cites a trend to shorter progression-free survival with prolonged corticosteroids in one axicabtagene ciloleucel cohort.",
   ],
-  drugs: ["tocilizumab", "siltuximab", "dexamethasone", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel", "methylprednisolone"],
+  drugs: ["tocilizumab", "siltuximab", "dexamethasone", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel", "methylprednisolone", "anakinra"],
   technologies: ["car-t"],
   institutions: ["sitc"],
   terms: ["crs", "lymphoma-tx-crs-icans"],

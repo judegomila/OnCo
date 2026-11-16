@@ -164,7 +164,7 @@ export const iraeColitis = protocol({
     "No randomised trial read here compares infliximab with vedolizumab, or early biologic with steroids first, for checkpoint inhibitor colitis.",
     "How to manage people who start a checkpoint inhibitor with existing inflammatory bowel disease is mentioned by SITC (flares in a substantial minority) but not set out as steps here.",
   ],
-  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "dostarlimab", "tremelimumab", "avelumab", "prednisone"],
+  drugs: ["pembrolizumab", "nivolumab", "ipilimumab", "atezolizumab", "durvalumab", "cemiplimab", "dostarlimab", "tremelimumab", "avelumab", "prednisone", "infliximab", "vedolizumab"],
   technologies: ["checkpoint-inhibitor"],
   institutions: ["sitc", "asco", "esmo"],
   terms: ["immune-colitis", "irae"],

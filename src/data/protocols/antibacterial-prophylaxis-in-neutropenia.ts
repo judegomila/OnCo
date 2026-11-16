@@ -155,6 +155,7 @@ export const antibacterialProphylaxisInNeutropenia = protocol({
   institutions: ["nice", "asco"],
   companies: ["childrens-oncology-group"],
   cancers: ["aml", "all-leukemia", "childhood-cancers"],
+  drugs: ["levofloxacin", "ciprofloxacin"],
   technologies: ["allogeneic-hsct", "autologous-stem-cell-transplant"],
   terms: ["neutropenia", "febrile-neutropenia"],
   related: ["febrile-neutropenia-first-hour", "paediatric-fever-and-neutropenia"],

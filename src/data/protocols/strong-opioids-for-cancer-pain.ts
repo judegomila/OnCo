@@ -246,7 +246,7 @@ export const strongOpioidsForCancerPain = protocol({
       accessed: "2026-11-11",
     },
   ],
-  drugs: ["fentanyl", "methylnaltrexone"],
+  drugs: ["fentanyl", "methylnaltrexone", "morphine", "oxycodone", "naloxone"],
   technologies: ["pain-management", "palliative-care"],
   terms: [],
   related: ["opioid-switching-and-conversion"],

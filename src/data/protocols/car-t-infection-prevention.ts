@@ -130,7 +130,7 @@ export const carTInfectionPrevention = protocol({
     "Vaccination after CAR T cells is discussed by ASTCT at length but was not set out as steps here; EBMT/JACIE 2019 made no specific recommendation.",
     "There are no randomised trials of immunoglobulin replacement or of any antimicrobial prophylaxis after CAR T cells (ASTCT).",
   ],
-  drugs: ["human-normal-immunoglobulin", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel"],
+  drugs: ["human-normal-immunoglobulin", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel", "valaciclovir", "tenofovir"],
   technologies: ["car-t"],
   terms: ["lymphoma-tx-immunoglobulin-replacement", "hbv-hcv"],
   related: ["crs-grading-and-management", "icans-grading-and-management", "bispecific-step-up-dosing"],

@@ -238,7 +238,7 @@ export const gallbladderGeography: CancerGeography = {
       points: [
         "Where: the north, north-east, centre and east; Kamrup urban, Cachar, Delhi and Papumpare lead the registries. Born in a high-risk region: odds ratio 4.82, rising with years of residence and persisting after migration (1.36).",
         "Why: gallstones in 80 percent of patients and a 65 percent population attributable fraction in the north-east; chronic Salmonella Typhi and Helicobacter infection, adulterated mustard oil (odds ratio 3.01 for high consumption in the low-risk region, 1.33 in the high-risk region), unsafe water, heavy metals and low socioeconomic status act together on a vulnerable gallbladder.",
-        "What is being tested: India runs the world's only randomised trials of pre-operative treatment for gallbladder cancer, POLCAGB (chemoradiation versus chemotherapy before surgery, Tata Memorial), NEOGB (neoadjuvant chemotherapy, Rajiv Gandhi Cancer Institute, 114 patients) and RUGB (chemoradiation for unresectable disease, 249 patients).",
+        "What is being tested: India runs randomised trials of pre-operative treatment for gallbladder cancer, POLCAGB (chemoradiation versus chemotherapy before surgery, Tata Memorial, 124 patients enrolled) and NEOGB (neoadjuvant chemotherapy against surgery first, Rajiv Gandhi Cancer Institute, 114 patients planned), and RUGB tests radiotherapy added to systemic therapy for unresectable disease (249 patients planned).",
         "Who treats it: Tata Memorial in Mumbai and its Varanasi hospital on the Ganges, AIIMS Delhi, PGIMER Chandigarh and the Rajiv Gandhi Cancer Institute; the corpus links the centres and their trials below.",
       ],
       figures: [

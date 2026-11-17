@@ -128,7 +128,7 @@ export default function IndiaPage() {
                   </li>
                 ))}
               </ol>
-              <p className="mt-3 text-xs text-muted">India&apos;s national estimate ({gbRates.countries.IND?.women[1]} in women, {gbRates.countries.IND?.both[1]} in both sexes) ranks {gbIndiaRank} of {Object.keys(gbRates.countries).length} countries; the registries above show why a national average hides the Gangetic belt. Source: {gbRates.citation} <a href={gbRates.sourceUrl} className="underline" rel="noopener">{gbRates.sourceUrl}</a>; the full table by sex, with the regions, programmes and sources, is on the <Link href={geographyRoute("gallbladder")} className="underline">cancer page</Link> and in its <a href="/api/v1/cancers/gallbladder/geography.json" className="underline" type="application/json">JSON companion</a>.</p>
+              <p className="mt-3 text-xs text-muted">India&apos;s national estimate ({gbRates.countries.IND?.women[1]} in women, {gbRates.countries.IND?.both[1]} in both sexes) ranks {gbIndiaRank} of {Object.keys(gbRates.countries).length} countries among women; the registries above show why a national average hides the Gangetic belt. Source: {gbRates.citation} <a href={gbRates.sourceUrl} className="underline" rel="noopener">{gbRates.sourceUrl}</a>; the full table by sex, with the regions, programmes and sources, is on the <Link href={geographyRoute("gallbladder")} className="underline">cancer page</Link> and in its <a href="/api/v1/cancers/gallbladder/geography.json" className="underline" type="application/json">JSON companion</a>.</p>
             </div>
           )}
         </Section>

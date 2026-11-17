@@ -1,0 +1,165 @@
+{
+  "baseProductHead": "1982abcba38e08085e11dcbd244acca940630ad7",
+  "state": "Open product draft; not merged or deployed",
+  "validation": {
+    "fullFilesPassed": 285,
+    "fullTestsPassed": 2833,
+    "existingSkips": 2,
+    "typecheck": "Pass, including final webpack type phase",
+    "scopedLint": "Four changed files pass",
+    "build": "API generation and webpack 52905-page export pass; fresh engine JSON and deferred table checked, not only SSR."
+  },
+  "fixed": [
+    "Ordinary same/reflect no longer become supplement/trial popovers; specific SAM-e aliases remain linked.",
+    "Legacy derivative family does not supply an exact exatecan identity: Ed-04 remains unlinked; AZ14170133 follows the actual field; unnamed cargo remains missing.",
+    "TE-1182 remains one MMAF/exatecan cargo bundle and one combined-class cell; total prose DAR does not become component loading."
+  ],
+  "routes": [
+    {
+      "route": "/pipeline/engine/adc/",
+      "status": 200,
+      "bytes": 633562,
+      "sha256": "38864af808331ef28504d86ea3ee9c8c35d7eab6b1d7e42937dd74147e5d73f2"
+    },
+    {
+      "route": "/bottlenecks/b-combination-space/",
+      "status": 200,
+      "bytes": 346883,
+      "sha256": "7a879ae839f64505b0dd28ab9e01703205c3a2e880c9908c2de8686f5c9631bf"
+    },
+    {
+      "route": "/drugs/izalontamab-brengitecan/",
+      "status": 200,
+      "bytes": 299086,
+      "sha256": "96a48678816f152b9c0064ca97d3848c3ea691ecfec30ba7114c2b5f17990dec"
+    },
+    {
+      "route": "/api/v1/pipeline/engine/adc.json",
+      "status": 200,
+      "bytes": 717170,
+      "sha256": "a47777dd19e4dd2b4fde19fd72ffe1fda3460671e42df9c575736991ba314f1d"
+    },
+    {
+      "route": "/api/v1/tables/engine-adc.json",
+      "status": 200,
+      "bytes": 159332,
+      "sha256": "346d97bb1446dd1176ed0881ac4423a75a8e454f52e41c029da25ad7ff846e94"
+    }
+  ],
+  "matchedCaptures": [
+    {
+      "label": "mobile",
+      "page": "glossary",
+      "scrollY": 239,
+      "viewport": 393,
+      "docWidth": 389
+    },
+    {
+      "label": "mobile",
+      "page": "engine",
+      "scrollY": 2179,
+      "viewport": 393,
+      "docWidth": 421
+    },
+    {
+      "label": "mobile",
+      "page": "derivative",
+      "scrollY": 0,
+      "viewport": 393,
+      "docWidth": 389
+    },
+    {
+      "label": "desktop",
+      "page": "glossary",
+      "scrollY": 167,
+      "viewport": 1440,
+      "docWidth": 1425
+    },
+    {
+      "label": "desktop",
+      "page": "engine",
+      "scrollY": 1720,
+      "viewport": 1440,
+      "docWidth": 1425
+    },
+    {
+      "label": "desktop",
+      "page": "derivative",
+      "scrollY": 0,
+      "viewport": 1440,
+      "docWidth": 1425
+    }
+  ],
+  "captureCustody": {
+    "location": "/tmp/onco-identity-consumers outside repository",
+    "files": [
+      {
+        "capture": "before/desktop-derivative.png",
+        "bytes": 220825,
+        "sha256": "621a79c9f6c0a9ec5e70c9914364d62fb7a69b286ac4ab24f121cf860bb4e9d4"
+      },
+      {
+        "capture": "before/desktop-engine.png",
+        "bytes": 181053,
+        "sha256": "5f6a42c84d64df76cfd85a274131b9156490893dbf43cf4a36ff60b9d3ceaa42"
+      },
+      {
+        "capture": "before/desktop-glossary.png",
+        "bytes": 244082,
+        "sha256": "43a439400a2b748519c511557a92a1ea42cfa55a96a1a8313a3192f8b79872ac"
+      },
+      {
+        "capture": "before/mobile-derivative.png",
+        "bytes": 103616,
+        "sha256": "c90664b189c7483c8222eedcbf8f521f1d7f0bdfdbc0c5dc75db8431ff507987"
+      },
+      {
+        "capture": "before/mobile-engine.png",
+        "bytes": 36808,
+        "sha256": "a879dd4d6bd4bb31e8fdd5b227bce30d1510838f2898f2f04b3cd87e409384a1"
+      },
+      {
+        "capture": "before/mobile-glossary.png",
+        "bytes": 95485,
+        "sha256": "f025502031d6e2584c5b545a31e9405c404662f3f7fb20f1f07257066528ad18"
+      },
+      {
+        "capture": "after/desktop-derivative.png",
+        "bytes": 221073,
+        "sha256": "10c71043d3c9a50250a679a7d529f6ef7c632bc220e6c0298443660de7d4b7e7"
+      },
+      {
+        "capture": "after/desktop-engine.png",
+        "bytes": 183461,
+        "sha256": "9d9b3b53768be994040bf0bde88ff4d4e4ea4495a305c3d91573a51b8c0fab03"
+      },
+      {
+        "capture": "after/desktop-glossary.png",
+        "bytes": 244122,
+        "sha256": "7889ee456c02fef97f3363fd8bf3d224cfdfcef813af28e554e2b6650b1283b0"
+      },
+      {
+        "capture": "after/mobile-derivative.png",
+        "bytes": 103616,
+        "sha256": "c90664b189c7483c8222eedcbf8f521f1d7f0bdfdbc0c5dc75db8431ff507987"
+      },
+      {
+        "capture": "after/mobile-engine.png",
+        "bytes": 37011,
+        "sha256": "24ef0fab57ce95039904383fb6d6e3736cb94affb6745e254feae103aa2fead9"
+      },
+      {
+        "capture": "after/mobile-glossary.png",
+        "bytes": 95644,
+        "sha256": "3d099d9f6002b02a6f813942a5ec012bf43f9aa7e0942ca354db339cba34f4f0"
+      }
+    ]
+  },
+  "limits": [
+    "Legacy text rules recognize explicitly joined named cargoes, not every possible prose description. Structured composition is preferred for ambiguous/novel chemistry.",
+    "Existing mobile engine whole-document width is 421 at viewport393, before and after; no global accessibility claim.",
+    "The underlying biology/status of every legacy drug record is not independently revalidated by reading its fields.",
+    "Owner approval, maintainer triage and upstream-accessible preview/paired attachments remain pending.",
+    "Prior recall/rubric measurements are retained as prior checkpoints; this follow-up changes the composition engine and term-hover policy, not Ask ranking."
+  ]
+}

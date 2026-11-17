@@ -172,7 +172,7 @@ const papers: PaperInput[] = [
     institutions: ["nepal-population-based-cancer-registry", "nhrc-nepal"], cancers: ["nsclc", "oral-cavity-cancer"],
     links: [doi("10.1371/journal.pone.0300271", "PLoS One 2024"), pubmed("38805435")] }),
 
-  p({ id: "paper-gyawali-cancer-care-delivery-nepal-jgo-2020", name: "How cancer care is delivered in Nepal: status and priorities in 2020",
+  p({ id: "paper-gyawali-cancer-care-delivery-nepal-jgo-2020", name: "Delivery of cancer care in Nepal: status and priorities in 2020",
     journal: "JCO Global Oncology", year: 2020, doi: "10.1200/go.20.00287", pmid: "32735488", authors: "Gyawali B, Sharma S, Shilpakar R, et al.", paperType: "review",
     tldr: "A review by Nepali oncologists of the cancer burden, workforce and services in Nepal, which counted 35 radiation oncologists, 27 medical oncologists and 10 paediatric oncologists in 2018 and set out priorities including a registry, health insurance and essential cancer medicines.",
     summary: "Published as \"Overview of Delivery of Cancer Care in Nepal: Current Status and Future Priorities\". The authors systematically assess the burden of cancer and the resources available in Nepal, which they describe as lacking a systematic plan for cancer control, and suggest priorities for a future plan. The full text, read in Europe PMC, says patients mostly paid for care out of pocket, caregivers often bought chemotherapy drugs and brought them to hospital, and most hospitals had no oncology pharmacist.",

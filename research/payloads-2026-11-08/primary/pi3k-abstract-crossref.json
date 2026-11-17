@@ -1,0 +1,544 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2026-04-03T13:06:33Z",
+      "timestamp": 1775221593851,
+      "version": "3.50.1"
+    },
+    "reference-count": 0,
+    "publisher": "American Association for Cancer Research (AACR)",
+    "issue": "7_Supplement",
+    "content-domain": {
+      "domain": [
+        "aacrjournals.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1158/1538-7445.am2026-4549",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2026-04-03T12:11:44Z",
+      "timestamp": 1775218304000
+    },
+    "page": "4549-4549",
+    "update-policy": "https://doi.org/10.1158/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Abstract 4549: Discovery of HMPL-A580, a first-in-class antibody-targeted therapy conjugate (ATTC) of a novel PI3K/PIKK inhibitor payload linked to an anti-EGFR antibody"
+    ],
+    "prefix": "10.1158",
+    "volume": "86",
+    "author": [
+      {
+        "given": "Yu",
+        "family": "Cai",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Xiangling",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shishuang",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Na",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yan",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Huijing",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shiming",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Haibin",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Min",
+        "family": "Cheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Nelson",
+        "family": "Ng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jianlin",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Shaohui",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Weigang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "wei",
+        "family": "shao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "xiaoming",
+        "family": "dai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yajing",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yizhen",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "linfang",
+        "family": "wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Jian",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Weihan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Yongxin",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Guangxiu",
+        "family": "Dai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Michael",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Weiguo",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "HUTCHMED Ltd., Shanghai, China."
+          }
+        ],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "1086",
+    "container-title": [
+      "Cancer Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://aacrjournals.org/cancerres/article/86/7_Supplement/4549/779492/Abstract-4549-Discovery-of-HMPL-A580-a-first-in",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://aacrjournals.org/cancerres/article/86/7_Supplement/4549/779492/Abstract-4549-Discovery-of-HMPL-A580-a-first-in",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ],
+      "date-time": "2026-04-03T12:11:44Z",
+      "timestamp": 1775218304000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aacrjournals.org/cancerres/article/86/7_Supplement/4549/779492/Abstract-4549-Discovery-of-HMPL-A580-a-first-in"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "7_Supplement",
+      "published-print": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            3
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1158/1538-7445.am2026-4549",
+    "relation": {},
+    "ISSN": [
+      "0008-5472",
+      "1538-7445"
+    ],
+    "issn-type": [
+      {
+        "value": "0008-5472",
+        "type": "print"
+      },
+      {
+        "value": "1538-7445",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          3
+        ]
+      ]
+    },
+    "abstractRetention": {
+      "status": "exact body outside public checkout",
+      "sha256": "eeb05d104e06c44d702a689b0b74593aa9fba08a61e6b5ce59481cfcf31639d2",
+      "characters": 4153
+    }
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "6ec8e4ee681b8f8fe00fb5a05d445e879db8ee37b68f6cf9fd9a4ed0129c703b",
+    "sourceBytes": 10493,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

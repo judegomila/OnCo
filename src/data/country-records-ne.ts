@@ -123,7 +123,7 @@ const papers: PaperInput[] = [
     cancers: ["retinoblastoma", "childhood-cancers"],
     links: [doi("10.1016/j.jfo.2024.104258", "J Fr Ophtalmol 2024"), pubmed("39213923")] }),
 
-  p({ id: "paper-abdou-breast-cancer-awareness-niger-heliyon-2020", name: "What women in Niamey and Zinder know about breast cancer",
+  p({ id: "paper-abdou-breast-cancer-awareness-niger-heliyon-2020", name: "Breast cancer awareness among women in Niamey and Zinder, Niger",
     journal: "Heliyon", year: 2020, doi: "10.1016/j.heliyon.2020.e04316", pmid: "32642585", authors: "Abdou A, Van Hal G, Dille I", paperType: "observational",
     tldr: "In a household survey in Niger's Zinder and Niamey regions, only 41.2% of women were aware of breast cancer and 16.9% showed good breast cancer practice; the authors call for awareness programmes promoting clinical breast examination.",
     summary: "A cross-sectional survey of women selected at random in households within health districts of the Zinder and Niamey regions, using a breast cancer knowledge score and a generalised linear model to find factors associated with awareness. The authors note that breast cancer is the leading cause of cancer illness and death among women in Niger and that mammography is not common.",
@@ -137,7 +137,7 @@ const papers: PaperInput[] = [
     cancers: ["breast-cancer"],
     links: [doi("10.1016/j.heliyon.2020.e04316", "Heliyon 2020"), pubmed("32642585")] }),
 
-  p({ id: "paper-ncube-au-model-law-domestication-fmed-2023", name: "How African medicines regulators are taking up the African Union model law",
+  p({ id: "paper-ncube-au-model-law-domestication-fmed-2023", name: "Adoption of the African Union model law by African medicines regulators",
     journal: "Frontiers in Medicine", year: 2023, doi: "10.3389/fmed.2023.1117439", pmid: "36793874", authors: "Ncube BM, Dube A, Ward K", paperType: "observational",
     tldr: "A survey of African medicines regulators found the African Union's 2016 model law on medical products regulation adopted in full by some and in part by others, slowed by lack of staff and money, competing priorities and slow law reform.",
     summary: "A qualitative, cross-sectional census survey of the national medicines regulatory authorities of English- and French-speaking African Union member states, applying the Consolidated Framework for Implementation Research to the domestication of the African Union Model Law on Medical Products Regulation, endorsed in 2016 with a target of 25 countries by 2020. Twenty-six questionnaires were returned by 21 regulators, including Niger's Direction de la Pharmacie et de la Médecine Traditionnelle.",

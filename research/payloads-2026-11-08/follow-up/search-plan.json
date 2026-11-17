@@ -1,0 +1,40 @@
+{
+  "checkedOn": "2026-11-08",
+  "boundary": "Follow-up to reviewed ADC learning requirements; public named mechanisms and study scopes, not patient-specific treatment selection or an assertion of worldwide program completeness.",
+  "papers": [
+    {
+      "id": "top1-chemical-exposure",
+      "query": "Which primary studies compare free exatecan clinical outcomes with antibody-delivered exatecan or redesigned TOP1 payloads, including defined transporter or TOP1-mutant resistance, payload release and bystander controls?",
+      "maxResults": 10,
+      "output": "/tmp/onco-payload-followup-top1-elicit.json"
+    },
+    {
+      "id": "polr2a-dosage-evidence",
+      "query": "Which primary studies or retraction/correction notices test POLR2A copy-number collateral vulnerability, amanitin antibody conjugates and normal-tissue uptake, distinguishing TP53 deletion from mutation and nanoparticle siRNA from an ADC?",
+      "maxResults": 10,
+      "output": "/tmp/onco-payload-followup-polr2a-elicit.json"
+    }
+  ],
+  "trials": [
+    {
+      "id": "amanitin-programs",
+      "query": "Human oncology studies of amanitin RNA polymerase II antibody conjugates including HDP-101 pamlectabart tismanitin, with all trial statuses and unsuccessful programs",
+      "maxResults": 10,
+      "output": "/tmp/onco-payload-followup-amanitin-trials.json"
+    }
+  ],
+  "directRegistry": {
+    "boundary": "Exact named trials from reviewed curriculum, earlier proposal and semantic discovery; every discovered NCT will be fetched independently.",
+    "ids": [
+      "NCT04879043",
+      "NCT07529782",
+      "NCT05514717",
+      "NCT05070247",
+      "NCT04278144",
+      "NCT05954143",
+      "NCT05091528",
+      "NCT04460456"
+    ]
+  },
+  "custody": "Complete responses and abstracts outside public checkout; public metadata, hashes, source scopes and explicit screening dispositions only."
+}

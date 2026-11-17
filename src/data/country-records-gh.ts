@@ -138,7 +138,7 @@ const papers: PaperInput[] = [
     institutions: ["kumasi-cancer-registry", "komfo-anokye-teaching-hospital"], cancers: ["breast-cancer", "cervical", "prostate", "hcc"],
     links: [doi("10.1186/s12885-019-5480-0", "BMC Cancer 2019"), pubmed("30909876")] }),
 
-  p({ id: "paper-yarney-accra-cancer-registry-jgo-2020", name: "How the Accra Cancer Registry was set up in Ghana",
+  p({ id: "paper-yarney-accra-cancer-registry-jgo-2020", name: "The setting up of the Accra Cancer Registry in Ghana",
     journal: "JCO Global Oncology", year: 2020, doi: "10.1200/JGO.19.00387", pmid: "32302237", authors: "Yarney J, Ohene Oti NO, Calys-Tagoe BNL, et al.", paperType: "methods",
     tldr: "Because IARC graded Ghana's cancer data at its lowest level for GLOBOCAN 2012, the Accra Cancer Registry was set up with Stanford University, the African Cancer Registry Network and the University of Ghana, covering nine municipal districts.",
     summary: "Published as \"Establishing a Cancer Registry in a Resource-Constrained Region: Process Experience From Ghana\". The authors describe the policy basis, data sources, administration, external support and geographic coverage of the Accra Cancer Registry.",
@@ -152,7 +152,7 @@ const papers: PaperInput[] = [
     institutions: ["korle-bu-teaching-hospital"], cancers: ["breast-cancer", "cervical", "prostate"],
     links: [doi("10.1200/JGO.19.00387", "JCO Glob Oncol 2020"), pubmed("32302237")] }),
 
-  p({ id: "paper-scott-radiotherapy-access-ghana-jamanetworkopen-2022", name: "How far Ghanaians live from radiotherapy and how many receive it",
+  p({ id: "paper-scott-radiotherapy-access-ghana-jamanetworkopen-2022", name: "Distance to radiotherapy and its availability in Ghana",
     journal: "JAMA Network Open", year: 2022, doi: "10.1001/jamanetworkopen.2022.26319", pmid: "35951324", authors: "Scott AA, Polo A, Zubizarreta E, et al.", paperType: "observational", participants: 2883,
     tldr: "In 2020, 2,883 patients had external beam radiotherapy in Ghana, about 23% of those who needed it; meeting demand would take 23 more machines, and a centre in the north would bring many more people within reach.",
     summary: "A cross-sectional, population-based study of radiotherapy delivery in Ghana in 2020, with model-based estimates of demand using the Global Task Force on Radiotherapy for Cancer Control investment framework, and geocoded distances from district centres to the nearest radiotherapy centre.",
@@ -179,7 +179,7 @@ const papers: PaperInput[] = [
     institutions: ["ghana-ministry-of-health"], cancers: ["cervical"],
     links: [doi("10.1186/s12905-025-03802-3", "BMC Womens Health 2025"), pubmed("40420073")] }),
 
-  p({ id: "paper-adanu-breast-cancer-household-cost-ghana-pgph-2022", name: "What breast cancer treatment costs households at Korle Bu Teaching Hospital",
+  p({ id: "paper-adanu-breast-cancer-household-cost-ghana-pgph-2022", name: "Household cost of breast cancer treatment at Korle Bu Teaching Hospital",
     journal: "PLOS Global Public Health", year: 2022, doi: "10.1371/journal.pgph.0000268", pmid: "36962351", authors: "Adanu KK, Bansah EC, Adedia D, Aikins M", paperType: "observational", participants: 74,
     tldr: "Among 74 breast cancer patients at Korle Bu, average household spending on treatment was about 990 US dollars, most of it medical, while nearly 57% of patients earned 370 US dollars a month or less.",
     summary: "A cost-of-illness study at a surgical unit of Korle Bu Teaching Hospital, with 74 randomly selected patients and their caregivers, collecting direct, indirect and intangible costs and coping strategies by structured questionnaire.",

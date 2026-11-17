@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { assertNoFacilityContacts, makeSnapshot, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationStudy } from "./trial-participation";
+import { acceptedCrossReferences, assertNoFacilityContacts, facilityObservations, makeSnapshot, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationStudy } from "./trial-participation";
 
 const study: ParticipationStudy = { protocolSection: {
   identificationModule: { nctId: "NCT01578239" },
@@ -10,6 +10,25 @@ const study: ParticipationStudy = { protocolSection: {
 } };
 
 describe("registry participation custody", () => {
+  it("retains missing facility status without converting overall recruitment to local availability", () => {
+    const snapshot = makeSnapshot(study, "2026-11-08T12:00:00.000Z");
+    const ref = participationReference(snapshot, { facilities: true });
+    expect(ref.facilities?.[0].status).toBe("RECRUITING");
+    expect(ref.facilities?.[1]).not.toHaveProperty("status");
+    expect(ref).not.toHaveProperty("cohortObservations");
+    const changed = structuredClone(snapshot); changed.study.protocolSection.contactsLocationsModule!.locations![0].status = "COMPLETED";
+    expect(() => facilityObservations(changed)).toThrow(/hash mismatch/);
+  });
+
+  it("preserves opted-in facility capture and separately sourced cohort notes on refresh", () => {
+    const snapshot = makeSnapshot(study, "2026-11-08T12:00:00.000Z");
+    const previous = participationReference(snapshot, { facilities: true });
+    previous.cohortObservations = [{ facility: "Centre A", cohort: "Fictional cohort", availability: "not-stated", checkedOn: "2026-11-08", sources: [{ label: "Example source", url: "https://example.org/cohort" }] }];
+    const refreshed = participationReference(snapshot, { previous: [previous] });
+    expect(refreshed.facilities).toEqual(previous.facilities);
+    expect(refreshed.cohortObservations).toEqual(previous.cohortObservations);
+    expect(refreshed.cohortObservations?.[0]).not.toHaveProperty("availableSlots");
+  });
   it("keeps exact eligibility wording, false values and a verifiable stored-study hash", () => {
     const snapshot = makeSnapshot(study, "2026-10-07T12:00:00.000Z");
     expect(snapshot.study.protocolSection.eligibilityModule?.eligibilityCriteria).toBe(study.protocolSection.eligibilityModule?.eligibilityCriteria);
@@ -71,6 +90,14 @@ describe("registry participation custody", () => {
       { url: "https://example.org/NCT99999999" },
     ] })).toEqual(["NCT00687986", "NCT00840749", "NCT01578239"]);
     expect(registryIds({ nct: "ISRCTN26715889", links: [] })).toEqual([]);
+  });
+
+  it("drops a cross-reference that names a different study, and keeps the rest", () => {
+    // ISRCTN's ESPAC-4 record lists NCT00058201, which ClinicalTrials.gov holds as ESPAC-3.
+    expect(acceptedCrossReferences("espac-4", [{ nct: "NCT00058201" }])).toEqual([]);
+    expect(acceptedCrossReferences("espac-3", [{ nct: "NCT00058201" }])).toEqual([{ nct: "NCT00058201" }]);
+    expect(acceptedCrossReferences("espac-4", [{ nct: "NCT99999999" }])).toEqual([{ nct: "NCT99999999" }]);
+    expect(acceptedCrossReferences("anything", undefined)).toEqual([]);
   });
 
   it("follows a cursor even after every requested study has arrived", async () => {

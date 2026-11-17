@@ -1,0 +1,462 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 18694,
+    "sha256": "c90ec4a2a972ed87e95656ebc0b57b386dbf5cf2125b51c6151fbdcd6d1d06c5"
+  },
+  {
+    "path": "capture-custody.json",
+    "bytes": 12142,
+    "sha256": "6ae20cb9b0cb35ae36a3462ca401fb5ea3837b4d6b3426d610b1556be8775833"
+  },
+  {
+    "path": "chemical-species-2026-11-09/README.md",
+    "bytes": 4349,
+    "sha256": "0959dd1d31f15dbb0285e65afcd076cb645968caf0b864fe13a14042b870dfcc"
+  },
+  {
+    "path": "chemical-species-2026-11-09/api-verification.json",
+    "bytes": 24711,
+    "sha256": "7fda4c5288892dbb8c92d2ab00ee85dbd62a8b8bc9c419476ad3d8b39a195fcd"
+  },
+  {
+    "path": "chemical-species-2026-11-09/capture-manifest.json",
+    "bytes": 37454,
+    "sha256": "cecd553ef5b889dd8dd14d1e302f5b7ab83fbc6f683e099740807bafed318411"
+  },
+  {
+    "path": "chemical-species-2026-11-09/elicit-discovery.json",
+    "bytes": 1232,
+    "sha256": "d7ab7d193d7aed62b805e77ef3fad2170e871b65dec233d04c3ed9991b27fd97"
+  },
+  {
+    "path": "chemical-species-2026-11-09/literature-dispositions.json",
+    "bytes": 30862,
+    "sha256": "acc208b2edfe4b91798c92d60157adf20377553778248c3743d6d82a4ac2a0ea"
+  },
+  {
+    "path": "chemical-species-2026-11-09/publication-identities.json",
+    "bytes": 42175,
+    "sha256": "cf9459f58244d93c87637157b4128c8287894eb53226b8d10a24a3e794ae14cd"
+  },
+  {
+    "path": "chemical-species-2026-11-09/reading-scope.json",
+    "bytes": 8977,
+    "sha256": "be8482d1add190d7e803be9d06a783677415096f5aeccb3c7eced5d085264619"
+  },
+  {
+    "path": "chemical-species-2026-11-09/registry-observations.json",
+    "bytes": 4283,
+    "sha256": "91dc8a4b843446fef282ced68adfd102cb354b798fe223825901ef7e331cd4e0"
+  },
+  {
+    "path": "chemical-species-2026-11-09/render-verification.json",
+    "bytes": 25793,
+    "sha256": "96631ebca0e56b4299681b3202a431aa576941f5a9e1c521c263274d165fa7b3"
+  },
+  {
+    "path": "chemical-species-2026-11-09/source-summary.json",
+    "bytes": 427,
+    "sha256": "58cd4f28085ad3cf1ecbe825337ad531fe45428830077a9e5fd420e533d150af"
+  },
+  {
+    "path": "chemical-species-2026-11-09/summary-consumer-verification.json",
+    "bytes": 66355,
+    "sha256": "182a31be2f61846d501ac79cd3bd07507c7b9f7dbe8753461a5b1b53ae6238e3"
+  },
+  {
+    "path": "chemical-species-2026-11-09/validation.json",
+    "bytes": 2663,
+    "sha256": "09a7e72d0f409ded389213b168a9b3575d2d4d3b53af48089a2f0fe9b7aa9fec"
+  },
+  {
+    "path": "concept-source-ledger.json",
+    "bytes": 27411,
+    "sha256": "9b0ff880fb677115a4fe44547c838debfb9617c6611926ba3b36d8ea907d71e9"
+  },
+  {
+    "path": "elicit/clinical-exemplars.json",
+    "bytes": 40700,
+    "sha256": "cc58d161c53e96cbcbefa4cb7928329ecb3cffc6fd9f6cd51df476ba00a33c00"
+  },
+  {
+    "path": "elicit/completion-check.json",
+    "bytes": 16662,
+    "sha256": "6a94d7bd85f825f2bd1fc436bd4a7c115b1d682e62a1958416514bcd58b8435a"
+  },
+  {
+    "path": "elicit/emerging-families.json",
+    "bytes": 33583,
+    "sha256": "fee6ef17073583819a88756a93088eb6b8df67b8dcf7eaf38cb01c5c1e65ded0"
+  },
+  {
+    "path": "elicit/expanded-frontier.json",
+    "bytes": 21882,
+    "sha256": "6ba2870ea17feeb655b5c6fd988f19a0ca60e4d91f9f1368c95bec95a35bf1b0"
+  },
+  {
+    "path": "elicit/immune-ddr-degrader.json",
+    "bytes": 28792,
+    "sha256": "c221b15e2cb1de81217ad76ea1dc52c30ea112cbe2c43308eec16cc46b0714b0"
+  },
+  {
+    "path": "elicit/mechanisms.json",
+    "bytes": 33364,
+    "sha256": "1257a7508a89497144b0dcc2b055d190fb7fb5dd4a816935a28df90a53a79561"
+  },
+  {
+    "path": "follow-up/amanitin-programs.json",
+    "bytes": 3890,
+    "sha256": "d2f764cff928492a1b70bc9f8e78909542ad47e46db1b18e2750b13062d82da8"
+  },
+  {
+    "path": "follow-up/capture-manifest.json",
+    "bytes": 5548,
+    "sha256": "f49b426d3565a0e450c209db76a8572495c584850b4ade4eab599b036ae953e9"
+  },
+  {
+    "path": "follow-up/crossref-identities.json",
+    "bytes": 2688,
+    "sha256": "4b189d0b972a2a8467fea03d68d7a3b2d99127547a3f535552886c9548e807f5"
+  },
+  {
+    "path": "follow-up/literature-dispositions.json",
+    "bytes": 15845,
+    "sha256": "a3e73c0e7fd30b4454be354c82b4eb68496442b8809fc54b1d5e5e0346a0b7a3"
+  },
+  {
+    "path": "follow-up/polr2a-dosage-evidence.json",
+    "bytes": 10179,
+    "sha256": "f891a87fff91304da2d6d500cf5a24d06d637072e51db608dda9d77eda4d7624"
+  },
+  {
+    "path": "follow-up/polr2a-xref-generation.json",
+    "bytes": 602,
+    "sha256": "2464182aee30fdee1f47a987bcd3abf3e0bac0cd941bdf1a9013661059ad0fd4"
+  },
+  {
+    "path": "follow-up/publication-identities.json",
+    "bytes": 28645,
+    "sha256": "73ee6ff58903b89115da458fc6f9975f0768c13f109c72f7a52a9f448603eeda"
+  },
+  {
+    "path": "follow-up/reading-scope.json",
+    "bytes": 1868,
+    "sha256": "2f26abae31fce957f80377dccd79cdf080511a34928f1ffb3afc46cc02db4c1e"
+  },
+  {
+    "path": "follow-up/record-sources.json",
+    "bytes": 14757,
+    "sha256": "297731bc7f631ca7cf6d2a7f44ec05c5df6318c1d1450633844e8194c4368893"
+  },
+  {
+    "path": "follow-up/registry-capture-manifest.json",
+    "bytes": 1022,
+    "sha256": "f1a895ead6b13a83e53f9464512de1f285aa0a5a87dc76dfeef2e75e9542da6c"
+  },
+  {
+    "path": "follow-up/registry-observations.json",
+    "bytes": 5913,
+    "sha256": "c34a7b94d0586e9b5071d1e600520b9ef3f6a543d8df755b90ee38992d9437f5"
+  },
+  {
+    "path": "follow-up/render-verification.json",
+    "bytes": 11979,
+    "sha256": "126f5f208d62fef1426721eff857ad723970f35e0c796444d93545df4112385c"
+  },
+  {
+    "path": "follow-up/search-plan.json",
+    "bytes": 1885,
+    "sha256": "e03c0e32f6c54c47617db018c96c95c18307d029acd2113274d02f99743cebf0"
+  },
+  {
+    "path": "follow-up/top1-chemical-exposure.json",
+    "bytes": 11766,
+    "sha256": "6791704d7b84e50fb1bfe38ebd79f50d0155d3e397d7b7a7f2bb5bd04a85b03c"
+  },
+  {
+    "path": "follow-up/validation.json",
+    "bytes": 1751,
+    "sha256": "1d3b75aeae07c7631ce3104cb1e4bed48b5a3acae59d905c7acd1afb014f4b4e"
+  },
+  {
+    "path": "paper-dispositions.json",
+    "bytes": 60470,
+    "sha256": "ffcc27012004797614ba9166586662f6f375e73eeefaccf0ad84089240475e14"
+  },
+  {
+    "path": "primary/amanitin.json",
+    "bytes": 17382,
+    "sha256": "da29a6292a219880ff7c1d394a151e5494baf3d0472bc3278934ea04a229ed6c"
+  },
+  {
+    "path": "primary/anthracycline-identity-note.json",
+    "bytes": 501,
+    "sha256": "a94ee1aa6c58e6e6ed5fecea89e2246135182258138186d1d929919d6f134f6c"
+  },
+  {
+    "path": "primary/anthracycline.json",
+    "bytes": 102978,
+    "sha256": "13f84bc2f7dd62994dcc1c795baccd8579b69953d9dfe43421f098aa09ed08b2"
+  },
+  {
+    "path": "primary/bclxl.json",
+    "bytes": 34914,
+    "sha256": "9d3d457cbcd18b93a8b03acc187b692a6cd8d364da2450c0bb20b2d9fc6bc4c9"
+  },
+  {
+    "path": "primary/brd4.json",
+    "bytes": 32012,
+    "sha256": "853a5ee5984d63d0e41b04c58dc4c8e5f86dabbc8bccdc41c2545dcec99bf626"
+  },
+  {
+    "path": "primary/cdk.json",
+    "bytes": 31044,
+    "sha256": "ac8d8f75b93d53ce0ab60ad0120afeb2b0e0df8ecc41aab93d04736cf5b3ae60"
+  },
+  {
+    "path": "primary/clio-abstract-crossref.json",
+    "bytes": 10363,
+    "sha256": "189e1faf631b761b92492912e3585e8c38d3b167595f310290acc6241636a728"
+  },
+  {
+    "path": "primary/cryptophycin.json",
+    "bytes": 39325,
+    "sha256": "468d2bf30aa6ba7279ba802bc96b43c7664a3257280d49760ff42cbe2fa0f042"
+  },
+  {
+    "path": "primary/ddr.json",
+    "bytes": 72992,
+    "sha256": "dcc269fcde133e3e245f040e0bad982b4e84fce6dee60e7ac16d3375bd5dcc02"
+  },
+  {
+    "path": "primary/dual.json",
+    "bytes": 19991,
+    "sha256": "5d0be30cd4a854abaf3efbb0b0157d01cd9d97002553320bc2630375cfecf30c"
+  },
+  {
+    "path": "primary/eribulin.json",
+    "bytes": 82314,
+    "sha256": "a3459f19d8b28ca360ab9720e953718b3712cd534590a91554d9520679c666fd"
+  },
+  {
+    "path": "primary/ferroptosis-fgfr4.json",
+    "bytes": 9022,
+    "sha256": "ae1de717734eea3de71fd83da38b36fc6828f23bf67d06271ca2b58046ee6afd"
+  },
+  {
+    "path": "primary/ferroptosis.json",
+    "bytes": 18040,
+    "sha256": "7ab60626f26930979979cef4f46762dba38210739a05c27da92df6122c3ecb47"
+  },
+  {
+    "path": "primary/gq11.json",
+    "bytes": 29020,
+    "sha256": "ea8298aaa22c9d324f081ec3de254f27feeca4ca28d9ee7eea2d83c00f4abcb7"
+  },
+  {
+    "path": "primary/gspt1-abstract-crossref.json",
+    "bytes": 10024,
+    "sha256": "7cc8e8e957ad1aa2a244d024f22b946629e7ccf5c78de767e68b77a5a37dea45"
+  },
+  {
+    "path": "primary/hdac.json",
+    "bytes": 10888,
+    "sha256": "24cd57615b99c53a7cf003bb4a7357dde3c083be12cc645f727f4f924e4b4b03"
+  },
+  {
+    "path": "primary/hemiasterlin-select.json",
+    "bytes": 36428,
+    "sha256": "a802d2f3d24ac3598a1fd7643fac7ae0d6f67df501e7d00a02fb81092edb7c48"
+  },
+  {
+    "path": "primary/ign.json",
+    "bytes": 56104,
+    "sha256": "b8e1477cd901fb05dcdfbb95a57801a2ac96a385720e904215175d05e05f9927"
+  },
+  {
+    "path": "primary/kif11-abstract-crossref.json",
+    "bytes": 6086,
+    "sha256": "1ab6c7a2cbf393138fae16a33ff4064bd97d4d153173aadf016a7d7fa79f5ce0"
+  },
+  {
+    "path": "primary/ksp-primary.json",
+    "bytes": 13721,
+    "sha256": "b6777b379a78021b378b9db077d88d1cbbe05fc84956155b95f1d73ceb724711"
+  },
+  {
+    "path": "primary/manifest.json",
+    "bytes": 18068,
+    "sha256": "e4a217fbf2f4c7f0b375066dfb8942ed20a7ee3320430af08fca02f1dd7c270c"
+  },
+  {
+    "path": "primary/mcl1-crossref.json",
+    "bytes": 19978,
+    "sha256": "d0cd3cc9a4ca1c02204213b9df7d8f82963fffe447a9ed3401b20e7c237fcad8"
+  },
+  {
+    "path": "primary/nampt-2026.json",
+    "bytes": 10041,
+    "sha256": "653589a64d5e32a34b84f6da92a211aadbef14e4c00713c3aba0bffc4e86b86d"
+  },
+  {
+    "path": "primary/nampt.json",
+    "bytes": 14619,
+    "sha256": "703becf7cd67e7a615d2810d3a87ebdeaac2ee8c97128f3ce23de7f35558a5e1"
+  },
+  {
+    "path": "primary/pa289-crossref.json",
+    "bytes": 6818,
+    "sha256": "791de2d2d24324721180c01eefd25b892ccbcb51a03260ada3642904889ae2be"
+  },
+  {
+    "path": "primary/pdd.json",
+    "bytes": 10193,
+    "sha256": "074ca861fd7ee5514246f1915fc249fb087923feb2a98d55033f72ae9a27fd88"
+  },
+  {
+    "path": "primary/pi3k-abstract-crossref.json",
+    "bytes": 11928,
+    "sha256": "f2bc58d4b2006a001d1e364b611d0eaf837de86db537c84dfc1d4bccaec8a68b"
+  },
+  {
+    "path": "primary/proteasome-failure.json",
+    "bytes": 15668,
+    "sha256": "5bc7d0ee5f51b62c91f18fafc51dba93b22849de7ae5b3e9940d992bfb47a000"
+  },
+  {
+    "path": "primary/protein-toxin.json",
+    "bytes": 14216,
+    "sha256": "ee7d27bc4de9491ff77901fb187d8584b4225a9e99d40a5d3cd861a6cfc4cdc7"
+  },
+  {
+    "path": "primary/splicing-site.json",
+    "bytes": 14341,
+    "sha256": "d0c219dc9fc488f05d721caeac05e2de1941ec412ceee3146842a3adb8908699"
+  },
+  {
+    "path": "primary/splicing.json",
+    "bytes": 15605,
+    "sha256": "08a30f218626cc28ff3f2c2d0f6bc125b0da82bf181b3f84234e8d6ede3cce0b"
+  },
+  {
+    "path": "primary/sting-platform.json",
+    "bytes": 16260,
+    "sha256": "e86f68502c684cc625ae35838d9b4c9c51ee1a73215a673b365f1e8ec7f14d7e"
+  },
+  {
+    "path": "primary/sting.json",
+    "bytes": 24608,
+    "sha256": "835555e4ffa7a24bdaed35e6de59cc694ded9b88a1141becc5929908e9ab0d06"
+  },
+  {
+    "path": "primary/tlr.json",
+    "bytes": 24835,
+    "sha256": "267ae8ae7c78d00a4413c244068d4b98b7b257ddb8d8a48fa6ce2784929c67d5"
+  },
+  {
+    "path": "primary/triptolide.json",
+    "bytes": 10430,
+    "sha256": "15df18aaa4a816df22f128468e800fd1bee6898e0cb5c22912f4da0489981c9f"
+  },
+  {
+    "path": "primary/tubulysin.json",
+    "bytes": 119299,
+    "sha256": "a1cea7ee89c198beb98a174949e2abb596d65041774cdadd116b98ee49899b40"
+  },
+  {
+    "path": "registry/dual-ddr/page-0001.json",
+    "bytes": 23060,
+    "sha256": "f2d37d7d38f9111d3ff57ce82562721db88f70394a8855f251c49fe1f6ee71ff"
+  },
+  {
+    "path": "registry/inventory.json",
+    "bytes": 17577,
+    "sha256": "bdce400fbc43ae023074f607e2bf941914904b2c3eb9fa359da4ba3177daf377"
+  },
+  {
+    "path": "registry/manifest.json",
+    "bytes": 2423,
+    "sha256": "ecab42cfdcf6221f7a97dd8d7a4b154056a68b74e3ba51df59ff267d34e267bd"
+  },
+  {
+    "path": "registry/novel-payload-programs/page-0001.json",
+    "bytes": 590554,
+    "sha256": "d52752458665b59d3545a4282fec92241a0d499c073f2da8cc2d28c8c34dd50a"
+  },
+  {
+    "path": "registry/plan.json",
+    "bytes": 595,
+    "sha256": "93807505a0fa9b7d2cf7ebcc4633f0608bbb97e9915dd6d463f8a539ad596fa1"
+  },
+  {
+    "path": "registry/semantic-exemplar-identifiers/page-0001.json",
+    "bytes": 590554,
+    "sha256": "d52752458665b59d3545a4282fec92241a0d499c073f2da8cc2d28c8c34dd50a"
+  },
+  {
+    "path": "registry-completion/inventory.json",
+    "bytes": 1170,
+    "sha256": "ffa49644fd0a9cc84dc61a3eedd8f22ee01826981c55c9c4d2834a9c7c9a3e3e"
+  },
+  {
+    "path": "registry-completion/manifest.json",
+    "bytes": 700,
+    "sha256": "245bb6fbd244ff0416629b743cda131c1984db14c13b7733dbd1dafcc7ea0745"
+  },
+  {
+    "path": "registry-completion/mcl1-trial/page-0001.json",
+    "bytes": 27261,
+    "sha256": "7a06317c915be286f4526fa2546b2796ae5c182d1007e586f19909ca2b5791d1"
+  },
+  {
+    "path": "registry-completion/plan.json",
+    "bytes": 123,
+    "sha256": "70509dd4d4d1a1a8feb961e0dc2370e62ec7370da934e61697cd068c585e356e"
+  },
+  {
+    "path": "registry-completion-plan.json",
+    "bytes": 123,
+    "sha256": "70509dd4d4d1a1a8feb961e0dc2370e62ec7370da934e61697cd068c585e356e"
+  },
+  {
+    "path": "registry-plan.json",
+    "bytes": 595,
+    "sha256": "93807505a0fa9b7d2cf7ebcc4633f0608bbb97e9915dd6d463f8a539ad596fa1"
+  },
+  {
+    "path": "registry-supplement/gq11-trial/page-0001.json",
+    "bytes": 15263,
+    "sha256": "ed59ab1b7feb1635db9c5baa5ae705a4d671b36312a902bbee1afeed11cbc38c"
+  },
+  {
+    "path": "registry-supplement/inventory.json",
+    "bytes": 949,
+    "sha256": "855349e514cb0804c21190edeeaed2edd10cd05b69de94f4919dced13597ccad"
+  },
+  {
+    "path": "registry-supplement/manifest.json",
+    "bytes": 711,
+    "sha256": "187b414eda4807807301a7d5b5dc1bd3de43a3700ef4f8d16d2db8c51ee448e6"
+  },
+  {
+    "path": "registry-supplement/plan.json",
+    "bytes": 123,
+    "sha256": "ece66c7eea082e9af577ca9f8f173d2caf319f6617334288b1e73f184e291503"
+  },
+  {
+    "path": "registry-supplement-plan.json",
+    "bytes": 123,
+    "sha256": "ece66c7eea082e9af577ca9f8f173d2caf319f6617334288b1e73f184e291503"
+  },
+  {
+    "path": "trial-dispositions.json",
+    "bytes": 5247,
+    "sha256": "73bc0351a331f39b5d0ca6c544b3082b77b0f245e73bc9afdeae7078ca554f4c"
+  },
+  {
+    "path": "validation.json",
+    "bytes": 1507,
+    "sha256": "9f8f2bde5b226ac96943cd6cf1ec6f0f147524f9d6e2836cd492e4a9f80a541d"
+  }
+]

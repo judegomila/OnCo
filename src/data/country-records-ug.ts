@@ -162,7 +162,7 @@ const papers: PaperInput[] = [
     institutions: ["gulu-cancer-registry"], cancers: ["cervical", "burkitt-lymphoma", "kaposi-sarcoma", "prostate"],
     links: [doi("10.1002/ijc.32053", "Int J Cancer 2019"), pubmed("30536374")] }),
 
-  p({ id: "paper-kavuma-radiotherapy-uganda-jgo-2025", name: "How radiotherapy developed in Uganda, 1988 to 2023",
+  p({ id: "paper-kavuma-radiotherapy-uganda-jgo-2025", name: "The development of radiotherapy in Uganda, 1988 to 2023",
     journal: "JCO Global Oncology", year: 2025, doi: "10.1200/go-24-00339", pmid: "39883898", authors: "Kavuma A, Kibudde S, Kanyike D, Kigula-Mugambe J, Zhao T, Gay H, Sun B, Orem J", paperType: "review",
     tldr: "Radiotherapy at the Uganda Cancer Institute grew from about 600 new patients a year in its second decade to about 2,600 in 2023, and about half of patients are now treated with image-guided or 3D-conformal techniques.",
     summary: "Published as \"Evolution and Recent Radiation Therapy Advancement in Uganda: A Precedent on How to Increase Access to Quality Radiotherapy Services in Low- and Middle-Income Countries\". The authors, from the Uganda Cancer Institute and partners, review radiotherapy in Uganda since services began in 1988 to 1989, including the role of IAEA support.",

@@ -121,7 +121,7 @@ const SRC = {
 
 // ======================= THE CANCER RECORD =======================
 export const gallbladderCancer: CancerInput = {
-  id: "gallbladder", kind: "cancer", name: "Gallbladder cancer", group: "gastrointestinal", parent: "biliary-tract-cancer", asOf, tags: [...tags, "nci-coverage", "rare"], wikipedia: W("Gallbladder_cancer"),
+  id: "gallbladder", kind: "cancer", name: "Gallbladder cancer", group: "gastrointestinal", parent: "biliary-tract-cancer", asOf: "2026-11-10", tags: [...tags, "nci-coverage", "rare"], wikipedia: W("Gallbladder_cancer"),
   aka: ["Gallbladder cancer", "Gallbladder carcinoma", "Carcinoma of the gallbladder", "Gall bladder cancer", "Biliary tract cancer of the gallbladder", "GBC", "ICD-10 C23"],
   burden: "Around 1,300 people a year in the UK, seven in ten of them women and more than half aged 75 or over; rare here, but common where gallstones are common, above all Bolivia, Chile, northern India and Pakistan (Cancer Research UK; GLOBOCAN).",
   tldr: "Gallbladder cancer starts in the small bile-storing sac under the liver and is one of the biliary tract cancers. Most cases are found late, or by chance when a gallbladder is removed for gallstones. It is rare in the UK, with about 1,300 cases a year, and much commoner in Chile, Bolivia and northern India. Found early, an operation can cure it.",

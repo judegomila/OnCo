@@ -215,7 +215,7 @@ const papers: PaperInput[] = [
     cancers: ["breast-cancer", "cervical"], institutions: ["belarusian-cancer-registry", "iarc"],
     links: [doi("10.1016/j.jcpo.2023.100436", "J Cancer Policy 2023"), pubmed("37544479")] }),
 
-  p({ id: "paper-mandrik-breast-screening-preferences-belarus-plos-one-2019", name: "What Belarusian women want from breast cancer screening: a discrete choice experiment",
+  p({ id: "paper-mandrik-breast-screening-preferences-belarus-plos-one-2019", name: "Belarusian women's preferences for breast cancer screening: a discrete choice experiment",
     journal: "PLoS One", year: 2019, doi: "10.1371/journal.pone.0224667", pmid: "31675357", authors: "Mandrik O, Yaumenenka A, Herrero R, Jonker MF", paperType: "observational", participants: 428,
     tldr: "In a survey of 428 Belarusian women designed to support the government's plans for mammography screening, 90% preferred mammography to the existing breast examination by a clinician, falling to 55% if a national programme had limited capacity.",
     summary: "Published as \"Population preferences for breast cancer screening policies: Discrete choice experiment in Belarus\". With the objective of supporting the Belarusian government to implement mammography screening, the authors built a discrete choice experiment from a literature review, 23 key-informant interviews and pilots, and measured stated preferences in a representative sample of 428 women (89% response rate) from all six regions.",

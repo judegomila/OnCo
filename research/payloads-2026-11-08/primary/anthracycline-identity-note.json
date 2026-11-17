@@ -1,0 +1,7 @@
+{
+  "sourceUrl": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC11740940/unicode",
+  "rawSha256": "1c5f125d7aa9af088e26128a2d31cb41f4be89079cc05fcd586e23789a5ce007",
+  "locator": "Results paragraph beginning Therefore, we selected PNU-159682",
+  "verifiedIdentity": "PNU-159682",
+  "note": "The indexed abstract spells PNU-158692; the primary full-text body identifies PNU-159682. The authored record follows the body and does not propagate the abstract transposition."
+}

@@ -1,0 +1,44 @@
+{
+  "checkedOn": "2026-11-09",
+  "baseline": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+  "dataCompanionDraft": 369,
+  "canonicalField": "term.chemicalObservations",
+  "endpoints": [
+    "chemical-identity",
+    "release",
+    "membrane-access",
+    "bystander-killing",
+    "transporter-substrate",
+    "transporter-inhibition",
+    "conjugate-loading"
+  ],
+  "requiredCommonContext": [
+    "species",
+    "context",
+    "method",
+    "statement",
+    "evidenceType",
+    "sources",
+    "checkedOn"
+  ],
+  "additionalRequirements": {
+    "transporterEndpoints": "At least one named transporter. Substrate and inhibition remain distinct.",
+    "conjugate-loading": "Names the conjugate or preparation. A source statement is not converted into a numeric mean or patient dose."
+  },
+  "missingEvidence": "not-recorded; never a negative measurement",
+  "consumerPaths": [
+    "payload comparison",
+    "glossary evidence disclosure",
+    "canonical entity JSON",
+    "entity JSON Schema",
+    "Markdown context",
+    "semantic field text",
+    "atomic Ask passages",
+    "Ask mechanism template",
+    "exact-species/endpoint/conjugate query",
+    "canonical graph references where explicitly provided"
+  ],
+  "queryMatching": "Exact stated species, endpoint and optional transporter/conjugate; no unverified alias substitution.",
+  "separateOpenScope": "Broader ambiguous-prose component inference and classification context remain a separate audit item.",
+  "productApproval": "pending; no deployment or merge"
+}

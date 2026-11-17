@@ -1,0 +1,890 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1038/s41591-026-04518-z",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "42443515",
+        "source": "MED",
+        "pmid": "42443515",
+        "pmcid": "PMC13577922",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC13577922"
+          ]
+        },
+        "doi": "10.1038/s41591-026-04518-z",
+        "title": "An anti-PMEL antibody-drug conjugate with a G&lt;sub&gt;q/1&lt;/sub&gt;&lt;sub&gt;1&lt;/sub&gt; inhibitor payload in GNAQ/GNA11-mutant melanomas: a phase 1 trial.",
+        "authorString": "Carlino MS, Kapiteijn E, Piperno-Neumann S, Sullivan RJ, Carvajal R, Dummer R, Gromke T, Hassel JC, Kee D, Ramelyte E, Shoushtari AN, Wei AZ, Enk A, Handel EE, Montazeri K, Ramon-Patino J, Richly H, Rodrigues M, Sandhu S, Smithy J, Speetjens FM, Milanez-Almeida P, Chaudhury A, Hoffmaster K, Ising M, Otero JA, RamKumar T, Reynolds A, Sharaby S, Werner L, Yerramilli-Rao P, Calvo E.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Carlino MS",
+              "lastName": "Carlino",
+              "firstName": "Matteo S",
+              "initials": "MS",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7861-4104"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Westmead and Blacktown Hospitals, University of Sydney, Sydney, New South Wales, Australia. matteo.carlino@sydney.edu.au."
+                  },
+                  {
+                    "affiliation": "Melanoma Institute Australia, Sydney, New South Wales, Australia. matteo.carlino@sydney.edu.au."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kapiteijn E",
+              "lastName": "Kapiteijn",
+              "firstName": "Ellen",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4814-6426"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leiden University Medical Center, Leiden, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Piperno-Neumann S",
+              "lastName": "Piperno-Neumann",
+              "firstName": "Sophie",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut Curie, Paris, PSL Research University, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sullivan RJ",
+              "lastName": "Sullivan",
+              "firstName": "Ryan J",
+              "initials": "RJ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-5344-6645"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Massachusetts General Hospital, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Carvajal R",
+              "lastName": "Carvajal",
+              "firstName": "Richard",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Northwell Health Cancer Institute, Lake Success, NY, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Dummer R",
+              "lastName": "Dummer",
+              "firstName": "Reinhard",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2279-6906"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Hospital Zurich, Zurich, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gromke T",
+              "lastName": "Gromke",
+              "firstName": "Tanja",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Hospital Essen, Essen, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hassel JC",
+              "lastName": "Hassel",
+              "firstName": "Jessica C",
+              "initials": "JC",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg University, Medical Faculty Heidelberg, Department of Dermatology and National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Hospital Heidelberg, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Kee D",
+              "lastName": "Kee",
+              "firstName": "Damien",
+              "initials": "D",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-4685-1666"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Peter MacCallum Cancer Centre, University of Melbourne, Melbourne, Victoria, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ramelyte E",
+              "lastName": "Ramelyte",
+              "firstName": "Egle",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8262-8608"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Hospital Zurich, Zurich, Switzerland."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Shoushtari AN",
+              "lastName": "Shoushtari",
+              "firstName": "Alexander N",
+              "initials": "AN",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8065-4412"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+                  },
+                  {
+                    "affiliation": "Weill Cornell Medical College, New York, NY, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Wei AZ",
+              "lastName": "Wei",
+              "firstName": "Alexander Z",
+              "initials": "AZ",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3290-9959"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Columbia University Herbert Irving Comprehensive Cancer Center, New York-Presbyterian Hospital, New York, NY, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Enk A",
+              "lastName": "Enk",
+              "firstName": "Alexander",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-1816-421X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Heidelberg University, Medical Faculty Heidelberg, Department of Dermatology and National Center for Tumor Diseases (NCT), NCT Heidelberg, a partnership between DKFZ and University Hospital Heidelberg, Heidelberg, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Handel EE",
+              "lastName": "Handel",
+              "firstName": "Eleanor E",
+              "initials": "EE",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Westmead and Blacktown Hospitals, University of Sydney, Sydney, New South Wales, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Montazeri K",
+              "lastName": "Montazeri",
+              "firstName": "Kamaneh",
+              "initials": "K",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3693-5994"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Massachusetts General Hospital, Boston, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ramon-Patino J",
+              "lastName": "Ramon-Patino",
+              "firstName": "Jorge",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "START Madrid-CIOCC, Centro Integral Oncologico Clara Campal, Madrid, Spain."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Richly H",
+              "lastName": "Richly",
+              "firstName": "Heike",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "University Hospital Essen, Essen, Germany."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Rodrigues M",
+              "lastName": "Rodrigues",
+              "firstName": "Manuel",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5443-0802"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Institut Curie, Paris, PSL Research University, Paris, France."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sandhu S",
+              "lastName": "Sandhu",
+              "firstName": "Shahneen",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-8660-4475"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Peter MacCallum Cancer Centre, University of Melbourne, Melbourne, Victoria, Australia."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Smithy J",
+              "lastName": "Smithy",
+              "firstName": "James",
+              "initials": "J",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-3126-1193"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Memorial Sloan Kettering Cancer Center, New York, NY, USA."
+                  },
+                  {
+                    "affiliation": "Weill Cornell Medical College, New York, NY, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Speetjens FM",
+              "lastName": "Speetjens",
+              "firstName": "Frank M",
+              "initials": "FM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Leiden University Medical Center, Leiden, The Netherlands."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Milanez-Almeida P",
+              "lastName": "Milanez-Almeida",
+              "firstName": "Pedro",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Chaudhury A",
+              "lastName": "Chaudhury",
+              "firstName": "Anwesha",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Development, Novartis, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hoffmaster K",
+              "lastName": "Hoffmaster",
+              "firstName": "Keith",
+              "initials": "K",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ising M",
+              "lastName": "Ising",
+              "firstName": "Mary",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, East Hanover, NJ, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Otero JA",
+              "lastName": "Otero",
+              "firstName": "Javier A",
+              "initials": "JA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, East Hanover, NJ, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "RamKumar T",
+              "lastName": "RamKumar",
+              "firstName": "Thiruvamoor",
+              "initials": "T",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, East Hanover, NJ, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Reynolds A",
+              "lastName": "Reynolds",
+              "firstName": "Aimee",
+              "initials": "A",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4703-6388"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sharaby S",
+              "lastName": "Sharaby",
+              "firstName": "Sherif",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0003-6259-4369"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, East Hanover, NJ, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Werner L",
+              "lastName": "Werner",
+              "firstName": "Lillian",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Development, Novartis, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Yerramilli-Rao P",
+              "lastName": "Yerramilli-Rao",
+              "firstName": "Padmaja",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Biomedical Research, Novartis, Cambridge, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Calvo E",
+              "lastName": "Calvo",
+              "firstName": "Emiliano",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-4921-829X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "START Madrid-CIOCC, Centro Integral Oncologico Clara Campal, Madrid, Spain."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-5344-6645"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8262-8608"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-1816-421X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2279-6906"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4685-1666"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-4814-6426"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5443-0802"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7861-4104"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8065-4412"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-8660-4475"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3126-1193"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3290-9959"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3693-5994"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4703-6388"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0003-4921-829X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0009-0003-6259-4369"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "9",
+          "volume": "32",
+          "journalIssueId": 4263414,
+          "dateOfPublication": "2026 Sep",
+          "monthOfPublication": 9,
+          "yearOfPublication": 2026,
+          "journal": {
+            "medlineAbbreviation": "Nat Med",
+            "title": "Nature medicine",
+            "essn": "1546-170X",
+            "issn": "1078-8956",
+            "nlmid": "9502015",
+            "isoabbreviation": "Nat Med"
+          },
+          "printPublicationDate": "2026-09-01"
+        },
+        "pubYear": "2026",
+        "pageInfo": "3248-3258",
+        "affiliation": "Westmead and Blacktown Hospitals, University of Sydney, Sydney, New South Wales, Australia. matteo.carlino@sydney.edu.au.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Clinical Trial, Phase I",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Novartis Pharmaceuticals Corporation",
+              "grantId": "NA",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "P30 CA008748",
+              "orderIn": 0
+            },
+            {
+              "agency": "Novartis Pharmaceuticals Corporation (NPC)",
+              "grantId": "NA",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI Cancer Center Support Grant,",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Melanoma",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Uveal Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "GTP-Binding Protein alpha Subunits",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "GTP-Binding Protein alpha Subunits, Gq-G11",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "GE",
+                    "qualifierName": "genetics"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AE",
+                    "qualifierName": "adverse effects"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PK",
+                    "qualifierName": "pharmacokinetics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TU",
+                    "qualifierName": "therapeutic use"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mutation"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Adult"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Uveal Melanoma"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "GTP-Binding Protein alpha Subunits",
+              "registryNumber": "0"
+            },
+            {
+              "name": "GTP-Binding Protein alpha Subunits, Gq-G11",
+              "registryNumber": "EC 3.6.5.1"
+            },
+            {
+              "name": "GNA11 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "GNAQ protein, human",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1038/s41591-026-04518-z"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13577922"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC13577922?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "N",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen",
+            "nct"
+          ]
+        },
+        "dateOfCompletion": "2026-09-16",
+        "dateOfCreation": "2026-07-13",
+        "dateOfRevision": "2026-11-06",
+        "electronicPublicationDate": "2026-07-13",
+        "firstPublicationDate": "2026-07-13",
+        "firstIndexDate": "2026-07-15",
+        "fullTextReceivedDate": "2026-09-17",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "8fb417e1efea5bd25ca6c76bdde9640f3eb9e17f6a30eebad091416feac80a18",
+          "characters": 1253
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "8f9ba2795aaf5f4a035c7dc51b0e9ccc2543775ffa74ab0681ddaf9dbd9fbbdd",
+    "sourceBytes": 16019,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

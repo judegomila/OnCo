@@ -315,7 +315,7 @@ export const GR_DIVE: CountryDive = {
           plain:
             "Of the cancer trials OnCo holds, 440 list a site in Greece on ClinicalTrials.gov, 148 of them recruiting when last read. Most are international company trials, led by MSD, Bristol-Myers Squibb and Roche. Three, all in early breast cancer, are led by a Greek group, the Hellenic Oncology Research Group.",
           detail:
-            "Counted on 11 November 2026 from the ClinicalTrials.gov participation data in OnCo's graph: 440 trials list Greece among their countries, 342 of them phase 3, 60 phase 2, 22 phase 1/2, 15 phase 2/3 and 1 phase 1. ClinicalTrials.gov gives 182 as active but not recruiting, 148 recruiting, 95 completed, 13 terminated, 1 not yet recruiting and 1 of unknown status. Merck Sharp & Dohme is lead sponsor of 58, Bristol-Myers Squibb of 35, Hoffmann-La Roche of 31, AstraZeneca of 22 and Janssen of 21; non-small cell lung cancer is the first-listed cancer for 88 and multiple myeloma for 47. The Hellenic Oncology Research Group sponsors three completed phase 3 adjuvant breast cancer trials that ran only in Greece. Academic trials led from elsewhere in Europe with Greek sites include PERSEUS and CARTITUDE-6 from the European Myeloma Network, SENOMAC from the Karolinska Institutet and ESPAC-4 from Liverpool. The OECD's 2025 profile notes that of 436 trials involving children and adolescents with cancer in Europe from 2010 to 2022, 25 ran in Greece (5.7%).",
+            "Counted on 11 November 2026 from the ClinicalTrials.gov participation data in OnCo's graph: 439 trials list Greece among their countries, 341 of them phase 3, 60 phase 2, 22 phase 1/2, 15 phase 2/3 and 1 phase 1. ClinicalTrials.gov gives 182 as active but not recruiting, 148 recruiting, 94 completed, 13 terminated, 1 not yet recruiting and 1 of unknown status. Merck Sharp & Dohme is lead sponsor of 58, Bristol-Myers Squibb of 35, Hoffmann-La Roche of 31, AstraZeneca of 22 and Janssen of 21; non-small cell lung cancer is the first-listed cancer for 88 and multiple myeloma for 47. The Hellenic Oncology Research Group sponsors three completed phase 3 adjuvant breast cancer trials that ran only in Greece. Academic trials led from elsewhere in Europe with Greek sites include PERSEUS and CARTITUDE-6 from the European Myeloma Network, SENOMAC from the Karolinska Institutet and ESPAC-3 from Liverpool. The OECD's 2025 profile notes that of 436 trials involving children and adolescents with cancer in Europe from 2010 to 2022, 25 ran in Greece (5.7%).",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Greece", url: "https://clinicaltrials.gov/search?cond=Cancer&country=Greece" },
             { label: "OECD/EC: Country Cancer Profile Greece 2025, section 6 (PDF)", url: CCP },
@@ -378,7 +378,7 @@ export const GR_DIVE: CountryDive = {
   companies: ["horg"],
   drugs: [],
   trials: [
-    "nct00431080", "nct01985724", "nct00615602", "perseus", "cartitude-6", "senomac", "espac-4", "dreamm-7", "dreamm-8", "majestec-3",
+    "nct00431080", "nct01985724", "nct00615602", "perseus", "cartitude-6", "senomac", "espac-3", "dreamm-7", "dreamm-8", "majestec-3",
     "cartitude-4", "checkmate-227", "pacific", "monarche", "katherine", "keynote-a18", "alina", "krystal-12", "codebreak-200", "destiny-breast05",
     "harmoni-3", "dllevate", "ideate-lung02", "interpath-001", "ev-304",
   ],

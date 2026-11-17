@@ -151,7 +151,7 @@ const papers: PaperInput[] = [
     institutions: ["hadhramout-national-cancer-centre"], cancers: ["childhood-cancers", "non-hodgkin-lymphoma", "all-leukemia"],
     links: [doi(HCR_2016, "Saudi Med J 2016"), pubmed("27146613")] }),
 
-  p({ id: "paper-al-jamei-yemen-cancer-screening-kap-confl-health-2025", name: "What people in Yemen know about cancer screening, and how few have been screened",
+  p({ id: "paper-al-jamei-yemen-cancer-screening-kap-confl-health-2025", name: "Public knowledge and uptake of cancer screening in Yemen",
     journal: "Conflict and Health", year: 2025, doi: "10.1186/s13031-025-00709-6", pmid: "41084062", authors: "Al-Jamei S, Al-Shargabi A, Al-Qafaf ED, et al.", paperType: "observational", participants: 996,
     tldr: "In a survey of 996 people in Yemen, about half had heard of cancer screening but only 8.5% had ever been screened; cost and lack of awareness were the main barriers.",
     summary: "Published as \"Public knowledge, attitudes, practices, and key influencing factors regarding cancer screening in Yemen\". A cross-sectional survey using a validated questionnaire distributed by convenience sampling, with logistic regression for factors associated with knowledge.",

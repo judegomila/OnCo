@@ -6,7 +6,8 @@ import type { CountryDive } from "@/data/country-dive";
  * nothing is known. Every figure was read from the raw text of its source on 11 November 2026, not from a summary of
  * it: IARC's GLOBOCAN 2024 fact sheet for Somalia, WHO's Cancer Country Profile 2020 for Somalia (PDF text), WHO's
  * immunisation data API and the World Bank's health expenditure series. OnCo's web searches ran out during this wave,
- * and the Ministry of Health's site carried nothing on cancer; each missing source is named under `gaps`.
+ * and the Ministry of Health's site carried nothing on cancer; each missing source is named under `gaps`. On 16 November
+ * 2026 the ministry's page on the medicines regulatory authority and the IAEA DIRAC country table were read and added.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/706-somalia-fact-sheet.pdf";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/som-2020.pdf";
@@ -14,6 +15,8 @@ const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filt
 const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SO";
 const WB_CHE = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=SO";
 const MOH = "https://moh.gov.so/";
+const MOH_NMRA = "https://moh.gov.so/en/nmra/";
+const DIRAC = "https://dirac.iaea.org/api/DataGridWebApi/GetCountriesAndRegions";
 const CTGOV = "https://clinicaltrials.gov/search?country=Somalia&cond=cancer";
 
 export const SO_DIVE: CountryDive = {
@@ -107,12 +110,15 @@ export const SO_DIVE: CountryDive = {
       cards: [
         {
           id: "regulator-gap",
-          title: "OnCo has not found a source on how medicines are approved in Somalia",
+          title: "Somalia's health ministry says the country has no medicines regulator yet",
           plain:
-            "OnCo did not find or read a source on Somalia's medicines regulation for this page, so it states nothing about how cancer medicines are approved or how trials are authorised. No trial in OnCo's records lists a site in Somalia.",
+            "The Federal Ministry of Health's own page says Somalia does not currently have a national medicines regulatory authority carrying out regulatory functions, so no national body evaluates or registers medicines, cancer medicines included. A bill to create one was endorsed by the cabinet in 2019. No trial in OnCo's records lists a site in Somalia.",
           detail:
-            "The Federal Ministry of Health and Human Services' site, read on 11 November 2026, carried nothing on medicines regulation for cancer. This card stands for a missing source, not a claim that no regulator exists.",
-          links: [{ label: "Federal Ministry of Health and Human Services, Somalia", url: MOH }],
+            "The ministry's page on the National Medicine Regulatory Authority, read on 16 November 2026 (the page carries no date), says: \"Currently Somalia does not have a National Medicines Regulatory Authority (NMRA) that is responsible for performing regulatory functions. However, a bill has been developed and endorsed by the cabinet of ministries in 2019 but there are no adequate national guidelines (GLs) for pharmaceutical inspection, product evaluation and registration, import and export control, licensing and inspection of pharmaceutical establishments, post-marketing surveillance and pharmacovigilance.\" The same page says the public supply of medicines has depended on donors since 1991 and covers about 30% of the country's needs, with the remaining 70% met by private importers and pharmacies \"operating without any regulatory framework\", citing the National Medicines Policy of 2014. OnCo did not find whether the 2019 bill has since become law, and the page says nothing specific to cancer medicines or to the authorisation of clinical trials.",
+          links: [
+            { label: "Federal Ministry of Health, Somalia: National Medicine Regulatory Authority (NMRA)", url: MOH_NMRA },
+            { label: "Federal Ministry of Health and Human Services, Somalia", url: MOH },
+          ],
         },
       ],
     },
@@ -147,8 +153,11 @@ export const SO_DIVE: CountryDive = {
           plain:
             "WHO's 2020 profile recorded no external beam radiotherapy in Somalia, \"n/a\" for a national cancer control plan, no cancer management guidelines, and community or home-based palliative care generally not available. Pathology services were recorded as generally available.",
           detail:
-            "The profile's health system page gives external beam radiotherapy machines for 2019 as 0.0 per 10,000 cancer patients, PET scanners and nuclear medicine physicians as 0, the national cancer control plan and integrated NCD plan as \"n/a\", cancer management guidelines as absent, and no staff in the Ministry of Health dedicating a significant share of their time to cancer. These are answers for 2019 and 2020; OnCo did not find a more recent authoritative account, and does not speculate about what has changed since.",
-          links: [{ label: "WHO: Cancer Country Profile 2020, Somalia (PDF)", url: WHO_PROFILE }],
+            "The profile's health system page gives external beam radiotherapy machines for 2019 as 0.0 per 10,000 cancer patients, PET scanners and nuclear medicine physicians as 0, the national cancer control plan and integrated NCD plan as \"n/a\", cancer management guidelines as absent, and no staff in the Ministry of Health dedicating a significant share of their time to cancer. These are answers for 2019 and 2020; OnCo did not find a more recent authoritative account, and does not speculate about what has changed since. The IAEA's Directory of Radiotherapy Centres (DIRAC) agrees as far as it goes: its public country table, read through its data service on 16 November 2026, has rows for 155 countries and territories and none for Somalia. That is the absence of an entry in a directory built from what countries and centres report, not proof that no machine exists.",
+          links: [
+            { label: "WHO: Cancer Country Profile 2020, Somalia (PDF)", url: WHO_PROFILE },
+            { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
+          ],
         },
       ],
     },
@@ -175,12 +184,12 @@ export const SO_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not found or not read for this page",
       plain:
-        "OnCo did not find a national cancer plan, a hospital cancer registry report, the medicines regulator's rules, any source on where cancer is treated in Somalia today, or arrangements in Somaliland and Puntland. It describes none of these from memory.",
+        "OnCo did not find a national cancer plan, a hospital cancer registry report, any source on where cancer is treated in Somalia today, or arrangements in Somaliland and Puntland. It describes none of these from memory.",
       detail:
-        "OnCo's web searches ran out during this wave, and the Federal Ministry of Health and Human Services' home page carried nothing on cancer. A future pass should look for WHO Eastern Mediterranean Region reports on Somalia, hospital-based studies through Europe PMC, IAEA sources on radiotherapy, and WHO's updated country profile.",
+        "OnCo's web searches ran out during this wave, and the Federal Ministry of Health and Human Services' home page carried nothing on cancer. Two sources this page first listed as unread have since been read, on 16 November 2026: the ministry's page on medicines regulation, which says Somalia has no functioning regulator yet, and the IAEA's DIRAC country table, which has no entry for Somalia. A future pass should look for WHO Eastern Mediterranean Region reports on Somalia, hospital-based studies through Europe PMC, and WHO's updated country profile.",
       links: [
         { label: "Federal Ministry of Health and Human Services, Somalia", url: MOH },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
       ],
     },
   ],
@@ -191,7 +200,7 @@ export const SO_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from international public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, and the World Bank's health expenditure series. No Somali national cancer source was found.",
+    "Every card was written from international public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, and the World Bank's health expenditure series; and, on 16 November 2026, the Federal Ministry of Health's page on the medicines regulatory authority and the IAEA's DIRAC country table. No Somali national cancer source was found.",
   verify:
     "Every number on this page is a modelled estimate, a spending figure, or a survey answer from 2019 or 2020. Anyone seeking care should ask the treating hospital or WHO's country office what is available now.",
   verifyLinks: [

@@ -83,7 +83,11 @@ const RECORDED: Array<{ id: string; total: number; label: string }> = [
   // (src/data/spikes/breast-residual-subclones.ts). Each is a bottleneck that ideas are meant to attack, the kind this
   // gauge asks about, so the denominator moves with them.
   { id: "bottleneck-ideas", total: 55, label: "Bottlenecks with ten or more ideas" },
-  { id: "term-wikipedia", total: 1317, label: "Terms with a Wikipedia link, or checked and found to have none" },
+  // 16 November 2026: the recorded 1,317 had fallen behind. The live count on the merged tree is 1,685, after
+  // glossary additions already on main and a contributor's teaching concepts (pull requests 418, 420 and the data
+  // of 375, which alone add 184 terms). All are glossary terms, the population this gauge asks about. The row
+  // records the live population; the label, completeness target and drift threshold are unchanged.
+  { id: "term-wikipedia", total: 1685, label: "Terms with a Wikipedia link, or checked and found to have none" },
   { id: "stale", total: 22343, label: "Records checked in the last 60 days" },
   { id: "kind-size", total: 18, label: "Open kinds with 25 or more records" },
   { id: "reviewed", total: 21770, label: "Records a named human reviewer has signed off" },

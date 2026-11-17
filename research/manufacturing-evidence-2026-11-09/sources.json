@@ -1,0 +1,70 @@
+{
+  "scope": "Scoped follow-up only; no full-paper or complete-guidance review claimed.",
+  "captures": [
+    {
+      "file": "fda-car-t-guidance.pdf",
+      "url": "https://www.fda.gov/media/156896/download",
+      "capturedAt": "2026-11-09T23:22:51.293248+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/156896/download",
+      "contentType": "application/pdf",
+      "bytes": 528619,
+      "sha256": "cd01188d8314469022466a3ce3424e6796fc205d1c8a325c092bdfa997d6ffb7",
+      "readingScope": "January 2024 final guidance. Selected identity, CAR-positive-cell VCN denominator, multi-transgene potency, manufacturing-delay/failure, product availability before lymphodepletion and bridging-treatment interpretation passages read.",
+      "interpretationBoundary": "Identity is not chain of identity; expression, count and function are distinct. No universal turnaround, clinical cutoff or eligibility assertion.",
+      "rawSourceCommitted": false
+    },
+    {
+      "file": "fda-potency-2011.pdf",
+      "url": "https://www.fda.gov/media/79856/download",
+      "capturedAt": "2026-11-09T23:36:20.297868+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/79856/download",
+      "contentType": "application/pdf",
+      "bytes": 124398,
+      "sha256": "719867bb74289b4d8be0a625086604c14e70f40031af6a44d5d0b992675cbe57",
+      "readingScope": "Title and superseded status checked against November 2026 final source.",
+      "interpretationBoundary": "Retained as historical verification only, not current policy.",
+      "rawSourceCommitted": false
+    },
+    {
+      "file": "fda-gene-cmc-2020.pdf",
+      "url": "https://www.fda.gov/media/113760/download",
+      "capturedAt": "2026-11-09T23:36:20.689138+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/113760/download",
+      "contentType": "application/pdf",
+      "bytes": 477900,
+      "sha256": "8bfad57bf0044fa38e1b5d0b3d6f195105e7decc6b689fda74a4403885570d5f",
+      "readingScope": "January 2020 final guidance. Selected limited-shelf-life ex vivo genetically modified-cell sterility passage, document pages 46 to 47, read.",
+      "interpretationBoundary": "48 to 72-hour in-process sample, rapid test plus continuing final culture are retained within the source setting. Guidance recommendations are not presented as universally binding early-release rules.",
+      "rawSourceCommitted": false
+    },
+    {
+      "file": "fda-potency-final-2026.html",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products",
+      "capturedAt": "2026-11-09T23:56:50.652126+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products",
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 37506,
+      "sha256": "534a3447f274bd436aa88efe970d3a6a72daa619f63c89c142a56ce59c7f71fc",
+      "readingScope": "Actual raw FDA page title, final status, issue month, supersession and original-PDF link checked.",
+      "interpretationBoundary": "Supersedes January 2011 guidance. HTTP status alone was not used as evidence.",
+      "rawSourceCommitted": false
+    },
+    {
+      "file": "fda-potency-final-2026.pdf",
+      "url": "https://www.fda.gov/media/196183/download",
+      "capturedAt": "2026-11-09T23:59:53.511291+00:00",
+      "status": 200,
+      "finalURL": "https://www.fda.gov/media/196183/download",
+      "contentType": "application/pdf",
+      "bytes": 489319,
+      "sha256": "332476a39563b63a7be407525c59dc70bddf3f850e64c58cb02e54f7d9b02884",
+      "readingScope": "November 2026 final guidance. Selected scope/introduction, assay uses, in-use handling and acceptance-criteria passages read.",
+      "interpretationBoundary": "Section 351 cellular/gene-therapy biological-product scope; control strategy extends beyond release alone. No clinical-benefit equivalence asserted.",
+      "rawSourceCommitted": false
+    }
+  ]
+}

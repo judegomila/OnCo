@@ -932,12 +932,7 @@ export const pipelineTrialsWave6: TrialInput[] = [
     summary: "A Study of Amivantamab in Combination With Lazertinib, or Amivantamab in Combination With Platinum-Based Chemotherapy, for Common Epidermal Growth Factor Receptor (EGFR)-Mutated Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) is a phase 2 interventional study registered as NCT06667076 by Janssen Research & Development, LLC, with 480 participants planned, started 2024-12-16 and due to reach its primary completion in 2029-05-23. Interventions recorded: Amivantamab, Lazertinib, Chemotherapy: Pemetrexed and Chemotherapy: Carboplatin.",
     drugs: ["amivantamab","lazertinib","pemetrexed","carboplatin"], cancers: ["nsclc", "egfr-mutant-nsclc"], companies: ["johnson-johnson"],
     links: [{ label: "ClinicalTrials.gov NCT06667076", url: "https://clinicaltrials.gov/study/NCT06667076" }] },
-  { id: "nct05491525", aka: ["KANGUROO"], kind: "trial", name: "Open-label, Long-term Safety, Efficacy, and Pharmacokinetics Study of Vibegron in Pediatric Subjects 2 Years to < 18 Years of Age With NDO and on CIC", nct: "NCT05491525", phase: "2/3", status: "recruiting", sponsor: "Urovant Sciences GmbH", enrolled: 71, asOf, tags,
-    setting: "A Phase 2/3, Open-label, Baseline-controlled, Multicenter, Long-term Study to Evaluate the Safety, Efficacy, and Pharmacokinetics of Vibegron in Pediatric Subjects 2 Years to < 18 Years of Age With Neurogenic Detrusor Overactivity (NDO) on Clean Intermittent Catheterization (CIC)",
-    tldr: "A phase 2/3 trial of vibegron in children with neurogenic detrusor overactivity, not a cancer, run by Urovant Sciences GmbH, now recruiting.",
-    summary: "Open-label, Long-term Safety, Efficacy, and Pharmacokinetics Study of Vibegron in Pediatric Subjects 2 Years to < 18 Years of Age With NDO and on CIC is a phase 2/3 interventional study registered as NCT05491525 by Urovant Sciences GmbH, with 71 participants planned, started 2022-10-12 and due to reach its primary completion in 2030-03. Interventions recorded: Vibegron.",
-    drugs: [], cancers: ["childhood-cancers"],
-    links: [{ label: "ClinicalTrials.gov NCT05491525", url: "https://clinicaltrials.gov/study/NCT05491525" }] },
+  // nct05491525 (KANGUROO, vibegron) removed on 2026-11-16: the registry's only condition is neurogenic detrusor overactivity in children with spinal dysraphism, spinal cord injury or transverse myelitis. It is not a cancer trial and had been matched to childhood cancers by its age range.
   { id: "nct06703255", technologies: ["cytotoxic-chemotherapy"], kind: "trial", name: "A Phase 2 Study of HX301 in Patients with High-grade Giloma", nct: "NCT06703255", phase: "1/2", status: "recruiting", sponsor: "Hangzhou Hanx Biopharmaceuticals, Ltd.", enrolled: 72, asOf, tags,
     setting: "A Phase IIa Clinical Study of HX301 Alone or in Combination with Temozolomide in Patients with High-Grade Glioma (Grade III and IV)",
     tldr: "A phase 1/2 trial of Temozolomide in glioma & glioblastoma, run by Hangzhou Hanx Biopharmaceuticals, Ltd., now recruiting.",
@@ -5307,12 +5302,21 @@ export const pipelineTrialsWave6: TrialInput[] = [
     summary: "DAY101 vs. Standard of Care Chemotherapy in Pediatric Participants With Low-Grade Glioma Requiring First-Line Systemic Therapy (LOGGIC/FIREFLY-2) is a phase 3 interventional study registered as NCT05566795 by Day One Biopharmaceuticals, Inc., with 418 participants enrolled, started 2023-02-27 and due to reach its primary completion in 2027-06. Interventions recorded: Tovorafenib and Chemotherapeutic Agent.",
     drugs: ["tovorafenib"], cancers: ["glioblastoma", "paediatric-low-grade-glioma"], companies: ["day-one-biopharmaceuticals"],
     links: [{ label: "ClinicalTrials.gov NCT05566795", url: "https://clinicaltrials.gov/study/NCT05566795" }] },
-  { id: "nct04225117", technologies: ["adc"], kind: "trial", name: "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)", nct: "NCT04225117", phase: "2", status: "active", sponsor: "Astellas Pharma Global Development, Inc.", enrolled: 329, asOf, tags,
+  { id: "nct04225117", technologies: ["adc"], kind: "trial", name: "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)", nct: "NCT04225117", phase: "2", status: "active", sponsor: "Astellas Pharma Global Development, Inc.", enrolled: 329, "asOf": "2026-11-11", tags,
     setting: "An Open-label, Multicenter, Multicohort, Phase 2 Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202)",
     tldr: "A phase 2 trial of Enfortumab vedotin and Pembrolizumab in advanced solid tumours, run by Astellas Pharma Global Development, Inc., active and no longer recruiting.",
-    summary: "A Study to Evaluate Enfortumab Vedotin in Subjects With Locally Advanced or Metastatic Malignant Solid Tumors (EV-202) is a phase 2 interventional study registered as NCT04225117 by Astellas Pharma Global Development, Inc., with 329 participants enrolled, started 2020-03-10 and due to reach its primary completion in 2025-02-25. Interventions recorded: enfortumab vedotin and pembrolizumab. Results have been posted on the registry.",
+    summary: "EV-202 (NCT04225117) is an open-label, nonrandomised, multicohort phase 2 study of enfortumab vedotin, with additional combination cohorts. The ClinicalTrials.gov entry checked on 11 November 2026 lists 329 participants overall, active but not recruiting status, and actual primary completion on 25 February 2025. Its overall programme and intervention list should not be confused with one published disease cohort.",
     drugs: ["enfortumab-vedotin","pembrolizumab"], cancers: ["metastatic-cancer"], companies: ["astellas","pfizer","merck"],
-    links: [{ label: "ClinicalTrials.gov NCT04225117", url: "https://clinicaltrials.gov/study/NCT04225117" }] },
+    links: [{ label: "ClinicalTrials.gov NCT04225117", url: "https://clinicaltrials.gov/study/NCT04225117" },
+{
+  "label": "Giordano et al.: phase 2 EV-202 breast cohorts (2025)",
+  "url": "https://doi.org/10.1200/OA-25-00053"
+}
+] ,
+"notes": [
+  "Giordano's 2025 publication reports enfortumab-vedotin monotherapy in 45 women with hormone receptor-positive/HER2-negative advanced breast cancer and 42 with TNBC after prior treatment. In the TNBC cohort, confirmed objective response was 19.0% and disease control 57.1%. Activity did not meet the prespecified threshold, and the study reported no trend between Nectin-4 expression and response. This is a nonrandomised phase 2 cohort, not a comparison with a TROP2 ADC or a demonstration of target superiority."
+]
+},
   { id: "nct06126640", technologies: ["adc", "topoisomerase-inhibitors"], kind: "trial", name: "A Phase III, Active-Controlled Study of SHR-A1811 Versus Trastuzumab Emtansine (T-DM1) in HER2-Positive Primary Breast Cancer Participants With Residual Invasive Disease Following Neoadjuvant Therapy", nct: "NCT06126640", phase: "3", status: "active", sponsor: "Jiangsu HengRui Medicine Co., Ltd.", enrolled: 1615, asOf, tags,
     setting: "A Phase III, Multicenter, Randomized, Open-Label, Active-Controlled Study of SHR-A1811 Versus Trastuzumab Emtansine (T-DM1) in HER2-Positive Primary Breast Cancer Participants With Residual Invasive Disease Following Neoadjuvant Therapy",
     tldr: "A phase 3 trial of Trastuzumab rezetecan and Trastuzumab emtansine in HER2-positive breast cancer, run by Jiangsu HengRui Medicine Co., Ltd., active and no longer recruiting.",

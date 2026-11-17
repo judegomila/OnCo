@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-08T21:06:33.221Z",
+  "request": {
+    "query": "Which primary studies compare fixed FFPE, fresh-frozen and viable tumor specimens, tissue section consumption, and RNA integrity measures RIN and DV200 for molecular assays?",
+    "searchMode": "semantic",
+    "maxResults": 15,
+    "corpus": "elicit"
+  },
+  "response": {
+    "papers": [
+      {
+        "elicitId": "ss-4983942",
+        "title": "Systematic evaluation of RNA quality, microarray data reliability and pathway analysis in fresh, fresh frozen and formalin-fixed paraffin-embedded tissue samples",
+        "authors": [
+          "I. Wimmer",
+          "Anna R. Tröscher",
+          "F. Brunner",
+          "S. Rubino",
+          "C. Bien",
+          "H. Weiner",
+          "H. Lassmann",
+          "J. Bauer"
+        ],
+        "year": 2018,
+        "abstract": "Formalin-fixed paraffin-embedded (FFPE) tissues are valuable resources commonly used in pathology. However, formalin fixation modifies nucleic acids challenging the isolation of high-quality RNA for genetic profiling. Here, we assessed feasibility and reliability of microarray studies analysing transcriptome data from fresh, fresh-frozen (FF) and FFPE tissues. We show that reproducible microarray data can be generated from only 2 ng FFPE-derived RNA. For RNA quality assessment, fragment size distribution (DV200) and qPCR proved most suitable. During RNA isolation, extending tissue lysis time to 10 hours reduced high-molecular-weight species, while additional incubation at 70 °C markedly increased RNA yields. Since FF- and FFPE-derived microarrays constitute different data entities, we used indirect measures to investigate gene signal variation and relative gene expression. Whole-genome analyses revealed high concordance rates, while reviewing on single-genes basis showed higher data variation in FFPE than FF arrays. Using an experimental model, gene set enrichment analysis (GSEA) of FFPE-derived microarrays and fresh tissue-derived RNA-Seq datasets yielded similarly affected pathways confirming the applicability of FFPE tissue in global gene expression analysis. Our study provides a workflow comprising RNA isolation, quality assessment and microarray profiling using minimal RNA input, thus enabling hypothesis-generating pathway analyses from limited amounts of precious, pathologically significant FFPE tissues.",
+        "doi": "10.1038/s41598-018-24781-6",
+        "pmid": "29679021",
+        "venue": "Scientific Reports",
+        "citedByCount": 102,
+        "urls": [
+          "https://www.nature.com/articles/s41598-018-24781-6.pdf"
+        ],
+        "studyTypeTags": [
+          "Review"
+        ],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.nature.com/articles/s41598-018-24781-6.pdf"
+      },
+      {
+        "elicitId": "ss-268639755",
+        "title": "Abstract 4957: DNA quality control metrics in cryopreserved tissue outperform DNA extracted from FFPE tissue",
+        "authors": [
+          "Jared J. Barrott",
+          "Nikole O’Neal",
+          "Jeffrey Okojie",
+          "David Booker",
+          "Ken Dixon"
+        ],
+        "year": 2024,
+        "abstract": "Personalized cancer care requires molecular characterization of neoplasms. While the research community accepts frozen tissues as the gold standard analyte for molecular assays, the source of tissue for testing of tumor tissue in clinical cancer care comes primarily from formalin-fixed, paraffin-embedded tissue (FFPE). Specific to genomics assays, numerous studies have shown significant discordance in genetic information obtained from FFPE samples and frozen samples. To explain the discordance between FFPE samples and cryopreserved samples, a head-to-head comparison between FFPE and cryopreserved tissues was performed to analyze the DNA yield, DNA purity and DNA quality in terms of DNA length. Additionally, short-read sequencing was performed on matched samples and quality control metrics were compared between the two sample types. Matched human tumors (n = 50) were processed either by formalin fixation and paraffin embedding or placed in cryovials containing cryopreservation medium. These cryovials were cooled slowly to -80°C and stored in liquid nitrogen. DNA was extracted using the same protocol for both tissue types with the exception that tissues embedded in paraffin were first dewaxed followed by a multistep rehydration protocol. Samples were weighed and calibrated for mass. After the column purification and elution, sample concentration and purity were measured. DNA fragment length was measured on a fragment microelectrophoresis analyzer. Graded amounts of tumor tissue were used to determine the lowest starting material needed to extract 200 ng of DNA. The average of all the samples reached the minimal threshold of 200 ng. However,74% of FFPE specimens failed to meet the minimum 40 ng/mg, whereas only 21% were below the threshold in the cryopreserved samples. In the cryopreserved group, the average DNA yield was 222.1 ng/mg, whereas 52.8 ng/mg was obtained from FFPE tissue. For DNA purity in cryopreserved tissues, the 260/280 ratio was 1.76, and in FFPE tissues the mean was 1.78. The DNA Quality Number (DQN) is a measurement of DNA fragment length and the percentage that exceeds the threshold of 300 bp. For FFPE, the DQN was 4.4 compared to a DQN of 9.8 for the cryopreserved samples. Setting a higher threshold of DNA length to 40,000 bp and measuring the area under the curve (AUC), it was observed that cryopreserved samples were 9-fold higher in fragments greater than 40,000 bp. Cryopreserved cancer tissue provides superior quality assurance measurements of DNA over FFFPE. Treatment decisions based on molecular results demand accuracy and validity. The pathology community should support efforts to cryopreserve cancer biospecimens in the clinical setting to provide valid molecular testing results. The automatic pickling of tumor specimens in formalin is no longer an acceptable default.\n\nCitation Format: Jared James Barrott, Nikole O'Neal, Jeffrey Okojie, David Booker, Ken Dixon. DNA quality control metrics in cryopreserved tissue outperform DNA extracted from FFPE tissue [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2024; Part 1 (Regular Abstracts); 2024 Apr 5-10; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2024;84(6_Suppl):Abstract nr 4957.",
+        "doi": "10.1158/1538-7445.am2024-4957",
+        "pmid": null,
+        "venue": "Cancer Research",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-269578220",
+        "title": "DNA Quantity and Quality Comparisons between Cryopreserved and FFPE Tumors from Matched Pan-Cancer Samples",
+        "authors": [
+          "Jeffrey Okojie",
+          "Nikole O’Neal",
+          "Mackenzie Burr",
+          "Peyton Worley",
+          "Isaac Packer",
+          "DeLaney Anderson",
+          "Jack Davis",
+          "Bridger Kearns",
+          "K. Fatema",
+          "Ken Dixon",
+          "Jared J. Barrott"
+        ],
+        "year": 2024,
+        "abstract": "Personalized cancer care requires molecular characterization of neoplasms. While the research community accepts frozen tissues as the gold standard analyte for molecular assays, the source of tissue for testing in clinical cancer care comes almost universally from formalin-fixed, paraffin-embedded tissue (FFPE). As newer technologies emerge for DNA characterization that requires higher molecular weight DNA, it was necessary to compare the quality of DNA in terms of DNA length between FFPE and cryopreserved samples. We hypothesized that cryopreserved samples would yield higher quantity and superior quality DNA compared to FFPE samples. We analyzed DNA metrics by performing a head-to-head comparison between FFPE and cryopreserved samples from 38 human tumors representing various cancer types. DNA quantity and purity were measured by UV spectrophotometry, and DNA from cryopreserved tissue demonstrated a 4.2-fold increase in DNA yield per mg of tissue (p-value < 0.001). DNA quality was measured on a fragment microelectrophoresis analyzer, and again, DNA from cryopreserved tissue demonstrated a 223% increase in the DNA quality number and a 9-fold increase in DNA fragments > 40,000 bp (p-value < 0.0001). DNA from the cryopreserved tissues was superior to the DNA from FFPE samples in terms of DNA yield and quality.",
+        "doi": "10.3390/curroncol31050183",
+        "pmid": "38785464",
+        "venue": "Current Oncology",
+        "citedByCount": 13,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11119490/pdf/curroncol-31-00183.pdf",
+          "https://doi.org/10.3390/curroncol31050183"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11119490/pdf/curroncol-31-00183.pdf"
+      },
+      {
+        "elicitId": "ss-219701601",
+        "title": "Evaluation of DNA and RNA quality from archival formalin‐fixed paraffin‐embedded tissue for next‐generation sequencing – Retrospective study in Japanese single institution",
+        "authors": [
+          "Tomomi Fujii",
+          "T. Uchiyama",
+          "Minami Matsuoka",
+          "Tomoya Myojin",
+          "S. Sugimoto",
+          "Yuji Nitta",
+          "Fumi Okabe",
+          "A. Sugimoto",
+          "Yoko Sekita-Hatakeyama",
+          "Kohei Morita",
+          "H. Itami",
+          "Kinta Hatakeyama",
+          "C. Ohbayashi"
+        ],
+        "year": 2020,
+        "abstract": "Genetic analysis on formalin‐fixed paraffin‐embedded (FFPE) tissue specimens has become a mainstream method, from conventional direct sequencing to comprehensive analysis using next‐generation sequencing (NGS). In this study, we evaluated the quality of DNA and RNA extracted from FFPE sections, derived from surgical specimens of different tumor types. Electrophoresis was performed using a 4200 TapeStation to evaluate DNA and RNA fragmentation. DNA Ct values were higher and significantly increased over a period of 4 years compared with those from cell lines or frozen tissues. The RNA integrity number equivalent (RIN) ranged from 1 to 4.1 and DV200 ranged from 7.3 to 81%. Twelve of the 108 cases were analyzed by NGS using the AmpliSeq Cancer HotSpot Panel v2 on a Miniseq system. A sufficient number of reads and coverage were obtained in all cases. Our results revealed that NGS analysis was sufficient for FFPE‐derived DNA within 4 years of preservation. Conversely, approximately 20% of the RNA derived from FFPE within 4 years from the collection could be inappropriate for gene analysis based on RIN and DV200. It was suggested that FFPE would be adequate for genetic analysis, although it is desirable to store frozen specimens for the tumor tissues to be subjected to genetic analysis.",
+        "doi": "10.1111/pin.12969",
+        "pmid": "32542983",
+        "venue": "Pathology international (Print)",
+        "citedByCount": 35,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-73490282",
+        "title": "The Biospecimen Preanalytical Variables Program: A Multiassay Comparison of Effects of Delay to Fixation and Fixation Duration on Nucleic Acid Quality.",
+        "authors": [
+          "Latarsha J. Carithers",
+          "R. Agarwal",
+          "P. Guan",
+          "Hana Odeh",
+          "M. Sachs",
+          "K. B. Engel",
+          "S. Greytak",
+          "M. Barcus",
+          "Conrado T. Soria",
+          "C. Lih",
+          "P. Williams",
+          "P. Branton",
+          "L. Sobin",
+          "B. Fombonne",
+          "T. Bocklage",
+          "C. Andry",
+          "Elizabeth R. Duffy",
+          "G. Sica",
+          "R. Dhir",
+          "S. Jewell",
+          "N. Roche",
+          "Helen M. Moore"
+        ],
+        "year": 2019,
+        "abstract": "CONTEXT.—\n\nDespite widespread use of formalin-fixed, paraffin-embedded (FFPE) tissue in clinical and research settings, potential effects of variable tissue processing remain largely unknown.\n\nOBJECTIVE.—\n\nTo elucidate molecular effects associated with clinically relevant preanalytical variability, the National Cancer Institute initiated the Biospecimen Preanalytical Variables (BPV) program.\n\nDESIGN.—\n\nThe BPV program, a well-controlled series of systematic, blind and randomized studies, investigated whether a delay to fixation (DTF) or time in fixative (TIF) affects the quantity and quality of DNA and RNA isolated from FFPE colon, kidney, and ovarian tumors in comparison to case-matched snap-frozen controls.\n\nRESULTS.—\n\nDNA and RNA yields were comparable among FFPE biospecimens subjected to different DTF and TIF time points. DNA and RNA quality metrics revealed assay- and time point-specific effects of DTF and TIF. A quantitative reverse transcription-polymerase chain reaction (qRT-PCR) assay was superior when assessing RNA quality, consistently detecting differences between FFPE and snap-frozen biospecimens and among DTF and TIF time points. RNA Integrity Number and DV200 (representing the percentage of RNA fragments longer than 200 nucleotides) displayed more limited sensitivity. Differences in DNA quality (Q-ratio) between FFPE and snap-frozen biospecimens and among DTF and TIF time points were detected with a qPCR-based assay.\n\nCONCLUSIONS.—\n\nDNA and RNA quality may be adversely affected in some tumor types by a 12-hour DTF or a TIF of 72 hours. Results presented here as well as those of additional BPV molecular analyses underway will aid in the identification of acceptable delays and optimal fixation times, and quality assays that are suitable predictors of an FFPE biospecimen's fit-for-purpose.",
+        "doi": "10.5858/arpa.2018-0172-OA",
+        "pmid": "30785788",
+        "venue": "Archives of Pathology & Laboratory Medicine",
+        "citedByCount": 38,
+        "urls": [
+          "https://meridian.allenpress.com/aplm/article-pdf/143/9/1106/2501509/arpa_2018-0172-oa.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "https://meridian.allenpress.com/aplm/article-pdf/143/9/1106/2501509/arpa_2018-0172-oa.pdf"
+      },
+      {
+        "elicitId": "ss-25949901",
+        "title": "Quantitative expression profiling in formalin-fixed paraffin-embedded samples by affymetrix microarrays.",
+        "authors": [
+          "Diana Abdueva",
+          "M. Wing",
+          "B. Schaub",
+          "T. Triche",
+          "E. Davicioni"
+        ],
+        "year": 2010,
+        "abstract": null,
+        "doi": "10.2353/jmoldx.2010.090155",
+        "pmid": "20522636",
+        "venue": "Journal of Molecular Diagnostics",
+        "citedByCount": 109,
+        "urls": [
+          "http://www.jmdjournal.org/article/S1525157810600803/pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "http://www.jmdjournal.org/article/S1525157810600803/pdf"
+      },
+      {
+        "elicitId": "ss-16372524",
+        "title": "Accuracy of molecular data generated with FFPE biospecimens: lessons from the literature",
+        "authors": [
+          "S. Greytak",
+          "K. B. Engel",
+          "B. Bass",
+          "Helen M. Moore"
+        ],
+        "year": 2015,
+        "abstract": "Formalin-fixed and paraffin-embedded (FFPE) tissue biospecimens are a valuable resource for molecular cancer research. Although much can be gained from their use, it remains unclear whether the genomic and expression profiles obtained from FFPE biospecimens accurately reflect the physiological condition of the patient from which they were procured, or if such profiles are confounded by biological effects from formalin fixation and processing. To assess the physiological accuracy of genomic and expression data generated with FFPE specimens we surveyed the literature for papers investigating genomic and expression endpoints in case-matched FFPE and fresh or frozen human specimens using the National Cancer Institute's Biospecimen Research Database (http://biospecimens.cancer.gov/brd). Results of the survey revealed that the level of concordance between differentially preserved biospecimens varied among analytical parameters and platforms, but also among reports, genes/transcripts of interest, and tumor status. The identified analytical techniques and parameters that resulted in strong correlations between FFPE and frozen biospecimens may provide guidance when optimizing molecular protocols for FFPE use; however, discrepancies reported for similar assays also illustrate the importance of validating protocols optimized for use with FFPE specimens with a case-matched fresh or frozen cohort for each platform, gene or transcript, and FFPE processing regime. Based upon evidence published to date, validation of analytical parameters with a properly handled frozen cohort is necessary to ensure a high degree of concordance and confidence in the results obtained with FFPE biospecimens.",
+        "doi": "10.1158/0008-5472.CAN-14-2378",
+        "pmid": "25836717",
+        "venue": "Cancer Research",
+        "citedByCount": 76,
+        "urls": [
+          "https://www.ncbi.nlm.nih.gov/pmc/articles/4636024"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": "https://www.ncbi.nlm.nih.gov/pmc/articles/4636024"
+      },
+      {
+        "elicitId": "ss-212713332",
+        "title": "DV200 Index for Assessing RNA Integrity in Next-Generation Sequencing",
+        "authors": [
+          "Takehiro Matsubara",
+          "J. Soh",
+          "Mizuki Morita",
+          "Takahiro Uwabo",
+          "S. Tomida",
+          "T. Fujiwara",
+          "S. Kanazawa",
+          "S. Toyooka",
+          "Akira Hirasawa"
+        ],
+        "year": 2020,
+        "abstract": "Poor quality of biological samples will result in an inaccurate analysis of next-generation sequencing (NGS). Therefore, methods to accurately evaluate sample integrity are needed. Among methods for evaluating RNA quality, the RNA integrity number equivalent (RINe) is widely used, whereas the DV200, which evaluates the percentage of fragments of >200 nucleotides, is also used as a quality assessment standard. In this study, we compared the RINe and DV200 RNA quality indexes to determine the most suitable RNA index for the NGS analysis. Seventy-one RNA samples were extracted from formalin-fixed paraffin-embedded tissue samples (n = 30), fresh-frozen samples (n = 25), or cell lines (n = 16). After assessing RNA quality using the RINe and DV200, we prepared two kinds of stranded mRNA sequencing libraries. Finally, we calculated the correlation between each RNA quality index and the amount of library product (1st PCR product per input RNA). The DV200 measure showed stronger correlation with the amount of library product than the RINe (R2 = 0.8208 for the DV200 versus 0.6927 for the RINe). Receiver operating characteristic curve analyses revealed that the DV200 was the better marker for predicting efficient library production than the RINe using a threshold of >10 ng/ng for the amount of the 1st PCR product per input RNA (cutoff value for the RINe and DV200, 2.3 and 66.1%; area under the curve, 0.99 and 0.91; sensitivity, 82% and 92%; and specificity, 93% and 100%, respectively). Our results indicate that NGS libraries prepared using RNA samples with the DV200 value > 66.1% exhibit greater sensitivity and specificity than those prepared with the RINe values > 2.3. These findings suggest that the DV200 is superior to the RINe, especially for low-quality RNA, because it is a more consistent assessment of the amount of the 1st NGS library product per input.",
+        "doi": "10.1155/2020/9349132",
+        "pmid": "32185225",
+        "venue": "BioMed Research International",
+        "citedByCount": 86,
+        "urls": [
+          "https://ousar.lib.okayama-u.ac.jp/files/public/5/58249/20200414145010645774/fulltext.pdf",
+          "https://downloads.hindawi.com/journals/bmri/2020/9349132.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://downloads.hindawi.com/journals/bmri/2020/9349132.pdf"
+      },
+      {
+        "elicitId": "ss-249764095",
+        "title": "RNA quality analysis of tumor bank specimens and downstream applicability",
+        "authors": [
+          "J. Newell",
+          "S. Patrick",
+          "G. Clawson"
+        ],
+        "year": 2012,
+        "abstract": "Quality of biorepository specimens is a topic of concern. The goal of this project was to evaluate the quality and quantity of RNA obtained from biobanked fresh frozen (FF) and matched formalinfixed paraffin‐embedded (FFPE) tissues. Initially, three human cancer cell lines were used, and then ~50 FF biorepository cancer cases (melanoma, colon, pancreatic) were selected. Histologically similar FFPE tissues were then selected from the original surgical cases. RNA was extracted, quantified with a Nanodrop, and RNA Integrity Number (RIN) was determined using an Agilent Bioanalyzer. Sample RINs generally aligned into 2 groups; ~75% of specimens showed relatively high RINs (90% of melanomas showed RINs of ~8, 70% of colorectal cancers showed RINs of ~6, and 80% of pancreatic cancers showed RINs of ~5). ~25% of samples showed poor RINs (~2–3). RINs were uniformly lower (~2–3) for the matched FFPE samples. Age of FF or FFPE specimens was not related to its RIN. RNA (select cases) was then further analyzed using SA Biosciences housekeeping gene PCR Arrays. dCt (Ct FFPE – Ct FF sample; Ct = cycle threshold) was determined for the 12 housekeeping transcripts. Results showed considerable differences in the dCts between housekeeping genes, and suggested that b‐actin (large dCt) may be useful as a “canary” for predicting suitability for downstream expression analyses. Supported by the GCRF and a Dept. Research Initiation grant.",
+        "doi": "10.1096/fasebj.26.1_supplement.1034.15",
+        "pmid": null,
+        "venue": "The FASEB Journal",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-37396932",
+        "title": "Gene expression analysis of normal and colorectal cancer tissue samples from fresh frozen and matched formalin-fixed, paraffin-embedded (FFPE) specimens after manual and automated RNA isolation.",
+        "authors": [
+          "A. Kalmár",
+          "B. Wichmann",
+          "O. Galamb",
+          "S. Spisák",
+          "K. Tóth",
+          "Katalin Leiszter",
+          "Z. Tulassay",
+          "B. Molnár"
+        ],
+        "year": 2013,
+        "abstract": null,
+        "doi": "10.1016/j.ymeth.2012.09.011",
+        "pmid": "23036325",
+        "venue": "Methods",
+        "citedByCount": 39,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-10966977",
+        "title": "Global gene expression profiling of formalin-fixed paraffin-embedded tumor samples: a comparison to snap-frozen material using oligonucleotide microarrays",
+        "authors": [
+          "Matthias Frank",
+          "C. Döring",
+          "D. Metzler",
+          "S. Eckerle",
+          "M. Hansmann"
+        ],
+        "year": 2007,
+        "abstract": "Oligonucleotide microarrays are widely used to investigate gene expression in a large-scale approach. A major limitation is the dependency on frozen material to obtain high-quality ribonucleic acid because most clinical specimens are formalin-fixed and paraffin-embedded (FFPE). The ability to analyze these samples using microarrays would enlarge the investigable sample stocks manifold. We conducted a comparison of snap-frozen and FFPE tissues investigating two malignomas. Gene expression profiles were obtained from both materials of the tumors. Independently processed triplicates of snap-frozen and FFPE specimen, respectively, were two-round-amplified and hybridized on Affymetrix GeneChips (Palo Alto, CA, USA). Differentially expressed genes were identified in both FFPE and frozen material. All replicates had a correlation coefficient (R) of greater than 0.95 after normalization. Only direct comparison of FFPE to frozen replicates resulted in a mean R of 0.86, rendering a \"mixed\" investigation unfeasible. More than 50% (419 genes) of the more than fivefold differentially expressed genes (800 in FFPE, 685 in frozen material) were detected concomitantly regardless of the material used, which is similar to other comparisons of different gene expression analysis platforms. Thus, global gene expression analyses using solely FFPE material seem to be feasible with nearly comparable results to frozen tissue studies.",
+        "doi": "10.1007/s00428-007-0412-9",
+        "pmid": "17479285",
+        "venue": "Virchows Archiv",
+        "citedByCount": 51,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-89264754",
+        "title": "Abstract POSTER-TECH-1109: Robust gene expression and mutation analyses from RNA-sequencing of formalin-fixed diagnostic tumor samples",
+        "authors": [
+          "Stefan Graw",
+          "Richard Meier",
+          "Kay Minn",
+          "A. Godwin",
+          "P. Beyerlein",
+          "Jeremy Chien"
+        ],
+        "year": 2015,
+        "abstract": "Abstracts: 10th Biennial Ovarian Cancer Research Symposium; September 8-9, 2014; Seattle, WA\n\nFormalin-Fixed Paraffin Embedding (FFPE) has been the standard sample preparation for pathologists for decades. This created a mass of disease and normal tissue biospecimens with rich clinical annotation and patient follow-up data. If these FFPE archives proved useful for the next-generation sequence analyses, FFPE samples may be sequenced to investigate the complex genetic changes underlying tumor progression, therapy resistance and variability in disease outcome. Previous studies have successfully used FFPE-DNA for copy number analysis and mutation detection even though it is technically difficult to perform sequencing analyses on DNA isolated from FFPE samples. It is even more challenging to perform RNA sequence analysis because routine FFPE processing does not preserve high quality RNA.\n\nAim of this study is to determine the extent to which FFPE RNA expression is correlated with matched frozen tumor samples.\n\nSix pairs of matched fresh frozen (FF) and FFPE ovarian tumor samples were processed for RNA sequence analysis. Multiple quality checks were performed before and after aligning the reads to the reference genome (hg19/GRCh37). Differential gene expression analysis was performed utilizing DESeq on aligned RNA-sequencing data, as well as data obtained by NanoString technology (250 selected genes). Both results were compared to each other. A pipeline called SNPiR was applied to detect mutation from the RNA sequencing data, and the mutation calls between the FF and FFPE samples were compared at the RNA and DNA level. For each analysis FF samples from the same cancer patients were used to verify the results from FFPE sample.\n\nThe quality checks indicate that FFPE samples show uniform coverage of 5’ and 3’ of the transcripts whereas FF samples show 3’ bias in transcript coverage. This difference is likely attributable to differences in library preparation steps for FF and FFPE samples. The sequencing libraries for FF samples were done by poly-A selection while the libraries for FFPE samples were prepared using Ribo- Minus RNA sequencing kit. The differential gene expression analysis showed a good correlation between each matching FF and FFPE samples with one exception. Analyzing the NanoString gene counts show not only a remarkable correlation between the matching FF and FFPE sample but also a correlation between FF and FFPE samples between the two techniques (RNA-sequencing and NanoString). Unfortunately the mutation calling show variable results with 3 paired samples showing high rates of concordant mutation calls between FF and FFPE samples while the remaining 3 paired samples showing low rates of concordant mutation calls. Ongoing studies are focusing on biological and technical variability that may account for the observed differences in concordant calls.\n\nIn summary, the results indicate that FFPE samples are a suitable replacement for FF samples in differential gene expression analysis. However, mutation analysis from FFPE samples is challenging and results are variable.\n\nCitation Format: Stefan Graw, Richard Meier, Kay Minn, Andrew K Godwin, Peter Beyerlein, Jeremy Chien. Robust gene expression and mutation analyses from RNA-sequencing of formalin-fixed diagnostic tumor samples [abstract]. In: Proceedings of the 10th Biennial Ovarian Cancer Research Symposium; Sep 8-9, 2014; Seattle, WA. Philadelphia (PA): AACR; Clin Cancer Res 2015;21(16 Suppl):Abstract nr POSTER-TECH-1109.",
+        "doi": "10.1158/1557-3265.OVCASYMP14-POSTER-TECH-1109",
+        "pmid": null,
+        "venue": "Clinical Cancer Research",
+        "citedByCount": 1,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": 1,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-209671702",
+        "title": "FFPE Sequencing and Bioinformatics.",
+        "authors": [
+          "K. Hoadley"
+        ],
+        "year": 2019,
+        "abstract": "Next generation sequencing has identified a number of clinically relevant alterations in cancer predominantly using fresh frozen (FF) specimens. Extending this capability to FFPE specimens requires a thorough understanding of the consequence of formalin-fixation on the analysis of genomic data. In TCGA, we compared multi-platform molecular signatures of FFPE preservation to paired FF specimens as the gold standard. DNA and RNA were obtained from six different cancer types across 38 patients using a co-isolation method optimized for FFPE. These samples were assessed for effects of formalin-fixation on whole exome sequencing, DNA copy number, DNA methylation, mRNA and miRNA sequencing. Considerations for analysis and usability of data were determined for each data type.",
+        "doi": null,
+        "pmid": "31896992",
+        "venue": "Journal of Biomolecular Techniques",
+        "citedByCount": 0,
+        "urls": [],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": null
+      },
+      {
+        "elicitId": "ss-20135029",
+        "title": "A Critical Evaluation of the PAXgene Tissue Fixation System:  Morphology, Immunohistochemistry, Molecular Biology, and Proteomics.",
+        "authors": [
+          "W. Mathieson",
+          "N. Marcon",
+          "L. Antunes",
+          "D. Ashford",
+          "F. Betsou",
+          "S. Frasquilho",
+          "O. Kofanova",
+          "S. Mckay",
+          "S. Pericleous",
+          "Colleen Smith",
+          "K. Unger",
+          "C. Zeller",
+          "Geraldine A. Thomas"
+        ],
+        "year": 2016,
+        "abstract": "OBJECTIVES\n\nTo evaluate the PAXgene tissue fixation system.\n\nMETHODS\n\nClinical biospecimens (n = 46) were divided into PAXgene-fixed paraffin-embedded (PFPE), formalin-fixed paraffin-embedded (FFPE), and fresh-frozen (FF) blocks. PFPE and FFPE sections were compared for histology (H&E staining) and immunohistochemistry (14 antibodies) using tissue microarrays. PFPE, FFPE, and FF samples were compared in terms of RNA quality (RNA integrity number, polymerase chain reaction [PCR] amplicon length, and quantitative reverse transcription PCR), DNA quality (gel electrophoresis and methylation profiling) and protein quality (liquid chromatography-mass spectrometry [LC-MS/MS]).\n\nRESULTS\n\nPFPE protocol optimization was required in most cases and is described. RNA extracted from PFPE sections was considerably less degraded than that from FFPE sections but more degraded than that from FF blocks. Genomic-length DNA was extracted from PFPE and FF biospecimens, and methylation profiling showed PFPE and FF biospecimens to be almost indistinguishable. Only degraded DNA was extracted from FFPE biospecimens. PFPE sections yielded peptides that were slightly less amenable to LC-MS/MS analysis than FFPE sections, but FF gave slightly better results.\n\nCONCLUSIONS\n\nWhile it cannot be envisaged that PAXgene will replace formalin in a routine clinical setting, for specific projects or immunodiagnostics involving biospecimens destined for immunohistochemical or histologic staining and DNA or RNA analyses, PAXgene is a viable option.",
+        "doi": "10.1093/ajcp/aqw023",
+        "pmid": "27402607",
+        "venue": "American Journal of Clinical Pathology",
+        "citedByCount": 47,
+        "urls": [
+          "https://academic.oup.com/ajcp/article-pdf/146/1/25/6650885/aqw023.pdf"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": 2,
+        "fullTextUrl": "https://academic.oup.com/ajcp/article-pdf/146/1/25/6650885/aqw023.pdf"
+      },
+      {
+        "elicitId": "ss-276124882",
+        "title": "Comparison of next‑generation sequencing quality metrics and concordance in the detection of cancer‑specific molecular alterations between formalin‑fixed paraffin‑embedded and fresh‑frozen samples in comprehensive genomic profiling with the Illumina® TruSight Oncology 500 assay",
+        "authors": [
+          "Dušan Loderer",
+          "Andrea Hornáková",
+          "Katarína Tobiášová",
+          "K. Lešková",
+          "E. Halašová",
+          "Z. Danková",
+          "K. Biringer",
+          "E. Kudela",
+          "Tomáš Rokos",
+          "A. Dzian",
+          "J. Miklušica",
+          "P. Mikolajčík",
+          "M. Smolár",
+          "L. Plank",
+          "M. Grendár"
+        ],
+        "year": 2025,
+        "abstract": "Next-generation sequencing (NGS) technology is routinely employed to detect clinically significant variants in the field of precision medicine. Formalin-fixed paraffin-embedded (FFPE) tissues remain a widely used source of genetic material for diagnostic purposes due to their long-term storage stability, which preserves the architecture of tumour tissues. However, the degradation of nucleic acids (NAs) that occurs during the fixation process can lead to unreliable results or hinder analysis. Considering the challenges posed by the quality and quantity of nucleic acids extracted from FFPE samples, the present study aimed to compare paired fresh-frozen (FF) and FFPE samples. The present study also aimed to assess the concordance rate of quality control metrics of sequenced libraries and identify variants and biomarkers between FFPE and FF tissues. The Illumina® TruSight Oncology 500 assay (TSO 500; Illumina, Inc.) was used to conduct comprehensive genomic profiling of samples from patients with various cancer types. All identified alterations were annotated using the Pierian Dx Clinical Genomics Workspace version 6.20 (PierianDx CGW). A total of 138 DNA and 138 RNA analyses on 69 paired samples were performed. These results demonstrated the significant potential of FF tissue as a primary source of higher-quality genetic material to detect small variants, microsatellite instabilities and the tumour mutational burden, using the TSO 500 assay compared with FFPE samples. This approach could effectively reduce the issues associated with poor-quality NAs extracted from FFPE samples. Based on our findings of lower concordance in the detection of splice variants, fusions and copy number variants in paired samples, we recommend that future studies using the TSO 500 assay should focus directly on this issue.",
+        "doi": "10.3892/etm.2025.12814",
+        "pmid": "39991725",
+        "venue": "Experimental and Therapeutic Medicine",
+        "citedByCount": 8,
+        "urls": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11843196/pdf/etm-29-04-12814.pdf",
+          "http://www.spandidos-publications.com/10.3892/etm.2025.12814/download"
+        ],
+        "studyTypeTags": [],
+        "journalQuartile": null,
+        "fullTextUrl": "http://www.spandidos-publications.com/10.3892/etm.2025.12814/download"
+      }
+    ],
+    "warnings": []
+  }
+}

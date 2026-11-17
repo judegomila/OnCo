@@ -36,6 +36,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync, statSync, unlinkSync } from "node:fs";
 import { join } from "node:path";
 import { createHash } from "node:crypto";
+import { genericIcon } from "./generic-icons";
 import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { graph } from "../src/lib/graph";
@@ -285,6 +286,22 @@ async function faviconLogo(id: string, website: string): Promise<Entry | null> {
   return { file: out, source: "favicon", url: src, via: "google-favicon" };
 }
 
+/**
+ * Refuse a logo that is a host's stock icon (scripts/generic-icons.ts): the WordPress and Vercel defaults, the HostGator
+ * mascot, the European Commission emblem and grey placeholders have each been fetched as the "logo" of unrelated
+ * organisations. The file just written is removed and the record goes without a logo, which the page handles.
+ */
+function notGeneric(id: string, entry: Entry | null): Entry | null {
+  if (!entry) return null;
+  const f = join(OUT, entry.file);
+  if (!existsSync(f)) return entry;
+  const what = genericIcon(readFileSync(f));
+  if (!what) return entry;
+  unlinkSync(f);
+  console.log(`  ${id}: rejected a generic icon (${what.split(" (")[0]}) from ${entry.url ?? entry.source}`);
+  return null;
+}
+
 // ------------------------------------------------------------------ Site icons (upgrade pass)
 const ARCHIVE = /(^|\.)archive\.org$|(^|\.)archive\.(today|is|ph)$/i;
 const hostOf = (u: string) => { try { return new URL(u).hostname.replace(/^www\./, "").toLowerCase(); } catch { return ""; } };
@@ -485,7 +502,8 @@ async function main() {
       const original = readFileSync(join(OUT, e.file));
       let entry: Entry | null = null;
       try { entry = await wikidataLogo(t.id, t.name, t.website ?? "", true); } catch (err) { console.warn(`wikidata failed for ${t.id}: ${String(err).slice(0, 80)}`); }
-      if (!entry) entry = await siteIcon(t.id, t.website ?? "", now);
+      entry = notGeneric(t.id, entry);
+      if (!entry) entry = notGeneric(t.id, await siteIcon(t.id, t.website ?? "", now));
       if (!entry) {
         // Put the original back in case a candidate was written under the same name.
         writeFileSync(join(OUT, e.file), original);
@@ -510,8 +528,9 @@ async function main() {
     if (!force && index[t.id] && existsSync(join(OUT, index[t.id].file))) { counts.kept++; continue; }
     let entry: Entry | null = null;
     try { entry = await wikidataLogo(t.id, t.name, t.website ?? ""); } catch (e) { console.warn(`wikidata failed for ${t.id}: ${String(e).slice(0, 80)}`); }
-    if (!entry) entry = await clearbitLogo(t.id, t.website ?? "");
-    if (!entry) entry = await faviconLogo(t.id, t.website ?? "");
+    entry = notGeneric(t.id, entry);
+    if (!entry) entry = notGeneric(t.id, await clearbitLogo(t.id, t.website ?? ""));
+    if (!entry) entry = notGeneric(t.id, await faviconLogo(t.id, t.website ?? ""));
     if (entry) {
       // remove stale files with other extensions
       for (const ext of ["svg", "png", "jpg", "ico"]) { const f = join(OUT, `${t.id}.${ext}`); if (f !== join(OUT, entry.file) && existsSync(f)) unlinkSync(f); }

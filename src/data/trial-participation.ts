@@ -77431,19 +77431,19 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
   ],
   "nct07443475": [
     {
-      "nct": "NCT07443475",
-      "source": "https://clinicaltrials.gov/study/NCT07443475",
-      "fetchedAt": "2026-10-07T16:55:45.930Z",
-      "studySha256": "42689caf3396c48bf18cfe5b29f5f713e551443f150c6eb8987dda013aa6042d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-03-02",
+      "nct": "NCT05916690",
+      "source": "https://clinicaltrials.gov/study/NCT05916690",
+      "fetchedAt": "2026-11-16T21:35:24.299Z",
+      "studySha256": "d80b0be78ca073cbd16d667bb7b4db59d7519739370647d24357f8a1a5397a91",
+      "overallStatus": "UNKNOWN",
+      "lastUpdatePosted": "2024-01-19",
       "leadSponsor": "Institute of Oncology Ljubljana",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
-      "sex": "FEMALE",
+      "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 13,
+      "enrolment": 20,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
       "recruitingSiteCount": 1,
@@ -79140,41 +79140,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     }
   ],
   "espac-3": [
-    {
-      "nct": "NCT00058201",
-      "source": "https://clinicaltrials.gov/study/NCT00058201",
-      "fetchedAt": "2026-10-07T16:51:53.090Z",
-      "studySha256": "f1c348d812d9b92b49c11c42f451f75c5db407c97868506fe7803d50abdc137f",
-      "overallStatus": "COMPLETED",
-      "lastUpdatePosted": "2013-12-18",
-      "leadSponsor": "Royal Liverpool University Hospital",
-      "collaboratorCount": 2,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 1030,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 27,
-      "recruitingSiteCount": 0,
-      "countries": [
-        "Australia",
-        "Canada",
-        "Czechia",
-        "Finland",
-        "France",
-        "Germany",
-        "Greece",
-        "Hungary",
-        "Italy",
-        "Japan",
-        "Sweden",
-        "Switzerland",
-        "United Kingdom"
-      ]
-    }
-  ],
-  "espac-4": [
     {
       "nct": "NCT00058201",
       "source": "https://clinicaltrials.gov/study/NCT00058201",
@@ -109251,45 +109216,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "Turkey (Türkiye)",
         "United Kingdom",
-        "United States"
-      ]
-    }
-  ],
-  "nct05491525": [
-    {
-      "nct": "NCT05491525",
-      "source": "https://clinicaltrials.gov/study/NCT05491525",
-      "fetchedAt": "2026-10-07T16:53:43.406Z",
-      "studySha256": "cf051d080a01235a21886349067eb5ee1758ccfe4166db406bb6be18ad442126",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-06-15",
-      "leadSponsor": "Urovant Sciences GmbH",
-      "collaboratorCount": 1,
-      "minimumAge": "2 Years",
-      "maximumAge": "17 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 71,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 38,
-      "recruitingSiteCount": 32,
-      "countries": [
-        "Belgium",
-        "Canada",
-        "Croatia",
-        "Denmark",
-        "Georgia",
-        "Jordan",
-        "Latvia",
-        "Lithuania",
-        "Malaysia",
-        "Philippines",
-        "Poland",
-        "Romania",
-        "Serbia",
-        "Slovakia",
-        "Turkey (Türkiye)",
         "United States"
       ]
     }

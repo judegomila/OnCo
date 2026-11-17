@@ -655,7 +655,7 @@ export const IMMUNE_CHECKPOINT_TARGET_IDS: ReadonlySet<string> = new Set(
 // ==================================================================================================================
 const asOf = "2026-09-24";
 const provenance = { editedBy: "OnCo checkpoint map (HGNC REST, UniProt REST, ClinicalTrials.gov v2)", editedOn: asOf };
-type T = Omit<TargetInput, "kind" | "asOf" | "provenance" | "tags">;
+type T = Omit<TargetInput, "kind" | "asOf" | "provenance" | "tags"> & { asOf?: string };
 const target = (x: T): TargetInput => ({
   kind: "target", asOf, provenance, tags: ["checkpoint-map"],
   ...x,
@@ -831,11 +831,26 @@ export const checkpointTargets: TargetInput[] = [
 
   target({ id: "entpd1", name: "CD39 (ENTPD1)", symbol: "ENTPD1", aka: ["CD39", "NTPDase-1", "ectonucleoside triphosphate diphosphohydrolase 1"], hgnc: "HGNC:3363", ensembl: "ENSG00000138185", uniprot: "P49961", entrez: "953", targetClass: "enzyme", role: IC,
     tldr: "CD39 is the first of two enzymes that turn the ATP spilt by dying tumour cells into adenosine, which sedates T cells. Blocking it keeps the ATP alarm ringing; one antibody has completed phase 2 in pancreatic cancer.",
-    summary: "ENTPD1 (chromosome 10q24.1) catalyses the hydrolysis of nucleoside triphosphates and diphosphates, sequentially removing phosphate groups to leave nucleoside monophosphates; it is expressed primarily on activated lymphoid cells and in endothelium, and highly in placenta, lung, skeletal muscle and kidney (UniProt P49961). CD39 and CD73 together catabolise extracellular ATP into adenosine, and both, with adenosine receptors, have emerged as therapeutic targets (Allard et al. 2019, Immunol Rev). TTX-030, an anti-CD39 antibody, completed a phase 2 study with chemotherapy, with or without budigalimab, in first-line metastatic pancreatic cancer (NCT06119217).",
+    summary: "ENTPD1 (chromosome 10q24.1) catalyses the hydrolysis of nucleoside triphosphates and diphosphates, sequentially removing phosphate groups to leave nucleoside monophosphates; it is expressed primarily on activated lymphoid cells and in endothelium, and highly in placenta, lung, skeletal muscle and kidney (UniProt P49961). CD39 and CD73 together catabolise extracellular ATP into adenosine, and both, with adenosine receptors, have emerged as therapeutic targets (Allard et al. 2019, Immunol Rev). CD39 together with CD73 distinguished CD4-positive CD25-positive Foxp3-positive regulatory T cells from other T cells, and regulatory T cells from Cd39-null mice had impaired suppression in vitro and failed to block allograft rejection in vivo (Deaglio et al., 2007); that is an experimental mechanism, and expression of CD39 in a sample does not show local adenosine production or benefit from blocking it. TTX-030, an anti-CD39 antibody, completed a phase 2 study with chemotherapy, with or without budigalimab, in first-line metastatic pancreatic cancer (NCT06119217).",
     biology: "The upstream ectonucleotidase of the adenosine axis; CD73 (NT5E) finishes the conversion.",
     whereFound: ["Activated lymphoid cells, endothelium (UniProt P49961)", "Pancreatic cancer trial of TTX-030 (NCT06119217)"],
-    cancers: ["pancreatic"], pathways: ["cancer-immunity-cycle"], related: ["cd73-adenosine", "adora2a"],
-    links: [{ label: "ClinicalTrials.gov NCT06119217", url: "https://clinicaltrials.gov/study/NCT06119217" }] }),
+    cancers: ["pancreatic"], pathways: ["cancer-immunity-cycle"], related: [
+  "cd73-adenosine",
+  "adora2a",
+  "adenosine-and-ido"
+],
+    links: [
+  {
+    "label": "ClinicalTrials.gov NCT06119217",
+    "url": "https://clinicaltrials.gov/study/NCT06119217"
+  },
+  {
+    "label": "Adenosine generation catalyzed by CD39 and CD73 expressed on regulatory T cells mediates immune suppression.",
+    "url": "https://doi.org/10.1084/jem.20062512"
+  }
+] ,
+"asOf": "2026-11-10"
+}),
 
   target({ id: "adora2a", name: "Adenosine A2A receptor (ADORA2A)", symbol: "ADORA2A", aka: ["A2AR", "A2A receptor", "adenosine A2a receptor", "RDC8"], hgnc: "HGNC:263", ensembl: "ENSG00000128271", uniprot: "P29274", entrez: "135", targetClass: "surface-antigen", role: IC,
     tldr: "The A2A receptor is where adenosine lands on a T cell and tells it to rest. Oral antagonists, cousins of caffeine, are in phase 2 combinations with PD-1 blockade and chemotherapy.",

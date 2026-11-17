@@ -306,7 +306,7 @@ export const simpleN: Record<string, string> = {
   "icad-profound-ai": "iCAD's ProFound AI was the first AI software cleared in the United States for 3D mammography, and it now belongs to RadNet's imaging network after a 2025 deal.",
   "kheiron-mia": "Mia, a breast screening AI built in London by Kheiron, was trialled across NHS sites as a second reader and became part of RadNet's DeepHealth after a 2024 acquisition.",
   "msi-mmr-testing": "MSI and mismatch-repair tests show whether a tumour has lost its DNA spell-checker, which means immunotherapy works unusually well and an inherited syndrome [Lynch syndrome] may be present.",
-  "tmb-testing": "Tumour mutational burden testing counts how many mutations a tumour carries per stretch of DNA, because heavily mutated tumours are more likely to respond to immunotherapy.",
+
   "nhs-targeted-lung-health-check": "England's Targeted Lung Health Check programme invites people aged 55 to 74 who have ever smoked for a risk assessment and, if high risk, a low-dose CT scan.",
   "prostate-screening-psa-mri": "Prostate screening is still debated, but the modern approach uses a PSA blood test followed by an MRI scan to find the cancers that matter while leaving harmless ones alone.",
   "skin-cancer-screening": "Whole-skin checks for suspicious moles find melanomas earlier, but no trial has yet shown that screening everyone saves lives, so most countries focus on people at high risk.",
@@ -511,7 +511,7 @@ export const simpleN: Record<string, string> = {
   alemtuzumab: "Alemtuzumab (Campath) is an antibody that wipes out lymphocytes [white blood cells] carrying the CD52 marker, approved for chronic lymphocytic leukaemia and supplied in the US through a restricted programme.",
   bexarotene: "Bexarotene (Targretin) is a vitamin A-like capsule and gel for the skin problems of cutaneous T-cell lymphoma [a lymphoma that starts in the skin] when other treatments have stopped working.",
   busulfan: "Busulfan is one of the oldest cancer drugs, a tablet that controlled chronic myeloid leukaemia before imatinib and an infusion that clears bone marrow before a stem cell transplant.",
-  capecitabine: "Capecitabine (Xeloda), from Roche, is a tablet form of the chemotherapy fluorouracil that is a backbone of bowel cancer treatment and a standard option in advanced breast cancer.",
+  capecitabine: "The body converts capecitabine tablets into fluorouracil. Taking a medicine by mouth does not remove the risk of serious harm.",
   carmustine: "Carmustine is a chemotherapy that reaches the brain, infused for brain tumours, lymphoma and myeloma, and placed as a slow-release wafer in the cavity after a brain tumour is removed.",
   chlorambucil: "Chlorambucil (Leukeran) is a gentle oral chemotherapy tablet used for decades in chronic lymphocytic leukaemia and low-grade lymphomas, mainly in older and frail patients.",
   clofarabine: "Clofarabine (Clolar), from Sanofi, is a chemotherapy infusion for children and young adults whose acute lymphoblastic leukaemia has come back after at least two other treatments.",

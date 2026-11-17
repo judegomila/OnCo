@@ -1,0 +1,218 @@
+[
+  {
+    "id": "binding-barrier",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22binding+site+barrier%22+AND+AUTH_LAST%3ACilliers&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:31.844652+00:00",
+    "path": "research/concepts-2026-11-08/primary/binding-barrier.json",
+    "sha256": "9acf249a089b9a18129c0df62b4930b23af9550c7f193c265c366c5993b6d568",
+    "count": 0
+  },
+  {
+    "id": "processing",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Determination+of+Cellular+Processing+Rates%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:31.906372+00:00",
+    "path": "research/concepts-2026-11-08/primary/processing.json",
+    "sha256": "bd38c79fcbc518e0fe6d941bada76c7738c697b6bead8c21b998320c563b808f",
+    "count": 1
+  },
+  {
+    "id": "lysosomal-egress",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22SLC46A3+Is+Required%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:31.861642+00:00",
+    "path": "research/concepts-2026-11-08/primary/lysosomal-egress.json",
+    "sha256": "72b900b54366d03270dd495d0d087ea41e3c0c46d7ab203e9e80b2a513920ab0",
+    "count": 1
+  },
+  {
+    "id": "engagement",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1126%2Fscience.1233606&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:31.881342+00:00",
+    "path": "research/concepts-2026-11-08/primary/engagement.json",
+    "sha256": "5130c5d165d3ad68ee233bfc51192f43a3aa55558e4f902f762f5cd2f8018eda",
+    "count": 1
+  },
+  {
+    "id": "engagement-indirect",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1038%2Fs42003-020-0795-6&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:32.495114+00:00",
+    "path": "research/concepts-2026-11-08/primary/engagement-indirect.json",
+    "sha256": "1e948b70986da3ba14874e5a41b5e768528aeadd7316775df2d251876dddbe20",
+    "count": 1
+  },
+  {
+    "id": "expression-response",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37488289+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:32.555977+00:00",
+    "path": "research/concepts-2026-11-08/primary/expression-response.json",
+    "sha256": "0647220e681a18210cf6735f714ecb811bebe847a5e3f63d7d7a62c30af8bb21",
+    "count": 1
+  },
+  {
+    "id": "prognostic-predictive",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1200%2FJCO.2015.63.3651&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:32.556053+00:00",
+    "path": "research/concepts-2026-11-08/primary/prognostic-predictive.json",
+    "sha256": "d124614bc07c0e6e8eff7fa6d04bc0b03d17a61cf01c412c60dba741c014415b",
+    "count": 1
+  },
+  {
+    "id": "functional-variant",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Recommendations+for+application+of+the+functional+evidence+PS3%2FBS3%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:32.642063+00:00",
+    "path": "research/concepts-2026-11-08/primary/functional-variant.json",
+    "sha256": "d8431dfa2bbe5ae2efc045356ab6b7d2da2d3320cd54e7b270161e5637ce254f",
+    "count": 2
+  },
+  {
+    "id": "actionability",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A30137196+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:33.200828+00:00",
+    "path": "research/concepts-2026-11-08/primary/actionability.json",
+    "sha256": "ac3b912851929d5c1191cfe7893658ed7bf9e66a8f1ea0a6c5f5da475cd8f0aa",
+    "count": 1
+  },
+  {
+    "id": "ctdna-origin",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22High-intensity+sequencing+reveals+the+sources%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:33.266783+00:00",
+    "path": "research/concepts-2026-11-08/primary/ctdna-origin.json",
+    "sha256": "61dba56baab93aac511b404021cb15328d024b5d396c0854c896064336a7904d",
+    "count": 1
+  },
+  {
+    "id": "ctdna-shedding",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Detection+of+circulating+tumor+DNA+in+early-+and+late-stage+human+malignancies%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:33.352107+00:00",
+    "path": "research/concepts-2026-11-08/primary/ctdna-shedding.json",
+    "sha256": "9f505b9922d3deac22d79f24fbd969b36bfe84d4233e217c8f57d5360e63bb99",
+    "count": 2
+  },
+  {
+    "id": "ctdna-sampling",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.15252%2Femmm.202216505&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:33.343467+00:00",
+    "path": "research/concepts-2026-11-08/primary/ctdna-sampling.json",
+    "sha256": "ba4ef9b8ceb5c6f604d2e99cb813bf5f15d2202f19a735c219ac44820e5b114d",
+    "count": 1
+  },
+  {
+    "id": "dmiqe",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22The+Digital+MIQE+Guidelines+Update%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:33.946683+00:00",
+    "path": "research/concepts-2026-11-08/primary/dmiqe.json",
+    "sha256": "5a2e3d7314a0e6494bc69e32754ac05ad7eedae12979f94a83a52af7301ec7c6",
+    "count": 2
+  },
+  {
+    "id": "clinical-utility",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35657320+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:34.286257+00:00",
+    "path": "research/concepts-2026-11-08/primary/clinical-utility.json",
+    "sha256": "b3ca7cb81e853a0a78705c896d435527b07d3a24644659b4b24dabd6ca253505",
+    "count": 1
+  },
+  {
+    "id": "growth-rate",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Growth+rate+inhibition+metrics+correct%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:34.032400+00:00",
+    "path": "research/concepts-2026-11-08/primary/growth-rate.json",
+    "sha256": "3681f9749960a12999a9882906c63f7d762a670b118f3aa1002b249ed362ba11",
+    "count": 1
+  },
+  {
+    "id": "crispr-artifacts",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27260156+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:34.103231+00:00",
+    "path": "research/concepts-2026-11-08/primary/crispr-artifacts.json",
+    "sha256": "70f164fcfeaacea806dfef7ae119b931241121d24cd0cef41228faedd3429e22",
+    "count": 1
+  },
+  {
+    "id": "crispr-correction",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Computational+correction+of+copy+number+effect+improves+specificity%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:34.701030+00:00",
+    "path": "research/concepts-2026-11-08/primary/crispr-correction.json",
+    "sha256": "6e9e93e88bdcf433518bc530e085e166326bc56a213d5658a218a63a217dc803",
+    "count": 2
+  },
+  {
+    "id": "model-context",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Organoid+Modeling+of+the+Tumor+Immune+Microenvironment%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:34.709164+00:00",
+    "path": "research/concepts-2026-11-08/primary/model-context.json",
+    "sha256": "18ec4edc45cc87e5d01a4f281b46c083979b6ac11357ddc4e58a887d7db328a6",
+    "count": 1
+  },
+  {
+    "id": "exposure",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Clinically+Relevant+Concentrations+of+Anticancer+Drugs%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:34.762483+00:00",
+    "path": "research/concepts-2026-11-08/primary/exposure.json",
+    "sha256": "b4ecbd1877d625fe7bd4d8ac45e7ad98ffe457332c42dffaad44c0085a68b6bd",
+    "count": 1
+  },
+  {
+    "id": "cytostasis",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22An+unbiased+metric+of+antiproliferative+drug+effect%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:34.928903+00:00",
+    "path": "research/concepts-2026-11-08/primary/cytostasis.json",
+    "sha256": "35c6bf34490720a9adef81dad440208bfa7b595ece23a7b5d325618d88a68195",
+    "count": 1
+  },
+  {
+    "id": "immortal-time",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18056625+AND+SRC%3AMED&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:35.361788+00:00",
+    "path": "research/concepts-2026-11-08/primary/immortal-time.json",
+    "sha256": "727648e7cf2fb57f153da19996ae111a6413f6068ca91d20e0ac273a9d794204",
+    "count": 1
+  },
+  {
+    "id": "decision-curve",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A10.1177%2F0272989X06295361&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:35.366379+00:00",
+    "path": "research/concepts-2026-11-08/primary/decision-curve.json",
+    "sha256": "8f27aff2f24d24bdbfb1b9faa362feae2beffe82ed4b34bdf7fea48cfe64c54b",
+    "count": 1
+  },
+  {
+    "id": "cutpoint",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Dangers+of+using+optimal+cutpoints%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:35.477994+00:00",
+    "path": "research/concepts-2026-11-08/primary/cutpoint.json",
+    "sha256": "4e1bedb71cc2df5435addd46cd8165c8e24cb91155ab24a0374449e35c6111bf",
+    "count": 2
+  },
+  {
+    "id": "absence",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Absence+of+evidence+is+not+evidence+of+absence%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:35.742578+00:00",
+    "path": "research/concepts-2026-11-08/primary/absence.json",
+    "sha256": "9f18fb37e46da53076f6ebd0da4317d65b1a1f9f4093194d81979de90456108c",
+    "count": 66
+  },
+  {
+    "id": "competing-risks",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+proportional+hazards+model+for+the+subdistribution+of+a+competing+risk%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:35.988407+00:00",
+    "path": "research/concepts-2026-11-08/primary/competing-risks.json",
+    "sha256": "bc020634f23a8e0fc83707122687759560b45782dcd2b05725f7c80d337c6016",
+    "count": 0
+  },
+  {
+    "id": "confounding",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22Confounding+by+indication%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:36.213142+00:00",
+    "path": "research/concepts-2026-11-08/primary/confounding.json",
+    "sha256": "c737f0db2122d656761ca5af73014d72e6b4a257049f4b775d046bb4d8e83284",
+    "count": 143
+  },
+  {
+    "id": "generalizing",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22The+use+of+propensity+scores+to+assess+the+generalizability%22&format=json&resultType=core&pageSize=6",
+    "retrievedAt": "2026-11-08T18:41:36.137326+00:00",
+    "path": "research/concepts-2026-11-08/primary/generalizing.json",
+    "sha256": "ecf0d5d3a7cf9b3bd5e085e1b64aa7d2fb9ae44940455cfd700cc0d165b93a5c",
+    "count": 1
+  }
+]

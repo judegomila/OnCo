@@ -358,7 +358,7 @@ export const CU_DIVE: CountryDive = {
       plain:
         "The latest official figures OnCo read on missing medicines are from July 2023. OnCo found no later published count, no list of which cancer medicines are on Cuba's basic list, and no record of which of them CECMED has registered, so availability today cannot be stated here.",
       detail:
-        "BioCubaFarma's site has a page headed missing medicines; the Internet Archive copy of July 2025 showed the heading but no list. The basic medicines list (cuadro básico de medicamentos) itself was not read. CECMED publishes data on registered medicines, but its registration entries for CIMAvax-EGF, racotumomab and nimotuzumab were not read, so their registration dates in Cuba are not given. What the US embargo does to cancer care is described on this page only as Cuban officials stated it to the National Assembly in 2023; a 2026 paper on sanctions and child health in Cuba (BMJ Paediatrics Open) had no abstract to read. Out-of-pocket spending on cancer care specifically was not found.",
+        "BioCubaFarma's site has a page headed missing medicines; the Internet Archive copy of July 2025 showed the heading but no list. The basic medicines list (cuadro básico de medicamentos) itself was not read. CECMED publishes data on registered medicines. Its entries for CIMAvax-EGF (registered 12 June 2008) and Vaxira, racotumomab (current entry dated 26 May 2025; an earlier one was not read) were read on 16 November 2026 and are on those two products' pages; its entry for nimotuzumab was not read, so that registration date in Cuba is not given. What the US embargo does to cancer care is described on this page only as Cuban officials stated it to the National Assembly in 2023; a 2026 paper on sanctions and child health in Cuba (BMJ Paediatrics Open) had no abstract to read. Out-of-pocket spending on cancer care specifically was not found.",
       links: [
         { label: "BioCubaFarma: missing medicines page (read through the Internet Archive)", url: "https://web.archive.org/web/2025/https://www.biocubafarma.cu/es/medicamentos-en-falta" },
         { label: "Granma, republished by Guerrillero: medicine supply report to the National Assembly (28 July 2023; read through the Internet Archive)", url: GUERRILLERO_2023 },
@@ -379,7 +379,7 @@ export const CU_DIVE: CountryDive = {
   ],
   institutions: ["cuba-minsap", "cuba-national-cancer-registry", "cecmed", "cencec-cuba", "inor-cuba", "roswell-park", "iarc", "who"],
   companies: ["biocubafarma", "cimab"],
-  drugs: ["nimotuzumab", "cecolin", "cisplatin", "carboplatin", "paclitaxel", "vinblastine", "zoledronic-acid"],
+  drugs: ["nimotuzumab", "cimavax-egf", "racotumomab", "cecolin", "cisplatin", "carboplatin", "paclitaxel", "vinblastine", "zoledronic-acid"],
   trials: [],
   papers: [
     "paper-rodriguez-cimavax-egf-phase3-nsclc-ccr-2016", "paper-alfonso-racotumomab-maintenance-nsclc-ccr-2014",

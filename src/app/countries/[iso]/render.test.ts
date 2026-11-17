@@ -1,10 +1,11 @@
 // The fixture territories go in before anything reads the data: keep this import first (see the file's comment).
-import { BAY_TRIALS, COAST_TRIALS, FIXTURE_ATOLL, FIXTURE_BAY, FIXTURE_CODES, FIXTURE_COAST, FIXTURE_INSTITUTION } from "@/lib/country-fixture";
+import { BAY_TRIALS, COAST_TRIALS, FIXTURE_ATOLL, FIXTURE_BAY, FIXTURE_CODES, FIXTURE_COAST, FIXTURE_INSTITUTION } from "@/test-utils/country-fixture";
 import { describe, expect, it, vi } from "vitest";
 import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import AutoCountryPage, { generateStaticParams } from "./page";
+import RootLayout from "../../layout";
 import { autoCountry, autoCountryCodes, countryIndex, countryRoute, deepDiveCodes, NO_AUTOMATIC_PAGES } from "@/lib/country-pages";
 import { GLOBOCAN } from "@/lib/globocan";
 import { siteSearchDocs } from "@/lib/search-index";
@@ -12,13 +13,14 @@ import { pageRows } from "@/lib/static-tables";
 import { pagedTables } from "@/lib/tables";
 import { COUNTRY_TRIALS_PAGE, countryTrialRows, countryTrials, countryTrialsTableId } from "@/lib/tables/country-trials";
 import { recruitingIn } from "@/lib/trials-here";
+import { nestedAnchors, structureIssues } from "@/test-utils/html-structure";
 
 /**
  * The automatic country pages render from data alone. Every GLOBOCAN country has had a deep dive since wave 16
  * (16 November 2026), so no real country has an automatic page; Peru, Estonia, Samoa, Guam, Timor-Leste, the
  * Maldives, Montenegro and the Gaza Strip and West Bank each served as an example here until its deep dive arrived.
  * The route is kept for the next territory IARC reports, and these tests run it on three territories that do not
- * exist (src/lib/country-fixture.ts), added to the data the page reads so the whole path runs as it would for a
+ * exist (src/test-utils/country-fixture.ts), added to the data the page reads so the whole path runs as it would for a
  * real newcomer. Three shapes: a small territory whose incidence IARC built from neighbouring countries and for
  * which OnCo holds nothing (Fixture Atoll), one with a few trials and an institution (Fixture Bay), and one with
  * more trials than a page of the table (Fixture Coast). Each page must state GLOBOCAN's figures and edition, cite
@@ -80,6 +82,18 @@ describe("automatic country pages", () => {
       expect(Buffer.byteLength(html, "utf8"), `${iso} markup`).toBeLessThan(BUDGET);
     });
   }
+
+  it("renders markup the HTML parser keeps as written, inside the root layout", async () => {
+    // src/app/nested-anchors.test.ts scans every page the site generates. It generates no automatic page now, so
+    // the scan of this page's markup is done here, on the three fixture territories.
+    for (const iso of FIXTURE_CODES.map(lower)) {
+      const page = await AutoCountryPage({ params: Promise.resolve({ iso }) });
+      const html = renderToStaticMarkup(createElement(AppRouterContext.Provider, { value: router }, createElement(RootLayout, null, page)));
+      expect(html, `${iso} rendered no links`).toMatch(/<a[\s>]/);
+      expect(nestedAnchors(html), iso).toEqual([]);
+      expect(structureIssues(html), iso).toEqual([]);
+    }
+  });
 
   it("says when IARC built the estimate from neighbouring countries (Fixture Atoll, method 5)", async () => {
     expect(autoCountry(FIXTURE_ATOLL)!.methodInc).toMatchObject({ code: "5", neighbours: true });

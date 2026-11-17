@@ -3,6 +3,8 @@ import { createElement, type ReactElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import RootLayout from "./layout";
+import NotFound from "./not-found";
+import { NO_AUTOMATIC_PAGES } from "@/lib/country-pages";
 import { nestedAnchors, structureIssues } from "@/test-utils/html-structure";
 
 /**
@@ -25,6 +27,12 @@ const SLOW_MS = Number(process.env.SLOW_TEST_MS ?? 120_000);
  * are rendered for a sample of their real ids (one record per kind, every kind browser, the first few of the rest);
  * `NA_FULL=1 npx vitest run src/app/nested-anchors.test.ts` renders every id (several minutes). New pages are
  * picked up by the glob, so nothing has to be registered.
+ *
+ * One address is not a page: when no country is left without a deep dive, the automatic country route generates a
+ * single placeholder so the static export has something to write, and answers it with `notFound()`
+ * (src/lib/country-pages.ts, NO_AUTOMATIC_PAGES). The export writes the site's not-found page there, so that is
+ * what is scanned for it. Any other address that answers not-found still fails here. The automatic page's own
+ * markup is scanned on fixture territories in src/app/countries/[iso]/render.test.ts.
  */
 
 // next/font needs the Next compiler; the layout only reads the class-name variables.
@@ -61,7 +69,9 @@ describe("no page renders markup the HTML parser would rebuild", () => {
     const paramSets = mod.generateStaticParams ? pick(file, await mod.generateStaticParams()) : [{}];
     expect(paramSets.length).toBeGreaterThan(0);
     for (const p of paramSets) {
-      const html = render(await mod.default({ params: Promise.resolve(p) }));
+      const placeholder = file === "./countries/[iso]/page.tsx" && p.iso === NO_AUTOMATIC_PAGES;
+      if (placeholder) await expect(Promise.resolve().then(() => mod.default({ params: Promise.resolve(p) })), "the placeholder must answer not-found").rejects.toThrow("NEXT_HTTP_ERROR_FALLBACK;404");
+      const html = render(placeholder ? createElement(NotFound) : await mod.default({ params: Promise.resolve(p) }));
       // Every page has at least the header and footer links; an anchorless render means the page did not render.
       expect(html, `${file} ${JSON.stringify(p)} rendered no links`).toMatch(/<a[\s>]/);
       expect(nestedAnchors(html), `${file} ${JSON.stringify(p)}`).toEqual([]);

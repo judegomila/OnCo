@@ -517,6 +517,15 @@ describe("Ask OnCo end to end", () => {
     // concept list for "Which oncology drugs were approved in the US in July 2026?". Concept search now breaks ties at
     // its reported precision by record id (semantic.ts semanticSearch), which restores 0.4313. The floor is unchanged.
     { date: "2026-11-16", recall: 0.4313, note: "country deep dives wave 16; ties at three decimal places in the concept list broken by id; extractive rubric 0.6825" },
+    // 16 November 2026, country deep dives waves 13 to 16 merged together (64 places) on top of the teaching-concept
+    // batch. Main before them measured 0.4365 with rubric 0.6840. With the four waves and without the tie-break above,
+    // 0.4332 and 0.6815: tech-62 ("What is brachytherapy and where is it essential?") lost the brachytherapy record
+    // from its top six, and pipe-89 (US approvals in July 2026) lost isatuximab from sixth place to a screening test,
+    // which cost rubric points but no expected record. With the tie-break, 0.4365 and 0.6765: tech-62 is restored, so
+    // recall equals main's, and tech-55 ("What is the bystander effect in ADCs?") swaps its sixth record, an idea for
+    // a term, which lowers its rubric score from 0.75 to 0.25. Ten other questions reorder or swap a record without
+    // changing either score. No ranking change was made for this merge and neither floor moves.
+    { date: "2026-11-16", recall: 0.4365, note: "country deep dives waves 13 to 16 merged (0.4332 without the id tie-break); extractive rubric 0.6765, down from 0.6840 on tech-55 and pipe-89" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

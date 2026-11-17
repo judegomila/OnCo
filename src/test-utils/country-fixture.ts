@@ -1,6 +1,6 @@
-import { GLOBOCAN } from "./globocan";
-import type { Cell, GlobocanCountry } from "./globocan-core";
-import type { InstitutionInput } from "./schema";
+import { GLOBOCAN } from "@/lib/globocan";
+import type { Cell, GlobocanCountry } from "@/lib/globocan-core";
+import type { InstitutionInput } from "@/lib/schema";
 import { CTGOV_COUNTRY, ISO3_TO_ISO2 } from "@/data/country-codes";
 import { institutions } from "@/data/institutions";
 import { TRIAL_PARTICIPATION } from "@/data/trial-participation";
@@ -31,7 +31,7 @@ import { TRIAL_SITES } from "@/data/trial-sites";
  *   institution. The page must list every trial and the institution.
  * - XC, Fixture Coast: more trials than one page of the table, so the page carries the first rows and points at a file.
  */
-if (!process.env.VITEST) throw new Error("src/lib/country-fixture.ts is a test fixture and must never be part of a build");
+if (!process.env.VITEST) throw new Error("src/test-utils/country-fixture.ts is a test fixture and must never be part of a build");
 
 export const FIXTURE_ATOLL = "XA";
 export const FIXTURE_BAY = "XB";

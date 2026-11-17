@@ -19,7 +19,7 @@ import { regionalApprovals } from "@/data/regional-approvals";
  * A deep dive always wins: the dynamic route (src/app/countries/[iso]/page.tsx) generates only the codes with no
  * folder of their own, so adding a deep dive removes the automatic page in the same build. Every GLOBOCAN country now
  * has a deep dive, so no automatic page is generated today; the route stays for the next territory IARC reports, and
- * its tests run on fixture territories (src/lib/country-fixture.ts).
+ * its tests run on fixture territories (src/test-utils/country-fixture.ts).
  */
 
 const COUNTRIES_DIR = join(process.cwd(), "src", "app", "countries");

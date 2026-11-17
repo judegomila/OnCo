@@ -23,21 +23,34 @@ import { protocol } from "./helpers";
  * not read) and the 2015 guidance.
  *
  * Every DOI was resolved through Europe PMC or Crossref and its title checked. Quotes are copied from the raw text.
+ *
+ * Second accuracy pass, 17 November 2026 (an independent re-read of every claim against the raw text):
+ * - Andreyev 2015: fetched again as Europe PMC full-text XML (PMC4283714), tags stripped by script; all 15 quotes
+ *   from it match character for character. Corrected against it: the referral of faecal incontinence to a specialist
+ *   team (the guidance prints that only for incontinence unrelated to radiotherapy), the six-week minimum (printed
+ *   for proctopathy with frequency only), the lower-fat diet (printed for severe bile acid malabsorption), and
+ *   several reasons and emphases the text does not state.
+ * - MASCC/ISOO 2020: a copy of the Europe PMC XML (PMC7540329) fetched on 17 November 2026 by a sibling checker was
+ *   re-used; Table 3 levels and the quote match. Its supporting table still refuses a script.
+ * - ASGE 2019: abstract re-read from the Europe PMC record. ASCRS 2018: still no abstract or open text.
+ * - Cancer Research UK, abdominal or pelvic radiotherapy side effects (last reviewed 30 January 2024): added for the
+ *   patient-facing advice; fetched with a plain request and read as text.
+ * - Europe PMC searches (by title, and by the lead author) and Crossref found no newer edition of any source.
  */
 export const pelvicRadiationDiseaseBowelSymptoms = protocol({
   id: "pelvic-radiation-disease-bowel-symptoms",
   name: "Bowel effects after pelvic radiotherapy (pelvic radiation disease): assessment and management",
   aka: ["pelvic radiation disease", "radiation proctitis", "radiation proctopathy", "radiation enteritis", "bowel problems after radiotherapy", "late bowel effects of radiotherapy", "rectal bleeding after radiotherapy", "bile acid malabsorption after radiotherapy"],
   domain: "radiotherapy",
-  tldr: "Radiotherapy to the pelvis (for prostate, bladder, cervix, womb, rectal or anal cancer) can change how the bowel works for months or years: urgency, loose stools, wind, leakage or bleeding. Most of it has a cause that can be found and treated, often more than one, so ask for a proper assessment rather than being told it is just something to live with.",
-  simple: "After radiotherapy to the lower tummy, the bowel can work differently for a long time. Tell your team about diarrhoea, urgency, leaking, bleeding or waking at night to open your bowels. There are tests and treatments that help.",
-  summary: "The reference is the 2015 Frontline Gastroenterology guidance (Andreyev et al.), the algorithm used in the ORBIT randomised trial, in which an algorithmic approach helped and trained nurses managed patients as well as a gastroenterologist; 65 clinicians reviewed it and agreed 27 of 28 sections. Its principles: patients can have many symptoms at once, each with more than one cause, so investigate systematically and order all first-line tests at the first visit; irritable bowel syndrome is rarely the right diagnosis here; endoscopy or surgery in irradiated tissue carries more risk, and irradiated areas are not biopsied. Common treatable causes are bile acid malabsorption (SeHCAT; a sequestrant for moderate or severe), small intestinal bacterial overgrowth (breath test or aspirate), carbohydrate intolerance, exocrine pancreatic insufficiency after para-aortic fields, and pelvic floor dysfunction (at least six weeks of exercises). Faecal calprotectin is not recommended in this group. Bleeding from telangiectasia usually starts 6 to 12 months after treatment and settles by 8 to 10 years: reassure if it is not affecting life; otherwise stop anticoagulants if possible and consider sucralfate enemas, then hyperbaric oxygen (RCT support; MASCC/ISOO suggests it, level II), formalin or thermal ablation such as argon plasma coagulation, which the guidance says is absolutely contraindicated after brachytherapy. The ASGE (2019) found argon plasma coagulation and other endoscopic methods effective from small observational studies. MASCC/ISOO suggests Lactobacillus probiotics to prevent radiation diarrhoea (level III).",
-  asOf: "2026-11-11",
+  tldr: "Radiotherapy to the pelvis can change how the bowel works, sometimes for a long time: urgency, loose stools, wind, leakage or bleeding. UK guidance says each symptom can have more than one cause and should be investigated step by step, because several causes have their own treatment. Tell your doctor or radiographers about any bleeding.",
+  simple: "After radiotherapy to the lower tummy, the bowel can work differently for a long time. Tell your team about diarrhoea, urgency, leaking, bleeding or waking at night to open your bowels. There are tests that look for the cause, and treatments for several of the causes.",
+  summary: "The reference is the 2015 Frontline Gastroenterology guidance (Andreyev et al.), the algorithm used in the ORBIT randomised trial, which the guidance says suggested that an algorithmic approach is beneficial and that specially trained nurses can manage patients as effectively as a gastroenterologist; 65 clinicians reviewed it and agreed 27 of 28 sections. Its principles: patients can have many symptoms at once, each with more than one cause, so investigate systematically and arrange the investigations at the first visit; specialist centres only very rarely reach a new diagnosis of irritable bowel syndrome in this group; endoscopy or surgery in irradiated tissue carries more risk, and irradiated areas are not biopsied. The conditions it looks for include bile acid malabsorption (SeHCAT scan; a sequestrant generally for moderate, and for most patients with severe), small intestinal bacterial overgrowth (breath test or duodenal aspirate), carbohydrate intolerance, exocrine pancreatic insufficiency (which may follow para-aortic node irradiation), and pelvic floor dysfunction (exercises; at least six weeks where proctopathy causes frequency). Faecal calprotectin is not recommended in this group. Bleeding from telangiectasia typically starts 6 to 12 months after radiotherapy and has gone by 8 to 10 years: reassure if it is not staining clothes, causing anaemia or interfering with daily activities; if it affects quality of life, stop anticoagulants if possible and consider sucralfate enemas, and discuss ablation by hyperbaric oxygen (RCT support; MASCC/ISOO suggests it, level II), formalin or thermal therapy such as argon plasma coagulation, which the guidance says is absolutely contraindicated after brachytherapy. The ASGE (2019) found argon plasma coagulation and other endoscopic methods effective from small observational studies. MASCC/ISOO suggests Lactobacillus probiotics to prevent radiation diarrhoea (level III).",
+  asOf: "2026-11-17",
   setting: {
     who: ["nurse", "doctor", "multidisciplinary-team", "patient-or-carer"],
     where: ["outpatient-clinic", "community", "home"],
   },
-  population: "Adults with bowel symptoms during or after pelvic radiotherapy for any cancer (prostate, bladder, cervix, uterus, rectum, anus), including brachytherapy. The guidance was written mainly for clinical nurse specialists working with a gastroenterologist, and for general practitioners. Acute diarrhoea during treatment is covered only by the MASCC/ISOO probiotic suggestion; children are not covered.",
+  population: "People with gastrointestinal symptoms following pelvic radiotherapy; the guidance does not limit itself to particular cancers and includes those treated with brachytherapy. It was written mainly for clinical nurse specialists working with a gastroenterologist, and says it might also help general practitioners and generalists. Diarrhoea during treatment is covered here only by the MASCC/ISOO probiotic suggestion. The guidance does not mention children.",
   trigger: "A person who has had pelvic radiotherapy reports a change in bowel function (frequency, urgency, loose stools, leakage, wind, pain, bleeding, waking at night to open the bowels), at any time after treatment.",
   steps: [
     {
@@ -59,81 +72,81 @@ export const pelvicRadiationDiseaseBowelSymptoms = protocol({
       quote: "Arranging all investigations at the first consultation reduces follow-up and allows directed treatment at all causes for symptoms at the earliest opportunity.",
     },
     {
-      action: "Do not settle for a diagnosis of irritable bowel syndrome",
-      why: "In people who have had pelvic radiotherapy, specialist units almost always find a specific cause instead.",
+      action: "Be slow to make a new diagnosis of irritable bowel syndrome",
+      why: "The guidance lists it as a principle that specialist centres only very rarely reach that diagnosis in people who have had pelvic radiotherapy.",
       source: "andreyev-prd-2015",
       quote: "Specialist centres only very rarely reach a new diagnosis of ‘irritable bowel syndrome’ in this patient group.",
     },
     {
       action: "Do not use faecal calprotectin to look for bowel inflammation in this group",
-      why: "It is too unspecific after radiotherapy to guide care.",
+      why: "The guidance says it is too non-specific a marker of bowel inflammation in this group.",
       source: "andreyev-prd-2015",
       quote: "Note: faecal calprotectin as a marker for bowel inflammation is too non-specific and hence not recommended in this population.",
     },
     {
-      action: "Test for bile acid malabsorption (SeHCAT scan) in loose stools, and treat moderate or severe malabsorption with a bile acid sequestrant and a lower-fat diet",
-      why: "Radiotherapy can damage the part of the small bowel that reabsorbs bile, and the bile then causes diarrhoea; binding it often helps a great deal.",
+      action: "Test for bile acid malabsorption (SeHCAT scan) in diarrhoea; a bile acid sequestrant is generally required when it is moderate, and most patients with severe malabsorption need one with advice on eating less fat long term",
+      why: "Pelvic radiotherapy is one of the common causes the guidance lists; in one type the last part of the small bowel absorbs bile acids poorly. For mild malabsorption it says eating less fat and antidiarrhoeal medicine may be useful.",
       source: "andreyev-prd-2015",
       quote: "For severe BAM developing after radiotherapy, most patients need a bile acid sequestrant and advice about long-term reduction in dietary fat intake.",
     },
     {
       action: "In moderate or severe bile acid malabsorption, check trace elements and fat-soluble vitamins periodically and replace them",
-      why: "Long-term malabsorption and sequestrant treatment can leave people short of vitamins and minerals.",
+      why: "The guidance says many of these patients will be short of trace elements and fat-soluble vitamins.",
       source: "andreyev-prd-2015",
       quote: "Many patients with moderate/severe BAM will be deficient in trace elements and fat-soluble vitamins. These should be checked periodically and supplemented as appropriate.",
     },
     {
-      action: "For frequency or leakage with radiation proctopathy, start pelvic floor and toileting exercises for at least six weeks, with a stool bulking agent; refer faecal incontinence to a specialist team",
-      why: "Radiotherapy weakens the muscles and stiffens the rectum; exercises and firmer stools reduce urgency and leakage.",
+      action: "For frequency with radiation proctopathy, start pelvic floor and toileting exercises for at least six weeks and add a stool bulking agent; the guidance lists the same exercises and stool bulking for leakage with pelvic floor dysfunction",
+      why: "The guidance says exercises can strengthen the pelvic muscles and can improve faecal incontinence or leakage.",
       source: "andreyev-prd-2015",
       quote: "Pelvic floor and toileting exercises (page 18)—min. 6 weeks.",
     },
     {
       action: "Investigate rectal bleeding with flexible endoscopy, and do not biopsy irradiated bowel",
-      why: "The bleeding is usually from small fragile vessels the radiotherapy has caused, but other causes must be ruled out; biopsy of irradiated tissue can cause ulcers or fistulas that do not heal.",
+      why: "Endoscopy shows the cause of the bleeding, which may be radiation telangiectasia (small surface blood vessels) or something else such as haemorrhoids; the guidance says endoscopic or surgical intervention in irradiated tissue carries an increased risk of serious complications.",
       source: "andreyev-prd-2015",
       quote: "Do not biopsy irradiated areas.",
     },
     {
-      action: "If the bleeding is minor and not affecting daily life, reassure and do nothing more",
-      why: "Radiation bleeding usually starts 6 to 12 months after treatment, is worst at about 4 years and has gone by 8 to 10 years.",
+      action: "If the bleeding is not staining clothes, causing anaemia or interfering with daily activities, reassure and do nothing more",
+      why: "The guidance says radiation bleeding typically starts 6 to 12 months after radiotherapy, is at its worst 4 years after the end of radiotherapy and has gone by 8 to 10 years.",
       source: "andreyev-prd-2015",
       quote: "If bleeding is not staining clothes, causing anaemia or interfering with daily activities, reassure and do nothing.",
     },
     {
       action: "If bleeding affects quality of life, stop anticoagulants if possible and consider sucralfate enemas, with or without metronidazole",
-      why: "Sucralfate coats and protects the lining of the rectum; stopping blood thinners lets it heal.",
+      why: "The guidance says sucralfate forms a protective layer over the fragile vessels and improves healing. Its algorithm page words the first part as stop or reduce anticoagulants if possible.",
       source: "andreyev-prd-2015",
       quote: "If bleeding affects quality of life, stop anticoagulants if possible and consider sucralfate enemas ± metronidazole 400 mg tds for 4 weeks.",
     },
     {
-      action: "For persistent bleeding, discuss ablation at a specialist centre: hyperbaric oxygen, formalin, or thermal treatment such as argon plasma coagulation, which must not be used after brachytherapy",
-      why: "Each option has trade-offs: hyperbaric oxygen has trial support but takes eight weeks of daily sessions; heat treatments are simple but can cause ulcers that do not heal in irradiated tissue.",
+      action: "Discuss referral to a specialist centre for treatment to ablate the vessels: hyperbaric oxygen, formalin, or thermal therapy such as argon plasma coagulation, which the guidance says is absolutely contraindicated after brachytherapy",
+      why: "The guidance sets out the trade-offs: hyperbaric oxygen has randomised trial support but takes 8 weeks of daily treatment, is expensive and may mean long journeys; thermal therapy is easily available and simple but carries a significant risk of ulcers that do not heal, or perforation.",
       source: "andreyev-prd-2015",
       quote: "Any thermal therapy (eg, APC): Advantages: easily available and simple; disadvantages: significant risk of non-healing ulceration/perforation as the tissue is ischaemic and unproven efficacy in heavy bleeding. Absolutely contraindicated in patients treated with brachytherapy.",
     },
     {
-      action: "Treat anything the guidance marks as an emergency (for example severe colitis, heavy bleeding from another source, or very abnormal blood tests) by discussing it at once with a suitably qualified clinician",
-      why: "Some findings need same-day action rather than the routine pathway.",
+      action: "Treat anything the guidance marks as an emergency (for example severe colitis, diverticular bleeding, bleeding from the upper gut, or some blood results) by discussing it at once with a suitably qualified clinician",
+      why: "The guidance marks these findings as needing immediate action rather than the routine pathway.",
       source: "andreyev-prd-2015",
       quote: "Where it is stated that ‘this is an emergency’, the user of this guide must discuss the issue with a suitably qualified person for immediate action.",
     },
   ],
   bestInClass: {
-    statement: "The 2015 Frontline Gastroenterology guidance (Andreyev et al.), the algorithm tested in the ORBIT randomised trial, is the most complete readable protocol: systematic investigation of every symptom with all first-line tests at the first visit, active search for bile acid malabsorption, bacterial overgrowth, carbohydrate intolerance, pancreatic insufficiency and pelvic floor dysfunction, no biopsy of irradiated tissue, and a stepped approach to bleeding (reassure, stop anticoagulants, sucralfate enemas, then ablation). On ablation the sources differ in emphasis: the guidance prefers hyperbaric oxygen for its randomised evidence and warns that thermal therapy such as argon plasma coagulation risks non-healing ulceration and is absolutely contraindicated after brachytherapy, while the ASGE (2019) found argon plasma coagulation, bipolar electrocoagulation, heater probe and radiofrequency ablation effective from small observational studies. MASCC/ISOO 2020 suggests hyperbaric oxygen for radiation proctitis (level II).",
+    statement: "The 2015 Frontline Gastroenterology guidance (Andreyev et al.), the algorithm used in the ORBIT randomised trial, is the most complete readable protocol: systematic investigation of every symptom with the investigations arranged at the first visit, active search for bile acid malabsorption, bacterial overgrowth, carbohydrate intolerance, pancreatic insufficiency and pelvic floor dysfunction, no biopsy of irradiated tissue, and a stepped approach to bleeding (reassure, stop anticoagulants, sucralfate enemas, then ablation). On ablation the sources differ in emphasis: the guidance states no preference among the three, noting randomised evidence for hyperbaric oxygen and warning that thermal therapy such as argon plasma coagulation risks non-healing ulceration or perforation and is absolutely contraindicated after brachytherapy, while the ASGE (2019) found argon plasma coagulation, bipolar electrocoagulation, heater probe and radiofrequency ablation effective from small observational studies. MASCC/ISOO 2020 suggests hyperbaric oxygen for radiation proctitis (level II).",
     sources: ["andreyev-prd-2015", "mascc-isoo-2020", "asge-2019"],
   },
   variants: [
     {
-      name: "Endoscopic thermal therapy first for bleeding (United States)",
-      differs: "Treats bleeding radiation proctopathy with argon plasma coagulation or another endoscopic method as the usual first ablative step.",
-      evidence: "ASGE 2019 (abstract read): from mostly small observational studies, argon plasma coagulation, bipolar electrocoagulation, heater probe and radiofrequency ablation were effective; the evidence was limited by a lack of controlled and comparative trials. The UK guidance warns of non-healing ulceration and perforation, and contraindicates thermal therapy after brachytherapy.",
+      name: "Endoscopic therapy for bleeding (ASGE, United States)",
+      differs: "Treats bleeding from chronic radiation proctopathy with argon plasma coagulation or another endoscopic method. The abstract does not say where endoscopic therapy comes in the sequence.",
+      evidence: "ASGE 2019 (abstract read): from mostly small observational studies, argon plasma coagulation, bipolar electrocoagulation, heater probe and radiofrequency ablation were effective; the evidence was limited by a lack of controlled and comparative trials. The abstract also names cryoablation as discussed, without listing it among the effective methods. The UK guidance warns of non-healing ulceration and perforation, and contraindicates thermal therapy after brachytherapy.",
       sources: ["asge-2019", "andreyev-prd-2015"],
     },
     {
       name: "Hyperbaric oxygen",
-      differs: "About eight weeks of daily sessions in a pressure chamber for bleeding or other late radiation damage.",
-      evidence: "MASCC/ISOO 2020 suggests it for radiation proctitis in pelvic cancers (level II). The UK guidance notes randomised evidence and possible benefit for urinary symptoms, against time, cost and travel.",
+      differs: "Eight weeks of daily treatment at a medically supervised hyperbaric unit, as the UK guidance describes it, for bleeding telangiectasia.",
+      evidence: "MASCC/ISOO 2020 suggests it for radiation proctitis in pelvic cancers (level II). The UK guidance notes randomised evidence and that it may improve other symptoms such as urinary ones, against time, cost and travel.",
       sources: ["mascc-isoo-2020", "andreyev-prd-2015"],
     },
     {
@@ -159,7 +172,7 @@ export const pelvicRadiationDiseaseBowelSymptoms = protocol({
       doi: "10.1136/flgastro-2014-100468",
       gradingScheme: "Not graded: an algorithm reviewed by 65 clinicians in two rounds, consensus defined as 60% or more agreeing with a section.",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-17",
     },
     {
       key: "mascc-isoo-2020",
@@ -168,9 +181,9 @@ export const pelvicRadiationDiseaseBowelSymptoms = protocol({
       year: 2020,
       url: "https://doi.org/10.1002/cncr.33100",
       doi: "10.1002/cncr.33100",
-      gradingScheme: "Level of evidence I to V; each statement a recommendation, a suggestion or no guideline possible.",
+      gradingScheme: "Each statement carries a level of evidence (LoE, by the criteria of Somerfield and McCrae) and one of three determinations: recommendation, suggestion or no guideline possible.",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-17",
     },
     {
       key: "asge-2019",
@@ -180,7 +193,7 @@ export const pelvicRadiationDiseaseBowelSymptoms = protocol({
       url: "https://doi.org/10.1016/j.gie.2019.04.234",
       doi: "10.1016/j.gie.2019.04.234",
       read: "abstract",
-      accessed: "2026-11-11",
+      accessed: "2026-11-17",
     },
     {
       key: "ascrs-2018",
@@ -190,7 +203,17 @@ export const pelvicRadiationDiseaseBowelSymptoms = protocol({
       url: "https://doi.org/10.1097/DCR.0000000000001209",
       doi: "10.1097/DCR.0000000000001209",
       read: "not-reachable",
-      accessed: "2026-11-11",
+      accessed: "2026-11-17",
+    },
+    {
+      key: "cruk-pelvic-rt",
+      label: "Abdominal or pelvic radiotherapy side effects (last reviewed 30 January 2024)",
+      publisher: "Cancer Research UK",
+      year: 2024,
+      url: "https://www.cancerresearchuk.org/about-cancer/treatment/radiotherapy/side-effects/abdominal-or-pelvic-radiotherapy-side-effects",
+      gradingScheme: "Patient information; not graded.",
+      read: "full-text",
+      accessed: "2026-11-17",
     },
   ],
   cancers: ["prostate", "cervical", "endometrial", "rectal-cancer", "anal"],
@@ -199,10 +222,11 @@ export const pelvicRadiationDiseaseBowelSymptoms = protocol({
   related: [],
   upgrades: ["idea-pu-nurse-led-pelvic-radiation-disease-clinic"],
   gaps: [
-    "The main guidance dates from 2015 and no newer UK or European guideline on pelvic radiation disease was found; its steps rest on panel agreement and one randomised trial of the algorithm as a whole, not on graded evidence for each step.",
-    "The ASCRS 2018 clinical practice guideline on chronic radiation proctitis could not be read (no abstract or text available to a script), and the ASGE 2019 guideline was read as an abstract only, so their grades are not given here.",
-    "The MASCC/ISOO 2014 statements carried into 2020 unchanged on sucralfate enemas, octreotide, amifostine and sulfasalazine sit in a supplement that was not read.",
-    "The ORBIT trial itself was not read; it is described here only as the guidance describes it.",
+    "The main guidance dates from 2015. On 17 November 2026 Europe PMC searches by title and by lead author, and Crossref, found no newer edition and no newer UK or European guideline on pelvic radiation disease; its steps rest on panel agreement and one randomised trial of the algorithm as a whole, not on graded evidence for each step.",
+    "On 17 November 2026 the ASCRS 2018 clinical practice guideline on chronic radiation proctitis still could not be read (no abstract or open text), and the ASGE 2019 guideline was read as an abstract only, so their grades are not given here and nothing is said about where each society places endoscopic treatment in the sequence.",
+    "MASCC/ISOO 2020 says its 2014 guidelines in favour of amifostine, octreotide, sucralfate enemas and sulfasalazine, and against oral sucralfate among others, in specific settings were unchanged; the settings and levels sit in a supporting table that refused a script again on 17 November 2026, so they are not given here. The UK guidance lists oral sucralfate as an option to consider for bleeding from telangiectasia higher in the bowel; how that sits with the MASCC/ISOO statement could not be checked.",
+    "The ORBIT trial itself was not read; it is described here only as the guidance describes it. Crossref lists an erratum to the trial report dated March 2024, also not read.",
+    "The patient advice to report bleeding follows the Cancer Research UK page; none of the sources read gives patients a time limit for reporting bowel symptoms after pelvic radiotherapy. The six-week minimum for exercises, the 8 weeks of hyperbaric oxygen and the timings of bleeding are the UK guidance's own figures from expert consensus.",
     "Rectal bleeding after pelvic radiotherapy can also be a new cancer; the guidance's algorithm sends unexplained bleeding and other findings for endoscopy and specialist review, which this summary does not reproduce in full.",
   ],
 });

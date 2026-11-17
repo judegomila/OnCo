@@ -7,11 +7,17 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 17 November 2026
+- Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
 - A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
 
 ### 16 November 2026
+- A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
+- Protocols page weight: the live page weighs 157,107 bytes, over the 155,000 ceiling, so the ceiling stays and the note says so
+- The onco-cc and onco-mcp packages go to 0.1.1, so a rebuild that knows the protocol kind can be published
 - The recorded Ask rubric is the figure measured after merging main: 0.6765
+- The gap-fill workflow installs bubblewrap and socat, so the fetch tool can start inside the command sandbox
 - Evidence keeps its scope: conjugate payload pages show each measurement with the exact chemical form it was made on and how it was tested, drug pages show what a conjugate is made of, assay approvals say who authorised what and for which use, and a missing measurement reads as a gap in our records and not as a no; a contributor's work, reviewed and put into plain language
+- Shasqi in depth: its one clinical programme SQ3370 with the stopped phase 1/2a trial and its results, the click-activated prodrug technology, seven resolved papers, and a company record corrected to say the trial was terminated and carrying sourced leadership, financing and grants
 - The glossary size recorded for the Wikipedia-link gauge is brought up to the live count of 1,685 terms
 - Giredestrant's United States row now records its approval; the two Cuban vaccines are filed as established, as nimotuzumab is, and their trial papers link to them; stale trial-site and country entries removed
 - The two registrations of the PILDI colon surgery trial stay as two records for now, each saying they are one study: merging them adds a redirect line that waits for the owner's approval

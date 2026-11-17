@@ -11,6 +11,11 @@ import type { CountryDive } from "@/data/country-dive";
  * full text of Sarfati et al. 2019 through PubMed Central; and Aruhuri et al. 2012 through Europe PMC. UICC's member
  * pages refused automated requests (406) on that day, so the Vanuatu Family Health Association's statement is cited
  * from OnCo's record of it, written on 11 November 2026. Where a figure could not be read it is named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every source above was fetched again as raw text. The abstract of Paksoy et
+ * al. (Trop Geogr Med 1990, PubMed 2260214), which the first draft listed as unread, was read through Europe PMC and
+ * its count is now on the page; ClinicalTrials.gov's own API was searched for sites in Vanuatu; DIRAC was read from its
+ * public equipment report. UICC (406) and the Pacific Islands Legal Information Institute (403) still refused.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/548-vanuatu-fact-sheet.pdf";
 const MOH = "https://moh.gov.vu";
@@ -39,9 +44,9 @@ export const VU_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Vanuatu",
   description:
-    "Cancer in Vanuatu from its own and WHO sources: IARC's estimate of 313 new cancers and 145 deaths in 2024, based on neighbouring countries' data; no radiotherapy or chemotherapy for adults in WHO's and published records; a referral policy under which the Ministry of Health does not fund treatment overseas; free medicines in public facilities; cervical screening by HPV test; and HPV vaccination since 2023.",
+    "Cancer in Vanuatu from its own and WHO sources: IARC's estimate of 313 new cancers and 145 deaths in 2024, based on neighbouring countries' data; no radiotherapy or chemotherapy for adults in WHO's and published records; a referral policy under which the Ministry of Health does not fund treatment overseas; a medicines policy under which medicines are free in public facilities; cervical screening by HPV test; and HPV vaccination that began in 2023 and has been nationwide since 2024.",
   lede:
-    "Vanuatu has no radiotherapy, and the published record describes chemotherapy as available for children only, so most cancer treatment beyond surgery means leaving the country. The Ministry of Health's referral policy says it cannot fund overseas referrals; New Zealand's Medical Treatment Scheme is one route for people who cannot pay. IARC estimates 313 new cancers and 145 deaths in 2024, a figure built from neighbouring countries' data.",
+    "The sources read record no radiotherapy in Vanuatu, and a 2019 review describes chemotherapy as available for children only, so on these records most cancer treatment beyond surgery is not available in the country. The Ministry of Health's referral policy says it cannot fund overseas referrals; New Zealand's Medical Treatment Scheme is one route for people who cannot pay. IARC estimates 313 new cancers and 145 deaths in 2024, a figure built from neighbouring countries' data.",
   globocanNote:
     "IARC's GLOBOCAN 2024 figure for Vanuatu is 313 new cancers and 145 deaths, an age-standardised incidence of 131.9 per 100,000 (129.7 in men, 133.6 in women) and mortality of 65.2. The fact sheet names no country-specific incidence source and gives the method as \"Rates based on incidence estimates or registry data from neighbouring countries\": the incidence is not built from diagnoses made in Vanuatu. For mortality the data source is \"No data\" and the method \"National incidence estimates applied to model-based M:I ratios (neighbouring country registry data)\", so the deaths are in turn derived from that incidence estimate. OnCo found no national registry count to set beside it. The fact sheet's totals with and without non-melanoma skin cancer are the same.",
   sections: [
@@ -64,14 +69,15 @@ export const VU_DIVE: CountryDive = {
           id: "no-registry",
           title: "No population-based cancer registry in the sources read",
           plain:
-            "WHO's 2021 profile says Vanuatu has no population-based cancer registry, and a 2019 review of the Pacific listed its cancer registration status as no data. WHO's 2020 profile describes some registration activity. OnCo found no published count of cancers from Vanuatu's own hospitals.",
+            "WHO's 2021 profile says Vanuatu has no population-based cancer registry, and a 2019 review of the Pacific listed its cancer registration status as no data. WHO's 2020 profile describes some registration activity. The only published count OnCo found is a pathology series of 269 confirmed cancers from 1980 to 1986.",
           detail:
-            "The three sources use different words for the same gap: \"No\" in WHO's 2021 cervical cancer profile, \"Registration activity\" in its 2020 cancer profile, and \"No data\" in the table of cancer surveillance in Sarfati and colleagues' 2019 review, which also listed no national cancer plan. WHO's 2020 profile rates the quality of mortality registration as having no coverage. Vanuatu is among the countries covered by IARC's Pacific Islands hub for cancer registration, which its page describes as still being implemented with regional partners. Europe PMC lists a paper on cancer occurrence in Vanuatu from 1980 to 1986, which OnCo did not read.",
+            "The three sources use different words for the same gap: \"No\" in WHO's 2021 cervical cancer profile, \"Registration activity\" in its 2020 cancer profile, and \"No data\" in the table of cancer surveillance in Sarfati and colleagues' 2019 review, which also listed no national cancer plan. WHO's 2020 profile rates the quality of mortality registration as having no coverage. Vanuatu is among the countries covered by IARC's Pacific Islands hub for cancer registration, which its page describes as still being implemented with regional partners. The one count OnCo found is old: the abstract of a pathology-based study by Paksoy and colleagues records 269 pathologically confirmed cancers (118 in men, 151 in women) over the seven years 1980 to 1986, with cervical cancer 25.2% of cancers in women, liver cancer 14.4% of those in men, and a high proportion of thyroid cancers. OnCo read the abstract through Europe PMC, not the full paper, and found no later count.",
           links: [
             { label: "WHO: cervical cancer country profile 2021, Vanuatu (PDF)", url: WHO_CERVICAL_2021 },
             { label: "WHO: cancer country profile 2020, Vanuatu (PDF)", url: WHO_PROFILE_2020 },
             { label: "Sarfati et al., cancer control in the Pacific (Lancet Oncol 2019, author manuscript)", url: SARFATI_2019 },
             { label: "IARC Global Initiative for Cancer Registry Development: Pacific Islands hub", url: "https://gicr.iarc.who.int/hub/pacific-islands/" },
+            { label: "Paksoy et al., cancer occurrence in Vanuatu, 1980-86 (Trop Geogr Med 1990, PubMed abstract)", url: "https://pubmed.ncbi.nlm.nih.gov/2260214/" },
           ],
         },
       ],
@@ -109,7 +115,7 @@ export const VU_DIVE: CountryDive = {
       cards: [
         {
           id: "health-spending",
-          title: "Government and donors pay for most care, and medicines are free in public facilities",
+          title: "Government and donors pay for most care, and policy makes medicines free in public facilities",
           plain:
             "WHO's figures for 2023 put Vanuatu's health spending at about US$143 a person. The government paid 56.6% of it, external donors 32.0%, and people paid 8.4% out of their own pockets. The National Medicines Policy says medicines are provided free at public facilities.",
           detail:
@@ -128,7 +134,7 @@ export const VU_DIVE: CountryDive = {
           plain:
             "Vanuatu's National Referral Policy says the Ministry of Health cannot afford overseas referrals and does not fund them. If a patient or family can pay, the Ministry helps arrange the referral. New Zealand's Medical Treatment Scheme takes referrals from Vanuatu for people who cannot afford treatment that is not available at home.",
           detail:
-            "The policy, adopted in December 2019, says: \"MOH does not fund referrals to or repatriation from overseas medical services.\" Where the patient or relatives can afford it, the Director of Hospital and Curative Services, who must approve any referral out of Vanuatu, helps organise it and contact the overseas hospital, and the Ministry may assist with medical equipment and an escort. The New Zealand scheme is funded by New Zealand's Ministry of Foreign Affairs and Trade and run by the Pasifika Medical Association Group under a contract to January 2028. It covers six countries including Vanuatu, refers patients to New Zealand, Australia or Fiji through each country's referral committee, and also sends visiting specialist teams. Its page does not say how many people with cancer it has referred.",
+            "The policy, adopted in December 2019, says: \"MOH does not fund referrals to or repatriation from overseas medical services.\" Where the patient or relatives can afford it, the Ministry, through the approval of its Director of Hospital and Curative Services, who must approve any referral out of Vanuatu, helps organise it and contact overseas health facilities, and may assist with medical equipment and a medical escort. The New Zealand scheme is funded by New Zealand's Ministry of Foreign Affairs and Trade and run by the Pasifika Medical Association Group under a contract to January 2028. It covers six countries including Vanuatu, refers patients to New Zealand, Australia or Fiji through each country's referral committee, and also sends visiting specialist teams. Its page does not say how many people with cancer it has referred.",
           links: [
             { label: "Ministry of Health: National Referral Policy (adopted December 2019, PDF)", url: REFERRAL_POLICY },
             { label: "Pasifika Medical Association Group: New Zealand Medical Treatment Scheme", url: NZMTS },
@@ -146,7 +152,7 @@ export const VU_DIVE: CountryDive = {
           id: "ministry-regulation",
           title: "The Ministry of Health oversees medicines; registration was still an aspiration in 2015",
           plain:
-            "The sources OnCo read describe no separate medicines agency in Vanuatu. The National Medicines Policy of 2015 makes the Ministry of Health responsible for regulating medicines and calls it an aspiration that medicines used in Vanuatu should be registered. The law in force, the Sale of Medicines (Control) Act, controls who may sell medicines.",
+            "The sources OnCo read describe no separate medicines agency in Vanuatu. The National Medicines Policy of 2015 makes the Ministry of Health responsible for regulating medicines and calls it an aspiration that medicines used in Vanuatu should be registered. The Sale of Medicines (Control) Act, read in its 2006 consolidated edition, controls who may sell medicines.",
           detail:
             "The policy says the Ministry oversees the practice of pharmacy and the regulation of medicines, that it is \"an aspiration of the Government of Vanuatu\" that medicines in the public and private sectors be registered and that legislation be made to regulate their manufacture, import, marketing, prescribing and dispensing, and that funding should allow regulatory work to begin, including checking the legality and quality of imports. An Essential Drug List is kept by the National Drug and Therapeutics Committee and should be revised at least every two years. The Sale of Medicines (Control) Act, Cap. 48, restricts who may sell medicines, naming pharmacists and druggists licensed by the Pharmacists Practitioners Commission, has the Director of Customs record imports and send the list to the Director of Health, and lets regulations authorise the Principal Pharmacist to issue directives. OnCo found no source saying registration has since begun.",
           links: [
@@ -166,7 +172,7 @@ export const VU_DIVE: CountryDive = {
           id: "hpv-vaccine",
           title: "HPV vaccination began in 2023 and reached 80% of the girls targeted in 2025",
           plain:
-            "Vanuatu introduced the HPV vaccine in part of the country in 2023 and nationwide in 2024. WHO's rows for 2025 give 80% coverage, with 3,689 doses for a target of 4,599 girls. Vanuatu reports the same figure for the first and the last dose.",
+            "Vanuatu introduced the HPV vaccine in part of the country in 2023 and nationwide in 2024. WHO's rows for 2025 give 80% coverage, with 3,689 doses for a target of 4,599 girls. The rows give the same figure for the first and the last dose, and record a one-dose schedule.",
           detail:
             "WHO's vaccine introduction rows record a partial introduction in 2023 and nationwide vaccination from 2024. Its coverage rows give 45% of 3,972 girls in 2023, 43% of 19,076 in 2024, when the target group was several times larger, and 80% of 4,599 in 2025. WHO's 2021 cervical cancer profile, written before the introduction, records no HPV vaccination programme. A table in a 2019 review of the Pacific lists a national programme for 10-year-old girls, which does not agree with WHO's rows; this page follows WHO's.",
           links: [
@@ -177,11 +183,11 @@ export const VU_DIVE: CountryDive = {
         },
         {
           id: "cervical-screening",
-          title: "A cervical screening programme using the HPV test, which had reached about one woman in ten",
+          title: "A cervical screening programme using the HPV test; by 2019 screening had reached about one woman in ten",
           plain:
-            "WHO's 2021 profile says Vanuatu has a national cervical screening programme using the HPV test for women aged 30 to 65. It estimates that 8% of women aged 30 to 49 had been screened in the previous five years and 12% had ever been screened.",
+            "WHO's 2021 profile says Vanuatu has a national cervical screening programme using the HPV test for women aged 30 to 65. Its estimate for 2019 is that 8% of women aged 30 to 49 had been screened in the previous five years and 12% had ever been screened.",
           detail:
-            "WHO's earlier profile describes screening in 2019 as opportunistic and by Pap smear, so the method changed between the two surveys. The 2021 profile also records national guidelines on managing cervical cancer and a defined referral system from primary care. OnCo's record of the Vanuatu Family Health Association, written from its UICC member statement, says the Association coordinates the national cervical cancer elimination programme with the Ministry of Health, using HPV tests on samples women collect themselves, and was helping draft a five-year strategy; UICC's page refused a request on 16 November 2026, so that statement was not read again. WHO's 2020 profile ticks a breast screening programme from the age of 40, which no other source OnCo read describes, alongside no mammography machine in the country.",
+            "WHO's earlier profile describes screening in 2019 as opportunistic and by Pap smear, so the two profiles record different methods, and the screening figures for 2019 predate the HPV test programme recorded in 2021. The 2021 profile also records national guidelines on managing cervical cancer and a defined referral system from primary care. OnCo's record of the Vanuatu Family Health Association, written from its UICC member statement, says the Association coordinates the national cervical cancer elimination programme with the Ministry of Health, using HPV tests on samples women collect themselves, and was helping the Ministry draft elimination strategy guidelines for the next five years; UICC's page refused a request on 16 November 2026, so that statement was not read again. WHO's 2020 profile ticks a breast screening programme from the age of 40, which no other source OnCo read describes, alongside no mammography machine in the country.",
           links: [
             { label: "WHO: cervical cancer country profile 2021, Vanuatu (PDF)", url: WHO_CERVICAL_2021 },
             { label: "WHO: cancer country profile 2020, Vanuatu (PDF)", url: WHO_PROFILE_2020 },
@@ -250,7 +256,7 @@ export const VU_DIVE: CountryDive = {
           id: "trials-and-papers",
           title: "No trial in OnCo's records has a site in Vanuatu",
           plain:
-            "None of the cancer trials in OnCo's ClinicalTrials.gov participation data lists Vanuatu. OnCo holds a selection of trials, not the whole registry, so search the registry itself. The published research OnCo could read on cancer in Vanuatu is almost all about HPV and cervical screening.",
+            "None of the cancer trials in OnCo's ClinicalTrials.gov participation data lists Vanuatu. OnCo holds a selection of trials, not the whole registry. The registry itself, searched on 16 November 2026, listed two studies with a site in Vanuatu, one on malaria and one on mosquito-borne infections, and none on cancer. The published research OnCo could read on cancer in Vanuatu is almost all about HPV and cervical screening.",
           detail:
             "The one paper with an abstract that OnCo added for this page is the 2012 HPV prevalence survey. Europe PMC also lists a 2021 update on cervical cancer screening in Vanuatu in the International Journal of Gynecological Cancer, written with the Ministry of Health, and studies from 2007 and 2010 on cervical abnormalities and on knowledge of cervical cancer; the 2021 update has no abstract online and OnCo did not read its full text. The 2019 Lancet Oncology review of cancer control in the Pacific carries Vanuatu's rows in its tables.",
           links: [
@@ -270,7 +276,7 @@ export const VU_DIVE: CountryDive = {
       plain:
         "The descriptions of cancer services on this page date from 2018 to 2021. OnCo found no Ministry of Health page describing cancer treatment at Vila Central Hospital now, including whether any chemotherapy is given to adults.",
       detail:
-        "The Ministry's home page, read on 16 November 2026, carries news items but no cancer service page that OnCo could find. WHO's 2020 profile showed no CT scanner in 2020 and the 2019 review no radiologist; either may have changed. Where patients who can pay are referred, and how many people with cancer New Zealand's scheme has treated, are not published in the sources read. The hospital, the Ministry's Director of Hospital and Curative Services, or the Ikkana Cancer Society in Port Vila can say what is available.",
+        "The Ministry's home page, read on 16 November 2026, carries news items but no cancer service page that OnCo could find. WHO's 2020 profile showed no CT scanner in 2020 and the 2019 review no radiologist; either may have changed. Where patients who can pay are referred, and how many people with cancer New Zealand's scheme has treated, are not published in the sources read. The hospital, the Ministry's Director of Hospital and Curative Services, or the Ikkana Cancer Society can say what is available; OnCo's record places the Society in Port Vila from its UICC listing, which was not re-verified on 16 November 2026.",
       links: [
         { label: "Ministry of Health, Vanuatu", url: MOH },
         { label: "Pasifika Medical Association Group: New Zealand Medical Treatment Scheme", url: NZMTS },
@@ -278,14 +284,15 @@ export const VU_DIVE: CountryDive = {
     },
     {
       id: "plan-and-counts",
-      title: "No national cancer plan, no cancer counts and no survival figures",
+      title: "No national cancer plan, no recent cancer count and no survival figures found",
       plain:
-        "OnCo found no national cancer control plan for Vanuatu and no count of cancers diagnosed there. WHO's 2020 profile records a plan for non-communicable diseases in general. Without a registry there is no survival figure for any cancer.",
+        "OnCo found no national cancer control plan for Vanuatu and no count of cancers diagnosed there later than a pathology series from 1980 to 1986. WHO's 2020 profile records a plan for non-communicable diseases in general. OnCo found no survival figure for any cancer.",
       detail:
-        "WHO's 2020 profile lists an operational integrated plan for non-communicable diseases in 2019 and no entry for a national cancer control plan; the 2019 review of the Pacific also lists none. OnCo's record of the Vanuatu Family Health Association says a five-year cervical cancer elimination strategy was being drafted; the strategy itself was not found. The International Cancer Control Partnership portal was not read. IARC's estimate on this page is the only national figure, and it is a model.",
+        "WHO's 2020 profile lists an operational integrated plan for non-communicable diseases in 2019 and no entry for a national cancer control plan; the 2019 review of the Pacific also lists none. OnCo's record of the Vanuatu Family Health Association says the Association was helping the Ministry draft cervical cancer elimination strategy guidelines for the next five years; the document itself was not found. The International Cancer Control Partnership portal was not read. IARC's estimate on this page is the only current national figure, and it is a model; the one count found, 269 pathologically confirmed cancers from 1980 to 1986, is described in the profile section.",
       links: [
         { label: "WHO: cancer country profile 2020, Vanuatu (PDF)", url: WHO_PROFILE_2020 },
         { label: "Sarfati et al., cancer control in the Pacific (Lancet Oncol 2019, author manuscript)", url: SARFATI_2019 },
+        { label: "Paksoy et al., cancer occurrence in Vanuatu, 1980-86 (Trop Geogr Med 1990, PubMed abstract)", url: "https://pubmed.ncbi.nlm.nih.gov/2260214/" },
       ],
     },
     {
@@ -294,7 +301,7 @@ export const VU_DIVE: CountryDive = {
       plain:
         "The National Medicines Policy OnCo read covers 2015 to 2020. OnCo did not find a later policy or the current Essential Drug List, so which cancer and pain medicines the public system supplies is not on this page.",
       detail:
-        "The copy of the Sale of Medicines (Control) Act read is the one on the Vanuatu Trade Portal; whether it includes every amendment was not checked, and the Pacific Islands Legal Information Institute refused an automated request on 16 November 2026. WHO's 2021 profile records no palliative care for chronic disease in primary care or at home, and the 2019 review says oral morphine was available but commonly out of stock outside urban areas. The Ministry's Principal Pharmacist is the office the Act and the policy name.",
+        "The copy of the Sale of Medicines (Control) Act read is the one on the Vanuatu Trade Portal; whether it includes every amendment was not checked, and the Pacific Islands Legal Information Institute refused an automated request on 16 November 2026. WHO's 2021 profile records palliative care for people with non-communicable diseases as not generally available in primary care or in community or home-based care, and the 2019 review says oral morphine was available but commonly out of stock outside urban areas. The Ministry's Principal Pharmacist is the office the Act and the policy name.",
       links: [
         { label: "Ministry of Health: National Medicines Policy 2015-2020 (PDF)", url: MEDICINES_POLICY },
         { label: "Sale of Medicines (Control) Act, Cap. 48 (Vanuatu Trade Portal, PDF)", url: SALE_OF_MEDICINES_ACT },

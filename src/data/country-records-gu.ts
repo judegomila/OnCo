@@ -7,9 +7,11 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
  * (PDF text, June 2017). DOIs were resolved through Europe PMC and the figures in `findings` are taken from the indexed
  * abstracts.
  *
- * The Department's own programme pages redirected to its home page and could not be read, so its record is written
- * from what those three documents say about it. Its coordinates are an approximate point for Hagåtña, Guam's capital,
- * not the Department's address, which OnCo did not read.
+ * The Department's own programme pages redirected to its home page when the record was written, so it is written
+ * from what those three documents say about it. On the second check on 16 November 2026 its pages for the
+ * Comprehensive Cancer Control Program and for Medicare and Medicaid answered, in general terms only, and its
+ * locations page gave 155 Hesler Place, Hagatna, for most of its offices. The coordinates are an approximate point
+ * for Hagåtña, Guam's capital, not a geocoded address.
  *
  * Inbound links: the Department links the registry and the hospitals; the papers link the registry. The existing
  * Gopalani 2023 screening paper (country-records-pr.ts) is reused on the page, not duplicated.
@@ -30,15 +32,17 @@ const institutions: InstitutionInput[] = [
   i({ id: "guam-dphss", name: "Guam Department of Public Health and Social Services", aka: ["DPHSS", "Guam DPHSS"],
     city: "Hagåtña", country: "GU", lat: 13.476, lng: 144.75, institutionType: "government", website: "https://dphss.guam.gov/",
     tldr: "Guam's health and welfare department. It runs Guam's Medicaid programme, the Comprehensive Cancer Control Program and the Breast and Cervical Cancer Early Detection Program, keeps death certificates, and is a partner in the Cancer Research Center of Guam.",
-    summary: "MACPAC's February 2021 fact sheet says Guam created a Medicaid programme in 1975 and that the Department of Public Health and Social Services administers it; in June 2019 it covered 35,499 people, about one-fifth of the population, and enrollees can receive care outside the territory with prior authorisation when it is medically necessary and not provided in Guam. Federal Medicaid money for Guam is capped each year, and Congress set the federal match permanently at 83% in the Consolidated Appropriations Act, 2023.\n\nThe Department published the Guam Comprehensive Cancer Control Plan 2018-2022 with the Guam Comprehensive Cancer Control Coalition in June 2017; the plan calls itself the third for Guam and puts lung, breast, cervical and colorectal cancer first. The Guam Cancer Registry's annual report for fiscal year 2023 names the Comprehensive Cancer Control Program, non-communicable disease forums and the Guam Breast and Cervical Cancer Early Detection Program as the Department's, and says the Department's Office of Vital Statistics sends the registry death certificates each month. The Department is one of the three partners in the Cancer Research Center of Guam, with the University of Guam and the University of Hawai'i Cancer Center. OnCo could not read the Department's own programme pages, which redirected to its home page.",
+    summary: "MACPAC's February 2021 fact sheet says Guam created a Medicaid programme in 1975 and that the Department of Public Health and Social Services administers it; in June 2019 it covered 35,499 people, about one-fifth of the population, and enrollees can receive care outside the territory with prior authorisation when it is medically necessary and not provided in Guam. Federal Medicaid money for Guam is capped each year, and Congress set the federal match permanently at 83% in the Consolidated Appropriations Act, 2023.\n\nThe Department published the Guam Comprehensive Cancer Control Plan 2018-2022 with the Guam Comprehensive Cancer Control Coalition in June 2017; the plan calls itself the third for Guam and puts lung, breast, cervical and colorectal cancer first. The Guam Cancer Registry's annual report for fiscal year 2023 names the Comprehensive Cancer Control Program, non-communicable disease forums and the Guam Breast and Cervical Cancer Early Detection Program as the Department's, and says the Department's Office of Vital Statistics sends the registry death certificates each month. The Department is one of the three partners in the Cancer Research Center of Guam, with the University of Guam and the University of Hawai'i Cancer Center. The Department's own pages for the Comprehensive Cancer Control Program and for Medicare and Medicaid, read on 16 November 2026, describe the programmes in general terms and give no eligibility rules.",
     programs: ["Medicaid (since 1975)", "Guam Comprehensive Cancer Control Program", "Guam Breast and Cervical Cancer Early Detection Program", "Office of Vital Statistics"],
     institutions: ["guam-cancer-registry", "guam-memorial-hospital", "guam-regional-medical-city", "cms"],
     cancers: ["lung-cancer", "breast-cancer", "cervical", "colorectal"], related: ["cancer-registries-surveillance"],
-    keyPapers: ["paper-taafaki-trial-attitudes-guam-ijerph-2022"], links: [
+    keyPapers: ["paper-david-tobacco-tax-guam-cancer-registry-jcpo-2017", "paper-taafaki-trial-attitudes-guam-ijerph-2022"], links: [
       { label: "MACPAC: Medicaid and CHIP in Guam (February 2021, PDF)", url: MACPAC_GU },
       { label: "Guam Comprehensive Cancer Control Plan 2018-2022 (PDF, June 2017)", url: PLAN_2018 },
       { label: "Guam Cancer Registry: annual report, fiscal year 2023 (PDF)", url: GCR_ANNUAL_2023 },
       { label: "Guam Department of Public Health and Social Services", url: "https://dphss.guam.gov/" },
+      { label: "Guam Department of Public Health and Social Services: Comprehensive Cancer Control Program", url: "https://dphss.guam.gov/dphss-programs/comprehensive-cancer-control-program" },
+      { label: "Guam Department of Public Health and Social Services: Medicare and Medicaid", url: "https://dphss.guam.gov/services/medicaremedicaid" },
     ] }),
 ];
 
@@ -66,7 +70,7 @@ const papers: PaperInput[] = [
       "The earmark provided a reliable funding stream for the registry, allowing continued staffing and capacity building.",
       "Youth tobacco consumption decreased following the tax increase.",
     ],
-    whatItMeans: "Linking tobacco tax to registry funding lowers a cause of cancer and pays for counting cancer at the same time; the authors call it a feasible strategy for other places.",
+    whatItMeans: "Linking tobacco tax to registry funding lowers a cause of cancer and pays for counting cancer at the same time; the authors call it a feasible strategy with a double benefit.",
     caveats: ["A description of one territory's policy, not a controlled study.", "The abstract gives no figures for the size of the change in youth tobacco use."],
     institutions: ["guam-cancer-registry", "guam-dphss"], cancers: ["lung-cancer"], related: ["cancer-registries-surveillance"],
     links: [doi("10.1016/j.jcpo.2017.03.006", "J Cancer Policy 2017"), pubmed("29130031")] }),
@@ -95,9 +99,9 @@ const papers: PaperInput[] = [
       "CHamoru respondents were more likely than White respondents to associate out-of-pocket expenses with trial participation (adjusted odds ratio 5.34, 95% CI 1.68 to 17.00).",
       "65.0% did not believe trial participants were 'guinea pigs'.",
     ],
-    whatItMeans: "Knowledge of trials was limited but attitudes were mostly positive, and worry about cost was a barrier the authors say trial sites in Guam should address.",
+    whatItMeans: "Knowledge of trials was limited but attitudes were mostly positive. The authors say future trials in Guam will benefit from identifying potential barriers to recruitment; in the survey, CHamoru respondents were more likely than White respondents to expect out-of-pocket costs.",
     caveats: ["152 respondents reached by telephone.", "Stated intentions, not actual enrolment."],
-    institutions: ["fhp-health-center-guam"], cancers: [],
+    institutions: ["fhp-health-center-guam", "hawaii-cancer-center"], cancers: [],
     links: [doi("10.3390/ijerph192315917", "Int J Environ Res Public Health 2022"), pubmed("36497991")] }),
 ];
 

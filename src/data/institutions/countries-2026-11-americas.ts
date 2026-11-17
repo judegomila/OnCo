@@ -46,6 +46,7 @@ import type { InstitutionInput } from "@/lib/schema";
  * returned 404; ESMO's page for INCAN returned 404. National cancer registries were not found for any country here
  * except Guatemala (the Liga's registry department); Saint Lucia's Ministry of Health and its hospitals could not be read,
  * so no Saint Lucia record is written.
+ * (Wave 16 later added four Saint Lucia institutions in src/data/country-records-lc.ts, from PAHO, EU and published sources.)
  */
 const asOf = "2026-11-11";
 type I = Omit<InstitutionInput, "kind" | "asOf">;
@@ -332,8 +333,8 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "uwi-mona", name: "The University of the West Indies, Mona", aka: ["UWI Mona", "University of the West Indies Mona campus"],
     city: "Kingston", country: "JM", lat: 18.005, lng: -76.745, institutionType: "university", website: "https://www.mona.uwi.edu",
-    tldr: "The Jamaican campus of the regional University of the West Indies, with a Faculty of Medical Sciences, and a site for a cancer trial run in Jamaica and Barbados.",
-    summary: "UWI Mona is the Jamaican campus of the University of the West Indies, with a Faculty of Medical Sciences that held its 32nd annual research conference in November 2026. ClinicalTrials.gov lists The University of the West Indies, Mona as a site of NCT07528768 (HEADWATERS), a planned phase 2 trial of gemcitabine against paclitaxel for metastatic triple-negative breast cancer in women of African ancestry, alongside the Queen Elizabeth Hospital in Barbados. Coordinates are Nominatim's.",
+    tldr: "The Jamaican campus of the regional University of the West Indies, with a Faculty of Medical Sciences, and a site for a cancer trial run in Jamaica, Barbados and Ghana.",
+    summary: "UWI Mona is the Jamaican campus of the University of the West Indies, with a Faculty of Medical Sciences that held its 32nd annual research conference in November 2026. ClinicalTrials.gov lists The University of the West Indies, Mona as a site of NCT07528768 (HEADWATERS), a planned phase 2 trial of gemcitabine against paclitaxel for metastatic triple-negative breast cancer in women of African ancestry, alongside the Queen Elizabeth Hospital in Barbados and Korle Bu Teaching Hospital in Ghana. Coordinates are Nominatim's.",
     programs: ["Faculty of Medical Sciences", "Clinical trial site (NCT07528768)"],
     institutions: ["nhf-jamaica", "qeh-barbados"],
     links: [{ label: "UWI Mona: home page", url: "https://www.mona.uwi.edu/" }, ct("NCT07528768")] }),
@@ -398,8 +399,8 @@ const institutions: InstitutionInput[] = [
   // Guyana (GY)
   i({ id: "moh-guyana", name: "Guyana Ministry of Health", aka: ["Ministry of Health, Guyana", "MoH Guyana"],
     city: "Georgetown", country: "GY", lat: 6.803, lng: -58.146, institutionType: "government", website: "https://health.gov.gy",
-    tldr: "Guyana's Ministry of Health. Since June 2024 it has given women aged 21 to 65 a voucher worth 8,000 Guyanese dollars for a cervical cancer screening test.",
-    summary: "The Ministry of Health's Cervical Cancer Screening Voucher Programme, launched on 21 June 2024, gives eligible women a government voucher of GYD 8,000 that covers a test for human papillomavirus (HPV) and other screening procedures at approved facilities; its home page gives the eligible ages as 21 to 65. The Cancer Institute of Guyana says it was set up as a project between the Ministry and Global Imaging Services. The coordinates are an approximate Georgetown city point.",
+    tldr: "Guyana's Ministry of Health. Since June 2024 it has given women aged 21 to 65 a voucher valued at $8,000 (the Ministry's page names no currency; Guyanese dollars are assumed) for a cervical cancer screening test.",
+    summary: "The Ministry of Health's Cervical Cancer Screening Voucher Programme, launched on 21 June 2024, gives eligible women a government voucher valued at $8,000 (the page names no currency; Guyanese dollars are assumed) that covers a test for human papillomavirus (HPV) and other screening procedures at approved facilities; its home page gives the eligible ages as 21 to 65. The Cancer Institute of Guyana says it was set up as a project between the Ministry and Global Imaging Services. The coordinates are an approximate Georgetown city point.",
     programs: ["Cervical Cancer Screening Voucher Programme (from June 2024)", "Universal Health Voucher for laboratory tests"],
     institutions: ["gphc-guyana", "cancer-institute-of-guyana"],
     cancers: ["cervical"],

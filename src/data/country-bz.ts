@@ -7,13 +7,17 @@ import type { CountryDive } from "@/data/country-dive";
  * Cervical Cancer Country Profile 2021 (PDF text); WHO's vaccine introduction, HPV coverage and Global Health
  * Expenditure Database rows from its public data APIs; IAEA DIRAC's public equipment data (no row for Belize); the
  * National Health Insurance scheme's own pages (history, screenings, co-payment); PAHO's Health in the Americas profile
- * of Belize; the Government of Belize Press Office release of 10 April 2026 and PAHO's release of 13 August 2026 on the
- * Drug Inspectorate Unit; the UNEP Law and Environment Assistance Platform entry for the Food and Drugs (Registration,
- * Licensing and Inspection) Regulations, 2017; CARPHA's Caribbean Regulatory System pages; the GICR page of the IARC
+ * of Belize; the Government of Belize Press Office release of 10 April 2026 and PAHO's release on a workshop with the
+ * Drug Inspectorate Unit (datelined 13 August 2026, published 1 September); the UNEP Law and Environment Assistance
+ * Platform entry for the Food and Drugs (Registration, Licensing and Inspection) Regulations, 2017, and the scanned text
+ * of the regulations that entry links at FAO's legal database (PDF text, read in the second check on 16 November
+ * 2026); the Belize Cancer Society's own site (home, about, services and contact pages, found in the second check);
+ * CARPHA's Caribbean Regulatory System pages; the GICR page of the IARC
  * Caribbean Cancer Registry Hub; Global Oncology's Belize page; Amandala's report on the Belize
  * Cancer Center (datelined 13 December 2021, published 15 December); and three papers, their abstracts resolved through Europe PMC and their open full texts read there.
  * The National Assembly's copy of the 2025 amending regulations and PAHO's PRAIS page could not be read (certificate
- * errors); each missing source is named under `gaps`.
+ * errors), and the ICCP portal's list of documents for Belize could not be re-read in the second check; each missing
+ * source is named under `gaps`.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/84-belize-fact-sheet.pdf";
 const WHO_2020 = "https://www.iccp-portal.org/system/files/plans/BLZ_2020.pdf";
@@ -23,6 +27,7 @@ const WHO_INTRO_API = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'BLZ'";
 const WHO_GOV_API = "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$filter=SpatialDim%20eq%20'BLZ'";
 const WHO_CHE_API = "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?$filter=SpatialDim%20eq%20'BLZ'";
+const WHO_EXT_API = "https://ghoapi.azureedge.net/api/GHED_EXTCHE_SHA2011?$filter=SpatialDim%20eq%20'BLZ'";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const NHI_HISTORY = "https://www.nhi.bz/history-of-nhi/";
 const NHI_SCREENINGS = "https://www.nhi.bz/screenings/";
@@ -31,6 +36,8 @@ const PAHO_HIA = "https://hia.paho.org/en/country-profiles/belize";
 const PRESS_OTC = "https://www.pressoffice.gov.bz/mohw-addresses-public-concerns-regarding-over-the-counter-medicines-in-belize/";
 const PAHO_PMS = "https://www.paho.org/en/news/1-9-2026-strengthening-post-market-surveillance-quality-and-safety-medicines-and-vaccines";
 const LEAP_REGS = "https://leap.unep.org/en/countries/bz/national-legislation/food-and-drugs-registration-licensing-and-inspection-regulations";
+const FAOLEX_REGS = "https://faolex.fao.org/docs/pdf/blz176493.pdf";
+const BCS_SITE = "https://www.belizecancersociety.org/";
 const CRS_ABOUT = "https://carpha.org/What-We-Do/CRS/About-Us";
 const CRS_FAQ = "https://carpha.org/What-We-Do/CRS/faq";
 const GICR_HUB = "https://gicr.iarc.fr/hub/caribbean/";
@@ -163,6 +170,7 @@ export const BZ_DIVE: CountryDive = {
             { label: "WHO Global Health Expenditure Database: out-of-pocket share, Belize (API)", url: WHO_OOP_API },
             { label: "WHO Global Health Expenditure Database: government share (API)", url: WHO_GOV_API },
             { label: "WHO Global Health Expenditure Database: health spending per person in US dollars (API)", url: WHO_CHE_API },
+            { label: "WHO Global Health Expenditure Database: external share (API)", url: WHO_EXT_API },
             { label: "Global Oncology: Belize", url: GLOBALONC },
           ],
         },
@@ -176,12 +184,13 @@ export const BZ_DIVE: CountryDive = {
       cards: [
         {
           id: "drug-inspectorate",
-          title: "The Ministry's Drug Inspectorate Unit, under regulations of 2017 that require medicines to be registered",
+          title: "Regulations of 2017 require medicines to be registered; the Ministry's Drug Inspectorate Unit is the public contact",
           plain:
-            "Medicines in Belize are overseen by the Drug Inspectorate Unit of the Ministry of Health and Wellness. Regulations made in 2017 under the Food and Drugs Act set up the registration of medicines and the licensing of the businesses that handle them, and prohibit the sale of unregistered medicines.",
+            "Regulations made in 2017 under the Food and Drugs Act require a medicine to be registered and licensed before it is sold in Belize, and license the businesses that handle medicines. The authority they name is the Director of Health Services in the Ministry of Health and Wellness. The Ministry's Drug Inspectorate Unit is the contact it gives the public for questions about medicines.",
           detail:
-            "The legal database entry for the Food and Drugs (Registration, Licensing and Inspection) Regulations, 2017 says they were made by the Minister responsible for health under section 55 of the Food and Drugs Act, Chapter 291, and cover registration, product and facility licences, inspection, an application route for importing orphan drugs, and offences. OnCo read that entry's summary, not the regulations themselves, and a file on the National Assembly's site whose name describes amending regulations of 2025 could not be opened. A Government press release of 10 April 2026 names the Drug Inspectorate Unit as the contact for questions on medicines, and PAHO reports a workshop with the unit on 12 and 13 August 2026 on monitoring the quality and safety of medicines after they reach the market.",
+            "The Food and Drugs (Registration, Licensing and Inspection) Regulations, Statutory Instrument 54 of 2017, were made by the Minister responsible for health under section 55 of the Food and Drugs Act, Chapter 291, and gazetted on 29 July 2017. OnCo read the scanned copy held by FAO's legal database on 16 November 2026. Regulation 3 says a person shall not put a drug on the market without registering it and receiving a product licence from the competent authority, which the regulations define as the Director of Health Services or his nominee in the Ministry; the Minister may grant exemptions, and the penalty is a fine of up to 10,000 dollars. Regulation 5 exempts orphan drugs, meaning drugs for rare diseases, from registration but requires an import authorisation for them. Other parts cover facility licences, inspection and offences. The text OnCo read does not name the Drug Inspectorate Unit. A file on the National Assembly's site whose name describes amending regulations of 2025 could not be opened, so whether the 2017 text has been changed is not confirmed here. A Government press release of 10 April 2026 names the Drug Inspectorate Unit as the contact for questions on medicines, and PAHO reports a workshop on 12 and 13 August 2026, convened by the Ministry, that brought the unit together with pharmacists, importers and others on monitoring the quality and safety of medicines after they reach the market.",
           links: [
+            { label: "Food and Drugs (Registration, Licensing and Inspection) Regulations, 2017: scanned text at FAO's legal database (PDF)", url: FAOLEX_REGS },
             { label: "UNEP Law and Environment Assistance Platform: Food and Drugs (Registration, Licensing and Inspection) Regulations, 2017", url: LEAP_REGS },
             { label: "Government of Belize Press Office: release on medicines, 10 April 2026", url: PRESS_OTC },
             { label: "PAHO: strengthening post-market surveillance of medicines and vaccines in Belize (August 2026)", url: PAHO_PMS },
@@ -213,7 +222,7 @@ export const BZ_DIVE: CountryDive = {
           plain:
             "Public clinics in Belize offer cervical screening free of charge, by Pap smear or by looking at the cervix after applying dilute vinegar. PAHO's country profile says HPV testing was introduced in 2022, with women able to collect their own sample. Surveys of the service found too few staff and supplies to reach every woman.",
           detail:
-            "WHO's 2021 profile records a national screening programme using cytology for women aged 18 to 49 and estimates that 47% of women aged 30 to 49 had been screened in the previous five years (2019). Its 2020 cancer profile described screening as opportunistic, by visual inspection, with participation under 10%; the two are not measured the same way. An assessment in June 2018 counted 75 nurses and doctors doing screening in the public sector, one for every 1,076 eligible women, and found that half of facilities offered it one day a week and that three quarters of pathology supplies had run out at least once in the previous year. Interviews with 47 people working in the service the same year named delays in smear results as a barrier. The National Health Insurance scheme's guidance for its clinics lists a Pap test every three years from age 21 and yearly mammograms from 40.",
+            "WHO's 2021 profile records a national screening programme using cytology for women aged 18 to 49 and estimates that 47% of women aged 30 to 49 had been screened in the previous five years (2019). Its 2020 cancer profile described screening as opportunistic, by visual inspection, with participation under 10%; the two are not measured the same way. An assessment in June 2018 counted 75 nurses and doctors doing screening in the public sector, one for every 1,076 eligible women, and found that half of facilities offered it one day a week and that three quarters of pathology supplies had run out at least once in the previous year. In 47 interviews that month, 64 people involved in screening, from clinic staff to officials and patient advocates, named possible delays in smear results among the barriers. The National Health Insurance scheme's guidance for its clinics lists a Pap test every three years from age 21 and yearly mammograms from 40.",
           links: [
             { label: "WHO: Cervical Cancer Country Profile 2021, Belize (PDF)", url: WHO_CX_2021 },
             { label: "WHO: Cancer Country Profile 2020, Belize (PDF, ICCP portal copy)", url: WHO_2020 },
@@ -225,7 +234,7 @@ export const BZ_DIVE: CountryDive = {
         },
         {
           id: "hpv-vaccine",
-          title: "HPV vaccination since 2016, for boys as well as girls since 2019",
+          title: "HPV vaccination since 2016, with WHO coverage figures for boys as well as girls from 2019",
           plain:
             "Belize added the HPV vaccine to its national programme in 2016. WHO's figures for 2025 show 69% of girls and 55% of boys in the target group vaccinated. Coverage fell to 8% of girls in 2021, during the pandemic, and has since recovered.",
           detail:
@@ -262,7 +271,7 @@ export const BZ_DIVE: CountryDive = {
           plain:
             "There is no radiotherapy machine in Belize. Global Oncology, which works with the public clinic, says patients whose treatment needs radiotherapy have to travel to Mexico or Guatemala. IAEA's directory of radiotherapy centres lists no centre in the country.",
           detail:
-            "The 2018 assessment of cervical cancer services found radiotherapy unavailable anywhere in Belize, and chemotherapy and radical hysterectomy in two of the six districts. WHO's 2021 profile records radiotherapy as not generally available and no radiation oncologists or medical physicists. IAEA DIRAC's public equipment data, read on 16 November 2026, has no entry for Belize, which is not proof on its own but agrees with the other sources. The clinic's paper says many patients who can afford to travel go to Mexico and Guatemala, and that 84 of its patients had first sought cancer care outside the country. A charity clinic, the Belize Cancer Center Dangriga, has operated in Dangriga since October 2008, and in December 2021 the Belize Cancer Society opened a clinic in Belize City on the same model, where the Dangriga centre provides consultations and chemotherapy, according to the newspaper Amandala.",
+            "The 2018 assessment of cervical cancer services found radiotherapy unavailable anywhere in Belize, and chemotherapy and radical hysterectomy in two of the six districts. WHO's 2021 profile records radiotherapy as not generally available and no radiation oncologists or medical physicists. IAEA DIRAC's public equipment data, read on 16 November 2026, has no entry for Belize, which is not proof on its own but agrees with the other sources. The clinic's paper says many patients who can afford to travel go to Mexico and Guatemala, and that 84 of its patients had first sought cancer care outside the country. The Belize Cancer Center Dangriga, a clinic that receives some sponsorship and asks patients to cover as much of their bill as they can, has operated in Dangriga since October 2008, and in December 2021 the Belize Cancer Society opened a clinic in Belize City on the same model, where the Dangriga centre provides consultations and chemotherapy, according to the newspaper Amandala.",
           links: [
             { label: "Global Oncology: Belize", url: GLOBALONC },
             { label: "Neibart et al., cervical cancer prevention and treatment infrastructure in Belize (JCO Glob Oncol 2021)", url: NEIBART_2021 },
@@ -285,7 +294,7 @@ export const BZ_DIVE: CountryDive = {
           plain:
             "None of the cancer trials in OnCo's records lists Belize among its countries. OnCo holds a selection of trials, not the whole registry, so ClinicalTrials.gov itself is the place to search. The published research OnCo found is on the public clinic's patients and on cervical screening.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists Belize. Three papers were read for this page: the oncology clinic's review of 465 patients seen from 2018 to 2022, a 2018 assessment of 13 public facilities involved in cervical cancer control, and interviews that year with 47 people who provide or manage cervical screening. A Europe PMC search for papers with Belize and cancer in the title returned only these three; widening it to leukaemia adds a 2018 report on treating childhood leukaemia jointly with a hospital in Mérida, Mexico, which was not read for this page.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists Belize. Three papers were read for this page: the oncology clinic's review of 465 patients seen from 2018 to 2022, a 2018 assessment of 13 public facilities involved in cervical cancer control, and 47 interviews that year with 64 people involved in cervical screening. A Europe PMC search for papers with Belize and cancer in the title returned only these three; widening it to leukaemia adds a 2018 report on treating childhood leukaemia jointly with a hospital in Mérida, Mexico, which was not read for this page.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Belize", url: CTGOV },
             { label: "Wong et al., cancer demographics and time-to-care in Belize (The Oncologist 2023)", url: WONG_2023 },
@@ -303,20 +312,23 @@ export const BZ_DIVE: CountryDive = {
       plain:
         "Without a registry there is no count of new cancers in Belize and no survival figure for any cancer. WHO's 2020 profile recorded a national cancer control plan as under development in 2019; OnCo did not find a published plan.",
       detail:
-        "The 2021 paper on cervical cancer services cites a Cancer Prevention and Control Strategic Plan with a target of 15 public and private centres offering screening by visual inspection by 2020, but OnCo could not find the plan itself on the Ministry of Health and Wellness's site or on the ICCP portal, which lists WHO's profiles, a national strategy and action plan for noncommunicable diseases and cervical cancer clinical guidelines for Belize, but no cancer plan; the last two were not read for this page. The clinic's paper reports no outcomes for its patients. A future pass should look for the plan, for any registry launched since 2023, and for the Ministry's own cancer statistics; until then the Ministry and the oncology clinic at the Karl Heusner Memorial Hospital are the places to ask.",
+        "The 2021 paper on cervical cancer services cites a Cancer Prevention and Control Strategic Plan with a target of 15 public and private centres offering screening by visual inspection by 2020, and the clinic's paper names a Cervical Cancer Prevention and Control Strategic Plan for 2016 to 2020, drawn up by the Ministry with the non-profit Jhpiego. OnCo could not find the plan itself. On 16 November 2026 the Ministry of Health and Wellness's address showed only a page of contact details. The first reading of the ICCP portal found WHO's profiles, a national strategy and action plan for noncommunicable diseases and cervical cancer clinical guidelines listed for Belize, but no cancer plan; that list was not re-verified on 16 November 2026, when the portal's country list could not be read as plain text, and the last two documents were not read for this page. The clinic's paper says it has no outcome data for its patients. A future pass should look for the plan, for any registry launched since 2023, and for the Ministry's own cancer statistics; until then the Ministry and the oncology clinic at the Karl Heusner Memorial Hospital are the places to ask.",
       links: [
         { label: "WHO: Cancer Country Profile 2020, Belize (PDF, ICCP portal copy)", url: WHO_2020 },
+        { label: "Neibart et al., cervical cancer prevention and treatment infrastructure in Belize (JCO Glob Oncol 2021)", url: NEIBART_2021 },
+        { label: "Wong et al., cancer demographics and time-to-care in Belize (The Oncologist 2023)", url: WONG_2023 },
         { label: "Ministry of Health and Wellness", url: MOHW },
       ],
     },
     {
       id: "gap-medicines",
-      title: "The regulations themselves were not read, and no list of registered medicines was found",
+      title: "A 2025 amendment to the medicines regulations could not be read, and no list of registered medicines was found",
       plain:
-        "OnCo read a legal database's summary of the 2017 medicines regulations, not their text, and could not open what appears to be a 2025 amendment or a page about Belize on PAHO's regulatory information site. Which cancer medicines are registered or stocked in Belize is not stated here.",
+        "OnCo read the 2017 medicines regulations in a scanned copy, but could not open what appears to be a 2025 amendment or a page about Belize on PAHO's regulatory information site. Which cancer medicines are registered or stocked in Belize is not stated here.",
       detail:
         "The National Assembly's site, which holds a file named as Statutory Instrument 136 of 2025 amending the regulations, returned an expired security certificate on 16 November 2026, so neither the existence nor the content of that amendment is confirmed here, and PAHO's regulatory information site returned a certificate that did not match its address; OnCo does not work around such errors. No list of medicines on the public formulary was found, and the clinic's paper notes that one patient obtained a targeted breast cancer medicine privately. The Drug Inspectorate Unit of the Ministry of Health and Wellness can say whether a given medicine is registered.",
       links: [
+        { label: "Food and Drugs (Registration, Licensing and Inspection) Regulations, 2017: scanned text at FAO's legal database (PDF)", url: FAOLEX_REGS },
         { label: "UNEP Law and Environment Assistance Platform: Food and Drugs (Registration, Licensing and Inspection) Regulations, 2017", url: LEAP_REGS },
         { label: "Government of Belize Press Office: release on medicines, 10 April 2026", url: PRESS_OTC },
       ],
@@ -325,12 +337,13 @@ export const BZ_DIVE: CountryDive = {
       id: "gap-abroad",
       title: "No official account of how treatment abroad is arranged or paid for",
       plain:
-        "The sources agree that people from Belize go to Mexico and Guatemala for radiotherapy, but OnCo found no official description of a referral scheme, which hospitals receive patients, or what the state pays. OnCo did not find a working website for the Belize Cancer Society.",
+        "The sources agree that people from Belize go to Mexico and Guatemala for radiotherapy, but OnCo found no official description of a referral scheme, which hospitals receive patients, or what the state pays. The Belize Cancer Society's site lists screening and support groups, and does not describe help with treatment abroad.",
       detail:
-        "Global Oncology says it is developing patient navigation for people seeking radiotherapy outside the country and working with the Ministry and the Social Security Board on the cost; it gives no figures. Amandala's 2021 report names Guatemala City and Mérida as the places families had travelled to. The Belize Cancer Center's website returned a certificate error and the address tried for the Belize Cancer Society did not resolve, so the services and prices of the charity clinics are described here only from the newspaper. Ask the oncology clinic at the Karl Heusner Memorial Hospital or the Belize Cancer Society what support is available before travelling.",
+        "Global Oncology says it is developing patient navigation for people seeking radiotherapy outside the country and working with the Ministry and the Social Security Board on the cost; it gives no figures. Amandala's 2021 report names Guatemala City and Mérida as the places families had travelled to. The Belize Cancer Center's website returned a certificate error on 16 November 2026. A site at belizecancersociety.org that presents itself as the Belize Cancer Society's answered the same day: it describes the society as a non-governmental organisation of volunteers founded in 1996, gives an address on Mercy Lane, Belize City, and a telephone number, and lists breast screening, Pap smears, prostate screening, counselling and support groups. The pages OnCo read (home, about, services and contact) give no prices and do not mention treatment abroad, and some still hold placeholder text, so the two clinics' consultations and chemotherapy are described here only from the newspaper. Ask the oncology clinic at the Karl Heusner Memorial Hospital or the Belize Cancer Society what support is available before travelling.",
       links: [
         { label: "Global Oncology: Belize", url: GLOBALONC },
         { label: "Amandala: Cancer Center opens doors in Belize City (published 15 December 2021)", url: AMANDALA_BCC },
+        { label: "Belize Cancer Society: services", url: `${BCS_SITE}services` },
       ],
     },
   ],
@@ -341,7 +354,7 @@ export const BZ_DIVE: CountryDive = {
   papers: ["paper-wong-cancer-time-to-care-belize-oncologist-2023", "paper-neibart-cervical-infrastructure-belize-jcogo-2021", "paper-mittal-cervical-screening-barriers-belize-ccc-2023"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, the National Health Insurance scheme's own pages, PAHO's country profile and releases, a Government press release, a legal database entry for the 2017 medicines regulations, CARPHA's pages on the Caribbean Regulatory System, Global Oncology's page, one newspaper report, and three papers whose abstracts were resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, the National Health Insurance scheme's own pages, PAHO's country profile and releases, a Government press release, the 2017 medicines regulations in a scanned copy at FAO's legal database, with the legal database entry that links it, the Belize Cancer Society's own site, CARPHA's pages on the Caribbean Regulatory System, Global Oncology's page, one newspaper report, and three papers whose abstracts were resolved through Europe PMC.",
   verify:
     "National cancer figures for Belize are modelled, not counted, and the description of the public clinic comes from a paper covering 2018 to 2022. Staffing, medicine stocks and what the insurance scheme covers change; ask the oncology clinic at the Karl Heusner Memorial Hospital or the Ministry of Health and Wellness what applies to you.",
   verifyLinks: [

@@ -11,8 +11,15 @@ import type { CountryDive } from "@/data/country-dive";
  * Polynesian social security scheme (dated 2026); the April 2019 report of the IGAS, IGA and IGF inspectorates on the
  * territory's social protection and health system (PDF text); Délibération n° 80-107 of 29 August 1980 on the import
  * of medicines, in the consolidated version in force from 15 July 2024, from Lexpol (PDF text); the ARASS pages on
- * medicine imports and pharmacovigilance; IAEA's DIRAC equipment report (JSON, no row); WHO's immunisation and health
- * expenditure data services (JSON, no rows); and one paper's abstract through Europe PMC.
+ * medicine imports and pharmacovigilance; IAEA's DIRAC equipment report (JSON, no row); WHO's immunisation data
+ * service (JSON: 44 HPV rows for 2018 to 2025 under antigen names starting `HPV`, none with a coverage value, and no
+ * rows under `PRHPV`) and its health expenditure data service (JSON, no rows); ClinicalTrials.gov's study API for
+ * studies with a site in French Polynesia (JSON); and one paper's abstract through Europe PMC.
+ *
+ * Second accuracy pass, 16 November 2026: every claim re-read against its source. Corrected then: the statement that
+ * WHO holds no immunisation rows (it holds HPV rows with empty coverage), the cancer plan's axes, the wording of the
+ * long illness cover in a section title, GDP per person called income, and four sentences that said more than their
+ * source; added the two studies ClinicalTrials.gov lists with a site at the hospital in Pirae.
  *
  * Not read: Délibération n° 88-153 AT of 20 October 1988 on pharmacy, which the 1980 text cites and which would say
  * how a medicine comes to be admitted to the market; most pages of the CPS site, which need a browser to render. The
@@ -36,10 +43,12 @@ const ARASS_IMPORT = "https://www.service-public.pf/arass/importation-des-medica
 const ARASS_PV = "https://www.service-public.pf/arass/pharmacovigilance/";
 const CPS = "https://www.cps.pf/";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'PYF'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'PYF'%20and%20startswith(ANTIGEN,'HPV')";
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'PYF'";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/pyf-2020.pdf";
 const CTGOV = "https://clinicaltrials.gov/search?country=French%20Polynesia&cond=cancer";
+const CTGOV_PRISM = "https://clinicaltrials.gov/study/NCT05283044";
+const CTGOV_KPAREAC = "https://clinicaltrials.gov/study/NCT07158879";
 
 const VATHAIRE_2023 = { label: "de Vathaire et al., thyroid carcinomas in French Polynesia after atmospheric nuclear tests (JAMA Netw Open 2023)", url: "https://doi.org/10.1001/jamanetworkopen.2023.11908" };
 
@@ -151,7 +160,7 @@ export const PF_DIVE: CountryDive = {
     {
       id: "paying",
       nav: "Who pays",
-      title: "Who pays: one social security fund, with full cover for long illness",
+      title: "Who pays: one social security fund, with 95% to 100% cover for a recognised long illness",
       aside: { label: "CLEISS: the Polynesian social security scheme (in French)", url: CLEISS },
       cards: [
         {
@@ -173,7 +182,7 @@ export const PF_DIVE: CountryDive = {
           plain:
             "WHO publishes no health spending figures for French Polynesia. The French inspectorates' 2019 report gives the territory's own accounts for 2015: current health spending of 2,434 euros per person, against 3,900 in mainland France, yet 14.4% of the territory's economic output, against 12% in France. No out-of-pocket share is given.",
           detail:
-            "The same table puts consumption of care and medical goods at 2,011 euros per person in French Polynesia, 2,977 in mainland France and 2,806 in New Caledonia. The report explains the high share of output by the gap in income per person, about 15,700 euros against 31,200, and notes that prices are higher: a general practitioner visit cost 30.15 euros against 25. It also states that health and solidarity policy, its aims, tools and financing, have been the sole responsibility of the territory since the 1950s. These figures are for 2015, more than ten years ago. WHO's Global Health Expenditure Database returned no rows for French Polynesia, so the usual comparison of out-of-pocket spending cannot be made.",
+            "The same table puts consumption of care and medical goods at 2,011 euros per person in French Polynesia, 2,977 in mainland France and 2,806 in New Caledonia. The report explains the high share of output by the gap in economic output (GDP) per person, about 15,700 euros against 31,200 in mainland France, and notes that prices are higher: a general practitioner visit cost 30.15 euros against 25. It also states that health and solidarity policy, its aims, tools and financing, have been the sole responsibility of the territory since the 1950s. These figures are for 2015, more than ten years ago. WHO's Global Health Expenditure Database returned no rows for French Polynesia, so the usual comparison of out-of-pocket spending cannot be made.",
           links: [
             { label: "IGAS, IGA and IGF: evaluation of French Polynesia's social protection and health system (April 2019, PDF, in French)", url: IGAS_2019 },
             { label: "WHO: out-of-pocket share query for French Polynesia (data API, no rows)", url: WHO_OOP_API },
@@ -193,7 +202,7 @@ export const PF_DIVE: CountryDive = {
           plain:
             "Health policy is French Polynesia's own responsibility, and its assembly has its own law on importing medicines. Only listed professionals, such as pharmacists, may import them. A medicine of foreign origin that is not on the territory's list of medicines admitted to the market, and has no equivalent in the French pharmacopoeia, needs an import authorisation, requested from the health agency ARASS and granted by the President of French Polynesia.",
           detail:
-            "Délibération n° 80-107 of 29 August 1980, in the version in force from 15 July 2024, treats medicines of mainland French origin separately from medicines of foreign origin. For the latter, human medicines \"qui ne sont pas sur la liste des médicaments dont la mise sur le marché est admise en Polynésie française et qui n’ont pas d’équivalent dans la pharmacopée française\" require an authorisation, with the summary of product characteristics supplied in French. The Agence de régulation de l'action sanitaire et sociale (ARASS) also receives reports of suspected side effects and handles requests to import medicines prescribed abroad for personal use. OnCo did not read the text that says how a medicine is admitted to that list, Délibération n° 88-153 AT of 1988 on pharmacy, so this page does not say whether a French or European marketing authorisation is recognised automatically. The hospital pharmacy or ARASS's pharmacists can say whether a given cancer medicine is available.",
+            "Délibération n° 80-107 of 29 August 1980, in the version in force from 15 July 2024, treats medicines of mainland French origin separately from medicines of foreign origin. For the latter, human medicines \"qui ne sont pas sur la liste des médicaments dont la mise sur le marché est admise en Polynésie française et qui n’ont pas d’équivalent dans la pharmacopée française\" require an authorisation, with the summary of product characteristics supplied in French. The Agence de régulation de l'action sanitaire et sociale (ARASS) also receives reports of suspected side effects and handles requests to import medicines prescribed abroad for personal use. The import law does not say how a medicine comes to be on that list. It cites Délibération n° 88-153 AT of 1988 on pharmacy, in its clause on veterinary medicines, for the standards for placing a medicine on the market; OnCo did not read that text, so this page does not say whether a French or European marketing authorisation is recognised automatically. The hospital pharmacy or ARASS's pharmacists can say whether a given cancer medicine is available.",
           links: [
             { label: "Lexpol: Délibération n° 80-107 of 29 August 1980, consolidated (in French)", url: LEXPOL_80_107 },
             { label: "ARASS: importing medicines for personal use (in French)", url: ARASS_IMPORT },
@@ -227,18 +236,18 @@ export const PF_DIVE: CountryDive = {
           plain:
             "Since 1 June 2024 the cancer institute has paid in full for the two doses of HPV vaccine for girls and boys aged 11 to 14, funded by the territory's health prevention fund. The vaccine is given on prescription through pharmacies that have signed an agreement with the institute. Doses for teenagers aged 15 to 19, who need three, are not covered.",
           detail:
-            "The institute's activity report counts 1,056 doses distributed in 2024, and in 2025 1,867 doses distributed to community pharmacies and 724 distributed and given in public health facilities, with 44 pharmacies taking part, nearly 92% of those in the territory. The report credits a larger part played by the Direction de la santé in 2025, including a session on 25 June 2025 that vaccinated more than 70 children in a day. The vaccine used is Gardasil 9. Neither the institute nor WHO publishes a coverage rate: the report counts doses, not the share of children vaccinated, and WHO's immunisation data hold no rows for French Polynesia.",
+            "The institute's activity report counts 1,056 doses distributed in 2024, and in 2025 1,867 doses distributed to community pharmacies and 724 distributed and given in public health facilities, with 44 pharmacies taking part, nearly 92% of those in the territory. The report credits a larger part played by the Direction de la santé in 2025, including a session on 25 June 2025 that vaccinated more than 70 children in a day. The vaccine used is Gardasil 9. Neither the institute nor WHO publishes a coverage rate. The report counts doses, not the share of children vaccinated. WHO's immunisation data hold HPV rows for French Polynesia for each year from 2018 to 2025, but every coverage value in them is empty; the only numbers are final doses reported for 2022, 36 in girls and 15 in boys, with no target population.",
           links: [
             { label: "ICPF: HPV vaccination (in French)", url: ICPF_HPV },
             { label: "ICPF: activity report 2025 (PDF, in French)", url: ICPF_ACTIVITY_2025 },
-            { label: "WHO: HPV vaccination coverage query for French Polynesia (data API, no rows)", url: WHO_HPV_API },
+            { label: "WHO: HPV vaccination coverage query for French Polynesia (data API, rows with no coverage value)", url: WHO_HPV_API },
           ],
         },
         {
           id: "plan",
           title: "A first cancer plan for 2018 to 2022, and a cancer institute since 2021",
           plain:
-            "French Polynesia's health ministry published a cancer plan for 2018 to 2022, drawn from a wider strategy document that calls it the first Polynesian cancer plan. Its axes run from observing cancer and prevention through screening, the patient's pathway, diagnosis and treatment, support and palliative care, to life after cancer. OnCo found no plan covering the years after 2022.",
+            "French Polynesia's health ministry published a cancer plan for 2018 to 2022, drawn from a wider strategy document that calls it the first Polynesian cancer plan. Its eight axes run from understanding the patient, observing cancer and prevention through screening, the patient's pathway, diagnosis and treatment, support and palliative care, to life after cancer. OnCo found no plan covering the years after 2022.",
           detail:
             "The plan describes itself as a framing document that sets priorities for five years. When it was written it counted more than 600 new cancers and about 300 cancer deaths a year, about a quarter of all deaths in the territory. The strategy document traces the growth of services: an oncology service in 2004, radiotherapy at the hospital in 2011, a mobile palliative care team in 2015. The Institut du cancer de Polynésie française was created by an order of 13 July 2021 and now carries the registry, screening, coordination of care and a research directorate; its board decides its strategy. Its yearly activity reports are the current account of what is being done.",
           links: [
@@ -295,7 +304,7 @@ export const PF_DIVE: CountryDive = {
           plain:
             "Many patients in French Polynesia live on islands far from the hospital on Tahiti. The cancer institute runs ARATA'I Onco, a remote monitoring service for people taking cancer medicines by mouth at home. In 2025 it followed 50 patients, and nearly half of those still enrolled at the end of the year lived in remote archipelagos.",
           detail:
-            "The institute's 2025 activity report says the service uses a digital monitoring platform and was developed with the support of the drug company AstraZeneca. It aims to improve adherence, detect side effects early and build patients' autonomy; six oral cancer treatments were included in 2025, mainly for breast and digestive cancers, with about five new patients a month and more than 50 telephone calls a month, plus prescriptions sent remotely. Forty-eight patients remained in follow-up at the end of the year. The report counts 677 side effects recorded in 2025, mostly mild or moderate and none life-threatening, and says more than 65% were handled remotely. These are the service's own counts, with no comparison group: the report does not show whether side effects were caught earlier or evacuations avoided.",
+            "The institute's 2025 activity report says the service uses a digital monitoring platform and was developed with the support of the drug company AstraZeneca. It aims to improve adherence, detect side effects early and build patients' autonomy; six oral cancer treatments were included in 2025, notably for breast and digestive cancers, with about five new patients a month and more than 50 telephone calls a month, plus prescriptions sent remotely. Forty-eight patients remained in follow-up at the end of the year. The report counts 677 side effects recorded in 2025, mostly mild or moderate and none life-threatening, and says more than 65% were handled remotely. These are the service's own counts, with no comparison group: the report does not show whether side effects were caught earlier or evacuations avoided.",
           links: [
             { label: "ICPF: activity report 2025, ARATA'I Onco (PDF, in French)", url: ICPF_ACTIVITY_2025 },
             { label: "ICPF: the institute (in French)", url: ICPF },
@@ -322,12 +331,14 @@ export const PF_DIVE: CountryDive = {
           id: "trials-research",
           title: "No trial in OnCo's records has a site in French Polynesia",
           plain:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026, no cancer trial lists a site in French Polynesia. OnCo holds a selection of trials, not the whole registry, so this is not proof that none exists. The cancer institute lists setting up clinical trials among its aims and is a member of the French Unicancer network.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026, no cancer trial lists a site in French Polynesia. OnCo holds a selection of trials, not the whole registry: ClinicalTrials.gov itself, searched the same day for cancer studies with a site in French Polynesia, returned two, both at the hospital in Pirae and neither testing a medicine. The cancer institute lists setting up clinical trials among its aims and is a member of the French Unicancer network.",
           detail:
-            "The institute's 2025 activity report describes a research and innovation directorate, membership of Unicancer's overseas coordinating group, which works on access to therapeutic innovation for patients in the French overseas territories, and a study being extended to the day hospital at Uturoa on Raiatea so that patients on that island can take part. That study, run for the Institut Curie, looks at skin reactions to dressings, not at a medicine; OnCo found no drug trial open in the territory named in the report. A patient who wants to know about trials should ask the treating oncologist, who can check French trial registers and whether taking part would mean treatment in France.",
+            "The institute's 2025 activity report describes a research and innovation directorate, membership of Unicancer's overseas coordinating group, which works on access to therapeutic innovation for patients in the French overseas territories, and a study, KPAREAC, that began at the hospital on 2 October 2025; the report says work is under way with the Direction de la santé to open it, in time, at the day hospital at Uturoa on Raiatea so that patients on that island can take part. That study, run for the Institut Curie, looks at skin reactions to the dressings of implanted chest ports, not at a medicine; OnCo found no drug trial open in the territory named in the report. ClinicalTrials.gov lists it as NCT07158879, an observational study with sites at the hospital in Pirae and at Uturoa, both shown as not yet recruiting when the entry was last updated in September 2025. The other study the registry returned is NCT05283044, PRISM-PORTAL, sponsored by Gustave Roussy: its registry entry calls it a biomarker study of whether liquid biopsy leads to better treatment for people with metastatic cancer cared for in community hospitals, and it lists the hospital in Pirae among 21 sites, shown as active and not recruiting. A patient who wants to know about trials should ask the treating oncologist, who can check French trial registers and whether taking part would mean treatment in France.",
           links: [
             { label: "ICPF: activity report 2025 (PDF, in French)", url: ICPF_ACTIVITY_2025 },
             { label: "ClinicalTrials.gov: cancer studies with a site in French Polynesia (search)", url: CTGOV },
+            { label: "ClinicalTrials.gov: NCT07158879, KPAREAC, skin reactions to implanted chest port dressings", url: CTGOV_KPAREAC },
+            { label: "ClinicalTrials.gov: NCT05283044, PRISM-PORTAL, liquid biopsy in community hospitals", url: CTGOV_PRISM },
           ],
         },
       ],
@@ -336,14 +347,14 @@ export const PF_DIVE: CountryDive = {
   gaps: [
     {
       id: "who-data",
-      title: "WHO publishes no cancer profile, vaccination or spending rows for French Polynesia",
+      title: "WHO publishes no cancer profile, vaccination coverage or spending figures for French Polynesia",
       plain:
-        "WHO's Cancer Country Profile 2020 does not exist for French Polynesia, and WHO's immunisation and health expenditure databases return no rows for it. This page uses the territory's own figures: the cancer institute's dose counts for HPV vaccination and health accounts for 2015 quoted by French inspectorates. No out-of-pocket share is available.",
+        "WHO's Cancer Country Profile 2020 does not exist for French Polynesia. WHO's immunisation database holds HPV rows for the territory but no coverage value in any of them, and its health expenditure database returns no rows. This page uses the territory's own figures: the cancer institute's dose counts for HPV vaccination and health accounts for 2015 quoted by French inspectorates. No out-of-pocket share is available.",
       detail:
-        "The address where WHO publishes its 2020 cancer profiles answered 404 for French Polynesia on 16 November 2026. WHO's HPV coverage and vaccine introduction queries and four Global Health Expenditure Database indicators each returned an empty list for the code PYF. The territory's statistics institute and the Caisse de Prévoyance Sociale publish health accounts, but OnCo did not read a more recent edition than the 2015 figures in the 2019 inspectorate report.",
+        "The address where WHO publishes its 2020 cancer profiles answered 404 for French Polynesia on 16 November 2026. WHO's HPV coverage query returned 44 rows for the code PYF, for 2018 to 2025, every one with an empty coverage value; its vaccine introduction query and four Global Health Expenditure Database indicators each returned an empty list. The 2019 inspectorate report says the territory's health accounts were last produced in 2016, for 2010 to 2015, and that the territory depends on the Caisse de Prévoyance Sociale for health spending data; OnCo did not find or read a more recent edition.",
       links: [
         { label: "WHO: Cancer Country Profile 2020 address for French Polynesia (answers 404)", url: WHO_PROFILE },
-        { label: "WHO: HPV vaccination coverage query for French Polynesia (data API, no rows)", url: WHO_HPV_API },
+        { label: "WHO: HPV vaccination coverage query for French Polynesia (data API, rows with no coverage value)", url: WHO_HPV_API },
         { label: "WHO: out-of-pocket share query for French Polynesia (data API, no rows)", url: WHO_OOP_API },
       ],
     },
@@ -351,7 +362,7 @@ export const PF_DIVE: CountryDive = {
       id: "medicine-authorisation",
       title: "How a cancer medicine is authorised in French Polynesia is not established here",
       plain:
-        "OnCo read the territory's law on importing medicines but not its law on pharmacy, which defines when a medicine is admitted to the local market. This page therefore does not say that approvals by the French or European medicines agencies apply automatically, and it shows no approvals count for the territory.",
+        "OnCo read the territory's law on importing medicines but not its law on pharmacy, which the import law cites, in its clause on veterinary medicines, for the standards for placing a medicine on the market. This page therefore does not say that approvals by the French or European medicines agencies apply automatically, and it shows no approvals count for the territory.",
       detail:
         "Délibération n° 80-107 refers to a list of medicines whose marketing is admitted in French Polynesia and cites Délibération n° 88-153 AT of 20 October 1988 on pharmacy; Lexpol, the territory's legal database, holds both, but OnCo read only the first. A cooperation agreement between French Polynesia and the French medicines agency was found mentioned in search results and not read. Whether a newly approved cancer medicine can be prescribed and reimbursed locally is a question for the hospital pharmacy, ARASS or the CPS.",
       links: [
@@ -363,7 +374,7 @@ export const PF_DIVE: CountryDive = {
       id: "deaths-and-coverage",
       title: "No recent count of cancer deaths, and no HPV vaccination rate",
       plain:
-        "The registry's latest report covers new cancers to 2021 and says the most recent death data are for 2019. No HPV vaccination coverage rate has been published; the institute reports doses. Its cervical screening rate, 39% in 2025, appears in a table with no stated method. IARC's death figure for 2024 is modelled from neighbouring countries.",
+        "The registry's latest report covers new cancers to 2021 and says the most recent death data are for 2019. OnCo found no published HPV vaccination coverage rate; the institute reports doses, and WHO's rows for the territory carry no coverage value. Its cervical screening rate, 39% in 2025, appears in a table with no stated method. IARC's death figure for 2024 is modelled from neighbouring countries.",
       detail:
         "Death certificates are analysed by the Bureau de veille sanitaire et de l'observation of ARASS, and the registry report uses them only for 2019. The registry report's detailed tables, by site, sex and stage, could not be read reliably from the PDF text because its columns interleave, so this page gives only totals stated in sentences. Most pages of the CPS site need a browser, and the list of long illnesses was not read. The institute's registry team can supply figures on request.",
       links: [
@@ -380,7 +391,7 @@ export const PF_DIVE: CountryDive = {
   papers: ["paper-de-vathaire-thyroid-nuclear-tests-french-polynesia-jama-netw-open-2023"],
   people: [],
   how:
-    "Every card was written from French Polynesia's own sources and French official documents, read in French as raw text and not through a summary: the Institut du cancer de Polynésie française's pages, its registry report for 2019 to 2021 and its 2025 activity report; the 2018 to 2022 cancer plan and the strategy document behind it; the public hospital's radiotherapy service sheet; CLEISS's description of the social security scheme; the April 2019 report of three French inspectorates; the territory's deliberation on importing medicines, from its legal database Lexpol; ARASS's pages; IARC's GLOBOCAN fact sheet; IAEA's radiotherapy directory; and one paper's abstract. Trial counts are from OnCo's own copy of ClinicalTrials.gov participation data.",
+    "Every card was written from French Polynesia's own sources and French official documents, read in French as raw text and not through a summary: the Institut du cancer de Polynésie française's pages, its registry report for 2019 to 2021 and its 2025 activity report; the 2018 to 2022 cancer plan and the strategy document behind it; the public hospital's radiotherapy service sheet; CLEISS's description of the social security scheme; the April 2019 report of three French inspectorates; the territory's deliberation on importing medicines, from its legal database Lexpol; ARASS's pages; IARC's GLOBOCAN fact sheet; IAEA's radiotherapy directory; and one paper's abstract. Trial counts are from OnCo's own copy of ClinicalTrials.gov participation data, and the two studies named on the page were read from ClinicalTrials.gov's own records.",
   verify:
     "The registry's figures run to 2021 and its death data to 2019; IARC's 2024 deaths are a model. Radiotherapy capacity changed in 2023 and again in 2025, so ask the hospital what is available now. What the CPS pays for depends on an agreed care protocol, and an evacuation needs its approval: confirm both with the CPS and the CAP EVASAN nurses before travelling.",
   verifyLinks: [

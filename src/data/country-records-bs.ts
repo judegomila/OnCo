@@ -4,7 +4,8 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
  * The Bahamas: the public bodies and papers behind /countries/bs/ (wave 16) that the corpus did not hold. The two
  * institution records were written from the bodies' own sites (the National Prescription Drug Plan's site and the
  * National Health Insurance Authority's home and questions pages) and from The Tribune's report of 16 June 2026, all
- * read raw on 16 November 2026. DOIs were resolved through Europe PMC and the figures in `findings` are taken from the
+ * read raw on 16 November 2026; a second pass the same day added the drug plan's 2019 to 2021 formulary and NHI's
+ * benefits package (PDF text). DOIs were resolved through Europe PMC and the figures in `findings` are taken from the
  * indexed abstracts. The corpus already held Donenberg and colleagues' 2011 BRCA1 paper, which the page links.
  *
  * Inbound links: each new institution links Princess Margaret Hospital, which the corpus already holds, and the two
@@ -22,30 +23,34 @@ const pubmed = (pmid: string) => ({ label: "PubMed", url: `https://pubmed.ncbi.n
 const NPDP = "https://www.nibdrugplan.com/";
 const NHI = "https://www.nhibahamas.gov.bs/";
 const NHI_FAQ = "https://www.nhibahamas.gov.bs/faqs/";
+const NPDP_FORMULARY = "https://www.nibdrugplan.com/wp-content/uploads/2025/05/2019-2021-Formulary-Listing-Doc-rev1.pdf";
+const NHI_BENEFITS = "https://www.nhibahamas.gov.bs/wp-content/uploads/Primary-Care-Benefits-Package.pdf";
 const TRIBUNE_NHI = "https://tribune242.com/news/2026/jun/16/pharmacy-concern-over-drug-plans-nhi-switch/";
 
 const institutions: InstitutionInput[] = [
   i({ id: "npdp-bahamas", name: "National Prescription Drug Plan (Bahamas)", aka: ["NPDP", "NIB Drug Plan", "Bahamas National Prescription Drug Plan"],
     city: "Nassau", country: "BS", lat: 25.06, lng: -77.345, institutionType: "government", website: NPDP,
     tldr: "The Bahamas' public plan that helps named groups of people with chronic conditions get their medicines from public and private pharmacies. Breast cancer and prostate cancer are among the conditions it covers.",
-    summary: "The plan's site says the Government of the Bahamas enacted legislation in 2009 to introduce the National Prescription Drug Plan, to improve access to prescription drugs and medical supplies in public and private pharmacies for people with chronic disease and to fund health promotion. The conditions it lists are rheumatic disease (arthritis and lupus), asthma and chronic obstructive pulmonary disease, benign prostate hypertrophy, breast cancer, diabetes, epilepsy, glaucoma, high cholesterol, hypertension, coronary heart disease and cardiomyopathy, prostate cancer, psychiatric illness, sickle cell anaemia and thyroid disease. The groups it names include Bahamian citizens aged 65 or over who are not eligible for a National Insurance pension, children under 18 (or under 25 if full-time students) with a covered condition, indigent persons, and members of the police force. The site says the plan is managed by the National Insurance Board and implemented in phases. In June 2026 The Tribune reported that the plan was being transferred from the National Insurance Board to the National Health Insurance scheme and that it faced temporary shortages of some medicines. The plan's formulary was not read. The coordinates are an approximate Nassau city point.",
+    summary: "The plan's site says the Government of the Bahamas enacted legislation in 2009 to introduce the National Prescription Drug Plan, to improve access to prescription drugs and medical supplies in public and private pharmacies for people with chronic disease and to fund health promotion. The conditions it lists are rheumatic disease (arthritis and lupus), asthma and chronic obstructive pulmonary disease, benign prostate hypertrophy, breast cancer, diabetes, epilepsy, glaucoma, high cholesterol, hypertension, coronary heart disease and cardiomyopathy, prostate cancer, psychiatric illness, sickle cell anaemia and thyroid disease. The groups it names include Bahamian citizens aged 65 or over who are not eligible for a National Insurance pension, children under 18 (or under 25 if full-time students) with a covered condition, indigent persons, and members of the police force. The site says the plan is managed by the National Insurance Board and implemented in phases. In June 2026 The Tribune reported that the plan was being transferred from the National Insurance Board to the National Health Insurance scheme and that it faced temporary shortages of some medicines. The plan's formulary list for 2019 to 2021 names, under breast cancer, anastrozole, letrozole, tamoxifen, trastuzumab and zoledronic acid, and under prostate cancer, bicalutamide, goserelin and zoledronic acid, beside pain and other supportive medicines; no later list was found. The coordinates are an approximate Nassau city point.",
     programs: ["Medicines for covered chronic conditions, including breast cancer and prostate cancer", "Health promotion and wellness funding"],
     institutions: ["nhi-bahamas", "princess-margaret-hospital-bahamas"],
     cancers: ["breast-cancer", "prostate"],
     links: [
       { label: "National Prescription Drug Plan: conditions covered and who is eligible", url: NPDP },
+      { label: "National Prescription Drug Plan: formulary list 2019 to 2021 (PDF)", url: NPDP_FORMULARY },
       { label: "The Tribune: pharmacy concern over the drug plan's move to NHI (16 June 2026)", url: TRIBUNE_NHI },
     ] }),
 
   i({ id: "nhi-bahamas", name: "National Health Insurance Authority (Bahamas)", aka: ["NHI Bahamas", "NHIA", "National Health Insurance Bahamas"],
     city: "Nassau", country: "BS", lat: 25.05, lng: -77.35, institutionType: "government", website: NHI,
     tldr: "The public body that runs NHI Bahamas, which pays for primary care, such as doctor visits, health screening and some laboratory tests, with nothing to pay at the point of care. Its present benefits are a first phase and do not list cancer treatment.",
-    summary: "The National Health Insurance Authority says Bahamians began registering for the programme in January 2016, that enrolment began in 2017 and that primary care services under NHI Bahamas started in May 2017. Its home page says more than 160,000 Bahamians have joined and that beneficiaries pay no copayment or deductible for covered services. Its questions page says all legal residents are covered, with no one excluded for a pre-existing condition, age or income, that the present programme covers primary care, including visits to a doctor, disease prevention, health screening and some laboratory tests, and that vision and dental care are not covered. Asked whether NHI Bahamas covers treatment for diseases such as cancer, the questions page answers that only treatments that can be delivered through primary care are covered; the home page names Pap smears and prostate screening among the services. In June 2026 The Tribune reported that the National Prescription Drug Plan was being transferred to the scheme. The coordinates are an approximate Nassau city point.",
+    summary: "The National Health Insurance Authority says Bahamians began registering for the programme in January 2016, that enrolment began in 2017 and that primary care services under NHI Bahamas started in May 2017. Its home page says more than 160,000 Bahamians have joined and that beneficiaries pay no copayment or deductible for covered services. Its questions page says all legal residents are covered, with no one excluded for a pre-existing condition, age or income, that the present programme covers primary care, including visits to a doctor, disease prevention, health screening and some laboratory tests, and that vision and dental care are not covered. Asked whether NHI Bahamas covers treatment for diseases such as cancer, the questions page answers that only treatments that can be delivered through primary care are covered; the home page names Pap smears and prostate screening among the services, and the benefits package, revised on 10 June 2021, lists a liquid Pap smear every 3 years for women over 21, a PSA test offered annually to men over 40 and a faecal immunochemical test every two years for people over 45. In June 2026 The Tribune reported that the National Prescription Drug Plan was being transferred to the scheme. The coordinates are an approximate Nassau city point.",
     programs: ["NHI Bahamas primary care coverage (from May 2017)", "National Prescription Drug Plan (transfer reported in 2026)"],
     institutions: ["npdp-bahamas", "princess-margaret-hospital-bahamas"],
     keyPapers: ["paper-trottier-brca-founder-unaffected-bahamas-clingenet-2016", "paper-roberts-prostate-screening-clinic-bahamas-ccc-2017"], links: [
       { label: "National Health Insurance Authority: NHI Bahamas", url: NHI },
       { label: "National Health Insurance Authority: frequently asked questions", url: NHI_FAQ },
+      { label: "National Health Insurance Authority: primary care benefits package (revised 10 June 2021, PDF)", url: NHI_BENEFITS },
       { label: "The Tribune: pharmacy concern over the drug plan's move to NHI (16 June 2026)", url: TRIBUNE_NHI },
     ] }),
 ];

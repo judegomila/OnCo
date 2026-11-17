@@ -6,7 +6,8 @@ import type { CountryDive } from "@/data/country-dive";
  * the Ministry of Health's National Cancer Control Plan Suriname 2019-2028 (PDF text, ICCP portal copy); WHO's Cancer
  * Country Profile 2020 and Cervical Cancer Country Profile 2021 for Suriname (PDF text); WHO's vaccine introduction,
  * HPV coverage and Global Health Expenditure Database rows from its public data APIs; IAEA DIRAC's public equipment
- * data; the Netherlands Enterprise Agency's page on export rules for Suriname (read in Dutch); CARPHA's Caribbean
+ * data; the Netherlands Enterprise Agency's page on export rules for Suriname (read in Dutch); the Ministry of Health's
+ * page on its Registration Committee for medicines (read in Dutch, added in the second check); CARPHA's Caribbean
  * Regulatory System pages; the State Health Insurance Fund's home page (read in Dutch); and five papers resolved
  * through Europe PMC, with the open full text of one read there. The Academic Hospital Paramaribo's website was being
  * rebuilt and carried no clinical information. Sources not found or not read are named under `gaps`.
@@ -22,6 +23,7 @@ const WHO_GOV_API = "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$fi
 const WHO_CHE_API = "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?$filter=SpatialDim%20eq%20'SUR'";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const RVO = "https://www.rvo.nl/onderwerpen/landen-en-gebieden/suriname/exportregels";
+const MOH_RC = "https://gov.sr/ministeries/ministerie-van-volksgezondheid-welzijn-arbeid/de-registratie-commissie/";
 const CRS_ABOUT = "https://carpha.org/What-We-Do/CRS/About-Us";
 const CRS_FAQ = "https://carpha.org/What-We-Do/CRS/faq";
 const SZF = "https://www.szf.sr/";
@@ -42,7 +44,7 @@ export const SR_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Suriname",
   description:
-    "Cancer in Suriname from its own and WHO sources: IARC's estimate of 1,223 new cancers and 638 deaths in 2024, modelled because there is no cancer registry, one pathology laboratory whose records stand in for one, a national cancer control plan for 2019 to 2028, compulsory basic health insurance since 2014, one radiotherapy centre in Paramaribo since 2012, referral to Colombia for what is not available, and HPV vaccination coverage of 21% in 2025.",
+    "Cancer in Suriname from its own and WHO sources: IARC's estimate of 1,223 new cancers and 638 deaths in 2024, modelled because there is no cancer registry, one pathology laboratory whose records stand in for one, a national cancer control plan for 2019 to 2028, compulsory basic health insurance since 2014, one radiotherapy centre in Paramaribo since 2012, referral to Colombia for what is not available, and HPV vaccination coverage of 21% of girls in 2025.",
   lede:
     "Suriname has a ten-year cancer plan, compulsory basic health insurance and, since 2012, its own radiotherapy centre in Paramaribo, but no cancer registry. IARC models 1,223 new cancers and 638 deaths for 2024, with prostate, breast and colorectal cancer the commonest and lung cancer causing the most deaths. What is known from inside the country comes from the one pathology laboratory, at the Academic Hospital Paramaribo.",
   globocanNote:
@@ -78,6 +80,7 @@ export const SR_DIVE: CountryDive = {
             { label: "Mans et al., cancer incidence in Suriname 1980 to 2000 (Tumori 2003)", url: MANS_2003 },
             { label: "Wielzen et al., prostate cancer presentation in Suriname (JCO Glob Oncol 2026)", url: WIELZEN_2026 },
             { label: "WHO: Cancer Country Profile 2020, Suriname (PDF)", url: WHO_2020 },
+            { label: "WHO: Cervical Cancer Country Profile 2021, Suriname (PDF)", url: WHO_CX_2021 },
             { label: "IARC Global Initiative for Cancer Registry Development: Caribbean Hub", url: GICR_HUB },
           ],
         },
@@ -168,12 +171,13 @@ export const SR_DIVE: CountryDive = {
       cards: [
         {
           id: "medicines-rules",
-          title: "Medicines are regulated by the Ministry of Health, with a national list that decides what can be imported",
+          title: "A Ministry of Health committee registers medicines; importing one also needs a licence and a place on the national list",
           plain:
-            "In Suriname the Ministry of Health and its Inspectorate set and enforce the rules on medicines. A medicine must be on the national medicines list to be imported, and a state company, known as BGVS, buys and distributes medicines for public health facilities. OnCo has not read the registration rules themselves.",
+            "In Suriname a medicine is assessed before it reaches the market by the Registration Committee (Registratiecommissie), which the Ministry of Health's website describes as a working body of the Ministry. A Dutch government guide says a medicine must also be on the national medicines list to be imported, and the 2019 cancer plan says the drug supply company, known as BGVS and described in that guide as part of the Ministry, buys and distributes medicines for public health facilities. OnCo has read the Ministry's page about the rules, not the decrees themselves.",
           detail:
-            "The cancer plan describes the Ministry and the Inspectorate as responsible for standard-setting, inspection and monitoring, says the national list is drawn up by a Steering Committee of Essential Medicines appointed by the Ministry on the same principles as WHO's model list, and says the drug supply company is responsible for procurement, storage and distribution to public facilities, and puts the coverage of cancer drugs at around 80%. The Netherlands Enterprise Agency's guidance for exporters says the import, registration and pricing of medicines in Suriname are bound by rules, that an import licence is required, and that a product must be included in the Nationale Geneesmiddelenklapper kept by the Bedrijf Geneesmiddelen Voorziening Suriname, part of the Ministry. Neither source names the body that registers a medicine or the law it acts under.",
+            "The Ministry's page, read in Dutch on 16 November 2026, says the committee tests whether medicines are safe, effective and of good quality before they are admitted to the Surinamese market and keeps a register of the packaged medicines present in Suriname, that its members are appointed by the President on the nomination of the Minister of Health, and that under article 4 of the Packaged Medicines Decree (Besluit Verpakte Geneesmiddelen, G.B. 1973 no. 155) an application for registration takes 180 days on average. The cancer plan describes the Ministry and the Inspectorate as responsible for standard-setting, inspection and monitoring in the health system as a whole, says the national list is drawn up by a Steering Committee of Essential Medicines appointed by the Ministry on the same principles as WHO's model list, and says the drug supply company is responsible for procurement, storage and distribution to public facilities, and puts the coverage of cancer drugs at around 80%. The Netherlands Enterprise Agency's guidance for exporters says the import, registration and pricing of medicines in Suriname are bound by rules, that an import licence from the import, export and foreign exchange control service (IUD) is required, and that a product must be included in the Nationale Geneesmiddelenklapper of the Bedrijf Geneesmiddelen Voorziening Suriname, part of the Ministry. None of these sources says how long a cancer medicine in particular takes to register or which are registered.",
           links: [
+            { label: "Ministry of Health: the Registration Committee for medicines (in Dutch)", url: MOH_RC },
             { label: "Ministry of Health: National Cancer Control Plan Suriname 2019-2028, health system and treatment (PDF)", url: NCCP },
             { label: "Netherlands Enterprise Agency: export rules for Suriname (in Dutch)", url: RVO },
           ],
@@ -184,10 +188,11 @@ export const SR_DIVE: CountryDive = {
           plain:
             "The Caribbean Community's public health agency runs a shared review service for medicines, which recommends products that a trusted regulator elsewhere has already approved. Suriname is one of six countries the service lists as granting marketing authorisations of their own.",
           detail:
-            "CARPHA's pages say health ministers agreed in 2016 to create the Caribbean Regulatory System within the Caribbean Public Health Agency, to support marketing authorisation and the monitoring of medicine safety, and its guidance for applicants says in one place that the aim is to turn its recommendation into a lawful national marketing authorisation within 60 calendar days and in another that the target is 120 calendar days. The guidance lists Belize, Guyana, Haiti, Jamaica, Suriname and Trinidad and Tobago as the countries that conduct marketing authorisation. The guidance is undated, and OnCo found no Surinamese source on how often the route is used.",
+            "CARPHA's pages say health ministers agreed in 2016 to create the Caribbean Regulatory System within the Caribbean Public Health Agency, to support marketing authorisation and the monitoring of medicine safety, and its guidance for applicants says in one place that the aim is to turn its recommendation into a lawful national marketing authorisation within 60 calendar days and in another that the target is 120 calendar days. The guidance lists Belize, Guyana, Haiti, Jamaica, Suriname and Trinidad and Tobago as the countries that conduct marketing authorisation. The guidance is undated. Suriname's Ministry of Health says its Registration Committee takes part in the Caribbean Regulatory System, and its page offers a letter on the documents needed for a medicine the system has recommended. OnCo found no figure for how often the route is used.",
           links: [
             { label: "CARPHA: about the Caribbean Regulatory System", url: CRS_ABOUT },
             { label: "CARPHA: Caribbean Regulatory System, guidance and questions for applicants", url: CRS_FAQ },
+            { label: "Ministry of Health: the Registration Committee for medicines (in Dutch)", url: MOH_RC },
           ],
         },
       ],
@@ -202,9 +207,9 @@ export const SR_DIVE: CountryDive = {
           id: "no-programme",
           title: "No national screening programme; cervical screening is offered by clinics and a foundation",
           plain:
-            "Suriname has no national screening programme for any cancer. Cervical screening, by smear or by visual inspection, is offered by gynaecologists, the Medical Mission that serves the interior, and the Lobi Foundation. The cancer plan estimated that fewer than 20% of eligible women were screened.",
+            "Suriname's 2019 cancer plan says the country has no national screening programme for any cancer. Cervical screening, by smear or by visual inspection, is offered by gynaecologists, the Medical Mission that serves the interior, and the Lobi Foundation. The cancer plan estimated that fewer than 20% of eligible women were screened.",
           detail:
-            "The plan says a national cervical screening pilot using cytology ran for three years from 1998 and was not continued after low coverage, that a 2008 strategic plan was never carried out, and that a national screening and precancer treatment protocol was agreed in 2018. The Medical Mission trains staff to treat women in the interior at the same visit as an abnormal visual inspection. Mammography has been available since 2009 in public and private clinics. A 2024 study using the pathology laboratory's records says Suriname has no formal national screening programme, and WHO's 2021 profile estimated that 32% of women aged 30 to 49 had been screened in the previous five years. Among 195 women living with HIV seen at one clinic in 2023, 39.5% had been screened in the previous three years.",
+            "The plan says a national cervical screening pilot using cytology ran for three years from 1998 and was not continued after low coverage, that a 2008 strategic plan was never carried out, and that a national screening and precancer treatment protocol was agreed in 2018. The Medical Mission trains staff to treat women in the interior at the same visit as an abnormal visual inspection. Mammography has been available since 2009 in public and private clinics. A 2024 study using the pathology laboratory's records says Suriname has no formal national screening programme for cervical cancer, and WHO's 2021 profile estimated that 32% of women aged 30 to 49 had been screened in the previous five years. Among 195 women living with HIV seen at one clinic in 2023, 39.5% had been screened in the previous three years.",
           links: [
             { label: "Ministry of Health: National Cancer Control Plan Suriname 2019-2028, screening and early diagnosis (PDF)", url: NCCP },
             { label: "Stijnberg et al., HIV among cervical precancer and cancer diagnoses in Suriname (Rev Panam Salud Publica 2024)", url: STIJNBERG_2024 },
@@ -237,7 +242,7 @@ export const SR_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "One radiotherapy centre, at the Academic Hospital Paramaribo, with two linear accelerators",
           plain:
-            "Radiotherapy has been given in Suriname since 2012, at the Radiotherapy Centre Suriname on the grounds of the Academic Hospital Paramaribo. IAEA's directory lists it as the country's one centre, with two linear accelerators and a brachytherapy unit. Surgery and chemotherapy are given at the four hospitals in the capital.",
+            "Radiotherapy has been given in Suriname since 2012, at the Radiotherapy Centre Suriname on the grounds of the Academic Hospital Paramaribo. IAEA's directory lists it as the country's one centre, with two linear accelerators and a brachytherapy unit. The 2019 cancer plan says surgery and chemotherapy are given at all four hospitals in the capital.",
           detail:
             "IAEA DIRAC's public equipment data, read on 16 November 2026, lists for the Radiotherapeutisch Centrum Suriname two linear accelerators, one high-dose-rate brachytherapy unit, one CT scanner and one treatment planning system, in an entry last updated in 2026, for a population of about 640,000. The 2019 plan counted two medical oncologists, two radiotherapy specialists, two gynaecological and three surgical oncology specialists, all in Paramaribo, no paediatric oncologist or haematologist, and one pathologist for the whole country, with pathology reports generally taking more than two to three weeks. A national multidisciplinary team has met weekly since 2012, and about 70% of new cancer patients were being referred to it. The hospital's website was being rebuilt when read and gave only contact details, so current staffing is not confirmed here.",
           links: [
@@ -259,7 +264,7 @@ export const SR_DIVE: CountryDive = {
           plain:
             "People who need a test or treatment that is not available in Suriname can be sent to Colombia under a government scheme, which pays for the treatment and the stay. The cancer plan says a medical committee decides each request, and that since radiotherapy opened in Paramaribo far fewer adults have been sent.",
           detail:
-            "The plan names the scheme as ARMU-LOV (Afbouw Regeling Medische Uitzendingen, Lokale Opbouw Voorzieningen), dating from 2004, with strict selection: the main criteria are the expected outcome of treatment and an age limit of 70. Treatment and housing abroad are paid by the government, at US$12,500 to US$150,000 a patient; travel and daily expenses are the patient's own. Bone marrow transplantation is not available in Suriname and is not reimbursed. The main reasons for sending adults abroad had become radioactive iodine treatment and complicated cancer surgery. Children with cancer, especially acute leukaemia, were often sent to Colombia, as the country had no paediatric oncologist. Specialists complete part of their training in the Netherlands, and pathology material can be sent there for a second reading. This is the position in 2019.",
+            "The plan names the regulation as ARMU-LOV (Afbouw Regeling Medische Uitzendingen, Lokale Opbouw Voorzieningen), citing a Ministry of Health document of 2004, with strict selection: the main criteria are the expected outcome of treatment and an age limit of 70. Treatment and housing abroad are paid by the government, at US$12,500 to US$150,000 a patient; travel and daily expenses are the patient's own. Bone marrow transplantation is not available in Suriname and is not reimbursed. The main reasons for sending adults abroad had become radioactive iodine treatment and complicated cancer surgery. Children with cancer, especially acute leukaemia, were often sent to Colombia, as the country had no paediatric oncologist. Specialists complete part of their training in the Netherlands, and pathology material can be sent there for a second reading. This is the position in 2019.",
           links: [{ label: "Ministry of Health: National Cancer Control Plan Suriname 2019-2028, treatment (PDF)", url: NCCP }],
         },
         {
@@ -307,7 +312,7 @@ export const SR_DIVE: CountryDive = {
       plain:
         "Suriname's plan promised a national cancer registry, a screening programme and better access to medicines by 2028. OnCo found no report on how far any of these has got, and no survival figure for any cancer in Suriname.",
       detail:
-        "The plan itself said in 2019 that there was no monitoring system for cancer and that the national multidisciplinary team's data were not part of one. WHO's 2020 profile recorded the plan as still under development in 2019. The ICCP portal holds the plan and a draft dated 2018 to 2028 prepared for the Ministry, but no progress report, and the Academic Hospital Paramaribo's website was being rebuilt on 16 November 2026. A future pass should look for a registry launch, for the Ministry of Health's annual reports in Dutch, and for the Radiotherapy Centre's own figures. Until then the Ministry of Health and the treating hospital are the places to ask.",
+        "The plan itself said in 2019 that there was no monitoring system for cancer and that the national multidisciplinary team's data were not part of one. WHO's 2020 profile recorded the plan as still under development in 2019. The ICCP portal holds the plan and an earlier version dated 2018 to 2028, prepared for the Ministry of Health, but no progress report, and the Academic Hospital Paramaribo's website was being rebuilt on 16 November 2026. A future pass should look for a registry launch, for the Ministry of Health's annual reports in Dutch, and for the Radiotherapy Centre's own figures. Until then the Ministry of Health and the treating hospital are the places to ask.",
       links: [
         { label: "Ministry of Health: National Cancer Control Plan Suriname 2019-2028 (PDF)", url: NCCP },
         { label: "WHO: Cancer Country Profile 2020, Suriname (PDF)", url: WHO_2020 },
@@ -316,12 +321,13 @@ export const SR_DIVE: CountryDive = {
     },
     {
       id: "gap-regulator",
-      title: "The law and the body that register medicines were not read",
+      title: "The medicines decrees, the register and the national list were not read",
       plain:
-        "OnCo did not find or read the Surinamese law on registering medicines or a page from the body that does it, so it cannot say how a cancer medicine is approved, how long that takes, or which cancer medicines are on the current national list.",
+        "The Ministry of Health's website names the committee that registers medicines and the decrees it works under, but OnCo has not read the decrees themselves or the register, so it cannot say which cancer medicines are registered in Suriname or which are on the current national list.",
       detail:
-        "What is on this page about medicines comes from the 2019 cancer plan, a Dutch government guide for exporters and CARPHA's guidance. The national medicines list itself was not found online. The plan's figures, that the list held about half of WHO's anticancer medicines and no targeted therapy, date from 2019 and may have changed. A future pass should read the relevant decree and the Ministry's pharmaceutical inspectorate in Dutch. The treating hospital's pharmacy or the insurer can say whether a given medicine is available and covered.",
+        "What is on this page about medicines comes from the 2019 cancer plan, the Ministry's page on its Registration Committee, a Dutch government guide for exporters and CARPHA's guidance. The Ministry's page lists the legislation, among it the Packaged Medicines Decree (G.B. 1973 no. 155) and its amendments of 1986 and 2017, and says a register of medicines can be searched online; neither was read for this page. The national medicines list itself was not found online. The plan's figures, that the list held about half of WHO's anticancer medicines and no targeted therapy, date from 2019 and may have changed. A future pass should read the decrees and the register in Dutch. The treating hospital's pharmacy or the insurer can say whether a given medicine is available and covered.",
       links: [
+        { label: "Ministry of Health: the Registration Committee for medicines (in Dutch)", url: MOH_RC },
         { label: "Netherlands Enterprise Agency: export rules for Suriname (in Dutch)", url: RVO },
         { label: "Ministry of Health: National Cancer Control Plan Suriname 2019-2028 (PDF)", url: NCCP },
       ],
@@ -349,7 +355,7 @@ export const SR_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's National Cancer Control Plan 2019 to 2028, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, a Dutch government guide to export rules, CARPHA's pages on the Caribbean Regulatory System, the State Health Insurance Fund's home page, and five papers resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, the Ministry of Health's National Cancer Control Plan 2019 to 2028, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, a Dutch government guide to export rules, the Ministry of Health's page on its Registration Committee for medicines, CARPHA's pages on the Caribbean Regulatory System, the State Health Insurance Fund's home page, and five papers resolved through Europe PMC.",
   verify:
     "National cancer figures for Suriname are modelled, not counted, and most of what is said here about services, insurance and referral abroad comes from a plan written in 2019. Ask the treating hospital, the State Health Insurance Fund or the Ministry of Health what applies to you now.",
   verifyLinks: [

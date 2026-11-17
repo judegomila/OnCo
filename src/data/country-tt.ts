@@ -12,6 +12,11 @@ import type { CountryDive } from "@/data/country-dive";
  * profile and 2021 cervical cancer profile (PDF text), WHO's HPV coverage, vaccine introduction and health expenditure
  * rows from its public data APIs, IAEA DIRAC's public equipment data, and the papers' abstracts through Europe PMC.
  * Where a figure could not be read it is named under `gaps`.
+ *
+ * Second check, 16 November 2026: every source above was fetched again as raw text. The Division's list of registered
+ * drugs (a PDF of 952 pages) and the Food and Drugs Act, Chapter 30:01 (the Ministry of the Attorney General and Legal
+ * Affairs' copy, updated to 31 December 2016) both answered and were read, so the cards that said they had not been
+ * read were rewritten.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/780-trinidad-and-tobago-fact-sheet.pdf";
 const MOH = "https://health.gov.tt/";
@@ -40,6 +45,8 @@ const WARNER_2018 = "https://doi.org/10.1186/s12885-018-4625-x";
 const WARNER_PROSTATE_2018 = "https://doi.org/10.1007/s10552-018-1038-8";
 const GOPAUL_2023 = "https://doi.org/10.1186/s41043-023-00395-1";
 const ABRAHIM_2025 = "https://doi.org/10.26633/RPSP.2025.52";
+const DRUG_LIST = "https://health.gov.tt/sites/default/files/2025-12/List%20of%20Drugs%20Registered%2099-2025.pdf";
+const FOOD_DRUGS_ACT = "https://rgd.legalaffairs.gov.tt/laws2/alphabetical_list/lawspdfs/30.01.pdf";
 
 export const TT_DIVE: CountryDive = {
   iso2: "TT",
@@ -49,11 +56,11 @@ export const TT_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Trinidad and Tobago",
   description:
-    "Cancer in Trinidad and Tobago from its own and international sources: IARC's estimate of 4,011 new cancers and 2,284 deaths in 2024, built on the national registry's rates, the Dr. Elizabeth Quamina Cancer Registry's count of 3,225 new cases in 2020, cancer care free of charge to citizens in public hospitals, medicines regulated by the Chemistry, Food and Drugs Division, three radiotherapy centres in IAEA's directory, and HPV vaccination since 2012.",
+    "Cancer in Trinidad and Tobago from its own and international sources: IARC's estimate of 4,011 new cancers and 2,284 deaths in 2024, built on the national registry's rates, the Dr. Elizabeth Quamina Cancer Registry's count of 3,225 new cases in 2020, cancer care free of charge to citizens in public hospitals, medicines regulated by the Chemistry, Food and Drugs Division, three radiotherapy centres in IAEA's directory, and HPV vaccination, which WHO's records date to 2012 or 2013.",
   lede:
     "Trinidad and Tobago has a national cancer registry, set up in 1994, whose latest report counts 43,380 people diagnosed from 2003 to 2020 and 3,225 new cases in 2020. IARC builds its national estimate on the registry's rates: 4,011 new cancers and 2,284 deaths in 2024, with prostate and breast cancer the commonest. The Ministry of Health says citizens are entitled to cancer care free of charge on a doctor's referral.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Trinidad and Tobago is 4,011 new cancers and 2,284 deaths, an age-standardised incidence of 170.6 per 100,000 (180.6 in men, 169.9 in women) and mortality of 95.5. The fact sheet gives the country-specific incidence data source as \"Registry (national)\" and the method as \"National rates applied to 2024 population\"; for mortality the source is \"WHO (national)\" and the method \"Trends in national rates projected to 2024\". So this is an estimate carried forward from counted cases, not a model from neighbours. The registry's own report gives 3,225 new cases and 2,035 cancer deaths in 2020, crude rates of 237.7 and 150.0 per 100,000; its figures are crude, IARC's headline rates are age-standardised, and the two are not directly comparable. IARC counts 20 non-melanoma skin cancers among the 4,011 (3,991 excluding them).",
+    "IARC's GLOBOCAN 2024 figure for Trinidad and Tobago is 4,011 new cancers and 2,284 deaths, an age-standardised incidence of 170.6 per 100,000 (180.6 in men, 169.9 in women) and mortality of 95.5. The fact sheet gives the country-specific incidence data source as \"Registry (national)\" and the method as \"National rates applied to 2024 population\"; for mortality the source is \"WHO (national)\" and the method \"Trends in national rates projected to 2024\". So this is an estimate carried forward from counted cases, not a model from neighbours. The registry's own report gives 3,225 new cases and 2,035 cancer deaths in 2020, crude rates of 237.7 and 150.0 per 100,000; those two rates are crude, IARC's headline rates are age-standardised, and the two are not directly comparable (the report's tables by cancer site also carry age-standardised rates). IARC counts 20 non-melanoma skin cancers among the 4,011 (3,991 excluding them).",
   sections: [
     {
       id: "profile",
@@ -67,7 +74,7 @@ export const TT_DIVE: CountryDive = {
           plain:
             "IARC estimates 4,011 new cancers in Trinidad and Tobago in 2024, 1,929 in men and 2,082 in women, and 2,284 cancer deaths. Prostate cancer is the commonest overall, then breast and colorectal cancer. In women, cancer of the womb lining (corpus uteri) is second after breast cancer.",
           detail:
-            "The GLOBOCAN 2024 fact sheet gives 793 prostate cancers (342 deaths), 654 breast cancers (284 deaths), 429 colorectal cancers (253 deaths), 278 lung cancers (226 deaths), 244 cancers of the corpus uteri (102 deaths) and 193 cervical cancers (112 deaths). In men the leading cancers are prostate (793, 41.1%), colorectum (221) and lung (197); in women, breast (654, 31.4%), corpus uteri (244, 11.7%) and colorectum (208). Pancreatic cancer is fifth by deaths (119). The risk of developing cancer before 75 is 17.8% and of dying of it 9.0%. An analysis of registry data for 1995 to 2009 put prostate cancer mortality at 47.1 per 100,000 in 2009, which its authors describe as one of the highest in the world.",
+            "The GLOBOCAN 2024 fact sheet gives 793 prostate cancers (342 deaths), 654 breast cancers (284 deaths), 429 colorectal cancers (253 deaths), 278 lung cancers (226 deaths), 244 cancers of the corpus uteri (102 deaths) and 193 cervical cancers (112 deaths). In men the leading cancers are prostate (793, 41.1%), colorectum (221) and lung (197); in women, breast (654, 31.4%), corpus uteri (244, 11.7%) and colorectum (208). Pancreatic cancer is fifth by deaths (119). The risk of developing cancer before 75 is 17.8% and of dying of it 9.0%. An analysis of registry data for 1995 to 2009 put age-standardised prostate cancer mortality at 47.1 per 100,000 in 2009 (1960 world standard), and its authors describe the country's prostate cancer mortality as one of the highest in the world.",
           links: [
             { label: "IARC: GLOBOCAN 2024 fact sheet, Trinidad and Tobago (PDF)", url: IARC_FACTSHEET },
             { label: "Warner et al., the burden of prostate cancer in Trinidad and Tobago (Cancer Causes Control 2018)", url: WARNER_PROSTATE_2018 },
@@ -181,8 +188,11 @@ export const TT_DIVE: CountryDive = {
           plain:
             "Medicines are regulated by the Chemistry, Food and Drugs Division of the Ministry of Health, which administers the Food and Drugs Act and its Regulations. A Drug Advisory Committee advises the Minister, and the Division's Drug Registration Unit takes applications to register new drugs.",
           detail:
-            "The Division's page gives its mission as ensuring safe quality of an equitable standard for food, drugs, cosmetics and medical devices, and providing laboratory services. It says the Drug Advisory Committee advises the Minister on drug standards, schedules of drugs and conditions of sale, and that the Drug Registration Unit acts for the Committee in accepting applications to register new drugs under the Second Schedule, Division 3, of the Food and Drugs Act and Regulations, Chapter 30:01. The page offers a list of drugs registered from 1999 to 2025. OnCo did not read the Act itself or the list, so which cancer medicines are registered is not on this page.",
-          links: [{ label: "Ministry of Health: Chemistry, Food and Drugs Division", url: CFDD }],
+            "The Division's page gives its mission as ensuring safe quality of an equitable standard for food, drugs, cosmetics and medical devices, and providing laboratory services. It says the Drug Advisory Committee advises the Minister on drug standards, schedules of drugs and conditions of sale, and that the Drug Registration Unit acts for the Committee in accepting applications to register new drugs under the Second Schedule, Division 3, of the Food and Drugs Act and Regulations, Chapter 30:01. The page offers a list of drugs registered from 1999 to 2025. The Act's regulations say no one may import, sell or advertise for sale a new drug unless a new drug submission has been filed with the Minister and the Minister has issued a notice of approval that has not been withdrawn. The list is arranged by trade name, not by disease, so this page does not set out which cancer medicines are registered; the gaps below say what a search of it found.",
+          links: [
+            { label: "Ministry of Health: Chemistry, Food and Drugs Division", url: CFDD },
+            { label: "Laws of Trinidad and Tobago: Food and Drugs Act, Chapter 30:01 (updated to 31 December 2016, PDF)", url: FOOD_DRUGS_ACT },
+          ],
         },
         {
           id: "caribbean-regulatory-system",
@@ -208,9 +218,9 @@ export const TT_DIVE: CountryDive = {
           id: "cervical-screening",
           title: "Cervical screening by Pap smear, for women aged 18 to 65",
           plain:
-            "WHO's 2021 profile records a national cervical screening programme that uses cytology (the Pap smear) for women aged 18 to 65. It estimates that 5 in 10 women aged 30 to 49 had been screened in the previous five years.",
+            "WHO's 2021 profile records a national cervical screening programme that uses cytology (the Pap smear) for women aged 18 to 65. It estimates that in 2019, 5 in 10 women aged 30 to 49 had been screened in the previous five years.",
           detail:
-            "The WHO cervical cancer profile gives 56% of women aged 30 to 49 screened in the last five years and 66% ever screened, and 97 cervical cancer deaths in 2019. WHO's 2020 cancer profile describes the cervical programme as organised. The National Strategic Plan for the Prevention and Control of Non Communicable Diseases 2017 to 2021 set out to scale up cervical screening to a national programme, to review the screening programmes for cervical, breast and prostate cancer in primary care and to standardise their protocols. For breast screening, the 2020 profile's answer is \"don't know\". OnCo found no published count of women screened.",
+            "The WHO cervical cancer profile gives, for 2019, 56% of women aged 30 to 49 screened in the last five years and 66% ever screened, and 97 cervical cancer deaths. WHO's 2020 cancer profile describes the cervical programme as organised. The National Strategic Plan for the Prevention and Control of Non Communicable Diseases 2017 to 2021 set out to scale up cervical screening to a national programme, to review the screening programmes for cervical, breast and prostate cancer in primary care and to standardise their protocols. For breast screening, the 2020 profile's answer is \"don't know\". OnCo found no published count of women screened.",
           links: [
             { label: "WHO: cervical cancer country profile, Trinidad and Tobago (2021, PDF)", url: WHO_CX_2021 },
             { label: "WHO: cancer country profile, Trinidad and Tobago (2020, PDF)", url: WHO_2020 },
@@ -223,11 +233,12 @@ export const TT_DIVE: CountryDive = {
           plain:
             "WHO records the HPV vaccine as introduced nationwide in Trinidad and Tobago in 2012. In 2025, 41% of girls and 27% of boys in the target group had a first dose, and 15% of girls and 9% of boys a last dose.",
           detail:
-            "WHO's vaccine introduction rows give 2012 as the year of introduction; its 2021 cervical cancer profile gives 2013 and a primary target of girls aged 11 to 15. First-dose programme coverage in girls was 34% in 2023, 38% in 2024 and 41% in 2025 (3,756 doses against a target of 9,196); last-dose coverage was 12%, 16% and 15%. For boys, first-dose coverage was 34%, 17% and 27% in those years. WHO's elimination target is 90% of girls fully vaccinated by the age of 15.",
+            "WHO's vaccine introduction rows give 2012 as the year of introduction; its 2021 cervical cancer profile gives 2013 and a primary target of girls aged 11 to 15, and the country's own NCD plan for 2017 to 2021 also dates the vaccine's introduction to 2013. First-dose programme coverage in girls was 34% in 2023, 38% in 2024 and 41% in 2025 (3,756 doses against a target of 9,196); last-dose coverage was 12%, 16% and 15%. For boys, first-dose coverage was 34%, 17% and 27% in those years. WHO's elimination target is 90% of girls fully vaccinated by the age of 15.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Trinidad and Tobago (API)", url: WHO_HPV_API },
             { label: "WHO: vaccine introduction rows for Trinidad and Tobago (API)", url: WHO_INTRO_API },
             { label: "WHO: cervical cancer country profile, Trinidad and Tobago (2021, PDF)", url: WHO_CX_2021 },
+            { label: "Ministry of Health: National Strategic Plan for the Prevention and Control of NCDs 2017 to 2021 (PDF)", url: NCD_PLAN },
           ],
         },
       ],
@@ -333,11 +344,13 @@ export const TT_DIVE: CountryDive = {
       id: "medicines-list",
       title: "Which cancer medicines the public hospitals supply was not found",
       plain:
-        "The Ministry says cancer treatment is free to citizens, but OnCo found no public list of the cancer medicines its hospitals stock. The free chronic disease medicines scheme does not cover cancer, and the list of registered drugs was not read.",
+        "The Ministry says cancer treatment is free to citizens, but OnCo found no public list of the cancer medicines its hospitals stock. The free chronic disease medicines scheme does not list cancer among its conditions. The list of registered drugs shows what may be sold, not what a hospital has.",
       detail:
-        "The Chemistry, Food and Drugs Division's list of drugs registered from 1999 to 2025 is a download that OnCo did not open, and the Food and Drugs Act was not read from the government's law site, which returned a web page in place of the document. Whether a newer medicine is registered, stocked or has to be bought privately is a question for the treating oncology clinic or the hospital pharmacy. The Ministry's page for the assistance programme lists a hotline, 800-CDAP.",
+        "The Chemistry, Food and Drugs Division's list of drugs registered from 1999 to 2025 was opened on 16 November 2026. It is a PDF of 952 pages that gives, under a heading for each year, a registration number, the trade name and form, the manufacturer, the country of origin and the condition of sale. It is arranged by trade name, not by active substance or disease. A search of its text found Herceptin, Glivec, Avastin, Keytruda, Tagrisso and Enhertu among the trade names; OnCo did not go through the list entry by entry, and a name that a search misses is not proof that a medicine is unregistered. The Food and Drugs Act, Chapter 30:01, was read the same day in the copy on the Ministry of the Attorney General and Legal Affairs' site, an unofficial version updated to 31 December 2016. Neither document says what a public hospital stocks. Whether a newer medicine is registered, stocked or has to be bought privately is a question for the treating oncology clinic or the hospital pharmacy. The Ministry's page for the assistance programme lists a hotline, 800-CDAP.",
       links: [
         { label: "Ministry of Health: Chemistry, Food and Drugs Division", url: CFDD },
+        { label: "Chemistry, Food and Drugs Division: list of drugs registered 1999 to 2025 (PDF, 952 pages)", url: DRUG_LIST },
+        { label: "Laws of Trinidad and Tobago: Food and Drugs Act, Chapter 30:01 (updated to 31 December 2016, PDF)", url: FOOD_DRUGS_ACT },
         { label: "Ministry of Health: Chronic Disease Assistance Programme", url: CDAP },
       ],
     },
@@ -347,7 +360,7 @@ export const TT_DIVE: CountryDive = {
       plain:
         "The newest official statement OnCo read on the National Oncology Centre is from July 2025 and says it was nearing completion. The NCD plan found ran to 2021, and the National Cancer Plan it refers to was not found.",
       detail:
-        "UDeCOTT's project page carries no date and no opening. The International Cancer Control Partnership's country addresses tried for Trinidad and Tobago returned no page, so its list of plans was not read. Numbers of oncologists and radiotherapy waiting times were not found in a current primary source; WHO's 2020 profile carries workforce figures from 2019. Tobago has no radiotherapy centre in IAEA's directory, and how patients there are referred to Trinidad was not found.",
+        "UDeCOTT's project page carries no date and no opening. A search of the Ministry of Health's site for the centre's name on 16 November 2026 returned the Minister's address of July 2025 and a freedom of information statement, and no announcement of an opening. The International Cancer Control Partnership's country addresses tried for Trinidad and Tobago returned no page, on 16 November 2026 as before, so its list of plans was not read. Numbers of oncologists and radiotherapy waiting times were not found in a current primary source; WHO's 2020 profile carries workforce figures from 2019. Tobago has no radiotherapy centre in IAEA's directory, and how patients there are referred to Trinidad was not found.",
       links: [
         { label: "UDeCOTT: the National Oncology Centre", url: UDECOTT_NOC },
         { label: "Ministry of Health", url: MOH },
@@ -367,7 +380,7 @@ export const TT_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from Trinidad and Tobago's own sources and from international agencies, read in full as raw text, not through a summary: the Ministry of Health's pages on the cancer registry, cancer care, the Chronic Disease Assistance Programme and the Chemistry, Food and Drugs Division; the registry's report for 2003 to 2020; the Minister's address of 11 July 2025; the NCD plan for 2017 to 2021; UDeCOTT's project page; CARPHA's pages; WHO's 2020 and 2021 profiles and its vaccine and health expenditure rows from its public data APIs; IAEA DIRAC's public equipment data; IARC's GLOBOCAN 2024 fact sheet; and the papers through Europe PMC. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the registry and three papers) carry their own sources.",
+    "Every card was written from Trinidad and Tobago's own sources and from international agencies, read in full as raw text, not through a summary: the Ministry of Health's pages on the cancer registry, cancer care, the Chronic Disease Assistance Programme and the Chemistry, Food and Drugs Division, with the Division's list of registered drugs and the Food and Drugs Act; the registry's report for 2003 to 2020; the Minister's address of 11 July 2025; the NCD plan for 2017 to 2021; UDeCOTT's project page; CARPHA's pages; WHO's 2020 and 2021 profiles and its vaccine and health expenditure rows from its public data APIs; IAEA DIRAC's public equipment data; IARC's GLOBOCAN 2024 fact sheet; and the papers through Europe PMC. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the registry and three papers) carry their own sources.",
   verify:
     "The registry's counts stop at 2020 and IARC's 2024 figures are estimates built on them. Whether the National Oncology Centre is open, which medicines a hospital has in stock and how long the wait for radiotherapy is change faster than any report; ask the treating hospital or the Ministry of Health what applies to you.",
   verifyLinks: [

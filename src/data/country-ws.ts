@@ -10,12 +10,20 @@ import type { CountryDive } from "@/data/country-dive";
  * its public data APIs; IAEA DIRAC's public equipment data; the Pasifika Medical Association Group's page for the New
  * Zealand Medical Treatment Scheme; the full text of Sarfati et al. 2019 through PubMed Central; and the other papers'
  * abstracts through Europe PMC. Where a figure could not be read it is named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every source above was fetched again and re-read as raw text. DIRAC's
+ * equipment grid (8,627 rows, 157 countries) has no row for Samoa. The Ministry's publications page was read for the
+ * first time: its latest annual report is for 2023-2024, and it carries the Pharmacy Act 2007, which was read. UICC's
+ * member page for the Samoa Cancer Society and the Pacific Islands Legal Information Institute both refused an
+ * automated request, so what rests on them is labelled as not re-verified.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/882-samoa-fact-sheet.pdf";
 const CANCER_POLICY = "https://www.health.gov.ws/wp-content/uploads/2025/02/NATIONAL-CANCER-POLICY-AND-ACTION-PLAN-MASTER-COPY-12.09.2024.pdf";
 const OVT_POLICY = "https://www.health.gov.ws/wp-content/uploads/2024/06/OVT-Revised-Policy-2023-ENDORSED-COPY-BY-NPCC-28-08-2023.pdf";
 const MEDICINES_POLICY = "https://www.health.gov.ws/wp-content/uploads/2024/06/FINAL-NATIONAL-MEDICINES-POLICY-PLAN-OF-ACTION_MASTER-COPY.pdf";
 const MOH = "https://www.health.gov.ws/";
+const MOH_PUBLICATIONS = "https://www.health.gov.ws/acts-regulations/";
+const PHARMACY_ACT = "https://www.health.gov.ws/wp-content/uploads/2022/07/13Pharmacy_Act_2007-_Eng.pdf";
 const WHO_PROFILE_2020 = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/wsm-2020.pdf";
 const WHO_CERVICAL_2021 = "https://cdn.who.int/media/docs/default-source/country-profiles/cervical-cancer/cervical-cancer-wsm-2021-country-profile-en.pdf";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'WSM'%20and%20startswith(ANTIGEN,'PRHPV')";
@@ -42,7 +50,7 @@ export const WS_DIVE: CountryDive = {
   description:
     "Cancer in Samoa from its own and WHO sources: IARC's estimate of 317 new cancers and 139 deaths in 2024, based on neighbouring countries' data; 149 cancers confirmed by the national hospital laboratory in 2023; a National Cancer Policy for 2024/25 to 2028/29; no radiotherapy and no intravenous chemotherapy for adults in the country; and two overseas treatment schemes, funded by Samoa and by New Zealand.",
   lede:
-    "Samoa's National Cancer Policy says plainly what the country can and cannot yet do: surgeons in Apia operate on cancer, but no intravenous cancer treatment is given to adults and there is no radiation therapy, so treatment beyond surgery means a referral overseas under a scheme funded by the Samoan or the New Zealand government. IARC estimates 317 new cancers and 139 deaths in 2024, a figure built from neighbouring countries' data.",
+    "Samoa's National Cancer Policy says plainly what the country can and cannot yet do: surgeons in Apia operate on cancer, but no intravenous cancer treatment is given to adults and there is no radiation therapy, so most treatment beyond surgery means a referral overseas under a scheme funded by the Samoan or the New Zealand government. IARC estimates 317 new cancers and 139 deaths in 2024, a figure built from neighbouring countries' data.",
   globocanNote:
     "IARC's GLOBOCAN 2024 figure for Samoa is 317 new cancers and 139 deaths, an age-standardised incidence of 168.8 per 100,000 (157.5 in men, 182.0 in women) and mortality of 74.2. The fact sheet names no country-specific incidence source and gives the method as \"Rates based on incidence estimates or registry data from neighbouring countries\": the incidence is not built from Samoan diagnoses. For mortality the data source is \"No data\" and the method \"National incidence estimates applied to model-based M:I ratios (neighbouring country registry data)\", so the deaths are in turn derived from that incidence estimate. Samoa's own hospital laboratory confirmed 149 cancers in 2023, which the National Cancer Policy says is only a minority of the cases in the country. The fact sheet's totals with and without non-melanoma skin cancer are the same.",
   sections: [
@@ -93,6 +101,7 @@ export const WS_DIVE: CountryDive = {
             { site: "Thyroid", cases: 22, deaths: 0 },
             { site: "Liver", cases: 14, deaths: 11 },
             { site: "Corpus uteri", cases: 14, deaths: 0 },
+            { site: "Non-Hodgkin lymphoma", cases: 14, deaths: 4 },
             { site: "Stomach", cases: 12, deaths: 12 },
             { site: "All cancers", cases: 317, deaths: 139 },
           ],
@@ -173,7 +182,7 @@ export const WS_DIVE: CountryDive = {
           id: "quality-assurance-division",
           title: "The Ministry of Health regulates medicines through its Quality Assurance Division",
           plain:
-            "Samoa has no separate medicines agency. The Ministry of Health regulates medicines through its Quality Assurance Division, under laws that include the Drugs Act 1967, the Narcotics Act 1967 and the Poisons Act 1968. Its essential medicines list of 2022 holds about 170 medicines.",
+            "The sources OnCo read describe no separate medicines agency in Samoa. The National Medicines Policy says the Ministry of Health is in charge of regulating medicines through its Quality Assurance Division, under laws that include the Drugs Act 1967, the Narcotics Act 1967 and the Poisons Act 1968. It says the essential medicines list holds about 170 medicines; the latest edition it names is that of 2022.",
           detail:
             "The National Medicines Policy for 2023/24 to 2027/28 names five laws as the framework: the Drugs Act 1967, the Narcotics Act 1967, the Ministry of Health Act 2006, the National Health Services Act 2006 and the Poisons Act 1968, and elsewhere adds the Pharmacy Act 2007. Its own review says the legal framework is old, that medicine supply and regulation are not fully separated, and that the review of products for registration does not clearly cover quality, safety and efficacy. Samoa takes part in the Pacific Medicines Testing Program led by Australia's Therapeutic Goods Administration, which tests five products a year for each island country at no charge. The policy also says that no system for evaluating, registering or listing products exists at the moment, and that Samoa depends on reliance on Australia and New Zealand when it imports medicines and selects them for purchase; it does not set out how that reliance works.",
           links: [
@@ -195,7 +204,7 @@ export const WS_DIVE: CountryDive = {
           plain:
             "Samoa added the HPV vaccine to its national immunisation programme in 2022. WHO's rows for 2025 give 87% coverage: 2,260 doses for a target of 2,601 girls. Samoa reports the same figure for the first and the last dose.",
           detail:
-            "WHO's vaccine introduction rows record nationwide HPV vaccination from 2022. Its coverage rows give 67% in 2022, when the target was 12,952 girls, then 85% in 2023, 84% in 2024 and 87% in 2025, with the target population varying between about 2,500 and 7,800 from year to year. WHO's 2021 cervical cancer profile, written before the introduction, records no HPV vaccination programme. The National Cancer Policy lists keeping up HPV and hepatitis B vaccination among its prevention actions and adopts the WHO target of 90% of girls fully vaccinated by the age of 15.",
+            "WHO's vaccine introduction rows record nationwide HPV vaccination from 2022. Its introduction rows give the schedule as one dose, which is why the first and last dose figures match. Its coverage rows give 67% in 2022, when the target was 12,952 girls, then 85% in 2023, 84% in 2024 and 87% in 2025, with the target population varying between about 2,500 and 7,800 from year to year. WHO's 2021 cervical cancer profile, written before the introduction, records no HPV vaccination programme. The National Cancer Policy lists keeping up HPV and hepatitis B vaccination among its prevention actions and adopts the WHO target of 90% of girls fully vaccinated by the age of 15.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Samoa (API)", url: WHO_HPV_API },
             { label: "WHO: vaccine introduction rows for Samoa (API)", url: WHO_INTRO_API },
@@ -208,7 +217,7 @@ export const WS_DIVE: CountryDive = {
           plain:
             "The National Cancer Policy says Samoa has no consistent national screening programme and that screening happens opportunistically. It plans a cervical screening programme based on HPV testing with treatment of pre-cancer, starting as a pilot, as part of a single women's health check.",
           detail:
-            "The policy says the \"Pinktober\" campaign for breast and other cancers does not run all year and that there is no evidence it has increased screening. It sets out a pilot HPV screen-and-treat programme with point-of-care testing, to be combined with breast examination, blood pressure, weight and glucose checks in one visit, and leaves mammography and Pap smear programmes to be considered as the health system strengthens; the hospital has one analogue mammography unit. WHO's 2021 profile records no national cervical screening programme and estimates that 29% of women aged 30 to 49 had been screened in the previous five years and 36% ever. WHO's 2020 profile also records no breast screening programme.",
+            "The policy says the \"Pinktober\" campaign for breast and other cancers does not run all year and that there is no evidence it has increased screening. It sets out a pilot HPV screen-and-treat programme with point-of-care testing, to be combined with breast examination, blood pressure, body mass index and glucose checks in one visit, and leaves mammography and Pap smear programmes to be considered as the health system strengthens; the hospital has one analogue mammography unit. WHO's 2021 profile records no national cervical screening programme and estimates that 29% of women aged 30 to 49 had been screened in the previous five years and 36% ever. WHO's 2020 profile also records no breast screening programme.",
           links: [
             { label: "Ministry of Health: National Cancer Policy and Action Plan FY2024/25 to FY2028/29 (PDF)", url: CANCER_POLICY },
             { label: "WHO: cervical cancer country profile 2021, Samoa (PDF)", url: WHO_CERVICAL_2021 },
@@ -229,7 +238,7 @@ export const WS_DIVE: CountryDive = {
           plain:
             "The National Cancer Policy states that there is no radiation therapy available in Samoa and that no intravenous cancer treatment is currently given to adults. IAEA's radiotherapy directory lists no centre in Samoa. Cancer surgery is done in Apia, and some hormone tablets are available.",
           detail:
-            "The policy says two general surgeons, two gynaecologists and one oral surgeon carry out cancer operations, including mastectomy, thyroidectomy, bowel resection and hysterectomy. Women with hormone-positive breast cancer can have tamoxifen, the one hormone therapy on the essential medicines list; aromatase inhibitors can be obtained through private clinics; abiraterone and steroids are available for prostate cancer; and methotrexate is listed, though clinicians have not felt able to give it safely without guidelines and support. Tupua Tamasese Meaole Hospital has one pathologist, one full-time radiologist and a 256-slice CT scanner, and cannot do CT-guided or lung biopsies. Treatment beyond this means referral under the overseas schemes described above.",
+            "The policy says two general surgeons, two gynaecologists and one oral surgeon carry out cancer operations, including mastectomy, thyroidectomy, bowel resection and hysterectomy. Women with hormone-positive breast cancer can have tamoxifen, the one hormone therapy on the essential medicines list; aromatase inhibitors can be obtained through private clinics; abiraterone and steroids are available for prostate cancer; and methotrexate is listed, though clinicians have not felt able to give it safely, for cases such as gestational choriocarcinoma, without guidelines and support. Tupua Tamasese Meaole Hospital has one pathologist, one full-time radiologist and a 256-slice CT scanner, and cannot do CT-guided or lung biopsies. Treatment beyond this means referral under the overseas schemes described above.",
           links: [
             { label: "Ministry of Health: National Cancer Policy and Action Plan FY2024/25 to FY2028/29 (PDF)", url: CANCER_POLICY },
             { label: "IAEA DIRAC: radiotherapy equipment by centre (read 16 November 2026)", url: DIRAC },
@@ -255,14 +264,14 @@ export const WS_DIVE: CountryDive = {
           id: "policy-candour",
           title: "A national cancer policy that counts what is missing and costs the plan to fix it",
           plain:
-            "Samoa's National Cancer Policy and Action Plan for 2024/25 to 2028/29 treats local services, visiting medical teams and overseas treatment as one system. It sets ten priorities, from health promotion to a cancer centre, and puts a cost in tala against each action.",
+            "Samoa's National Cancer Policy and Action Plan for 2024/25 to 2028/29 treats local services, visiting medical teams and overseas treatment as one system. It sets ten priorities, from health promotion to a cancer centre, and its annex puts a cost in tala against each action, 13,089,500 tala over five years in all.",
           detail:
             "The policy's stated objective includes lessening dependence on expensive overseas treatment by strengthening prevention, early diagnosis and local treatment. Its priorities are health promotion, cancer information campaigns, early detection, screening, local diagnostic services, local treatment services, an equitable and cost-effective overseas treatment programme, palliative care, a cancer registry and a cancer centre to coordinate them. It was written with consultation of 40 organisations and names partners including New Zealand's Polynesian Health Corridors team and the University of Auckland. It says cancer is the second commonest cause of death in Samoa after cardiovascular disease.",
           links: [{ label: "Ministry of Health: National Cancer Policy and Action Plan FY2024/25 to FY2028/29 (PDF)", url: CANCER_POLICY }],
         },
         {
           id: "vave-campaign",
-          title: "Vave, a cancer awareness campaign in Samoan run by the Samoa Cancer Society",
+          title: "Vave, a cancer awareness campaign run by the Samoa Cancer Society",
           plain:
             "The Samoa Cancer Society ran a campaign called Vave, meaning quickly, with three messages: notice signs and symptoms quickly, see a doctor quickly, and call the Society quickly. It used mass media, printed material, and visits to churches, villages and schools.",
           detail:
@@ -285,7 +294,7 @@ export const WS_DIVE: CountryDive = {
           plain:
             "None of the cancer trials in OnCo's ClinicalTrials.gov participation data lists Samoa. OnCo holds a selection of trials, not the whole registry, so search the registry itself. The published papers OnCo found are on cancer counts, awareness and delays in diagnosis.",
           detail:
-            "The papers behind this page are the ten-year survey of confirmed cancers from 2007 to 2016, led from Tupua Tamasese Meaole Hospital with IARC and the University of Otago as a first step towards population-based registration; the 2023 evaluation of the Vave campaign; and the 2021 interview study of patients' routes to diagnosis. A 2019 review of cancer control across the Pacific, with Samoan authors, recorded for mid-2018 that chemotherapy in Samoa was available for children only and that there was no radiotherapy.",
+            "The papers behind this page are the ten-year survey of confirmed cancers from 2007 to 2016, led from Tupua Tamasese Meaole Hospital with IARC and the University of Otago as, in the authors' words, a preliminary step to upscale population-based cancer registry initiatives; the 2023 evaluation of the Vave campaign; and the 2021 interview study of patients' routes to diagnosis. A 2019 review of cancer control across the Pacific, with Samoan authors, recorded for mid-2018 that chemotherapy in Samoa was available for children only and that there was no radiotherapy.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Samoa", url: CTGOV },
             { label: "Amosa-Lei Sam et al., cancer incidence in Samoa 2007 to 2016 (Asia Pac J Public Health 2021)", url: AMOSA_2021 },
@@ -302,7 +311,7 @@ export const WS_DIVE: CountryDive = {
       plain:
         "The laboratory registry counts only cancers confirmed under the microscope, and IARC's estimate is built from neighbouring countries. Neither is a count of everyone diagnosed in Samoa, and OnCo found no survival figure for any cancer.",
       detail:
-        "IARC's 317 cases for 2024 is about twice the 149 the laboratory confirmed in 2023, and the Ministry itself says the unrecorded number is significantly higher than its count. The registry does not yet record stage, treatment or outcome. WHO's 2020 and 2021 profiles both describe a population-based registry as existing, which sits uneasily with the policy's own description of a laboratory spreadsheet; this page follows the Ministry's account. The cancer registry promised by 2028/29 is what would settle the figures.",
+        "IARC's 317 cases for 2024 is about twice the 149 the laboratory confirmed in 2023, and the Ministry itself says the unrecorded number is significantly higher than its count. The policy plans a registry that records stage, treatment and outcome, and does not say that the present spreadsheet does. WHO's 2020 and 2021 profiles both describe a population-based registry as existing, which sits uneasily with the policy's own description of a laboratory spreadsheet; this page follows the Ministry's account. The cancer registry promised by 2028/29 is what would settle the figures.",
       links: [
         { label: "Ministry of Health: National Cancer Policy and Action Plan FY2024/25 to FY2028/29 (PDF)", url: CANCER_POLICY },
         { label: "WHO: cancer country profile 2020, Samoa (PDF)", url: WHO_PROFILE_2020 },
@@ -314,21 +323,23 @@ export const WS_DIVE: CountryDive = {
       plain:
         "The National Cancer Policy runs from 2024/25. OnCo found no published report on what has been done so far, including whether the HPV screen-and-treat pilot has started, and no Ministry document on what patients pay in public hospitals.",
       detail:
-        "The policy's indicators are to be reported in the Ministry's annual reports and at a mid-term review; the most recent annual report was not read. The Ministry of Health's home page was not searched for news. The Samoa Cancer Society's own website could not be reached when OnCo's record of it was written on 11 November 2026 and was not tried again. The Society's National Cancer Resource Centre in Apia and the Ministry are the places to ask what is running now.",
+        "The policy's indicators are to be reported in the Ministry's annual reports and at a mid-term review. On 16 November 2026 the latest annual report on the Ministry's publications page was the one for 2023-2024, the year before the policy starts, so it cannot report on it; OnCo did not read it. The Ministry's home page carried no item on cancer that day. The Samoa Cancer Society's own website could not be reached when OnCo's record of it was written on 11 November 2026 and was not tried again. The Society's National Cancer Resource Centre in Apia and the Ministry are the places to ask what is running now; the Centre is named on UICC's member page for the Society, which refused an automated request on 16 November 2026, so it was not re-verified.",
       links: [
         { label: "Ministry of Health, Samoa", url: MOH },
+        { label: "Ministry of Health: publications page, with its annual reports", url: MOH_PUBLICATIONS },
         { label: "Ministry of Health: National Cancer Policy and Action Plan FY2024/25 to FY2028/29 (PDF)", url: CANCER_POLICY },
       ],
     },
     {
       id: "medicines-law",
-      title: "The medicines laws and the essential medicines list were not read",
+      title: "The Drugs Act and the essential medicines list were not read",
       plain:
-        "OnCo read the National Medicines Policy but not the Drugs Act 1967, the Pharmacy Act 2007 or the Essential Medicines List 2022 themselves. Which cancer medicines are on the list, beyond those the cancer policy names, is not on this page.",
+        "OnCo read the National Medicines Policy and the Pharmacy Act 2007, but not the Drugs Act 1967 or the Essential Medicines List 2022 themselves. Which cancer medicines are on the list, beyond those the cancer policy names, is not on this page.",
       detail:
-        "The cancer policy names tamoxifen and methotrexate as listed, and abiraterone as available. The Pacific Islands Legal Information Institute, which publishes Pacific legislation, refused an automated request on 16 November 2026, so the Acts were not retrieved. The National Medicines Policy says the 2022 list was drawn up by an ad hoc committee and that the national medicines and therapeutics committee did not appear to be functioning. The Ministry's pharmacy service can say what is stocked.",
+        "The cancer policy names tamoxifen and methotrexate as listed, and abiraterone as available. The Pharmacy Act 2007 is on the Ministry's publications page. Its long title describes it as an Act for \"a reformed Pharmacists Council\" and \"the professional administration of the pharmacy profession in Samoa\", and its parts cover the registration and discipline of pharmacists; it is about the profession, not about how a medicine is approved. OnCo did not find the Drugs Act 1967 or the Essential Medicines List 2022 on that page on 16 November 2026. The Pacific Islands Legal Information Institute, which publishes Pacific legislation, refused an automated request the same day, so the Drugs Act was not retrieved. The National Medicines Policy says the 2022 list was drawn up by an ad hoc committee and that the national medicines and therapeutics committee did not appear to be functioning. The Ministry's pharmacy service can say what is stocked.",
       links: [
         { label: "Ministry of Health: National Medicines Policy and Plan of Action FY2023/24 to FY2027/28 (PDF)", url: MEDICINES_POLICY },
+        { label: "Ministry of Health: Pharmacy Act 2007 (PDF)", url: PHARMACY_ACT },
         { label: "Ministry of Health: National Cancer Policy and Action Plan FY2024/25 to FY2028/29 (PDF)", url: CANCER_POLICY },
       ],
     },

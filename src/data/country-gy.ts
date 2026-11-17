@@ -72,9 +72,9 @@ export const GY_DIVE: CountryDive = {
           id: "registry",
           title: "A national cancer registry since 2000, part of the Ministry of Health",
           plain:
-            "The Cancer Registry of Guyana was set up in 2000 inside the Ministry of Health and collects cases from public and private hospitals and laboratories. Its counts are lower than IARC's estimates, and IARC does not use them for its national figures.",
+            "The Cancer Registry of Guyana was set up in 2000 inside the Ministry of Health and collects cases from public and private hospitals and laboratories. Its yearly cervical cancer counts for 2020 to 2023, between 56 and 91, are below IARC's estimate of 139 for 2024, while the 693 cancers of all kinds it recorded in the first half of 2024 are about half of IARC's 1,350 for the whole year. IARC's fact sheet lists no incidence data for Guyana.",
           detail:
-            "A 2009 paper by the registry's staff describes it as population-based, built on pathologically supported diagnoses abstracted from the records of institutions across the country, and names its difficulties: no law making cancer a notifiable disease, cancer left off death certificates, and wealthier patients seeking diagnosis and treatment abroad. Its database then held 589 breast, 573 cervical and 525 prostate cancers. The Ministry's 2024 action plan reports 56, 57, 91 and 68 cervical cancers from the registry for 2020 to 2023. Kaieteur News reported in October 2024 that the registry had recorded 693 cancers in the first half of 2024, 149 of them breast and 91 prostate. IAEA's note on its 2018 review says the Ministry planned to strengthen registration. Guyana is covered by the IARC Caribbean Cancer Registry Hub.",
+            "A 2009 paper by the registry's staff describes it as population-based, built on pathologically supported diagnoses abstracted from the records of institutions across the country, and names its difficulties: no law making cancer a notifiable disease, cancer not recorded as a contributory cause of death where it was the underlying disease, and wealthier patients seeking diagnosis and treatment abroad. Its database then held 589 breast, 573 cervical and 525 prostate cancers. The Ministry's 2024 action plan reports 56, 57, 91 and 68 cervical cancers from the registry for 2020 to 2023. Kaieteur News reported in October 2024 that the registry had recorded 693 cancers in the first half of 2024, 149 of them breast and 91 prostate. IAEA's note on its 2018 review says the Ministry planned to strengthen registration. Guyana is covered by the IARC Caribbean Hub for Cancer Registration.",
           links: [
             { label: "Best Plummer et al., ethnicity and cancer in Guyana (Infect Agent Cancer 2009)", url: PLUMMER_2009 },
             { label: "Ministry of Health: Action Plan for the Elimination of Cervical Cancer in Guyana 2024-2030 (PDF, ICCP portal)", url: ACTION_PLAN },
@@ -215,7 +215,7 @@ export const GY_DIVE: CountryDive = {
         },
         {
           id: "hpv-vaccine",
-          title: "HPV vaccination reached 71% of girls in 2024, after years below 40%",
+          title: "HPV vaccination reached 71% of girls in 2024, after years at 40% or lower",
           plain:
             "Guyana began HPV vaccination in 2012 and made it nationwide in 2017. WHO's figures show coverage among girls at 71% in 2024 and 2025, up from 40% in 2023 and 2% in 2021. Boys are also vaccinated; their coverage was 33% in 2025.",
           detail:
@@ -238,7 +238,7 @@ export const GY_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "One radiotherapy centre, in Georgetown, with one linear accelerator",
           plain:
-            "IAEA's radiotherapy directory lists one centre in Guyana, the Cancer Institute of Guyana on the Georgetown Public Hospital compound, with one linear accelerator and a brachytherapy unit. Chemotherapy and most cancer surgery are given at the public hospital next to it.",
+            "IAEA's radiotherapy directory lists one centre in Guyana, the Cancer Institute of Guyana on the Georgetown Public Hospital compound, with one linear accelerator and a brachytherapy unit. In 2018 most cancer surgery and chemotherapy were done at the public hospital, on whose compound the institute stands.",
           detail:
             "IAEA DIRAC's public equipment data, read on 16 November 2026, lists for the Cancer Institute of Guyana one linear accelerator, one high-dose-rate brachytherapy unit, one CT scanner and one treatment planning system, in an entry last updated in 2024, for a population of about 836,000. IAEA's note on its December 2018 review quotes the PAHO/WHO representative saying radiotherapy was offered only at the private institute and so reached a small fraction of patients, and that most cancer surgery and chemotherapy were done at the Georgetown Public Hospital Corporation, with limited surgery at five regional hospitals. The hospital's oncology department lists chemotherapy, immunotherapy, hormone and targeted therapies. The Ministry's 2024 action plan schedules the establishment of radiotherapy services at one central site between May 2024 and May 2026; OnCo found no confirmation that it has opened.",
           links: [
@@ -259,7 +259,7 @@ export const GY_DIVE: CountryDive = {
           id: "ethnicity",
           title: "A registry that records ethnicity, and what it showed",
           plain:
-            "Guyana's registry records each patient's ethnic group. Its 2009 analysis found that Afro-Guyanese men accounted for about 65% of prostate cancers, and that cervical cancer made up a larger share of registered cancers among Indigenous Amerindian women than among Afro-Guyanese or Indo-Guyanese women.",
+            "Guyana's registry records patients' ethnic group, though not for every patient. Its 2009 analysis found that Afro-Guyanese men accounted for about 65% of prostate cancers, and that cervical cancer made up a larger share of registered cancers among Indigenous Amerindian women than among Afro-Guyanese or Indo-Guyanese women.",
           detail:
             "In the registry's database, breast, cervical and prostate cancer were the three main cancers, at 23%, 22% and 20% of cases. Of 525 prostate cancers, 341 (65%; the abstract says over 65%) were in Afro-Guyanese men and 101 in Indo-Guyanese men. Indo-Guyanese women had the most breast cancers (265 of 589, 45%) and Afro-Guyanese women the most cervical cancers (225 of 573, 39%); among the 117 Amerindian patients, 57 had cervical cancer. Among women under 30 there were significantly more cervical than breast cancers. These are shares of registered cases, not rates per head of population, and the paper says most prostate cancers had no stage recorded. The data are from 2000 to about 2008.",
           links: [{ label: "Best Plummer et al., ethnicity and cancer in Guyana (Infect Agent Cancer 2009)", url: PLUMMER_2009 }],
@@ -270,7 +270,7 @@ export const GY_DIVE: CountryDive = {
           plain:
             "The Cancer Institute of Guyana says patients from other Caribbean countries come to Guyana for cancer screening and treatment. A study of cancer survivors in Saint Lucia found that Guyana was one of the three places they most often travelled to for care.",
           detail:
-            "The institute's own page says several patients from other Caribbean countries come for screening and treatment and describes the care as affordable; it gives no numbers. In interviews with 50 cancer survivors in Saint Lucia in 2019 and 2020, 56% had travelled abroad for care, and Guyana accounted for 13% of the destinations named, level with Martinique and behind the United States (29%). The same IAEA note that describes the institute says diagnosis and treatment in Guyana were limited to the capital in 2018, so people from the interior travel too. In January 2024, as Kaieteur News reported it, the Minister of Health said biopsy results at the public hospital had been cut from about three months to under seven days.",
+            "The institute's own page says several patients from other Caribbean countries come for screening and treatment and describes the care as affordable; it gives no numbers. In interviews with 50 cancer survivors in Saint Lucia in 2019 and 2020, 56% had travelled abroad for care, and the paper gives the most frequent destinations as the United States (29%), Martinique (13%) and Guyana (13%). The same IAEA note that describes the institute says cancer diagnosis and treatment services in Guyana were limited to the capital at the time of its 2018 review. In January 2024, as Kaieteur News reported it, the Minister of Health said biopsy results at the public hospital had been cut from about three months to under seven days.",
           links: [
             { label: "Cancer Institute of Guyana: about us", url: CIG_ABOUT },
             { label: "Auguste et al., access to cancer care among survivors in Saint Lucia (Int J Environ Res Public Health 2021)", url: "https://doi.org/10.3390/ijerph18094770" },
@@ -292,7 +292,7 @@ export const GY_DIVE: CountryDive = {
           plain:
             "None of the cancer trials in OnCo's records lists Guyana among its countries. OnCo holds a selection of trials, not the whole registry, so ClinicalTrials.gov itself is the place to search. The published research OnCo read is the registry's analysis by ethnicity and an evaluation of cervical screening.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists Guyana. A Europe PMC search for Guyana in the titles of cancer papers returned seven results, two of them about French Guiana and one a 2026 preprint; the two papers read in full or in abstract for this page are the registry's 2009 paper and the 2014 evaluation of single-visit screening at 18 sites. The registry's first report, the Guyana Cancer Report 2000 to 2004, is catalogued by the Institute for Health Metrics and Evaluation but OnCo did not find it online.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists Guyana. A Europe PMC search for Guyana in the titles of cancer papers returned seven results, two of them about French Guiana and one a 2026 preprint; the two papers read in full or in abstract for this page are the registry's 2009 paper and the 2014 evaluation of single-visit screening at 18 sites. A report from the registry's first years, the Guyana Cancer Report 2000 to 2004, is catalogued by the Institute for Health Metrics and Evaluation but OnCo did not find it online.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Guyana", url: CTGOV },
             { label: "Best Plummer et al., ethnicity and cancer in Guyana (Infect Agent Cancer 2009)", url: PLUMMER_2009 },
@@ -310,7 +310,7 @@ export const GY_DIVE: CountryDive = {
       plain:
         "The registry's recent counts on this page come from a Ministry plan and a newspaper report, not from a registry publication. OnCo found no annual report from the registry online and no survival figure for any cancer in Guyana.",
       detail:
-        "The Guyana Cancer Report 2000 to 2004 appears in a data catalogue, which says it includes incidence, case-fatality and survival, but the report itself was not found. The Ministry of Health's site carried no registry report when read on 16 November 2026. The registry's own paper says cases diagnosed abroad and deaths not attended by a health worker are missed. For current figures, the Ministry of Health is the body to ask; IARC's Caribbean hub supports registries in the region.",
+        "The Guyana Cancer Report 2000 to 2004 appears in a data catalogue, which says it includes incidence, case-fatality and survival, but the report itself was not found. The Ministry of Health's site carried no registry report when read on 16 November 2026. The registry's own paper says undiagnosed cases and cancer deaths not managed by a health worker, which it puts at under 10%, are lost to it, and names wealthier patients going abroad for diagnosis and treatment as a difficulty. For current figures, the Ministry of Health is the body to ask; IARC's Caribbean hub supports registries in the region.",
       links: [
         { label: "Global Health Data Exchange: Guyana Cancer Report 2000-2004 (catalogue entry)", url: GHDX_REPORT },
         { label: "Ministry of Health", url: MOH },
@@ -322,7 +322,7 @@ export const GY_DIVE: CountryDive = {
       plain:
         "Guyana has a plan for cervical cancer to 2030, but OnCo did not find a national plan covering all cancers. It also found no official statement of what chemotherapy or radiotherapy costs a patient, or whether the radiotherapy service scheduled in the cervical cancer plan has opened.",
       detail:
-        "WHO's 2020 profile recorded an operational plan for noncommunicable diseases and gave no entry for a national cancer control plan, and IAEA's note says the Minister asked in 2018 for help designing one. An older strategic plan for noncommunicable diseases, for 2013 to 2020, is listed on the ICCP portal and was not read for this page. The Cancer Institute of Guyana describes its rates as subsidised without giving them. The treating hospital or the Ministry of Health can say what applies now.",
+        "WHO's 2020 profile recorded an operational plan for noncommunicable diseases and gave no entry for a national cancer control plan, and IAEA's note says the Minister asked in 2018 for help designing one. An older strategic plan for noncommunicable diseases, for 2013 to 2020, was noted as listed on the ICCP portal and was not read for this page; the listing could not be found again on 16 November 2026, so it is not re-verified. The Cancer Institute of Guyana describes its rates as subsidised without giving them. The treating hospital or the Ministry of Health can say what applies now.",
       links: [
         { label: "WHO: Cancer Country Profile 2020, Guyana (PDF)", url: WHO_2020 },
         { label: "IAEA: imPACT review, Guyana, December 2018 (PDF)", url: IAEA_IMPACT },

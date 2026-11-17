@@ -13,8 +13,14 @@ import type { CountryDive } from "@/data/country-dive";
  * DIRAC's public equipment data, the ClinicalTrials.gov record of NCT07528768, and the papers' abstracts through
  * Europe PMC.
  *
- * Not read: the registry's own site (bnr.org.bb returned HTTP 500), the Barbados Drug Service's site (no answer) and
- * the texts of the National Cancer Action Plan and the Drug Service Act. These are named under `gaps`.
+ * Second check, 16 November 2026: the two plans were read as PDF text from the International Cancer Control
+ * Partnership's portal (the National Cancer Control Plan for Barbados, 2021 to 2025, and the National Strategic Plan
+ * for the Prevention and Control of NCDs 2020 to 2025), with the Ministry's legislation page and the hospital's notice
+ * of 28 October 2026.
+ *
+ * Not read: the registry's own site (bnr.org.bb returned HTTP 500), the Barbados Drug Service's site (its https address
+ * gave no answer and its http address a server error page), the Barbados National Drug Formulary, and the texts of the
+ * Drug Service Act and the Health Services Act. These are named under `gaps`.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/52-barbados-fact-sheet.pdf";
 const BNR_REPORT = "https://health.gov.bb/attachments/BNR%20Cancer%20Annual%20Report%202025_Years%202021-2022.pdf";
@@ -37,6 +43,10 @@ const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filt
 const WHO_GOV_API = "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$filter=SpatialDim%20eq%20'BRB'";
 const WHO_CHE_API = "https://ghoapi.azureedge.net/api/GHED_CHE_pc_US_SHA2011?$filter=SpatialDim%20eq%20'BRB'";
 const QEH_NOTICE = "https://www.qehconnect.com/cbcon-temp-location-102626/";
+const QEH_NOTICE_2 = "https://www.qehconnect.com/qeh-notice-surgical-capacity/";
+const ICCP_CANCER_PLAN_PDF = "https://www.iccp-portal.org/sites/default/files/plans/brb_B5_s21_National%20Cancer%20Control%20Plan%20for%20Barbados%202020.pdf";
+const ICCP_NCD_PLAN_PDF = "https://www.iccp-portal.org/sites/default/files/plans/brb_B3_s21_NCD%20Strategic%20Plan%202020-2025.pdf";
+const MOH_LEGISLATION = "https://health.gov.bb/Legislation";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const HEADWATERS = "https://clinicaltrials.gov/study/NCT07528768";
 const CTGOV = "https://clinicaltrials.gov/search?country=Barbados&cond=cancer";
@@ -189,9 +199,10 @@ export const BB_DIVE: CountryDive = {
           plain:
             "The Ministry of Health and Wellness names two functions on its pharmaceutical page. The Barbados Drug Service produces the national formulary and buys and distributes the medicines on it. A drug inspectorate inspects and licenses pharmacies and drug manufacturing plants under the Health Services Act.",
           detail:
-            "Being on the Barbados National Drug Formulary decides what the public system supplies, and the inspectorate's licensing covers public and private pharmacies. The Ministry's page does not describe a step in which each medicine is assessed and registered before sale, and OnCo did not find one described in the other sources read; the Drug Service Act and the Health Services Act were not read. The Barbados Drug Service's own site did not answer on 16 November 2026. The Drug Service or the Ministry is the body to ask whether a particular medicine may be supplied in Barbados.",
+            "Being on the Barbados National Drug Formulary decides what the public system supplies, and the inspectorate's licensing covers public and private pharmacies. The Ministry's page does not describe a step in which each medicine is assessed and registered before sale, and OnCo did not find one described in the other sources read; the Drug Service Act and the Health Services Act were not read. The Ministry's legislation page says the Drug Service is governed by the Drug Service Act, and that regulations under the Health Services Act of 1969 relate, among other things, to the safety and effectiveness of drugs and to the operation of pharmacies and pharmaceutical manufacturing plants; it does not set out the steps. The Barbados Drug Service's own site did not load on 16 November 2026: one address gave no answer and the other a server error. The Drug Service or the Ministry is the body to ask whether a particular medicine may be supplied in Barbados.",
           links: [
             { label: "Ministry of Health and Wellness: pharmaceutical services", url: MOH_PHARM },
+            { label: "Ministry of Health and Wellness: legislation", url: MOH_LEGISLATION },
             { label: "Healthy Caribbean Coalition: Equitable Access to Essential Medicines for NCDs in the Caribbean, section 7.3.3 (2022, PDF)", url: HCC_2022 },
           ],
         },
@@ -221,10 +232,12 @@ export const BB_DIVE: CountryDive = {
           plain:
             "WHO's 2021 profile records no national cervical screening programme in Barbados. It still estimates that 8 in 10 women aged 30 to 49 had been screened in the previous five years. The registry counted 21 cervical cancers in 2022.",
           detail:
-            "The WHO cervical cancer profile gives 89% of women aged 30 to 49 screened in the last five years and 96% ever screened, as 2019 estimates, and 28 cervical cancer deaths in 2019. WHO's 2020 profile also answers \"no\" for a breast cancer screening programme. The registry's report says people reach a diagnosis by several routes, among them breast or prostate screening programmes run by non-governmental organisations, and its policy brief puts stronger early detection and screening for breast, prostate and colorectal cancer first among its recommendations. A polyclinic or family doctor can say which tests are offered and where.",
+            "The WHO cervical cancer profile gives 89% of women aged 30 to 49 screened in the last five years and 96% ever screened, as 2019 estimates, and 28 cervical cancer deaths in 2019. WHO's 2020 profile also answers \"no\" for a breast cancer screening programme, in an entry dated 2019. The Ministry's National Strategic Plan for NCDs 2020 to 2025 says, in its Annex 7, that guidelines were developed for cervical screening by cytology and HPV testing at the first and second levels of care, and that mammography is available in the public and private sectors and from the Barbados Cancer Society, \"but there are no national guidelines, database, or call and recall system\". The registry's report says people reach a diagnosis by several routes, among them breast or prostate screening programmes run by non-governmental organisations, and its policy brief puts stronger early detection and screening for breast, prostate and colorectal cancer first among its recommendations. A polyclinic or family doctor can say which tests are offered and where.",
           links: [
             { label: "WHO: cervical cancer country profile, Barbados (2021, PDF)", url: WHO_CX_2021 },
             { label: "WHO: cancer country profile, Barbados (2020, PDF)", url: WHO_2020 },
+            { label: "Ministry of Health and Wellness: National Strategic Plan for the Prevention and Control of NCDs 2020 to 2025, Annex 7 (PDF)", url: ICCP_NCD_PLAN_PDF },
+            { label: "Barbados National Registry: Cancer in Barbados (2013-2022), report 2025 (PDF)", url: BNR_REPORT },
             { label: "Barbados National Registry: Cancer in Barbados, key trends and policy implications (19 December 2025, PDF)", url: BNR_BRIEF },
           ],
         },
@@ -234,11 +247,13 @@ export const BB_DIVE: CountryDive = {
           plain:
             "WHO records the HPV vaccine as introduced nationwide in Barbados in 2014. In 2025, 58% of girls and 57% of boys in the target group had a first dose. Coverage has moved a good deal from year to year.",
           detail:
-            "WHO's vaccine introduction rows give 2014; its 2021 cervical cancer profile gives 2013 and a primary target of girls aged 10 to 11. First-dose programme coverage in girls was 76% in 2015, 86% in 2016, 37% in 2017, 64% in 2018, 62% in 2019, 59% in 2020, 37% in 2021, 43% in 2022, 48% in 2023, 43% in 2024 and 58% in 2025 (931 doses against a target of 1,610). Boys appear in the rows from 2018. From 2023 the last-dose figure equals the first-dose figure, which is what a one-dose schedule would produce; the rows do not state the schedule. WHO's elimination target is 90% of girls fully vaccinated by the age of 15.",
+            "WHO's vaccine introduction rows give 2014, as does the Ministry's NCD plan for 2020 to 2025; WHO's 2021 cervical cancer profile and the national cancer plan give 2013. The profile gives a primary target cohort of 10 to 11 years, and the cancer plan sets the aim that at least 70% of 11-year-olds, boys and girls, are vaccinated before the age of 12. First-dose programme coverage in girls was 76% in 2015, 86% in 2016, 37% in 2017, 64% in 2018, 62% in 2019, 59% in 2020, 37% in 2021, 43% in 2022, 48% in 2023, 43% in 2024 and 58% in 2025 (931 doses against a target of 1,610). Boys appear in the rows from 2018. WHO's vaccine introduction rows record a one-dose schedule from 2022, and from 2023 the last-dose figure in the coverage rows equals the first-dose figure. WHO's elimination target is 90% of girls fully vaccinated by the age of 15.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Barbados (API)", url: WHO_HPV_API },
             { label: "WHO: vaccine introduction rows for Barbados (API)", url: WHO_INTRO_API },
             { label: "WHO: cervical cancer country profile, Barbados (2021, PDF)", url: WHO_CX_2021 },
+            { label: "Ministry of Health and Wellness: National Cancer Control Plan for Barbados, 2021 to 2025 (PDF)", url: ICCP_CANCER_PLAN_PDF },
+            { label: "Ministry of Health and Wellness: National Strategic Plan for the Prevention and Control of NCDs 2020 to 2025 (PDF)", url: ICCP_NCD_PLAN_PDF },
           ],
         },
       ],
@@ -260,6 +275,8 @@ export const BB_DIVE: CountryDive = {
             { label: "IAEA DIRAC: radiotherapy equipment by centre (read 16 November 2026)", url: DIRAC },
             { label: "Queen Elizabeth Hospital: radiotherapy", url: QEH_RT },
             { label: "Queen Elizabeth Hospital: oncology services to remain at temporary location (notice, 26 October 2026)", url: QEH_NOTICE },
+            { label: "Queen Elizabeth Hospital: working to restore surgical capacity while maintaining oncology care (notice, 28 October 2026)", url: QEH_NOTICE_2 },
+            { label: "Barbados National Registry: Cancer in Barbados, key trends and policy implications (19 December 2025, PDF)", url: BNR_BRIEF },
           ],
         },
       ],
@@ -286,13 +303,15 @@ export const BB_DIVE: CountryDive = {
           id: "cancer-action-plan",
           title: "A National Cancer Action Plan for 2021 to 2025",
           plain:
-            "The registry's 2025 report says the Ministry of Health and Wellness created a National Cancer Action Plan for 2021 to 2025 and a National Strategic Plan for the Prevention and Control of NCDs for 2020 to 2025, which include cutting deaths from non-communicable diseases by 25%. OnCo read the listings of both plans, not their text.",
+            "The registry's 2025 report says the Ministry of Health and Wellness created a National Cancer Action Plan for 2021 to 2025 and a National Strategic Plan for the Prevention and Control of NCDs for 2020 to 2025, which include cutting deaths from non-communicable diseases by 25%. The cancer plan's own cover calls it the National Cancer Control Plan for Barbados, 2021 to 2025. Its goals include screening protocols for colon, breast, prostate and cervical cancer, and care pathways for treatment.",
           detail:
-            "The International Cancer Control Partnership lists a National Cancer Control Plan for Barbados and the NCD plan for 2020 to 2025 on its portal. WHO's 2020 profile, from a 2019 survey, recorded an integrated NCD plan as operational and a national cancer plan as not in effect, which fits a cancer plan adopted after that survey. The plan period ends in 2025; the registry's policy brief of December 2025 refers to future planning cycles, and OnCo found no successor plan. The Ministry of Health and Wellness is the body to ask what follows.",
+            "The International Cancer Control Partnership lists both plans on its portal, each with its document. The cancer plan's foreword, signed by the Minister of Health and Wellness, is dated April 2021. It has five priority areas: prevention, early detection, diagnosis and treatment, palliative care and supportive care. Its objectives include that at least 70% of 11-year-olds, boys and girls, are vaccinated against HPV before the age of 12, that screening guidelines for the leading cancers are developed by March 2022, and that essential palliative care medicines are in the national formulary by March 2023. Among the weaknesses it lists are limited national guidelines for cancer screening and treatment, outdated nuclear medicine infrastructure and a limited formulary of chemotherapy medicines. OnCo read the plan, not a report on what was carried out. WHO's 2020 profile, in entries dated 2019, recorded an integrated NCD plan as operational and a national cancer plan as not in effect, which is before the date of the plan's foreword. The plan period ends in 2025; the registry's policy brief of December 2025 refers to future planning cycles, and OnCo found no successor plan. The Ministry of Health and Wellness is the body to ask what follows.",
           links: [
             { label: "Barbados National Registry: Cancer in Barbados (2013-2022), report 2025 (PDF)", url: BNR_REPORT },
+            { label: "Ministry of Health and Wellness: National Cancer Control Plan for Barbados, 2021 to 2025 (PDF)", url: ICCP_CANCER_PLAN_PDF },
             { label: "ICCP Portal: National Cancer Control Plan for Barbados", url: ICCP_CANCER_PLAN },
             { label: "ICCP Portal: National Strategic Plan for the Prevention and Control of NCDs 2020 to 2025", url: ICCP_NCD_PLAN },
+            { label: "Barbados National Registry: Cancer in Barbados, key trends and policy implications (19 December 2025, PDF)", url: BNR_BRIEF },
             { label: "WHO: cancer country profile, Barbados (2020, PDF)", url: WHO_2020 },
           ],
         },
@@ -340,20 +359,26 @@ export const BB_DIVE: CountryDive = {
       plain:
         "OnCo did not find a source describing how a medicine is assessed and authorised for sale in Barbados, and did not read the Barbados National Drug Formulary. So this page cannot say which cancer medicines the public system supplies.",
       detail:
-        "The Barbados Drug Service's website did not answer, the government portal's page for the Service gave little beyond its mission, and the Drug Service Act was not read. The Ministry's pharmaceutical page describes the formulary and the licensing of pharmacies and manufacturers, not the registration of products. Whether a newer cancer medicine is on the formulary, can be requested specially or must be bought privately is a question for the pharmacy at the Queen Elizabeth Hospital or the Barbados Drug Service.",
+        "The Barbados Drug Service's website did not load on 16 November 2026, the government portal's page for the Service gave little beyond its mission, and the Drug Service Act was not read. The Ministry's pharmaceutical page describes the formulary and the licensing of pharmacies and manufacturers, not the registration of products. Two sources bear on the range of cancer medicines without listing them: a 2022 regional assessment compared a price guide of medicines procured in Barbados for 2018 to 2020 with a list of essential medicines for non-communicable diseases and found 19% of the cancer medicines on it, and the national cancer plan for 2021 to 2025 names a limited formulary of chemotherapy medicines among its weaknesses. Whether a newer cancer medicine is on the formulary, can be requested specially or must be bought privately is a question for the pharmacy at the Queen Elizabeth Hospital or the Barbados Drug Service.",
       links: [
         { label: "Ministry of Health and Wellness: pharmaceutical services", url: MOH_PHARM },
         { label: "Queen Elizabeth Hospital: is there a cost for the medication?", url: QEH_COST },
+        { label: "Healthy Caribbean Coalition: Equitable Access to Essential Medicines for NCDs in the Caribbean, section 7.3.3 (2022, PDF)", url: HCC_2022 },
+        { label: "Ministry of Health and Wellness: National Cancer Control Plan for Barbados, 2021 to 2025 (PDF)", url: ICCP_CANCER_PLAN_PDF },
       ],
     },
     {
       id: "plans-unread",
-      title: "The cancer plan's contents and any organised screening programme",
+      title: "What the cancer plan achieved, and how screening is organised now",
       plain:
-        "OnCo read that a National Cancer Action Plan for 2021 to 2025 exists but not what it commits to, and found no official description of an organised screening programme for breast, cervical, bowel or prostate cancer.",
+        "OnCo read the cancer plan for 2021 to 2025 but not a report on which of its objectives were met. The Ministry's NCD plan for 2020 to 2025 describes screening that is available without a national system of invitation, and OnCo did not find a later official description.",
       detail:
-        "The portal that lists the plan shows its title on a page whose document OnCo did not open. WHO's screening estimates for Barbados are from 2019 and its profile of that year recorded no national cervical or breast programme; the registry's 2025 documents call for stronger screening without describing a programme. The Ministry of Health and Wellness's cancer page gives its telephone number and is the place to ask what is offered now.",
+        "Annex 7 of the Ministry's National Strategic Plan for NCDs 2020 to 2025 rates mammography screening as partly in place: services are available in the public and private sectors and from the Barbados Cancer Society, \"but there are no national guidelines, database, or call and recall system\". For cervical screening it says guidelines were developed for the first and second levels of care and that the Barbados Cancer Society offers screening. For bowel cancer it says \"There is no population-based screening programme\", with early detection through screening of high-risk and symptomatic people. The annex has no row for prostate screening. This is the position when that plan was written. WHO's profiles record no national breast screening programme in 2019 and no national cervical programme in 2021, and WHO's estimates of how many women have been screened are from 2019; the registry's 2025 documents call for stronger screening without describing a programme. The Ministry of Health and Wellness's cancer page gives its telephone number and is the place to ask what is offered now.",
       links: [
+        { label: "Ministry of Health and Wellness: National Strategic Plan for the Prevention and Control of NCDs 2020 to 2025, Annex 7 (PDF)", url: ICCP_NCD_PLAN_PDF },
+        { label: "Ministry of Health and Wellness: National Cancer Control Plan for Barbados, 2021 to 2025 (PDF)", url: ICCP_CANCER_PLAN_PDF },
+        { label: "WHO: cancer country profile, Barbados (2020, PDF)", url: WHO_2020 },
+        { label: "WHO: cervical cancer country profile, Barbados (2021, PDF)", url: WHO_CX_2021 },
         { label: "ICCP Portal: National Cancer Control Plan for Barbados", url: ICCP_CANCER_PLAN },
         { label: "Ministry of Health and Wellness: cancer", url: MOH_CANCER },
       ],
@@ -366,7 +391,7 @@ export const BB_DIVE: CountryDive = {
   papers: ["paper-hennis-prostate-cancer-barbados-prostatecancer-2011", "paper-martelly-registry-cost-barbados-canep-2016"],
   people: [],
   how:
-    "Every card was written from Barbados's own sources and from international agencies, read in full as raw text, not through a summary: the Barbados National Registry's 2025 report and policy brief; the Ministry of Health and Wellness's pages on cancer and pharmaceutical services; the Queen Elizabeth Hospital's pages and two of its notices; the Healthy Caribbean Coalition's 2022 assessment of access to medicines; CARPHA's pages; WHO's 2020 and 2021 profiles and its vaccine and health expenditure rows from its public data APIs; IAEA DIRAC's public equipment data; IARC's GLOBOCAN 2024 fact sheet; the ClinicalTrials.gov record; and the papers through Europe PMC. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the registry and two papers) carry their own sources.",
+    "Every card was written from Barbados's own sources and from international agencies, read in full as raw text, not through a summary: the Barbados National Registry's 2025 report and policy brief; the Ministry of Health and Wellness's pages on cancer and pharmaceutical services; the Queen Elizabeth Hospital's pages and two of its notices; the Healthy Caribbean Coalition's 2022 assessment of access to medicines; the national cancer plan for 2021 to 2025 and the NCD plan for 2020 to 2025; CARPHA's pages; WHO's 2020 and 2021 profiles and its vaccine and health expenditure rows from its public data APIs; IAEA DIRAC's public equipment data; IARC's GLOBOCAN 2024 fact sheet; the ClinicalTrials.gov record; and the papers through Europe PMC. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the registry and two papers) carry their own sources.",
   verify:
     "The registry's counts stop at 2022 and IARC's 2024 figures are estimates built on them. Which medicines are on the formulary, what a test costs and how long the wait for radiotherapy is change faster than any report; ask the Queen Elizabeth Hospital, the Barbados Drug Service or the Ministry of Health and Wellness what applies to you.",
   verifyLinks: [

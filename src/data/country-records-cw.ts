@@ -5,6 +5,7 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
  * sources read raw on 16 November 2026: the Sociale Verzekeringsbank's page on the basisverzekering ziektekosten and
  * its combined annual accounts for 2025 (PDF text), both in Dutch, and Fundashon Prevenshon's home, screening and programme pages.
  * DOIs were resolved through Europe PMC and the figures in `findings` are taken from the indexed abstracts.
+ * Second check, 16 November 2026: every figure was read again against the same sources; one caveat was reworded.
  *
  * The existing record for Curaçao Medical Center (institutions/countries-2026-11-americas.ts) is reused on the page,
  * not duplicated. Coordinates are approximate Willemstad points, not building positions.
@@ -68,7 +69,7 @@ const papers: PaperInput[] = [
       "High-risk vaccine genotypes 16, 18, 31, 35, 45, 52 and 58 were responsible for 73.1% of invasive cancers.",
     ],
     whatItMeans: "The authors say the relatively high contribution of HPV types other than 16 and 18 should be taken into account when considering HPV vaccination in Curaçao.",
-    caveats: ["104 cancers from pathology archives.", "Written before any vaccination programme began."],
+    caveats: ["104 cancers from pathology archives.", "Written when HPV vaccines were not part of a national vaccination programme in Curaçao."],
     institutions: [], cancers: ["cervical"],
     links: [doi("10.1136/sextrans-2017-053109", "Sex Transm Infect 2018"), pubmed("29021405")] }),
 

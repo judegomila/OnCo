@@ -10,7 +10,8 @@ import type { CountryDive } from "@/data/country-dive";
  * rows from its public data APIs; IAEA DIRAC's public equipment data; IARC's page for its Pacific Islands hub for
  * cancer registration; the full text of Naidu et al. 2025 through Europe PMC and of Sarfati et al. 2019 through PubMed
  * Central; and the other papers' abstracts through Europe PMC. Where a figure could not be read it is named under
- * `gaps`. WHO's 2020 cancer country profile for Fiji was not at the address used for other countries (404).
+ * `gaps`. WHO's 2020 cancer country profile for Fiji was not at the address first tried (404); the second accuracy
+ * pass on 16 November 2026 found it under another file name and read it (PDF text).
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/242-fiji-fact-sheet.pdf";
 const MOH_CANCER = "https://www.health.gov.fj/cancer/";
@@ -18,6 +19,7 @@ const MOH_OVERSEAS = "https://www.health.gov.fj/overseas-medical-treatment/";
 const FPBS = "https://www.health.gov.fj/fiji-pharmaceutical-biomedical-services-centre-fpbs/";
 const FIJI_MRA = "https://www.health.gov.fj/fiji-mra/";
 const IMPACT_2023 = "https://www.iaea.org/sites/default/files/documents/review-missions/impact-review-fiji-feb2023.pdf";
+const WHO_CANCER_2020 = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/cancer-fji-2020.pdf";
 const WHO_CERVICAL_2021 = "https://cdn.who.int/media/docs/default-source/country-profiles/cervical-cancer/cervical-cancer-fji-2021-country-profile-en.pdf";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'FJI'%20and%20startswith(ANTIGEN,'PRHPV')";
 const WHO_INTRO_API = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20'FJI'";
@@ -208,7 +210,7 @@ export const FJ_DIVE: CountryDive = {
           id: "cervical-screening",
           title: "A national cervical screening programme by cytology, reaching about one woman in six",
           plain:
-            "WHO's 2021 profile says Fiji has a national cervical screening programme using cytology for women aged 25 to 70. It estimates that 16% of women aged 30 to 49 had been screened in the previous five years and 31% had ever been screened.",
+            "WHO's 2021 profile says Fiji has a national cervical screening programme using cytology for women aged 25 to 70. It estimates that in 2019, 16% of women aged 30 to 49 had been screened in the previous five years and 31% had ever been screened.",
           detail:
             "The 2023 imPACT Review repeats the 16% figure, calls it well below the 70% target, and says a costing exercise found a critical lack of staff and infrastructure to reach the screening targets; it recommends HPV DNA testing as the primary test, with liquid-based cytology for women who need further testing. At the Women's Wellness Clinic in Suva, 12,074 of the 39,579 women who attended from 2014 to 2018 had a cervical screening test (30.5%). A 2019 review of cancer control in the Pacific recorded no organised breast or bowel screening programme in Fiji, and OnCo found no later official statement of one. The same table also answers no for an organised cervical programme, which does not agree with WHO's 2021 profile; ask the clinic how screening is offered where you live.",
           links: [
@@ -246,7 +248,7 @@ export const FJ_DIVE: CountryDive = {
           plain:
             "Limited chemotherapy is given at Fiji's three divisional hospitals. Colonial War Memorial Hospital in Suva is the national referral centre for complex cases. It and Lautoka Hospital together manage 45 to 50 new childhood cancers a year.",
           detail:
-            "The imPACT Review says a limited range of chemotherapy and hormonal drugs is available, that childhood cancer is treated to a shared Pacific protocol with remote and visiting support from Christchurch, New Zealand, and that when a drug treatment is not available locally the patient qualifies for overseas referral. It estimates that three quarters of new cancers are diagnosed at an advanced stage, notes a pain management team at Colonial War Memorial Hospital and a community palliative care project begun in 2022, and says there is no specialised palliative care unit. A 2019 review of the Pacific counted one medical oncologist in Fiji in mid-2018; OnCo found no current count.",
+            "The imPACT Review says a limited range of chemotherapy and hormonal drugs is available, that childhood cancer is treated to a shared Pacific protocol with remote and visiting support from Christchurch, New Zealand, and that when a drug treatment is not available locally the patient qualifies for overseas referral. It estimates that three quarters of new cancers are diagnosed at an advanced stage, notes a pain management team at Colonial War Memorial Hospital and a Community Palliative Care Project dated 2022 whose work had begun in the central division, and says there is no specialised palliative care centre or unit. A 2019 review of the Pacific counted one medical oncologist in Fiji in mid-2018; OnCo found no current count.",
           links: [
             { label: "IAEA, WHO and IARC: imPACT Review of Fiji, February 2023, summary (PDF)", url: IMPACT_2023 },
             { label: "Sarfati et al., cancer control in the Pacific (Lancet Oncol 2019, author manuscript)", url: SARFATI_2019 },
@@ -272,9 +274,9 @@ export const FJ_DIVE: CountryDive = {
           id: "radiotherapy-case",
           title: "A published cost-benefit case for a radiotherapy centre, and a road map for building one",
           plain:
-            "Fiji has studied whether to build its own radiotherapy service. A 2017 analysis by WHO and Seoul National University found it would pay for itself if a year of life is valued at national income per person, but not if valued at the minimum wage. In 2023 the IAEA gave Fiji a road map for a first facility.",
+            "Whether Fiji should build its own radiotherapy service has been studied. A 2017 analysis by researchers at Seoul National University and WHO's Pacific office in Suva found it would pay for itself if a year of life is valued at national income per person, but not if valued at the minimum wage. The 2023 imPACT Review team of the IAEA, WHO and IARC gave Fiji a road map for the planned facility.",
           detail:
-            "Kim and colleagues modelled a radiation oncology centre over 2021 to 2035 from a societal perspective. Valuing life-years at the national minimum wage gave a net loss of FJD 31.6 million and a benefit-cost ratio of 0.69; valuing them at gross national income per person gave a net benefit of FJD 4.0 million and a ratio of 1.04, with a range from 0.46 to 1.20 across pessimistic and optimistic scenarios. A 2019 review of the Pacific judged that Fiji and Papua New Guinea were the two island countries with enough patients, over 400 new radiotherapy cases a year, to make use of a single megavoltage machine. The imPACT Review team's road map covers infrastructure, equipment, workforce, quality and safety, and notes that a Radiation Safety Act still needed to be finalised.",
+            "Kim and colleagues modelled a radiation oncology centre over 2021 to 2035 from a societal perspective. Valuing life-years at the national minimum wage gave a net loss of FJD 31.6 million and a benefit-cost ratio of 0.69; valuing them at gross national income per person gave a net benefit of FJD 4.0 million and a ratio of 1.04, with a range from 0.46 to 1.20 across pessimistic and optimistic scenarios. A 2019 review of the Pacific judged that Fiji and Papua New Guinea were the two island countries with enough patients, over 400 new radiotherapy cases a year, to make use of a single megavoltage machine. The imPACT Review team's road map covers infrastructure, equipment, workforce development, quality and safety, and the review summary says a Radiation Safety Act still needed to be finalised and endorsed.",
           links: [
             { label: "Kim et al., cost-benefit analysis of radiation oncology services in Fiji (Cancer Epidemiol 2017)", url: KIM_2017 },
             { label: "Sarfati et al., cancer control in the Pacific (Lancet Oncol 2019, author manuscript)", url: SARFATI_2019 },
@@ -311,9 +313,11 @@ export const FJ_DIVE: CountryDive = {
       plain:
         "The 2023 imPACT Review describes a draft National Cancer Control Plan for 2023 to 2030 that still needed consultation before approval. OnCo found no published, approved plan on the Ministry's site, so its present status is not on this page.",
       detail:
-        "A 2019 review of the Pacific already listed Fiji's plan as a draft dated 2016. The imPACT summary also says a Wellness and non-communicable disease strategic plan for 2020 to 2025 was awaiting finalisation. WHO's 2020 cancer country profile for Fiji, which carries a row for cancer plans in other countries, was not at the address used for them (404). The International Cancer Control Partnership portal was not read. The Ministry's non-communicable disease team is the place to ask which plan is in force.",
+        "A 2019 review of the Pacific already listed Fiji's plan as a draft dated 2016. WHO's 2020 cancer country profile for Fiji, by contrast, records a national cancer control plan as \"operational\" for 2019, which does not agree with either description of a draft. The imPACT summary also says a Wellness and non-communicable disease strategic plan for 2020 to 2025 was awaiting finalisation. The International Cancer Control Partnership portal was not read. The Ministry's non-communicable disease team is the place to ask which plan is in force.",
       links: [
         { label: "IAEA, WHO and IARC: imPACT Review of Fiji, February 2023, summary (PDF)", url: IMPACT_2023 },
+        { label: "WHO: cancer country profile 2020, Fiji (PDF)", url: WHO_CANCER_2020 },
+        { label: "Sarfati et al., cancer control in the Pacific (Lancet Oncol 2019, author manuscript)", url: SARFATI_2019 },
         { label: "Ministry of Health and Medical Services: cancer", url: MOH_CANCER },
       ],
     },
@@ -335,7 +339,7 @@ export const FJ_DIVE: CountryDive = {
       plain:
         "OnCo found no population-based survival figure for any cancer in Fiji. The Ministry publishes a medicine list for its Free Medicine Scheme, but OnCo did not read it or the essential medicines list, so which cancer medicines the public system supplies is not on this page.",
       detail:
-        "The Ministry's database does not capture stage at diagnosis and has a gap in documenting treatment outcomes, according to the 2025 analysis of it, so survival cannot be calculated from it. The imPACT Review mentions an essential medicines list of 2019 that includes a full set of opioid pain medicines, and says supply is not continuous. The Medicinal Products Act 2011 and the National Medicinal Products Policy 2013 were not read in full. The Fiji Pharmaceutical and Biomedical Services Centre publishes the current lists and its contact details.",
+        "The Ministry's database does not capture stage at diagnosis and has a gap in documenting treatment outcomes, according to the 2025 analysis of it, which reports no survival figures. The imPACT Review mentions an essential medicines list of 2019 that includes a full set of opioid pain medicines, says most of the drugs on that list are out of date and need upgrading, and says keeping opioids continuously in supply is a major challenge. The Medicinal Products Act 2011 and the National Medicinal Products Policy 2013 were not read. The Fiji Pharmaceutical and Biomedical Services Centre's page links the scheme's published medicine list and gives its contact details.",
       links: [
         { label: "Ministry of Health and Medical Services: Fiji Pharmaceutical and Biomedical Services Centre", url: FPBS },
         { label: "Naidu et al., epidemiology of cancer in the Fiji Islands 2010 to 2018 (Asia Pac J Public Health 2025)", url: NAIDU_2025 },
@@ -352,7 +356,7 @@ export const FJ_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from Fiji's own pages and from international agencies, read in full rather than through a summary: the Ministry of Health and Medical Services' cancer page, its overseas medical treatment checklist, and its pages for the Fiji Pharmaceutical and Biomedical Services Centre and the Fiji Medicines Regulatory Authority; the summary of the February 2023 imPACT Review by the IAEA, WHO and IARC; WHO's 2021 cervical cancer profile and its vaccine and health expenditure rows from its public data APIs; IAEA DIRAC's public equipment data; IARC's GLOBOCAN 2024 fact sheet and its Pacific Islands hub page; and the papers through Europe PMC and PubMed Central. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the regulator, Colonial War Memorial Hospital and four papers) carry their own sources.",
+    "Every card was written from Fiji's own pages and from international agencies, read in full rather than through a summary: the Ministry of Health and Medical Services' cancer page, its overseas medical treatment checklist, and its pages for the Fiji Pharmaceutical and Biomedical Services Centre and the Fiji Medicines Regulatory Authority; the summary of the February 2023 imPACT Review by the IAEA, WHO and IARC; WHO's 2021 cervical cancer profile and its vaccine and health expenditure rows from its public data APIs; IAEA DIRAC's public equipment data; IARC's GLOBOCAN 2024 fact sheet and its Pacific Islands hub page; WHO's 2020 cancer country profile; and the papers through Europe PMC and PubMed Central. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the regulator, Colonial War Memorial Hospital and four papers) carry their own sources.",
   verify:
     "National incidence figures for Fiji are modelled from deaths, not counted. Whether radiotherapy is available in Fiji, which medicines a hospital has in stock and what the Overseas Referral Committee will fund change faster than any report; ask the oncology unit at your divisional hospital or the Ministry of Health and Medical Services what applies to you.",
   verifyLinks: [

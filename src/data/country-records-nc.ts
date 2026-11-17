@@ -5,7 +5,9 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
  * sources read raw, in French, on 16 November 2026: the Agence sanitaire et sociale de la Nouvelle-Calédonie's site
  * (santepourtous.nc) and its pages on cervical and breast cancer screening, and two government press notes on HPV
  * vaccination (21 July 2022 and 30 August 2023, PDF text). DOIs were resolved through Europe PMC and the figures in
- * `findings` are taken from the indexed abstracts.
+ * `findings` are taken from the indexed abstracts. Re-resolved on 16 November 2026 in a second check: the childhood
+ * cancer paper's authors give the DASS's cancer registry and the territorial hospital as their affiliations, so it now
+ * links both.
  *
  * The existing records for the DASS, the CAFAT, the territorial hospital, the radiotherapy centre and ONCO NC
  * (institutions/countries-2026-11-europe-overseas.ts) are reused on the page, not duplicated. The agency's coordinates
@@ -68,7 +70,7 @@ const papers: PaperInput[] = [
       "The use of whitewash, previously suggested as a risk factor, was not associated with incidence.",
     ],
     whatItMeans: "In New Caledonia mesothelioma is linked to a rock found naturally in the environment, and the authors identify serpentinite on roads as the main risk factor.",
-    caveats: ["An ecological study: it compares areas, not individuals.", "Cases from 1984 to 2008."],
+    caveats: ["An ecological study: it compares areas, not individuals.", "Cases from 1984 to 2008, when the registry was kept by the Institut Pasteur de Nouvelle-Calédonie; it passed to the DASS in January 2011."],
     institutions: ["dass-new-caledonia"], cancers: ["mesothelioma"],
     links: [doi("10.1289/ehp.1002862", "Environ Health Perspect 2011"), pubmed("21193386")] }),
 
@@ -82,7 +84,7 @@ const papers: PaperInput[] = [
     ],
     whatItMeans: "Childhood cancer is about as frequent in New Caledonia as in France; the authors say the numbers are too small to draw a conclusion from the difference between districts.",
     caveats: ["Small numbers: 162 cases over 19 years."],
-    institutions: [], cancers: [],
+    institutions: ["dass-new-caledonia", "cht-gaston-bourret"], cancers: [],
     links: [doi("10.1097/mph.0000000000001255", "J Pediatr Hematol Oncol 2018"), pubmed("30044351")] }),
 ];
 

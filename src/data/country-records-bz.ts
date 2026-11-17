@@ -3,8 +3,9 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
 /**
  * Belize: the bodies and papers behind /countries/bz/ (wave 16) that the corpus did not hold. Each was written from
  * its own source, read raw on 16 November 2026: the National Health Insurance scheme's history, screenings and
- * co-payment pages; Amandala's report on the Belize Cancer Society's clinic, datelined 13 December 2021 and published on the 15th (no
- * working website was found for the society: the address tried did not resolve); and three papers whose DOIs were resolved through Europe PMC, with the figures in `findings`
+ * co-payment pages; Amandala's report on the Belize Cancer Society's clinic, datelined 13 December 2021 and published on the 15th;
+ * the society's own site at belizecancersociety.org (home, about, services and contact pages, found in the second check
+ * on 16 November 2026; an address ending .org.bz did not resolve); and three papers whose DOIs were resolved through Europe PMC, with the figures in `findings`
  * taken from the indexed abstracts and, where marked, from the open full text at Europe PMC.
  *
  * Inbound links: the two institutions list each other and the clinic paper, the three papers list one another through
@@ -24,6 +25,7 @@ const NHI = "https://www.nhi.bz/";
 const NHI_HISTORY = "https://www.nhi.bz/history-of-nhi/";
 const NHI_SCREENINGS = "https://www.nhi.bz/screenings/";
 const NHI_COPAY = "https://www.nhi.bz/copayment/";
+const BCS_SITE = "https://www.belizecancersociety.org/";
 const AMANDALA_BCC = "https://amandala.com.bz/news/cancer-center-opens-doors-in-belize-city";
 const WONG = "paper-wong-cancer-time-to-care-belize-oncologist-2023";
 const NEIBART = "paper-neibart-cervical-infrastructure-belize-jcogo-2021";
@@ -46,13 +48,15 @@ const institutions: InstitutionInput[] = [
     ] }),
 
   i({ id: "belize-cancer-society", name: "Belize Cancer Society", aka: ["BCS"],
-    city: "Belize City", country: "BZ", lat: 17.5, lng: -88.2, institutionType: "consortium",
-    tldr: "A cancer charity in Belize. In December 2021 it opened a clinic on Mercy Lane in Belize City where the Belize Cancer Center Dangriga gives consultations and chemotherapy, according to the newspaper Amandala.",
-    summary: "Amandala reported, in an article datelined 13 December 2021, that the Belize Cancer Society owns a new cancer clinic on Mercy Lane, Belize City, and provides its administration, while the Belize Cancer Center Dangriga, a charity clinic operating at 11 Pine Street, Dangriga, since October 2008, delivers the consultations and chemotherapy; patients are asked to cover as much of their bill as they can. The 2023 paper from the public oncology clinic says work on a cancer registry in Belize dates back to a 2008 collaboration between the society and the Ministry of Health. OnCo did not find a working website for the society, so this record rests on the newspaper report and the paper, and the clinic's current services should be confirmed with the society. The coordinates are an approximate Belize City point.",
+    city: "Belize City", country: "BZ", lat: 17.5, lng: -88.2, institutionType: "consortium", website: BCS_SITE,
+    tldr: "A cancer charity in Belize, founded in 1996. In December 2021 it opened a clinic on Mercy Lane in Belize City where the Belize Cancer Center Dangriga gives consultations and chemotherapy, according to the newspaper Amandala.",
+    summary: "Amandala reported, in an article datelined 13 December 2021, that the Belize Cancer Society owns a new cancer clinic on Mercy Lane, Belize City, and provides its administration, while the Belize Cancer Center Dangriga, a clinic operating at 11 Pine Street, Dangriga, since October 2008, delivers the consultations and chemotherapy; the Dangriga centre receives some sponsorship and asks patients to cover as much of their bill as they can. The 2023 paper from the public oncology clinic says work on a cancer registry in Belize dates back to a 2008 collaboration between the society and the Ministry of Health. A site at belizecancersociety.org that presents itself as the society's describes it as a non-governmental organisation of volunteers founded in 1996, gives an address on Mercy Lane, Belize City, and lists breast screening, Pap smears, prostate screening, counselling and support groups; some of its pages still hold placeholder text, and the pages read do not mention chemotherapy, so the clinic's current services should be confirmed with the society. The coordinates are an approximate Belize City point.",
     programs: ["Cancer clinic on Mercy Lane, Belize City (opened December 2021, with the Belize Cancer Center Dangriga)", "Work towards a cancer registry with the Ministry of Health (from 2008)"],
     institutions: ["khmh-belize", "moh-belize", "nhi-belize"],
     keyPapers: [WONG],
     links: [
+      { label: "Belize Cancer Society: about", url: `${BCS_SITE}about` },
+      { label: "Belize Cancer Society: services", url: `${BCS_SITE}services` },
       { label: "Amandala: Cancer Center opens doors in Belize City (published 15 December 2021)", url: AMANDALA_BCC },
       doi("10.1093/oncolo/oyad030", "Wong et al., cancer demographics and time-to-care in Belize (The Oncologist 2023)"),
     ] }),
@@ -80,12 +84,12 @@ const papers: PaperInput[] = [
     links: [doi("10.1200/go.21.00138", "DOI"), pubmed("34351814")] }),
 
   p({ id: MITTAL, name: "Barriers and facilitators to effective cervical cancer screening in Belize: a qualitative analysis",
-    journal: "Cancer Causes & Control", year: 2023, doi: "10.1007/s10552-023-01703-0", pmid: "37165111", authors: "Mittal A, Neibart SS, Kulkarni A, et al.", paperType: "observational", participants: 47,
-    tldr: "Interviews in 2018 with 47 people who provide or manage cervical screening in Belize found that screening is free in public clinics, but that delays in smear results, staff workload and limited rural access get in the way.",
+    journal: "Cancer Causes & Control", year: 2023, doi: "10.1007/s10552-023-01703-0", pmid: "37165111", authors: "Mittal A, Neibart SS, Kulkarni A, et al.", paperType: "observational", participants: 64,
+    tldr: "Forty-seven interviews in 2018 with 64 people involved in cervical screening in Belize found that screening is free in public clinics, but that delays in smear results, staff workload and limited rural access get in the way.",
     summary: "Semi-structured interviews on cervical cancer screening were held with key stakeholders across the six districts of Belize in 2018, then transcribed, coded and analysed by theme, organised by the levels of the social-ecological model. Most interviews (78%) were from the public sector.",
-    findings: ["47 interviews: health care providers (45%), administrators (17%), government officials (25%) and other stakeholders (13%).", "Barriers named included potential delays in Pap smear results and fear of a cancer diagnosis, competing responsibilities for clinicians, insufficient space and training, reduced access in rural areas, and limits on budgets for equipment and staff.", "Facilitators named included resource-sharing between the public and private sectors, dedicated rural outreach staff, free public screening and the establishment of population-based screening."],
+    findings: ["47 interviews, 30 with one person and 17 with two, 64 participants in all: health care providers (45%), administrators (17%), government officials (25%) and other stakeholders (13%).", "Barriers named included potential delays in Pap smear results and fear of a cancer diagnosis, competing responsibilities for clinicians, insufficient space and training, reduced access in rural areas, and limits on budgets for equipment and staff.", "Facilitators named included resource-sharing between the public and private sectors, dedicated rural outreach staff, free public screening and the establishment of population-based screening."],
     whatItMeans: "Free screening is not enough on its own: results and follow-up have to arrive in time for an abnormal test to be acted on.",
-    caveats: ["Qualitative interviews with people working in the service, not with the women it serves.", "Interviews date from 2018."],
+    caveats: ["Qualitative interviews with people working in or around the service; no patients were interviewed.", "Interviews date from 2018."],
     cancers: ["cervical"], institutions: ["moh-belize"], related: [WONG, NEIBART],
     links: [doi("10.1007/s10552-023-01703-0", "DOI"), pubmed("37165111")] }),
 ];

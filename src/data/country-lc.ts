@@ -7,8 +7,9 @@ import type { CountryDive } from "@/data/country-dive";
  * vaccine introduction, HPV coverage and Global Health Expenditure Database rows from its public data APIs; IAEA
  * DIRAC's public equipment data (no row for Saint Lucia); PAHO's release on the launch of the National Cancer Registry
  * (datelined 31 July 2026) and The Voice's report of the same launch; PAHO's Health in the Americas profile of Saint
- * Lucia; the European Union Delegation's press release on the Owen King European Union Hospital; sections 3 and 13 of
- * the Pharmacy Act on the Attorney General's Chambers site; CARPHA's Caribbean Regulatory System pages; an OECS release
+ * Lucia; the European Union Delegation's press release on the Owen King European Union Hospital; sections 2, 3, 5 and
+ * 13 of the Pharmacy Act on the Attorney General's Chambers site; the ClinicalTrials.gov API for studies with a site in
+ * Saint Lucia; CARPHA's Caribbean Regulatory System pages; an OECS release
  * of November 2017 and a PAHO release of 28 May 2026 on the OECS Pharmaceutical Procurement Service; The Voice's
  * report of December 2025 on universal health coverage; the GICR page of the IARC Caribbean Cancer Registry Hub; and
  * two papers resolved through Europe PMC, their open full texts read there. The Government of Saint Lucia's own sites
@@ -33,6 +34,7 @@ const EU_OKEU = "https://www.eeas.europa.eu/sites/default/files/press_release_ow
 const PHARMACY_S13 = "https://www.attorneygeneralchambers.com/laws-of-saint-lucia/pharmacy-act/section-13";
 const PHARMACY_S5 = "https://www.attorneygeneralchambers.com/laws-of-saint-lucia/pharmacy-act/section-5";
 const PHARMACY_S3 = "https://attorneygeneralchambers.com/laws-of-saint-lucia/pharmacy-act/section-3";
+const PHARMACY_S2 = "https://www.attorneygeneralchambers.com/laws-of-saint-lucia/pharmacy-act/section-2-01";
 const CRS_ABOUT = "https://carpha.org/What-We-Do/CRS/About-Us";
 const CRS_FAQ = "https://carpha.org/What-We-Do/CRS/faq";
 const OECS_PPS_2017 = "https://pressroom.oecs.int/oecs-member-states-working-together-to-save-5-million-in-annual-pharmaceutical-procurement";
@@ -44,6 +46,7 @@ const AUGUSTE_2022 = "https://doi.org/10.3390/ijerph19116531";
 const MASCLE_2025 = "https://doi.org/10.1002/pbc.31952";
 const ADEPOJU_2026 = "https://doi.org/10.1016/s1470-2045(26)00401-8";
 const CTGOV = "https://clinicaltrials.gov/search?country=Saint%20Lucia&cond=cancer";
+const CTGOV_CASIDEC = "https://clinicaltrials.gov/study/NCT07695116";
 
 export const LC_DIVE: CountryDive = {
   iso2: "LC",
@@ -53,7 +56,7 @@ export const LC_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Saint Lucia",
   description:
-    "Cancer in Saint Lucia from WHO, PAHO and published sources: IARC's estimate of 462 new cancers and 225 deaths in 2024, modelled from death records, a National Cancer Registry launched in July 2026, prostate and breast cancer the commonest, no radiotherapy centre recorded on the island and many patients travelling abroad for care, households paying 37% of health spending out of pocket, and HPV vaccination reaching about nine in ten girls and boys.",
+    "Cancer in Saint Lucia from WHO, PAHO and published sources: IARC's estimate of 462 new cancers and 225 deaths in 2024, modelled from death records, a National Cancer Registry launched in July 2026, prostate and breast cancer the commonest, no radiotherapy centre recorded on the island, more than half of 50 survivors interviewed having travelled abroad for care, households paying 37% of health spending out of pocket, and HPV vaccination reaching about nine in ten girls and boys.",
   lede:
     "Saint Lucia launched a National Cancer Registry in July 2026; until it reports, the country's cancer figures are a model. IARC estimates 462 new cancers and 225 deaths in 2024, with prostate cancer the commonest by a wide margin. WHO's 2021 profile records diagnosis, surgery and chemotherapy on the island and no radiotherapy, and in a study of 50 cancer survivors more than half had travelled abroad for care.",
   globocanNote:
@@ -83,7 +86,7 @@ export const LC_DIVE: CountryDive = {
           plain:
             "The Ministry of Health, Wellness and Nutrition launched Saint Lucia's National Cancer Registry in mid-2026, with help from the Caribbean Public Health Agency, IARC and PAHO. PAHO describes it as a central system for collecting and reporting cancer data. OnCo found no figures published by it yet.",
           detail:
-            "PAHO's release, datelined Castries, 31 July 2026, describes the registry as a central system for collecting, analysing and reporting cancer data. It reports the Chief Medical Officer saying that diagnoses were rising in younger age groups, and that preliminary data suggested a 33% fall in cancer incidence in 2025 which, without a population-based registry, could not be explained. The Voice reports that the Caribbean Public Health Agency had carried out a full assessment of the island's cancer registration systems. Before this, WHO's 2021 cervical cancer profile recorded no population-based registry, and a 2021 paper described hospital-based registry activity only. The IARC Caribbean Cancer Registry Hub, which covers Saint Lucia, is based at the Caribbean Public Health Agency in Trinidad and Tobago.",
+            "PAHO's release, datelined Castries, 31 July 2026, describes the registry as a central system for collecting, analysing and reporting cancer data. It reports the Chief Medical Officer saying that diagnoses were rising in younger age groups, and that preliminary data suggested a 33% fall in cancer incidence in 2025 which, without a population-based registry, could not be explained. Neither the release nor The Voice's report, published on 9 August 2026, gives the day of the ceremony, so July 2026 here is the date of PAHO's dateline. The Voice reports that the Caribbean Public Health Agency had carried out a full assessment of the island's cancer registration systems. Before this, WHO's 2021 cervical cancer profile recorded no population-based registry, and a 2021 paper described hospital-based registry activity only. The IARC Caribbean Cancer Registry Hub, which covers Saint Lucia, is based at the Caribbean Public Health Agency in Trinidad and Tobago.",
           links: [
             { label: "PAHO: Saint Lucia launches National Cancer Registry (July 2026)", url: PAHO_REGISTRY },
             { label: "The Voice: Saint Lucia launches National Cancer Registry", url: VOICE_REGISTRY },
@@ -199,11 +202,12 @@ export const LC_DIVE: CountryDive = {
           id: "pooled-procurement",
           title: "Public medicines are bought jointly with other Eastern Caribbean states",
           plain:
-            "The Organisation of Eastern Caribbean States runs a Pharmaceutical Procurement Service that buys medicines in bulk for its member states. The Pharmacy Act keeps that service's work outside the Pharmacy Council's responsibility.",
+            "The Organisation of Eastern Caribbean States runs a Pharmaceutical Procurement Service that buys medicines in bulk for its member states. Saint Lucia's Pharmacy Act names that service and keeps its work outside the Pharmacy Council's responsibility.",
           detail:
-            "An OECS release of November 2017 says the service bought about 25 million dollars' worth of medical products in 2016 to 2017 and saved member states 5 million dollars in total; it does not state the currency. Section 3 of the Pharmacy Act says the Act is not to be read as giving the Pharmacy Council responsibility over any activity for which the Pharmaceutical Procurement Service is responsible. PAHO reports a joint planning workshop with the service in Castries on 28 May 2026, at which a senior pharmacist of Saint Lucia's Ministry spoke of barriers to access including affordability and the supply chain. None of these sources lists which cancer medicines the service buys.",
+            "An OECS release of November 2017 says the service bought about 25 million dollars' worth of medical products in 2016 to 2017 and saved member states 5 million dollars in total; it does not state the currency, speaks of member states as a group and gives no figure for Saint Lucia, which it lists as a member. Section 2 of the Pharmacy Act defines the Pharmaceutical Procurement Service as the OECS Eastern Caribbean Drug Service, set up by an agreement of 2 June 1989, and section 3 says the Act is not to be read as giving the Pharmacy Council responsibility over any activity for which the Pharmaceutical Procurement Service is responsible. PAHO reports a joint planning workshop with the service in Castries on 28 May 2026, at which a senior pharmacist of Saint Lucia's Ministry spoke of barriers to access including affordability and the supply chain. None of these sources lists which cancer medicines the service buys.",
           links: [
             { label: "OECS: member states working together to save $5 million in annual pharmaceutical procurement (November 2017)", url: OECS_PPS_2017 },
+            { label: "Attorney General's Chambers: Pharmacy Act, section 2 (interpretation)", url: PHARMACY_S2 },
             { label: "Attorney General's Chambers: Pharmacy Act, section 3", url: PHARMACY_S3 },
             { label: "PAHO: PAHO and OECS advance joint action on access to essential medicines (28 May 2026)", url: PAHO_OECS_2026 },
           ],
@@ -270,7 +274,7 @@ export const LC_DIVE: CountryDive = {
           plain:
             "The Owen King European Union Hospital in Castries took over all in-patient services from the old Victoria Hospital on 27 March 2020. It has 120 beds, operating theatres, a laboratory and an MRI scanner. OnCo found no primary source describing its cancer service, only an author's address naming a Department of Oncology there.",
           detail:
-            "The European Union Delegation's press release says the EU provided 36 million euros towards building the hospital and a further 8 million for equipment and furniture, that out-patient services began moving in 2018, and that the Victoria Hospital was kept as a respiratory facility during the COVID-19 pandemic. The release is headed 7 April 2019, which looks like a misprint for 2020, since it describes events of March 2020. PAHO's country profile confirms the hospital is operating. One author of the 2021 survivors' paper gives the hospital's Department of Oncology as his address, and PAHO's release on the registry names an oncologist who spoke at the launch. The survivors' study, carried out in 2019 and 2020, recruited through the Victoria Hospital and an oncology centre it does not name, and says the island has five hospitals with the best equipped in the capital. Where chemotherapy is now given, and by how many oncologists, is not stated in anything OnCo could read; the hospital or the treating doctor can say.",
+            "The European Union Delegation's press release says the EU provided 36 million euros towards building the hospital and a further 8 million for equipment and furniture, that out-patient services began moving in 2018, and that the Victoria Hospital was kept as a respiratory facility during the COVID-19 pandemic. The release is headed 7 April 2019, which looks like a misprint for 2020, since it describes events of March 2020. PAHO's country profile confirms the hospital is operating. One author of the 2021 survivors' paper gives the hospital's Department of Oncology as an address, and PAHO's release on the registry names an oncologist who spoke at the launch. The survivors' study, carried out in 2019 and 2020, recruited through the Victoria Hospital and an oncology centre it does not name, and says the island has five hospitals with the best equipped in the capital. Where chemotherapy is now given, and by how many oncologists, is not stated in anything OnCo could read; the hospital or the treating doctor can say.",
           links: [
             { label: "European Union Delegation: Owen King European Union Hospital fully operational (press release, PDF)", url: EU_OKEU },
             { label: "PAHO: Health in the Americas, Saint Lucia country profile", url: PAHO_HIA },
@@ -302,11 +306,12 @@ export const LC_DIVE: CountryDive = {
           id: "trials-and-papers",
           title: "No trial in OnCo's records has a site in Saint Lucia",
           plain:
-            "None of the cancer trials in OnCo's records lists Saint Lucia among its countries. OnCo holds a selection of trials, not the whole registry, so ClinicalTrials.gov itself is the place to search. The published research OnCo read is two papers from one set of interviews with cancer survivors.",
+            "None of the cancer trials in OnCo's records lists Saint Lucia among its countries. OnCo holds a selection of trials, not the whole registry, so ClinicalTrials.gov itself is the place to search: it lists one cancer study with a site in Castries, a study of survivors' experience and not a trial of a treatment. The published research OnCo read is two papers from one set of interviews with cancer survivors.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists Saint Lucia. A Europe PMC search for titles naming Saint Lucia (or St. Lucia) together with cancer or leukaemia returned four results: the two survivor papers, the 2025 paper on childhood leukaemia and a 2026 news item in The Lancet Oncology on the registry's launch. The last two have no indexed abstract and are cited here by title only. The survivors' first paper reports that half of them started treatment more than a month after diagnosis (median 32 days).",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists Saint Lucia. The registry's own data, read on the same day, list three studies with a site in Saint Lucia, one of them about cancer: an observational study of care overseas and cancer survivorship in six Eastern Caribbean islands, sponsored by the Vaughan A. Lewis Institute for Research and Innovation, with a site in Castries, recruiting by invitation and aiming for an estimated 900 participants. It tests no treatment. A Europe PMC search for titles naming Saint Lucia (or St. Lucia) together with cancer or leukaemia returned four results: the two survivor papers, the 2025 paper on childhood leukaemia and a 2026 news item in The Lancet Oncology on the registry's launch. The last two have no indexed abstract and are cited here by title only. The survivors' first paper reports that about half of them started treatment more than a month after diagnosis (median 32 days).",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Saint Lucia", url: CTGOV },
+            { label: "ClinicalTrials.gov: NCT07695116, overseas care and cancer survivorship in the Eastern Caribbean", url: CTGOV_CASIDEC },
             { label: "Auguste et al., access to cancer care among survivors in Saint Lucia (Int J Environ Res Public Health 2021)", url: AUGUSTE_2021 },
             { label: "Adepoju, Saint Lucia launches national cancer registry (Lancet Oncol 2026)", url: ADEPOJU_2026 },
           ],
@@ -344,9 +349,9 @@ export const LC_DIVE: CountryDive = {
       id: "gap-medicines",
       title: "How a cancer medicine is approved for import, and which are stocked, was not found",
       plain:
-        "OnCo read three sections of the Pharmacy Act and CARPHA's guidance, but found no Saint Lucian page on how a medicine is cleared for import and no list of the cancer medicines the public system holds.",
+        "OnCo read four sections of the Pharmacy Act and CARPHA's guidance, but found no Saint Lucian page on how a medicine is cleared for import and no list of the cancer medicines the public system holds.",
       detail:
-        "The copy of the Pharmacy Act read is the Attorney General's Chambers' edition of the revised laws; only sections 3, 5 and 13 were read, and the regulations made under the Act were not. That Saint Lucia does not conduct marketing authorisation itself rests on CARPHA's undated guidance not listing it, not on a Saint Lucian source. WHO's 2020 and 2021 profiles both record opioid consumption for pain relief as zero, in data for 2015 to 2017. The hospital pharmacy can say whether a given medicine is available.",
+        "The copy of the Pharmacy Act read is the Attorney General's Chambers' edition of the revised laws; only sections 2, 3, 5 and 13 were read, and the regulations made under the Act were not. That Saint Lucia does not conduct marketing authorisation itself rests on CARPHA's undated guidance not listing it, not on a Saint Lucian source. WHO's 2020 and 2021 profiles both record opioid consumption for pain relief as zero, in data for 2015 to 2017. The hospital pharmacy can say whether a given medicine is available.",
       links: [
         { label: "Attorney General's Chambers: Pharmacy Act, section 13", url: PHARMACY_S13 },
         { label: "CARPHA: Caribbean Regulatory System, guidance and questions for applicants", url: CRS_FAQ },
@@ -360,7 +365,7 @@ export const LC_DIVE: CountryDive = {
   papers: ["paper-auguste-access-cancer-care-saint-lucia-ijerph-2021", "paper-auguste-survivors-social-support-saint-lucia-ijerph-2022"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, PAHO's releases and country profile, a European Union press release, two sections of the Pharmacy Act, CARPHA's pages on the Caribbean Regulatory System, an OECS release, two reports in The Voice, and two papers resolved through Europe PMC. The Government of Saint Lucia's own sites could not be reached.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 and 2021 country profiles and its immunisation and health expenditure data, IAEA DIRAC's public equipment data, PAHO's releases and country profile, a European Union press release, four sections of the Pharmacy Act, CARPHA's pages on the Caribbean Regulatory System, an OECS release, two reports in The Voice, ClinicalTrials.gov's study data, and two papers resolved through Europe PMC. The Government of Saint Lucia's own sites could not be reached.",
   verify:
     "National cancer figures for Saint Lucia are modelled, not counted, and what patients experience is known here from one small study carried out in 2019 and 2020. Services, costs and referral arrangements change; ask the treating doctor or the Ministry of Health, Wellness and Nutrition what applies to you.",
   verifyLinks: [

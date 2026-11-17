@@ -3,8 +3,8 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
 /**
  * Suriname: the public bodies and papers behind /countries/sr/ (wave 16) that the corpus did not hold. The two
  * institutions were written from the Ministry of Health's National Cancer Control Plan Suriname 2019-2028 (PDF text,
- * ICCP portal copy), the Netherlands Enterprise Agency's page on export rules for Suriname and the State Health
- * Insurance Fund's home page (both read in Dutch), all read raw on 16 November 2026. DOIs were resolved through Europe
+ * ICCP portal copy), the Netherlands Enterprise Agency's page on export rules for Suriname, the State Health
+ * Insurance Fund's home page and the Ministry's own pages on gov.sr (all read in Dutch), all read raw on 16 November 2026. DOIs were resolved through Europe
  * PMC and the figures in `findings` are taken from the indexed abstracts.
  *
  * Inbound links: the Ministry and the Fund list each other and the existing record for the Academic Hospital
@@ -22,7 +22,9 @@ const pubmed = (pmid: string) => ({ label: "PubMed", url: `https://pubmed.ncbi.n
 const NCCP = "https://www.iccp-portal.org/system/files/plans/SUR_B5_s21_NCCP%20Suriname%202019-2028.pdf";
 const RVO = "https://www.rvo.nl/onderwerpen/landen-en-gebieden/suriname/exportregels";
 const SZF = "https://www.szf.sr/";
-const MOH = "https://gov.sr/ministeries/ministerie-van-volksgezondheid/";
+// The older address /ministeries/ministerie-van-volksgezondheid/ redirected to an unrelated news item on 16 November 2026.
+const MOH = "https://gov.sr/ministeries/ministerie-van-volksgezondheid-welzijn-arbeid/";
+const MOH_RC = "https://gov.sr/ministeries/ministerie-van-volksgezondheid-welzijn-arbeid/de-registratie-commissie/";
 const MANS = "paper-mans-cancer-incidence-suriname-tumori-2003";
 const BISHESHAR = "paper-bisheshar-head-neck-cancer-suriname-jcogo-2025";
 const WIELZEN = "paper-wielzen-prostate-cancer-suriname-jcogo-2026";
@@ -30,17 +32,18 @@ const STIJNBERG = "paper-stijnberg-hiv-cervical-suriname-rpsp-2024";
 const WOITTIEZ = "paper-woittiez-cervical-screening-hiv-suriname-cureus-2026";
 
 const institutions: InstitutionInput[] = [
-  i({ id: "moh-suriname", name: "Ministry of Health, Suriname", aka: ["Ministerie van Volksgezondheid", "MOH Suriname"],
+  i({ id: "moh-suriname", name: "Ministry of Health, Suriname", aka: ["Ministerie van Volksgezondheid", "Ministerie van Volksgezondheid, Welzijn & Arbeid", "MOH Suriname"],
     city: "Paramaribo", country: "SR", lat: 5.85, lng: -55.2, institutionType: "government", website: MOH,
     tldr: "Suriname's Ministry of Health, which published the National Cancer Control Plan 2019 to 2028. The plan says the country has no cancer registry and no national screening programme, and that the government pays for radiotherapy and for treatment in Colombia when care is not available at home.",
-    summary: "The National Cancer Control Plan Suriname 2019-2028, with a foreword by the Minister of Health, sets goals for prevention, screening and early detection, diagnosis and treatment, palliative care and surveillance. Its situational analysis says cancer incidence is known only from the pathology department of the Academic Hospital Paramaribo (133 histologically confirmed cases per 100,000 a year in 2013 and 2014), that there is no national cancer registry or screening programme, that radiotherapy was introduced in 2012 and was funded by the government, with patients and insurers not yet charged, and that patients needing services not available in Suriname can be sent to Colombia under a 2004 regulation, ARMU-LOV, with treatment and housing at government expense. The Ministry and its Inspectorate set standards and inspect; a steering committee appointed by the Ministry draws up the national medicines list, and a Dutch government guide says a medicine must be on that list to be imported. The plan dates from 2019, and OnCo found no published review of its progress. The coordinates are an approximate Paramaribo city point.",
+    summary: "The National Cancer Control Plan Suriname 2019-2028, with a foreword by the Minister of Health, sets goals for prevention, screening and early detection, diagnosis and treatment, palliative care and surveillance. Its situational analysis says cancer incidence is known only from the pathology department of the Academic Hospital Paramaribo (133 histologically confirmed cases per 100,000 a year in 2013 and 2014), that there is no national cancer registry or screening programme, that radiotherapy was introduced in 2012 and was funded by the government, with patients and insurers not yet charged, and that patients needing services not available in Suriname can be sent to Colombia under a regulation named ARMU-LOV, for which the plan cites a Ministry of Health document of 2004, with treatment and housing at government expense. The Ministry and its Inspectorate set standards and inspect; a steering committee appointed by the Ministry draws up the national medicines list, and a Dutch government guide says a medicine must be on that list to be imported. The Ministry's website says its Registration Committee (Registratiecommissie) assesses medicines before they are admitted to the Surinamese market and keeps the register of packaged medicines. The government's website lists the ministry as the Ministerie van Volksgezondheid, Welzijn & Arbeid. The plan dates from 2019, and OnCo found no published review of its progress. The coordinates are an approximate Paramaribo city point.",
     programs: ["National Cancer Control Plan 2019 to 2028", "ARMU-LOV scheme for treatment abroad (Colombia)", "National medicines list (Nationale Geneesmiddelen Klapper)", "HPV vaccination (since 2013)"],
     institutions: ["azp-suriname", "szf-suriname"],
     keyPapers: [MANS, BISHESHAR, WIELZEN, STIJNBERG, WOITTIEZ],
     cancers: ["cervical", "breast-cancer", "prostate", "colorectal"],
     links: [
       { label: "Ministry of Health: National Cancer Control Plan Suriname 2019-2028 (PDF, ICCP portal)", url: NCCP },
-      { label: "Government of Suriname: Ministerie van Volksgezondheid", url: MOH },
+      { label: "Government of Suriname: Ministerie van Volksgezondheid, Welzijn & Arbeid (in Dutch)", url: MOH },
+      { label: "Ministry of Health: the Registration Committee for medicines (in Dutch)", url: MOH_RC },
       { label: "Netherlands Enterprise Agency: export rules for Suriname (in Dutch)", url: RVO },
     ] }),
 
@@ -102,7 +105,7 @@ const papers: PaperInput[] = [
     tldr: "Among 195 women living with HIV who attended one clinic in Paramaribo over six weeks in 2023, 69% had ever had cervical screening and 39.5% had been screened in the previous three years.",
     summary: "A single-centre study at the HIV outpatient clinic of the Academic Hospital Paramaribo. The date of each woman's last cervical screening was recorded for all women attending during six weeks in 2023, and the women were asked to complete a questionnaire on factors linked to screening.",
     findings: ["195 women attended; 134 (68.7%) had ever had cervical screening and 77 (39.5%) had been screened in the past three years.", "134 women completed the questionnaire; 99 of them (73.9%) were not aware that women living with HIV have a higher risk of cervical cancer."],
-    whatItMeans: "Most of these women were not being screened as often as WHO advises, and most had not been told of their higher risk.",
+    whatItMeans: "Most of these women were not being screened as often as WHO advises, and most were not aware of their higher risk.",
     caveats: ["One clinic and six weeks, so the women are those already in HIV care.", "The abstract does not say how the date of each woman's last screening was established."],
     cancers: ["cervical"], institutions: ["azp-suriname"], related: [STIJNBERG],
     links: [doi("10.7759/cureus.105234", "DOI"), pubmed("41982595")] }),

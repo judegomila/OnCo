@@ -10,6 +10,10 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
  * Inbound links: the Ministry links the existing records for Tupua Tamasese Meaole Hospital and the Samoa Cancer
  * Society and is listed on the country page; the papers are linked from the country page and through keyPapers.
  * Coordinates are an approximate Apia city point, not a building position.
+ *
+ * Second accuracy pass, 16 November 2026: the three abstracts and the three Ministry documents were fetched again and
+ * re-read. The Amosa-Lei Sam finding on the commonest cancer types now quotes the abstract, whose sentence can be read
+ * more than one way.
  */
 const asOf = "2026-11-16";
 type I = Omit<InstitutionInput, "kind" | "asOf">;
@@ -45,7 +49,7 @@ const papers: PaperInput[] = [
     journal: "Asia-Pacific Journal of Public Health", year: 2021, doi: "10.1177/1010539520975261", pmid: "33233921", authors: "Amosa-Lei Sam F, Akinremi A, Mery L, Sarfati D, Stanley J, Gurney J", paperType: "observational",
     tldr: "A survey of every laboratory and clinically confirmed cancer in Samoa from 2007 to 2016 found recorded incidence rising from 28.5 per 100,000 in 2007 to 67.1 in 2012, then varying between 50 and 65 per 100,000.",
     summary: "The authors, from Tupua Tamasese Meaole Hospital, Fiji National University, IARC and the University of Otago, describe the survey as a preliminary step to upscale population-based cancer registry initiatives in Samoa. They reviewed all laboratory and clinically confirmed cases of cancer from 2007 to 2016 in government and non-government facilities.",
-    findings: ["Recorded incidence rose steadily from 28.5 per 100,000 in 2007 to 67.1 per 100,000 in 2012.", "It fell to 51.4 per 100,000 in 2013, was 65.1 in 2014 and 54.3 in 2015; from 2012 to 2016 it varied between 50 and 65 per 100,000.", "Cancers of the female genital organs and breast were the commonest in women, and of the digestive system in men."],
+    findings: ["Recorded incidence rose steadily from 28.5 per 100,000 in 2007 to 67.1 per 100,000 in 2012.", "It fell to 51.4 per 100,000 in 2013, was 65.1 in 2014 and 54.3 in 2015; from 2012 to 2016 it varied between 50 and 65 per 100,000.", "The abstract's own sentence on the commonest types is: \"Cancers of female genitalia, breast, and digestive system were the most common types in female and males, respectively.\" It gives no figures for them."],
     whatItMeans: "It is the published baseline for confirmed cancer counts in Samoa, made before the registry work the National Cancer Policy now plans.",
     caveats: ["Confirmed cases only, so cancers never diagnosed or never recorded are missing.", "The abstract gives rates without the underlying case counts."],
     cancers: ["breast-cancer", "cervical"], institutions: ["tupua-tamasese-meaole-hospital"], links: [doi("10.1177/1010539520975261", "DOI"), pubmed("33233921")] }),

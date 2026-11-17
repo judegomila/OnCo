@@ -54,7 +54,7 @@ export const assays: Assay[] = [
     cutoff: "TPS at least 1% or at least 50% (NSCLC); CPS at least 1 (head and neck, oesophageal, gastric); CPS at least 10 (TNBC, gastric first line); CPS at least 1 (cervical)",
     targets: ["pdl1", "pd1"], drugs: ["pembrolizumab"], cancers: ["nsclc", "head-and-neck", "esophageal", "gastric", "tnbc", "cervical", "urothelial"], biomarkers: ["pdl1-cps10", "pdl1-tps50"],
     note: "The first PD-L1 companion diagnostic, approved with pembrolizumab in second-line NSCLC in October 2015; the scoring system (TPS then CPS) grew indication by indication.", source: FDA_CDX },
-  { id: "pdl1-sp142", name: "VENTANA PD-L1 (SP142) Assay", vendor: "Roche Diagnostics", drugId: "ventana-pd-l1-sp142", vendorIds: ["roche-genentech"], readouts: ["pd-l1-ic-score"], platform: "IHC", analyte: "PD-L1 protein (immune-cell and tumour-cell scoring)", regulatory: "FDA CDx", approved: 2016,
+  { id: "pdl1-sp142", name: "VENTANA PD-L1 (SP142) Assay", vendor: "Roche Diagnostics", drugId: "ventana-pd-l1-sp142", vendorIds: ["roche-genentech"], readouts: ["pd-l1-ic-score", "pd-l1-tc-score"], platform: "IHC", analyte: "PD-L1 protein (immune-cell and tumour-cell scoring)", regulatory: "FDA CDx", approved: 2016,
     cutoff: "IC at least 5% (urothelial, historic); IC at least 1% (TNBC, indication later withdrawn); TC at least 50% or IC at least 10% (NSCLC)",
     targets: ["pdl1"], drugs: ["atezolizumab"], cancers: ["urothelial", "tnbc", "nsclc"], biomarkers: ["pdl1-cps10"],
     note: "Stains fewer tumour cells than 22C3 or 28-8 (Blueprint studies), so its results are not interchangeable with the other PD-L1 assays.", source: FDA_CDX },
@@ -159,7 +159,7 @@ export const assays: Assay[] = [
     targets: ["flt3"], drugs: ["midostaurin", "gilteritinib", "quizartinib"], cancers: ["aml"], biomarkers: [],
     note: "The signal ratio cut-off, not simply presence, defines eligibility, and the ratio also carries prognostic weight in ELN risk classification.", source: FDA_CDX },
   // ---- Germline and HRD ----
-  { id: "bracanalysis-cdx", name: "BRACAnalysis CDx", vendor: "Myriad Genetics", drugId: "bracanalysis-cdx", vendorIds: ["myriad-genetics"], readouts: ["brca-germline"], platform: "Germline NGS", analyte: "Germline BRCA1 and BRCA2 sequence and large rearrangements", regulatory: "FDA CDx", approved: 2014,
+  { id: "bracanalysis-cdx", name: "BRACAnalysis CDx", vendor: "Myriad Genetics", drugId: "bracanalysis-cdx", vendorIds: ["myriad-genetics"], readouts: ["brca-germline", "hrr-gene-mutation"], platform: "Germline NGS", analyte: "Germline BRCA1 and BRCA2 sequence and large rearrangements", regulatory: "FDA CDx", approved: 2014,
     cutoff: "Deleterious or suspected deleterious germline variant",
     targets: ["brca", "parp"], drugs: ["olaparib", "talazoparib", "rucaparib", "niraparib"], cancers: ["ovarian", "breast-hr-positive", "tnbc", "pancreatic", "prostate"], biomarkers: ["gbrca"],
     note: "The first companion diagnostic for a PARP inhibitor (olaparib, December 2014) and the first germline companion diagnostic.", source: FDA_CDX },

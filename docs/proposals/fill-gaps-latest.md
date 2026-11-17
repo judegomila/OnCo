@@ -1,62 +1,66 @@
-# Fill gaps, 16 November 2026
+# Fill gaps, 17 November 2026
 
 Worklists: `.fill-gaps/issue.md` (issue #336, refresh of 11 November 2026) and `.fill-gaps/gap-audit.md` (gap audit of
-16 November 2026).
+17 November 2026). Sources read in this run, through `/opt/onco-fetch/fetch-allowed.sh`:
 
-**No source could be fetched in this run.** Every call to `/opt/onco-fetch/fetch-allowed.sh` failed before the network
-was reached: the command sandbox could not start ("Sandbox dependencies not available: socat not installed"). So
-nothing in this run was read from FDA, ClinicalTrials.gov, Europe PMC, Crossref or any other source. Only links between
-records that already exist were filled. Each link repeats a mapping the corpus already makes for the same maker, and no
-new fact, date, figure or identifier was written.
+- FDA list of authorized companion diagnostic devices, at its new address
+  https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools
+  (the old address, `FDA_CDX_URL` in `src/data/biomarker-readouts.ts`, now redirects there over http, which the fetch
+  script refuses; a person may want to update the constant).
+- openFDA PMA record P250027: https://api.fda.gov/device/pma.json?search=pma_number:P250027
+- openFDA De Novo record DEN230008: https://api.fda.gov/device/510k.json?search=k_number:DEN230008
 
-## Filled (all in `src/data/cdx-fda-rows.ts`, `companyId` added to FDA companion diagnostic rows)
+## Filled
 
-1. **Ventana Medical Systems, Inc. → `roche-genentech`** (audit class 1, rows 5 and 9). Five rows: Ventana ALK (D5F3)
-   with crizotinib (P140025) and ceritinib (P140025/S005); PATHWAY 4B5 with trastuzumab emtansine (P990081/S039);
-   VENTANA HER2 Dual ISH with zanidatamab (P190031/S016); INFORM HER-2/neu with trastuzumab (P940004). Basis: the FDA
-   list snapshot in `src/data/universe-lists/fda-cdx-oncology.json` (checked 2026-11-11) names the maker as "Ventana
-   Medical Systems, Inc. (Roche Tissue Diagnostics)". `src/data/tests-cdx-devices.ts` (`ventana-alk-d5f3-cdx`,
-   `ventana-met-sp44`) and `src/data/biomarker-readouts.ts` already link Ventana rows to `roche-genentech`.
-2. **Roche Molecular Systems, Inc. → `roche-genentech`** (audit class 1, row 8, and the cobas KRAS rows). Three rows:
-   cobas EZH2 with tazemetostat (P200014); cobas KRAS with cetuximab and with panitumumab (P140023). Basis: the cobas
-   rows in `src/data/biomarker-readouts-2.ts` and `cobas-4800-braf-v600` in `tests-cdx-devices.ts` already link this
-   maker to `roche-genentech`.
-3. **Pillar Biosciences, Inc. → `pillar-biosciences`** (audit class 1, row 29). One row: ONCO/Reveal Dx (P200011) on
-   `egfr-exon-19-deletion`. Basis: the ras-wild-type row for the same device and PMA in `biomarker-readouts-2.ts`
-   already carries `pillar-biosciences`.
+1. **Guardant360 Liquid CDx, new record `guardant360-liquid-cdx`** (audit class 1, row 1, 6 pages), in
+   `src/data/tests.ts`. Approval date, received date, gene counts and the reflex-to-tissue and T790M statements are from
+   the openFDA P250027 approval order text; the seven companion claims (osimertinib, amivantamab, sotorasib,
+   trastuzumab deruxtecan, elacestrant, imlunestrant, encorafenib) are from the FDA list. Its FDA device name is mapped
+   in `CDX_DEVICE_IDS` (`src/data/biomarker-readouts.ts`, comment updated) so the existing rows in `cdx-fda-rows.ts`
+   link to it, and it is added to `src/data/readout-test-records.ts` for egfr-exon-19-deletion, egfr-l858r, egfr-t790m,
+   egfr-exon-20-insertion, kras-g12c, her2-mutation, braf-v600e and esr1-mutation-ctdna.
+2. **BRACAnalysis CDx on `hrr-gene-mutation`** (audit class 3, row 8). FDA list row: mCRPC, whole blood, olaparib,
+   P140020/S020 (05/19/2020). Added `assays: ["bracanalysis-cdx"]` and `asOf` in `src/data/spikes/prostate-molecular.ts`,
+   the row in `src/data/cdx-fda-rows.ts`, the readout in the assay's `readouts` (`src/data/assays.ts`) and in
+   `readout-test-records.ts`.
+3. **VENTANA PD-L1 (SP142) on `pd-l1-tc-score`** (audit class 3, row 19). FDA list row for NSCLC tissue, atezolizumab,
+   P160002/S006 (07/02/2018), reads "TC ≥ 50%" or "IC ≥ 10%". Added the row, `assays` entry `pdl1-sp142` and `asOf` in
+   `src/data/biomarker-readouts.ts`; the readout in `assays.ts` and `readout-test-records.ts`.
+4. **CRCDx RAS on `kras-g12d`** (audit class 3, row 10). FDA list row: colorectal tissue, panitumumab, absence of KRAS
+   and NRAS mutations in exons 2, 3 or 4, P220005 (09/29/2023). Row in `cdx-fda-rows.ts`, link in
+   `readout-test-records.ts`.
+5. **ONCO/Reveal Dx Lung and Colon on egfr-exon-19-deletion, egfr-l858r and kras-g12d** (audit class 3, rows 15, 16
+   and 18). FDA list rows, P200011 (07/30/2021): "Exon 19 deletion or exon 21 L858R substitution mutation" in NSCLC
+   tissue; "KRAS wild-type (absence of mutations in codons 12 and 13)" for cetuximab and panitumumab in colorectal
+   tissue. Links in `readout-test-records.ts`; the colorectal row in `cdx-fda-rows.ts` for kras-g12d.
 
-## Skipped or left open
+## Left open, with the reason
 
-- **Guardant360 Liquid CDx (P250027), audit row 1, 6 pages.** A new test record needs the FDA PMA database entry
-  (accessdata.fda.gov, on the allow-list), which could not be fetched in this run. This is the most useful next item.
-- **Class 3 rows** (BRACAnalysis CDx, myChoice CDx, FoundationFocus, VENTANA PD-L1 SP142 and SP263, ONCO/Reveal Dx,
-  CRCDx, HER2 FISH pharmDx, MMR IHC pharmDx and the FISH kits). Each one adds a companion diagnostic claim to a
-  biomarker, and that has to be read from the live FDA list. That was not possible in this run. The suggestions that
-  rest only on a shared technology (UroVysion, Vysis ALK and Vysis CLL on `her2-ish-amplified`) look like false
-  matches: those kits do not measure HER2. Rows 17 to 33, where a test record sits in drugs and has no
-  `TUMOUR_TESTS` row, describe how the page reads its data, which is product code for a person to change.
-- **Deal assets HRS-9821, MC-339, ORN-252, AraLinQ, "up to seven preclinical ADCs".** These need new drug records, and
-  the sources would be company or trial pages that could not be fetched. AraLinQ and the unnamed ADCs are platforms,
-  not products.
-- **Software vendor links (DermaSensor, Quibim, Wellcome Sanger Institute, WHO, Stanford, Vanderbilt and others) and
-  open-source maintainer links.** `src/data/software.ts` is generated by `scripts/fetch-software.ts` and says it must
-  not be edited by hand. The fix belongs in `scripts/software-curated.ts`, which is outside this run's scope. The
-  open-source rows matched on a first word only (Boston University → Boston Scientific, Peter Yang → Peter Mac) are
-  false matches.
-- **Biogenex Laboratories, Personal Genome Diagnostics, and the cobas EZH2, cobas KRAS, INFORM, InSite, SPOT-LIGHT, HER2
-  CISH pharmDx and PGDx elio device rows.** These need new company or test records with a source fetched in the run.
-  Not possible this time.
-- **therascreen PDGFRA → `therascreen-cdx`.** The comment on `CDX_DEVICE_IDS` says the family record does not name that
-  kit, so the link was not made.
-- **Issue #336 companies.** Every company needs its own website or an investor page to confirm it, and none of those
-  hosts is on the allow-list. Fetching was impossible here in any case. Two are already in the corpus under another
-  spelling: PMVPharma is `pmv-pharma` (`src/data/companies-portfolio-monitors.ts`), and Asher Bio is `asher-bio`
-  (`src/data/companies-yc.ts`). The orphan designations (EU/3/26/3252, EU/3/26/3265 and the Wealth Venture CDH17
-  conjugate) name regulatory agents rather than developers, so the developer has to be found on ema.europa.eu or
-  fda.gov first. The "stale sources" section was skipped as instructed.
-- No instruction-like text was seen in either worklist.
+- **Audit row 9, BRACAnalysis CDx on `brca-somatic`**: not linked. It is a germline whole-blood test and that readout
+  is the tumour readout; the FDA list gives it no tumour claim.
+- **Audit row 11, FoundationFocus CDxBRCA, and row 14, myChoice CDx, on `hrr-gene-mutation`**: not linked. Their only
+  FDA list rows are in ovarian cancer; the readout is the prostate one.
+- **Audit row 17, ONCO/Reveal on `egfr-t790m`**: not linked. Its FDA rows name exon 19 deletion and L858R, not T790M.
+- **Audit row 20, VENTANA SP263 on `pd-l1-ic-score`**: not linked. Every SP263 row on the FDA list is a tumour-cell
+  score (atezolizumab "TC ≥ 1%"); none gives an immune-cell score.
+- **Audit row 12, HER2 FISH pharmDx on `her2-ihc-3-plus`, and row 13, MMR IHC Panel on `msi-high`**: not linked. A FISH
+  kit does not give an IHC score, and an MMR protein stain does not measure microsatellite instability (the dmmr-ihc
+  readout already lists it).
+- **Audit class 1, DermaSensor `vendorId` on /software/**: confirmed (openFDA DEN230008 names "Dermasensor, Inc.",
+  Miami, the same company as record `dermasensor-inc`), but `src/data/software.ts` is generated by
+  `scripts/fetch-software.ts` from `scripts/software-curated.ts`, which this run may not edit. A person should set the
+  vendor id in the curated list and re-run.
+- **Audit class 1, deal assets (HRS-9821, MC-339, ORN-252, AraLinQ, "up to seven preclinical ADCs")**: not attempted;
+  the sources are company and deal press releases on hosts outside the allow-list.
+- **Issue #336, companies**: none written. PMV Pharma is already a record (`pmv-pharma`). Ascendis Pharma appears
+  only as a trial sponsor in `src/data/pipeline-trials-wave5.ts`, with no company record; a record needs its website
+  and its oncology programme from the company's own pages, which are not reachable. The rest would need the company's own website for identity and programme, and company sites
+  are not on the allow-list; EDGAR filings (sec.gov) and reporter.nih.gov are not on it either. Hosts a person could
+  consider adding: sec.gov (S-1 business sections) and reporter.nih.gov (NCI SBIR awards).
+- **Issue #336, stale sources**: skipped as instructed (a broken fetcher is a script change).
+- No text in either worklist or in any fetched page asked for anything outside this task.
 
 ## Gates
 
-The gates (`npm run validate`, `typecheck`, `lint`, `vitest run`) were not run by me; this run could not run any
-command. They run after this run.
+Not run by me: this run could not run `npm`, `vitest` or any script. The validate, typecheck, lint and test gates run
+after it.

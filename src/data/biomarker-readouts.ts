@@ -24,8 +24,9 @@ export const th = (x: Th): BiomarkerThreshold => ({ status: "current", ...x });
  * Several names point at one record where the record covers them: FoundationOne CDx and Liquid CDx share a record,
  * as do HercepTest, PATHWAY 4B5 and the HER2 Dual ISH cocktail, and the therascreen kits whose gene the family record
  * names; Signatera CDx (P260004) is the companion diagnostic version of the Signatera record, whose IMvigor011
- * approval it is (src/data/tumour-tests.ts says so). Not mapped, because no record covers the device: Guardant360 Liquid
- * CDx (P250027, a different PMA from Guardant360 CDx), HER2 CISH pharmDx, INFORM HER-2/neu, InSite Her-2/neu (CB11),
+ * approval it is (src/data/tumour-tests.ts says so). Guardant360 Liquid CDx (P250027, a different PMA from Guardant360
+ * CDx) has its own record, guardant360-liquid-cdx, since 17 November 2026. Not mapped, because no record covers the
+ * device: HER2 CISH pharmDx, INFORM HER-2/neu, InSite Her-2/neu (CB11),
  * PGDx elio tissue complete, SPOT-LIGHT HER2 CISH, cobas EZH2, cobas KRAS and therascreen PDGFRA (the therascreen
  * family record does not name it).
  */
@@ -40,6 +41,7 @@ export const CDX_DEVICE_IDS: Record<string, string> = {
   "FoundationOne CDx": "foundationone-cdx",
   "FoundationOne Liquid CDx": "foundationone-cdx",
   "Guardant360 CDx": "guardant360-cdx",
+  "Guardant360® Liquid CDx": "guardant360-liquid-cdx",
   "HER2 FISH pharmDx Kit": "her2-fish-pharmdx",
   "HercepTest": "her2-testing-assays",
   "Idylla CDx MSI Test": "idylla-cdx-msi",
@@ -268,9 +270,11 @@ export const biomarkerReadouts: BiomarkerInput[] = [
       th({ value: "TC >= 50% (or IC >= 10%)", drugId: "atezolizumab", cancerId: "nsclc", regulator: "FDA", source: LABEL.tecentriq, quote: "whose tumors have high PD-L1 expression (PD-L1 stained ≥ 50% of tumor cells [TC ≥ 50%] or PD-L1 stained tumor-infiltrating immune cells [IC] covering ≥ 10% of the tumor area [IC ≥ 10%])" }),
       th({ value: "PD-L1 >= 1% tumour cells (28-8 pharmDx)", drugId: "nivolumab", cancerId: "nsclc", regulator: "FDA", source: FDA_CDX_URL, quote: "PD-L1 protein expression (tumor cell staining ≥1%)", note: "FDA companion diagnostic row P150025/S013 (15 May 2020) for Opdivo in combination with Yervoy in NSCLC." }),
     ],
-    cancers: ["nsclc"], drugs: ["atezolizumab", "nivolumab", "ipilimumab", "ventana-pd-l1-sp263"], assays: ["pdl1-sp263", "pdl1-28-8"],
+    // SP142 added 17 November 2026: its NSCLC row on the FDA list reads "PD-L1 stained ≥ 50% of tumor cells [TC ≥ 50%] or PD-L1 stained tumor-infiltrating immune cells [IC] covering ≥ 10% of the tumor area [IC ≥ 10%]", so it gives a TC score for atezolizumab as well as an IC score.
+    cancers: ["nsclc"], drugs: ["atezolizumab", "nivolumab", "ipilimumab", "ventana-pd-l1-sp263"], assays: ["pdl1-sp263", "pdl1-28-8", "pdl1-sp142"], asOf: "2026-11-17",
     companionDiagnostics: [
       cdx("Ventana PD-L1 (SP263) Assay", "Ventana Medical Systems (Roche)", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["atezolizumab"], "P160046/S010 (10/15/2021)", "roche-genentech"),
+      cdx("Ventana PD-L1 (SP142) Assay", "Ventana Medical Systems (Roche)", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["atezolizumab"], "P160002/S006 (07/02/2018)", "roche-genentech"),
       cdx("PD-L1 IHC 28-8 pharmDx", "Agilent Technologies (Dako)", "Non-small cell lung cancer (NSCLC) - Tissue", ["nivolumab", "ipilimumab"], "P150025/S013 (05/15/2020)", "agilent"),
     ],
     forPatient: "A TC percentage is the share of tumour cells that stain. After lung cancer surgery, 1 percent or more is the label threshold for a year of atezolizumab; in metastatic lung cancer 50 percent or more allows atezolizumab on its own, and 1 percent or more allows nivolumab with ipilimumab. Ask which assay was used, because the drug the result applies to follows the assay.",

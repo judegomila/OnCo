@@ -180,7 +180,7 @@ export const BG_DIVE: CountryDive = {
           plain:
             "166 of the cancer trials in OnCo's records list a site in Bulgaria, counted from ClinicalTrials.gov participation data on 17 November 2026. That is about 70% of the number for Norway or Ireland and 78% of Finland's, while Bulgaria publishes about a quarter as many oncology papers as Norway.",
           detail:
-            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials: 166 list Bulgaria, against 238 for Norway, 212 for Finland and 242 for Ireland, recounted on 17 November 2026. In the counts OnCo took from OpenAlex on 8 September 2026 there are 655 oncology works with an author in Bulgaria in 2021 to 2025, against 2,637 for Norway. OnCo did not find a primary source on why sponsors place trials in Bulgaria, and makes no claim about it.",
+            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials: 166 trial records list Bulgaria, against 238 for Norway, 212 for Finland and 242 for Ireland, recounted on 17 November 2026. These count OnCo's records; two registrations each sit on two records, so the Norway and Ireland pages give 236 and 241 separate registered trials. In the counts OnCo took from OpenAlex on 8 September 2026 there are 655 oncology works with an author in Bulgaria in 2021 to 2025, against 2,637 for Norway. OnCo did not find a primary source on why sponsors place trials in Bulgaria, and makes no claim about it.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Bulgaria (search)", url: CTGOV }],
         },
       ],

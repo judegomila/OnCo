@@ -9,6 +9,11 @@ import type { CountryDive } from "@/data/country-dive";
  * Authority's "About us" page; the Irish Statute Book's text of the Public Health (Alcohol) Act 2018 section 12 and the
  * 2023 labelling regulations; the European Medicines Agency's page on the centralised procedure; WHO's HPV coverage and
  * health expenditure rows from its public data APIs; and IARC's GLOBOCAN 2024 fact sheet. Gaps are named under `gaps`.
+ *
+ * Second accuracy pass, 17 November 2026: every source re-read as raw text. The HPV card now names WHO's coverage
+ * categories (its own estimates beside the figures Ireland reported), the trial count is 241 distinct registrations, the
+ * alcohol-label start is three years from 3 September 2025 rather than "put back three years", and the IAEA's DIRAC
+ * directory is read from its public feed.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/372-ireland-fact-sheet.pdf";
 const NCRI = "https://www.ncri.ie/";
@@ -24,7 +29,8 @@ const BREAST = "http://www2.healthservice.hse.ie/organisation/breastcheck/";
 const CERVICAL = "http://www2.healthservice.hse.ie/organisation/cervicalcheck/";
 const ALCOHOL_ACT = "https://www.irishstatutebook.ie/eli/2018/act/24/section/12/enacted/en/html";
 const ALCOHOL_SI = "https://www.irishstatutebook.ie/eli/2023/si/249/made/en/html";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'IRL'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'IRL'%20and%20contains(ANTIGEN,'HPV')";
+const DIRAC = "https://dirac.iaea.org/";
 const WHO_GHED_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'IRL'";
 const CTGOV = "https://clinicaltrials.gov/search?country=Ireland&cond=cancer";
 
@@ -40,7 +46,7 @@ export const IE_DIVE: CountryDive = {
   lede:
     "Ireland's registry has counted cancer in the whole population since 1994. In 2021 to 2023 it recorded an average of 26,528 invasive cancers a year, excluding non-melanoma skin cancer, and 10,007 cancer deaths, and five-year survival has risen from 50% to 66% in twenty years. Since the National Cancer Control Programme was set up in 2007, specialist cancer care has been concentrated in eight designated cancer centres.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Ireland is 30,752 new cancers and 10,914 deaths, an age-standardised incidence of 317.0 per 100,000 (358.2 in men, 279.9 in women) and mortality of 92.6. Excluding non-melanoma skin cancer, IARC's estimate is 26,172 new cancers. IARC's method is trends in the national registry's rates projected to 2024, with deaths projected from national WHO mortality data. The registry's own figures are three-year averages: 26,528 invasive cancers excluding non-melanoma skin cancer and 10,007 deaths a year in 2021 to 2023. Its rates use the European standard population, not IARC's world standard, so the two sets of rates cannot be set side by side.",
+    "IARC's GLOBOCAN 2024 figure for Ireland is 30,752 new cancers and 10,914 deaths, an age-standardised incidence of 317.0 per 100,000 (358.2 in men, 279.9 in women) and mortality of 92.6, all including non-melanoma skin cancer. Excluding non-melanoma skin cancer, IARC's estimate is 26,172 new cancers. IARC's method is trends in the national registry's rates projected to 2024, with deaths projected from national WHO mortality data. The registry's own figures are three-year averages: 26,528 invasive cancers excluding non-melanoma skin cancer and 10,007 deaths a year in 2021 to 2023. Its rates use the European standard population, not IARC's world standard, so the two sets of rates cannot be set side by side.",
   sections: [
     {
       id: "profile",
@@ -52,9 +58,9 @@ export const IE_DIVE: CountryDive = {
           id: "shape",
           title: "Prostate and breast cancer are each a third of cancers in men and women; lung cancer causes one death in five",
           plain:
-            "Leaving out non-melanoma skin cancer, prostate cancer is about a third of cancers in men and breast cancer about a third in women. Lung cancer is the leading cause of cancer death in both sexes, about one cancer death in five. The median age at diagnosis is 68.",
+            "Leaving out non-melanoma skin cancer, prostate cancer is about a third of cancers in men and breast cancer about a third in women. Lung cancer is the leading cause of cancer death in both sexes, about one cancer death in five. The median age at diagnosis was 68 in 2019 to 2023.",
           detail:
-            "The registry's 2026 report gives prostate cancer as 31.8% of invasive cancers in men and breast cancer as 32.6% in women in 2021 to 2023, excluding non-melanoma skin cancer; for both sexes together prostate (17.0%) and breast (15.3%) lead, then colorectal and lung cancer (10.8% each) and melanoma (5.3%). Lung cancer caused 19.7% of cancer deaths, an average of 1,971 a year, followed by colorectal (10.4%), breast (7.6%), prostate (6.2%) and pancreatic cancer (6.1%). Non-melanoma skin cancer made up about a quarter of all registered tumours. The median age at diagnosis was 68; testicular cancer, Hodgkin lymphoma, cervical and thyroid cancer had median ages under 50. Melanoma incidence is rising strongly in both sexes, and melanoma mortality rose significantly in women in recent years.",
+            "The registry's 2026 report gives prostate cancer as 31.8% of invasive cancers in men and breast cancer as 32.6% in women in 2021 to 2023, excluding non-melanoma skin cancer; for both sexes together prostate (17.0%) and breast (15.3%) lead, then colorectal and lung cancer (10.8% each) and melanoma (5.3%). Lung cancer caused 19.7% of cancer deaths, an average of 1,971 a year, followed by colorectal (10.4%), breast (7.6%), prostate (6.2%) and pancreatic cancer (6.1%). Non-melanoma skin cancer made up about a quarter of all registered tumours. The median age at diagnosis in 2019 to 2023 was 68; testicular cancer, Hodgkin lymphoma, cervical and thyroid cancer had median ages under 50. Melanoma incidence is rising strongly in both sexes, and melanoma mortality rose significantly in women in recent years.",
           links: [
             { label: "NCRI: Cancer in Ireland 1994 to 2023, executive summary and Table 1 (PDF)", url: NCRI_2026 },
             { label: "IARC: GLOBOCAN 2024 fact sheet, Ireland (PDF)", url: IARC_FACTSHEET },
@@ -95,9 +101,9 @@ export const IE_DIVE: CountryDive = {
           id: "registry-survival",
           title: "Survival up from 50% to 66%, and premature cancer deaths below the EU average",
           plain:
-            "Five-year net survival for invasive cancers rose from 50% for people diagnosed in 1999 to 2003 to 66% for those diagnosed in 2019 to 2023. About 231,000 people, 4.4% of the population, were living after an invasive cancer diagnosis at the end of 2023.",
+            "Five-year net survival for invasive cancers, excluding non-melanoma skin cancer, rose from 50% in 1999 to 2003 to 66% in 2019 to 2023. About 231,000 people, 4.4% of the population, were living after an invasive cancer diagnosis at the end of 2023.",
           detail:
-            "The National Cancer Registry Ireland was established by the Minister for Health in 1991 and has collected data on the whole population since 1994. Its 2026 report finds the largest relative gain in five-year net survival in pancreatic cancer (175%), though survival remains low there, and large differences by stage, with lung and liver cancer often found late. It compares Ireland with the EU-27: cancer mortality before age 75 was 11% lower than the EU average, while mortality at all ages was 2.6% higher, which the registry attributes to longer life expectancy. Premature mortality was marginally higher than the EU average for oesophageal, ovarian and uterine cancer and melanoma. Incidence in men has fallen since 2009; in women it has been broadly stable.",
+            "The National Cancer Registry Ireland was established by the Minister for Health in 1991 and has collected data on the whole population since 1994. The 2019 to 2023 survival figure is an age-standardised estimate made by the period method, not a follow-up of people diagnosed in those years. Its 2026 report finds the largest relative gain in five-year net survival in pancreatic cancer (175%), though survival remains low there, and large differences by stage, with lung and liver cancer often found late. It compares Ireland with the EU-27: cancer mortality before age 75 was 11% lower than the EU average, while mortality at all ages was 2.6% higher, which the registry attributes to longer life expectancy. Premature mortality was marginally higher than the EU average for oesophageal, ovarian and uterine cancer and melanoma. Incidence in men has fallen since 2009; in women it has been broadly stable.",
           links: [
             { label: "NCRI: Cancer in Ireland 1994 to 2023, executive summary (PDF)", url: NCRI_2026 },
             { label: "National Cancer Registry Ireland: home page", url: NCRI },
@@ -186,10 +192,10 @@ export const IE_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccine for girls and boys, with three quarters vaccinated in 2025",
           plain:
-            "WHO and UNICEF's figures put HPV vaccination coverage in Ireland at 76% of girls and 74% of boys in 2025, with rows for boys from 2019. Coverage fell in 2020 and rose again, but has not returned to the 87% first-dose figure for girls in 2019.",
+            "WHO's estimates put HPV vaccination coverage in Ireland at 76% of girls and 74% of boys in 2025, and the figures Ireland itself reported to WHO are almost the same (76.2% and 73.5%). Ireland's reported first-dose coverage has drifted down from 84% of girls and 82% of boys in 2020. WHO's own estimates show a sharp fall in 2020 that Ireland's reported figures do not.",
           detail:
-            "WHO's immunisation data for Ireland give first-dose programme coverage of 87% in girls and 76% in boys in 2019, 61% and 58% in 2020, 81% and 77% in 2022 and 2023, 73% and 69% in 2024, and 76% and 74% in 2025, with the same figures for the last dose in 2025. The National Cancer Registry's 2026 report says the programme began in 2010/11 for girls aged 12 to 13 and was extended to boys in 2019.",
-          links: [{ label: "WHO immunisation data: HPV programme coverage, Ireland (API)", url: WHO_HPV_API }, { label: "NCRI: Cancer in Ireland 1994 to 2023, HPV vaccination programme (PDF)", url: NCRI_2026 }],
+            "WHO's immunisation data, read on 17 November 2026, hold two kinds of figure for Ireland. WHO's own estimates of first-dose programme coverage (the category \"HPV Estimates\") are 87% in girls and 76% in boys in 2019, 61% and 58% in 2020, 75% and 70% in 2021, 81% and 77% in 2022 and 2023, 73% and 69% in 2024, and 76% and 74% in 2025, with the same figures for the last dose in 2025; the estimates for boys start in 2019. The first-dose coverage Ireland reported (the administrative and official categories, which agree) is 75.65% in girls in 2019, 84.14% in girls and 81.53% in boys in 2020, 81.0% and 79.17% in 2021, 81.35% and 77.15% in 2022, 80.38% and 77.11% in 2023, 77.04% and 75.4% in 2024, and 76.16% and 73.52% in 2025; the reported rows for boys start in 2020. The two series are close from 2022 but differ in 2019 and 2020, where WHO's estimate for girls falls from 87% to 61% and Ireland's reported figure rises from 76% to 84%. The rows do not explain the difference. The National Cancer Registry's 2026 report says the programme began in 2010/11 for girls aged 12 to 13 and was extended to boys in 2019.",
+          links: [{ label: "WHO immunisation data: HPV coverage rows, Ireland (API)", url: WHO_HPV_API }, { label: "NCRI: Cancer in Ireland 1994 to 2023, HPV vaccination programme (PDF)", url: NCRI_2026 }],
         },
       ],
     },
@@ -211,9 +217,9 @@ export const IE_DIVE: CountryDive = {
           id: "alcohol-warning",
           title: "A law that will require alcohol to carry a cancer warning",
           plain:
-            "Ireland's Public Health (Alcohol) Act 2018 provides for alcohol containers to carry a warning about the direct link between alcohol and fatal cancers, worded \"There is a direct link between alcohol and fatal cancers\". In September 2025 the start was put back three years, so the labels are not yet compulsory.",
+            "Ireland's Public Health (Alcohol) Act 2018 provides for alcohol containers to carry a warning about the direct link between alcohol and fatal cancers, worded \"There is a direct link between alcohol and fatal cancers\". In September 2025 the start was reset to three years after a new order made that month, so the labels are not yet compulsory.",
           detail:
-            "Section 12 of the Act makes it an offence to sell an alcohol product whose container does not bear, among other things, a warning intended to inform the public of the direct link between alcohol and fatal cancers; licensed premises and online sellers must display the same warnings. The Public Health (Alcohol) (Labelling) Regulations 2023 (S.I. No. 249 of 2023) prescribe the wording and, as made, were to come into operation on 22 May 2026. On 3 September 2025 the Minister for Health made S.I. No. 422 of 2025, under which section 12 comes into operation three years after the date of that order, and S.I. No. 423 of 2025, which replaced the 22 May 2026 date in the labelling regulations. On the statute book's text the requirement therefore starts in 2028, not 2026.",
+            "Section 12 of the Act makes it an offence to sell an alcohol product whose container does not bear, among other things, a warning intended to inform the public of the direct link between alcohol and fatal cancers; licensed premises and online sellers must display the same warnings. The Public Health (Alcohol) (Labelling) Regulations 2023 (S.I. No. 249 of 2023) prescribe the wording and, as made, were to come into operation on 22 May 2026. On 3 September 2025 the Minister for Health made S.I. No. 422 of 2025, under which section 12 comes into operation three years after the date of that order, and S.I. No. 423 of 2025, which replaced the words \"on the 22nd day of May 2026\" in the labelling regulations with \"3 years after the date on which they are made\". Three years after 3 September 2025 is 3 September 2028, so on the statute book's text section 12 starts in 2028, not 2026.",
           links: [
             { label: "Irish Statute Book: Public Health (Alcohol) Act 2018, section 12", url: ALCOHOL_ACT },
             { label: "Irish Statute Book: S.I. No. 249/2023, labelling regulations (as made)", url: ALCOHOL_SI },
@@ -230,11 +236,11 @@ export const IE_DIVE: CountryDive = {
       cards: [
         {
           id: "trial-count",
-          title: "242 trials in OnCo's records have a site in Ireland",
+          title: "241 trials in OnCo's records have a site in Ireland",
           plain:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026, 242 of the cancer trials in our records list a site in Ireland, many of them breast cancer trials. A selection is listed below.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 17 November 2026, 241 of the cancer trials in our records list a site in Ireland, many of them breast cancer trials. A selection is listed below.",
           detail:
-            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and 242 list Ireland among their countries; that reflects the trials OnCo holds, not every study in Ireland. When OnCo built its country file on 8 September 2026, ClinicalTrials.gov counted 3,141 studies of any condition with a site in Ireland. OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gives Ireland 583 works in 2021, 491 in 2022, 467 in 2023, 458 in 2024 and 580 in 2025, 2,579 in total, of which 1,920 are open access and 115 highly cited.",
+            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and on 17 November 2026 241 distinct registrations among them listed Ireland among their countries; that reflects the trials OnCo holds, not every study in Ireland. An earlier count of 242 on this page included one registration twice. Breast cancer is the largest group, 43 of the trials, followed by lung cancer with 39. When OnCo built its country file on 8 September 2026, ClinicalTrials.gov counted 3,141 studies of any condition with a site in Ireland. OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gave Ireland, in the same file of 8 September 2026, 583 works in 2021, 491 in 2022, 467 in 2023, 458 in 2024 and 580 in 2025, 2,579 in total, of which 1,920 are open access and 115 highly cited.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Ireland (search)", url: CTGOV }],
         },
       ],
@@ -247,17 +253,17 @@ export const IE_DIVE: CountryDive = {
       plain:
         "OnCo did not read the HSE's current rules on hospital charges for cancer care, who qualifies for a medical card, or what private health insurance covers, so this page does not say what a cancer patient in Ireland pays beyond the Drugs Payment Scheme cap.",
       detail:
-        "The HSE's National Cancer Control Programme pages returned errors to a plain request on 11 November 2026 and were not read; what this page says about the NCCP comes from the 2017 to 2026 strategy and the NCPE. The Health Insurance Authority's figures on private cover were not read.",
+        "The HSE's National Cancer Control Programme pages returned errors to a plain request on 11 November 2026, and a page-not-found error again on 17 November 2026, and were not read; what this page says about the NCCP comes from the 2017 to 2026 strategy and the NCPE. The Health Insurance Authority's figures on private cover were not read.",
       links: [{ label: "HSE: Drugs Payment Scheme", url: DPS }],
     },
     {
       id: "unread-sources",
       title: "Other figures not found or not verified",
       plain:
-        "Waiting times for cancer care, radiotherapy capacity, screening uptake and the list of cancer medicines the HSE has approved or declined are not on this page, because OnCo did not read them from a primary source.",
+        "Waiting times for cancer care, screening uptake and the list of cancer medicines the HSE has approved or declined are not on this page, because OnCo did not read them from a primary source. For radiotherapy this page has only the machine counts in the IAEA's directory, given below.",
       detail:
-        "The NCPE publishes its recommendations and the HSE its reimbursement decisions; neither list was read. The National Screening Service's programme reports with uptake figures, and the IAEA's DIRAC radiotherapy database, were not read. A successor to the 2017 to 2026 strategy was not found.",
-      links: [{ label: "NCPE: home page", url: NCPE }],
+        "The NCPE publishes its recommendations and the HSE its reimbursement decisions; neither list was read. The National Screening Service's programme reports with uptake figures were not read. A successor to the 2017 to 2026 strategy was not found. The IAEA's DIRAC radiotherapy directory, which this page earlier said was not read, was read on 17 November 2026 from its public data feed. It lists 13 radiotherapy centres in Ireland with 40 linear accelerators and no cobalt-60 units, every entry dated 2026: seven centres in Dublin with 23 linear accelerators, two in Cork with 7, two in Galway with 6, one in Limerick with 2 and one in Waterford with 2. Eight of the 13 are listed with brachytherapy. The largest entries are St Luke's Hospital in Rathgar (6 linear accelerators) and the Glandore Centre at Cork University Hospital (5). Entries in DIRAC are reported by the centres themselves, and the directory says nothing about waiting times.",
+      links: [{ label: "NCPE: home page", url: NCPE }, { label: "IAEA DIRAC: Directory of Radiotherapy Centres", url: DIRAC }],
     },
   ],
   institutions: [

@@ -10,6 +10,9 @@ import type { CountryDive } from "@/data/country-dive";
  * Fimea's "About us" page (Internet Archive, February 2025); the European Medicines Agency's page on the centralised
  * procedure; WHO's HPV coverage and health expenditure rows from its public data APIs; and IARC's GLOBOCAN 2024 fact
  * sheet. Where a figure could not be read it is named under `gaps`.
+ *
+ * Second claim-by-claim pass, 17 November 2026: every source was fetched again as raw text. The IAEA's DIRAC feed and
+ * FICAN's news item of 17 June 2026 were added as sources; WHO's HPV rows were read with the wider antigen filter.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/246-finland-fact-sheet.pdf";
 const CIF_PAGE = "https://cancerregistry.fi/reports-and-publications/annual-report-on-cancer-in-finland/";
@@ -23,9 +26,12 @@ const STM_WSC_WB = "https://web.archive.org/web/20260915114914/https://stm.fi/en
 const STM_FEES_WB = "https://web.archive.org/web/20260927200236/https://stm.fi/en/client-fees";
 const FICAN = "https://www.fican.fi/en/";
 const FICAN_STRATEGY = "https://fican.fi/en/what-we-do/national-cancer-strategy/";
+const FICAN_ROADMAP = "https://fican.fi/en/what-we-do/national-cancer-strategy/implementation-roadmap/";
+const FICAN_ROADMAP_NEWS = "https://fican.fi/en/progress-in-cancer-strategy-implementation-roadmap-accepted-by-steering-group-and-decision-made-on-the-establishment-of-the-finnish-national-cancer-mission-hub/";
+const DIRAC = "https://dirac.iaea.org/";
 const FIMEA_WB = "https://web.archive.org/web/20250215204011/https://fimea.fi/en/about_us";
 const EMA_CENTRAL = "https://www.ema.europa.eu/en/about-us/what-we-do/authorisation-medicines";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'FIN'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'FIN'%20and%20contains(ANTIGEN,'HPV')";
 const WHO_GHED_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'FIN'";
 const CTGOV = "https://clinicaltrials.gov/search?country=Finland&cond=cancer";
 
@@ -39,9 +45,9 @@ export const FI_DIVE: CountryDive = {
   description:
     "Cancer in Finland from Finnish sources: the Finnish Cancer Registry's count of 38,853 new cancers and 13,490 deaths in 2024, IARC's 2024 estimate, 21 wellbeing services counties and an annual charge ceiling of EUR 815, Kela's medicine reimbursement and its EUR 636.12 yearly cap, FICAN's five regional cancer centres, a national cancer strategy for 2026 to 2035, and screening for cervical, breast and bowel cancer.",
   lede:
-    "Finland has registered every cancer since 1953. Its registry counted 38,853 new cancers and 13,490 cancer deaths in 2024, and more than 340,000 people living after a diagnosis. Health services have been organised since 2023 by 21 wellbeing services counties and the City of Helsinki, and specialised cancer care is networked through FICAN's five regional cancer centres.",
+    "Finland has kept a national cancer registry since 1953. The registry counted 38,853 new cancers and 13,490 cancer deaths in 2024, and more than 340,000 people living after a diagnosis. Health services have been organised since 2023 by 21 wellbeing services counties and the City of Helsinki, and specialised cancer care is networked through FICAN's five regional cancer centres.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Finland is 36,289 new cancers and 13,674 deaths, an age-standardised incidence of 258.9 per 100,000 (280.3 in men, 245.2 in women) and mortality of 77.9. IARC's method for Finland is trends in the national registry's rates projected to 2024, and for deaths trends in national WHO mortality data. The Finnish Cancer Registry's own count for 2024, published in April 2026 and so after IARC's projection was made, is 38,853 new cases and 13,490 deaths. The registry's age-standardised rates use the Finnish population of 2014 as the standard, not IARC's world standard, so its rates and IARC's cannot be set side by side.",
+    "IARC's GLOBOCAN 2024 figure for Finland is 36,289 new cancers and 13,674 deaths, an age-standardised incidence of 258.9 per 100,000 (280.3 in men, 245.2 in women) and mortality of 77.9. The fact sheet says these totals include non-melanoma skin cancer; without it, it gives 33,930 new cancers. It names its data source for new cases as the national registry and for deaths as national WHO data, and its method for both as trends in national rates projected to 2024. The Finnish Cancer Registry's own count for 2024, published in April 2026, is 38,853 new cases and 13,490 deaths. The registry's report says its overall figures leave out basal cell carcinoma of the skin and include benign tumours of the brain and central nervous system, so the two totals do not count the same things. The registry's age-standardised rates use the Finnish population of 2014 as the standard, not IARC's world standard, so its rates and IARC's cannot be set side by side.",
   sections: [
     {
       id: "profile",
@@ -55,7 +61,7 @@ export const FI_DIVE: CountryDive = {
           plain:
             "The Finnish Cancer Registry counted 38,853 new cancers in 2024. Breast cancer is the commonest in women and prostate cancer in men, with colorectal cancer second in both. Lung cancer caused the most cancer deaths, followed by colorectal and pancreatic cancer.",
           detail:
-            "Cancer in Finland 2024 gives 5,232 new breast cancers, 5,609 prostate cancers, 1,936 colorectal cancers in women and 2,217 in men, and 1,175 lung cancers in women and 1,717 in men. Lung and tracheal cancer caused 2,275 deaths, colorectal cancer 1,414 and pancreatic cancer 1,332. In women breast cancer was the commonest cause of cancer death (895 deaths), and in men lung cancer (1,425). The registry estimates that 36% of women and 38% of men develop cancer in their lifetime, and that 17% of women and 19% of men die of it. Incidence and mortality were highest among people with a basic education and lowest among those with higher education, the gap widest for lung cancer, though breast and prostate cancer were commoner among the more educated. Around 2,000 stomach cancers a year were diagnosed in the 1950s, when it was the commonest cancer; about 640 are diagnosed now.",
+            "Cancer in Finland 2024 gives 5,232 new breast cancers, 5,609 prostate cancers, 1,936 colorectal cancers in women and 2,217 in men, and 1,175 lung and tracheal cancers in women and 1,717 in men. Lung and tracheal cancer caused 2,275 deaths, colorectal cancer 1,414 and pancreatic cancer 1,332. In women breast cancer was the commonest cause of cancer death (895 deaths), and in men lung cancer (1,425). The registry estimates that 36% of women and 38% of men develop cancer in their lifetime, and that 17% of women and 19% of men die of it. Incidence and mortality were highest among people with a basic education and lowest among those with higher education, the gap widest for lung cancer, though the incidence of breast and prostate cancer was highest among those with higher education. Around 2,000 stomach cancers a year were diagnosed in the 1950s, when it was the commonest cancer; about 640 are diagnosed now.",
           links: [
             { label: "Cancer in Finland 2024, chapters 2, 6 and 7 (Internet Archive copy)", url: CIF_2024_WB },
             { label: "IARC: GLOBOCAN 2024 fact sheet, Finland (PDF)", url: IARC_FACTSHEET },
@@ -79,7 +85,7 @@ export const FI_DIVE: CountryDive = {
             { group: "Women", cases: 18667, deaths: 6206, living: 191469, surv: 74 },
             { group: "Men", cases: 20186, deaths: 7284, living: 151572, surv: 71 },
           ],
-          note: "From Table 2.1 of Cancer in Finland 2024. Counts include all cancers registered; the registry notes that cases with no tissue sample and some blood cancers may go unreported.",
+          note: "From Table 2.1 of Cancer in Finland 2024. The report says basal cell carcinoma of the skin is recorded separately and is not in the overall figures, that benign tumours of the brain and central nervous system are included, and that cases with no tissue or cell sample and blood cancers may go unreported.",
           sources: [{ label: "Cancer in Finland 2024, Table 2.1 (Internet Archive copy)", url: CIF_2024_WB }],
         },
       ],
@@ -93,9 +99,9 @@ export const FI_DIVE: CountryDive = {
           id: "registry-how",
           title: "Run by the Cancer Society for the state, and faster than before",
           plain:
-            "The Finnish Cancer Registry is a research institute of the Cancer Society of Finland; the Finnish Institute for Health and Welfare is legally responsible for the data. It published final figures for 2024 and preliminary figures for 2025 in April 2026, and for the first time reports how often the stage of a cancer was recorded.",
+            "The Finnish Cancer Registry is a research institute of the Cancer Society of Finland; the Finnish Institute for Health and Welfare is the register's controller. It published final figures for 2024 and preliminary figures for 2025 in April 2026, and for the first time reports how often the stage of a cancer was recorded.",
           detail:
-            "The report says the registry keeps a national register of all diagnosed cancers and the registers of the cervical, breast and colorectal screening programmes, and compiles treatment data for the cancer quality registry project. The Finnish Institute for Health and Welfare (THL) is the controller and contracts the Cancer Society for technical maintenance. Data come from healthcare providers and pathology laboratories. The preliminary 2025 count, 35,870 cases, is about 10% short, and more than 40% short for pancreatic cancer. Stage at diagnosis was recorded for 42% of solid tumours registered for 2024. From 2024 to 2045 the registry projects age-standardised incidence to rise by about 0.1% a year and mortality to fall by about 0.7% a year.",
+            "The report says the registry keeps a national register of all diagnosed cancers and the registers of the cervical, breast and colorectal screening programmes, and compiles treatment data for the cancer quality registry project. The Finnish Institute for Health and Welfare (THL) is the controller and contracts the Cancer Society for technical maintenance. Data come from healthcare providers and pathology laboratories. The preliminary 2025 count, 35,870 cases, is about 10% short, and more than 40% short for pancreatic cancer. Stage at diagnosis was recorded for 42% of solid tumours registered for 2024, not counting tumours of the brain and central nervous system. From 2024 to 2045 the registry projects age-standardised incidence to rise by an average of 0.1% a year and mortality to fall by an average of 0.7% a year.",
           links: [
             { label: "Cancer in Finland 2024, foreword and chapter 2 (Internet Archive copy)", url: CIF_2024_WB },
             { label: "Finnish Cancer Registry: annual report on cancer in Finland", url: CIF_PAGE },
@@ -163,9 +169,9 @@ export const FI_DIVE: CountryDive = {
           id: "screening-programmes",
           title: "Cervical screening since 1963, breast screening, and bowel screening rolled out from 2022",
           plain:
-            "Women aged 30 to 65 are invited to cervical screening every five years and women aged 50 to 69 to mammography every two years. Bowel screening by a home stool test was launched nationwide in 2022 for people aged 60 to 70 and will cover everyone aged 56 to 74 by 2031. Taking part in bowel screening is free.",
+            "Women aged 30 to 65 are invited to cervical screening every five years and women aged 50 to 69 to mammography every two years. Bowel screening by a home stool test was launched nationwide in 2022; the registry's page, last changed in July 2025, says it applies to people aged 60 to 70 and will cover everyone aged 56 to 74 in 2031. Taking part in bowel screening is free.",
           detail:
-            "The registry's cervical screening page says screening began in 1963 and covered the whole country by the early 1970s, that about 70% of women invited take part, and that it is estimated to avoid more than 250 cancer deaths a year; cervical cancer incidence and deaths have fallen to a fifth of their 1960s level, to about 170 cases and 55 deaths a year. HPV testing is used alongside the Pap test for women over 35. More than 80% of women invited to breast screening attend; between 1992 and 2003 breast cancer mortality among invited women was 22% lower than expected without screening. Colorectal screening uses a faecal immunochemical test every two years; it was piloted in 2019 to 2021 and launched nationwide in 2022, and a positive test leads to further examination, usually colonoscopy, arranged by the person's municipality. A randomised screening programme ran from 2004 to 2016.",
+            "The registry's cervical screening page, last changed in October 2023, says screening began in 1963 and covered the whole country by the early 1970s, that about 70% of women invited take part, and that it is estimated to avoid more than 250 cancer deaths a year; cervical cancer incidence and deaths have fallen to a fifth of their 1960s level, to about 170 cases and 55 deaths a year. The page says the HPV test can be used alongside the Pap test for women over 35. The breast screening page, last changed in January 2024, says more than 80% of women invited attend, and that between 1992 and 2003 breast cancer mortality among invited women was 22% lower than expected without screening. Colorectal screening uses a faecal immunochemical test every two years; it was piloted in 2019 to 2021 and launched nationwide in 2022, and a positive test leads to further examination, usually colonoscopy, arranged by the person's municipality. A randomised colorectal screening programme ran from 2004 to 2016 and covered nearly half the population.",
           links: [
             { label: "Finnish Cancer Registry: cervical cancer screening", url: CERV_SCREEN },
             { label: "Finnish Cancer Registry: breast cancer screening", url: BREAST_SCREEN },
@@ -176,12 +182,12 @@ export const FI_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccine for girls and boys at school",
           plain:
-            "HPV vaccination joined Finland's national programme in 2013 and is offered to girls and boys aged 11 to 12 through school health care. WHO and UNICEF's figures put first-dose coverage at 80% for girls and 74% for boys in 2025.",
+            "HPV vaccination joined Finland's national programme in 2013 and is offered to girls and boys aged 11 to 12 through school health care. WHO's own estimates put first-dose coverage at 80% for girls and 74% for boys in 2025; the official figures Finland reported to WHO are 81% and 75%.",
           detail:
-            "The registry's cervical screening page says the HPV vaccination programme started in 2013 as part of the national vaccination programme and is offered to girls and boys aged 11 to 12 through school health care, and that it has not yet reduced the need for cervical screening. WHO's immunisation data give coverage of 80% (girls) and 74% (boys) for the first dose in 2025, and 65% and 57% for the last dose; the first rows for boys are for 2020.",
+            "The registry's cervical screening page says the HPV vaccination programme started in 2013 as part of the national vaccination programme and is offered to girls and boys aged 11 to 12 through school health care, and that it has not yet reduced the need for cervical screening. WHO's immunisation data, read on 17 November 2026, hold two kinds of row. WHO's own estimates of programme coverage (the category it calls HPV Estimates) give 80% (girls) and 74% (boys) for the first dose in 2025, and 65% and 57% for the last dose; its estimates for boys start in 2020 and the earlier rows are blank. The rows Finland reported for 2025 give official coverage of 81% and 75% for the first dose and 71% and 64% for the final dose, and administrative coverage of 80% and 74%, and 65% and 57%. The rows name WHO alone as their source.",
           links: [
             { label: "Finnish Cancer Registry: cervical cancer screening, HPV vaccination programme", url: CERV_SCREEN },
-            { label: "WHO immunisation data: HPV programme coverage, Finland (API)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: HPV coverage rows, Finland (API)", url: WHO_HPV_API },
           ],
         },
       ],
@@ -195,19 +201,26 @@ export const FI_DIVE: CountryDive = {
           id: "fican-network",
           title: "One national cancer centre made of five regional ones",
           plain:
-            "Finland's cancer care is networked through FICAN, the Finnish Cancer Center, set up under the decree on centralising specialised care. It is made up of five regional cancer centres and a national coordinating unit.",
+            "Finland's cancer care is networked through FICAN, the Finnish Cancer Center, set up under what it calls the Centralization Decree. It is made up of five regional cancer centres and a national coordinating unit.",
           detail:
-            "FICAN's home page says it was established under the Centralization Decree to promote effective and equitable cancer care in Finland, and comprises five regional cancer centres and a coordinating unit responsible for national activities and collaboration. Its pages cover national treatment guidelines, rare cancers, the national personalised medicine programme and OECI accreditation, and its news pages report a roadmap for the cancer strategy accepted by its steering group and a decision to set up a Finnish National Cancer Mission Hub. Tampere's cancer centre (FICAN Mid) and the university hospitals of Helsinki, Turku, Oulu and Kuopio are listed below.",
-          links: [{ label: "FICAN: home page", url: FICAN }],
+            "FICAN's home page says it was established under the Centralization Decree to promote effective and equitable cancer care in Finland, and comprises five regional cancer centres and a coordinating unit responsible for national activities and collaboration. Its pages cover national treatment guidelines, rare cancers, the national personalised medicine programme and OECI accreditation, and a news item of 17 June 2026 reports that the steering group for implementing the national cancer strategy accepted the strategy's roadmap on 15 June and decided to set up a Finnish National Cancer Mission Hub. Tampere's cancer centre (FICAN Mid) and the university hospitals of Helsinki, Turku, Oulu and Kuopio are listed below.",
+          links: [
+            { label: "FICAN: home page", url: FICAN },
+            { label: "FICAN: roadmap accepted by the steering group, and the National Cancer Mission Hub (news, 17 June 2026)", url: FICAN_ROADMAP_NEWS },
+          ],
         },
         {
           id: "strategy",
           title: "A national cancer strategy for 2026 to 2035",
           plain:
-            "Finland published its national cancer strategy, Together against cancer, for 2026 to 2035 on 10 November 2025. It aims to reduce inequalities, prevent cancer and detect it earlier, and make treatment equal for everyone, with an implementation roadmap due in 2026, which FICAN reports its steering group has accepted.",
+            "Finland published its national cancer strategy, Together against cancer, for 2026 to 2035 on 10 November 2025. It aims to develop services centred on people, reduce the burden of cancer through prevention and early detection, and ensure equal treatment for everyone. FICAN reports that the steering group for implementing the strategy accepted the implementation roadmap on 15 June 2026.",
           detail:
-            "FICAN's page on the strategy says it was published on 10 November 2025 after working groups involving more than 200 healthcare professionals, researchers, organisations and citizens, steered by the Ministry of Social Affairs and Health, the Finnish Institute for Health and Welfare, the Cancer Society of Finland and FICAN. Its stated values are reducing inequalities, improving quality of life, effective care and research. An implementation roadmap setting out actions, timetables, responsible bodies and resources, including the roles of the wellbeing services counties, was due in 2026; FICAN's news pages report that its steering group accepted it.",
-          links: [{ label: "FICAN: national cancer strategy 2026 to 2035", url: FICAN_STRATEGY }],
+            "FICAN's page on the strategy says it was published on 10 November 2025 after working groups involving more than 200 healthcare professionals, researchers, organisations and citizens, steered by the Ministry of Social Affairs and Health, the Finnish Institute for Health and Welfare, the Cancer Society of Finland and FICAN. Its stated values are reducing inequalities, improving quality of life, effective care and research. An implementation roadmap setting out actions, timetables, responsible bodies and resources, including the roles of the wellbeing services counties, was due in 2026. A FICAN news item of 17 June 2026 says the steering group for implementing the strategy accepted the roadmap at its meeting on 15 June, to be submitted to the Ministry. FICAN's roadmap page, read on 17 November 2026, links to the roadmap on the Ministry's website (in Finnish), says it guides the first five-year period, 2026 to 2031, and puts the additional investment needed at an estimated EUR 140 million.",
+          links: [
+            { label: "FICAN: national cancer strategy 2026 to 2035", url: FICAN_STRATEGY },
+            { label: "FICAN: implementation roadmap", url: FICAN_ROADMAP },
+            { label: "FICAN: roadmap accepted by the steering group (news, 17 June 2026)", url: FICAN_ROADMAP_NEWS },
+          ],
         },
       ],
     },
@@ -218,11 +231,11 @@ export const FI_DIVE: CountryDive = {
       cards: [
         {
           id: "trial-count",
-          title: "213 trials in OnCo's records have a site in Finland",
+          title: "212 trials in OnCo's records have a site in Finland",
           plain:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026, 213 of the cancer trials in our records list a site in Finland, including prostate, ovarian and lymphoma trials. A selection is listed below.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 17 November 2026, 212 of the cancer trials in our records list a site in Finland, including prostate, ovarian and blood cancer trials. A selection is listed below.",
           detail:
-            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and 213 list Finland among their countries; that reflects the trials OnCo holds, not every study in Finland. When OnCo built its country file on 8 September 2026, ClinicalTrials.gov counted 4,351 studies of any condition with a site in Finland. OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gives Finland 340 works in 2021, 384 in 2022, 376 in 2023, 313 in 2024 and 395 in 2025, 1,808 in total, of which 1,470 are open access and 86 highly cited.",
+            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and 212 list Finland among their countries when recounted on 17 November 2026 (most snapshots were taken on 7 October 2026); that reflects the trials OnCo holds, not every study in Finland. When OnCo built its country file on 8 September 2026, ClinicalTrials.gov counted 4,351 studies of any condition with a site in Finland. OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gives Finland 340 works in 2021, 384 in 2022, 376 in 2023, 313 in 2024 and 395 in 2025, 1,808 in total, of which 1,470 are open access and 86 highly cited.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Finland (search)", url: CTGOV }],
         },
       ],
@@ -235,17 +248,20 @@ export const FI_DIVE: CountryDive = {
       plain:
         "OnCo could not read from a primary source how a new hospital cancer medicine is assessed and adopted across Finland's counties, because the pages of Fimea and of the Council for Choices in Health Care refused a plain request. This page therefore does not describe that route.",
       detail:
-        "fimea.fi and palveluvalikoima.fi refused a plain request (HTTP 403) on 11 November 2026, and the Fimea page used here is an Internet Archive copy from February 2025 that does not cover its assessments of hospital medicines. The registry's HTML report and stm.fi also refused plain requests and were read through Internet Archive copies of September 2026. Which cancer medicines carry Kela's special reimbursement rates was not read.",
+        "fimea.fi and palveluvalikoima.fi refused a plain request (HTTP 403) on 11 November 2026 and again on 17 November 2026. The Fimea page used here is an Internet Archive copy from February 2025; its menu lists a page on the assessment of hospital-only medicinal products, which was not read. The registry's HTML report and stm.fi also refused plain requests on both dates and were read through Internet Archive copies of September 2026. Which cancer medicines carry Kela's special reimbursement rates was not read.",
       links: [{ label: "Fimea: about us (Internet Archive copy)", url: FIMEA_WB }],
     },
     {
       id: "unread-sources",
       title: "Other figures not found or not verified",
       plain:
-        "Waiting times for cancer treatment, radiotherapy capacity and survival by stage are not on this page because OnCo did not read them from a primary source.",
+        "Waiting times for cancer treatment and survival by stage are not on this page because OnCo did not read them from a primary source. For radiotherapy, the IAEA's DIRAC directory lists 13 centres in Finland with 50 linear accelerators, in entries dated 2020.",
       detail:
-        "The registry's tables of survival by cancer type and region, its screening annual reviews, and the IAEA's DIRAC radiotherapy database were not read for this page. The registry's breast screening page cites mortality results for 1992 to 2003 and says they were unchanged in the late 2000s; newer results were not read.",
-      links: [{ label: "Finnish Cancer Registry: annual report on cancer in Finland", url: CIF_PAGE }],
+        "The registry's tables of survival by cancer type and region and its screening annual reviews were not read for this page. The IAEA's DIRAC directory of radiotherapy centres, read on 17 November 2026 from its public data feed, has 13 rows for Finland: the five university hospitals (Helsinki with 11 linear accelerators, Tampere 7, Turku 5, Kuopio 4 and Oulu 4), central hospitals in Jyväskylä (4), Vaasa (3), Joensuu, Kotka, Lahti, Lappeenranta and Pori (2 each), and Docrates Klinikka in Helsinki (2). Summed over those rows there are 50 linear accelerators and no cobalt-60 units, and 6 centres are marked as offering brachytherapy. Entries are reported by the centres themselves and every Finnish row is dated 2020, so the list may be out of date. The registry's breast screening page cites mortality results for 1992 to 2003 and says they were unchanged in the late 2000s; newer results were not read.",
+      links: [
+        { label: "Finnish Cancer Registry: annual report on cancer in Finland", url: CIF_PAGE },
+        { label: "IAEA: DIRAC, Directory of Radiotherapy Centres", url: DIRAC },
+      ],
     },
   ],
   institutions: [
@@ -258,7 +274,7 @@ export const FI_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from Finnish official sources read in full rather than through a summary: the Finnish Cancer Registry's Cancer in Finland 2024 and its screening pages; Kela's pages on medicine reimbursement; the Ministry of Social Affairs and Health's pages on wellbeing services counties and client charges; FICAN's pages; Fimea's description of itself; the European Medicines Agency's page on the centralised procedure; WHO's HPV coverage and health expenditure rows from its public data APIs; and IARC's GLOBOCAN 2024 fact sheet. Sites that refused a plain request were read through Internet Archive copies, named in each link. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex.",
+    "Every card was written from Finnish official sources read in full rather than through a summary: the Finnish Cancer Registry's Cancer in Finland 2024 and its screening pages; Kela's pages on medicine reimbursement; the Ministry of Social Affairs and Health's pages on wellbeing services counties and client charges; FICAN's pages; Fimea's description of itself; the European Medicines Agency's page on the centralised procedure; WHO's HPV coverage and health expenditure rows from its public data APIs; the IAEA's DIRAC feed; and IARC's GLOBOCAN 2024 fact sheet. Sites that refused a plain request were read through Internet Archive copies, named in each link. A second claim-by-claim pass re-read every source on 17 November 2026. Trials were counted from OnCo's ClinicalTrials.gov participation data, and research output from OpenAlex.",
   verify:
     "Charges and Kela's caps change each year, and which medicines a county's hospitals use is decided regionally and nationally. Ask the treating hospital or your wellbeing services county what applies to you, and check Kela for current reimbursement rates.",
   verifyLinks: [

@@ -264,6 +264,20 @@ describe("the allow-list and the workflow that uses it", () => {
     expect(job("propose")).not.toMatch(/npm |npx |\.github\/actions\/gates/);
   });
 
+  // Claude Code starts each command inside a sandbox in this job, and the sandbox needs bubblewrap and socat on the
+  // runner. Without them the one allowed command cannot start at all: the first run read no source for that reason.
+  it("installs the command sandbox's dependencies before the model starts, and stops if they are missing", () => {
+    const fill = job("fill");
+    const install = /apt-get install -y --no-install-recommends ([a-z -]+?) && break/.exec(fill);
+    expect(install?.[1].split(" ").sort()).toEqual(["bubblewrap", "socat"]);
+    expect(fill.indexOf(install![0])).toBeLessThan(fill.indexOf("uses: anthropics/claude-code-action@"));
+    expect(fill).toMatch(/for tool in bwrap socat; do\n\s+command -v "\$tool" >\/dev\/null \|\| \{[^\n]*exit 1; \}/);
+    // Every package is installed without its recommended extras.
+    const installs = workflow.split("\n").filter((l) => /apt-get install/.test(l) && !/^\s*#/.test(l));
+    expect(installs.length).toBeGreaterThan(1);
+    for (const line of installs) expect(line, line).toContain("--no-install-recommends");
+  });
+
   it("pins every action it uses to a commit", () => {
     const uses = [...workflow.matchAll(/^\s*-?\s*uses: (\S+)/gm)].map((m) => m[1]).filter((u) => !u.startsWith("./"));
     expect(uses.length).toBeGreaterThan(5);

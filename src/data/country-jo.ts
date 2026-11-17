@@ -196,7 +196,7 @@ export const JO_DIVE: CountryDive = {
   institutions: ["khcc"],
   companies: [],
   drugs: [],
-  trials: ["empower-lung-1", "nct03591510", "nct04557059", "nct06687369", "nct04603807", "nct06054555", "nct05296798", "nct05894239", "nct05456191", "nct05566795", "nct05491525", "nct06468033", "nct05132075"],
+  trials: ["empower-lung-1", "nct03591510", "nct04557059", "nct06687369", "nct04603807", "nct06054555", "nct05296798", "nct05894239", "nct05456191", "nct05566795", "nct06468033", "nct05132075"],
   papers: [],
   people: ["asem-mansour"],
   how:

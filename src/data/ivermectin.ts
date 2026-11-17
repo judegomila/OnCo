@@ -214,7 +214,7 @@ export const ivermectinPapers: PaperInput[] = [
     caveats: ["Narrative review; it does not add new data."],
     links: [L.patel, pubmed("40715995")], drugs: ["ivermectin"], journals: ["current-oncology-reports"], technologies: ["fenbendazole-ivermectin-repurposing-claims"], bottlenecks: ["b-misinformation"], terms: ["preclinical", "off-label"] }),
 
-  p({ id: "paper-mujumdar-ivermectin-gynaecological-cancer-2025", name: "Ivermectin and gynecologic cancer: what's the data?",
+  p({ id: "paper-mujumdar-ivermectin-gynaecological-cancer-2025", name: "Ivermectin and Gynecologic Cancer: What are the data?",
     tldr: "Gynaecological oncologists reviewed the evidence for ivermectin in womb, ovarian and cervical cancers, found only cell-line data, and strongly caution against using it.",
     summary: "The review states that ivermectin was approved by the FDA in 1996 as an oral medicine for intestinal strongyloidiasis and onchocerciasis, that data on it as a gynaecological cancer-fighting compound are lacking, and that clinical studies of ivermectin in cancer are limited to effects observed in cell lines (Mujumdar review 2025). Its authors write that they have not assessed its safety and efficacy in gynaecological cancers and 'do not recommend and strongly caution' its use (Mujumdar review 2025).",
     journal: "Gynecologic Oncology Reports", year: 2025, doi: "10.1016/j.gore.2025.101803", pmid: "40851910", authors: "Mujumdar V, Huang M, Smith LC, Musa F.", paperType: "review", changedPractice: false,

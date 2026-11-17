@@ -2,6 +2,7 @@ import type { Pathway } from "@/lib/schema";
 import { graph } from "@/lib/graph";
 import { routeFor } from "@/lib/kinds";
 import { layoutPathway } from "@/lib/pathway-routing";
+import { productClass } from "@/lib/product-class";
 
 export type PathwayProduct = { id: string; name: string; route: string; status?: string; modality: string; targets: string[]; nodeIds: string[] };
 export type PathwayNodeView = {
@@ -30,7 +31,7 @@ export type PathwayView = {
   /** The pathway's own page. */
   route: string;
   nodes: PathwayNodeView[];
-  edges: Array<{ from: string; to: string; type: "activates" | "inhibits" }>;
+  edges: Array<Pick<Pathway["edges"][number], "from" | "to" | "type" | "evidence">>;
   products: PathwayProduct[];
   interventions: string[];
 };
@@ -57,7 +58,7 @@ export function pathwayView(p: Pathway): PathwayView {
   const add = (d: { id: string; kind: string }) => {
     if (d.kind !== "drug" || products.has(d.id)) return;
     const drug = g.must(d.id);
-    if (drug.kind !== "drug") return;
+    if (drug.kind !== "drug" || productClass(drug) !== "medicine") return;
     const nodeIds = [...new Set(drug.targets.flatMap((t) => targetToNodes.get(t) ?? []))];
     if (!nodeIds.length) return;
     products.set(drug.id, { id: drug.id, name: drug.name, route: routeFor(drug), status: drug.status, modality: drug.modality, targets: drug.targets, nodeIds });
@@ -80,7 +81,7 @@ export function pathwayView(p: Pathway): PathwayView {
       if (same && (same.kind === "term" || same.kind === "target" || same.kind === "technology")) return { id: n.id, label: n.label, x: n.x, y: n.y, href: routeFor(same), tip: clip(same.tldr), opens: same.kind };
       return { id: n.id, label: n.label, x: n.x, y: n.y, href: route, opens: "pathway" };
     }),
-    edges: p.edges.map((e) => ({ from: e.from, to: e.to, type: e.type })),
+    edges: p.edges.map((e) => ({ from: e.from, to: e.to, type: e.type, ...(e.evidence ? { evidence: e.evidence } : {}) })),
     products: list,
     interventions: p.interventions,
   };

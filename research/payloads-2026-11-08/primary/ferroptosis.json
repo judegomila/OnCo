@@ -1,0 +1,561 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"Therapeutic Induction of Ferroptosis\" AND SRC:MED",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "39603241",
+        "source": "MED",
+        "pmid": "39603241",
+        "pmcid": "PMC11663111",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC11663111"
+          ]
+        },
+        "doi": "10.1016/j.chembiol.2024.10.014",
+        "title": "Therapeutic induction of ferroptosis in tumors using PD-L1 targeting antibody nanogel conjugates.",
+        "authorString": "Wang M, Prachyathipsakul T, Silva CA, Xiong C, Goel S, Goel HL, Karner ER, Mukhopadhyay D, Gupta P, Majee A, Thayumanavan S, Mercurio AM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Wang M",
+              "lastName": "Wang",
+              "firstName": "Mengdie",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Prachyathipsakul T",
+              "lastName": "Prachyathipsakul",
+              "firstName": "Theeraphop",
+              "initials": "T",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7482-8199"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Massachusetts, Amherst, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Silva CA",
+              "lastName": "Silva",
+              "firstName": "Christi A",
+              "initials": "CA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Xiong C",
+              "lastName": "Xiong",
+              "firstName": "Choua",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goel S",
+              "lastName": "Goel",
+              "firstName": "Shivam",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Goel HL",
+              "lastName": "Goel",
+              "firstName": "Hira Lal",
+              "initials": "HL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Karner ER",
+              "lastName": "Karner",
+              "firstName": "Emmet R",
+              "initials": "ER",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7141-904X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mukhopadhyay D",
+              "lastName": "Mukhopadhyay",
+              "firstName": "Dimpi",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gupta P",
+              "lastName": "Gupta",
+              "firstName": "Prachi",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Massachusetts, Amherst, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Majee A",
+              "lastName": "Majee",
+              "firstName": "Aniket",
+              "initials": "A",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Massachusetts, Amherst, MA, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Thayumanavan S",
+              "lastName": "Thayumanavan",
+              "firstName": "S",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Chemistry, University of Massachusetts, Amherst, MA, USA; Department of Biomedical Engineering, University of Massachusetts, Amherst, MA, USA. Electronic address: thai@umass.edu."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Mercurio AM",
+              "lastName": "Mercurio",
+              "firstName": "Arthur M",
+              "initials": "AM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA. Electronic address: arthur.mercurio@umassmed.edu."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7141-904X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7482-8199"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "12",
+          "volume": "31",
+          "journalIssueId": 3873635,
+          "dateOfPublication": "2024 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Cell Chem Biol",
+            "title": "Cell chemical biology",
+            "essn": "2451-9448",
+            "issn": "2451-9456",
+            "nlmid": "101676030",
+            "isoabbreviation": "Cell Chem Biol"
+          },
+          "printPublicationDate": "2024-12-01"
+        },
+        "pubYear": "2024",
+        "pageInfo": "2039-2051.e6",
+        "affiliation": "Department of Molecular, Cell and Cancer Biology, University of Massachusetts Chan Medical School, Worcester, MA, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Research Support, U.S. Gov't, Non-P.H.S.",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "National Cancer Institute",
+              "grantId": "CA218085",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA218085",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA276863",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R35 GM136395",
+              "orderIn": 0
+            },
+            {
+              "agency": "US Department of Defense",
+              "grantId": "W81XWH2110123",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Cancer Center",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA168464",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Cancer Institute",
+              "grantId": "CA276863",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Institute of General Medical Sciences",
+              "grantId": "GM136395",
+              "orderIn": 0
+            },
+            {
+              "agency": "University of Massachusetts Medical School",
+              "orderIn": 0
+            },
+            {
+              "agency": "National Cancer Institute",
+              "grantId": "CA168464",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mice"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Neoplasms",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DT",
+                    "qualifierName": "drug therapy"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PA",
+                    "qualifierName": "pathology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Imidazoles",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Piperazines"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "B7-H1 Antigen",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AI",
+                    "qualifierName": "antagonists & inhibitors"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Ferroptosis",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "DE",
+                    "qualifierName": "drug effects"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Nanogels",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Cancer",
+            "Nanogel",
+            "Ferroptosis",
+            "Antibody-nanogel-conjugates"
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "erastin",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Piperazines",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Imidazoles",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            },
+            {
+              "name": "CD274 protein, human",
+              "registryNumber": "0"
+            },
+            {
+              "name": "B7-H1 Antigen",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Nanogels",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.chembiol.2024.10.014"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11663111"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC11663111?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.chembiol.2024.10.014"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 13,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS2033462",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "gen"
+          ]
+        },
+        "dateOfCompletion": "2024-12-20",
+        "dateOfCreation": "2024-11-27",
+        "dateOfRevision": "2026-08-03",
+        "electronicPublicationDate": "2024-11-26",
+        "firstPublicationDate": "2024-11-26",
+        "firstIndexDate": "2024-11-28",
+        "fullTextReceivedDate": "2025-12-22",
+        "embargoDate": "2025-12-19",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "9ac4af97b80cda3ed3d68e578e621979fd8f25718e19c01fe466861945d63c29",
+          "characters": 1090
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "060dfbc5dba4e0cd7779b5d28d8d44000ddf028a66e6b03d69b42b8f571c1080",
+    "sourceBytes": 10437,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

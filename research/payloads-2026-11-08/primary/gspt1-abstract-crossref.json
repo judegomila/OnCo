@@ -1,0 +1,443 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          17
+        ]
+      ],
+      "date-time": "2026-10-17T16:45:29Z",
+      "timestamp": 1792255529975,
+      "version": "4.4.0"
+    },
+    "reference-count": 0,
+    "publisher": "American Association for Cancer Research (AACR)",
+    "issue": "12_Supplement",
+    "content-domain": {
+      "domain": [
+        "aacrjournals.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          15
+        ]
+      ]
+    },
+    "DOI": "10.1158/1538-7445.am2022-3933",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2022-06-15T19:52:57Z",
+      "timestamp": 1655322777000
+    },
+    "page": "3933-3933",
+    "update-policy": "https://doi.org/10.1158/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "title": [
+      "Abstract 3933: ORM-5029: A first-in-class targeted protein degradation therapy using antibody neodegrader conjugate (AnDC) for HER2-expressing breast cancer"
+    ],
+    "prefix": "10.1158",
+    "volume": "82",
+    "author": [
+      {
+        "given": "James",
+        "family": "Palacino",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chen",
+        "family": "Bai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yong",
+        "family": "Yi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anna",
+        "family": "Skaletskaya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Khuloud",
+        "family": "Takrouri",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wesley",
+        "family": "Wong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Min-Soo",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong-Ki",
+        "family": "Choi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Da-Young",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yeonhee",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiae",
+        "family": "Kook",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pedro",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hangyeol",
+        "family": "Jeong",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sang-Mi",
+        "family": "Jee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiyun",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ki-Hwan",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Orum Therapeutics, Daejon, Republic of Korea."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nathan",
+        "family": "Fishkin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Peter U.",
+        "family": "Park",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Orum Therapeutics, Cambridge, MA;"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1086",
+    "container-title": [
+      "Cancer Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://aacrjournals.org/cancerres/article/82/12_Supplement/3933/703288/Abstract-3933-ORM-5029-A-first-in-class-targeted",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://aacrjournals.org/cancerres/article/82/12_Supplement/3933/703288/Abstract-3933-ORM-5029-A-first-in-class-targeted",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2022-06-15T19:52:57Z",
+      "timestamp": 1655322777000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aacrjournals.org/cancerres/article/82/12_Supplement/3933/703288/Abstract-3933-ORM-5029-A-first-in-class-targeted"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          15
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "12_Supplement",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            15
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1158/1538-7445.am2022-3933",
+    "relation": {},
+    "ISSN": [
+      "1538-7445"
+    ],
+    "issn-type": [
+      {
+        "value": "1538-7445",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          15
+        ]
+      ]
+    },
+    "abstractRetention": {
+      "status": "exact body outside public checkout",
+      "sha256": "b170c52793f5a8b910306ea85466c44a9461194ecd0d7810fdaa0246b31f11d7",
+      "characters": 3497
+    }
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "e9ab47eea4579c02bb2e1f41b073e22b146e871e7c942459c022e900f9255a26",
+    "sourceBytes": 8941,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

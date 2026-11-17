@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import type { TrialParticipation } from "../src/lib/schema";
 
 /** Only public study metadata. Contact names, email addresses, phone numbers and investigators are not requested. */
 export const PARTICIPATION_FIELDS = [
@@ -34,11 +35,28 @@ export type ParticipationSnapshot = {
   attribution: string;
   fetchedAt: string;
   studySha256: string;
+  /** Structured response before facility-contact redaction; absent from older captures. */
+  responseStudySha256?: string;
   study: ParticipationStudy;
 };
 
 export function studyHash(study: ParticipationStudy): string {
   return createHash("sha256").update(JSON.stringify(study)).digest("hex");
+}
+
+/**
+ * Cross-references another registry declares that were read against ClinicalTrials.gov and are wrong: the NCT number
+ * names a different study. Without this list the fetcher attaches that study's sites, sponsor and status to the record.
+ * Keyed by record id, then by NCT number, with what was checked.
+ */
+export const REJECTED_CROSS_REFERENCES: Record<string, Record<string, string>> = {
+  "espac-4": {
+    NCT00058201: "ISRCTN96397434 (ESPAC-4) lists NCT00058201 as a secondary number, but ClinicalTrials.gov NCT00058201 is ESPAC-3 version 2 (secondary id RLUH-NCRI-ESPAC-3V2; observation or fluorouracil or gemcitabine, from July 2001). Read 16 November 2026.",
+  },
+};
+/** The cross-references a record may be fetched by: every declared one except those REJECTED_CROSS_REFERENCES names. */
+export function acceptedCrossReferences<T extends { nct: string }>(id: string, refs: T[] | undefined): T[] {
+  return (refs ?? []).filter((r) => !REJECTED_CROSS_REFERENCES[id]?.[r.nct]);
 }
 
 /** Explicit registry identifiers only, including multiple studies named by a combined record. No title matching. */
@@ -98,7 +116,20 @@ export function makeSnapshot(response: ParticipationStudy, fetchedAt: string): P
   assertNoFacilityContacts(study);
   return { schemaVersion: 1, nct, source: `https://clinicaltrials.gov/study/${nct}`,
     apiSource: `https://clinicaltrials.gov/api/v2/studies/${nct}`,
-    attribution: "Courtesy of the National Library of Medicine", fetchedAt, studySha256: studyHash(study), study };
+    attribution: "Courtesy of the National Library of Medicine", fetchedAt, studySha256: studyHash(study), responseStudySha256: studyHash(response), study };
+}
+
+/** Only facility metadata; no contacts and no inferred recruitment/cohort availability. */
+export function facilityObservations(snapshot: ParticipationSnapshot) {
+  if (snapshot.study.protocolSection.identificationModule.nctId !== snapshot.nct || studyHash(snapshot.study) !== snapshot.studySha256) throw new Error("Facility source identity/hash mismatch");
+  assertNoContacts(snapshot.study);
+  assertNoFacilityContacts(snapshot.study);
+  return (snapshot.study.protocolSection.contactsLocationsModule?.locations ?? []).map(location =>
+    Object.fromEntries(["facility", "status", "city", "state", "country"].flatMap(key => {
+      const value = location[key as keyof typeof location];
+      return typeof value === "string" && value.trim() ? [[key, value]] : [];
+    })) as { facility?: string; status?: string; city?: string; state?: string; country?: string }
+  );
 }
 
 /** Collect all pages before accepting omissions; reject unexpected identities and repeated cursors. */
@@ -151,4 +182,24 @@ export function participationSummary(snapshot: ParticipationSnapshot) {
     siteCount: sites.length, recruitingSiteCount: sites.filter((s) => s.status === "RECRUITING").length,
     countries: [...new Set(sites.flatMap((s) => s.country ? [s.country] : []))].sort(), gaps,
   };
+}
+
+/** Refresh registry fields while retaining independently sourced cohort observations. */
+export function participationReference(snapshot: ParticipationSnapshot, options: { facilities?: boolean; previous?: TrialParticipation[] } = {}): TrialParticipation {
+  const summary = participationSummary(snapshot);
+  const previous = (options.previous ?? []).filter(row => row.nct === snapshot.nct);
+  const keepFacilities = options.facilities || previous.some(row => row.facilities !== undefined);
+  const cohortObservations = [...new Map(previous.flatMap(row => row.cohortObservations ?? []).map(row => [JSON.stringify(row), row])).values()];
+  const ref: TrialParticipation & { gaps?: string[] } = {
+    ...summary,
+    ...(snapshot.responseStudySha256 ? { responseStudySha256: snapshot.responseStudySha256 } : {}),
+    ...(keepFacilities ? { facilities: facilityObservations(snapshot) } : {}),
+    ...(cohortObservations.length ? { cohortObservations } : {}),
+  };
+  delete ref.gaps;
+  for (const key of Object.keys(ref) as Array<keyof TrialParticipation>) {
+    const value = ref[key];
+    if (value === undefined || value === "" || (key !== "facilities" && Array.isArray(value) && !value.length)) delete ref[key];
+  }
+  return ref;
 }

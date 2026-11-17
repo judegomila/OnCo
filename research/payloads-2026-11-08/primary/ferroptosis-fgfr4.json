@@ -1,0 +1,260 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "TITLE:\"Development of the FGFR4-ADC\"",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "41210985",
+        "source": "MED",
+        "pmid": "41210985",
+        "pmcid": "PMC12590001",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC12590001"
+          ]
+        },
+        "doi": "10.1016/j.isci.2025.113718",
+        "title": "Development of the FGFR4-ADC bearing the ferroptosis inducer sulfasalazine for hepatocellular carcinoma.",
+        "authorString": "Zhang Y, Cui X, Du J, Cui G, Ling Y, Tang C.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Zhang Y",
+              "lastName": "Zhang",
+              "firstName": "Ying",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Laboratory, First Affiliated Hospital of Huzhou University, Huzhou 313000, China."
+                  },
+                  {
+                    "affiliation": "Huzhou Key Laboratory of Translational Medicine, First People's Hospital of Huzhou, Huzhou 313000, China."
+                  },
+                  {
+                    "affiliation": "Key Laboratory of Digital Technology in Medical Diagnostics of Zhejiang Province, First People's Hospital of Huzhou, Huzhou 313000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cui X",
+              "lastName": "Cui",
+              "firstName": "Xiaohong",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Psychiatry Department, Shanxi Bethune Hospital, Taiyuan 030032, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Du J",
+              "lastName": "Du",
+              "firstName": "Jing",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Key Laboratory of Aerospace Medicine of Ministry of Education, School of Aerospace Medicine, Fourth Military Medical University, Xi'an 710032, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Cui G",
+              "lastName": "Cui",
+              "firstName": "Ge",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Pathology, First Affiliated Hospital of Huzhou University, Huzhou 313000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ling Y",
+              "lastName": "Ling",
+              "firstName": "Yuhang",
+              "initials": "Y",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Laboratory, First Affiliated Hospital of Huzhou University, Huzhou 313000, China."
+                  },
+                  {
+                    "affiliation": "Huzhou Key Laboratory of Translational Medicine, First People's Hospital of Huzhou, Huzhou 313000, China."
+                  },
+                  {
+                    "affiliation": "Key Laboratory of Digital Technology in Medical Diagnostics of Zhejiang Province, First People's Hospital of Huzhou, Huzhou 313000, China."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tang C",
+              "lastName": "Tang",
+              "firstName": "Chengwu",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Central Laboratory, First Affiliated Hospital of Huzhou University, Huzhou 313000, China."
+                  },
+                  {
+                    "affiliation": "Huzhou Key Laboratory of Translational Medicine, First People's Hospital of Huzhou, Huzhou 313000, China."
+                  },
+                  {
+                    "affiliation": "Department of Hepatopancreatobiliary Surgery, First Affiliated Hospital of Huzhou University, Huzhou 313000, China."
+                  },
+                  {
+                    "affiliation": "Key Laboratory of Digital Technology in Medical Diagnostics of Zhejiang Province, First People's Hospital of Huzhou, Huzhou 313000, China."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-3783-4722"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data",
+            "related_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "11",
+          "volume": "28",
+          "journalIssueId": 4037765,
+          "dateOfPublication": "2025 Nov",
+          "monthOfPublication": 11,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "iScience",
+            "title": "iScience",
+            "essn": "2589-0042",
+            "issn": "2589-0042",
+            "nlmid": "101724038",
+            "isoabbreviation": "iScience"
+          },
+          "printPublicationDate": "2025-11-01"
+        },
+        "pubYear": "2025",
+        "pageInfo": "113718",
+        "affiliation": "Central Laboratory, First Affiliated Hospital of Huzhou University, Huzhou 313000, China.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "Natural Science Foundation of Zhejiang Province",
+              "grantId": "LTGD24H160011",
+              "orderIn": 0
+            }
+          ]
+        },
+        "keywordList": {
+          "keyword": [
+            "Biotechnology",
+            "Cancer",
+            "Therapeutics"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1016/j.isci.2025.113718"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12590001"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC12590001?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 1,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-nd",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "cellosaurus",
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2025-11-12",
+        "dateOfCreation": "2025-11-10",
+        "dateOfRevision": "2025-11-12",
+        "electronicPublicationDate": "2025-10-06",
+        "firstPublicationDate": "2025-10-06",
+        "firstIndexDate": "2025-11-10",
+        "fullTextReceivedDate": "2025-12-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "4a9be243e7d9018abd2f99cf482161a5cd6f6592ae10852908c0b35399fb9ecc",
+          "characters": 1142
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "58a4c58f4d576153d8b85760a69ca00750425f4e6b582a09f5fdae5c4a854ec2",
+    "sourceBytes": 6267,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

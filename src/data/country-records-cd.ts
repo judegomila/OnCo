@@ -187,7 +187,7 @@ const papers: PaperInput[] = [
     institutions: ["cliniques-universitaires-de-kinshasa"], cancers: ["cervical"],
     links: [doi("10.1016/j.gofs.2021.07.001", "Gynecol Obstet Fertil Senol 2022"), pubmed("34242824")] }),
 
-  p({ id: "paper-bukasa-kakamba-kinshasa-pathology-cancers-wjem-2023", name: "Which cancers Kinshasa's pathology laboratories diagnosed, 2005 to 2019",
+  p({ id: "paper-bukasa-kakamba-kinshasa-pathology-cancers-wjem-2023", name: "Cancers diagnosed by Kinshasa's pathology laboratories, 2005 to 2019",
     journal: "World Journal of Experimental Medicine", year: 2023, doi: "10.5493/wjem.v13.i3.17", pmid: "37396884", authors: "Bukasa-Kakamba J, Bangolo AI, Bayauli P, et al.", paperType: "observational", participants: 6106,
     tldr: "In 6,106 cancers recorded by four Kinshasa pathology laboratories from 2005 to 2019, 68% were in women; breast and cervical cancer led in women, and prostate and skin cancer in men.",
     summary: "Published as \"Proportion of thyroid cancer and other cancers in the democratic republic of Congo\". A retrospective, descriptive study of all consecutive cancer cases in the pathology registers of four laboratories in Kinshasa between 2005 and 2019, written to measure the share of thyroid cancer.",

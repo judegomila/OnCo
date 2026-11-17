@@ -38,7 +38,7 @@ Seven lists that say how much of what a patient is most likely to meet OnCo hold
 
 | List | Source | Licence | What one item is |
 |---|---|---|---|
-| `fda-oncology-approvals` | FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications (fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications) | Public domain (US government work) | One notification, one indication, from 1 January 2020 |
+| `fda-oncology-approvals` | FDA Oncology (Cancer) / Hematologic Malignancies Approval Notifications (fda.gov/drugs/cancer-approvals/oncology-cancerhematologic-malignancies-approval-notifications) | Public domain (US government work) | One notification, one indication, from 1 January 2020 |
 | `fda-novel-oncology` | FDA CDER Novel Drug Approvals, 2020 onwards (fda.gov/drugs/development-approval-process-drugs/novel-drug-approvals-fda) | Public domain | One new medicine whose approved use is a cancer, cancer imaging or a cancer-treatment complication |
 | `fda-cdx-oncology` | FDA List of Cleared or Approved Companion Diagnostic Devices (`FDA_CDX_URL`) | Public domain | One device, indication and drug row |
 | `ema-oncology` | EMA medicines report spreadsheet (ema.europa.eu/en/documents/report/medicines-output-medicines-report_en.xlsx) | EMA legal notice: reproduction with the source acknowledged | One centrally authorised originator medicine with ATC L01/L02 or a cancer therapeutic area |
@@ -404,3 +404,15 @@ a file you can compute from, which is the difference between quoting a summary a
   turned out to answer 404; the live address drops the leading "guidance-on-". Attachments live on
   `assets.publishing.service.gov.uk`, which is never blocked, and `pdftotext -layout` reads them cleanly, which is
   how the paragraph numbers in that guidance were quoted.
+
+## NCI Dictionary definitions behind the page shell
+
+Checked 10 November 2026 during the education audit. A dictionary page can return a JavaScript shell while
+NCI's public Glossary API supplies the definition as raw JSON. The official contract is
+`https://webapis.cancer.gov/glossary/v1/swagger/v1/swagger.json`. For example,
+`https://webapis.cancer.gov/glossary/v1/Terms/Cancer.gov/Patient/en/ex-vivo` returns the term identity and
+`definition.text`. Check `dictionary`, `audience`, `language`, `prettyUrlName` and `termName`, and retain the
+response hash and retrieval time. The ex vivo, in vitro and in vivo entries were retrieved and read this way.
+Keep the dictionary's scope explicit: its ex vivo entry describes a medical procedure with a return step;
+laboratory authors also use ex vivo for removed living material that is studied without being returned.
+This access check does not change the licence inventory above.

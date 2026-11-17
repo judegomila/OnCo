@@ -92,7 +92,7 @@ const institutions: InstitutionInput[] = [
 ];
 
 const papers: PaperInput[] = [
-  p({ id: "paper-mina-lebanon-drug-registration-collapse-plosone-2025", name: "How the registration of new medicines in Lebanon stopped after the 2019 crisis",
+  p({ id: "paper-mina-lebanon-drug-registration-collapse-plosone-2025", name: "The collapse of new medicine registration in Lebanon after the 2019 crisis",
     journal: "PLOS ONE", year: 2025, doi: "10.1371/journal.pone.0330585", pmid: "41452850", authors: "Mina W, Nahas H, Lteif MR, et al.", paperType: "methods",
     tldr: "Before Lebanon's crisis, 43.6% of new FDA-approved medicines were registered in Lebanon; for those approved from 2020 to 2024 the figure was 0%, which interviewees linked to an informal policy to hold back costly new medicines.",
     summary: "Published as \"Extent and causes of the collapse in the registration of innovative medications in Lebanon: A mixed-methods analysis\". The authors compared innovative medicines approved by the FDA or the EMA from 2014 to 2024 with their registration in Lebanon, before (2014 to 2019) and after (2020 to 2024) the crisis, and interviewed policymakers, industry leaders and healthcare providers about why registration slowed.",

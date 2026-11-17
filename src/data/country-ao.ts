@@ -17,6 +17,7 @@ const EDUCATION = "https://doi.org/10.1007/s13187-024-02444-7";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'AGO'%20and%20startswith(ANTIGEN,'PRHPV')";
 const WHO_GHED_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'AGO'";
 const CTGOV = "https://clinicaltrials.gov/search?country=Angola&cond=cancer";
+const DIRAC = "https://dirac.iaea.org/api/DataGridWebApi/GetCountriesAndRegions";
 
 export const AO_DIVE: CountryDive = {
   iso2: "AO",
@@ -46,6 +47,15 @@ export const AO_DIVE: CountryDive = {
           detail:
             "The GLOBOCAN 2024 fact sheet gives 4,614 breast cancers (2,139 deaths), 3,361 cervical cancers (2,058 deaths), 2,217 prostate cancers (1,355 deaths), 1,172 colorectal cancers, 1,159 leukaemias, 981 non-Hodgkin lymphomas and 850 Kaposi sarcomas. IARC's age-standardised incidence is 37.1 per 100,000 women for breast cancer, 30.5 for cervical cancer and 32.4 per 100,000 men for prostate cancer. An estimated 59,105 people are living within five years of a diagnosis. Deaths divided by new cases give 0.59.",
           links: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Angola (PDF)", url: IARC_FACTSHEET }],
+        },
+        {
+          id: "radiotherapy-dirac",
+          title: "Four radiotherapy centres and seven treatment machines in the IAEA's directory",
+          plain:
+            "The International Atomic Energy Agency's directory of radiotherapy centres lists four centres in Angola, all giving radiotherapy, with seven high-energy treatment machines between them. The entry was last updated in 2026. The directory does not name which machines are working or how patients reach them.",
+          detail:
+            "The public country table of the IAEA's Directory of Radiotherapy Centres (DIRAC), read through its data service on 16 November 2026, gives Angola (last update 2026) 4 radiotherapy centres, 4 of them with radiotherapy, 7 high-energy photon and electron beam teletherapy units, a brachytherapy count of 3 and no proton or ion therapy. Against IARC's estimate of 27,511 new cancers in 2024, 7 machines is one for about 3,900 new cancers a year. DIRAC holds what each country and centre has reported to the IAEA; it counts machines and does not say whether each one is working, or who can reach it. OnCo did not find an Angolan government source for the same counts.",
+          links: [{ label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC }],
         },
       ],
       tables: [
@@ -183,9 +193,9 @@ export const AO_DIVE: CountryDive = {
       id: "government-sources",
       title: "Ministry, regulator and cancer plan",
       plain:
-        "OnCo did not find on primary sources that answered a plain request: Angola's national cancer plan, what the public health system pays for cancer care, which cancer medicines are on the essential medicines list, how medicines are approved, or radiotherapy capacity.",
+        "OnCo did not find on primary sources that answered a plain request: Angola's national cancer plan, what the public health system pays for cancer care, which cancer medicines are on the essential medicines list, or how medicines are approved. Radiotherapy capacity is given in the profile above from the IAEA's directory, not from an Angolan source.",
       detail:
-        "The Ministry of Health's search returned only its home page; the medicines regulator's site shows content only with JavaScript. The national cancer institute has no website that OnCo found. The IAEA's DIRAC radiotherapy database and any IAEA imPACT review of Angola were not read.",
+        "The Ministry of Health's search returned only its home page; the medicines regulator's site shows content only with JavaScript. The national cancer institute has no website that OnCo found. The IAEA's DIRAC country table was read on 16 November 2026 and its counts are in the profile above; its centre-by-centre equipment report and any IAEA imPACT review of Angola were not read.",
       links: [{ label: "WHO Global Health Expenditure Database: Angola (API)", url: WHO_GHED_API }],
     },
     {

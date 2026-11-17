@@ -1,3 +1,6 @@
+import type { RegulatoryClaim } from "@/lib/scoped-evidence";
+import { ASSAY_REGULATORY_CLAIMS } from "./assay-regulatory-claims";
+
 /**
  * Companion diagnostic and key assay registry: the tests whose cut-offs gate biomarker-selected drugs.
  *
@@ -23,6 +26,8 @@ export type Assay = {
   /** The threshold or positivity rule that gates therapy. */
   cutoff: string;
   regulatory: AssayRegulatory;
+  /** Coexisting claims with separate subject, intended-use scope, authority and dated source. */
+  regulatoryClaims?: RegulatoryClaim[];
   approved?: number;
   /** Target ids the analyte maps to. */
   targets: string[];
@@ -45,6 +50,7 @@ const doi = (d: string, label: string) => ({ label, url: `https://doi.org/${d}` 
 export const assays: Assay[] = [
   // ---- PD-L1 ----
   { id: "pdl1-22c3", name: "PD-L1 IHC 22C3 pharmDx", vendor: "Agilent (Dako)", drugId: "dako-pd-l1-22c3-pharmdx", vendorIds: ["agilent"], readouts: ["pd-l1-cps", "pd-l1-tps"], platform: "IHC", analyte: "PD-L1 protein (tumour and immune cells)", regulatory: "FDA CDx", approved: 2015,
+    regulatoryClaims: ASSAY_REGULATORY_CLAIMS["dako-pd-l1-22c3-pharmdx"],
     cutoff: "TPS at least 1% or at least 50% (NSCLC); CPS at least 1 (head and neck, oesophageal, gastric); CPS at least 10 (TNBC, gastric first line); CPS at least 1 (cervical)",
     targets: ["pdl1", "pd1"], drugs: ["pembrolizumab"], cancers: ["nsclc", "head-and-neck", "esophageal", "gastric", "tnbc", "cervical", "urothelial"], biomarkers: ["pdl1-cps10", "pdl1-tps50"],
     note: "The first PD-L1 companion diagnostic, approved with pembrolizumab in second-line NSCLC in October 2015; the scoring system (TPS then CPS) grew indication by indication.", source: FDA_CDX },

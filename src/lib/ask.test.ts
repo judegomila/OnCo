@@ -327,9 +327,13 @@ describe("Ask OnCo end to end", () => {
     expect(a.entities[0].id).toBe("tnbc");
     expect(a.sources[0].id).toBe("tnbc");
     expect(a.sentences[0].cite).toBe(1);
-    expect(a.sentences[0].text).toMatch(/lacks the three receptors \(oestrogen, progesterone, HER2\)/);
+    // Negative categories are assay interpretations, not proof of zero receptor molecules.
+    // The old assertion required that inaccurate absence claim. Keep the diagnostic
+    // threshold, named receptors and citation checks while enforcing the distinction.
+    expect(a.sentences[0].text).toMatch(/classified as oestrogen receptor-negative, progesterone receptor-negative and HER2-negative/);
     const text = answerText(a).toLowerCase();
-    for (const must of ["oestrogen", "progesterone", "her2", "er <1%", "pr <1%"]) expect(text).toContain(must);
+    for (const must of ["oestrogen", "progesterone", "her2", "er and pr nuclear staining below 1 percent", "ihc/ish algorithm"]) expect(text).toContain(must);
+    expect(text).toContain("negative test categories do not mean that every receptor molecule is absent");
     expect(a.followUps).toContain("How is TNBC treated?");
     expect(a.method).toMatch(/nothing is generated/);
     expect(a.readMore.some((r) => r.href === "/cancers/tnbc/")).toBe(true);
@@ -503,6 +507,10 @@ describe("Ask OnCo end to end", () => {
     // (ask.ts namedDrugs). Measured 0.4343 with it (scripts/ask-recall.ts); proc-80 and who-74 gain, no question loses;
     // the rubric is 0.6825 before and after; the pipeline benchmark and both natural sets are unchanged.
     { date: "2026-11-11", recall: 0.4343, note: "country deep dives waves 5 to 12 (0.4259 alone) plus a named medicine placed first; extractive rubric 0.6825" },
+    // 16 Nov 2026, a contributor's teaching-concept batch (pull requests 417, 418, 420 and the data of 375: 215 new
+    // records and about 530 revised). No ranking change and no floor change. The rubric falls from 0.6825 and stays
+    // above its 0.66 floor; which rewritten answers lost rubric points has not been traced question by question.
+    { date: "2026-11-16", recall: 0.4365, note: "contributor teaching-concept batch merged; extractive rubric 0.6765; both floors unchanged" },
     // 16 November 2026, country deep dives wave 16 (sixteen places, 70 records). The corpus before them measured 0.4313;
     // with them 0.4293, a hair under the floor: no new record entered any top six, but 70 more documents moved every
     // inverse document frequency by about 0.005, which swapped selpercatinib and a screening test tied at 0.243 in the

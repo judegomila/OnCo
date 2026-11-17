@@ -9,7 +9,7 @@ const asOf = "2026-09-07";
 const W = (s: string) => `https://en.wikipedia.org/wiki/${s}`;
 const ct = (nct: string) => ({ label: `ClinicalTrials.gov ${nct}`, url: `https://clinicaltrials.gov/study/${nct}` });
 
-type T = Omit<TrialInput, "kind" | "asOf">;
+type T = Omit<TrialInput, "kind" | "asOf"> & { asOf?: TrialInput["asOf"] };
 const t = (x: T): TrialInput => ({ kind: "trial", asOf, ...x });
 type D = Omit<DrugInput, "kind" | "asOf"> & { asOf?: string };
 const d = (x: D): DrugInput => ({ kind: "drug", asOf, ...x });
@@ -77,9 +77,11 @@ const trials: TrialInput[] = [
     drugs: ["tarlatamab", "durvalumab"], targets: ["dll3"], cancers: ["sclc", "extensive-stage-sclc"], links: [ct("NCT06211036"), { label: "Amgen topline release (8 Sep 2026)", url: "https://www.amgen.com/newsroom/press-releases/2026/09/imdelltra-in-combination-with-imfinzi-demonstrated-landmark-improvement-in-overall-survival-in-first-line-extensive-stage-small-cell-lung-cancer" }, { label: "DeLLphi-303 results (IASLC)", url: "https://www.iaslc.org/iaslc-news/press-release/tarlatamab-anti-pd-l1-first-line-maintenance-after-chemo-immunotherapy-es" }] }),
   t({ id: "ideate-lung02", technologies: ["adc"], name: "IDeate-Lung02", aka: ["ideate-lung02"], nct: "NCT06203210", phase: "3", status: "recruiting", sponsor: "Daiichi Sankyo / Merck", enrolled: 540,
     setting: "Relapsed SCLC after one prior line: ifinatamab deruxtecan vs topotecan, amrubicin, or lurbinectedin",
-    tldr: "IDeate-Lung02 is the pivotal trial for the B7-H3 ADC that produced some of the highest response rates ever seen in relapsed small-cell lung cancer.",
-    summary: "IDeate-Lung02, trial NCT06203210 sponsored by Daiichi Sankyo and Merck, is the pivotal phase 3 for ifinatamab deruxtecan, the B7-H3 antibody-drug conjugate that produced some of the highest response rates ever seen in relapsed small-cell lung cancer. It compares the drug with topotecan, amrubicin or lurbinectedin after one prior line, with objective response rate and overall survival as primary endpoints, following IDeate-Lung01, in which more than half of patients responded at the 12 mg/kg dose. OnCo links it to small-cell lung cancer, B7-H3 as a target, ifinatamab deruxtecan, topotecan and lurbinectedin. It is recruiting with no results, is positioned to compete with tarlatamab in the second line, and how the two should be sequenced is the open question.",
-    drugs: ["ifinatamab-deruxtecan", "topotecan", "lurbinectedin", "amrubicin"], targets: ["b7h3"], cancers: ["sclc", "extensive-stage-sclc"], companies: ["daiichi-sankyo"], links: [ct("NCT06203210"), { label: "Trial design paper", url: "https://pubmed.ncbi.nlm.nih.gov/41055143/" }] }),
+    tldr: "IDeate-Lung02 is a phase 3 comparison of ifinatamab deruxtecan with physician-choice treatment for relapsed small-cell lung cancer. Recruitment is not an efficacy result.",
+    summary: "IDeate-Lung02 (NCT06203210) compares ifinatamab deruxtecan with physician-choice topotecan, amrubicin or lurbinectedin in relapsed small-cell lung cancer. The ClinicalTrials.gov entry checked on 11 November 2026 lists overall survival as the primary outcome; objective response is a secondary outcome. The study is phase 3 and recruiting, with no results posted in that entry. It does not compare directly with tarlatamab or establish a treatment sequence.",
+    drugs: ["ifinatamab-deruxtecan", "topotecan", "lurbinectedin", "amrubicin"], targets: ["b7h3"], cancers: ["sclc", "extensive-stage-sclc"], companies: ["daiichi-sankyo"], links: [ct("NCT06203210"), { label: "Trial design paper", url: "https://pubmed.ncbi.nlm.nih.gov/41055143/" }] ,
+"asOf": "2026-11-11"
+}),
   t({ id: "astrum-005", technologies: ["checkpoint-inhibitor"], name: "ASTRUM-005", nct: "NCT04063163", phase: "3", status: "positive", yearReported: 2022, sponsor: "Henlius", enrolled: 585,
     setting: "First-line ES-SCLC: serplulimab + carboplatin-etoposide vs placebo + carboplatin-etoposide",
     tldr: "In ASTRUM-005, a Chinese PD-1 antibody produced the longest first-line survival of the chemo-immunotherapy trials; it is now approved in Europe and the UK but not yet in the US.",

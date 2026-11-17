@@ -1,0 +1,32 @@
+{
+  "request": {
+    "query": "Which original antibody drug conjugate studies distinguish free payload, linker drug and released catabolite identity when measuring membrane permeability, ABCB1 or ABCG2 transport and bystander killing, including DM1, MMAF, DM4 and tesirine SG3199?",
+    "searchMode": "semantic",
+    "maxResults": 12,
+    "corpus": "elicit"
+  },
+  "provider": "Elicit API",
+  "endpoint": "https://elicit.com/api/v2/search/papers",
+  "retrievedAt": "2026-11-10T01:03:02.405Z",
+  "warnings": [],
+  "fullResponse": {
+    "custody": "Complete JSON retained outside Git; this public receipt contains metadata and dispositions, not copied abstract bodies.",
+    "file": "elicit-chemical-species.json",
+    "bytes": 31358,
+    "sha256": "317935289e39cb729b9fe815d3f0825b696ee9db887e2db842d4ab3a261df561"
+  },
+  "occurrenceIds": [
+    "payload-species-elicit-1",
+    "payload-species-elicit-2",
+    "payload-species-elicit-3",
+    "payload-species-elicit-4",
+    "payload-species-elicit-5",
+    "payload-species-elicit-6",
+    "payload-species-elicit-7",
+    "payload-species-elicit-8",
+    "payload-species-elicit-9",
+    "payload-species-elicit-10",
+    "payload-species-elicit-11",
+    "payload-species-elicit-12"
+  ]
+}

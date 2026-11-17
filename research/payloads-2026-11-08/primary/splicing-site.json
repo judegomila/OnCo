@@ -1,0 +1,442 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1371/journal.pone.0178452",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "28558059",
+        "source": "MED",
+        "pmid": "28558059",
+        "pmcid": "PMC5448779",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC5448779"
+          ]
+        },
+        "doi": "10.1371/journal.pone.0178452",
+        "title": "Multivalent peptidic linker enables identification of preferred sites of conjugation for a potent thialanstatin antibody drug conjugate.",
+        "authorString": "Puthenveetil S, He H, Loganzo F, Musto S, Teske J, Green M, Tan X, Hosselet C, Lucas J, Tumey LN, Sapra P, Subramanyam C, O'Donnell CJ, Graziani EI.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Puthenveetil S",
+              "lastName": "Puthenveetil",
+              "firstName": "Sujiet",
+              "initials": "S",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-9005-8422"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "He H",
+              "lastName": "He",
+              "firstName": "Haiyin",
+              "initials": "H",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Loganzo F",
+              "lastName": "Loganzo",
+              "firstName": "Frank",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pfizer Oncology Research, Pearl River, NY, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Musto S",
+              "lastName": "Musto",
+              "firstName": "Sylvia",
+              "initials": "S",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pfizer Oncology Research, Pearl River, NY, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Teske J",
+              "lastName": "Teske",
+              "firstName": "Jesse",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Green M",
+              "lastName": "Green",
+              "firstName": "Michael",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tan X",
+              "lastName": "Tan",
+              "firstName": "Xingzhi",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pfizer Oncology Research, Pearl River, NY, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Hosselet C",
+              "lastName": "Hosselet",
+              "firstName": "Christine",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pfizer Oncology Research, Pearl River, NY, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Lucas J",
+              "lastName": "Lucas",
+              "firstName": "Judy",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pfizer Oncology Research, Pearl River, NY, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Tumey LN",
+              "lastName": "Tumey",
+              "firstName": "L Nathan",
+              "initials": "LN",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Sapra P",
+              "lastName": "Sapra",
+              "firstName": "Puja",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pfizer Oncology Research, Pearl River, NY, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Subramanyam C",
+              "lastName": "Subramanyam",
+              "firstName": "Chakrapani",
+              "initials": "C",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "O'Donnell CJ",
+              "lastName": "O'Donnell",
+              "firstName": "Christopher J",
+              "initials": "CJ",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Graziani EI",
+              "lastName": "Graziani",
+              "firstName": "Edmund I",
+              "initials": "EI",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-9005-8422"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "12",
+          "journalIssueId": 2551942,
+          "dateOfPublication": "2017 ",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2017,
+          "journal": {
+            "medlineAbbreviation": "PLoS One",
+            "title": "PloS one",
+            "essn": "1932-6203",
+            "issn": "1932-6203",
+            "nlmid": "101285081",
+            "isoabbreviation": "PLoS One"
+          },
+          "printPublicationDate": "2017-01-01"
+        },
+        "pubYear": "2017",
+        "pageInfo": "e0178452",
+        "affiliation": "Worldwide Medicinal Chemistry, Pfizer Global R&D, Groton, Connecticut, United States of America.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cell Line, Tumor"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Pyrans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Peptides",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Antineoplastic Agents",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "AD",
+                    "qualifierName": "administration & dosage"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "PD",
+                    "qualifierName": "pharmacology"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Immunoconjugates",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "CH",
+                    "qualifierName": "chemistry"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Carriers"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Screening Assays, Antitumor"
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Antineoplastic Agents",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Peptides",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Pyrans",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Drug Carriers",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Immunoconjugates",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1371/journal.pone.0178452"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5448779"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC5448779?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2017-10-02",
+        "dateOfCreation": "2017-05-31",
+        "dateOfRevision": "2018-11-13",
+        "electronicPublicationDate": "2017-05-30",
+        "firstPublicationDate": "2017-05-30",
+        "firstIndexDate": "2017-05-31",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "104191f8da3ad2c707dcfb6c849df568d0f173734955ccddd59f5121dd66f31a",
+          "characters": 1496
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "38e92f6ea3d308608f4da1f3d9eab106b6b96d14e6d3484a2a26218baa17dc6a",
+    "sourceBytes": 8924,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

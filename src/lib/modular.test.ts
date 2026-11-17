@@ -96,6 +96,52 @@ describe("decomposer coverage", () => {
     const deg = by("degrader");
     expect(deg.drugs.find((d) => d.id === "lenalidomide")!.components.ligase?.id).toBe("cereblon");
   });
+
+  it("keeps dual cargo together, separates its delivery antigen and preserves exact scoped loading", () => {
+    const adc = by("adc");
+    const dual = adc.drugs.find(d => d.id === "clio-8221")!;
+    expect(dual.components.target?.id).toBe("her2");
+    expect(dual.components.target?.id).not.toContain("atr");
+    expect(dual.components.payload?.name).toContain("Exatecan");
+    expect(dual.components.payload?.name).toContain("Berzosertib");
+    expect(dual.components.payload?.href).toBeUndefined();
+    expect(dual.components.payloadClass?.id).toBe("atr-chk1-inhibitors+topoisomerase-i-payloads");
+    expect(dual.components.dar).toBeUndefined();
+    // The dual construct is not counted as a single-cargo medicine in either grid cell.
+    expect(adc.cells.filter(c => c.drugs.some(d => d.id === dual.id)).map(c => c.b.id)).toEqual([dual.components.payloadClass!.id]);
+    const dm1 = adc.drugs.find(d => d.id === "trastuzumab-emtansine")!;
+    expect(dm1.components.dar?.id).toBe("3.5");
+    expect(dm1.components.dar?.detail).toContain("payload-molecules/antibody");
+    expect(dm1.components.payload?.id).toBe("dm1");
+  });
+
+  it("does not turn a derivative-family registry row into an exact exatecan identity", () => {
+    const adc = by("adc");
+    for (const id of ["izalontamab-brengitecan", "trastuzumab-brengitecan"]) {
+      const drug = adc.drugs.find(d => d.id === id)!;
+      expect(drug.components.payload?.id).toBe("ed-04");
+      expect(drug.components.payload?.href).toBeUndefined();
+      expect(drug.components.payload?.from).toEqual(["payload"]);
+      expect(drug.components.payloadClass?.id).toBe("topoisomerase-i-payloads");
+    }
+    for (const id of ["tilatamig-samrotecan", "puxitatug-samrotecan"]) {
+      expect(adc.drugs.find(d => d.id === id)!.components.payload?.id).toBe("az14170133");
+    }
+    // This record supplies only a class. The legacy family row must not invent a chemical.
+    expect(adc.drugs.find(d => d.id === "ak146d1")!.components.payload).toBeUndefined();
+  });
+
+  it("retains both named legacy cargoes instead of assigning the construct to either single-payload cell", () => {
+    const adc = by("adc");
+    const dual = adc.drugs.find(d => d.id === "te-1182")!;
+    expect(dual.components.payload?.id).toBe("exatecan+mmaf");
+    expect(dual.components.payload?.name).toBe("Exatecan + MMAF");
+    expect(dual.components.payload?.href).toBeUndefined();
+    expect(dual.components.payload?.from).toEqual(["payload"]);
+    expect(dual.components.payloadClass?.id).toBe("topoisomerase-i-payloads+tubulin-inhibitor-payloads");
+    expect(adc.cells.filter(c => c.drugs.some(d => d.id === dual.id)).map(c => c.b.id)).toEqual([dual.components.payloadClass!.id]);
+    expect(dual.components.dar).toBeUndefined();
+  });
 });
 
 describe("permutation grid", () => {

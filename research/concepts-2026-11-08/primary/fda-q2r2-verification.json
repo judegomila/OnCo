@@ -1,0 +1,11 @@
+{
+  "url": "https://www.fda.gov/media/161201/download",
+  "sha256": "fbf0a19b997426b81bbbdf27e6a95b9abb385a7a024731caa0b2cd6f95eec3ea",
+  "sourceType": "FDA/ICH final guidance, March 2024",
+  "scope": "Analytical procedures in drug development. Used for measurement definitions, not as a clinical ctDNA assay certification standard.",
+  "verifiedSections": [
+    "Glossary: Detection limit (DL), page 18",
+    "Glossary: Quantitation limit (QL), page 19"
+  ],
+  "capturedAtFilesystemUTC": "2026-11-08T18:45:08.631366+00:00"
+}

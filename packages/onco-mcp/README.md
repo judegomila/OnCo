@@ -55,7 +55,7 @@ The `ask` tool also returns `isError` if reading any of its records fails becaus
 
 ## Resources
 
-- `onco://kinds`: the eighteen kinds with counts, routes and one-line descriptions.
+- `onco://kinds`: every kind of record (21 today, read from the schema at build time) with counts, routes and one-line descriptions.
 - `onco://kinds/{kind}`: every record of one kind (id, name, status, TL;DR, URL). Completion on the kind name.
 
 ## Prompt

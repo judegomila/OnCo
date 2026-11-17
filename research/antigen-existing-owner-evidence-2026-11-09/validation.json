@@ -1,0 +1,18 @@
+{
+  "validateEntities": 22719,
+  "typecheck": "pass",
+  "lint": "pass",
+  "fullSuite": {
+    "files": 281,
+    "passed": 2813,
+    "skipped": 2,
+    "seconds": 87.83
+  },
+  "actualEntityDetailSSR": {
+    "owners": 45,
+    "missingSources": 0,
+    "nestedAnchors": 0
+  },
+  "exactRequirementPassagesInBody": 4,
+  "productionBuild": "Not rerun; previously documented baseline page-export limitation remains."
+}

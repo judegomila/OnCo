@@ -1,0 +1,277 @@
+{
+  "checkedOn": "2026-11-09",
+  "reason": "Environment refresh removed previous /tmp review bundles. Historical hashes are retained as historical receipts, not proof the image/source bytes are still available.",
+  "historicalBundleStatus": "Unavailable; not reconstructed from hashes.",
+  "replacement": {
+    "beforeCommit": "0f8ebc2569e2dcb023364d8cb6971186f11f59ab",
+    "afterCommit": "f5c50fd2732a6573bbd5d36d68a14cb7696fca8a",
+    "location": "/Users/jasonlaster/.cache/onco-reference/systematic-education-2026-11/review",
+    "scope": "Paired SSR fixtures of the actual public components; same page, viewport, dark color scheme and scroll position. This is not a replacement claim for historical hydrated captures.",
+    "captureCount": 32,
+    "files": [
+      {
+        "capture": "desktop-assays-after.png",
+        "bytes": 210982,
+        "sha256": "b68e8d9b42329f2bfdaa1f2cbcffc10e678ed62154b5a2c70919847873959cb0"
+      },
+      {
+        "capture": "desktop-assays-before.png",
+        "bytes": 224204,
+        "sha256": "b974627a8836003041a0cfe70013f5243eec96481c0c761660fc1c1bc4282979"
+      },
+      {
+        "capture": "desktop-b-combination-space-after.png",
+        "bytes": 237081,
+        "sha256": "de1460f25fe80746f604df041de7d9f99b51ba7562ba3b2bacf319ca703a1741"
+      },
+      {
+        "capture": "desktop-b-combination-space-before.png",
+        "bytes": 237460,
+        "sha256": "fb43ef3b05aed5d47da4d78006158abe4ea566b4341c2fec72de323ab17386f9"
+      },
+      {
+        "capture": "desktop-bl-b01d1-307-after.png",
+        "bytes": 199577,
+        "sha256": "aaba011910e3c22cfb12e3eeb0b4e5f6e045c83656d71fbbf4ed5c7241d899d5"
+      },
+      {
+        "capture": "desktop-bl-b01d1-307-before.png",
+        "bytes": 211120,
+        "sha256": "54ace461b2f6e77b03985667875763ec724bc0b7008358938af20f16409307a5"
+      },
+      {
+        "capture": "desktop-clio-8221-after.png",
+        "bytes": 139722,
+        "sha256": "291290ef4ac10ac8103e92e3d6b579893c8324f20c22f64f1380547174247500"
+      },
+      {
+        "capture": "desktop-clio-8221-before.png",
+        "bytes": 149055,
+        "sha256": "d7bafa351edf66f021dc5f81dec7c35d3033293b2c2c56bf5591a2acb2e3c6d8"
+      },
+      {
+        "capture": "desktop-dako-pd-l1-22c3-pharmdx-after.png",
+        "bytes": 170065,
+        "sha256": "0f4a88aae641656281bef6b28dc7f6c72b6adbce9b03b544bb66db72bd1d0aef"
+      },
+      {
+        "capture": "desktop-dako-pd-l1-22c3-pharmdx-before.png",
+        "bytes": 146839,
+        "sha256": "ad4bb6981b672bcddc128a013e00995d1a668cf45f83440d9580c948de26f0da"
+      },
+      {
+        "capture": "desktop-engine-adc-after.png",
+        "bytes": 171738,
+        "sha256": "da13ccab68be5476623549187a92167c561d6ed7237b281b2997b6cd9c4d0feb"
+      },
+      {
+        "capture": "desktop-engine-adc-before.png",
+        "bytes": 176223,
+        "sha256": "c1aea038c0515b04193b76bd831ac82562fd1bef22e505b972b442399a50bec6"
+      },
+      {
+        "capture": "desktop-ras-mapk-after.png",
+        "bytes": 201089,
+        "sha256": "92861054c1f84f675091a04384b51e338ba7098eb5dd0a8a507fa8d9fbd37afc"
+      },
+      {
+        "capture": "desktop-ras-mapk-before.png",
+        "bytes": 205074,
+        "sha256": "24df1497713fa6c7b3a262fae1ddf3067ded0f7a218d84d0f2c298bd2c9fcac6"
+      },
+      {
+        "capture": "desktop-trastuzumab-emtansine-after.png",
+        "bytes": 173659,
+        "sha256": "891d37a73ff6e1277be76930d4a9cd42c4792a811d513063257012247fef6648"
+      },
+      {
+        "capture": "desktop-trastuzumab-emtansine-before.png",
+        "bytes": 233596,
+        "sha256": "ffccf589ebe2f2c9fbe63c1e97a13959fcb09e5e07ae4ac0ab6d47e310958f77"
+      },
+      {
+        "capture": "mobile-assays-after.png",
+        "bytes": 76980,
+        "sha256": "4f2067424b3f52d576dd63c60a75b606c3b22ab636d99a83f2a0eff89b018e98"
+      },
+      {
+        "capture": "mobile-assays-before.png",
+        "bytes": 85502,
+        "sha256": "17234d6fd6fed259ff7d5dadd26f2b90d35e2f73dfe6431c0c98adcc8600aa1b"
+      },
+      {
+        "capture": "mobile-b-combination-space-after.png",
+        "bytes": 90372,
+        "sha256": "e221eddcb1077f64f8b078831a7ffb8a3fa6a86dd43fcf2f41405351b761e36b"
+      },
+      {
+        "capture": "mobile-b-combination-space-before.png",
+        "bytes": 90315,
+        "sha256": "44eff2cbbdef067e17fc72568c41355f463e27c7da48760506c527daefab9952"
+      },
+      {
+        "capture": "mobile-bl-b01d1-307-after.png",
+        "bytes": 72940,
+        "sha256": "700b70b5465fdaec44b6be9a08b21c7b02ed1a39ce57d966e59707474dc17759"
+      },
+      {
+        "capture": "mobile-bl-b01d1-307-before.png",
+        "bytes": 71621,
+        "sha256": "c13ca95c5cc9d662062f1875ac3fe05bd7811265844a58720756312134a766d9"
+      },
+      {
+        "capture": "mobile-clio-8221-after.png",
+        "bytes": 78608,
+        "sha256": "d1053b337bba7853785b29ba4beafa60cc936c561e0ad0e5cabe5564b6f6c067"
+      },
+      {
+        "capture": "mobile-clio-8221-before.png",
+        "bytes": 73948,
+        "sha256": "99e12b3fd566e47c00402dc17d05f2b6480ebf18bf240f0938f17050b1ef5000"
+      },
+      {
+        "capture": "mobile-dako-pd-l1-22c3-pharmdx-after.png",
+        "bytes": 90173,
+        "sha256": "132a4e68ad9e1b74e572c6942812ccac526982a27d9a6bc856a19ea143501f0f"
+      },
+      {
+        "capture": "mobile-dako-pd-l1-22c3-pharmdx-before.png",
+        "bytes": 62809,
+        "sha256": "6c05e5a22d8979c6d7e336c80b45c62012a6e028ab1a8627db0592d5f5718758"
+      },
+      {
+        "capture": "mobile-engine-adc-after.png",
+        "bytes": 31821,
+        "sha256": "91bab0bbd75ff2f2a0832f6c937c65df79c098b3895ed7880393bb08bed8547f"
+      },
+      {
+        "capture": "mobile-engine-adc-before.png",
+        "bytes": 31280,
+        "sha256": "154dcf0f13ecb6a5d0cea2758442491df4acda4f4e26d09b1558878091546be4"
+      },
+      {
+        "capture": "mobile-ras-mapk-after.png",
+        "bytes": 101411,
+        "sha256": "7bbef751be34fe77695664a553627364d0dc7641a7ad4d487c1b3d87befbf3f3"
+      },
+      {
+        "capture": "mobile-ras-mapk-before.png",
+        "bytes": 101411,
+        "sha256": "7bbef751be34fe77695664a553627364d0dc7641a7ad4d487c1b3d87befbf3f3"
+      },
+      {
+        "capture": "mobile-trastuzumab-emtansine-after.png",
+        "bytes": 59659,
+        "sha256": "955caa39300c13a4ae89271e58ef9a0553c025aab34fc7b156edca24f3e0f053"
+      },
+      {
+        "capture": "mobile-trastuzumab-emtansine-before.png",
+        "bytes": 62495,
+        "sha256": "ebcc665fc62dfccdc311aad595404033f76005602a20a0155aa21eb2fe952d22"
+      }
+    ],
+    "renderManifests": {
+      "before": [
+        {
+          "id": "clio-8221",
+          "bytes": 42082,
+          "sha256": "1c8c54e5c38485a2760b6a7d48c052af3ed4ebd4aaaf19d5f82c36a6dc9e19fb"
+        },
+        {
+          "id": "trastuzumab-emtansine",
+          "bytes": 87755,
+          "sha256": "fe2916c71a80c7a60f8bb687a60d0c701389c5da0df261b67e7df5fe9c554d6c"
+        },
+        {
+          "id": "dako-pd-l1-22c3-pharmdx",
+          "bytes": 51591,
+          "sha256": "564ea4de9908dcad942ab94f70ebdb358b2cd8d1037a8a3c7ce277c0946f31a9"
+        },
+        {
+          "id": "bl-b01d1-307",
+          "bytes": 60241,
+          "sha256": "b9757af65128e88c80878c9ea976afde1b78b98d809a7bc44d68a187ab46d973"
+        },
+        {
+          "id": "ras-mapk",
+          "bytes": 120671,
+          "sha256": "d776f465b5952cbec44c963e937ed194dfa20c6de69b6a2a3a421934da96fb5f"
+        },
+        {
+          "id": "b-combination-space",
+          "bytes": 99604,
+          "sha256": "231214ddc9a7cd3f881d8b6211e8d64b11d6379b80821c9141f83a6d1d02d2e2"
+        },
+        {
+          "id": "izalontamab-brengitecan",
+          "bytes": 75363,
+          "sha256": "351ef5372a45393c9c1cceab139b7cdb213931d80acb64e9f37c11a7ed13847f"
+        },
+        {
+          "id": "assays",
+          "bytes": 184346,
+          "sha256": "6091ffc7fd740e642d032bc93fca298c4033c4bfc1b1fef23a10060cc1c4ef7c"
+        },
+        {
+          "id": "engine-adc",
+          "bytes": 288953,
+          "sha256": "96f4788844bc65b12c042604727c4af2fa266e04df4050ffe00266aea48f15bc"
+        }
+      ],
+      "after": [
+        {
+          "id": "clio-8221",
+          "bytes": 46259,
+          "sha256": "b998ef724e64eca644a65ec7baa1dddd3b9dfd395623e704c0cb710a97ba945d"
+        },
+        {
+          "id": "trastuzumab-emtansine",
+          "bytes": 90340,
+          "sha256": "33f308fbe38b0b74d263d5ebe6e169841913f32929a37221a02b887b70dc3536"
+        },
+        {
+          "id": "dako-pd-l1-22c3-pharmdx",
+          "bytes": 55845,
+          "sha256": "7703294ca1204a29c094cd12804f7394249df3f8f156e6f21c81fba8bfeab3ee"
+        },
+        {
+          "id": "bl-b01d1-307",
+          "bytes": 60710,
+          "sha256": "08890eac7577c867856b2a25ff1ed165df8955b6486ed33e27b0f8f7208038c0"
+        },
+        {
+          "id": "ras-mapk",
+          "bytes": 121971,
+          "sha256": "0c2e953eed56b4702c91dadbc8d2f5ccb12adeb32e1b8f8d4bb3ce30ad03d58c"
+        },
+        {
+          "id": "b-combination-space",
+          "bytes": 99604,
+          "sha256": "f8dc7801dc342f92370ceff5538bc6fa086f5fb0378aba1023fcf90674f1b9ce"
+        },
+        {
+          "id": "izalontamab-brengitecan",
+          "bytes": 75363,
+          "sha256": "0b0b6f6235e2047e6418bd88e598432d2ca18fe5372d0d1bba593eb812e77935"
+        },
+        {
+          "id": "assays",
+          "bytes": 188231,
+          "sha256": "76ae338f283b55f2eef13e2c7e2565cab294b9a311228e5686c3eefc3f6d547c"
+        },
+        {
+          "id": "engine-adc",
+          "bytes": 301506,
+          "sha256": "431a8ca67789f39d5e3dc84714111322f91d45a30a1a4e5b371cb5744ab7a348"
+        }
+      ]
+    },
+    "checks": "Ordinary-word marks removed; new scoped group text is present; all paired scroll positions agree."
+  },
+  "implementationChanges": "None; only external-artifact recovery and custody/review documentation.",
+  "remaining": [
+    "Upstream-accessible paired attachments/hosted preview",
+    "Owner approval and requested review",
+    "Historical raw provider-response bytes remain unavailable; source metadata and hashes survive."
+  ]
+}

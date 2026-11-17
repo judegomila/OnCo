@@ -6,11 +6,57 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
+### 17 November 2026
+- More of the graph is joined up: 1,251 confirmed links between people and the trials whose papers they wrote, matched by ORCID or full name and affiliation; who pays for 21 tests in the US and UK, from Medicare national coverage decisions and NICE guidance; fifty warning-card lines now name the protocol that manages them; and eight wrong side-effect links are removed
+- Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
+- Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
+- A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
+
 ### 16 November 2026
+- Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
+- Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
+- Who pays for 21 tests, from Medicare national coverage determinations and NICE guidance, and 32 named gaps
+- Author lists of the 818 papers that report a trial, read from Europe PMC, and who among them has a page here
+- The National Cancer Institute and Cancer Research UK records carry their abbreviations as aliases
+- Fifty warning-card lines name the protocol that manages them
+- The scalp cooling record says in its first line what the cap is for, preventing or reducing hair loss, so a question about hair loss still finds it beside the longer care protocol
+- The coverage table records that Europe PMC holds no open copy of the two interventional radiology standards on blood thinners before a biopsy, so that row stays open
+- A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
+- Protocols page weight: the live page weighs 157,107 bytes, over the 155,000 ceiling, so the ceiling stays and the note says so
+- The onco-cc and onco-mcp packages go to 0.1.1, so a rebuild that knows the protocol kind can be published
+- The recorded Ask rubric is the figure measured after merging main: 0.6765
+- The gap-fill workflow installs bubblewrap and socat, so the fetch tool can start inside the command sandbox
+- Evidence keeps its scope: conjugate payload pages show each measurement with the exact chemical form it was made on and how it was tested, drug pages show what a conjugate is made of, assay approvals say who authorised what and for which use, and a missing measurement reads as a gap in our records and not as a no; a contributor's work, reviewed and put into plain language
+- Shasqi in depth: its one clinical programme SQ3370 with the stopped phase 1/2a trial and its results, the click-activated prodrug technology, seven resolved papers, and a company record corrected to say the trial was terminated and carrying sourced leadership, financing and grants
+- The plain-language summaries of the new care protocols and their upgrade ideas are tightened to the 400-character limit every record keeps
+- The glossary size recorded for the Wikipedia-link gauge is brought up to the live count of 1,685 terms
+- Giredestrant's United States row now records its approval; the two Cuban vaccines are filed as established, as nimotuzumab is, and their trial papers link to them; stale trial-site and country entries removed
+- The two registrations of the PILDI colon surgery trial stay as two records for now, each saying they are one study: merging them adds a redirect line that waits for the owner's approval
+- Corrections log: the sixteen faults fixed from the review backlog on 16 November 2026, each with its source
+- Thirty-three paper records named as questions or how-sentences are renamed for their subject, so a record's name no longer competes with the questions readers ask; papers whose published title is itself a question keep it
+- The cancer blood clot treatment protocol now links enoxaparin and dalteparin, the two heparins its own guideline names; twelve Newsweek-ranked hospitals whose sites still refuse a script stay unwritten and are named
+- CIMAvax-EGF and racotumomab, Cuba's two registered lung cancer vaccines, get product pages written from the Cuban regulator's registration entries and the two randomised trials
+- Nine records corrected from their sources: Angola's cancer institute no longer shows a paper's DOI as its website; the University of Puerto Rico cancer centre is filed under Puerto Rico; the technology tags on King Hussein Cancer Center and King Faisal Specialist Hospital each rest on a page of the hospital's own, and one that had none is removed; IPO Lisboa no longer claims a regional registry that the 2017 law folded into the national one; the Senegal and Nigeria breast cancer cohort's mean age is given for the 378 women it describes; and the Madagascar, Angola and Somalia pages carry the IAEA's radiotherapy counts and the Somali ministry's statement that the country has no medicines regulator yet
+- ESPAC-4 no longer shows ESPAC-3's sites, sponsor and dates: the ISRCTN record lists a ClinicalTrials.gov number that belongs to ESPAC-3, the fetcher now refuses that cross-reference, and the Greek and Hungarian pages name ESPAC-3 as the trial that ran there; SIRveNIB's own registration (NCT01135056), publication and result join SARAH's on their shared record
+- Four trial records corrected against ClinicalTrials.gov: a children's bladder-drug trial that was never a cancer trial is removed with its false links to childhood cancers and to the CIC gene; two Cushing's disease trials now say what they tested and why they sit under pituitary tumours; the PILDI colon surgery trial, held twice under two registration numbers, is one record; and the vulvar electrochemotherapy study carries the registry's own entry (no phase, status unknown, 20 participants) in place of phase 2 and recruiting
+- Four records lose a web host's stock icon shown as their logo (Apmonia Therapeutics, Loki Therapeutics, Cansera, Japan Psycho-Oncology Society), and the logo fetcher now refuses any new file that is byte-for-byte a known generic icon: the WordPress and Vercel defaults, the HostGator mascot, the European Commission emblem and grey placeholders
+- FDA approval notices are counted once each: the fetcher now identifies a notice by its date and title, so FDA's move of the notices to a new address no longer doubles the list, and the refreshed list brings the four approvals of 5 to 16 November 2026 (subcutaneous amivantamab in head and neck cancer, pimicotinib, durvalumab with enfortumab vedotin, giredestrant) onto their records with the FDA's own words
+- Twenty-two new care protocols close gaps the census found, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, children's central lines and end of life care, advance care planning and ReSPECT; three existing protocols gain hair care during scalp cooling and label dose rules for skin reactions
+- A coverage table places all 251 subjects of the care protocol census against the protocols OnCo holds: 182 had their own record, 51 were covered inside another, and 18 were not covered
+- Ask's retrieval measurement is recorded after the contributor batch: recall 0.4365 against a floor of 0.4293, floors unchanged
+- Translated summaries for pathological complete response and radiotherapy follow their rewritten English text, and two Chinese summaries that no longer match are withdrawn
+- chore: draft records for gaps in the freshness issue, for review
+- Teaching records now cite the primary papers and guidance only: 22 links to the contributor's own teaching notes are removed, 66 placeholder source labels carry their paper's real title, and the short definition of biomarker returns to its plainer wording
+- Payload, drug and test pages say what was measured in words a patient can follow
+- The RAS pathway page keeps its plain explanation, and a sourced link no longer switches off the drug highlighting
+- Teaching concepts across biology, tests, treatments and trial evidence get a contributor's audit: 137 new records and about 500 revised ones, each with its sources, and the corrections they record
+- Weekly gap-fill automation, with the model's fetching limited to an allow-list of regulators, registries and societies
+- Antibody-drug conjugate payloads get deeper coverage from a contributor: 34 new records and 31 supplemented ones that keep free drugs, attached linker-drugs and released forms apart, each measurement with its experiment and source
 - Glossary links now respect capitals, so ordinary words such as platinum, select, open and decision no longer link to trials and acronyms that share their spelling, about twelve thousand false links fewer; with the weekly refresh of trial counts, universe lists, logos, the fact check and two EU register rows
 - Names with a digit link in any case again, and the ordinary words "verify" and "alliance" stop linking
 - Eighty more countries get deep dives researched by agents and checked claim by claim by a second agent, the menu shows one Countries entry instead of a line per country, Ask reads first any medicine a question names by name or brand, and the ivonescimab record now states that the FDA issued a complete response letter, announced on 15 November 2026
 - Names in capitals of any length link only where written in capitals, and bracket qualifiers in record names stop linking ordinary words
+- Nine source links in the immune-concepts round now name the paper instead of showing only a PubMed number
 - Ivonescimab: the FDA issued a complete response letter on the US application, announced 15 November 2026
 - Vedolizumab gets its EU approval row, read from the EMA register, and one RP-6306 trial loses a subtype link its text does not support
 - chore: render this week's issue to public/newsletter/
@@ -146,6 +192,10 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Three care protocols read from their guidelines: accessing and caring for an implanted port, chemotherapy leaking out of the vein by drug class, and the first hour of suspected neutropenic sepsis
 - A new record kind for care protocols: how a part of cancer care is carried out, step by step, each step with its reason, its source and the grade the source gives it
 - Every country in GLOBOCAN has a page: 144 automatic country pages beside the 39 deep dives, France's overseas departments on the France page, and a filterable list of every country on /countries/
+- Clarify conjugate sensing, redesign and transcription evidence
+- Clarify target engagement and causal validation evidence
+- Extend biomarker and study-comparison concepts
+- Expand immune escape reading in education draft
 - chore: weekly citation link check (#392)
 - chore: refresh universe lists (NCI drugs and types, NCI centres, OECI, NHS alliances, NLM journals, OpenAlex, KEGG, ChEMBL, ClinicalTrials.gov, FDA OCE)
 - chore: check regional approvals against the EMA register (#390)
@@ -154,6 +204,15 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#387)
 
 ### 10 November 2026
+- Clarify immune editing processes and evidence scope
+- Add specimen allocation and RNA quality teaching
+- Complete immune assay interpretation and repertoire measurement concepts
+- Clarify specimen conditions for molecular detection and quantitation
+- Expand immune assay measurements and interpretation boundaries
+- Clarify blood sampling, variant origin and quantitative evidence
+- Expand model context and intended-use teaching
+- Clarify immunogenicity and efficacy teaching examples
+- Expand evidence interpretation with scoped worked examples
 - The site follows the device's light or dark setting until a reader chooses, an accessibility check runs on every ship, and the faults it found are fixed: unnamed timeline links, links hidden in expandable rows, mislabelled body and resistance buttons, low-contrast colours and small targets
 - feat: the theme follows the device by default, and accessibility is checked in CI
 - Drug labels that came from word fragments are corrected (37 antagonists no longer read as agonists, fluoropyrimidines no longer as degraders), companion-diagnostic rows link their devices, and the open-source catalogue keeps projects whose GitHub page went away
@@ -166,11 +225,22 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - Redirect the retired drug ids and the moved nonprofits' company routes
 - Merge GFH375 with VS-7375 and AZD0120 with GC012F, and move ten nonprofits from company to institution records
 - Classifier patterns read whole words: antagonists are no longer agonists, benzimidazoles no longer IMiDs
+- Expand cited binder and manufacturing learning concepts
+- Add validation and quantification reading guides
+- Expand spatial assay interpretation at existing owners
+- Clarify RAS signalling evidence boundaries
 - chore: weekly maintenance (logos, structures, trial links, acronyms, orphan links)
+- Clarify RNA construct design and manufacturing evidence
 - chore: draft change proposals that need review (#385)
 - chore: EU regional rows read from the EMA register pages (#384)
 
 ### 9 November 2026
+- Extend existing antigen-presentation owners with evidence distinctions
+- Expand repertoire, dominance and spreading evidence boundaries
+- Retain chemical species and assay context across evidence consumers
+- Distinguish ADC chemical species and add tubulin cargo designs
+- Clarify cell-product release evidence and manufacturing clocks
+- Restore review captures and disclose expired temporary artifacts
 - chore: weekly fact check, audit, and provenance refresh (#383)
 - chore: render this week's issue to public/newsletter/ (#382)
 - chore: refresh public/votes.json from Discussions reactions (#381)
@@ -179,6 +249,14 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#377)
 
 ### 8 November 2026
+- Preserve legacy cargo identities and avoid ordinary-word glossary links
+- Explain dose coupling in fixed-composition dual-payload conjugates
+- Clarify payload identities and evidence scopes
+- Preserve scoped observations in readers and queries
+- Add scoped evidence to oncology records
+- Expand sourced immune, specimen and product evidence concepts
+- Expand concepts for measurements, models and clinical evidence
+- Expand sourced antibody-conjugate payload concepts beyond TOP1
 - chore: draft change proposals that need review (#367)
 - chore: EU regional rows read from the EMA register pages (#366)
 
@@ -191,6 +269,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: EU regional rows read from the EMA register pages (#360)
 
 ### 5 November 2026
+- Add Elicit market map and twelve oncology research vendors
 - The Rare Cancer Research Foundation and its Pattern.org tissue donation programme, with 56 more rare-cancer foundations and coalitions from sarcoma and chordoma to ocular melanoma, NUT carcinoma and DIPG
 - Rare-cancer foundations: the Rare Cancer Research Foundation, Pattern.org and 56 more nonprofits
 - Cassian Yee of MD Anderson, with his programmes, advisory roles, key papers on adoptive T-cell therapy, the trials he leads, and the organisations in his profile

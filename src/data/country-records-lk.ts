@@ -198,7 +198,7 @@ const papers: PaperInput[] = [
     institutions: ["sri-lanka-national-cancer-registry", "iarc"],
     links: [doi("10.3332/ecancer.2023.1553", "ecancermedicalscience 2023"), pubmed("37377679")] }),
 
-  p({ id: "paper-nilaweera-economic-crisis-health-seeking-sri-lanka-bmchsr-2026", name: "How Sri Lanka's 2022 economic crisis affected chronic disease care in two provinces",
+  p({ id: "paper-nilaweera-economic-crisis-health-seeking-sri-lanka-bmchsr-2026", name: "Sri Lanka's 2022 economic crisis and chronic disease care in two provinces",
     journal: "BMC Health Services Research", year: 2026, doi: "10.1186/s12913-026-14599-8", pmid: "42050623", authors: "Nilaweera AI, Fernando DR, Adikaranayake PR, et al.", paperType: "observational", participants: 2059,
     tldr: "In a 2022 survey in Western and Uva provinces, nearly a third of people with chronic disease reported fewer clinic visits, worse control and missed medicines during the economic crisis; use of private care fell and self-medication rose.",
     summary: "Published as \"Impact of the economic crisis on general health-seeking behavior and chronic disease management: a comparative study of public perceptions in the Western and Uva Provinces of Sri Lanka\". A cross-sectional telephone survey in November and December 2022 compared adults' recall of January to May 2018 with January to May 2022; 1,043 people in Western and 1,016 in Uva province took part.",

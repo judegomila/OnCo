@@ -1,3 +1,4 @@
+import { companiesElicitMap } from "./companies-elicit-map";
 import { ucsfBreastTrials } from "./ucsf-breast-trials";
 import { trop2PreclinicalWatch } from "./trop2-preclinical-watch";
 import { trop2EmergingModalities } from "./trop2-emerging-modalities";
@@ -14,6 +15,37 @@ import { companies } from "./companies";
 import { institutions } from "./institutions";
 import { pathways } from "./pathways";
 import { terms } from "./terms";
+import { evidenceBridges } from "./evidence-bridges";
+import { educationRound2 } from "./education-concepts-round2";
+import { educationAccessEvidence } from "./education-access-evidence";
+import { educationBiologyEvidence } from "./education-biology-evidence";
+import { educationGeneticCode202611 } from "./education-genetic-code-2026-11";
+import { educationVaccinePresentation202611 } from "./education-vaccine-presentation-guides-2026-11";
+import { educationTherapeuticEvidence } from "./education-therapeutic-evidence";
+import { educationParallelTcells, educationParallelTcellTargets } from "./education-parallel-tcells-2026-11";
+import { educationAntigenAntibodiesTerms, educationAntigenProcessingTargets } from "./education-parallel-antigen-antibodies-2026-11";
+import { educationParallelDeathMetabolism } from "./education-parallel-death-metabolism-2026-11";
+import { rnaDeliveryTerms } from "./terms-rna-delivery-audit-2026-11";
+import { educationParallelSpatialComputationalTerms } from "./education-parallel-spatial-computational-2026-11";
+import { educationMeasurementTerms } from "./terms-education-measurement";
+import { breastPathologyEducationTerms } from "./breast-pathology-education-2026-11";
+import { educationParallelInnateImmuneTerms } from "./education-parallel-innate-immune-2026-11";
+import { bindersCmcEducation2026 } from "./binders-cmc-education-2026-11";
+import { educationEffectReasoningTerms } from "./education-effect-reasoning-2026-11";
+import { functionalModelEducation } from "./education-functional-model-2026-11";
+import { EDUCATION_BLOOD_IMMUNE_MEASUREMENT_TERMS } from "./education-blood-immune-measurement-2026-11";
+import { educationTissuePathology } from "./education-tissue-pathology-2026-11";
+import { educationCancerBiology } from "./education-cancer-biology-2026-11";
+import { termsEducationTumorImmunology2026 } from "./education-tumor-immunology-2026-11"
+import { educationStudyPrediction202611Terms } from "./education-study-prediction-2026-11";
+import { termsEducationPharmacologyToxicity2026 } from "./education-pharmacology-toxicity-2026-11";
+import { educationTherapyConjugates2026 } from "./education-therapy-conjugates-2026-11";
+import { educationImagingFollowUp202611 } from "./education-imaging-follow-up-2026-11";
+import { educationRepairResistance202611Terms } from "./education-repair-resistance-2026-11";
+import { educationImmunotherapy202611Terms } from "./education-immunotherapy-2026-11";
+import { educationSpatialMeasurement202611Terms } from "./education-spatial-measurement-2026-11";
+import { educationTargetedSmallMolecules202611Terms } from "./education-targeted-small-molecules-2026-11";
+import { educationEngineeredCellTherapy202611Targets } from "./education-engineered-cell-therapy-2026-11";
 import { trials } from "./trials";
 import { pairings } from "./pairings";
 import { roadmaps } from "./roadmaps";
@@ -41,6 +73,7 @@ import { papersRareWave } from "./papers-rare-wave";
 import { papersPancreaticWave } from "./papers-pancreatic-wave";
 import { papersWatch202609 } from "./papers-watch-2026-09";
 import { papersWatch202611 } from "./papers-watch-2026-11";
+import { shasqiTechnologies, shasqiDrugs, shasqiTrials, shasqiPapers } from "./shasqi-depth";
 import { ivermectinDrugs, ivermectinTrials, ivermectinPapers } from "./ivermectin";
 import { papersTrialsWave1 } from "./papers-trials-wave1";
 import { trialKeyPapersWave1 } from "./trial-key-papers-wave1";
@@ -118,6 +151,11 @@ import { protocolUpgradesPharmacyAccess } from "./spikes/protocol-upgrades-pharm
 import { protocolUpgradesFillGi } from "./spikes/protocol-upgrades-fill-gi";
 import { protocolUpgradesFillSkin } from "./spikes/protocol-upgrades-fill-skin";
 import { protocolUpgradesFillBody } from "./spikes/protocol-upgrades-fill-body";
+import { protocolUpgradesCensusB } from "./spikes/protocol-upgrades-census-b";
+import { protocolUpgradesCensusD } from "./spikes/protocol-upgrades-census-d";
+import { protocolUpgradesCensusE } from "./spikes/protocol-upgrades-census-e";
+import { protocolUpgradesCensusG } from "./spikes/protocol-upgrades-census-g";
+import { protocolUpgradesCensusH } from "./spikes/protocol-upgrades-census-h";
 import { rejuvenationMeasurement } from "./spikes/rejuvenation-measurement";
 import { tests } from "./tests";
 import { testsCdxDevices } from "./tests-cdx-devices";
@@ -285,6 +323,7 @@ import { companiesSponsors } from "./companies-sponsors";
 import { companiesSponsorsWave3 } from "./companies-sponsors-wave3";
 import { companiesMakersWave4 } from "./companies-makers-wave4";
 import { targetsWaveSoc } from "./targets-wave-soc";
+import { repairEducationTargets } from "./targets-repair-education-2026-11";
 import { targetsPipelineGap } from "./targets-pipeline-gap";
 import { targetsGenesWave } from "./targets-genes-wave";
 import { targetsImmuneMarkers } from "./targets-immune-markers";
@@ -437,6 +476,39 @@ const RAW_INPUTS: EntityInput[] = [
   ...institutions,
   ...pathways,
   ...terms,
+  ...evidenceBridges,
+  ...educationRound2,
+  ...educationAccessEvidence,
+  ...educationBiologyEvidence,
+  ...educationGeneticCode202611,
+  ...educationVaccinePresentation202611,
+  ...educationTherapeuticEvidence,
+  ...educationParallelTcells,
+  ...educationParallelTcellTargets,
+  ...educationAntigenAntibodiesTerms,
+  ...educationAntigenProcessingTargets,
+  ...educationParallelDeathMetabolism,
+  ...rnaDeliveryTerms,
+  ...educationParallelSpatialComputationalTerms,
+  ...educationMeasurementTerms,
+  ...breastPathologyEducationTerms,
+  ...educationParallelInnateImmuneTerms,
+  ...bindersCmcEducation2026,
+  ...educationEffectReasoningTerms,
+  ...functionalModelEducation,
+  ...EDUCATION_BLOOD_IMMUNE_MEASUREMENT_TERMS,
+  ...educationTissuePathology,
+  ...educationCancerBiology,
+  ...termsEducationTumorImmunology2026,
+  ...educationStudyPrediction202611Terms,
+  ...termsEducationPharmacologyToxicity2026,
+  ...educationTherapyConjugates2026,
+  ...educationImagingFollowUp202611,
+  ...educationRepairResistance202611Terms,
+  ...educationImmunotherapy202611Terms,
+  ...educationSpatialMeasurement202611Terms,
+  ...educationTargetedSmallMolecules202611Terms,
+  ...educationEngineeredCellTherapy202611Targets,
   ...trials,
   ...pairings,
   ...roadmaps,
@@ -460,7 +532,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...radiationPapersWave5,
   ...papersRareWave,
   ...papersPancreaticWave,
-  ...papersWatch202609, ...papersWatch202611, ...ivermectinDrugs, ...ivermectinTrials, ...ivermectinPapers,
+  ...papersWatch202609, ...papersWatch202611, ...shasqiTechnologies, ...shasqiDrugs, ...shasqiTrials, ...shasqiPapers, ...ivermectinDrugs, ...ivermectinTrials, ...ivermectinPapers,
   ...papersTrialsWave1,
   ...papersCitedWave7,
   ...papersPeopleWave6,
@@ -517,6 +589,11 @@ const RAW_INPUTS: EntityInput[] = [
   ...protocolUpgradesFillGi,
   ...protocolUpgradesFillSkin,
   ...protocolUpgradesFillBody,
+  ...protocolUpgradesCensusB,
+  ...protocolUpgradesCensusD,
+  ...protocolUpgradesCensusE,
+  ...protocolUpgradesCensusG,
+  ...protocolUpgradesCensusH,
   ...rejuvenationMeasurement,
   ...tests,
   ...testsCdxDevices,
@@ -559,6 +636,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...companiesWave1,
   ...companiesYc,
   ...companiesStartups,
+  ...companiesElicitMap,
   ...companiesDealParties,
   ...investors,
   ...roadmapsWave2,
@@ -578,7 +656,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...supportiveCareGapDrugs, ...supportiveCareGapTechnologies, ...supportiveCareGapTerms,
   ...institutionsCountriesMena, ...institutionsCountriesAsiaPacific, ...institutionsCountriesAmericas, ...institutionsCountriesWestCentralAfrica, ...institutionsCountriesEastSouthernAfrica, ...institutionsCountriesEuropeOverseas,
   ...institutionsNewsweek2026Europe, ...institutionsNewsweek2026World,
-  ...targetsWaveSoc, ...targetsPipelineGap, ...targetsReaderEdits, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...drugsUniverseGaps, ...companiesSponsorsWave,
+  ...targetsWaveSoc, ...targetsPipelineGap, ...targetsReaderEdits, ...repairEducationTargets, ...targetsGenesWave, ...targetsImmuneMarkers, ...drugsEmaWave, ...drugsUniverseGaps, ...companiesSponsorsWave,
   ...drugsPipelineWave1,
   ...trop2DualPayload,
   ...pipelineTrialsWave2,

@@ -1,0 +1,321 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "DOI:10.1039/c7sc05266a",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 8,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "30288233",
+        "source": "MED",
+        "pmid": "30288233",
+        "pmcid": "PMC6144071",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC6144071"
+          ]
+        },
+        "doi": "10.1039/c7sc05266a",
+        "title": "Antibody drug conjugates (ADCs) charged with HDAC inhibitor for targeted epigenetic modulation.",
+        "authorString": "Cini E, Faltoni V, Petricci E, Taddei M, Salvini L, Giannini G, Vesci L, Milazzo FM, Anastasi AM, Battistuzzi G, De Santis R.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Cini E",
+              "lastName": "Cini",
+              "firstName": "Elena",
+              "initials": "E",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Lead Discovery Siena srl , Via Fiorentina 1 , 53100 Siena , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Faltoni V",
+              "lastName": "Faltoni",
+              "firstName": "Valentina",
+              "initials": "V",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dipartimento di Biotecnologie , Chimica e Farmacia , Università degli Studi di Siena , Via A. Moro 2 , 53100 Siena , Italy . Email: maurizio.taddei@unisi.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Petricci E",
+              "lastName": "Petricci",
+              "firstName": "Elena",
+              "initials": "E",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-9685-6342"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dipartimento di Biotecnologie , Chimica e Farmacia , Università degli Studi di Siena , Via A. Moro 2 , 53100 Siena , Italy . Email: maurizio.taddei@unisi.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Taddei M",
+              "lastName": "Taddei",
+              "firstName": "Maurizio",
+              "initials": "M",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8660-7580"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Dipartimento di Biotecnologie , Chimica e Farmacia , Università degli Studi di Siena , Via A. Moro 2 , 53100 Siena , Italy . Email: maurizio.taddei@unisi.it."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Salvini L",
+              "lastName": "Salvini",
+              "firstName": "Laura",
+              "initials": "L",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-2923-8157"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Fondazione Toscana Life Sciences , Via Fiorentina 1 , 53100 Siena , Italy."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Giannini G",
+              "lastName": "Giannini",
+              "firstName": "Giuseppe",
+              "initials": "G",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-7127-985X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "R&D Alfasigma S.p.A. , Via Pontina, Km. 30.400 , 00071 Pomezia , Roma , Italy . Email: Giuseppe.Giannini@alfasigma.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Vesci L",
+              "lastName": "Vesci",
+              "firstName": "Loredana",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "R&D Alfasigma S.p.A. , Via Pontina, Km. 30.400 , 00071 Pomezia , Roma , Italy . Email: Giuseppe.Giannini@alfasigma.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Milazzo FM",
+              "lastName": "Milazzo",
+              "firstName": "Ferdinando Maria",
+              "initials": "FM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "R&D Alfasigma S.p.A. , Via Pontina, Km. 30.400 , 00071 Pomezia , Roma , Italy . Email: Giuseppe.Giannini@alfasigma.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Anastasi AM",
+              "lastName": "Anastasi",
+              "firstName": "Anna Maria",
+              "initials": "AM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "R&D Alfasigma S.p.A. , Via Pontina, Km. 30.400 , 00071 Pomezia , Roma , Italy . Email: Giuseppe.Giannini@alfasigma.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Battistuzzi G",
+              "lastName": "Battistuzzi",
+              "firstName": "Gianfranco",
+              "initials": "G",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "R&D Alfasigma S.p.A. , Via Pontina, Km. 30.400 , 00071 Pomezia , Roma , Italy . Email: Giuseppe.Giannini@alfasigma.com."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "De Santis R",
+              "lastName": "De Santis",
+              "firstName": "Rita",
+              "initials": "R",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-5037-0611"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "R&D Alfasigma S.p.A. , Via Pontina, Km. 30.400 , 00071 Pomezia , Roma , Italy . Email: Giuseppe.Giannini@alfasigma.com."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0001-8660-7580"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-2923-8157"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-5037-0611"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-7127-985X"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-9685-6342"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "31",
+          "volume": "9",
+          "journalIssueId": 2735047,
+          "dateOfPublication": "2018 Aug",
+          "monthOfPublication": 8,
+          "yearOfPublication": 2018,
+          "journal": {
+            "medlineAbbreviation": "Chem Sci",
+            "title": "Chemical science",
+            "essn": "2041-6539",
+            "issn": "2041-6520",
+            "nlmid": "101545951",
+            "isoabbreviation": "Chem Sci"
+          },
+          "printPublicationDate": "2018-08-01"
+        },
+        "pubYear": "2018",
+        "pageInfo": "6490-6496",
+        "affiliation": "Lead Discovery Siena srl , Via Fiorentina 1 , 53100 Siena , Italy.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic-eCollection",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1039/c7sc05266a"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6144071"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC6144071?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 28,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCreation": "2018-10-06",
+        "dateOfRevision": "2024-03-31",
+        "electronicPublicationDate": "2018-07-03",
+        "firstPublicationDate": "2018-07-03",
+        "firstIndexDate": "2018-10-05",
+        "fullTextReceivedDate": "2025-02-03",
+        "hasEvaluations": "N",
+        "abstractTextRetention": {
+          "status": "exact body outside public checkout",
+          "sha256": "bdc0e2e6972ed51a5a438d290a2e130c332acb72d5491df5f1f3b021b6416958",
+          "characters": 1006
+        }
+      }
+    ]
+  },
+  "custody": {
+    "representation": "metadata with complete abstract bodies excluded",
+    "sourceCaptureSha256": "9cddf17fb2c71cdd572c0c5af0c95f76475fd49d6a81d9c17004d36269cb8b7c",
+    "sourceBytes": 7002,
+    "outsideRetention": "Exact original bytes retained outside public checkout; quotations are not edited or shortened."
+  }
+}

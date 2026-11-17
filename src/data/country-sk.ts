@@ -9,12 +9,16 @@ import type { CountryDive } from "@/data/country-dive";
  * Health Observatory API, the World Bank's health expenditure API and OnCo's ClinicalTrials.gov participation data.
  * The National Health Information Centre's data server (data.nczisk.sk) did not answer, so its report on expected
  * counts could not be read; that and other gaps are named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every claim re-read against the raw text of its source. The data server
+ * still reset the connection; the trial counts were recounted as distinct registrations; ŠÚKL's home page now answers.
  */
 const NCZI_NOR = "https://www.nczisk.sk/Statisticke_vystupy/Tematicke_statisticke_vystupy/Onkologia/Incidencia_registrovanych_nadorovych_ochoreni_NOR_SR/Pages/default.aspx";
 const NCZI_EXPECTED = "https://www.nczisk.sk/Statisticke_vystupy/Tematicke_statisticke_vystupy/Onkologia/Vyskyt_zhubnych_nadorov_SR/Pages/default.aspx";
 const NCZI_EXPECTED_PDF = "https://data.nczisk.sk/statisticke_vystupy/Onkologia/Vyskyt_zhubnych_nadorov_v_SR_vratane_ocakavanych_pripadov_1996_2025_Sprava.pdf";
 const NCZI_RT = "https://www.nczisk.sk/Statisticke_vystupy/Tematicke_statisticke_vystupy/Onkologia/Nuklearna_medicina_klinicka_radiacna_onkologia/Pages/default.aspx";
 const MZ_KAT = "https://www.health.gov.sk/odbornik/kategorizacia-a-cenotvorba/kategorizacia-liekov/";
+const MZ_PORTAL = "https://kategorizacia.mzsr.sk/";
 const UDZS = "https://www.udzs-sk.sk/zdravotne-poistovne/";
 const NOI_STATUT = "https://www.noisk.sk/o-nas/poslanie";
 const NOI_NOP = "https://www.noisk.sk/o-nas/narodny-onkologicky-program";
@@ -34,7 +38,7 @@ export const SK_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Slovakia",
   description:
-    "Cancer in Slovakia from Slovak sources: IARC's estimate of 31,384 new cancers and 15,341 deaths in 2024, a national cancer registry whose confirmed counts stop at 2016 and expected counts from insurers' claims since, three public health insurers, drug categorisation with a required pharmacoeconomic analysis, the National Oncology Programme for 2026 to 2030, OnkoKontrola screening, and 110 trials in our records with a site in Slovakia.",
+    "Cancer in Slovakia from Slovak sources: IARC's estimate of 31,384 new cancers and 15,341 deaths in 2024, a national cancer registry whose confirmed counts stop at 2016 and expected counts from insurers' claims since, three public health insurers, drug categorisation by the Ministry of Health with a pharmacoeconomic analysis, the National Oncology Programme for 2026 to 2030, OnkoKontrola screening, and 109 trials in our records with a site in Slovakia.",
   lede:
     "IARC estimates 31,384 new cancers and 15,341 cancer deaths in Slovakia in 2024, with bowel cancer first among both. Slovakia's own cancer registry has confirmed counts only up to 2016; for later years the National Health Information Centre publishes expected counts worked out from what health insurers paid for.",
   globocanNote:
@@ -75,7 +79,7 @@ export const SK_DIVE: CountryDive = {
             { series: "Occurrence of cancer including expected cases", years: "2017 to 2025", basis: "Expected counts from insurers' reimbursed care and death records" },
             { series: "Clinical and radiation oncology activity", years: "2013 to 2024", basis: "Annual service returns" },
           ],
-          note: "The counts themselves are in an interactive infographic and a PDF report on data.nczisk.sk, which did not answer on 11 November 2026; see the gaps. The expected-count series was last updated on 29 October 2026.",
+          note: "The counts themselves are in interactive infographics that open only in a browser and in PDF reports on data.nczisk.sk, which did not answer on 11 or 16 November 2026; see the gaps. The expected-count series was last updated on 29 October 2026.",
           sources: [
             { label: "NCZI: incidence of registered cancers from the National Cancer Registry", url: NCZI_NOR },
             { label: "NCZI: occurrence of cancer including expected cases", url: NCZI_EXPECTED },
@@ -96,7 +100,7 @@ export const SK_DIVE: CountryDive = {
           plain:
             "Slovakia's National Cancer Registry, kept by the National Health Information Centre, has published confirmed data from 1978 to 2016. For 2017 to 2025 the centre publishes expected numbers of new cancers, calculated from the care health insurers paid for and from death records, using an algorithm it documents separately.",
           detail:
-            "The centre's page names its data sources as the registry, insurers' data on reimbursed care sent to it under the health insurance and national health information system laws, and the Statistical Office's death records. The series also shows one-, three- and five-year survival, cancers in the screening programmes and deaths, by region. The registry's infographics show quality measures such as the share of cases known only from a death certificate and the share microscopically confirmed. OnCo could not read the counts themselves because the centre's data server did not respond.",
+            "The centre's page names its data sources as the registry, insurers' data on reimbursed care sent to it under the law on health insurers and the law on the national health information system, and the Statistical Office's death records. The series also shows one-, three- and five-year survival, cancers in the screening programmes and deaths, by region. The registry's infographics show quality measures such as the share of cases added from a death certificate and the share microscopically confirmed. OnCo could not read the counts themselves: the infographics open only in a browser, and the centre's data server, which holds the written reports, did not respond.",
           links: [
             { label: "NCZI: occurrence of cancer including expected cases", url: NCZI_EXPECTED },
             { label: "NCZI: incidence of registered cancers from the National Cancer Registry", url: NCZI_NOR },
@@ -112,13 +116,14 @@ export const SK_DIVE: CountryDive = {
       cards: [
         {
           id: "categorisation",
-          title: "A medicine is paid for once the Ministry categorises it, after a pharmacoeconomic analysis",
+          title: "The Ministry of Health categorises medicines for public insurance, with a pharmacoeconomic analysis",
           plain:
-            "Public health insurance in Slovakia is run by three insurers: Všeobecná zdravotná poisťovňa, Dôvera and Union. Which medicines they pay for is decided by the Ministry of Health through categorisation, and a company applying must submit a pharmacoeconomic analysis.",
+            "Slovakia has three health insurers: Všeobecná zdravotná poisťovňa, Dôvera and Union. Medicines are categorised by the Ministry of Health, under the law on what public health insurance pays for, and the Ministry publishes the template for the pharmacoeconomic analysis used in categorisation.",
           detail:
-            "The Ministry's categorisation page publishes the list of categorised medicines and the template and methodological guide for the pharmacoeconomic analysis required under Ministry Decree 422/2011, both dated 1 August 2024, and has a route for submissions by patient organisations. The Health Care Surveillance Authority's page names the three insurers. The World Bank's latest figure puts out-of-pocket spending at 20.2% of Slovakia's current health expenditure in 2023. OnCo did not read the rules for reimbursing a medicine that is not categorised, which an insurer can approve case by case; see the gaps.",
+            "The Ministry's categorisation page publishes the list of categorised medicines, the template for the pharmacoeconomic analysis and a methodological guide to Ministry Decree 422/2011 on the details of that analysis, both files marked 1 August 2024, and has a route for submissions by patient organisations. The Ministry's categorisation portal says applications reach it electronically for categorisation and official price-setting, under the law on the scope and conditions of payment for medicines from public health insurance. The Health Care Surveillance Authority names the three insurers in a report dated 9 August 2023, which is where its insurer link now leads. The World Bank's latest figure puts out-of-pocket spending at 20.2% of Slovakia's current health expenditure in 2023. OnCo did not read the rules on whether and how an insurer may pay for a medicine that is not categorised; see the gaps.",
           links: [
             { label: "MZ SR: kategorizácia liekov", url: MZ_KAT },
+            { label: "MZ SR: categorisation portal", url: MZ_PORTAL },
             { label: "ÚDZS: the three health insurers", url: UDZS },
             { label: "World Bank: out-of-pocket expenditure, Slovakia (API)", url: WB_OOP },
           ],
@@ -137,7 +142,7 @@ export const SK_DIVE: CountryDive = {
           plain:
             "As an EU member, Slovakia receives new cancer medicines through the European Medicines Agency's centralised procedure, which is compulsory for medicines with a new active substance for cancer and gives one authorisation valid in every member state. The State Institute for Drug Control (ŠÚKL) is the national regulator.",
           detail:
-            "The EMA's page says the European Commission issues a binding decision within 67 days of the agency's recommendation, valid in all EU member states and in Iceland, Liechtenstein and Norway. Authorisation is not reimbursement: in Slovakia a medicine reaches patients through public insurance once the Ministry categorises it. ŠÚKL's pages for this round showed only its menus, so its own description is not quoted.",
+            "The EMA's page says the European Commission issues a binding decision within 67 days of the agency's recommendation, valid in all EU member states and in Iceland, Liechtenstein and Norway. Authorisation is not reimbursement: in Slovakia categorisation by the Ministry is a separate step. ŠÚKL's home page, read on 16 November 2026, describes its work as overseeing the safety, efficacy and quality of medicines and medical devices, and lists the registration of human medicines and clinical trials of medicines among its areas.",
           links: [
             { label: "EMA: authorisation of medicines", url: EMA_AUTH },
             { label: "ŠÚKL: State Institute for Drug Control", url: "https://www.sukl.sk" },
@@ -173,11 +178,11 @@ export const SK_DIVE: CountryDive = {
       cards: [
         {
           id: "noi",
-          title: "A national oncology institute to run the cancer programme",
+          title: "A national oncology institute set up to support the cancer programme",
           plain:
-            "Slovakia set up a National Oncology Institute within the National Cancer Institute in Bratislava on 1 August 2018 to coordinate its National Oncology Programme. It publishes the programme for 2026 to 2030, lists of cancer medicines, treatment recommendations and a register of clinical trials.",
+            "A National Oncology Institute was set up within the National Cancer Institute in Bratislava on 1 August 2018. Its stated mission is to be a clinical research, academic and educational platform for work that helps carry out the National Oncology Programme. It publishes the programme for 2026 to 2030, lists of cancer medicines, treatment recommendations and a register of clinical trials.",
           detail:
-            "The institute's statute names its areas as coordinating cancer infrastructure, prevention, diagnosis and treatment, research and education, and the processing and interpretation of cancer data. Its programme page says the National Oncology Programme aims to reduce the number of new cancers and deaths and improve patients' quality of life through evidence-based prevention, early diagnosis, treatment, rehabilitation, supportive and end-of-life care and research, and it publishes yearly accounts of the programme's action plans. It works with Gustave Roussy and IARC and takes part in EU joint actions on cancer.",
+            "The institute's mission page names its areas as coordinating cancer infrastructure, prevention, diagnosis and treatment, research and education, and the processing and interpretation of cancer data. Its programme page says the National Oncology Programme aims to reduce the number of new cancers and deaths and improve patients' quality of life through evidence-based prevention, early diagnosis, treatment, rehabilitation, supportive and end-of-life care and research, and it publishes accounts of the programme's action plans for 2019 and 2020, with an archive of older ones. Its site lists cooperation with Gustave Roussy and projects with IARC and EU joint actions on cancer.",
           links: [
             { label: "NOI: mission and statute", url: NOI_STATUT },
             { label: "NOI: National Oncology Programme", url: NOI_NOP },
@@ -192,11 +197,11 @@ export const SK_DIVE: CountryDive = {
       cards: [
         {
           id: "trials-research",
-          title: "110 trials in OnCo's records have a site in Slovakia",
+          title: "109 trials in OnCo's records have a site in Slovakia",
           plain:
-            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 110 cancer trials in our records list a site in Slovakia and 24 were recruiting. None runs only in Slovakia: they are international trials, mostly sponsored by drug companies.",
+            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 109 cancer trials in our records list a site in Slovakia and 23 were recruiting. None runs only in Slovakia: they are international trials, mostly sponsored by drug companies.",
           detail:
-            "The recruiting trials include studies sponsored by Pfizer, Merck Sharp & Dohme, Loxo Oncology, Bayer, Novartis and AstraZeneca, and an academic lymphoma trial led from University College London. The National Oncology Institute keeps its own register of clinical trials in Slovakia. OnCo's participation data cover 5,899 trials, mostly large trials of new medicines, so this is not a count of all research in Slovakia.",
+            "The recruiting trials include studies sponsored by Pfizer, Merck Sharp & Dohme, Loxo Oncology, Bayer, Novartis and AstraZeneca, and an academic lymphoma trial led from University College London. The National Oncology Institute's site lists a register of clinical trials of its own. OnCo's participation data cover 5,897 trial records, mostly large trials of new medicines, so this is not a count of all research in Slovakia. Trials are counted once by registry number, recounted on 16 November 2026.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Slovakia (search)", url: CTGOV },
             { label: "Open trials on OnCo", url: "/trials/open/" },
@@ -210,24 +215,24 @@ export const SK_DIVE: CountryDive = {
       id: "nczi-data",
       title: "The registry's counts could not be read",
       plain:
-        "The National Health Information Centre publishes its cancer counts on a separate data server, data.nczisk.sk, which did not respond to repeated requests on 11 November 2026 and has no Internet Archive copy. So this page gives no national registry or expected count for any year, and no national radiotherapy figures.",
+        "The National Health Information Centre publishes its cancer counts in interactive infographics that open only in a browser, and its written reports on a separate data server, data.nczisk.sk. That server did not respond to repeated requests on 11 November 2026 or again on 16 November 2026, and the Internet Archive holds no copy of the report. So this page gives no national registry or expected count for any year, and no radiotherapy figures from the Centre. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists 13 centres in Slovakia with 21 linear accelerators and three cobalt-60 units; ten of the 13 entries were last updated in 2018, so the listing may be out of date.",
       detail:
-        "The report on expected cancer cases for 1996 to 2025 and its methodology, the radiation oncology datasets for 2013 to 2024 and the annual oncology activity reports are all hosted on that server. When it answers, they will give the national counts by cancer and region and the number of patients treated with radiotherapy. The IAEA's directory of radiotherapy centres works only in a browser.",
+        "The report on expected cancer cases for 1996 to 2025 and its methodology, the radiation oncology datasets for 2013 to 2024 and the annual oncology activity reports are all hosted on that server. When it answers, they will give the national counts by cancer and region and the number of patients treated with radiotherapy. IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 13 centres in Slovakia, with 21 linear accelerators and four radionuclide teletherapy units, three of them cobalt-60 units. The largest entries are National Cancer Institute (Bratislava), with four linear accelerators, and St. Elisabeth Cancer Institute (Bratislava) and East Slovakia cancer Institute (Kosice), with three each. The cobalt-60 units are listed at St. Elisabeth Cancer Institute, Faculty Hospital of F.D. Roosevelt (Banska Bystrica) and General Hospital (Lucenec). Nine centres are also listed with an X-ray generator, and six with brachytherapy. Ten of the 13 entries were last updated in 2018, and the others in 2020, 2021 and 2026. A directory can lag, so machines replaced or added since 2018 may be missing, and it does not say whether a machine is working. It counts machines, not patients treated.",
       links: [
         { label: "NCZI: report on cancer including expected cases, 1996 to 2025 (PDF)", url: NCZI_EXPECTED_PDF },
         { label: "NCZI: nuclear medicine, clinical and radiation oncology", url: NCZI_RT },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
     {
       id: "unread-sources",
       title: "Other sources not read",
       plain:
-        "OnCo did not read the rules for insurers' exceptional approval of uncategorised medicines (the insurer page returned an error), ŠÚKL's own description of its role, or the National Oncology Programme 2026 to 2030 document itself.",
+        "OnCo did not read the rules on insurers paying for uncategorised medicines (the insurer page returned an error), ŠÚKL's pages beyond its home page, or the National Oncology Programme 2026 to 2030 document itself.",
       detail:
-        "The Všeobecná zdravotná poisťovňa page on exceptions returned HTTP 502. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses. WHO's 2021 country capacity survey records 'no response' for Slovakia on radiotherapy, chemotherapy and pathology availability, so it cannot fill the gap.",
+        "The Všeobecná zdravotná poisťovňa page on exceptions returned HTTP 502. OnCo's web search budget was spent during this round, so pages had to be reached by known addresses. WHO's 2021 country capacity survey records 'No response' for Slovakia on radiotherapy, chemotherapy and pathology availability, so it adds nothing here.",
       links: [
         { label: "NOI: National Oncology Programme", url: NOI_NOP },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
       ],
     },
   ],

@@ -216,11 +216,16 @@ export function namesAgree(rowName: string, recordKeys: string[], owners: string
 /**
  * Two labels for one product, as a reader would judge them: equal without parentheticals, or one inside the other as
  * whole words ("Signatera" in "Natera Signatera"). Word sets are not enough: "FoundationOne CDx" and "FoundationOne
- * Liquid CDx" are two products.
+ * Liquid CDx" are two products. So are two names that differ only inside their brackets: "VENTANA PD-L1 (SP142) Assay"
+ * and "VENTANA PD-L1 (SP263) Assay" are different antibody clones with different FDA claims, which class 6
+ * (detectDuplicateItems) already kept apart. This function did not, and on 17 November 2026 it reported the two as one
+ * product twice on /biomarkers/pd-l1-tc-score/ once both assays were listed there.
  */
 export function sameProduct(a: string, b: string): boolean {
   const A = norm(bare(a)), B = norm(bare(b));
   if (!A || !B) return false;
+  const brackets = (s: string) => [...s.matchAll(/\(([^)]*)\)/g)].map((m) => norm(m[1])).join("|");
+  if (brackets(a) && brackets(b) && brackets(a) !== brackets(b)) return false;
   if (A === B) return true;
   const [short, long] = A.length <= B.length ? [A, B] : [B, A];
   const distinctive = short.split(" ").length >= 2 || (short.length >= 5 && !GENERIC_WORDS.has(short));

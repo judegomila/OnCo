@@ -4,7 +4,7 @@ import type { CountryDive } from "@/data/country-dive";
  * Guatemala deep dive: the hand-written cards for /countries/gt/ (wave 9). Every figure was read from the raw text of its
  * source on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet for Guatemala (PDF text), UNOP's home page (Spanish), the
  * abstracts of three papers through Europe PMC, WHO's Global Health Observatory API (HPV coverage and the 2019 and 2021
- * country capacity surveys), the World Bank's health expenditure API and OnCo's ClinicalTrials.gov participation data.
+ * country capacity surveys, re-read on 16 November 2026 with the earlier registry answers), the World Bank's health expenditure API and OnCo's ClinicalTrials.gov participation data.
  * The Ministry of Public Health refused a plain request; that gap is named under `gaps`.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/320-guatemala-fact-sheet.pdf";
@@ -14,6 +14,7 @@ const ABANDON_2017 = "https://doi.org/10.1002/pbc.26560";
 const AFLATOXIN_2017 = "https://doi.org/10.1371/journal.pone.0189255";
 const WHO_HPV = "https://ghoapi.azureedge.net/api/SDGHPVRECEIVED?$filter=SpatialDim%20eq%20'GTM'";
 const WHO_PBCR = "https://ghoapi.azureedge.net/api/NCD_CCS_PBCR?$filter=SpatialDim%20eq%20'GTM'";
+const WHO_PBCR_EARLIER = "https://ghoapi.azureedge.net/api/NCD_CCS_CancerRegNational?$filter=SpatialDim%20eq%20'GTM'";
 const WHO_CHEMO = "https://ghoapi.azureedge.net/api/NCD_CCS_chemo?$filter=SpatialDim%20eq%20'GTM'";
 const WB_OOP = "https://api.worldbank.org/v2/country/GTM/indicator/SH.XPD.OOPC.CH.ZS?format=json";
 const CTGOV = "https://clinicaltrials.gov/search?country=Guatemala&cond=cancer";
@@ -26,11 +27,11 @@ export const GT_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Guatemala",
   description:
-    "Cancer in Guatemala from Guatemalan and published sources: IARC's estimate of 20,882 new cancers and 11,782 deaths in 2024 with no population-based registry behind it, liver cancer as the leading cause of cancer death and aflatoxin exposure in every adult tested, households paying 57% of health spending out of pocket, free care for children with cancer at UNOP, cervical screening by cytology, and 36 trials in our records with a site in Guatemala.",
+    "Cancer in Guatemala from Guatemalan and published sources: IARC's estimate of 20,882 new cancers and 11,782 deaths in 2024, made without incidence data from Guatemala, liver cancer as the leading cause of cancer death and aflatoxin exposure in all 461 adults tested in one study, households paying 57% of health spending out of pocket, free care for children with cancer at UNOP, cervical screening by cytology, and 36 trials in our records with a site in Guatemala.",
   lede:
-    "IARC estimates 20,882 new cancers and 11,782 cancer deaths in Guatemala in 2024, but Guatemala has no population-based cancer registry, so the figures are modelled from death records. Liver cancer causes more cancer deaths than any other, and households pay more than half of all health spending out of their own pockets.",
+    "IARC estimates 20,882 new cancers and 11,782 cancer deaths in Guatemala in 2024, but Guatemala told WHO in 2019 and 2021 that it has no population-based cancer registry, and IARC modelled the number of new cancers from death records. Liver cancer causes more cancer deaths than any other, and households pay more than half of all health spending out of their own pockets.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Guatemala is 20,882 new cancers and 11,782 deaths, an age-standardised incidence of 149.3 per 100,000 and mortality of 87.6. IARC's fact sheet says it had no incidence data for Guatemala and estimated incidence from national mortality and modelled mortality-to-incidence ratios based on registry survival data; mortality comes from WHO national data, projected to 2024. Guatemala reported to WHO in 2019 and 2021 that it has no population-based cancer registry. So the incidence figures depend on how completely deaths from cancer are certified.",
+    "IARC's GLOBOCAN 2024 figure for Guatemala is 20,882 new cancers and 11,782 deaths, an age-standardised incidence of 149.3 per 100,000 and mortality of 87.6. IARC's fact sheet says it had no incidence data for Guatemala and estimated incidence from national mortality and modelled mortality-to-incidence ratios based on registry survival data; mortality comes from WHO national data, projected to 2024. Guatemala reported to WHO in 2019 and 2021 that it has no population-based cancer registry, after answering yes in 2015 and 2017. So the incidence figures depend on how completely deaths from cancer are certified.",
   sections: [
     {
       id: "profile",
@@ -55,7 +56,7 @@ export const GT_DIVE: CountryDive = {
         {
           id: "gt-capacity",
           title: "What Guatemala reported to WHO about cancer services",
-          caption: "Guatemala's answers to WHO's NCD country capacity survey, 2021, from WHO's Global Health Observatory. The registry answer was also No in 2019.",
+          caption: "Guatemala's answers to WHO's NCD country capacity survey, 2021, from WHO's Global Health Observatory. The registry answer was also No in 2019, after Yes in 2015 and 2017.",
           columns: [
             { key: "item", label: "Question" },
             { key: "answer", label: "Answer" },
@@ -72,6 +73,7 @@ export const GT_DIVE: CountryDive = {
           note: "These are the country's own answers to WHO. There is no registry count to set beside IARC's estimate, which is why this table is here instead.",
           sources: [
             { label: "WHO Global Health Observatory: population-based cancer registry, Guatemala (API)", url: WHO_PBCR },
+            { label: "WHO Global Health Observatory: population-based cancer registry, Guatemala, 2013 to 2019 (API)", url: WHO_PBCR_EARLIER },
             { label: "WHO Global Health Observatory: chemotherapy availability, Guatemala (API)", url: WHO_CHEMO },
           ],
         },
@@ -87,9 +89,9 @@ export const GT_DIVE: CountryDive = {
           id: "no-registry",
           title: "Cancer is counted through deaths, not diagnoses",
           plain:
-            "Guatemala has no population-based cancer registry, according to its answers to WHO in 2019 and 2021, so there is no national count of how many people are diagnosed with cancer each year. IARC's incidence estimate is worked back from death certificates.",
+            "Guatemala told WHO in 2019 and 2021 that it has no population-based cancer registry, and OnCo found no national count of how many people are diagnosed with cancer each year. IARC's incidence estimate is worked back from death certificates.",
           detail:
-            "IARC's method for Guatemala applies modelled ratios of deaths to new cases, based on survival seen in other registries, to the national number of cancer deaths. Where deaths are not certified as cancer, the estimate falls short. The only Guatemalan cancer counts in the sources read for this page come from single centres, such as UNOP's records of children treated for cancer.",
+            "IARC's fact sheet gives its method for Guatemala as national mortality estimates applied to modelled ratios of deaths to new cases, which it bases on registry survival data. An estimate built this way falls short wherever deaths from cancer are not certified as cancer. Guatemala had answered yes to WHO's registry question in 2015 and 2017, before the two answers of no. The only Guatemalan cancer counts in the sources read for this page come from single centres, such as UNOP's records of children treated for cancer.",
           links: [
             { label: "IARC: GLOBOCAN 2024 fact sheet, Guatemala (PDF)", url: IARC_FACTSHEET },
             { label: "WHO Global Health Observatory: population-based cancer registry, Guatemala (API)", url: WHO_PBCR },
@@ -126,7 +128,7 @@ export const GT_DIVE: CountryDive = {
           id: "regulator-unread",
           title: "The regulator's rules could not be read",
           plain:
-            "The Ministry of Public Health and Social Assistance's website, where Guatemala's medicines rules would be published, refused a plain request on 11 November 2026, so OnCo cannot describe who approves cancer medicines, by what routes, whether they rely on other regulators, or how long it takes.",
+            "The Ministry of Public Health and Social Assistance's website, where Guatemala's medicines rules would be published, refused a plain request on 11 November 2026 and again on 16 November 2026, so OnCo cannot describe who approves cancer medicines, by what routes, whether they rely on other regulators, or how long it takes.",
           detail:
             "OnCo's web search budget was spent during this round, so other copies of the Ministry's regulations could not be looked for. This card will be filled when a primary source can be read without bypassing the site's protection.",
           links: [{ label: "Ministry of Public Health and Social Assistance, Guatemala", url: "https://www.mspas.gob.gt/" }],
@@ -181,7 +183,7 @@ export const GT_DIVE: CountryDive = {
           plain:
             "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 36 cancer trials in our records list a site in Guatemala and 7 were recruiting, all 7 sponsored by Merck Sharp & Dohme. None runs only in Guatemala.",
           detail:
-            "The 36 include large international trials in breast, gastric, lung and cervical cancer. OnCo's participation data cover 5,899 trials, mostly large trials of new medicines, so this is not a count of all cancer research in Guatemala; UNOP's paediatric research is published in journals but is not in this count.",
+            "The 36 include large international trials in breast, gastric, lung and cervical cancer. OnCo's participation data cover 5,897 trial records, mostly large trials of new medicines, so this is not a count of all cancer research in Guatemala; UNOP's paediatric research is published in journals but is not in this count.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Guatemala (search)", url: CTGOV },
             { label: "Open trials on OnCo", url: "/trials/open/" },
@@ -195,12 +197,12 @@ export const GT_DIVE: CountryDive = {
       id: "national-sources",
       title: "Government sources could not be read",
       plain:
-        "The Ministry of Public Health and Social Assistance (mspas.gob.gt) refused a plain request with HTTP 403 on 11 November 2026. This page therefore has no national cancer plan, no list of treatment centres, and no description of what public care or social security covers.",
+        "The Ministry of Public Health and Social Assistance (mspas.gob.gt) refused a plain request with HTTP 403 on 11 November 2026 and again on 16 November 2026. This page therefore has no national cancer plan, no government list of treatment centres, and no description of what public care or social security covers. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists five radiotherapy centres in Guatemala with eight linear accelerators between them.",
       detail:
-        "OnCo does not bypass a site's protection. The IAEA's directory of radiotherapy centres works only in a browser, so the number of radiotherapy machines is not given, though Guatemala told WHO in 2021 that radiotherapy is generally available in the public sector. OnCo's web search budget was spent during this round.",
+        "OnCo does not bypass a site's protection. IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists five centres in Guatemala, with eight linear accelerators and no cobalt-60 unit. Four are listed in the city of Guatemala: Liga Nacional Contra el Cáncer (three linear accelerators and an X-ray generator), Clinica de Radioterapia La Asuncion (two), Centro de Radioterapia y Oncología, S.A. (one) and El Centro de Radioterapia Hope International (one). The fifth is Corporación de Especialidades Médicas, S.A. in Quetzaltenango (one). Four of the five are listed with brachytherapy; Clinica de Radioterapia La Asuncion is not. The entries were last updated between 2023 and 2026. The directory does not say whether a centre is public or private, or whether a machine is working today. Guatemala told WHO in 2021 that radiotherapy is generally available in the public sector. OnCo's web search budget was spent during this round.",
       links: [
         { label: "Ministry of Public Health and Social Assistance, Guatemala", url: "https://www.mspas.gob.gt/" },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],

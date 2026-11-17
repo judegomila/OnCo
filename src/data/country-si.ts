@@ -11,6 +11,12 @@ import type { CountryDive } from "@/data/country-dive";
  * a government news item on UKC Maribor, WHO's HPV coverage and Global Health Expenditure Database rows from WHO's
  * public data APIs, IAEA DIRAC's public equipment data, and the paper's abstract through Europe PMC. The registry's full
  * 2023 annual report link answered with a web page rather than the PDF; what could not be read is named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every claim was re-read against the raw text of its source. The WHO HPV link
+ * now uses the broad antigen filter and the card names which WHO rows it quotes; the DIRAC figures were re-read from
+ * the feed saved that day and the ambiguous brachytherapy column is no longer quoted; the trial count was recounted
+ * from trial-participation.ts (27 distinct trials); and the registry's full 2023 report, which now answers as a PDF from
+ * a link on the SLORA portal, is named in the gap card.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/705-slovenia-fact-sheet.pdf";
 const RRS = "https://www.onko-i.si/rrs/register-raka-republike-slovenije";
@@ -34,10 +40,11 @@ const JAZMP_HTA = "https://www.jazmp.si/humana-zdravila/hta/";
 const EMA_AUTH = "https://www.ema.europa.eu/en/about-us/what-we-do/authorisation-medicines";
 const WAIT_2024 = "https://www.iqvia.com/-/media/iqvia/pdfs/library/publications/efpia-patients-wait-indicator-2024.pdf";
 const MB_ONCO = "https://www.gov.si/novice/2026-11-11-evropska-sredstva-za-siritev-onkoloske-dejavnosti-v-ukc-maribor/";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'SVN'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'SVN'%20and%20contains(ANTIGEN,'HPV')";
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'SVN'";
 const WHO_CHE_API = "https://ghoapi.azureedge.net/api/GHED_CHEGDP_SHA2011?$filter=SpatialDim%20eq%20'SVN'";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
+const RAK_2023_FULL = "https://www.onko-i.si/fileadmin/onko/datoteke/dokumenti/2026/Letno_poro%C4%8Dilo2023.pdf";
 const CTGOV = "https://clinicaltrials.gov/search?country=Slovenia&cond=cancer";
 
 export const SI_DIVE: CountryDive = {
@@ -52,7 +59,7 @@ export const SI_DIVE: CountryDive = {
   lede:
     "Slovenia has counted every cancer since 1950, in a national registry at the Institute of Oncology Ljubljana. Its latest report counts 19,111 new cancers in 2023, 13,666 of them other than non-melanoma skin cancer, and 6,691 cancer deaths. One public insurer pays for care, and three national screening programmes invite people for cervical, breast and bowel cancer screening.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Slovenia is 14,264 new cancers and 6,899 deaths, an age-standardised incidence of 296.8 per 100,000 (335.2 in men, 268.3 in women) and mortality of 113.9. The fact sheet gives the incidence source as Slovenia's national registry, projected to 2024 from trends in national rates, and mortality from WHO's national data. The registry's own count for 2023 is higher, 19,111, because it includes 5,445 non-melanoma skin cancers, which IARC estimates at only 699. Excluding those skin cancers the two agree closely: 13,666 counted by the registry for 2023 and 13,565 estimated by IARC for 2024. The registry's age-standardised rate of 406.6 per 100,000 uses the European standard population, not the world standard IARC uses, so the two rates cannot be compared directly.",
+    "IARC's GLOBOCAN 2024 figure for Slovenia is 14,264 new cancers and 6,899 deaths, an age-standardised incidence of 296.8 per 100,000 (335.2 in men, 268.3 in women) and mortality of 113.9. The fact sheet gives the incidence source as Slovenia's national registry, projected to 2024 from trends in national rates, and mortality from WHO's national data. The registry's own count for 2023 is higher, 19,111, because it includes 5,445 non-melanoma skin cancers, where IARC's total includes only 699. Excluding those skin cancers the two agree closely: 13,666 counted by the registry for 2023 and 13,565 estimated by IARC for 2024. The registry's age-standardised rate of 406.6 per 100,000, which leaves out non-melanoma skin cancer, uses the European standard population, not the world standard IARC uses, so the two rates cannot be compared directly.",
   sections: [
     {
       id: "profile",
@@ -66,16 +73,16 @@ export const SI_DIVE: CountryDive = {
           plain:
             "IARC estimates 14,264 new cancers in Slovenia in 2024, 7,862 in men and 6,402 in women, and 6,899 cancer deaths. Prostate, lung, breast and colorectal cancer are the commonest, followed by melanoma. Lung cancer causes the most cancer deaths, followed by colorectal and breast cancer.",
           detail:
-            "The GLOBOCAN 2024 fact sheet gives 1,804 prostate cancers (464 deaths), 1,686 lung cancers (1,264 deaths), 1,655 breast cancers (496 deaths), 1,532 colorectal cancers (722 deaths) and 721 melanomas (131 deaths). Pancreatic cancer is seventh by cases, with 486, but fifth by deaths, with 455. The risk of developing a cancer before age 75 is 33.0% for men and 26.0% for women, and 45,033 people are estimated to be living within five years of a diagnosis. Unlike many countries' estimates these rest on a national registry, so IARC projects the registry's own trends forward rather than modelling from deaths.",
+            "The GLOBOCAN 2024 fact sheet gives 1,804 prostate cancers (464 deaths), 1,686 lung cancers (1,264 deaths), 1,655 breast cancers (496 deaths), 1,532 colorectal cancers (722 deaths) and 721 melanomas (131 deaths). Pancreatic cancer is seventh by cases, with 486, but fifth by deaths, with 455. The risk of developing a cancer before age 75 is 33.0% for men and 26.0% for women, and 45,033 people are estimated to be living within five years of a diagnosis. The fact sheet gives its incidence source as the national registry and its method as trends in national rates projected to 2024.",
           links: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Slovenia (PDF)", url: IARC_FACTSHEET }],
         },
         {
           id: "registry-1950",
           title: "A national registry since 1950, with cancer reporting compulsory by law",
           plain:
-            "The Cancer Registry of the Republic of Slovenia was founded in 1950 at the Institute of Oncology Ljubljana, and every health provider must report cancer to it. It counted 19,111 new cancers in 2023, and 62% of adults diagnosed from 2019 to 2023 were alive five years later, allowing for other causes of death.",
+            "The Cancer Registry of the Republic of Slovenia was founded in 1950 at the Institute of Oncology Ljubljana, and every health provider must report cancer to it. It counted 19,111 new cancers in 2023, and 62% of adults diagnosed from 2019 to 2023 with a cancer other than non-melanoma skin cancer were alive five years later, allowing for other causes of death.",
           detail:
-            "The registry describes itself as one of the oldest population-based registries in Europe and has been a member of the International Association of Cancer Registries since that body began in 1968. Since 2019 it has been moving to active registration, in which hospitals send it lists of eligible patients from their own systems, and paper forms are being phased out. Its summary report for 2023, published in September 2026, counts 10,483 cancers in men and 8,628 in women, 6,691 deaths and 142,393 people alive who had ever had cancer; 68% of men and 62% of women were diagnosed after age 65. Five-year net survival was 60% for men and 64% for women. The report attributes more than half of the rise in cancer incidence to an ageing population, and says the surge in prostate cancer came mainly from wide PSA testing of men without symptoms. Most of its data can be explored on the SLORA portal.",
+            "The registry describes itself as one of the oldest population-based registries in Europe and has been a member of the International Association of Cancer Registries since that body began in 1968. Since 2019 it has been moving to active registration, in which hospitals send it lists of eligible patients from their own systems, and paper forms are being phased out. Its summary report for 2023, published in September 2026, counts 10,483 cancers in men and 8,628 in women, 6,691 deaths and 142,393 people alive who had ever had cancer; 68% of men and 62% of women were diagnosed after age 65. Five-year net survival, leaving out non-melanoma skin cancer, was 60% for men and 64% for women. The report attributes more than half of the rise in cancer incidence to an ageing population, and says the surge in prostate cancer came mainly from wide PSA testing of men without symptoms. Most of its data can be explored on the SLORA portal.",
           links: [
             { label: "Cancer Registry of the Republic of Slovenia", url: RRS },
             { label: "Rak v Sloveniji 2023, registry summary report (PDF)", url: RAK_2023 },
@@ -100,7 +107,7 @@ export const SI_DIVE: CountryDive = {
             { measure: "Cancer deaths", men: 3825, women: 2866, both: 6691 },
             { measure: "Alive after a cancer diagnosis at any time", men: 66747, women: 75646, both: 142393 },
           ],
-          note: "The registry counts non-melanoma skin cancer, which IARC largely leaves out, so its all-sites total is well above GLOBOCAN's. Prevalence is from the report's text; its chart gives 75,648 women and 142,395 in all.",
+          note: "The registry counts non-melanoma skin cancer, which IARC largely leaves out, so its all-sites total is well above GLOBOCAN's. Prevalence is from the summary report's text; its chart, and the text of the full annual report, give 75,648 women and 142,395 in all.",
           sources: [{ label: "Rak v Sloveniji 2023, registry summary report (PDF)", url: RAK_2023 }],
         },
       ],
@@ -115,11 +122,11 @@ export const SI_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "Twelve linear accelerators in two centres, Ljubljana and Maribor",
           plain:
-            "IAEA's radiotherapy directory lists two centres in Slovenia with 12 linear accelerators: seven at the Institute of Oncology Ljubljana, which also has brachytherapy, and five at the university hospital in Maribor. EU funds approved in November 2026 are to expand oncology in Maribor.",
+            "IAEA's radiotherapy directory lists two centres in Slovenia with 12 linear accelerators: seven at the Institute of Oncology Ljubljana, which is also listed with brachytherapy, and five at the University Medical Centre Maribor. EU funds approved in November 2026 are to expand oncology in Maribor.",
           detail:
-            "IAEA DIRAC's public equipment data, read on 11 November 2026 with both Slovenian entries updated in 2026, list the Institute of Oncology Ljubljana with 7 linear accelerators and 5 brachytherapy units and UKC Maribor with 5 linear accelerators, and no cobalt machines. With DIRAC's population figure of about 2.13 million, that is roughly 5.6 machines per million people. On 11 November 2026 the government announced that the European Regional Development Fund will contribute €15,085,134.93 to a €65,738,002.33 project to bring oncology, nuclear medicine and haematology at UKC Maribor onto one site with more space, so that patients from north-east Slovenia can be treated closer to home.",
+            "IAEA's directory of radiotherapy centres, read on 16 November 2026, lists two centres in Slovenia, both entries last updated in 2026: the Institute of Oncology Ljubljana, in Ljubljana, with 7 linear accelerators and brachytherapy, including one high-dose-rate iridium-192 unit, and the University Medical Centre Maribor, in Maribor, with 5 linear accelerators and no brachytherapy. It lists no cobalt-60 units, gamma knives or proton or ion therapy. With the directory's population figure of about 2.13 million, that is roughly 5.6 linear accelerators per million people, by OnCo's arithmetic. On 11 November 2026 the government announced that the European Regional Development Fund will contribute €15,085,134.93 to a €65,738,002.33 project to bring oncology, nuclear medicine and haematology at UKC Maribor onto one site with more space, so that patients from north-east Slovenia can be treated closer to home.",
           links: [
-            { label: "IAEA DIRAC: radiotherapy equipment by centre (read 11 November 2026)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "Government news: EU funds for expanding oncology at UKC Maribor (11 November 2026)", url: MB_ONCO },
           ],
         },
@@ -148,7 +155,7 @@ export const SI_DIVE: CountryDive = {
           id: "spending-medicines",
           title: "Out-of-pocket payment is about an eighth of health spending",
           plain:
-            "WHO puts out-of-pocket payment at 12.4% of Slovenia's health spending in 2023, the year before complementary insurance ended, and total health spending at 9.3% of GDP. ZZZS pays for medicines on its positive list; JAZMP caps their prices by comparison with Germany, Austria and France.",
+            "WHO puts out-of-pocket payment at 12.4% of Slovenia's health spending in 2023, the last year of complementary insurance, and total health spending at 9.3% of GDP. ZZZS pays for medicines on its positive list; JAZMP caps their prices by comparison with Germany, Austria and France.",
           detail:
             "WHO's Global Health Expenditure Database gives out-of-pocket spending of 12.4% of current health expenditure in 2023, 12.4% in 2022 and 12.9% in 2021, and current health expenditure of 9.3% of GDP in 2023; the database has no year yet after the 2024 change. ZZZS covers the cost of medicines on the positive list and not those on the negative list; a doctor may prescribe medicines that insurance does not cover, and the patient then pays. Medicines given by injection or needing a health professional are given at the clinic, not collected from a pharmacy. JAZMP sets the regulated price of every medicine paid from public funds, as a maximum wholesale price based on prices in Germany, Austria and France, and buyers may agree lower prices.",
           links: [
@@ -172,7 +179,7 @@ export const SI_DIVE: CountryDive = {
           plain:
             "New cancer medicines reach Slovenia through the EU's centralised procedure: one authorisation from the European Commission, on the advice of the European Medicines Agency, for every member state. Slovenia's own agency, JAZMP, supervises medicines nationally and sets the prices of those paid from public funds.",
           detail:
-            "JAZMP describes itself as a member of the European Medicines Regulatory Network. It regulates and supervises medicines, medical devices, blood, tissues and cells, authorises clinical trials and runs pharmacovigilance. For new active substances to treat cancer the centralised procedure is compulsory, so authorisation comes from Brussels and the question for a Slovenian patient is when the medicine is reimbursed. Health technology assessment is a separate job: under the Act on Quality Assurance in Health Care, the body responsible for applying the EU regulation on health technology assessment (2021/2282) is the Public Agency of the Republic of Slovenia for Quality in Health Care.",
+            "JAZMP describes itself as a member of the European Medicines Regulatory Network. It says it works in the fields of medicines, medical devices, blood, tissues and cells, and its site has sections on clinical trials of medicines and on pharmacovigilance. For new active substances to treat cancer the centralised procedure is compulsory, so authorisation comes from Brussels and the question for a Slovenian patient is when the medicine is reimbursed. Health technology assessment is a separate job: under the Act on Quality Assurance in Health Care, the body responsible for applying the EU regulation on health technology assessment (2021/2282) is the Public Agency of the Republic of Slovenia for Quality in Health Care.",
           links: [
             { label: "JAZMP: agency profile", url: JAZMP_ID },
             { label: "EMA: authorisation of medicines, scope of the centralised procedure", url: EMA_AUTH },
@@ -214,9 +221,9 @@ export const SI_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccination reaches about 42% of girls, against a target of 80%",
           plain:
-            "Slovenia offers HPV vaccination to girls in the sixth year of primary school and, since 2021, to boys. WHO's figures show 42% of girls and 26% of boys vaccinated in 2025. The national cancer plan set a target of at least 80% of girls by 2026.",
+            "Slovenia offers HPV vaccination to girls in the sixth year of primary school and, since 2021, to boys. WHO's figures for the yearly programme show 42% of girls and 26% of boys vaccinated in 2025. The national cancer plan set a target of at least 80% of girls by 2026.",
           detail:
-            "WHO's immunisation rows for Slovenia give HPV coverage for girls of 44% in 2010, the first year with data, 38 to 50% through to 2018, a peak of 57% in 2019 and 56% in 2020, then 38% in 2021, 45% in 2022 and 2023, 43% in 2024 and 42% in 2025. Rows for boys begin in 2022 at 23% and reach 26% in 2025. The National Cancer Control Programme 2022 to 2026 says vaccination is recommended for girls in the sixth class of primary school, that boys could be vaccinated from the 2021/2022 school year, and sets the 80% target for girls aged 11 to 12. Even at about half coverage, a 2025 study in Slovenia's screening registry found 42% fewer high-grade cervical lesions in the first vaccinated cohorts.",
+            "WHO's immunisation rows for Slovenia, in the series for programme coverage with a first dose, give HPV coverage for girls of 44% in 2010, the first year with data, 38 to 50% through to 2018, a peak of 57% in 2019 and 56% in 2020, then 38% in 2021, 45% in 2022 and 2023, 43% in 2024 and 42% in 2025. Rows for boys begin in 2022 at 23% and reach 26% in 2025. WHO's separate series for coverage by age 15 is higher: in 2025, 59% of girls and 35% of boys had a first dose by that age. The National Cancer Control Programme 2022 to 2026 says vaccination is recommended for girls in the sixth class of primary school, that boys could be vaccinated from the 2021/2022 school year, and sets the 80% target for girls aged 11 to 12. Even at about half coverage, a 2025 study in Slovenia's screening registry found 42% fewer high-grade cervical lesions in the first vaccinated cohorts.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Slovenia (public API)", url: WHO_HPV_API },
             { label: "Državni program obvladovanja raka 2022 to 2026, section 1.6 (PDF)", url: DPOR_PDF },
@@ -264,11 +271,11 @@ export const SI_DIVE: CountryDive = {
       cards: [
         {
           id: "trial-sites",
-          title: "26 trials in OnCo's records have a site in Slovenia",
+          title: "27 trials in OnCo's records have a site in Slovenia",
           plain:
-            "OnCo's ClinicalTrials.gov participation data finds 26 trials with a Slovenian site, from breast cancer trials such as AMAROS, APHINITY and IBCSG 23-01 to company trials still recruiting. Two are sponsored by the Institute of Oncology Ljubljana itself.",
+            "OnCo's ClinicalTrials.gov participation data, recounted on 16 November 2026, finds 27 trials with a Slovenian site, from breast cancer trials such as AMAROS, APHINITY and IBCSG 23-01 to company trials still recruiting. Two are sponsored by the Institute of Oncology Ljubljana itself.",
           detail:
-            "The Ljubljana-sponsored studies are PILDI, a phase 2 trial of lidocaine given around the time of colon cancer surgery and its effect on the immune response, and a single-group trial of electrochemotherapy for locally recurrent vulvar cancer, which ClinicalTrials.gov lists with no phase and a status last verified in January 2024. ClinicalTrials.gov now redirects two other registration numbers held in OnCo's data, NCT07432399 and NCT07443475, to these two studies (NCT06923787 and NCT05916690), so they are counted once here. Others include the EORTC trial of stereotactic radiotherapy with ivonescimab for lung cancer brain metastases, the SIOPEN high-risk neuroblastoma studies, the RAPIDO rectal cancer trial, and recruiting trials in myeloma, uveal melanoma and endometrial cancer. OnCo's data covers the trials in its graph, not every trial registered, so a search of ClinicalTrials.gov itself will find more.",
+            "The Ljubljana-sponsored studies are PILDI, a phase 2 trial of lidocaine given around the time of colon cancer surgery and its effect on the immune response, and a single-group trial of electrochemotherapy for locally recurrent vulvar cancer, which ClinicalTrials.gov lists with no phase and a status last verified in January 2024. ClinicalTrials.gov now redirects two other registration numbers held in OnCo's data, NCT07432399 and NCT07443475, to these two studies (NCT06923787 and NCT05916690), so they are counted once here. Others include the EORTC trial of stereotactic radiotherapy with ivonescimab for lung cancer brain metastases, the SIOPEN high-risk neuroblastoma studies, the RAPIDO rectal cancer trial, and recruiting trials in myeloma, uveal melanoma and endometrial cancer, and ROMANA 1, a completed trial of anamorelin for weight loss in lung cancer. OnCo's data covers the trials in its graph, not every trial registered, so a search of ClinicalTrials.gov itself will find more.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Slovenia", url: CTGOV },
             { label: "ClinicalTrials.gov: NCT06923787, PILDI study", url: "https://clinicaltrials.gov/study/NCT06923787" },
@@ -280,14 +287,15 @@ export const SI_DIVE: CountryDive = {
   gaps: [
     {
       id: "full-report",
-      title: "The registry's full 2023 report and site-by-site counts were not read",
+      title: "The registry's site-by-site counts are not on this page",
       plain:
-        "The link to the Cancer Registry's full annual report for 2023 answered with a web page rather than the PDF, so this page uses the registry's summary report. Counts for each cancer site from the registry are on the SLORA portal, which OnCo did not query.",
+        "When this page was written, the link to the Cancer Registry's full annual report for 2023 answered with a web page rather than the PDF, so this page uses the registry's summary report. On 16 November 2026 a link on the SLORA portal returned the full report. Counts for each cancer site are in that report and on SLORA, and have not been copied here.",
       detail:
-        "The summary report gives totals, shares by site and survival, but not site-by-site counts, which is why the profile table shows totals and the cancer-by-cancer figures on this page are IARC's. SLORA's interactive tool builds tables by site, sex, age and period, and is the place to check a specific cancer. The cervical cancer counts of about 210 in 2003 and 81 in 2024 come from ZORA's pages, which quote the registry; ZORA's home page gives 211 for 2003, and notes that with so few cases the yearly count fluctuates (131 in 2020, 100 in 2023).",
+        "The summary report gives totals, shares by site and survival, but not site-by-site counts, which is why the profile table shows totals and the cancer-by-cancer figures on this page are IARC's. SLORA's interactive tool builds tables by site, sex, age and period, and is the place to check a specific cancer. The cervical cancer counts of about 210 in 2003 and 81 in 2024 come from ZORA's pages, which quote the registry; ZORA's home page gives 211 for 2003, and notes that with so few cases the yearly count fluctuates (131 in 2020, 100 in 2023). The registry's full report for 2023 counts 99 cervical cancers that year.",
       links: [
         { label: "SLORA: Slovenia and cancer, data portal", url: SLORA },
         { label: "Rak v Sloveniji 2023, registry summary report (PDF)", url: RAK_2023 },
+        { label: "Rak v Sloveniji 2023, full annual report (PDF)", url: RAK_2023_FULL },
       ],
     },
     {
@@ -308,7 +316,7 @@ export const SI_DIVE: CountryDive = {
       plain:
         "Several European countries limit what insurers and lenders may ask about a past cancer. A 2025 review lists a Slovenian law of November 2024, in force in 2025, with a standard period of 7 years, but OnCo could not read the statute itself, so its exact terms are not given here.",
       detail:
-        "OnCo's glossary entry on the right to be forgotten after cancer tabulates European laws as a 2025 ESMO Open review states them, including Slovenia's. When it was written in November 2026 the Slovenian PIS legal register was a JavaScript application, the National Assembly site did not answer and the Official Gazette search could not be driven without a browser, so for Slovenia the review is the only source. The review notes that for a diagnosis before age 18 the period is 5 years in every jurisdiction it lists. A patient who needs to know should ask the insurer or lender what applies.",
+        "OnCo's glossary entry on the right to be forgotten after cancer tabulates European laws as a 2025 ESMO Open review states them, including Slovenia's. When it was written in November 2026 the Slovenian PIS legal register was a JavaScript application, the National Assembly site did not answer and the Official Gazette search could not be driven without a browser, so for Slovenia the review is the only source. The review notes that for a diagnosis before age 18 (21 in Italy and the Netherlands) the period is 5 years in every jurisdiction it lists. A patient who needs to know should ask the insurer or lender what applies.",
       links: [
         { label: "OnCo glossary: the right to be forgotten after cancer in Europe", url: "/terms/right-to-be-forgotten-cancer-europe/" },
         { label: "Ministrstvo za zdravje (gov.si)", url: "https://www.gov.si/drzavni-organi/ministrstva/ministrstvo-za-zdravje/" },
@@ -325,7 +333,7 @@ export const SI_DIVE: CountryDive = {
     "nct03591510", "nct00781612", "nct03148418", "nct06065748", "amaros", "aphinity", "nct05566795", "nct06923787",
     "nct07443475", "nct04221035", "ibcsg-23-01", "impassion130", "ipatunity130", "lidera", "nct06152575",
     "nct07015190", "nct07234877", "nct07044336", "raise", "rapido", "nct04421963", "hr-nbl1", "stevie", "nct05132075",
-    "nct05797831", "nct00066703",
+    "nct05797831", "nct00066703", "romana-1-2",
   ],
   papers: ["paper-irzaldy-hpv-vaccination-cin2-slovenia-lanepe-2025", "paper-gehl-acta-oncol"],
   people: [],

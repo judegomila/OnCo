@@ -10,6 +10,12 @@ import type { CountryDive } from "@/data/country-dive";
  * 2026), IAEA DIRAC's public equipment data, Burkina Faso's statement to the IAEA General Conference in 2019 (PDF
  * text), and the papers' abstracts through Europe PMC. Burkina Faso is a fragile, conflict-affected setting; the page
  * keeps to what these sources state. Where a figure could not be read it is named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every claim re-read against raw text. WHO's 2020 cancer country profile is at
+ * cancer-bfa-2020.pdf (the first pass tried bfa-2020.pdf, which is not found) and records a population-based registry
+ * for 2019, as do WHO's survey rows for 2019 and 2021, so the page no longer says the country has no registry. The
+ * Ministry's site returned server errors that day; its pages were read from Internet Archive captures made in 2026,
+ * except the page behind the CHU Yalgado record's surgery campaign, which could not be re-read and is labelled so.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/854-burkina-faso-fact-sheet.pdf";
 const AFCRN = "https://afcrn.org/index.php/membership/membership-list";
@@ -35,10 +41,12 @@ const CNAMU_TEXTS = "https://cnamu.bf/le-ramu/textes-fondamentaux/";
 const FASO_FDA = "https://fasofda.bf/fr/";
 const FASO_FDA_TRIALS = "https://fasofda.bf/fr/appGestion/listeDonnees/R%C3%A9pertoire%20national%20des%20essais%20cliniques/";
 const WHO_ML_LIST = "https://www.who.int/publications/m/item/list-of-nras-operating-at-ml3-and-ml4";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'BFA'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'BFA'%20and%20contains(ANTIGEN,'HPV')";
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'BFA'";
 const WHO_GGHE_API = "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$filter=SpatialDim%20eq%20'BFA'";
-const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/bfa-2020.pdf";
+const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/cancer-bfa-2020.pdf";
+const WHO_PBCR_API = "https://ghoapi.azureedge.net/api/NCD_CCS_PBCR?$filter=SpatialDim%20eq%20'BFA'";
+const WHO_REG_API = "https://ghoapi.azureedge.net/api/NCD_CCS_CancerRegNational?$filter=SpatialDim%20eq%20'BFA'";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const IAEA_GC_2019 = "https://iaea.org/sites/default/files/19/10/firstlady_burkinafaso.pdf";
 const CTGOV = "https://clinicaltrials.gov/search?country=Burkina%20Faso&cond=cancer";
@@ -51,11 +59,11 @@ export const BF_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Burkina Faso",
   description:
-    "Cancer in Burkina Faso from Burkinabè and international sources: IARC's estimate of 13,631 new cancers and 8,994 deaths in 2024, made without a national incidence source, breast, liver and cervical cancer the commonest, free screening and treatment of precancerous lesions since 2016, the RAMU insurance scheme, the new Faso FDA regulator, the two radiotherapy machines in IAEA's directory and HPV vaccination since 2022.",
+    "Cancer in Burkina Faso from Burkinabè and international sources: IARC's estimate of 13,631 new cancers and 8,994 deaths in 2024, for which IARC names no Burkinabè incidence source, breast, liver and cervical cancer the commonest, free screening and treatment of precancerous lesions since 2016, the RAMU insurance scheme, the new Faso FDA regulator, the two radiotherapy machines in IAEA's directory and HPV vaccination since 2022.",
   lede:
-    "Burkina Faso has no cancer registry whose figures IARC can use, so its national cancer figures are estimates: 13,631 new cancers and 8,994 deaths in 2024. Breast cancer is the commonest, liver cancer causes the most deaths, and almost two in three new cancers are in women. Since 2016 the state has paid for screening and treatment of precancerous cervical lesions as part of free care for women and children under five, and since 2021 the country has had its own radiotherapy.",
+    "Burkina Faso's national cancer figures are estimates: IARC puts them at 13,631 new cancers and 8,994 deaths in 2024, and its fact sheet names no Burkinabè source for incidence, although WHO recorded a population-based cancer registry in the country in 2019 and 2021. Breast cancer is the commonest, liver cancer causes the most deaths, and almost two in three new cancers are in women. Since 2016 the state has paid for screening and treatment of precancerous cervical lesions as part of free care for women and children under five, and since 2021 the country has had its own radiotherapy.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Burkina Faso is 13,631 new cancers and 8,994 deaths, an age-standardised incidence of 109.5 per 100,000 (98.0 in men, 123.3 in women) and mortality of 76.0. The fact sheet names no country-specific source for incidence, giving the method as national or subnational rates scaled to regional all-cancer rates, and derives mortality from those incidence estimates using modelled mortality-to-incidence ratios based on registry survival data, naming Survcan, IARC's survival database, as the country-specific mortality source. So both figures are estimates rather than counts, and Burkina Faso's delegation to the IAEA said in 2019 that many cancer deaths happen outside health facilities and are recorded nowhere. IARC counts 302 non-melanoma skin cancers among the 13,631 (13,329 excluding them).",
+    "IARC's GLOBOCAN 2024 figure for Burkina Faso is 13,631 new cancers and 8,994 deaths, an age-standardised incidence of 109.5 per 100,000 (98.0 in men, 123.3 in women) and mortality of 76.0. The fact sheet names no country-specific source for incidence, giving the method as national or subnational rates scaled to regional all-cancer rates, and derives mortality from those incidence estimates using modelled mortality-to-incidence ratios based on registry survival data, naming Survcan, IARC's survival database, as the country-specific mortality source. Both figures are estimates rather than counts, and Burkina Faso's delegation to the IAEA said in 2019 that many cancer deaths happen outside health facilities and are recorded nowhere. IARC counts 302 non-melanoma skin cancers among the 13,631 (13,329 excluding them).",
   sections: [
     {
       id: "profile",
@@ -77,13 +85,16 @@ export const BF_DIVE: CountryDive = {
         },
         {
           id: "no-registry",
-          title: "No registry incidence figures that IARC can use, and no member of the African registry network",
+          title: "IARC names no Burkinabè incidence source, and the African registry network has no Burkinabè member",
           plain:
-            "IARC's 2024 fact sheet names no Burkinabè source for cancer incidence, and the African Cancer Registry Network's membership list has no registry in Burkina Faso. The Ministry said in 2020 that a cancer registry had been started; OnCo found no published figures from it.",
+            "IARC's 2024 fact sheet names no Burkinabè source for cancer incidence, and the African Cancer Registry Network's membership list has no registry in Burkina Faso. WHO's country surveys record a population-based cancer registry in 2019 and 2021, and the Ministry said in 2020 that a cancer registry had been started; OnCo found no published figures from one.",
           detail:
-            "The AFCRN membership list, read on 11 November 2026, names 35 registries in 24 countries and territories, including neighbouring Mali, Côte d'Ivoire and Benin, but none in Burkina Faso. When the Ministry of Health validated its strategic plan against cancer in January 2020, its secretary general listed the start of a cancer registry (l'initiation d'un registre des cancers) among the actions under way. In its statement to the IAEA General Conference in 2019, the head of Burkina Faso's delegation said that more than 70% of cancers were detected at a very late stage and that many cancer deaths happen outside health facilities without being counted anywhere. Until a registry publishes, local figures come from hospital series, such as 550 patients operated on for breast cancer in Ouagadougou from 2013 to 2020, of whom 66.2% were alive after five years.",
+            "IARC's fact sheet leaves its country-specific incidence source blank and gives its method as national or subnational rates scaled to regional all-cancer rates. WHO's 2020 cancer country profile records a population-based cancer registry for 2019, and WHO's survey rows answer yes for 2019 and 2021 after no in 2013, 2015 and 2017; neither names the registry or says what population it covers. The AFCRN membership list, read on 11 and 16 November 2026, names 35 registries in 24 countries and territories, including neighbouring Mali, Côte d'Ivoire and Benin, but none in Burkina Faso. When the Ministry of Health validated its strategic plan against cancer in January 2020, its secretary general listed the start of a cancer registry (l'initiation d'un registre des cancers) among the actions under way. In its statement to the IAEA General Conference in 2019, the head of Burkina Faso's delegation said that more than 70% of cancers were detected at a very late stage and that many cancer deaths happen outside health facilities without being counted anywhere. OnCo found no published registry figures, so the local figures on this page come from hospital series, such as 550 patients operated on for breast cancer in Ouagadougou from 2013 to 2020, whose overall survival at five years was 66.2%.",
           links: [
             { label: "AFCRN: current membership list", url: AFCRN },
+            { label: "WHO: cancer country profile 2020, Burkina Faso (PDF)", url: WHO_PROFILE },
+            { label: "WHO: existence of a population-based cancer registry, Burkina Faso, 2021 (API)", url: WHO_PBCR_API },
+            { label: "WHO: existence of a population-based cancer registry, Burkina Faso, 2013 to 2019 (API)", url: WHO_REG_API },
             { label: "Ministry of Health: strategic plan against cancer validated (10 February 2020)", url: MS_PLAN_2020 },
             { label: "Burkina Faso statement to the IAEA General Conference, 2019 (PDF)", url: IAEA_GC_2019 },
             { label: "Zongo et al., survival after breast cancer surgery in Ouagadougou (Eur J Surg Oncol 2022)", url: "https://doi.org/10.1016/j.ejso.2022.07.001" },
@@ -173,7 +184,7 @@ export const BF_DIVE: CountryDive = {
           plain:
             "Medicines in Burkina Faso are authorised by the Faso Food and Drug Administration, created by decree on 22 May 2026 by merging the pharmaceutical regulator, ANRP, with the health products and food safety agency, ANSSEAT. WHO does not list Burkina Faso among regulators at maturity level 3 or 4.",
           detail:
-            "Faso FDA describes itself as a non-hospital public health body under the technical supervision of the Ministry of Health and the financial supervision of the Ministry of Finance, created by decree 2026-0602/PF/PRIM/MEF/MS. It grants marketing authorisations, inspects establishments, regulates prices, controls advertising and acts against falsified health products, for human and veterinary medicines, vaccines, blood products, devices and food. Its site carries the national register of clinical trials, the nomenclature of authorised health products and the national therapeutic formulary, and patients can report a side effect through the Med Safety app. WHO's list of regulators at maturity levels 3 and 4, dated August 2026, does not include Burkina Faso. OnCo did not find a published time to authorise a cancer medicine, or which regional reliance routes Faso FDA uses.",
+            "Faso FDA describes itself as a non-hospital public health body under the technical supervision of the Ministry of Health and the financial supervision of the Ministry of Finance, created by decree 2026-0602/PF/PRIM/MEF/MS. It grants marketing authorisations, inspects establishments, regulates prices, controls advertising and acts against falsified health products, for human and veterinary medicines, vaccines, blood products, devices and food. Its site carries the national register of clinical trials, the nomenclature of authorised health products and the national therapeutic formulary, and it links to the Med Safety app for reporting side effects. WHO's list of regulators at maturity levels 3 and 4, dated August 2026, does not include Burkina Faso. OnCo did not find a published time to authorise a cancer medicine, or which regional reliance routes Faso FDA uses.",
           links: [
             { label: "Faso FDA: presentation, decree 2026-0602 and missions", url: FASO_FDA },
             { label: "WHO: regulatory authorities at maturity levels 3 and 4 (August 2026)", url: WHO_ML_LIST },
@@ -191,9 +202,9 @@ export const BF_DIVE: CountryDive = {
           id: "hpv",
           title: "HPV vaccination of girls since 2022, with first-dose coverage of 95% in 2025",
           plain:
-            "Burkina Faso began vaccinating 9-year-old girls against HPV in 2022 with Gavi's support, after pilot campaigns in two districts in 2014 and 2015. WHO's figures show first-dose coverage of girls rising from 70% in 2022 to 96% in 2023, 99% in 2024 and 95% in 2025. WHO's rows for boys are empty.",
+            "Burkina Faso began vaccinating 9-year-old girls against HPV in 2022 with Gavi's support, after a vaccination campaign in two health districts in 2014 and 2015. WHO's coverage estimates show first-dose coverage of girls rising from 70% in 2022 to 96% in 2023, 99% in 2024 and 95% in 2025. WHO's rows for boys are empty.",
           detail:
-            "WHO's immunisation coverage rows for Burkina Faso begin in 2022. Coverage of the last dose in the schedule was 16% that year, then 96% in 2023, 99% in 2024 and 95% in 2025, the same as the first dose from 2023. The target population in WHO's rows roughly doubles in 2025, from 335,340 girls to 657,693. In 2021 the minister said HPV vaccination of girls aged 9 to 13 had been run in the Baskuy and Solenzo health districts in 2014 and 2015. A modelling study by Burkinabè and international authors found that vaccinating 9-year-old girls could prevent 37% to 72% of cervical cancer cases and deaths and is cost-effective.",
+            "WHO's immunisation data for Burkina Faso, read again on 16 November 2026, has HPV rows from 2010 but no values before 2022. In WHO's coverage estimates, coverage of the last dose in the schedule was 16% that year, then 96% in 2023, 99% in 2024 and 95% in 2025, the same as the first dose from 2023. The target population in those rows roughly doubles in 2025, from 335,340 girls to 657,693. The same data also carries the country's own administrative reports for girls' first dose: 95.78% in 2023, 103.81% in 2024 and 149.59% in 2025, which means more doses were recorded than girls in the reported target group. In 2021 the minister said HPV vaccination of girls aged 9 to 13 had been run in the Baskuy and Solenzo health districts in 2014 and 2015. A modelling study by Burkinabè and international authors found that vaccinating 9-year-old girls could prevent 37% to 72% of cervical cancer cases and deaths and is cost-effective.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Burkina Faso (public API)", url: WHO_HPV_API },
             { label: "Ministry of Health: world cancer day and cervical cancer (10 February 2021)", url: MS_CERVIX_DAY_2021 },
@@ -206,7 +217,7 @@ export const BF_DIVE: CountryDive = {
           plain:
             "The cervical screening service the Ministry added to its minimum package of care in 2016 is visual inspection with acetic acid, followed where needed by same-day treatment. In WHO's 2013 national survey only 6.2% of women had ever been screened. Breast screening is offered through campaigns, such as one for 3,000 women in four cities in 2023.",
           detail:
-            "A programme run with the Ministry from 2010 to 2014 in 14 facilities screened 13,999 women by visual inspection; 8.9% screened positive and 65.9% of those were treated with cryotherapy at the same visit. Same-day treatment fell from 82 to 93% to 51% when a $10 fee was charged, and the Ministry added the service to its minimum package of care in 2016. The 2013 WHO STEPS survey found 6.2% of women had ever been screened: 18.5% in towns and 2.8% in rural areas. In April 2023 the minister launched a breast screening campaign for 3,000 women in four major cities, organised by the Coalition Burkinabè Contre le Cancer (COBUCAN), partly to assess hospitals' capacity for breast ultrasound and mammography.",
+            "A programme run with the Ministry from 2010 to 2014 in 14 facilities screened 13,999 women by visual inspection; 8.9% screened positive and 65.9% of those were treated with cryotherapy at the same visit. Same-day treatment fell from 82 to 93% to 51% when a $10 fee was charged, and the Ministry added the service to its minimum package of care in 2016. The 2013 WHO STEPS survey found 6.2% of women had ever been screened: 18.5% in towns and 2.8% in rural areas. In April 2023 the minister launched a breast screening campaign for 3,000 women in four major cities, organised by the Burkinabè coalition against cancer (COBUCAN), partly to assess hospitals' capacity for breast imaging (écho-mammographies in the Ministry's report).",
           links: [
             { label: "Ouedraogo et al., single-visit cervical cancer prevention in Burkina Faso (Glob Health Sci Pract 2018)", url: "https://doi.org/10.9745/GHSP-D-17-00326" },
             { label: "Diendéré et al., cervical screening uptake in Burkina Faso (Rev Epidemiol Sante Publique 2023)", url: "https://doi.org/10.1016/j.respe.2023.101845" },
@@ -219,17 +230,17 @@ export const BF_DIVE: CountryDive = {
       id: "capacity",
       nav: "Capacity",
       title: "Radiotherapy and cancer centres",
-      aside: { label: "IAEA DIRAC: radiotherapy equipment by centre", url: DIRAC },
+      aside: { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
       cards: [
         {
           id: "radiotherapy",
           title: "Two radiotherapy machines in IAEA's directory, both at one hospital in Ouagadougou",
           plain:
-            "IAEA's radiotherapy directory lists one radiotherapy centre in Burkina Faso, at the CHU de Bogodogo in Ouagadougou, with two linear accelerators and no brachytherapy. That is about one machine for every 12 million people. Before it opened in 2021, a patient quoted by the Ministry said, the alternative was treatment abroad.",
+            "IAEA's directory of radiotherapy centres lists one centre in Burkina Faso, at the CHU de Bogodogo in Ouagadougou, with two linear accelerators and no brachytherapy. That is about one listed machine for every 12 million people. Before it opened in 2021, a patient quoted by the Ministry said, the alternative was treatment abroad.",
           detail:
-            "IAEA DIRAC's public equipment data, read on 11 November 2026, lists the CHU de Bogodogo with two megavoltage machines, both linear accelerators, no brachytherapy and no CT simulator recorded, with the entry last updated in 2025; DIRAC gives Burkina Faso's population as about 24.1 million. Building began in April 2019, according to Burkina Faso's statement to the IAEA General Conference that year, which also credits IAEA cooperation for a nuclear medicine service at the CHU Yalgado Ouédraogo. The Ministry reported the minister meeting the centre's first patients in June 2021, about two months after its inauguration; one patient said she had been able to stay at home with her family rather than go abroad.",
+            "IAEA's directory of radiotherapy centres, read on 11 November 2026 and again on 16 November 2026, lists one centre, the Centre hospitalier Universitaire de Bogodogo in Ouagadougou, with two linear accelerators, no cobalt-60 unit and no brachytherapy (entry last updated 2025); its CT, simulator and TPS columns are all zero. DIRAC gives Burkina Faso's population as about 24.1 million. A directory can lag, so a centre that opened after 2025 may not be listed yet. Building began in April 2019, according to Burkina Faso's statement to the IAEA General Conference that year, which also credits IAEA cooperation for a nuclear medicine service at the CHU Yalgado Ouédraogo. The Ministry reported the minister meeting the centre's first patients in June 2021, about two months after its inauguration; one patient said she had been able to stay at home with her family rather than go abroad.",
           links: [
-            { label: "IAEA DIRAC: radiotherapy equipment by centre (read 11 November 2026)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "Ministry of Health: the Bogodogo radiotherapy centre (24 June 2021)", url: MS_BOGODOGO_2021 },
             { label: "Burkina Faso statement to the IAEA General Conference, 2019 (PDF)", url: IAEA_GC_2019 },
           ],
@@ -261,7 +272,7 @@ export const BF_DIVE: CountryDive = {
           plain:
             "When Burkina Faso made care free for women and children under five in 2016, it included screening for cervical cancer and treatment of precancerous lesions. The minister's 2021 statement names cervical lesions; in 2020 the Ministry's secretary general described the measure as covering breast lesions too, and in 2025 the Ministry said its mobile clinics offered free breast and cervical screening. OnCo did not find a published text setting out what is free for the breast.",
           detail:
-            "In February 2021 the minister of health listed free screening and treatment of precancerous cervical lesions, within the free care measures for pregnant women and children under five since 2016, among the Ministry's actions against cancer. In January 2020 the Ministry's secretary general described the free measure as covering precancerous lesions of the breast and the cervix. The evidence for why it matters is local: in a Ministry-supported programme from 2010 to 2014, the share of women treated the same day fell from 82 to 93% to 51% once a $10 fee was charged, and the Ministry added the service to its minimum package of care in 2016. How many women are now screened each year was not found.",
+            "In February 2021 the minister of health listed free screening and treatment of precancerous cervical lesions, within the free care measures for pregnant women and children under five since 2016, among the Ministry's actions against cancer. In January 2020 the Ministry's secretary general described the free measure as covering precancerous lesions of the breast and the cervix. The evidence for why it matters is local: in a programme run with the Ministry from 2010 to 2014, the share of women treated the same day fell from 82 to 93% to 51% once a $10 fee was charged, and the Ministry added the service to its minimum package of care in 2016. How many women are now screened each year was not found.",
           links: [
             { label: "Ministry of Health: world cancer day and cervical cancer (10 February 2021)", url: MS_CERVIX_DAY_2021 },
             { label: "Ministry of Health: strategic plan against cancer validated (10 February 2020)", url: MS_PLAN_2020 },
@@ -295,7 +306,7 @@ export const BF_DIVE: CountryDive = {
           plain:
             "None of the cancer trials in OnCo's ClinicalTrials.gov participation data lists Burkina Faso among its countries, and OnCo found no study whose title mentions cancer in the national register of clinical trials kept by the regulator. Burkinabè research on cancer is mostly hospital studies and screening programmes.",
           detail:
-            "OnCo's participation data covers the trials in its graph, not every trial registered, so a search of ClinicalTrials.gov itself may find studies with Burkinabè sites. The national register on Faso FDA's site, read on 11 November 2026, lists trials authorised in the country, most of them on malaria, vaccines and nutrition; its titles are shortened on the page, so a cancer study could be missed. Published Burkinabè work includes survival after breast cancer surgery in Ouagadougou, cervical screening programmes and uptake, the cost-effectiveness of HPV vaccination, and delays in diagnosing childhood cancer.",
+            "OnCo's participation data covers the trials in its graph, not every trial registered: of its 5,897 trial records, almost all fetched on 7 and 8 October 2026, 5,578 list their countries and none lists Burkina Faso. ClinicalTrials.gov itself does hold studies there: on 16 November 2026 a search for cancer studies with a site in Burkina Faso returned seven, among them treatment studies for retinoblastoma, Burkitt lymphoma and nephroblastoma in children, a hospital registry of childhood cancer and two cervical screening studies; one of the seven is a malaria study. The national register on Faso FDA's site, read on 11 and 16 November 2026, lists trials authorised in the country, most of them on malaria, vaccines and nutrition; its titles are shortened on the page, so a cancer study could be missed. Published Burkinabè work includes survival after breast cancer surgery in Ouagadougou, cervical screening programmes and uptake, the cost-effectiveness of HPV vaccination, and delays in diagnosing childhood cancer.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Burkina Faso", url: CTGOV },
             { label: "Faso FDA: national register of clinical trials", url: FASO_FDA_TRIALS },
@@ -307,13 +318,13 @@ export const BF_DIVE: CountryDive = {
   gaps: [
     {
       id: "who-profile-and-registry",
-      title: "WHO's 2020 cancer country profile for Burkina Faso could not be reached",
+      title: "WHO's 2020 cancer country profile is dated, and no registry figures or workforce counts were found",
       plain:
-        "WHO publishes a 2020 cancer country profile for each member state, with policy, workforce and medicine availability indicators. The file for Burkina Faso was not found at WHO's address on 11 November 2026, so those indicators are not on this page.",
+        "WHO's 2020 cancer country profile for Burkina Faso was not found on 11 November 2026 at the address first tried; it is published at another address and was read on 16 November 2026. Its indicators date from 2020 or earlier, before the Bogodogo radiotherapy centre opened, so they are named in the detail below and not used elsewhere on this page.",
       detail:
-        "The address that serves Senegal's profile returned a not-found error for Burkina Faso, and OnCo did not find an archived copy. OnCo also found no published figures from the cancer registry the Ministry said had been started by 2020, no count of oncologists, pathologists or medical physicists in the country, and no population-based survival figures. The 6.2% screening figure is from 2013, before screening became free.",
+        "The profile records a population-based cancer registry for 2019, no coverage for the quality of mortality registration in 2007 to 2016, no external beam radiotherapy in 2019, and a cervical screening programme by visual inspection with participation of 10% to 50%. It gives staff only as rates per 10,000 cancer patients, with no figure for radiation oncologists, and warns that the country's mortality estimates are highly uncertain because they are not based on national data on deaths. OnCo found no published figures from a Burkinabè cancer registry, no head count of oncologists, pathologists or medical physicists in the country, and no population-based survival figures. The 6.2% screening figure is from 2013, before screening became free.",
       links: [
-        { label: "WHO: cancer country profile 2020, Burkina Faso (not found)", url: WHO_PROFILE },
+        { label: "WHO: cancer country profile 2020, Burkina Faso (PDF)", url: WHO_PROFILE },
         { label: "Ministry of Health: strategic plan against cancer validated (10 February 2020)", url: MS_PLAN_2020 },
       ],
     },
@@ -323,7 +334,7 @@ export const BF_DIVE: CountryDive = {
       plain:
         "The RAMU benefit package is set by decree 2023-1410, which the CNAMU names but does not publish on its site. OnCo also did not find the 2025 list of anticancer medicines, or a published decision on which cancers' radiotherapy is free.",
       detail:
-        "The CNAMU's page of founding texts, read on 11 November 2026, carries the 2015 law and five decrees but not decree 2023-1410. Article 14 of the law says the list of diseases exempt from charges is to be set by decree; OnCo did not find it. Free radiotherapy for the commonest cancers is mentioned in the Ministry's report of the May 2025 workshop, in the words of CAMEG's director general, not in a decree OnCo could read. Whether cancer medicines are on the national essential medicines list, and in stock, was not found.",
+        "The CNAMU's page of founding texts, read on 11 and 16 November 2026, carries the 2015 law and five decrees but not decree 2023-1410. Article 14 of the law says the list of diseases exempt from charges is to be set by decree; OnCo did not find it. Free radiotherapy for the commonest cancers is mentioned in the Ministry's report of the May 2025 workshop, in the words of CAMEG's director general, not in a decree OnCo could read. Whether cancer medicines are on the national essential medicines list, and in stock, was not found.",
       links: [
         { label: "CNAMU: founding texts", url: CNAMU_TEXTS },
         { label: "Law 060-2015/CNT, article 14 (PDF, CNAMU)", url: LOI_060 },
@@ -338,7 +349,7 @@ export const BF_DIVE: CountryDive = {
       detail:
         "DIRAC's Burkina Faso entry was last updated in 2025 and records two linear accelerators, but not whether they are working on a given day. The Ministry's most recent page naming the Bobo-Dioulasso centre found here is from August 2025; its review of 2025, published in March 2026, says a radiotherapy service opened that year without naming it. Anyone needing radiotherapy should ask the CHU de Bogodogo directly whether it is treating and how long the wait is.",
       links: [
-        { label: "IAEA DIRAC: radiotherapy equipment by centre", url: DIRAC },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
         { label: "Ministry of Health: the Bobo-Dioulasso works at 79% (27 August 2025)", url: MS_BOBO_2025 },
         { label: "Ministry of Health: review of 2025 (13 March 2026)", url: MS_REVIEW_2025 },
       ],
@@ -355,7 +366,7 @@ export const BF_DIVE: CountryDive = {
   ],
   people: [],
   how:
-    "Every card was written from Burkinabè official sources and international agencies, read in full rather than through a summary: the Ministry of Health's dated news pages; Law 060-2015/CNT and the CNAMU's pages on the RAMU; Faso FDA's presentation page and national register of clinical trials; the AFCRN membership list; WHO's HPV coverage and health expenditure rows from its public data APIs and its August 2026 list of regulators at maturity levels 3 and 4; IAEA DIRAC's public equipment data and Burkina Faso's 2019 statement to the IAEA General Conference; IARC's GLOBOCAN 2024 fact sheet; and the papers through Europe PMC. Burkina Faso is a fragile, conflict-affected setting, and the page keeps to what these sources state. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records added for this page (the Ministry, the CNAMU, Faso FDA, two university hospitals and five papers) carry their own sources.",
+    "Every card was written from Burkinabè official sources and international agencies, read in full rather than through a summary: the Ministry of Health's dated news pages; Law 060-2015/CNT and the CNAMU's pages on the RAMU; Faso FDA's presentation page and national register of clinical trials; the AFCRN membership list; WHO's 2020 cancer country profile, its HPV coverage, registry survey and health expenditure rows from its public data APIs and its August 2026 list of regulators at maturity levels 3 and 4; IAEA DIRAC's public equipment data and Burkina Faso's 2019 statement to the IAEA General Conference; IARC's GLOBOCAN 2024 fact sheet; and the papers through Europe PMC. Burkina Faso is a fragile, conflict-affected setting, and the page keeps to what these sources state. Trials were counted from OnCo's ClinicalTrials.gov participation data. On 16 November 2026 every claim was read again against its source; the Ministry's site was returning errors that day, so its pages were read from Internet Archive copies captured in 2026. The new records added for this page (the Ministry, the CNAMU, Faso FDA, two university hospitals and five papers) carry their own sources.",
   verify:
     "National cancer figures for Burkina Faso are estimates, not counts. Which services are free, whether radiotherapy is running and which medicines are in stock change faster than published pages; ask the treating hospital, the CNAMU or the Ministry of Health what applies to you.",
   verifyLinks: [

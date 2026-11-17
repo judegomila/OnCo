@@ -18,6 +18,7 @@ const WHO_ML3 = "https://www.who.int/news/item/05-12-2024-senegal-and-rwanda-ach
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'RWA'%20and%20startswith(ANTIGEN,'PRHPV')";
 const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=RW";
 const CTGOV = "https://clinicaltrials.gov/search?country=Rwanda&cond=cancer";
+const DIRAC_DATA = "https://dirac.iaea.org/Data/CountriesLight";
 const AFCRN_RW = "https://afcrn.org/index.php/membership/membership-list/167-rwanda-ncr";
 
 export const RW_DIVE: CountryDive = {
@@ -28,11 +29,11 @@ export const RW_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Rwanda",
   description:
-    "Cancer in Rwanda from Rwandan sources: IARC's estimate of 12,440 new cancers and 7,991 deaths in 2024, a national registry that recorded 25,754 cases from 2019 to 2024, community-based health insurance that adds cancer medicines from July 2025, one radiotherapy centre with two machines, a school HPV vaccination programme since 2011, and a regulator rated at WHO maturity level 3.",
+    "Cancer in Rwanda from Rwandan sources: IARC's estimate of 12,440 new cancers and 7,991 deaths in 2024, a national registry that recorded 25,754 cases from 2019 to 2024, community-based health insurance that the cancer plan says would add cancer medicines from July 2025, one radiotherapy centre with two machines, a school HPV vaccination programme since 2011, and a regulator rated at WHO maturity level 3.",
   lede:
     "Rwanda has a national cancer registry, a cancer plan for 2025 to 2029 and health insurance that covers most of the population, but cancer treatment is concentrated in three hospitals and one radiotherapy centre. Its cancer plan says the registry captures about four in five of the cancers IARC estimates, and that most cancers are found late.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Rwanda is 12,440 new cancers and 7,991 deaths, an age-standardised incidence of 136.0 per 100,000 (139.3 in men, 138.4 in women). IARC's fact sheet gives its incidence source as a subnational registry, with subnational rates applied to the 2024 population, and mortality as national incidence applied to modelled mortality-to-incidence ratios. The Rwanda National Cancer Registry counts what reaches its hospitals: 4,904 to 5,384 cancers a year from 2019 to 2023. The national plan compared its 2022 count of 5,548 with GLOBOCAN 2022's estimate of 7,122 and read the gap as under-reporting and undiagnosed patients; the 2024 estimate is higher again. The two numbers measure different things and should not be read as a trend.",
+    "IARC's GLOBOCAN 2024 figure for Rwanda is 12,440 new cancers and 7,991 deaths, an age-standardised incidence of 136.0 per 100,000 (139.3 in men, 138.4 in women). IARC's fact sheet gives its incidence source as a subnational registry, with subnational rates applied to the 2024 population, and mortality as national incidence applied to modelled mortality-to-incidence ratios. The Rwanda National Cancer Registry counts what reaches its hospitals: 4,904 to 5,384 cancers a year from 2019 to 2023. The national plan compared a registry count of 5,548 with GLOBOCAN 2022's estimate of 7,122 and read the gap as under-reporting and undiagnosed patients; the 2024 estimate is higher again. The two numbers measure different things and should not be read as a trend.",
   sections: [
     {
       id: "profile",
@@ -81,20 +82,23 @@ export const RW_DIVE: CountryDive = {
             { year: "2022", cases: 5384 },
             { year: "2023", cases: 5164 },
           ],
-          note: "The registry records cancers presenting at health facilities, so it counts fewer than IARC estimates; the plan puts its capture at about 78%. The plan also gives 5,548 as a registry figure when it compares with GLOBOCAN 2022, a different number from its own 2022 row, and does not explain the difference.",
-          sources: [{ label: "National Cancer Control Plan 2025 to 2029, section 1.3 (PDF)", url: NCCP_2025 }],
+          note: "The registry records cancers presenting at health facilities, so it counts fewer than IARC estimates; the plan puts its capture at about 78%. The plan also gives 5,548 as a registry figure when it compares with GLOBOCAN 2022, a different number from its own 2022 row, and gives a third figure, 5,395, for 2022 in its text on the chart comparing the two series; it does not explain the difference. The registry's page on the African Cancer Registry Network gives 5,548 as the count for 2023.",
+          sources: [
+            { label: "National Cancer Control Plan 2025 to 2029, section 1.3 (PDF)", url: NCCP_2025 },
+            { label: "African Cancer Registry Network: Rwanda National Cancer Registry", url: AFCRN_RW },
+          ],
         },
       ],
     },
     {
       id: "paying",
       nav: "Paying",
-      title: "Paying for care: community insurance that adds cancer medicines",
+      title: "Paying for care: community insurance, and a plan to add cancer medicines",
       aside: { label: "RSSB: community-based health insurance (Mutuelle de Santé)", url: RSSB_CBHI },
       cards: [
         {
           id: "cbhi",
-          title: "Mutuelle de Santé covers 89% of Rwandans, and from July 2025 their cancer medicines",
+          title: "Mutuelle de Santé covers 89% of Rwandans; the cancer plan says it would add cancer medicines from July 2025",
           plain:
             "Most Rwandans are insured through community-based health insurance, known as Mutuelle de Santé, which the Rwanda Social Security Board runs and says covers 89.06% of the population. It covered most of the cost of diagnosis and surgery but not cancer medicines; the national plan says it would cover them from July 2025.",
           detail:
@@ -111,7 +115,7 @@ export const RW_DIVE: CountryDive = {
           plain:
             "Rwanda's cancer plan for 2025 to 2029 is costed at about 396 billion Rwandan francs, or 283 million US dollars, over five years. Cancer treatment medicines are 47% of the cost, the largest single item.",
           detail:
-            "The plan's costing chapter estimates the total investment at RWF 396 billion (USD 283 million), with annual costs of RWF 91.8, 76.3, 84.5, 69.1 and 73.9 billion. It assumes inflation of 3.44% in year two and 3.69% after, a 20% rise in medicine and commodity costs from year one to year two and 10% a year after. A figure printed in the same chapter gives an earlier draft total of RWF 390 billion (USD 279 million). The plan's treatment pillar dominates the budget. It does not say how much of the cost is already funded.",
+            "The plan's costing chapter estimates the total investment at RWF 396 billion (USD 283 million), with annual costs of RWF 91.8, 76.3, 84.5, 69.1 and 73.9 billion. It assumes inflation of 3.44% in year two and 3.69% after, a 20% rise in medicine and commodity costs from year one to year two and 10% a year after. A figure printed in the same chapter gives an earlier draft total of RWF 390 billion (USD 279 million). The plan's treatment pillar dominates the budget. Its cost charts carry a label for available financing, but OnCo could not read from the PDF text how much of the cost is already funded.",
           links: [{ label: "National Cancer Control Plan 2025 to 2029, section 3.4 (PDF)", url: NCCP_2025 }],
         },
       ],
@@ -160,7 +164,7 @@ export const RW_DIVE: CountryDive = {
           plain:
             "From 2020 to 2024 Rwanda screened 464,690 women for cervical cancer at district hospitals and health centres, out of about 1.6 million eligible women a year. Women with precancer are treated on the spot. Breast checks are by clinical examination; there is no national breast screening programme.",
           detail:
-            "The plan's table of cervical screening gives 27,858 women screened in 2020, 76,561 in 2021, 110,307 in 2022, 132,152 in 2023 and 117,812 in 2024, against 1,507,983 to 1,662,619 eligible women aged 25 to 65 a year. Of the 464,690, 322,504 (69.4%) had an HPV test and 45,471 tested positive; 142,186 had visual inspection with acetic acid only. 17,751 women were positive on visual inspection, 12,917 were treated by thermal ablation and 164 by loop excision, and 2,552 were suspected of having cancer. For breast cancer the plan says a national screening programme is yet to be established; 521,143 clinical breast examinations were done from 2019 to 2024, finding 25,813 abnormal results. It says colorectal screening, planned in the previous plan, did not materialise.",
+            "The plan's table of cervical screening gives 27,858 women screened in 2020, 76,561 in 2021, 110,307 in 2022, 132,152 in 2023 and 117,812 in 2024, against 1,507,983 to 1,662,619 eligible women aged 25 to 65 a year. Of the 464,690, 322,504 (69.4%) had an HPV test and 45,471 tested positive; 142,186 had visual inspection with acetic acid only. 17,751 women were positive on visual inspection, 12,917 were treated by thermal ablation and 164 by loop excision, and 2,552 were suspected of having cancer. For breast cancer the plan says a national screening programme is yet to be established; its table counts 521,143 people screened by clinical breast examination from 2019 to September 2024, 25,813 of them with an abnormal examination. It says colorectal screening, planned in the previous plan, did not materialise.",
           links: [{ label: "National Cancer Control Plan 2025 to 2029, tables 2 and 3 (PDF)", url: NCCP_2025 }],
         },
       ],
@@ -177,10 +181,11 @@ export const RW_DIVE: CountryDive = {
           plain:
             "Before 2019 Rwandans who needed radiotherapy were sent abroad. The Rwanda Cancer Centre at Rwanda Military Hospital in Kanombe, Kigali, began treating patients in March 2019 with two linear accelerators. The national plan still calls it the sole radiotherapy provider and plans two more centres.",
           detail:
-            "The Ministry of Health's page on the inauguration says that four years earlier less than 10% of the population in need could get treatment and about USD 1 million was spent on transfers abroad for radiotherapy; that the centre, conceived in 2016 at Rwanda Military Hospital, was built by the French company UNTEC and funded by the Government of Rwanda, the Global Fund and the CDC; that it became operational in March 2019 and was launched on 4 February 2020; and that its radiotherapy unit has two linear accelerators using volumetric modulated arc therapy. The plan for 2025 to 2029 says treatment is concentrated at the Rwanda Cancer Centre, Butaro Hospital and King Faisal Hospital, that radiotherapy capacity is below the IAEA's recommended 4 units per million people with only two machines, that brachytherapy was expected by June 2025, and plans two further radiotherapy centres, at the University Teaching Hospital of Butare in the south and Butaro in the north.",
+            "The Ministry of Health's page on the inauguration says that four years earlier less than 10% of the population in need could get treatment and about USD 1 million was spent on transfers abroad for radiotherapy; that the centre, conceived in 2016 at Rwanda Military Hospital, was built by the French company UNTEC and funded by the Government of Rwanda, the Global Fund and the CDC; that it became operational in March 2019 and was launched on 4 February 2020; and that its radiotherapy unit has two linear accelerators using volumetric modulated arc therapy. The plan for 2025 to 2029 says treatment is concentrated at the Rwanda Cancer Centre, Butaro Hospital and King Faisal Hospital, that radiotherapy capacity is below the IAEA's recommended 4 units per million people with only two machines, that brachytherapy was expected by June 2025, and plans two further radiotherapy centres, at the University Teaching Hospital of Butare in the south and Butaro in the north. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists one centre in Rwanda: Rwanda Military Hospital, Kigali City, with two linear accelerators, no cobalt-60 unit and no brachytherapy, in an entry last updated in 2023. That matches the plan's count of one centre and two machines. The entry is older than the plan, and a directory can lag, so it does not show whether brachytherapy has started since.",
           links: [
             { label: "Ministry of Health: President Kagame inaugurates Rwanda Cancer Centre", url: MOH_RCC },
             { label: "National Cancer Control Plan 2025 to 2029, sections 2.2.2.4 and 3.3.4 (PDF)", url: NCCP_2025 },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC_DATA },
           ],
         },
         {
@@ -201,11 +206,11 @@ export const RW_DIVE: CountryDive = {
       cards: [
         {
           id: "decentralised",
-          title: "Care built around a rural district hospital, and support to stay on treatment",
+          title: "Care built around a district hospital in the north, and support to stay on treatment",
           plain:
-            "Butaro, a district hospital in the rural north where the government and Partners In Health run a cancer centre, gives patients free care, lodging and transport support. The national plan wants to copy that support nationwide and to take chemotherapy to every province.",
+            "Butaro, a district hospital in the north with a cancer centre of excellence, gives patients free care, lodging and transport support. The national plan wants to copy that support nationwide and to take chemotherapy to every province.",
           detail:
-            "The plan describes Butaro's free lodging, counselling and transport as a model that could improve adherence if extended nationwide, notes that patients have travelled long distances and abandoned treatment for lack of lodging, and proposes a time-bound referral route modelled on the United Kingdom's two-week rule. Its treatment objectives include a chemotherapy infusion centre in each province, two new radiotherapy centres and cancer services in public insurance. The plan for 2020 to 2024, which called itself the first National Cancer Control Plan, was published in February 2020; the second costs treatment medicines at nearly half of all spending, in step with its plan to add cancer drugs to community insurance.",
+            "The plan describes Butaro's free lodging, counselling and transport as a model that could improve adherence if extended nationwide, notes that patients have travelled long distances and abandoned treatment for lack of lodging, and suggests a time-bound referral route like the United Kingdom's 14-day rule for seeing a specialist. Its treatment actions include a chemotherapy infusion centre in each province, two new radiotherapy centres and adding cancer medicines to community insurance. The plan for 2020 to 2024, which called itself the first National Cancer Control Plan, was published in February 2020; the second costs treatment medicines at nearly half of all spending.",
           links: [
             { label: "National Cancer Control Plan 2025 to 2029, sections 2.2.2.4 and 3.3.4 (PDF)", url: NCCP_2025 },
             { label: "National Cancer Control Plan 2020 to 2024 (ICCP portal, PDF)", url: NCCP_2020 },
@@ -251,12 +256,12 @@ export const RW_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "OnCo did not read the Rwanda FDA's clinical trial guidelines or its list of registered cancer medicines, a registry report from the Rwanda National Cancer Registry itself, or IAEA radiotherapy figures for Rwanda. The figures on this page come from the national plan instead.",
+        "OnCo did not read the Rwanda FDA's clinical trial guidelines, its list of registered cancer medicines, or a registry report from the Rwanda National Cancer Registry itself. The registry figures on this page come from the national plan instead.",
       detail:
-        "The registry figures here are those the National Cancer Control Plan 2025 to 2029 quotes; OnCo did not find a separate published registry report. IAEA's DIRAC database needs an account for most queries. The Rwanda FDA site (rwandafda.gov.rw) was not read for this page. Each is a named gap, not a claim that the source does not exist.",
+        "The registry figures here are those the National Cancer Control Plan 2025 to 2029 quotes; OnCo did not find a separate published registry report. IAEA's directory of radiotherapy centres, which this page first listed as unread, was read on 16 November 2026: it lists one centre in Rwanda, Rwanda Military Hospital in Kigali City, with two linear accelerators, in an entry last updated in 2023. The Rwanda FDA site (rwandafda.gov.rw) was not read for this page. Each is a named gap, not a claim that the source does not exist.",
       links: [
         { label: "Rwanda Food and Drugs Authority", url: "https://rwandafda.gov.rw/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC_DATA },
       ],
     },
   ],
@@ -267,7 +272,7 @@ export const RW_DIVE: CountryDive = {
   papers: [],
   people: ["nadine-karema"],
   how:
-    "Every card was written from Rwandan public sources read as raw text on 11 November 2026: the National Cancer Control Plan 2025 to 2029 (PDF), the Ministry of Health's page on the Rwanda Cancer Centre, RSSB's page on community-based health insurance, WHO's maturity level announcement and immunisation data, the World Bank's out-of-pocket series and IARC's GLOBOCAN 2024 fact sheet. Most figures come from the national plan, which quotes the national registry.",
+    "Every card was written from Rwandan public sources read as raw text on 11 November 2026: the National Cancer Control Plan 2025 to 2029 (PDF), the Ministry of Health's page on the Rwanda Cancer Centre, RSSB's page on community-based health insurance, WHO's maturity level announcement and immunisation data, the World Bank's out-of-pocket series and IARC's GLOBOCAN 2024 fact sheet. Most figures come from the national plan, which quotes the national registry. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "Check the plan's figures against its own tables before relying on them, and ask RSSB or the treating hospital what community insurance covers today. Treatment capacity changes as centres open.",
   verifyLinks: [

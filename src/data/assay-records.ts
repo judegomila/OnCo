@@ -16,6 +16,7 @@ export const ASSAY_RECORD: Readonly<Record<string, string>> = {
   "oncomine-dx": "oncomine-dx-target-test",
   "resolution-ctdx-first": "resolution-ctdx-first",
   "guardant360-cdx": "guardant360-cdx",
+  "guardant360-liquid-cdx": "guardant360-liquid-cdx",
   "mmr-ventana": "ventana-mmr-rxdx",
   "mychoice-cdx": "mychoice-cdx",
   "bracanalysis-cdx": "bracanalysis-cdx",

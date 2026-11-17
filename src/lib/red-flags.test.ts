@@ -27,6 +27,21 @@ describe("red flags", () => {
     }
   });
 
+  it("a line names only care protocols, and none twice", () => {
+    const g = graph();
+    let linked = 0;
+    for (const s of [GENERAL_RED_FLAGS, ...redFlagSets]) for (const f of s.flags) {
+      const ids = f.protocols ?? [];
+      expect(new Set(ids).size, `${s.id}: ${f.symptom}`).toBe(ids.length);
+      for (const id of ids) expect(g.get(id)?.kind, `${s.id}: ${f.symptom}: ${id}`).toBe("protocol");
+      linked += ids.length;
+    }
+    // The link is curated line by line; an edit that drops the field wholesale should not pass quietly.
+    expect(linked).toBeGreaterThanOrEqual(50);
+    // Severe skin reactions are outside the skin-care protocol's own scope, so no blistering-rash line names it.
+    for (const s of [GENERAL_RED_FLAGS, ...redFlagSets]) for (const f of s.flags) expect(f.protocols ?? [], `${s.id}: ${f.symptom}`).not.toContain("skin-and-nail-care-during-cancer-drug-treatment");
+  });
+
   it("cancer-scoped sets name real cancers and link to real records", () => {
     const g = graph();
     for (const s of redFlagSets) {

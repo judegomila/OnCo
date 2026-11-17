@@ -13,7 +13,8 @@ import type { BiomarkerInput, BiomarkerThreshold, CompanionDiagnostic } from "@/
 export const BIOMARKER_AS_OF = "2026-09-23";
 const asOf = BIOMARKER_AS_OF;
 export const DM = (setId: string) => `https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=${setId}`;
-export const FDA_CDX_URL = "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools";
+// The list moved to this address; the old one (list-cleared-or-approved-companion-diagnostic-devices-...) answers 301 to it, checked 17 November 2026.
+export const FDA_CDX_URL = "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools";
 export const FDA_CDX_LABEL = "FDA: List of FDA-Authorized Companion Diagnostic Devices";
 export const b = (x: Omit<BiomarkerInput, "kind" | "asOf"> & { asOf?: BiomarkerInput["asOf"] }): BiomarkerInput => ({ kind: "biomarker", asOf, ...x });
 type Th = Omit<BiomarkerThreshold, "status"> & { status?: BiomarkerThreshold["status"] };
@@ -402,7 +403,7 @@ export const biomarkerReadouts: BiomarkerInput[] = [
       th({ value: "Activating HER2 (ERBB2) mutation, tumour or plasma", drugId: "trastuzumab-deruxtecan", cancerId: "nsclc", regulator: "FDA", source: LABEL.enhertu, quote: "Select patients for the treatment of unresectable or metastatic HER2-mutant NSCLC with ENHERTU based on the presence of activating HER2 (ERBB2) mutations in tumor or plasma specimens" }),
       th({ value: "HER2 (ERBB2) tyrosine kinase domain activating mutation", drugId: "zongertinib", cancerId: "nsclc", regulator: "FDA", source: LABEL.hernexeos, quote: "HERNEXEOS is indicated for the treatment of adult patients with unresectable or metastatic non-squamous non-small cell lung cancer (NSCLC) whose tumors have HER2 (ERBB2) tyrosine kinase domain activating mutations, as detected by an FDA-authorized test" }),
     ],
-    cancers: ["nsclc"], drugs: ["trastuzumab-deruxtecan", "zongertinib", "oncomine-dx-target-test", "guardant360-cdx", "foundationone-cdx", "tempus-xt-cdx", "trusight-oncology-comprehensive"], tests: ["foundationone-cdx", "tempus-xt", "trusight-oncology-comprehensive"], assays: ["oncomine-dx", "guardant360-cdx"],
+    cancers: ["nsclc"], drugs: ["trastuzumab-deruxtecan", "zongertinib", "oncomine-dx-target-test", "guardant360-cdx", "foundationone-cdx", "tempus-xt-cdx", "trusight-oncology-comprehensive"], tests: ["foundationone-cdx", "tempus-xt", "trusight-oncology-comprehensive"], assays: ["oncomine-dx", "guardant360-cdx", "guardant360-liquid-cdx"],
     companionDiagnostics: [
       cdx("Oncomine Dx Target Test", "Life Technologies (Thermo Fisher Scientific)", "Non-Small Cell Lung Cancer (NSCLC) - Tissue", ["trastuzumab-deruxtecan"], "P160045/S035 (08/11/2022)", "thermo-fisher"),
       cdx("Guardant360 CDx", "Guardant Health", "Non-Small Cell Lung Cancer (NSCLC) - Plasma", ["trastuzumab-deruxtecan"], "P200010/S008 (08/11/2022)", "guardant-health"),

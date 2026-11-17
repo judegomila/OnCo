@@ -64,3 +64,25 @@ Worklists: `.fill-gaps/issue.md` (issue #336, refresh of 11 November 2026) and `
 
 Not run by me: this run could not run `npm`, `vitest` or any script. The validate, typecheck, lint and test gates run
 after it.
+
+## Review, 17 November 2026
+
+Every row and figure above was read again against the raw FDA list and the openFDA records for P250027 and DEN230008,
+and all of them match. Four things were changed in review:
+
+- **Guardant360 Liquid CDx was not in any "Tests that measure it" box.** The draft linked the record through
+  `readout-test-records.ts` alone, which the gap audit counts as a test shown only under Connected: eight new hub
+  findings, one per readout. It now has a row in `src/data/assays.ts`, an entry in `src/data/assay-records.ts`, and
+  is in the `assays` of the eight readouts.
+- **The gap audit read SP142 and SP263 as one product** once both were on `pd-l1-tc-score`, because `sameProduct`
+  dropped the brackets before comparing. They are two antibody clones with separate FDA rows; the function now keeps
+  names apart when only their brackets differ, as class 6 already did.
+- **The BRACAnalysis CDx row on `hrr-gene-mutation`** now says "(BRCA1 and BRCA2 only)", which is what the FDA
+  row's biomarker column reads; the readout covers a wider gene list.
+- **`FDA_CDX_URL`** points at the list's new address; the old one answers 301.
+
+Gap audit: 193 findings on main, 199 with the draft as written, 190 after review; no class is higher than on main.
+Link-sense audit: 1386 on all three. Still open: ONCO/Reveal Dx and CRCDx RAS have no row in the tests box of
+`kras-g12d`, `egfr-exon-19-deletion`, `egfr-l858r` or `ras-wild-type` (four findings that the draft moved from one
+hub rule to another without closing them, and two on `ras-wild-type` that were already there), and `src/data/assays.ts` and `src/data/tests-cdx-devices.ts` each hold their own copy of the old
+list address.

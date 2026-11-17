@@ -84,8 +84,9 @@ export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
   ],
   "hrr-gene-mutation": [
     cdx("FoundationOne Liquid CDx", "Foundation Medicine, Inc.", "Metastatic Castrate Resistant Prostate cancer (mCRPC)-Plasma", ["talazoparib","enzalutamide"], "P190032/S029 (05/27/2026)", "foundation-medicine"),
-    // Added 17 November 2026 from the FDA list (same row is on brca-germline): the germline test for olaparib's mCRPC indication.
-    cdx("BRACAnalysis CDx", "Myriad Genetic Laboratories, Inc.", "Metastatic Castrate Resistant Prostate Cancer (mCRPC) - Whole Blood", ["olaparib"], "P140020/S020 (05/19/2020)", "myriad-genetics"),
+    // Added 17 November 2026 from the FDA list (same row is on brca-germline): the whole-blood test for olaparib's mCRPC indication.
+    // The row's biomarker column reads "BRCA1 and BRCA2", not the wider gene list this readout covers, so the indication says so.
+    cdx("BRACAnalysis CDx", "Myriad Genetic Laboratories, Inc.", "Metastatic Castrate Resistant Prostate Cancer (mCRPC) - Whole Blood (BRCA1 and BRCA2 only)", ["olaparib"], "P140020/S020 (05/19/2020)", "myriad-genetics"),
   ],
   "kras-g12c": [
     cdx("Guardant360® Liquid CDx", "Guardant Health, Inc.", "Non-small cell lung cancer (NSCLC) - Plasma", ["sotorasib"], "P250027 (05/19/2026)", "guardant-health"),

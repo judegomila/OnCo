@@ -16,8 +16,18 @@ describe("companion diagnostic devices link to their records", () => {
     return html.slice(at, html.indexOf("</table>", at));
   };
 
-  it("links ONCO/Reveal Dx on the EGFR exon 19 deletion page, where the Tests box does not", () => {
-    expect(table("egfr-exon-19-deletion")).toMatch(/<a class="underline" href="\/drugs\/onco-reveal-dx-lung-colon\/?">ONCO\/Reveal Dx Lung &amp; Colon Cancer Assay/);
+  // Until 17 November 2026 the example here was ONCO/Reveal Dx on the EGFR exon 19 deletion page. The gap fill of that
+  // day put ONCO/Reveal Dx in that page's Tests box, so the table rightly stopped linking it; the rule is unchanged and
+  // both halves are now checked, with a device the Tests box still leaves out as the linked example.
+  it("links Oncomine Dx Express Test on the HER2 mutation page, where the Tests box does not", () => {
+    expect(table("her2-mutation")).toMatch(/<a class="underline" href="\/drugs\/oncomine-dx-express\/?">Oncomine Dx Express Test/);
+  });
+
+  it("does not link ONCO/Reveal Dx twice on the EGFR exon 19 deletion page, where the Tests box links it", () => {
+    expect(table("egfr-exon-19-deletion")).toContain('<td class="font-medium">ONCO/Reveal Dx Lung &amp; Colon Cancer Assay (O/RDx-LCCA)</td>');
+    const html = renderToStaticMarkup(createElement(BiomarkerDetail, { bm: bm("egfr-exon-19-deletion") }));
+    const tests = html.slice(html.indexOf('id="tests"'));
+    expect(tests).toMatch(/href="\/drugs\/onco-reveal-dx-lung-colon\/?"/);
   });
 
   it("does not link PD-L1 IHC 22C3 pharmDx twice on the PD-L1 CPS page", () => {

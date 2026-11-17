@@ -158,6 +158,9 @@ describe("class 6: one product twice in one list", () => {
   it("tells one product from two", () => {
     expect(sameProduct("Signatera (tumour-informed ctDNA MRD)", "Natera Signatera")).toBe(true);
     expect(sameProduct("FoundationOne CDx", "FoundationOne Liquid CDx")).toBe(false);
+    // Two antibody clones, two products: the brackets are the only place the names differ.
+    expect(sameProduct("VENTANA PD-L1 (SP142) Assay", "VENTANA PD-L1 (SP263) Assay")).toBe(false);
+    expect(sameProduct("VENTANA PD-L1 (SP263) Assay", "Ventana PD-L1 (SP263) Assay")).toBe(true);
   });
 });
 

@@ -258,7 +258,7 @@ export const targets: TargetInput[] = [
   },
   {
     id: "cldn18-2", drugs: ["lm-302", "asp2138", "m108", "ibi343", "xnw27011", "azd4360", "tac01-cldn18-2", "lcb02a", "rc118-adc", "bdc-4182", "lb4330", "spevatamig", "azd5863"], kind: "target", name: "Claudin 18.2", symbol: "CLDN18", hgnc: "HGNC:2039", ensembl: "ENSG00000066405", uniprot: "P56856", entrez: "51208", targetClass: "surface-antigen", asOf, wikipedia: W("CLDN18"),
-    tldr: "A tight-junction protein normally hidden in the stomach lining that becomes exposed in gastric and pancreatic cancers.",
+    tldr: "A tight-junction protein normally hidden in the stomach lining that becomes exposed in gastric and pancreatic cancers. As a gastric cancer target it now has an approved antibody (zolbetuximab), a CAR-T approved in China (satri-cel, June 2026) and an ADC with a phase 3 result.",
     summary: "CLDN18.2 is normally buried in tight junctions of gastric mucosa; malignant transformation exposes it on the cell surface. Zolbetuximab (Vyloy) is approved with chemotherapy in CLDN18.2-positive gastric cancer. ADCs (CMG901/AZD0901, XNW27011), CAR-T (satricabtagene autoleucel, CT041), and bispecifics are in late-stage development.",
     biology: "Splice isoform 18.2; expressed in ~30-40% of gastric/GEJ adenocarcinomas and a subset of pancreatic ductal adenocarcinoma.",
     whereFound: ["Gastric/GEJ adenocarcinoma", "Pancreatic ductal adenocarcinoma", "Biliary"],

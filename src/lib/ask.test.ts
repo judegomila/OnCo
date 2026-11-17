@@ -510,7 +510,7 @@ describe("Ask OnCo end to end", () => {
     // 16 Nov 2026, a contributor's teaching-concept batch (pull requests 417, 418, 420 and the data of 375: 215 new
     // records and about 530 revised). No ranking change and no floor change. The rubric falls from 0.6825 and stays
     // above its 0.66 floor; which rewritten answers lost rubric points has not been traced question by question.
-    { date: "2026-11-16", recall: 0.4365, note: "contributor teaching-concept batch merged; extractive rubric 0.6715; both floors unchanged" },
+    { date: "2026-11-16", recall: 0.4365, note: "contributor teaching-concept batch merged; extractive rubric 0.6765; both floors unchanged" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

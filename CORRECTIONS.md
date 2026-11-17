@@ -1,5 +1,11 @@
 # Corrections
 
+### Shasqi, 16 November 2026
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-16 | [Shasqi](/companies/shasqi/) | Said SQ3370 had completed its first-in-human study and that the company continues clinical development | ClinicalTrials.gov NCT04106492 (terminated, results posted 14 November 2025), the investigators' medRxiv preprint and the company's June 2025 description of itself as preclinical | The record now says the trial was stopped because its prespecified response criterion was not met, gives the pipeline as the company publishes it, and carries sourced financing and grants |
+
 ### Therapy and conjugate source follow-up, 11 November 2026
 
 | Date | Entity | What was wrong | How found | Fix |

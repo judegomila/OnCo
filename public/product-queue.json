@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "branch": "product/country-wave-14",
+    "why": "country deep dives, wave 14 (16 countries)",
+    "pr": "https://github.com/judegomila/OnCo/pull/424",
+    "preview": "",
+    "files": 88,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  },
+  {
+    "branch": "product/country-wave-16",
+    "why": "country deep dives, wave 16 (16 countries and territories)",
+    "pr": "https://github.com/judegomila/OnCo/pull/425",
+    "preview": "",
+    "files": 94,
+    "proposed": "2026-11-17",
+    "state": "waiting"
+  }
+]

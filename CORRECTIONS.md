@@ -540,6 +540,15 @@ Earlier review passes reported these faults and left them unfixed. Each was read
 | 2026-11-16 | [IPO Lisboa](/institutions/ipo-lisboa/) | Said it hosts Portugal's southern regional cancer registry | Lei n.º 53/2017 read (Diário da República PDF): the regional registries' data were integrated into the Registo Oncológico Nacional from 1 January 2018 | Reworded and linked to the national registry |
 | 2026-11-16 | [Triple-negative breast cancer](/cancers/tnbc/) | Gave a mean age of 44.8 for 507 women in Nigeria and Senegal; the figure is for the first cohort of 378 | Huo et al., J Clin Oncol 2009, doi 10.1200/jco.2008.19.6873, abstract read through Europe PMC | Wording corrected; the second cohort of 129 named |
 
+### Country deep dives, wave 15
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-16 | [Sir Ketumile Masire Teaching Hospital](/institutions/sir-ketumile-masire-teaching-hospital/) | Said the minister expected the radiotherapy centre to reduce government spending "on cancer care abroad". The UN in Botswana's page quotes him as saying it will "reduce government spending in health care for cancer patients"; "abroad" is not in the source | Country deep dives, wave 15: the source was re-read in raw text while writing the Botswana page | The sentence now gives the source's wording |
+| 2026-11-17 | [Eswatini National Cancer Registry](/institutions/eswatini-national-cancer-registry/) | Said, in the present tense, that every hospital and laboratory "must report cases to it". That rests on a page last updated in May 2017; the Ministry of Health's plan for 2025 to 2029 says "Cancer not legally notifiable" | Country deep dives, wave 15, second accuracy pass: the African Cancer Registry Network page and the plan were re-read in raw text | The short summary now dates the reporting requirement and gives the plan's statement beside it, with a link to the plan |
+| 2026-11-17 | [Indira Gandhi Memorial Hospital](/institutions/igmh-maldives/) | Called it "the government's tertiary hospital". The hospital's own page says it is "the largest government healthcare facility, providing tertiary level healthcare" | Country deep dives, wave 15, second accuracy pass: the hospital's page re-read in raw text | Reworded to the hospital's own description, on the record and in the Maldives search line |
+| 2026-11-17 | [Brunei Darussalam Cancer Registry](/institutions/brunei-darussalam-cancer-registry/) | Said OnCo had read no page describing who runs the registry. The Ministry of Health's departments page lists national cancer registry management under the Epidemic Intelligence and Response Unit of the Brunei Centre for Disease Control and Prevention | Country deep dives, wave 15, second accuracy pass: the ministry's page read in raw text | The sentence now says what the page and the 2023 registry paper state, with a link |
+
 ## 2026-11-08
 
 ### Systematic public-education coverage audit: cell controls and recognition formats

@@ -320,6 +320,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     tldr: "Namibia's health ministry. Its Windhoek Central Hospital houses the public cancer centre, and it works with the Cancer Association of Namibia, which runs the national cancer registry.",
     summary: "The Ministry of Health and Social Services runs Namibia's state hospitals. The African Cancer Registry Network's undated page on the Namibian registry describes the ministry's oncology clinic taking part in founding the registry in 1995, the Dr A.B. May Cancer Care Centre within the state Central Hospital in Windhoek, a cancer centre at Oshakati Intermediate Hospital, and the state National Institute of Pathology; it says the registry and the Cancer Association were asking the ministry to make cancer a reportable disease. The ministry's website (mhss.gov.na) refused a plain request in November 2026. The coordinates are an approximate city point for Windhoek.",
     institutions: ["windhoek-central-hospital-oncology", "namibia-national-cancer-registry", "namibia-oncology-centre", "cancer-association-of-namibia"],
+    keyPapers: ["paper-korn-cervical-screen-and-treat-namibia-plosone-2022", "paper-stefan-childhood-cancer-incidence-namibia-pamj-2014"],
     links: [{ label: "African Cancer Registry Network: Namibian National Cancer Registry", url: AFCRN_NA }] }),
 
   i({ id: "windhoek-central-hospital-oncology", name: "Dr A.B. May Cancer Care Centre, Windhoek Central Hospital", aka: ["Windhoek Central Hospital, Radiation Oncology Department", "Dr AB May Cancer Care Centre"],
@@ -328,6 +329,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     summary: "The Dr A.B. May Cancer Care Centre is part of Windhoek Central Hospital, one of Namibia's two large state hospitals. The African Cancer Registry Network's page says that cancer patients, private or state, are supposed to be sent to it or to the Namibia Oncology Centre for assessment and possible treatment, that its admissions nurses complete the registry's forms, and that its staff help the registry with data input. IAEA DIRAC, with the entry updated in 2024, lists the hospital's radiation oncology department with two cobalt-60 units, brachytherapy and a CT scanner. The coordinates are DIRAC's.",
     programs: ["Radiotherapy (two cobalt-60 units in IAEA DIRAC)", "Brachytherapy"],
     institutions: ["namibia-ministry-of-health", "namibia-national-cancer-registry"],
+    keyPapers: ["paper-boucheron-breast-cancer-journey-namibia-jamanetwopen-2023", "paper-kaholongo-paediatric-cancer-windhoek-plosone-2023"],
     links: [{ label: "African Cancer Registry Network: Namibian National Cancer Registry", url: AFCRN_NA }, DIRAC_L] }),
 
   i({ id: "namibia-oncology-centre", name: "Namibia Oncology Centre (NOC)", aka: ["NOC", "Namibia Oncology Centre Windhoek"],
@@ -360,6 +362,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     tldr: "Botswana's health ministry. It runs all public health facilities, keeps the national cancer registry, and opened the country's public radiotherapy centre in 2023.",
     summary: "The African Cancer Registry Network's page on Botswana says all public health facilities are under the Ministry of Health, which set up the national cancer registry in 1999 within its Non-Communicable Diseases Programme in the Department of Public Health. The minister, Edwin Dikoloti, opened the radiotherapy centre at Sir Ketumile Masire Teaching Hospital on 27 July 2023. The Botswana Medicines Regulatory Authority is a statutory body under the ministry. The coordinates are an approximate city point for Gaborone.",
     institutions: ["botswana-national-cancer-registry", "sir-ketumile-masire-teaching-hospital", "bomra-botswana", "gaborone-private-hospital", "village-oncology-gaborone", "cancer-association-of-botswana"],
+    keyPapers: ["paper-grover-cervical-cancer-stage-outcomes-botswana-gore-2022", "paper-ramogola-masire-see-and-treat-botswana-jaids-2012", "paper-swart-public-oncology-centres-botswana-jcogo-2024", "paper-martei-essential-cancer-medicines-botswana-jgo-2018"],
     links: [
       { label: "Ministry of Health, Botswana", url: MOH_BW },
       { label: "African Cancer Registry Network: Botswana National Cancer Registry", url: AFCRN_BW },
@@ -372,12 +375,13 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     summary: "The African Cancer Registry Network's page says the Ministry of Health set up the Botswana National Cancer Registry in 1999, with help from the International Association of Cancer Registries, to measure cancer incidence and its distribution, identify risk factors and evaluate cancer control. Its first report, in 2005, counted 2,000 malignant cancers registered from 1986 to 2004 (56.7 per cent in women), and the page gives more than 16,000 cases by 2012. It is population-based, collecting cases from referral and district hospitals through notification, laboratory and death certificate forms, hospital discharge abstracts, the Integrated Patient Management System and interviews in oncology clinics, and is staffed within the Non-Communicable Diseases Programme. The coordinates are an approximate city point for Gaborone.",
     programs: ["Population-based cancer registration for Botswana (from 1999)", "African Cancer Registry Network member registry"],
     institutions: ["botswana-ministry-of-health"], related: ["cancer-registries-surveillance"],
+    keyPapers: ["paper-mathoma-cancer-incidence-hiv-botswana-cancers-2025", "paper-dryden-peterson-cancer-incidence-art-botswana-plosone-2015"],
     links: [{ label: "African Cancer Registry Network: Botswana National Cancer Registry", url: AFCRN_BW }, AFCRN_L] }),
 
   i({ id: "sir-ketumile-masire-teaching-hospital", name: "Sir Ketumile Masire Teaching Hospital (SKMTH)", aka: ["SKMTH", "Sir Ketumile Masire Teaching Hospital Gaborone"],
     city: "Gaborone", country: "BW", lat: -24.628, lng: 25.923, institutionType: "hospital",
     tldr: "A public teaching hospital in Gaborone whose radiotherapy centre, opened in 2023 with help from the International Atomic Energy Agency, treats cancer patients from Botswana and neighbouring countries.",
-    summary: "The radiotherapy centre at Sir Ketumile Masire Teaching Hospital in Gaborone was opened by the Minister of Health, Edwin Dikoloti, on 27 July 2023, with IAEA support including its Rays of Hope initiative; the UN in Botswana described it as the country's first public radiotherapy centre. The minister said it would reduce government spending on cancer care abroad and waiting times, and serve patients from Zambia, Zimbabwe, Lesotho, Mozambique and elsewhere, as well as teaching and research. IAEA DIRAC, with the entry updated in 2025, lists one linear accelerator and brachytherapy. The coordinates are DIRAC's.",
+    summary: "The radiotherapy centre at Sir Ketumile Masire Teaching Hospital in Gaborone was opened by the Minister of Health, Edwin Dikoloti, on 27 July 2023, with IAEA support including its Rays of Hope initiative; the UN in Botswana described it as the country's first public radiotherapy centre. The minister said it would reduce government spending on health care for cancer patients and waiting times, and serve patients from Zambia, Zimbabwe, Lesotho, Mozambique and elsewhere, as well as teaching and research. IAEA DIRAC, with the entry updated in 2025, lists one linear accelerator and brachytherapy. The coordinates are DIRAC's.",
     programs: ["Radiotherapy (one linear accelerator in IAEA DIRAC, from July 2023)", "Brachytherapy"],
     institutions: ["botswana-ministry-of-health", "iaea"],
     links: [{ label: "UN in Botswana: Botswana opens its first public radiotherapy centre, with IAEA support (August 2023)", url: UN_BW }, DIRAC_L] }),
@@ -442,7 +446,8 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     city: "Maseru", country: "LS", lat: -29.31, lng: 27.478, institutionType: "government",
     tldr: "Lesotho's health ministry. The health minister said in 2025 that Lesotho pays for people with cancer to be treated in Bloemfontein, South Africa, including radiotherapy, at about 250,000 maloti a patient.",
     summary: "The Namibian's investigative unit reported in March 2025 that the health minister, Selibe Mochoboroane, said Lesotho pays M250,000 per patient for cancer treatment, including radiotherapy, in Bloemfontein, South Africa, and that the ministry's principal secretary said in a June 2024 affidavit, in a dispute over a tender for a cancer treatment facility, that the treatment debt to South African hospitals stood at M148 million and had not been paid. Chemotherapy is given in Lesotho at the Senkatana Oncology Clinic in Maseru. The ministry's website (health.gov.ls) did not answer in November 2026. The coordinates are an approximate city point for Maseru.",
-    institutions: ["senkatana-oncology-clinic", "action-against-cancer-lesotho"],
+    institutions: ["senkatana-oncology-clinic", "action-against-cancer-lesotho", "lesotho-medicines-regulatory-authority"],
+    keyPapers: ["paper-zbelo-routine-hpv-vaccination-lesotho-bmjph-2026", "paper-wassie-cervical-screening-lesotho-dhs-bmcph-2025"],
     links: [{ label: "The Namibian: Lesotho's cancer burden and its soaring costs (March 2025)", url: NAMIBIAN_LS }] }),
 
   i({ id: "senkatana-oncology-clinic", name: "Senkatana Oncology Clinic", aka: ["Senkatana Centre of Excellence", "Senkatana"],
@@ -451,6 +456,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     summary: "The Senkatana Oncology Clinic is at the Botshabelo complex in Maseru. The Namibian reported in March 2025 that it was established in 2020 with Bristol Myers Squibb Foundation Global Cancer Disparities funding and that patients needing more complex treatment are transported to Bloemfontein. The foundation reported that the first chemotherapy infusion given within Lesotho was given at Senkatana in July 2022, and that it provides in-service training for pharmacists and oncology nurses there. The coordinates are an approximate city point for Maseru.",
     programs: ["Chemotherapy (from July 2022)"],
     institutions: ["lesotho-ministry-of-health"],
+    keyPapers: ["paper-ramathebane-barriers-cancer-services-lesotho-sajo-2024", "paper-sooro-traditional-medicine-senkatana-bmccmt-2024", "paper-sefuthi-patient-costs-cervical-screening-lesotho-fph-2026"],
     links: [
       { label: "Bristol Myers Squibb Foundation via 3BL Media: cancer care milestone reached in Lesotho (December 2022)", url: BMSF_LS },
       { label: "The Namibian: Lesotho's cancer burden and its soaring costs (March 2025)", url: NAMIBIAN_LS },
@@ -470,7 +476,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     tldr: "Eswatini's health ministry. It re-established the national cancer registry in 2015, screens for cervical and breast cancer at primary care clinics, and in 2017 referred most people needing cancer treatment to South Africa.",
     summary: "The IAEA's summary of its imPACT review of Eswatini (then Swaziland), published in October 2017, says the country set up a cancer registry in 2015 and began cervical and breast cancer screening at 80 primary care clinics; that only minor cancer surgery was done at three public hospitals and basic chemotherapy for a few cancers at Mbabane Government Hospital; and that with no radiotherapy, the government referred most cancer patients to South Africa. The health minister said the ministry would develop a national cancer control plan and planned a cancer control unit. The African Cancer Registry Network's page says the ministry re-established the registry in August 2015. The government's website (gov.sz) did not answer in November 2026. The coordinates are an approximate city point for Mbabane.",
     programs: ["Cervical and breast cancer screening at primary care clinics"],
-    institutions: ["eswatini-national-cancer-registry", "mbabane-government-hospital", "iaea"], cancers: ["cervical", "breast-cancer"],
+    institutions: ["eswatini-national-cancer-registry", "mbabane-government-hospital", "iaea", "manzini-oncology-unit"], cancers: ["cervical", "breast-cancer"],
     links: [
       { label: "IAEA: imPACT review, Eswatini (August 2017, PDF)", url: IMPACT_SZ },
       { label: "African Cancer Registry Network: Eswatini National Cancer Registry", url: AFCRN_SZ },
@@ -478,18 +484,19 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
 
   i({ id: "eswatini-national-cancer-registry", name: "Eswatini National Cancer Registry", aka: ["Swaziland National Cancer Registry", "SNCR"],
     city: "Mbabane", country: "SZ", lat: -26.326, lng: 31.145, institutionType: "research-institute", website: AFCRN_SZ,
-    tldr: "Eswatini's national cancer registry, re-established by the Ministry of Health in 2015. Every hospital and laboratory that diagnoses or treats cancer must report cases to it.",
+    tldr: "Eswatini's national cancer registry, re-established by the Ministry of Health in 2015. Reporting requirements set in October 2015 oblige hospitals and laboratories to make their data available, according to a 2017 page; the Ministry's plan for 2025 to 2029 says cancer is not legally notifiable.",
     summary: "The African Cancer Registry Network's page (updated May 2017) says the Ministry of Health re-established a cancer registry in August 2015 and made it a national registry, and in October 2015 set reporting requirements obliging all public and private hospitals and laboratories that diagnose or treat cancer to make data available. It aims to record every cancer diagnosed among residents, including site, stage and treatment, finding cases actively in hospitals, pathology and radiology reports, oncology reports, death certificates and chemotherapy units, and enters data in CanReg5. The coordinates are an approximate city point for Mbabane.",
     programs: ["National cancer registration (from 2015)", "African Cancer Registry Network member registry"],
     institutions: ["eswatini-ministry-of-health"], related: ["cancer-registries-surveillance"],
-    links: [{ label: "African Cancer Registry Network: Eswatini National Cancer Registry", url: AFCRN_SZ }, AFCRN_L] }),
+    keyPapers: ["paper-msibi-cervical-cancer-survival-eswatini-pgph-2026", "paper-vilakati-early-onset-cervical-cancer-eswatini-canep-2026"],
+    links: [{ label: "African Cancer Registry Network: Eswatini National Cancer Registry", url: AFCRN_SZ }, AFCRN_L, { label: "Ministry of Health: National Cancer Control Strategic Plan 2025-2029 (PDF, ICCP portal)", url: "https://www.iccp-portal.org/sites/default/files/2026-03/Final%20NCCU%20Strategic%20Plan%20Document.pdf" }] }),
 
   i({ id: "mbabane-government-hospital", name: "Mbabane Government Hospital", aka: ["Mbabane National Hospital"],
     city: "Mbabane", country: "SZ", lat: -26.331, lng: 31.144, institutionType: "hospital",
     tldr: "The main public hospital in Eswatini's capital, where a cancer unit giving chemotherapy was set up in 2016 and 2017 with help from the Uganda Cancer Institute.",
     summary: "The IAEA's 2017 imPACT summary says basic chemotherapy for a few cancers was available at Mbabane Government Hospital, with no radiotherapy in the country. An ehospice report by the African Palliative Care Association describes a partnership of the association, the American Cancer Society, the Ministry of Health and the Uganda Cancer Institute that, from December 2016 to December 2017, supported the start and running of a cancer unit at the hospital through expert exchange visits and mentoring. The coordinates are the OpenStreetMap point for the hospital.",
     programs: ["Cancer unit with chemotherapy (from 2017)"],
-    institutions: ["eswatini-ministry-of-health", "uganda-cancer-institute"],
+    institutions: ["eswatini-ministry-of-health", "uganda-cancer-institute", "manzini-oncology-unit"],
     links: [
       { label: "ehospice: the role of South-to-South partnerships in developing cancer services in Africa", url: EHOSPICE_SZ },
       { label: "IAEA: imPACT review, Eswatini (August 2017, PDF)", url: IMPACT_SZ },
@@ -523,6 +530,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     summary: "The African Cancer Registry Network's page says the Mauritius National Cancer Registry was set up in 1993 as a pathology-based registry at the Central Health Laboratory of Victoria Hospital, published its first report in 1999 (data from 1989 to 1996), and became population-based in 2001. It covers the whole Republic of Mauritius, including Rodrigues and the outer islands (1,260,767 people in 2023), uses CanReg5, has been an AFCRN member since 2013, and its data were included in volume 12 of Cancer Incidence in Five Continents (2024). Cases rose from 1,394 in 2001 to 2,841 in 2023; in 2023 the commonest cancers were prostate in men (age-standardised incidence 23.4 per 100,000) and breast in women (65.7 per 100,000). It sits in the Ministry of Health and Wellness at the NeXsky Building in Ebene. The coordinates are an approximate point for Ebene.",
     programs: ["Population-based cancer registration for Mauritius and Rodrigues (from 2001)", "African Cancer Registry Network member registry"],
     institutions: ["mauritius-ministry-of-health", "mauritius-national-cancer-centre", "iarc"], cancers: ["breast-cancer", "prostate"], related: ["cancer-registries-surveillance"],
+    keyPapers: ["paper-koon-sun-pat-mauritius-cancer-trends-canep-2019", "paper-koon-sun-pat-mauritius-breast-survival-ijc-2025"],
     links: [{ label: "African Cancer Registry Network: Mauritius National Cancer Registry", url: AFCRN_MU }, AFCRN_L] }),
 
   i({ id: "mauritius-pharmacy-board", name: "Pharmacy Board, Mauritius", aka: ["Pharmacy Board of Mauritius"],

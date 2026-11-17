@@ -74,6 +74,9 @@ const GCO_SLUG: Record<number, string> = {
   // 2022 sheet, and "132-cabo-verde" and "178-congo" answer 403.
   694: "sierra-leone", 430: "liberia", 768: "togo", 204: "benin", 270: "the-republic-of-the-gambia", 624: "guinea-bissau", 478: "mauritania", 132: "cape-verde",
   678: "sao-tome-and-principe", 266: "gabon", 178: "congo-republic-of", 140: "central-african-republic", 226: "equatorial-guinea", 108: "burundi", 728: "south-sudan", 232: "eritrea",
+  // Wave 15 (16 November 2026): each answered with the GLOBOCAN 2024 PDF that day. Laos and Brunei use IARC's formal names.
+  516: "namibia", 72: "botswana", 426: "lesotho", 748: "eswatini", 480: "mauritius", 174: "comoros", 262: "djibouti", 462: "maldives",
+  64: "bhutan", 418: "lao-peoples-democratic-republic", 626: "timor-leste", 96: "brunei-darussalam", 417: "kyrgyzstan", 762: "tajikistan", 795: "turkmenistan", 558: "nicaragua",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -282,4 +285,23 @@ export const countryExtras: Record<string, CountryExtra> = {
   BI: { name: "Burundi", population: 14, incidence: 113, mortality: 76, gcoUrl: gco(108) },
   SS: { name: "South Sudan", population: 11.9, incidence: 108, mortality: 73, gcoUrl: gco(728) },
   ER: { name: "Eritrea", population: 3.5, incidence: 111, mortality: 73, gcoUrl: gco(232) },
+  // Wave 15 (16 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day) to one decimal, as most of these countries are small.
+  // No funder is given; each country page names who pays.
+  NA: { name: "Namibia", population: 3.0, incidence: 202, mortality: 127, gcoUrl: gco(516) },
+  BW: { name: "Botswana", population: 2.5, incidence: 165, mortality: 92, gcoUrl: gco(72) },
+  LS: { name: "Lesotho", population: 2.3, incidence: 135, mortality: 89, gcoUrl: gco(426) },
+  SZ: { name: "Eswatini", population: 1.2, incidence: 114, mortality: 72, gcoUrl: gco(748) },
+  MU: { name: "Mauritius", population: 1.2, incidence: 148, mortality: 68, gcoUrl: gco(480) },
+  KM: { name: "Comoros", population: 0.9, incidence: 87, mortality: 56, gcoUrl: gco(174) },
+  DJ: { name: "Djibouti", population: 1.2, incidence: 107, mortality: 72, gcoUrl: gco(262) },
+  MV: { name: "Maldives", population: 0.5, incidence: 113, mortality: 80, gcoUrl: gco(462) },
+  BT: { name: "Bhutan", population: 0.8, incidence: 83, mortality: 62, gcoUrl: gco(64) },
+  LA: { name: "Laos", population: 7.8, incidence: 132, mortality: 93, gcoUrl: gco(418) },
+  TL: { name: "Timor-Leste", population: 1.4, incidence: 148, mortality: 97, gcoUrl: gco(626) },
+  BN: { name: "Brunei", population: 0.5, incidence: 167, mortality: 95, gcoUrl: gco(96) },
+  KG: { name: "Kyrgyzstan", population: 7.2, incidence: 138, mortality: 81, gcoUrl: gco(417) },
+  TJ: { name: "Tajikistan", population: 10.6, incidence: 106, mortality: 67, gcoUrl: gco(762) },
+  TM: { name: "Turkmenistan", population: 7.5, incidence: 116, mortality: 70, gcoUrl: gco(795) },
+  NI: { name: "Nicaragua", population: 6.9, incidence: 146, mortality: 80, gcoUrl: gco(558) },
 };

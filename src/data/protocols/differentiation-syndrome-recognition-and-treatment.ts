@@ -227,7 +227,6 @@ export const differentiationSyndromeRecognitionAndTreatment = protocol({
     { key: "eln-aml-2022", label: "Diagnosis and management of AML in adults: 2022 recommendations from an international expert panel on behalf of the ELN", publisher: "Blood (Döhner et al., European LeukemiaNet)", year: 2022, url: "https://doi.org/10.1182/blood.2022016867", doi: "10.1182/blood.2022016867", read: "abstract", accessed: "2026-11-16" },
   ],
   drugs: ["ivosidenib", "enasidenib", "olutasidenib", "gilteritinib", "revumenib", "ziftomenib", "tretinoin-atra", "arsenic-trioxide"],
-  regimens: ["atra-ato"],
   cancers: [],
   terms: ["differentiation-syndrome", "tumor-lysis-syndrome"],
   related: ["tumour-lysis-syndrome-prevention-and-treatment", "hyperleukocytosis-leukostasis", "capillary-leak-syndrome-on-anticancer-drugs", "febrile-neutropenia-first-hour", "dexamethasone", "hydroxyurea"],

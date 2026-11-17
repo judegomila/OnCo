@@ -505,8 +505,8 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   // ── Guam (GU) ────────────────────────────────────────────────────────────────────────────────────────────────
   i({ id: "guam-regional-medical-city", name: "Guam Regional Medical City", aka: ["GRMC"],
     city: "Dededo", country: "GU", lat: 13.526, lng: 144.823, institutionType: "hospital", website: "https://www.grmc.gu",
-    tldr: "A hospital in Dededo, Guam, that treats cancer in children and adults with chemotherapy, other drug treatments and radiotherapy from a linear accelerator, and runs a lung cancer screening programme.",
-    summary: "Guam Regional Medical City's site describes a medical oncology service offering chemotherapy, targeted therapy, immunotherapy and hormone therapy with survivorship care, and a radiation oncology department with a TrueBeam linear accelerator delivering treatments including intensity-modulated radiation therapy and stereotactic radiosurgery. It says it diagnoses and treats cancer in both children and adults, and runs a lung cancer screening programme. Its address is 133 Route 3, Dededo. Coordinates are Nominatim's.",
+    tldr: "A hospital in Dededo, Guam, that treats cancer with chemotherapy, other drug treatments and radiotherapy from a linear accelerator, and runs a lung cancer screening programme.",
+    summary: "Guam Regional Medical City's site describes a medical oncology service offering chemotherapy, targeted therapy, immunotherapy and hormone therapy with survivorship care, and a radiation oncology department with a TrueBeam linear accelerator delivering treatments including intensity-modulated radiation therapy and stereotactic radiosurgery. It also runs a lung cancer screening programme. Its oncology pages, read on 17 November 2026, do not say whether it treats children. Its address is 133 Route 3, Dededo. Coordinates are Nominatim's.",
     programs: ["Medical oncology", "Radiation oncology (TrueBeam linear accelerator)", "Lung cancer screening programme"],
     institutions: ["guam-cancer-registry", "guam-memorial-hospital"],
     cancers: ["lung-cancer"],

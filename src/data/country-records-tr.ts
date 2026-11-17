@@ -39,6 +39,8 @@ const institutions: InstitutionInput[] = [
       { label: "Kanser Dairesi Başkanlığı: görev tanımı (Internet Archive copy, 15 October 2025)", url: "https://web.archive.org/web/20251015130710/https://hsgm.saglik.gov.tr/tr/baskanligimiz-kanser/gorev-tanimi.html" },
       { label: "Kanser Dairesi Başkanlığı: iletişim (Internet Archive copy, 15 October 2025)", url: "https://web.archive.org/web/20251015130739/https://hsgm.saglik.gov.tr/tr/iletisim-kanserdb.html" },
       { label: "Türkiye Kanser İstatistikleri 2020 (PDF, Internet Archive copy)", url: STATS_2020 },
+      { label: "Türkiye Kanser İstatistikleri 2019 (PDF, Internet Archive copy)", url: "https://web.archive.org/web/2025/https://hsgm.saglik.gov.tr/depo/birimler/kanser-db/Dokumanlar/Istatistikler/Turkiye_Kanser_Istatistikleri_2019.pdf" },
+      { label: "Turkey Cancer Control Programme, 18 April 2022 (PDF, Internet Archive copy)", url: "https://web.archive.org/web/2025/https://hsgm.saglik.gov.tr/depo/birimler/kanser-db/Dokumanlar/Raporlar/Turkey_NCCP_18_April_2022.pdf" },
       { label: "Kanser Taramaları (Internet Archive copy, 7 November 2025)", url: SCREENING },
       { label: "KETEM adresleri (Internet Archive copy, 8 October 2025)", url: "https://web.archive.org/web/20251008092847/https://hsgm.saglik.gov.tr/tr/ketem.html" },
     ] }),
@@ -53,6 +55,7 @@ const institutions: InstitutionInput[] = [
     links: [
       { label: "Sosyal Güvenlik Kurumu Sağlık Uygulama Tebliği (mevzuat.gov.tr)", url: SUT },
       { label: "Sosyal Güvenlik Kurumu Genel Sağlık Sigortası Alternatif Geri Ödeme Yönetmeliği (Resmî Gazete, 12 May 2023)", url: "https://www.resmigazete.gov.tr/eskiler/2023/05/20230512-32.htm" },
+      { label: "SGK: Bedeli Ödenecek İlaçlar Listesi duyurusu 2026/43 (4 November 2026)", url: "https://www.sgk.gov.tr/duyuru/detay/Bedeli-Odenecek-Ilaclar-Listesinde-Yapilan-Duzenlemeler-Hakkinda-Duyuru-202643-2026-11-04-06-22-08" },
       { label: "Sosyal Güvenlik Kurumu", url: "https://www.sgk.gov.tr" },
     ] }),
 

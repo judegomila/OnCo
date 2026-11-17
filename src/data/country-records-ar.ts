@@ -55,6 +55,7 @@ const institutions: InstitutionInput[] = [
     programs: ["Regulation of the obras sociales of the national health insurance system", "Fondo Solidario de Redistribución", "SURGE reimbursements for high-cost and prolonged treatments (Resolution 731/2023)"],
     institutions: ["pami-argentina", "conetec-argentina", "anmat"],
     links: [
+      { label: "Decreto 1615/1996, creating the Superintendencia de Servicios de Salud (argentina.gob.ar)", url: "https://www.argentina.gob.ar/normativa/nacional/decreto-1615-1996-41312/texto" },
       { label: "SSSalud: Resolución 731/2023 creating SURGE (e-legis copy of the Boletín Oficial, PDF)", url: SSS_731 },
       { label: "SSSalud: Sistema Único de Reintegro (SUR + SURGE), transfers by year", url: SSS_SUR },
       { label: "Ministerio de Salud: Resolución 310/2004, Programa Médico Obligatorio (PDF)", url: RES_310 },

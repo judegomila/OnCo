@@ -9,7 +9,8 @@ import type { CountryDive } from "@/data/country-dive";
  * maturity level 3 and 4 (August 2026, PDF text), WHO's release of 8 September 2026 on the HPV vaccine launch, WHO's
  * vaccine introduction, HPV coverage and Global Health Expenditure Database rows from its public data APIs, IAEA DIRAC's
  * public equipment data, and the papers' abstracts through Europe PMC. Where a figure could not be read it is named
- * under `gaps`.
+ * under `gaps`. Second accuracy pass on 16 November 2026: IAEA's directory feed and WHO's HPV coverage rows (broad
+ * antigen filter) were re-read that day, and the wording of several cards was brought back to what the sources say.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/598-papua-new-guinea-fact-sheet.pdf";
 const NDOH = "https://www.health.gov.pg/";
@@ -19,7 +20,7 @@ const PSSB = "https://www.health.gov.pg/subindex.php?pharm=1";
 const MCA_1999 = "https://www.health.gov.pg/param_pdf/M%26CA1999.pdf";
 const WHO_ML = "https://www.who.int/publications/m/item/list-of-nras-operating-at-ml3-and-ml4";
 const WHO_HPV_LAUNCH = "https://www.who.int/papuanewguinea/news/detail/08-09-2026-papua-new-guinea-launches-hpv-vaccination-to-protect-girls-from-cervical-cancer";
-const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'PNG'%20and%20startswith(ANTIGEN,'PRHPV')";
+const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'PNG'%20and%20contains(ANTIGEN,'HPV')";
 const WHO_INTRO_API = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20'PNG'";
 const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filter=SpatialDim%20eq%20'PNG'";
 const WHO_GOV_API = "https://ghoapi.azureedge.net/api/GHED_GGHE-DCHE_SHA2011?$filter=SpatialDim%20eq%20'PNG'";
@@ -47,7 +48,7 @@ export const PG_DIVE: CountryDive = {
   description:
     "Cancer in Papua New Guinea from its own and WHO sources: IARC's estimate of 13,908 new cancers and 7,785 deaths in 2024, made without national incidence data, oral cancer, linked to betel quid, among the commonest, one radiotherapy centre in Lae with two cobalt-60 machines, a 2013 policy of free primary care, a 2015 cancer policy, and HPV vaccination introduced in September 2026.",
   lede:
-    "Papua New Guinea's 2015 cancer policy said the cancer registry set up in the 1980s was no longer working, and IARC still has no national incidence data, so the national cancer figures are a model: 13,908 new cancers and 7,785 deaths in 2024, with breast, oral and cervical cancer the commonest. Radiotherapy is given in one place, the National Cancer Centre in Lae, and HPV vaccination for girls began in September 2026.",
+    "Papua New Guinea's 2015 cancer policy said the cancer registry in place in the 1980s was no longer working. IARC's fact sheet lists no country-specific incidence data, and its national figures are modelled: 13,908 new cancers and 7,785 deaths in 2024, with breast, oral and cervical cancer the commonest. IAEA's directory lists one radiotherapy centre, the National Cancer Centre in Lae, and HPV vaccination for girls began in September 2026.",
   globocanNote:
     "IARC's GLOBOCAN 2024 figure for Papua New Guinea is 13,908 new cancers and 7,785 deaths, an age-standardised incidence of 199.5 per 100,000 (190.1 in men, 210.8 in women) and mortality of 117.7. The fact sheet gives the country-specific incidence data source as \"No data\": incidence is national mortality estimates applied to model-based mortality-to-incidence ratios. Mortality comes from WHO national data, with national or subnational rates scaled to regional all-cancer rates. The National Department of Health's own 2015 policy estimated 10,000 to 15,000 cases a year from hospital data, said mortality was not known, and added that most cases are never recorded because people do not reach a health facility. IARC counts 510 non-melanoma skin cancers among the 13,908 (13,398 excluding them).",
   sections: [
@@ -70,9 +71,9 @@ export const PG_DIVE: CountryDive = {
           id: "no-registry",
           title: "A cancer registry from the 1980s that had stopped working by 2015",
           plain:
-            "The National Department of Health's 2015 cancer policy says a cancer registry existed in the 1980s but had not worked in recent years. It planned hospital-based registries in Lae and Port Moresby first, with a population-based registry as the long-term goal. IARC still lists no national incidence data.",
+            "The National Department of Health's 2015 cancer policy says a cancer registry existed in the 1980s but had not worked in recent years. It planned hospital-based registries in Lae and Port Moresby first, with a population-based registry as the long-term goal. IARC's 2024 fact sheet lists no country-specific incidence data.",
           detail:
-            "Section 3.2.7 of the National Cancer Control Policy, approved by the National Executive Council in 2015, says the cancer burden was being estimated from hospital data and capacity reviews, that a national population-based registry was not then feasible, and that a hospital-based registry would be set up first at the National Cancer Centre in Lae and at Port Moresby General Hospital, working with the National Health Information System. Recalculated from that system's hospital admissions, excluding benign tumours, the policy gives cervical cancer 28% of cancer admissions, oral cancer 15%, and breast and liver cancer 9% each. A childhood cancer registry has been developed at Port Moresby General Hospital with SIOP Oceania.",
+            "Section 3.2.7 of the National Cancer Control Policy, approved by the National Executive Council in 2015, says the cancer burden was being estimated from hospital data and capacity reviews, that a national population-based registry was not then feasible, and that a hospital-based registry would be set up first at the National Cancer Centre in Lae and at Port Moresby General Hospital, working with the National Health Information System. Recalculated to exclude benign tumours, the policy gives cervical cancer 28% of cancer hospital admissions, oral cancer 15%, and breast and liver cancer 9% each; it does not say which years were counted, and it credits the National Health Information System for the statistics in that section. A 2025 report says a long partnership between Port Moresby General Hospital and SIOP Oceania has helped develop a cancer registry for its childhood cancer service.",
           links: [
             { label: "National Department of Health: National Cancer Control Policy 2015, sections 3.1 and 3.2.7 (PDF)", url: NCCP_2015 },
             { label: "Raj et al., childhood cancer care in Papua New Guinea (J Glob Health 2025)", url: RAJ_2025 },
@@ -105,8 +106,8 @@ export const PG_DIVE: CountryDive = {
         },
         {
           id: "pg-admissions",
-          title: "Share of cancer hospital admissions, from the National Health Information System",
-          caption: "Percentage of cancer admissions, excluding benign tumours, as given in the 2015 National Cancer Control Policy. The policy does not state the years counted.",
+          title: "Share of cancer hospital admissions, as given in the 2015 cancer policy",
+          caption: "Percentage of cancer hospital admissions, recalculated to exclude benign tumours, as given in the 2015 National Cancer Control Policy. The policy does not state the years counted; the section credits the National Health Information System for its statistics.",
           columns: [
             { key: "site", label: "Cancer" },
             { key: "share", label: "Share of cancer admissions (%)", numeric: true },
@@ -132,7 +133,7 @@ export const PG_DIVE: CountryDive = {
           id: "free-care",
           title: "Free primary care and subsidised hospital care, paid mostly by the government",
           plain:
-            "Health care in Papua New Guinea is paid for mainly by the government. A 2013 policy set out to abolish user fees at aid posts, health centres and urban clinics and to subsidise specialist care in hospitals. WHO puts out-of-pocket payment at 8.6% of health spending in 2023.",
+            "WHO's figures for 2023 show health care in Papua New Guinea paid for mainly by the government, with out-of-pocket payment at 8.6% of health spending. A 2013 policy set out to abolish user fees at aid posts, health centres and urban clinics and to subsidise specialist care in hospitals.",
           detail:
             "The Free Primary Health Care and Subsidized Specialist Services Policy, issued in 2013 to carry out the Alotau Accord, said user fees would be abolished altogether at facility levels one to three once the National Executive Council approved it, with government funds to offset the loss, and planned subsidised specialist services at district, provincial and regional hospitals and the national hospital by December 2013. WHO's Global Health Expenditure Database gives, for 2023, current health spending of about US$85 a person, 73.3% of it from government, 18.2% from external donors and 8.6% paid out of pocket. The 2015 cancer policy says the National Cancer Centre had an annual budget of under two million kina, used up by routine operations.",
           links: [
@@ -169,7 +170,7 @@ export const PG_DIVE: CountryDive = {
           plain:
             "Medicines are regulated by the Pharmaceutical Services Standards Branch of the National Department of Health, under the Medicines and Cosmetics Act 1999. When it licenses an imported medicine, the law asks it to consider whether the exporting country's regulator has registered it. Papua New Guinea is not on WHO's list of maturity level 3 or 4 regulators.",
           detail:
-            "The Department's page says the branch registers medicinal products under its Guidelines for Medicines, licenses and inspects pharmacies, importers and wholesalers, runs a medicine quality control laboratory, reports adverse drug reactions to the Uppsala Monitoring Centre, and is secretariat to the Pharmacy Board and the Medicines Evaluation Committee. Section 10 of the Act tells the licensing authority, the departmental head, to weigh a product's safety, efficacy and quality and, for imports, its registration with the licensing authority of the country it comes from. Under a memorandum with Australia running to 31 March 2021, the Therapeutic Goods Administration offered to test up to five medicine samples a year for Papua New Guinea at no charge, with cytotoxic medicines excluded; the memorandum does not say how many were tested.",
+            "The Department's page says the branch registers medicinal products under its Guidelines for Medicines, licenses and inspects pharmacies, importers and wholesalers, runs a medicine quality control laboratory, reports adverse drug reactions to the Uppsala Monitoring Centre, and is secretariat to the Pharmacy Board and the Medicines Evaluation Committee. Section 10 of the Act tells the licensing authority, the departmental head, to weigh a product's safety, efficacy and quality and, for imports, its registration with the licensing authority of the country it comes from. Under a memorandum with Australia that ran until 1 June 2021, the Therapeutic Goods Administration undertook to test five medicine samples for Papua New Guinea in each Australian financial year until 31 March 2021, at no charge, with cytotoxic medicines excluded; the memorandum does not say how many were tested.",
           links: [
             { label: "National Department of Health: Pharmaceutical Services Standards Branch", url: PSSB },
             { label: "Medicines and Cosmetics Act 1999, section 10 (PDF)", url: MCA_1999 },
@@ -189,9 +190,9 @@ export const PG_DIVE: CountryDive = {
           id: "hpv-vaccine",
           title: "HPV vaccination for girls began in September 2026, one dose, free of charge",
           plain:
-            "Papua New Guinea added HPV vaccination to its national immunisation programme on 8 September 2026. Girls aged 9 to 14 receive a single dose, free, starting in the National Capital District and Central Province in November 2026, with about 60,000 girls expected in the first phase.",
+            "Papua New Guinea added HPV vaccination to its national immunisation programme on 8 September 2026. Girls aged 9 to 14 receive a single dose. The first phase was due to begin, free of charge, in the National Capital District and Central Province in November 2026, and is expected to reach about 60,000 girls.",
           detail:
-            "The joint release by WHO and partners says the National Department of Health leads the programme with the Department of Education and the provincial health authorities, supported by the Australian Government, Gavi, WHO and UNICEF, through schools, health facilities and outreach so that girls out of school are reached. It calls cervical cancer the leading cause of cancer death in women, with over 1,000 diagnoses and about 650 deaths a year; IARC's 2024 estimate puts breast cancer deaths in women (656) slightly above cervical (635). WHO's vaccine introduction rows record no HPV introduction up to 2025, and WHO's coverage data held no HPV rows for Papua New Guinea when read on 11 November 2026, so there is no coverage figure yet. The 2015 policy had only proposed exploring the vaccine's feasibility.",
+            "The joint release by WHO and partners says the National Department of Health leads the programme with the Department of Education and the provincial health authorities, supported by the Australian Government, Gavi, WHO and UNICEF, through schools, health facilities and outreach so that girls out of school are reached. It calls cervical cancer the leading cause of cancer death in women, with over 1,000 diagnoses and about 650 deaths a year; IARC's 2024 estimate puts breast cancer deaths in women (656) slightly above cervical (635). WHO's vaccine introduction rows record no HPV introduction up to 2025. WHO's coverage data, read on 16 November 2026, holds 44 HPV rows for Papua New Guinea for 2018 to 2025 (final-dose rows for girls and for boys from 2018, first-dose rows from 2023), and none of them carries a number of doses or a coverage value. It has no figure yet for the programme begun in 2026. The 2015 policy listed introducing HPV vaccination among its objectives, and its strategy was to explore the vaccine's feasibility.",
           links: [
             { label: "WHO: Papua New Guinea launches HPV vaccination (8 September 2026)", url: WHO_HPV_LAUNCH },
             { label: "WHO: vaccine introduction rows for Papua New Guinea (API)", url: WHO_INTRO_API },
@@ -222,11 +223,11 @@ export const PG_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "One radiotherapy centre, in Lae, with two cobalt-60 machines",
           plain:
-            "IAEA's radiotherapy directory lists one centre in Papua New Guinea, the National Cancer Centre at Angau Memorial Hospital in Lae, with two cobalt-60 machines and a brachytherapy unit. Radiotherapy stopped there from 1998 until the centre was revived in 2009. Port Moresby General Hospital gives chemotherapy but not radiotherapy.",
+            "IAEA's radiotherapy directory lists one centre in Papua New Guinea, the National Cancer Centre at Angau Memorial Hospital in Lae, with two cobalt-60 machines and a brachytherapy unit. The 2015 cancer policy says radiotherapy stopped there in 1998, that the country then had none for ten years, and that the centre was revitalised in 2009. It describes Port Moresby General Hospital as giving chemotherapy but not radiotherapy.",
           detail:
-            "IAEA DIRAC's public equipment data, read on 11 November 2026, lists for Angau Memorial Hospital's National Cancer Centre two cobalt-60 teletherapy units, no linear accelerator, one remote afterloading brachytherapy unit, one CT scanner, one simulator and one X-ray therapy unit, in an entry last updated in 2024. The 2015 policy says the cobalt-60 machine broke down in 1998 with no cancer specialist available, leaving the country without radiotherapy for about ten years. It cites a WHO guide of one high-energy machine per million people; DIRAC puts the population at about 10.8 million. The policy proposed a second centre with linear accelerators at Port Moresby General Hospital.",
+            "IAEA's directory of radiotherapy centres, read on 16 November 2026, lists one centre in Papua New Guinea, \"Angau Memorial Hospital - National Cancer Center\" in Lae, with two cobalt-60 units, no linear accelerator, brachytherapy (one low-dose-rate remote afterloading unit), one X-ray generator, one CT and one simulator, in an entry last updated in 2024. A directory can lag, so the entry may not show what is running today. The 2015 policy says the cobalt-60 machine broke down in 1998 with no cancer specialist available, and that for the next ten years the country had no radiotherapy. It cites a WHO guide of one high-energy machine per million people; DIRAC puts the population at about 10.8 million. Among its strategies the policy said it would consider a future second cancer centre, with linear accelerators, at Port Moresby General Hospital.",
           links: [
-            { label: "IAEA DIRAC: radiotherapy equipment by centre (read 11 November 2026)", url: DIRAC },
+            { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
             { label: "National Department of Health: National Cancer Control Policy 2015, sections 1.2 and 3.2.6 (PDF)", url: NCCP_2015 },
           ],
         },
@@ -243,7 +244,7 @@ export const PG_DIVE: CountryDive = {
           plain:
             "Papua New Guinea was the setting for what its authors call the first real-world evaluation in a low- or middle-income country of a fully integrated, same-day cervical screening strategy: a woman takes her own sample, gets an HPV result on site, and is treated with thermal ablation in the same visit if needed.",
           detail:
-            "In the HPV-STAT trial at two clinics from June 2018 to January 2020, 4,285 women aged 30 to 59 self-collected a vaginal sample for point-of-care GeneXpert testing. 647 (15.1%) tested positive, and 602 of them (93.0%) had thermal ablation the same day. The strategy detected 85.4% of high-grade lesions or worse, acceptability was high and there were no serious adverse events. A 2026 cohort of 404 women living with HIV found the same test missed almost no high-grade disease, and that restricting positives to eight HPV types made it more specific. Neither study is a national programme.",
+            "In the HPV-STAT trial at two clinics from June 2018 to January 2020, 4,285 women aged 30 to 59 self-collected a vaginal sample for point-of-care GeneXpert testing. 647 (15.1%) tested positive, and 602 of them (93.0%) had thermal ablation the same day. The strategy detected 85.4% of high-grade lesions or worse, acceptability was high and there were no serious adverse events. A cohort study of 404 women living with HIV, recruited in 2024 and published in 2026, estimated that the same test missed almost no high-grade disease (sensitivity above 99%), and that restricting positives to eight HPV types raised its specificity from 63.3% to 70.2%. Neither study is a national programme.",
           links: [
             { label: "Vallely et al., HPV-STAT (Lancet Glob Health 2022)", url: HPV_STAT },
             { label: "Sauk et al., HPV testing in women living with HIV in Papua New Guinea (BMC Glob Public Health 2026)", url: SAUK_2026 },
@@ -304,7 +305,7 @@ export const PG_DIVE: CountryDive = {
       plain:
         "The Pharmaceutical Services Standards Branch keeps the product specifications in the Medical and Dental Catalogue and advises on which medicines the public sector buys. OnCo could not read the catalogue or the National Medicines Policy 2014, so which cancer medicines the public system supplies is not on this page.",
       detail:
-        "The link to the National Medicines Policy 2014 on the Department's pharmaceutical page returned a web page rather than the document on 11 November 2026, and no copy of the Medical and Dental Catalogue was found online. A WHO release of July 2026 on the medical supply system timed out when requested and was not read. WHO's 2020 cancer country profile for Papua New Guinea was not at the address used for other countries.",
+        "The link to the National Medicines Policy 2014 on the Department's pharmaceutical page returned a \"not found\" page rather than the document when tried again on 16 November 2026, and no copy of the Medical and Dental Catalogue was found online. A WHO release of July 2026 on the medical supply system timed out when requested and was not read. WHO's 2020 cancer country profile for Papua New Guinea was not at the address used for other countries, on 11 or on 16 November 2026.",
       links: [
         { label: "National Department of Health: Pharmaceutical Services Standards Branch", url: PSSB },
         { label: "Medicines and Cosmetics Act 1999 (PDF)", url: MCA_1999 },
@@ -314,9 +315,9 @@ export const PG_DIVE: CountryDive = {
       id: "survival",
       title: "No survival figures and no current screening coverage",
       plain:
-        "OnCo found no population-based survival figure for any cancer in Papua New Guinea, and no official count of women screened for cervical cancer. The HPV vaccine's first coverage figures will come from WHO once the 2026 data are reported.",
+        "OnCo found no population-based survival figure for any cancer in Papua New Guinea, and no official count of women screened for cervical cancer. WHO's coverage data has no figure yet for the HPV vaccination begun in 2026.",
       detail:
-        "Without a working population-based registry there is no national survival estimate. The screen-and-treat studies on this page report on their own participants, at a few clinics, and do not measure national coverage. No programme report from the Department on how many women have been screened was found. The paediatric service's registry has not published counts that OnCo could find.",
+        "OnCo found no national survival estimate; the 2015 policy said population-based data did not exist in the country. The screen-and-treat studies on this page report on their own participants, at a few clinics, and do not measure national coverage. No programme report from the Department on how many women have been screened was found. The paediatric service's registry has not published counts that OnCo could find.",
       links: [
         { label: "WHO: HPV vaccination coverage rows for Papua New Guinea (API)", url: WHO_HPV_API },
         { label: "Vallely et al., HPV-STAT (Lancet Glob Health 2022)", url: HPV_STAT },

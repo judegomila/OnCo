@@ -92,7 +92,7 @@ export function CountryDeepDive({ dive }: { dive: CountryDive }) {
   // row for Puerto Rico and Guam, where FDA approval is what puts a medicine on the market: 21 U.S.C. 321(a) defines a
   // State to include any Territory of the United States, and each page's regulator card quotes it. Other territories
   // (French Polynesia, New Caledonia, Curaçao) keep their own registers and get no row until a source supports one.
-  const EU = new Set(["ES", "SE", "FR", "IT", "NL", "DE", "PL", "RO", "BE", "PT", "GR", "CZ", "HU", "AT", "DK", "FI", "IE", "BG", "SK", "HR", "LT", "SI", "LV"]);
+  const EU = new Set(["ES", "SE", "FR", "IT", "NL", "DE", "PL", "RO", "BE", "PT", "GR", "CZ", "HU", "AT", "DK", "FI", "IE", "BG", "SK", "HR", "LT", "SI", "LV", "CY", "MT", "LU", "EE"]);
   const US_TERRITORY = new Set(["PR", "GU"]);
   const region: Region | undefined = dive.iso2 in REGION_META ? (dive.iso2 as Region) : EU.has(dive.iso2) ? "EU" : US_TERRITORY.has(dive.iso2) ? "US" : undefined;
   const approved = region ? g.kind("drug").filter((d) => { const r = regionalApprovals[d.id]?.[region]; return r && (r.status === "approved" || r.status === "conditional"); }).length : 0;

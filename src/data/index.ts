@@ -303,6 +303,22 @@ import { recordsGU } from "./country-records-gu"; // wave 16
 import { recordsPF } from "./country-records-pf"; // wave 16
 import { recordsNC } from "./country-records-nc"; // wave 16
 import { recordsPA } from "./country-records-pa"; // wave 12
+import { recordsAE } from "./country-records-ae"; // wave 13
+import { recordsKW } from "./country-records-kw"; // wave 13
+import { recordsQA } from "./country-records-qa"; // wave 13
+import { recordsOM } from "./country-records-om"; // wave 13
+import { recordsBH } from "./country-records-bh"; // wave 13
+import { recordsLY } from "./country-records-ly"; // wave 13
+import { recordsPS } from "./country-records-ps"; // wave 13
+import { recordsCY } from "./country-records-cy"; // wave 13
+import { recordsMT } from "./country-records-mt"; // wave 13
+import { recordsLU } from "./country-records-lu"; // wave 13
+import { recordsIS } from "./country-records-is"; // wave 13
+import { recordsEE } from "./country-records-ee"; // wave 13
+import { recordsAL } from "./country-records-al"; // wave 13
+import { recordsMK } from "./country-records-mk"; // wave 13
+import { recordsME } from "./country-records-me"; // wave 13
+import { recordsMN } from "./country-records-mn"; // wave 13
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
@@ -629,6 +645,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...recordsAZ, ...recordsBA, ...recordsHT, ...recordsSN, ...recordsSI, ...recordsML, ...recordsPG, ...recordsBF, ...recordsCR, ...recordsPY,
   ...recordsRW, ...recordsGN, ...recordsMD, ...recordsLV, ...recordsHN, ...recordsAM, ...recordsSO, ...recordsJO, ...recordsSV, ...recordsPA, // wave 12
   ...recordsJM, ...recordsTT, ...recordsBS, ...recordsBB, ...recordsBZ, ...recordsGY, ...recordsSR, ...recordsLC, ...recordsCW, ...recordsFJ, ...recordsWS, ...recordsSB, ...recordsVU, ...recordsGU, ...recordsPF, ...recordsNC, // wave 16
+  ...recordsAE, ...recordsKW, ...recordsQA, ...recordsOM, ...recordsBH, ...recordsLY, ...recordsPS, ...recordsCY, ...recordsMT, ...recordsLU, ...recordsIS, ...recordsEE, ...recordsAL, ...recordsMK, ...recordsME, ...recordsMN, // wave 13
   ...china,
   ...approvedWave1,
   ...targetsWave1,

@@ -5,7 +5,9 @@
  * src/lib/drug-availability.test.ts checks that every country file exporting a drug list is in this one.
  */
 import type { CountryDive } from "./country-dive";
+import { AE_DIVE } from "./country-ae";
 import { AF_DIVE } from "./country-af";
+import { AL_DIVE } from "./country-al";
 import { AM_DIVE } from "./country-am";
 import { AO_DIVE } from "./country-ao";
 import { AR_DIVE } from "./country-ar";
@@ -18,6 +20,7 @@ import { BD_DIVE } from "./country-bd";
 import { BE_DIVE } from "./country-be";
 import { BF_DIVE } from "./country-bf";
 import { BG_DIVE } from "./country-bg";
+import { BH_DIVE } from "./country-bh";
 import { BO_DIVE } from "./country-bo";
 import { BR_DIVE } from "./country-br";
 import { BS_DIVE } from "./country-bs";
@@ -32,11 +35,13 @@ import { CO_DIVE } from "./country-co";
 import { CR_DIVE } from "./country-cr";
 import { CU_DIVE } from "./country-cu";
 import { CW_DIVE } from "./country-cw";
+import { CY_DIVE } from "./country-cy";
 import { CZ_DIVE } from "./country-cz";
 import { DK_DIVE } from "./country-dk";
 import { DO_DIVE } from "./country-do";
 import { DZ_DIVE } from "./country-dz";
 import { EC_DIVE } from "./country-ec";
+import { EE_DIVE } from "./country-ee";
 import { EG_DIVE } from "./country-eg";
 import { ES_DIVE } from "./country-es";
 import { ET_DIVE } from "./country-et";
@@ -57,22 +62,30 @@ import { ID_DIVE } from "./country-id";
 import { IE_DIVE } from "./country-ie";
 import { IQ_DIVE } from "./country-iq";
 import { IR_DIVE } from "./country-ir";
+import { IS_DIVE } from "./country-is";
 import { JM_DIVE } from "./country-jm";
 import { JO_DIVE } from "./country-jo";
 import { KE_DIVE } from "./country-ke";
 import { KH_DIVE } from "./country-kh";
 import { KP_DIVE } from "./country-kp";
+import { KW_DIVE } from "./country-kw";
 import { KZ_DIVE } from "./country-kz";
 import { LB_DIVE } from "./country-lb";
 import { LC_DIVE } from "./country-lc";
 import { LK_DIVE } from "./country-lk";
 import { LT_DIVE } from "./country-lt";
+import { LU_DIVE } from "./country-lu";
 import { LV_DIVE } from "./country-lv";
+import { LY_DIVE } from "./country-ly";
 import { MA_DIVE } from "./country-ma";
 import { MD_DIVE } from "./country-md";
+import { ME_DIVE } from "./country-me";
 import { MG_DIVE } from "./country-mg";
+import { MK_DIVE } from "./country-mk";
 import { ML_DIVE } from "./country-ml";
 import { MM_DIVE } from "./country-mm";
+import { MN_DIVE } from "./country-mn";
+import { MT_DIVE } from "./country-mt";
 import { MW_DIVE } from "./country-mw";
 import { MX_DIVE } from "./country-mx";
 import { MY_DIVE } from "./country-my";
@@ -83,6 +96,7 @@ import { NG_DIVE } from "./country-ng";
 import { NO_DIVE } from "./country-no";
 import { NP_DIVE } from "./country-np";
 import { NZ_DIVE } from "./country-nz";
+import { OM_DIVE } from "./country-om";
 import { PA_DIVE } from "./country-pa";
 import { PE_DIVE } from "./country-pe";
 import { PF_DIVE } from "./country-pf";
@@ -91,8 +105,10 @@ import { PH_DIVE } from "./country-ph";
 import { PK_DIVE } from "./country-pk";
 import { PL_DIVE } from "./country-pl";
 import { PR_DIVE } from "./country-pr";
+import { PS_DIVE } from "./country-ps";
 import { PT_DIVE } from "./country-pt";
 import { PY_DIVE } from "./country-py";
+import { QA_DIVE } from "./country-qa";
 import { RO_DIVE } from "./country-ro";
 import { RS_DIVE } from "./country-rs";
 import { RW_DIVE } from "./country-rw";
@@ -142,7 +158,7 @@ export type CountryDrugList = { iso2: string; name: string; drugs: readonly stri
 const dive = (d: CountryDive): CountryDrugList => ({ iso2: d.iso2, name: d.name, drugs: d.drugs });
 
 export const COUNTRY_DIVES: CountryDrugList[] = [
-  ...[AF_DIVE, AM_DIVE, AO_DIVE, AR_DIVE, AT_DIVE, AU_DIVE, AZ_DIVE, BA_DIVE, BB_DIVE, BD_DIVE, BE_DIVE, BF_DIVE, BG_DIVE, BO_DIVE, BR_DIVE, BS_DIVE, BY_DIVE, BZ_DIVE, CD_DIVE, CH_DIVE, CI_DIVE, CL_DIVE, CM_DIVE, CO_DIVE, CR_DIVE, CU_DIVE, CW_DIVE, CZ_DIVE, DK_DIVE, DO_DIVE, DZ_DIVE, EC_DIVE, EG_DIVE, ES_DIVE, ET_DIVE, FI_DIVE, FJ_DIVE, GE_DIVE, GH_DIVE, GN_DIVE, GR_DIVE, GT_DIVE, GU_DIVE, GY_DIVE, HN_DIVE, HR_DIVE, HT_DIVE, HU_DIVE, ID_DIVE, IE_DIVE, IQ_DIVE, IR_DIVE, JM_DIVE, JO_DIVE, KE_DIVE, KH_DIVE, KP_DIVE, KZ_DIVE, LB_DIVE, LC_DIVE, LK_DIVE, LT_DIVE, LV_DIVE, MA_DIVE, MD_DIVE, MG_DIVE, ML_DIVE, MM_DIVE, MW_DIVE, MX_DIVE, MY_DIVE, MZ_DIVE, NC_DIVE, NE_DIVE, NG_DIVE, NO_DIVE, NP_DIVE, NZ_DIVE, PA_DIVE, PE_DIVE, PF_DIVE, PG_DIVE, PH_DIVE, PK_DIVE, PL_DIVE, PR_DIVE, PT_DIVE, PY_DIVE, RO_DIVE, RS_DIVE, RW_DIVE, SA_DIVE, SB_DIVE, SD_DIVE, SE_DIVE, SG_DIVE, SI_DIVE, SK_DIVE, SN_DIVE, SO_DIVE, SR_DIVE, SV_DIVE, SY_DIVE, TD_DIVE, TH_DIVE, TN_DIVE, TR_DIVE, TT_DIVE, TW_DIVE, TZ_DIVE, UA_DIVE, UG_DIVE, UY_DIVE, UZ_DIVE, VE_DIVE, VN_DIVE, VU_DIVE, WS_DIVE, YE_DIVE, ZA_DIVE, ZM_DIVE, ZW_DIVE].map(dive),
+  ...[AE_DIVE, AF_DIVE, AL_DIVE, AM_DIVE, AO_DIVE, AR_DIVE, AT_DIVE, AU_DIVE, AZ_DIVE, BA_DIVE, BB_DIVE, BD_DIVE, BE_DIVE, BF_DIVE, BG_DIVE, BH_DIVE, BO_DIVE, BR_DIVE, BS_DIVE, BY_DIVE, BZ_DIVE, CD_DIVE, CH_DIVE, CI_DIVE, CL_DIVE, CM_DIVE, CO_DIVE, CR_DIVE, CU_DIVE, CW_DIVE, CY_DIVE, CZ_DIVE, DK_DIVE, DO_DIVE, DZ_DIVE, EC_DIVE, EE_DIVE, EG_DIVE, ES_DIVE, ET_DIVE, FI_DIVE, FJ_DIVE, GE_DIVE, GH_DIVE, GN_DIVE, GR_DIVE, GT_DIVE, GU_DIVE, GY_DIVE, HN_DIVE, HR_DIVE, HT_DIVE, HU_DIVE, ID_DIVE, IE_DIVE, IQ_DIVE, IR_DIVE, IS_DIVE, JM_DIVE, JO_DIVE, KE_DIVE, KH_DIVE, KP_DIVE, KW_DIVE, KZ_DIVE, LB_DIVE, LC_DIVE, LK_DIVE, LT_DIVE, LU_DIVE, LV_DIVE, LY_DIVE, MA_DIVE, MD_DIVE, ME_DIVE, MG_DIVE, MK_DIVE, ML_DIVE, MM_DIVE, MN_DIVE, MT_DIVE, MW_DIVE, MX_DIVE, MY_DIVE, MZ_DIVE, NC_DIVE, NE_DIVE, NG_DIVE, NO_DIVE, NP_DIVE, NZ_DIVE, OM_DIVE, PA_DIVE, PE_DIVE, PF_DIVE, PG_DIVE, PH_DIVE, PK_DIVE, PL_DIVE, PR_DIVE, PS_DIVE, PT_DIVE, PY_DIVE, QA_DIVE, RO_DIVE, RS_DIVE, RW_DIVE, SA_DIVE, SB_DIVE, SD_DIVE, SE_DIVE, SG_DIVE, SI_DIVE, SK_DIVE, SN_DIVE, SO_DIVE, SR_DIVE, SV_DIVE, SY_DIVE, TD_DIVE, TH_DIVE, TN_DIVE, TR_DIVE, TT_DIVE, TW_DIVE, TZ_DIVE, UA_DIVE, UG_DIVE, UY_DIVE, UZ_DIVE, VE_DIVE, VN_DIVE, VU_DIVE, WS_DIVE, YE_DIVE, ZA_DIVE, ZM_DIVE, ZW_DIVE].map(dive),
   { iso2: "DE", name: "Germany", drugs: DE_DRUGS },
   { iso2: "FR", name: "France", drugs: FR_DRUGS },
   { iso2: "IL", name: "Israel", drugs: IL_DRUGS },

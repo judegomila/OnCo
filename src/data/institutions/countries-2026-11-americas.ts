@@ -302,7 +302,8 @@ const institutions: InstitutionInput[] = [
     tldr: "Nicaragua's Ministry of Health. It runs the public hospitals, including the national radiotherapy hospital in Managua, and through its health regulation authority it registers medicines.",
     summary: "MINSA's site lists its Autoridad Nacional de Regulación Sanitaria among its entities and offers the health registration of pharmaceutical products as an online service. Its list of hospitals names the Hospital Nacional de Radioterapia \"Nora Astorga\" in Managua as a hospital with national referral services, and its list of specialised centres includes a Centro Oncológico de Quimioterapias y Cuidados Paliativos in Managua. Coordinates are Wikidata's (Q30282287).",
     programs: ["Autoridad Nacional de Regulación Sanitaria (medicines registration)", "Public hospital network"],
-    institutions: ["nora-astorga-radiotherapy-nicaragua", "hospital-escuela-davila-bolanos"],
+    institutions: ["nora-astorga-radiotherapy-nicaragua", "hospital-escuela-davila-bolanos", "hospital-infantil-manuel-de-jesus-rivera-la-mascota"],
+    keyPapers: ["paper-holme-hpv-screening-nicaragua-bmcph-2020", "paper-pena-galo-gastric-cancer-mortality-nicaragua-cebp-2024"],
     links: [{ label: "MINSA Nicaragua: home page", url: "https://www.minsa.gob.ni/" }, { label: "MINSA Nicaragua: hospitals", url: MINSA_NI_HOSPITALS }, { label: "MINSA Nicaragua: specialised centres", url: "https://www.minsa.gob.ni/index.php/red-de-salud/centros-especializados" }] }),
 
   i({ id: "nora-astorga-radiotherapy-nicaragua", name: "Centro Nacional de Radioterapia Nora Astorga", aka: ["Hospital Nacional de Radioterapia Nora Astorga", "Nora Astorga National Radiotherapy Centre"],

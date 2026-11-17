@@ -56,6 +56,12 @@
 
 Every factual correction to the OnCo corpus, newest first. Format: date · entity · what was wrong · how it was found · fix.
 
+## 2026-11-16
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-16 | [Sir Ketumile Masire Teaching Hospital](/institutions/sir-ketumile-masire-teaching-hospital/) | Said the minister expected the radiotherapy centre to reduce government spending "on cancer care abroad". The UN in Botswana's page quotes him as saying it will "reduce government spending in health care for cancer patients"; "abroad" is not in the source | Country deep dives, wave 15: the source was re-read in raw text while writing the Botswana page | The sentence now gives the source's wording |
+
 ## 2026-11-08
 
 ### Antibody-conjugate payload mechanisms

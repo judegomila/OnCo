@@ -111,6 +111,22 @@ import { YE_DIVE } from "./country-ye";
 import { ZA_DIVE } from "./country-za";
 import { ZM_DIVE } from "./country-zm";
 import { ZW_DIVE } from "./country-zw";
+import { NA_DIVE } from "./country-na"; // wave 15
+import { BW_DIVE } from "./country-bw"; // wave 15
+import { LS_DIVE } from "./country-ls"; // wave 15
+import { SZ_DIVE } from "./country-sz"; // wave 15
+import { MU_DIVE } from "./country-mu"; // wave 15
+import { KM_DIVE } from "./country-km"; // wave 15
+import { DJ_DIVE } from "./country-dj"; // wave 15
+import { MV_DIVE } from "./country-mv"; // wave 15
+import { BT_DIVE } from "./country-bt"; // wave 15
+import { LA_DIVE } from "./country-la"; // wave 15
+import { TL_DIVE } from "./country-tl"; // wave 15
+import { BN_DIVE } from "./country-bn"; // wave 15
+import { KG_DIVE } from "./country-kg"; // wave 15
+import { TJ_DIVE } from "./country-tj"; // wave 15
+import { TM_DIVE } from "./country-tm"; // wave 15
+import { NI_DIVE } from "./country-ni"; // wave 15
 import { DE_DRUGS } from "./country-de";
 import { FR_DRUGS } from "./country-fr";
 import { IL_DRUGS } from "./country-il";
@@ -126,7 +142,7 @@ export type CountryDrugList = { iso2: string; name: string; drugs: readonly stri
 const dive = (d: CountryDive): CountryDrugList => ({ iso2: d.iso2, name: d.name, drugs: d.drugs });
 
 export const COUNTRY_DIVES: CountryDrugList[] = [
-  ...[AF_DIVE, AM_DIVE, AO_DIVE, AR_DIVE, AT_DIVE, AU_DIVE, AZ_DIVE, BA_DIVE, BD_DIVE, BE_DIVE, BF_DIVE, BG_DIVE, BO_DIVE, BR_DIVE, BY_DIVE, CD_DIVE, CH_DIVE, CI_DIVE, CL_DIVE, CM_DIVE, CO_DIVE, CR_DIVE, CU_DIVE, CZ_DIVE, DK_DIVE, DO_DIVE, DZ_DIVE, EC_DIVE, EG_DIVE, ES_DIVE, ET_DIVE, FI_DIVE, GE_DIVE, GH_DIVE, GN_DIVE, GR_DIVE, GT_DIVE, HN_DIVE, HR_DIVE, HT_DIVE, HU_DIVE, ID_DIVE, IE_DIVE, IQ_DIVE, IR_DIVE, JO_DIVE, KE_DIVE, KH_DIVE, KP_DIVE, KZ_DIVE, LB_DIVE, LK_DIVE, LT_DIVE, LV_DIVE, MA_DIVE, MD_DIVE, MG_DIVE, ML_DIVE, MM_DIVE, MW_DIVE, MX_DIVE, MY_DIVE, MZ_DIVE, NE_DIVE, NG_DIVE, NO_DIVE, NP_DIVE, NZ_DIVE, PA_DIVE, PE_DIVE, PG_DIVE, PH_DIVE, PK_DIVE, PL_DIVE, PR_DIVE, PT_DIVE, PY_DIVE, RO_DIVE, RS_DIVE, RW_DIVE, SA_DIVE, SD_DIVE, SE_DIVE, SG_DIVE, SI_DIVE, SK_DIVE, SN_DIVE, SO_DIVE, SV_DIVE, SY_DIVE, TD_DIVE, TH_DIVE, TN_DIVE, TR_DIVE, TW_DIVE, TZ_DIVE, UA_DIVE, UG_DIVE, UY_DIVE, UZ_DIVE, VE_DIVE, VN_DIVE, YE_DIVE, ZA_DIVE, ZM_DIVE, ZW_DIVE].map(dive),
+  ...[AF_DIVE, AM_DIVE, AO_DIVE, AR_DIVE, AT_DIVE, AU_DIVE, AZ_DIVE, BA_DIVE, BD_DIVE, BE_DIVE, BF_DIVE, BG_DIVE, BO_DIVE, BR_DIVE, BY_DIVE, CD_DIVE, CH_DIVE, CI_DIVE, CL_DIVE, CM_DIVE, CO_DIVE, CR_DIVE, CU_DIVE, CZ_DIVE, DK_DIVE, DO_DIVE, DZ_DIVE, EC_DIVE, EG_DIVE, ES_DIVE, ET_DIVE, FI_DIVE, GE_DIVE, GH_DIVE, GN_DIVE, GR_DIVE, GT_DIVE, HN_DIVE, HR_DIVE, HT_DIVE, HU_DIVE, ID_DIVE, IE_DIVE, IQ_DIVE, IR_DIVE, JO_DIVE, KE_DIVE, KH_DIVE, KP_DIVE, KZ_DIVE, LB_DIVE, LK_DIVE, LT_DIVE, LV_DIVE, MA_DIVE, MD_DIVE, MG_DIVE, ML_DIVE, MM_DIVE, MW_DIVE, MX_DIVE, MY_DIVE, MZ_DIVE, NE_DIVE, NG_DIVE, NO_DIVE, NP_DIVE, NZ_DIVE, PA_DIVE, PE_DIVE, PG_DIVE, PH_DIVE, PK_DIVE, PL_DIVE, PR_DIVE, PT_DIVE, PY_DIVE, RO_DIVE, RS_DIVE, RW_DIVE, SA_DIVE, SD_DIVE, SE_DIVE, SG_DIVE, SI_DIVE, SK_DIVE, SN_DIVE, SO_DIVE, SV_DIVE, SY_DIVE, TD_DIVE, TH_DIVE, TN_DIVE, TR_DIVE, TW_DIVE, TZ_DIVE, UA_DIVE, UG_DIVE, UY_DIVE, UZ_DIVE, VE_DIVE, VN_DIVE, YE_DIVE, ZA_DIVE, ZM_DIVE, ZW_DIVE, NA_DIVE, BW_DIVE, LS_DIVE, SZ_DIVE, MU_DIVE, KM_DIVE, DJ_DIVE, MV_DIVE, BT_DIVE, LA_DIVE, TL_DIVE, BN_DIVE, KG_DIVE, TJ_DIVE, TM_DIVE, NI_DIVE].map(dive),
   { iso2: "DE", name: "Germany", drugs: DE_DRUGS },
   { iso2: "FR", name: "France", drugs: FR_DRUGS },
   { iso2: "IL", name: "Israel", drugs: IL_DRUGS },

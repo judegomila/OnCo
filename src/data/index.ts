@@ -249,6 +249,22 @@ import { recordsSO } from "./country-records-so"; // wave 12
 import { recordsJO } from "./country-records-jo"; // wave 12
 import { recordsSV } from "./country-records-sv"; // wave 12
 import { recordsPA } from "./country-records-pa"; // wave 12
+import { recordsNA } from "./country-records-na"; // wave 15
+import { recordsBW } from "./country-records-bw"; // wave 15
+import { recordsLS } from "./country-records-ls"; // wave 15
+import { recordsSZ } from "./country-records-sz"; // wave 15
+import { recordsMU } from "./country-records-mu"; // wave 15
+import { recordsKM } from "./country-records-km"; // wave 15
+import { recordsDJ } from "./country-records-dj"; // wave 15
+import { recordsMV } from "./country-records-mv"; // wave 15
+import { recordsBT } from "./country-records-bt"; // wave 15
+import { recordsLA } from "./country-records-la"; // wave 15
+import { recordsTL } from "./country-records-tl"; // wave 15
+import { recordsBN } from "./country-records-bn"; // wave 15
+import { recordsKG } from "./country-records-kg"; // wave 15
+import { recordsTJ } from "./country-records-tj"; // wave 15
+import { recordsTM } from "./country-records-tm"; // wave 15
+import { recordsNI } from "./country-records-ni"; // wave 15
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
 import { targetsWave1 } from "./targets-wave1";
@@ -535,6 +551,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...recordsTD, ...recordsLB, ...recordsBO, ...recordsZM, ...recordsPR, ...recordsUY, ...recordsLT, ...recordsNE, ...recordsCM, ...recordsGE,
   ...recordsAZ, ...recordsBA, ...recordsHT, ...recordsSN, ...recordsSI, ...recordsML, ...recordsPG, ...recordsBF, ...recordsCR, ...recordsPY,
   ...recordsRW, ...recordsGN, ...recordsMD, ...recordsLV, ...recordsHN, ...recordsAM, ...recordsSO, ...recordsJO, ...recordsSV, ...recordsPA, // wave 12
+  ...recordsNA, ...recordsBW, ...recordsLS, ...recordsSZ, ...recordsMU, ...recordsKM, ...recordsDJ, ...recordsMV, ...recordsBT, ...recordsLA, ...recordsTL, ...recordsBN, ...recordsKG, ...recordsTJ, ...recordsTM, ...recordsNI, // wave 15
   ...china,
   ...approvedWave1,
   ...targetsWave1,

@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 17 November 2026
+- Second accuracy pass on the original 39 country pages, among them the United States, China, India, Japan, Germany, Brazil and the United Kingdom: about 660 claims corrected after each was read against its source again
 - Second accuracy pass on live country pages, last batch for waves 5 to 12: corrections to Austria, Serbia, Denmark, Finland, Norway, Ireland, Hungary, Belarus, Bulgaria and North Korea, each claim read against its source again
 - Second accuracy pass on live country pages, continued: corrections to eighteen more pages, among them Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica, Paraguay, Belgium, Cuba, Czechia, Greece and Portugal, each claim read against its source again
 - Second accuracy pass on live country pages: corrections to 53 pages after every claim was read against its source again, including what the IAEA radiotherapy directory lists for 36 countries, WHO's HPV vaccination data where pages had said there was none, and sources pages had called unreadable that do answer
@@ -20,6 +21,12 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: draft records for gaps in the freshness issue, for review
 
 ### 16 November 2026
+- Equecabtagene autoleucel: one-line description shortened to fit, facts unchanged
+- Second accuracy pass, the original country pages, batch four: Colombia, South Africa, Romania, Ethiopia, Algeria, Sweden, Switzerland, Malaysia, Israel and Taiwan
+- Second accuracy pass, the original country pages, batch three: Vietnam, Thailand, Iran, Ukraine, Nigeria, the Philippines, Argentina, Egypt and the Netherlands
+- Second accuracy pass, the original country pages, batch two: Canada, Spain, South Korea, Turkey, Australia, Poland, Mexico, Pakistan and Bangladesh
+- Second accuracy pass, the original country pages, batch one: China, the United States, India, Japan, Brazil, Russia, Germany, Indonesia, the United Kingdom, Italy and France
+- Second accuracy pass on live country pages, last batch for waves 5 to 12: corrections to Austria, Serbia, Denmark, Finland, Norway, Ireland, Hungary, Belarus, Bulgaria and North Korea, each claim read against its source again
 - Second accuracy pass, last batch: Austria, Serbia, Denmark, Finland, Norway, Ireland and North Korea complete the forty pages of waves 5 to 8
 - Second accuracy pass on live country pages, continued: corrections to eighteen more pages, among them Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica, Paraguay, Belgium, Cuba, Czechia, Greece and Portugal, each claim read against its source again
 - CIMAvax-EGF: one-line description shortened to fit, facts unchanged

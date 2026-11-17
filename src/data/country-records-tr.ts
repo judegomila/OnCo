@@ -41,6 +41,7 @@ const institutions: InstitutionInput[] = [
       { label: "Türkiye Kanser İstatistikleri 2020 (PDF, Internet Archive copy)", url: STATS_2020 },
       { label: "Kanser Taramaları (Internet Archive copy, 7 November 2025)", url: SCREENING },
       { label: "KETEM adresleri (Internet Archive copy, 8 October 2025)", url: "https://web.archive.org/web/20251008092847/https://hsgm.saglik.gov.tr/tr/ketem.html" },
+      { label: "Turkey Cancer Control Programme, 2021: the 14 provinces with data of enough quality for the report (English, PDF, Internet Archive copy)", url: "https://web.archive.org/web/2025/https://hsgm.saglik.gov.tr/depo/birimler/kanser-db/Dokumanlar/Raporlar/Turkey_NCCP_18_April_2022.pdf" },
     ] }),
 
   i({ id: "sgk-turkiye", name: "Social Security Institution of Türkiye (Sosyal Güvenlik Kurumu, SGK)",

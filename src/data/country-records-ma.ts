@@ -83,6 +83,7 @@ const institutions: InstitutionInput[] = [
       { label: "Plan National de Prévention et de Contrôle du Cancer 2020 to 2029 (Arabic, PDF, ICCP portal)", url: PNPCC2 },
       { label: "Hespress: mid-term review of the cancer plan (15 July 2026)", url: HES_REVIEW_2026 },
       { label: "Aujourd'hui le Maroc: priorities for 2027 to 2029 (17 July 2026)", url: AUJ_REVIEW_2026 },
+      { label: "Le360: HPV vaccine enters the vaccination schedule from October 2022 (in French)", url: "https://fr.le360.ma/societe/cancer-du-col-uterin-le-vaccin-anti-hpv-integre-le-calendrier-vaccinal-au-maroc-a-partir-doctobre-267137" },
     ] }),
 
   i({ id: "ammps-morocco", name: "Agence Marocaine du Médicament et des Produits de Santé (AMMPS)", aka: ["AMMPS", "Moroccan Agency of Medicines and Health Products", "Direction du Médicament et de la Pharmacie", "DMP"],

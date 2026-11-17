@@ -28,11 +28,11 @@ export const PA_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Panama",
   description:
-    "Cancer in Panama from Panamanian sources: IARC's estimate of 9,417 new cancers and 3,971 deaths in 2024, the Instituto Oncológico Nacional's hospital registry of 5,273 patients in 2024, referrals from the Caja de Seguro Social and the Ministry of Health, out-of-pocket spending at 40.5% of health spending, HPV vaccination of girls and boys, and 19 trials in OnCo's records with a site in Panama.",
+    "Cancer in Panama from Panamanian sources: IARC's estimate of 9,417 new cancers and 3,971 deaths in 2024, the Instituto Oncológico Nacional's hospital registry of 5,273 cases in 2024, referrals from the Caja de Seguro Social and the Ministry of Health, out-of-pocket spending at 40.5% of health spending, HPV vaccination of girls and boys, and 19 trials in OnCo's records with a site in Panama.",
   lede:
-    "Panama's public cancer care is centred on one national institute in Panama City, the Instituto Oncológico Nacional, which saw 5,273 cancer patients in 2024, nearly half of them referred by the social security fund. IARC estimates about 9,400 new cancers a year in the country, with prostate and breast cancer the commonest.",
+    "Panama's public cancer care is centred on one national institute in Panama City, the Instituto Oncológico Nacional, whose hospital registry recorded 5,273 cancer cases in 2024, a preliminary count, nearly half of them referred by the social security fund. IARC estimates about 9,400 new cancers a year in the country, with prostate and breast cancer the commonest.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Panama is 9,417 new cancers and 3,971 deaths, an age-standardised incidence of 158.2 per 100,000 (166.1 in men, 159.3 in women). IARC's fact sheet gives the country-specific source for incidence as \"no data\", with national mortality estimates applied to modelled mortality-to-incidence ratios; mortality comes from WHO's national data, projected to 2024. In other words, IARC worked backwards from deaths. The Instituto Oncológico Nacional's registry counts the patients that one hospital sees, about 5,300 a year, so it is a floor, not a national count. OnCo did not read a report from Panama's national population-based registry; see the gaps.",
+    "IARC's GLOBOCAN 2024 figure for Panama is 9,417 new cancers and 3,971 deaths, an age-standardised incidence of 158.2 per 100,000 (166.1 in men, 159.3 in women). IARC's fact sheet gives the country-specific source for incidence as \"No data\", with national mortality estimates applied to modelled mortality-to-incidence ratios; mortality comes from WHO's national data, projected to 2024. In other words, IARC worked backwards from deaths. The Instituto Oncológico Nacional's registry counts the cases that one hospital sees, about 5,300 a year, so it is a floor, not a national count. OnCo did not read a report from Panama's national population-based registry; see the gaps.",
   sections: [
     {
       id: "profile",
@@ -51,11 +51,11 @@ export const PA_DIVE: CountryDive = {
         },
         {
           id: "ion-registry",
-          title: "The national institute's registry: 5,273 patients in 2024, breast cancer first",
+          title: "The national institute's registry: 5,273 cases in 2024, breast cancer first",
           plain:
-            "The Instituto Oncológico Nacional has kept a hospital cancer registry since 1 January 2012. It recorded 5,273 cancers diagnosed or treated at the institute in 2024, 61% of them in women; breast cancer was 22% of the total, followed by prostate, colon, cervical and stomach cancer.",
+            "The Instituto Oncológico Nacional has kept a hospital cancer registry since 1 January 2012. It recorded 5,273 cancers diagnosed or treated at the institute in 2024, a figure the bulletin marks as preliminary, 61% of them in women; breast cancer was 22% of the total, followed by prostate, colon, cervical and stomach cancer.",
           detail:
-            "The registry's 2024 bulletin counts 5,273 cases (3,229 women, 2,044 men), up from 3,171 in 2012, with a dip to 3,758 in 2020; it holds more than 55,935 cases in all. The ten commonest sites in 2024 were breast (1,142), prostate (574), colon (409), cervix (372), stomach (306), skin (252), uterine body (243), thyroid (214), lung (166) and rectum (163). 91.8% were confirmed by histology of the primary tumour. The bulletin says more than 5,000 cases are referred to the institute a year, more than 90% of them new, mostly from the provinces of Panamá and Panamá Oeste, and that many provinces have diagnosis but lack specialised treatment. Deaths are traced through the national statistics institute (INEC), the Comptroller General and the Electoral Tribunal. The registry does not yet record stage at diagnosis.",
+            "The registry's 2024 bulletin counts 5,273 cases (3,229 women, 2,044 men), up from 3,171 in 2012, with a dip to 3,758 in 2020; it holds more than 55,935 cases in all. The bulletin marks the 2024 figures as preliminary, because patients diagnosed elsewhere in 2024 were still being referred after its cut-off date. The ten commonest sites in 2024 were breast (1,142), prostate (574), colon (409), cervix (372), stomach (306), skin (252), uterine body (243), thyroid (214), lung (166) and rectum (163). 91.8% were confirmed by histology of the primary tumour. The bulletin says more than 5,000 cases are referred to the institute a year, more than 90% of them new, mostly from the provinces of Panamá and Panamá Oeste, and that many provinces have access to diagnosis but lack some options for specialised cancer treatment. Dates of death come from the national mortality data of the statistics institute (INEC), which is part of the Comptroller General's office, and from the Electoral Tribunal's system. The bulletin says the registry hopes in future to hold clinical stage at diagnosis, and it gives no figures by stage.",
           links: [
             { label: "ION: hospital cancer registry bulletin 2024 (PDF, in Spanish)", url: ION_BULLETIN_2024 },
             { label: "ION: hospital cancer registry (RHC-ION)", url: ION_RHC },
@@ -66,7 +66,7 @@ export const PA_DIVE: CountryDive = {
         {
           id: "pa-ion-registry",
           title: "Cancers recorded by the Instituto Oncológico Nacional's hospital registry",
-          caption: "Cases diagnosed or treated at the institute per year, from table 16 of the 2024 bulletin.",
+          caption: "Cases diagnosed or treated at the institute per year, from table 16 of the 2024 bulletin. The bulletin marks the 2024 figure as preliminary.",
           columns: [
             { key: "year", label: "Year" },
             { key: "cases", label: "Cases", numeric: true },
@@ -93,11 +93,11 @@ export const PA_DIVE: CountryDive = {
       cards: [
         {
           id: "referral-routes",
-          title: "Half of the institute's patients come through the Caja de Seguro Social",
+          title: "Nearly half of the institute's cases come through the Caja de Seguro Social",
           plain:
             "Patients reach the Instituto Oncológico Nacional by referral from the social security fund, the Caja de Seguro Social, from the Ministry of Health or from private care. In 2024, 48% of the cases it registered were referred by the social security fund, 30% by the Ministry of Health and 22% by private hospitals and clinics.",
           detail:
-            "The 2024 registry bulletin gives the referral sources as the Caja de Seguro Social (2,552 cases, 48%), the Ministry of Health (1,552, 30%) and private hospitals and clinics (1,169, 22%); the largest single referrer was the Caja's Complejo Hospitalario Dr. Arnulfo A. Madrid with 1,219 cases. The institute's admission rules ask insured patients for an authorisation form issued by the Caja de Seguro Social and signed by the director of the Hospital de Cancerología de la Ciudad Salud, and uninsured patients for a referral and their pathology report; foreigners need a passport and a valid immigration permit. The World Bank's series, from WHO's health expenditure database, puts out-of-pocket spending at 40.5% of current health spending in 2023, across all care.",
+            "The 2024 registry bulletin gives the referral sources as the Caja de Seguro Social (2,552 cases, 48%), the Ministry of Health (1,552, 30%) and private hospitals and clinics (1,169, 22%); the largest single referrer was the Caja's Complejo Hospitalario Dr. Arnulfo A. Madrid with 1,219 cases. The institute's admission rules ask insured patients for an authorisation form issued by the Caja de Seguro Social and signed by the director of the Hospital de Cancerología de la Ciudad Salud, and uninsured patients for a referral, their pathology report and their identity card; foreigners need a passport and a valid immigration permit. The World Bank's series, from WHO's health expenditure database, puts out-of-pocket spending at 40.5% of current health spending in 2023, across all care.",
           links: [
             { label: "ION: hospital cancer registry bulletin 2024, graph 3 and table 7 (PDF)", url: ION_BULLETIN_2024 },
             { label: "ION: admission rules for insured patients", url: ION_INSURED },
@@ -118,7 +118,7 @@ export const PA_DIVE: CountryDive = {
           plain:
             "OnCo did not read the rules of Panama's medicines regulator for registering cancer medicines or authorising trials for this page, so it states nothing about who approves what, or how fast.",
           detail:
-            "This card is a placeholder for a source OnCo has not yet read, not a description of how the regulator works. The institute's own medicines committee and its published list of research topics appear on its website. For the trials OnCo does hold with a site in Panama, see the research section below.",
+            "This card is a placeholder for a source OnCo has not yet read, not a description of how the regulator works. The institute's website has menu entries for a medicines commission (Comisión de Medicamentos) and for research protocols; OnCo has not read either. For the trials OnCo does hold with a site in Panama, see the research section below.",
           links: [
             { label: "Ministry of Health of Panama", url: "https://www.minsa.gob.pa/" },
             { label: "ION: home page", url: ION_HOME },
@@ -157,7 +157,7 @@ export const PA_DIVE: CountryDive = {
           plain:
             "Panama's cancer care grew from a radiology institute founded in 1936 into the Instituto Oncológico Nacional, created by Law 11 of 4 July 1984. In 1999 it moved into the buildings of the former Gorgas Hospital in Ancón. In 2023 it saw 4,934 new patients and gave 155,883 consultations.",
           detail:
-            "The institute's history page traces it to the Instituto Radiológico Nacional, founded in 1936 under President Juan Demóstenes Arosemena with treatment given at the Santo Tomás and Panamá hospitals; its own building opened on 18 September 1940 with four doctors, three nurses and forty beds. The history records a cobalt-60 unit added in the period it dates to 1965. Law 11 created the Instituto Oncológico Nacional on 4 July 1984. By Cabinet Resolution 44 of 3 June 1999 the Autoridad de la Región Interoceánica transferred the former Gorgas Hospital, buildings 242 and 254, and the move began on 23 July 1999. Its home page reports 4,934 new patients and 155,883 consultations in 2023. Its registry bulletin notes that many provinces have access to diagnosis but lack some specialised cancer treatment.",
+            "The institute's history page traces it to the Instituto Radiológico Nacional, founded in 1936 under President Juan Demóstenes Arosemena with treatment given at the Santo Tomás and Panamá hospitals; its own building opened on 18 September 1940 with four doctors, three nurses and auxiliaries, and forty beds. The history records a cobalt-60 unit added in the period it dates to 1965. Law 11 created the Instituto Oncológico Nacional on 4 July 1984. By Cabinet Resolution 44 of 3 June 1999 the Autoridad de la Región Interoceánica transferred the former Gorgas Hospital, buildings 242 and 254, and the move began on 23 July 1999. Its home page reports 4,934 new patients and 155,883 consultations in 2023. Its registry bulletin notes that many provinces have access to diagnosis but lack some specialised cancer treatment.",
           links: [
             { label: "ION: historical review (Reseña histórica)", url: ION_HISTORY },
             { label: "ION: home page, figures for 2023", url: ION_HOME },
@@ -192,12 +192,13 @@ export const PA_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "OnCo did not read a report from Panama's national population-based cancer registry, the Caja de Seguro Social's own pages (its site refused a script), the medicines regulator's rules, or a count of radiotherapy machines. The figures here come from the national institute, WHO and IARC instead.",
+        "OnCo did not read a report from Panama's national population-based cancer registry, the Caja de Seguro Social's own pages (its site refused a script), the medicines regulator's rules, or a count of radiotherapy machines by centre. The figures here come from the national institute, WHO and IARC instead.",
       detail:
-        "css.gob.pa answered 403 on 11 November 2026. The Ministry of Health's registry page tried (minsa.gob.pa/informacion-salud/registro-nacional-de-cancer) answered 404. IARC's fact sheet records no national incidence data for its 2024 estimate. Radiotherapy capacity is published in IAEA's DIRAC database, which needs an account for most queries. Each is a named gap, not a claim that the source does not exist.",
+        "css.gob.pa answered 403 on 11 November 2026. The Ministry of Health's registry page tried (minsa.gob.pa/informacion-salud/registro-nacional-de-cancer) answered 404. IARC's fact sheet records no national incidence data for its 2024 estimate. WHO's 2020 profile records a population-based cancer registry in 2019 and 9.7 external beam radiotherapy machines per 10,000 cancer patients; it does not count them by centre. Radiotherapy capacity by centre is published in IAEA's DIRAC database, whose tables load in an embedded viewer that could not be read as text on 16 November 2026. Each is a named gap, not a claim that the source does not exist.",
       links: [
         { label: "Caja de Seguro Social", url: "https://www.css.gob.pa/" },
         { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "WHO: Cancer Country Profile 2020, Panama (PDF)", url: WHO_PROFILE },
       ],
     },
   ],

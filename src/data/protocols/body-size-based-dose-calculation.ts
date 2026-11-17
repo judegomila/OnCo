@@ -18,9 +18,13 @@ import { protocol } from "./helpers";
  *   stripped by script. It reprints the guideline's table of recommendations (actual body weight, the fixed-dose
  *   exceptions, the vincristine cap, the choice of BSA formula) and prints no strength ratings.
  * - ASCO-ONS Antineoplastic Therapy Administration Safety Standards (2024, DOI 10.1200/OP.24.00216): read in full on
- *   11 November 2026 from an Internet Archive capture. NOT re-read on 17 November: ascopubs.org returned 403, the ONS
- *   page offers a one-page preview only, and an Internet Archive request was not permitted in this session. Its two
- *   quotes and the figures taken from it rest on the first reading (see gaps).
+ *   11 November 2026 from an Internet Archive capture. Re-read in full later on 17 November 2026 in
+ *   the Oncology Nursing Society's open co-publication (the advance-print PDF offered on the ONS article page,
+ *   Oncology Nursing Forum, July 2024, 51(4)), converted with pdftotext; a copy another checker fetched from ons.org
+ *   the same day was re-used.
+ *   ascopubs.org was not requested. Both quotes were checked by script. Corrected then: the quote for standard 3.9.8
+ *   ran four list items together without the source's list markers, so it was replaced by one item copied whole; and
+ *   the standard puts the dose calculation in the patient's medical record, which the page had put on the order.
  * - BOPA Standards for the Pharmacy Verification of Prescriptions for Cancer Medicines, version 5.0 (3 June 2025):
  *   full text, pdftotext of the PDF another checker fetched from bopa.org.uk on 17 November (re-used copy).
  * - Kemps et al., Eur J Hosp Pharm 2024 (DOI 10.1136/ejhpharm-2021-003215), frequency of weighing: abstract only;
@@ -42,7 +46,7 @@ export const bodySizeBasedDoseCalculation = protocol({
   domain: "pharmacy",
   tldr: "Most chemotherapy doses are worked out from your height and weight. American safety standards say both are measured in metric units and checked by two people before a new treatment starts, and your weight is rechecked during treatment. If you are a larger person, the American guideline says your dose should be based on your actual weight and given in full, not reduced because of your size.",
   simple: "Your dose comes from your height and weight, so the team measures them carefully. Bigger bodies get the full dose, because cutting it can make treatment work less well.",
-  summary: "Most cytotoxic doses are expressed per square metre of body surface area (BSA), calculated from height and weight, or per kilogram. ASCO (2012) recommends any of the standard BSA formulae and finds no evidence to favour one. The two studies cited here used the DuBois formula, which Chatelut prints as 0.007184 x height (cm) to the power 0.725 x weight (kg) to the power 0.425; BOPA (2025) names the Boyd formula for children. Errors start at the scales: ASCO-ONS (2024) cites a study of 10,000 records in which 20% held height or weight errors, and requires height and weight in metric units, measured and documented and verified by two people, one a licensed clinician, before a new treatment plan is prepared. The order must state the calculation method, the variables, how often they are re-evaluated and what change prompts recalculation. BOPA requires an up-to-date height, weight and BSA on the first prescription, weight updated during treatment at a minimum frequency set by local policy, and a local policy on when weight change triggers a new dose; it says adult doses should be banded where bands are available and that any BSA capping be documented.\n\nFor people with obesity, ASCO (2012) recommends actual body weight and full weight-based cytotoxic doses, particularly when the aim is cure, including for morbid obesity subject to other illnesses; the 2021 update keeps this and adds full approved doses of immunotherapy and targeted therapy. Toxicity is handled the same way as in anyone else. The 2012 guideline found that up to 40% of obese patients received limited doses and that fears of toxicity were unfounded. It allows fixed dosing to be considered only for select agents (carboplatin and bleomycin are its examples) and notes that vincristine is capped at 2.0 mg in CHOP and CVP. Capping persists: in a German cohort of 730 patients with early breast cancer capped at BSA 2.0 m2, those above 2.1 m2 had lower dose intensity and worse survival, with obesity a possible confounder. How often to re-weigh adults is unsettled; a 2,276-patient study found a BSA change of 10% or more in at most 7.6% of patients and advised weighing at least every three months in some groups and considering every six months for the rest.",
+  summary: "Most cytotoxic doses are expressed per square metre of body surface area (BSA), calculated from height and weight, or per kilogram. ASCO (2012) recommends any of the standard BSA formulae and finds no evidence to favour one. The two studies cited here used the DuBois formula, which Chatelut prints as 0.007184 x height (cm) to the power 0.725 x weight (kg) to the power 0.425; BOPA (2025) names the Boyd formula for children. Errors start at the scales: ASCO-ONS (2024) cites a study of 10,000 records in which 20% held height or weight errors, and requires height and weight in metric units, measured and documented and verified by two people, one a licensed clinician, before a new treatment plan is prepared. For each order the medical record must hold the calculation method, the variables, how often they are re-evaluated and what change prompts confirmation or recalculation. BOPA requires an up-to-date height, weight and BSA on the first prescription, weight updated during treatment at a minimum frequency set by local policy, and a local policy on when weight change triggers a new dose; it says adult doses should be banded where bands are available and that any BSA capping be documented.\n\nFor people with obesity, ASCO (2012) recommends actual body weight and full weight-based cytotoxic doses, particularly when the aim is cure, including for morbid obesity subject to other illnesses; the 2021 update keeps this and adds full approved doses of immunotherapy and targeted therapy. Toxicity is handled the same way as in anyone else. The 2012 guideline found that up to 40% of obese patients received limited doses and that fears of toxicity were unfounded. It allows fixed dosing to be considered only for select agents (carboplatin and bleomycin are its examples) and notes that vincristine is capped at 2.0 mg in CHOP and CVP. Capping persists: in a German cohort of 730 patients with early breast cancer capped at BSA 2.0 m2, those above 2.1 m2 had lower dose intensity and worse survival, with obesity a possible confounder. How often to re-weigh adults is unsettled; a 2,276-patient study found a BSA change of 10% or more in at most 7.6% of patients and advised weighing at least every three months in some groups and considering every six months for the rest.",
   asOf: "2026-11-17",
   setting: {
     who: ["doctor", "pharmacist", "nurse"],
@@ -58,10 +62,10 @@ export const bodySizeBasedDoseCalculation = protocol({
       quote: "Weight and height are measured and documented in the medical record in metric units (eg, kg and cm). Both the measurement and documentation are verified by two individuals, one of whom is a licensed clinician, prior to preparation and administration of a newly prescribed antineoplastic treatment plan.",
     },
     {
-      action: "Write the calculation on the order: the method, the variables used, how often they will be rechecked and what change prompts recalculation",
-      why: "Anyone checking the dose later can repeat the sum and see when it should change.",
+      action: "Record the dose calculation in the medical record with the order: the method, the variables used, how often they will be re-evaluated and what change prompts confirmation or recalculation",
+      why: "The first verification before the drug is prepared checks the dose calculations, including the variables used, so they have to be on record (standards 3.9.8 and 3.12.2.1.6).",
       source: "asco-ons-2024",
-      quote: "The dose calculation, including: 3.9.8.1. The calculation methodology 3.9.8.2. The variables used to calculate the dose 3.9.8.3. The frequency at which variables are re-evaluated, such as weight or laboratory data 3.9.8.4. The changes in the values that prompt confirmation or recalculation of doses",
+      quote: "The frequency at which variables are re-evaluated, such as weight or laboratory data",
     },
     {
       action: "Calculate body surface area with any of the standard formulae",
@@ -125,7 +129,7 @@ export const bodySizeBasedDoseCalculation = protocol({
     },
   ],
   bestInClass: {
-    statement: "Metric height and weight, measured and verified by two people before a new plan (ASCO-ONS 2024); the calculation method, variables and recalculation triggers written on the order (ASCO-ONS 2024); an independent pharmacy check of every calculation (BOPA 2025); and actual body weight with full doses in obesity, for cytotoxics (ASCO 2012 and 2021) and, since 2021, immunotherapy and targeted therapy. ASCO 2012 accepts any standard BSA formula and reserves fixed dosing for select agents. For adults the sources set no re-weighing interval and no weight-change threshold; both are left to local policy, while BOPA asks for a child's weight before every cycle. BOPA notes that some clinicians cap BSA and asks that the decision be documented; ASCO recommends full weight-based doses, and no ASCO strength rating for that recommendation could be read.",
+    statement: "Metric height and weight, measured and verified by two people before a new plan (ASCO-ONS 2024); the calculation method, variables and recalculation triggers in the medical record for each order (ASCO-ONS 2024); an independent pharmacy check of every calculation (BOPA 2025); and actual body weight with full doses in obesity, for cytotoxics (ASCO 2012 and 2021) and, since 2021, immunotherapy and targeted therapy. ASCO 2012 accepts any standard BSA formula and reserves fixed dosing for select agents. For adults the sources set no re-weighing interval and no weight-change threshold; both are left to local policy, while BOPA asks for a child's weight before every cycle. BOPA notes that some clinicians cap BSA and asks that the decision be documented; ASCO recommends full weight-based doses, and no ASCO strength rating for that recommendation could be read.",
     sources: ["asco-ons-2024", "bopa-2025", "asco-obesity-2021", "asco-obesity-2012", "asco-obesity-2012-summary"],
   },
   variants: [
@@ -191,7 +195,7 @@ export const bodySizeBasedDoseCalculation = protocol({
       doi: "10.1200/OP.24.00216",
       gradingScheme: "Standards are not graded; developed from literature reviews, expert panel opinion and public comment.",
       read: "full-text",
-      accessed: "2026-11-11",
+      accessed: "2026-11-17",
     },
     {
       key: "bopa-2025",
@@ -240,7 +244,7 @@ export const bodySizeBasedDoseCalculation = protocol({
   upgrades: [],
   gaps: [
     "The full ASCO 2021 guideline could not be read on 17 November 2026 (the publisher refuses a script and there is no open copy); the steps citing it rest on its abstract. The strength and evidence rating of each recommendation, the drug-by-drug notes on immunotherapy and targeted therapy, and whether the update keeps the 2012 fixed-dose exceptions and the vincristine cap were therefore not read. The exceptions on this page are the 2012 guideline's, read from its open executive summary.",
-    "The ASCO-ONS standards (2024) were read in full on 11 November 2026 but could not be read again on 17 November 2026: the publisher refused a script, the ONS page gives a one-page preview, and there is no open copy. The two quoted standards, the 10,000-record study with its 20% error figure, and the statement that ASCO-ONS cites the re-weighing study rest on the first reading only.",
+    "The ASCO-ONS standards (2024) were read in full on 17 November 2026 from the Oncology Nursing Society's open copy of the co-published text (Oncology Nursing Forum, July 2024), because the JCO Oncology Practice site refuses a script. The two quoted standards, the 10,000-record study with its 20% error figure, and the panel's citation of the re-weighing study were confirmed there. The standards say height and weight are measured again when clinically appropriate under the organisation's policy, and print no interval.",
     "For adults, no guideline read sets how often to re-weigh or what weight change should trigger a new dose; both are local policy. The 10% change in BSA used in the re-weighing study was the authors' assumption, not a standard. Only the abstract of that study could be read. The NHS England national dose banding pages, which set UK rounding rules, returned an empty response to a script on 17 November 2026 and were not read.",
     "No national standard on rounding doses to vial sizes could be read.",
     "The page prints the DuBois formula because a source read as text prints it. It does not print the Mosteller formula: no source read as text does (the one open review found holds it as an image). No source read says which formula UK adult services use.",

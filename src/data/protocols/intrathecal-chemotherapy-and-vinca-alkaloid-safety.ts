@@ -23,9 +23,13 @@ import { protocol } from "./helpers";
  * - ISMP Targeted Medication Safety Best Practices for Hospitals 2026-2027: full text of the PDF, and its Frequently
  *   Asked Questions (2026): full text of the PDF (online.ecri.org).
  * - Vincristine Sulfate Injection, USP (Hospira), US prescribing information revised December 2025: DailyMed SPL XML.
- * - ASCO-ONS standards (2024): the abstract only (Europe PMC, a copy a sibling checker saved the same day).
- *   ascopubs.org returns 403, there is no PubMed Central copy, and the Internet Archive had no capture at the address
- *   tried, so standard 3.13 could NOT be re-read; its quotes were taken out and no step rests on it.
+ * - ASCO-ONS standards (2024): at first the abstract only, so its quotes were taken out and no step rests on it. Later
+ *   on 17 November the full text was read in the Oncology Nursing Society's open co-publication (the advance-print
+ *   PDF offered on the ONS article page,
+ *   Oncology Nursing Forum, July 2024, 51(4)), converted with pdftotext; a copy another checker fetched from ons.org
+ *   the same day was re-used.
+ *   Standard 3.13 (3.13.1 to 3.13.6) was read there and is now described in bestInClass and `gaps`; nothing is quoted
+ *   from it. ascopubs.org was not requested.
  * - BOPA's verification standards, version 5.0 (3 June 2025), from a copy a sibling checker saved the same day: they
  *   still cite HSC 2008/001.
  * - NHS England (the NRFit National Patient Safety Alert and the Never Events list) returned an empty response to a
@@ -129,7 +133,7 @@ export const intrathecalChemotherapyAndVincaAlkaloidSafety = protocol({
     },
   ],
   bestInClass: {
-    statement: "Separate intrathecal chemotherapy in people, time and place: a register of authorised staff, administration only by registered doctors at ST3 level or above, separate locked storage, issue after the day's intravenous chemotherapy has been given, a designated room, recorded checks by two registered staff with the patient if they wish, and NRFit connectors (HSC 2008/001 as restated by SPS in 2025, which words most of these as 'must'; Scotland's CEL 21 of 2009). Give every intravenous vinca alkaloid from a minibag, not a syringe (ISMP Best Practice 1, wherever the treatment is given; WHO 2007). The sources differ on children: ISMP recommends minibags for them too, while the UK guidance (NPSA 2008, SPS 2025, Scotland's CEL 22) applies minibags to adult and adolescent units and does not recommend them in paediatric units. ISMP says its best practice is supported by ASCO and ONS, citing their 2024 standards, whose own wording could not be re-read. None of these standards is graded.",
+    statement: "Separate intrathecal chemotherapy in people, time and place: a register of authorised staff, administration only by registered doctors at ST3 level or above, separate locked storage, issue after the day's intravenous chemotherapy has been given, a designated room, recorded checks by two registered staff with the patient if they wish, and NRFit connectors (HSC 2008/001 as restated by SPS in 2025, which words most of these as 'must'; Scotland's CEL 21 of 2009). Give every intravenous vinca alkaloid from a minibag, not a syringe (ISMP Best Practice 1, wherever the treatment is given; WHO 2007). The sources differ on children: ISMP recommends minibags for them too, while the UK guidance (NPSA 2008, SPS 2025, Scotland's CEL 22) applies minibags to adult and adolescent units and does not recommend them in paediatric units. ISMP says its best practice is supported by ASCO and ONS, citing their 2024 standards. Standard 3.13.6 of those asks an organisation that gives anticancer drugs into the cerebrospinal fluid to have a policy that intravenous vinca alkaloids are given only by infusion, for example minibags, and prints no exception for children. None of these standards is graded.",
     sources: ["sps-itc-2025", "sps-risks-2025", "sps-vinca-2025", "hsc-2008", "cel-21-2009", "cel-22-2009", "ismp-bp-2026", "ismp-2026", "who-alert-115", "npsa-rrr004"],
   },
   variants: [
@@ -274,7 +278,7 @@ export const intrathecalChemotherapyAndVincaAlkaloidSafety = protocol({
       url: "https://doi.org/10.1200/OP.24.00216",
       doi: "10.1200/OP.24.00216",
       gradingScheme: "Standards are not graded.",
-      read: "abstract",
+      read: "full-text",
       accessed: "2026-11-17",
     },
   ],
@@ -285,7 +289,7 @@ export const intrathecalChemotherapyAndVincaAlkaloidSafety = protocol({
   gaps: [
     "On 17 November 2026 the full text of HSC 2008/001 could not be re-read: the Internet Archive answered 429 for the PDF and the UK Government Web Archive answered with a human-verification page. Only its publication page was read. The steps for England now rest on the NHS Specialist Pharmacy Service's restatement of June 2025. Details recorded from the circular at the first reading on 11 November 2026 and not confirmed since (that the room must have walls and a door and a curtained area will not do, and that a relative or guardian may join the checks) have been left out of the steps.",
     "HSC 2008/001 dates from 2008. The NHS Specialist Pharmacy Service wrote in June 2025 that the national guidance is being updated; no replacement was found on 17 November 2026, and BOPA's verification standards (version 5.0, June 2025) still cite the 2008 circular.",
-    "On 17 November 2026 the ASCO-ONS standards (2024) could be read only as an abstract, which does not mention intrathecal chemotherapy: the publisher refuses a script, there is no PubMed Central copy and the Internet Archive had no capture at the address tried. The first reading on 11 November 2026 recorded standard 3.13 as requiring separate preparation, unique labelling, separate storage and delivery, a time out with a two-practitioner double check, and a policy of vinca alkaloids by infusion only where intrathecal chemotherapy is given. That wording is not quoted here and no step rests on it. No newer edition was found in Europe PMC or Crossref.",
+    "The ASCO-ONS standards (2024) were read in full on 17 November 2026 from the Oncology Nursing Society's open copy of the co-published text (Oncology Nursing Forum, July 2024), because the JCO Oncology Practice site refuses a script. Standard 3.13 asks an organisation that gives drugs intrathecally or intraventricularly for a policy that they are prepared separately from other anticancer drugs, labelled at once with a uniquely identifiable label, stored apart from other anticancer medicines, delivered to the patient only with other medicines meant for the central nervous system, and given immediately after a time out and double check by two licensed practitioners or other approved licensed clinicians; and for a policy that intravenous vinca alkaloids are given only by infusion, for example minibags. It is not graded, it sets no minibag volume or infusion time, and no step on this page rests on it. No newer edition was found in Europe PMC or Crossref.",
     "The NPSA alert itself (PDF) and its supporting information were not read, only the summary page. The 50 mL volume and the 5 to 10 minute infusion come from the NHS Specialist Pharmacy Service's summary and from Scotland's CEL 22 (2009). Scotland's DL(2025)14 of 26 June 2025 calls CEL 21 (2009) extant and lists CEL 22 (2009) among its references without saying whether it has been revised.",
     "NHS England's National Patient Safety Alert on the transition to NRFit connectors and its Never Events list could not be read on 17 November 2026 (the site returned an empty response to a script). The page therefore gives the NRFit requirement as the NHS Specialist Pharmacy Service states it, does not name the ISO standard for the connector, and does not say how the current Never Events list words this error.",
     "This page does not set out what to do after a vinca alkaloid has been given intrathecally. No UK or ISMP source read here covers it. The US label describes the treatments that have been tried, including immediate removal of spinal fluid and flushing, and says they have not prevented ascending paralysis and death, with one reported case in which paralysis was arrested.",

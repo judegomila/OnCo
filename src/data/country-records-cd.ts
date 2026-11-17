@@ -196,7 +196,7 @@ const papers: PaperInput[] = [
       "Breast and cervical cancer were the commonest in women; prostate and skin cancer the commonest in men.",
       "Thyroid cancer ranked sixth in women and eleventh in men, and papillary carcinoma was the commonest type.",
     ],
-    whatItMeans: "With no registry, laboratory registers are the main window on which cancers are diagnosed in the capital; this series shows a pattern close to IARC's modelled estimate, led by breast, cervical and prostate cancer.",
+    whatItMeans: "With no registry found by the 2021 imPACT Review, laboratory registers are the main window on which cancers are diagnosed in the capital; this series shows a pattern close to IARC's modelled estimate, led by breast, cervical and prostate cancer.",
     caveats: ["Proportions among biopsied cancers, not incidence rates.", "Four laboratories in one city."],
     institutions: ["cliniques-universitaires-de-kinshasa"], cancers: ["breast-cancer", "cervical", "prostate", "thyroid"],
     links: [doi("10.5493/wjem.v13.i3.17", "World J Exp Med 2023"), pubmed("37396884")] }),

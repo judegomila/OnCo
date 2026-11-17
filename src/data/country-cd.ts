@@ -19,6 +19,7 @@ const IMPACT_2022 = "https://www.iaea.org/sites/default/files/documents/review-m
 const IAEA_2022 = "https://www.iaea.org/newscenter/news/strengthening-cancer-care-in-the-democratic-republic-of-the-congo-experts-recommend-decentralizing-services";
 const IAEA_2022_WB = "https://web.archive.org/web/20220703120837/https://www.iaea.org/newscenter/news/strengthening-cancer-care-in-the-democratic-republic-of-the-congo-experts-recommend-decentralizing-services";
 const IAEA_2023_WB = "https://web.archive.org/web/20231117192811/https://www.iaea.org/newscenter/news/iaea-director-general-and-president-of-the-democratic-republic-of-the-congo-celebrate-cancer-care-milestone";
+const DIRAC = "https://dirac.iaea.org/Query/Countries";
 const OPEC_KCC = "https://opecfund.org/where-we-work/list/kinshasa-cancer-center-project";
 const STRAT_2015 = "https://www.iccp-portal.org/system/files/plans/COD_B5_Strat%C3%A9gie%20version%20finale%20du%2024042015.pdf";
 const ACOREP = "https://acorep.gouv.cd/";
@@ -52,7 +53,7 @@ export const CD_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in the Democratic Republic of the Congo",
   description:
-    "Cancer in the Democratic Republic of the Congo from WHO, IAEA, UN and Congolese sources: IARC's estimate of 69,739 new cancers and 44,261 deaths in 2024, made without any Congolese registry, the 2021 imPACT Review, the national cancer centre created in 2020, one private radiotherapy centre, a public one whose foundation stone was laid in 2023 and a cancer centre loan approved in 2026, the regulator ACOREP and its register of medicines, out-of-pocket spending, cervical screening reported by 0.69% of women, HPV vaccine planned for 2026, and why no trial in our records has a site there.",
+    "Cancer in the Democratic Republic of the Congo from WHO, IAEA, UN and Congolese sources: IARC's estimate of 69,739 new cancers and 44,261 deaths in 2024, made without Congolese registry data, the 2021 imPACT Review, the national cancer centre created in 2020, one private radiotherapy centre, a public one whose foundation stone was laid in 2023 and a cancer centre loan approved in 2026, the regulator ACOREP and its register of medicines, out-of-pocket spending, cervical screening reported by 0.69% of women, HPV vaccine planned for 2026, and why no trial in our records has a site there.",
   lede:
     "The Democratic Republic of the Congo had no cancer registry when international reviewers looked in 2021, and IARC uses no Congolese data, so its national figures are estimates borrowed from neighbouring countries: 69,739 new cancers and 44,261 deaths in 2024, with cervical, breast and prostate cancer leading. The 2021 imPACT Review found diagnosis and treatment concentrated in Kinshasa, mostly in private facilities, and no public radiotherapy, in a country where UNHCR records millions of people displaced from their homes.",
   globocanNote:
@@ -122,12 +123,12 @@ export const CD_DIVE: CountryDive = {
     {
       id: "registry",
       nav: "Registry",
-      title: "Who counts cancer: no registry yet, and a plan for three",
+      title: "Who counts cancer: no registry found in 2021, and a plan for three",
       aside: { label: "imPACT Review summary report (PDF)", url: IMPACT_2022 },
       cards: [
         {
           id: "no-registry",
-          title: "No population-based or hospital-based registry, and three proposed",
+          title: "No population-based or hospital-based registry found in 2021, and three proposed",
           plain:
             "In 2021 international reviewers found that the Democratic Republic of the Congo had no cancer registry, neither one that counts every cancer in a defined population nor one based in a hospital. They recommended starting with two in Kinshasa and one covering the whole city of Lubumbashi, coordinated by the national cancer centre, and adding cancer to the national health information system.",
           detail:
@@ -245,10 +246,11 @@ export const CD_DIVE: CountryDive = {
           plain:
             "In 2022 the IAEA reported that the only radiotherapy in the Democratic Republic of the Congo was one private centre, opened in 2020; in its first year it treated 130 patients, against a capacity of 500 and an estimated need of more than 25,000. The foundation stone of a first public radiotherapy centre, at the University of Kinshasa, was laid in November 2023, and in June 2026 the OPEC Fund approved a loan towards a 76 million US dollar Kinshasa Cancer Center Project.",
           detail:
-            "The imPACT Review found no radiotherapy in the public sector and one private centre, and recommended increasing public access to radiotherapy at Nganda, including through collaboration with the private sector, and introducing a public service in Kinshasa. The IAEA's article on the review said the private facility, established in 2020, treated 130 patients in its first year, could treat 500 a year, and that more than 25,000 patients a year require treatment. The DRC was among the first countries of the IAEA's Rays of Hope initiative, whose launch on 4 February 2022 its President co-hosted. On 16 November 2023 the IAEA Director General attended the laying of the foundation stone of the country's first public radiotherapy centre, the Centre of Multidisciplinary Diagnostic and Radiotherapy, to be hosted by the University of Kinshasa. The OPEC Fund's project page records a loan for the Kinshasa Cancer Center Project approved on 24 June 2026: 38 million US dollars from the OPEC Fund of a total cost of 76 million, co-financed by the IAEA and the government, executed by the CGEA. The project page gives no description of the facility, so OnCo cannot confirm from it that this is the radiotherapy centre whose stone was laid in 2023. Radiation safety is regulated by the National Committee for Protection against Ionizing Radiation (CNPRI), which the reviewers said lacked operational assets.",
+            "The imPACT Review found no radiotherapy in the public sector and one private centre, and recommended increasing public access to radiotherapy at Nganda, including through collaboration with the private sector, and introducing a public service in Kinshasa. The IAEA's article on the review said the private facility, established in 2020, treated 130 patients in its first year, could treat 500 a year, and that more than 25,000 patients a year require treatment. The IAEA's Directory of Radiotherapy Centres (DIRAC), which is built from replies to IAEA questionnaires, listed one centre for the country when read on 17 November 2026: Nganda Hospital Center in Kinshasa, with one linear accelerator, no cobalt-60 unit and no brachytherapy, in an entry last updated in 2021. The DRC was among the first countries of the IAEA's Rays of Hope initiative, whose launch on 4 February 2022 its President co-hosted. On 16 November 2023 the IAEA Director General attended the laying of the foundation stone of the country's first public radiotherapy centre, the Centre of Multidisciplinary Diagnostic and Radiotherapy, to be hosted by the University of Kinshasa. The OPEC Fund's project page records a loan for the Kinshasa Cancer Center Project approved on 24 June 2026: 38 million US dollars from the OPEC Fund of a total cost of 76 million, co-financed by the IAEA and the government, executed by the CGEA. The project page gives no description of the facility, so OnCo cannot confirm from it that this is the radiotherapy centre whose stone was laid in 2023. Radiation safety is regulated by the National Committee for Protection against Ionizing Radiation (CNPRI), which the reviewers said lacked operational assets.",
           links: [
             { label: "IAEA: experts recommend decentralising cancer services in the DRC (22 February 2022; read through the Internet Archive)", url: IAEA_2022_WB },
             { label: "IAEA: celebrating a cancer care milestone in the DRC (17 November 2023; read through the Internet Archive)", url: IAEA_2023_WB },
+            { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: DIRAC },
             { label: "OPEC Fund: Kinshasa Cancer Center Project", url: OPEC_KCC },
             { label: "imPACT Review summary report, findings 7 and 11 and treatment recommendations (PDF)", url: IMPACT_2022 },
           ],
@@ -366,8 +368,9 @@ export const CD_DIVE: CountryDive = {
       plain:
         "OnCo found no published national cancer control plan for the Democratic Republic of the Congo, and could not read the revised 2024 to 2029 strategy against cervical and breast cancer that the World Bank describes. The cervical and breast strategy quoted here is the 2015 edition.",
       detail:
-        "The imPACT reviewers recommended in 2021 that the national cancer centre write a plan; OnCo found none on the International Cancer Control Partnership's portal, the Ministry's site or the centre's site, whose documents and statistics pages were empty when read on 11 November 2026. The 2024 to 2029 strategy is known only from the World Bank's description. The IAEA's own pages refused a plain request and were read through the Internet Archive; the IAEA's DIRAC database of radiotherapy machines was not read, so no machine count appears here.",
+        "The imPACT reviewers recommended in 2021 that the national cancer centre write a plan; OnCo found none on the International Cancer Control Partnership's portal, the Ministry's site or the centre's site, whose documents and statistics pages were empty when read on 11 November 2026. The 2024 to 2029 strategy is known only from the World Bank's description. The IAEA's own pages refused a plain request and were read through the Internet Archive; the IAEA's DIRAC directory of radiotherapy centres was not read when this page was written. Read on 17 November 2026 from its public data feed, it lists one centre for the country: Nganda Hospital Center in Kinshasa, with one linear accelerator, no cobalt-60 unit and no brachytherapy, in an entry last updated in 2021. DIRAC is built from replies to IAEA questionnaires, so a centre that has not replied would not appear.",
       links: [
+        { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: DIRAC },
         { label: "imPACT Review summary report (PDF)", url: IMPACT_2022 },
         { label: "IAEA: experts recommend decentralising cancer services in the DRC (22 February 2022)", url: IAEA_2022 },
         { label: "World Bank: protecting women and girls in the DRC against cervical cancer (19 August 2025)", url: WB_HPV },

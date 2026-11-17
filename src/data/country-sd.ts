@@ -25,6 +25,7 @@ const WHO_OOP_API = "https://ghoapi.azureedge.net/api/GHED_OOPSCHE_SHA2011?$filt
 const WHO_INTRO_API = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20'SDN'";
 const WHO_HEPB_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'SDN'%20and%20ANTIGEN%20eq%20'HEPB3'";
 const CTGOV = "https://clinicaltrials.gov/search?cond=cancer&locStr=Sudan&country=Sudan";
+const DIRAC = "https://dirac.iaea.org/Query/Countries";
 const D_SAEED = "https://doi.org/10.1002/cam4.254";
 const D_ALRAWA = "https://doi.org/10.3332/ecancer.2023.128";
 const D_COLLAPSE = "https://doi.org/10.1200/GO.24.00144";
@@ -200,10 +201,11 @@ export const SD_DIVE: CountryDive = {
           plain:
             "Radiotherapy was scarce in Sudan before the war: seven working machines for about 50 million people, far below the IAEA's guide of one per 250,000. Surveys of all five radiotherapy centres found that by September 2025 only one, Merowe Medical City in Northern State, was still treating patients.",
           detail:
-            "A survey of all five radiotherapy centres (three public, two private) in January 2023, with a follow-up in September 2025, counts 13 cobalt-60 teletherapy units, eight linear accelerators and six HDR brachytherapy systems installed since 1967. Before April 2023 seven megavoltage units were working, four cobalt-60 and three linear accelerators, one per seven million people against an IAEA recommendation of one per 250,000. About 30% of cobalt units had been dismantled prematurely for lack of maintenance and source replacement, only two of six brachytherapy units still worked, and intensity-modulated techniques were available only privately. By September 2025 Merowe Medical City was the sole functioning facility in the country. The 2023 editorial named the private Eldaman Oncology and Radiotherapy Center in Merowe, with one linear accelerator, as the only centre then giving radiotherapy, and said its cost, travel and lodging were beyond many patients. OnCo could not confirm whether these two names describe the same centre.",
+            "A survey of all five radiotherapy centres (three public, two private) in January 2023, with a follow-up in September 2025, counts 13 cobalt-60 teletherapy units, eight linear accelerators and six HDR brachytherapy systems installed since 1967. Before April 2023 seven megavoltage units were working, four cobalt-60 and three linear accelerators, one per seven million people against an IAEA recommendation of one per 250,000. About 30% of cobalt units had been dismantled prematurely for lack of maintenance and source replacement, only two of six brachytherapy units still worked, and intensity-modulated techniques were available only privately. By September 2025 Merowe Medical City was the sole functioning facility in the country. The 2023 editorial named the private Eldaman Oncology and Radiotherapy Center in Merowe, with one linear accelerator, as the only centre then giving radiotherapy, and said its cost, travel and lodging were beyond many patients. OnCo could not confirm whether these two names describe the same centre. The IAEA's Directory of Radiotherapy Centres (DIRAC), which is built from replies to IAEA questionnaires, listed when read on 17 November 2026 three centres with radiotherapy, all in entries last updated in 2022, before the war: the Radiation and Isotopes Centre Khartoum with two cobalt-60 units, the National Cancer Institute of the University of Gezira in Wad Madani with two cobalt-60 units, and a centre entered as Daman Oncology Center in Merowe with two linear accelerators. That is four cobalt-60 units and two linear accelerators, and no brachytherapy is listed. Its country table counts four centres, three of them with radiotherapy. The census and DIRAC are separate counts with different dates, and DIRAC's entries do not say which machines work now.",
           links: [
             { label: "Elhaj et al., radiotherapy in Sudan: facing infrastructure, workforce and armed conflict challenges (Radiother Oncol 2026)", url: D_RT },
             { label: "Alrawa et al., five months into conflict (ecancer 2023)", url: D_ALRAWA },
+            { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: DIRAC },
           ],
         },
         {
@@ -408,11 +410,12 @@ export const SD_DIVE: CountryDive = {
       plain:
         "OnCo could not find from a primary source: how many Sudanese the National Health Insurance Fund covers and which cancer treatments it pays for, whether WHO has benchmarked the medicines regulator, any population-based cancer survival figure, or a national cancer plan adopted after 2016.",
       detail:
-        "The Fund's pages give its history and contribution rates but no coverage count; the preprint's statement that it covers a minority is from interviews, not Fund data. WHO's list of regulators assessed with its Global Benchmarking Tool was not checked here, so no maturity level is given for the National Medicines and Poisons Board, and the Board publishes no registration timelines that OnCo found. The only survival figure on this page is one hospital's breast cancer cohort. IARC's detailed data sources page for Sudan was not read; the method is taken from the fact sheet. The IAEA's DIRAC directory and the WHO cancer country profile for Sudan were not read; machine counts come from the 2026 census paper. Sudan's essential medicines list was not read.",
+        "The Fund's pages give its history and contribution rates but no coverage count; the preprint's statement that it covers a minority is from interviews, not Fund data. WHO's list of regulators assessed with its Global Benchmarking Tool was not checked here, so no maturity level is given for the National Medicines and Poisons Board, and the Board publishes no registration timelines that OnCo found. The only survival figure on this page is one hospital's breast cancer cohort. IARC's detailed data sources page for Sudan was not read; the method is taken from the fact sheet. The WHO cancer country profile for Sudan was not read. The IAEA's DIRAC directory was not read when this page was written; it was read on 17 November 2026 from its public data feed and its listing, of three centres in entries dated 2022, is now on the radiotherapy card beside the 2026 census paper's counts. Sudan's essential medicines list was not read.",
       links: [
         { label: "NHIF: about the Fund (Arabic)", url: NHIF_ABOUT },
         { label: "NMPB: about the Board (Arabic)", url: NMPB_ABOUT },
         { label: "IARC: GLOBOCAN 2024 fact sheet, Sudan (PDF)", url: IARC_FACTSHEET },
+        { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: DIRAC },
       ],
     },
   ],

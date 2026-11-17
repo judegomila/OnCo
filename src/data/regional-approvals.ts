@@ -162,7 +162,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   "obecabtagene-autoleucel": { US: A(2024), EU: V(C(2025, epar("aucatzyl"), "R/R B-ALL adults ≥26; 17 Jul 2025 (conditional)")), UK: A(2025, govuk("obecabtagene-autoleucel-conditionally-approved-to-treat-adults-with-relapsed-or-refractory-b-cell-precursor-acute-lymphoblastic-leukaemia"), "R/R B-ALL (conditional); 24 Apr 2025") },
   lifileucel: { US: A(2024, undefined, "Accelerated Feb 2024"), EU: W(2025, epar("amtagvi"), "MAA withdrawn 22 Jul 2025 after CHMP signalled a negative opinion (response rate, deaths, manufacturing)"), UK: UR("MHRA application 2025"), CN: NF(), AU: UR("TGA evaluation") },
   "afamitresgene-autoleucel": { US: A(2024, undefined, "Accelerated Aug 2024; full approval Jun 2026"), EU: NF("No MAA; US WorldMeds acquired US rights 2025") },
-  "satricabtagene-autoleucel": { US: UR("US phase 1b/2 (CARsgen)"), CN: A(2025, NMPA, "CLDN18.2+ advanced gastric/GEJ after ≥2 lines (Sep 2025); first CAR-T for a solid tumour") },
+  "satricabtagene-autoleucel": { US: UR("US phase 1b/2 (CARsgen)"), CN: A(2026, NMPA, "CLDN18.2+, HER2-negative advanced gastric/GEJ after ≥2 lines (22 June 2026); first CAR-T for a solid tumour") },
   "relmacabtagene-autoleucel": { US: NF("China only (JW Therapeutics)"), CN: A(2021, NMPA, "R/R LBCL Sep 2021; R/R follicular lymphoma 2022") },
   "equecabtagene-autoleucel": { US: NF("RMAT designation; no BLA"), CN: A(2023, NMPA, "R/R multiple myeloma after 3 or more lines (Jun 2023)") },
   "zevorcabtagene-autoleucel": { US: NF("US development (LUMMICAR-2) deprioritised"), CN: A(2024, NMPA, "R/R multiple myeloma after 3 or more lines (Feb 2024)") },

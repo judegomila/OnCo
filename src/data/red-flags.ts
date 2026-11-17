@@ -178,7 +178,7 @@ export const redFlagSets: RedFlagSet[] = [
     drugIds: ["trastuzumab-deruxtecan", "datopotamab-deruxtecan", "patritumab-deruxtecan", "ifinatamab-deruxtecan", "raludotatug-deruxtecan"],
     window: "Interstitial lung disease can occur at any time; the Enhertu label carries a boxed warning and says to advise patients to report symptoms immediately.",
     flags: [
-      { symptom: "Interstitial lung disease or pneumonitis", threshold: "Any new or worsening cough, breathlessness or fever. The label says to interrupt treatment for any suspected ILD and to permanently discontinue for grade 2 or higher.", action: "call-now", source: label("Enhertu") },
+      { symptom: "Interstitial lung disease or pneumonitis", threshold: "Any new or worsening cough, breathlessness or fever. The label says to interrupt treatment for any suspected ILD and to permanently discontinue for grade 2 or higher.", action: "call-now", source: label("Enhertu"), protocols: ["interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
       { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher (the label: severe neutropenia including febrile neutropenia can occur; monitor counts).", action: "call-now", source: label("Enhertu"), protocols: ["febrile-neutropenia-first-hour"] },
       { symptom: "Heart failure", threshold: "New breathlessness on exertion, swollen ankles, or waking breathless (left ventricular dysfunction is a labelled warning).", action: "call-today", source: label("Enhertu") },
       { symptom: "Eye symptoms (datopotamab)", threshold: "Dry eye, blurred vision, eye pain or light sensitivity; the Datroway label lists ocular adverse reactions including keratitis and requires eye examinations.", action: "call-today", source: label("Datroway") },
@@ -283,7 +283,7 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Blood in urine (cyclophosphamide, ifosfamide)", threshold: "Visible blood in the urine or pain on passing urine; haemorrhagic cystitis is a labelled warning and mesna and hydration are used to prevent it.", action: "call-now", source: label("cyclophosphamide") },
       { symptom: "Hearing or kidney changes (cisplatin)", threshold: "New ringing in the ears or hearing loss, or passing much less urine; boxed warnings cover nephrotoxicity and ototoxicity.", action: "call-today", source: label("cisplatin") },
       { symptom: "Breathlessness (bleomycin)", threshold: "New cough or breathlessness at any time during or after bleomycin; pulmonary fibrosis is a boxed warning.", action: "call-now", source: label("bleomycin") },
-      { symptom: "Constipation or abdominal swelling (vincristine)", threshold: "No bowel movement for three days, or abdominal swelling with vomiting (possible ileus).", action: "call-today", source: label("vincristine") },
+      { symptom: "Constipation or abdominal swelling (vincristine)", threshold: "No bowel movement for three days, or abdominal swelling with vomiting (possible ileus).", action: "call-today", source: label("vincristine"), protocols: ["constipation-in-adults-with-cancer"] },
       { symptom: "Throat tightness in the cold (oxaliplatin)", threshold: "A feeling of difficulty breathing or swallowing on exposure to cold in the days after a dose; the label describes laryngopharyngeal dysaesthesia and advises avoiding cold.", action: "call-today", source: label("oxaliplatin") },
     ],
   },
@@ -295,10 +295,10 @@ export const redFlagSets: RedFlagSet[] = [
     flags: [
       { symptom: "Bowel perforation", threshold: "Sudden severe abdominal pain, a hard or very tender abdomen, or abdominal pain with vomiting and fever. Boxed warning for gastrointestinal perforation on bevacizumab.", action: "emergency", source: AVASTIN },
       { symptom: "Serious bleeding", threshold: "Coughing blood (more than a teaspoon), vomiting blood, black stools, or a nosebleed that will not stop. Boxed warning for haemorrhage on bevacizumab.", action: "emergency", source: AVASTIN },
-      { symptom: "Hypertensive crisis or brain swelling", threshold: "Severe headache, confusion, visual disturbance, seizure, or a blood pressure reading of 160 or more over 100 or more; the labels warn of hypertensive crisis and posterior reversible encephalopathy syndrome.", action: "emergency", source: AVASTIN },
+      { symptom: "Hypertensive crisis or brain swelling", threshold: "Severe headache, confusion, visual disturbance, seizure, or a blood pressure reading of 160 or more over 100 or more; the labels warn of hypertensive crisis and posterior reversible encephalopathy syndrome.", action: "emergency", source: AVASTIN, protocols: ["hypertension-and-proteinuria-on-vegf-pathway-inhibitors"] },
       { symptom: "Wound that will not heal", threshold: "A surgical wound that opens, leaks or is not healing; the label says to withhold treatment for at least 28 days around surgery. Boxed warning for wound healing complications on bevacizumab.", action: "call-today", source: AVASTIN, protocols: ["anti-vegf-drugs-around-surgery"] },
       { symptom: "Stroke or heart attack signs", threshold: "Sudden weakness on one side, slurred speech, facial droop, or chest pain; arterial thromboembolic events are a labelled warning.", action: "emergency", source: AVASTIN },
-      { symptom: "Protein in urine or swelling", threshold: "Foamy urine, swollen ankles or rapid weight gain; nephrotic syndrome is a labelled warning and urine protein is monitored.", action: "call-today", source: AVASTIN },
+      { symptom: "Protein in urine or swelling", threshold: "Foamy urine, swollen ankles or rapid weight gain; nephrotic syndrome is a labelled warning and urine protein is monitored.", action: "call-today", source: AVASTIN, protocols: ["hypertension-and-proteinuria-on-vegf-pathway-inhibitors"] },
     ],
   },
   {
@@ -306,9 +306,9 @@ export const redFlagSets: RedFlagSet[] = [
     label: "Kinase inhibitors (oral targeted drugs)",
     modalityRe: "kinase inhibitor|\\btki\\b|pan-erbb|pan-her|raf/mek|mek1/2|abl1|inhibitor \\(kras|ras\\(on\\)",
     flags: [
-      { symptom: "Fainting or palpitations", threshold: "Fainting, near-fainting, or an irregular or racing heartbeat; several kinase inhibitors prolong the QT interval and the labels require ECG and electrolyte monitoring.", action: "emergency", source: label("ribociclib") },
-      { symptom: "Liver injury", threshold: "Yellow skin or eyes, dark urine, pain under the right ribs, or unusual tiredness with nausea; hepatotoxicity is a labelled warning for many kinase inhibitors and blood tests are checked before each cycle.", action: "call-today", source: label("lapatinib") },
-      { symptom: "Lung inflammation (EGFR inhibitors)", threshold: "New or worsening cough, breathlessness or fever; the osimertinib label says to withhold for suspected ILD and permanently discontinue if confirmed.", action: "call-now", source: label("osimertinib") },
+      { symptom: "Fainting or palpitations", threshold: "Fainting, near-fainting, or an irregular or racing heartbeat; several kinase inhibitors prolong the QT interval and the labels require ECG and electrolyte monitoring.", action: "emergency", source: label("ribociclib"), protocols: ["qt-prolongation-monitoring-on-anticancer-drugs"] },
+      { symptom: "Liver injury", threshold: "Yellow skin or eyes, dark urine, pain under the right ribs, or unusual tiredness with nausea; hepatotoxicity is a labelled warning for many kinase inhibitors and blood tests are checked before each cycle.", action: "call-today", source: label("lapatinib"), protocols: ["raised-liver-enzymes-on-targeted-anticancer-drugs"] },
+      { symptom: "Lung inflammation (EGFR inhibitors)", threshold: "New or worsening cough, breathlessness or fever; the osimertinib label says to withhold for suspected ILD and permanently discontinue if confirmed.", action: "call-now", source: label("osimertinib"), protocols: ["interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
       { symptom: "Severe diarrhoea", threshold: "Diarrhoea not controlled by loperamide within 24 hours, or with dehydration; a labelled warning for HER2 and pan-HER inhibitors such as neratinib and afatinib.", action: "call-now", source: label("neratinib"), protocols: ["treatment-induced-diarrhoea-grading-and-management", "neratinib-diarrhoea-prophylaxis-and-dose-escalation"] },
       { symptom: "Rash that blisters or infects", threshold: "Blistering or peeling skin, or an acne-like rash with pus and fever.", action: "call-now", source: label("osimertinib"), protocols: ["egfr-inhibitor-rash-prophylaxis"] },
       { symptom: "Vision changes (MEK and FGFR inhibitors)", threshold: "Blurred vision, floaters, or a dark area in vision; serous retinopathy and retinal vein occlusion are labelled warnings.", action: "call-today", source: label("trametinib") },
@@ -319,10 +319,10 @@ export const redFlagSets: RedFlagSet[] = [
     label: "BTK inhibitors",
     modalityRe: "btk",
     flags: [
-      { symptom: "Major bleeding", threshold: "Blood in stool or urine, vomiting blood, a bleed that will not stop, or a severe headache; fatal bleeding events have occurred and the labels advise considering the risk around surgery and with blood thinners.", action: "emergency", source: label("Imbruvica") },
-      { symptom: "Atrial fibrillation or ventricular arrhythmia", threshold: "Palpitations, an irregular heartbeat, dizziness, breathlessness or fainting; the ibrutinib label warns of atrial fibrillation, ventricular arrhythmias and sudden death.", action: "call-now", source: label("Imbruvica") },
+      { symptom: "Major bleeding", threshold: "Blood in stool or urine, vomiting blood, a bleed that will not stop, or a severe headache; fatal bleeding events have occurred and the labels advise considering the risk around surgery and with blood thinners.", action: "emergency", source: label("Imbruvica"), protocols: ["atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
+      { symptom: "Atrial fibrillation or ventricular arrhythmia", threshold: "Palpitations, an irregular heartbeat, dizziness, breathlessness or fainting; the ibrutinib label warns of atrial fibrillation, ventricular arrhythmias and sudden death.", action: "call-now", source: label("Imbruvica"), protocols: ["atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
       { symptom: "Infection", threshold: "Fever or any infection sign; serious infections including opportunistic fungal infections are labelled warnings.", action: "call-now", source: label("Imbruvica") },
-      { symptom: "High blood pressure", threshold: "Readings of 160 or more over 100 or more, or severe headache; hypertension is a labelled warning and may need new or adjusted treatment.", action: "call-today", source: label("Imbruvica") },
+      { symptom: "High blood pressure", threshold: "Readings of 160 or more over 100 or more, or severe headache; hypertension is a labelled warning and may need new or adjusted treatment.", action: "call-today", source: label("Imbruvica"), protocols: ["atrial-fibrillation-and-bleeding-on-btk-inhibitors"] },
       { symptom: "Unusual bruising with tiredness", threshold: "Persistent bruising, tiredness and infections between visits; second primary malignancies and cytopenias are labelled warnings.", action: "call-today", source: label("Imbruvica") },
     ],
   },
@@ -332,7 +332,7 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "\\bparp",
     flags: [
       { symptom: "Signs of MDS or AML", threshold: "Unusual tiredness, breathlessness, easy bruising or bleeding, or frequent infections, especially if blood counts have not recovered within four weeks of stopping; the labels warn of myelodysplastic syndrome and acute myeloid leukaemia.", action: "call-today", source: label("Lynparza") },
-      { symptom: "Pneumonitis", threshold: "New or worsening cough, breathlessness or fever; the label says to interrupt treatment and investigate.", action: "call-now", source: label("Lynparza") },
+      { symptom: "Pneumonitis", threshold: "New or worsening cough, breathlessness or fever; the label says to interrupt treatment and investigate.", action: "call-now", source: label("Lynparza"), protocols: ["interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
       { symptom: "Severe anaemia", threshold: "Breathlessness on mild exertion, dizziness or palpitations; anaemia is common and transfusion is sometimes needed.", action: "call-today", source: label("Lynparza"), protocols: ["red-cell-and-platelet-transfusion-thresholds"] },
       { symptom: "Blood clot", threshold: "A swollen painful calf, or sudden breathlessness with chest pain; venous thromboembolism including pulmonary embolism is a labelled warning.", action: "emergency", source: label("Lynparza"), protocols: ["cancer-associated-vte-treatment"] },
       { symptom: "High blood pressure or palpitations (niraparib)", threshold: "Severe headache, or a racing or irregular heartbeat; hypertension and hypertensive crisis are labelled warnings for niraparib.", action: "call-today", source: label("Zejula") },
@@ -358,11 +358,11 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "cdk4",
     flags: [
       { symptom: "Neutropenic fever", threshold: "Temperature of 38 C or higher; neutropenia is the most common serious adverse reaction and febrile neutropenia has been fatal.", action: "call-now", source: label("Ibrance"), protocols: ["febrile-neutropenia-first-hour"] },
-      { symptom: "Lung inflammation", threshold: "New or worsening cough or breathlessness; severe and fatal interstitial lung disease and pneumonitis are labelled warnings for all three drugs.", action: "call-now", source: label("Ibrance") },
+      { symptom: "Lung inflammation", threshold: "New or worsening cough or breathlessness; severe and fatal interstitial lung disease and pneumonitis are labelled warnings for all three drugs.", action: "call-now", source: label("Ibrance"), protocols: ["interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
       { symptom: "Severe diarrhoea (abemaciclib)", threshold: "Diarrhoea not controlled by loperamide, or with dehydration; the label says to start loperamide at the first loose stool and to call if it does not settle within 24 hours.", action: "call-today", source: label("Verzenio"), protocols: ["treatment-induced-diarrhoea-grading-and-management"] },
-      { symptom: "Fainting or palpitations (ribociclib)", threshold: "Fainting, dizziness or an irregular heartbeat; QT prolongation is a labelled warning and ECGs are checked in the first cycles.", action: "emergency", source: label("Kisqali") },
+      { symptom: "Fainting or palpitations (ribociclib)", threshold: "Fainting, dizziness or an irregular heartbeat; QT prolongation is a labelled warning and ECGs are checked in the first cycles.", action: "emergency", source: label("Kisqali"), protocols: ["qt-prolongation-monitoring-on-anticancer-drugs"] },
       { symptom: "Blood clot (abemaciclib)", threshold: "A swollen painful calf or sudden breathlessness with chest pain; venous thromboembolism is a labelled warning.", action: "emergency", source: label("Verzenio"), protocols: ["cancer-associated-vte-treatment"] },
-      { symptom: "Liver injury", threshold: "Yellow skin or eyes, dark urine or pain under the right ribs; hepatobiliary toxicity is a labelled warning and liver tests are checked before each cycle.", action: "call-today", source: label("Verzenio") },
+      { symptom: "Liver injury", threshold: "Yellow skin or eyes, dark urine or pain under the right ribs; hepatobiliary toxicity is a labelled warning and liver tests are checked before each cycle.", action: "call-today", source: label("Verzenio"), protocols: ["raised-liver-enzymes-on-targeted-anticancer-drugs"] },
     ],
   },
   {
@@ -383,8 +383,8 @@ export const redFlagSets: RedFlagSet[] = [
     modalityRe: "idh1|idh2|idh1/2|menin|differentiation agent|differentiating agent",
     window: "Differentiation syndrome usually starts within the first weeks to months of treatment and carries a boxed warning.",
     flags: [
-      { symptom: "Differentiation syndrome", threshold: "Fever, cough or breathlessness, rapid weight gain or swelling, bone pain, low blood pressure or reduced urine; the labels say to start steroids and monitor at the first suspicion, and the syndrome has been fatal.", action: "emergency", source: label("Idhifa") },
-      { symptom: "Fainting or palpitations (ivosidenib, menin inhibitors)", threshold: "Fainting, dizziness or an irregular heartbeat; QT prolongation is a labelled warning.", action: "emergency", source: label("Tibsovo") },
+      { symptom: "Differentiation syndrome", threshold: "Fever, cough or breathlessness, rapid weight gain or swelling, bone pain, low blood pressure or reduced urine; the labels say to start steroids and monitor at the first suspicion, and the syndrome has been fatal.", action: "emergency", source: label("Idhifa"), protocols: ["differentiation-syndrome-recognition-and-treatment"] },
+      { symptom: "Fainting or palpitations (ivosidenib, menin inhibitors)", threshold: "Fainting, dizziness or an irregular heartbeat; QT prolongation is a labelled warning.", action: "emergency", source: label("Tibsovo"), protocols: ["qt-prolongation-monitoring-on-anticancer-drugs"] },
       { symptom: "Neurological symptoms (ivosidenib)", threshold: "Weakness, numbness or difficulty walking; Guillain-Barre syndrome is a labelled warning.", action: "call-now", source: label("Tibsovo") },
     ],
   },
@@ -484,7 +484,7 @@ export const redFlagSets: RedFlagSet[] = [
     concernIds: ["ild", "trastuzumab-deruxtecan", "datopotamab-deruxtecan"],
     window: "In a pooled analysis of 1,150 people on trastuzumab deruxtecan, 15.4% developed drug-related interstitial lung disease, 87% of them within the first 12 months and 2.2% fatal; the Enhertu label carries a boxed warning and says to report symptoms immediately.",
     flags: [
-      { symptom: "New cough, breathlessness or fever on trastuzumab deruxtecan or datopotamab deruxtecan", threshold: "Any new or worsening cough, breathlessness or fever: the label says to interrupt treatment for any suspected interstitial lung disease and to discontinue permanently for grade 2 or higher. Macmillan's wording for the same symptoms on pembrolizumab applies: contact the hospital straight away on the 24-hour number. Breathless at rest or blue lips is 999.", action: "call-now", source: POWELL_ILD },
+      { symptom: "New cough, breathlessness or fever on trastuzumab deruxtecan or datopotamab deruxtecan", threshold: "Any new or worsening cough, breathlessness or fever: the label says to interrupt treatment for any suspected interstitial lung disease and to discontinue permanently for grade 2 or higher. Macmillan's wording for the same symptoms on pembrolizumab applies: contact the hospital straight away on the 24-hour number. Breathless at rest or blue lips is 999.", action: "call-now", source: POWELL_ILD, protocols: ["interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
     ],
   },
   // ---- Pancreatic cancer: the emergencies of the disease and its treatment, whatever the drug (NHS 111 and 999 wording, Pancreatic Cancer UK thresholds).
@@ -575,7 +575,7 @@ export const redFlagSets: RedFlagSet[] = [
       { symptom: "Breathlessness, a cough that does not go away, wheezing, or a fever over 37.5 C on immunotherapy", threshold: "Macmillan says this treatment can cause inflammation of the lungs (pneumonitis) and to contact the hospital straight away on the 24-hour number for breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C, during treatment or after it ends.", action: "call-now", source: MAC_PEMBRO },
       { symptom: "The same symptoms after chemoradiotherapy and durvalumab", threshold: "Macmillan gives durvalumab the same warning: contact the hospital straight away on the 24-hour number for breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C. Having had chest radiotherapy as well does not make the symptoms less urgent, it makes them harder to explain, which is the reason to ring.", action: "call-now", source: MAC_DURVALUMAB },
       { symptom: "A dry cough or shortness of breath in the weeks after chest radiotherapy", threshold: "Cancer Research UK says radiotherapy to the chest might inflame the lungs, that soon after treatment you might have a dry cough or shortness of breath (acute radiation pneumonitis), and that in a small number of people cough and breathlessness continue because of chronic radiation pneumonitis starting months or years later.", action: "call-today", source: CRUK_LUNG_BREATHLESSNESS },
-      { symptom: "Breathlessness, a cough that does not go away, wheezing, or a fever over 37.5 C on a targeted tablet", threshold: "Macmillan gives osimertinib the same warning as the immunotherapies: this treatment can cause inflammation of the lungs, so contact the hospital straight away on the 24-hour number if you notice breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C, during treatment or after it ends.", action: "call-now", source: MAC_OSIMERTINIB },
+      { symptom: "Breathlessness, a cough that does not go away, wheezing, or a fever over 37.5 C on a targeted tablet", threshold: "Macmillan gives osimertinib the same warning as the immunotherapies: this treatment can cause inflammation of the lungs, so contact the hospital straight away on the 24-hour number if you notice breathlessness, a cough that does not go away, wheezing, or a fever with a temperature over 37.5 C, during treatment or after it ends.", action: "call-now", source: MAC_OSIMERTINIB, protocols: ["interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs"] },
     ],
   },
   {

@@ -49,7 +49,7 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "addis-ababa-city-cancer-registry", name: "Addis Ababa City Cancer Registry", aka: ["Addis Ababa Population-Based Cancer Registry", "AACCR", "AAPBCR"],
     city: "Addis Ababa", country: "ET", lat: 9.013, lng: 38.763, institutionType: "research-institute", website: AFCRN_ADDIS,
-    tldr: "Ethiopia's only population-based cancer registry, set up in 2011 at the Radiotherapy Center of Tikur Anbessa Specialized Hospital. It counts new cancers among about 3.7 million residents of the capital, and IARC applies its rates to the whole country.",
+    tldr: "Ethiopia's only population-based cancer registry, set up in 2011 at the Radiotherapy Center of Tikur Anbessa Specialized Hospital. It counts new cancers among about 3.7 million residents of the capital. IARC's national estimate for Ethiopia applies subnational registry rates to the whole population.",
     summary: "The Addis Ababa City Cancer Registry was established in September 2011 at the Radiotherapy Center of Tikur Anbessa Specialized Hospital, Addis Ababa University. Its member page on the African Cancer Registry Network, last updated in October 2014, records funding from the German Federal Ministry of Education and Research until March 2014 and then from the American Cancer Society, technical support from Martin Luther University Halle-Wittenberg and the American Cancer Society, more than 20 contact persons trained in health institutions across the city, data entry in CanReg5, and a residence rule of six months in the city. It covers the city's ten sub-cities. The coordinates on this record are those of the hospital campus, approximately.\n\nIts first published data, for 2012 and 2013, counted 4,139 new cancers, two thirds in women. Its 2018 to 2022 report counted 14,053 cancers in a population of about 3.7 million (2020), roughly 3% of Ethiopians, with breast cancer (38.8%) and cervical cancer (14.3%) together just over half of cancers in women, and colorectal cancer the commonest in men. The Ministry of Health's 2025 to 2029 plan calls it the foundation for a national registry, says the registry depends on donors, and plans population-based registries at all five university-affiliated cancer treatment centres. The imPACT reviewers of November 2023 recommended complete coverage of the city so that its data could be accepted in Cancer Incidence in Five Continents, absorbing its staff into Ministry structures, and making cancer a notifiable disease by law.",
     programs: ["Population-based cancer registration for Addis Ababa (from September 2011)", "African Cancer Registry Network member registry"],
     institutions: ["tikur-anbessa-hospital", "ethiopia-ministry-of-health", "iarc"], cancers: ["breast-cancer", "cervical", "colorectal"], related: ["cancer-registries-surveillance", "american-cancer-society"],
@@ -100,7 +100,7 @@ const papers: PaperInput[] = [
       "In men the commonest were colorectal cancer (14.3% of male cancers, 9.8 per 100,000), prostate cancer (12.9%, 11.8) and mouth and pharynx cancer (6.6%, 3.9).",
       "In women the commonest were breast cancer (38.8%, 39.8 per 100,000), cervical cancer (14.3%, 18.9) and colorectal cancer (7.2%, 8.9).",
     ],
-    whatItMeans: "These are the latest rates from Ethiopia's only population-based registry, and IARC applies the registry's rates to the whole country; they show breast and cervical cancer dominating in women and a relatively high rate of colorectal cancer.",
+    whatItMeans: "These are the latest rates from Ethiopia's only population-based registry, and IARC's national estimate applies subnational registry rates to the whole population; they show breast and cervical cancer dominating in women and a relatively high rate of colorectal cancer.",
     caveats: ["One city, about 3% of the population; rural Ethiopia may differ.", "The authors read the low prostate and liver cancer rates as possible under-diagnosis or under-reporting."],
     institutions: ["addis-ababa-city-cancer-registry", "tikur-anbessa-hospital"], cancers: ["breast-cancer", "cervical", "colorectal"],
     links: [doi("10.1016/j.canep.2026.103048", "Cancer Epidemiol 2026"), pubmed("41814110")] }),
@@ -115,7 +115,7 @@ const papers: PaperInput[] = [
       "Breast (31.5% of female cancers, 40.6 per 100,000) and cervix (14.1%, 21.5) led in women; colorectal cancer (10.6%, 7.6) and non-Hodgkin lymphoma (10.2%, 6.8) led in men.",
     ],
     whatItMeans: "The first population-based cancer rates for Ethiopia, showing a pattern similar to neighbouring countries apart from colorectal cancer being the commonest cancer in men, which the authors called novel.",
-    caveats: ["The registry's first years; completeness of case finding was still being built.", "One city only."],
+    caveats: ["The registry's first two years of data; the authors took the similarity to neighbouring countries to suggest that most cases in the city were captured.", "One city only."],
     institutions: ["addis-ababa-city-cancer-registry", "tikur-anbessa-hospital"], cancers: ["breast-cancer", "cervical", "colorectal"],
     links: [doi("10.1016/j.canep.2018.01.008", "Cancer Epidemiol 2018"), pubmed("29414637")] }),
 
@@ -129,7 +129,7 @@ const papers: PaperInput[] = [
       "Colorectal cancer and non-Hodgkin lymphoma were the commonest cancers in men; leukaemia was the leading diagnosis in children aged 0 to 14.",
     ],
     whatItMeans: "An early national estimate built from Ethiopian data rather than regional models, which the Ministry of Health's cancer plan cites.",
-    caveats: ["The regional cases were not from population-based registries, so national figures rest mainly on Addis Ababa rates."],
+    caveats: ["The abstract does not say how the 1,648 cases from the six regions were collected or how they were weighted against the Addis Ababa registry data."],
     institutions: ["addis-ababa-city-cancer-registry"], cancers: ["breast-cancer", "colorectal"],
     links: [doi("10.1200/JGO.17.00175", "J Glob Oncol 2018"), pubmed("30241262")] }),
 

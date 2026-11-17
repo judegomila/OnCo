@@ -12,6 +12,7 @@ import { antiemeticProphylaxisByEmeticRisk } from "./antiemetic-prophylaxis-by-e
 import { antifungalProphylaxisInHaematology } from "./antifungal-prophylaxis-in-haematology";
 import { antithromboticInterruptionAroundSurgery } from "./antithrombotic-interruption-around-surgery";
 import { asepticCompoundingOfHazardousAnticancerDrugs } from "./aseptic-compounding-of-hazardous-anticancer-drugs";
+import { atrialFibrillationAndBleedingOnBtkInhibitors } from "./atrial-fibrillation-and-bleeding-on-btk-inhibitors";
 import { bispecificStepUpDosing } from "./bispecific-step-up-dosing";
 import { bleedingPrecautionsWhenPlateletsAreLow } from "./bleeding-precautions-when-platelets-are-low";
 import { bloodSamplingFromACentralLine } from "./blood-sampling-from-a-central-line";
@@ -25,6 +26,7 @@ import { breastScreeningAfterChestRadiotherapyAtAYoungAge } from "./breast-scree
 import { breathHoldLeftBreastRadiotherapy } from "./breath-hold-left-breast-radiotherapy";
 import { cancerAssociatedVteTreatment } from "./cancer-associated-vte-treatment";
 import { cancerRelatedFatigueScreeningAndManagement } from "./cancer-related-fatigue-screening-and-management";
+import { capillaryLeakSyndromeOnAnticancerDrugs } from "./capillary-leak-syndrome-on-anticancer-drugs";
 import { carTApheresis } from "./car-t-apheresis";
 import { carTBridging } from "./car-t-bridging";
 import { carTInfectionPrevention } from "./car-t-infection-prevention";
@@ -48,11 +50,13 @@ import { chronicPainInCancerSurvivors } from "./chronic-pain-in-cancer-survivors
 import { colorectalCancerFollowUpAfterCurativeTreatment } from "./colorectal-cancer-follow-up-after-curative-treatment";
 import { communityCareOfVascularAccessDevices } from "./community-care-of-vascular-access-devices";
 import { consentAndEducationBeforeAnticancerTreatment } from "./consent-and-education-before-anticancer-treatment";
+import { constipationInAdultsWithCancer } from "./constipation-in-adults-with-cancer";
 import { contrastReactionHistoryAndPremedication } from "./contrast-reaction-history-and-premedication";
 import { crsGradingAndManagement } from "./crs-grading-and-management";
 import { dentalAssessmentBeforeBoneModifyingAgents } from "./dental-assessment-before-bone-modifying-agents";
 import { diagnosticBronchoscopyAndEbusPreparation } from "./diagnostic-bronchoscopy-and-ebus-preparation";
 import { dietAlcoholAndWeightDuringCancerTreatment } from "./diet-alcohol-and-weight-during-cancer-treatment";
+import { differentiationSyndromeRecognitionAndTreatment } from "./differentiation-syndrome-recognition-and-treatment";
 import { distressScreeningAndReferral } from "./distress-screening-and-referral";
 import { doseBandingOfAnticancerDrugs } from "./dose-banding-of-anticancer-drugs";
 import { dpydTestingBeforeFluoropyrimidines } from "./dpyd-testing-before-fluoropyrimidines";
@@ -79,6 +83,7 @@ import { febrileNeutropeniaFirstHour } from "./febrile-neutropenia-first-hour";
 import { fertilityPreservationBeforeCancerTreatment } from "./fertility-preservation-before-cancer-treatment";
 import { fertilityProtectionBeforePelvicRadiotherapy } from "./fertility-protection-before-pelvic-radiotherapy";
 import { financialToxicityScreeningAndSupport } from "./financial-toxicity-screening-and-support";
+import { fluidRetentionAndEffusionsOnKinaseInhibitors } from "./fluid-retention-and-effusions-on-kinase-inhibitors";
 import { foodSafetyAndNeutropenicDiet } from "./food-safety-and-neutropenic-diet";
 import { gCsfProphylaxisByFebrileNeutropeniaRisk } from "./g-csf-prophylaxis-by-febrile-neutropenia-risk";
 import { gadoliniumContrastKidneyImpairment } from "./gadolinium-contrast-kidney-impairment";
@@ -97,9 +102,14 @@ import { hepatitisBScreeningAndReactivationProphylaxis } from "./hepatitis-b-scr
 import { herpesSimplexAndZosterAntiviralProphylaxis } from "./herpes-simplex-and-zoster-antiviral-prophylaxis";
 import { hotFlushesOnEndocrineTherapyNonHormonalOptions } from "./hot-flushes-on-endocrine-therapy-non-hormonal-options";
 import { hypercalcaemiaOfMalignancy } from "./hypercalcaemia-of-malignancy";
+import { hyperglycaemiaOnPi3kAktMtorInhibitors } from "./hyperglycaemia-on-pi3k-akt-mtor-inhibitors";
 import { hyperleukocytosisLeukostasis } from "./hyperleukocytosis-leukostasis";
+import { hyperphosphataemiaOnFgfrInhibitors } from "./hyperphosphataemia-on-fgfr-inhibitors";
+import { hypertensionAndProteinuriaOnVegfPathwayInhibitors } from "./hypertension-and-proteinuria-on-vegf-pathway-inhibitors";
 import { hyperviscositySyndromePlasmaExchange } from "./hyperviscosity-syndrome-plasma-exchange";
+import { hypomagnesaemiaOnEgfrAntibodies } from "./hypomagnesaemia-on-egfr-antibodies";
 import { hyponatraemiaSiadh } from "./hyponatraemia-siadh";
+import { hypothyroidismOnTyrosineKinaseInhibitors } from "./hypothyroidism-on-tyrosine-kinase-inhibitors";
 import { icahtProlongedCytopenia } from "./icaht-prolonged-cytopenia";
 import { icansGradingAndManagement } from "./icans-grading-and-management";
 import { iecHsManagement } from "./iec-hs-management";
@@ -111,6 +121,7 @@ import { indwellingPleuralCatheterDrainageAtHome } from "./indwelling-pleural-ca
 import { influenzaAntiviralProphylaxisAndEarlyTreatment } from "./influenza-antiviral-prophylaxis-and-early-treatment";
 import { infusionReactionManagement } from "./infusion-reaction-management";
 import { insomniaInAdultsWithCancer } from "./insomnia-in-adults-with-cancer";
+import { interstitialLungDiseaseOnAntibodyDrugConjugatesAndTargetedDrugs } from "./interstitial-lung-disease-on-antibody-drug-conjugates-and-targeted-drugs";
 import { intrathecalChemotherapyAndVincaAlkaloidSafety } from "./intrathecal-chemotherapy-and-vinca-alkaloid-safety";
 import { iodinatedContrastKidneyAndMetformin } from "./iodinated-contrast-kidney-and-metformin";
 import { iraeColitis } from "./irae-colitis";
@@ -168,6 +179,7 @@ import { pneumocystisPneumoniaProphylaxis } from "./pneumocystis-pneumonia-proph
 import { premedicationBeforeReactionProneAnticancerDrugs } from "./premedication-before-reaction-prone-anticancer-drugs";
 import { prostateBiopsyRouteAndAntibioticProphylaxis } from "./prostate-biopsy-route-and-antibiotic-prophylaxis";
 import { prostateRadiotherapyBladderAndRectalPreparation } from "./prostate-radiotherapy-bladder-and-rectal-preparation";
+import { qtProlongationMonitoringOnAnticancerDrugs } from "./qt-prolongation-monitoring-on-anticancer-drugs";
 import { questionPromptListsAndConsultationRecordings } from "./question-prompt-lists-and-consultation-recordings";
 import { radiationDermatitisSkinCare } from "./radiation-dermatitis-skin-care";
 import { radioiodineTherapyHomeRadiationSafety } from "./radioiodine-therapy-home-radiation-safety";
@@ -180,6 +192,7 @@ import { radiotherapyPregnancyAndBreastfeedingEnquiry } from "./radiotherapy-pre
 import { radiotherapyRiskAnalysisFmea } from "./radiotherapy-risk-analysis-fmea";
 import { radiotherapyWithPacemakerOrDefibrillator } from "./radiotherapy-with-pacemaker-or-defibrillator";
 import { raisedIntracranialPressure } from "./raised-intracranial-pressure";
+import { raisedLiverEnzymesOnTargetedAnticancerDrugs } from "./raised-liver-enzymes-on-targeted-anticancer-drugs";
 import { redCellAndPlateletTransfusionThresholds } from "./red-cell-and-platelet-transfusion-thresholds";
 import { renalDoseAdjustmentOfAnticancerDrugs } from "./renal-dose-adjustment-of-anticancer-drugs";
 import { respectAndDnacprDecisions } from "./respect-and-dnacpr-decisions";
@@ -206,6 +219,7 @@ import { suspectedCancerUrgentReferralAndFasterDiagnosis } from "./suspected-can
 import { suspectedCentralLineInfection } from "./suspected-central-line-infection";
 import { syringeDriverContinuousSubcutaneousInfusion } from "./syringe-driver-continuous-subcutaneous-infusion";
 import { treatmentInducedDiarrhoeaGradingAndManagement } from "./treatment-induced-diarrhoea-grading-and-management";
+import { tumourFlareOnBispecificAntibodiesAndImmunomodulatoryDrugs } from "./tumour-flare-on-bispecific-antibodies-and-immunomodulatory-drugs";
 import { tumourLysisSyndrome } from "./tumour-lysis-syndrome";
 import { vaccinationAroundCancerTreatment } from "./vaccination-around-cancer-treatment";
 import { venousAccessDeviceSelectionForAnticancerTherapy } from "./venous-access-device-selection-for-anticancer-therapy";
@@ -230,6 +244,7 @@ export const protocols: ProtocolInput[] = [
   antifungalProphylaxisInHaematology,
   antithromboticInterruptionAroundSurgery,
   asepticCompoundingOfHazardousAnticancerDrugs,
+  atrialFibrillationAndBleedingOnBtkInhibitors,
   bispecificStepUpDosing,
   bleedingPrecautionsWhenPlateletsAreLow,
   bloodSamplingFromACentralLine,
@@ -243,6 +258,7 @@ export const protocols: ProtocolInput[] = [
   breathHoldLeftBreastRadiotherapy,
   cancerAssociatedVteTreatment,
   cancerRelatedFatigueScreeningAndManagement,
+  capillaryLeakSyndromeOnAnticancerDrugs,
   carTApheresis,
   carTBridging,
   carTInfectionPrevention,
@@ -266,11 +282,13 @@ export const protocols: ProtocolInput[] = [
   colorectalCancerFollowUpAfterCurativeTreatment,
   communityCareOfVascularAccessDevices,
   consentAndEducationBeforeAnticancerTreatment,
+  constipationInAdultsWithCancer,
   contrastReactionHistoryAndPremedication,
   crsGradingAndManagement,
   dentalAssessmentBeforeBoneModifyingAgents,
   diagnosticBronchoscopyAndEbusPreparation,
   dietAlcoholAndWeightDuringCancerTreatment,
+  differentiationSyndromeRecognitionAndTreatment,
   distressScreeningAndReferral,
   doseBandingOfAnticancerDrugs,
   dpydTestingBeforeFluoropyrimidines,
@@ -297,6 +315,7 @@ export const protocols: ProtocolInput[] = [
   fertilityPreservationBeforeCancerTreatment,
   fertilityProtectionBeforePelvicRadiotherapy,
   financialToxicityScreeningAndSupport,
+  fluidRetentionAndEffusionsOnKinaseInhibitors,
   foodSafetyAndNeutropenicDiet,
   gCsfProphylaxisByFebrileNeutropeniaRisk,
   gadoliniumContrastKidneyImpairment,
@@ -315,9 +334,14 @@ export const protocols: ProtocolInput[] = [
   herpesSimplexAndZosterAntiviralProphylaxis,
   hotFlushesOnEndocrineTherapyNonHormonalOptions,
   hypercalcaemiaOfMalignancy,
+  hyperglycaemiaOnPi3kAktMtorInhibitors,
   hyperleukocytosisLeukostasis,
+  hyperphosphataemiaOnFgfrInhibitors,
+  hypertensionAndProteinuriaOnVegfPathwayInhibitors,
   hyperviscositySyndromePlasmaExchange,
+  hypomagnesaemiaOnEgfrAntibodies,
   hyponatraemiaSiadh,
+  hypothyroidismOnTyrosineKinaseInhibitors,
   icahtProlongedCytopenia,
   icansGradingAndManagement,
   iecHsManagement,
@@ -329,6 +353,7 @@ export const protocols: ProtocolInput[] = [
   influenzaAntiviralProphylaxisAndEarlyTreatment,
   infusionReactionManagement,
   insomniaInAdultsWithCancer,
+  interstitialLungDiseaseOnAntibodyDrugConjugatesAndTargetedDrugs,
   intrathecalChemotherapyAndVincaAlkaloidSafety,
   iodinatedContrastKidneyAndMetformin,
   iraeColitis,
@@ -386,6 +411,7 @@ export const protocols: ProtocolInput[] = [
   premedicationBeforeReactionProneAnticancerDrugs,
   prostateBiopsyRouteAndAntibioticProphylaxis,
   prostateRadiotherapyBladderAndRectalPreparation,
+  qtProlongationMonitoringOnAnticancerDrugs,
   questionPromptListsAndConsultationRecordings,
   radiationDermatitisSkinCare,
   radioiodineTherapyHomeRadiationSafety,
@@ -398,6 +424,7 @@ export const protocols: ProtocolInput[] = [
   radiotherapyRiskAnalysisFmea,
   radiotherapyWithPacemakerOrDefibrillator,
   raisedIntracranialPressure,
+  raisedLiverEnzymesOnTargetedAnticancerDrugs,
   redCellAndPlateletTransfusionThresholds,
   renalDoseAdjustmentOfAnticancerDrugs,
   respectAndDnacprDecisions,
@@ -424,6 +451,7 @@ export const protocols: ProtocolInput[] = [
   suspectedCentralLineInfection,
   syringeDriverContinuousSubcutaneousInfusion,
   treatmentInducedDiarrhoeaGradingAndManagement,
+  tumourFlareOnBispecificAntibodiesAndImmunomodulatoryDrugs,
   tumourLysisSyndrome,
   vaccinationAroundCancerTreatment,
   venousAccessDeviceSelectionForAnticancerTherapy,

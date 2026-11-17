@@ -27,6 +27,8 @@ import { protocol } from "./helpers";
  * with line breaks joined; the guideline's typographic hyphens (U+2010) are kept as printed. The daily output
  * quote stops at "TG-51" because reference numbers interrupt the sentence there.
  * Each report's figures are kept apart: a limit on this page is MPPG 8.b's unless the sentence names another report.
+ * The limits and figures were independently re-read on 17 November 2026 against the MPPG 8.b and 8.a full texts and
+ * the UK survey's Table 4; the survey's notification and suspension counts are now given for photons and electrons.
  */
 export const linearAcceleratorQualityAssurance = protocol({
   id: "linear-accelerator-quality-assurance",
@@ -176,7 +178,7 @@ export const linearAcceleratorQualityAssurance = protocol({
     },
     {
       name: "UK practice under IPEM Report 81 (2018)",
-      differs: "UK centres follow IPEM Report 81, for which the 2025 survey reports a monthly recommendation for standard output; 26% of responding centres still measured standard output weekly, and all did a daily output constancy check. The survey gives the report's guideline for standard output as 2%; the commonest local notification level was 1.5% (16 of 37 centres), with suspension at 2% in the majority. It also found a shift towards QC outside normal working hours and wide variation in the time spent per linac (median 18 hours a month on C-arm machines, from 6 to 37).",
+      differs: "UK centres follow IPEM Report 81, for which the 2025 survey reports a monthly recommendation for standard output; 26% of responding centres still measured standard output weekly, and all did a daily output constancy check. The survey gives the report's guideline for standard output as 2%; the commonest local notification level was 1.5% (17 of 40 centres for photon beams, 16 of 37 for electron beams), with 2% the commonest suspension level (26 of 38 for photons, 22 of 38 for electrons). It also found a shift towards QC outside normal working hours and wide variation in the time spent per linac (median 18 hours a month on C-arm machines, from 6 to 37).",
       evidence: "National survey of 43 of 68 UK centres (63%), 2025. Report 81 itself was not read.",
       sources: ["uk-survey-2025"],
     },

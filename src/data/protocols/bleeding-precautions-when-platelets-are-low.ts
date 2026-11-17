@@ -21,6 +21,10 @@ import { protocol } from "./helpers";
  * read says; Macmillan is no longer said to agree with NCI on every point; ASCO is no longer said to agree with
  * NICE's thresholds, which its abstract does not print; reasons the sources do not give were taken out of the "why"
  * lines; the booklet's year is 2024.
+ * Follow-up on 17 November 2026: a sourced step on when to seek urgent help was restored from Cancer Research UK,
+ * Your blood, bone marrow and cancer drugs (web page, last reviewed 22 July 2026): full text, fetched with curl and
+ * reached by following the links from Cancer Research UK's own chemotherapy side effects page. It says to call the
+ * advice line, GP or specialist nurse immediately about any bleeding or bruising; the quote was matched by script.
  * The home precautions are expert patient advice from national bodies; no trial has tested them. That is said in the
  * grades and the gaps rather than dressed up.
  */
@@ -29,9 +33,9 @@ export const bleedingPrecautionsWhenPlateletsAreLow = protocol({
   name: "Bleeding precautions at home when platelets are low",
   aka: ["thrombocytopenia precautions", "low platelet precautions", "bleeding precautions", "low platelets during chemotherapy", "bruising and bleeding on chemotherapy"],
   domain: "supportive-care",
-  tldr: "When chemotherapy lowers the platelets that help blood clot, guidance advises small changes at home: a very soft toothbrush, an electric shaver, shoes on, asking the team before taking aspirin or other shop-bought medicines, and firm pressure on any cut. Call the doctor or nurse about bleeding that does not stop after a few minutes, red or pink urine, black or bloody stools, or a bad headache.",
-  simple: "Chemotherapy can lower your platelets, the cells that help blood to clot. Use a very soft toothbrush and an electric shaver, wear shoes, and ask before taking aspirin, any shop-bought medicine or a supplement. Press firmly on a cut until it stops. Call your doctor or nurse if bleeding does not stop after a few minutes, if your urine is red or pink or your stools are black or bloody, or if you get a bad headache or a change in your eyesight.",
-  summary: "The home advice comes from national patient guidance: NCI's Chemotherapy and You (2024) and its thrombocytopenia page (reviewed 2022), and Macmillan (2018, being reviewed). The two NCI sources give a very soft toothbrush, an electric shaver, care with sharp objects, shoes at all times, checking with the team before taking aspirin, other over-the-counter medicines, vitamins or herbs, firm pressure on bleeding, telling the doctor about constipation, and a list of signs to call about; the booklet adds gentle nose-blowing and a list of things not to do. Macmillan's shorter list has a soft toothbrush, protective gloves for housework and gardening, and care not to bump into things or trip. They differ on flossing: NCI's booklet says not to use dental floss or toothpicks but suggests a water flosser, its mouth-care section says to ask about flossing when platelets are low, and Macmillan says not to floss. No source read says how quickly to call about a warning sign. None of this advice is graded, and the sources cite no trial of it. Platelet support is a clinical decision. NICE NG24, a general transfusion guideline for people aged 1 year and over rather than a cancer guideline, offers prophylactic platelet transfusion below 10 x 10^9 per litre to people who are not bleeding and not having an invasive procedure or surgery, with exceptions (chronic bone marrow failure, autoimmune thrombocytopenia, HIT, TTP), and transfusion for clinically significant bleeding (WHO grade 2) below 30 x 10^9 per litre. The ASCO 2018 abstract says adults having an autologous stem cell transplant at experienced centres may be transfused at the first sign of bleeding rather than prophylactically.",
+  tldr: "When chemotherapy lowers the platelets that help blood clot, guidance advises small changes at home: a very soft toothbrush, an electric shaver, shoes on, asking the team before taking aspirin or other shop-bought medicines, and firm pressure on any cut. Cancer Research UK says to call your advice line, GP or specialist nurse immediately if you notice any bleeding or bruising.",
+  simple: "Chemotherapy can lower your platelets, the cells that help blood to clot. Use a very soft toothbrush and an electric shaver, wear shoes, and ask before taking aspirin, any shop-bought medicine or a supplement. Press firmly on a cut until it stops. Call your doctor or nurse if bleeding does not stop after a few minutes, if your urine is red or pink or your stools are black or bloody, or if you get a bad headache or a change in your eyesight. Cancer Research UK says that if your blood counts are low you should call your advice line, GP or specialist nurse immediately if you notice any bleeding or bruising.",
+  summary: "The home advice comes from national patient guidance: NCI's Chemotherapy and You (2024) and its thrombocytopenia page (reviewed 2022), and Macmillan (2018, being reviewed). The two NCI sources give a very soft toothbrush, an electric shaver, care with sharp objects, shoes at all times, checking with the team before taking aspirin, other over-the-counter medicines, vitamins or herbs, firm pressure on bleeding, telling the doctor about constipation, and a list of signs to call about; the booklet adds gentle nose-blowing and a list of things not to do. Macmillan's shorter list has a soft toothbrush, protective gloves for housework and gardening, and care not to bump into things or trip. They differ on flossing: NCI's booklet says not to use dental floss or toothpicks but suggests a water flosser, its mouth-care section says to ask about flossing when platelets are low, and Macmillan says not to floss. Neither NCI nor Macmillan says how quickly to call about a warning sign. Cancer Research UK (reviewed July 2026) does: for people with a low blood count due to cancer drug treatment, it says to call the advice line, GP or specialist nurse immediately on noticing any bleeding or bruising. None of this advice is graded, and the sources cite no trial of it. Platelet support is a clinical decision. NICE NG24, a general transfusion guideline for people aged 1 year and over rather than a cancer guideline, offers prophylactic platelet transfusion below 10 x 10^9 per litre to people who are not bleeding and not having an invasive procedure or surgery, with exceptions (chronic bone marrow failure, autoimmune thrombocytopenia, HIT, TTP), and transfusion for clinically significant bleeding (WHO grade 2) below 30 x 10^9 per litre. The ASCO 2018 abstract says adults having an autologous stem cell transplant at experienced centres may be transfused at the first sign of bleeding rather than prophylactically.",
   asOf: "2026-11-17",
   setting: {
     who: ["patient-or-carer", "nurse", "doctor"],
@@ -94,6 +98,13 @@ export const bleedingPrecautionsWhenPlateletsAreLow = protocol({
       why: "NCI calls these more serious problems. Neither NCI source says how quickly to call; the web page suggests asking the team how long to wait for bleeding to stop before calling or going to the emergency room. The booklet also lists bruises, small red spots on the skin and a warm or hot feeling in an arm or leg.",
       source: "nci-bleeding-page",
       quote: "Head or vision changes such as bad headaches or changes in how well you see, or if you feel confused or very sleepy.",
+      grade: "Not graded (patient information)",
+    },
+    {
+      action: "If your blood count is low because of cancer drug treatment, call your advice line, GP or specialist nurse immediately if you notice any bleeding or bruising",
+      why: "Cancer Research UK lists 'you notice any bleeding or bruising' under 'When to contact your healthcare team', next to a temperature over 37.5°C or below 36°C. It gives no reason and no list of particular bleeding signs. It is the only source read that says how quickly to call.",
+      source: "cruk-blood-bone-marrow",
+      quote: "Call your advice line, GP or specialist nurse immediately if:",
       grade: "Not graded (patient information)",
     },
     {
@@ -167,6 +178,16 @@ export const bleedingPrecautionsWhenPlateletsAreLow = protocol({
       accessed: "2026-11-17",
     },
     {
+      key: "cruk-blood-bone-marrow",
+      label: "Your blood, bone marrow and cancer drugs",
+      publisher: "Cancer Research UK",
+      year: 2026,
+      url: "https://www.cancerresearchuk.org/about-cancer/treatment/cancer-drugs/side-effects/your-blood-and-bone-marrow",
+      gradingScheme: "Patient information page; not graded. Last reviewed 22 July 2026, next review due 22 July 2029.",
+      read: "full-text",
+      accessed: "2026-11-17",
+    },
+    {
       key: "nice-ng24-platelets",
       label: "Blood transfusion (NG24): platelet transfusion recommendations",
       publisher: "NICE",
@@ -192,7 +213,7 @@ export const bleedingPrecautionsWhenPlateletsAreLow = protocol({
   related: ["oral-mucositis-prevention-and-oral-care", "diet-alcohol-and-weight-during-cancer-treatment"],
   gaps: [
     "The patient sources cite no trial of home bleeding precautions; every home step here is expert advice, and none is graded.",
-    "On 17 November 2026 no source read said how quickly to call about a warning sign: NCI says to call the doctor or nurse and suggests asking the team how long to wait for bleeding to stop before calling or going to the emergency room; Macmillan says to tell the doctor or nurse about unexplained bruising or bleeding. The earlier wording 'straight away' and 'the same day' has been removed. The team's own contact instructions come first.",
+    "On 17 November 2026 only one source read said how quickly to call: Cancer Research UK says to call the advice line, GP or specialist nurse immediately on noticing any bleeding or bruising, without listing particular bleeding signs. NCI lists the signs, says to call the doctor or nurse, and suggests asking the team how long to wait for bleeding to stop before calling or going to the emergency room; Macmillan says to tell the doctor or nurse about unexplained bruising or bleeding. No source read sorts the signs by urgency or says when to call an ambulance. The team's own contact instructions come first.",
     "The sources do not say at what platelet count the precautions should start or stop; that is left to the treating team.",
     "The flossing advice differs between NCI and Macmillan, and neither cites evidence for its position.",
     "Macmillan's chemotherapy side effects page was last reviewed on 30 September 2018, was due for review in 2021, and on 17 November 2026 still said it was being reviewed.",

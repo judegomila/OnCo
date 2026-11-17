@@ -14,7 +14,7 @@ import { bool, int, list, parseArgs, str, type Parsed } from "./args";
 import { applyFilters, ATTRIBUTION, DEFAULT_API, kindsTable, OncoClient, OncoError, parseKind, REGIONS, resolveApi, urlFor, type Env, type Kind, type Region } from "./client";
 import { entityJson, formatAsk, formatEntity, formatSearch, formatTable } from "./format";
 
-export const VERSION = process.env.ONCO_PACKAGE_VERSION ?? "0.1.0";
+export const VERSION = process.env.ONCO_PACKAGE_VERSION ?? "0.1.1";
 
 export const HELP = `onco ${VERSION}: OnCo, the public cited knowledge graph of oncology, from the terminal.
 

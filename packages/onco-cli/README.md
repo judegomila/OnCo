@@ -16,7 +16,7 @@ npm install -g onco-cc && onco --help
 | `onco list <kind> [--filter key=value ...] [--limit n]` | Every record of a kind, filtered on any field (`status=approved`, `modality=ADC`, `targets=trop2`, `phase=3`). |
 | `onco ask "<question>" [--region UK]` | Ask OnCo: the cited, templated answer from https://onco.cc/ask/, built from record fields with one citation per sentence. No language model. |
 | `onco context <id>` | The record as clean Markdown (`/api/v1/context/<id>.md`), ready to paste into a prompt. |
-| `onco kinds` | The eighteen kinds with counts and one-line descriptions. |
+| `onco kinds` | Every kind of record (21 today, read from the schema at build time) with counts and one-line descriptions. |
 | `onco export <kind> --csv\|--json` | The kind's published CSV (first line is the licence comment) or JSON array, to stdout. |
 | `onco meta` | Build date, version and counts from `meta.json`. |
 

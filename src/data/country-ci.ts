@@ -5,9 +5,12 @@ import type { CountryDive } from "@/data/country-dive";
  * its source on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet for Côte d'Ivoire (PDF text), the abstract of the
  * Abidjan registry's first results through Europe PMC, the African Cancer Registry Network's membership list, WHO's
  * Global Health Observatory API (HPV coverage and the 2019 and 2021 country capacity surveys), the World Bank's health
- * expenditure API and OnCo's ClinicalTrials.gov participation data. The Ministry of Health's site showed only an entry
- * page, the regulator's site loads its content by script, and the other national sites tried did not answer or required a
- * login; the gaps are named under `gaps`.
+ * expenditure API and OnCo's ClinicalTrials.gov participation data. The regulator's site loads its content by script and
+ * other national addresses tried did not answer; the gaps are named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every claim re-read against its source. The trial total was recounted (5,897),
+ * the insurance fund's site and the Ministry's home page now answer and are described as read, and the IAEA DIRAC
+ * country table was read through the data service its public countries page names.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/384-cote-divoire-fact-sheet.pdf";
 const ABIDJAN_2000 = "https://doi.org/10.1002/1097-0142(20000801)89:3%3C653::aid-cncr22%3E3.0.co;2-z";
@@ -18,6 +21,8 @@ const WHO_CHEMO = "https://ghoapi.azureedge.net/api/NCD_CCS_chemo?$filter=Spatia
 const WHO_CX = "https://ghoapi.azureedge.net/api/NCD_CCS_cervicalcancermethod?$filter=SpatialDim%20eq%20'CIV'";
 const WB_OOP = "https://api.worldbank.org/v2/country/CIV/indicator/SH.XPD.OOPC.CH.ZS?format=json";
 const WB_PC = "https://api.worldbank.org/v2/country/CIV/indicator/SH.XPD.CHEX.PC.CD?format=json";
+const DIRAC = "https://dirac.iaea.org/api/DataGridWebApi/GetCountriesAndRegions";
+const CNAM_CARE = "https://ipscnam.ci/soins-couverts/";
 const CTGOV = "https://clinicaltrials.gov/search?country=C%C3%B4te%20d%27Ivoire&cond=cancer";
 
 export const CI_DIVE: CountryDive = {
@@ -89,7 +94,7 @@ export const CI_DIVE: CountryDive = {
           plain:
             "The Abidjan cancer registry tries to record every new cancer diagnosed in the city, including those not confirmed by a laboratory. Its first results, for 1995 to 1997, counted 2,815 new cancers. It is a member of the African Cancer Registry Network, but OnCo could not read anything more recent from it.",
           detail:
-            "The first results found liver cancer (15%) and prostate cancer (15.8%) leading in men, and breast cancer (25.7%) and cervical cancer (24.0%) in women, with Kaposi sarcoma at moderate frequency (7.7% of cancers in men) and relatively high rates of Burkitt lymphoma in children. The authors read the relatively high breast and prostate cancer rates as signs of a westernising cancer pattern. The registry's page on the African Cancer Registry Network returned no text on 11 November 2026.",
+            "The first results found liver cancer (15%) and prostate cancer (15.8%) leading in men, and breast cancer (25.7%) and cervical cancer (24.0%) in women, with Kaposi sarcoma at moderate frequency (7.7% of cancers in men) and relatively high rates of Burkitt lymphoma in children. The authors read the relatively high breast and prostate cancer rates as signs of a westernising cancer pattern. The registry's page on the African Cancer Registry Network showed only the registry's name on 16 November 2026.",
           links: [
             { label: "Echimane et al., cancer incidence in Abidjan 1995 to 1997 (Cancer 2000)", url: ABIDJAN_2000 },
             { label: "African Cancer Registry Network: member registries", url: AFCRN },
@@ -109,8 +114,9 @@ export const CI_DIVE: CountryDive = {
           plain:
             "According to the World Bank, Côte d'Ivoire spent 87.68 US dollars a person on health in 2023, 3.4% of the value of its economy (GDP). Households paid 32.0% of it out of pocket, the government 40.8% and external sources 11.8%.",
           detail:
-            "These are the World Bank's indicators drawn from WHO's Global Health Expenditure Database. In its 2021 answers to WHO, the country reported chemotherapy and radiotherapy as not generally available in the public sector. The address OnCo tried for the national health insurance fund (ipscnam.ci) redirected to a login page, so OnCo cannot say what public insurance covers for cancer; see the gaps.",
+            "These are the World Bank's indicators drawn from WHO's Global Health Expenditure Database. In its 2021 answers to WHO, the country reported chemotherapy and radiotherapy as not generally available in the public sector. The national health insurance fund (CNAM) says on its page of covered care, read on 16 November 2026, that universal health coverage (Couverture Maladie Universelle, CMU) covers consultations, medicines, surgery, laboratory tests and imaging, dental care and hospital stays, with the patient paying 30% of the cost and the fund 70%; people in the medical assistance scheme pay nothing. The page says these are guaranteed for eleven named specialties; cancer care is not among those named, and the page does not mention cancer. The fund's page of covered conditions returned no list to a plain request. OnCo therefore cannot say what public insurance covers for cancer; see the gaps.",
           links: [
+            { label: "CNAM: care covered by universal health coverage (in French)", url: CNAM_CARE },
             { label: "World Bank: out-of-pocket expenditure, Côte d'Ivoire (API)", url: WB_OOP },
             { label: "World Bank: current health expenditure per person, Côte d'Ivoire (API)", url: WB_PC },
           ],
@@ -162,9 +168,9 @@ export const CI_DIVE: CountryDive = {
           id: "hpv-scale",
           title: "From 6% to 90% HPV vaccine coverage in six years",
           plain:
-            "Côte d'Ivoire's HPV vaccine coverage went from 6% of girls in the target age group in 2019 to 90% in 2025, by WHO's estimates. Cervical cancer is the third commonest cancer in the country, with 2,540 new cases and 1,542 deaths a year according to IARC.",
+            "Côte d'Ivoire's HPV vaccine coverage went from 6% of girls in the target age group in 2019 to 90% in 2025, by WHO's estimates. Cervical cancer is the third commonest cancer in the country, with an estimated 2,540 new cases and 1,542 deaths in 2024 according to IARC.",
           detail:
-            "WHO's estimates show the climb was not smooth (61% in 2020, then 28% in 2021, rising again to 73% in 2023). OnCo did not read the Ministry of Health's own account of how the programme was delivered, its target ages or its vaccine schedule, because the Ministry's website showed only an entry page; this card reports the outcome WHO measures, not how it was achieved.",
+            "WHO's estimates show the climb was not smooth (61% in 2020, then 28% in 2021, rising again to 73% in 2023). OnCo did not read the Ministry of Health's own account of how the programme was delivered, its target ages or its vaccine schedule, because OnCo did not find one on the Ministry's home page; this card reports the outcome WHO measures, not how it was achieved.",
           links: [
             { label: "WHO Global Health Observatory: HPV coverage, Côte d'Ivoire (API)", url: WHO_HPV },
             { label: "IARC: GLOBOCAN 2024 fact sheet, Côte d'Ivoire (PDF)", url: IARC_FACTSHEET },
@@ -183,7 +189,7 @@ export const CI_DIVE: CountryDive = {
           plain:
             "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, one cancer trial in our records lists a site in Côte d'Ivoire: SKYSCRAPER-14, Roche's phase 3 trial of atezolizumab and bevacizumab with or without tiragolumab in liver cancer, active but no longer recruiting.",
           detail:
-            "ClinicalTrials.gov lists sites in 27 countries and territories for it. OnCo's participation data cover 5,899 trials, mostly large trials of new medicines, so this is not a count of all cancer research in Côte d'Ivoire; the ClinicalTrials.gov search linked here shows more.",
+            "ClinicalTrials.gov lists sites in 27 countries and territories for it, two of them in Abidjan: the Polyclinique Internationale Sainte Anne-Marie (PISAM) and the Centre National d'Oncologie Médicale et de Radiothérapie Alassane Ouattara (CNRAO). OnCo's participation data cover 5,897 trials, mostly large trials of new medicines, so this is not a count of all cancer research in Côte d'Ivoire; the ClinicalTrials.gov search linked here shows more.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in Côte d'Ivoire (search)", url: CTGOV },
             { label: "SKYSCRAPER-14 on OnCo", url: "/trials/nct05904886/" },
@@ -195,14 +201,14 @@ export const CI_DIVE: CountryDive = {
   gaps: [
     {
       id: "national-sources",
-      title: "National sources could not be read",
+      title: "The national cancer plan, the list of treatment centres and the insurance rules for cancer were not read",
       plain:
-        "On 11 November 2026 the Ministry of Health's website showed only an entry page, the regulator AIRP's site returned only its title, and the addresses OnCo tried for the national radiotherapy centre and the national cancer programme did not answer, and the health insurance fund's site led only to a login page. This page therefore has no national cancer plan, no treatment centre list and no insurance rules.",
+        "On 16 November 2026 the regulator AIRP's site returned only its title to a plain request. The Ministry of Health's website opens on an entry page; the home page behind it carries news and documents, and no national cancer plan is named on it. The addresses OnCo tried on 11 November 2026 for the national radiotherapy centre and the national cancer programme did not answer. The health insurance fund's page on covered care describes it in general and does not mention cancer. This page therefore has no national cancer plan, no treatment centre list and no insurance rules for cancer.",
       detail:
-        "The country told WHO in 2021 that it has an operational cancer plan, but OnCo could not read it. The IAEA's directory of radiotherapy centres works only in a browser, so no machine count is given. OnCo's web search budget was spent during this round, so other copies of national documents could not be looked for.",
+        "The country told WHO in 2021 that it has an operational cancer plan, but OnCo has not read it; the Ministry's document library was not searched. The public country table of the IAEA's Directory of Radiotherapy Centres (DIRAC), read through its data service on 16 November 2026, gives Côte d'Ivoire (last update 2026) 2 radiotherapy centres, both with radiotherapy, 4 high-energy photon and electron beam teletherapy units and no brachytherapy. The table does not name the centres. OnCo's web search budget was spent during the first round, so other copies of national documents were not looked for.",
       links: [
         { label: "Ministry of Health, Côte d'Ivoire", url: "https://www.sante.gouv.ci/" },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
       ],
     },
   ],
@@ -213,7 +219,7 @@ export const CI_DIVE: CountryDive = {
   papers: ["paper-echimane-abidjan-incidence-1995-1997-cancer-2000"],
   people: [],
   how:
-    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Côte d'Ivoire; the Abidjan registry paper's abstract through Europe PMC; the African Cancer Registry Network's membership list; WHO's Global Health Observatory; and the World Bank's health expenditure series. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records (the Abidjan registry and its paper) carry their own sources.",
+    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Côte d'Ivoire; the Abidjan registry paper's abstract through Europe PMC; the African Cancer Registry Network's membership list; WHO's Global Health Observatory; the World Bank's health expenditure series; the national health insurance fund's page on covered care; and the IAEA's DIRAC country table. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records (the Abidjan registry and its paper) carry their own sources.",
   verify:
     "National figures are IARC estimates. Which hospitals give radiotherapy and chemotherapy, and what public health insurance covers, change faster than published sources; ask the treating hospital in Abidjan or your health district.",
   verifyLinks: [

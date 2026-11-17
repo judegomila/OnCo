@@ -3,9 +3,9 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
 /**
  * Côte d'Ivoire: the registry and paper behind /countries/ci/ (wave 9) that the corpus did not hold. The registry was
  * written from its first published results (resolved through Europe PMC, abstract read on 11 November 2026) and the
- * African Cancer Registry Network's membership list, which names it; its member page returned no text. The Ministry of
- * Health's site showed only an entry page, and the regulator's site loads its content by script, so no records are
- * added for them. Coordinates are approximate city points.
+ * African Cancer Registry Network's membership list, which names it; its member page shows only the registry's name
+ * (re-read 16 November 2026). No records are added for the Ministry of Health or the regulator, whose site loads its
+ * content by script. Coordinates are approximate city points.
  */
 const asOf = "2026-11-11";
 type I = Omit<InstitutionInput, "kind" | "asOf">;
@@ -21,7 +21,7 @@ const institutions: InstitutionInput[] = [
   i({ id: "abidjan-cancer-registry", name: "Abidjan Cancer Registry", aka: ["Registre des cancers d'Abidjan"],
     city: "Abidjan", country: "CI", lat: 5.35, lng: -4.01, institutionType: "research-institute", website: "https://afcrn.org/index.php/membership/membership-list/98-registre-des-cancers-d-abidjan",
     tldr: "The population-based cancer registry for the city of Abidjan, a member of the African Cancer Registry Network. Its first results, for 1995 to 1997, counted 2,815 new cancers.",
-    summary: "The Registre des cancers d'Abidjan attempts to record every new cancer diagnosed in the city of Abidjan, including cases without histological confirmation. Its first results, for 1995 to 1997, counted 2,815 new cancers, an age-standardised incidence of 83.7 per 100,000 men and 98.6 per 100,000 women, with liver and prostate cancer leading in men and breast and cervical cancer in women; the authors expected some under-ascertainment. It is listed among the African Cancer Registry Network's member registries, but its member page returned no text on 11 November 2026, so its current coverage and latest data are not described here. The coordinates on this record are an approximate Abidjan point.",
+    summary: "The Registre des cancers d'Abidjan attempts to record every new cancer diagnosed in the city of Abidjan, including cases without histological confirmation. Its first results, for 1995 to 1997, counted 2,815 new cancers, an age-standardised incidence of 83.7 per 100,000 men and 98.6 per 100,000 women, with liver and prostate cancer leading in men and breast and cervical cancer in women; the authors expected some under-ascertainment. It is listed among the African Cancer Registry Network's member registries, but its member page showed only the registry's name on 16 November 2026, so its current coverage and latest data are not described here. The coordinates on this record are an approximate Abidjan point.",
     programs: ["Population-based cancer registration for Abidjan"],
     institutions: ["iarc"], cancers: ["breast-cancer", "cervical", "prostate", "hcc"], related: ["cancer-registries-surveillance"],
     keyPapers: ["paper-echimane-abidjan-incidence-1995-1997-cancer-2000"],

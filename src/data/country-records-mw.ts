@@ -75,7 +75,7 @@ const papers: PaperInput[] = [
       "In women cervical cancer was 45.4% of cases and Kaposi sarcoma 21.1%; in men Kaposi sarcoma was 50.7% and oesophageal cancer 16.9%.",
       "Age-standardised incidence rose from 31 to 56 per 100,000 in men and from 29 to 69 in women between 1999 to 2002 and 2007 to 2010; the authors estimated at least 8,151 new cancers a year.",
     ],
-    whatItMeans: "The only nationwide count in the sources read for this page; it shows how much cancer in Malawi is linked to HIV and HPV, and how few cancers were confirmed by a laboratory.",
+    whatItMeans: "The only nationwide count in the sources read for this page; cervical cancer and Kaposi sarcoma made up most of the cancers registered, and few cancers were confirmed by a laboratory.",
     caveats: ["The authors note under-reporting and misdiagnosis.", "Facility registers, not a continuous population-based registry for the whole country."],
     institutions: ["ministry-of-health-malawi", "malawi-cancer-registry"], cancers: ["cervical", "kaposi-sarcoma", "esophageal"],
     links: [doi("10.1186/1756-0500-5-149", "BMC Res Notes 2012"), pubmed("22424105")] }),
@@ -87,6 +87,7 @@ const papers: PaperInput[] = [
     findings: [
       "Screening sites rose from 75 to 130, women screened a year from 15,331 to 49,301, and coverage a year from 9.3% to 26.5%.",
       "145,015 women were screened; 5.1% were VIA positive and 4.3% had suspected cancer.",
+      "Only 1,001 of 2,311 women eligible for cryotherapy were treated (43.3%), and 266 of 836 women referred with a large lesion or suspected cancer (31.8%) received care at the referral centre.",
       "VIA positivity was higher in women with HIV than without (8.8% against 5.0%).",
     ],
     whatItMeans: "Shows the scale and limits of screen-and-treat in a country with very high cervical cancer rates; 4.3% of women screened already had suspected cancer.",

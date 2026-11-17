@@ -6,7 +6,11 @@ import type { CountryDive } from "@/data/country-dive";
  * text), INCART's report Indicadores Estadísticos y Epidemiológicos 2017-2021 (PDF text) and home page, SISALRIL's home
  * page and EVTESA page, WHO's Global Health Observatory API (HPV coverage and the 2019 and 2021 country capacity
  * surveys), the World Bank's health expenditure API and OnCo's ClinicalTrials.gov participation data. SENASA's and the
- * Ministry of Public Health's websites could not be read; the gaps are named under `gaps`.
+ * Ministry of Public Health's websites could not be read at the addresses tried that day; the gaps are named under `gaps`.
+ *
+ * Second accuracy pass, 16 November 2026: every figure re-read against the same sources. IAEA DIRAC's equipment report
+ * was read (it answers as JSON), and SENASA, the Ministry and DIGEMAPS answered at arssenasa.gob.do, msp.gob.do/web/ and
+ * digemaps.gob.do; only their home pages were read, so the gap card is reworded rather than filled.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/214-dominican-republic-fact-sheet.pdf";
 const INCART = "https://www.incart.gob.do/";
@@ -18,6 +22,7 @@ const WHO_PBCR = "https://ghoapi.azureedge.net/api/NCD_CCS_PBCR?$filter=SpatialD
 const WHO_MORPH = "https://ghoapi.azureedge.net/api/NCD_CCS_OralMorph?$filter=SpatialDim%20eq%20'DOM'";
 const WB_OOP = "https://api.worldbank.org/v2/country/DOM/indicator/SH.XPD.OOPC.CH.ZS?format=json";
 const WB_GOV = "https://api.worldbank.org/v2/country/DOM/indicator/SH.XPD.GHED.CH.ZS?format=json";
+const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const CTGOV = "https://clinicaltrials.gov/search?country=Dominican%20Republic&cond=cancer";
 
 export const DO_DIVE: CountryDive = {
@@ -32,7 +37,7 @@ export const DO_DIVE: CountryDive = {
   lede:
     "IARC estimates 21,060 new cancers and 11,533 cancer deaths in the Dominican Republic in 2024, with prostate cancer the commonest cancer and the commonest cause of cancer death. There is no national count of new cancers: the hospital registries of the reference cancer centres are the closest thing.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for the Dominican Republic is 21,060 new cancers and 11,533 deaths, an age-standardised incidence of 165.4 per 100,000 (200.6 in men, 142.4 in women) and mortality of 90.8. IARC's fact sheet says it had no incidence data for the country and estimated incidence from national mortality and modelled mortality-to-incidence ratios based on registry survival data; mortality comes from WHO national data, with national or sub-national rates scaled to regional all-cancer rates. The country reported a population-based cancer registry to WHO in 2019 and 2021, but IARC used no incidence data from it, and OnCo found no published population-based figures. The hospital registries count only patients who reach particular hospitals.",
+    "IARC's GLOBOCAN 2024 figure for the Dominican Republic is 21,060 new cancers and 11,533 deaths, an age-standardised incidence of 165.4 per 100,000 (200.6 in men, 142.4 in women) and mortality of 90.8. IARC's fact sheet says it had no incidence data for the country and estimated incidence from national mortality and modelled mortality-to-incidence ratios based on registry survival data; mortality comes from WHO national data, with national or sub-national rates scaled to regional all-cancer rates. The country reported a population-based cancer registry to WHO in 2019 and 2021, after answering no in 2015 and 2017, but IARC used no incidence data from it, and OnCo found no published population-based figures. The hospital registries count only patients who reach particular hospitals.",
   sections: [
     {
       id: "profile",
@@ -83,9 +88,9 @@ export const DO_DIVE: CountryDive = {
           id: "incart-registry",
           title: "INCART's registry: about 850 to 1,500 cases a year, most without a recorded stage",
           plain:
-            "INCART, the national cancer institute in Santo Domingo, keeps a hospital cancer registry from patients' clinical records. Its 2023 report, the first to publish five years together, counts 1,115 cases in 2017, 1,411 in 2018, 1,481 in 2019, 1,023 in 2020 and 854 in 2021.",
+            "INCART, the national cancer institute in Santo Domingo, keeps a hospital cancer registry from patients' clinical records. Its 2023 report, which says it is the first to publish five years together, counts 1,115 cases in 2017, 1,411 in 2018, 1,481 in 2019, 1,023 in 2020 and 854 in 2021 in its table by age.",
           detail:
-            "The report's table of 2019 cases by province shows clinical stage recorded as unknown for 1,332 of 1,481 cases, so stage at diagnosis cannot be described from it. A survival analysis of 738 records from 2019 to 2021 is included. The report says that the institute's output has risen considerably since 2020, including at its paediatric oncology centre and its radio-oncology centre, and it covers its pharmacovigilance programme. Santo Domingo province accounted for 249 of the 2019 cases (16.8%).",
+            "The report's table of 2019 cases by province shows clinical stage recorded as unknown for 1,332 of 1,481 cases, so stage at diagnosis cannot be described from it. The report's tables do not all agree: its tables by province and stage and its annex of rates give 1,261 cases for 2017 and 1,468 for 2018. A survival analysis of 738 records from 2019 to 2021 is included. The report says that the institute's output has risen considerably since 2020, including at its paediatric oncology centre and its radio-oncology centre, and it covers its pharmacovigilance programme. Santo Domingo province accounted for 249 of the 2019 cases (16.8%).",
           links: [
             { label: "INCART: Indicadores Estadísticos y Epidemiológicos 2017-2021 (PDF, Spanish)", url: INCART_REPORT },
             { label: "WHO Global Health Observatory: population-based cancer registry, Dominican Republic (API)", url: WHO_PBCR },
@@ -105,7 +110,7 @@ export const DO_DIVE: CountryDive = {
           plain:
             "Dominican social security includes a Family Health Insurance (Seguro Familiar de Salud) with a basic health plan, supervised by SISALRIL. According to the World Bank, government spending was 64.1% of current health spending in 2023 and out-of-pocket payments 25.1%.",
           detail:
-            "SISALRIL's website lets people look up what the basic health plan (Plan Básico de Salud) covers. Health spending was 4.6% of the value of the economy (GDP) in 2023, about 489 US dollars a person, according to the World Bank's series from WHO's Global Health Expenditure Database. OnCo could not read SENASA, the public insurer, or the rules for high-cost cancer treatment under the plan; see the gaps.",
+            "SISALRIL's website lets people look up what the basic health plan (Plan Básico de Salud) covers. Health spending was 4.6% of the value of the economy (GDP) in 2023, about 489 US dollars a person, according to the World Bank's series from WHO's Global Health Expenditure Database. OnCo has not read the rules of SENASA (Seguro Nacional de Salud), an insurer whose website lists a contributory and a subsidised scheme, or the rules for high-cost cancer treatment under the plan; see the gaps.",
           links: [
             { label: "SISALRIL (Spanish)", url: SISALRIL },
             { label: "World Bank: out-of-pocket expenditure, Dominican Republic (API)", url: WB_OOP },
@@ -124,9 +129,9 @@ export const DO_DIVE: CountryDive = {
           id: "evtesa",
           title: "Health technology assessment before a medicine joins the insurance plan",
           plain:
-            "SISALRIL runs a health technology assessment process, EVTESA, that weighs the benefits, risks and costs of medicines, procedures and supplies before they are included in the Family Health Insurance. Anyone can request an assessment through SISALRIL's online office.",
+            "SISALRIL runs a health technology assessment process, EVTESA, that weighs the benefits, risks and costs of medicines, procedures and supplies before they are included in the Family Health Insurance. Requests are made through SISALRIL's online office during a call for requests, which the page says is open to all interested parties.",
           detail:
-            "SISALRIL's page describes health technology assessment as a tool that studies efficacy and safety against costs, along with social and ethical aspects, and says EVTESA supports decisions on including medicines, procedures and supplies so the insurance's resources are used efficiently; it publishes its manuals, legal basis and evaluation reports. Marketing authorisation of medicines is a separate step by the Ministry of Public Health's regulator, whose website OnCo could not read; see the gaps.",
+            "SISALRIL's page describes health technology assessment as a tool that studies efficacy and safety against costs, along with social and ethical aspects, and says EVTESA supports decisions on including medicines, procedures and supplies so the insurance's resources are used efficiently; it publishes its manuals, legal basis and evaluation reports. Registration of medicines is a separate step: the website of DIGEMAPS, the general directorate for medicines, food and health products, lists a health registration service for medicines (Registro Sanitario de Medicamentos). OnCo has not read its rules; see the gaps.",
           links: [{ label: "SISALRIL: EVTESA (Spanish)", url: EVTESA }],
         },
       ],
@@ -179,9 +184,9 @@ export const DO_DIVE: CountryDive = {
           id: "trials-research",
           title: "No trial in OnCo's records has a site in the Dominican Republic",
           plain:
-            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, none of the cancer trials in our records lists a site in the Dominican Republic. That reflects the trials OnCo holds, mostly large trials of new medicines, not every study in the country.",
+            "Counted from OnCo's ClinicalTrials.gov participation data, almost all of it fetched on 7 and 8 October 2026, none of the cancer trials in our records lists a site in the Dominican Republic. That reflects the trials OnCo holds, mostly large trials of new medicines, not every study in the country.",
           detail:
-            "OnCo's participation data cover 5,899 trials. INCART has a research directorate and a bioethics committee for research, according to its website, and the ClinicalTrials.gov search linked here shows any cancer studies registered with a site in the Dominican Republic.",
+            "OnCo's participation data cover 5,897 trials. INCART has a research directorate and a bioethics committee for research, according to its website, and the ClinicalTrials.gov search linked here shows any cancer studies registered with a site in the Dominican Republic.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in the Dominican Republic (search)", url: CTGOV },
             { label: "INCART (Spanish)", url: INCART },
@@ -193,14 +198,18 @@ export const DO_DIVE: CountryDive = {
   gaps: [
     {
       id: "national-sources",
-      title: "Sources that could not be read",
+      title: "Sources not yet read in full",
       plain:
-        "SENASA, the public health insurer, did not answer, the Ministry of Public Health's site returned an almost empty page, and the address OnCo tried for the medicines regulator (digemaps.msp.gob.do) returned not found on 11 November 2026. This page therefore has no national cancer plan, no rules for high-cost cancer treatment and no description of the medicines approval route.",
+        "On 11 November 2026 the addresses OnCo tried for SENASA, the Ministry of Public Health and the medicines regulator (digemaps.msp.gob.do) did not return a readable page. On 16 November 2026 all three answered at other addresses (arssenasa.gob.do, msp.gob.do/web/ and digemaps.gob.do), but only their home pages were read. This page therefore still does not describe the national cancer plan, the rules for high-cost cancer treatment or the medicines approval route.",
       detail:
-        "The country told WHO in 2021 that radiotherapy and chemotherapy are generally available in the public sector but oral morphine is not generally available in the public health sector. The IAEA's directory of radiotherapy centres works only in a browser, so no machine count is given. OnCo's web search budget was spent during this round, so other copies could not be looked for.",
+        "The country told WHO in 2021 that it has an operational cancer policy, strategy or action plan, and that radiotherapy and chemotherapy are generally available in the public sector but oral morphine is not generally available in the public health sector. The IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 12 centres in the Dominican Republic with 20 linear accelerators and one Gamma Knife between them, and brachytherapy at six of them; INCART is listed with three linear accelerators and brachytherapy. DIRAC depends on centres reporting, and these entries were last updated between 2016 and 2025, so machines installed or retired since may be missing.",
       links: [
         { label: "WHO Global Health Observatory: oral morphine availability, Dominican Republic (API)", url: WHO_MORPH },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "WHO Global Health Observatory: cancer policy, strategy or action plan, Dominican Republic (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_CancerPlan?$filter=SpatialDim%20eq%20'DOM'" },
+        { label: "IAEA DIRAC: equipment by centre (read 16 November 2026)", url: DIRAC },
+        { label: "SENASA (Spanish)", url: "https://www.arssenasa.gob.do/" },
+        { label: "Ministry of Public Health (Spanish)", url: "https://msp.gob.do/web/" },
+        { label: "DIGEMAPS (Spanish)", url: "https://digemaps.gob.do/" },
       ],
     },
   ],
@@ -211,7 +220,7 @@ export const DO_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet; INCART's 2017 to 2021 report and website, in Spanish; SISALRIL's pages, in Spanish; WHO's Global Health Observatory; and the World Bank's health expenditure series. Trials were counted from OnCo's ClinicalTrials.gov participation data. The two new records (INCART and SISALRIL) carry their own sources.",
+    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet; INCART's 2017 to 2021 report and website, in Spanish; SISALRIL's pages, in Spanish; WHO's Global Health Observatory; the World Bank's health expenditure series; and IAEA DIRAC's equipment report. Trials were counted from OnCo's ClinicalTrials.gov participation data. The two new records (INCART and SISALRIL) carry their own sources.",
   verify:
     "National figures are IARC estimates without national incidence data. What the Family Health Insurance covers depends on your scheme and plan; check with your insurer and the treating centre before treatment starts.",
   verifyLinks: [

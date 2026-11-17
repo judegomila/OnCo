@@ -16,6 +16,7 @@ const CX_PLAN = "https://teaho.govt.nz/index.php/CanStats/reports/new-zealand-ce
 const NZCR = "https://www.healthnz.govt.nz/about-us/health-data/data-sets-and-collections/cancer-data-and-statistics/new-zealand-cancer-registry";
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/554-new-zealand-fact-sheet.pdf";
 const PHARMAC = "https://pharmac.govt.nz/about";
+const PHARMAC_HOW = "https://pharmac.govt.nz/about/what-we-do/how-pharmac-works";
 const MEDSAFE = "https://www.medsafe.govt.nz/other/about.asp";
 const WHO_HPV = "https://ghoapi.azureedge.net/api/SDGHPVRECEIVED?$filter=SpatialDim%20eq%20'NZL'";
 const WB_OOP = "https://api.worldbank.org/v2/country/NZL/indicator/SH.XPD.OOPC.CH.ZS?format=json";
@@ -29,7 +30,7 @@ export const NZ_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in New Zealand",
   description:
-    "Cancer in New Zealand from New Zealand sources: 137,000 people diagnosed in 2018 to 2022 according to the national registry, Māori 1.6 times and Pacific peoples 1.4 times as likely to die from cancer, Pharmac's fixed medicines budget and the 33 cancer medicines funded after the 2024 increase, HPV self-testing for cervical screening, the plan to eliminate cervical cancer by 2040, and 229 trials in our records with a site in New Zealand.",
+    "Cancer in New Zealand from New Zealand sources: 137,000 people diagnosed in 2018 to 2022 according to the national registry, Māori 1.6 times and Pacific peoples 1.4 times as likely to die from cancer, Pharmac's fixed medicines budget and the 33 cancer medicines funded after the 2024 increase, HPV self-testing for cervical screening, the plan to eliminate cervical cancer by 2040, and 230 trials in our records with a site in New Zealand.",
   lede:
     "New Zealand's registry counted 137,000 people diagnosed with cancer in the five years 2018 to 2022, and cancer is the leading cause of death. Death rates have fallen by almost a quarter in twenty years, but not equally: Māori and Pacific peoples are more likely to die from cancer, and the cancer agency's reports measure that gap.",
   globocanNote:
@@ -122,9 +123,10 @@ export const NZ_DIVE: CountryDive = {
           plain:
             "Public hospital cancer care in New Zealand is run by Health New Zealand. Which medicines the public system pays for is decided by Pharmac, a government agency that must stay within a fixed budget. A medicine can be approved for sale by Medsafe and still not be publicly funded.",
           detail:
-            "Pharmac describes itself as the agency that decides which medicines and related products are funded in New Zealand and says the law requires it to stay within its budget; its Pharmaceutical Schedule lists the funded medicines for the community and for hospitals. In 2022 Te Aho o Te Kahu compared funded cancer medicines with Australia's and found 20 medicines for solid tumours that would give substantial clinical benefit if funded in New Zealand, three of them used with the intention of cure; a 2024 follow-up found 12 such medicines for blood cancers. The World Bank's latest figure puts out-of-pocket spending at 12.7% of current health expenditure in 2024.",
+            "Pharmac describes itself as the agency that decides which medicines and related products are funded in New Zealand. Its page on how it works says the Healthy Futures (Pae Ora) Act requires it to decide which medicines to fund while staying within its budget; its Schedule lists the funded medicines for the community and for hospitals. In 2022 Te Aho o Te Kahu compared funded cancer medicines with Australia's and found 20 medicines for solid tumours that would give substantial clinical benefit if funded in New Zealand, three of them used with the intention of cure; a 2024 follow-up found 12 such medicines for blood cancers. The World Bank's latest figure puts out-of-pocket spending at 12.7% of current health expenditure in 2024.",
           links: [
             { label: "Pharmac: about Pharmac", url: PHARMAC },
+            { label: "Pharmac: how Pharmac works", url: PHARMAC_HOW },
             { label: "Te Aho o Te Kahu: The State of Cancer in New Zealand 2025, chapter on systemic therapy (PDF)", url: SOC_FULL },
             { label: "World Bank: out-of-pocket expenditure, New Zealand (API)", url: WB_OOP },
           ],
@@ -150,9 +152,9 @@ export const NZ_DIVE: CountryDive = {
           id: "medsafe",
           title: "Medsafe approves, Pharmac funds",
           plain:
-            "Medsafe, a business unit of the Ministry of Health, is the authority that regulates medicines in New Zealand. Its approval allows a medicine to be sold. Whether the public system pays for it is a separate decision by Pharmac, so a newly approved cancer medicine may be available only to people who pay for it privately.",
+            "Medsafe, a business unit of the Ministry of Health, is the authority that regulates medicines in New Zealand. A new medicine cannot be marketed without the consent of the Minister of Health, which follows Medsafe's evaluation. Whether the public system pays for it is a separate decision by Pharmac, so a newly approved cancer medicine may be available only to people who pay for it privately.",
           detail:
-            "Medsafe's own page describes it as the New Zealand Medicines and Medical Devices Safety Authority, a business unit of the Ministry of Health and the authority responsible for the regulation of therapeutic products. OnCo did not read Medsafe's guidance on its evaluation routes or timelines for this page; see the gaps.",
+            "Medsafe's own page describes it as the New Zealand Medicines and Medical Devices Safety Authority, a business unit of the Ministry of Health and the authority responsible for the regulation of therapeutic products. It says new medicines cannot be marketed in New Zealand without the consent of the Minister of Health, that data on quality, safety and efficacy must be submitted for evaluation first, and that Medsafe is not involved in funding medicines, which is Pharmac's responsibility. OnCo did not read Medsafe's guidance on its evaluation routes or timelines for this page; see the gaps.",
           links: [
             { label: "Medsafe: about Medsafe", url: MEDSAFE },
             { label: "Pharmac: about Pharmac", url: PHARMAC },
@@ -168,11 +170,11 @@ export const NZ_DIVE: CountryDive = {
       cards: [
         {
           id: "screening-programmes",
-          title: "Three national programmes, HPV self-testing, and bowel screening from 58",
+          title: "Three national programmes, HPV self-testing, and bowel screening moving to 58",
           plain:
-            "New Zealand runs national breast, cervical and bowel screening. Cervical screening now uses an HPV test, with the option of taking it yourself. More than 310,000 people were screened between September 2023 and the end of 2024, and the report says 81% of them chose the new HPV screening. Bowel screening starts at 58 from October 2025, down from 60.",
+            "New Zealand runs national breast, cervical and bowel screening. Cervical screening now uses an HPV test, with the option of taking it yourself. More than 310,000 people were screened between September 2023 and the end of 2024, and the report says 81% of them chose the new HPV screening. The starting age for bowel screening is being lowered from 60 to 58: the change began in two regions in October 2025, with the other two regions due to follow in March 2026.",
           detail:
-            "Te Aho o Te Kahu's 2025 report says breast screening is being extended to people aged 70 to 74, supported by a new invitation and booking platform, Te Puna; that planning is under way to lower the bowel screening age further; and that a lung cancer screening programme is being proposed. Between 2020 and 2024 the number of people invited to bowel screening rose by 500,000 and the number who completed it by 280,000. The report also notes early-onset bowel cancer rising in people under 50.",
+            "Te Aho o Te Kahu's 2025 report says breast screening is being extended to people aged 70 to 74, supported by a new invitation and booking platform, Te Puna; that the Government has committed to lowering the bowel screening age further, to align with Australia, when the health system has the capacity; and that a lung cancer screening programme is being proposed. Between 2020 and 2024 the number of people invited to bowel screening rose by 500,000 and the number who completed it by 280,000. The report also notes early-onset bowel cancer rising in people under 50.",
           links: [
             { label: "Te Aho o Te Kahu: The State of Cancer in New Zealand 2025, insights and summary (PDF)", url: SOC_SUMMARY },
             { label: "Te Aho o Te Kahu: The State of Cancer in New Zealand 2025, screening chapter (PDF)", url: SOC_FULL },
@@ -202,7 +204,7 @@ export const NZ_DIVE: CountryDive = {
           id: "measure-gaps",
           title: "A cancer agency that reports on the system, and on who it fails",
           plain:
-            "New Zealand has a dedicated agency, Te Aho o Te Kahu, that publishes a five-yearly report on how the whole cancer system is performing, monitoring reports by cancer, and comparisons of funded medicines with Australia's. Each breaks results down by ethnicity, so differences for Māori and Pacific peoples are measured rather than assumed.",
+            "New Zealand has a dedicated agency, Te Aho o Te Kahu, that has reported on how the whole cancer system is performing in 2020 and again in 2025, and also publishes quality improvement monitoring reports and comparisons of funded medicines with Australia's. The State of Cancer report breaks results down by ethnicity, so differences for Māori and Pacific peoples are measured rather than assumed.",
           detail:
             "The 2025 report covers prevention, screening, diagnosis, treatment, survivorship and palliative care, and the workforce, infrastructure, data and research behind them. It records shorter radiotherapy courses (in 2018 every breast cancer radiotherapy course had at least 15 sessions; in 2023 half had fewer than 15), regional waits for radiation oncology that were longer in Canterbury than elsewhere, ten ageing linear accelerators replaced in public hospitals over five years, and new machines planned for Counties Manukau, Nelson Marlborough and Canterbury. The report says its findings informed the development of the New Zealand Cancer Action Plan 2026 to 2029.",
           links: [
@@ -219,11 +221,11 @@ export const NZ_DIVE: CountryDive = {
       cards: [
         {
           id: "trials-research",
-          title: "229 trials in OnCo's records have a site in New Zealand",
+          title: "230 trials in OnCo's records have a site in New Zealand",
           plain:
-            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 229 cancer trials in our records list a site in New Zealand and 55 were recruiting. None runs only in New Zealand: most are international trials, and 217 of the 229 also have sites in Australia.",
+            "Counted from OnCo's ClinicalTrials.gov participation data, fetched on 7 October 2026, 230 cancer trials in our records list a site in New Zealand and 55 were recruiting. None runs only in New Zealand: most are international trials, and 218 of the 230 also have sites in Australia.",
           detail:
-            "Among the recruiting trials are studies sponsored by Merck Sharp & Dohme, Roche, BeOne Medicines and Bristol-Myers Squibb. OnCo also holds records for the Australian and New Zealand trial groups that run academic cancer trials in both countries, such as ANZGOG for gynaecological cancers and the Australasian Leukaemia and Lymphoma Group, and for New Zealand companies including Pacific Edge. OnCo's participation data cover 5,899 trials, mostly large trials of new medicines, so this is not a count of all research in New Zealand.",
+            "Among the recruiting trials are studies sponsored by Merck Sharp & Dohme, Roche, BeOne Medicines and Bristol-Myers Squibb. OnCo also holds records for the Australian and New Zealand trial groups that run academic cancer trials in both countries, such as ANZGOG for gynaecological cancers and the Australasian Leukaemia and Lymphoma Group, and for New Zealand companies including Pacific Edge. OnCo's participation data cover 5,897 trials, mostly large trials of new medicines, so this is not a count of all research in New Zealand.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with a site in New Zealand (search)", url: CTGOV },
             { label: "Open trials on OnCo", url: "/trials/open/" },

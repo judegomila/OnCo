@@ -21,12 +21,14 @@ const institutions: InstitutionInput[] = [
   i({ id: "ministry-of-health-singapore", name: "Ministry of Health, Singapore", aka: ["MOH Singapore"],
     city: "Singapore", country: "SG", lat: 1.29, lng: 103.85, institutionType: "government", website: "https://www.moh.gov.sg",
     tldr: "Singapore's health ministry. Since 1 September 2022 it decides, through its Cancer Drug List, which outpatient cancer treatments MediShield Life and MediSave will pay for and up to what monthly limit.",
-    summary: "The Ministry of Health runs Singapore's public healthcare institutions and its health financing schemes: MediShield Life, the national basic health insurance, and MediSave, the compulsory medical savings accounts. In August 2021 it announced changes to the financing of outpatient cancer treatment, and from 1 September 2022 MediShield Life and MediSave cover only treatments on its Cancer Drug List, each with its own monthly claim limit. Its FAQs say the list comprises treatments that are clinically proven (registered by the Health Sciences Authority for the indication) and more cost-effective, that companies make the case through a submission to the Agency for Care Effectiveness, and that the list is updated three times a year. The coordinates on this record are an approximate city point.",
-    programs: ["MediShield Life", "MediSave", "Cancer Drug List (from 1 September 2022)", "Medication Assistance Fund", "Healthier SG Screening"],
+    summary: "The Ministry of Health sets the rules for Singapore's health financing schemes. Its own pages describe MediShield Life as a basic health insurance scheme for all Singapore citizens and permanent residents, administered by the Central Provident Fund Board, and MediSave as a national medical savings scheme. In August 2021 it announced changes to the financing of outpatient cancer treatment, and from 1 September 2022 MediShield Life and MediSave cover only treatments on its Cancer Drug List, each with its own monthly claim limit. Its FAQs say the list comprises treatments that are clinically proven (registered by the Health Sciences Authority for the indication) and more cost-effective, that companies make the case through a submission to the Agency for Care Effectiveness, and that the list is updated three times a year. The coordinates on this record are an approximate city point.",
+    programs: ["MediShield Life", "MediSave", "Cancer Drug List (from 1 September 2022)", "Medication Assistance Fund"],
     institutions: ["singapore-cancer-registry", "hsa-singapore", "ace-singapore", "nccs", "nuh-ncis"],
     links: [
       { label: "Ministry of Health: Cancer Drug List", url: CDL },
       { label: "Ministry of Health: FAQs on cancer treatment financing", url: CDL_FAQ },
+      { label: "Ministry of Health: MediShield Life", url: "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medishield-life/medishield-life/" },
+      { label: "Ministry of Health: MediSave", url: "https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medisave/" },
     ] }),
 
   i({ id: "singapore-cancer-registry", name: "Singapore Cancer Registry", aka: ["SCR", "National Registry of Diseases Office cancer registry"],
@@ -42,11 +44,15 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "hsa-singapore", name: "Health Sciences Authority, Singapore", aka: ["HSA", "HSA Singapore"],
     city: "Singapore", country: "SG", lat: 1.28, lng: 103.84, institutionType: "government", website: "https://www.hsa.gov.sg",
-    tldr: "Singapore's medicines regulator. It registers a new medicine by full evaluation, by abridged evaluation if one regulator has approved it, or by verification if two of its six reference agencies have.",
-    summary: "The Health Sciences Authority registers therapeutic products in Singapore. Its evaluation routes page describes three routes for a new drug: full evaluation for a product no regulator has approved; abridged evaluation for a product approved by at least one drug regulatory agency; and verification for a product approved by at least two of its reference agencies (the US FDA, the European Medicines Agency through the centralised procedure, Health Canada, the UK MHRA, Swissmedic and Australia's TGA), within three years by the chosen primary agency, with the unredacted assessment reports. A company may ask for priority review for a medicine for a serious life-threatening condition that meets a local unmet need, and the page names cancer among the conditions of local public health concern. Registration for the indication is the first test for a medicine to enter the Ministry of Health's Cancer Drug List.",
+    tldr: "Singapore's medicines regulator. It registers a new medicine by full evaluation, by abridged evaluation if at least one regulator has approved it, or by verification if at least two of its six reference agencies have.",
+    summary: "The Health Sciences Authority registers therapeutic products in Singapore. Its evaluation routes page describes three routes for a new drug: full evaluation for a product no regulator has approved; abridged evaluation for a product approved by at least one drug regulatory agency; and verification for a product approved by at least two of its reference agencies (the US FDA, the European Medicines Agency through the centralised procedure, Health Canada, the UK MHRA, Swissmedic and Australia's TGA), within three years by the chosen primary agency, with the unredacted assessment reports. A company may ask for priority review for a medicine for a serious life-threatening condition that meets a local unmet need, and the page names cancer among the conditions of local public health concern. The Ministry of Health's financing FAQs say a drug generally counts as clinically proven for the Cancer Drug List if it is registered with the authority for the indication.",
     programs: ["Full, abridged and verification evaluation routes", "Priority review", "Project Orbis participation"],
     institutions: ["ministry-of-health-singapore"], terms: ["project-orbis"],
-    links: [{ label: "HSA: evaluation routes for therapeutic products", url: HSA_ROUTES }] }),
+    links: [
+      { label: "HSA: evaluation routes for therapeutic products", url: HSA_ROUTES },
+      { label: "Ministry of Health: FAQs on cancer treatment financing", url: CDL_FAQ },
+      { label: "FDA: Project Orbis partners, including Singapore's HSA", url: "https://www.fda.gov/about-fda/oncology-center-excellence/project-orbis" },
+    ] }),
 
   i({ id: "ace-singapore", name: "Agency for Care Effectiveness", aka: ["ACE", "ACE Singapore"],
     city: "Singapore", country: "SG", lat: 1.29, lng: 103.85, institutionType: "government", website: "https://www.ace-hta.gov.sg",

@@ -158,7 +158,7 @@ export const GN_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "The registry's account: no radiotherapy in the country, patients sent to Dakar; none listed by IAEA",
           plain:
-            "The Conakry registry's description of its setting says there is no radiotherapy service in Guinea and that patients are sent to Dakar, in Senegal, for treatment, and that there is little specialised oncology apart from a department of oncological surgery and gynaecological oncology at Donka. IAEA's directory of radiotherapy centres lists none in Guinea.",
+            "The Conakry registry's description of its setting says there is no radiotherapy service in Guinea and that patients are sent to Dakar, in Senegal, for treatment, and that there is little specialised oncology apart from a department of oncological surgery and gynaecological oncology at Donka. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists no centre in Guinea.",
           detail:
             "This comes from the registry's page on the African Cancer Registry Network, which is not dated and should not be read as current on its own. IAEA's DIRAC directory publishes its equipment data openly: read on 16 November 2026, its 8,627 rows covered 157 countries and none was for Guinea, while Senegal had three centres, two in Dakar and one in Touba. A directory can lag behind a newly opened centre, so this is what DIRAC lists and not proof that nothing exists. WHO's 2020 profile gives no figure for radiotherapy machines in Guinea.",
           links: [
@@ -197,7 +197,7 @@ export const GN_DIVE: CountryDive = {
       plain:
         "OnCo did not find a recent published report from the Conakry registry, the text of a national cancer plan, the medicines regulator's own rules, or any source on what public schemes pay for cancer care, and could not confirm from a Guinean source whether radiotherapy is now available.",
       detail:
-        "OnCo's web searches ran out during this wave, and the Ministry of Health's home page carried nothing on cancer. The ministry's World Cancer Day item of February 2025 shows that a national cancer programme exists, but OnCo has not read a plan document. The regulator is described here only through NIH ClinRegs. IAEA's directory lists no radiotherapy centre in Guinea, which is not the same as a statement from the country. A future pass should look for the national cancer control plan, the regulator's texts, recent registry results (GICR, IARC), and the date of the HPV vaccine's introduction. None of these is described here from memory.",
+        "OnCo's web searches ran out during this wave, and the Ministry of Health's home page carried nothing on cancer. The ministry's World Cancer Day item of February 2025 shows that a national cancer programme exists, but OnCo has not read a plan document. The regulator is described here only through NIH ClinRegs. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists no centre in Guinea, which is not the same as a statement from the country. A future pass should look for the national cancer control plan, the regulator's texts, recent registry results (GICR, IARC), and the date of the HPV vaccine's introduction. None of these is described here from memory.",
       links: [
         { label: "Ministère de la Santé et de l'Hygiène publique", url: MOH },
         { label: "Ministère de la Santé et de l'Hygiène publique: World Cancer Day, 4 February 2025 (in French)", url: MOH_WCD_2025 },

@@ -168,10 +168,10 @@ export const SV_DIVE: CountryDive = {
       plain:
         "OnCo did not read any cancer law, national cancer registry report or cancer plan that El Salvador may have, the Ministry of Health's or social security institute's cancer services, the medicines regulator's rules, or WHO's 2020 cancer profile for El Salvador. It describes none of these from memory, and it does not know from its own reading whether each exists.",
       detail:
-        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/slv-2020.pdf, the address that served the other countries' profiles. The home page of isss.gob.sv, read again on 16 November 2026, carried no text on cancer services. The home page of salud.gob.sv could not be re-read on 16 November 2026, because it answered with an automated browser check. WHO's 2020 profile was still not at that address on the same day. IAEA's DIRAC database publishes radiotherapy capacity, and its public table of countries, read on 16 November 2026, lists five radiotherapy centres in El Salvador; OnCo has not read each centre's entry for this page.",
+        "OnCo's web searches ran out during this wave. WHO's 2020 profile was not at cdn.who.int/media/docs/default-source/country-profiles/cancer/slv-2020.pdf, the address that served the other countries' profiles. The home page of isss.gob.sv, read again on 16 November 2026, carried no text on cancer services. The home page of salud.gob.sv could not be re-read on 16 November 2026, because it answered with an automated browser check. WHO's 2020 profile was still not at that address on the same day. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists five centres in El Salvador, all in San Salvador, with ten linear accelerators, three cobalt-60 units and one Gamma Knife between them: LIGA CONTRA EL CANCER DE EL SALVADOR (three cobalt-60 units, with brachytherapy; entry last updated 2026), INSTITUTO SALVADOREÑO DEL SEGURO SOCIAL (three linear accelerators, with brachytherapy; 2025), Centro Nacional de Radioterapia (three linear accelerators; 2026), Centro Salvadoreño de Radioterapia (two linear accelerators; 2023) and Centro Internacional de Cáncer (two linear accelerators and one Gamma Knife; 2025). Two of the five are listed with brachytherapy. The entries were last updated between 2023 and 2026. This is what the directory lists, and a directory can lag behind changes at a centre; OnCo has not read the centres' own pages.",
       links: [
         { label: "Ministerio de Salud de El Salvador", url: MINSAL },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],
@@ -182,7 +182,7 @@ export const SV_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's immunisation data and the World Bank's health expenditure series. No Salvadoran cancer source was read for this page yet.",
+    "Every card was written from public sources read as raw text on 11 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's immunisation data and the World Bank's health expenditure series. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026. No Salvadoran cancer source was read for this page yet.",
   verify:
     "This page has no Salvadoran national cancer sources yet. Check with the Ministry of Health for current services and coverage.",
   verifyLinks: [

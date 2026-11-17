@@ -176,12 +176,12 @@ export const MD_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "OnCo did not read the Oncological Institute's website for this page and could not reach the National Health Insurance Company's. It did not read a National Cancer Registry report, found no source saying whether Moldova's cancer counts include the Transnistrian region, and did not read radiotherapy figures.",
+        "OnCo did not read the Oncological Institute's website for this page and could not reach the National Health Insurance Company's. It did not read a National Cancer Registry report and found no source saying whether Moldova's cancer counts include the Transnistrian region. For radiotherapy it gives only what IAEA's directory lists: one centre, in Chișinău.",
       detail:
-        "The two addresses tried on 11 November 2026, oncology.md and cnam.gov.md, did not respond, and neither resolved on 16 November 2026. The Oncological Institute's own website is at onco.md, which answered on 16 November 2026; OnCo has not yet read it for figures. The registry figures here are those the Ministry of Health quotes in its 2026 explanatory note. IAEA's DIRAC database lists radiotherapy centres and machines by country; OnCo has not read Moldova's entry. OnCo did not confirm whether the government adopted the 2026 to 2030 programme after its consultation.",
+        "The two addresses tried on 11 November 2026, oncology.md and cnam.gov.md, did not respond, and neither resolved on 16 November 2026. The Oncological Institute's own website is at onco.md, which answered on 16 November 2026; OnCo has not yet read it for figures. The registry figures here are those the Ministry of Health quotes in its 2026 explanatory note. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists one centre in Moldova: National Oncology Institute, Chisinau, with three linear accelerators, two cobalt-60 units and brachytherapy, in an entry last updated in 2025. This is what the directory lists, and a directory can lag behind changes at a centre; OnCo has not read radiotherapy figures from a Moldovan source. OnCo did not confirm whether the government adopted the 2026 to 2030 programme after its consultation.",
       links: [
         { label: "IMSP Institutul Oncologic (in Romanian)", url: "http://onco.md/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],
@@ -192,7 +192,7 @@ export const MD_DIVE: CountryDive = {
   papers: [],
   people: ["ruslan-baltaga"],
   how:
-    "Every card was written from Moldovan and international public sources read as raw text on 11 November 2026, in Romanian where the source is Romanian: the Ministry of Health's 2026 explanatory note and 2024 action plan, WHO's 2020 country profile and immunisation data, the World Bank, the medicines agency's home page and IARC's GLOBOCAN 2024 fact sheet.",
+    "Every card was written from Moldovan and international public sources read as raw text on 11 November 2026, in Romanian where the source is Romanian: the Ministry of Health's 2026 explanatory note and 2024 action plan, WHO's 2020 country profile and immunisation data, the World Bank, the medicines agency's home page and IARC's GLOBOCAN 2024 fact sheet. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "The 2026 to 2030 programme was a draft when read; check whether the government has adopted it. Registered counts can be revised.",
   verifyLinks: [

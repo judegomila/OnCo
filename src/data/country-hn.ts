@@ -10,7 +10,8 @@ import type { CountryDive } from "@/data/country-dive";
  *
  * Second accuracy pass, 16 November 2026: every claim re-read against the raw sources. The World Bank API timed out, so
  * the spending figures were re-read in WHO's own Global Health Observatory series, which matched. ihss.hn now answers,
- * and the corpus now holds records for Honduran hospitals and cancer centres, so the gap card was reworded.
+ * and the corpus now holds records for Honduran hospitals and cancer centres, so the gap card was reworded. IAEA's radiotherapy directory was
+ * read from its public equipment data on 16 November 2026 and its listing for Honduras added to the gap card.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/340-honduras-fact-sheet.pdf";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/hnd-2020.pdf";
@@ -178,12 +179,12 @@ export const HN_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not found or not read for this page",
       plain:
-        "OnCo did not identify which subnational registry IARC used, or read its reports. This page does not describe the Ministry of Health's cancer programmes, the social security institute's cancer coverage, the number of radiotherapy machines, or the cancer centres in Tegucigalpa and San Pedro Sula.",
+        "OnCo did not identify which subnational registry IARC used, or read its reports. This page does not describe the Ministry of Health's cancer programmes, the social security institute's cancer coverage, or the work of the cancer centres in Tegucigalpa and San Pedro Sula. For radiotherapy it gives only what IAEA's directory lists: five centres, with six linear accelerators and four cobalt-60 units between them.",
       detail:
-        "OnCo's web searches ran out during this wave. The Instituto Hondureño de Seguridad Social's site (ihss.hn) answered 403 on 11 November 2026; it answered on 16 November 2026, but its home page does not mention cancer and OnCo has not read further into the site. WHO's 2020 profile gives 7.0 external beam radiotherapy machines per 10,000 cancer patients in 2019, a rate and not a count. Radiotherapy centres are listed in IAEA's DIRAC database, which this page has not drawn on. OnCo holds separate records for some Honduran hospitals and cancer centres, written from other sources and not re-read for this page. None of these is described here from memory.",
+        "OnCo's web searches ran out during this wave. The Instituto Hondureño de Seguridad Social's site (ihss.hn) answered 403 on 11 November 2026; it answered on 16 November 2026, but its home page does not mention cancer and OnCo has not read further into the site. WHO's 2020 profile gives 7.0 external beam radiotherapy machines per 10,000 cancer patients in 2019, a rate and not a count. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists five centres in Honduras, with six linear accelerators and four cobalt-60 units between them. In Tegucigalpa it lists Hospital General San Felipe (one linear accelerator and two cobalt-60 units, with brachytherapy; entry last updated 2023), Asociacion Hondureña de Lucha Contra el Cancer/ Centro de Cancer Emma Romero (two linear accelerators and one cobalt-60 unit, with brachytherapy; 2024) and Centro Oncologico Hondureno (two linear accelerators; 2019). In San Pedro Sula it lists Liga Contra el Cáncer (one cobalt-60 unit; 2023) and Centro Oncohematologico-COHESA (one linear accelerator; 2020). Two of the five are listed with brachytherapy. The entries were last updated between 2019 and 2024. A directory can lag, so the older entries may be out of date. OnCo holds separate records for some Honduran hospitals and cancer centres, written from other sources and not re-read for this page. None of these is described here from memory.",
       links: [
         { label: "Instituto Hondureño de Seguridad Social", url: "https://www.ihss.hn/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
         { label: "WHO: Cancer Country Profile 2020, Honduras (PDF)", url: WHO_PROFILE },
       ],
     },
@@ -195,7 +196,7 @@ export const HN_DIVE: CountryDive = {
   papers: [],
   people: ["leonardo-a-sanchez"],
   how:
-    "Every card was written from public sources read as raw text on 11 November 2026, in Spanish where the source is Spanish: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, ARSA's home page and the World Bank's health expenditure series.",
+    "Every card was written from public sources read as raw text on 11 November 2026, in Spanish where the source is Spanish: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, ARSA's home page and the World Bank's health expenditure series. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "WHO's profile describes 2019; check with the Secretaría de Salud for current screening and cancer services.",
   verifyLinks: [

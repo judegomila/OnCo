@@ -225,12 +225,12 @@ export const LV_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "When this page was written, the State Agency of Medicines' site returned a server error and the European Commission's copy of the Country Cancer Profile refused a script, so OnCo read an Internet Archive copy. Both answered on 16 November 2026; the Commission's file is the same as the archived one, and nothing on this page is yet drawn from the agency's own pages. The page has no count of radiotherapy machines in Latvia.",
+        "When this page was written, the State Agency of Medicines' site returned a server error and the European Commission's copy of the Country Cancer Profile refused a script, so OnCo read an Internet Archive copy. Both answered on 16 November 2026; the Commission's file is the same as the archived one, and nothing on this page is yet drawn from the agency's own pages. For radiotherapy the page gives only what IAEA's directory lists: six entries with 15 linear accelerators between them.",
       detail:
-        "zva.gov.lv/en/about-us answered 503 on 11 November 2026; on 16 November 2026 zva.gov.lv/en answered normally. The European Cancer Inequalities Registry's PDF answered with a 'Request Rejected' page on 11 November 2026, so the Internet Archive copy of 19 May 2026 was read; on 16 November 2026 the registry served the PDF and it matched the archived copy byte for byte. Radiotherapy capacity is published in IAEA's DIRAC database, which was not read for this page.",
+        "zva.gov.lv/en/about-us answered 503 on 11 November 2026; on 16 November 2026 zva.gov.lv/en answered normally. The European Cancer Inequalities Registry's PDF answered with a 'Request Rejected' page on 11 November 2026, so the Internet Archive copy of 19 May 2026 was read; on 16 November 2026 the registry served the PDF and it matched the archived copy byte for byte. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists six entries for Latvia, with 15 linear accelerators between them and no cobalt-60 unit: Riga East University Hospital. Clinic of Therapeutic Radiology and Medical Physics, Riga (eight linear accelerators and one X-ray generator, with brachytherapy); Pauls Stradins Clinical University Hospital, Riga, which appears twice (three linear accelerators in one entry and one in the other); Daugavpils Regional Hospital, Daugavpils (one linear accelerator and one X-ray generator); Liepaja Regional Hospital, Liepaja (one linear accelerator); and SRC Sigulda, Sigulda (one linear accelerator). Only the Riga East entry is listed with brachytherapy. All six entries were last updated in 2023, and a directory can lag, so they may be out of date. OnCo has not read radiotherapy figures from a Latvian source.",
       links: [
         { label: "State Agency of Medicines of Latvia", url: "https://www.zva.gov.lv/en" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
       ],
     },
   ],
@@ -241,7 +241,7 @@ export const LV_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from Latvian and European public sources read as raw text on 11 November 2026: SPKC's statistics database, the OECD and European Commission's 2025 Country Cancer Profile, SPKC's 2025 screening notice, the National Health Service's site, WHO's immunisation data, the World Bank and IARC's GLOBOCAN 2024 fact sheet. Latvian sources were read in Latvian.",
+    "Every card was written from Latvian and European public sources read as raw text on 11 November 2026: SPKC's statistics database, the OECD and European Commission's 2025 Country Cancer Profile, SPKC's 2025 screening notice, the National Health Service's site, WHO's immunisation data, the World Bank and IARC's GLOBOCAN 2024 fact sheet. Latvian sources were read in Latvian. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "Registry counts for the latest years can be revised as late reports arrive; check SPKC's table before relying on a single year. Copayments and the reimbursement list change; the National Health Service publishes the current rules.",
   verifyLinks: [

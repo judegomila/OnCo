@@ -192,12 +192,12 @@ export const PA_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not read for this page",
       plain:
-        "OnCo did not read a report from Panama's national population-based cancer registry, the Caja de Seguro Social's own pages (its site refused a script), the medicines regulator's rules, or a count of radiotherapy machines by centre. The figures here come from the national institute, WHO and IARC instead.",
+        "OnCo did not read a report from Panama's national population-based cancer registry, the Caja de Seguro Social's own pages (its site refused a script) or the medicines regulator's rules. The figures here come from the national institute, WHO and IARC instead. For radiotherapy by centre it gives only what IAEA's directory lists: four centres with 12 linear accelerators between them.",
       detail:
-        "css.gob.pa answered 403 on 11 November 2026. The Ministry of Health's registry page tried (minsa.gob.pa/informacion-salud/registro-nacional-de-cancer) answered 404. IARC's fact sheet records no national incidence data for its 2024 estimate. WHO's 2020 profile records a population-based cancer registry in 2019 and 9.7 external beam radiotherapy machines per 10,000 cancer patients; it does not count them by centre. Radiotherapy capacity by centre is published in IAEA's DIRAC database, whose tables load in an embedded viewer that could not be read as text on 16 November 2026. Each is a named gap, not a claim that the source does not exist.",
+        "css.gob.pa answered 403 on 11 November 2026. The Ministry of Health's registry page tried (minsa.gob.pa/informacion-salud/registro-nacional-de-cancer) answered 404. IARC's fact sheet records no national incidence data for its 2024 estimate. WHO's 2020 profile records a population-based cancer registry in 2019 and 9.7 external beam radiotherapy machines per 10,000 cancer patients; it does not count them by centre. IAEA's directory of radiotherapy centres, read on 16 November 2026, lists four centres in Panama, each with the city given as Panama, with 12 linear accelerators between them and no cobalt-60 unit: Instituto Oncologico Nacional (five linear accelerators, with brachytherapy), Caja de Seguro Social /Ciudad de la Salud (CIDELAS) (four linear accelerators), Hospital Paitilla (two linear accelerators) and RADIOTERAPIA ONCOLÓGICA, S.A. (CIRRO) (one linear accelerator, with brachytherapy). Two of the four are listed with brachytherapy. All four entries were last updated in 2026. This is what the directory lists, and a directory can lag behind changes at a centre. The sources this card names as unread are gaps, not claims that they do not exist.",
       links: [
         { label: "Caja de Seguro Social", url: "https://www.css.gob.pa/" },
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
         { label: "WHO: Cancer Country Profile 2020, Panama (PDF)", url: WHO_PROFILE },
       ],
     },
@@ -209,7 +209,7 @@ export const PA_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from Panamanian and international public sources read as raw text on 11 November 2026, in Spanish where the source is Spanish: the Instituto Oncológico Nacional's registry bulletin and pages, WHO's 2020 country profile and immunisation data, the World Bank and IARC's GLOBOCAN 2024 fact sheet.",
+    "Every card was written from Panamanian and international public sources read as raw text on 11 November 2026, in Spanish where the source is Spanish: the Instituto Oncológico Nacional's registry bulletin and pages, WHO's 2020 country profile and immunisation data, the World Bank and IARC's GLOBOCAN 2024 fact sheet. IAEA's directory of radiotherapy centres was read from its public equipment data on 16 November 2026.",
   verify:
     "The institute's registry counts its own patients, not the country's. Admission rules change; check with the institute or the Caja de Seguro Social before travelling.",
   verifyLinks: [

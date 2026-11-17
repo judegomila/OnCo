@@ -202,11 +202,11 @@ export const DO_DIVE: CountryDive = {
       plain:
         "On 11 November 2026 the addresses OnCo tried for SENASA, the Ministry of Public Health and the medicines regulator (digemaps.msp.gob.do) did not return a readable page. On 16 November 2026 all three answered at other addresses (arssenasa.gob.do, msp.gob.do/web/ and digemaps.gob.do), but only their home pages were read. This page therefore still does not describe the national cancer plan, the rules for high-cost cancer treatment or the medicines approval route.",
       detail:
-        "The country told WHO in 2021 that it has an operational cancer policy, strategy or action plan, and that radiotherapy and chemotherapy are generally available in the public sector but oral morphine is not generally available in the public health sector. The IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 12 centres in the Dominican Republic with 20 linear accelerators and one Gamma Knife between them, and brachytherapy at six of them; INCART is listed with three linear accelerators and brachytherapy. DIRAC depends on centres reporting, and these entries were last updated between 2016 and 2025, so machines installed or retired since may be missing.",
+        "The country told WHO in 2021 that it has an operational cancer policy, strategy or action plan, and that radiotherapy and chemotherapy are generally available in the public sector but oral morphine is not generally available in the public health sector. The IAEA's directory of radiotherapy centres (DIRAC), read on 16 November 2026, lists 12 centres in the Dominican Republic with 20 linear accelerators and one Gamma Knife between them, and brachytherapy at six of them; INCART is listed with three linear accelerators and brachytherapy. These entries were last updated between 2016 and 2025, and a directory can lag, so machines installed or retired since may be missing.",
       links: [
         { label: "WHO Global Health Observatory: oral morphine availability, Dominican Republic (API)", url: WHO_MORPH },
         { label: "WHO Global Health Observatory: cancer policy, strategy or action plan, Dominican Republic (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_CancerPlan?$filter=SpatialDim%20eq%20'DOM'" },
-        { label: "IAEA DIRAC: equipment by centre (read 16 November 2026)", url: DIRAC },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
         { label: "SENASA (Spanish)", url: "https://www.arssenasa.gob.do/" },
         { label: "Ministry of Public Health (Spanish)", url: "https://msp.gob.do/web/" },
         { label: "DIGEMAPS (Spanish)", url: "https://digemaps.gob.do/" },

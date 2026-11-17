@@ -21,7 +21,7 @@ const WHO_CHEMO = "https://ghoapi.azureedge.net/api/NCD_CCS_chemo?$filter=Spatia
 const WHO_CX = "https://ghoapi.azureedge.net/api/NCD_CCS_cervicalcancermethod?$filter=SpatialDim%20eq%20'CIV'";
 const WB_OOP = "https://api.worldbank.org/v2/country/CIV/indicator/SH.XPD.OOPC.CH.ZS?format=json";
 const WB_PC = "https://api.worldbank.org/v2/country/CIV/indicator/SH.XPD.CHEX.PC.CD?format=json";
-const DIRAC = "https://dirac.iaea.org/api/DataGridWebApi/GetCountriesAndRegions";
+const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
 const CNAM_CARE = "https://ipscnam.ci/soins-couverts/";
 const CTGOV = "https://clinicaltrials.gov/search?country=C%C3%B4te%20d%27Ivoire&cond=cancer";
 
@@ -205,10 +205,10 @@ export const CI_DIVE: CountryDive = {
       plain:
         "On 16 November 2026 the regulator AIRP's site returned only its title to a plain request. The Ministry of Health's website opens on an entry page; the home page behind it carries news and documents, and no national cancer plan is named on it. The addresses OnCo tried on 11 November 2026 for the national radiotherapy centre and the national cancer programme did not answer. The health insurance fund's page on covered care describes it in general and does not mention cancer. This page therefore has no national cancer plan, no treatment centre list and no insurance rules for cancer.",
       detail:
-        "The country told WHO in 2021 that it has an operational cancer plan, but OnCo has not read it; the Ministry's document library was not searched. The public country table of the IAEA's Directory of Radiotherapy Centres (DIRAC), read through its data service on 16 November 2026, gives Côte d'Ivoire (last update 2026) 2 radiotherapy centres, both with radiotherapy, 4 high-energy photon and electron beam teletherapy units and no brachytherapy. The table does not name the centres. OnCo's web search budget was spent during the first round, so other copies of national documents were not looked for.",
+        "The country told WHO in 2021 that it has an operational cancer plan, but OnCo has not read it; the Ministry's document library was not searched. The IAEA's Directory of Radiotherapy Centres (DIRAC), read through its public data on 16 November 2026, lists two entries for Côte d'Ivoire, each with two linear accelerators, no cobalt-60 unit and no brachytherapy: National Center for Medical Oncology and Radiotherapy (NARC), Abidjan, last updated in 2024, and CENTRE NATIONAL D'ONCOLOGIE MEDICALE ET DE RADIOTHERAPIE (CNRAO), ABBIDJAN, last updated in 2026. The second name is the first in French, so the two entries may describe one centre; the directory does not say, and OnCo has not confirmed it either way. Read as two centres, that is four linear accelerators; read as one, two. The directory does not say whether a machine is working. In 2021 the country told WHO that radiotherapy was not generally available in the public sector. OnCo's web search budget was spent during the first round, so other copies of national documents were not looked for.",
       links: [
         { label: "Ministry of Health, Côte d'Ivoire", url: "https://www.sante.gouv.ci/" },
-        { label: "IAEA DIRAC: countries and regions table (JSON)", url: DIRAC },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC },
       ],
     },
   ],
@@ -219,7 +219,7 @@ export const CI_DIVE: CountryDive = {
   papers: ["paper-echimane-abidjan-incidence-1995-1997-cancer-2000"],
   people: [],
   how:
-    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Côte d'Ivoire; the Abidjan registry paper's abstract through Europe PMC; the African Cancer Registry Network's membership list; WHO's Global Health Observatory; the World Bank's health expenditure series; the national health insurance fund's page on covered care; and the IAEA's DIRAC country table. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records (the Abidjan registry and its paper) carry their own sources.",
+    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Côte d'Ivoire; the Abidjan registry paper's abstract through Europe PMC; the African Cancer Registry Network's membership list; WHO's Global Health Observatory; the World Bank's health expenditure series; the national health insurance fund's page on covered care; and the IAEA's DIRAC directory data. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records (the Abidjan registry and its paper) carry their own sources.",
   verify:
     "National figures are IARC estimates. Which hospitals give radiotherapy and chemotherapy, and what public health insurance covers, change faster than published sources; ask the treating hospital in Abidjan or your health district.",
   verifyLinks: [

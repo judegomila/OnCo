@@ -41,7 +41,7 @@ The page must never scroll sideways at 390 px; a wide element scrolls inside its
 ## Left for a later pass
 
 - The audit runs against a dev server or the live site (one request per route); it is not yet part of the ship chain.
-- Dev-only hydration attribute warnings seen while measuring are pre-existing and not from this pass: float rounding in `/graph/` node transforms and `/deals/` chord paths, and ChipTitles stamping `title` on truncated chips before the page hydrates (now also on `/path/`, whose route chips truncate instead of overflowing).
+- Dev-only hydration attribute warnings seen while measuring are pre-existing and not from this pass: float rounding in `/graph/` node transforms and `/deals/` chord paths, and ChipTitles stamping `title` on truncated chips before the page hydrates (now also on `/path/`, whose route chips truncate instead of overflowing). The ChipTitles one was closed on 16 November 2026: the title is now written when the pointer reaches a chip React has already hydrated, and `/forest/` rounds its log-axis positions to a hundredth (src/components/ChipTitles.test.ts, src/components/ForestPlot.test.ts).
 
 ## What a reader actually downloads (25 September 2026)
 

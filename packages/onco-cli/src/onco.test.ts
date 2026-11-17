@@ -70,7 +70,11 @@ describe("onco CLI against a local API copy", () => {
   });
 
   it("kinds, meta, context and export work and honour --quiet", async () => {
-    expect((await cli("kinds")).out).toContain("key papers");
+    const kinds = (await cli("kinds")).out;
+    expect(kinds).toContain("key papers");
+    // The kind list is the schema's, read at build time. The bundle published as 0.1.0 was built before `protocol`
+    // existed: `onco list protocol` answered "Unknown kind", and `onco ask` stopped on the first protocol record.
+    expect(kinds).toMatch(/^protocol\s+protocols\s/m);
     expect((await cli("meta", "--json")).out).toContain('"total": 3');
     const ctx = await cli("context", "tnbc", "--quiet");
     expect(ctx.out.startsWith("# Triple-negative breast cancer")).toBe(true);

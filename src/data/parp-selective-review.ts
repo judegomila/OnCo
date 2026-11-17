@@ -660,8 +660,8 @@ export const parpSelectiveReview: EntityInput[] = [
     "asOf": "2026-10-06",
     "setting": "Study of NMS-03305293, a Non-Trapping PARP1-Specific PARP Inhibitor in Relapsed Ovarian Cancer",
     "sponsor": "Nerviano Medical Sciences",
-    "tldr": "This study tests a PARP inhibitor; the registry reports that it is recruiting.",
-    "summary": "The registry lists NCT06930755 as recruiting, last updated 2026-05-28. Enrolment is 24 planned participants, an estimate. Interventions: NMS-03305293, Topotecan. Primary measures include Number of Participants with Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
+    "tldr": "This study tested a PARP inhibitor; the registry lists it as terminated.",
+    "summary": "The registry listed NCT06930755 as recruiting when this summary was written; read again on 17 November 2026 (record updated 2026-11-16), it lists the study as terminated, a decision the sponsor says was strategic and not based on safety or clinical data. Enrolment is 24 planned participants, an estimate. Interventions: NMS-03305293, Topotecan. Primary measures include Number of Participants with Adverse Events (AEs). No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "parp"
     ],
@@ -894,7 +894,7 @@ export const parpSelectiveReview: EntityInput[] = [
     "asOf": "2026-10-06",
     "setting": "A Phase 1, Open-Label, Dose-Escalation and Expansion Study of SNV1521 in Combination With RAS Inhibition in Participants With Locally Advanced Unresectable or Metastatic Pancreatic Cancer",
     "sponsor": "Synnovation Therapeutics, Inc.",
-    "tldr": "This study tests a PARP inhibitor; the registry reports that it is not yet recruiting.",
+    "tldr": "This study tests a PARP inhibitor; the registry reports that it is recruiting.",
     "summary": "The registry lists NCT07756281 as not yet recruiting, last updated 2026-08-10. Enrolment is 40 planned participants, an estimate. Interventions: SNV1521, daraxonrasib. Primary measures include Safety and tolerability of SNV1521 plus daraxonrasib: treatment-emergent adverse events, serious adverse events, and dose-limiting toxicities. No results are posted in the registry; this does not exclude separate publications.",
     "targets": [
       "parp"

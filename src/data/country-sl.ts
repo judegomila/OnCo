@@ -171,7 +171,7 @@ export const SL_DIVE: CountryDive = {
           plain:
             "WHO's 2021 cervical cancer profile recorded no national cervical screening programme in Sierra Leone and estimated that 8% of women aged 30 to 49 had been screened in the previous five years. WHO's 2020 profile recorded no breast screening programme.",
           detail:
-            "The 2021 profile gives 11% of women aged 30 to 49 as ever screened (2019), no programme or guidelines for early detection of first symptoms in primary care, and no clearly defined referral system. WHO's 2020 profile lists early detection guidelines for none of the four cancers it asks about. The Ministry's 2020 plan found cervical cancer services at 3% of health facilities in 2017 (2% of 1,203 public facilities, 20% of private ones), says a few charities teach clinical breast examination, and sets establishing cervical screening for women aged 30 to 49 as one of its actions. OnCo found no later count of women screened.",
+            "The 2021 profile gives 11% of women aged 30 to 49 as ever screened (2019), no programme or guidelines for early detection of first symptoms in primary care, and no clearly defined referral system. WHO's 2020 profile lists early detection guidelines for none of the four cancers it asks about. The Ministry's 2020 plan reports cervical cancer services at 3% of health facilities in 2017 (2% of 1,203 public facilities, 20% of private ones), says a few charities teach clinical breast examination, and sets establishing cervical screening for women aged 30 to 49 as one of its actions. OnCo found no later count of women screened.",
           links: [
             { label: "WHO: cervical cancer profile 2021, Sierra Leone (PDF)", url: WHO_CERVICAL },
             { label: "WHO: Cancer Country Profile 2020, Sierra Leone (PDF)", url: WHO_PROFILE },
@@ -210,7 +210,7 @@ export const SL_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "No radiotherapy centre in IAEA's directory; a facility was planned in 2020",
           plain:
-            "IAEA's directory of radiotherapy centres, read on 16 November 2026, lists no centre in Sierra Leone. The Ministry's 2020 plan said a radiotherapy facility was in development with the IAEA, with an aim of public radiotherapy and nuclear medicine services at Lakka Hospital by 2023.",
+            "IAEA's directory of radiotherapy centres, read on 16 November 2026, lists no centre in Sierra Leone. The Ministry's 2020 plan said a radiotherapy facility was in development with the IAEA, and reported the Ministry's radiologist as saying in 2019 that a presidential programme aimed to make radiotherapy and nuclear medicine services publicly available at Lakka Hospital by 2023.",
           detail:
             "The directory's public data had no row for Sierra Leone among its countries and no centre among 8,627 equipment rows. WHO's 2020 profile recorded 0.0 external beam radiotherapy machines per 10,000 cancer patients for 2019, and its 2021 cervical cancer profile recorded radiotherapy as not generally available, with cancer surgery, chemotherapy and pathology laboratories recorded as available and no cancer centre or cancer department at tertiary level. The 2020 plan also says there was no oncologist in the country in 2016 and that histopathology was available erratically at Connaught and one private hospital in Freetown. OnCo found no source saying the planned facility has opened, and none on where patients who need radiotherapy are sent. Ask the treating hospital.",
           links: [

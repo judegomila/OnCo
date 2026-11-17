@@ -9,7 +9,9 @@ import type { CountryDive } from "@/data/country-dive";
  * the African Cancer Registry Network's page for the national registry, WHO's immunisation data API, IAEA DIRAC's
  * public data, the World Bank's health expenditure series, the African Union's treaty list, WHO's August 2026 list of
  * regulators at maturity level 3 and 4, ClinicalTrials.gov's API, and four papers resolved through Europe PMC. The
- * regulator's site (eris.cv) refused the request and is named under `gaps`.
+ * regulator's site (eris.cv) refused the first request and answered on the second pass the same day; what was and was
+ * not read from it is set out under `gaps`. Two World Bank indicator pages answered 504 on the second pass, so those
+ * links point at the World Bank API, where the figures were read.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/132-cape-verde-fact-sheet.pdf";
 const WHO_PROFILE = "https://www.iccp-portal.org/sites/default/files/plans/CPV_2020.pdf";
@@ -22,11 +24,13 @@ const ICCP_SEARCH = "https://www.iccp-portal.org/resources?search_api_fulltext=C
 const ICCP_MANUAL = "https://www.iccp-portal.org/sites/default/files/plans/CPV_B5_Manual%20de%20Preven%C3%A7%C3%A3o%20e%20Controlo%20de%20Doen%C3%A7as%20Oncol%C3%B3gicas%202015.pdf";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20%27CPV%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
 const WHO_HPV_INTRO = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20%27CPV%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
-const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=CV";
-const WB_CHE = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=CV";
+const WB_OOP = "https://api.worldbank.org/v2/country/CPV/indicator/SH.XPD.OOPC.CH.ZS?format=json";
+const WB_CHE = "https://api.worldbank.org/v2/country/CPV/indicator/SH.XPD.CHEX.PC.CD?format=json";
+const WB_EXT = "https://api.worldbank.org/v2/country/CPV/indicator/SH.XPD.EHEX.CH.ZS?format=json";
 const WB_GOV = "https://data.worldbank.org/indicator/SH.XPD.GHED.CH.ZS?locations=CV";
 const PORTARIA_CNM = "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/CPV_Cabo-Verde_Portaria-No-50-2021_2021.pdf";
 const ERIS = "https://www.eris.cv/";
+const ERIS_AIM = "https://www.eris.cv/index.php/setor-farmaceutico/autorizacao-de-introducao-no-mercado-aim";
 const WHO_ML3 = "https://cdn.who.int/media/docs/default-source/medicines/regulatory-systems/wla/list-of-nras-operating-at-ml3-and-ml4.pdf";
 const AMA = "https://au.int/sites/default/files/treaties/36892-sl-TREATY_FOR_THE_ESTABLISHMENT_OF_THE_AFRICAN_MEDICINES_AGENCY.pdf";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
@@ -75,7 +79,7 @@ export const CV_DIVE: CountryDive = {
           plain:
             "The Ministry of Health reported in 2023 that it had set up a cancer registry. The ministry's report for 2022 gave provisional data of almost 500 cancers nationally, and the registry's provisional count of breast cancers that year was 69. OnCo found no published report from the registry.",
           detail:
-            "The figures come from two ministry news pages of 2023: the national health director said the ministry's 2022 report, with provisional data, recorded almost 500 cancer cases, with breast and prostate cancer the most frequent, and the page gives 69 breast cancers for 2022 from the Registo Oncológico. The African Cancer Registry Network lists the Cape Verde National Cancer Registry as a member, and its page, read on 16 November 2026, says only that details are coming. Before the national registry, a hospital registry at Hospital Agostinho Neto described the cancers seen on Santiago island in 2017 and 2018: prostate, breast, stomach, cervix and oesophagus, in that order. Its authors wrote that there were no national data and called for a population-based registry. WHO's 2020 profile recorded \"registration activity\" for 2019.",
+            "Both figures come from the ministry's news page of October 2023: the national health director said the ministry's 2022 report, with provisional data, recorded almost 500 cancer cases, with breast and prostate cancer the most frequent, and the page gives 69 breast cancers for 2022 from the Registo Oncológico. The African Cancer Registry Network lists the Cape Verde National Cancer Registry as a member, and its page, read on 16 November 2026, says only that details are coming. Before the national registry, a hospital registry at Hospital Agostinho Neto described the cancers seen on Santiago island in 2017 and 2018: prostate, breast, stomach, cervix and oesophagus, in that order. Its authors wrote that there were no national data and called for a population-based registry. WHO's 2020 profile recorded \"registration activity\" for 2019.",
           links: [
             { label: "Ministério da Saúde: breast cancer early diagnosis programme (October 2023)", url: MOH_OCT_2023 },
             { label: "Ministério da Saúde: government investment in cancer control (February 2023)", url: MOH_FEB_2023 },
@@ -134,8 +138,9 @@ export const CV_DIVE: CountryDive = {
           detail:
             "The World Bank's series, from WHO's Global Health Expenditure Database, gives current health spending of USD 262.42 per person in 2021, 297.08 in 2022 and 290.13 in 2023, and out-of-pocket spending of 23.0%, 22.1% and 25.7% of current health spending in those years. Domestic government spending was 58.6% of current health spending in 2023 and external funding 11.0%. OnCo did not read a source setting out what the social security institute (INPS) or the state pays for chemotherapy given in Cabo Verde, so it states nothing on that.",
           links: [
-            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Cabo Verde", url: WB_OOP },
-            { label: "World Bank: current health expenditure per capita, Cabo Verde", url: WB_CHE },
+            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Cabo Verde (API)", url: WB_OOP },
+            { label: "World Bank: current health expenditure per capita, Cabo Verde (API)", url: WB_CHE },
+            { label: "World Bank: external health expenditure, % of current health expenditure, Cabo Verde (API)", url: WB_EXT },
             { label: "World Bank: domestic government health expenditure, % of current health expenditure, Cabo Verde", url: WB_GOV },
           ],
         },
@@ -160,14 +165,15 @@ export const CV_DIVE: CountryDive = {
       cards: [
         {
           id: "eris",
-          title: "ERIS regulates medicines; its own site refused OnCo's request",
+          title: "ERIS regulates medicines and grants marketing authorisation",
           plain:
-            "Medicines in Cabo Verde are regulated by the Entidade Reguladora Independente da Saúde (ERIS). A 2021 order has a national medicines council give opinions on the marketing authorisation files that ERIS sends it. OnCo could not read ERIS's own site, which answered with a refusal.",
+            "Medicines in Cabo Verde are regulated by the Entidade Reguladora Independente da Saúde (ERIS). Its site says that no medicine, made in the country or imported, may be marketed without its prior authorisation. A 2021 order has a national medicines council give opinions on the marketing authorisation files that ERIS sends it.",
           detail:
-            "Portaria 50/2021, published in November 2021, approves the rules of the Conselho Nacional de Medicamento, a permanent advisory body to the health minister on which the president of ERIS sits. Its tasks include assessing and giving opinions on applications for marketing authorisation, changes and withdrawals sent by ERIS, validating the national and hospital formularies, and, through the council or its technical committee, giving a view on clinical trials and the ethics of using medicines in them. WHO's August 2026 list of regulators at maturity level 3 or 4 does not include Cabo Verde. The African Union's list dated 19 September 2023 shows that Cabo Verde acceded to the African Medicines Agency treaty on 28 April 2023 and deposited its instrument on 13 July 2023. ERIS's site returned \"403 Forbidden\" on 16 November 2026, so its register of authorised medicines and its trial rules are not described here.",
+            "Portaria 50/2021, published in November 2021, approves the rules of the Conselho Nacional de Medicamento, a permanent advisory body to the health minister on which the president of ERIS sits. Its tasks include assessing and giving opinions on applications for marketing authorisation, changes and withdrawals sent by ERIS, validating the national and hospital formularies, and, through the council or its technical committee, giving a view on clinical trials and the ethics of using medicines in them. WHO's August 2026 list of regulators at maturity level 3 or 4 does not include Cabo Verde. The African Union's list dated 19 September 2023 gives Cabo Verde no signature date, 28 April 2023 in its column for ratification or accession and 13 July 2023 as the date of deposit, for the African Medicines Agency treaty. ERIS's site returned \"403 Forbidden\" to OnCo's first request on 16 November 2026 and answered later that day. Its page on marketing authorisation names Decreto-Lei 59/2006 as the law that governs authorisation and says a first authorisation is valid for five years. The page links a list of authorised medicines dated 2 August 2023, which OnCo did not open, and the four ERIS pages OnCo read do not mention clinical trials, so the list and the trial rules are not described here.",
           links: [
             { label: "Portaria 50/2021, regulation of the Conselho Nacional de Medicamento (Boletim Oficial, via WHO, PDF)", url: PORTARIA_CNM },
             { label: "Entidade Reguladora Independente da Saúde (ERIS)", url: ERIS },
+            { label: "ERIS: marketing authorisation (Autorização de Introdução no Mercado)", url: ERIS_AIM },
             { label: "WHO: regulators operating at maturity level 3 and 4 (August 2026, PDF)", url: WHO_ML3 },
             { label: "African Union: signatures and ratifications of the African Medicines Agency treaty (19 September 2023, PDF)", url: AMA },
           ],
@@ -218,9 +224,9 @@ export const CV_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "No radiotherapy centre in IAEA's directory: studies describe radiotherapy given abroad",
           plain:
-            "IAEA's directory, read on 16 November 2026, lists no radiotherapy centre in Cabo Verde. A 2026 study from the Praia hospital describes radiotherapy as given abroad, and a 2022 study describes women treated with it in Lisbon. Among 586 people treated there for breast cancer from 2000 to 2024, a third received radiotherapy.",
+            "IAEA's directory, read on 16 November 2026, lists no radiotherapy centre in Cabo Verde. A 2026 study from the Praia hospital describes radiotherapy as given abroad, and a 2022 study describes women treated with it in Lisbon. Among 586 people treated at the Praia hospital for breast cancer from 2000 to 2024, a third received radiotherapy; the abstract does not say where it was given.",
           detail:
-            "DIRAC's public data, read on 16 November 2026, has no row for Cabo Verde, and WHO's 2020 profile counted no external beam radiotherapy in 2019. Borges and colleagues, studying 158 women diagnosed at Hospital Agostinho Neto from 2015 to 2021 after an international treatment partnership began, report that 61.4% of those with potentially curable breast cancer received treatment that followed the harmonised guidelines for sub-Saharan Africa, radiotherapy included, although it was given abroad, and that three-year survival was 79.9% among women treated as recommended. For cervical cancer, Vilares and colleagues describe 58 women evacuated to the Portuguese cancer institute in Lisbon from 2013 to 2020 under a health cooperation agreement between the two countries: 77.6% had chemotherapy with radiotherapy there, and the stage assigned in Cabo Verde matched the one found in Lisbon in 15.5% of cases, which the authors attribute to the wait and to limited means of staging.",
+            "DIRAC's public data, read on 16 November 2026, has no row for Cabo Verde, and WHO's 2020 profile counted no external beam radiotherapy in 2019. Borges and colleagues, studying 158 women diagnosed at Hospital Agostinho Neto from 2015 to 2021 after an international treatment partnership began, report that 61.4% of those with potentially curable breast cancer received treatment that followed the harmonised guidelines for sub-Saharan Africa, radiotherapy included, although it was given abroad, and that three-year survival was 79.9% among women treated as recommended. For cervical cancer, Vilares and colleagues describe 58 women evacuated to the Portuguese cancer institute in Lisbon from 2013 to 2020 under a health cooperation agreement between the two countries: 77.6% had chemotherapy with radiotherapy there, and the stage assigned in Cabo Verde matched the one found in Lisbon in 15.5% of cases, which the authors say may be explained by the wait and by limited means of staging.",
           links: [
             { label: "IAEA DIRAC: radiotherapy centres by country (read 16 November 2026)", url: DIRAC },
             { label: "Borges et al., breast cancer in Cape Verde and an international treatment partnership (JCO Glob Oncol 2026)", url: BORGES_2026 },
@@ -247,7 +253,7 @@ export const CV_DIVE: CountryDive = {
           plain:
             "The Ministry of Health names a Plano Estratégico Nacional de Controlo do Cancro 2018 to 2022 among its actions. The ICCP portal's search for Cabo Verde on 16 November 2026 returned no such plan and no later one.",
           detail:
-            "What the portal returned was a 2015 manual of the Programa de Prevenção e Rastreio de Cancros, a multisectoral plan for non-communicable diseases, and WHO's profiles. WHO's 2020 profile recorded a national cancer plan as operational in 2019 and cancer management guidelines as absent. The ministry's pages refer to a national programme for the prevention and control of cancer within the national health directorate, which is where to ask whether a plan for the years after 2022 exists.",
+            "What the portal returned was a 2015 manual of the Programa de Prevenção e Rastreio de Cancros, ICCP's 2023 survivorship profile of that 2015 programme, a 2014 multisectoral plan for non-communicable diseases, and WHO's profiles. WHO's 2020 profile recorded a national cancer plan as operational in 2019 and cancer management guidelines as absent. The ministry's pages refer to a national programme for the prevention and control of cancer within the national health directorate, which is where to ask whether a plan for the years after 2022 exists.",
           links: [
             { label: "Ministério da Saúde: government investment in cancer control (February 2023)", url: MOH_FEB_2023 },
             { label: "ICCP portal: resources returned for Cabo Verde", url: ICCP_SEARCH },
@@ -283,9 +289,9 @@ export const CV_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not found, not readable or blocked for this page",
       plain:
-        "OnCo did not find a report from the national cancer registry, the cancer plan the ministry names, the regulator's own rules, or a source on what a patient pays for cancer treatment in Cabo Verde and what evacuation covers in money.",
+        "OnCo did not find a report from the national cancer registry, the cancer plan the ministry names, the regulator's rules on clinical trials, or a source on what a patient pays for cancer treatment in Cabo Verde and what evacuation covers in money.",
       detail:
-        "What happened, source by source, on 16 November 2026. The regulator's site (eris.cv) returned \"403 Forbidden\" at three addresses and was not read. The African Cancer Registry Network's page for the national registry says only that details are coming. The ICCP portal's search returned no cancer plan for Cabo Verde later than the 2015 manual. The social security institute's home page was read, but not its rules on health benefits. The ministry's cancer pages date from 2023, and OnCo found none more recent. In WHO's 2020 profile the row for PET scanners gives a value that does not look right in the extracted text and is not used, and the counts of radiation oncologists and medical physicists are \"n/a\". A future pass should read the ministry's annual statistical report, INPS's benefit rules and ERIS's texts in Portuguese; until then the national health directorate's cancer programme and INPS are where to ask.",
+        "What happened, source by source, on 16 November 2026. The regulator's site (eris.cv) returned \"403 Forbidden\" at three addresses on OnCo's first reading and answered later the same day; OnCo then read its home page and its pages about the institution, its powers and marketing authorisation, but not the legal texts or the list of authorised medicines that those pages link to. The African Cancer Registry Network's page for the national registry says only that details are coming. The ICCP portal's search returned no cancer plan for Cabo Verde later than the 2015 manual. The social security institute's home page was read, but not its rules on health benefits. The ministry's cancer pages date from 2023, and OnCo found none more recent. In WHO's 2020 profile the row for PET scanners gives a value that does not look right in the extracted text and is not used, and the counts of radiation oncologists and medical physicists are \"n/a\". A future pass should read the ministry's annual statistical report, INPS's benefit rules and ERIS's texts in Portuguese; until then the national health directorate's cancer programme and INPS are where to ask.",
       links: [
         { label: "Entidade Reguladora Independente da Saúde (ERIS)", url: ERIS },
         { label: "African Cancer Registry Network: Cape Verde National Cancer Registry", url: AFCRN_CV },

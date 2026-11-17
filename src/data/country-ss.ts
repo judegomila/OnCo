@@ -37,6 +37,7 @@ const L_TRC = { label: "The Radio Community: South Sudan launches Cancer Network
 const L_XINHUA = { label: "Xinhua, via China Daily: South Sudan inaugurates China-aided cancer screening facility (26 August 2020)", url: XINHUA };
 const L_DIRAC = { label: "IAEA DIRAC: radiotherapy equipment by centre (read 16 November 2026)", url: DIRAC };
 const L_MOH = { label: "Ministry of Health, Republic of South Sudan", url: MOH };
+const L_AFRO_REG = { label: "WHO Regional Office for Africa: South Sudan launches first-ever cancer registry (9 November 2026)", url: "https://www.afro.who.int/countries/south-sudan/news/landmark-step-public-health-south-sudan-launches-first-ever-cancer-registry" };
 
 export const SS_DIVE: CountryDive = {
   iso2: "SS",
@@ -46,9 +47,9 @@ export const SS_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in South Sudan",
   description:
-    "Cancer in South Sudan from international and government sources: IARC's estimate of 8,124 new cancers and 5,218 deaths in 2024, modelled from neighbouring countries' rates, breast and cervical cancer leading; a cancer department in the health ministry and a national cancer network launched in February 2026, with an oncology unit planned at Juba Teaching Hospital; no population-based cancer registry in WHO's 2021 profile, no radiotherapy centre in IAEA's directory and no HPV vaccination; health spending of about USD 73 a person, 62% of it from external funders; and no trial in OnCo's records with a site in the country.",
+    "Cancer in South Sudan from international and government sources: IARC's estimate of 8,124 new cancers and 5,218 deaths in 2024, modelled from neighbouring countries' rates, breast and cervical cancer leading; a cancer department in the health ministry and a national cancer network launched in February 2026, with an oncology unit planned at Juba Teaching Hospital; a first cancer registry at Juba Teaching Hospital reported by WHO in November 2026, where WHO's 2021 profile had recorded none; no radiotherapy centre in IAEA's directory and no HPV vaccination; health spending of about USD 73 a person in 2023, 62% of it from external funders; and no trial in OnCo's records with a site in the country.",
   lede:
-    "South Sudan's Ministry of Health has set up a cancer department and written protocols to guide its work, and an oncology unit is planned at Juba Teaching Hospital, according to a report of the launch of the South Sudan Cancer Network in February 2026. A cervical cancer screening centre opened at that hospital in 2020. WHO's 2021 profile records no population-based cancer registry, and IARC's figures for the country are modelled from its neighbours' rates.",
+    "South Sudan's Ministry of Health has set up a cancer department and written protocols to guide its work, and an oncology unit is planned at Juba Teaching Hospital, according to a report of the launch of the South Sudan Cancer Network in February 2026. A cervical cancer screening centre opened at that hospital in 2020. WHO's 2021 profile recorded no population-based cancer registry; WHO's Regional Office for Africa reported on 9 November 2026 that the country's first cancer registry had been inaugurated at Juba Teaching Hospital. IARC's figures for the country are modelled from its neighbours' rates.",
   globocanNote:
     "IARC's GLOBOCAN 2024 figure for South Sudan is 8,124 new cancers and 5,218 deaths, an age-standardised incidence of 107.9 per 100,000 (99.0 in men, 117.9 in women). These are modelled figures, not counts. IARC's fact sheet names no country-specific source for incidence and gives its method as rates based on incidence estimates or registry data from neighbouring countries; mortality is national incidence estimates applied to modelled mortality-to-incidence ratios built on registry survival data. WHO's 2020 profile said of the earlier estimates it carried for South Sudan that they have a high degree of uncertainty because they are not based on a population-based cancer registry or on national mortality data.",
   sections: [
@@ -69,12 +70,12 @@ export const SS_DIVE: CountryDive = {
         },
         {
           id: "registry",
-          title: "No population-based cancer registry in WHO's 2021 profile; a state governor called for one in 2026",
+          title: "WHO reported the country's first cancer registry in November 2026; its 2021 profile had recorded none",
           plain:
-            "WHO's 2021 cervical cancer profile records that no population-based cancer registry exists in South Sudan. At the launch of the South Sudan Cancer Network in February 2026 the Governor of Central Equatoria State called for a cancer registry to be set up.",
+            "WHO's 2021 cervical cancer profile records that no population-based cancer registry existed in South Sudan. At the launch of the South Sudan Cancer Network in February 2026 the Governor of Central Equatoria State called for a cancer registry to be set up. On 9 November 2026 WHO's Regional Office for Africa reported that the country's first cancer registry had been inaugurated at Juba Teaching Hospital.",
           detail:
-            "WHO's 2020 profile recorded no coverage for the quality of mortality registration for 2007 to 2016, and its 2021 cervical cancer profile states that no population-based cancer registry exists. The African Cancer Registry Network's member list, read on 16 November 2026, names 35 registries and none in South Sudan. The Radio Community's report of the network's launch quotes the governor saying a registry is needed to know the number of people with cancer, which he said may be higher than known for lack of testing and early detection. OnCo found no hospital-based count from the country.",
-          links: [L_CX, L_WHO, L_TRC, { label: "African Cancer Registry Network: member registries", url: "https://afcrn.org/index.php/membership/membership-list" }],
+            "WHO's 2020 profile recorded no coverage for the quality of mortality registration for 2007 to 2016, and its 2021 cervical cancer profile answers no to whether a population-based cancer registry exists (2021). WHO's Regional Office for Africa reported on 9 November 2026 that the Ministry of Health, working with the South Sudan Cancer Network and supported by WHO, IARC and the African Cancer Registry Network, had established and inaugurated the Juba Population-Based Cancer Registry at Juba Teaching Hospital; the report gives no figures from it. The African Cancer Registry Network's member list, read on 16 November 2026, names 35 registries and none in South Sudan. The Radio Community's report of the network's launch quotes the governor saying a registry is needed to know the number of people with cancer, which he said may be higher than known for lack of testing and early detection. OnCo found no hospital-based count from the country.",
+          links: [L_CX, L_WHO, L_TRC, L_AFRO_REG, { label: "African Cancer Registry Network: member registries", url: "https://afcrn.org/index.php/membership/membership-list" }],
         },
       ],
       tables: [
@@ -131,9 +132,9 @@ export const SS_DIVE: CountryDive = {
           id: "dfca",
           title: "The ministry lists a Drugs and Food Control Authority; OnCo found no rules to read",
           plain:
-            "The Ministry of Health's site lists a Drugs and Food Control Authority among its commissions. Its page carried no text beyond the site's menu when OnCo read it, so this page states nothing about how cancer medicines are approved or how trials are authorised in South Sudan.",
+            "The Ministry of Health's site lists a Drugs and Food Control Authority among its commissions. Its page carried only a one-line welcome beyond the site's menu when OnCo read it, so this page states nothing about how cancer medicines are approved or how trials are authorised in South Sudan.",
           detail:
-            "The ministry's site was read on 16 November 2026; the authority's page returned the site's navigation and no description, law or register. WHO's August 2026 list of regulators at maturity level 3 or 4 does not include South Sudan, and the African Union's list of 19 September 2023 records no signature of the African Medicines Agency treaty by South Sudan. The ministry also lists a directorate of pharmaceuticals and medical supplies and a central medical stores. A future pass should look for the Drug and Food Control Authority Act and the authority's own publications.",
+            "The ministry's site was read on 16 November 2026; the authority's page returned the site's navigation and the line \"welcome to Drugs & Food control Authority Unit\", with no description, law or register. WHO's August 2026 list of regulators at maturity level 3 or 4 does not include South Sudan, and the African Union's list of 19 September 2023 records no signature of the African Medicines Agency treaty by South Sudan. The ministry also lists a directorate of pharmaceuticals and medical supplies and a central medical stores. A future pass should look for the Drug and Food Control Authority Act and the authority's own publications.",
           links: [
             L_MOH,
             { label: "WHO: regulators operating at maturity level 3 and 4 (August 2026, PDF)", url: WHO_ML3 },
@@ -184,7 +185,7 @@ export const SS_DIVE: CountryDive = {
         },
         {
           id: "services",
-          title: "No radiotherapy centre in IAEA's directory; WHO's 2021 profile recorded no cancer department",
+          title: "No radiotherapy centre in IAEA's directory; WHO's 2021 profile recorded a cancer department as not generally available",
           plain:
             "IAEA's directory of radiotherapy centres lists no centre in South Sudan. WHO's 2021 cervical cancer profile recorded a cancer centre or department, pathology, cancer surgery, chemotherapy and radiotherapy each as not generally available.",
           detail:
@@ -231,8 +232,8 @@ export const SS_DIVE: CountryDive = {
       plain:
         "OnCo did not find the ministry's cancer protocols, any account of cancer treatment now given in the country, where patients are referred abroad, the medicines regulator's rules, or any scheme that pays for cancer care.",
       detail:
-        "The Ministry of Health's site answered on 16 November 2026, but its Drugs and Food Control Authority page held only the site's menu, and OnCo found no cancer department page. The launch of the Cancer Network and the ministry's plans are known here from one news report. The Lancet Oncology article of 2026 has no abstract in Europe PMC and was not read; it is the first thing a future pass should read, with WHO's country office reports and any text of the ministry's protocols. Until then the Ministry of Health's cancer department, Juba Teaching Hospital and the South Sudan Cancer Network are the places to ask.",
-      links: [L_MOH, L_TRC, { label: "WHO Regional Office for Africa: South Sudan", url: "https://www.afro.who.int/countries/south-sudan" }],
+        "The Ministry of Health's site answered on 16 November 2026, but its Drugs and Food Control Authority page held only the site's menu, and OnCo found no cancer department page. The ministry's cancer department, its protocols and the planned oncology unit are known here from one news report. The first six pages of the WHO country office's news list were read on 16 November 2026: they hold the report of the cancer registry (9 November 2026) and a report of 26 February 2026 that also records the Cancer Network's launch on 4 February and says WHO is supporting the ministry in developing a national cancer control strategy. The Lancet Oncology article of 2026 has no abstract in Europe PMC and its publisher's page did not open to OnCo on 16 November 2026, so it was not read; it is the first thing a future pass should read, with any text of the ministry's protocols. Until then the Ministry of Health's cancer department, Juba Teaching Hospital and the South Sudan Cancer Network are the places to ask.",
+      links: [L_MOH, L_TRC, L_AFRO_REG, { label: "WHO Regional Office for Africa: Vice President receives WHO to discuss strengthening cancer care (26 February 2026)", url: "https://www.afro.who.int/countries/south-sudan/news/he-vice-president-josephine-lagu-yanga-receives-who-courtesy-visit-discuss-strengthening-cancer-care" }, { label: "WHO Regional Office for Africa: South Sudan", url: "https://www.afro.who.int/countries/south-sudan" }],
     },
   ],
   institutions: ["south-sudan-ministry-of-health", "juba-teaching-hospital", "south-sudan-cancer-network", "who", "iarc", "iaea"],
@@ -242,7 +243,7 @@ export const SS_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health's Noncommunicable Disease Department plan for 2020 to 2021 and its website, two news reports (The Radio Community, February 2026; Xinhua, August 2020), the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres and ClinicalTrials.gov.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the Ministry of Health's Noncommunicable Disease Department plan for 2020 to 2021 and its website, two news reports (The Radio Community, February 2026; Xinhua, August 2020), two news items from WHO's Regional Office for Africa (February and November 2026), the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres and ClinicalTrials.gov.",
   verify:
     "A news report of February 2026 describes cancer services being set up in South Sudan, and the sources here are few. Check with the Ministry of Health's cancer department or Juba Teaching Hospital before relying on this page.",
   verifyLinks: [L_IARC, L_TRC],

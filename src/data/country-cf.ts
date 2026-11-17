@@ -67,7 +67,7 @@ export const CF_DIVE: CountryDive = {
         },
         {
           id: "registry",
-          title: "No population-based registry: the data come from one pathology laboratory",
+          title: "No population-based registry: the data come from a pathology laboratory and hospital departments in Bangui",
           plain:
             "The Central African Republic has no population-based cancer registry, according to the 2021 imPACT review and WHO's 2021 profile. What is known comes from the national pathology laboratory in Bangui and from hospital departments, and the review recommended starting a registry in Bangui.",
           detail:
@@ -153,7 +153,7 @@ export const CF_DIVE: CountryDive = {
           id: "who-screening",
           title: "No national screening programme and no HPV vaccination; occasional cervical campaigns in Bangui",
           plain:
-            "The 2021 imPACT review found occasional early diagnosis campaigns for cervical cancer in Bangui and no national programme for the commonest cancers. HPV vaccination is not in the national schedule, according to WHO's 2021 profile and WHO's immunisation data to 2025.",
+            "The 2021 imPACT review found occasional early diagnosis campaigns for cervical cancer in Bangui and no national programme for early diagnosis of the commonest cancers. HPV vaccination is not in the national schedule, according to WHO's 2021 profile and WHO's immunisation data to 2025.",
           detail:
             "WHO's 2021 cervical cancer profile records no national screening programme, 6% of women aged 30 to 49 screened in the previous five years and 8% ever (2019), and no programme or guideline for early detection in primary care. The imPACT review summary describes ad hoc early diagnosis campaigns for cervical cancer in Bangui and exceptionally in the provinces, one working mammography unit in the country, in the private sector, and recommends training in visual inspection with acetic acid and starting HPV vaccination. WHO's immunisation data API, queried on 16 November 2026, lists the HPV vaccine as not introduced for each year from 2006 to 2025 and holds 44 coverage rows for the country, none with a figure in it. The review put hepatitis B vaccine coverage at 47% for the third dose.",
           links: [L_CX, L_IMPACT, { label: "WHO immunisation data: HPV vaccine introduction, Central African Republic (API)", url: WHO_HPV_INTRO }],
@@ -189,7 +189,7 @@ export const CF_DIVE: CountryDive = {
           plain:
             "The 2021 imPACT review found a plan for non-communicable diseases for 2015 to 2021 and no national cancer control programme, and recommended writing one with a steering committee, named partners and funding. OnCo found no cancer plan published since.",
           detail:
-            "WHO's 2020 profile recorded an operational integrated plan for non-communicable diseases and no cancer management guidelines for 2019. The ICCP portal, searched on 16 November 2026, returned a non-communicable disease policy and a strategic plan for the country and no cancer plan; the plan's file is labelled 2018 to 2022 and its activity tables run from 2018 to 2022, while its introduction speaks of a strategic plan for 2014 to 2020, so OnCo gives no period for it. That plan says the cancer programme had not yet been created and that a cancer service was being organised at the Hôpital Communautaire around the country's one cancer specialist, supported by a single pathologist. Whether a cancer plan has been adopted since the review is not something OnCo could establish.",
+            "WHO's 2020 profile recorded an operational integrated plan for non-communicable diseases and no cancer management guidelines for 2019. The ICCP portal, searched on 16 November 2026, returned a non-communicable disease policy and a strategic plan for the country and no cancer plan; the portal's listing dates the plan 2015 to 2021, its file is labelled 2018 to 2022 and its activity tables run from 2018 to 2022, while its introduction speaks of a strategic plan for 2014 to 2020, so OnCo gives no period for it. That plan says the cancer programme had not yet been created and that a cancer service was being organised at the Hôpital Communautaire around the country's one cancer specialist, supported by a single pathologist. Whether a cancer plan has been adopted since the review is not something OnCo could establish.",
           links: [L_IMPACT, L_WHO, L_PLAN, { label: "ICCP portal: search for the Central African Republic", url: "https://www.iccp-portal.org/resources?search_api_fulltext=central%20african%20republic" }],
         },
       ],

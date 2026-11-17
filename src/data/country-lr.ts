@@ -59,7 +59,7 @@ export const LR_DIVE: CountryDive = {
           plain:
             "IARC estimates 4,217 new cancers in Liberia in 2024, 2,628 of them in women, and 2,745 cancer deaths. Breast cancer is estimated to be the commonest cancer, followed by cervical, prostate and liver cancer, and it is also the commonest cause of cancer death. The estimate is modelled from neighbouring countries' rates, not counted in Liberia.",
           detail:
-            "The GLOBOCAN 2024 fact sheet gives 885 breast cancers (421 deaths), 561 cervical cancers (345 deaths), 393 prostate cancers (245 deaths), 315 liver cancers (283 deaths) and 207 colorectal cancers (117 deaths). By deaths the order is breast, cervix, liver, prostate. The risk of developing a cancer before age 75 is 12.4%, and an estimated 7,311 people are living within five years of a diagnosis. The fact sheet names no Liberian data source for incidence. WHO's 2020 profile estimated 269 cancers a year in children aged 0 to 14 and said the incidence and mortality estimates both have a high degree of uncertainty, the first because they are not based on a population-based cancer registry and the second because there are no national mortality data behind them.",
+            "The GLOBOCAN 2024 fact sheet gives 885 breast cancers (421 deaths), 561 cervical cancers (345 deaths), 393 prostate cancers (245 deaths), 315 liver cancers (283 deaths) and 207 colorectal cancers (117 deaths). By deaths the order is breast, cervix, liver, prostate. The risk of developing a cancer before age 75 is 12.4%, and an estimated 7,311 people are living within five years of a diagnosis. The fact sheet names no Liberian data source for incidence. WHO's 2020 profile estimated 269 cancers a year in children aged 0 to 14 and said the incidence and mortality estimates both have a high degree of uncertainty, the first because they are not based on a population-based cancer registry and the second because they are not based on any national data on deaths from non-communicable diseases.",
           links: [
             { label: "IARC: GLOBOCAN 2024 fact sheet, Liberia (PDF)", url: IARC_FACTSHEET },
             { label: "WHO: Cancer Country Profile 2020, Liberia (PDF)", url: WHO_PROFILE },
@@ -188,7 +188,7 @@ export const LR_DIVE: CountryDive = {
           id: "jfk",
           title: "An oncology unit at the JFK Medical Center in Monrovia",
           plain:
-            "The John F. Kennedy Medical Center in Monrovia, whose site sits on the government's gov.lr domain, has an oncology unit. Its page describes diagnosis, chemotherapy, pain management, nutritional support, counselling and palliative care.",
+            "The John F. Kennedy Medical Center in Monrovia, whose site sits on the government's gov.lr domain, has an oncology unit. Its page describes diagnosis, chemotherapy, pain management, nutritional support and counselling, and says the unit may offer palliative care.",
           detail:
             "The hospital's oncology page, which is undated, also lists radiation therapy, immunotherapy and targeted treatments among what the unit administers. Other sources do not support radiotherapy being available: the Ministry of Health said on 1 October 2025 that the country's radiotherapy centre was still to be built, and IAEA's directory lists none. OnCo therefore reads the page's list as a general description of oncology, not a statement of what is given in Monrovia today. WHO's 2021 cervical cancer profile recorded a cancer centre or cancer department at tertiary level, pathology laboratories and chemotherapy as generally available, and radiotherapy as not. The acting head of the unit spoke at the Ministry's campaign launch in October 2025. Ask the unit directly which medicines it has in stock.",
           links: [
@@ -230,7 +230,7 @@ export const LR_DIVE: CountryDive = {
       id: "research",
       nav: "Research",
       title: "Research and trials",
-      aside: { label: "ClinicalTrials.gov: cancer studies with sites in Liberia", url: CTGOV },
+      aside: { label: "ClinicalTrials.gov: search for cancer studies with the country set to Liberia", url: CTGOV },
       cards: [
         {
           id: "trial-count",
@@ -240,7 +240,7 @@ export const LR_DIVE: CountryDive = {
           detail:
             "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists Liberia. A query of the registry's own interface the same day for the condition \"cancer\" with the location \"Liberia\" returned seven studies, and every one of them has its site in the city of Liberia in Guanacaste Province, Costa Rica: they are HPV vaccine studies run there. The same query limited to the registry's country field returned no study. Searching by place name alone will mislead; filter by country. Published work from Liberia that OnCo read in abstract is the 2022 planning paper and a 2024 pilot of screening for anal cancer among 110 participants in Liberia.",
           links: [
-            { label: "ClinicalTrials.gov: cancer studies with sites in Liberia", url: CTGOV },
+            { label: "ClinicalTrials.gov: search for cancer studies with the country set to Liberia", url: CTGOV },
             { label: "ClinicalTrials.gov API: the query OnCo ran", url: CTGOV_API },
             { label: "Beddoe et al., planning infrastructure for cancer care in Liberia (JCO Global Oncology 2022)", url: BEDDOE_PAPER },
             { label: "Reynolds et al., screen, triage and treat for anal cancer in Liberia (Annals of Global Health 2024)", url: "https://doi.org/10.5334/aogh.4576" },
@@ -256,7 +256,7 @@ export const LR_DIVE: CountryDive = {
       plain:
         "OnCo could not read the body of the National Cancer Policy 2018 to 2022, and did not find registry counts, the state of the pledged radiotherapy centre, where patients are referred for radiotherapy, or what public schemes pay for cancer care.",
       detail:
-        "The policy on the ICCP portal is a 15 megabyte PDF of scanned pages from which only the contents page came out as text. WHO's 2021 cervical cancer profile prints a programme coverage figure for HPV vaccination in a chart whose labels did not come through clearly, so OnCo used WHO's data API instead. The JFK Medical Center's oncology page is undated and lists treatments that other sources say are not available. A future pass should read the scanned policy by eye, ask the Ministry of Health about the registry and the radiotherapy centre, and look for a current cancer plan. Readers can ask the oncology unit at the JFK Medical Center or WHO's country office in Monrovia.",
+        "The policy on the ICCP portal is a 15 megabyte PDF of scanned pages from which only the contents page came out as text. WHO's 2021 cervical cancer profile prints a programme coverage figure for HPV vaccination in a chart whose labels did not come through clearly, so OnCo used WHO's data API instead. The JFK Medical Center's oncology page is undated and lists radiation therapy, which other sources say is not available. A future pass should read the scanned policy by eye, ask the Ministry of Health about the registry and the radiotherapy centre, and look for a current cancer plan. Readers can ask the oncology unit at the JFK Medical Center or WHO's country office in Monrovia.",
       links: [
         { label: "Liberia: National Cancer Policy 2018 to 2022 (August 2018, scanned PDF via ICCP)", url: CANCER_POLICY },
         { label: "JFK Medical Center: Oncology", url: JFK_ONCOLOGY },

@@ -18,9 +18,9 @@ const PLAN = "https://www.iccp-portal.org/sites/default/files/plans/Plan%20Cance
 const ICCP_SEARCH = "https://www.iccp-portal.org/resources?search_api_fulltext=Togo";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20%27TGO%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
 const WHO_HPV_INTRO = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20%27TGO%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
-const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=TG";
-const WB_CHE = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=TG";
-const WB_GOV = "https://data.worldbank.org/indicator/SH.XPD.GHED.CH.ZS?locations=TG";
+const WB_OOP = "https://api.worldbank.org/v2/country/TGO/indicator/SH.XPD.OOPC.CH.ZS?format=json";
+const WB_CHE = "https://api.worldbank.org/v2/country/TGO/indicator/SH.XPD.CHEX.PC.CD?format=json";
+const WB_GOV = "https://api.worldbank.org/v2/country/TGO/indicator/SH.XPD.GHED.CH.ZS?format=json";
 const WB_EXT = "https://data.worldbank.org/indicator/SH.XPD.EHEX.CH.ZS?locations=TG";
 const DECREE_BASKET = "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/TGO_Togo_Decret-No-2023-093-PR-fixant-le-panier-de-soins-de-reference-de-lassurance-maladie-Universelle-pour-les-salaries-du-secteur-public-et-les-travailleurs-2023.pdf";
 const DECREE_MANAGERS = "https://extranet.who.int/cpcd/sites/default/files/public_file_repository/TGO_Togo_Decret-No2023-097-PR-confiant-la-gestions-delAssurance-Maladie-Univeselle-a-linstitut-national-dassurance-maladie-et-a-la-caisse-Nationale-de-Securite-Sociale_2023.pdf";
@@ -139,9 +139,9 @@ export const TG_DIVE: CountryDive = {
           detail:
             "The World Bank's series, from WHO's Global Health Expenditure Database, gives current health spending of USD 52.72 per person in 2021, 55.80 in 2022 and 59.61 in 2023, and out-of-pocket spending of 69.0%, 64.2% and 64.3% of current health spending in those years. Domestic government spending was 11.1% of current health spending in 2023 and external funding 20.0%, from the same World Bank series. The draft cancer plan of October 2021 lists no budget allocated to cancer, no subsidy for cancer medicines and low availability of those medicines among the weaknesses it sets out to correct, and costs its own activities at 4,597,956,095 without stating the currency on that line.",
           links: [
-            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Togo", url: WB_OOP },
-            { label: "World Bank: current health expenditure per capita, Togo", url: WB_CHE },
-            { label: "World Bank: domestic government health expenditure, % of current health expenditure, Togo", url: WB_GOV },
+            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Togo (API)", url: WB_OOP },
+            { label: "World Bank: current health expenditure per capita, Togo (API)", url: WB_CHE },
+            { label: "World Bank: domestic general government health expenditure, % of current health expenditure, Togo (API)", url: WB_GOV },
             { label: "World Bank: external health expenditure, % of current health expenditure, Togo", url: WB_EXT },
             { label: "Plan cancer Togo 2022 to 2025, draft of October 2021 (PDF via ICCP)", url: PLAN },
           ],
@@ -194,7 +194,7 @@ export const TG_DIVE: CountryDive = {
           plain:
             "WHO's immunisation database records the HPV vaccine as introduced nationwide in Togo in 2023. In 2025 the programme gave a first dose to 105,261 girls, 87% of its target group, up from 36% in 2024.",
           detail:
-            "The rows for Togo, read on 16 November 2026, give programme coverage with a first dose among girls of 45% in 2023 (304,458 doses for a target of 679,293, which suggests several age groups were vaccinated at once), 36% in 2024 (42,724 doses) and 87% in 2025 (105,261 doses for a target of 121,366). These are the rows the database labels HPV estimates. The administrative rows reported by the country differ: 55.72% in 2023 (62,284 doses for a target of 111,787), 36.81% in 2024 and 88.65% in 2025. WHO's separate estimate of girls who had received a first dose by age 15 was 43% in both 2024 and 2025. The introduction table shows no HPV vaccine from 2010 to 2022 and nationwide introduction from 2023. The draft cancer plan of October 2021, written before introduction, records a feasibility study and planned advocacy to scale up vaccination of girls aged 9 to 10.",
+            "The rows for Togo, read on 16 November 2026, give programme coverage with a first dose among girls of 45% in 2023 (304,458 doses for a target of 679,293, which suggests several age groups were vaccinated at once), 36% in 2024 (42,724 doses) and 87% in 2025 (105,261 doses for a target of 121,366). These are the rows the database labels HPV estimates. The administrative rows reported by the country differ: 55.72% in 2023 (62,284 doses for a target of 111,787), 36.81% in 2024 and 88.65% in 2025. WHO's separate estimate of girls who had received a first dose by age 15 was 43% in both 2024 and 2025. The introduction table shows no HPV vaccine from 2006 to 2022 and nationwide introduction from 2023. The draft cancer plan of October 2021, written before introduction, records a feasibility study and planned advocacy to scale up vaccination of girls aged 9 to 10.",
           links: [
             { label: "WHO: HPV vaccination coverage rows for Togo (immunisation data API)", url: WHO_HPV_API },
             { label: "WHO: HPV vaccine introduction rows for Togo (immunisation data API)", url: WHO_HPV_INTRO },

@@ -41,9 +41,9 @@ export const GW_DIVE: CountryDive = {
   description:
     "Cancer in Guinea-Bissau from the few sources that exist: IARC's 2024 estimate of 1,584 new cancers and 1,070 deaths, modelled from neighbouring countries' rates, cervical and breast cancer leading, people with cancer sent to Portugal through medical boards, an oncology institute under discussion with Portugal in 2025, no radiotherapy centre in IAEA's directory, no HPV vaccination programme in WHO's data, health spending of about USD 82 a person in 2023 with 62% paid out of pocket, and no trial in OnCo's records with a site in Guinea-Bissau.",
   lede:
-    "A March 2025 news report says people with cancer in Guinea-Bissau are sent abroad through medical boards, to Portugal, and quotes the health minister saying that an oncology institute in Guinea-Bissau was being discussed with Portugal. No registry is on record, so IARC's 2024 figure of 1,584 new cancers a year is built from neighbouring countries' rates: these are modelled figures, not counts.",
+    "A March 2025 news report says people with cancer in Guinea-Bissau are sent abroad through medical boards, to Portugal, and quotes the health minister saying that an oncology institute in Guinea-Bissau was being discussed with Portugal. WHO's 2021 profile recorded no population-based cancer registry, and IARC's 2024 figure of 1,584 new cancers a year is built from neighbouring countries' rates: these are modelled figures, not counts.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Guinea-Bissau is 1,584 new cancers and 1,070 deaths, an age-standardised incidence of 117.2 per 100,000 (97.2 in men, 136.8 in women) and an age-standardised mortality of 83.5. These are modelled figures, not counts. The fact sheet's \"Data source and methods\" box names no country-specific source for incidence and gives the method as \"Rates based on incidence estimates or registry data from neighbouring countries\" (IARC's method 5); mortality is \"National incidence estimates applied to model-based M:I ratios (registry survival data)\" (method 3c). WHO's 2020 profile adds that the incidence estimates have a high degree of uncertainty because they are not based on a population-based cancer registry, and the mortality estimates because they are not based on any national mortality data.",
+    "IARC's GLOBOCAN 2024 figure for Guinea-Bissau is 1,584 new cancers and 1,070 deaths, an age-standardised incidence of 117.2 per 100,000 (97.2 in men, 136.8 in women) and an age-standardised mortality of 83.5. These are modelled figures, not counts. The fact sheet's \"Data source and methods\" box names no country-specific source for incidence and gives the method as \"Rates based on incidence estimates or registry data from neighbouring countries\" (IARC's method 5); mortality is \"National incidence estimates applied to model-based M:I ratios (registry survival data)\" (method 3c). WHO's 2020 profile said of its own earlier estimates for the country that the incidence estimates have a high degree of uncertainty because they are not based on a population-based cancer registry, and the mortality estimates because they are not based on any national NCD mortality data.",
   sections: [
     {
       id: "profile",
@@ -69,7 +69,7 @@ export const GW_DIVE: CountryDive = {
           plain:
             "WHO's 2020 profile had no information on a population-based cancer registry in Guinea-Bissau and recorded no coverage of death registration. WHO's 2021 cervical cancer profile recorded that no such registry existed.",
           detail:
-            "The 2020 profile lists the availability of a population-based registry in 2019 as \"no information\" and the quality of mortality registration for 2007 to 2016 as \"no coverage\". The African Cancer Registry Network's member list, read on 16 November 2026, does not include Guinea-Bissau, and OnCo found no hospital-based registry report either. The one set of counts OnCo read from inside the country is from visiting breast surgery teams at the national hospital, described below. Until a registry exists, the figures on this page are borrowed from the region.",
+            "The 2020 profile lists the availability of a population-based registry in 2019 as \"no information\" and the quality of mortality registration for 2007 to 2016 as \"no coverage\". The African Cancer Registry Network's member list, read on 16 November 2026, does not include Guinea-Bissau, and OnCo found no hospital-based registry report either. The one set of counts OnCo read from inside the country is from a visiting breast surgery team at the national hospital, described below. IARC's figures on this page are built from neighbouring countries' rates.",
           links: [
             { label: "WHO: Cancer Country Profile 2020, Guinea-Bissau (PDF)", url: WHO_PROFILE },
             { label: "WHO: cervical cancer profile 2021, Guinea-Bissau (PDF)", url: WHO_CERVICAL },
@@ -94,7 +94,7 @@ export const GW_DIVE: CountryDive = {
             { site: "Prostate", cases: 96, deaths: 67 },
             { site: "Stomach", cases: 67, deaths: 57 },
           ],
-          note: "OnCo found no registry figures from Guinea-Bissau to set beside these. They are estimates built from other countries' rates, with a high degree of uncertainty.",
+          note: "OnCo found no registry figures from Guinea-Bissau to set beside these. They are estimates built from other countries' rates, not counts.",
           sources: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Guinea-Bissau (PDF)", url: IARC_FACTSHEET }],
         },
       ],
@@ -173,14 +173,14 @@ export const GW_DIVE: CountryDive = {
           id: "evacuation",
           title: "Treatment abroad through medical boards, and an oncology institute under discussion",
           plain:
-            "A report of 13 March 2025 says the lack of cancer services in Guinea-Bissau leads to medical evacuations arranged through medical boards (juntas médicas), and that Portugal is the one country with which Guinea-Bissau has agreements for them. The health minister said an oncology institute in Guinea-Bissau was being discussed with Portugal.",
+            "A report of 13 March 2025 says the health system's lack of answers to diseases such as cancer leads to medical evacuations, which the health minister said are arranged through medical boards (juntas médicas), and that Portugal is the one country with which Guinea-Bissau has agreements for them. The health minister said an oncology institute in Guinea-Bissau was being discussed with Portugal.",
           detail:
             "The report, in Forbes África Lusófona and citing the Lusa news agency, followed a meeting in Bissau between the Minister of Public Health, Pedro Tipote, and a delegation from Portugal's health ministry. The minister said they had spoken of the possibility of establishing an oncology institute, and that transfers of patients run into difficulties, in particular in obtaining visas, which he suggested taking up with the Portuguese embassy, the consular system and Portuguese cooperation. This is a news report of a discussion, not a decision: OnCo found no later source saying an institute has been agreed, funded or sited. Ask the Ministry of Public Health how a medical board referral is requested.",
           links: [{ label: "Forbes África Lusófona: Portugal and Guinea-Bissau discuss an oncology institute (13 March 2025, in Portuguese)", url: FORBES }],
         },
         {
           id: "simao-mendes",
-          title: "Breast surgery by visiting teams at the Hospital Nacional Simão Mendes",
+          title: "Breast surgery by a visiting team at the Hospital Nacional Simão Mendes",
           plain:
             "A 2023 paper describes three short missions in one year by a breast cancer surgical team at the Hospital Nacional Simão Mendes, the national referral hospital in Bissau. The team saw 97 female patients aged 12 to 70 and found 19 with invasive breast cancer at stage IV.",
           detail:

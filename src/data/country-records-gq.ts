@@ -44,7 +44,7 @@ const papers: PaperInput[] = [
       "Community outreach reached more women on the mainland, and more married, postmenopausal and multiparous women than facility-based screening.",
       "2.6% of women were positive on visual inspection, with higher rates among younger women; 55% of them were treated with cold coagulation, 10% were referred for further evaluation and 18% received no treatment.",
     ],
-    whatItMeans: "It is the one counted series on cancer prevention OnCo found from Equatorial Guinea, a country with no population-based cancer registry in WHO's profiles. The authors describe it as, to their knowledge, the first such effort there, and say the work should continue, improve its data capture and pass increasingly to the Ministry of Health.",
+    whatItMeans: "It is the one counted series on cancer prevention OnCo found from Equatorial Guinea, a country with no population-based cancer registry in WHO's 2021 cervical cancer profile. The authors describe it as, to their knowledge, the first such effort there, and say the work should continue, improve its data capture and pass increasingly to the Ministry of Health.",
     caveats: ["A project report, not a population survey: it counts women who came forward or were reached, not coverage of all eligible women.", "The abstract does not account for every woman who screened positive; 55%, 10% and 18% leave a remainder it does not describe."],
     cancers: ["cervical"],
     technologies: ["via-cervical-screening"],

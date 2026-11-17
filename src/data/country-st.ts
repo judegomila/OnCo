@@ -5,10 +5,11 @@ import type { CountryDive } from "@/data/country-dive";
  * raw text of its source on 16 November 2026, not from a summary of it: IARC's GLOBOCAN 2024 fact sheet, WHO's Cancer
  * Country Profile 2020 and cervical cancer profile 2021 (PDF text), the World Bank's health expenditure series from its
  * API, WHO's immunisation data API, IAEA DIRAC's public equipment data, WHO's August 2026 list of regulators at maturity
- * level 3 and 4, the African Union's list of signatures of the African Medicines Agency treaty, and one paper by doctors
- * of Hospital Ayres de Menezes, resolved through Europe PMC with its abstract and affiliations read. The country has
- * about 236,000 people and the page is short: the ministry's site did not resolve, and OnCo found no cancer plan, no
- * registry and no regulator's page. Each is named under `gaps`.
+ * level 3 and 4, the African Union's list of signatures of the African Medicines Agency treaty, and one paper by authors
+ * from Hospital Ayres de Menezes, resolved through Europe PMC with its abstract and affiliations read; the second pass
+ * on the same day read its open-access full text too. The country has about 236,000 people and the page is short: the
+ * address ms.gov.st did not resolve, and OnCo found no cancer plan, no registry and no regulator's page. Each is named
+ * under `gaps`.
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/678-sao-tome-and-principe-fact-sheet.pdf";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/stp-2020.pdf";
@@ -29,6 +30,7 @@ const L_IARC = { label: "IARC: GLOBOCAN 2024 fact sheet, Sao Tome and Principe (
 const L_WHO = { label: "WHO: Cancer Country Profile 2020, Sao Tome and Principe (PDF)", url: WHO_PROFILE };
 const L_CX = { label: "WHO: cervical cancer country profile 2021, Sao Tome and Principe (PDF)", url: WHO_CX };
 const L_DIRAC = { label: "IAEA DIRAC: radiotherapy equipment by centre (read 16 November 2026)", url: DIRAC };
+const L_EVAC_FULL = { label: "Europe PMC: full text of the evacuation study (PMC13161590, XML)", url: "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13161590/fullTextXML" };
 const L_EVAC = { label: "David et al., cancer among medical evacuees from São Tomé and Príncipe, 2019 to 2025 (ecancermedicalscience 2026)", url: EVAC_PAPER };
 
 export const ST_DIVE: CountryDive = {
@@ -64,9 +66,9 @@ export const ST_DIVE: CountryDive = {
           id: "registry",
           title: "No population-based cancer registry",
           plain:
-            "São Tomé and Príncipe has no population-based cancer registry. WHO's 2021 cervical cancer profile says so, and doctors at Hospital Ayres de Menezes said the same in 2026 and called for one to be set up.",
+            "São Tomé and Príncipe has no population-based cancer registry. WHO's 2021 cervical cancer profile says so, and authors from Hospital Ayres de Menezes said the same in 2026 and called for one to be set up.",
           detail:
-            "WHO's Cancer Country Profile 2020 recorded no information on a population-based cancer registry for 2019 and no coverage for the quality of mortality registration for 2007 to 2016; its 2021 cervical cancer profile states that no population-based cancer registry exists. The African Cancer Registry Network's member list, read on 16 November 2026, names 35 registries and none in São Tomé and Príncipe. The 2026 study of medical evacuations by doctors of Hospital Ayres de Menezes states that the country does not yet have a population-based cancer registry and concludes that establishing one would improve the data and inform public health strategy.",
+            "WHO's Cancer Country Profile 2020 recorded no information on a population-based cancer registry for 2019 and no coverage for the quality of mortality registration for 2007 to 2016; its 2021 cervical cancer profile states that no population-based cancer registry exists. The African Cancer Registry Network's member list, read on 16 November 2026, names 35 registries and none in São Tomé and Príncipe. The 2026 study of medical evacuations by authors from Hospital Ayres de Menezes states that the country does not yet have a population-based cancer registry and concludes that establishing one would improve the data and inform public health strategy.",
           links: [L_CX, L_WHO, L_EVAC, { label: "African Cancer Registry Network: member registries", url: "https://afcrn.org/index.php/membership/membership-list" }],
         },
       ],
@@ -101,15 +103,16 @@ export const ST_DIVE: CountryDive = {
           id: "oop",
           title: "About USD 171 a person on health in 2023, 17% of it out of pocket and 44% from external funders",
           plain:
-            "São Tomé and Príncipe spent about 171 US dollars a person on health in 2023. Households paid 17% of it out of their own pockets and external funders 44%, according to the World Bank's series from WHO's health expenditure database. OnCo did not find a source on who pays for evacuation abroad or for cancer medicines.",
+            "São Tomé and Príncipe spent about 171 US dollars a person on health in 2023. Households paid 17% of it out of their own pockets and external funders 44%, according to the World Bank's series from WHO's health expenditure database. The 2026 evacuation study says Portugal covers the medical cost of an evacuation, São Tomé and Príncipe the travel, and patients their own accommodation. OnCo did not find a source on who pays for cancer medicines.",
           detail:
-            "The World Bank's series gives current health spending of USD 187 per person in 2021, 139 in 2022 and 171 in 2023, and out-of-pocket spending of 11.7%, 15.2% and 16.7% of current health spending in those years. In 2023 government spending from domestic sources was 37.0% of current health spending and external health expenditure 43.9%. The 2026 evacuation study describes its data as the records of the Ministry of Health's Patient Evacuation Board; its abstract does not say who bears the cost. WHO's 2021 cervical cancer profile recorded palliative care for people with non-communicable diseases as not generally available in primary care or in community or home-based care.",
+            "The World Bank's series gives current health spending of USD 187 per person in 2021, 139 in 2022 and 171 in 2023, and out-of-pocket spending of 11.7%, 15.2% and 16.7% of current health spending in those years. In 2023 government spending from domestic sources was 37.0% of current health spending and external health expenditure 43.9%. The 2026 evacuation study describes its data as the records of the Ministry of Health's Patient Evacuation Board. Its full text says each evacuation has an average medical cost of approximately 3,500 euros, covered by Portugal (a figure it takes from a 2024 Portuguese newspaper report), that travel costs for patients and escorts can reach 225,000 euros a year, covered by São Tomé and Príncipe, and that accommodation is paid for by the patients themselves. WHO's 2021 cervical cancer profile recorded palliative care for people with non-communicable diseases as not generally available in primary care or in community or home-based care.",
           links: [
             { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Sao Tome and Principe (API)", url: WB_OOP },
             { label: "World Bank: current health expenditure per capita, Sao Tome and Principe (API)", url: WB_CHE },
             { label: "World Bank: external health expenditure, Sao Tome and Principe (API)", url: WB_EXT },
             { label: "World Bank: domestic general government health expenditure, Sao Tome and Principe (API)", url: WB_GOV },
             L_EVAC,
+            L_EVAC_FULL,
             L_CX,
           ],
         },
@@ -146,11 +149,12 @@ export const ST_DIVE: CountryDive = {
           plain:
             "São Tomé and Príncipe vaccinates girls against human papillomavirus, the virus that causes cervical cancer, across the country. WHO's immunisation data put the share of girls who had received a first dose by age 15 at 86% in 2025, up from 74% in 2022.",
           detail:
-            "WHO's 2021 cervical cancer profile records the HPV vaccine as included in the national vaccination programme, at national scale, with 2021 as the year of introduction. WHO's immunisation data API, queried on 16 November 2026, marks the vaccine as introduced nationwide in each year from 2021 to 2025, with an earlier entry for 2017 and 2018 carrying a flag, (D), that OnCo has not interpreted. Its coverage rows give first-dose coverage by age 15 among girls of 74% in 2022, 80% in 2023, 86% in 2024 and 86% in 2025, and programme coverage for the first dose of 75% in 2024 and 97% in 2025.",
+            "WHO's 2021 cervical cancer profile records the HPV vaccine as included in the national vaccination programme, at national scale, with 2021 as the year of introduction. WHO's immunisation data API, queried on 16 November 2026, marks the vaccine as introduced nationwide in each year from 2021 to 2025, with an earlier entry for 2017 and 2018 carrying a flag, (D), that OnCo has not interpreted. Its coverage rows give first-dose coverage by age 15 among girls of 74% in 2022, 80% in 2023, 86% in 2024 and 86% in 2025, and programme coverage for the first dose of 75% in 2024 and 97% in 2025. The 2026 evacuation study gives a different start: it says a national HPV vaccination programme has been in place since 2019, targeting girls aged 10. OnCo has not found a source that settles the difference.",
           links: [
             { label: "WHO immunisation data: HPV vaccination coverage, Sao Tome and Principe (API)", url: WHO_HPV_COV },
             { label: "WHO immunisation data: HPV vaccine introduction, Sao Tome and Principe (API)", url: WHO_HPV_INTRO },
             L_CX,
+            L_EVAC_FULL,
           ],
         },
         {
@@ -173,19 +177,19 @@ export const ST_DIVE: CountryDive = {
           id: "evacuation",
           title: "More than a third of medical evacuations abroad are for cancer",
           plain:
-            "Doctors at Hospital Ayres de Menezes reviewed the records of the Ministry of Health's Patient Evacuation Board for 2019 to 2025. Of 1,066 evacuations for treatment abroad, 413 (38.7%) were for cancer, most often breast, prostate and cervical cancer.",
+            "Authors from Hospital Ayres de Menezes reviewed the records of the Ministry of Health's Patient Evacuation Board from January 2019 to May 2025. Of 1,066 evacuations for treatment abroad, 413 (38.7%) were for cancer, most often breast, prostate and cervical cancer.",
           detail:
-            "The study, published in ecancermedicalscience in 2026 with co-authors at the Portuguese Institute of Oncology in Porto, describes the country as relying heavily on medical evacuation for specialised cancer care. Cancer patients had a mean age of 48.3 years and 58.6% were women. Breast cancer was the most frequent at 24.7%, followed by prostate cancer at 17.9% and cervical cancer at 9.4%. Most patients (76.9%) needed a single evacuation, and cancer patients were more likely than others to be evacuated more than once. The abstract does not name the countries patients were sent to. These are counts of evacuations, not of everyone who developed cancer: 413 over seven years is about 59 a year, against IARC's modelled 84 new cancers a year.",
-          links: [L_EVAC],
+            "The study, published in ecancermedicalscience in 2026 with co-authors at the Portuguese Institute of Oncology in Porto, describes the country as relying heavily on medical evacuation for specialised cancer care. Its full text describes medical evacuation as the transfer of patients to Portugal under bilateral health agreements, and covers records from January 2019 to May 2025. Cancer patients had a mean age of 48.3 years and 58.6% were women. Breast cancer was the most frequent at 24.7%, followed by prostate cancer at 17.9% and cervical cancer at 9.4%. Of all evacuated patients 76.9% had a single evacuation, against 72.4% of those with cancer, and 16.9% of cancer patients had three or more against 11.6% overall. The authors note that the records leave out patients too ill to travel or whose advanced disease was judged beyond treatment abroad. These are counts of evacuations, not of everyone who developed cancer: 413 in about six and a half years is about 64 a year, against IARC's modelled 84 new cancers a year.",
+          links: [L_EVAC, L_EVAC_FULL],
         },
         {
           id: "services",
-          title: "No radiotherapy centre in IAEA's directory; WHO's 2021 profile recorded no cancer department",
+          title: "No radiotherapy centre in IAEA's directory; WHO's 2021 profile recorded a cancer department as not generally available",
           plain:
             "IAEA's directory of radiotherapy centres lists no centre in São Tomé and Príncipe. WHO's 2021 cervical cancer profile recorded a cancer centre or department, pathology, cancer surgery, chemotherapy and radiotherapy each as not generally available.",
           detail:
-            "IAEA DIRAC's public equipment data, read on 16 November 2026, has no row for São Tomé and Príncipe. WHO's 2021 profile answers no for each of the five services, and its 2020 profile recorded no cancer management guidelines, an integrated non-communicable disease plan not in effect and n/a against a national cancer control plan for 2019. A search of the ICCP portal, which collects national cancer plans, returned only WHO's own profiles of the country on 16 November 2026; that is what the search returned, not proof that no plan exists. OnCo found no source describing what cancer treatment is given inside the country today.",
-          links: [L_DIRAC, L_CX, L_WHO, { label: "ICCP portal: search for Sao Tome and Principe", url: "https://www.iccp-portal.org/resources?search_api_fulltext=sao%20tome%20and%20principe" }],
+            "IAEA DIRAC's public equipment data, read on 16 November 2026, has no row for São Tomé and Príncipe. WHO's 2021 profile answers no for each of the five services, and its 2020 profile recorded no cancer management guidelines, an integrated non-communicable disease plan not in effect and n/a against a national cancer control plan for 2019. A search of the ICCP portal, which collects national cancer plans, returned only WHO's own profiles of the country on 16 November 2026; that is what the search returned, not proof that no plan exists. The 2026 evacuation study says in its full text that the country currently lacks oncology specialists and facilities to provide advanced surgeries, systemic therapies or radiotherapy. OnCo found no source describing what cancer treatment is given inside the country today.",
+          links: [L_DIRAC, L_CX, L_WHO, L_EVAC_FULL, { label: "ICCP portal: search for Sao Tome and Principe", url: "https://www.iccp-portal.org/resources?search_api_fulltext=sao%20tome%20and%20principe" }],
         },
       ],
     },
@@ -201,7 +205,7 @@ export const ST_DIVE: CountryDive = {
           plain:
             "None of the trials in OnCo's records lists São Tomé and Príncipe among its countries. OnCo holds a selection of trials, not the whole registry, so ClinicalTrials.gov itself is the place to search.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists São Tomé and Príncipe. A query of the registry's own API that day for cancer studies with a location in the country also returned none. The cancer research from the country that OnCo found is the 2026 study of medical evacuations, written by doctors of Hospital Ayres de Menezes with researchers at the Portuguese Institute of Oncology in Porto.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: no trial record lists São Tomé and Príncipe. A query of the registry's own API that day for cancer studies with a location in the country also returned none. The cancer research from the country that OnCo found is the 2026 study of medical evacuations, written by authors from Hospital Ayres de Menezes with researchers at the Portuguese Institute of Oncology in Porto.",
           links: [{ label: "ClinicalTrials.gov: cancer studies with sites in São Tomé and Príncipe", url: CTGOV }, L_EVAC],
         },
       ],
@@ -212,10 +216,10 @@ export const ST_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not found or not read for this page",
       plain:
-        "OnCo did not find a national cancer plan, a medicines regulator's page, the countries patients are evacuated to, who pays for evacuation, or a description of the cancer care given at Hospital Ayres de Menezes itself.",
+        "OnCo did not find a national cancer plan, a medicines regulator's page, a source on who pays for cancer medicines, or a description of the cancer care given at Hospital Ayres de Menezes itself.",
       detail:
-        "The Ministry of Health's address, ms.gov.st, did not resolve on 16 November 2026. The evacuation study was read through Europe PMC as an abstract with author affiliations, not in full; the full paper may name the destination countries and should be read next. WHO's 2020 profile gives an HPV programme coverage figure for 2018 for which WHO's immunisation database holds no matching row, so OnCo has not used it. Until these are read, the Patient Evacuation Board and the treating doctors at Hospital Ayres de Menezes are the places to ask.",
-      links: [L_EVAC, L_WHO, { label: "WHO Regional Office for Africa: Sao Tome and Principe (in Portuguese)", url: "https://www.afro.who.int/pt/countries/sao-tome-and-principe" }],
+        "The Ministry of Health's address, ms.gov.st, did not resolve on 16 November 2026. The evacuation study cites the ministry's health statistics yearbook for 2023 at another address, minsaude.st, which answered on 16 November 2026 and which OnCo has not yet read. The evacuation study itself was read in full through Europe PMC on 16 November 2026: it gives Portugal as the destination and says who pays, and both are now on this page. WHO's 2020 profile gives an HPV programme coverage figure for 2018 for which WHO's immunisation database holds no matching row, so OnCo has not used it. Until these are read, the Patient Evacuation Board and the treating doctors at Hospital Ayres de Menezes are the places to ask.",
+      links: [L_EVAC, L_EVAC_FULL, L_WHO, { label: "WHO Regional Office for Africa: Sao Tome and Principe (in Portuguese)", url: "https://www.afro.who.int/pt/countries/sao-tome-and-principe" }],
     },
   ],
   institutions: ["hospital-ayres-de-menezes", "ipo-porto", "who", "iarc", "iaea"],
@@ -225,7 +229,7 @@ export const ST_DIVE: CountryDive = {
   papers: ["paper-david-cancer-medical-evacuees-sao-tome-ecancer-2026"],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, and the abstract of the 2026 study of medical evacuations, resolved through Europe PMC.",
+    "Every card was written from public sources read as raw text on 16 November 2026: IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 cancer profile and 2021 cervical cancer profile, the World Bank's health expenditure series, WHO's immunisation data, IAEA's directory of radiotherapy centres, and the 2026 study of medical evacuations, resolved through Europe PMC and read in full.",
   verify:
     "This page rests on international estimates and one hospital study. Check with the Ministry of Health's Patient Evacuation Board or the treating doctors at Hospital Ayres de Menezes before relying on it.",
   verifyLinks: [L_IARC, L_EVAC],

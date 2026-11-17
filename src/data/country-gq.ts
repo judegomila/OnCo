@@ -47,7 +47,7 @@ export const GQ_DIVE: CountryDive = {
   lede:
     "A cervical cancer screening and treatment project began in Equatorial Guinea in 2017 and screened 26,998 women by 2023. WHO's 2021 cervical cancer profile records no population-based cancer registry, and IARC's cancer figures for the country are modelled from its neighbours' rates. The same WHO profile recorded cancer surgery, chemotherapy and radiotherapy as not generally available.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Equatorial Guinea is 1,191 new cancers and 755 deaths, an age-standardised incidence of 84.9 per 100,000 (72.9 in men, 100.6 in women). These are modelled figures, not counts. IARC's fact sheet names no country-specific source for incidence and gives its method as rates based on incidence estimates or registry data from neighbouring countries; mortality is national incidence estimates applied to modelled mortality-to-incidence ratios built on registry survival data. WHO's 2020 profile adds that the estimates have a high degree of uncertainty because they are not based on a population-based cancer registry or on national mortality data.",
+    "IARC's GLOBOCAN 2024 figure for Equatorial Guinea is 1,191 new cancers and 755 deaths, an age-standardised incidence of 84.9 per 100,000 (72.9 in men, 100.6 in women). These are modelled figures, not counts. IARC's fact sheet names no country-specific source for incidence and gives its method as rates based on incidence estimates or registry data from neighbouring countries; mortality is national incidence estimates applied to modelled mortality-to-incidence ratios built on registry survival data. WHO's 2020 profile said of the earlier estimates it printed that they have a high degree of uncertainty because they are not based on a population-based cancer registry or on national mortality data.",
   sections: [
     {
       id: "profile",
@@ -95,8 +95,8 @@ export const GQ_DIVE: CountryDive = {
             { site: "Colorectum", cases: 102, deaths: 53 },
             { site: "Cervix uteri", cases: 99, deaths: 62 },
           ],
-          note: "OnCo found no registry figures from Equatorial Guinea to set beside these. They are estimates, which WHO describes as having a high degree of uncertainty.",
-          sources: [L_IARC],
+          note: "OnCo found no registry figures from Equatorial Guinea to set beside these. They are estimates; WHO's 2020 profile described the earlier estimates for the country as having a high degree of uncertainty.",
+          sources: [L_IARC, L_WHO],
         },
       ],
     },
@@ -223,7 +223,7 @@ export const GQ_DIVE: CountryDive = {
       plain:
         "OnCo did not find a cancer registry, a national cancer plan, a medicines regulator's page, a named cancer centre, or any source on what public schemes pay for cancer care in Equatorial Guinea, and found no account later than 2021 of where people with cancer are treated.",
       detail:
-        "The address minsabs.gob.gq did not resolve; the ministry's site at guineasalud.org answered, and OnCo read its front page and two news pages but not its sections for plans, legal documents and protocols. OnCo's one fetch of MCD Global Health's site returned its home page, which carried nothing on the screening project, so nothing here comes from MCD's own pages. OnCo could not pair the 2018 totals in WHO's 2020 profile with their labels unambiguously in the PDF text, so it has not used them. A future pass should read the ministry's plans and legal documents in Spanish, ask WHO's country office about a cancer plan and a registry, and look for where patients are referred abroad. Until then, the treating hospital and the Ministry of Health and Social Welfare are the places to ask.",
+        "The address minsabs.gob.gq did not resolve; the ministry's site at guineasalud.org answered, and OnCo read its front page and two news pages but not its sections for plans, legal documents and protocols. OnCo's one fetch of MCD Global Health's site returned its home page, which carried nothing on the screening project, so nothing here comes from MCD's own pages. WHO's 2020 profile prints totals for 2018 of 7,274 cancer cases and 5,853 cancer deaths, several times IARC's 2024 estimate of 1,191 and 755; OnCo could not account for the difference, so it has not used those totals. A future pass should read the ministry's plans and legal documents in Spanish, ask WHO's country office about a cancer plan and a registry, and look for where patients are referred abroad. Until then, the treating hospital and the Ministry of Health and Social Welfare are the places to ask.",
       links: [L_MOH, L_WHO, { label: "WHO Regional Office for Africa: Equatorial Guinea", url: "https://www.afro.who.int/countries/equatorial-guinea" }],
     },
   ],

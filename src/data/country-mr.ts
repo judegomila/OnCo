@@ -19,9 +19,10 @@ const ICCP_SEARCH = "https://www.iccp-portal.org/resources?search_api_fulltext=M
 const NEML = "https://cdn.who.int/media/docs/default-source/essential-medicines/national-essential-medicines-lists-(neml)/afro_neml/mauritania-nemle-2024.pdf";
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20%27MRT%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
 const WHO_HPV_INTRO = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20%27MRT%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
-const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=MR";
-const WB_CHE = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=MR";
-const WB_GOV = "https://data.worldbank.org/indicator/SH.XPD.GHED.CH.ZS?locations=MR";
+const WB_OOP = "https://api.worldbank.org/v2/country/MRT/indicator/SH.XPD.OOPC.CH.ZS?format=json";
+const WB_CHE = "https://api.worldbank.org/v2/country/MRT/indicator/SH.XPD.CHEX.PC.CD?format=json";
+const WB_GOV = "https://api.worldbank.org/v2/country/MRT/indicator/SH.XPD.GHED.CH.ZS?format=json";
+const WB_EXT = "https://api.worldbank.org/v2/country/MRT/indicator/SH.XPD.EHEX.CH.ZS?format=json";
 const CNAM = "https://www.cnam.mr/fr/";
 const MOH = "https://www.sante.gov.mr/";
 const DIRAC = "https://dirac.iaea.org/Data/CountriesLight";
@@ -61,7 +62,7 @@ export const MR_DIVE: CountryDive = {
           plain:
             "IARC estimates 3,605 new cancers in Mauritania in 2024, 2,179 of them in women, and 2,281 cancer deaths. Breast cancer is estimated to be the commonest cancer and the commonest cause of cancer death, followed by prostate and cervical cancer. These are modelled figures, not counts.",
           detail:
-            "The GLOBOCAN 2024 fact sheet gives 844 breast cancers (399 deaths), 404 prostate cancers (258 deaths), 390 cervical cancers (239 deaths), 260 liver cancers (234 deaths), 210 colorectal cancers (118 deaths) and 137 stomach cancers (110 deaths). The risk of developing a cancer before age 75 is 12.6%, and an estimated 6,759 people are living within five years of a diagnosis. IARC built the incidence figures from neighbouring countries' rates, not from cases counted in Mauritania. WHO's 2020 profile estimated 244 cancers a year in children aged 0 to 14, and noted that its own estimates carry a high degree of uncertainty because they rest on no population registry and no national mortality data.",
+            "The GLOBOCAN 2024 fact sheet gives 844 breast cancers (399 deaths), 404 prostate cancers (258 deaths), 390 cervical cancers (239 deaths), 260 liver cancers (234 deaths), 210 colorectal cancers (118 deaths) and 137 stomach cancers (110 deaths). The risk of developing a cancer before age 75 is 12.6%, and an estimated 6,759 people are living within five years of a diagnosis. IARC built the incidence figures from neighbouring countries' rates, not from cases counted in Mauritania. WHO's 2020 profile estimated 244 cancers a year in children aged 0 to 14, and noted that its own estimates carry a high degree of uncertainty because they are based on no population-based cancer registry and no national data on deaths from non-communicable diseases.",
           links: [
             { label: "IARC: GLOBOCAN 2024 fact sheet, Mauritania (PDF)", url: IARC_FACTSHEET },
             { label: "WHO: Cancer Country Profile 2020, Mauritania (PDF)", url: WHO_PROFILE },
@@ -136,7 +137,7 @@ export const MR_DIVE: CountryDive = {
           plain:
             "Mauritania's cancer plan of 2018 says the health ministry had formed and trained a registry team, but that the registry had no dedicated staff, premises or budget. WHO's 2021 profile recorded no population-based cancer registry.",
           detail:
-            "The plan says the team was trained in cancer registration with support from the African Cancer Registry Network, that the registry's head also attended an IARC course and a course in Brazzaville supported by the IAEA and WHO, and that the team worked as a coordination committee because the registry was not yet formally established; setting up a national population-based registry and hospital registers in every centre treating cancer was among the plan's aims. WHO's 2020 profile recorded \"no information\" on a population registry for 2019 and \"no coverage\" for death registration; its 2021 cervical cancer profile answered \"No\". The African Cancer Registry Network's membership list, read on 16 November 2026, has no registry in Mauritania. OnCo found no later report on whether the registry now runs; the directorate for disease control at the Ministry of Health, which issued the plan, is where to ask.",
+            "The plan says the team was trained in cancer registration with support from the African Cancer Registry Network, that the registry's head also attended an IARC course and a course in Brazzaville supported by the IAEA and WHO, and that the team worked as a coordination committee because the registry was not yet formally established; setting up a national population-based registry and hospital registers in every centre treating cancer was among the plan's aims. WHO's 2020 profile recorded \"No information\" on a population registry for 2019 and \"No coverage\" for the quality of death registration in 2007 to 2016; its 2021 cervical cancer profile answered \"No\". The African Cancer Registry Network's membership list, read on 16 November 2026, has no registry in Mauritania. OnCo found no later report on whether the registry now runs; the directorate for disease control at the Ministry of Health, which issued the plan, is where to ask.",
           links: [
             { label: "Plan national de lutte contre le cancer 2018 to 2022, Mauritania (PDF via ICCP)", url: PLAN },
             { label: "WHO: Cancer Country Profile 2020, Mauritania (PDF)", url: WHO_PROFILE },
@@ -159,9 +160,10 @@ export const MR_DIVE: CountryDive = {
           detail:
             "The World Bank's series, from WHO's Global Health Expenditure Database, gives current health spending of USD 54.63 per person in 2019, 73.63 in 2021, 91.54 in 2022 and 92.11 in 2023, and out-of-pocket spending of 60.3%, 48.2%, 41.7% and 43.8% of current health spending in those years. Domestic government spending was 34.2% of current health spending in 2023 and external funding 19.5%. The cancer plan for 2018 to 2022 costed its own activities at 2,480,000,000 ouguiyas over five years, with the largest lines for cancer surgery and for palliative care.",
           links: [
-            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Mauritania", url: WB_OOP },
-            { label: "World Bank: current health expenditure per capita, Mauritania", url: WB_CHE },
-            { label: "World Bank: domestic government health expenditure, % of current health expenditure, Mauritania", url: WB_GOV },
+            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Mauritania (API)", url: WB_OOP },
+            { label: "World Bank: current health expenditure per capita, Mauritania (API)", url: WB_CHE },
+            { label: "World Bank: domestic general government health expenditure, % of current health expenditure, Mauritania (API)", url: WB_GOV },
+            { label: "World Bank: external health expenditure, % of current health expenditure, Mauritania (API)", url: WB_EXT },
             { label: "Plan national de lutte contre le cancer 2018 to 2022, Mauritania (PDF via ICCP)", url: PLAN },
           ],
         },
@@ -271,7 +273,7 @@ export const MR_DIVE: CountryDive = {
           plain:
             "IAEA's directory lists one radiotherapy centre in Mauritania, the Centre National d'Oncologie, with three linear accelerators, one cobalt-60 unit and high-dose-rate brachytherapy. The entry was last updated in 2019, so it may not match the machines working today.",
           detail:
-            "DIRAC's public data, read on 16 November 2026, gives the centre's address as 86 Avenue Jean Kennedy, Nouakchott, with three megavoltage linear accelerators, one cobalt-60 teletherapy unit, one iridium-192 high-dose-rate brachytherapy unit, one CT scanner and one treatment planning system. The cancer plan of 2018 counted one linear accelerator in the country, and planned a nuclear medicine unit. WHO's 2021 cervical profile recorded radiotherapy and chemotherapy as generally available in 2021 and cancer surgery as not. The sources disagree on the number of machines and none is recent; a patient should ask the centre what is running.",
+            "DIRAC's public data, read on 16 November 2026, gives the centre's address as 86 Avenue Jean Kennedy, Nouakchott, with three megavoltage linear accelerators, one cobalt-60 teletherapy unit, one iridium-192 high-dose-rate brachytherapy unit, one CT scanner and one treatment planning system. The cancer plan of 2018 counted one linear accelerator in the country, and said a nuclear medicine unit was being set up. WHO's 2021 cervical profile recorded radiotherapy and chemotherapy as generally available in 2021 and cancer surgery as not. The sources disagree on the number of machines and none is recent; a patient should ask the centre what is running.",
           links: [
             { label: "IAEA DIRAC: radiotherapy equipment by centre (read 16 November 2026)", url: DIRAC },
             { label: "Plan national de lutte contre le cancer 2018 to 2022, Mauritania (PDF via ICCP)", url: PLAN },

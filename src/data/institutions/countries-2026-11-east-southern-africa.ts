@@ -258,9 +258,9 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
   // ---------------------------------------------------------------- South Sudan
   i({ id: "south-sudan-ministry-of-health", name: "Ministry of Health, Republic of South Sudan", aka: ["Ministry of Health, South Sudan", "MoH South Sudan"],
     city: "Juba", country: "SS", lat: 4.846, lng: 31.596, institutionType: "government", website: MOH_SS,
-    tldr: "South Sudan's health ministry. It has set up a cancer department and treatment protocols, and plans an oncology unit at Juba Teaching Hospital.",
+    tldr: "South Sudan's health ministry. It was reported in February 2026 to have set up a cancer department and written protocols, and to plan an oncology unit at Juba Teaching Hospital.",
     summary: "The Ministry of Health of the Republic of South Sudan lists among its commissions a Drugs and Food Control Authority, whose page carried no content beyond its name in November 2026. At the launch of the South Sudan Cancer Network on 4 February 2026, reported by The Radio Community, the health minister said 85 per cent of the health budget comes from donors, and the ministry was reported to have established a cancer department and developed protocols, with plans to open an oncology unit at Juba Teaching Hospital and eventually a comprehensive cancer centre; the WHO representative said cancer accounts for 7 per cent of deaths in the country. The coordinates are an approximate city point for Juba.",
-    programs: ["Cancer department and treatment protocols", "Planned oncology unit at Juba Teaching Hospital"],
+    programs: ["Cancer department and protocols (reported February 2026)", "Planned oncology unit at Juba Teaching Hospital"],
     institutions: ["juba-teaching-hospital", "south-sudan-cancer-network"],
     links: [
       { label: "Ministry of Health, Republic of South Sudan", url: MOH_SS },
@@ -270,10 +270,11 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
   i({ id: "juba-teaching-hospital", name: "Juba Teaching and Referral Hospital", aka: ["Juba Teaching Hospital", "JTH"],
     city: "Juba", country: "SS", lat: 4.85, lng: 31.608, institutionType: "hospital",
     tldr: "South Sudan's main referral hospital in Juba. It opened a cervical cancer screening centre in 2020, and the health ministry plans an oncology unit there.",
-    summary: "Juba Teaching and Referral Hospital is described by China Daily as South Sudan's main referral hospital. A cervical cancer screening centre built with Chinese government support opened there on 25 August 2020; its director said it would serve screening and, he hoped, treatment. In February 2026 the Ministry of Health was reported to be planning an oncology unit at the hospital, with a comprehensive cancer centre as the eventual goal. The coordinates are the OpenStreetMap point for the hospital.",
+    summary: "Juba Teaching and Referral Hospital is described by China Daily as South Sudan's main referral hospital. A cervical cancer screening centre built with Chinese government support opened there on 25 August 2020; its director said it would serve screening and, he hoped, treatment. In February 2026 the Ministry of Health was reported to be planning an oncology unit at the hospital, with a comprehensive cancer centre as the eventual goal. WHO's Regional Office for Africa reported on 9 November 2026 that the country's first cancer registry, the Juba Population-Based Cancer Registry, had been inaugurated at the hospital. The coordinates are the OpenStreetMap point for the hospital.",
     programs: ["Cervical cancer screening centre (from August 2020)", "Oncology unit (planned)"],
     institutions: ["south-sudan-ministry-of-health"], cancers: ["cervical"],
     links: [
+      { label: "WHO Africa: South Sudan launches its first cancer registry (9 November 2026)", url: "https://www.afro.who.int/countries/south-sudan/news/landmark-step-public-health-south-sudan-launches-first-ever-cancer-registry" },
       { label: "China Daily: South Sudan inaugurates China-aided cancer screening facility (August 2020)", url: CD_SS },
       { label: "The Radio Community: South Sudan launches Cancer Network (February 2026)", url: TRC_SS },
     ] }),
@@ -289,7 +290,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
   i({ id: "cmck-bujumbura", name: "Centre Médico-Chirurgical de Kinindo (CMCK)", aka: ["CMCK", "Kinindo Medical and Surgical Centre"],
     city: "Bujumbura", country: "BI", lat: -3.417, lng: 29.357, institutionType: "hospital",
     tldr: "A private hospital in Bujumbura whose cancer unit, opened in 2020, gives chemotherapy to adults and children. It has no radiotherapy, so patients who can afford it go to Rwanda or Kenya.",
-    summary: "The Centre Médico-Chirurgical de Kinindo is a private hospital in the south of Bujumbura. Its cancer unit began work in June 2020 under the oncologist Dr Alexis Manirakiza; when the health minister and the WHO representative visited in April 2021 it had received 379 patients with 26 types of cancer, 137 still in treatment. WHO Africa reported in February 2023 that its oncology service had received 1,427 patients, 467 of them diagnosed with cancer (75 children); breast cancer was the commonest in adults (159 cases), and 62 per cent of those women arrived at stage 4. It offers chemotherapy with curative or palliative intent but no radiotherapy, and patients who can pay are referred to Rwanda or Kenya; a doctor there described it to WHO as the country's reference centre for cancer care while the government's planned cancer treatment centre is awaited. WHO's country office gave it a laminar flow hood in 2022. The coordinates are the OpenStreetMap point for the hospital.",
+    summary: "The Centre Médico-Chirurgical de Kinindo is a private hospital in the south of Bujumbura. Its cancer unit began work in June 2020 under the oncologist Dr Alexis Manirakiza; when the health minister and the WHO representative visited in April 2021 it had received 379 patients with 26 types of cancer, 137 still in treatment. A doctor of its oncology service told WHO Africa in February 2023 that it had received 1,427 patients, 467 of them diagnosed with cancer (75 children); breast cancer was the commonest in adults (159 cases), and 62 per cent of those patients arrived at stage 4. It offers chemotherapy with curative or palliative intent but no radiotherapy, and patients who can pay are referred to Rwanda or Kenya; WHO Africa's page calls it the country's only reference centre for cancer care, while the cancer treatment centre the government plans is awaited. WHO's country office gave it a laminar flow hood in 2022. The coordinates are the OpenStreetMap point for the hospital.",
     programs: ["Cancer unit (from June 2020): chemotherapy for adults and children"],
     institutions: ["abspa-burundi", "kenyera-burundi", "who", "chu-kamenge"], cancers: ["breast-cancer"],
     links: [
@@ -300,7 +301,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
   i({ id: "abspa-burundi", name: "Association Burundaise de Soins Palliatifs (ABSPA)", aka: ["ABSPA", "Burundi Palliative Care Association"],
     city: "Bujumbura", country: "BI", lat: -3.364, lng: 29.368, institutionType: "consortium",
     tldr: "Burundi's national palliative care association, registered in 2023. It works to bring pain relief and end-of-life care, including for people with cancer, into the country's health system.",
-    summary: "The Association Burundaise de Soins Palliatifs is a full member of UICC. Its UICC profile says it was registered under Ministerial Ordinance 530/750 of 29 June 2023 as a national organisation promoting, developing and integrating palliative care in Burundi's health system, in the face of rising non-communicable diseases including cancer, working with public institutions, health facilities, universities and communities. The coordinates are an approximate city point for Bujumbura.",
+    summary: "The Association Burundaise de Soins Palliatifs is a full member of UICC. Its UICC profile says it was registered under Ministerial Ordinance 530/750 of 29 June 2023 as a national organisation promoting, developing and integrating palliative care in Burundi's health system, in the face of rising non-communicable diseases including cancer, working with public institutions, health facilities, universities and communities. UICC's page did not answer a second check on 16 November 2026 (HTTP 406), so this profile is not re-verified. The coordinates are an approximate city point for Bujumbura.",
     programs: ["Palliative care advocacy and integration into the health system"],
     institutions: ["cmck-bujumbura", "uicc"],
     links: [UICC("association-burundaise-de-soins-palliatifs-abspa", "Association Burundaise de Soins Palliatifs (ABSPA)")] }),
@@ -308,7 +309,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
   i({ id: "kenyera-burundi", name: "Kenyera", aka: ["Kenyera Non-Governmental Organization"],
     city: "Bujumbura", country: "BI", lat: -3.364, lng: 29.368, institutionType: "consortium",
     tldr: "A Burundian charity that screens women for cervical and breast cancer, treats early changes in the cervix before they become cancer, and gives palliative care.",
-    summary: "Kenyera is an associate member of UICC based in Bujumbura. Its UICC profile says it works on cancer control through awareness, capacity building, screening and treatment of precancerous cervical lesions, provides palliative care to patients with cervical and breast cancer, and has taken part in cervical and breast cancer screening and treatment activities with local administrations and the Ministry of Health. The coordinates are an approximate city point for Bujumbura.",
+    summary: "Kenyera is an associate member of UICC based in Bujumbura. Its UICC profile says it works on cancer control through awareness, capacity building, screening and treatment of precancerous cervical lesions, provides palliative care to patients with cervical and breast cancer, and has taken part in cervical and breast cancer screening and treatment activities with local administrations and the Ministry of Health. UICC's page did not answer a second check on 16 November 2026 (HTTP 406), so this profile is not re-verified. The coordinates are an approximate city point for Bujumbura.",
     programs: ["Cervical and breast cancer screening", "Treatment of precancerous cervical lesions", "Palliative care"],
     institutions: ["cmck-bujumbura", "uicc"], cancers: ["cervical", "breast-cancer"],
     links: [UICC("kenyera-non-governmental-organization", "Kenyera Non-Governmental Organization")] }),
@@ -416,9 +417,9 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
   // ---------------------------------------------------------------- Eritrea
   i({ id: "eritrea-ministry-of-health", name: "Ministry of Health, Eritrea", aka: ["MoH Eritrea"],
     city: "Asmara", country: "ER", lat: 15.339, lng: 38.933, institutionType: "government",
-    tldr: "Eritrea's health ministry. It began a nationwide vaccination programme against cervical cancer for girls aged 9 to 14 in November 2022 and runs cervical cancer awareness campaigns in schools.",
+    tldr: "Eritrea's health ministry. It began a nationwide vaccination programme against cervical cancer for girls aged 9 to 14 in November 2022 and has held a cervical cancer awareness lecture for school students.",
     summary: "Eritrea's Ministry of Information reported that the Ministry of Health began a nationwide cervical cancer vaccination programme on 21 November 2022, at 1,382 schools, more than 300 health facilities, 250 temporary centres and 60 mobile facilities, expecting to vaccinate 300,000 girls aged 9 to 14. In February 2024 the Ministry, with the Ministry of Education, held a cervical cancer lecture for secondary school students at Orotta Referral Hospital. The Ministry's website (moh.gov.er) did not answer in November 2026. The coordinates are an approximate city point for Asmara.",
-    programs: ["National HPV vaccination programme (from November 2022)", "Cervical cancer awareness in schools"],
+    programs: ["National HPV vaccination programme (from November 2022)", "Cervical cancer awareness lecture for school students (February 2024)"],
     institutions: ["orotta-referral-hospital", "eritrea-national-health-laboratory", "eritrea-nmfa"], cancers: ["cervical"],
     links: [
       { label: "Shabait: cervical cancer vaccination program underway nationwide (November 2022)", url: SHABAIT_HPV },

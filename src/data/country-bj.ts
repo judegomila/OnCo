@@ -20,9 +20,9 @@ const AFCRN_PARAKOU = "https://afcrn.org/index.php/membership/membership-list/17
 const WHO_HPV_API = "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20%27BEN%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
 const WHO_HPV_INTRO = "https://xmart-api-public.who.int/WIISE/MT_AD_INTRO_LONG?$filter=ISO_3_CODE%20eq%20%27BEN%27%20and%20contains%28ANTIGEN%2C%27HPV%27%29";
 const MOH_HPV = "https://sante.gouv.bj/article/actualites/prevention-du-cancer-du-col-de-luterus-le-benin-lance-la-campagne-nationale-contre-le-hpv-827";
-const WB_OOP = "https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=BJ";
-const WB_CHE = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=BJ";
-const WB_EXT = "https://data.worldbank.org/indicator/SH.XPD.EHEX.CH.ZS?locations=BJ";
+const WB_OOP = "https://api.worldbank.org/v2/country/BEN/indicator/SH.XPD.OOPC.CH.ZS?format=json";
+const WB_CHE = "https://api.worldbank.org/v2/country/BEN/indicator/SH.XPD.CHEX.PC.CD?format=json";
+const WB_EXT = "https://api.worldbank.org/v2/country/BEN/indicator/SH.XPD.EHEX.CH.ZS?format=json";
 const WB_GOV = "https://data.worldbank.org/indicator/SH.XPD.GHED.CH.ZS?locations=BJ";
 const ARCH_BASKET = "https://anps.bj/panier-des-soins-de-base";
 const ANPS = "https://anps.bj/qui-sommes-nous";
@@ -176,9 +176,9 @@ export const BJ_DIVE: CountryDive = {
           detail:
             "The World Bank's series, from WHO's Global Health Expenditure Database, gives current health spending of USD 38.45 per person in 2021, 37.76 in 2022 and 46.53 in 2023, and out-of-pocket spending of 55.4%, 49.1% and 42.4% of current health spending in those years. Over the same years external health expenditure rose from 27.5% to 38.4% of the total, and domestic government spending was 14.7% in 2023. The national cancer plan describes the money allocated to non-communicable diseases as stagnant and insufficient for cancer control, and lists the cost of cancer care and the limited access to cancer medicines, above all targeted therapies and immunotherapy, among the problems it addresses.",
           links: [
-            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Benin", url: WB_OOP },
-            { label: "World Bank: current health expenditure per capita, Benin", url: WB_CHE },
-            { label: "World Bank: external health expenditure, % of current health expenditure, Benin", url: WB_EXT },
+            { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Benin (API)", url: WB_OOP },
+            { label: "World Bank: current health expenditure per capita, Benin (API)", url: WB_CHE },
+            { label: "World Bank: external health expenditure, % of current health expenditure, Benin (API)", url: WB_EXT },
             { label: "World Bank: domestic government health expenditure, % of current health expenditure, Benin", url: WB_GOV },
             { label: "Plan national de lutte contre les cancers au Bénin 2024 to 2028 (PDF via ICCP)", url: PLAN },
           ],
@@ -210,9 +210,10 @@ export const BJ_DIVE: CountryDive = {
           plain:
             "The Agence béninoise du Médicament et des autres produits de Santé (ABMed) regulates medicines in Benin. Its own page says it has charge of approving health products, of clinical trials and of licensing pharmaceutical businesses, under Decree 2023-422 of 26 July 2023.",
           detail:
-            "ABMed describes itself as a public establishment with legal personality and financial autonomy under the supervision of the Ministry of Health, successor to the former directorate of pharmacy, with directorates for inspection and regulation, licences, vigilance and market surveillance, approvals and clinical trials, and quality. Its site offers a list of approved products, a list of withdrawn authorisations and forms for reporting side effects and stock shortages; its clinical trials page returned a server error when OnCo tried to read it. WHO's August 2026 list of regulators at maturity level 3 or 4 does not include Benin. The African Union's list dated 19 September 2023 shows that Benin signed the African Medicines Agency treaty on 3 December 2019 and ratified it on 28 July 2021.",
+            "ABMed describes itself as a public establishment with legal personality and financial autonomy under the supervision of the Ministry of Health, successor to the former directorate of pharmacy, with directorates for inspection and regulation, licences, vigilance and market surveillance, approvals and clinical trials, and quality. Its site offers a list of approved products, a list of withdrawn authorisations and forms for reporting side effects and stock shortages. Its clinical trials section, read on 16 November 2026, lists a webinar and a presentation on its guidelines for conducting clinical trials in Benin, the form and checklist for applying for a trial authorisation and a form for reporting serious adverse events; its directory of clinical trials of medicines showed no entries that day. WHO's August 2026 list of regulators at maturity level 3 or 4 does not include Benin. The African Union's list dated 19 September 2023 shows that Benin signed the African Medicines Agency treaty on 3 December 2019 and ratified it on 28 July 2021.",
           links: [
             { label: "ABMed: presentation", url: ABMED_PRES },
+            { label: "ABMed: clinical trials section (read 16 November 2026)", url: "https://abmed.bj/supervision-essais-clinique" },
             { label: "WHO: regulators operating at maturity level 3 and 4 (August 2026, PDF)", url: WHO_ML3 },
             { label: "African Union: signatures and ratifications of the African Medicines Agency treaty (19 September 2023, PDF)", url: AMA },
           ],
@@ -291,7 +292,7 @@ export const BJ_DIVE: CountryDive = {
           id: "access",
           title: "What women with breast cancer and their carers describe",
           plain:
-            "A 2025 study interviewed women with breast cancer, the people treating them and patient associations in Benin. They described late diagnosis, services concentrated in Cotonou, long journeys, and costs that lead some women to stop treatment.",
+            "A 2025 study interviewed women with breast cancer, the people treating them and representatives of associations in Benin. They described late diagnosis, services concentrated in Cotonou, long journeys, and costs that lead some women to stop treatment.",
           detail:
             "Schantz and colleagues report 56 semi-structured interviews and 18 days of observation in a chemotherapy department and a palliative care department in Cotonou. Besides the barriers, they point to changes under way: an inter-university diploma in gynaecological and breast oncology since 2013, the expansion of palliative care, and the hospital at Calavi, then planned to open in 2025. The national cancer plan adds that close to a hundred health workers have been trained in palliative care and in making morphine syrup. WHO's 2021 profile recorded palliative care as not generally available in primary care or in the community, and reported opioid consumption below 1 mg of oral morphine equivalent per person in 2017.",
           links: [
@@ -329,12 +330,13 @@ export const BJ_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources not found, not readable or out of date for this page",
       plain:
-        "OnCo did not find what radiotherapy or chemotherapy costs a patient in Benin, an independent account of the new radiotherapy service, recent published counts from either registry, or the regulator's rules for clinical trials.",
+        "OnCo did not find what radiotherapy or chemotherapy costs a patient in Benin, an independent account of the new radiotherapy service, recent published counts from either registry, or the text of the regulator's rules for clinical trials.",
       detail:
-        "What happened, source by source, on 16 November 2026. IAEA's DIRAC lists no centre in Benin although the government reports radiotherapy since April 2026, so the machines are not described here. ABMed's clinical trials page returned a server error. The social protection agency's site is marked as under construction and shows the health insurance component as \"available soon\", so OnCo cannot say how many people the basket covers. The Cotonou registry's network page is undated, and the latest registry counts OnCo read are those to 2019 in the national plan. In WHO's 2020 profile the rows for pathology services and for the number of treatment services are not clear enough in the extracted text to use, and the counts of radiation oncologists, medical physicists and radiologists are \"n/a\". A future pass should read the registries' own reports, the hospital at Calavi's price list and ABMed's texts; until then the Ministry of Health and the treating hospital are where to ask.",
+        "What happened, source by source, on 16 November 2026. IAEA's DIRAC lists no centre in Benin although the government reports radiotherapy since April 2026, so the machines are not described here. ABMed's clinical trials section, which returned a server error earlier that day, now answers: it lists a webinar and a presentation on the agency's guidelines for clinical trials and the application forms, but its directory of clinical trials of medicines showed no entries, and OnCo has not read the guidelines themselves. The social protection agency's site is marked as under construction and shows the health insurance component as \"available soon\", so OnCo cannot say how many people the basket covers. The Cotonou registry's network page is undated, and the latest registry counts OnCo read are those to 2019 in the national plan. In WHO's 2020 profile the rows for pathology services and for the number of treatment services are not clear enough in the extracted text to use, and the counts of radiation oncologists, medical physicists and radiologists are \"n/a\". A future pass should read the registries' own reports, the hospital at Calavi's price list and ABMed's texts; until then the Ministry of Health and the treating hospital are where to ask.",
       links: [
         { label: "IAEA DIRAC: radiotherapy centres by country (read 16 November 2026)", url: DIRAC },
         { label: "ABMed: presentation", url: ABMED_PRES },
+        { label: "ABMed: clinical trials section (read 16 November 2026)", url: "https://abmed.bj/supervision-essais-clinique" },
         { label: "Agence Nationale de Protection Sociale: basic care basket of the AMO-ARCH (Decree 2025-672)", url: ARCH_BASKET },
       ],
     },

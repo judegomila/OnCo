@@ -43,7 +43,7 @@ const papers: PaperInput[] = [
       "Delay was significantly associated with lack of finance (P = 0.011) and with disease beyond stage 2 (P < 0.001).",
       "In the multivariate analysis, delay was associated with proximity to the centre (P = 0.025) and with stage beyond 2.",
     ],
-    whatItMeans: "The authors conclude that routine screening, a properly equipped cancer centre and subsidised care are what would shorten delays in the Congo. The national cancer plan of 2023 records that screening for early changes in the cervix is not free and that cancer care is outside the insurance scheme's packages.",
+    whatItMeans: "The authors conclude that routine screening, a properly equipped cancer centre and subsidised care are what would shorten delays in the Congo. The national cancer plan of 2023 records that screening for precancerous changes at the screening units is not free and that cancer care is outside the insurance scheme's packages.",
     caveats: ["One hospital service in one year.", "The abstract does not define the delay it measures."],
     cancers: ["breast-cancer"],
     institutions: ["chu-brazzaville"],

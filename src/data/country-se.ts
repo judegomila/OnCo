@@ -44,6 +44,7 @@ const NT_DEALS = { label: "Samverkan läkemedel: four new medicines in the high-
 const EMA_LEAFLET = { label: "EMA: applying for EU marketing authorisation (leaflet, PDF)", url: "https://www.ema.europa.eu/en/documents/leaflet/applying-european-union-marketing-authorisation-medicinal-products-human-use_en.pdf" };
 const STRATEGY = { label: "Regeringen: Ny nationell cancerstrategi ska rädda liv och höja livskvaliteten (17 January 2026)", url: "https://www.regeringen.se/pressmeddelanden/2026/01/ny-nationell-cancerstrategi-ska-radda-liv-och-hoja-livskvaliteten/" };
 const STRATEGY_DOC = { label: "Regeringen: Ökad överlevnad och bättre livskvalitet, nationell cancerstrategi 2.0", url: "https://www.regeringen.se/informationsmaterial/2026/01/okad-overlevnad-och-battre-livskvalitet--nationell-cancerstrategi-2.0" };
+const CF_AR_2024 = { label: "Cancerfonden: annual report 2024 (PDF)", url: "https://static-files.cancerfonden.se/Arsrapporter-2024.pdf" };
 const BUDGET_2026 = { label: "Regeringen: Regeringen utökar satsningen på cancerområdet (October 2025)", url: "https://www.regeringen.se/artiklar/2025/10/regeringen-utokar-satsningen-pa-canceromradet/" };
 const SCR = "https://www.socialstyrelsen.se/kunskapsstod-och-regler/regler-och-riktlinjer/nationella-screeningprogram/slutliga-rekommendationer";
 const RCC_SCR = "https://cancercentrum.se/preventiontidigupptackt/screeningochtestning";
@@ -58,9 +59,9 @@ export const SE_DIVE: CountryDive = {
   description:
     "Cancer in Sweden read from Swedish sources: the national cancer register's 2024 counts, the care pathways that set a maximum wait from suspicion to treatment and how often it is met, the regions that pay and the caps on what a patient pays, how TLV and the regions' NT council decide on new cancer medicines, the screening and organised testing programmes, and the twin, registry and screening research Sweden is known for.",
   lede:
-    "Sweden counts cancer through a register every clinic and laboratory must report to by law, sets a maximum waiting time for each suspected cancer and publishes how often it is met, and lets 21 tax-funded regions decide together which hospital cancer drugs are worth their price.",
+    "Sweden counts cancer through a register every clinic and laboratory must report to by law, sets a time limit from well-founded suspicion of cancer to the start of treatment in each of 27 care pathways and publishes how often it is met, and lets 21 tax-funded regions decide together which hospital cancer drugs are worth their price.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 estimate for Sweden is 68,934 new cancers and 24,410 deaths for 2024, at age-standardised rates of 288.58 and 76.12 per 100,000 on the World standard population. Socialstyrelsen's register counted 73,861 people with a new cancer in 2024 (80,764 tumours) and the cause of death register 23,514 cancer deaths. Both include non-melanoma skin cancer: GLOBOCAN's all-cancers figure covers C00-97, and the register counts non-melanoma skin cancer other than basal cell carcinoma, which has its own register. They still do not measure the same thing: the register's rates are standardised to Sweden's own 2024 population; it records some benign tumours as malignant because of where they sit; and Socialstyrelsen estimates that cancers recorded on death certificates but never notified to the register would have added 4.8 per cent to its count in 2014 to 2022. Compare like with like.",
+    "IARC's GLOBOCAN 2024 estimate for Sweden is 68,934 new cancers and 24,410 deaths for 2024, at age-standardised rates of 288.58 and 76.12 per 100,000 on the World standard population. Socialstyrelsen's register counted 73,861 people with a new cancer in 2024 (80,764 tumours) and the cause of death register 23,514 cancer deaths. Both include non-melanoma skin cancer: IARC's fact sheet says so of its all-cancers figure, and the register counts non-melanoma skin cancer other than basal cell carcinoma, which has its own register. They still do not measure the same thing: the register's rates are standardised to Sweden's own 2024 population; it records some benign tumours as malignant because of where they sit; and Socialstyrelsen estimates that cancers recorded on death certificates but never notified to the register would have added 4.8 per cent to its count in 2014 to 2022. Compare like with like.",
   sections: [
     {
       id: "profile",
@@ -81,14 +82,14 @@ export const SE_DIVE: CountryDive = {
           id: "lung-women",
           title: "Lung cancer is now commoner in Swedish women than in men",
           plain:
-            "For most of the register's history lung cancer was a men's disease in Sweden. It no longer is: in 2024, 2,511 women and 1,829 men were diagnosed. Rates in women have risen by about 1.5 per cent a year for twenty years while rates in men have fallen. Skin cancers have risen fastest of all.",
+            "Historically lung cancer was commoner in men in Sweden. It no longer is: in 2024, 2,511 women and 1,829 men were diagnosed. Rates in women have risen by about 1.5 per cent a year for twenty years while rates in men have fallen. Skin cancers have risen fastest of all.",
           detail:
             "Socialstyrelsen measures change as the average annual percentage change in age-standardised incidence between 2005 and 2024. Lung cancer rose 1.5 per cent a year in women and fell 1.8 per cent a year in men, reaching 46 per 100,000 in women and 37 in men. Non-melanoma skin cancer rose 6 per cent a year in women and 4.5 per cent in men; melanoma 4.2 and 3.9 per cent. Pancreatic cancer rose 2.3 per cent a year in women and 1.7 per cent in men, colon cancer 0.6 to 0.7 per cent in both, and prostate cancer fell 1 per cent a year. Pancreatic cancer caused 1,007 deaths in women and 1,046 in men in 2024, more than colon cancer in either sex, on about 850 diagnoses in each.",
           links: [SS_2024, SS_TABLES],
         },
         {
           id: "inequality",
-          title: "Where you live changes which cancer you get and whether it kills you",
+          title: "Which cancers people get, and die of, differs with the kind of area they live in",
           plain:
             "People in Sweden's better-off areas are diagnosed with cancer more often, mostly because they are found to have more prostate, breast and skin cancer. People in the poorest areas die of cancer more often, and die of lung cancer about twice as often.",
           detail:
@@ -97,7 +98,7 @@ export const SE_DIVE: CountryDive = {
         },
         {
           id: "survival",
-          title: "About three in four alive five years after diagnosis, and about 600,000 people who have had cancer",
+          title: "Relative five-year survival of about 77 per cent, and about 600,000 people who have had cancer",
           plain:
             "Relative five-year survival in Sweden, counting all cancers, was 77.8 per cent for men and 76.6 per cent for women in figures Cancerfonden published with Socialstyrelsen in 2023. At the end of 2021 about 600,000 people living in Sweden had been diagnosed with cancer at some point since 1958.",
           detail:
@@ -110,7 +111,7 @@ export const SE_DIVE: CountryDive = {
           plain:
             "Socialstyrelsen describes the register's quality as very high in most respects, but it has a known gap. Unlike the other Nordic registers it does not follow up cancers that appear on a death certificate without a registration, so some cancers in very old people, found by a scan and never biopsied, are not counted.",
           detail:
-            "Socialstyrelsen estimated the gap by linking the cause of death and patient registers for 2005 to 2022. Of 509,832 cancer-related causes of death, 76 per cent matched a diagnosis in the cancer register and 17 per cent one in the patient register only. The confirmed cases missing from the register averaged 3,958 a year, which would add 6.4 per cent to the count; the shortfall fell from 8.0 per cent in 2005 to 2013 to 4.8 per cent in 2014 to 2022, and was 12.3 per cent among people diagnosed at 80 or older against 2.7 per cent below 80. Its quality page singles out pancreatic and lung cancer, where about 500 cases a year reported on death certificates have never been notified. Socialstyrelsen states that systematic follow-up would probably need a change in the law.",
+            "Socialstyrelsen estimated the gap by linking the cause of death and patient registers for 2005 to 2022. Of 509,832 cancer-related causes of death, 76 per cent matched a diagnosis in the cancer register and 17 per cent one in the patient register only. The confirmed cases missing from the register averaged 3,958 a year, which would add 6.4 per cent to the count; the shortfall fell from 8.0 per cent in 2005 to 2013 to 4.8 per cent in 2014 to 2022, and in 2014 to 2022 was 12.3 per cent among people diagnosed at 80 or older against 2.7 per cent below 80. Its quality page singles out pancreatic and lung cancer, where about 500 cases a year reported on death certificates have never been notified. Socialstyrelsen states that systematic follow-up would probably need a change in the law.",
           links: [SS_BORT, SS_QUAL],
         },
       ],
@@ -159,7 +160,7 @@ export const SE_DIVE: CountryDive = {
           id: "regions",
           title: "Care is run and paid for by the regions",
           plain:
-            "Swedish health care is run by 21 regions, which raise most of the money through their own income tax, with grants from the state and a small share from patient fees. Health care is almost nine-tenths of what the regions spend. Six health-care regions share the most specialised care, and each has at least one regional hospital.",
+            "Swedish health care is run by 21 regions, which raise most of the money through their own taxes, with grants from the state and a small share from patient fees. Health care is almost nine-tenths of what the regions spend. Six health-care regions share the most specialised care, and each has at least one regional hospital.",
           detail:
             "SKR, the association of municipalities and regions, describes health care as financed mainly by the regions and municipalities themselves through their own power to tax, together with state grants and, to some extent, patient fees. Health care made up 88 per cent of the regions' costs in 2025, of a total of about 492.6 billion kronor. Regions decide how much care to provide and how it is organised, including what they pay private providers working with public money. The six health-care regions agree price lists and where particular specialities sit, and each has at least one regional hospital. A cancer patient's treatment is therefore decided and paid for by a region, which is why waiting times, screening and access to new hospital drugs are measured and published region by region.",
           links: [SKR_GOV, SKR_ECON],
@@ -170,8 +171,8 @@ export const SE_DIVE: CountryDive = {
           plain:
             "A patient pays a fee for each outpatient visit until they have paid 1,450 kronor in twelve months, after which visits are free for the rest of that period, in every region. Prescription medicines have a separate cap of 3,800 kronor in twelve months. A stay in hospital costs at most 130 kronor a day by law. Most regions charge nothing for outpatient care until age 20.",
           detail:
-            "The outpatient cap (högkostnadsskydd) counts from the first visit; once 1,450 kronor has been paid the patient receives a frikort, valid in all regions, and a region may set a lower amount. It does not usually cover certificates, health checks, copies of records or the daily charge for inpatient care. The pharmaceutical benefit has its own twelve-month period: the patient pays full price up to 2,000 kronor, then the share falls in steps, with 25, 75 and 90 per cent discounts, until 3,800 kronor has been paid, after which subsidised prescription medicines are free for the rest of the period. These caps cover prescription medicines collected at a pharmacy; cancer medicines given by staff in hospital or clinic are bought by the region directly and are not part of the pharmacy benefit.",
-          links: [HK_CARE, HK_DRUGS, FEES],
+            "The outpatient cap (högkostnadsskydd) counts from the first visit; once 1,450 kronor has been paid the patient receives a frikort, valid in all regions, and a region may set a lower amount. It does not usually cover certificates, health checks, copies of records or the daily charge for inpatient care. The pharmaceutical benefit has its own twelve-month period: the patient pays full price up to 2,000 kronor, then the share falls in steps, with 25, 75 and 90 per cent discounts, until 3,800 kronor has been paid, after which subsidised prescription medicines are free for the rest of the period. 1177 describes the 3,800 kronor cap for medicines on prescription. Medicines given by health-care staff, which the regions call clinic medicines, are handled through the regions' joint introduction process, described in the next section.",
+          links: [HK_CARE, HK_DRUGS, FEES, NT_PUBLIC],
         },
         {
           id: "household",
@@ -179,7 +180,7 @@ export const SE_DIVE: CountryDive = {
           plain:
             "Because care and medicines are capped, the larger cost of cancer for a working-age Swede is lost income. Cancerfonden estimates the average economic burden for a woman aged 40 to 64 with breast cancer, lost income plus added costs once sick pay and benefits are counted, at about 170,000 kronor, most of it in the first two years.",
           detail:
-            "Cancerfonden's report of 14 October 2026 modelled breast and colorectal cancer. For women aged 40 to 64 with breast cancer, reduced income was estimated at a little over 345,000 kronor, mostly from sick leave, offset by about 200,000 kronor of sick pay, sickness benefit and activity compensation, with about 21,000 kronor of added costs for care fees, medicines, dental care, aids and travel: a burden of about 170,000 kronor, about 135,000 of it in the first two years. For colorectal cancer at the same ages the total was also about 170,000 kronor. Above 65, where income is less affected, the estimated burden was about 35,000 kronor for breast cancer and 50,000 for colorectal cancer, mostly in costs. The sickness insurance ceiling in 2026 is an income of 600,000 kronor a year, so higher earners lose a larger share. About 12,000 people with cancer receive sickness benefit each year.",
+            "A report that Cancerfonden presented on 14 October 2026 modelled breast and colorectal cancer. For women aged 40 to 64 with breast cancer, reduced income was estimated at a little over 345,000 kronor, mostly from sick leave, offset by about 200,000 kronor of sick pay, sickness benefit and activity compensation, with about 21,000 kronor of added costs for care fees, medicines, dental care, aids and travel: a burden of about 170,000 kronor, about 135,000 of it in the first two years. For colorectal cancer at the same ages the total was also about 170,000 kronor. Above 65, where income is less affected, the estimated burden was about 35,000 kronor for breast cancer and 50,000 for colorectal cancer, mostly in costs. The sickness insurance ceiling in 2026 is an income of 600,000 kronor a year, so higher earners lose a larger share. About 12,000 people with cancer receive sickness benefit each year.",
           links: [CF_COST],
         },
       ],
@@ -198,7 +199,7 @@ export const SE_DIVE: CountryDive = {
             { what: "Prescription medicines in the pharmaceutical benefit", cap: 3800, period: "12 months from the first purchase" },
             { what: "Inpatient stay, daily charge (legal maximum)", cap: 130, period: "Per day" },
           ],
-          note: "The pharmacy cap applies to subsidised prescription medicines only. Medicines given in hospital or at a clinic are paid for by the region and are not counted here.",
+          note: "The pharmacy cap applies to subsidised prescription medicines only. Medicines given by health-care staff in hospital or at a clinic are not prescription medicines and are not counted here.",
           sources: [HK_CARE, HK_DRUGS, FEES],
         },
       ],
@@ -213,7 +214,7 @@ export const SE_DIVE: CountryDive = {
           id: "tlv",
           title: "TLV: prescription drugs, a 180-day clock, and a higher price accepted for more severe disease",
           plain:
-            "TLV, a state agency, decides whether a prescription medicine is subsidised and enters the patient cost cap, and at what price. The company has to apply and show the drug is worth it. TLV pays more for the same health gain the more severe the disease, but publishes no fixed price limit; its view shows up decision by decision.",
+            "TLV, a state agency, decides whether a prescription medicine is subsidised and enters the patient cost cap, and at what price. The company has to apply and show the drug is worth it. TLV accepts a higher cost for the same health gain the more severe the disease. Its page on health economics gives no fixed price limit and says each case is judged on its own.",
           detail:
             "Under the law on pharmaceutical benefits (2002:160) TLV's expert board decides on applications, and the ordinance (2002:687) requires a decision within 180 days of a complete application. TLV's assessments follow the ethical platform parliament set for health-care priorities: equal human dignity, need and solidarity, and a reasonable relation between cost and benefit. Severity is graded low, moderate, high or very high; the agency states that the higher the severity, the higher the cost per quality-adjusted life year (QALY) it is reasonable to pay, and that for particularly rare conditions of very high severity it may accept more. It takes a limited societal perspective and does not, as a starting point, count productivity gains from returning to work, because doing so would favour people who can work. One cancer example: for erdafitinib (Balversa) in previously treated FGFR3-altered urothelial cancer, TLV graded the severity very high, estimated about 950,000 kronor per QALY against vinflunine with sensitivity analyses from about 750,000 to 1.14 million, and noted most of them were below what it normally accepts at that severity.",
           links: [TLV_HE, SFS_687, TLV_BALVERSA],
@@ -222,7 +223,7 @@ export const SE_DIVE: CountryDive = {
           id: "nt-council",
           title: "The NT council: one recommendation for every region on hospital cancer drugs",
           plain:
-            "Most new cancer medicines are infusions given in hospital, which the regions buy themselves. So that access does not depend on where a patient lives, the regions' NT council decides together whether such a drug should be used, after TLV has assessed its value and the regions have negotiated the price. It says openly that it sometimes has to say no when the price is very high.",
+            "Medicines given by health-care staff, such as an injection, are called clinic medicines, and TLV notes that more and more cancer medicines are expected to be approved. So that access does not depend on where a patient lives, the regions' NT council decides together whether such a drug should be used, after TLV has assessed its value and the regions have negotiated the price. It says openly that it sometimes has to say no when the price is very high.",
           detail:
             "Rådet för nya terapier has a member from each health-care region, a chair, experts in health economics and medical ethics, co-opted oncology, paediatric, legal and communication expertise, and two patient advisers. It decides which medicines go into the national process of ordered introduction; for those, it orders a health-economic assessment from TLV, decides the willingness to pay, can send the regions' negotiators to the company, and then issues a recommendation to all regions. TLV's planned and ongoing hospital-drug assessments for the council include datopotamab deruxtecan and sacituzumab govitecan in triple-negative breast cancer, tarlatamab in small-cell lung cancer, zanidatamab in biliary cancer and teclistamab with daratumumab in myeloma. Where a company and the regions agree, three-party talks with TLV can end in a side agreement under which the company repays part of the cost; the regions report more than 140 such joint agreements and say almost all are needed for the drugs to count as cost-effective. On 1 September 2026 three cancer medicines, inavolisib and capivasertib in breast cancer and lazertinib in lung cancer, entered the cost cap, decisions the regions say were largely made possible by such agreements.",
           links: [NT, NT_PUBLIC, TLV_KLINIK, TLV_3P, NT_DEALS],
@@ -250,7 +251,7 @@ export const SE_DIVE: CountryDive = {
           plain:
             "Sweden's own medicines agency, Läkemedelsverket, works within the European system. Every new cancer medicine with a new active substance must be approved through the EU's central procedure, which covers Sweden with every other member state. What happens in Sweden afterwards, price and use, is decided by TLV and the regions.",
           detail:
-            "Under the EU centralised procedure, medicines containing a new active substance for cancer must be evaluated by the European Medicines Agency, as must all biotechnology products, advanced therapies and designated orphan medicines. After a valid application the evaluation by the Committee for Medicinal Products for Human Use takes up to 210 days, and the European Commission then has 67 days to decide; the authorisation is valid across the European Economic Area. Because the scientific approval is European, the time between approval and treatment for a Swedish patient is set mainly by the national steps that follow, TLV's subsidy decision and the regions' NT council, which the section above describes.",
+            "Under the EU centralised procedure, medicines containing a new active substance for cancer must be evaluated by the European Medicines Agency, as must all biotechnology products, advanced therapies and designated orphan medicines. After a valid application the evaluation by the Committee for Medicinal Products for Human Use takes up to 210 days, and the European Commission then has 67 days to decide; the authorisation is valid across the European Economic Area. The scientific approval is European. The steps that follow for a Swedish patient, TLV's subsidy decision and the regions' NT council, are national, and the section above describes them.",
           links: [EMA_LEAFLET, { label: "Läkemedelsverket", url: "https://www.lakemedelsverket.se/" }],
         },
       ],
@@ -258,16 +259,16 @@ export const SE_DIVE: CountryDive = {
     {
       id: "pathways",
       nav: "Waiting times",
-      title: "A maximum wait for every suspected cancer, published every year",
+      title: "A time limit for each suspected-cancer pathway, with results published every year",
       aside: SVF,
       cards: [
         {
           id: "svf",
           title: "Standardised care pathways: from well-founded suspicion to treatment within a set number of days",
           plain:
-            "Since 2015 Sweden has had a standardised care pathway for each common suspected cancer. It lists which tests to do and sets a maximum number of days from the moment a doctor has a well-founded suspicion of cancer to the start of treatment. For breast cancer that is 35 calendar days. The goal is that 80 per cent of patients start treatment within the time.",
+            "Since 2015 Sweden has introduced standardised care pathways for suspected cancer; the 2025 report counts 27. Each lists which tests to do and sets a maximum number of days from the moment a doctor has a well-founded suspicion of cancer to the start of treatment. For breast cancer that is 35 calendar days. The goal is that 80 per cent of patients start treatment within the time.",
           detail:
-            "The pathways (standardiserade vårdförlopp, SVF) were started in 2015 by the government and the regions to cut waiting and uncertainty and to make care more equal. Each begins with a defined well-founded suspicion, for breast cancer a list of findings such as a suspicious lump in the breast or a new nipple retraction, after which the patient is referred straight into the pathway. The breast cancer pathway's national lead time, from the decision of well-founded suspicion to the start of first treatment by surgery, drugs or radiotherapy, was extended from 28 to 35 calendar days. Two national goals apply: that 70 per cent of all new cancers in a diagnosis with a pathway are investigated through it, and that 80 per cent of patients start treatment within the lead time. Regions report start and stop dates to SKR's waiting-time database and, from 1 July 2025, also to Socialstyrelsen; part of the state money the regions receive for the pathways depends on reporting and on meeting the inclusion goal.",
+            "The pathways (standardiserade vårdförlopp, SVF) were started in 2015 by the government and the regions to cut waiting and uncertainty and to make care more equal. Each begins with a defined well-founded suspicion, for breast cancer a list of findings such as a suspicious lump in the breast or a new nipple retraction, after which the patient is referred straight into the pathway. The breast cancer pathway's national lead time, from the decision of well-founded suspicion to the start of first treatment by surgery, drugs or radiotherapy, was extended from 28 to 35 calendar days. Two national goals apply: that 70 per cent of all new cancers in a diagnosis with a pathway are investigated through it, and that 80 per cent of patients start treatment within the lead time. Regions report start and stop dates to SKR's waiting-time database and, from 1 July 2025, also to Socialstyrelsen; each region's yearly report on its pathway work is a condition for receiving the second half of that year's money for it.",
           links: [SVF, SVF_BREAST, SVF_2025],
         },
         {
@@ -281,11 +282,11 @@ export const SE_DIVE: CountryDive = {
         },
         {
           id: "strategy",
-          title: "A new national cancer strategy in January 2026, with 1.5 billion kronor for 2026",
+          title: "A new national cancer strategy in January 2026, with 1.5 billion kronor proposed for 2026",
           plain:
             "Sweden's first national cancer strategy dates from 2009. In January 2026 the government published an updated one for the next 10 to 15 years, with three goals: lower risk and earlier detection, higher survival, and the best possible quality of life during and after illness. It now covers children and young adults.",
           detail:
-            "The government launched the strategy on 17 January 2026. Its measures cover prevention, screening, rehabilitation and palliative care, with weight on research, innovation and cooperation across sectors. Agencies received assignments to begin implementation at once: the Swedish Agency for Health and Care Services Analysis to build a structure for following up the strategy's goals and sub-goals; Socialstyrelsen to strengthen screening recommendations and the use of cancer register data and to lead a cooperation group for Swedish cancer care; and the Public Health Agency to draw up an action plan for prevention. The 2026 budget bill added 500 million kronor, bringing the total for the cancer area in 2026 to 1.5 billion kronor, to implement the strategy. The announcement states that cancer causes a quarter of all deaths in Sweden and is the leading cause of years of life lost.",
+            "The government launched the strategy on 17 January 2026. Its measures cover prevention, screening, rehabilitation and palliative care, with weight on research, innovation and cooperation across sectors. Agencies received assignments to begin implementation at once: the Swedish Agency for Health and Care Services Analysis to build a structure for following up the strategy's goals and sub-goals; Socialstyrelsen to strengthen screening recommendations and the use of cancer register data and to lead a cooperation group for Swedish cancer care; and the Public Health Agency to draw up an action plan for prevention. In the budget bill for 2026 the government proposed a further 500 million kronor, making 1.5 billion kronor set aside for the cancer area in 2026, to implement the strategy. The announcement states that cancer causes a quarter of all deaths in Sweden and is the leading cause of years of life lost.",
           links: [STRATEGY, STRATEGY_DOC, BUDGET_2026],
         },
       ],
@@ -337,7 +338,7 @@ export const SE_DIVE: CountryDive = {
           plain:
             "Socialstyrelsen advises against prostate screening with a PSA test alone, because too many men would be diagnosed with cancers that would never have harmed them. Instead most regions now run organised prostate cancer testing: men are given clear information and decide for themselves, and the testing is structured so that it is fairer and can be evaluated.",
           detail:
-            "Socialstyrelsen's recommendation is that health care should not offer prostate screening with PSA alone, because the benefit does not clearly outweigh the harms; it judged that the evidence for adding a second test before biopsy, such as an MRI scan or a risk score, needs to be completed before it can recommend that, and is reviewing how and when to reassess. Organised prostate cancer testing (organiserad prostatacancertestning, OPT) is the regions' answer, supported by the regional cancer centres: two regions started in 2020 and most have begun in some form. Socialstyrelsen's own description, quoted by RCC, is that organised PSA testing means men receive clear information on the test's advantages and disadvantages and then decide individually, and is not to be confused with a screening programme. Swedish studies of ways to cut overdiagnosis in prostate testing include STHLM3 and STHLM3-MRI from Karolinska Institutet and GÖTEBORG-2 from Gothenburg.",
+            "Socialstyrelsen's recommendation is that health care should not offer prostate screening with PSA alone, because the benefit does not clearly outweigh the harms; it judged that the evidence for adding a second test before biopsy needs to be completed before it can recommend that, and is reviewing how and when to reassess. Organised prostate cancer testing (organiserad prostatacancertestning, OPT) is the regions' answer, supported by the regional cancer centres: two regions started in 2020 and most have begun in some form. Socialstyrelsen's own description, quoted by RCC, is that organised PSA testing means men receive clear information on the test's advantages and disadvantages and then decide individually, and is not to be confused with a screening programme. Swedish studies of ways to cut overdiagnosis in prostate testing include STHLM3 and STHLM3-MRI from Karolinska Institutet and GÖTEBORG-2 from Gothenburg.",
           links: [
             { label: "Socialstyrelsen: prostate screening recommendation", url: `${SCR}/prostatacancer/` },
             { label: "RCC: organiserad prostatacancertestning", url: `${RCC_SCR}/prostatacancertestning.678.html` },
@@ -365,7 +366,7 @@ export const SE_DIVE: CountryDive = {
           plain:
             "Sweden's cancer register records each person's personal identity number, so it can be linked to other national registers: Socialstyrelsen linked it to the cause of death and patient registers to measure its own gaps, and researchers link registers like it to twin and population registers to follow whole populations for decades.",
           detail:
-            "The cancer register has run since 1958; national quality registers, hosted by the regional cancer centres on the INCA platform, now cover almost all cancer types, and Socialstyrelsen credits them with improving the register's completeness. A Nordic twin study led from Karolinska Institutet, using 44,788 twin pairs from the Swedish, Danish and Finnish twin registers, estimated in 2000 that heritable factors account for 42 per cent of the variation in prostate cancer risk, 35 per cent for colorectal and 27 per cent for breast cancer, and that the environment plays the principal role for most cancers; a four-country follow-up of 203,691 twins in 2016 put the heritability of cancer overall at 33 per cent. A register study of 1,672,983 Swedish girls and women published in 2020 found an adjusted incidence rate ratio for invasive cervical cancer of 0.12 among those vaccinated against HPV before 17, against the unvaccinated.",
+            "The cancer register has run since 1958; national quality registers, hosted by the regional cancer centres on the INCA platform, now cover almost all cancer types, and Socialstyrelsen says it must be assumed that they have improved reporting to the register. A Nordic twin study led from Karolinska Institutet, using 44,788 twin pairs from the Swedish, Danish and Finnish twin registers, estimated in 2000 that heritable factors account for 42 per cent of the variation in prostate cancer risk, 35 per cent for colorectal and 27 per cent for breast cancer, and that the environment plays the principal role for most cancers; a four-country follow-up of 203,691 twins in 2016 put the heritability of cancer overall at 33 per cent. A register study of 1,672,983 Swedish girls and women published in 2020 found an adjusted incidence rate ratio for invasive cervical cancer of 0.12 among those vaccinated against HPV before 17, against the unvaccinated.",
           links: [
             { label: "Lichtenstein et al., NEJM 2000", url: "https://doi.org/10.1056/NEJM200007133430201" },
             { label: "Mucci et al., JAMA 2016 (NorTwinCan)", url: "https://doi.org/10.1001/jama.2015.17703" },
@@ -391,7 +392,7 @@ export const SE_DIVE: CountryDive = {
           id: "joint-introduction",
           title: "Twenty-one regions deciding together on hospital drugs",
           plain:
-            "Where health care is run by regions, access to a new hospital drug can differ from one region to the next. Sweden's regions agree a single recommendation through the NT council and negotiate prices jointly, and publish the recommendations, so a patient can see what has been decided and why.",
+            "Where health care is run by regions, access to a new hospital drug can differ from one region to the next. Sweden's regions agree a single recommendation through the NT council and can negotiate prices jointly. The regions' site has a page for patients and the public that explains how the council decides.",
           detail:
             "The council's recommendations rest on the ethical platform parliament adopted for health-care priorities and on TLV's health-economic assessment; treatment councils can review individual cases against a recommendation, including whether a patient should be an exception to it. The regions' joint market function negotiates agreements with companies; more than 140 cover prescription and hospital medicines.",
           links: [NT, NT_PUBLIC, NT_DEALS],
@@ -406,11 +407,12 @@ export const SE_DIVE: CountryDive = {
       plain:
         "Several things a reader would want on this page are missing because the source could not be read or does not publish them. They are named here so the gap is visible.",
       detail:
-        "Läkemedelsverket's website is built so that its pages do not render without running scripts, so OnCo could not read its own description of its performance, timelines or the Swedish licence route for unapproved medicines, and this page says nothing about them beyond the EU procedure. Socialstyrelsen's 2024 fact sheet publishes no survival figures, so the survival quoted is Cancerfonden's 2023 compilation from 2021 data rather than a register figure for a recent cohort, and no survival by stage is given. The interactive SVF statistics, which give results by region and diagnosis, are not read here; only the national annual report is. TLV publishes no threshold for cost per QALY, so the erdafitinib figure is one decision, not a rule. The full text of the 2026 cancer strategy, including any numeric targets, was not read; only the government's announcement was. Cancerfonden's annual research spending was not found on its site, and the figure in OnCo's country table was not verified. Europe PMC was unavailable on 3 November 2026, so DOIs were resolved through Crossref and PubMed.",
+        "Läkemedelsverket's website is built so that its pages do not render without running scripts, so OnCo could not read its own description of its performance, timelines or the Swedish licence route for unapproved medicines, and this page says nothing about them beyond the EU procedure. Socialstyrelsen's 2024 fact sheet publishes no survival figures, so the survival quoted is Cancerfonden's 2023 compilation from 2021 data rather than a register figure for a recent cohort, and no survival by stage is given. The interactive SVF statistics, which give results by region and diagnosis, are not read here; only the national annual report is. TLV's health-economics page states no threshold for cost per QALY and says each case is judged on its own, so the erdafitinib figure is one decision, not a rule. The full text of the 2026 cancer strategy, including any numeric targets, was not read; only the government's announcement was. Cancerfonden's annual report for 2024, read on 17 November 2026, gives 1,002 million kronor for research funding in 2024 and 966 million in 2023; OnCo's country table gives about 1 billion kronor for 2024. Europe PMC was unavailable on 3 November 2026, so DOIs were resolved through Crossref and PubMed.",
       links: [
         { label: "RCC: interactive SVF statistics", url: "https://cancercentrum.se/utvecklingsarbeteutbildning/statistikrapporter/statistik/svfstatistik.743.html" },
         STRATEGY_DOC,
         { label: "Läkemedelsverket", url: "https://www.lakemedelsverket.se/" },
+        CF_AR_2024,
       ],
     },
     {
@@ -418,7 +420,7 @@ export const SE_DIVE: CountryDive = {
       title: "What this corpus still does not hold about Sweden",
       plain: "Named so the gap is visible rather than invisible. Adding any of these would improve the page.",
       detail:
-        "The corpus has no record for Läkemedelsverket, for SBU, or for the national quality registers individually, such as the breast cancer register NKBC or the prostate register, whose annual reports are among the most detailed public cancer outcome data in Europe. It has no record for the Swedish Twin Registry or the Multi-Generation Register as resources, nor for the Swedish Family-Cancer Database. Karolinska Institutet is held only inside the Karolinska University Hospital record. GÖTEBORG-2's founding trial, the Göteborg randomised prostate screening study, and the Swedish organised testing programmes region by region are not recorded. Swedish-language care programmes in Kunskapsbanken, which govern practice in every region, are not in the guideline comparison.",
+        "The corpus has no record for Läkemedelsverket, for SBU, or for the national quality registers individually, such as the breast cancer register NKBC or the prostate register. It has no record for the Swedish Twin Registry or the Multi-Generation Register as resources, nor for the Swedish Family-Cancer Database. Karolinska Institutet is held only inside the Karolinska University Hospital record. GÖTEBORG-2's founding trial, the Göteborg randomised prostate screening study, and the Swedish organised testing programmes region by region are not recorded. Swedish-language care programmes in Kunskapsbanken, which govern practice in every region, are not in the guideline comparison.",
       links: [
         { label: "RCC: national quality registers", url: "https://cancercentrum.se/utvecklingsarbeteutbildning/statistikrapporter/statistik/kvalitetsregister.8592.html" },
         { label: "Kunskapsbanken (national care programmes)", url: "https://kunskapsbanken.cancercentrum.se/" },

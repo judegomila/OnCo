@@ -17,7 +17,9 @@ import { regionalApprovals } from "@/data/regional-approvals";
  * directory and the coverage proposal from disk at build time, as src/lib/sitemap-urls.ts does).
  *
  * A deep dive always wins: the dynamic route (src/app/countries/[iso]/page.tsx) generates only the codes with no
- * folder of their own, so adding a deep dive removes the automatic page in the same build.
+ * folder of their own, so adding a deep dive removes the automatic page in the same build. Every GLOBOCAN country now
+ * has a deep dive, so no automatic page is generated today; the route stays for the next territory IARC reports, and
+ * its tests run on fixture territories (src/lib/country-fixture.ts).
  */
 
 const COUNTRIES_DIR = join(process.cwd(), "src", "app", "countries");
@@ -80,9 +82,30 @@ export function countryIndex(): CountryRef[] {
   return indexCache;
 }
 
-/** Alpha-2 codes of the GLOBOCAN countries that have no deep dive: the automatic pages. */
+/**
+ * Alpha-2 codes of the GLOBOCAN countries that have no deep dive: the automatic pages. Empty since 16 November 2026,
+ * when the last deep dives were written; it fills again the day IARC reports a territory that has no folder.
+ */
 export function autoCountryCodes(): string[] {
   return countryIndex().filter((c) => !c.deepDive && c.iso3).map((c) => c.iso2);
+}
+
+/**
+ * The address the automatic route generates when there is no automatic page. Next will not export a dynamic route
+ * whose `generateStaticParams` returns nothing: the build stops with 'returned an empty array from
+ * "generateStaticParams()". With "output: export", at least one route must be generated' (next 16.3.4, checked in a
+ * scratch export on 16 November 2026; node_modules/next/dist/docs/01-app/03-api-reference/04-functions/generate-static-params.md
+ * gives the placeholder-and-notFound pattern for the same error under Cache Components). So the route always has one
+ * param. This one is not two letters, so it can never be a country code or collide with a deep dive's folder; the
+ * page answers it with the site's not-found page, which carries noindex, and nothing links to it: it is in neither
+ * the sitemap nor the search index, which both read autoCountryCodes().
+ */
+export const NO_AUTOMATIC_PAGES = "no-automatic-pages";
+
+/** What the automatic route's `generateStaticParams` returns: one param per automatic page, or the placeholder alone. */
+export function autoCountryParams(): Array<{ iso: string }> {
+  const codes = autoCountryCodes();
+  return codes.length ? codes.map((c) => ({ iso: c.toLowerCase() })) : [{ iso: NO_AUTOMATIC_PAGES }];
 }
 
 // ---------------------------------------------------------------- trials

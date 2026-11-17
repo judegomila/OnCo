@@ -24,10 +24,13 @@ export default function Countries() {
   const rows: CountryRow[] = Object.entries(raw.countries).map(([code, c]) => ({ code, ...c, ...(countryExtras[code] ?? {}), name: countryExtras[code]?.name ?? c.name, institutions: instByCountry.get(code) ?? 0 }));
   const y1 = raw.years[raw.years.length - 1];
   const top = [...rows].sort((a, b) => (b.works[String(y1)] ?? 0) - (a.works[String(y1)] ?? 0)).slice(0, 3);
-  // Every country with a page: the deep dives and the automatic pages (src/app/countries/[iso]/page.tsx).
+  // Every country with a page: the deep dives and any automatic pages (src/app/countries/[iso]/page.tsx).
   const index = countryIndex();
   const directory: DirectoryRow[] = index.map((c) => ({ c: c.iso2, n: c.name, r: c.region, d: c.deepDive, ...(c.parts ? { p: c.parts.map((x) => [x.name, x.route] as [string, string]) } : {}) }));
   const directoryDives = index.filter((c) => c.deepDive).length;
+  // Automatic pages: none since 16 November 2026, when the last deep dives were written; counted, not assumed, so
+  // the sentence below is right again on the day IARC reports a territory that has no deep dive yet.
+  const directoryAuto = index.length - directoryDives;
 
   return (
     <>
@@ -36,7 +39,9 @@ export default function Countries() {
       <Container className="pb-16">
         <section aria-labelledby="every-country" className="mb-12">
           <h2 id="every-country" className="text-lg font-semibold mb-1">Every country</h2>
-          <p className="text-sm text-muted mb-4 max-w-3xl">{index.length} countries and territories have a page ({index.flatMap((c) => c.parts ?? []).map((x) => x.name).join(", ")} are on the France page, as IARC reports them separately): {directoryDives} deep dives written from each country&apos;s own sources, and {index.length - directoryDives} pages assembled from GLOBOCAN {GLOBOCAN.year}, the trials, institutions, companies and people OnCo records there, and a list of what it does not yet hold.</p>
+          <p className="text-sm text-muted mb-4 max-w-3xl">{index.length} countries and territories have a page ({index.flatMap((c) => c.parts ?? []).map((x) => x.name).join(", ")} are on the France page, as IARC reports them separately): {directoryAuto === 0
+            ? <>each of the {directoryDives} is a deep dive written from the country&apos;s own sources.</>
+            : <>{directoryDives} deep dives written from each country&apos;s own sources, and {directoryAuto} {directoryAuto === 1 ? "page" : "pages"} assembled from GLOBOCAN {GLOBOCAN.year}, the trials, institutions, companies and people OnCo records there, and a list of what it does not yet hold.</>}</p>
           <CountryDirectory rows={directory} regions={Object.values(CONTINENT)} />
         </section>
         <h2 className="text-lg font-semibold mb-3">Research ranking</h2>

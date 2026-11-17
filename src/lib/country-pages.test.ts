@@ -2,8 +2,8 @@ import { describe, expect, it } from "vitest";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 import { GLOBOCAN } from "./globocan";
-import { routeExists } from "./sitemap-urls";
-import { autoCountry, autoCountryCodes, COUNTRY_PAGES, countryIndex, countryPageFor, countryRoute, deepDiveCodes, deepDiveQueue, namesCountry, partAnchor } from "./country-pages";
+import { routeExists, sitemapUrls } from "./sitemap-urls";
+import { autoCountry, autoCountryCodes, autoCountryParams, COUNTRY_PAGES, countryIndex, countryPageFor, countryRoute, deepDiveCodes, deepDiveQueue, namesCountry, NO_AUTOMATIC_PAGES, partAnchor } from "./country-pages";
 import { NAV_GROUPS } from "./nav";
 import { siteSearchDocs } from "./search-index";
 import { CTGOV_COUNTRY, ISO3_TO_ISO2, PART_OF } from "@/data/country-codes";
@@ -13,10 +13,16 @@ import { generateStaticParams } from "@/app/countries/[iso]/page";
  * Every GLOBOCAN country has a page: its deep dive where one exists, an automatic page otherwise, or a section of
  * its parent's page (France's overseas departments). A deep dive always wins, so the dynamic route must never
  * generate a code that has its own folder.
+ *
+ * This file reads the corpus as it is. Since 16 November 2026 that means no automatic page at all, so it names no
+ * country as an example of one; how the route treats a territory with no deep dive is checked on fixture
+ * territories in src/app/countries/[iso]/render.test.ts.
  */
 describe("country pages", () => {
   const gloIso2 = Object.keys(GLOBOCAN.countries).filter((k) => k !== "WORLD").map((k) => ISO3_TO_ISO2[k]);
-  const params = generateStaticParams().map((p) => p.iso.toUpperCase());
+  const generated = generateStaticParams().map((p) => p.iso);
+  // The automatic pages the route generates; the placeholder it returns when there are none is not a page.
+  const params = generated.filter((iso) => iso !== NO_AUTOMATIC_PAGES).map((iso) => iso.toUpperCase());
 
   it("knows the alpha-2 code of every GLOBOCAN country", () => {
     const missing = Object.keys(GLOBOCAN.countries).filter((k) => k !== "WORLD" && !ISO3_TO_ISO2[k]);
@@ -40,13 +46,41 @@ describe("country pages", () => {
   it("lets a deep dive win: no automatic page is generated for a code with its own folder", () => {
     const clash = params.filter((c) => deepDiveCodes().includes(c));
     expect(clash).toEqual([]);
-    // Peru and Samoa had automatic pages until their deep dives arrived; Timor-Leste has none.
-    expect(params).toContain("TL");
+    // Peru, Samoa and Timor-Leste had automatic pages until their deep dives arrived.
+    expect(params).not.toContain("TL");
     expect(params).not.toContain("WS");
     expect(params).not.toContain("PE");
     expect(params).not.toContain("FR");
     expect(params).not.toContain("AR");
     expect(autoCountryCodes()).toEqual(params);
+    // Each automatic page is a GLOBOCAN country with no folder, generated once, at its lower-case code.
+    for (const iso of generated.filter((x) => x !== NO_AUTOMATIC_PAGES)) expect(iso).toMatch(/^[a-z]{2}$/);
+    expect(new Set(generated).size).toBe(generated.length);
+    for (const c of params) expect(gloIso2).toContain(c);
+  });
+
+  it("always gives the static export a param, and a placeholder only when there is no automatic page", () => {
+    // Next stops a static export when a dynamic route's generateStaticParams returns an empty list.
+    expect(generated.length).toBeGreaterThan(0);
+    expect(generated).toEqual(autoCountryParams().map((p) => p.iso));
+    expect(generated.includes(NO_AUTOMATIC_PAGES)).toBe(autoCountryCodes().length === 0);
+    if (autoCountryCodes().length === 0) expect(generated).toEqual([NO_AUTOMATIC_PAGES]);
+    // The placeholder can never be a country: not two letters, no data behind it, no folder, not in the sitemap or search.
+    expect(NO_AUTOMATIC_PAGES).not.toMatch(/^[a-z]{2}$/i);
+    expect(autoCountry(NO_AUTOMATIC_PAGES)).toBeNull();
+    expect(existsSync(join(process.cwd(), "src", "app", "countries", NO_AUTOMATIC_PAGES))).toBe(false);
+    expect(sitemapUrls().filter((u) => u.url.includes(NO_AUTOMATIC_PAGES))).toEqual([]);
+    expect(siteSearchDocs().map((d) => d.route)).not.toContain(`/countries/${NO_AUTOMATIC_PAGES}/`);
+  });
+
+  it("counts the countries without a deep dive the same way everywhere", () => {
+    // Where the corpus stands on 16 November 2026: none. Kept as an agreement between the three places that count,
+    // not as a ban, because a territory IARC adds is allowed an automatic page until its deep dive is written.
+    const dives = new Set(deepDiveCodes());
+    const without = gloIso2.filter((c) => !dives.has(c) && !PART_OF[c]).sort();
+    expect(autoCountryCodes().slice().sort()).toEqual(without);
+    expect(countryIndex().filter((c) => !c.deepDive).map((c) => c.iso2).sort()).toEqual(without);
+    expect(params.slice().sort()).toEqual(without);
   });
 
   it("puts France's overseas departments on the France page, not on pages of their own", () => {

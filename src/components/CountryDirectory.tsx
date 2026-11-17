@@ -11,6 +11,8 @@ const fold = (s: string) => s.normalize("NFD").replace(/\p{M}/gu, "").toLowerCas
 /**
  * Every country with a page on /countries/, grouped by IARC's world region, with a name filter and a switch for
  * deep dives only. A deep dive is set in bold with a "deep dive" tag; every other name opens its automatic page.
+ * The switch is offered only while some country is not a deep dive: since 16 November 2026 every country is one, and
+ * a switch that changes nothing is furniture. It comes back by itself with the first automatic page.
  */
 export function CountryDirectory({ rows, regions }: { rows: DirectoryRow[]; regions: string[] }) {
   const [q, setQ] = useState("");
@@ -20,11 +22,12 @@ export function CountryDirectory({ rows, regions }: { rows: DirectoryRow[]; regi
     return rows.filter((x) => (!divesOnly || x.d) && (!needle || fold(x.n).includes(needle) || x.c.toLowerCase() === needle || (x.p ?? []).some(([n]) => fold(n).includes(needle))));
   }, [rows, q, divesOnly]);
   const dives = rows.filter((x) => x.d).length;
+  const mixed = dives < rows.length;
   return (
     <div>
       <div className="flex flex-wrap items-center gap-3 mb-4">
         <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Find a country…" aria-label="Find a country" className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm outline-none focus:ring-2 focus:ring-accent/40 w-56" />
-        <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={divesOnly} onChange={(e) => setDivesOnly(e.target.checked)} /> Deep dives only ({dives})</label>
+        {mixed && <label className="flex items-center gap-2 text-sm"><input type="checkbox" checked={divesOnly} onChange={(e) => setDivesOnly(e.target.checked)} /> Deep dives only ({dives})</label>}
         <span className="text-sm text-muted tabular-nums" aria-live="polite">{shown.length} of {rows.length}</span>
       </div>
       <div className="grid gap-x-6 gap-y-4 sm:grid-cols-2 lg:grid-cols-3">

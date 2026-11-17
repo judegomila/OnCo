@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { pageMeta } from "@/lib/seo";
 import { GLOBOCAN } from "@/lib/globocan";
-import { autoCountry, autoCountryCodes, countryRoute } from "@/lib/country-pages";
+import { autoCountry, autoCountryCodes, autoCountryParams, countryRoute } from "@/lib/country-pages";
 import { CountryAuto } from "@/components/CountryAuto";
 
 /**
@@ -11,11 +11,16 @@ import { CountryAuto } from "@/components/CountryAuto";
  * but the two are also kept apart here: `generateStaticParams` returns only the codes with no folder of their own,
  * and `dynamicParams = false` makes any other address a 404 in the static export. Adding a deep dive therefore
  * removes the automatic page in the same build, at the same URL.
+ *
+ * Since 16 November 2026 every GLOBOCAN country has a deep dive, so there is no automatic page to generate. A static
+ * export needs at least one param from a dynamic route, so `autoCountryParams()` then returns a single placeholder
+ * address that is not a country code, and this page answers it, like any other address it does not know, with
+ * `notFound()`. The route is kept so that a territory IARC adds gets a page in the build that first sees it.
  */
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return autoCountryCodes().map((c) => ({ iso: c.toLowerCase() }));
+  return autoCountryParams();
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ iso: string }> }): Promise<Metadata> {

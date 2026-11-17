@@ -13,7 +13,7 @@ export const peopleHU: PersonInput[] = [
   { kind: "person", asOf, id: "istvan-kenessey", name: "István Kenessey",
     role: "Head, National Cancer Registry and Biostatistics Centre, National Institute of Oncology, Budapest",
     institutionId: "hungarian-national-cancer-registry", institutions: ["hungarian-national-cancer-registry", "noi-budapest"], specialisms: ["Cancer registration", "Cancer epidemiology", "Biostatistics"],
-    tldr: "István Kenessey heads Hungary's National Cancer Registry at the National Institute of Oncology in Budapest and is senior author of the registry's evaluations of its own data quality and of lung cancer in Hungary.",
+    tldr: "István Kenessey heads Hungary's National Cancer Registry at the National Institute of Oncology in Budapest and is an author of the registry's evaluations of its own data quality and of lung cancer in Hungary.",
     summary: "Dr. István Kenessey is named as head of department (osztályvezető) and centre head of the Nemzeti Rákregiszter és Biostatisztikai Központ on the National Institute of Oncology's registry page, which lists the registry's staff and selected publications. He is senior author of the 2023 evaluation of data quality at the Hungarian National Cancer Registry for 2000 to 2019, written with IARC's Cancer Surveillance Branch, and first author of a 2024 study that corrected the registry's 2018 lung cancer count from 11,746 reported cases to 9,519.",
     profiles: [
       { label: "Országos Onkológiai Intézet: Nemzeti Rákregiszter és Biostatisztikai Központ", url: NRR },

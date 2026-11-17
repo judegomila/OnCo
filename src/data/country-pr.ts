@@ -12,7 +12,8 @@ import type { CountryDive } from "@/data/country-dive";
  * beneficiary manual (PDF text), the University of Puerto Rico Comprehensive Cancer Center's screening programme page,
  * NCI's lists of designated cancer centres, SEER registries and NCORP sites, and the papers' abstracts through Europe
  * PMC. Spanish sources were read in Spanish. medicaid.gov and cdc.gov answered 403; where a figure could not be read it
- * is named under `gaps`.
+ * is named under `gaps`. Second pass, 16 November 2026: every source was read again as raw text; the radiotherapy gap
+ * card now reports the IAEA directory's public feed (13 centres, entries last updated 1996 to 2021).
  */
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/630-puerto-rico-fact-sheet.pdf";
 const RCPR = "https://rcpr.org/";
@@ -36,7 +37,7 @@ const NCI_CENTERS = "https://www.cancer.gov/research/infrastructure/cancer-cente
 const NCORP_SITES = "https://ncorp.cancer.gov/findasite/";
 const CTGOV = "https://clinicaltrials.gov/search?country=Puerto%20Rico&cond=cancer";
 const WB_OOP = "https://api.worldbank.org/v2/country/PRI/indicator/SH.XPD.OOPC.CH.ZS?format=json";
-const DIRAC = "https://dirac.iaea.org/";
+const DIRAC_DATA = "https://dirac.iaea.org/Data/CountriesLight";
 
 const ORTIZ_2024 = { label: "Ortiz et al., cervical cancer trends in Puerto Rico 2001 to 2019 (BMC Med 2024)", url: "https://doi.org/10.1186/s12916-024-03535-4" };
 const SUAREZ_2025 = { label: "Suárez-Ramos et al., hurricanes, COVID-19 and colorectal cancer incidence in Puerto Rico (Cancer 2025)", url: "https://doi.org/10.1002/cncr.35793" };
@@ -54,7 +55,7 @@ export const PR_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Puerto Rico",
   description:
-    "Cancer in Puerto Rico from Puerto Rican and US federal sources: a registry counting every cancer since the early 1950s, 80,473 diagnoses and 26,105 deaths in 2018 to 2022, FDA approval with the Department of Health's own register of cancer medicines, Medicaid with capped federal funding and a 76% match until September 2027, Plan Vital's special coverage for cancer, the HPV vaccine as a school requirement since 2018, what the 2017 hurricanes did to cancer care, and 226 trials in our records with a site on the island.",
+    "Cancer in Puerto Rico from Puerto Rican and US federal sources: a registry counting every cancer since the early 1950s, 80,473 diagnoses and 26,105 deaths in 2018 to 2022, FDA approval with the Department of Health's own register of medicines, Medicaid with capped federal funding and a 76% match until September 2027, Plan Vital's special coverage for cancer, the HPV vaccine as a school requirement since 2018, what the 2017 hurricanes did to cancer care, and 226 trials in our records with a site on the island.",
   lede:
     "Puerto Rico is a US territory of about 3.2 million people, almost all Hispanic, with its own population-based cancer registry: 16,512 new cancers and 5,392 cancer deaths were recorded in 2022, with prostate cancer leading in men and breast cancer in women. Medicines reach the island through FDA approval, as in the states, but federal Medicaid money is capped, and about half the population was enrolled in Medicaid or the children's programme in 2021.",
   globocanNote:
@@ -133,7 +134,7 @@ export const PR_DIVE: CountryDive = {
           id: "registry-rccpr",
           title: "A registry for the whole island, run by the university cancer centre, reporting more than 95% of cases",
           plain:
-            "The Registro Central de Cáncer de Puerto Rico belongs to the Department of Health and has counted cancers among residents since the early 1950s. Since 2008 the University of Puerto Rico Comprehensive Cancer Center has run it. Hospitals and laboratories must report every case by law. The CDC's latest evaluation found it captured more than 95% of expected cancers, and the registry says it has done so every year since 2010.",
+            "The Registro Central de Cáncer de Puerto Rico belongs to the Department of Health and has counted cancers among residents since the early 1950s. Since 2008 the University of Puerto Rico Comprehensive Cancer Center has run it. Public and private medical institutions must report every case by law. The CDC's latest evaluation found it captured more than 95% of expected cancers, and the registry says it has done so every year since 2010.",
           detail:
             "The registry's own page dates it to Law 28 of 20 March 1951 and calls it one of the first registries in the Americas; its report says it was established in March 1950. Law 113 of 2010 replaced the 1951 law, made reporting by public and private institutions compulsory and formalised electronic reporting. The registry joined the CDC's National Program of Cancer Registries in October 1997, is funded in part by CDC grant NU58DP007164, and its data are included in the CDC's US Cancer Statistics; it has been above 95% complete each year since 2010. NCI's SEER programme, the other federal registry network, does not list Puerto Rico among its registries, so statistics drawn from SEER registries do not include the island. The report itself was published in 2025 and covers diagnoses to the end of 2022.",
           links: [
@@ -168,9 +169,9 @@ export const PR_DIVE: CountryDive = {
           id: "plan-vital",
           title: "Plan Vital puts cancer in a special coverage tier, with no referral needed",
           plain:
-            "Medicaid in Puerto Rico is delivered as Plan Vital, the government health plan, which the Administración de Seguros de Salud (ASES) buys from private insurers. It covers about 1.6 million people. Cancer is one of the conditions in its special coverage: once registered, a patient can see any provider in the plan's networks and get chemotherapy, radiotherapy, tests and medicines without a referral.",
+            "Medicaid in Puerto Rico is delivered as Plan Vital, the government health plan, which the Administración de Seguros de Salud (ASES) buys from private insurers. It covers about 1.6 million people. Cancer is one of the conditions in its special coverage: once registered, a patient can see any provider in the plan's networks and get medicines, tests and other special coverage services without a referral. The services listed include chemotherapy, radiology and related services.",
           detail:
-            "The plan dates from Law 72 of 1993, which created ASES and, in MACPAC's words, shifted much of the publicly financed health system to the private sector; Puerto Rico is the only territory whose Medicaid uses managed care. ASES's page lists beneficiary manuals for four insurers, First Medical, Menonita, MMM and Triple-S, and lists 26 special coverage conditions, set by attachment 7 of the insurer contract, including cancer and invasive skin cancers. The Triple-S manual (2022) says people in special coverage can get prescription drugs, tests and other services without a referral or their primary doctor's signature, and lists chemotherapy, radiology and related services. Basic coverage includes preventive mammograms, colonoscopies and annual Pap tests. Some members pay copays, shown on their card.",
+            "MACPAC dates the plan to 1993 and the Puerto Rico Health Insurance Administration Act (Law 72), which it says also shifted much of the publicly financed health care system to the private sector; Puerto Rico is the only territory whose Medicaid uses managed care. ASES's page lists beneficiary manuals for four insurers, First Medical, Menonita, MMM and Triple-S, and lists 26 special coverage conditions, set by attachment 7 of the insurer contract, including cancer and invasive skin cancers. The Triple-S manual (2022) says people in special coverage can get prescription drugs, tests and other services without a referral or their primary doctor's signature, and lists chemotherapy, radiology and related services. Basic coverage includes preventive mammograms, colonoscopies and annual Pap tests. Some members pay copays, shown on their card.",
           links: [
             { label: "ASES: Plan Vital, basic and special coverage (in Spanish)", url: ASES_VITAL },
             { label: "Triple-S Salud: Plan Vital beneficiary manual, special coverage (PDF, 2022)", url: VITAL_MANUAL },
@@ -212,7 +213,7 @@ export const PR_DIVE: CountryDive = {
         },
         {
           id: "pr-register",
-          title: "The Department of Health keeps its own register of medicines, starting with cancer medicines",
+          title: "The Department of Health keeps its own register of medicines, cancer medicines among them",
           plain:
             "On top of FDA approval, Puerto Rico's Department of Health keeps a register of the medicines distributed on the island. In August 2024 it told wholesale distributors based outside Puerto Rico that supply cancer medicines, vaccines or antibiotics to apply for a special authorisation, and it later extended the process to other medicines. The notices concern authorising distributors and registering products; nothing in them describes a second review of whether a medicine works.",
           detail:
@@ -331,7 +332,7 @@ export const PR_DIVE: CountryDive = {
       plain:
         "OnCo found no figure for how much of Puerto Rico's health spending people pay out of their own pockets. The World Bank's series, built from WHO's Global Health Expenditure Database, has no values for Puerto Rico, and OnCo could not read a current uninsured rate from the US Census Bureau's survey without an access key.",
       detail:
-        "The World Bank indicator SH.XPD.OOPC.CH.ZS returned 66 years with no values for Puerto Rico on 11 November 2026, and the series for current health expenditure as a share of GDP was empty too. The Census Bureau's American Community Survey publishes health insurance coverage for Puerto Rico, but its data service redirected requests without a key and the figure is not used here. Medicaid.gov's Puerto Rico pages answered HTTP 403, and no copy was held by the Internet Archive, so the latest Medicaid enrolment read is MACPAC's for January 2021; ASES's figure of 1.6 million Plan Vital members carries no date.",
+        "The World Bank indicator SH.XPD.OOPC.CH.ZS returned 66 years with no values for Puerto Rico on 11 November 2026, and the series for current health expenditure as a share of GDP was empty too. The Census Bureau's American Community Survey publishes health insurance coverage for Puerto Rico, but its data service redirected requests without a key and the figure is not used here. Medicaid.gov's Puerto Rico pages answered HTTP 403, and again on 16 November 2026, and OnCo did not find an archived copy, so the latest Medicaid enrolment read is MACPAC's for January 2021; ASES's figure of 1.6 million Plan Vital members carries no date.",
       links: [
         { label: "World Bank: out-of-pocket expenditure, Puerto Rico (API)", url: WB_OOP },
         { label: "MACPAC: Medicaid and CHIP in Puerto Rico (February 2021, PDF)", url: MACPAC_PR },
@@ -339,13 +340,13 @@ export const PR_DIVE: CountryDive = {
     },
     {
       id: "radiotherapy-workforce",
-      title: "Radiotherapy machines and cancer specialists are not counted here",
+      title: "Radiotherapy: a directory listing with old entries, and no count of cancer specialists",
       plain:
-        "OnCo found no authoritative public count of radiotherapy machines, radiotherapy centres or cancer specialists in Puerto Rico. The IAEA's Directory of Radiotherapy Centres serves its figures through an interactive application that a plain request could not read.",
+        "The IAEA's Directory of Radiotherapy Centres, read on 16 November 2026, lists 13 radiotherapy centres in Puerto Rico with 19 linear accelerators between them, but its entries were last updated between 1996 and 2021, so it may be out of date. OnCo found no public count of cancer specialists.",
       detail:
-        "The registry and the papers read for this page describe the loss of health workers after 2017 only in general terms: Muñoz-Torres and colleagues write that the crises since 2017 led to the emigration of healthcare workers, without a count. The University of Puerto Rico Comprehensive Cancer Center lists a radiotherapy centre, and the NCORP list names oncology hospitals and practices, but neither is a census of capacity. A reader who needs to know where radiotherapy is available should ask the treating oncologist or the insurer's network directory.",
+        "The directory's 13 entries are CENTRO MEDICO DE MAYAGUEZ (Mayagüez, one linear accelerator, entry last updated 1996); SAN JUAN ONCOLOGIC HOSPITAL (San Juan, two, 1996, the only entry listed with brachytherapy); Bella Vista Cancer Center (Cerro Las Mesas, one, 2016); Caribbean Imaging & Radiation Treatment Center - CIRT Ponce (Ponce, one, 2017); Tome & Ubinas Radio Oncology Center (San Juan, one, 2018); VA Carribbean Healthcare System - San Juan (one, 2018); HIMA San Pablo Caguas (Caguas, three, 2018); Center for Radiotherapy at Hospital Auxilio Mutuo (San Juan, two, 2018); Precise Radiation Oncology Center (Bayamón, one, 2018); Doctor's Cancer Center (Manatí, one, 2018); Comprehensive Cancer Center (San Juan, two, 2018); Caribbean TomoTherapy Center (Bayamón, three, 2020); and Puerto Rico Medical Services Administration Medical Center (San Juan, no linear accelerator, one radionuclide teletherapy unit and one Gamma Knife, 2021). The directory lists no cobalt-60 unit and no proton or ion therapy. Names are spelled as the directory spells them. Two entries date from 1996 and the newest from 2021, so centres may have opened, closed or changed machines since. The registry and the papers read for this page describe the loss of health workers after 2017 only in general terms: Muñoz-Torres and colleagues write that the crises since 2017 led to the emigration of healthcare workers, without a count. The University of Puerto Rico Comprehensive Cancer Center lists a radiotherapy centre, and the NCORP list names oncology hospitals and practices, but none of these is a current census of capacity. A reader who needs to know where radiotherapy is available should ask the treating oncologist or the insurer's network directory.",
       links: [
-        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC)", url: DIRAC },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: DIRAC_DATA },
         MUNOZ_2024,
       ],
     },
@@ -378,7 +379,7 @@ export const PR_DIVE: CountryDive = {
   ],
   people: ["karen-j-ortiz-ortiz", "luis-j-santos-reyes"],
   how:
-    "Every card was written from Puerto Rican and US federal sources, read in full rather than through a summary: the Puerto Rico Central Cancer Registry's site and its report Cancer in Puerto Rico, 2018-2022; the Department of Health's Medicaid and regulation pages and two notices on the medicines register; ASES's Plan Vital page and an insurer's beneficiary manual; the federal Food, Drug, and Cosmetic Act's definitions; HHS's matching-rate notice for 2026, MACPAC's fact sheet and KFF's brief on territory Medicaid; the University of Puerto Rico Comprehensive Cancer Center's pages; NCI's lists of designated centres, SEER registries and NCORP sites; IARC's GLOBOCAN fact sheet; and the papers' abstracts. Spanish sources were read in Spanish. OnCo files Puerto Rico's own records under the country code PR, while the university cancer centre's older record uses US. Trial counts are from OnCo's own copy of ClinicalTrials.gov participation data.",
+    "Every card was written from Puerto Rican and US federal sources, read in full rather than through a summary: the Puerto Rico Central Cancer Registry's site and its report Cancer in Puerto Rico, 2018-2022; the Department of Health's Medicaid and regulation pages and two notices on the medicines register; ASES's Plan Vital page and an insurer's beneficiary manual; the federal Food, Drug, and Cosmetic Act's definitions; HHS's matching-rate notice for 2026, MACPAC's fact sheet and KFF's brief on territory Medicaid; the University of Puerto Rico Comprehensive Cancer Center's pages; NCI's lists of designated centres, SEER registries and NCORP sites; IARC's GLOBOCAN fact sheet; and the papers' abstracts. Spanish sources were read in Spanish. OnCo files Puerto Rico's records, the university cancer centre's among them, under the country code PR. Trial counts are from OnCo's own copy of ClinicalTrials.gov participation data.",
   verify:
     "Medicaid funding for Puerto Rico is set by Congress and changes at the end of September 2027 unless the law changes; check the current rules with ASES or the Department of Health before relying on them. What Plan Vital covers, and which medicines its formulary includes, are set by the insurer contract; ask the insurer or the treating oncologist. Registry figures run to 2022; IARC's 2024 death figure is a model and differs from the registry's count.",
   verifyLinks: [

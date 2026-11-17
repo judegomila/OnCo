@@ -1054,20 +1054,20 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05086692",
       "source": "https://clinicaltrials.gov/study/NCT05086692",
-      "fetchedAt": "2026-10-07T16:53:34.066Z",
-      "studySha256": "389974d1c87f9bb0d4d63cdf3f2c0ecb25b1a25d91b6c673196b8e2af5e8ab32",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-07-09",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "2866a28c34a3e8b722a142a032860c4c524631453dd4ed508c00120722a9d002",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-30",
       "leadSponsor": "Medicenna Therapeutics, Inc.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 115,
+      "enrolment": 160,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 27,
-      "recruitingSiteCount": 21,
+      "siteCount": 25,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "Canada",
@@ -1075,8 +1075,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Portugal",
         "South Korea",
         "Spain",
+        "Switzerland",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "2866a28c34a3e8b722a142a032860c4c524631453dd4ed508c00120722a9d002"
     }
   ],
   "nct07332000": [
@@ -1725,9 +1727,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05923008",
       "source": "https://clinicaltrials.gov/study/NCT05923008",
-      "fetchedAt": "2026-10-07T16:54:00.715Z",
-      "studySha256": "4b07bfb96da0279a2e64534ff25b75237a612e760b62f85c7037f640792da364",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "0dda27cc6286a405760c1f9b725d05c92614914350134e1f8b08d3cd9ea838fd",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2023-11-29",
       "leadSponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
       "collaboratorCount": 0,
@@ -1741,7 +1743,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "Australia"
-      ]
+      ],
+      "responseStudySha256": "0dda27cc6286a405760c1f9b725d05c92614914350134e1f8b08d3cd9ea838fd"
     }
   ],
   "nct06925737": [
@@ -1887,10 +1890,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06961006",
       "source": "https://clinicaltrials.gov/study/NCT06961006",
-      "fetchedAt": "2026-10-07T16:55:19.231Z",
-      "studySha256": "fe682620466517cb069599f9864319e2ed14680d9f1cc2835ff154ab82cfdaed",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-28",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "5e0b0faa8b9e70440328144eadcc9ad966b2518577031a9699c42311d087526a",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-10",
       "leadSponsor": "Merck Sharp & Dohme LLC",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -1900,7 +1903,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 160,
       "enrolmentType": "ESTIMATED",
       "siteCount": 38,
-      "recruitingSiteCount": 38,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "Canada",
@@ -1914,7 +1917,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Portugal",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "5e0b0faa8b9e70440328144eadcc9ad966b2518577031a9699c42311d087526a"
     }
   ],
   "nct06305767": [
@@ -2538,20 +2542,20 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06637423",
       "source": "https://clinicaltrials.gov/study/NCT06637423",
-      "fetchedAt": "2026-10-07T16:54:53.335Z",
-      "studySha256": "2111a8640e387393461cd8a4fc80df7f7370c3bc142204613897bc307077e157",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-10-06",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "11574d1c8fe2e355c5e5ba349139d0cf6dea3d19ec4d3cf7deb71e36a4a989da",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-05",
       "leadSponsor": "Merck Sharp & Dohme LLC",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 32,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 35,
+      "enrolmentType": "ACTUAL",
       "siteCount": 13,
-      "recruitingSiteCount": 10,
+      "recruitingSiteCount": 0,
       "countries": [
         "Canada",
         "France",
@@ -2559,7 +2563,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "11574d1c8fe2e355c5e5ba349139d0cf6dea3d19ec4d3cf7deb71e36a4a989da"
     }
   ],
   "nct06966700": [
@@ -3992,10 +3997,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07791758",
       "source": "https://clinicaltrials.gov/study/NCT07791758",
-      "fetchedAt": "2026-10-07T16:56:51.027Z",
-      "studySha256": "58adc976af3e413597404ac50009492c1f32f46eba5ce94a08c9dc0a10290d0b",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-02",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "e9e7da2eae20cd0a7bb5cf7b1da4df615afc8d1720297556d89c870506b1d9e5",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-16",
       "leadSponsor": "Nanjing Leads Biolabs Co.,Ltd",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -4006,10 +4011,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 369,
       "enrolmentType": "ESTIMATED",
       "siteCount": 10,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "e9e7da2eae20cd0a7bb5cf7b1da4df615afc8d1720297556d89c870506b1d9e5"
     }
   ],
   "nct06049290": [
@@ -5131,27 +5137,28 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06188520",
       "source": "https://clinicaltrials.gov/study/NCT06188520",
-      "fetchedAt": "2026-10-07T16:54:18.114Z",
-      "studySha256": "f8b4160a37046715516c504d87d4dd0f58f52389a4dc9af99e0c1aa5013e2ac1",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-08-06",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "513eceda3da51f36f59afe3196a903ee8055a6f01a14af3637dc7b1441dffa19",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "AstraZeneca",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "FEMALE",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 564,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 14,
-      "recruitingSiteCount": 14,
+      "enrolment": 55,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 13,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "South Korea",
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "513eceda3da51f36f59afe3196a903ee8055a6f01a14af3637dc7b1441dffa19"
     }
   ],
   "nct07354711": [
@@ -5358,10 +5365,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05908643",
       "source": "https://clinicaltrials.gov/study/NCT05908643",
-      "fetchedAt": "2026-10-07T16:54:00.715Z",
-      "studySha256": "c7758f411aa25488b02630b38e567ecd23dc25e1214840f3a7f7b7f97e797eb8",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-05-29",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "ae4146388a4e407c64de08e18ef529af9b7baee7c47c5680f261a806da1a852e",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "Neogap Therapeutics AB",
       "collaboratorCount": 4,
       "minimumAge": "18 Years",
@@ -5371,10 +5378,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 16,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 2,
+      "recruitingSiteCount": 0,
       "countries": [
         "Sweden"
-      ]
+      ],
+      "responseStudySha256": "ae4146388a4e407c64de08e18ef529af9b7baee7c47c5680f261a806da1a852e"
     }
   ],
   "nct05584670": [
@@ -6692,10 +6700,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04669171",
       "source": "https://clinicaltrials.gov/study/NCT04669171",
-      "fetchedAt": "2026-10-07T16:53:24.647Z",
-      "studySha256": "1a65bdb368f9d4a110f7ea1b9115b48e334ce38eb3c5e7a83719e6fbea4a9457",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-01-30",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "eef499a91520b4ae2438a9231ef6fb969de3b24abf5e0da9d4550db4bba06548",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-03",
       "leadSponsor": "Enterome",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -6704,14 +6712,15 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 80,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 12,
-      "recruitingSiteCount": 11,
+      "siteCount": 11,
+      "recruitingSiteCount": 0,
       "countries": [
         "France",
         "Italy",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "eef499a91520b4ae2438a9231ef6fb969de3b24abf5e0da9d4550db4bba06548"
     }
   ],
   "nct07736612": [
@@ -6896,10 +6905,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05547061",
       "source": "https://clinicaltrials.gov/study/NCT05547061",
-      "fetchedAt": "2026-10-07T16:53:45.224Z",
-      "studySha256": "edb8880ae040b861dace52483a30ab065e0f1c62d7ac3b73683a565933947014",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2024-12-11",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "b90581f4846d6427c5e70c787cc775e9f26597eba61e63ba242d5c9cfc6382e6",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-22",
       "leadSponsor": "Cellbion Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "19 Years",
@@ -6912,7 +6921,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "South Korea"
-      ]
+      ],
+      "responseStudySha256": "b90581f4846d6427c5e70c787cc775e9f26597eba61e63ba242d5c9cfc6382e6"
     }
   ],
   "nct06383052": [
@@ -6942,9 +6952,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05180799",
       "source": "https://clinicaltrials.gov/study/NCT05180799",
-      "fetchedAt": "2026-10-07T16:53:36.501Z",
-      "studySha256": "f5505505eed9a133cf7dd39f392689d8b79b3e96e6ade88c552d822574509fad",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "aa24324300066f77ecd4859631de90a55ba3196b095ddafa6a6de0dfb15f8e10",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2025-06-15",
       "leadSponsor": "BioAtla, Inc.",
       "collaboratorCount": 0,
@@ -6959,7 +6969,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "countries": [
         "Australia",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "aa24324300066f77ecd4859631de90a55ba3196b095ddafa6a6de0dfb15f8e10"
     }
   ],
   "nct06427941": [
@@ -7269,10 +7280,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06055439",
       "source": "https://clinicaltrials.gov/study/NCT06055439",
-      "fetchedAt": "2026-10-07T16:54:09.016Z",
-      "studySha256": "4997df617a1b8dd8ad53ca4bb1c4f649930a4013a1c4f092bb9199a5d1db6585",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-01-29",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "201ab445221ffb65684943f0e61cee24a4825add5b79470b1e944d6f76fa82b8",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-22",
       "leadSponsor": "Chimeric Therapeutics",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -7283,10 +7294,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 135,
       "enrolmentType": "ESTIMATED",
       "siteCount": 4,
-      "recruitingSiteCount": 4,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "201ab445221ffb65684943f0e61cee24a4825add5b79470b1e944d6f76fa82b8"
     }
   ],
   "nct05394831": [
@@ -7347,23 +7359,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06480565",
       "source": "https://clinicaltrials.gov/study/NCT06480565",
-      "fetchedAt": "2026-10-07T16:54:43.174Z",
-      "studySha256": "e47ca965f87464c88f49098ded39aeb2888c1992886abb679b7e134d72e881c8",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-10",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "beb907d57174a4be62bfc10c54be6bfef53d3e562944a3ae5213284a42fca631",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-27",
+      "whyStopped": "Sponsor decision",
       "leadSponsor": "Adicet Therapeutics",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 60,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 10,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
       "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "beb907d57174a4be62bfc10c54be6bfef53d3e562944a3ae5213284a42fca631"
     }
   ],
   "nct04036682": [
@@ -7630,23 +7644,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06939283",
       "source": "https://clinicaltrials.gov/study/NCT06939283",
-      "fetchedAt": "2026-10-07T16:55:18.467Z",
-      "studySha256": "ed0431f315d9501979528ad413366859e33f17c206356f405373011660e328bb",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-02-10",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "349925cd926e463011ca676f874e5bd5e3c434b06fd1c9487d5b746ced3aedf9",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-19",
       "leadSponsor": "Werewolf Therapeutics, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 100,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 24,
+      "enrolmentType": "ACTUAL",
       "siteCount": 5,
       "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "349925cd926e463011ca676f874e5bd5e3c434b06fd1c9487d5b746ced3aedf9"
     }
   ],
   "nct04973605": [
@@ -8938,10 +8953,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06331299",
       "source": "https://clinicaltrials.gov/study/NCT06331299",
-      "fetchedAt": "2026-10-07T16:54:34.595Z",
-      "studySha256": "ba7ed677a2588421411d0e11529f6da07078bf47a280429d3dd0deee1309d181",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-28",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "1083867cd78ffa0f9a4b987a557bccf541a3124389eec8261f9ae07042271f77",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-22",
       "leadSponsor": "UroGen Pharma Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -8960,7 +8975,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Romania",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "1083867cd78ffa0f9a4b987a557bccf541a3124389eec8261f9ae07042271f77"
     }
   ],
   "nct04680052": [
@@ -9063,9 +9079,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05566041",
       "source": "https://clinicaltrials.gov/study/NCT05566041",
-      "fetchedAt": "2026-10-07T16:53:46.156Z",
-      "studySha256": "53a9db28285cd3dccb67c0650663d55605263138eee357f2b7537083ca2c24dc",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "1934e9e56224bd23413b2bdad87eace2a7b12fd0ef9fb9878faf9a85220a113c",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-31",
       "leadSponsor": "EpicentRx, Inc.",
       "collaboratorCount": 1,
@@ -9080,7 +9096,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "1934e9e56224bd23413b2bdad87eace2a7b12fd0ef9fb9878faf9a85220a113c"
     }
   ],
   "nct00938652": [
@@ -10120,10 +10137,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07777211",
       "source": "https://clinicaltrials.gov/study/NCT07777211",
-      "fetchedAt": "2026-10-07T16:56:51.027Z",
-      "studySha256": "d439d7f0a5683ff43c6c3000069881798c02a9d9129d9aea3f63cb849a5f0b11",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-20",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "f8f8e86846a603cc732c6bc77c0af5135226e48e352fae302ef695677ca21bf4",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Beijing Gene Key Life Technology Co., Ltd",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -10134,10 +10151,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 52,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "f8f8e86846a603cc732c6bc77c0af5135226e48e352fae302ef695677ca21bf4"
     }
   ],
   "nct07228247": [
@@ -10213,9 +10231,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06727630",
       "source": "https://clinicaltrials.gov/study/NCT06727630",
-      "fetchedAt": "2026-10-07T16:54:58.037Z",
-      "studySha256": "c18ecae66996b1740c9474aaa29c24835fd646e22319adfa600f787ecac7d947",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "fa55a034a9be29883e09d0943cb9abb1f96852e9ad851864a41c68d793766b7f",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-12-11",
       "leadSponsor": "Zhuhai Yufan Biotechnologies Co., Ltd",
       "collaboratorCount": 0,
@@ -10229,7 +10247,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "fa55a034a9be29883e09d0943cb9abb1f96852e9ad851864a41c68d793766b7f"
     }
   ],
   "nct05951608": [
@@ -10905,10 +10924,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07798947",
       "source": "https://clinicaltrials.gov/study/NCT07798947",
-      "fetchedAt": "2026-10-07T16:56:51.027Z",
-      "studySha256": "fe71a4601c498e824a39bbb3567426e2eb10e7f727bf29416b498301f4689a83",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-02",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "22533e2da8a1e737f57d82faacb47604bfbcba75d59a4a4aba691c49b367b306",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-19",
       "leadSponsor": "Shanghai Hengrui Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -10919,10 +10938,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 120,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "22533e2da8a1e737f57d82faacb47604bfbcba75d59a4a4aba691c49b367b306"
     }
   ],
   "nct07308106": [
@@ -11184,23 +11204,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06295432",
       "source": "https://clinicaltrials.gov/study/NCT06295432",
-      "fetchedAt": "2026-10-07T16:54:32.196Z",
-      "studySha256": "f20b3bb88e4ab2c80b4e3439eca0482748eff7bf09a019e3c72a6c29a06c26ee",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-12-31",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "1b8ef03e0dab9153155db18e2534e1240a35f41438361df39ffab6a411e8b012",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-22",
       "leadSponsor": "Dizal Pharmaceuticals",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 90,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 30,
+      "enrolmentType": "ACTUAL",
       "siteCount": 4,
-      "recruitingSiteCount": 2,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "1b8ef03e0dab9153155db18e2534e1240a35f41438361df39ffab6a411e8b012"
     }
   ],
   "nct07390383": [
@@ -11789,10 +11810,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07824882",
       "source": "https://clinicaltrials.gov/study/NCT07824882",
-      "fetchedAt": "2026-10-07T16:56:52.065Z",
-      "studySha256": "3bcb2269b34a6027ed2d8523931608b7a7422112dc9561250097dc82b1aeb70f",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-17",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "9ed6d084b96288ff1d45d7f4c96d6d4e4f90d98e59681fb5539122a6cd21e1f7",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-23",
       "leadSponsor": "Hansoh BioMedical R&D Company",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -11801,8 +11822,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 76,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 1,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "China"
+      ],
+      "responseStudySha256": "9ed6d084b96288ff1d45d7f4c96d6d4e4f90d98e59681fb5539122a6cd21e1f7"
     }
   ],
   "nct06728410": [
@@ -12773,10 +12798,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05262010",
       "source": "https://clinicaltrials.gov/study/NCT05262010",
-      "fetchedAt": "2026-10-07T16:53:38.157Z",
-      "studySha256": "07d77afec146ba799ac4ecc977f7a01113bd6433edc681bce871174cc3d69870",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-01-16",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "9915f4f08079dac43c3d72df318fc051687ef57b572f5919a1bf27f2206be28d",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "National Vaccine and Serum Institute, China",
       "collaboratorCount": 7,
       "minimumAge": "18 Years",
@@ -12787,10 +12812,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 13500,
       "enrolmentType": "ESTIMATED",
       "siteCount": 8,
-      "recruitingSiteCount": 2,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "9915f4f08079dac43c3d72df318fc051687ef57b572f5919a1bf27f2206be28d"
     }
   ],
   "nct01827605": [
@@ -13008,10 +13034,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06464991",
       "source": "https://clinicaltrials.gov/study/NCT06464991",
-      "fetchedAt": "2026-10-07T16:54:41.796Z",
-      "studySha256": "89fde99341450afea9f4d88b0acfac4b7b0a33aeb91fbffe999b77e3921cec78",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-07-20",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "f263d43f90584738f68ad3cfcf95f48d9d83e050afef393fec731753326c505c",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-06",
       "leadSponsor": "Nanjing IASO Biotechnology Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -13019,13 +13045,15 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 240,
+      "enrolment": 260,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 28,
-      "recruitingSiteCount": 28,
+      "siteCount": 41,
+      "recruitingSiteCount": 0,
       "countries": [
-        "China"
-      ]
+        "China",
+        "Japan"
+      ],
+      "responseStudySha256": "f263d43f90584738f68ad3cfcf95f48d9d83e050afef393fec731753326c505c"
     }
   ],
   "nct06383767": [
@@ -14871,10 +14899,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05329766",
       "source": "https://clinicaltrials.gov/study/NCT05329766",
-      "fetchedAt": "2026-10-07T16:53:40.482Z",
-      "studySha256": "8041d07f6ff9dd60ca41a1cd16ececfbda34012c49fcdf0d2b474427f7312dc8",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-29",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "80d3b4b7beeebcc2556cb58b34118ddb3d23acfff9e25df36596ff661039db1d",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-26",
       "leadSponsor": "Arcus Biosciences, Inc.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -14892,7 +14920,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Serbia",
         "South Korea",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "80d3b4b7beeebcc2556cb58b34118ddb3d23acfff9e25df36596ff661039db1d"
     }
   ],
   "nct03790111": [
@@ -15115,10 +15144,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05309421",
       "source": "https://clinicaltrials.gov/study/NCT05309421",
-      "fetchedAt": "2026-10-07T16:53:39.725Z",
-      "studySha256": "009005324911309364fb3c8cfcf08e00b99f35e02d807540e3130587f26b12b3",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2025-09-22",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "55bbf5557caf2c2d9aafe6f2037752b36705743b935df06a4cce669f8eae184e",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Evaxion Biotech A/S",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -15132,7 +15161,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "countries": [
         "Australia",
         "Italy"
-      ]
+      ],
+      "responseStudySha256": "55bbf5557caf2c2d9aafe6f2037752b36705743b935df06a4cce669f8eae184e"
     }
   ],
   "nct06822543": [
@@ -15440,10 +15470,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07198321",
       "source": "https://clinicaltrials.gov/study/NCT07198321",
-      "fetchedAt": "2026-10-07T16:55:32.313Z",
-      "studySha256": "d993390ae3adc2d91ad5d707468a35c68ec65dd97691573e8f61cf0898f8bc63",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2025-09-30",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "3f3730994cc3cc8d17bb9055138973f1c9c03785d9a5ec1b1ef6d54d878476bf",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-16",
       "leadSponsor": "Genfleet Therapeutics (Shanghai) Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -15454,10 +15484,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 450,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "3f3730994cc3cc8d17bb9055138973f1c9c03785d9a5ec1b1ef6d54d878476bf"
     }
   ],
   "nct06812260": [
@@ -15898,46 +15929,48 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07739199",
       "source": "https://clinicaltrials.gov/study/NCT07739199",
-      "fetchedAt": "2026-10-07T16:56:10.647Z",
-      "studySha256": "9e0f8818d9a38ede4bcea07987f6ed48ad3ee1da975bf93b4c1603a28ab06d87",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-26",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "92a5a8132b6319aaf714224c9276768c1f6f069a8583c87d9eb0d4584ce70f61",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "Sichuan Baili Pharmaceutical Co., Ltd.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 200,
+      "enrolment": 326,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 2,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "92a5a8132b6319aaf714224c9276768c1f6f069a8583c87d9eb0d4584ce70f61"
     }
   ],
   "nct06857175": [
     {
       "nct": "NCT06857175",
       "source": "https://clinicaltrials.gov/study/NCT06857175",
-      "fetchedAt": "2026-10-07T16:55:09.829Z",
-      "studySha256": "130353828f4e5c0fd3bd1dc1c041bc7ff8bc853718a35ec2e9ede19068061162",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-04-20",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "034cff3d5399ac86ccf84d19100c7fc0f52a0932f0a52182a02acc12b9d0f3e4",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-21",
       "leadSponsor": "Sichuan Baili Pharmaceutical Co., Ltd.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 508,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 515,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "034cff3d5399ac86ccf84d19100c7fc0f52a0932f0a52182a02acc12b9d0f3e4"
     }
   ],
   "nct07648914": [
@@ -16405,10 +16438,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07802821",
       "source": "https://clinicaltrials.gov/study/NCT07802821",
-      "fetchedAt": "2026-10-07T16:56:51.027Z",
-      "studySha256": "5f3d2c05defd737e01a04994a2a7c780ceb1252df3842c4cd49fb53aa47d1d54",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-03",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "84ed5f7d1c2b7907c7cb12b1a493b7e060cb1f436cbb97f8c22d314ac9ec99a5",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-30",
       "leadSponsor": "Qilu Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -16417,8 +16450,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 556,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 1,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "China"
+      ],
+      "responseStudySha256": "84ed5f7d1c2b7907c7cb12b1a493b7e060cb1f436cbb97f8c22d314ac9ec99a5"
     }
   ],
   "nct07138209": [
@@ -16746,10 +16783,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05459844",
       "source": "https://clinicaltrials.gov/study/NCT05459844",
-      "fetchedAt": "2026-10-07T16:53:42.604Z",
-      "studySha256": "4764912d1b9622634b4c12770200244d595b414c83bbcdd482295edc3bed0140",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2025-09-05",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "3616e8312676de3f34a13105ec914291f3a7cbf201c05aba57ae6bc9cf106f2d",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-13",
       "leadSponsor": "Sinotau Pharmaceutical Group",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -16762,7 +16799,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "3616e8312676de3f34a13105ec914291f3a7cbf201c05aba57ae6bc9cf106f2d"
     }
   ],
   "nct07711067": [
@@ -17001,23 +17039,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07739186",
       "source": "https://clinicaltrials.gov/study/NCT07739186",
-      "fetchedAt": "2026-10-07T16:56:10.647Z",
-      "studySha256": "619aed812959d28c072bc56207d216ef473a626704b8169f8ee00e16e48045c4",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-26",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "c2efc786dbeb890cec3aa661e5769764b2948984352bfbe9dfdf41faec54a35a",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "Sichuan Baili Pharmaceutical Co., Ltd.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 120,
+      "enrolment": 166,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 2,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "c2efc786dbeb890cec3aa661e5769764b2948984352bfbe9dfdf41faec54a35a"
     }
   ],
   "nct05645692": [
@@ -18108,23 +18147,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05773820",
       "source": "https://clinicaltrials.gov/study/NCT05773820",
-      "fetchedAt": "2026-10-07T16:53:55.392Z",
-      "studySha256": "c4a8ff475f682b6a7257e886eea2f11ba00eefde03e3fa57582b775c94e4f926",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-04-01",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "2d63de5ae240a5a4d16650968332fb4b844ae7e9d26697830e594cdf689f6a67",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-03",
       "leadSponsor": "Wigen Biomedicine Technology (Shanghai) Co., Ltd.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 210,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 63,
+      "enrolmentType": "ACTUAL",
       "siteCount": 11,
-      "recruitingSiteCount": 10,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "2d63de5ae240a5a4d16650968332fb4b844ae7e9d26697830e594cdf689f6a67"
     }
   ],
   "nct06314373": [
@@ -18876,10 +18916,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT02747004",
       "source": "https://clinicaltrials.gov/study/NCT02747004",
-      "fetchedAt": "2026-10-07T16:52:50.612Z",
-      "studySha256": "8bf8a95936c73cb93923ea69203dc9a068f4e040976b668e47b367449af42505",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-02-06",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "60390305922d2ae19ba8260e84d29a46c4b818ff932182a1591d1dddd23ad473",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-16",
       "leadSponsor": "Eli Lilly and Company",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -18905,7 +18945,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "60390305922d2ae19ba8260e84d29a46c4b818ff932182a1591d1dddd23ad473"
     }
   ],
   "nct05288166": [
@@ -21648,23 +21689,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06498986",
       "source": "https://clinicaltrials.gov/study/NCT06498986",
-      "fetchedAt": "2026-10-07T16:54:43.174Z",
-      "studySha256": "e2c1547eea2f450be5314f363f2254123778cefb608703355076ca7c6d3d5f6d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-05-07",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "f8bd12a7e94a17517760ced8442470a4d4cd6bb22230359c8d85ee2afec3224b",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-09",
       "leadSponsor": "Sichuan Baili Pharmaceutical Co., Ltd.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 40,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 76,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "f8bd12a7e94a17517760ced8442470a4d4cd6bb22230359c8d85ee2afec3224b"
     }
   ],
   "nct06838273": [
@@ -22902,10 +22944,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05774951",
       "source": "https://clinicaltrials.gov/study/NCT05774951",
-      "fetchedAt": "2026-10-07T16:53:55.392Z",
-      "studySha256": "2b57b347f1d2fe77e3ffa257e7c4bb285c3d2decbf25d2e7fcabde4983d53fbe",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "d0c6fc2babaf82ef1688251f77bfc26c93e21724a9721170938ab27c230c14d7",
       "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-08-19",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "AstraZeneca",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -22957,7 +22999,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "United Kingdom",
         "United States",
         "Vietnam"
-      ]
+      ],
+      "responseStudySha256": "d0c6fc2babaf82ef1688251f77bfc26c93e21724a9721170938ab27c230c14d7"
     }
   ],
   "nct05999149": [
@@ -24343,10 +24386,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07739966",
       "source": "https://clinicaltrials.gov/study/NCT07739966",
-      "fetchedAt": "2026-10-07T16:56:10.647Z",
-      "studySha256": "30f4ef5fcb3d4623739fe822ca92a826f563e1e0c7ffb120a5bbb2650ee777b7",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-07-31",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "6b10c31bf1991986946e1143e91ce59075b0951006c7e9a07ce492b29d24131f",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-10",
       "leadSponsor": "Daiichi Sankyo",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -24355,8 +24398,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 400,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 76,
+      "recruitingSiteCount": 3,
+      "countries": [
+        "Argentina",
+        "Austria",
+        "Belgium",
+        "Brazil",
+        "China",
+        "France",
+        "Italy",
+        "Japan",
+        "Spain",
+        "Taiwan",
+        "Tunisia",
+        "Turkey (Türkiye)",
+        "United States"
+      ],
+      "responseStudySha256": "6b10c31bf1991986946e1143e91ce59075b0951006c7e9a07ce492b29d24131f"
     }
   ],
   "nct04440735": [
@@ -24775,20 +24834,20 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06492616",
       "source": "https://clinicaltrials.gov/study/NCT06492616",
-      "fetchedAt": "2026-10-07T16:54:43.174Z",
-      "studySha256": "a2bbc7cabedb2f34ae4b05d7d23ed6ebff1a301332e4bb9c1417153e65aed281",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-15",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "8c9d064085e34409759ba77d13716a0f4685405c08129c0b1fc8cc1b37f04797",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Stemline Therapeutics, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 4220,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 567,
-      "recruitingSiteCount": 501,
+      "enrolment": 4556,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 555,
+      "recruitingSiteCount": 0,
       "countries": [
         "Argentina",
         "Australia",
@@ -24818,7 +24877,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "8c9d064085e34409759ba77d13716a0f4685405c08129c0b1fc8cc1b37f04797"
     }
   ],
   "nct06499285": [
@@ -25046,10 +25106,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06623136",
       "source": "https://clinicaltrials.gov/study/NCT06623136",
-      "fetchedAt": "2026-10-07T16:54:51.841Z",
-      "studySha256": "ec346eee0e8171067a6bf23ff477cf4cc76e72bb92f42e471d8fad0e4b0a974d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-09-26",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "025b6c1b5d318aeb066068d61e3f7c5b412a1904a235690b2453a785b2ef0fac",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-20",
       "leadSponsor": "Elpiscience (Suzhou) Biopharma, Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -25057,13 +25117,14 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 40,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 30,
+      "enrolmentType": "ACTUAL",
       "siteCount": 9,
-      "recruitingSiteCount": 7,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "025b6c1b5d318aeb066068d61e3f7c5b412a1904a235690b2453a785b2ef0fac"
     }
   ],
   "nct03980054": [
@@ -25094,10 +25155,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06782555",
       "source": "https://clinicaltrials.gov/study/NCT06782555",
-      "fetchedAt": "2026-10-07T16:55:03.017Z",
-      "studySha256": "2b388923e2e1580338952c5b02d4979e470b33dcbdf102d5dff63d956db8742e",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-01-21",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "07aef6d88bd97c4042e093da158be9b4be92a4b0b2f45f509fbdc2a54734be31",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "ImmunoGenesis",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -25107,20 +25168,21 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 71,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "07aef6d88bd97c4042e093da158be9b4be92a4b0b2f45f509fbdc2a54734be31"
     }
   ],
   "aspen-06": [
     {
       "nct": "NCT05002127",
       "source": "https://clinicaltrials.gov/study/NCT05002127",
-      "fetchedAt": "2026-10-07T16:53:32.028Z",
-      "studySha256": "3c4f8009ac1b4f71f0f93dacf291c277306cdba055fc0b3d8743db281d993b04",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2025-08-07",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "34fca9633444e02d29b7a9e63dfc0959db09181cee3a19d705fb9c41d730e199",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-05",
       "leadSponsor": "ALX Oncology Inc.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -25144,7 +25206,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "34fca9633444e02d29b7a9e63dfc0959db09181cee3a19d705fb9c41d730e199"
     }
   ],
   "nct07312188": [
@@ -26907,10 +26970,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05805501",
       "source": "https://clinicaltrials.gov/study/NCT05805501",
-      "fetchedAt": "2026-10-07T16:53:56.649Z",
-      "studySha256": "6c0cdd4ecc88c0614f6614c8cfc57c423dc0ab1b388af560455e7ef352bbc407",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-10",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "4b80657143f831101e415be44e5909d8fee22f51a0ad3a1e7bfe74564bec587c",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-03",
       "leadSponsor": "Hoffmann-La Roche",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -26919,7 +26982,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 199,
       "enrolmentType": "ACTUAL",
-      "siteCount": 43,
+      "siteCount": 42,
       "recruitingSiteCount": 0,
       "countries": [
         "Australia",
@@ -26931,7 +26994,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "4b80657143f831101e415be44e5909d8fee22f51a0ad3a1e7bfe74564bec587c"
     }
   ],
   "nct04169997": [
@@ -26992,10 +27056,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05957367",
       "source": "https://clinicaltrials.gov/study/NCT05957367",
-      "fetchedAt": "2026-10-07T16:54:02.117Z",
-      "studySha256": "954462c596a6164780112067822b195d8cf58e9fc1f6127f87679d6a30e19e85",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-07-23",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "168560541082ce145caeb2fc4515b6581df257b43d94b81e4fde49b983d788d6",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-20",
       "leadSponsor": "Deciphera Pharmaceuticals, LLC",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -27005,7 +27069,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 94,
       "enrolmentType": "ESTIMATED",
       "siteCount": 28,
-      "recruitingSiteCount": 28,
+      "recruitingSiteCount": 0,
       "countries": [
         "Denmark",
         "France",
@@ -27016,7 +27080,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "Switzerland",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "168560541082ce145caeb2fc4515b6581df257b43d94b81e4fde49b983d788d6"
     }
   ],
   "nct06077760": [
@@ -27182,10 +27247,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06780085",
       "source": "https://clinicaltrials.gov/study/NCT06780085",
-      "fetchedAt": "2026-10-07T16:55:03.017Z",
-      "studySha256": "d1a0644ed625f8ffe81f1e578c571beca9efc9cc3e4237d9e5f49edfc267a3dd",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-10-01",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "e53798be44ad3ebe6544a04ecf9542a07748cb51a5e5ce568225501a9688a85b",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-06",
       "leadSponsor": "Merck Sharp & Dohme LLC",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -27194,8 +27259,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 96,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 35,
-      "recruitingSiteCount": 34,
+      "siteCount": 36,
+      "recruitingSiteCount": 0,
       "countries": [
         "Chile",
         "Germany",
@@ -27207,7 +27272,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "e53798be44ad3ebe6544a04ecf9542a07748cb51a5e5ce568225501a9688a85b"
     }
   ],
   "nct06827613": [
@@ -27649,9 +27715,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05683886",
       "source": "https://clinicaltrials.gov/study/NCT05683886",
-      "fetchedAt": "2026-10-07T16:53:49.617Z",
-      "studySha256": "187f442b0bf452976e0767d68dc7f1830b5b40a0caefd5548d2608b53bf5aa4c",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "9dd3cc2b03a11354b86ccf0acd75c28c7954991c81de263d3b221b42e5914988",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-17",
       "leadSponsor": "Beijing Konruns Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
@@ -27666,7 +27732,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 2,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "9dd3cc2b03a11354b86ccf0acd75c28c7954991c81de263d3b221b42e5914988"
     }
   ],
   "nct06194734": [
@@ -28746,9 +28813,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04492488",
       "source": "https://clinicaltrials.gov/study/NCT04492488",
-      "fetchedAt": "2026-10-07T16:53:21.208Z",
-      "studySha256": "35e1c700b720cfc43aa12641ddc4843488f1fb79ab248d3a59d1558e59cb0357",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "63302a1539cc06777130f6088dafe9f897820d69bc6841dddc2dba04cafa59a9",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-22",
       "leadSponsor": "Shanghai Miracogen Inc.",
       "collaboratorCount": 0,
@@ -28762,7 +28829,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "63302a1539cc06777130f6088dafe9f897820d69bc6841dddc2dba04cafa59a9"
     }
   ],
   "nct05754853": [
@@ -28958,10 +29026,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04302025",
       "source": "https://clinicaltrials.gov/study/NCT04302025",
-      "fetchedAt": "2026-10-07T16:53:17.424Z",
-      "studySha256": "c3aeea7319e5aea9360ce9665f9b7cb2081cf0408801b2c6513b5ea9bb01e630",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-10",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "4ef353f66b67a9ccbe396ecbeaa713eb82c18049ea2f8acd7f098c6c2dfba7f1",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-10",
       "leadSponsor": "Genentech, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -28970,11 +29038,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 99,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 38,
-      "recruitingSiteCount": 23,
+      "siteCount": 24,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "4ef353f66b67a9ccbe396ecbeaa713eb82c18049ea2f8acd7f098c6c2dfba7f1"
     }
   ],
   "nct03862430": [
@@ -29780,10 +29849,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06792695",
       "source": "https://clinicaltrials.gov/study/NCT06792695",
-      "fetchedAt": "2026-10-07T16:55:03.017Z",
-      "studySha256": "00c66fafff4d5b70abbe6e12458bb078fe8ed18d4b4bb4bcd36cad2740e463e3",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-08-18",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "8878240e4e44fe7cb9969d64bf044723fd1a989d20a9ac0493a97f2e28387ea3",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-22",
       "leadSponsor": "AstraZeneca",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -29791,10 +29860,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 80,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 76,
-      "recruitingSiteCount": 53,
+      "enrolment": 82,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 56,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "Canada",
@@ -29808,7 +29877,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "8878240e4e44fe7cb9969d64bf044723fd1a989d20a9ac0493a97f2e28387ea3"
     }
   ],
   "nct05624918": [
@@ -32227,10 +32297,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06149559",
       "source": "https://clinicaltrials.gov/study/NCT06149559",
-      "fetchedAt": "2026-10-07T16:54:16.815Z",
-      "studySha256": "b5d111948f740725d1ac664947feb0f1d97e8165ff61d94282c77f410ea41d04",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-25",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "063185e5850a4e6f3e1980b9fdafb9c7bd33c86caa1e1bff8c9d8f7bbad8aedc",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-27",
       "leadSponsor": "UCB Biopharma SRL",
       "collaboratorCount": 0,
       "minimumAge": "2 Years",
@@ -32247,7 +32317,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Japan",
         "Poland",
         "Turkey (Türkiye)"
-      ]
+      ],
+      "responseStudySha256": "063185e5850a4e6f3e1980b9fdafb9c7bd33c86caa1e1bff8c9d8f7bbad8aedc"
     }
   ],
   "nct07648030": [
@@ -33432,10 +33503,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06279364",
       "source": "https://clinicaltrials.gov/study/NCT06279364",
-      "fetchedAt": "2026-10-07T16:54:29.928Z",
-      "studySha256": "9d6c8f6b74e30ac90c0b25f1b0ac1f3261fd7bf5d46492e78bd2ca713049e602",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-05-08",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "23f55362df920719a422d73bf0bc7290c9a88b71cc444d82db803d491b46037c",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-21",
       "leadSponsor": "Sichuan Kelun-Biotech Biopharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -33443,13 +33514,14 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 524,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 537,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "23f55362df920719a422d73bf0bc7290c9a88b71cc444d82db803d491b46037c"
     }
   ],
   "nct07071337": [
@@ -33552,10 +33624,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06359860",
       "source": "https://clinicaltrials.gov/study/NCT06359860",
-      "fetchedAt": "2026-10-07T16:54:34.595Z",
-      "studySha256": "ab7dd298474bdcae7d3c91054a19e7197fdcd077b41c901d5946e12d2d142e1a",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-08-24",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "d530d91b3ee94b4f2ffe78d3d1b9020a05c8a17c19efdfbf652a725bfb92a75e",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-05",
       "leadSponsor": "Beijing Scitech-Mq Pharmaceuticals Limited",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -33565,10 +33637,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 64,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "d530d91b3ee94b4f2ffe78d3d1b9020a05c8a17c19efdfbf652a725bfb92a75e"
     }
   ],
   "nct05710848": [
@@ -33969,10 +34042,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07672223",
       "source": "https://clinicaltrials.gov/study/NCT07672223",
-      "fetchedAt": "2026-10-07T16:55:56.330Z",
-      "studySha256": "d7010c03b0640663fd156ec414577c067aedc77771a1bb81b6befc39c232de20",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-06-26",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "ce717a8fecfefcc7fb894a69ba0ade26caf4d25b9d2ab28b7aff1b3483feb5c8",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "CSPC Megalith Biopharmaceutical Co.,Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -33980,10 +34053,14 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 570,
+      "enrolment": 586,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 2,
+      "recruitingSiteCount": 2,
+      "countries": [
+        "China"
+      ],
+      "responseStudySha256": "ce717a8fecfefcc7fb894a69ba0ade26caf4d25b9d2ab28b7aff1b3483feb5c8"
     }
   ],
   "nct06271837": [
@@ -34245,18 +34322,18 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT02716116",
       "source": "https://clinicaltrials.gov/study/NCT02716116",
-      "fetchedAt": "2026-10-07T16:52:49.954Z",
-      "studySha256": "c15bf51ed894d106293b63362028a335b70818af60357ea6de22ae42df388d9f",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-02-25",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "483f4dc8a568c77762183b48ec03685b0e7f27decf5685c9f13d5d2d094b3eba",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "Takeda",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 334,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 324,
+      "enrolmentType": "ACTUAL",
       "siteCount": 62,
       "recruitingSiteCount": 0,
       "countries": [
@@ -34270,7 +34347,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "483f4dc8a568c77762183b48ec03685b0e7f27decf5685c9f13d5d2d094b3eba"
     }
   ],
   "nct06390995": [
@@ -34796,18 +34874,18 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05635708",
       "source": "https://clinicaltrials.gov/study/NCT05635708",
-      "fetchedAt": "2026-10-07T16:53:48.601Z",
-      "studySha256": "54859bbb598da6bda079d178d710da21e14bea34c750d3687b17fb0b60f9f631",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-04-15",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "a1e4c80b833bc5c80935a2affc584c654a3b04f793706a694b878689f67bc4df",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-30",
       "leadSponsor": "BeiGene",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 400,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 418,
+      "enrolmentType": "ACTUAL",
       "siteCount": 61,
       "recruitingSiteCount": 0,
       "countries": [
@@ -34826,7 +34904,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "Thailand",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "a1e4c80b833bc5c80935a2affc584c654a3b04f793706a694b878689f67bc4df"
     }
   ],
   "nct03933735": [
@@ -34857,10 +34936,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05852691",
       "source": "https://clinicaltrials.gov/study/NCT05852691",
-      "fetchedAt": "2026-10-07T16:53:58.081Z",
-      "studySha256": "a6717a59ecaf8f74d6457da10920144a61831919acacb0fdafe955c967272f3d",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-10",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "370f4bf971bd0de3fe20a7028f70a06b77d4ff09e6d226bebe76d18989d26030",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-02",
       "leadSponsor": "Hoffmann-La Roche",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -34869,7 +34948,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 83,
       "enrolmentType": "ACTUAL",
-      "siteCount": 37,
+      "siteCount": 36,
       "recruitingSiteCount": 0,
       "countries": [
         "Argentina",
@@ -34888,7 +34967,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "Taiwan",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "370f4bf971bd0de3fe20a7028f70a06b77d4ff09e6d226bebe76d18989d26030"
     }
   ],
   "nct07439653": [
@@ -34942,9 +35022,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04523272",
       "source": "https://clinicaltrials.gov/study/NCT04523272",
-      "fetchedAt": "2026-10-07T16:53:21.850Z",
-      "studySha256": "18028ecf150a4b7c17fe5e9c9e92983c70db3fc8275461135d3e0fed3f71bc56",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "c0a91f1502ebb94316c767df987a2fdb8143e7a426333d496dc154216b1fa778",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-15",
       "leadSponsor": "Chia Tai Tianqing Pharmaceutical Group Co., Ltd.",
       "collaboratorCount": 0,
@@ -34959,7 +35039,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "c0a91f1502ebb94316c767df987a2fdb8143e7a426333d496dc154216b1fa778"
     }
   ],
   "nct06202261": [
@@ -35013,24 +35094,26 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07428044",
       "source": "https://clinicaltrials.gov/study/NCT07428044",
-      "fetchedAt": "2026-10-07T16:55:44.977Z",
-      "studySha256": "fd20081f994fbf54bb5bc0e9e5ef252389852a841545a80f264f87d6d28eaf25",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-02-23",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "1a437c15ab79b7582bcf0476a964d3b17fedd0eecd30ae74837faade4b8ef08d",
+      "overallStatus": "WITHDRAWN",
+      "lastUpdatePosted": "2026-10-20",
+      "whyStopped": "sponsor closed study",
       "leadSponsor": "Memorial Sloan Kettering Cancer Center",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 14,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 0,
+      "enrolmentType": "ACTUAL",
       "siteCount": 10,
-      "recruitingSiteCount": 7,
+      "recruitingSiteCount": 0,
       "countries": [
         "Canada",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "1a437c15ab79b7582bcf0476a964d3b17fedd0eecd30ae74837faade4b8ef08d"
     }
   ],
   "nct07679360": [
@@ -35109,9 +35192,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06151262",
       "source": "https://clinicaltrials.gov/study/NCT06151262",
-      "fetchedAt": "2026-10-07T16:54:16.815Z",
-      "studySha256": "427c9b96f5cd4f1a1ddab347f39dcf77376563df9f30f81f4aefcffd551c68b9",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "13c5d7d141a6282abd5324937644ef49d3217a0389951df782e12d933fd3b291",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-02-23",
       "leadSponsor": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School",
       "collaboratorCount": 0,
@@ -35126,7 +35209,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "13c5d7d141a6282abd5324937644ef49d3217a0389951df782e12d933fd3b291"
     }
   ],
   "nct05423262": [
@@ -35665,9 +35749,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06117540",
       "source": "https://clinicaltrials.gov/study/NCT06117540",
-      "fetchedAt": "2026-10-07T16:54:14.819Z",
-      "studySha256": "852ee83ac922351f09c23b2812e50dbb4a8e503607ff581be9afeab6e8b1f0d1",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "4176cd4764b2c088bdfe7ac3ba06504c39ad173ab7450ac026ce92f37e9a1a1b",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-11-19",
       "leadSponsor": "Shanghai Jiatan Pharmatech Co., Ltd",
       "collaboratorCount": 0,
@@ -35681,7 +35765,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "4176cd4764b2c088bdfe7ac3ba06504c39ad173ab7450ac026ce92f37e9a1a1b"
     }
   ],
   "nct07213674": [
@@ -37242,10 +37327,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07756645",
       "source": "https://clinicaltrials.gov/study/NCT07756645",
-      "fetchedAt": "2026-10-07T16:56:49.835Z",
-      "studySha256": "42fc39441c6e74d6e2360483d61f5bfb24e53cbf73cd6a8e6f652dbfb31737c6",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-11",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "a861d4ac304bd4c30402b5d3638688f0d9aa0884736a6fac766b7b37248bc382",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-20",
       "leadSponsor": "AbbVie",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -37254,8 +37339,13 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 940,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 2,
+      "recruitingSiteCount": 2,
+      "countries": [
+        "Puerto Rico",
+        "United States"
+      ],
+      "responseStudySha256": "a861d4ac304bd4c30402b5d3638688f0d9aa0884736a6fac766b7b37248bc382"
     }
   ],
   "nct06305247": [
@@ -37560,10 +37650,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06631989",
       "source": "https://clinicaltrials.gov/study/NCT06631989",
-      "fetchedAt": "2026-10-07T16:54:51.841Z",
-      "studySha256": "50989a41168e134ab7480a0fe3a13e968bd3db8393238ab8bba2efe874fbab4c",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-08-29",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "e063b2c6ddda739c7508c3188f7b2f29628de9b956f59fb9c5b328cace038a36",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "Wayshine Biopharm, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -37571,13 +37661,14 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 100,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 60,
+      "enrolmentType": "ACTUAL",
       "siteCount": 12,
-      "recruitingSiteCount": 12,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "e063b2c6ddda739c7508c3188f7b2f29628de9b956f59fb9c5b328cace038a36"
     }
   ],
   "nct06868485": [
@@ -37987,10 +38078,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07128199",
       "source": "https://clinicaltrials.gov/study/NCT07128199",
-      "fetchedAt": "2026-10-07T16:55:27.525Z",
-      "studySha256": "287f57f5af81129fcffd6cc1cb076bd4078c9c1550d2040cf658321de62ae4ac",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-26",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "0ad3a979e14cb97d6b32ced4cdc901a2eaddc91c6a507cddd435d8a7d30c6d4d",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "Taiho Oncology, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -37999,8 +38090,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 360,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 252,
-      "recruitingSiteCount": 0,
+      "siteCount": 253,
+      "recruitingSiteCount": 108,
       "countries": [
         "Argentina",
         "Australia",
@@ -38026,17 +38117,18 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "0ad3a979e14cb97d6b32ced4cdc901a2eaddc91c6a507cddd435d8a7d30c6d4d"
     }
   ],
   "nct07178717": [
     {
       "nct": "NCT07178717",
       "source": "https://clinicaltrials.gov/study/NCT07178717",
-      "fetchedAt": "2026-10-07T16:55:32.313Z",
-      "studySha256": "a1d50bb5ddd33016c27f7bc637e20823e44c9e87233ca8b324997bbe9d3ea02e",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2025-09-17",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "7a0e3094cfc77276148b5663be3d4b608588a9ee122744e07fbd77812c1d1723",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-13",
       "leadSponsor": "Vall d'Hebron Institute of Oncology",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -38046,10 +38138,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 25,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "Spain"
-      ]
+      ],
+      "responseStudySha256": "7a0e3094cfc77276148b5663be3d4b608588a9ee122744e07fbd77812c1d1723"
     }
   ],
   "nct06311721": [
@@ -38318,23 +38411,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06952478",
       "source": "https://clinicaltrials.gov/study/NCT06952478",
-      "fetchedAt": "2026-10-07T16:55:19.231Z",
-      "studySha256": "91d8dbe82409226669c622b45993b2510722171e32a794d295f91c92b0a2148c",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-08-15",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "567e6527e7ed0a2c76652be9a51ccc445c3ce1bdcb3739d4fc0871ad50b4a22d",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-27",
       "leadSponsor": "Celltrion",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 486,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 473,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Taiwan"
-      ]
+      ],
+      "responseStudySha256": "567e6527e7ed0a2c76652be9a51ccc445c3ce1bdcb3739d4fc0871ad50b4a22d"
     }
   ],
   "nct06687369": [
@@ -38901,10 +38995,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06022861",
       "source": "https://clinicaltrials.gov/study/NCT06022861",
-      "fetchedAt": "2026-10-07T16:54:07.437Z",
-      "studySha256": "ea0dfca92f619a6d6b01a246f26290caf0943a4dd60ab27f84516340b38da98e",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2024-09-19",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "7cf156e6e6e841eb69558a33d088c73a1416d090f5886fc6d6488965c3a4dc2b",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "Shandong Boan Biotechnology Co., Ltd",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -38915,10 +39009,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 510,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "7cf156e6e6e841eb69558a33d088c73a1416d090f5886fc6d6488965c3a4dc2b"
     }
   ],
   "nct05197426": [
@@ -39609,10 +39704,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06590246",
       "source": "https://clinicaltrials.gov/study/NCT06590246",
-      "fetchedAt": "2026-10-07T16:54:49.791Z",
-      "studySha256": "608aa54a698f3d34a79499e470210c8a5496a9f2c08a7dcf31f42d44e4311d6b",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-01-02",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "35ea02b8b4354cafd0990aee6e3a93692a97eaac4cd7fdce1e5887dc5c9c4b25",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "Shanghai AbelZeta Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -39623,10 +39718,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 121,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 2,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "35ea02b8b4354cafd0990aee6e3a93692a97eaac4cd7fdce1e5887dc5c9c4b25"
     }
   ],
   "nct04639180": [
@@ -40151,10 +40247,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05879822",
       "source": "https://clinicaltrials.gov/study/NCT05879822",
-      "fetchedAt": "2026-10-07T16:53:59.307Z",
-      "studySha256": "6da52986c55eed91227db6369371035f0a56b6b041b1eb9f75cbe76516d617a8",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-02",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "5a59391e984bbe653c835fd53a2dc210457099461adf32e5c13e1dc88b8cf39e",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-20",
+      "whyStopped": "This was a strategic business decision. There were no safety concerns contributing to this decision.",
       "leadSponsor": "Incyte Corporation",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -40175,7 +40272,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Romania",
         "South Africa",
         "Turkey (Türkiye)"
-      ]
+      ],
+      "responseStudySha256": "5a59391e984bbe653c835fd53a2dc210457099461adf32e5c13e1dc88b8cf39e"
     }
   ],
   "nct05319730": [
@@ -40813,9 +40911,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06522828",
       "source": "https://clinicaltrials.gov/study/NCT06522828",
-      "fetchedAt": "2026-10-07T16:54:45.035Z",
-      "studySha256": "4b528ba4bd01ed65bcc91cd3adecb9c7f923214e10b96572ec983c6c6d621dad",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "f5463961469b98f6fefb2e44c8b7e15ba17c3c39322e0d14275b83d828ce9074",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-21",
       "leadSponsor": "Sunshine Guojian Pharmaceutical (Shanghai) Co., Ltd.",
       "collaboratorCount": 0,
@@ -40830,7 +40928,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "f5463961469b98f6fefb2e44c8b7e15ba17c3c39322e0d14275b83d828ce9074"
     }
   ],
   "nct06055959": [
@@ -41365,23 +41464,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06797297",
       "source": "https://clinicaltrials.gov/study/NCT06797297",
-      "fetchedAt": "2026-10-07T16:55:03.017Z",
-      "studySha256": "831ed6402da6b63140bba9a661fcaaab4766834cc6d57c46a791ac913c891777",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-04-04",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "14260469bcb6f4be184f4928e2b73f670c73f9f73c1e725b97fc53a596569bbb",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-02",
       "leadSponsor": "Innovent Biologics (Suzhou) Co. Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 180,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 203,
+      "enrolmentType": "ACTUAL",
       "siteCount": 31,
-      "recruitingSiteCount": 31,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "14260469bcb6f4be184f4928e2b73f670c73f9f73c1e725b97fc53a596569bbb"
     }
   ],
   "nct07082686": [
@@ -42270,10 +42370,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06051695",
       "source": "https://clinicaltrials.gov/study/NCT06051695",
-      "fetchedAt": "2026-10-07T16:54:07.437Z",
-      "studySha256": "57c1cbc38506525a9d9999cefa8db701a2f434c6e5fd95177ae735e21755c204",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-06-12",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "9acc870206610ebbe63bb92c7b10175d6c1f323efe6105c62d2b0ff0f0ec5f1b",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-16",
       "leadSponsor": "A2 Biotherapeutics Inc.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -42283,10 +42383,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 474,
       "enrolmentType": "ESTIMATED",
       "siteCount": 12,
-      "recruitingSiteCount": 12,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "9acc870206610ebbe63bb92c7b10175d6c1f323efe6105c62d2b0ff0f0ec5f1b"
     }
   ],
   "nct06818643": [
@@ -42636,10 +42737,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05804669",
       "source": "https://clinicaltrials.gov/study/NCT05804669",
-      "fetchedAt": "2026-10-07T16:53:56.649Z",
-      "studySha256": "69f9f46ae5a208ef6c2cbf403960b855091ecf5fcfdaff3bb079023aab077d11",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-19",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "55bbf330fb5539ee5365f2ecc3c7734f382052b007ae6b66a9ee1966da2e951c",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-14",
       "leadSponsor": "Crinetics Pharmaceuticals Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -42652,7 +42753,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "55bbf330fb5539ee5365f2ecc3c7734f382052b007ae6b66a9ee1966da2e951c"
     }
   ],
   "nct06116136": [
@@ -43754,10 +43856,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07129252",
       "source": "https://clinicaltrials.gov/study/NCT07129252",
-      "fetchedAt": "2026-10-07T16:55:28.490Z",
-      "studySha256": "40e1a724b2318180fa39e957318e8f823b22d3511411e3c3294dc2bf8e8348ea",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-07-31",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "80020b98db092d3bae3462419951be049cbac643ce23b6d65aee9adb9fd8f453",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "Crinetics Pharmaceuticals Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -43767,11 +43869,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 150,
       "enrolmentType": "ESTIMATED",
       "siteCount": 27,
-      "recruitingSiteCount": 27,
+      "recruitingSiteCount": 0,
       "countries": [
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "80020b98db092d3bae3462419951be049cbac643ce23b6d65aee9adb9fd8f453"
     }
   ],
   "nct06634589": [
@@ -44135,10 +44238,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06417814",
       "source": "https://clinicaltrials.gov/study/NCT06417814",
-      "fetchedAt": "2026-10-07T16:54:39.727Z",
-      "studySha256": "634499e80c6ab9ef225c2aaa15b7d4bb4bd3a3b6b31701b01ce62607059a44ec",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-05-14",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "8844b16730cbd4d86838f5bc903701d7d3e261baca5724281936f393695116df",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-15",
       "leadSponsor": "AstraZeneca",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -44146,10 +44249,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 744,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 303,
-      "recruitingSiteCount": 267,
+      "enrolment": 768,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 211,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "Belgium",
@@ -44165,11 +44268,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Italy",
         "Japan",
         "Malaysia",
-        "Netherlands",
         "Philippines",
         "Poland",
-        "Portugal",
-        "Romania",
         "Singapore",
         "South Korea",
         "Spain",
@@ -44178,7 +44278,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "United Kingdom",
         "United States",
         "Vietnam"
-      ]
+      ],
+      "responseStudySha256": "8844b16730cbd4d86838f5bc903701d7d3e261baca5724281936f393695116df"
     }
   ],
   "nct06256328": [
@@ -45704,10 +45805,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05562830",
       "source": "https://clinicaltrials.gov/study/NCT05562830",
-      "fetchedAt": "2026-10-07T16:53:45.224Z",
-      "studySha256": "32a510e427f51395ac9d717a331ad40b63ee90a366193b64bde5dc43c7a4d8fb",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-28",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "87ec21c090f331e2a8d68fbed0d9064acd33a9f35a64c94b0af9716733a65968",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-10",
       "leadSponsor": "Merck Sharp & Dohme LLC",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -45717,7 +45818,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 48,
       "enrolmentType": "ESTIMATED",
       "siteCount": 28,
-      "recruitingSiteCount": 25,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "Canada",
@@ -45730,7 +45831,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "87ec21c090f331e2a8d68fbed0d9064acd33a9f35a64c94b0af9716733a65968"
     }
   ],
   "nct07213804": [
@@ -46505,9 +46607,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06654440",
       "source": "https://clinicaltrials.gov/study/NCT06654440",
-      "fetchedAt": "2026-10-07T16:54:53.335Z",
-      "studySha256": "e898f9ba7b63aa026925b71b6cf51d1dd8559355d5f63924ddf7b53d6ac8932b",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "afe95aef0e1705721b2203b4550af9527a74445e1ea37cda6c8810a3a9a4a5c6",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-12-10",
       "leadSponsor": "Shanghai Hengrui Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
@@ -46522,7 +46624,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "afe95aef0e1705721b2203b4550af9527a74445e1ea37cda6c8810a3a9a4a5c6"
     }
   ],
   "nct07393542": [
@@ -46577,9 +46680,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06474468",
       "source": "https://clinicaltrials.gov/study/NCT06474468",
-      "fetchedAt": "2026-10-07T16:54:41.796Z",
-      "studySha256": "4b189a0569bf96c1a25bad5a5a02f63b596c14376e70f36bb337ed7e227e2d22",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "b14eeec12caa456677a45cdbf5632fd9b8bc0a0e36fbc25fdc3276c0d9d17676",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2025-01-03",
       "leadSponsor": "Shanghai Hengrui Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
@@ -46594,7 +46697,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "b14eeec12caa456677a45cdbf5632fd9b8bc0a0e36fbc25fdc3276c0d9d17676"
     }
   ],
   "nct06512051": [
@@ -47528,25 +47632,26 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05828511",
       "source": "https://clinicaltrials.gov/study/NCT05828511",
-      "fetchedAt": "2026-10-07T16:53:56.649Z",
-      "studySha256": "660ab52d0645f0db5d74d8bec39bd3ba30a8296404d68a863d7b3720de713f3f",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-05-13",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "1de6a3c8f5ff9ee9d639bfafee1c9ba1505a7f96b99be73128b4038804b930cb",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-06",
       "leadSponsor": "Regeneron Pharmaceuticals",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 149,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 148,
+      "enrolmentType": "ACTUAL",
       "siteCount": 32,
-      "recruitingSiteCount": 31,
+      "recruitingSiteCount": 0,
       "countries": [
         "France",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "1de6a3c8f5ff9ee9d639bfafee1c9ba1505a7f96b99be73128b4038804b930cb"
     }
   ],
   "a-brave": [
@@ -47736,23 +47841,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07285694",
       "source": "https://clinicaltrials.gov/study/NCT07285694",
-      "fetchedAt": "2026-10-07T16:55:38.126Z",
-      "studySha256": "4d358981cb91da1f4925b4de7db711f1f19ec366f784e0134037c2f667065073",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-03",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "94f1e706247c6392ddc93347b5dcf76337d52463142513253474ef9a93a11a74",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-11-16",
+      "whyStopped": "Sponsor decision",
       "leadSponsor": "Arsenal Biosciences, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "MALE",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 190,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 3,
+      "enrolmentType": "ACTUAL",
       "siteCount": 9,
       "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "94f1e706247c6392ddc93347b5dcf76337d52463142513253474ef9a93a11a74"
     }
   ],
   "nct05211570": [
@@ -48696,10 +48803,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07746388",
       "source": "https://clinicaltrials.gov/study/NCT07746388",
-      "fetchedAt": "2026-10-07T16:56:49.835Z",
-      "studySha256": "a4a146e84e3b973de42b5b54b747320c78e98b062ee72de182ce42e31f4baa92",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-07",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "821c62b6b817f6c062bf98cd504d5f5151379a98698dde206a06e31b7dbbb123",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "University of Maryland, Baltimore",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -48708,8 +48815,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 30,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 5,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "United States"
+      ],
+      "responseStudySha256": "821c62b6b817f6c062bf98cd504d5f5151379a98698dde206a06e31b7dbbb123"
     }
   ],
   "nct07523555": [
@@ -48740,10 +48851,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06545747",
       "source": "https://clinicaltrials.gov/study/NCT06545747",
-      "fetchedAt": "2026-10-07T16:54:46.480Z",
-      "studySha256": "2154b0d4384ed6f8434854bc516290d11130c80be49e501e48c04bc323781db1",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-04-06",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "51cb551250185b5a654730e108c453ed191b19d271ed1e317ee32a6d511952d8",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "Sun Yat-sen University",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -48754,10 +48865,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 490,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "51cb551250185b5a654730e108c453ed191b19d271ed1e317ee32a6d511952d8"
     }
   ],
   "nct07744256": [
@@ -48906,9 +49018,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06268327",
       "source": "https://clinicaltrials.gov/study/NCT06268327",
-      "fetchedAt": "2026-10-07T16:54:29.928Z",
-      "studySha256": "3157d0d5c642f2fc2c27adf1a462ff1900cd47621e1f98def1501fc69d2ecc51",
-      "overallStatus": "NOT_YET_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "40d6150d7d08b4f2bfe937187bb58fcecd8d0fc78ce32314c3b08dbe47f9e1b5",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-02-20",
       "leadSponsor": "Assiut University",
       "collaboratorCount": 0,
@@ -48919,7 +49031,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 30,
       "enrolmentType": "ESTIMATED",
       "siteCount": 0,
-      "recruitingSiteCount": 0
+      "recruitingSiteCount": 0,
+      "responseStudySha256": "40d6150d7d08b4f2bfe937187bb58fcecd8d0fc78ce32314c3b08dbe47f9e1b5"
     }
   ],
   "nct07802626": [
@@ -50142,10 +50255,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05601752",
       "source": "https://clinicaltrials.gov/study/NCT05601752",
-      "fetchedAt": "2026-10-07T16:53:47.239Z",
-      "studySha256": "3fd150e1970008980e3eba51775ab6f4edcec862a0abbacb275ca0955ecfa07a",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-12",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "a6c2298d1fde94ef3942607b398d11a230350417fd33745346708bb50bf42a1e",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-19",
+      "whyStopped": "Enrollment was halted following withdrawal of the U.S. IND. Previously enrolled participants completed treatment and follow-up, after which the study was closed.",
       "leadSponsor": "USWM CT, LLC",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -50153,8 +50267,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "FEMALE",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 66,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 21,
+      "enrolmentType": "ACTUAL",
       "siteCount": 23,
       "recruitingSiteCount": 0,
       "countries": [
@@ -50163,7 +50277,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "a6c2298d1fde94ef3942607b398d11a230350417fd33745346708bb50bf42a1e"
     }
   ],
   "adriatic": [
@@ -50547,10 +50662,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06638931",
       "source": "https://clinicaltrials.gov/study/NCT06638931",
-      "fetchedAt": "2026-10-07T16:54:53.335Z",
-      "studySha256": "a0199d93a2f344d5d16aa29d75eed8aca83442c145e25379a0299475d9fbc15d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-04-15",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "5b3329f51c017e4bfe75f2b9780473d02201a3317c03e7ed189a99a9b23b692d",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "Instituto do Cancer do Estado de São Paulo",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -50559,11 +50674,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 28,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 8,
-      "recruitingSiteCount": 2,
+      "siteCount": 5,
+      "recruitingSiteCount": 0,
       "countries": [
         "Brazil"
-      ]
+      ],
+      "responseStudySha256": "5b3329f51c017e4bfe75f2b9780473d02201a3317c03e7ed189a99a9b23b692d"
     }
   ],
   "ahl2011": [
@@ -53289,10 +53405,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT03533283",
       "source": "https://clinicaltrials.gov/study/NCT03533283",
-      "fetchedAt": "2026-10-07T16:53:04.076Z",
-      "studySha256": "7af08aa10a1efa0a821272ca63dbd341e1f089bfb2cbeb4fe8dcc1da988ad25f",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-10-02",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "a86dc00248d6f9acb0b37c0ae8680754c5f7e303cfc09b4dde5c94ee353f3889",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-02",
       "leadSponsor": "Hoffmann-La Roche",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -53311,7 +53427,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "a86dc00248d6f9acb0b37c0ae8680754c5f7e303cfc09b4dde5c94ee353f3889"
     }
   ],
   "nct05939414": [
@@ -53537,10 +53654,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07806058",
       "source": "https://clinicaltrials.gov/study/NCT07806058",
-      "fetchedAt": "2026-10-07T16:56:51.027Z",
-      "studySha256": "87b0af07b85c5df39d93aa6af890f8301541300e3d731e0470a5fe1688b2e2f1",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-08",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "78b8bbfdaf8fe407e368d8a2858db83bc59c9d35866341d9d270a957a4fa90f5",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-26",
       "leadSponsor": "Jiangsu HengRui Medicine Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -53551,10 +53668,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 140,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "78b8bbfdaf8fe407e368d8a2858db83bc59c9d35866341d9d270a957a4fa90f5"
     }
   ],
   "nct07589569": [
@@ -55215,23 +55333,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06498479",
       "source": "https://clinicaltrials.gov/study/NCT06498479",
-      "fetchedAt": "2026-10-07T16:54:43.174Z",
-      "studySha256": "8e65fd34079d4d46e20421b0c546d1822ded9cacbf3766d57b4773f356c2608a",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2024-10-16",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "08d115f760d8ffbe94515c9c1fc33a133c816f6ebb8a1ec110d051c1df15b3fa",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-16",
       "leadSponsor": "Hansoh BioMedical R&D Company",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 460,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 461,
+      "enrolmentType": "ACTUAL",
       "siteCount": 9,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "08d115f760d8ffbe94515c9c1fc33a133c816f6ebb8a1ec110d051c1df15b3fa"
     }
   ],
   "nct04098744": [
@@ -55786,10 +55905,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT03326791",
       "source": "https://clinicaltrials.gov/study/NCT03326791",
-      "fetchedAt": "2026-10-07T16:53:00.258Z",
-      "studySha256": "a07f4f8e128d3e271165e3c927bca62be79e2e7536d53ab821194130a59af005",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2025-07-31",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "0dc59febbbeeb95a78dd43ccb2147556006fc1326a31394cbdba11f9d258dec9",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-16",
       "leadSponsor": "Oslo University Hospital",
       "collaboratorCount": 3,
       "minimumAge": "18 Years",
@@ -55804,7 +55923,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Denmark",
         "Norway",
         "Sweden"
-      ]
+      ],
+      "responseStudySha256": "0dc59febbbeeb95a78dd43ccb2147556006fc1326a31394cbdba11f9d258dec9"
     }
   ],
   "nct03464305": [
@@ -55907,10 +56027,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT03847428",
       "source": "https://clinicaltrials.gov/study/NCT03847428",
-      "fetchedAt": "2026-10-07T16:53:10.205Z",
-      "studySha256": "c492fd2ce52f5b3f83574be85fc3db64463a0c1560cebe68791971b85ee61150",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-14",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "dafffb6e1f87bd45649598609037bbe766ea09b147a4d4bee15419bd7a0d92ef",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-08",
       "leadSponsor": "AstraZeneca",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -55947,7 +56067,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United States",
         "Vietnam"
-      ]
+      ],
+      "responseStudySha256": "dafffb6e1f87bd45649598609037bbe766ea09b147a4d4bee15419bd7a0d92ef"
     }
   ],
   "nct05794750": [
@@ -56231,10 +56352,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07015853",
       "source": "https://clinicaltrials.gov/study/NCT07015853",
-      "fetchedAt": "2026-10-07T16:55:21.080Z",
-      "studySha256": "c1dda1bd1aa28c84d6dce98ba3d0881a12031d06dae508b5e04c80cf68f7ca54",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-04-20",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "9a9a0a4da270c20c4d3f2ceb4c5c26c60c5aa07f48daa4e2cfc8eb7a724727d2",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-16",
       "leadSponsor": "Stephen Shiao",
       "collaboratorCount": 2,
       "minimumAge": "18 Years",
@@ -56244,10 +56365,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 34,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "9a9a0a4da270c20c4d3f2ceb4c5c26c60c5aa07f48daa4e2cfc8eb7a724727d2"
     }
   ],
   "astrum-005": [
@@ -58048,10 +58170,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04886804",
       "source": "https://clinicaltrials.gov/study/NCT04886804",
-      "fetchedAt": "2026-10-07T16:53:30.019Z",
-      "studySha256": "1e4d44b3708243ceb05d59a573d992f0f1cc836f83dca66245b03cd300a4603f",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-10-05",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "75b875ff014ac2e4175e97f9dc6567fe215712750022cdd16417d8ac0961fbc7",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "Boehringer Ingelheim",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -58061,7 +58183,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 554,
       "enrolmentType": "ESTIMATED",
       "siteCount": 85,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 34,
       "countries": [
         "Australia",
         "Austria",
@@ -58081,7 +58203,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Sweden",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "75b875ff014ac2e4175e97f9dc6567fe215712750022cdd16417d8ac0961fbc7"
     }
   ],
   "nct06151574": [
@@ -59645,10 +59768,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07645118",
       "source": "https://clinicaltrials.gov/study/NCT07645118",
-      "fetchedAt": "2026-10-07T16:55:52.872Z",
-      "studySha256": "a6cc730180943cd4c62e3404f304833b4c5ad892bdd799017539c41ff11a4312",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-06-12",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "0136152d87536a9fc482934177106e8968a6048d3068a51b7a653013a04ea0de",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "Dr. Te Vuong",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -59658,10 +59781,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 10,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "Canada"
-      ]
+      ],
+      "responseStudySha256": "0136152d87536a9fc482934177106e8968a6048d3068a51b7a653013a04ea0de"
     }
   ],
   "nct06793332": [
@@ -61721,10 +61845,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07087054",
       "source": "https://clinicaltrials.gov/study/NCT07087054",
-      "fetchedAt": "2026-10-07T16:55:25.997Z",
-      "studySha256": "a78e101246e073ea5de6384713e5db6dbb5c8d7ae19e247eb2ec38c25a90e3da",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-15",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "f61643e1ec6635deae803db8d903a1f3c308d04be13a75f15e835bcc39bf9a80",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-15",
       "leadSponsor": "Crinetics Pharmaceuticals Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -61733,8 +61857,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 141,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 73,
-      "recruitingSiteCount": 72,
+      "siteCount": 72,
+      "recruitingSiteCount": 0,
       "countries": [
         "Argentina",
         "Belgium",
@@ -61750,7 +61874,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "f61643e1ec6635deae803db8d903a1f3c308d04be13a75f15e835bcc39bf9a80"
     }
   ],
   "card": [
@@ -62279,10 +62404,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06538857",
       "source": "https://clinicaltrials.gov/study/NCT06538857",
-      "fetchedAt": "2026-10-07T16:54:46.480Z",
-      "studySha256": "10210541a589c14511fde15c98bc0474c496aa22fb0b55ae80df0d406536ecf4",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-10-05",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "e1d0133aa9fe07877f108643c4aa10af99a3a88dbb5d592db35f740225a597ab",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-14",
       "leadSponsor": "CEBIOTEX",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -62292,33 +62417,35 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 39,
       "enrolmentType": "ESTIMATED",
       "siteCount": 4,
-      "recruitingSiteCount": 4,
+      "recruitingSiteCount": 0,
       "countries": [
         "Spain"
-      ]
+      ],
+      "responseStudySha256": "e1d0133aa9fe07877f108643c4aa10af99a3a88dbb5d592db35f740225a597ab"
     }
   ],
   "nct06986811": [
     {
       "nct": "NCT06986811",
       "source": "https://clinicaltrials.gov/study/NCT06986811",
-      "fetchedAt": "2026-10-07T16:55:20.203Z",
-      "studySha256": "e981c2f5ebfcc5aad04c442384d6c781731bbed24eec21477b8ad50f89e71578",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-05-31",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "35e4df5da4282266fe47eb2dc8b8ba9b6698565f6064678039ba294fc09bcd3a",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-20",
       "leadSponsor": "CEBIOTEX",
-      "collaboratorCount": 0,
+      "collaboratorCount": 1,
       "maximumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 60,
+      "enrolment": 80,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Spain"
-      ]
+      ],
+      "responseStudySha256": "35e4df5da4282266fe47eb2dc8b8ba9b6698565f6064678039ba294fc09bcd3a"
     }
   ],
   "nct00399035": [
@@ -64219,9 +64346,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04921527",
       "source": "https://clinicaltrials.gov/study/NCT04921527",
-      "fetchedAt": "2026-10-07T16:53:30.712Z",
-      "studySha256": "d95086e071cd5aee471f5ed1f2bcf37c7f86cae4836e58c5c46b8109ef9f69a4",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "a70f4d2dd37fa06c6540ec9effe6b211b8d232f95cf066156ca4a298b53bc44c",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-18",
       "leadSponsor": "Chipscreen Biosciences, Ltd.",
       "collaboratorCount": 0,
@@ -64236,7 +64363,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "a70f4d2dd37fa06c6540ec9effe6b211b8d232f95cf066156ca4a298b53bc44c"
     }
   ],
   "nct07570849": [
@@ -67988,9 +68116,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04516681",
       "source": "https://clinicaltrials.gov/study/NCT04516681",
-      "fetchedAt": "2026-10-07T16:53:21.850Z",
-      "studySha256": "b91bc21fad74c85a15aa7e4b2c3137bfafe4be01b9bd12be2b69350d5fbd2a66",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "529039d37d1365e12271b0ff95e29127e31db68d8e542da5881ff88385fbd1da",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-24",
       "leadSponsor": "Fudan University",
       "collaboratorCount": 0,
@@ -68005,7 +68133,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "529039d37d1365e12271b0ff95e29127e31db68d8e542da5881ff88385fbd1da"
     }
   ],
   "nct07151872": [
@@ -70739,10 +70868,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07707895",
       "source": "https://clinicaltrials.gov/study/NCT07707895",
-      "fetchedAt": "2026-10-07T16:55:59.097Z",
-      "studySha256": "003519f82b69d3ec092c9e4b8e2b2a11e08416b67b7162b97dac68fce1cd6745",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-29",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "c4dfb541f6361b654d269b9de0c7d0096c0d1550da267509df1f947c3449da39",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "Boehringer Ingelheim",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -70751,8 +70880,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 60,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 27,
-      "recruitingSiteCount": 0,
+      "siteCount": 28,
+      "recruitingSiteCount": 5,
       "countries": [
         "Australia",
         "Belgium",
@@ -70765,7 +70894,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "c4dfb541f6361b654d269b9de0c7d0096c0d1550da267509df1f947c3449da39"
     }
   ],
   "nct07544654": [
@@ -74189,23 +74319,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05451043",
       "source": "https://clinicaltrials.gov/study/NCT05451043",
-      "fetchedAt": "2026-10-07T16:53:42.604Z",
-      "studySha256": "ceda4a4a3cb5712fc709408c8136259afdda1d25e93eac15412c63b060b95775",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-06-26",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "f3852c465f0c8abe7f68ee19650472b1c4c523730e0a2301ecd59a84626d6bee",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "AHS Cancer Control Alberta",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 62,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 15,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Canada"
-      ]
+      ],
+      "responseStudySha256": "f3852c465f0c8abe7f68ee19650472b1c4c523730e0a2301ecd59a84626d6bee"
     }
   ],
   "nct07081633": [
@@ -74922,10 +75053,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06556563",
       "source": "https://clinicaltrials.gov/study/NCT06556563",
-      "fetchedAt": "2026-10-07T16:54:48.431Z",
-      "studySha256": "3abc410dfce390a0d06273f11824ba7cb8428677d0298227d2b4986d37e0b206",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-08-19",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "78ae37c250060395fbdc8b6b14ecccdede7420fc718511c161245156b4301907",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-06",
       "leadSponsor": "NovoCure GmbH",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -74935,7 +75066,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 741,
       "enrolmentType": "ESTIMATED",
       "siteCount": 102,
-      "recruitingSiteCount": 19,
+      "recruitingSiteCount": 0,
       "countries": [
         "Canada",
         "Czechia",
@@ -74949,7 +75080,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Switzerland",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "78ae37c250060395fbdc8b6b14ecccdede7420fc718511c161245156b4301907"
     }
   ],
   "nct02813824": [
@@ -75467,10 +75599,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07276789",
       "source": "https://clinicaltrials.gov/study/NCT07276789",
-      "fetchedAt": "2026-10-07T16:55:36.272Z",
-      "studySha256": "c193200f6c908ad99c3fa0e5d1e4d28394cf6ea74635e823379b5888b0ecb449",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-04-20",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "15c59b4b16324ebfc2db8cabd4f2e71b04f78b674b5005a29689bd87791ca12c",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-03",
       "leadSponsor": "Integro Theranostics",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -75479,11 +75611,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 35,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 2,
-      "recruitingSiteCount": 2,
+      "siteCount": 3,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "15c59b4b16324ebfc2db8cabd4f2e71b04f78b674b5005a29689bd87791ca12c"
     }
   ],
   "nct05304481": [
@@ -75867,10 +76000,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06224257",
       "source": "https://clinicaltrials.gov/study/NCT06224257",
-      "fetchedAt": "2026-10-07T16:54:19.620Z",
-      "studySha256": "42ddb45eaa09ab318c1686c5bfadcdffc1f337b5b20c5f0076c345602f6811a5",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-08-05",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "2619ef16c2defd1234a365d3b585afbc3e0055e65cc3eeead18baabac95d5143",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-06",
       "leadSponsor": "Institute of Hematology & Blood Diseases Hospital, China",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -75878,12 +76011,13 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "healthyVolunteers": false,
       "hasEligibility": true,
       "enrolment": 41,
-      "enrolmentType": "ESTIMATED",
+      "enrolmentType": "ACTUAL",
       "siteCount": 3,
-      "recruitingSiteCount": 3,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "2619ef16c2defd1234a365d3b585afbc3e0055e65cc3eeead18baabac95d5143"
     }
   ],
   "nct07108504": [
@@ -75947,9 +76081,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06028633",
       "source": "https://clinicaltrials.gov/study/NCT06028633",
-      "fetchedAt": "2026-10-07T16:54:07.437Z",
-      "studySha256": "9cd6366ffcfa1cce05d5033a25f58c8a137a0f04c9458baef1bd20c267cd42cf",
-      "overallStatus": "NOT_YET_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "b5e3a8176aff8acf4ca78d19389aceb0ad586e7f5e7e93305b905385a198057b",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2023-09-13",
       "leadSponsor": "Peking University First Hospital",
       "collaboratorCount": 1,
@@ -75964,7 +76098,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "b5e3a8176aff8acf4ca78d19389aceb0ad586e7f5e7e93305b905385a198057b"
     }
   ],
   "nct07379047": [
@@ -76937,10 +77072,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05065801",
       "source": "https://clinicaltrials.gov/study/NCT05065801",
-      "fetchedAt": "2026-10-07T16:53:33.387Z",
-      "studySha256": "7c41eec124d4c1130cde2d84794015e9c3dda980ff77c55a44b2cb40693d1124",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-04-15",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "871449b53f34ec3f22c112cd9866b3c3c7c0be8cf016e1157579040d2332a28f",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-09",
       "leadSponsor": "Institut du Cancer de Montpellier - Val d'Aurelle",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -76951,10 +77086,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 162,
       "enrolmentType": "ESTIMATED",
       "siteCount": 8,
-      "recruitingSiteCount": 5,
+      "recruitingSiteCount": 0,
       "countries": [
         "France"
-      ]
+      ],
+      "responseStudySha256": "871449b53f34ec3f22c112cd9866b3c3c7c0be8cf016e1157579040d2332a28f"
     }
   ],
   "nct04861558": [
@@ -77479,10 +77615,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT02475681",
       "source": "https://clinicaltrials.gov/study/NCT02475681",
-      "fetchedAt": "2026-10-07T16:52:46.087Z",
-      "studySha256": "43c7931338ceb2311b83ae2826c94d4cef914bed9fb82bff876a4564019de991",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-25",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "cb2123efda493ea04435a9a0dbf779a0dae51171ea191aa0b13cea6dd78c794d",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-16",
       "leadSponsor": "Acerta Pharma BV",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -77512,7 +77648,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Sweden",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "cb2123efda493ea04435a9a0dbf779a0dae51171ea191aa0b13cea6dd78c794d"
     }
   ],
   "eliana": [
@@ -78066,9 +78203,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06640166",
       "source": "https://clinicaltrials.gov/study/NCT06640166",
-      "fetchedAt": "2026-10-07T16:54:53.335Z",
-      "studySha256": "7097d882febdbe9d68b079e1944e655e3c096dfa1942d0df702a7cdf75c68288",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "7e1f769e1032e0e65ef812d10be4189a8654db834a48c485f74817b7bd9ef34f",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2025-02-12",
       "leadSponsor": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
       "collaboratorCount": 1,
@@ -78082,7 +78219,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 2,
       "countries": [
         "Italy"
-      ]
+      ],
+      "responseStudySha256": "7e1f769e1032e0e65ef812d10be4189a8654db834a48c485f74817b7bd9ef34f"
     }
   ],
   "nct05706779": [
@@ -78261,10 +78399,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07698106",
       "source": "https://clinicaltrials.gov/study/NCT07698106",
-      "fetchedAt": "2026-10-07T16:55:59.097Z",
-      "studySha256": "6204a30f20d4974a5337a6f02e3c5c61da7c56cf384aae9d8008ed530d39d94e",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-28",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "a7fb7ba44f7c0f07c7d925bfb558f87070a9d37999da05b5880760fbc28e4d0b",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-29",
       "leadSponsor": "University Health Network, Toronto",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -78273,8 +78411,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 60,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 1,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "Canada"
+      ],
+      "responseStudySha256": "a7fb7ba44f7c0f07c7d925bfb558f87070a9d37999da05b5880760fbc28e4d0b"
     }
   ],
   "enliven": [
@@ -79916,10 +80058,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04895722",
       "source": "https://clinicaltrials.gov/study/NCT04895722",
-      "fetchedAt": "2026-10-07T16:53:30.019Z",
-      "studySha256": "b58ce81dcff17ccb0b42ebc031e6dc7dd9384a5c45dc1b652bedb8c824b53608",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-07-02",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "a06200b1a63c2ebf14be455adf43c604bcfe6075dfe0839ad9dfee067804b09a",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-13",
       "leadSponsor": "Merck Sharp & Dohme LLC",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -79953,7 +80095,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "a06200b1a63c2ebf14be455adf43c604bcfe6075dfe0839ad9dfee067804b09a"
     }
   ],
   "nct06612281": [
@@ -80454,23 +80597,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07097064",
       "source": "https://clinicaltrials.gov/study/NCT07097064",
-      "fetchedAt": "2026-10-07T16:55:25.997Z",
-      "studySha256": "b862970f8ac5b37bf15dc675e108e8d7aab9e0857cae5a1cbf01e61464c9bec3",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2025-07-31",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "7845b06504b3b12bae9a874ec1693846498306fbf9b9c77345071cab3b04f8eb",
+      "overallStatus": "WITHDRAWN",
+      "lastUpdatePosted": "2026-11-12",
+      "whyStopped": "The study was withdrawn prior to enrollment due to lack of funding",
       "leadSponsor": "Institut du Cancer de Montpellier - Val d'Aurelle",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 160,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 0,
+      "enrolmentType": "ACTUAL",
       "siteCount": 17,
       "recruitingSiteCount": 0,
       "countries": [
         "France"
-      ]
+      ],
+      "responseStudySha256": "7845b06504b3b12bae9a874ec1693846498306fbf9b9c77345071cab3b04f8eb"
     }
   ],
   "nct07407803": [
@@ -81391,10 +81536,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07815834",
       "source": "https://clinicaltrials.gov/study/NCT07815834",
-      "fetchedAt": "2026-10-07T16:56:52.065Z",
-      "studySha256": "744daba9cbf92468db29b81eb9d7177a421af25ea39b98a25e5d119430a21fe3",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-11",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "c70c054df76dfe6414f6af966d04bd654ac9a82491e46b650bf3b0ff6fefc512",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "Fudan University",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -81405,10 +81550,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 198,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "c70c054df76dfe6414f6af966d04bd654ac9a82491e46b650bf3b0ff6fefc512"
     }
   ],
   "nct07478523": [
@@ -81485,10 +81631,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT02584244",
       "source": "https://clinicaltrials.gov/study/NCT02584244",
-      "fetchedAt": "2026-10-07T16:52:48.013Z",
-      "studySha256": "8b3a056c52d9ada625f4c70fa2b7d53d730a76681c9e299a2f727ffe44da9291",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-01-16",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "2cc6d19c72ecd44b0cf3454ed2d0a69cfff54f9c85bbf5d34e49ba4643216098",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-10",
       "leadSponsor": "Lumicell, Inc.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -81498,10 +81644,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 66,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "2cc6d19c72ecd44b0cf3454ed2d0a69cfff54f9c85bbf5d34e49ba4643216098"
     }
   ],
   "nct03290534": [
@@ -82041,11 +82188,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07756281",
       "source": "https://clinicaltrials.gov/study/NCT07756281",
-      "fetchedAt": "2026-10-08T16:42:13.801Z",
-      "studySha256": "202a2074182a7e229f4082e70806c927945453802cf53b036afa8bcca9c20eca",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-10",
-      "leadSponsor": "Synnovation Therapeutics, Inc.",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "39341dd36eef3b15fb5925d9d332c7ca9618c7b7575d7cf18927728dbf50f0b2",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-27",
+      "leadSponsor": "ParVation Therapeutics, Inc.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
       "sex": "ALL",
@@ -82053,8 +82200,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 40,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 1,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "United States"
+      ],
+      "responseStudySha256": "39341dd36eef3b15fb5925d9d332c7ca9618c7b7575d7cf18927728dbf50f0b2"
     }
   ],
   "nct05120596": [
@@ -83899,29 +84050,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       ]
     }
   ],
-  "foxtrot": [
-    {
-      "nct": "NCT06293625",
-      "source": "https://clinicaltrials.gov/study/NCT06293625",
-      "fetchedAt": "2026-10-07T16:54:32.196Z",
-      "studySha256": "d5d823cebfc72c5ce417223457f649c7010edffc6314ed438c8f229074a9f3ff",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-03-30",
-      "leadSponsor": "Centre Hospitalier Universitaire Dijon",
-      "collaboratorCount": 0,
-      "minimumAge": "70 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 150,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 1,
-      "recruitingSiteCount": 1,
-      "countries": [
-        "France"
-      ]
-    }
-  ],
+  "foxtrot": [],
   "nct06909825": [
     {
       "nct": "NCT06909825",
@@ -84386,10 +84515,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07289646",
       "source": "https://clinicaltrials.gov/study/NCT07289646",
-      "fetchedAt": "2026-10-07T16:55:38.126Z",
-      "studySha256": "09e6db5c98403bc8c75de0aa9ab9e72f860478e750bd989c46057ef2d36fd60e",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-01-14",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "cec3fe20d6b3464150be8efa62c8d0e6fdc056e9be5324d4918c94468d4031ff",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-15",
       "leadSponsor": "University Hospital, Brest",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -84399,10 +84528,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 418,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "France"
-      ]
+      ],
+      "responseStudySha256": "cec3fe20d6b3464150be8efa62c8d0e6fdc056e9be5324d4918c94468d4031ff"
     }
   ],
   "furlong": [
@@ -85888,10 +86018,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07718737",
       "source": "https://clinicaltrials.gov/study/NCT07718737",
-      "fetchedAt": "2026-10-07T16:56:10.647Z",
-      "studySha256": "3be649f0e0d9e776180adfa40779d79b662513c267495b8fab20480201f5c0d1",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-10",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "38f81ca378bf1ccaa23959594bb39d9f3c3f67fcdcc1da5e1c9e25c95667c44e",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-26",
       "leadSponsor": "Multitude Therapeutics Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -85902,11 +86032,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 512,
       "enrolmentType": "ESTIMATED",
       "siteCount": 7,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "Australia",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "38f81ca378bf1ccaa23959594bb39d9f3c3f67fcdcc1da5e1c9e25c95667c44e"
     }
   ],
   "nct06252675": [
@@ -86138,10 +86269,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07802184",
       "source": "https://clinicaltrials.gov/study/NCT07802184",
-      "fetchedAt": "2026-10-07T16:56:51.027Z",
-      "studySha256": "471f7bab5ec60894623be74df5393592c1a06f405eae71c858b3b1b71b0b2aef",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-03",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "1f500053bc46ae62ab8e8ca65b4946cd94f804018e14186c5cb1750c1bf19398",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-09",
       "leadSponsor": "West China Hospital",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -86152,10 +86283,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 45,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "1f500053bc46ae62ab8e8ca65b4946cd94f804018e14186c5cb1750c1bf19398"
     }
   ],
   "gog-0218-icon7": [
@@ -86707,10 +86839,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05899608",
       "source": "https://clinicaltrials.gov/study/NCT05899608",
-      "fetchedAt": "2026-10-07T16:53:59.307Z",
-      "studySha256": "a9f3c8e7311ead563df3d40b74c1c5c271fa0283b8aca9ca814e926e3057b20f",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-08-24",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "30ff75fee627420bb5e745a3acb80f1082549bd601c187cab60e0cb5fe293657",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-08",
       "leadSponsor": "Summit Therapeutics",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -86720,7 +86852,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 1600,
       "enrolmentType": "ESTIMATED",
       "siteCount": 260,
-      "recruitingSiteCount": 19,
+      "recruitingSiteCount": 0,
       "countries": [
         "Belgium",
         "Canada",
@@ -86739,7 +86871,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "30ff75fee627420bb5e745a3acb80f1082549bd601c187cab60e0cb5fe293657"
     }
   ],
   "harmoni-a": [
@@ -86865,23 +86998,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05451602",
       "source": "https://clinicaltrials.gov/study/NCT05451602",
-      "fetchedAt": "2026-10-07T16:53:42.604Z",
-      "studySha256": "d9067bdeb73f20ee2048be23c6778e8deed04fa18977b0c6e7f604b4a1d7c7f7",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-04-28",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "ea85629a35157e0a4eabc96dcb2a0c3c1c17cb798686b9a8617205e58a207d3e",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-14",
+      "whyStopped": "Sponsor strategic decision; the study will not continue.",
       "leadSponsor": "Sunshine Lake Pharma Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 456,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 24,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "ea85629a35157e0a4eabc96dcb2a0c3c1c17cb798686b9a8617205e58a207d3e"
     }
   ],
   "nct05586074": [
@@ -88539,10 +88674,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04858009",
       "source": "https://clinicaltrials.gov/study/NCT04858009",
-      "fetchedAt": "2026-10-07T16:53:29.376Z",
-      "studySha256": "f1b5ec4faf12c28f2420a5c783f80a1457885fbc6849b53fab157290d786226d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-14",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "495a4804c1982d3d97f99c2c2b7d6655b969452734eeecb8a411dff827b51d68",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-15",
       "leadSponsor": "Mayo Clinic",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -88553,10 +88688,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 40,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "495a4804c1982d3d97f99c2c2b7d6655b969452734eeecb8a411dff827b51d68"
     }
   ],
   "nct06435260": [
@@ -89587,9 +89723,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06107374",
       "source": "https://clinicaltrials.gov/study/NCT06107374",
-      "fetchedAt": "2026-10-07T16:54:11.803Z",
-      "studySha256": "c2943f2d98fec0da12ec27881f764072443063c67d4b943ad1cfad44691018bb",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "7dc0f441a0442ec870ab3c6d59b315810e161076c64d51ac9164e2d39dba51fc",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-24",
       "leadSponsor": "CellSight Technologies, Inc.",
       "collaboratorCount": 0,
@@ -89603,7 +89739,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "7dc0f441a0442ec870ab3c6d59b315810e161076c64d51ac9164e2d39dba51fc"
     }
   ],
   "nct03673943": [
@@ -90048,10 +90185,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04159818",
       "source": "https://clinicaltrials.gov/study/NCT04159818",
-      "fetchedAt": "2026-10-07T16:53:15.464Z",
-      "studySha256": "e271259c36107710273583aad1704f2944645309198c19d291792af4100055d5",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2022-03-22",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "e322a27ff66a66a4d07cc33b84547f615447da28a7d3b3bc7b5bcba9a606c537",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "The Netherlands Cancer Institute",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -90061,10 +90198,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 52,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Netherlands"
-      ]
+      ],
+      "responseStudySha256": "e322a27ff66a66a4d07cc33b84547f615447da28a7d3b3bc7b5bcba9a606c537"
     }
   ],
   "nct07011823": [
@@ -90953,10 +91091,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04660344",
       "source": "https://clinicaltrials.gov/study/NCT04660344",
-      "fetchedAt": "2026-10-07T16:53:24.647Z",
-      "studySha256": "61f512f0ab792f3224e1c549a7c2982ea3c084c96ce6c80e90a230237296ee39",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-28",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "cabf7b1600b4894f709bb962259ec463f48f4eb9e0a623908295d9e7f41cc3da",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-06",
       "leadSponsor": "Hoffmann-La Roche",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -90965,7 +91103,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 761,
       "enrolmentType": "ACTUAL",
-      "siteCount": 141,
+      "siteCount": 140,
       "recruitingSiteCount": 0,
       "countries": [
         "Argentina",
@@ -90991,17 +91129,18 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Ukraine",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "cabf7b1600b4894f709bb962259ec463f48f4eb9e0a623908295d9e7f41cc3da"
     }
   ],
   "nct05994131": [
     {
       "nct": "NCT05994131",
       "source": "https://clinicaltrials.gov/study/NCT05994131",
-      "fetchedAt": "2026-10-07T16:54:05.353Z",
-      "studySha256": "0e197dc38367b0e1f1ea9556369462003de03700fcbdad7d58b37a39ac074d22",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-04-30",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "a8b780ef13624d757b4b9e9dde149578d71c24125ed257807709825321a4a11c",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "InxMed (Shanghai) Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -91011,20 +91150,21 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 110,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "a8b780ef13624d757b4b9e9dde149578d71c24125ed257807709825321a4a11c"
     }
   ],
   "nct06030258": [
     {
       "nct": "NCT06030258",
       "source": "https://clinicaltrials.gov/study/NCT06030258",
-      "fetchedAt": "2026-10-07T16:54:07.437Z",
-      "studySha256": "b4925a0456af7358fdbb847ae6754312e4848f190a5bdc478443ba511cbd83ff",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-04-30",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "7f148eb00b64aa096a1524625b07bdec4b0b76da664c129e0bc27728402d8e92",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "InxMed (Shanghai) Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -91035,20 +91175,21 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 120,
       "enrolmentType": "ESTIMATED",
       "siteCount": 3,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "7f148eb00b64aa096a1524625b07bdec4b0b76da664c129e0bc27728402d8e92"
     }
   ],
   "nct06014528": [
     {
       "nct": "NCT06014528",
       "source": "https://clinicaltrials.gov/study/NCT06014528",
-      "fetchedAt": "2026-10-07T16:54:05.353Z",
-      "studySha256": "19407aa0a38103d985ca8bbb751eb850db538472f49129764d9ac7340ce8b0e4",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-04-30",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "41c4870edf8c90af73dedac0de91c2133c4a9d5c9f2fe5bd7bfa98dd79840559",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "InxMed (Shanghai) Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -91058,10 +91199,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 168,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "41c4870edf8c90af73dedac0de91c2133c4a9d5c9f2fe5bd7bfa98dd79840559"
     }
   ],
   "nct07441174": [
@@ -91091,10 +91233,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05551507",
       "source": "https://clinicaltrials.gov/study/NCT05551507",
-      "fetchedAt": "2026-10-07T16:53:45.224Z",
-      "studySha256": "cbcd734f16a48ca5d6e733dbe7a8e8203d889a95d8c41bd24d88240742d51506",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-05-04",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "d082c91bc8e363da5d820d1908a46c4442c947259fac9bee8dda7b50e47d9c3c",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "InxMed (Shanghai) Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -91104,20 +91246,21 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 150,
       "enrolmentType": "ESTIMATED",
       "siteCount": 7,
-      "recruitingSiteCount": 7,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "d082c91bc8e363da5d820d1908a46c4442c947259fac9bee8dda7b50e47d9c3c"
     }
   ],
   "nct05827796": [
     {
       "nct": "NCT05827796",
       "source": "https://clinicaltrials.gov/study/NCT05827796",
-      "fetchedAt": "2026-10-07T16:53:56.649Z",
-      "studySha256": "beaa81d978e960ca391a97a5607d87f6c680ea67b4781fd2cc2d35ffbea141c0",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-04-30",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "abb72146bdff8b1e5e9c82a1ae540620ef07b319bb5f9b51099d66f3b05386d0",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "InxMed (Shanghai) Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -91127,10 +91270,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 70,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "abb72146bdff8b1e5e9c82a1ae540620ef07b319bb5f9b51099d66f3b05386d0"
     }
   ],
   "inavo120": [
@@ -91187,20 +91331,20 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06295731",
       "source": "https://clinicaltrials.gov/study/NCT06295731",
-      "fetchedAt": "2026-10-07T16:54:32.196Z",
-      "studySha256": "8dfd18d5d8d4ab7fbde4de7193b881216606c03ffaf2fadd8b019f4eee9be0b1",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-05-08",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "5259827ffa58b1f640b7cb50571d483e9cd0539b750c0d08998a8b22356cfbf1",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "Inhibrx Biosciences, Inc",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 410,
+      "enrolment": 450,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 87,
-      "recruitingSiteCount": 0,
+      "siteCount": 89,
+      "recruitingSiteCount": 19,
       "countries": [
         "Australia",
         "Belgium",
@@ -91215,7 +91359,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "5259827ffa58b1f640b7cb50571d483e9cd0539b750c0d08998a8b22356cfbf1"
     }
   ],
   "keynote-483": [
@@ -93599,24 +93744,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "countries": [
         "United States"
       ]
-    },
-    {
-      "nct": "NCT07487805",
-      "source": "https://clinicaltrials.gov/study/NCT07487805",
-      "fetchedAt": "2026-10-07T16:55:46.774Z",
-      "studySha256": "7e3c5f1822cab37afc3b194113ef83513962d304cfcb63457c10dac178a2e414",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-07-15",
-      "leadSponsor": "University of Florida",
-      "collaboratorCount": 0,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 80,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
     }
   ],
   "nct07405190": [
@@ -94278,9 +94405,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06586866",
       "source": "https://clinicaltrials.gov/study/NCT06586866",
-      "fetchedAt": "2026-10-07T16:54:49.791Z",
-      "studySha256": "0a207336ddfded30d54a8319374fea51f002b50024e220c4d1aefe2dd3aaa2ab",
-      "overallStatus": "NOT_YET_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "4757f24262a4204eadb63722f6229cded2425308bc2361d65b60d1c506c26179",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-09-19",
       "leadSponsor": "JenKem Technology Co., Ltd.",
       "collaboratorCount": 0,
@@ -94291,7 +94418,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 25,
       "enrolmentType": "ESTIMATED",
       "siteCount": 0,
-      "recruitingSiteCount": 0
+      "recruitingSiteCount": 0,
+      "responseStudySha256": "4757f24262a4204eadb63722f6229cded2425308bc2361d65b60d1c506c26179"
     }
   ],
   "nct06391944": [
@@ -96152,23 +96280,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05985109",
       "source": "https://clinicaltrials.gov/study/NCT05985109",
-      "fetchedAt": "2026-10-07T16:54:03.729Z",
-      "studySha256": "2830098b267a8bb08e1bda231dab8a3b170e7c253fea66c7649cb0c945cbe366",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2023-10-26",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "c3fd410aa41fed11c9460de1d993f320e07c808d139695473f9e54c5fe047c05",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-11-03",
+      "whyStopped": "The study was stopped early due to lack of efficacy.",
       "leadSponsor": "Peking University Cancer Hospital & Institute",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 98,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 20,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "c3fd410aa41fed11c9460de1d993f320e07c808d139695473f9e54c5fe047c05"
     }
   ],
   "nct05427383": [
@@ -96221,23 +96351,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT03667170",
       "source": "https://clinicaltrials.gov/study/NCT03667170",
-      "fetchedAt": "2026-10-07T16:53:06.628Z",
-      "studySha256": "99e56fa885b8763c2e8fa4147eef802642100779b0c97cae610e6808ba41fd51",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-03-25",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "c752b546fa7ed670b4b0f57ea5e88977d3cbdf2a1c9d7affec0c75d867a49eeb",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-19",
       "leadSponsor": "3D Medicines (Sichuan) Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 200,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "enrolment": 188,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 27,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "c752b546fa7ed670b4b0f57ea5e88977d3cbdf2a1c9d7affec0c75d867a49eeb"
     }
   ],
   "komet-001": [
@@ -96273,10 +96404,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07622017",
       "source": "https://clinicaltrials.gov/study/NCT07622017",
-      "fetchedAt": "2026-10-07T16:55:51.217Z",
-      "studySha256": "25119bc19a0f81d90842ffe300a31f8b174d8c4e1a4323f5fca09d30992d000e",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-06-02",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "4f77fbd3f37d3817fb295ed58cba2d74d703b3e9bcf21810a0aecdffced8afd8",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-16",
       "leadSponsor": "Gustave Roussy, Cancer Campus, Grand Paris",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -96286,10 +96417,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 24,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "France"
-      ]
+      ],
+      "responseStudySha256": "4f77fbd3f37d3817fb295ed58cba2d74d703b3e9bcf21810a0aecdffced8afd8"
     }
   ],
   "nct07406633": [
@@ -97826,10 +97958,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06391892",
       "source": "https://clinicaltrials.gov/study/NCT06391892",
-      "fetchedAt": "2026-10-07T16:54:38.047Z",
-      "studySha256": "38f071072a54b63200bec53eac4d6d2eeb32922747aa5240894e45078b2f713d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2024-04-30",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "ec33b923033af0ac58c8627773a57c91d52848955039f9f9853448d684e8ca26",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-03",
       "leadSponsor": "Elisabethinen Hospital",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -97840,10 +97972,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 100,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Austria"
-      ]
+      ],
+      "responseStudySha256": "ec33b923033af0ac58c8627773a57c91d52848955039f9f9853448d684e8ca26"
     }
   ],
   "litespark-005": [
@@ -99327,9 +99460,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06593548",
       "source": "https://clinicaltrials.gov/study/NCT06593548",
-      "fetchedAt": "2026-10-07T16:54:49.791Z",
-      "studySha256": "132036e27e723b42c955e13ef8e9b41d80db6a99f4ccb44d9732aa798d07a2ef",
-      "overallStatus": "NOT_YET_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "c24bfdbe5ff1d1534cd3f3c7e5b48355ec5e7519f5c49757f156922769fff1a5",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-09-19",
       "leadSponsor": "Fudan University",
       "collaboratorCount": 0,
@@ -99344,7 +99477,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "c24bfdbe5ff1d1534cd3f3c7e5b48355ec5e7519f5c49757f156922769fff1a5"
     }
   ],
   "nct05319314": [
@@ -99524,10 +99658,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04649359",
       "source": "https://clinicaltrials.gov/study/NCT04649359",
-      "fetchedAt": "2026-10-07T16:53:24.647Z",
-      "studySha256": "3e2f67f3bf9283e2b59ab59ad8005bc62c4a5e657d3a1142b254cde1cd273b9f",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-05-19",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "378ad8548fd002a1f2cb6d4b3013ed6d848cfbfe30ea9746da7edad08a5c7f20",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-19",
       "leadSponsor": "Pfizer",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -99536,18 +99670,21 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 187,
       "enrolmentType": "ACTUAL",
-      "siteCount": 40,
+      "siteCount": 78,
       "recruitingSiteCount": 0,
       "countries": [
         "Australia",
+        "Belgium",
         "Canada",
         "France",
         "Germany",
         "Japan",
         "Poland",
         "Spain",
+        "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "378ad8548fd002a1f2cb6d4b3013ed6d848cfbfe30ea9746da7edad08a5c7f20"
     }
   ],
   "nct06152575": [
@@ -100326,10 +100463,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT01906385",
       "source": "https://clinicaltrials.gov/study/NCT01906385",
-      "fetchedAt": "2026-10-07T16:52:35.670Z",
-      "studySha256": "613539503c691a846f03f79398ee0742c5a5581b86e76f20ee4bc9c7a3d94a94",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-03-26",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "55fa7ca3092f4f9f86f8b67177d1d8fdbb1dbfaabd285ed5d9014540851c2ad8",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-09",
       "leadSponsor": "Cerenome",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -100338,11 +100475,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 55,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 3,
-      "recruitingSiteCount": 3,
+      "siteCount": 4,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "55fa7ca3092f4f9f86f8b67177d1d8fdbb1dbfaabd285ed5d9014540851c2ad8"
     }
   ],
   "nct06534060": [
@@ -101323,9 +101461,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04834024",
       "source": "https://clinicaltrials.gov/study/NCT04834024",
-      "fetchedAt": "2026-10-07T16:53:28.708Z",
-      "studySha256": "00a145f513ffb0264792b08e1a22c2ce60022bf73578c421efa41a893dd60091",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "59dd36b24d12de637f436348af20471c85db33064d681c6ffd10a47ce844b8e4",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-11-20",
       "leadSponsor": "Beijing Mabworks Biotech Co., Ltd.",
       "collaboratorCount": 0,
@@ -101339,16 +101477,17 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "59dd36b24d12de637f436348af20471c85db33064d681c6ffd10a47ce844b8e4"
     }
   ],
   "nct04110301": [
     {
       "nct": "NCT04110301",
       "source": "https://clinicaltrials.gov/study/NCT04110301",
-      "fetchedAt": "2026-10-07T16:53:14.124Z",
-      "studySha256": "009a8ae4943bfde2189755be2a7e2058d51f50411f28199846da61328673efa1",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "0d681ff36a3c8d218fa400fdf6be97484b023586b5543e223c75a6b9efeb983f",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-11-20",
       "leadSponsor": "Beijing Mabworks Biotech Co., Ltd.",
       "collaboratorCount": 0,
@@ -101362,7 +101501,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "0d681ff36a3c8d218fa400fdf6be97484b023586b5543e223c75a6b9efeb983f"
     }
   ],
   "nct06534762": [
@@ -101777,9 +101917,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05462236",
       "source": "https://clinicaltrials.gov/study/NCT05462236",
-      "fetchedAt": "2026-10-07T16:53:42.604Z",
-      "studySha256": "56a9f4d39d795ec94003067c431b27a5c74302588eff845384bea3d388f59461",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "2213dcd195f54afdd9b84ad3c71cdf6b097ea8f4737f882f4ac5459cffb6b4cd",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-07-09",
       "leadSponsor": "AUM Biosciences Pte Ltd",
       "collaboratorCount": 1,
@@ -101793,7 +101933,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 5,
       "countries": [
         "Australia"
-      ]
+      ],
+      "responseStudySha256": "2213dcd195f54afdd9b84ad3c71cdf6b097ea8f4737f882f4ac5459cffb6b4cd"
     }
   ],
   "mntx-302": [
@@ -102587,61 +102728,16 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United States"
       ]
-    },
-    {
-      "nct": "NCT05253651",
-      "source": "https://clinicaltrials.gov/study/NCT05253651",
-      "fetchedAt": "2026-10-07T16:53:38.157Z",
-      "studySha256": "ee4db488a13945f80dc34006f59e086b7d606a1f0c2266c5524b0ebbe92ec2ea",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-07-22",
-      "leadSponsor": "Seagen, a wholly owned subsidiary of Pfizer",
-      "collaboratorCount": 0,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 400,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 366,
-      "recruitingSiteCount": 298,
-      "countries": [
-        "Argentina",
-        "Australia",
-        "Austria",
-        "Belgium",
-        "Brazil",
-        "Canada",
-        "Chile",
-        "China",
-        "France",
-        "Germany",
-        "Greece",
-        "Ireland",
-        "Italy",
-        "Japan",
-        "Netherlands",
-        "Norway",
-        "Poland",
-        "Portugal",
-        "Slovakia",
-        "South Korea",
-        "Spain",
-        "Switzerland",
-        "Taiwan",
-        "United Kingdom",
-        "United States"
-      ]
     }
   ],
   "mountaineer-03": [
     {
       "nct": "NCT05253651",
       "source": "https://clinicaltrials.gov/study/NCT05253651",
-      "fetchedAt": "2026-10-07T16:53:38.157Z",
-      "studySha256": "ee4db488a13945f80dc34006f59e086b7d606a1f0c2266c5524b0ebbe92ec2ea",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-07-22",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "b0b727f240b8d8d38bb72305220d9ef250cb18c37e493996b33588f62fa4e31d",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-16",
       "leadSponsor": "Seagen, a wholly owned subsidiary of Pfizer",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -102650,12 +102746,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 400,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 366,
-      "recruitingSiteCount": 298,
+      "siteCount": 319,
+      "recruitingSiteCount": 0,
       "countries": [
         "Argentina",
         "Australia",
-        "Austria",
         "Belgium",
         "Brazil",
         "Canada",
@@ -102678,7 +102773,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "b0b727f240b8d8d38bb72305220d9ef250cb18c37e493996b33588f62fa4e31d"
     }
   ],
   "nct02338050": [
@@ -105289,10 +105385,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07472868",
       "source": "https://clinicaltrials.gov/study/NCT07472868",
-      "fetchedAt": "2026-10-07T16:55:46.774Z",
-      "studySha256": "b997ab806851c398104f68d1d48adc43243e47c85c3b4b4e6f60632ee40dafda",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-03-16",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "979e016255b0e2f9a6e82b320f14a3596c5310ea17a9dd007f1fb5fe0f52b514",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-27",
       "leadSponsor": "J. W. A. Burger",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -105301,11 +105397,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 394,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "siteCount": 20,
+      "recruitingSiteCount": 10,
       "countries": [
         "Netherlands"
-      ]
+      ],
+      "responseStudySha256": "979e016255b0e2f9a6e82b320f14a3596c5310ea17a9dd007f1fb5fe0f52b514"
     }
   ],
   "nct05201430": [
@@ -105685,10 +105782,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07808151",
       "source": "https://clinicaltrials.gov/study/NCT07808151",
-      "fetchedAt": "2026-10-07T16:56:52.065Z",
-      "studySha256": "76fac16a076b9f6b14d5a60873488a0d1c6c3df9302bf05f7e8e933308d907ce",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-08",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "8b66ad6cca628582424fc0d7472369baa916e4065e8da68bbbe7a073858ba1de",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "Solstice Oncology, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -105698,7 +105795,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 100,
       "enrolmentType": "ESTIMATED",
       "siteCount": 30,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 4,
       "countries": [
         "Belgium",
         "Italy",
@@ -105706,7 +105803,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Spain",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "8b66ad6cca628582424fc0d7472369baa916e4065e8da68bbbe7a073858ba1de"
     }
   ],
   "nct06646445": [
@@ -106133,12 +106231,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05429463",
       "source": "https://clinicaltrials.gov/study/NCT05429463",
-      "fetchedAt": "2026-10-07T16:53:41.920Z",
-      "studySha256": "209b84a01b0b99c16a915730a7cb4ec82607a4e2e5be313ce08c52b96b44fc47",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2022-12-14",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "14c9b804511e5364e8b4fbd2f4da3c0e331f7ce43cadfcce94ac51b6686bacd0",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Second Affiliated Hospital, Zhejiang University, School of Medicine",
-      "collaboratorCount": 0,
+      "collaboratorCount": 18,
       "minimumAge": "18 Years",
       "maximumAge": "75 Years",
       "sex": "ALL",
@@ -106147,10 +106245,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 250,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "14c9b804511e5364e8b4fbd2f4da3c0e331f7ce43cadfcce94ac51b6686bacd0"
     }
   ],
   "nct05378919": [
@@ -107164,9 +107263,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06389760",
       "source": "https://clinicaltrials.gov/study/NCT06389760",
-      "fetchedAt": "2026-10-07T16:54:38.047Z",
-      "studySha256": "cb7fa75d77469fef8b0d69dc79948182d64a07e9d7f71f974d25d88adcc1f797",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "192c4b1eede8a943d9e142fccd9e47d89ab94225e38e41d9d580a02d6cd00ede",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-31",
       "leadSponsor": "The Affiliated Nanjing Drum Tower Hospital of Nanjing University Medical School",
       "collaboratorCount": 0,
@@ -107180,7 +107279,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "192c4b1eede8a943d9e142fccd9e47d89ab94225e38e41d9d580a02d6cd00ede"
     }
   ],
   "nct07277452": [
@@ -107961,10 +108061,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05023486",
       "source": "https://clinicaltrials.gov/study/NCT05023486",
-      "fetchedAt": "2026-10-07T16:53:32.717Z",
-      "studySha256": "3324f3c41664d14bc8795e903b7676b59894d41dea48fdc839df38f27a9578d2",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-04-14",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "1f0eea379f466018c8efb52ce2beef81c440c86db05b6aacebd9a79147226fa5",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-09",
       "leadSponsor": "Novita Pharmaceuticals, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -107977,7 +108077,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "1f0eea379f466018c8efb52ce2beef81c440c86db05b6aacebd9a79147226fa5"
     }
   ],
   "nrg-cc001": [
@@ -112158,10 +112259,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05093231",
       "source": "https://clinicaltrials.gov/study/NCT05093231",
-      "fetchedAt": "2026-10-07T16:53:34.066Z",
-      "studySha256": "9648873576dc54e98bba2279f70ca510c1caa14309ed2ffdc6280e0373dd0e82",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-06-17",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "98f61cce2a956071769cecac7bdf45e1a685e6b976a4b800267e8bb9f5a0754a",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-30",
       "leadSponsor": "Cambridge University Hospitals NHS Foundation Trust",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -112171,11 +112272,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 20,
       "enrolmentType": "ESTIMATED",
       "siteCount": 17,
-      "recruitingSiteCount": 17,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "United Kingdom"
-      ]
+      ],
+      "responseStudySha256": "98f61cce2a956071769cecac7bdf45e1a685e6b976a4b800267e8bb9f5a0754a"
     }
   ],
   "nci-anetumab-pembrolizumab-mpm": [
@@ -113764,20 +113866,36 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07162883",
       "source": "https://clinicaltrials.gov/study/NCT07162883",
-      "fetchedAt": "2026-10-07T16:55:29.886Z",
-      "studySha256": "78e10620c36fa400c1a145f2dc79e5aa878746a71450d156565b6c4576974889",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2025-09-09",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "eef517068368b95237292d6143e0ba1910e63c00563ea0577e99d91a0f37dc53",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-22",
       "leadSponsor": "Qilu Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 122,
+      "enrolment": 146,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 84,
+      "recruitingSiteCount": 0,
+      "countries": [
+        "Bosnia and Herzegovina",
+        "China",
+        "Georgia",
+        "Greece",
+        "Hungary",
+        "India",
+        "Poland",
+        "Romania",
+        "Spain",
+        "Thailand",
+        "Turkey (Türkiye)",
+        "Ukraine",
+        "Vietnam"
+      ],
+      "responseStudySha256": "eef517068368b95237292d6143e0ba1910e63c00563ea0577e99d91a0f37dc53"
     }
   ],
   "pharos": [
@@ -113855,10 +113973,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07631013",
       "source": "https://clinicaltrials.gov/study/NCT07631013",
-      "fetchedAt": "2026-10-08T16:42:13.801Z",
-      "studySha256": "c7f49bb7d7648ab8966f58059864054c0fe7fe12b6348c8e08e95acbad1f75bd",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-06-11",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "46aa702c194ca263dd25e546faaf83587a668b777eb72ca8440854f8b80d1b82",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-13",
       "leadSponsor": "M.D. Anderson Cancer Center",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -113868,10 +113986,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 36,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "46aa702c194ca263dd25e546faaf83587a668b777eb72ca8440854f8b80d1b82"
     }
   ],
   "nct02503423": [
@@ -114024,10 +114143,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04868877",
       "source": "https://clinicaltrials.gov/study/NCT04868877",
-      "fetchedAt": "2026-10-07T16:53:29.376Z",
-      "studySha256": "4abd1963aadd525382e43cf40c80d8ef89fcf9a1e5425a7ace94ba28c479f879",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-02-19",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "f66ae27fea6a034c948de31fbba69c17d61d43dcdff93a7adffa73e6a786b28e",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-26",
+      "whyStopped": "The Sponsor terminated the trial early for strategic business reasons. This isn't related to any safety/efficacy/clinical activity/benefit-risk concern with petosemtamab. Ongoing participants will have access to treatment outside of this trial.",
       "leadSponsor": "Merus B.V.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -114048,7 +114168,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "South Korea",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "f66ae27fea6a034c948de31fbba69c17d61d43dcdff93a7adffa73e6a786b28e"
     }
   ],
   "nct05074810": [
@@ -114106,10 +114227,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05326243",
       "source": "https://clinicaltrials.gov/study/NCT05326243",
-      "fetchedAt": "2026-10-07T16:53:39.725Z",
-      "studySha256": "51317f4235cec7ee1a61c4e9af43e589e25116f40ca7a0970874a40c88ff918f",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-05-13",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "b373a5a8efbb2a109d92ef06b82b71eef865f68048cbf1ae6b17716955d98f0d",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-09",
       "leadSponsor": "Pell Bio-Med Technology Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "14 Years",
@@ -114119,10 +114240,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 49,
       "enrolmentType": "ESTIMATED",
       "siteCount": 5,
-      "recruitingSiteCount": 4,
+      "recruitingSiteCount": 0,
       "countries": [
         "Taiwan"
-      ]
+      ],
+      "responseStudySha256": "b373a5a8efbb2a109d92ef06b82b71eef865f68048cbf1ae6b17716955d98f0d"
     }
   ],
   "nct07589530": [
@@ -114200,9 +114322,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05435248",
       "source": "https://clinicaltrials.gov/study/NCT05435248",
-      "fetchedAt": "2026-10-07T16:53:42.604Z",
-      "studySha256": "fe4f802e3cca89d1309aac40c2678fbfe3908819f4b07b75666dd52665943ef9",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "153abf5b023c76c82676c7d43c2a4f3875f7d06fed39cdb52754d2bc545993e2",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-11-04",
       "leadSponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
@@ -114216,7 +114338,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "153abf5b023c76c82676c7d43c2a4f3875f7d06fed39cdb52754d2bc545993e2"
     }
   ],
   "nct06243354": [
@@ -114418,25 +114541,26 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04150497",
       "source": "https://clinicaltrials.gov/study/NCT04150497",
-      "fetchedAt": "2026-10-07T16:53:14.793Z",
-      "studySha256": "960692f11720f3e3aceeea43036566dc038a4ac4db8446219fa6d4a8f59dbe68",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-09-09",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "5fc33fb9345bec25832add5e3fa8badaf6ec5264691c5011720724bb18c5b7b6",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-09",
       "leadSponsor": "Cellectis S.A.",
       "collaboratorCount": 0,
-      "minimumAge": "15 Years",
+      "minimumAge": "12 Years",
       "maximumAge": "50 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 52,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 19,
-      "recruitingSiteCount": 18,
+      "enrolment": 45,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 20,
+      "recruitingSiteCount": 0,
       "countries": [
         "France",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "5fc33fb9345bec25832add5e3fa8badaf6ec5264691c5011720724bb18c5b7b6"
     }
   ],
   "nct07605962": [
@@ -116103,10 +116227,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07063329",
       "source": "https://clinicaltrials.gov/study/NCT07063329",
-      "fetchedAt": "2026-10-07T16:55:23.338Z",
-      "studySha256": "d37d6f174239334f73e610129cb206a8ad221a68050c24b6cf2719dd5ce2d82e",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2025-07-25",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "8cc66d4c100bb0685e35311d52ab433c624a7633b9cb788784b284b56a8a1849",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "Avistone Pharmaceutical（Ningbo）Co., LTD.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -116115,11 +116239,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 108,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "siteCount": 2,
+      "recruitingSiteCount": 2,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "8cc66d4c100bb0685e35311d52ab433c624a7633b9cb788784b284b56a8a1849"
     }
   ],
   "nct03960840": [
@@ -116683,9 +116808,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05239650",
       "source": "https://clinicaltrials.gov/study/NCT05239650",
-      "fetchedAt": "2026-10-07T16:53:38.157Z",
-      "studySha256": "f3d122f088f15101e71a79ce97c083c3ab74c20490591034a4adc88da59b6957",
-      "overallStatus": "NOT_YET_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "279ca90f706a2ef518286004f7f493b5e62bea1cf3acf95daeddf310b67d92cf",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2022-05-03",
       "leadSponsor": "Shanghai Henlius Biotech",
       "collaboratorCount": 0,
@@ -116697,7 +116822,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 50,
       "enrolmentType": "ESTIMATED",
       "siteCount": 0,
-      "recruitingSiteCount": 0
+      "recruitingSiteCount": 0,
+      "responseStudySha256": "279ca90f706a2ef518286004f7f493b5e62bea1cf3acf95daeddf310b67d92cf"
     }
   ],
   "nct07742956": [
@@ -116998,10 +117124,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05866432",
       "source": "https://clinicaltrials.gov/study/NCT05866432",
-      "fetchedAt": "2026-10-07T16:53:59.307Z",
-      "studySha256": "278103d384bbf4ebe6ab992ba423c650843236770c4ef8811610bf373bda251a",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-09-25",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "96523c92f2db63c51b91c8f1ef2082df41ba99ec657d08b1442abb9e1dede29f",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-30",
       "leadSponsor": "Medical University of Vienna",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -117012,10 +117138,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 20,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Austria"
-      ]
+      ],
+      "responseStudySha256": "96523c92f2db63c51b91c8f1ef2082df41ba99ec657d08b1442abb9e1dede29f"
     }
   ],
   "nct07572396": [
@@ -118070,10 +118197,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07754123",
       "source": "https://clinicaltrials.gov/study/NCT07754123",
-      "fetchedAt": "2026-10-07T16:56:49.835Z",
-      "studySha256": "6065f72c008863062b103df6f5b849c115d18a79e861f34eef96b4104fdfd1a1",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-10",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "37c35d068fbd7930db6f5556cd114812757277aa951fa5c2547ee17cdc94e20d",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-02",
       "leadSponsor": "Jiangsu Hansoh Pharmaceutical Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -118082,8 +118209,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 206,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 1,
+      "recruitingSiteCount": 1,
+      "countries": [
+        "China"
+      ],
+      "responseStudySha256": "37c35d068fbd7930db6f5556cd114812757277aa951fa5c2547ee17cdc94e20d"
     }
   ],
   "nct07228832": [
@@ -118127,10 +118258,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07829549",
       "source": "https://clinicaltrials.gov/study/NCT07829549",
-      "fetchedAt": "2026-10-07T16:56:52.065Z",
-      "studySha256": "9d62de553ce05be090686c71e0b8822178da689a368c259af340af86ada97e6f",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-09-22",
+      "fetchedAt": "2026-11-17T07:29:39.570Z",
+      "studySha256": "b24b843ff4b4d398cdd9d0d413e28df4ba5f62cb11977720b570c29ccbfa4bab",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "RemeGen Co., Ltd.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -118141,10 +118272,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 540,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "b24b843ff4b4d398cdd9d0d413e28df4ba5f62cb11977720b570c29ccbfa4bab"
     }
   ],
   "nct06921785": [
@@ -118541,10 +118673,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05827081",
       "source": "https://clinicaltrials.gov/study/NCT05827081",
-      "fetchedAt": "2026-10-07T16:53:56.649Z",
-      "studySha256": "5c15dcaa43b4cf6810f099ba45539a6e7d43693d4a020f2a1903241b0fb5cfd3",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-10-07",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "c6134075e6e0b3cadd55f3300438b294bf033913ae3880c2c4eb5cadfee5a18f",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-13",
       "leadSponsor": "Novartis Pharmaceuticals",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -118552,10 +118684,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 1400,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 229,
-      "recruitingSiteCount": 64,
+      "enrolment": 1466,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 214,
+      "recruitingSiteCount": 0,
       "countries": [
         "Argentina",
         "Australia",
@@ -118573,7 +118705,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "c6134075e6e0b3cadd55f3300438b294bf033913ae3880c2c4eb5cadfee5a18f"
     }
   ],
   "phergain": [
@@ -118675,10 +118808,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07416058",
       "source": "https://clinicaltrials.gov/study/NCT07416058",
-      "fetchedAt": "2026-10-07T16:55:44.977Z",
-      "studySha256": "b0a110338cd75a7fc550ea0d0dfea78cba08a6e6fbae2d855e32af97ca71e602",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-02-17",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "4dcb73c1225dd182404494ec9e62153a1f9bbef385ff3f9e2617455c8d04a0d3",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-23",
       "leadSponsor": "Guangdong Association of Clinical Trials",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -118688,8 +118821,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 61,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 2,
+      "recruitingSiteCount": 2,
+      "countries": [
+        "China"
+      ],
+      "responseStudySha256": "4dcb73c1225dd182404494ec9e62153a1f9bbef385ff3f9e2617455c8d04a0d3"
     }
   ],
   "nct06807359": [
@@ -119073,9 +119210,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04165590",
       "source": "https://clinicaltrials.gov/study/NCT04165590",
-      "fetchedAt": "2026-10-07T16:53:15.464Z",
-      "studySha256": "3f5b3bd04976683c3674525798c35918b4496bd963ef97bfcd141ff754ab84a9",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "6e88f876138fe67c69150c60219a1c5068dbb326576d824414cba188e103efd5",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-02-20",
       "leadSponsor": "CAS Lamvac Biotech Co., Ltd.",
       "collaboratorCount": 0,
@@ -119090,7 +119227,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "6e88f876138fe67c69150c60219a1c5068dbb326576d824414cba188e103efd5"
     }
   ],
   "nct04126200": [
@@ -119179,10 +119317,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05358249",
       "source": "https://clinicaltrials.gov/study/NCT05358249",
-      "fetchedAt": "2026-10-07T16:53:40.482Z",
-      "studySha256": "4f157a5b7ee8034ffbe8d0080e9c999c37b97a5525edeca41d1eb34bf0fdeb56",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-06-15",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "e829c0d9d9a5403e90828ffa92d6c6663b89ef61ee93dc08fe05d60c72010f6c",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-21",
+      "whyStopped": "Business reasons and not based on any safety concerns.",
       "leadSponsor": "Novartis Pharmaceuticals",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -119203,7 +119342,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "South Korea",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "e829c0d9d9a5403e90828ffa92d6c6663b89ef61ee93dc08fe05d60c72010f6c"
     }
   ],
   "plco-prostate": [
@@ -119616,10 +119756,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07159204",
       "source": "https://clinicaltrials.gov/study/NCT07159204",
-      "fetchedAt": "2026-10-07T16:55:29.886Z",
-      "studySha256": "9ccae695ddde39b1c1674ed321a3ae4d5beb564f298e882aea9d5bdc08e1e883",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-06",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "24029bcd0211747a3bde57ff299cc0454fe93d03a708b2fe7b506511e0b7af80",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-15",
       "leadSponsor": "Peking Union Medical College Hospital",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -119627,13 +119767,14 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 61,
-      "enrolmentType": "ACTUAL",
+      "enrolment": 25,
+      "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "24029bcd0211747a3bde57ff299cc0454fe93d03a708b2fe7b506511e0b7af80"
     }
   ],
   "ponsegromab-phase-2": [
@@ -120836,10 +120977,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07135882",
       "source": "https://clinicaltrials.gov/study/NCT07135882",
-      "fetchedAt": "2026-10-07T16:55:28.490Z",
-      "studySha256": "2abf5799a642c2be821b17277cf7d683397d5abc632108caf632e66d144a610e",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-07-31",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "df99ecd7c1fda9cd02999d602e686d88e68cde77d111167b08ce0ccf09a8ce8c",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-23",
       "leadSponsor": "Trans Tasman Radiation Oncology Group",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -120848,11 +120989,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 420,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 2,
-      "recruitingSiteCount": 0,
+      "siteCount": 6,
+      "recruitingSiteCount": 1,
       "countries": [
         "Australia"
-      ]
+      ],
+      "responseStudySha256": "df99ecd7c1fda9cd02999d602e686d88e68cde77d111167b08ce0ccf09a8ce8c"
     }
   ],
   "prime": [
@@ -121992,10 +122134,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07052214",
       "source": "https://clinicaltrials.gov/study/NCT07052214",
-      "fetchedAt": "2026-10-07T16:55:23.338Z",
-      "studySha256": "71c25f8dd0eac7956a2ee8b4c6e5c6d930f852ca412e6f2827fe344c2d70772c",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-07-23",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "58485d90f43054f857cc4d515c8a1ceb376dc4fa8cedbc085b0b634b6de68a25",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-20",
       "leadSponsor": "Telix Pharmaceuticals (Innovations) Pty Limited",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -122005,11 +122147,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 338,
       "enrolmentType": "ESTIMATED",
       "siteCount": 18,
-      "recruitingSiteCount": 18,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "58485d90f43054f857cc4d515c8a1ceb376dc4fa8cedbc085b0b634b6de68a25"
     }
   ],
   "nct05381103": [
@@ -122146,10 +122289,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04689828",
       "source": "https://clinicaltrials.gov/study/NCT04689828",
-      "fetchedAt": "2026-10-07T16:53:25.283Z",
-      "studySha256": "7491934deaf0e7d8510d974abb96afae5987c92e64238e162d68d51eee1ef95b",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-11",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "69ec27d4dcbb133f2487bc5c422498b249f8a507571b4d7ac547bc7b4646b4b2",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Novartis Pharmaceuticals",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -122176,7 +122319,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Switzerland",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "69ec27d4dcbb133f2487bc5c422498b249f8a507571b4d7ac547bc7b4646b4b2"
     }
   ],
   "pt-1": [
@@ -124319,10 +124463,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT00651261",
       "source": "https://clinicaltrials.gov/study/NCT00651261",
-      "fetchedAt": "2026-10-07T16:52:10.824Z",
-      "studySha256": "bc19a38501e8771bd52c230e4e107ed3af7de46f2da1b17318e61c29ba08ec44",
-      "overallStatus": "UNKNOWN",
-      "lastUpdatePosted": "2021-08-18",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "43e1eadcd84c35ae102845a537b801c44d67e607c76ecc72a4a70ab5602bbec9",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-21",
       "leadSponsor": "Alliance for Clinical Trials in Oncology",
       "collaboratorCount": 2,
       "minimumAge": "18 Years",
@@ -124337,7 +124481,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "countries": [
         "Canada",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "43e1eadcd84c35ae102845a537b801c44d67e607c76ecc72a4a70ab5602bbec9"
     }
   ],
   "rationale-302": [
@@ -124938,10 +125083,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05462613",
       "source": "https://clinicaltrials.gov/study/NCT05462613",
-      "fetchedAt": "2026-10-07T16:53:42.604Z",
-      "studySha256": "56d6df2e7f63db9fa4e2b4d31cee8fcf937a44f612f8f8b77e73e7819c215af7",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2024-12-20",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "ce343a0149cbea5b83af18309200b15f2adba1fcfa0cbff3a43337aa7ab05061",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Centre Hospitalier Universitaire de Besancon",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -124950,11 +125095,12 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 446,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 16,
-      "recruitingSiteCount": 12,
+      "siteCount": 14,
+      "recruitingSiteCount": 0,
       "countries": [
         "France"
-      ]
+      ],
+      "responseStudySha256": "ce343a0149cbea5b83af18309200b15f2adba1fcfa0cbff3a43337aa7ab05061"
     }
   ],
   "nct06756074": [
@@ -128154,9 +128300,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05558007",
       "source": "https://clinicaltrials.gov/study/NCT05558007",
-      "fetchedAt": "2026-10-07T16:53:45.224Z",
-      "studySha256": "6d1bb8bde48941e63c2273e24bc07136c02b17314eef9e80a2ba8dfdd6a3eca2",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "98863bd3e2ba6b4850346c4734e2afb131d0086dc7aa50c14a3200b65dbb1dc7",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-22",
       "leadSponsor": "Biozeus Biopharmaceutical S.A.",
       "collaboratorCount": 0,
@@ -128171,7 +128317,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "Brazil"
-      ]
+      ],
+      "responseStudySha256": "98863bd3e2ba6b4850346c4734e2afb131d0086dc7aa50c14a3200b65dbb1dc7"
     }
   ],
   "nct04416984": [
@@ -130664,10 +130811,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07711002",
       "source": "https://clinicaltrials.gov/study/NCT07711002",
-      "fetchedAt": "2026-10-07T16:55:59.097Z",
-      "studySha256": "5c054a679e531f8079fad4e2f0a8ac931562185d398bb51c329310ea86857554",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-07-17",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "c54310eb51a789794d6dfb1617933e75be6e0bb42c3732b6537a4cb942e8ca21",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-15",
       "leadSponsor": "AstraZeneca",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -130676,11 +130823,32 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 1330,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 2,
-      "recruitingSiteCount": 0,
+      "siteCount": 210,
+      "recruitingSiteCount": 6,
       "countries": [
-        "Canada"
-      ]
+        "Austria",
+        "Brazil",
+        "Canada",
+        "China",
+        "France",
+        "Germany",
+        "Hong Kong",
+        "Hungary",
+        "India",
+        "Italy",
+        "Japan",
+        "Poland",
+        "Puerto Rico",
+        "South Korea",
+        "Spain",
+        "Switzerland",
+        "Taiwan",
+        "Thailand",
+        "Turkey (Türkiye)",
+        "United Kingdom",
+        "United States"
+      ],
+      "responseStudySha256": "c54310eb51a789794d6dfb1617933e75be6e0bb42c3732b6537a4cb942e8ca21"
     }
   ],
   "nct07832630": [
@@ -131022,10 +131190,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07683221",
       "source": "https://clinicaltrials.gov/study/NCT07683221",
-      "fetchedAt": "2026-10-07T16:55:56.330Z",
-      "studySha256": "35da51c67749f6a50c3c98a80464009cc36160ab1967d552a87475edc2cb3bd6",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-07-06",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "751425782ddf916e956966d577567891125b9e77a16beeb43dc8a3ebf9ffc43d",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-13",
       "leadSponsor": "Shandong Cancer Hospital and Institute",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -131036,10 +131204,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 47,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "751425782ddf916e956966d577567891125b9e77a16beeb43dc8a3ebf9ffc43d"
     }
   ],
   "nct07535632": [
@@ -132114,10 +132283,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05263583",
       "source": "https://clinicaltrials.gov/study/NCT05263583",
-      "fetchedAt": "2026-10-07T16:53:38.157Z",
-      "studySha256": "783e013d2b83f6cda1a8cda3280142ee3664f2bcca1bd2edaae8ec3580376f9c",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2025-01-14",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "9ea35e3d4123fdcb506eafb02bb62bd3c7ea5fce78bbaff1ca5cefecd8ebe31b",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Cothera Bioscience, Inc",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -132132,7 +132301,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "countries": [
         "China",
         "South Korea"
-      ]
+      ],
+      "responseStudySha256": "9ea35e3d4123fdcb506eafb02bb62bd3c7ea5fce78bbaff1ca5cefecd8ebe31b"
     }
   ],
   "nct01985724": [
@@ -132276,39 +132446,6 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     }
   ],
   "sequoia": [
-    {
-      "nct": "NCT02923921",
-      "source": "https://clinicaltrials.gov/study/NCT02923921",
-      "fetchedAt": "2026-10-07T16:52:53.797Z",
-      "studySha256": "5e5340a2ea69def3b6fe21e5f34d8192b808daf88fd82e1863bcf41edd905beb",
-      "overallStatus": "COMPLETED",
-      "lastUpdatePosted": "2020-10-19",
-      "leadSponsor": "Eli Lilly and Company",
-      "collaboratorCount": 1,
-      "minimumAge": "18 Years",
-      "sex": "ALL",
-      "healthyVolunteers": false,
-      "hasEligibility": true,
-      "enrolment": 567,
-      "enrolmentType": "ACTUAL",
-      "siteCount": 130,
-      "recruitingSiteCount": 0,
-      "countries": [
-        "Australia",
-        "Austria",
-        "Belgium",
-        "Canada",
-        "France",
-        "Germany",
-        "Italy",
-        "Poland",
-        "South Korea",
-        "Spain",
-        "Taiwan",
-        "United Kingdom",
-        "United States"
-      ]
-    },
     {
       "nct": "NCT03336333",
       "source": "https://clinicaltrials.gov/study/NCT03336333",
@@ -133358,9 +133495,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05300269",
       "source": "https://clinicaltrials.gov/study/NCT05300269",
-      "fetchedAt": "2026-10-07T16:53:39.725Z",
-      "studySha256": "38a98471b78dd4f4973c465ccb39d1b8882819a601b4e55215f56bb9d6e9962c",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "2a38f77c15e4eed06a5b512ffe4ccb46ecd96d3b3ca1b808e5dc9ebccc2faf24",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2022-07-29",
       "leadSponsor": "Suzhou Suncadia Biopharmaceuticals Co., Ltd.",
       "collaboratorCount": 0,
@@ -133375,7 +133512,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "2a38f77c15e4eed06a5b512ffe4ccb46ecd96d3b3ca1b808e5dc9ebccc2faf24"
     }
   ],
   "nct07515820": [
@@ -133403,9 +133541,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06373133",
       "source": "https://clinicaltrials.gov/study/NCT06373133",
-      "fetchedAt": "2026-10-07T16:54:36.402Z",
-      "studySha256": "ca67a83ccfb40962f3c7f22087c58ce21ecefa5fed144c3f7d7c7b700cad2a08",
-      "overallStatus": "NOT_YET_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "426620502468ece1f9fc5bae8a3da4eacfd1f816b4f7950bcd4697bb7ed775ac",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-04-18",
       "leadSponsor": "West China Hospital",
       "collaboratorCount": 0,
@@ -133417,7 +133555,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 36,
       "enrolmentType": "ESTIMATED",
       "siteCount": 0,
-      "recruitingSiteCount": 0
+      "recruitingSiteCount": 0,
+      "responseStudySha256": "426620502468ece1f9fc5bae8a3da4eacfd1f816b4f7950bcd4697bb7ed775ac"
     }
   ],
   "nct06465563": [
@@ -133777,23 +133916,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06680739",
       "source": "https://clinicaltrials.gov/study/NCT06680739",
-      "fetchedAt": "2026-10-07T16:54:54.827Z",
-      "studySha256": "3de38570a6609b7485f860978dcb6a5b3436f44893849898da94c9b994b9ce3c",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-06-01",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "83b59f04c82beb4daf07610c817991704facb0fce597cb24acc20ae7339c0cef",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-13",
       "leadSponsor": "Vall d'Hebron Institute of Oncology",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 60,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 35,
+      "enrolmentType": "ACTUAL",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Spain"
-      ]
+      ],
+      "responseStudySha256": "83b59f04c82beb4daf07610c817991704facb0fce597cb24acc20ae7339c0cef"
     }
   ],
   "nct07039526": [
@@ -134547,10 +134687,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07748611",
       "source": "https://clinicaltrials.gov/study/NCT07748611",
-      "fetchedAt": "2026-10-07T16:56:49.835Z",
-      "studySha256": "81a6515d8e60a89975e224eac6b887758ed491cc3628b085e100a32b18aa4ba2",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-06",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "c81a38445780ab386e512e981e00a5b4322922b73543d94130e40a1ba8de8e00",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-29",
       "leadSponsor": "Northwestern University",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -134560,10 +134700,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 125,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "c81a38445780ab386e512e981e00a5b4322922b73543d94130e40a1ba8de8e00"
     }
   ],
   "nct07155200": [
@@ -134593,10 +134734,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07551635",
       "source": "https://clinicaltrials.gov/study/NCT07551635",
-      "fetchedAt": "2026-10-07T16:55:48.977Z",
-      "studySha256": "5e9e87170b7232d46fb823ebaf50589b8aa4f8cec25ec1dae6ac3c500d4ad62b",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-04-27",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "55041b27b06b4f1be5b2841164da90032f6ee6f96d72b713e6b1caab61d12d3e",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-10-26",
       "leadSponsor": "Dana-Farber Cancer Institute",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -134606,10 +134747,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 20,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 1,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "55041b27b06b4f1be5b2841164da90032f6ee6f96d72b713e6b1caab61d12d3e"
     }
   ],
   "nct06526819": [
@@ -134945,10 +135087,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05902169",
       "source": "https://clinicaltrials.gov/study/NCT05902169",
-      "fetchedAt": "2026-10-07T16:54:00.715Z",
-      "studySha256": "9c82998f1d854193983e3e79215af93f4394bbe8af5106fed3fc22e7989630d8",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-10-05",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "449d26fcd8fb32cf90a704a788b65771fb66f99aeec221ddb7c1675bf1408481",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-05",
       "leadSponsor": "CarThera",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -134958,7 +135100,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 560,
       "enrolmentType": "ESTIMATED",
       "siteCount": 56,
-      "recruitingSiteCount": 53,
+      "recruitingSiteCount": 0,
       "countries": [
         "Austria",
         "Belgium",
@@ -134971,7 +135113,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Sweden",
         "Switzerland",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "449d26fcd8fb32cf90a704a788b65771fb66f99aeec221ddb7c1675bf1408481"
     }
   ],
   "nct06561048": [
@@ -135907,10 +136050,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
   ],
   "start-b": [
     {
-      "nct": "NCT00005588",
-      "source": "https://clinicaltrials.gov/study/NCT00005588",
-      "fetchedAt": "2026-10-07T17:02:50.866Z",
-      "studySha256": "32d44d4e9e13dadd02625cb2b5f7d25fd0142a182adcba0420ae54cd08cad3a2",
+      "nct": "NCT00005587",
+      "source": "https://clinicaltrials.gov/study/NCT00005587",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "6641ca55eeff53a46471214c384b353c87ec60d62b6811e2c131fb232ac516e7",
       "overallStatus": "COMPLETED",
       "lastUpdatePosted": "2013-12-19",
       "leadSponsor": "Medical Research Council",
@@ -135923,7 +136066,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "United Kingdom"
-      ]
+      ],
+      "responseStudySha256": "6641ca55eeff53a46471214c384b353c87ec60d62b6811e2c131fb232ac516e7"
     }
   ],
   "nct06975293": [
@@ -137187,10 +137331,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04736173",
       "source": "https://clinicaltrials.gov/study/NCT04736173",
-      "fetchedAt": "2026-10-07T16:53:26.644Z",
-      "studySha256": "b15fd2d11efb1bed019dafa389c75b7bfaca29a523cab3eb171d69ad7813f081",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-10-05",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "12b742cd7007aaabf1dfe1fcf1dc5fcb90dcfed64172c7f02c27997662cba9d0",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-19",
       "leadSponsor": "Arcus Biosciences, Inc.",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -137212,7 +137356,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United States",
         "Vietnam"
-      ]
+      ],
+      "responseStudySha256": "12b742cd7007aaabf1dfe1fcf1dc5fcb90dcfed64172c7f02c27997662cba9d0"
     }
   ],
   "nct06117774": [
@@ -137417,9 +137562,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT03603795",
       "source": "https://clinicaltrials.gov/study/NCT03603795",
-      "fetchedAt": "2026-10-07T16:53:05.351Z",
-      "studySha256": "05db6de45f6b1604692091b125c84fe7d6ae2353159e84f9db0330782b303910",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "202979e50b8e4dfd08810fa8c610793be3dbca9d4c04c05e50987d24f4996f2b",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-29",
       "leadSponsor": "French Innovative Leukemia Organisation",
       "collaboratorCount": 1,
@@ -137433,7 +137578,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "France"
-      ]
+      ],
+      "responseStudySha256": "202979e50b8e4dfd08810fa8c610793be3dbca9d4c04c05e50987d24f4996f2b"
     }
   ],
   "nct07300943": [
@@ -139458,23 +139604,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05065957",
       "source": "https://clinicaltrials.gov/study/NCT05065957",
-      "fetchedAt": "2026-10-07T16:53:33.387Z",
-      "studySha256": "b2e78176a9bef59cfbf584a11ae04dbbff83b7dc493c8811ac21c18ec637fe71",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2025-04-30",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "8c1851960378a6d066ed155e93dab5af8c8f11da3107394b2dabd4f20dcf21ba",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-11-04",
+      "whyStopped": "Dose-finding stage has been completed, and dose-expanding stage was not conducted due to design amendment.",
       "leadSponsor": "InnoPharmax Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 180,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 19,
+      "enrolmentType": "ACTUAL",
       "siteCount": 5,
-      "recruitingSiteCount": 5,
+      "recruitingSiteCount": 0,
       "countries": [
         "Taiwan"
-      ]
+      ],
+      "responseStudySha256": "8c1851960378a6d066ed155e93dab5af8c8f11da3107394b2dabd4f20dcf21ba"
     }
   ],
   "nct02340117": [
@@ -141088,9 +141236,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06222879",
       "source": "https://clinicaltrials.gov/study/NCT06222879",
-      "fetchedAt": "2026-10-07T16:54:19.620Z",
-      "studySha256": "a91af4cca97a5642572abcf2a216fa62ab5baa809a7cecb5cb8f948a24ce488a",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "77d834e528079abded84bec39cb16b575d6e432840765acafc16b5e9aa132ae8",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-11-25",
       "leadSponsor": "Shandong Suncadia Medicine Co., Ltd.",
       "collaboratorCount": 0,
@@ -141105,30 +141253,32 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "77d834e528079abded84bec39cb16b575d6e432840765acafc16b5e9aa132ae8"
     }
   ],
   "nct06935409": [
     {
       "nct": "NCT06935409",
       "source": "https://clinicaltrials.gov/study/NCT06935409",
-      "fetchedAt": "2026-10-07T16:55:18.467Z",
-      "studySha256": "afba11ee44c061f3587d3f51e9299e14ad22ce7eb6cf9432565681d129243a6f",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-04-09",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "2a4b0887f43d2343a6e4fcb364f911bd7dce1ac89d13859ebf3324fa2ec5d8a2",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-19",
       "leadSponsor": "Hansoh BioMedical R&D Company",
       "collaboratorCount": 0,
       "minimumAge": "12 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 117,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 122,
+      "enrolmentType": "ACTUAL",
       "siteCount": 2,
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "2a4b0887f43d2343a6e4fcb364f911bd7dce1ac89d13859ebf3324fa2ec5d8a2"
     }
   ],
   "nct06834672": [
@@ -141496,10 +141646,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07680790",
       "source": "https://clinicaltrials.gov/study/NCT07680790",
-      "fetchedAt": "2026-10-07T16:55:56.330Z",
-      "studySha256": "11521088dc2d13c5af37905d0ff4703499ba5c009a17025fce8ae27219431557",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-08-24",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "5c6e41eb9260b98536285021441ac1d112d2a89742ff1b715324f8627fca6f04",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-10",
       "leadSponsor": "Bristol-Myers Squibb",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -141508,8 +141658,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 850,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 208,
-      "recruitingSiteCount": 0,
+      "siteCount": 205,
+      "recruitingSiteCount": 10,
       "countries": [
         "Argentina",
         "Australia",
@@ -141527,7 +141677,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Thailand",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "5c6e41eb9260b98536285021441ac1d112d2a89742ff1b715324f8627fca6f04"
     }
   ],
   "nct07100080": [
@@ -141604,10 +141755,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05132075",
       "source": "https://clinicaltrials.gov/study/NCT05132075",
-      "fetchedAt": "2026-10-07T16:53:34.728Z",
-      "studySha256": "0976447bee155bfd30bbf911233b11ebf535246eb341896884cab7fdb8d2f3db",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-09-25",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "5997f0dc36aa959f31263e396a9096fd318ca28a81a5c17ea3c4ea9c33e56434",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-11-06",
+      "whyStopped": "Business reasons and not based on any safety concerns.",
       "leadSponsor": "Novartis Pharmaceuticals",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -141645,7 +141797,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United States",
         "Vietnam"
-      ]
+      ],
+      "responseStudySha256": "5997f0dc36aa959f31263e396a9096fd318ca28a81a5c17ea3c4ea9c33e56434"
     }
   ],
   "nct04699188": [
@@ -141715,9 +141868,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05620134",
       "source": "https://clinicaltrials.gov/study/NCT05620134",
-      "fetchedAt": "2026-10-07T16:53:47.239Z",
-      "studySha256": "5ecb5e2696f59dbebf40125a5066360d67a748a31f0d819ae019fb621f408065",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "501fc1902cfa8ab8352d66057855e63d898f3ca51cd394177936fab86a5b88cb",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-15",
       "leadSponsor": "Salubris Biotherapeutics Inc",
       "collaboratorCount": 0,
@@ -141732,7 +141885,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "countries": [
         "Belgium",
         "Spain"
-      ]
+      ],
+      "responseStudySha256": "501fc1902cfa8ab8352d66057855e63d898f3ca51cd394177936fab86a5b88cb"
     }
   ],
   "nct06942234": [
@@ -142649,10 +142803,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT03036098",
       "source": "https://clinicaltrials.gov/study/NCT03036098",
-      "fetchedAt": "2026-10-07T16:52:55.789Z",
-      "studySha256": "43a549211395941d7bf993520e7bb7dec77c7a53836febe8c0306aaeecd0e4ad",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-03-06",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "c380563fed7a3758dfd6f914e76521e2cd2d44357fb9c3475ef929a232e9f53a",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-11-02",
       "leadSponsor": "Bristol-Myers Squibb",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -142694,7 +142848,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "c380563fed7a3758dfd6f914e76521e2cd2d44357fb9c3475ef929a232e9f53a"
     }
   ],
   "nct06931626": [
@@ -142724,23 +142879,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06930755",
       "source": "https://clinicaltrials.gov/study/NCT06930755",
-      "fetchedAt": "2026-10-08T16:42:13.801Z",
-      "studySha256": "92a71de03673e04d1d88ecee094e5f602f00121a8e3312802089eb59afd67ca7",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-05-28",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "1dd75bb30e8fd0b0766146ab82e6ed6a18b714ab54e961867b25aeb19e22114b",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-11-16",
+      "whyStopped": "The decision about study closure has not been based on safety profile or clinical data of NMS-03305293 but a strategic decision driven by changes in the treatment landscape and anticipated significant delays in patient enrollment.",
       "leadSponsor": "Nerviano Medical Sciences",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "FEMALE",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 24,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 5,
-      "recruitingSiteCount": 5,
+      "enrolment": 1,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "1dd75bb30e8fd0b0766146ab82e6ed6a18b714ab54e961867b25aeb19e22114b"
     }
   ],
   "nct04182516": [
@@ -146949,9 +147106,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06558227",
       "source": "https://clinicaltrials.gov/study/NCT06558227",
-      "fetchedAt": "2026-10-07T16:54:48.431Z",
-      "studySha256": "1c2a8528f7662e8e54863572da7baa6f9524740ef56b904c59cc03332b722439",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "a5d407b44a49fe79a2d99baf93a5b8047bfd263cdc1ed9d530640ae6695f9568",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-12-16",
       "leadSponsor": "Suzhou Zelgen Biopharmaceuticals Co.,Ltd",
       "collaboratorCount": 0,
@@ -146966,7 +147123,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "a5d407b44a49fe79a2d99baf93a5b8047bfd263cdc1ed9d530640ae6695f9568"
     }
   ],
   "nct06903377": [
@@ -148307,10 +148465,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04925479",
       "source": "https://clinicaltrials.gov/study/NCT04925479",
-      "fetchedAt": "2026-10-07T16:53:30.712Z",
-      "studySha256": "8ba55fc8f780590c087aca6def29db91b7f89c673d0c1ace8de5e466dcab3612",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-25",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "8a5aa471c30bce002da10ade0893a86e3cec21254f3c0f08347020ace1de2c52",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-09",
       "leadSponsor": "Novartis Pharmaceuticals",
       "collaboratorCount": 0,
       "minimumAge": "1 Year",
@@ -148318,26 +148476,25 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 34,
-      "enrolmentType": "ESTIMATED",
-      "siteCount": 39,
-      "recruitingSiteCount": 1,
+      "enrolment": 46,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 23,
+      "recruitingSiteCount": 0,
       "countries": [
         "China",
         "France",
         "Germany",
         "Greece",
-        "Hungary",
         "Italy",
         "Japan",
         "Netherlands",
         "Poland",
-        "Russia",
         "South Korea",
         "Thailand",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "8a5aa471c30bce002da10ade0893a86e3cec21254f3c0f08347020ace1de2c52"
     }
   ],
   "nct07354074": [
@@ -148500,20 +148657,20 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06236438",
       "source": "https://clinicaltrials.gov/study/NCT06236438",
-      "fetchedAt": "2026-10-07T16:54:23.000Z",
-      "studySha256": "6a5903b3bad3df0e18ac9e3dc57c3e99c349c128d33c3dc9c0bedef4fb7f258d",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-14",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "07751a71fd796e1ecbc039ee390ae9a908e9048d51badbb98eb76e664ddcedbe",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-19",
       "leadSponsor": "AbbVie",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 840,
-      "enrolmentType": "ESTIMATED",
+      "enrolment": 167,
+      "enrolmentType": "ACTUAL",
       "siteCount": 61,
-      "recruitingSiteCount": 52,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "Belgium",
@@ -148527,7 +148684,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "07751a71fd796e1ecbc039ee390ae9a908e9048d51badbb98eb76e664ddcedbe"
     }
   ],
   "nct04068597": [
@@ -148584,9 +148742,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04585035",
       "source": "https://clinicaltrials.gov/study/NCT04585035",
-      "fetchedAt": "2026-10-07T16:53:23.186Z",
-      "studySha256": "fc690066de825d134cb74af4125b7591ba03a21c2714c03051e4f724236e6190",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "0550040576f8289def6ca6f32bf496d9774a4786bd417d16ac62a161346b74f3",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2025-03-18",
       "leadSponsor": "InventisBio Co., Ltd",
       "collaboratorCount": 1,
@@ -148603,7 +148761,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "South Korea",
         "Taiwan",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "0550040576f8289def6ca6f32bf496d9774a4786bd417d16ac62a161346b74f3"
     }
   ],
   "nct04851613": [
@@ -149060,9 +149219,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT03635021",
       "source": "https://clinicaltrials.gov/study/NCT03635021",
-      "fetchedAt": "2026-10-07T16:53:05.987Z",
-      "studySha256": "9f0cbdf6eae92dd724fd3a70037f5e87b01e1213f7d53f6da3ff67af0fb1fd0a",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "744cd851681cc254d4d3762d5e3bd23b040cdaf8f8e97d69bac156f5d525741f",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-21",
       "leadSponsor": "Spanish Cooperative Group for the Treatment of Digestive Tumours (TTD)",
       "collaboratorCount": 1,
@@ -149076,7 +149235,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "Spain"
-      ]
+      ],
+      "responseStudySha256": "744cd851681cc254d4d3762d5e3bd23b040cdaf8f8e97d69bac156f5d525741f"
     }
   ],
   "nct06033586": [
@@ -149130,9 +149290,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05118776",
       "source": "https://clinicaltrials.gov/study/NCT05118776",
-      "fetchedAt": "2026-10-07T16:53:34.728Z",
-      "studySha256": "a22649617396c4bac817931d7d3dfa91eea3e569ae6dcc6b3a2ebc6904cc28cd",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "d05f1beb09411419685d750d10a64feffa0041aff8bf7cea9e111c1a1e8bbfb7",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-31",
       "leadSponsor": "Ascletis Pharmaceuticals Co., Ltd.",
       "collaboratorCount": 0,
@@ -149146,7 +149306,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "d05f1beb09411419685d750d10a64feffa0041aff8bf7cea9e111c1a1e8bbfb7"
     }
   ],
   "nct05283226": [
@@ -149310,9 +149471,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04954001",
       "source": "https://clinicaltrials.gov/study/NCT04954001",
-      "fetchedAt": "2026-10-07T16:53:31.375Z",
-      "studySha256": "e305a64bb6ab38d9f769fd40d96fcef28e2b1d83e6a1f382df0bf530fcb85c95",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "b7e48ee9e1c514ff3571f71f4b58392eb10d35c5dc23f3d0f52eef16e8fa1ef7",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-11-12",
       "leadSponsor": "Shanghai Fosun Pharmaceutical Industrial Development Co. Ltd.",
       "collaboratorCount": 0,
@@ -149329,7 +149490,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "China",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "b7e48ee9e1c514ff3571f71f4b58392eb10d35c5dc23f3d0f52eef16e8fa1ef7"
     }
   ],
   "nct06888843": [
@@ -149516,20 +149678,20 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04557449",
       "source": "https://clinicaltrials.gov/study/NCT04557449",
-      "fetchedAt": "2026-10-07T16:53:22.534Z",
-      "studySha256": "ec7e63c27a556f316de52608596f06bd62630334c27f5ce31635365b175861e8",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-08-20",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "55e0d56bfdb49ed0cfc1a4ce483dab0dd6472710480e6e623c756f2dc856f033",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-10",
       "leadSponsor": "Pfizer",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 362,
-      "enrolmentType": "ACTUAL",
+      "enrolment": 430,
+      "enrolmentType": "ESTIMATED",
       "siteCount": 39,
-      "recruitingSiteCount": 0,
+      "recruitingSiteCount": 11,
       "countries": [
         "Argentina",
         "China",
@@ -149539,7 +149701,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Slovakia",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "55e0d56bfdb49ed0cfc1a4ce483dab0dd6472710480e6e623c756f2dc856f033"
     }
   ],
   "nct05317416": [
@@ -149859,10 +150022,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06353386",
       "source": "https://clinicaltrials.gov/study/NCT06353386",
-      "fetchedAt": "2026-10-07T16:54:34.595Z",
-      "studySha256": "f26d58acf5a6917823df87133028b61368bf92d887988910a6fa9df8c8e233c2",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-10-06",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "e28bac45b6490fa4f4727141f098b88041f533f8d77308225db15c906a985b63",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-13",
       "leadSponsor": "Merck Sharp & Dohme LLC",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -149872,7 +150035,7 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 220,
       "enrolmentType": "ESTIMATED",
       "siteCount": 77,
-      "recruitingSiteCount": 68,
+      "recruitingSiteCount": 0,
       "countries": [
         "Australia",
         "Canada",
@@ -149894,7 +150057,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Turkey (Türkiye)",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "e28bac45b6490fa4f4727141f098b88041f533f8d77308225db15c906a985b63"
     }
   ],
   "nct06395103": [
@@ -150578,9 +150742,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05988372",
       "source": "https://clinicaltrials.gov/study/NCT05988372",
-      "fetchedAt": "2026-10-07T16:54:03.729Z",
-      "studySha256": "886fc5bdbcb5531c4ae47888f73956b4db1e9d1c4752d4c93348fcbe3f22bc1a",
-      "overallStatus": "NOT_YET_RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "bdf18530d5d8eecac8788fe9986ea4ffcb3091db4c7977cac6191f209f66de99",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2023-11-01",
       "leadSponsor": "Sun Yat-sen University",
       "collaboratorCount": 0,
@@ -150595,7 +150759,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "bdf18530d5d8eecac8788fe9986ea4ffcb3091db4c7977cac6191f209f66de99"
     }
   ],
   "nct06361030": [
@@ -151825,10 +151990,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05573555",
       "source": "https://clinicaltrials.gov/study/NCT05573555",
-      "fetchedAt": "2026-10-07T16:53:46.156Z",
-      "studySha256": "26008faa60a716e4c2fac8fb83b5450e301cf91c5b1957800163d2e154cc7b75",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-03-09",
+      "fetchedAt": "2026-11-17T07:29:36.728Z",
+      "studySha256": "0c25b1e1edc8e4105e7fbd03c95d0d736795066a1992fdb619c95867bb2294c8",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-27",
+      "whyStopped": "Enrollment was permanently closed for strategic business reasons after 20 participants enrolled in Ph 1b. The decision was not related to safety, efficacy, benefit-risk, or participant welfare. The planned Ph 2 and DDI components were not initiated.",
       "leadSponsor": "Pfizer",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -151837,24 +152003,26 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 20,
       "enrolmentType": "ACTUAL",
-      "siteCount": 29,
+      "siteCount": 31,
       "recruitingSiteCount": 0,
       "countries": [
         "Canada",
         "Italy",
         "Spain",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "0c25b1e1edc8e4105e7fbd03c95d0d736795066a1992fdb619c95867bb2294c8"
     }
   ],
   "nct06125522": [
     {
       "nct": "NCT06125522",
       "source": "https://clinicaltrials.gov/study/NCT06125522",
-      "fetchedAt": "2026-10-07T16:54:14.819Z",
-      "studySha256": "94b28574708e5324c244a00e0e4106a3b11553665955270fbd585019870801fd",
-      "overallStatus": "COMPLETED",
-      "lastUpdatePosted": "2026-10-02",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "e2542efc8c578c7fa37f55c0199f578b8f615391b4477c33a5f667522a2a765c",
+      "overallStatus": "TERMINATED",
+      "lastUpdatePosted": "2026-10-27",
+      "whyStopped": "Enrollment was permanently closed for strategic business reasons after 11 participants enrolled in Ph1b. The decision was not related to safety, efficacy, benefit-risk, or participant welfare. The planned Ph2 and DDI components were not initiated.",
       "leadSponsor": "Pfizer",
       "collaboratorCount": 3,
       "minimumAge": "18 Years",
@@ -151870,7 +152038,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "France",
         "Italy",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "e2542efc8c578c7fa37f55c0199f578b8f615391b4477c33a5f667522a2a765c"
     }
   ],
   "tadpole": [
@@ -151974,10 +152143,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04129502",
       "source": "https://clinicaltrials.gov/study/NCT04129502",
-      "fetchedAt": "2026-10-07T16:53:14.793Z",
-      "studySha256": "edcabcdd98f51d74ac9a92652b0b65788fd2bb55d9dc3935aa27d01495cef7f8",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2026-03-30",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "e3f7d5bbeb5d43a332077de2083f67a4221319a1b493831b01a50e2e5d24bbfa",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-23",
       "leadSponsor": "Takeda",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -152013,7 +152182,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Ukraine",
         "United Kingdom",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "e3f7d5bbeb5d43a332077de2083f67a4221319a1b493831b01a50e2e5d24bbfa"
     }
   ],
   "talapro-2": [
@@ -152271,9 +152441,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04183712",
       "source": "https://clinicaltrials.gov/study/NCT04183712",
-      "fetchedAt": "2026-10-07T16:53:15.464Z",
-      "studySha256": "7835f50c3d87f1c11b7b021fcea8eb09916bd59c83a5fe633a593f15a2b3fb45",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "b25a16cc30ba7b230a415c177430d4f3a512c7c45591fb27b4133ff6914578d6",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-16",
       "leadSponsor": "Shanghai Jiao Tong University School of Medicine",
       "collaboratorCount": 12,
@@ -152288,7 +152458,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 2,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "b25a16cc30ba7b230a415c177430d4f3a512c7c45591fb27b4133ff6914578d6"
     }
   ],
   "nct07598955": [
@@ -152983,9 +153154,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06084806",
       "source": "https://clinicaltrials.gov/study/NCT06084806",
-      "fetchedAt": "2026-10-07T16:54:11.803Z",
-      "studySha256": "34ce40723cdb45a9b3e6f63af6d10ef18cf4f783aa1c0d86e4bae1cce38dc963",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "d0a83d5915c473705e5a6c522d052721335c2feaae8411f699034df5c1eb82e0",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2024-10-24",
       "leadSponsor": "CellSight Technologies, Inc.",
       "collaboratorCount": 1,
@@ -152999,7 +153170,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "d0a83d5915c473705e5a6c522d052721335c2feaae8411f699034df5c1eb82e0"
     }
   ],
   "nct06907342": [
@@ -153029,10 +153201,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT05053971",
       "source": "https://clinicaltrials.gov/study/NCT05053971",
-      "fetchedAt": "2026-10-07T16:53:33.387Z",
-      "studySha256": "cd539b47cb4adb4665492dba6452c82e731269f2f46397e08d0cbbe7870e8a99",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-07-15",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "42b24aa55d077240699183f9371bd739fd24993f44fd37ad93f2878c5155e71b",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-16",
       "leadSponsor": "National Cancer Institute (NCI)",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -153042,10 +153214,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 49,
       "enrolmentType": "ESTIMATED",
       "siteCount": 3,
-      "recruitingSiteCount": 3,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "42b24aa55d077240699183f9371bd739fd24993f44fd37ad93f2878c5155e71b"
     }
   ],
   "nct04941287": [
@@ -153241,10 +153414,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04172532",
       "source": "https://clinicaltrials.gov/study/NCT04172532",
-      "fetchedAt": "2026-10-07T16:53:15.464Z",
-      "studySha256": "9a3281a529e6b982affd6c7bb74ff2e1f3eed8db0f004280883597d85ea00545",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-10-07",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "e9c7e21c65c136519d47c7634d11b160cbd99ab7ab8a35f49f5126c0b038af60",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-12",
       "leadSponsor": "National Cancer Institute (NCI)",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -153254,10 +153427,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 92,
       "enrolmentType": "ESTIMATED",
       "siteCount": 44,
-      "recruitingSiteCount": 27,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "e9c7e21c65c136519d47c7634d11b160cbd99ab7ab8a35f49f5126c0b038af60"
     }
   ],
   "nct03811002": [
@@ -154356,9 +154530,9 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06125080",
       "source": "https://clinicaltrials.gov/study/NCT06125080",
-      "fetchedAt": "2026-10-07T16:54:14.819Z",
-      "studySha256": "2bfae1db9affa27509105d6d26d609ef0d46c358a8aa97d0642c4ea9bc3623d2",
-      "overallStatus": "RECRUITING",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "479d2439bbeb50377eff000e3d044a8db4c9584db02158b42df5d19011e95f8d",
+      "overallStatus": "UNKNOWN",
       "lastUpdatePosted": "2023-11-09",
       "leadSponsor": "Huihua Xiong",
       "collaboratorCount": 0,
@@ -154373,7 +154547,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 1,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "479d2439bbeb50377eff000e3d044a8db4c9584db02158b42df5d19011e95f8d"
     }
   ],
   "nct05984485": [
@@ -154874,10 +155049,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04233346",
       "source": "https://clinicaltrials.gov/study/NCT04233346",
-      "fetchedAt": "2026-10-07T16:53:16.796Z",
-      "studySha256": "c7117ed79a839aed94fda347e39298a65b6125eee6f5d0f4695e3c8e4882f4ba",
-      "overallStatus": "ACTIVE_NOT_RECRUITING",
-      "lastUpdatePosted": "2025-04-04",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "8d9a6017e74db2429506b71b3132c0501a5ec9acc498725213a0c3dce464b88b",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2026-10-16",
       "leadSponsor": "Otsuka Beijing Research Institute",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -154890,7 +155065,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "recruitingSiteCount": 0,
       "countries": [
         "China"
-      ]
+      ],
+      "responseStudySha256": "8d9a6017e74db2429506b71b3132c0501a5ec9acc498725213a0c3dce464b88b"
     }
   ],
   "nct06520345": [
@@ -155944,10 +156120,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT06072131",
       "source": "https://clinicaltrials.gov/study/NCT06072131",
-      "fetchedAt": "2026-10-07T16:54:09.016Z",
-      "studySha256": "345dac41326702a969bf5b3d15c7ea73727fdf119139114ffb18a029b7cd76f3",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-07-22",
+      "fetchedAt": "2026-11-17T07:29:37.688Z",
+      "studySha256": "c3df8f6eab656fd79ac334bc391b2cb0f9d3ed7f90e3f92bbe445391d38430c6",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-15",
       "leadSponsor": "Acrotech Biopharma Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
@@ -155956,8 +156132,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "hasEligibility": true,
       "enrolment": 504,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 69,
-      "recruitingSiteCount": 57,
+      "siteCount": 58,
+      "recruitingSiteCount": 0,
       "countries": [
         "Canada",
         "Germany",
@@ -155969,7 +156145,8 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "Taiwan",
         "Turkey (Türkiye)",
         "United States"
-      ]
+      ],
+      "responseStudySha256": "c3df8f6eab656fd79ac334bc391b2cb0f9d3ed7f90e3f92bbe445391d38430c6"
     }
   ],
   "nct06504732": [
@@ -157952,10 +158129,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT04875585",
       "source": "https://clinicaltrials.gov/study/NCT04875585",
-      "fetchedAt": "2026-10-07T16:53:29.376Z",
-      "studySha256": "d0984e9909108fcdda525a1653e44e0f310dc7c26730a617ddf0f5b3e03550af",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2022-08-24",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "a4671e42753f40d7029ad651231ad210988e8f821c8f3df16ebc8ab9ec2169ef",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-11-06",
       "leadSponsor": "Medical University Innsbruck",
       "collaboratorCount": 1,
       "minimumAge": "18 Years",
@@ -157965,10 +158142,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 33,
       "enrolmentType": "ESTIMATED",
       "siteCount": 1,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Austria"
-      ]
+      ],
+      "responseStudySha256": "a4671e42753f40d7029ad651231ad210988e8f821c8f3df16ebc8ab9ec2169ef"
     }
   ],
   "nct06371807": [
@@ -158707,10 +158885,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07146646",
       "source": "https://clinicaltrials.gov/study/NCT07146646",
-      "fetchedAt": "2026-10-07T16:55:28.490Z",
-      "studySha256": "89687993ee62daeebfd3a883246110221727d468498d7f395881c591c3903c92",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2026-09-22",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "ea4027b7c4a9e4764602bfb2411d04d0127c817b68dacfcd3a6bd783662c0e2c",
+      "overallStatus": "SUSPENDED",
+      "lastUpdatePosted": "2026-10-20",
+      "whyStopped": "Interim Analysis",
       "leadSponsor": "Case Comprehensive Cancer Center",
       "collaboratorCount": 1,
       "minimumAge": "19 Years",
@@ -158720,10 +158899,11 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "enrolment": 27,
       "enrolmentType": "ESTIMATED",
       "siteCount": 2,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "United States"
-      ]
+      ],
+      "responseStudySha256": "ea4027b7c4a9e4764602bfb2411d04d0127c817b68dacfcd3a6bd783662c0e2c"
     }
   ],
   "nct07261709": [
@@ -160261,10 +160441,10 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT02919644",
       "source": "https://clinicaltrials.gov/study/NCT02919644",
-      "fetchedAt": "2026-10-07T16:52:53.116Z",
-      "studySha256": "648ee7ff77950021046d910ef7879d6b16ec086040bd4ae78a84636a31aecd82",
-      "overallStatus": "RECRUITING",
-      "lastUpdatePosted": "2024-09-19",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "de47f29c1a002152c288c03540dd3dd3e5aa65b1b638f58e906611567176ebae",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "lastUpdatePosted": "2026-10-28",
       "leadSponsor": "Istituto Romagnolo per lo Studio dei Tumori Dino Amadori IRST S.r.l. IRCCS",
       "collaboratorCount": 0,
       "minimumAge": "19 Years",
@@ -160272,12 +160452,13 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
       "healthyVolunteers": false,
       "hasEligibility": true,
       "enrolment": 19,
-      "enrolmentType": "ESTIMATED",
+      "enrolmentType": "ACTUAL",
       "siteCount": 2,
-      "recruitingSiteCount": 1,
+      "recruitingSiteCount": 0,
       "countries": [
         "Italy"
-      ]
+      ],
+      "responseStudySha256": "de47f29c1a002152c288c03540dd3dd3e5aa65b1b638f58e906611567176ebae"
     }
   ],
   "nct07407647": [
@@ -161884,20 +162065,24 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
     {
       "nct": "NCT07688577",
       "source": "https://clinicaltrials.gov/study/NCT07688577",
-      "fetchedAt": "2026-10-07T16:55:59.097Z",
-      "studySha256": "ab61db5c8283c30d12177e7d1eaedfd2c1337db292ddc9de79ea49cc59706f4e",
-      "overallStatus": "NOT_YET_RECRUITING",
-      "lastUpdatePosted": "2026-07-07",
+      "fetchedAt": "2026-11-17T07:29:38.630Z",
+      "studySha256": "5ad742dbd7403193d2a8cf21ff3a39971fd4806eedbd57d753abf18bac6175dd",
+      "overallStatus": "RECRUITING",
+      "lastUpdatePosted": "2026-11-04",
       "leadSponsor": "Xilio Development, Inc.",
       "collaboratorCount": 0,
       "minimumAge": "18 Years",
       "sex": "ALL",
       "healthyVolunteers": false,
       "hasEligibility": true,
-      "enrolment": 140,
+      "enrolment": 180,
       "enrolmentType": "ESTIMATED",
-      "siteCount": 0,
-      "recruitingSiteCount": 0
+      "siteCount": 3,
+      "recruitingSiteCount": 3,
+      "countries": [
+        "United States"
+      ],
+      "responseStudySha256": "5ad742dbd7403193d2a8cf21ff3a39971fd4806eedbd57d753abf18bac6175dd"
     }
   ],
   "nct06555133": [
@@ -162583,6 +162768,42 @@ export const TRIAL_PARTICIPATION: Record<string, TrialParticipation[]> = {
         "United Kingdom",
         "United States"
       ]
+    }
+  ],
+  "sequoia-pancreatic": [
+    {
+      "nct": "NCT02923921",
+      "source": "https://clinicaltrials.gov/study/NCT02923921",
+      "fetchedAt": "2026-11-17T07:29:35.741Z",
+      "studySha256": "89d576c1b57a92d259d4e924673d93d307858f0f6975bd94f40f73395136ccd5",
+      "overallStatus": "COMPLETED",
+      "lastUpdatePosted": "2020-10-19",
+      "leadSponsor": "Eli Lilly and Company",
+      "collaboratorCount": 1,
+      "minimumAge": "18 Years",
+      "sex": "ALL",
+      "healthyVolunteers": false,
+      "hasEligibility": true,
+      "enrolment": 567,
+      "enrolmentType": "ACTUAL",
+      "siteCount": 130,
+      "recruitingSiteCount": 0,
+      "countries": [
+        "Australia",
+        "Austria",
+        "Belgium",
+        "Canada",
+        "France",
+        "Germany",
+        "Italy",
+        "Poland",
+        "South Korea",
+        "Spain",
+        "Taiwan",
+        "United Kingdom",
+        "United States"
+      ],
+      "responseStudySha256": "89d576c1b57a92d259d4e924673d93d307858f0f6975bd94f40f73395136ccd5"
     }
   ]
 };

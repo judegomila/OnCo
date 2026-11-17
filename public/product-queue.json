@@ -61,5 +61,14 @@
     "files": 352,
     "proposed": "2026-11-17",
     "state": "waiting"
+  },
+  {
+    "branch": "product/side-effect-protocol-mappings",
+    "why": "side effects link the fourteen new protocols that manage them",
+    "pr": "https://github.com/judegomila/OnCo/pull/450",
+    "preview": "",
+    "files": 2,
+    "proposed": "2026-11-17",
+    "state": "waiting"
   }
 ]

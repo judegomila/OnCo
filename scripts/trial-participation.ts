@@ -53,6 +53,12 @@ export const REJECTED_CROSS_REFERENCES: Record<string, Record<string, string>> =
   "espac-4": {
     NCT00058201: "ISRCTN96397434 (ESPAC-4) lists NCT00058201 as a secondary number, but ClinicalTrials.gov NCT00058201 is ESPAC-3 version 2 (secondary id RLUH-NCRI-ESPAC-3V2; observation or fluorouracil or gemcitabine, from July 2001). Read 16 November 2026.",
   },
+  foxtrot: {
+    NCT06293625: "ISRCTN83842641 lists NCT06293625, but ClinicalTrials.gov NCT06293625 is FOxTROT2France (acronym as registered), sponsored by Centre Hospitalier Universitaire Dijon, 150 estimated participants aged 70 or more, recruiting; it has its own record, nct06293625. The record `foxtrot` is the 1,053-patient trial reported in 2023. Read 17 November 2026.",
+  },
+  "start-b": {
+    NCT00005588: "ISRCTN59368779 covers START trials A and B and lists NCT00005588, but ClinicalTrials.gov NCT00005588 is Trial A only (official title 'Standardization of Breast Radiotherapy: Trial A', secondary id STMG-STARTA, three arms of 50, 41.6 and 39 Gy). Trial B is NCT00005587 (secondary id STMG-STARTB), which the record now links. Read 17 November 2026.",
+  },
 };
 /** The cross-references a record may be fetched by: every declared one except those REJECTED_CROSS_REFERENCES names. */
 export function acceptedCrossReferences<T extends { nct: string }>(id: string, refs: T[] | undefined): T[] {
@@ -71,6 +77,43 @@ export function registryIds(t: { nct?: string; links: Array<{ url: string }> }):
     } catch { /* An invalid link is handled by the corpus validator. */ }
   }
   return [...ids].sort();
+}
+
+/**
+ * The registrations that are a record's own. A ClinicalTrials.gov link is usually the record's registration, but a
+ * record also links a study it only cites: MOUNTAINEER links its phase 3 successor, and an ivermectin trial cites the
+ * ICONIC registry entry for a safety statement. Read as registrations, those links attached the other study's sites,
+ * sponsor and recruiting status to the wrong page. So: when a record names an NCT number in its own `nct` field, a
+ * linked NCT number that it does not name there and that another record does name in its `nct` field is a citation.
+ * A record registered elsewhere (an ISRCTN in `nct`, or no `nct` at all) keeps every linked number, because the link
+ * is then the only place its ClinicalTrials.gov registration is written.
+ */
+export function ownRegistryIds<T extends { id: string; nct?: string; links: Array<{ url: string }> }>(trials: T[]): Map<string, string[]> {
+  const inField = (t: T) => t.nct?.toUpperCase().match(/\bNCT\d{8}\b/g) ?? [];
+  const owners = new Map<string, Set<string>>();
+  for (const t of trials) for (const nct of inField(t)) owners.set(nct, (owners.get(nct) ?? new Set()).add(t.id));
+  return new Map(trials.map((t) => {
+    const own = new Set(inField(t));
+    return [t.id, registryIds(t).filter((nct) => own.has(nct) || !own.size || !owners.has(nct))];
+  }));
+}
+
+/**
+ * One registration that two records are meant to share. Anything else attached to two records is a fault, and the
+ * fetcher stops on it: it is how MOUNTAINEER came to show MOUNTAINEER-03's 366 sites.
+ */
+export const SHARED_REGISTRATIONS: Record<string, { records: string[]; why: string }> = {
+  NCT02034110: { records: ["roar", "roar-atc"], why: "Two cohorts of one basket trial, biliary tract and anaplastic thyroid, with different results and approvals (docs/DUPLICATE-RECORDS.md)." },
+  NCT01042379: { records: ["i-spy-2", "i-spy-2-2"], why: "I-SPY 2.2 is a protocol version running under the I-SPY 2 registration (docs/DUPLICATE-RECORDS.md)." },
+  NCT00541047: { records: ["radicals-hd", "radicals-rt"], why: "RADICALS is one registration with two randomisations, radiotherapy timing and hormone duration, reported separately." },
+  NCT02945566: { records: ["nct02945566", "star-trec"], why: "One study held twice: a registry ingest and the curated STAR-TREC record (ISRCTN14240288, which declares this number). To be merged into star-trec; the redirect that needs waits for the owner." },
+};
+/** Registrations attached to more than one record that SHARED_REGISTRATIONS does not name with exactly those records. */
+export function unexpectedSharedRegistrations(rows: Array<{ id: string; ncts: string[] }>): Array<{ nct: string; records: string[] }> {
+  const by = new Map<string, string[]>();
+  for (const row of rows) for (const nct of row.ncts) by.set(nct, [...(by.get(nct) ?? []), row.id]);
+  return [...by].filter(([nct, ids]) => ids.length > 1 && [...ids].sort().join() !== [...(SHARED_REGISTRATIONS[nct]?.records ?? [])].sort().join())
+    .map(([nct, ids]) => ({ nct, records: [...ids].sort() }));
 }
 
 /** Fail closed if the API ever widens a field projection to include personal study contacts. */

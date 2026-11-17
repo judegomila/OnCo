@@ -13,6 +13,7 @@
  * Rules, in order:
  *   - a result status (positive, negative, mixed) is a verdict on the trial, not a lifecycle stage; never replaced;
  *   - a corpus "withdrawn" the registry contradicts is reported for a hand check, not changed;
+ *   - a corpus "historic" is an editor's label and is kept; one the registry still calls open is reported for a hand check;
  *   - a downgrade (completed -> active, active -> recruiting, ...) of a hand-written trial (no `ctgov-ingest` tag)
  *     whose `asOf` is later than the registry's last update is refused: the editor's source is newer;
  *   - everything else that differs becomes a change in the side file src/data/trial-registry-status.ts, which
@@ -119,6 +120,9 @@ function decide(t: { id: string; status?: Status; asOf: string; tags: string[] }
   if (from === to) return {};
   if (RESULT_STATUSES.has(from)) return { kept: `result status ${from} kept (registry ${registry.toLowerCase()})` };
   if (from === "withdrawn") return { kept: `corpus withdrawn but registry ${registry.toLowerCase()}: check by hand` };
+  // "historic" is an editor's label for a study that belongs to the past (a stopped programme, a defunct sponsor). A
+  // terminated or completed registry status agrees with it; a study the registry still calls open does not.
+  if (from === "historic") return { kept: to === "completed" || to === "withdrawn" ? `historic kept (registry ${registry.toLowerCase()})` : `corpus historic but registry ${registry.toLowerCase()}: check by hand` };
   const updated = sm.lastUpdatePostDateStruct?.date;
   const handWritten = !t.tags.includes("ctgov-ingest");
   const downgrade = (RANK[to] ?? 0) < (RANK[from] ?? 0);

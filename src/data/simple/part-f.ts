@@ -215,7 +215,7 @@ export const simpleF: Record<string, string> = {
   "hpv-deescalation-caution": "Being HPV-positive is not enough to justify less radiation for throat cancer; trials that tried it saw more relapses, so selection now uses response or blood tests.",
   "braf-mek-neoadjuvant-atc": "Shrinking a BRAF-mutant anaplastic thyroid tumour with pills first and then removing what is left has let some patients survive years instead of months.",
   "redifferentiation-rai": "A short course of a MEK or BRAF pill can coax iodine-resistant thyroid cancer into taking up iodine again, letting radioactive iodine treatment work once more.",
-  "anti-egfr-left-sided": "In bowel cancers that start on the left and have normal RAS and BRAF genes, adding an EGFR antibody to chemotherapy gave a median survival of about 38 months in the PARADIGM trial, longer than with bevacizumab.",
+  "anti-egfr-left-sided": "In left-sided bowel cancers with normal RAS and BRAF genes, adding an EGFR antibody to chemotherapy gave a median survival of about 38 months in the PARADIGM trial, longer than with bevacizumab.",
   "neoadjuvant-io-dmmr": "If a bowel tumour has a broken DNA spell-checker, immunotherapy before surgery melts most tumours, and in the rectum it can replace surgery altogether.",
   "her2-gastric-sequence": "For HER2-positive stomach cancer, an antibody plus chemotherapy comes first, then trastuzumab deruxtecan when it progresses, and both steps now have phase 3 proof.",
   "cldn18-antibody-then-adc": "Hitting Claudin 18.2 twice, first with a plain antibody plus chemotherapy and then with an antibody-drug or engineered cells at relapse, is an emerging stomach cancer strategy.",

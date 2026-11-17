@@ -87,7 +87,7 @@ async function main() {
     console.log(`trials ${code}: ${c.trials ?? "n/a"}`);
   }
 
-  const data = { built: new Date().toISOString().slice(0, 10), years: YEARS, source: "OpenAlex works, primary_topic.subfield 2730 (Oncology), group_by authorships.countries (whole counting); ClinicalTrials.gov v2 query.locn counts", countries: Object.fromEntries([...countries.entries()].sort((a, b) => b[1].total - a[1].total)) };
+  const data = { built: new Date().toISOString().slice(0, 10), years: YEARS, source: "OpenAlex works, primary_topic.subfield 2730 (Oncology), group_by authorships.countries (whole counting); ClinicalTrials.gov v2 query.locn counts of every registered study with a site in the country, all conditions and all statuses, not cancer studies alone", countries: Object.fromEntries([...countries.entries()].sort((a, b) => b[1].total - a[1].total)) };
   writeFileSync(join(out, "countries.json"), JSON.stringify(data, null, 0));
   console.log(`countries: ${countries.size} written`);
 }

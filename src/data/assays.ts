@@ -44,7 +44,7 @@ export type Assay = {
   source: { label: string; url: string };
 };
 
-const FDA_CDX = { label: "FDA: List of cleared or approved companion diagnostic devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
+const FDA_CDX = { label: "FDA: List of FDA-Authorized Companion Diagnostic Devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
 const doi = (d: string, label: string) => ({ label, url: `https://doi.org/${d}` });
 
 export const assays: Assay[] = [

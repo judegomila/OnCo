@@ -156,7 +156,7 @@ const papers: PaperInput[] = [
       "Infection-unrelated cancers overtook infection-related ones after age 54; in older men prostate cancer became the commonest.",
     ],
     whatItMeans: "As people with HIV in South Africa live longer on treatment, screening and early detection for cancers not caused by infection matter more, while cervical cancer control stays essential.",
-    caveats: ["Only cancers confirmed by a laboratory are in the registry.", "Data end in 2014, before universal treatment was fully rolled out."],
+    caveats: ["Only cancers confirmed by a laboratory are in the registry.", "Data end in 2014."],
     cancers: ["cervical", "kaposi-sarcoma", "breast-cancer", "prostate"], institutions: ["national-cancer-registry-south-africa", "nhls-south-africa"], people: ["mazvita-muchengeti"],
     links: [doi("10.1093/cid/ciac925", "Clin Infect Dis 2023"), pubmed("36461916")] }),
 

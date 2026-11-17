@@ -33,6 +33,8 @@ import { protocol } from "./helpers";
  *   again, and the Internet Archive held no copy at the address tried. Not read.
  * Every DOI was resolved through Europe PMC or Crossref and its title checked. Quotes are copied from the raw text
  * with nothing changed.
+ * The doses were independently re-read on 17 November 2026 against the MHRA and EMA notices, the two Scottish pages
+ * and the three trial papers; none was wrong, and the MHRA's weight-based form of the metoclopramide maximum was added.
  */
 export const nauseaAndVomitingInAdvancedCancer = protocol({
   id: "nausea-and-vomiting-in-advanced-cancer",
@@ -100,7 +102,7 @@ export const nauseaAndVomitingInAdvancedCancer = protocol({
       grade: "II (each drug), high consensus",
     },
     {
-      action: "Keep the licence limit on metoclopramide in mind: short-term use (up to 5 days) and, for an adult, no more than 30 mg in 24 hours; treat longer or higher-dose use as unlicensed and monitor it",
+      action: "Keep the licence limit on metoclopramide in mind: short-term use (up to 5 days) and, for an adult, no more than 30 mg (or 0.5 mg per kg of body weight) in 24 hours; treat longer or higher-dose use as unlicensed and monitor it",
       why: "A European review found that the risk of movement disorders outweighs the benefit in long-term or high-dose treatment. The Scottish guidelines mark their own palliative dose and duration as unlicensed, ask for closer monitoring beyond one week because of cardiac risks, and tell prescribers to watch for extrapyramidal side effects on prolonged higher doses.",
       source: "mhra-metoclopramide-2013",
       quote: "metoclopramide should only be prescribed for short-term use (up to 5 days)",

@@ -18,14 +18,20 @@ import { ASCO_GAP, ASCO_ICI_2021, ESMO_GAP, ESMO_ICI_2022, SITC_ICI_2021 } from 
  * a "same day" call that no source states were taken out of the patient text and the trigger; "may be given" and
  * "should be considered" are no longer written as orders; reasons no source gives were replaced with what the sources
  * say; AASLD's grade thresholds and SITC's general rules on withholding and re-challenge were added.
+ *
+ * 17 November 2026, later the same day: the patient safety-net step was restored from Macmillan Cancer Support's
+ * pembrolizumab page (reviewed 1 August 2026; the raw copy a sibling checker saved that day was re-used) and from the
+ * Medication Guides in the US labels for pembrolizumab, nivolumab and ipilimumab, fetched as SPL XML from the DailyMed
+ * web service and read as tag-stripped text. The new quote was checked by script. The patient leaflets of the other
+ * checkpoint inhibitors named on this page were not read.
  */
 export const iraeHepatitis = protocol({
   id: "irae-hepatitis",
   name: "Immune-mediated hepatitis from checkpoint inhibitors, by grade",
   aka: ["checkpoint inhibitor hepatitis", "ICI hepatotoxicity", "immune-related hepatitis", "IMH", "immunotherapy liver inflammation"],
   domain: "immunotherapy-toxicity",
-  tldr: "Immunotherapy can inflame the liver, often without symptoms, so liver blood tests are checked before every dose. A mild rise is watched more closely. A larger rise means pausing immunotherapy and usually steroids; a severe one can mean stopping immunotherapy for good. Tell your cancer team if your skin or eyes turn yellow.",
-  simple: "Immunotherapy can sometimes inflame the liver. Your blood tests check for this before each dose. If you notice yellow skin or eyes, tell your cancer team.",
+  tldr: "Immunotherapy can inflame the liver, often without symptoms, so liver tests are checked before each dose. A mild rise is watched. A larger rise means pausing treatment and usually steroids; a severe one can mean stopping it for good. Contact the hospital straight away for yellow skin or eyes, feeling very sleepy, dark urine, unexplained bleeding or bruising, or pain in the right side of the tummy.",
+  simple: "Immunotherapy can sometimes inflame the liver. Your blood tests check for this before each dose. If you notice yellow skin or eyes, dark pee, or pain in the right side of your tummy, contact the hospital straight away on the 24-hour number.",
   summary: "Hepatitis (raised ALT or AST) occurs in 5% on PD-(L)1 inhibitors, 5% on CTLA-4 inhibitors and 19% on combinations (9% grade 3 or more), typically 1 to 15 weeks after treatment (SITC 2021); AASLD 2023 gives 1 to 15% across trials and observational studies, mostly asymptomatic and in the first 6 to 12 weeks. AASLD reports that only 30% of demonstrable liver injury in advanced cancer is drug-induced, the rest being metastases, sepsis and other liver disease, and stresses contrast-enhanced CT and MR scanning.\n\nGrades: SITC refers to a standard scale such as CTCAE v5.0 and prints no liver thresholds. AASLD does: grade 1 is ALT above 1 to 3 times the upper limit of normal and/or bilirubin above 1 to 1.5 times; grade 2 is ALT 3 to 5 times and/or bilirubin 1.5 to 3 times; grade 3 or higher is ALT 5 to 20 times and/or bilirubin 3 to 10 times, or symptomatic liver dysfunction.\n\nSITC 2021: liver tests before every infusion. From grade 2, a workup including clotting, bilirubin, iron studies, an autoimmune hepatitis panel and a viral hepatitis panel; abdominal imaging should be considered at grade 3 or more if there is pre-existing liver disease or concern about progression or liver metastases. Recheck weekly for grades 1 to 2, every 1 to 2 days for grade 3 or more. Grade 2: prednisone 0.5 to 1 mg/kg/day or equivalent, with the checkpoint inhibitor withheld under SITC's general rule for grade 2; grades 3 to 4: methylprednisolone 1 to 2 mg/kg/day or equivalent; taper over 4 to 6 weeks once tests are grade 1 or less (LE: 1). If ALT or AST is not grade 1 or less within 10 to 14 days of starting steroids, or toxicity recurs after the taper, mycophenolate mofetil may be given (LE: 4). Infliximab should not be used (LE: 1).\n\nAASLD 2023: grade 1, continue with more frequent tests; grade 2, withhold and consider oral prednisone 0.5 to 1.0 mg/kg/day; grade 3 or higher, the checkpoint inhibitor should be permanently discontinued, and intravenous steroids at 1 to 1.5 mg/kg/day, with admission for people with jaundice, should be considered. Mycophenolate mofetil or azathioprine can be used for steroid-refractory disease. Liver biopsy is generally not recommended unless grade 3 injury or jaundice persists despite steroids. ESMO 2022 could not be read.",
   asOf: "2026-11-17",
   setting: {
@@ -40,6 +46,12 @@ export const iraeHepatitis = protocol({
       why: "Hepatitis from immunotherapy is often without symptoms and shows as a rise in ALT or AST.",
       source: "sitc-2021",
       quote: "Liver biochemical tests (aka liver function tests (LFTs)) should be checked prior to each ICI infusion.",
+    },
+    {
+      action: "Tell the patient and carer to contact the hospital straight away on the 24-hour number for yellow skin or eyes, feeling very sleepy, dark urine, unexplained bleeding or bruising, or pain in the right side of the tummy, during treatment or after it ends",
+      why: "This is Macmillan's advice for pembrolizumab. It adds that on black or brown skin a change in skin colour may be less noticeable, so the first sign may be that the whites of the eyes look yellow or the urine has changed colour. The US Medication Guides for pembrolizumab, nivolumab and ipilimumab say to call or see the healthcare provider right away for yellowing of the skin or the whites of the eyes, severe nausea or vomiting, pain on the right side of the stomach area, dark (tea coloured) urine, or bleeding or bruising more easily than normal, and that getting medical treatment right away may help keep these problems from becoming more serious.",
+      source: "macmillan-pembrolizumab",
+      quote: "Sometimes liver changes can be serious. Contact the hospital straight away on the 24-hour number if you have any of these symptoms during treatment or after it ends:",
     },
     {
       action: "From grade 2, send clotting, bilirubin, alkaline phosphatase, iron studies, an autoimmune hepatitis panel and a viral hepatitis panel",
@@ -145,6 +157,10 @@ export const iraeHepatitis = protocol({
       accessed: "2026-11-17",
     },
     { ...ASCO_ICI_2021, accessed: "2026-11-17" },
+    { key: "macmillan-pembrolizumab", label: "Pembrolizumab (patient information; reviewed 1 August 2026)", publisher: "Macmillan Cancer Support", year: 2026, url: "https://www.macmillan.org.uk/cancer-information-and-support/treatments-and-drugs/pembrolizumab", gradingScheme: "Patient information, not graded.", read: "full-text", accessed: "2026-11-17" },
+    { key: "label-keytruda", label: "KEYTRUDA (pembrolizumab) injection: US prescribing information with Medication Guide (revised October 2026)", publisher: "Merck Sharp & Dohme, on DailyMed (US National Library of Medicine)", year: 2026, url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9333c79b-d487-4538-a9f0-71b91a02b287", gradingScheme: "Regulatory label; not graded.", read: "full-text", accessed: "2026-11-17" },
+    { key: "label-opdivo", label: "OPDIVO (nivolumab) injection: US prescribing information with Medication Guide (Medication Guide revised March 2026)", publisher: "Bristol-Myers Squibb, on DailyMed (US National Library of Medicine)", year: 2026, url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f570b9c4-6846-4de2-abfa-4d0a4ae4e394", gradingScheme: "Regulatory label; not graded.", read: "full-text", accessed: "2026-11-17" },
+    { key: "label-yervoy", label: "YERVOY (ipilimumab) injection: US prescribing information with Medication Guide (Medication Guide revised May 2025)", publisher: "Bristol-Myers Squibb, on DailyMed (US National Library of Medicine)", year: 2025, url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66", gradingScheme: "Regulatory label; not graded.", read: "full-text", accessed: "2026-11-17" },
     ESMO_ICI_2022,
   ],
   upgrades: [],
@@ -153,7 +169,7 @@ export const iraeHepatitis = protocol({
     ASCO_GAP,
     "SITC's hepatitis section does not say whether to stop the checkpoint inhibitor permanently after grade 3 hepatitis; its general rule makes re-challenge after any grade 3 or 4 immune side effect a risk-adjusted decision (LE: 3), while AASLD says the drug should be permanently discontinued. The ASCO hepatitis table was not read, so ASCO's position on re-challenge after grade 3 hepatitis is not stated here.",
     "SITC's hepatitis section does not print the liver test thresholds for each grade; the multiples of the upper limit of normal on this page are AASLD's. AASLD's text gives intravenous steroids at 1 to 1.5 mg/kg per day for grade 3 or higher, while its Table 9 gives 1 mg/kg per day of methylprednisolone equivalents.",
-    "Neither SITC nor AASLD lists the symptoms a patient should report or says how quickly; AASLD mentions jaundice, and says in general that patients should be taught to report untoward symptoms.",
+    "Neither SITC nor AASLD lists the symptoms a patient should report or says how quickly; AASLD mentions jaundice, and says in general that patients should be taught to report untoward symptoms. The patient step on this page rests instead on Macmillan's pembrolizumab page and on the US Medication Guides for pembrolizumab, nivolumab and ipilimumab, read on 17 November 2026. The two lists differ: Macmillan includes feeling very sleepy, and the Medication Guides include severe nausea or vomiting. Neither gives a time limit in hours. The patient leaflets for the other checkpoint inhibitors named here, and the European package leaflets, were not read.",
     "On 17 November 2026 a search of Europe PMC and the Crossref record found no newer edition of the AASLD guidance. ESMO 2022 and the ASCO 2021 full text were not retried for this page on that date; another checker found both still refusing a script on 16 November 2026.",
     "No randomised trial of second-line treatment for steroid-refractory immune hepatitis was found among the sources read.",
   ],

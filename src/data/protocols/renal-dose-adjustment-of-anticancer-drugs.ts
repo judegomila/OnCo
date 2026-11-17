@@ -29,6 +29,10 @@ import { protocol } from "./helpers";
  *   abstract. The first pass credited it to Krens, who is its third author and the first author of the 2019 paper.
  *   BOPA names the Lancet recommendations as a reference; nothing here rests on them.
  *
+ * Doses independently re-read on 17 November 2026 against the ADDIKD guideline PDF (cisplatin and methotrexate
+ * sections), ADDIKD Part 1 and the integration paper; the methotrexate and cisplatin conditions were reworded to
+ * the guideline's own.
+ *
  * Every DOI was resolved through Crossref and its title checked. Quotes are copied with line breaks joined only; in
  * the XML, tags and citation-number cross-references are stripped. Sentences whose superscripts mangle in the raw
  * text (mg/m2, ml/min/1.73 m2) are not used as quotes; those figures are stated in prose.
@@ -123,13 +127,13 @@ export const renalDoseAdjustmentOfAnticancerDrugs = protocol({
     },
     {
       name: "Cisplatin divided into high and low dose at 50 mg/m2 (ADDIKD)",
-      differs: "Treats a protocol starting dose above 50 mg/m2 (counting fractionated doses together) as high dose. At eGFR 45 to 59: above 50 mg/m2, consider an alternative protocol, especially with poor performance status or nephrotoxic co-medicines, or a 25 to 50% reduction if proceeding; at 50 mg/m2 or below, consider full dose where intent is curative, performance status is good and there are no nephrotoxic co-medicines, and otherwise a 25% reduction or an alternative protocol. Below eGFR 45: avoid cisplatin and use an alternative protocol. With eGFR below 60, measured GFR is preferred for initial dosing, especially above 50 mg/m2 or where eGFR is unreliable.",
+      differs: "Treats a protocol starting dose above 50 mg/m2 (counting fractionated doses together) as high dose. At eGFR 45 to 59: above 50 mg/m2, consider an alternative protocol, especially with poor performance status or nephrotoxic co-medicines, or a 25 to 50% reduction if proceeding; at 50 mg/m2 or below, the consensus is to give the full dose where intent is curative, performance status is good and there are no nephrotoxic co-medicines, and otherwise a 25% reduction or an alternative protocol. Below eGFR 45: avoid cisplatin and use an alternative protocol. With eGFR below 60, measured GFR is preferred for initial dosing, especially above 50 mg/m2 or where eGFR is unreliable.",
       evidence: "ADDIKD grades its recommendation for an initial dose reduction moderate certainty, strong, and the use of KDIGO categories for cisplatin moderate, conditional. The split rests on the link between high peaks of free platinum and kidney injury; the caution about reducing rests on several studies reporting poorer overall survival in people with eGFR below 60 given reduced doses than in people with normal kidney function given full doses (50 mg/m2 or more). Avoidance below 45 is clinical consensus, given for lack of definitive evidence.",
       sources: ["addikd-guideline-2022", "addikd-integration-2025"],
     },
     {
       name: "Methotrexate divided at 500 mg/m2 (ADDIKD)",
-      differs: "At eGFR 45 to 59: for starting doses of 500 mg/m2 or more, consider full dose where intent is curative and an exposure threshold must be kept (the example given is primary CNS lymphoma), performance status is good and there are no nephrotoxic co-medicines, and otherwise a 25% reduction or an alternative protocol; below 500 mg/m2, an alternative protocol or a 25% reduction. At eGFR 30 to 44: an alternative protocol or a 50% reduction. Below eGFR 30: avoid. Measured GFR is preferred for initial dosing, especially when eGFR is below 60, the dose is 500 mg/m2 or more, or eGFR may be unreliable.",
+      differs: "At eGFR 45 to 59: for starting doses of 500 mg/m2 or more, the consensus is to give the full dose where intent is curative, performance status is good and there are no nephrotoxic co-medicines (ADDIKD says this matters most in primary CNS lymphoma, where an exposure threshold has to be kept), and otherwise a 25% reduction or an alternative protocol; below 500 mg/m2, consider an alternative protocol where intent is curative and the person has both poor performance status and nephrotoxic co-medicines, and in all other patients consider a 25% reduction. At eGFR 30 to 44: consider an alternative protocol where intent is curative, or where there is both poor performance status and nephrotoxic co-medicines, and otherwise reduce the dose by 50%, whatever the starting dose. Below eGFR 30: avoid methotrexate and use an alternative protocol. These reductions are for non-transplant settings. Measured GFR is preferred for initial dosing, especially when eGFR is below 60, the dose is 500 mg/m2 or more, or eGFR may be unreliable.",
       evidence: "ADDIKD grades its recommendation for an initial dose reduction low certainty, strong, and the use of KDIGO categories for methotrexate low, conditional. It says existing guidance empirically halves the dose at a creatinine clearance or GFR of 20 to 50 ml/min and disagrees on the threshold for stopping (10 to 30 ml/min).",
       sources: ["addikd-guideline-2022", "addikd-integration-2025"],
     },

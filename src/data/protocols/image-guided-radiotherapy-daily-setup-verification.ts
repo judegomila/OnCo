@@ -15,8 +15,9 @@ import { protocol } from "./helpers";
  *   text. The RCR file address returned a web page rather than the PDF to a script, so the same PDF was read from
  *   the IPEM website (ipem.ac.uk/media/fxmkha4j/rt-board-image-guided-rt-guidance-2021.pdf) with pdftotext. Sections
  *   3 to 6, 9, 10.1 and Appendix 14.1 were read closely; the site-specific chapters (10.2 to 10.15) were not, since
- *   site rules belong to other records. It supersedes On target (2008) and the 2012 National Radiotherapy
- *   Implementation Group report; no later edition was found.
+ *   site rules belong to other records. Its foreword says On target (2008) and the 2012 National Radiotherapy
+ *   Implementation Group report were reviewed as its basis, and its appendix calls the 2008 report withdrawn; no
+ *   later edition was found.
  * - AAPM Medical Physics Practice Guideline 2.b, commissioning and quality assurance of X-ray-based image-guided
  *   radiotherapy systems (J Appl Clin Med Phys 2021): full text, Europe PMC XML (PMC8425868). It is the first
  *   revision of MPPG 2.a (2014) and the current edition; AAPM reviews its guidelines on their fifth anniversary.
@@ -29,6 +30,18 @@ import { protocol } from "./helpers";
  * - AAPM Task Group 180, image guidance doses (Med Phys 2018) and AAPM Task Group 179, quality assurance for
  *   CT-based IGRT (Med Phys 2012): abstracts only; aapm.org report PDFs returned 403 or 404 to a script.
  * - ESTRO-ACROP guideline on surface guided radiation therapy (Radiother Oncol 2022): abstract only.
+ *
+ * Second accuracy pass, 17 November 2026. Every source was fetched again as raw text and every claim re-read
+ * against it: On target 2 (IPEM PDF, pdftotext) and the IAEA report (PDF, pdftotext) in full; MPPG 2.b from the
+ * Europe PMC XML that a sibling checker had saved the same day; the ASTRO, ACR-ARS, TG-180, TG-179 and ESTRO-ACROP
+ * abstracts from the Europe PMC REST service. All 37 quotations matched by script (whitespace and line-break
+ * hyphenation normalised, XML tags stripped, nothing else). One request each to the Wiley address for TG-179, the
+ * AAPM report address for TG-180, the ASTRO journal page and an ACR document address still returned 403, 404 or a
+ * bot check, so those stay abstract only. Europe PMC and Crossref show no newer edition of any source. The UK
+ * national dose reference levels for cone-beam CT verification, which On target 2 said were to follow, were found
+ * on GOV.UK (UK Health Security Agency, updated 11 December 2025; read raw with curl) and added as a source.
+ * Corrected in this pass: statements written as if all three bodies agreed where only one says it; orders where
+ * On target 2 hedges ("should be considered", "may be required"); reasons in `why` that no source gives.
  *
  * None of these documents grades its recommendations by level of evidence. The grade column therefore says what kind
  * of statement each quote is (a boxed recommendation, guidance text, an AAPM "must" or "should").
@@ -44,8 +57,8 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
   domain: "radiotherapy",
   tldr: "Before a radiotherapy treatment the radiographers often take a quick X-ray picture or scan on the treatment machine and compare it with the planning scan, to check that you are in the planned position. If the position is out, the couch is moved to correct it before the beam is switched on. How often this is done depends on the part of the body and the type of treatment.",
   simple: "The machine takes a picture of you before treatment to check you are lying in the right place. If you are a little out, the bed moves to put it right. Your own team decides how often the pictures are taken.",
-  summary: "Image guidance compares an image taken on the treatment machine with the reference image from planning and corrects the difference. No source read grades its recommendations by evidence level; the fullest current document is the UK Radiotherapy Board's On target 2 (2021), read in full, beside the IAEA's implementation report (2019) and the AAPM practice guideline on IGRT systems (MPPG 2.b, 2021). The US ASTRO white paper update (2023) and ACR-ARS practice parameter (2025) could be read only as abstracts.\n\nThe sources agree that each department needs written, site-specific protocols stating the imaging type and frequency, the structures matched, the correction rule, and what staff do when a limit is exceeded; that the imaging is prescribed by the clinical oncologist with the team; that automatic matches are checked by eye; that gross errors are investigated before treating; and that imaging dose is justified, optimised and recorded.\n\nThey differ in three places. Correction rule: On target 2 recommends no action threshold for daily couch corrections where the correction is automated (every measured shift is applied), while the IAEA describes both that approach and action-level protocols that shift only above a set figure (its example is 2 mm), and MPPG 2.b asks physicists and oncologists to set repositioning thresholds. Online or offline: On target 2 notes a shift to daily online imaging but says its site chapters still include offline protocols, which have the largest evidence base; the IAEA leaves the choice to the site treated and the department's resources. Who decides: On target 2 puts online matching with trained radiographers at the machine with an independent second check; MPPG 2.b lists timely review of images among the radiation oncologist's duties; the IAEA gives the therapist final responsibility for the change, with later offline review and approval as good practice.\n\nImaging dose: On target 2 reports cone-beam CT at approximately 1 to 5 cGy per scan and, under daily imaging, organ doses of 1 to 3% of the prescribed dose; On target 2 and AAPM TG-180 both set 5% of the prescribed or target dose as the point above which imaging dose is considered in planning. A patient's own department's protocol comes first: this page explains the check and is not a set of instructions.",
-  asOf: "2026-11-16",
+  summary: "Image guidance compares an image taken on the treatment machine with the reference image from planning and corrects the difference. No source read grades its recommendations by evidence level; the fullest current document is the UK Radiotherapy Board's On target 2 (2021), read in full, beside the IAEA's implementation report (2019) and the AAPM practice guideline on IGRT systems (MPPG 2.b, 2021). The US ASTRO white paper update (2023) and ACR-ARS practice parameter (2025) could be read only as abstracts.\n\nOn target 2 asks each centre for site-specific protocols tailored to the site, with frequency, imaging dose and complexity reflecting treatment intent, site and fractionation; it says automatic matches should always be checked visually and gross errors always investigated. The IAEA has the radiation oncologist, with the multidisciplinary team, choose and prescribe the image guidance protocol, and says the protocol should state the frequency of imaging and the actions when a shift is above a threshold. MPPG 2.b, a guideline on the imaging systems, lists the duties of each profession. On imaging dose, On target 2 cites UK law (IR(ME)R) that exposures are justified and optimised, the IAEA says doses are justified, prescribed and reported, and MPPG 2.b says the dose must be measured at least annually.\n\nThey differ in three places. Correction rule: On target 2 recommends no action threshold for daily couch corrections where the correction is automated (every measured shift is applied), while the IAEA describes both that approach and action-level protocols that shift only above a set figure (its example is 2 mm), and MPPG 2.b asks physicists and oncologists to set repositioning thresholds. Online or offline: On target 2 notes a shift towards more online verification and says offline protocols are now much less commonly used, but that many of its site chapters still include them and that they so far have the largest evidence base; the IAEA says the choice depends on the site treated and the department's resources. Who decides: On target 2 puts online matching with trained radiographers at the machine with an independent second check; MPPG 2.b lists timely review of images among the radiation oncologist's duties; the IAEA gives the therapist final responsibility for the change, in some instances with input from the radiation oncologist, lists review and approval of online and offline images among the radiation oncologist's duties, and calls later offline review and approval good practice.\n\nImaging dose, each body's figures kept apart: On target 2 says three- and four-dimensional cone-beam CT dose is reported as approximately 1 to 5 cGy per scan and that daily imaging may result in total organ doses of 1 to 3% of the prescribed dose; the IAEA says kilovoltage cone-beam CT doses can be of the order of 1 cGy. On target 2 (5% of the prescribed dose) and the AAPM TG-180 abstract (5% of the therapeutic target dose) give the point above which imaging dose should be considered in planning. In the UK, national dose reference levels for cone-beam CT verification in adults were adopted in 2025, set by site as a weighted cone beam dose index, from 3.5 mGy (brain) to 21 mGy (prostate and gynaecological); this index is a different measure from the per-scan and organ doses above. A patient's own department's protocol comes first: this page explains the check and is not a set of instructions.",
+  asOf: "2026-11-17",
   setting: {
     who: ["radiographer", "doctor", "multidisciplinary-team"],
     where: ["radiotherapy-department"],
@@ -55,28 +68,28 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
   steps: [
     {
       action: "Work to a written protocol for each treatment site that states what is imaged, how often, what is matched, and what to do with the result",
-      why: "Different parts of the body move in different ways, so one rule for everyone would be too loose for some treatments and needlessly heavy for others.",
+      why: "The same guidance says how often to image, the imaging dose and the complexity should reflect the aim of treatment, the part of the body and the number of treatments.",
       source: "on-target-2-2021",
       quote: "Each radiotherapy centre should have in place site-specific IGRT protocols that are tailored to the needs of that site and take into account the factors affecting the accuracy of set-up.",
       grade: "Main recommendation (Radiotherapy Board consensus; no evidence grade)",
     },
     {
       action: "Have the type and frequency of imaging chosen and prescribed for each patient by the oncologist with the team",
-      why: "Imaging with X-rays adds a small radiation dose, so someone accountable decides that it is worth it for this patient and this treatment.",
+      why: "Most imaging on the machine adds a radiation dose on top of the treatment, and the IAEA says these doses are to be justified, prescribed and reported.",
       source: "iaea-hhr-16-2019",
       quote: "The radiation oncologist, in consultation with the radiotherapy multidisciplinary team, chooses and prescribes the appropriate image guidance protocol.",
       grade: "Process description in an IAEA report (no grade)",
     },
     {
       action: "Set the patient up each day exactly as at the planning scan: the same preparation, the same supports and the same breathing instructions",
-      why: "The image can correct where the body is, but not a different shape; comfort and the same routine keep the body in the planned shape.",
+      why: "The plan is built on the position and preparation at the planning scan. The same guidance says patient comfort is essential to keep the position reproducible.",
       source: "on-target-2-2021",
       quote: "Patient position and anatomy should be reproducible at daily treatment, using the same preparation, immobilisation and motion management.",
       grade: "Recommendation (Radiotherapy Board consensus; no evidence grade)",
     },
     {
-      action: "Use a three-dimensional scan on the machine where it is available, and keep flat X-ray pictures for the cases the protocol names",
-      why: "A scan shows soft tissue and the target itself; a flat picture mostly shows bone or markers.",
+      action: "Consider a three-dimensional scan on the machine where possible; flat X-ray pictures can still be justified in a limited number of cases",
+      why: "A scan typically gives much better contrast, which matters where soft tissue has to be seen; flat pictures are usually matched on bone or implanted markers.",
       source: "on-target-2-2021",
       quote: "3D volumetric techniques should be considered where possible because of improved contrast and for analysis and visual verification.",
       grade: "Recommendation (Radiotherapy Board consensus; no evidence grade)",
@@ -97,7 +110,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
     },
     {
       action: "Check every automatic match by eye before accepting it",
-      why: "Matching software can lock on to the wrong structure, for example the wrong bone of the spine.",
+      why: "Matching software can fail. The guidance gives alignment on the wrong bone of the spine as an example of a matching error that checks are there to catch.",
       source: "on-target-2-2021",
       quote: "In all cases, automatic algorithms can fail, so the results should always be checked visually.",
       grade: "Guidance text (section 5.2; not a boxed recommendation)",
@@ -111,28 +124,28 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
     },
     {
       action: "Confirm each shift before treating, and record the shift that was applied",
-      why: "A shift entered or applied wrongly moves the treatment away from the target; the record lets the team see patterns over the course.",
+      why: "Decisions at the machine are made quickly, so each shift is checked before the beam is on. The IAEA says shifts need to be recorded and reviewed, and later review can show trends.",
       source: "iaea-hhr-16-2019",
       quote: "It is important to verify every patient shift prior to treatment delivery.",
       grade: "Guidance text in an IAEA report (no grade)",
     },
     {
-      action: "If the error is gross (beyond the preset limit), do not simply shift and treat: set the patient up afresh or image again, and find the cause first",
-      why: "A very large error usually means something is wrong with the set-up, the supports or the patient's condition, and moving the couch would hide it.",
+      action: "If the error is gross (beyond the preset limit), find the cause before deciding to treat; a fresh set-up, a repeat image or both may be needed",
+      why: "The guidance lists possible causes of a gross error: the wrong patient, part of the body or orientation, the wrong field or treatment centre, or a large change in the body. Planning margins are not meant to cover errors of this size.",
       source: "on-target-2-2021",
       quote: "It is important to always investigate the source of such gross errors prior to the decision to treat.",
       grade: "Guidance text (section 6.4.2); the boxed recommendation reads 'Gross errors should always be investigated.'",
     },
     {
-      action: "Look at the whole image for changes in the body, such as weight loss, a collapsed lung or a changed tumour, and tell the oncologist or hold treatment when the protocol says so",
-      why: "The daily image is sometimes the first sign that the patient's condition or anatomy has changed and the plan no longer fits.",
+      action: "Look at the image for changes in the body, such as weight loss, a collapsed lung or a change that moves the tumour, and act on them, for example by telling the oncologist or delaying treatment",
+      why: "Some changes seen on the image are medical problems that need attention, and others affect where the tumour sits or how accurately the dose is delivered.",
       source: "on-target-2-2021",
       quote: "It is also imperative to detect changes that may be related to medical conditions (for example, lung collapse) and take appropriate action, such as warning the clinician or delaying treatment.",
       grade: "Guidance text (section 5.2); the boxed recommendation says such changes must be detected and reported",
     },
     {
-      action: "Where an offline protocol is used, image the first three or four fractions, work out the average error, apply it as a correction to later fractions, and image weekly after that",
-      why: "Averaging a few days separates the regular error, which matters most for the dose, from day-to-day chance variation.",
+      action: "Where an offline protocol is used (the extended no action level form), image the first three or four fractions, work out the average error, apply it as a correction to later fractions, and image weekly after that",
+      why: "Averaging a few days separates the regular error, which matters most for the dose, from day-to-day chance variation. On target 2 says a correction from a single image can make errors larger, and asks for at least three images.",
       source: "on-target-2-2021",
       quote: "The extended NAL protocol (eNAL) includes once-weekly imaging in addition to imaging in the first 3–4 fractions.",
       grade: "Guidance text (Appendix 14.1; not a boxed recommendation)",
@@ -146,14 +159,14 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
     },
     {
       action: "Have a second person check the match independently for high-dose treatments given in few fractions, and ideally for all treatments",
-      why: "With only a few large doses, one wrong match is a large share of the whole treatment.",
+      why: "The guidance says a second check can reduce the chance of errors. It adds that the amount of checking should fit the clinical goal and should not compromise workflow.",
       source: "on-target-2-2021",
       quote: "An independent second check in particular for high-dose hypofractionated regimes (for example, SABR) is strongly recommended, but ideally should be done for standard fractionation regimes as this can reduce the chance of errors.",
       grade: "Guidance text, 'strongly recommended' (section 5.2)",
     },
     {
       action: "Refresh training regularly, and train again after software or equipment upgrades and for new staff",
-      why: "Imaging systems and their software change, and a skill used rarely fades.",
+      why: "The guideline asks for this so that staff stay competent on the systems in use and are trained when a system is upgraded or changed.",
       source: "aapm-mppg-2b-2021",
       quote: "In addition to initial training, it is important that each facility develop a periodic training review program to ensure competency on current systems and augment with training for system upgrades/changes.",
       grade: "Guidance text in an AAPM practice guideline (the sentence before it reads 'Training for the operation of the IGRT system must be provided.')",
@@ -167,14 +180,14 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
     },
     {
       action: "Take the imaging dose into account in the treatment plan when it would exceed 5% of the treatment dose",
-      why: "Below that level the imaging dose is small beside the treatment; above it, it should be counted as part of what the body receives.",
+      why: "The task group's abstract says the dose from current kilovoltage imaging is generally below this threshold, and that doses should still be kept as low as reasonably achievable.",
       source: "aapm-tg180-2018",
       quote: "The recommended threshold beyond which imaging dose should be considered in the treatment planning process is 5% of the therapeutic target dose.",
       grade: "Task group recommendation (abstract; no evidence grade)",
     },
     {
-      action: "Do not let surface (camera) guidance stand in for imaging of the inside of the body unless the site protocol says it may",
-      why: "Cameras see the skin without any radiation, but the skin does not always move with the tumour.",
+      action: "Use surface (camera) guidance to help the first set-up and to watch for movement, not as a replacement for other forms of image guidance",
+      why: "The cameras typically use no ionising radiation, but in many cases the skin surface matches the position of the anatomy inside poorly.",
       source: "on-target-2-2021",
       quote: "However, because of the poor correlation between external surface and internal anatomy in many cases, surface-based approaches are not a replacement for other forms of IGRT.",
       grade: "Guidance text (section 4.5; not a boxed recommendation)",
@@ -188,8 +201,8 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
     },
   ],
   bestInClass: {
-    statement: "A written, site-specific protocol; imaging prescribed for the patient; the same set-up every day; an image fit for the task; a match on the right anatomy, checked by eye; correction before the beam; gross errors investigated before treating; trained and assessed staff with a second check for treatments in few fractions; and imaging dose justified, optimised and recorded. On these the UK Radiotherapy Board (On target 2, 2021), the IAEA (2019) and the AAPM (MPPG 2.b, 2021) agree, and none grades by evidence level. They differ on three points, and each position is shown. Action threshold: On target 2 recommends none for automated daily couch corrections; the IAEA describes zero action level and action-level protocols (example 2 mm) without choosing; MPPG 2.b asks each department to set repositioning thresholds. Online or offline: On target 2 describes a shift towards daily online imaging while its site chapters keep offline protocols, which it says have the largest evidence base; the IAEA says the choice depends on the site and the department's resources. Who matches and who reviews: On target 2 gives online matching to competent radiographers with an independent second check; MPPG 2.b lists timely review of images as a radiation oncologist's responsibility; the IAEA gives the therapist final responsibility for the change with later offline review and approval. The current US documents on clinical practice (ASTRO 2023, ACR-ARS 2025) were read as abstracts only, so their detailed positions on frequency and review are not stated here.",
-    sources: ["on-target-2-2021", "iaea-hhr-16-2019", "aapm-mppg-2b-2021", "astro-igrt-white-paper-2023", "acr-ars-igrt-2025"],
+    statement: "A written, site-specific protocol; imaging prescribed for the patient; the same set-up every day; an image fit for the task; a match on the right anatomy, checked by eye; correction before the beam; gross errors investigated before treating; trained and assessed staff with a second check for treatments in few fractions; and imaging dose justified, optimised and recorded. Each point is stated by the UK Radiotherapy Board (On target 2, 2021) or the IAEA (2019), the two documents read in full on clinical practice; the AAPM guideline (MPPG 2.b, 2021) covers the imaging systems, staff duties and training. None grades by evidence level, and no source read contradicts these points. The three bodies differ on three points, and each position is shown. Action threshold: On target 2 recommends none for automated daily couch corrections; the IAEA describes zero action level and action-level protocols (example 2 mm) without choosing; MPPG 2.b asks each department to set repositioning thresholds. Online or offline: On target 2 describes a shift towards more online verification and says offline protocols are now much less commonly used, while many of its site chapters keep them and it says they so far have the largest evidence base; the IAEA says the choice depends on the site and the department's resources. Who matches and who reviews: On target 2 gives online matching to competent radiographers with an independent second check; MPPG 2.b lists timely review of images as a radiation oncologist's responsibility; the IAEA gives the therapist final responsibility for the change, in some instances with input from the radiation oncologist, with later offline review and approval. The current US documents on clinical practice (ASTRO 2023, ACR-ARS 2025) were read as abstracts only, so their detailed positions on frequency and review are not stated here.",
+    sources: ["on-target-2-2021", "iaea-hhr-16-2019", "aapm-mppg-2b-2021", "astro-igrt-white-paper-2023", "acr-ars-igrt-2025", "ukhsa-ndrl-2025"],
   },
   variants: [
     {
@@ -200,20 +213,20 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
     },
     {
       name: "Offline correction: no action level, extended no action level and shrinking action level",
-      differs: "Images are taken on selected fractions and analysed after treatment, and the average error is applied to later fractions. On target 2 describes the no action level approach as calculating the systematic error after 3 to 4 fractions and correcting its whole magnitude, suggests correcting only systematic errors above 2 mm, and adds weekly imaging in the extended form. The IAEA figures show imaging for typically three successive fractions. In the shrinking action level approach the running average is compared with a limit that falls as more fractions are imaged.",
-      evidence: "The IAEA report: \"Random deviations can only be corrected for with an on-line IGRT protocol.\" and \"Off-line correction protocols are therefore most suitable when the ratio of random to systematic deviation is small.\" On target 2 says offline protocols may be used depending on accuracy requirements and can reduce resources on the treatment unit, that its site-specific protocols still include them and that they have the largest evidence base so far, and that the no action level protocol does not act on gross errors, which should be corrected before a further fraction is given.",
+      differs: "Images are taken on selected fractions and analysed after treatment, and the average error is applied to later fractions. On target 2 describes the no action level approach as calculating the systematic error after 3 to 4 fractions and correcting its whole magnitude, suggests correcting only systematic errors above 2 mm, and adds weekly imaging in the extended form; it says data from a minimum of three images should be combined. The IAEA figures show imaging for typically three successive fractions. In the shrinking action level approach the running average is compared with a limit that falls as more fractions are imaged.",
+      evidence: "The IAEA report: \"Random deviations can only be corrected for with an on-line IGRT protocol.\" and \"Off-line correction protocols are therefore most suitable when the ratio of random to systematic deviation is small.\" On target 2 says offline protocols may be used depending on accuracy requirements and can reduce resources on the treatment unit, that they are now much less commonly used because most centres have automated couch correction, that many of its site-specific protocols still include them and that they have the largest evidence base so far, and that the no action level protocol does not act on gross errors, which should be corrected before a further fraction is given.",
       sources: ["on-target-2-2021", "iaea-hhr-16-2019"],
     },
     {
       name: "Review and approval of images by the radiation oncologist (United States practice documents)",
       differs: "MPPG 2.b lists among the radiation oncologist's responsibilities specifying imaging modalities and frequencies, identifying registration targets and repositioning thresholds, and conducting a timely review of clinical IGRT images; the therapist acquires positioning images for review by the therapist or the radiation oncologist. The IAEA report: \"In the on-line process, subsequent off-line review and approval of the images acquired according to the on-line protocol is a good practice to establish the types and sizes of effect, plus any trends, and to deduce possible causes.\"",
-      evidence: "MPPG 2.b states that its staff responsibilities follow the ACR-ASTRO practice guideline for IGRT, whose 2025 ACR-ARS revision could be read only as an abstract. On target 2 instead places the online decision with trained radiographers and warns that without appropriate competency more cases would be referred to the clinician, delaying the process. No comparative study of the two models was read.",
+      evidence: "MPPG 2.b states that its staff responsibilities are consistent with the ACR-ASTRO practice guideline for IGRT, citing the 2009 edition; the current ACR-ARS revision (2025) could be read only as an abstract. The IAEA report lists among the radiation oncologist's duties direct or indirect supervision of positioning corrections, including systematic or periodic review and approval of online and offline images. On target 2 instead places the online decision with trained radiographers and warns that without appropriate competency more cases would be referred to the clinician, delaying the process. No comparative study of the two models was read.",
       sources: ["aapm-mppg-2b-2021", "iaea-hhr-16-2019", "on-target-2-2021", "acr-ars-igrt-2025"],
     },
     {
       name: "Flat X-ray (planar) imaging instead of a scan",
       differs: "Two flat X-ray images, or megavoltage portal images, are matched on bone or implanted markers rather than a cone-beam CT matched on soft tissue.",
-      evidence: "On target 2 says a cone-beam CT always yields more clinical information but that this may not translate into greater accuracy, so planar imaging can still be justified in a limited number of cases, giving short-course palliative treatment as its example. The IAEA report gives megavoltage portal imaging doses of the order of 10 cGy per image against the order of 1 cGy for kilovoltage cone-beam CT.",
+      evidence: "On target 2 says a cone-beam CT always yields more clinical information but that this may not translate into greater accuracy, so planar imaging can still be justified in a limited number of cases, giving short-course palliative treatment as its example. The IAEA report gives megavoltage portal imaging doses of the order of 10 cGy per image, kilovoltage planar imaging in the range of 0.1 mGy to 2 cGy depending on the imaging strategy, and kilovoltage cone-beam CT of the order of 1 cGy.",
       sources: ["on-target-2-2021", "iaea-hhr-16-2019"],
     },
     {
@@ -224,7 +237,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
     },
     {
       name: "Frequency of the machine check that the imaging and treatment centres coincide",
-      differs: "MPPG 2.b prefers a daily check of imaging and treatment isocentre coincidence and couch repositioning (2 mm; 1 mm for radiosurgery) but accepts weekly checks for systems used with standard fractionation, and requires the check on days when stereotactic procedures are scheduled.",
+      differs: "MPPG 2.b prefers a daily check of imaging and treatment isocentre coincidence and couch repositioning (2 mm; 1 mm for radiosurgery) but accepts weekly checks for systems used with standard fractionation, and requires the check on days when stereotactic radiosurgery or stereotactic body radiotherapy is scheduled. These are tolerances for the machine, not for a patient's set-up.",
       evidence: "MPPG 2.b: \"While daily checks of these parameters are preferred, weekly checks are considered acceptable for IGRT systems used with standard fractionation schemes.\" The machine checks themselves are in the linear accelerator quality assurance protocol.",
       sources: ["aapm-mppg-2b-2021"],
     },
@@ -253,7 +266,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       url: "https://www.ipem.ac.uk/media/fxmkha4j/rt-board-image-guided-rt-guidance-2021.pdf",
       gradingScheme: "Consensus guidance with boxed recommendations at the end of each section; recommendations are not graded by level of evidence.",
       read: "full-text",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
     },
     {
       key: "iaea-hhr-16-2019",
@@ -263,7 +276,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       url: "https://www-pub.iaea.org/MTCD/Publications/PDF/P1827_web.pdf",
       gradingScheme: "Implementation guidance written by invited experts; no recommendation grades.",
       read: "full-text",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
     },
     {
       key: "aapm-mppg-2b-2021",
@@ -274,7 +287,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       doi: "10.1002/acm2.13346",
       gradingScheme: "AAPM practice guideline stating minimum acceptable practice standards in 'must' and 'should' wording; no evidence grades.",
       read: "full-text",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
     },
     {
       key: "astro-igrt-white-paper-2023",
@@ -285,7 +298,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       doi: "10.1016/j.prro.2022.09.004",
       gradingScheme: "Consensus statements; consensus was defined as 75% or more of the task force choosing 'strongly agree' or 'agree' on a 5-point scale. No evidence grades.",
       read: "abstract",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
     },
     {
       key: "acr-ars-igrt-2025",
@@ -296,7 +309,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       doi: "10.1097/coc.0000000000001220",
       gradingScheme: "Practice parameter developed by the ACR process; no evidence grades.",
       read: "abstract",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
     },
     {
       key: "aapm-tg180-2018",
@@ -307,7 +320,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       doi: "10.1002/mp.12824",
       gradingScheme: "Task group report; recommendations not graded.",
       read: "abstract",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
     },
     {
       key: "aapm-tg179-2012",
@@ -318,7 +331,17 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       doi: "10.1118/1.3690466",
       gradingScheme: "Task group report with test frequencies and tolerances; no evidence grades.",
       read: "abstract",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
+    },
+    {
+      key: "ukhsa-ndrl-2025",
+      label: "National Diagnostic Reference Levels (NDRLs) from 11 December 2025: national dose reference levels for radiotherapy imaging",
+      publisher: "UK Health Security Agency",
+      year: 2025,
+      url: "https://www.gov.uk/government/publications/diagnostic-radiology-national-diagnostic-reference-levels-ndrls/ndrl",
+      gradingScheme: "Reference dose values for the United Kingdom, adult patients; not a guideline and not graded.",
+      read: "full-text",
+      accessed: "2026-11-17",
     },
     {
       key: "estro-acrop-sgrt-2022",
@@ -329,7 +352,7 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
       doi: "10.1016/j.radonc.2022.05.026",
       gradingScheme: "Consensus guideline; no evidence grades stated in the abstract.",
       read: "abstract",
-      accessed: "2026-11-16",
+      accessed: "2026-11-17",
     },
   ],
   technologies: ["in-room-imaging-systems", "imrt-igrt"],
@@ -350,10 +373,11 @@ export const imageGuidedRadiotherapyDailySetupVerification = protocol({
   upgrades: [],
   gaps: [
     "No document read grades its image guidance recommendations by level of evidence, and none cites a randomised comparison of daily online imaging against an offline protocol for all sites; On target 2 says offline protocols have the largest evidence base so far.",
-    "The ASTRO safety white paper update on IGRT (2023), the ACR-ARS practice parameter (2025), AAPM Task Group 180 on imaging dose (2018), AAPM Task Group 179 on CT-based image guidance (2012) and the ESTRO-ACROP surface guidance guideline (2022) could be read only as abstracts, because the publisher and society pages refused a script. The detailed United States position on imaging frequency, on physician review intervals and on documentation is therefore not stated here.",
+    "The ASTRO safety white paper update on IGRT (2023), the ACR-ARS practice parameter (2025), AAPM Task Group 180 on imaging dose (2018), AAPM Task Group 179 on CT-based image guidance (2012) and the ESTRO-ACROP surface guidance guideline (2022) could be read only as abstracts, because the publisher and society pages refused a script; on 17 November 2026 one further request to each still returned 403, 404 or a bot check. The detailed United States position on imaging frequency, on physician review intervals and on documentation is therefore not stated here.",
     "No general ESTRO guideline on image guidance for all sites was found; ESTRO-ACROP guidance is written site by site (breast, prostate, head and neck, lung stereotactic treatment) and is cited in those protocols.",
     "Numerical tolerances and action levels are site-specific and are set locally from a department's own measured errors; the general documents read give examples (2 mm) and not a table for all sites. The site-specific chapters of On target 2 (10.2 to 10.15) were not read closely for this record.",
-    "On target 2 says national dose reference levels for cone-beam CT verification imaging were to follow those for planning CT; whether they have since been published was not checked.",
+    "On target 2 says national dose reference levels for cone-beam CT verification imaging were to follow those for planning CT. They have since been published for the UK: the UK Health Security Agency page, read on 17 November 2026, lists values adopted in 2025 for adult patients by site. They are stated as a weighted cone beam dose index, a different measure from the organ doses On target 2 quotes, and the page says dose values differ widely by model of imaging system. No equivalent national levels for other countries were looked for.",
+    "AAPM practice guidelines are reviewed on their fifth anniversary or sooner, which for MPPG 2.b (2021) falls in 2026; on 17 November 2026 no later edition was listed in Europe PMC or Crossref. An AAPM task group report on surface-guided radiotherapy (Task Group 302, Medical Physics 2022) was found in Europe PMC and was not read.",
     "On target 2 does not cover children or particle (proton) radiotherapy, and no paediatric image guidance document was read. Imaging dose matters more in children, and this page does not say how often a child should be imaged.",
     "MR-guided and online adaptive radiotherapy, where the plan is changed on the day, are outside this record apart from the point at which an image prompts a replan.",
   ],

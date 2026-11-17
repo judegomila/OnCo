@@ -19,6 +19,12 @@ import { ASCO_CART_2021, ASTCT_2019, ASTCT_2026, CELL_GAPS, EBMT_2019, EBMT_2022
  * assessment, holding G-CSF), the list of warning signs (blood pressure, arrhythmia and blood tests had been left
  * out), the scope of the tocilizumab availability statement, reasons that the sources do not give, and the wording of
  * three variants. Added: SITC's steroid doses, the rapid taper and the second look for infection.
+ *
+ * Independent dose re-read, 17 November 2026: every dose on the page (SITC's methylprednisolone and dexamethasone
+ * doses, the 8 mg/kg tocilizumab of the trial algorithm, EBMT's four-dose limit) was read again in the saved SITC 2020
+ * and EBMT/JACIE 2019 full texts; none needed changing. The link to obecabtagene autoleucel had no read source, so its
+ * US prescribing information (DailyMed SPL XML, version 6, fetched 17 November 2026) was read and added, with a
+ * variant for its two infusions. Its quote was checked by script.
  */
 export const crsGradingAndManagement = protocol({
   id: "crs-grading-and-management",
@@ -28,7 +34,7 @@ export const crsGradingAndManagement = protocol({
   tldr: "After CAR T-cell therapy, the immune cells can release a flood of chemical messengers, causing fever, low blood pressure and breathing trouble: cytokine release syndrome. Any fever after CAR T-cell therapy needs the treating centre at once. Teams grade it from 1 to 4 and treat with tocilizumab and, if needed, steroids; infection is treated at the same time because the two look alike.",
   simple: "CAR T-cell therapy can cause a high temperature and low blood pressure in the first weeks. Ring the treating hospital at once if you get a fever. There are drugs that treat it.",
   summary: "CRS usually starts within 1 to 2 weeks of infusion (median 2 to 3 days for tisagenlecleucel and axicabtagene ciloleucel, sometimes within 24 hours) (SITC 2020). ASTCT 2019 grading: fever of 38 °C or more not attributable to another cause, with grade set by the worse of hypotension (grade 2 no vasopressor, grade 3 one vasopressor with or without vasopressin, grade 4 more than one vasopressor, not counting vasopressin) and hypoxia (grade 2 low-flow nasal cannula at 6 L/min or less, or blow-by oxygen; grade 3 high-flow nasal cannula, face mask, non-rebreather mask or Venturi mask; grade 4 positive pressure). Grade 1 is fever alone, and grade 5 is by convention death due to CRS. Once antipyretics, tocilizumab or steroids are given, fever is no longer needed to grade.\n\nSITC 2020: tocilizumab may be considered at grade 2 in adults (LE: 3) and should be considered earlier for older or comorbid patients; in children it should be given at grade 3 (LE: 3) and may be given for prolonged grade 2 or intolerance to fever (LE: 4). If one dose does not work, give steroids with a second dose (LE: 3); after two doses and steroids, consider anakinra, siltuximab or high-dose methylprednisolone (LE: 4). SITC describes methylprednisolone 2 mg/kg/day and dexamethasone 0.5 mg/kg (maximum 10 mg per dose) as the commonly used corticosteroids, does not recommend high-dose steroids as a first steroid, and advises a rapid taper once symptoms begin to improve. EBMT/JACIE 2019 limits tocilizumab to four doses per episode and says siltuximab can be used as second line. Presume infection and manage it while investigating (SITC); empiric antimicrobials are not delayed on the presumption of CRS (EBMT/JACIE 2019). Daily blood count, metabolic panel, magnesium, phosphate, CRP and ferritin while in hospital; consider a cardiac assessment for severe CRS persisting for 72 hours; consider holding G-CSF and avoid GM-CSF during CRS.\n\nThe ASTCT 2026 update to the grading and the 2022 EBMT/JACIE/EHA recommendations were read only as abstracts.",
-  asOf: "2026-11-16",
+  asOf: "2026-11-17",
   setting: {
     who: ["nurse", "doctor", "pharmacist", "patient-or-carer", "multidisciplinary-team"],
     where: ["ward", "intensive-care", "outpatient-clinic", "telephone-triage", "home"],
@@ -177,6 +183,12 @@ export const crsGradingAndManagement = protocol({
       sources: ["sitc-iec-2020"],
     },
     {
+      name: "Obecabtagene autoleucel: two infusions, with the second depending on CRS after the first (US label)",
+      differs: "Obecabtagene autoleucel is given as a split dose on day 1 and day 10 (give or take 2 days). Its US label says to confirm that tocilizumab is available before infusion and to monitor for CRS daily for at least 7 days after each infusion. After grade 2 CRS following the first infusion it says to consider postponing the second up to day 21 so that the CRS can resolve to grade 1 or less; after grade 3 or higher CRS, treatment is discontinued. For treating CRS itself the label gives no drug doses and points to current practice guidelines.",
+      evidence: "Label instruction. In the trial the label reports, CRS occurred in 75 of 100 patients, grade 3 in 3%, and 51 of the 75 had it after the first infusion and before the second.",
+      sources: ["aucatzyl-label-us"],
+    },
+    {
       name: "US risk-management programme (REMS) requirement for on-site tocilizumab ended in June 2025",
       differs: "The FDA ended the risk-management programme for BCMA- and CD19-directed autologous CAR T-cell products, removing the requirement that dispensing hospitals be specially certified and have on-site, immediate access to tocilizumab. Product labels keep a boxed warning for CRS. SITC 2020, written before this, says it is important to ensure tocilizumab is available for the management of CRS.",
       evidence: "Regulatory decision of 26 June 2025; FDA cites established management guidelines, the experience of the haematology and oncology community, and stable adverse event reporting for CRS and neurological toxicity.",
@@ -193,15 +205,28 @@ export const crsGradingAndManagement = protocol({
     { claim: "Consider holding G-CSF and avoid GM-CSF during CRS", grade: "LE: 5", source: "sitc-iec-2020" },
     { claim: "Steroids with a second tocilizumab dose if one dose fails", grade: "LE: 3", source: "sitc-iec-2020" },
     { claim: "Anakinra, siltuximab or high-dose methylprednisolone considered after two tocilizumab doses and steroids", grade: "LE: 4", source: "sitc-iec-2020" },
+    { claim: "Obecabtagene autoleucel: supportive care by severity at the first sign of CRS, with further management by current practice guidelines", grade: "product label (regulatory instruction)", source: "aucatzyl-label-us", quote: "At the first sign of CRS, immediately evaluate the patient for hospitalization and institute treatment with supportive care based on severity and consider further management per current practice guidelines." },
     { claim: "Prolonged or severe CRS treated with tocilizumab with or without a corticosteroid", grade: "expert consensus", source: "asco-cart-2021", quote: "Management of patients with prolonged or severe CAR T-cell-associated cytokine release syndrome includes treatment with tocilizumab with or without a corticosteroid." },
   ],
   // Each source was fetched again on 16 November 2026 (see the header); the shared constants carry the first-pass date.
-  sources: [SITC_IEC_2020, ASTCT_2019, ASTCT_2026, EBMT_2019, EBMT_2022, ASCO_CART_2021, FDA_REMS_2025].map((s) => ({ ...s, accessed: "2026-11-16" })),
+  sources: [
+    ...[SITC_IEC_2020, ASTCT_2019, ASTCT_2026, EBMT_2019, EBMT_2022, ASCO_CART_2021, FDA_REMS_2025].map((s) => ({ ...s, accessed: "2026-11-16" })),
+    {
+      key: "aucatzyl-label-us",
+      label: "AUCATZYL (obecabtagene autoleucel) US prescribing information, DailyMed version 6, published 6 July 2026",
+      publisher: "Autolus; US National Library of Medicine, DailyMed",
+      year: 2026,
+      url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4fef6986-b988-45e4-8c20-b14f0ef1f538",
+      gradingScheme: "Regulatory prescribing information; not graded.",
+      read: "full-text" as const,
+      accessed: "2026-11-17",
+    },
+  ],
   upgrades: [],
   gaps: [
     ...CELL_GAPS,
     "No randomised trial read here compares tocilizumab thresholds (grade 1 against grade 2) or prophylactic against reactive tocilizumab.",
-    "The tocilizumab dose, the maximum per dose and the interval between doses are product-label matters (SmPC or US prescribing information), which were not read for this page; SITC mentions 8 mg/kg intravenously only in describing a trial algorithm, and EBMT/JACIE 2019 gives no dose in its text. The EBMT/JACIE 2019 management algorithm is a figure and was not read as text.",
+    "The tocilizumab dose, the maximum per dose and the interval between doses are product-label matters (SmPC or US prescribing information). The one label read for this page, the US label for obecabtagene autoleucel (read on 17 November 2026 to support listing that product), gives no tocilizumab or steroid dose; the labels of the other six products listed were not read for this page. SITC 2020 names five of them (axicabtagene ciloleucel, tisagenlecleucel, lisocabtagene maraleucel, brexucabtagene autoleucel and idecabtagene vicleucel) and the FDA communication names all six. SITC mentions 8 mg/kg intravenously only in describing a trial algorithm, and EBMT/JACIE 2019 gives no dose in its text. The EBMT/JACIE 2019 management algorithm is a figure and was not read as text.",
     "The steroid doses given here (methylprednisolone 2 mg/kg/day; dexamethasone 0.5 mg/kg, maximum 10 mg per dose) are what SITC describes as commonly used, not a graded panel recommendation, and SITC does not define the dose it means by high-dose methylprednisolone as a third-line agent.",
     "How much steroid for CRS affects CAR T-cell efficacy is uncertain; SITC cites a trend to shorter progression-free survival with prolonged corticosteroids in one retrospective cohort of 100 patients given axicabtagene ciloleucel.",
     "SITC prints an evidence level at the end of a run of recommendations. For the baseline tests, the daily blood tests and the growth factor advice, the level shown here is printed after the next sentence of the same run and is read as covering it. SITC's statement that tocilizumab should be available appears in its section on the COVID-19 pandemic and carries no evidence level.",

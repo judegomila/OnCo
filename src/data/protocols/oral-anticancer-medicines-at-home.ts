@@ -39,6 +39,10 @@ import { protocol } from "./helpers";
  * where ONS says to ask the team whether they can be returned; a capecitabine instruction written as a rule for all
  * tablets; and several reasons no source read gives. The UK position on who prescribes and dispenses was added.
  *
+ * Independent re-read of doses and links on 17 November 2026: the capecitabine stop-and-call thresholds against the
+ * Xeloda package leaflet (supported), and every source text read for this page searched for CDK4/6 inhibitors,
+ * palbociclib, ribociclib and abemaciclib. None names them, so the link to that class was removed (see `gaps`).
+ *
  * Quotes are copied from the raw text with line breaks joined and nothing else changed.
  */
 export const oralAnticancerMedicinesAtHome = protocol({
@@ -414,7 +418,7 @@ export const oralAnticancerMedicinesAtHome = protocol({
     },
   ],
   drugs: ["capecitabine", "cyclophosphamide", "etoposide"],
-  technologies: ["kinase-inhibitors", "cdk46-inhibitor"],
+  technologies: ["kinase-inhibitors"],
   related: ["hazardous-drug-handling-in-clinical-areas", "dpyd-testing-before-fluoropyrimidines", "idea-acc-pharmacist-interaction-review-oral-anticancer"],
   upgrades: ["idea-upgrade-oral-anticancer-medicine-adherence-programme"],
   gaps: [
@@ -429,6 +433,6 @@ export const oralAnticancerMedicinesAtHome = protocol({
     "The 48-hour period is a general figure. ACS says some drugs pass more quickly and others take longer, and describes its precautions for traditional chemotherapy, saying targeted, hormone and immunotherapy drugs may differ; NCI leaves the length of time to the treating centre and the drug. No source read says how the precautions apply to a tablet taken every day.",
     "No source read says whether a carer or household member who is pregnant or breastfeeding should handle the tablets or body fluids; the ONS toolkit addresses pregnant staff, not families. Ask the treating team.",
     "Missed-dose and vomited-dose rules are drug-specific and come from each product's leaflet; none is reproduced here. Stop-and-call symptoms are likewise drug-specific: the capecitabine leaflet is quoted only as an example.",
-    "The technologies linked to this record include CDK4/6 inhibitors, which no source read names; they fall under the targeted small-molecule agents that ASCO-ONS covers.",
+    "On 17 November 2026 the link from this page to CDK4/6 inhibitors was removed: no source read here names the class or palbociclib, ribociclib or abemaciclib. The ASCO-ONS standards define antineoplastic therapy as including targeted agents, with small-molecule inhibitors as the example, and name no class of them.",
   ],
 });

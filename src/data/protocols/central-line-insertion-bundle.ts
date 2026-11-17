@@ -3,141 +3,146 @@ import { protocol } from "./helpers";
 /*
  * Putting in a central venous catheter without introducing infection: the insertion bundle.
  *
- * What was read, and how (all on 11 November 2026, fetched raw with curl into a scratch directory and read as text):
+ * First written on 11 November 2026. Second accuracy pass on 17 November 2026: every source was re-read as raw text
+ * and every quote re-checked by script (whitespace and line-break hyphenation normalised, XML tags and citation
+ * cross-references stripped, nothing else).
  * - SHEA/IDSA/APIC compendium, CLABSI prevention 2022 update (Buetti et al.): full text, Europe PMC full-text XML
- *   (PMC9096710).
+ *   (PMC9096710), from a copy another checker in this pass saved the same day.
  * - CDC/HICPAC Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011 (last update October
- *   2017): full text. cdc.gov returned 403 to a script; the PDF was read from the Internet Archive's capture of
- *   cdc.gov/infection-control/media/pdfs/guideline-bsi-h.pdf with pdftotext, as in the implanted port protocol.
+ *   2017): full text, the PDF from cdc.gov read with pdftotext, from a copy another checker saved the same day. The
+ *   CDC landing page (dated 12 April 2024) lists no newer edition.
  * - epic3 national evidence-based guidelines (Loveday et al., J Hosp Infect 2014): full text, Europe PMC full-text XML
- *   (PMC7114876).
- * - NICE CG139 recommendations page (HTML, full text), for skin antisepsis before PICC insertion.
- * Every DOI was resolved through Europe PMC and its title checked. Quotes are copied from the raw text with line breaks
- * joined and nothing else changed; where a sentence ends in a reference list, the quote stops before it.
+ *   (PMC7114876), from a copy another checker saved the same day. A Europe PMC title search found no epic4.
+ * Every DOI was resolved through Crossref and Europe PMC and its title checked. Quotes are copied from the raw text
+ * with line breaks joined and nothing else changed; where a sentence ends in a reference list, the quote stops before
+ * it. The second pass found all 20 quotes verbatim and every grade as printed. It reworded reasons the sources do not
+ * give, separated what SHEA says from what CDC says about the subclavian site and ultrasound, restored "routinely" to
+ * the antibiotic step, and added epic3's recommendation of a PICC for medium-term access beside its recommendation of
+ * a tunnelled line or port for long-term access.
  */
 export const centralLineInsertionBundle = protocol({
   id: "central-line-insertion-bundle",
   name: "Central line insertion bundle: preventing bloodstream infection at the time of placement",
   aka: ["CLABSI insertion bundle", "central line insertion checklist", "CVC insertion bundle", "maximal sterile barrier precautions", "line insertion asepsis"],
   domain: "infection-prevention",
-  tldr: "When a central line is put in, the team follows a checklist: clean hands, a cap, mask, sterile gown and gloves for the person inserting it, a sterile drape over the whole body, and chlorhexidine in alcohol on the skin, left to dry. Someone watches and can stop the procedure if a step is missed. For long treatments such as chemotherapy, a tunnelled line or a port is usually the right kind of line.",
+  tldr: "When a central line is put in, the team follows a checklist or a similar process: clean hands, a cap, mask, sterile gown and gloves for the staff inserting it, a large sterile drape, and chlorhexidine in alcohol on the skin, left to dry. Someone watches and can stop the procedure if sterile technique is broken. For long-term use, one guideline recommends a tunnelled line or a port.",
   simple: "Putting in a central line opens a path for germs into a big vein. The team cleans their hands, wears sterile clothes, covers you with a sterile sheet and cleans your skin well. A checklist makes sure nothing is missed.",
-  summary: "The insertion bundle in SHEA/IDSA/APIC 2022 is a set of essential practices: an evidence-based list of indications (low quality), education and competency of inserters (moderate), a process such as a checklist with an empowered observer (moderate), hand hygiene (moderate), an all-inclusive cart or kit (moderate), ultrasound guidance (high), maximum sterile barrier precautions with cap, mask, sterile gown, sterile gloves and a full-body drape (moderate; CDC IB; epic3 Class C), and alcoholic chlorhexidine skin preparation of at least 2% allowed to dry (high; epic3 Class A; CDC IA at more than 0.5%). Site choice: subclavian preferred for non-tunnelled lines in the ICU (high) and avoid the femoral vein in adults (CDC IA); in children the femoral site may be considered when upper sites are contraindicated. Use the fewest lumens needed (CDC IB, epic3 Class A); for long-term access use a tunnelled line or implanted port (epic3 Class A); PICCs are not a strategy to lower infection risk (SHEA). No systemic antibiotic prophylaxis at insertion (SHEA high, CDC IB, epic3 Class A). Replace a line placed in an emergency without assured asepsis within 48 hours (CDC IB). Antiseptic- or antimicrobial-impregnated catheters are an additional approach where rates stay high.",
-  asOf: "2026-11-11",
+  summary: "The insertion bundle in SHEA/IDSA/APIC 2022 is a set of essential practices for acute-care hospitals: an evidence-based list of indications (low quality), education and competency assessment of staff (moderate), a process such as a checklist, with observation of the insertion and staff empowered to stop it (moderate), hand hygiene (moderate), an all-inclusive cart or kit (moderate), ultrasound guidance (high), maximum sterile barrier precautions with mask, cap, sterile gown, sterile gloves and a full-body drape (moderate; CDC IB; epic3 Class C), and alcoholic chlorhexidine skin preparation of at least 2% allowed to dry (high; epic3 Class A; CDC IA at more than 0.5%). Site choice: SHEA prefers the subclavian site when the line is placed in the ICU (high); CDC prefers it for non-tunnelled lines in adults (IB), says to avoid the femoral vein in adults (IA) and to avoid the subclavian site in haemodialysis and advanced kidney disease (IA); in children the femoral site may be considered when upper body sites are contraindicated (SHEA). Use the fewest lumens needed (CDC IB, epic3 Class A); for long-term access use a tunnelled line or implanted port (epic3 Class A) and for medium-term intermittent access a PICC (epic3 Class D/GPP); PICCs are not a strategy to lower infection risk (SHEA). No routine systemic antibiotic prophylaxis at insertion (SHEA high, CDC IB, epic3 Class A). Replace a line placed in an emergency without assured asepsis as soon as possible, within 48 hours (CDC IB). Antiseptic- or antimicrobial-impregnated catheters are an additional approach where rates stay high.",
+  asOf: "2026-11-17",
   setting: {
     who: ["doctor", "nurse", "anaesthetist", "surgical-team"],
     where: ["ward", "theatre", "intensive-care", "outpatient-clinic"],
   },
-  population: "Adults and children having a central venous catheter placed (non-tunnelled CVCs, tunnelled lines, PICCs and implanted ports), as SHEA, CDC and epic3 scope it. SHEA's site preference is for ICU placement; chlorhexidine skin preparation in infants under 2 months and in neonatal intensive care is weighed case by case.",
+  population: "Adults and children having a central venous catheter placed. SHEA writes for acute-care hospitals and does not stratify its recommendations by type of catheter; CDC names CVCs and PICCs; epic3 is written for NHS hospitals in England. SHEA's site preference is for ICU placement. On chlorhexidine skin preparation, CDC makes no recommendation for infants under 2 months (an unresolved issue) and SHEA says it should be used in neonatal intensive care when the benefits are judged to outweigh the potential risk.",
   trigger: "A decision has been made that the person needs a central venous catheter.",
   steps: [
     {
       action: "Check the line is needed against an agreed list of indications before placing it",
-      why: "The surest way to prevent a line infection is not to place a line that is not needed.",
+      why: "SHEA asks for the list so that fewer unnecessary lines are placed.",
       source: "shea-2022",
       quote: "Provide easy access to an evidence-based list of indications for CVC use to minimize unnecessary CVC placement (Quality of Evidence: LOW)",
       grade: "Quality of Evidence: LOW",
     },
     {
-      action: "Choose the device for the length of treatment: a tunnelled line or implanted port for long-term access, with the fewest lumens needed",
-      why: "Cancer treatment often lasts months; devices built for long use, with fewer openings, carry less infection risk over that time.",
+      action: "Choose the device for how long access is needed: a tunnelled line or implanted port for long-term access, with the fewest lumens needed",
+      why: "epic3 reports that most studies found fewer infections with tunnelled lines, and the fewest with implanted ports, than with non-tunnelled lines. For medium-term intermittent access it recommends a PICC (Class D/GPP), and it describes PICCs as increasingly used for 6 weeks to 6 months, including for chemotherapy.",
       source: "epic3",
       quote: "Use a tunnelled or implanted central venous access device with a subcutaneous port for patients in whom long-term vascular access is required.",
       grade: "Class A",
     },
     {
       action: "Only let trained staff assessed as competent put in central lines",
-      why: "Infection and mechanical complications fall with experience and a consistent technique.",
+      why: "CDC reports that infection risk falls when aseptic care is standardised, and that lines put in and looked after by inexperienced staff might carry more risk of infection.",
       source: "cdc-2011",
       quote: "Designate only trained personnel who demonstrate competence for the insertion and maintenance of peripheral and central intravascular catheters.",
       grade: "Category IA",
     },
     {
-      action: "Use a checklist, completed by an observer other than the inserter, who can stop the procedure if asepsis is broken",
-      why: "A second person catches missed steps that the busy inserter will not.",
+      action: "Have a process such as a checklist; if one is used, have someone other than the inserter complete it, and have a trained observer who can stop the procedure if asepsis is broken",
+      why: "SHEA says a trained nurse, doctor or other member of staff should watch the insertion to make sure aseptic technique is kept.",
       source: "shea-2022",
       quote: "HCP should be empowered to stop the procedure if breaches in aseptic technique are observed.",
       grade: "Quality of Evidence: MODERATE",
     },
     {
       action: "Have an all-inclusive cart or kit with everything needed for aseptic insertion",
-      why: "Leaving the sterile field to fetch an item is a common way asepsis is broken.",
+      why: "SHEA wants everything needed for an aseptic insertion to be to hand in every unit where lines are put in.",
       source: "shea-2022",
       quote: "A catheter cart or kit that contains all necessary components for aseptic catheter insertion should be available and easily accessible in all units where CVCs are inserted.",
       grade: "Quality of Evidence: MODERATE",
     },
     {
       action: "Clean hands with alcohol rub or soap and water before insertion; gloves do not replace this",
-      why: "Hands carry the skin germs that cause most early line infections.",
+      why: "CDC says hand hygiene before insertion, combined with proper aseptic technique, protects against infection.",
       source: "shea-2022",
       quote: "Perform hand hygiene prior to catheter insertion or manipulation (Quality of Evidence: MODERATE)",
       grade: "Quality of Evidence: MODERATE",
     },
     {
-      action: "Choose the site weighing infection against mechanical risk: in adults avoid the femoral vein, and for non-tunnelled ICU lines prefer the subclavian",
-      why: "Groin lines carry more infection in adults; the subclavian has the lowest infection risk but more risk of lung puncture and is avoided in people who may need dialysis.",
+      action: "Choose the site weighing infection against mechanical risk: in adults avoid the femoral vein and prefer the subclavian site for a non-tunnelled line",
+      why: "CDC reports more skin colonisation, and in some studies more infection, with groin lines in adults, and prefers the subclavian site for a non-tunnelled line in adults (Category IB). SHEA prefers the subclavian site when the line is placed in intensive care (high) and says the risk between sites outside intensive care is unclear. Both say to avoid the subclavian site in people on or likely to need haemodialysis because the vein can narrow, and CDC lists a punctured lung among the mechanical risks to weigh.",
       source: "cdc-2011",
       quote: "Avoid using the femoral vein for central venous access in adult patients",
       grade: "Category IA",
     },
     {
-      action: "Use ultrasound to guide the needle, if the operator is trained in it",
-      why: "Ultrasound cuts the number of attempts and mechanical complications.",
+      action: "Use ultrasound guidance to put the line in",
+      why: "SHEA says ultrasound guidance at the neck and groin veins lowers non-infectious complications, and warns that using it may lead to a breach in aseptic technique. CDC recommends it to reduce the number of attempts and mechanical complications, and only in the hands of those fully trained in it (Category IB).",
       source: "shea-2022",
       quote: "Use ultrasound guidance for catheter insertion (Quality of Evidence: HIGH)",
       grade: "Quality of Evidence: HIGH",
     },
     {
       action: "Use maximum sterile barrier precautions: everyone involved wears a cap, mask, sterile gown and sterile gloves, and the patient is covered with a full-body sterile drape",
-      why: "A large sterile field stops the guidewire and catheter touching anything unclean.",
+      why: "SHEA says most of the available evidence suggests these precautions lower infection risk, although one randomised study in surgical patients found no added benefit.",
       source: "shea-2022",
       quote: "A mask, cap, sterile gown, and sterile gloves are to be worn by all HCP involved in the catheter insertion procedure.",
       grade: "Quality of Evidence: MODERATE",
     },
     {
       action: "Apply the same precautions for a PICC and for a guidewire exchange",
-      why: "A PICC is a central line and carries a similar infection risk in hospital patients.",
+      why: "CDC names PICCs and guidewire exchange in this recommendation. SHEA says the infection risk of a PICC in hospital patients approaches that of other central lines.",
       source: "cdc-2011",
       quote: "Use maximal sterile barrier precautions, including the use of a cap, mask, sterile gown, sterile gloves, and a sterile full body drape, for the insertion of CVCs, PICCs, or guidewire exchange",
       grade: "Category IB",
     },
     {
-      action: "Prepare the skin with an alcoholic chlorhexidine solution of at least 2% and let it dry completely before the puncture",
-      why: "Chlorhexidine in alcohol is the most effective skin antiseptic for line insertion, and it works only once it has dried.",
+      action: "Prepare the skin with an alcoholic chlorhexidine solution of at least 2% and let it dry before the puncture",
+      why: "SHEA rates the evidence for alcoholic chlorhexidine as high and says the antiseptic must be allowed to dry before the skin is punctured. CDC says to let it dry according to the manufacturer's recommendation (Category IB).",
       source: "shea-2022",
       quote: "Before catheter insertion, apply an alcoholic chlorhexidine solution containing at least 2% chlorhexidine gluconate to the insertion site.",
       grade: "Quality of Evidence: HIGH",
     },
     {
-      action: "Do not give antibiotics to prevent infection at insertion",
-      why: "Preventive antibiotics at insertion do not lower line infections and they breed resistance.",
+      action: "Do not routinely give antibiotics to prevent infection when the line is put in",
+      why: "epic3 reports that no studies showed preventive antibiotics lowering line infections in adults. It notes one review found they may help some high-risk people with cancer who have long-term tunnelled lines, and says they should still not be used routinely, to limit antibiotic resistance.",
       source: "epic3",
       quote: "Do not routinely administer intranasal or systemic antimicrobials before insertion or during the use of an intravascular device to prevent catheter colonisation or bloodstream infection.",
       grade: "Class A",
     },
     {
-      action: "Replace a line put in during an emergency, when asepsis could not be assured, within 48 hours",
-      why: "A line placed in a rush is more likely to have been contaminated.",
+      action: "Replace a line put in during an emergency, when asepsis could not be assured, as soon as possible and within 48 hours",
+      why: "In an emergency the team cannot always be sure aseptic technique was kept.",
       source: "cdc-2011",
       quote: "When adherence to aseptic technique cannot be ensured (i.e., catheters inserted during a medical emergency), replace the catheter as soon as possible, i.e., within 48 hours",
       grade: "Category IB",
     },
   ],
   bestInClass: {
-    statement: "The SHEA/IDSA/APIC 2022 essential practices at insertion, which CDC/HICPAC 2011 and epic3 broadly share: indication check, competent inserters, a checklist with an empowered observer, hand hygiene, an all-inclusive kit, ultrasound guidance, maximum sterile barrier precautions with a full-body drape, alcoholic chlorhexidine skin preparation allowed to dry, and no antibiotic prophylaxis. The sources differ in the strength and detail: chlorhexidine concentration is at least 2% in SHEA (high) and epic3 (Class A, 2% in 70% isopropyl alcohol) but more than 0.5% with alcohol in CDC (IA); maximum sterile barriers are moderate quality in SHEA, Category IB in CDC and Class C in epic3, and SHEA notes one randomised trial in surgical patients found no added benefit; SHEA prefers the subclavian site only for ICU placement and calls the site risk outside the ICU unclear. For people having long cancer treatment, epic3 recommends a tunnelled line or an implanted port (Class A), and SHEA warns that a PICC is not a way to lower infection risk.",
+    statement: "The SHEA/IDSA/APIC 2022 essential practices at insertion: indication check, competent inserters, a process such as a checklist with an empowered observer, hand hygiene, an all-inclusive cart or kit, ultrasound guidance, maximum sterile barrier precautions with a full-body drape, alcoholic chlorhexidine skin preparation allowed to dry, and no routine antibiotic prophylaxis. CDC/HICPAC 2011 and epic3 share the recommendations on trained staff, hand hygiene, maximal sterile barriers, chlorhexidine in alcohol and antibiotic prophylaxis; CDC also recommends ultrasound guidance (IB) and bundled improvement strategies (IB), while the checklist, the observer and the kit are recommendations of SHEA alone. The sources differ in the strength and detail: chlorhexidine concentration is at least 2% in SHEA (high) and epic3 (Class A, 2% in 70% isopropyl alcohol) but more than 0.5% with alcohol in CDC (IA); maximum sterile barriers are moderate quality in SHEA, Category IB in CDC and Class C in epic3, and SHEA notes one randomised trial in surgical patients found no added benefit; SHEA prefers the subclavian site for ICU placement and calls the site risk outside the ICU unclear, while CDC prefers it for non-tunnelled lines in adults (IB). Where access is needed long-term, epic3 recommends a tunnelled line or an implanted port (Class A) and, for medium-term intermittent access, a PICC (Class D/GPP); SHEA says not to use a PICC as a way to lower infection risk.",
     sources: ["shea-2022", "cdc-2011", "epic3"],
   },
   variants: [
     {
       name: "Antiseptic- or antimicrobial-impregnated catheters where rates stay high",
-      differs: "Uses chlorhexidine with silver sulfadiazine or minocycline with rifampin catheters for lines expected to stay more than 5 days, in units whose CLABSI rate is above target despite the essential practices, or for patients with limited access and recurrent infection.",
-      evidence: "SHEA additional approach, quality of evidence high in adults and moderate in children; CDC Category IA under the same conditions; epic3 Class A for adults. SHEA notes many of the trials predate routine bundles and the benefit on top of them is unknown.",
+      differs: "Uses catheters impregnated with chlorhexidine and silver sulfadiazine or with minocycline and rifampin. SHEA: where a unit or patient group has a CLABSI rate above the hospital's goals despite the essential practices, for patients with limited venous access and recurrent CLABSI, or for patients at heightened risk of severe harm from a CLABSI. CDC and epic3: for lines expected to stay in more than 5 days, where the rate stays high despite a comprehensive strategy (epic3 for adults).",
+      evidence: "SHEA additional approach, quality of evidence high in adults and moderate in children; CDC Category IA; epic3 Class A for adults. SHEA notes many of the trials predate routine bundles and whether the catheters add benefit on top of them is unknown, and it asks for patients to be monitored for adverse effects such as anaphylaxis.",
       sources: ["shea-2022", "cdc-2011", "epic3"],
     },
     {
       name: "Femoral or tunnelled femoral lines in children",
       differs: "In children and infants the femoral vein may be considered if upper body sites are contraindicated; a tunnelled femoral line with an exit site in the mid-thigh, outside the nappy area, may be safer.",
-      evidence: "Stated by SHEA without a separate grade; CDC's femoral avoidance (Category IA) is for adults.",
+      evidence: "Stated by SHEA in the text under its site recommendation, without a separate grade; CDC's femoral avoidance (Category IA) is for adults, and CDC reports that in children femoral lines have a low incidence of mechanical complications and might have an infection rate equivalent to other sites.",
       sources: ["shea-2022", "cdc-2011"],
     },
     {
@@ -159,14 +164,16 @@ export const centralLineInsertionBundle = protocol({
     { claim: "Minimum number of lumens", grade: "Class A", source: "epic3", quote: "Use a catheter with the minimum number of ports or lumens essential for management of the patient." },
   ],
   sources: [
-    { key: "shea-2022", label: "Strategies to prevent central line-associated bloodstream infections in acute-care hospitals: 2022 Update", publisher: "SHEA, IDSA, APIC (Infection Control and Hospital Epidemiology)", year: 2022, url: "https://europepmc.org/article/PMC/PMC9096710", doi: "10.1017/ice.2022.87", gradingScheme: "Quality of evidence HIGH, MODERATE or LOW; each recommendation classed as an essential practice, an additional approach, not routine, or unresolved.", read: "full-text", accessed: "2026-11-11" },
-    { key: "cdc-2011", label: "Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011 (last update October 2017)", publisher: "CDC/HICPAC", year: 2011, url: "https://www.cdc.gov/infection-control/media/pdfs/Guideline-BSI-H.pdf", doi: "10.1093/cid/cir257", gradingScheme: "Category IA (strongly recommended, strongly supported by well-designed studies), IB (strongly recommended, some studies and strong rationale, or accepted practice), IC (required by regulation), II (suggested), Unresolved issue.", read: "full-text", accessed: "2026-11-11" },
-    { key: "epic3", label: "epic3: National Evidence-Based Guidelines for Preventing Healthcare-Associated Infections in NHS Hospitals in England", publisher: "Journal of Hospital Infection (Loveday et al., commissioned by the Department of Health)", year: 2014, url: "https://europepmc.org/article/PMC/PMC7114876", doi: "10.1016/S0195-6701(13)60012-2", gradingScheme: "SIGN-style classes A (1++ or consistent 1+ evidence) to D (level 3 or 4 evidence), GPP (good practice point), H&S (health and safety legislation).", read: "full-text", accessed: "2026-11-11" },
+    { key: "shea-2022", label: "Strategies to prevent central line-associated bloodstream infections in acute-care hospitals: 2022 Update", publisher: "SHEA, IDSA, APIC (Infection Control and Hospital Epidemiology)", year: 2022, url: "https://europepmc.org/article/PMC/PMC9096710", doi: "10.1017/ice.2022.87", gradingScheme: "Quality of evidence HIGH, MODERATE or LOW; each recommendation classed as an essential practice, an additional approach, not routine, or unresolved.", read: "full-text", accessed: "2026-11-17" },
+    { key: "cdc-2011", label: "Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011 (last update October 2017)", publisher: "CDC/HICPAC", year: 2011, url: "https://www.cdc.gov/infection-control/media/pdfs/Guideline-BSI-H.pdf", doi: "10.1093/cid/cir257", gradingScheme: "Category IA (strongly recommended, strongly supported by well-designed studies), IB (strongly recommended, some studies and strong rationale, or accepted practice), IC (required by regulation), II (suggested), Unresolved issue.", read: "full-text", accessed: "2026-11-17" },
+    { key: "epic3", label: "epic3: National Evidence-Based Guidelines for Preventing Healthcare-Associated Infections in NHS Hospitals in England", publisher: "Journal of Hospital Infection (Loveday et al., commissioned by the Department of Health)", year: 2014, url: "https://europepmc.org/article/PMC/PMC7114876", doi: "10.1016/S0195-6701(13)60012-2", gradingScheme: "SIGN classification, classes A (1++ or consistent 1+ evidence) to D (level 3 or 4 evidence), GPP (good practice point), H&S (underpinned by health and safety legislation).", read: "full-text", accessed: "2026-11-17" },
   ],
   upgrades: [],
   gaps: [
     "None of the guidelines read asks for a mask on the patient; the full-body sterile drape covers the patient, and masks are named for the staff doing the insertion.",
-    "The INS Infusion Therapy Standards of Practice (2024) could not be read and are not cited here.",
+    "The INS Infusion Therapy Standards of Practice (2024) refuse a script, could not be read on 17 November 2026 and are not cited here.",
+    "On 17 November 2026 no newer edition was found of SHEA/IDSA/APIC 2022, of CDC/HICPAC 2011 (last update October 2017) or of epic3 (2014). CDC 2011 and epic3 are more than ten years old; SHEA 2022 notes that its earlier lead recommendation to avoid the femoral vein remains valid and has been replaced by a positive recommendation for the subclavian site in intensive care.",
+    "None of the three guidelines defines long-term access in days or weeks, or names a preferred device for chemotherapy; epic3 describes PICCs as used for 6 weeks to 6 months and tunnelled lines as frequently used for people with cancer.",
     "No guideline read is specific to children with cancer; the paediatric points (femoral site, chlorhexidine in infants) come from the general guidelines.",
     "Outside the ICU, SHEA says the infection risk of different insertion sites remains unclear, and it is unclear whether ultrasound-guided subclavian insertion reduces infection.",
     "The comparison of chlorhexidine and povidone-iodine, both in alcohol, is an unresolved issue in CDC 2011.",

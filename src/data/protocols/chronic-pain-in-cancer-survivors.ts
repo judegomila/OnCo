@@ -5,101 +5,129 @@ import { protocol } from "./helpers";
  * recurrence, non-drug and non-opioid treatment first, integrative therapies with evidence, and careful use of
  * opioids.
  *
- * What was read, and how (all on 11 November 2026, fetched raw into a scratch directory and read as text):
+ * What was read, and how. First read on 11 November 2026; re-read claim by claim on 17 November 2026 in a second
+ * accuracy pass, every source fetched raw and read as text, every quote checked by script:
  * - ASCO guideline on chronic pain in survivors of adult cancers (Paice et al., J Clin Oncol 2016): abstract only, from
- *   Europe PMC; ascopubs.org refused a script and PubMed Central holds no copy. No later ASCO update on chronic pain in
- *   survivors was found in Europe PMC.
+ *   Europe PMC; ascopubs.org refuses a script and Europe PMC lists no open copy. No later ASCO guideline on chronic pain
+ *   in survivors is in Europe PMC.
  * - SIO-ASCO guideline on integrative medicine for pain management in oncology (Mao et al., J Clin Oncol 2022):
- *   abstract only, from Europe PMC.
+ *   abstract only, from Europe PMC. No newer edition found.
  * - ASCO guideline on use of opioids for adults with pain from cancer or cancer treatment (Paice et al., J Clin Oncol
- *   2023): abstract only, from Europe PMC.
+ *   2023): abstract only, the Europe PMC record a sibling checker saved the same day. No newer edition found.
  * - Japan Society of Pain Clinicians consensus statement on chronic pain treatment in cancer survivors (J Anesth
- *   2025): full text from Europe PMC (PMC11937162), with its graded statements.
+ *   2025;39(2):161-181, online 4 December 2024): full text XML from Europe PMC (PMC11937162), with its graded
+ *   statements. Its correction (10.1007/s00540-024-03441-2) was read too: it only corrects the society's name.
  * - ESMO Clinical Practice Guidelines on cancer pain in adults (Fallon et al., Ann Oncol 2018): not reachable (no
- *   abstract in Europe PMC; publisher refused a script). The 2026 update of the Australian cancer pain guideline was
- *   found (PMC13569014) but PubMed Central releases no body text to a script; not read.
- * Every DOI was resolved through Europe PMC and its title checked. Quotes are copied from the raw text unchanged.
+ *   abstract in Europe PMC; the publisher answered 403 to a sibling checker on 17 November and was not asked again).
+ *   Europe PMC shows no newer ESMO cancer pain guideline.
+ * - The update of the Australian cancer pain guideline (PMC13569014) now reads from PubMed Central and is used on the
+ *   strong opioids protocol; it was not checked for this page.
+ * Every DOI was resolved through Crossref and Europe PMC and its title checked. Quotes are copied from the raw text
+ * unchanged.
+ * What the second pass changed: one step that carried three recommendations under a single [1B] grade was split so
+ * that each keeps its own source and grade; reasons that no source read gives were replaced with what the sources
+ * say; the drugs named in the non-opioid step are now attributed to the Japanese statement, which is where they come
+ * from; and the Japanese opioid limits are scoped to pain that is not caused by cancer.
  */
 export const chronicPainInCancerSurvivors = protocol({
   id: "chronic-pain-in-cancer-survivors",
   name: "Chronic pain in cancer survivors: assessment, non-opioid treatment first and careful opioid use",
   aka: ["chronic pain after cancer", "persistent pain in survivors", "post-treatment pain", "aromatase inhibitor joint pain", "opioids in cancer survivors", "chronic cancer-related pain"],
   domain: "survivorship",
-  tldr: "Pain can last for years after cancer treatment. Tell your team about any pain, especially new pain, which should be checked for cancer coming back. Most long-lasting pain is best managed first with exercise, talking therapies, physiotherapy and non-opioid medicines; acupuncture helps joint pain from aromatase inhibitors. Opioids can be tried with care, because long-term use carries real risks.",
-  simple: "Pain after cancer treatment is common. Tell your team. New pain needs checking. Many treatments help besides strong painkillers.",
-  summary: "ASCO (2016) recommends screening for pain at each encounter, evaluating new pain for recurrence, a second cancer or a late effect of treatment, involving other professionals for complex needs, and using systemic non-opioid and adjuvant analgesics; a trial of opioids may be given to carefully selected survivors who do not respond to more conservative management and remain distressed or impaired, with assessment of risk and universal precautions against misuse. Many of its recommendations rest on expert consensus because high-quality evidence was scarce. The SIO-ASCO integrative guideline (2022) recommends acupuncture for aromatase inhibitor joint pain, and says acupuncture, reflexology or acupressure may be recommended for general cancer or musculoskeletal pain, hypnosis for procedural pain and massage in palliative or hospice care. For pain from active cancer or its treatment, ASCO's opioid guideline (2023) says opioids should be offered for moderate to severe pain unless contraindicated, started as needed at the lowest dose with early assessment and titration.\n\nThe Japan Society of Pain Clinicians (2025) goes further for survivors: not all survivor pain is cancer pain; pain that is not should be treated without opioids where possible, and when opioids are needed they follow the country's non-cancer chronic pain rules (up to 60 mg oral morphine equivalent a day, not above 90 mg, for a target of 3 months). It grades psychosocial approaches [1B] and exercise [1B] most highly, NSAIDs, paracetamol, gabapentinoids for cancer-related neuropathic pain and duloxetine for CIPN pain as weak recommendations [2B], and advises against long-term corticosteroids for pain [2D].",
-  asOf: "2026-11-11",
+  tldr: "Pain can persist after cancer treatment. Tell your team about any pain, especially new pain, which should be checked for cancer coming back or a late effect of treatment. Guidelines put talking therapies, exercise and non-opioid medicines ahead of opioids for long-lasting pain; acupuncture is recommended for joint pain from aromatase inhibitors. Opioids may be tried with care in selected people.",
+  simple: "Pain can go on after cancer treatment. Tell your team. New pain needs checking. There are treatments besides strong painkillers.",
+  summary: "ASCO (2016) recommends screening for pain at each encounter, evaluating new pain for recurrence, a second cancer or a late effect of treatment, involving other professionals for complex needs, and using systemic non-opioid and adjuvant analgesics; a trial of opioids may be given to carefully selected survivors who do not respond to more conservative management and remain distressed or impaired, with assessment of risk and universal precautions against misuse. Many of its recommendations rest on expert consensus because high-quality evidence was scarce. The SIO-ASCO integrative guideline (2022) recommends acupuncture for aromatase inhibitor joint pain, and says acupuncture, reflexology or acupressure may be recommended for general cancer or musculoskeletal pain, hypnosis for procedural pain and massage in palliative or hospice care. For pain from active cancer or its treatment, ASCO's opioid guideline (2023) says opioids should be offered for moderate to severe pain unless contraindicated, started as needed at the lowest possible dose that achieves acceptable pain relief and the patient's goals, with early assessment and frequent titration.\n\nThe Japan Society of Pain Clinicians (2025), which counts anyone from diagnosis to the end of life as a survivor, goes further: not all survivor pain is cancer pain; pain that is not should be managed with analgesics other than opioids and with nerve blocks, and when opioids are needed for such pain they follow Japan's non-cancer chronic pain guideline (a recommended maximum of 60 mg oral morphine equivalent a day, not above 90 mg, for a target of 3 months and no more than 6). Its only strong recommendations are psychosocial approaches [1B] and exercise therapy [1B]; it gives NSAIDs, paracetamol, gabapentinoids for cancer-related neuropathic pain and duloxetine (chosen for pain from chemotherapy nerve damage) weak recommendations [2B], and advises against long-term corticosteroids for pain [2D].",
+  asOf: "2026-11-17",
   setting: {
     who: ["doctor", "nurse", "pharmacist", "multidisciplinary-team", "patient-or-carer"],
     where: ["outpatient-clinic", "community"],
   },
-  population: "Adults after cancer treatment, or living long term with cancer, who have chronic pain (ASCO 2016; JSPC 2025). Pain from active cancer or active treatment is covered by ASCO's opioid guideline (2023). SIO-ASCO found the evidence insufficient for recommendations in children.",
-  trigger: "Every follow-up encounter; and any report of new or persisting pain.",
+  population: "Adult cancer survivors with chronic pain (ASCO 2016). JSPC 2025 defines a survivor as a person at any stage from the time cancer is diagnosed or suspected to the end of life, not only a person whose cancer is cured, and covers all their chronic pain, whether or not cancer caused it. ASCO's opioid guideline (2023) covers adults with pain from cancer or cancer treatment. SIO-ASCO found the evidence insufficient for recommendations in children.",
+  trigger: "Each encounter (ASCO 2016); and any report of new-onset pain.",
   steps: [
     {
-      action: "Ask about pain at every encounter",
-      why: "Long-lasting pain after cancer is common and often goes unmentioned unless someone asks.",
+      action: "Ask about pain at each encounter",
+      why: "Asking every time is how pain gets noticed and assessed. JSPC says prolonged pain in cancer survivors is chronic pain and should be addressed.",
       source: "asco-2016",
       quote: "Clinicians should screen for pain at each encounter.",
     },
     {
-      action: "Evaluate any new pain for recurrence, a second cancer or a late effect of treatment before treating it as chronic pain",
-      why: "New pain can be the first sign that the cancer has come back, which changes everything that follows.",
+      action: "Evaluate, treat and monitor any new pain for recurrence, a second cancer or a late effect of treatment",
+      why: "New pain may come from the cancer returning, from a second cancer or from a late effect of treatment, so ASCO asks that each be looked for.",
       source: "asco-2016",
       quote: "Recurrent disease, second malignancy, or late-onset treatment effects in any patient who reports new-onset pain should be evaluated, treated, and monitored.",
     },
     {
-      action: "Decide whether the pain is caused by cancer or not, and manage pain that is not cancer pain without opioids where possible",
-      why: "Pain after treatment is often not caused by cancer, and long-term opioids for such pain carry risks without clear benefit.",
+      action: "Decide whether the pain is caused by cancer or not, and manage pain that is not cancer pain with analgesics other than opioids and with nerve blocks",
+      why: "JSPC stresses that not all pain in a cancer survivor is cancer pain, and draws this line so that opioids are not overused.",
       source: "jspc-2025",
       quote: "Pain that is not cancer pain should be managed with analgesics other than opioids and nerve blocks, and pain that persists despite this approach should be treated as non-cancer chronic pain so as to prevent opioid overuse.",
     },
     {
-      action: "Offer psychosocial treatment (CBT, self-management, psychoeducation) and exercise therapy, and bring in other professionals when needs are complex",
-      why: "These improve pain, mood and quality of life; complex pain usually needs a team rather than one prescriber.",
+      action: "Determine whether other health professionals are needed for a person with complex needs",
+      why: "ASCO asks for this so that pain care is comprehensive. JSPC separately says to consider a multidisciplinary approach built on educating patients and their families, a weak recommendation on low-certainty evidence [2C].",
+      source: "asco-2016",
+      quote: "Clinicians should determine the need for other health professionals to provide comprehensive pain management care in patients with complex needs.",
+    },
+    {
+      action: "Offer psychosocial approaches such as psychotherapy, self-management and psychoeducation",
+      why: "JSPC's summary says these improve pain and physical and mental wellbeing. It grades cognitive behavioural therapy separately, as something that should be considered [2C].",
       source: "jspc-2025",
       quote: "Psychosocial approaches such as psychotherapy, self-management, and psychoeducation are effective in treating chronic pain in cancer survivors.【1B】",
       grade: "1B",
     },
     {
-      action: "Use non-opioid and adjuvant analgesics: NSAIDs or paracetamol, a gabapentinoid for neuropathic pain caused by cancer, duloxetine for painful chemotherapy nerve damage",
-      why: "These can relieve pain and improve function without the risks of long-term opioids.",
+      action: "Consider exercise therapy",
+      why: "JSPC recommends it for its potential to improve quality of life. It notes that only a few studies report its effect on pain itself, most of them in breast cancer survivors.",
+      source: "jspc-2025",
+      quote: "Consider exercise therapy because of its potential to improve health-related quality of life in cancer survivors. [1B]",
+      grade: "1B",
+    },
+    {
+      action: "Consider non-opioid and adjuvant analgesics; JSPC weakly recommends NSAIDs or paracetamol, a gabapentinoid for neuropathic pain directly related to cancer, and duloxetine",
+      why: "ASCO says these may be prescribed to relieve chronic pain or improve function; its abstract names no drugs. The named drugs and their weak [2B] grades are JSPC's, which adds that NSAIDs and paracetamol have not been shown to work for neuropathic pain.",
       source: "asco-2016",
       quote: "Systemic nonopioid analgesics and adjuvant analgesics may be prescribed to relieve chronic pain and/or to improve function.",
     },
     {
-      action: "For joint pain from aromatase inhibitors, recommend acupuncture; acupuncture, reflexology or acupressure may also be offered for general cancer or musculoskeletal pain",
-      why: "Acupuncture reduced aromatase inhibitor joint pain in trials, which can help people keep taking their hormone treatment.",
+      action: "For joint pain from aromatase inhibitors, recommend acupuncture; acupuncture, reflexology or acupressure may be recommended for general cancer pain or musculoskeletal pain",
+      why: "SIO-ASCO bases these recommendations on an intermediate level of evidence, with benefit outweighing risk and a moderate strength of recommendation.",
       source: "sio-asco-2022",
       quote: "Among adult patients, acupuncture should be recommended for aromatase inhibitor-related joint pain. Acupuncture or reflexology or acupressure may be recommended for general cancer pain or musculoskeletal pain.",
     },
     {
-      action: "Consider a trial of opioids only for carefully selected survivors whose pain has not responded to other treatment and still causes distress or impaired function, after assessing the risks",
-      why: "Opioids can help some people, but long-term use brings risks of dependence, falls, hormone problems and overdose.",
+      action: "Consider a trial of opioids only for carefully selected survivors whose pain has not responded to more conservative management and still causes distress or impaired function, after assessing the risks",
+      why: "ASCO allows a trial, not routine use. JSPC lists constipation, confusion, hormone disturbances and sleep-related breathing problems among the reported effects of long-term opioid use, and describes a US study of older breast cancer survivors in which opioids raised the risks of drug abuse, falls and fractures.",
       source: "asco-2016",
       quote: "Clinicians may prescribe a trial of opioids in carefully selected patients with cancer who do not respond to more conservative management and who continue to experience distress or functional impairment. Risks of adverse effects of opioids should be assessed.",
     },
     {
-      action: "When opioids are used, apply universal precautions against misuse, and involve palliative care, pain or addiction specialists for anyone with a substance use disorder",
-      why: "Structured safeguards lower the chance of harm; people with addiction still deserve pain relief and need specialist planning.",
+      action: "When opioids are used, apply universal precautions to minimise abuse, addiction and adverse consequences",
+      why: "ASCO also asks clinicians to be clear about what tolerance, dependence, abuse and addiction each mean. JSPC says universal precautions matter as much for people with cancer as for people without.",
+      source: "asco-2016",
+      quote: "Clinicians should clearly understand terminology such as tolerance, dependence, abuse, and addiction as it relates to the use of opioids and should incorporate universal precautions to minimize abuse, addiction, and adverse consequences.",
+    },
+    {
+      action: "For a person with a substance use disorder, work with a palliative care, pain or substance use disorder specialist to decide the best approach to pain",
+      why: "This comes from ASCO's guideline on opioids for pain from cancer or cancer treatment, which asks for a shared plan for these patients; the abstract gives no further detail.",
       source: "opioids-2023",
       quote: "For patients with a substance use disorder, clinicians should collaborate with a palliative care, pain, and/or substance use disorder specialist to determine the optimal approach to pain management.",
     },
   ],
   bestInClass: {
-    statement: "No single recent graded guideline covers chronic pain in survivors. ASCO 2016 remains the US reference (screen every visit, rule out recurrence, non-opioid and adjuvant analgesics, opioids as a selective trial with precautions), mostly on expert consensus. SIO-ASCO 2022 adds the strongest integrative recommendation, acupuncture for aromatase inhibitor joint pain. The Japan Society of Pain Clinicians statement (2025) is the most recent and most explicit: it separates cancer pain from non-cancer pain in survivors, ranks psychosocial approaches and exercise first [1B], and caps opioid doses and duration as for non-cancer chronic pain. ASCO does not set a dose cap for survivors in the parts read; JSPC does. ESMO 2018 could not be read.",
+    statement: "No guideline that could be read in full here both covers chronic pain in survivors and comes from an international body. ASCO 2016 remains ASCO's guideline for survivors (screen at each encounter, evaluate new pain for recurrence, non-opioid and adjuvant analgesics, opioids as a trial in carefully selected patients with universal precautions); its abstract says many recommendations rest on expert consensus. SIO-ASCO 2022 adds the integrative recommendations, the firmest being acupuncture for aromatase inhibitor joint pain. The Japan Society of Pain Clinicians statement (2025) is the most recent and the only one read with a grade on each recommendation: it separates cancer pain from non-cancer pain in survivors, gives its only strong recommendations to psychosocial approaches and exercise therapy [1B], and for pain not caused by cancer applies Japan's dose and duration limits for opioids in chronic non-cancer pain. The ASCO abstracts read print no dose limit; JSPC does. ESMO 2018 could not be read.",
     sources: ["asco-2016", "sio-asco-2022", "jspc-2025", "opioids-2023", "esmo-2018"],
   },
   variants: [
     {
       name: "Japanese opioid limits for non-cancer pain in survivors",
-      differs: "Opioids only when non-opioid analgesics and nerve blocks fail, with a recommended maximum of 60 mg a day oral morphine equivalent, an upper limit of 90 mg, and reassessment with withdrawal or dose reduction considered after a target of 3 months and at most 6 months.",
-      evidence: "JSPC 2025 consensus, applying Japan's guideline for opioids in chronic non-cancer pain; tramadol is weakly recommended in carefully selected survivors [2B]. No comparable numerical limits appear in the ASCO abstracts read.",
+      differs: "For pain not caused by cancer, opioids only when non-opioid analgesics and nerve blocks are ineffective, with a recommended maximum of 60 mg a day oral morphine equivalent, a dose that should not exceed 90 mg a day, a target duration of 3 months that should not exceed 6 months, and then withdrawal or dose reduction and re-evaluation. For pain directly caused by cancer JSPC sets no such limit and points to the WHO analgesic guidelines.",
+      evidence: "JSPC 2025 summary statement (no grade printed for it), applying Japan's Guidelines for Prescribing Opioid Analgesics for Chronic Non-Cancer Pain. Tramadol is weakly recommended in carefully selected survivors who do not respond to treatment other than opioid analgesics and who have pain-related distress and functional impairment [2B]. No comparable numerical limits appear in the ASCO abstracts read.",
       sources: ["jspc-2025"],
     },
     {
       name: "Nerve blocks and intrathecal analgesia",
-      differs: "Interventional treatment for pain from cancer in internal organs (for example a coeliac plexus block) or intractable cancer pain.",
+      differs: "Interventional treatment: nerve blocks with neurolytic agents for cancer-related pain in internal organs (JSPC describes a study of coeliac plexus block), and intrathecal analgesia for intractable cancer pain.",
       evidence: "JSPC 2025: neurolytic nerve blocks may be considered because they can reduce opioid use [2C]; intrathecal analgesia may be considered for intractable cancer pain [2C].",
       sources: ["jspc-2025"],
     },
@@ -118,18 +146,20 @@ export const chronicPainInCancerSurvivors = protocol({
     { claim: "Opioids for moderate to severe pain from active cancer or its treatment", grade: "not given in the abstract", source: "opioids-2023", quote: "Opioids should be offered to patients with moderate-to-severe pain related to cancer or active cancer treatment unless contraindicated." },
   ],
   sources: [
-    { key: "asco-2016", label: "Management of Chronic Pain in Survivors of Adult Cancers: American Society of Clinical Oncology Clinical Practice Guideline", publisher: "ASCO, Journal of Clinical Oncology", year: 2016, url: "https://europepmc.org/abstract/MED/27458286", doi: "10.1200/JCO.2016.68.5206", read: "abstract", accessed: "2026-11-11" },
-    { key: "sio-asco-2022", label: "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology-ASCO Guideline", publisher: "SIO and ASCO, Journal of Clinical Oncology", year: 2022, url: "https://europepmc.org/abstract/MED/36122322", doi: "10.1200/JCO.22.01357", read: "abstract", accessed: "2026-11-11" },
-    { key: "opioids-2023", label: "Use of Opioids for Adults With Pain From Cancer or Cancer Treatment: ASCO Guideline", publisher: "ASCO, Journal of Clinical Oncology", year: 2023, url: "https://europepmc.org/abstract/MED/36469839", doi: "10.1200/JCO.22.02198", read: "abstract", accessed: "2026-11-11" },
-    { key: "jspc-2025", label: "Consensus statement on chronic pain treatment in cancer survivors", publisher: "Japan Society of Pain Clinicians, Journal of Anesthesia", year: 2025, url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11937162/", doi: "10.1007/s00540-024-03427-0", gradingScheme: "GRADE-based (Minds Manual 2020): certainty A (high) to D (very low) combined with strength 1 (strong) or 2 (weak), for example [2B].", read: "full-text", accessed: "2026-11-11" },
+    { key: "asco-2016", label: "Management of Chronic Pain in Survivors of Adult Cancers: American Society of Clinical Oncology Clinical Practice Guideline", publisher: "ASCO, Journal of Clinical Oncology", year: 2016, url: "https://europepmc.org/abstract/MED/27458286", doi: "10.1200/JCO.2016.68.5206", read: "abstract", accessed: "2026-11-17" },
+    { key: "sio-asco-2022", label: "Integrative Medicine for Pain Management in Oncology: Society for Integrative Oncology-ASCO Guideline", publisher: "SIO and ASCO, Journal of Clinical Oncology", year: 2022, url: "https://europepmc.org/abstract/MED/36122322", doi: "10.1200/JCO.22.01357", read: "abstract", accessed: "2026-11-17" },
+    { key: "opioids-2023", label: "Use of Opioids for Adults With Pain From Cancer or Cancer Treatment: ASCO Guideline", publisher: "ASCO, Journal of Clinical Oncology", year: 2023, url: "https://europepmc.org/abstract/MED/36469839", doi: "10.1200/JCO.22.02198", read: "abstract", accessed: "2026-11-17" },
+    { key: "jspc-2025", label: "Consensus statement on chronic pain treatment in cancer survivors", publisher: "Japan Society of Pain Clinicians, Journal of Anesthesia", year: 2025, url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11937162/", doi: "10.1007/s00540-024-03427-0", gradingScheme: "GRADE-based (Minds Manual for Guideline Development 2020 ver. 3.0): certainty of evidence A (high), B (moderate), C (low) or D (very low), combined with strength of recommendation 1 (strong) or 2 (weak), for example [2B]. Summary statements carry no grade.", read: "full-text", accessed: "2026-11-17" },
     { key: "esmo-2018", label: "Management of cancer pain in adult patients: ESMO Clinical Practice Guidelines", publisher: "ESMO, Annals of Oncology", year: 2018, url: "https://doi.org/10.1093/annonc/mdy152", doi: "10.1093/annonc/mdy152", read: "not-reachable", accessed: "2026-11-11" },
   ],
   gaps: [
-    "ASCO 2016, SIO-ASCO 2022 and ASCO 2023 were read only as abstracts; their individual evidence ratings, drug choices and doses are not given here.",
-    "The ESMO 2018 cancer pain guideline could not be read (no abstract in Europe PMC; the publisher refused a script).",
-    "The 2026 update of the Australian guideline for cancer pain in adults was found but its body text is not released by PubMed Central to a script; not read.",
-    "No source read sets an opioid dose limit for survivors outside Japan; whether US or European survivors should follow non-cancer chronic pain opioid guidance is not settled in the sources read.",
-    "The JSPC statement is a national consensus; its recommendations draw on studies mostly from other countries and on expert agreement.",
+    "ASCO 2016, SIO-ASCO 2022 and ASCO 2023 were read only as abstracts, again on 17 November 2026 (the publisher refuses a script and no open copy is listed); their individual evidence ratings, drug choices and doses are not given here, and the non-opioid drugs named on this page come from the Japanese statement.",
+    "On 17 November 2026 the ESMO 2018 cancer pain guideline still could not be read (no abstract in Europe PMC; the publisher answered 403). No step rests on it, and no newer ESMO cancer pain guideline was found in Europe PMC.",
+    "The update of the Australian guideline for cancer pain in adults (Asia-Pacific Journal of Clinical Oncology, PMC13569014) now reads as text from PubMed Central and is used on the strong opioids protocol. It names ASCO 2016 among its source guidelines; its recommendations were not checked for this page on 17 November 2026.",
+    "No source read sets an opioid dose limit for survivors outside Japan; whether US or European survivors should follow non-cancer chronic pain opioid guidance is not settled in the sources read. The 60 mg and 90 mg figures are Japan's rule for pain not caused by cancer and are not a general limit.",
+    "No source read says how common chronic pain is after cancer treatment or how long it lasts, so this page gives no figure for either.",
+    "No source read gives a list of pain symptoms a survivor should report urgently or a time limit for reporting them; ASCO's abstract says only that new-onset pain should be evaluated.",
+    "The JSPC statement is a national consensus (agreement of at least 80% of its working group); it says evidence in survivors is scarce and that it drew on studies in other adult populations as well.",
   ],
   institutions: ["asco", "esmo"],
   drugs: ["duloxetine"],

@@ -248,6 +248,22 @@ import { recordsAM } from "./country-records-am"; // wave 12
 import { recordsSO } from "./country-records-so"; // wave 12
 import { recordsJO } from "./country-records-jo"; // wave 12
 import { recordsSV } from "./country-records-sv"; // wave 12
+import { recordsJM } from "./country-records-jm"; // wave 16
+import { recordsTT } from "./country-records-tt"; // wave 16
+import { recordsBS } from "./country-records-bs"; // wave 16
+import { recordsBB } from "./country-records-bb"; // wave 16
+import { recordsBZ } from "./country-records-bz"; // wave 16
+import { recordsGY } from "./country-records-gy"; // wave 16
+import { recordsSR } from "./country-records-sr"; // wave 16
+import { recordsLC } from "./country-records-lc"; // wave 16
+import { recordsCW } from "./country-records-cw"; // wave 16
+import { recordsFJ } from "./country-records-fj"; // wave 16
+import { recordsWS } from "./country-records-ws"; // wave 16
+import { recordsSB } from "./country-records-sb"; // wave 16
+import { recordsVU } from "./country-records-vu"; // wave 16
+import { recordsGU } from "./country-records-gu"; // wave 16
+import { recordsPF } from "./country-records-pf"; // wave 16
+import { recordsNC } from "./country-records-nc"; // wave 16
 import { recordsPA } from "./country-records-pa"; // wave 12
 import { china } from "./china";
 import { approvedWave1 } from "./drugs-approved-wave1";
@@ -535,6 +551,7 @@ const RAW_INPUTS: EntityInput[] = [
   ...recordsTD, ...recordsLB, ...recordsBO, ...recordsZM, ...recordsPR, ...recordsUY, ...recordsLT, ...recordsNE, ...recordsCM, ...recordsGE,
   ...recordsAZ, ...recordsBA, ...recordsHT, ...recordsSN, ...recordsSI, ...recordsML, ...recordsPG, ...recordsBF, ...recordsCR, ...recordsPY,
   ...recordsRW, ...recordsGN, ...recordsMD, ...recordsLV, ...recordsHN, ...recordsAM, ...recordsSO, ...recordsJO, ...recordsSV, ...recordsPA, // wave 12
+  ...recordsJM, ...recordsTT, ...recordsBS, ...recordsBB, ...recordsBZ, ...recordsGY, ...recordsSR, ...recordsLC, ...recordsCW, ...recordsFJ, ...recordsWS, ...recordsSB, ...recordsVU, ...recordsGU, ...recordsPF, ...recordsNC, // wave 16
   ...china,
   ...approvedWave1,
   ...targetsWave1,

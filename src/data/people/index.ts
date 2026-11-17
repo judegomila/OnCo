@@ -111,6 +111,22 @@ import { peopleCR } from "./country-cr";
 import { peoplePY } from "./country-py";
 import { peopleRW } from "./country-rw"; // wave 12
 import { peopleGN } from "./country-gn"; // wave 12
+import { peopleJM } from "./country-jm"; // wave 16
+import { peopleTT } from "./country-tt"; // wave 16
+import { peopleBS } from "./country-bs"; // wave 16
+import { peopleBB } from "./country-bb"; // wave 16
+import { peopleBZ } from "./country-bz"; // wave 16
+import { peopleGY } from "./country-gy"; // wave 16
+import { peopleSR } from "./country-sr"; // wave 16
+import { peopleLC } from "./country-lc"; // wave 16
+import { peopleCW } from "./country-cw"; // wave 16
+import { peopleFJ } from "./country-fj"; // wave 16
+import { peopleWS } from "./country-ws"; // wave 16
+import { peopleSB } from "./country-sb"; // wave 16
+import { peopleVU } from "./country-vu"; // wave 16
+import { peopleGU } from "./country-gu"; // wave 16
+import { peoplePF } from "./country-pf"; // wave 16
+import { peopleNC } from "./country-nc"; // wave 16
 import { peopleMD } from "./country-md"; // wave 12
 import { peopleLV } from "./country-lv"; // wave 12
 import { peopleHN } from "./country-hn"; // wave 12
@@ -136,5 +152,6 @@ files.push(peopleTD, peopleLB, peopleBO, peopleZM, peoplePR, peopleUY, peopleLT,
 files.push(peopleAZ, peopleBA, peopleHT, peopleSN, peopleSI, peopleML, peoplePG, peopleBF, peopleCR, peoplePY);
 // Country deep dives, wave 12.
 files.push(peopleRW, peopleGN, peopleMD, peopleLV, peopleHN, peopleAM, peopleSO, peopleJO, peopleSV, peoplePA);
+files.push(peopleJM, peopleTT, peopleBS, peopleBB, peopleBZ, peopleGY, peopleSR, peopleLC, peopleCW, peopleFJ, peopleWS, peopleSB, peopleVU, peopleGU, peoplePF, peopleNC); // wave 16
 export const people: PersonInput[] = files.flat();
 people.push(...peopleAF, ...peopleBG, ...peopleNO, ...peopleFI, ...peopleKP, ...peopleKH, ...peopleIE, ...peopleZW, ...peopleAO, ...peopleTN);

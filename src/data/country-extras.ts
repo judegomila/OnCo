@@ -65,6 +65,8 @@ const GCO_SLUG: Record<number, string> = {
   31: "azerbaijan", 70: "bosnia-herzegovina", 188: "costa-rica", 332: "haiti", 466: "mali", 598: "papua-new-guinea", 600: "paraguay", 686: "senegal", 705: "slovenia", 854: "burkina-faso",
   // Wave 12 (11 November 2026): each answered with the GLOBOCAN 2024 PDF that day; Moldova is "republic-of-moldova" (the bare slug serves 2022).
   51: "armenia", 222: "el-salvador", 324: "guinea", 340: "honduras", 400: "jordan", 428: "latvia", 498: "republic-of-moldova", 591: "panama", 646: "rwanda", 706: "somalia",
+  // Wave 16 (16 November 2026): each answered with the GLOBOCAN 2024 PDF that day.
+  388: "jamaica", 780: "trinidad-and-tobago", 44: "bahamas", 52: "barbados", 84: "belize", 328: "guyana", 740: "suriname", 662: "saint-lucia", 531: "curacao", 242: "fiji", 882: "samoa", 90: "solomon-islands", 548: "vanuatu", 316: "guam", 258: "french-polynesia", 540: "new-caledonia",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -217,4 +219,22 @@ export const countryExtras: Record<string, CountryExtra> = {
   JO: { name: "Jordan", population: 12, incidence: 112, mortality: 56, gcoUrl: gco(400) },
   SV: { name: "El Salvador", population: 6, incidence: 130, mortality: 75, gcoUrl: gco(222) },
   PA: { name: "Panama", population: 5, incidence: 158, mortality: 66, gcoUrl: gco(591) },
+  // Wave 16 (16 November 2026): rates from public/globocan/countries.json code 39, population in millions from the World
+  // Bank 2024 series (SP.POP.TOTL, read from api.worldbank.org that day), to two decimals because these are small places.
+  JM: { name: "Jamaica", population: 2.84, incidence: 222, mortality: 131, gcoUrl: gco(388) },
+  TT: { name: "Trinidad and Tobago", population: 1.37, incidence: 171, mortality: 95, gcoUrl: gco(780) },
+  BS: { name: "Bahamas", population: 0.4, incidence: 173, mortality: 81, gcoUrl: gco(44) },
+  BB: { name: "Barbados", population: 0.28, incidence: 200, mortality: 104, gcoUrl: gco(52) },
+  BZ: { name: "Belize", population: 0.42, incidence: 119, mortality: 60, gcoUrl: gco(84) },
+  GY: { name: "Guyana", population: 0.83, incidence: 164, mortality: 84, gcoUrl: gco(328) },
+  SR: { name: "Suriname", population: 0.63, incidence: 167, mortality: 86, gcoUrl: gco(740) },
+  LC: { name: "Saint Lucia", population: 0.18, incidence: 185, mortality: 90, gcoUrl: gco(662) },
+  CW: { name: "Curaçao", population: 0.16, incidence: 187, mortality: 102, gcoUrl: gco(531) },
+  FJ: { name: "Fiji", population: 0.93, incidence: 183, mortality: 92, gcoUrl: gco(242) },
+  WS: { name: "Samoa", population: 0.22, incidence: 169, mortality: 74, gcoUrl: gco(882) },
+  SB: { name: "Solomon Islands", population: 0.82, incidence: 154, mortality: 80, gcoUrl: gco(90) },
+  VU: { name: "Vanuatu", population: 0.33, incidence: 132, mortality: 65, gcoUrl: gco(548) },
+  GU: { name: "Guam", population: 0.17, incidence: 176, mortality: 85, gcoUrl: gco(316) },
+  PF: { name: "French Polynesia", population: 0.28, incidence: 236, mortality: 96, gcoUrl: gco(258) },
+  NC: { name: "New Caledonia", population: 0.29, incidence: 268, mortality: 102, gcoUrl: gco(540) },
 };

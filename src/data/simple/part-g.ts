@@ -203,7 +203,7 @@ export const simpleG: Record<string, string> = {
   entrectinib: "Entrectinib is a pill for NTRK-fusion cancers of any organ and for ROS1 lung cancer, designed to reach brain metastases.",
   temsirolimus: "Temsirolimus is an infusion that was the first drug to lengthen life in poor-risk kidney cancer in 2007, and in 2024 the first targeted drug to help childhood rhabdomyosarcoma.",
   pexidartinib: "Pexidartinib is the first drug for tenosynovial giant cell tumour, a benign but destructive joint tumour; it works, but liver toxicity requires a restricted programme.",
-  "sipuleucel-t": "Sipuleucel-T was the first therapeutic cancer vaccine approved, in 2010; it lengthened survival in spread prostate cancer by about four months without shrinking tumours.",
+  "sipuleucel-t": "Sipuleucel-T was the first therapeutic cancer vaccine approved in the United States, in 2010; it lengthened survival in spread prostate cancer by about four months without shrinking tumours.",
   aldesleukin: "High-dose interleukin-2 was the first immunotherapy to cure a small fraction of patients with spread melanoma and kidney cancer, at the cost of intensive-care-level toxicity.",
   leuprolide: "Leuprolide is the injection that shuts off testosterone production, the foundation of hormone therapy for prostate cancer since the 1980s, also used for ovarian suppression in breast cancer.",
   degarelix: "Degarelix is an injectable hormone blocker for prostate cancer that lowers testosterone within days without the initial surge caused by the older agonist drugs.",

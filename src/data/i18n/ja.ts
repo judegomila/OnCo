@@ -6400,7 +6400,7 @@ export const tldr_ja: Record<string, string> = {
   "silvana-konermann": "神経科学者で共同創設者でもあり、複雑な疾患に取り組むためにサンフランシスコ・ベイエリアに設立された独立研究機関Arc Instituteを運営している。",
   "silvia-stacchiotti": "イタリアの腫瘍医で、超希少な肉腫を対象とした組織型別の臨床試験を主導し、Connective Tissue Oncology Societyも率いている。",
   "simona-sancini": "ロッツァーノ（ミラノ）にあるIRCCS Humanitas Research Hospitalの医療ディレクターで、病院全体とそのがんセンターの臨床ガバナンスを担っている。",
-  "sipuleucel-t": "sipuleucel-Tは初めて承認された治療用がんワクチンである（2010年）。転移性前立腺がんにおいて生存期間を約4か月延長したが、腫瘍を縮小させることもPSAを低下させることもなかった。",
+  "sipuleucel-t": "sipuleucel-Tは米国食品医薬品局（FDA）が初めて承認した治療用がんワクチンである（2010年）。転移性前立腺がんにおいて生存期間を約4か月延長したが、腫瘍を縮小させることもPSAを低下させることもなかった。",
   sobi: "Sobiはスウェーデンの希少疾患企業で、血液学・腫瘍学の支持療法製品には重度の口腔粘膜炎に対するpalifermin（Kepivance）、avatrombopag（Doptelet）、emapalumab（Gamifant）がある。",
   "sofinnova-partners": "パリを拠点とする、欧州で最も古いライフサイエンス分野のベンチャーキャピタルの一つである。Innate Pharma、Crescendo Biologics、Hookipaなどのがん関連企業を支援してきており、投資先のMyricxはNovartisに買収された。",
   "sonja-optendrenk": "ドイツの連邦合同委員会（G-BA）の中立的な議長で、同委員会は公的医療保険がどの治療を給付対象とするかを決定する機関である。",

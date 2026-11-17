@@ -6412,7 +6412,7 @@ export const tldr_pt: Record<string, string> = {
   "silvana-konermann": "Neurocientista e cofundadora que dirige o Arc Institute, um instituto de pesquisa independente na região da Baía de São Francisco criado para enfrentar doenças complexas.",
   "silvia-stacchiotti": "Oncologista italiana que lidera ensaios específicos por histologia em sarcomas ultrarraros e a Connective Tissue Oncology Society.",
   "simona-sancini": "Diretora médica do IRCCS Humanitas Research Hospital em Rozzano (Milão), responsável pela governança clínica em todo o hospital e em seu centro de câncer.",
-  "sipuleucel-t": "O sipuleucel-T foi a primeira vacina terapêutica contra o câncer aprovada (2010): prolongou a sobrevida no câncer de próstata metastático em cerca de quatro meses sem reduzir os tumores nem baixar o PSA.",
+  "sipuleucel-t": "O sipuleucel-T foi a primeira vacina terapêutica contra o câncer aprovada pela FDA dos Estados Unidos (2010): prolongou a sobrevida no câncer de próstata metastático em cerca de quatro meses sem reduzir os tumores nem baixar o PSA.",
   sobi: "A Sobi é uma empresa sueca de doenças raras cujos produtos de suporte em hematologia e oncologia incluem a palifermina (Kepivance) para mucosite oral grave, o avatrombopague (Doptelet) e o emapalumabe (Gamifant).",
   "sofinnova-partners": "Uma das mais antigas firmas de venture capital em ciências da vida da Europa, sediada em Paris. Apoiou empresas de câncer como Innate Pharma, Crescendo Biologics e Hookipa, e sua empresa de portfólio Myricx foi comprada pela Novartis.",
   "sonja-optendrenk": "Presidente imparcial do Comitê Federal Conjunto da Alemanha (G-BA), o órgão que decide quais tratamentos o seguro de saúde obrigatório cobre.",

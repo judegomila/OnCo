@@ -248,7 +248,7 @@ export const GB_MEDICINES: CountryCard[] = [
       { label: "NICE: managed access", url: "https://www.nice.org.uk/what-nice-does/patient-access-schemes-and-pricing-agreements/managed-access" },
       { label: "NICE: technology appraisal cancer recommendations (spreadsheet, including Cancer Drugs Fund recommendations)", url: "https://a.storyblok.com/f/243782/x/f843225872/ta-cancer-recommendations.xlsx" },
       { label: "NHS England: the Innovative Medicines Fund principles (non-cancer medicines)", url: "https://www.england.nhs.uk/wp-content/uploads/2022/06/B1686-the-innovate-medicines-fund-principles-june-2022.pdf" },
-      { label: "National Cancer Drugs Fund list, version 1.408 (24 September 2026)", url: "https://www.england.nhs.uk/wp-content/uploads/2017/04/national-cancer-drugs-fund-list-v1.408.pdf" },
+      { label: "National Cancer Drugs Fund list, version 1.410 (12 November 2026)", url: "https://www.england.nhs.uk/wp-content/uploads/2017/04/national-cdf-list-v1.41.pdf" },
     ],
   },
   {

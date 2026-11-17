@@ -6411,7 +6411,7 @@ export const tldr_zh: Record<string, string> = {
   "silvana-konermann": "神经科学家兼联合创始人，主持Arc Institute，这是一家位于旧金山湾区、旨在攻克复杂疾病的独立研究机构。",
   "silvia-stacchiotti": "意大利肿瘤学家，领导针对超罕见肉瘤的组织学特异性试验，并领导Connective Tissue Oncology Society。",
   "simona-sancini": "位于罗扎诺（米兰）的IRCCS Humanitas Research Hospital的医务主任，负责整个医院及其癌症中心的临床治理。",
-  "sipuleucel-t": "sipuleucel-T是第一个获批的治疗性癌症疫苗（2010年）：它使转移性前列腺癌患者的生存期延长了约四个月，但没有缩小肿瘤或降低PSA。",
+  "sipuleucel-t": "sipuleucel-T是第一个获美国食品药品监督管理局（FDA）批准的治疗性癌症疫苗（2010年）：它使转移性前列腺癌患者的生存期延长了约四个月，但没有缩小肿瘤或降低PSA。",
   sobi: "Sobi是一家瑞典罕见病公司，其血液学和肿瘤学支持治疗产品包括用于重度口腔黏膜炎的palifermin（Kepivance）、avatrombopag（Doptelet）和emapalumab（Gamifant）。",
   "sofinnova-partners": "欧洲最老牌的生命科学风险投资公司之一，总部位于巴黎。它投资过Innate Pharma、Crescendo Biologics和Hookipa等癌症公司，其投资组合公司Myricx已被Novartis收购。",
   "sonja-optendrenk": "德国联邦联合委员会（G-BA）的中立主席，该机构决定法定医疗保险覆盖哪些治疗。",

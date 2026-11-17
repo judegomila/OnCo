@@ -601,7 +601,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   },
   alphabreak: { enrolled: 600, outcomes: [], replication: "Ongoing phase 3 of 225Ac-PSMA-I&T after 177Lu-PSMA; no results." },
   xalute: { enrolled: 707, outcomes: [], replication: "Ongoing phase 3 of xaluritamig vs cabazitaxel/ARPI; no results." },
-  "mevpro-1": { enrolled: 600, outcomes: [], replication: "Ongoing phase 3 of mevrometostat + enzalutamide; no results." },
+  "mevpro-1": { enrolled: 609, outcomes: [], replication: "Ongoing phase 3 of mevrometostat + enzalutamide; no results." },
   // Pancreatic
   "rasolute-302": {
     enrolled: 500,

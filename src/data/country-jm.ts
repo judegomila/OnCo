@@ -59,7 +59,7 @@ export const JM_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Jamaica",
   description:
-    "Cancer in Jamaica from its own and international sources: IARC's estimate of 7,552 new cancers and 4,408 deaths in 2024, modelled from deaths because IARC lists no national incidence data, a registry at the University of the West Indies that has counted cancer in Kingston and St Andrew for decades, the National Health Fund card that subsidises medicines for seven cancers, four radiotherapy centres in IAEA's directory, and HPV vaccination since 2017.",
+    "Cancer in Jamaica from its own and international sources: IARC's estimate of 7,552 new cancers and 4,408 deaths in 2024, modelled from deaths, with no national incidence data listed by IARC, a registry at the University of the West Indies that has counted cancer in Kingston and St Andrew for decades, the National Health Fund card that subsidises medicines for seven cancers, four radiotherapy centres in IAEA's directory, and HPV vaccination since 2017.",
   lede:
     "Jamaica's cancer registry, at the University of the West Indies, has published incidence for decades, but it covers Kingston and St Andrew, about a quarter of the population, so the national figures are a model: IARC estimates 7,552 new cancers and 4,408 deaths in 2024, with prostate and breast cancer the commonest. The National Health Fund's card subsidises medicines for seven cancers, and IAEA's directory lists four radiotherapy centres, three of them in Kingston.",
   globocanNote:

@@ -44,7 +44,7 @@ export const SR_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Suriname",
   description:
-    "Cancer in Suriname from its own and WHO sources: IARC's estimate of 1,223 new cancers and 638 deaths in 2024, modelled because there is no cancer registry, one pathology laboratory whose records stand in for one, a national cancer control plan for 2019 to 2028, compulsory basic health insurance since 2014, one radiotherapy centre in Paramaribo since 2012, referral to Colombia for what is not available, and HPV vaccination coverage of 21% of girls in 2025.",
+    "Cancer in Suriname from its own and WHO sources: IARC's estimate of 1,223 new cancers and 638 deaths in 2024, modelled from deaths, no cancer registry by the account of the national cancer plan, one pathology laboratory whose records stand in for one, a national cancer control plan for 2019 to 2028, compulsory basic health insurance since 2014, one radiotherapy centre in Paramaribo since 2012, referral to Colombia for what is not available, and HPV vaccination coverage of 21% of girls in 2025.",
   lede:
     "Suriname has a ten-year cancer plan, compulsory basic health insurance and, since 2012, its own radiotherapy centre in Paramaribo, but no cancer registry. IARC models 1,223 new cancers and 638 deaths for 2024, with prostate, breast and colorectal cancer the commonest and lung cancer causing the most deaths. What is known from inside the country comes from the one pathology laboratory, at the Academic Hospital Paramaribo.",
   globocanNote:

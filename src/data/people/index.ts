@@ -119,6 +119,22 @@ import { peopleSO } from "./country-so"; // wave 12
 import { peopleJO } from "./country-jo"; // wave 12
 import { peopleSV } from "./country-sv"; // wave 12
 import { peoplePA } from "./country-pa"; // wave 12
+import { peopleSL } from "./country-sl"; // wave 14
+import { peopleLR } from "./country-lr"; // wave 14
+import { peopleTG } from "./country-tg"; // wave 14
+import { peopleBJ } from "./country-bj"; // wave 14
+import { peopleGM } from "./country-gm"; // wave 14
+import { peopleGW } from "./country-gw"; // wave 14
+import { peopleMR } from "./country-mr"; // wave 14
+import { peopleCV } from "./country-cv"; // wave 14
+import { peopleST } from "./country-st"; // wave 14
+import { peopleGA } from "./country-ga"; // wave 14
+import { peopleCG } from "./country-cg"; // wave 14
+import { peopleCF } from "./country-cf"; // wave 14
+import { peopleGQ } from "./country-gq"; // wave 14
+import { peopleBI } from "./country-bi"; // wave 14
+import { peopleSS } from "./country-ss"; // wave 14
+import { peopleER } from "./country-er"; // wave 14
 
 /** People (clinicians, scientists, leaders, and the heroes of /heroes/) grouped by file. Register each file here. */
 const files: PersonInput[][] = [peopleEurope, peopleAsiaPacific, peopleUsEast, peopleUsWest, heroes, heroesDonors, peopleLeadersWave2, peopleLeadersWave3, peopleLeadersWave4, peopleIndia, peopleIsrael, peopleChina, peopleKeyOpinionLeaders, peopleVirotherapy, peopleAU, peopleES, peopleBR, peopleSE, peopleCH, peopleID, peoplePK, peopleTR, peopleBD, peopleIR, peopleMX, peopleEG, peoplePL, peopleNG, peopleTH, peopleVN, peoplePH, peopleET, peopleZA, peopleCO, peopleAR, peopleUA, peopleRO, peopleMY, peopleDZ, peopleTW];
@@ -136,5 +152,7 @@ files.push(peopleTD, peopleLB, peopleBO, peopleZM, peoplePR, peopleUY, peopleLT,
 files.push(peopleAZ, peopleBA, peopleHT, peopleSN, peopleSI, peopleML, peoplePG, peopleBF, peopleCR, peoplePY);
 // Country deep dives, wave 12.
 files.push(peopleRW, peopleGN, peopleMD, peopleLV, peopleHN, peopleAM, peopleSO, peopleJO, peopleSV, peoplePA);
+// Country deep dives, wave 14.
+files.push(peopleSL, peopleLR, peopleTG, peopleBJ, peopleGM, peopleGW, peopleMR, peopleCV, peopleST, peopleGA, peopleCG, peopleCF, peopleGQ, peopleBI, peopleSS, peopleER);
 export const people: PersonInput[] = files.flat();
 people.push(...peopleAF, ...peopleBG, ...peopleNO, ...peopleFI, ...peopleKP, ...peopleKH, ...peopleIE, ...peopleZW, ...peopleAO, ...peopleTN);

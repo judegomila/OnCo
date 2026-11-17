@@ -64,7 +64,10 @@ const GCO_SLUG: Record<number, string> = {
   // Wave 11 (11 November 2026); each answered with the GLOBOCAN 2024 PDF that day.
   31: "azerbaijan", 70: "bosnia-herzegovina", 188: "costa-rica", 332: "haiti", 466: "mali", 598: "papua-new-guinea", 600: "paraguay", 686: "senegal", 705: "slovenia", 854: "burkina-faso",
   // Wave 12 (11 November 2026): each answered with the GLOBOCAN 2024 PDF that day; Moldova is "republic-of-moldova" (the bare slug serves 2022).
-  51: "armenia", 222: "el-salvador", 324: "guinea", 340: "honduras", 400: "jordan", 428: "latvia", 498: "republic-of-moldova", 591: "panama", 646: "rwanda", 706: "somalia",
+  51: "armenia", 222: "el-salvador", 324: "guinea", 340: "honduras", 400: "jordan", 428: "latvia", 498: "republic-of-moldova", 591: "panama", 646: "rwanda", 706: "somalia",  // Wave 14 (16 November 2026): each answered with the GLOBOCAN 2024 PDF that day. Three bare slugs do not: "270-the-gambia" serves the
+  // 2022 sheet, and "132-cabo-verde" and "178-congo" answer 403.
+  694: "sierra-leone", 430: "liberia", 768: "togo", 204: "benin", 270: "the-republic-of-the-gambia", 624: "guinea-bissau", 478: "mauritania", 132: "cape-verde",
+  678: "sao-tome-and-principe", 266: "gabon", 178: "congo-republic-of", 140: "central-african-republic", 226: "equatorial-guinea", 108: "burundi", 728: "south-sudan", 232: "eritrea",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -216,5 +219,23 @@ export const countryExtras: Record<string, CountryExtra> = {
   SO: { name: "Somalia", population: 19, incidence: 104, mortality: 69, gcoUrl: gco(706) },
   JO: { name: "Jordan", population: 12, incidence: 112, mortality: 56, gcoUrl: gco(400) },
   SV: { name: "El Salvador", population: 6, incidence: 130, mortality: 75, gcoUrl: gco(222) },
-  PA: { name: "Panama", population: 5, incidence: 158, mortality: 66, gcoUrl: gco(591) },
+  PA: { name: "Panama", population: 5, incidence: 158, mortality: 66, gcoUrl: gco(591) },  // Wave 14 (16 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day) to one decimal, as most of these countries are small. No funder is given;
+  // each country page names who pays.
+  SL: { name: "Sierra Leone", population: 8.6, incidence: 118, mortality: 79, gcoUrl: gco(694) },
+  LR: { name: "Liberia", population: 5.6, incidence: 120, mortality: 82, gcoUrl: gco(430) },
+  TG: { name: "Togo", population: 8.4, incidence: 118, mortality: 77, gcoUrl: gco(768) },
+  BJ: { name: "Benin", population: 14.5, incidence: 113, mortality: 74, gcoUrl: gco(204) },
+  GM: { name: "The Gambia", population: 2.8, incidence: 118, mortality: 88, gcoUrl: gco(270) },
+  GW: { name: "Guinea-Bissau", population: 2.2, incidence: 117, mortality: 83, gcoUrl: gco(624) },
+  MR: { name: "Mauritania", population: 5.2, incidence: 119, mortality: 79, gcoUrl: gco(478) },
+  CV: { name: "Cabo Verde", population: 0.5, incidence: 86, mortality: 61, gcoUrl: gco(132) },
+  ST: { name: "São Tomé and Príncipe", population: 0.2, incidence: 55, mortality: 36, gcoUrl: gco(678) },
+  GA: { name: "Gabon", population: 2.5, incidence: 84, mortality: 55, gcoUrl: gco(266) },
+  CG: { name: "Republic of the Congo", population: 6.3, incidence: 94, mortality: 61, gcoUrl: gco(178) },
+  CF: { name: "Central African Republic", population: 5.3, incidence: 113, mortality: 77, gcoUrl: gco(140) },
+  GQ: { name: "Equatorial Guinea", population: 1.9, incidence: 85, mortality: 57, gcoUrl: gco(226) },
+  BI: { name: "Burundi", population: 14, incidence: 113, mortality: 76, gcoUrl: gco(108) },
+  SS: { name: "South Sudan", population: 11.9, incidence: 108, mortality: 73, gcoUrl: gco(728) },
+  ER: { name: "Eritrea", population: 3.5, incidence: 111, mortality: 73, gcoUrl: gco(232) },
 };

@@ -291,7 +291,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     tldr: "A private hospital in Bujumbura whose cancer unit, opened in 2020, gives chemotherapy to adults and children. It has no radiotherapy, so patients who can afford it go to Rwanda or Kenya.",
     summary: "The Centre Médico-Chirurgical de Kinindo is a private hospital in the south of Bujumbura. Its cancer unit began work in June 2020 under the oncologist Dr Alexis Manirakiza; when the health minister and the WHO representative visited in April 2021 it had received 379 patients with 26 types of cancer, 137 still in treatment. WHO Africa reported in February 2023 that its oncology service had received 1,427 patients, 467 of them diagnosed with cancer (75 children); breast cancer was the commonest in adults (159 cases), and 62 per cent of those women arrived at stage 4. It offers chemotherapy with curative or palliative intent but no radiotherapy, and patients who can pay are referred to Rwanda or Kenya; a doctor there described it to WHO as the country's reference centre for cancer care while the government's planned cancer treatment centre is awaited. WHO's country office gave it a laminar flow hood in 2022. The coordinates are the OpenStreetMap point for the hospital.",
     programs: ["Cancer unit (from June 2020): chemotherapy for adults and children"],
-    institutions: ["abspa-burundi", "kenyera-burundi", "who"], cancers: ["breast-cancer"],
+    institutions: ["abspa-burundi", "kenyera-burundi", "who", "chu-kamenge"], cancers: ["breast-cancer"],
     links: [
       { label: "WHO Africa: minister and WHO representative visit the CMCK cancer unit (April 2021)", url: WHO_BI_2021 },
       { label: "WHO Africa: Pour combattre le cancer, il faut le dépister tôt (February 2023)", url: WHO_BI_2023 },
@@ -419,7 +419,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     tldr: "Eritrea's health ministry. It began a nationwide vaccination programme against cervical cancer for girls aged 9 to 14 in November 2022 and runs cervical cancer awareness campaigns in schools.",
     summary: "Eritrea's Ministry of Information reported that the Ministry of Health began a nationwide cervical cancer vaccination programme on 21 November 2022, at 1,382 schools, more than 300 health facilities, 250 temporary centres and 60 mobile facilities, expecting to vaccinate 300,000 girls aged 9 to 14. In February 2024 the Ministry, with the Ministry of Education, held a cervical cancer lecture for secondary school students at Orotta Referral Hospital. The Ministry's website (moh.gov.er) did not answer in November 2026. The coordinates are an approximate city point for Asmara.",
     programs: ["National HPV vaccination programme (from November 2022)", "Cervical cancer awareness in schools"],
-    institutions: ["orotta-referral-hospital"], cancers: ["cervical"],
+    institutions: ["orotta-referral-hospital", "eritrea-national-health-laboratory", "eritrea-nmfa"], cancers: ["cervical"],
     links: [
       { label: "Shabait: cervical cancer vaccination program underway nationwide (November 2022)", url: SHABAIT_HPV },
       { label: "Shabait: raising awareness and promoting prevention to reduce the cancer burden (February 2024)", url: SHABAIT_OROTTA },
@@ -430,7 +430,7 @@ export const institutionsCountriesEastSouthernAfrica: InstitutionInput[] = [
     tldr: "Eritrea's national referral hospital in Asmara. Its children's hospital opened a cancer unit for children in February 2025, with training from a German team.",
     summary: "Orotta Referral Hospital in Asmara is described by Eritrea's Ministry of Information as the country's largest medical facility. A paediatric oncology unit opened in a renovated section of its children's hospital on 13 February 2025, led by Prof. Uta Dirksen of University Hospital Essen with the German charity Archemed and support from the RTL Foundation; Archemed estimates that about 500 children are diagnosed with cancer in Eritrea each year, and says the German team trains doctors and nurses there. The coordinates are an approximate city point for Asmara.",
     programs: ["Paediatric oncology unit (from February 2025)"],
-    institutions: ["eritrea-ministry-of-health", "essen-wtz"],
+    institutions: ["eritrea-ministry-of-health", "essen-wtz", "eritrea-national-health-laboratory"],
     links: [
       { label: "Archemed: children with cancer are given a chance at life (March 2025)", url: ARCHEMED },
       { label: "Shabait: raising awareness and promoting prevention to reduce the cancer burden (February 2024)", url: SHABAIT_OROTTA },

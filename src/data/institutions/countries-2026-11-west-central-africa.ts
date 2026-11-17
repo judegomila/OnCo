@@ -192,12 +192,12 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
   // ───────────────────────── Benin ─────────────────────────
   i({ id: "benin-ministry-of-health", name: "Ministère de la Santé, Bénin", aka: ["Ministry of Health, Benin"],
     city: "Cotonou", country: "BJ", lat: 6.368, lng: 2.425, institutionType: "government", website: "https://sante.gouv.bj/",
-    tldr: "Benin's health ministry. Its cancer plan for 2024 to 2028 notes that radiotherapy was not yet available in the country, and in December 2025 it added the vaccine against cervical cancer to routine vaccination for girls aged 9 to 14.",
-    summary: "The ministry's Plan national de lutte contre les cancers au Bénin 2024 to 2028 (January 2024) says it set up a population-based cancer registry in Cotonou in 2014 under the national non-communicable disease programme, with a second in Parakou in 2017. It describes chemotherapy organised within each speciality in the absence of medical oncologists, blood cancers treated mainly at CNHU-HKM and CHUD Ouémé-Plateau, childhood cancers at those two hospitals, a gynaecological oncology unit at CHU-MEL, and no radiotherapy yet, with a cancer centre including radiotherapy and nuclear medicine under construction at Abomey-Calavi. On 2 December 2025 the minister launched a national HPV vaccination campaign for girls aged 9 to 14, integrating the vaccine into the expanded programme on immunisation. The coordinates are an approximate Cotonou city point.",
+    tldr: "Benin's health ministry. Its cancer plan for 2024 to 2028, written in January 2024, notes that radiotherapy was not yet available in the country, and in December 2025 it added the vaccine against cervical cancer to routine vaccination for girls aged 9 to 14.",
+    summary: "The ministry's Plan national de lutte contre les cancers au Bénin 2024 to 2028 (January 2024) says it set up a population-based cancer registry in Cotonou in 2014 under the national non-communicable disease programme, with a second in Parakou in 2017. It describes chemotherapy organised within each speciality in the absence of medical oncologists, blood cancers treated mainly at CNHU-HKM and CHUD Ouémé-Plateau, childhood cancers at those two hospitals, a gynaecological oncology unit at CHU-MEL, and no radiotherapy yet, with a cancer centre including radiotherapy and nuclear medicine under construction at Abomey-Calavi. On 2 December 2025 the minister launched a national HPV vaccination campaign for girls aged 9 to 14, integrating the vaccine into the expanded programme on immunisation. The Government of Benin reported on 25 April 2026 that radiotherapy opened at the Centre Hospitalier International de Calavi on 1 April 2026; IAEA's DIRAC listed no centre in Benin on 16 November 2026. The coordinates are an approximate Cotonou city point.",
     programs: ["Plan national de lutte contre les cancers 2024 to 2028", "HPV vaccination for girls aged 9 to 14 (from December 2025)", "Population-based cancer registries in Cotonou and Parakou"],
-    institutions: ["abmed-benin", "cotonou-cancer-registry", "parakou-cancer-registry", "cnhu-hkm-cotonou", "chud-oueme-plateau"],
+    institutions: ["abmed-benin", "cotonou-cancer-registry", "parakou-cancer-registry", "cnhu-hkm-cotonou", "chud-oueme-plateau", "chic-abomey-calavi"],
     cancers: ["cervical", "breast-cancer", "prostate"],
-    links: [BJ_PLAN, { label: "Ministère de la Santé, Bénin: national HPV vaccination campaign (December 2025)", url: "https://sante.gouv.bj/article/actualites/prevention-du-cancer-du-col-de-luterus-le-benin-lance-la-campagne-nationale-contre-le-hpv-827" }] }),
+    links: [BJ_PLAN, { label: "Ministère de la Santé, Bénin: national HPV vaccination campaign (December 2025)", url: "https://sante.gouv.bj/article/actualites/prevention-du-cancer-du-col-de-luterus-le-benin-lance-la-campagne-nationale-contre-le-hpv-827" }, { label: "Gouvernement du Bénin: radiotherapy opens at the Centre Hospitalier International de Calavi (25 April 2026)", url: "https://www.gouv.bj/article/3490/renforcement-offre-soins-chic-radiotherapie-chirurgie-coelioscopique-hospitalisations-conventionnelles-desormais-effectives-benin/" }] }),
 
   i({ id: "abmed-benin", name: "Agence Béninoise du Médicament et des autres produits de Santé (ABMed)", aka: ["ABMed", "Benin Medicines Agency"],
     city: "Cotonou", country: "BJ", lat: 6.368, lng: 2.425, institutionType: "government", website: "https://abmed.bj/",
@@ -214,6 +214,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     programs: ["Population-based cancer registration for Cotonou (from 2014)", "African Cancer Registry Network member registry"],
     institutions: ["benin-ministry-of-health", "cnhu-hkm-cotonou", "parakou-cancer-registry", "iarc"],
     cancers: ["prostate", "breast-cancer", "cervical"],
+    keyPapers: ["paper-egue-cotonou-cancer-incidence-canep-2019", "paper-gnangnon-breast-cancer-cotonou-registry-aso-2026"],
     links: [{ label: "African Cancer Registry Network: Cotonou Cancer Registry", url: AFCRN_COTONOU }, BJ_PLAN] }),
 
   i({ id: "parakou-cancer-registry", name: "Registre des Cancers de Parakou", aka: ["Parakou Cancer Registry", "RCP"],
@@ -227,10 +228,10 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
   i({ id: "cnhu-hkm-cotonou", name: "Centre National Hospitalier Universitaire Hubert Koutoukou Maga (CNHU-HKM)", aka: ["CNHU-HKM", "CNHU Cotonou", "Hubert Koutoukou Maga National University Hospital"],
     city: "Cotonou", country: "BJ", lat: 6.354, lng: 2.41, institutionType: "hospital",
     tldr: "Benin's national teaching hospital in Cotonou. It treats blood cancers and childhood cancers and gives chemotherapy, and it is the main source of cases for the Cotonou cancer registry.",
-    summary: "The national cancer plan of January 2024 says blood cancers in Benin are treated mainly at the university clinic for blood diseases of CNHU-HKM and at CHUD Ouémé-Plateau, that childhood cancers are managed at those same two hospitals, and that an onco-haematology unit and a chemotherapy unit were set up at the CNHU. The African Cancer Registry Network calls the national teaching hospital the most important source of information for the Cotonou cancer registry. The plan notes there was no radiotherapy in the country. OnCo could not reach the hospital's website.",
+    summary: "The national cancer plan of January 2024 says blood cancers in Benin are treated mainly at the university clinic for blood diseases of CNHU-HKM and at CHUD Ouémé-Plateau, that childhood cancers are managed at those same two hospitals, and that an onco-haematology unit and a chemotherapy unit were set up at the CNHU. The African Cancer Registry Network calls the national teaching hospital the most important source of information for the Cotonou cancer registry. The plan notes there was no radiotherapy in the country. The Government of Benin reported on 25 April 2026 that radiotherapy opened at the Centre Hospitalier International de Calavi on 1 April 2026; IAEA's DIRAC listed no centre in Benin on 16 November 2026. OnCo could not reach the hospital's website.",
     programs: ["University clinic for blood diseases (onco-haematology)", "Chemotherapy unit", "Childhood cancer care"],
     institutions: ["benin-ministry-of-health", "cotonou-cancer-registry"],
-    links: [BJ_PLAN, { label: "African Cancer Registry Network: Cotonou Cancer Registry", url: AFCRN_COTONOU }] }),
+    links: [BJ_PLAN, { label: "African Cancer Registry Network: Cotonou Cancer Registry", url: AFCRN_COTONOU }, { label: "Gouvernement du Bénin: radiotherapy opens at the Centre Hospitalier International de Calavi (25 April 2026)", url: "https://www.gouv.bj/article/3490/renforcement-offre-soins-chic-radiotherapie-chirurgie-coelioscopique-hospitalisations-conventionnelles-desormais-effectives-benin/" }] }),
 
   i({ id: "chud-oueme-plateau", name: "Centre Hospitalier Universitaire Départemental de l'Ouémé-Plateau (CHUD-OP)", aka: ["CHUD-OP", "CHUD Ouémé-Plateau", "Porto-Novo university hospital"],
     city: "Porto-Novo", country: "BJ", lat: 6.499, lng: 2.625, institutionType: "hospital",
@@ -255,6 +256,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     summary: "The draft national cancer plan for 2022 to 2025 describes the pathology laboratory of CHU Sylvanus Olympio as the only public diagnostic establishment for cancer, recording about 210 cases a year from 1984 to 2008 and 217 a year from 2009 to 2016 in its laboratory register; solid tumours are recorded there and blood cancers in haematology services. The plan proposes strengthening the hospital's paediatric unit for paediatric oncology. OnCo could not reach the hospital's website. The coordinates are an approximate Lomé city point.",
     programs: ["Pathology laboratory", "Paediatric oncology (paediatric unit)"],
     institutions: ["togo-ministry-of-health"],
+    keyPapers: ["paper-darre-cancers-togo-2009-2016-apjcp-2017", "paper-amegbor-cancers-togo-1984-2008-jce-2011"],
     links: [TG_PLAN] }),
 
   i({ id: "cicl-lome", name: "Centre International de Cancérologie de Lomé (CICL)", aka: ["CICL", "International Cancer Centre of Lomé"],
@@ -271,8 +273,9 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "A teaching hospital in Freetown where people with breast cancer are seen in a specialist outpatient clinic and treated with surgery, chemotherapy and hormone therapy. Sierra Leone has no radiotherapy.",
     summary: "A retrospective study in BMC Cancer (2025) of 253 breast cancer patients seen at the specialist outpatient clinic of the Connaught Teaching Hospital Complex from 2018 to 2021 found a mean age of 47, about 47% presenting at stage IIIB and 13.8% with metastases; treatment included mastectomy (48%), neoadjuvant chemotherapy (29.2%), adjuvant chemotherapy (33.6%), hormone therapy (39.2%) and palliative care (14%), and about 15% refused or did not start treatment. The authors call for better pathology services and access to radiotherapy. IAEA DIRAC lists no radiotherapy centre in Sierra Leone. OnCo did not find the hospital's own website.",
     programs: ["Specialist outpatient breast cancer clinic", "Surgery, chemotherapy and hormone therapy"],
-    institutions: ["sierra-leone-national-cancer-registry", "pharmacy-board-sierra-leone"],
+    institutions: ["sierra-leone-national-cancer-registry", "pharmacy-board-sierra-leone", "sierra-leone-ministry-of-health", "ola-during-childrens-hospital"],
     cancers: ["breast-cancer"],
+    keyPapers: ["paper-cummings-john-breast-cancer-connaught-bmc-cancer-2025"],
     links: [{ label: "Cummings-John et al., breast cancer at Connaught Hospital, Sierra Leone (BMC Cancer 2025)", url: "https://doi.org/10.1186/s12885-025-13429-0" }, DIRAC] }),
 
   i({ id: "sierra-leone-national-cancer-registry", name: "Sierra Leone National Cancer Registry", aka: ["National Cancer Registry, Sierra Leone"],
@@ -280,7 +283,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Sierra Leone's national cancer registry, launched in Freetown in June 2012 with support from the World Health Organization.",
     summary: "WHO's regional office reported that Sierra Leone launched a National Cancer Registry, together with the Sierra Leone Cancer Charity, on 12 June 2012 in Freetown; the deputy health minister launched it on behalf of the President, WHO supported its establishment technically and financially, and its head asked for more support for staff to manage cancer patients and for research and surveillance. OnCo has not found a later report from the registry or a member page on the African Cancer Registry Network. The coordinates are an approximate Freetown city point.",
     programs: ["National cancer registration (from 2012)"],
-    institutions: ["connaught-hospital-freetown", "who"],
+    institutions: ["connaught-hospital-freetown", "who", "sierra-leone-ministry-of-health"],
     links: [{ label: "WHO Africa: Sierra Leone launches National Cancer Registry (12 June 2012)", url: "https://www.afro.who.int/pt/node/2591" }] }),
 
   i({ id: "pharmacy-board-sierra-leone", name: "Pharmacy Board of Sierra Leone (PBSL)", aka: ["PBSL", "Pharmacy Board, Sierra Leone"],
@@ -288,7 +291,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Sierra Leone's medicines regulator, within the Ministry of Health. It registers medicines, licenses pharmacies and pharmacists, approves clinical trials and collects reports of side effects.",
     summary: "NIH ClinRegs (Sierra Leone profile) says the Pharmacy Board was established by Act of Parliament in 1988 and re-established by the Pharmacy and Drugs Act 2001 to regulate medicines, medical devices, cosmetics, food supplements and herbal products and the practice of pharmacy, operating within the Ministry of Health; it is the authority for clinical trial approval, oversight and inspection, with an Expert Committee on Pharmacovigilance and Clinical Trials and a Pharmacovigilance and Clinical Trials department. ClinRegs gives its address as the Central Medical Stores compound, New England Ville, Freetown. Sierra Leone signed the African Medicines Agency treaty on 10 February 2020 and ratified it on 28 May 2021; WHO's August 2026 list of regulators at maturity level 3 or 4 does not include it. The coordinates are an approximate Freetown city point.",
     programs: ["Medicines registration", "Clinical trial authorisation and inspection", "Pharmacovigilance"],
-    institutions: ["connaught-hospital-freetown"],
+    institutions: ["connaught-hospital-freetown", "sierra-leone-ministry-of-health"],
     links: [{ label: "NIH ClinRegs: Sierra Leone", url: "https://clinregs.niaid.nih.gov/country/sierra-leone" }, { label: "Pharmacy Board of Sierra Leone", url: "https://pharmacyboard.gov.sl/" }, AMA] }),
 
   // ───────────────────────── Liberia ─────────────────────────
@@ -321,15 +324,16 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
   i({ id: "cno-nouakchott", name: "Centre National d'Oncologie, Nouakchott (CNO)", aka: ["CNO", "National Oncology Centre, Mauritania"],
     city: "Nouakchott", country: "MR", lat: 18.074, lng: -15.958, institutionType: "cancer-center",
     tldr: "Mauritania's national cancer centre in Nouakchott, created in 2009, with chemotherapy, radiotherapy and radioiodine treatment. The government's cancer plan says it treats cancer free of charge and greatly reduced the need to send patients abroad.",
-    summary: "The Plan national de lutte contre le cancer 2018 to 2022 says the CNO was created in 2009 after cancer had become 42% of medical evacuations abroad (441 of 1,366 in 2008, according to the national health insurance fund), with aims including cutting evacuations by 80% and guaranteeing free medicines for people without means. It credits the centre with reducing evacuations by more than 98% for chemotherapy and 100% for radiotherapy, reports about 2,080 patients treated by 30 August 2012, more than 1,000 patients a year, and 94% of care paid as care for the indigent against 6% by the insurance fund. It has chemotherapy, radiotherapy and radioiodine units, a nuclear medicine unit was under way, and the plan found no organised palliative care outside it. IAEA DIRAC lists three linear accelerators, one cobalt unit and brachytherapy, last updated in 2019. The Ithar charity association has an office inside the centre serving more than 3,600 registered patients, according to its UICC page.",
+    summary: "The Plan national de lutte contre le cancer 2018 to 2022 says the CNO was created in 2009 after cancer had become 42% of medical evacuations abroad (441 of 1,366 in 2008, according to the national health insurance fund), with aims including cutting evacuations by 80% and guaranteeing free medicines for people without means. It credits the centre with reducing evacuations by more than 98% for chemotherapy and 100% for radiotherapy, reports about 2,080 patients treated by 30 August 2012, more than 1,000 patients a year, and 94% of care paid as care for the indigent against 6% by the insurance fund. The plan of 2018 described chemotherapy, radiotherapy and radioiodine units there, with a nuclear medicine unit under way, and the plan found no organised palliative care outside it. IAEA DIRAC lists three linear accelerators, one cobalt unit and brachytherapy, last updated in 2019. The Ithar charity association has an office inside the centre serving more than 3,600 registered patients, according to its UICC page.",
     programs: ["Radiotherapy (three linear accelerators, cobalt, brachytherapy)", "Chemotherapy", "Radioiodine therapy", "Palliative care"],
     institutions: ["mauritania-ministry-of-health", "cnam-mauritania", "iaea"],
+    keyPapers: ["paper-mamina-breast-cancer-cno-nouakchott-pamj-2025"],
     links: [MR_PLAN, DIRAC, { label: "UICC member page: Ithar Charity Association for Cancer Patients Care", url: "https://www.uicc.org/membership/ithar-charity-association-cancer-patients-care" }] }),
 
   i({ id: "mauritania-ministry-of-health", name: "Ministère de la Santé, Mauritanie", aka: ["Ministry of Health, Mauritania"],
     city: "Nouakchott", country: "MR", lat: 18.079, lng: -15.978, institutionType: "government",
     tldr: "Mauritania's health ministry. Its national cancer plan for 2018 to 2022 recorded 1,115 new cancer cases in 2016 and found that the cancer registry was not yet formally established.",
-    summary: "The ministry's Plan national de lutte contre le cancer 2018 to 2022, issued by its directorate for disease control, records 1,115 new cases registered in 2016 and describes the Centre National d'Oncologie, created in 2009, as the national reference centre. It says the ministry set up a registry management team trained with support from the African Cancer Registry Network, IARC, the IAEA and WHO, but that the registry was not institutionalised, had no dedicated staff, premises or budget, and worked as a coordination committee. Opioids were available only in Nouakchott. The ministry's website reset the connection when read. The coordinates are an approximate Nouakchott city point.",
+    summary: "The ministry's Plan national de lutte contre le cancer 2018 to 2022, issued by its directorate for disease control, records 1,115 new cases registered in 2016 and describes the Centre National d'Oncologie, created in 2009, as the national reference centre. It says the ministry set up a registry management team trained with the African Cancer Registry Network, whose head also attended IARC and IAEA and WHO courses, but that the registry was not institutionalised, had no dedicated staff, premises or budget, and worked as a coordination committee. Opioids were available only in Nouakchott. The ministry's website reset the connection when read. The coordinates are an approximate Nouakchott city point.",
     programs: ["Plan national de lutte contre le cancer 2018 to 2022", "Cancer registry team (coordination committee)"],
     institutions: ["cno-nouakchott", "cnam-mauritania"],
     links: [MR_PLAN] }),
@@ -357,6 +361,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     summary: "The national cancer plan of March 2023 records that a Service de Carcinologie et Radiothérapie was created on 5 December 1981 within the Hôpital Général de Brazzaville, which became the CHU in 1988, to treat people with cancer, gather information for prevention and train oncologists. The African Cancer Registry Network page for the Brazzaville registry, written about 2012, says the registry sits in that service's records section, that the service was by far the largest source of registrations (43% in 2011), that the CHU had the only histopathology laboratory in Brazzaville, and that its cobalt unit was not working for lack of a radiotherapist and physicist. The 2023 plan still records no working radiotherapy in the country, and IAEA DIRAC lists none. The hospital's website had an expired certificate. The coordinates are an approximate Brazzaville city point.",
     programs: ["Service de Carcinologie et Radiothérapie (since 1981)", "Histopathology laboratory"],
     institutions: ["brazzaville-cancer-registry", "congo-ministry-of-health"],
+    keyPapers: ["paper-nsonde-malanda-brazzaville-cancer-registry-1998-2009-bullcancer-2013", "paper-ilboudo-late-breast-cancer-diagnosis-brazzaville-cancercontrol-2025"],
     links: [CG_PLAN, { label: "African Cancer Registry Network: Registre des cancers de Brazzaville", url: AFCRN_BRAZZA }, DIRAC] }),
 
   i({ id: "brazzaville-cancer-registry", name: "Registre des cancers de Brazzaville", aka: ["Brazzaville Cancer Registry", "RCB"],
@@ -365,6 +370,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     summary: "The African Cancer Registry Network page says the registry was founded in 1995, sits in the records section of the Service de Carcinologie et Radiothérapie of CHU de Brazzaville, is financed by the Ministry of Health and Marien Ngouabi University, and registers cases from all of Brazzaville (1,376,382 people at the 2007 census) from four hospitals and four private clinics, using CanReg5 since 2012; its most recent report then was for 2011, with 495 cases. The national cancer plan of March 2023 cites it for 144 childhood cancers (9.5% of cases) in 2018 to 2019 and plans a national registry. The coordinates are an approximate Brazzaville city point.",
     programs: ["Population-based cancer registration for Brazzaville (from 1995)", "African Cancer Registry Network member registry"],
     institutions: ["chu-brazzaville", "congo-ministry-of-health", "iarc"],
+    keyPapers: ["paper-nsonde-malanda-brazzaville-cancer-registry-1998-2009-bullcancer-2013"],
     links: [{ label: "African Cancer Registry Network: Registre des cancers de Brazzaville", url: AFCRN_BRAZZA }, CG_PLAN] }),
 
   // ───────────────────────── Central African Republic ─────────────────────────
@@ -398,24 +404,26 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "The Gambia's teaching hospital in Banjul, where children's cancer services were newly set up in 2022. A study of its first year found most families could not get chemotherapy medicines, and no child had radiotherapy.",
     summary: "A prospective study by the hospital's paediatric and surgical staff (Health Science Reports 2024) followed 44 children with cancer seen in its paediatric units from November 2022 to October 2023, describing newly established paediatric oncology services: Wilms tumour (27.3%) and leukaemia (25%) were commonest, median time from first symptom to diagnosis was 62.5 days, treatment refusal and abandonment were 20.5% and 13.6%, families of 93.8% could not obtain cytotoxic drugs because of unavailability or cost, and none had platelet transfusion or radiotherapy. The hospital's site lists emergency care, surgery, paediatrics, laboratory services and imaging including CT and MRI. IAEA DIRAC lists no radiotherapy centre in The Gambia.",
     programs: ["Paediatric oncology (from 2022)", "Surgery", "Imaging including CT and MRI"],
-    institutions: ["gambia-national-cancer-registry", "mca-gambia"],
+    institutions: ["gambia-national-cancer-registry", "mca-gambia", "gambia-ministry-of-health"],
+    keyPapers: ["paper-adegoke-childhood-cancer-gambia-hsr-2024"],
     links: [{ label: "Edward Francis Small Teaching Hospital", url: "https://efsth.gm/" }, GM_EFSTH_PAPER, DIRAC] }),
 
   i({ id: "gambia-national-cancer-registry", name: "National Cancer Registry of The Gambia", aka: ["Gambia National Cancer Registry", "NCR Gambia"],
     city: "Fajara", country: "GM", lat: 13.469, lng: -16.691, institutionType: "research-institute",
     tldr: "The Gambia's nationwide population-based cancer registry, set up in 1986 to measure whether infant hepatitis B vaccination would prevent liver cancer. Liver cancer was the commonest cancer in men and cervical cancer in women.",
-    summary: "The registry was established in 1986 within the Gambia Hepatitis Intervention Study, a randomised trial of infant hepatitis B vaccination applied to public health policy, to collect data on every cancer diagnosed nationwide. A PLoS One paper by its staff (2013), with an author affiliation at the National Cancer Registry, Fajara, analysed 1990 to 2009: in men liver cancer made up 60% of cancers, then prostate, lung, non-Hodgkin lymphoma and stomach; in women cervical cancer 33%, liver 24% and breast 11%. Incidence was stable, and the data were not yet enough to detect an effect of vaccination on liver cancer. The coordinates are an approximate point for Fajara.",
-    programs: ["Nationwide population-based cancer registration (from 1986)", "Gambia Hepatitis Intervention Study follow-up"],
-    institutions: ["efsth-banjul", "iarc"],
+    summary: "The registry was established in 1986 within the Gambia Hepatitis Intervention Study, a randomised trial of infant hepatitis B vaccination applied to public health policy, to collect data on every cancer diagnosed nationwide. A PLoS One paper by its staff (2013), with an author affiliation at the National Cancer Registry, Fajara, analysed 1990 to 2009: in men liver cancer made up 60% of cancers, then prostate, lung, non-Hodgkin lymphoma and stomach; in women cervical cancer 33%, liver 24% and breast 11%. Incidence was stable, and the data were not yet enough to detect an effect of vaccination on liver cancer. The Ministry of Health's National Cancer Control Strategy 2024 to 2029 says the registry, housed at the MRC unit in Fajara, became inactive in December 2019 when the hepatitis study's programme ended. The coordinates are an approximate point for Fajara.",
+    programs: ["Nationwide population-based cancer registration (1986 to December 2019)", "Gambia Hepatitis Intervention Study follow-up"],
+    institutions: ["efsth-banjul", "iarc", "gambia-ministry-of-health"],
     cancers: ["hcc", "cervical", "breast-cancer", "prostate"],
-    links: [GM_NCR_PAPER] }),
+    keyPapers: ["paper-bah-gambia-cancer-registration-20-years-plos-one-2013"],
+    links: [GM_NCR_PAPER, { label: "Ministry of Health, The Gambia: National Cancer Control Strategy 2024 to 2029 (PDF via ICCP)", url: "https://www.iccp-portal.org/sites/default/files/2026-03/The%20Finalized%20National%20Cancer%20Control%20Strategy%20%28NCCS%29%202024%20-2029.pdf" }] }),
 
   i({ id: "mca-gambia", name: "Medicines Control Agency, The Gambia (MCA)", aka: ["MCA Gambia"],
     city: "Banjul", country: "GM", lat: 13.455, lng: -16.576, institutionType: "government", website: "https://www.mca.gm/",
     tldr: "The Gambia's medicines regulator, set up by law in 2014. It registers medicines, inspects, licenses, tests quality, monitors side effects and oversees clinical trials.",
     summary: "The agency's site says the Medicines and Related Products Act 2014 established the Medicines Control Agency, with a mission of the highest standards of quality, safety and efficacy for medicines, and lists its services as product registration, post-market surveillance and inspection, licensing, quality control testing, pharmacovigilance and clinical trial oversight. The Ministry of Health lists it among its agencies. The African Union's 2023 list shows The Gambia had not signed the African Medicines Agency treaty. The coordinates are an approximate Banjul city point.",
     programs: ["Product registration", "Pharmacovigilance", "Clinical trial oversight", "Quality control testing"],
-    institutions: ["efsth-banjul"],
+    institutions: ["efsth-banjul", "gambia-ministry-of-health"],
     links: [{ label: "Medicines Control Agency, The Gambia", url: "https://www.mca.gm/" }, { label: "Ministry of Health, The Gambia (agencies listed in its navigation)", url: "https://moh.gov.gm/" }, AMA] }),
 
   // ───────────────────────── Guinea-Bissau ─────────────────────────
@@ -430,7 +438,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
   i({ id: "hospital-simao-mendes", name: "Hospital Nacional Simão Mendes", aka: ["Simão Mendes National Hospital", "HNSM"],
     city: "Bissau", country: "GW", lat: 11.863, lng: -15.581, institutionType: "hospital",
     tldr: "Guinea-Bissau's national referral hospital in Bissau. Visiting breast surgery teams have diagnosed and operated on women with breast cancer there, most of whom arrived with advanced disease.",
-    summary: "A report in JCO Global Oncology (2023), with a first author from the hospital's surgery department, describes three short surgical missions by a breast cancer team in one year at the Hospital Nacional Simão Mendes, a level A referral structure: 97 women were seen, with 21 excisional biopsies, 28 needle biopsies and five radical operations; 19 had invasive breast cancer at stage IV, few returned for treatment, and poor sample handling for lack of trained pathology technicians made 18 samples unusable. The authors call for a national cancer strategy built on local team training.",
+    summary: "A report in JCO Global Oncology (2023), with a first author from the hospital's surgery department, describes three short surgical missions by a breast cancer team in one year at the Hospital Nacional Simão Mendes, a level A referral structure: 97 female patients aged 12 to 70 were seen, with 21 excisional biopsies, 28 needle biopsies and five radical operations; 19 had invasive breast cancer at stage IV, few returned for treatment, and poor sample handling for lack of trained pathology technicians made 18 samples unusable. The authors call for a national cancer strategy built on local team training.",
     programs: ["Breast surgery with visiting teams"],
     institutions: ["guinea-bissau-ministry-of-health"],
     cancers: ["breast-cancer"],
@@ -442,7 +450,8 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Gabon's cancer institute with radiotherapy, on the campus of the military teaching hospital at Akanda, near Libreville.",
     summary: "IAEA DIRAC lists the Institut de Cancérologie de Libreville, Institut de Cancérologie d'Akanda, at Angondjé on the campus of the Hôpital d'Instruction des Armées d'Akanda (formerly CHU d'Angondjé), with two linear accelerators, a CT scanner and no brachytherapy, updated in 2026. The African Cancer Registry Network page for the Parakou registry in Benin says its registrar was trained in cancer registration and CanReg5 at the Institut de Cancérologie de Libreville in 2017. OnCo did not find the institute's own website.",
     programs: ["External beam radiotherapy (two linear accelerators)", "Cancer registration training (2017)"],
-    institutions: ["cnamgs-gabon", "iaea"],
+    institutions: ["cnamgs-gabon", "iaea", "gabon-ministry-of-health"],
+    keyPapers: ["paper-ivanga-cancer-grand-libreville-canep-2024", "paper-ndjembidouma-rectal-toxicity-prostate-radiotherapy-akanda-rpor-2023"],
     links: [DIRAC, { label: "African Cancer Registry Network: Parakou Cancer Registry", url: AFCRN_PARAKOU }] }),
 
   i({ id: "cnamgs-gabon", name: "Caisse Nationale d'Assurance Maladie et de Garantie Sociale (CNAMGS)", aka: ["CNAMGS", "National Health Insurance and Social Guarantee Fund, Gabon"],
@@ -450,7 +459,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     tldr: "Gabon's national health insurance fund, created in 2007. It pays for care for insured people and runs family benefits for Gabonese people on low incomes.",
     summary: "The fund's history page says Ordinance 002/PR/2007 of 4 January 2007 instituted a compulsory health insurance and social guarantee scheme in Gabon and created the CNAMGS to run it, and Ordinance 001/PR/2007 of the same date gave it the family benefits of Gabonese people classed as economically weak (GEF). Its care package page offers a long-term condition (ALD) card and states that prevention, screening and social care stay with the health ministry rather than the fund. In October 2026 it joined the Octobre Rose campaign on breast and cervical cancer. OnCo did not find on its pages a list naming the cancer treatments it covers. The coordinates are an approximate Libreville city point.",
     programs: ["Compulsory health insurance", "Long-term condition (ALD) cover", "Family benefits for GEF households"],
-    institutions: ["ica-akanda"],
+    institutions: ["ica-akanda", "gabon-ministry-of-health"],
     links: [{ label: "CNAMGS: history", url: "https://cnamgs.ga/apropos/" }, { label: "CNAMGS: care package", url: "https://cnamgs.ga/le-panier-de-soins-de-la-cnamgs/" }, { label: "CNAMGS: Octobre Rose (October 2026)", url: "https://cnamgs.ga/2026/10/07/celebration-octobre-rose/" }] }),
 
   // ───────────────────────── Cabo Verde ─────────────────────────
@@ -469,6 +478,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     summary: "The Ministry of Health reported in February 2023 the inauguration of the oncology service of Hospital Dr. Agostinho Neto, for patients having chemotherapy, with 10 beds of which 2 are adapted for patients with special needs, and the opening of the hospital's molecular biology laboratory to strengthen diagnosis. The ministry's site links to the hospital as one of the country's two central hospitals. IAEA DIRAC lists no radiotherapy centre in Cabo Verde.",
     programs: ["Oncology service for chemotherapy (10 beds)", "Molecular biology laboratory"],
     institutions: ["cabo-verde-ministry-of-health"],
+    keyPapers: ["paper-silva-santiago-hospital-cancer-registry-ecancer-2019", "paper-borges-breast-cancer-cape-verde-partnership-jcogo-2026"],
     links: [CV_2023_FEB, DIRAC] }),
 
   i({ id: "hospital-baptista-de-sousa", name: "Hospital Dr. Baptista de Sousa", aka: ["Hospital Baptista de Sousa", "HBS", "Mindelo central hospital"],
@@ -496,6 +506,7 @@ export const institutionsCountriesWestCentralAfrica: InstitutionInput[] = [
     programs: ["Referral for medical evacuation abroad"],
     institutions: ["ipo-porto"],
     cancers: ["breast-cancer", "prostate", "cervical"],
+    keyPapers: ["paper-david-cancer-medical-evacuees-sao-tome-ecancer-2026"],
     links: [{ label: "David et al., cancer among medical evacuees from São Tomé and Príncipe 2019 to 2025 (ecancermedicalscience 2026)", url: "https://doi.org/10.3332/ecancer.2026.2093" }, DIRAC] }),
 ];
 

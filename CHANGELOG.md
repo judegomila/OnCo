@@ -7,12 +7,18 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 17 November 2026
+- More of the graph is joined up: 1,251 confirmed links between people and the trials whose papers they wrote, matched by ORCID or full name and affiliation; who pays for 21 tests in the US and UK, from Medicare national coverage decisions and NICE guidance; fifty warning-card lines now name the protocol that manages them; and eight wrong side-effect links are removed
 - Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
 - Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
 - A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject
 
 ### 16 November 2026
+- Twenty-two more care protocols close the gaps in the census, among them stoma care, drain care at home, transplant conditioning, veno-occlusive disease, lung biopsy, intrathecal chemotherapy in children, end-of-life care for children, advance care planning and stopping smoking after a diagnosis; 212 protocols in all, with a table of what is covered and what is still open
 - Shasqi in depth: its clinical programme SQ3370, its trial and the click-activated chemistry behind it, from the company's own pages, the registry and the published papers; the weekly gap-fill job gets the tools it needs to read its allowed sources; and the command-line tool and MCP server are rebuilt to know about care protocols
+- Who pays for 21 tests, from Medicare national coverage determinations and NICE guidance, and 32 named gaps
+- Author lists of the 818 papers that report a trial, read from Europe PMC, and who among them has a page here
+- The National Cancer Institute and Cancer Research UK records carry their abbreviations as aliases
+- Fifty warning-card lines name the protocol that manages them
 - The scalp cooling record says in its first line what the cap is for, preventing or reducing hair loss, so a question about hair loss still finds it beside the longer care protocol
 - The coverage table records that Europe PMC holds no open copy of the two interventional radiology standards on blood thinners before a biopsy, so that row stays open
 - A contributor's education work arrives, 215 new records on biomarkers, immune tests, specimens, RNA and clinical evidence, with every source checked; and a backlog of corrections lands: new FDA approvals including pimicotinib, four generic icons removed from logos, mislabelled trials fixed, radiotherapy counts for Madagascar and Angola, the two Cuban lung cancer vaccines, and 33 records renamed for their subject

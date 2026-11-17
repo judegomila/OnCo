@@ -310,7 +310,7 @@ export const biomarkerReadouts4: BiomarkerInput[] = [
 ], links: [
   {
     "label": "FDA: List of FDA-Authorized Companion Diagnostic Devices",
-    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools"
+    "url": "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools"
   },
   {
     "label": "TECENTRIQ prescribing information (DailyMed)",

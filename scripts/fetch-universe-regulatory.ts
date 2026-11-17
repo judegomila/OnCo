@@ -263,7 +263,7 @@ async function fdaNovelOncology(): Promise<Envelope | null> {
 // ---------------------------------------------------------------------------------------------------
 // FDA companion diagnostics, oncology rows.
 // ---------------------------------------------------------------------------------------------------
-export const FDA_CDX = "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools";
+export const FDA_CDX = "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools";
 export type CdxRow = { device: string; maker: string; indication: string; drugs: string[]; drugText: string; biomarker: string; pma: string; date?: string; group: "drug" | "class" };
 
 export function parseCdx(html: string): CdxRow[] {

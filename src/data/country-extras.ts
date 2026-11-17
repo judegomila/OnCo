@@ -65,6 +65,9 @@ const GCO_SLUG: Record<number, string> = {
   31: "azerbaijan", 70: "bosnia-herzegovina", 188: "costa-rica", 332: "haiti", 466: "mali", 598: "papua-new-guinea", 600: "paraguay", 686: "senegal", 705: "slovenia", 854: "burkina-faso",
   // Wave 12 (11 November 2026): each answered with the GLOBOCAN 2024 PDF that day; Moldova is "republic-of-moldova" (the bare slug serves 2022).
   51: "armenia", 222: "el-salvador", 324: "guinea", 340: "honduras", 400: "jordan", 428: "latvia", 498: "republic-of-moldova", 591: "panama", 646: "rwanda", 706: "somalia",
+  // Wave 13 (16 November 2026): each answered with the GLOBOCAN 2024 PDF that day.
+  784: "united-arab-emirates", 414: "kuwait", 634: "qatar", 512: "oman", 48: "bahrain", 434: "libya", 275: "gaza-strip-and-west-bank", 196: "cyprus",
+  470: "malta", 442: "luxembourg", 352: "iceland", 233: "estonia", 8: "albania", 807: "north-macedonia", 499: "montenegro", 496: "mongolia",
 };
 const gco = (code: number) => `https://gco.iarc.who.int/media/globocan/factsheets/populations/${code}-${GCO_SLUG[code]}-fact-sheet.pdf`;
 
@@ -217,4 +220,23 @@ export const countryExtras: Record<string, CountryExtra> = {
   JO: { name: "Jordan", population: 12, incidence: 112, mortality: 56, gcoUrl: gco(400) },
   SV: { name: "El Salvador", population: 6, incidence: 130, mortality: 75, gcoUrl: gco(222) },
   PA: { name: "Panama", population: 5, incidence: 158, mortality: 66, gcoUrl: gco(591) },
+  // Wave 13 (16 November 2026): rates from public/globocan/countries.json code 39, population from the World Bank 2024
+  // series (SP.POP.TOTL, read from api.worldbank.org that day) to one decimal, as most of these countries are small. The
+  // World Bank's row for PS is "West Bank and Gaza"; IARC's name for its estimate is used here. No funder researched.
+  AE: { name: "United Arab Emirates", population: 11.0, incidence: 146, mortality: 71, gcoUrl: gco(784) },
+  KW: { name: "Kuwait", population: 4.9, incidence: 110, mortality: 54, gcoUrl: gco(414) },
+  QA: { name: "Qatar", population: 2.9, incidence: 157, mortality: 79, gcoUrl: gco(634) },
+  OM: { name: "Oman", population: 5.3, incidence: 107, mortality: 52, gcoUrl: gco(512) },
+  BH: { name: "Bahrain", population: 1.6, incidence: 147, mortality: 69, gcoUrl: gco(48) },
+  LY: { name: "Libya", population: 7.4, incidence: 119, mortality: 71, gcoUrl: gco(434) },
+  PS: { name: "Gaza Strip and West Bank", population: 5.3, incidence: 208, mortality: 105, gcoUrl: gco(275) },
+  CY: { name: "Cyprus", population: 1.4, incidence: 269, mortality: 99, gcoUrl: gco(196) },
+  MT: { name: "Malta", population: 0.6, incidence: 270, mortality: 75, gcoUrl: gco(470) },
+  LU: { name: "Luxembourg", population: 0.7, incidence: 217, mortality: 71, gcoUrl: gco(442) },
+  IS: { name: "Iceland", population: 0.4, incidence: 280, mortality: 78, gcoUrl: gco(352) },
+  EE: { name: "Estonia", population: 1.4, incidence: 280, mortality: 109, gcoUrl: gco(233) },
+  AL: { name: "Albania", population: 2.4, incidence: 191, mortality: 92, gcoUrl: gco(8) },
+  MK: { name: "North Macedonia", population: 1.8, incidence: 232, mortality: 114, gcoUrl: gco(807) },
+  ME: { name: "Montenegro", population: 0.6, incidence: 280, mortality: 120, gcoUrl: gco(499) },
+  MN: { name: "Mongolia", population: 3.5, incidence: 240, mortality: 171, gcoUrl: gco(496) },
 };

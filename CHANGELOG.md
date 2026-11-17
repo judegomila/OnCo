@@ -18,6 +18,7 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: draft records for gaps in the freshness issue, for review
 
 ### 16 November 2026
+- Casablanca cancer centre: one-line description shortened to fit, with the fuller wording kept in the summary
 - Second accuracy pass, batch three: Venezuela, Sri Lanka, Syria, Kazakhstan, Cambodia, Ecuador, Zimbabwe, Chile and Tunisia, and HPV vaccination figures re-read on the earlier pages
 - Second accuracy pass, batch two: Ghana, Saudi Arabia, Peru and Nepal, and the IAEA radiotherapy directory read for all sixteen pages checked so far
 - Second accuracy pass on twelve live country pages: DR Congo, Tanzania, Kenya, Myanmar, Sudan, Uganda, Iraq, Afghanistan, Yemen, Morocco, Angola and Uzbekistan

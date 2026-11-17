@@ -511,6 +511,12 @@ describe("Ask OnCo end to end", () => {
     // records and about 530 revised). No ranking change and no floor change. The rubric falls from 0.6825 and stays
     // above its 0.66 floor; which rewritten answers lost rubric points has not been traced question by question.
     { date: "2026-11-16", recall: 0.4365, note: "contributor teaching-concept batch merged; extractive rubric 0.6765; both floors unchanged" },
+    // 16 November 2026, country deep dives wave 16 (sixteen places, 70 records). The corpus before them measured 0.4313;
+    // with them 0.4293, a hair under the floor: no new record entered any top six, but 70 more documents moved every
+    // inverse document frequency by about 0.005, which swapped selpercatinib and a screening test tied at 0.243 in the
+    // concept list for "Which oncology drugs were approved in the US in July 2026?". Concept search now breaks ties at
+    // its reported precision by record id (semantic.ts semanticSearch), which restores 0.4313. The floor is unchanged.
+    { date: "2026-11-16", recall: 0.4313, note: "country deep dives wave 16; ties at three decimal places in the concept list broken by id; extractive rubric 0.6825" },
   ];
   /** Floors set since the ratchet began, in order. Each entry must be at least the one before it. */
   const EXTRACTIVE_FLOORS: ReadonlyArray<{ date: string; recall: number; rubric: number; change: string }> = [

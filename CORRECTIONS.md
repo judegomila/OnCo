@@ -1,5 +1,18 @@
 # Corrections
 
+### Records corrected by the second check of the Caribbean and Pacific country pages, 16 November 2026
+
+Found while sixteen new country pages were re-read claim by claim against their sources as raw text. These six records were already published; the pages themselves are new and their corrections are in the pull request.
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-16 | [Ministry of Health, Vanuatu](/institutions/vanuatu-ministry-of-health/) | Said Vila Central Hospital marked 50 years in 2026 | The Ministry's press release read as raw text: dated 5 August 2025, with celebrations from 20 to 22 August 2025 | Year corrected to 2025, the release quoted and linked |
+| 2026-11-16 | [Centre de radiothérapie de Nouvelle-Calédonie](/institutions/crnc-new-caledonia/) | Said the centre hosts the multidisciplinary cancer meetings | The centre's page uses the future tense: the meetings "se dérouleront au sein de ce centre" | Now says the centre's page states the meetings will be held there |
+| 2026-11-16 | [Caisse de Prévoyance Sociale de la Polynésie française](/institutions/cps-french-polynesia/) | Described the solidarity scheme (RSPF) as for people without work | CLEISS's page on the territory's schemes: affiliation depends on residence and monthly income, not on employment | Now "people on low incomes, the solidarity scheme (RSPF)" |
+| 2026-11-16 | [Tupua Tamasese Meaole Hospital](/institutions/tupua-tamasese-meaole-hospital/) | Stated one reading of an ambiguous sentence about the commonest cancers by sex, and called a ten-year survey a first step towards a registry | The paper's abstract at Europe PMC (PubMed 33233921), which calls it "a preliminary step to upscale" existing registry work | The abstract's sentence is quoted as written; the short summary uses the authors' description |
+| 2026-11-16 | [Guyana Ministry of Health](/institutions/moh-guyana/) | Gave the cervical screening voucher as 8,000 Guyanese dollars | The Ministry's page gives "$8,000" and names no currency | The amount is given as the page has it, with the assumption of Guyanese dollars stated |
+| 2026-11-16 | [The University of the West Indies, Mona](/institutions/uwi-mona/) | Said trial NCT07528768 runs in Jamaica and Barbados | The ClinicalTrials.gov record lists a third site, Korle Bu Teaching Hospital in Ghana | Ghana added |
+
 ### Cell-therapy manufacturing time, 12 November 2026
 
 | Date | Entity | What was wrong | How found | Fix |

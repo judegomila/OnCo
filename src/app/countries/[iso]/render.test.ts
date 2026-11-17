@@ -25,7 +25,7 @@ const BUDGET = 120 * 1024;
 const fmt = (n: number | null | undefined) => (n ?? 0).toLocaleString("en-GB");
 
 describe("automatic country pages", () => {
-  for (const iso of ["ws", "ee", "gu"]) {
+  for (const iso of ["tl", "ee", "mv"]) {
     it(`/countries/${iso}/ states GLOBOCAN's figures, the citation and the gaps`, async () => {
       const c = autoCountry(iso)!;
       const html = await render(iso);
@@ -41,8 +41,8 @@ describe("automatic country pages", () => {
     });
   }
 
-  it("says when IARC built the estimate from neighbouring countries (Samoa, method 5)", async () => {
-    const html = await render("ws");
+  it("says when IARC built the estimate from neighbouring countries (Timor-Leste, method 5)", async () => {
+    const html = await render("tl");
     expect(html).toContain("Built partly from other countries");
     expect(html).toContain("neighbouring countries");
   });
@@ -64,9 +64,9 @@ describe("automatic country pages", () => {
   });
 
   it("names a trial gap rather than showing an empty table", async () => {
-    const html = await render("ws");
-    expect(autoCountry("ws")!.trials.length).toBe(0);
-    expect(html).toContain("No trial record in OnCo lists a site in Samoa");
+    const html = await render("tl");
+    expect(autoCountry("tl")!.trials.length).toBe(0);
+    expect(html).toContain("No trial record in OnCo lists a site in Timor-Leste");
   });
 });
 

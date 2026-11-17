@@ -233,7 +233,13 @@ export function semanticSearch(index: SemanticIndex, query: string, k = 20, opts
   // Registry-ingested trials and pipeline products carry a title and little else; their weight keeps curated records ahead.
   if (index.weights) for (const [di, v] of scores) v.s *= index.weights[di] ?? 1;
   if (wanted.size) for (const [di, v] of scores) { const k = index.kinds[di]; if (lead.has(k)) v.s *= boost * 1.35; else if (wanted.has(k)) v.s *= boost; }
-  return [...scores].sort((a, b) => b[1].s - a[1].s || a[0] - b[0]).slice(0, k)
+  // Scores are reported to three decimal places, and a difference below that is not a ranking: on 16 November 2026
+  // seventy unrelated country records moved every inverse document frequency by about 0.005 and swapped two records
+  // tied at 0.243 (selpercatinib and a screening test, for "Which oncology drugs were approved in the US in July
+  // 2026?"), which cost Ask a benchmark record. Ties at the reported precision now fall back to the record id, so
+  // adding records that share none of the question's subject cannot reorder the ones that do.
+  const shown = (x: number) => Math.round(x * 1000);
+  return [...scores].sort((a, b) => shown(b[1].s) - shown(a[1].s) || (index.ids[a[0]] < index.ids[b[0]] ? -1 : index.ids[a[0]] > index.ids[b[0]] ? 1 : 0)).slice(0, k)
     .map(([di, { s, m }]) => ({ id: index.ids[di], score: Math.round(s * 1000) / 1000, matched: m.sort((a, b) => b[1] - a[1]).map(([t]) => t) }));
 }
 

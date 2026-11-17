@@ -418,9 +418,9 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Fiji's health ministry, which provides most of the country's cancer care through oncology units in its divisional hospitals and runs the national cancer registry and screening.",
     summary: "The Ministry's UICC member statement (an Associate Member) says it is the majority provider of oncology services to the whole population of Fiji, with limited private facilities, and coordinates the national cancer registry, screening and early detection, diagnosis and treatment and emerging palliative care; a national cancer control plan was being developed. Its cancer page says cancer cases are managed in the three divisional hospitals' oncology units, with local treatment in the form of surgery and limited chemotherapy, and that HPV immunisation is offered free to girls in class 8. IAEA DIRAC lists no radiotherapy centre in Fiji. The coordinates are an approximate Suva city point.",
     programs: ["Oncology units in three divisional hospitals", "National cancer registry", "Cervical cancer screening", "HPV immunisation for girls in class 8"],
-    institutions: ["fiji-cancer-society"],
+    institutions: ["fiji-cancer-society", "fiji-medicines-regulatory-authority", "colonial-war-memorial-hospital-suva"],
     cancers: ["cervical", "breast-cancer"],
-    links: [
+    keyPapers: ["paper-naidu-cancer-epidemiology-fiji-apjph-2025", "paper-reyburn-single-dose-hpv-fiji-lanwpc-2023", "paper-kim-radiotherapy-cost-benefit-fiji-cancerepidemiol-2017", "paper-kunatoga-cervical-screening-fiji-heliyon-2024"], links: [
       { label: "Fiji Ministry of Health and Medical Services: cancer", url: "http://www.health.gov.fj/cancer/" },
       uicc("fiji-islands-ministry-health-and-medical-services", "Fiji Islands Ministry of Health and Medical Services"),
     ] }),
@@ -441,7 +441,7 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     summary: "A 2023 paper in JCO Global Oncology describes the establishment of an oncology unit at the National Referral Hospital: a scoping visit in 2016 at the Medical Superintendent's request, then, at the request of the Ministry of Health, a multidisciplinary mission arranged by Australia's Department of Foreign Affairs and Trade under the Royal Australasian Colleges' Pacific Islands Program that helped commission the NRH Medical Oncology Unit in September 2018. Staff developed local Solomon Islands Oncology Guidelines, and the authors report a sustainable unit delivering chemotherapy and cancer management. A 2021 paper on oncology collaboration in Pacific island communities lists the NRH Oncology Unit among its authors. IAEA DIRAC lists no radiotherapy centre in Solomon Islands. Coordinates are Nominatim's.",
     programs: ["Medical oncology unit (since 2018)", "Solomon Islands Oncology Guidelines", "Chemotherapy"],
     institutions: ["solomon-islands-ministry-of-health"],
-    links: [
+    keyPapers: ["paper-yip-oncology-unit-solomon-islands-jcogo-2023", "paper-martiniuk-cancer-solomon-islands-cancerepidemiol-2017"], links: [
       epmc("10.1200/go.22.00325", "Yip et al., establishment of an oncology unit in the Solomon Islands (JCO Glob Oncol 2023)"),
       epmc("10.1111/1754-9485.13160", "Ward et al., a collaborative approach to oncology in Asia-Pacific island communities (J Med Imaging Radiat Oncol 2021)"),
     ] }),
@@ -460,10 +460,10 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   // ── Samoa (WS) ───────────────────────────────────────────────────────────────────────────────────────────────
   i({ id: "tupua-tamasese-meaole-hospital", name: "Tupua Tamasese Meaole Hospital", aka: ["TTM Hospital", "Moto'otua Hospital"],
     city: "Apia", country: "WS", lat: -13.846, lng: -171.765, institutionType: "hospital",
-    tldr: "Samoa's main hospital in Apia, whose doctors led a survey of every confirmed cancer in Samoa from 2007 to 2016 as a first step towards a national cancer registry.",
-    summary: "A 2021 paper in the Asia-Pacific Journal of Public Health, led from Tupua Tamasese Meaole Hospital, reviewed all laboratory and clinically confirmed cancers in Samoa from 2007 to 2016 in government and non-government facilities as a preliminary step to upscale population-based cancer registration. Incidence rose from 28.5 per 100,000 in 2007 to 67.1 in 2012, then varied between 50 and 65 per 100,000 to 2016; cancers of the female genital organs and breast were commonest in women and of the digestive system in men. IAEA DIRAC lists no radiotherapy centre in Samoa. OnCo could not reach the hospital's site. Coordinates are Nominatim's.",
+    tldr: "Samoa's main hospital in Apia, whose doctors led a survey of every confirmed cancer in Samoa from 2007 to 2016 as a preliminary step to scaling up population-based cancer registration.",
+    summary: "A 2021 paper in the Asia-Pacific Journal of Public Health, led from Tupua Tamasese Meaole Hospital, reviewed all laboratory and clinically confirmed cancers in Samoa from 2007 to 2016 in government and non-government facilities as a preliminary step to upscale population-based cancer registration. Incidence rose from 28.5 per 100,000 in 2007 to 67.1 in 2012, then varied between 50 and 65 per 100,000 to 2016; the abstract says \"Cancers of female genitalia, breast, and digestive system were the most common types in female and males, respectively.\" IAEA DIRAC lists no radiotherapy centre in Samoa. OnCo could not reach the hospital's site. Coordinates are Nominatim's.",
     programs: ["Cancer incidence survey towards a population-based registry"],
-    institutions: ["samoa-cancer-society"],
+    institutions: ["samoa-cancer-society", "samoa-ministry-of-health"],
     cancers: ["breast-cancer", "cervical"],
     links: [epmc("10.1177/1010539520975261", "Amosa-Lei Sam et al., cancer incidence in Samoa 2007 to 2016 (Asia Pac J Public Health 2021)")] }),
 
@@ -479,11 +479,11 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
   i({ id: "vanuatu-ministry-of-health", name: "Ministry of Health, Vanuatu", aka: ["MOH Vanuatu"],
     city: "Port Vila", country: "VU", lat: -17.741, lng: 168.315, institutionType: "government", website: "https://moh.gov.vu",
     tldr: "Vanuatu's health ministry, which runs Vila Central Hospital and is preparing a national strategy to eliminate cervical cancer with the Vanuatu Family Health Association.",
-    summary: "The Ministry's site gives its mission as protecting and promoting the health of all people in Vanuatu and lists hospital services, including Vila Central Hospital, which marked 50 years in 2026. The Vanuatu Family Health Association's UICC member statement says it partners with the Ministry on the national cervical cancer elimination programme, following WHO's 90-70-90 strategy with HPV self-collection, and is helping the Ministry draft five-year elimination strategy guidelines. IAEA DIRAC lists no radiotherapy centre in Vanuatu. The coordinates are an approximate Port Vila city point.",
+    summary: "The Ministry's site gives its mission as protecting and promoting the health of all people in Vanuatu and lists hospital services, including Vila Central Hospital. A Ministry press release dated 5 August 2025 says the hospital \"marks a historic milestone: 50 years of service to the people of Vanuatu\", with celebrations from 20 to 22 August 2025. The Vanuatu Family Health Association's UICC member statement says it partners with the Ministry on the national cervical cancer elimination programme, following WHO's 90-70-90 strategy with HPV self-collection, and is helping the Ministry draft five-year elimination strategy guidelines. IAEA DIRAC lists no radiotherapy centre in Vanuatu. The coordinates are an approximate Port Vila city point.",
     programs: ["National cervical cancer elimination programme"],
     institutions: ["vanuatu-family-health-association", "ikkana-cancer-society"],
     cancers: ["cervical"],
-    links: [{ label: "Ministry of Health, Vanuatu", url: "https://moh.gov.vu" }, uicc("vanuatu-family-health-association", "Vanuatu Family Health Association")] }),
+    keyPapers: ["paper-aruhuri-hpv-prevalence-vanuatu-cancerprevres-2012"], links: [{ label: "Ministry of Health, Vanuatu", url: "https://moh.gov.vu" }, { label: "Ministry press release, 5 August 2025: Vila Central Hospital 50 years", url: "https://moh.gov.vu/index.php/updates/press-releases/161-vila-central-hospital-celebrates-50-years-of-healing-and-hope" }, uicc("vanuatu-family-health-association", "Vanuatu Family Health Association")] }),
 
   i({ id: "vanuatu-family-health-association", name: "Vanuatu Family Health Association", aka: ["VFHA"],
     city: "Port Vila", country: "VU", lat: -17.741, lng: 168.315, institutionType: "consortium", website: "https://eseaor.ippf.org/about-us/member-associations/vanuatu-family-health-association",
@@ -537,9 +537,9 @@ export const institutionsCountriesAsiaPacific: InstitutionInput[] = [
     tldr: "Guam's cancer registry, set up by law in 1998 and run from the University of Guam, which counts every cancer among Guam residents.",
     summary: "The Guam Cancer Registry was established in 1998 by Public Law 24-198 to collect cancer data from all health-care providers and non-medical sources in its jurisdiction, and in 2004 became a unit of the Cancer Research Center of Guam, a joint venture of the University of Guam, Guam's Department of Public Health and Social Services and the University of Hawai'i Cancer Center, according to the University of Guam's registry page. Its data are used for cancer control, clinical services, patient support, healthcare financing and research; its five-year update reported one person diagnosed with cancer every day and one resident dying of cancer every 2.3 days in Guam. Coordinates are Nominatim's point for the University of Guam.",
     programs: ["Population-based cancer registration (from 1998)", "Cancer Research Center of Guam"],
-    institutions: ["fhp-health-center-guam", "guam-regional-medical-city", "guam-memorial-hospital"],
+    institutions: ["fhp-health-center-guam", "guam-regional-medical-city", "guam-memorial-hospital", "guam-dphss"],
     related: ["cancer-registries-surveillance"],
-    links: [{ label: "University of Guam: Guam Cancer Registry", url: "https://uog.edu/research/guam-cancer-registry" }] }),
+    keyPapers: ["paper-hernandez-cancer-guam-hawaii-canep-2017", "paper-david-tobacco-tax-guam-cancer-registry-jcpo-2017", "paper-badowski-early-onset-colorectal-guam-pmedr-2024"], links: [{ label: "University of Guam: Guam Cancer Registry", url: "https://uog.edu/research/guam-cancer-registry" }] }),
 ];
 
 /** Existing record id to the new institution ids it should list (applied in src/data/index.ts). */

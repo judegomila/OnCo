@@ -2307,7 +2307,7 @@ export const tldr_pt: Record<string, string> = {
   radiotherapy: "Usar raios X ou partículas de alta energia para danificar o DNA das células cancerosas em um volume do corpo mirado com precisão. Cura muitos cânceres localizados e alivia sintomas nos avançados, e cerca de metade de todos os pacientes com câncer a recebe.",
   "rai-refractory": "Câncer de tireoide que já não capta iodo radioativo, ou que continua a crescer apesar dele. É aí que entram os comprimidos inibidores de quinase.",
   rambam: "O hospital terciário do norte de Israel, afiliado ao Technion, onde foram feitas as descobertas sobre ubiquitina-proteassoma que estão por trás dos inibidores de proteassoma e dos degradadores.",
-  "rasolute-302": "O ensaio que quase dobrou a sobrevida no câncer de pâncreas previamente tratado, apresentado na sessão plenária da ASCO 2026. O maior resultado da história da doença.",
+  "rasolute-302": "O ensaio em que o daraxonrasib quase dobrou a sobrevida no câncer de pâncreas previamente tratado: 13,2 meses contra 6,7 com quimioterapia.",
   ratify: "O ensaio que fez do FLT3 a primeira mutação tratável de forma dirigida na AML: adicionar midostaurin à quimioterapia triplicou a sobrevida mediana.",
   "re-irradiation": "Aplicar radioterapia novamente em uma região que já foi tratada, algo antes considerado impossível porque os tecidos normais lembram a primeira dose. As técnicas modernas de precisão tornam isso viável em pacientes selecionados.",
   "rebecca-dent": "Oncologista clínica especializada em câncer de mama e vice-CEO para operações clínicas do National Cancer Centre Singapore, líder internacional em ensaios de câncer de mama triplo-negativo.",

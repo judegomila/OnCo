@@ -1123,7 +1123,7 @@ export const technologies: TechnologyInput[] = [
   {
     id: "kras-inhibitors", kind: "technology", name: "KRAS & RAS inhibitors", sections: ["targeted-therapy"], status: "approved", asOf, since: 2021, wikipedia: W("KRAS"),
     tldr: "Drugs against the most common cancer gene, considered impossible to target until sotorasib in 2021.",
-    summary: "Covalent G12C inhibitors (sotorasib, adagrasib, divarasib, olomorasib) work in NSCLC and, with cetuximab, in colorectal cancer. Non-covalent G12D inhibitors (zoldonrasib, MRTX1133) and pan-RAS(ON) tri-complex inhibitors (daraxonrasib RMC-6236, in phase 3 RASolute 302 in second-line pancreatic cancer) aim at pancreatic cancer, where KRAS is near-universal. Degraders and vaccines (ELI-002) follow.",
+    summary: "Covalent G12C inhibitors (sotorasib, adagrasib, divarasib, olomorasib) work in NSCLC and, with cetuximab, in colorectal cancer. G12D inhibitors (zoldonrasib, in phase 3; the only trial of MRTX1133 was terminated in 2025) and pan-RAS(ON) tri-complex inhibitors (daraxonrasib RMC-6236, approved in the United States on 26 August 2026 for previously treated metastatic pancreatic cancer after the phase 3 RASolute 302: median survival 13.2 against 6.7 months with chemotherapy, hazard ratio 0.40) aim at pancreatic cancer, where KRAS is near-universal. Degraders and vaccines (ELI-002) follow.",
     principle: "Inhibitors bind covalently to the mutant cysteine in the switch-II pocket (G12C), or form a cyclophilin-A-mediated tri-complex that blocks effector binding (RAS(ON) inhibitors).",
     strengths: ["First drugs for a 40-year-old target"],
     limitations: ["Modest durability as monotherapy", "Adaptive RTK feedback requires combinations"],

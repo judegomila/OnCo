@@ -226,7 +226,7 @@ export const simpleB: Record<string, string> = {
   alphabreak: "The big trials deciding whether alpha-particle PSMA drugs become the next step after Pluvicto.",
   xalute: "The big trial of the first immune-cell-recruiting drug for prostate cancer.",
   "mevpro-1": "The big trial of the first EZH2 pill combination in prostate cancer.",
-  "rasolute-302": "The trial that nearly doubled survival in previously treated pancreatic cancer. The biggest result in the disease's history.",
+  "rasolute-302": "The trial in which daraxonrasib nearly doubled survival in previously treated pancreatic cancer: 13.2 months against 6.7 with chemotherapy.",
   "napoli-3": "The first head-to-head trial of the two chemotherapy backbones for pancreatic cancer, won narrowly by the four-drug regimen.",
   "prodige-24": "Showed that strong four-drug chemotherapy after pancreatic surgery adds years of life for fit patients.",
   preopanc: "Dutch trials testing whether treating before pancreatic surgery beats operating first.",

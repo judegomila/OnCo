@@ -606,7 +606,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
   "rasolute-302": {
     enrolled: 500,
     outcomes: [{ endpoint: "Overall survival", primary: true, unit: "months", arms: [{ name: "Daraxonrasib", value: 13.2 }, { name: "Chemotherapy (gemcitabine/nab-paclitaxel or mFOLFOX6)", value: 6.7 }], hr: 0.40, source: ct("NCT06625320") }],
-    replication: "Single pivotal trial reported 2026; consistent with the phase 1/2 signal (median OS ~14.5 months in second line). First-line RASolute 303 ongoing.",
+    replication: "Single pivotal trial reported 2026; consistent with the phase 1/2 report (median overall survival 13.1 months in 26 second-line patients with RAS G12 mutations at 300 mg, and 15.6 months among 38 patients with RAS G12, G13 or Q61 mutations). First-line RASolute 303 ongoing.",
   },
   "napoli-3": {
     enrolled: 770,

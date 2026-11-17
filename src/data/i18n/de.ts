@@ -2235,7 +2235,7 @@ export const tldr_de: Record<string, string> = {
   radiotherapy: "Der Einsatz hochenergetischer Röntgenstrahlen oder Teilchen, um die DNA von Krebszellen in einem präzise anvisierten Bereich des Körpers zu schädigen. Sie heilt viele lokal begrenzte Krebserkrankungen, lindert Beschwerden bei fortgeschrittenen, und etwa die Hälfte aller Krebspatienten erhält sie.",
   "rai-refractory": "Schilddrüsenkrebs, der kein radioaktives Jod mehr aufnimmt oder trotzdem weiterwächst. An diesem Punkt kommen Kinasehemmer in Tablettenform ins Spiel.",
   rambam: "Das tertiäre Krankenhaus Nordisraels, dem Technion angegliedert, wo die Entdeckungen zum Ubiquitin-Proteasom-System gemacht wurden, auf denen Proteasominhibitoren und Degrader beruhen.",
-  "rasolute-302": "Die Studie, die das Überleben beim vorbehandelten Bauchspeicheldrüsenkrebs nahezu verdoppelte, vorgestellt in der Plenarsitzung der ASCO 2026. Das größte Ergebnis in der Geschichte dieser Krankheit.",
+  "rasolute-302": "Die Studie, in der Daraxonrasib das Überleben beim vorbehandelten Bauchspeicheldrüsenkrebs nahezu verdoppelte: 13,2 Monate gegenüber 6,7 mit Chemotherapie.",
   ratify: "Die Studie, die FLT3 zur ersten gezielt behandelbaren Mutation bei AML machte: Die Zugabe von midostaurin zur Chemotherapie verdreifachte das mediane Überleben.",
 
   "re-irradiation": "Eine bereits bestrahlte Region erneut bestrahlen, was früher als unmöglich galt, weil sich gesundes Gewebe an die erste Dosis erinnert. Moderne Präzisionstechniken machen es bei ausgewählten Patienten möglich.",

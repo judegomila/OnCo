@@ -2235,7 +2235,7 @@ export const tldr_fr: Record<string, string> = {
   radiotherapy: "Utiliser des rayons X ou des particules de haute énergie pour endommager l'ADN des cellules cancéreuses dans un volume du corps visé avec précision. Elle guérit de nombreux cancers localisés et soulage les symptômes des cancers avancés, et environ la moitié des patients atteints de cancer en reçoivent.",
   "rai-refractory": "Cancer de la thyroïde qui ne capte plus l'iode radioactif, ou qui continue de progresser malgré lui. C'est là qu'interviennent les inhibiteurs de kinases en comprimés.",
   rambam: "L'hôpital de recours du nord d'Israël, affilié au Technion, où ont été faites les découvertes sur le système ubiquitine-protéasome à l'origine des inhibiteurs du protéasome et des dégradeurs.",
-  "rasolute-302": "L'essai qui a presque doublé la survie dans le cancer du pancréas déjà traité, présenté en séance plénière de l'ASCO 2026. Le plus grand résultat de l'histoire de cette maladie.",
+  "rasolute-302": "L'essai dans lequel le daraxonrasib a presque doublé la survie dans le cancer du pancréas déjà traité : 13,2 mois contre 6,7 avec la chimiothérapie.",
   ratify: "L'essai qui a fait de FLT3 la première mutation ciblable dans l'AML : l'ajout de midostaurin à la chimiothérapie a triplé la survie médiane.",
 
   "re-irradiation": "Réadministrer une radiothérapie dans une région déjà traitée, ce que l'on croyait autrefois impossible parce que les tissus sains gardent la mémoire de la première dose. Les techniques modernes de précision la rendent possible chez des patients sélectionnés.",

@@ -115,7 +115,7 @@ export const pathways: PathwayInput[] = [
       }] },
       { from: "mek", to: "erk" }, { from: "erk", to: "out" }, { from: "erk", to: "fb" }, { from: "fb", to: "rtk", type: "inhibits" },
     ],
-    interventions: ["KRAS G12C inhibitors (sotorasib, adagrasib) ± anti-EGFR in colorectal cancer", "Pan-RAS(ON) inhibitor daraxonrasib (phase 3, pancreatic)", "BRAF + MEK inhibitors (dabrafenib/trametinib, encorafenib/binimetinib)", "Encorafenib + cetuximab (+ chemo) in BRAF V600E CRC", "Upstream: EGFR, ALK, RET, MET, NTRK inhibitors and bispecifics"],
+    interventions: ["KRAS G12C inhibitors (sotorasib, adagrasib); sotorasib with anti-EGFR in colorectal cancer (adagrasib's US colorectal approval was removed in August 2026)", "Pan-RAS(ON) inhibitor daraxonrasib (phase 3, pancreatic)", "BRAF + MEK inhibitors (dabrafenib/trametinib, encorafenib/binimetinib)", "Encorafenib + cetuximab (+ chemo) in BRAF V600E CRC", "Upstream: EGFR, ALK, RET, MET, NTRK inhibitors and bispecifics"],
     targets: ["kras", "braf", "egfr", "alk", "ret", "met", "ntrk", "fgfr2", "kit", "nras", "shp2", "nf1"], drugs: ["sotorasib", "adagrasib", "daraxonrasib", "encorafenib", "osimertinib", "lorlatinib"], cancers: ["pancreatic", "colorectal", "nsclc", "melanoma"], links: [
   {
     "label": "Wikipedia",

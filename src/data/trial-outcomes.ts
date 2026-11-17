@@ -341,7 +341,7 @@ const RAW: Record<string, TrialOutcomeIn> = {
       { endpoint: "Recurrence-free survival at 2 years (non-inferiority)", primary: true, unit: "%", arms: [{ name: "ctDNA-guided management", n: 302, value: 93.5 }, { name: "Standard management", n: 153, value: 92.4 }], note: "Non-inferiority met (margin −8.5 points)", source: nejm("NEJMoa2200075") },
       { endpoint: "Patients receiving adjuvant chemotherapy", unit: "%", arms: [{ name: "ctDNA-guided management", value: 15 }, { name: "Standard management", value: 28 }], p: "<0.001", source: nejm("NEJMoa2200075") },
     ],
-    replication: "Supported by observational cohorts (CIRCULATE-Japan GALAXY); DYNAMIC-III in stage III gave a more nuanced result, and randomised escalation trials are ongoing.",
+    replication: "Supported by observational cohorts (CIRCULATE-Japan GALAXY); in stage III, DYNAMIC-III (2025) found that de-escalation for ctDNA-negative patients did not meet non-inferiority (three-year recurrence-free survival 85.3% against 88.1%) and that escalated chemotherapy for ctDNA-positive patients did not improve two-year recurrence-free survival (51% against 61%); in ALTAIR (2026), trifluridine/tipiracil for patients who turned ctDNA-positive after standard treatment did not significantly improve disease-free survival (hazard ratio 0.79, 95% CI 0.60 to 1.05).",
   },
 
   // ---------------- Pipeline (ongoing) ----------------

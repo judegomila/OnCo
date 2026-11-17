@@ -408,10 +408,10 @@ export const drugDepth: Record<string, DrugDepth> = {
     mechanismSteps: TKI_STEPS("KRAS G12C", "Covalent bond to the mutant cysteine locks KRAS in the inactive GDP-bound state"),
   },
   adagrasib: {
-    dosing: { route: "Oral", schedule: "600 mg twice daily; with cetuximab in colorectal cancer", modifications: "Reduce to 400 mg BID then 600 mg once daily for GI, hepatic, or QTc toxicity", monitoring: "LFTs monthly for 3 months; ECG and electrolytes; renal function", source: DM("0b8bf078-34c2-4f45-9012-38a8ac082b01") },
+    dosing: { route: "Oral", schedule: "600 mg twice daily", modifications: "Reduce to 400 mg BID then 600 mg once daily for GI, hepatic, or QTc toxicity", monitoring: "LFTs monthly for 3 months; ECG and electrolytes; renal function", source: DM("0b8bf078-34c2-4f45-9012-38a8ac082b01") },
     toxicity: [tx("Diarrhoea", 70, 0.9), tx("Nausea", 69, 4.3), tx("Fatigue", 59, 7), tx("Vomiting", 56, 0.9), tx("Musculoskeletal pain", 41, 7), tx("Hepatotoxicity", 37, 10), tx("Renal impairment", 36, 6), tx("Dyspnoea", 35, 10), tx("Oedema", 32, 0), tx("QT prolongation", 20, 6)].map((t) => ({ ...t, source: DM("0b8bf078-34c2-4f45-9012-38a8ac082b01"), note: "KRYSTAL-1 NSCLC" })),
     access: [US_PARTD("https://www.bmsaccesssupport.com"), UK_NICE("appraisal for KRAS G12C NSCLC (2025)")],
-    regulatoryEvents: [ev("2021-06", "designation", "US", "Breakthrough Therapy designation"), ev("2022-12-12", "approval", "US", "Accelerated approval, KRAS G12C NSCLC after ≥1 therapy"), ev("2024-06-21", "approval", "US", "KRAS G12C colorectal cancer with cetuximab (accelerated)"), ev("2025-06", "approval", "US", "Full approval in NSCLC (KRYSTAL-12)")],
+    regulatoryEvents: [ev("2021-06", "designation", "US", "Breakthrough Therapy designation"), ev("2022-12-12", "approval", "US", "Accelerated approval, KRAS G12C NSCLC after ≥1 therapy"), ev("2024-06-21", "approval", "US", "KRAS G12C colorectal cancer with cetuximab (accelerated); indication removed from the US label in August 2026")],
     mechanismSteps: TKI_STEPS("KRAS G12C", "Covalent inhibitor with a 24-hour half-life and CNS penetration"),
   },
   daraxonrasib: {

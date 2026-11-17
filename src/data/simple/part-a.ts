@@ -313,7 +313,7 @@ export const simpleA: Record<string, string> = {
   osimertinib: "The standard pill for EGFR-mutant lung cancer, also given after surgery.",
   lorlatinib: "An ALK pill with the longest disease control ever recorded for a targeted lung cancer pill.",
   sotorasib: "The first drug to hit KRAS, approved in 2021 after 40 years of failure.",
-  adagrasib: "The second KRAS G12C pill, approved for lung and bowel cancer.",
+  adagrasib: "The second KRAS G12C pill, approved for lung cancer. Its US approval for bowel cancer was removed in August 2026.",
   daraxonrasib: "A drug that blocks all active forms of RAS. It was approved in the United States in August 2026 for pancreatic cancer that has spread.",
   encorafenib: "A BRAF pill that, with an EGFR antibody and chemotherapy, became a first treatment for BRAF-mutant bowel cancer in 2026.",
   selpercatinib: "A RET pill approved for any tumour with a RET gene fusion.",

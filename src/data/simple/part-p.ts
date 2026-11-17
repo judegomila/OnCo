@@ -817,7 +817,7 @@ export const simpleP: Record<string, string> = {
   "nct06564324": "Nuvation Bio runs this phase 3 trial comparing taletrectinib with crizotinib in advanced ROS1 positive non-small cell lung cancer, and it is now recruiting.",
   "nct07291037": "AstraZeneca runs this phase 3 trial comparing datopotamab deruxtecan with docetaxel in previously treated TROP2 positive non-squamous lung cancer, and it is now recruiting.",
   "nct07361003": "Jiangsu Simcere runs this phase 1b/3 trial of suvemcitug or a placebo with trifluridine/tipiracil tablets in bowel cancer that has spread and resisted treatment, now recruiting.",
-  "nct04793958": "KRYSTAL-10 is a Mirati phase 3 trial of MRTX849 with cetuximab against chemotherapy in advanced bowel cancer with a KRAS G12C mutation, still running but no longer recruiting.",
+  "nct04793958": "KRYSTAL-10 is a Mirati phase 3 trial of MRTX849 with cetuximab against chemotherapy in advanced bowel cancer with a KRAS G12C mutation. It has stopped recruiting, a 2026 review reports it did not lengthen survival, and the US approval it was meant to confirm was withdrawn in 2026.",
   "nct05794906": "Bayer runs this phase 3 trial of darolutamide or a placebo with hormone blocking therapy in men with hormone sensitive prostate cancer, and it is still running but no longer recruiting.",
   "nct02489318": "Aragon runs this phase 3 trial of apalutamide or a placebo with hormone blocking therapy in prostate cancer that has spread but still responds to hormones, no longer recruiting.",
   "nct07022483": "Daiichi Sankyo runs this phase 3 trial comparing trastuzumab deruxtecan with standard chemotherapy in HER2 expressing endometrial cancer, and it is now recruiting.",

@@ -15,7 +15,7 @@ import { answerText } from "../../../src/lib/ask";
 import { applyFilters, ATTRIBUTION, KIND_META, KINDS, kindsTable, OncoClient, OncoError, REGIONS, SITE, urlFor, type EntityRecord, type Kind } from "../../onco-cli/src/client";
 import { keyFields, keyFieldValues } from "../../onco-cli/src/format";
 
-export const VERSION = process.env.ONCO_PACKAGE_VERSION ?? "0.1.0";
+export const VERSION = process.env.ONCO_PACKAGE_VERSION ?? "0.1.1";
 
 type ToolResult = { content: Array<{ type: "text"; text: string }>; isError?: boolean };
 const ok = (data: Record<string, unknown>): ToolResult => ({ content: [{ type: "text", text: JSON.stringify({ ...data, attribution: ATTRIBUTION }, null, 2) }] });

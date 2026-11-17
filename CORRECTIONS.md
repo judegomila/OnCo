@@ -210,6 +210,11 @@ These entries do not recertify every retained assertion in the touched records. 
 | 2026-11-11 | [Antibody tumour penetration](/terms/antibody-tumor-penetration/) | No broad owner carried the transport and measurement teaching | Independent source inventory and named mouse/patient studies | Registers the parent without duplicating the narrower binding-site-barrier concept; universal distance and mass-ratio claims are not adopted |
 
 The [assessment receipt](https://github.com/judegomila/OnCo/pull/375) separates original/later inventories, current field evidence, reader/export checks and source-access residuals. Updated simplified summaries and English fallbacks prevent the older mechanism wording from surviving in reader layers. No main/live, expert or language sign-off is claimed.
+### Shasqi, 16 November 2026
+
+| Date | Entity | What was wrong | How found | Fix |
+|---|---|---|---|---|
+| 2026-11-16 | [Shasqi](/companies/shasqi/) | Said SQ3370 had completed its first-in-human study and that the company continues clinical development | ClinicalTrials.gov NCT04106492 (terminated, results posted 14 November 2025), the investigators' medRxiv preprint and the company's June 2025 description of itself as preclinical | The record now says the trial was stopped because its prespecified response criterion was not met, gives the pipeline as the company publishes it, and carries sourced financing and grants |
 
 ### Therapy and conjugate source follow-up, 11 November 2026
 

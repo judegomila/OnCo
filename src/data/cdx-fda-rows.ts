@@ -84,9 +84,18 @@ export const CDX_FDA_ROWS: Record<string, CompanionDiagnostic[]> = {
   ],
   "hrr-gene-mutation": [
     cdx("FoundationOne Liquid CDx", "Foundation Medicine, Inc.", "Metastatic Castrate Resistant Prostate cancer (mCRPC)-Plasma", ["talazoparib","enzalutamide"], "P190032/S029 (05/27/2026)", "foundation-medicine"),
+    // Added 17 November 2026 from the FDA list (same row is on brca-germline): the whole-blood test for olaparib's mCRPC indication.
+    // The row's biomarker column reads "BRCA1 and BRCA2", not the wider gene list this readout covers, so the indication says so.
+    cdx("BRACAnalysis CDx", "Myriad Genetic Laboratories, Inc.", "Metastatic Castrate Resistant Prostate Cancer (mCRPC) - Whole Blood (BRCA1 and BRCA2 only)", ["olaparib"], "P140020/S020 (05/19/2020)", "myriad-genetics"),
   ],
   "kras-g12c": [
     cdx("Guardant360® Liquid CDx", "Guardant Health, Inc.", "Non-small cell lung cancer (NSCLC) - Plasma", ["sotorasib"], "P250027 (05/19/2026)", "guardant-health"),
+  ],
+  "kras-g12d": [
+    // Added 17 November 2026 from the FDA list: "KRAS wild-type biomarkers (the absence of mutations in exons 2, 3, or 4) and NRAS wild-type biomarkers (the absence of mutations in exons 2, 3, or 4)".
+    cdx("CRCDx RAS Mutation Detection Assay Kit", "EntroGen, Inc.", "Colorectal Cancer (CRC) - Tissue", ["panitumumab"], "P220005 (09/29/2023)", "entrogen"),
+    // Added 17 November 2026 from the FDA list: "KRAS wild-type (absence of mutations in codons 12 and 13)", one row each for Erbitux and Vectibix.
+    cdx("ONCO/Reveal Dx Lung & Colon Cancer Assay (O/RDx-LCCA)", "Pillar Biosciences, Inc.", "Colorectal Cancer - Tissue", ["cetuximab", "panitumumab"], "P200011 (07/30/2021)", "pillar-biosciences"),
   ],
   "met-ex14": [
     cdx("FoundationOne Liquid CDx", "Foundation Medicine, Inc.", "Non-Small Cell Lung Cancer (NSCLC) - Plasma", ["tepotinib"], "P190032/S015 (11/14/2024)", "foundation-medicine"),

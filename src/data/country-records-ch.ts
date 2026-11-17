@@ -32,6 +32,8 @@ const institutions: InstitutionInput[] = [
       { label: "NKRS (German)", url: "https://www.nkrs.ch/de/" },
       { label: "NKRS: history of cancer registration in Switzerland", url: "https://www.nkrs.ch/de/die-krebsregistrierung-kurz-erklaert/geschichte-des-nkrs" },
       { label: "NKRS: the right to object", url: "https://www.nkrs.ch/de/betroffene/ihr-recht-auf-widerspruch" },
+      { label: "NKRS: Kennzahlen zu Diagnose und Therapie (breast and prostate indicators, German)", url: "https://www.nkrs.ch/de/statistiken-und-berichte/kennzahlen-zu-diagnose-und-therapie" },
+      { label: "NKRS: Brustkrebskennzahlen 2020-2022 (summary, PDF, German)", url: "https://www.nkrs.ch/upload/downloads/Berichte%20und%20Statistiken/KennzahlenZuDiagnoseUndTherapie/Summary_BreastCancerIndicators_2020-2022_DE.pdf" },
       { label: "NKRS: Diagnose und Therapie von Prostatakrebs in der Schweiz 2020-2023 (short report, PDF)", url: "https://www.nkrs.ch/upload/downloads/Berichte%20und%20Statistiken/KennzahlenZuDiagnoseUndTherapie/Kurzbericht_zu_Prostatakrebskennzahlen_2020_2023.pdf" },
       { label: "Krebsregistrierungsgesetz (KRG), SR 818.33", url: "https://www.fedlex.admin.ch/eli/cc/2018/289/de" },
     ] }),

@@ -22,7 +22,7 @@ const asOf = "2026-11-03";
 const PMA = (n: string) => ({ label: `FDA PMA ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpma/pma.cfm?id=${n}` });
 const HDE = (n: string) => ({ label: `FDA HDE ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfhde/hde.cfm?id=${n}` });
 const K510 = (n: string) => ({ label: `FDA 510(k) ${n}`, url: `https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=${n}` });
-const FDA_CDX_LIST = { label: "FDA: List of cleared or approved companion diagnostic devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
+const FDA_CDX_LIST = { label: "FDA: List of FDA-Authorized Companion Diagnostic Devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools" };
 
 const d = (x: Omit<DrugInput, "kind" | "asOf"> & { asOf?: string }): DrugInput => ({ kind: "drug", asOf, tags: ["test", ...(x.tags ?? [])], ...x });
 const co = (x: Omit<CompanyInput, "kind" | "asOf">): CompanyInput => ({ kind: "company", asOf, ...x });

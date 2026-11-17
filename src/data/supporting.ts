@@ -295,7 +295,7 @@ const technologies: TechnologyInput[] = [
     technologies: ["organoids", "pdx-models", "functional-drug-testing"], companies: ["discovery-life-sciences", "indivumed", "hub-organoids"], related: ["uk-biobank"],
   }),
   t({
-    id: "reference-laboratories", links: [{ label: "FDA: list of cleared or approved companion diagnostic devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools" }], name: "Reference laboratories and companion-diagnostic testing", sections: ["diagnostics"], status: "standard-of-care",
+    id: "reference-laboratories", links: [{ label: "FDA: list of cleared or approved companion diagnostic devices", url: "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools" }], name: "Reference laboratories and companion-diagnostic testing", sections: ["diagnostics"], status: "standard-of-care",
     tldr: "The big labs that run most biomarker tests, and the reagent makers whose stains decide who gets a drug.",
     summary: "National reference labs (Labcorp, Quest, NeoGenomics, Mayo Clinic Laboratories, ARUP) and academic pathology departments perform IHC, FISH, and NGS at scale; Roche Tissue Diagnostics (Ventana), Agilent (Dako), and Leica Biosystems make the FDA-approved companion-diagnostic IHC assays (PD-L1 22C3/SP142/SP263, HER2 4B5) and the platforms that run them. Assay-platform pairing is why PD-L1 scores are not interchangeable across drugs.",
     principle: "Validated antibody clones, staining platforms, and scoring algorithms tied to a drug label; CLIA/CAP or ISO 15189 accreditation; NGS panels under FDA or LDT oversight.",

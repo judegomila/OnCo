@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { acceptedCrossReferences, assertNoFacilityContacts, facilityObservations, makeSnapshot, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationStudy } from "./trial-participation";
+import { acceptedCrossReferences, assertNoFacilityContacts, facilityObservations, makeSnapshot, ownRegistryIds, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, unexpectedSharedRegistrations, type ParticipationStudy } from "./trial-participation";
 
 const study: ParticipationStudy = { protocolSection: {
   identificationModule: { nctId: "NCT01578239" },
@@ -98,6 +98,40 @@ describe("registry participation custody", () => {
     expect(acceptedCrossReferences("espac-3", [{ nct: "NCT00058201" }])).toEqual([{ nct: "NCT00058201" }]);
     expect(acceptedCrossReferences("espac-4", [{ nct: "NCT99999999" }])).toEqual([{ nct: "NCT99999999" }]);
     expect(acceptedCrossReferences("anything", undefined)).toEqual([]);
+  });
+
+  it("reads a link to another record's registration as a citation, not as the record's own", () => {
+    const ct = (nct: string) => ({ url: `https://clinicaltrials.gov/study/${nct}` });
+    const own = ownRegistryIds([
+      // MOUNTAINEER links its phase 3 successor, which has a record of its own.
+      { id: "mountaineer", nct: "NCT03043313", links: [ct("NCT03043313"), ct("NCT05253651")] },
+      { id: "mountaineer-03", nct: "NCT05253651", links: [ct("NCT05253651")] },
+      // A record registered on ISRCTN keeps the ClinicalTrials.gov number it links, even where another record names it.
+      { id: "radicals-hd", nct: "ISRCTN40814031", links: [ct("NCT00541047")] },
+      { id: "radicals-rt", nct: "NCT00541047", links: [ct("NCT00541047")] },
+      // A second registration that no other record owns stays with the record that links it.
+      { id: "combined", nct: "NCT00000001", links: [ct("NCT00000001"), ct("NCT00000002")] },
+    ]);
+    expect(own.get("mountaineer")).toEqual(["NCT03043313"]);
+    expect(own.get("mountaineer-03")).toEqual(["NCT05253651"]);
+    expect(own.get("radicals-hd")).toEqual(["NCT00541047"]);
+    expect(own.get("combined")).toEqual(["NCT00000001", "NCT00000002"]);
+  });
+
+  it("drops the two cross-references that name a different study from the record", () => {
+    // ISRCTN83842641 lists FOxTROT2France's number; ISRCTN59368779 covers START A and B but lists only Trial A's.
+    expect(acceptedCrossReferences("foxtrot", [{ nct: "NCT06293625" }])).toEqual([]);
+    expect(acceptedCrossReferences("start-b", [{ nct: "NCT00005588" }])).toEqual([]);
+    expect(acceptedCrossReferences("start-a", [{ nct: "NCT00005588" }])).toEqual([{ nct: "NCT00005588" }]);
+  });
+
+  it("reports a registration attached to two records unless the pair is a recorded one", () => {
+    expect(unexpectedSharedRegistrations([{ id: "roar", ncts: ["NCT02034110"] }, { id: "roar-atc", ncts: ["NCT02034110"] }])).toEqual([]);
+    expect(unexpectedSharedRegistrations([{ id: "mountaineer", ncts: ["NCT03043313", "NCT05253651"] }, { id: "mountaineer-03", ncts: ["NCT05253651"] }]))
+      .toEqual([{ nct: "NCT05253651", records: ["mountaineer", "mountaineer-03"] }]);
+    // A recorded pair does not cover a third record.
+    expect(unexpectedSharedRegistrations([{ id: "roar", ncts: ["NCT02034110"] }, { id: "roar-atc", ncts: ["NCT02034110"] }, { id: "other", ncts: ["NCT02034110"] }]))
+      .toEqual([{ nct: "NCT02034110", records: ["other", "roar", "roar-atc"] }]);
   });
 
   it("follows a cursor even after every requested study has arrived", async () => {

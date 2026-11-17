@@ -8,7 +8,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, writeFile
 import { join } from "node:path";
 import { graph } from "../src/lib/graph";
 import { TRIAL_PARTICIPATION } from "../src/data/trial-participation";
-import { PARTICIPATION_FIELDS, acceptedCrossReferences, assertNoContacts, assertNoFacilityContacts, makeSnapshot, participationReference, participationSummary, readParticipationPages, registryIds, studyHash, type ParticipationSnapshot, type ParticipationStudy } from "./trial-participation";
+import { PARTICIPATION_FIELDS, acceptedCrossReferences, assertNoContacts, assertNoFacilityContacts, makeSnapshot, ownRegistryIds, participationReference, participationSummary, readParticipationPages, studyHash, unexpectedSharedRegistrations, type ParticipationSnapshot, type ParticipationStudy } from "./trial-participation";
 
 const root = process.cwd();
 // The ISRCTN snapshots and the cross-reference file are small (640 KB for 53 studies) and stay published.
@@ -70,10 +70,15 @@ async function main() {
   const alternatePath = join(out, "alternate-registries.json");
   type AlternateTrial = { crossReferences: Array<{ nct: string; source: string; registryId: string; registryTitle?: string }>; captures: Array<{ registry: string; registryId: string; source: string; snapshot: string; fetchedAt: string; lastUpdated?: string; hasEligibility: boolean; siteCount: number; sponsors: string[] }>; sourceAudits: Array<{ source: string; status: string; expectedRegistryId?: string; observedRegistryId?: string; observedTitle?: string }> };
   const alternates: Record<string, AlternateTrial> = existsSync(alternatePath) ? JSON.parse(readFileSync(alternatePath, "utf8")).trials : {};
-  const canonical = graph().kind("trial").map((t) => ({ id: t.id, name: t.name, nctField: t.nct,
-    ncts: [...new Set([...registryIds(t), ...acceptedCrossReferences(t.id, alternates[t.id]?.crossReferences).map((r) => r.nct)])].sort(),
+  const trials = graph().kind("trial");
+  // A linked registration that belongs to another record is a citation, not this record's own: see ownRegistryIds.
+  const own = ownRegistryIds(trials);
+  const canonical = trials.map((t) => ({ id: t.id, name: t.name, nctField: t.nct,
+    ncts: [...new Set([...(own.get(t.id) ?? []), ...acceptedCrossReferences(t.id, alternates[t.id]?.crossReferences).map((r) => r.nct)])].sort(),
     registryCrossReferences: acceptedCrossReferences(t.id, alternates[t.id]?.crossReferences),
     originalSponsor: t.sponsor, sources: t.links.map((l) => l.url), sourceLinks: t.links }));
+  const shared = unexpectedSharedRegistrations(canonical);
+  if (shared.length) throw new Error(`One registration is attached to more than one record. Correct the record, reject the cross-reference, or name the pair in SHARED_REGISTRATIONS:\n${shared.map((s) => `  ${s.nct}: ${s.records.join(", ")}`).join("\n")}`);
   const drugMap = new Map<string, Set<string>>();
   let drugSnapshotRows = 0;
   for (const name of readdirSync(join(root, "public/trials")).filter((n) => n.endsWith(".json") && !["index.json", "changes.json"].includes(n)).sort()) {

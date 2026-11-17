@@ -70,6 +70,7 @@ const institutions: InstitutionInput[] = [
       { label: "Thai FDA: Collaboration on Streamlining Review for Pharmaceuticals, 11th Thailand-Japan Symposium (PDF)", url: FDA_TIMELINES },
       { label: "National Drug Policy Division: NLEM sub-lists (Internet Archive, 8 September 2025, Thai)", url: NLEM_SUBLISTS },
       { label: "National Drug Policy Division: NLEM notices (Internet Archive, 10 July 2026, Thai)", url: NLEM_NOTICES },
+      { label: "Thai PBS: Imcranib 100, registered by the Thai FDA on 20 May 2025 (Thai)", url: "https://www.thaipbs.or.th/news/content/506671" },
       { label: "Food and Drug Administration, Thailand", url: "https://www.fda.moph.go.th" },
     ] }),
 

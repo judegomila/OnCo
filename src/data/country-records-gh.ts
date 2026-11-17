@@ -93,6 +93,7 @@ const institutions: InstitutionInput[] = [
       doi("10.1186/1471-2407-14-362", "Laryea et al., cancer incidence in Ghana, 2012 (BMC Cancer 2014)"),
       doi("10.1186/s12885-019-5480-0", "Amoako et al., malignant tumours in urban Ghana: Kumasi (BMC Cancer 2019)"),
       { label: "MyJoyOnline: Kumasi Cancer Registry appeals for government, public support (24 April 2015)", url: "https://www.myjoyonline.com/kumasi-cancer-registry-appeals-for-government-public-support/" },
+      doi("10.21037/tbcr-24-60", "Nair et al., the role of a national cancer registry in the Global Breast Cancer Initiative in Ghana (Transl Breast Cancer Res 2025)"),
     ] }),
 
   i({ id: "ghana-medical-trust-fund", name: "Ghana Medical Trust Fund (MahamaCares)", aka: ["MahamaCares", "GMTF", "Mahama Cares"],

@@ -274,6 +274,7 @@ export const simpleD: Record<string, string> = {
   "sarah-sirvenib": "These trials tested radioactive beads against the standard pill in liver cancer; they found the beads were gentler but did not help people live longer.",
   "select-lenvatinib": "This trial tested a pill in thyroid cancer no longer responding to radioactive iodine; it found the cancer took far longer to grow.",
   "senticol-iii": "This trial is testing whether removing only the first draining lymph nodes is safe in early cervical cancer; results are expected in 2027 or 2028.",
+  "sequoia-pancreatic": "This trial added an immune-boosting drug, pegilodecakin, to FOLFOX chemotherapy for pancreatic cancer that had spread and had already been treated once; people did not live longer.",
   sequoia: "This trial tested a BTK pill against chemotherapy in untreated chronic leukaemia; it found far fewer relapses, including in the hardest genetic group.",
   "serena-6": "This trial switched breast cancer treatment when a blood test found a gene change, before any scan showed growth; it found the cancer stayed controlled longer.",
   sharp: "This trial tested a pill against placebo in advanced liver cancer; it found people lived longer, the first drug ever to do so in this disease.",

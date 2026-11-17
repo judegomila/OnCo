@@ -107,7 +107,7 @@ const NG131: TestCoverageDocument = {
   url: "https://www.nice.org.uk/guidance/ng131/chapter/Recommendations",
 };
 
-const FDA_CDX_LIST = "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-cleared-or-approved-companion-diagnostic-devices-in-vitro-and-imaging-tools";
+const FDA_CDX_LIST = "https://www.fda.gov/medical-devices/in-vitro-diagnostics/list-fda-authorized-companion-diagnostic-devices-in-vitro-and-imaging-tools";
 const MCD_LCD_LIST = "https://api.coverage.cms.gov/v1/reports/local-coverage-final-lcds";
 const MCD_ARTICLE_LIST = "https://api.coverage.cms.gov/v1/reports/local-coverage-articles";
 

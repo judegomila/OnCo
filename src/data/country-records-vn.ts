@@ -49,6 +49,8 @@ const institutions: InstitutionInput[] = [
       { label: "Decision 358/QD-BYT, national action plan on breast and cervical cancer 2026 to 2035 (PDF, Vietnamese)", url: QD358 },
       { label: "Politburo Resolution 72-NQ/TW, 9 September 2025 (full text, Vietnamese)", url: NQ72 },
       { label: "SGGP: Ministry of Health on revising the insurance medicines list, 26 September 2026 (Vietnamese)", url: SGGP_LIST_2026 },
+      { label: "Nguoi Lao Dong: Ministry of Health on insurance spending on cancer medicines, 18 June 2026 (Vietnamese)", url: NLD_DRUGS_2026 },
+      { label: "Dan Tri: the new insurance list would add 84 medicines, 30 of them for cancer, 28 May 2026 (Vietnamese)", url: "https://dantri.com.vn/suc-khoe/30-thuoc-dieu-tri-ung-thu-the-he-moi-chi-phi-cao-sap-duoc-bhyt-chi-tra-20260528112629967.htm" },
     ] }),
 
   i({ id: "dav-vietnam", name: "Drug Administration of Vietnam", aka: ["Cục Quản lý Dược", "DAV"],

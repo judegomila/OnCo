@@ -104,6 +104,7 @@ const institutions: InstitutionInput[] = [
       { label: "Resolución 1816 de 2026 on MIPRES (copy hosted by Consultorsalud, PDF, Spanish)", url: RES_1816 },
       { label: "Resolución 1233 de 2026, Plan Decenal para el Control del Cáncer 2026-2035 (Keralty legal compilation, Spanish)", url: RES_1233 },
       { label: "Resolución 2475 de 2016, imatinib (PDF, Spanish)", url: RES_2475 },
+      { label: "Circular 04 de 2016 of the national price commission, Glivec (INVIMA legal compilation, Spanish)", url: "https://normograma.invima.gov.co/normograma/compilacion/docs/circular_cnpmd_0004_2016.htm" },
       { label: "Ministerio de Salud y Protección Social", url: "https://www.minsalud.gov.co" },
     ] }),
 

@@ -3,7 +3,7 @@ import { createElement } from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { AppRouterContext, type AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import AutoCountryPage from "./page";
-import { autoCountry, countryIndex } from "@/lib/country-pages";
+import { autoCountry, autoCountryCodes, countryIndex } from "@/lib/country-pages";
 import { GLOBOCAN } from "@/lib/globocan";
 import { pageRows } from "@/lib/static-tables";
 import { pagedTables } from "@/lib/tables";
@@ -11,10 +11,13 @@ import { COUNTRY_TRIALS_PAGE, countryTrialRows, countryTrials, countryTrialsTabl
 import { recruitingIn } from "@/lib/trials-here";
 
 /**
- * The automatic country pages render from data alone. Three shapes: a small Pacific island whose incidence IARC
- * built from neighbouring countries (Samoa), the automatic page with the most trials (Estonia; Peru held this place
- * until its deep dive arrived), and a territory reported on its own (Guam). Each must state GLOBOCAN's figures and edition, cite IARC, and name what
- * OnCo does not hold, inside the markup budget the automatic pages share.
+ * The automatic country pages render from data alone. Two shapes: a small Pacific island whose incidence IARC
+ * built from neighbouring countries (Samoa), and a territory reported on its own (Guam), which since wave 13 of the
+ * deep dives (16 November 2026) is also the automatic page with the most trials: nine, under one page of rows. Peru
+ * and then Estonia held that place until their deep dives arrived, and no automatic page now has a trial table long
+ * enough to page, so the paging is checked on Estonia's table, which the deep dive renders through the same section.
+ * Each automatic page must state GLOBOCAN's figures and edition, cite IARC, and name what OnCo does not hold, inside
+ * the markup budget the automatic pages share.
  */
 vi.mock("next/font/google", () => ({ Geist: () => ({ variable: "font-geist-sans" }), Geist_Mono: () => ({ variable: "font-geist-mono" }) }));
 
@@ -25,7 +28,7 @@ const BUDGET = 120 * 1024;
 const fmt = (n: number | null | undefined) => (n ?? 0).toLocaleString("en-GB");
 
 describe("automatic country pages", () => {
-  for (const iso of ["ws", "ee", "gu"]) {
+  for (const iso of ["ws", "gu"]) {
     it(`/countries/${iso}/ states GLOBOCAN's figures, the citation and the gaps`, async () => {
       const c = autoCountry(iso)!;
       const html = await render(iso);
@@ -47,20 +50,28 @@ describe("automatic country pages", () => {
     expect(html).toContain("neighbouring countries");
   });
 
-  it("lists Estonia's trials, paged, and its records", async () => {
-    const c = autoCountry("ee")!;
-    expect(c.trials.length).toBeGreaterThan(30);
-    const html = await render("ee");
-    expect(html).toContain(`${recruitingIn("EE").length} recruiting here · ${c.trials.length} with a site here`);
-    const list = countryTrials("EE");
+  it("lists every trial and record of the automatic page with the most trials (Guam)", async () => {
+    const c = autoCountry("gu")!;
+    expect(c.trials.length).toBeGreaterThan(0);
+    const html = await render("gu");
+    expect(html).toContain(`${recruitingIn("GU").length} recruiting here · ${c.trials.length} with a site here`);
+    const list = countryTrials("GU");
     expect(list.map((x) => x.trial.id).sort()).toEqual(c.trials.map((t) => t.id).sort());
-    const rows = countryTrialRows(list);
-    const paged = pageRows(countryTrialsTableId("EE"), rows, COUNTRY_TRIALS_PAGE);
+    // Under one page of rows, so the page carries all of them and no file is fetched.
+    expect(list.length).toBeLessThanOrEqual(COUNTRY_TRIALS_PAGE);
+    expect(pageRows(countryTrialsTableId("GU"), countryTrialRows(list), COUNTRY_TRIALS_PAGE).more).toBeUndefined();
+    for (const x of list) expect(html).toContain(`href="/trials/${x.trial.id}`);
+    for (const e of c.institutions) expect(html).toContain(e.name.replace(/&/g, "&amp;").replace(/'/g, "&#x27;"));
+  });
+
+  it("pages a country's trial table once it is longer than a page (Estonia, now a deep dive)", () => {
+    expect(autoCountryCodes(), "Estonia has a deep dive, so no automatic page").not.toContain("EE");
+    const list = countryTrials("EE");
+    expect(list.length).toBeGreaterThan(COUNTRY_TRIALS_PAGE);
+    const paged = pageRows(countryTrialsTableId("EE"), countryTrialRows(list), COUNTRY_TRIALS_PAGE);
+    expect(paged.rows.length).toBe(COUNTRY_TRIALS_PAGE);
     expect(paged.more?.src).toBe("/api/v1/tables/country-trials-ee.json");
     expect(pagedTables().map((t) => t.id)).toContain("country-trials-ee");
-    expect(html).toContain(`href="/trials/${list[0].trial.id}`);
-    expect(html).not.toContain(`href="/trials/${list.at(-1)!.trial.id}`);
-    for (const e of c.institutions) expect(html).toContain(e.name.replace(/&/g, "&amp;").replace(/'/g, "&#x27;"));
   });
 
   it("names a trial gap rather than showing an empty table", async () => {

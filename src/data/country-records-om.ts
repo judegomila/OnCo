@@ -6,7 +6,12 @@ import type { EntityInput, InstitutionInput } from "@/lib/schema";
  * Drug Safety Center's page, and "Cancer Incidence in Oman 2021" (PDF text, published 2025). The National Oncology
  * Centre at the Royal Hospital, the Sultan Qaboos Comprehensive Cancer Care and Research Centre and the Oman Cancer
  * Association already have records and are linked by id from the page, not repeated here. Coordinates are an
- * approximate city point for Muscat, the same point other Muscat records use.
+ * approximate city point for Muscat, the same point other Muscat records use. The Drug Safety Center's page gives its
+ * address as Muscat, Al-Khuwair; the ministry's "About" page and the registry report state no address, so Muscat for
+ * those two records rests on the centre being listed among the directorates at the ministry's headquarters.
+ *
+ * Second accuracy pass, 16 November 2026: the alias "ONCR" was removed (the registry's report does not use it) and the
+ * 1996 transfer was reworded to what the report says.
  */
 const asOf = "2026-11-16";
 type I = Omit<InstitutionInput, "kind" | "asOf">;
@@ -27,10 +32,10 @@ const institutions: InstitutionInput[] = [
     cancers: ["breast-cancer", "colorectal", "cervical"],
     links: [{ label: "Ministry of Health: About the ministry", url: MOH_ABOUT }, { label: "Ministry of Health: cancer reports", url: MOH_REPORTS }] }),
 
-  i({ id: "oman-national-cancer-registry", name: "Oman National Cancer Registry", aka: ["National Cancer Registry, Oman", "ONCR"],
+  i({ id: "oman-national-cancer-registry", name: "Oman National Cancer Registry", aka: ["National Cancer Registry, Oman"],
     city: "Muscat", country: "OM", lat: 23.588, lng: 58.383, institutionType: "government", website: MOH_REPORTS,
     tldr: "The health ministry's national cancer registry. It began as a hospital registry in 1985, has published a national report for every year from 1996 to 2021, and registered 2,510 tumours for 2021, of which 2,318 were cancers among Omani nationals.",
-    summary: "The registry's 2021 report, published in 2025, says it was established in 1985 as a hospital-based registry and moved in 1996 to the ministry's non-communicable disease department; cancer notification became mandatory in 2001 under Ministerial Decision 4/2001, replaced in 2017 by Decision 222/2017, which covers civil, military and private health institutions and requires a report within 30 days of diagnosis. Two trained registrars collect and code the data, visiting the Royal Hospital twice a week, and the registry uses IARC's CanReg5 software. It also traces patients treated abroad through the ministry's treatment abroad committee and lists from the United Arab Emirates. The 2021 report counts 2,510 tumours: 2,318 cancers among Omanis, 163 among non-Omanis and 29 in situ. Incidence rates are calculated for Omanis only: an age-standardised rate of 122.2 per 100,000 in 2021. It reports 97.6% of 2021 cases as morphologically verified and none registered from a death certificate alone.",
+    summary: "The registry's 2021 report, published in 2025, says it was established in 1985 as a hospital-based registry and was transferred in 1996, when the Department of Non-Communicable Diseases Surveillance and Control was set up; cancer notification became mandatory in 2001 under Ministerial Decision 4/2001, replaced in 2017 by Decision 222/2017, which covers civil, military and private health institutions and requires a report within 30 days of diagnosis. Two trained registrars collect and code the data, visiting the Royal Hospital twice a week, and the registry uses IARC's CanReg5 software. It also traces patients treated abroad through the ministry's treatment abroad committee and lists from the United Arab Emirates. The 2021 report counts 2,510 tumours: 2,318 cancers among Omanis, 163 among non-Omanis and 29 in situ. Incidence rates are calculated for Omanis only: an age-standardised rate of 122.2 per 100,000 in 2021. It reports 97.6% of 2021 cases as morphologically verified and none registered from a death certificate alone.",
     programs: ["Annual Cancer Incidence in Oman report (26th edition covers 2021)", "Mandatory cancer notification under Ministerial Decision 222/2017"],
     institutions: ["moh-oman", "royal-hospital-national-oncology-centre-oman", "iarc"],
     cancers: ["breast-cancer", "colorectal", "non-hodgkin-lymphoma", "childhood-cancers"],

@@ -26,6 +26,7 @@ const BMC_PALLIATIVE = "10.1186/s12904-021-00717-2";
 const JONC_2019 = "10.1155/2019/8463195";
 const SCIREP_2025 = "10.1038/s41598-025-91119-4";
 const APJCP_2025 = "10.31557/apjcp.2025.26.3.861";
+const WHO_CERVICAL = "https://cdn.who.int/media/docs/default-source/country-profiles/cervical-cancer/cervical-cancer-kwt-2021-country-profile-en.pdf";
 
 const institutions: InstitutionInput[] = [
   i({ id: "kuwait-cancer-registry", name: "Kuwait Cancer Registry", aka: ["KCR", "Epidemiology and Cancer Registry Department, Kuwait Cancer Control Center", "Kuwait national cancer registry"],
@@ -41,7 +42,7 @@ const institutions: InstitutionInput[] = [
       { label: "Kuwait Cancer Control Center: Strategic Plan 2019 to 2023 (PDF, ICCP portal)", url: KCCC_PLAN },
     ] }),
 
-  i({ id: "nbk-specialized-hospital-for-children-kuwait", name: "National Bank of Kuwait Specialized Hospital for Children", aka: ["NBK Specialized Hospital for Children", "NBK Children's Hospital", "National Bank of Kuwait Specialized Children's Hospital"],
+  i({ id: "nbk-specialized-hospital-for-children-kuwait", name: "National Bank of Kuwait Specialized Hospital for Children", aka: ["NBK Specialized Hospital for Children", "NBK Hospital", "National Bank of Kuwait Specialized Children's Hospital"],
     city: "Kuwait City", country: "KW", lat: 29.33, lng: 47.91, institutionType: "hospital",
     tldr: "The hospital in Kuwait's Sabah health area to which children with cancer are referred. It keeps a childhood cancer registry reaching back to 2004.",
     summary: "The hospital's 2021 paper describes it as the only hospital that manages paediatric cancer patients in Kuwait and says all paediatric cancer patients in the country are referred to it. Its childhood cancer registry, begun in May 2016, held 1,387 patients for 2004 to 2017; among the 1,009 files analysed, leukaemia (457), lymphoma (141) and brain tumours (92) were the commonest, and overall survival was around 80%. At a conference on 7 April 2025 reported by the Arab Times, the head of its Hematology, Pediatric Oncology and Stem Cell Transplantation Department described 64 beds, a 12-bed day ward and 1,154 admissions a year. OnCo has not read a page of the hospital's own.",
@@ -58,7 +59,10 @@ const institutions: InstitutionInput[] = [
     summary: "A 2021 paper from the centre describes it as a specialised tertiary medical centre focused on the complex symptoms and quality of life of cancer patients, and as the only available standalone building offering palliative care services in Kuwait. Reviewing cancer patients referred between January 2016 and December 2017, the paper reports that pain and other symptom scores fell after referral and that the share of patients with a negative pain management index fell from 25.4% before referral to 1.7% by day six. WHO's 2021 cervical cancer profile records that palliative care was not generally available in primary care facilities or in community and home-based care. The description is from 2021 and may not be current.",
     programs: ["Specialist palliative care for cancer", "Cancer pain management"],
     institutions: ["kuwait-cancer-control-center", "kuwait-ministry-of-health"],
-    links: [doi(BMC_PALLIATIVE, "Opioid and adjuvant prescriptions before and after referral to the Palliative Care Center in Kuwait (BMC Palliat Care 2021)")] }),
+    links: [
+      doi(BMC_PALLIATIVE, "Opioid and adjuvant prescriptions before and after referral to the Palliative Care Center in Kuwait (BMC Palliat Care 2021)"),
+      { label: "WHO: cervical cancer country profile, Kuwait (2021, PDF)", url: WHO_CERVICAL },
+    ] }),
 ];
 
 const papers: PaperInput[] = [
@@ -69,7 +73,7 @@ const papers: PaperInput[] = [
     findings: [
       "14.2% of patients were diagnosed at a localised stage and 38.9% at a regional stage.",
       "The share of patients with a known stage fell from 88.9% in 2000 to 2004 to 59.4% in 2010 to 2013.",
-      "For patients diagnosed at a localised stage in 2005 to 2009, one-year and five-year survival was about 90% or higher for colon, rectal, breast, cervical and prostate cancer.",
+      "For patients diagnosed at a localised stage in 2005 to 2009, one-year and five-year net survival was about 90% or higher for colon, rectal, breast, cervical and prostate cancer.",
       "Five-year net survival for all stages combined was lower than in the United States for colon, lung and breast cancer, while stage-specific survival was similar.",
     ],
     whatItMeans: "The gap in survival between Kuwait and the United States in these years is explained more by how late cancers were found than by how they were treated once found, which is the case the authors make for early detection and public awareness.",
@@ -99,24 +103,24 @@ const papers: PaperInput[] = [
     findings: [
       "Stool blood test followed by colonoscopy or sigmoidoscopy: 7.7 quality-adjusted life years at US$3,573; no screening: 7.2 at US$4,084.",
       "Sigmoidoscopy alone or colonoscopy alone: 6.8 quality-adjusted life years each, at US$4,905 and US$5,002.",
-      "The paper cites Kuwait Cancer Registry data: 2,710 colorectal cancers from January 2010 to December 2019, about 10.2% of all cancers, at 13.2 per 100,000.",
+      "The paper cites Kuwait Cancer Registry data: 2,710 colorectal cancers from January 2010 to December 2019, about 10.2% of all cancers, and a rate of 13.2 per 100,000.",
     ],
     whatItMeans: "It gives Kuwait's health planners a local estimate in favour of a stool-test-first screening programme, and records that the reach of the Ministry's 2015 early diagnosis programme is not known.",
-    caveats: ["A model with 14 assumed parameters, not a trial; the cost of setting up a national programme was not included.", "Costs are from the provider's side only."],
+    caveats: ["A model, not a trial: it rests on several stated assumptions, such as an equal chance of each stage at diagnosis, and the cost of setting up a national programme was not included.", "Costs are from the provider's side only; costs to patients, such as travel and lost earnings, were left out."],
     institutions: ["kuwait-cancer-registry", "kuwait-ministry-of-health"], cancers: ["colorectal"],
     links: [doi(SCIREP_2025, "Sci Rep 2025"), pubmed("40025065")] }),
 
   p({ id: "paper-alawadhi-kuwait-cervical-screening-steps-apjcp-2025", name: "Uptake of cervical cancer screening among Kuwaiti women in the WHO STEPS survey",
     journal: "Asian Pacific Journal of Cancer Prevention", year: 2025, doi: APJCP_2025, pmid: "40156402", authors: "Alawadhi E, Albahar S, Tolma E, et al.", paperType: "observational", participants: 2292,
-    tldr: "In a nationally representative survey, 15.2% of Kuwaiti women aged 18 to 69 had been screened for cervical cancer, with lower uptake outside the Capital governorate.",
-    summary: "Published as \"Disparities in the Uptake of Cervical Cancer Screening in Kuwait: A Cross-Sectional Analysis of the Nationwide WHO STEPS Survey\". Data for 2,292 women aged 18 to 69 from a representative Kuwaiti sample of 3,915 people were age-weighted and analysed with multivariable logistic regression.",
+    tldr: "In a nationally representative survey carried out in 2014, 15.2% of Kuwaiti women aged 18 to 69 had ever been screened for cervical cancer, with lower uptake outside the Capital governorate.",
+    summary: "Published as \"Disparities in the Uptake of Cervical Cancer Screening in Kuwait: A Cross-Sectional Analysis of the Nationwide WHO STEPS Survey\". Data for 2,292 women aged 18 to 69 from a representative Kuwaiti sample of 3,915 people, collected during 2014, were age-weighted and analysed with multivariable logistic regression.",
     findings: [
       "Weighted screening prevalence was 15.2% (95% confidence interval 13.7 to 16.7).",
       "Women aged 60 to 69 were four times as likely to have been screened as those aged 18 to 29; married, divorced or widowed, retired and more educated women had higher odds.",
       "Women living outside the Capital governorate had 60% lower odds of screening (odds ratio 0.4, 0.3 to 0.6).",
     ],
     whatItMeans: "Kuwait has no organised cervical screening programme, and this is the measure of what testing on request reaches. The authors call for an organised, physician-endorsed programme that fits Kuwait's cultural norms.",
-    caveats: ["Kuwaiti citizens only.", "Screening history was self-reported."],
+    caveats: ["Kuwaiti citizens only.", "The survey data were collected in 2014, eleven years before the paper was published."],
     institutions: ["kuwait-ministry-of-health"], cancers: ["cervical"],
     links: [doi(APJCP_2025, "Asian Pac J Cancer Prev 2025"), pubmed("40156402")] }),
 ];

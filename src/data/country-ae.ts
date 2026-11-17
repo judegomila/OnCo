@@ -10,8 +10,9 @@ import type { CountryDive } from "@/data/country-dive";
  * pages and its IFHAS screening package sheet; Daman's Abu Dhabi Basic plan page; the Dubai Health Authority's ISAHD
  * pages and its BASMAH cancer programme guideline (PDF); two Abu Dhabi Media Office notices; and the full text of two
  * papers by Al-Shamsi and colleagues in Clinics and Practice (2022) and one editorial in Cureus (2025), read through
- * Europe PMC. The sites of the Ministry of Health and Prevention, the Department of Health Abu Dhabi, the Dubai Health
- * Authority and the u.ae portal could not be read; what that leaves out is named under `gaps`.
+ * Europe PMC. A second pass the same day re-read each source and added the u.ae portal's health insurance page and the
+ * UAE site statuses on ClinicalTrials.gov. The sites of the Ministry of Health and Prevention, the Department of Health
+ * Abu Dhabi and the Dubai Health Authority could not be read; what that leaves out is named under `gaps`.
  */
 const NCR_2019 = "https://web.archive.org/web/20240411162544/https://mohap.gov.ae/assets/download/bc820447/CANCER%20INCIDENCE%20IN%20UNITED%20ARAB%20EMIRATES%20ANNUAL%20REPORT%20OF%20THE%20UAE%20-%202019.pdf.aspx";
 const IARC_FACTSHEET = "https://gco.iarc.who.int/media/globocan/factsheets/populations/784-united-arab-emirates-fact-sheet.pdf";
@@ -40,6 +41,8 @@ const WB_PC = "https://data.worldbank.org/indicator/SH.XPD.CHEX.PC.CD?locations=
 const WB_GOV = "https://data.worldbank.org/indicator/SH.XPD.GHED.CH.ZS?locations=AE";
 const DIRAC = "https://dirac.iaea.org/Query/Countries";
 const CTGOV = "https://clinicaltrials.gov/search?country=United%20Arab%20Emirates&cond=cancer";
+const THIQA_HOME = "https://www.thiqa.ae/";
+const UAE_INSURANCE = "https://u.ae/en/information-and-services/health-and-fitness/Healthcare-access-and-insurance/getting-a-health-insurance";
 
 export const AE_DIVE: CountryDive = {
   iso2: "AE",
@@ -79,7 +82,7 @@ export const AE_DIVE: CountryDive = {
           plain:
             "The UAE National Cancer Registry sits in the Ministry of Health and Prevention and counts every cancer diagnosed or treated in the country, in citizens and non-citizens. Its report for 2019, the latest OnCo could read, recorded 4,381 malignant cancers and 252 in-situ cases.",
           detail:
-            "The 2019 report, which calls itself the registry's sixth annual report, describes a population-based registry set up under the ministry by order of the UAE Cabinet, part of the National Diseases Registry within the ministry's Statistics and Research Center. A ministerial decree makes cancer a mandatory notifiable disease. Cases come from the Department of Health's central cancer registry for Abu Dhabi, the Dubai Health Authority's central registry, hospital records departments, pathology laboratories, death records and the ministry's medical treatment abroad department, and duplicates are removed by cross-checking Emirates ID number, name, age, sex, date of birth and address. For 2019 it reports 4,633 newly diagnosed cases, 2,604 in females and 2,029 in males, a crude incidence of 46.1 per 100,000 (75.8 in females, 31.0 in males) and an age-standardised rate of 78.4. In-situ cases are left out of the crude rates. It recorded 125 cancers in children under 15, leukaemia the commonest (44).",
+            "The 2019 report, which calls itself the registry's sixth annual report, describes a population-based registry set up under the ministry by order of the UAE Cabinet and the Minister of Health and Prevention, part of the National Diseases Registry within the ministry's Statistics and Research Center. A ministerial decree makes cancer a mandatory notifiable disease. Cases come from the Department of Health's central cancer registry for Abu Dhabi, the Dubai Health Authority's central registry, hospital records departments, pathology laboratories, death records and the ministry's medical treatment abroad department, and duplicates are removed by cross-checking Emirates ID number, name, age, sex, date of birth and address. For 2019 it reports 4,633 newly diagnosed cases, 2,604 in females and 2,029 in males, a crude incidence of 46.1 per 100,000 (75.8 in females, 31.0 in males) and an age-standardised rate of 78.4. In-situ cases are left out of the crude rates. It recorded 125 cancers in children under 15, leukaemia the commonest (44).",
           links: [{ label: "UAE National Cancer Registry: annual report 2019 (PDF, Internet Archive copy of 11 April 2024)", url: NCR_2019 }],
         },
         {
@@ -162,11 +165,12 @@ export const AE_DIVE: CountryDive = {
           id: "abu-dhabi-cover",
           title: "Abu Dhabi: Thiqa for citizens, a Basic plan for people on low incomes",
           plain:
-            "In the Emirate of Abu Dhabi, the government's Thiqa programme covers UAE nationals from Abu Dhabi with no annual limit. The insurer Daman, which runs Thiqa, also sells a Basic plan for low-income expatriates and domestic workers that follows the Department of Health's rules.",
+            "In the Emirate of Abu Dhabi, the government's Thiqa programme covers UAE nationals from Abu Dhabi with no annual limit. The insurer Daman, which runs Thiqa, also sells a Basic plan that follows the Department of Health's rules, which it describes as being for people on a low income, small investors and domestic workers.",
           detail:
-            "Thiqa's site describes a programme offered by the Government of Abu Dhabi to UAE nationals and those of similar status in the emirate, managed by Daman since 2008, with more than one million members. A UAE national from Abu Dhabi has full cover in the public and private Thiqa network, emergency treatment worldwide and no annual benefit limit; a national from another emirate who does not live in Abu Dhabi is covered in the public Thiqa network; a non-national sponsored by a UAE national family member is covered in the public network. Listed benefits include inpatient care, medicines, and MRI, CT and PET scans when a specialist prescribes them. Daman describes its Basic (Abu Dhabi) plan as covering hospital stays, treatments and medicines within the emirate and emergencies elsewhere in the UAE, for lower income members as determined by the regulator, updated under Department of Health regulations from 1 July 2024. Neither site states what the Basic plan pays for cancer treatment.",
+            "Thiqa's site describes a programme offered by the Government of Abu Dhabi to UAE nationals and those of similar status in the emirate, managed by Daman since 2008; its home page gives the total as more than one million members. A UAE national from Abu Dhabi has full cover in the public and private Thiqa network, emergency treatment worldwide and no annual benefit limit; a national from another emirate who does not live in Abu Dhabi is covered in the public Thiqa network; a non-national sponsored by a UAE national family member is covered in the public network. Listed benefits include inpatient care, medicines, and MRI, CT and PET scans when a specialist prescribes them. Daman describes its Basic (Abu Dhabi) plan as covering hospital stays, treatments and medicines within the emirate and emergencies elsewhere in the UAE, for lower income members as determined by the regulator, updated under Department of Health regulations from 1 July 2024. Neither the Thiqa pages nor the Daman page read here states what the Basic plan pays for cancer treatment.",
           links: [
             { label: "Thiqa: about the programme", url: THIQA_ABOUT },
+            { label: "Thiqa: home page, total members", url: THIQA_HOME },
             { label: "Thiqa: eligibility", url: THIQA_ELIGIBILITY },
             { label: "Thiqa: benefits", url: THIQA_BENEFIT },
             { label: "Daman: Abu Dhabi Basic health insurance plan", url: DAMAN_BASIC },
@@ -174,7 +178,7 @@ export const AE_DIVE: CountryDive = {
         },
         {
           id: "dubai-cover",
-          title: "Dubai: employers must insure staff, and a cancer fund pays beyond the policy limit",
+          title: "Dubai: employers must insure staff, and for three cancers a fund pays beyond the policy limit for one group",
           plain:
             "In the Emirate of Dubai, a 2013 law makes health insurance compulsory and employers must pay the whole premium. For breast, bowel and cervical cancer, a programme called BASMAH, in its 2020 guideline, requires cover without copayment for the insured members it calls LSB, which OnCo takes to mean the low salary band, and keeps paying for them after the policy's yearly limit is reached. Other insured members can use the same centres at subsidised rates.",
           detail:
@@ -281,7 +285,7 @@ export const AE_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "Ten radiotherapy centres and 20 megavoltage machines in the IAEA's directory",
           plain:
-            "The IAEA's directory lists 10 radiotherapy centres in the United Arab Emirates with 20 megavoltage treatment machines. A 2022 review placed the centres in Abu Dhabi and Al Ain, Dubai and Ras Al-Khaimah.",
+            "The IAEA's directory lists 10 radiotherapy centres in the United Arab Emirates with 20 megavoltage treatment machines. A 2022 review, counting separately, found at least ten centres, in Abu Dhabi and Al Ain, Dubai and Ras Al-Khaimah.",
           detail:
             "The IAEA's DIRAC country row, last updated in 2025, gives 10 radiotherapy centres, 20 megavoltage photon and electron beam units, and 7 in a field named BrachyTherapyIncEl, which OnCo takes to be brachytherapy units without being certain of the definition. Set against IARC's 2024 population of 11.0 million, that is about 1.8 megavoltage units per million people, by OnCo's arithmetic. Al-Shamsi's 2022 review counted at least ten centres: four in Abu Dhabi and Al Ain, five in Dubai and one in Ras Al-Khaimah, which it called the only radiation centre in the Northern Emirates. It listed linear accelerators, two tomotherapy units, a CyberKnife and an MR-guided machine among them, said proton therapy was planned at one centre, and recommended an independent quality-control programme for radiation facilities. A 2025 editorial announcing the Emirates Society of Radiation Oncology says radiation oncologists have traditionally trained abroad because no comprehensive residency existed in the country.",
           links: [
@@ -296,7 +300,7 @@ export const AE_DIVE: CountryDive = {
           plain:
             "Since October 2022 the Department of Health in Abu Dhabi has run a precision medicine programme for cancer. By December 2024 it had given tailored treatment plans to 256 Emirati patients, tested for 47 genes, and written prevention plans for 207 of their relatives.",
           detail:
-            "The Abu Dhabi Media Office's notice of 11 December 2024 says the Personalised Precision Medicine Programme for Oncology was launched by the Department of Health with Cleveland Clinic Abu Dhabi and G42 Healthcare in 2022. Eligible patients were screened for 47 genes, and prevention plans were written for 207 family members of patients who tested positive for inherited mutations linked to specific cancers. A further 200 people aged 25 to 50 were selected at random from the Emirati Genome Programme and tested for variants that raise the risk of breast, ovarian, colorectal and lung cancer. The notice describes the patients as Emirati, so the figures are for citizens in Abu Dhabi. It says the programme improved treatment but gives no outcome figures. The 2022 review said genetic counsellors were scarce and that tumour sequencing was sent abroad for testing at that time.",
+            "The Abu Dhabi Media Office's notice of 11 December 2024 says the Personalised Precision Medicine Programme for Oncology was launched by the Department of Health with Cleveland Clinic Abu Dhabi and G42 Healthcare in 2022, and its closing paragraph describes the programme's aims as being for breast cancer patients. Eligible patients were screened for 47 genes, and prevention plans were written for 207 family members of patients who tested positive for inherited mutations linked to specific cancers. A further 200 people aged 25 to 50 were selected at random from the Emirati Genome Programme and tested for variants that raise the risk of breast, ovarian, colorectal and lung cancer. The notice describes the patients as Emirati, so the figures are for citizens in Abu Dhabi. It says the programme improved treatment but gives no outcome figures. The 2022 review said genetic counsellors were scarce and that tumour sequencing was sent abroad for testing at that time.",
           links: [
             { label: "Abu Dhabi Media Office: Personalised Precision Medicine Programme (11 December 2024)", url: ADMO_PRECISION },
             { label: "Al-Shamsi: The State of Cancer Care in the United Arab Emirates in 2022, sections 19 and 20", url: STATE_2022 },
@@ -308,7 +312,7 @@ export const AE_DIVE: CountryDive = {
           plain:
             "Several government bodies in the United Arab Emirates sponsor citizens to have cancer treatment in other countries. A 2022 review found no shared criteria between them and no published figures on which cancers are sent abroad.",
           detail:
-            "The registry's 2019 report collects cases from the ministry's medical treatment abroad department, which shows such patients are counted. Al-Shamsi's 2022 review names the sponsors as the three health authorities, the Presidential Affairs offices, the armed forces, the police and charities, says being a UAE citizen is an essential requirement with exceptions where a treatment is unavailable in the country, and cites an estimate of more than US$163 million spent in 2013 on what it calls government-funded cancer care, medical treatment abroad and medical tourism outside the country. It reports an internal review of 273 patients at one referral centre who asked to travel between January and September 2017, in which 86% of referrals were judged not clinically indicated because the service existed in the UAE; that was before bone marrow transplantation was available there. The author estimates that more than 95% of cancer cases can be treated in the country. These are one author's figures and are not official statistics.",
+            "The registry's 2019 report says its staff collect cases through regular visits to the ministry's medical treatment abroad department, so patients sent abroad through the ministry are meant to be counted. Al-Shamsi's 2022 review names the sponsors as the three health authorities, the Presidential Affairs offices, the armed forces, the police and charities, says being a UAE citizen is an essential requirement with exceptions where a treatment is unavailable in the country, and cites an estimate of more than US$163 million spent in 2013 on what it calls government-funded cancer care, medical treatment abroad and medical tourism outside the country. It reports an internal review of 273 patients at one referral centre who asked to travel between January and September 2017, in which 86% of referrals were judged not clinically indicated because the service existed in the UAE; that was before bone marrow transplantation was available there. The author estimates that more than 95% of cancer cases can be treated in the country. These are one author's figures and are not official statistics.",
           links: [
             { label: "Al-Shamsi: The State of Cancer Care in the United Arab Emirates in 2022, section 31", url: STATE_2022 },
             { label: "UAE National Cancer Registry: annual report 2019, methods (PDF, Internet Archive copy of 11 April 2024)", url: NCR_2019 },
@@ -326,12 +330,12 @@ export const AE_DIVE: CountryDive = {
           id: "trial-count",
           title: "Ten trials in OnCo's records list a site in the United Arab Emirates",
           plain:
-            "Ten trials in OnCo's records include the United Arab Emirates among their countries, and six were recruiting when the registry was last read. Seven are phase 3, and six are in breast or lung cancer. OnCo holds a selection of trials, not the whole registry.",
+            "Ten trials in OnCo's records include the United Arab Emirates among their countries, and six had an overall status of recruiting when the registry was last read, which is not the same as recruiting in the Emirates: two of the six showed their UAE sites as recruiting. Seven are phase 3, and six are in breast or lung cancer. OnCo holds a selection of trials, not the whole registry.",
           detail:
-            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: 10 trials list a site in the United Arab Emirates, 7 of them phase 3, 1 phase 2/3, 1 phase 2 and 1 phase 1/2. ClinicalTrials.gov lists 6 as recruiting and 4 as active and not recruiting. Four are in breast cancer (CAMBRIA-1 and CAMBRIA-2, heredERA, IZABRIGHT-Breast01 and a camizestrant study) and two in non-small-cell lung cancer; the others are in head and neck cancer, chronic myeloid leukaemia and cancers with RET changes, and one tests golcadomide with rituximab. Al-Shamsi's 2022 review found six clinical trials among 203 breast cancer publications from the country over twenty years, and said earlier attempts at large randomised trials had been held back by slow recruitment.",
+            "Counted from ClinicalTrials.gov participation data in OnCo's graph on 16 November 2026: 10 trials list a site in the United Arab Emirates, 7 of them phase 3, 1 phase 2/3, 1 phase 2 and 1 phase 1/2. ClinicalTrials.gov lists 6 as recruiting and 4 as active and not recruiting; those are overall statuses for all countries. Read again on 16 November 2026, the UAE sites of the six recruiting trials were shown as recruiting in two (NCT05443126 and NCT06256588), not yet recruiting in three (NCT06926868, NCT07647328 and NCT06911502) and completed in one (NCT06422143). Four are in breast cancer (OnCo's joint record for CAMBRIA-1 and CAMBRIA-2, whose registry entry NCT05952557 is CAMBRIA-2 and is the one checked for a UAE site; heredERA; IZABRIGHT-Breast01; and a camizestrant study) and two in non-small-cell lung cancer; the others are in head and neck cancer, chronic myeloid leukaemia and cancers with RET changes, and one tests golcadomide with rituximab. Al-Shamsi's 2022 review found six clinical trials among 203 breast cancer publications from the country over twenty years, and said earlier attempts at large randomised trials had been held back by slow recruitment.",
           links: [
             { label: "ClinicalTrials.gov: cancer studies with sites in the United Arab Emirates", url: CTGOV },
-            { label: "CAMBRIA-1 (NCT05952557)", url: "https://clinicaltrials.gov/study/NCT05952557" },
+            { label: "CAMBRIA-2 (NCT05952557)", url: "https://clinicaltrials.gov/study/NCT05952557" },
             { label: "Al-Shamsi: The State of Cancer Care in the United Arab Emirates in 2022, section 26", url: STATE_2022 },
           ],
         },
@@ -343,9 +347,9 @@ export const AE_DIVE: CountryDive = {
       id: "gap-registry-years",
       title: "Registry reports after 2019 were not read",
       plain:
-        "The latest registry report OnCo could read is for 2019. The Ministry of Health and Prevention's site, where later reports are published, did not answer, so this page has no registry counts for 2020 onwards and no survival or stage figures at all.",
+        "The latest registry report OnCo could read is for 2019. The Ministry of Health and Prevention's site, which published the 2019 report, did not answer, so this page has no registry counts for 2020 onwards and no survival or stage figures at all.",
       detail:
-        "Requests to mohap.gov.ae timed out and www.mohap.gov.ae reset the connection on 16 November 2026. A web search result, which was not saved and could not be opened, pointed to a 2021 edition of the registry's annual report on that site; OnCo could not confirm it, and the 2019 report was read from the Internet Archive's capture of 11 April 2024. The 2019 report gives no stage at diagnosis and no survival. A journal article on incidence and mortality trends from 2011 to 2024 (doi 10.4103/gaoh.gaoh_13_26) appeared in a search but is not in Europe PMC and was not read. The gap between the registry's 2019 count and IARC's 2024 estimate is therefore left unexplained here.",
+        "Requests to mohap.gov.ae and www.mohap.gov.ae failed on 16 November 2026: the first pass saw a timeout and a reset connection, and a second pass the same day saw both reset. A web search result, which was not saved and could not be opened, pointed to a 2021 edition of the registry's annual report on that site; OnCo could not confirm it, and the 2019 report was read from the Internet Archive's capture of 11 April 2024. The 2019 report gives no stage at diagnosis and no survival. A journal article on incidence and mortality trends from 2011 to 2024, published in Global Advances in Oncology and Hematology in September 2026 according to Crossref (doi 10.4103/gaoh.gaoh_13_26), is not in Europe PMC and was not read. The gap between the registry's 2019 count and IARC's 2024 estimate is therefore left unexplained here.",
       links: [
         { label: "UAE National Cancer Registry: annual report 2019 (PDF, Internet Archive copy of 11 April 2024)", url: NCR_2019 },
         { label: "Ministry of Health and Prevention", url: "https://mohap.gov.ae/en" },
@@ -353,15 +357,15 @@ export const AE_DIVE: CountryDive = {
     },
     {
       id: "gap-government-sites",
-      title: "Four government sites could not be read, so emirate rules come from insurers and notices",
+      title: "Three government sites could not be read, so emirate rules come from insurers and notices",
       plain:
-        "OnCo could not read the sites of the Department of Health Abu Dhabi, the Dubai Health Authority, the health ministry or the national government portal. The insurance and screening rules on this page come from the programmes' own insurer pages and one Dubai guideline from 2020, and may have changed.",
+        "OnCo could not read the sites of the Department of Health Abu Dhabi, the Dubai Health Authority or the health ministry. The insurance and screening rules on this page come from the programmes' own insurer pages and one Dubai guideline from 2020, and may have changed. The national government portal says that from 1 January 2025 employers must buy health insurance for private sector employees and domestic workers before a residency permit is issued or renewed.",
       detail:
-        "On 16 November 2026 www.doh.gov.ae failed at the secure connection, www.dha.gov.ae returned a page that needs JavaScript, u.ae returned 404 for its health insurance and cancer pages, and www.ifhas.gov.ae redirected to a page that was not found. The Department of Health's 2025 cervical screening standard and older u.ae pages on health insurance and cancer have Internet Archive copies that were not read in this pass. Not read as a result: Abu Dhabi's health insurance law and the Basic plan's cancer benefits, Dubai's current Essential Benefits Plan table, any federal rule on health insurance in the five northern emirates, and screening ages for Dubai and the northern emirates. Dubai's BASMAH guideline carries a revision date of 25 November 2022 and may have been replaced: the same site lists a 2025 circular titled as an issuance of updated regulations superseding previous regulatory documents, which OnCo did not read.",
+        "On 16 November 2026 www.doh.gov.ae failed at the secure connection, www.dha.gov.ae first returned a page that needs JavaScript and later timed out, and www.ifhas.gov.ae redirected to a page that was not found. The first pass got 404 from the u.ae addresses it tried for health insurance and cancer; a second pass the same day reached the portal's page on getting health insurance, updated 9 November 2026. It says that from 1 January 2025 employers must buy a health insurance policy before a residency permit is issued or renewed for private sector employees and domestic workers, that this is mandatory in Abu Dhabi and Dubai and will extend to private sector workers in Sharjah, Ajman, Umm Al Quwain, Ras Al Khaimah and Fujairah, and that the basic package costs AED 320 a year; the page does not mention cancer. Internet Archive copies of the unreachable sites were not looked for or read. Not read as a result: Abu Dhabi's health insurance law and the Basic plan's cancer benefits, Dubai's current Essential Benefits Plan table, what the basic package for the northern emirates pays for cancer care, and screening ages for Dubai and the northern emirates. Dubai's BASMAH guideline carries a revision date of 25 November 2022 and may have been replaced: the same site lists a 2025 circular titled as an issuance of updated regulations superseding previous regulatory documents, which OnCo did not read.",
       links: [
         { label: "Department of Health Abu Dhabi", url: "https://www.doh.gov.ae/en" },
         { label: "Dubai Health Authority", url: "https://www.dha.gov.ae/en" },
-        { label: "UAE Government portal", url: "https://u.ae/en" },
+        { label: "UAE Government portal: getting a health insurance (updated 9 November 2026)", url: UAE_INSURANCE },
       ],
     },
     {
@@ -396,7 +400,7 @@ export const AE_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from sources read as raw text on 16 November 2026: the UAE National Cancer Registry's 2019 report, IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, the World Bank, the IAEA's radiotherapy directory, the Emirates Drug Establishment's site, the Thiqa, Daman and Dubai Health Authority insurance pages, two Abu Dhabi Media Office notices and three journal articles read in full through Europe PMC. Statements about insurance and screening name the emirate they apply to. One notice from the regulator was read in Arabic.",
+    "Every card was written from sources read as raw text on 16 November 2026: the UAE National Cancer Registry's 2019 report, IARC's GLOBOCAN 2024 fact sheet, WHO's 2020 country profile and immunisation data, the World Bank, the IAEA's radiotherapy directory, the Emirates Drug Establishment's site, the Thiqa, Daman and Dubai Health Authority insurance pages, the UAE Government portal's health insurance page, two Abu Dhabi Media Office notices and three journal articles read in full through Europe PMC. Statements about insurance and screening name the emirate they apply to. One notice from the regulator was read in Arabic.",
   verify:
     "Insurance rules, screening ages and programme names change and differ between emirates; check with your insurer or the health authority of the emirate you live in before relying on anything here. The registry figures are for 2019, and the 2022 review reflects one author's account of that year.",
   verifyLinks: [

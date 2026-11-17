@@ -7,16 +7,22 @@ import type { CountryDive } from "@/data/country-dive";
  * and the ministry's list of registry reports; the ministry's pages for itself, the Drug Safety Center, the
  * Directorate General of Medical Supplies and the Royal Hospital; its National Health Policy 2025 (PDF text); its
  * national guidelines on breast cancer screening (second edition, January 2025) and colorectal cancer (first edition,
- * April 2023), both PDF text; ministry news items of May 2016, December 2018 and June 2023; the Arabic press
- * statement for the ministry's media briefing of 22 February 2026 (PDF text); WHO's Country Cooperation Strategy for
+ * April 2023), both PDF text; ministry news items of May 2016, December 2018 and June 2023, and its Arabic news item
+ * of 25 September 2025 on the HPV vaccination programme; the Arabic press statement for a ministry media briefing, in
+ * a file dated 22 February 2026 (PDF text; the date is the file's, the text layer shows none); WHO's Country Cooperation Strategy for
  * Oman 2021 to 2025 and WHO's cancer country profile 2020 (PDF text); the IAEA's note on its imPACT review of January
  * 2013 (PDF text) and its DIRAC country row; WHO's immunisation data API for HPV; the World Bank's health spending
  * series; ClinicalTrials.gov's API for the three corpus trials; and news reports from the Oman News Agency (July
  * 2025), Oman Observer (February 2018, September and December 2025) and Times of Oman (November 2025).
  *
- * The cancer centre's own site, the Oman Cancer Association's site, one IAEA page and a 2022 book chapter on oncology
- * care in Oman could not be read; each is named under `gaps`. Two Drug Safety Center draft guidelines were read but
- * carry a notice that they must not be cited, so the page records that they exist and nothing more.
+ * The cancer centre's own site, one IAEA page and a 2022 book chapter on oncology care in Oman could not be read; the
+ * Oman Cancer Association's site failed at first and its home page loaded later the same day; each is named under
+ * `gaps`. One Drug Safety Center draft guideline was opened and carries a notice that it must not be cited, so the
+ * page records that the drafts exist and nothing more.
+ *
+ * Second accuracy pass, 16 November 2026: every claim re-read against the raw text of its source. The main change is
+ * the HPV card: the ministry's own Arabic news item gives 19 October 2025 as the start of vaccination, which the
+ * first pass had not found.
  */
 const GCO_FACT = "https://gco.iarc.who.int/media/globocan/factsheets/populations/512-oman-fact-sheet.pdf";
 const MOH_REPORTS = "https://www.moh.gov.om/en/statistics/cancer-repoerts/";
@@ -34,6 +40,7 @@ const ABROAD_2016 = "https://www.moh.gov.om/en/media-center/news/moh-clarify-tre
 const BREAST_GUIDE = "https://www.moh.gov.om/media/rxok1asq/early-detection-breast-cancer-screening-guidelines.pdf";
 const CRC_GUIDE = "https://www.moh.gov.om/media/eeenmvjz/national-guidelines-for-colorectal-cancer-crc-screening-diagnosis-management-and-follow-up.pdf";
 const CERVICAL_STUDY = "https://www.moh.gov.om/en/media-center/news/moh-calls-women-to-participate-in-national-study-for-early-detection-of-cervical-cancer/";
+const HPV_SEMINAR_2025 = "https://www.moh.gov.om/ar/المركز-الإعلامي/الأخبار/الصحة-تنظم-ندوة-علمية-حول-برنامج-التطعيم-ضد-فيروس-الورم-الحليمي-البشري-في-سلطنة-ع-مان-1/";
 const BRIEFING_2026 = "https://www.moh.gov.om/media/1g4pu0cp/بيان-وزارة-الصحة-للقاء-الا-علامي.pdf";
 const WHO_PROFILE = "https://cdn.who.int/media/docs/default-source/country-profiles/cancer/omn-2020.pdf";
 const WHO_CCS = "https://applications.emro.who.int/docs/9789290228493-eng.pdf";
@@ -60,11 +67,11 @@ export const OM_DIVE: CountryDive = {
   asOf: "2026-11-16",
   title: "Cancer in Oman",
   description:
-    "Cancer in Oman from Omani sources: a national registry with a report for every year from 1996 to 2021, which counted 2,318 cancers among Omanis in 2021, IARC's estimate of 4,076 new cases and 1,719 deaths in 2024, public care that WHO described in 2021 as nearly free at the point of delivery and available at every level for Omanis, the Drug Safety Center as regulator, a guideline offering Omani women a screening mammogram from age 40, HPV vaccination in schools reported by Oman Observer from September 2025, and two radiotherapy centres in the IAEA's directory.",
+    "Cancer in Oman from Omani sources: a national registry with a report for every year from 1996 to 2021, which counted 2,318 cancers among Omanis in 2021, IARC's estimate of 4,076 new cases and 1,719 deaths in 2024, public care that WHO described in 2021 as nearly free at the point of delivery and available at every level for Omanis, the Drug Safety Center as regulator, a guideline offering Omani women a screening mammogram from age 40, HPV vaccination that the ministry said would begin on 19 October 2025, and two radiotherapy centres in the IAEA's directory.",
   lede:
-    "Oman has a national cancer registry with mandatory reporting, a government health service that pays for most care, and two cancer centres in Muscat. In the registry's latest report, for 2021, breast cancer was the commonest cancer and the median age at diagnosis was 51. No later year is on the ministry's list, deaths from cancer are estimated rather than counted, and OnCo found no stand-alone national cancer plan.",
+    "Oman has a national cancer registry with mandatory reporting, a government health service that pays for most care, and two cancer centres in Muscat. In the registry's latest report, for 2021, breast cancer was the commonest cancer and the median age at diagnosis was 51. No later year is on the ministry's list, IARC's figure for deaths from cancer is modelled rather than counted, and OnCo found no stand-alone national cancer plan.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Oman is 4,076 new cancers and 1,719 deaths in a population of 5,281,544, an age-standardised incidence of 106.5 per 100,000 (108.9 in men, 114.0 in women) and mortality of 52.1 (59.1 in men, 45.5 in women). IARC's fact sheet names the national registry as the source for incidence, with national rates applied to the 2024 population. For deaths it names no national mortality data: the estimate applies modelled mortality-to-incidence ratios, built from registry survival data, to the incidence estimate. The registry's own latest count is lower and older: 2,318 cancers among Omanis and 163 among non-Omanis registered for 2021, when the population was 4,527,446. The registry calculates rates for Omani nationals only (an age-standardised rate of 122.2 per 100,000 in 2021), while IARC's rate covers all residents, about 62% of whom are male in IARC's population figures. The fact sheet does not explain the remaining difference between the two totals, and OnCo has not tried to.",
+    "IARC's GLOBOCAN 2024 figure for Oman is 4,076 new cancers and 1,719 deaths in a population of 5,281,544, an age-standardised incidence of 106.5 per 100,000 (108.9 in men, 114.0 in women) and mortality of 52.1 (59.1 in men, 45.5 in women). IARC's fact sheet names the national registry as the source for incidence, with national rates applied to the 2024 population. For deaths the source it names is Survcan, IARC's registry survival project, not death records: the estimate applies modelled mortality-to-incidence ratios, built from registry survival data, to the incidence estimate. The registry's own latest count is lower and older: 2,318 cancers among Omanis and 163 among non-Omanis registered for 2021, when the population was 4,527,446. The registry calculates rates for Omani nationals only (an age-standardised rate of 122.2 per 100,000 in 2021), while IARC's rate covers all residents, about 62% of whom are male by OnCo's own sum from IARC's population figures. The fact sheet does not explain the remaining difference between the two totals, and OnCo has not tried to.",
   sections: [
     {
       id: "profile",
@@ -87,7 +94,7 @@ export const OM_DIVE: CountryDive = {
           plain:
             "The Ministry of Health runs the Oman National Cancer Registry. It started as a hospital registry in 1985 and has published a national report for every year from 1996 to 2021. Doctors, laboratories and hospitals, public and private, must report each cancer within 30 days of diagnosis.",
           detail:
-            "The registry's 2021 report says it was established in 1985 as a hospital-based registry that recorded cases treated in tertiary hospitals, and in 1996 moved to the ministry's non-communicable disease department. Notification became mandatory in 2001 under Ministerial Decision 4/2001; Decision 222/2017 replaced it, covering civil, military and private institutions and making the examining doctor, the laboratory technician and the head of the institution responsible for reporting. Two trained registrars collect, code and enter the data. They visit the Royal Hospital twice a week and Khoula and Al Nahdha hospitals monthly, receive pathology reports, chemotherapy and radiotherapy lists and hospital admission and discharge lists, and trace Omanis treated abroad through the ministry's treatment abroad committee and lists from the United Arab Emirates. The registry uses IARC's CanReg5 software. The 2021 report is the 26th edition and was published in 2025; it is the latest on the ministry's list.",
+            "The registry's 2021 report says it was established in 1985 as a hospital-based registry that recorded cases treated in tertiary hospitals, and that in 1996, when the Department of Non-Communicable Diseases Surveillance and Control was set up, it was transferred and began working under the Directorate General of Health Affairs. Notification became mandatory in 2001 under Ministerial Decision 4/2001; Decision 222/2017 replaced it, covering civil, military and private institutions and making the examining doctor, the laboratory technician and the head of the institution responsible for reporting. Two trained registrars collect, code and enter the data. They visit the Royal Hospital twice a week and Khoula and Al Nahdha hospitals monthly, receive pathology reports, chemotherapy and radiotherapy lists and hospital admission and discharge lists, and trace Omanis treated abroad through the ministry's treatment abroad committee and lists from the United Arab Emirates. The registry uses IARC's CanReg5 software. The 2021 report is the 26th edition and was published in 2025; it is the latest on the ministry's list.",
           links: [
             { label: "Ministry of Health: Cancer Incidence in Oman 2021 (PDF, published 2025)", url: CI_2021 },
             { label: "Ministry of Health: all cancer incidence reports, 1996 to 2021", url: MOH_REPORTS },
@@ -106,7 +113,7 @@ export const OM_DIVE: CountryDive = {
           id: "children-and-residents",
           title: "155 children with cancer in 2021, and 163 cancers among non-Omani residents",
           plain:
-            "The registry counted 155 Omani children aged 14 or under with cancer in 2021, about 7 in every 100 cancers. It also registered 163 cancers among non-Omani residents, who made up more than a third of the population, and does not calculate rates for them.",
+            "The registry counted 155 Omani children aged 14 or under with cancer in 2021, about 7 in every 100 cancers. It also registered 163 cancers among non-Omani residents, who made up more than a third of the population in the report's own figures, and does not calculate rates for them.",
           detail:
             "Among Omani children the commonest groups were non-Hodgkin lymphomas (22), lymphoid leukaemias (18), neuroblastoma and ganglioneuroblastoma (14), acute myeloid leukaemias (13) and intracranial and intraspinal embryonal tumours (12); 79 of the 155 were boys and 76 girls. Among non-Omanis, 58 of the 163 cancers were in men and 105 in women; breast cancer was the commonest (44), then leukaemia (14), thyroid (12), non-Hodgkin lymphoma (9) and colorectal cancer (8), and 91 were reported from Muscat. The report gives the 2021 population as 4,527,446, of whom 1,723,329 were non-Omanis. Frequency and incidence tables are generated for Omanis only, so the report gives no rate for the non-Omani population.",
           links: [{ label: "Ministry of Health: Cancer Incidence in Oman 2021, childhood cancers and cancer among non-Omanis (PDF)", url: CI_2021 }],
@@ -153,7 +160,7 @@ export const OM_DIVE: CountryDive = {
             { site: "Prostate", cases: 77 },
             { site: "Head and neck", cases: 74 },
           ],
-          note: "Omani nationals only, both sexes together, out of 2,318 cancers. These are the registry's counts for 2021; IARC's estimates for 2024 in the table above cover all residents and are higher.",
+          note: "Omani nationals only, both sexes together, out of 2,318 cancers. These are the registry's counts for 2021; IARC's estimates for 2024, in the GLOBOCAN table on this page, cover all residents and are higher.",
           sources: [{ label: "Ministry of Health: Cancer Incidence in Oman 2021, table 18 (PDF)", url: CI_2021 }],
         },
       ],
@@ -183,7 +190,7 @@ export const OM_DIVE: CountryDive = {
           plain:
             "In the World Bank's figures, about 6 in every 100 rials spent on health in Oman in 2023 came directly from patients, and the government paid 85 in every 100. Health spending was about 732 US dollars per person, 3.5% of the economy.",
           detail:
-            "The World Bank series gives out-of-pocket spending as 5.96% of current health expenditure in 2019, 5.21% in 2020, 5.47% in 2021, 6.90% in 2022 and 6.31% in 2023, the latest year. Domestic general government health expenditure was 85.34% of current health expenditure in 2023 (87.55% in 2019). Current health expenditure per person was US$732.04 in 2023 and 3.49% of GDP. WHO's cooperation strategy, using earlier data, put the out-of-pocket share at 6.4% and compared it with a regional average of 40%. These are national averages across all care and all residents; OnCo found no figure for what a person with cancer pays.",
+            "The World Bank series gives out-of-pocket spending as 5.96% of current health expenditure in 2019, 5.21% in 2020, 5.47% in 2021, 6.90% in 2022 and 6.31% in 2023, the latest year. Domestic general government health expenditure was 85.34% of current health expenditure in 2023 (87.55% in 2019). Current health expenditure per person was US$732.04 in 2023 and 3.49% of GDP. WHO's cooperation strategy, published in 2021, put the out-of-pocket share at 6.4% and compared it with a regional average of 40%. These are national averages across all care and all residents; OnCo found no figure for what a person with cancer pays.",
           links: [
             { label: "World Bank: out-of-pocket expenditure, % of current health expenditure, Oman", url: WB_OOP },
             { label: "World Bank: government health expenditure, % of current health expenditure, Oman", url: WB_GOV },
@@ -193,11 +200,11 @@ export const OM_DIVE: CountryDive = {
         },
         {
           id: "cancer-costs",
-          title: "Registration fees waived at the National Oncology Centre, and a ministry department for treatment abroad",
+          title: "The National Oncology Centre said in 2018 that it waives registration fees; a ministry department deals with treatment abroad",
           plain:
-            "The ministry said in 2018 that its National Oncology Centre does not charge cancer patients registration or visit fees and offers rooms for patients who travel to Muscat. A ministry department arranges treatment abroad for some patients, and the registry counts them.",
+            "The ministry said in 2018 that its National Oncology Centre does not charge cancer patients registration or visit fees and has accommodation for adult patients. The ministry has a Department of Treatment Abroad, and the registry takes details of patients treated abroad from it.",
           detail:
-            "A ministry news item of 31 December 2018 quotes the centre's head of patient services: the centre exempts all cancer patients from registration fees, whether to open a file or for visits; it provides 40 rooms of accommodation for adult patients, with three meals for the patient and a companion; and children stay at Dar Al-Hanan, run by the Oman Cancer Association with the centre. That is a 2018 statement and may not be current. A ministry statement of 31 May 2016 advised citizens travelling abroad for treatment at their own expense to contact the Department of Treatment Abroad for accredited hospitals, and said the ministry did not recommend travel for conditions needing long treatment, such as cancers, adding that in some cases the treatment abroad is the same as in Oman's health institutions. The 2021 registry report says details of patients treated abroad come from that department and from the health ministry of the United Arab Emirates.",
+            "A ministry news item of 31 December 2018 quotes the centre's head of patient services: the centre exempts all cancer patients from registration fees, whether to open a file or for visits; it provides 40 rooms of accommodation for adult patients, with three meals for the patient and a companion; and children with cancer have accommodation at Dar Al-Hanan, which the item describes as affiliated to the Oman Cancer Association and run in cooperation with the centre. That is a 2018 statement and may not be current. A ministry news item of 31 May 2016, quoting an official source at the ministry, advised citizens travelling abroad for treatment at their own expense to contact the Department of Treatment Abroad to identify specialised and accredited hospitals. It said the ministry did not recommend travel abroad for elderly people who cannot bear the journey or for people with chronic diseases that need long treatment, such as cancers, adding that in some cases the treatment abroad is the same as in Oman's health institutions. The 2021 registry report says details of patients treated abroad come from that department, and its data-flow chart also shows a list of Omani patients treated in the United Arab Emirates from that country's health ministry.",
           links: [
             { label: "Ministry of Health: National Oncology Center Services (31 December 2018)", url: NOC_SERVICES },
             { label: "Ministry of Health: MOH Clarify Treatment Abroad Issues (31 May 2016)", url: ABROAD_2016 },
@@ -218,7 +225,7 @@ export const OM_DIVE: CountryDive = {
           plain:
             "Oman's medicines regulator is the Drug Safety Center, part of the Ministry of Health. Its page says it oversees the registration of products. The centre also clears imports, licenses pharmacists and pharmacies and follows the safety of medicines already in use.",
           detail:
-            "The centre's page describes it as the regulatory body responsible for assuring effective, safe and good quality drugs in Oman, whether manufactured locally or imported, by implementing the pharmacy practice law issued under Royal Decree 41/91 and its amendments. It says the centre oversees product registration, conducts post-marketing surveillance, licenses pharmacists and pharmaceutical institutions and supports local manufacturing. Its listed services include classifying products, clearing medical products at the border whether registered or not, and listing medical products and devices. From 5 May to 30 June 2026 the centre ran public consultations on draft guidelines, among them one on registering medicines by verification and abridged routes and one on the regulatory framework for product approval; the ministry's site also lists a draft on conditional approval and emergency use. The drafts say they are not final and must not be cited, so their content is not described here.",
+            "The centre's page describes it as the regulatory body responsible for assuring effective, safe and good quality drugs in Oman, whether manufactured locally or imported, by implementing the pharmacy practice law issued under Royal Decree 41/91 and its amendments. It says the centre oversees product registration, conducts post-marketing surveillance, licenses pharmacists and pharmaceutical institutions and supports local manufacturing. Its listed services include classifying products, clearing medical products at the border whether registered or not, and listing medical products and devices. From 5 May to 30 June 2026 the centre ran public consultations on draft guidelines, among them one on registering medicines by verification and abridged routes and one on the regulatory framework for product approval; the ministry's site also lists a draft on conditional approval and emergency use. The draft OnCo opened, on verification and abridged routes, says it is not final and must not be cited, so the content of the drafts is not described here.",
           links: [
             { label: "Ministry of Health: Drug Safety Center", url: DSC },
             { label: "Drug Safety Center: consultation on the draft guideline on registration by verification and abridged routes", url: DSC_CONSULT },
@@ -279,13 +286,14 @@ export const OM_DIVE: CountryDive = {
         },
         {
           id: "hpv",
-          title: "HPV vaccination in schools was reported from September 2025; WHO records 10% coverage for 2025",
+          title: "HPV vaccination: the ministry gave 19 October 2025 as the start; WHO records 10% coverage for 2025",
           plain:
-            "Oman Observer reported on 9 September 2025 that the ministry had begun giving the HPV vaccine to Grade 6 pupils aged 12 in public and private schools. WHO's data for 2025, the programme's first months, record first-dose coverage of 10% for girls and 10% for boys. Earlier years have no figure.",
+            "The ministry said on 25 September 2025 that vaccination against HPV would begin on 19 October 2025 and would be optional. Oman Observer had reported on 9 September that Grade 6 pupils aged 12 in public and private schools were already being vaccinated. WHO's data for 2025 record first-dose coverage of 10% for girls and 10% for boys. Earlier years have no figure.",
           detail:
-            "Oman Observer reported on 9 September 2025 that the ministry had begun administering the vaccine to Grade 6 students aged 12 after adding it to the national school immunisation programme, and on 13 September that the ministry's Centre for Disease Control and Prevention would officially launch it on 25 September for the 2025/2026 academic year. WHO's immunisation data API gives, for 2025, programme coverage with a first dose of 10% among girls (4,041 doses against a target of 41,345) and 10% among boys (4,214 against 43,120), and 10% for the last dose in each sex with no doses or target stated. The rows for 2021 to 2024 are empty. WHO's 2020 profile recorded no HPV programme coverage. The ministry's press statement for its February 2026 briefing lists the inclusion of the HPV vaccine in the preventive health system. The 2025 figure covers a school year that had just begun, so it is not a measure of the programme at full pace.",
+            "The ministry's Arabic news item of 25 September 2025 reports a scientific seminar on the HPV vaccination programme held that day by its Centre for Disease Control and Prevention, and ends by saying the ministry will begin vaccinating against HPV in Oman, optionally, on 19 October 2025. It does not name the school grade. The target group comes from Oman Observer, which reported on 9 September 2025 that the ministry had begun administering the vaccine to Grade 6 students aged 12 in public and private schools after adding it to the national school immunisation programme, and on 13 September that the centre would officially launch the vaccine on 25 September for the 2025/2026 academic year. The newspaper's report of 9 September that vaccination had begun does not agree with the later start date in the ministry's own item. WHO's immunisation data API gives, for 2025, programme coverage with a first dose of 10% among girls (4,041 doses against a target of 41,345) and 10% among boys (4,214 against 43,120), and 10% for the last dose in each sex with no doses or target stated. The rows for 2021 to 2024 are empty. WHO's 2020 profile gave no figure for HPV vaccination programme coverage (marked n/a, for 2018). The ministry's press statement for a media briefing, in a file dated 22 February 2026, lists the inclusion of the HPV vaccine in the preventive health system. On the ministry's date the programme began in October, so the 2025 figure is not a measure of the programme at full pace.",
           links: [
             { label: "WHO immunisation data: HPV programme coverage, Oman (API)", url: WHO_HPV_API },
+            { label: "Ministry of Health: seminar on the HPV vaccination programme in Oman (25 September 2025, in Arabic)", url: HPV_SEMINAR_2025 },
             { label: "Oman Observer: MoH launches HPV vaccination campaign for school students (9 September 2025)", url: OBS_HPV_1 },
             { label: "Oman Observer: Oman to launch HPV vaccine programme (13 September 2025)", url: OBS_HPV_2 },
           ],
@@ -327,12 +335,12 @@ export const OM_DIVE: CountryDive = {
           id: "radiotherapy",
           title: "Radiotherapy: two centres and seven megavoltage machines in the IAEA's directory",
           plain:
-            "The IAEA's directory of radiotherapy centres lists two centres in Oman with seven megavoltage treatment machines between them, in an entry last updated in 2025. Both centres OnCo knows of are in Muscat. The ministry reported in 2026 that radiotherapy machines had been updated.",
+            "The IAEA's directory of radiotherapy centres lists two centres in Oman with seven megavoltage treatment machines between them, in an entry last updated in 2025. Both centres OnCo knows of are in Muscat. A ministry press statement dated February 2026 says radiotherapy machines were updated in 2025.",
           detail:
-            "The IAEA's DIRAC country row for Oman, read on 16 November 2026 and marked as last updated in 2025, gives RTCenters as 2, HePhotonAndElectronBeamRt (megavoltage photon and electron beam units) as 7 and BrachyTherapyIncEl as 1. Seven machines for IARC's 2024 population of 5.28 million is about 1.3 per million people. The row does not say which machines are at which centre. The ministry's Arabic press statement for its briefing of 22 February 2026 lists, among changes at referral hospitals in 2025, the updating of radiotherapy machines with session time reduced by 35%; it does not name the hospital. WHO's 2020 profile recorded three services (surgery, radiotherapy and chemotherapy) as available in 2019. OnCo found no ministry page listing radiotherapy machines or waiting times for radiotherapy.",
+            "The IAEA's DIRAC country row for Oman, read on 16 November 2026 and marked as last updated in 2025, gives RTCenters as 2, HePhotonAndElectronBeamRt (megavoltage photon and electron beam units) as 7 and BrachyTherapyIncEl as 1. Seven machines for IARC's 2024 population of 5.28 million is about 1.3 per million people by OnCo's own sum. The row does not say which machines are at which centre. The ministry's Arabic press statement for a media briefing, in a file dated 22 February 2026, lists, among changes at referral hospitals in 2025, the updating of radiotherapy machines with session time reduced by 35%; it does not name the hospital. WHO's 2020 profile recorded three services (surgery, radiotherapy and chemotherapy) as available in 2019. OnCo found no ministry page listing radiotherapy machines or waiting times for radiotherapy.",
           links: [
             { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries", url: DIRAC },
-            { label: "Ministry of Health: press statement for the media briefing of 22 February 2026 (PDF, in Arabic)", url: BRIEFING_2026 },
+            { label: "Ministry of Health: press statement for a media briefing, file dated 22 February 2026 (PDF, in Arabic)", url: BRIEFING_2026 },
             { label: "WHO: Cancer Country Profile 2020, Oman (PDF)", url: WHO_PROFILE },
           ],
         },
@@ -342,8 +350,8 @@ export const OM_DIVE: CountryDive = {
           plain:
             "The ministry said that in 2025 day care for cancer patients let 250 more patients a month be treated without a hospital stay, and that the waiting list for chemotherapy fell from 4 weeks to 10 days. These are the ministry's own figures from a press statement.",
           detail:
-            "The Arabic press statement issued for the ministry's media briefing of 22 February 2026 lists, under changes at referral hospitals in 2025: advanced genetic testing by next-generation sequencing; day care for oncology patients, allowing 250 additional patients a month to be treated without admission; and the updating of radiotherapy machines. Under waiting times it gives chemotherapy as falling from 4 weeks to 10 days, which it calls a 60% improvement. The statement does not say which hospitals the figures cover or how the waits were measured. The file's Arabic text layer drops some letters, so OnCo used only these lines, where the numbers and wording were clear.",
-          links: [{ label: "Ministry of Health: press statement for the media briefing of 22 February 2026 (PDF, in Arabic)", url: BRIEFING_2026 }],
+            "The ministry's Arabic press statement for a media briefing, in a file dated 22 February 2026, lists, under changes at referral hospitals in 2025: advanced genetic testing by next-generation sequencing; day care for oncology patients, allowing 250 additional patients a month to be treated without admission; and the updating of radiotherapy machines. Under waiting times it gives chemotherapy as falling from 4 weeks to 10 days, which it calls a 60% improvement. The statement does not say which hospitals the figures cover or how the waits were measured. The file's Arabic text layer drops some letters, so OnCo used only these lines, where the numbers and wording were clear.",
+          links: [{ label: "Ministry of Health: press statement for a media briefing, file dated 22 February 2026 (PDF, in Arabic)", url: BRIEFING_2026 }],
         },
         {
           id: "plan",
@@ -351,7 +359,7 @@ export const OM_DIVE: CountryDive = {
           plain:
             "OnCo found no national cancer control plan for Oman. Oman Observer reported in February 2018 that the ministry had launched a national policy on non-communicable diseases covering four diseases, cancer among them, which aimed to cut early deaths from them by 25% by 2025. Separate national guidelines cover breast and colorectal cancer.",
           detail:
-            "WHO's 2020 cancer profile, with data for 2019, records an operational integrated non-communicable disease plan, gives no entry for a national cancer control plan, and records cancer management guidelines as present. Oman Observer reported on 6 February 2018 that the ministry had launched the national policy for the prevention of chronic non-communicable diseases, aiming to reduce premature deaths by 25% by 2025 with a focus on heart disease, cancer, respiratory diseases and diabetes; OnCo did not find the policy document itself or a report on whether the target was met. The IAEA carried out an imPACT review of Oman's cancer control capacity on 26 to 30 January 2013 at the ministry's request, visiting the Royal Hospital, Sultan Qaboos University Hospital and the regional hospital in Salalah; its recommendations are not public in the note OnCo read. In November 2025 a meeting in Muscat that Times of Oman calls the World Cancer Congress, Summit, and Exhibition 2025 adopted a call to action named the Sultanate of Oman Declaration, which Times of Oman describes as urging governments to act within national cancer control strategies. The National Health Policy 2025 does not mention cancer.",
+            "WHO's 2020 cancer profile, with data for 2019, records an operational integrated non-communicable disease plan, gives no entry for a national cancer control plan, and records cancer management guidelines as present. Oman Observer reported on 6 February 2018 that the ministry had launched the national policy for the prevention of chronic non-communicable diseases, aiming to reduce premature deaths by 25% by 2025 with a focus on heart disease, cancer, respiratory diseases and diabetes; OnCo did not find the policy document itself or a report on whether the target was met. The IAEA carried out an imPACT review of Oman's cancer control capacity on 26 to 30 January 2013 at the ministry's request, visiting the Royal Hospital, Sultan Qaboos University Hospital and the regional hospital in Salalah among other sites; its recommendations are not public in the note OnCo read. In November 2025 a meeting in Muscat that Times of Oman calls the World Cancer Congress, Summit, and Exhibition 2025 adopted a call to action named the Sultanate of Oman Declaration, which Times of Oman describes as urging governments to act within national cancer control strategies. The National Health Policy 2025 does not mention cancer.",
           links: [
             { label: "WHO: Cancer Country Profile 2020, Oman (PDF)", url: WHO_PROFILE },
             { label: "Oman Observer: national plan launched for non-communicable diseases (6 February 2018)", url: OBS_NCD_2018 },
@@ -389,22 +397,22 @@ export const OM_DIVE: CountryDive = {
       id: "gap-sources",
       title: "Sources that could not be read",
       plain:
-        "OnCo could not open the cancer centre's website or the Oman Cancer Association's website, and one IAEA page and one book chapter refused a script. What those sources say about services, beds and patient support is missing from this page.",
+        "OnCo could not open the cancer centre's website, and one IAEA page and one book chapter refused a script. The Oman Cancer Association's website failed at first and loaded later the same day; nothing from it is used here yet. What those sources say about services, beds and patient support is missing from this page.",
       detail:
-        "On 16 November 2026: cccrc.gov.om failed to complete a secure connection and gave no answer over plain HTTP; no site for the University Medical City was found. oca.om returned a 502 server error twice, and the Internet Archive copy of 21 March 2025 held little text. The IAEA's page 'Sultanate of Oman Faces the Growing Cancer Burden' returned 403; the IAEA's PDF note on the same mission was read instead. The open-access chapter 'General Oncology Care in Oman' (Cancer in the Arab World, 2022) answered with a browser challenge page and was not read. A 2022 paper on the launch of the Sultan Qaboos centre has no abstract and its full text could not be fetched. The Drug Safety Center's circular no. 17 of 2024 is a scanned image with no text.",
+        "On 16 November 2026: cccrc.gov.om failed to complete a secure connection and gave no answer over plain HTTP; no site for the University Medical City was found. oca.om returned a 502 server error twice when the page was written, and the Internet Archive copy of 21 March 2025 held little text; on the second accuracy pass later the same day its home page loaded, but its content has not been read into this page. The IAEA's page 'Sultanate of Oman Faces the Growing Cancer Burden' returned 403 on both attempts; the IAEA's PDF note on the same mission was read instead. The open-access chapter 'General Oncology Care in Oman' (Cancer in the Arab World, 2022) answered with a browser challenge page and was not read. A 2022 paper on the launch of the Sultan Qaboos centre has no abstract and its full text could not be fetched. The Drug Safety Center's circular no. 17 of 2024 is a scanned image with no text.",
       links: [
         { label: "Sultan Qaboos Comprehensive Cancer Care and Research Centre (site did not load)", url: "https://cccrc.gov.om" },
-        { label: "Oman Cancer Association (site returned an error)", url: "https://oca.om" },
+        { label: "Oman Cancer Association (home page loaded on the second attempt; not yet used)", url: "https://oca.om" },
         { label: "General Oncology Care in Oman, Cancer in the Arab World, 2022 (not read)", url: "https://doi.org/10.1007/978-981-16-7945-2_12" },
       ],
     },
     {
       id: "gap-deaths-survival",
-      title: "Deaths are modelled, the registry stops at 2021, and no survival figures were found",
+      title: "Deaths are modelled, the registry stops at 2021, and survival figures were not read",
       plain:
-        "Oman's registry counts new cancers, not deaths. IARC's death figure is a model built from incidence. The latest registry year is 2021, published in 2025. OnCo found no published survival figures by cancer for Oman.",
+        "Oman's registry report counts new cancers. Its only figure for deaths is for Ministry of Health hospitals. IARC's death figure is a model built from incidence. The latest registry year is 2021, published in 2025. OnCo has not read survival figures by cancer for Oman.",
       detail:
-        "IARC's fact sheet gives the mortality method as national incidence estimates applied to modelled mortality-to-incidence ratios. WHO's 2020 profile rated the quality of mortality registration for 2007 to 2016 as very low and noted that its mortality estimates were not based on national mortality data. The 2021 report gives stage at diagnosis only in charts whose labels could not be matched to values in the text, so stage shares for 2021 are not given here. Reports for 2022 onward were not on the ministry's list.",
+        "IARC's fact sheet gives the mortality method as national incidence estimates applied to modelled mortality-to-incidence ratios, and names Survcan, IARC's registry survival project, as the source behind them; OnCo did not read Survcan's figures for Oman. The 2021 registry report closes with a chart, credited to the ministry's Annual Health Report 2021, of the commonest causes of death in Ministry of Health hospitals, in which neoplasms account for 379 deaths; that covers the ministry's hospitals only and is not a national count. WHO's 2020 profile rated the quality of mortality registration for 2007 to 2016 as very low and noted that its mortality estimates were not based on national mortality data. The 2021 report gives stage at diagnosis only in charts whose labels could not be matched to values in the text, so stage shares for 2021 are not given here. Reports for 2022 onward were not on the ministry's list.",
       links: [
         { label: "IARC: GLOBOCAN 2024 fact sheet, Oman (PDF)", url: GCO_FACT },
         { label: "WHO: Cancer Country Profile 2020, Oman (PDF)", url: WHO_PROFILE },
@@ -415,7 +423,7 @@ export const OM_DIVE: CountryDive = {
       id: "gap-paying",
       title: "Not found: who is entitled to what, the insurance rules for expatriates, and the list of cancer medicines bought",
       plain:
-        "OnCo did not find an official page setting out which residents get cancer care without charge, what expatriates' insurance must cover for cancer, or which cancer medicines public hospitals stock. More than a third of residents are not Omani nationals.",
+        "OnCo did not find an official page setting out which residents get cancer care without charge, what expatriates' insurance must cover for cancer, or which cancer medicines public hospitals stock. More than a third of residents were not Omani nationals in the registry report's 2021 population figures.",
       detail:
         "WHO's strategy document describes public services as nearly free at the point of delivery and available at all levels for Omanis, and compulsory insurance for expatriates as being introduced when it was written in 2021; the law or regulation, its start date and its cancer benefits were not read. The ministry's site search for 'insurance' returned one news item from 2015. The fee exemption at the National Oncology Centre is from a 2018 news item. No formulary or procurement list for cancer medicines was found on the ministry's site, and the Drug Safety Center's register of approved products was not located.",
       links: [
@@ -429,11 +437,12 @@ export const OM_DIVE: CountryDive = {
       plain:
         "The guidelines say who should be screened, but OnCo found no published count of women who have had a mammogram, no results from the 2023 HPV study, and no statement that cervical or colorectal screening now runs as a national programme with invitations.",
       detail:
-        "The breast guideline describes women attending by self-referral or referral from other clinics and gives no participation figure. The colorectal guideline's screening pathway and its appendix on when to use the faecal immunochemical test are images. WHO's record of no cervical screening programme dates from 2019. The ministry's English site search returned no page on the HPV vaccine programme, so its start and target group are taken from newspaper reports, and a search of the Arabic site returned no results that OnCo could read. WHO's coverage rows for 2025 give no doses or target for the last dose.",
+        "The breast guideline describes women attending by self-referral or referral from other clinics and gives no participation figure. The colorectal guideline's screening pathway and its appendix on when to use the faecal immunochemical test are images. WHO's record of no cervical screening programme dates from 2019. The ministry's English site search for HPV returned four circulars recalling HPV test kits and no page on the vaccine programme. Its Arabic site does carry pages on the vaccine, among them the news item of 25 September 2025 that gives the start date; that item does not name the school grade, so the target group is taken from newspaper reports. WHO's coverage rows for 2025 give no doses or target for the last dose.",
       links: [
         { label: "Ministry of Health: breast screening guideline, second edition 2025 (PDF)", url: BREAST_GUIDE },
         { label: "Ministry of Health: colorectal cancer guideline, 2023 (PDF)", url: CRC_GUIDE },
         { label: "WHO immunisation data: HPV programme coverage, Oman (API)", url: WHO_HPV_API },
+        { label: "Ministry of Health: seminar on the HPV vaccination programme in Oman (25 September 2025, in Arabic)", url: HPV_SEMINAR_2025 },
       ],
     },
   ],
@@ -444,7 +453,7 @@ export const OM_DIVE: CountryDive = {
   papers: [],
   people: [],
   how:
-    "Every card was written from public sources read as raw text on 16 November 2026: the Ministry of Health's registry report for 2021, its guidelines, its pages for the Drug Safety Center, the Royal Hospital and medical supplies, its National Health Policy 2025 and its news items; WHO's cooperation strategy and 2020 cancer profile; the IAEA's directory and review note; WHO's immunisation data; the World Bank; ClinicalTrials.gov; IARC's GLOBOCAN 2024 fact sheet; and dated news reports where no official page could be found. One ministry statement was read in Arabic.",
+    "Every card was written from public sources read as raw text on 16 November 2026: the Ministry of Health's registry report for 2021, its guidelines, its pages for the Drug Safety Center, the Royal Hospital and medical supplies, its National Health Policy 2025 and its news items; WHO's cooperation strategy and 2020 cancer profile; the IAEA's directory and review note; WHO's immunisation data; the World Bank; ClinicalTrials.gov; IARC's GLOBOCAN 2024 fact sheet; and dated news reports where no official page could be found. One ministry press statement and one ministry news item were read in Arabic.",
   verify:
     "Registry counts for recent years are revised upward as late reports arrive, and the latest year is 2021. Several statements about services come from news items of 2016 and 2018 and may have changed. Rules on fees and insurance differ for nationals and expatriates; ask the hospital or the ministry before relying on this page.",
   verifyLinks: [

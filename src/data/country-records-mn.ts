@@ -34,11 +34,21 @@ const CERVIX_2026 = "10.3389/fonc.2026.1853617";
 const CRC_2024 = "10.31557/apjcp.2024.25.7.2305";
 
 const institutions: InstitutionInput[] = [
+  i({ id: "center-for-health-development-mongolia", name: "Эрүүл мэндийн хөгжлийн төв (Center for Health Development, Mongolia)",
+    aka: ["Center for Health Development"],
+    city: "Ulaanbaatar", country: "MN", lat: 47.92, lng: 106.92, institutionType: "government", website: "https://hdc.gov.mn/",
+    tldr: "The Mongolian public body that supplied the national health information system (H-Info) data behind a 2026 study of cervical cancer in Mongolia. The study's authors say it gave them a de-identified extract of cervical cancer cases and deaths for 2014 to 2024.",
+    summary: "A 2026 paper in Frontiers in Oncology on cervical cancer in Mongolia from 2014 to 2024 says its data came from 'Mongolia's Health Information System (H-Info), a centralized database that collects routine administrative and clinical information from health facilities across the country', and that 'the dataset used in this study was provided by the Center for Health Development, Mongolia, as a pre-extracted, de-identified dataset for research purposes'. The paper lists the Center for Health Development, Ulaanbaatar, among its authors' affiliations. The centre's own site, in Mongolian, carries the name Эрүүл мэндийн хөгжлийн төв. OnCo did not read the centre's own description of its work or its yearly health indicators report, so its legal status, its other duties and how H-Info relates to the National Cancer Center's cancer registry are not described here. The coordinates are an approximate point for Ulaanbaatar, not the building.",
+    cancers: ["cervical"],
+    links: [
+      { label: "Center for Health Development: home page (in Mongolian)", url: "https://hdc.gov.mn/" },
+      { label: "Frontiers in Oncology 2026: trends in cervical cancer incidence and mortality in Mongolia, 2014-2024", url: `https://doi.org/${CERVIX_2026}` },
+    ], keyPapers: ["paper-tsogtgerel-mongolia-cervical-cancer-trends-2014-2024-front-oncol-2026"] }),
   i({ id: "national-cancer-registry-mongolia", name: "Хорт хавдар эрт илрүүлгийн бүртгэл тандалтын алба (cancer early detection, registry and surveillance unit, National Cancer Center of Mongolia)",
     aka: ["National Cancer Registry of Mongolia", "Mongolian national cancer registry", "ХХЭИБТ алба"],
     city: "Ulaanbaatar", country: "MN", lat: 47.92, lng: 106.92, institutionType: "research-institute", website: NCC_REGISTRY_LIST,
     tldr: "The unit of Mongolia's National Cancer Center that keeps the national cancer registry and publishes the yearly count of new cancers and cancer deaths. Its report for 2024 counted 8,169 new cancers and 4,755 cancer deaths.",
-    summary: "The unit's report for 2024, published by the National Cancer Center, says the registry aims to record every new cancer and every cancer death in the country. It says new cases are reported on a form called AM-5 (site, morphology, TNM stage, treatment) and deaths are taken from death certificates (form AM-7), with reports coming mainly from the regional diagnostic and treatment centres, the 21 provincial general hospitals, the nine district health centres of Ulaanbaatar and some specialised and private hospitals. It names orders of the Minister of Health of 2013 (no. 450), 2014 (no. 431) and 2019 (no. A/611) as the rules it works under. The report gives 8,169 new cancers registered in 2024 (6,702 in 2020), 58.1% of the 2024 cases confirmed by morphology and 5% known from a death certificate only, and 4,755 cancer deaths. The Cancer Prevention and Control Program 2025-2028 calls the registry software CanReg-Mon and plans to upgrade it. The unit also compiles the quarterly breast and cervical early detection returns.",
+    summary: "The unit's report for 2024, published by the National Cancer Center, says the registry aims to record every new cancer and every cancer death in the country. It says new cases are reported on a form called AM-5 (site, morphology, TNM stage, treatment) and deaths are taken from death certificates (form AM-7), with reports coming mainly from the regional diagnostic and treatment centres, the 21 provincial general hospitals, the nine district health centres of Ulaanbaatar, some specialised hospitals and the Songdo, Intermed and Seoul hospitals. It names orders of the Minister of Health of 2013 (no. 450), 2014 (no. 431) and 2019 (no. A/611) as the rules it works under. The report gives 8,169 new cancers registered in 2024 (6,702 in 2020), 58.1% of the 2024 cases confirmed by morphology and 5% known from a death certificate only, and 4,755 cancer deaths. The Cancer Prevention and Control Program 2025-2028 calls the registry software CanReg-Mon and plans to upgrade it. The unit also compiles the quarterly breast and cervical early detection returns.",
     programs: ["National cancer registration (new cases on form AM-5, deaths from death certificates)", "Yearly report of cancer incidence and mortality", "Quarterly returns of breast and cervical early detection"],
     institutions: ["national-cancer-center-mongolia"],
     cancers: ["hcc", "gastric", "cervical", "esophageal", "colorectal"],
@@ -46,10 +56,10 @@ const institutions: InstitutionInput[] = [
       { label: "National Cancer Center: national cancer registry reports (in Mongolian)", url: NCC_REGISTRY_LIST },
       { label: "National Cancer Center: Улсын хэмжээний хорт хавдрын үзүүлэлт 2024 (national cancer indicators 2024, PDF download page)", url: NCC_REPORT_2024 },
       { label: "ICCP Portal: Cancer Prevention and Control Program 2025-2028, Mongolia (PDF)", url: NCCP },
-    ], keyPapers: ["paper-chimed-mongolia-national-cancer-registry-2008-12-ijc-2017", "paper-tsogtgerel-mongolia-cervical-cancer-trends-2014-2024-front-oncol-2026"] }),
+    ], keyPapers: ["paper-chimed-mongolia-national-cancer-registry-2008-12-ijc-2017"] }),
 
   i({ id: "mmra-mongolia", name: "Эм, эмнэлгийн хэрэгслийн хяналт, зохицуулалтын газар (Medicines and Medical Devices Control and Regulatory Agency, Mongolia)",
-    aka: ["ЭЭХХЗГ", "MMRA", "Medicines and Medical Devices Regulatory Agency of Mongolia"],
+    aka: ["ЭЭХХЗГ", "MMRA"],
     city: "Ulaanbaatar", country: "MN", lat: 47.92, lng: 106.92, institutionType: "government", website: MMRA,
     tldr: "Mongolia's medicines regulator, a government agency in Ulaanbaatar. It registers medicines, diagnostics and biologically active products and collects reports of side effects.",
     summary: "The agency's site describes it as a government implementing agency (Засгийн газрын хэрэгжүүлэгч агентлаг). Its registration page says medicines, diagnostics and biologically active products for use in Mongolia are registered on the basis of evidence-based quality and safety documents and test results, and it posts the lists of medicines decided at the meetings of the Эмийн зөвлөл (medicines council); the latest posted when OnCo read it were for meetings in January, March and May 2026. The site says anyone can check whether a medicine is officially registered in the electronic register Licemed (licemed.mohs.mn, an address OnCo could not open), searching by international or trade name, and it has a page for reporting side effects. Its activity pages also cover special permits, licensing, medical equipment and medicine supply. OnCo did not read the law the agency works under.",
@@ -103,7 +113,7 @@ const papers: PaperInput[] = [
     ],
     whatItMeans: "The fall in recorded cervical cancer from 2020 to 2022 and the rebound in 2023 follow screening and diagnostic activity, in the authors' reading, and not a real change in how often the disease occurs. It shows how sensitive Mongolia's counts are to whether services are running.",
     caveats: ["The authors analysed an extract provided to them, not the full database, and had no data on individual screening or vaccination.", "The confidence intervals around each year's rate are wide, and the 2023 to 2024 change rests on two data points.", "The counts come from H-Info and differ slightly from the National Cancer Center registry's (521 cervical cancers in 2024)."],
-    institutions: ["national-cancer-registry-mongolia"], cancers: ["cervical"],
+    institutions: ["center-for-health-development-mongolia"], cancers: ["cervical"],
     links: [doi(CERVIX_2026, "Frontiers in Oncology 2026"), pubmed("42707334")] }),
 
   p({ id: "paper-tsedendorj-mongolia-colorectal-cancer-2018-2022-apjcp-2024", name: "Colorectal cancer incidence and mortality in Mongolia by province, 2018 to 2022",

@@ -33,7 +33,7 @@ const institutions: InstitutionInput[] = [
     links: [
       { label: "Icelandic Cancer Society: Research Centre and Cancer Registry (in Icelandic)", url: REGISTRY },
       { label: "Directorate of Health: the cancer screening register (in Icelandic)", url: SCREEN_REGISTER },
-      { label: "Country Cancer Profile Iceland 2025, section 5.4 (PDF)", url: CCP_2025 },
+      { label: "Country Cancer Profile Iceland 2025, sections 2 and 5.4 (PDF)", url: CCP_2025 },
     ] }),
 
   i({ id: "embaetti-landlaeknis", name: "Embætti landlæknis", aka: ["Directorate of Health (Iceland)", "Directorate of Health", "Landlæknir"],
@@ -46,6 +46,7 @@ const institutions: InstitutionInput[] = [
       { label: "Directorate of Health: the cancer screening register (in Icelandic)", url: SCREEN_REGISTER },
       { label: "Directorate of Health: annual quality reports on cancer screening (in Icelandic)", url: SCREEN_REPORTS },
       { label: "Directorate of Health: cervical screening quality report 2025 (PDF, in Icelandic)", url: SCREEN_CERVIX_2025 },
+      { label: "Country Cancer Profile Iceland 2025, section 5.1 (PDF)", url: CCP_2025 },
     ] }),
 
   i({ id: "samhaefingarstod-krabbameinsskimana", name: "Samhæfingarstöð krabbameinsskimana", aka: ["Coordination Centre for Cancer Screening (Iceland)", "Coordination Centre for Cancer Screening", "SKS"],
@@ -64,13 +65,14 @@ const institutions: InstitutionInput[] = [
   i({ id: "sjukrahusid-a-akureyri", name: "Sjúkrahúsið á Akureyri", aka: ["Akureyri Hospital", "SAk"],
     city: "Akureyri", country: "IS", lat: 65.68, lng: -18.1, institutionType: "hospital",
     tldr: "The hospital in Akureyri, in the north of Iceland. It does breast screening for the north, gives chemotherapy and palliative care, and takes part in the national quality register for cancer.",
-    summary: "Akureyri Hospital (Sjúkrahúsið á Akureyri) is one of the two sites, with Landspítali's Breast Centre, where Iceland's breast screening mammograms are taken; the Coordination Centre for Cancer Screening gives its address as Eyrarlandsvegur. The OECD and European Commission's Country Cancer Profile 2025 lists it among the regional hospitals that provide outpatient and inpatient chemotherapy and minor procedures while radiotherapy and most specialised surgery are at Landspítali, and among the places where palliative care is available. The Icelandic Cancer Society says the Cancer Registry's quality registration is done with Landspítali and Akureyri Hospital. OnCo has not read the hospital's own pages.",
+    summary: "Akureyri Hospital (Sjúkrahúsið á Akureyri) does breast screening for the north of Iceland; the other places where screening mammograms are taken are Landspítali's Breast Centre in Reykjavík and a mobile unit that tours the regions. The Coordination Centre for Cancer Screening gives the hospital's address as Eyrarlandsvegur. The OECD and European Commission's Country Cancer Profile 2025 lists it among the regional hospitals that provide outpatient and inpatient chemotherapy and minor procedures while radiotherapy and most specialised surgery are at Landspítali, and among the places where palliative care is available. The Icelandic Cancer Society says the Cancer Registry's quality registration is done with Landspítali and Akureyri Hospital. OnCo has not read the hospital's own pages.",
     programs: ["Breast screening for the north of Iceland", "Chemotherapy", "Palliative care"],
     institutions: ["landspitali", "samhaefingarstod-krabbameinsskimana", "icelandic-cancer-registry"],
     links: [
       { label: "Coordination Centre for Cancer Screening: breast screening (in Icelandic)", url: SKS_BREAST },
       { label: "Directorate of Health: breast screening quality report 2025 (PDF, in Icelandic)", url: SCREEN_BREAST_2025 },
-      { label: "Country Cancer Profile Iceland 2025, section 5.1 (PDF)", url: CCP_2025 },
+      { label: "Country Cancer Profile Iceland 2025, sections 5.1 and 5.4 (PDF)", url: CCP_2025 },
+      { label: "Icelandic Cancer Society: Research Centre and Cancer Registry (in Icelandic)", url: REGISTRY },
     ] }),
 ];
 

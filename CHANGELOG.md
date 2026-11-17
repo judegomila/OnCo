@@ -7,6 +7,7 @@ All notable changes to OnCo are recorded here. The format follows [Keep a Change
 Regenerated from the commit log each time the site ships (`scripts/changelog-sync.ts`); the version sections below are written by hand when a release is cut.
 
 ### 17 November 2026
+- Second accuracy pass on live country pages, last batch for waves 5 to 12: corrections to Austria, Serbia, Denmark, Finland, Norway, Ireland, Hungary, Belarus, Bulgaria and North Korea, each claim read against its source again
 - Second accuracy pass on live country pages, continued: corrections to eighteen more pages, among them Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica, Paraguay, Belgium, Cuba, Czechia, Greece and Portugal, each claim read against its source again
 - Second accuracy pass on live country pages: corrections to 53 pages after every claim was read against its source again, including what the IAEA radiotherapy directory lists for 36 countries, WHO's HPV vaccination data where pages had said there was none, and sources pages had called unreadable that do answer
 - The first weekly gap fill read from FDA sources lands, each fact checked against the FDA list and device records: the Guardant360 Liquid CDx blood test approved on 19 May 2026 with its seven drug pairings, and four companion tests linked to the biomarkers they read
@@ -19,6 +20,8 @@ Regenerated from the commit log each time the site ships (`scripts/changelog-syn
 - chore: draft records for gaps in the freshness issue, for review
 
 ### 16 November 2026
+- Second accuracy pass, last batch: Austria, Serbia, Denmark, Finland, Norway, Ireland and North Korea complete the forty pages of waves 5 to 8
+- Second accuracy pass on live country pages, continued: corrections to eighteen more pages, among them Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica, Paraguay, Belgium, Cuba, Czechia, Greece and Portugal, each claim read against its source again
 - CIMAvax-EGF: one-line description shortened to fit, facts unchanged
 - Second accuracy pass, batch four: Belgium, Cuba, Czechia, Greece, Portugal, Hungary, Belarus and Bulgaria
 - Second accuracy pass on the last eight live country pages (wave 11): Haiti, Senegal, Slovenia, Mali, Papua New Guinea, Burkina Faso, Costa Rica and Paraguay

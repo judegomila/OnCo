@@ -24,6 +24,10 @@ import { protocol } from "./helpers";
  *   the durations that rested on it alone were taken out of the steps.
  * - ISTH SSC guidance on catheter-associated upper extremity clots in cancer (2014, doi 10.1111/jth.12527): not
  *   readable (publisher 403, no abstract in Europe PMC). Named in `gaps`, not used.
+ * - Independent re-read of doses and drug links on 17 November 2026, against the ITAC 2022 and ASH 2021 full texts and
+ *   the current US labels of Eliquis, Xarelto and Savaysa (DailyMed label XML, tags stripped). The page carries no
+ *   drug dose. The links to apixaban, rivaroxaban and edoxaban were removed: no source read names any of them for a
+ *   line clot in adults (see `gaps`).
  *
  * Every DOI was resolved through Crossref or Europe PMC and its title checked. Quotes are copied from the raw text with
  * line breaks joined; where a sentence carries an inline reference or a grade symbol, the quote stops before it.
@@ -112,7 +116,7 @@ export const catheterRelatedThrombosisInCancer = protocol({
     {
       name: "A DOAC instead of LMWH",
       differs: "Treats the line clot with a direct oral anticoagulant, a tablet, instead of heparin injections.",
-      evidence: "Not compared directly with LMWH in CRT (ITAC 2022, which suggests LMWH). ASH 2021 names no preferred drug; the evidence it found was two case series followed for 12 weeks, one of 70 people with cancer treated with DOACs and one of 74 treated with LMWH or a vitamin K antagonist, with no line removed because of thrombosis.",
+      evidence: "Not compared directly with LMWH in CRT (ITAC 2022, which suggests LMWH). Neither guideline's recommendation names an individual DOAC for a line clot in adults. ASH 2021 names no preferred drug; the evidence it found was two case series followed for 12 weeks, one of 70 people with cancer treated with DOACs and one of 74 treated with LMWH or a vitamin K antagonist, with no line removed because of thrombosis.",
       sources: ["itac-2022", "ash-2021"],
     },
     {
@@ -187,8 +191,41 @@ export const catheterRelatedThrombosisInCancer = protocol({
       read: "full-text",
       accessed: "2026-11-11",
     },
+    {
+      key: "eliquis-us-label",
+      label: "Eliquis (apixaban) tablets: US prescribing information, DailyMed label version of 17 August 2026",
+      publisher: "Bristol-Myers Squibb, published by the US National Library of Medicine (DailyMed)",
+      year: 2026,
+      url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9481622-7cc6-418a-acb6-c5450daae9b0",
+      gradingScheme: "Product label; not graded.",
+      read: "full-text",
+      accessed: "2026-11-17",
+    },
+    {
+      key: "xarelto-us-label",
+      label: "Xarelto (rivaroxaban): US prescribing information, DailyMed label version of 10 September 2026",
+      publisher: "Janssen Pharmaceuticals, published by the US National Library of Medicine (DailyMed)",
+      year: 2026,
+      url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610",
+      gradingScheme: "Product label; not graded.",
+      read: "full-text",
+      accessed: "2026-11-17",
+    },
+    {
+      key: "savaysa-us-label",
+      label: "Savaysa (edoxaban) tablets: US prescribing information, DailyMed label version of 10 July 2025",
+      publisher: "Daiichi Sankyo, published by the US National Library of Medicine (DailyMed)",
+      year: 2025,
+      url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e77d3400-56ad-11e3-949a-0800200c9a66",
+      gradingScheme: "Product label; not graded.",
+      read: "full-text",
+      accessed: "2026-11-17",
+    },
   ],
-  drugs: ["apixaban", "rivaroxaban", "edoxaban"],
+  // No drug is linked. Until 17 November 2026 this record linked apixaban, rivaroxaban and edoxaban; no source read
+  // names any of them for a catheter-related clot in adults, so the links were removed (docs/PROTOCOLS.md: a drug goes
+  // in `drugs` only where a source classifies it for this use). The reasons are in `gaps`.
+  drugs: [],
   technologies: ["implanted-ports", "picc-lines", "cancer-associated-thrombosis"],
   terms: ["vte", "central-venous-access"],
   related: ["cancer-associated-vte-treatment", "implanted-port-access-and-care"],
@@ -200,6 +237,7 @@ export const catheterRelatedThrombosisInCancer = protocol({
     "No source read here gives a recommendation on thrombolysis for a line clot, or on how to diagnose one; the diagnostic steps rest on ESMO 2015 alone.",
     "The symptoms a patient is asked to report are Macmillan's list for PICC lines (swelling, redness or tenderness in the arm, chest area or neck, a swollen hand, shortness of breath, tightness in the chest). Macmillan says to contact the hospital doctor or nurse and gives no time limit; no source read here gives one.",
     "Not read: the ISTH SSC guidance on catheter-associated upper extremity clots in cancer (2014), ESMO's 2023 VTE guideline (both publishers returned 403 to a script on 17 November 2026) and the ASCO 2013 full text (Europe PMC lists it as subscription only; its abstract was read). ASCO's 2023 VTE update, in the copy read, has no recommendation on catheter clots. Where these differ from ITAC and ASH is therefore not shown.",
+    "On 17 November 2026 the links from this page to apixaban, rivaroxaban and edoxaban were removed, because no source read here names any of the three for treating a line clot in adults. ITAC 2022 suggests LMWH and says only that direct oral anticoagulants, as a class, have not been compared with it. ASH 2021 names no drug in its recommendation; the case series of DOAC treatment it cites is identified as a rivaroxaban study only in its reference list. The current US labels, read the same day, give apixaban and rivaroxaban for the treatment of deep vein thrombosis, and edoxaban for it after 5 to 10 days of a parenteral anticoagulant, and none mentions a central venous catheter in adults; the rivaroxaban label names catheter-related thrombosis only in children, who are not covered here. The European product information was not read.",
     "Line occlusion from a fibrin sheath or blocked lumen, and its treatment with a thrombolytic lock, is not covered here.",
   ],
 });

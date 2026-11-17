@@ -21,6 +21,12 @@ import { EBMT_2019, EBMT_2022, SITC_IEC_2020 } from "./cell-therapy-sources";
  *   sibling checkers on 16 November; not retried).
  * DOIs resolved through Europe PMC and Crossref. Quotes checked by script against the raw text; no quote is taken
  * from a sentence with a superscript, because those mangle (the first pass printed "0.1×109/L" inside a quote).
+ *
+ * Independent dose re-read, 17 November 2026: the washout periods (EBMT Table 4), the blood counts (Table 3), the
+ * anticoagulant ratio and cell target (supplement) and the 3 to 6 hours of the tisagenlecleucel guide were read again
+ * in the saved PDF texts, columns checked in the layout-preserved text; none needed changing. The link to
+ * obecabtagene autoleucel had no read source, so its US prescribing information (DailyMed SPL XML, version 6, fetched
+ * 17 November 2026) was read and added. Its quote was checked by script.
  */
 export const carTApheresis = protocol({
   id: "car-t-apheresis",
@@ -170,6 +176,7 @@ export const carTApheresis = protocol({
   grades: [
     { claim: "EBMT/JACIE 2019 recommendations", grade: "not graded (consensus)", source: "ebmt-2019" },
     { claim: "Prior allogeneic transplant, BiTE or antibody therapy is not a bar if the target is expressed", grade: "LE: 4", source: "sitc-iec-2020" },
+    { claim: "Obecabtagene autoleucel label: screen for hepatitis B, hepatitis C and HIV before the cells are collected", grade: "product label (regulatory instruction)", source: "aucatzyl-label-us", quote: "Perform screening for HBV, HCV and HIV in accordance with clinical guidelines before collection of cells for manufacturing." },
   ],
   sources: [
     { ...EBMT_2019, accessed: "2026-11-17" },
@@ -207,6 +214,16 @@ export const carTApheresis = protocol({
       read: "full-text",
       accessed: "2026-11-17",
     },
+    {
+      key: "aucatzyl-label-us",
+      label: "AUCATZYL (obecabtagene autoleucel) US prescribing information, DailyMed version 6, published 6 July 2026",
+      publisher: "Autolus; US National Library of Medicine, DailyMed",
+      year: 2026,
+      url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4fef6986-b988-45e4-8c20-b14f0ef1f538",
+      gradingScheme: "Regulatory prescribing information; not graded.",
+      read: "full-text" as const,
+      accessed: "2026-11-17",
+    },
   ],
   upgrades: [],
   gaps: [
@@ -216,7 +233,7 @@ export const carTApheresis = protocol({
     "The only duration for the procedure in the sources read is the tisagenlecleucel patient guide's 3 to 6 hours; no source read gives one for other products.",
     "The Cytotherapy 2022 guidance and the SFGM-TC consensus are subscription only and were not read beyond their abstracts on 17 November 2026.",
     "FACT-JACIE standards and individual manufacturers' collection manuals were not read.",
-    "The manufacturer requirements EBMT describes (on-site cryopreservation for Novartis, fresh shipment for the others, the 18-month limit) date from 2019 and were not checked against current manufacturer requirements. The sources read name only tisagenlecleucel and axicabtagene ciloleucel; the product information for the other products listed on this page was not read for this protocol.",
+    "The manufacturer requirements EBMT describes (on-site cryopreservation for Novartis, fresh shipment for the others, the 18-month limit) date from 2019 and were not checked against current manufacturer requirements. EBMT 2019 names only tisagenlecleucel and axicabtagene ciloleucel. The US label for obecabtagene autoleucel was read on 17 November 2026: it says the product is made from cells collected by a standard leukapheresis procedure, asks for hepatitis B, hepatitis C and HIV screening before collection, reports manufacturing failure in 5 of 112 patients and says a second manufacture may be attempted after a second collection; it gives no washout periods or blood count thresholds. The product information for lisocabtagene maraleucel, brexucabtagene autoleucel, idecabtagene vicleucel and ciltacabtagene autoleucel was not read for this protocol.",
   ],
   drugs: ["axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel"],
   technologies: ["car-t", "apheresis-starting-material", "car-t-manufacturing-process"],

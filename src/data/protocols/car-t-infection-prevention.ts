@@ -27,6 +27,12 @@ import { EBMT_2019, SITC_IEC_2020 } from "./cell-therapy-sources";
  * monitoring to people who are HBsAg negative and anti-HBc positive; EBMT/JACIE 2019's longer prophylaxis (to one
  * year or a CD4 count) and its position against routine antibacterial prophylaxis had been left out; several "why"
  * lines said more than the sources; a section heading had been joined to a quote; vaccination timing is now a step.
+ *
+ * Independent dose re-read, 17 November 2026: the antiviral, entecavir, co-trimoxazole and immunoglobulin doses, the
+ * IgG thresholds and the durations were read again in the saved ASTCT 2024, SITC 2020 and EBMT/JACIE 2019 texts (EBMT
+ * Table 10 from the PDF text); none needed changing. The link to obecabtagene autoleucel had no read source, so its
+ * US prescribing information (DailyMed SPL XML, version 6, fetched 17 November 2026) was read and added. Its quote
+ * was checked by script.
  */
 export const carTInfectionPrevention = protocol({
   id: "car-t-infection-prevention",
@@ -170,12 +176,23 @@ export const carTInfectionPrevention = protocol({
     { claim: "B-cell counts and immunoglobulins measured monthly after CAR T cells", grade: "LE: 4", source: "sitc-iec-2020" },
     { claim: "Immunoglobulin for high-risk adults and children with IgG under 400 mg/dL", grade: "LE: 4", source: "sitc-iec-2020", quote: "For adult patients deemed to be at high risk of infections or with recurrent infections and for children with serum IgG levels less than 400 mg/dL, immunoglobulin supplementation should be considered" },
     { claim: "Antiviral and Pneumocystis prophylaxis for at least 6 months", grade: "best practice consideration (expert panel; not graded)", source: "astct-inf-2024" },
+    { claim: "Obecabtagene autoleucel label: monitor immunoglobulin levels and manage by institutional guidelines", grade: "product label (regulatory instruction)", source: "aucatzyl-label-us", quote: "Immunoglobulin levels should be monitored after treatment with AUCATZYL and managed per institutional guidelines including infection precautions, antibiotic or antiviral prophylaxis and immunoglobulin replacement." },
   ],
   sources: [
     { key: "astct-inf-2024", label: "Best Practice Considerations by The American Society of Transplant and Cellular Therapy: Infection Prevention and Management After Chimeric Antigen Receptor T Cell Therapy for Hematological Malignancies", publisher: "ASTCT Infectious Diseases Special Interest Group, Transplantation and Cellular Therapy", year: 2024, url: "https://europepmc.org/article/PMC/PMC12826105", doi: "10.1016/j.jtct.2024.07.018", gradingScheme: "Expert panel best practice considerations synthesising mostly retrospective evidence; not graded.", read: "full-text", accessed: "2026-11-17" },
     { ...SITC_IEC_2020, accessed: "2026-11-17" },
     { ...EBMT_2019, accessed: "2026-11-17" },
     { key: "yescarta-label-2026", label: "YESCARTA (axicabtagene ciloleucel) US prescribing information, revised 07/2026, with its Medication Guide", publisher: "Kite Pharma; US Food and Drug Administration", year: 2026, url: "https://www.fda.gov/media/108377/download", gradingScheme: "Regulatory prescribing information; not graded.", read: "full-text", accessed: "2026-11-17" },
+    {
+      key: "aucatzyl-label-us",
+      label: "AUCATZYL (obecabtagene autoleucel) US prescribing information, DailyMed version 6, published 6 July 2026",
+      publisher: "Autolus; US National Library of Medicine, DailyMed",
+      year: 2026,
+      url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4fef6986-b988-45e4-8c20-b14f0ef1f538",
+      gradingScheme: "Regulatory prescribing information; not graded.",
+      read: "full-text" as const,
+      accessed: "2026-11-17",
+    },
   ],
   upgrades: [],
   gaps: [
@@ -185,6 +202,7 @@ export const carTInfectionPrevention = protocol({
     "The ASTCT vaccination schedule (Table 4) is for adults; ASTCT gives no paediatric schedule for lack of data. The sentence in the author manuscript on when live vaccines may be considered is garbled, so only its 1 year minimum for the recombinant shingles vaccine is repeated here. EBMT/JACIE 2019 made no specific recommendation on vaccination.",
     "ASTCT says there is insufficient data to recommend CMV prophylaxis and does not recommend routine monitoring for CMV, EBV or HHV-6; weekly CMV testing in the first 2 to 6 weeks can be considered for people at high risk. This is not set out as a step.",
     "There are no randomised trials of immunoglobulin replacement after CAR T cells, and no clinical trials of antimicrobial prophylaxis (ASTCT).",
+    "Product labels: only two were read for this page, both US. The axicabtagene ciloleucel label is used for the patient advice on fever and for live vaccines. The obecabtagene autoleucel label, read on 17 November 2026, says to give prophylactic antimicrobials by local guidelines, to screen for hepatitis B, hepatitis C and HIV before the cells are collected, to monitor immunoglobulin levels, and not to give live virus vaccines from at least 6 weeks before lymphodepletion until immune recovery; it names no drug, dose or duration. ASTCT 2024 covers CD19- and BCMA-directed CAR T cells as classes and names no product. The labels of tisagenlecleucel, lisocabtagene maraleucel, brexucabtagene autoleucel, idecabtagene vicleucel and ciltacabtagene autoleucel were not read for this page.",
   ],
   drugs: ["human-normal-immunoglobulin", "axicabtagene-ciloleucel", "tisagenlecleucel", "lisocabtagene-maraleucel", "brexucabtagene-autoleucel", "idecabtagene-vicleucel", "ciltacabtagene-autoleucel", "obecabtagene-autoleucel", "valaciclovir", "tenofovir"],
   technologies: ["car-t"],

@@ -12,7 +12,9 @@ import type { EntityInput, InstitutionInput, PaperInput } from "@/lib/schema";
  * DOIs were resolved through Europe PMC and the figures in `findings` are taken from the indexed abstracts.
  *
  * Inbound links: the Ministry links the institute, the regulator and the national oncology centre; the institute links
- * its five papers through keyPapers. The Social Health Insurance Fund has no record here because its website (fms.kz)
+ * the five papers through keyPapers. Second accuracy pass, 17 November 2026: only the Ishkinin paper has authors at the
+ * institute (Europe PMC affiliations), so each paper's own `institutions` now names only a body its authors list; the
+ * other four stay under the institute's keyPapers as papers about the national cancer service, so none is orphaned. The Social Health Insurance Fund has no record here because its website (fms.kz)
  * could not be reached; it is described on the page from the Code and the cancer plan. Coordinates are approximate
  * city points, not building positions.
  */
@@ -43,7 +45,7 @@ const institutions: InstitutionInput[] = [
   i({ id: "kazakhstan-ministry-of-health", name: "Ministry of Health of the Republic of Kazakhstan", aka: ["Ministry of Health Kazakhstan", "MoH Kazakhstan", "Минздрав РК", "Министерство здравоохранения Республики Казахстан"],
     city: "Astana", country: "KZ", lat: 51.13, lng: 71.43, institutionType: "government", website: "https://www.gov.kz/memleket/entities/dsm",
     tldr: "Kazakhstan's health ministry. It runs the Comprehensive Plan to Fight Cancer 2023 to 2027, sets the national screening programme, and says cancer treatment for citizens is paid by the state within the guaranteed volume of free medical care.",
-    summary: "The Ministry of Health is responsible for the Comprehensive Plan to Fight Cancer in the Republic of Kazakhstan for 2023 to 2027, approved by Government decree No. 874 of 5 October 2023 and rewritten by decree No. 864 of 1 October 2026. The plan follows the Comprehensive Plan for 2018 to 2022 (decree No. 395 of 29 June 2018), during which, it says, cancer mortality fell by 15%, from 78.1 to 66.8 per 100,000. Its five directions are prevention, early diagnosis, specialised treatment, palliative care and rehabilitation, and science and workforce, and its financing table totals 460,670.4 million tenge over five years. Its targets for 2027 are 35% of cancers found at stage 0 or I, radiotherapy for 53% of patients, mortality of 64.5 per 100,000 and five-year survival of 60%. The coordinates are an approximate Astana city point.\n\nThe Ministry's order No. ҚР ДСМ-174/2020 sets the target groups for screening: mammography every two years for women aged 40 to 76, cervical cytology every four years for women aged 30 to 74 and a faecal occult blood test every two years for men and women aged 50 to 76, all within the guaranteed volume of free medical care. On 17 September 2026 the Ministry said cancer treatment for citizens is provided at the state's expense, that 150 anticancer medicines are available (102 chemotherapy, 45 targeted and 3 immuno-oncology), that more than 55,000 people a year receive anticancer drug treatment, and that outpatient consultations and tests for suspected cancer follow a \"green corridor\" with a limit of 18 working days.",
+    summary: "The Ministry of Health is responsible for the Comprehensive Plan to Fight Cancer in the Republic of Kazakhstan for 2023 to 2027, approved by Government decree No. 874 of 5 October 2023 and set out in a new edition by decree No. 864 of 1 October 2026. The plan follows the Comprehensive Plan for 2018 to 2022 (decree No. 395 of 29 June 2018), during which, it says, cancer mortality fell by 15%, from 78.1 to 66.8 per 100,000. Its five directions are prevention, early diagnosis, specialised treatment, palliative care and rehabilitation, and science and workforce, and its financing table totals 460,670.4 million tenge over five years. Its targets for 2027 are 35% of cancers found at stage 0 or I, radiotherapy for 53% of patients, mortality of 64.5 per 100,000 and five-year survival of 60%. The coordinates are an approximate Astana city point.\n\nThe Ministry's order No. ҚР ДСМ-174/2020 sets the target groups for screening: mammography every two years for women aged 40 to 76, cervical cytology every four years for women aged 30 to 74 and a faecal occult blood test every two years for men and women aged 50 to 76, all within the guaranteed volume of free medical care. On 17 September 2026 the Ministry said cancer treatment for citizens is provided at the state's expense, that 150 anticancer medicines are available (102 chemotherapy, 45 targeted and 3 immuno-oncology), that more than 55,000 people a year receive anticancer drug treatment, and that outpatient consultations and tests for suspected cancer follow a \"green corridor\" with a limit of 18 working days.",
     programs: ["Comprehensive Plan to Fight Cancer 2023 to 2027", "Comprehensive Plan to Fight Cancer 2018 to 2022", "National cancer screening programme (order ҚР ДСМ-174/2020)", "Green corridor for suspected cancer (18 working days)", "Guaranteed volume of free medical care"],
     institutions: ["kazior", "kazakhstan-ncemmd", "kazakhstan-nnoc", "who", "iaea", "iarc"],
     cancers: ["breast-cancer", "lung-cancer", "gastric", "colorectal", "cervical"], related: ["global-oncology-access", "cancer-registries-surveillance"],
@@ -57,7 +59,7 @@ const institutions: InstitutionInput[] = [
   i({ id: "kazior", name: "Kazakh Institute of Oncology and Radiology (KazIOR)", aka: ["KazIOR", "KazNIIOiR", "КазНИИОиР", "Казахский научно-исследовательский институт онкологии и радиологии", "Kazakh Research Institute of Oncology and Radiology"],
     city: "Almaty", country: "KZ", lat: 43.24, lng: 76.9, institutionType: "research-institute", website: "https://onco.kz",
     tldr: "Kazakhstan's national cancer research institute in Almaty, founded in 1960. It treats patients, coordinates the country's cancer service and publishes the yearly national cancer statistics drawn from the Electronic Register of Cancer Patients.",
-    summary: "The institute was founded on 5 July 1960 under the Ministry of Health of the Kazakh SSR, according to its own website, and is a joint-stock company at 91 Abay Avenue, Almaty; the coordinates are an approximate Almaty point. It gives specialised and high-technology care in oncology, radiation therapy and children's oncology within the guaranteed volume of free medical care, and trains residents.\n\nEach year it publishes \"Indicators of the oncology service of the Republic of Kazakhstan\", edited by D. R. Kaidarova, from the Electronic Register of Cancer Patients (EROB), in which every region registers people diagnosed with cancer by place of residence. The 2023 edition (published 2024, 414 pages) counts 37,038 new cancers excluding skin cancer, a crude rate of 186.1 per 100,000 and a standardised rate of 159.6; 12,958 cancer deaths in the register (13,358 in official death statistics); 218,186 people under observation at the end of 2023; and 117,616 of them observed for five years or more, 55.4% of the total, which the service reports as five-year survival. It states that the Kazakh register is the first in Central Asia recognised by IARC. The edition also reports radiotherapy reaching 36.1% of new patients in 2023 and 2,687,960 people screened.",
+    summary: "The institute was founded on 5 July 1960 under the Ministry of Health of the Kazakh SSR, according to its own website, and is a joint-stock company at 91 Abay Avenue, Almaty; the coordinates are an approximate Almaty point. It gives specialised and high-technology care in oncology, radiation therapy and children's oncology within the guaranteed volume of free medical care, and trains residents.\n\nEach year it publishes \"Indicators of the oncology service of the Republic of Kazakhstan\", edited by D. R. Kaidarova, from the Electronic Register of Cancer Patients (EROB), in which every region registers people diagnosed with cancer by place of residence. The 2023 edition (published 2024, 414 pages) counts 37,038 new cancers excluding skin cancer, a crude rate of 186.1 per 100,000 and a standardised rate of 159.6; 12,958 cancer deaths in the register (13,358 in official death statistics); 218,186 people under observation at the end of 2023; and 117,616 people observed for more than five years, a share the report gives as 55.4% and calls five-year survival (117,616 is 53.9% of 218,186; the report does not state the denominator it used). It states that the Kazakh register is the first in Central Asia recognised by IARC. The edition also reports radiotherapy reaching 36.1% of new patients in 2023 and 2,687,960 people screened.",
     programs: ["Indicators of the oncology service of the Republic of Kazakhstan (yearly, since at least 2015)", "Electronic Register of Cancer Patients (EROB) analysis", "Residency in oncology and radiation therapy", "Patient support service"],
     institutions: ["kazakhstan-ministry-of-health", "iarc"],
     cancers: ["breast-cancer", "lung-cancer", "gastric", "colorectal", "cervical", "prostate"], related: ["cancer-registries-surveillance"],
@@ -83,14 +85,15 @@ const institutions: InstitutionInput[] = [
 
   i({ id: "kazakhstan-nnoc", name: "National Scientific Oncology Center (Astana)", aka: ["NNOC", "ННОЦ", "Национальный научный онкологический центр", "National Research Oncology Center"],
     city: "Astana", country: "KZ", lat: 51.12, lng: 71.45, institutionType: "cancer-center",
-    tldr: "A national oncology centre in Astana, one of three national organisations treating children with cancer, and a lead body in the 2023 to 2027 cancer plan for radiotherapy equipment, blood cancer reference laboratories and children's PET/CT.",
-    summary: "The cancer plan for 2023 to 2027 names the National Scientific Oncology Center (a limited liability partnership, ТОО \"ННОЦ\") in Astana as one of three national organisations giving cancer care to children, with the Scientific Center of Pediatrics and Pediatric Surgery in Almaty and the National Scientific Center of Maternity and Childhood. The coordinates are an approximate Astana city point.\n\nThe plan makes it a co-executor of the installation of linear accelerators, brachytherapy and planning equipment and of proton therapy, of reference laboratories for diagnosing cancers of the blood and blood-forming organs (flow cytometry, immunohistochemistry and molecular genetics), of changes to give children wider access to PET/CT at the centre, and of training in new diagnostic and treatment technologies. The plan notes that the country had no reference oncohaematology laboratory and that samples were sent to Russia to confirm diagnoses. The Ministry of Health said in September 2026 that the first proton therapy centre in Central Asia opened in Kazakhstan in 2025; OnCo did not confirm from a primary source which centre houses it.",
+    tldr: "A national oncology centre in Astana, one of three national organisations treating children with cancer, and named in the 2023 to 2027 cancer plan as a co-executor for radiotherapy equipment, blood cancer reference laboratories and children's PET/CT.",
+    summary: "The cancer plan for 2023 to 2027 names the National Scientific Oncology Center (a limited liability partnership, ТОО \"ННОЦ\") in Astana as one of three national organisations giving cancer care to children, with the Scientific Center of Pediatrics and Pediatric Surgery in Almaty and the National Scientific Center of Maternity and Childhood. The coordinates are an approximate Astana city point.\n\nThe plan makes it a co-executor of the installation of linear accelerators, brachytherapy and planning equipment and of proton therapy, of reference laboratories for diagnosing cancers of the blood and blood-forming organs (flow cytometry, immunohistochemistry and molecular genetics), of changes to give children wider access to PET/CT at the centre, and of training in new diagnostic and treatment technologies. The plan notes that the country had no reference oncohaematology laboratory and that samples were sent to Russia to confirm diagnoses. The Ministry of Health said in September 2026 that the first proton therapy centre in Central Asia opened in Kazakhstan in 2025; OnCo did not confirm from a primary source which centre houses it. The IAEA's Directory of Radiotherapy Centres, read on 17 November 2026, lists a National Research Oncology Center in Astana with three linear accelerators in an entry dated 2026, and no proton therapy unit anywhere in Kazakhstan.",
     programs: ["Children's cancer care (national level)", "Blood cancer reference laboratories (plan 2023 to 2027)", "Radiotherapy and proton therapy equipment (plan 2023 to 2027)"],
     institutions: ["kazakhstan-ministry-of-health"],
     cancers: ["childhood-cancers"],
     links: [
       { label: "Comprehensive Plan to Fight Cancer 2023 to 2027, analysis and actions 29 and following (Russian)", url: PLAN_2023 },
       { label: "Ministry of Health: anticancer treatment, PET/CT and proton therapy (17 September 2026, Russian)", url: MOH_SEPT_2026 },
+      { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), Kazakhstan rows, read 17 November 2026", url: "https://dirac.iaea.org/" },
     ] }),
 ];
 
@@ -104,7 +107,7 @@ const papers: PaperInput[] = [
       "Cervical cancer detection rose by 2.3% (early onset) and 7.5% (late onset) over the period, and fell by 11.3% and 3.1% during the restrictions.",
       "Colon cancer detection fell during the restrictions by 14.4% (early onset) and 5.8% (late onset); rectal cancer detection rose by 18.6% for early-onset and fell by 12.0% for late-onset cancer.",
     ],
-    whatItMeans: "The pandemic interrupted screening and diagnosis in Kazakhstan, and some cancers missed in 2020 and 2021 may have been found later and at a later stage.",
+    whatItMeans: "Fewer breast, cervical and colon cancers were detected in Kazakhstan during the COVID-19 restrictions; the abstract does not say whether cancers were then found at a later stage.",
     caveats: ["Detection rates from routine service data, not a survival analysis; the abstract does not give stage."],
     institutions: ["kazior"], cancers: ["breast-cancer", "cervical", "colorectal"],
     links: [doi("10.3389/fonc.2024.1481242", "Front Oncol 2024"), pubmed("39950102")] }),
@@ -120,7 +123,7 @@ const papers: PaperInput[] = [
     ],
     whatItMeans: "Screening reaches many women in Kazakhstan, but on these data it has not yet shown a measurable effect on national breast cancer deaths, and coverage of the eligible population is falling.",
     caveats: ["Administrative data; an interrupted time series cannot separate the programme from other changes in care."],
-    institutions: ["kazior", "kazakhstan-ministry-of-health"], cancers: ["breast-cancer"],
+    institutions: ["kazakhstan-nnoc"], cancers: ["breast-cancer"],
     links: [doi("10.3390/ijerph23040532", "Int J Environ Res Public Health 2026"), pubmed("42074470")] }),
 
   p({ id: "paper-akhmedullin-cancer-mortality-kazakhstan-bmc-cancer-2024", name: "Cancer mortality trends in Kazakhstan, 2014 to 2022, from the national electronic health system",
@@ -132,9 +135,9 @@ const papers: PaperInput[] = [
       "Mortality rose in people aged 18 to 44 (average annual change 1.36%) and fell in those aged 45 to 59 (minus 2.02%) and 60 to 74 (minus 2.10%).",
       "Oesophageal cancer mortality fell in women and men, ovarian cancer mortality rose by 0.95% a year, and the Kyzylorda region showed a pronounced increase.",
     ],
-    whatItMeans: "Cancer mortality in Kazakhstan was broadly stable to falling over 2014 to 2022, but younger adults, ovarian cancer and some regions need attention.",
-    caveats: ["Routine health system data; the mortality-to-incidence ratio rose during the COVID-19 years, when diagnosis was disrupted."],
-    institutions: ["kazior"], cancers: ["lung-cancer", "gastric", "colorectal"],
+    whatItMeans: "The authors conclude that overall cancer mortality trends in Kazakhstan were stable over 2014 to 2022, and that adults aged 18 to 44, ovarian cancer and regional differences need attention.",
+    caveats: ["Routine health system data; the mortality-to-incidence ratio rose in 2020 and 2021."],
+    institutions: [], cancers: ["lung-cancer", "gastric", "colorectal"],
     links: [doi("10.1186/s12885-024-13128-2", "BMC Cancer 2024"), pubmed("39482619")] }),
 
   p({ id: "paper-aimagambetova-cervical-screening-central-asia-jms-2021", name: "Cervical cancer screening and prevention in Kazakhstan and Central Asia",
@@ -148,7 +151,7 @@ const papers: PaperInput[] = [
     ],
     whatItMeans: "Kazakhstan's organised cytology screening sets it apart in its region, but at the time of writing it had no HPV vaccination programme; WHO's data record a nationwide introduction in 2024.",
     caveats: ["A narrative review written before Kazakhstan introduced HPV vaccination nationally."],
-    institutions: ["kazior"], cancers: ["cervical"],
+    institutions: [], cancers: ["cervical"],
     links: [doi("10.1177/0969141320902482", "J Med Screen 2021"), pubmed("31980007")] }),
 
   p({ id: "paper-dyussupov-semipalatinsk-cancer-mortality-ijerph-2026", name: "Radiation exposure and cancer mortality around the Semipalatinsk nuclear test site",
@@ -160,9 +163,9 @@ const papers: PaperInput[] = [
       "Relative risks of cancer mortality were highest in 1965 to 1969 and 1970 to 1974 (both 6.14), and age-standardised mortality was significantly higher in the exposed group.",
       "Each 10 mSv increase in dose was associated with a 0.9% higher risk of cancer death (odds ratio 1.009).",
     ],
-    whatItMeans: "The legacy of nuclear testing in north-east Kazakhstan is still measurable in cancer deaths among the people who lived near the site.",
+    whatItMeans: "Among people who lived near the test site, deaths from cancer were more frequent where radiation doses were higher; the relative risks were highest in 1965 to 1974.",
     caveats: ["A small cohort from one sub-register; the abstract does not say how other causes of cancer were accounted for."],
-    institutions: ["kazior"], cancers: [],
+    institutions: ["kazakhstan-ministry-of-health"], cancers: [],
     links: [doi("10.3390/ijerph23081037", "Int J Environ Res Public Health 2026"), pubmed("42652352")] }),
 ];
 

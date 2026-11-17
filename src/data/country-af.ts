@@ -85,7 +85,7 @@ export const AF_DIVE: CountryDive = {
           plain:
             "Afghanistan's first population-based cancer registry was set up in Kabul in 2018. In its first three years it recorded 4,498 new cancers among Kabul residents, with breast cancer the commonest in women and stomach cancer in men, and oesophageal cancer second in both.",
           detail:
-            "The registry's first report, published in 2025 by authors including staff of the Ministry of Public Health in Kabul and of Harvard's School of Public Health, says it follows IARC standards, actively collects new cases from health facilities in Kabul and uses IARC's CanReg5 software. The male-to-female ratio of cases was 0.82 to 1. Children aged 0 to 14 had 6.8% of the cancers, and leukaemia was 43.5% of childhood cancers. The authors conclude that the high incidence of breast, stomach and oesophageal cancer calls for cancer control focused on prevention, early detection and quality diagnosis and treatment, and that the registry needs strengthening to improve data quality. A further paper from the registry describes gastric cancer in 2018 to 2020; only its title was used here.",
+            "The registry's first report, published in 2025 by authors including staff of the Ministry of Public Health in Kabul and of Harvard's School of Public Health, says it follows IARC standards, actively collects new cases from health facilities in Kabul and uses IARC's CanReg5 software. The male-to-female ratio of cases was 0.82 to 1. Children aged 0 to 14 had 6.8% of the cancers, and leukaemia was 43.5% of childhood cancers. The authors conclude that the high incidence of breast, stomach and oesophageal cancer calls for cancer control focused on prevention, early detection and quality diagnosis and treatment, and that the registry needs strengthening to improve data quality. A further paper using the registry's data describes gastric cancer in 2018 to 2020; only its abstract was read.",
           links: [
             { label: "Abdullah et al. (Cancer Med 2025)", url: KCR },
             { label: "The descriptive epidemiology of gastric cancer in Afghanistan, population-based registry 2018 to 2020 (2026)", url: "https://doi.org/10.1007/s10120-026-01734-x" },
@@ -102,7 +102,7 @@ export const AF_DIVE: CountryDive = {
           id: "spending",
           title: "Households pay about three quarters of health spending",
           plain:
-            "WHO estimates that out-of-pocket payments were 77.1% of Afghanistan's current health expenditure in 2023, the highest of the nine countries in this wave of OnCo's country pages that have a WHO figure. A 2026 assessment found limited access to essential cancer medicines.",
+            "WHO estimates that out-of-pocket payments were 77.1% of Afghanistan's current health expenditure in 2023, the highest of the nine countries in this wave of OnCo's country pages that have a WHO figure. A 2026 assessment of cancer control found limited access to essential medicines.",
           detail:
             "WHO's Global Health Expenditure Database gives out-of-pocket spending of 77.2% of current health expenditure in 2021, 77.9% in 2022 and 77.1% in 2023. The cancer control capacity assessment, using the WHO and IAEA self-assessment tool with site visits to 12 public and 5 private facilities in June and July 2021 and review continuing to January 2025, found diagnostic and treatment services concentrated in cities, with limited access to essential medicines, radiology, pathology and systemic therapies. OnCo read no primary source on what an Afghan patient pays for cancer care or which cancer medicines are provided free.",
           links: [
@@ -139,10 +139,11 @@ export const AF_DIVE: CountryDive = {
           plain:
             "The 2026 capacity assessment found no established programmes for cancer screening and early detection in Afghanistan. WHO's immunisation data hold no HPV vaccination coverage for Afghanistan in any year.",
           detail:
-            "The assessment found no screening or early detection programmes. WHO's public immunisation data, queried for HPV programme coverage for Afghanistan on 11 November 2026, returned no rows, while they return rows for every other country in this wave except North Korea. IARC estimates 790 cervical cancers and 456 cervical cancer deaths in Afghanistan in 2024. In 2026 The Lancet Oncology published a piece titled \"Afghan women's cancer crisis deserves its own response\"; only its title and authors were read, as it has no abstract.",
+            "The assessment found no screening or early detection programmes. WHO's public immunisation data, queried for HPV on 17 November 2026, hold rows for Afghanistan for 2018 to 2025, but every one is blank: none gives coverage, doses or a target population. A narrower query for programme coverage on 11 November 2026 returned no rows at all. IARC estimates 790 cervical cancers and 456 cervical cancer deaths in Afghanistan in 2024. In 2026 The Lancet Oncology published a piece titled \"Afghan women's cancer crisis deserves its own response\"; only its title and authors were read, as it has no abstract.",
           links: [
             { label: "Abdullah et al. (Int J Cancer 2026)", url: CAPACITY },
             { label: "WHO immunisation data: HPV programme coverage, Afghanistan (API; returns no rows)", url: WHO_HPV_API },
+            { label: "WHO immunisation data: all HPV rows, Afghanistan, 2018 to 2025 (API; every row blank)", url: "https://xmart-api-public.who.int/WIISE/MT_AD_COV_LONG?$filter=CODE%20eq%20'AFG'%20and%20contains(ANTIGEN,'HPV')" },
             { label: "Nasari et al., Afghan women's cancer crisis deserves its own response (Lancet Oncol 2026)", url: LANCET_WOMEN },
           ],
         },
@@ -159,8 +160,11 @@ export const AF_DIVE: CountryDive = {
           plain:
             "A 2026 assessment of Afghanistan's cancer control capacity found no national cancer control plan, no radiotherapy facilities and palliative care services that were nearly non-existent. Its authors name a national plan, wider diagnosis and treatment, palliative care and workforce as the priorities.",
           detail:
-            "The assessment used the WHO and IAEA National Cancer Control Programmes Core Capacity Self-Assessment Tool. A team of nine experts visited 12 public and 5 private facilities in June and July 2021, followed by a questionnaire survey and desk and literature review to January 2025. It found services concentrated in cities, limited radiology, pathology and systemic therapy, no radiotherapy and almost no palliative care. Its immediate priorities are finalising and implementing a national cancer control plan, expanding diagnostic and treatment infrastructure, integrating palliative care and strengthening the workforce, and it calls for international investment and technical assistance.",
-          links: [{ label: "Abdullah et al. (Int J Cancer 2026)", url: CAPACITY }],
+            "The assessment used the WHO and IAEA National Cancer Control Programmes Core Capacity Self-Assessment Tool. A team of nine experts visited 12 public and 5 private facilities in June and July 2021, complemented by a questionnaire survey and by desk and literature review that continued to January 2025. It found services concentrated in cities, limited radiology, pathology and systemic therapy, no radiotherapy and almost no palliative care. Its immediate priorities are finalising and implementing a national cancer control plan, expanding diagnostic and treatment infrastructure, integrating palliative care and strengthening the workforce, and it calls for international investment and technical assistance. The IAEA's Directory of Radiotherapy Centres (DIRAC), read on 17 November 2026, has no row for Afghanistan, neither in its table of countries nor in its list of centres.",
+          links: [
+            { label: "Abdullah et al. (Int J Cancer 2026)", url: CAPACITY },
+            { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: "https://dirac.iaea.org/Query/Countries" },
+          ],
         },
       ],
     },
@@ -175,7 +179,7 @@ export const AF_DIVE: CountryDive = {
           plain:
             "Counted from ClinicalTrials.gov participation data in OnCo's graph on 11 November 2026, none of the cancer trials in our records lists a site in Afghanistan. OpenAlex counts 27 oncology papers with an Afghanistan-based author in 2025.",
           detail:
-            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and none lists Afghanistan; that reflects the trials OnCo holds, not every study. OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gives Afghanistan 10 works in 2021, 9 in 2022, 18 in 2023, 8 in 2024 and 27 in 2025, 72 in total, of which 64 are open access. Recent published work from Afghanistan includes the Kabul registry's reports, studies of oesophageal and gastric cancer at a Kabul referral centre, and quality of life among cancer patients at Herat Regional Hospital (titles only read).",
+            "OnCo's graph holds ClinicalTrials.gov participation snapshots for its trials, and none lists Afghanistan; that reflects the trials OnCo holds, not every study. OpenAlex, counting works whose primary topic is oncology and a paper for every country among its authors' affiliations, gives Afghanistan 10 works in 2021, 9 in 2022, 18 in 2023, 8 in 2024 and 27 in 2025, 72 in total, of which 64 are open access. Recent published work from Afghanistan includes the Kabul registry's reports, a case series of oesophageal and gastric cancer at a referral centre in Kabul, and a study of quality of life among cancer patients at Herat Regional Hospital (titles only read).",
           links: [{ label: "ClinicalTrials.gov: cancer studies with a site in Afghanistan (search)", url: CTGOV }],
         },
       ],
@@ -197,8 +201,11 @@ export const AF_DIVE: CountryDive = {
       plain:
         "The registry's first report counts Kabul residents only, and there is no survival figure on this page. A 2026 registry paper reports gastric cancer rates for eight regions of Afghanistan; OnCo has read only its abstract. IARC's national numbers are modelled from neighbouring countries.",
       detail:
-        "Only the abstracts of the registry and capacity papers were read, and only titles for the other papers named. The IAEA's DIRAC radiotherapy database was not read; the statement that radiotherapy is absent comes from the 2026 assessment.",
-      links: [{ label: "IARC: GLOBOCAN 2024 fact sheet, Afghanistan (PDF)", url: IARC_FACTSHEET }],
+        "Only the abstracts of the registry and capacity papers were read, and only titles for the other papers named. The IAEA's DIRAC radiotherapy directory was not read when this page was written. Its public data feed, read on 17 November 2026, has no row for Afghanistan in either its table of countries or its list of centres. DIRAC is built from replies to IAEA questionnaires, so a missing row is not by itself a finding that no machine exists; the statement that radiotherapy is absent comes from the 2026 assessment.",
+      links: [
+        { label: "IARC: GLOBOCAN 2024 fact sheet, Afghanistan (PDF)", url: IARC_FACTSHEET },
+        { label: "IAEA DIRAC: radiotherapy centres by country (read 17 November 2026)", url: "https://dirac.iaea.org/Query/Countries" },
+      ],
     },
   ],
   institutions: ["kabul-cancer-registry", "iarc", "who"],

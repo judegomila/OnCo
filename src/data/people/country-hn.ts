@@ -11,7 +11,7 @@ export const peopleHN: PersonInput[] = [
   { kind: "person", asOf, id: "leonardo-a-sanchez", name: "Leonardo A. Sánchez",
     role: "Comisionado Presidente, Agencia de Regulación Sanitaria (ARSA), Honduras",
     institutionId: "arsa-honduras", institutions: ["arsa-honduras"], specialisms: ["Medicines regulation"],
-    tldr: "Leonardo A. Sánchez heads Honduras's health products regulator, ARSA, as its Comisionado Presidente.",
+    tldr: "Leonardo A. Sánchez was named as Comisionado Presidente of Honduras's health products regulator, ARSA, in a news item of July 2026.",
     summary: "A news item of 29 July 2026 on the home page of the Agencia de Regulación Sanitaria, read in Spanish on 11 November 2026, names Dr. Leonardo A. Sánchez as ARSA's Comisionado Presidente. OnCo has not read a fuller biography.",
     profiles: [{ label: "ARSA: home page (in Spanish)", url: ARSA }],
     links: [{ label: "ARSA: home page (in Spanish)", url: ARSA }],

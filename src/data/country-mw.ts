@@ -30,11 +30,11 @@ export const MW_DIVE: CountryDive = {
   asOf: "2026-11-11",
   title: "Cancer in Malawi",
   description:
-    "Cancer in Malawi from Malawian sources: IARC's estimate of 23,246 new cancers and 13,676 deaths in 2024, two thirds in women, cervical cancer as the commonest cancer, Kaposi sarcoma and oesophageal cancer shaped by HIV and other causes, the Blantyre registry behind the estimates, a VIA screen-and-treat programme, HPV vaccination, health spending two thirds paid by donors, and one trial in our records with a site in Malawi.",
+    "Cancer in Malawi from Malawian sources: IARC's estimate of 23,246 new cancers and 13,676 deaths in 2024, two thirds in women, cervical cancer as the commonest cancer, then oesophageal cancer and Kaposi sarcoma, the Blantyre registry as the direct count, a VIA screen-and-treat programme, HPV vaccination, health spending two thirds paid by donors, and one trial in our records with a site in Malawi.",
   lede:
-    "IARC estimates 23,246 new cancers and 13,676 cancer deaths in Malawi in 2024, two thirds of the cancers in women. Cervical cancer alone is more than a quarter of all cancers. The registry in Blantyre has shown for decades how HIV shapes cancer here: Kaposi sarcoma has been the commonest cancer in men.",
+    "IARC estimates 23,246 new cancers and 13,676 cancer deaths in Malawi in 2024, two thirds of the cancers in women. Cervical cancer alone is more than a quarter of all cancers. The registry in Blantyre found Kaposi sarcoma, a cancer closely tied to HIV, to be the commonest cancer in men in 2008 to 2010, and IARC's 2024 estimate still ranks it first in men.",
   globocanNote:
-    "IARC's GLOBOCAN 2024 figure for Malawi is 23,246 new cancers and 13,676 deaths, an age-standardised incidence of 171.1 per 100,000 (127.5 in men, 210.5 in women) and mortality of 109.5. IARC's fact sheet names a sub-national registry as its incidence source and its method as sub-national rates applied to the 2024 population. The fact sheet does not name the registry; the Malawi Cancer Registry in Blantyre is the population-based registry in the sources read here. Mortality is estimated from national incidence and modelled mortality-to-incidence ratios based on registry survival data (Survcan). So the national figure applies city rates to the whole country. The registry's own last published rates in the sources read here, for 2008 to 2010, were 169.8 per 100,000 in men and 238.7 in women; OnCo found no source explaining the difference from IARC's figures.",
+    "IARC's GLOBOCAN 2024 figure for Malawi is 23,246 new cancers and 13,676 deaths, an age-standardised incidence of 171.1 per 100,000 (127.5 in men, 210.5 in women) and mortality of 109.5. IARC's fact sheet names a sub-national registry as its incidence source and its method as sub-national rates applied to the 2024 population. The fact sheet does not name the registry; the Malawi Cancer Registry in Blantyre is the population-based registry in the sources read here. Mortality is estimated from national incidence and modelled mortality-to-incidence ratios based on registry survival data (Survcan). So the national figure applies rates from one part of the country to the whole of it; if the registry is Blantyre's, they are one city's rates. The registry's own last published rates in the sources read here, for 2008 to 2010, were 169.8 per 100,000 in men and 238.7 in women; OnCo found no source explaining the difference from IARC's figures.",
   sections: [
     {
       id: "profile",
@@ -48,7 +48,7 @@ export const MW_DIVE: CountryDive = {
           plain:
             "IARC estimates 23,246 new cancers in Malawi in 2024, 15,368 in women and 7,878 in men. Cervical cancer is the commonest (6,773 cases, 3,844 deaths), followed by oesophageal cancer, Kaposi sarcoma, breast cancer and non-Hodgkin lymphoma. For every ten new cancers there are about six cancer deaths in the same year.",
           detail:
-            "GLOBOCAN 2024 gives oesophageal cancer 2,642 cases and 2,162 deaths, Kaposi sarcoma 2,384 cases and 984 deaths, breast cancer 1,447 cases and 666 deaths, and non-Hodgkin lymphoma 1,252 cases and 589 deaths. The age-standardised incidence of cervical cancer is 93.4 per 100,000 women. A 2019 study linking the Blantyre registry to Malawi's two largest HIV treatment cohorts found 4,346 cancers among 28,576 people starting antiretroviral therapy in 2000 to 2010, with Kaposi sarcoma at 634.7 and cervical cancer at 36.6 per 100,000 person-years.",
+            "GLOBOCAN 2024 gives oesophageal cancer 2,642 cases and 2,162 deaths, Kaposi sarcoma 2,384 cases and 984 deaths, breast cancer 1,447 cases and 666 deaths, and non-Hodgkin lymphoma 1,252 cases and 589 deaths. The age-standardised incidence of cervical cancer is 93.4 per 100,000 women. A 2019 study linking Malawi's population-based cancer registry to the country's two largest HIV treatment cohorts for 2000 to 2010 found 4,346 cancers among 28,576 people who started antiretroviral therapy, with age-adjusted rates of 634.7 per 100,000 person-years for Kaposi sarcoma and 36.6 for cervical cancer.",
           links: [
             { label: "IARC: GLOBOCAN 2024 fact sheet, Malawi (PDF)", url: IARC_FACTSHEET },
             { label: "Horner et al., cancer among antiretroviral therapy users in Malawi (Clin Infect Dis 2019)", url: HIV_LINK },
@@ -71,7 +71,7 @@ export const MW_DIVE: CountryDive = {
             { source: "Malawi Cancer Registry (Blantyre)", period: "2008 to 2010", cases: 3711, men: 169.8, women: 238.7 },
             { source: "Nationwide search of 81 facility registers", period: "2007 to 2010", cases: 18946, men: 56, women: 69 },
           ],
-          note: "The nationwide count came from facility registers in one two-month exercise in 2010; its authors note under-reporting, and only 17.9% of its cases were confirmed by histology, so its rates are much lower than the population-based Blantyre rates. The Blantyre registry confirmed 47.5% by histology.",
+          note: "The nationwide count came from facility registers in one two-month exercise in 2010; its authors note under-reporting, and only 17.9% of its cases were confirmed by histology. Its rates are much lower than the population-based Blantyre rates. The Blantyre registry confirmed 47.5% by histology.",
           sources: [
             { label: "Chasimpha et al., three-year cancer incidence in Blantyre, Malawi 2008 to 2010 (Int J Cancer 2017)", url: BLANTYRE },
             { label: "Msyamboza et al., burden of cancer in Malawi (BMC Res Notes 2012)", url: NATIONAL_2012 },
@@ -89,7 +89,7 @@ export const MW_DIVE: CountryDive = {
           id: "registry-blantyre",
           title: "A city registry that finds cases beyond the laboratory",
           plain:
-            "The Malawi Cancer Registry counts cancer among residents of Blantyre by active case finding, checking each record in the registry software CanReg. In 2008 to 2010 it registered 3,711 cancers. Fewer than half were confirmed by a laboratory, which its authors read as a sign that cases are being found outside laboratories too.",
+            "The Malawi Cancer Registry counts cancer among residents of Blantyre by active case finding, with standard checks for accuracy and validity in the registry software CanReg 4. In 2008 to 2010 it registered 3,711 cancers. Fewer than half were confirmed by a laboratory, which its authors read as a sign that cases are being found outside laboratories too.",
           detail:
             "The 2017 paper by Chasimpha, Parkin, Masamba and Dzamalala reports Kaposi sarcoma as 40.5% of cancers in men and cervical cancer as 33.3% in women, oesophageal cancer rates among the highest in the world (30.9 per 100,000 in men and 22.1 in women), relatively low prostate cancer (16.4 per 100,000), and among children Burkitt lymphoma (32.5% of childhood cancers), Wilms tumour and Kaposi sarcoma. Histological verification rose to 47.5% from 42.4% in the late 1990s. OnCo found no website or more recent published report from the registry; see the gaps.",
           links: [
@@ -110,7 +110,7 @@ export const MW_DIVE: CountryDive = {
           plain:
             "In 2023, according to the World Bank, external sources paid 65.5% of Malawi's current health spending, the government 12.8% and households 12.0% out of pocket. Total health spending was 6.5% of GDP, about 41 US dollars a person.",
           detail:
-            "These are the World Bank's indicators drawn from WHO's Global Health Expenditure Database: external health expenditure (SH.XPD.EHEX.CH.ZS), domestic general government health expenditure (SH.XPD.GHED.CH.ZS) and out-of-pocket expenditure (SH.XPD.OOPC.CH.ZS), all as a share of current health expenditure, and current health expenditure per person of 41.27 US dollars. A low out-of-pocket share here does not mean cancer care is free or available: it reflects how much of the system donors fund. OnCo did not find a Malawian source setting out what public hospitals charge for cancer treatment or which cancer medicines are on the national essential list; see the gaps.",
+            "These are the World Bank's indicators drawn from WHO's Global Health Expenditure Database: external health expenditure (SH.XPD.EHEX.CH.ZS), domestic general government health expenditure (SH.XPD.GHED.CH.ZS) and out-of-pocket expenditure (SH.XPD.OOPC.CH.ZS), all as a share of current health expenditure, and current health expenditure per person of 41.27 US dollars. A low out-of-pocket share here does not mean cancer care is free or available; it sits beside a donor share of about two thirds. OnCo did not find a Malawian source setting out what public hospitals charge for cancer treatment or which cancer medicines are on the national essential list; see the gaps.",
           links: [
             { label: "World Bank: external health expenditure, Malawi (API)", url: WB_EXT },
             { label: "World Bank: out-of-pocket expenditure, Malawi (API)", url: WB_OOP },
@@ -145,9 +145,9 @@ export const MW_DIVE: CountryDive = {
           id: "via",
           title: "Screen-and-treat for cervical cancer, and high HPV vaccine coverage",
           plain:
-            "The Ministry of Health's cervical cancer programme uses visual inspection with acetic acid and treats precancerous changes with cryotherapy. Between 2011 and 2015 it grew from 75 to 130 sites and screened 145,015 women. WHO estimates that 82% of girls in the target age group were vaccinated against HPV in 2025.",
+            "The Ministry of Health's cervical cancer programme uses visual inspection with acetic acid and treats precancerous changes with cryotherapy. Between 2011 and 2015 it grew from 75 to 130 sites and screened 145,015 women, but treated only 1,001 of the 2,311 women eligible for cryotherapy (43.3%). WHO estimates that 82% of girls in the target age group were vaccinated against HPV in 2025.",
           detail:
-            "The 2016 paper reports yearly coverage rising from 9.3% to 26.5%, 5.1% of women VIA positive and 4.3% with suspected cancer, and higher positivity in women with HIV (8.8% against 5.0%). WHO's 2021 country capacity survey lists VIA as the main screening method and records no national breast cancer screening programme. WHO's HPV coverage estimates for Malawi were 84% in 2019, 80% in 2020, 13% in 2021 and 2022, 68% in 2023, 69% in 2024 and 82% in 2025.",
+            "The 2016 paper reports yearly coverage rising from 9.3% to 26.5%, 5.1% of women VIA positive and 4.3% with suspected cancer, and higher positivity in women with HIV (8.8% against 5.0%). Its authors name the failure to treat as the programme's main challenge: gas ran out, cryotherapy machines were broken or missing, and only 266 of 836 women referred with a large lesion or suspected cancer (31.8%) received care at the referral centre. WHO's 2021 country capacity survey lists VIA as the main screening method and records no national breast cancer screening programme. WHO's HPV coverage estimates for Malawi were 84% in 2019, 80% in 2020, 13% in 2021 and 2022, 68% in 2023, 69% in 2024 and 82% in 2025.",
           links: [
             { label: "Msyamboza et al., cervical screening in Malawi 2011 to 2015 (BMC Public Health 2016)", url: VIA_2016 },
             { label: "WHO Global Health Observatory: HPV coverage, Malawi (API)", url: WHO_HPV },
@@ -164,9 +164,9 @@ export const MW_DIVE: CountryDive = {
           id: "hiv-cancer",
           title: "Cancer care built alongside HIV care",
           plain:
-            "Because so much cancer in Malawi is linked to HIV, researchers and the Ministry have tied cancer work to HIV services: the screening programme is integrated with family planning and HIV treatment, and the registry has been linked to HIV treatment records to measure cancer among people on antiretroviral therapy.",
+            "Researchers and the Ministry have tied cancer work in Malawi to HIV services: the screening programme was rolled out together with family planning and HIV treatment services, and the registry has been linked to HIV treatment records to measure cancer among people on antiretroviral therapy.",
           detail:
-            "The 2016 screening paper describes integrating VIA with family planning services and the HIV antiretroviral therapy programme. The 2019 linkage study concluded that integrated cancer screening and management in HIV clinics, especially for Kaposi sarcoma and cervical cancer, remain priorities. Malawian sites took part in ACTG A5263, an international trial in people with HIV and advanced Kaposi sarcoma that found paclitaxel with antiretroviral therapy better than oral etoposide or bleomycin with vincristine.",
+            "The 2016 screening paper describes integrating VIA with family planning services and the HIV antiretroviral therapy programme. The 2019 linkage study concluded that integrated cancer screening and management in HIV clinics, especially for Kaposi sarcoma and cervical cancer, remain important priorities. Two Malawian sites, in Blantyre and Lilongwe, took part in ACTG A5263, an international trial in people with HIV and advanced Kaposi sarcoma that found paclitaxel with antiretroviral therapy better than oral etoposide or bleomycin with vincristine.",
           links: [
             { label: "Horner et al., cancer among antiretroviral therapy users in Malawi (Clin Infect Dis 2019)", url: HIV_LINK },
             { label: "ACTG A5263 on OnCo", url: "/trials/actg-a5263/" },
@@ -197,14 +197,15 @@ export const MW_DIVE: CountryDive = {
   gaps: [
     {
       id: "radiotherapy",
-      title: "Radiotherapy and the cancer workforce are not counted here",
+      title: "Two radiotherapy centres are listed by the IAEA; the cancer workforce is not counted here",
       plain:
-        "WHO's 2021 country capacity survey records radiotherapy and chemotherapy as generally available in Malawi's public sector, but OnCo found no Malawian source it could read giving the number of radiotherapy machines, oncologists or cancer centres, or when they opened.",
+        "The IAEA's directory of radiotherapy centres, read on 16 November 2026, lists two centres in Malawi: Kamuzu Central Hospital's cancer centre in Lilongwe and the International Blantyre Cancer Center. WHO's 2021 country capacity survey records radiotherapy and chemotherapy as generally available in the public sector. OnCo found no Malawian source it could read giving the number of oncologists, or when the centres opened.",
       detail:
-        "The IAEA's directory of radiotherapy centres works only in a browser. The Ministry of Health and Sanitation's website lists no cancer policy among its downloads that OnCo could find, and OnCo's web search budget was spent during this round, so documents could only be reached by known addresses. WHO's survey also reports oral morphine as not generally available in the public health sector.",
+        "The IAEA's directory lists two linear accelerators and one cobalt-60 unit at the Lilongwe centre, which it also lists with brachytherapy, and one linear accelerator at the Blantyre centre, both entries last updated in 2026. The directory does not say whether a machine is working today, and the entry read here does not say whether the Blantyre centre is public or private. This is recent: the national screening programme's 2016 paper stated that radiotherapy was not available in Malawi. The Ministry of Health and Sanitation's website lists no cancer policy among its downloads that OnCo could find, and OnCo's web search budget was spent during this round, so documents could only be reached by known addresses. WHO's survey also reports oral morphine as not generally available in the public health sector.",
       links: [
         { label: "WHO Global Health Observatory: radiotherapy availability, Malawi (API)", url: WHO_CCS },
-        { label: "IAEA: DIRAC, directory of radiotherapy centres", url: "https://dirac.iaea.org/" },
+        { label: "IAEA: Directory of Radiotherapy Centres (DIRAC), countries data", url: "https://dirac.iaea.org/Data/CountriesLight" },
+        { label: "Msyamboza et al., cervical screening in Malawi 2011 to 2015 (BMC Public Health 2016)", url: VIA_2016 },
       ],
     },
     {
@@ -213,9 +214,10 @@ export const MW_DIVE: CountryDive = {
       plain:
         "OnCo did not find a national cancer control plan, the national essential medicines list, rules on what public hospitals charge for cancer care, or a registry report after 2010 that it could read. The Ministry's home page, read on 11 November 2026, links to none of them.",
       detail:
-        "The registry has no website of its own; the most recent registry figures here are for 2008 to 2010. The cervical screening figures are for 2011 to 2015. Newer programme data, including any move to HPV testing or thermal ablation, were not found in the sources read.",
+        "WHO's 2021 country capacity survey records that Malawi has an operational policy, strategy or action plan for cancer; OnCo could not find the document itself. OnCo found no website for the registry; the most recent registry figures here are for 2008 to 2010. The cervical screening figures are for 2011 to 2015. Newer programme data, including any move to HPV testing or thermal ablation, were not found in the sources read.",
       links: [
         { label: "Ministry of Health and Sanitation, Malawi", url: MOH },
+        { label: "WHO Global Health Observatory: cancer policy, strategy or action plan, Malawi (API)", url: "https://ghoapi.azureedge.net/api/NCD_CCS_CancerPlan?$filter=SpatialDim%20eq%20'MWI'" },
       ],
     },
   ],
@@ -226,9 +228,9 @@ export const MW_DIVE: CountryDive = {
   papers: ["paper-chasimpha-blantyre-incidence-2008-2010-ijc-2017", "paper-msyamboza-malawi-national-cancer-burden-bmcrn-2012", "paper-msyamboza-malawi-cervical-screening-2011-2015-bmcph-2016"],
   people: [],
   how:
-    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Malawi; the abstracts of the registry, linkage and screening papers through Europe PMC; the Pharmacy and Medicines Regulatory Authority's website; WHO's Global Health Observatory; and the World Bank's health expenditure series. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records (the Ministry, the registry, the regulator and three papers) carry their own sources.",
+    "Every card was written from sources read in full rather than through a summary: IARC's GLOBOCAN 2024 fact sheet for Malawi; the abstracts of the registry, linkage and screening papers through Europe PMC; the Pharmacy and Medicines Regulatory Authority's website; WHO's Global Health Observatory; the World Bank's health expenditure series; and, on 16 November 2026, the IAEA's directory of radiotherapy centres. Trials were counted from OnCo's ClinicalTrials.gov participation data. The new records (the Ministry, the registry, the regulator and three papers) carry their own sources.",
   verify:
-    "National figures are IARC estimates built on one city's registry. Which hospitals give radiotherapy and chemotherapy, and which medicines are in stock, change faster than published papers; ask the referring hospital or district health office.",
+    "National figures are IARC estimates built on a registry that covers only part of the country. Which hospitals give radiotherapy and chemotherapy, and which medicines are in stock, change faster than published papers; ask the referring hospital or district health office.",
   verifyLinks: [
     { label: "Ministry of Health and Sanitation, Malawi", url: MOH },
     { label: "Pharmacy and Medicines Regulatory Authority", url: PMRA },

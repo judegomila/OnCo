@@ -24,7 +24,7 @@ export const simpleD: Record<string, string> = {
   astra: "This trial tested whether adding a pill to radioactive iodine helped people with high-risk thyroid cancer; it found no improvement in the number reaching remission.",
   "astrum-005": "This trial tested whether adding a Chinese immune drug to chemotherapy helped people with widespread small-cell lung cancer; it found they lived longer.",
   "athena-mono": "This trial tested whether a PARP pill (DNA repair blocker) after chemotherapy helped women with ovarian cancer; it found the cancer stayed away longer, especially with faulty DNA repair.",
-  atlantis: "This trial tested whether a two-drug chemotherapy helped people whose small-cell lung cancer had returned; it found no survival gain, but the drug stayed available on its own.",
+  atlantis: "This trial tested whether a two-drug chemotherapy helped people whose small-cell lung cancer had returned; it found no survival gain, and the drug's US approval for that use was removed in 2026.",
   atomic: "This trial tested adding an immune drug to chemotherapy after surgery in a bowel cancer type with faulty DNA repair; it found the cancer returned about half as often.",
   "augment-101": "This trial tested a new pill that blocks a protein called menin in people with a rare leukaemia; it found some went into remission, leading to the first approval.",
   "azur-1": "This trial tested whether an immune drug alone, with no surgery or radiation, could treat a rectal cancer type with faulty DNA repair; in its first results 68 percent of patients had a complete response lasting at least a year.",

@@ -221,7 +221,7 @@ const list: UkCoverage[] = [
   notUk("sevabertinib", "sevabertinib"),
   rec("pemetrexed", "pemetrexed", 181, 2009, "First-line treatment of non-squamous NSCLC with cisplatin", { note: "Also malignant pleural mesothelioma (TA135, 2008) and maintenance (TA190, TA402). Generic since 2016.", smc: "accepted" }),
   notRec("ramucirumab", "ramucirumab", 378, 2016, "Advanced gastric or gastro-oesophageal junction cancer after chemotherapy", { note: "Also not recommended for NSCLC (TA403, 2016). HCC with high AFP appraised later. Not routinely available on the NHS." }),
-  notUk("lurbinectedin", "lurbinectedin", "Licensed in the US and EU but no UK marketing authorisation confirmed; NICE position not yet researched."),
+  notUk("lurbinectedin", "lurbinectedin", "Licensed in the US and, since 29 May 2026, in the EU for maintenance with atezolizumab in extensive-stage small-cell lung cancer; no UK marketing authorisation confirmed. NICE ended its appraisal of that use on 13 October 2026 without a recommendation, because the company withdrew its evidence submission (TA1198)."),
   rec("dabrafenib-trametinib", "dabrafenib with trametinib", 396, 2016, "Unresectable or metastatic BRAF V600-mutated melanoma", { note: "Adjuvant stage III melanoma: TA544 (2018). BRAF V600E NSCLC: TA898 (2023). Dabrafenib monotherapy: TA321 (2014). BRAF V600E low-grade and high-grade glioma in children and young people aged 1 year and over: TA977 (May 2024), recommended within the licence.", smc: "accepted" }),
   rec("vemurafenib", "vemurafenib", 269, 2012, "BRAF V600 mutation-positive unresectable or metastatic melanoma", { smc: "accepted" }),
   rec("cobimetinib", "cobimetinib", 414, 2016, "With vemurafenib for BRAF V600 mutation-positive melanoma", { smc: "accepted" }),

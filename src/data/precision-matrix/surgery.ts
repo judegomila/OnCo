@@ -248,7 +248,7 @@ export const rows: PrecisionRow[] = [
       { kind: "biology", text: "A size threshold trades false alarms for missed cancers: applied retrospectively to NLST, Lung-RADS lowered the false-positive rate after baseline from 21.8 to 5.3 per cent and sensitivity from 93.8 to 78.6 per cent.", source: doi("Performance of Lung-RADS in the National Lung Screening Trial: a retrospective assessment (Ann Intern Med 2015)", "10.7326/m14-2086", "Lung-RADS may substantially reduce the false-positive result rate; however, sensitivity is also decreased.") },
     ],
     nextStep: {
-      text: "Measuring nodule volume and growth between scans rather than diameter alone, as NELSON did: 9.2 per cent of screened men had an additional scan for an indeterminate result and 2.1 per cent were referred for a suspicious nodule.",
+      text: "Measuring nodule volume and growth between scans rather than diameter alone, as NELSON did: on average 9.2 per cent of screened participants had at least one additional scan for an initially indeterminate result and 2.1 per cent were referred for a suspicious nodule.",
       status: "available-not-routine",
       source: doi("Reduced Lung-Cancer Mortality with Volume CT Screening in a Randomized Trial (NEJM 2020)", "10.1056/NEJMoa1911793", "The overall referral rate for suspicious nodules was 2.1%."),
       relatedIds: ["nlst-nelson", "optellum-virtual-nodule-clinic", "idea-prev-lung-nodule-ai-discharge"],

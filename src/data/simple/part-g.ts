@@ -63,7 +63,7 @@ export const simpleG: Record<string, string> = {
   tislelizumab: "Tislelizumab is a Chinese-developed PD-1 blocker engineered to avoid a side-channel that may blunt other PD-1 drugs, approved in the US for food pipe and stomach cancer.",
   camrelizumab: "Camrelizumab is one of China's most widely used PD-1 blockers, approved there for food pipe, liver, lung and other cancers, but not approved in the US.",
   "platinum-etoposide": "Platinum plus etoposide has been the chemotherapy backbone of small-cell lung cancer for over forty years, and is now given together with immunotherapy.",
-  lurbinectedin: "Lurbinectedin is a marine-derived chemotherapy that jams cancer's gene-reading machinery, approved for relapsed small-cell lung cancer and, since 2025, as first-line maintenance with atezolizumab.",
+  lurbinectedin: "Lurbinectedin is a marine-derived chemotherapy that jams cancer's gene-reading machinery, approved since 2025 as maintenance with atezolizumab; its US approval for relapsed disease was removed in 2026.",
   topotecan: "Topotecan is the long-standing second-line chemotherapy for relapsed small-cell lung cancer, and now the comparator that new drugs such as tarlatamab must beat.",
   serplulimab: "Serplulimab is a Chinese PD-1 antibody with the largest survival gain of any first-line small-cell lung cancer immunotherapy trial, approved in China, Europe and the UK but not the US.",
   pemetrexed: "Pemetrexed is the chemotherapy that, with a platinum drug, became the first approved treatment for mesothelioma in 2004, and is still the backbone today.",

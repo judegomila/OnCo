@@ -373,7 +373,7 @@ export const regionalApprovals: Record<string, RegionalRow> = {
   topotecan: global("Hycamtin", "hycamtin", 1996, 1996, 1996, 2000, 2000, 1998),
   cabazitaxel: global("Jevtana", "jevtana", 2010, 2011, 2011, 2014, 2020, 2011),
   trabectedin: { US: A(2015), EU: A(2007, epar("yondelis"), "EU first (Sep 2007), soft-tissue sarcoma"), UK: A(2007, mhra("Yondelis")), JP: A(2015, PMDA), AU: A(2010, tga("Yondelis")) },
-  lurbinectedin: { US: A(2020), EU: V(A(2026, epar("zepzelca"), "Maintenance with atezolizumab in ES-SCLC after first-line induction; 29 May 2026")), AU: A(2023, tga("Zepzelca")) },
+  lurbinectedin: { US: A(2020, undefined, "Maintenance with atezolizumab in ES-SCLC after first-line induction (2 October 2025)", "First approved on 15 June 2020 under accelerated approval for relapsed small-cell lung cancer; the US label effective 30 September 2026 records that indication as removed"), EU: V(A(2026, epar("zepzelca"), "Maintenance with atezolizumab in ES-SCLC after first-line induction; 29 May 2026")), AU: A(2023, tga("Zepzelca")) },
   nalirifox: { US: A(2024, undefined, "Onivyde + oxaliplatin/5-FU/LV for 1L metastatic PDAC"), EU: A(2016, epar("onivyde-pegylated-liposomal"), "Onivyde 2L after gemcitabine (2016); first-line NALIRIFOX indication added by a 2024 variation"), UK: A(2016, mhra("Onivyde")), AU: A(2018, tga("Onivyde")) },
   bortezomib: global("Velcade", "velcade", 2003, 2004, 2004, 2006, 2005, 2005),
   carfilzomib: global("Kyprolis", "kyprolis", 2012, 2015, 2015, 2016, 2021, 2015),

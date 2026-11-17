@@ -268,7 +268,7 @@ export const simpleB: Record<string, string> = {
   mariposa: "The first regimen to beat osimertinib in EGFR lung cancer on survival: 60 in 100 alive at three years, against 51 in 100.",
   "tropion-lung01": "A TROP2 antibody-drug helped in one type of lung cancer but not another, and did not clearly extend life.",
   "codebreak-300": "Showed that a KRAS drug needs an EGFR antibody partner to work in bowel cancer.",
-  "dellphi-304": "The first immune-cell-recruiting drug to help people live longer with a common solid tumour.",
+  "dellphi-304": "An immune-cell-recruiting drug that helped people live longer than chemotherapy did when small-cell lung cancer, a common solid tumour, came back.",
   "checkmate-067": "The trial with the longest immune drug follow-up: about half of patients on the combination alive at ten years.",
   "interpath-001": "The first positive big trial of a personalised cancer vaccine, announced in August 2026.",
   "ev-302": "Nearly doubled survival in advanced bladder cancer, ending 40 years of chemotherapy as the standard.",
